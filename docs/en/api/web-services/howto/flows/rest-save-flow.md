@@ -1,16 +1,23 @@
 ---
-uid: api-flows-save-emailflow
-title: Flows
+uid: api-rest-flow-save
+title: Save email flow
 description: Save email flow
+keywords: flow, EmailFlow, SaveEmailFlow
 author: Eivind Fasting
-so.date: 06.12.2024
-keywords: Flows
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: concept
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Save email flow
 
-The following example contains a [default email flow][1] with [triggers][2] and [steps][3], and demonstrates how you create a new flow with these attributes.
+The following example illustrates a [default email flow][1] featuring [triggers][2] and [steps][3], demonstrating the creation of a new flow with these components.
+
+This action creates a flow within SuperOffice, and the returned object includes the `EmailFlowId`, which uniquely identifies the flow. Additionally, you can retrieve an existing flow using the [GetEmailFlow Agent][4].
+
+## Request
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/v1/Agents/Workflow/SaveEmailFlow HTTP/1.1
@@ -117,11 +124,8 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-This creates an Flow inside of SuperOffice, and the returned object should contain the EmailFlowId, which is the unique identification of the Flow.
-It is also possible to get an existing Flow through the [GetEmailFlow_Agent][4]
-
-<!-- Reference links -->
-[1]: ./flows-createdefault-emailflow.md
-[2]: ./flows-create-trigger.md
-[3]: ./flows-create-step.md
+<!-- Referenced links -->
+[1]: rest-create-default-email-flow.md
+[2]: rest-create-flow-trigger.md
+[3]: rest-create-flow-step.md
 [4]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md

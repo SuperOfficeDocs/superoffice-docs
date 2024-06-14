@@ -1,19 +1,26 @@
 ---
-uid: api-flows-create-step
-title: Flows
+uid: api-rest-flow-create-step
+title: Create a Step object
 description: Create a Step object
+keywords: flow, EmailFlow, step, CreateDefaultWorkflowStepFromType, WorkflowStepId, StepType
 author: Eivind Fasting
-so.date: 06.12.2024
-keywords: Flows
-so.topic: concept
+so.date: 05.24.2024
+so.version: 10.3.5
+so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Create a Step object
 
-Use the [CreateDefaultWorkflowStepFromType][1] endpoint in the REST API to create a new carrier with defaults set, based on the [type of step][2].
-This returns a pre-populated Step object, pre-defined with values depending on what StepType was selected.
+Use the [CreateDefaultWorkflowStepFromType][1] REST endpoint to generate a new carrier with default settings, based on the [type of step][2]. This endpoint returns a pre-populated `Step` object configured with values corresponding to the selected `StepType`.
 
-Example
+Similar to triggers, `WorkflowStepId` and `WorkflowId` are automatically assigned by the system upon creation and are not mandatory. These properties are excluded in the examples.
+
+> [!NOTE]
+> If no Rank is specified in the Step object, the system will determine the Rank automatically based on the order of elements in the object.
+
+## Request
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType HTTP/1.1
@@ -26,7 +33,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-Response
+## Response
 
 ```json
 {
@@ -67,12 +74,6 @@ and
 }
 ```
 
-> [!NOTE]
-> As with Triggers, the WorkflowStepId and WorkflowId are not mandatory, as they are set automatically by the system when created. The properties are removed in the examples
-
-If no Rank is defined in the Step object, the system will automatically decide Rank depending of the order of the elements in the object.
-
-<!-- REFERENCE LINKS -->
-
+<!-- Referenced links -->
 [1]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
 [2]: ../../../../database/tables/enums/workflowsteptype.md

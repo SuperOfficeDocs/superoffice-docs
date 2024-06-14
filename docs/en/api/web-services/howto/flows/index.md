@@ -1,35 +1,57 @@
 ---
-uid: api-flows-index
-title: Flows
+uid: api-flows
+title: Introduction to flow APIs
 description: Introduction to working with Flows through the API
+keywords: flow, EmailFlow
 author: Eivind Fasting
 so.date: 05.24.2024
-keywords: Flows
+so.version: 10.3.5
 so.topic: concept
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# Introduction to working with Flows through the API
+# Introduction to working with flows through the APIs
 
-A flow is an automated sequence of marketing-related steps, such as sending a message, updating participant information, or creating an activity. The conceptual overview of Flow can be found in the [Marketing automation - flows][1], and this page will focus on how to create a Flow through the API.
+A flow is an automated sequence of marketing-related steps, such as sending a message, updating participant information, or creating an activity. For a conceptual overview, see [the Learn - Marketing section][1]. This page details how to create flows using the API.
 
 ## Creating an EmailFlow
 
-Creating a new EmailFlow can be done by:
+To create a new flow programmatically:
 
-1. [Create default email flow][4] with the [CreateDefaultEmailFlow Agent][2].
-2. [Create Triggers][5] and inject them into the email flow object created in step 1.
-3. [Create Steps][6] and inject them into the email flow object created in step 1.
-4. [Save the Email Flow][7] through [SaveEmailFlow Agent][3].
+1. [Create a default `EmailFlow` object][4]: Start with the [CreateDefaultEmailFlow Agent][2] to initialize a new flow.
 
-> [!NOTE]
-> Code-examples can also be found on [git][8]!
+    ```http
+    POST /api/v1/Agents/Workflow/CreateDefaultEmailFlow
+    ```
+
+1. [Add triggers][5]: Include triggers (in the `EmailFlow` object) to set conditions for when a person is suggested as participant in the flow.
+
+    ```http
+    POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
+    ```
+
+1. [Add steps][6]: Define and incorporate steps (into the `EmailFlow` object) to sequence the flow of actions.
+
+    ```http
+    POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType
+    ```
+
+1. [Save the flow][7]: Use the [SaveEmailFlow Agent][3] to finalize and save the configured email flow.
+
+    ```http
+    POST /api/v1/Agents/Workflow/SaveEmailFlow
+    ```
+
+> [!TIP]
+> Explore code examples on [GitHub][8]!
 
 <!-- Referenced links -->
 [1]: ../../../../marketing/flows/learn/index.md
 [2]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
 [3]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
-[4]: ./flows-createdefault-emailflow.md
-[5]: ./flows-create-trigger.md
-[6]: ./flows-create-step.md
-[7]: ./flows-save-emailflow.md
+[4]: rest-create-default-email-flow.md
+[5]: rest-create-flow-trigger.md
+[6]: rest-create-flow-step.md
+[7]: rest-save-flow.md
 [8]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/eivinds/src/Flow.http

@@ -309,14 +309,14 @@ items:
     - name: Flows
       href: web-services/howto/flows/index.md
       items:
-      - name: How to create an email flow
-        href: web-services/howto/flows/flows-createdefault-emailflow.md
-      - name: How to create triggers
-        href: web-services/howto/flows/flows-create-trigger.md
-      - name: How to create steps
-        href: web-services/howto/flows/flows-create-step.md
-      - name: How to save email flow
-        href: web-services/howto/flows/flows-save-emailflow.md
+      - name: Create email flow
+        href: web-services/howto/flows/rest-create-default-email-flow.md
+      - name: Create triggers
+        href: web-services/howto/flows/rest-create-flow-trigger.md
+      - name: Create steps
+        href: web-services/howto/flows/rest-create-flow-step.md
+      - name: Save email flow
+        href: web-services/howto/flows/rest-save-flow.md
 - name: Entities
   href: entities/index.md
   items:

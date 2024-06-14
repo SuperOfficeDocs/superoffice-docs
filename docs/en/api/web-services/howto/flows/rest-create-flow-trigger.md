@@ -1,19 +1,24 @@
 ---
-uid: api-flows-create-trigger
-title: Flows
+uid: api-rest-flow-create-trigger
+title: Create a Trigger object
 description: Create a Trigger object
+keywords: flow, EmailFlow, trigger, CreateDefaultWorkflowTrigger, WorkflowTrigger
 author: Eivind Fasting
-so.date: 06.12.2024
-keywords: Flows
-so.topic: concept
+so.date: 05.24.2024
+so.version: 10.3.5
+so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Create a Trigger object
 
-[Triggers are automated starting points for the flow][1]. It is possible to add multiple triggers for more entry points, and apply additional filters to target contacts that will enter the flow.
-The [CreateDefaultWorkflowTrigger][2] endpoint in the REST API will return a pre-populated default Workflow Trigger, which can be used as a starting-point for a new trigger.
+[Triggers][1] serve as automated starting points for flows, allowing for multiple entry points and additional filters to target specific contacts. Utilize the REST [CreateDefaultWorkflowTrigger][3] endpoint to retrieve a pre-populated default `WorkflowTrigger`, ideal for initiating new triggers.
 
-Request
+> [!NOTE]
+> A new trigger can be saved alongside a [new flow][6] by including it in the flow object. Alternatively, a trigger can be saved to an existing flow using the [SaveWorkflowTrigger Agent][4].
+
+## Request
 
 ```http
 POST https://{{env}}.superoffice.com/{{tenant}}/v1/Agents/Workflow/CreateDefaultWorkflowTrigger HTTP/1.1
@@ -21,7 +26,7 @@ Authorization: Bearer {{access_token}}
 Accept: application/json
 ```
 
-Response
+## Response
 
 ```json
 {
@@ -34,14 +39,16 @@ Response
 }
 ```
 
-Some key properties are described more in detail, as they are relevant to understand through the rest of the content of this page:
+### Key properties
 
-1. WorkflowTriggerId - This is the unique identification of the Trigger. This is set by the system upon saving the Flow, and should not be set manually.
-2. WorkflowId - Unique Id for the EmailFlow. This will automatically be set to the id of the Flow, if the Trigger is a part of the object passed inn when saving a Flow.
-3. TriggerType - Name of the [type of trigger][3] that is being created. Note that its the name of the TriggerType and not the enumValue that should be inserted!
-4. RestrictionGroups - This is the actual restriction/selection for what the Trigger should execute on. RestrictionGroups look similar to how ArchiveRestrictionGroup work for [Find][5].
+| Property | Description |
+|---|---|
+| WorkflowTriggerId | Unique identifier assigned by the system upon saving the trigger. Should not be set manually. |
+| WorkflowId | Unique identifier for the flow. Automatically set to the flow's ID if the trigger is part of the flow. |
+| TriggerType | Name (not the enumValue) of the trigger type being created. Refer to the [type of trigger][2] documentation for details. |
+| RestrictionGroups | Specifies the conditions under which the trigger should execute. Similar to `ArchiveRestrictionGroup` for [Find][5]. |
 
-Example of edited Trigger object
+## Example of edited Trigger object
 
 ```json
 {
@@ -67,7 +74,7 @@ Example of edited Trigger object
 }
 ```
 
-Response
+**Response:**
 
 ```json
 {
@@ -118,13 +125,10 @@ Response
 }
 ```
 
-> [!NOTE]
-> It is possible to save a new Trigger when you [save a new Flow][6], by including it in the flow object, or save a trigger to an existing Flow using the [SaveWorkflowTrigger_Agent][4]
-
 <!-- Referenced links -->
-[1]: ../../../../marketing/flows/learn/create.md#define-flow-start-trigger-and-filters
-[2]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
-[3]: ../../../../database/tables/enums/workflowtriggertype.md
+[1]: ../../../../marketing/flows/learn/create.md#trigger
+[2]: ../../../../database/tables/enums/workflowtriggertype.md
+[3]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
 [4]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
-[5]: ../../../../api/search/find-selection/index.md
-[6]: ./flows-save-emailflow.md
+[5]: ../../../search/find-selection/index.md
+[6]: rest-save-flow.md
