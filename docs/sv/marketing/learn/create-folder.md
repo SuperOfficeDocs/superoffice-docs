@@ -1,31 +1,35 @@
 ---
 uid: help-sv-marketing-create-folder
-title: Så här skapar du en mapp i Marknadsföring
+title: Så skapar du en mapp
 description: Så här skapar du en mapp i Marknadsföring
+keywords: Marknadsföring, mapp
 author: SuperOffice RnD
-so.date: 09.07.2022
-keywords: Marknadsföring
-so.topic: help
+so.date: 06.14.2024
+so.version: 10.3.5
+so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Så skapar du en mapp
 
-Det är alltid en bra idé att definiera en välorganiserad mappstruktur så att du får en bättre översikt över dina utskick, formulär, mallar, länkar och bilder i SuperOffice Marknadsföring.
+Det är alltid en bra idé att definiera en välorganiserad mappstruktur för att få bättre överblick över dina utskick, formulär, flöden, mallar, länkar och bilder i SuperOffice Marketing.
 
-Du kan skapa undermappar i alla mappar och lägga relevanta utskick, formulär, mallar, länkar och bilder i var och en av dessa undermappar.
+## Steg
 
-**Steg:**
+1. Välj en av huvudflikarna i SuperOffice Marketing.
+2. Klicka på knappen **Lägg till mapp**.
+3. Ange ett beskrivande namn för mappen i fältet **Namn**.
+4. Klicka på **OK**. Om den nya mappen inte visas i listan, välj fliken **Min ...** eller **Alla ...**.
 
-1. Välj en av huvudflikarna i SuperOffice Marknadsföring.
+## Undermappar
 
-2. Tillval: Öppna en befintlig mapp och skapa en undermapp i den. Du måste eventuellt klicka på knappen **Alla ...** först.
+Du kan skapa undermappar i alla mappar, och du kan placera relevant marknadsföringsmaterial i var och en av dessa mappar.
 
-3. Klicka på knappen **Lägg till mapp** ![ikon][img1]. Dialogrutan **Egenskaper för mapp** visas.
+Gör ett av följande:
 
-4. Ange ett beskrivande namn på mappen i fältet **Namn**.
-
-5. Klicka på **OK**. Om mappen inte visas i listan, klicka på knappen **Mina ...** eller **Alla ...**.
+* Öppna en befintlig mapp innan du klickar på **Lägg till mapp**. Du kan behöva välja fliken **Alla ...** först.
+* Klicka först på **Lägg till mapp** och välj sedan en huvudmapp från listan **Skapa som undermapp till**.
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png

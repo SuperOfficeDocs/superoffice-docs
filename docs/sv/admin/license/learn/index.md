@@ -1,20 +1,18 @@
 ---
 uid: help-sv-licenses
-title: CRM och licenser
-description: CRM och licenser
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: SuperOffice och licenser
+description: SuperOffice och licenser
 keywords: licens
+author: SuperOffice RnD
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: concept
 language: sv
 ---
 
 # SuperOffice och licenser
 
-För att logga in i SuperOffice CRM från en webbklient behöver du följande licenser:
-
-* Inloggningsbehörighet till SuperOffice CRM
-* En systemlicens för Standard CRM
+För att logga in i SuperOffice CRM från en webbklient behöver du inloggningsbehörighet till SuperOffice CRM och en Essential eller Premium användarlicens.
 
 ## Visa licensinformation
 
@@ -31,42 +29,30 @@ För att logga in i SuperOffice CRM från en webbklient behöver du följande li
 | System | Anger vilka system du har åtkomst till. |
 | SuperOffice Server | Krävs för att använda SuperOffice CRM. |
 | Online Web Services | Krävs för åtkomst till SuperOffice CRM från en webbklient. |
-| Area Management | Gör det möjligt att definiera områden under Inställningar och underhåll. |
 | Sales Intelligence | Möjliggör [SAINT statusövervakning][2]. |
-| Exchange Synchronizer | Gör det möjligt att använda SuperOffice Synchronizer.
+| Exchange Synchronizer | Gör det möjligt att använda SuperOffice Synchronizer. |
 | SuperOffice Expander Services | Ger tillgång till funktioner för anonyma och externa användare via SuperOffice Audience eller tredjepartsprogram, bland annat. |
 | Customer Centre | Ger tillgång till Kundcenter. |
 | Sales Quote Management | Ger tillgång till offerter. |
 
-## Platslicenser
+## Användarlicenser (planer)
 
-Det finns också så kallade platslicenser. En *plats* i SuperOffice motsvarar en databas eller satellitdatabas. En platslicens definierar följande:
+Slutligen finns det användarlicenser för SuperOffice CRM, som köps för ett specifikt antal användare. Detta gäller bland annat följande produkter:
 
-| Licens | Beskrivning |
-|---|---|
-| Satellite | Antal satellitdatabaser som ditt företag kan definiera. |
-| Reporter Studio | Det maximala antalet platser som kan använda SuperOffice Reporter Studio. |
-| Audience | Det maximala antalet platser som kan använda SuperOffice Audience. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing-Essentials
+* Marketing-Premium
 
-## Användarlicenser (Windows – äldre)
+Läs mer om [SuperOffice användarplaner och abonnemang][6].
 
-Slutligen finns det användarlicenser för SuperOffice CRM for Windows som köps för ett bestämt antal användare. Detta gäller bland annat följande produkter:
+## Platslicenser och Användarlicenser (Windows – äldre)
 
-| Licens | Beskrivning |
-|---|---|
-| Standard CRM-användare | Åtkomst till Standard CRM. |
-| Marknadsföringsanvändare | Åtkomst till marknadsföringsmodulen (SuperOffice Marketing), i tillägg till Standard CRM. |
-| Säljanvändare | Åtkomst till säljmodulen, i tillägg till Standard CRM. |
-| Service-användare | Åtkomst till SuperOffice Service, i tillägg till Standard CRM. |
-| Fullständig CRM-användare | Åtkomst till Standard CRM, säljmodulen och SuperOffice Service. |
-| Windows-app | Åtkomst till Windows-klienten för SuperOffice CRM. |
-| Remote Travel | Åtkomst till Remote Travel, som möjliggör synkronisering mellan den lokala databasen och den centrala SuperOffice-databasen när användaren är ute på resa. |
-| Pocket CRM | Åtkomst till Pocket CRM-appen för SuperOffice CRM. |
-| Outlook Synchronizer | Åtkomst till synkronisering med Outlook. |
-| Sale Quote Access | Åtkomst till offertmodulen, i tillägg till Standard CRM. |
+Licenser för SuperOffice CRM för Windows (senaste versionen [SuperOffice G8 8.5 R17][5]) köps för ett specifikt antal användare.
 
-> [!NOTE]
-> Du tilldelar användarlicenser (CAL/Client Access Licence) till användare från fliken **Medarbetare** i fönstret Användare.
+Läs mer om licenser i [tidigare versioner av SuperOffice][7].
 
 ## Relaterade ämnen
 
@@ -79,5 +65,8 @@ Slutligen finns det användarlicenser för SuperOffice CRM for Windows som köps
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/SE/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

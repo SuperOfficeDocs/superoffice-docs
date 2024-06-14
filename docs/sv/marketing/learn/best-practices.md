@@ -4,8 +4,8 @@ title: Bästa praxis
 description: Bästa praxis
 keywords: Marknadsföring
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.23.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: howto
 language: sv
 so.audience: person
@@ -76,6 +76,16 @@ Men om du lägger till en ej validerad eller felstavad e-postadress kan det skad
 Administratörer kan [lägga till validerad domän][6] under Inställningar och underhåll för att se till att användarna väljer rätt och autentiserad domän.
 
 Innehållsförfattare kommer att se ett meddelande om de använder en ej validerad e-postadress i Från-fältet, som en påminnelse om att använda autentiserade domäner. Detta kommer också att hjälpa till att undvika stavfel i domänen för e-postutskick.
+
+## Automatisering (endast pilot)
+
+* Ange en maximal väntetid för att undvika att deltagare förblir aktiva i ett flöde för alltid.
+
+* Uppdatera deltagare med ny information under flödet. Till exempel, ange ett nytt intresse eller en ny kategori när personen utvecklas; lägg till och ta bort dem från listor.
+
+* För att undvika duplicerade eller motstridiga åtgärder: Inkludera alla åtgärder på ett ställe, antingen i formuläret eller i flödet.
+
+* Du kan uppnå samma effekt genom att ha en uppdelning i ett flöde eller arrangera kommunikationen i två olika flöden. Om du ska dela upp eller definiera flera flöden beror på scenariot och vilket resultat du vill spåra. Ju mer två kommunikationsspår har gemensamt, desto mer effektivt är det för användaren att arrangera det inom samma flöde.
 
 ## <a id="mobile" />Anpassa meddelandet för visning på mobila enheter
 

@@ -66,7 +66,7 @@ Under **Systemmeddelanden** hittar du följande kolumner:
 | Meddelande | Visar en beskrivning av händelsen. |
 | Aktiverat | Visar när händelsen initierades. |
 | Aktiverad av | Visar vem som initierade händelsen (användar-ID och porträtt). |
-| Avslutat | Visar när händelsen beräknas vara avslutad.
+| Avslutat | Visar när händelsen beräknas vara avslutad. |
 | Typ | Visar om händelsen avser hela systemet. |
 
 ## Relaterade ämnen

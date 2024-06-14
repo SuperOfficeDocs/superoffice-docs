@@ -4,8 +4,8 @@ title: SuperOffice Marknadsföring
 description: "Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet."
 keywords: Marknadsföring
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: concept
 language: sv
 so.audience: person
@@ -22,6 +22,7 @@ I SuperOffice Marknadsföring kan du skapa följande:
 
 * **Utskick** (e-postmeddelanden, SMS, dokument och formulärsvar). [Kom igång med ditt första utskick][5].
 * **Formulär**. [Kom igång med ditt första formulär][1].
+* **Flöden** (i pilot från version 10.3.5).
 
 Titta på den här videon med en produktgenomgång och få en introduktion till funktionerna i SuperOffice Marknadsföring (videons längd – 2:31):
 
@@ -78,6 +79,23 @@ SMS-utskick är inte tillgängligt om du använder CRM Online.
 
 För att dra nytta av marknadsföringsfunktioner i SuperOffice behöver du ha en grundläggande förståelse för hur du registrerar grundläggande CRM-uppgifter, till exempel kategorier för företag och kontakter, intressen och abonnemangstyper på kontakter (läs mer om GDPR och integritet) och hur du använder urval. Dessa steg för att registrera uppgifter hjälper dig att segmentera din kundbas och skapa en effektiv mållista. Om du vill veta hur du konfigurerar marknadsföringsrelaterade funktioner, se avsnittet Hantera listor i Inställningar och underhåll.
 
+## Skillnader mellan Marketing Essentials och Marketing Premium
+
+* **Essentials:** Verktygen du behöver för att bättre rikta och kommunicera med potentiella kunder och kunder.
+
+* **Premium:** Låser upp kraften i CRM-data för personliga och automatiserade kundresor.
+
+| Funktion | Essentials | Premium |
+|---|:-:|:-:|
+| Lead capture | x | x |
+| Leadgenerering och leadnurturing | | x |
+| Kundkommunikation | x | x |
+| Segmenterade e-postkampanjer | x | x |
+| Onboarding och adoption | | x |
+| Automatisering av kundresor | | x |
+| Cross-sell och up-sell-främjande | | x |
+| Marknadsföring/försäljning-anpassning | x | x |
+
 ## Skillnader mellan lokala installationer och onlineinstallationer
 
 SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett lokalt program (installerat hos kunden). Det finns mindre skillnader mellan de två programmen. Specifika funktionsskillnader anges med ikonerna i själva procedurerna eller i avsnittsrubrikerna.
@@ -94,6 +112,7 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 | Formulär | Innehåller alla formulär och skapa nya formulär. | [Skapa nytt formulär][1] |
 | Formulärmallar | Innehåller alla formulärmallar. | [Arbeta med formulärmallarna][18] |
 | Formulärinlämningar | Innehåller inskickade formulär. | [Formulärinlämningar][19] |
+| Flöden | Innehåller alla flöden och skapar nya. | [Skapa ett nytt flöde][20] |
 
 ## Vad vill du göra nu?
 
@@ -119,6 +138,7 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

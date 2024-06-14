@@ -4,8 +4,8 @@ title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
 keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
-so.date: 02.26.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: howto
 language: sv
 so.audience: person
@@ -33,7 +33,7 @@ Du kan dra nytta av den insamlade informationen på flera sätt:
 
 ## Tillgängliga åtgärder
 
-Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna information kan förbättra segmenteringen eller hjälpa till att följa upp med intresserade individer.
+Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna information kan förbättra segmenteringen eller hjälpa till att följa upp med intresserade individer. Du kan välja mer än en åtgärd för en spårad länk.
 
 | Flik | Åtgärd |
 |---|---|
@@ -46,7 +46,7 @@ Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna informa
 | [Skript](#script) | Köra ett skript. |
 
 > [!TIP]
-> Du kan välja mer än en åtgärd för en spårad länk.
+> När du uppdaterar en spårad länk, kom ihåg att den kan användas av flera e-postmeddelanden och/eller automatiserade flöden (en pilotfunktion). Du bör säkerställa att det inte finns några duplicerade eller motstridiga åtgärder.
 
 ## <a id="response" />Svar
 
