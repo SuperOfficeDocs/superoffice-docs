@@ -65,4 +65,4 @@ Some key properties are described more in detail, as they are relevant to unders
 Additional properties can be found in the documentation for [CreateDefaultEmailFlow Agent][1].
 
 <!-- Reference links -->
-[1]: ../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
+[1]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md

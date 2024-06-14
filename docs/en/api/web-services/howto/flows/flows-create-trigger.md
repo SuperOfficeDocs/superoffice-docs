@@ -122,9 +122,9 @@ Response
 > It is possible to save a new Trigger when you [save a new Flow][6], by including it in the flow object, or save a trigger to an existing Flow using the [SaveWorkflowTrigger_Agent][4]
 
 <!-- Referenced links -->
-[1]: ../../../marketing/flows/learn/create.md#define-flow-start-trigger-and-filters
-[2]: ../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
-[3]: ../../../database/tables/enums/workflowtriggertype.md
-[4]: ../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
-[5]: ../../../api/search/find-selection/index.md
+[1]: ../../../../marketing/flows/learn/create.md#define-flow-start-trigger-and-filters
+[2]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
+[3]: ../../../../database/tables/enums/workflowtriggertype.md
+[4]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
+[5]: ../../../../api/search/find-selection/index.md
 [6]: ./flows-save-emailflow.md

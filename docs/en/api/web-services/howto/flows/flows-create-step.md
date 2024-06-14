@@ -74,5 +74,5 @@ If no Rank is defined in the Step object, the system will automatically decide R
 
 <!-- REFERENCE LINKS -->
 
-[1]: ../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
-[2]: ../../../database/tables/enums/workflowsteptype.md
+[1]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
+[2]: ../../../../database/tables/enums/workflowsteptype.md

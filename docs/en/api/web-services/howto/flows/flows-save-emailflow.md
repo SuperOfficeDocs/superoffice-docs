@@ -124,4 +124,4 @@ It is also possible to get an existing Flow through the [GetEmailFlow_Agent][4]
 [1]: ./flows-createdefault-emailflow.md
 [2]: ./flows-create-trigger.md
 [3]: ./flows-create-step.md
-[4]: ../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md
+[4]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md

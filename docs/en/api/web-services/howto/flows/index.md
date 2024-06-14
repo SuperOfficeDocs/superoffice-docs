@@ -25,11 +25,11 @@ Creating a new EmailFlow can be done by:
 > Code-examples can also be found on [git][8]!
 
 <!-- Referenced links -->
-[1]: ../../marketing/flows/learn/index.md
-[2]: ../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
-[3]: ../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
-[4]: ./howto/flows-createdefault-emailflow.md
-[5]: ./howto/flows-create-trigger.md
-[6]: ./howto/flows-create-step.md
-[7]: ./howto/flows-save-emailflow.md
+[1]: ../../../../marketing/flows/learn/index.md
+[2]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
+[3]: ../../../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
+[4]: ./flows-createdefault-emailflow.md
+[5]: ./flows-create-trigger.md
+[6]: ./flows-create-step.md
+[7]: ./flows-save-emailflow.md
 [8]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/eivinds/src/Flow.http
