@@ -306,6 +306,17 @@ items:
         href: web-services/howto/custom-objects/get-udef-list-and-values.md
       - name: Find contact by udef
         href: web-services/howto/custom-objects/find-contact-by-udef.md
+    - name: Flows
+      href: web-services/howto/flows/index.md
+      items:
+      - name: How to create an email flow
+        href: web-services/howto/flows/flows-createdefault-emailflow.md
+      - name: How to create triggers
+        href: web-services/howto/flows/flows-create-trigger.md
+      - name: How to create steps
+        href: web-services/howto/flows/flows-create-step.md
+      - name: How to save email flow
+        href: web-services/howto/flows/flows-save-emailflow.md
 - name: Entities
   href: entities/index.md
   items:
