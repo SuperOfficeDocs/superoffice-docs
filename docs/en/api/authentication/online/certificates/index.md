@@ -64,12 +64,15 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
     * The certificates are not [configured correctly][4].
     * There are hidden characters in the value field - such as an "&shy;" character.
 
+> [!NOTE]
+> If you deploy your application in a restricted environment where you don't have access to the certificate store, e.g. Azure or similar, you can [override][6] the default resolver to validate the jwt security token directly instead.
+
 <!-- Referenced links -->
 [1]: ../../../../developer-portal/getting-started/app-envir.md
 [2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md
 [5]: ../../../../../assets/downloads/api/superofficeonlinecertificates.zip
-
+[6]: ./override-resolver.md
 <!-- Referenced images -->
 [img1]: media/certificateheirarchy.png
