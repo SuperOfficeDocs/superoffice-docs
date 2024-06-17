@@ -51,4 +51,4 @@ HTTP/1.1 204 No Content
 ```
 
 <!-- Referenced links -->
-[1]: ../../../api/reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_DeleteRow.md
+[1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_DeleteRow.md

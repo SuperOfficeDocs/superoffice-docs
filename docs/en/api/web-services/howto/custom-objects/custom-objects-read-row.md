@@ -66,4 +66,4 @@ Content-Type: application/json; charset=utf-8
 ```
 
 <!-- Referenced links -->
-[1]: ../../../api/reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_ReadRow.md
+[1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_ReadRow.md
