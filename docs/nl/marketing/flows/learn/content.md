@@ -1,8 +1,8 @@
 ---
 uid: help-nl-flow-content
-title: Flow-inhoud
-description: Flow-inhoud
-keywords: Marketing, flow, flow-inhoud, inhoud
+title: Flowinhoud
+description: Flowinhoud
+keywords: Marketing, flow, flowinhoud, inhoud
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
 so.version: 10.3.5
@@ -13,9 +13,9 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Flow-inhoud
+# Flowinhoud
 
-Flow-inhoud zijn e-mails (en formulieren) die in een flow worden gebruikt.
+Flowinhoud zijn e-mails (en formulieren) die in een flow worden gebruikt.
 
 Het maakt niet uit of u de inhoud eerst voorbereidt of na het ontwerpen van de flow. Ook, of verschillende gebruikers met inhoud en flowconfiguratie werken - of als dezelfde gebruiker alles voorbereidt - is aan u.
 
@@ -25,50 +25,50 @@ Om de voorbereide inhoud voor een specifieke flow te bekijken:
 
 1. Ga naar **Marketing** > **Flows**.
 1. Dubbelklik om een flow te selecteren.
-1. Selecteer het tabblad **Flow-inhoud**.
+1. Selecteer het tabblad **Inhoud flow**.
 
 ![Inhoud van Welkom e-mail flow -screenshot][img1]
 
 ## Nieuwe inhoud maken
 
-### E-mail maken - als flow-editor
+### E-mail maken - als inhoud-editor
 
-1. Op het tabblad **Flow-inhoud**, in de linkerbenedenhoek, voer een naam in voor de nieuwe e-mail en klik op **Aanmaken**. Dit opent de Mailing wizard bij de stap **Sjabloon**.
+1. Op het tabblad **Inhoud flow**, in de linkerbenedenhoek, voer een naam in voor de nieuwe e-mail en klik op **maken**. Dit opent de Mailing wizard bij de stap **Sjabloon**.
 
-    ![Flow-inhoud - nieuwe e-mail maken -screenshot][img3]
+    ![Flowinhoud - nieuwe e-mail maken -screenshot][img3]
 
 1. Kies een sjabloon en klik op **Volgende**.
 
-    ![Flow-inhoud - sjabloon kiezen -screenshot][img4]
+    ![Flowinhoud - sjabloon kiezen -screenshot][img4]
 
 1. Stel de e-mail samen (zoals u een klassieke mailing zou doen).
 
-    ![Flow-inhoud - samenstellen -screenshot][img5]
+    ![Flowinhoud - samenstellen -screenshot][img5]
 
     * [Inhoud toevoegen][3], [Een alinea bewerken][4]
-    * [Klant specifieke informatie invoegen][5]
-    * [Tracking link invoegen][6]
+    * [Klantspecifieke informatie invoegen][5]
+    * [Gevolgde link invoegen][6]
     * [Abonnementslinks toevoegen][8] om GDPR-compliant te zijn
     * [Afbeeldingen aan het bericht toevoegen][2]
 
 1. Sluit de e-mailstap en klik op **Opslaan**.
 
-### E-mail maken - als flow-beheerder
+### E-mail maken - als flow-administrator
 
 1. Open de Flow-editor en ga naar de e-mailstap.
 
-    ![Flow-stap - nieuwe e-mail maken -screenshot][img6]
+    ![Flowstap - nieuwe e-mail maken -screenshot][img6]
 
 1. Kies een sjabloon en stel de e-mail samen zoals hierboven beschreven (beginnend bij stap 2).
 
 > [!NOTE]
-> U kunt niet op **Bewerken** klikken als de flow actief is. Als u de flow niet wilt pauzeren terwijl u meer inhoud voorbereidt, kunt u een nieuw stuk inhoud maken en voorbereiden vanuit het tabblad **Flow-inhoud**.
+> U kunt niet op **Bewerken** klikken als de flow wordt uitgevoerd. Als u de flow niet wilt pauzeren terwijl u meer inhoud voorbereidt, kunt u een nieuw stuk inhoud maken en voorbereiden vanuit het tabblad **Inhoud flow**.
 
 ### Formulier maken
 
 Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 
-## Flow-inhoud toevoegen aan e-mailstap
+## Flowinhoud toevoegen aan e-mailstap
 
 1. Open de Flow-editor.
 1. Klik om de e-mailstap te selecteren waar u inhoud wilt toevoegen.
@@ -81,13 +81,13 @@ Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 ## Voorbereide inhoud bewerken
 
 > [!NOTE]
-> U kunt de flow-inhoud die in een stap is opgenomen niet bewerken zonder de flow te pauzeren.
+> U kunt de flowinhoud die in een stap is opgenomen niet bewerken zonder de flow te pauzeren.
 
-**Als een flow-editor:**
+**Als een inhoud-editor:**
 
-1. Klik op het tabblad **Flow-inhoud** op de menuknop ![icoon][img11] bij de e-mail die u wilt bijwerken en selecteer **Bewerken**.
+1. Klik op het tabblad **Inhoud flow** op de menuknop ![icoon][img11] bij de e-mail die u wilt bijwerken en selecteer **Bewerken**.
 
-**Als een flow-beheerder:**
+**Als een flow-administrator:**
 
 1. Open de Flow-editor en ga naar de e-mailstap.
 1. Klik op het **Bewerk**-pictogram in de e-mailvoorbeeld.

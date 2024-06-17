@@ -1,8 +1,8 @@
 ---
 uid: help-nl-flow-participants
-title: Flow participants
-description:
-keywords: Marketing, flow
+title: Deelnemers
+description: Een volledig overzicht van alle deelnemers binnen de flow.
+keywords: Marketing, flow, deelnemer, inschrijvin, actief
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
 so.version: 10.3.5
@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Deelnemers aan de flow
+# Deelnemers
 
 ## Stappen
 
@@ -30,14 +30,14 @@ Gebruik het tandwielpictogram ![icon][img4] in de kop van de lijst om de kolomme
 
 ![Deelnemerslijst van de flow, kolommen aanpassen -screenshot][img2]
 
-## Deelnemer status
+## Deelnemerstatus
 
 | Status | Beschrijving |
 |---|---|
 | Actief | Deelnemer is actief in de flow​. |
 | Voltooid | Deelnemer heeft alle stappen in de flow voltooid​. |
 | Voltooid met succes | Deelnemer heeft de flow voltooid en het succescriterium vervuld. Opgenomen in het succespercentage van de flow​. |
-| Afgevallen | Deelnemer is uitgevallen, altijd met een gespecificeerde reden voor uitval. |
+| Dropout | Deelnemer is uitgevallen, altijd met een gespecificeerde reden voor uitval. |
 | Geannuleerd | Deelnemer zal de flow niet voltooien omdat een beheerder de flow heeft beëindigd. |
 
 ## <a id="logic" />Inschrijving en voortgang door de flow

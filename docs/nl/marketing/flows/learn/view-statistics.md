@@ -1,8 +1,8 @@
 ---
 uid: help-nl-flow-view-statistics
-title: View statistics for flow
-description:
-keywords: Marketing, flow
+title: Statistieken weergeven
+description: Analyseer de resultaten van je flow
+keywords: Marketing, flow, statistieken, succespercentage, rapporten
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
 so.version: 10.3.5
@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Analyseer de resultaten van je flow
+# Statistieken weergeven
 
 SuperOffice verzamelt statistieken en resultaten voor elke flow die je uitvoert.
 
@@ -35,7 +35,7 @@ Om statistieken over je flow te bekijken, ga naar het **Flows** tabblad en klik 
   * **Voltooid:** Totaal aantal deelnemers met status = Voltooid / Voltooid met succes.
   * **Succespercentage:** Percentage van alle deelnemers met status Voltooid met succes.
 
-  **Essentiële info:** status (Niet actief/Actief/Pauze), eigenaar, zichtbaar voor (associatie/groep/allemaal), laatst bijgewerkt, beschrijving
+  **Essentiële info:** status (Wordt uitgevoerd/Wordt niet uitgevoerd/Gepauzeerd), eigenaar, zichtbaar voor (associatie/groep/allemaal), laatst bijgewerkt, beschrijving
 
 * **Rapporten:** Toont grafieken met statistieken voor de flow, gebruikt om de prestaties te monitoren. Een alleen-lezen dashboard met vooraf gedefinieerde tegels. De dataset is beperkt tot de huidige flow - geen filtering.
 

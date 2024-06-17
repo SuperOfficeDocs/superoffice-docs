@@ -1,11 +1,11 @@
 ---
 uid: help-nl-flow-update
-title: Update flow
-description:
+title: Flow bewerken
+description: Flow bewerken
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
-so.version: 10.3.5
+so.version: 10.3.7
 so.topic: howto
 language: nl
 so.audience: person
@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Update flow
+# Flow bewerken
 
 Het is handig om te beginnen met een eenvoudige flow en deze uit te breiden na het monitoren van de prestaties. Mogelijk wilt u ook een flow bijwerken tijdens het ontwerpen ervan.
 
@@ -28,17 +28,17 @@ Om wijzigingen aan te brengen:
 > [!NOTE]
 > De wijzigingen die u aanbrengt bij een stap hebben alleen invloed op nieuwe deelnemers en actieve deelnemers die die stap nog niet hebben bereikt.
 
-## Update flow-instellingen, succescriteria en/of trigger
+## Flow-instellingen, succescriteria en/of trigger bewerken
 
-Net zoals bij het [aanmaken van een flow][2].
+Net zoals bij het [maken van een flow][2].
 
 ## Stap toevoegen
 
-Net zoals bij het [aanmaken van een flow][3].
+Net zoals bij het [maken van een flow][3].
 
-## Update stapinstellingen
+## Stapinstellingen bewerken
 
-1. Klik op een stap in het stroomdiagram om de stapinstellingen te openen.
+1. Klik op een stap in het diagram om de stapinstellingen te openen.
 2. Afhankelijk van het type stap kunt u:
 
     * Eigenschappen van nieuwe activiteiten bijwerken.
@@ -54,13 +54,13 @@ Net zoals bij het [aanmaken van een flow][3].
 Handige bronnen:
 
 * [Lijst van beschikbare instellingen voor elke stap][6].
-* [Split-flow][5]
+* [Flow opsplitsen][5]
 * [Wachttijd en wacht op actie][4]
 * [Inhoud toevoegen][7]
-* [Activiteit aanmaken][9]
+* [Activiteit maken][9]
 * [Persoon bijwerken][8]
-* [Selectie aanmaken][11]
-* [Formulier aanmaken][10]
+* [Selectie maken][11]
+* [Formulier maken][10]
 
 ## Stap verplaatsen, dupliceren of verwijderen
 
@@ -69,13 +69,13 @@ Handige bronnen:
 * **Verwijderen:** Wijs naar een stap en klik op het rode X-pictogram. Hiermee wordt de stap uit de flow verwijderd (maar de inhoud ervan niet).
 
 > [!NOTE]
-> Wanneer u een e-mailstap dupliceert, maakt de Flow-editor ook een **kopie van de e-mailinhoud**. U kunt deze nieuwe flow-inhoud onafhankelijk bewerken van de e-mailinhoud in de stap die is gedupliceerd.
+> Wanneer u een e-mailstap dupliceert, maakt de Flow-editor ook een **kopie van de e-mailinhoud**. U kunt deze nieuwe flowinhoud onafhankelijk bewerken van de e-mailinhoud in de stap die is gedupliceerd.
 >
 > Wanneer u een e-mailstap verwijdert, wordt alleen de stap uit de flow verwijderd. De e-mailinhoud wordt niet verwijderd.
 
 ## Flow verwijderen
 
-[Zie *Run, pause, and end flow*][1].
+[Zie *Flow uitvoeren, pauzeren en beëindigen*][1].
 
 ## Problemen oplossen
 
@@ -88,13 +88,13 @@ Er zijn enkele beperkingen wanneer u een flow bewerkt nadat deze is gestart om a
 
 ### Kan stap niet verplaatsen of verwijderen
 
-* U kunt een **Wachttijd**, **Wacht op actie** of **Split** stap niet verplaatsen of verwijderen als er actieve deelnemers in de stap zijn.
+* U kunt een **Wachttijd**, **Wacht op actie** of **Opsplitsen** stap niet verplaatsen of verwijderen als er actieve deelnemers in de stap zijn.
 
 Ga naar het tabblad **Deelnemers** en controleer de kolom **Huidige stap** om een geschikt moment te vinden om te pauzeren en de stappen in de flowcontrol te bijwerken.
 
 ### Kan tak niet verwijderen
 
-* U kunt de tak 'Iedereen anders' niet verwijderen.
+* U kunt de tak 'Alle anderen' niet verwijderen.
 * U kunt geen tak verwijderen als er actieve deelnemers op zitten.
 
 Ga naar het tabblad **Flow** om te controleren of er iemand op de tak zit. Indien ja, ga dan naar het tabblad **Deelnemers** voor details. Hoe u deze deelnemers afhandelt, is aan u. Enkele opties om te overwegen:

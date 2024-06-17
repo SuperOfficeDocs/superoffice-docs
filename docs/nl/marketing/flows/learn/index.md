@@ -1,11 +1,11 @@
 ---
 uid: help-nl-flows
 title: Marketing automatisering - flows
-description: Inleiding tot SuperOffice marketingautomatisering en flows
+description: Inleiding tot SuperOffice marketingautomatisering en flows.
 keywords: Marketing, flow, automatisering, klantsegment, klantreis, segment, campaign, succespercentage, succescriteria
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
-so.version: 10.3.5
+so.version: 10.3.7
 so.topic: howto
 language: nl
 so.audience: person
@@ -67,7 +67,7 @@ Flows ondersteunen verschillende manieren van werken​. Plan en maak inhoud voo
 
 SuperOffice Marketing heeft 1 tabblad met betrekking tot flows.
 
-![Marketing Flows panel -screenshot][img1]
+![Marketing Flows tabblad -screenshot][img1]
 
 Het **tabblad Flows** stelt je in staat om nieuwe flows te maken en eerder gemaakte flows te bekijken. Gebruik de secundaire rij tabs (Alle, Recent, Wordt uitgevoerd) en het zoekvak om de beschikbare flows te verkennen. Dubbelklik op een flow om details ervan te bekijken.
 

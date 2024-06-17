@@ -1,21 +1,21 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Nieuw flow maken
+- name: Nieuwe flow maken
   href: create.md
 - name: Flow bewerken
   href: update.md
-- name: Split flow
+- name: Flow opsplitsen
   href: split.md
-- name: Flow acties definiëren
+- name: Flowacties definiëren
   href: define-flow-actions.md
 - name: Nieuwe inhoud
   href: content.md
 - name: Veldopties
   href: step-settings.md
-- name: Run, pause, and end flow
+- name: Flow uitvoeren, pauzeren en beëindigen
   href: run-pause-end.md
-- name: Participants
+- name: Deelnemers
   href: participants.md
 - name: Statistieken weergeven
   href: view-statistics.md

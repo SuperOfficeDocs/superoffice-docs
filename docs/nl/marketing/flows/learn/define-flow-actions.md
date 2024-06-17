@@ -1,11 +1,11 @@
 ---
 uid: help-nl-flow-actions
-title: Define flow actions
-description:
-keywords: Marketing, flow
+title: Definieer flowacties
+description: Definieer flowacties
+keywords: Marketing, flow, flowactie, script uitvoeren
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
-so.version: 10.3.5
+so.version: 10.3.7
 so.topic: howto
 language: nl
 so.audience: person
@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Definieer flow-acties
+# Definieer flowacties
 
 ## Beschikbare acties
 
@@ -23,7 +23,7 @@ so.pilot: yes
 * [Interne acties](#internal)
 
 > [!NOTE]
-> Bij het toevoegen of bijwerken van flow-acties moet u er rekening mee houden dat formulieren en bijgehouden links ook acties hebben. Zorg ervoor dat er geen dubbele of conflicterende acties zijn. We raden aan om alle acties op één plek op te nemen, ofwel in het formulier of in de flow.
+> Bij het toevoegen of bijwerken van flowacties moet u er rekening mee houden dat formulieren en bijgehouden links ook acties hebben. Zorg ervoor dat er geen dubbele of conflicterende acties zijn. We raden aan om alle acties op één plek op te nemen, ofwel in het formulier of in de flow.
 
 ## <a id="send" />Bericht verzenden
 
@@ -37,7 +37,7 @@ Overwegingen:
 
 Een e-mailstap wordt gebruikt om een e-mail te verzenden naar een actieve flow-deelnemer. U kunt een al voorbereide e-mail selecteren of een nieuwe toevoegen.
 
-1. Sleep de **E-mail verzenden**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **E-mail verzenden**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
     > [!NOTE]
     > Wanneer u een e-mailstap toevoegt, moet u e-mailinstellingen opgeven voordat u de flow start. Als deze instellingen ontbreken, ziet u een waarschuwingssymbool (zoals in de onderstaande screenshot). U kunt de flow nog steeds opslaan! Ga eenvoudig door met het ontwerpen van de flow en keer later terug naar de e-mailinstellingen.
@@ -45,26 +45,26 @@ Een e-mailstap wordt gebruikt om een e-mail te verzenden naar een actieve flow-d
 1. Kies een van de opties:
 
     * Maak een nieuwe e-mail voor deze stap. Voer een naam in en klik op **maken**. Dit opent de Mailing wizard bij de stap **Sjabloon**.
-    * Selecteer een bestaande e-mail voor deze stap. Klik om flow-inhoud te selecteren.
+    * Selecteer een bestaande e-mail voor deze stap. Klik om inhoud te selecteren.
 
-1. Voer het **onderwerp** van de e-mail in. Contactvariabelen (merge tags) zijn beschikbaar.
+1. Voer het **onderwerp** van de e-mail in. Contactvariabelen zijn beschikbaar.
 
 1. Voeg optioneel één of meer bijlagen toe (maximaal 25 MB totaal).
 
 ![E-mailstap toevoegen aan flow -screenshot][img1]
 
 > [!NOTE]
-> Het maken van een nieuwe e-mail als flow-inhoud is alleen mogelijk vanuit de flow-UI.
+> Het maken van een nieuwe e-mail als flowinhoud is alleen mogelijk vanuit de flow-UI.
 
 ### SMS verzenden
 
 Een SMS-stap wordt gebruikt om een SMS te verzenden naar een actieve flow-deelnemer.
 
-Flow-deelnemers zonder geregistreerd telefoonnummer kunnen de stap overslaan (doorgaan naar de volgende stap) of de flow verlaten, afhankelijk van de stapinstellingen.
+Deelnemers zonder geregistreerd telefoonnummer kunnen de stap overslaan (doorgaan naar de volgende stap) of de flow verlaten, afhankelijk van de stapinstellingen.
 
-1. Sleep de **SMS verzenden**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **SMS verzenden**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
-1. Voer de afzender en de SMS-tekst in. Contactvariabelen (merge tags) zijn beschikbaar.
+1. Voer de afzender en de SMS-tekst in. Contactvariabelen zijn beschikbaar.
 
 1. Selecteer optioneel **Flow verlaten als er geen mobiel telefoonnummer is geregistreerd** en kies hoe u omgaat met contacten die de SMS niet kunnen ontvangen.
 
@@ -81,7 +81,7 @@ Flow-deelnemers zonder geregistreerd telefoonnummer kunnen de stap overslaan (do
 
 Gebruik deze stap om relevante gegevens over een persoon of hun bedrijf bij te werken, voordat de deelnemer naar de volgende stap in de flow gaat.
 
-1. Sleep de **Persoon bijwerken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Persoon bijwerken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
 1. Selecteer een veld om bij te werken in de **Veld**-kolom. U kunt ook de naam typen in het veld. Naarmate u elke letter typt, worden relevante overeenkomsten weergegeven.
 
@@ -95,13 +95,13 @@ Gebruik deze stap om relevante gegevens over een persoon of hun bedrijf bij te w
 
 ![Contactgegevens bijwerken in flow -screenshot][img2]
 
-Dit werkt vergelijkbaar met [massaal bijwerken][11].
+Dit werkt vergelijkbaar met [bulksgewijs bijwerken][11].
 
 ### Toevoegen aan selectie/project
 
 Houd overzicht over degenen die zich hebben aangemeld, of betrokken waren, of volg ze later op.
 
-1. Sleep de **Toevoegen aan selectie en/of project**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Toevoegen aan selectie/project**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
 1. Voeg persoon toe aan statische selectie: kies een statische contactselectie uit de lijst of klik op **Nieuw** om een nieuwe te maken.
 
@@ -114,31 +114,31 @@ Houd overzicht over degenen die zich hebben aangemeld, of betrokken waren, of vo
 
 Persoon wordt verwijderd als lid uit de gespecificeerde selectie en/of project.
 
-Deze stap is vergelijkbaar met **Toevoegen aan selectie en/of project**.
+Deze stap is vergelijkbaar met **Toevoegen aan selectie/project**.
 
 ## <a id="create" />Activiteit maken
 
-De flow kan automatisch een vervolg, verzoek en/of verkoop maken bij het persoon volgens de instellingen. Door CRM-activiteiten en meldingen te koppelen, kan uw organisatie de kloof tussen marketing en verkoop overbruggen. Het maken van activiteiten stelt u ook in staat zich te richten op contacten die betrokken zijn.
+De flow kan automatisch een vervolgactiviteit, verzoek en/of verkoop maken bij het persoon volgens de instellingen. Door CRM-activiteiten en meldingen te koppelen, kan uw organisatie de kloof tussen marketing en verkoop overbruggen. Het maken van activiteiten stelt u ook in staat zich te richten op contacten die betrokken zijn.
 
-### Vervolg maken
+### Vervolgactiviteit maken
 
 Voorbeeld: Stel een gratis consult in op de eerste beschikbare tijd in de agenda van Onze contactpersoon. Ze worden op de hoogte gebracht in het **Meldingen**-paneel.
 
-1. Sleep de **Vervolg maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Vervolgactiviteit maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
 1. Voer een titel in.
 
-1. Selecteer een vervolgstype.
+1. Selecteer een type.
 
 1. Specificeer een vervaldatum voor een to-do of reserveer de eerste beschikbare tijd voor een vergadering.
 
 1. Wijs toe aan: kies wie de deelnemer moet opvolgen: "onze contactpersoon" of "onze servicecontactpersoon", of een specifiek benoemde collega.
 
-1. Voer optioneel andere informatie in. Zie voor details de [lijst met stapinstellingen][1] en [hoe u een vervolg kunt maken][12].
+1. Voer optioneel andere informatie in. Zie voor details de [lijst met stapinstellingen][1] en [hoe u een vervolgactiviteit kunt maken][12].
 
 ### Verzoek maken
 
-1. Sleep de **Verzoek maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Verzoek maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 
 1. Voer een beschrijvende **titel** in.
 
@@ -151,7 +151,7 @@ Voorbeeld: Stel een gratis consult in op de eerste beschikbare tijd in de agenda
     * **Automatisch toegewezen:** Als u deze optie selecteert, wijst het systeem het verzoek toe volgens de van toepassing zijnde toewijzingsregels.
     * **Niet toegewezen:** U kunt er ook voor kiezen om het verzoek niet toe te wijzen. De leden van de relevante categorie worden dan verantwoordelijk voor de afhandeling van het verzoek.
 
-1. Voer de feitelijke boodschap in die u aan het verzoek wilt toevoegen
+1. Voer de feitelijke boodschap in die u aan het verzoek wilt toevoegen.
 
 Voor details, zie de [lijst met stapinstellingen][1] en [hoe u een verzoek kunt maken][13].
 
@@ -159,14 +159,14 @@ Voor details, zie de [lijst met stapinstellingen][1] en [hoe u een verzoek kunt 
 
 Wanneer een persoon deze stap bereikt, is het persoon volwassen geworden en heeft het aanwijzingen gegeven dat het een verkoopkans is.​
 
-1. Sleep de **Verkoop maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Verkoop maken**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 1. Voer een beschrijvende **titel** in.
 1. Selecteer een verkoopstype, wat van invloed is op standaardwaarden en beschikbare fasen.
 1. Voer de vereiste informatie in de andere velden in.
 1. Eigenaar: Kies wie deze lead moet opvolgen: "onze contactpersoon" of "onze servicecontactpersoon", of een specifiek benoemde collega.
 
     > [!NOTE]
-    > Voeg ook een vervolg toe om de eigenaar van de verkoop op de hoogte te stellen van deze nieuwe kans​.
+    > Voeg ook een vervolgactiviteit toe om de eigenaar van de verkoop op de hoogte te stellen van deze nieuwe kans​.
 
 Voor details, zie de [lijst met stapinstellingen][1] en [hoe u een verkoop kunt maken][18].
 
@@ -174,15 +174,15 @@ Voor details, zie de [lijst met stapinstellingen][1] en [hoe u een verkoop kunt 
 
 ### Script uitvoeren
 
-Voer aangepaste bedrijfslogica uit door een CRM-script te activeren als onderdeel van de flow.
+Voer aangepaste bedrijfslogica uit door een CRMScript te activeren als onderdeel van de flow.
 
-1. Sleep de **Script uitvoeren**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Script uitvoeren**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 1. Kies een [CRMScript][20] uit de lijst.
 
 > [!NOTE]
 > De deelnemer gaat onmiddellijk naar de volgende stap nadat het script is geactiveerd, zonder te wachten op het resultaat.
 
-## Flow-actie vs. formulieractie
+## Flowactie vs. formulieractie
 
 Verschillende actietypen zijn mogelijk zowel als formulieractie als als flow-stap​.
 
@@ -194,7 +194,7 @@ Een [formulieractie][6] kan:
 * Een verzoek maken
 * Een formulierrespons verzenden naar persoon
 
-## Flow-actie vs. linkactie
+## Flowactie vs. linkactie
 
 Een [linkactie][7] kan:
 
@@ -202,7 +202,7 @@ Een [linkactie][7] kan:
 * Interesses bijwerken
 * Een waarde toevoegen aan een [extra veld][19] van persoon
 * Een verzoek maken
-* Een vervolg maken
+* Een vervolgactiviteit maken
 
 <!-- Referenced links -->
 [1]: step-settings.md

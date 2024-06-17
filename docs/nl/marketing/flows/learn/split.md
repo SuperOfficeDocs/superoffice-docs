@@ -1,11 +1,11 @@
 ---
 uid: help-nl-flow-split
-title: Flow control - split
-description:
-keywords: Marketing, flow
+title: Flow-controle - opsplitsen
+description: Flow-controle - opsplitsen
+keywords: Marketing, flow, opsplitsen, flow-controle, split-stap, tak, differentiëren, alle anderen
 author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 06.17.2024
-so.version: 10.3.5
+so.version: 10.3.7
 so.topic: howto
 language: nl
 so.audience: person
@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Marketing
 so.pilot: yes
 ---
 
-# Flow control - splits
+# Flow-controle - opsplitsen
 
 Een split-stap verdeelt de deelnemers van de flow in 2 of meer takken op basis van één of meerdere voorwaarden. Dit maakt het mogelijk om alternatieve paden te gebruiken en deelnemers anders te behandelen op basis van contactgegevens of betrokkenheid.
 
@@ -32,7 +32,7 @@ Wanneer de deelnemer bij de split komt, wordt eerst de voorwaarde van de **linke
 
 ## Stappen
 
-1. Sleep de **Split**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het stroomdiagram.
+1. Sleep de **Opsplitsen**-box uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 1. Voer een beschrijvende **titel** in.
 
     > [!TIP]
@@ -47,31 +47,31 @@ Wanneer de deelnemer bij de split komt, wordt eerst de voorwaarde van de **linke
 
 Alle anderen gaan door:
 
-![Marketing automatisering: split flow op basis van contactgegevens -screenshot][img1]
+![Marketing automatisering: flow opsplitsen basis van contactgegevens -screenshot][img1]
 
 Alle anderen verlaten:
 
-![Marketing automatisering: split flow op basis van contactgegevens -screenshot][img2]
+![Marketing automatisering: flow opsplitsen basis van contactgegevens -screenshot][img2]
 
 > [!NOTE]
 > Je kunt de tak "alle anderen" niet verwijderen.
 
 ### Split op basis van contactgegevens
 
-Wanneer je ervoor kiest om deelnemers te splitsen op basis van contactgegevens, kun je kiezen uit de persoon- en bedrijfscriteria die beschikbaar zijn in **Vind persoon**.
+Wanneer je ervoor kiest om deelnemers te splitsen op basis van contactgegevens, kun je kiezen uit de persoon- en bedrijfscriteria die beschikbaar zijn in **Persoon zoeken**.
 
-* Voor elke tak, [selecteer waarden voor het criterium][11] in de verschillende velden op de lijn (vergelijkbaar met in het Vind scherm). Klik op **Toevoegen** om meer criteria in te voegen.
+* Voor elke tak, [selecteer waarden voor het criterium][11] in de verschillende velden op de lijn (vergelijkbaar met in het Zoeken scherm). Klik op **Toevoegen** om meer criteria in te voegen.
 
-![Marketing automatisering: split flow op basis van bedrijfsgegevens -screenshot][img3]
+![Marketing automatisering: flow opsplitsen basis van bedrijfsgegevens -screenshot][img3]
 
 ### Split op basis van geklikte link
 
 Wanneer geselecteerd, verschijnt er een veld om aan te geven welke e-mail verschijnt.
 
 * E-mail: Kies **Elke e-mail** of een specifieke mailing.
-* Voor elke tak, selecteer welke [getrackte link][7] de deelnemer moet klikken om deze tak in te gaan.
+* Voor elke tak, selecteer welke [gevolgde link][7] de deelnemer moet klikken om deze tak in te gaan.
 
-![Marketing automatisering: split flow op basis van geklikte link -screenshot][img4]
+![Marketing automatisering: flow opsplitsen basis van geklikte link -screenshot][img4]
 
 ### Split op basis van formulier ingediend ja/nee
 
@@ -79,10 +79,10 @@ Wanneer geselecteerd, verschijnt er een veld om aan te geven welk formulier word
 
 * Formulier: Kies een specifiek formulier.
 
-![Marketing automatisering: split flow op basis van ingediend formulier -screenshot][img5]
+![Marketing automatisering: flow opsplitsen basis van ingediend formulier -screenshot][img5]
 
 > [!NOTE]
-> Deze split is onafhankelijk van de ingediende formuliergegevens. Er zijn geen branch-specifieke instellingen. Omdat dit een ja/nee-test is, kun je geen extra takken toevoegen.
+> Deze split is onafhankelijk van de ingediende formuliergegevens. Er zijn geen tak-specifieke instellingen. Omdat dit een ja/nee-test is, kun je geen extra takken toevoegen.
 
 ### Split op basis van formuliergegevens
 
@@ -91,9 +91,9 @@ Deze voorwaarde is een variant van de split op basis van ingediend formulier met
 Wanneer geselecteerd, verschijnt er een veld om aan te geven welk formulier wordt weergegeven.
 
 * Formulier: Kies een specifiek formulier.
-* Voor elke tak, selecteer waarden voor het criterium in de verschillende velden op de lijn (vergelijkbaar met in het Vind scherm). Beschikbare criteria zijn afhankelijk van de velden van het geselecteerde formulier. Klik op **Toevoegen** om meer criteria in te voegen.
+* Voor elke tak, selecteer waarden voor het criterium in de verschillende velden op de lijn (vergelijkbaar met in het Zoeken scherm). Beschikbare criteria zijn afhankelijk van de velden van het geselecteerde formulier. Klik op **Toevoegen** om meer criteria in te voegen.
 
-![Marketing automatisering: split flow op basis van formuliergegevens (contacteer mij) -screenshot][img6]
+![Marketing automatisering: flow opsplitsen basis van formuliergegevens (contacteer mij) -screenshot][img6]
 
 > [!NOTE]
 > In dit scenario betekent **alle anderen** zowel deelnemers die het formulier niet indienen *als* indieners die niet voldoen aan de aanvullende criteria op een van de andere takken.
@@ -102,7 +102,7 @@ Wanneer geselecteerd, verschijnt er een veld om aan te geven welk formulier word
 
 * Voor elke tak, selecteer aan welk project de deelnemer lid moet zijn.
 
-![Marketing automatisering: split flow op basis van lidmaatschap in project -screenshot][img7]
+![Marketing automatisering: flow opsplitsen basis van lidmaatschap in project -screenshot][img7]
 
 ### Split op basis van statische selectie
 
