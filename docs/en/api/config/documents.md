@@ -24,6 +24,9 @@ To restrict access to the document archive, specify domain credentials with read
   <add key="ArchivePassword" value="" />
   <add key="ArchiveDomain" value="" />
   <add key="BufferSize" value="1024" />
+  <add key="ArchiveRelativePath" value = "" />
+  <add key="TemplateRelativePath" value = "" />
+  <add key="TemporaryRelativePath" value = "" />
 </Documents>
 ```
 
@@ -39,6 +42,9 @@ To restrict access to the document archive, specify domain credentials with read
 | ImpersonateUser | Impersonate the user to access the document archive? If SO_ARC is located on a different server in the domain, you need to turn this on. Will also be used to write file streams to the temp area. See section ArchiveUser for further reference. | |
 | TemplatePath | The UNC path to document templates. If this value is not specified, the "Template" folder under ArchivePath is assumed. | |
 | TemporaryPath | Temporary folder for working with documents. If this value does not exist, the environment variable "TEMP" is used to find the temporary folder. Must resolve to the same location for farms/clusters. | |
+| ArchiveRelativePath | Directory path relative to Azure Blob Storage Container root used when running in public cloud. | |
+| TemplateRelativePath | Directory path relative to Azure Blob Storage Container root used when running in public cloud. | |
+| TemporaryRelativePath | Directory path relative to Azure Blob Storage Container root used when running in public cloud. | |
 
 ## ArchivePath
 
