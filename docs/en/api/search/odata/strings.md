@@ -72,3 +72,12 @@ Authorization: Bearer 8A:
 Content-Type: application/json
 Accept: application/json
 ```
+
+### One of (in)
+
+```http
+GET /api/v1/contact?$select=name,category&$filter=name in ('SuperOffice Software Limited', 'Owl') HTTP/1.1
+Authorization: Bearer 8A:
+Content-Type: application/json
+Accept: application/json
+```
