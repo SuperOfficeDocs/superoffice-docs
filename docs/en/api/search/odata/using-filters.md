@@ -14,7 +14,7 @@ so.topic: howto
 
 **ints**: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
-**strings**: contains, is, notBegins, notContains, isNot
+**strings**: contains, is, notBegins, notContains, isNot, in
 
 **associate**: associateIsOneOf, associateIsNotOneOf,
 
