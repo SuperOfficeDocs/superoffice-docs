@@ -4,8 +4,8 @@ title: Definer formuläråtgärder
 description: Definer formuläråtgärder
 keywords: formulär, automatisera, formuläråtgärd, formulärinlämning
 author: SuperOffice RnD
-so.date: 03.13.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: howto
 language: sv
 so.audience: person
@@ -59,6 +59,9 @@ Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (aut
 * **Standardkategori** / **Standardföretag**: Välj en standardkategori och ett företag för alla kontakter eller företag som har lagts till i SuperOffice baserat på inskickade formulär. Med det här alternativet kan du gruppera inskickade formulär och nya kontakter/företag till en specifik kategori och/eller företag.
 
     Om du till exempel har ett formulär för potentiella kunder, väljer du potentiella kunder som din kategori. Därefter kan du enkelt skapa urval baserat på denna kategori och/eller företag.
+
+> [!NOTE]
+> När du uppdaterar ett formulär, kom ihåg att det kan användas av flera kampanjer och/eller automatiserade flöden (en pilotfunktion). Se till att det inte finns några duplicerade eller motstridiga åtgärder.
 
 ## Vad vill du göra nu?
 

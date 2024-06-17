@@ -74,8 +74,7 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
 |---|---|---|
 | Planerat | Planeringsmöte (Möte inne) | Konferensprogram (Anteckning) |
 | Under arbete | Skapa lista över projektdeltagare (Händelse) | Konferensen (Möte ute) |
-| Avslutas | Utvärderingsmöte (Möte inne) |
-| Utvärderingsrapport (Anteckning) |
+| Avslutas | Utvärderingsmöte (Möte inne) | Utvärderingsrapport (Anteckning) |
 
 ### Statusen Planerat
 
