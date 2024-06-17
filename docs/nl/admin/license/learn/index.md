@@ -1,20 +1,18 @@
 ---
 uid: help-nl-licenses
-title: CRM en licenties
-description: CRM en licenties
+title: SuperOffice en licenties
+description: SuperOffice en licenties
+keywords: licentie, gebruikersplan
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: licentie
+so.date: 06.17.2024
+so.version: 10.3.5
 so.topic: concept
 language: nl
 ---
 
 # SuperOffice en licenties
 
-U hebt de volgende licenties nodig om u aan te melden bij SuperOffice CRM vanaf een webclient:
-
-* Aanmeldrechten voor SuperOffice CRM
-* Een systeemlicentie voor Standard CRM
+Toegang tot SuperOffice CRM vanuit een webclient vereist aanmeldrechten voor SuperOffice CRM en een Essential- of Premium-gebruikersplan.
 
 ## Licentie-informatie weergeven
 
@@ -31,42 +29,30 @@ U hebt de volgende licenties nodig om u aan te melden bij SuperOffice CRM vanaf 
 | Systeem | Geeft aan tot welke systemen u toegang heeft. |
 | SuperOffice Server | Vereist voor het gebruik van SuperOffice CRM. |
 | Online Web Services | Vereist voor toegang tot SuperOffice CRM vanaf een webclient. |
-| Area Management | Hiermee kunt u gebieden definiëren in Instellingen en onderhoud. |
 | Sales Intelligence | Hiermee kunnen [SAINT-statusmonitors worden toegestaan][2]. |
-| Exchange Synchronizer | Maakt het gebruik van SuperOffice Synchronizer mogelijk.
+| Exchange Synchronizer | Maakt het gebruik van SuperOffice Synchronizer mogelijk. |
 | SuperOffice Expander Services | Maakt onder meer het anonieme en externe gebruikers mogelijk via SuperOffice Audience of toepassingen van derden de functionaliteit te gebruiken. |
 | Customer Centre | Maakt gebruik van het Customer Centre mogelijk. |
 | Verkoopoffertebeheer | Maakt het gebruik van offertes mogelijk. |
 
-## Sitelicenties
+## Gebruikerslicenties (abonnementen)
 
-Er zijn ook zogenaamde sitelicenties. In SuperOffice komt het begrip *site* overeen met een database of een satellietdatabase. Een sitelicentie specificeert het volgende:
+Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangeschaft voor een specifiek aantal gebruikers. Dit geldt onder andere voor de volgende producten:
 
-| Licentie | Beschrijving |
-|---|---|
-| Satellite | Het aantal satellietdatabases dat uw organisatie kan definiëren. |
-| Reporter Studio | Het maximum aantal sites dat SuperOffice Reporter Studio kan gebruiken. |
-| Audience | Het maximum aantal sites dat SuperOffice Audience kan gebruiken. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing-Essentials
+* Marketing-Premium
 
-## Gebruikerslicenties (Windows - verouderd)
+Lees meer over [SuperOffice gebruikersplannen en abonnementen][6].
 
-Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM voor Windows die voor een bepaald aantal gebruikers zijn aangeschaft. Dit is onder meer van toepassing op de volgende producten:
+## Site- en gebruikerslicenties (Windows - verouderd)
 
-| Licentie | Beschrijving |
-|---|---|
-| Standaard CRM-gebruiker | Toegang tot standaard CRM. |
-| Marketinggebruiker | Toegang tot de Marketing-module (SuperOffice Marketing), in aanvulling op Standard CRM. |
-| Verkoopgebruiker | Toegang tot de Sale-module, in aanvulling op Standard CRM. |
-| Servicegebruiker | Toegang tot SuperOffice Service, in aanvulling op Standard CRM. |
-| Complete CRM-gebruiker | Toegang tot Standard CRM, Sale en SuperOffice Service. |
-| Windows App | Toegang tot de Windows-client voor SuperOffice CRM. |
-| Remote Travel | Toegang tot Remote Travel maakt synchronisatie mogelijk tussen de lokale database en de centrale SuperOffice-database wanneer de gebruiker onderweg is. |
-| Pocket CRM | Toegang tot de Pocket CRM-app voor SuperOffice CRM. |
-| Outlook Synchronizer | Toegang tot synchronisatie met Outlook. |
-| Toegang verkoopofferte | Toegang tot de Offerte-module, in aanvulling op Standard CRM. |
+Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5 R17][5]) worden aangeschaft voor een specifiek aantal gebruikers.
 
-> [!NOTE]
-> U wijst gebruikerslicenties (CAL/Client Access Licence) toe aan gebruikers in het dialoogvenster Gebruikers op het tabblad **Medewerkers**.
+Lees meer over licenties in [eerdere versies van SuperOffice][7].
 
 ## Verwante onderwerpen
 
@@ -79,5 +65,8 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM voor Windows die voo
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/NL/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

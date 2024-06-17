@@ -66,7 +66,7 @@ Onder **Systeemmeldingen** vindt u de volgende kolommen:
 | Bericht | Vermeldt de beschrijving van de gebeurtenis. |
 | Geactiveerd | Geeft aan wanneer de gebeurtenis van start is gegaan. |
 | Geactiveerd door | Toont wie de gebeurtenis initieerde (Gebruikers-ID en portret). |
-| Voltooid | Geeft aan wanneer de gebeurtenis naar verwachting voltooid zal zijn.
+| Voltooid | Geeft aan wanneer de gebeurtenis naar verwachting voltooid zal zijn. |
 | Type | Geeft aan of de gebeurtenis van toepassing is op het hele systeem. |
 
 ## Verwante onderwerpen

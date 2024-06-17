@@ -4,7 +4,8 @@ title: SuperOffice Marketing
 description: "De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen."
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 06.17.2024
+so.version: 10.3.5
 so.topic: concept
 language: nl
 so.audience: person
@@ -21,6 +22,7 @@ Met SuperOffice Marketing kunt u het volgende maken:
 
 * **Mailings** (e-mails, SMS, documenten en formulierantwoorden). [Aan de slag met uw eerste mailing][5].
 * **Formulieren**. [Aan de slag met uw eerste formulier][1].
+* **Flows** (alleen pilot).
 
 Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies (videolengte - 2:31):
 
@@ -77,6 +79,22 @@ SMS-mailing is niet beschikbaar als u CRM Online gebruikt.
 
 Om te profiteren van de marketingfuncties van SuperOffice, hebt u een basiskennis nodig van het registreren van elementaire CRM-gegevens, zoals categorieën over bedrijf en personen, interesses en abonnementstypen bij contactpersonen (lees meer over AVG en privacy) en hoe u selecties kunt gebruiken. Deze stappen voor het registreren van gegevens helpen u uw klantenbestand te segmenteren en een effectieve doellijst te maken. Als u wilt weten hoe u marketinggerelateerde functies kunt configureren, raadpleegt u het gedeelte Lijsten beheren in Instellingen en onderhoud.
 
+## Verschillen tussen Marketing Essentials en Marketing Premium
+
+* **Essentials:** De tools die je nodig hebt om beter te targeten en communiceren met prospects en klanten.
+* **Premium:** Ontgrendelt de kracht van CRM-gegevens voor gepersonaliseerde en geautomatiseerde klantreizen.
+
+| Functie | Essentials | Premium |
+|---|:-:|:-:|
+| Lead capture​ | x | x |
+| Lead generation en lead nurturing ​| | x|
+| Klantcommunicatie | x | x |
+| Gesegmenteerde e-mailcampagnes | x | x |
+| Onboarding en adoptie​ | | x |
+| Automatisering van klantreizen​ | | x |
+| Cross-sell en up-sell enablement​ | | x |
+| Marketing/verkoop afstemming​ | x | x |
+
 ## Verschillen tussen lokale en online installaties
 
 SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) en als lokale toepassing (geïnstalleerd op locatie bij de klant). Er zijn een paar kleine verschillen tussen deze twee. Specifieke functionele verschillen worden aangegeven door de pictogrammen in de procedures of in de titels van de onderwerpen.
@@ -93,6 +111,7 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 | Formulieren | Bevat alle formulieren en maakt nieuwe aan. | [Een nieuw formulier maken][1] |
 | Formuliersjablonen | Bevat alle formuliersjablonen. | [Werken met de formuliersjablonen][18] |
 | Formulierverzendingen | Bevat ingediende formulieren. | [Formulierverzendingen][19] |
+| Flows | Bevat alle flows en nieuwe maken. | [Maak een flow][20] |
 
 ## Wat wilt u nu doen?
 
@@ -118,6 +137,7 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
