@@ -16,6 +16,7 @@ This example shows how to get all the user-defined fields along with the field v
 
 > [!NOTE]
 > The code examples on this page use the nuget SOAP proxies, [SuperOffice.NetServer.Services][1].
+
 ![How to display all user-defined fields -screenshot][img1]
 
 ## Code
