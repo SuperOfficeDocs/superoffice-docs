@@ -1,9 +1,9 @@
 ---
+uid: override-certificate-resolver
 title: How to override the certificate resolver
-uid: override_certificate_resolver
 description: How to override the certificate resolver
-author: {github-id}
-keywords:
+keywords: certificate, resolve, validate, SuperOfficeFederatedLogin.crt, CertificateValidator, JWT security token, X509Certificate2
+author: AnthonyYates
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -32,7 +32,7 @@ This allows the certificate routines to bypass certificate validation, and direc
 
 For JWT security tokens, the application must override the `JwtIssuerSigningCertificate` property.
 
-The  X509Certificate2 constructor accepts a file name argument and is the file name of the certificate that will be used to validate the security token.
+The X509Certificate2 constructor accepts a file name argument and is the file name of the certificate that will be used to validate the security token.
 
 The full path to the  *App_Data* folder containing *SuperOfficeFederatedLogin.crt* is passed to the constructor.
 

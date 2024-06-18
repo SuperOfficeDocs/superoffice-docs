@@ -1,8 +1,11 @@
 ---
-title: certificates
-description: SuperID certificates
-author: {github-id}
-keywords: SuperID, certificates, PKI
+uid: superid-certificates
+title: SuperID certificates
+description: Introduction to SuperID certificates for SuperOffice CRM Online.
+keywords: SuperID, certificate, PKI, trust type, PeerTrust, SuperIdTokenHandler
+author: AnthonyYates, Eivind Fasting
+so.date: 06.18.2024
+so.envir: online
 ---
 
 # SuperID certificates
@@ -15,7 +18,7 @@ The different environments have different certificates used for signing and [val
 
 ## Certificate dependency tree
 
-![x][img1]
+![SuperOffice certificate dependency tree][img1]
 
 SuperOffice Online **Root Certificate Authority (CA)** is the root container for all SuperOffice Online certificates.
 
@@ -65,7 +68,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
     * There are hidden characters in the value field - such as an "&shy;" character.
 
 > [!NOTE]
-> If you deploy your application in a restricted environment where you don't have access to the certificate store, e.g. Azure or similar, you can [override][6] the default resolver to validate the jwt security token directly instead.
+> If you deploy your application in a restricted environment where you don't have access to the certificate store, such as Azure or similar, you can [override][6] the default resolver to validate the JWT security token directly instead.
 
 <!-- Referenced links -->
 [1]: ../../../../developer-portal/getting-started/app-envir.md
@@ -73,6 +76,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
 [3]: ../troubleshooting/index.md
 [4]: configure.md
 [5]: ../../../../../assets/downloads/api/superofficeonlinecertificates.zip
-[6]: ./override-resolver.md
+[6]: override-resolver.md
+
 <!-- Referenced images -->
 [img1]: media/certificateheirarchy.png
