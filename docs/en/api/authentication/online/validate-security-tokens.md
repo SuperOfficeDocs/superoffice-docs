@@ -30,7 +30,7 @@ Token validation establishes **trust** by the authentication mechanism. It ensur
 
 JWT is short for JSON web token:
 
-> A string representing a set of claims as a JSON object that is encoded in a JWS or JWE, enabling the claims to be digitally signed or MACed and/or encrypted. ([RFC7519][2]
+> A string representing a set of claims as a JSON object that is encoded in a JWS or JWE, enabling the claims to be digitally signed or MACed and/or encrypted. ([RFC7519][2])
 
 A JWT has 3 parts: header, payload, signature.
 

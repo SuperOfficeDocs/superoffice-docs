@@ -23,27 +23,27 @@ To better grasp the process, check out our visual walk-through:
 
 ## Key concepts
 
-- **System User**: A distinct user category that empowers an application to seamlessly access data without any limitations.
-  
-- **System User Token**: This "magic string" is received as a claim in the `id_token` when an administrative user authenticates your application for the first time.
-  
-- **System User Ticket**: This is a credential one receives as a claim in a JWT. It's generated when sending a signed version of the System User Token to the [PartnerSystemUser endpoint][8].
+* **System User**: A distinct user category that empowers an application to seamlessly access data without any limitations.
+
+* **System User Token**: This "magic string" is received as a claim in the `id_token` when an administrative user authenticates your application for the first time.
+
+* **System User Ticket**: This is a credential one receives as a claim in a JWT. It's generated when sending a signed version of the System User Token to the [PartnerSystemUser endpoint][8].
 
 ## Getting started
 
 Before delving into the System User flow, ensure you meet these two prerequisites:
 
 1. **Activate the System User Option**: While setting up your application in the [Developer Portal][1], choose the **Server to server** option.
-   
-   ![create-application-server-to-server.png -screenshot][img3]
+
+    ![create-application-server-to-server.png -screenshot][img3]
 
 2. **Acquire the System User Token**: An administrator needs to sign in to their tenant via [OAuth 2.0/OpenID Connect][10]. Once they approve the application after authentication, the `id_token` claim collection will contain the system user token.
 
 Remember, the system user token:
 
-- Is uniquely formatted: `Application Name-<random-number-of-characters>`.
-- Stays constant for each tenant and application combo.
-- Will remain unchanged throughout the application's life, unless rescinded by the client or app vendor.
+* Is uniquely formatted: `Application Name-<random-number-of-characters>`.
+* Stays constant for each tenant and application combo.
+* Will remain unchanged throughout the application's life, unless rescinded by the client or app vendor.
 
 ### From Token to Ticket
 
@@ -56,11 +56,11 @@ Remember, the system user token:
 
 An application can harness the system user ticket in multiple ways:
 
-- For HTTP requests in the Authorization header:
-  - Swap `Authorization Bearer <access_token>` for `Authorization SOTicket <ticket>`.
-  - The **SO-AppToken** header *has* to accompany the request, with the value being the OAuth 2.0 client_secret.
+* For HTTP requests in the Authorization header:
+  * Swap `Authorization Bearer <access_token>` for `Authorization SOTicket <ticket>`.
+  * The **SO-AppToken** header *has* to accompany the request, with the value being the OAuth 2.0 client_secret.
 
-- For SOAP API, use the ticket in the **User:Ticket** element, and the client_id in the **User:ApplicationToken** element.
+* For SOAP API, use the ticket in the **User:Ticket** element, and the client_id in the **User:ApplicationToken** element.
 
 ### [REST](#tab/rest)
 

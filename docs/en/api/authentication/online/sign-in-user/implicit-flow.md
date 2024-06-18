@@ -52,9 +52,9 @@ In the Implicit flow, the client application requests an ID token and possibly a
 
 | Parameter | Required | Description |
 |-----------|:--------:|-------------|
-| `response_type` | yes | Value is `id_token token` or `id_token`.
+| `response_type` | yes | Value is `id_token token` or `id_token`. |
 | `client_id` | yes | The client ID (application ID) assigned to your app when you registered with SuperOffice. |
-| `redirect_uri` | yes| The [redirection endpoint][4] of your app, where authentication responses are sent and received.<br>It must exactly match one of the URLs registered with SuperOffice.
+| `redirect_uri` | yes | The [redirection endpoint][4] of your app, where authentication responses are sent and received.<br>It must exactly match one of the URLs registered with SuperOffice. |
 | `nonce` | yes | String value used to associate a client session with an ID token, and to mitigate replay attacks.<br>Client must verify value. |
 | [`scope`][3] | yes | Must be `openid`. |
 | `state` | recommended | A value set by the Relying Party to maintain state between the request and the callback itself.<br>Included in the request and also returned in the token response. |
