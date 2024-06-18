@@ -1,8 +1,8 @@
 ---
 uid: api-custom-objects
-title: Custom objects
-description: Introduction to custom objects
-keywords: custom object
+title: Introduction to custom objects and fields
+description: Introduction to custom objects and fields
+keywords: custom object, custom field, extra table, extra field, udef, user-defined field
 author: Eivind Fasting
 so.date: 04.24.2024
 so.version: 10
@@ -11,7 +11,7 @@ so.audience: api
 so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# Introduction to custom objects
+# Introduction to custom objects and fields
 
 Custom objects are how a customer can either create new entities or extend existing entities inside SuperOffice, and are available in most search areas inside SuperOffice, including the API.
 
@@ -19,14 +19,32 @@ When an extra table is created, and has a field relation to a standard entity (C
 
 The [learn section][1] contains additional conceptual information and instructions for working with extra tables and custom fields in Settings and maintenance.
 
-This section will focus on how to work with Custom Objects, and explain how to use the API methods [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] to perform operations on an ExtraTable custom object. The [Search][6] documentation contains more details about how to perform searches based on these relations with an example.
+## Available samples
 
-> [!TIP]
-> Explore code examples on [GitHub][10]!
+### How to manage user-defined fields
+
+* [Get all user-defined fields][14]
+* [Create a user-defined field][15]
+* [Update a user-defined field][16]
+* [Delete a user-defined field][17]
+
+### How to work with user-defined field values
+
+* [Set udef list-item value][11]
+* [Get udef list and values][12]
+* [Find contact by udef][13]
+
+### CRUD operations on rows in extra tables
+
+* [Read row][2]
+* [Insert row][3]
+* [Upsert row][4]
+* [Delete row][5]
+* [Search][6] (based on relations)
 
 ## Related content
 
-* [How to work with and search for data based on user-defined fields][9]
+* [Explore custom-object code examples on GitHub][10]
 
 <!-- Referenced links -->
 [1]: ../../../../custom-objects/reference/index.md
@@ -35,7 +53,14 @@ This section will focus on how to work with Custom Objects, and explain how to u
 [4]: custom-objects-update-row.md
 [5]: custom-objects-delete-row.md
 [6]: custom-objects-search.md
-[9]: ../udef-fields/index.md
 [10]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
+
+[11]: set-udef-listitem-value.md
+[12]: get-udef-list-and-values.md
+[13]: find-contact-by-udef.md
+[14]: rest-get-all-udef-fields.md
+[15]: rest-create-udef-field.md
+[16]: rest-update-udef-field.md
+[17]: rest-delete-udef-field.md
 
 <!-- Referenced images -->
