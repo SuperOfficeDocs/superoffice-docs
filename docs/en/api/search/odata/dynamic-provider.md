@@ -11,7 +11,7 @@ so.topic: howto
 # The Dynamic Provider - the dot syntax
 
 This archive provider is as close to SQL queries as you can get. There is plenty of scope for shooting yourself in the foot. We provide all the built-in archive-providers so you don't have to deal with the
-complexity of the 
+complexity of the
 
 The following grammar defines what dot-syntax really is:
 
@@ -42,13 +42,11 @@ The dot syntax allows you to build your own custom query across whatever tables 
 
 You will need to reference the database schema to navigate the relations accordingly: @database-table-listing-by-name
 
-
 ## Examples
 
 ### Select: Category table
 
 `category.name` - the name of a category in the @table-Category
-
 
 ```http
 GET /api/v1/archive/dynamic?$select=category.name
@@ -87,7 +85,6 @@ Returns category names.
 ### Filtering
 
 `category.tooltip` - the description of the category
-
 
 ```http
 GET /api/v1/archive/dynamic?$select=category.name&$filter=category.tooltip contains 'a'
@@ -166,7 +163,6 @@ returns
 
 `category.category_id` - the primary key on the category
 `category.(contact->category_idx).name` - the primary key on the category right joined to contact table via the `category_idx` foreign key on the contact table.
-
 
 ```http
 GET /api/v1/archive/dynamic?$select=category.name,category.(contact->category_idx).name

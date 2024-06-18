@@ -67,7 +67,6 @@ Returns a list of archive provider names as an array:
 ]
 ```
 
-
 ## List of columns available in an archive
 
 ### OData

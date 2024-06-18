@@ -1,30 +1,32 @@
 ---
+uid: odata-filters
 title: Using filters
-uid: odata_filters
 description: Using ODATA filters
-author: {github-id}
-keywords: search,odata,webapi
-so.date:
+keywords: search, odata, webapi, filter
+author: Tony Yates, Eivind Fasting
+so.date: 06.18.2024
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Using filters
 
 ## Filter operators
 
-**ints**: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
+**ints:** eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
-**strings**: contains, is, notBegins, notContains, isNot
+**strings:** contains, is, notBegins, notContains, isNot, in
 
-**associate**: associateIsOneOf, associateIsNotOneOf,
+**associate:** associateIsOneOf, associateIsNotOneOf,
 
-**list IDs**: oneOf, NotOneOf,
+**list IDs:** oneOf, NotOneOf,
 
-**dates**: before, date, after, dateBetween, beforeToday
+**dates:** before, date, after, dateBetween, beforeToday
 
-**Unary ops**: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
+**Unary ops:** currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
-**Functions**: substringof(a,b), startswith(a,b), endswith(a,b)
+**Functions:** substringof(a,b), startswith(a,b), endswith(a,b)
 
 ## Example: get all companies with category 3
 
@@ -60,7 +62,7 @@ GET /api/v1/Contact?$select=name,category,number&$filter=category oneOf (3)
 
 ## Full mode
 
-Full mode returns raw values and display values separately
+Full mode returns raw values and display values separately.
 
 ```http
 GET /api/v1/Contact?$select=name,category,number&$filter=category%20oneOf%20(3)&$mode=FULL
@@ -70,7 +72,7 @@ Returns more information about each data point.
 
 ```json
 {
- value = [
+  value = [
     {
       "PrimaryKey": 25,
       "EntityName": "contact",

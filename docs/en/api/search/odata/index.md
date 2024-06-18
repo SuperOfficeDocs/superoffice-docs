@@ -80,7 +80,6 @@ All available columns, shown under the blue rectangle, are listed under the **Su
 
 ![GetSale -screenshot][img3]
 
-
 ## $filter operators
 
 Difference data types can have different operators. Each OData search page contains a table of data types and their associated operators.
@@ -103,7 +102,6 @@ Difference data types can have different operators. Each OData search page conta
 Read more about [using filters][3] and the [dynamic dot-syntax provider][14].
 
 You can fetch [metadata - information about archives][13] to do "reflection" on the available archives.
-
 
 ## Example searches
 
