@@ -56,7 +56,7 @@ The `Explicit` section allows an application to determine what type of users are
 | DBPassword | Database user password. | |
 | DBUser | Database user when running on behalf of explicitly authenticated users | |
 | EmployeeAllowed | Is employee access allowed? | true |
-| ExternalPersonAllowed | Is an [external person][3] allowed access? |
+| ExternalPersonAllowed | Is an [external person][3] allowed access? | |
 | PartnerAllowed | Is partner access allowed? | |
 | SystemAllowed | Is system user access allowed? | |
 

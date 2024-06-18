@@ -23,7 +23,7 @@ Configuration values related to the [WebAPI][2] web services.
 </WebApi>
 ```
 
-| Name | Description | Default
+| Name | Description | Default |
 |---|---|---|
 | AuthorizeWithImplicit | Allow WebAPI to authorize with implicit identity from IIS.| true |
 | AuthorizeWithTicket | Allow WebAPI to authorize with session tickets. | true |
