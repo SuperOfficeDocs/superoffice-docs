@@ -48,10 +48,10 @@ The [learn section][1] contains additional conceptual information and instructio
 
 <!-- Referenced links -->
 [1]: ../../../../custom-objects/reference/index.md
-[2]: custom-objects-read-row.md
-[3]: custom-objects-insert-row.md
-[4]: custom-objects-update-row.md
-[5]: custom-objects-delete-row.md
+[2]: rest-get-custom-object-row.md
+[3]: rest-add-custom-object-row.md
+[4]: rest-update-custom-object-row.md
+[5]: rest-delete-custom-object-row.md
 [6]: custom-objects-search.md
 [10]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
 

@@ -19,5 +19,5 @@ so.audience.tooltip: SuperOffice APIs and database
 
 <!-- Referenced links -->
 [1]: custom-objects/rest-get-all-udef-fields.md
-[2]: custom-objects/custom-objects-read-row.md
+[2]: custom-objects/rest-get-custom-object-row.md
 [3]: flows/index.md

@@ -68,7 +68,7 @@ Authorization: Bearer {{token}}
 > Make sure to adjust PageSize according to your use case.
 
 <!-- Referenced links -->
-[1]: custom-objects-read-row.md
-[2]: custom-objects-insert-row.md
-[3]: custom-objects-update-row.md
-[4]: custom-objects-delete-row.md
+[1]: rest-get-custom-object-row.md
+[2]: rest-add-custom-object-row.md
+[3]: rest-update-custom-object-row.md
+[4]: rest-delete-custom-object-row.md

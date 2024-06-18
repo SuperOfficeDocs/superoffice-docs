@@ -280,16 +280,16 @@ items:
       href: web-services/howto/custom-objects/index.md
       items:
       - name: Extra tables
-        topicHref: web-services/howto/custom-objects/custom-objects-read-row.md
+        topicHref: web-services/howto/custom-objects/rest-get-custom-object-row.md
         items:
         - name: How to insert row
-          href: web-services/howto/custom-objects/custom-objects-insert-row.md
+          href: web-services/howto/custom-objects/rest-add-custom-object-row.md
         - name: How to update row
-          href: web-services/howto/custom-objects/custom-objects-update-row.md
+          href: web-services/howto/custom-objects/rest-update-custom-object-row.md
         - name: How to read row
-          href: web-services/howto/custom-objects/custom-objects-read-row.md
+          href: web-services/howto/custom-objects/rest-get-custom-object-row.md1  
         - name: How to delete row
-          href: web-services/howto/custom-objects/custom-objects-delete-row.md
+          href: web-services/howto/custom-objects/rest-delete-custom-object-row.md
         - name: How to search
           href: web-services/howto/custom-objects/custom-objects-search.md
       - name: User-defined fields
