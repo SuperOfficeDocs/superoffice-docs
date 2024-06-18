@@ -1,11 +1,13 @@
 ---
+uid: rest-api-search-strings
 title: String
-uid: rest_api_search_strings
 description: REST Web API search strings
-author: {github-id}
-keywords: search,odata
-so.date:
+keywords: search, odata, string
+author: Tony Yates, Eivind Fasting
+so.date: 06.18.2024
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # String
@@ -19,10 +21,10 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-## Equals (is)
+## Between
 
 ```http
-GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name is 'Testing null Orgnr' HTTP/1.1
+GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name between ('A','S') HTTP/1.1
 Authorization: Bearer 8A:
 Content-Type: application/json
 Accept: application/json
@@ -37,25 +39,16 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-## Not Begins
+## Equals (is)
 
 ```http
-GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name notBegins 'S' HTTP/1.1
+GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name is 'Testing null Orgnr' HTTP/1.1
 Authorization: Bearer 8A:
 Content-Type: application/json
 Accept: application/json
 ```
 
-## Not Contains
-
-```http
-GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name notContains 'Owl' HTTP/1.1
-Authorization: Bearer 8A:
-Content-Type: application/json
-Accept: application/json
-```
-
-## Is Not
+## Is not
 
 ```http
 GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name isNot 'SuperOffice Software Limited' HTTP/1.1
@@ -64,10 +57,19 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-## Between
+## Not begins
 
 ```http
-GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name between ('A','S') HTTP/1.1
+GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name notBegins 'S' HTTP/1.1
+Authorization: Bearer 8A:
+Content-Type: application/json
+Accept: application/json
+```
+
+## Not contains
+
+```http
+GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName&$filter=name notContains 'Owl' HTTP/1.1
 Authorization: Bearer 8A:
 Content-Type: application/json
 Accept: application/json
