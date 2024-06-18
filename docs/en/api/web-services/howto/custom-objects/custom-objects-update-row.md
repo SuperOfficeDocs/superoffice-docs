@@ -1,23 +1,25 @@
 ---
-uid: api-custom-objects-update-row
-title: Custom Objects UpdateRow
-description: How to use the DatabaseTable Agent UpdateRow
+uid: api-rest-custom-object-update-row
+title: How to update a row in a custom object
+description: How to update a row in a custom object via the REST APIs.
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, UpdateRow
+so.version: 10
+keywords: custom object, UpdateRow, DatabaseTable, TableRecord, extra table
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# How to use the DatabaseTable Agent UpdateRow
+<!-- markdownlint-disable-file MD051 -->
 
-## Reference
+# How to update a row in a custom object
 
-See the [UpdateRow][1] API Reference for more details.
+## Request
 
-<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-Using the DatabaseTable Agent, specify the TableName, Id and Values body parameters to update the row.
+To update a row using the `DatabaseTable` agent, specify the `TableName`, `Id`, and `Values` as body parameters.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/UpdateRow HTTP/1.1
@@ -25,18 +27,20 @@ Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 Content-Type: application/json
 {
-    "TableName": "y_equipment",
-    "Id": "2",
-    "Values": {
-        "x_company": 1,
-        "x_name": "printer"
-    }
+  "TableName": "y_equipment",
+  "Id": "2",
+  "Values": {
+    "x_company": 1,
+    "x_name": "printer"
+  }
 }
 ```
 
+For details, see the [DatabaseTable agent reference][1].
+
 ### [RESTful REST](#tab/TableRecord)
 
-Using the TableRecord endpoint, specify the TableName and record Id as query string parameters, and the values to update in the body of the request.
+To update a row using the `TableRecord` endpoint, specify the table name and row ID as query string parameters, and the values to update in the body.
 
 ```http!
 PUT https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/2 HTTP/1.1
@@ -49,8 +53,9 @@ Content-Type: application/json
 }
 ```
 
+For details, see the [Table REST endpoint reference][2].
+
 ***
-<!-- markdownlint-restore -->
 
 ### Response
 
@@ -60,3 +65,4 @@ HTTP/1.1 204 No Content
 
 <!-- Referenced links -->
 [1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_UpdateRow.md
+[2]: ../../../reference/restful/rest/TableRecord/v1TableRecord_UpdateRow.md

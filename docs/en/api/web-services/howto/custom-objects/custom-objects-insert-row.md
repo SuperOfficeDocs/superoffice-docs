@@ -1,23 +1,25 @@
 ---
-uid: api-custom-objects-insert-row
-title: Custom Objects InsertRow
-description: How to use the DatabaseTable Agent InsertRow
+uid: api-rest-custom-object-add-row
+title: How to add a row to a custom object
+description: How to add a row to a custom object via the REST APIs.
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, InsertRow
+so.version: 10
+keywords: custom object, InsertRow, DatabaseTable, TableRecord, extra table
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# How to use the DatabaseTable Agent InsertRow
+<!-- markdownlint-disable-file MD051 -->
 
-## Reference
+# How to add a row to a custom object
 
-See the [InsertRow][1] API Reference for more details.
+## Request
 
-<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-Using the DatabaseTable Agent, specify the TableName and Values as body parameters to insert a new row.
+To insert a new row using the `DatabaseTable` agent, specify the `TableName` and `Values` as body parameters.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/InsertRow HTTP/1.1
@@ -33,9 +35,11 @@ Content-Type: application/json
 }
 ```
 
+For details, see the [DatabaseTable agent reference][1].
+
 ### [RESTful REST](#tab/TableRecord)
 
-Using the TableRecord endpoint, specify the TableName in the url and the values in the body to insert a new row.
+To insert a new row using the `TableRecord` endpoint, specify the table name in the URL and the values in the body.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment HTTP/1.1
@@ -48,8 +52,9 @@ Content-Type: application/json
 }
 ```
 
+For details, see the [Table REST endpoint reference][2].
+
 ***
-<!-- markdownlint-restore -->
 
 ### Response
 
@@ -63,3 +68,4 @@ Content-Type: application/json; charset=utf-8
 
 <!-- Referenced links -->
 [1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_InsertRow.md
+[2]: ../../../reference/restful/rest/TableRecord/v1TableRecord_InsertRow.md

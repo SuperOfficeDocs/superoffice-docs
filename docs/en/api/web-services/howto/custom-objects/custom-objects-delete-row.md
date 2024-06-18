@@ -1,23 +1,25 @@
 ---
-uid: api-custom-objects-delete-row
-title: Custom Objects DeleteRow
-description: How to use the DatabaseTable Agent DeleteRow
+uid: api-rest-custom-objects-delete-row
+title: How to update a row in a custom object
+description: How to update a row in a custom object via the REST APIs.
+keywords: custom object, DeleteRow, DatabaseTable, TableRecord, extra table
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, DeleteRow
+so.version: 10
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# How to use the DatabaseTable Agent DeleteRow
+<!-- markdownlint-disable-file MD051 -->
 
-## Reference
+# How to update a row in a custom object
 
-See the [DeleteRow][1] API Reference for more details.
+## Request
 
-<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-Using the DatabaseTable Agent, specify the TableName and Id to delete the row.
+To delete a row using the `DatabaseTable` agent, specify the `TableName` and `Id` as body parameters.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/DeleteRow HTTP/1.1
@@ -30,9 +32,11 @@ Content-Type: application/json
 }
 ```
 
+For details, see the [DatabaseTable agent reference][1].
+
 ### [RESTful REST](#tab/TableRecord)
 
-Using the TableRecord endpoint specify the TableName and rowId as query string parameters to delete the record.
+To delete a record using the `TableRecord` endpoint, specify the table name and row ID as query string parameters.
 
 ```http!
 DELETE  https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/3 HTTP/1.1
@@ -41,8 +45,9 @@ Accept: application/json; charset=utf-8
 Content-Type: application/json
 ```
 
+For details, see the [Table REST endpoint reference][2].
+
 ***
-<!-- markdownlint-restore -->
 
 ### Response
 
@@ -52,3 +57,4 @@ HTTP/1.1 204 No Content
 
 <!-- Referenced links -->
 [1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_DeleteRow.md
+[2]: ../../../reference/restful/rest/TableRecord/v1TableRecord_DeleteRow.md

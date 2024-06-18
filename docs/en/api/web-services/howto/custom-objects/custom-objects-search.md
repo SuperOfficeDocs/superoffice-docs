@@ -1,22 +1,25 @@
 ---
 uid: api-custom-objects-search
-title: Custom Objects search
-description: How to use Custom Objects to search for information
+title: Custom objects search
+description: How to use custom objects to search for information
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, Search
+so.version: 10
+keywords: custom object, search, DatabaseTable, TableRecord, extra table
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# How to use Custom Objects to search for information
+# How to use custom objects to search for information
 
-While the other sections shows examples on how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section will focus on how to search for companies with existing relations connected to them.
+While the other sections show examples of how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section focuses on how to search for companies with existing relations connected to them.
 
-This example uses Companies as an example, but same logic applies for all entities inside SuperOffice.
+This example uses companies, but the same logic applies to all SuperOffice entities.
 
 ## Get available fields for the Contact Archive
 
-One of the first things to determine is 'What relations do companies have inside our SuperOffice database?'. The best way is to use the Archive `GetAvailableColumns` endpoint to get all the available columns, including relational columns, for the Contact.
+One of the first things to determine is which relations companies have inside the SuperOffice database. The best way is to use the Archive `GetAvailableColumns` endpoint to get all the available columns, including relational columns, for the Contact.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetAvailableColumns?$select=name HTTP/1.1
@@ -35,9 +38,9 @@ When relations exist between ExtraTables these will be shown as `contactExtra/y_
 
 When known, perform the search using either the `GetArchiveListByColumns` or `GetArchiveListByColumns2` Archive methods.
 
-## Practical Example
+## Example
 
-The following example searches two ExtraTables, y_rentals and y_equipment.
+The following example searches two extra tables, y_rentals and y_equipment.
 
 `y_equipment` in this case contains different items we are renting out. `y_rentals` is the link-table between the available items and the companies, and functions as a registry of what items are rented out to which customer.
 
@@ -60,11 +63,12 @@ Authorization: Bearer {{token}}
 ```
 
 > [!NOTE]
-> Notice the `Restictions` parameter. The `contactExtra` fields can be used as restrictions, additional citeria, to search for customers that have rented a specific item.
+> Notice the `Restrictions` parameter. The `contactExtra` fields can be used as restrictions, additional criteria, to search for customers that have rented a specific item.
 >
-> Make sure to adjust PageSize to be more suited for your use-case.
+> Make sure to adjust PageSize according to your use case.
+
 <!-- Referenced links -->
-[1]: ./custom-objects-read-row.md
-[2]: ./custom-objects-insert-row.md
-[3]: ./custom-objects-update-row.md
-[4]: ./custom-objects-delete-row.md
+[1]: custom-objects-read-row.md
+[2]: custom-objects-insert-row.md
+[3]: custom-objects-update-row.md
+[4]: custom-objects-delete-row.md

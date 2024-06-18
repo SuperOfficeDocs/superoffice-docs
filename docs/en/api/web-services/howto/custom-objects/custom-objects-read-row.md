@@ -1,23 +1,25 @@
 ---
-uid: api-custom-objects-read-row
-title: Custom Objects ReadRow
-description: How to use the DatabaseTable Agent ReadRow
+uid: api-rest-custom-object-get-row
+title: How to get a row from a custom object
+description: How to get (read) a row from a custom object via the REST APIs.
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, ReadRow
+so.version: 10
+keywords: custom object, ReadRow, DatabaseTable, TableRecord, extra table
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
-# How to use the DatabaseTable Agent ReadRow
+<!-- markdownlint-disable-file MD051 -->
 
-## Reference
+# How to get (read) a row from a custom object
 
-See the [ReadRow][1] API Reference for more details.
+## Request
 
-<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-Using the DatabaseTable Agent, specify the TableName and Id as body parameters to return the row.
+To get a row using the `DatabaseTable` agent, specify the `TableName` and `Id` as body parameters.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/ReadRow HTTP/1.1
@@ -30,9 +32,11 @@ Content-Type: application/json
 }
 ```
 
+For details, see the [DatabaseTable agent reference][1].
+
 ### [RESTful REST](#tab/TableRecord)
 
-Using the TableRecord endpoint, specify the TableName and Id as part of the query string to return the row.
+To get a row using the `TableRecord` endpoint, specify the table name and row ID as query string parameters.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/1 HTTP/1.1
@@ -41,8 +45,10 @@ Accept: application/json; charset=utf-8
 Content-Type: application/json
 ```
 
+For details, see the [Table REST endpoint reference][2].
+
 ***
-<!-- markdownlint-restore -->
+
 ### Response
 
 ```http_
@@ -67,3 +73,4 @@ Content-Type: application/json; charset=utf-8
 
 <!-- Referenced links -->
 [1]: ../../../reference/restful/agent/DatabaseTable_Agent/v1DatabaseTableAgent_ReadRow.md
+[2]: ../../../reference/restful/rest/TableRecord/v1TableRecord_ReadRow.md

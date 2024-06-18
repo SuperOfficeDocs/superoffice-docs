@@ -136,7 +136,7 @@ SELECT * FROM udprojectsmall WHERE udprojectsmall_id = 2345
 
 | udprojectSmall_id | long01 | long02 | long03 | long04 | long05 | ... |
 |---|---|---|---|---|---|---|
-211 | 0 | 0 | 0 | 0 | 0 | |
+| 211 | 0 | 0 | 0 | 0 | 0 | |
 
 If you change a field from non-searchable to searchable, its values are moved from a non-indexed to indexed field when you publish the change. For example, from `long05` to `long01`
 
