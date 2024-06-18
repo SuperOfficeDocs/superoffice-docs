@@ -20,7 +20,6 @@ Bootstrapping NetServer in your application required some dependency injection (
 * SuperOffice.NetServer.Core: [Dependency injection configuration][2]
 * SuperOffice.NetServer.Services: [Dependency injection configuration][3]
 
-
 ## Configuration Files
 
 There are two configuration files of concern. Each application that uses NetServer must contain a well-defined configuration file. This section contains all available settings to configure SuperOffice NetServer and provides explanations and examples for each section.:
