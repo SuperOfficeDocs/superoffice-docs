@@ -1,10 +1,10 @@
 ---
-title: How to create a user-defined field
 uid: ws-create-custom-field
+title: How to create a user-defined field
 description: Describes how to create a user-defined field using web services
+keywords: udef, user-defined field, custom field
 author: AnthonyYates
 so.date: 03.11.2022
-keywords: udef, user-defined field, custom field
 so.topic: howto
 so.audience: api
 so.audience.tooltip: SuperOffice APIs and database
@@ -488,19 +488,7 @@ var results = await archiveAgent.GetArchiveListByColumnsAsync(
 
 Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
 
-<!-- Linked references -->
+<!-- Linked References -->
 [1]: <xref:SuperOffice.WebApi.Data.UDefFieldType>
 [2]: ../../../lists/services/how-to/get-all-lists.md
 [3]: ../../../mdo-providers/reference/index.md
-<!-- 
-How to write good how-to guides 
-
-- Provide a series of steps​
-- Focus on results​
-- Solve a problem​
-- Don’t explain concepts, link to them​
-- Allow for some flexibility, point out more ways to do same thing​
-- Leave things out – start and end where it seems appropriate​
-- Bloated how-to guides don’t help the reader get speedy solution​
-- Name them well
--->

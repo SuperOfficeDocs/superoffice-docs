@@ -1,10 +1,10 @@
 ---
-title: How to delete a user-defined field
 uid: ws-delete-custom-field
+title: How to delete a user-defined field
 description: Describes how to delete a user-defined field using web services
+keywords: udef, user-defined field, custom field
 author: AnthonyYates
 so.date: 03.11.2022
-keywords: udef, user-defined field, custom field
 so.topic: howto
 so.audience: api
 so.audience.tooltip: SuperOffice APIs and database
@@ -66,16 +66,15 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
 1. Deletes the user-defined field is 868.
 
     ```http
-        POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=868 HTTP/1.1
-        Authorization: Bearer {{token}}
-        Accept: application/json; charset=utf-8
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=868 HTTP/1.1
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
     ```
 
 1. Publish to complete the delete operation for this user-defined field.
 
     > [!WARNING]
     > A Publish request creates a new version of all user-defined fields for the entity. Therefore, all user-defined fields not deleted will have updated UdefFieldId values.
-
     Before published fields, make sure there is no active publish event happening at the same time. As long as the `IsAnyPublishEventActive` call returns false, it is safe to proceed.
 
     ```http
@@ -91,7 +90,6 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     Authorization: Bearer {{token}}
     Accept: application/json; charset=utf-8
     Content-Type: application/json; charset=utf-8
-
     {
         "OwnerType": "Contact"
     }
@@ -104,7 +102,6 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     Authorization: Bearer {{token}}
     Accept: application/json; charset=utf-8
     Content-Type: application/json; charset=utf-8
-
     {
         "OwnerType": "Contact"
     }
@@ -123,17 +120,3 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
 ***
-<!-- markdownlint-restore -->
-
-<!-- 
-How to write good how-to guides 
-
-- Provide a series of steps​
-- Focus on results​
-- Solve a problem​
-- Don’t explain concepts, link to them​
-- Allow for some flexibility, point out more ways to do same thing​
-- Leave things out – start and end where it seems appropriate​
-- Bloated how-to guides don’t help the reader get speedy solution​
-- Name them well
--->

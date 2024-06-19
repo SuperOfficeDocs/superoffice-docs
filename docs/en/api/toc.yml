@@ -171,19 +171,6 @@ items:
     href: caching/superoffice-crm-security.md
   - name: Cached tables (Windows)
     href: caching/cached-tables.md
-- name: Custom Objects
-  href: custom-objects/index.md
-  items:
-  - name: ReadRow
-    href: custom-objects/howto/custom-objects-read-row.md
-  - name: InsertRow
-    href: custom-objects/howto/custom-objects-insert-row.md
-  - name: UpdateRow
-    href: custom-objects/howto/custom-objects-update-row.md
-  - name: DeleteRow
-    href: custom-objects/howto/custom-objects-delete-row.md
-  - name: Search
-    href: custom-objects/howto/custom-objects-search.md
 - name: Logging
   href: logging/index.md
   items:
@@ -287,25 +274,41 @@ items:
   - name: How to set up REST onsite
     href: ../onsite/install/netserver/setup-rest.md
   - name: Howto
-    topicHref: web-services/howto/custom-objects/index.md
+    topicHref: web-services/howto/index.md
     items:
-    - name: Custom fields
+    - name: Custom objects
       href: web-services/howto/custom-objects/index.md
       items:
-      - name: How to get all user-defined fields
-        href: web-services/howto/custom-objects/rest-get-all-udef-fields.md
-      - name: How to create user-defined fields
-        href: web-services/howto/custom-objects/rest-create-udef-field.md
-      - name: How to update user-defined fields
-        href: web-services/howto/custom-objects/rest-update-udef-field.md
-      - name: How to delete user-defined fields
-        href: web-services/howto/custom-objects/rest-delete-udef-field.md
-      - name: Set udef list-item value
-        href: web-services/howto/custom-objects/set-udef-listitem-value.md
-      - name: Get udef list and values
-        href: web-services/howto/custom-objects/get-udef-list-and-values.md
-      - name: Find contact by udef
-        href: web-services/howto/custom-objects/find-contact-by-udef.md
+      - name: Extra tables
+        topicHref: web-services/howto/custom-objects/rest-get-custom-object-row.md
+        items:
+        - name: How to insert row
+          href: web-services/howto/custom-objects/rest-add-custom-object-row.md
+        - name: How to update row
+          href: web-services/howto/custom-objects/rest-update-custom-object-row.md
+        - name: How to read row
+          href: web-services/howto/custom-objects/rest-get-custom-object-row.md1  
+        - name: How to delete row
+          href: web-services/howto/custom-objects/rest-delete-custom-object-row.md
+        - name: How to search
+          href: web-services/howto/custom-objects/custom-objects-search.md
+      - name: User-defined fields
+        topicHref: web-services/howto/custom-objects/rest-get-all-udef-fields.md
+        items:
+        - name: How to get all user-defined fields
+          href: web-services/howto/custom-objects/rest-get-all-udef-fields.md
+        - name: How to create user-defined fields
+          href: web-services/howto/custom-objects/rest-create-udef-field.md
+        - name: How to update user-defined fields
+          href: web-services/howto/custom-objects/rest-update-udef-field.md
+        - name: How to delete user-defined fields
+          href: web-services/howto/custom-objects/rest-delete-udef-field.md
+        - name: Set udef list-item value
+          href: web-services/howto/custom-objects/set-udef-listitem-value.md
+        - name: Get udef list and values
+          href: web-services/howto/custom-objects/get-udef-list-and-values.md
+        - name: Find contact by udef
+          href: web-services/howto/custom-objects/find-contact-by-udef.md
     - name: Flows
       href: web-services/howto/flows/index.md
       items:
