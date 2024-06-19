@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.INavigatorAgent.GetAllNav
 
 ## GetAllNavigatorCompany
 
-
-
-
-
 [WSDL file for Services84/Navigator](../Services84-Navigator.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAllNavigatorCompany Response
 
 ```xml
@@ -73,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

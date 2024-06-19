@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IMDOAgent.GetListItem">Su
 
 ## GetListItem
 
-
-
-
-
 [WSDL file for Services84/MDO](../Services84-MDO.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetListItem Response
 
@@ -127,4 +122,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

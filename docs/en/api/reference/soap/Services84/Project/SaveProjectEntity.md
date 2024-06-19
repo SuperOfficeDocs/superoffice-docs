@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.SaveProject
 
 ## SaveProjectEntity
 
-
-
-
-
 [WSDL file for Services84/Project](../Services84-Project.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -168,7 +164,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveProjectEntity Response
 
 ```xml
@@ -310,4 +305,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

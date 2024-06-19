@@ -10,12 +10,9 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Impor
 
 Handled by the <see cref="T:SuperOffice.Services84.IImportAgent">SuperOffice.Services84.IImportAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Import](../Services84-Import.md) if you need to generate your own proxy code.
 
 * [CreateDefaultImportLine](CreateDefaultImportLine.md)
 * [CreateErpImportData](CreateErpImportData.md)
 * [PreviewImport](PreviewImport.md)
 * [SaveImport](SaveImport.md)
-

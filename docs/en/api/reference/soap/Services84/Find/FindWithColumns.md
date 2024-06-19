@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFindAgent.FindWithColumn
 
 ## FindWithColumns
 
-
-
-
-
 [WSDL file for Services84/Find](../Services84-Find.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## FindWithColumns Response
 
@@ -117,4 +112,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

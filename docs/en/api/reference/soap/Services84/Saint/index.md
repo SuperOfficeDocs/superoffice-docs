@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Saint
 
 Handled by the <see cref="T:SuperOffice.Services84.ISaintAgent">SuperOffice.Services84.ISaintAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Saint](../Services84-Saint.md) if you need to generate your own proxy code.
 
 * [CreateDefaultStatusMonitor](CreateDefaultStatusMonitor.md)
@@ -25,4 +23,3 @@ Download [WSDL file for Services84/Saint](../Services84-Saint.md) if you need to
 * [SaveStatusMonitor](SaveStatusMonitor.md)
 * [SaveStatusMonitorPeriods](SaveStatusMonitorPeriods.md)
 * [SetRankOnStatusMonitors](SetRankOnStatusMonitors.md)
-

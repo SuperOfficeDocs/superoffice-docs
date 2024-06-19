@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.GetDashbo
 
 ## GetDashboards
 
-
-
-
-
 [WSDL file for Services84/Dashboard](../Services84-Dashboard.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDashboards Response
 
@@ -111,4 +106,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

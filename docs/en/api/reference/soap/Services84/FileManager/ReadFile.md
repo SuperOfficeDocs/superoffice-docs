@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFileManagerAgent.ReadFil
 
 ## ReadFile
 
-
-
-
-
 [WSDL file for Services84/FileManager](../Services84-FileManager.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ReadFile Response
 
 ```xml
@@ -68,4 +63,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

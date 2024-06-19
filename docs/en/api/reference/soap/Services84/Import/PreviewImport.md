@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IImportAgent.PreviewImpor
 
 ## PreviewImport
 
-
-
-
-
 [WSDL file for Services84/Import](../Services84-Import.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## PreviewImport Response
 
 ```xml
@@ -93,4 +88,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

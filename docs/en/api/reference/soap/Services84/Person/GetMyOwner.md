@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.GetMyOwner">
 
 ## GetMyOwner
 
-
-
-
-
 [WSDL file for Services84/Person](../Services84-Person.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyOwner Response
 
@@ -106,4 +101,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

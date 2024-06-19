@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFavouriteAgent.GetFavour
 
 ## GetFavourites
 
-
-
-
-
 [WSDL file for Services84/Favourite](../Services84-Favourite.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFavourites Response
 
 ```xml
@@ -76,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

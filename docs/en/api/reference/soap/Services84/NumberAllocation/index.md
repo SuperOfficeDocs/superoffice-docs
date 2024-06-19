@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Numbe
 
 Handled by the <see cref="T:SuperOffice.Services84.INumberAllocationAgent">SuperOffice.Services84.INumberAllocationAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md) if you need to generate your own proxy code.
 
 * [CreateDefaultRefCountEntity](CreateDefaultRefCountEntity.md)
@@ -21,4 +19,3 @@ Download [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocat
 * [SaveDefaultNumbering](SaveDefaultNumbering.md)
 * [SaveRefCountEntity](SaveRefCountEntity.md)
 * [SetNumberEachTemplate](SetNumberEachTemplate.md)
-

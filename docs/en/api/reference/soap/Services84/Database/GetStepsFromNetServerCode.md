@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDatabaseAgent.GetStepsFr
 
 ## GetStepsFromNetServerCode
 
-
-
-
-
 [WSDL file for Services84/Database](../Services84-Database.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStepsFromNetServerCode Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

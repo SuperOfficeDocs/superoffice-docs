@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IMarketingAgent.GetFormEn
 
 ## GetFormEntity
 
-
-
-
-
 [WSDL file for Services84/Marketing](../Services84-Marketing.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFormEntity Response
 
@@ -83,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
