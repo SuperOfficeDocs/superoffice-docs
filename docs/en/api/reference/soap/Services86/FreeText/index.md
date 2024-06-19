@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/FreeT
 
 Handled by the <see cref="T:SuperOffice.Services86.IFreeTextAgent">SuperOffice.Services86.IFreeTextAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/FreeText](../Services86-FreeText.md) if you need to generate your own proxy code.
 
 * [AddWords](AddWords.md)
@@ -24,4 +22,3 @@ Download [WSDL file for Services86/FreeText](../Services86-FreeText.md) if you n
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)
-

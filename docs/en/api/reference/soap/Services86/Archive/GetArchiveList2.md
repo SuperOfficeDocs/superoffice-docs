@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetArchiveL
 
 ## GetArchiveList2
 
-
-
-
-
 [WSDL file for Services86/Archive](../Services86-Archive.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetArchiveList2 Response
 
 ```xml
@@ -91,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

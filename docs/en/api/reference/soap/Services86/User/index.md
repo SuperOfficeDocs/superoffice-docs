@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/User.
 
 Handled by the <see cref="T:SuperOffice.Services86.IUserAgent">SuperOffice.Services86.IUserAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/User](../Services86-User.md) if you need to generate your own proxy code.
 
 * [AddOwnerContact](AddOwnerContact.md)
@@ -93,4 +91,3 @@ Download [WSDL file for Services86/User](../Services86-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
-

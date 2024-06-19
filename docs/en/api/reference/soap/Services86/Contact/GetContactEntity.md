@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetContactE
 
 ## GetContactEntity
 
-
-
-
-
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetContactEntity Response
 
@@ -402,4 +397,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

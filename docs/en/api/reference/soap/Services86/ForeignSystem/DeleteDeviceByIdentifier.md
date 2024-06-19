@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IForeignSystemAgent.Delet
 
 ## DeleteDeviceByIdentifier
 
-
-
-
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteDeviceByIdentifier Response
 
 ```xml
@@ -67,4 +62,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

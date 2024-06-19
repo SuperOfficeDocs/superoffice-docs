@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaintAgent.CreateDefault
 
 ## CreateDefaultSaintConfiguration
 
-
-
-
-
 [WSDL file for Services86/Saint](../Services86-Saint.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultSaintConfiguration Response
 
 ```xml
@@ -76,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

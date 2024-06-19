@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IRelationAgent.CreateDefa
 
 ## CreateDefaultContactRelationEntity
 
-
-
-
-
 [WSDL file for Services86/Relation](../Services86-Relation.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,7 +40,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultContactRelationEntity Response
 
@@ -110,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

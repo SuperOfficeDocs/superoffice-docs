@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.SaveReportEn
 
 ## SaveReportEntity
 
-
-
-
-
 [WSDL file for Services86/Report](../Services86-Report.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveReportEntity Response
 
 ```xml
@@ -86,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

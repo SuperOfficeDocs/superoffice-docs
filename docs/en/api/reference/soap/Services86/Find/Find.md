@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.Find">SuperOff
 
 ## Find
 
-
-
-
-
 [WSDL file for Services86/Find](../Services86-Find.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## Find Response
 
@@ -108,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.AddWords">
 
 ## AddWords
 
-
-
-
-
 [WSDL file for Services86/FreeText](../Services86-FreeText.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddWords Response
 
 ```xml
@@ -67,4 +62,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

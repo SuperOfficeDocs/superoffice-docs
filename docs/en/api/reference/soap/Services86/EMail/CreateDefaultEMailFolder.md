@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.CreateDefault
 
 ## CreateDefaultEMailFolder
 
-
-
-
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultEMailFolder Response
 
 ```xml
@@ -75,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,9 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Previ
 
 Handled by the <see cref="T:SuperOffice.Services86.IPreviewsAgent">SuperOffice.Services86.IPreviewsAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/Previews](../Services86-Previews.md) if you need to generate your own proxy code.
 
 * [GetPreview](GetPreview.md)
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDiagnosticsAgent.AddWebA
 
 ## AddWebAppUsage
 
-
-
-
-
 [WSDL file for Services86/Diagnostics](../Services86-Diagnostics.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddWebAppUsage Response
 
 ```xml
@@ -77,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

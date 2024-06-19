@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/BulkU
 
 Handled by the <see cref="T:SuperOffice.Services86.IBulkUpdateAgent">SuperOffice.Services86.IBulkUpdateAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/BulkUpdate](../Services86-BulkUpdate.md) if you need to generate your own proxy code.
 
 * [ExecuteByEntityIds](ExecuteByEntityIds.md)
@@ -22,4 +20,3 @@ Download [WSDL file for Services86/BulkUpdate](../Services86-BulkUpdate.md) if y
 * [GetStoredFields](GetStoredFields.md)
 * [RemoveStoredFields](RemoveStoredFields.md)
 * [RemoveStoredFieldsAndGetDefaultFields](RemoveStoredFieldsAndGetDefaultFields.md)
-

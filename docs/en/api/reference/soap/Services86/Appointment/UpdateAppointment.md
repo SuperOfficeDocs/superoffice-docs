@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.UpdateA
 
 ## UpdateAppointment
 
-
-
-
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## UpdateAppointment Response
 
@@ -121,4 +116,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

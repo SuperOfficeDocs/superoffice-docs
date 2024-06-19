@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFavouriteAgent.IsFavouri
 
 ## IsFavourite
 
-
-
-
-
 [WSDL file for Services86/Favourite](../Services86-Favourite.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsFavourite Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

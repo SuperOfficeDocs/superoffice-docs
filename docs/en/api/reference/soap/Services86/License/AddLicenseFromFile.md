@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.ILicenseAgent.AddLicenseF
 
 ## AddLicenseFromFile
 
-
-
-
-
 [WSDL file for Services86/License](../Services86-License.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AddLicenseFromFile Response
 
@@ -222,4 +217,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

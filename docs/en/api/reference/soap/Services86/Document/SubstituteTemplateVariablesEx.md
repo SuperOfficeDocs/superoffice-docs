@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.Substitute
 
 ## SubstituteTemplateVariablesEx
 
-
-
-
-
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -310,7 +306,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteTemplateVariablesEx Response
 
 ```xml
@@ -331,4 +326,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

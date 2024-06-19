@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.SaveW
 
 ## SaveWindowPosSize
 
-
-
-
-
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveWindowPosSize Response
 
 ```xml
@@ -92,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
