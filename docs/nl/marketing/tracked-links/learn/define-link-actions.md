@@ -4,8 +4,8 @@ title: Geautomatiseerde linkacties definiëren
 description: In deze handleiding leert u hoe u links in mailings kunt gebruiken om acties te automatiseren.
 keywords: Marketing, koppelingen, mailing, gevolgde links
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
+so.date: 06.17.2024
+so.version: 10.3.5
 so.topic: howto
 language: nl
 so.audience: person
@@ -33,7 +33,7 @@ U kunt de verzamelde informatie op verschillende manieren benutten:
 
 ## Beschikbare acties
 
-Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. Deze informatie kan de segmentatie verbeteren of helpen bij het opvolgen van geïnteresseerde personen.
+Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. Deze informatie kan de segmentatie verbeteren of helpen bij het opvolgen van geïnteresseerde personen. Je kunt meer dan één actie selecteren voor een gevolgde link.
 
 | Tabblad | Actie |
 |---|---|
@@ -46,7 +46,7 @@ Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. 
 | [Script](#script) | voer een script uit. |
 
 > [!TIP]
-> Je kunt meer dan één actie selecteren voor een gevolgde link.
+> Houd er bij het bijwerken van een gevolgde link rekening mee dat deze mogelijk wordt gebruikt door meerdere mailings en/of geautomatiseerde flows (een pilotfunctie). Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
 ## <a id="response" />Reactie
 

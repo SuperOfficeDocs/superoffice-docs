@@ -135,7 +135,7 @@ Example: Set up a free consultation on the first available time in Our contactâ€
     * To assign the request to a specific person, select the name you require.
     * **Automatically assigned:** If you select this option, the system assigns the request in accordance with the applicable assignment rules.
     * **Unassigned:** You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-1. Enter the actual message you want to add to the request
+1. Enter the actual message you want to add to the request.
 
 For details, see the [list of step settings][1] and [how to create a request][13].
 

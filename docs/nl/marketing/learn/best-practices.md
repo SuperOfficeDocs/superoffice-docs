@@ -4,8 +4,8 @@ title: Beste praktijken
 description: Beste praktijken
 keywords: Marketing, marketingcampagne, publiek, berichten
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.27.2024
-so.version: 10
+so.date: 06.17.2024
+so.version: 10.3.5
 so.topic: howto
 language: nl
 so.audience: person
@@ -76,6 +76,16 @@ Maar als u een niet-gevalideerd of verkeerd gespelde e-mail toevoegt, kan dat uw
 Beheerders kunnen een [gevalideerd domein toevoegen][6] in Instellingen en onderhoud om ervoor te zorgen dat gebruikers het juiste en geauthenticeerde domein selecteren.
 
 Auteurs zien een bericht als ze een niet-gevalideerd e-mailadres in het From-veld gebruiken, als een herinnering om geauthenticeerde domeinen te gebruiken. Dit helpt ook om spelfouten in het domein voor het verzenden van e-mails te voorkomen.
+
+## Automatisering (alleen pilot)
+
+* Specificeer een maximale wachttijd om te voorkomen dat deelnemers voor altijd actief blijven in een flow.​
+
+* Werk deelnemers bij met nieuwe informatie tijdens de flow. Bijvoorbeeld, stel een nieuwe interesse of een nieuwe categorie in terwijl het contact zich ontwikkelt; voeg toe en verwijder ze uit lijsten​.
+
+* Om dubbele of tegenstrijdige acties te voorkomen: Neem alle acties op één plaats op, hetzij in het formulier of in de flow.
+
+* Je kunt dezelfde ervaring bereiken door één flow te splitsen of de communicatie in twee verschillende flows te organiseren. Of je één flow moet splitsen of meerdere flows moet definiëren, hangt af van het scenario en welk resultaat je wilt volgen. Hoe meer twee communicatiepaden gemeen hebben, hoe efficiënter het voor de gebruiker is om ze binnen dezelfde flow te organiseren.​
 
 ## <a id="mobile" />Het bericht aanpassen voor weergave op mobiele apparaten
 

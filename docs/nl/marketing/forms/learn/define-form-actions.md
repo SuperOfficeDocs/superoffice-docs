@@ -4,8 +4,8 @@ title: Formulieracties definiëren
 description: Formulieracties definiëren
 keywords: formulier, automatisering, formulieractie, formulierverzending
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
+so.date: 06.17.2024
+so.version: 10.3.5
 so.topic: howto
 language: nl
 so.audience: person
@@ -59,6 +59,9 @@ Hier kunt u acties selecteren die worden uitgevoerd wanneer een formulier wordt 
 * **Standaardcategorie** / **Standaardbedrijf**: Selecteer een standaardcategorie en -bedrijf voor alle personen of bedrijven die aan SuperOffice worden toegevoegd op basis van ingediende formulieren. Met deze optie kunt u de formulierverzendingen en nieuwe personen/bedrijven groeperen in één specifieke categorie en/of branche.
 
     Als u bijvoorbeeld een formulier voor prospects hebt, selecteert u prospects als uw categorie. U kunt dan eenvoudig selecties maken op basis van deze categorie en/of branche.
+
+> [!NOTE]
+> Houd er bij het bijwerken van een formulier rekening mee dat dit mogelijk wordt gebruikt in meerdere mailings en/of geautomatiseerde flows (een pilotfunctie). Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
 ## Wat wilt u nu doen?
 

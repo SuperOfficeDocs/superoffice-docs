@@ -26,7 +26,7 @@ Als u de [functie Google Analytics][2] wilt gebruiken, heeft u een Google Analyt
 
     ![Vink het vakje voor Google Analytics aan en traceer alle koppelingen -screenshot][img1]
 
-2. **Google Analytics traceren:** "E-mail" is vooraf ingesteld als medium, zodat getraceerde e-mails vanuit SuperOffice CRM worden weergegeven onder **E-mail** in Google Channel-rapporten.
+2. **Google Analytics traceren:** "E-mail" is vooraf ingesteld als medium, zodat gevolgde e-mails vanuit SuperOffice CRM worden weergegeven onder **E-mail** in Google Channel-rapporten.
 
 3. **Bron en campagne:** Identificeer een specifieke mailing door de velden **Bron** en **Campagne** in te vullen.
 
