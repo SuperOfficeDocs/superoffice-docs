@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetErpField
 
 ## GetErpFieldValues
 
-
-
-
-
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetErpFieldValues Response
 
 ```xml
@@ -75,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Dashb
 
 Handled by the <see cref="T:SuperOffice.Services85.IDashboardAgent">SuperOffice.Services85.IDashboardAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Dashboard](../Services85-Dashboard.md) if you need to generate your own proxy code.
 
 * [CreateDefaultDashboard](CreateDefaultDashboard.md)
@@ -28,4 +26,3 @@ Download [WSDL file for Services85/Dashboard](../Services85-Dashboard.md) if you
 * [SaveDashboard](SaveDashboard.md)
 * [SaveDashboardTile](SaveDashboardTile.md)
 * [SetTile](SetTile.md)
-

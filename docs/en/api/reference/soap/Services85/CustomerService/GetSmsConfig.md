@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.ICustomerServiceAgent.Get
 
 ## GetSmsConfig
 
-
-
-
-
 [WSDL file for Services85/CustomerService](../Services85-CustomerService.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetSmsConfig Response
 
 ```xml
@@ -77,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.GetSalesByDate
 
 ## GetSalesByDate
 
-
-
-
-
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSalesByDate Response
 
@@ -98,4 +93,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFileManagerAgent.CreateF
 
 ## CreateFile
 
-
-
-
-
 [WSDL file for Services85/FileManager](../Services85-FileManager.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateFile Response
 
 ```xml
@@ -66,4 +61,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

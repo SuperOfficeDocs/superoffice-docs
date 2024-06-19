@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Webho
 
 Handled by the <see cref="T:SuperOffice.Services85.IWebhookAgent">SuperOffice.Services85.IWebhookAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Webhook](../Services85-Webhook.md) if you need to generate your own proxy code.
 
 * [CreateDefaultWebhook](CreateDefaultWebhook.md)
@@ -22,4 +20,3 @@ Download [WSDL file for Services85/Webhook](../Services85-Webhook.md) if you nee
 * [SaveWebhook](SaveWebhook.md)
 * [SignalEvent](SignalEvent.md)
 * [TestWebhook](TestWebhook.md)
-

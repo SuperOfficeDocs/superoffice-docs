@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Batch
 
 Handled by the <see cref="T:SuperOffice.Services85.IBatchAgent">SuperOffice.Services85.IBatchAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Batch](../Services85-Batch.md) if you need to generate your own proxy code.
 
 * [DeleteBatchTask](DeleteBatchTask.md)
@@ -25,4 +23,3 @@ Download [WSDL file for Services85/Batch](../Services85-Batch.md) if you need to
 * [StartBatchJob](StartBatchJob.md)
 * [StopBatchJob](StopBatchJob.md)
 * [UpdateBatchTask](UpdateBatchTask.md)
-

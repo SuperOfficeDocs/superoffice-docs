@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDashboardAgent.GetDataWi
 
 ## GetDataWithSelection
 
-
-
-
-
 [WSDL file for Services85/Dashboard](../Services85-Dashboard.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDataWithSelection Response
 
@@ -106,4 +101,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IReplicationAgent.SaveSat
 
 ## SaveSatellite
 
-
-
-
-
 [WSDL file for Services85/Replication](../Services85-Replication.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -162,7 +158,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSatellite Response
 
 ```xml
@@ -298,4 +293,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

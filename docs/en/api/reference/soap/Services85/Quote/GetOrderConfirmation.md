@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetOrderConfi
 
 ## GetOrderConfirmation
 
-
-
-
-
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetOrderConfirmation Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

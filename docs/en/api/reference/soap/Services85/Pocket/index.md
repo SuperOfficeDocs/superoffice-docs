@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Pocke
 
 Handled by the <see cref="T:SuperOffice.Services85.IPocketAgent">SuperOffice.Services85.IPocketAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Pocket](../Services85-Pocket.md) if you need to generate your own proxy code.
 
 * [GetPocketStartupData](GetPocketStartupData.md)
@@ -21,4 +19,3 @@ Download [WSDL file for Services85/Pocket](../Services85-Pocket.md) if you need 
 * [SendPushNotification](SendPushNotification.md)
 * [SetPushNotificationTagsForDevice](SetPushNotificationTagsForDevice.md)
 * [SetPushNotificationTagsForUser](SetPushNotificationTagsForUser.md)
-

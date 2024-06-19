@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/TimeZ
 
 Handled by the <see cref="T:SuperOffice.Services85.ITimeZoneAgent">SuperOffice.Services85.ITimeZoneAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/TimeZone](../Services85-TimeZone.md) if you need to generate your own proxy code.
 
 * [CheckNewTimeZoneDataAvailable](CheckNewTimeZoneDataAvailable.md)
@@ -25,4 +23,3 @@ Download [WSDL file for Services85/TimeZone](../Services85-TimeZone.md) if you n
 * [TimeOfLastTimeZoneUpdate](TimeOfLastTimeZoneUpdate.md)
 * [ToggleActiveTimeZoneRow](ToggleActiveTimeZoneRow.md)
 * [UpdateTimeZoneData](UpdateTimeZoneData.md)
-

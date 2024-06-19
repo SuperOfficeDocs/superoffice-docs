@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFindAgent.FindFromRestri
 
 ## FindFromRestrictionsColumns
 
-
-
-
-
 [WSDL file for Services85/Find](../Services85-Find.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -126,7 +122,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FindFromRestrictionsColumns Response
 
 ```xml
@@ -183,4 +178,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

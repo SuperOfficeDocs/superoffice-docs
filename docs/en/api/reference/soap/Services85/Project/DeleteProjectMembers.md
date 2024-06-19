@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.DeleteProje
 
 ## DeleteProjectMembers
 
-
-
-
-
 [WSDL file for Services85/Project](../Services85-Project.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteProjectMembers Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

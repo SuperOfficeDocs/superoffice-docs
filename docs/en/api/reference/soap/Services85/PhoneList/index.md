@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Phone
 
 Handled by the <see cref="T:SuperOffice.Services85.IPhoneListAgent">SuperOffice.Services85.IPhoneListAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/PhoneList](../Services85-PhoneList.md) if you need to generate your own proxy code.
 
 * [AddToFavorites](AddToFavorites.md)
@@ -22,4 +20,3 @@ Download [WSDL file for Services85/PhoneList](../Services85-PhoneList.md) if you
 * [Search](Search.md)
 * [SearchWithPreferences](SearchWithPreferences.md)
 * [SetPreferences](SetPreferences.md)
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/BLOB.
 
 Handled by the <see cref="T:SuperOffice.Services85.IBLOBAgent">SuperOffice.Services85.IBLOBAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/BLOB](../Services85-BLOB.md) if you need to generate your own proxy code.
 
 * [ChangePersonImage](ChangePersonImage.md)
@@ -43,4 +41,3 @@ Download [WSDL file for Services85/BLOB](../Services85-BLOB.md) if you need to g
 * [SetProductImage](SetProductImage.md)
 * [SetProductThumbnail](SetProductThumbnail.md)
 * [SetProjectImage](SetProjectImage.md)
-

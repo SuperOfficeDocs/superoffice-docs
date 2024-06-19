@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPhoneListAgent.GetFavori
 
 ## GetFavoritesPhones
 
-
-
-
-
 [WSDL file for Services85/PhoneList](../Services85-PhoneList.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,7 +40,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFavoritesPhones Response
 
@@ -78,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
