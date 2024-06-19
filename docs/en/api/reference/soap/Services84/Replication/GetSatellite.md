@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IReplicationAgent.GetSate
 
 ## GetSatellite
 
-
-
-
-
 [WSDL file for Services84/Replication](../Services84-Replication.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSatellite Response
 
@@ -183,4 +178,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

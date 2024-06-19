@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetContact
 
 ## GetContactDocuments
 
-
-
-
-
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetContactDocuments Response
 
@@ -91,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

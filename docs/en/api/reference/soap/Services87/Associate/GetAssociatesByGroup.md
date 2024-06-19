@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAssociateAgent.GetAssoci
 
 ## GetAssociatesByGroup
 
-
-
-
-
 [WSDL file for Services87/Associate](../Services87-Associate.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAssociatesByGroup Response
 
@@ -84,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

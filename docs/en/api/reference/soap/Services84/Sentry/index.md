@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Sentr
 
 Handled by the <see cref="T:SuperOffice.Services84.ISentryAgent">SuperOffice.Services84.ISentryAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Sentry](../Services84-Sentry.md) if you need to generate your own proxy code.
 
 * [CanCreateAppointmentInAllDiaries](CanCreateAppointmentInAllDiaries.md)
@@ -20,4 +18,3 @@ Download [WSDL file for Services84/Sentry](../Services84-Sentry.md) if you need 
 * [GetNewTableRight](GetNewTableRight.md)
 * [GetTableRightByOwnership](GetTableRightByOwnership.md)
 * [HasFunctionRight](HasFunctionRight.md)
-

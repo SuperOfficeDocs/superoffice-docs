@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.INumberAllocationAgent.Sa
 
 ## SaveRefCountEntity
 
-
-
-
-
 [WSDL file for Services85/NumberAllocation](../Services85-NumberAllocation.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -89,7 +85,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveRefCountEntity Response
 
@@ -167,4 +162,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

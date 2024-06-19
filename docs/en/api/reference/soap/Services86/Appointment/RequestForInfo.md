@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.Request
 
 ## RequestForInfo
 
-
-
-
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## RequestForInfo Response
 
@@ -219,4 +214,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Assoc
 
 Handled by the <see cref="T:SuperOffice.Services86.IAssociateAgent">SuperOffice.Services86.IAssociateAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/Associate](../Services86-Associate.md) if you need to generate your own proxy code.
 
 * [GetAssociate](GetAssociate.md)
@@ -21,4 +19,3 @@ Download [WSDL file for Services86/Associate](../Services86-Associate.md) if you
 * [GetNote](GetNote.md)
 * [LogOffWindowsUsers](LogOffWindowsUsers.md)
 * [SaveNote](SaveNote.md)
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IRelationAgent.SaveContac
 
 ## SaveContactRelation
 
-
-
-
-
 [WSDL file for Services86/Relation](../Services86-Relation.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -91,7 +87,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveContactRelation Response
 
 ```xml
@@ -156,4 +151,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

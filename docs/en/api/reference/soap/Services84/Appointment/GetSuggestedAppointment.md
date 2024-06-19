@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.GetSugg
 
 ## GetSuggestedAppointment
 
-
-
-
-
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSuggestedAppointment Response
 
@@ -95,4 +90,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

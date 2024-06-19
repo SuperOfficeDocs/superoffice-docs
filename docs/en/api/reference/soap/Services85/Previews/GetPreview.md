@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreviewsAgent.GetPreview
 
 ## GetPreview
 
-
-
-
-
 [WSDL file for Services85/Previews](../Services85-Previews.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreview Response
 
 ```xml
@@ -66,4 +61,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

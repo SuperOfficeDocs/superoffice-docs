@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.SetAsSold">Sup
 
 ## SetAsSold
 
-
-
-
-
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetAsSold Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

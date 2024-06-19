@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Perso
 
 Handled by the <see cref="T:SuperOffice.Services84.IPersonAgent">SuperOffice.Services84.IPersonAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Person](../Services84-Person.md) if you need to generate your own proxy code.
 
 * [AddEmailAddressToPerson](AddEmailAddressToPerson.md)
@@ -56,4 +54,3 @@ Download [WSDL file for Services84/Person](../Services84-Person.md) if you need 
 * [SetConsent](SetConsent.md)
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Forei
 
 Handled by the <see cref="T:SuperOffice.Services86.IForeignSystemAgent">SuperOffice.Services86.IForeignSystemAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md) if you need to generate your own proxy code.
 
 * [AddDeviceByIdentifier](AddDeviceByIdentifier.md)
@@ -43,4 +41,3 @@ Download [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md
 * [SaveForeignAppEntity](SaveForeignAppEntity.md)
 * [SaveForeignDevice](SaveForeignDevice.md)
 * [SaveForeignKey](SaveForeignKey.md)
-

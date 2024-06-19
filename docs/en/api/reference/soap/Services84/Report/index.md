@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Repor
 
 Handled by the <see cref="T:SuperOffice.Services84.IReportAgent">SuperOffice.Services84.IReportAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Report](../Services84-Report.md) if you need to generate your own proxy code.
 
 * [CreateDefaultReportEntity](CreateDefaultReportEntity.md)
@@ -27,4 +25,3 @@ Download [WSDL file for Services84/Report](../Services84-Report.md) if you need 
 * [SaveReportEntity](SaveReportEntity.md)
 * [SaveReportLabelLayoutEntity](SaveReportLabelLayoutEntity.md)
 * [UpdateFavorite](UpdateFavorite.md)
-

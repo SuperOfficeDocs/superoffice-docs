@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Marke
 
 Handled by the <see cref="T:SuperOffice.Services87.IMarketingAgent">SuperOffice.Services87.IMarketingAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Marketing](../Services87-Marketing.md) if you need to generate your own proxy code.
 
 * [CreateDefaultFormEntity](CreateDefaultFormEntity.md)
@@ -23,4 +21,3 @@ Download [WSDL file for Services87/Marketing](../Services87-Marketing.md) if you
 * [SaveFormEntity](SaveFormEntity.md)
 * [SaveFormSubmissionEntity](SaveFormSubmissionEntity.md)
 * [VerifyGoogleRecaptcha](VerifyGoogleRecaptcha.md)
-

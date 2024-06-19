@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Favou
 
 Handled by the <see cref="T:SuperOffice.Services84.IFavouriteAgent">SuperOffice.Services84.IFavouriteAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Favourite](../Services84-Favourite.md) if you need to generate your own proxy code.
 
 * [AddFavourite](AddFavourite.md)
@@ -22,4 +20,3 @@ Download [WSDL file for Services84/Favourite](../Services84-Favourite.md) if you
 * [RemoveFavourite](RemoveFavourite.md)
 * [RemoveFavouritesById](RemoveFavouritesById.md)
 * [ToggleFavourite](ToggleFavourite.md)
-

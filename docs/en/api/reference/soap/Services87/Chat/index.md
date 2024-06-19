@@ -10,11 +10,8 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Chat.
 
 Handled by the <see cref="T:SuperOffice.Services87.IChatAgent">SuperOffice.Services87.IChatAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Chat](../Services87-Chat.md) if you need to generate your own proxy code.
 
 * [GetChatPresence](GetChatPresence.md)
 * [IsWithinOpeningHours](IsWithinOpeningHours.md)
 * [SaveChatPresence](SaveChatPresence.md)
-

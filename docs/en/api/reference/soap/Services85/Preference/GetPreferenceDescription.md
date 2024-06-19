@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.GetPrefe
 
 ## GetPreferenceDescription
 
-
-
-
-
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPreferenceDescription Response
 
@@ -81,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

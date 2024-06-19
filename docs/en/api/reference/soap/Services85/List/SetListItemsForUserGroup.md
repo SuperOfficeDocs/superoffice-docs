@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SetListItemsFo
 
 ## SetListItemsForUserGroup
 
-
-
-
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetListItemsForUserGroup Response
 
 ```xml
@@ -72,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

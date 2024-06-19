@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IForeignSystemAgent.GetKe
 
 ## GetKeyValueOnDeviceIdentifier
 
-
-
-
-
 [WSDL file for Services87/ForeignSystem](../Services87-ForeignSystem.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKeyValueOnDeviceIdentifier Response
 
 ```xml
@@ -71,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

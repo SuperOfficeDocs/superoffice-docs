@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.SaveSaleEntity
 
 ## SaveSaleEntity
 
-
-
-
-
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -353,7 +349,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSaleEntity Response
 
 ```xml
@@ -680,4 +675,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

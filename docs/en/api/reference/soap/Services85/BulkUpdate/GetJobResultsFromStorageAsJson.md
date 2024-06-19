@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBulkUpdateAgent.GetJobRe
 
 ## GetJobResultsFromStorageAsJson
 
-
-
-
-
 [WSDL file for Services85/BulkUpdate](../Services85-BulkUpdate.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetJobResultsFromStorageAsJson Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

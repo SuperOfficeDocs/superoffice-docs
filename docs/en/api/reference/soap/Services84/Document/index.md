@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Docum
 
 Handled by the <see cref="T:SuperOffice.Services84.IDocumentAgent">SuperOffice.Services84.IDocumentAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/Document](../Services84-Document.md) if you need to generate your own proxy code.
 
 * [CheckinDocument](CheckinDocument.md)
@@ -89,4 +87,3 @@ Download [WSDL file for Services84/Document](../Services84-Document.md) if you n
 * [SubstituteTemplateVariablesWithCustomTags2](SubstituteTemplateVariablesWithCustomTags2.md)
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
-

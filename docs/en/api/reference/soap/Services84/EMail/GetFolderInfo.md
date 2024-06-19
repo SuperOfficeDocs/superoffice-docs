@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetFolderInfo
 
 ## GetFolderInfo
 
-
-
-
-
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetFolderInfo Response
 
 ```xml
@@ -87,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

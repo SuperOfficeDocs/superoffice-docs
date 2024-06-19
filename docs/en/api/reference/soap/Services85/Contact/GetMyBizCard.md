@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.GetMyBizCar
 
 ## GetMyBizCard
 
-
-
-
-
 [WSDL file for Services85/Contact](../Services85-Contact.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyBizCard Response
 
@@ -377,4 +372,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SaveConnect
 
 ## SaveConnectionListMappings
 
-
-
-
-
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -106,7 +102,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveConnectionListMappings Response
 
 ```xml
@@ -190,4 +185,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

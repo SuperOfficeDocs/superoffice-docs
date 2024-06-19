@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBatchAgent.DeleteBatchTa
 
 ## DeleteBatchTask
 
-
-
-
-
 [WSDL file for Services87/Batch](../Services87-Batch.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteBatchTask Response
 
 ```xml
@@ -67,4 +62,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

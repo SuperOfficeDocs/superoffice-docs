@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.GetFo
 
 ## GetForeignAppEntity
 
-
-
-
-
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetForeignAppEntity Response
 
@@ -110,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.OfferAutoNextS
 
 ## OfferAutoNextStageOnApppointmentCompleted
 
-
-
-
-
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## OfferAutoNextStageOnApppointmentCompleted Response
 
 ```xml
@@ -68,4 +63,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

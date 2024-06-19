@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetAp
 
 ## GetApplicationConfiguration
 
-
-
-
-
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetApplicationConfiguration Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

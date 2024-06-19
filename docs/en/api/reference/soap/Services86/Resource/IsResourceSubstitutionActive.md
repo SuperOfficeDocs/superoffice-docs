@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IResourceAgent.IsResource
 
 ## IsResourceSubstitutionActive
 
-
-
-
-
 [WSDL file for Services86/Resource](../Services86-Resource.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsResourceSubstitutionActive Response
 
 ```xml
@@ -78,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

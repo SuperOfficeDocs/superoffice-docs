@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBulkUpdateAgent.ExecuteB
 
 ## ExecuteBySelectionId
 
-
-
-
-
 [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -93,7 +89,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ExecuteBySelectionId Response
 
 ```xml
@@ -114,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

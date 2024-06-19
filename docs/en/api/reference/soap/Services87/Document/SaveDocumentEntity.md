@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.SaveDocume
 
 ## SaveDocumentEntity
 
-
-
-
-
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -308,7 +304,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveDocumentEntity Response
 
 ```xml
@@ -590,4 +585,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

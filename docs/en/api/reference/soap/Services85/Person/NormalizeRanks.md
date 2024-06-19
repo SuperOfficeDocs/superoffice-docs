@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.NormalizeRan
 
 ## NormalizeRanks
 
-
-
-
-
 [WSDL file for Services85/Person](../Services85-Person.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## NormalizeRanks Response
 
 ```xml
@@ -68,4 +63,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

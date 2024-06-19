@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetHeadings">S
 
 ## GetHeadings
 
-
-
-
-
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetHeadings Response
 
@@ -126,4 +121,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

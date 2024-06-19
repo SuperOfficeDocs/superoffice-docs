@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Sale.
 
 Handled by the <see cref="T:SuperOffice.Services85.ISaleAgent">SuperOffice.Services85.ISaleAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Sale](../Services85-Sale.md) if you need to generate your own proxy code.
 
 * [AddSaleStakeholders](AddSaleStakeholders.md)
@@ -50,4 +48,3 @@ Download [WSDL file for Services85/Sale](../Services85-Sale.md) if you need to g
 * [SetAsLost](SetAsLost.md)
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
-

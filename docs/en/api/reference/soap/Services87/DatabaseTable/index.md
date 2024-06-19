@@ -10,12 +10,9 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Datab
 
 Handled by the <see cref="T:SuperOffice.Services87.IDatabaseTableAgent">SuperOffice.Services87.IDatabaseTableAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md) if you need to generate your own proxy code.
 
 * [DeleteRow](DeleteRow.md)
 * [InsertRow](InsertRow.md)
 * [ReadRow](ReadRow.md)
 * [UpdateRow](UpdateRow.md)
-

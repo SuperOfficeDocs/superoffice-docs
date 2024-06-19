@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IArchiveAgent.GetArchiveL
 
 ## GetArchiveListByColumnsWithHeaderWithContext2
 
-
-
-
-
 [WSDL file for Services85/Archive](../Services85-Archive.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetArchiveListByColumnsWithHeaderWithContext2 Response
 
@@ -96,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,12 +10,9 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Navig
 
 Handled by the <see cref="T:SuperOffice.Services86.INavigatorAgent">SuperOffice.Services86.INavigatorAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/Navigator](../Services86-Navigator.md) if you need to generate your own proxy code.
 
 * [GetAllNavigatorCompany](GetAllNavigatorCompany.md)
 * [GetNavigatorCompanies](GetNavigatorCompanies.md)
 * [GetNavigatorCompany](GetNavigatorCompany.md)
 * [GetNavigatorCompanyList](GetNavigatorCompanyList.md)
-

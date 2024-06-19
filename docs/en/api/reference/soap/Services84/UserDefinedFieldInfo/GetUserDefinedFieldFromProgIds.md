@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgen
 
 ## GetUserDefinedFieldFromProgIds
 
-
-
-
-
 [WSDL file for Services84/UserDefinedFieldInfo](../Services84-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserDefinedFieldFromProgIds Response
 
@@ -107,4 +102,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

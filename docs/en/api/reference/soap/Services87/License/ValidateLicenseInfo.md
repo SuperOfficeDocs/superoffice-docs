@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ILicenseAgent.ValidateLic
 
 ## ValidateLicenseInfo
 
-
-
-
-
 [WSDL file for Services87/License](../Services87-License.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -200,7 +196,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ValidateLicenseInfo Response
 
 ```xml
@@ -225,4 +220,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMessagingAgent.SendMessa
 
 ## SendMessages
 
-
-
-
-
 [WSDL file for Services86/Messaging](../Services86-Messaging.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendMessages Response
 
 ```xml
@@ -84,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

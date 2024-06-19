@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Messa
 
 Handled by the <see cref="T:SuperOffice.Services86.IMessagingAgent">SuperOffice.Services86.IMessagingAgent</see> interface.
 
-
-
 Download [WSDL file for Services86/Messaging](../Services86-Messaging.md) if you need to generate your own proxy code.
 
 * [CreateMessage](CreateMessage.md)
@@ -20,4 +18,3 @@ Download [WSDL file for Services86/Messaging](../Services86-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
-

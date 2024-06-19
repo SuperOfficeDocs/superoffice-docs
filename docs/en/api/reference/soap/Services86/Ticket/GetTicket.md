@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.GetTicket">S
 
 ## GetTicket
 
-
-
-
-
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTicket Response
 
@@ -108,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

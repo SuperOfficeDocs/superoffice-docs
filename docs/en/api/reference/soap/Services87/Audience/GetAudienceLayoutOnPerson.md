@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.GetAudienc
 
 ## GetAudienceLayoutOnPerson
 
-
-
-
-
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAudienceLayoutOnPerson Response
 
@@ -100,4 +95,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

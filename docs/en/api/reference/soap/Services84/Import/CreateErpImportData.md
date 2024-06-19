@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IImportAgent.CreateErpImp
 
 ## CreateErpImportData
 
-
-
-
-
 [WSDL file for Services84/Import](../Services84-Import.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -125,7 +121,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateErpImportData Response
 
 ```xml
@@ -165,4 +160,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

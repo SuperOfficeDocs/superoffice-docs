@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.RemoveSel
 
 ## RemoveSelectionMembersFromSearch
 
-
-
-
-
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveSelectionMembersFromSearch Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

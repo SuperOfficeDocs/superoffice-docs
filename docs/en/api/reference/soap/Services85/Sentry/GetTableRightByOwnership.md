@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISentryAgent.GetTableRigh
 
 ## GetTableRightByOwnership
 
-
-
-
-
 [WSDL file for Services85/Sentry](../Services85-Sentry.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTableRightByOwnership Response
 
 ```xml
@@ -73,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

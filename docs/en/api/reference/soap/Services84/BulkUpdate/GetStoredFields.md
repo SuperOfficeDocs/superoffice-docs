@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBulkUpdateAgent.GetStore
 
 ## GetStoredFields
 
-
-
-
-
 [WSDL file for Services84/BulkUpdate](../Services84-BulkUpdate.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetStoredFields Response
 
@@ -111,4 +106,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

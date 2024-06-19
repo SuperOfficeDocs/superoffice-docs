@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseAgent.GetStepsIn
 
 ## GetStepsInDatabase
 
-
-
-
-
 [WSDL file for Services87/Database](../Services87-Database.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStepsInDatabase Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

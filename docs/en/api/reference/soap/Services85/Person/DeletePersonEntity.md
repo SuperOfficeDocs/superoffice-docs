@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.DeletePerson
 
 ## DeletePersonEntity
 
-
-
-
-
 [WSDL file for Services85/Person](../Services85-Person.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeletePersonEntity Response
 
 ```xml
@@ -67,4 +62,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

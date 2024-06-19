@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetSelectableLi
 
 ## GetSelectableListWithRestriction
 
-
-
-
-
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSelectableListWithRestriction Response
 
@@ -126,4 +121,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/UserD
 
 Handled by the <see cref="T:SuperOffice.Services85.IUserDefinedFieldInfoAgent">SuperOffice.Services85.IUserDefinedFieldInfoAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md) if you need to generate your own proxy code.
 
 * [ChangeFieldType](ChangeFieldType.md)
@@ -44,4 +42,3 @@ Download [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefin
 * [SetPublishStartSystemEvent](SetPublishStartSystemEvent.md)
 * [SetRankOnFields](SetRankOnFields.md)
 * [SetUserDefinedPageOneField](SetUserDefinedPageOneField.md)
-

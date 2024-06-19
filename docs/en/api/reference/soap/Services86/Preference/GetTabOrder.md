@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.GetTabOr
 
 ## GetTabOrder
 
-
-
-
-
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTabOrder Response
 
 ```xml
@@ -73,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

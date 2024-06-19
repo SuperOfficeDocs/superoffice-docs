@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.GetPrevio
 
 ## GetPreviousCurrent
 
-
-
-
-
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreviousCurrent Response
 
 ```xml
@@ -77,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/MDO.s
 
 Handled by the <see cref="T:SuperOffice.Services84.IMDOAgent">SuperOffice.Services84.IMDOAgent</see> interface.
 
-
-
 Download [WSDL file for Services84/MDO](../Services84-MDO.md) if you need to generate your own proxy code.
 
 * [GetList](GetList.md)
@@ -26,4 +24,3 @@ Download [WSDL file for Services84/MDO](../Services84-MDO.md) if you need to gen
 * [GetSelectableSimpleList](GetSelectableSimpleList.md)
 * [GetSimpleList](GetSimpleList.md)
 * [SetSelected](SetSelected.md)
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Prefe
 
 Handled by the <see cref="T:SuperOffice.Services85.IPreferenceAgent">SuperOffice.Services85.IPreferenceAgent</see> interface.
 
-
-
 Download [WSDL file for Services85/Preference](../Services85-Preference.md) if you need to generate your own proxy code.
 
 * [CreateDefaultPreference](CreateDefaultPreference.md)
@@ -42,4 +40,3 @@ Download [WSDL file for Services85/Preference](../Services85-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
-

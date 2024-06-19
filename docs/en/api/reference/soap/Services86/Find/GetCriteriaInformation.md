@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFindAgent.GetCriteriaInf
 
 ## GetCriteriaInformation
 
-
-
-
-
 [WSDL file for Services86/Find](../Services86-Find.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetCriteriaInformation Response
 
@@ -233,4 +228,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/ErpSy
 
 Handled by the <see cref="T:SuperOffice.Services87.IErpSyncAgent">SuperOffice.Services87.IErpSyncAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/ErpSync](../Services87-ErpSync.md) if you need to generate your own proxy code.
 
 * [BreakActorLink](BreakActorLink.md)
@@ -58,4 +56,3 @@ Download [WSDL file for Services87/ErpSync](../Services87-ErpSync.md) if you nee
 * [ToggleErpConnectionActive](ToggleErpConnectionActive.md)
 * [UpdateConnectionFields](UpdateConnectionFields.md)
 * [ValidateArchiveColumnConfig](ValidateArchiveColumnConfig.md)
-

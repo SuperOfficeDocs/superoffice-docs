@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/CRMSc
 
 Handled by the <see cref="T:SuperOffice.Services87.ICRMScriptAgent">SuperOffice.Services87.ICRMScriptAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/CRMScript](../Services87-CRMScript.md) if you need to generate your own proxy code.
 
 * [CreateDefaultCRMScriptEntity](CreateDefaultCRMScriptEntity.md)
@@ -25,4 +23,3 @@ Download [WSDL file for Services87/CRMScript](../Services87-CRMScript.md) if you
 * [SaveCRMScriptEntity](SaveCRMScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
-

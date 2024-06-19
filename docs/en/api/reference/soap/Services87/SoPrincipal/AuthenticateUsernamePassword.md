@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 
 ## AuthenticateUsernamePassword
 
-
-
-
-
 [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md)
 
 ## AuthenticateUsernamePassword Request
@@ -41,7 +37,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AuthenticateUsernamePassword Response
 
@@ -123,4 +118,3 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-

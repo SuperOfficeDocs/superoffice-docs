@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Custo
 
 Handled by the <see cref="T:SuperOffice.Services87.ICustomerServiceAgent">SuperOffice.Services87.ICustomerServiceAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/CustomerService](../Services87-CustomerService.md) if you need to generate your own proxy code.
 
 * [AddMessageFromMailData](AddMessageFromMailData.md)
@@ -42,4 +40,3 @@ Download [WSDL file for Services87/CustomerService](../Services87-CustomerServic
 * [SessionIsValid](SessionIsValid.md)
 * [TestSmtpServer](TestSmtpServer.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
-

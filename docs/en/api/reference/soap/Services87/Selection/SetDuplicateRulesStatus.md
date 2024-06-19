@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.SetDuplic
 
 ## SetDuplicateRulesStatus
 
-
-
-
-
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetDuplicateRulesStatus Response
 
 ```xml
@@ -74,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

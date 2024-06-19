@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/List.
 
 Handled by the <see cref="T:SuperOffice.Services87.IListAgent">SuperOffice.Services87.IListAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/List](../Services87-List.md) if you need to generate your own proxy code.
 
 * [AddFromListDefinition](AddFromListDefinition.md)
@@ -275,4 +273,3 @@ Download [WSDL file for Services87/List](../Services87-List.md) if you need to g
 * [SetVisibleForUserGroups](SetVisibleForUserGroups.md)
 * [SetVisibleForUserGroupsFromListName](SetVisibleForUserGroupsFromListName.md)
 * [SortListItems](SortListItems.md)
-

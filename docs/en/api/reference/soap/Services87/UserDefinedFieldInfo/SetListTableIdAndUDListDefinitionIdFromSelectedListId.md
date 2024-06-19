@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgen
 
 ## SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
-
-
-
-
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -83,7 +79,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetListTableIdAndUDListDefinitionIdFromSelectedListId Response
 
 ```xml
@@ -139,4 +134,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

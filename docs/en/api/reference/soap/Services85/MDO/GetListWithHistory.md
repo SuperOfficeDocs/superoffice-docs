@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMDOAgent.GetListWithHist
 
 ## GetListWithHistory
 
-
-
-
-
 [WSDL file for Services85/MDO](../Services85-MDO.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetListWithHistory Response
 
@@ -121,4 +116,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

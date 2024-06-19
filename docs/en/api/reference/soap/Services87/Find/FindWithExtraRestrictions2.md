@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFindAgent.FindWithExtraR
 
 ## FindWithExtraRestrictions2
 
-
-
-
-
 [WSDL file for Services87/Find](../Services87-Find.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## FindWithExtraRestrictions2 Response
 
@@ -111,4 +106,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

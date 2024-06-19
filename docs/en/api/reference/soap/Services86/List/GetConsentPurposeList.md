@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetConsentPurp
 
 ## GetConsentPurposeList
 
-
-
-
-
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConsentPurposeList Response
 
@@ -99,4 +94,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services86.IBatchAgent.GetBatchTaskI
 
 ## GetBatchTaskInfosByAssociates
 
-
-
-
-
 [WSDL file for Services86/Batch](../Services86-Batch.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBatchTaskInfosByAssociates Response
 
@@ -98,4 +93,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
