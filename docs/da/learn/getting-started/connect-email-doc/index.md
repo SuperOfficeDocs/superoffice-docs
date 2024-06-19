@@ -23,16 +23,17 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 
 | | Application | Description | Options |
 |-|---|---|---|
-| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only) <br />[SuperOffice Inbox][6] <br /> [SuperOffice for Outlook][7]|
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library (WebTools)<br /> [Microsoft 365/Sharepoint][2] <br /> [Google Workspace][3] |
-| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6] <br/> [Synchronizer for SuperOffice][8] <br /> [WebTools for Mac][5]|
+| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4])<br /> SuperOffice document library ([WebTools for Mac])[5]<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows)<br /> [WebTools for Mac][5]|
 
 ## What solution does your company use?
 
 The integrations you need depend on your operating system, your email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
 
-* [SuperOffice (default)][1]
-* [Microsoft 365 (Outlook and Sharepoint)][2]
+* [SuperOffice (default with Windoes OS)][1]
+* [SuperOffice (default with MacOS)][10]
+* [Microsoft 365 (Outlook and SharePoint)][2]
 * [Google Workspace (Gmail)][3]
 
 ## Examples
@@ -40,16 +41,19 @@ The integrations you need depend on your operating system, your email client, an
 ### Diary with incoming invitations
 
 ![Notifications with incoming invitations via Inbox SuperOffice -screenshot][img1]
+
 *Notifications with incoming invitations via SuperOffice Inbox*
 
 ### Inbox with incoming invitations
 
 ![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
+
 *SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
 
 ### SuperOffice for Outlook application
 
 ![Use the application **SuperOffice for Outlook** to archive emails to SuperOffice -screenshot][img3]
+
 *Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
 
 <!-- Referenced links -->
@@ -61,6 +65,8 @@ The integrations you need depend on your operating system, your email client, an
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../email/superoffice-for-outlook/learn/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
+[9]: ../../../email/gmail-link/learn/index.md
+[10]: default-mac.yml
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
