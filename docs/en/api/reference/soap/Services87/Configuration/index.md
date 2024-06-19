@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Confi
 
 Handled by the <see cref="T:SuperOffice.Services87.IConfigurationAgent">SuperOffice.Services87.IConfigurationAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Configuration](../Services87-Configuration.md) if you need to generate your own proxy code.
 
 * [ClearConfigurationCache](ClearConfigurationCache.md)
@@ -50,4 +48,3 @@ Download [WSDL file for Services87/Configuration](../Services87-Configuration.md
 * [SaveSystemEventEntity](SaveSystemEventEntity.md)
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
-

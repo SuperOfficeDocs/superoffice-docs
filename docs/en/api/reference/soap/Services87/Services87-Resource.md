@@ -499,4 +499,3 @@ title: Services87.ResourceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
-

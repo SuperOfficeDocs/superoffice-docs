@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Resou
 
 Handled by the <see cref="T:SuperOffice.Services87.IResourceAgent">SuperOffice.Services87.IResourceAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Resource](../Services87-Resource.md) if you need to generate your own proxy code.
 
 * [ActivateResourceSubstitution](ActivateResourceSubstitution.md)
@@ -19,4 +17,3 @@ Download [WSDL file for Services87/Resource](../Services87-Resource.md) if you n
 * [GetResourceSubstitutions](GetResourceSubstitutions.md)
 * [IsResourceSubstitutionActive](IsResourceSubstitutionActive.md)
 * [SetResourceSubstitution](SetResourceSubstitution.md)
-

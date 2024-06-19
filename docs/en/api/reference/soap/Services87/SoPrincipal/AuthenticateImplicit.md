@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 
 ## AuthenticateImplicit
 
-
-
-
-
 [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md)
 
 ## AuthenticateImplicit Request
@@ -39,7 +35,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AuthenticateImplicit Response
 
@@ -121,4 +116,3 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-

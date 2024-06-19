@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.ForceSyncAl
 
 ## ForceSyncAll
 
-
-
-
-
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ForceSyncAll Response
 
@@ -92,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

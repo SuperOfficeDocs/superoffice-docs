@@ -10,9 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Toolt
 
 Handled by the <see cref="T:SuperOffice.Services87.ITooltipsAgent">SuperOffice.Services87.ITooltipsAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Tooltips](../Services87-Tooltips.md) if you need to generate your own proxy code.
 
 * [GetTooltip](GetTooltip.md)
-

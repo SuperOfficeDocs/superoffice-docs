@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMarketingAgent.DeleteFor
 
 ## DeleteFormSubmissionEntity
 
-
-
-
-
 [WSDL file for Services87/Marketing](../Services87-Marketing.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteFormSubmissionEntity Response
 
 ```xml
@@ -65,4 +60,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

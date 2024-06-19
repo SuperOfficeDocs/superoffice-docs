@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPhoneListAgent.AddToFavo
 
 ## AddToFavorites
 
-
-
-
-
 [WSDL file for Services87/PhoneList](../Services87-PhoneList.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddToFavorites Response
 
 ```xml
@@ -66,4 +61,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

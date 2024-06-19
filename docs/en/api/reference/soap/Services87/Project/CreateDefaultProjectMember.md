@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.CreateDefau
 
 ## CreateDefaultProjectMember
 
-
-
-
-
 [WSDL file for Services87/Project](../Services87-Project.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultProjectMember Response
 
@@ -89,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

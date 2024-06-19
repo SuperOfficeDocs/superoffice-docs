@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.GetBlobEntityO
 
 ## GetBlobEntityOnCountry
 
-
-
-
-
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBlobEntityOnCountry Response
 
@@ -106,4 +101,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

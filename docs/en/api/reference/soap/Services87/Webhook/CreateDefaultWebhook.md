@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.CreateDefau
 
 ## CreateDefaultWebhook
 
-
-
-
-
 [WSDL file for Services87/Webhook](../Services87-Webhook.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultWebhook Response
 
@@ -119,4 +114,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

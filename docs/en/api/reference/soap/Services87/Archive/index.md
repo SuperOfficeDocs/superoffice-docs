@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Archi
 
 Handled by the <see cref="T:SuperOffice.Services87.IArchiveAgent">SuperOffice.Services87.IArchiveAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Archive](../Services87-Archive.md) if you need to generate your own proxy code.
 
 * [CreateDefaultArchiveListResult](CreateDefaultArchiveListResult.md)
@@ -38,4 +36,3 @@ Download [WSDL file for Services87/Archive](../Services87-Archive.md) if you nee
 * [SetChosenColumns](SetChosenColumns.md)
 * [SetChosenEntities](SetChosenEntities.md)
 * [SetColumnWidths](SetColumnWidths.md)
-

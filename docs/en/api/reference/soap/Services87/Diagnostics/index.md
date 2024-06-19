@@ -10,8 +10,6 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Diagn
 
 Handled by the <see cref="T:SuperOffice.Services87.IDiagnosticsAgent">SuperOffice.Services87.IDiagnosticsAgent</see> interface.
 
-
-
 Download [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md) if you need to generate your own proxy code.
 
 * [AddWebAppUsage](AddWebAppUsage.md)
@@ -27,4 +25,3 @@ Download [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md) if
 * [LogViewState](LogViewState.md)
 * [ResyncUsers](ResyncUsers.md)
 * [WebAppUsageExistsInPeriod](WebAppUsageExistsInPeriod.md)
-

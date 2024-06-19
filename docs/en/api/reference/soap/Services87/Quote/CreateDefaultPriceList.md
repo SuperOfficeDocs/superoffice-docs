@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.CreateDefault
 
 ## CreateDefaultPriceList
 
-
-
-
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,7 +41,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultPriceList Response
 
@@ -78,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
