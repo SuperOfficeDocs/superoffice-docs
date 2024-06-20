@@ -2,8 +2,8 @@
 title: mailgun
 uid: mailgun
 description: "Learn about the alternatives for sending and receiving emails in SuperOffice and how to configure them."
-author: {github-id}
-so.date: 02.02.2022
+author: Frode B
+so.date: 06.20.2024
 keywords: Mailgun, email, suocrm
 so.topic: concept
 so.envir: online
@@ -56,9 +56,8 @@ When creating a new mailbox in Service you automatically receive a "Forwarding a
 
 > [!NOTE]
 > **Important!** You will have to set up forwarding from address 1 >> address 2 on your local email account.
-
-> [!NOTE]
-> You may use a shared mailbox for the forwarding address on your mail server. Read more about [Microsoft shared mailbox][4]
+>
+> You may use a shared mailbox for the forwarding address on your mail server. Read more about [Microsoft shared mailbox][4].
 
 When using Mailgun as the sending email service, and sending it as someone else (your own domain), it is recommended to set up both an SPF record and a DKIM record as a best practice, to avoid outgoing emails from Service to your customers ending up as spam. Read more on SPF and DKIM in section [Security and best practices][3].
 
