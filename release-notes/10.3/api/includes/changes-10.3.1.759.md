@@ -1,6 +1,6 @@
 ---
 uid: version_10.3.1.759_changes
-so.date: 1/20/2024
+date: 1/20/2024
 ---
 
 Changes from v10.2.11.1228 and v10.3.1.759

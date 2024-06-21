@@ -4,11 +4,11 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: Service, request
 author: SuperOffice AS – Research and Development
-so.date: 05.21.2024
-so.version: 10.3
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+date: 05.21.2024
+version: 10.3
+topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 ---
 
 # New and improved Service

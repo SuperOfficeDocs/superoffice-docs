@@ -4,7 +4,7 @@ uid: whats_new_db
 description: What's new in the SuperOffice database
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # What's new in the SuperOffice database (legacy)

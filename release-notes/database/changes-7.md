@@ -4,7 +4,7 @@ uid: changes_in_7
 description: What's new in the SuperOffice 7 database
 author: {github-id}
 keywords:
-so.version: 7
+version: 7
 ---
 
 # What's new in the SuperOffice 7 database

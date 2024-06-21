@@ -4,11 +4,11 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: dashboard, notification, follow-up, invitation, appointment, meeting
 author: SuperOffice AS – Research and Development
-so.date: 05.21.2024
-so.version: 10.3
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+date: 05.21.2024
+version: 10.3
+topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # New and improved Core CRM

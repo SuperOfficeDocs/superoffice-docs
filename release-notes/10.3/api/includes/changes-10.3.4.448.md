@@ -1,6 +1,6 @@
 ---
 uid: version_10.3.4.448_changes
-so.date: 4/2/2024
+date: 4/2/2024
 ---
 
 Changes from v10.3.3.610 and v10.3.4.448

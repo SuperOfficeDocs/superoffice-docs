@@ -4,10 +4,10 @@ uid: changes_70_to_71
 description: Changes in SuperOffice from 7.0 to 7.1
 author: {github-id}
 keywords: database
-so.topic: reference
-so.envir: onsite
-so.version: 7.1
-# so.client:
+topic: reference
+envir: onsite
+version: 7.1
+# client:
 ---
 
 # Table changes from 7.0 to 7.1

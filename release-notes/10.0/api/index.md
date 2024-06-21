@@ -1,7 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 03.14.2022
-so.version: 10
+date: 03.14.2022
+version: 10
 ---
 
 # API changes

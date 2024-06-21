@@ -3,12 +3,12 @@ title: End of life - Pagebuilder customization
 uid: eol-pagebuilder
 description: This is a reminder of end of life for SuperOffice Pagebuilder customizations.
 author: Trude Lien Smedbråten
-so.date: 11.01.2023
+date: 11.01.2023
 keywords: Pagebuilder, EOL
-so.topic: reference
-so.version: 10.2.9
-so.lang: en
-so.envir: onsite
+topic: reference
+version: 10.2.9
+language: en
+envir: onsite
 ---
 
 # End of life - Pagebuilder customization

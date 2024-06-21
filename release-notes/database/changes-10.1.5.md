@@ -2,15 +2,15 @@
 uid: database-whats-new-10.1.5
 title: What's new in version 10.1.5
 description: What's new in database version 10.1.5
-so.generated: true
+generated: true
 keywords:
   - "database"
-so.date: 08.26.2022
-so.topic: reference
-so.envir:
+date: 08.26.2022
+topic: reference
+envir:
   - "onsite"
   - "online"
-so.version: 10.1.5
+version: 10.1.5
 ---
 <!-- markdownlint-disable-file MD036 -->
 

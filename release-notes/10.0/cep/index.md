@@ -1,8 +1,8 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: CEP, Customer engagement platform, chat
-so.version: 10
+version: 10
 ---
 
 # Customer engagement platform

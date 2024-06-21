@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 08.19.2021
+date: 08.19.2021
 ---
 
 # What’s new in SuperOffice 9.1

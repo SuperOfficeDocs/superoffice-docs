@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 11.09.2021
+date: 11.09.2021
 keywords: development products, AI
 ---
 

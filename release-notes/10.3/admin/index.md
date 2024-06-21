@@ -4,11 +4,11 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: Settings and maintenance, system design, web panel, screen designer, request type, Trigger dialog
 author: SuperOffice AS – Research and Development
-so.date: 06.11.2024
-so.version: 10.3
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 06.11.2024
+version: 10.3
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # New and improved Settings and maintenance

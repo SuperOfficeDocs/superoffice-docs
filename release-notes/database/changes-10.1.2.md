@@ -2,15 +2,15 @@
 uid: database-whats-new-10.1.2.686
 title: What's new in version 10.1.2.686
 description: What's new in database version 10.1.2.686.
-so.generated: true
+generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
-so.topic: reference
-so.envir:
+date: 04.12.2022
+topic: reference
+envir:
   - "onsite"
   - "online"
-so.version: 10.1.2
+version: 10.1.2
 ---
 <!-- markdownlint-disable-file MD036 -->
 

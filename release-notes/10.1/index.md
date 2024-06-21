@@ -3,10 +3,10 @@ title: What's new in SuperOffice 10.1
 uid: release-notes-10.1
 description: Release notes. What's new in SuperOffice 10.1
 author: SuperOffice AS – Research and Development
-so.date: 04.04.2022
+date: 04.04.2022
 keywords:
-so.topic: reference
-so.version: 10.1
+topic: reference
+version: 10.1
 ---
 
 # What's new in SuperOffice 10.1

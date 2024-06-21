@@ -2,12 +2,12 @@
 uid: database-whats-new-10.2.2.707
 title: What's new in version 10.2.2.707
 description: What's new in database version 10.2.2.707.
-so.generated: true
+generated: true
 keywords:
   - "database"
-so.date: 02.15.2023
-so.topic: reference
-so.envir:
+date: 02.15.2023
+topic: reference
+envir:
   - "onsite"
   - "online"
 ---

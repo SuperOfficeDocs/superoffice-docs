@@ -1,6 +1,6 @@
 ---
 uid: version_10.3.2.841_changes
-so.date: 2/26/2024
+date: 2/26/2024
 ---
 
 Changes from v10.3.1.759 and v10.3.2.841

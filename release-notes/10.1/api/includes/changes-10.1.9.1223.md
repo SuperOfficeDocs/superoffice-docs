@@ -1,6 +1,6 @@
 ---
 uid: version_10.1.9.1223_changes
-so.date: 12.07.2022
+date: 12.07.2022
 ---
 
 <!-- markdownlint-disable-file MD013 MD024-->

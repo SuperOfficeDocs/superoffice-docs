@@ -4,9 +4,9 @@ uid: changes_7_datetime
 description: Changes in SuperOffice 7 - DateTime
 author: {github-id}
 keywords: database
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # DateTime - new from SuperOffice v.7

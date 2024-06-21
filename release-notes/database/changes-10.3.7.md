@@ -2,10 +2,10 @@
 uid: database-whats-new-10.3.7.452
 title: What's new in version 10.3.7.452
 description: What's new in database version 10.3.7.452.
-so.generated: true
+generated: true
 keywords: database
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # Released database changes in version 10.3.7.452

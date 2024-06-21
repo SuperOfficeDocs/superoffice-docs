@@ -2,15 +2,15 @@
 uid: database-whats-new-92
 title: What's New
 description: What's new in the latest database version.
-so.generated: true
+generated: true
 keywords:
   - "database"
-so.date: 03.22.2021
-so.topic: reference
-so.envir:
+date: 03.22.2021
+topic: reference
+envir:
   - "onsite"
   - "online"
-so.version: 9.2
+version: 9.2
 ---
 <!-- markdownlint-disable-file MD036 -->
 

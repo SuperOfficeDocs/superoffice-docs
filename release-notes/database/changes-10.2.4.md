@@ -2,12 +2,12 @@
 uid: database-whats-new-10.2.4.796
 title: What's new in version 10.2.4.796
 description: What's new in database version 10.2.4.796 (10.2.5.334)
-so.generated: true
+generated: true
 keywords:
   - "database"
-so.date: 03.31.2023
-so.topic: reference
-so.envir:
+date: 03.31.2023
+topic: reference
+envir:
   - "onsite"
   - "online"
 ---

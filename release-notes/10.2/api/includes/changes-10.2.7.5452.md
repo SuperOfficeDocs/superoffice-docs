@@ -1,6 +1,6 @@
 ---
 uid: version_10.2.7.5452_changes
-so.date: 8/29/2023
+date: 8/29/2023
 ---
 
 Changes from v10.2.6.1248 and v10.2.7.5452

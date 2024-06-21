@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 04.28.2021
+date: 04.28.2021
 ---
 
 # New and improved standard CRM
