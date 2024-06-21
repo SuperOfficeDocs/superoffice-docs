@@ -2,10 +2,10 @@
 uid: table-extra_tables
 title: extra_tables table
 description: This table contains entries for the extra tables in the system.
-so.generated: true
+generated: true
 keywords: database table extra_tables
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # extra\_tables Table (305)

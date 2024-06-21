@@ -3,11 +3,11 @@ title: Query the transaction log
 uid: query_transaction_log
 description: How to query the transaction log - keeping track of changes
 author: {github-id}
-so.date:
+date:
 keywords: database,travel
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
 
 # All changes are logged

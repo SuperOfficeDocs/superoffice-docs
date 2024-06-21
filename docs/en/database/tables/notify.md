@@ -2,10 +2,10 @@
 uid: table-notify
 title: notify table
 description: This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.
-so.generated: true
+generated: true
 keywords: database table notify
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # notify Table (301)

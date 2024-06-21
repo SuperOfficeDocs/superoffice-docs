@@ -2,10 +2,10 @@
 uid: table-static_list_ref
 title: static_list_ref table
 description: This table stores id references for selections id lists
-so.generated: true
+generated: true
 keywords: database table static_list_ref
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # static\_list\_ref Table (396)

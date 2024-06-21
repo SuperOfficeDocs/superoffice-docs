@@ -4,10 +4,10 @@ uid: travel_transaction_log
 description: Travel transaction log
 author: {github-id}
 keywords: database, travel
-so.topic: concept
-so.date:
-so.envir: onsite
-so.client: win
+topic: concept
+date:
+envir: onsite
+client: win
 ---
 
 # Transaction log

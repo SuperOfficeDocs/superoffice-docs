@@ -2,10 +2,10 @@
 uid: table-Category
 title: Category table
 description: Category list table
-so.generated: true
+generated: true
 keywords: database table Category
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # Category Table (64)

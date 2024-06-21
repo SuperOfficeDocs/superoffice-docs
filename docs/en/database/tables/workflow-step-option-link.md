@@ -2,10 +2,10 @@
 uid: table-workflow_step_option_link
 title: workflow_step_option_link table
 description: Link steps to other steps through step options
-so.generated: true
+generated: true
 keywords: database table workflow_step_option_link
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # workflow\_step\_option\_link Table (517)

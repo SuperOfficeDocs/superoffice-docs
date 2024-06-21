@@ -2,10 +2,10 @@
 uid: table-workflow_step
 title: workflow_step table
 description: A set of steps related to a workflow.
-so.generated: true
+generated: true
 keywords: database table workflow_step
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # workflow\_step Table (514)

@@ -2,10 +2,10 @@
 uid: enum-credentialusage
 title: Enum values for CredentialUsage
 description: Lists the enum values for CredentialUsage.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # CredentialUsage Enum

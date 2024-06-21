@@ -2,10 +2,10 @@
 uid: table-udcontactLarge
 title: udcontactLarge table
 description: User-defined fields for contact (long strings)
-so.generated: true
+generated: true
 keywords: database table udcontactLarge
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # udcontactLarge Table (36)

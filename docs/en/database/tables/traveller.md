@@ -2,10 +2,10 @@
 uid: table-traveller
 title: traveller table
 description: Associates traveling out from this database
-so.generated: true
+generated: true
 keywords: database table traveller
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # traveller Table (31)

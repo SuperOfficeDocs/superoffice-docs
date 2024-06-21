@@ -4,9 +4,9 @@ uid: naming_conventions
 description: SuperOffice database naming conventions
 author: {github-id}
 keywords: database
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Naming conventions

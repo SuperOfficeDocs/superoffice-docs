@@ -2,10 +2,10 @@
 uid: table-target_assignment_info
 title: target_assignment_info table
 description: Linking associate, company or user group target and other information with target values
-so.generated: true
+generated: true
 keywords: database table target_assignment_info
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # target\_assignment\_info Table (502)

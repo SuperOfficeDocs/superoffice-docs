@@ -2,10 +2,10 @@
 uid: enum-dashtiletype
 title: Enum values for DashTileType
 description: Lists the enum values for DashTileType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # DashTileType Enum

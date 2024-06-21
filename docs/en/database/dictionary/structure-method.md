@@ -3,11 +3,11 @@ title: Structure method
 uid: cdd_structure
 description: Continuous database structure method
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: database
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Structure method

@@ -3,10 +3,10 @@ title: database
 description: SuperOffice database documentation
 author: {github-id}
 keywords:
-so.topic: generic
-so.date: 05.11.2016
-# so.envir:
-# so.client:
+topic: generic
+date: 05.11.2016
+# envir:
+# client:
 ---
 
 # Expander SDK: database documentation

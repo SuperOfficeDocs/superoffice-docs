@@ -2,10 +2,10 @@
 uid: table-ejscript
 title: ejscript table
 description: ejscript
-so.generated: true
+generated: true
 keywords: database table ejscript
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # ejscript Table (377)

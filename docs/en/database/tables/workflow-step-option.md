@@ -2,10 +2,10 @@
 uid: table-workflow_step_option
 title: workflow_step_option table
 description: Some steps can have optional child &apos;flows&apos;, a new series of steps
-so.generated: true
+generated: true
 keywords: database table workflow_step_option
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # workflow\_step\_option Table (516)

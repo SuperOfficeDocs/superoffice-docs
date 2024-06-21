@@ -2,10 +2,10 @@
 uid: table-ShipmentType
 title: ShipmentType table
 description: Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
-so.generated: true
+generated: true
 keywords: database table ShipmentType
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # ShipmentType Table (497)

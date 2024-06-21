@@ -2,10 +2,10 @@
 uid: enum-chatsessionflags
 title: Enum values for ChatSessionFlags
 description: Lists the enum values for ChatSessionFlags.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # ChatSessionFlags Enum
