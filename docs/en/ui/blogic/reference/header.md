@@ -3,9 +3,9 @@ title: Header
 uid: blogic_header
 description: Header
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Header

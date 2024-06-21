@@ -3,9 +3,9 @@ uid: help-no-selection
 title: Utvalg
 description: Utvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg
-so.topic: concept
+topic: concept
 language: no
 ---
 

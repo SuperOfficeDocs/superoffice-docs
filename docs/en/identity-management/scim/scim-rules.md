@@ -3,11 +3,11 @@ title: SCIM rules
 uid: scim_rules
 description: SCIM rules
 author: {github-id}
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD, Azure
-so.topic: concepts
-so.envir: cloud
-so.client: online
+topic: concepts
+envir: cloud
+client: online
 ---
 
 # SCIM rules

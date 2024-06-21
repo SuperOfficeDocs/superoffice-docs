@@ -3,9 +3,9 @@ uid: help-sv-mail-link-settings
 title: Dialogrutan Alternativ för e-post
 description: Dialogrutan Alternativ för e-post
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: reference
+topic: reference
 language: sv
 ---
 

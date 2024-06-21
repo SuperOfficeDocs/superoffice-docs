@@ -3,11 +3,11 @@ title: Validation in SuperOffice WEB
 uid: validate_fields_web
 description: Validation in SuperOffice WEB
 author: Henning Dahl
-so.date: 09.28.2014
+date: 09.28.2014
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Validation in SuperOffice WEB

@@ -2,9 +2,9 @@
 uid: crmscript_debug_log_messages
 title: Log Messages
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Log Messages

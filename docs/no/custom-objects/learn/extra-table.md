@@ -4,11 +4,11 @@ title: Ekstratabeller
 description: Introduksjon til ekstratabeller i SuperOffice,
 keywords: database, ekstratabell, tabellmappe, tredjepartstabell
 author: Bergfrid Dias
-so.date: 01.25.2024
-so.version: 10
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+date: 01.25.2024
+version: 10
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

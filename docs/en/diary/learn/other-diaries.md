@@ -3,10 +3,10 @@ uid: help-en-diary-other
 title: View another diary
 description: View other's diary.
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+date: 11.20.2023
+version: 10.2.11
 keywords: diary, follow-up, resource, owner
-so.topic: howto
+topic: howto
 language: en
 ---
 

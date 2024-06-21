@@ -3,9 +3,9 @@ title: Person - services
 uid: api_person_services
 description: Working with contacts (person) in API with services
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, services, API
-so.topic: concept
+topic: concept
 ---
 
 # Contact - services

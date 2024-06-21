@@ -3,9 +3,9 @@ uid: help-da-sales-target-types
 title: Opret en salgsmåltype med undertyper
 description: "Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: howto
+topic: howto
 language: da
 ---
 

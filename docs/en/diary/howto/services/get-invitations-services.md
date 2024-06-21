@@ -3,11 +3,11 @@ title: How to get a list of invitations (services)
 uid: get_invitation_services
 description: How to get a list of invitations using NetServer services
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: diary, calendar, appointment, API, web services, archiveprovider
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to get a list of invitations (services)

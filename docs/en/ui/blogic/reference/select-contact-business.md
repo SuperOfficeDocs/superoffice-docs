@@ -3,9 +3,9 @@ title: Select contact business
 uid: blogic_select_contact_business
 description: Select contact business
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select contact business

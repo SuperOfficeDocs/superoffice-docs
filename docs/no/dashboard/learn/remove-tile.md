@@ -3,9 +3,9 @@ uid: help-no-dashboard-tile-delete
 title: Fjerne en figur
 description: Fjerne en figur fra et dashbord
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashbord
-so.topic: howto
+topic: howto
 language: no
 ---
 

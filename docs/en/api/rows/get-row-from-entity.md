@@ -3,9 +3,9 @@ title: Retrieve a row through an entity
 uid: get_row_from_entity
 description: Retrieve a row through an entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Retrieve a row through an entity

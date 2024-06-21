@@ -3,9 +3,9 @@ uid: help-sv-fastsearcher-navigator
 title: Använda snabbsökning i navigatorn
 description: Använda snabbsökning i navigatorn
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: söka, Snabbsökning, navigatorn
-so.topic: howto
+topic: howto
 language: sv
 ---
 

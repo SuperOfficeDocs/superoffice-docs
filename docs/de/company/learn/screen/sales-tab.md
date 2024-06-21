@@ -3,9 +3,9 @@ uid: help-de-company-screen-sale
 title: Registerkarte Verkauf
 description: Registerkarte Verkauf
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: reference
+topic: reference
 language: de
 ---
 

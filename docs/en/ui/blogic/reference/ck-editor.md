@@ -3,9 +3,9 @@ title: CK editor
 uid: blogic_ck_editor
 description: CK editor
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # CK editor

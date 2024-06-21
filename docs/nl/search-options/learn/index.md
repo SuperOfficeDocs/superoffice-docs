@@ -3,9 +3,9 @@ uid: help-nl-search-intro
 title: Zoekopties in CRM
 description: Leer hoe u met slechts een paar klikken gegevens kunt zoeken en vinden in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: zoeken, zoeken
-so.topic: concept
+topic: concept
 language: nl
 ---
 

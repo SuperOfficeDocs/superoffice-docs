@@ -4,8 +4,8 @@ title: Quote templates and merge fields
 description: Quote templates and merge fields
 keywords: quote, quote template, template, merge field
 author: Bergfrid Dias, samuelholmstroem
-so.date: 03.22.2024
-so.topic: concept
+date: 03.22.2024
+topic: concept
 ---
 
 # Quote templates and merge fields

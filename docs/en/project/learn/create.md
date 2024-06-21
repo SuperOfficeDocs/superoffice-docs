@@ -3,9 +3,9 @@ uid: help-en-project-create
 title: Create a project
 description: How to create a project and be even more organized in your work.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: project
-so.topic: howto
+topic: howto
 language: en
 ---
 

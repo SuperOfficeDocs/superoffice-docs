@@ -3,9 +3,9 @@ uid: DocumentShadowSelection
 title: DocumentShadowSelection
 description: Shadow contact provider for the Document provider.
 keywords: DocumentShadowSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "DocumentShadowSelection"

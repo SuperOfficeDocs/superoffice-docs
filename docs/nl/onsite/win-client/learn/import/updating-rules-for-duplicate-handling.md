@@ -3,12 +3,12 @@ uid: help-nl-updating-rules-for-duplicate-handling
 title: Regels voor verwerking van duplicaten bijwerken
 description: Regels voor verwerking van duplicaten bijwerken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Regels voor verwerking van duplicaten bijwerken

@@ -3,11 +3,11 @@ uid: help-no-reply-template-delete
 title: Slette svarmaler
 description: Slette svarmaler
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak, svare
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

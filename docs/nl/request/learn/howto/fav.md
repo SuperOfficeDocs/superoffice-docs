@@ -3,11 +3,11 @@ uid: help-nl-request-fav
 author: Hanne Gunnarsson
 title: Verzoeken aan de lijst met favorieten toevoegen
 description: Verzoeken aan de lijst met favorieten toevoegen
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verzoek, fav
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

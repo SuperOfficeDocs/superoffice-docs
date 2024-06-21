@@ -3,9 +3,9 @@ uid: help-sv-diary-print
 title: Skriva ut händelser och kalenderflikar
 description: Skriva ut händelser och kalenderflikar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: kalender, händelse
-so.topic: howto
+topic: howto
 language: sv
 ---
 

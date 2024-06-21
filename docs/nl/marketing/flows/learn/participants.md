@@ -4,13 +4,13 @@ title: Deelnemers
 description: Een volledig overzicht van alle deelnemers binnen de flow.
 keywords: Marketing, flow, deelnemer, inschrijvin, actief
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.17.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.17.2024
+version: 10.3.5
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Deelnemers

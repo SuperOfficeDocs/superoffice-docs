@@ -3,9 +3,9 @@ uid: AppointmentShadowDynamicSelectionV2
 title: AppointmentShadowDynamicSelectionV2
 description: Appointment shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.AppointmentShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: AppointmentShadowDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentShadowDynamicSelectionV2"

@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tile-sales-targets
 title: Verkooptargets gebruiken in tegels
 description: Gebruik dashboards en tegels om uw verkooptargets te vergelijken met uw werkelijke verkopen.
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: dashboard, verkoop, target, Grafiek
-so.topic: howto
+topic: howto
 language: nl
 ---
 

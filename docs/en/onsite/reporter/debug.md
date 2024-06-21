@@ -4,9 +4,9 @@ uid: enable_debug_of_reporter
 description: Enable debug for Web Reporter
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Enable debug for Web Reporter

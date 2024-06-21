@@ -4,12 +4,12 @@ title: Using pre-filled fields in forms
 description: Using pre-filled fields in forms
 keywords: form, pre-fill, pre-filled field, form identifier, field ID
 author: SuperOffice RnD
-so.date: 03.05.2024
-so.version: 10
-so.topic: howto
+date: 03.05.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Using pre-filled fields in forms

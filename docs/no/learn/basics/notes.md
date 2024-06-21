@@ -3,9 +3,9 @@ uid: help-no-notes
 title: Ta notater
 description: Ta notater
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: notat, notisblokk
-so.topic: howto
+topic: howto
 language: no
 ---
 

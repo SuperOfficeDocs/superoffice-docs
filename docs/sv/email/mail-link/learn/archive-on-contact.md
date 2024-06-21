@@ -3,9 +3,9 @@ uid: help-sv-mail-link-archive-on-contact
 title: Arkivera e-postmeddelanden under företag/kontakter
 description: Arkivera e-postmeddelanden under företag/kontakter
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail Link, e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

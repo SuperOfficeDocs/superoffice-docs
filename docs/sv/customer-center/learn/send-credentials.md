@@ -3,9 +3,9 @@ uid: help-sv-customer-center-send-credentials
 title: Skicka lösenord till kontakter
 description: Skicka lösenord till kontakter
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundcenter
-so.topic: howto
+topic: howto
 language: sv
 ---
 

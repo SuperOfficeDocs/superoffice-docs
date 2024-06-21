@@ -3,9 +3,9 @@ uid: help-en-section-tabs-filter
 title: Filter the section tabs
 description: How to use filters in the section tabs.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: section tab, filter
-so.topic: howto
+topic: howto
 language: en
 ---
 

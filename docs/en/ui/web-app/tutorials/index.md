@@ -3,11 +3,11 @@ title: Tutorials
 uid: webapp_tutorials
 description: Web application tutorials
 author: {github-id}
-so.date:
+date:
 keywords: webapp
-so.topic: tutorial
-so.envir: onsite
-so.client: web
+topic: tutorial
+envir: onsite
+client: web
 ---
 
 # Tutorials

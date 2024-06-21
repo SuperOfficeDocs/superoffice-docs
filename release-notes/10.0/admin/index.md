@@ -1,8 +1,8 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 03.14.2022
+date: 03.14.2022
 keywords: screen designer, settings and maintenance, admin, import, trigger
-so.version: 10
+version: 10
 ---
 
 # New and improved Settings and maintenance

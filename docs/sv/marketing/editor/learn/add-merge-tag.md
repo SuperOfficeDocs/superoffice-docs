@@ -4,12 +4,12 @@ title: Lägg till kopplingsfält i meddelandet
 description: Läs om hur du lägger till kopplingsfält i ditt utskick
 keywords: Marknadsföring, kopplingsfält
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägg till kopplingsfält i meddelandet

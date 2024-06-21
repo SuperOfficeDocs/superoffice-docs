@@ -3,9 +3,9 @@ uid: help-da-company-screen-activities
 title: Fanen Aktiviteter (skærmbilledet Firma)
 description: Fanen Aktiviteter (skærmbilledet Firma)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: da
 ---
 

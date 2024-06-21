@@ -3,9 +3,9 @@ uid: help-de-deleting-user-defined-lists
 title: Benutzerdefinierte Listen löschen
 description: Benutzerdefinierte Listen löschen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
 

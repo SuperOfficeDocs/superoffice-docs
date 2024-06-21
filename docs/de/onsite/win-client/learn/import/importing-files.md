@@ -3,12 +3,12 @@ uid: help-de-importing-files
 title: Dateien importieren
 description: Dateien importieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
-so.topic: help
+topic: help
 language: de
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Datendatei in die SuperOffice-Datenbank importieren

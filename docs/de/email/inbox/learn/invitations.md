@@ -3,9 +3,9 @@ uid: help-de-email-inbox-invitations
 title: Einladungen empfangen
 description: Einladungen empfangen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

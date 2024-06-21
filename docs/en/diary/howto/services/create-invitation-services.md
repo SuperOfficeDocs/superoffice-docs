@@ -3,11 +3,11 @@ title: How to create an invitation (services)
 uid: create_invitation_ws
 description: How to create an invitation using services
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: diary, calendar, appointment, API, web services
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to create an invitation (services)

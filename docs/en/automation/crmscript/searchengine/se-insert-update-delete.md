@@ -2,9 +2,9 @@
 uid: search_engine_db_actions
 title: Insert, update, and delete
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Insert, update, and delete

@@ -4,10 +4,10 @@ uid: skip_tables
 description: Add tables to skip mirroring
 author: {github-id}
 keywords:
-so.date: 12.22.2022
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 12.22.2022
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Add tables to skip mirroring OBSOLETE from 10.1.8

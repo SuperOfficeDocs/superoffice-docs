@@ -3,9 +3,9 @@ title: Validation controls
 uid: validation_controls_web
 description: A tutorial teaching you how to enforce complex business rules and how you can interact with the user and tell them what needs to be done before a save will succeed.
 author: Tony Yates
-so.date: 10.07.2011
+date: 10.07.2011
 keywords: web client, validation, event handler, ValidationControl, ValidationRules, UI
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Validation controls

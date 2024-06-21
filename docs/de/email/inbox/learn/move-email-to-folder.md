@@ -3,9 +3,9 @@ uid: help-de-email-inbox-move-to-folder
 title: E-Mail in Ordner verschieben
 description: Wie man eine E-Mail in einen Ordner verschiebt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

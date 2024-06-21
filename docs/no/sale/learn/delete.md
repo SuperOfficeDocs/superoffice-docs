@@ -3,9 +3,9 @@ uid: help-no-sale-delete
 title: Slette salg
 description: Slette salg
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: howto
+topic: howto
 language: no
 ---
 

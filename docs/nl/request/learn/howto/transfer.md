@@ -3,11 +3,11 @@ uid: help-nl-request-transfer
 title: Andere verzoekbehandelaar om hulp vragen
 description: Andere verzoekbehandelaar om hulp vragen
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: verzoek, delegeren
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

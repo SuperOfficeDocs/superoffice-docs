@@ -3,9 +3,9 @@ uid: help-de-script-screen
 title: Registerkarte Makros und Skripte
 description: Registerkarte Makros und Skripte
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Skript, Makro
-so.topic: reference
+topic: reference
 language: de
 ---
 

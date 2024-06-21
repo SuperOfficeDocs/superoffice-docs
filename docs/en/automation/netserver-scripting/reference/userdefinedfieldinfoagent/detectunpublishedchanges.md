@@ -2,10 +2,10 @@
 uid: userdefinedfieldinfoagent-detectunpublishedchanges
 title: UserDefinedFieldInfoAgent.DetectUnpublishedChanges event method
 description: Scripting events called on the DetectUnpublishedChanges method on the UserDefinedFieldInfoAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserDefinedFieldInfoAgent.DetectUnpublishedChanges
 

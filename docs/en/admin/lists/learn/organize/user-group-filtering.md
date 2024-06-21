@@ -3,11 +3,11 @@ uid: help-en-user-group-filtering
 title: User groups
 description: User groups
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, group
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

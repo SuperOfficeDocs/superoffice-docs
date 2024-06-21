@@ -3,9 +3,9 @@ uid: help-en-search-intro
 title: Search options
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: search, find
-so.topic: concept
+topic: concept
 language: en
 ---
 

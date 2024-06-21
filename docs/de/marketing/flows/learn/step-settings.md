@@ -4,13 +4,13 @@ title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Schrittoptionen

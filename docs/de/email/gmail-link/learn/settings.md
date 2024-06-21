@@ -3,9 +3,9 @@ uid: help-de-gmail-link-settings
 title: Einstellungen für Gmail Link bearbeiten
 description: Einstellungen für Gmail Link bearbeiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: reference
+topic: reference
 language: de
 ---
 

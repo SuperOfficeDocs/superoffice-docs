@@ -3,12 +3,12 @@ uid: api-custom-objects-search
 title: Custom objects search
 description: How to use custom objects to search for information
 author: Eivind Fasting
-so.date: 04.28.2024
-so.version: 10
+date: 04.28.2024
+version: 10
 keywords: custom object, search, DatabaseTable, TableRecord, extra table
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to use custom objects to search for information

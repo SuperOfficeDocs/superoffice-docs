@@ -4,10 +4,10 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: Bergfrid Dias
-so.date: 03.12.2023
-so.lang: en
-so.topic: reference
-so.version: 10.3
+date: 03.12.2023
+language: en
+topic: reference
+version: 10.3
 ---
 
 # End-of-life notifications

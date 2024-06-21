@@ -3,9 +3,9 @@ uid: help-nl-dashboard-create
 title: Een nieuw dashboard maken
 description: Krijg meer inzicht in uw CRM-gegevens door verschillende dashboards te maken. In deze handleiding vindt u meer informatie over het maken van nieuwe dashboard-tabbladen.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

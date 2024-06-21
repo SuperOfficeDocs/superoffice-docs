@@ -3,9 +3,9 @@ uid: help-en-using-status-monitors-in-dynamic-selections
 title: Using status monitors in dynamic selections
 description: Using status monitors in dynamic selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: help
+topic: help
 language: en
 ---
 

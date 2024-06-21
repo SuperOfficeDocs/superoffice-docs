@@ -2,11 +2,11 @@
 title: SuperOffice AI Services
 description: SuperOffice AI Services
 author: AnthonyYates
-so.date: 12.19.2023
+date: 12.19.2023
 keywords: AI, Artificial Intelligence, AI Platform, license
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # SuperOffice AI Service

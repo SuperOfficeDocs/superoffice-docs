@@ -3,9 +3,9 @@ title: Triggers
 uid: trigger
 description: Introduction to triggers
 author: Michel Krohn-Dale
-so.date: 11.11.2021
+date: 11.11.2021
 keywords: CRMScript, trigger, automation, event
-so.topic: concept
+topic: concept
 ---
 
 # Triggers

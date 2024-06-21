@@ -4,9 +4,9 @@ uid: webtools-technical-overview
 description: Technical overview of SuperOffice WebTools
 author: Jostein, Bergfrid, H.O. Waaler
 keywords: WebTools
-so.topic: concept
-so.date: 01.23.2024
-so.envir:
+topic: concept
+date: 01.23.2024
+envir:
 ---
 
 # Technical overview

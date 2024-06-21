@@ -2,11 +2,11 @@
 title: Video Meetings for SuperOffice - Jitsi
 uid: video_meetings_jitsi
 description: Getting started with Video Meetings for SuperOffice - Jitsi
-so.date: 08.12.2021
+date: 08.12.2021
 keywords: video meeting, Jitsi
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 # Video Meetings for SuperOffice: Jitsi
 

@@ -3,9 +3,9 @@ uid: help-da-selection-send-email
 title: Afsendelse af e-mail til flere modtagere samtidig
 description: Afsendelse af e-mail til flere modtagere samtidig
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

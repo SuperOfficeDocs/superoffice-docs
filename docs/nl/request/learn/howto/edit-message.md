@@ -4,9 +4,9 @@ title: Bericht bewerken
 description: Een bericht in een aanvraag bewerken in SuperOffice
 author: Hanne Gunnarsson
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

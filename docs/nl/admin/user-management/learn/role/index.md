@@ -3,11 +3,11 @@ uid: help-nl-role
 title: Rol
 description: Rol
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: rol, gegevensobject, gebruikersniveau
-so.topic: concept
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: admin
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

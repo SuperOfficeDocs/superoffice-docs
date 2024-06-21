@@ -3,9 +3,9 @@ uid: help-de-options
 title: Optionen
 description: Optionen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen, Optionen
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -3,11 +3,11 @@ title: Chat events
 uid: webhook_chat_event
 description: Chat events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Chat events

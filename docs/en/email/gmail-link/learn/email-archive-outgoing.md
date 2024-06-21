@@ -3,9 +3,9 @@ uid: help-en-gmail-link-archive-outgoing
 title: Archive outgoing email
 description: Archive outgoing email with SuperOffice Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

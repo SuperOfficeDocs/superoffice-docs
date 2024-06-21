@@ -3,11 +3,11 @@ uid: help-en-reply-template-create
 title: Create reply templates
 description: Learn how to create a reply template in this how-to guide.
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request, reply, template
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

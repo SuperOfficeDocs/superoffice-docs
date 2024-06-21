@@ -4,9 +4,9 @@ uid: i_mirror_client_service
 description: IMirrorClientService interface
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # IMirrorClientService interface

@@ -2,10 +2,10 @@
 uid: ticketagent-removemessageattachments
 title: TicketAgent.RemoveMessageAttachments event method
 description: Scripting events called on the RemoveMessageAttachments method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.RemoveMessageAttachments
 

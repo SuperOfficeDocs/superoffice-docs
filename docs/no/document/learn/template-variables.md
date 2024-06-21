@@ -3,9 +3,9 @@ uid: help-no-template-variables
 title: Malvariabler
 description: Med malvariabler kan du tilpasse og automatisere inntasting av kundedata
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: dokument, mal, variabel
-so.topic: concept
+topic: concept
 language: no
 ---
 

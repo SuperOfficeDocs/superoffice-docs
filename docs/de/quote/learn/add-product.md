@@ -3,9 +3,9 @@ uid: help-de-quote-add-products
 title: Produkte zum Angebot hinzufügen
 description: Produkte zum Angebot hinzufügen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-licences-screen
 title: Fönstret Licenser
 description: Fönstret Licenser under Inställningar och underhåll
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: licens, tjänst med datapriser, databasägare, statusfliken
-so.topic: reference
+topic: reference
 language: sv
 ---
 

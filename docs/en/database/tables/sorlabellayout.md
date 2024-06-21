@@ -2,10 +2,10 @@
 uid: table-SORLabelLayout
 title: SORLabelLayout table
 description: SuperOffice reporter data
-so.generated: true
+generated: true
 keywords: database table SORLabelLayout
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # SORLabelLayout Table (180)

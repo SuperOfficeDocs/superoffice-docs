@@ -3,11 +3,11 @@ title: Nested aggregate functions
 uid: nested_aggregate_functions
 description:
 author: Tony Yates
-so.date: 11.17.2017
+date: 11.17.2017
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Nested aggregate functions

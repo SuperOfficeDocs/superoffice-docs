@@ -3,9 +3,9 @@ uid: NewCategoryMembers
 title: NewCategoryMembers
 description: Archive of NewCategoryMember - used by the web api.
 keywords: NewCategoryMembers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "NewCategoryMembers"

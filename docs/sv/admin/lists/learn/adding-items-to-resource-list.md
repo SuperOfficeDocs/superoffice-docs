@@ -3,9 +3,9 @@ uid: help-sv-adding-items-to-resource-list
 title: Lägga till poster i listan Resurs
 description: Lägga till poster i listan Resurs
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

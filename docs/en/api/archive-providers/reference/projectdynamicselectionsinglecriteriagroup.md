@@ -3,9 +3,9 @@ uid: ProjectDynamicSelectionSingleCriteriaGroup
 title: ProjectDynamicSelectionSingleCriteriaGroup
 description: Project selection archive using the selectionId as criterionmapping.
 keywords: ProjectDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectDynamicSelectionSingleCriteriaGroup"

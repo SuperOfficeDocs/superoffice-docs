@@ -3,9 +3,9 @@ uid: help-da-customer-center-faq
 title: Publicer ofte stillede spørgsmål i kundecenteret
 description: "I denne vejledning lærer du, hvordan du publicerer ofte stillede spørgsmål i kundecenteret."
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ, Kundecenter
-so.topic: howto
+topic: howto
 language: da
 ---
 

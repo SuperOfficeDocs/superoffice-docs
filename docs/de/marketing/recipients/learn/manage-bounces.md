@@ -4,12 +4,12 @@ title: Gesperrte E-Mail-Adressen
 description: "In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen."
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Nicht zustellbare verwalten

@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice {{name}}
 uid: news-core-{{name}}
+title: What's new in SuperOffice {{name}}
 description: Release notes. What's new in SuperOffice {{name}}
+keywords: service0
 author: SuperOffice AS – Research and Development
-so.date: 
-keywords: service
-so.version: {{name}}
-so.topic: reference
+date: 
+version: {{name}}
+topic: reference
 ---
 
 # New and improved Service

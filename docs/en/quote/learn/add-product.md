@@ -3,9 +3,9 @@ uid: help-en-quote-add-products
 title: Add products to quote
 description: Add products to quote
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

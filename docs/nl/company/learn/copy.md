@@ -3,9 +3,9 @@ uid: help-nl-company-copy
 title: Bedrijven kopiëren
 description: Bedrijven kopiëren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
 ---
 

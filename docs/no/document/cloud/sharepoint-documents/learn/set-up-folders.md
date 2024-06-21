@@ -3,9 +3,9 @@ uid: help-no-sharepoint-documents-folders
 title: Slik konfigurerer du SharePoint-mappene
 description: Slik konfigurerer du SharePoint-mappene
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: dokument, SharePoint
-so.topic: howto
+topic: howto
 language: no
 ---
 

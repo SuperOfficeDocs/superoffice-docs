@@ -3,9 +3,9 @@ title: joiners
 description: Joiners
 author: {github-id}
 keywords: reuse,IArchiveProvider
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Joiners

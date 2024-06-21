@@ -3,9 +3,9 @@ uid: FormSubmissionShadowSelectionCombinedV2
 title: FormSubmissionShadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: FormSubmissionShadowSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionShadowSelectionCombinedV2"

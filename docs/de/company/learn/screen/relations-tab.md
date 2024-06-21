@@ -3,9 +3,9 @@ uid: help-de-company-screen-relations
 title: Registerkarte Beziehungen (Anzeige Firma)
 description: Registerkarte Beziehungen (Anzeige Firma)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma, Beziehung
-so.topic: reference
+topic: reference
 language: de
 ---
 

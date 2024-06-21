@@ -3,9 +3,9 @@ uid: help-no-erp-tab
 title: ERP-fanen
 description: ERP-fanen
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: ERP
-so.topic: reference
+topic: reference
 language: no
 ---
 

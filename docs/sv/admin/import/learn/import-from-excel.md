@@ -3,11 +3,11 @@ uid: help-sv-import-from-excel
 title: Importera från Excel
 description: I den här guiden går vi igenom hur du importerar alla dina prospekt och kunder och deras kontakter.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: importera, Excel, företag, contact, kalkylark
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

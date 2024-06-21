@@ -3,9 +3,9 @@ uid: help-da-mail-link-archive-attachment
 title: Arkiver vedhæftede filer
 description: "Hvis du vil gemme en vedhæftet fil i en e-mail, men ikke selve mailen i SuperOffice CRM, kan du arkivere den vedhæftede fil som et dokument."
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link, e-mail, vedhæftning
-so.topic: howto
+topic: howto
 language: da
 ---
 

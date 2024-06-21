@@ -2,10 +2,10 @@
 uid: emailagent-getfolderinfo
 title: EMailAgent.GetFolderInfo event method
 description: Scripting events called on the GetFolderInfo method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetFolderInfo
 

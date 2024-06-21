@@ -4,12 +4,12 @@ title: Edit signatures
 description: How to edit email signature and request signature
 keywords: email, signature
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.2.8
-so.topic: howto
+date: 06.11.2024
+version: 10.2.8
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Edit signatures

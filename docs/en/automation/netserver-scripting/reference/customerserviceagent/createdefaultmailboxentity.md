@@ -2,10 +2,10 @@
 uid: customerserviceagent-createdefaultmailboxentity
 title: CustomerServiceAgent.CreateDefaultMailboxEntity event method
 description: Scripting events called on the CreateDefaultMailboxEntity method on the CustomerServiceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CustomerServiceAgent.CreateDefaultMailboxEntity
 

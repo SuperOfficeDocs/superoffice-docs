@@ -3,9 +3,9 @@ title: Add screen element
 uid: blogic_add_screen_element
 description: Add screen element
 author:
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Add screen element

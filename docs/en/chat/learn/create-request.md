@@ -3,9 +3,9 @@ uid: help-en-chat-create-request
 title: Create request in chat
 description: In this how-to guide, you will learn how to create a request in SuperOffice Chat.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: en
 ---
 

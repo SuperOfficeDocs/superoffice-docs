@@ -4,10 +4,10 @@ uid: create_prototype
 description: Create prototype for Sybase
 author: {github-id}
 keywords:
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Create prototype for Sybase

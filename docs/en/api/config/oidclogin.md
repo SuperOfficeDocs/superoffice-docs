@@ -2,11 +2,11 @@
 title: OidcLogin element
 uid: ns_config_oidclogin
 description: NetServer utility class to get access to values related to CRM OIDC login
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, OidcLogin, OIDC
-so.topic: reference
-so.envir: cloud
+topic: reference
+envir: cloud
 ---
 
 # NetServer OidcLogin element

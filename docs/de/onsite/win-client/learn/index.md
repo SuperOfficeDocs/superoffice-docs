@@ -3,12 +3,12 @@ uid: help-de-win-client
 title: Einstellungen für den Windows-Client
 description: Einstellungen für den Windows-Client
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
-so.topic: concept
+topic: concept
 language: de
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Einstellungen für den Windows-Client

@@ -4,9 +4,9 @@ uid: reports
 description: Reports in SuperOffice
 author: {github-id}
 keywords: reports, printing, print
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Reports in SuperOffice Win and Web

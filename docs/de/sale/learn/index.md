@@ -3,9 +3,9 @@ uid: help-de-sale
 title: Verkauf
 description: "SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Verkauf
-so.topic: concept
+topic: concept
 language: de
 ---
 

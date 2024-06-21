@@ -3,9 +3,9 @@ title: PageBuilder
 uid: pagebuilder
 description: PageBuilder
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # PageBuilder

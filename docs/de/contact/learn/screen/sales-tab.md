@@ -3,9 +3,9 @@ uid: help-de-contact-screen-sales
 title: Registerkarte Verkäufe
 description: Registerkarte Verkäufe
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, Person
-so.topic: reference
+topic: reference
 language: de
 ---
 

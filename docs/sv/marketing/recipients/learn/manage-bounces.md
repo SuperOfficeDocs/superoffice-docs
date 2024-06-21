@@ -4,12 +4,12 @@ title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
 keywords: Marknadsföring
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Hantera studsar

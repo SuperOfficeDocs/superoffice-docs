@@ -4,12 +4,12 @@ title: Publish form
 description: Publish form
 keywords: form, publish form, active form, embed form, pre-filled field
 author: SuperOffice RnD
-so.date: 02.29.2024
-so.version: 10
-so.topic: howto
+date: 02.29.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Publish forms

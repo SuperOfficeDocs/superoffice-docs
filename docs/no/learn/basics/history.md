@@ -3,9 +3,9 @@ uid: help-no-history-list
 title: Bruke historikklisten
 description: Bruke historikklisten
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: søk, historikk
-so.topic: howto
+topic: howto
 language: no
 ---
 

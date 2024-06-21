@@ -3,9 +3,9 @@ uid: help-da-email-inbox-archive
 title: Arkiver e-mails
 description: Arkiver e-mails
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

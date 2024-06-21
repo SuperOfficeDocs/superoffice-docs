@@ -3,9 +3,9 @@ uid: help-da-dashboard-create
 title: Opret et nyt dashboard
 description: "Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye faner i dashboard."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

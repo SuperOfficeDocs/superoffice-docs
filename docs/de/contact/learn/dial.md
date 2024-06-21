@@ -3,9 +3,9 @@ uid: help-de-contact-dial
 title: Personen anrufen
 description: Personen anrufen; Telefoneinstellungen
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: Kalender, Folgeaufgabe, Telefon, Anruf, Anrufen
-so.topic: howto
+topic: howto
 language: de
 ---
 

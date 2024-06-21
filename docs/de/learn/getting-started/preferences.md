@@ -3,11 +3,11 @@ uid: help-de-preferences-intro
 title: Voreinstellungen
 description: Überblick über die persönlichen Einstellungen und wie man diese ändert.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: Optionen, Einstellung
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

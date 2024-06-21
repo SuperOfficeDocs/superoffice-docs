@@ -3,9 +3,9 @@ uid: help-de-stakeholder-create
 title: Beteiligte erstellen
 description: Wie man einen Verkauf mit einem Beteiligten (Firma oder Person) in SuperOffice verknüpft.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: QuoteLineShadowDynamicSelection
 title: QuoteLineShadowDynamicSelection
 description: Shadow contact provider for the dynamic quoteline provider.
 keywords: QuoteLineShadowDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineShadowDynamicSelection"

@@ -2,10 +2,10 @@
 uid: workflowagent-connectemailflowcontent
 title: WorkflowAgent.ConnectEmailFlowContent event method
 description: Scripting events called on the ConnectEmailFlowContent method on the WorkflowAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WorkflowAgent.ConnectEmailFlowContent
 

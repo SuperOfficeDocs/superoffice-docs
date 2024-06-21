@@ -3,9 +3,9 @@ uid: help-sv-quote-approve
 title: Godkänna offert för utskick
 description: Godkänna offert för utskick
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

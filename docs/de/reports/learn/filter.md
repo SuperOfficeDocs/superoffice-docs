@@ -3,9 +3,9 @@ uid: help-de-report-filters
 title:  Filter in der Ansicht Berichte
 description: Filter in der Ansicht Berichte
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

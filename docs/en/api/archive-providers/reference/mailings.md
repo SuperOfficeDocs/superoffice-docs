@@ -3,9 +3,9 @@ uid: Mailings
 title: Mailings
 description: Archive provider for the list of mailings
 keywords: Mailings archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Mailings"

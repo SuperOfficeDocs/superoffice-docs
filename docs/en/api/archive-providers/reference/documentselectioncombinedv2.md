@@ -3,9 +3,9 @@ uid: DocumentSelectionCombinedV2
 title: DocumentSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: DocumentSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "DocumentSelectionCombinedV2"

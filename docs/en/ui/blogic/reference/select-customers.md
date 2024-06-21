@@ -3,9 +3,9 @@ title: Select contacts
 uid: blogic_select_contacts
 description: Select contacts
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select contacts

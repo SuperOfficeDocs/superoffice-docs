@@ -3,9 +3,9 @@ uid: help-en-dashboard-tiles
 title: Working with tiles
 description: In this how-to guide, you will learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: en
 ---
 

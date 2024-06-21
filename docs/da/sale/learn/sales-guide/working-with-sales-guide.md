@@ -3,9 +3,9 @@ uid: help-da-working-with-sales-guide
 title: Arbejde med salgsguide
 description: Arbejde med salgsguide
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: howto
+topic: howto
 language: da
 ---
 

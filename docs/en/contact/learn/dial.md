@@ -3,9 +3,9 @@ uid: help-en-contact-dial
 title: Dialling contacts
 description: Dialling contacts; Phone preferences
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: diary, follow-up, phone, call, dial
-so.topic: howto
+topic: howto
 language: en
 ---
 

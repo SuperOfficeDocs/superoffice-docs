@@ -3,9 +3,9 @@ uid: help-de-request-escalation
 title: Eskalationsstufen
 description: Eskalationsstufen
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Anfrage, Priorität, eskalieren
-so.topic: howto
+topic: howto
 language: de
 ---
 

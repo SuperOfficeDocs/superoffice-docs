@@ -3,9 +3,9 @@ uid: help-de-sales-targets-create
 title: Verkaufsziele festlegen
 description: "Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Verkauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-saint
 title: Sales Intelligence (SAINT)
 description: In deze gids staat hoe SAINT uw verkoop- en klantprocessen kan verbeteren en workflows kan verbeteren.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: bedrijf, SAINT
-so.topic: concept
+topic: concept
 language: nl
 ---
 

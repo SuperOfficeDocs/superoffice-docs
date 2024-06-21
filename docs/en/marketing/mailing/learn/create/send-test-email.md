@@ -4,12 +4,12 @@ title: Test mailing by sending a test email
 description: In this how-to guide you will learn how to send a test mailing.
 author: SuperOffice RnD
 keywords: Marketing
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Send a test email for email mailings and form responses

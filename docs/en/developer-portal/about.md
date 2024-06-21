@@ -3,10 +3,10 @@ title: Developer Portal
 uid: developer-portal-overview
 description: Introduction to the SuperOffice Online Developer Portal.
 author: AnthonyYates, Bergfrid Dias
-so.date: 11.15.2023
+date: 11.15.2023
 keywords: developer, Developer Portal, apps, app-store, navigation
-so.topic: overview
-so.dp-version: 1.16
+topic: overview
+version_devportal: 1.16
 ---
 
 # Developer Portal

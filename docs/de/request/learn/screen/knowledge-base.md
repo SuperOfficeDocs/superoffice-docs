@@ -3,11 +3,11 @@ uid: help-de-knowledge-base
 title: Wissensdatenbank
 description: Wissensdatenbank
 author: SuperOffice RnD
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: Anfrage, Wissensdatenbank
-so.topic: help
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: help
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

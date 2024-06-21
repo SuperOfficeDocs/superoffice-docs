@@ -3,9 +3,9 @@ uid: help-nl-dashboard-copy
 title: Een dashboard dupliceren
 description: Een dashboard dupliceren
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

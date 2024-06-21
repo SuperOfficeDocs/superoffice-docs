@@ -3,9 +3,9 @@ uid: help-no-reply-template-folder
 title: Administrere mapper med svarmaler
 description: Administrere mapper med svarmaler
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak, svare, mappe
-so.topic: howto
+topic: howto
 language: no
 ---
 

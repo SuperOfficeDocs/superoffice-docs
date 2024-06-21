@@ -3,11 +3,11 @@ uid: help-no-request
 title: Saker
 description: Introduksjon til saker i SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sak, sak, service
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

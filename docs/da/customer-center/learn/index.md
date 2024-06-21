@@ -3,9 +3,9 @@ uid: help-da-customer-centre
 title: Kundecenter
 description: Kundecenter
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundecenter
-so.topic: concept
+topic: concept
 language: da
 ---
 

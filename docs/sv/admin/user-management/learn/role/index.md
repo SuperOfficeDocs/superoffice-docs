@@ -3,11 +3,11 @@ uid: help-sv-role
 title: Roll
 description: Roll
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: roll, dataobjekt, användarnivå
-so.topic: concept
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: admin
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

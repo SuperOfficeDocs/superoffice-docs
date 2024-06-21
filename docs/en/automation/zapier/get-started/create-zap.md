@@ -3,11 +3,11 @@ uid: zapier-create-zap
 title: Create a Zap
 description: How-to guide for making "Zaps" for Superoffice CRM.
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier, Zap, automation, sale
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # Create a Zap with SuperOffice CRM

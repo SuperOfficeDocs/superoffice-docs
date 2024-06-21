@@ -3,9 +3,9 @@ uid: help-de-document-update
 title: Dokumente bearbeiten
 description: Dokumente bearbeiten
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

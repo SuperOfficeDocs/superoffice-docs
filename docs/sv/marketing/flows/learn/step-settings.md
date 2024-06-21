@@ -4,13 +4,13 @@ title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
 keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.14.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.14.2024
+version: 10.3.7
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Steginställningar

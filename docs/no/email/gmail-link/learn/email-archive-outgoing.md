@@ -3,9 +3,9 @@ uid: help-no-gmail-link-archive-outgoing
 title: Arkivere utgående e-post
 description: Arkiver utgående e-post med SuperOffice Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

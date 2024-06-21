@@ -3,9 +3,9 @@ title: interests
 uid: company-interests
 description: Interests are stored on contacts and persons
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: interest, contact, company, person, contactinterest, ContInt
-so.topic: concept
+topic: concept
 ---
 
 # Interests

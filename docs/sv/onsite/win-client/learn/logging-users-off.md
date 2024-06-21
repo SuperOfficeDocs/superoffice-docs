@@ -3,9 +3,9 @@ uid: help-sv-logging-users-off
 title: Logga ut användare
 description: Logga ut användare
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll, user
-so.topic: help
+topic: help
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-mail-link-archive-by-default
 title: Turning default archiving on off
 description: Turning default archiving on off
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

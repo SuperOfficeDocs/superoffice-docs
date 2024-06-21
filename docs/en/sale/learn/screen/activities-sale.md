@@ -3,9 +3,9 @@ uid: help-en-sale-activities
 title: The Activities section tab (Sale)
 description: The Activities section tab in the Sale screen of SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: reference
+topic: reference
 language: en
 ---
 

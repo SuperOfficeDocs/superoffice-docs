@@ -2,10 +2,10 @@
 uid: findagent-findorderby2
 title: FindAgent.FindOrderBy2 event method
 description: Scripting events called on the FindOrderBy2 method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.FindOrderBy2
 

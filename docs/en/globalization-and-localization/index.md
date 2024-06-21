@@ -3,7 +3,7 @@ title: SuperOffice Globalization
 uid: globalization_and_localization
 description: Globalization and Localization
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: globalization, localization
 ---
 

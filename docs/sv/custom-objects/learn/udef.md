@@ -3,12 +3,12 @@ uid: help-sv-udef
 title: Användardefinierade fält
 description: Användardefinierade fält
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
+date: 01.29.2024
+version: 10
 keywords: udef, anpassa fält, användardefinierad fält
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

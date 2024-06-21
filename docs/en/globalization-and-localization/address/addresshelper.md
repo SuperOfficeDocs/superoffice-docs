@@ -5,9 +5,9 @@ description: AddressHelper class
 author: Tony Yates
 so-date: 05.15.2017
 keywords: globalization, address
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # AddressHelper class

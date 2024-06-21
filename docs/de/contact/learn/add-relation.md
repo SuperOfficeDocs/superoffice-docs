@@ -3,9 +3,9 @@ uid: help-de-contact-add-relation
 title: Beziehungen hinzufügen (Ansicht Person)
 description: Beziehungen hinzufügen (Ansicht Person)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Person, Beziehung
-so.topic: howto
+topic: howto
 language: de
 ---
 

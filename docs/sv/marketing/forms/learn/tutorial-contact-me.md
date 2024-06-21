@@ -4,12 +4,12 @@ title: Guide - så här skapar du ett Kontakta mig formulär
 description: Denna guide kommer att förklara hur du kan skapa ett Kontakta mig formulär i SuperOffice Marketing
 keywords: formulär, kontakta mig
 author: Bergfrid Dias
-so.date: 03.15.2024
-so.version: 10
-so.topic: tutorial
+date: 03.15.2024
+version: 10
+topic: tutorial
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Guide - Så här skapar du ett Kontakta mig formulär

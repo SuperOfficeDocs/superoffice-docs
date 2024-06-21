@@ -3,9 +3,9 @@ title: Page control and cache
 uid: so_protocol_page_control
 description: SoProtocol page control and cache
 author:
-so.date:
+date:
 keywords: soprotocol, deeplinking, cache
-so.topic: reference
+topic: reference
 ---
 
 # Page control and cache

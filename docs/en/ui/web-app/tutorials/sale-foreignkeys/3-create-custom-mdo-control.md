@@ -3,11 +3,11 @@ title: Create custom MDO controls
 uid: pb_tutorial_sale_foreignkeys_3
 description: Create custom MDO controls
 author: Steffan Alte
-so.date: 07.25.2007
+date: 07.25.2007
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # Create custom MDO controls

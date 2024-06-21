@@ -4,9 +4,9 @@ uid: upgrade_netserver_to_8
 description: Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer

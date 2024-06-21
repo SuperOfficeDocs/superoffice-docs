@@ -3,12 +3,12 @@ uid: mobile-crm-project-update
 title: Update project
 description: How to update a project in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.26.2023
+date: 07.26.2023
 keywords: project, mobile, member
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Update project

@@ -4,12 +4,12 @@ title: How to create a newsletter sign-up form
 description: This tutorial walks you through how to create a newsletter sign-up form in SuperOffice Marketing.
 keywords: form, double opt-in, sign-up, newsletter
 author: Bergfrid Dias
-so.date: 02.29.2024
-so.version: 10
-so.topic: tutorial
+date: 02.29.2024
+version: 10
+topic: tutorial
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # How to create a newsletter sign-up form

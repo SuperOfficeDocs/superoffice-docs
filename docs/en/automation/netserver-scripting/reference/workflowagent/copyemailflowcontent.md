@@ -2,10 +2,10 @@
 uid: workflowagent-copyemailflowcontent
 title: WorkflowAgent.CopyEmailFlowContent event method
 description: Scripting events called on the CopyEmailFlowContent method on the WorkflowAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WorkflowAgent.CopyEmailFlowContent
 

@@ -2,10 +2,10 @@
 uid: batchagent-deletebatchtasks
 title: BatchAgent.DeleteBatchTasks event method
 description: Scripting events called on the DeleteBatchTasks method on the BatchAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # BatchAgent.DeleteBatchTasks
 

@@ -2,12 +2,12 @@
 title: Install NetServer
 uid: install_ns_web_services
 description: How to install NetServer web services
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Install NetServer / web services

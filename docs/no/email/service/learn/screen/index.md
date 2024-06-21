@@ -3,9 +3,9 @@ uid: help-no-service-mailboxes
 title: E-postkasser
 description: E-postkasser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-so.topic: concept
+topic: concept
 language: no
 ---
 

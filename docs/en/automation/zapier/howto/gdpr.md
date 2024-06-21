@@ -3,11 +3,11 @@ uid: zapier-gdpr
 title: How to maintain GDPR configuration
 description: Guide to maintaining GDPR configuration in Zapier.
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier, GDPR, consent, e-marketing
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # How to maintain GDPR configuration

@@ -3,9 +3,9 @@ uid: help-en-contact-delete-relation
 title: Delete relation (Contact screen)
 description: Delete relations (Contact screen)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: en
 ---
 

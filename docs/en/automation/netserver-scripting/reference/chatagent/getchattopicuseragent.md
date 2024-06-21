@@ -2,10 +2,10 @@
 uid: chatagent-getchattopicuseragent
 title: ChatAgent.GetChatTopicUserAgent event method
 description: Scripting events called on the GetChatTopicUserAgent method on the ChatAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ChatAgent.GetChatTopicUserAgent
 

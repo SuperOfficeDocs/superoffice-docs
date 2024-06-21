@@ -3,9 +3,9 @@ uid: crmscript-quote
 title: Quotes
 description: Working with quotes in CRMScript
 author: Bergfrid Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: sale, quote
-so.topic: concept
+topic: concept
 ---
 
 # Quotes

@@ -2,11 +2,11 @@
 title: Security
 description: Mobile CRM security in CRM Online
 author: Martin Pavlas
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: mobile, pocket
-so.topic: concept
-so.envir: online
-so.client: mobile
+topic: concept
+envir: online
+client: mobile
 ---
 
 # Mobile CRM security in SuperOffice CRM Online

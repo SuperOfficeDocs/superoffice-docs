@@ -3,9 +3,9 @@ uid: help-sv-company-screen
 title: Fönstret Företag
 description: Fönstret Företag
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: reference
+topic: reference
 language: sv
 ---
 

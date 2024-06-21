@@ -3,11 +3,11 @@ title: How to add row click actions
 uid: add_row_click_actions
 description: How to add row click actions
 author: Steffan Alte
-so.date: 2007
+date: 2007
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # How to add row click actions

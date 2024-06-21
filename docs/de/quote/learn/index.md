@@ -3,9 +3,9 @@ uid: help-de-quote
 title: Mit Angeboten arbeiten
 description: "SuperOffice-Angebot ist eine Funktion, die Ihnen hilft, Angebote schnell und genau zu erstellen – das spart Ihnen Zeit und minimiert Fehler."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Angebot
-so.topic: concept
+topic: concept
 language: de
 ---
 

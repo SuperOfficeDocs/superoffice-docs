@@ -4,9 +4,9 @@ uid: activate_deactivate_scim_rules
 description: Activate and deactivate SCIM rules
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Activate and deactivate SCIM rules

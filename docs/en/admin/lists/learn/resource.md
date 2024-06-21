@@ -3,9 +3,9 @@ uid: help-en-resource
 title: Resource
 description: Resource
 author: SuperOffice RnD
-so.date: 01.15.2023
+date: 01.15.2023
 keywords: Settings and maintenance
-so.topic: reference
+topic: reference
 language: en
 ---
 

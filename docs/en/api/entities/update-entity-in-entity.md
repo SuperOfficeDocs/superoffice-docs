@@ -3,9 +3,9 @@ title: Update an Entity through an Entity
 uid: update_entity_in_entity
 description: How to update an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Update an Entity through an Entity

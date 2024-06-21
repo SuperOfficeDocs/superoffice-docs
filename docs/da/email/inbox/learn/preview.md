@@ -3,9 +3,9 @@ uid: help-da-email-inbox-preview
 title: forhåndsvisningsfelt
 description: forhåndsvisningsfelt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: help
+topic: help
 language: da
 ---
 

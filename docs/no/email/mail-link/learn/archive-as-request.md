@@ -3,9 +3,9 @@ uid: help-no-mail-link-archive-as-request
 title: Arkiver e-post som sak
 description: "Finn ut hvordan du arkiverer e-postmeldinger som saker, i denne veiledningen."
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,12 +3,12 @@ uid: custom-objects-reference
 title: Database customizations
 description: There are 3 ways to customize the database schema - user-defined fields; extra fields; extra tables
 author: Bergfrid Dias
-so.date: 01.18.2024
-so.version: 10
+date: 01.18.2024
+version: 10
 keywords: custom object, custom field, udef, extra table, extra field, user-defined field, UDefField, updatedCount, udefidentity
-so.topic: reference
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: reference
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Working with custom objects and fields in API

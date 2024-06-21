@@ -3,9 +3,9 @@ uid: help-no-sale-stages
 title: "Status for salg, solgt og tapt"
 description: "Status for salg, solgt og tapt"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: concept
+topic: concept
 language: no
 ---
 

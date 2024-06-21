@@ -3,11 +3,11 @@ uid: help-nl-reply-template-edit
 title: Antwoordsjablonen bewerken
 description: Antwoordsjablonen bewerken
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek, beantwoorden, sjabloon
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

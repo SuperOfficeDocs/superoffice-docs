@@ -3,9 +3,9 @@ uid: help-de-contact-delete
 title: Person löschen
 description: Person löschen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, Person
-so.topic: howto
+topic: howto
 language: de
 ---
 

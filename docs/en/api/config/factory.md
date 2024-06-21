@@ -2,11 +2,11 @@
 title: Factory element
 uid: ns_config_factory
 description: NetServer configuration values are used to access class factory information. The ClassFactory is part of a NetServer extension mechanism to support plug-ins.
-so.date: 12.17.2021
+date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, Factory, CustomFactories, DynamicLoad
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Factory element

@@ -4,13 +4,13 @@ title: Flow participants
 description: A complete view of all participants within the flow.
 keywords: Marketing, flow, participant, enroll, participant status
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
-so.version: 10.3.5
-so.topic: howto
+date: 04.30.2024
+version: 10.3.5
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flow participants

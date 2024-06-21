@@ -3,12 +3,12 @@ title: Database mirroring blocked tables
 uid: mirroring_blocked_tables
 description: Lists the tables that are not mirrored.
 author: AnthonyYates, Margrethe
-so.date: 01.11.2024
-so.version: 10.2
+date: 01.11.2024
+version: 10.2
 keywords: mirroring, blocked tables, database, schema
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Blocked tables list

@@ -3,11 +3,11 @@ uid: help-sv-system-event-add
 title: Lägga till systemhändelser
 description: Lägga till systemhändelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: arrangemang, avisering
-so.topic: howto
+topic: howto
 language: sv
-so.envir: onsite
+envir: onsite
 ---
 
 # Lägga till systemhändelser (lokalt)

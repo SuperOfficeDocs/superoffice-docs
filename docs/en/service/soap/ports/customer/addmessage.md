@@ -4,8 +4,8 @@ uid: cs_soap_ports_customer_addmessage
 description: Services SOAP interface port reference - customer addMessage
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # addMessage

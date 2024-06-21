@@ -3,9 +3,9 @@ uid: help-de-automation-script-create
 title: Ein Skript erstellen
 description: Ein Skript erstellen
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: Skript, Makro
-so.topic: howto
+topic: howto
 language: de
 ---
 

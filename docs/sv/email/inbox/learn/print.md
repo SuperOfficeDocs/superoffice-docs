@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-print
 title: Skriv ut ett e-postmeddelande
 description: Skriv ut ett e-postmeddelande
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -3,11 +3,11 @@ title: Get all user-defined fields
 uid: get_udef_list_and_values_services
 description: How to display all user-defined fields using services.
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, api-services, GetUserDefinedFieldList, UserDefinedFieldInfoAgent, UserDefinedFieldInfo
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to display all user-defined fields

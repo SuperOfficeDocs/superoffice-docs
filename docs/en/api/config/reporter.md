@@ -2,11 +2,11 @@
 title: Reporter element
 uid: ns_config_Reporter
 description: NetServer Reporter element
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Reporter, ExePath, ODBC, Timeout
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Reporter element

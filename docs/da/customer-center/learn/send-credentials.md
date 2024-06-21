@@ -3,9 +3,9 @@ uid: help-da-customer-center-send-credentials
 title: Afsendelse af adgangskode til personer
 description: Afsendelse af adgangskode til personer
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundecenter
-so.topic: howto
+topic: howto
 language: da
 ---
 

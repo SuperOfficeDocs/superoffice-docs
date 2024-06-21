@@ -3,11 +3,11 @@ uid: help-en-customer-center-chat
 title: Enable chat in customer centre
 description: Learn how to connect a chat channel to your Customer centre in this how-to guide.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chat, customer center
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

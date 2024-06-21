@@ -3,9 +3,9 @@ title: Vertical space (hr)
 uid: blogic_hr
 description: Vertical space (hr)
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Vertical space (hr)

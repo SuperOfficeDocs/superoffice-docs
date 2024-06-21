@@ -3,9 +3,9 @@ uid: help-en-video-meetings-email-setup
 title: Email setup for video meetings
 description: Email setup for video meetings
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: video meeting
-so.topic: howto
+topic: howto
 language: en
 ---
 

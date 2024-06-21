@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tiles
 title: Arbeta med figurer
 description: I den här guiden förklarar vi hur du kommer åt informationen på din dashboard så att du får en tydlig översikt och kan prioritera nästa steg bättre.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

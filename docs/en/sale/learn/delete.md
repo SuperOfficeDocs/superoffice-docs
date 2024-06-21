@@ -3,9 +3,9 @@ uid: help-en-sale-delete
 title: Delete a sale
 description: Delete a sale
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

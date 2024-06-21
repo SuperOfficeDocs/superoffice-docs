@@ -3,9 +3,9 @@ uid: help-de-sale-add-type
 title: Verkaufstyp hinzufügen
 description: Verkaufstyp hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Verkaufstyp
-so.topic: howto
+topic: howto
 language: de
 ---
 

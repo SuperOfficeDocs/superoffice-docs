@@ -3,11 +3,11 @@ title: Calling SOAP using the NetServer proxy
 uid: call_soap_ws_nuget
 description: Calling SOAP using the NetServer proxy
 author: Bergfrid Dias
-so.date: 12.03.2021
+date: 12.03.2021
 keywords: API, web services, proxy, WebAPI, SOAP, SuperOffice.Service.dll, modes, DefaultMode
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Calling SOAP using the NetServer proxy

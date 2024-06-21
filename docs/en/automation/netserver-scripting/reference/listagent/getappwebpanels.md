@@ -2,10 +2,10 @@
 uid: listagent-getappwebpanels
 title: ListAgent.GetAppWebPanels event method
 description: Scripting events called on the GetAppWebPanels method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetAppWebPanels
 

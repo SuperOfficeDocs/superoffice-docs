@@ -3,9 +3,9 @@ uid: crmscript-quote-add-line
 title: Add quote line
 description: How to create a quote line with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: CRMScript, quote, quote alternative, quote line, product
-so.topic: howto
+topic: howto
 ---
 
 # Add quote line

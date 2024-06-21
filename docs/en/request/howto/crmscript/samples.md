@@ -3,9 +3,9 @@ uid: crmscript-request-samples
 title: Samples
 description: Sample code for working with requests in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: Service, ticket, request, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Samples

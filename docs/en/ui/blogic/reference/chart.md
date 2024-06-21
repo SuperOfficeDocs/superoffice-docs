@@ -3,9 +3,9 @@ title: Chart
 uid: blogic_chart
 description: Chart
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Chart

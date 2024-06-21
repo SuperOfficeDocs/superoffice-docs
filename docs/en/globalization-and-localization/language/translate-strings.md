@@ -3,11 +3,11 @@ title: Translate strings
 uid: translate_strings
 description: How to translate strings
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Translate strings

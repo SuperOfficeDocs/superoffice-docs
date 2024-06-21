@@ -3,9 +3,9 @@ uid: help-no-import-from-outlook
 title: Importere fra Outlook
 description: Importere fra Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold, importere
-so.topic: help
+topic: help
 language: no
 ---
 

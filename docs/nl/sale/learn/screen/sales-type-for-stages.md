@@ -3,11 +3,11 @@ uid: help-nl-sale-type-admin
 title: Verkooptype (voor fasen)
 description: Verkooptype (voor fasen)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkoop, type, fase
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

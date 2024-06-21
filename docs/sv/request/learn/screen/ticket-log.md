@@ -3,11 +3,11 @@ uid: help-sv-request-log
 title: Ärendelogg
 description: Ärendelogg
 author: Hanne Gunnarsson
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: ärende
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

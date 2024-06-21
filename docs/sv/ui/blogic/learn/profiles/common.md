@@ -3,9 +3,9 @@ uid: help-sv-service-profile-common
 title: Delade profiler
 description: Delade profiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, tjänst
-so.topic: howto
+topic: howto
 language: sv
 ---
 

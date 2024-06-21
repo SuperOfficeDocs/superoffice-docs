@@ -3,9 +3,9 @@ uid: ProjectShadowDynamicSelection
 title: ProjectShadowDynamicSelection
 description: Shadow contact provider for the dynamic Project provider.
 keywords: ProjectShadowDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectShadowDynamicSelection"

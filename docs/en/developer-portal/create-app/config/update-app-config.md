@@ -3,11 +3,11 @@ title: Update app config
 uid: dp-update-app-config
 description: Update technical specification for an application
 author: Bergfrid Dias
-so.date: 08.26.2022
+date: 08.26.2022
 keywords: App Store
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Update app config

@@ -3,9 +3,9 @@ uid: help-sv-service-mailboxes
 title: E-postlådor
 description: E-postlådor
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: concept
+topic: concept
 language: sv
 ---
 

@@ -3,10 +3,10 @@ uid: help-en-diary-screen
 title: The Diary screen
 description: The Diary screen
 author: SuperOffice RnD
-so.date: 11.20.2023
-so.version: 10.2.11
+date: 11.20.2023
+version: 10.2.11
 keywords: diary, follow-up
-so.topic: reference
+topic: reference
 language: en
 ---
 

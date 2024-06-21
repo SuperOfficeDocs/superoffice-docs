@@ -3,11 +3,11 @@ uid: help-da-freetext-search-configure
 title: Angivelse af søgekriterier
 description: Angivelse af søgekriterier
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: fritekst, søge
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

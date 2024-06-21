@@ -3,11 +3,11 @@ title: Create a custom archive control
 uid: create_custom_archive_controls
 description: Create custom archive controls
 author: Steffan Alte
-so.date: 2007
+date: 2007
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # Create a custom archive control

@@ -3,9 +3,9 @@ uid: help-de-languages-selection
 title: Kundensprache für neue Personen
 description: Wie SuperOffice die Kundensprache für neue Personen auswählt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Sprache
-so.topic: help
+topic: help
 language: de
 ---
 

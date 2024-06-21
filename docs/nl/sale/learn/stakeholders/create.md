@@ -3,9 +3,9 @@ uid: help-nl-stakeholder-create
 title: Een belanghebbende maken
 description: Het koppelen in SuperOffice van een verkoop aan een belanghebbende (bedrijf of persoon).
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

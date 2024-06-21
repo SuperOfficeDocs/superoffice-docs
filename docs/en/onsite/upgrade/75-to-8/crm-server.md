@@ -4,9 +4,9 @@ uid: upgrade_crm_server_to_8
 description: Upgrade CRM Server to version 8
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Upgrade CRM Server to version 8

@@ -3,9 +3,9 @@ uid: help-da-report-search-criteria
 title: Søgekriterier i rapporter
 description: Søgekriterier i rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: concept
+topic: concept
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-project-screen-sale
 title: Salg-fanen
 description: Fanen Salg i Prosjekt-bildet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, salg
-so.topic: reference
+topic: reference
 language: no
 ---
 

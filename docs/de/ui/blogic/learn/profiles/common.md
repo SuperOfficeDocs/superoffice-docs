@@ -3,9 +3,9 @@ uid: help-de-service-profile-common
 title: Gemeinsame Profile
 description: Gemeinsame Profile
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Profil, Service
-so.topic: howto
+topic: howto
 language: de
 ---
 

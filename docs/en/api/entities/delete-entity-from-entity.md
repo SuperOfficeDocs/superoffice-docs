@@ -3,9 +3,9 @@ title: Delete an Entity through an Entity
 uid: delete_entity_from_entity
 description: Delete an Entity through an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Delete an Entity through an Entity

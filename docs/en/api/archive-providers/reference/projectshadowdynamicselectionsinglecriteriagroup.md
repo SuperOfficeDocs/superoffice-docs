@@ -3,9 +3,9 @@ uid: ProjectShadowDynamicSelectionSingleCriteriaGroup
 title: ProjectShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic Project provider.
 keywords: ProjectShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectShadowDynamicSelectionSingleCriteriaGroup"

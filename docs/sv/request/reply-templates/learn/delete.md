@@ -3,11 +3,11 @@ uid: help-sv-reply-template-delete
 title: Ta bort svarsmallar
 description: Ta bort svarsmallar
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: ärende, svar
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

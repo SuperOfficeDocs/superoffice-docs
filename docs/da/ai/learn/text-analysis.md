@@ -3,9 +3,9 @@ uid: help-da-ai-text-analysis
 title: AI-tekst-analyse
 description: AI-tekstanalyse
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: AI
-so.topic: concept
+topic: concept
 language: da
 ---
 

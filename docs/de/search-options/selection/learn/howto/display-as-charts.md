@@ -3,9 +3,9 @@ uid: help-de-selection-display-as-charts
 title: Selektionen mit Diagrammen anzeigen
 description: "Nachdem Sie eine Selektion erstellt haben, können Sie Ihre Ergebnisse visuell anzeigen, um die Daten augenblicklicher zu verstehen. Diese Anleitung zeigt Ihnen, wie Sie Selektionen mit Hilfe von Diagrammen in SuperOffice CRM anzeigen können."
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: Selektion, Diagramm
-so.topic: howto
+topic: howto
 language: de
 ---
 

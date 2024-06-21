@@ -2,10 +2,10 @@
 uid: findagent-saverestrictionswithcontext
 title: FindAgent.SaveRestrictionsWithContext event method
 description: Scripting events called on the SaveRestrictionsWithContext method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.SaveRestrictionsWithContext
 

@@ -3,9 +3,9 @@ uid: help-en-mail-link-create-so
 title: Creating emails from SuperOffice CRM
 description: Creating emails from SuperOffice CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

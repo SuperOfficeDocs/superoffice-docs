@@ -3,9 +3,9 @@ uid: help-no-dashboard-edit
 title: Redigere et dashbord
 description: Redigere et dashbord
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: dashbord, figur, format
-so.topic: howto
+topic: howto
 language: no
 ---
 

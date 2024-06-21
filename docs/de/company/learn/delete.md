@@ -3,9 +3,9 @@ uid: help-de-company-delete
 title: Firmen löschen
 description: Firmen löschen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
 ---
 

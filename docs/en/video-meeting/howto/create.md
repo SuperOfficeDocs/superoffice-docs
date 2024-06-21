@@ -3,11 +3,11 @@ title: Create a video meeting
 uid: create_video_meeting
 description: How to create a video meeting
 author: Bergfrid Dias
-so.date: 13.08.2021
+date: 13.08.2021
 keywords: video meeting
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Create a video meeting

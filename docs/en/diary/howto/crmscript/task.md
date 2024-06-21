@@ -3,9 +3,9 @@ uid: crmscript-create-task
 title: Working with todo lists
 description: How to create and complete to-dos with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: CRMScript, calendar, diary, to-do, task, follow-up
-so.topic: howto
+topic: howto
 ---
 
 # Todo list

@@ -3,9 +3,9 @@ uid: help-de-company-create
 title: Neue Firmen erstellen
 description: Neue Firmen erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
 ---
 

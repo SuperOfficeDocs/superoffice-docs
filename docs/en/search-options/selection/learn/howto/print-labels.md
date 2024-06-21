@@ -3,9 +3,9 @@ uid: help-en-selection-print-labels
 title: Printing labels Selection
 description: Printing labels Selection
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

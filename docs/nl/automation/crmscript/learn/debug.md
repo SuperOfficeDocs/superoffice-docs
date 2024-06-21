@@ -3,11 +3,11 @@ uid: help-nl-automation-script-debug
 title:  Foutopsporingssessies
 description: Foutopsporingssessies
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRMScript
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

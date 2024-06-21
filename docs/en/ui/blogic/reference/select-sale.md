@@ -3,9 +3,9 @@ title: Select sale
 uid: blogic_select_sale
 description: Select sale
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select sale

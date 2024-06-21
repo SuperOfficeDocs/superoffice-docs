@@ -4,9 +4,9 @@ uid: automated_task_ejsender
 description: Automated tasks in Service - ejSender
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # ejSender

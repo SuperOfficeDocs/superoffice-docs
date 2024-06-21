@@ -3,11 +3,11 @@ uid: help-no-request-split
 title: Dele saker
 description: Dele saker
 author: Hanne Gunnarsson
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

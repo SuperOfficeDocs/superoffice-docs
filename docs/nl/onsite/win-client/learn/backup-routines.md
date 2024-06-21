@@ -3,12 +3,12 @@ uid: help-nl-backup-routines
 title: Routines voor het maken van reservekopieën
 description: Routines voor het maken van reservekopieën
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Routines voor het maken van reservekopieën

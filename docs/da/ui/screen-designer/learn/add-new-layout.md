@@ -3,12 +3,12 @@ uid: help-da-screen-designer-add-layout
 title: Tilføj nyt skærmudseende
 description: Sådan tilføjes et nyt udseende for en brugergruppe.
 author: Bergfrid Dias
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: skærmdesigner, udseende, hovedkort, arkiv
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

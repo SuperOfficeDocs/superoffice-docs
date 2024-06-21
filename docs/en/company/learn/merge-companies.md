@@ -3,9 +3,9 @@ uid: help-en-company-merge
 title: Merge companies
 description: To be able to be efficient in the work with customers and contacts, it is vital to have a "clutter free" environment. This means delete unused companies and contacts, and merge duplicated companies and contacts.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

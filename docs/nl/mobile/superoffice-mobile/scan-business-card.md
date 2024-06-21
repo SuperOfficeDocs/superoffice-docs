@@ -3,12 +3,12 @@ uid: help-nl-mobile-scan
 title: Mobile CRM - Een visitekaartje scannen
 description: Een visitekaartje scannen met de SuperOffice Mobile CRM-app.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobiel, pocket, visitekaartje
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: nl
-so.client: mobile
+client: mobile
 ---
 
 # Een visitekaartje scannen

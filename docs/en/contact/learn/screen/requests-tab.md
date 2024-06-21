@@ -3,9 +3,9 @@ uid: help-en-contact-screen-requests
 title: Requests tab
 description: Requests tab
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: reference
+topic: reference
 language: en
 ---
 

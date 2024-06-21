@@ -3,9 +3,9 @@ uid: help-da-service-mailboxes-in
 title: Indbakke til e-mail
 description: Indbakke til e-mail
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail
-so.topic: reference
+topic: reference
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-project-delete
 title: Ta bort ett projekt
 description: Så här tar du bort ett projekt i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

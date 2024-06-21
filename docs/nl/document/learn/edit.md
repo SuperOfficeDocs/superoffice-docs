@@ -3,9 +3,9 @@ uid: help-nl-document-update
 title: Documenten bewerken
 description: Documenten bewerken
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: document
-so.topic: howto
+topic: howto
 language: nl
 ---
 

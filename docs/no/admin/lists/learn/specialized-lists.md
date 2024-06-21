@@ -3,9 +3,9 @@ uid: help-no-specialized-lists
 title: Spesialiserte lister
 description: Spesialiserte lister
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-so.topic: help
+topic: help
 language: no
 ---
 

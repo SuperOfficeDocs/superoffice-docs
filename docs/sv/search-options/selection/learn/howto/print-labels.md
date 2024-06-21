@@ -3,9 +3,9 @@ uid: help-sv-selection-print-labels
 title: Skriva ut etiketter urval
 description: Skriva ut etiketter urval
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

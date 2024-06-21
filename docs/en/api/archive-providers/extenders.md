@@ -3,9 +3,9 @@ title: extenders
 description: Extenders
 author: {github-id}
 keywords: reuse,IArchiveProvider
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Extenders

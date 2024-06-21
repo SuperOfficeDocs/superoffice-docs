@@ -3,9 +3,9 @@ uid: SaleDiary
 title: SaleDiary
 description: Sale archive provider for the Diary card
 keywords: SaleDiary archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleDiary"

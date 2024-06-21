@@ -3,9 +3,9 @@ uid: help-sv-diary-screen-activities
 title: Detaljkortet Aktiviteter (Kalendern)
 description: Detaljkortet Aktiviteter (Kalendern)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: kalender, händelse
-so.topic: reference
+topic: reference
 language: sv
 ---
 

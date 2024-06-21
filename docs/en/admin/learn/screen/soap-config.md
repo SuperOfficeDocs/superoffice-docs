@@ -3,11 +3,11 @@ uid: help-en-admin-soap
 title: SOAP
 description: SOAP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service, onsite
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

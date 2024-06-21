@@ -3,11 +3,11 @@ uid: help-de-chat-admin
 title: Chat-Administration
 description: "Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie das Chat-Widget konfigurieren und es dann zu Ihrer Website hinzufügen."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: Chat
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

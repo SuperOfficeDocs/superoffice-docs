@@ -3,9 +3,9 @@ uid: help-sv-selection-update
 title: Redigera urval
 description: Redigera urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

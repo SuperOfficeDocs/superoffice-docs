@@ -3,9 +3,9 @@ uid: help-en-email-blocked-service
 title: Blocked email
 description: Blocked email
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: email
-so.topic: reference
+topic: reference
 language: en
 ---
 

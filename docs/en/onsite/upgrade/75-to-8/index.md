@@ -4,9 +4,9 @@ uid: upgrade_75_to_8
 description: Upgrade from 7.x to 8
 author: {github-id}
 keywords:
-so.topic: guide
-so.envir: onsite
-so.client: web,win
+topic: guide
+envir: onsite
+client: web,win
 ---
 
 # Upgrade from 7.x to 8.0

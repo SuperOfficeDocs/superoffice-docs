@@ -3,9 +3,9 @@ uid: help-da-sale-stakeholder-edit
 title: Rediger interessenter
 description: Sådan redigerer eller fjerner du interessenter i et salg i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: howto
+topic: howto
 language: da
 ---
 

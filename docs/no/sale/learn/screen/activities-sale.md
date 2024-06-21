@@ -3,9 +3,9 @@ uid: help-no-sale-activities
 title: Detaljkortet Aktiviteter (Salg)
 description: Detaljkortet Aktiviteter på bildet Salg i SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: reference
+topic: reference
 language: no
 ---
 

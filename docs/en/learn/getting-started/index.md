@@ -3,9 +3,9 @@ uid: help-en-getting-started
 title: Getting started
 description: Learn how to activating your user account, connect your email and documents, and set your personal preferences.
 author: Kirsti Aakerholt
-so.date: 06.28.2023
+date: 06.28.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: en
 ---
 

@@ -2,8 +2,8 @@
 uid: udef-entity-using-udefhelper-redirect
 title: User-defined fields
 author: Bergfrid Dias
-so.date: 02.01.2024
+date: 02.01.2024
 keywords: 
-so.topic: howto
+topic: howto
 redirect_url: https://docs.superoffice.com/en/api/netserver/entities/howto/custom-objects/using-udefhelper.html
 ---

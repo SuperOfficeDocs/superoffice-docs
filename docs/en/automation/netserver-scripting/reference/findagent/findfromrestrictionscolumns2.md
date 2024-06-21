@@ -2,10 +2,10 @@
 uid: findagent-findfromrestrictionscolumns2
 title: FindAgent.FindFromRestrictionsColumns2 event method
 description: Scripting events called on the FindFromRestrictionsColumns2 method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.FindFromRestrictionsColumns2
 

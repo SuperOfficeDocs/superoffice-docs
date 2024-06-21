@@ -3,11 +3,11 @@ uid: help-da-privacy-implementation
 title: Vedligehold dine Privacy-indstillinger (GDPR)
 description: "Før du begynder at konfigurere din SuperOffice CRM-database, så den er i overensstemmelse med GDPR, skal du først gøre noget forarbejde."
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, samtykke
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

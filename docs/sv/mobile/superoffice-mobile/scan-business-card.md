@@ -3,12 +3,12 @@ uid: help-sv-mobile-scan
 title: Mobile CRM – Skanna ett visitkort
 description: Så här skannar du ett visitkort med SuperOffice Mobile CRM-appen.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, pocket, visitkort
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: sv
-so.client: mobile
+client: mobile
 ---
 
 # Skanna visitkort

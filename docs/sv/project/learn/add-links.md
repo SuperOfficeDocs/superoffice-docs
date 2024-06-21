@@ -3,9 +3,9 @@ uid: help-sv-project-link-add
 title: Lägga till länkar från fönstret Projekt
 description: Lägga till länkar från fönstret Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-company-screen-sale
 title: Salg-fane
 description: Salg-fane
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: no
 ---
 

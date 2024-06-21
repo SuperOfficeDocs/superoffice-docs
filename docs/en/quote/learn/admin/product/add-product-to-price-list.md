@@ -3,11 +3,11 @@ uid: help-en-product-add-to-price-list
 title: Add product to price list
 description: How to add a product to price list
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: product, price list
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

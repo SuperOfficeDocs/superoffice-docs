@@ -3,9 +3,9 @@ uid: crmscript-status-reminder-notification-tutorial
 title: Automated reminder email
 description: Using a "Waiting for customer" status with automated reminder email
 author: kronicz
-so.date: 10.03.2022
+date: 10.03.2022
 keywords: CRMScript
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Using a "Waiting for customer" status with automated reminder email

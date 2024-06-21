@@ -3,9 +3,9 @@ title: Person - row
 uid: api_person_row
 description: Working with contacts (person) in API with rows
 author: Bergfrid Skaara Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: person, contact, row, API
-so.topic: howto
+topic: howto
 ---
 
 # Contact - row

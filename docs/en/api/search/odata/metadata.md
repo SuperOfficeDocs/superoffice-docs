@@ -4,8 +4,8 @@ uid: rest_api_search_metadata
 description: REST Web API search metadata
 author: {github-id}
 keywords: search
-so.date: 2023-04-26
-so.topic: howto
+date: 2023-04-26
+topic: howto
 ---
 
 # Archive Metadata

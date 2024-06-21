@@ -3,11 +3,11 @@ title: How to add an Archive row context menu
 uid: add_archive_row_context_menu
 description: Add Archive row context menu
 author: Steffan Alte
-so.date: 2007
+date: 2007
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to add an Archive row context menu

@@ -3,9 +3,9 @@ title: Delete an Entity
 uid: delete_entity
 description: Delete an entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Delete an Entity

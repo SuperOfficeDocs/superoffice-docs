@@ -3,9 +3,9 @@ title: IArchiveProvider
 uid: i_archive_provider
 description: IArchiveProvider
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # IArchiveProvider

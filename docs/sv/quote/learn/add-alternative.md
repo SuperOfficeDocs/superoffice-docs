@@ -3,9 +3,9 @@ uid: help-sv-quote-add-alternative
 title: alternativ för att lägga till offert
 description: "I SuperOffice Quote kan du skapa alternativ till vilken offert som helst, vilket ger dina kunder olika alternativ att välja mellan. Den här guiden visar hur du skapar alternativa offerter till ett förslag."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

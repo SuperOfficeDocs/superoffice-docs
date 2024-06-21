@@ -3,9 +3,9 @@ uid: help-no-report-preview
 title: Forhåndsvise rapport
 description: Hvordan orhåndsvise en rapport
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

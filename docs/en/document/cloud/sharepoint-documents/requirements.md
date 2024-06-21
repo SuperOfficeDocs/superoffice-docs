@@ -3,11 +3,11 @@ title: Requirements
 uid: sharepoint-requirements
 description: Requirements for SharePoint Documents
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD, IDP
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Requirements

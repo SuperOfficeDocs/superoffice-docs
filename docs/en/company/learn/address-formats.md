@@ -3,9 +3,9 @@ uid: help-en-address-formats-for-different-countries
 title: Address formats for different countries
 description: Address formats for different countries
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: reference
+topic: reference
 language: en
 ---
 

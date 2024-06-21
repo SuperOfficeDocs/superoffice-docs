@@ -3,12 +3,12 @@ uid: api-rest-custom-object-update-row
 title: How to update a row in a custom object
 description: How to update a row in a custom object via the REST APIs.
 author: Eivind Fasting
-so.date: 04.28.2024
-so.version: 10
+date: 04.28.2024
+version: 10
 keywords: custom object, UpdateRow, DatabaseTable, TableRecord, extra table
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 <!-- markdownlint-disable-file MD051 -->

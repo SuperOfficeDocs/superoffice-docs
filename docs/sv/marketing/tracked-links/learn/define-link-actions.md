@@ -4,12 +4,12 @@ title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
 keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
-so.date: 06.14.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.14.2024
+version: 10.3.5
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Använd länkar för att automatisera olika åtgärder

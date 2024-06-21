@@ -3,9 +3,9 @@ uid: help-nl-status-dialog
 title: Dialoogvenster Status
 description: Dialoogvenster Status
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf, SAINT
-so.topic: reference
+topic: reference
 language: nl
 ---
 

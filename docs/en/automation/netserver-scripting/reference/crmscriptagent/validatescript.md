@@ -2,10 +2,10 @@
 uid: crmscriptagent-validatescript
 title: CRMScriptAgent.ValidateScript event method
 description: Scripting events called on the ValidateScript method on the CRMScriptAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CRMScriptAgent.ValidateScript
 

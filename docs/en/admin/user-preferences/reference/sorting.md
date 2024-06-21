@@ -4,7 +4,7 @@ uid: pref_sorting
 description: Preference section Sorting
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Sorting

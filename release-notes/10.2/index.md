@@ -3,10 +3,10 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-so.date: 12.12.2023
+date: 12.12.2023
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
-so.topic: reference
-so.version: 10.2
+topic: reference
+version: 10.2
 ---
 
 # What's new in SuperOffice 10.2

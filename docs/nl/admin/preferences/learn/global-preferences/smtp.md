@@ -3,11 +3,11 @@ uid: help-nl-service-settings-system-smtp
 title: SMTP
 description: SMTP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service, instellingen
-so.topic: help
+topic: help
 language: nl
-so.envir: onsite
+envir: onsite
 ---
 
 # SMTP (alleen LOKAAL)

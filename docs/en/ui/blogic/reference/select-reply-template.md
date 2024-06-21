@@ -3,9 +3,9 @@ title: Select reply template
 uid: blogic_select_reply_template
 description: Select reply template
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select reply template

@@ -3,11 +3,11 @@ uid: help-en-preferences-intro
 title: Preferences
 description: Overview of personal setting and how to change them.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: preference, setting
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

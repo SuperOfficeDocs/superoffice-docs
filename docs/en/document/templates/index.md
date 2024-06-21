@@ -3,7 +3,7 @@ title: templates
 description: Sales template variables
 author: {github-id}
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Sales template variables

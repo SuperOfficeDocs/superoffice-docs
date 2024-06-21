@@ -3,9 +3,9 @@ uid: help-no-service-screen-properties
 title: Egenskaper for bilde
 description: Egenskaper for bilde
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bilde
-so.topic: reference
+topic: reference
 language: no
 ---
 

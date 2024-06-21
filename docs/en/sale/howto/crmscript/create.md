@@ -3,9 +3,9 @@ uid: crmscript-sale-create
 title: Record a sale
 description: How to create a sale with CRMScript in SuperOffice.
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SaleAgent
-so.topic: howto
+topic: howto
 ---
 
 # Record a sale

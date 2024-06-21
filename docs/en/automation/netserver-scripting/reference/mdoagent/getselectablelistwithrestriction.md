@@ -2,10 +2,10 @@
 uid: mdoagent-getselectablelistwithrestriction
 title: MDOAgent.GetSelectableListWithRestriction event method
 description: Scripting events called on the GetSelectableListWithRestriction method on the MDOAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # MDOAgent.GetSelectableListWithRestriction
 

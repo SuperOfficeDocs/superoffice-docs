@@ -3,9 +3,9 @@ uid: help-da-contact-move
 title: Flyt kontaktperson
 description: Flyt kontaktperson
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

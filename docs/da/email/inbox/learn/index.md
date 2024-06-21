@@ -3,9 +3,9 @@ uid: help-da-email-inbox
 title: SuperOffice Indbakke
 description: SuperOffice Indbakke
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: concept
+topic: concept
 language: da
 ---
 

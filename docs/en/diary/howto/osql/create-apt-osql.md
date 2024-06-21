@@ -3,11 +3,11 @@ title: Create an appointment through OSQL
 uid: create_appointment_osql
 description: How to create an appointment through OSQL.
 author: Bergfrid Skaara Dias
-so.date: 03.02.2022
+date: 03.02.2022
 keywords: diary, calendar, appointment, API, OSQL, AppointmentTableInfo
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create an appointment through OSQL

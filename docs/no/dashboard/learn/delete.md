@@ -3,9 +3,9 @@ uid: help-no-dashboard-delete
 title: Slette et dashbord
 description: Slette et dashbord
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: dashbord
-so.topic: howto
+topic: howto
 language: no
 ---
 

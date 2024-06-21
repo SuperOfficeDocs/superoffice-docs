@@ -4,10 +4,10 @@ title: Using filters
 description: Using ODATA filters
 keywords: search, odata, webapi, filter
 author: Tony Yates, Eivind Fasting
-so.date: 06.18.2024
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 06.18.2024
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Using filters

@@ -2,11 +2,11 @@
 title: CustomerService element
 uid: ns_config_customerservice
 description: NetServer configuration values for accessing Customer Service
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, CustomerService, CsCgiUrl, CsCgiUrlDirect, CsCgiUrlInternal, CsDomain, CsPassword, CsUserName, ImpersonateCsUser, CS, base path
-so.topic: reference
-so.envir:
+topic: reference
+envir:
 ---
 
 # NetServer CustomerService element

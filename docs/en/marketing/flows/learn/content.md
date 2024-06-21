@@ -4,13 +4,13 @@ title: Flow content
 description: Flow content
 keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.11.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.11.2024
+version: 10.3.5
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flow content

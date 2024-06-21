@@ -3,9 +3,9 @@ uid: crmscript-currency
 title: Currency
 description: How to get the base currency, list all currencies and their conversion rate, and convert amounts to other currencies with CRMScript in SuperOffice.
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, currency, ListAgent
-so.topic: concept
+topic: concept
 ---
 
 # Currency

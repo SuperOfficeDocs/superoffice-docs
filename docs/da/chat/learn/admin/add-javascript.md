@@ -3,11 +3,11 @@ uid: help-da-chat-add-javascript
 title: Tilføj JavaScript til dit websted
 description: "Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du kan føje en chatwidget til din webside."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chat
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

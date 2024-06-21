@@ -4,9 +4,9 @@ title: Connect email, document, and calendar
 description: Learn which integration options you need based on your operating system, email client, and the document programs you use in this how-to guide.
 keywords: email, document, diary, invitation
 author: Kirsti Aakerholt
-so.date: 06.20.2024
-so.version: 10
-so.topic: concept
+date: 06.20.2024
+version: 10
+topic: concept
 language: sv
 ---
 

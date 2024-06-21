@@ -3,9 +3,9 @@ uid: help-nl-sale
 title: Verkoop
 description: SuperOffice Sales helpt verkoopteams grip te hebben op hun verkooppijplijnen en -processen.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: concept
+topic: concept
 language: nl
 ---
 

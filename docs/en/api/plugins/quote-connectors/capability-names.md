@@ -3,9 +3,9 @@ title: Capability names
 uid: quote_connectors_capability_names
 description: Quote connector capability names
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # Capability names

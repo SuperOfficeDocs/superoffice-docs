@@ -3,9 +3,9 @@ title: REST Web API search
 uid: odata_rest_api_search
 description: REST Web API search using ODATA
 author: Bergfrid Dias
-so.date: 12.06.2021
+date: 12.06.2021
 keywords: search, ODATA, REST, WebAPI, web services
-so.topic: concept
+topic: concept
 ---
 
 # REST WebAPI search

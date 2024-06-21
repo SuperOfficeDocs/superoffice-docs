@@ -3,7 +3,7 @@ title: SuperOffice Ribbons
 description: SuperOffice Ribbons
 author: {github-id}
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # SuperOffice Ribbons

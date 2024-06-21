@@ -4,12 +4,12 @@ title: Arbeta med utskick
 description: Arbeta med utskick
 keywords: Marknadsföring
 author: SuperOffice RnD, Jeanette Small Strøm
-so.date: 02.26.2024
-so.version: 10
-so.topic: concept
+date: 02.26.2024
+version: 10
+topic: concept
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Arbeta med utskick

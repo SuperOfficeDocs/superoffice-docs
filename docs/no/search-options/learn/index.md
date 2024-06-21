@@ -3,9 +3,9 @@ uid: help-no-search-intro
 title: Søkealternativer i CRM
 description: Lær hvordan du søker etter og finner data i SuperOffice CRM med bare noen få klikk.
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: søk, finn
-so.topic: concept
+topic: concept
 language: no
 ---
 

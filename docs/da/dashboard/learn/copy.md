@@ -3,9 +3,9 @@ uid: help-da-dashboard-copy
 title: Dupliker et dashboard
 description: Dupliker et dashboard
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

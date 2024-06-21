@@ -3,10 +3,10 @@ title: Sentry plugins
 uid: sentry_plugins
 description: Sentry plugins
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
-so.envir: onsite
+topic: concept
+envir: onsite
 ---
 
 # Sentry plugins

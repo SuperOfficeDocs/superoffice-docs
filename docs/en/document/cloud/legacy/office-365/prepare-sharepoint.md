@@ -4,10 +4,10 @@ uid: prepare_sharepoint_for_set_up
 description: Preparing IDP login for SharePoint integration
 author: {github-id}
 keywords: SharePoint, Microsoft Entra
-so.date: 01.15.2024
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 01.15.2024
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Preparing IDP login for SharePoint integration

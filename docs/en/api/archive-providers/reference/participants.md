@@ -3,9 +3,9 @@ uid: Participants
 title: Participants
 description: Archive list provider for the participants list of a booking (multi-person appointment)
 keywords: Participants archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Participants"

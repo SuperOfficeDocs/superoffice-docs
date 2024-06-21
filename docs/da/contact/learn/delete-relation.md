@@ -3,9 +3,9 @@ uid: help-da-contact-delete-relation
 title: Slet relation (skærmbilledet Person)
 description: Slet relationer (skærmbilledet Person)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

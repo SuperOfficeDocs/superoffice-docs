@@ -3,11 +3,11 @@ title: How to list all selected interests for a contact
 uid: list_contact_interests_entity
 description: How to list all selected interests for a contact using entities
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: contact, company, interest, entity, API, ContactInterestHelper, SelectHeadingItems, SelectRootItems
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to list all selected interests for a contact

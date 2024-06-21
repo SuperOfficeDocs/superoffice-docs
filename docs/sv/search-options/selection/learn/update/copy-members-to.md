@@ -3,9 +3,9 @@ uid: help-sv-selection-copy-members-to
 title: Kopiera till urval
 description: Kopiera till urval
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

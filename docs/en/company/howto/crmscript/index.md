@@ -3,9 +3,9 @@ uid: crmscript_class_company
 title: Company (class)
 description: How to work with companies in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: CRMScript, company, organization, contact
-so.topic: howto
+topic: howto
 ---
 
 # Working with companies in CRMScript

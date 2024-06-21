@@ -3,9 +3,9 @@ uid: help-no-email-inbox-mark-as-read
 title: Merk e-postmeldinger som lest eller ulest
 description: Merk e-postmeldinger som lest eller ulest
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

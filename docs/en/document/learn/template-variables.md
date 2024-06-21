@@ -3,11 +3,11 @@ uid: help-en-template-variables
 title: Template variables
 description: With template variables you can personalise and automate the input of customer data
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: document, template, variable
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

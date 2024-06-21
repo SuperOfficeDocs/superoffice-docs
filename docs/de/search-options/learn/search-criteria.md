@@ -3,9 +3,9 @@ uid: help-de-search-criteria
 title: Suchkriterien verwenden
 description: Suchkriterien verwenden
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: Suchen, Kriterien
-so.topic: howto
+topic: howto
 language: de
 ---
 

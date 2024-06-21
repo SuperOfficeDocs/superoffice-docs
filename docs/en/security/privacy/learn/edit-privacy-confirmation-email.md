@@ -3,11 +3,11 @@ uid: help-en-edit-privacy-confirmation-email
 title: Edit privacy confirmation email
 description: In this how-to guide you will learn how to edit the privacy confirmation email.
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: GDPR, consent, email, template
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

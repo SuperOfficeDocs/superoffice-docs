@@ -3,9 +3,9 @@ title: Create a contact
 uid: add_contact
 description: Add a contact to the SuperOffice database using raw SQL
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, SQL, API
-so.topic: howto
+topic: howto
 ---
 
 # Create a contact

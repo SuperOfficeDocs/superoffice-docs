@@ -3,9 +3,9 @@ uid: help-de-document-lock
 title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

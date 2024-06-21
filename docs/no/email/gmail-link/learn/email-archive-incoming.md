@@ -3,9 +3,9 @@ uid: help-no-gmail-link-archive-incoming
 title: Arkivere innkommende e-post
 description: Arkivere innkommende e-post
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link, E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

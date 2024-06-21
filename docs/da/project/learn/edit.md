@@ -3,9 +3,9 @@ uid: help-da-project-edit
 title: Rediger et projekt
 description: Sådan redigerer du et projekt i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -4,8 +4,8 @@ uid: cs_soap_ports_admin_geterrormessage
 description: Services SOAP interface port admin getErrorMessage
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # getErrorMessage

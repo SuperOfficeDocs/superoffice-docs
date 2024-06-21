@@ -3,9 +3,9 @@ uid: help-da-generate-personal-data-report
 title: Generer persondatarapport
 description: Generer persondatarapport
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

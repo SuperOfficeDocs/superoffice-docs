@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tile-sales-targets
 title: Använda försäljningsmål i figurer
 description: Använd dashboards och figurer för att jämföra dina försäljningsmål med din faktiska försäljning.
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: dashboard, försäljning, mål, diagram
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -4,12 +4,12 @@ title: Formularübermittlungen verarbeiten
 description: In dieser Anleitung lernen Sie, wie Sie Formularübermittlungen manuell verarbeiten können.
 keywords: Formular, Formularübermittlung, Formulareinsendung, verknüpfen, Übermittler, übermittelt, Daten aus Formular, Formulardaten
 author: Bergfrid Dias
-so.date: 03.18.2024
-so.version: 10
-so.topic: howto
+date: 03.18.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Formularübermittlungen verarbeiten

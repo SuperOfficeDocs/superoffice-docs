@@ -3,11 +3,11 @@ uid: help-da-user-change-plan
 title: Ændring af brugerplaner for aktive brugere
 description: "I denne vejledning lærer du, hvordan du ændrer en brugerplan for aktive brugere."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user, medarbejder
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

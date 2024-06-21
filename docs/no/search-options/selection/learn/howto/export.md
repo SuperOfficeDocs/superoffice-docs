@@ -3,9 +3,9 @@ uid: help-no-selection-export
 title: Eksporter utvalg
 description: Slik eksporterer du et utvalg til Excel eller en fil.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg, eksporter, Excel
-so.topic: howto
+topic: howto
 language: no
 ---
 

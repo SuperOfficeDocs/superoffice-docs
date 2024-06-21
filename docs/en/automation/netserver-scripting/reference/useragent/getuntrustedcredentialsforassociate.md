@@ -2,10 +2,10 @@
 uid: useragent-getuntrustedcredentialsforassociate
 title: UserAgent.GetUntrustedCredentialsForAssociate event method
 description: Scripting events called on the GetUntrustedCredentialsForAssociate method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.GetUntrustedCredentialsForAssociate
 

@@ -3,13 +3,13 @@ uid: mobile-crm-login
 title: First time use/log in
 description: How to download and install SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.16.2023
+date: 08.16.2023
 keywords: mobile, Apple AppStore, Google Play, download, login, sign in, install
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.envir: online
-so.client: mobile
+envir: online
+client: mobile
 ---
 
 # First time use/log in

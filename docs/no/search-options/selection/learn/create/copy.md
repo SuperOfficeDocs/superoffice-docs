@@ -3,9 +3,9 @@ uid: help-no-selection-copy
 title: Kopiere utvalg
 description: Kopiere utvalg
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: QuoteLineShadowStaticSelectionV2
 title: QuoteLineShadowStaticSelectionV2
 description: Shadow contact provider for the static quoteline prov ider.
 keywords: QuoteLineShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineShadowStaticSelectionV2"

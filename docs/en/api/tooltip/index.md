@@ -3,9 +3,9 @@ title: Tooltip service
 uid: tooltip_service
 description: Tooltip service
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Tooltip service

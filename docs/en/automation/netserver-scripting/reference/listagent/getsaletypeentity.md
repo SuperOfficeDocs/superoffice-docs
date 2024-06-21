@@ -2,10 +2,10 @@
 uid: listagent-getsaletypeentity
 title: ListAgent.GetSaleTypeEntity event method
 description: Scripting events called on the GetSaleTypeEntity method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetSaleTypeEntity
 

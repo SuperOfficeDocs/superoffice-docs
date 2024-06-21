@@ -3,12 +3,12 @@ uid: help-sv-win-client
 title: Inställningar för Windows-klient
 description: Inställningar för Windows-klient
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar för Windows-klient
-so.topic: concept
+topic: concept
 language: sv
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Inställningar för Windows-klient

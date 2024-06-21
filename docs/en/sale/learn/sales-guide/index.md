@@ -3,9 +3,9 @@ uid: help-en-sales-guide
 title: Sales guide
 description: The Sales guide in SuperOffice CRM is a best practice sales process that will help you work in a structured and consistent way.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: sale, guide, workflow
-so.topic: concept
+topic: concept
 language: en
 ---
 

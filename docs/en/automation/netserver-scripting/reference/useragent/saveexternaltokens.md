@@ -2,10 +2,10 @@
 uid: useragent-saveexternaltokens
 title: UserAgent.SaveExternalTokens event method
 description: Scripting events called on the SaveExternalTokens method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.SaveExternalTokens
 

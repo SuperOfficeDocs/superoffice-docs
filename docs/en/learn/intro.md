@@ -3,13 +3,13 @@ title: Guides for SuperOffice CRM
 uid: help-en-start
 description: Start page for SuperOffice CRM guides
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: user guide, help
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: en
-so.envir:
-so.client:
+envir:
+client:
 ---
 
 # Guides for SuperOffice CRM

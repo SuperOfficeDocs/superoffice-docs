@@ -3,9 +3,9 @@ uid: help-da-chat-as-customer
 title: Anvendelse af chatfunktion fra kundens perspektiv
 description: Anvendelse af chatfunktion fra kundens perspektiv
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: da
 ---
 

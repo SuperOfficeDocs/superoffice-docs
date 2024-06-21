@@ -2,9 +2,9 @@
 uid: crmscript-sale-done
 title: Lost or sold sales
 author: Bergfrid Dias
-so.date: 10.27.2021
+date: 10.27.2021
 keywords: sale
-so.topic: concept
+topic: concept
 ---
 
 # Lost or sold sales

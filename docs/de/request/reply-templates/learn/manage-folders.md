@@ -3,9 +3,9 @@ uid: help-de-reply-template-folder
 title: Ordner mit Antwortvorlagen verwalten
 description: Ordner mit Antwortvorlagen verwalten
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage, Antwort, Ordner
-so.topic: howto
+topic: howto
 language: de
 ---
 

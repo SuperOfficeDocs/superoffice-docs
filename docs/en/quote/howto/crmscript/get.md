@@ -3,9 +3,9 @@ uid: crmscript-quote-get
 title: Retrieve quote info
 description: How to retrieve quote info with CRMScript, including versions, alternatives, and quote lines.
 author: Bergfrid Skaara Dias
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: CRMScript, quote, sale, QuoteAgent, version
-so.topic: howto
+topic: howto
 ---
 
 # Retrieve quote info

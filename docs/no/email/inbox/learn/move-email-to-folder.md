@@ -3,9 +3,9 @@ uid: help-no-email-inbox-move-to-folder
 title: Flytte e-post til mappe
 description: Slik flytter du en e-post til en mappe
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,11 +3,11 @@ title: Cloud document integration
 uid: cloud_document_integration
 description: Microsoft 365 SharePoint and Google Workspace document integration in SuperOffice CRM
 author: Bergfrid Dias
-so.date: 06.20.2022
+date: 06.20.2022
 keywords: document
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM

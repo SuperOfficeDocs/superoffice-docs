@@ -3,9 +3,9 @@ uid: help-no-selection-combine
 title: Opprett et kombinasjonsutvalg
 description: I denne veiledningen lærer du hvordan du lager et kombinasjonsutvalg.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

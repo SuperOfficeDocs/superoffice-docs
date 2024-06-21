@@ -3,9 +3,9 @@ title: Fieldset
 uid: blogic_fieldset
 description: Fieldset
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Fieldset

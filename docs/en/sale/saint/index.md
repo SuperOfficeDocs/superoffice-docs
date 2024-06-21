@@ -3,11 +3,11 @@ title: SAINT
 uid: saint
 description: Sales intelligence SAINT
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, saint, counter, statusvalue, countervalue
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # SAINT

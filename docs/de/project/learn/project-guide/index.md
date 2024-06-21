@@ -3,9 +3,9 @@ uid: help-de-project-guide
 title: Projektleitfaden
 description: Einführung in Projektanleitungen in SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Projekt, Leitfaden, Workflow
-so.topic: concept
+topic: concept
 language: de
 ---
 

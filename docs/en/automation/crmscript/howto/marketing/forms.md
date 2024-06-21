@@ -4,9 +4,9 @@ title: Forms
 description: Working with forms in CRMScript.
 keywords: marketing, form, form action, submission
 author: Bergfrid Skaara Dias, Christian Mogensen
-so.date: 03.20.2024
-so.version: 10
-so.topic: howto
+date: 03.20.2024
+version: 10
+topic: howto
 ---
 
 # Forms

@@ -2,12 +2,12 @@
 title: Debug Win client
 uid: debug_win_client
 description:  Debug Windows client
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: debug, superoffice.ini, superoffice.config
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
  
 # Debug Win client

@@ -3,9 +3,9 @@ uid: help-de-cross-table-reports
 title: Kreuztabellen anzeigen
 description: Kreuztabellen anzeigen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: concept
+topic: concept
 language: de
 ---
 

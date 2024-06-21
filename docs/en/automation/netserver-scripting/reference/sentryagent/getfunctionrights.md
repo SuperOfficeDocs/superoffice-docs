@@ -2,10 +2,10 @@
 uid: sentryagent-getfunctionrights
 title: SentryAgent.GetFunctionRights event method
 description: Scripting events called on the GetFunctionRights method on the SentryAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SentryAgent.GetFunctionRights
 

@@ -3,9 +3,9 @@ uid: help-nl-company-print
 title: Informatie over een bedrijf afdrukken
 description: Informatie over een bedrijf afdrukken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
 ---
 

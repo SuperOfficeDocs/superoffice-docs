@@ -3,9 +3,9 @@ uid: help-en-quote-create
 title: Create a quote
 description: In this how-to guide you will learn how to create a quote, add and edit a product inside the quote and how to send a quote.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

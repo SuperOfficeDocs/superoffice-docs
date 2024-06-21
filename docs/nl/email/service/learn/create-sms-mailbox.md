@@ -3,9 +3,9 @@ uid: help-nl-sms-mailbox-create
 title: SMS-postbus maken
 description: SMS-postbus maken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

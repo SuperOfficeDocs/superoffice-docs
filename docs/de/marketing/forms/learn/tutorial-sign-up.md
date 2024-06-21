@@ -4,12 +4,12 @@ title: Anleitung - Anmeldung zum Newsletter
 description: In dieser Anleitung erstellen wir ein Formular für Kunden, die sich für einen oder mehrere Newsletter anmelden möchten. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 keywords: Formulare, Anmeldung, Newsletter
 author: Bergfrid Dias
-so.date: 03.18.2024
-so.version: 10
-so.topic: tutorial
+date: 03.18.2024
+version: 10
+topic: tutorial
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Anleitung - Anmeldung zum Newsletter

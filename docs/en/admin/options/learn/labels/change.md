@@ -3,10 +3,10 @@ uid: help-en-label-change
 title: Changing labels
 description: Changing labels
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: label
-so.audience: settings
-so.topic: howto
+audience: settings
+topic: howto
 language: en
 ---
 

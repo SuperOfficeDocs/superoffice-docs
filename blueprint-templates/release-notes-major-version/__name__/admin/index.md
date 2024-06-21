@@ -1,12 +1,12 @@
 ---
+
 title: What's new in SuperOffice {{name}}
-uid: news-admin-{{name}}
 description: Release notes. What's new in SuperOffice {{name}}
-author: SuperOffice AS – Research and Development
-so.date: 
 keywords: Settings and maintenance
-so.version: {{name}}
-so.topic: reference
+author: SuperOffice AS – Research and Development
+date: 
+version: {{name}}
+topic: reference
 ---
 
 # New and improved Settings and maintenance

@@ -3,9 +3,9 @@ uid: help-en-project-member-email
 title: Send email to project members
 description: How to email to stakeholders or project members in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, member, stakeholder, email
-so.topic: howto
+topic: howto
 language: en
 ---
 

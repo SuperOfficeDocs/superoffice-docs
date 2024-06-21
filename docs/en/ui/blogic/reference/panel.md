@@ -3,9 +3,9 @@ title: Panel
 uid: blogic_panel
 description: Panel
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Panel

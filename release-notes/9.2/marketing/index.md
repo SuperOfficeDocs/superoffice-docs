@@ -1,7 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 04.28.2021
-so.topic: reference
+date: 04.28.2021
+topic: reference
 ---
 
 # New and improved Marketing

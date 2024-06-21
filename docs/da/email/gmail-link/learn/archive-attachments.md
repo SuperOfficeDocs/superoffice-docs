@@ -3,9 +3,9 @@ uid: help-da-gmail-link-archive-attachment
 title: Arkiver vedhæftede filer
 description: Arkiver vedhæftede filer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

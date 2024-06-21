@@ -3,9 +3,9 @@ uid: help-en-service-profile-personal
 title: Personal profiles
 description: Personal profiles
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: profile, UI
-so.topic: concept
+topic: concept
 language: en
 ---
 

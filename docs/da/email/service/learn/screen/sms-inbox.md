@@ -3,9 +3,9 @@ uid: help-da-sms-inbox
 title: Indbakke til sms
 description: Indbakke til sms
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjeneste
-so.topic: reference
+topic: reference
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-reports-screen
 title: Reports screen
 description: Reports screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: reference
+topic: reference
 language: en
 ---
 

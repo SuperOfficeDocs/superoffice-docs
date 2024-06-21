@@ -3,11 +3,11 @@ uid: help-en-adding-items-to-web-panel-list
 title: Adding items to the web panel list
 description: Adding items to the web panel list
 author: SuperOffice RnD
-so.date: 01.20.2023
+date: 01.20.2023
 keywords: list, web panel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

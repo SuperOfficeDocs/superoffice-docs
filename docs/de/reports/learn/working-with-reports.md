@@ -3,9 +3,9 @@ uid: help-de-working-with-reports
 title: Mit Berichten arbeiten
 description: Mit Berichten arbeiten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: help
+topic: help
 language: de
 ---
 

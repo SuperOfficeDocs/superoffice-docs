@@ -4,13 +4,13 @@ title: Flow uitvoeren, pauzeren en beëindigen
 description: Hoe u een SuperOffice Marketing-automatiseringsflow start, pauzeert, hervat, beëindigt en verwijdert.
 keywords: Marketing, flow, flow uitvoeren, flow pauzeren, flow beëindigen, wordt uitgevoerd, gepauzeerd
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.17.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.17.2024
+version: 10.3.5
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flow uitvoeren, pauzeren en beëindigen

@@ -4,11 +4,11 @@ uid: dp-app-settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal
 author: Bergfrid Dias
-so.date: 02.15.2024
-so.dp-version: 1.10
-so.topic: reference
-so.envir: cloud
-so.client:
+date: 02.15.2024
+version_devportal: 1.10
+topic: reference
+envir: cloud
+client:
 ---
 
 # Application settings

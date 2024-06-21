@@ -3,9 +3,9 @@ uid: help-no-contact-screen-requests
 title: Saker-fane
 description: Saker-fane
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, person
-so.topic: reference
+topic: reference
 language: no
 ---
 

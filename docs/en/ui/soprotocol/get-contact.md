@@ -3,11 +3,11 @@ title: How to get the contact panel
 uid: sop_get_contact
 description: How to get the contact panel
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: soprotocol, deeplinking
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to get the contact panel

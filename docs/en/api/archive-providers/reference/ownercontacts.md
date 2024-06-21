@@ -3,9 +3,9 @@ uid: OwnerContacts
 title: OwnerContacts
 description: Archive provider for the list of own contacts in SoAdmin
 keywords: OwnerContacts archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "OwnerContacts"

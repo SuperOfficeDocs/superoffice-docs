@@ -3,9 +3,9 @@ title: Placing orders into ERP
 uid: quote_connectors_place order
 description: Placing orders into ERP
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Placing orders into ERP

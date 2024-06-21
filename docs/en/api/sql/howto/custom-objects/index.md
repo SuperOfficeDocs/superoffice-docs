@@ -3,11 +3,11 @@ title: Udef - raw SQL
 uid: api_udef_sql
 description: Working with custom fields in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: udef, user-defined field, custom field, API
-so.topic: concept
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: concept
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Udef - raw SQL

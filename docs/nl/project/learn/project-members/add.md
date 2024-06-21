@@ -3,9 +3,9 @@ uid: help-nl-project-member-add
 title: Projectlid toevoegen
 description: Een projectlid toevoegen in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid
-so.topic: howto
+topic: howto
 language: nl
 ---
 

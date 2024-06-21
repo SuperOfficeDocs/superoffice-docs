@@ -3,11 +3,11 @@ uid: help-nl-task-menu-add
 title: Items toevoegen aan de lijst Taakmenu
 description: Items toevoegen aan de lijst Taakmenu
 author: SuperOffice RnD
-so.date: 01.11.2023
+date: 01.11.2023
 keywords: Instellingen en onderhoud
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

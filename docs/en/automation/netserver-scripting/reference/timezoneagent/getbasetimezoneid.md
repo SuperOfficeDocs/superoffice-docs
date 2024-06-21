@@ -2,10 +2,10 @@
 uid: timezoneagent-getbasetimezoneid
 title: TimeZoneAgent.GetBaseTimeZoneId event method
 description: Scripting events called on the GetBaseTimeZoneId method on the TimeZoneAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TimeZoneAgent.GetBaseTimeZoneId
 

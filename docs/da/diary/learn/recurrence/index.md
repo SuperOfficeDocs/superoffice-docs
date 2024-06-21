@@ -3,9 +3,9 @@ uid: help-da-recurrence
 title: Gentagne opfølgninger
 description: Gentagne opfølgninger
 author: Bergfrid Dias
-so.date: 10.09.2023
+date: 10.09.2023
 keywords: dagbog, opfølgning, gentag, gentages, frekvens
-so.topic: concept
+topic: concept
 language: da
 ---
 

@@ -4,9 +4,9 @@ uid: mobile_client_requirements
 description: Requirements for SuperOffice Mobile CRM client
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir:
-so.client: mobile
+topic: reference
+envir:
+client: mobile
 ---
 
 # Requirements for SuperOffice Mobile CRM client

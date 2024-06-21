@@ -3,9 +3,9 @@ title: Set validation rule
 uid: set_validation_rules_in_trigger
 description: What if I want to specify what to validate?
 author: Simen Mostuen Iversen
-so.date: 06.06.2019
+date: 06.06.2019
 keywords: automation,validate,contact
-so.topic: howto
+topic: howto
 ---
 
 # What if I want to specify what to validate?

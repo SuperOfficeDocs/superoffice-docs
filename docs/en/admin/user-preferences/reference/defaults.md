@@ -4,7 +4,7 @@ uid: pref_defaults
 description: Preference section Defaults
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Defaults

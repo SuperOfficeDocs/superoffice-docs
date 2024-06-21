@@ -3,10 +3,10 @@ uid: help-sv-basic-tasks
 title: Grundläggande uppgifter att komma igång med
 description: Grundläggande uppgifter för nybörjare i SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords:
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: sv
 ---
 

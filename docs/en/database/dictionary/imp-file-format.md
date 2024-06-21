@@ -3,9 +3,9 @@ title: IMP file format
 uid: imp_file_format
 description: IMP file format
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # IMP file format

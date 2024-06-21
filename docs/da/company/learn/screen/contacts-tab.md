@@ -3,9 +3,9 @@ uid: help-da-company-screen-contacts
 title: Fanen Kontaktpersoner
 description: Fanen Kontaktpersoner
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: firma
-so.topic: reference
+topic: reference
 language: da
 ---
 

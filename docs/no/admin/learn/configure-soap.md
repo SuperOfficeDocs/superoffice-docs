@@ -3,13 +3,13 @@ uid: help-no-settings-soap-configure
 title: Konfigurere SOAP-grensesnitt
 description: Konfigurere SOAP-grensesnitt
 author: SuperOffice RnD
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: Tjeneste, SOAP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
-so.envir: onsite
+envir: onsite
 language: no
 ---
 

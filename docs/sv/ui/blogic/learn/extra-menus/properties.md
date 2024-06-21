@@ -3,9 +3,9 @@ uid: help-sv-ui-extra-menu-properties
 title: Egenskaper för meny
 description: Egenskaper för meny
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjänst
-so.topic: howto
+topic: howto
 language: sv
 ---
 

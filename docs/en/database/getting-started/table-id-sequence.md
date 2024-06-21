@@ -3,9 +3,9 @@ title: Sequence
 uid: ids_in_sequence
 description: Sequence - where do IDs come from
 author:
-so.date:
+date:
 keywords: database
-so.topic: concept
+topic: concept
 ---
 
 # Sequence - where do IDs come from

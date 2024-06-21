@@ -3,9 +3,9 @@ uid: help-no-quote
 title: Jobbe med tilbud
 description: SuperOffice Quote er en funksjon som hjelper deg med å generere tilbud raskt og nøyaktig – noe som sparer deg for tid og minimerer feil.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: concept
+topic: concept
 language: no
 ---
 

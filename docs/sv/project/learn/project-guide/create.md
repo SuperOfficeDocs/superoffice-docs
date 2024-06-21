@@ -3,11 +3,11 @@ uid: help-sv-project-guide-create
 title: Skapa ny projektguide
 description: Så här skapar du en ny projektguide i SuperOffice
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: projekt, guide, arbetsflöde
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

@@ -3,11 +3,11 @@ title: Production sandbox (test environment)
 uid: prod-sandbox
 description: SuperOffice production sandbox
 author: Bergfrid Dias
-so.date: 09.19.2023
+date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # CRM Online production sandbox (test environment)

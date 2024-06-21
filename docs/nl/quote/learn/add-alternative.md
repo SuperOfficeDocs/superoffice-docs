@@ -3,9 +3,9 @@ uid: help-nl-quote-add-alternative
 title: offerte alternatief toevoegen
 description: In SuperOffice Quote kunt u alternatieven voor een offerte maken en uw klanten verschillende opties bieden om uit te kiezen. Deze gids laat u zien hoe u meerdere alternatieve offertes kunt maken.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

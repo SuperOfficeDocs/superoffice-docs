@@ -2,10 +2,10 @@
 uid: databasetableagent-upsert
 title: DatabaseTableAgent.Upsert event method
 description: Scripting events called on the Upsert method on the DatabaseTableAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DatabaseTableAgent.Upsert
 

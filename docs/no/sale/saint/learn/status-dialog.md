@@ -3,9 +3,9 @@ uid: help-no-status-dialog
 title: Dialogboks for status
 description: Dialogboks for status
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, SAINT
-so.topic: reference
+topic: reference
 language: no
 ---
 

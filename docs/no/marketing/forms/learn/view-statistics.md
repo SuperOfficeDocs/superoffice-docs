@@ -4,12 +4,12 @@ title: Spore skjemainnsendinger og vise statistikk
 description: Spore skjemainnsendinger og vise statistikk
 keywords: skjema, innsending, skjemainnsending
 author: Bergfrid Dias
-so.date: 03.07.2024
-so.version: 10
-so.topic: howto
+date: 03.07.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Spore skjemainnsendinger og vise statistikk

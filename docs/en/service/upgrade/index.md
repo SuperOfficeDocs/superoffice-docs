@@ -4,9 +4,9 @@ uid: upgrade_service
 description: Upgrade SuperOffice Customer Service to SuperOffice Service
 author: {github-id}
 keywords:
-so.topic: guide
-so.envir: onsite
-# so.client:
+topic: guide
+envir: onsite
+# client:
 ---
 
 # Upgrade SuperOffice Customer Service to SuperOffice Service

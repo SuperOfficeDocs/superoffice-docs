@@ -3,9 +3,9 @@ title: Update values before save
 uid: update_value_trigger
 description: Update values before save trigger
 author: Simen Mostuen Iversen
-so.date: 06.06.2019
+date: 06.06.2019
 keywords: automation,before save
-so.topic: howto
+topic: howto
 ---
 
 # Update values

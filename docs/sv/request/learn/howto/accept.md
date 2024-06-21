@@ -3,11 +3,11 @@ uid: help-sv-request-accept
 title: Ta över ansvaret för ärenden
 description: Ta över ansvaret för ärenden
 author: SuperOffice RnD
-so.date: 02.13.2023
+date: 02.13.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

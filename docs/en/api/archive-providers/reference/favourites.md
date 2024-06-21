@@ -3,9 +3,9 @@ uid: Favourites
 title: Favourites
 description: Archive provider for the list of favourites
 keywords: Favourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Favourites"

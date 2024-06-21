@@ -3,9 +3,9 @@ uid: help-nl-import-from-outlook
 title: Importeren uit Outlook
 description: Importeren uit Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud, import
-so.topic: help
+topic: help
 language: nl
 ---
 

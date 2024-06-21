@@ -4,12 +4,12 @@ title: Arbeide med skjemaer
 description: SuperOffice-webskjemaer er en flott måte å samle kundeinformasjon og tilbakemeldinger på. Med webskjemaer kan personer som besøker websiden din, komme i kontakt med deg og legge igjen kontaktinformasjonen sin.
 keywords: skjema, skjemainnsending, dobbel opt-in
 author: Bergfrid Dias
-so.date: 03.07.2024
-so.version: 10
-so.topic: concept
+date: 03.07.2024
+version: 10
+topic: concept
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med skjemaer

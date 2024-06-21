@@ -3,9 +3,9 @@ uid: help-nl-video-meetings-email-setup
 title: E-mailinstellingen voor videovergaderingen
 description: E-mailinstellingen voor videovergaderingen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: videovergadering
-so.topic: howto
+topic: howto
 language: nl
 ---
 

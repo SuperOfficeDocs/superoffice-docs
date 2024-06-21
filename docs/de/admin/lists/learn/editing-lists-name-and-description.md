@@ -3,11 +3,11 @@ uid: help-de-editing-lists-name-and-description
 title: Name und Beschreibung einer Liste bearbeiten
 description: Name und Beschreibung einer Liste bearbeiten
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Liste, Abonnementtyp
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-document-dialog
 title: Dialogrutan Dokument
 description: Dialogrutan Dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: concept
+topic: concept
 language: sv
 ---
 

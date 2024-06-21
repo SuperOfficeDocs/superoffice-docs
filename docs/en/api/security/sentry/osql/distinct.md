@@ -3,9 +3,9 @@ title: Sentry and distinct
 uid: sentry_distinct
 description: Sentry and distinct
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: access control
-so.topic: concept
+topic: concept
 ---
 
 # Sentry and distinct

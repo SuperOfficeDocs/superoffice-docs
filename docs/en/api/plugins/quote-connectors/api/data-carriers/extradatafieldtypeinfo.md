@@ -3,9 +3,9 @@ title: ExtraDataFieldTypeInfo
 uid: quote_connector_carrier_extradatafieldtypeinfo
 description: ERP Quote Connector Interface data carrier - ExtraDataFieldTypeInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # ExtraDataFieldTypeInfo

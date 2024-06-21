@@ -3,9 +3,9 @@ uid: AppointmentRejectedNotification
 title: AppointmentRejectedNotification
 description: 
 keywords: AppointmentRejectedNotification archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentRejectedNotification"

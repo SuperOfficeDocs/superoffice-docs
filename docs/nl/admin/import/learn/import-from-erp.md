@@ -3,9 +3,9 @@ uid: help-nl-import-from-erp
 title: Importeren vanuit ERP
 description: Importeren vanuit ERP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud, import
-so.topic: help
+topic: help
 language: nl
 ---
 

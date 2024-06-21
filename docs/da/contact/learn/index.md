@@ -3,9 +3,9 @@ uid: help-da-contact
 title: Kontaktperson
 description: Et kontaktkort gemmer værdifulde oplysninger om al din kommunikation og interaktion med en person samt deres GDPR-samtykkedokumentation.
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: person, contact
-so.topic: concept
+topic: concept
 language: da
 ---
 

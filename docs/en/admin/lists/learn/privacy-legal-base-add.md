@@ -3,11 +3,11 @@ uid: help-en-privacy-legal-base-add
 title: Privacy Legal base add
 description: earn how to change the privacy lists in this how-to guide.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: privacy, consent
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

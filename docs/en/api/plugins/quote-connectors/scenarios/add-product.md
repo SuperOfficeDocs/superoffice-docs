@@ -3,9 +3,9 @@ title: Scenario – adding a product
 uid: quote_scenario_add_product
 description: Quote connector scenario - adding a product
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: guide
+topic: guide
 ---
 
 # Scenario – adding a product

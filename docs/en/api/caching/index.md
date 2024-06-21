@@ -3,9 +3,9 @@ uid: caching-overview
 title: caching
 description: What is cached in SuperOffice and how to retrieve it.
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: cache, performance
-so.topic: concept
+topic: concept
 ---
 
 # Caching

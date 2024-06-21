@@ -3,10 +3,10 @@ title: Zijpaneel help en verkoop
 uid: help-nl-sale-side-panel
 description: Efficiënt gebruik van het zijpaneel efficiënt voor verkopen
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: verkoop, zijpaneel, selectie
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: nl
 ---
 

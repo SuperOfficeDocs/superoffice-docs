@@ -3,11 +3,11 @@ title: Get the CategoryList via CategoryRows object
 uid: get_category_list_categoryrows
 description: Get the CategoryList via CategoryRows object
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: category, rows
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get the CategoryList via CategoryRows object

@@ -3,9 +3,9 @@ uid: help-no-selection-send-email
 title: Sende e-post til flere mottakere samtidig
 description: Sende e-post til flere mottakere samtidig
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg, e-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

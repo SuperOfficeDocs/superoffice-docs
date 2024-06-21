@@ -3,9 +3,9 @@ uid: help-en-dashboard-create
 title: Create a new dashboard
 description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboard tabs in this how-to-guide.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: en
 ---
 

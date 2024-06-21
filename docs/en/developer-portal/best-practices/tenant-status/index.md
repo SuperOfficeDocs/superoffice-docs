@@ -4,10 +4,10 @@ title: Tenant status
 description: "SuperOffice offers both a pull and a push approach to get tenant status."
 keywords: status, monitor, tenant, State Change URL, state API, availability
 author: Bergfrid Dias, Margrethe Romnes
-so.date: 03.22.2024
-so.topic: concept
-so.envir: cloud
-so.client: online
+date: 03.22.2024
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Tenant status

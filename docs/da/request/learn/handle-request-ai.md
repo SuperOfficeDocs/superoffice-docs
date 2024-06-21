@@ -3,11 +3,11 @@ uid: help-da-request-ai
 title: Effektiv håndtering af sager ved hjælp af AI
 description: Indførelsen af kunstig intelligens (AI) i SuperOffice 10 giver salgsbehandlere / supportagenter et nyt sæt smarte værktøjer til at gøre deres arbejdsdag mere effektiv.
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: sag, ai, effektiv
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

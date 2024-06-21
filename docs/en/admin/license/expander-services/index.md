@@ -3,8 +3,8 @@ title: Expander Services
 uid: expander_services
 description: Expander Services
 author: Bergfrid Dias
-so.date: 01.15.2024
-so.topic: concept
+date: 01.15.2024
+topic: concept
 keywords: expander services, license, development tools
 ---
 

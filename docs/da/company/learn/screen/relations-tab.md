@@ -3,9 +3,9 @@ uid: help-da-company-screen-relations
 title: Fanen Relationer (skærmbilledet Firma)
 description: Fanen Relationer (skærmbilledet Firma)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, relation
-so.topic: reference
+topic: reference
 language: da
 ---
 

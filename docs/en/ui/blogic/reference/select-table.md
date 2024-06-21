@@ -3,9 +3,9 @@ title: Select table
 uid: blogic_select_table
 description: Select table
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select table

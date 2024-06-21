@@ -4,12 +4,12 @@ title: Mit den Nachrichtenvorlagen arbeiten
 description: "Durch das Erstellen einer Master-(Unternehmens-)Vorlage können Sie am besten sicherstellen, dass alle Ihre Kampagnen gut aussehen, das gleiche Design haben und Ihre Marke repräsentieren."
 keywords: Marketing, Nachrichtenvorlagen
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: howto
+date: 02.06.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Mit den Nachrichtenvorlagen arbeiten

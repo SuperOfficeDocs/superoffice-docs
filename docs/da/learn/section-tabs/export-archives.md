@@ -3,9 +3,9 @@ uid: help-da-section-tab-export
 title: Eksportér arkiver
 description: Eksportér arkiver
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: detaljekort, arkiv
-so.topic: howto
+topic: howto
 language: da
 ---
 

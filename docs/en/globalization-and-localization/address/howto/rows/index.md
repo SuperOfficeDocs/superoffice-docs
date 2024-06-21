@@ -3,9 +3,9 @@ uid: address-howto-rows
 title: Address localization
 description: Working with addresses as rows.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address
-so.topic: howto
+topic: howto
 ---
 
 # Address - rows

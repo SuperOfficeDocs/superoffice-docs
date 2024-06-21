@@ -3,11 +3,11 @@ uid: help-sv-request-tags
 title: Använda taggar i ärenden
 description: Lär dig hur du skapar och redigerar ärendetaggar i den här guiden.
 author: Bergfrid Dias
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

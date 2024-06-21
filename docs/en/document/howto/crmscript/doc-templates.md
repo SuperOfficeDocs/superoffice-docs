@@ -3,9 +3,9 @@ uid: crmscript_doc_templates
 title: Document templates
 description: A document template is a blueprint consisting of regular text and template variables. How to work with document templates in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: CRMScript, document, document templates
-so.topic: concept
+topic: concept
 ---
 
 # Document templates

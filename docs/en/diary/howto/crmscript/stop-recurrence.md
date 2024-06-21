@@ -3,9 +3,9 @@ uid: crmscript-stop-recurrence
 title: Stop repeating follow-ups
 description: How to stop a repeating follow-up with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
-so.topic: howto
+topic: howto
 ---
 
 

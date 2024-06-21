@@ -3,9 +3,9 @@ uid: help-da-document-update
 title: Redigering af dokumenter
 description: Redigering af dokumenter
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: dokument
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -4,10 +4,10 @@ title: Edit user-defined field
 description: Edit user-defined field
 keywords: udef, user-defiend field, custom field, field type
 author: Bergfrid Dias
-so.date: 01.16.2024
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.16.2024
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

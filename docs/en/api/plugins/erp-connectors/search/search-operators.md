@@ -3,11 +3,11 @@ title: ERP search operators
 uid: erp_search_operators
 description: ERP sync search-operator reference
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # ERP search operators

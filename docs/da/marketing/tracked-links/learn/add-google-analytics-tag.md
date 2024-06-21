@@ -4,12 +4,12 @@ title: Sådan tilføjer du tags fra Google Analytics til en mailudsendelse
 description: I denne vejledning lærer du, hvordan du sporer dine besøgende.
 author: Bergfrid Dias
 keywords: Marketing
-so.date: 02.26.2024
-so.version: 10
-so.topic: concept
+date: 02.26.2024
+version: 10
+topic: concept
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Sådan tilføjer du tags fra Google Analytics til en mailudsendelse

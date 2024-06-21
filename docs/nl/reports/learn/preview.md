@@ -3,9 +3,9 @@ uid: help-nl-report-preview
 title: Voorbeeld van de rapporten
 description: Functies in het voorbeeldvenster
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: rapport
-so.topic: howto
+topic: howto
 language: nl
 ---
 

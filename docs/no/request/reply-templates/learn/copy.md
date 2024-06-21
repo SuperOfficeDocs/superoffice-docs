@@ -3,11 +3,11 @@ uid: help-no-reply-template-copy
 title: Kopiere svarmaler
 description: Kopiere svarmaler
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak, svare
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

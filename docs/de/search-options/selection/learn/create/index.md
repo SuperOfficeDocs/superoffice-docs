@@ -3,9 +3,9 @@ uid: help-de-selection-create
 title: Selektion erstellen
 description: Arbeiten mit dynamischen und statischen Selektionen
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-mail-link-add-attachment
 title:  SuperOffice-document toevoegen als bijlage
 description: SuperOffice-document toevoegen als bijlage
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: howto
+topic: howto
 language: nl
 ---
 

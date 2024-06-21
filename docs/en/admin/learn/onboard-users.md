@@ -3,9 +3,9 @@ uid: help-en-admin-onboard
 title: Overview
 description: Introduction to administrating SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Settings and maintenance
-so.topic: howto
+topic: howto
 language: en
 ---
 # Get your users on board

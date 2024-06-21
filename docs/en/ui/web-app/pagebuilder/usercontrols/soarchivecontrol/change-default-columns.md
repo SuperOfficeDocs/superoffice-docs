@@ -3,11 +3,11 @@ title: How to change the default columns
 uid: pb_usercontrol_archive_defaults
 description: How to change the default columns in the project archive
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: project
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to change the default columns in the project archive

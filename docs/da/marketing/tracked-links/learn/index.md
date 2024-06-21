@@ -4,12 +4,12 @@ title: Sporede links
 description: "Et link, der sættes ind i en mailudsendelse, kan bruges til at spore besvarelser fra både eksisterende og potentielle kunder. Når modtagerne af din mailudsendelse klikker på linket, aktiveres en handling." 
 author: SuperOffice RnD
 keywords: Marketing
-so.date: 02.26.2024
-so.version: 10
-so.topic: concept
+date: 02.26.2024
+version: 10
+topic: concept
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Sporede links

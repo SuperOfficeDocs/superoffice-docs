@@ -3,11 +3,11 @@ uid: help-da-edit-items
 title: Redigering af forekomster
 description: "I denne vejledning lærer du, hvordan du redigerer en forekomst."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: forekomst
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-product-configure
 title: Configure product
 description: You can customize and configure the Quote Management features in Settings and maintenance to match the names and labels your users are familiar with.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: product, quote
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

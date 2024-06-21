@@ -3,9 +3,9 @@ uid: help-nl-document-create
 title: Nieuw document maken
 description: "Maak een nieuw document rechtstreeks in SuperOffice CRM of upload bestaande documenten, om ervoor te zorgen dat u en uw collega's altijd toegang hebben tot de nieuwste documenten en versies. Deze handleiding laat u zien hoe u beide kunt doen."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: document
-so.topic: howto
+topic: howto
 language: nl
 ---
 

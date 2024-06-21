@@ -3,9 +3,9 @@ uid: help-nl-email-inbox-options
 title: Opties
 description: Opties
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail, postvak IN
-so.topic: reference
+topic: reference
 language: nl
 ---
 

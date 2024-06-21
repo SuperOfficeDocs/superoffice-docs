@@ -4,12 +4,12 @@ title: View statistics for mailing
 description: View statistics for mailing
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Analyze your mailing results

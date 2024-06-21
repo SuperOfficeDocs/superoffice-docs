@@ -3,11 +3,11 @@ uid: help-nl-request-forward
 title: Verzoek doorsturen naar externe contactpersoon
 description: Meer informatie over het doorsturen van een aanvraag vindt u in deze gids.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

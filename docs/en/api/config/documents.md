@@ -3,12 +3,12 @@ uid: ns-config-documents
 title: NetServer Documents element
 description: NetServer configuration used to access the SuperOffice documents.
 keywords: config, NetServer, web.config, Documents, ArchiveDomain, ArchivePath, ArchivePassword, ArchiveUser, BufferSize, CanCreateDocumentTemplates, ImpersonateUser, TemplatePath, TemporaryPath, SO_ARC
-so.date: 06.18.2024
+date: 06.18.2024
 author: Bergfrid Dias, Eivind Fasting
-so.topic: reference
-so.envir: onsite
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: reference
+envir: onsite
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # NetServer Documents element

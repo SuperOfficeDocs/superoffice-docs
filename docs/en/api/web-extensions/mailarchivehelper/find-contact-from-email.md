@@ -3,11 +3,11 @@ title: Find contact from email
 uid: mailarchivehelper_archive_email
 description: Find contact from email
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: vb
-so.topic: howto
-so.client: web,win
-so.envir: onsite
+topic: howto
+client: web,win
+envir: onsite
 ---
 
 # Find contact from email

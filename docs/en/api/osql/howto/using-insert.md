@@ -3,9 +3,9 @@ title: How to use INSERT in OSQL
 uid: osql_insert_howto
 description: SuperOffice Objectified SQL - INSERT
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # How to use INSERT in OSQL

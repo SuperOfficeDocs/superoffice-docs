@@ -3,11 +3,11 @@ title: SetDefaults method
 uid: netserver_setdefaults
 description: SetDefaults method best practices
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: entity,row
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # SetDefaults method

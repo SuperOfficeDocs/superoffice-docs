@@ -3,11 +3,11 @@ uid: help-da-request-next-in-queue
 title: Hent næste sag i køen
 description: Hent næste sag i køen
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

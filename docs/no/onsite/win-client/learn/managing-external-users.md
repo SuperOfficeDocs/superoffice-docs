@@ -3,11 +3,11 @@ uid: help-no-managing-external-users
 title: håndtere eksterne brukere
 description: håndtere eksterne brukere
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: help
+topic: help
 language: no
-so.envir: onsite
+envir: onsite
 ---
 
 # Håndtere eksterne brukere

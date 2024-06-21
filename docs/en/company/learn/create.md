@@ -3,9 +3,9 @@ uid: help-en-company-create
 title: Create new companies
 description: Create new companies
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

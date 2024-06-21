@@ -3,11 +3,11 @@ title: Guide to federated sign-in
 uid: federated_sign_in_guide
 description: Guide to federated sign-in
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SuperID, Microsoft Entra ID
-so.topic: guide
-so.envir: cloud
-so.client: online
+topic: guide
+envir: cloud
+client: online
 ---
 
 # Guide to federated sign-in

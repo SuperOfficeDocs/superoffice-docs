@@ -3,9 +3,9 @@ uid: help-nl-report-delete-from-archive
 title: Rapporten verwijderen uit het rapportarchief
 description: Rapporten verwijderen uit het rapportarchief
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-project-link-add
 title: Add links from the Project screen
 description: Add links from the Project screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: howto
+topic: howto
 language: en
 ---
 

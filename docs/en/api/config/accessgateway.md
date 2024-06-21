@@ -2,10 +2,10 @@
 title: AccessGateway element
 uid: ns_config_accessgateway
 description: NetServer configuration values related to Access Gateway.
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, AccessGateway, BaseUrl
-so.topic: reference
+topic: reference
 ---
 
 # NetServer AccessGateway element

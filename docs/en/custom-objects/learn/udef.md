@@ -4,12 +4,12 @@ title: User-defined fields explained
 description: Introduction to user-defined fields in SuperOffice
 keywords: udef, custom object, custom field, user-defined field, Page 1-field
 author: Bergfrid Dias
-so.date: 01.16.2024
+date: 01.16.2024
 so-version: 10
-so.topic: concept
+topic: concept
 language: en
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+audience: user
+audience_tooltip: SuperOffice CRM
 ---
 
 # User-defined fields

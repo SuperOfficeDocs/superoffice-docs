@@ -3,11 +3,11 @@ uid: help-nl-sale-amount-class
 title: Verkoopbedragklasse toevoegen
 description: Verkoopbedragklasse toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkoop, bedrag
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

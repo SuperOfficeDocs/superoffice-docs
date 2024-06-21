@@ -3,9 +3,9 @@ uid: help-no-email-service
 title: Service-e-poster
 description: Service-e-poster
 author: SuperOffice RnD
-so.date: 03.06.2024
+date: 03.06.2024
 keywords: Innstillinger og vedlikehold
-so.topic: concept
+topic: concept
 language: no
 ---
 

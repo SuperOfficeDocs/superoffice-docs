@@ -3,11 +3,11 @@ uid: help-en-sync-resync-from-crm
 title: Resync from CRM
 description: Resync from CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: quote, sync, connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

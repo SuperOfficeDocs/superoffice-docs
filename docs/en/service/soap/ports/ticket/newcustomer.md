@@ -4,8 +4,8 @@ uid: cs_soap_ports_ticket_newcustomer
 description: Services SOAP interface ticket reference newCustomer
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # newCustomer

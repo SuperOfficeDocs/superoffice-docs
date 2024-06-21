@@ -3,11 +3,11 @@ uid: attachment-update-loc
 title: Update location
 description: Update location when moving Service
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: attachment, request
-so.topic: howto
-so.audience: settings
-so.envir: onsite
+topic: howto
+audience: settings
+envir: onsite
 ---
 
 # Update attachment location when moving Requests

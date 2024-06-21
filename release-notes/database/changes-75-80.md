@@ -4,10 +4,10 @@ uid: changes_75_to_80
 description: Changes in SuperOffice from 7.5 to 8.0
 author: {github-id}
 keywords: database
-so.topic: reference
-so.envir: onsite
-so.version: 8.0
-# so.client:
+topic: reference
+envir: onsite
+version: 8.0
+# client:
 ---
 
 # Table changes from 7.5 to 8.0

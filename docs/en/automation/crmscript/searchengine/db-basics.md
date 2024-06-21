@@ -2,9 +2,9 @@
 uid: search_engine_basics
 title: Database basics
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Database basics

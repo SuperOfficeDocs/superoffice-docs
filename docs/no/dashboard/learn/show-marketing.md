@@ -3,9 +3,9 @@ uid: help-no-dashboard-tile-marketing
 title: Bruke utsendelse og skjemaer i figurer
 description: "Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendinger og utsendelser, for å spore og analysere ytelse, trender og produktivitet på tvers av alle markedsføringsaktiviteter."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: dashbord, markedsføring
-so.topic: howto
+topic: howto
 language: no
 ---
 

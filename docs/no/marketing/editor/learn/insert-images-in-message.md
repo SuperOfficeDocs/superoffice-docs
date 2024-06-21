@@ -4,12 +4,12 @@ title: Sette inn bilder i meldingen
 description: "Bruk av nøye utvalgte bilder i utsendelsene dine kan ha stor innvirkning på resultatene. Du kan laste opp dine egne bilder, eller bruke ett av flere millioner bilder som leveres av Unsplash, Pexels, Pixabay i det elektroniske bildebiblioteket."
 keywords: Markedsføring, bilde
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: howto
+date: 02.06.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Sette inn bilder i meldingen

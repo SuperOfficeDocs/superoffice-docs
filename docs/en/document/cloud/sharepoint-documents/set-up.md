@@ -3,11 +3,11 @@ title: How to setup Microsoft 365 SharePoint
 uid: sharepoint-set-up
 description: How to create a site and a document library in Microsoft 365 SharePoint
 author: Bergfrid Dias, ErikLebiko
-so.date: 01.12.2024
+date: 01.12.2024
 keywords: SharePoint, document
-so.topic: how to
-so.envir: cloud
-so.client: online
+topic: how to
+envir: cloud
+client: online
 ---
 
 # How to set up Microsoft 365 SharePoint

@@ -4,9 +4,9 @@ uid: automated_task_ejtermsetup
 description: Automated tasks in Service - ejTermSetup
 author: {github-id}
 keywords: service
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # ejTermSetup

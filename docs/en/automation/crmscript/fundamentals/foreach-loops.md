@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_loops_foreach
 title: Loops - foreach
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Loops - foreach

@@ -3,11 +3,11 @@ uid: help-sv-request-ai
 title: Effektiv hantering av ärenden med AI
 description: Introduktionen av artificiell intelligens (AI) i SuperOffice 10 ger ärendehandläggare/supportagenter tillgång till en ny uppsättning smarta verktyg för att göra deras arbetsdag effektivare.
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: ärende, ai, effektiv
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-sale-stakeholder-edit
 title: Redigera intressenter
 description: Så här redigerar eller tar du bort intressenter i en försäljning i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

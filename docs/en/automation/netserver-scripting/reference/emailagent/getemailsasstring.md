@@ -2,10 +2,10 @@
 uid: emailagent-getemailsasstring
 title: EMailAgent.GetEmailsAsString event method
 description: Scripting events called on the GetEmailsAsString method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetEmailsAsString
 

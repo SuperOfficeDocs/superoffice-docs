@@ -2,10 +2,10 @@
 uid: quoteagent-getactivepricelistsbycurrencyid
 title: QuoteAgent.GetActivePriceListsByCurrencyId event method
 description: Scripting events called on the GetActivePriceListsByCurrencyId method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.GetActivePriceListsByCurrencyId
 

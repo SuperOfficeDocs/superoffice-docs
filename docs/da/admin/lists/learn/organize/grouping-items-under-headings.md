@@ -3,9 +3,9 @@ uid: help-da-grouping-items-under-headings
 title: Gruppering af forekomster under overskrifter
 description: Gruppering af forekomster under overskrifter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

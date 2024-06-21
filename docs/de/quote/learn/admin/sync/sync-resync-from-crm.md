@@ -3,11 +3,11 @@ uid: help-de-sync-resync-from-crm
 title: Aus CRM neu synchronisieren
 description: Aus CRM neu synchronisieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Angebot, Sync, Connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tile-edit
 title: Redigera en figur
 description: Redigera en figur
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

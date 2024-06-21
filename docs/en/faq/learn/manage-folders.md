@@ -3,11 +3,11 @@ uid: help-en-faq-folder
 title: Administrate folders of FAQ entries
 description: Administrate folders of FAQ entries
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ, folder
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

@@ -3,11 +3,11 @@ title: Requirements
 uid: superoffice_for_outlook_requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
 author: Frode B, Martin Pavlas
-so.date: 09.19.2023
+date: 09.19.2023
 keywords: Outlook, email
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Requirements

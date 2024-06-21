@@ -3,11 +3,11 @@ uid: help-sv-service-settings-system-settings
 title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
 author: SuperOffice RnD
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: Tjänst, inställningar
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

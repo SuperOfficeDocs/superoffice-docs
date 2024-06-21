@@ -3,9 +3,9 @@ uid: help-no-languages-add
 title: Arbeide med kundespråk
 description: Finn ut hvordan du konfigurerer kundespråk i denne guiden.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: språk
-so.topic: howto
+topic: howto
 language: no
 ---
 

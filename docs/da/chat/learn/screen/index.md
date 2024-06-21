@@ -3,9 +3,9 @@ uid: help-da-chat-screen
 title: Skærmbilledet Chat
 description: Skærmbilledet Chat
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: reference
+topic: reference
 language: da
 ---
 

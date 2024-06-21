@@ -3,9 +3,9 @@ uid: Mail2
 title: Mail2
 description: Provides populated mail envelope rows as an archive
 keywords: Mail2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Mail2"

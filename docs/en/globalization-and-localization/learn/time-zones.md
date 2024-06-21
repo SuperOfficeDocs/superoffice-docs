@@ -3,9 +3,9 @@ uid: help-en-time-zones
 title: Time zones
 description: Time zones
 author: SuperOffice RnD
-so.date: 05.08.2023
+date: 05.08.2023
 keywords: time zone, country, localization, flag
-so.topic: concept
+topic: concept
 language: en
 ---
 

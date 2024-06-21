@@ -1,6 +1,6 @@
 ---
 uid: version_10.2.2.706_changes
-so.date: 2/15/2023
+date: 2/15/2023
 generated: 1
 ---
 

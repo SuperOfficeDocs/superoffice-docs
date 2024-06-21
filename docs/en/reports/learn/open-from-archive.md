@@ -3,9 +3,9 @@ uid: help-en-report-open-from-archive
 title: Open reports in the report archive
 description: Open reports in the report archive
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

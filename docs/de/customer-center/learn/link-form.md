@@ -3,11 +3,11 @@ uid: help-de-customer-centre-form
 title: Wie man ein Web-Formular mit dem Kundenzentrum verknüpft
 description: "In dieser Anleitung lernen Sie, wie Sie ein Web-Formular verwenden."
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: Formular, Kundenzentrum
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

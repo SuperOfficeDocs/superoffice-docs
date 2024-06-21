@@ -3,9 +3,9 @@ uid: help-nl-headings-editing-and-deleting
 title: Kopteksten bewerken en verwijderen
 description: Kopteksten bewerken en verwijderen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-document-lock
 title: Indtjekning/udtjekning af dokumenter
 description: Indtjekning/udtjekning af dokumenter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: howto
+topic: howto
 language: da
 ---
 

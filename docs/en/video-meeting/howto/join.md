@@ -3,11 +3,11 @@ title: Join a video meeting
 uid: join_video_meeting
 description: How to join a video meeting
 author: {github-id}
-so.date: 08.12.2021
+date: 08.12.2021
 keywords: video meeting
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Join a video meeting

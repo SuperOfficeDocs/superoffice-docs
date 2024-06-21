@@ -3,9 +3,9 @@ uid: crmscript-request-delegate
 title: Delegate request
 description: How to delegate a request with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: Service, ticket, request, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Delegate request

@@ -3,11 +3,11 @@ uid: help-no-editing-lists-name-and-description
 title: Redigere en listes navn og beskrivelse
 description: Redigere en listes navn og beskrivelse
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: liste, abonnementstype
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

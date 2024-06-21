@@ -2,10 +2,10 @@
 uid: saleagent-getsummarybyassociate
 title: SaleAgent.GetSummaryByAssociate event method
 description: Scripting events called on the GetSummaryByAssociate method on the SaleAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaleAgent.GetSummaryByAssociate
 

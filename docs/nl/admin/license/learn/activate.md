@@ -3,9 +3,9 @@ uid: help-nl-license-activate
 title: Licentie activeren
 description: Licentie voor SuperOffice activeren
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: licentie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

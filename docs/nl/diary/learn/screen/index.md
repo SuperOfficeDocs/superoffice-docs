@@ -3,9 +3,9 @@ uid: help-nl-diary-screen
 title: Het scherm Agenda
 description: Het scherm Agenda
 author: SuperOffice RnD
-so.date: 10.02.2023
+date: 10.02.2023
 keywords: agenda, vervolgactiviteit
-so.topic: reference
+topic: reference
 language: nl
 ---
 

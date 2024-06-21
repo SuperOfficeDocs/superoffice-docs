@@ -3,9 +3,9 @@ title: Contact and recipient
 uid: blogic_contact_and_recipient
 description: Contact and recipient
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Contact and recipient

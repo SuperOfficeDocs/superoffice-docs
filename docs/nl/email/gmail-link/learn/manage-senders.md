@@ -3,9 +3,9 @@ uid: help-nl-gmail-link-manage-senders
 title: Afzenders beheren met Gmail Link
 description: Afzenders beheren met Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: nl
 ---
 

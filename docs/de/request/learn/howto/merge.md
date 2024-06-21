@@ -4,9 +4,9 @@ title: Anfragen zusammenführen
 description: Anfragen zusammenführen
 author: Hanne Gunnarsson
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

@@ -3,12 +3,12 @@ uid: mobile-crm-sale-create
 title: Create sale
 description: How to register sales in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.26.2023
+date: 07.26.2023
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Create sale

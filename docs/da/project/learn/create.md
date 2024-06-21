@@ -3,9 +3,9 @@ uid: help-da-project-create
 title: Opret et projekt
 description: "Sådan opretter du et projekt, så du kan holde endnu bedre styr på tingene."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: projekt
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -2,11 +2,11 @@
 title: SoFormsAuthentication element
 uid: ns_config_soformsauthentication
 description: NetServer configuration settings used to control access and used by the web client FormsAuthentication.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SoFormsAuthentication, FormsAuthentication, IgnoreList, Pages, LoginUrl, DefaultUrl, LogoutUrl, PocketCrmLoginPage
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer SoFormsAuthentication element

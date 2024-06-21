@@ -3,9 +3,9 @@ uid: help-en-company-screen
 title: The Company screen
 description: The Company screen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: reference
+topic: reference
 language: en
 ---
 

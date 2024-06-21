@@ -3,9 +3,9 @@ title: Documents API options
 uid: api_documents
 description: Working with documents via SuperOffice APIs.
 author: Bergfrid Skaara Dias
-so.date: 02.07.2022
+date: 02.07.2022
 keywords: document, API
-so.topic: concept
+topic: concept
 ---
 
 # Document API options

@@ -4,12 +4,12 @@ title: Lägga in en länk för att visa meddelandet i en webbläsare
 description: Lägga in en länk för att visa meddelandet i en webbläsare
 keywords: Marknadsföring, länk, utskick
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägga in en länk för att visa meddelandet i en webbläsare

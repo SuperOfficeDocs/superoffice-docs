@@ -2,10 +2,10 @@
 uid: table-person
 title: person table
 description: Persons in a company or an organizations. All associates have a corresponding person record
-so.generated: true
+generated: true
 keywords: database table person
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # person Table (6)

@@ -3,10 +3,10 @@ uid: help-no-follow-up-create
 title: "Legge til oppfølging"
 description: "Legge til eller kopiere møte, oppgave, samtale i SuperOffice"
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
-so.topic: howto
+topic: howto
 language: no
 ---
 

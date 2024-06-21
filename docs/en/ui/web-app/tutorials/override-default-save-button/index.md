@@ -3,11 +3,11 @@ title: How to override default save button
 uid: pb_tutorial_override_default_save_button
 description: This sample discusses overriding the default behavior when clicking a button in the web client.
 author: Tony Yates
-so.date: 06.19.2009
+date: 06.19.2009
 keywords: pagebuilder
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # How to override the default behavior when clicking a button

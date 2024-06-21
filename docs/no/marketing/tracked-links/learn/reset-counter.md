@@ -4,12 +4,12 @@ title: Nullstille tellere for koblinger
 description: Nullstille tellere for koblinger
 keywords: Markedsføring, utsendelse, kobling, teller
 author: Bergfrid Dias
-so.date: 02.23.2024
-so.version: 10
-so.topic: howto
+date: 02.23.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Nullstille tellere for koblinger

@@ -3,11 +3,11 @@ uid: help-no-automation-folder-create
 title: Egenskaper for makro-/skriptmappe
 description: Egenskaper for makro-/skriptmappe
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjeneste, mappe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

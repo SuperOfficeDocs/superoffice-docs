@@ -3,9 +3,9 @@ title: Checkbox
 uid: blogic_checkbox
 description: Checkbox
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Checkbox

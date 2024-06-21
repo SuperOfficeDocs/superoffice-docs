@@ -4,8 +4,8 @@ uid: services_soap_config
 description: Services SOAP configuration
 author: {github-id}
 keywords:
-so.date: 01.25.2021
-so.topic: howto
+date: 01.25.2021
+topic: howto
 ---
 
 # Configuration

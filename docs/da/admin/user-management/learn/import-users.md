@@ -3,14 +3,14 @@ uid: help-da-user-import
 title: Import af brugere
 description: Import af brugere fra Active Directory
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, importer, medarbejder, Active Directory, bulk
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Import af brugere

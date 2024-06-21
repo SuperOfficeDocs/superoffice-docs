@@ -3,9 +3,9 @@ uid: FreetextPerson
 title: FreetextPerson
 description: Archive provider for freetext search on the Person entity.
 keywords: FreetextPerson archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FreetextPerson"

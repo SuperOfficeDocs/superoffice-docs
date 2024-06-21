@@ -2,8 +2,8 @@
 title: Working with companies
 description: The company card uses the contact table and its related tables. There are multiple person records for any contact.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
-so.topic: concept
+date: 11.02.2021
+topic: concept
 keywords: company, person, contact
 ---
 

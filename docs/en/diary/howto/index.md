@@ -3,9 +3,9 @@ title: Diary howto
 uid: diary-howto
 description: How to work with follow-ups (appointments) at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
-so.date: 10.23.2023
+date: 10.23.2023
 keywords: diary, calendar, appointment, meeting, API, associate, call, task, todo, follow-up, recurrence, recurrencerule, frequency, pattern
-so.topic: howto
+topic: howto
 ---
 
 # How to

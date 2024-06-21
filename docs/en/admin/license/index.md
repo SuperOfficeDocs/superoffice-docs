@@ -3,11 +3,11 @@ title: Licensing
 uid: licensing
 description: SuperOffice license system
 author: Christian Mogensen
-so.date: 08.20.2021
+date: 08.20.2021
 keywords: database
-so.topic: concept
-so.envir:
-so.client:
+topic: concept
+envir:
+client:
 ---
 
 # Licensing

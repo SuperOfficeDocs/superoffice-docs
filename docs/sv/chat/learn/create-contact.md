@@ -3,9 +3,9 @@ uid: help-sv-chat-create-contact
 title: Skapa en ny kontakt i SuperOffice
 description: Så kopplar du en ny kund till SuperOffice från en chatt.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatt, contact
-so.topic: howto
+topic: howto
 language: sv
 ---
 

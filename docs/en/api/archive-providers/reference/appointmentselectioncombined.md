@@ -3,9 +3,9 @@ uid: AppointmentSelectionCombined
 title: AppointmentSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: AppointmentSelectionCombined archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentSelectionCombined"

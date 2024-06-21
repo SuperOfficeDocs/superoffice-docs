@@ -3,9 +3,9 @@ uid: help-da-quote-approve
 title: Godkendelse af tilbud før afsendelse
 description: Godkendelse af tilbud før afsendelse
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: da
 ---
 

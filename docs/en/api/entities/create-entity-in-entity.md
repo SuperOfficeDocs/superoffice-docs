@@ -3,9 +3,9 @@ title: Create an Entity through an Entity
 uid: create_entity_in_entity
 description: Create an Entity through an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Create an Entity through an Entity

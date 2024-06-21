@@ -3,11 +3,11 @@ uid: help-sv-quote-delete-deactivate-price-list-or-product
 title: offert ta bort inaktivera prislista eller produkt
 description: offert ta bort inaktivera prislista eller produkt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: försäljning, offert, produkt, prislista
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

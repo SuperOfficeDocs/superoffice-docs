@@ -2,10 +2,10 @@
 uid: phonelistagent-setpreferences
 title: PhoneListAgent.SetPreferences event method
 description: Scripting events called on the SetPreferences method on the PhoneListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PhoneListAgent.SetPreferences
 

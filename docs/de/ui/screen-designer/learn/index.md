@@ -3,13 +3,13 @@ uid: help-de-screen-designer
 title: Ansichtsdesigner
 description: "In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren."
 author: SuperOffice RnD
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: Ansichtsdesigner
-so.topic: concept
+topic: concept
 language: de
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Ansichtsdesigner

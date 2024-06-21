@@ -3,9 +3,9 @@ uid: help-da-company-merge
 title: Flet kontakter
 description: For at kunne være effektiv i arbejdet med kunder og kontakter er det vigtigt at have et miljø uden rod. Det betyder at slette ubrugte virksomheder og kontakter og flette duplikerede virksomheder og kontakter.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

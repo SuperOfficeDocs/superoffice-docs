@@ -3,11 +3,11 @@ title: Publish app
 uid: standard-app-publish
 description: Publish standard app in CRM Online environment
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: App Store
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 --- 
 
 # Publish standard app in CRM Online environment

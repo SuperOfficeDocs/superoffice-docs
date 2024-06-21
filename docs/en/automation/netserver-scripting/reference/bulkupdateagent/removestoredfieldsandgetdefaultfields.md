@@ -2,10 +2,10 @@
 uid: bulkupdateagent-removestoredfieldsandgetdefaultfields
 title: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields event method
 description: Scripting events called on the RemoveStoredFieldsAndGetDefaultFields method on the BulkUpdateAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
 

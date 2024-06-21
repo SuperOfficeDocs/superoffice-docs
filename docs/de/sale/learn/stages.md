@@ -3,9 +3,9 @@ uid: help-de-sale-stages
 title: "Verkaufsstatus, verkauft und verloren"
 description: "Verkaufsstatus, verkauft und verloren"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf
-so.topic: concept
+topic: concept
 language: de
 ---
 

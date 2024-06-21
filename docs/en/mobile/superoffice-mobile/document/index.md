@@ -3,12 +3,12 @@ uid: mobile-crm-document
 title: Documents
 description: Learn about working with documents in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.07.2023
+date: 08.07.2023
 keywords: mobile, document, email, activity
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Documents ![icon][img12]

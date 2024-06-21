@@ -3,11 +3,11 @@ uid: help-de-notifications
 title: Benachrichtigungen
 description: "Benachrichtigungen über Einladungen, Nachrichten und Anfragen"
 author: Hanne Gunnarsson, Bergfrid Dias
-so.date: 08.30.2023
+date: 08.30.2023
 keywords: Benachrichtigung, Einladung, Anfrage, Nachricht
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

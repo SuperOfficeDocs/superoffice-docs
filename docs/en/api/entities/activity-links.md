@@ -3,9 +3,9 @@ title: Activity links sub-object on models
 uid: activity_links
 description: Activity links sub-object on models
 author:
-so.date:
+date:
 keywords: appointment,document,sale
-so.topic: concept
+topic: concept
 ---
 
 # Activity links sub-object on models

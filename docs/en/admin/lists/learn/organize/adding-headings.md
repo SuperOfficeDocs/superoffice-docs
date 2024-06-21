@@ -3,11 +3,11 @@ uid: help-en-adding-headings
 title: Adding headings
 description: Adding headings
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: list, heading
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

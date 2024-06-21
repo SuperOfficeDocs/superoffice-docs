@@ -3,12 +3,12 @@ uid: help-nl-win-client
 title: Windows Client-instellingen
 description: Windows Client-instellingen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: concept
+topic: concept
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Windows Client-instellingen

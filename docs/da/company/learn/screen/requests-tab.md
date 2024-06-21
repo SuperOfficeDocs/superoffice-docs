@@ -3,9 +3,9 @@ uid: help-da-company-screen-requests
 title: Fanen Anmodninger
 description: Fanen Anmodninger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, sag
-so.topic: reference
+topic: reference
 language: da
 ---
 

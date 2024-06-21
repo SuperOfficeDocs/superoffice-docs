@@ -3,11 +3,11 @@ uid: help-de-document-faq-publish
 title: FAQ-Einträge veröffentlichen
 description: FAQ-Einträge veröffentlichen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: FAQ
-so.topic: help
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: help
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

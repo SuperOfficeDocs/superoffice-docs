@@ -3,9 +3,9 @@ uid: help-da-chat
 title: Chat
 description: Kommuniker med og hjælp eksisterende eller potentielle kunder via en chatwidget på dit websted.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: concept
+topic: concept
 language: da
 ---
 

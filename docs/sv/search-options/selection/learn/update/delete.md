@@ -3,9 +3,9 @@ uid: help-sv-selection-delete
 title: Ta bort urval
 description: Ta bort urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

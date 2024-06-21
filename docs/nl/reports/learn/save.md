@@ -3,9 +3,9 @@ uid: help-nl-saving-reports-as-files
 title: Rapporten opslaan als bestand
 description: Rapporten opslaan als bestand
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: nl
 ---
 

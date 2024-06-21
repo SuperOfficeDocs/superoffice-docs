@@ -3,9 +3,9 @@ uid: LinksSelection
 title: LinksSelection
 description: 
 keywords: LinksSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "LinksSelection"

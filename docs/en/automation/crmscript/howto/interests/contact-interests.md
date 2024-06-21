@@ -4,9 +4,9 @@ title: Set/clear interest on contact
 description: How to update interests for a SuperOffice contact with CRMScript.
 keywords: CRMScript, contact, person, interest, GetInterests, GetPersonEntity, NSPersonAgent, NSPersonEntity, NSSelectableMDOListItem
 author: Eivind Fasting
-so.date: 04.15.2024
-so.version: 10
-so.topic: howto
+date: 04.15.2024
+version: 10
+topic: howto
 ---
 
 # Set/clear interest on contact

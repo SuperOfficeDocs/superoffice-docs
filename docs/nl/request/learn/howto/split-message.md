@@ -3,11 +3,11 @@ uid: help-nl-request-message-split
 title: Bericht opsplitsen
 description: Bericht opsplitsen
 author: Hanne Gunnarsson
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek, toevoegen
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

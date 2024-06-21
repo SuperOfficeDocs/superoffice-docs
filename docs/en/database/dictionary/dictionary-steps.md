@@ -2,11 +2,11 @@
 title: Dictionary steps
 uid: cdd_steps
 description: Dictionary steps
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: database
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Dictionary steps

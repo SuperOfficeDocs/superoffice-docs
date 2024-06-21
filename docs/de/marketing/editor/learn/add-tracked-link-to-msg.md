@@ -4,12 +4,12 @@ title: "Links einfügen, die Sie überwachen möchten"
 description: "Es gibt zwei Möglichkeiten, Ihre Links einzurichten. Sie können entweder einen voreingestellten nachverfolgten Link verwenden, um Klicks über mehrere Kampagnen nachzuverfolgen, oder einen neuen Link einrichten, der nur in dieser Kampagne verfügbar ist. In dieser Anleitung lernen Sie, wie Sie einen überwachten Link hinzufügen."
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Überwachte Links zu einer Mitteilung hinzufügen

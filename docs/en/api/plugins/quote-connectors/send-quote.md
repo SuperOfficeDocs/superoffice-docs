@@ -3,9 +3,9 @@ title: Sending quotes
 uid: quote_connectors_send_quote
 description: Sending the quote
 author: {github-id}
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Sending quotes

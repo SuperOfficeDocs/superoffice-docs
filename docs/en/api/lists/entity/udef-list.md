@@ -3,9 +3,9 @@ title: User-defined list providers
 uid: user_defined_list_providers
 description: User-defined list providers
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # User-defined list providers

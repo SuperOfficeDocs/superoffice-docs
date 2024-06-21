@@ -3,12 +3,12 @@ uid: help-sv-request-type
 title: Ärendetyp
 description: Ärendetyp
 author: Bergfrid Dias
-so.date: 03.06.2024
-so.version: 10.3.2
+date: 03.06.2024
+version: 10.3.2
 keywords: ärende, typ
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

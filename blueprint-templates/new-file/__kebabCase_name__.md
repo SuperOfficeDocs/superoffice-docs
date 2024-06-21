@@ -1,15 +1,15 @@
 ---
-title: {{name}}
 uid: {{kebabCase name}}
+title: {{name}}
 description:
-author: {github-id} # Your GitHub alias.
-so.date: # mm.dd.yyyy
 keywords:
-so.topic: {{$topic}}
-so.version: {{$version}}
-so.lang: {{$language}}
-so.envir:
-so.client:
+author: {github-id} # Your GitHub alias.
+date: # mm.dd.yyyy
+version: {{$version}}
+topic: {{$topic}}
+lang: {{$language}}
+envir:
+client:
 ---
 
 # {{name}}

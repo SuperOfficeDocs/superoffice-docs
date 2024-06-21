@@ -3,9 +3,9 @@ uid: help-no-chat-create-request
 title: Opprette sak i chat
 description: I denne guiden lærer du hvordan du oppretter en sak i SuperOffice Chat.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,12 +3,12 @@ uid: help-sv-activity-send-email
 title: Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter
 description: Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter
 author: Bergfrid Dias
-so.date: 09.21.2023
+date: 09.21.2023
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter

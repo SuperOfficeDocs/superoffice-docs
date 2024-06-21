@@ -3,11 +3,11 @@ title: Prepare IIS
 uid: prepare_iis
 description: "How to prepare the IIS web server."
 author: {github-id}
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: IIS, install, WCF
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Prepare Web server

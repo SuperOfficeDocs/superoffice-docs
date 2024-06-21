@@ -4,12 +4,12 @@ title: Lägg till innehåll
 description: Lägg till innehåll
 keywords: Marknadsföring, utskick, kolumn, textblock
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägg till innehåll

@@ -3,9 +3,9 @@ uid: help-da-selection-delete
 title: Sletning af udvalg
 description: Sletning af udvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

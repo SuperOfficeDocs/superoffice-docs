@@ -3,9 +3,9 @@ uid: help-nl-report-search-criteria-edit
 title: Zoekcriteria bewerken in rapporten
 description: Zoekcriteria bewerken in rapporten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,11 +3,11 @@ uid: help-sv-user-change-plan
 title: Ändra användarplaner för aktiva användare
 description: I den här guiden förklarar vi hur du ändrar en användarplan för aktiva användare.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user, medarbetare
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

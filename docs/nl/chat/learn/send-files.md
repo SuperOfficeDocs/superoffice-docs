@@ -3,9 +3,9 @@ uid: help-nl-chat-send-files
 title:  Bestanden verzenden in chat
 description:  Bestanden verzenden in chat
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatten
-so.topic: howto
+topic: howto
 language: nl
 ---
 

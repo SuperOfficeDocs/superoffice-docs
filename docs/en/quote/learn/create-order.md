@@ -3,9 +3,9 @@ uid: help-en-quote-create-order
 title: quote create order
 description: In this how-to guide, you will learn how place an order.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

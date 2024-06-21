@@ -2,10 +2,10 @@
 uid: audienceagent-setlogoimage
 title: AudienceAgent.SetLogoImage event method
 description: Scripting events called on the SetLogoImage method on the AudienceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AudienceAgent.SetLogoImage
 

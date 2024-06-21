@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_try_catch
 title: Control - try...catch
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Control - try...catch

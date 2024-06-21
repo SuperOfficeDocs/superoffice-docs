@@ -4,9 +4,9 @@ uid: silent_serversetup
 description: Silent install of ServerSetup
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Silent install of ServerSetup

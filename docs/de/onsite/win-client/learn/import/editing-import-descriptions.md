@@ -3,12 +3,12 @@ uid: help-de-editing-import-descriptions
 title: Importbeschreibungen bearbeiten
 description: Importbeschreibungen bearbeiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
-so.topic: help
+topic: help
 language: de
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Importbeschreibungen bearbeiten

@@ -3,9 +3,9 @@ title: Select project
 uid: blogic_select_project
 description: Select project
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select project

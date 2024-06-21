@@ -3,9 +3,9 @@ uid: help-no-company-delete-relation
 title: Slette relasjoner
 description: Slette relasjoner
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: no
 ---
 

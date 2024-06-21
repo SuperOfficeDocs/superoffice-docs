@@ -4,12 +4,12 @@ title: Arbeide med utsendelser
 description: Arbeide med utsendelser
 keywords: Markedsføring, utsendelse
 author: SuperOffice RnD, Jeanette Small Strøm
-so.date: 02.12.2024
-so.version: 10
-so.topic: concept
+date: 02.12.2024
+version: 10
+topic: concept
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med utsendelser

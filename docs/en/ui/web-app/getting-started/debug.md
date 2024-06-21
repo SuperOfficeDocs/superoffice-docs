@@ -3,11 +3,11 @@ title: Debugging the Web application
 uid: webapp_debug
 description: Debugging the Web application
 author: Trond Nilsen
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Debugging the Web application

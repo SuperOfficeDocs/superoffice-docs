@@ -4,8 +4,8 @@ title: GoogleRecaptcha element
 description: NetServer configuration values for the Google reCAPTCHA validation service.
 keywords: config, NetServer, web.config, Google reCAPTCHA, GoogleRecaptcha, SecretKey, SiteKey, VerificationUrl
 author: Bergfrid Dias
-so.date: 03.05.2024
-so.topic: reference
+date: 03.05.2024
+topic: reference
 ---
 
 # NetServer GoogleRecaptcha element

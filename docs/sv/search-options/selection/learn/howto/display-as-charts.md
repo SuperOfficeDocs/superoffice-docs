@@ -3,9 +3,9 @@ uid: help-sv-selection-display-as-charts
 title: Visualisera urval med diagram
 description: När du har skapat ett urval kan du visa dina resultat visuellt för att få en mer omedelbar förståelse av data. Den här guiden visar hur du visualiserar urval med hjälp av diagram i SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection, diagram
-so.topic: howto
+topic: howto
 language: sv
 ---
 

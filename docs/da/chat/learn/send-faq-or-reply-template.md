@@ -3,9 +3,9 @@ uid: help-da-chat-send-faq-or-reply-template
 title: "Sende FAQ'er, svarskabeloner og hurtige svar i en chat"
 description: "Sende FAQ'er, svarskabeloner og hurtige svar i en chat"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: da
 ---
 

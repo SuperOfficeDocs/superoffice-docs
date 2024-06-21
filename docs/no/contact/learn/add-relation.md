@@ -3,9 +3,9 @@ uid: help-no-contact-add-relation
 title: Legg til relasjoner (Person-bilde)
 description: Legg til relasjoner (Person-bilde)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, relasjon
-so.topic: howto
+topic: howto
 language: no
 ---
 

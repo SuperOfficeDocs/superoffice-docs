@@ -2,10 +2,10 @@
 uid: emailagent-hasmxrecord
 title: EMailAgent.HasMXRecord event method
 description: Scripting events called on the HasMXRecord method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.HasMXRecord
 

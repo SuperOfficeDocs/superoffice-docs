@@ -3,9 +3,9 @@ uid: help-sv-report-preview
 title: Förhandsgranska rapporter
 description: Hur förhandsgranska rapporter
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: rapport
-so.topic: howto
+topic: howto
 language: sv
 ---
 

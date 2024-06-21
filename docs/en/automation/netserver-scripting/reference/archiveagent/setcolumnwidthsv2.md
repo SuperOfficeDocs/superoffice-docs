@@ -2,10 +2,10 @@
 uid: archiveagent-setcolumnwidthsv2
 title: ArchiveAgent.SetColumnWidthsV2 event method
 description: Scripting events called on the SetColumnWidthsV2 method on the ArchiveAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ArchiveAgent.SetColumnWidthsV2
 

@@ -3,9 +3,9 @@ uid: help-en-reply-template-folder
 title: Administrate folders of reply templates
 description: Administrate folders of reply templates
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request, reply, folder
-so.topic: howto
+topic: howto
 language: en
 ---
 

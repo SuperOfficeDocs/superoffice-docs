@@ -3,12 +3,12 @@ uid: help-nl-activity-send-email
 title: E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten
 description: E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten
 author: Bergfrid Dias
-so.date: 09.21.2023
+date: 09.21.2023
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten

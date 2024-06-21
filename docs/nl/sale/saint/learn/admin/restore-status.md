@@ -3,11 +3,11 @@ uid: help-nl-restore-status
 title: Verwijderde statusweb herstellen
 description: Verwijderde statusweb herstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkoop, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -2,10 +2,10 @@
 uid: documentagent-substitutemergedocumenttemplatevariables2
 title: DocumentAgent.SubstituteMergeDocumentTemplateVariables2 event method
 description: Scripting events called on the SubstituteMergeDocumentTemplateVariables2 method on the DocumentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentAgent.SubstituteMergeDocumentTemplateVariables2
 

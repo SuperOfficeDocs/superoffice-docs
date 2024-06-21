@@ -3,9 +3,9 @@ uid: help-de-erp-connection-add
 title: ERP-Verbindung hinzufügen
 description: ERP-Verbindung hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Angebot, ERP, Connector
-so.topic: howto
+topic: howto
 language: de
 ---
 

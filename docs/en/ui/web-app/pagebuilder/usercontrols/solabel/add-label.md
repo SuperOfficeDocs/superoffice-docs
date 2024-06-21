@@ -3,11 +3,11 @@ title: Adding a labelwebapp_add_label
 uid: Adding a label
 description: How to add a label 
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: gui
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # Adding a label

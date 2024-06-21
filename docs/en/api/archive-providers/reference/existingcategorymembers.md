@@ -3,9 +3,9 @@ uid: ExistingCategoryMembers
 title: ExistingCategoryMembers
 description: Archive of ExistingCategoryMembers - used by the web api.
 keywords: ExistingCategoryMembers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ExistingCategoryMembers"

@@ -3,9 +3,9 @@ uid: help-da-company-print
 title: Udskriv oplysninger om et firma
 description: Udskriv oplysninger om et firma
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

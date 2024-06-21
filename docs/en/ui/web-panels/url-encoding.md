@@ -3,9 +3,9 @@ title: Url encoding
 uid: web_panels_url_encoding
 description: URL encoding in web panels
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Url encoding

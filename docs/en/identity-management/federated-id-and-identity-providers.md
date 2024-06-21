@@ -3,11 +3,11 @@ title: Federated ID and identity providers
 uid: federated_id_and_identity_providers
 description: Federated ID and identity providers
 author:
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: IDP, identity provider, Microsoft Entra ID, ME-ID, AAD
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Federated ID and identity providers

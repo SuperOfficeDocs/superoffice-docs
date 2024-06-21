@@ -2,10 +2,10 @@
 uid: webhookagent-signalevent
 title: WebhookAgent.SignalEvent event method
 description: Scripting events called on the SignalEvent method on the WebhookAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WebhookAgent.SignalEvent
 

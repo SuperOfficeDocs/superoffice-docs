@@ -3,9 +3,9 @@ title: IProductRegisterCache
 uid: i_product_register_cache 
 description: IProductRegisterCache
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # IProductRegisterCache

@@ -2,9 +2,9 @@
 uid: crmscript_debug_development_mode
 title: Debugging CRMScript modules
 author:
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Debugging CRMScript modules

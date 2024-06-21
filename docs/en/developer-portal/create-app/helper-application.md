@@ -3,11 +3,11 @@ uid: helper-application
 title: Helper for private applications
 description: Helper for private applications
 author: Tony Yates
-so.date: 09.07.2023
+date: 09.07.2023
 keywords:
-so.topic: guide
-so.envir: cloud
-so.client: online
+topic: guide
+envir: cloud
+client: online
 ---
 
 # Helper for private applications

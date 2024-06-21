@@ -3,11 +3,11 @@ title: Connect provider
 uid: connect_video_provider
 description: How to connect video provider
 author: {github-id}
-so.date: 06.21.2021
+date: 06.21.2021
 keywords: video meeting
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to connect to a video provider

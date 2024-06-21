@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 03.14.2022
+date: 03.14.2022
 ---
 
 # What’s new in SuperOffice 10.0

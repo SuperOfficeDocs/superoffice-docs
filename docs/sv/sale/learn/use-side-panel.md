@@ -3,10 +3,10 @@ title: Sidopanel
 uid: help-sv-sale-side-panel
 description: Så här använder du sidopanelen effektivt för försäljning
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: försäljning, sidopanel, selection
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: sv
 ---
 

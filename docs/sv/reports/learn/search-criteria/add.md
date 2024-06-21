@@ -3,9 +3,9 @@ uid: help-sv-report-search-criteria-add
 title: Lägg till sökkriterier i rapporter
 description: Lägg till sökkriterier i rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: sv
 ---
 

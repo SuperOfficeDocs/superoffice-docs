@@ -3,11 +3,11 @@ uid: help-sv-languages-category
 title: Arbeta med externa kategorier
 description: Arbeta med externa kategorier
 author: SuperOffice RnD
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Inställningar och underhåll
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

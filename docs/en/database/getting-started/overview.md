@@ -4,9 +4,9 @@ uid: db_overview
 description: An overview of the database
 author: {github-id}
 keywords: database
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # An overview of the database

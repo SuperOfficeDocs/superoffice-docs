@@ -4,9 +4,9 @@ uid: minimal_csharp_app_web_config
 description: Web.Config configuration overview
 author: {github-id}
 keywords:
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # Web.Config configuration overview

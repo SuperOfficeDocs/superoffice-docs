@@ -3,9 +3,9 @@ uid: help-nl-document-template
 title: Documentsjabloon
 description: Documentsjabloon
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-mailing-send-test
 title: Testa utskick genom att skicka ett testmejl
 description: I den här guiden förklarar vi hur du skickar ett testutskick.
 author: SuperOffice RnD
-so.date: 02.20.2023
+date: 02.20.2023
 keywords: Marknadsföring
-so.topic: howto
+topic: howto
 language: sv
 ---
 

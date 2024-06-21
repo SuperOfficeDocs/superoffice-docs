@@ -3,9 +3,9 @@ uid: help-da-product
 title: SuperOffice-produkter
 description: SuperOffice-produkter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salg, tilbud, produkt
-so.topic: concept
+topic: concept
 language: da
 ---
 

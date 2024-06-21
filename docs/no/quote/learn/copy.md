@@ -3,9 +3,9 @@ uid: help-no-quote-copy
 title: Kopiere et tilbud
 description: Kopiere et tilbud
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

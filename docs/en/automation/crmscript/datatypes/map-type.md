@@ -2,9 +2,9 @@
 uid: crmscript_datatypes_map
 title: Map data type
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Map data type

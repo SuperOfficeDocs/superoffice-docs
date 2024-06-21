@@ -3,9 +3,9 @@ uid: help-sv-selection-combine
 title: Skapa kombinationsurval
 description: I den här guiden lär du dig hur du skapar ett kombinerat urval.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

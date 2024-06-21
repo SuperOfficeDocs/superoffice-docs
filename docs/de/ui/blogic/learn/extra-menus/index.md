@@ -3,11 +3,11 @@ uid: help-de-ui-extra-menu
 title: Zusatzmenüs
 description: Zusatzmenüs in der SuperOffice-UI
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Zusatzmenüs
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

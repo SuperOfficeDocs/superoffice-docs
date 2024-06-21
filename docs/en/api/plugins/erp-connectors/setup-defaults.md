@@ -3,11 +3,11 @@ title: Setting up default values
 uid: erp_setup_defaults
 description: Setting up ERP Sync defaults
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Setting up default values

@@ -3,9 +3,9 @@ uid: AppointmentStaticSelectionV2
 title: AppointmentStaticSelectionV2
 description: 
 keywords: AppointmentStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentStaticSelectionV2"

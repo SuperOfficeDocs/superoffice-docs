@@ -3,9 +3,9 @@ uid: help-no-quote-create-order
 title: tilbud opprett ordre
 description: I denne guiden lærer du hvordan du registrerer en ordre.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,10 +3,10 @@ uid: help-en-recurrence-stop
 title: Stop repeating follow-up
 description: Stop repeating follow-up
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: diary, follow-up, repeat, recur, frequency, schedule, pattern
-so.topic: howto
+topic: howto
 language: en
 ---
 

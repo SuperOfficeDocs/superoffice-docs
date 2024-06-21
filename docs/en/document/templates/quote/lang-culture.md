@@ -4,8 +4,8 @@ uid: quote_templates_culture
 description: Numeric and date data, culture settings in quote templates
 author:
 keywords:
-so.topic: concept
-so.date:
+topic: concept
+date:
 ---
 
 # Numeric and date data, culture settings

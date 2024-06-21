@@ -3,9 +3,9 @@ uid: help-en-country
 title: Country
 description: Country
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

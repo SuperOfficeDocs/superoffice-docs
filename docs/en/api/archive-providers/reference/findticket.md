@@ -3,9 +3,9 @@ uid: FindTicket
 title: FindTicket
 description: Ticket provider for Find
 keywords: FindTicket archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FindTicket"

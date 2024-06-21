@@ -3,11 +3,11 @@ title: Practical details - how to use Bulk Update API
 uid: using_bulk_update
 description: Practical details, requirements, configuration
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, FieldValueInfo, DictionaryTableName
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Practical details - how to use Bulk Update API

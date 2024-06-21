@@ -3,9 +3,9 @@ uid: help-sv-document-update
 title: Redigera dokument
 description: Redigera dokument
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: dokument
-so.topic: howto
+topic: howto
 language: sv
 ---
 

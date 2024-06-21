@@ -3,10 +3,10 @@ uid: help-en-request-respond
 title: Respond to requests on your mobile device
 description: In this how-to guide, you will learn how to reply to, forward, and comment on a request in Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.03.2023
+date: 08.03.2023
 keywords: request, ticket, mobile, reply, message, comment
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: en
 ---
 

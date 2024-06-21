@@ -3,9 +3,9 @@ title: files
 description:
 author: {github-id}
 keywords:
-so.topic:
-so.envir: cloud
-so.client: online
+topic:
+envir: cloud
+client: online
 ---
 
 # nuSoapSample solution

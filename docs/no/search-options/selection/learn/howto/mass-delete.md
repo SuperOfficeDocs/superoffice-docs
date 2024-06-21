@@ -3,9 +3,9 @@ uid: help-no-mass-delete
 title: Masseslette poster (permanent)
 description: "I tråd med GDPR-kravene må du ha hjemmel for å lagre dataene til alle personene dine. Og når du ikke lenger har hjemmel for å gjøre det, må du fjerne dataene deres fra alle systemene dine."
 author: Bergfrid Dias
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: utvalg, GDPR
-so.topic: howto
+topic: howto
 language: no
 ---
 

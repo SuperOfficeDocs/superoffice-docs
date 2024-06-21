@@ -3,9 +3,9 @@ uid: help-de-report-create
 title: Bericht erstellen
 description: Bericht erstellen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

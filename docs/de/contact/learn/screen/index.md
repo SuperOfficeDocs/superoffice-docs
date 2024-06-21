@@ -3,9 +3,9 @@ uid: help-de-contact-screen
 title: Die Ansicht Person
 description: Die Ansicht Person
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, Person
-so.topic: reference
+topic: reference
 language: de
 ---
 

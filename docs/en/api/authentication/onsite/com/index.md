@@ -3,11 +3,11 @@ title: Authentication
 uid: authentication_com
 description: Overview of SuperOffice COM API authentication.
 author: AnthonyYates
-so.date: 05.08.2018
+date: 05.08.2018
 keywords: security, authentication, COM, IApplication, IDatabase
-so.topic: concept
-so.envir: onsite
-so.client: Windows
+topic: concept
+envir: onsite
+client: Windows
 ---
 
 # COM

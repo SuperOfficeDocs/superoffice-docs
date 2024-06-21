@@ -2,10 +2,10 @@
 uid: mdoagent-setselected
 title: MDOAgent.SetSelected event method
 description: Scripting events called on the SetSelected method on the MDOAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # MDOAgent.SetSelected
 

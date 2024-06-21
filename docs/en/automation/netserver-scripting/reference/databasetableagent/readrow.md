@@ -2,10 +2,10 @@
 uid: databasetableagent-readrow
 title: DatabaseTableAgent.ReadRow event method
 description: Scripting events called on the ReadRow method on the DatabaseTableAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DatabaseTableAgent.ReadRow
 

@@ -3,9 +3,9 @@ uid: help-no-sales-guide
 title: Salgsguide
 description: Salgsguiden i SuperOffice CRM er en salgsprosess basert på beste praksis som vil hjelpe deg med å jobbe på en strukturert og konsekvent måte.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg, guide, arbeidsflyt
-so.topic: concept
+topic: concept
 language: no
 ---
 

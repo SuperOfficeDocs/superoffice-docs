@@ -3,9 +3,9 @@ uid: help-da-script-screen
 title: Fanen makroer og scripts
 description: Fanen makroer og scripts
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: script, makro
-so.topic: reference
+topic: reference
 language: da
 ---
 

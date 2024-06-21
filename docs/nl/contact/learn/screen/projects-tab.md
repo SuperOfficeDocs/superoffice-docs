@@ -3,9 +3,9 @@ uid: help-nl-contact-screen-projects
 title: Tabblad Projecten
 description: Tabblad Projecten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: reference
+topic: reference
 language: nl
 ---
 

@@ -3,11 +3,11 @@ uid: help-de-request-reply
 title: Einer Person antworten
 description: "In dieser Anleitung lernen Sie, wie Sie alle eingehenden Anfragen in SuperOffice antworten können."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Anfrage, Antwortvorlage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

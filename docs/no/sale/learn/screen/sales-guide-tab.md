@@ -3,9 +3,9 @@ uid: help-no-sale-screen-tab-guide
 title: Detaljkortet Salgsguide
 description: Detaljkortet Salgsguide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg, guide
-so.topic: reference
+topic: reference
 language: no
 ---
 

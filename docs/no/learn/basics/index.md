@@ -3,10 +3,10 @@ uid: help-no-basic-tasks
 title: Enkle oppgaver å komme i gang med
 description: Enkle oppgaver for nybegynnere i SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords:
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: no
 ---
 

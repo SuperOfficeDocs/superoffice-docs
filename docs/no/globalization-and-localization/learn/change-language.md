@@ -3,9 +3,9 @@ uid: help-no-language-change
 title: Endre aktivt språk
 description: Endre aktivt språk
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: språk
-so.topic: howto
+topic: howto
 language: no
 ---
 

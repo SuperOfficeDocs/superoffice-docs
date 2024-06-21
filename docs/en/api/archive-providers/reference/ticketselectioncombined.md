@@ -3,9 +3,9 @@ uid: TicketSelectionCombined
 title: TicketSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: TicketSelectionCombined archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketSelectionCombined"

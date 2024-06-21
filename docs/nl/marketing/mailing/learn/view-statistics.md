@@ -4,12 +4,12 @@ title: Statistieken voor mailings weergeven
 description: Statistieken voor mailings weergeven
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Analyseer uw mailingresultaten

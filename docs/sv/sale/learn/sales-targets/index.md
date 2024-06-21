@@ -3,9 +3,9 @@ uid: help-sv-sales-targets
 title: Försäljningsmål
 description: Möjligheten att hålla koll på dina försäljningsmöjligheter är en av de viktigaste funktionerna i SuperOffice CRM. Med hjälp av vår funktion för försäljningsmål kan du jämföra din faktiska försäljning med dina mål.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: concept
+topic: concept
 language: sv
 ---
 

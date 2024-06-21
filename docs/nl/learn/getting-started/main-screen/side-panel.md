@@ -3,9 +3,9 @@ uid: help-nl-ui-side-panel
 title: Het zijpaneel gebruiken om efficiënter te werken
 description: "Met het zijpaneel hebt u toegang tot informatie die is opgeslagen in andere delen van SuperOffice CRM, zonder het scherm te verlaten waarop u zich bevindt."
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: zijpaneel
-so.topic: concept
+topic: concept
 language: nl
 ---
 

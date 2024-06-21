@@ -3,12 +3,12 @@ uid: help-nl-resetting-rules-for-duplicate-handling
 title: Regels voor verwerking van duplicaten opnieuw instellen
 description: Regels voor verwerking van duplicaten opnieuw instellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Een of alle regels voor verwerking van duplicaten opnieuw instellen

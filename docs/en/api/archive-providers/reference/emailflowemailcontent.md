@@ -3,9 +3,9 @@ uid: EmailFlowEmailContent
 title: EmailFlowEmailContent
 description: Email flow message content.
 keywords: EmailFlowEmailContent archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "EmailFlowEmailContent"

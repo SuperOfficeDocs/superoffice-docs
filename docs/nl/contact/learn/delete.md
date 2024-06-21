@@ -3,9 +3,9 @@ uid: help-nl-contact-delete
 title: persoon verwijderen
 description: persoon verwijderen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -2,10 +2,10 @@
 uid: listagent-getapptaskmenus
 title: ListAgent.GetAppTaskMenus event method
 description: Scripting events called on the GetAppTaskMenus method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetAppTaskMenus
 

@@ -3,9 +3,9 @@ uid: QuoteLineSelectionCombined
 title: QuoteLineSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: QuoteLineSelectionCombined archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineSelectionCombined"

@@ -4,9 +4,9 @@ uid: version_history
 description: SuperOffice version history overview
 author: {github-id}
 keywords: onsite, version, history, release
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # SuperOffice Onsite version history

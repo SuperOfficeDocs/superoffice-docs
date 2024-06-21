@@ -3,9 +3,9 @@ uid: help-en-contact-merge
 title: Merge contacts
 description: Merge contacts
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: Contact
 title: Contact
 description: Contact provider for general use
 keywords: Contact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Contact"

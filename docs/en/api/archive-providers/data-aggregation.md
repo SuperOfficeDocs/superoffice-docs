@@ -3,11 +3,11 @@ title: Data aggregation
 uid: data_aggregation
 description: "Learn about data aggregation and aggregate functions."
 author: Tony Yates
-so.date: 11.17.2017.
+date: 11.17.2017.
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Data aggregation

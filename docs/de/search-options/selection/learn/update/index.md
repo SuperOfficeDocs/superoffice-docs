@@ -3,9 +3,9 @@ uid: help-de-selection-update
 title: Selektionen bearbeiten
 description: Selektionen bearbeiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

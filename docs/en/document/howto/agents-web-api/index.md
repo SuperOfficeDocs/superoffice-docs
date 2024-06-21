@@ -3,9 +3,9 @@ title: Documents - WebAPI
 uid: api_documents_webapi
 description: Working with documents in the WebAPI.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: document, API, WebAPI
-so.topic: concept
+topic: concept
 ---
 
 # Documents - WebAPI

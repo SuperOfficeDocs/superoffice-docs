@@ -3,11 +3,11 @@ uid: help-nl-freetext-index-regen
 title: Een vrije-tekstindex opnieuw genereren
 description: Een vrije-tekstindex opnieuw genereren
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: vrije tekst, zoekindex
-so.topic: howto
+topic: howto
 language: nl
-so.envir: onsite
+envir: onsite
 ---
 
 # Een vrije-tekstindex genereren (lokaal)

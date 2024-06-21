@@ -3,9 +3,9 @@ uid: help-sv-gmail-link
 title: SuperOffice Gmail Link
 description: SuperOffice Gmail Link-appen kopplar samman ditt Gmail-konto med SuperOffice CRM och hjälper dig att arbeta mer effektivt med e-post.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail-länk, e-post
-so.topic: concept
+topic: concept
 language: sv
 ---
 

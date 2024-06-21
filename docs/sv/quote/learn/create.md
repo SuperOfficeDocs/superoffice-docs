@@ -3,9 +3,9 @@ uid: help-sv-quote-create
 title: Skapa offert
 description: "I den här guiden lär du dig hur du skapar en offert, lägger till och redigerar en produkt inuti offerten, och hur du skickar en offert."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

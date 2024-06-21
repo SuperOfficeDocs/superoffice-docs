@@ -3,9 +3,9 @@ uid: help-de-gmail-link-archive-incoming
 title: Eingehende E-Mails archivieren
 description: Eingehende E-Mails archivieren
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link, E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

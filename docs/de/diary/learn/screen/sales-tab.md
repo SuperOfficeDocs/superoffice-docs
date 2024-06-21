@@ -3,9 +3,9 @@ uid: help-de-diary-screen-sales
 title: Bereichsregisterkarte Verkäufe (Kalender)
 description: Bereichsregisterkarte Verkäufe (Kalender)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Kalender, Folgeaufgabe
-so.topic: reference
+topic: reference
 language: de
 ---
 

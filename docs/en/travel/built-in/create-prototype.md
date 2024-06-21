@@ -4,10 +4,10 @@ title: Create prototype for built-in travel database
 description: Create a prototype for the built-in travel database
 author: {github-id}
 keywords:
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Create prototype: built-in

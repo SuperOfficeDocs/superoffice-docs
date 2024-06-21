@@ -3,9 +3,9 @@ uid: help-de-selection-user
 title: Aufgaben in der Ansicht Selektion ausführen
 description: Aufgaben in der Ansicht Selektion ausführen
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

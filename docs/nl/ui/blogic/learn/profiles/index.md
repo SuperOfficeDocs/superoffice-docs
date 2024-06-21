@@ -3,11 +3,11 @@ uid: help-nl-service-profile
 title: Profiel
 description: Profiel
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profiel, service
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

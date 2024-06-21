@@ -3,10 +3,10 @@ uid: help-da-invitation-accept
 title: "Opfølgninger, du er inviteret til"
 description: "Visning af opfølgninger, du er inviteret til; Accepter eller afvis invitationer"
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: dagbog, opfølgning, invitation
-so.topic: howto
+topic: howto
 language: da
 ---
 

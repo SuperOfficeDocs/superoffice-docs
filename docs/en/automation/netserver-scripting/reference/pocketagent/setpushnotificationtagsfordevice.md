@@ -2,10 +2,10 @@
 uid: pocketagent-setpushnotificationtagsfordevice
 title: PocketAgent.SetPushNotificationTagsForDevice event method
 description: Scripting events called on the SetPushNotificationTagsForDevice method on the PocketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PocketAgent.SetPushNotificationTagsForDevice
 

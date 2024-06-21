@@ -3,11 +3,11 @@ uid: help-nl-import-create-excel
 title: Een importbestand maken
 description: In deze handleiding leert u hoe u een importbestand maakt met behulp van de Excel-sjabloon.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: import, Excel, bedrijf, contactpersoon, product, spreadsheet
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -3,11 +3,11 @@ uid: help-de-request-transfer
 title: Einen anderen Bearbeiter um Hilfe bitten
 description: Einen anderen Bearbeiter um Hilfe bitten
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Anfrage, delegieren
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

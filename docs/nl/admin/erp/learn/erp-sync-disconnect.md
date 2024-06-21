@@ -3,9 +3,9 @@ uid: help-nl-erp-disconnect
 title: ERP-synchronisatie uitschakelen
 description: ERP-synchronisatie uitschakelen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: nl
 ---
 

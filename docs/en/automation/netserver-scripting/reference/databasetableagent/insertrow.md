@@ -2,10 +2,10 @@
 uid: databasetableagent-insertrow
 title: DatabaseTableAgent.InsertRow event method
 description: Scripting events called on the InsertRow method on the DatabaseTableAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DatabaseTableAgent.InsertRow
 

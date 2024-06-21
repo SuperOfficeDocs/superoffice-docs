@@ -3,9 +3,9 @@ uid: SaleShadowSelectionV2
 title: SaleShadowSelectionV2
 description: Shadow contact provider for the sale provider.
 keywords: SaleShadowSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleShadowSelectionV2"

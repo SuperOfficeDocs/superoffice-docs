@@ -3,7 +3,7 @@ title: Requirements
 uid: app-requirements
 description: Online application requirements and guidelines
 author: Margrethe Romnes
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: requirements
 ---
 

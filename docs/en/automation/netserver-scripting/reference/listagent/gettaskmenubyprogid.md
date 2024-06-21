@@ -2,10 +2,10 @@
 uid: listagent-gettaskmenubyprogid
 title: ListAgent.GetTaskMenuByProgId event method
 description: Scripting events called on the GetTaskMenuByProgId method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetTaskMenuByProgId
 

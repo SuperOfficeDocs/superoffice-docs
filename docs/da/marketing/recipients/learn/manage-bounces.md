@@ -4,12 +4,12 @@ title: Blokerede e-mailadresser
 description: "Lær mere om, hvordan du håndterer afviste mails, i denne vejledning."
 keywords: Marketing
 sauthor: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Administrere returposter

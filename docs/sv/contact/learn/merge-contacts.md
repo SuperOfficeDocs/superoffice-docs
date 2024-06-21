@@ -3,9 +3,9 @@ uid: help-sv-contact-merge
 title: Slå ihop kontakter
 description: Slå ihop kontakter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
 ---
 

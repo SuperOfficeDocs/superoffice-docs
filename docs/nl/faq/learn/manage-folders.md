@@ -3,11 +3,11 @@ uid: help-nl-faq-folder
 title: Mappen met items in Veelgestelde vragen beheren
 description: Mappen met items in Veelgestelde vragen beheren
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Veelgestelde vragen, map
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

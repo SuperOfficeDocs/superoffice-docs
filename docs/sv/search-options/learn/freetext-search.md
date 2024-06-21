@@ -3,9 +3,9 @@ uid: help-sv-search-freetext
 title: Fritextsökning
 description: Fritextsökning
 author: SuperOffice RnD
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: fritext, söka
-so.topic: howto
+topic: howto
 language: sv
 ---
 

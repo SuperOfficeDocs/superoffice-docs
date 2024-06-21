@@ -3,9 +3,9 @@ uid: help-de-find-screen
 title: Ansicht Suchen
 description: Ansicht Suchen
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: Suchen, Suchen
-so.topic: howto
+topic: howto
 language: de
 ---
 

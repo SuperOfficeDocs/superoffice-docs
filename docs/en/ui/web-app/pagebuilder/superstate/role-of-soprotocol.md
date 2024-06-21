@@ -3,11 +3,11 @@ title: The role of SoProtocol
 uid: superstate_and_soprotocol
 description: The role of SoProtocol in SuperState
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # The role of SoProtocol

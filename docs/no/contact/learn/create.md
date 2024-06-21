@@ -3,9 +3,9 @@ uid: help-no-contact-create
 title: Opprette person
 description: Slik oppretter du en person i SuperOffice.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: person, person
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -4,7 +4,7 @@ uid: pref_scripting
 description: Preference section Scripting
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Scripting

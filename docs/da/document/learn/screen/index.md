@@ -3,9 +3,9 @@ uid: help-da-document-dialog
 title: Dialogboksen Dokument
 description: Dialogboksen Dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: concept
+topic: concept
 language: da
 ---
 

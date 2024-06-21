@@ -2,10 +2,10 @@
 uid: marketingagent-getpreviewmailing
 title: MarketingAgent.GetPreviewMailing event method
 description: Scripting events called on the GetPreviewMailing method on the MarketingAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # MarketingAgent.GetPreviewMailing
 

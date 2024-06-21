@@ -3,12 +3,12 @@ uid: mobile-crm-customization
 title: Customization
 description: Overview of ways to customize SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.04.2023
+date: 08.04.2023
 keywords: mobile, pocket, customization, CRMScript
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Customization

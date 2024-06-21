@@ -3,8 +3,8 @@ title: AddressFormatter class
 uid: globalization_addressformatter
 description: Localization, class AddressFormatter
 author: {github-id}
-so.date: 05.08.2018
-so.topic: reference
+date: 05.08.2018
+topic: reference
 keywords: globalization, address
 ---
 

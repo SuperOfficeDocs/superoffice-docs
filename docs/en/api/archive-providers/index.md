@@ -3,9 +3,9 @@ title: NetServer archive providers
 uid: archive_providers
 description: NetServer archive providers
 author: Tony Yates
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: archive provider, NetServer, search
-so.topic: concept
+topic: concept
 ---
 
 # NetServer archive providers

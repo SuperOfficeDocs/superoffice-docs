@@ -3,9 +3,9 @@ uid: ProjectActivity
 title: ProjectActivity
 description: Activity archive provider for the Project card
 keywords: ProjectActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectActivity"

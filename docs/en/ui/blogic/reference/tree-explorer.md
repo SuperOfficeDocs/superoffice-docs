@@ -3,9 +3,9 @@ title: Tree explorer
 uid: blogic_tree_explorer
 description: Tree explorer
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Tree explorer

@@ -2,10 +2,10 @@
 uid: appointmentagent-getcontactappointmentsbytask
 title: AppointmentAgent.GetContactAppointmentsByTask event method
 description: Scripting events called on the GetContactAppointmentsByTask method on the AppointmentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AppointmentAgent.GetContactAppointmentsByTask
 

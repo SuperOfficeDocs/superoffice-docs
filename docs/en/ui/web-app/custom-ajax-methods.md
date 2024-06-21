@@ -3,11 +3,11 @@ title: Custom AJAX methods
 uid: custom_ajax_methods
 description: Custom AJAX methods
 author: Steffan Alte
-so.date: 2007
+date: 2007
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Custom AJAX methods

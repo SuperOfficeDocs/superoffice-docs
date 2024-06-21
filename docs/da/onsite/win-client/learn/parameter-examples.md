@@ -3,9 +3,9 @@ uid: help-da-parameter-examples
 title: Eksempler på parametre
 description: Eksempler på parametre
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

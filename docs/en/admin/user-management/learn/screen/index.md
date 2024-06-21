@@ -3,11 +3,11 @@ uid: help-en-users-screen
 title: Users screen
 description: Users screen
 author: Bergfrid Dias
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: user, associate, our companies
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

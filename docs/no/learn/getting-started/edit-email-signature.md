@@ -4,12 +4,12 @@ title: Redigere signaturer
 description: Redigere e-postsignatur eller signatur i sak.
 keywords: e-post, signatur
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.2.8
-so.topic: howto
+date: 06.11.2024
+version: 10.2.8
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Redigere signaturer

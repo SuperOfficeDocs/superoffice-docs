@@ -3,9 +3,9 @@ uid: help-no-company-screen-activities
 title: Aktiviteter-fanen (Firma-bildet)
 description: Aktiviteter-fanen (Firma-bildet)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: no
 ---
 

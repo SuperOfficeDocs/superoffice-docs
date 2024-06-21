@@ -3,9 +3,9 @@ uid: help-de-document-create
 title: Neues Dokument erstellen
 description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

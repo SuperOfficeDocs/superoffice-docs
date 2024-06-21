@@ -2,10 +2,10 @@
 uid: listagent-deletedocumenttemplatelanguage
 title: ListAgent.DeleteDocumentTemplateLanguage event method
 description: Scripting events called on the DeleteDocumentTemplateLanguage method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.DeleteDocumentTemplateLanguage
 

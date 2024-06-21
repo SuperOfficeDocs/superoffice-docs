@@ -3,11 +3,11 @@ uid: help-de-reply-template-language
 title: Neue Sprachversion der Antwortvorlage erstellen
 description: Neue Sprachversion der Antwortvorlage erstellen
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

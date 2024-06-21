@@ -3,9 +3,9 @@ uid: help-de-preferences-manage
 title: Arbeiten mit Einstellungen
 description: "Wie man Einstellungen hinzufügt, bearbeitet und löscht."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: Optionen, Einstellung
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -4,9 +4,9 @@ title: Nachricht bearbeiten
 description: Wie man eine Mitteilung in einer Anfrage in SuperOffice bearbeitet
 author: Hanne Gunnarsson
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

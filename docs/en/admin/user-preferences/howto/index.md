@@ -3,9 +3,9 @@ title: Preferences
 uid: preferences-howto
 description: Caching preferences
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: user preferences
-so.topic: concept
+topic: concept
 ---
 
 # Preferences

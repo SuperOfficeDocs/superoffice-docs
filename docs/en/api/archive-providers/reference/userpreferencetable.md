@@ -3,9 +3,9 @@ uid: UserPreferenceTable
 title: UserPreferenceTable
 description: Archive provider for preferences that live in the <b>userpreference</b> table. <see cref="T -SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" /> for those that
 keywords: UserPreferenceTable archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "UserPreferenceTable"

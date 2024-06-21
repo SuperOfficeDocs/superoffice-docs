@@ -3,9 +3,9 @@ uid: FreetextTicket
 title: FreetextTicket
 description: Combined multi-query ticket search provider supporting freetext and finding ticket by ID.
 keywords: FreetextTicket archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FreetextTicket"

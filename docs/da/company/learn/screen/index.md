@@ -3,9 +3,9 @@ uid: help-da-company-screen
 title: Skærmbilledet Firma
 description: Skærmbilledet Firma
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: da
 ---
 

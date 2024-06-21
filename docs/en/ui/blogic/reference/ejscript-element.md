@@ -3,9 +3,9 @@ title: Ejscript element
 uid: blogic_ejscript_element
 description: Ejscript element
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Ejscript element

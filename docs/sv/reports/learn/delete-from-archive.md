@@ -3,9 +3,9 @@ uid: help-sv-report-delete-from-archive
 title: Ta bort rapporter i rapportarkivet
 description: Ta bort rapporter i rapportarkivet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: sv
 ---
 

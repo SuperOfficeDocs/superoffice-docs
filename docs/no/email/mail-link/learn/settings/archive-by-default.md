@@ -3,9 +3,9 @@ uid: help-no-mail-link-archive-by-default
 title: Slår standard arkivering på/av
 description: Slår standard arkivering på/av
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

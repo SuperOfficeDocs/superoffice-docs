@@ -3,9 +3,9 @@ uid: help-sv-report-labels
 title: Etiketter
 description: Arbeta med etiketter
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: rapport, label, format, PDF
-so.topic: howto
+topic: howto
 language: sv
 ---
 

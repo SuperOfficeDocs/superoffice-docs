@@ -3,9 +3,9 @@ uid: help-da-email-inbox-mark-as-read
 title: Marker e-mails som læst eller ulæst
 description: Marker e-mails som læst eller ulæst
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

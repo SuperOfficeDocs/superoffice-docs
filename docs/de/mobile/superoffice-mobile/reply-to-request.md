@@ -3,10 +3,10 @@ uid: help-de-request-reply-mobile
 title: Anfrage auf Ihrem Mobilgerät beantworten
 description: "In dieser Anleitung lernen Sie, wie Sie in Mobile CRM eine Anfrage beantworten können."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Anfrage, mobil
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: de
 ---
 

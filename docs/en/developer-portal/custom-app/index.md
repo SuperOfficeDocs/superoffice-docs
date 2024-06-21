@@ -3,11 +3,11 @@ title: Custom applications
 uid: custom-app
 description: About custom apps for SuperOffice CRM Online
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: private app, custom app
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Custom apps for SuperOffice CRM Online

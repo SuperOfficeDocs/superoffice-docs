@@ -3,9 +3,9 @@ uid: tempvar-for-web-app
 title: Variables for integration with web applications
 description: Variables for integration with web applications
 author: Bergfrid Dias
-so.date: 09.22.2022
+date: 09.22.2022
 keywords: template variable
-so.topic: reference
+topic: reference
 ---
 
 # Variables for integration with web applications

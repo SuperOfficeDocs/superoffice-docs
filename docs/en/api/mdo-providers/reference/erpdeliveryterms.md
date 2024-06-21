@@ -3,9 +3,9 @@ uid: erpdeliveryterms
 title: erpdeliveryterms
 keywords: mdoprovider mdo provider erpdeliveryterms
 description: Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;. Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "erpdeliveryterms" MDO List

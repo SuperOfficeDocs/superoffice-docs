@@ -3,9 +3,9 @@ uid: help-nl-product
 title: SuperOffice-producten
 description: SuperOffice-producten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkoop, offerte, product
-so.topic: concept
+topic: concept
 language: nl
 ---
 

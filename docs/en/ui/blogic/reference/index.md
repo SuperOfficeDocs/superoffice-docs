@@ -3,9 +3,9 @@ title: Reference
 uid: blogic_elements
 description: Element reference
 author:
-so.date:
+date:
 keywords: bLogic
-so.topic: reference
+topic: reference
 ---
 
 # Element reference

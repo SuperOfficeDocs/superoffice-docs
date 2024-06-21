@@ -4,12 +4,12 @@ title: Koppeling voor uitschrijven toevoegen
 description: "Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen."
 keywords: marketing
 author: SuperOffice RnD
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Links voor abonnement toevoegen

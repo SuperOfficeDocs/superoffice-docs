@@ -3,9 +3,9 @@ uid: help-sv-contact-move
 title: Flytta kontakt
 description: Flytta kontakt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -4,9 +4,9 @@ uid: force_mirroring_resync
 description: Force mirroring re-synchronization in a production database
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Force mirroring re-sync in a production database

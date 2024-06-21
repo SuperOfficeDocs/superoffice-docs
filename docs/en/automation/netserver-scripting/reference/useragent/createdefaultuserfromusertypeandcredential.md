@@ -2,10 +2,10 @@
 uid: useragent-createdefaultuserfromusertypeandcredential
 title: UserAgent.CreateDefaultUserFromUserTypeAndCredential event method
 description: Scripting events called on the CreateDefaultUserFromUserTypeAndCredential method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.CreateDefaultUserFromUserTypeAndCredential
 

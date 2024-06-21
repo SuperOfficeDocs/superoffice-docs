@@ -3,9 +3,9 @@ uid: help-nl-service-mailbox-delete
 title: Postbussen verwijderen
 description: Postbussen verwijderen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

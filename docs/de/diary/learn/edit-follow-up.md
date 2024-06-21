@@ -3,10 +3,10 @@ uid: help-de-follow-up-edit
 title: Folgeaufgaben bearbeiten
 description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern; Einladung bearbeiten oder löschen
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Einladung, Termin, Aufgabe, Anruf, Wiederholen, Wiederkehren, Instanz
-so.topic: howto
+topic: howto
 language: de
 ---
 

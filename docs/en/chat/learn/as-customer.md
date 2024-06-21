@@ -3,9 +3,9 @@ uid: help-en-chat-as-customer
 title: Using the chat function from the customer's perspective
 description: Using the chat function from the customer's perspective
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: en
 ---
 

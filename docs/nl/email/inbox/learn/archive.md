@@ -3,9 +3,9 @@ uid: help-nl-email-inbox-archive
 title: E-mails archiveren
 description: E-mails archiveren
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

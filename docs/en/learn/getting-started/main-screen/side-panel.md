@@ -3,9 +3,9 @@ uid: help-en-ui-side-panel
 title: Use side panel to work more efficiently
 description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on.
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: side panel
-so.topic: concept
+topic: concept
 language: en
 ---
 

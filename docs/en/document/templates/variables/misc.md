@@ -3,9 +3,9 @@ uid: tempvar-misc
 title: Misc template variables
 description: Misc template variables
 author: Bergfrid Dias
-so.date: 09.22.2022
+date: 09.22.2022
 keywords: template variable
-so.topic: reference
+topic: reference
 ---
 
 # Misc template variables

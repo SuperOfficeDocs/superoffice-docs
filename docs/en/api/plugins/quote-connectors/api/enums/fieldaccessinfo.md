@@ -3,9 +3,9 @@ title: Enum FieldAccessInfo
 uid: quote_connector_enum_fieldaccessinfo
 description: ERP Quote Connector Interface data carrier - Enum FieldAccessInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # Enum FieldAccessInfo

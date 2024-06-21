@@ -3,13 +3,13 @@ title: How to get the category list and set category on a contact
 uid: get_set_category_mdoagent
 description: How to get the category list and set Contact.Category from combo box
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: MDOAgent
-so.topic: howto
-so.category: list
-so.area: api-services
-# so.envir:
-# so.client:
+topic: howto
+category: list
+area: api-services
+# envir:
+# client:
 ---
 
 # How to get the category list and set category on a contact

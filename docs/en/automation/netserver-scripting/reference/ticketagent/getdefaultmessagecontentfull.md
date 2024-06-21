@@ -2,10 +2,10 @@
 uid: ticketagent-getdefaultmessagecontentfull
 title: TicketAgent.GetDefaultMessageContentFull event method
 description: Scripting events called on the GetDefaultMessageContentFull method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.GetDefaultMessageContentFull
 

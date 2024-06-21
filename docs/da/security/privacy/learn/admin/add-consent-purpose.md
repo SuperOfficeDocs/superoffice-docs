@@ -3,9 +3,9 @@ uid: help-da-add-consent-purpose
 title: Tilføjelse af samtykkeformål
 description: "Få flere oplysninger om, hvordan du konfigurerer indstillingerne for Privacy for dit firma."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Indstillinger og vedligeholdelse, personbeskyttelse, samtykke
-so.topic: howto
+topic: howto
 language: da
 ---
 

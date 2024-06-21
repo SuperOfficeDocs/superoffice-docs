@@ -3,9 +3,9 @@ uid: help-sv-sms-mailbox-create
 title: Skapa SMS-postlåda
 description: Skapa SMS-postlåda
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

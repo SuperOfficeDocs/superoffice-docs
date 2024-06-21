@@ -2,10 +2,10 @@
 uid: customerserviceagent-removesession
 title: CustomerServiceAgent.RemoveSession event method
 description: Scripting events called on the RemoveSession method on the CustomerServiceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CustomerServiceAgent.RemoveSession
 

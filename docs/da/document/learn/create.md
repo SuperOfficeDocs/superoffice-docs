@@ -3,9 +3,9 @@ uid: help-da-document-create
 title: Opret nyt dokument
 description: "Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: dokument
-so.topic: howto
+topic: howto
 language: da
 ---
 

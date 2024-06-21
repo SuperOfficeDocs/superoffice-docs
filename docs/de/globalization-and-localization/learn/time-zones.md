@@ -3,9 +3,9 @@ uid: help-de-time-zones
 title: Zeitzonen
 description: Zeitzonen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -4,8 +4,8 @@ uid: expand-quick-search
 description: Expanding quick search functionality
 author: Hans Wilhelmsen
 keywords: Service, quicksearch, screen chooser
-so.topic: howto
-so.date: 09.30.2013
+topic: howto
+date: 09.30.2013
 ---
 
 # Expanding quick search functionality

@@ -3,11 +3,11 @@ uid: help-nl-edit-privacy-confirmation-email
 title: E-mail met privacybevestiging bewerken
 description: In deze gids staat u hoe u de e-mail met de privacybevestiging kunt bewerken.
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: GDPR, toestemming, e-mail, sjabloon
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -3,10 +3,10 @@ uid: help-en-diary-screen-activities
 title: The Activities section tab (Diary)
 description: The Activities section tab (Diary)
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: diary, follow-up
-so.topic: reference
+topic: reference
 language: en
 ---
 

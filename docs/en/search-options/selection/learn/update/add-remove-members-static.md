@@ -3,9 +3,9 @@ uid: help-en-selection-static-members
 title: Add and remove members in static selections
 description: How to manage members in static selections.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: selection, member
-so.topic: howto
+topic: howto
 language: en
 ---
 

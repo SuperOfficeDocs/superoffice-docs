@@ -3,9 +3,9 @@ uid: crmscript-project-get
 title: Get selected projects
 description: How to get selected projects with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 06.01.2023
+date: 06.01.2023
 keywords: CRMScript, project, ProjectAgent, GetProjectList
-so.topic: howto
+topic: howto
 ---
 
 # Get selected projects

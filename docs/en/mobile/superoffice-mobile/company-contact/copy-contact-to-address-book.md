@@ -3,12 +3,12 @@ uid: mobile-crm-copy-contact-to-address-book
 title: Copy contacts to local address book
 description: How to copy contacts from SuperOffice Mobile CRM to your local address book.
 author: Bergfrid Dias
-so.date: 07.24.2023
+date: 07.24.2023
 keywords: mobile, contact, email, SMS, address, contact, person
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Copy contacts to local address book

@@ -3,9 +3,9 @@ uid: help-da-email-inbox-compose
 title: Skrivning af e-mail
 description: Skrivning af mail
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

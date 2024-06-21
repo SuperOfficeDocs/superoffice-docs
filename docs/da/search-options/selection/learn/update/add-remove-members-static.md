@@ -3,9 +3,9 @@ uid: help-da-selection-static-members
 title: Tilføj og fjern medlemmer i statiske udvalg
 description: Sådan vedligeholdes medlemmer i statiske udvalg.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: selection, medlem
-so.topic: howto
+topic: howto
 language: da
 ---
 

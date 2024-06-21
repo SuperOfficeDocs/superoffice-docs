@@ -4,8 +4,8 @@ uid: services_soap_error_codes
 description: Services SOAP interface error codes
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # Error codes

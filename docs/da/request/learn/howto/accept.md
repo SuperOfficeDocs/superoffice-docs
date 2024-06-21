@@ -3,11 +3,11 @@ uid: help-da-request-accept
 title: Overtag ansvaret for sager
 description: Overtag ansvaret for sager
 author: SuperOffice RnD
-so.date: 02.13.2023
+date: 02.13.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

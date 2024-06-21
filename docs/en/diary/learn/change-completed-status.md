@@ -3,10 +3,10 @@ uid: help-en-activity-completed
 title: Change Completed status of an activity
 description: Change Completed status of an activity
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: diary, follow-up, completed
-so.topic: howto
+topic: howto
 language: en
 ---
 

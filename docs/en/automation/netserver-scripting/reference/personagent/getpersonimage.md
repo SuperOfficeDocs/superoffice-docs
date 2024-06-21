@@ -2,10 +2,10 @@
 uid: personagent-getpersonimage
 title: PersonAgent.GetPersonImage event method
 description: Scripting events called on the GetPersonImage method on the PersonAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PersonAgent.GetPersonImage
 

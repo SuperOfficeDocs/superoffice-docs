@@ -2,10 +2,10 @@
 uid: workflowagent-updateformsubmissions
 title: WorkflowAgent.UpdateFormSubmissions event method
 description: Scripting events called on the UpdateFormSubmissions method on the WorkflowAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WorkflowAgent.UpdateFormSubmissions
 

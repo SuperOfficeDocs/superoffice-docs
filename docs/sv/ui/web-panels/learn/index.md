@@ -3,9 +3,9 @@ uid: help-sv-ui-web-panels
 title: Webbpaneler
 description: Webbpaneler
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: webbpanel
-so.topic: concept
+topic: concept
 language: sv
 ---
 

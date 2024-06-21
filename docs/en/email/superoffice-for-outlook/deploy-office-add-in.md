@@ -4,9 +4,9 @@ uid: deploy_superoffice_for_outlook
 description: Deploy SuperOffice for Outlook for user
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Deploy in your own Outlook

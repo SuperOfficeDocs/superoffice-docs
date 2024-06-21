@@ -3,9 +3,9 @@ uid: ChatConversationStaticSelectionV2
 title: ChatConversationStaticSelectionV2
 description: 
 keywords: ChatConversationStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ChatConversationStaticSelectionV2"

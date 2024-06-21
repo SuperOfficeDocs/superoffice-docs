@@ -3,10 +3,10 @@ uid: help-no-video-meetings
 title: Arbeide med videomøter
 description: Lær hvordan du oppretter og blir med i et videomøte i SuperOffice her.
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: dagbok, oppfølging, videomøte
-so.topic: howto
+topic: howto
 language: no
 ---
 

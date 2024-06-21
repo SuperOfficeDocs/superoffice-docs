@@ -3,9 +3,9 @@ uid: help-nl-erp-connect
 title: Verbinding maken met ERP
 description: Verbinding maken met ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: nl
 ---
 

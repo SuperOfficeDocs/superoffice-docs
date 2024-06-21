@@ -3,9 +3,9 @@ uid: TicketSelectionV2
 title: TicketSelectionV2
 description: This is the archive Provider for the Selection ticket archive.
 keywords: TicketSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketSelectionV2"

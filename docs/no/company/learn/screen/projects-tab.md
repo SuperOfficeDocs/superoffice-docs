@@ -3,9 +3,9 @@ uid: help-no-company-screen-projects
 title: Prosjekter-fane
 description: Prosjekter-fane
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: no
 ---
 

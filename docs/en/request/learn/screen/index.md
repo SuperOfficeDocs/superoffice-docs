@@ -3,11 +3,11 @@ uid: help-en-request-screen
 title: Request screen
 description: Request screen
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: request
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

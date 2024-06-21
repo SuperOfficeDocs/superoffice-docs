@@ -1,8 +1,8 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 10.20.2021
+date: 10.20.2021
 keywords: dashboard, tile, language
-so.version: 10
+version: 10
 ---
 
 # New and improved Core CRM

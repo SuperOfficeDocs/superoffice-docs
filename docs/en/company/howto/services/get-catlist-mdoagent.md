@@ -3,11 +3,11 @@ title: Get a CategoryList using the MDO Agent
 uid: get_category_list_mdoagent
 description: Get a CategoryList through the MDO Agent
 author: {github-id}
-so.date: 
+date: 
 keywords: category, MDO agent
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get a CategoryList using the MDO Agent

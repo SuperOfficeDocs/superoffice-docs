@@ -3,9 +3,9 @@ uid: help-nl-contact-screen
 title: In het scherm Persoon
 description: In het scherm Persoon
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: reference
+topic: reference
 language: nl
 ---
 

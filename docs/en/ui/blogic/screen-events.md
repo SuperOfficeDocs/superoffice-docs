@@ -3,9 +3,9 @@ title: Screen events and hook scripts
 uid: screen_events
 description: Screen events and hook scripts
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Screen events and hook scripts

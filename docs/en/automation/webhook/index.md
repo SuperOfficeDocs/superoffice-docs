@@ -2,9 +2,9 @@
 title: Webhooks
 description: SuperOffice Webhooks
 author:
-so.date: 10.26.2021
+date: 10.26.2021
 keywords: automation, webhook
-so.topic: concept
+topic: concept
 ---
 
 # SuperOffice Webhooks

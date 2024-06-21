@@ -4,8 +4,8 @@ uid: crmscript_intro
 description: About CRMScripts
 author: {github-id}
 keywords:
-so.topic: concept
-so.date:
+topic: concept
+date:
 ---
 
 # About CRMScripts

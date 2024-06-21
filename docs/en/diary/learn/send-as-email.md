@@ -3,9 +3,9 @@ uid: help-en-follow-up-send
 title: Sending follow-ups
 description: Sending follow-ups
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: diary, follow-up
-so.topic: howto
+topic: howto
 language: en
 ---
 

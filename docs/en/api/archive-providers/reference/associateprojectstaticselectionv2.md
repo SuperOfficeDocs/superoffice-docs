@@ -3,9 +3,9 @@ uid: AssociateProjectStaticSelectionV2
 title: AssociateProjectStaticSelectionV2
 description: 
 keywords: AssociateProjectStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AssociateProjectStaticSelectionV2"

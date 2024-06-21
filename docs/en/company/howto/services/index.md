@@ -3,9 +3,9 @@ title: Contact - services
 uid: api_contact_services
 description: Working with companies (contact) in API with services.
 author: Bergfrid Skaara Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: contact, company, services, API
-so.topic: howto
+topic: howto
 ---
 
 # Contact - services

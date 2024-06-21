@@ -3,9 +3,9 @@ uid: help-de-selection-static
 title: Statische Selektionen
 description: Statische Selektionen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion, statisch
-so.topic: concept
+topic: concept
 language: de
 ---
 

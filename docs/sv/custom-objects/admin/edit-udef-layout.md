@@ -3,12 +3,12 @@ uid: help-sv-udef-layout
 title: Anpassa användargränssnitt
 description: Anpassa användargränssnitt
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
+date: 01.29.2024
+version: 10
 keywords: udef, anpassa fält
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

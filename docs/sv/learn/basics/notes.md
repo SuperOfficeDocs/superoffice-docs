@@ -3,9 +3,9 @@ uid: help-sv-notes
 title: Anteckna
 description: Anteckna
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: anteckning, anteckningsblock
-so.topic: howto
+topic: howto
 language: sv
 ---
 

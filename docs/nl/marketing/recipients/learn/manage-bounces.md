@@ -4,12 +4,12 @@ title: Geblokkeerde e-mailadressen
 description: Leer hoe u teruggestuurde e-mails kunt verwerken in deze handleiding.
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Retourneringen beheren

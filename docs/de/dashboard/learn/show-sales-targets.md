@@ -3,9 +3,9 @@ uid: help-de-dashboard-tile-sales-targets
 title: Verwenden von Vertriebszielen in Kacheln
 description: "Verwenden Sie Dashboards und Kacheln, um Ihre Verkaufsziele mit Ihren tatsächlichen Verkäufen zu vergleichen."
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: Dashboard, Verkauf, Ziel, Diagramm
-so.topic: howto
+topic: howto
 language: de
 ---
 

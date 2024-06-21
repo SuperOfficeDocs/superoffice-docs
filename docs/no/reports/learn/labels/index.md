@@ -3,9 +3,9 @@ uid: help-no-report-labels
 title: Rapport etiketter
 description: Rapport etiketter
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: report, label, format, PDF
-so.topic: howto
+topic: howto
 language: no
 ---
 

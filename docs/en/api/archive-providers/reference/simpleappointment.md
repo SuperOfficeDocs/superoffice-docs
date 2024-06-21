@@ -3,9 +3,9 @@ uid: SimpleAppointment
 title: SimpleAppointment
 description: 
 keywords: SimpleAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SimpleAppointment"

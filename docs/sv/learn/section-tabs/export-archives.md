@@ -3,9 +3,9 @@ uid: help-sv-section-tab-export
 title: Exportera arkiv
 description: Exportera arkiv
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: detaljkort, arkiv
-so.topic: howto
+topic: howto
 language: sv
 ---
 

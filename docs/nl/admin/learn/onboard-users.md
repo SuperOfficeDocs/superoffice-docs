@@ -3,9 +3,9 @@ uid: help-nl-admin-onboard
 title: Overzicht
 description: Inleiding tot het beheer van SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: beheerder, Instellingen en onderhoud
-so.topic: howto
+topic: howto
 language: nl
 ---
 # Krijg uw gebruikers aan boord

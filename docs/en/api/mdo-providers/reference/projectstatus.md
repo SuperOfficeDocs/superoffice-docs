@@ -3,9 +3,9 @@ uid: projectstatus
 title: projectstatus
 keywords: mdoprovider mdo provider projectstatus
 description: List of project guide steps status values.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "projectstatus" MDO List

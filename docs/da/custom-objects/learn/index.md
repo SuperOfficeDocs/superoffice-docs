@@ -3,13 +3,13 @@ uid: help-da-custom-objects
 title: Brugerdefinerede objekter og felter
 description: Brugerdefinerede objekter
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
+date: 01.29.2024
+version: 10
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
-so.topic: concept
+topic: concept
 language: da
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+audience: user
+audience_tooltip: SuperOffice CRM
 ---
 
 # Brugerdefinerede objekterog felter

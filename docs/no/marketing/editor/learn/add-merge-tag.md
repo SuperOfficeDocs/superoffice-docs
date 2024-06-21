@@ -4,12 +4,12 @@ title: Legge til flettefelt i meldingen
 description: Finn ut hvordan du legger til flettefelt i utsendelsen
 keywords: Markedsføring, flettefelt, utsendelsen
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: howto
+date: 02.06.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Legge til flettefelt i meldingen

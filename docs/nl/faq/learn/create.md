@@ -3,11 +3,11 @@ uid: help-nl-faq-create
 title: Items in Veelgestelde vragen maken
 description: Items in Veelgestelde vragen maken
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Veelgestelde vragen
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

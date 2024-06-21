@@ -3,9 +3,9 @@ uid: Numbers
 title: Numbers
 description: Archive provider for the list of userpreferences
 keywords: Numbers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Numbers"

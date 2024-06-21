@@ -3,9 +3,9 @@ title: Dealing with customer-specific product codes
 uid: quote_scenario_cust_product_codes
 description: Quote connector scenario - dealing with customer-specific product codes
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: guide
+topic: guide
 ---
 
 # Dealing with customer-specific product codes

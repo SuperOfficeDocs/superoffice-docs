@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_loops_while
 title: Loops - while
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Loops - while

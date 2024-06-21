@@ -3,11 +3,11 @@ title: Quote webhook events
 uid: webhook_quote_event
 description: Quote events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Quote webhook events

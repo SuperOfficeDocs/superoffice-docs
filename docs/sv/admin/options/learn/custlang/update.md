@@ -3,9 +3,9 @@ uid: help-sv-languages-add
 title: Arbeta med kundspråk
 description: Den här guiden beskriver hur du konfigurerar kundspråk.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: språk
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -4,11 +4,11 @@ title: Screen designer
 description: Introduction to the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 06.11.2024
+version: 10.3.7
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # The Screen Designer

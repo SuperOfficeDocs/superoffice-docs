@@ -3,9 +3,9 @@ uid: help-da-mass-delete
 title: Masseslet poster (permanent)
 description: "I overensstemmelse med GDPR-kravene skal du have et retsgrundlag for at gemme data fra alle dine personer. Og når du ikke længere har et retsgrundlag for at gøre det, skal du fjerne deres data fra alle dine systemer."
 author: Bergfrid Dias
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection, GDPR
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,11 +3,11 @@ uid: help-de-deleting-role
 title: Rolle löschen
 description: Rolle löschen
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: Benutzerverwaltung, Rolle
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

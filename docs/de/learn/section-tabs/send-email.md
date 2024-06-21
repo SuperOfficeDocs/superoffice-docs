@@ -3,12 +3,12 @@ uid: help-de-activity-send-email
 title: "E-Mail antworten oder weiterleiten"
 description: "E-Mail antworten oder weiterleiten"
 author: Bergfrid Dias
-so.date: 09.21.2023
+date: 09.21.2023
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # E-Mail antworten oder weiterleiten

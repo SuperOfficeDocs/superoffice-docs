@@ -3,11 +3,11 @@ uid: help-nl-mailbox-folder
 title: Mappen met e-mailadressen beheren
 description: Mappen met e-mailadressen beheren
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

@@ -2,11 +2,11 @@
 title: build-custom-rest-api-methods
 description: Building custom REST API methods using CRMScript
 author: Frode Lillerud
-so.date: 10.17.2017
+date: 10.17.2017
 keywords: 
-so.topic: howto
-so.envir:
-so.client:
+topic: howto
+envir:
+client:
 ---
 
 # Building custom REST API methods using CRMScript

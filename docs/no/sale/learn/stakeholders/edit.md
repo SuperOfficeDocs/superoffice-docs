@@ -3,9 +3,9 @@ uid: help-no-sale-stakeholder-edit
 title: Redigere interessenter
 description: Slik redigerer eller fjerner du interessenter i et salg i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: howto
+topic: howto
 language: no
 ---
 

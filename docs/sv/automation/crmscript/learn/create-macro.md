@@ -3,11 +3,11 @@ uid: help-sv-automation-macro-create
 title: Skapa ett makro – exempel från SuperOffice
 description: Exempel på hur du skapar ett makro i SuperOffice.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: skript, makro
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

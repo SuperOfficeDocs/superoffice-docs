@@ -3,9 +3,9 @@ uid: help-da-dashboard-tiles
 title: Arbejde med ruder
 description: "I denne vejledning lærer du, hvordan du får adgang til oplysningerne i dit dashboard, så du bedre kan få et klart overblik og prioritere dine næste skridt."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

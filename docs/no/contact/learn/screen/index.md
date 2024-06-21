@@ -3,9 +3,9 @@ uid: help-no-contact-screen
 title: Person-bildet
 description: Person-bildet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, person
-so.topic: reference
+topic: reference
 language: no
 ---
 

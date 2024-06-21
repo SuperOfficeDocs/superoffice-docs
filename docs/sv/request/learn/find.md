@@ -3,11 +3,11 @@ uid: help-sv-request-find
 title: Söka efter ett ärende
 description: I den här guiden förklarar vi hur du söker efter ärenden i SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende, söka, sök
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

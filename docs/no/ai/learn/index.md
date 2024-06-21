@@ -3,9 +3,9 @@ uid: help-no-ai
 title: AI-tjenester
 description: AI-tjenester
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: AI
-so.topic: concept
+topic: concept
 language: no
 ---
 

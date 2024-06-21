@@ -3,9 +3,9 @@ uid: help-sv-ui-side-panel
 title: Använd sidopanelen för att arbeta mer effektivt
 description: Med sidopanelen kan du komma åt information som lagras i andra delar av SuperOffice CRM utan att lämna skärmen du befinner dig på.
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: sidopanel
-so.topic: concept
+topic: concept
 language: sv
 ---
 

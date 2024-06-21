@@ -4,13 +4,13 @@ title: Flödeskontroll - delning
 description: Flödeskontroll - delning
 keywords: flöde, flödeskontroll, dela flöde, dela, delning, delningssteg, gren, grenvillkor, segmentera, alla andra, utträdesvillkor, differentiera
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.14.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.14.2024
+version: 10.3.7
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flödeskontroll - delning

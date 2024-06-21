@@ -3,9 +3,9 @@ uid: help-da-diary-other
 title: Se en anden dagbog
 description: Se andres dagbog.
 author: Bergfrid Dias
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: dagbog, opfølgning, ressource, ejer
-so.topic: howto
+topic: howto
 language: da
 ---
 

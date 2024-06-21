@@ -3,9 +3,9 @@ uid: help-nl-selection-send-email
 title: E-mail tegelijkertijd verzenden naar verschillende ontvangers
 description: E-mail tegelijkertijd verzenden naar verschillende ontvangers
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie, e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

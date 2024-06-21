@@ -3,9 +3,9 @@ uid: help-de-view-followups-and-documents
 title: Folgeaufgaben und Dokumente anzeigen
 description: Folgeaufgaben und Dokumente anzeigen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: de
 ---
 

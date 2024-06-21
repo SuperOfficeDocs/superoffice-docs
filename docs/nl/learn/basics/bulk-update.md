@@ -3,9 +3,9 @@ uid: help-nl-bulk-update
 title: Bulksgewijs bijwerken
 description: Bulksgewijs bijwerken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bulkgewijs bijwerken
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -2,10 +2,10 @@
 uid: preferenceagent-getall
 title: PreferenceAgent.GetAll event method
 description: Scripting events called on the GetAll method on the PreferenceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PreferenceAgent.GetAll
 

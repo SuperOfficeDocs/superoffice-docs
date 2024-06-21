@@ -3,9 +3,9 @@ uid: Relation
 title: Relation
 description: Data provider class for the 'Relation' archive under the company card. This class combines output from
 keywords: Relation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Relation"

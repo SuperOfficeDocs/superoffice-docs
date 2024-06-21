@@ -3,9 +3,9 @@ title: PluginResponseInfo
 uid: quote_connector_carrier_pluginresponseinfo
 description: ERP Quote Connector Interface data carrier - PluginResponseInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # PluginResponseInfo

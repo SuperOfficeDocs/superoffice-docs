@@ -3,11 +3,11 @@ uid: help-sv-project-status-add
 title: Lägg till en projektstatus
 description: Så lägger du till en projektstatus i SuperOffice.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: projekt
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-fastsearcher-navigator
 title: De functie Snel zoeken gebruiken in de navigator
 description: De functie Snel zoeken gebruiken 
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: zoeken, Snel zoeken, navigator
-so.topic: howto
+topic: howto
 language: nl
 ---
 

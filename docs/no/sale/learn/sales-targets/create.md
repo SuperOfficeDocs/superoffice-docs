@@ -3,9 +3,9 @@ uid: help-no-sales-targets-create
 title: Sett opp salgsmål
 description: "Hold oversikt over budsjettene dine ved å sette opp salgsmål. Dette vil hjelpe deg med å fastsette de riktige forventningene, planlegge veksten din, øke motivasjonen og spare tid."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: howto
+topic: howto
 language: no
 ---
 

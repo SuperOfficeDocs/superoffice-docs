@@ -2,10 +2,10 @@
 uid: table-target_dimension
 title: target_dimension table
 description: Defining target dimension
-so.generated: true
+generated: true
 keywords: database table target_dimension
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # target\_dimension Table (507)

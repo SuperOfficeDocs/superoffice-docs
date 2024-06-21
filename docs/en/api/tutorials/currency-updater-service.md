@@ -3,9 +3,9 @@ title: Currency updater service
 uid: currency_updater_service
 description: Currency updater service
 author: {github-id}
-so.date: 
+date: 
 keywords: 
-so.topic: tutorial 
+topic: tutorial 
 ---
 
 # Currency updater service

@@ -3,11 +3,11 @@ uid: help-nl-adding-external-applications-to-application-list
 title: Externe toepassingen toevoegen aan de lijst Toepassing
 description: Externe toepassingen toevoegen aan de lijst Toepassing
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: lijst
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

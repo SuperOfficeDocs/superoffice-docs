@@ -3,9 +3,9 @@ title: System integration
 uid: foreign_keys_integration
 description: Foreign keys integration
 author:
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: database, ERP, foreignapp, FK
-so.topic: concept
+topic: concept
 ---
 
 # System integration

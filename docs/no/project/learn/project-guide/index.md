@@ -3,9 +3,9 @@ uid: help-no-project-guide
 title: Prosjektguide
 description: Introduksjon til prosjektguider i SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: prosjekt, guide, arbeidsflyt
-so.topic: concept
+topic: concept
 language: no
 ---
 

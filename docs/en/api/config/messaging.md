@@ -2,11 +2,11 @@
 title: Messaging element
 uid: ns_config_messaging
 description: NetServer configuration values for SuperOffice.CRM.Messaging and the SoMessaging.dll.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperOffice.CRM.Messaging, SoMessaging.dll, Messaging, BrokerAutoAliveMessage, BrokerBroadcastAddress, BrokerBroadcastPort, BrokerExternalListening, BrokerInternalListening, ClientAutoAliveMessage, ClientAutoCreateBroker, ClientBroadcastAddress, ClientBroadcastPort, ClientListening, MessagingSoAuthentication, MessagingSoPassword, MessagingSoUser
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Messaging element

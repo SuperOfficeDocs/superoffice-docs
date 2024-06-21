@@ -3,9 +3,9 @@ uid: help-sv-automation-script-create
 title: Skapa skript
 description: Skapa skript
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: skript, makro
-so.topic: howto
+topic: howto
 language: sv
 ---
 

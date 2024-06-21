@@ -3,9 +3,9 @@ uid: help-da-languages-add
 title: Arbejde med kundesprog
 description: "Få mere at vide om i denne guide, hvordan du konfigurerer kundesprog."
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sprog
-so.topic: howto
+topic: howto
 language: da
 ---
 

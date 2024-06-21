@@ -3,11 +3,11 @@ uid: help-da-add-items-to-mailing-domain
 title: Tilføjelse af forekomster til Udsendelsesdomæner
 description: Tilføjelse af forekomster til listen Udsendelsesdomæner
 author: Hanne Gunnarsson
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: udsendelse, domæne, SPF
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-adding-user-defined-lists
 title: Adding user-defined lists
 description: Adding user-defined lists
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

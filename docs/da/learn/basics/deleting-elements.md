@@ -3,9 +3,9 @@ uid: help-da-basics-delete
 title: Sletning af elementer
 description: "Sådan flettes, slettes og gendannes elementer."
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: slette, genoprette, papirkurv
-so.topic: howto
+topic: howto
 language: da
 ---
 

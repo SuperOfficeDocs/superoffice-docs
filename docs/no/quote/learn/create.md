@@ -3,9 +3,9 @@ uid: help-no-quote-create
 title: Opprette tilbud
 description: "I denne veiledningen lærer du hvordan du oppretter et tilbud, legger til og redigerer et produkt i tilbudet og hvordan du sender et tilbud."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

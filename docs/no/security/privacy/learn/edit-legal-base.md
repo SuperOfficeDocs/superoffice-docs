@@ -3,9 +3,9 @@ uid: help-no-edit-legal-base
 title: Rediger juridisk grunnlag
 description: I denne veiledningen lærer du om GDPR-funksjonene i SuperOffice Marketing som hjelper deg med å sørge for at markedsføringstiltakene dine er GDPR-kompatible.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: personvern, samtykke, hjemmel
-so.topic: howto
+topic: howto
 language: no
 ---
 

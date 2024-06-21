@@ -3,9 +3,9 @@ uid: help-nl-grouping-items-under-headings
 title: Items groeperen onder kopteksten
 description: Items groeperen onder kopteksten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

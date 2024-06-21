@@ -3,9 +3,9 @@ uid: help-nl-selection-combine
 title: Gecombineerde selectie maken
 description: In deze instructie leert u hoe u een gecombineerde selectie kunt maken.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

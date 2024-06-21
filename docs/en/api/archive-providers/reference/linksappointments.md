@@ -3,9 +3,9 @@ uid: LinksAppointments
 title: LinksAppointments
 description: Link data provider for appointments, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksAppointments archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "LinksAppointments"

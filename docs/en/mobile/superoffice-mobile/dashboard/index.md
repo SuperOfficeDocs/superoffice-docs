@@ -3,12 +3,12 @@ uid: mobile-crm-dashboard
 title: Dashboard
 description: Learn about working with dashboards in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.02.2023
+date: 08.02.2023
 keywords: mobile, dashboard
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Dashboard ![icon][img5]

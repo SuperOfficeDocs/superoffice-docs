@@ -3,9 +3,9 @@ uid: help-de-dashboard-tiles
 title: Arbeiten mit Kacheln
 description: "In dieser Anleitung lernen Sie, wie Sie auf die Information in Ihrem Dashboard zugreifen können, damit Sie sich einen klaren Überblick verschaffen und die Prioritäten für Ihre nächsten Schritte besser setzen können."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

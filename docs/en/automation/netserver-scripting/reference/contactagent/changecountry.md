@@ -2,10 +2,10 @@
 uid: contactagent-changecountry
 title: ContactAgent.ChangeCountry event method
 description: Scripting events called on the ChangeCountry method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.ChangeCountry
 

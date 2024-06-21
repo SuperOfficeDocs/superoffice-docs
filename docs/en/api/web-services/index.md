@@ -3,11 +3,11 @@ uid: netserver-web-services-overview
 title: NetServer web services
 description: "The SuperOffice web services are the highest level for working with NetServer."
 author: Bergfrid Dias, AnthonyYates
-so.date: 03.28.2022
+date: 03.28.2022
 keywords: API, web services, endpoints, proxy, NetServer, SOAP, REST, Agent, SuperOffice.CRM.Services, DTO, carrier
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web
+topic: concept
+envir: cloud, onsite
+client: win, web
 ---
 
 # Web services

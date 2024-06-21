@@ -3,11 +3,11 @@ uid: help-en-user-change-plan
 title: Change user plans for active users
 description: In this how-to guide, you will learn how to change a user plan for active users.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user, associate
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

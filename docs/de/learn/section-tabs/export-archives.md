@@ -3,9 +3,9 @@ uid: help-de-section-tab-export
 title: Archive exportieren
 description: Archive exportieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Bereichsregisterkarte, Archiv
-so.topic: howto
+topic: howto
 language: de
 ---
 

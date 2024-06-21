@@ -3,9 +3,9 @@ uid: help-no-mail-link-add-attachment
 title:  Legg til SuperOffice-dokument som vedlegg
 description: Legg til SuperOffice-dokument som vedlegg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

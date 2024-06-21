@@ -4,7 +4,7 @@ uid: reset_password
 description: Reset password
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Reset password

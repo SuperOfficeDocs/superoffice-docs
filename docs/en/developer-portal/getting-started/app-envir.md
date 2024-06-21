@@ -3,11 +3,11 @@ title: Application environment
 uid: app-envir
 description: About application environments
 author: Tony Yates
-so.date: 05.19.2022
+date: 05.19.2022
 keywords: sod, stage, environment, maintenance window
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Application environments

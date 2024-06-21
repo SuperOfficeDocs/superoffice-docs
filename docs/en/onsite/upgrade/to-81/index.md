@@ -4,9 +4,9 @@ uid: upgrade_to_81
 description: Upgrade to 8.1
 author: {github-id}
 keywords: upgrade
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Upgrade to SuperOffice 8.1 or newer

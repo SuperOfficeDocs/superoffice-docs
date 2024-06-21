@@ -3,9 +3,9 @@ uid: ContactPersonStaticSelectionV2
 title: ContactPersonStaticSelectionV2
 description: 
 keywords: ContactPersonStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ContactPersonStaticSelectionV2"

@@ -3,11 +3,11 @@ uid: help-sv-adding-items-to-web-panel-list
 title: Lägga till poster i listan Webbpanel
 description: Lägga till poster i listan Webbpanel
 author: SuperOffice RnD
-so.date: 01.20.2023
+date: 01.20.2023
 keywords: lista, webbpanel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

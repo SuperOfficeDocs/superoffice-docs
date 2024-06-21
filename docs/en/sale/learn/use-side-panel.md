@@ -3,10 +3,10 @@ title: How to use the side-panel in sales
 uid: help-en-sale-side-panel
 description: How to use the side panel efficiently for sales
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: sale, side-panel, selection
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-chat-create-quick-reply
 title: Opprette et hurtigsvar
 description: Opprette et hurtigsvar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -4,11 +4,11 @@ title: Introduction to flow APIs
 description: Introduction to working with Flows through the API
 keywords: flow, EmailFlow
 author: Eivind Fasting
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: concept
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 05.24.2024
+version: 10.3.5
+topic: concept
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Introduction to working with flows through the APIs

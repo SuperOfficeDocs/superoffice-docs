@@ -4,7 +4,7 @@ uid: pref_filter
 description: Preference section Filter
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Filter

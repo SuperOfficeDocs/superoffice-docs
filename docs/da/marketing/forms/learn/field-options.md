@@ -4,12 +4,12 @@ title: Feltindstillinger
 description: Feltindstillinger
 keywords: formular, felt, formularelementer, reCAPTCHA
 author: SuperOffice RnD
-so.date: 03.11.2024
-so.version: 10
-so.topic: reference
+date: 03.11.2024
+version: 10
+topic: reference
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Feltindstillinger

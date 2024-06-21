@@ -3,9 +3,9 @@ uid: help-de-using-status-monitors-in-dynamic-selections
 title: Statuskontrolle in dynamischer Selektion verwenden
 description: Statuskontrolle in dynamischer Selektion verwenden
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: help
+topic: help
 language: de
 ---
 

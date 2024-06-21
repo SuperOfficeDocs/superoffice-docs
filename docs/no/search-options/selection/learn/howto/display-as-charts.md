@@ -3,9 +3,9 @@ uid: help-no-selection-display-as-charts
 title: Visualiser utvalg med diagrammer
 description: "Når du har opprettet et utvalg, kan du vise resultatene visuelt for en mer umiddelbar forståelse av dataene. Denne veiledningen viser deg hvordan du visualiserer valg ved hjelp av diagrammer i SuperOffice CRM."
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: utvalg, diagram
-so.topic: howto
+topic: howto
 language: no
 ---
 

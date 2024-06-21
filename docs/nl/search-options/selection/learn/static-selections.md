@@ -3,9 +3,9 @@ uid: help-nl-selection-static
 title: Statische selecties
 description: Statische selecties
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie, statisch
-so.topic: concept
+topic: concept
 language: nl
 ---
 

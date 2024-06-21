@@ -3,9 +3,9 @@ uid: help-nl-generate-personal-data-report
 title: Rapport met persoonlijke gegevens genereren
 description: Rapport met persoonlijke gegevens genereren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
 ---
 

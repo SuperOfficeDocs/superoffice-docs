@@ -3,9 +3,9 @@ uid: help-en-document-lock
 title: Check in/out documents
 description: Check in/out documents
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: document
-so.topic: howto
+topic: howto
 language: en
 ---
 

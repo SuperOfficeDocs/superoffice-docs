@@ -3,9 +3,9 @@ uid: help-sv-add-items-to-country-list
 title: Lägg till poster i listan Land
 description: Lägg till poster i listan Land
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-dashboard-tile-edit
 title: Redigering af rude
 description: Redigering af rude
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

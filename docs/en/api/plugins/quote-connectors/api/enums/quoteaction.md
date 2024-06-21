@@ -3,9 +3,9 @@ title: QuoteAction
 uid: quote_connector_enum_quoteaction
 description: ERP Quote Connector Interface enum - QuoteAction
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # QuoteAction

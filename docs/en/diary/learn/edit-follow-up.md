@@ -3,10 +3,10 @@ uid: help-en-follow-up-edit
 title: Edit follow-up
 description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+date: 11.20.2023
+version: 10.2.11
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
-so.topic: howto
+topic: howto
 language: en
 ---
 

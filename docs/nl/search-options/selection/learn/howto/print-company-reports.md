@@ -3,9 +3,9 @@ uid: help-nl-selection-print-company-reports
 title: Bedrijfsrapporten afdrukken
 description: Bedrijfsrapporten afdrukken
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

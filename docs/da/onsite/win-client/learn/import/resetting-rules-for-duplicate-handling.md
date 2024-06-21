@@ -3,12 +3,12 @@ uid: help-da-resetting-rules-for-duplicate-handling
 title: Nulstiller regler for dublethåndtering
 description: Nulstiller regler for dublethåndtering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Nulstil en eller alle regler for dublethåndtering

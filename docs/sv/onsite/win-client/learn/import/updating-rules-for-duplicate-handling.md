@@ -3,12 +3,12 @@ uid: help-sv-updating-rules-for-duplicate-handling
 title: Uppdatera regler för hantering av dubbletter
 description: Uppdatera regler för hantering av dubbletter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar för Windows-klient
-so.topic: help
+topic: help
 language: sv
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Uppdateringsregler för hantering av dubbletter

@@ -3,9 +3,9 @@ uid: help-en-privacy
 title: Privacy
 description: privacy
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: privacy, GDPR, e-marketing, consent
-so.topic: concept
+topic: concept
 language: en
 ---
 

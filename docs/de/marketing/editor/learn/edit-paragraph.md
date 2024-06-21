@@ -4,12 +4,12 @@ title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: howto
+date: 02.06.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Inhalt bearbeiten

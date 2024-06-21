@@ -3,11 +3,11 @@ title: Get the CategoryList through SODataReader
 uid: get_category_list_sodatareader
 description: Get the CategoryList through SODataReader
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: category, CategoryHeadingLinkTableInfo, CategoryList
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get the CategoryList through SODataReader

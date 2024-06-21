@@ -3,11 +3,11 @@ title: Single sign-on
 uid: configure_sso_in_iis_onsite
 description: Configure single sign-on in IIS onsite
 author: Martin Pavlas
-so.date: 04.20.2023
+date: 04.20.2023
 keywords: authentication, SSO, single sign-on, log in, IIS, Windows Authentication
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Single sign-on

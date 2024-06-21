@@ -3,11 +3,11 @@ uid: help-da-automation-folder-create
 title: Makro/scriptmappe-egenskaber
 description: Makro/scriptmappe-egenskaber
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjeneste, mappe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

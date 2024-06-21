@@ -3,11 +3,11 @@ title: Events in Entity objects
 uid: entity_events
 description: Events in Entity objects
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: hook
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Events in Entity objects

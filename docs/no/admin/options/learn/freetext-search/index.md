@@ -3,9 +3,9 @@ uid: help-no-settings-freetext-search
 title: Fritekstsøk
 description: Fritekstsøk
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: fritekst, søk
-so.topic: concept
+topic: concept
 language: no
 ---
 

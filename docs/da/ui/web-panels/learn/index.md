@@ -3,9 +3,9 @@ uid: help-da-ui-web-panels
 title: Webpaneler
 description: Webpaneler
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: webpanel
-so.topic: concept
+topic: concept
 language: da
 ---
 

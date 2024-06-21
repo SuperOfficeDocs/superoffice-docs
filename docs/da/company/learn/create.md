@@ -3,9 +3,9 @@ uid: help-da-company-create
 title: Oprettelse af nye firmaer
 description: Oprettelse af nye firmaer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

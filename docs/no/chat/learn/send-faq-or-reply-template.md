@@ -3,9 +3,9 @@ uid: help-no-chat-send-faq-or-reply-template
 title: "Sende FAQer, svarmaler og hurtigsvar i en chat"
 description: "Sende FAQer, svarmaler og hurtigsvar i en chat"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

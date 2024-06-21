@@ -2,10 +2,10 @@
 uid: selectionagent-getduplicates
 title: SelectionAgent.GetDuplicates event method
 description: Scripting events called on the GetDuplicates method on the SelectionAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SelectionAgent.GetDuplicates
 

@@ -5,7 +5,7 @@ description: "Het uitnodigen van contactpersonen voor een afspraak kan op versch
 author: Bergfrid Dias
 redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
-so.topic: howto
+topic: howto
 language: nl
 ---
 

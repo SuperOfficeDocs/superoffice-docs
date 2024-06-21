@@ -3,9 +3,9 @@ uid: help-da-marketing-add-images
 title: Tilføj billeder
 description: Tilføj billeder
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Marketing
-so.topic: help
+topic: help
 language: da
 ---
 

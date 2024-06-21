@@ -3,9 +3,9 @@ uid: DiaryActivity
 title: DiaryActivity
 description: Activity archive provider for the Diary (checklist)
 keywords: DiaryActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "DiaryActivity"

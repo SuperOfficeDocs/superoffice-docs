@@ -3,9 +3,9 @@ uid: help-sv-sale-screen-tab-guide
 title: Detaljkortet Säljguide
 description: Detaljkortet Säljguide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning, guide
-so.topic: reference
+topic: reference
 language: sv
 ---
 

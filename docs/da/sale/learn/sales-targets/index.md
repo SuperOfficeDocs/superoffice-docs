@@ -3,9 +3,9 @@ uid: help-da-sales-targets
 title: Salgsmål
 description: Muligheden for at holde styr på dine salgsmuligheder er en af nøglefunktionerne i SuperOffice CRM. Ved hjælp af vores salgsmålfunktion kan du sammenligne dit faktiske salg med dine mål.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: concept
+topic: concept
 language: da
 ---
 

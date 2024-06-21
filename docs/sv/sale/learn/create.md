@@ -3,9 +3,9 @@ uid: help-sv-sale-create
 title: Registrera en försäljning
 description: Registrera försäljning i SuperOffice Sales för att samla alla dina möjligheter och all din kundinformation på en plats. I den här guiden visar vi hur du registrerar försäljning i fyra enkla steg.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

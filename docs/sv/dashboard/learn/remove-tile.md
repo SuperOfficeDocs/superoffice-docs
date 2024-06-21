@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tile-delete
 title: Ta bort en figur
 description: Ta bort en figur från en dashboard
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

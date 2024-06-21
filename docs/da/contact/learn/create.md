@@ -3,9 +3,9 @@ uid: help-da-contact-create
 title: Opret person
 description: Sådan opretter du en ny person i SuperOffice
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

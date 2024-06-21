@@ -3,12 +3,12 @@ uid: mobile-crm-dashboard-drill-down
 title: Drill down
 description: How to drill down in a dashboard in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.02.2023
+date: 08.02.2023
 keywords: mobile, dashboard, tile, chart
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Drill down

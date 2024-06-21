@@ -4,12 +4,12 @@ title: Work with mailings
 description: Work with mailings
 keywords: Marketing, mailing
 author: SuperOffice RnD, Jeanette Small Strøm
-so.date: 02.12.2024
-so.version: 10
-so.topic: concept
+date: 02.12.2024
+version: 10
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Work with mailings

@@ -3,9 +3,9 @@ uid: help-nl-quote
 title: Werken met offerten
 description: "SuperOffice Quote is een functie waarmee u snel en nauwkeurig offertes kunt genereren, waardoor u tijd bespaart en fouten minimaliseert."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offerte
-so.topic: concept
+topic: concept
 language: nl
 ---
 

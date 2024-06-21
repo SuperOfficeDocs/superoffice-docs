@@ -3,11 +3,11 @@ uid: help-de-reply-template-find
 title: Antwortvorlagen suchen
 description: Antwortvorlagen suchen
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: Anfrage, Antwortvorlage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

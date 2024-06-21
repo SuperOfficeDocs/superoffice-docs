@@ -2,10 +2,10 @@
 uid: ticketagent-setticketmessageimportant
 title: TicketAgent.SetTicketMessageImportant event method
 description: Scripting events called on the SetTicketMessageImportant method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.SetTicketMessageImportant
 

@@ -3,11 +3,11 @@ title: Ticket table
 uid: bulkupdate_ticket_table
 description: Bulk update ticket table
 author: Bergfrid Skaara Dias
-so.date: 01.27.2022
+date: 01.27.2022
 keywords: bulk update, ticket
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 

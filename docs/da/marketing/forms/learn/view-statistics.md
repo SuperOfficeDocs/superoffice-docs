@@ -4,12 +4,12 @@ title: Sporing af formularindsendelser og visning af statistik
 description: Sporing af formularindsendelser og visning af statistik
 keywords: formular, indsendelse, formularindsendelse
 author: Bergfrid Dias
-so.date: 03.12.2024
-so.version: 10
-so.topic: howto
+date: 03.12.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Sporing af formularindsendelser og visning af statistik

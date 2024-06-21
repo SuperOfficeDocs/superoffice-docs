@@ -3,9 +3,9 @@ uid: help-en-ui-top-bar
 title: Buttons in the menu bar
 description: Buttons in the menu bar
 author: Kirsti Aakerholt
-so.date: 06.28.2023
+date: 06.28.2023
 keywords: top bar, button
-so.topic: reference
+topic: reference
 language: en
 ---
 

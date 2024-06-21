@@ -3,12 +3,12 @@ uid: help-nl-settings-soap-configure
 title: SOAP-interface configureren
 description: SOAP-interface configureren
 author: SuperOffice RnD
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: Service, SOAP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
-so.envir: onsite
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+envir: onsite
 language: nl
 ---
 

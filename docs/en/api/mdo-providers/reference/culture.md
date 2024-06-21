@@ -3,9 +3,9 @@ uid: culture
 title: culture
 keywords: mdoprovider mdo provider culture
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "culture" MDO List

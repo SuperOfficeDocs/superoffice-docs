@@ -3,11 +3,11 @@ uid: help-no-restore-status
 title: Gjenopprett slettet status-web
 description: Gjenopprett slettet status-web
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salg, SAINT
-so.topic: howto
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: admin
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

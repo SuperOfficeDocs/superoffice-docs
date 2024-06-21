@@ -3,9 +3,9 @@ uid: help-sv-customer-center-edit
 title: Kundcenter – källfiler
 description: Kundcenter – källfiler
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundcenter, CEP
-so.topic: howto
+topic: howto
 language: sv
 ---
 

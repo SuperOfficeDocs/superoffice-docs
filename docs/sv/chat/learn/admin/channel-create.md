@@ -3,11 +3,11 @@ uid: help-sv-chat-channel-create
 title: Skapa en chattkanal
 description: Skapa en chattkanal
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: chatt
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

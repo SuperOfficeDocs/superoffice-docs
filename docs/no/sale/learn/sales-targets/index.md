@@ -3,9 +3,9 @@ uid: help-no-sales-targets
 title: Salgsmål
 description: Muligheten til å holde oversikt over salgsmulighetene dine er en av de viktigste funksjonene i SuperOffice CRM. Ved hjelp av vår salgsmålsfunksjonalitet kan du sammenligne de reelle salgene dine med målene dine.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: concept
+topic: concept
 language: no
 ---
 

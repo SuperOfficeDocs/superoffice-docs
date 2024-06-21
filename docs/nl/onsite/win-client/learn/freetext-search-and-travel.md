@@ -3,12 +3,12 @@ uid: help-nl-freetext-search-and-travel
 title: Vrije-tekstzoekbewerking en Travel
 description: Vrije-tekstzoekbewerking en Travel
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Vrije-tekstzoekbewerking en Travel

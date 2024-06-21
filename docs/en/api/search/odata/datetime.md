@@ -4,8 +4,8 @@ uid: rest_api_search_datetime
 description: REST Web API search DateTime
 author: {github-id}
 keywords: search
-so.date:
-so.topic: howto
+date:
+topic: howto
 ---
 
 # DateTime

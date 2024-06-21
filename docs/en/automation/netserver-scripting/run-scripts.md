@@ -3,11 +3,11 @@ title: Three ways to deploy and run scripts
 uid: run_scripts
 description: Three ways to deploy and run scripts
 author: Tony Yates
-so.date: 04.15.2009
+date: 04.15.2009
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Three ways to deploy and run scripts

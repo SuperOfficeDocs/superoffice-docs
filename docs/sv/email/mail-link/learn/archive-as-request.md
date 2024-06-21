@@ -3,9 +3,9 @@ uid: help-sv-mail-link-archive-as-request
 title: Arkivera e-post som ärenden
 description: I den här guiden förklarar vi hur du arkiverar e-postmeddelanden som ärenden.
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-ui-extra-menu-actions
 title: Lägg till funktion i knappen Uppgift
 description: Lägg till funktion i knappen Uppgift
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: makro, uppgift, åtgärder
-so.topic: howto
+topic: howto
 language: sv
 ---
 

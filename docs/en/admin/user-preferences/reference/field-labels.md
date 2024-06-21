@@ -4,7 +4,7 @@ uid: pref_fieldlabels
 description: Preference section FieldLabels
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section FieldLabels

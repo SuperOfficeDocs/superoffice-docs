@@ -3,9 +3,9 @@ title: Quote howto
 uid: quote-howto
 description: You can work with quotes at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: quote, API
-so.topic: howto
+topic: howto
 ---
 
 # Howto

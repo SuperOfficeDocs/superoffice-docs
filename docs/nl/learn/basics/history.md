@@ -3,9 +3,9 @@ uid: help-nl-history-list
 title: De historielijst gebruiken
 description: De historielijst gebruiken
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: zoeken, historie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

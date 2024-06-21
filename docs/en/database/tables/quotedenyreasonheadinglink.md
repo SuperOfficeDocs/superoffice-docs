@@ -2,10 +2,10 @@
 uid: table-QuoteDenyReasonHeadingLink
 title: QuoteDenyReasonHeadingLink table
 description: Heading link table for QuoteDenyReason, for MDO headers
-so.generated: true
+generated: true
 keywords: database table QuoteDenyReasonHeadingLink
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # QuoteDenyReasonHeadingLink Table (530)

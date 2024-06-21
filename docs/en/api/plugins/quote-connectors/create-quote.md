@@ -3,9 +3,9 @@ title: Creating a quote
 uid: quote_connectors_create_quote
 description: How to create a quote
 author: {github-id}
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: quote, sale, product, price list, QuoteConnectorExtender
-so.topic: howto
+topic: howto
 ---
 
 # Creating a quote

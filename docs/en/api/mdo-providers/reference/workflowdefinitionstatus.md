@@ -3,9 +3,9 @@ uid: workflowdefinitionstatus
 title: workflowdefinitionstatus
 keywords: mdoprovider mdo provider workflowdefinitionstatus
 description: MDO provider for the WorkflowDefinitionStatus enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "workflowdefinitionstatus" MDO List

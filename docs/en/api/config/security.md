@@ -2,11 +2,11 @@
 title: Security element
 uid: ns_config_security
 description: NetServer configuration sections related to domain- and operational security settings.
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Security, ActiveDirectoryCredentialPlugin, Active Directory, DisableIntegration, Cryptography, SymmetricIV, SymmetricKey, SymmetricSecret, Rijndael, Sentry, SoPasswordCredentialPlugin, DisableUseExternalAssociate, DisableUseInternalAssociate, DisableUseSystemAssociate, session, PriorityInternalAssociate
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Security element

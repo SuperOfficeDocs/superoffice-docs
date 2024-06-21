@@ -2,10 +2,10 @@
 uid: documentagent-verifygetdocumentstream
 title: DocumentAgent.VerifyGetDocumentStream event method
 description: Scripting events called on the VerifyGetDocumentStream method on the DocumentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentAgent.VerifyGetDocumentStream
 

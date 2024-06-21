@@ -3,11 +3,11 @@ uid: help-en-reply-template-copy
 title: Copy reply templates
 description: Copy reply templates
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request, reply
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

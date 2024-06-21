@@ -2,10 +2,10 @@
 uid: saleagent-getsalestakeholders
 title: SaleAgent.GetSaleStakeholders event method
 description: Scripting events called on the GetSaleStakeholders method on the SaleAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaleAgent.GetSaleStakeholders
 

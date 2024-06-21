@@ -3,9 +3,9 @@ uid: help-sv-quote-versions
 title:  Redigera en skickad offert (versioner)
 description:  Redigera en skickad offert (versioner)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

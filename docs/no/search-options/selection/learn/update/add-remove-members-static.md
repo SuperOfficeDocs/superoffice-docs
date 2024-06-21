@@ -3,9 +3,9 @@ uid: help-no-selection-static-members
 title: Legg til og fjern medlemmer i statiske utvalg
 description: Slik administrerer du medlemmer i statiske utvalg.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: utvalg, medlem
-so.topic: howto
+topic: howto
 language: no
 ---
 

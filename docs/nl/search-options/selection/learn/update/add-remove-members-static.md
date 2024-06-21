@@ -3,9 +3,9 @@ uid: help-nl-selection-static-members
 title: Leden toevoegen en verwijderen in statische selecties
 description: Leden beheren in statische selecties.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: selectie, lid
-so.topic: howto
+topic: howto
 language: nl
 ---
 

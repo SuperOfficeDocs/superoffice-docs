@@ -3,9 +3,9 @@ title: QuoteVersionStateInfo
 uid: quote_connector_carrier_quoteversionstateinfo
 description: ERP Quote Connector Interface data carrier - QuoteVersionStateInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # QuoteVersionStateInfo

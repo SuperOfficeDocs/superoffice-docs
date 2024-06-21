@@ -3,9 +3,9 @@ uid: help-nl-mail-link-archive
 title: E-mails archiveren naar SuperOffice
 description: E-mails archiveren naar SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -2,10 +2,10 @@
 uid: ticketagent-mergetickets
 title: TicketAgent.MergeTickets event method
 description: Scripting events called on the MergeTickets method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.MergeTickets
 

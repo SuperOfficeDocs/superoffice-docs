@@ -4,12 +4,12 @@ title: Formulierverzendingen verwerken
 description: In deze handleiding leert u hoe u formulierverzendingen handmatig kunt verwerken.
 keywords: formulier, formulierverzending, formulierinzending, indiener, inzender, ingediend, gegevens van formulier, formuliergegevens
 author: Bergfrid Dias
-so.date: 03.19.2024
-so.version: 10
-so.topic: howto
+date: 03.19.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Formulierverzendingen verwerken

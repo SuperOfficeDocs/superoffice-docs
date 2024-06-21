@@ -3,9 +3,9 @@ uid: help-no-dashboard-tiles
 title: Arbeide med figurer
 description: "I denne guiden lærer du hvordan du får tilgang til informasjonen i dashbordet ditt, slik at du kan få en klar oversikt og prioritere de neste trinnene dine bedre."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashbord
-so.topic: howto
+topic: howto
 language: no
 ---
 

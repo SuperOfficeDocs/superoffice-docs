@@ -3,9 +3,9 @@ uid: help-en-company-screen-relations
 title: Relations tab (Company screen)
 description: Relations tab (Company screen)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company, relation
-so.topic: reference
+topic: reference
 language: en
 ---
 

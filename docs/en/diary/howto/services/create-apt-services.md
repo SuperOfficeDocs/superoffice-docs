@@ -3,11 +3,11 @@ title: Create an appointment using services
 uid: create_appointment_services
 description: Create an appointment using NetServer services
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: diary, calendar, appointment, API, web services
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create an appointment using services

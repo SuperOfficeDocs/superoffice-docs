@@ -3,11 +3,11 @@ uid: help-nl-reply-template-find
 title: Antwoordsjablonen zoeken
 description: Antwoordsjablonen zoeken
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: verzoek, antwoordsjabloon
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

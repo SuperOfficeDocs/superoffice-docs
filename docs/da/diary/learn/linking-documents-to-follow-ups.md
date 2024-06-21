@@ -3,10 +3,10 @@ uid: help-da-activity-add-link
 title: Sammenkædning af dokumenter med opfølgninger
 description: Sammenkædning af dokumenter med opfølgninger
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: CRM
-so.topic: howto
+topic: howto
 language: da
 ---
 

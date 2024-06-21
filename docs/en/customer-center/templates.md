@@ -3,11 +3,11 @@ title: Template
 uid: customer-center-template
 description: Customer center templates
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP
-so.topic: howto
-so.audience: settings
-so.envir: onsite
+topic: howto
+audience: settings
+envir: onsite
 ---
 
 # Customer center templates

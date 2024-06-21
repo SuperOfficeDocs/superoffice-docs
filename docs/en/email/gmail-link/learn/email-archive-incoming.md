@@ -3,9 +3,9 @@ uid: help-en-gmail-link-archive-incoming
 title: Archive incoming email
 description: Archive incoming email
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link, email
-so.topic: howto
+topic: howto
 language: en
 ---
 

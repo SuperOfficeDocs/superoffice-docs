@@ -3,9 +3,9 @@ uid: help-nl-sales-target-types
 title: Een verkooptargettype met subtypen instellen
 description: "Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

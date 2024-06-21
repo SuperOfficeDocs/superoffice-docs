@@ -1,9 +1,9 @@
 ---
 title: netserver-authentication-ad
 description: Active Directory
-so.date: 05.08.2018
+date: 05.08.2018
 keywords: Active Directory, AD, identity
-so.topic: concept
+topic: concept
 ---
 
 # Active Directory

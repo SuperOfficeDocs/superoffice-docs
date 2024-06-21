@@ -5,7 +5,7 @@ description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den 
 author: Bergfrid Dias
 redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: kalender, händelse, förfrågan, deltagare
-so.topic: howto
+topic: howto
 language: sv
 ---
 

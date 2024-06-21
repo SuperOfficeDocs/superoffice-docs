@@ -4,9 +4,9 @@ uid: special_tables
 description: Special tables
 author: {github-id}
 keywords: database
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Special tables in SuperOffice

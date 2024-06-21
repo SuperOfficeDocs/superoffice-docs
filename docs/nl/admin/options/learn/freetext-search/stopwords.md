@@ -3,11 +3,11 @@ uid: help-nl-stopwords
 title: Stopwoorden
 description: Stopwoorden
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: vrije tekst, zoeken, stopwoord
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

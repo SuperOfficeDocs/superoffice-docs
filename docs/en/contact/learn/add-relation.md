@@ -3,9 +3,9 @@ uid: help-en-contact-add-relation
 title: Add relations (Contact screen)
 description: Add relations (Contact screen)
 author: SuperOffice RnD
-so.date: 05.08.2023
+date: 05.08.2023
 keywords: person, contact, relation
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,12 +3,12 @@ uid: help-nl-update-database
 title: De database bijwerken
 description: De database bijwerken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Informatie in de database bijwerken

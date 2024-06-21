@@ -4,9 +4,9 @@ uid: mirroring_troubleshooting
 description: Troubleshooting Database Mirroring
 author: Anthony Yates
 keywords: database mirroring
-so.topic: how-to-guide
-so.envir: cloud
-so.client: online
+topic: how-to-guide
+envir: cloud
+client: online
 ---
 
 # Troubleshooting Database Mirroring

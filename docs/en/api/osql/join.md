@@ -3,9 +3,9 @@ title: # Joins
 uid: osql_join
 description: SuperOffice Objectified SQL - JOIN
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Joins

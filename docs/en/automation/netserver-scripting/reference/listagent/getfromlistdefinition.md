@@ -2,10 +2,10 @@
 uid: listagent-getfromlistdefinition
 title: ListAgent.GetFromListDefinition event method
 description: Scripting events called on the GetFromListDefinition method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetFromListDefinition
 

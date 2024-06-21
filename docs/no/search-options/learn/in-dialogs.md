@@ -3,9 +3,9 @@ uid: help-no-fastsearcher-dialog
 title: Fhurtigsøk i dialogbokser
 description: Hvordan bruke hurtigsøk i dialogbokser i SuperOffice
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: søk hurtigsøk, dialog
-so.topic: howto
+topic: howto
 language: no
 ---
 

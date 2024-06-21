@@ -3,9 +3,9 @@ uid: help-de-chat-create-quick-reply
 title: Schnellantwort erstellen
 description: Schnellantwort erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: de
 ---
 

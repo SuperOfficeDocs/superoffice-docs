@@ -3,11 +3,11 @@ title: Conceptual overview
 uid: mirroring_conceptual_overview_2016
 description: Conceptual overview of database mirroring
 author: Tony Yates
-so.date: 04.20.2016
+date: 04.20.2016
 keywords:
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Conceptual overview

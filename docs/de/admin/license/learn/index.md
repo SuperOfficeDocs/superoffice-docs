@@ -4,9 +4,9 @@ title: SuperOffice und Lizenzen
 description: CRM und Lizenzen
 keywords: Lizenz, Benutzerplan
 author: SuperOffice RnD
-so.date: 05.31.2024
-so.version: 10.3.5
-so.topic: concept
+date: 05.31.2024
+version: 10.3.5
+topic: concept
 language: de
 ---
 

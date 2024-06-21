@@ -3,9 +3,9 @@ uid: help-sv-dashboard-copy
 title: Duplicera en dashboard
 description: Duplicera en dashboard
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

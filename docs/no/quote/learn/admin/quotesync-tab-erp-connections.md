@@ -3,11 +3,11 @@ uid: help-no-quotesync-tab-erp-connections
 title: ERP-koblinger
 description: ERP-koblinger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: ERP, tilbud, Sync
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

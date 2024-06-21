@@ -4,9 +4,9 @@ title: SuperOffice en licenties
 description: SuperOffice en licenties
 keywords: licentie, gebruikersplan
 author: SuperOffice RnD
-so.date: 06.17.2024
-so.version: 10.3.5
-so.topic: concept
+date: 06.17.2024
+version: 10.3.5
+topic: concept
 language: nl
 ---
 

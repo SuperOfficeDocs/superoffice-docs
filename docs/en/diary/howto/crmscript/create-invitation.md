@@ -3,9 +3,9 @@ uid: crmscript-create-invitation
 title: Create invitation
 description: How to create meeting invitations with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
-so.topic: howto
+topic: howto
 ---
 
 # Create invitation

@@ -3,11 +3,11 @@ title: Get value of user-defined field
 uid: get_udef_field_value
 description: How to get the value of a user-defined field in NetServer
 author: Tony Yates
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: udef, user-defined field, custom field, API
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to get the value of a user-defined field in NetServer

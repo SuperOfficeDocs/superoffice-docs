@@ -3,11 +3,11 @@ title: Watchcom initial security evaluation
 uid: watchcom-app-evaluation
 description: About Watchcom initial security evaluation
 author: Margrethe Romnes, Watchcom
-so.date: 12.14.2023
+date: 12.14.2023
 keywords: Watchcom, security, certification
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # About Watchcom initial security evaluation

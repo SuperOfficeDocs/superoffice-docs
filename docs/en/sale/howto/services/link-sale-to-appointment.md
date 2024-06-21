@@ -3,11 +3,11 @@ title: How to link a sale to a follow-up (services)
 uid: sale-link-appointment-ws
 description: How to link a sale to a follow-up using web services.
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: sale, API, web services, AppointmentAgent, appointment, follow-up
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to link a sale to a follow-up (services)

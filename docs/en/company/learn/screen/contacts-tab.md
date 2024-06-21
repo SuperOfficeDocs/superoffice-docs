@@ -3,9 +3,9 @@ uid: help-en-company-screen-contacts
 title: Contacts tab
 description: Contacts tab
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: company
-so.topic: reference
+topic: reference
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-email-inbox-print
 title: Een e-mail afdrukken
 description: Een e-mail afdrukken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

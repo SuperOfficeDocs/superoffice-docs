@@ -3,9 +3,9 @@ uid: help-sv-saving-reports-as-files
 title: Spara rapporter som filer
 description: Spara rapporter som filer
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: sv
 ---
 

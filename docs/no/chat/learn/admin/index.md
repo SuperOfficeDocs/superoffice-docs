@@ -3,11 +3,11 @@ uid: help-no-chat-admin
 title: Chatadministrasjon
 description: Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne veiledningen viser hvordan du konfigurerer chatwidgeten og deretter legger den til på websiden din.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chat
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

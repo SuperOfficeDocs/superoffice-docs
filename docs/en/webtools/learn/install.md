@@ -3,9 +3,9 @@ uid: help-en-webtools-install
 title: Install WebTools for Windows
 description: If you are using Windows, you need WebTools to integrate your Outlook and Microsoft 365 applications with SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.04.2023
+date: 12.04.2023
 keywords: WebTools, Windows, Mail Link, Web Extensions
-so.topic: howto
+topic: howto
 language: en
 ---
 

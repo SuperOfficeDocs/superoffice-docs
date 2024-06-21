@@ -3,11 +3,11 @@ uid: help-nl-quotesync-tab-erp-connections
 title: ERP-verbindingen
 description: ERP-verbindingen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: ERP, offerte, synchroniseren
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

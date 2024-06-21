@@ -3,9 +3,9 @@ title: Select Slevel
 uid: blogic_select_slevel
 description: Select Slevel
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select Slevel

@@ -2,11 +2,11 @@
 title: Globalization element
 uid: ns_config_globalization
 description: NetServer configuration used to access the Globalization section in the config file
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Globalization, ApplicationCountryCode, AllwaysUseGsmPhoneStyle, UseApplicationCountryForPersons
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Globalization element

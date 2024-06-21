@@ -4,12 +4,12 @@ title: Add a link to display the message in a browser
 description: Add a link to display the message in a browser
 keywords: Marketing, link, mailing
 author: SuperOffice RnD
-so.date: 02.05.2024
-so.version: 10
-so.topic: howto
+date: 02.05.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Add a link to display the message in a browser

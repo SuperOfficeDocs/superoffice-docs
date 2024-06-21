@@ -3,8 +3,8 @@ title: Quote merge-field reference
 description: Quote merge-field reference
 author:
 keywords:
-so.topic: reference
-so.date:
+topic: reference
+date:
 ---
 
 # Quote merge-field reference

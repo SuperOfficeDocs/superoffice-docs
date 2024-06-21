@@ -3,11 +3,11 @@ uid: help-de-system-event-add
 title: Systemereignisse hinzufügen
 description: Systemereignisse hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Veranstaltung, Benachrichtigung
-so.topic: howto
+topic: howto
 language: de
-so.envir: onsite
+envir: onsite
 ---
 
 # Systemereignisse hinzufügen (Vor Ort)

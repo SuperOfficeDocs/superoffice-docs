@@ -3,9 +3,9 @@ uid: help-nl-email-inbox-mark-as-read
 title: E-mails markeren als gelezen of ongelezen
 description: E-mails markeren als gelezen of ongelezen
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,13 +3,13 @@ uid: help-da-our-companies-manage
 title: "Administration af 'Vores firmaer'"
 description: Sådan tilføjes og fjernes firmaer fra fanen Vores firmaer
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: user, vores firmaer
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
-so.client: web
+client: web
 ---
 
 # Administration af "Vores firmaer"

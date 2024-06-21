@@ -2,10 +2,10 @@
 uid: useragent-getuserfrompersonid
 title: UserAgent.GetUserFromPersonId event method
 description: Scripting events called on the GetUserFromPersonId method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.GetUserFromPersonId
 

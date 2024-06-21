@@ -3,11 +3,11 @@ uid: help-de-quote-admin
 title: Angebot/Sync
 description: "SuperOffice-Angebot hilft Ihnen, Angebote und Aufträge während des gesamten Auftragslebenszyklus zu erstellen, zu prüfen und zu verwalten."
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: Angebot, Sync, Verkauf
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

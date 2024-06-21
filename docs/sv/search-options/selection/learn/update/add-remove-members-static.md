@@ -3,9 +3,9 @@ uid: help-sv-selection-static-members
 title: Lägga till och ta bort medlemmar i statiska urval
 description: Hur man hanterar medlemmar i statiska urval.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: selection, deltagare
-so.topic: howto
+topic: howto
 language: sv
 ---
 

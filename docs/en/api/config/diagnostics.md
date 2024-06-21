@@ -2,11 +2,11 @@
 title: Diagnostics element
 uid: ns_config_diagnostics
 description: NetServer configuration of diagnostic logging tools.
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Diagnostics, log, CheckBrowserVersion, EnableResourceTracer, EnableScaffolding, EnableStackTracing, LogDebug, LogError, LogWarning, LogFolder, LoggedServices, LogInformation, LogWarning, LogTrace, LogToFile, LogToSuperOffice, LogServiceCalls, AppInsightInstrumentationKey, EnableQAAttributes, LogLongQueries, ShowExceptionsFromBackend
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Diagnostics element

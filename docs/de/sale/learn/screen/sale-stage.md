@@ -3,11 +3,11 @@ uid: help-de-sale-stage-admin
 title: Verkauf - Stufe
 description: Verkauf - Stufe
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Verkauf, Stufe
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

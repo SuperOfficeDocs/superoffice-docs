@@ -3,9 +3,9 @@ uid: ticketslevel
 title: ticketslevel
 keywords: mdoprovider mdo provider ticketslevel
 description: Ticket Security Level
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ticketslevel" MDO List

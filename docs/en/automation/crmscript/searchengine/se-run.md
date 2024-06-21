@@ -2,9 +2,9 @@
 uid: search_engine_run
 title: Running a query
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Running a query

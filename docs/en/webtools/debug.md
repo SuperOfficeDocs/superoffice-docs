@@ -3,10 +3,10 @@ title: Debug
 uid: webtools-debug
 description: How to debug WebTools
 author: Jostein K, Bergfrid Dias
-so.date: 01.23.2024
+date: 01.23.2024
 keywords: debug, WebTools
-so.topic: howto
-so.envir: onsite
+topic: howto
+envir: onsite
 ---
 
 # Debugging WebTools

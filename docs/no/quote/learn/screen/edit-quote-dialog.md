@@ -3,9 +3,9 @@ uid: help-no-quote-dialog-edit
 title: Dialogboksen Rediger tilbud
 description: Dialogboksen Rediger tilbud
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg, tilbud
-so.topic: reference
+topic: reference
 language: no
 ---
 

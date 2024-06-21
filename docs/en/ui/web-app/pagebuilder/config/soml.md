@@ -3,11 +3,11 @@ title: SuperOffice Markup Language (SOML)
 uid: webapp_soml
 description: SuperOffice Markup Language (SOML)
 author: Tony Yates
-so.date: 04.17.2018
+date: 04.17.2018
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # SuperOffice Markup Language (SOML)

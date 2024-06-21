@@ -3,9 +3,9 @@ uid: MailingsSelectionCombinedV2
 title: MailingsSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: MailingsSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "MailingsSelectionCombinedV2"

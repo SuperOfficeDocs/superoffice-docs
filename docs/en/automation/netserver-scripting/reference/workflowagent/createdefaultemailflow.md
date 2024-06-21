@@ -2,10 +2,10 @@
 uid: workflowagent-createdefaultemailflow
 title: WorkflowAgent.CreateDefaultEmailFlow event method
 description: Scripting events called on the CreateDefaultEmailFlow method on the WorkflowAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WorkflowAgent.CreateDefaultEmailFlow
 

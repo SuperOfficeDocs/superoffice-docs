@@ -3,9 +3,9 @@ uid: help-en-chat-link-to-person
 title: Link chat to a existing contact
 description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: en
 ---
 

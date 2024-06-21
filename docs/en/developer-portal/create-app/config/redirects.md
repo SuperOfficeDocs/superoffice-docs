@@ -3,11 +3,11 @@ title: Redirects
 uid: redirects
 description: "Learn what a redirect URL, or callback URL, is and where to set it."
 author: Bergfrid Dias, Margrethe Romnes
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: callback, redirect, endpoint
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Redirection endpoint

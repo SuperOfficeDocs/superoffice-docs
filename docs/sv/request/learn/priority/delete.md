@@ -3,11 +3,11 @@ uid: help-sv-request-priority-delete
 title: Ta bort prioritet
 description: Ta bort prioritet
 author: Hanne Gunnarsson
-so.date: 07.03.2023
+date: 07.03.2023
 keywords: ärende, prioritet
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

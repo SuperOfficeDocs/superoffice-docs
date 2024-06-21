@@ -2,9 +2,9 @@
 uid: search_engine_dot_syntax
 title: Dot-syntax
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Dot-syntax

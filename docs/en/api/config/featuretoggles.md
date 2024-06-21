@@ -2,11 +2,11 @@
 title: FeatureToggles element
 uid: ns_config_featuretoggles
 description: NetServer FeatureToggles element
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, FeatureToggles, State, feature toggles
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer FeatureToggles element

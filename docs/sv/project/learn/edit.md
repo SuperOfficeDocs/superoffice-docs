@@ -3,9 +3,9 @@ uid: help-sv-project-edit
 title: Redigera ett projekt
 description: Så här redigerar du ett projekt i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

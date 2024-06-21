@@ -3,9 +3,9 @@ uid: help-en-project-members
 title: Project members
 description: Project members
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, member
-so.topic: concept
+topic: concept
 language: en
 ---
 

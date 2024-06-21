@@ -3,9 +3,9 @@ title: AssociateCache
 uid: associate-cache
 description: AssociateCache
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: cache, list, AssociateCache
-so.topic: concept
+topic: concept
 ---
 
 # AssociateCache

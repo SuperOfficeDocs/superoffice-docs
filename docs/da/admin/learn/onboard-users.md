@@ -3,9 +3,9 @@ uid: help-da-admin-onboard
 title: Oversigt
 description: Introduktion til administration af SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Indstillinger og vedligeholdelse
-so.topic: howto
+topic: howto
 language: da
 ---
 # Få dine brugere med om bord

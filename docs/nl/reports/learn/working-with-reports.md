@@ -3,9 +3,9 @@ uid: help-nl-working-with-reports
 title: Werken met rapporten
 description: Werken met rapporten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: nl
 ---
 

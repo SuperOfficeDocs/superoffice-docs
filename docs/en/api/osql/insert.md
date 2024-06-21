@@ -3,9 +3,9 @@ title: INSERT
 uid: osql_insert
 description: SuperOffice Objectified SQL - INSERT
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # INSERT

@@ -3,9 +3,9 @@ uid: help-da-project
 title: Projekt
 description: "Denne vejledning viser dig, hvordan du opretter og bruger projekter til at holde styr på dit arbejde."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: projekt
-so.topic: concept
+topic: concept
 language: da
 ---
 

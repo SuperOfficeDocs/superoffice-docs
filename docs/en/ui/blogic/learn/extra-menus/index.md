@@ -3,11 +3,11 @@ uid: help-en-ui-extra-menu
 title: Extra menus
 description: Extra menus in the SuperOffice UI
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: extra menus
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

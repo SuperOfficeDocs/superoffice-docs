@@ -3,9 +3,9 @@ uid: help-nl-customer-center-config
 title: Customer Centre-configuratie
 description: Lees in deze handleiding hoe u uw Customer Centre configureert.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Service, Klantportaal, CEP
-so.topic: howto
+topic: howto
 language: nl
 ---
 

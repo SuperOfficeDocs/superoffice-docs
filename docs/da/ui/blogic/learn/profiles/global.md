@@ -3,9 +3,9 @@ uid: help-da-service-profile-global
 title:  Globale profiler
 description:  Globale profiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, service
-so.topic: concept
+topic: concept
 language: da
 ---
 

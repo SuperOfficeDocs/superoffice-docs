@@ -3,9 +3,9 @@ uid: help-de-project-guide-working-with
 title: Mit Projektleitfäden arbeiten
 description: Mit Projektleitfäden arbeiten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Leitfaden
-so.topic: howto
+topic: howto
 language: de
 ---
 

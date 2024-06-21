@@ -3,9 +3,9 @@ uid: help-sv-quote-dialog-edit
 title: Dialogrutan Redigera offert för
 description: Dialogrutan Redigera offert för
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning, offert
-so.topic: reference
+topic: reference
 language: sv
 ---
 

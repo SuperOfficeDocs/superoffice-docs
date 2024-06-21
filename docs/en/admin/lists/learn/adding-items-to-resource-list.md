@@ -3,9 +3,9 @@ uid: help-en-adding-items-to-resource-list
 title: Adding items to the Resource list
 description: Adding items to the Resource list
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

@@ -4,12 +4,12 @@ title: Globale præferencer
 description: Globale præferencer
 keywords: præferencer, indstillinger, generelle
 author: SuperOffice RnD
-so.date: 03.22.2024
-so.version: 10
-so.topic: reference
+date: 03.22.2024
+version: 10
+topic: reference
 language: da
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Globale præferencer

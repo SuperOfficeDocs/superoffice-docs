@@ -3,9 +3,9 @@ uid: help-nl-company
 title: Bedrijven
 description: "Alle informatie met betrekking tot een bedrijf – of het nu uw klant, partner of leverancier is – wordt opgeslagen op de bedrijfskaart/het scherm in SuperOffice CRM."
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: bedrijf
-so.topic: concept
+topic: concept
 language: nl
 ---
 

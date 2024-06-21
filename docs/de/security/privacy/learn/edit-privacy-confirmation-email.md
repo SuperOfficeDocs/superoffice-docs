@@ -3,11 +3,11 @@ uid: help-de-edit-privacy-confirmation-email
 title: E-Mail zur Datenschutzbestätigung bearbeiten
 description: "In dieser Anleitung lernen Sie, wie Sie die E-Mail für die Datenschutzbestätigung bearbeiten können."
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: DSGVO, Einwilligung, E-Mail, Vorlage
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

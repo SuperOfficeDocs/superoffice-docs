@@ -4,9 +4,9 @@ title: Flet sager
 description: Flet sager
 author: Hanne Gunnarsson
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

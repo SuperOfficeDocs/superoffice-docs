@@ -3,11 +3,11 @@ uid: help-nl-mail-link-create-template
 title: E-mailsjablonen maken
 description: E-mailsjablonen maken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

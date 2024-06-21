@@ -3,11 +3,11 @@ uid: help-da-request-reply
 title: Svar til person
 description: "I denne guide lærer du, hvordan du besvarer alle indgående sager i SuperOffice."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sag, svarskabelon
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

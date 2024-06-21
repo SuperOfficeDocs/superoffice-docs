@@ -3,9 +3,9 @@ title: Common patterns
 uid: netserver_patterns
 description: SuperOffice NetServer patterns
 author: Bergfrid Dias
-so.date: 11.29.2016
+date: 11.29.2016
 keywords: API, NetServer, plugin pattern, factory pattern
-so.topic: concept
+topic: concept
 ---
 
 # Plug-ins

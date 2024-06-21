@@ -2,10 +2,10 @@
 uid: aiagent-detectlanguage
 title: AIAgent.DetectLanguage event method
 description: Scripting events called on the DetectLanguage method on the AIAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AIAgent.DetectLanguage
 

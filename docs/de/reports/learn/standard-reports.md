@@ -3,9 +3,9 @@ uid: help-de-standard-reports
 title: Standardberichte
 description: Standardberichte
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: reference
+topic: reference
 language: de
 ---
 

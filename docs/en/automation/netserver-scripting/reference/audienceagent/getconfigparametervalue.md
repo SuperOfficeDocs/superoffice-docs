@@ -2,10 +2,10 @@
 uid: audienceagent-getconfigparametervalue
 title: AudienceAgent.GetConfigParameterValue event method
 description: Scripting events called on the GetConfigParameterValue method on the AudienceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AudienceAgent.GetConfigParameterValue
 

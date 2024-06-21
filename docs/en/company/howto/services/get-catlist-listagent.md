@@ -3,11 +3,11 @@ title: Get a CategoryList using the ListAgent
 uid: get_category_list_listagent
 description: Get a CategoryList through ListAgent
 author: {github-id}
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: category, list agent
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get a CategoryList using the ListAgent

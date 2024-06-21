@@ -3,9 +3,9 @@ uid: help-en-mail-link-archive-on-contact
 title: Archiving emails on companies/contacts
 description: Archiving emails on companies/contacts
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail Link, email
-so.topic: howto
+topic: howto
 language: en
 ---
 

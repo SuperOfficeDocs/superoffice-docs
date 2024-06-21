@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-archive
 title: Arkivera e-postmeddelanden
 description: Arkivera e-postmeddelanden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

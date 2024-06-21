@@ -3,9 +3,9 @@ uid: help-sv-mail-link-create-so
 title: Skapa e-postmeddelanden från SuperOffice CRM
 description: Skapa e-postmeddelanden från SuperOffice CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

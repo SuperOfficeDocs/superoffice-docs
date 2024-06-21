@@ -3,12 +3,12 @@ title: Update endpoints
 uid: dp-update-endpoints
 description: How to update endpoints (API, ERP, quote, mirroring) in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.15.2023
+date: 11.15.2023
 keywords: Developer Portal, endpoint, app
-so.topic: howto
-so.dp-version: 1.16
-so.envir: cloud
-so.client: online
+topic: howto
+version_devportal: 1.16
+envir: cloud
+client: online
 ---
 
 # Update endpoints

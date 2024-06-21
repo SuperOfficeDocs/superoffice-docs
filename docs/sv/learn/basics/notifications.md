@@ -3,11 +3,11 @@ uid: help-sv-notifications
 title: Meddelanden
 description: "Aviseringar om inbjudningar, meddelanden och ärenden"
 author: Hanne Gunnarsson, Bergfrid Dias
-so.date: 08.30.2023
+date: 08.30.2023
 keywords: avisering, förfrågning, ärendehantering, meddelande
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

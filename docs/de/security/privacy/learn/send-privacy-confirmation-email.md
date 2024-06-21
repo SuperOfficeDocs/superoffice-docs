@@ -3,9 +3,9 @@ uid: help-de-send-privacy-confirmation-email
 title: E-Mail zur Datenschutzbestätigung senden
 description: E-Mail zur Datenschutzbestätigung senden
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: DSGVO, Einwilligung, E-Mail, Datenschutz
-so.topic: howto
+topic: howto
 language: de
 ---
 

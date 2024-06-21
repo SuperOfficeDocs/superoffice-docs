@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tile-add
 title: Tegel toevoegen/Opmaak bewerken in dashboard
 description: In deze handleiding leert u hoe u een dashboardtegel maakt.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

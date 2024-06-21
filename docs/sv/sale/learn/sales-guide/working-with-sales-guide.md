@@ -3,9 +3,9 @@ uid: help-sv-working-with-sales-guide
 title: Arbeta med säljguide
 description: Arbeta med säljguide
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

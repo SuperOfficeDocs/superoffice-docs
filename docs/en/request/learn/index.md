@@ -3,9 +3,9 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: request, ticket, service
-so.topic: concept
+topic: concept
 language: en
 ---
 

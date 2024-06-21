@@ -1,6 +1,6 @@
 ---
 uid: version_10.2.5.1175_changes
-so.date: 5/26/2023
+date: 5/26/2023
 ---
 
 # Changes from v10.2.4.796 and v10.2.5.1175

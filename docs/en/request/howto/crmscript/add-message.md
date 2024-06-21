@@ -3,9 +3,9 @@ uid: crmscript-message-create
 title: Create and update messages
 description: How to create and update request messages in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: CRMScript, Service, ticket, request, message
-so.topic: howto
+topic: howto
 ---
 
 # Create and update messages

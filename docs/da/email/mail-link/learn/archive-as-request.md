@@ -3,9 +3,9 @@ uid: help-da-mail-link-archive-as-request
 title: Arkiver e-mail som sager
 description: "Få flere oplysninger om, hvordan du arkiverer mails som anmodninger i denne vejledning."
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

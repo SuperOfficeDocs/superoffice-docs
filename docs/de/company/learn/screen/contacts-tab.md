@@ -3,9 +3,9 @@ uid: help-de-company-screen-contacts
 title: Registerkarte Personen
 description: Registerkarte Personen
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: Firma
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-sms-inbox
 title: Innboks for SMS
 description: Innboks for SMS
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: no
 ---
 

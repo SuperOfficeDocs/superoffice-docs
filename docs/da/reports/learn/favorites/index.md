@@ -3,9 +3,9 @@ uid: help-da-report-fav
 title: Foretrukne rapporter
 description: Foretrukne rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: da
 ---
 

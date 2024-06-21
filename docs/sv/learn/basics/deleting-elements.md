@@ -3,9 +3,9 @@ uid: help-sv-basics-delete
 title: Ta bort objekt
 description: "Så här slår du samman, tar bort och återställer objekt."
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: ta bort, återställ, papperskorg
-so.topic: howto
+topic: howto
 language: sv
 ---
 

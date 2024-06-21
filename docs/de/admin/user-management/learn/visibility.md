@@ -3,9 +3,9 @@ uid: help-de-visibility
 title: Sichtbarkeit
 description: Sichtbarkeit
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: Anzeigestatus, user, Rolle, Verfügung gestellt
-so.topic: concept
+topic: concept
 language: de
 ---
 

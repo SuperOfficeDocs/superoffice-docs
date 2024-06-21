@@ -2,11 +2,11 @@
 title: NetServer Data element
 uid: ns_config_data
 description: The NetServer Data configuration section contains subsections for managing the database connection and session handling.
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Database, CommandTimeout, ConnectionString, DatabaseMajor, DatabaseMinor, DatabaseName, DefaultReadUncommitted, DisableSqlTrackingComments, DisableUserInSqlTrackingComments, DynamicLoadedConnectionType, DynamicLoadedDataBaseDriver, ImpersonateDatabaseUser, Server, TablePrefix, Explicit, PartnerAllowed, EmployeeAllowed, AnonymousAllowed, DBUser, DBPassword, CommonDBConnection, Session, Mode, ReauthenticateOnDeserialization, CacheCheckInterval, ForceCacheRefreshInterval, SystemAllowed
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Data element

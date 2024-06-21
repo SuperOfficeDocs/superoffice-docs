@@ -3,9 +3,9 @@ uid: help-da-selection-bulk-update
 title: Masseredigering af udvalgsopgave
 description: "Masseredigering gør det muligt for dig at ændre detaljer for en stor gruppe af personer, aktiviteter, salg, projekter m.m."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection, masseredigering
-so.topic: howto
+topic: howto
 language: da
 ---
 

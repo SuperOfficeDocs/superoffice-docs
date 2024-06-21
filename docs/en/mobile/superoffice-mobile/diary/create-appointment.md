@@ -3,12 +3,12 @@ uid: mobile-crm-appointment-create
 title: Create appointment
 description: How to create appointments in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.25.2023
+date: 07.25.2023
 keywords: diary, follow-up
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Create appointment

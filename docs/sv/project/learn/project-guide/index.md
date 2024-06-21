@@ -3,9 +3,9 @@ uid: help-sv-project-guide
 title: Projektguide
 description: Introduktion till projektguider i SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: projekt, guide, arbetsflöde
-so.topic: concept
+topic: concept
 language: sv
 ---
 

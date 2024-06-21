@@ -3,9 +3,9 @@ uid: AppointmentSelection
 title: AppointmentSelection
 description: This is the archive Provider for the Selection appouintment archive.
 keywords: AppointmentSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentSelection"

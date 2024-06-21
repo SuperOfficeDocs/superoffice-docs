@@ -3,9 +3,9 @@ uid: help-en-ui-main-screen
 title: Main screen
 description: Main screen
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: CRM
-so.topic: reference
+topic: reference
 language: en
 ---
 

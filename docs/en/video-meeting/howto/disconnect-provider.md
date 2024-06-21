@@ -3,11 +3,11 @@ title: Disconetct provider
 uid: disconnect_video_provider
 description: How to disconnect video provider
 author: {github-id}
-so.date: 08.12.2021
+date: 08.12.2021
 keywords: video meetings
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to disconnect video provider

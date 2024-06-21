@@ -3,9 +3,9 @@ uid: help-no-report-search-criteria-edit
 title: Redigere søkekriterier i rapporter
 description: Redigere søkekriterier i rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

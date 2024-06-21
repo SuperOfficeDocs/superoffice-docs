@@ -4,11 +4,11 @@ title: Update contact persons
 description: How to update contact persons for a company in the SuperOffice Developer Portal.
 keywords: Developer Portal, profile, partner, contact person
 author: Bergfrid Dias
-so.date: 02.15.2024
-so.dp-version: 1.19
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 02.15.2024
+version_devportal: 1.19
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Update contact person

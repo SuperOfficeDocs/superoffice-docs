@@ -3,9 +3,9 @@ uid: help-sv-mass-delete
 title: Ta bort flera poster (permanent)
 description: "I enlighet med GDPR-kraven måste du ha en rättslig grund för att lagra uppgifter för alla dina kontakter. Och när du inte längre har en rättslig grund för att göra detta, måste du ta bort deras uppgifter från alla dina system."
 author: Bergfrid Dias
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection, GDPR
-so.topic: howto
+topic: howto
 language: sv
 ---
 

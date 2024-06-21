@@ -3,9 +3,9 @@ uid: help-no-gmail-link-archive-email-as-requests
 title: Arkiver e-post som forespørsler
 description: Arkiver e-post som forespørsler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

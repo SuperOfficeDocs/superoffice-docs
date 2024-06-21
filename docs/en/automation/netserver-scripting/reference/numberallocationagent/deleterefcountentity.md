@@ -2,10 +2,10 @@
 uid: numberallocationagent-deleterefcountentity
 title: NumberAllocationAgent.DeleteRefCountEntity event method
 description: Scripting events called on the DeleteRefCountEntity method on the NumberAllocationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # NumberAllocationAgent.DeleteRefCountEntity
 

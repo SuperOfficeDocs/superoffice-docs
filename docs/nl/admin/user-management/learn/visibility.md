@@ -3,9 +3,9 @@ uid: help-nl-visibility
 title: Zichtbaarheid
 description: Zichtbaarheid
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: zichtbaarheid, gebruiker, rol, beschikbaar
-so.topic: concept
+topic: concept
 language: nl
 ---
 

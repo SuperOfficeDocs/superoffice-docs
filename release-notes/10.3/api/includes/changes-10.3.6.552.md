@@ -1,6 +1,6 @@
 ---
 uid: version_10.3.6.552_changes
-so.date: 5/22/2024
+date: 5/22/2024
 ---
 
 Changes from v10.3.5.599 and v10.3.6.552

@@ -3,11 +3,11 @@ uid: help-no-import-create-excel
 title: Opprette en importfil
 description: I denne veiledningen lærer du hvordan du oppretter en importfil ved hjelp av Excel-malen.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: importere, Excel, firma, person, produkt, regneark
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

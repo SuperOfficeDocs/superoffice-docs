@@ -3,9 +3,9 @@ uid: help-de-getting-started
 title: Erste Schritte
 description: "Lernen Sie, wie Sie Ihr Benutzerkonto aktivieren, Ihre E-Mail-Adresse und Dokumente verknüpfen und Ihre persönlichen Einstellungen festlegen."
 author: Bergfrid Dias
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-contact-add-relation
 title: Tilføjelse af relationer (skærmbilledet Person)
 description: Tilføjelse af relationer (skærmbilledet Person)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

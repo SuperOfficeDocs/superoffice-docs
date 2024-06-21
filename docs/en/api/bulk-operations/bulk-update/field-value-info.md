@@ -3,11 +3,11 @@ title: BulkUpdateSystem FieldValueInfo
 uid: bulkupdate_field_value_info
 description: BulkUpdateSystem FieldValueInfo
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, FieldValueInfo
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # BulkUpdateSystem FieldValueInfo

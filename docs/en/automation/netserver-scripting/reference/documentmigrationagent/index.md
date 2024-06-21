@@ -2,10 +2,10 @@
 uid: documentmigrationagent-script-events
 title: DocumentMigrationAgent script event methods
 description: NetServer script event methods.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # DocumentMigrationAgent method listing

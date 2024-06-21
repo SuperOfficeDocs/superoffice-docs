@@ -3,9 +3,9 @@ title: Diary - rows
 uid: api_diary_rows
 description: Working with appointments via rows.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: diary, calendar, appointment, API, row
-so.topic: concept
+topic: concept
 ---
 
 # Diary - rows

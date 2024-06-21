@@ -3,9 +3,9 @@ uid: selectionfavourites
 title: selectionfavourites
 description: 
 keywords: selectionfavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "selectionfavourites"

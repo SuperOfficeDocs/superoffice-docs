@@ -4,12 +4,12 @@ title: Mit Formularen arbeiten
 description: "SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen."
 keywords: Formular, Formularübermittlung, doppeltes Opt-in
 author: Bergfrid Dias
-so.date: 03.18.2024
-so.version: 10
-so.topic: concept
+date: 03.18.2024
+version: 10
+topic: concept
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Mit Formularen arbeiten

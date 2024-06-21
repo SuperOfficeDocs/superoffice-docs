@@ -4,9 +4,9 @@ title: SuperOffice og licenser
 description: SuperOffice og licenser
 keywords: licens
 author: SuperOffice RnD
-so.date: 06.14.2024
-so.version: 10.3.5
-so.topic: concept
+date: 06.14.2024
+version: 10.3.5
+topic: concept
 language: da
 ---
 

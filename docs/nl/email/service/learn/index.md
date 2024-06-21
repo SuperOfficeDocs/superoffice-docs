@@ -3,9 +3,9 @@ uid: help-nl-email-service
 title: Service-e-mails
 description: Service-e-mails
 author: SuperOffice RnD
-so.date: 03.06.2024
+date: 03.06.2024
 keywords: Instellingen en onderhoud
-so.topic: concept
+topic: concept
 language: nl
 ---
 

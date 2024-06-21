@@ -1,18 +1,12 @@
-
 ---
 title: web-service-mdo-how-to
 description: How to work with Multi-departmental organization lists (MDO) APIs
 author: AnthonyYates
-keywords: list,MDO
-so.topic: concept
-so.date: 03.03.2022
-so.category: list
-so.area: api-services
-
-# so.envir
-
-# so.client
-
+keywords: list, MDO
+topic: concept
+date: 03.03.2022
+category: list
+area: api-services
 ---
 
 The `MDOAgent` provides a very different API than that of the [ListAgent][1]. This API provides us with a set of methods that can be used to build the list that we want. The methods in this API do not focus on one particular list but can be used to **retrieve any list**.

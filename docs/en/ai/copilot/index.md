@@ -4,14 +4,14 @@ title: SuperOffice AI Services - Copilot
 description: SuperOffice AI Services - Copilot
 author: Bergfrid Dias, Filip Norman
 keywords: AI, ChatGPT, OpenAI, Bing, Copilot
-so.date: 03.21.2024
-so.version: 10.3.2
-so.pilot: yes
-so.topic: concept
-so.envir: cloud
-so.client: online
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+date: 03.21.2024
+version: 10.3.2
+pilot: yes
+topic: concept
+envir: cloud
+client: online
+audience: user
+audience_tooltip: SuperOffice CRM
 ---
 
 # SuperOffice Copilot

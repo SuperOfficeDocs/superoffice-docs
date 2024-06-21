@@ -2,11 +2,11 @@
 title: Service and Marketing
 description: Email in Service and Marketing
 author: Frode B
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: email, cURL, OAuth
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Email in Service and Marketing

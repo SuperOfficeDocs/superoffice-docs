@@ -3,11 +3,11 @@ title: Configuring document access
 uid: config_document_services
 description: How to configure document access
 author: Tony Yates
-so.date: 12.08.2021
+date: 12.08.2021
 keywords: document, API, services, document agent, SO_ARC, ArchivePath, TemporaryPath, ImpersonateUser
-so.topic: howto
-so.category: document
-so.area: api-services
+topic: howto
+category: document
+area: api-services
 ---
 
 # Configuring document access

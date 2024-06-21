@@ -3,11 +3,11 @@ title: Update a person with a new name, address, position using services
 uid: update_person_ws
 description: How to update a person with a new name, address, position using NetServer services.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, services, API api-services, GetPersonEntity, PersonAgent
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Update a person with a new name, address, position using services

@@ -3,10 +3,10 @@ title: Verkaufshilfe-Seitenleiste
 uid: help-de-sale-side-panel
 description: Wie man die Seitenleiste effizient für den Verkauf nutzt
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: Verkauf, Seitenleiste, Selektion
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: de
 ---
 

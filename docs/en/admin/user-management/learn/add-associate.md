@@ -3,11 +3,11 @@ uid: help-en-user-add
 title: Add user
 description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM and what to do if a newly created user cannot log in.
 author: SuperOffice RnD
-so.date: 08.28.2023
+date: 08.28.2023
 keywords: user, associate
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -4,9 +4,9 @@ title: Slå ihop ärenden
 description: Slå ihop ärenden
 author: Hanne Gunnarsson
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

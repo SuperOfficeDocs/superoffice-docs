@@ -3,9 +3,9 @@ uid: help-da-project-member-edit
 title: Redigering af projektdeltagere
 description: Sådan redigerer eller sletter du en projektdeltager i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltager
-so.topic: howto
+topic: howto
 language: da
 ---
 

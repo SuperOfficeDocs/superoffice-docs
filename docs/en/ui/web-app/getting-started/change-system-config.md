@@ -3,11 +3,11 @@ title: How to alter system configuration files
 uid: change_system_config
 description: How to alter system configuration files
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.envir: win
-so.client: web
+topic: howto
+envir: win
+client: web
 ---
 
 # How to alter system configuration files

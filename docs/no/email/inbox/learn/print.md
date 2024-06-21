@@ -3,9 +3,9 @@ uid: help-no-email-inbox-print
 title: Skrive ut en e-post
 description: Skrive ut en e-post
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

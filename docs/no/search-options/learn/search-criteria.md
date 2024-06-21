@@ -3,9 +3,9 @@ uid: help-no-search-criteria
 title: Bruke søkekriterier
 description: Bruke søkekriterier
 author: Bergfrid Dias
-so.date: 03.28.2023
+date: 03.28.2023
 keywords: søk, kriterier, finn
-so.topic: howto
+topic: howto
 language: no
 ---
 

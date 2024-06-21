@@ -3,12 +3,12 @@ uid: help-sv-mobile-intro
 title: Mobile CRM – Få åtkomst till CRM när du är på språng
 description: I den här guiden lär du dig hur du kommer igång med de grundläggande funktionerna i Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, pocket
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: sv
-so.client: mobile
+client: mobile
 ---
 
 # Mobile CRM: Få åtkomst till CRM när du är på språng

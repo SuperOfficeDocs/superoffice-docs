@@ -3,11 +3,11 @@ uid: help-de-managing-external-users
 title: Externe Benutzer verwalten
 description: Externe Benutzer verwalten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: help
+topic: help
 language: de
-so.envir: onsite
+envir: onsite
 ---
 
 # Externe Benutzer verwalten

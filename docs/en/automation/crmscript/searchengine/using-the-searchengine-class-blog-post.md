@@ -2,11 +2,11 @@
 uid: using_the_searchengine_class_blog_post
 title: Using the SearchEngine class in ejScript
 author: Frode Lillerud
-so.date: 03.03.2012
+date: 03.03.2012
 keywords: search,crmscript
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Using the SearchEngine class in ejScript

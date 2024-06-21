@@ -3,11 +3,11 @@ title: Create a contact row
 uid: create_contact_row
 description: Create a contact row
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: company, contact, API, row, ContactRow
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a contact row

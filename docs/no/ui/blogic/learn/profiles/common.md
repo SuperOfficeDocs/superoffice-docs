@@ -3,9 +3,9 @@ uid: help-no-service-profile-common
 title: Felles profiler
 description: Felles profiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, tjeneste
-so.topic: howto
+topic: howto
 language: no
 ---
 

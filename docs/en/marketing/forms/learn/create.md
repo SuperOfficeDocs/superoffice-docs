@@ -4,12 +4,12 @@ title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
 keywords: form, form template, multi-page
 author: SuperOffice RnD
-so.date: 02.29.2024
-so.version: 10
-so.topic: howto
+date: 02.29.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Create a new form

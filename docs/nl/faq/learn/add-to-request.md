@@ -3,11 +3,11 @@ uid: help-nl-faq-add-to-request
 title: Items in Veelgestelde vragen toevoegen aan berichten
 description: Items in Veelgestelde vragen toevoegen aan berichten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Veelgestelde vragen
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

@@ -3,11 +3,11 @@ title: How to create a user control
 uid: pb_tutorial_sale_foreignkeys_1
 description: How to create a user control
 author: Steffan Alte
-so.date: 07.25.2007
+date: 07.25.2007
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # How to create a user control

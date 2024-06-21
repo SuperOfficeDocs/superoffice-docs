@@ -2,10 +2,10 @@
 uid: customerserviceagent-getparsedtemplate
 title: CustomerServiceAgent.GetParsedTemplate event method
 description: Scripting events called on the GetParsedTemplate method on the CustomerServiceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CustomerServiceAgent.GetParsedTemplate
 

@@ -3,9 +3,9 @@ uid: help-en-report-labels
 title: Report labels
 description: How to work with display labels in reports.
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: report, label, format, PDF
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: Button row
 uid: blogic_button_row
 description: Button row
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Button row

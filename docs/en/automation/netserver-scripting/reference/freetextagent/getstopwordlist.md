@@ -2,10 +2,10 @@
 uid: freetextagent-getstopwordlist
 title: FreeTextAgent.GetStopWordList event method
 description: Scripting events called on the GetStopWordList method on the FreeTextAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FreeTextAgent.GetStopWordList
 

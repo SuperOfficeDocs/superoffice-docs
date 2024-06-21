@@ -3,9 +3,9 @@ uid: help-sv-search-intro
 title: Sökfunktioner i CRM
 description: Lär dig hur du söker efter och hittar data i SuperOffice CRM med bara några enkla klick.
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: söka, sök
-so.topic: concept
+topic: concept
 language: sv
 ---
 

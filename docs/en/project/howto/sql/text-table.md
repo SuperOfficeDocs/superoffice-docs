@@ -3,11 +3,11 @@ title: Text table
 uid: text_db_table
 description: Text table
 author: Bergfrid Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: project, project management, SQL, API, text_id, owner_id
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Text table

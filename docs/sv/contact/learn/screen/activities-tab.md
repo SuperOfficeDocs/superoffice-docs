@@ -3,9 +3,9 @@ uid: help-sv-contact-screen-activities
 title: Fliken Aktiviteter (fönstret Kontakt)
 description: Fliken Aktiviteter (fönstret Kontakt)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,11 +3,11 @@ title: How to create a recurring appointment (services)
 uid: create_recurring_appointment_ws
 description: How to create a recurring appointment using services
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: diary, calendar, appointment, API, web services, recurrence
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to create a recurring appointment (services)

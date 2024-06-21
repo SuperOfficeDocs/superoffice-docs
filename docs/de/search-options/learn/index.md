@@ -3,9 +3,9 @@ uid: help-de-search-intro
 title: Suchoptionen in CRM
 description: "Lernen Sie, wie Sie Daten in SuperOffice CRM mit nur wenigen Klicks suchen und finden können."
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: Suchen
-so.topic: concept
+topic: concept
 language: de
 ---
 

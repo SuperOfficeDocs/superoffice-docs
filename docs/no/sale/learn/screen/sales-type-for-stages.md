@@ -3,11 +3,11 @@ uid: help-no-sale-type-admin
 title: Salgstype (for faser)
 description: Salgstype (for faser)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salg, type, fase
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

@@ -4,12 +4,12 @@ title: Redigere hovedkortlayout
 description: I denne veiledningen lærer du hvordan du redigerer en layout.
 keywords: Skjermdesigner, format, felt, faneoppsett
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: no
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Redigere layout – Hovedkort

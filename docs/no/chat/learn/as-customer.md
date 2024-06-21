@@ -3,9 +3,9 @@ uid: help-no-chat-as-customer
 title: Bruke chatfunksjonen fra kundens perspektiv
 description: Bruke chatfunksjonen fra kundens perspektiv
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-license-activate
 title: Aktivering af licens
 description: Aktivere licens til SuperOffice
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: licens
-so.topic: howto
+topic: howto
 language: da
 ---
 

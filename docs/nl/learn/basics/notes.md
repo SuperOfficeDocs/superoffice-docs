@@ -3,9 +3,9 @@ uid: help-nl-notes
 title: Notities maken
 description: Notities maken
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: opmerking, kladblok
-so.topic: howto
+topic: howto
 language: nl
 ---
 

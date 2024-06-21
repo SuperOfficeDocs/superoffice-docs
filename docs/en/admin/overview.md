@@ -4,7 +4,7 @@ uid: help-en-admin
 description: SuperOffice Maintenance and Settings
 author: {github-id}
 keywords:
-so.date:
+date:
 ---
 
 # Admin

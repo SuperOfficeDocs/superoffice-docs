@@ -3,9 +3,9 @@ uid: help-da-fastsearcher-dialog
 title: Brug af hurtigsøgning i dialogbokse
 description: Brug af hurtigsøgning i dialogbokse
 author: Bergfrid Dias
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: søge, FastSearcher, dialogboks
-so.topic: howto
+topic: howto
 language: da
 ---
 

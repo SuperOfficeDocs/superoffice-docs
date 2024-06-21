@@ -3,9 +3,9 @@ uid: help-en-contact-print
 title: Print contact info
 description: Print contact info
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact, print
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: providers
 description: Provider class
 author: {github-id}
 keywords: IArchiveProvider
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Providers

@@ -3,9 +3,9 @@ uid: help-no-sale-add-type
 title: Legge til salgstype
 description: Legge til salgstype
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salgstype
-so.topic: howto
+topic: howto
 language: no
 ---
 

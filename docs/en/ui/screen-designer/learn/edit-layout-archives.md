@@ -3,12 +3,12 @@ uid: help-en-archive-edit-layout
 title: Edit layout on section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
 author: SuperOffice RnD
-so.date: 01.03.2024
-so.version: 10.2.11
+date: 01.03.2024
+version: 10.2.11
 keywords: screen designer, section tab, archive
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

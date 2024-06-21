@@ -3,11 +3,11 @@ uid: help-da-automation-macro-create
 title: Opret en makro - eksempel fra SuperOffice
 description: "Eksempel på, hvordan du opretter en makro i SuperOffice."
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: script, makro
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

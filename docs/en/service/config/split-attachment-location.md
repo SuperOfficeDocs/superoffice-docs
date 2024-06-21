@@ -3,12 +3,12 @@ uid: attachment-split-loc
 title: Split attachment location
 description: Splitting SuperOffice Service attachments to multiple locations
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: attachment, request
-so.topic: howto
-so.audience: settings
-so.envir: onsite
-# so.client:
+topic: howto
+audience: settings
+envir: onsite
+# client:
 ---
 
 # Splitting attachment location

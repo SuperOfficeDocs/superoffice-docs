@@ -2,10 +2,10 @@
 uid: listagent-addfromlistdefinition
 title: ListAgent.AddFromListDefinition event method
 description: Scripting events called on the AddFromListDefinition method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.AddFromListDefinition
 

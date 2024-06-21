@@ -3,12 +3,12 @@ uid: help-en-creating-import-descriptions
 title: Creating import descriptions
 description: Creating import descriptions
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client settings
-so.topic: help
+topic: help
 language: en
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Create import descriptions

@@ -3,9 +3,9 @@ title: Price calculations and field changes
 uid: quote_connectors_calculate_price
 description: How to calculate the price on field-changes
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Price calculations and field changes

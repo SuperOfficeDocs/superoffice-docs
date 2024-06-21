@@ -3,9 +3,9 @@ uid: RejectedInvitation
 title: RejectedInvitation
 description: This is the query provider for invitations, of subtype 'Rejected'
 keywords: RejectedInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "RejectedInvitation"

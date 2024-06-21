@@ -4,12 +4,12 @@ title: Zähler für Links zurückstellen
 description: Zähler für Links zurückstellen
 keywords: Marketing, Aussendung
 author: SuperOffice RnD
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Zähler für Links zurückstellen

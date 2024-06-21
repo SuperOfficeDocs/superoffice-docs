@@ -3,12 +3,12 @@ title: Update text for consent dialog
 uid: dp-update-consent-text
 description: How to update the text shown in the consent dialog for an app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.26.2023
+date: 04.26.2023
 keywords: Developer Portal, app, consent
-so.topic: howto
-so.dp-version: 1.10
-so.envir: cloud
-so.client:
+topic: howto
+version_devportal: 1.10
+envir: cloud
+client:
 ---
 
 # Update text for consent dialog

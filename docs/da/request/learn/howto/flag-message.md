@@ -4,9 +4,9 @@ title: Hold styr på meddelelser
 description: Hold styr på meddelelser
 author: Hanne Gunnarsson
 keywords: sag, meddelelse, flag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

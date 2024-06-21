@@ -2,10 +2,10 @@
 uid: table-hierarchy
 title: hierarchy table
 description: This table contains folders used to group the extra tables in the system.
-so.generated: true
+generated: true
 keywords: database table hierarchy
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # hierarchy Table (306)

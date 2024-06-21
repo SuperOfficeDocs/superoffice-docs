@@ -3,11 +3,11 @@ uid: help-de-mail-link-create-template
 title: E-Mail-Vorlagen erstellen
 description: E-Mail-Vorlagen erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-Link
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -2,11 +2,11 @@
 title: mailarchivehelper
 description: MailArchiveHelper
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # MailArchiveHelper

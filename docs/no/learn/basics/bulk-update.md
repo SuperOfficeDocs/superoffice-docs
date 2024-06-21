@@ -3,9 +3,9 @@ uid: help-no-bulk-update
 title: Masseredigering
 description: Masseredigering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: masseredigering
-so.topic: howto
+topic: howto
 language: no
 ---
 

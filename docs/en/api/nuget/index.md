@@ -3,11 +3,11 @@ title: Overview
 uid: so_nuget
 description: SuperOffice on NuGet
 author: Tony Yates
-so.date: 02.29.2016
+date: 02.29.2016
 keywords:
-so.topic: concept
-so.envir:
-so.client:
+topic: concept
+envir:
+client:
 ---
 
 # Overview

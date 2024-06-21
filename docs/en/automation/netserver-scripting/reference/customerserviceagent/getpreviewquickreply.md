@@ -2,10 +2,10 @@
 uid: customerserviceagent-getpreviewquickreply
 title: CustomerServiceAgent.GetPreviewQuickReply event method
 description: Scripting events called on the GetPreviewQuickReply method on the CustomerServiceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CustomerServiceAgent.GetPreviewQuickReply
 

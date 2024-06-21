@@ -4,9 +4,9 @@ title: Keep track of messages
 description: Keep track of messages
 author: Hanne Gunnarsson
 keywords: request, message, flag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

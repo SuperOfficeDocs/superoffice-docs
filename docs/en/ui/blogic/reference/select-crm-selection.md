@@ -3,9 +3,9 @@ title: Select CRM selection
 uid: blogic_select_crm_selection
 description: Select CRM selection
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select CRM selection

@@ -3,9 +3,9 @@ uid: help-sv-project-screen-activities
 title: Fliken Aktiviteter
 description: Fliken Aktiviteter på projektskärmen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: reference
+topic: reference
 language: sv
 ---
 

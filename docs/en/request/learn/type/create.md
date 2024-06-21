@@ -3,12 +3,12 @@ uid: help-en-request-type-create
 title: Create request type
 description: Create request type
 author: Bergfrid Dias
-so.date: 22.02.24
-so.version: 10.3.2
+date: 22.02.24
+version: 10.3.2
 keywords: request, type
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-email-inbox-setup
 title: Konfigurer SuperOffice-innboksen
 description: SuperOffice-innboksen er en alternativ måte å koble e-posten din til SuperOffice CRM for e-postklienter som ikke kan kobles til via WebTools. Finn ut hvordan du konfigurerer og logger på for første gang.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: E-post, innboks
-so.topic: howto
+topic: howto
 language: no
 ---
 

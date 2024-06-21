@@ -3,11 +3,11 @@ uid: help-de-quote-settings
 title: Einstellungen
 description: Einstellungen in der Ansicht Angebot/Sync
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Verkauf, Angebot, Einstellungen
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

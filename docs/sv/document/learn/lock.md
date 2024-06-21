@@ -3,9 +3,9 @@ uid: help-sv-document-lock
 title: Checka in/ut dokument
 description: Checka in/ut dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: howto
+topic: howto
 language: sv
 ---
 

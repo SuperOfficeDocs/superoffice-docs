@@ -3,9 +3,9 @@ uid: help-en-sales-target-types
 title: Set up a sale target type with sub-types
 description: Staying on top of your sales targets can be stressful. But if you define parameters and dimensions of your sales targets – managing your goals becomes much easier.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

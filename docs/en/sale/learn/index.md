@@ -3,9 +3,9 @@ uid: help-en-sale
 title: Sale
 description: SuperOffice Sales helps sales teams stay in control of their sales pipelines and processes.
 author: SuperOffice RnD
-so.date: 06.15.2023
+date: 06.15.2023
 keywords: sale
-so.topic: concept
+topic: concept
 language: en
 ---
 

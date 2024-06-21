@@ -3,11 +3,11 @@ title: Create an appointment through row collection (Rows)
 uid: create_appointment_rows
 description: How to create an appointment through row collection (Rows).
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: diary, calendar, appointment, API, rows, collection, AppointmentRows
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create an appointment through row collection (Rows)

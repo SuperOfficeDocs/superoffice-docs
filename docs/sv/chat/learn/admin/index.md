@@ -3,11 +3,11 @@ uid: help-sv-chat-admin
 title: Administrera chatt
 description: Livechatt är ett populärt sätt för dina kunder och prospekt att komma i kontakt med dig när de besöker webbplatsen. Den här guiden visar hur du konfigurerar chattwidgeten och sedan lägger till den på din webbplats.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chatt
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

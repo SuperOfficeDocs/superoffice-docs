@@ -3,9 +3,9 @@ uid: help-en-mail-link-create-activity
 title: Create meeting or to-do from email
 description: Saving an email directly as a meeting or to-do in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
 author: Bergfrid Dias
-so.date: 08.30.2023
+date: 08.30.2023
 keywords: Mail Link, email, inbox, archive, appointment, meeting, task, to-do, follow-up
-so.topic: howto
+topic: howto
 language: en
 ---
 

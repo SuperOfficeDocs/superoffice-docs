@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_functions
 title: Functions
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Functions

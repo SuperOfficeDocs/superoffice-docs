@@ -3,9 +3,9 @@ uid: help-da-languages
 title: Kundesprog
 description: Kundesprog
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: sprog
-so.topic: concept
+topic: concept
 language: da
 ---
 

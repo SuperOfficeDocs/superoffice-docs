@@ -3,11 +3,11 @@ uid: help-sv-request-fav
 author: Hanne Gunnarsson
 title: Lägga till ärenden i favoritlistan
 description: Lägga till ärenden i favoritlistan
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: ärende, fav
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

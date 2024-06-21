@@ -3,9 +3,9 @@ uid: CancelledInvitation
 title: CancelledInvitation
 description: This is the query provider for invitations, of subtype 'Cancelled'
 keywords: CancelledInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "CancelledInvitation"

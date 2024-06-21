@@ -2,11 +2,11 @@
 title: Threading element
 uid: ns_config_Threading
 description: NetServer configuration values related to threading.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Threading, DisableMultithreading, ForceMultithreading, MaxParellalThreads, single-threaded, multi-threaded, parallel
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Threading element

@@ -4,12 +4,12 @@ title: Tilføje abonnement-links
 description: "Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning."
 keywords: marketing
 author: SuperOffice RnD
-so.date: 02.26.2024
-so.version: 10
-so.topic: howto
+date: 02.26.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Tilføje abonnement-links

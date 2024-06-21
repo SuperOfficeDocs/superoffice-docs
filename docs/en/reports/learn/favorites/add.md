@@ -3,9 +3,9 @@ uid: help-en-report-fav-add
 title: Adding favourite reports
 description: Adding favourite reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

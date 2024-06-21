@@ -3,9 +3,9 @@ uid: SaleShadowDynamicSelection
 title: SaleShadowDynamicSelection
 description: Shadow contact provider for the dynamic sale provider.
 keywords: SaleShadowDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleShadowDynamicSelection"

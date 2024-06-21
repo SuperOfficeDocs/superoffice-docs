@@ -3,9 +3,9 @@ uid: help-en-email-inbox-senders
 title: Manage senders with SuperOffice Inbox
 description: Manage senders with SuperOffice inbox
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: email
-so.topic: howto
+topic: howto
 language: en
 ---
 

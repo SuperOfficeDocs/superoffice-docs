@@ -3,9 +3,9 @@ uid: crmscript-usage
 title: What can I do with CRMScript?
 description: Overview of what you can do with CRMScripts in SuperOffice and limitations pertaining to the online environment.
 author: Bergfrid Skaara Dias
-so.date: 12.02.2022
+date: 12.02.2022
 keywords: CRMScript, performance, security
-so.topic: concept
+topic: concept
 ---
 
 # What can I do with CRMScript?

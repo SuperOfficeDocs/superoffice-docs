@@ -2,10 +2,10 @@
 uid: emailagent-getfolderlist
 title: EMailAgent.GetFolderList event method
 description: Scripting events called on the GetFolderList method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetFolderList
 

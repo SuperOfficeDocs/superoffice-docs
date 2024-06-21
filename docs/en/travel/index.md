@@ -4,10 +4,10 @@ uid: travel
 description: Travel
 author: {github-id}
 keywords:
-so.date:
-so.topic: concept
-so.envir: onsite
-so.client: win
+date:
+topic: concept
+envir: onsite
+client: win
 ---
 
 # Travel

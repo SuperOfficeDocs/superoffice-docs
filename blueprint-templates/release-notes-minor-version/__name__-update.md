@@ -1,12 +1,12 @@
 ---
-title: XXX {{name}} update
 uid: news-AREA-{{name}}
+title: XXX {{name}} update
 description: Release notes. What's new in SuperOffice {{name}}
-author: SuperOffice AS – Research and Development
-so.date: 
 keywords: 
-so.version: {{name}}
-so.topic: reference
+author: SuperOffice AS – Research and Development
+date: 
+version: {{name}}
+topic: reference
 ---
 
 # XXX {{name}} update

@@ -3,9 +3,9 @@ uid: help-nl-section-tabs-configure
 title: De kolomweergave wijzigen
 description: De kolomweergave wijzigen
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: sectietabblad, archief, kolom
-so.topic: howto
+topic: howto
 language: nl
 ---
 

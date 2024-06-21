@@ -3,9 +3,9 @@ uid: help-sv-request-escalation
 title: Eskaleringsnivåer
 description: Eskaleringsnivåer
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: ärende, prioritet, eskalera
-so.topic: howto
+topic: howto
 language: sv
 ---
 

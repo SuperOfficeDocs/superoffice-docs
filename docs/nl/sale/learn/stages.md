@@ -3,9 +3,9 @@ uid: help-nl-sale-stages
 title: "Status van een verkoop, verkocht en verloren"
 description: "Status van een verkoop, verkocht en verloren"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: concept
+topic: concept
 language: nl
 ---
 

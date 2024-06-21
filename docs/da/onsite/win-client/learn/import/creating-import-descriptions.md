@@ -3,12 +3,12 @@ uid: help-da-creating-import-descriptions
 title: Oprettelse af importbeskrivelser
 description: Oprettelse af importbeskrivelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Oprettelse af importbeskrivelser

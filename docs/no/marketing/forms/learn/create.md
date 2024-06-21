@@ -4,12 +4,12 @@ title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
 author: SuperOffice RnD
-so.date: 02.29.2024
-so.version: 10
-so.topic: howto
+date: 02.29.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Opprette et nytt skjema

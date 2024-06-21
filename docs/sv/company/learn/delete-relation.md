@@ -3,9 +3,9 @@ uid: help-sv-company-delete-relation
 title: Ta bort relationer
 description: Ta bort relationer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
 ---
 

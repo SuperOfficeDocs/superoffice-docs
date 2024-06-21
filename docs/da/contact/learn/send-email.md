@@ -3,9 +3,9 @@ uid: help-da-contact-send-email
 title: Afsendelse af e-mail til en person
 description: Afsendelse af e-mails via SuperOffice CRM gør det nemmere at dele og gemme al din kundekommunikation ét sted.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

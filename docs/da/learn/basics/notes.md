@@ -3,9 +3,9 @@ uid: help-da-notes
 title: Tage noter
 description: Tage noter
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: bemærkning, notesblok
-so.topic: howto
+topic: howto
 language: da
 ---
 

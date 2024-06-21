@@ -3,9 +3,9 @@ uid: help-sv-selection-bulk-update
 title: Massuppdatering av urvalsuppgift
 description: "Med massuppdatering kan du ändra information för en stor samling kontakter, aktiviteter, försäljningar, projekt med mera."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection, massredigering
-so.topic: howto
+topic: howto
 language: sv
 ---
 

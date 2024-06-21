@@ -3,9 +3,9 @@ title: Approving the quote
 uid: quote_connectors_approve_quote
 description: Approving the quote
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Approving the quote

@@ -3,9 +3,9 @@ uid: FindQuoteLine
 title: FindQuoteLine
 description: QuoteLine provider for Find
 keywords: FindQuoteLine archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FindQuoteLine"

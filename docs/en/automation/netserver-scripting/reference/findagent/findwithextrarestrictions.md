@@ -2,10 +2,10 @@
 uid: findagent-findwithextrarestrictions
 title: FindAgent.FindWithExtraRestrictions event method
 description: Scripting events called on the FindWithExtraRestrictions method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.FindWithExtraRestrictions
 

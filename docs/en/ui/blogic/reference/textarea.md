@@ -3,9 +3,9 @@ title: Textarea
 uid: blogic_textarea
 description: Textarea
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Textarea

@@ -4,9 +4,9 @@ uid: create_sql_server_db
 description: Create a new Microsoft SQL Server database for SuperOffice onsite
 author: {github-id}
 keywords: database
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # SuperOffice CRM running on Microsoft SQL Server database

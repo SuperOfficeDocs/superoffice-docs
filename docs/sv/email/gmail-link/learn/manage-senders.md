@@ -3,9 +3,9 @@ uid: help-sv-gmail-link-manage-senders
 title: Hantera avsändare med Gmail Link
 description: Hantera avsändare med Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail-länk
-so.topic: howto
+topic: howto
 language: sv
 ---
 

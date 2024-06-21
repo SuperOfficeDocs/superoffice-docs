@@ -3,10 +3,10 @@ title: Mobile
 uid: mobile_intro
 description: Introduction to SuperOffice mobile applications
 author: Bergfrid Dias
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: SuperOffice Mobile, Pocket CRM
-so.topic: concept
-so.client: pocket, mobile
+topic: concept
+client: pocket, mobile
 ---
 
 # Mobile applications

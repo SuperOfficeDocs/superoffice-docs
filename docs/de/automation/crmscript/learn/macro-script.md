@@ -3,11 +3,11 @@ uid: help-de-automation-macro
 title: Makros und Skripts
 description: Makros und Skripts
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Skript, Makro
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-chat-as-customer
 title: De chatfunctie gebruiken vanuit klantperspectief
 description: De chatfunctie gebruiken vanuit klantperspectief
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatten
-so.topic: howto
+topic: howto
 language: nl
 ---
 

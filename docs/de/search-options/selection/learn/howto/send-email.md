@@ -3,9 +3,9 @@ uid: help-de-selection-send-email
 title: Eine E-Mail an mehrere Empfänger gleichzeitig senden
 description: Eine E-Mail an mehrere Empfänger gleichzeitig senden
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion, E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

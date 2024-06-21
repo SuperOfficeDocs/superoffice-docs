@@ -3,9 +3,9 @@ uid: help-da-email
 title: E-mail
 description: "Med SuperOffice CRM kan du vælge at gemme og dele dine mails på forskellige måder, der får dig og dit team til at arbejde mere produktivt."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: e-mail, indbakke
-so.topic: concept
+topic: concept
 language: da
 ---
 

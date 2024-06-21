@@ -3,9 +3,9 @@ uid: help-sv-deleting-items
 title: Ta bort poster
 description: Ta bort poster
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

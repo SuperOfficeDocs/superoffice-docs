@@ -3,9 +3,9 @@ uid: help-de-chat-send-faq-or-reply-template
 title: "FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden"
 description: "FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Chat
-so.topic: howto
+topic: howto
 language: de
 ---
 

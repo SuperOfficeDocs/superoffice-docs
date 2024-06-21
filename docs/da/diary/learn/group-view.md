@@ -3,9 +3,9 @@ uid: help-da-diary-group-view
 title: Gruppevisning
 description: gruppevisning; Oprette dagbogsvisninger; Ny gruppeoversigt
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: dagbog, opfølgning, gruppevisning
-so.topic: howto
+topic: howto
 language: da
 ---
 

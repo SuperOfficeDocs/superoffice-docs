@@ -3,10 +3,10 @@ uid: help-sv-request-reply-mobile
 title: Besvara ett ärende på din mobila enhet
 description: I den här instruktionsguiden får du lära dig hur du besvarar ett ärende i Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende, mobil
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: sv
 ---
 

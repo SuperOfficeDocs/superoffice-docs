@@ -3,9 +3,9 @@ uid: help-de-mail-link-settings-invitations
 title: Einladungen
 description: Einladungen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-Link
-so.topic: reference
+topic: reference
 language: de
 ---
 

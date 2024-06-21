@@ -3,10 +3,10 @@ title: Sentry plugin with external table
 uid: create_sentry_plugin_ext_table
 description: Sentry plugin with external (user-defined) table
 author: Tony Yates
-so.date: 05.16.2008
+date: 05.16.2008
 keywords: sentry
-so.topic: tutorial
-so.envir: onsite
+topic: tutorial
+envir: onsite
 ---
 
 # Sentry plugin with external table

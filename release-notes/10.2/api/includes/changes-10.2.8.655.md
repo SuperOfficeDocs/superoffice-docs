@@ -1,6 +1,6 @@
 ---
 uid: version_10.2.8.655_changes
-so.date: 9/25/2023
+date: 9/25/2023
 ---
 
 Changes from v10.2.6.1248 and v10.2.8.655

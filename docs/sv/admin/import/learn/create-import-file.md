@@ -3,11 +3,11 @@ uid: help-sv-import-create-excel
 title: Skapa en importfil
 description: I den här guiden förklarar vi hur du skapar en importfil med hjälp av Excel-mallen.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: importera, Excel, företag, contact, produkt, kalkylark
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

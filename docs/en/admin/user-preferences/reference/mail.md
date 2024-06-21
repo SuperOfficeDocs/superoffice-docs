@@ -4,7 +4,7 @@ uid: pref_mail
 description: Preference section Mail
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Mail

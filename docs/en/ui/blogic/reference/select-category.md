@@ -3,9 +3,9 @@ title: Select category
 uid: blogic_select_category
 description: Select category
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select category

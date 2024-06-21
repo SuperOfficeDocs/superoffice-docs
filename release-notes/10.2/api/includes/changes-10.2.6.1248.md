@@ -1,6 +1,6 @@
 ---
 uid: version_10.2.6.1248_changes
-so.date: 6/16/2023
+date: 6/16/2023
 ---
 
 # Changes from v10.2.5.1175 and v10.2.6.1248

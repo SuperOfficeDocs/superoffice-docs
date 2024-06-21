@@ -3,9 +3,9 @@ uid: SaleSelectionV2
 title: SaleSelectionV2
 description: This is the archive Provider for the Selection sale archive.
 keywords: SaleSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleSelectionV2"

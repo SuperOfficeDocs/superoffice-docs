@@ -3,9 +3,9 @@ uid: help-no-contact-delete-relation
 title: Slette relasjon (Person-bilde)
 description: Slette relasjoner (Person-bilde)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, person
-so.topic: howto
+topic: howto
 language: no
 ---
 

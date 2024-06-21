@@ -2,10 +2,10 @@
 uid: phonelistagent-getdepartmentphones
 title: PhoneListAgent.GetDepartmentPhones event method
 description: Scripting events called on the GetDepartmentPhones method on the PhoneListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PhoneListAgent.GetDepartmentPhones
 

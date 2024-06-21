@@ -3,9 +3,9 @@ title: Messages
 uid: blogic_messages
 description: Messages
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Messages

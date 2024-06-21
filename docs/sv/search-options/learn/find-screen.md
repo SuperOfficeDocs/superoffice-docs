@@ -3,9 +3,9 @@ uid: help-sv-find-screen
 title: Fönstret Sök
 description: Fönstret Sök
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: söka, sök
-so.topic: howto
+topic: howto
 language: sv
 ---
 

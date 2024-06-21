@@ -3,11 +3,11 @@ title: Calling through a custom SOAP proxy
 uid: call_soap_custom_proxy
 description: Calling through a custom SOAP proxy
 author: Bergfrid Dias
-so.date: 11.19.2021
+date: 11.19.2021
 keywords: API, web services, proxy, SOAP, NetServer, WSDL
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Calling SOAP through a custom proxy

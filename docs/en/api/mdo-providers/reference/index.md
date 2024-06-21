@@ -2,10 +2,10 @@
 uid: mdo-provider-listing
 title: MDO List Provider names
 description: Valid list of provider names
-so.generated: true
+generated: true
 keywords: mdoprovider mdo provider
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # MDO List Providers

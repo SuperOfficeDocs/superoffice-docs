@@ -3,11 +3,11 @@ title: Client requirements
 uid: client_requirements
 description: Client requirements for SuperOffice Web and Win
 author: {github-id}
-so.date: 09.12.2023
+date: 09.12.2023
 keywords:
-so.topic: reference
-so.envir: onsite
-so.client: web
+topic: reference
+envir: onsite
+client: web
 ---
 
 # Client requirements for SuperOffice Web and Win

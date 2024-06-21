@@ -3,9 +3,9 @@ uid: help-de-chat-as-customer
 title: Chat-Funktion aus Kundenperspektive
 description: Chat-Funktion aus Kundenperspektive
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Chat
-so.topic: howto
+topic: howto
 language: de
 ---
 

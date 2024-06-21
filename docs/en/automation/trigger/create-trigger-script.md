@@ -3,9 +3,9 @@ title: Creating a trigger - Script
 uid: create_trigger_script
 description: Creating a trigger - Script
 author: Simen Mostuen Iversen
-so.date: 06.06.2019
+date: 06.06.2019
 keywords: automation
-so.topic: howto
+topic: howto
 ---
 
 # Creating a trigger :: Script

@@ -4,9 +4,9 @@ uid: archive_provider_metadata
 description: Archive provider metadata
 author: {github-id}
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Metadata

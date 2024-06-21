@@ -3,10 +3,10 @@ title: New and improved development products
 uid: news-developer-products-10.1
 description: Release notes. What's new in SuperOffice development products 10.1.
 author: SuperOffice AS – Research and Development
-so.date: 05.04.2022
+date: 05.04.2022
 keywords: development products, AI
-so.version: 10.1.2
-so.topic: reference
+version: 10.1.2
+topic: reference
 ---
 
 # Development Products

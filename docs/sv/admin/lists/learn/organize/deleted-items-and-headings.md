@@ -3,9 +3,9 @@ uid: help-sv-deleted-items-and-headings
 title: Borttagna poster och rubriker
 description: Borttagna poster och rubriker
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

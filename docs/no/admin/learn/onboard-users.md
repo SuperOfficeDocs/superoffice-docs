@@ -3,9 +3,9 @@ uid: help-no-admin-onboard
 title: Oversikt
 description: Introduksjon til å administrere SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Innstillinger og vedlikehold
-so.topic: howto
+topic: howto
 language: no
 ---
 # Få brukerne dine med på laget

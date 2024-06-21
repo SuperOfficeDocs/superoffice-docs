@@ -3,10 +3,10 @@ title: Accessing the script
 uid: access-crmscript
 description: Accessing the script from the Customer Centre
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP
-so.topic: howto
-so.audience: settings
+topic: howto
+audience: settings
 ---
 
 # Accessing the script from the Customer Centre

@@ -3,9 +3,9 @@ uid: help-en-standard-reports
 title: Standard Reports
 description: Standard Reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: reference
+topic: reference
 language: en
 ---
 

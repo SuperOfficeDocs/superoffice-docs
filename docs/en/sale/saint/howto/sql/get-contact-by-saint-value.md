@@ -3,11 +3,11 @@ title: Get contact by value
 uid: saint-sql-get-contact-by-value
 description: How to search for a contact with a given saint value with raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SAINT, API, SQL, countervalue
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Search for a contact with a given saint value

@@ -3,9 +3,9 @@ uid: help-da-customer-center-config
 title: Kundecenterkonfiguration
 description: "Få mere at vide om, hvordan du konfigurerer dit kundecenter, i denne vejledning."
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Tjeneste, Kundecenter, CEP
-so.topic: howto
+topic: howto
 language: da
 ---
 

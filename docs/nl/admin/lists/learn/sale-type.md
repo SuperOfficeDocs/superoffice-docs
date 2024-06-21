@@ -3,9 +3,9 @@ uid: help-nl-sale-add-type
 title: Verkooptype toevoegen
 description: Verkooptype toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkooptype
-so.topic: howto
+topic: howto
 language: nl
 ---
 

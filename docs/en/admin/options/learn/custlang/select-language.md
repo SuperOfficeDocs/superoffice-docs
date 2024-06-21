@@ -3,9 +3,9 @@ uid: help-en-languages-selection
 title: Customer language for new contacts
 description: How SuperOffice selects the customer language for new contacts
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: language
-so.topic: help
+topic: help
 language: en
 ---
 

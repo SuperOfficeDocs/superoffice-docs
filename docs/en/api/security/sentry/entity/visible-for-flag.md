@@ -4,9 +4,9 @@ uid: visiblefor_flag
 description: VisibleFor flag
 author: {github-id}
 keywords: sentry
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # VisibleFor flag

@@ -3,9 +3,9 @@ uid: LinksSales
 title: LinksSales
 description: Link data provider for sales, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksSales archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "LinksSales"

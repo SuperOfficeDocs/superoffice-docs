@@ -3,9 +3,9 @@ uid: MailingsSelectionV2
 title: MailingsSelectionV2
 description: This is the archive Provider for the Selection Mailings archive.
 keywords: MailingsSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "MailingsSelectionV2"

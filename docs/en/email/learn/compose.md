@@ -3,9 +3,9 @@ uid: help-en-email-compose
 title: Compose an email
 description: Compose an email
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: email
-so.topic: howto
+topic: howto
 language: en
 ---
 

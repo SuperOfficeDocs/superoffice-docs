@@ -3,9 +3,9 @@ uid: help-da-ui-side-panel
 title: Brug sidepanel til at arbejde mere effektivt
 description: "Sidepanelet giver dig adgang til oplysninger, der er gemt i andre dele af SuperOffice CRM, uden at forlade den skærm, du er på."
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: sidepanel
-so.topic: concept
+topic: concept
 language: da
 ---
 

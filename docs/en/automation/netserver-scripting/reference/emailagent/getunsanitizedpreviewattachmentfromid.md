@@ -2,10 +2,10 @@
 uid: emailagent-getunsanitizedpreviewattachmentfromid
 title: EMailAgent.GetUnsanitizedPreviewAttachmentFromId event method
 description: Scripting events called on the GetUnsanitizedPreviewAttachmentFromId method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetUnsanitizedPreviewAttachmentFromId
 

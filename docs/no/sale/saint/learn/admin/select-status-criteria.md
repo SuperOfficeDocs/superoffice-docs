@@ -3,11 +3,11 @@ uid: help-no-select-status-criteria
 title: Velg statuskriterier
 description: Velg statuskriterier
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: salg, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

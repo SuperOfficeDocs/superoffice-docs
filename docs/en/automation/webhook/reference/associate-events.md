@@ -3,11 +3,11 @@ title: Associate events
 uid: webhook_associate_event
 description: Associate events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Associate events

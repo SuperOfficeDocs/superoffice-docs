@@ -3,9 +3,9 @@ uid: help-sv-sale-screen-quote-tab
 title: Offert (detaljkort på Försäljning)
 description: Offert (detaljkort på Försäljning)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning, offert
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,13 +3,13 @@ title: Widgets
 uid: dp-widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
 author: Bergfrid Dias
-so.date: 11.15.2023
+date: 11.15.2023
 keywords: Developer Portal, widget, home page
-so.topic: concept
-so.dp-version: 1.16
-so.lang: en
-so.envir: cloud
-so.client: online
+topic: concept
+version_devportal: 1.16
+language: en
+envir: cloud
+client: online
 ---
 
 # Widgets

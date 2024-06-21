@@ -3,9 +3,9 @@ uid: help-nl-project-members-tab
 title: Projectleden
 description: Projectleden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid
-so.topic: reference
+topic: reference
 language: nl
 ---
 

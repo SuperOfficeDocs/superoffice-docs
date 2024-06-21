@@ -3,9 +3,9 @@ uid: help-en-add-items-to-country-list
 title: Add items to the Country list
 description: Add items to the Country list
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

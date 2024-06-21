@@ -3,9 +3,9 @@ uid: help-en-selection-display-as-charts
 title: Visualize selections with charts
 description: After you have created a selection you can display your results visually for a more instant understanding of the data. This how-to guide will show you how to visualize selections with the help of charts in SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection, chart
-so.topic: howto
+topic: howto
 language: en
 ---
 

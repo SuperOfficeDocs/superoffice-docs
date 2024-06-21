@@ -3,9 +3,9 @@ uid: help-en-project-screen
 title: Project screen
 description: The Project screen in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: reference
+topic: reference
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-working-with-sales-guide
 title: Working with sales guide
 description: Working with sales guide
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

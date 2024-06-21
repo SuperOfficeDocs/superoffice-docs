@@ -3,9 +3,9 @@ uid: help-de-project-member-edit
 title: Projektmitglieder bearbeiten
 description: Wie man ein Projektmitglied in SuperOffice bearbeitet oder löscht.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Mitglied
-so.topic: howto
+topic: howto
 language: de
 ---
 

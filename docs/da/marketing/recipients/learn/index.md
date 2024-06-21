@@ -4,12 +4,12 @@ title: Oprette en målliste
 description: "Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste."
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Oprette en målliste

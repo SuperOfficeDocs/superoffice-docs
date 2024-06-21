@@ -4,13 +4,13 @@ title: Een nieuwe flow maken
 description: Hoe een nieuwe flow te maken en de flowinstellingen te definiëren in SuperOffice Marketing
 keywords: Marketing, flow, flow-controle, flow maken, flow-instelling
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.17.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.17.2024
+version: 10.3.7
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Een nieuwe flow maken

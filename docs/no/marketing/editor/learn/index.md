@@ -4,12 +4,12 @@ title: Dra og slipp editor
 description: Dra og slipp editor
 keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: concept
+date: 02.06.2024
+version: 10
+topic: concept
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Dra og slipp editor

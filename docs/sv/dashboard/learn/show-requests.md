@@ -3,11 +3,11 @@ uid: help-sv-dashboard-requests
 title: Använda ärenden i figurer
 description: I den här guiden förklarar vi hur du får en snabb överblick över alla öppna ärenden på dashboards i SuperOffice.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: dashboard, ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

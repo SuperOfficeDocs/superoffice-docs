@@ -3,9 +3,9 @@ uid: help-nl-mail-link-senders
 title: Afzenders beheren
 description: Afzenders beheren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: howto, sender
+topic: howto, sender
 language: nl
 ---
 

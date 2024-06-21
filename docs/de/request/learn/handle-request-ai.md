@@ -3,11 +3,11 @@ uid: help-de-request-ai
 title: Effizientes Bearbeiten von Anfragen mithilfe von KI
 description: Die Einführung von Künstlicher Intelligenz (KI) in SuperOffice 10 bietet Bearbeitern von Anfragen/Supportmitarbeitern ein neues Set intelligenter Tools für einen effizienteren Arbeitstag.
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: Anfrage, KI, effizient
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

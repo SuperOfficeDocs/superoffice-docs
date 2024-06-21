@@ -3,9 +3,9 @@ uid: help-nl-erp-connection-add
 title: ERP-verbinding toevoegen
 description: ERP-verbinding toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: offerte, ERP, connector
-so.topic: howto
+topic: howto
 language: nl
 ---
 

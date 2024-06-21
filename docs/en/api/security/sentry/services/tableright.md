@@ -3,10 +3,10 @@ title: TableRight (services)
 uid: sentry_tableright
 description: Sentry in services - TableRight property
 author: Bergfrid Dias
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: Sentry, SOAP, security, TableRight
-so.topic: concept
-so.area: api-services
+topic: concept
+area: api-services
 ---
 
 # TableRight (services)

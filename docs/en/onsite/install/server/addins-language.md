@@ -4,9 +4,9 @@ uid: addins_language
 description: How to change Ribbons and MailLink language
 author: {github-id}
 keywords: ribbons maillink language change
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # How to change the language of SuperOffice Ribbons and MailLink

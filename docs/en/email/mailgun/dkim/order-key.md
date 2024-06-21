@@ -3,11 +3,11 @@ title: Request DKIM key for eu.mailgun.org
 uid: order_dkim_key
 description: How to request DKIM key for eu.mailgun.org
 author: {github-id}
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: mailgun
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Request DKIM key for eu.mailgun.org

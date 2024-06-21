@@ -2,10 +2,10 @@
 uid: saleagent-script-events
 title: SaleAgent script event methods
 description: NetServer script event methods.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # SaleAgent method listing

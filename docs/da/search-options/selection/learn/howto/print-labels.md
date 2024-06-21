@@ -3,9 +3,9 @@ uid: help-da-selection-print-labels
 title: Udskrivning af ledetekster Udvalg
 description: Udskrivning af ledetekster Udvalg
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-contact-send-email
 title: Skicka e-post till en kontakt
 description: Om du skickar e-post via SuperOffice CRM blir det enklare att dela och spara all kundkommunikation på ett och samma ställe.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: sv
 ---
 

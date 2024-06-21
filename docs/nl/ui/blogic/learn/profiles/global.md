@@ -3,9 +3,9 @@ uid: help-nl-service-profile-global
 title:  Globale profielen
 description:  Globale profielen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profiel, service
-so.topic: concept
+topic: concept
 language: nl
 ---
 

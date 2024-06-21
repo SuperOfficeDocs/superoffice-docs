@@ -3,11 +3,11 @@ title: AppointmentMatrix
 uid: appointmentmatrix
 description: The AppointmentMatrix is used to manage complex appointments at the NetServer data layer.
 author: Bergfrid Skaara Dias
-so.date: 03.04.2022
+date: 03.04.2022
 keywords: entity
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # AppointmentMatrix

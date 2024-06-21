@@ -4,12 +4,12 @@ title: Nollställa räknare för länkar
 description: Nollställa räknare för länkar
 keywords: Marknadsföring
 author: Bergfrid Dias
-so.date: 02.26.2024
-so.version: 10
-so.topic: howto
+date: 02.26.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Nollställa räknare för länkar

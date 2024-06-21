@@ -3,9 +3,9 @@ uid: help-sv-reports
 title: Rapporter
 description: Rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: concept
+topic: concept
 language: sv
 ---
 

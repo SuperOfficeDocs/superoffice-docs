@@ -3,9 +3,9 @@ title: Query syntax
 uid: crmscript_blogic_query_syntax
 description: Query syntax
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Query syntax

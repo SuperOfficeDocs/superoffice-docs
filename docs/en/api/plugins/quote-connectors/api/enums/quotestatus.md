@@ -3,9 +3,9 @@ title: Enum QuoteStatus
 uid: quote_connector_enum_quotestatus
 description: ERP Quote Connector Interface data carrier - Enum QuoteStatus
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # Enum QuoteStatus

@@ -3,11 +3,11 @@ uid: api_scenarios_web_online
 title: Integration in the online Web client
 description: Integration in the online Web client
 author: Tony Yates
-so.date: 11.25.2021
+date: 11.25.2021
 keywords: API, integration point, online
-so.topic: concept
-so.envir: cloud
-so.client: web
+topic: concept
+envir: cloud
+client: web
 ---
 
 # Integration scenarios: Web client (online)

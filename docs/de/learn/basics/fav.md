@@ -3,11 +3,11 @@ uid: help-de-favourites
 title: Favoriten
 description: Favoriten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Favoriten
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

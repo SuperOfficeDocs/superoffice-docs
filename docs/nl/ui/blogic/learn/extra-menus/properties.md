@@ -3,9 +3,9 @@ uid: help-nl-ui-extra-menu-properties
 title: Menu-eigenschappen
 description: Menu-eigenschappen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: howto
+topic: howto
 language: nl
 ---
 

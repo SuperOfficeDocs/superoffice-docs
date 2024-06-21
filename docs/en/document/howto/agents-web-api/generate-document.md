@@ -3,11 +3,11 @@ title: Generate document
 uid: generate_document_webapi
 description: How to generate a document with the WebAPI.
 author: Bergfrid Skaara Dias
-so.date: 11.18.2021
+date: 11.18.2021
 keywords: contact, company, API, WebAPI, agents, SaveDocumentEntity, SetDocumentStreamFromId, CreateNewPhysicalDocumentFromTemplate
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Generate a document

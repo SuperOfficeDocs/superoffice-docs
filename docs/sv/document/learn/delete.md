@@ -3,9 +3,9 @@ uid: help-sv-document-delete
 title: Ta bort dokument
 description: Ta bort dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: howto
+topic: howto
 language: sv
 ---
 

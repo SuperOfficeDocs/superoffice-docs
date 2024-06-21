@@ -2,11 +2,11 @@
 title: Video Meetings for SuperOffice - Zoom
 uid: video_meetings_zoom
 description: Getting started with Video Meetings for SuperOffice - Zoom
-so.date: 06.21.2021
+date: 06.21.2021
 keywords: video meeting, Zoom
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 # Video Meetings for SuperOffice: Zoom
 

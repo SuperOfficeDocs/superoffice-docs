@@ -3,9 +3,9 @@ uid: help-sv-selection-send-email
 title: Skicka e-post till flera mottagare samtidigt
 description: Skicka e-post till flera mottagare samtidigt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

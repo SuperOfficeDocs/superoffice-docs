@@ -2,10 +2,10 @@
 uid: contactagent-getcontactwithpersons
 title: ContactAgent.GetContactWithPersons event method
 description: Scripting events called on the GetContactWithPersons method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.GetContactWithPersons
 

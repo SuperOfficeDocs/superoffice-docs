@@ -3,9 +3,9 @@ uid: help-de-diary-screen
 title: Die Ansicht Kalender
 description: Die Ansicht Kalender
 author: SuperOffice RnD
-so.date: 10.02.2023
+date: 10.02.2023
 keywords: Kalender, Folgeaufgabe
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-quote-create-order
 title: offert skapa order
 description: I den här guiden förklarar vi hur du registrerar en order.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

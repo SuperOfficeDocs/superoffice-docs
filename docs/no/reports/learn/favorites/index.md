@@ -3,9 +3,9 @@ uid: help-no-report-fav
 title: Favorittrapporter
 description: Favorittrapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: no
 ---
 

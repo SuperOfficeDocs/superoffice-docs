@@ -3,9 +3,9 @@ uid: help-nl-project-delete
 title: Een project verwijderen
 description: Zo verwijdert u een project uit SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,11 +3,11 @@ title: Model-view-controller pattern
 uid: model_view_controller_pattern
 description: Web client and the model-view-controller pattern
 author: Tony Yates
-so.date: 02.16.2009
+date: 02.16.2009
 keywords:
-so.topic: articleguide
-so.envir: onsite
-so.client: web
+topic: articleguide
+envir: onsite
+client: web
 ---
 
 # Web client and the model-view-controller pattern

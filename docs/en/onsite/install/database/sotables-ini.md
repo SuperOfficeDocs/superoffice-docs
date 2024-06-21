@@ -3,11 +3,11 @@ title: SoTables.ini
 uid: sotables_ini
 description: SoTables.ini
 author: Bergfrid Dias
-so.date: 12.10.2021
+date: 12.10.2021
 keywords: database, DBSetup, SoTables.ini
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # SoTables.ini

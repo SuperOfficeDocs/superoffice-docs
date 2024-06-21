@@ -3,9 +3,9 @@ uid: help-de-sale-screen-quote-tab
 title: Angebot (Bereichsregisterkarte in Verkauf)
 description: Angebot (Bereichsregisterkarte in Verkauf)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf, Angebot
-so.topic: reference
+topic: reference
 language: de
 ---
 

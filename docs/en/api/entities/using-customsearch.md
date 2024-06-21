@@ -4,9 +4,9 @@ uid: using_customsearch
 description: CustomSearch
 author: {github-id}
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # CustomSearch

@@ -3,9 +3,9 @@ uid: help-da-follow-up-edit
 title: Rediger opfølgning
 description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen; Rediger eller slet invitation
 author: Bergfrid Dias
-so.version: 10.2.11
+version: 10.2.11
 keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald, gentag
-so.topic: howto
+topic: howto
 language: da
 ---
 

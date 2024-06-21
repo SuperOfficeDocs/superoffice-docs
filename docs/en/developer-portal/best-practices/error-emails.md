@@ -3,12 +3,12 @@ title: Error reporting emails
 uid: dp-error-email
 description: How to subscribe to error emails in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2023
+date: 04.27.2023
 keywords: Developer Portal, app, notification, error, tenant status
-so.topic: howto
-so.dp-version: 1.11
-so.envir: cloud
-so.client:
+topic: howto
+version_devportal: 1.11
+envir: cloud
+client:
 ---
 
 # Error reporting emails

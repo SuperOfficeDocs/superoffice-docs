@@ -3,10 +3,10 @@ uid: help-no-sync-configure-default-values
 title: synkronisere konfigurere standardverdier
 description: synkronisere konfigurere standardverdier
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: tilbud, sync, connector, ERP
-so.topic: howto
-so.user: admin
+topic: howto
+audience: settings
 language: no
 ---
 

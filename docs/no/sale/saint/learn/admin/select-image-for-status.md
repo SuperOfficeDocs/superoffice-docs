@@ -3,11 +3,11 @@ uid: help-no-select-image-for-status
 title: Velg bilde for status
 description: Velg bilde for status
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: salg, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

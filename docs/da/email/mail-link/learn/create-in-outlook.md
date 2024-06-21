@@ -3,9 +3,9 @@ uid: help-da-mail-link-create-outlook
 title: Sådan oprettes e-mails i Microsoft Outlook
 description: Sådan oprettes e-mails i Microsoft Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: SuperOffice Mail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

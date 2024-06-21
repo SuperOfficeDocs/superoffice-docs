@@ -3,9 +3,9 @@ uid: help-no-selection-generate-follow-ups
 title: Genererer oppfølging
 description: Genererer oppfølging
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,10 +3,10 @@ uid: help-da-invitation-add-attendee
 title: Tilføjelse af deltagere i opfølgninger
 description: "Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
 author: Bergfrid Dias
-so.date: 01.15.2024
-so.version: 10.2.11
+date: 01.15.2024
+version: 10.2.11
 keywords: dagbog, opfølgning, invitation, deltager
-so.topic: howto
+topic: howto
 language: da
 ---
 

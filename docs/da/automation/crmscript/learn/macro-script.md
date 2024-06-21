@@ -3,11 +3,11 @@ uid: help-da-automation-macro
 title: Makroer og script
 description: Makroer og script
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: script, makro
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

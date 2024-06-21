@@ -3,11 +3,11 @@ uid: help-da-sign-in-to-superoffice
 title: Sådan logger du ind
 description: Log ind for at aktivere din SuperOffice CRM-konto ved hjælp af en SuperOffice CRM-adgangskode eller en single sign-on-indstilling.
 author: SuperOffice RnD
-so.date: 08.28.2023
+date: 08.28.2023
 keywords: CRM, log ind, login, adgangskode
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-create-request
 title: Verzoek maken
 description: Verzoek maken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -4,9 +4,9 @@ uid: sync_user
 description: Sync user to SuperOffice now
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Sync user to SuperOffice now

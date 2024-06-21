@@ -3,9 +3,9 @@ uid: help-no-sms-mailbox-create
 title: Opprette SMS-postkasse
 description: Opprette SMS-postkasse
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

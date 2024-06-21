@@ -3,9 +3,9 @@ uid: help-de-admin-onboard
 title: Überblick
 description: Einführung in die Verwaltung von SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Admin, Einstellungen und Verwaltung
-so.topic: howto
+topic: howto
 language: de
 ---
 # Benutzer einbinden

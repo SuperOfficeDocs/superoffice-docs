@@ -3,9 +3,9 @@ uid: SaleShadowDynamicSelectionSingleCriteriaGroup
 title: SaleShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic sale provider.
 keywords: SaleShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleShadowDynamicSelectionSingleCriteriaGroup"

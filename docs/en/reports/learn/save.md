@@ -3,9 +3,9 @@ uid: help-en-saving-reports-as-files
 title: Saving reports as files
 description: Saving reports as files
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: help
+topic: help
 language: en
 ---
 

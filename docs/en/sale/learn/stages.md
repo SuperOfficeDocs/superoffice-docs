@@ -3,9 +3,9 @@ uid: help-en-sale-stages
 title: Status of a sale, sold and lost
 description: Status of a sale, sold and lost
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: concept
+topic: concept
 language: en
 ---
 

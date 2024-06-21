@@ -3,9 +3,9 @@ title: Diary - services
 uid: api_diary_services
 description: Working with appointments via web services
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: diary, calendar, appointment, invitation, API, web services
-so.topic: concept
+topic: concept
 ---
 
 # Diary - services

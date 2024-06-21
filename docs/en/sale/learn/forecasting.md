@@ -3,9 +3,9 @@ uid: help-en-sale-forecasting
 title: Monitor your pipeline and forecast sales
 description: How to monitor your sales pipeline and forecast your sales with the help of dashboards, selections, and reports.
 author: Bergfrid Dias
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

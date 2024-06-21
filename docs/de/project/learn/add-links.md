@@ -3,9 +3,9 @@ uid: help-de-project-link-add
 title: Verknüpfungen aus der Ansicht Projekt hinzufügen
 description: Verknüpfungen aus der Ansicht Projekt hinzufügen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-quote-approve
 title: Angebot vor dem Senden genehmigen
 description: Angebot vor dem Senden genehmigen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

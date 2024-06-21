@@ -3,9 +3,9 @@ uid: help-sv-chat-transfer-to-agent
 title: Överföra ett chattsamtal till en annan agent
 description: I den här guiden förklarar vi hur du överför en chatt till en annan handläggare.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

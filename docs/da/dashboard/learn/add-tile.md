@@ -3,9 +3,9 @@ uid: help-da-dashboard-tile-add
 title: Tilføj rude/rediger layout i dashboard
 description: "I denne vejledning lærer du, hvordan du opretter en rude i dashboard."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

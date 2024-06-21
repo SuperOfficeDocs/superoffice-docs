@@ -3,11 +3,11 @@ uid: help-de-request
 title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Anfrage, Ticket, Service
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

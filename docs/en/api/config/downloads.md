@@ -2,11 +2,11 @@
 title: Downloads element
 uid: ns_config_Downloads
 description: NetServer configuration values related to Downloads.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, WebTools, Downloads, DownloadFolder, NewTrayAppUrl, ReportingInterval, WebSiteEndPoint, WebToolVersion
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Downloads element (SuperOffice only)

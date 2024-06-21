@@ -2,10 +2,10 @@
 uid: database-table-listing-by-number
 title: Database table listing by table ID
 description: Lists all tables in the database by table ID.
-so.generated: true
+generated: true
 keywords: database
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # Database tables by [name](index.md) | **number** 

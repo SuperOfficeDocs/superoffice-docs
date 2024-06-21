@@ -3,9 +3,9 @@ uid: help-en-email-inbox-options
 title: Options
 description: Options
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: email, inbox
-so.topic: reference
+topic: reference
 language: en
 ---
 

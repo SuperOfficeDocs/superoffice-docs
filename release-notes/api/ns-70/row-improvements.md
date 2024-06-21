@@ -3,9 +3,9 @@ title: Row improvements
 uid: whats_new_70_rows
 description: NetServer 7.0
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Row improvements

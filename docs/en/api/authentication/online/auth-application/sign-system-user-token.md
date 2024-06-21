@@ -4,9 +4,9 @@ uid: sign_system_user_token
 description: How to sign system user token
 author: {github-id}
 keywords: authentication, system user
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD051 -->

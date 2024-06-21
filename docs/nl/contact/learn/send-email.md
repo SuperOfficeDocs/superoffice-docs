@@ -3,9 +3,9 @@ uid: help-nl-contact-send-email
 title: E-mail verzenden naar een contactpersoon
 description: Het verzenden van e-mails via SuperOffice CRM maakt het eenvoudiger om al uw klantcommunicatie op één plek te delen en op te slaan.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: persoon, contactpersoon
-so.topic: howto
+topic: howto
 language: nl
 ---
 

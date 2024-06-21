@@ -4,11 +4,11 @@ title: Working web services and REST
 description: How to work with the SuperOffice APIs - web services and REST
 keywords: API, web services, REST
 author: Bergfrid Dias
-so.date: 06.18.2024
-so.version: 10.3
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 06.18.2024
+version: 10.3
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Working web services and REST

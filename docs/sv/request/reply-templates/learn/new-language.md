@@ -3,11 +3,11 @@ uid: help-sv-reply-template-language
 title: Skapa ny språkversion av svarsmall
 description: Skapa ny språkversion av svarsmall
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

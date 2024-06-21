@@ -3,11 +3,11 @@ title: Event details
 uid: webhook_event_details
 description: Event details
 author: Tony Yates
-so.date: 04.06.2018
+date: 04.06.2018
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Event details

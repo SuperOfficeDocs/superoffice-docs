@@ -3,11 +3,11 @@ title: How to use custom config files (and folder)
 uid: webapp_custom_config
 description: How to use custom config files (and folder)
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to use custom config files (and folder)

@@ -3,9 +3,9 @@ uid: help-sv-sale-screen
 title: Försäljningsskärm
 description: Fönstret försäljning i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: reference
+topic: reference
 language: sv
 ---
 

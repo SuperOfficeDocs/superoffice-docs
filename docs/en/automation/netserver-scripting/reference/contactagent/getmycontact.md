@@ -2,10 +2,10 @@
 uid: contactagent-getmycontact
 title: ContactAgent.GetMyContact event method
 description: Scripting events called on the GetMyContact method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.GetMyContact
 

@@ -2,11 +2,11 @@
 title: WebServices element
 uid: ns_config_webservices
 description: NetServer WebServices element
-so.date: 12.17.2021
+date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, web services, AllowWebServiceRequests, RemoteBaseURL, RemoveInvalidXMLText, WrapExceptions
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer WebServices element

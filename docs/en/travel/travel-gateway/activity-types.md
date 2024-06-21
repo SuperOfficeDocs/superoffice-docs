@@ -3,10 +3,10 @@ uid: activity_types
 description: Activity types for scheduling
 author: {github-id}
 keywords:
-so.date:
-so.topic: reference
-so.envir: onsite
-so.client: win
+date:
+topic: reference
+envir: onsite
+client: win
 ---
 
 # Activity types for scheduling

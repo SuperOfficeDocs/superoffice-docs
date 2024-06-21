@@ -3,9 +3,9 @@ uid: help-de-document
 title: Mit Dokumenten arbeiten
 description: "Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM erstellen und speichern können und wie Sie sie direkt in Ihrer CRM-Lösung senden und empfangen können."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Dokument
-so.topic: concept
+topic: concept
 language: de
 ---
 

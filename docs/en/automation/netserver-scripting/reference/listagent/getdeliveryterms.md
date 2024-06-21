@@ -2,10 +2,10 @@
 uid: listagent-getdeliveryterms
 title: ListAgent.GetDeliveryTerms event method
 description: Scripting events called on the GetDeliveryTerms method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetDeliveryTerms
 

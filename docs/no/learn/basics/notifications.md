@@ -3,11 +3,11 @@ uid: help-no-notifications
 title: Varsler
 description: "Varsler om invitasjoner, meldinger og saker"
 author: Hanne Gunnarsson, Bergfrid Dias
-so.date: 08.30.2023
+date: 08.30.2023
 keywords: varsling, invitasjon, sak, melding
-so.topic: concept
-so.user: user
-so.user.tooltip: SuperOffice CRM
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

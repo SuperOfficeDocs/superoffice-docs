@@ -3,9 +3,9 @@ title: Person - SQL
 uid: api_person_sql
 description: Working with contacts (person) in API with raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, SQL, API
-so.topic: howto
+topic: howto
 ---
 
 # Contact - SQL

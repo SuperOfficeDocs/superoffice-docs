@@ -3,9 +3,9 @@ uid: help-en-selection-screen
 title: Section tabs in the Selection screen
 description: Section tabs in the Selection screen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: reference
+topic: reference
 language: en
 ---
 

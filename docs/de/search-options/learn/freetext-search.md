@@ -3,9 +3,9 @@ uid: help-de-search-freetext
 title: Volltextsuche
 description: Volltextsuche
 author: SuperOffice RnD
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: Volltext, Suchen
-so.topic: howto
+topic: howto
 language: de
 ---
 

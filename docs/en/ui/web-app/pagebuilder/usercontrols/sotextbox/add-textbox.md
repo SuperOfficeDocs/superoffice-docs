@@ -3,11 +3,11 @@ title: Adding a textbox
 uid: webapp_add_textbox
 description: Adding a textbox that displays data from a data handler
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: gui
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # Adding a textbox that displays data from a data handler

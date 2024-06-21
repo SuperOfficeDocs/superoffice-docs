@@ -3,9 +3,9 @@ uid: help-en-project-member-invite
 title: Invite project members to a meeting
 description: How to invite a project member to a meeting in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, member, invite
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: SuperOffice.CRM.Cache
 uid: superoffice_crm_cache
 description: SuperOffice.CRM.Cache
 author: {github-id}
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: cache
-so.topic: reference
+topic: reference
 ---
 
 # SuperOffice.CRM.Cache

@@ -3,12 +3,12 @@ uid: mobile-crm-notifications
 title: Manage notifications
 description: How to manage notifications in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.04.2023
+date: 08.04.2023
 keywords: mobile, notification
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Manage notifications

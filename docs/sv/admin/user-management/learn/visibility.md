@@ -3,9 +3,9 @@ uid: help-sv-visibility
 title: Synlighet
 description: Synlighet
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: synlighet, user, roll, tillgängligt
-so.topic: concept
+topic: concept
 language: sv
 ---
 

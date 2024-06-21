@@ -3,11 +3,11 @@ uid: help-sv-request
 title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende, ärende, tjänst
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

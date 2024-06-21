@@ -3,9 +3,9 @@ uid: help-no-license-activate
 title: Aktivere lisens
 description: Aktivere lisens for SuperOffice
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: lisens
-so.topic: howto
+topic: howto
 language: no
 ---
 

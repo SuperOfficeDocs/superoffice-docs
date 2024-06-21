@@ -4,12 +4,12 @@ title: Publisere skjemaer
 description: Publisere skjemaer
 keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, skriptkode
 author: SuperOffice RnD
-so.date: 03.07.2024
-so.version: 10
-so.topic: howto
+date: 03.07.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Publisere skjemaer

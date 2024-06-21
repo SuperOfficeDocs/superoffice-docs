@@ -3,9 +3,9 @@ uid: crmscript-project-guide
 title: Project guides
 description: How to work with project guides in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: CRMScript, project, project guide, project type, stage, ProjectAgent
-so.topic: howto
+topic: howto
 ---
 
 # Project guides

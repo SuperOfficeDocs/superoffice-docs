@@ -2,11 +2,11 @@
 title: High-level database layer (Rows)
 description: Rows are simple, straightforward persistence objects that represent one or more rows from a database table.
 author: AnthonyYates
-so.date: 11.16.2021
+date: 11.16.2021
 keywords: data access, row, rows, collection, HDB, DataTable, DataRow, SuperOffice.CRM.Rows, TableInfo, FieldInfo, GetFromIdx, CustomSearch
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web
+topic: concept
+envir: cloud, onsite
+client: win, web
 ---
 
 # High-level database layer (Rows)

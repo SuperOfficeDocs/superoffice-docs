@@ -3,11 +3,11 @@ title: Sale stakeholder webhook events
 uid: webhook_salestakeholder_event
 description: Sale stakeholder events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Sale stakeholder webhook events

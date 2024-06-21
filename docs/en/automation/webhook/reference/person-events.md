@@ -3,11 +3,11 @@ title: Person webhook events
 uid: webhook_person_event
 description: Person events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 # Person webhook events
 

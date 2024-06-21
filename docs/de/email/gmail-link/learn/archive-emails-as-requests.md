@@ -3,9 +3,9 @@ uid: help-de-gmail-link-archive-email-as-requests
 title: E-Mail als Anfragen archivieren
 description: E-Mail als Anfragen archivieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

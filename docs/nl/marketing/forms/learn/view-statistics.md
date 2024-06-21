@@ -4,12 +4,12 @@ title: Formulierverzendingen traceren en statistieken weergeven
 description: Formulierverzendingen traceren en statistieken weergeven
 keywords: formulier, formulierverzending, formulier weergeven
 author: Bergfrid Dias
-so.date: 03.19.2024
-so.version: 10
-so.topic: howto
+date: 03.19.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Formulierverzendingen traceren en statistieken weergeven

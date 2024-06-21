@@ -3,9 +3,9 @@ uid: help-da-sharepoint-documents
 title: Integration af SharePoint-dokumentbibliotek
 description: Med tilføjelsesprogrammet SuperOffice til Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: dokument, Sharepoint
-so.topic: concept
+topic: concept
 language: da
 ---
 

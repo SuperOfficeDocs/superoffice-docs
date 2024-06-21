@@ -3,9 +3,9 @@ uid: help-nl-using-standard-templates
 title: Standaardsjablonen gebruiken
 description: Standaardsjablonen gebruiken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

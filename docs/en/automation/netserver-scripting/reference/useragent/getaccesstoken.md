@@ -2,10 +2,10 @@
 uid: useragent-getaccesstoken
 title: UserAgent.GetAccessToken event method
 description: Scripting events called on the GetAccessToken method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.GetAccessToken
 

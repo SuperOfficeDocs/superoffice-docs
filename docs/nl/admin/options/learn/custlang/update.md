@@ -3,9 +3,9 @@ uid: help-nl-languages-add
 title: Werken met klanttalen
 description: Meer informatie over het instellen van klanttalen vindt u in deze handleiding.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: taal
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -2,11 +2,11 @@
 title: SuperId element
 uid: ns_config_superid
 description: NetServer configuration values for accessing SuperID.
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SuperID, TenantKey, TenantId, Environment
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer SuperId element (SuperOffice only)

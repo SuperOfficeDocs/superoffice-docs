@@ -3,9 +3,9 @@ uid: help-en-mail-link
 title: Introduction to SuperOffice Mail Link
 description: Introduction to SuperOffice Mail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: concept
+topic: concept
 language: en
 ---
 

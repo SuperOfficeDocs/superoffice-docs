@@ -3,9 +3,9 @@ uid: help-sv-standard-reports
 title: Standardrapporter
 description: Standardrapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: reference
+topic: reference
 language: sv
 ---
 

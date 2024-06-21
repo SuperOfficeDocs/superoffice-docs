@@ -3,11 +3,11 @@ uid: help-sv-faq-view-entry
 title: Visa FAQ-poster
 description: Visa FAQ-poster
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

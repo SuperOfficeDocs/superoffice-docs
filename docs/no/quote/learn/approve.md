@@ -3,9 +3,9 @@ uid: help-no-quote-approve
 title: Godkjenne tilbud før sending
 description: Godkjenne tilbud før sending
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

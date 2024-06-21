@@ -3,11 +3,11 @@ uid: help-no-freetext-index-regen
 title: Regenerere en fritekstindeks
 description: Regenerere en fritekstindeks
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: fritekst, søkeindeks
-so.topic: howto
+topic: howto
 language: no
-so.envir: onsite
+envir: onsite
 ---
 
 # Regenerere en fritekstindeks (onsite)

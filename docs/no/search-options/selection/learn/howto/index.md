@@ -3,9 +3,9 @@ uid: help-no-selection-user
 title: Utføre oppgaver ved hjelp av utvalg
 description: Utføre oppgaver ved hjelp av utvalg
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

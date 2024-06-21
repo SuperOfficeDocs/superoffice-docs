@@ -3,9 +3,9 @@ uid: help-de-create-request
 title: Anfrage erstellen
 description: Anfrage erstellen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: help
+topic: help
 language: de
 ---
 

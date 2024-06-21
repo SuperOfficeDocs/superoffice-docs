@@ -3,9 +3,9 @@ uid: help-nl-standard-reports
 title: Standaardrapporten
 description: Standaardrapporten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: reference
+topic: reference
 language: nl
 ---
 

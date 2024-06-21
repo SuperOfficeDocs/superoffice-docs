@@ -4,12 +4,12 @@ title: Bilder in die Nachricht einfügen
 description: "Die Verwendung sorgfältig ausgewählter Bilder in Ihren Kampagnen kann Ihre Ergebnisse stark beeinflussen. Sie können Ihre eigenen Bilder hochladen oder eines der Millionen von Bildern powered by Unsplash, Pexels und Pixabay in der Online-Bildbibliothek verwenden."
 keywords: Marketing, Bild
 author: SuperOffice RnD
-so.date: 02.06.2024
-so.version: 10
-so.topic: howto
+date: 02.06.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Bilder in die Nachricht einfügen

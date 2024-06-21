@@ -3,9 +3,9 @@ uid: help-nl-dashboard
 title: Dashboards
 description: SuperOffice Dashboard instellen in en vooraf gedefinieerde tegels gebruiken. Dashboards zijn ideaal voor alle gebruikers en managers. U kunt een overzicht krijgen van uw individuele werk of uw teamprestaties.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: concept
+topic: concept
 language: nl
 ---
 

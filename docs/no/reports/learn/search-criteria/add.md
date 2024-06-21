@@ -3,9 +3,9 @@ uid: help-no-report-search-criteria-add
 title: Legge til søkekriterier i rapporter
 description: Legge til søkekriterier i rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

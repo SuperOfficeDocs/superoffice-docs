@@ -3,9 +3,9 @@ uid: help-sv-project-members-tab
 title: Projektdeltagare
 description: Projektdeltagare
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltagare
-so.topic: reference
+topic: reference
 language: sv
 ---
 

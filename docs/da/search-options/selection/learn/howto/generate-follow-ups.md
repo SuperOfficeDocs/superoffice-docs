@@ -3,9 +3,9 @@ uid: help-da-selection-generate-follow-ups
 title: Generering af opfølgninger
 description: Generering af opfølgninger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

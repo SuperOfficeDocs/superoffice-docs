@@ -3,9 +3,9 @@ uid: help-nl-mail-link-archive-on-contact
 title: E-mails archiveren op bedrijven/personen
 description: E-mails archiveren op bedrijven/personen
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail-koppeling, e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

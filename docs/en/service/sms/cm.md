@@ -4,7 +4,7 @@ uid: cm_sms_plugin
 description: Configuration of CM NetServer SMS plugin
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Configuration of CM NetServer SMS Plugin

@@ -4,10 +4,10 @@ title: Vis ekstra felt på fanen Detaljer
 description: Vis ekstra felt på fanen Detaljer
 keywords: extra field, custom field, request, layout, screen designer
 author: Bergfrid Dias
-so.date: 0130.2024
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 0130.2024
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

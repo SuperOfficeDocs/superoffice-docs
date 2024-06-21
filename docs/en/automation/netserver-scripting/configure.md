@@ -3,11 +3,11 @@ title: How to configure scripting
 uid: concfig_scripting_ns_services
 description: How to configure scripting
 author: Tony Yates
-so.date: 04.15.2009
-so.topic: howto
+date: 04.15.2009
+topic: howto
 keywords:
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # How to configure scripting

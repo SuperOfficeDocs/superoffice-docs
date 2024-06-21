@@ -3,11 +3,11 @@ title: COM interop and .Net
 uid: com_interop_dotnet
 description: COM interop and .net
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: COM
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # COM interop and .Net

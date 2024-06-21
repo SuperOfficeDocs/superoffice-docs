@@ -2,9 +2,9 @@
 uid: crmscript_datatypes_long
 title: Long data type
 author: kronicz
-so.date: 15.11.2022
+date: 15.11.2022
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Long data type

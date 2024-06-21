@@ -3,11 +3,11 @@ uid: help-de-user-add
 title: Benutzer hinzufügen
 description: "In dieser Anleitung lernen Sie, wie Sie einen neuen Benutzer zu SuperOffice CRM hinzufügen."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user, Mitarbeiter
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

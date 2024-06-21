@@ -3,9 +3,9 @@ uid: help-no-service-mailboxes-in
 title: Innboks for e-post
 description: Innboks for e-post
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: reference
+topic: reference
 language: no
 ---
 

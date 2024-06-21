@@ -4,8 +4,8 @@ uid: cs_soap_ports_customer_getextrafields
 description: Services SOAP interface port reference - customer getExtraFields
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # getExtraFields

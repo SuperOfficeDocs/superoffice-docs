@@ -4,11 +4,11 @@ title: How to set up a DKIM Record
 description: How to set up a DKIM Record, authorizing an email service to send emails on your behalf.
 keywords: DKIM, email, Mailgun, public domain key, domain name, DNS console, host record
 author: Martin Pavlas
-so.date: 03.04.2024
-so.version: 10.3
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 03.04.2024
+version: 10.3
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to set up a DKIM Record

@@ -3,10 +3,10 @@ uid: help-da-email-change-default-client
 title: Skift standard e-mailklient i SuperOffice
 description: Skift standard e-mailklient i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail, indstillinger, e-mailklient
 language: da
-so.topic: howto
+topic: howto
 ---
 
 # Skift standard e-mailklient i SuperOffice

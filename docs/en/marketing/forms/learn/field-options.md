@@ -4,12 +4,12 @@ title: Field options
 description: List of fields (and their options) you can add to a SuperOffice Marketing form.
 keywords: form, field, form element, view element, reCAPTCHA
 author: SuperOffice RnD
-so.date: 02.29.2024
-so.version: 10
-so.topic: reference
+date: 02.29.2024
+version: 10
+topic: reference
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Field options

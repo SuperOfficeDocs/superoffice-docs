@@ -3,9 +3,9 @@ uid: help-no-document-template
 title: Dokumentmal
 description: Dokumentmal
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Innstillinger og vedlikehold
-so.topic: help
+topic: help
 language: no
 ---
 

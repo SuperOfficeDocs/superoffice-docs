@@ -3,9 +3,9 @@ title: Adding a list item
 uid: add_list_item_sql
 description: Adding a list item
 author:
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: category, list, CategoryGL
-so.topic: howto
+topic: howto
 ---
 
 # Adding a list item

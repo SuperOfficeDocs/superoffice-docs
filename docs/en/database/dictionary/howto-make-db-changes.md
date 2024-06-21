@@ -3,11 +3,11 @@ title: How to create tables
 uid: create_cdd_tables
 description: How to create tables in the SuperOffice database for version 8.1 and higher
 author: Tony Yates
-so.date: 06.23.2017, 11.02.2017
+date: 06.23.2017, 11.02.2017
 keywords:
-so.topic: guide
-# so.envir:
-# so.client:
+topic: guide
+# envir:
+# client:
 ---
 
 # How to create tables in the SuperOffice database (CDD)

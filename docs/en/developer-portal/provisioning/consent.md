@@ -3,11 +3,11 @@ title: Consent to app
 uid: provisioning-consent
 description: "Learn about the tenant-approval sequence and when the customer's admin must authorize the application."
 author: Margrethe Romnes
-so.date: 12.20.2023
+date: 12.20.2023
 keywords: provisioning, apps, consent, I approve
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Consent

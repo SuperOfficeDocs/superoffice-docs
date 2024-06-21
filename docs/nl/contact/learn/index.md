@@ -3,9 +3,9 @@ uid: help-nl-contact
 title: Persoon
 description: "Een persoonskaart slaat waardevolle informatie op over al je communicatie en interactie met een persoon, evenals hun AVG-toestemmingsdocumentatie."
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: persoon, contactpersoon
-so.topic: concept
+topic: concept
 language: nl
 ---
 

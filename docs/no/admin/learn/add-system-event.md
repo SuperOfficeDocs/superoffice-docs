@@ -3,11 +3,11 @@ uid: help-no-system-event-add
 title: Legge til systemoperasjoner
 description: Legge til systemoperasjoner
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: arrangement, varsling
-so.topic: howto
+topic: howto
 language: no
-so.envir: onsite
+envir: onsite
 ---
 
 # Legge til systemoperasjoner (Onsite)

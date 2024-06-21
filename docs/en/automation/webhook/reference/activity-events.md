@@ -3,11 +3,11 @@ title: Activity events
 uid: webhook_activity_event
 description: Activity events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Activity events

@@ -3,9 +3,9 @@ uid: help-da-erp-create-new-actor
 title: Oprettelse af aktør i ERP-systemet
 description: Oprettelse af aktør i ERP-systemet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: da
 ---
 

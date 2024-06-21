@@ -3,9 +3,9 @@ uid: help-en-selection-combine
 title: Create a combined selection
 description: In this howto, you will learn how to create a combined selection.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

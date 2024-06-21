@@ -3,12 +3,12 @@ uid: mobile-crm-request
 title: Request
 description: Learn about working with requests in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.03.2023
+date: 08.03.2023
 keywords: mobile, request, ticket, Service
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Request ![icon][img11]

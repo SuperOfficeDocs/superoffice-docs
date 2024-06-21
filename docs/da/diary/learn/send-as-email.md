@@ -3,9 +3,9 @@ uid: help-da-follow-up-send
 title: Afsendelse af opfølgninger
 description: Afsendelse af opfølgninger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dagbog, opfølgning
-so.topic: howto
+topic: howto
 language: da
 ---
 

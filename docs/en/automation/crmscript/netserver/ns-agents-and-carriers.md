@@ -2,9 +2,9 @@
 uid: crmscript_netserver
 title: NetServer agents and carriers
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # NetServer agents and carriers

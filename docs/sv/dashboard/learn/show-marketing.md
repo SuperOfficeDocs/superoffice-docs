@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tile-marketing
 title: Använda utskick och formulär i figurer
 description: "Skapa dashboards för dina marknadsföringsuppgifter, till exempel formulärinlämningar och utskick, för att spåra och analysera resultat, trender och produktivitet i alla marknadsföringsaktiviteter."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: dashboard, marknadsföring
-so.topic: howto
+topic: howto
 language: sv
 ---
 

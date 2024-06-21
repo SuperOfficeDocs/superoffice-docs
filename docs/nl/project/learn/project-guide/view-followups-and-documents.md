@@ -3,9 +3,9 @@ uid: help-nl-view-followups-and-documents
 title: Vervolgactiviteiten en documenten weergeven
 description: Vervolgactiviteiten en documenten weergeven
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: nl
 ---
 

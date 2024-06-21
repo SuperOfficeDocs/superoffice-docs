@@ -3,9 +3,9 @@ uid: help-nl-gmail-link-install
 title: SuperOffice Gmail Link installeren
 description: Meer informatie over het installeren van de browserextensie voor Gmail vindt u in deze handleiding.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

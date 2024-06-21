@@ -3,11 +3,11 @@ title: Requirements
 uid: crm_server_requirements
 description: System requirements for SuperOffice server
 author: {github-id}
-so.date: 09.12.2023
+date: 09.12.2023
 keywords:
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # System requirements for SuperOffice server hosting CRM server

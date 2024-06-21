@@ -3,9 +3,9 @@ uid: help-nl-sale-screen
 title: Verkoopscherm
 description: Het scherm Verkoop in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: reference
+topic: reference
 language: nl
 ---
 

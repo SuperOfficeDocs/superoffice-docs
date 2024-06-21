@@ -3,9 +3,9 @@ title: nvoice
 uid: blogic_invoice
 description: Invoice
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Invoice

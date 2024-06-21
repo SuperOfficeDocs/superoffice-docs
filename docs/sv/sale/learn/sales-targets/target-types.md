@@ -3,9 +3,9 @@ uid: help-sv-sales-target-types
 title: Ställ in en typ av försäljningsmål med undertyper
 description: Att hålla koll på dina försäljningsmål kan vara stressande. Men om du definierar parametrar och dimensioner för dina försäljningsmål blir det mycket lättare att hantera dem.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-project-screen-activities
 title: Registerkarte Aktivitäten
 description: Registerkarte Aktivitäten In der Ansicht Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt
-so.topic: reference
+topic: reference
 language: de
 ---
 

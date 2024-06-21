@@ -3,9 +3,9 @@ uid: help-en-contact
 title: Contact
 description: A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation.
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: person, contact
-so.topic: concept
+topic: concept
 language: en
 ---
 

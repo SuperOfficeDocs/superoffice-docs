@@ -3,11 +3,11 @@ title: Localization requirements
 uid: app-localization-requirements
 description: "Localization and language support requirements for certifying standard applications."
 author: Margrethe Romnes
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: certification, apps
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Requirements for localization and language support

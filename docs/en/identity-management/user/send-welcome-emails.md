@@ -4,7 +4,7 @@ uid: send_welcome_emails
 description: Send welcome emails to new users
 author: Bergfrid Dias
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Send welcome emails to new users

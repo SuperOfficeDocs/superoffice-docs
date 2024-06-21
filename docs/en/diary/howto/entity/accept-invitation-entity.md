@@ -3,11 +3,11 @@ title: How to accept an invitation (data layer)
 uid: accept_invitation_entity
 description: How to accept an invitation using entities at the NetServer data layer.
 author: Bergfrid Skaara Dias
-so.date: 03.04.2022
+date: 03.04.2022
 keywords: diary, calendar, appointment, API, entity, InvitationProvider, ArchiveRows, AppointmentMatrix
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to accept an invitation (data layer)

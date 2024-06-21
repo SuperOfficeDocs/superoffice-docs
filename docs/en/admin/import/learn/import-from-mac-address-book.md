@@ -3,9 +3,9 @@ uid: help-en-import-from-mac-address-book
 title: Import from Mac Address book
 description: Import from Mac Address book
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance, import
-so.topic: help
+topic: help
 language: en
 ---
 

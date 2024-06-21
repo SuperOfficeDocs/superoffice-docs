@@ -3,9 +3,9 @@ uid: help-en-adding-items-to-relation-list
 title: Adding items to the Relation list
 description: Adding items to the Relation list
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

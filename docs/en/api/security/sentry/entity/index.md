@@ -4,9 +4,9 @@ uid: sentry_scenarios
 description: NetServer scenarios
 author: {github-id}
 keywords: access control
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # NetServer scenarios

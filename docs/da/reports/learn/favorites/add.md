@@ -3,9 +3,9 @@ uid: help-da-report-fav-add
 title: Tilføjelse af foretrukne rapporter
 description: Tilføjelse af foretrukne rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: ProjectGuideAppointment
 title: ProjectGuideAppointment
 description: Specific provider for Project Guide Items of type Appointment
 keywords: ProjectGuideAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectGuideAppointment"

@@ -3,10 +3,10 @@ title: SORTS
 description: SuperOffice Remote Travel Server (SORTS)
 author: {github-id}
 keywords:
-so.date:
-so.topic: concept
-so.envir: onsite
-so.client: win
+date:
+topic: concept
+envir: onsite
+client: win
 ---
 
 # SuperOffice Remote Travel Server (SORTS)

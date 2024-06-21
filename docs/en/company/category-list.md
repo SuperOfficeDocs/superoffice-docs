@@ -3,9 +3,9 @@ title: CategoryList
 uid: category_list
 description: Category list
 author: {github-id}
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: category
-so.topic: concept
+topic: concept
 ---
 
 # CategoryList

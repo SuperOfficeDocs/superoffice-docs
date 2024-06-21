@@ -3,9 +3,9 @@ uid: help-sv-company-screen-sale
 title: Fliken Försäljning
 description: Fliken Försäljning
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: reference
+topic: reference
 language: sv
 ---
 

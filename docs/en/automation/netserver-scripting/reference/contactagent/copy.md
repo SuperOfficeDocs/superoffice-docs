@@ -2,10 +2,10 @@
 uid: contactagent-copy
 title: ContactAgent.Copy event method
 description: Scripting events called on the Copy method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.Copy
 

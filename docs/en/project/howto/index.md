@@ -3,9 +3,9 @@ title: Project howto
 uid: project-howto
 description: Working with projects at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.01.2023
+date: 06.01.2023
 keywords: project, project management, API
-so.topic: howto
+topic: howto
 ---
 
 # Howto

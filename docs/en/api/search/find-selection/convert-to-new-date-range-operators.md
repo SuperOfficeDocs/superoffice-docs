@@ -4,9 +4,9 @@ uid: convert_dynamic_date_ranges
 description: Converting to new dynamic date ranges
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find, Date
-so.topic: howto
-# so.envir:
-so.client: web
+topic: howto
+# envir:
+client: web
 ---
 
 # Converting to new dynamic date ranges

@@ -4,8 +4,8 @@ uid: rest_api_search_associate
 description: REST Web API search associate
 author: {github-id}
 keywords: search,odata
-so.date:
-so.topic: howto
+date:
+topic: howto
 ---
 
 # Associate

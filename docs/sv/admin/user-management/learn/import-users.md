@@ -3,14 +3,14 @@ uid: help-sv-user-import
 title: Importera användare
 description: Importera användare från Active Directory
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, importera, medarbetare, Active Directory, mass
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Importera användare

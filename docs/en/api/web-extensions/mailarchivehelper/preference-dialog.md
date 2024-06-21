@@ -3,11 +3,11 @@ title: Preference dialog
 uid: mah_preference_dialog
 description: Preference dialog
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Preference dialog

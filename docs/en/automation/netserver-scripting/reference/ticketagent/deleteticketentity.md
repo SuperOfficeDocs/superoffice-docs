@@ -2,10 +2,10 @@
 uid: ticketagent-deleteticketentity
 title: TicketAgent.DeleteTicketEntity event method
 description: Scripting events called on the DeleteTicketEntity method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.DeleteTicketEntity
 

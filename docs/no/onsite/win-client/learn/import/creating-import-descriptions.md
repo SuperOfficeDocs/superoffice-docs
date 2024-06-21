@@ -3,12 +3,12 @@ uid: help-no-creating-import-descriptions
 title: Opprette importbeskrivelser
 description: Opprette importbeskrivelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-so.topic: help
+topic: help
 language: no
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Opprette importbeskrivelser

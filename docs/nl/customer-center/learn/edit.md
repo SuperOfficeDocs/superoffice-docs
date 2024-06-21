@@ -3,9 +3,9 @@ uid: help-nl-customer-center-edit
 title: Klantportaal-bronbestanden
 description: Klantportaal-bronbestanden
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Klantportaal, CEP
-so.topic: howto
+topic: howto
 language: nl
 ---
 

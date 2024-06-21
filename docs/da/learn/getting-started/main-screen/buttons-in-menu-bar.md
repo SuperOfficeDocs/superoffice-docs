@@ -3,9 +3,9 @@ uid: help-da-ui-top-bar
 title: Knapper på menulinjen
 description: Knapper på menulinjen
 author: SuperOffice RnD
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: toplinjen, knap
-so.topic: reference
+topic: reference
 language: da
 ---
 

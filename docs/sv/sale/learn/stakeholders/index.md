@@ -3,9 +3,9 @@ uid: help-sv-sale-stakeholders
 title: Intressenter
 description: Intressenter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning, intressent
-so.topic: concept
+topic: concept
 language: sv
 ---
 

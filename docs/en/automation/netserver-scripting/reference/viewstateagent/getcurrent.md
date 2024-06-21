@@ -2,10 +2,10 @@
 uid: viewstateagent-getcurrent
 title: ViewStateAgent.GetCurrent event method
 description: Scripting events called on the GetCurrent method on the ViewStateAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ViewStateAgent.GetCurrent
 

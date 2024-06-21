@@ -3,11 +3,11 @@ uid: entities
 title: entities
 description: "Introduction to the NetServer relational database layer (Entities)."
 author: AnthonyYates
-so.date: 11.16.2021
+date: 11.16.2021
 keywords: data access, entity, entities, RDB
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web
+topic: concept
+envir: cloud, onsite
+client: win, web
 ---
 
 # Relational database layer (Entities)

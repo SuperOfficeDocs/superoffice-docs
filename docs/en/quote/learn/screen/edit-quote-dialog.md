@@ -3,9 +3,9 @@ uid: help-en-quote-dialog-edit
 title: The Edit quote dialog
 description: The Edit quote dialog
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale, quote
-so.topic: reference
+topic: reference
 language: en
 ---
 

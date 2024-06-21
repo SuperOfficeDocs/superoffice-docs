@@ -3,11 +3,11 @@ title: Display the open sales of this user in web parts
 uid: display_open_sales_for_user
 description: Display the open sales of this user in web parts
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Display the open sales of this user in web parts

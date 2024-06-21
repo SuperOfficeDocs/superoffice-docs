@@ -3,12 +3,12 @@ title: Format text
 uid: dp-format-text
 description: How to format text in input fields in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2023
+date: 04.27.2023
 keywords: Developer Portal
-so.topic: howto
-so.dp-version: 1.11
-so.envir: cloud
-so.client:
+topic: howto
+version_devportal: 1.11
+envir: cloud
+client:
 ---
 
 # Format text

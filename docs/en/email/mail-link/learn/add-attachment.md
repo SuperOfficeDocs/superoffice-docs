@@ -3,9 +3,9 @@ uid: help-en-mail-link-add-attachment
 title:  Add SuperOffice document as attachment
 description: Add SuperOffice document as attachment
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

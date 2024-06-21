@@ -3,9 +3,9 @@ uid: help-sv-follow-up-type
 title: Händelse – Typ
 description: Händelse – Typ
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

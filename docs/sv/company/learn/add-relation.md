@@ -3,9 +3,9 @@ uid: help-sv-company-add-relation
 title: Lägg till relation
 description: Lägg till relation
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
 ---
 

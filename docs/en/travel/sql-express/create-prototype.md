@@ -4,10 +4,10 @@ title: Create prototype for SQL Express
 description: Create a prototype for SQL Express
 author: {github-id}
 keywords:
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Create prototype for MS SQL Express

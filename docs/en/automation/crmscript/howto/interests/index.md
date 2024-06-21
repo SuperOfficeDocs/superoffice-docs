@@ -4,9 +4,9 @@ title: Interests
 description: Working with interests on SuperOffice contacts and companies in CRMScript.
 keywords: interest, company, contact, person, contactinterest, personinterest, companyinterest, ContInt, PersInt
 author: Eivind Fasting
-so.date: 04.18.2022
-so.version: 10
-so.topic: concept
+date: 04.18.2022
+version: 10
+topic: concept
 ---
 
 # Interests

@@ -3,9 +3,9 @@ uid: help-sv-project-mail-merge
 title: Koppla massbrevsmall för projekt
 description: Koppla massbrevsmall för projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltagare, utskick, dokument
-so.topic: howto
+topic: howto
 language: sv
 ---
 

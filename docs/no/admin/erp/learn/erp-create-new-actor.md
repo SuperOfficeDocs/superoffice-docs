@@ -3,9 +3,9 @@ uid: help-no-erp-create-new-actor
 title: Opprette aktør i ERP-systemet
 description: Opprette aktør i ERP-systemet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: no
 ---
 

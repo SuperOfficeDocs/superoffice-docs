@@ -3,9 +3,9 @@ uid: crmscript-get-customer
 title: Get customer info
 description: How to get customer info with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 15.02.2021
+date: 15.02.2021
 keywords: CRMScript, customer, person, contact
-so.topic: howto
+topic: howto
 ---
 
 # Get customer info

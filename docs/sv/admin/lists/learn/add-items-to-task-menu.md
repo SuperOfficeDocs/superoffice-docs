@@ -3,11 +3,11 @@ uid: help-sv-task-menu-add
 title: Lägg till poster i listan Uppgiftsmeny
 description: Lägg till poster i listan Uppgiftsmeny
 author: SuperOffice RnD
-so.date: 01.11.2023
+date: 01.11.2023
 keywords: Inställningar och underhåll
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

@@ -4,12 +4,12 @@ title: Skapa en mållista
 description: Målet med ditt utskick avgör vilken din målgrupp är. När du vet vad du vill uppnå med ditt utskick måste du skapa en specifik mållista.
 keywords: Marknadsföring, utskick
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Skapa en mållista

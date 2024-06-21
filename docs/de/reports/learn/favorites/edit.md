@@ -3,9 +3,9 @@ uid: help-de-report-fav-edit
 title: Favoriten bearbeiten
 description: Favoriten bearbeiten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: help
+topic: help
 language: de
 ---
 

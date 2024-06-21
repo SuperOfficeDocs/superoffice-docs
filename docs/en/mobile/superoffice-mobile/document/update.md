@@ -3,12 +3,12 @@ uid: mobile-crm-document-update
 title: Update document
 description: How to update a document or email in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.07.2023
+date: 08.07.2023
 keywords: mobile, document
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Update document

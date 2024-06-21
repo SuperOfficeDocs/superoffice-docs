@@ -3,9 +3,9 @@ uid: crmscript-product
 title: Products
 description: Each product belongs to a single price list. How to work with products in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: sale, quote, product, QuoteAgent
-so.topic: howto
+topic: howto
 ---
 
 # Products

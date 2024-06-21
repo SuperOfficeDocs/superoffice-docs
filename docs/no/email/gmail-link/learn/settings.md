@@ -3,9 +3,9 @@ uid: help-no-gmail-link-settings
 title: Redigere Gmail Link-innstillinger
 description: Redigere Gmail Link-innstillinger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: reference
+topic: reference
 language: no
 ---
 

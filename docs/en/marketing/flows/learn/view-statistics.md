@@ -4,13 +4,13 @@ title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 05.15.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.15.2024
+version: 10.3.5
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Analyze your flow results

@@ -3,9 +3,9 @@ title: Get a list of people for a contact
 uid: get_persons_from_contact_sql
 description: How to get a list of people for a contact (company) using raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: person, contact, company, API
-so.topic: howto
+topic: howto
 ---
 
 # List persons in a company

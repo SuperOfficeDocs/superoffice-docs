@@ -3,9 +3,9 @@ uid: crmscript-request-split-merge
 title: Split and merge
 description: How to split and merge requests in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: Service, ticket, request, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Split and merge

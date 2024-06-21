@@ -3,9 +3,9 @@ uid: help-sv-service-mailboxes-out
 title: Utkorg för e-post
 description: Utkorg för e-post
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: reference
+topic: reference
 language: sv
 ---
 

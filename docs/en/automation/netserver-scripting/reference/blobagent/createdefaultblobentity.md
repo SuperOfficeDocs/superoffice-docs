@@ -2,10 +2,10 @@
 uid: blobagent-createdefaultblobentity
 title: BLOBAgent.CreateDefaultBlobEntity event method
 description: Scripting events called on the CreateDefaultBlobEntity method on the BLOBAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # BLOBAgent.CreateDefaultBlobEntity
 

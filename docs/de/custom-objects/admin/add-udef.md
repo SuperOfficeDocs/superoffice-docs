@@ -4,11 +4,11 @@ title: Felder hinzufügen
 description: Felder hinzufügen
 keywords: udef, benutzerdefiniertes Feld, Feld-Eigenschaften
 author: Bergfrid Dias
-so.date: 01.30.2024
-so.version: 10
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.30.2024
+version: 10
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

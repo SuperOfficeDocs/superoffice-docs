@@ -3,9 +3,9 @@ uid: help-nl-recurrence
 title: Terugkerende vervolgactiviteiten
 description: Terugkerende vervolgactiviteiten
 author: Bergfrid Dias
-so.date: 10.09.2023
+date: 10.09.2023
 keywords: agenda, vervolgactiviteit, herhalen, terugkeren, frequentie, regelmatig
-so.topic: concept
+topic: concept
 language: nl
 ---
 

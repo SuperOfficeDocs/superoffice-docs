@@ -3,11 +3,11 @@ uid: help-nl-faq
 title: Werken met items in Veelgestelde vragen
 description: document veelgestelde vragen
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Veelgestelde vragen
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

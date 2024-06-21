@@ -3,9 +3,9 @@ uid: help-de-basics-delete
 title: Elemente löschen
 description: "Zusammenführen, Löschen und Wiederherstellen von Elementen."
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: Löschen, Wiederherstellen, Papierkorb
-so.topic: howto
+topic: howto
 language: de
 ---
 

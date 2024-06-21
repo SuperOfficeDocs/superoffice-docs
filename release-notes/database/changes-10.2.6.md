@@ -2,10 +2,10 @@
 uid: database-whats-new-10.2.6.1248
 title: What's new in version 10.2.6.1248
 description: What's new in database version 10.2.6.1248.
-so.generated: true
+generated: true
 keywords: database
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # Released database changes in version 10.2.6.1248

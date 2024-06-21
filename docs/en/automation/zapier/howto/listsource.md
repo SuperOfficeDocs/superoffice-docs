@@ -3,11 +3,11 @@ uid: zapier-list-fields
 title: Look up lists between Source and SuperOffice CRM
 description: Guide for looking up lists
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # Look up lists between Source and SuperOffice CRM

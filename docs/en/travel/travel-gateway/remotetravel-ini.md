@@ -4,9 +4,9 @@ uid: remotetravel_ini
 description: RemoteTravel.ini
 author: {github-id}
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # RemoteTravel.ini

@@ -3,11 +3,11 @@ uid: help-de-user-update
 title: Benutzerinformationen bearbeiten
 description: Mitarbeiter bearbeiten
 author: Bergfrid Dias
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: user, Mitarbeiter
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

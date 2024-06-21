@@ -3,9 +3,9 @@ uid: help-da-selection-print-company-reports
 title: Udskrivning af firmarapporter
 description: Udskrivning af firmarapporter
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

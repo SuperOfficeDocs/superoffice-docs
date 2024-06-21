@@ -3,8 +3,8 @@ uid: contact_overview
 title: Working with persons
 description: SuperOffice view of the world and working with persons.
 author: Bergfrid Skaara Dias
-so.date: 14.02.2021
-so.topic: concept
+date: 14.02.2021
+topic: concept
 keywords: person, contact
 ---
 

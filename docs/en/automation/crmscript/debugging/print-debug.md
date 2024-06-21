@@ -2,9 +2,9 @@
 uid: crmscript_debug_print_debug
 title: Print debug
 author:
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Print debug

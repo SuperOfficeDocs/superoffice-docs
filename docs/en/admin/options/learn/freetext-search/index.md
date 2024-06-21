@@ -3,9 +3,9 @@ uid: help-en-settings-freetext-search
 title: Freetext search
 description: Freetext search
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: free-text, search
-so.topic: concept
+topic: concept
 language: en
 ---
 

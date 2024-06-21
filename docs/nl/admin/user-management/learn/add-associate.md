@@ -3,11 +3,11 @@ uid: help-nl-user-add
 title: Gebruiker toevoegen
 description: In deze handleiding leert u hoe u een nieuwe gebruiker toevoegt in SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: gebruiker, medewerker
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

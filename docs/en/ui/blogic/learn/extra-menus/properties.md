@@ -3,9 +3,9 @@ uid: help-en-ui-extra-menu-properties
 title: Menu properties
 description: Menu properties
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: Service
-so.topic: reference
+topic: reference
 language: en
 ---
 

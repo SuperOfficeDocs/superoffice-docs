@@ -3,9 +3,9 @@ uid: help-sv-template-variables
 title: Mallvariabler
 description: Med mallvariabler kan du anpassa och automatisera inmatningen av kunddata
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: dokument, mall, variabel
-so.topic: concept
+topic: concept
 language: sv
 ---
 

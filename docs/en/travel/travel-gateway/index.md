@@ -3,10 +3,10 @@ title: Travel Gateway overview
 description: What is SuperOffice Travel Gateway?
 author: {github-id}
 keywords:
-so.date:
-so.topic: concept
-so.envir: onsite
-so.client: win
+date:
+topic: concept
+envir: onsite
+client: win
 ---
 
 # SuperOffice Travel Gateway

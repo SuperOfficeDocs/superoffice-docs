@@ -2,10 +2,10 @@
 uid: saleagent-createdefaultsaleentity
 title: SaleAgent.CreateDefaultSaleEntity event method
 description: Scripting events called on the CreateDefaultSaleEntity method on the SaleAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaleAgent.CreateDefaultSaleEntity
 

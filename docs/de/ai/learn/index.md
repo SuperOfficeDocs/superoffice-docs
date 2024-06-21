@@ -3,9 +3,9 @@ uid: help-de-ai
 title: KI-Services
 description: KI-Services
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: KI
-so.topic: concept
+topic: concept
 language: de
 ---
 

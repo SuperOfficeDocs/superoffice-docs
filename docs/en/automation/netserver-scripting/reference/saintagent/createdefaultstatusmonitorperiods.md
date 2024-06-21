@@ -2,10 +2,10 @@
 uid: saintagent-createdefaultstatusmonitorperiods
 title: SaintAgent.CreateDefaultStatusMonitorPeriods event method
 description: Scripting events called on the CreateDefaultStatusMonitorPeriods method on the SaintAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaintAgent.CreateDefaultStatusMonitorPeriods
 

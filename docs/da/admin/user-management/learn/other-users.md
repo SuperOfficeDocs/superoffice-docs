@@ -3,13 +3,13 @@ uid: help-da-user-other
 title: Administration af andre brugere
 description: Administration af anonyme brugere og systembrugere (onsite)
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: user, anonym, systembruger
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
-so.envir: onsite
+envir: onsite
 ---
 
 # Administration af anonyme brugere og systembrugere (onsite)

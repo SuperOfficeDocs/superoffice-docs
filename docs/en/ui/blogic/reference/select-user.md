@@ -3,9 +3,9 @@ title: Select User
 uid: blogic_select_user
 description: Select User
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select User

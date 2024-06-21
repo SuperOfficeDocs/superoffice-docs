@@ -3,11 +3,11 @@ uid: help-en-request-reply
 title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
 author: Kirsti Aakerholt
-so.date: 07.05.2023
+date: 07.05.2023
 keywords: request, reply template, forward, comment, internal, external
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

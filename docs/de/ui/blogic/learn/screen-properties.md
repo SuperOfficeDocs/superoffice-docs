@@ -3,9 +3,9 @@ uid: help-de-service-screen-properties
 title: Eigenschaften der Ansichten
 description: Eigenschaften der Ansichten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Ansicht
-so.topic: reference
+topic: reference
 language: de
 ---
 

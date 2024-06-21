@@ -3,9 +3,9 @@ uid: help-no-options
 title: Systemvalg
 description: Systemvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: innstillinger, systemvalg
-so.topic: reference
+topic: reference
 language: no
 ---
 

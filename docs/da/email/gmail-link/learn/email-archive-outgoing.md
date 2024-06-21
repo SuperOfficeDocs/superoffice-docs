@@ -3,9 +3,9 @@ uid: help-da-gmail-link-archive-outgoing
 title: Arkivering af udgående e-mail
 description: Arkiver udgående e-mail med SuperOffice Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

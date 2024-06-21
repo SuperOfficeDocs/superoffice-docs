@@ -3,9 +3,9 @@ uid: help-nl-service-mailboxes
 title: Postbussen
 description: Postbussen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: concept
+topic: concept
 language: nl
 ---
 

@@ -3,9 +3,9 @@ title: Select multiple relations
 uid: blogic_select_multiple relations
 description: Select multiple relations
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select multiple relations

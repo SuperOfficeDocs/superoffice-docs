@@ -3,9 +3,9 @@ uid: SavedReports
 title: SavedReports
 description: Specialized provider for the archive in the Reporter panel. It subclasses the <see cref="T -SuperOffice.CRM.ArchiveLists.DocumentProvider" /> class,
 keywords: SavedReports archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SavedReports"

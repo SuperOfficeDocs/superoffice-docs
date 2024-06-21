@@ -3,9 +3,9 @@ uid: ConfigurableArchiveProject
 title: ConfigurableArchiveProject
 description: This is the archive Provider for the Configurable project Archive.
 keywords: ConfigurableArchiveProject archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchiveProject"

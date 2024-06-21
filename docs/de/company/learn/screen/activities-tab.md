@@ -3,9 +3,9 @@ uid: help-de-company-screen-activities
 title: Registerkarte Aktivitäten (Ansicht Firma)
 description: Registerkarte Aktivitäten (Ansicht Firma)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: reference
+topic: reference
 language: de
 ---
 

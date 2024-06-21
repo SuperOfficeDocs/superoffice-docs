@@ -3,9 +3,9 @@ uid: help-nl-address-formats-for-different-countries
 title: Adresnotaties voor verschillende landen
 description: Adresnotaties voor verschillende landen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: reference
+topic: reference
 language: nl
 ---
 

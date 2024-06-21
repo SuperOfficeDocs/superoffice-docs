@@ -4,9 +4,9 @@ uid: tested_browsers
 description: Tested browser versions
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Tested browser versions

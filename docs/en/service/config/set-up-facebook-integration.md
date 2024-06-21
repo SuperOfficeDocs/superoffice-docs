@@ -4,10 +4,10 @@ uid: set_up_facebook_integration_for_service
 description: Set up Facebook integration for Service
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+# envir:
+# client:
 ---
 
 # Facebook integration with Customer Service

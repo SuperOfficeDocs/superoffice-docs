@@ -3,11 +3,11 @@ uid: help-nl-languages-category
 title: Werken met externe categorieën
 description: Werken met externe categorieën
 author: SuperOffice RnD
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Instellingen en onderhoud
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

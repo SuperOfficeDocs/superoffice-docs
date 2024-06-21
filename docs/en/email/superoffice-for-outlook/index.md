@@ -4,9 +4,9 @@ uid: superoffice_for_outlook
 description: SuperOffice for Outlook add-in overview
 author: {github-id}
 keywords:
-so.topic: article
-so.envir: cloud
-so.client: online
+topic: article
+envir: cloud
+client: online
 ---
 
 # SuperOffice for Outlook overview

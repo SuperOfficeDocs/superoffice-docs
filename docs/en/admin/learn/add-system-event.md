@@ -3,11 +3,11 @@ uid: help-en-system-event-add
 title: Adding system events
 description: Adding system events
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: event, notification
-so.topic: howto
+topic: howto
 language: en
-so.envir: onsite
+envir: onsite
 ---
 
 # Add system events (Onsite)

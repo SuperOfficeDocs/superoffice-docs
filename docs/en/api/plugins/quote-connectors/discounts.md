@@ -2,9 +2,9 @@
 title: discounts       
 description: About discounts
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: concept
+topic: concept
 ---
 
 # Discounts

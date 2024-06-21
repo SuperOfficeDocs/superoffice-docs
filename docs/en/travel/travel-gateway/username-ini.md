@@ -4,7 +4,7 @@ uid: username_ini
 description: Username.ini
 author: {github-id}
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Username.ini

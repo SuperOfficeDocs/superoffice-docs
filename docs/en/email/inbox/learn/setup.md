@@ -3,9 +3,9 @@ uid: help-en-email-inbox-setup
 title: Set up SuperOffice Inbox
 description: The SuperOffice Inbox is an alternative way to connect your email to your SuperOffice CRM for email clients that cannot be connected via WebTools. Learn how to set it up and log in for the first time.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: email, inbox
-so.topic: howto
+topic: howto
 language: en
 ---
 

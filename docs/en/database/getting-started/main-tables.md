@@ -3,11 +3,11 @@ title: The main tables
 uid: main_db_tables
 description: "Overview of the main database tables in SuperOffice."
 author: Bergfrid Dias
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: database
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # The main tables

@@ -3,10 +3,10 @@ title: How to download a new document
 uid: download_document_services
 description: How to download a document
 author: Tony Yates
-so.date: 06.11.2008
-so.topic: howto
-so.category: document
-so.area: api-services
+date: 06.11.2008
+topic: howto
+category: document
+area: api-services
 keywords: document, API, services, DocumenyAgent, DocumentAgent.CreateTempFile, DocumentEntity
 ---
 

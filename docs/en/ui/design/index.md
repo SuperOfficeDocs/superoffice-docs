@@ -2,11 +2,11 @@
 title: Practical design hints
 description: Practical design hints
 author: Christian Mogensen
-so.date:
+date:
 keywords: design,ui
-so.topic: overview
-so.envir:
-so.client:
+topic: overview
+envir:
+client:
 ---
 
 # Practical design hints

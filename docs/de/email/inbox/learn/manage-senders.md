@@ -3,9 +3,9 @@ uid: help-de-email-inbox-senders
 title: Absender mit SuperOffice Posteingang verwalten
 description: Absender mit SuperOffice Posteingang verwalten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

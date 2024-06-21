@@ -3,9 +3,9 @@ title: QuoteConnectionInfo
 uid: quote_connector_carrier_quoteconnectioninfo
 description: ERP Quote Connector Interface data carrier - QuoteConnectionInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # QuoteConnectionInfo

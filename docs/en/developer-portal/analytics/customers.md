@@ -3,11 +3,11 @@ title: Customers
 uid: dp-customers
 description: Find out who your customers are in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 09.15.2023
+date: 09.15.2023
 keywords: Developer Portal, app, customer
-so.topic: howto
-so.dp-version: 1.11
-so.envir: cloud
+topic: howto
+version_devportal: 1.11
+envir: cloud
 ---
 
 # Find out who your customers are

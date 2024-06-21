@@ -4,12 +4,12 @@ title: Überwachte Links
 description: "Ein in eine Kampagne eingefügter Link kann verwendet werden, um die Antworten Ihrer Kunden und Interessenten zu verfolgen. Wenn die Empfänger Ihrer Kampagne auf den Link klicken, wird eine Aktion ausgelöst." 
 keywords: Marketing, Kampagne, Aussendung, Newsletters, Überwachte Links
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
-so.topic: concept
+date: 02.27.2024
+version: 10
+topic: concept
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Überwachte Links

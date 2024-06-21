@@ -3,9 +3,9 @@ uid: help-no-quote-send
 title: tilbud send
 description: tilbud send
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

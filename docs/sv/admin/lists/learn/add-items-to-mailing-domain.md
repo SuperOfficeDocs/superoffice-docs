@@ -3,11 +3,11 @@ uid: help-sv-add-items-to-mailing-domain
 title: Lägg till poster i utskicksdomän
 description: Lägg till poster i listan Utskicksdomän
 author: Hanne Gunnarsson
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: utskick, domän, SPF
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

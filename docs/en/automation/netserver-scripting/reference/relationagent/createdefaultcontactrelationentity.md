@@ -2,10 +2,10 @@
 uid: relationagent-createdefaultcontactrelationentity
 title: RelationAgent.CreateDefaultContactRelationEntity event method
 description: Scripting events called on the CreateDefaultContactRelationEntity method on the RelationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # RelationAgent.CreateDefaultContactRelationEntity
 

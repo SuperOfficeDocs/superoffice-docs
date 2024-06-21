@@ -4,12 +4,12 @@ title: Sådan oprettes formularer (eksempler)
 description: Denne vejledning vil forklare, hvordan du opretter en formular hvor dine kunder kan tilmelde sig et eller flere nyhedsbreve
 keywords: formular, dobbelt tilmelding, tilmelding, nyhedsbrev
 author: Bergfrid Dias
-so.date: 03.11.2024
-so.version: 10
-so.topic: tutorial
+date: 03.11.2024
+version: 10
+topic: tutorial
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Vejledning - hvordan oprette formular for tilmelding til nyhedsbrev

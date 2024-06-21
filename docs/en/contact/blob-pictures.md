@@ -3,8 +3,8 @@ uid: contact-picture
 title: Person picture and BLOBs
 description: Person pictures are stored in the BLOB table and linked to the person record.
 author: Bergfrid Skaara Dias
-so.date: 15.02.2021
-so.topic: concept
+date: 15.02.2021
+topic: concept
 keywords: person, contact, BinaryObject, BLOB, picture
 ---
 

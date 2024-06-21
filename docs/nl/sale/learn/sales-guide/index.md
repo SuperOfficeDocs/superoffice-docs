@@ -3,9 +3,9 @@ uid: help-nl-sales-guide
 title: Verkoopgids
 description: De verkoopgids in SuperOffice CRM is een best practice verkoopproces dat u helpt om op een gestructureerde en consistente manier te werken.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop, gids, workflow
-so.topic: concept
+topic: concept
 language: nl
 ---
 

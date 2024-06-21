@@ -3,9 +3,9 @@ uid: help-da-chat-transfer-to-agent
 title: Overførsel af en chatsamtale til en anden repræsentant
 description: "I denne vejledning lærer du, hvordan du overfører en chat til en anden repræsentant."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: da
 ---
 

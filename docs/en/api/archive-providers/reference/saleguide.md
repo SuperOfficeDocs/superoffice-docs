@@ -3,9 +3,9 @@ uid: SaleGuide
 title: SaleGuide
 description: Provider for the Sale Guide, common to both Appointment and Document guide items and instances
 keywords: SaleGuide archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleGuide"

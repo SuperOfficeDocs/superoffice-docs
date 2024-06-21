@@ -3,9 +3,9 @@ uid: help-nl-report-search-criteria-add
 title: Toevoegen van zoekcriteria aan rapporten
 description: Toevoegen van zoekcriteria aan rapporten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: nl
 ---
 

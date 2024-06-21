@@ -2,10 +2,10 @@
 title: Saving a request
 uid: event_model_saving_a_request
 description: CRMScript event model - Saving a request
-so.author:
-so.date:
+author:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Saving a request

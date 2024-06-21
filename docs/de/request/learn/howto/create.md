@@ -3,12 +3,12 @@ uid: help-de-request-create
 title: Anfrage erstellen
 description: Anfrage erstellen
 author: Hanne Gunnarsson
-so.date: 03.22.24
-so.version: 10.3.2
+date: 03.22.24
+version: 10.3.2
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

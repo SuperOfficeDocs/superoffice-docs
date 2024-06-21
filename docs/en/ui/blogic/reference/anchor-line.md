@@ -3,9 +3,9 @@ title: Anchor line (link row)
 uid: blogic_anchor_line
 description: Anchor line (link row)
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Anchor line (link row)

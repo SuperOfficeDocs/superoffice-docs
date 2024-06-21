@@ -3,9 +3,9 @@ uid: help-nl-mail-link-settings-superoffice-account
 title: SuperOffice account
 description: SuperOffice account
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: reference
+topic: reference
 language: nl
 ---
 

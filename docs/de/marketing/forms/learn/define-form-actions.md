@@ -4,12 +4,12 @@ title: Formularaktionen definieren
 description: Formularaktionen definieren
 keywords: Formular, Automatisierung, Formularaktionen, übermittelte Formulare
 author: SuperOffice RnD
-so.date: 05.31.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.31.2024
+version: 10.3.5
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Automatisierte Formularaktionen definieren

@@ -3,12 +3,12 @@ uid: help-da-backup-routines
 title: Rutiner for sikkerhedskopiering
 description: Rutiner for sikkerhedskopiering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Rutiner for sikkerhedskopiering

@@ -3,9 +3,9 @@ title: Data carriers
 uid: quote_connectors_data_cariers
 description: Data carriers for quote
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: concept
+topic: concept
 ---
 
 # Data carriers

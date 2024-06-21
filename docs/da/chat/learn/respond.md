@@ -3,9 +3,9 @@ uid: help-da-chat-respond
 title: Svare på en chatsamtale
 description: "Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort."
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: da
 ---
 

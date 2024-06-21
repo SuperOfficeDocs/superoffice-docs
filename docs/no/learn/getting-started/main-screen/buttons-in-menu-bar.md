@@ -3,9 +3,9 @@ uid: help-no-ui-top-bar
 title: Knapper i menylinjen
 description: Knapper i menylinjen
 author: SuperOffice RnD
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: toppraden, knapp
-so.topic: reference
+topic: reference
 language: no
 ---
 

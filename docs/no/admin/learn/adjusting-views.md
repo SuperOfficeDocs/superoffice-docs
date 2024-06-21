@@ -3,11 +3,11 @@ uid: help-no-adjusting-views
 title: Justere visninger
 description: Slik justerer du forskjellige visninger i Innstillinger og vedlikehold.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

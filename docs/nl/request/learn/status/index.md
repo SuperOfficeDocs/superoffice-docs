@@ -3,11 +3,11 @@ uid: help-nl-request-status
 title: Verzoekstatus
 description: Verzoekstatus
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: verzoek, status
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -3,8 +3,8 @@ title: Database security
 description: "Security considerations for the SuperOffice database."
 author: Bergfrid Dias
 keywords: database
-so.topic: concept
-so.date: 04.22.2021
+topic: concept
+date: 04.22.2021
 ---
 
 # Database security

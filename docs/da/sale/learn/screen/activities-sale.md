@@ -3,9 +3,9 @@ uid: help-da-sale-activities
 title: Detaljekortet Aktiviteter (Salg)
 description: Detaljekortet Aktiviteter i skærmbilledet Salg i SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: reference
+topic: reference
 language: da
 ---
 

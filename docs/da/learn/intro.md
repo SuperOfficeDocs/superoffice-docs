@@ -3,13 +3,13 @@ title: Vejledninger til SuperOffice CRM
 uid: help-da-start
 description: Startside for SuperOffice CRM-vejledninger
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: brugervejledning, hjælp
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: da
-so.envir:
-so.client:
+envir:
+client:
 ---
 
 # Vejledninger til SuperOffice CRM

@@ -3,9 +3,9 @@ title: SAINT - raw SQL
 uid: saint-howto-sql
 description: Working with SAINT in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SAINT, counter, API, SQL, statusvalue, countervalue
-so.topic: concept
+topic: concept
 ---
 
 # SAINT - raw SQL

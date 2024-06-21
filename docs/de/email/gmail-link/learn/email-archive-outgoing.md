@@ -3,9 +3,9 @@ uid: help-de-gmail-link-archive-outgoing
 title: Ausgehende E-Mails archivieren
 description: Ausgehende E-Mails mit SuperOffice Gmail Link archivieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

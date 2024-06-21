@@ -3,9 +3,9 @@ uid: help-sv-mail-link-create-outlook
 title: Skapa e-postmeddelanden från Microsoft Outlook
 description: Skapa e-postmeddelanden från Microsoft Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: SuperOffice Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

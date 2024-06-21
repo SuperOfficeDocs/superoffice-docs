@@ -3,9 +3,9 @@ uid: help-en-sale-screen
 title: Sale screen
 description: The Sale screen in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: reference
+topic: reference
 language: en
 ---
 

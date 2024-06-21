@@ -3,9 +3,9 @@ uid: crmscript-update-appointment
 title: How to update appointments
 description: How to update, move, and delete appointments; mark an appointment as complete
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up
-so.topic: howto
+topic: howto
 ---
 
 # Update appointment

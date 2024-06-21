@@ -3,9 +3,9 @@ uid: help-en-email
 title: Email
 description: With SuperOffice CRM you can choose to save and share your emails in various ways that will make you and your team work more productively.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: email, inbox
-so.topic: concept
+topic: concept
 language: en
 ---
 

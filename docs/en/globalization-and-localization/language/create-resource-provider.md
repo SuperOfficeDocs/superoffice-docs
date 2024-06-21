@@ -3,11 +3,11 @@ title: How to create a resource provider
 uid: create_resource_provider
 description: How to create a resource provider
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to create a resource provider

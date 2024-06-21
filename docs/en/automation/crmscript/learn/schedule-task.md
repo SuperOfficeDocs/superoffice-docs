@@ -3,11 +3,11 @@ uid: help-en-automation-schedule-task
 title:  Scheduled tasks
 description: Scheduled tasks
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: macro, script, schedule
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

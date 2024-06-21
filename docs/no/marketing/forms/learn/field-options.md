@@ -4,12 +4,12 @@ title: Feltalternativer
 description: Feltalternativer
 keywords: skjema, felt, skjemaelement, reCAPTCHA
 author: SuperOffice RnD
-so.date: 03.07.2024
-so.version: 10
-so.topic: reference
+date: 03.07.2024
+version: 10
+topic: reference
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Feltalternativer

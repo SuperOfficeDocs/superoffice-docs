@@ -3,9 +3,9 @@ uid: help-no-chat
 title: Chat
 description: Kommunisere med og hjelpe eksisterende eller potensielle kunder ved hjelp av en chat-widget på nettstedet ditt.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: concept
+topic: concept
 language: no
 ---
 

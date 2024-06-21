@@ -3,9 +3,9 @@ uid: help-en-company-print
 title: Print information about a company
 description: Print information about a company
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

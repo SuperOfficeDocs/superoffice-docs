@@ -3,11 +3,11 @@ uid: help-en-mailbox-add
 title: Create email addresses
 description: Create email addresses
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: request, mailbox
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

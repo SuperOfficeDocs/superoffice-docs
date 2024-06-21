@@ -2,11 +2,11 @@
 title: Video Meetings for SuperOffice - Microsoft Teams
 uid: video_meetings_msteams
 description: Getting started with Video Meetings for SuperOffice - Microsoft Teams
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: video meeting, Microsoft Teams
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 # Video Meetings for SuperOffice: Microsoft Teams
 

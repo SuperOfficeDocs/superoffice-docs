@@ -3,9 +3,9 @@ title: Form page
 uid: blogic_form_page
 description: Form page
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Form page

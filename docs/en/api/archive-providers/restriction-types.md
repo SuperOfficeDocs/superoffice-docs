@@ -3,9 +3,9 @@ title: Restriction Types
 description: Describes available archive provider column data types and lists their available operators.
 author: {github-id}
 keywords: Restriction
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Archive Provider Restriction Types

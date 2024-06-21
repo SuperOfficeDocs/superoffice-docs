@@ -3,9 +3,9 @@ uid: help-en-sale-add-type
 title: Add sale type
 description: Add sale type
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sale type
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,12 +3,12 @@ uid: mobile-crm-contact-create
 title: Create contact
 description: How to register a contact in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.27.2023
+date: 07.27.2023
 keywords: contact
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Create contact

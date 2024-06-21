@@ -3,9 +3,9 @@ uid: help-no-mail-link-archive-on-contact
 title: Arkivering av e-post på firmaer/personer
 description: Arkivering av e-post på firmaer/personer
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail Link, e-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

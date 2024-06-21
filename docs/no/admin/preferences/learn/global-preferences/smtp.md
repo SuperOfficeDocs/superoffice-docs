@@ -3,11 +3,11 @@ uid: help-no-service-settings-system-smtp
 title: SMTP
 description: SMTP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjeneste, innstillinger
-so.topic: help
+topic: help
 language: no
-so.envir: onsite
+envir: onsite
 ---
 
 # SMTP (bare ONSITE)

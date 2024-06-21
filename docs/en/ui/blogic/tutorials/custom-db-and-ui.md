@@ -3,9 +3,9 @@ title: Tutorial - custom database and UI
 uid: tutorial_custom_db_and_ui
 description: Tutorial - custom database and UI
 author:
-so.date:
+date:
 keywords:
-so.topic: guide
+topic: guide
 ---
 
 # Tutorial - custom database and UI

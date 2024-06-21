@@ -3,11 +3,11 @@ title: Replace sandbox
 uid: replace_prod_sandbox
 description: SuperOffice Operation Center for customer administrators with a production sandbox
 author: Bergfrid Dias
-so.date: 12.06.2021
+date: 12.06.2021
 keywords: production sandbox, test environment, OC, clone
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # SuperOffice Operation Center for customer administrators with a production sandbox

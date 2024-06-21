@@ -3,11 +3,11 @@ title: Setting up mapping of fields
 uid: erp_setup_mapping
 description: Setting up ERP Sync field mapping
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Setting up mapping of fields

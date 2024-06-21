@@ -2,10 +2,10 @@
 uid: documentagent-getpublishedprojectdocuments
 title: DocumentAgent.GetPublishedProjectDocuments event method
 description: Scripting events called on the GetPublishedProjectDocuments method on the DocumentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentAgent.GetPublishedProjectDocuments
 

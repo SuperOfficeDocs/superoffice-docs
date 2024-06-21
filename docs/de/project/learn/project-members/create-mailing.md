@@ -3,9 +3,9 @@ uid: help-de-project-mail-merge
 title: Serienbrief für Projekte erstellen
 description: Serienbrief für Projekte erstellen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Mitglied, Kampagne, Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

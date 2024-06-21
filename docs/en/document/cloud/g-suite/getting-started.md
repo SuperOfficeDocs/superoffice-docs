@@ -4,9 +4,9 @@ uid: g_suite_quick_start
 description: Google Workspace document integration setup - Self-Service Quick-Guide
 author: {github-id}
 keywords:
-so.topic: getting-started
-so.envir: cloud
-so.client: online
+topic: getting-started
+envir: cloud
+client: online
 ---
 
 # Getting started (self-service)

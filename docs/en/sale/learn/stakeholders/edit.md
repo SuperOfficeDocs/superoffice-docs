@@ -3,9 +3,9 @@ uid: help-en-sale-stakeholder-edit
 title: Edit stakeholders
 description: How to edit or remove stakeholders in a sale in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

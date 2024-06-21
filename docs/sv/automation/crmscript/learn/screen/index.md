@@ -3,9 +3,9 @@ uid: help-sv-script-screen
 title: Fliken Makron och skript
 description: Fliken Makron och skript
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: skript, makro
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-document-upload
 title: Dokumente hochladen
 description: Dokumente hochladen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

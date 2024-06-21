@@ -3,9 +3,9 @@ uid: saletype
 title: saletype
 keywords: mdoprovider mdo provider saletype
 description: List of sale types, with default sale duration in minutes in extra info.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "saletype" MDO List

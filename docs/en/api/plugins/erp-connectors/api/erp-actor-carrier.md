@@ -3,11 +3,11 @@ title: ErpActor
 uid: erp_api_erpactor
 description: Sync Connector API ErpActor
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: dto
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # ErpActor

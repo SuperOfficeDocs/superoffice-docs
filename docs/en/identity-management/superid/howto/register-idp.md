@@ -3,11 +3,11 @@ title: Register identity provider (domain name)
 uid: register_idp
 description: Register identity provider (domain name)
 author: {github-id}
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: IdP, SuperID, Microsoft Entra, ME-ID, AAD
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Register identity provider (domain name)

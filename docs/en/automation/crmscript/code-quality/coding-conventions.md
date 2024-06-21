@@ -2,9 +2,9 @@
 uid: crmscript_conventions
 title: CRMScript coding conventions
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # CRMScript coding conventions

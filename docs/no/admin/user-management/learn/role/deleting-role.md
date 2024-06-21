@@ -3,11 +3,11 @@ uid: help-no-deleting-role
 title: Slette en rolle
 description: Slette en rolle
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: brukeradministrasjon, rolle
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

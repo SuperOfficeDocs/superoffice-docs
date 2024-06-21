@@ -3,9 +3,9 @@ uid: dashboardentity
 title: dashboardentity
 keywords: mdoprovider mdo provider dashboardentity
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "dashboardentity" MDO List

@@ -3,9 +3,9 @@ uid: help-sv-report-fav-delete
 title: Ta bort favoritrapporter
 description: Ta bort favoritrapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: sv
 ---
 

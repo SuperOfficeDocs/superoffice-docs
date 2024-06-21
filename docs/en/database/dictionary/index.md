@@ -4,7 +4,7 @@ uid: cdd
 description: Continuous Database (CD)
 author: {github-id}
 keywords: database
-so.topic: concept
+topic: concept
 ---
 
 # Data dictionary

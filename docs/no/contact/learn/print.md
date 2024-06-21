@@ -3,9 +3,9 @@ uid: help-no-contact-print
 title: Skrive ut kontaktinfo
 description: Skrive ut kontaktinfo
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, person, skrive ut
-so.topic: howto
+topic: howto
 language: no
 ---
 

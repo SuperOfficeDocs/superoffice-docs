@@ -2,10 +2,10 @@
 uid: event_model_mailbox_before_save
 title: Mailbox before save
 description: CRMScript event model - Mailbox event, execute before message is saved
-so.author:
-so.date:
+author:
+date:
 keywords: 
-so.topic: reference
+topic: reference
 ---
 
 # Mailbox event, execute before message is saved

@@ -3,10 +3,10 @@ title: Configuration
 uid: customer-senter-config
 description: Customer center configuration
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP, parser variable
-so.audience: settings
-so.topic: reference
+audience: settings
+topic: reference
 ---
 
 # Customer center configuration

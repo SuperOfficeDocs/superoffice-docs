@@ -3,12 +3,12 @@ title: Upgrade to 9 or 10
 uid: upgrade_to_9
 description: Upgrade to 9 or 10
 author: Martin Pavlas
-so.date: 12.08.2021
+date: 12.08.2021
 keywords: upgrade
-so.topic: howto
-so.envir: onsite
-# so.client:
-so.version: 9, 10
+topic: howto
+envir: onsite
+# client:
+version: 9, 10
 ---
 
 # Upgrade to SuperOffice 9 or 10

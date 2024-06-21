@@ -2,11 +2,11 @@
 title: Webhooks element
 uid: ns_config_webhooks
 description: NetServer configuration related to webhooks - events broadcast to remote servers.
-so.date: 12.17.2021
+date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, Webhooks, NumThreads, RequireHttps
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Webhooks element

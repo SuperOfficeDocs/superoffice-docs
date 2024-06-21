@@ -3,10 +3,10 @@ uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+date: 11.20.2023
+version: 10.2.11
 keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, attendee, participant
-so.topic: concept
+topic: concept
 language: en
 ---
 

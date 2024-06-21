@@ -3,9 +3,9 @@ uid: help-nl-contact-screen-sales
 title: Tabblad Verkoop
 description: Tabblad Verkoop
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: reference
+topic: reference
 language: nl
 ---
 

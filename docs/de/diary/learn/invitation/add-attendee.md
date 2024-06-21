@@ -3,10 +3,10 @@ uid: help-de-invitation-add-attendee
 title: Teilnehmer zu Folgeaufgaben hinzufügen
 description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Einladung, Teilnehmer
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -4,10 +4,10 @@ uid: mailgun_amount_speed
 description: Mailgun - amount and speed
 author: {github-id}
 keywords:
-so.topic: article
+topic: article
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+# envir:
+# client:
 ---
 
 # Mailgun - amount and speed

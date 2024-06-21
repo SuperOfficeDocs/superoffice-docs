@@ -3,9 +3,9 @@ uid: help-nl-contact-move
 title: Persoon verplaatsen
 description: Persoon verplaatsen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
 ---
 

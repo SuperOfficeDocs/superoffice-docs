@@ -3,9 +3,9 @@ uid: help-de-gmail-link-manage-senders
 title: Absender mit Gmail Link verwalten
 description: Absender mit Gmail Link verwalten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

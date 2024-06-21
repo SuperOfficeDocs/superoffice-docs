@@ -3,11 +3,11 @@ uid: help-de-languages-category
 title: Mit externen Kategorien arbeiten
 description: Mit externen Kategorien arbeiten
 author: SuperOffice RnD
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Einstellungen und Verwaltung
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

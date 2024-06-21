@@ -3,11 +3,11 @@ uid: help-sv-request-transfer
 title: Be en annan ärendehandläggare om hjälp
 description: Be en annan ärendehandläggare om hjälp
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende, delegera
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

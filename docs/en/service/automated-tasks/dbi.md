@@ -4,9 +4,9 @@ uid: automated_task_dbi
 description: Automated tasks in Service - dbi
 author: {github-id}
 keywords: service
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # dbi

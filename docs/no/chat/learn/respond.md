@@ -3,9 +3,9 @@ uid: help-no-chat-respond
 title: Svare på en chat
 description: "Når en kunde sender en forespørsel via chatwidgeten på websiden, er det ikke bare viktig å svare på den, men også å registrere den på vedkommendes personkort."
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

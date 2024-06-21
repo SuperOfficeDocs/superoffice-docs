@@ -3,10 +3,10 @@ uid: help-de-recurrence-stop
 title: Regelmäßige Folgeaufgabe stoppen
 description: Regelmäßige Folgeaufgabe stoppen
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren
-so.topic: howto
+topic: howto
 language: de
 ---
 

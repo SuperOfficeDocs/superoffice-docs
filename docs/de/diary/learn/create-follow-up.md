@@ -3,10 +3,10 @@ uid: help-de-follow-up-create
 title: "Folgeaufgaben hinzufügen"
 description: "Folgeaufgaben hinzufügen oder kopieren"
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Anruf, Telefon, Besprechung
-so.topic: howto
+topic: howto
 language: de
 ---
 

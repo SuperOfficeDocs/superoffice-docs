@@ -3,11 +3,11 @@ title: Person table
 uid: bulkupdate_person_table
 description: Bulk update person table
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, person
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Person table

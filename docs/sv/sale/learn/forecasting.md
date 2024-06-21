@@ -3,9 +3,9 @@ uid: help-sv-sale-forecasting
 title: Övervaka din pipeline och skapa prognoser för försäljningen
 description: "Hur du övervakar din försäljningspipeline och skapar prognoser för din försäljning med hjälp av dashboards, val och rapporter."
 author: Bergfrid Dias
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

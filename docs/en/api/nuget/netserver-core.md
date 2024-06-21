@@ -3,11 +3,11 @@ title: NetServer Core
 uid: so_nuget_core
 description: SuperOffice NuGet NetServer Core
 author: Tony Yates
-so.date: 02.29.2016
+date: 02.29.2016
 keywords:
-so.topic: reference
-so.envir:
-so.client:
+topic: reference
+envir:
+client:
 ---
 
 # NetServer Core

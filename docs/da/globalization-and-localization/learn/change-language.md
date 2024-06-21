@@ -3,9 +3,9 @@ uid: help-da-language-change
 title: Ændring af aktivt sprog
 description: Ændring af aktivt sprog
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sprog
-so.topic: howto
+topic: howto
 language: da
 ---
 

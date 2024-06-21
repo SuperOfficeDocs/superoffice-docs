@@ -3,9 +3,9 @@ uid: help-nl-sales-targets-create
 title: Verkooptargets instellen
 description: "Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u om de juiste verwachtingen te stellen, uw groei te plannen, de motivatie te verhogen en tijd te besparen."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

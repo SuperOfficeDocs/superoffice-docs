@@ -3,11 +3,11 @@ title: Showing fields in GUI or search results
 uid: erp_sync_gui_vs_sync
 description: Showing fields in GUI or search results
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Showing fields in GUI or search results

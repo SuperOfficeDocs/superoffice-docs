@@ -3,9 +3,9 @@ uid: help-no-quote-add-products
 title: Legg til produkter i tilbud
 description: Legg til produkter i tilbud
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

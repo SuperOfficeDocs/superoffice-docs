@@ -3,11 +3,11 @@ uid: help-da-quote-admin
 title: Synkronisering af tilbud
 description: "SuperOffice Quote hjælper dig med at oprette, validere og administrere tilbud og ordrer på tværs af hele ordrelivscyklussen."
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: tilbud, sync, salg
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

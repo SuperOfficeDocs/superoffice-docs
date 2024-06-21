@@ -3,9 +3,9 @@ uid: help-nl-in-app-help
 title: In-app help gebruiken
 description: In-app Help gebruiken in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 01.25.2023
+date: 01.25.2023
 keywords: help, inapp, in-app
-so.topic: concept
+topic: concept
 language: nl
 ---
 

@@ -3,10 +3,10 @@ title: Using the basic Sentry plugin
 uid: use_sentry_plugin
 description: Use a Sentry plugin
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: Sentry, plug-in, plugin, security, TableRight, N
-so.topic: howto
-so.envir: onsite
+topic: howto
+envir: onsite
 ---
 
 # Using the basic Sentry plugin

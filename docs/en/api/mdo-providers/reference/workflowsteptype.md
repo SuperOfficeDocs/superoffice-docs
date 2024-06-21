@@ -3,9 +3,9 @@ uid: workflowsteptype
 title: workflowsteptype
 keywords: mdoprovider mdo provider workflowsteptype
 description: MDO provider for the WorkflowStepType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "workflowsteptype" MDO List

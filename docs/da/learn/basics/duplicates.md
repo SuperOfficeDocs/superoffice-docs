@@ -3,9 +3,9 @@ uid: help-da-duplicates
 title: Dubletter
 description: Dubletter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dublet
-so.topic: concept
+topic: concept
 language: da
 ---
 

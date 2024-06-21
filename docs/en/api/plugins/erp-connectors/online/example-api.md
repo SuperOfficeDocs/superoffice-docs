@@ -4,9 +4,9 @@ uid: epr_api
 description: ERP Connector API
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # ERP Connector API Changes

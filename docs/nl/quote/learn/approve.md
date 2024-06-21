@@ -3,9 +3,9 @@ uid: help-nl-quote-approve
 title: Offerte goedkeuren voor verzending
 description: Offerte goedkeuren voor verzending
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

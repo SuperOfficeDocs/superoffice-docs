@@ -2,10 +2,10 @@
 uid: findagent-getdefaultdesiredcolumns
 title: FindAgent.GetDefaultDesiredColumns event method
 description: Scripting events called on the GetDefaultDesiredColumns method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.GetDefaultDesiredColumns
 

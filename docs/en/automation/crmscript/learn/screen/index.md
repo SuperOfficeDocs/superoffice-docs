@@ -3,9 +3,9 @@ uid: help-en-script-screen
 title: Macros and scripts tab
 description: Macros and scripts tab
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: script, macro
-so.topic: reference
+topic: reference
 language: en
 ---
 

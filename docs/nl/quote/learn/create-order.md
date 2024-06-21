@@ -3,9 +3,9 @@ uid: help-nl-quote-create-order
 title: offerte bestelling maken
 description: In deze handleiding leert u hoe u een bestelling plaatst.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

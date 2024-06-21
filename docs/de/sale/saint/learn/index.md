@@ -3,9 +3,9 @@ uid: help-de-saint
 title: Sales Intelligence (SAINT)
 description: "In dieser Anleitung lernen Sie, wie SAINT Ihre Vertriebs- und Kundenprozesse vorantreiben und Arbeitsabläufe verbessern kann."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: Firma, SAINT
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -4,9 +4,9 @@ title: CRM og lisenser
 description: CRM og lisenser
 keywords: lisens, brukerplan, Windows
 author: SuperOffice RnD
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: concept
+date: 05.24.2024
+version: 10.3.5
+topic: concept
 language: no
 ---
 

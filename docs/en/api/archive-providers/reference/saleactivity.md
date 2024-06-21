@@ -3,9 +3,9 @@ uid: SaleActivity
 title: SaleActivity
 description: Activity archive provider for the Sale card
 keywords: SaleActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleActivity"

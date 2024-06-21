@@ -3,9 +3,9 @@ uid: help-de-diary-group-view
 title: Gruppenansicht
 description: Gruppenansicht; Kalenderansichten erstellen; Das Dialogfeld Neue Gruppenansicht
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: Kalender, Folgeaufgabe, Gruppenansicht
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-no-user-change-plan
 title: Endre brukerplaner for aktive brukere
 description: I denne guiden lærer du hvordan du endrer en brukerplan for aktive brukere.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: bruker, medarbeider
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

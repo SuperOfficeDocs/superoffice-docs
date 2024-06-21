@@ -4,9 +4,9 @@ uid: set_up_satellite
 description: How to set up Satellite
 author: {github-id}
 keywords: travel, satellite
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Set up Satellite

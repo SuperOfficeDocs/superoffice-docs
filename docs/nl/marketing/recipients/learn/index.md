@@ -4,12 +4,12 @@ title: Een doellijst maken
 description: "Het doel van uw mailing bepaalt uw doelgroep. Nadat u weet wat u met uw mailing wilt bereiken, moet u een specifieke doellijst maken."
 keywords: Marketing, mailing
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Een doellijst maken

@@ -3,11 +3,11 @@ uid: help-de-sync-rank-fields-shown-in-erp-tab
 title: "Felder, die auf der ERP-Registerkarte angezeigt werden, sortieren"
 description: "Felder, die auf der ERP-Registerkarte angezeigt werden, sortieren"
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Angebot, Sync, Connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: ProjectMember
 title: ProjectMember
 description: Provider for the Project Member archive under Project
 keywords: ProjectMember archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectMember"

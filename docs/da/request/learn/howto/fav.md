@@ -3,11 +3,11 @@ uid: help-da-request-fav
 author: Hanne Gunnarsson
 title: Tilføj sager til listen over foretrukne
 description: Tilføj sager til listen over foretrukne
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sag, foretrukken
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

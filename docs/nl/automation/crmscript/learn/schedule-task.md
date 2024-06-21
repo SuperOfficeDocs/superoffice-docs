@@ -3,11 +3,11 @@ uid: help-nl-automation-schedule-task
 title:  Geplande taken
 description: Geplande taken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: macro, script, schema
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

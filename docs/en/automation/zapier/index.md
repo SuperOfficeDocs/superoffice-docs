@@ -3,11 +3,11 @@ uid: zapier
 title: Zapier
 description: Introduction to Zapier.
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier, automation, Zap, workflow
-so.topic: concept
+topic: concept
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # Zapier

@@ -3,9 +3,9 @@ uid: Mail
 title: Mail
 description: Provides populated mail envelope rows as an archive based on a query string
 keywords: Mail archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Mail"

@@ -3,9 +3,9 @@ uid: help-da-dashboard-tile-delete
 title: Fjern en rude
 description: Fjerne en rude fra et dashboard
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,11 +3,11 @@ uid: help-nl-request-delete
 title: Verzoeken verwijderen
 description: Een verzoek in SuperOffice verwijderen
 author: Hanne Gunnarsson
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

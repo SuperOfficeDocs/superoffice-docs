@@ -3,9 +3,9 @@ uid: help-de-sale-stakeholder-edit
 title: Beteiligte bearbeiten
 description: Wie man Beteiligte in einem Verkauf in SuperOffice bearbeitet oder entfernt.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

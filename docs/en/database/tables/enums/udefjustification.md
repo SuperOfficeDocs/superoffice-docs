@@ -2,10 +2,10 @@
 uid: enum-udefjustification
 title: Enum values for UdefJustification
 description: Lists the enum values for UdefJustification.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # UdefJustification Enum

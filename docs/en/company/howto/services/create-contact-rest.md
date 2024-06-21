@@ -3,11 +3,11 @@ title: Create a new company
 uid: create_company_rest
 description: How to create a new company using REST
 author: {github-id}
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, services, API, rest, JavaScript
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a new company

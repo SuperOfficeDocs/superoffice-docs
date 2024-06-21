@@ -3,11 +3,11 @@ title: Web GUI .Net API
 uid: web_application
 description: Web GUI .Net API
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: generic
-so.client: web
-so.envir: onsite
+topic: generic
+client: web
+envir: onsite
 ---
 
 # Expander SDK: Web GUI .Net API

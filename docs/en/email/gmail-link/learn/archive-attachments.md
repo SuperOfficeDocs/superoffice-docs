@@ -3,9 +3,9 @@ uid: help-en-gmail-link-archive-attachment
 title: Archive attachment
 description: Archive attachment
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

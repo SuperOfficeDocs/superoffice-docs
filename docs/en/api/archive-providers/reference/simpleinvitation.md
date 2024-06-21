@@ -3,9 +3,9 @@ uid: SimpleInvitation
 title: SimpleInvitation
 description: This is the query provider for invitations, of subtype 'Simple'
 keywords: SimpleInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SimpleInvitation"

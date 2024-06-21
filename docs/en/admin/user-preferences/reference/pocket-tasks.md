@@ -4,9 +4,9 @@ uid: pref_pockettasks
 description: Preference section Pocket Tasks
 author: {github-id}
 keywords: database
-so.topic: reference
-so.version: 10.0.3
-so.date: 01.20.2022
+topic: reference
+version: 10.0.3
+date: 01.20.2022
 ---
 
 # Preference section PocketTasks

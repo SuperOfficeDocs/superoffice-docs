@@ -2,10 +2,10 @@
 uid: ticketagent-getattachmentinfononinline
 title: TicketAgent.GetAttachmentInfoNonInline event method
 description: Scripting events called on the GetAttachmentInfoNonInline method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.GetAttachmentInfoNonInline
 

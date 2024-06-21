@@ -2,10 +2,10 @@
 uid: table-associate
 title: associate table
 description: Employees, resources and other users - except for External persons
-so.generated: true
+generated: true
 keywords: database table associate
-so.topic: reference
-so.envir: onsite, online
+topic: reference
+envir: onsite, online
 ---
 
 # associate Table (2)

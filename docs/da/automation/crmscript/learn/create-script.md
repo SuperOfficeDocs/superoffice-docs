@@ -3,9 +3,9 @@ uid: help-da-automation-script-create
 title: Opret et script
 description: Opret et script
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: script, makro
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,12 +3,12 @@ title: Ticket webhook events
 uid: webhook_ticket_event
 description: Ticket events
 author:
-so.date: 11.22.2023
-so.version: 10.2.11
+date: 11.22.2023
+version: 10.2.11
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Ticket webhook events

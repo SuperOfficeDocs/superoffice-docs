@@ -3,11 +3,11 @@ title: Single database user
 uid: changes_7_db_user
 description: Changes in SuperOffice 7 - Single database user
 author: {github-id}
-so.date:
+date:
 keywords: database
-so.topic: reference
-so.envir: onsite
-# so.client: 
+topic: reference
+envir: onsite
+# client: 
 ---
 
 # Single database user

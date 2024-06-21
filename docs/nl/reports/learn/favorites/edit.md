@@ -3,9 +3,9 @@ uid: help-nl-report-fav-edit
 title: Favoriete rapporten bewerken
 description: Favoriete rapporten bewerken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: nl
 ---
 

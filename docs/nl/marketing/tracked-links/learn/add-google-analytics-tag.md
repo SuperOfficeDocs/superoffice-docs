@@ -4,12 +4,12 @@ title: Uw Google Analytics-tag toevoegen aan een mailing
 description: In deze handleiding leert u hoe u uw bezoekers kunt volgen.
 keywords: Marketing, koppelingen, Google Analytics, mailing, volgen
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Uw Google Analytics-tag toevoegen aan een mailing

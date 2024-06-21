@@ -1,6 +1,6 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 12.18.2020
+date: 12.18.2020
 ---
 
 # Settings and maintenance

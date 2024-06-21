@@ -4,12 +4,12 @@ title: Använda förifyllda fält i formulär
 description: Använda förifyllda fält i formulär
 keywords: formulär, fält, förifyllda fält, fältidentifierare
 author: SuperOffice RnD
-so.date: 03.15.2024
-so.version: 10
-so.topic: howto
+date: 03.15.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Använda förifyllda fält i formulär

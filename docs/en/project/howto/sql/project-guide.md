@@ -3,11 +3,11 @@ title: Project guide
 uid: project-guide-sql
 description: How to work with project guides in SuperOffice APIs with raw SQL.
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: project, project management, SQL, API, project guide, projtype, hasGuide, ProjectTypeStatusLink, SuggestedAppointment, SuggestedDocument
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Project guides

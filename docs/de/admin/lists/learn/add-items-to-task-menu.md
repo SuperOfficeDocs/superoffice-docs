@@ -3,11 +3,11 @@ uid: help-de-task-menu-add
 title: Objekte zur Liste Menü "Aufgabe" hinzufügen
 description: Objekte zur Liste Menü "Aufgabe" hinzufügen
 author: SuperOffice RnD
-so.date: 01.11.2023
+date: 01.11.2023
 keywords: Einstellungen und Verwaltung
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

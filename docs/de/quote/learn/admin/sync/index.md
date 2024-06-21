@@ -3,13 +3,13 @@ uid: help-de-quote-sync
 title: Synchronisierung
 description: Die Registerkarte Sync in der Ansicht Angebot/Sync.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Angebot, Sync, Connector, ERP
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
-so.client: web
+client: web
 ---
 
 # Synchronisierung

@@ -3,11 +3,11 @@ uid: help-nl-request
 title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: verzoek, ticket, service
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

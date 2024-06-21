@@ -2,10 +2,10 @@
 uid: userdefinedfieldinfoagent-getuserdefinedfieldfromids
 title: UserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds event method
 description: Scripting events called on the GetUserDefinedFieldFromIds method on the UserDefinedFieldInfoAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
 

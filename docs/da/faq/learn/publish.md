@@ -3,11 +3,11 @@ uid: help-da-document-faq-publish
 title: Udgivelse af FAQ-poster
 description: Udgivelse af FAQ-poster
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: FAQ
-so.topic: help
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: help
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

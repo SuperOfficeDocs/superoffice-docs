@@ -3,9 +3,9 @@ uid: help-da-report-filters
 title:  Filtre i skærmbilledet Rapporter
 description: Filtre i skærmbilledet Rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -2,9 +2,9 @@
 uid: search_engine_results
 title: 
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Exploring search results

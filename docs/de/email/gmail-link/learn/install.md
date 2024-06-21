@@ -3,9 +3,9 @@ uid: help-de-gmail-link-install
 title: SuperOffice Gmail Link installieren
 description: "In dieser Anleitung lernen Sie, wie Sie die Browsererweiterung für Gmail installieren."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail Link, E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

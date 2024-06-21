@@ -3,9 +3,9 @@ uid: help-nl-translate-fields
 title: Velden vertalen
 description: Velden vertalen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: nl
 ---
 

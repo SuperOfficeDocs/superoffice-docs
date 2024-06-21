@@ -3,9 +3,9 @@ uid: crmscript-addresses
 title: Address localization in CRMScript
 description: Working with addresses in CRMScript.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address, NSLocalizedAddress, NSLocalizedField
-so.topic: howto
+topic: howto
 ---
 
 # Address localization in CRMScript

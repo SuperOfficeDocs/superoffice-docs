@@ -3,9 +3,9 @@ uid: UserPreferences
 title: UserPreferences
 description: User (and system) preference settings, at all levels
 keywords: UserPreferences archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "UserPreferences"

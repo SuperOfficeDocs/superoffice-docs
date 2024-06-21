@@ -3,11 +3,11 @@ title: Search for contacts with a given SAINT counter
 uid: saint-contactrow-customsearch
 description: Search for contacts with a given SAINT counter ContactRow.CustomSearch
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: sale, SAINT, API, row, customsearch, ContactRow, countervalue, amountclassid
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Search for contacts with a given SAINT counter using ContactRow.CustomSearch

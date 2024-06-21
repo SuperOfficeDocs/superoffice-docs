@@ -3,9 +3,9 @@ uid: PersonRelation
 title: PersonRelation
 description: Data provider class for the 'Relation' archive under the person card. This class combines output from
 keywords: PersonRelation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "PersonRelation"

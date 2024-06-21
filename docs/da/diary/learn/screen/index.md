@@ -3,9 +3,9 @@ uid: help-da-diary-screen
 title: Skærmbilledet Dagbog
 description: Skærmbilledet Dagbog
 author: SuperOffice RnD
-so.date: 10.02.2023
+date: 10.02.2023
 keywords: dagbog, opfølgning
-so.topic: reference
+topic: reference
 language: da
 ---
 

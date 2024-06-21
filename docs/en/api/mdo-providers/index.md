@@ -5,8 +5,8 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
-so.date: 03.17.2021
-so.topic: concept
+date: 03.17.2021
+topic: concept
 ---
 
 # MDO providers

@@ -3,9 +3,9 @@ uid: help-de-dashboard-tile-marketing
 title: Kampagne und Formulare in Kacheln verwenden
 description: "Erstellen Sie Dashboards für Ihre Marketingaufgaben, wie zum Beispiel Formularübermittlungen und Kampagnen, um deren Leistung, Trends und Produktivität überall in allen Marketingaktivitäten zu verfolgen und zu analysieren."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Dashboard, Marketing
-so.topic: howto
+topic: howto
 language: de
 ---
 

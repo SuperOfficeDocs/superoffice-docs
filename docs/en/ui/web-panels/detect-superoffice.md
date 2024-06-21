@@ -3,11 +3,11 @@ title: How to implement a web panel
 uid: webpanel_detect_so
 description: How to implement a web panel that detects if it is running inside SuperOffice web
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: webpanel
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to implement a web panel that detects if it is running inside SuperOffice web

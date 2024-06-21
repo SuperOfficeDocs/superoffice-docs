@@ -3,9 +3,9 @@ uid: help-da-report-preview
 title: Forhåndsvisning af rapporter
 description: Hvordan forhåndsvise rapporter
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: rapport
-so.topic: howto
+topic: howto
 language: da
 ---
 

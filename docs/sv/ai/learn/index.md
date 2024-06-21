@@ -3,9 +3,9 @@ uid: help-sv-ai
 title: AI-tjänster
 description: AI-tjänster
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: AI
-so.topic: concept
+topic: concept
 language: sv
 ---
 

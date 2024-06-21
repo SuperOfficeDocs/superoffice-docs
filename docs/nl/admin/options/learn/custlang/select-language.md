@@ -3,9 +3,9 @@ uid: help-nl-languages-selection
 title: Klanttaal voor nieuwe contactpersonen
 description: Hoe SuperOffice de klanttaal voor nieuwe personen selecteert
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: taal
-so.topic: help
+topic: help
 language: nl
 ---
 

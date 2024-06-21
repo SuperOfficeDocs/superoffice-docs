@@ -3,9 +3,9 @@ uid: help-nl-email-inbox-senders
 title: Afzenders beheren met SuperOffice Postvak IN
 description: Afzenders beheren met SuperOffice Postvak IN
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

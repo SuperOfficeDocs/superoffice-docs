@@ -4,9 +4,9 @@ uid: minimal_csharp_app_overview
 description: Minimal C# application
 author: {github-id}
 keywords:
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # Minimal C# application

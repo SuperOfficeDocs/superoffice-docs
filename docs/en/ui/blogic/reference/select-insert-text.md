@@ -3,9 +3,9 @@ title: Select insert text
 uid: blogic_select_insert_text
 description: Select insert text
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select insert text

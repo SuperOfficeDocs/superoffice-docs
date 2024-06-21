@@ -3,9 +3,9 @@ uid: help-de-chat-create-request
 title: Anfrage in einem Chat erstellen
 description: "In dieser Anleitung erfahren Sie, wie Sie eine Anfrage in SuperOffice Chat erstellen."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Chat
-so.topic: howto
+topic: howto
 language: de
 ---
 

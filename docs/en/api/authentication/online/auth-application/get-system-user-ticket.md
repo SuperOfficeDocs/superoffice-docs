@@ -3,11 +3,11 @@ title: How to get a system user ticket credential
 uid: get_system_user_ticket
 description: How to exchange a system user token for a system user ticket
 author: {github-id}
-so.date:
+date:
 keywords: authentication, soap, system user
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD051 -->

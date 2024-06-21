@@ -3,9 +3,9 @@ title: How to call the ToolTip service
 uid: call_tooltip_service
 description: Calling the ToolTip Service
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # How to call the ToolTip service

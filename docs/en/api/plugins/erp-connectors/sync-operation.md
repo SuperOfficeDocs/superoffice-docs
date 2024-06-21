@@ -3,11 +3,11 @@ title: Erp Sync engine operation
 uid: erp_sync_operation
 description: ERP sync engine operation
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Erp Sync engine operation

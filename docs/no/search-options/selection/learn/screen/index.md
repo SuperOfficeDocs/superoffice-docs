@@ -3,9 +3,9 @@ uid: help-no-selection-screen
 title: Detaljkortene i Utvalg-skjermbildet
 description: Detaljkortene i Utvalg-skjermbildet
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg
-so.topic: reference
+topic: reference
 language: no
 ---
 

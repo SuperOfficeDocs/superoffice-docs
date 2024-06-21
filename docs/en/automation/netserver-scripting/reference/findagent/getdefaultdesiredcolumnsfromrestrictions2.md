@@ -2,10 +2,10 @@
 uid: findagent-getdefaultdesiredcolumnsfromrestrictions2
 title: FindAgent.GetDefaultDesiredColumnsFromRestrictions2 event method
 description: Scripting events called on the GetDefaultDesiredColumnsFromRestrictions2 method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.GetDefaultDesiredColumnsFromRestrictions2
 

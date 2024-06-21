@@ -2,10 +2,10 @@
 uid: projectagent-saveprojectevententity
 title: ProjectAgent.SaveProjectEventEntity event method
 description: Scripting events called on the SaveProjectEventEntity method on the ProjectAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ProjectAgent.SaveProjectEventEntity
 

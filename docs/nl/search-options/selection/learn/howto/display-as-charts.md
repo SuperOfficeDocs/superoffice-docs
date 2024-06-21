@@ -3,9 +3,9 @@ uid: help-nl-selection-display-as-charts
 title: Visualiseer selecties met grafieken
 description: "Nadat u een selectie hebt gemaakt, kunt u uw resultaten visueel presenteren voor een directer begrip van de gegevens. In deze gids staat hoe u in SuperOffice CRM selecties kunt visualiseren met behulp van grafieken."
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selectie, grafiek
-so.topic: howto
+topic: howto
 language: nl
 ---
 

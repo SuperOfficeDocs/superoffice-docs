@@ -3,9 +3,9 @@ uid: help-sv-ai-text-analysis
 title: AI-baserad textanalys
 description: AI-baserad textanalys
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: AI
-so.topic: concept
+topic: concept
 language: sv
 ---
 

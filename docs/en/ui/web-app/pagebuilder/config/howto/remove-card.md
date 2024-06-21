@@ -3,11 +3,11 @@ title: How to remove an existing card
 uid: pb_remove_card
 description: How to remove an existing card from a page
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to remove an existing card from a page

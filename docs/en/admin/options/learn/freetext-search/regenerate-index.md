@@ -3,11 +3,11 @@ uid: help-en-freetext-index-regen
 title: Regenerating a freetext index
 description: Regenerating a freetext index
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: free-text, search index
-so.topic: howto
+topic: howto
 language: en
-so.envir: onsite
+envir: onsite
 ---
 
 # Regenerate a freetext index (onsite)

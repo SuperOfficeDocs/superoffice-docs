@@ -3,9 +3,9 @@ uid: help-sv-getting-started
 title: Komma igång
 description: "Läs om hur du aktiverar ditt användarkonto, ansluter e-post och dokument och anger personliga inställningar."
 author: Bergfrid Dias
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: sv
 ---
 

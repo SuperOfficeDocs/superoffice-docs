@@ -3,11 +3,11 @@ uid: help-de-faq-folder
 title: Ordner mit FAQ-Einträgen verwalten
 description: Ordner mit FAQ-Einträgen verwalten
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ, Ordner
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

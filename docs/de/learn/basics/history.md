@@ -3,9 +3,9 @@ uid: help-de-history-list
 title: Verlaufsliste verwenden
 description: Verlaufsliste verwenden
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: Suchen, Verlauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

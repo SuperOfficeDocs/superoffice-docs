@@ -3,9 +3,9 @@ uid: help-no-email-blocked-service
 title: Blokkert e-post
 description: Blokkert e-post
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: reference
+topic: reference
 language: no
 ---
 

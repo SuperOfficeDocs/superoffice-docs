@@ -3,12 +3,12 @@ title: CRMScript event handlers
 uid: webhooks_crmscript_event_handlers
 description: CRMScript hooks
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-so.version: 9.2.7648
-# so.envir:
-# so.client:
+topic: reference
+version: 9.2.7648
+# envir:
+# client:
 ---
 
 # CRMScript webhooks event handlers

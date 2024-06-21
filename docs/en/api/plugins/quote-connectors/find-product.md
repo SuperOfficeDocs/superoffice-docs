@@ -3,9 +3,9 @@ title: Product search provider
 uid: quote_connectors_find_product
 description: Product search provider
 author: {github-id}
-so.date:
+date:
 keywords: quote,search
-so.topic: howto
+topic: howto
 ---
 
 # Product search provider

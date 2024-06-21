@@ -3,9 +3,9 @@ uid: help-sv-project-create
 title: Skapa ett projekt
 description: Så här skapar du ett projekt och organiserar ditt arbete ännu bättre.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: projekt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

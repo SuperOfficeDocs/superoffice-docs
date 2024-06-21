@@ -3,9 +3,9 @@ uid: help-no-diary-screen
 title: Dagbok-skjermen
 description: Dagbok-skjermen
 author: SuperOffice RnD
-so.date: 10.02.2023
+date: 10.02.2023
 keywords: dagbok, oppfølging
-so.topic: reference
+topic: reference
 language: no
 ---
 

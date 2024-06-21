@@ -3,9 +3,9 @@ uid: crmscript_docs
 title: Documents
 description: How to manage documents with CRMScript; document properties vs. the file itself
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: CRMScript, documents
-so.topic: concept
+topic: concept
 ---
 
 # Documents

@@ -3,9 +3,9 @@ uid: EmailFlowInstances
 title: EmailFlowInstances
 description: Archive of Email flow Instances.
 keywords: EmailFlowInstances archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "EmailFlowInstances"

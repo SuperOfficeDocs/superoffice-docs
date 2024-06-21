@@ -3,11 +3,11 @@ title: Tickets and identity transfers
 uid: id_transfer_tickets
 description: Tickets and identity transfers
 author: {github-id}
-so.date:
+date:
 keywords: authentication, user
-so.topic: concept
-so.envir: onsite
-so.client: web
+topic: concept
+envir: onsite
+client: web
 ---
 
 # Tickets and identity transfers

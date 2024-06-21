@@ -3,9 +3,9 @@ uid: help-nl-document-dialog
 title: Dialoogvenster Document
 description: Dialoogvenster Document
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: document
-so.topic: concept
+topic: concept
 language: nl
 ---
 

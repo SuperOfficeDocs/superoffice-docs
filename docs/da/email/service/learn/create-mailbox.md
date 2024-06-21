@@ -3,10 +3,10 @@ uid: help-da-service-mailbox-create
 title: Oprettelse af e-mailkonti
 description: Oprettelse af e-mailkonti
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

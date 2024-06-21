@@ -3,9 +3,9 @@ uid: help-no-languages
 title: Kundespråk
 description: Kundespråk
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: språk
-so.topic: concept
+topic: concept
 language: no
 ---
 

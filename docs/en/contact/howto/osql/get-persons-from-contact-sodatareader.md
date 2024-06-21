@@ -3,11 +3,11 @@ title: Retrieve a list of people using SODataReader
 uid: get_person_from_contact_sodatareader
 description: How to retrieve a list of people using SODataReader.
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: person, contact, SoReader, SODataReader, API, OSQL
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Retrieve a list of people using SODataReader

@@ -3,9 +3,9 @@ uid: help-da-gmail-link-archive-incoming
 title: Arkivering af indgående e-mail
 description: Arkivering af indgående e-mail
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

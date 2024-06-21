@@ -3,11 +3,11 @@ uid: tenant-consent-problems
 title: Unable to approve app
 description: How to solve problems related to approving a customer's tenant
 author: Margrethe Romnes
-so.date: 09.15.2023
+date: 09.15.2023
 keywords: tenant, consent, approve
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Unable to approve app

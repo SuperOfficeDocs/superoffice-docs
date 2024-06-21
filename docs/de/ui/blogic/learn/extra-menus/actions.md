@@ -3,9 +3,9 @@ uid: help-de-ui-extra-menu-actions
 title: Funktion zur Schaltfläche Aufgabe hinzufügen
 description: Funktion zur Schaltfläche Aufgabe hinzufügen
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Makro, Aufgabe, Aktionen
-so.topic: howto
+topic: howto
 language: de
 ---
 

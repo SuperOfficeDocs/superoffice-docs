@@ -3,9 +3,9 @@ uid: help-nl-chat-transfer-to-agent
 title: Een chat overbrengen naar een andere agent
 description: In deze handleiding leert u hoe u een chat overbrengt naar een andere agent.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatten
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-email-inbox-mark-as-read
 title: E-Mails als gelesen oder ungelesen markieren
 description: E-Mails als gelesen oder ungelesen markieren
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

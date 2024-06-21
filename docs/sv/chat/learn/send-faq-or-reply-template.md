@@ -3,9 +3,9 @@ uid: help-sv-chat-send-faq-or-reply-template
 title: "Skicka FAQ:er, svarsmallar och snabbsvar i en chatt"
 description: "Skicka FAQ:er, svarsmallar och snabbsvar i en chatt"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -2,11 +2,11 @@
 title: TimeZone element
 uid: ns_config_timezone
 description: NetServer configuration values related to TimeZone.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, TimeZone, ServiceUrl
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer TimeZone element (SuperOffice only)

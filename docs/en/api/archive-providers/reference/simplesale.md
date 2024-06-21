@@ -3,9 +3,9 @@ uid: SimpleSale
 title: SimpleSale
 description: 
 keywords: SimpleSale archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SimpleSale"

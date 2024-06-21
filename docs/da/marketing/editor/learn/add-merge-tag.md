@@ -4,12 +4,12 @@ title: Føj flettefelter til din meddelelse
 description: "Få flere oplysninger om, hvordan du føjer flettefelter til din udsendelse"
 keywords: Marketing, flettefelt, meddelelse, skabelonvariabler
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Føj flettefelter til din meddelelse

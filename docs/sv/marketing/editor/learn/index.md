@@ -4,12 +4,12 @@ title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Dra och släpp-redigerare

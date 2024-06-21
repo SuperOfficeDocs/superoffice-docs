@@ -4,9 +4,9 @@ uid: g_suite_security
 description:  Google Workspace document integration security
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Security

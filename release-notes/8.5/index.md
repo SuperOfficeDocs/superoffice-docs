@@ -1,7 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 12.18.2020
-so.version: 8.5
+date: 12.18.2020
+version: 8.5
 ---
 
 # What’s new in SuperOffice 8.5

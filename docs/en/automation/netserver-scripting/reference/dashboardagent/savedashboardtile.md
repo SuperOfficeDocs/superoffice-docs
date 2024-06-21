@@ -2,10 +2,10 @@
 uid: dashboardagent-savedashboardtile
 title: DashboardAgent.SaveDashboardTile event method
 description: Scripting events called on the SaveDashboardTile method on the DashboardAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DashboardAgent.SaveDashboardTile
 

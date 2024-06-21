@@ -3,11 +3,11 @@ title: Set up a reverse proxy
 uid: set_up_reverse_proxy_iis
 description: Setting up a Reverse proxy on IIS8 for SuperOffice onsite
 author: Bergfrid Dias
-so.date: 11.26.2021
+date: 11.26.2021
 keywords: security, reverse proxy, IIS, DMZ
-so.topic: howto
-so.envir: online
-so.client: web
+topic: howto
+envir: online
+client: web
 ---
 
 # Setting up a Reverse proxy on IIS8

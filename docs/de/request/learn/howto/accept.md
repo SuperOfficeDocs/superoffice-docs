@@ -3,11 +3,11 @@ uid: help-de-request-accept
 title: Anfragen übernehmen
 description: Anfragen übernehmen
 author: SuperOffice RnD
-so.date: 02.13.2023
+date: 02.13.2023
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-diary-other
 title: Visa en annan kalender
 description: Visa en annan persons kalender.
 author: Bergfrid Dias
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: kalender, händelse, resurs, ägare
-so.topic: howto
+topic: howto
 language: sv
 ---
 

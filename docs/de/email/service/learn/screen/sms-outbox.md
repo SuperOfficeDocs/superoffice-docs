@@ -3,9 +3,9 @@ uid: help-de-sms-outbox
 title: SMS-Postausgang
 description: SMS-Postausgang
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: de
 ---
 

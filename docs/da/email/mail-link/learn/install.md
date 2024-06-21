@@ -3,11 +3,11 @@ uid: help-da-mail-link-install
 title: Installer SuperOffice WebTools
 description: "Få mere at vide om, hvordan du installerer maillinket/WebTools."
 author: Kirsti Aakerholt
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

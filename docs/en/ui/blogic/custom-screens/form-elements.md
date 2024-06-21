@@ -3,9 +3,9 @@ title: Form elements
 uid: blogic_form_elements
 description: Form elements
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Form elements

@@ -3,9 +3,9 @@ uid: tempvar-pocket
 title: Pocket template variables
 description: Pocket template variables
 author: Bergfrid Dias
-so.date: 09.22.2022
+date: 09.22.2022
 keywords: template variable
-so.topic: reference
+topic: reference
 ---
 
 # Pocket template variables

@@ -4,12 +4,12 @@ title: New and improved mobile
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: mobile, CallerID, notification, request, ticket, quote, custom task, new button, SharePoint, filter, dashboard, follow-up
 author: SuperOffice AS – Research and Development
-so.date: 05.15.2024
-so.version.mobile: 10.2
-so.topic: reference
-so.client: mobile
-so.audience: person
-so.audience.tooltip: SuperOffice Mobile CRM
+date: 05.15.2024
+version_mobile: 10.2
+topic: reference
+client: mobile
+audience: person
+audience_tooltip: SuperOffice Mobile CRM
 ---
 
 # SuperOffice Mobile CRM

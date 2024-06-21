@@ -4,12 +4,12 @@ title: Geautomatiseerde linkacties definiëren
 description: In deze handleiding leert u hoe u links in mailings kunt gebruiken om acties te automatiseren.
 keywords: Marketing, koppelingen, mailing, gevolgde links
 author: Bergfrid Dias
-so.date: 06.17.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.17.2024
+version: 10.3.5
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Geautomatiseerde linkacties definiëren

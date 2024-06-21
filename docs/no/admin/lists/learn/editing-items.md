@@ -3,11 +3,11 @@ uid: help-no-edit-items
 title: Redigere forekomster
 description: I denne guiden lærer du hvordan du redigerer en listeforekomst.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: listeforekomst
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

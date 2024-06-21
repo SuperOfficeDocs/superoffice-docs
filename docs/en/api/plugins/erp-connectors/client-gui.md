@@ -3,11 +3,11 @@ title: ERP sync client GUI
 uid: erp_sync_client_gui
 description: ERP sync client GUI
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # ERP sync client GUI

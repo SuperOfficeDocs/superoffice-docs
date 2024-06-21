@@ -3,9 +3,9 @@ uid: help-sv-project-member-edit
 title: Redigera projektdeltagare
 description: Så redigerar eller tar du bort projektdeltagare i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltagare
-so.topic: howto
+topic: howto
 language: sv
 ---
 

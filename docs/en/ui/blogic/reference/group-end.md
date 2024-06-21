@@ -3,9 +3,9 @@ title: Group end
 uid: blogic_group_end
 description: Group end
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Group end

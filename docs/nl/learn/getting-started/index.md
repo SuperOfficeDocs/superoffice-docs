@@ -3,9 +3,9 @@ uid: help-nl-getting-started
 title: Aan de slag
 description: "Meer informatie over het activeren van uw gebruikersaccount, het verbinden van uw e-mail en documenten en het instellen van uw persoonlijke voorkeuren."
 author: Bergfrid Dias
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: nl
 ---
 

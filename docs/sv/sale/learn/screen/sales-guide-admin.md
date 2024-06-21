@@ -3,11 +3,11 @@ uid: help-sv-sale-guide-admin
 title: Fliken säljguide 
 description: Fliken säljguide i fönstret arbetsflöde i SuperOffice.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: försäljning, guide
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

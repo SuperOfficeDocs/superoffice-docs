@@ -2,10 +2,10 @@
 uid: dashboardagent-getdashboards
 title: DashboardAgent.GetDashboards event method
 description: Scripting events called on the GetDashboards method on the DashboardAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DashboardAgent.GetDashboards
 

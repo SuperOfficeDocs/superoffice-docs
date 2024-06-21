@@ -3,10 +3,10 @@ uid: help-da-recurrence-stop
 title: Stop gentagen opfølgning
 description: Stop gentagen opfølgning
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: dagbog, opfølgning, gentag, gentages
-so.topic: howto
+topic: howto
 language: da
 ---
 

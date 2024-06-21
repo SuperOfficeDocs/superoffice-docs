@@ -3,9 +3,9 @@ uid: help-sv-sale-delete
 title: Ta bort en försäljning
 description: Ta bort en försäljning
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

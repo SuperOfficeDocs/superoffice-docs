@@ -1,7 +1,7 @@
 ---
 author: SuperOffice AS – Research and Development
-so.date: 10.20.2021
-so.version: 10
+date: 10.20.2021
+version: 10
 ---
 
 # New and improved Service

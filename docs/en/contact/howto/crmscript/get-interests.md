@@ -3,9 +3,9 @@ uid: crmscript-get-personinterests
 title: List interests for a person
 description: How to list interests for a person with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 15.02.2021
+date: 15.02.2021
 keywords: interest, customer, person, contact
-so.topic: howto
+topic: howto
 ---
 
 # List interests for a person

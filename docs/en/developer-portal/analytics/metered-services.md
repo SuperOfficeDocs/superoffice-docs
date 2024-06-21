@@ -3,12 +3,12 @@ title: Check application usage
 uid: dp-metered-services
 description: How to check the API call statistics for your application and monitor metered services.
 author: Bergfrid Dias
-so.date: 01.02.2024
+date: 01.02.2024
 keywords: metered services, API usage, metrics
-so.topic: howto
-so.envir: cloud
-so.client: online
-so.version: 1.16
+topic: howto
+envir: cloud
+client: online
+version: 1.16
 ---
 
 # Check application usage (API calls)

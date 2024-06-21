@@ -3,11 +3,11 @@ title: Create an appointment row
 uid: create_appointment_row
 description: How to create an appointment row.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: diary, calendar, appointment, API, row, AppointmentRow
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create an appointment row

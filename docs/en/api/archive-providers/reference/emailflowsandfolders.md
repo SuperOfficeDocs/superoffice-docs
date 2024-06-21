@@ -3,9 +3,9 @@ uid: EmailFlowsAndFolders
 title: EmailFlowsAndFolders
 description: Archive of EmailFlows and Folders.
 keywords: EmailFlowsAndFolders archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "EmailFlowsAndFolders"

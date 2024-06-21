@@ -3,9 +3,9 @@ title: Reply templates
 uid: reply-template
 description: A reply template is a blueprint for an email. It consists of regular text and template variables.
 author: Bergfrid Dias
-so.date: 05.30.2023
+date: 05.30.2023
 keywords: reply template, request, ticket, parse
-so.topic: concept
+topic: concept
 ---
 
 # Service reply templates

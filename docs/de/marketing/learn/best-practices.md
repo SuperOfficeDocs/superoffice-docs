@@ -4,12 +4,12 @@ title: Beste Praktiken
 description: Beste Praktiken
 keywords: Marketing, E-Mail-Marketing, Nachricht, Publikum
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 05.31.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.31.2024
+version: 10.3.5
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Beste Praktiken

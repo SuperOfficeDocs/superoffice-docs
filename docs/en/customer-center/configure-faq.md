@@ -4,8 +4,8 @@ uid: faq-config
 description: Configure FAQ entries
 author: {github-id}
 keywords: FAQ, CEP, Customer Center, registry, comment
-so.topic: howto
-so.audience: settings
+topic: howto
+audience: settings
 ---
 
 # Configure FAQ entries

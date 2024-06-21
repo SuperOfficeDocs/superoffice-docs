@@ -3,9 +3,9 @@ uid: help-sv-sms-outbox
 title: Utkorg för SMS
 description: Utkorg för SMS
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjänst
-so.topic: reference
+topic: reference
 language: sv
 ---
 

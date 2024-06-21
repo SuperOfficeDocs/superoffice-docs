@@ -3,9 +3,9 @@ uid: help-no-getting-started
 title: Komme i gang
 description: "Finn ut hvordan du aktiverer brukerkontoen din, kobler til e-post og dokumenter og angir personlige preferanser."
 author: Bergfrid Dias
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: no
 ---
 

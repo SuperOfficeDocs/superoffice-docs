@@ -3,9 +3,9 @@ title: ImpFileNames method
 uid: impfilenames_method
 description: Continuous database ImpFileNames method
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: database
-so.topic: concept
+topic: concept
 ---
 
 # ImpFileNames method

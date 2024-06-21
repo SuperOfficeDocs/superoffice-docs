@@ -3,11 +3,11 @@ title: Retrieving list of persons with ContactAgent
 uid: get_person_contactagent
 description: How to retrieve a list of persons with ContactAgent.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, services, API, api-services, ContactAgent, PersonAgent, GetContactWithPersons
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Retrieving list of persons with ContactAgent

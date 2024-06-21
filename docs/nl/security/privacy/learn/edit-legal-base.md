@@ -3,9 +3,9 @@ uid: help-nl-edit-legal-base
 title: Rechtsgrondslag bewerken
 description: Deze gids gaat over de AVG-functies in SuperOffice Marketing die u helpen ervoor te zorgen dat uw marketinginspanningen voldoen aan de AVG.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: privacy, toestemming, Rechtsgrondslag
-so.topic: howto
+topic: howto
 language: nl
 ---
 

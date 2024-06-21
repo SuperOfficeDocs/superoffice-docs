@@ -3,12 +3,12 @@ uid: help-de-mobile-intro
 title: Mobile CRM - Zugriff auf Ihr CRM von unterwegs
 description: "In dieser Anleitung lernen Sie, wie Sie mit den grundlegenden Funktionen von Mobile CRM beginnen."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, Pocket
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: de
-so.client: mobile
+client: mobile
 ---
 
 # Mobile CRM: Zugriff auf Ihr CRM von unterwegs

@@ -3,9 +3,9 @@ uid: help-da-company-add-relation
 title: Tilføj relation
 description: Tilføj relation
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
 ---
 

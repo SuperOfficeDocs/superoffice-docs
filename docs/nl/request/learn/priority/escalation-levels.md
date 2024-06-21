@@ -3,9 +3,9 @@ uid: help-nl-request-escalation
 title: Escalatieniveaus
 description: Escalatieniveaus
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: verzoek, prioriteit, escaleren
-so.topic: howto
+topic: howto
 language: nl
 ---
 

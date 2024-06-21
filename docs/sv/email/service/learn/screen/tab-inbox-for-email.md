@@ -3,9 +3,9 @@ uid: help-sv-service-mailboxes-in
 title: Inkorg för e-post
 description: Inkorg för e-post
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post
-so.topic: reference
+topic: reference
 language: sv
 ---
 

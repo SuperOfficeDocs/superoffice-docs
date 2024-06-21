@@ -3,9 +3,9 @@ uid: crmscript-create-user
 title: Create and update customers
 description: How to create and update customers.
 author: Bergfrid Skaara Dias
-so.date: 15.02.2021
+date: 15.02.2021
 keywords: CRMScript, ejuser, user, user account
-so.topic: howto
+topic: howto
 ---
 
 # Create and update customers

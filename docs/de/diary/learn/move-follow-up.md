@@ -3,10 +3,10 @@ uid: help-de-follow-up-move
 title: Folgeaufgaben verschieben
 description: Folgeaufgaben verschieben
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: Kalender, Folgeaufgabe
-so.topic: howto
+topic: howto
 language: de
 ---
 

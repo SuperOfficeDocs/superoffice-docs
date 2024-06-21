@@ -3,12 +3,12 @@ uid: help-no-screen-designer-add-layout
 title: Legg til ny skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe.
 author: Bergfrid Dias
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: Skjermdesigner, format, hovedkort, arkiv
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

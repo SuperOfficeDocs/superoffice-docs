@@ -3,12 +3,12 @@ uid: mobile-crm-diary
 title: Diary
 description: Learn about the Diary in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.25.2023
+date: 07.25.2023
 keywords: mobile, diary, calendar, appointment
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Diary ![icon][img10]

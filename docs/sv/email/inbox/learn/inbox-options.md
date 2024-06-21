@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-options
 title: Alternativ
 description: Alternativ
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post, inkorg
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-sharepoint-documents-folders
 title: De SharePoint-mappen instellen
 description: De SharePoint-mappen instellen
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: document, Sharepoint
-so.topic: howto
+topic: howto
 language: nl
 ---
 

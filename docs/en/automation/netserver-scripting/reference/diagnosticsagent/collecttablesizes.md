@@ -2,10 +2,10 @@
 uid: diagnosticsagent-collecttablesizes
 title: DiagnosticsAgent.CollectTableSizes event method
 description: Scripting events called on the CollectTableSizes method on the DiagnosticsAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DiagnosticsAgent.CollectTableSizes
 

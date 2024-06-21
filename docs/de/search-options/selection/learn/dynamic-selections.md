@@ -3,9 +3,9 @@ uid: help-de-selections-dynamic
 title: Dynamische Selektionen
 description: Dynamische Selektionen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion, dynamisch
-so.topic: concept
+topic: concept
 language: de
 ---
 

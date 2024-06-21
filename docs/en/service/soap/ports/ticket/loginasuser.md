@@ -4,8 +4,8 @@ uid: cs_soap_ports_ticket_loginasuser
 description: Services SOAP interface ticket reference loginAsUser
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # loginAsUser

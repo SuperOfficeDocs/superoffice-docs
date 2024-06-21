@@ -3,9 +3,9 @@ uid: help-sv-sale-add-type
 title: Lägg till försäljningstyp
 description: Lägg till försäljningstyp
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: försäljningstyp
-so.topic: howto
+topic: howto
 language: sv
 ---
 

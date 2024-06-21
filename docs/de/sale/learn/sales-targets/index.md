@@ -3,9 +3,9 @@ uid: help-de-sales-targets
 title: Vertriebsziele
 description: "Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist eine der wichtigsten Funktionen in SuperOffice CRM. Mit Hilfe unserer Verkaufsziel-Funktion können Sie Ihre tatsächlichen Verkäufe mit Ihren Zielen vergleichen."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf
-so.topic: concept
+topic: concept
 language: de
 ---
 

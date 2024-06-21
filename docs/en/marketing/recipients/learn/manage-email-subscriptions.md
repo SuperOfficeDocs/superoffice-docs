@@ -4,12 +4,12 @@ title: Manage email subscriptions
 description: SuperOffice CRM's Subscription Management features empower your contacts to specify the content they wish to receive. This is tied to Consent Management
 keywords: Marketing, mailing, consent, subscription, GDPR, privacy
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: concept
+date: 02.09.2024
+version: 10
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Manage email subscriptions

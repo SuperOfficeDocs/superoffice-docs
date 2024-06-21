@@ -3,12 +3,12 @@ uid: help-sv-creating-import-descriptions
 title: Skapa importbeskrivningar
 description: Skapa importbeskrivningar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar för Windows-klient
-so.topic: help
+topic: help
 language: sv
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Skapa importbeskrivningar

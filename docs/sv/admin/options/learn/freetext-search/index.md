@@ -3,9 +3,9 @@ uid: help-sv-settings-freetext-search
 title: Fritextsökning
 description: Fritextsökning
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: fritext, söka
-so.topic: concept
+topic: concept
 language: sv
 ---
 

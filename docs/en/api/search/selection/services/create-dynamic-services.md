@@ -3,11 +3,11 @@ title: Creating a dynamic selection (services)
 uid: create_dynamic_selection_services
 description: Creating a dynamic selection using NetServer services
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: search
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Creating a dynamic selection (services)

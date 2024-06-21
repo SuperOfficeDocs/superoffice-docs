@@ -3,9 +3,9 @@ uid: help-da-service-mailboxes
 title: E-mail-konti
 description: E-mail-konti
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: concept
+topic: concept
 language: da
 ---
 

@@ -3,9 +3,9 @@ title: Panes
 uid: blogic_panes
 description: Panes
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Panes

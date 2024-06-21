@@ -3,9 +3,9 @@ uid: help-da-project-screen-sale
 title: Fanen Salg
 description: Fanen Projekt på skærmbilledet Salg
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, salg
-so.topic: reference
+topic: reference
 language: da
 ---
 

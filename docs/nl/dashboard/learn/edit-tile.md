@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tile-edit
 title: Een tegel bewerken
 description: Een tegel bewerken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

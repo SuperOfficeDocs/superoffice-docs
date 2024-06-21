@@ -3,9 +3,9 @@ uid: help-nl-mail-link-create-outlook
 title: E-mails maken vanuit Microsoft Outlook
 description: E-mails maken vanuit Microsoft Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: SuperOffice Mail Link
-so.topic: howto
+topic: howto
 language: nl
 ---
 

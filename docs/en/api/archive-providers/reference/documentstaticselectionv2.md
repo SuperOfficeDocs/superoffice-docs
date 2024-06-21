@@ -3,9 +3,9 @@ uid: DocumentStaticSelectionV2
 title: DocumentStaticSelectionV2
 description: 
 keywords: DocumentStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "DocumentStaticSelectionV2"

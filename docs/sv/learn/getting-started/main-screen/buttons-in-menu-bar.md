@@ -3,9 +3,9 @@ uid: help-sv-ui-top-bar
 title: Knappar i menyfältet
 description: Knappar i menyfältet
 author: SuperOffice RnD
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: toppraden, knapp
-so.topic: reference
+topic: reference
 language: sv
 ---
 

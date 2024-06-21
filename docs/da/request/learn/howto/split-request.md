@@ -3,11 +3,11 @@ uid: help-da-request-split
 title: Deling af sager
 description: Deling af sager
 author: Hanne Gunnarsson
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

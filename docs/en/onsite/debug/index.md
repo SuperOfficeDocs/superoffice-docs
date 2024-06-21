@@ -3,10 +3,10 @@ uid: onsite-debug
 title: Onsite debugging
 description: Debugging onsite
 keywords: config, web.config, diagnostics, log
-so.date: 05.21.2024
+date: 05.21.2024
 author: Bergfrid Dias, Martin Pavlas
-so.topic: concept
-so.envir: onsite
+topic: concept
+envir: onsite
 ---
 
 # Debug

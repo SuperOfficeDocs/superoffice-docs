@@ -3,11 +3,11 @@ uid: help-no-sign-in-to-superoffice
 title: Pålogging
 description: Logg på for å aktivere SuperOffice CRM-kontoen med et SuperOffice CRM-passord eller et alternativ for enkel pålogging.
 author: SuperOffice RnD
-so.date: 08.28.2023
+date: 08.28.2023
 keywords: CRM, logge på, pålogging, passord
-so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

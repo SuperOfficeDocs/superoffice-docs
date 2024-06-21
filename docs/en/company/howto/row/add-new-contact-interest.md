@@ -3,11 +3,11 @@ title: How to add a new contact interest
 uid: create_contact_interest
 description: How to add a new contact interest with rows.
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: company, contact, interest, API, row, ContIntRow, ContactInterestRow, ContIntGroupLinkRow, ContIntHeadingLinkRow
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to add a new contact interest

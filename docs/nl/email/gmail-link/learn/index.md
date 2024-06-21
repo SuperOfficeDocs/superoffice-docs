@@ -3,9 +3,9 @@ uid: help-nl-gmail-link
 title: SuperOffice Gmail Link
 description: De SuperOffice Gmail Link-app verbindt uw Gmail-account met SuperOffice CRM en helpt u productiever te werken met e-mails.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail Link, e-mail
-so.topic: concept
+topic: concept
 language: nl
 ---
 

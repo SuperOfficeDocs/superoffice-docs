@@ -4,7 +4,7 @@ uid: pref_numbering
 description: Preference section Numbering
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Numbering

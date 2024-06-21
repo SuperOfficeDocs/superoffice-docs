@@ -3,9 +3,9 @@ uid: help-sv-contact-add-relation
 title: Lägga till relationer (Kontakt-fönstret)
 description: Lägga till relationer (Kontakt-fönstret)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: sv
 ---
 

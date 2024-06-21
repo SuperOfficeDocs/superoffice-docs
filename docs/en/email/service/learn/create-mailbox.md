@@ -3,10 +3,10 @@ uid: help-en-service-mailbox-create
 title: Create mailboxes
 description: Create mailboxes
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: email
-so.topic: howto
+topic: howto
 language: en
 ---
 

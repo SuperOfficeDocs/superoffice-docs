@@ -3,11 +3,11 @@ uid: help-nl-time-zones-enable
 title: Tijdzones activeren
 description: Tijdzones activeren
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: tijdzone
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

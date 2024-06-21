@@ -4,11 +4,11 @@ title: Gebruikersgedefinieerde velden
 description: Gebruikersgedefinieerde velden
 keywords: udef, aangepast veld, gebruikersgedefinieerd
 author: Bergfrid Dias
-so.date: 01.30.2024
-so.version: 10
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+date: 01.30.2024
+version: 10
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

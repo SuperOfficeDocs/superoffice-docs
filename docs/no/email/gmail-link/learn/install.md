@@ -3,9 +3,9 @@ uid: help-no-gmail-link-install
 title: Installere SuperOffice Gmail Link
 description: Lær hvordan du installerer nettleserutvidelsen for Gmail i denne veiledningen.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail Link, E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

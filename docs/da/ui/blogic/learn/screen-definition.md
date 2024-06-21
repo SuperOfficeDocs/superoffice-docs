@@ -3,9 +3,9 @@ uid: help-da-service-screen-definition
 title: Skærmbillede definition
 description: Skærmbillede definition
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: skærmbillede definition
-so.topic: reference
+topic: reference
 language: da
 ---
 

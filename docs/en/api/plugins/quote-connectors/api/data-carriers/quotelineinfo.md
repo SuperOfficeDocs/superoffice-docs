@@ -2,9 +2,9 @@
 title: QuoteLineInfo
 uid: quote_connector_carrier_quotelineinfo
 description:  ERP Quote Connector Interface data carrier - QuoteLineInfo
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # QuoteLineInfo

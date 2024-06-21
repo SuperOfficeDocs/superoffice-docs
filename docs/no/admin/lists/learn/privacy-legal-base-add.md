@@ -3,11 +3,11 @@ uid: help-no-privacy-legal-base-add
 title: Personvern hjemmel legge til
 description: Bruk denne veiledningen til å finne ut hvordan du endrer personvernlistene.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: personvern, samtykke
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

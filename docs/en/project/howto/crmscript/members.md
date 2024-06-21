@@ -3,9 +3,9 @@ uid: crmscript-project-members
 title: Project members
 description: How to work with project members in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: CRMScript, project, project member, ProjectAgent
-so.topic: howto
+topic: howto
 ---
 
 # Project members

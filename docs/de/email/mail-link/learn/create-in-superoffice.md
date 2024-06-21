@@ -3,9 +3,9 @@ uid: help-de-mail-link-create-so
 title: E-Mails von SuperOffice CRM erstellen
 description: E-Mails von SuperOffice CRM erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

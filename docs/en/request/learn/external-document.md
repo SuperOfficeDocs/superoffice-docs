@@ -3,11 +3,11 @@ uid: help-en-document-external
 title: Work with external documents
 description: Work with external documents and files
 author: Kirsti Aakerholt
-so.date: 07.05.2023
+date: 07.05.2023
 keywords: request, document, external, file, knowledge base
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

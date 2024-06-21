@@ -3,9 +3,9 @@ uid: help-no-mail-link-archive-attachment
 title: Arkivere vedlegg
 description: "Hvis du vil lagre et e-postvedlegg, men ikke selve e-posten i SuperOffice CRM, kan du arkivere vedlegget som et dokument."
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link, e-post, vedlegg
-so.topic: howto
+topic: howto
 language: no
 ---
 

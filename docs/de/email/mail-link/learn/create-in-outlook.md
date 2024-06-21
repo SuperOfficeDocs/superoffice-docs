@@ -3,9 +3,9 @@ uid: help-de-mail-link-create-outlook
 title: E-Mails von Microsoft Outlook erstellen
 description: E-Mails von Microsoft Outlook erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: SuperOffice Mail Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

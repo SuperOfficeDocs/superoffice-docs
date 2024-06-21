@@ -3,11 +3,11 @@ uid: help-nl-archive-edit-layout
 title: Opmaak bewerken op sectietabbladen/archieven
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: schermontwerper, sectietabblad, archief
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

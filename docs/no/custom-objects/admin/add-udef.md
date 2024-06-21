@@ -4,11 +4,11 @@ title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
 keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
-so.date: 01.25.2024
-so.version: 10
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.25.2024
+version: 10
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

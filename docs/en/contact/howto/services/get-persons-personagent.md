@@ -3,11 +3,11 @@ title: Retrieving list of persons with PersonAgent
 uid: get_person_ipersonagent
 description: How to retrieve a list of persons with PersonAgent.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, services, API, api-services, PersonAgent, GetPersonList
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Retrieving list of persons with PersonAgent

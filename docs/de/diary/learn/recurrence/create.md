@@ -3,10 +3,10 @@ uid: help-de-recurrence-set
 title: Planen von regelmäßige Folgeaufgabe
 description: Planen von regelmäßige Folgeaufgabe
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren, regelmäßig, planen
-so.topic: howto
+topic: howto
 language: de
 ---
 

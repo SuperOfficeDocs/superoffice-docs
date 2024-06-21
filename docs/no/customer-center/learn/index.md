@@ -3,9 +3,9 @@ uid: help-no-customer-centre
 title: Kundesenter
 description: Kundesenter
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundesenter
-so.topic: concept
+topic: concept
 language: no
 ---
 

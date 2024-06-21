@@ -3,9 +3,9 @@ uid: help-de-gmail-link-archive-attachment
 title: Anhang/Anhänge archivieren
 description: Anhang/Anhänge archivieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

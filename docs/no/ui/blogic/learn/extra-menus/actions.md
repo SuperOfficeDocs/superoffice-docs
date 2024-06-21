@@ -3,9 +3,9 @@ uid: help-no-ui-extra-menu-actions
 title: Legg til funksjon til Oppgave-knappen
 description: Legg til funksjon til Oppgave-knappen
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: makro, oppgave, handlinger
-so.topic: howto
+topic: howto
 language: no
 ---
 

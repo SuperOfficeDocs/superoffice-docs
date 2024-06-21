@@ -3,9 +3,9 @@ uid: help-no-chat-screen
 title: Chat-bilde
 description: Chat-bilde
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: reference
+topic: reference
 language: no
 ---
 

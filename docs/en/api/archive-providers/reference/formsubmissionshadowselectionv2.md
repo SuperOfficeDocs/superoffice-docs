@@ -3,9 +3,9 @@ uid: FormSubmissionShadowSelectionV2
 title: FormSubmissionShadowSelectionV2
 description: Shadow contact provider for the FormSubmission provider.
 keywords: FormSubmissionShadowSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionShadowSelectionV2"

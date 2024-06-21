@@ -4,9 +4,9 @@ description: ForeignKeys – to fluent or not to fluent, that is the question
 author: Tony Yates
 so-date: 12.26.2009
 keywords:
-so.topic:
-so.envir: cloud
-so.client: online
+topic:
+envir: cloud
+client: online
 ---
 
 # ForeignKeys – to fluent or not to fluent, that is the question

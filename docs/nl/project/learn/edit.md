@@ -3,9 +3,9 @@ uid: help-nl-project-edit
 title: Een project bewerken
 description: Zo bewerkt u een project in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-sale-stages
 title: "Status för en försäljning, såld och förlorad"
 description: "Status för en försäljning, såld och förlorad"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: concept
+topic: concept
 language: sv
 ---
 

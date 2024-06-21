@@ -3,9 +3,9 @@ uid: ContactPersonDynamicSelectionV2
 title: ContactPersonDynamicSelectionV2
 description: Contact + Person selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: ContactPersonDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ContactPersonDynamicSelectionV2"

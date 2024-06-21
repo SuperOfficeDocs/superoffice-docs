@@ -3,9 +3,9 @@ title: Sentry
 uid: osql_sentry
 description: SuperOffice Objectified SQL - Sentry
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Sentry

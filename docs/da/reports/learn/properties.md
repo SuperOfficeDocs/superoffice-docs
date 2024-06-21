@@ -3,9 +3,9 @@ uid: help-da-report-properties
 title: Visning af rapportegenskaber
 description: Visning af rapportegenskaber
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: da
 ---
 

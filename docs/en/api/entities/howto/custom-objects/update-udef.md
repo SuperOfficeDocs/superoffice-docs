@@ -3,11 +3,11 @@ title: Update user-defined field
 uid: update_udef_entity
 description: How to update a user-defined field
 author: Tony Yates
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, UdefHelper, UdefLarge, UdefSmall, progId, udeffield
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to update a Udef field

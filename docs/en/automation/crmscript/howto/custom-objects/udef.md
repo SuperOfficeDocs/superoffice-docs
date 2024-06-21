@@ -3,9 +3,9 @@ uid: crmscript-udef
 title: Working with user-defined in CRMScript
 description: User-defined in CRMScript
 author: Bergfrid Dias
-so.date: 02.07.2022
+date: 02.07.2022
 keywords: udef, custom objects, custom fields
-so.topic: howto
+topic: howto
 ---
 
 # User-defined fields

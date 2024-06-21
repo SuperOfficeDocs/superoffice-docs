@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_loops_break_continue
 title: Loops - break and continue
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Loops - break and continue
