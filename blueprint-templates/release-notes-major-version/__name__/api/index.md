@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice {{name}}
 uid: news-api-{{name}}
+title: What's new in SuperOffice {{name}}
 description: Release notes. What's new in SuperOffice {{name}}
-author: SuperOffice AS – Research and Development
-so.date: 
 keywords: API
-so.version: {{name}}
-so.topic: reference
+author: SuperOffice AS – Research and Development
+date: 
+version: {{name}}
+topic: reference
 ---
 
 # API changes

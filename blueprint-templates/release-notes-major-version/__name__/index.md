@@ -1,12 +1,12 @@
 ---
-title: What's new in SuperOffice {{name}}
 uid: {{name}}
+title: What's new in SuperOffice {{name}}
 description: Release notes. What's new in SuperOffice {{name}}
-author: SuperOffice AS – Research and Development
-so.date:
 keywords:
-so.topic: reference
-so.version: {{name}}
+author: SuperOffice AS – Research and Development
+date:
+version: {{name}}
+topic: reference
 ---
 
 # What's new in SuperOffice {{name}}

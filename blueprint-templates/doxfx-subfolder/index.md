@@ -1,14 +1,14 @@
 ---
-title:
 uid: {{snakeCase name}}
+title:
 description:
-author: {github-id} # Your GitHub alias.
-so.date:
 keywords:
-so.topic:
-so.version:
-so.envir:
-so.client:
+author: {github-id} # Your GitHub alias.
+date:
+version:
+topic:
+envir:
+client:
 ---
 
 # PLACEHOLDER

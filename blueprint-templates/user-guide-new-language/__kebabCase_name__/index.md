@@ -1,15 +1,15 @@
 ---
-title: User guide - {{$language}}
 uid: ug-{{snakeCase name}}-start
+title: User guide - {{$language}}
 description: Start page for SuperOffice user guides in {{$language}}
-author: {github-id} # Your GitHub alias.
-so.date: # mm.dd.yyyy
 keywords: user guide, help
-so.topic: reference
-so.version: {{$version}}
-so.lang: {{$language}}
-so.envir:
-so.client:
+author: {github-id} # Your GitHub alias.
+date: # mm.dd.yyyy
+version: {{$version}}
+lang: {{$language}}
+topic: reference
+envir:
+client:
 ---
 
 # User guide - {{$language}}
