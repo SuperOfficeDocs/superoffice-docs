@@ -1,7 +1,7 @@
 ---
 title: Welcome to SuperOffice Docs
 description: Placeholder landing page
-so.date: 12.19.2022
+date: 12.19.2022
 ---
 
 # Welcome to SuperOffice Docs

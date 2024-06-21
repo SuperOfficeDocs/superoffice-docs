@@ -3,9 +3,9 @@ title: downloads
 description: Online sample and reference downloads
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Online sample and reference downloads
