@@ -15,9 +15,6 @@ Configuration of diagnostic logging tools.
 
 ```XML
 <Diagnostics>
-  <add key="LogError" value="true" />
-  <add key="LogWarning" value="false" />
-  <add key="LogInformation" value="false" />
   <add key="LogFailureAudit" value="false" />
   <add key="LogSuccessAudit" value="false" />
   <add key="LogToEventLog" value="false" />
@@ -44,15 +41,15 @@ Configuration of diagnostic logging tools.
 | EnableResourceTracer | Enable tracing of resource usage per operation to trace. | |
 | EnableScaffolding | When this option is enabled, extra logging is performed. It is strongly recommended to have this option enabled during development and testing. Huge log files are generated when this option is enabled! Turn this off when not needed in prod.| off |
 | EnableStackTracing | Should stack traces be collected by various events? | |
-| LogDebug | Log debug information. This includes successful SQLs passed to the database. Only use this option while debugging. This will be a severe performance hit! | false |
-| LogDebugFrom | Comma separated list of classes, namespaces to log from. Filters the debug logging. | |
-| LogError | Log all error messages? | true |
+| LogDebug | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json.  | false |
+| LogDebugFrom | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | |
+| LogError | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | true |
 | LogEventRecorder | Include a snapshot of the event recorder in all log entries. | |
 | LogFailureAudit | Log failed authentications? | true |
 | LogFolder | Folder (for example UNC path) where the log file is to reside. Note that the owner of the process needs to have access to manipulate files in this folder. The Documents/Impersonation settings apply! | |
 | LoggedServices | List of services to be logged. If not blank, a comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment). | Blank = all |
-| LogInformation | Log general information including successful SQL passed to the database. Only use this option while debugging. This will be a performance hit! | false |
-| LogInformationFrom | Comma separated list of classes, namespaces to log from. Filters the information logging. | |
+| LogInformation | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | false |
+| LogInformationFrom | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | |
 | LogLongQueries | Should long-running queries be logged in textual form to a special file? | false |
 | LogLongQueriesAsXML | Should long-running queries be logged to a special file (*Query_year.month.day.log*) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool. | |
 | LogLongQueriesToPlugins | Should long-running queries be logged to SoLoggerPlugins? | false |
@@ -65,9 +62,9 @@ Configuration of diagnostic logging tools.
 | LogToFile | Log to a LogFile. | false |
 | LogToSuperOffice | Log to SuperOffice Research and Product Development (Online through a web service). If you experience poor performance during login, set this to False. | false |
 | LogToTrace | Log to a Trace that can be listened to by a `System.Diagnostics.TraceListener.Default`. | false |
-| LogTrace | Log trace information. This includes a lot of information. Only use this option while debugging. This will be a severe performance hit! | false |
-| LogTraceFrom | Comma separated list of classes, namespaces to log from. Filters the trace logging. | |
-| LogWarning | Should warning messages be logged? | false |
+| LogTrace | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | false |
+| LogTraceFrom | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | |
+| LogWarning | Property **deprecated** from version [10.2.1][4]. Use [Microsoft.Extensions.Logging.LogLevel][3] in appsettings.json. | false |
 | LongQueryThreshold | Threshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database until the first row (for a select) or the 'nn rows affected' return value is received. | 2500 |
 | ShowExceptionsFromBackend | If true, then the innermost exception message from the backend will be shown in the GUI, directly when the error happens. | |
 | UsageStatUrl | URL for reporting Usage Statistics. | |
@@ -81,3 +78,5 @@ See the [NetServer Core reference][2] for details about handling this programmat
 <!-- Referenced links -->
 [1]: ../logging/index.md
 [2]: <xref:SuperOffice.Configuration.ConfigFile.Diagnostics>
+[3]: ../reference/netserver/core/index.md#bootstrap-the-application
+[4]: ../../../../release-notes/10.2/api/10.2.1-update.md#microsoftextensionsdependencyinjectionnetserverservicecollectionextensions-is-modified
