@@ -3,11 +3,11 @@ title: Webpage using SuperOffice web controls
 uid: pb_usercontrols_comparison
 description: Webpage using SuperOffice web controls
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # Webpage using SuperOffice web controls

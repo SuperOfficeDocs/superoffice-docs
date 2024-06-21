@@ -3,9 +3,9 @@ title: Adding a web panel
 uid: web_panels_add
 description: How to add a web panel
 author:
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Adding a web panel

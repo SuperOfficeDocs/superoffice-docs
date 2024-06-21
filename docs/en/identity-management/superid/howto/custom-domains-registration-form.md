@@ -3,11 +3,11 @@ title: Custom domains registration form
 uid: custom_domains_form
 description:  Sub-domains and custom domains registration form
 author: Martin Pavlas
-so.date: 13.06.2022
+date: 13.06.2022
 keywords: custom domains registration form 
-so.topic: form
-so.envir: cloud
-so.client: online
+topic: form
+envir: cloud
+client: online
 ---
 
 # Custom domains registration

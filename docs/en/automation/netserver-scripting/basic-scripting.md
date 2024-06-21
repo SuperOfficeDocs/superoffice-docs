@@ -3,11 +3,11 @@ title: Basic NetServer scripting
 uid: basic_scripting
 description: Basic NetServer scripting
 author: Tony Yates
-so.date: 04.15.2009
+date: 04.15.2009
 keywords:
-so.topic: concept
-so.envir: onsite
-so.client: web
+topic: concept
+envir: onsite
+client: web
 ---
 
 # Basic NetServer scripting

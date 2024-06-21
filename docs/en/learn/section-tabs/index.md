@@ -3,9 +3,9 @@ uid: help-en-section-tabs
 title: The Section tabs
 description: The Section tabs
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: section tab, archive
-so.topic: concept
+topic: concept
 language: en
 ---
 

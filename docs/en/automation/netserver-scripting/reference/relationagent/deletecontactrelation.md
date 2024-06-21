@@ -2,10 +2,10 @@
 uid: relationagent-deletecontactrelation
 title: RelationAgent.DeleteContactRelation event method
 description: Scripting events called on the DeleteContactRelation method on the RelationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # RelationAgent.DeleteContactRelation
 

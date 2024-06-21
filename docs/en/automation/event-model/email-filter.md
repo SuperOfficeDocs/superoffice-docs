@@ -2,8 +2,8 @@
 title: Email filter
 uid: event_model_email_filter
 description: CRMScript event model - Email filter
-so.author:
-so.date:
+author:
+date:
 keywords:
 ---
 

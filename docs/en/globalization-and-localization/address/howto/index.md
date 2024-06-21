@@ -3,9 +3,9 @@ uid: address-howto
 title: Address localization
 description: Working with addresses.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address
-so.topic: howto
+topic: howto
 ---
 
 # Howto

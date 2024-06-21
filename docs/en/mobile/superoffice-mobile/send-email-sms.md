@@ -3,12 +3,12 @@ uid: mobile-crm-send-email-sms
 title: Send email or SMS
 description: How to send email and SMS from SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.24.2023
+date: 07.24.2023
 keywords: mobile, email, SMS, message
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Send email or SMS

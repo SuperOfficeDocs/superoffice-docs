@@ -3,13 +3,13 @@ uid: help-en-activity
 title: Activities
 description: Activities in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: activity
-so.topic: concept
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Activities

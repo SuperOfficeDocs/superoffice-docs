@@ -3,11 +3,11 @@ uid: help-en-request-next-in-queue
 title: Get next request in the queue
 description: Get next request in the queue
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: request
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: HtmlGrid
 uid: blogic_htmlgrid
 description: HtmlGrid
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # HtmlGrid

@@ -3,11 +3,11 @@ uid: help-en-edit-items
 title: Edit items
 description: In this how-to guide you'll learn how to edit a list item.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: list item
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

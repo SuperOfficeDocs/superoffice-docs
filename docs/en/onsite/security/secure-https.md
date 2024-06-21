@@ -4,9 +4,9 @@ uid: secure_https_config
 description: Securing HTTPS configuration on Windows Server
 author: {github-id}
 keywords: security
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Securing HTTPS configuration on Windows Server

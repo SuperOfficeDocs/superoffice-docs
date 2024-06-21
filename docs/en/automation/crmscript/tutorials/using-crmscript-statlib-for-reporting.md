@@ -3,9 +3,9 @@ uid: crmscript-statlib-reporting-tutorial
 title: Using StatLib class in CRMScript for reporting
 description: Using StatLib class in CRMScript for reporting
 author: kronicz
-so.date: 10.03.2022
+date: 10.03.2022
 keywords: CRMScript, StatLib
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Using StatLib class in CRMScript for reporting

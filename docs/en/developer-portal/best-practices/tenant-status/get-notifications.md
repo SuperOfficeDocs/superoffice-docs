@@ -3,11 +3,11 @@ title: Get tenant status notifications
 uid: notify-customer-state-change
 description: Get notifications when tenant status changes
 author: Margrethe Romnes
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: state, tenant
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Register to get notifications when tenant status changes

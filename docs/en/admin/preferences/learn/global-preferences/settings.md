@@ -3,11 +3,11 @@ uid: help-en-service-settings-system-settings
 title: SuperOffice Service system settings
 description: Global preferences for SuperOffice Service system settings
 author: SuperOffice RnD
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: Service, settings
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

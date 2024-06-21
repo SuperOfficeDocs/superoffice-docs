@@ -4,7 +4,7 @@ uid: webhook_reference
 uid: webhooks_ref
 description: SuperOffice Webhooks reference
 author:
-so.date: 04.06.2018
+date: 04.06.2018
 keywords: automation
 ---
 

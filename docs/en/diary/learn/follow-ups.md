@@ -3,10 +3,10 @@ uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant
-so.topic: concept
+topic: concept
 language: en
 ---
 

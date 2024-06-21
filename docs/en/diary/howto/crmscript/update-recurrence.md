@@ -3,9 +3,9 @@ uid: crmscript-update-recurrence
 title: Edit repeating follow-ups
 description: How to update a repeating follow-up with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
-so.topic: howto
+topic: howto
 ---
 
 # Edit repeating follow-ups

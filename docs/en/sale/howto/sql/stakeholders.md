@@ -3,12 +3,12 @@ title: Stakeholders
 uid: sale-stakeholders-sql
 description: How to look up sale stakeholders with raw SQL in SuperOffice.
 author: Bergfrid Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: sale, stakeholder, hasStakeholders, API, saletype, salestakeholder
-so.topic: concept
-so.version: 7.1
-# so.envir:
-# so.client:
+topic: concept
+version: 7.1
+# envir:
+# client:
 ---
 
 # Sale stakeholders

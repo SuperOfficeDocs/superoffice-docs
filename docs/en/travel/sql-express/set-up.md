@@ -4,10 +4,10 @@ uid: set_up_sql_express_travel
 description: MSDE / SQL express as travel database
 author: {github-id}
 keywords: travel
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # MS SQL Express as Travel database

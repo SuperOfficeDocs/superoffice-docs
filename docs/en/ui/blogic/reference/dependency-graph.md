@@ -3,9 +3,9 @@ title: Dependency graph
 uid: blogic_dependency_graph
 description: Dependency graph
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Dependency graph

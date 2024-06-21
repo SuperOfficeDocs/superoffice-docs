@@ -3,12 +3,12 @@ uid: screen-fields
 title: Working with fields
 description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 01.03.2024
+date: 01.03.2024
 keywords: ui, screen, customization
-so.topic: howto
-so.version: 10
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+version: 10
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Working with fields

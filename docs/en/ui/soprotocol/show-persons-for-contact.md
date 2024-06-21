@@ -3,11 +3,11 @@ title: How to show a list of persons from a contact
 uid: sop_list_contact_persons
 description: How to show a list of persons from a contact
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: soprotocol, deeplinking
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to show a list of persons from a contact

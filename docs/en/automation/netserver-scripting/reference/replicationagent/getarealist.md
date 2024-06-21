@@ -2,10 +2,10 @@
 uid: replicationagent-getarealist
 title: ReplicationAgent.GetAreaList event method
 description: Scripting events called on the GetAreaList method on the ReplicationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ReplicationAgent.GetAreaList
 

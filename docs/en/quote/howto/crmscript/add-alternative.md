@@ -3,9 +3,9 @@ uid: crmscript-quote-create-alternative
 title: Create quote alternative
 description: How to create a quote alternative with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: CRMScript, quote, QuoteAgent, sale, alternative
-so.topic: howto
+topic: howto
 ---
 
 # Create alternatives

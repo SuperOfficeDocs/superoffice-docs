@@ -3,11 +3,11 @@ uid: help-en-quotesync-tab-erp-connections
 title: ERP connections
 description: ERP connections
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: ERP, quote, sync
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

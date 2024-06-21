@@ -3,9 +3,9 @@ title: Soft delete
 uid: soft_delete
 description: Soft delete – the Undo revolution
 author: Marek Vokáč
-so.date: 04.30.2018
+date: 04.30.2018
 keywords:
-so.topic: article
+topic: article
 ---
 
 # Soft delete – the Undo revolution

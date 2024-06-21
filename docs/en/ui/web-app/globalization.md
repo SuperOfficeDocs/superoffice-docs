@@ -2,11 +2,11 @@
 title: globalization
 description: "Learn about how the CRM.web application handles globalization."
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: globalization, resources, culture
-so.topic: concept
-so.envir: onsite
-so.client: web
+topic: concept
+envir: onsite
+client: web
 ---
 
 # Globalization

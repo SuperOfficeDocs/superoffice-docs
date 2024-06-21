@@ -3,9 +3,9 @@ uid: crmscript-project-create
 title: Register a project
 description: How to register a project with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.01.2023
+date: 06.01.2023
 keywords: CRMScript, project, ProjectAgent
-so.topic: howto
+topic: howto
 ---
 
 # Register a project

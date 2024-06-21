@@ -3,10 +3,10 @@ title: MFA
 uid: multi_factor_authentication
 description:  Multi-factor authentication
 author: {github-id}
-so.date:
+date:
 keywords: MFA,2FA
-so.topic: concept
-so.client: online
+topic: concept
+client: online
 ---
 
 # Multi-factor authentication

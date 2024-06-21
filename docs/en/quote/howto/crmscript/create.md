@@ -3,9 +3,9 @@ uid: crmscript-quote-create
 title: Create quote
 description: How to create a quote with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: CRMScript, quote, QuoteAgent, sale, alternative
-so.topic: howto
+topic: howto
 ---
 
 # Create quote

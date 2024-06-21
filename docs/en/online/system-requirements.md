@@ -4,11 +4,11 @@ uid: online_system_requirements
 description: System requirements for SuperOffice CRM Online
 keywords: requirement, browser, storage, operating system, Windows version, MacOS, attachment size
 author: RnD Services
-so.date: 04.19.2024
-so.version: 10
-so.topic: reference
-so.envir: cloud
-so.client: online
+date: 04.19.2024
+version: 10
+topic: reference
+envir: cloud
+client: online
 ---
 
 # System requirements for SuperOffice CRM Online

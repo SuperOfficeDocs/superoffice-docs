@@ -4,9 +4,9 @@ title: Troubleshoot satellite
 description: If you have problems with satellite management
 author: {github-id}
 keywords: travel satellite
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Troubleshooting problems with satellite management

@@ -3,11 +3,11 @@ uid: help-en-faq-create
 title: Create FAQ entries
 description: Create FAQ entries
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

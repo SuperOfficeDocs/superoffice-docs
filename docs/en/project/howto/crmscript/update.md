@@ -3,9 +3,9 @@ uid: crmscript-project-update
 title: Update project
 description: How to update, end, and delete a project with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 06.01.2023
+date: 06.01.2023
 keywords: CRMScript, project, completed, project status
-so.topic: howto
+topic: howto
 ---
 
 # Update project

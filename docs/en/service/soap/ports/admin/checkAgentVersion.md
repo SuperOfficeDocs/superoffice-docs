@@ -4,8 +4,8 @@ uid: cs_soap_ports_admin_checkagentversion
 description: Services SOAP interface port admin checkAgentVersion
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # checkAgentVersion

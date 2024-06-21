@@ -3,11 +3,11 @@ uid: help-en-admin-primer
 title: Overview
 description: Introduction to administrating SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Settings and maintenance
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 # Overview

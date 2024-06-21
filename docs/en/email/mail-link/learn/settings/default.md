@@ -3,9 +3,9 @@ uid: help-en-mail-link-settings-default
 title: Default options
 description: Default options
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: reference
+topic: reference
 language: en
 ---
 

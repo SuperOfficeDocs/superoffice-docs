@@ -3,9 +3,9 @@ title: Sale - entity
 uid: sale-howto-entity
 description: Working with sales at the entity layer of NetServer.
 author: Bergfrid Skaara Dias
-so.date: 06.02.2023
+date: 06.02.2023
 keywords: sale, API, entity
-so.topic: howto
+topic: howto
 ---
 
 # Sale - entity

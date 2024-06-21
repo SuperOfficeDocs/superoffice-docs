@@ -3,11 +3,11 @@ title: Test event
 uid: webhook_test_event
 description: Test events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Test event

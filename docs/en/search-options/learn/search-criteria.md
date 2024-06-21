@@ -3,9 +3,9 @@ uid: help-en-search-criteria
 title: Working with search criteria
 description: How to add and modify search criteria
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: search, criteria, find
-so.topic: howto
+topic: howto
 language: en
 ---
 

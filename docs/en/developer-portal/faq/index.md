@@ -3,12 +3,12 @@ title: Developer Portal FAQ listing
 uid: dp-faq-listing
 description: List of SuperOffice Developer Portal frequently asked questions.
 author: AnthonyYates
-so.date: 04.04.2024
+date: 04.04.2024
 keywords: Developer Portal
-so.topic: howto
-so.dp-version: 1.21
-so.envir: cloud
-so.client:
+topic: howto
+version_devportal: 1.21
+envir: cloud
+client:
 ---
 
 # Developer Portal FAQ

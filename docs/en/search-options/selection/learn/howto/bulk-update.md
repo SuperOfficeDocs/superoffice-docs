@@ -3,9 +3,9 @@ uid: help-en-selection-bulk-update
 title: Selection task bulk update
 description: Bulk update allows you to change details for a large group of contacts, activities, sales, projects, and more.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection, bulk update
-so.topic: howto
+topic: howto
 language: en
 ---
 

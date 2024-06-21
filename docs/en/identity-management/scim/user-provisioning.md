@@ -3,11 +3,11 @@ title: User provisioning
 uid: user_provisioning
 description: User provisioning
 author: {github-id}
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # User provisioning

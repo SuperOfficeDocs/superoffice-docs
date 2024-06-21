@@ -3,9 +3,9 @@ uid: help-en-chat-create-contact
 title: Create a new contact in SuperOffice
 description: How to link new customer to SuperOffice from a chat.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat, contact
-so.topic: howto
+topic: howto
 language: en
 ---
 

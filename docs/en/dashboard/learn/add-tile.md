@@ -3,9 +3,9 @@ uid: help-en-dashboard-tile-add
 title: Add tile/edit layout in dashboard
 description: In this how-to guide, you will learn how to create a dashboard tile.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: en
 ---
 

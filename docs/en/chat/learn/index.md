@@ -3,9 +3,9 @@ uid: help-en-chat
 title: Chat
 description: Communicate with and help existing or potential customers through a chat widget on your website.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: concept
+topic: concept
 language: en
 ---
 

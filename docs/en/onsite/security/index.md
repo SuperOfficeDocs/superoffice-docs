@@ -4,9 +4,9 @@ uid: onsite_security
 description: Security and deployment
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: onsite
-so.client: web
+topic: reference
+envir: onsite
+client: web
 ---
 
 # Security and deployment

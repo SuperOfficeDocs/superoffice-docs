@@ -3,11 +3,11 @@ title: Federated authentication
 uid: federated_auth
 description: "Introduction to federated authentication."
 author: Bergfrid Dias
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: federated authentication, SuperID, identity provider, sign-in
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Online authentication

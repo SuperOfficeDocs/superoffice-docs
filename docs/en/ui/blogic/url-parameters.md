@@ -3,9 +3,9 @@ title: URL parameters
 uid: url_parameters
 description: URL parameters
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # URL parameters

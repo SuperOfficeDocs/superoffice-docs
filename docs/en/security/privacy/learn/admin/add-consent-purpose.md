@@ -3,9 +3,9 @@ uid: help-en-add-consent-purpose
 title: Add consent purpose
 description: Learn how to set up the privacy settings for your company.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Settings and maintenance, privacy, consent
-so.topic: howto
+topic: howto
 language: en
 ---
 

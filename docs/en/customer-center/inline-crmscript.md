@@ -3,10 +3,10 @@ title: Inline CRMScript
 uid: inline_crmscript
 description: Inline CRMScript
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP, CRMScript
-so.audience: settings
-so.topic: concept
+audience: settings
+topic: concept
 ---
 
 # Inline CRMScript

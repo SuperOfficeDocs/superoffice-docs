@@ -2,10 +2,10 @@
 uid: projectagent-offerautonextstatusonapppointmentcompleted
 title: ProjectAgent.OfferAutoNextStatusOnApppointmentCompleted event method
 description: Scripting events called on the OfferAutoNextStatusOnApppointmentCompleted method on the ProjectAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
 

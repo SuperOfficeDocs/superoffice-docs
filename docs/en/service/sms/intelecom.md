@@ -4,7 +4,7 @@ uid: intelecom_sms_plugin
 description: Intelecom NetServer SMS plugin
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Intelecom

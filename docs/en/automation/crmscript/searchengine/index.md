@@ -4,8 +4,8 @@ title: SearchEngine
 description: An in-depth guide to the SuperOffice CRMScript SearchEngine - a tool for building SQL queries by adding fields, criteria, and data.
 keywords: CRMScript, SearchENgine, search, query
 author: Bergfrid Dias
-so.date: 04.15.2024
-so.topic: concept
+date: 04.15.2024
+topic: concept
 ---
 
 # SearchEngine

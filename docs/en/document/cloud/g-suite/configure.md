@@ -3,11 +3,11 @@ title: Configure
 uid: cloud-document-config
 description: How to configure document templates for Google Workspace Integration
 author: Bergfrid Dias
-so.date: 06.20.2022
+date: 06.20.2022
 keywords: Google Workspace, document
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Create a SuperOffice template for your cloud document integration

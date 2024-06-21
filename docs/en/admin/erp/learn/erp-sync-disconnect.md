@@ -3,9 +3,9 @@ uid: help-en-erp-disconnect
 title: Disable ERP synchronization
 description: Disable ERP synchronization
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: en
 ---
 

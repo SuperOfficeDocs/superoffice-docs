@@ -3,9 +3,9 @@ uid: crmscript-create-company
 title: Create and update companies
 description: How to create and update companies with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: CRMScript, company, organization, contact
-so.topic: howto
+topic: howto
 ---
 
 # Create and update companies

@@ -4,9 +4,9 @@ uid: deploy_ribbons_on_citrix
 description: Deploy Ribbons in a Citrix or Terminal Server environment
 author: {github-id}
 keywords: ribbons deploy citrix terminal
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Deployment of SuperOffice Ribbons in a Citrix or Terminal Server environment

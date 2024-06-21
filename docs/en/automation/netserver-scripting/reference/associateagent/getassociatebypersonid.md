@@ -2,10 +2,10 @@
 uid: associateagent-getassociatebypersonid
 title: AssociateAgent.GetAssociateByPersonId event method
 description: Scripting events called on the GetAssociateByPersonId method on the AssociateAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AssociateAgent.GetAssociateByPersonId
 

@@ -4,12 +4,12 @@ title: Tracked links
 description: A link that you include in a mailing can be used to track responses from your customers and prospects. When your mailing's recipients click on the link an action is being triggered.
 keywords: Marketing, mailing, tracked link, Google Analytics
 author: Bergfrid Dias
-so.date: 02.20.2024
-so.version: 10
-so.topic: concept
+date: 02.20.2024
+version: 10
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Tracked links

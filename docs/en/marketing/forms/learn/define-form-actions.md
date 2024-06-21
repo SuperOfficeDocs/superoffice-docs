@@ -4,12 +4,12 @@ title: Define form actions
 description: Define form actions
 keywords: form, automation, form action, form submission
 author: Bergfrid Dias
-so.date: 04.18.2024
-so.version: 10.3.5
-so.topic: howto
+date: 04.18.2024
+version: 10.3.5
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Define form actions

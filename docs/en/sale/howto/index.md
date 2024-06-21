@@ -3,9 +3,9 @@ title: Sale howto
 uid: sale-howto
 description: You can work with sales at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, API
-so.topic: howto
+topic: howto
 ---
 
 # Howto

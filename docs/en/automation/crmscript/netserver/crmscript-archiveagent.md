@@ -2,9 +2,9 @@
 uid: crmscript_archiveagent
 title: Archive agent
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Archive agent

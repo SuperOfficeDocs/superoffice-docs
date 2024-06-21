@@ -3,9 +3,9 @@ title: Language menu
 uid: blogic_language_menu
 description: Language menu
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Language menu

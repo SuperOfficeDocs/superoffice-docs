@@ -3,11 +3,11 @@ title: User contexts
 uid: user-context
 description: "Learn the difference of and requirements for an interactive user session and non-interactive background services."
 author: Bergfrid Dias
-so.date: 09.14.2023
+date: 09.14.2023
 keywords: user context, session, application user, system user
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # User contexts

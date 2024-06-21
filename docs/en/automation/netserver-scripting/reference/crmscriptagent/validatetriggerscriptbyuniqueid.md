@@ -2,10 +2,10 @@
 uid: crmscriptagent-validatetriggerscriptbyuniqueid
 title: CRMScriptAgent.ValidateTriggerScriptByUniqueId event method
 description: Scripting events called on the ValidateTriggerScriptByUniqueId method on the CRMScriptAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CRMScriptAgent.ValidateTriggerScriptByUniqueId
 

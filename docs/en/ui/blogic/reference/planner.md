@@ -3,9 +3,9 @@ title: Planner
 uid: blogic_planner
 description: Planner
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Planner

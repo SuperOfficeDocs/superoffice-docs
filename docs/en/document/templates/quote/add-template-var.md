@@ -4,8 +4,8 @@ uid: using_quote_template_variables
 description: Quote Template - Insert template variables
 author: Terje Nøstdahl
 keywords:
-so.topic: howto
-so.date: 06.27.2014
+topic: howto
+date: 06.27.2014
 ---
 
 # How you add template variables into a quote template

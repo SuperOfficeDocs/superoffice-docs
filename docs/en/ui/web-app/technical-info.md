@@ -3,11 +3,11 @@ title: Technical information
 uid: web_application_specs
 description: Web GUI .Net API technical details
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: reference
-so.client: web
-so.envir: onsite
+topic: reference
+client: web
+envir: onsite
 ---
 
 # Technical information

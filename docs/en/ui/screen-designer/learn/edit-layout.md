@@ -4,12 +4,12 @@ title: Edit main cards layout
 description: In this how-to guide, you will learn how to edit a layout.
 keywords: screen designer, layout, field
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: en
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Edit layout - Main cards

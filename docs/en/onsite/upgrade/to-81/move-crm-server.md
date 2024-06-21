@@ -3,11 +3,11 @@ title: Move CRM Server
 uid: move_crm_server
 description: Move SuperOffice CRM Server
 author: Martin Pavlas
-so.date: 12.08.2021
+date: 12.08.2021
 keywords: upgrade
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Move SuperOffice CRM Server

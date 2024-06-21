@@ -3,11 +3,11 @@ uid: zapier-action-search
 title: Search actions
 description: How to guide for creating and using search actions with Zapier.
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier, company, duplicate, search, action, Zap
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # Search actions

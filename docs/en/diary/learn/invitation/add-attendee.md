@@ -3,10 +3,10 @@ uid: help-en-invitation-add-attendee
 title: Add attendees to follow-ups
 description: This how-to guide will show how you to add attendees to a follow-up.
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: diary, follow-up, meeting, invitation, participant, attendee
-so.topic: howto
+topic: howto
 language: en
 ---
 

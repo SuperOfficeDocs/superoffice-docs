@@ -3,13 +3,13 @@ uid: help-en-user-other
 title: Manage other users
 description: Manage anonymous users and system users (Onsite)
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: user, anonymous, system user
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
-so.envir: onsite
+envir: onsite
 ---
 
 # Manage anonymous users and system users (Onsite)

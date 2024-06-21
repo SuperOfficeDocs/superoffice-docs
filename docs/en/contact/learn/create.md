@@ -3,9 +3,9 @@ uid: help-en-contact-create
 title: Create contact
 description: How to create contact in SuperOffice.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: en
 ---
 

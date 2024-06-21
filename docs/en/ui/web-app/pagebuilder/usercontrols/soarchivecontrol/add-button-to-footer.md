@@ -3,11 +3,11 @@ title: How to add a button
 uid: pb_usercontrol_archive_footer
 description: How to add a button to the archive footer
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to add a button to the archive footer

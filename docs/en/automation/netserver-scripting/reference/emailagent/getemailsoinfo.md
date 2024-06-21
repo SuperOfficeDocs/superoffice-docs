@@ -2,10 +2,10 @@
 uid: emailagent-getemailsoinfo
 title: EMailAgent.GetEMailSOInfo event method
 description: Scripting events called on the GetEMailSOInfo method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetEMailSOInfo
 

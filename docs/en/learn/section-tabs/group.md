@@ -3,9 +3,9 @@ uid: help-en-sections-tabs-group
 title: Grouping lists
 description: You can group a list on one or more data types to get a better overview of the records in a section tab (archive).
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: section tab, archive
-so.topic: howto
+topic: howto
 language: en
 ---
 

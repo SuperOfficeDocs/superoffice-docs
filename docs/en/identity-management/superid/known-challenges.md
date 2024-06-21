@@ -3,11 +3,11 @@ title: Known challenges
 uid: known_challanges_with_superid
 description: Known challenges with SuperID
 author:
-so.date:
+date:
 keywords: 
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Known challenges with SuperID

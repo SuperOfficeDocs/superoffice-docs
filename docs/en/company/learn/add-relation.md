@@ -3,9 +3,9 @@ uid: help-en-company-add-relation
 title: Add relation
 description: Add relation
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-document
 title: Work with documents
 description: This how-to guide will show you how you can create and store documents in SuperOffice CRM, and how you can send and receive documents directly in your CRM solution.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: document
-so.topic: concept
+topic: concept
 language: en
 ---
 

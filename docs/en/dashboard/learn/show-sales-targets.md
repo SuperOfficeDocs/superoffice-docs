@@ -3,9 +3,9 @@ uid: help-en-dashboard-tile-sales-targets
 title: Using sales targets in tiles
 description: Use dashboards and tiles to compare your sales targets to your actual sales.
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: dashboard, sale, target, chart
-so.topic: howto
+topic: howto
 language: en
 ---
 

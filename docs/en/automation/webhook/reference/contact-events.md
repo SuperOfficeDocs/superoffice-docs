@@ -3,11 +3,11 @@ title: Contact webhook events
 uid: webhook_contact_event
 description: Contact events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Contact webhook events

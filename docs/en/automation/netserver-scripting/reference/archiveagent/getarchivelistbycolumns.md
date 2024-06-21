@@ -2,10 +2,10 @@
 uid: archiveagent-getarchivelistbycolumns
 title: ArchiveAgent.GetArchiveListByColumns event method
 description: Scripting events called on the GetArchiveListByColumns method on the ArchiveAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ArchiveAgent.GetArchiveListByColumns
 

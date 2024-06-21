@@ -4,11 +4,11 @@ title: Remove a user
 description: How to remove a user from a partner in the SuperOffice Developer Portal.
 keywords: Developer Portal, user, access
 author: Bergfrid Dias
-so.date: 15.02.2024
-so.dp-version: 1.19
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 15.02.2024
+version_devportal: 1.19
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Remove a user

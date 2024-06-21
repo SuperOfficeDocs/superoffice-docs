@@ -4,11 +4,11 @@ title: Customize layout of user-defined fields
 description: How to customize layout of user-defined fields without the Screen Designer.
 keywords: udef, user-defined field, custom field, page 1, align fields, move field
 author: Bergfrid Dias
-so.date: 01.16.2024
-so.version: 10
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.16.2024
+version: 10
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

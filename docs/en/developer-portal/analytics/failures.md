@@ -3,12 +3,12 @@ title: Check exceptions from your app's API calls
 uid: dp-failures
 description: How to check exceptions and failed requests from your apps API calls in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.15.2023
+date: 11.15.2023
 keywords: API call, exception, fail, request
-so.topic: howto
-so.envir: cloud
-so.client: online
-so.dp-version: 1.16
+topic: howto
+envir: cloud
+client: online
+version_devportal: 1.16
 ---
 
 # Check exceptions from your app's API calls

@@ -4,9 +4,9 @@ uid: config_web_reporter
 description: Configure Web Reporter
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Configure Web Reporter

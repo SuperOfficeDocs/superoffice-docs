@@ -4,9 +4,9 @@ title: Set/clear interest on company
 description: How to update interests for a company with SuperOffice CRMScript.
 keywords: CRMScript, company, interest, GetContactEntity, GetInterests, NSContactAgent, NSContactEntity, NSSelectableMDOListItem
 author: Eivind Fasting
-so.date: 04.12.2024
-so.version: 10
-so.topic: howto
+date: 04.12.2024
+version: 10
+topic: howto
 ---
 
 # Set/clear interest on company

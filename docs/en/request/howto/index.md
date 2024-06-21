@@ -3,9 +3,9 @@ title: Request how-to
 uid: request-howto
 description: You can work with requests at multiple levels of NetServer and in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.30.2023
+date: 05.30.2023
 keywords: request, ticket, API
-so.topic: howto
+topic: howto
 ---
 
 # Request how-to

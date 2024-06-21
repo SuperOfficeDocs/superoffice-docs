@@ -4,9 +4,9 @@ uid: pocket_crm_system_requirements_onsite
 description: System requirements for Pocket CRM mobile client
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: onsite
-so.client: pocket
+topic: reference
+envir: onsite
+client: pocket
 ---
 
 # System requirements for Pocket CRM - Onsite

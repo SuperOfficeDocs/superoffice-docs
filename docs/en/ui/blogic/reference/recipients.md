@@ -3,9 +3,9 @@ title: Recipients
 uid: blogic_recipients
 description: Recipients
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Recipients

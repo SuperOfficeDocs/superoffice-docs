@@ -2,9 +2,9 @@
 uid: crmscript_datatypes_time
 title: Time data type
 author: Bergfrid Dias
-so.date: 01.14.2022
+date: 01.14.2022
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Time data type

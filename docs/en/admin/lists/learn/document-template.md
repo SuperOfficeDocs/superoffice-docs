@@ -3,11 +3,11 @@ uid: help-en-document-template
 title: Document template
 description: Document template
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Settings and maintenance
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

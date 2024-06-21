@@ -4,7 +4,7 @@ uid: user_preferences
 description: Preference sections
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # User preferences

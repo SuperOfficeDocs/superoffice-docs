@@ -3,9 +3,9 @@ uid: crmscript_best_practice
 title: CRMScript best practices
 description: Best practices for SuperOffice CRMScript development and use.
 author: Bergfrid Dias
-so.date: 01.02.2024
+date: 01.02.2024
 keywords: CRMScript, best practices, performance
-so.topic: reference
+topic: reference
 ---
 
 # CRMScript best practices

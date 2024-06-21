@@ -3,9 +3,9 @@ uid: tempvar-request
 title: Variables for Request
 description: Variables for Request
 author: David Hollegien
-so.date: 04.25.2023
+date: 04.25.2023
 keywords: template variable
-so.topic: reference
+topic: reference
 ---
 
 # Variables for Request

@@ -4,9 +4,9 @@ uid: create_oracle_db
 description: Create a new Oracle database for SuperOffice onsite
 author: {github-id}
 keywords: database
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Create a new Oracle database

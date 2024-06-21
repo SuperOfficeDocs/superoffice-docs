@@ -4,9 +4,9 @@ uid: get_scim_sync_error_messages
 description: Set up email notifications for SCIM errors
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Set up email notifications for errors

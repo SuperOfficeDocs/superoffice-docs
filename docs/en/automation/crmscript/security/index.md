@@ -3,9 +3,9 @@ uid: crmscript-security
 title: Security
 description: Security and access control in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: CRMScript, security, user, access control
-so.topic: concept
+topic: concept
 ---
 
 # Security

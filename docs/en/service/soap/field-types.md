@@ -4,8 +4,8 @@ uid: services_soap_field_types
 description: Services SOAP interface field types
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # Field types

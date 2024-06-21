@@ -2,10 +2,10 @@
 uid: listagent-getcategory
 title: ListAgent.GetCategory event method
 description: Scripting events called on the GetCategory method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetCategory
 

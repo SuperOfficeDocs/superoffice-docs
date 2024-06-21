@@ -3,9 +3,9 @@ uid: help-en-ai-text-analysis
 title: AIext analysis
 description: AI text analysis
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: AI
-so.topic: concept
+topic: concept
 language: en
 ---
 

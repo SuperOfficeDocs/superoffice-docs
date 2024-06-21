@@ -3,9 +3,9 @@ uid: service_ui
 title: Service UI
 description: UI interaction and customization for service
 author: Bergfrid Dias
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # UI interaction and customization

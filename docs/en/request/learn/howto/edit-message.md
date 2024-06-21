@@ -4,9 +4,9 @@ title: Edit message
 description: How to edit a message in a request in SuperOffice
 author: Hanne Gunnarsson
 keywords: request
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

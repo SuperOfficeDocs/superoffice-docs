@@ -2,10 +2,10 @@
 uid: listagent-gettask
 title: ListAgent.GetTask event method
 description: Scripting events called on the GetTask method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetTask
 

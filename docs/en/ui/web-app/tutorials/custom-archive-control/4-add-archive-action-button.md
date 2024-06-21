@@ -3,11 +3,11 @@ title: How to add an Archive action button
 uid: add_archive_action_button
 description: How to add an Archive action button
 author: Steffan Alte
-so.date: 2007
+date: 2007
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to add an Archive action button

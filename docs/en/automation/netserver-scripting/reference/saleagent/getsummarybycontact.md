@@ -2,10 +2,10 @@
 uid: saleagent-getsummarybycontact
 title: SaleAgent.GetSummaryByContact event method
 description: Scripting events called on the GetSummaryByContact method on the SaleAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaleAgent.GetSummaryByContact
 

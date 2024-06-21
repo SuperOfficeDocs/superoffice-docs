@@ -4,9 +4,9 @@ uid: automated_tasks
 description: Automated tasks in Service
 author: {github-id}
 keywords: service
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Automated tasks in Service

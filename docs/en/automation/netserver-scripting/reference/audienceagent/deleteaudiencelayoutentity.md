@@ -2,10 +2,10 @@
 uid: audienceagent-deleteaudiencelayoutentity
 title: AudienceAgent.DeleteAudienceLayoutEntity event method
 description: Scripting events called on the DeleteAudienceLayoutEntity method on the AudienceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # AudienceAgent.DeleteAudienceLayoutEntity
 

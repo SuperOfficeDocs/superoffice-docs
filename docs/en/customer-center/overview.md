@@ -3,9 +3,9 @@ title: Customer Centre
 uid: customer-center
 description: Customer Centre
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP
-so.topic: concept
+topic: concept
 ---
 
 # Customer Centre

@@ -2,10 +2,10 @@
 uid: dashagent-getdashtile
 title: DashAgent.GetDashTile event method
 description: Scripting events called on the GetDashTile method on the DashAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DashAgent.GetDashTile
 

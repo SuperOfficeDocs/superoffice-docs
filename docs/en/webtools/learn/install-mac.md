@@ -3,9 +3,9 @@ uid: help-en-webtools-install-mac
 title: Install WebTools for Mac
 description: If you are using macOS, you need WebTools for Mac to integrate your Microsoft 365 document applications with SuperOffice CRM.
 author: Kirsti Aakerholt
-so.date: 05.19.2023
+date: 05.19.2023
 keywords: WebTools, Mac, macOS, document, contact
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-deleting-user-defined-lists
 title: Deleting user-defined lists
 description: Deleting user-defined lists
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+topic: help
 language: en
 ---
 

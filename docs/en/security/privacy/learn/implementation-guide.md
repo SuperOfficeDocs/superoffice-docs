@@ -3,11 +3,11 @@ uid: help-en-privacy-implementation
 title: Manage your privacy settings (GDPR)
 description: Before you start configuring your SuperOffice CRM database to become GDPR compliant, you should first lay down some groundwork.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, consent
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

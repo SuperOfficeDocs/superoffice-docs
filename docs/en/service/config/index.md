@@ -3,11 +3,11 @@ title: Service configuration
 uid: service_configuration
 description: Description of Service configuration
 author: Bergfrid Dias
-so.date: 12.12.2021
+date: 12.12.2021
 keywords: service, config, nsEndPoint
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Core configuration of Service

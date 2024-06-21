@@ -3,9 +3,9 @@ uid: help-en-search-freetext
 title: Free-text search
 description: How to use the free-text search to find any text that users have entered into SuperOffice.
 author: Bergfrid dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: free-text, search
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: crmscript-track-invitation-response
 title: Track responses
 description: How to track responses to an invitation with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
-so.topic: howto
+topic: howto
 ---
 
 # Track responses

@@ -3,9 +3,9 @@ title: Error events
 uid: webhook_error_event
 description: Error webhook events
 author: AnthonyYates
-so.date: 06.24.2023
+date: 06.24.2023
 keywords: automation, webhook
-so.topic: reference
+topic: reference
 ---
 
 # State change events

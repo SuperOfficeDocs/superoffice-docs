@@ -3,9 +3,9 @@ title: Screen choosers
 uid: screen_choosers
 description: Screen choosers
 author:
-so.date:
+date:
 keywords:
-so.topic:  concept
+topic:  concept
 ---
 
 # Screen choosers

@@ -3,11 +3,11 @@ title: Sale webhook events
 uid: webhook_sales_event
 description: Sales events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Sale webhook events

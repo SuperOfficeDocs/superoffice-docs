@@ -4,12 +4,12 @@ title: Create a target list
 description: The goal of your mailing will determine your target audience. After you know what you want to achieve with your mailing, you will need to create a specific target list.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Create a target list

@@ -2,11 +2,11 @@
 title: SoArchiveControlLinkInfoTypes
 uid: pagebuilder_config_soarchivecontrollinkinfotypes
 description: SoArchiveControlLinkInfoTypes.config
-so.date: 04.17.2018
+date: 04.17.2018
 keywords: config
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # SoArchiveControlLinkInfoTypes

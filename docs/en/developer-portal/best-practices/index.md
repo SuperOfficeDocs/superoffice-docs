@@ -4,10 +4,10 @@ title: Best practices
 description: Best practices for SuperOffice CRM Online apps
 author: Margrethe Romnes, Anthony Yates
 keywords: apps, best practices, 3rd-party
-so.date: 09.07.2023
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 09.07.2023
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Best practices for SuperOffice CRM Online apps

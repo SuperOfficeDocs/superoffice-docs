@@ -3,9 +3,9 @@ uid: crmscript-get-appointment
 title: Get appointments
 description: How to get appointments with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: CRMScript, calendar, diary, appointment, follow-up, NSAppointment
-so.topic: howto
+topic: howto
 ---
 
 # Get appointments

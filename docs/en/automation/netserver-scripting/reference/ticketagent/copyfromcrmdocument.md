@@ -2,10 +2,10 @@
 uid: ticketagent-copyfromcrmdocument
 title: TicketAgent.CopyFromCRMDocument event method
 description: Scripting events called on the CopyFromCRMDocument method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.CopyFromCRMDocument
 

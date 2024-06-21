@@ -4,7 +4,7 @@ uid: change_dkim_us_to_eu
 description: How to change DKIM from US to EU
 author: {github-id}
 keywords: email
-so.topic: howto
+topic: howto
 ---
 
 # How to change DKIM from the US to the EU

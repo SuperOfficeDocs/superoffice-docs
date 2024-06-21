@@ -3,9 +3,9 @@ uid: help-en-chat-send-faq-or-reply-template
 title: Send FAQs, reply templates and quick replies in a chat
 description: Send FAQs, reply templates and quick replies in a chat
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: en
 ---
 

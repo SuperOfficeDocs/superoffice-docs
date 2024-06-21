@@ -3,9 +3,9 @@ uid: crmscript-using-dialogs-triggers-tutorial
 title: Using dialogs in triggers
 description: Using dialogs in triggers
 author: kronicz
-so.date: 11.10.2022
+date: 11.10.2022
 keywords: CRMScript, Automation, Triggers
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Using dialogs in triggers

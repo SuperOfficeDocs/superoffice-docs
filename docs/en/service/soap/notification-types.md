@@ -4,8 +4,8 @@ uid: services_soap_notifications
 description: Services SOAP interface notifications
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # Notification types

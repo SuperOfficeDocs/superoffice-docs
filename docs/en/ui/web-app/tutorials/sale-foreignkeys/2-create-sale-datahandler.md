@@ -3,11 +3,11 @@ title: Tutorial
 uid: pb_tutorial_sale_foreignkeys_2
 description: PageBuilder data handlers tutorial
 author: Steffan Alte
-so.date: 07.25.2007
+date: 07.25.2007
 keywords:
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # Tutorial

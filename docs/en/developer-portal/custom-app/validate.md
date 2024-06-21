@@ -3,11 +3,11 @@ title: Validate app
 uid: validate
 description: Get your custom app validated
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: custom app, private app
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Get your custom app validated and live

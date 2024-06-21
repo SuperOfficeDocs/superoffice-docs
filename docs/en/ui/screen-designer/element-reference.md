@@ -3,12 +3,12 @@ uid: screen-element-reference
 title: Working with fields
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: ui, screen, customization
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Reference

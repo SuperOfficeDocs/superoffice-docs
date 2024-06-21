@@ -3,11 +3,11 @@ uid: help-en-quote-delete-deactivate-price-list-or-product
 title: quote delete deactivate price list or product
 description: quote delete deactivate price list or product
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sale, quote, product, price list
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

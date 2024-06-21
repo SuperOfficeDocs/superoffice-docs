@@ -3,9 +3,9 @@ uid: help-en-email-inbox-mark-as-read
 title: Mark emails as read or unread
 description: Mark emails as read or unread
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: email
-so.topic: howto
+topic: howto
 language: en
 ---
 

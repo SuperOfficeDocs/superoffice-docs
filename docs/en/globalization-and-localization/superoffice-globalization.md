@@ -3,8 +3,8 @@ title: SuperOffice.Globalization namespace
 uid: superoffice_globalization 
 description: SuperOffice.Globalization namespace
 author: {github-id}
-so.date: 04.08.2018
-so.topic: reference
+date: 04.08.2018
+topic: reference
 keywords:
 ---
 

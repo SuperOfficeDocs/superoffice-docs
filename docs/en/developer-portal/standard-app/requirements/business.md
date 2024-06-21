@@ -3,11 +3,11 @@ title: Business requirements
 uid: app-business-requirements
 description: "Business requirements for certifying standard applications."
 author: Margrethe Romnes
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: certification, apps
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Business requirements

@@ -3,9 +3,9 @@ uid: help-en-customer-centre
 title: Customer centre
 description: Customer centre
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center
-so.topic: concept
+topic: concept
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-customer-centre-form
 title: How to link a web form to the Customer centre
 description: In this how-to guide, you will learn how to use a web form.
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: form, Customer Center
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

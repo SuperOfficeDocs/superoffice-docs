@@ -3,11 +3,11 @@ title: Clone
 uid: clone_to_sandbox_steps
 description: Steps performed when we clone a source database to a production sandbox
 author: Bergfrid Dias
-so.date: 12.06.2021
+date: 12.06.2021
 keywords: tenant, sandbox, test environment, clone
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Steps performed when we clone a source database to a production sandbox

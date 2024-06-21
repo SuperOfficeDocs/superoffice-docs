@@ -3,9 +3,9 @@ uid: help-en-history-list
 title: Using the history list
 description: Using the history list
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: search, history
-so.topic: howto
+topic: howto
 language: en
 ---
 

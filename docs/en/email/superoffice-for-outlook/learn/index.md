@@ -3,9 +3,9 @@ uid: help-en-email-outlook
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 author: Bergfrid Dias
-so.date: 07.04.2023
+date: 07.04.2023
 keywords: email
-so.topic: concept
+topic: concept
 language: en
 ---
 

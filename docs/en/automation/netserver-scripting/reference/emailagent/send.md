@@ -2,10 +2,10 @@
 uid: emailagent-send
 title: EMailAgent.Send event method
 description: Scripting events called on the Send method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.Send
 

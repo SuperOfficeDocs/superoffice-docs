@@ -2,10 +2,10 @@
 uid: erpsyncagent-tryconnectactor
 title: ErpSyncAgent.TryConnectActor event method
 description: Scripting events called on the TryConnectActor method on the ErpSyncAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ErpSyncAgent.TryConnectActor
 

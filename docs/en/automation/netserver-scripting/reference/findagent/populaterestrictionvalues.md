@@ -2,10 +2,10 @@
 uid: findagent-populaterestrictionvalues
 title: FindAgent.PopulateRestrictionValues event method
 description: Scripting events called on the PopulateRestrictionValues method on the FindAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # FindAgent.PopulateRestrictionValues
 

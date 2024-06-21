@@ -3,9 +3,9 @@ uid: help-en-mass-delete
 title: Mass delete records (permanently)
 description: In line with the GDPR requirements, you need to have a legal basis for storing the data of all your contacts. And when you no longer have a legal basis to do so, you need to remove their data from all of your systems.
 author: Bergfrid Dias
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection, GDPR
-so.topic: howto
+topic: howto
 language: en
 ---
 

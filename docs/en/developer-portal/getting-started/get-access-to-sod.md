@@ -3,11 +3,11 @@ title: Get access to the sandbox environment
 uid: sod-get-access
 description: Developer registration - how to get access to SOD (the SuperOffice sandbox environment) and the Developer Portal.
 author: Bergfrid Dias, AnthonyYates
-so.date: 09.14.2023
+date: 09.14.2023
 keywords: sod, form, developer registration
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Get access to the sandbox environment

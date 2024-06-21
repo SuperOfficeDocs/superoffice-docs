@@ -3,11 +3,11 @@ title: Restart synchronization
 uid: restart_scim_sync
 description: Restart SCIM synchronization
 author: {github-id}
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Restart synchronization

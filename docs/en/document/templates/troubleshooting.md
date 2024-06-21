@@ -4,7 +4,7 @@ uid: troubleshooting_document_templates
 description: Document templates troubleshooting
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Document templates troubleshooting

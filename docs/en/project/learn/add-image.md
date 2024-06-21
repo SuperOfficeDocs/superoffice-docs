@@ -3,9 +3,9 @@ uid: help-en-project-image-add
 title: Add a project image
 description: How to add a project image
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: howto
+topic: howto
 language: en
 ---
 

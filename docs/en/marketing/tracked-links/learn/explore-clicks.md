@@ -4,12 +4,12 @@ title: Work with tracked links after the mailing
 description: How you can work with tracked links after the mailing is sent.
 keywords: Marketing, mailing, tracked link, clicker
 author: Bergfrid Dias
-so.date: 02.20.2024
-so.version: 10
-so.topic: howto
+date: 02.20.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Work with tracked links after the mailing

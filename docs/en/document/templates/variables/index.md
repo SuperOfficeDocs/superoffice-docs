@@ -2,10 +2,10 @@
 uid: tempvar-intro
 title: Template variable reference
 description: Template variable reference
-so.date: 05.29.2021
+date: 05.29.2021
 author: Bergfrid Dias
 keywords: template variable
-so.topic: reference
+topic: reference
 ---
 
 # Template variable reference

@@ -4,7 +4,7 @@ uid: pref_functions
 description: Preference section Functions
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Functions

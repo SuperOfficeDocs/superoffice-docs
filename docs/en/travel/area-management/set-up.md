@@ -4,9 +4,9 @@ uid: set_up_area_management
 description: How to set up Area Management
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Set up Area Management

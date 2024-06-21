@@ -3,11 +3,11 @@ title: Get a CategoryList through typed list providers
 uid: get_category_list_typed_provider
 description: Get a CategoryList through typed list providers
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: category, list provider, CategoryList
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get a CategoryList through typed list providers

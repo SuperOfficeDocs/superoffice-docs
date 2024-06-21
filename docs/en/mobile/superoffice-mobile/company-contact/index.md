@@ -3,12 +3,12 @@ uid: mobile-crm-company-contact
 title: Company/contact
 description: Learn about working with companies and contacts in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.27.2023
+date: 07.27.2023
 keywords: mobile, company, contact, person, associate
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 <!-- markdownlint-disable-file DOCSMD011 -->

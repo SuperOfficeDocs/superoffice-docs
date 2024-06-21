@@ -3,9 +3,9 @@ uid: help-en-service-profile-global
 title:  Global profiles
 description:  Global profiles
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: profile, service
-so.topic: concept
+topic: concept
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-reply-template-edit
 title: Edit reply templates
 description: Edit reply templates
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request, reply, template
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

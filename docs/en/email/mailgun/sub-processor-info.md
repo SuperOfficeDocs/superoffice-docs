@@ -3,12 +3,12 @@ title: Mailgun sub-processor information
 uid: mailgun_sub_processor_info
 description: Mailgun sub-processor information
 author: Bergfrid Dias
-so.date: 05.20.2022
+date: 05.20.2022
 keywords: email, mailgun
-so.topic: reference
+topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+# envir:
+# client:
 ---
 
 # Mailgun sub-processor information (part of our DPA)

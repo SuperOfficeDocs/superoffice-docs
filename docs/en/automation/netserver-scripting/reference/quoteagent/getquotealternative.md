@@ -2,10 +2,10 @@
 uid: quoteagent-getquotealternative
 title: QuoteAgent.GetQuoteAlternative event method
 description: Scripting events called on the GetQuoteAlternative method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.GetQuoteAlternative
 

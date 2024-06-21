@@ -3,9 +3,9 @@ uid: help-en-project
 title: Project
 description: This how-to guide will show you how to create and use projects to stay on top of your work.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: project
-so.topic: concept
+topic: concept
 language: en
 ---
 

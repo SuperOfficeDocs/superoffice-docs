@@ -3,8 +3,8 @@ title: Time zones
 description: Time zones in Service
 author: {github-id}
 keywords:
-so.topic: concept
-so.version: 8.4 R02
+topic: concept
+version: 8.4 R02
 ---
 
 # Time zones in Service

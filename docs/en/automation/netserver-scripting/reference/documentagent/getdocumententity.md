@@ -2,10 +2,10 @@
 uid: documentagent-getdocumententity
 title: DocumentAgent.GetDocumentEntity event method
 description: Scripting events called on the GetDocumentEntity method on the DocumentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentAgent.GetDocumentEntity
 

@@ -3,9 +3,9 @@ uid: help-en-gmail-link-archive-email-as-requests
 title: Archive email as requests
 description: Archive email as requests
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

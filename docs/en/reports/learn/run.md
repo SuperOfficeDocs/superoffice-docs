@@ -3,9 +3,9 @@ uid: help-en-report-generate
 title: Run reports
 description: Run reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: help
+topic: help
 language: en
 ---
 

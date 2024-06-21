@@ -2,10 +2,10 @@
 uid: projectagent-deleteprojectmembers
 title: ProjectAgent.DeleteProjectMembers event method
 description: Scripting events called on the DeleteProjectMembers method on the ProjectAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ProjectAgent.DeleteProjectMembers
 

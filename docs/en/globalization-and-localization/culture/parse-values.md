@@ -3,11 +3,11 @@ title: Parse values to NetServer format
 uid: parse_input_to_ns_format
 description: How to parse values to NetServer format
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Parse values to NetServer format

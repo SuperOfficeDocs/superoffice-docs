@@ -3,9 +3,9 @@ uid: help-en-project-guide-working-with
 title: Work with project guide
 description: Work with project guide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, guide
-so.topic: howto
+topic: howto
 language: en
 ---
 

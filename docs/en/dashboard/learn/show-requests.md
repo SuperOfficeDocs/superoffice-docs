@@ -3,11 +3,11 @@ uid: help-en-dashboard-requests
 title: Using requests in tiles
 description: In this how-to guide you will learn how to get a quick overview of all open requests in SuperOffice dashboards.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: dashboard, request
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: user
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

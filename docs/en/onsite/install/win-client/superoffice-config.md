@@ -3,11 +3,11 @@ title: SuperOffice.config
 uid: superoffice_config
 description: SuperOffice.config
 author: {github-id}
-so.date: 12.10.2021
+date: 12.10.2021
 keywords: SuperOffice.config
-so.topic: reference
-so.envir: onsite
-so.client: win
+topic: reference
+envir: onsite
+client: win
 ---
 
 # SuperOffice.config

@@ -3,9 +3,9 @@ title: Contact - raw SQL
 uid: api_contact_sql
 description: Working with companies (contact) in API with raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, SQL, API
-so.topic: howto
+topic: howto
 ---
 
 # Contact - raw SQL

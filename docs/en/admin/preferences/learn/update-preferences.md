@@ -3,9 +3,9 @@ uid: help-en-preferences-manage
 title: Working with preferences
 description: How to add, edit, and delete preference settings.
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: preference, setting
-so.topic: howto
+topic: howto
 language: en
 ---
 

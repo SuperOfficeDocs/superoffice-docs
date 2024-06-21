@@ -3,12 +3,12 @@ title: Permissions in SharePoint
 uid: config-sharepoint-permissions-documents
 description: How to set up the SharePoint using site permissions and Microsoft Entra domain groups
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SharePoint, permission, security, access control, Microsoft Entra, domain group, ME-ID, AAD
-so.topic: howto
-so.version:
-so.envir: cloud
-so.client: online
+topic: howto
+version:
+envir: cloud
+client: online
 ---
 
 # How to set up SharePoint permissions for documents

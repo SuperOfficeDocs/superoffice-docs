@@ -3,9 +3,9 @@ uid: help-en-template-variables-service
 title: Template variables
 description: Template variables
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: request
-so.topic: reference
+topic: reference
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-mail-link-install
 title: Install SuperOffice WebTools
 description: Learn how to install the mail link/WebTools.
 author: Kirsti Aakerholt
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: Gmail Link, email
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

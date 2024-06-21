@@ -3,11 +3,11 @@ title: Images and videos
 uid: dp-app-images-and-videos
 description: How to create good screenshots and videos; how to add images and videos to your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 10.24.2023
+date: 10.24.2023
 keywords: Developer Portal, app store, image, video, icon, logo, screenshot
-so.topic: howto
-so.dp-version: 1.15
-so.envir: cloud
+topic: howto
+version_devportal: 1.15
+envir: cloud
 ---
 
 # Images and videos

@@ -3,11 +3,11 @@ uid: help-en-price-list-add
 title: Add price list
 description: In this how-to guide you will learn how to add and edit a price list in SuperOffice Quote.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: produdct, price list
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -4,10 +4,10 @@ uid: cookies_overview
 description: Cookies overview
 author: {github-id}
 keywords: security, cookies
-so.topic: reference
-so.date:
-# so.envir:
-# so.client:
+topic: reference
+date:
+# envir:
+# client:
 ---
 
 # Cookies overview

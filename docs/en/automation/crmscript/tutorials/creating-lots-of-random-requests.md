@@ -3,9 +3,9 @@ uid: crmscript-random-requests-tutorial
 title: Creating lots of random requests
 description: Creating lots of random requests in CRMScript
 author: kronicz
-so.date: 10.03.2022
+date: 10.03.2022
 keywords: CRMScript
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Creating lots of random requests

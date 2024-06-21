@@ -3,11 +3,11 @@ uid: app-provisioning
 title: provisioning
 description: "Learn what app provisioning is and the benefits of automating it."
 author: Margrethe Romnes
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: provisioning, set-up, apps
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Provisioning

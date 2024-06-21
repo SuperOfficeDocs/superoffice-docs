@@ -3,11 +3,11 @@ title: Pre-requisites for Microsoft 365 integration
 uid: office_365_requirements
 description: Requirements for Microsoft 365 integration
 author: frodeb
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: Microsoft Entra
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Pre-requisites for Microsoft 365 integration

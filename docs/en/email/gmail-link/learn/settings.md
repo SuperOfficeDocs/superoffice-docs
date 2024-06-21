@@ -3,9 +3,9 @@ uid: help-en-gmail-link-settings
 title: Edit Gmail Link settings
 description: Edit Gmail Link settings
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: reference
+topic: reference
 language: en
 ---
 

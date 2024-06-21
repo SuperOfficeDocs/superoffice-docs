@@ -4,7 +4,7 @@ uid: pref_travel
 description: Preference section Travel
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Travel

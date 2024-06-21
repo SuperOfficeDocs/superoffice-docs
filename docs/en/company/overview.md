@@ -3,8 +3,8 @@ uid: company-overview
 title: Working with companies
 description: The company card uses the contact table and its related tables. There are multiple person records for any contact.
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
-so.topic: concept
+date: 02.21.2022
+topic: concept
 keywords: company, person, contact
 ---
 

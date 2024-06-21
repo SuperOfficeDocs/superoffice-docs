@@ -2,10 +2,10 @@
 uid: workflowagent-sendevent
 title: WorkflowAgent.SendEvent event method
 description: Scripting events called on the SendEvent method on the WorkflowAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # WorkflowAgent.SendEvent
 

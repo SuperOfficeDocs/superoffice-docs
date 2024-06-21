@@ -2,10 +2,10 @@
 uid: projectagent-getpublishedprojectsonpersonid
 title: ProjectAgent.GetPublishedProjectsOnPersonId event method
 description: Scripting events called on the GetPublishedProjectsOnPersonId method on the ProjectAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ProjectAgent.GetPublishedProjectsOnPersonId
 

@@ -3,9 +3,9 @@ uid: help-en-sharepoint-documents-folders
 title: How to set up the SharePoint folders
 description: How to set up the SharePoint folders
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: document, Sharepoint
-so.topic: howto
+topic: howto
 language: en
 ---
 

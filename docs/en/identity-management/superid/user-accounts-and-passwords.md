@@ -3,11 +3,11 @@ title: User accounts and passwords
 uid: user_accounts_and_passwords
 description:  User accounts and passwords
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # User accounts and passwords

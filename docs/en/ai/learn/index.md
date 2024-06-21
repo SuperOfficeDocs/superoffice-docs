@@ -3,9 +3,9 @@ uid: help-en-ai
 title: AI services
 description: AI services
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: AI
-so.topic: concept
+topic: concept
 language: en
 ---
 

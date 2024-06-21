@@ -3,11 +3,11 @@ title: Getting started
 uid: mirroring_getting_started
 description: Getting started with database mirroring
 author: Tony Yates
-so.date: 04.20.2016
+date: 04.20.2016
 keywords:
-so.topic: guide
-so.envir: cloud
-so.client: online
+topic: guide
+envir: cloud
+client: online
 ---
 
 # Getting started with database mirroring

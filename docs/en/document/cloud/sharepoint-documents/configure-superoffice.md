@@ -3,11 +3,11 @@ title: How to configure settings in SuperOffice Settings and maintenance
 uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
 author: Frode Berntsen
-so.date: 11.02.2023
+date: 11.02.2023
 keywords: SharePoint, document, template
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to configure settings in SuperOffice Settings and maintenance

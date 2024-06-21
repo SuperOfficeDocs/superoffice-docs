@@ -2,10 +2,10 @@
 uid: licenseagent-changeserialnumber
 title: LicenseAgent.ChangeSerialNumber event method
 description: Scripting events called on the ChangeSerialNumber method on the LicenseAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # LicenseAgent.ChangeSerialNumber
 

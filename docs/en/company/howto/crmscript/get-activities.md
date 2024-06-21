@@ -3,9 +3,9 @@ uid: crmscript-get-company-activities
 title: Activities
 description: How to work with activities in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: CRMScript, company, NSContactAgent
-so.topic: howto
+topic: howto
 ---
 
 # Activities

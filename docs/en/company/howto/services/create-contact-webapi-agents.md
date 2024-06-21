@@ -3,11 +3,11 @@ title: Create a new company
 uid: create_company_webapi_agents
 description: How to create a new Company using webapi contact agent.
 author: Bergfrid Dias
-so.date: 11.18.2021
+date: 11.18.2021
 keywords: contact, company, services, API, WebAPI, agents, CreateDefaultContactEntity, JavaScript
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a new company

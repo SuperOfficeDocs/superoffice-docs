@@ -3,11 +3,11 @@ title: Permissions of SuperOffice integration app
 uid: permissions-app
 description: Permissions of SuperOffice integration app
 author: Frode Berntsen
-so.date: 05.08.2023
+date: 05.08.2023
 keywords: permission, integration, app, SharePoint, document
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Permissions for SuperOffice Document Library integration (app)

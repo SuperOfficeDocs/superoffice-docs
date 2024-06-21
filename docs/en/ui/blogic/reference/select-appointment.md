@@ -3,9 +3,9 @@ title: Select appointment
 uid: blogic_select_appointment
 description: Select appointment
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select appointment

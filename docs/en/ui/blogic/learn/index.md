@@ -3,11 +3,11 @@ uid: help-en-system-design-screen
 title: System design
 description: System design
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: System design
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

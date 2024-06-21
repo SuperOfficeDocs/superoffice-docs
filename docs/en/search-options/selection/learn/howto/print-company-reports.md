@@ -3,9 +3,9 @@ uid: help-en-selection-print-company-reports
 title: Printing company reports
 description: Printing company reports
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

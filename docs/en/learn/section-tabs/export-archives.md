@@ -3,9 +3,9 @@ uid: help-en-section-tab-export
 title: Export archives
 description: Export archives
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: section tab, archive
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,8 +3,8 @@ title: CultureDataFormatter
 uid: globalization_culturedataformatter
 description: Localization, class CultureDataFormatter
 author: {github-id}
-so.date: 05.08.2018
-so.topic: reference
+date: 05.08.2018
+topic: reference
 keywords:
 ---
 

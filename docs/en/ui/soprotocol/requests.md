@@ -3,11 +3,11 @@ title: How to work with Requests
 uid: sop_request_management
 description: How to work with Requests with SoProtocol
 author: Tony Yates
-so.date: 9.4.2023
+date: 9.4.2023
 keywords: soprotocol, requests
-so.topic: howto
-so.client: web
-so.envir: online, onsite
+topic: howto
+client: web
+envir: online, onsite
 ---
 
 # How to work with Requests using SoProtocol

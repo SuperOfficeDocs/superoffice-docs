@@ -3,9 +3,9 @@ uid: help-en-dashboard-edit
 title: Edit a dashboard
 description: Edit a dashboard
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: dashboard, tile, layout
-so.topic: howto
+topic: howto
 language: en
 ---
 

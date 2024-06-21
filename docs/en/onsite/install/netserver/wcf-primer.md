@@ -3,11 +3,11 @@ title: Windows Communication Foundation
 uid: wcf_primer
 description: Windows Communication Foundation (WCF)
 author: Tony Yates
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: API, WCF, Windows Communication Foundation, SOAP, web services
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Windows Communication Foundation (WCF)

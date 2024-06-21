@@ -2,10 +2,10 @@
 uid: contactagent-savequoteversionaddress
 title: ContactAgent.SaveQuoteVersionAddress event method
 description: Scripting events called on the SaveQuoteVersionAddress method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.SaveQuoteVersionAddress
 

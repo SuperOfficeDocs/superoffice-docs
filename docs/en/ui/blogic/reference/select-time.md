@@ -3,9 +3,9 @@ title: Select Time
 uid: blogic_select_time
 description: Select Time
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select Time

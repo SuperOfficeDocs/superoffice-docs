@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_structs
 title: Structs
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Structs

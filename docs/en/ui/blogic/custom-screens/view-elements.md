@@ -3,9 +3,9 @@ title: View elements
 uid: blogic_view_elements
 description: View elements
 author:
-so.date:
+date:
 keywords:
-so.topic: 
+topic: 
 ---
 
 # View elements

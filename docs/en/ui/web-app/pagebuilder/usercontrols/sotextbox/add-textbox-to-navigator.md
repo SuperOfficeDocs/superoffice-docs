@@ -3,11 +3,11 @@ title: How to add new components
 uid: b_add_textbox_to_navigator
 description: How to add new components to an existing page (SoTextBox to Navigator)
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to add new components to an existing page

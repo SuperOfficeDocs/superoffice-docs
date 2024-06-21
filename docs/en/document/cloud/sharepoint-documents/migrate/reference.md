@@ -3,12 +3,12 @@ title: The SharePoint migration UI
 uid: sharepoint-documents-migration-ui
 description: An explanation of the SharePoint document migration wizard and overview page.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 11.02.2023
+date: 11.02.2023
 keywords: SharePoint, document
-so.topic: reference
-so.version:
-so.envir: cloud
-so.client: online
+topic: reference
+version:
+envir: cloud
+client: online
 ---
 
 # The SharePoint migration UI

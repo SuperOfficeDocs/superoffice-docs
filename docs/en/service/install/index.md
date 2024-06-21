@@ -3,12 +3,12 @@ title: Set-up guide
 uid: install_service
 description: "Guide to installing SuperOffice Service and what to do before you start."
 author: Martin Pavlas
-so.date: 12.17.2021
+date: 12.17.2021
 keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
-so.topic: howto
-so.envir: onsite
-so.version: 8.1
-# so.client:
+topic: howto
+envir: onsite
+version: 8.1
+# client:
 ---
 
 # Install Service

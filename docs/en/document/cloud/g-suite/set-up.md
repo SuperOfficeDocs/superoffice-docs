@@ -4,9 +4,9 @@ uid: g_suite_set_up
 description: Setup - Google Workspace Document Integration
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Setup - Google Workspace Document Integration

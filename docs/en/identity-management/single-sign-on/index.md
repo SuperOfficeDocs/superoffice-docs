@@ -3,12 +3,12 @@ title: Single sign-on
 uid: singel_sign_on
 description: Single sign-on
 author: {github-id}
-so.date:
+date:
 keywords: SSO
-so.topic: concept
+topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+# envir:
+# client:
 ---
 
 # Single sign-on

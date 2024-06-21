@@ -3,11 +3,11 @@ title: Project member webhook events
 uid: webhook_projectmember_event
 description: Project member events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Project member webhook events

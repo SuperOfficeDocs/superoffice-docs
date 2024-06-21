@@ -2,10 +2,10 @@
 uid: quoteagent-findproduct
 title: QuoteAgent.FindProduct event method
 description: Scripting events called on the FindProduct method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.FindProduct
 

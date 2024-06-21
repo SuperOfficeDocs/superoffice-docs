@@ -2,10 +2,10 @@
 uid: saleagent-updatesalestakeholders
 title: SaleAgent.UpdateSaleStakeholders event method
 description: Scripting events called on the UpdateSaleStakeholders method on the SaleAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaleAgent.UpdateSaleStakeholders
 

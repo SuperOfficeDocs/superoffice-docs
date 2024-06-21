@@ -2,10 +2,10 @@
 uid: preferenceagent-savepreferencedescriptionline
 title: PreferenceAgent.SavePreferenceDescriptionLine event method
 description: Scripting events called on the SavePreferenceDescriptionLine method on the PreferenceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PreferenceAgent.SavePreferenceDescriptionLine
 

@@ -2,12 +2,12 @@
 uid: macros
 title: Macros
 description: Macros
-so.date: 01.07.2022
+date: 01.07.2022
 author: Bergfrid Dias
 keywords: automation, macro, script
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web, service
+topic: concept
+envir: cloud, onsite
+client: win, web, service
 ---
 
 # Macros

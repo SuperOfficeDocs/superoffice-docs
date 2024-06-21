@@ -3,11 +3,11 @@ title: What API to use?
 uid: what-api-to-use
 description: "Our APIs have different authentication and data access techniques. This article aims to clarify which API you should use."
 author: Tony Yates
-so.date: 09.13.2018
+date: 09.13.2018
 keywords: apps, API, authentication, proxy
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # What API to use?

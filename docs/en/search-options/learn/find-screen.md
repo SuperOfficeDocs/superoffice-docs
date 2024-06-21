@@ -3,9 +3,9 @@ uid: help-en-find-screen
 title: Find screen
 description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: search, find, typical, criteria, or, selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

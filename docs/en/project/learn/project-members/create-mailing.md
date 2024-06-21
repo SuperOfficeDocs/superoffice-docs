@@ -3,9 +3,9 @@ uid: help-en-project-mail-merge
 title: Performing mail merge for projects
 description: Performing mail merge for projects
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, member, mailing, document
-so.topic: howto
+topic: howto
 language: en
 ---
 

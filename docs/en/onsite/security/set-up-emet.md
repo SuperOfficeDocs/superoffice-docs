@@ -4,9 +4,9 @@ uid: set_up_emet
 description: Installing Enhanced Mitigation Experience Toolkit (EMET)
 author: {github-id}
 keywords: security, emet
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Installing EMET

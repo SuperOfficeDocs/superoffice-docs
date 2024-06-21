@@ -3,10 +3,10 @@ title: Debug
 uid: debug_maillink
 description: Debug MailLink
 author: Bergfrid Dias
-so.date: 12.16.2011
+date: 12.16.2011
 keywords: MailLink, debug, log_settings.xml, EnableDebug
-so.topic: howto
-so.envir: onsite
+topic: howto
+envir: onsite
 ---
 
 # Debug MailLink

@@ -3,9 +3,9 @@ title: Person - entity
 uid: api_person_entity
 description: Working with contacts (person) in API with entities.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: person, contact, entity, API
-so.topic: concept
+topic: concept
 ---
 
 # Contact - entity

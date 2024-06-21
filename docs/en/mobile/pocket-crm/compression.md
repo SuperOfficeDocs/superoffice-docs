@@ -4,9 +4,9 @@ uid: zip_on_rest
 description: ZIP compression on REST
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir:
-so.client: pocket
+topic: howto
+envir:
+client: pocket
 ---
 
 # ZIP compression on REST

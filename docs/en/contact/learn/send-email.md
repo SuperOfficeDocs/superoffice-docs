@@ -3,9 +3,9 @@ uid: help-en-contact-send-email
 title: Send email to a contact
 description: Sending emails via SuperOffice CRM makes it easier to share and store all your customer communication in one place.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: en
 ---
 

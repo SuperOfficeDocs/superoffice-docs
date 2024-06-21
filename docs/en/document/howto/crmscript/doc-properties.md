@@ -3,9 +3,9 @@ uid: crmscript_doc_properties
 title: Document properties
 description: How to retrieve document info; create a document entity; link document to a follow-up; change document properties; work with suggested documents
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: howto
-so.topic: CRMScript, documents, document properties, NSDocument
+topic: CRMScript, documents, document properties, NSDocument
 ---
 
 # Document properties

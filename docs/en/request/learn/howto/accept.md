@@ -3,11 +3,11 @@ uid: help-en-request-accept
 title: Accept (take responsibility for) request
 description: How to accept a request to avoid someone else answering the request at the same time.
 author: SuperOffice RnD
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: request, accept, responsibility, next in queue
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

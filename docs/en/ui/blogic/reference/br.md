@@ -3,9 +3,9 @@ title: Horizontal separator (br)
 uid: blogic_br
 description: Horizontal separator (br)
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Horizontal separator (br)

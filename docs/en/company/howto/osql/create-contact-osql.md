@@ -3,11 +3,11 @@ title: Create a contact through OSQL
 uid: create_contact_osql
 description: How to create a contact through OSQL
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, OSQL, API
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a contact through OSQL

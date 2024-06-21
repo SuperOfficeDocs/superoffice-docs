@@ -3,11 +3,11 @@ title: Creating ASP.net website using SO controls
 uid: aspnet_appointment_with_login
 description: Creating ASP.net website using SO controls
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: appointment, login
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # Creating ASP.net website using SO controls

@@ -3,11 +3,11 @@ title: Scripting in NetServer services
 uid: scripting_ns_services
 description: Scripting in NetServer services
 author: Tony Yates
-so.date: 04.15.2009
-so.topic: concept
+date: 04.15.2009
+topic: concept
 keywords:
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Scripting in NetServer services

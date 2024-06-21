@@ -2,10 +2,10 @@
 uid: emailagent-getemaildocumentasmimestream
 title: EMailAgent.GetEmailDocumentAsMimeStream event method
 description: Scripting events called on the GetEmailDocumentAsMimeStream method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetEmailDocumentAsMimeStream
 

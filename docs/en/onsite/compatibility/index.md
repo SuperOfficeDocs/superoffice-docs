@@ -4,9 +4,9 @@ uid: onsite_compatibility_reports
 description: Compatibility test reports for SuperOffice onsite
 author: {github-id}
 keywords: requirements
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Compatibility reports

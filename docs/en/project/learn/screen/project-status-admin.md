@@ -3,11 +3,11 @@ uid: help-en-project-status-admin
 title: Project - Status
 description: Project - Status in SuperOffice Settings and maintenance.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: project
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

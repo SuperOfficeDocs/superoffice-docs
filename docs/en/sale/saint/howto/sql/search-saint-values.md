@@ -3,11 +3,11 @@ title: Search values
 uid: saint-sql-search-values
 description: How to search on SAINT values in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SAINT, API, SQL, counterValue, totalReg, totalRegInPeriod, notCompleted, notCompletedInPeriod
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Searches on SAINT values

@@ -3,9 +3,9 @@ uid: help-en-quote
 title: Work with quotes
 description: SuperOffice Quote is a feature that helps you generate quotes quickly and accurately – saving you time and minimizing errors.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: quote
-so.topic: concept
+topic: concept
 language: en
 ---
 

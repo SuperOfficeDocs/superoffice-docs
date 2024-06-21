@@ -2,10 +2,10 @@
 uid: erpsyncagent-saveconnectionlistmappings
 title: ErpSyncAgent.SaveConnectionListMappings event method
 description: Scripting events called on the SaveConnectionListMappings method on the ErpSyncAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ErpSyncAgent.SaveConnectionListMappings
 

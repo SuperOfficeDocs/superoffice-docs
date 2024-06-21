@@ -4,9 +4,9 @@ uid: tested_ms_sql_server
 description: Tested Microsoft SQL Server versions
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Tested Microsoft SQL Server

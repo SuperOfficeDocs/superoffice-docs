@@ -3,9 +3,9 @@ uid: help-en-adding-items-to-follow-up-type-list
 title: Adding items to the Follow-up - Type list
 description: Adding items to the Follow-up - Type list
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: howto
+topic: howto
 language: en
 ---
 

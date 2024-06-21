@@ -3,11 +3,11 @@ uid: help-en-project-guide-create
 title: Create new project guide
 description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: project, guide, workflow
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

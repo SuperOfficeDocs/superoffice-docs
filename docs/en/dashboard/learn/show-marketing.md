@@ -3,9 +3,9 @@ uid: help-en-dashboard-tile-marketing
 title: Using mailing and forms in tiles
 description: Create dashboards for your marketing tasks, such as form submissions and mailings, to track and analyze their performance, trends and productivity across all marketing activities.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: dashboard, marketing
-so.topic: howto
+topic: howto
 language: en
 ---
 

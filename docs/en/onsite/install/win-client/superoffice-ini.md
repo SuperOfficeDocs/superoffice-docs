@@ -4,9 +4,9 @@ uid: superoffice_ini
 description: SuperOffice.ini
 author: {github-id}
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:# online, web, win, pocket, or mobile
+topic: reference
+# envir:
+# client:# online, web, win, pocket, or mobile
 ---
 
 # SuperOffice.ini

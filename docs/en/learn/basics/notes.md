@@ -3,9 +3,9 @@ uid: help-en-notes
 title: Taking notes
 description: Taking notes
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: note, notepad
-so.topic: howto
+topic: howto
 language: en
 ---
 

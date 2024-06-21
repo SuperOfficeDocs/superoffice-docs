@@ -3,9 +3,9 @@ uid: help-en-sms-outbox
 title: SMS outbox
 description: SMS outbox
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: en
 ---
 

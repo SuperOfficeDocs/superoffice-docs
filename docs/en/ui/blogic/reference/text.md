@@ -3,9 +3,9 @@ title: Text
 uid: blogic_text
 description: Text
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Text

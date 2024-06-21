@@ -3,12 +3,12 @@ uid: help-en-win-client
 title: Windows Client settings
 description: Windows Client settings
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client settings
-so.topic: concept
+topic: concept
 language: en
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Windows Client settings

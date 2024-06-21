@@ -3,9 +3,9 @@ uid: help-en-company-screen-projects
 title: Projects tab
 description: Projects tab
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: reference
+topic: reference
 language: en
 ---
 

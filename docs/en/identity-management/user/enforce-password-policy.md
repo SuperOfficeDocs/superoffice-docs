@@ -4,10 +4,10 @@ title: Enforce a password policy
 description: Enforce password policy
 keywords: SuperID, password, password policy
 author: Bergfrid Dias
-so.date: 03.21.2024
-so.topic: howto
-so.envir: cloud
-so.client: online
+date: 03.21.2024
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Enforce a password policy

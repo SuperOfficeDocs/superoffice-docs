@@ -3,9 +3,9 @@ uid: crmscript-request-reply
 title: Reply to customer
 description: How to add a message and reply to a request with CRMScript; how to close a request.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: Service, ticket, request, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Reply to customer

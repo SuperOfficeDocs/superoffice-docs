@@ -3,9 +3,9 @@ title: Select agent (associate)
 uid: blogic_select_agent
 description: Select agent (associate)
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select agent (associate)

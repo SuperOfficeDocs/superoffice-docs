@@ -4,9 +4,9 @@ uid: run_website_on_iis_localhost
 description: Run a website on your machine, IIS localhost
 author: {github-id}
 keywords: IIS, localhost, Visual Studio
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Run a website on your machine, IIS localhost

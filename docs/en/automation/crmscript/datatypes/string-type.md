@@ -2,9 +2,9 @@
 uid: crmscript_datatypes_string
 title: String data type
 author: Bergfrid Dias
-so.date: 01.14.2022
+date: 01.14.2022
 keywords: CRMScript, string
-so.topic: concept
+topic: concept
 ---
 
 # String data type

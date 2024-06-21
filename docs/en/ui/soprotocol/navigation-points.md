@@ -3,9 +3,9 @@ title: Navigation points (where)
 uid: so_protocol_nav
 description: SoProtocol navigation points
 author:
-so.date:
+date:
 keywords: soprotocol, deeplinking
-so.topic: reference
+topic: reference
 ---
 
 # SoProtocol entity targets

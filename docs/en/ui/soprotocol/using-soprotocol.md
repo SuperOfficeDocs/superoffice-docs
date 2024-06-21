@@ -3,11 +3,11 @@ title: Using SoProtocol
 uid: using-soprotocol
 description: Using SoProtocol
 author: Tony Yates
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: soprotocol, deeplinking
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # Using SoProtocol

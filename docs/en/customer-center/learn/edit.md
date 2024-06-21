@@ -3,9 +3,9 @@ uid: help-en-customer-center-edit
 title: Customer centre source files
 description: Customer centre source files
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP
-so.topic: howto
+topic: howto
 language: en
 ---
 

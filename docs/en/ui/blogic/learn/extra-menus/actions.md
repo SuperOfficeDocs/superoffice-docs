@@ -3,9 +3,9 @@ uid: help-en-ui-extra-menu-actions
 title: Add function to Task button
 description: Add function to Task button
 author: Bergfrid Dias
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: macro, task, actions
-so.topic: howto
+topic: howto
 language: en
 ---
 

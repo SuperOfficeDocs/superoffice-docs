@@ -3,11 +3,11 @@ title: Primary tenant
 uid: primary_tenant
 description: Primary tenant
 author: {github-id}
-so.date:
+date:
 keywords: 
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Primary tenant

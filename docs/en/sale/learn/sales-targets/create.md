@@ -3,9 +3,9 @@ uid: help-en-sales-targets-create
 title: Set up sales targets
 description: Keep track of your budgets by setting up sales targets. This will help you to set the right expectations, plan your growth, increase motivation and save time.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

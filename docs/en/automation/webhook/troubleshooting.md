@@ -3,11 +3,11 @@ uid: webhook-troubleshooting
 title: Webhook troubleshooting
 description: "How to troubleshoot webhooks errors."
 author: AnthonyYates
-so.date: 06.05.2023
+date: 06.05.2023
 keywords: automation
-so.topic: howto
-so.audience: api
-so.audience.tooltip: Troubleshooting webhooks
+topic: howto
+audience: api
+audience_tooltip: Troubleshooting webhooks
 ---
 
 # Troubleshooting webhooks

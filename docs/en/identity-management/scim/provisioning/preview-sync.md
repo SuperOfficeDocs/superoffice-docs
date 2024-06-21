@@ -3,11 +3,11 @@ title: Preview what will be synced
 uid: preview_scim_sync
 description: Preview what will be synced
 author: {github-id}
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SCIM, Microsoft Entra, ME-ID, AAD
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Preview what will be synced

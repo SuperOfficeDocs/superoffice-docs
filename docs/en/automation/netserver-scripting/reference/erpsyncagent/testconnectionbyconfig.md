@@ -2,10 +2,10 @@
 uid: erpsyncagent-testconnectionbyconfig
 title: ErpSyncAgent.TestConnectionByConfig event method
 description: Scripting events called on the TestConnectionByConfig method on the ErpSyncAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ErpSyncAgent.TestConnectionByConfig
 

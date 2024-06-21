@@ -3,11 +3,11 @@ title: Document events
 uid: webhook_document_event
 description: Document events
 author:
-so.date:
+date:
 keywords: automation
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 # Document events
 

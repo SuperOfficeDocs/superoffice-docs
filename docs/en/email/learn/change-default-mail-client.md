@@ -3,10 +3,10 @@ uid: help-en-email-change-default-client
 title: Change default mail client in SuperOffice
 description: How to change default mail client in SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: email, settings, mail client
 language: en
-so.topic: howto
+topic: howto
 ---
 
 # Change default mail client in SuperOffice

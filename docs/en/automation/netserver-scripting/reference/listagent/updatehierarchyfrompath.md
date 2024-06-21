@@ -2,10 +2,10 @@
 uid: listagent-updatehierarchyfrompath
 title: ListAgent.UpdateHierarchyFromPath event method
 description: Scripting events called on the UpdateHierarchyFromPath method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.UpdateHierarchyFromPath
 

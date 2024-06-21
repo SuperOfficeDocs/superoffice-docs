@@ -3,13 +3,13 @@ uid: help-en-our-companies-manage
 title: Manage "Our companies"
 description: How to add and remove companies in the Our companies tab
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: user, our companies
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
-so.client: web
+client: web
 ---
 
 # Manage "Our companies"

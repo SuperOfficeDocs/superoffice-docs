@@ -4,7 +4,7 @@ uid: g_suite_document_integration
 description: Google Workspace document integration
 author: {github-id}
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Google Workspace document integration

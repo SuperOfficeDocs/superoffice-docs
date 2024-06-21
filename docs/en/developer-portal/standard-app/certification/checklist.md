@@ -3,11 +3,11 @@ title: Certification checklist
 uid: standard-app-checklist
 description: Certification checklist
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: standard app
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Certification checklist

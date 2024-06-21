@@ -3,10 +3,10 @@ uid: help-en-activity-add-link
 title: Add link from Follow-up or Document dialog
 description: Add link from Follow-up or Document dialog
 author: Bergfrid
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: activity, link, follow-up, document
-so.topic: howto
+topic: howto
 language: en
 ---
 

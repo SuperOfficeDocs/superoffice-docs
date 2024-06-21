@@ -3,12 +3,12 @@ title: SharePoint documents
 uid: sharepoint-documents
 description: SharePoint document integration for SuperOffice
 author: Frode Berntsen
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SharePoint, document, Microsoft Entra domain, ME-ID, AAD
-so.topic: concept
-so.version:
-so.envir: cloud
-so.client: online
+topic: concept
+version:
+envir: cloud
+client: online
 ---
 
 # SharePoint documents

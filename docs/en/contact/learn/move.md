@@ -3,9 +3,9 @@ uid: help-en-contact-move
 title: Move contact
 description: Move contact
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

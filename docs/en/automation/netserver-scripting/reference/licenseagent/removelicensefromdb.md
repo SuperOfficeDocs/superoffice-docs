@@ -2,10 +2,10 @@
 uid: licenseagent-removelicensefromdb
 title: LicenseAgent.RemoveLicenseFromDB event method
 description: Scripting events called on the RemoveLicenseFromDB method on the LicenseAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # LicenseAgent.RemoveLicenseFromDB
 

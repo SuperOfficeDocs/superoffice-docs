@@ -3,9 +3,9 @@ title: Select FAQ
 uid: blogic_select_faq
 description: Select FAQ
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select FAQ

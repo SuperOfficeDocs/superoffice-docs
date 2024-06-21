@@ -3,9 +3,9 @@ title: Project SQL howto
 uid: project-howto-sql
 description: Working with projects in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: project, project management, API, SQL, ProjType, type_idx, ProjStatus, status_idx
-so.topic: howto
+topic: howto
 ---
 
 # Howto

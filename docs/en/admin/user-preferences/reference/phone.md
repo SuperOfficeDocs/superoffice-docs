@@ -4,7 +4,7 @@ uid: pref_phone
 description: Preference section Phone
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Phone

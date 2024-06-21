@@ -3,9 +3,9 @@ uid: crmscript-book-resource
 title: How to book a resource
 description: How to book a resource with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.18.2022
+date: 03.18.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, resource, location
-so.topic: howto
+topic: howto
 ---
 
 # Resources

@@ -3,9 +3,9 @@ uid: get-catlist-sql
 title: Get list of categories
 description: How to get all categories with raw SQL.
 author: Bergfrid Dias
-so.date: 02.21.2022
+date: 02.21.2022
 keywords: category, CategoryGroupLink, contact
-so.topic: howto
+topic: howto
 ---
 
 # Get all categories

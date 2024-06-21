@@ -3,9 +3,9 @@ uid: help-en-languages
 title: Customer languages
 description: Customer languages
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: language
-so.topic: concept
+topic: concept
 language: en
 ---
 

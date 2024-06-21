@@ -2,9 +2,9 @@
 uid: crmscript_based_selections
 title: Script-based selections
 author:
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: selection,crmscript
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Script-based selections

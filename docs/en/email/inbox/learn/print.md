@@ -3,9 +3,9 @@ uid: help-en-email-inbox-print
 title: Print an email
 description: Print an email
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: email
-so.topic: howto
+topic: howto
 language: en
 ---
 

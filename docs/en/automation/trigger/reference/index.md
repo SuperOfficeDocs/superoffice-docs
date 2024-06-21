@@ -2,10 +2,10 @@
 title: Trigger scripts
 uid: trigger_scripts
 description: Trigger scripts
-so.author: Christian Mogensen
-so.date: 11.11.2020
+author: Christian Mogensen
+date: 11.11.2020
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Trigger scripts

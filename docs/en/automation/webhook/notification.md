@@ -3,11 +3,11 @@ uid: webhook_receiving_notification
 title: Receiving notifications
 description: Webhook notifications
 author: AnthonyYates
-so.date: 04.06.2018
+date: 04.06.2018
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Receiving notifications

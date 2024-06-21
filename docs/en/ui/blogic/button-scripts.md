@@ -3,9 +3,9 @@ title: Button scripts
 uid: button_scripts
 description: Button scripts
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Button scripts

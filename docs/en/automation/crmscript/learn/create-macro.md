@@ -3,11 +3,11 @@ uid: help-en-automation-macro-create
 title: Create a macro - example from SuperOffice
 description: Example of how to create a macro in SuperOffice.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: script, macro
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -4,12 +4,12 @@ title: Show address in map
 
 description: How to manage notifications in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.24.2023
+date: 07.24.2023
 keywords: mobile, address, location, map
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Show address in map

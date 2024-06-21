@@ -3,11 +3,11 @@ uid: crmscript-debug-using-trace
 title: Using trace
 description: How to trace a CRMScript.
 author: Bergfrid Dias
-so.date: 12.21.2023
+date: 12.21.2023
 keywords: CRMScript, trace, debug
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Using trace

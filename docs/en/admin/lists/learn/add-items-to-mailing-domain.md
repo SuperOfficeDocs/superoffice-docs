@@ -3,11 +3,11 @@ uid: help-en-add-items-to-mailing-domain
 title: Add items to Mailing Domain
 description: Add items to the Mailing Domain list
 author: Hanne Gunnarsson
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mailing, domain, SPF
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: Related dropdowns
 uid: blogic_related_dropdowns
 description: Related dropdowns
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Related dropdowns

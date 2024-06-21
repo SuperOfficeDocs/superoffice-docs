@@ -3,9 +3,9 @@ uid: help-en-chat-create-quick-reply
 title: Create a quick reply
 description: Create a quick reply
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: en
 ---
 

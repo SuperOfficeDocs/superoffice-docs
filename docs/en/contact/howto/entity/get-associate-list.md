@@ -3,9 +3,9 @@ title: Get the associate list
 uid: get-associate-list-entity
 description: How to retrieve the associate list
 author: {github-id}
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: associate, list, GetAssociateList
-so.topic: howto
+topic: howto
 ---
 
 # Get the associate list

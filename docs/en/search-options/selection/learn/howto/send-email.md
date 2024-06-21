@@ -3,9 +3,9 @@ uid: help-en-selection-send-email
 title: Sending email to several recipients simultaneously
 description: Sending email to several recipients simultaneously
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, email
-so.topic: howto
+topic: howto
 language: en
 ---
 

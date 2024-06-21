@@ -3,11 +3,11 @@ uid: help-en-managing-external-users
 title: managing external users
 description: managing external users
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: help
+topic: help
 language: en
-so.envir: onsite
+envir: onsite
 ---
 
 # Manage external users

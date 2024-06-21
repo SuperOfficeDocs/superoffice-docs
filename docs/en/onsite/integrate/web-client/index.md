@@ -3,11 +3,11 @@ uid: api_scenarios_web_onsite
 title: Integration in the onsite Web client
 description: Integration in the onsite Web client
 author: Tony Yates
-so.date: 11.25.2021
+date: 11.25.2021
 keywords: API, integration point, web client
-so.topic: reference
-so.envir: onsite
-so.client: web
+topic: reference
+envir: onsite
+client: web
 ---
 
 # Integration scenarios: Web client (onsite)

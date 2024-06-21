@@ -3,11 +3,11 @@ uid: help-en-request-fav
 author: Hanne Gunnarsson
 title: Add requests to the favorites list
 description: Add requests to the favorites list
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: request, fav
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

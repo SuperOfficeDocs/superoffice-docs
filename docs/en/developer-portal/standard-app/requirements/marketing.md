@@ -3,11 +3,11 @@ title: Marketing requirements
 uid: marketing_requirements
 description: Marketing requirements
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: certification
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Marketing requirements

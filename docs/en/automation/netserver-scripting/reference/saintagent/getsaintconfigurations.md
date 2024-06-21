@@ -2,10 +2,10 @@
 uid: saintagent-getsaintconfigurations
 title: SaintAgent.GetSaintConfigurations event method
 description: Scripting events called on the GetSaintConfigurations method on the SaintAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # SaintAgent.GetSaintConfigurations
 

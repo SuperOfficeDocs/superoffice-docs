@@ -4,9 +4,9 @@ uid: webtools-install
 description: "How to install WebTools per user."
 author: Hans Oluf Waaler
 keywords: WebTools, TrayApp
-so.topic: howto
-so.date: 10.13.2016
-so.envir: onsite
+topic: howto
+date: 10.13.2016
+envir: onsite
 ---
 
 # Install WebTools per user

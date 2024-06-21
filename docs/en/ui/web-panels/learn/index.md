@@ -3,9 +3,9 @@ uid: help-en-ui-web-panels
 title: Web panels
 description: Web panels
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: web panel
-so.topic: concept
+topic: concept
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: zapier-howto
 title: Index
 description: Index for tips and tricks
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 # Working with Zaps

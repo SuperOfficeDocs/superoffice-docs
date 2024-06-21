@@ -3,10 +3,10 @@ title: Integrated with Active Directory
 uid: webapi_auth_ad
 description: WebAPI authentication Active Directory
 author: Bergfrid Dias
-so.date: 12.17.2021
+date: 12.17.2021
 keywords: authentication, AD, Active Directory, AuthorizeWithImplicit, IIS
-so.topic: howto 
-so.envir: onsite
+topic: howto 
+envir: onsite
 ---
 
 # Integrated with Active Directory

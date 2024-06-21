@@ -3,9 +3,9 @@ uid: crmscript-sale
 title: Sales
 description: Working with sales in CRMScript
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale
-so.topic: concept
+topic: concept
 ---
 
 # Sales

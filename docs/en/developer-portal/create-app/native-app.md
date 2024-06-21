@@ -3,13 +3,13 @@ title: Register a native app
 uid: dp-register-native-app
 description: Registering a new native app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.15.2023
+date: 11.15.2023
 keywords: Developer Portal, app, OAuth2 Native app flow, PKCE
-so.topic: howto
-so.version:
-so.dp-version: 1.16
-so.envir: cloud
-so.client:
+topic: howto
+version:
+version_devportal: 1.16
+envir: cloud
+client:
 ---
 # Register a native app
 

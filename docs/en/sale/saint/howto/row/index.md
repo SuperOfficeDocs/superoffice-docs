@@ -3,9 +3,9 @@ title: SAINT - row
 uid: saint-howto-row
 description: Working with SAINT.
 author: Bergfrid Skaara Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SAINT, API, row
-so.topic: howto
+topic: howto
 ---
 
 # SAINT - row

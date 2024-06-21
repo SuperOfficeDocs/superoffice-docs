@@ -2,10 +2,10 @@
 uid: listagent-getpaymenttype
 title: ListAgent.GetPaymentType event method
 description: Scripting events called on the GetPaymentType method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetPaymentType
 

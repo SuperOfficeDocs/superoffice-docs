@@ -4,8 +4,8 @@ title: Data types
 description: An in-depth guide to SuperOffice CRMScript data types.
 keywords: CRMScript, script, data type
 author: Bergfrid Dias
-so.date: 04.15.2024
-so.topic: concept
+date: 04.15.2024
+topic: concept
 ---
 
 # Data types

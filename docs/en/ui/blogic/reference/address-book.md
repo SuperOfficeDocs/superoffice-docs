@@ -3,9 +3,9 @@ title: Address book
 uid: blogic_address_book
 description: Address book
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Address book

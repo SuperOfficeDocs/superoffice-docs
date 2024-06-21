@@ -3,9 +3,9 @@ uid: quote-overview
 title: Quotes
 description: Introduction to quote management in SuperOffice
 author: Bergfrid Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: sale, quote, quoteconnection
-so.topic: concept
+topic: concept
 ---
 
 # Quote management

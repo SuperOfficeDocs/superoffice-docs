@@ -4,8 +4,8 @@ uid: rest_api_search_contact
 description: How to read all the companies in SuperOffice with REST Web API.
 author: {github-id}
 keywords: contact, company, services, API, search, rest
-so.date: 11.04.2021
-so.topic: howto
+date: 11.04.2021
+topic: howto
 ---
 
 # Select all companies

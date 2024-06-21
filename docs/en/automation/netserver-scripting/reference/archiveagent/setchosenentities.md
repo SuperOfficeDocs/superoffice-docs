@@ -2,10 +2,10 @@
 uid: archiveagent-setchosenentities
 title: ArchiveAgent.SetChosenEntities event method
 description: Scripting events called on the SetChosenEntities method on the ArchiveAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ArchiveAgent.SetChosenEntities
 

@@ -3,9 +3,9 @@ uid: help-en-mail-link-archive-as-request
 title: Archive email as request
 description: Learn how to archive emails as requests in this guide.
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

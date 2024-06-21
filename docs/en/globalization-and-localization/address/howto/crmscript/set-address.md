@@ -3,9 +3,9 @@ uid: crmscript-set-address
 title: Set address info
 description: How to set address info with CRMScript.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address, NSLocalizedField, ContactAgent
-so.topic: howto
+topic: howto
 ---
 
 # Set address info

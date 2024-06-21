@@ -2,10 +2,10 @@
 uid: quoteagent-script-events
 title: QuoteAgent script event methods
 description: NetServer script event methods.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # QuoteAgent method listing

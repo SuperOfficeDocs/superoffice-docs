@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_variables
 title: Variables
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Variables

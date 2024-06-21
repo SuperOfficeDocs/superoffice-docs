@@ -3,11 +3,11 @@ title: How to add an MDO control
 uid: add_mod_control
 description: How to add an MDO control to an existing panel of a page
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: usercontrol, MDO, list
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to add an MDO control to an existing panel of a page

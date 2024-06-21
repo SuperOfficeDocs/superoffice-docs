@@ -3,9 +3,9 @@ uid: help-en-contact-screen-activities
 title: Activities tab (Contact screen)
 description: Activities tab (Contact screen)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: reference
+topic: reference
 language: en
 ---
 

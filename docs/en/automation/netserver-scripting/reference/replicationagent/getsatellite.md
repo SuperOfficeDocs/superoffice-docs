@@ -2,10 +2,10 @@
 uid: replicationagent-getsatellite
 title: ReplicationAgent.GetSatellite event method
 description: Scripting events called on the GetSatellite method on the ReplicationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ReplicationAgent.GetSatellite
 

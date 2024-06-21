@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_operators
 title: Operators
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Operators

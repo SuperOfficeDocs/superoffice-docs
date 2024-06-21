@@ -3,11 +3,11 @@ uid: help-en-reply-template
 title: Work with reply templates
 description: Work with reply templates
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

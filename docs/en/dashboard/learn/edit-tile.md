@@ -3,9 +3,9 @@ uid: help-en-dashboard-tile-edit
 title: Edit a tile
 description: Edit a tile
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: en
 ---
 

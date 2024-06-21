@@ -3,11 +3,11 @@ title: Databinding with SoListBox
 uid: pb_databinding_solistbox
 description: Databinding with SoListBox
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Databinding with SoListBox

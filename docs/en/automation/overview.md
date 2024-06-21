@@ -3,11 +3,11 @@ uid: superoffice_automation
 title: Automation
 description: Automation in SuperOffice; script language options by platform
 author: Bergfrid Dias
-so.date: 01.07.2022
+date: 01.07.2022
 keywords: automation, API, integration point, scripting, Jscript, Javascript, VB.NET, C#
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web, service
+topic: concept
+envir: cloud, onsite
+client: win, web, service
 ---
 
 # Automation

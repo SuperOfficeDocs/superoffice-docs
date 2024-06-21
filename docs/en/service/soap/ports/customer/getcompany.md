@@ -4,8 +4,8 @@ uid: cs_soap_ports_customer_getcompany
 description: Services SOAP interface port reference - customer getCompany
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # getCompany

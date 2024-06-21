@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_reserved_words
 title: Reserved words
 author:
-so.date:
+date:
 keywords:
-so.topic: referene
+topic: referene
 ---
 
 # Reserved words

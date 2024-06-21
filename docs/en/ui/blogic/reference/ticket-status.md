@@ -3,9 +3,9 @@ title: Ticket status
 uid: blogic_ticket_status
 description: Ticket status
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Ticket status

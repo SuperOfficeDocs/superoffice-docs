@@ -3,11 +3,11 @@ uid: scim_intro
 title: SCIM intro
 description: What is SCIM? Why use SCIM?
 author:
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD
-so.topic: concept
-so.envir:  cloud
-so.client:  online
+topic: concept
+envir:  cloud
+client:  online
 ---
 
 # System for Cross-domain Identity Management (SCIM)

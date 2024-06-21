@@ -2,10 +2,10 @@
 uid: dashagent-createdefaultdash
 title: DashAgent.CreateDefaultDash event method
 description: Scripting events called on the CreateDefaultDash method on the DashAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DashAgent.CreateDefaultDash
 

@@ -2,10 +2,10 @@
 uid: useragent-setuserpresencestatus
 title: UserAgent.SetUserPresenceStatus event method
 description: Scripting events called on the SetUserPresenceStatus method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.SetUserPresenceStatus
 

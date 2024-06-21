@@ -3,9 +3,9 @@ uid: crmscript-extra-fields
 title: Extra fields
 description: Working with extra fields in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: extra field, custom, field, Service
-so.topic: concept
+topic: concept
 ---
 
 # Extra fields

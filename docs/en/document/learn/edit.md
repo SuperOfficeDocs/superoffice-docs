@@ -3,9 +3,9 @@ uid: help-en-document-update
 title: Editing documents
 description: Editing documents
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: document
-so.topic: howto
+topic: howto
 language: en
 ---
 

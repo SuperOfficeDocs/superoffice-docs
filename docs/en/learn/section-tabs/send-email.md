@@ -3,12 +3,12 @@ uid: help-en-activity-send-email
 title: Reply to or forward email from the Activities section tab
 description: How to reply to or forward an email from the Activities section tab in SuperOffice.
 author: Bergfrid Dias
-so.date: 09.21.2023
+date: 09.21.2023
 keywords: company
-so.topic: howto
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Reply to or forward email from the Activities section tab

@@ -4,9 +4,9 @@ uid: configure_email_invitations
 description: How to configure video meetings in SuperOffice
 author: {github-id}
 keywords: video meetings
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to configure email invitations for video meetings

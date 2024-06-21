@@ -2,10 +2,10 @@
 uid: documentagent-getprojectdocumentsbytemplateheading
 title: DocumentAgent.GetProjectDocumentsByTemplateHeading event method
 description: Scripting events called on the GetProjectDocumentsByTemplateHeading method on the DocumentAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentAgent.GetProjectDocumentsByTemplateHeading
 

@@ -4,8 +4,8 @@ uid: cs_soap_ports_ticket
 description: Services SOAP interface ticket reference
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # Ticket port

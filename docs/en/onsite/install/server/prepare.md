@@ -4,9 +4,9 @@ uid: prepare_crm_server
 description: Prepare CRM Server computer
 author: {github-id}
 keywords: install
-so.topic: howto
-so.envir: onsite
-so.client:
+topic: howto
+envir: onsite
+client:
 ---
 
 # Prepare CRM Server computer

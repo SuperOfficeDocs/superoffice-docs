@@ -2,9 +2,9 @@
 uid: crmscript_debug_built_in_debugger
 title: Built-in debugger
 author:
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Built-in debugger

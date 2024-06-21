@@ -3,9 +3,9 @@ uid: help-en-document-create
 title: Create new document
 description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: document
-so.topic: howto
+topic: howto
 language: en
 ---
 

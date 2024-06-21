@@ -3,11 +3,11 @@ title: Create an Appointment entity through an entity
 uid: create_appointment_entity_in_entity
 description: How to create an Appointment entity through another entity.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: diary, calendar, appointment, API, entity
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create an Appointment entity through an entity

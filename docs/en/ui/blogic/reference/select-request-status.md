@@ -3,9 +3,9 @@ title: Select request status
 uid: blogic_select_request_status
 description: Select request status
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select request status

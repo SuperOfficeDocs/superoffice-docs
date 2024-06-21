@@ -4,8 +4,8 @@ uid: service_log_files
 description: Service log files
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: onsite
+topic: concept
+envir: onsite
 ---
 
 # Service log files

@@ -3,9 +3,9 @@ title: Troubleshooting
 uid: webtools-troubleshooting
 description: Troubleshooting WebTools
 author: Jostein K, Bergfrid Dias
-so.date: 01.23.2024
+date: 01.23.2024
 keywords: WebTools
-so.topic: howto
+topic: howto
 ---
 
 # Troubleshooting WebTools

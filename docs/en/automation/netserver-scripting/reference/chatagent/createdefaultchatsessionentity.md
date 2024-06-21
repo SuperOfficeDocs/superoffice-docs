@@ -2,10 +2,10 @@
 uid: chatagent-createdefaultchatsessionentity
 title: ChatAgent.CreateDefaultChatSessionEntity event method
 description: Scripting events called on the CreateDefaultChatSessionEntity method on the ChatAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ChatAgent.CreateDefaultChatSessionEntity
 

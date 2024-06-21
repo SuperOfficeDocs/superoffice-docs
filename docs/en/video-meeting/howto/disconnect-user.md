@@ -3,11 +3,11 @@ title: Disconnect user
 uid: disconnect_user
 description: How to disconnect a user from video meetings
 author: {github-id}
-so.date: 08.12.2021
+date: 08.12.2021
 keywords: video meetings
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # How to remove video-meetings configuration for users

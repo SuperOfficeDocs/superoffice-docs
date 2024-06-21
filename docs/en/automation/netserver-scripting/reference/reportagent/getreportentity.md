@@ -2,10 +2,10 @@
 uid: reportagent-getreportentity
 title: ReportAgent.GetReportEntity event method
 description: Scripting events called on the GetReportEntity method on the ReportAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ReportAgent.GetReportEntity
 

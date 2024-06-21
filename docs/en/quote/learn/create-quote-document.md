@@ -3,9 +3,9 @@ uid: help-en-quote-create-quote-document
 title: quote create quote document
 description: quote create quote document
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -2,10 +2,10 @@
 uid: quoteagent-getconnection
 title: QuoteAgent.GetConnection event method
 description: Scripting events called on the GetConnection method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.GetConnection
 

@@ -3,9 +3,9 @@ uid: help-en-selection-static
 title: Static selections
 description: Static selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, static
-so.topic: concept
+topic: concept
 language: en
 ---
 

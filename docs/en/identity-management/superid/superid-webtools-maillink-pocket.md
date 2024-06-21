@@ -4,7 +4,7 @@ uid: authentication_with_webtools_maillink_and_pocket
 description: Authentication with WebTools, MailLink, and Pocket
 author: {github-id}
 keywords: OAuth 2.0
-so.topic: concept
+topic: concept
 ---
 
 # Authentication with WebTools, MailLink, and Pocket

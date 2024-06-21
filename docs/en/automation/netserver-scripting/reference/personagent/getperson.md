@@ -2,10 +2,10 @@
 uid: personagent-getperson
 title: PersonAgent.GetPerson event method
 description: Scripting events called on the GetPerson method on the PersonAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PersonAgent.GetPerson
 

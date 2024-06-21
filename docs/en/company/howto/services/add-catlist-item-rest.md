@@ -4,10 +4,10 @@ uid: add_catlist_item_rest
 description: Add a category list item
 author: {github-id}
 keywords: category,contact,rest
-so.topic: howto
-so.date:
-# so.envir:
-# so.client:
+topic: howto
+date:
+# envir:
+# client:
 ---
 
 # Add a category list item using REST

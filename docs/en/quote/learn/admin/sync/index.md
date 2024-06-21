@@ -3,13 +3,13 @@ uid: help-en-quote-sync
 title: Sync
 description: The Sync tab in the Quote/Sync screen.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: quote, sync, connector, ERP
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
-so.client: web
+client: web
 ---
 
 # Sync

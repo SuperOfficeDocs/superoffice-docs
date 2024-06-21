@@ -3,10 +3,10 @@ uid: screen-grid
 title: Working with grids
 description: How to add and populate tables in a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 05.05.2023
+date: 05.05.2023
 keywords: ui, screen, customization, grid, table
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 ---
 
 # Working with grids

@@ -3,12 +3,12 @@ uid: mobile-crm-request-update
 title: Update request
 description: How to update a request in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.03.2023
+date: 08.03.2023
 keywords: mobile, request, status
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Update request

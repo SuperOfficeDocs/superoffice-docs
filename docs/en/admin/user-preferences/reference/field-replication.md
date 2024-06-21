@@ -4,7 +4,7 @@ uid: pref_fieldreplication
 description: Preference section FieldReplication
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section FieldReplication

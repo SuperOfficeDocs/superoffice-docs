@@ -3,9 +3,9 @@ title: Select Time Span
 uid: blogic_select_timespan
 description: Select Time Span
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select Time Span

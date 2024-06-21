@@ -3,11 +3,11 @@ title: Merge process
 uid: merge_files_and_actions
 description: Merge process
 author: Tony Yates
-so.date: 04.17.2018
+date: 04.17.2018
 keywords:
-so.topic: generic
-so.client: web
-so.envir: onsite
+topic: generic
+client: web
+envir: onsite
 ---
 
 # Merge process

@@ -3,9 +3,9 @@ title: Diary - OSQL
 uid: api_diary_osql
 description: Working with appointments via Objectified SQL.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: diary, calendar, appointment, API, OSQL
-so.topic: concept
+topic: concept
 ---
 
 # Diary - OSQL

@@ -4,9 +4,9 @@ uid: dbsetup_exe
 description: DBSetup.exe - Database maintenance
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # DBSetup.exe - Database maintenance

@@ -4,10 +4,10 @@ uid: activate_travel
 description: How to activate travel function
 author: {github-id}
 keywords:
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Activate travel

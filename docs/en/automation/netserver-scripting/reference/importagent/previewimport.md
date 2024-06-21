@@ -2,10 +2,10 @@
 uid: importagent-previewimport
 title: ImportAgent.PreviewImport event method
 description: Scripting events called on the PreviewImport method on the ImportAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ImportAgent.PreviewImport
 

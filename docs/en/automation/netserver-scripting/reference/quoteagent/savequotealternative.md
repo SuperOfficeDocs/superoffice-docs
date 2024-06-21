@@ -2,10 +2,10 @@
 uid: quoteagent-savequotealternative
 title: QuoteAgent.SaveQuoteAlternative event method
 description: Scripting events called on the SaveQuoteAlternative method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.SaveQuoteAlternative
 

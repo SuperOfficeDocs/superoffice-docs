@@ -3,12 +3,12 @@ uid: mobile-crm-intro
 title: Mobile CRM - Access your CRM on the go
 description: In this how-to guide, you will learn how to get started with SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobile, pocket
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Mobile CRM: Access your CRM on the go

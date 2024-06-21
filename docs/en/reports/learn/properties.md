@@ -3,9 +3,9 @@ uid: help-en-report-properties
 title: Showing report properties
 description: Showing report properties
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

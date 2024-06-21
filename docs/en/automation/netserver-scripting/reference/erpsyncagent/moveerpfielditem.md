@@ -2,10 +2,10 @@
 uid: erpsyncagent-moveerpfielditem
 title: ErpSyncAgent.MoveErpFieldItem event method
 description: Scripting events called on the MoveErpFieldItem method on the ErpSyncAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ErpSyncAgent.MoveErpFieldItem
 

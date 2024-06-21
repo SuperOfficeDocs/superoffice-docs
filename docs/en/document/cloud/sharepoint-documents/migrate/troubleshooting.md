@@ -3,12 +3,12 @@ title: Troubleshooting
 uid: sharepoint-documents-migration-trouble
 description: Tips for troubleshooting a SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
-so.topic: howto
-so.version:
-so.envir: cloud
-so.client: online
+topic: howto
+version:
+envir: cloud
+client: online
 ---
 
 # Troubleshooting

@@ -3,9 +3,9 @@ uid: crmscript_persons
 title: Persons
 description: How to work with persons in CRMScript.
 author: Bergfrid Dias
-so.date: 02.04.2022
+date: 02.04.2022
 keywords: person, contact, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Persons

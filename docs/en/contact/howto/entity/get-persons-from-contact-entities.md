@@ -3,11 +3,11 @@ title: Retrieve a list of people using entities
 uid: get_person_from_contact_entity
 description: How to retrieve a list of people using entities.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: person, contact, entity, API, PersonCollection
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Retrieve a list of people using entities

@@ -3,12 +3,12 @@ uid: configurable-screens
 title: Configurable screens
 description: Configurable screens
 author: Bergfrid Dias
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: ui, screen, customization
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Configurable screens

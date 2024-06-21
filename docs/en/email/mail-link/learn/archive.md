@@ -3,9 +3,9 @@ uid: help-en-mail-link-archive
 title: Archive emails to SuperOffice
 description: Archive emails to SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

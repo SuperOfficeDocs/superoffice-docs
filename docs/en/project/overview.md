@@ -3,11 +3,11 @@ title: Projects
 uid: project-overview
 description: Working with projects
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: project, project management
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Projects

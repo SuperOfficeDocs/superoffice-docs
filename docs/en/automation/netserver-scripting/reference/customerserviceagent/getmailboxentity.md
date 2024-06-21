@@ -2,10 +2,10 @@
 uid: customerserviceagent-getmailboxentity
 title: CustomerServiceAgent.GetMailboxEntity event method
 description: Scripting events called on the GetMailboxEntity method on the CustomerServiceAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CustomerServiceAgent.GetMailboxEntity
 

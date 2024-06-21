@@ -4,9 +4,9 @@ uid: deploy_webtools
 description: WebTools deployment in a restricted environment
 author: {github-id}
 keywords: WebTools
-so.topic: howto
-so.envir: onsite
-so.client:
+topic: howto
+envir: onsite
+client:
 ---
 
 # WebTools deployment in a restricted environment

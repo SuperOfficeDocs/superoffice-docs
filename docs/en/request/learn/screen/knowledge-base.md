@@ -3,11 +3,11 @@ uid: help-en-knowledge-base
 title: Knowledge Base
 description: Knowledge Base
 author: Kirsti Aakerholt
-so.date: 07.05.2023
+date: 07.05.2023
 keywords: request, knowledge base, service, faq, reply template, external documents, email addresses, e-mail
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

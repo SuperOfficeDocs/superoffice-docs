@@ -3,9 +3,9 @@ uid: help-en-project-screen-activities
 title: Activities tab
 description: The Activities tab in the Project screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: reference
+topic: reference
 language: en
 ---
 

@@ -4,13 +4,13 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: reference
+date: 06.11.2024
+version: 10.3.7
+topic: reference
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Step settings

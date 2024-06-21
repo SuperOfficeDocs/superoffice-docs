@@ -3,9 +3,9 @@ uid: crmscript-get-address
 title: Get address info
 description: How to get address info with CRMScript.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address, NSLocalizedField
-so.topic: howto
+topic: howto
 ---
 
 # Get address info

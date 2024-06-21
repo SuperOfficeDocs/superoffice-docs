@@ -3,9 +3,9 @@ uid: help-en-visibility
 title: Visibility
 description: Visibility
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: visibility, user, role, available
-so.topic: concept
+topic: concept
 language: en
 ---
 

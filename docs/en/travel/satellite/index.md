@@ -3,9 +3,9 @@ title: Satellite overview
 description: Overview of the satellite function
 author: {github-id}
 keywords: tavel
-so.topic: concept
-so.envir: onsite
-so.client: win
+topic: concept
+envir: onsite
+client: win
 ---
 
 # Satellite

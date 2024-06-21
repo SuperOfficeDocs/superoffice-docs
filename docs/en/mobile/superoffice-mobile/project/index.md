@@ -3,12 +3,12 @@ uid: mobile-crm-project
 title: Project
 description: Learn about working with projects in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.26.2023
+date: 07.26.2023
 keywords: mobile, project
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Project ![icon][img5]

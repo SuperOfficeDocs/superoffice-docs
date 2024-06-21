@@ -2,10 +2,10 @@
 uid: personagent-createorupdateusercandidate
 title: PersonAgent.CreateOrUpdateUserCandidate event method
 description: Scripting events called on the CreateOrUpdateUserCandidate method on the PersonAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PersonAgent.CreateOrUpdateUserCandidate
 

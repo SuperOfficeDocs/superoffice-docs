@@ -2,10 +2,10 @@
 title: Event model
 uid: event_model
 description: CRMScript event model
-so.author:
-so.date:
+author:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # CRMScript event model

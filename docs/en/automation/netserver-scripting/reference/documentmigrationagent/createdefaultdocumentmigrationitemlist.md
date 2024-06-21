@@ -2,10 +2,10 @@
 uid: documentmigrationagent-createdefaultdocumentmigrationitemlist
 title: DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList event method
 description: Scripting events called on the CreateDefaultDocumentMigrationItemList method on the DocumentMigrationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
 

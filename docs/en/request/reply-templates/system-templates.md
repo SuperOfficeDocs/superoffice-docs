@@ -3,9 +3,9 @@ title: System templates
 uid: system-templates
 description: System reply templates
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: reply template, variable, parser, Service
-so.topic: reference
+topic: reference
 ---
 
 # System templates

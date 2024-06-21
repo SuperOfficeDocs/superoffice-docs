@@ -5,13 +5,13 @@
 uid: helper_functions_for_logging       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 title: Logging in CRMScript # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tor Thorbergsen
-so.date: 01.11.2018
+date: 01.11.2018
 keywords:
-so.topic: howto          # article, howto, reference, concept, guide
+topic: howto          # article, howto, reference, concept, guide
 
 # Optional fields. Don't forget to remove # if you need a field.
-so.envir:            # cloud or onsite
-so.client:                # online, web, win, pocket, or mobile
+envir:            # cloud or onsite
+client:                # online, web, win, pocket, or mobile
 ---
 
 # Logging in CRMScript

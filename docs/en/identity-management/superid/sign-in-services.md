@@ -4,10 +4,10 @@ uid: sign_in_services
 description: "Learn about SuperOffice sign-in services."
 author: Bergfrid Dias
 keywords: SuperID, sign-in, user account
-so.date: 02.02.2022
-so.topic: concept
-so.envir: cloud
-so.client: online
+date: 02.02.2022
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Sign-in services

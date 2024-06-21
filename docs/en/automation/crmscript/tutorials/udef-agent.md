@@ -2,9 +2,9 @@
 uid: crmscript_udef_tutorial
 title: User-defined fields
 author:
-so.date:
+date:
 keywords: udefagent,crmscript
-so.topic: tutorial
+topic: tutorial
 ---
 
 # NSUserDefinedFieldInfoAgent

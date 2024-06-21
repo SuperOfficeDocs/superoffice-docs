@@ -2,10 +2,10 @@
 uid: replicationagent-getarea
 title: ReplicationAgent.GetArea event method
 description: Scripting events called on the GetArea method on the ReplicationAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ReplicationAgent.GetArea
 

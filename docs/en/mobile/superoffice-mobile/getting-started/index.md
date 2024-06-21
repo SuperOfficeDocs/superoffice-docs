@@ -3,12 +3,12 @@ uid: mobile-crm-get-started
 title: Getting started
 description: How to get started with SuperOffice Mobile CRM and learn the user interface.
 author: Bergfrid Dias
-so.date: 07.24.2023
+date: 07.24.2023
 keywords: mobile
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Getting started

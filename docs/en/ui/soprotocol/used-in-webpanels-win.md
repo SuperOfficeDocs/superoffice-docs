@@ -3,9 +3,9 @@ title: SOProtocol and web panels
 uid: so_protocol_webpanel_win
 description: SoProtocol and web panels - win
 author:
-so.date:
+date:
 keywords: soprotocol, deeplinking, web panel
-so.topic: reference
+topic: reference
 ---
 
 # SOProtocol and web panels

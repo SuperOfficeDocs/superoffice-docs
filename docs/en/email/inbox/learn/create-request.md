@@ -3,9 +3,9 @@ uid: help-en-create-request
 title: Create request
 description: Create request
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: email
-so.topic: help
+topic: help
 language: en
 ---
 

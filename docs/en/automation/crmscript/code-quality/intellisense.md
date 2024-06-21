@@ -2,9 +2,9 @@
 uid: crmscript_intellisense
 title: CRMScript intellisense
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # CRMScript intellisense

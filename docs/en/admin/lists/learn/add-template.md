@@ -3,11 +3,11 @@ uid: help-en-add-template
 title: Add a template
 description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: document, template
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

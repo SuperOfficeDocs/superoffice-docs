@@ -3,9 +3,9 @@ title: ContactAddress
 uid: row_sample_contactaddress
 description: SuperOffice database ContactAddress
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: address, ContactRow, AddressRow
-so.topic: howto
+topic: howto
 ---
 
 # ContactAddress

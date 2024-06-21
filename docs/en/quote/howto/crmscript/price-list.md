@@ -3,9 +3,9 @@ uid: crmscript-price-list
 title: Price lists
 description: How to work with price lists in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: sale, quote, product, price list, QuoteAgent
-so.topic: howto
+topic: howto
 ---
 
 # Price lists

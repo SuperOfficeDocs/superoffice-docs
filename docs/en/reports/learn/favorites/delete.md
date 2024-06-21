@@ -3,9 +3,9 @@ uid: help-en-report-fav-delete
 title: Deleting favourite reports
 description: Deleting favourite reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

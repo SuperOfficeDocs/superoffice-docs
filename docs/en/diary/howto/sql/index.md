@@ -3,9 +3,9 @@ title: Diary - raw SQL
 uid: api_diary_sql
 description: Working with appointments in raw SQL.
 author: Bergfrid Skaara Dias
-so.date: 03.02.2022
+date: 03.02.2022
 keywords: diary, calendar, appointment, API
-so.topic: howto
+topic: howto
 ---
 
 # Diary - raw SQL

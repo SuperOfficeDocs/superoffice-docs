@@ -3,11 +3,11 @@ title: Get a contact through the services layer
 uid: get_contact_services_layer
 description: How to get a Contact through Services layer.
 author: {github-id}
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, services, API, api-services, ContactAgent
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Get a contact through the services layer

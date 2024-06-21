@@ -3,10 +3,10 @@ uid: help-en-diary-group-view
 title: Group view
 description: The Group view; How to creating diary views; The New group view dialog
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+date: 11.20.2023
+version: 10.2.11
 keywords: diary, follow-up, group view
-so.topic: howto
+topic: howto
 language: en
 ---
 

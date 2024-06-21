@@ -3,9 +3,9 @@ uid: help-en-selection-create
 title: Create selection
 description: Work with dynamic and static selections
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

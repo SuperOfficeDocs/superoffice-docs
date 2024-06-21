@@ -3,11 +3,11 @@ uid: help-en-request-find
 title: Find a request
 description: In this how-to guide you will learn how to find requests in SuperOffice
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: request, search, find
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

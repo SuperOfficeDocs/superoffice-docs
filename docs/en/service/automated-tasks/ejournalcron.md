@@ -4,9 +4,9 @@ uid: automated_task_ejournalcron
 description: Automated tasks in Service - ejournalCron
 author: {github-id}
 keywords: service
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # ejournalCron

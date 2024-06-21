@@ -4,7 +4,7 @@ uid: pref_associates
 description: Preference section Associates
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Associates

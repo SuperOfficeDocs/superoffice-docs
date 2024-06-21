@@ -3,9 +3,9 @@ title: Select Message
 uid: blogic_select_message
 description: Select Message
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select Message

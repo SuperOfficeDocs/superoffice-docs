@@ -2,10 +2,10 @@
 uid: crmscriptagent-deletecrmscriptbyuniqueidentifier
 title: CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier event method
 description: Scripting events called on the DeleteCRMScriptByUniqueIdentifier method on the CRMScriptAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
 

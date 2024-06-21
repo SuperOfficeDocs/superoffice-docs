@@ -4,12 +4,12 @@ title: How to add your Google Analytics tag to a mailing
 description: In this how-to guide, you will learn how to track your visitors.
 keywords: Marketing, Google Analytics, mailing
 author: Bergfrid Dias
-so.date: 02.20.2024
-so.version: 10
-so.topic: howto
+date: 02.20.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # How to add your Google Analytics tag to a mailing

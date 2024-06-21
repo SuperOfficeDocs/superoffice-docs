@@ -3,9 +3,9 @@ uid: help-en-erp-tab
 title: ERP tab
 description: ERP tab
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: ERP
-so.topic: reference
+topic: reference
 language: en
 ---
 

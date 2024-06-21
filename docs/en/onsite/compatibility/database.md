@@ -3,11 +3,11 @@ title: Tested databases
 uid: tested_databases
 description: Tested databases
 author: {github-id}
-so.date: 09.12.2023
+date: 09.12.2023
 keywords:
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Databases supported by SuperOffice CRM

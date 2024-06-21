@@ -3,11 +3,11 @@ title: Rights system
 uid: pb_usercontrols_rights
 description: Rights system and controls ControlBase
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: sentry
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Rights system

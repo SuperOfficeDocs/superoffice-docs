@@ -3,9 +3,9 @@ uid: help-en-generate-personal-data-report
 title: Generate personal data report
 description: Generate personal data report
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: company
-so.topic: howto
+topic: howto
 language: en
 ---
 

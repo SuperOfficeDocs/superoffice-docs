@@ -3,11 +3,11 @@ uid: help-en-automation-folder-create
 title: Macro/script folder properties
 description: Macro/script folder properties
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service, folder
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

@@ -3,9 +3,9 @@ title: Show recipients
 uid: blogic_show_recipients
 description: Show recipients
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Show recipients

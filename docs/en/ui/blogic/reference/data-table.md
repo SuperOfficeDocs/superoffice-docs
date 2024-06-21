@@ -3,9 +3,9 @@ title: Data table
 uid: blogic_data_table
 description: Data table
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Data table

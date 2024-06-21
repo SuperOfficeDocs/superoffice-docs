@@ -3,9 +3,9 @@ uid: help-en-stakeholder-create
 title: Create a stakeholder
 description: How to link a sale to a stakeholder (company or contact) in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale
-so.topic: howto
+topic: howto
 language: en
 ---
 

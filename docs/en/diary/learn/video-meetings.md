@@ -3,10 +3,10 @@ uid: help-en-video-meetings
 title: Work with video meetings
 description: Learn how to create and join a video meeting in SuperOffice here.
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: diary, follow-up, video meeting
-so.topic: howto
+topic: howto
 language: en
 ---
 

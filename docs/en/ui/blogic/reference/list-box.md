@@ -3,9 +3,9 @@ title: List box
 uid: blogic_listbox
 description: List box
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # List box

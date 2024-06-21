@@ -3,9 +3,9 @@ title: Edit entity menu
 uid: blogic_edit_entity_menu
 description: Edit entity menu
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Edit entity menu

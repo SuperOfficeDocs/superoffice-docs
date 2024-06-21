@@ -3,12 +3,12 @@ uid: mobile-crm-document-create
 title: Create document
 description: How to create a document in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.07.2023
+date: 08.07.2023
 keywords: mobile, document, image, SharePoint
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Create document

@@ -5,9 +5,9 @@ description: Set the LocalizedAddress
 author: Tony Yates
 so-date: 05.15.2017
 keywords: globalization, address
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Set LocalizedAddress

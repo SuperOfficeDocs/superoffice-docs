@@ -4,10 +4,10 @@ title: Debug Web client
 description: Debug Web client
 keywords: debug, Product Configurator, SoAppConfig.exe
 author: Bergfrid Dias, Martin Pavlas
-so.date: 05.21.2024
-so.topic: howto
-so.envir: onsite
-so.client: web
+date: 05.21.2024
+topic: howto
+envir: onsite
+client: web
 ---
 
 # Debug Web client

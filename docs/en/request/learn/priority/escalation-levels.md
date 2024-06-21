@@ -3,9 +3,9 @@ uid: help-en-request-escalation
 title: Escalation levels
 description: Escalation levels
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: request, priority, escalate
-so.topic: howto
+topic: howto
 language: en
 ---
 

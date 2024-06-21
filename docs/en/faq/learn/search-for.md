@@ -3,11 +3,11 @@ uid: help-en-faq-search-for
 title: Search for FAQ entries
 description: Search for FAQ entries
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

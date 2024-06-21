@@ -3,9 +3,9 @@ uid: help-en-project-screen-tab-guide
 title: Project guide section tab
 description: Project guide section tab
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, guide
-so.topic: reference
+topic: reference
 language: en
 ---
 

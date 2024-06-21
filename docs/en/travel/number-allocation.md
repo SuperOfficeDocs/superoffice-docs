@@ -4,10 +4,10 @@ title: Travel number allocation
 description: Travel number allocation
 author: {github-id}
 keywords:
-so.date:
-so.topic: concept
-so.envir: onsite
-so.client: win
+date:
+topic: concept
+envir: onsite
+client: win
 ---
 
 # Travel number allocation

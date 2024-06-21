@@ -2,9 +2,9 @@
 uid: crmscript_doc_files
 title: Document files
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Document files

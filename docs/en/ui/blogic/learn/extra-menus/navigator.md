@@ -3,11 +3,11 @@ uid: help-en-ui-extra-menu-navigator
 title: Add navigator group and extra menu
 description: Add navigator group and extra menu
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: navigator group
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

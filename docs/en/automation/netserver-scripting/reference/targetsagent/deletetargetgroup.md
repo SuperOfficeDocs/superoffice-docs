@@ -2,10 +2,10 @@
 uid: targetsagent-deletetargetgroup
 title: TargetsAgent.DeleteTargetGroup event method
 description: Scripting events called on the DeleteTargetGroup method on the TargetsAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TargetsAgent.DeleteTargetGroup
 

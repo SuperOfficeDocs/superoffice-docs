@@ -4,12 +4,12 @@ title: Spam complaints
 description: Spam complaints
 keywords: Marketing, mailing, recipient, subscriber, spam, junk, complaint, suppressed
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: concept
+date: 02.09.2024
+version: 10
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Spam complaints

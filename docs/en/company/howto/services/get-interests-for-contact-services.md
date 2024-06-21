@@ -3,11 +3,11 @@ title: How to list all selected interests
 uid: list_contact_interests_ws
 description: How to list all selected interests for a contact using services
 author: {github-id}
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, services, API, interest, ContactAgent, SelectableMDOListItem
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to list all selected interests for a contact (services)

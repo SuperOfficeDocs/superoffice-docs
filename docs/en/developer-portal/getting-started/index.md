@@ -3,11 +3,11 @@ title: Building apps for SuperOffice
 uid: apps-get-started
 description: Getting started building apps for SuperOffice
 author: Bergfrid Dias
-so.date: 09.14.2023
+date: 09.14.2023
 keywords: developer, app, application, extensibility, integration point, authorization
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 --- 
 
 # Building apps for SuperOffice

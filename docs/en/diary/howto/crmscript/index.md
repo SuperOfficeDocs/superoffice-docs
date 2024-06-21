@@ -3,9 +3,9 @@ uid: crmscript_followups
 title: Calendar and todo list
 description: Working with the SuperOffice diary and follow-ups in CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointment, follow-up
-so.topic: concept
+topic: concept
 ---
 
 # Calendar and todo list

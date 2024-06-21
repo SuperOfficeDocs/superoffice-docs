@@ -4,7 +4,7 @@ uid: add_user_preferences
 description: Add your own user preferences
 author: {github-id}
 keywords: database
-so.topic: howto
+topic: howto
 ---
 
 # Add your own preferences

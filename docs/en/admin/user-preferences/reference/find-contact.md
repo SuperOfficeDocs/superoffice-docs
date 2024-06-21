@@ -4,7 +4,7 @@ uid: pref_findcontact
 description: Preference section FindContact
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section FindContact

@@ -3,9 +3,9 @@ uid: crmscript-quote-update
 title: Update quote
 description: How to update or delete a quote with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: CRMScript, quotes
-so.topic: howto
+topic: howto
 ---
 
 # Update quote

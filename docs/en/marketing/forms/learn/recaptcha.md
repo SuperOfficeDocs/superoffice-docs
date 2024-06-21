@@ -4,12 +4,12 @@ title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
 keywords: reCAPTCHA, reCAPTCHA profile, form, Google reCAPTCHA, I'm not a robot, site key, secret key
 author: Bergfrid Dias
-so.date: 03.05.2024
-so.version: 8.5 R04
-so.topic: howto
+date: 03.05.2024
+version: 8.5 R04
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Google reCAPTCHA in Forms

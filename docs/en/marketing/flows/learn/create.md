@@ -4,13 +4,13 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Create a new flow

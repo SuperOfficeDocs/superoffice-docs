@@ -3,9 +3,9 @@ uid: associate-employees
 title: Employees (internal)
 description: The associate database table represents employees, resources, and other users - except for external persons.
 author: Bergfrid Skaara Dias
-so.date: 15.02.2021
+date: 15.02.2021
 keywords: associate, employee
-so.topic: concept
+topic: concept
 ---
 
 # Employees (internal)

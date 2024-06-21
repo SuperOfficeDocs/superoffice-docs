@@ -3,12 +3,12 @@ title: Add a user
 uid: dp-add-user
 description: How to add a user in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.01.2022
+date: 06.01.2022
 keywords: Developer Portal, user, access
-so.topic: howto
-so.version:
-so.envir: cloud
-so.client: online
+topic: howto
+version:
+envir: cloud
+client: online
 ---
 <!-- markdownlint-disable-file MD051 -->
 

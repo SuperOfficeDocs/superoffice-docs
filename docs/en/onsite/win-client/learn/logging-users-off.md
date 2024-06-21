@@ -3,9 +3,9 @@ uid: help-en-logging-users-off
 title: Logging users off
 description: Logging users off
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance, user
-so.topic: help
+topic: help
 language: en
 ---
 

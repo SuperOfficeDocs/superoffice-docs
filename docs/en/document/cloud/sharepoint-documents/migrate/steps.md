@@ -3,12 +3,12 @@ title: Migration guide
 uid: sharepoint-documents-migration-steps
 description: SharePoint document migration - How to move documents from a previously used library.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 08.18.2023
+date: 08.18.2023
 keywords: SharePoint, document
-so.topic: howto
-so.version:
-so.envir: cloud
-so.client: online
+topic: howto
+version:
+envir: cloud
+client: online
 ---
 
 # Migration guide

@@ -3,11 +3,11 @@ title: Configure
 uid: configure_pocket_onsite
 description: Pocket CRM config
 author: {github-id}
-so.date: 12.08.2021
+date: 12.08.2021
 keywords: Pocket CRM, NetServer, config
-so.topic: howto
-so.envir: onsite
-so.client: pocket
+topic: howto
+envir: onsite
+client: pocket
 ---
 
 # Pocket CRM configuration

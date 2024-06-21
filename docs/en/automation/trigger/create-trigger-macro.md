@@ -3,9 +3,9 @@ title: Creating a trigger - Macro
 uid: create_trigger_macro
 description: Creating a trigger - Macro
 author: Simen Mostuen Iversen
-so.date: 06.06.2019
+date: 06.06.2019
 keywords: automation
-so.topic: howto
+topic: howto
 ---
 
 # Creating a trigger :: Macro

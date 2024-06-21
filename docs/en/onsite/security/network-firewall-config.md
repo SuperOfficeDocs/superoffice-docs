@@ -4,9 +4,9 @@ uid: network_and_firewall_config
 description: Network and firewall configuration for SuperOffice onsite
 author: {github-id}
 keywords: security
-so.topic:
-so.envir: onsite
-so.client: web
+topic:
+envir: onsite
+client: web
 ---
 
 # Network and firewall configuration

@@ -3,11 +3,11 @@ uid: help-en-favourites
 title: Favourites
 description: Favourites
 author: Kirsti Aakerholt
-so.date: 06.28.2023
+date: 06.28.2023
 keywords: favourites
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-automation-script-create
 title: Create a script
 description: Create a script
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: script, macro
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-task-menu-add
 title: Add items to the Task menu list
 description: Add items to the Task menu list
 author: SuperOffice RnD
-so.date: 01.11.2023
+date: 01.11.2023
 keywords: Settings and maintenance
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

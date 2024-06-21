@@ -3,9 +3,9 @@ title: SOProtocol and web panels - web
 uid: soprotocol-webpanel-web
 description: SoProtocol and web panels - web
 author:
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: soprotocol, deeplinking, web panel, crossmessaging, window.postMessage
-so.topic: reference
+topic: reference
 ---
 
 # SOProtocol and web panels - web

@@ -3,9 +3,9 @@ title: Web panels
 uid: web_panels
 description: Web panels
 author:
-so.date:
+date:
 keywords: ui
-so.topic: concept
+topic: concept
 ---
 
 # Web panels

@@ -2,10 +2,10 @@
 uid: emailagent-savedraft
 title: EMailAgent.SaveDraft event method
 description: Scripting events called on the SaveDraft method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.SaveDraft
 

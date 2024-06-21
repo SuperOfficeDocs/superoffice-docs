@@ -4,9 +4,9 @@ uid: upgrade_win_client_to_8
 description: Upgrade Windows client
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+envir: onsite
+client: win
 ---
 
 # How to upgrade SuperOffice 7 Windows clients to SuperOffice 8 Windows App

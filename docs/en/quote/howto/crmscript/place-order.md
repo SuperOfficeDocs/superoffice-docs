@@ -3,9 +3,9 @@ uid: crmscript-quote-order
 title: Place order
 description: Create order based on quote version
 author: Bergfrid Dias
-so.date: 06.12.2023
+date: 06.12.2023
 keywords: quote, sale, order, QuoteAgent
-so.topic: howto
+topic: howto
 ---
 
 # Place order

@@ -2,9 +2,9 @@
 title: Information hinting
 description: Information hinting
 author: Christian Mogensen
-so.date: 12.09.2011
+date: 12.09.2011
 keywords: design,ui
-so.topic: concept
+topic: concept
 ---
 
 # Information hinting

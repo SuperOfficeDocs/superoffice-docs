@@ -3,9 +3,9 @@ title: Parser code
 uid: blogic_parser_code
 description: Parser code
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Parser code

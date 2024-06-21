@@ -3,9 +3,9 @@ uid: help-en-selection-delete
 title: Deleting selections
 description: Deleting selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: en
 ---
 

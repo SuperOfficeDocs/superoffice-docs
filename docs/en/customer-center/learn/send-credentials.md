@@ -3,9 +3,9 @@ uid: help-en-customer-center-send-credentials
 title: Send passwords to contacts
 description: Send passwords to contacts
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center
-so.topic: howto
+topic: howto
 language: en
 ---
 

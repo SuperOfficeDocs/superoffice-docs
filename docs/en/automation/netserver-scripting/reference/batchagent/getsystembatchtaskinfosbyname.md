@@ -2,10 +2,10 @@
 uid: batchagent-getsystembatchtaskinfosbyname
 title: BatchAgent.GetSystemBatchTaskInfosByName event method
 description: Scripting events called on the GetSystemBatchTaskInfosByName method on the BatchAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # BatchAgent.GetSystemBatchTaskInfosByName
 

@@ -3,11 +3,11 @@ title: Object mapping files
 uid: pagebuilder_config_objectmapping
 description: Object mapping config files SoObjectMapping.config
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: config
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Object mapping files

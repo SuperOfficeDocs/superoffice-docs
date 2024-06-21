@@ -2,10 +2,10 @@
 uid: quoteagent-testconnection
 title: QuoteAgent.TestConnection event method
 description: Scripting events called on the TestConnection method on the QuoteAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # QuoteAgent.TestConnection
 

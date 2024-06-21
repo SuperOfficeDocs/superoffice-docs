@@ -3,11 +3,11 @@ uid: api_scenario_win
 title: Integration in the Windows client
 description: Integration in the Windows client
 author: Tony Yates
-so.date: 11.25.2021
+date: 11.25.2021
 keywords: api, integration point, Windows
-so.topic: reference
-so.envir: onsite
-so.client: win
+topic: reference
+envir: onsite
+client: win
 ---
 
 # Integration scenarios: Window client

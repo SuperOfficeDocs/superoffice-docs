@@ -3,9 +3,9 @@ uid: help-en-section-tabs-configure
 title: Changing the column view
 description: Changing the column view
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: section tab, archive, column
-so.topic: howto
+topic: howto
 language: en
 ---
 

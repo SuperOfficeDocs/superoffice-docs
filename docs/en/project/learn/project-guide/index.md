@@ -3,9 +3,9 @@ uid: help-en-project-guide
 title: Project guide
 description: Introduction to project guides in SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: project, guide, workflow
-so.topic: concept
+topic: concept
 language: en
 ---
 

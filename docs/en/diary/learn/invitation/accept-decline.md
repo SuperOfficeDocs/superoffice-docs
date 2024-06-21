@@ -3,10 +3,10 @@ uid: help-en-invitation-accept
 title: Follow-ups you are invited to
 description: Show follow-ups you are invited to; accept or decline an invitation
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: diary, follow-up, invitation
-so.topic: howto
+topic: howto
 language: en
 ---
 

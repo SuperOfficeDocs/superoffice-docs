@@ -4,9 +4,9 @@ uid: start_certification
 description: Submit standard app for certification
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Submit standard app for certification

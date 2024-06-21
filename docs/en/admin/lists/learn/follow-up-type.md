@@ -3,9 +3,9 @@ uid: help-en-follow-up-type
 title: Follow-up - Type
 description: Follow-up - Type
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: reference
+topic: reference
 language: en
 ---
 

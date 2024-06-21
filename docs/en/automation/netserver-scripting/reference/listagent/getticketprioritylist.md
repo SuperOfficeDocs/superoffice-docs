@@ -2,10 +2,10 @@
 uid: listagent-getticketprioritylist
 title: ListAgent.GetTicketPriorityList event method
 description: Scripting events called on the GetTicketPriorityList method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetTicketPriorityList
 

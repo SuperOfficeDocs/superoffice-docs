@@ -3,12 +3,12 @@ title: Document template types
 uid: document_template_types
 description: Supported document template types
 author: {github-id} # Your GitHub alias.
-so.date: 09.06.2022
+date: 09.06.2022
 keywords: template office type odf
-so.topic: howto
-so.version:
-so.envir:
-so.client:
+topic: howto
+version:
+envir:
+client:
 ---
 
 # Document template types

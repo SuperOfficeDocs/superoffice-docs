@@ -3,11 +3,11 @@ title: App Store
 uid: app-store
 description: The SuperOffice App Store marketplace - what it is and how to get noticed
 author: Bergfrid Dias
-so.date: 09.08.2023
+date: 09.08.2023
 keywords: buy, app details, partner profile
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # The App Store marketplace

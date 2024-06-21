@@ -3,9 +3,9 @@ uid: help-en-google-workspace
 title: Enable Google Workspace integration
 description: The free Google Workspace integration app for documents enables you to work effortlessly with documents from SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: document, Google
-so.topic: concept
+topic: concept
 language: en
 ---
 

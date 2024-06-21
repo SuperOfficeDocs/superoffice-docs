@@ -3,9 +3,9 @@ uid: crmscript-trigger-outbox-tutorial
 title: Trigger for outbox
 description: How to use a trigger for the outbox
 author: hjelms
-so.date: 10.20.2023
+date: 10.20.2023
 keywords: CRMScript
-so.topic: tutorial
+topic: tutorial
 ---
 
 <!-- markdownlint-disable-file MD044 -->

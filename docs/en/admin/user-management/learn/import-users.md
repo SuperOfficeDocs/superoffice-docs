@@ -3,14 +3,14 @@ uid: help-en-user-import
 title: Import users
 description: Import users from Active Directory
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, import, associate, Active Directory, bulk
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Import users

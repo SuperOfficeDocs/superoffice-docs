@@ -4,8 +4,8 @@ uid: services_soap_interface
 description: Services SOAP interface
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: concept
+date: 01.25.2021
+topic: concept
 --- 
 
 # Services SOAP interface

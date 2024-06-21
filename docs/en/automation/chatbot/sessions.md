@@ -2,9 +2,9 @@
 uid: chatbot_sessions
 title: Chatbot Session Scripts
 author: christianm
-so.date: 03.08.2021
+date: 03.08.2021
 keywords: chatbot, ai
-so.topic: concept
+topic: concept
 ---
 
 # Chat sessions

@@ -3,9 +3,9 @@ title: Select DateTime
 uid: blogic_select_datetime
 description: Select DateTime
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select DateTime

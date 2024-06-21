@@ -3,11 +3,11 @@ title: Documents migration
 uid: document-migrate-to-online
 description: Understanding document migration
 author: Martin Pavlas
-so.date: 10.18.2023
+date: 10.18.2023
 keywords: migrate, document
-so.topic: guide
-so.envir: onsite, online
-# so.client:
+topic: guide
+envir: onsite, online
+# client:
 ---
 # Understanding document migration: reasons why some documents may not be migrated
 

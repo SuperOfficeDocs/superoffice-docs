@@ -3,9 +3,9 @@ title: Radio buttons
 uid: blogic_radiobuttons
 description: Radio buttons
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Radio buttons

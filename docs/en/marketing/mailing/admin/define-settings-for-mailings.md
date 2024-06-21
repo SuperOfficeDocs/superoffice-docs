@@ -4,13 +4,13 @@ title: Define settings for mailings
 description: Define settings for mailings
 keywords: Marketing, mailing, sms, settings
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: en
-so.envir: onsite
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+envir: onsite
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Define settings for mailings

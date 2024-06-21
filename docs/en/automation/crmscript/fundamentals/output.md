@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_write_output
 title: Write output
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Write output

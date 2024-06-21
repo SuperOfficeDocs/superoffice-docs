@@ -3,8 +3,8 @@ title: Culture Helper
 uid: globalization_culturesettinghelper
 description: CultureSettingHelper class
 author: {github-id}
-so.date: 05.08.2018
-so.topic: concept
+date: 05.08.2018
+topic: concept
 keywords:
 ---
 

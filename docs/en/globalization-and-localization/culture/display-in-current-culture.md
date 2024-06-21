@@ -3,11 +3,11 @@ title: Display values in current culture
 uid: display_in_current_culture
 description: How to display values in current culture
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Display values in current culture

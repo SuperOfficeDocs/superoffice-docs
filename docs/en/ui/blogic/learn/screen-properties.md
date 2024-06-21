@@ -3,9 +3,9 @@ uid: help-en-service-screen-properties
 title: Screen properties
 description: Screen properties
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: screen
-so.topic: reference
+topic: reference
 language: en
 ---
 

@@ -3,10 +3,10 @@ uid: help-en-licenses
 title: CRM and licences
 description: CRM and licences
 author: SuperOffice RnD
-so.date: 04.23.2024
-so.version: 10.3.5
+date: 04.23.2024
+version: 10.3.5
 keywords: license, licence, user plan, Windows
-so.topic: concept
+topic: concept
 language: en
 ---
 

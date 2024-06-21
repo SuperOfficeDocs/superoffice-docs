@@ -3,11 +3,11 @@ title: Add project
 uid: project-create-sql
 description: How to add and examine projects in API with raw SQL.
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: project, SQL, API, project_number
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Adding a project

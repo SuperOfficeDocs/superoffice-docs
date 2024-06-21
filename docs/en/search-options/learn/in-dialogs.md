@@ -3,9 +3,9 @@ uid: help-en-fastsearcher-dialog
 title: FastSearcher in dialogs
 description: How to use FastSearcher in dialogs in SuperOffice
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: search, FastSearcher, dialog
-so.topic: howto
+topic: howto
 language: en
 ---
 

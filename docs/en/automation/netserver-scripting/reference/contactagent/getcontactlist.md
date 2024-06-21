@@ -2,10 +2,10 @@
 uid: contactagent-getcontactlist
 title: ContactAgent.GetContactList event method
 description: Scripting events called on the GetContactList method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.GetContactList
 

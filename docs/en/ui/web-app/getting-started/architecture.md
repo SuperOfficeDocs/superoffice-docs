@@ -3,11 +3,11 @@ title: Web client architecture
 uid: webapp_architecture
 description: Web client architecture
 author: Tony Yates
-so.date: 04.17.2018
+date: 04.17.2018
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Web client architecture

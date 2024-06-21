@@ -3,9 +3,9 @@ uid: help-en-report-search-criteria-edit
 title: Edit search criteria in reports
 description: Edit search criteria in reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,9 +3,9 @@ uid: help-en-mail-link-archive-attachment
 title: Archive attachments
 description: If you would like to save an email attachment but not the email itself in SuperOffice CRM, you can archive the attachment as a document.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link, email, attachment
-so.topic: howto
+topic: howto
 language: en
 ---
 

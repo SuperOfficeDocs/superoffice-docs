@@ -3,9 +3,9 @@ uid: crmscript-sale-get
 title: Retrieve a sale
 description: How to retrieve a sale with CRMScript in SuperOffice
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, SaleAgent
-so.topic: howto
+topic: howto
 ---
 
 <!-- markdownlint-disable-file MD013 -->

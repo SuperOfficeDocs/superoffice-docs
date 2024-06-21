@@ -3,9 +3,9 @@ uid: help-en-dashboard-tile-delete
 title: Remove a tile
 description: Remove a tile from a dashboard
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: en
 ---
 

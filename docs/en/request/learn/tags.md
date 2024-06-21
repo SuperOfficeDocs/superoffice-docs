@@ -3,11 +3,11 @@ uid: help-en-request-tags
 title: Using tags in requests
 description: Learn how to create and edit request tags in this how-to guide.
 author: Bergfrid Dias
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: request
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

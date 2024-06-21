@@ -4,11 +4,11 @@ title: User plans
 description: SuperOffice user plans and subscriptions
 keywords: user plan, license, essential, premium
 author: Christian Mogensen, Bergfrid Dias
-so.date: 04.23.2024
-so.version: 10.3.5
-so.topic: concept
-so.envir: cloud
-so.client: online
+date: 04.23.2024
+version: 10.3.5
+topic: concept
+envir: cloud
+client: online
 ---
 
 # SuperOffice user plans and subscriptions

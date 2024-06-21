@@ -2,10 +2,10 @@
 uid: partneragent-resumewebpanel
 title: PartnerAgent.ResumeWebPanel event method
 description: Scripting events called on the ResumeWebPanel method on the PartnerAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # PartnerAgent.ResumeWebPanel
 

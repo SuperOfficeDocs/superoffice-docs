@@ -4,10 +4,10 @@ uid: schedule
 description: Schedule tasks for Travel gateway
 author: {github-id}
 keywords: schedule, Travel Gateway, SOTrvGate.exe, Signal.dat
-so.date: 12.17.2021
-so.topic: howto
-so.envir: onsite
-so.client: win
+date: 12.17.2021
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Schedule tasks for Travel gateway

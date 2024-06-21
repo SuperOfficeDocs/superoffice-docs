@@ -3,9 +3,9 @@ uid: address-howto-ws
 title: Address localization
 description: Working with addresses in web services.
 author: Bergfrid Dias
-so.date: 02.16.2022
+date: 02.16.2022
 keywords: address
-so.topic: howto
+topic: howto
 ---
 
 # Address - web services

@@ -4,9 +4,9 @@ uid: video_meeting_intro
 description: Video Meetings for SuperOffice
 author: {github-id}
 keywords: video meeting, template variable
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Video Meetings for SuperOffice

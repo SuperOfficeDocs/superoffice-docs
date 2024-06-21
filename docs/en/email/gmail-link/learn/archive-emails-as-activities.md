@@ -3,9 +3,9 @@ uid: help-en-gmail-link-archive-as-activity
 title: Archive email as activity
 description: Saving an email directly as a follow-up in your SuperOffice diary will ensure that you never forget to follow up on a customer or query. 
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: en
 ---
 

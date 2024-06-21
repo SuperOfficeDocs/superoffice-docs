@@ -2,10 +2,10 @@
 uid: useragent-setgeneratedpasswordfromname
 title: UserAgent.SetGeneratedPasswordFromName event method
 description: Scripting events called on the SetGeneratedPasswordFromName method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.SetGeneratedPasswordFromName
 

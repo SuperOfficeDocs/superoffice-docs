@@ -3,9 +3,9 @@ title: Category membership
 uid: blogic_category_membership
 description: Category membership
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Category membership

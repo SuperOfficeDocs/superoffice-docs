@@ -3,9 +3,9 @@ title: Select priority
 uid: blogic_select_priority
 description: Select priority
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Select priority

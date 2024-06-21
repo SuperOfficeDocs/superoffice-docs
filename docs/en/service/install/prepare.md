@@ -3,11 +3,11 @@ title: Prepare to install Service
 uid: prepare_service
 description: From SuperOffice 8 you also need to install Service. Here's what you need to do before you start the installation.
 author: {github-id}
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: install
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Prepare for Service

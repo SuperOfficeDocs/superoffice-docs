@@ -4,7 +4,7 @@ uid: pref_visual
 description: Preference section Visual
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Visual

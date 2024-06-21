@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_if_else
 title: Control - if else and else if
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Control - if else and else if

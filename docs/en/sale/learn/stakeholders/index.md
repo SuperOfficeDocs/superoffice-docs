@@ -3,9 +3,9 @@ uid: help-en-sale-stakeholders
 title: Stakeholders
 description: Stakeholders
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale, stakeholder
-so.topic: concept
+topic: concept
 language: en
 ---
 

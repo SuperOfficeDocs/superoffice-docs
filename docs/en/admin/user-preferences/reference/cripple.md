@@ -4,9 +4,9 @@ uid: pref_cripple
 description: Preference section Cripple
 author: {github-id}
 keywords: database
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
  
 # Preference section Cripple

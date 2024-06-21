@@ -3,9 +3,9 @@ uid: help-en-languages-add
 title: Work with customer languages
 description: Learn how to set up Customer languages in this how-to guide.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: language
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -3,11 +3,11 @@ uid: help-en-request-priority
 title: Request priorities
 description: Request priorities
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: request, priority
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

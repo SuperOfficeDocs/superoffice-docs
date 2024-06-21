@@ -3,11 +3,11 @@ uid: help-en-import-products-from-excel
 title: Import products from Excel
 description: In this how-to guide you will learn how you can import all your products, descriptions and product codes.
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: import, product, Excel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

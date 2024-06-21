@@ -3,11 +3,11 @@ title: How to edit a specific contact
 uid: sop_edit_contact
 description: How to edit a contact
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: soprotocol, deeplinking
-so.topic: howto
-so.client: web
-so.envir: onsite
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to edit a specific contact (obsolete from 10.0)

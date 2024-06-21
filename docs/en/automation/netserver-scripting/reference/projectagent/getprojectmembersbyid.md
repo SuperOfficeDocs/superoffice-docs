@@ -2,10 +2,10 @@
 uid: projectagent-getprojectmembersbyid
 title: ProjectAgent.GetProjectMembersById event method
 description: Scripting events called on the GetProjectMembersById method on the ProjectAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ProjectAgent.GetProjectMembersById
 

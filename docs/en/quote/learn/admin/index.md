@@ -3,11 +3,11 @@ uid: help-en-quote-admin
 title: Quote sync
 description: SuperOffice Quote helps you to create, validate, and manage quotes and orders across the entire order lifecycle.
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: quote, sync, sale
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

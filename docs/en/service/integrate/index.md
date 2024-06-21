@@ -3,11 +3,11 @@ uid: api_scenarios_cs
 title: Integration in the Service client
 description: Integration in the Service client
 author: Tony Yates
-so.date: 11.26.2021
+date: 11.26.2021
 keywords: API, integration point, Service
-so.topic: reference
-so.envir: cloud, onsite
-so.client: service
+topic: reference
+envir: cloud, onsite
+client: service
 ---
 
 # Integration scenarios: Service

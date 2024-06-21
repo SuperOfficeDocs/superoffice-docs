@@ -4,11 +4,11 @@ uid: set_up_sybase_travel
 description:  Sybase as Travel database
 author: {github-id}
 keywords: travel
-so.topic: howto
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+topic: howto
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Sybase as Travel database

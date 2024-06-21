@@ -3,9 +3,9 @@ uid: crmscript-request
 title: Working with requests in CRMScript
 description: In CRMScript, how to create and update requests; get ticket info; accept ticket; add message to ticket; reply; priority and escalation; delegate; postpone; split and merge; close; delete
 author: Bergfrid Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: request, ticket, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Working with requests in CRMScript

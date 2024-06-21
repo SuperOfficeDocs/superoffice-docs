@@ -3,13 +3,13 @@ uid: help-en-screen-designer
 title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
 author: SuperOffice RnD
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: screen designer
-so.topic: concept
+topic: concept
 language: en
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Screen designer

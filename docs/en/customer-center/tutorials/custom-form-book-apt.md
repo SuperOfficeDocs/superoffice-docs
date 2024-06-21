@@ -3,9 +3,9 @@ title: Custom form - book meeting
 uid: custom-form-book-meeting
 description: Custom form in Customer Centre to book a meeting
 author: {github-id}
-so.date: 09.15.2011
+date: 09.15.2011
 keywords: Customer Center, form
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Custom form - book meeting

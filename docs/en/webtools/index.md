@@ -4,8 +4,8 @@ uid: webtools
 description: Introduction to SuperOffice WebTools
 author: Hans Oluf Waaler
 keywords: WebTools
-so.topic: concept
-so.date: 10.13.2016
+topic: concept
+date: 10.13.2016
 ---
 
 # SuperOffice WebTools

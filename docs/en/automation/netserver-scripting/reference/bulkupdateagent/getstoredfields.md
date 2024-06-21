@@ -2,10 +2,10 @@
 uid: bulkupdateagent-getstoredfields
 title: BulkUpdateAgent.GetStoredFields event method
 description: Scripting events called on the GetStoredFields method on the BulkUpdateAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # BulkUpdateAgent.GetStoredFields
 

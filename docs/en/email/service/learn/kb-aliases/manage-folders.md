@@ -3,11 +3,11 @@ uid: help-en-mailbox-folder
 title: Administrate email address folders
 description: Administrate email address folders
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

@@ -4,10 +4,10 @@ uid: mailgun_security
 description: Security and best practices for Mailgun
 author: {github-id}
 keywords: email
-so.topic: reference
+topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+# envir:
+# client:
 ---
 
 # Security and best practices

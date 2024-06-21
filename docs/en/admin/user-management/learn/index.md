@@ -3,11 +3,11 @@ uid: help-en-users
 title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 author: Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: user
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

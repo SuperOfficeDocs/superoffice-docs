@@ -4,7 +4,7 @@ uid: pref_system
 description: Preference section System
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section System

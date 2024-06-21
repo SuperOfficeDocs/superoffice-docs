@@ -3,11 +3,11 @@ title: Getting started
 uid: getting_started_webapp
 description: Getting started with customizing the web application
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Getting started with customizing the web application

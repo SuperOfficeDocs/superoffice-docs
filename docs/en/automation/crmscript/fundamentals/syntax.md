@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_syntax
 title: Code structure (syntax)
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Code structure (syntax)

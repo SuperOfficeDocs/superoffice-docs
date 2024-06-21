@@ -3,9 +3,9 @@ uid: help-en-erp-connection-add
 title: ERP connection add
 description: ERP connection add
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: quote, ERP, connector
-so.topic: howto
+topic: howto
 language: en
 ---
 

@@ -2,10 +2,10 @@
 uid: numberallocationagent-script-events
 title: NumberAllocationAgent script event methods
 description: NetServer script event methods.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NumberAllocationAgent method listing

@@ -2,10 +2,10 @@
 uid: listagent-getlanguageinfo
 title: ListAgent.GetLanguageInfo event method
 description: Scripting events called on the GetLanguageInfo method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.GetLanguageInfo
 

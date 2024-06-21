@@ -2,10 +2,10 @@
 uid: ticketagent-getforrmui
 title: TicketAgent.GetForRmUi event method
 description: Scripting events called on the GetForRmUi method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.GetForRmUi
 

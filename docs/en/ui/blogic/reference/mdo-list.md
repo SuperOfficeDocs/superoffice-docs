@@ -3,9 +3,9 @@ title: MDO list
 uid: blogic_mdolist
 description: MDO list
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # MDO list

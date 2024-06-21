@@ -3,9 +3,9 @@ title: Collection
 uid: row_sample_collection
 description: SuperOffice database Collection
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: sample
+topic: sample
 ---
 
 # Collection

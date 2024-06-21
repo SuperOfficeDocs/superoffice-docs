@@ -4,12 +4,12 @@ title: Best practices
 description: Best practices
 keywords: Marketing
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.19.2024
-so.version: 10.3.5
-so.topic: howto
+date: 02.19.2024
+version: 10.3.5
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Best practices

@@ -3,12 +3,12 @@ uid: mobile-crm-set-up-email
 title: Setting up an email account
 description: How to set up an email account for SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 08.16.2023
+date: 08.16.2023
 keywords: mobile, email
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Setting up an email account

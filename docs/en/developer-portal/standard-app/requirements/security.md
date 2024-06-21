@@ -4,10 +4,10 @@ title: Security requirements
 description: Security requirements
 keywords: certification
 author: Margrethe Romnes, Tony Yates
-so.date: 03.22.2024
-so.topic: reference
-so.envir: cloud
-so.client: online
+date: 03.22.2024
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Security requirements

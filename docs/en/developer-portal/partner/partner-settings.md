@@ -3,11 +3,11 @@ title: Partner settings
 uid: dp-partner-settings
 description: Reference of partner settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.26.2023
+date: 04.26.2023
 keywords: apps, Developer Portal, partner
-so.topic: reference
-so.dp-version: 1.10
-so.envir: cloud
+topic: reference
+version_devportal: 1.10
+envir: cloud
 ---
 
 # Partner settings

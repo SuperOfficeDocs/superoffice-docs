@@ -2,10 +2,10 @@
 uid: contactagent-getduplicates
 title: ContactAgent.GetDuplicates event method
 description: Scripting events called on the GetDuplicates method on the ContactAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ContactAgent.GetDuplicates
 

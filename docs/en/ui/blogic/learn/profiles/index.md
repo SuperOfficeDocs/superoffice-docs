@@ -3,11 +3,11 @@ uid: help-en-service-profile
 title: Profile
 description: Profile
 author: SuperOffice RnD
-so.date: 04.24.2023
+date: 04.24.2023
 keywords: profile, service
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

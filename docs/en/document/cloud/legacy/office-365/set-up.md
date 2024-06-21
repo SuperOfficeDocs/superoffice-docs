@@ -3,11 +3,11 @@ title: Set up
 uid: office-365-set-up
 description: How to set up Microsoft 365 Cloud Office document integration
 author: {github-id}
-so.date: 06.20.2022
+date: 06.20.2022
 keywords: Microsoft 365, document
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Set up Microsoft 365 Cloud Office document integration

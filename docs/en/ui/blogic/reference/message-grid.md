@@ -3,9 +3,9 @@ title: Message grid
 uid: blogic_message_grid
 description: Message grid
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Message grid

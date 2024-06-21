@@ -4,7 +4,7 @@ uid: twilio_sms_plugin
 description: Twilio NetServer SMS plugin
 author: {github-id}
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Twilio

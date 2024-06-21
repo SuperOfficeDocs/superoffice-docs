@@ -3,9 +3,9 @@ uid: help-en-project-screen-sale
 title: Sales tab
 description: Sales tab in the Project screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, sale
-so.topic: reference
+topic: reference
 language: en
 ---
 

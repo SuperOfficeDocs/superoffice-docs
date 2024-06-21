@@ -3,12 +3,12 @@ title: Messaging Center
 uid: messaging-center
 description: Introduction to developer portal messaging center.
 author: Anthony Yates
-so.date: 08.10.2022
+date: 08.10.2022
 keywords: Developer Portal, messaging center
-so.topic: conceptual
-so.version: 1.13
-so.envir: cloud
-so.client: online
+topic: conceptual
+version: 1.13
+envir: cloud
+client: online
 ---
 
 # Messaging Center

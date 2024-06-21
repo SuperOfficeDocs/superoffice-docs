@@ -3,9 +3,9 @@ uid: help-en-report-preview
 title: Preview report
 description: How to preview a report
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

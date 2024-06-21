@@ -3,9 +3,9 @@ uid: help-en-language-change
 title: Change active language
 description: Change active language
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: language
-so.topic: howto
+topic: howto
 language: en
 ---
 

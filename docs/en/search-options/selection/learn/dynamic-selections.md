@@ -3,9 +3,9 @@ uid: help-en-selections-dynamic
 title: Dynamic selections
 description: Dynamic selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, dynamic
-so.topic: concept
+topic: concept
 language: en
 ---
 

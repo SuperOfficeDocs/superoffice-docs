@@ -4,11 +4,11 @@ title: How to create contact
 description: How to create a contact
 keywords: soprotocol, deeplinking
 author: Tony Yates
-so.date: 06.20.2024
-so.version: 10.3.4
-so.topic: howto
-so.client: web
-so.envir: onsite
+date: 06.20.2024
+version: 10.3.4
+topic: howto
+client: web
+envir: onsite
 ---
 
 # How to create contact

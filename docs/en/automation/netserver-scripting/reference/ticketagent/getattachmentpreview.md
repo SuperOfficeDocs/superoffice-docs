@@ -2,10 +2,10 @@
 uid: ticketagent-getattachmentpreview
 title: TicketAgent.GetAttachmentPreview event method
 description: Scripting events called on the GetAttachmentPreview method on the TicketAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TicketAgent.GetAttachmentPreview
 

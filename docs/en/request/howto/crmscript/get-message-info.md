@@ -3,9 +3,9 @@ uid: crmscript-message-load
 title: Get message info
 description: How to load and get info about a request message with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 05.26.2023
+date: 05.26.2023
 keywords: CRMScript, Service, ticket, request, message, load, getValue, attachment
-so.topic: howto
+topic: howto
 ---
 
 # Get message info

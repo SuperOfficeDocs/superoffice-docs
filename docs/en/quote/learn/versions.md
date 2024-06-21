@@ -3,9 +3,9 @@ uid: help-en-quote-versions
 title:  Edit a sent quote (versions)
 description:  Edit a sent quote (versions)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

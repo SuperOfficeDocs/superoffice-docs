@@ -2,9 +2,9 @@
 title: Readiness to hand
 description: Readiness to hand
 author: Christian Mogensen
-so.date: 12.09.2011
+date: 12.09.2011
 keywords: design,ui
-so.topic: concept
+topic: concept
 ---
 
 # Readiness to hand

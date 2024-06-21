@@ -3,11 +3,11 @@ title: Multiple DKIM records
 uid: dkim-multiple-records
 description: Multiple DKIM records in Mailgun
 author: Martin Pavlas
-so.date: 09.12.2023
+date: 09.12.2023
 keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Multiple DKIM records in SuperOffice Online

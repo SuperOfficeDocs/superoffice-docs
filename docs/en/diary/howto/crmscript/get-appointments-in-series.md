@@ -3,9 +3,9 @@ uid: crmscript-get-apt-in-series
 title: Get follow-ups in series
 description: How to get follow-ups belonging to a series with CRMScript
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
-so.topic: howto
+topic: howto
 ---
 
 # Get follow-ups belonging to a series

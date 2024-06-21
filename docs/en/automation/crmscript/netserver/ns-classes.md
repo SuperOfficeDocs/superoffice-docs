@@ -4,8 +4,8 @@ title: Working with NS classes in CRMScript
 description: Example of how to work with NetServer classes in CRMScript.
 keywords: CRMScript, NetServer, NSAgent, NSEntity, CreateDefaultDocumentEntity(), best practices
 author: Eivind Fasting,
-so.date: 05.20.2024
-so.topic: howto
+date: 05.20.2024
+topic: howto
 ---
 
 # Working with NS classes in CRMScript

@@ -2,10 +2,10 @@
 uid: useragent-changepasswordfromname
 title: UserAgent.ChangePasswordFromName event method
 description: Scripting events called on the ChangePasswordFromName method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.ChangePasswordFromName
 

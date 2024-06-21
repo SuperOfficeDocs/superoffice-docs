@@ -3,11 +3,11 @@ title: How to add a new panel
 uid: pb_usercontrols_tutorial_mypage
 description: How to add a panel and link it from the navigator
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: pagebuilder
-so.topic: tutorial
-so.client: web
-so.envir: onsite
+topic: tutorial
+client: web
+envir: onsite
 ---
 
 # How to add a new panel

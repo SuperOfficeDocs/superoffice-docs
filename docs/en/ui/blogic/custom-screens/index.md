@@ -3,9 +3,9 @@ title: Custom screens
 uid: custom_screens
 description: Custom screens
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Custom screens

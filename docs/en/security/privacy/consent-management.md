@@ -4,9 +4,9 @@ uid: gdpr_consent
 description: GDRP consent management
 author: {github-id}
 keywords:
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # GDPR consent management

@@ -3,9 +3,9 @@ uid: help-en-saint
 title: Sales Intelligence (SAINT)
 description: In this guide you will learn how SAINT can progress your sales and customer processes, as well as improve workflows.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: company, SAINT
-so.topic: concept
+topic: concept
 language: en
 ---
 

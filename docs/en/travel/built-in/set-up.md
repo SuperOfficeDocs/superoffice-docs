@@ -4,10 +4,10 @@ uid: set_up_built_in_travel
 description: Built-in as travel database
 author: {github-id}
 keywords: travel
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Built-in as Travel database

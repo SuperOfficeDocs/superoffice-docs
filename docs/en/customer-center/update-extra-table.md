@@ -3,11 +3,11 @@ title: Update an extra table
 uid: update-extra-table
 description: Update an extra table from the Customer Center
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP
-so.topic: howto
-so.audience: settings
-so.envir: onsite
+topic: howto
+audience: settings
+envir: onsite
 ---
 
 # Update an extra table from the Customer Center

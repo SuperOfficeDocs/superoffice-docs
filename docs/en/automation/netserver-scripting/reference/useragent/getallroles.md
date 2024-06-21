@@ -2,10 +2,10 @@
 uid: useragent-getallroles
 title: UserAgent.GetAllRoles event method
 description: Scripting events called on the GetAllRoles method on the UserAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # UserAgent.GetAllRoles
 

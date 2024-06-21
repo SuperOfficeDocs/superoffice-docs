@@ -3,9 +3,9 @@ title: Attachment
 uid: blogic_attachment
 description: Attachment
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Attachment

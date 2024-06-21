@@ -3,11 +3,11 @@ uid: help-en-role
 title: Role
 description: Role
 author: Kirsti Aakerholt, Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: role, data object, user level
-so.topic: concept
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: admin
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

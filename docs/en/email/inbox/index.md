@@ -3,11 +3,11 @@ uid: email-soinbox
 title: SuperOffice Inbox
 description: SuperOffice Inbox
 author: Bergfrid Dias
-so.date: 03.21.2024
+date: 03.21.2024
 keywords: email
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # SuperOffice Inbox

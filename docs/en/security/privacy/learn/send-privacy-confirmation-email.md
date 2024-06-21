@@ -3,9 +3,9 @@ uid: help-en-send-privacy-confirmation-email
 title: Send privacy confirmation email
 description: Send privacy confirmation email
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, consent, email, privacy
-so.topic: howto
+topic: howto
 language: en
 ---
 

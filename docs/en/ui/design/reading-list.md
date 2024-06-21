@@ -2,9 +2,9 @@
 title: Design reading list
 description: Further reading on design
 author: Christian Mogensen
-so.date: 12.09.2011
+date: 12.09.2011
 keywords: design,ui
-so.topic: reference
+topic: reference
 ---
 
 # Further reading on design

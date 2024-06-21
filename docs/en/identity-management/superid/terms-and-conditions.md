@@ -4,10 +4,10 @@ uid: superid_terms_and_conditions
 description: SuperID terms and conditions
 author:
 keywords: SuperID
-so.date:
-so.topic: reference
-so.envir: cloud
-so.client: online
+date:
+topic: reference
+envir: cloud
+client: online
 ---
 
 # SuperID terms and conditions

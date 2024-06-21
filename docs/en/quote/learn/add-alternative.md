@@ -3,9 +3,9 @@ uid: help-en-quote-add-alternative
 title: quote add alternative
 description: In SuperOffice Quote you can create alternatives of any quote, offering your customers different options to choose from. This how-to guide will show you how to create alternative quotes for a proposal.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: quote
-so.topic: howto
+topic: howto
 language: en
 ---
 

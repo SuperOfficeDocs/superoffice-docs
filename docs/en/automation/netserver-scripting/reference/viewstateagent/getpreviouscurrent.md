@@ -2,10 +2,10 @@
 uid: viewstateagent-getpreviouscurrent
 title: ViewStateAgent.GetPreviousCurrent event method
 description: Scripting events called on the GetPreviousCurrent method on the ViewStateAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ViewStateAgent.GetPreviousCurrent
 

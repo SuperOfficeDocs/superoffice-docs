@@ -3,9 +3,9 @@ uid: help-en-report-delete-from-archive
 title: Deleting reports from the report archive
 description: Deleting reports from the report archive
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: help
+topic: help
 language: en
 ---
 

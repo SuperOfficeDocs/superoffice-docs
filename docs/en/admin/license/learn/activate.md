@@ -3,9 +3,9 @@ uid: help-en-license-activate
 title: Activate license
 description: Activate license for SuperOffice
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: license
-so.topic: howto
+topic: howto
 language: en
 ---
 

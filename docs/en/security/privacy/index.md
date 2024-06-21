@@ -4,8 +4,8 @@ uid: privacy
 description: Intro to General Data Protection Regulation (GDPR)
 author: SuperOffice
 keywords: GDPR, privacy, EU, regulation, legal
-so.date: 08.28.2023
-so.topic: concept
+date: 08.28.2023
+topic: concept
 ---
 
 # Intro to General Data Protection Regulation (GDPR)

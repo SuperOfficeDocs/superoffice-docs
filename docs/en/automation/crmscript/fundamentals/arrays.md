@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_arrays
 title: Arrays
 author: Bergfrid Dias
-so.date: 01.14.2022
+date: 01.14.2022
 keywords: crmscript, arrary, length, push, pop
-so.topic: concept
+topic: concept
 ---
 
 # Arrays

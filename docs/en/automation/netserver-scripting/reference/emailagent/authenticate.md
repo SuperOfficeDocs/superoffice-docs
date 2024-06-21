@@ -2,10 +2,10 @@
 uid: emailagent-authenticate
 title: EMailAgent.Authenticate event method
 description: Scripting events called on the Authenticate method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.Authenticate
 

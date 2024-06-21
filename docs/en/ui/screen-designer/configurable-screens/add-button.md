@@ -3,12 +3,12 @@ uid: screen-add-button
 title:  Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.10.2022
+date: 10.10.2022
 keywords: ui, screen, customization
-so.topic: howto
-so.version: 10
-so.envir:
-so.client:
+topic: howto
+version: 10
+envir:
+client:
 ---
 
 # Add a button or link

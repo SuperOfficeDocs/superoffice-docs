@@ -3,9 +3,9 @@ uid: help-en-sale-screen-tab-guide
 title: The Sales guide section tab
 description: The Sales guide section tab
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: sale, guide
-so.topic: reference
+topic: reference
 language: en
 ---
 

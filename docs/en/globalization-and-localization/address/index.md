@@ -3,8 +3,8 @@ title: Address formats
 uid: globalization-address
 description: Localization, address formats
 author: Tony Yates
-so.date: 02.16.2022
-so.topic: concept
+date: 02.16.2022
+topic: concept
 keywords: address, globalization, LocalizedAddress, FormattedAddress
 ---
 

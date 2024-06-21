@@ -3,11 +3,11 @@ uid: zapier-get-started
 title: Get started
 description: How to get started with SuperOffice CRM and Zapier.
 author: Philip Yates
-so.date: 08.09.2023
+date: 08.09.2023
 keywords: Zapier
-so.topic: howto
+topic: howto
 language: en
-so.client: Zapier
+client: Zapier
 ---
 
 

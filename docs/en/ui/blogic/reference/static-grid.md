@@ -3,9 +3,9 @@ title: Static Grid
 uid: blogic_static_grid
 description: Static Grid
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Static Grid

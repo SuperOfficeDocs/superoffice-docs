@@ -4,12 +4,12 @@ title: Drag and drop editor
 description: Drag and drop editor
 keywords: marketing, editor, template variable, merge tag
 author: SuperOffice RnD
-so.date: 02.05.2024
-so.version: 10
-so.topic: concept
+date: 02.05.2024
+version: 10
+topic: concept
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Drag and drop editor

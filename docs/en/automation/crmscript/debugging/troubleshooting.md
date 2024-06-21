@@ -2,9 +2,9 @@
 uid: crmscript_debug_troubleshooting
 title: Basic troubleshooting
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Basic troubleshooting

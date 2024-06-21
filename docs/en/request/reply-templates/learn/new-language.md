@@ -3,11 +3,11 @@ uid: help-en-reply-template-language
 title: Create new language version of reply template
 description: Create new language version of reply template
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: request
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 

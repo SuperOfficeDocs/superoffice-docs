@@ -3,12 +3,12 @@ uid: mobile-crm-scan-business-card
 title: Mobile CRM - Scan a business card
 description: How do I automatically create a new contact in the Mobile CRM app from a business card?
 author: Bergfrid Dias
-so.date: 07.25.2023
+date: 07.25.2023
 keywords: mobile, pocket, business card, company, contact
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Scan a business card

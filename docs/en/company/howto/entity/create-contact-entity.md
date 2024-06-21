@@ -3,11 +3,11 @@ title: Create a Contact entity
 uid: create_contact_entity
 description: Create a contact entity
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: contact, company, entity, API, assert, SetDefaults
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a Contact entity

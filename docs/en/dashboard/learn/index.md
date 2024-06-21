@@ -3,9 +3,9 @@ uid: help-en-dashboard
 title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
 author: Kirsti Aakerholt
-so.date: 07.05.2023
+date: 07.05.2023
 keywords: dashboard, tile, chart, report, dataset, layout, dashboard tabs, big numbers, gauge
-so.topic: concept
+topic: concept
 language: en
 ---
 

@@ -3,11 +3,11 @@ title: Create a Contact using services
 uid: create_contact_services
 description: How to create a contact using services.
 author: {github-id}
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, services, API, api-services, ContactAgent, CreateDefaultContactEntity
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create a Contact using services

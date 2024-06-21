@@ -3,11 +3,11 @@ title: Create web form with template
 uid: create-webform-with-special-template
 description: How to create web forms using special templates in Service
 author: {github-id}
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Customer Center, CEP, web form
-so.topic: howto
-so.audience: settings
-so.envir: onsite
+topic: howto
+audience: settings
+envir: onsite
 ---
 
 # Creating web forms using special templates in SuperOffice

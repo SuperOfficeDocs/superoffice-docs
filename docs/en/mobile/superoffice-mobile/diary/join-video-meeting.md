@@ -3,12 +3,12 @@ uid: mobile-crm-join-video-meeting
 title: Join video meeting from appointment
 description: How to join a video meeting from SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.25.2023
+date: 07.25.2023
 keywords: diary, follow-up, appointment, meeting, video meeting
-so.topic: howto
+topic: howto
 language: en
-so.version: 10
-so.client: mobile
+version: 10
+client: mobile
 ---
 
 # Join video meeting from appointment

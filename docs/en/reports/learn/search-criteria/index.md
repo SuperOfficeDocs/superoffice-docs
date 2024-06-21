@@ -3,9 +3,9 @@ uid: help-en-report-search-criteria
 title: Search criteria in reports
 description: Search criteria in reports
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: concept
+topic: concept
 language: en
 ---
 

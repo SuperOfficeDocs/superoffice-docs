@@ -3,9 +3,9 @@ uid: crmscript-project
 title: Projects
 description: Working with projects in CRMScript
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: project, project management, CRMScript
-so.topic: howto
+topic: howto
 ---
 
 # Projects

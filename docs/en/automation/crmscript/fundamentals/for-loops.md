@@ -2,9 +2,9 @@
 uid: crmscript_fundamentals_loops_for
 title: Loops - for
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Loops - for

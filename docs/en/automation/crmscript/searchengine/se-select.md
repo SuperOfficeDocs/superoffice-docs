@@ -2,9 +2,9 @@
 uid: search_engine_select
 title: Building a query
 author:
-so.date:
+date:
 keywords:
-so.topic:
+topic:
 ---
 
 # Building a query

@@ -3,9 +3,9 @@ uid: help-en-bulk-update
 title: Bulk update
 description: Bulk update
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bulk update
-so.topic: howto
+topic: howto
 language: en
 ---
 

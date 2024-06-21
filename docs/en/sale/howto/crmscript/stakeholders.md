@@ -3,9 +3,9 @@ uid: crmscript-sale-stakeholder
 title: Stakeholders
 description: Working with sale stakeholders in CRMScript.
 author: Bergfrid Dias
-so.date: 06.09.2023
+date: 06.09.2023
 keywords: sale, stakeholder
-so.topic: howto
+topic: howto
 ---
 
 # Stakeholders

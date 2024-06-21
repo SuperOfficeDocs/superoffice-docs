@@ -3,9 +3,9 @@ uid: help-en-report-filters
 title:  Filters in the Reports screen
 description: Filters in the Reports screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: report
-so.topic: howto
+topic: howto
 language: en
 ---
 

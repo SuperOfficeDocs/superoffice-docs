@@ -3,9 +3,9 @@ uid: crmscript-get-user
 title: Get user info
 description: How to get user information with CRMScript.
 author: Bergfrid Skaara Dias
-so.date: 11.02.2021
+date: 11.02.2021
 keywords: CRMScript, ejuser, user, user account
-so.topic: howto
+topic: howto
 ---
 
 # Get user info

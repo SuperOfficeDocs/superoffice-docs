@@ -2,10 +2,10 @@
 uid: emailagent-getemailfromattachmentid
 title: EMailAgent.GetEMailFromAttachmentId event method
 description: Scripting events called on the GetEMailFromAttachmentId method on the EMailAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # EMailAgent.GetEMailFromAttachmentId
 

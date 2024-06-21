@@ -3,11 +3,11 @@ title: How to set an interest on or off
 uid: toggle_contact_interest_ws
 description: How to set an interest on or off for a contact using services
 author: {github-id}
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: contact, company, services, API, interest, ContactAgent, electableMDOListItem
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to set an interest on or off for a contact (services)

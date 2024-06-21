@@ -3,9 +3,9 @@ uid: request-overview
 title: Requests
 description: How to manage requests and enquiries in SuperOffice - create internal and external requests; respond to incoming enquiries; obtain an overview of the statuses of all requests in the CRM system.
 author: Bergfrid Dias
-so.date: 05.31.2023
+date: 05.31.2023
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation
-so.topic: concept
+topic: concept
 ---
 
 # Requests

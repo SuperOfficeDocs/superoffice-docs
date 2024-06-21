@@ -3,9 +3,9 @@ uid: crmscript-parser
 title: Parser
 description: About the CRMScript Parser class, which is a template engine.
 author: Bergfrid Dias
-so.date: 05.30.2023
+date: 05.30.2023
 keywords: parser, template, variable
-so.topic: concept
+topic: concept
 ---
 
 # Parser

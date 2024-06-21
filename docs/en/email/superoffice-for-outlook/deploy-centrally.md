@@ -4,9 +4,9 @@ uid: deploy_superoffice_for_outlook_centrally
 description: Centralized deployment
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Centralized deployment

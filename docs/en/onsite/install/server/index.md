@@ -4,9 +4,9 @@ uid: install_crm_server
 description: Install SuperOffice Win Server
 author: {github-id}
 keywords:
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Install CRM Server

@@ -3,10 +3,10 @@ title: Area Management overview
 description: Area Management
 author: {github-id}
 keywords:
-so.date:
-so.topic: concept
-so.envir: onsite
-so.client: win
+date:
+topic: concept
+envir: onsite
+client: win
 ---
 
 # Area Management

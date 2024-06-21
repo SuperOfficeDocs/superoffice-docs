@@ -4,7 +4,7 @@ uid: pref_freetext
 description: Preference section Freetext
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section Freetext

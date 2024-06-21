@@ -4,9 +4,9 @@ uid: create_mirroring_wfc
 description: Get your mirroring service up and running in 10 minutes or less using NuGet
 author: {github-id}
 keywords: mirroring, WFC, appSettings
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Get your mirroring service up and running in 10 minutes or less using NuGet

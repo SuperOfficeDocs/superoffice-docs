@@ -3,9 +3,9 @@ uid: help-en-project-member-edit
 title: Editing project members
 description: How to edit or delete a project member in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, member
-so.topic: howto
+topic: howto
 language: en
 ---
 

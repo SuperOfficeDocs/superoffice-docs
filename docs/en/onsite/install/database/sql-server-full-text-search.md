@@ -4,9 +4,9 @@ uid: sql_server_full_text_search
 description: SQL server native full-text search
 author: {github-id}
 keywords: database
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # SQL server native full-text search

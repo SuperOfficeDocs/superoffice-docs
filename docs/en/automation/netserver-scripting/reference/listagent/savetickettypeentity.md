@@ -2,10 +2,10 @@
 uid: listagent-savetickettypeentity
 title: ListAgent.SaveTicketTypeEntity event method
 description: Scripting events called on the SaveTicketTypeEntity method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.SaveTicketTypeEntity
 

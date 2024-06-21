@@ -3,9 +3,9 @@ title: Extra menus
 uid: extra_menus
 description: Extra menus
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Extra menus

@@ -3,11 +3,11 @@ uid: diary-tutorials
 title: Diary tutorials
 description: Contains a list of tutorials for working with follow-ups and calendars.
 author: Bergfrid Skaara Dias
-so.date: 03.21.2022
+date: 03.21.2022
 keywords: diary, calendar, follow-up
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # Diary tutorials

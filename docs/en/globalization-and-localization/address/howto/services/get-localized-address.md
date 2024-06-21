@@ -3,11 +3,11 @@ title: Read the LocalizedAddress
 uid: get_localized_address
 description: Read the LocalizedAddress
 author: Tony Yates
-so.date: 05.15.2017
+date: 05.15.2017
 keywords: globalization, address
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Read the LocalizedAddress

@@ -3,9 +3,9 @@ title: Element table
 uid: blogic_element_table
 description: Element table
 author:
-so.date:
+date:
 keywords:
-so.topic: reference
+topic: reference
 ---
 
 # Element table

@@ -3,12 +3,12 @@ uid: help-en-export
 title: Export
 description: Export
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client settings
-so.topic: help
+topic: help
 language: en
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Export

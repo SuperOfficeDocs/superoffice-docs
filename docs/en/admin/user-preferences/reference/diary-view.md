@@ -4,7 +4,7 @@ uid: pref_diaryview
 description: Preference section DiaryView
 author: {github-id}
 keywords: database
-so.topic: reference
+topic: reference
 ---
 
 # Preference section DiaryView

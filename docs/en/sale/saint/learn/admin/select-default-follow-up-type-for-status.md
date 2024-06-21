@@ -3,11 +3,11 @@ uid: help-en-select-default-follow-up-type-for-status
 title: Select default follow-up type for status
 description: Select default follow-up type for status
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: sale, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 

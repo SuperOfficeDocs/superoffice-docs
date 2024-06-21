@@ -4,9 +4,9 @@ uid: order_sandbox_form
 description: Submit this form to order production sandbox.
 author: 
 keywords: online sandbox
-so.topic: form
-so.envir: cloud
-so.client: online
+topic: form
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD041 -->

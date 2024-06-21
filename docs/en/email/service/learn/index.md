@@ -3,9 +3,9 @@ uid: help-en-email-service
 title: Service emails
 description: Service emails
 author: SuperOffice RnD
-so.date: 03.06.2024
+date: 03.06.2024
 keywords: Settings and maintenance
-so.topic: concept
+topic: concept
 language: en
 ---
 

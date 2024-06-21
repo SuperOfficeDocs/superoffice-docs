@@ -4,8 +4,8 @@ uid: cs_soap_ports_admin_gettag
 description: Services SOAP interface port admin getTag
 author: {github-id}
 keywords: soap
-so.date: 01.25.2021
-so.topic: reference
+date: 01.25.2021
+topic: reference
 ---
 
 # getTag

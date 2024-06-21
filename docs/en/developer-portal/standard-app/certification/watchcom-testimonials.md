@@ -3,11 +3,11 @@ title: Testimonials
 uid: watchcom-testimonials
 description: What our published partners say about the security audit
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: Watchcom
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD028 -->

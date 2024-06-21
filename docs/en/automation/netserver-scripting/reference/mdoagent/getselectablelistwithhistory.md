@@ -2,10 +2,10 @@
 uid: mdoagent-getselectablelistwithhistory
 title: MDOAgent.GetSelectableListWithHistory event method
 description: Scripting events called on the GetSelectableListWithHistory method on the MDOAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # MDOAgent.GetSelectableListWithHistory
 

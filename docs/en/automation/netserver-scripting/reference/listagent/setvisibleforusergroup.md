@@ -2,10 +2,10 @@
 uid: listagent-setvisibleforusergroup
 title: ListAgent.SetVisibleForUserGroup event method
 description: Scripting events called on the SetVisibleForUserGroup method on the ListAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # ListAgent.SetVisibleForUserGroup
 

@@ -3,9 +3,9 @@ uid: help-en-company
 title: Companies
 description: All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: company
-so.topic: concept
+topic: concept
 language: en
 ---
 

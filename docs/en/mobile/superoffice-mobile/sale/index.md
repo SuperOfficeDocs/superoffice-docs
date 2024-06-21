@@ -3,12 +3,12 @@ uid: mobile-crm-sale
 title: Sale
 description: Learn about working with sales in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.26.2023
+date: 07.26.2023
 keywords: mobile, sale
-so.topic: reference
-so.version: 10
+topic: reference
+version: 10
 language: en
-so.client: mobile
+client: mobile
 ---
 
 # Sale ![icon][img10]

@@ -3,11 +3,11 @@ title: Upgrade to 8.1 with old Sales domain
 uid: upgrade_to_81_sales
 description: Upgrade to 8.1 when using the old Sales domain
 author: Martin Pavlas
-so.date: 12.08.2021
+date: 12.08.2021
 keywords: upgrade
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # Upgrade to 8.1 or newer when using the old Sales domain

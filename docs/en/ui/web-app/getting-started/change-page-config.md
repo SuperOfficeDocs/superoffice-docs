@@ -3,11 +3,11 @@ title: How to alter page configuration files
 uid: change_page_config
 description: How to alter page configuration files
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-so.envir: onsite
-so.client: web
+topic: howto
+envir: onsite
+client: web
 ---
 
 # How to alter page configuration files

@@ -3,10 +3,10 @@ title: install travel gateway
 description: Manual install of travel gateway service
 author: {github-id}
 keywords:
-so.date:
-so.topic: howto
-so.envir: onsite
-so.client: win
+date:
+topic: howto
+envir: onsite
+client: win
 ---
 
 # Manual install of Travel gateway service

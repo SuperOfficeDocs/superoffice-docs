@@ -3,12 +3,12 @@ title: Permissions in SharePoint
 uid: sharepoint-permissions
 description: About permissions in SharePoint​
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: SharePoint, permission, security, access control, domain group, Microsoft Entra, ME-ID, AAD, Azure
-so.topic: howto
-so.version:
-so.envir: cloud
-so.client: online
+topic: howto
+version:
+envir: cloud
+client: online
 ---
 
 # About permissions in SharePoint​

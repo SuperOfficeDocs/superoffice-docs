@@ -3,9 +3,9 @@ title: Passing data with template variables
 uid: web_panels_template_var
 description: Passing data to web panels with template variables
 author:
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Passing data with template variables

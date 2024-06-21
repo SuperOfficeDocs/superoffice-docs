@@ -3,11 +3,11 @@ title: Generate a document
 uid: generate_document_rest
 description: How to generate a document with REST.
 author: Bergfrid Skaara Dias
-so.date: 11.04.2021
+date: 11.04.2021
 keywords: document, API, REST
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Generate a document

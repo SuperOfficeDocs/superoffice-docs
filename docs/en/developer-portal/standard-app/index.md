@@ -3,11 +3,11 @@ title: Standard application
 uid: standard-app
 description: Standard apps for SuperOffice Online
 author: Margrethe Romnes
-so.date: 09.07.2023
+date: 09.07.2023
 keywords: standard app, public app, App Store
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Standard apps for SuperOffice Online

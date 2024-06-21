@@ -3,9 +3,9 @@ title: Using GitHub webhooks to add message to ticket
 uid: add_msg_to_ticket_with_github_webhook
 description: Using GitHub webhooks to add message to ticket
 author: Frode Lillerud
-so.date: 02.07.2019
+date: 02.07.2019
 keywords:
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Using GitHub webhooks to add message to ticket

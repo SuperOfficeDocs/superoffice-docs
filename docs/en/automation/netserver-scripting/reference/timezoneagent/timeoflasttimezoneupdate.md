@@ -2,10 +2,10 @@
 uid: timezoneagent-timeoflasttimezoneupdate
 title: TimeZoneAgent.TimeOfLastTimeZoneUpdate event method
 description: Scripting events called on the TimeOfLastTimeZoneUpdate method on the TimeZoneAgent service agent.
-so.generated: true
+generated: true
 keywords: netserver scripting
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # TimeZoneAgent.TimeOfLastTimeZoneUpdate
 
