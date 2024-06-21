@@ -3,9 +3,9 @@ uid: Document
 title: Document
 description: Archive provider for Document type activities. This provider can be used on its own, or can form part of the
 keywords: Document archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Document"

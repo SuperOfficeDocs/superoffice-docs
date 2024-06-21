@@ -3,9 +3,9 @@ title: ERP Quote Connector Interface
 uid: quote_connectors
 description: ERP Quote Connector Interface
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # ERP Quote Connector Interface

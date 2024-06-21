@@ -3,9 +3,9 @@ title: Retrieve an Entity property through an Entity
 uid: get_entity_from_entity
 description: Retrieve an Entity property through an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Retrieve an Entity property through an Entity

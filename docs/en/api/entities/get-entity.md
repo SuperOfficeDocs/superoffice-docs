@@ -3,9 +3,9 @@ title: How to retrieve an Entity
 uid: get_entity
 description: How to retrieve an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # How to retrieve an Entity

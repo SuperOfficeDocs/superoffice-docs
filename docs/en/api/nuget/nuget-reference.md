@@ -4,9 +4,9 @@ uid: nuget_reference
 description: SuperOffice NuGet packages
 author: {github-id}
 keywords:
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # SuperOffice NuGet packages

@@ -3,11 +3,11 @@ title: Find a project, returning the name
 uid: find_project_by_name
 description: Find a project, returning the name
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic:  howto
-# so.envir:
-# so.client:
+topic:  howto
+# envir:
+# client:
 ---
 
 # Find a project, returning the name

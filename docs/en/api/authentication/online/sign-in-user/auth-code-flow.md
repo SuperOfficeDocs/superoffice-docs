@@ -4,9 +4,9 @@ uid: auth_code_flow
 description: "Introduction to the Authorization Code flow."
 author: {github-id}
 keywords: oidc
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Authorization Code flow

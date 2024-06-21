@@ -3,9 +3,9 @@ uid: ProjectSelectionV2
 title: ProjectSelectionV2
 description: This is the archive Provider for the Selection Project archive.
 keywords: ProjectSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectSelectionV2"

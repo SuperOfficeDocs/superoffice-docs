@@ -3,11 +3,11 @@ title: Archive email message
 uid: mailarchivehelper_find_contact
 description: Find contact from email
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: vb
-so.topic: howto
-so.client: web,win
-so.envir: onsite
+topic: howto
+client: web,win
+envir: onsite
 ---
 
 # Archive email message

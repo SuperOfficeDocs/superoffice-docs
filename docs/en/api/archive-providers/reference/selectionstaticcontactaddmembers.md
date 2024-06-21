@@ -3,9 +3,9 @@ uid: SelectionStaticContactAddMembers
 title: SelectionStaticContactAddMembers
 description: This is the provider used when searching for potential new members of a static selection. It is actually
 keywords: SelectionStaticContactAddMembers archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SelectionStaticContactAddMembers"

@@ -3,9 +3,9 @@ uid: TicketStaticSelectionV2
 title: TicketStaticSelectionV2
 description: Static archive Provider for a Selection of tickets archive.
 keywords: TicketStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketStaticSelectionV2"

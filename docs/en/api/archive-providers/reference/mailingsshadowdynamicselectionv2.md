@@ -3,9 +3,9 @@ uid: MailingsShadowDynamicSelectionV2
 title: MailingsShadowDynamicSelectionV2
 description: Mailings shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: MailingsShadowDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowDynamicSelectionV2"

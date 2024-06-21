@@ -4,8 +4,8 @@ uid: rest_api_search_dynamic
 description: REST Web API dynamic dot-syntax search provider
 author: {github-id}
 keywords: search,odata
-so.date: 2023-04-26
-so.topic: howto
+date: 2023-04-26
+topic: howto
 ---
 
 # The Dynamic Provider - the dot syntax

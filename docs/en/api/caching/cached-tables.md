@@ -3,11 +3,11 @@ title: Cached tables
 uid: cached_db_tables
 description: Cached database tables
 author: {github-id}
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: database
-so.topic: concept
-so.envir: onsite
-so.client: win
+topic: concept
+envir: onsite
+client: win
 ---
 
 # Cached tables

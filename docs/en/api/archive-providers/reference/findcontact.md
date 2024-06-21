@@ -3,9 +3,9 @@ uid: FindContact
 title: FindContact
 description: 
 keywords: FindContact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FindContact"

@@ -3,11 +3,11 @@ title: Sync Service
 uid: erp_arch_sync_service
 description: ERP connector Sync Service
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: .net
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Sync Service

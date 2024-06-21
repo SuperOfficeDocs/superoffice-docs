@@ -3,11 +3,11 @@ title: DumpResult helper method
 uid: dump_result
 description: DumpResult helper method
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # DumpResult helper method

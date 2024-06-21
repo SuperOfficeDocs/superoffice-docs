@@ -3,11 +3,11 @@ title: Operations and values
 uid: operations_and_values
 description: Operations and values
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Operations and values

@@ -3,9 +3,9 @@ uid: SelectionDynamicContactProvider
 title: SelectionDynamicContactProvider
 description: 
 keywords: SelectionDynamicContactProvider archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SelectionDynamicContactProvider"

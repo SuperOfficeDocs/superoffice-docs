@@ -2,9 +2,9 @@
 title: Protected tables
 description: Lists tables that cannot be used for mass operations.
 author: AnthonyYates
-so.date: 01.02.2021
+date: 01.02.2021
 keywords: data-access, bulk-update, mass-operations
-so.topic: reference
+topic: reference
 ---
 
 # Protected tables

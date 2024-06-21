@@ -3,9 +3,9 @@ uid: QuoteLineShadowDynamicSelectionSingleCriteriaGroup
 title: QuoteLineShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic quoteline provider.
 keywords: QuoteLineShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineShadowDynamicSelectionSingleCriteriaGroup"

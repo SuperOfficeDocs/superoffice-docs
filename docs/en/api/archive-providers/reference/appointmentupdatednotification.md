@@ -3,9 +3,9 @@ uid: AppointmentUpdatedNotification
 title: AppointmentUpdatedNotification
 description: 
 keywords: AppointmentUpdatedNotification archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentUpdatedNotification"

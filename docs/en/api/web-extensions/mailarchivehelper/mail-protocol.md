@@ -3,11 +3,11 @@ title: MailProtocol helper
 uid: mailprotocol_helper
 description: MailProtocol helper
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: somail
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # MailProtocol helper

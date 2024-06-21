@@ -3,9 +3,9 @@ uid: simplemailingstatus
 title: simplemailingstatus
 keywords: mdoprovider mdo provider simplemailingstatus
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "simplemailingstatus" MDO List

@@ -3,9 +3,9 @@ title: Proxies
 uid: ws_proxies
 description: Proxies
 author: Bergfrid Dias
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: API, web services, proxy, WebAPI, SOAP, WebApiOptions
-so.topic: concept
+topic: concept
 ---
 
 # NetServer web service proxies

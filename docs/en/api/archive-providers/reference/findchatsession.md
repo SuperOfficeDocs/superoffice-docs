@@ -3,9 +3,9 @@ uid: FindChatSession
 title: FindChatSession
 description: ChatSession provider for Find
 keywords: FindChatSession archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FindChatSession"

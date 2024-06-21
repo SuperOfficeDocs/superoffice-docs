@@ -3,11 +3,11 @@ title: Authorization
 uid: webapi_auth
 description: "Authentication options for the SuperOffice WebAPI."
 author: AnthonyYates
-so.date: 12.17.2021
+date: 12.17.2021
 keywords: security, authentication, WebAPI, SOTICKET, BEARER
-so.topic: concept
-so.envir: onsite
-so.client: Web
+topic: concept
+envir: onsite
+client: Web
 ---
 
 # SuperOffice WebApi

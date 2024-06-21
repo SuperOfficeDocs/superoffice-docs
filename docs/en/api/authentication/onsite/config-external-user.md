@@ -3,11 +3,11 @@ title: How to configure the external users
 uid: config_external_user
 description: How to configure the external users in the config file
 author: {github-id}
-so.date: 11.29.2021
+date: 11.29.2021
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to configure the external users in the config file

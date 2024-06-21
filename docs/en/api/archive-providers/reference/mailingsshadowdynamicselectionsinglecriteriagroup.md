@@ -3,9 +3,9 @@ uid: MailingsShadowDynamicSelectionSingleCriteriaGroup
 title: MailingsShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic Mailings provider.
 keywords: MailingsShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowDynamicSelectionSingleCriteriaGroup"

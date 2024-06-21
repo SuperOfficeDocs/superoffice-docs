@@ -3,9 +3,9 @@ title: CategoryCache
 uid: category-cache
 description: CategoryCache
 author: Bergfrid Dias
-so.date: 02.22.2022
+date: 02.22.2022
 keywords: cache, list, CategoryCache
-so.topic: concept
+topic: concept
 ---
 
 # CategoryCache

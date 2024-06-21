@@ -3,11 +3,11 @@ title: Authentication
 uid: auth_onsite
 description: Authentication in SuperOffice onsite
 author: {github-id}
-so.date: 11.22.2021
+date: 11.22.2021
 keywords: authentication, ticket, credentials
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Authentication

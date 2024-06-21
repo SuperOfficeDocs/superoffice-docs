@@ -3,11 +3,11 @@ title: SOAP Sync Service
 uid: erp_arch_soap
 description: ERP connector SOAP Sync Service
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: soap
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # SOAP Sync Service

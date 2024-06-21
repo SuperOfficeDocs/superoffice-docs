@@ -3,9 +3,9 @@ uid: ProjectShadowSelection
 title: ProjectShadowSelection
 description: Shadow contact provider for the Project provider.
 keywords: ProjectShadowSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectShadowSelection"

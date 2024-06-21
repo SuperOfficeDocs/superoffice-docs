@@ -4,8 +4,8 @@ uid: rest_api_search_numbers
 description: REST Web API search numbers
 author: {github-id}
 keywords: search,odata
-so.date:
-so.topic: howto
+date:
+topic: howto
 ---
 
 # Numbers (integer, decimal, float)

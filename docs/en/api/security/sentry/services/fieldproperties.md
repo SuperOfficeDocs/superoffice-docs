@@ -3,10 +3,10 @@ title: FieldProperties (services)
 uid: sentry_fieldproperties
 description: Sentry in services - FieldProperties property
 author: {github-id}
-so.date:
+date:
 keywords: sentry
-so.topic: concept
-so.area: api-services
+topic: concept
+area: api-services
 ---
 
 # FieldProperties (services)

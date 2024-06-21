@@ -3,11 +3,11 @@ title: Entities and field types
 uid: entities_field_types
 description: Bulk update entities and field types
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Entities and field types

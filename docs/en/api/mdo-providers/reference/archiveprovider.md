@@ -3,9 +3,9 @@ uid: archiveprovider
 title: archiveprovider
 keywords: mdoprovider mdo provider archiveprovider
 description: MDO provider for available archive providers for Configurable screens. The items will be added by scanning ArchiveProviderFactory.KnownArchiveProviders for this pattern;
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "archiveprovider" MDO List

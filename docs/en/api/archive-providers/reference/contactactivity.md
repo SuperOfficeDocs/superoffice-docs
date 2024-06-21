@@ -3,9 +3,9 @@ uid: ContactActivity
 title: ContactActivity
 description: Activity archive provider for the Company card
 keywords: ContactActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ContactActivity"

@@ -3,10 +3,10 @@ title: Sentry in services
 uid: sentry_in_services
 description: Sentry in services
 author: {github-id}
-so.date:
+date:
 keywords: sentry
-so.topic: concept
-so.area: api-services
+topic: concept
+area: api-services
 ---
 
 # Sentry in services

@@ -3,9 +3,9 @@ uid: emailcontactaddress
 title: emailcontactaddress
 description: Contact subchannel for special purpose archive provider used to search for email addresses.
 keywords: emailcontactaddress archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "emailcontactaddress"

@@ -3,9 +3,9 @@ uid: SaintProject
 title: SaintProject
 description: Archive provider for Project Saint Status - same as Find Project, but adds ability to call up stored definitions via a statusDefId column
 keywords: SaintProject archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaintProject"

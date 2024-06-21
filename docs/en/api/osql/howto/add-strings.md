@@ -3,9 +3,9 @@ title: Adding strings
 uid: osql_add_strings
 description: SuperOffice Objectified SQL - Add strings
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Adding strings

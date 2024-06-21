@@ -2,11 +2,11 @@
 title: WebApi element
 uid: ns_config_webapi
 description: NetServer WebApi element
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, authentication, WebAPI, AuthorizeWithImplicit, AuthorizeWithTicket, AuthorizeWithUsername, CORSEnable, CORSOrigin, CORS, authorize, authentication, security
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer WebApi element

@@ -4,9 +4,9 @@ uid: minimal_php_app_scenarios
 description: Scenarios
 author: {github-id}
 keywords:
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # Scenarios

@@ -2,7 +2,7 @@
 title: Bulk Operations
 description: How to insert, update and delete large numbers of records in bulk.
 author: AnthonyYates
-so.date: 02.29.2021
+date: 02.29.2021
 keywords: data-access, bulk-update, mass-operations
 ---
 

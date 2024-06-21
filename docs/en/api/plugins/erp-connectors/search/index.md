@@ -3,11 +3,11 @@ title: Search in ERP
 uid: erp_search
 description: ERP connector search
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: find
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Search in ERP

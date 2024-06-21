@@ -3,9 +3,9 @@ title: IQuoteConnector2
 uid: i_quote_connector2
 description: IQuoteConnector2
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # IQuoteConnector2

@@ -3,9 +3,9 @@ uid: SaleShadowSelectionCombined
 title: SaleShadowSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: SaleShadowSelectionCombined archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleShadowSelectionCombined"

@@ -3,11 +3,11 @@ title: CRM Online Core
 uid: so_nuget_crm_online_core
 description: SuperOffice NuGet CRM Online Core
 author: Tony Yates
-so.date: 02.29.2016
+date: 02.29.2016
 keywords: authentication
-so.topic: reference
-so.envir:
-so.client:
+topic: reference
+envir:
+client:
 ---
 
 # CRM Online Core

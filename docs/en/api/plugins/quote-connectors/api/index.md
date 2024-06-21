@@ -1,7 +1,7 @@
 ---
 title: Quote Connector API
 description: Quote Connector API
-so.date: 09.02.2022
+date: 09.02.2022
 ---
 
 # .net APIs

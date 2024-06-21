@@ -3,11 +3,11 @@ title: Authentication
 uid: auth_onsite_custom_proxy
 description: Authentication with NetServer web service custom proxies
 author: AnthonyYates
-so.date: 05.08.2018
+date: 05.08.2018
 keywords: authentication, SOAP
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 <!-- markdownlint-disable-file MD051 -->

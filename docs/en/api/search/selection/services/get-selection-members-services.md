@@ -3,11 +3,11 @@ title: How to retrieve members of a specific selection using services
 uid: get_selection_members_services
 description: How to retrieve members of a specific selection using services
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: search
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to retrieve members of a specific selection using services

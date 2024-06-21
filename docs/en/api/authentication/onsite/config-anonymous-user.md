@@ -4,9 +4,9 @@ uid: config_anonymous_user
 description: How to configure the anonymous users in the config file
 author: {github-id}
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to configure the anonymous users in the config file

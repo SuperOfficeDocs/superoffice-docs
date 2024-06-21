@@ -3,12 +3,12 @@ title: ifindagent
 description: IFindAgent
 author: {github-id}
 keywords: search
-so.topic: howto
-so.date:
-so.category: search
-so.area: api-services
-# so.envir:
-# so.client:
+topic: howto
+date:
+category: search
+area: api-services
+# envir:
+# client:
 ---
 
 # IFindAgent

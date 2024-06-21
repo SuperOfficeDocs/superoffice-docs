@@ -3,9 +3,9 @@ uid: SimplePerson
 title: SimplePerson
 description: 
 keywords: SimplePerson archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SimplePerson"

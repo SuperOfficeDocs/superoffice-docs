@@ -3,11 +3,11 @@ title: Appointment table
 uid: bulkupdate_appointment_table
 description: Bulk update appointment table
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, appointment
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD033 -->

@@ -3,9 +3,9 @@ title: REST WebAPI
 uid: rest_api
 description: SuperOffice REST Web API exposes objects as entities that can be manipulated using the HTTP verbs GET, PUT, POST, and DELETE.
 author: Bergfrid Dias
-so.date: 12.03.2021
+date: 12.03.2021
 keywords: API, web services, endpoints, WebAPI, REST, ODATA, SO-AppToken, SOTicket
-so.topic: concept
+topic: concept
 ---
 
 # REST WebAPI

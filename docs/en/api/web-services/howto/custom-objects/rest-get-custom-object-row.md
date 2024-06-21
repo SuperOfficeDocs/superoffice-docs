@@ -3,12 +3,12 @@ uid: api-rest-custom-object-get-row
 title: How to get a row from a custom object
 description: How to get (read) a row from a custom object via the REST APIs.
 author: Eivind Fasting
-so.date: 04.28.2024
-so.version: 10
+date: 04.28.2024
+version: 10
 keywords: custom object, ReadRow, DatabaseTable, TableRecord, extra table
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 <!-- markdownlint-disable-file MD051 -->

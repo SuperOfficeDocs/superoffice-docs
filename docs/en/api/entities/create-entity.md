@@ -3,9 +3,9 @@ title: How to create an Entity
 uid: create_entity
 description: Create entity with basic properties
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # How to create an Entity

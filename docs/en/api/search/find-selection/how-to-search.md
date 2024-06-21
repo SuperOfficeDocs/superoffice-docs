@@ -4,10 +4,10 @@ uid: selection_how_to_search
 description: Details what new selections are, and how to work with them in code. 
 author: {AnthonyYates}
 keywords: Selection, Find, Search
-so.topic: howto
-so.envir: online, onsite
-so.client: netserver
-so.version: 9.2
+topic: howto
+envir: online, onsite
+client: netserver
+version: 9.2
 ---
 
 # How to Search using Find Selections

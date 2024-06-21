@@ -4,9 +4,9 @@ uid: base_and_helper_classes
 description: Base and helper classes
 author: {github-id}
 keywords: IArchiveProvider
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Base and helper classes

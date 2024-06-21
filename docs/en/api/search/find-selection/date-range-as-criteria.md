@@ -4,9 +4,9 @@ uid: selection_dynamic_date_range_options
 description: Details date criterion in find selections.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find, Date
-so.topic: article
-# so.envir:
-so.client: web
+topic: article
+# envir:
+client: web
 ---
 
 # Dynamic date range as criteria

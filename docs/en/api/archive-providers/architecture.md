@@ -3,9 +3,9 @@ title: architecture
 description: Archive providers - architecture
 author: {github-id}
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Archive providers - architecture

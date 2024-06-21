@@ -3,9 +3,9 @@ uid: QuoteLineDynamicSelection
 title: QuoteLineDynamicSelection
 description: Quoteline selection archive using the selectionId as criterionmapping.
 keywords: QuoteLineDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineDynamicSelection"

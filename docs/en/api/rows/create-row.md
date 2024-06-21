@@ -3,9 +3,9 @@ title: Create a Row with basic properties
 uid: create_row
 description: Create row with basic properties
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Create a Row with basic properties

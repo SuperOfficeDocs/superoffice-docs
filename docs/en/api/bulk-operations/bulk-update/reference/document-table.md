@@ -3,11 +3,11 @@ title: Document table
 uid: bulkupdate_document_table
 description: Bulk update document table
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, document
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Document table

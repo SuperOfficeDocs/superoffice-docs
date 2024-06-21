@@ -2,12 +2,12 @@
 title: ClientConfigurationProvider
 uid: ns_config_client_configuration
 description: NetServer configuration for the Web client configuration data provider.
-so.date: 12.17.2021
+date: 12.17.2021
 author: Bergfrid Dias
 keywords: web.config, ClientConfigurationProvider, FilePath, cache, CustomPath
-so.topic: reference
-so.envir: onsite
-so.client: web
+topic: reference
+envir: onsite
+client: web
 ---
 
 # NetServer ClientConfigurationProvider element (SuperOffice only)

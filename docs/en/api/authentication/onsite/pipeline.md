@@ -3,11 +3,11 @@ title: Authentication pipeline
 uid: auth_pipeline
 description: Authentication pipeline
 author: {github-id}
-so.date: 05.08.2018
+date: 05.08.2018
 keywords: security, identity, authentication, plugin
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Authentication pipeline

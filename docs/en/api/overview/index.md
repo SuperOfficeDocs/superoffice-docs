@@ -3,11 +3,11 @@ uid: intro-to-superoffice-apis
 title: Introduction to SuperOffice APIs
 description: Introducing SuperOffice APIs. The levels of SuperOffice extensibility are configuration, UI workflow, scripting, external APIs, and internal APIs.
 author: Tony Yates
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: API, getting started, integration point, scripting, Jscript, Javascript, VB.NET, C#, NetServer, extensibility
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web, service
+topic: concept
+envir: cloud, onsite
+client: win, web, service
 ---
 
 # Introducing SuperOffice APIs

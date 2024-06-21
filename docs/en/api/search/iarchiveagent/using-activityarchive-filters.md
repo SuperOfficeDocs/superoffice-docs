@@ -4,12 +4,12 @@ uid: activity_archive_filters
 description: How to use ActivityArchive filters
 author: {github-id}
 keywords: 
-so.topic: howto
-so.date:
-so.category: 
-so.area: api-services
-# so.envir:
-# so.client:
+topic: howto
+date:
+category: 
+area: api-services
+# envir:
+# client:
 ---
 
 # How to use ActivityArchive filters

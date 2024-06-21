@@ -3,9 +3,9 @@ uid: search-api
 title: search
 description: "Introduction to API search capabilities and archive providers."
 author: SuperOfficeDevNet
-so.date: 02.02.2022
+date: 02.02.2022
 keywords: search
-so.topic: concept
+topic: concept
 ---
 
 # Search

@@ -3,9 +3,9 @@ title: Enum values with IN
 uid: osql_in
 description: SuperOffice Objectified SQL - Enum values with IN
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Enum values with IN

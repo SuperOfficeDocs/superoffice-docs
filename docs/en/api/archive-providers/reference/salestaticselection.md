@@ -3,9 +3,9 @@ uid: SaleStaticSelection
 title: SaleStaticSelection
 description: Static archive Provider for the Selection sale archive.
 keywords: SaleStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleStaticSelection"

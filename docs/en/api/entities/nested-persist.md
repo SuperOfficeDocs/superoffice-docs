@@ -3,9 +3,9 @@ title: NetServer Nested Persist
 uid: nested_persist
 description: The Nested Persist concept is a concept that allows for multiple related objects to be saved within the same transaction.
 author: Tony Yates
-so.date: 06.12.2009
+date: 06.12.2009
 keywords: NetServer
-so.topic: concept
+topic: concept
 ---
 
 # NetServer Nested Persist

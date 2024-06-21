@@ -3,11 +3,11 @@ title: Structured aggregation output with GroupBy
 uid: aggregate_groupby
 description: Structured aggregation output with groupby
 author: Tony Yates
-so.date: 11.17.2017
+date: 11.17.2017
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Structured aggregation output with GroupBy

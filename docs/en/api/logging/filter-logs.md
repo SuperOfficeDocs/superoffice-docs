@@ -3,9 +3,9 @@ uid: filter_netserver_logs
 title: Logging in NetServer
 description: How to filter NetServer logs.
 author: xt1
-so.date: 05.07.2021
+date: 05.07.2021
 keywords: logging
-so.topic: howto
+topic: howto
 ---
 
 # Filtering the logs

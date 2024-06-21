@@ -3,9 +3,9 @@ uid: AppointmentShadowSelectionV2
 title: AppointmentShadowSelectionV2
 description: Shadow contact provider for the appointment provider.
 keywords: AppointmentShadowSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AppointmentShadowSelectionV2"

@@ -3,11 +3,11 @@ title: Sentry overrides
 uid: sentry_overrides
 description: Sentry overrides
 author: {github-id}
-so.date: 02.06.2007
+date: 02.06.2007
 keywords: sentry, security
-so.topic: concept
-so.envir: onsite
-# so.client:
+topic: concept
+envir: onsite
+# client:
 ---
 
 # Sentry overrides

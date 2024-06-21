@@ -4,10 +4,10 @@ uid: find_selection_intro
 description: Details what new selections are, and how to work with them in code.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-so.topic: article
-# so.envir:
-so.client: web
-so.version: 9.2
+topic: article
+# envir:
+client: web
+version: 9.2
 ---
 
 <!-- markdownlint-disable-file MD051 -->

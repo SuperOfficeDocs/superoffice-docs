@@ -3,11 +3,11 @@ title: Architecture
 uid: erp_architecture
 description: ERP connector architecture
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Architecture

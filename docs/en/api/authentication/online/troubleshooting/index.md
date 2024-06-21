@@ -3,11 +3,11 @@ title: Error code
 uid: auth_error_codes
 description: Problems with application authorization, tokens, and certificate
 author: {github-id}
-so.date: 01.04.2022
+date: 01.04.2022
 keywords: authorization error, token, certificate
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Troubleshooting

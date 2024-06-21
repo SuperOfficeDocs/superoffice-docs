@@ -3,9 +3,9 @@ title: PriceListInfo
 uid: quote_connector_carrier_pricelistinfo
 description: ERP Quote Connector Interface data carrier - PriceListInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # PriceListInfo

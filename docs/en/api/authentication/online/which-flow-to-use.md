@@ -4,9 +4,9 @@ uid: online_auth_scenarios
 description: Authentication scenarios for various app types
 author: {github-id}
 keywords: authorization
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Which flow should you use?

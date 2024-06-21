@@ -3,11 +3,11 @@ title: How to perform an archive provider query
 uid: how_to_query_with_archive_providers
 description: How to perform an archive provider query
 author: Tony Yates
-so.date: 11.17.2017
+date: 11.17.2017
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to perform an archive provider query

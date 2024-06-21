@@ -3,9 +3,9 @@ title: How to extend the Tooltip service using plugins
 uid: create_tooltip_plugin
 description: How to extend the Tooltip service using plugins
 author: {github-id}
-so.date:
+date:
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # How to extend the Tooltip service using plugins

@@ -4,9 +4,9 @@ uid: iframe_idp_auth
 description: Unable to authenticate inside an iframe with IdP
 author: {github-id}
 keywords: authentication
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Unable to authenticate inside an iframe with IdP

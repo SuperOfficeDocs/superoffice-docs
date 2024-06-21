@@ -3,9 +3,9 @@ uid: SubContactPersonDynamicSelectionSingleCriteriaGroup
 title: SubContactPersonDynamicSelectionSingleCriteriaGroup
 description: Contact + Person selection archive using the selectionId as criterionmapping.
 keywords: SubContactPersonDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SubContactPersonDynamicSelectionSingleCriteriaGroup"

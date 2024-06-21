@@ -3,9 +3,9 @@ uid: LinksDocuments
 title: LinksDocuments
 description: Link data provider for documents, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksDocuments archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "LinksDocuments"

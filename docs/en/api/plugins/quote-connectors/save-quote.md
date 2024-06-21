@@ -3,9 +3,9 @@ title: Saving the quote
 uid: quote_connectors_save_quote
 description: Saving the quote
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Saving the quote

@@ -3,11 +3,11 @@ title: Creating a dynamic selection using entities
 uid: create_dynamic_selection_entity
 description: Creating a dynamic selection using entities
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: search
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Creating a dynamic selection using entities

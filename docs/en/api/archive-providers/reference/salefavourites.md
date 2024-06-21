@@ -3,9 +3,9 @@ uid: salefavourites
 title: salefavourites
 description: 
 keywords: salefavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "salefavourites"

@@ -3,11 +3,11 @@ title: ERP Sync Service WCF host
 uid: erp_arch_wfc
 description: ERP Sync Service WCF host
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: soap,web.config
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # ERP Sync Service WCF host

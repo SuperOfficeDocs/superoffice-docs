@@ -4,8 +4,8 @@ uid: reasons_fields
 description: Quote connector Reason fields
 author: {github-id}
 keywords: quote
-so.topic: concept
-so.date:
+topic: concept
+date:
 ---
 
 # Reason fields

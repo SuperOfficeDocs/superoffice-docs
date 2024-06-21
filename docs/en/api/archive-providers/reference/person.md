@@ -3,9 +3,9 @@ uid: Person
 title: Person
 description: This is the archive Provide for the Person Archive of the Contact Panel - or to use GUI terminology, the Contact archive of the Company panel.
 keywords: Person archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Person"

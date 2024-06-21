@@ -2,10 +2,10 @@
 title: Mass Operations
 description: How to change large numbers of records in bulk.
 author: AnthonyYates
-so.date: 02.29.2021
+date: 02.29.2021
 keywords: data-access, bulk-update
 version: 9.2 R04
-so.topic: concept
+topic: concept
 ---
 
 # Mass Operations

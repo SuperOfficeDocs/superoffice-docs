@@ -3,9 +3,9 @@ uid: SaleDynamicSelectionSingleCriteriaGroup
 title: SaleDynamicSelectionSingleCriteriaGroup
 description: Sale selection archive using the selectionId as criterionmapping.
 keywords: SaleDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleDynamicSelectionSingleCriteriaGroup"

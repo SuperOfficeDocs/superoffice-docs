@@ -1,5 +1,5 @@
 ---
-so.date: 05.11.2016
+date: 05.11.2016
 ---
 
 # Ranking Fields

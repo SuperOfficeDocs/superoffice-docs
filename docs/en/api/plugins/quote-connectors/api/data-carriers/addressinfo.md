@@ -3,9 +3,9 @@ title: AddressInfo
 uid: quote_connector_carrier_addressinfo
 description: ERP Quote Connector Interface data carrier | AddressInfo
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # AddressInfo

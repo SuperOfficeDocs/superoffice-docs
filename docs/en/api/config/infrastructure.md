@@ -2,11 +2,11 @@
 title: Infrastructure element
 uid: ns_config_infrastructure
 description: NetServer configuration values related to Online Infrastructure.
-so.date: 12.08.2021
+date: 12.08.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Infrastructure
-so.topic: reference
-so.envir: online
+topic: reference
+envir: online
 ---
 
 # NetServer Infrastructure element

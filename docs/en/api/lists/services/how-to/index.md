@@ -3,10 +3,10 @@ title: web-service-list-tutorials
 description: List of tutorials how to work with list web service APIs
 author: AnthonyYates
 keywords: list,agent
-so.topic: how-to-guide
-so.date: 03.03.2022
-so.category: list
-so.area: api-services
+topic: how-to-guide
+date: 03.03.2022
+category: list
+area: api-services
 ---
 
 # How-to work with lists

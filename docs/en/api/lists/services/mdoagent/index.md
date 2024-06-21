@@ -3,12 +3,12 @@ title: web-service-mdo-endpoint
 description: Describes Multi-departmental organization lists (MDO) APIs
 author: AnthonyYates
 keywords: list,MDO
-so.topic: concept
-so.date: 03.03.2022
-so.category: list
-so.area: api-services
-# so.envir:
-# so.client:
+topic: concept
+date: 03.03.2022
+category: list
+area: api-services
+# envir:
+# client:
 ---
 
 # Multi-Departmental Organizational (MDO) API

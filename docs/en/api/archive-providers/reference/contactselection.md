@@ -3,9 +3,9 @@ uid: ContactSelection
 title: ContactSelection
 description: 
 keywords: ContactSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ContactSelection"

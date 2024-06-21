@@ -3,12 +3,12 @@ title: iarchiveagent
 description: IArchiveAgent
 author: {github-id}
 keywords: 
-so.topic: concept
-so.date:
-so.category:
-so.area: api-services
-# so.envir:
-# so.client:
+topic: concept
+date:
+category:
+area: api-services
+# envir:
+# client:
 ---
 
 # IArchiveAgent

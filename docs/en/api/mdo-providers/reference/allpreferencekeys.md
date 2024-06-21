@@ -3,9 +3,9 @@ uid: allpreferencekeys
 title: allpreferencekeys
 keywords: mdoprovider mdo provider allpreferencekeys
 description: MDO Provider that retrieves all preference keys
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "allpreferencekeys" MDO List

@@ -3,9 +3,9 @@ uid: externaldocuments
 title: externaldocuments
 description: 
 keywords: externaldocuments archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "externaldocuments"

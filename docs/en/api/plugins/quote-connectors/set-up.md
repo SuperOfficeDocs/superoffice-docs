@@ -3,9 +3,9 @@ title: How to set up a quote connector
 uid: quote_connectors_setup
 description: How to set up a quote connector
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # How to set up a quote connector

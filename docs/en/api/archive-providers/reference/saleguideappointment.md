@@ -3,9 +3,9 @@ uid: SaleGuideAppointment
 title: SaleGuideAppointment
 description: Specific provider for Sale Guide Items of type Appointment
 keywords: SaleGuideAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleGuideAppointment"

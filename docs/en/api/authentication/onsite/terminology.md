@@ -3,9 +3,9 @@ title: Terminology
 uid: auth_terminology
 description: Authentication terminology
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: authentication, authorization, user name
-so.topic: concept
+topic: concept
 ---
 
 # Terminology

@@ -3,9 +3,9 @@ uid: urlencoding
 title: urlencoding
 keywords: mdoprovider mdo provider urlencoding
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "urlencoding" MDO List

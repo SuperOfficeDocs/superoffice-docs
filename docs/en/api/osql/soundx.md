@@ -2,11 +2,11 @@
 title: soundx
 description: Soundex comes to NetServer
 author: Marek Vokáč
-so.date: 05.07.2012
+date: 05.07.2012
 keywords:
-so.topic: article
-so.envir: cloud
-so.client: online
+topic: article
+envir: cloud
+client: online
 ---
 
 # Soundex comes to NetServer

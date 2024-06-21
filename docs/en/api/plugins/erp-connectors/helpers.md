@@ -3,11 +3,11 @@ uid: erp_connector_helpers
 title: Helper classes
 description: ERP connector Helper classes
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Helper classes

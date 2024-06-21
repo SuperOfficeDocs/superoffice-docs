@@ -3,11 +3,11 @@ title: Events in Row objects
 uid: row_events
 description: Events in Row objects
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: hook
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Events in Row objects

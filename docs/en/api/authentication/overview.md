@@ -3,11 +3,11 @@ title: SuperOffice Authentication
 uid: authentication_overview
 description: Overview of SuperOffice API authentication.
 author: AnthonyYates
-so.date: 05.08.2018
+date: 05.08.2018
 keywords: security, identity
-so.topic: concept
-so.envir: onsite, online
-# so.client:
+topic: concept
+envir: onsite, online
+# client:
 ---
 
 # SuperOffice Authentication

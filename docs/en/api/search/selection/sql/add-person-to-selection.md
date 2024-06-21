@@ -3,11 +3,11 @@ title: Creating a selection
 uid: add_person_to_selection
 description: Adding a person to a selection
 author: {github-id}
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: search, selection, static
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 

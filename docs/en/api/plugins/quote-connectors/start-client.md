@@ -3,9 +3,9 @@ title: Start the client
 uid: quote_connectors_start
 description: How to start the quote connector client
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Start the client

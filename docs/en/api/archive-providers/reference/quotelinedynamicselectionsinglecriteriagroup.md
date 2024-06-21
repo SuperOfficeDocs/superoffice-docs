@@ -3,9 +3,9 @@ uid: QuoteLineDynamicSelectionSingleCriteriaGroup
 title: QuoteLineDynamicSelectionSingleCriteriaGroup
 description: Sale selection archive using the selectionId as criterionmapping.
 keywords: QuoteLineDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineDynamicSelectionSingleCriteriaGroup"

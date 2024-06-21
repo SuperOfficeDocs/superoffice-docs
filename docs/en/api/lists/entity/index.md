@@ -3,10 +3,10 @@ title: SoListProviders
 uid: list_providers
 description: List providers
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-so.area: api-core
+topic: concept
+area: api-core
 ---
 
 # SoListProviders

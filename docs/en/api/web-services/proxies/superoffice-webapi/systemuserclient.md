@@ -3,9 +3,9 @@ title: System user
 uid: webapi-and-system-user
 description: "How to use the System User flow."
 author: Anthony Yates
-so.date: 11.24.2021
+date: 11.24.2021
 keywords: API, web services, proxy, WebAPI, REST, system user, authentication, PartnerSystemUserService, Ticket, SystemUserClient, SuperOffice.WebApi.IdentityModel
-so.topic: concept
+topic: concept
 ---
 
 # How to use System User Client

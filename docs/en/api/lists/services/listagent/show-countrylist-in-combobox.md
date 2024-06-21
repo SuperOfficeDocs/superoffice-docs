@@ -4,12 +4,12 @@ uid: listagent_example_1
 description: Show list data in UI combo box using a ListAgent
 author: {github-id}
 keywords: 
-so.topic: howto
-so.date:
-so.category: list
-so.area: api-services
-# so.envir:
-# so.client:
+topic: howto
+date:
+category: list
+area: api-services
+# envir:
+# client:
 ---
 
 # Show list data in UI combo box

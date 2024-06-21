@@ -2,11 +2,11 @@
 title: Mail element
 uid: ns_config_Mail
 description: NetServer Mail component configuration options.
-so.date: 12.09.2021
+date: 12.09.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Mail, NumberOfDaysToDownload, Reader, Sender
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 # NetServer Mail element (SuperOffice only)
 

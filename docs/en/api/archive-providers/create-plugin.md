@@ -4,9 +4,9 @@ uid: create_archiveprovider_plugin
 description: Create your own archive provider
 author: {github-id}
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Create your own archive provider

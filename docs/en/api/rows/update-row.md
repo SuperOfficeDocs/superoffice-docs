@@ -3,9 +3,9 @@ title: Update basic properties of a Row
 uid: update_row
 description: SuperOffice database update row with basic properties
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Update basic properties of a Row

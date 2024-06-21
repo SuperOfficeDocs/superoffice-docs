@@ -3,9 +3,9 @@ uid: ConfigurableArchiveQuoteLine
 title: ConfigurableArchiveQuoteLine
 description: This is the archive Provider for the QuoteLine Archive.
 keywords: ConfigurableArchiveQuoteLine archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchiveQuoteLine"

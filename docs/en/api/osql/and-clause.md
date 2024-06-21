@@ -3,9 +3,9 @@ title: AND clause
 uid: osql_and
 description: SuperOffice Objectified SQL - AND clause
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # AND clause

@@ -4,10 +4,10 @@ title: How to get all user-defined fields
 description: Describes how to get all user-defined fields using web services
 keywords: get user-defined field, custom field, udef
 author: AnthonyYates
-so.date: 03.11.2022
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 03.11.2022
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to get all user-defined fields using the web services API

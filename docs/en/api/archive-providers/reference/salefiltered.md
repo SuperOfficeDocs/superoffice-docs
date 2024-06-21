@@ -3,9 +3,9 @@ uid: SaleFiltered
 title: SaleFiltered
 description: Sale archive provider for the Contact/Project card
 keywords: SaleFiltered archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleFiltered"

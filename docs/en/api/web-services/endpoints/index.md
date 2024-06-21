@@ -3,9 +3,9 @@ title: Endpoints
 uid: ws_endpoints
 description: Endpoints
 author: Bergfrid Dias
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: API, web services, endpoints, WebAPI, SOAP, REST
-so.topic: concept
+topic: concept
 ---
 
 # Endpoints

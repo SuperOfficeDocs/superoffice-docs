@@ -3,9 +3,9 @@ uid: preferencesection
 title: preferencesection
 keywords: mdoprovider mdo provider preferencesection
 description: MDO Provider that retrieves a list of preference sections
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "preferencesection" MDO List

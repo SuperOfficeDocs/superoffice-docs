@@ -3,9 +3,9 @@ uid: SaleSelectionCombinedV2
 title: SaleSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: SaleSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleSelectionCombinedV2"

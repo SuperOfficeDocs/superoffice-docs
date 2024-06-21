@@ -3,9 +3,9 @@ uid: SaleHistory
 title: SaleHistory
 description: Sale histories. Contains all changes to the sale records over time.
 keywords: SaleHistory archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleHistory"

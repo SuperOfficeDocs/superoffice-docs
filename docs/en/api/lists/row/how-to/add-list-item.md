@@ -3,9 +3,9 @@ title: How to add a list item
 uid: add_list_item
 description: How to add a list item
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: row, list, category, CategoryRow, CategoryGroupLinkRow
-so.topic: howto
+topic: howto
 ---
 
 # How to add a list item

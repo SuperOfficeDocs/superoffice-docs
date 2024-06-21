@@ -3,9 +3,9 @@ uid: ticketalert
 title: ticketalert
 keywords: mdoprovider mdo provider ticketalert
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ticketalert" MDO List

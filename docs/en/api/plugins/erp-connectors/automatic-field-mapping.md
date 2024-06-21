@@ -3,11 +3,11 @@ title: ERP Sync engine automatic field mapping
 uid: erp_auto_field_mapping
 description: ERP Sync engine automatic field mapping
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # ERP Sync engine automatic field mapping

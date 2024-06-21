@@ -3,9 +3,9 @@ uid: ProjectShadowStaticSelectionV2
 title: ProjectShadowStaticSelectionV2
 description: Shadow contact provider for the static Project provider.
 keywords: ProjectShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectShadowStaticSelectionV2"

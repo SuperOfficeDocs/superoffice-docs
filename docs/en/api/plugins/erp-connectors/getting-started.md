@@ -3,11 +3,11 @@ title: Getting started with ERP development
 uid: erp_connector_guide
 description: Getting started with ERP development
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: ERP, ErpConnector, DynamicLoad
-so.topic: guide
-# so.envir:
-# so.client:
+topic: guide
+# envir:
+# client:
 ---
 
 # Getting started with ERP development

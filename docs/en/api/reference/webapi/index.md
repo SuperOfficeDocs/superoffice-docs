@@ -2,8 +2,8 @@
 title: SuperOffice WebApi Client Library
 description: Describes the SuperOffice WebApi library, a REST client for SuperOffice web services.
 author: Anthony Yates
-so.date: 11.24.2021
-so.topic: reference
+date: 11.24.2021
+topic: reference
 keywords: API, WebApi, REST client, SuperOffice.WebApi, OpenID Connect, OAuth, TokenValidationResult
 ---
 

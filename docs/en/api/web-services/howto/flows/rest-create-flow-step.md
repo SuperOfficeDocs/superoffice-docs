@@ -4,11 +4,11 @@ title: Create a Step object
 description: Create a Step object
 keywords: flow, EmailFlow, step, CreateDefaultWorkflowStepFromType, WorkflowStepId, StepType
 author: Eivind Fasting
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 05.24.2024
+version: 10.3.5
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Create a Step object

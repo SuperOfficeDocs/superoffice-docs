@@ -3,11 +3,11 @@ title: Authentication and SOAP calls
 uid: auth_and_soap_calls
 description: Authentication and SOAP calls
  Bergfrid Dias
-so.date: 11.22.2021
+date: 11.22.2021
 keywords: authentication, SOAP, SoSession, WcfSoPrincipalService, SoCredentials
-so.topic: concept
-so.envir: onsite
-# so.client: 
+topic: concept
+envir: onsite
+# client: 
 ---
 
 # Authentication and SOAP calls

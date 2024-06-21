@@ -3,9 +3,9 @@ uid: simpleshipment
 title: simpleshipment
 description: Archive provider for the list of mailings
 keywords: simpleshipment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "simpleshipment"

@@ -2,11 +2,11 @@
 title: CustomSearch queries
 description: CustomSearch queries
 author: AnthonyYates
-so.date: 11.16.2021
+date: 11.16.2021
 keywords: data access, rows, CustomSearch
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web
+topic: concept
+envir: cloud, onsite
+client: win, web
 ---
 
 # CustomSearch queries

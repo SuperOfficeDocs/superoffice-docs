@@ -4,8 +4,8 @@ title: SuperID certificates
 description: Introduction to SuperID certificates for SuperOffice CRM Online.
 keywords: SuperID, certificate, PKI, trust type, PeerTrust, SuperIdTokenHandler
 author: AnthonyYates, Eivind Fasting
-so.date: 06.18.2024
-so.envir: online
+date: 06.18.2024
+envir: online
 ---
 
 # SuperID certificates

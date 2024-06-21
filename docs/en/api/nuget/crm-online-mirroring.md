@@ -3,11 +3,11 @@ title: CRM Online Database Mirroring
 uid: so_nuget_crm_online_mirroring
 description: SuperOffice NuGet CRM Online Database Mirroring
 author: Tony Yates
-so.date: 02.29.2016
+date: 02.29.2016
 keywords: mirroring
-so.topic: reference
-so.envir:
-so.client:
+topic: reference
+envir:
+client:
 ---
 
 # CRM Online Database Mirroring

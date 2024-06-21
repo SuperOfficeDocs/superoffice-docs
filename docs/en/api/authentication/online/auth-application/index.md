@@ -4,9 +4,9 @@ uid: system_user_flow
 description: SuperOffice system user flow for non-interactive server-to-server communications
 author: {github-id}
 keywords: authentication, system user, back-channel, non-interactive
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 <!-- markdownlint-disable-file MD051 -->

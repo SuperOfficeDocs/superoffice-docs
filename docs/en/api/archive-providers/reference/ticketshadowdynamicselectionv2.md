@@ -3,9 +3,9 @@ uid: TicketShadowDynamicSelectionV2
 title: TicketShadowDynamicSelectionV2
 description: Ticket shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.TicketShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: TicketShadowDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketShadowDynamicSelectionV2"

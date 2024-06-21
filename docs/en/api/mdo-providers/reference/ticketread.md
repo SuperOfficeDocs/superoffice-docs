@@ -3,9 +3,9 @@ uid: ticketread
 title: ticketread
 keywords: mdoprovider mdo provider ticketread
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ticketread" MDO List

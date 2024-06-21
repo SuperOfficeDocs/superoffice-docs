@@ -3,11 +3,11 @@ title: Terminology
 uid: erp_terminology
 description: ERP connector terminology
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # Terminology

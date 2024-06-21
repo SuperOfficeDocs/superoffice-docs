@@ -3,9 +3,9 @@ title: SOTimezone
 uid: webapi_sotimezone
 description: SuperOffice can support multiple time zones
 author: Bergfrid Dias
-so.date: 11.19.2021
+date: 11.19.2021
 keywords: timezone, date, timeanddate
-so.topic: concept 
+topic: concept 
 ---
 
 # SOTimezone

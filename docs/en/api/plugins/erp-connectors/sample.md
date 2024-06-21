@@ -3,11 +3,11 @@ title: Example connector
 uid: erp_connector_sample
 description: ERP sync connector example
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: sample
-# so.envir:
-# so.client:
+topic: sample
+# envir:
+# client:
 ---
 
 # Example connector

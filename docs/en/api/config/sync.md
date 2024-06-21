@@ -2,11 +2,11 @@
 title: Sync element
 uid: ns_config_sync
 description: NetServer configuration values related to SuperOffice Sync (SoSync).
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, Sync, SoSync, synchronization, SoSyncAdmin, SettingsAbsoluteExpiration, SettingsSlidingExpiration
-so.topic: reference
-so.envir: onsite
+topic: reference
+envir: onsite
 ---
 
 # NetServer Sync element (legacy SuperOffice only)

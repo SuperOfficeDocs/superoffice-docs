@@ -2,12 +2,12 @@
 title: NetServer BatchService element
 uid: ns_config_batch_service
 description: NetServer BatchService element. Configuration values for the Windows batch task service.
-so.date: 12.17.2021
+date: 12.17.2021
 author: Bergfrid Dias
 keywords: NetServer, web.config, BatchService, DiagnosticsWebUri
-so.topic: reference
-so.envir: onsite
-so.client: win
+topic: reference
+envir: onsite
+client: win
 ---
 
 # NetServer BatchService element

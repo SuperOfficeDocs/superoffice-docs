@@ -2,9 +2,9 @@
 title: Selection
 description: Selection
 author: {github-id}
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: search, selection
-so.topic: concept
+topic: concept
 ---
 
 # Selection

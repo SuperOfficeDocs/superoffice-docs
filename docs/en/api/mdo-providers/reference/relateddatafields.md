@@ -3,9 +3,9 @@ uid: relateddatafields
 title: relateddatafields
 keywords: mdoprovider mdo provider relateddatafields
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "relateddatafields" MDO List

@@ -3,9 +3,9 @@ title: SOAP
 uid: soap
 description: SuperOffice SOAP API endpoints
 author: Bergfrid Dias
-so.date: 12.02.2021
+date: 12.02.2021
 keywords: API, web services, endpoints, SOAP, Agents, Services88
-so.topic: concept
+topic: concept
 ---
 
 # SOAP API

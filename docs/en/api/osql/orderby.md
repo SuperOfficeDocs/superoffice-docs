@@ -3,9 +3,9 @@ title: OrderBy
 uid: osql_orderby
 description: SuperOffice Objectified SQL - OrderBy
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # OrderBy

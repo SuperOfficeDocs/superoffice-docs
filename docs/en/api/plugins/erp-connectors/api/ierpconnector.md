@@ -3,11 +3,11 @@ title: IErpConnector
 uid: erp_api_ierpconnector
 description: Sync Connector API - IErpConnector
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: reference
-# so.envir:
-# so.client:
+topic: reference
+# envir:
+# client:
 ---
 
 # IErpConnector

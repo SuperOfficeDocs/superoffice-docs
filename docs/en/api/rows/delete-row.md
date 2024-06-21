@@ -3,9 +3,9 @@ title: Delete a Row
 uid: delete_row
 description: SuperOffice database delete row
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Delete a Row

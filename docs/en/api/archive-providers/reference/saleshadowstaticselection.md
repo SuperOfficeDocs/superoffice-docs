@@ -3,9 +3,9 @@ uid: SaleShadowStaticSelection
 title: SaleShadowStaticSelection
 description: Shadow contact provider for the static sale provider.
 keywords: SaleShadowStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleShadowStaticSelection"

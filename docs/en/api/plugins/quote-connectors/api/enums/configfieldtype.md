@@ -3,9 +3,9 @@ title: Enum ConfigFieldType
 uid: quote_connector_enum_configfieldtype
 description: ERP Quote Connector Interface data carrier - Enum ConfigFieldType
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: reference
+topic: reference
 ---
 
 # Enum ConfigFieldType

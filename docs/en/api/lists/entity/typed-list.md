@@ -3,9 +3,9 @@ title: Typed list providers
 uid: typed_list_providers
 description: Typed list providers
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Typed list providers

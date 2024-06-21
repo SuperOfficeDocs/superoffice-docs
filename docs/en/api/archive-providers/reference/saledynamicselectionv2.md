@@ -3,9 +3,9 @@ uid: SaleDynamicSelectionV2
 title: SaleDynamicSelectionV2
 description: Sale selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: SaleDynamicSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleDynamicSelectionV2"

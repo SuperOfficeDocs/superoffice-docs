@@ -3,9 +3,9 @@ uid: Reports
 title: Reports
 description: Archive provider for the list of reports
 keywords: Reports archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Reports"

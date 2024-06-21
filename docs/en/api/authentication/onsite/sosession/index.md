@@ -3,11 +3,11 @@ title: NetServer authentication
 uid: authentication_sosession
 description: NetServer Core & NetServer Service proxy authentication using SoSession, session handling
 author: AnthonyYates
-so.date: 03.25.2022
+date: 03.25.2022
 keywords: security, authentication, SoSession, IPrincipal, SoSession.Principal, SoCredentials, SoCredentials.Ticket
-so.topic: concept
-so.envir: onsite
-so.client: 
+topic: concept
+envir: onsite
+client: 
 ---
 
 # NetServer authentication

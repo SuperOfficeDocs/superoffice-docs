@@ -3,9 +3,9 @@ uid: FormSubmission
 title: FormSubmission
 description: Archive provider for listing form submissions
 keywords: FormSubmission archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FormSubmission"

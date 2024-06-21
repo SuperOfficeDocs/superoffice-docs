@@ -5,9 +5,9 @@ description: How to import data into Excel
 author: Tony Yates
 so-date: 10.15.2020
 keywords:
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # How to import data into Excel

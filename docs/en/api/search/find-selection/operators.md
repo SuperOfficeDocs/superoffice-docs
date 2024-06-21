@@ -3,9 +3,9 @@ title: Criteria operators
 description: Defines what operators are used with which data types and describes how they are used.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-so.topic: reference
-so.envir: cloud, onsite
-so.client: web
+topic: reference
+envir: cloud, onsite
+client: web
 ---
 
 # Operators and data types

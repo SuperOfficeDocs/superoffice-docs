@@ -3,9 +3,9 @@ uid: ChatSession
 title: ChatSession
 description: Archive provider for listing chat session and related data to a chat
 keywords: ChatSession archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ChatSession"

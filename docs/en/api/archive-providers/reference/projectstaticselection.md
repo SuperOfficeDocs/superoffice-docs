@@ -3,9 +3,9 @@ uid: ProjectStaticSelection
 title: ProjectStaticSelection
 description: 
 keywords: ProjectStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectStaticSelection"

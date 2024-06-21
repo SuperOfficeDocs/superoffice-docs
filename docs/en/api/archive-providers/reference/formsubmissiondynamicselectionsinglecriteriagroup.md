@@ -3,9 +3,9 @@ uid: FormSubmissionDynamicSelectionSingleCriteriaGroup
 title: FormSubmissionDynamicSelectionSingleCriteriaGroup
 description: FormSubmission selection archive using the selectionId as criterionmapping.
 keywords: FormSubmissionDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionDynamicSelectionSingleCriteriaGroup"

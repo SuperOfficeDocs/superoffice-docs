@@ -3,10 +3,10 @@ title: Switching between sessions
 uid: ns_switch_sessions
 description: Switching between sessions for NetServer Core & Service proxy
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: authentication, SoSession
-so.topic: howto
-so.envir: onsite
+topic: howto
+envir: onsite
 ---
 
 # Switching between sessions

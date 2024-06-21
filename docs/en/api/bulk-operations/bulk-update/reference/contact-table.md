@@ -3,11 +3,11 @@ title: Contact table
 uid: bulkupdate_contact_table
 description: Bulk update contact table
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, contact
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Contact Table

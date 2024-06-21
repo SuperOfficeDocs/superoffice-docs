@@ -3,9 +3,9 @@ uid: TicketShadowSelection
 title: TicketShadowSelection
 description: Shadow contact provider for the ticket provider.
 keywords: TicketShadowSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketShadowSelection"

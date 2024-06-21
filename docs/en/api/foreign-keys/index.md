@@ -3,9 +3,9 @@ title: Foreign keys
 uid: foreign_keys
 description: Foreign keys
 author: {github-id}
-so.date: 06.24.2016
+date: 06.24.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # Foreign keys

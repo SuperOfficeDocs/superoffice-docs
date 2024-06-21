@@ -3,11 +3,11 @@ title: Bulk update examples using NetServer Core API
 uid: ns_core_examples
 description: Bulk update examples using NetServer Core API
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords:
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Bulk update examples using NetServer Core API

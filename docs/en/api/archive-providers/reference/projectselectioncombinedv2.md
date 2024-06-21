@@ -3,9 +3,9 @@ uid: ProjectSelectionCombinedV2
 title: ProjectSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: ProjectSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ProjectSelectionCombinedV2"

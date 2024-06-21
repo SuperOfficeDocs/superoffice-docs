@@ -3,9 +3,9 @@ uid: QuoteVersionAttachment
 title: QuoteVersionAttachment
 description: This is the archive Provider for quote version attachments.
 keywords: QuoteVersionAttachment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteVersionAttachment"

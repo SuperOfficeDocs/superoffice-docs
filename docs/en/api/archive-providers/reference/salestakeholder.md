@@ -3,9 +3,9 @@ uid: SaleStakeholder
 title: SaleStakeholder
 description: 
 keywords: SaleStakeholder archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "SaleStakeholder"

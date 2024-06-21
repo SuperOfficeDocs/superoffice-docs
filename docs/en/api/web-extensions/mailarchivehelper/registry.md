@@ -3,11 +3,11 @@ title: Registry
 uid: mah_registry
 description: MailArchiveHelper registry
 author: Tony Yates
-so.date: 06.24.2016
+date: 06.24.2016
 keywords: maillink,preferences
-so.topic: concept
-so.client: web
-so.envir: onsite
+topic: concept
+client: web
+envir: onsite
 ---
 
 # Registry

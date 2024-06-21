@@ -2,12 +2,12 @@
 title: IntellisyncConnector element
 uid: ns_config_intellisyncconnector
 description: NetServer configuration settings used by SoIntellisyncConnector.
-so.date: 12.07.2021
+date: 12.07.2021
 author: Bergfrid Dias
 keywords: config, NetServer, web.config, SoIntellisyncConnector
-so.topic: reference
-so.envir: onsite
-so.version: 6
+topic: reference
+envir: onsite
+version: 6
 ---
 
 # IntellisyncConnector element (Legacy - SuperOffice only)

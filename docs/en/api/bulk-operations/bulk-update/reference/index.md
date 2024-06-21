@@ -2,11 +2,11 @@
 title: Bulk Update API reference
 uid: bulkupdate-reference
 description: Bulk Update API reference
-so.date: 01.27.2022
+date: 01.27.2022
 keywords: bulk update
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Bulk Update API reference

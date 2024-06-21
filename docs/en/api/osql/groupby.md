@@ -3,9 +3,9 @@ title: GroupBy
 uid: osql_groupby
 description: SuperOffice Objectified SQL - GroupBy
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: concept
+topic: concept
 ---
 
 # GroupBy

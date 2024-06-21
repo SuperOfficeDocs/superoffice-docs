@@ -3,9 +3,9 @@ title: Graphic report using Excel
 uid: graphic_report_excel
 description: Graphic report using Excel
 author: {github-id}
-so.date: 
+date: 
 keywords: 
-so.topic: tutorial
+topic: tutorial
 ---
 
 # Graphic report using Excel

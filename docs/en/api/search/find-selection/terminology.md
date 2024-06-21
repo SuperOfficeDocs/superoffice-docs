@@ -3,9 +3,9 @@ title: Terminology
 description: Common terms and concepts pertaining to selections
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
-so.topic: reference
-# so.envir:
-so.client: web
+topic: reference
+# envir:
+client: web
 ---
 
 # Common terms and concepts

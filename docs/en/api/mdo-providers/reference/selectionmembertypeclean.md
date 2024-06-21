@@ -3,9 +3,9 @@ uid: selectionmembertypeclean
 title: selectionmembertypeclean
 keywords: mdoprovider mdo provider selectionmembertypeclean
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "selectionmembertypeclean" MDO List

@@ -4,11 +4,11 @@ title: How to update a row in a custom object
 description: How to update a row in a custom object via the REST APIs.
 keywords: custom object, DeleteRow, DatabaseTable, TableRecord, extra table
 author: Eivind Fasting
-so.date: 04.28.2024
-so.version: 10
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 04.28.2024
+version: 10
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 <!-- markdownlint-disable-file MD051 -->

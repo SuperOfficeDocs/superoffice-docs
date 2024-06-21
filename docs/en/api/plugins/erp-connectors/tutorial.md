@@ -3,11 +3,11 @@ title: Tutorial (company)
 uid: erp_tutorial_company
 description: ERP sync - tutorial company
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: guide
-# so.envir:
-# so.client:
+topic: guide
+# envir:
+# client:
 ---
 
 # Tutorial (company)

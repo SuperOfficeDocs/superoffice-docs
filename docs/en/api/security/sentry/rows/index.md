@@ -3,9 +3,9 @@ title: Sentry
 uid: rows_and_sentry
 description: SuperOffice database Using Sentry with rows
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords: netserver, security, sentry, rows
-so.topic: concept
+topic: concept
 ---
 
 # Sentry

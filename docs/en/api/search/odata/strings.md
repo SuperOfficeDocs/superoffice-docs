@@ -4,10 +4,10 @@ title: String
 description: REST Web API search strings
 keywords: search, odata, string
 author: Tony Yates, Eivind Fasting
-so.date: 06.18.2024
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 06.18.2024
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # String

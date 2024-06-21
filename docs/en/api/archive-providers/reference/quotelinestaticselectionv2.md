@@ -3,9 +3,9 @@ uid: QuoteLineStaticSelectionV2
 title: QuoteLineStaticSelectionV2
 description: Static archive Provider for the Selection quoteline archive.
 keywords: QuoteLineStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "QuoteLineStaticSelectionV2"

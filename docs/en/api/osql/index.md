@@ -3,11 +3,11 @@ uid: osql
 title: SuperOffice Objectified SQL (OSQL)
 description: SuperOffice Objectified SQL provides low-level, high-performance, database-independent data access.
 author: {github-id}
-so.date: 11.16.2021
+date: 11.16.2021
 keywords: data access, OSQL, objectified SQL, SuperOffice.CRM.Data, SuperOffice.Data, SuperOffice.Data.SQL, SODBIF
-so.topic: concept
-so.envir: cloud, onsite
-so.client: win, web
+topic: concept
+envir: cloud, onsite
+client: win, web
 ---
 
 # SuperOffice Objectified SQL (OSQL)

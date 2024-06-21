@@ -3,9 +3,9 @@ title: Update a Row through an Entity
 uid: update_row_in_entity
 description: Update a Row through an Entity
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
+topic: howto
 ---
 
 # Update a Row through an Entity

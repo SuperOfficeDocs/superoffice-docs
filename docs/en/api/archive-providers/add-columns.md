@@ -3,11 +3,11 @@ title: Add columns to archive providers
 uid: add_columns
 description: Add columns to archive providers
 author: Tony Yates
-so.date: 08.03.2017
+date: 08.03.2017
 keywords: NetServer, archive provider
-so.topic: howto
-so.envir: cloud
-so.client: online
+topic: howto
+envir: cloud
+client: online
 ---
 
 # Add columns to archive providers

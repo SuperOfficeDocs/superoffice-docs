@@ -3,9 +3,9 @@ uid: externaldocumentitems
 title: externaldocumentitems
 description: <b>External Documents</b> is the same as the Image Library in service - images (and maybe other things?) that
 keywords: externaldocumentitems archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "externaldocumentitems"

@@ -3,9 +3,9 @@ uid: TicketCustomMessageNotification
 title: TicketCustomMessageNotification
 description: 
 keywords: TicketCustomMessageNotification archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketCustomMessageNotification"

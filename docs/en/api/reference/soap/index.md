@@ -3,8 +3,8 @@ uid: soap-web-services
 title: SOAP Web services
 description: SOAP reference
 author: Bergfrid Dias
-so.date: 11.17.2021
-so.topic: reference
+date: 11.17.2021
+topic: reference
 keywords: web services, SOAP, API, WCF, WSDL
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Lists in web services
 description: Discusses how to programmatically work with lists using web services.
-so.date: 03.03.2022
+date: 03.03.2022
 ---
 
 # SuperOffice Lists

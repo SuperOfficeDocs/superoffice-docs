@@ -3,11 +3,11 @@ title: How to create a managed document plugin
 uid: soarc_document_plugin
 description: How to create a managed document plugin
 author: Tony Yates
-so.date: 06.03.2006
+date: 06.03.2006
 keywords:
-so.topic: howto
-so.envir: onsite
-# so.client:
+topic: howto
+envir: onsite
+# client:
 ---
 
 # How to create a managed document plugin

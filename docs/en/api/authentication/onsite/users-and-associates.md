@@ -4,9 +4,9 @@ title: Users and associates
 description: "Learn about user types, user groups and the associate database table."
 author: {github-id}
 keywords: database
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Users and associates

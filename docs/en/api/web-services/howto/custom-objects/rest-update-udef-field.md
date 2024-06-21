@@ -4,10 +4,10 @@ title: How to update a user-defined field
 description: Describes how to update a user-defined field using web services
 keywords: udef, user-defined field, custom field
 author: AnthonyYates
-so.date: 03.11.2022
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 03.11.2022
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to update a user-defined field using the web services API

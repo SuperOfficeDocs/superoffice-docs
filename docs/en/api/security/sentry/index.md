@@ -4,7 +4,7 @@ uid: sentry_intro
 description: Sentry
 author: {github-id}
 keywords: sentry, security
-so.topic: concept
+topic: concept
 ---
 
 # Sentry

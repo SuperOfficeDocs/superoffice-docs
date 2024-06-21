@@ -3,11 +3,11 @@ title: Retrieve members of a specific selection
 uid: get_selection_members_provider
 description: How to retrieve members of a specific selection using archive provider
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords: search,selectionprovider
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # How to retrieve members of a specific selection using archive provider

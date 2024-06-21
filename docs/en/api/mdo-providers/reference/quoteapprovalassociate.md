@@ -3,9 +3,9 @@ uid: quoteapprovalassociate
 title: quoteapprovalassociate
 keywords: mdoprovider mdo provider quoteapprovalassociate
 description: MDO provider for associates that are allowed to approve a quote.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "quoteapprovalassociate" MDO List

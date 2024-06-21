@@ -3,10 +3,10 @@ title: Create your own Sentry plugin
 uid: create_sentry_plugin
 description: Create a Sentry plugin
 author: {github-id}
-so.date: 11.05.2016
+date: 11.05.2016
 keywords:
-so.topic: howto
-so.envir: onsite
+topic: howto
+envir: onsite
 ---
 
 # Create your own Sentry plugin

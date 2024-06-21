@@ -3,9 +3,9 @@ uid: AssignResponseInvitation
 title: AssignResponseInvitation
 description: This is the query provider for invitations, of subtype 'Response'
 keywords: AssignResponseInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AssignResponseInvitation"

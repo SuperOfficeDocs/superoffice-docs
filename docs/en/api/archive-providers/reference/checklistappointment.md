@@ -3,9 +3,9 @@ uid: ChecklistAppointment
 title: ChecklistAppointment
 description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
 keywords: ChecklistAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ChecklistAppointment"

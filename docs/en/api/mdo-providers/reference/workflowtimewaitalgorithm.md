@@ -3,9 +3,9 @@ uid: workflowtimewaitalgorithm
 title: workflowtimewaitalgorithm
 keywords: mdoprovider mdo provider workflowtimewaitalgorithm
 description: MDO provider for the WorkflowTimeWaitAlgorithm enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "workflowtimewaitalgorithm" MDO List

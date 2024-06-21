@@ -4,12 +4,12 @@ uid: ifindagent_multi_criteria
 description: How to use multiple criteria with the FindAgent
 author: {github-id}
 keywords: 
-so.topic: howto
-so.date:
-so.category: 
-so.area: api-services
-# so.envir:
-# so.client:
+topic: howto
+date:
+category: 
+area: api-services
+# envir:
+# client:
 ---
 
 # How to use multiple criteria with the FindAgent

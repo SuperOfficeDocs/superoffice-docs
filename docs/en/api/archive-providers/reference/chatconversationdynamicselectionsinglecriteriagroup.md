@@ -3,9 +3,9 @@ uid: ChatConversationDynamicSelectionSingleCriteriaGroup
 title: ChatConversationDynamicSelectionSingleCriteriaGroup
 description: ChatConversation selection archive using the selectionId as criterionmapping.
 keywords: ChatConversationDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ChatConversationDynamicSelectionSingleCriteriaGroup"

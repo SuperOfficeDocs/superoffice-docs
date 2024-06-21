@@ -4,9 +4,9 @@ uid: changes_7_encryption
 description: Changes in SuperOffice 7 - Encryption
 author: {github-id}
 keywords: database
-so.topic: reference
-so.envir: onsite
-# so.client:
+topic: reference
+envir: onsite
+# client:
 ---
 
 # Encryption

@@ -4,9 +4,9 @@ uid: update_nuget
 description: Upgrade version of SuperOffice NuGet
 author: Tony Yates
 keywords:
-so.topic: howto
-so.envir:
-so.client:
+topic: howto
+envir:
+client:
 ---
 
 # Upgrade version of SuperOffice NuGet

@@ -3,9 +3,9 @@ uid: ChatConversationShadowStaticSelectionV2
 title: ChatConversationShadowStaticSelectionV2
 description: Shadow contact provider for the static ChatConversation provider.
 keywords: ChatConversationShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ChatConversationShadowStaticSelectionV2"

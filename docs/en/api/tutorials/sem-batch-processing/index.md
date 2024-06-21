@@ -3,11 +3,11 @@ title: Background computing and batch processing
 uid: background_computing_and_batch_processing
 description: Background computing and batch processing
 author: {github-id}
-so.date: 04.15.2009
+date: 04.15.2009
 keywords:
-so.topic: tutorial
-# so.envir:
-# so.client:
+topic: tutorial
+# envir:
+# client:
 ---
 
 # Background computing and batch processing

@@ -3,11 +3,11 @@ title: Project table
 uid: bulkupdate_project_table
 description: Bulk update project table
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: bulk update, project
-so.topic: reference
-so.envir: cloud
-so.client: online
+topic: reference
+envir: cloud
+client: online
 ---
 
 # Project table

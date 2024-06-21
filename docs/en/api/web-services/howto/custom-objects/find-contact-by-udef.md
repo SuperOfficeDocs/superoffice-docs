@@ -3,11 +3,11 @@ title: Find contact by udef
 uid: find_contact_by_udef
 description: Find a contact using a user-defined field
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
+date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, FindAgent, GetSpecifiedCriteriaInformationWithDefaults
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Find a contact using a udef field

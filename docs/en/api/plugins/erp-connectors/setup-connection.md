@@ -3,11 +3,11 @@ title: Setting up ERP Sync connection
 uid: erp_setup_connection
 description: Setting up ERP Sync connection
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: howto
-# so.envir:
-# so.client:
+topic: howto
+# envir:
+# client:
 ---
 
 # Setting up ERP Sync connection

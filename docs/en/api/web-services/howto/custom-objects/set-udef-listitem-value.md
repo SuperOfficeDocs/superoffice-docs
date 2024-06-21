@@ -4,10 +4,10 @@ title: Set a user-defined list item on a Udef field
 description: How to set a user-defined list item on a Udef field using services
 keywords: udef, user-defined field, custom field, API, api-services, ContactAgent, GetContactEntity, GetUserDefinedFieldFromProgId, SaveContactEntity, MDOAgent, MDOListItem
 author: Bergfrid Skaara Dias
-so.date: 11.05.2021
-so.topic: howto
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+date: 11.05.2021
+topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # How to set a user-defined list item on a Udef field (services)

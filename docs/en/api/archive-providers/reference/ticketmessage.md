@@ -3,9 +3,9 @@ uid: TicketMessage
 title: TicketMessage
 description: Messages on support tickets. Messages are typically e-mail messages with attachments, but not always.
 keywords: TicketMessage archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "TicketMessage"

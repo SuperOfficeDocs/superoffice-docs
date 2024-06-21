@@ -3,9 +3,9 @@ uid: ContactPersonSelectionV2
 title: ContactPersonSelectionV2
 description: This is the archive Provider for the Selection contact/person archive.
 keywords: ContactPersonSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "ContactPersonSelectionV2"

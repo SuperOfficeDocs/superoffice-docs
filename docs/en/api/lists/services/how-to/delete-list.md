@@ -3,10 +3,10 @@ title: ws-list-how-to-delete-list
 description: How to delete a list using web service APIs
 author: AnthonyYates
 keywords: list,agent
-so.topic: how-to-guide
-so.date: 03.03.2022
-so.category: list
-so.area: api-services
+topic: how-to-guide
+date: 03.03.2022
+category: list
+area: api-services
 ---
 
 <!-- markdownlint-disable-file MD051 -->

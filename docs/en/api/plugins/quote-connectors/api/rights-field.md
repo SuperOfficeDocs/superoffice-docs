@@ -4,8 +4,8 @@ uid: quote_connector_rights_field
 description: Quote connector Rights field
 author: {github-id}
 keywords: quote
-so.topic: concept         
-so.date:
+topic: concept         
+date:
 ---
 
 # Rights field

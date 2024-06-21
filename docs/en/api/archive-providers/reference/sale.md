@@ -3,9 +3,9 @@ uid: Sale
 title: Sale
 description: Archive provider for Sale type activities. This provider can be used on its own, or can form part of the
 keywords: Sale archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "Sale"

@@ -4,9 +4,9 @@ uid: oicd_hybrid_flow
 description: OICD Hybrid flow
 author: {github-id}
 keywords: authentication, OIDC, Hybrid flow
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # OICD Hybrid flow

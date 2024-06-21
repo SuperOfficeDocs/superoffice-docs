@@ -4,8 +4,8 @@ uid: odata_lists
 description: REST Web API search - lists
 author: {github-id}
 keywords: search, list, odata
-so.date:
-so.topic: howto
+date:
+topic: howto
 ---
 
 # ODATA lists

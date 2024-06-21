@@ -4,9 +4,9 @@ uid: partner_db_library
 description: Customer data source
 author: {github-id}
 keywords:
-so.topic: tutorial
-so.envir: cloud
-so.client: online
+topic: tutorial
+envir: cloud
+client: online
 ---
 
 # Customer data source

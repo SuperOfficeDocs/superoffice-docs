@@ -3,11 +3,11 @@ title: Dynamic selections
 uid: dynamic_selection
 description: Dynamic selection
 author: {github-id}
-so.date: 11.08.2021
+date: 11.08.2021
 keywords: search, selection, searchCriteria
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Dynamic selections

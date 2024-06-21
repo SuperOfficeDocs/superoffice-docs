@@ -3,11 +3,11 @@ title: Sync Connector API
 uid: erp_sync_connector_api
 description: Sync Connector API
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
-so.topic: concept
-# so.envir:
-# so.client:
+topic: concept
+# envir:
+# client:
 ---
 
 # Sync Connector API

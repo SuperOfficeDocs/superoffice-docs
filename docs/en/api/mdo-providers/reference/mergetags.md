@@ -3,9 +3,9 @@ uid: mergetags
 title: mergetags
 keywords: mdoprovider mdo provider mergetags
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "mergetags" MDO List

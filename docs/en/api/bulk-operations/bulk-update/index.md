@@ -3,11 +3,11 @@ title: Bulk Update API
 uid: bulk_update_api
 description: Bulk Update API - How to change large numbers of records in bulk.
 author: Tony Yates
-so.date: 06.23.2017
+date: 06.23.2017
 keywords: data-access, bulk-update
-so.topic: concept
-so.envir: cloud
-so.client: online
+topic: concept
+envir: cloud
+client: online
 ---
 
 # Bulk Update API

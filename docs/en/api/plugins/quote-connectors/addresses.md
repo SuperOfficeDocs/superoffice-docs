@@ -3,9 +3,9 @@ title: Address Provider
 uid: address_provider
 description: Address Provider
 author: {github-id}
-so.date:
+date:
 keywords: quote
-so.topic: howto
+topic: howto
 ---
 
 # Address Provider

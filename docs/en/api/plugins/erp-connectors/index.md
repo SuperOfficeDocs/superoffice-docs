@@ -3,7 +3,7 @@ title: ERP Sync Connector Interface
 uid: erp_connectors
 description: ERP Sync Connector Interface
 author: {github-id}
-so.date: 05.11.2016
+date: 05.11.2016
 keywords:
 ---
 

@@ -2,9 +2,9 @@
 title: List
 description: Overview of general lists and Multi-departmental organizational (MDO) lists.
 author: AnthonyYates
-so.date: 03.03.2022
+date: 03.03.2022
 keywords: Lists, 
-so.topic: concept
+topic: concept
 ---
 
 # Lists

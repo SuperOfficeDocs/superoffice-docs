@@ -4,9 +4,9 @@ uid: oidc_auth_code_flow
 description: OpenId Authorization Code flow
 author: {github-id}
 keywords:
-so.topic: tutorial
-so.envir: cloud
-# so.client:
+topic: tutorial
+envir: cloud
+# client:
 ---
 
 # OpenID Authorization Code flow

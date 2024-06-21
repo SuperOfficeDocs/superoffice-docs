@@ -3,9 +3,9 @@ uid: DocumentShadowDynamicSelection
 title: DocumentShadowDynamicSelection
 description: Shadow contact provider for the dynamic document provider.
 keywords: DocumentShadowDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "DocumentShadowDynamicSelection"

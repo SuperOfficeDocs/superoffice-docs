@@ -3,9 +3,9 @@ uid: PersonActivity
 title: PersonActivity
 description: Activity archive provider for the Person card
 keywords: PersonActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "PersonActivity"

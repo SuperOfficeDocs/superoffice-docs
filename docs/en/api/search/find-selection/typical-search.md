@@ -3,9 +3,9 @@ title: Typical search
 description: Details Find Selection Typical Seach feature set.
 author: {AnthonyYates}
 keywords: Typical search, Selection, Find
-so.topic: article
-# so.envir:
-so.client: web
+topic: article
+# envir:
+client: web
 ---
 
 <!-- markdownlint-disable-file MD051 -->

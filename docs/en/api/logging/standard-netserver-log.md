@@ -3,9 +3,9 @@ uid: logging_superoffice
 title: SuperOffice.Logging
 description: The standard NetServer logger.
 author: xt1
-so.date: 05.07.2021
+date: 05.07.2021
 keywords: logging
-so.topic: concept
+topic: concept
 ---
 
 # SuperOffice.Logging

@@ -3,11 +3,11 @@ uid: quickstart
 title: API Quick-start
 description: Quick-start for the SuperOffice APIs
 author: Eivind Fasting
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: API, getting started, REST
-so.topic: concept
-so.envir: cloud, onsite
-so.client: web, service
+topic: concept
+envir: cloud, onsite
+client: web, service
 ---
 
 <!-- markdownlint-disable-file MD051 -->

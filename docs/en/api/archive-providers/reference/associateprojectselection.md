@@ -3,9 +3,9 @@ uid: AssociateProjectSelection
 title: AssociateProjectSelection
 description: This is the archive Provider for the Selection Project archive.
 keywords: AssociateProjectSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+topic: reference
+envir: onsite, online
 ---
 
 # "AssociateProjectSelection"
