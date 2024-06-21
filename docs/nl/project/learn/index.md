@@ -3,9 +3,9 @@ uid: help-nl-project
 title: Project
 description: Deze handleiding laat u zien hoe u projecten kunt maken en gebruiken om uw werk te organiseren.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: project
-so.topic: concept
+topic: concept
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-chat-screen
 title: Chatscherm
 description: Chatscherm
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatten
-so.topic: reference
+topic: reference
 language: nl
 ---
 

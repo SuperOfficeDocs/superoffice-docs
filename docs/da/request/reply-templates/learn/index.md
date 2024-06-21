@@ -3,11 +3,11 @@ uid: help-da-reply-template
 title: Arbejde med svarskabeloner
 description: Arbejde med svarskabeloner
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

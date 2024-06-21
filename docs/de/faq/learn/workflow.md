@@ -3,11 +3,11 @@ uid: help-de-faq-workflow
 title: Workflowstufen
 description: Workflowstufen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

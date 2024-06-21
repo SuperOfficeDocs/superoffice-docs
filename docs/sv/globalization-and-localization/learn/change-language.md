@@ -3,9 +3,9 @@ uid: help-sv-language-change
 title: Ändra aktivt språk
 description: Ändra aktivt språk
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: språk
-so.topic: howto
+topic: howto
 language: sv
 ---
 

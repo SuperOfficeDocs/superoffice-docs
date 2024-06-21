@@ -3,9 +3,9 @@ uid: help-de-adding-items-to-currency-list
 title: Objekte zur Liste Währung hinzufügen
 description: Objekte zur Liste Währung hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
  

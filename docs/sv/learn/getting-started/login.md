@@ -3,11 +3,11 @@ uid: help-sv-sign-in-to-superoffice
 title: Logga in
 description: Logga in för att aktivera ditt SuperOffice CRM-konto med ett SuperOffice CRM-lösenord eller ett alternativ för enkel inloggning.
 author: SuperOffice RnD
-so.date: 08.28.2023
+date: 08.28.2023
 keywords: CRM, logga in, logga in, lösenord
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

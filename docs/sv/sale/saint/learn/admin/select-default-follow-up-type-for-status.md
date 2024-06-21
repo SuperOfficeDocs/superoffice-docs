@@ -3,11 +3,11 @@ uid: help-sv-select-default-follow-up-type-for-status
 title: Välja typ av standardhändelse för status
 description: Välja typ av standardhändelse för status
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: försäljning, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

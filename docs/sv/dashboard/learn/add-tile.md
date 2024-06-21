@@ -3,9 +3,9 @@ uid: help-sv-dashboard-tile-add
 title: Lägg till figur/redigera layout på dashboard
 description: I den här guiden förklarar vi hur du skapar en dashboardfigur.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

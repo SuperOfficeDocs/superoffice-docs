@@ -3,9 +3,9 @@ uid: help-de-adding-user-defined-lists
 title: Benutzerdefinierte Listen hinzufügen
 description: Benutzerdefinierte Listen hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-no-add-template
 title: Legge til en mal
 description: I denne veiledningen lærer du hvordan du legger til en ny dokumentmal i SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: dokument, mal
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

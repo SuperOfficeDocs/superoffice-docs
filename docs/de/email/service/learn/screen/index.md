@@ -3,9 +3,9 @@ uid: help-de-service-mailboxes
 title: Postfächer
 description: Postfächer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-nl-document-faq-publish
 title: Items in Veelgestelde vragen publiceren
 description: Items in Veelgestelde vragen publiceren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Veelgestelde vragen
-so.topic: help
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: help
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-report-labels
 title: Etiketten
 description: Mit Etiketten arbeiten
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: Bericht, Etikette, format, PDF
-so.topic: howto
+topic: howto
 language: de
 ---
 

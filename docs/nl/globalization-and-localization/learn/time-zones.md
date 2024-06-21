@@ -3,9 +3,9 @@ uid: help-nl-time-zones
 title: Tijdzones
 description: Tijdzones
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: nl
 ---
 

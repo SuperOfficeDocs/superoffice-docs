@@ -3,9 +3,9 @@ uid: help-no-report-fav-delete
 title: Slette favorittrapporter
 description: Slette favorittrapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-erp-disconnect
 title: Deaktivering af ERP-synkronisering
 description: Deaktivering af ERP-synkronisering
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,11 +3,11 @@ uid: help-sv-faq-folder
 title: Administrera mappar med FAQ-poster
 description: Administrera mappar med FAQ-poster
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ, mapp
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

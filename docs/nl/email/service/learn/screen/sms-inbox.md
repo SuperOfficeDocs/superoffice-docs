@@ -3,9 +3,9 @@ uid: help-nl-sms-inbox
 title: SMS-postvak IN
 description: SMS-postvak IN
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: nl
 ---
 

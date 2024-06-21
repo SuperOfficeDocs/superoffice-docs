@@ -4,13 +4,13 @@ title: Analysieren Sie die Ergebnisse Ihres Flows
 description: Analysieren Sie die Ergebnisse Ihres Flows
 keywords: Marketing, Flow, Ergebniss, Statistik
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.31.2024
+version: 10.3.5
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Analysieren Sie die Ergebnisse Ihres Flows

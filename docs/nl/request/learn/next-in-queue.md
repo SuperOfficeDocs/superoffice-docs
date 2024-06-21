@@ -3,11 +3,11 @@ uid: help-nl-request-next-in-queue
 title: Volgend verzoek in de wachtrij ophalen
 description: Volgend verzoek in de wachtrij ophalen
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

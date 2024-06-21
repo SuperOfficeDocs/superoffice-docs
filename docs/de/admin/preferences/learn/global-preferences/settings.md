@@ -3,11 +3,11 @@ uid: help-de-service-settings-system-settings
 title: Benutzereinstellungen für SuperOffice Service
 description: Globale Einstellungen für Benutzereinstellungen für SuperOffice Service
 author: SuperOffice RnD
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: Service, Einstellungen
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

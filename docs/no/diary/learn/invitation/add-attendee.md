@@ -5,7 +5,7 @@ description: "Det er flere måter å invitere personer til en avtale på. Denne 
 author: Bergfrid Dias
 redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: dagbok, oppfølging, invitasjon, deltaker
-so.topic: howto
+topic: howto
 language: no
 ---
 

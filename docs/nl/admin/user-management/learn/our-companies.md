@@ -3,13 +3,13 @@ uid: help-nl-our-companies-manage
 title: "'Onze bedrijven' beheren"
 description: Bedrijven toevoegen aan en verwijderen van het tabblad Onze bedrijven
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: gebruiker, onze bedrijven
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
-so.client: web
+client: web
 ---
 
 # "Onze bedrijven" beheren

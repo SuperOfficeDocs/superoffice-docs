@@ -3,9 +3,9 @@ uid: help-da-email-outlook
 title: SuperOffice for Outlook
 description: Med tilføjelsesprogrammet SuperOffice til Outlook kan du arbejde ubesværet mellem din Microsoft 365- og SuperOffice CRM-løsning ved at give dig adgang til vigtige oplysninger og funktioner fra SuperOffice direkte i din mail.
 author: Bergfrid Dias
-so.date: 07.04.2023
+date: 07.04.2023
 keywords: e-mail
-so.topic: concept
+topic: concept
 language: da
 ---
 

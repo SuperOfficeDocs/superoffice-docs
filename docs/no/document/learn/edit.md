@@ -3,9 +3,9 @@ uid: help-no-document-update
 title: Redigere dokumenter
 description: Redigere dokumenter
 author: SuperOffice RnD
-so.date: 12.06.2023
+date: 12.06.2023
 keywords: dokument
-so.topic: howto
+topic: howto
 language: no
 ---
 

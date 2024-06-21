@@ -4,12 +4,12 @@ title: Tilføj indhold
 description: Tilføj indhold
 keywords: Marketing, udsendelse, kolonne, tekstblok
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Tilføj indhold

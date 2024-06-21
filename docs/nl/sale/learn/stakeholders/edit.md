@@ -3,9 +3,9 @@ uid: help-nl-sale-stakeholder-edit
 title: Belanghebbenden bewerken
 description: Het bewerken en verwijderen van belanghebbenden in een verkoop in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

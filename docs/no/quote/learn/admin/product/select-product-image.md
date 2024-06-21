@@ -3,10 +3,10 @@ uid: help-no-select-product-image
 title: Velge produktbilde
 description: I denne veiledningen lærer du hvordan du kan legge til bilder for alle produktene du legger til i SuperOffice Quote.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: produkt, bilde
-so.topic: howto
-so.user: admin
+topic: howto
+audience: settings
 language: no
 ---
 

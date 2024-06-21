@@ -3,10 +3,10 @@ uid: help-nl-follow-up-alarms
 title: Een alarm instellen voor vervolgactiviteiten
 description: Een alarm instellen voor een vervolgactiviteit in SuperOffice.
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: agenda, vervolgactiviteit, alarm, melding
-so.topic: howto
+topic: howto
 language: nl
 ---
 

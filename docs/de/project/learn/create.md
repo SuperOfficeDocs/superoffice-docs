@@ -3,9 +3,9 @@ uid: help-de-project-create
 title: Projekt erstellen
 description: Wie man ein Projekt erstellt und bei der Arbeit noch besser organisiert ist.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Projekt
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-contact-merge
 title: Contactpersonen samenvoegen
 description: Contactpersonen samenvoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: howto
+topic: howto
 language: nl
 ---
 

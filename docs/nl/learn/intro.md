@@ -3,13 +3,13 @@ title: Handleidingen voor SuperOffice CRM
 uid: help-nl-start
 description: Startpagina voor SuperOffice CRM-handleidingen
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: gebruikershandleiding, help
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: nl
-so.envir:
-so.client:
+envir:
+client:
 ---
 
 # Handleidingen voor SuperOffice CRM

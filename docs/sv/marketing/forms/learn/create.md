@@ -4,12 +4,12 @@ title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: SuperOffice RnD
-so.date: 03.13.2024
-so.version: 10
-so.topic: howto
+date: 03.13.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Skapa nytt formulär

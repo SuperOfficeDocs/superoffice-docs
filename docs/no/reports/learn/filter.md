@@ -3,9 +3,9 @@ uid: help-no-report-filters
 title:  Filtre i Rapporter-bildet
 description: Filtre i Rapporter-bildet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

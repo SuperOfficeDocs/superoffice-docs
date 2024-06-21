@@ -3,9 +3,9 @@ uid: help-sv-screen-chooser
 title: Skärmväljare
 description: Skärmväljare
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Användargränssnitt, skärmväljare
-so.topic: concept
+topic: concept
 language: sv
 ---
 

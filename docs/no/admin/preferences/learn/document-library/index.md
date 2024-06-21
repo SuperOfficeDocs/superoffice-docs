@@ -3,9 +3,9 @@ uid: help-no-document-library
 title: Dokumentbibliotek
 description: Dokumentbibliotek
 author: SuperOffice RnD
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: dokument
-so.topic: concept
+topic: concept
 language: no
 ---
 

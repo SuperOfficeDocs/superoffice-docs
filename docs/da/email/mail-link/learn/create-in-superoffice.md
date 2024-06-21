@@ -3,9 +3,9 @@ uid: help-da-mail-link-create-so
 title: Sådan oprettes e-mails i SuperOffice CRM
 description: Sådan oprettes e-mails i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

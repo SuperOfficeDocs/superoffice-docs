@@ -3,11 +3,11 @@ uid: help-no-sync-rank-fields-shown-in-erp-tab
 title: Rangere felt som vises i ERP-fanen
 description: Rangere felt som vises i ERP-fanen
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: tilbud, sync, connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

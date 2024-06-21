@@ -3,11 +3,11 @@ uid: help-no-user-group-manage
 title: Administrere brukergrupper
 description: Slik oppretter og sletter du brukergrupper
 author: Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: brukergruppe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

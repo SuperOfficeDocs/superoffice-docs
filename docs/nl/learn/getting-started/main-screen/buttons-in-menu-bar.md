@@ -3,9 +3,9 @@ uid: help-nl-ui-top-bar
 title: Knoppen in de menubalk
 description: Knoppen in de menubalk
 author: SuperOffice RnD
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: bovenste balk, (knop)
-so.topic: reference
+topic: reference
 language: nl
 ---
 

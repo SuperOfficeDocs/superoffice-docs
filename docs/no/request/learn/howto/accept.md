@@ -3,11 +3,11 @@ uid: help-no-request-accept
 title: Overta ansvaret for saker
 description: Overta ansvaret for saker
 author: SuperOffice RnD
-so.date: 02.13.2023
+date: 02.13.2023
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

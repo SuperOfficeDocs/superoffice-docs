@@ -3,9 +3,9 @@ uid: help-de-languages-add
 title: Mit Kundensprachen arbeiten
 description: "In dieser Anleitung lernen Sie, wie Sie Kundensprachen festlegen."
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Sprache
-so.topic: howto
+topic: howto
 language: de
 ---
 

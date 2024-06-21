@@ -3,9 +3,9 @@ uid: help-de-video-meetings-email-setup
 title: E-Mail-Setup für Videokonferenzen
 description: E-Mail-Setup für Videokonferenzen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Videokonferenz
-so.topic: howto
+topic: howto
 language: de
 ---
 

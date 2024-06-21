@@ -3,9 +3,9 @@ uid: help-de-product
 title: SuperOffice-Produkte
 description: SuperOffice-Produkte
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Verkauf, Angebot, Produkt
-so.topic: concept
+topic: concept
 language: de
 ---
 

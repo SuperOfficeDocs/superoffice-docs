@@ -3,9 +3,9 @@ uid: help-no-company-screen-requests
 title: Saker-fane
 description: Saker-fane
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, sak
-so.topic: reference
+topic: reference
 language: no
 ---
 

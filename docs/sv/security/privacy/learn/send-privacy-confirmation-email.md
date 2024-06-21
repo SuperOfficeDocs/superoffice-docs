@@ -3,9 +3,9 @@ uid: help-sv-send-privacy-confirmation-email
 title: Skicka e-postbekräftelse om personskydd
 description: Skicka e-postbekräftelse om personskydd
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, samtycke, e-post, integritet
-so.topic: howto
+topic: howto
 language: sv
 ---
 

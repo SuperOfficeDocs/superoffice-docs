@@ -3,9 +3,9 @@ uid: help-de-project-screen-sale
 title: Registerkarte Verkäufe
 description: Registerkarte Verkäufe in der Ansicht Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Verkauf
-so.topic: reference
+topic: reference
 language: de
 ---
 

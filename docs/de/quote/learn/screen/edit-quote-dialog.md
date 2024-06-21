@@ -3,9 +3,9 @@ uid: help-de-quote-dialog-edit
 title: Dialogfeld Angebot bearbeiten
 description: Dialogfeld Angebot bearbeiten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf, Angebot
-so.topic: reference
+topic: reference
 language: de
 ---
 

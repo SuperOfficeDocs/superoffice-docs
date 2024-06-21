@@ -4,13 +4,13 @@ title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
 keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: reference
+date: 06.11.2024
+version: 10.3.7
+topic: reference
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Trinninnstillinger

@@ -3,9 +3,9 @@ uid: help-da-document-upload
 title: Upload af dokumenter
 description: Upload af dokumenter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: howto
+topic: howto
 language: da
 ---
 

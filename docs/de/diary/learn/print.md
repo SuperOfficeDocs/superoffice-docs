@@ -3,9 +3,9 @@ uid: help-de-diary-print
 title: Registerkarten Folgeaufgaben und Kalender drucken
 description: Registerkarten Folgeaufgaben und Kalender drucken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Kalender, Folgeaufgabe
-so.topic: howto
+topic: howto
 language: de
 ---
 

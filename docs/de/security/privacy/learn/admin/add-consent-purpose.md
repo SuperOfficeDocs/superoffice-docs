@@ -3,9 +3,9 @@ uid: help-de-add-consent-purpose
 title: Einwilligungszweck hinzufügen
 description: Wie man die Datenschutzeinstellungen für Ihre Firma einrichtet.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Einstellungen und Verwaltung, Datenschutz, Einwilligung
-so.topic: howto
+topic: howto
 language: de
 ---
 

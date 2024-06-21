@@ -4,13 +4,13 @@ title: Kjør, pause og avslutt flyt
 description: Hvordan kjøre, pause, gjenoppta, avslutte og slette en SuperOffice-markedsføringsautomatiseringsflyt.
 keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause flyt, gjenoppta flyt, avslutte flyt, slette flyt, flytstatus
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.24.2024
+version: 10.3.5
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Kjør, pause og avslutt flyt

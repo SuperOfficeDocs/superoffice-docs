@@ -3,9 +3,9 @@ uid: help-de-google-workspace
 title: Google Workspace-Integration aktivieren
 description: Mit der kostenlosen Google Workspace Integrations-App für Dokumente können Sie mühelos mit Dokumenten von SuperOffice CRM arbeiten.
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Dokument, Google
-so.topic: concept
+topic: concept
 language: de
 ---
 

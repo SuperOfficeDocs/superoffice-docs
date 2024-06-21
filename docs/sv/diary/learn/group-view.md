@@ -3,9 +3,9 @@ uid: help-sv-diary-group-view
 title: Gruppöversikt
 description: Gruppöversikt; Skapa kalenderöversikter; Dialogrutan Ny gruppöversikt
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: kalender, händelse, gruppöversikt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

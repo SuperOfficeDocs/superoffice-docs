@@ -3,10 +3,10 @@ uid: help-no-request-reply-mobile
 title: Svare på en sak på mobilenheten
 description: I denne veiledningen lærer du hvordan du svarer på en sak i Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sak, mobil
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: no
 ---
 

@@ -3,11 +3,11 @@ uid: help-no-project-guide-admin
 title: Prosjektguide
 description: Prosjektguide
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: prosjekt, guide
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

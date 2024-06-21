@@ -3,11 +3,11 @@ uid: help-da-user-group-manage
 title: Administrer brugergrupper
 description: Sådan opretter og sletter du brugergrupper
 author: Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: brugergruppe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

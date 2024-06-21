@@ -3,11 +3,11 @@ uid: help-de-quote-delete-deactivate-price-list-or-product
 title: Angebot löschen Preislisten oder Produkte deaktivieren
 description: Angebot löschen Preislisten oder Produkte deaktivieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Verkauf, Angebot, Produkt, Preisliste
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

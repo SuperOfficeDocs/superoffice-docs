@@ -3,9 +3,9 @@ uid: help-no-quote-versions
 title:  Redigere sendt tilbud (versjoner)
 description:  Redigere sendt tilbud (versjoner)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

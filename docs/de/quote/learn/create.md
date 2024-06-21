@@ -3,9 +3,9 @@ uid: help-de-quote-create
 title: Angebot erstellen
 description: "In dieser Anleitung erfahren Sie, wie Sie ein Angebot erstellen, ein Produkt in das Angebot hinzufügen und bearbeiten und wie Sie ein Angebot senden."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

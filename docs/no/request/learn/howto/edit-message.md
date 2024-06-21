@@ -4,9 +4,9 @@ title: Redigere melding
 description: Slik redigerer du en melding i en sak i SuperOffice
 author: Hanne Gunnarsson
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

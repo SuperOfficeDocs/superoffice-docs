@@ -3,9 +3,9 @@ uid: help-de-selection-screen
 title: Bereichsregisterkarten in der Ansicht Selektion
 description: Bereichsregisterkarten in der Ansicht Selektion
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -4,12 +4,12 @@ title: Skapa spårade länkar
 description: Skapa spårade länkar
 author: SuperOffice RnD
 keywords: Marknadsföring
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Skapa spårade länkar

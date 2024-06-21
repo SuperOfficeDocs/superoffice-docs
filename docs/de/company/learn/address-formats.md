@@ -3,9 +3,9 @@ uid: help-de-address-formats-for-different-countries
 title: Länderspezifische Adressformate
 description: Länderspezifische Adressformate
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: reference
+topic: reference
 language: de
 ---
 

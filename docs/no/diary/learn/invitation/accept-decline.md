@@ -3,10 +3,10 @@ uid: help-no-invitation-accept
 title: Oppfølginger du er invitert til
 description: Vise oppfølginger du er invitert til; Godta eller avslå invitasjoner
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: dagbok, oppfølging, invitasjon
-so.topic: howto
+topic: howto
 language: no
 ---
 

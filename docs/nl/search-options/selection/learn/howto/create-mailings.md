@@ -3,9 +3,9 @@ uid: help-nl-mailing-create-with-selection
 title: Een mailing maken aan alle personen in een selectie
 description: Mailings maken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie, mailing
-so.topic: howto
+topic: howto
 language: nl
 ---
 

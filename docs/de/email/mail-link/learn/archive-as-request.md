@@ -3,9 +3,9 @@ uid: help-de-mail-link-archive-as-request
 title: E-Mail als Anfrage archivieren
 description: "Lernen Sie in dieser Anleitung, wie man E-Mails als Anfragen archivieren kann."
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail-Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-add-items-to-country-list
 title: Items toevoegen aan de lijst Land
 description: Items toevoegen aan de lijst Land
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

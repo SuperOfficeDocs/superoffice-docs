@@ -3,9 +3,9 @@ uid: help-da-erp-tab
 title: Fanen ERP
 description: Fanen ERP
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: ERP
-so.topic: reference
+topic: reference
 language: da
 ---
 

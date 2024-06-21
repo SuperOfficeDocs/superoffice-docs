@@ -3,9 +3,9 @@ uid: help-nl-document-open
 title: Documenten openen
 description: Documenten openen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: document
-so.topic: howto
+topic: howto
 language: nl
 ---
 

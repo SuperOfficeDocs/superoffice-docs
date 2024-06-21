@@ -3,9 +3,9 @@ uid: help-nl-ui-main-screen
 title: Hoofdscherm
 description: Hoofdscherm
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: CRM
-so.topic: reference
+topic: reference
 language: nl
 ---
 

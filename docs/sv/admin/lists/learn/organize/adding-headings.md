@@ -3,11 +3,11 @@ uid: help-sv-adding-headings
 title: Lägga till rubriker
 description: Lägga till rubriker
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: lista, rubrik
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

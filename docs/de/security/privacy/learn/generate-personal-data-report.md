@@ -3,9 +3,9 @@ uid: help-de-generate-personal-data-report
 title: Bericht zu personenbezogenen Daten generieren
 description: Bericht zu personenbezogenen Daten generieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
 ---
 

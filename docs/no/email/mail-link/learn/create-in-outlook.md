@@ -3,9 +3,9 @@ uid: help-no-mail-link-create-outlook
 title: Opprette e-post fra Microsoft Outlook
 description: Opprette e-post fra Microsoft Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: SuperOffice Mail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

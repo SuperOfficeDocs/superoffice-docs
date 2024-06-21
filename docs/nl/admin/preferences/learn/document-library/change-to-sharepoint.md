@@ -3,11 +3,11 @@ uid: help-nl-document-library-change-to-sharepoint
 title: SharePoint-documentbibliotheek configureren
 description: SharePoint-documentbibliotheek configureren
 author: SuperOffice RnD
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: document, SharePoint
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-translate-fields
 title: Oversættelse af felter
 description: Oversættelse af felter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: da
 ---
 

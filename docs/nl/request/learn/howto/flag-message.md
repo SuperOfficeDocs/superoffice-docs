@@ -4,9 +4,9 @@ title: Berichten bijhouden
 description: Berichten bijhouden
 author: Hanne Gunnarsson
 keywords: verzoek, toevoegen, vlag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

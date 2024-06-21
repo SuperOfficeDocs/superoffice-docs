@@ -3,9 +3,9 @@ uid: help-da-erp-connection-add
 title: ERP-forbindelse tilføj
 description: ERP-forbindelse tilføj
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: tilbud, ERP, henvisning
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-sections-tabs-group
 title: Listen gruppieren
 description: "Sie können eine Liste nach einem oder mehreren Datentypen gruppieren, um einen besseren Überblick über die Datensätze in einer Bereichsregisterkarte (Archiv) zu erhalten."
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: Bereichsregisterkarte, Archiv
-so.topic: howto
+topic: howto
 language: de
 ---
 

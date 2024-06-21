@@ -3,9 +3,9 @@ uid: help-da-search-criteria
 title: Brug af søgekriterier
 description: Brug af søgekriterier
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: søge, kriterier, finde
-so.topic: howto
+topic: howto
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-mail-link-senders
 title: Administrere avsendere
 description: Administrere avsendere
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto, sender
+topic: howto, sender
 language: no
 ---
 

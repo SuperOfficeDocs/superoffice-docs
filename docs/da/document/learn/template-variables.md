@@ -3,9 +3,9 @@ uid: help-da-template-variables
 title: Skabelonvariabler
 description: Med skabelonvariabler kan du tilpasse og automatisere indtastningen af kundedata
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: dokument, skabelon, fariable
-so.topic: concept
+topic: concept
 language: da
 ---
 

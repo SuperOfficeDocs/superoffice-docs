@@ -3,9 +3,9 @@ uid: help-sv-customer-center-config
 title: Konfigurera kundcenter
 description: Den här guiden beskriver hur du konfigurerar ditt Kundcenter.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Tjänst, Kundcenter, CEP
-so.topic: howto
+topic: howto
 language: sv
 ---
 

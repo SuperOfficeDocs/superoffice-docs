@@ -3,9 +3,9 @@ uid: help-da-history-list
 title: Brug af historiklisten
 description: Brug af historiklisten
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: søge, historik
-so.topic: howto
+topic: howto
 language: da
 ---
 

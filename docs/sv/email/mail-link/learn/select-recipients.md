@@ -3,9 +3,9 @@ uid: help-sv-mail-link-select-recipients
 title: Välj mottagare
 description: Välj mottagare
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

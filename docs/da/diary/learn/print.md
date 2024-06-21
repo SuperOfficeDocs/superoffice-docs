@@ -3,9 +3,9 @@ uid: help-da-diary-print
 title: Udskrivning af opfølgninger og dagbogsfaner
 description: Udskrivning af opfølgninger og dagbogsfaner
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dagbog, opfølgning
-so.topic: howto
+topic: howto
 language: da
 ---
 

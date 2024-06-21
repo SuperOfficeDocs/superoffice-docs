@@ -3,9 +3,9 @@ uid: help-da-getting-started
 title: Introduktion
 description: "Få mere at vide om, hvordan du aktiverer din brugerkonto, forbinder din e-mail og dine dokumenter og angiver dine personlige præferencer."
 author: Bergfrid Dias
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: CRM
-so.topic: concept
+topic: concept
 language: da
 ---
 

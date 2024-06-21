@@ -4,12 +4,12 @@ title: Behandling af formularindsendelser
 description: I denne vejledning lærer du, hvordan du behandler formularindsendelser manuelt.
 keywords: formular, formularindsendelse, indsendelse, indsendt, indsender, formulardata, data fra formular
 author: Bergfrid Dias
-so.date: 03.12.2024
-so.version: 10
-so.topic: howto
+date: 03.12.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Behandling af formularindsendelser

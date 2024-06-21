@@ -3,9 +3,9 @@ uid: help-da-project-guide-working-with
 title: Arbejde med projektguide
 description: Arbejde med projektguide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, guide
-so.topic: howto
+topic: howto
 language: da
 ---
 

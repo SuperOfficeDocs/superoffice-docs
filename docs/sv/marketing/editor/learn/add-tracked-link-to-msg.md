@@ -4,12 +4,12 @@ title: Inkludera länkar som du vill kunna spåra
 description: Det finns två sätt att konfigurera dina länkar. Du kan antingen använda en förinställd spårad länk för att spåra klick från flera utskick eller skapa en ny länk som bara är tillgänglig i detta utskick. Läs om hur du lägger till en spårad länk i den här guiden.
 keywords: Marknadsföring
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägga till spårade länkar i meddelandet

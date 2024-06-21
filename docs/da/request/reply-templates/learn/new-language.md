@@ -3,11 +3,11 @@ uid: help-da-reply-template-language
 title: Oprettelse af ny sprogversion af svarskabelon
 description: Oprettelse af ny sprogversion af svarskabelon
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

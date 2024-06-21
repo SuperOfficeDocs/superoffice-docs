@@ -3,11 +3,11 @@ uid: help-no-role-set-data-rights
 title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

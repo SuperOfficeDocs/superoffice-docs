@@ -3,9 +3,9 @@ uid: help-de-sales-guide
 title: Verkaufsleitfaden
 description: "Der Verkaufsleitfaden in SuperOffice CRM ist ein Best-Practice-Vertriebsprozess, der Ihnen hilft, strukturiert und konsistent zu arbeiten."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Verkauf, Leitfaden, Workflow
-so.topic: concept
+topic: concept
 language: de
 ---
 

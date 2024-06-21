@@ -4,12 +4,12 @@ title: Arbeide med mottakerlisten i etterkant av utsendelsen
 description: Arbeide med mottakerlisten i etterkant av utsendelsen
 keywords: Markedsføring, mottaker
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Se på mottakerlisten i etterkant av utsendelsen

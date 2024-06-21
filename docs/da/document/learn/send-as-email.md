@@ -3,9 +3,9 @@ uid: help-da-document-send
 title: Send et dokument som e-mail
 description: "Det er hurtigt og nemt at sende dokumenter, der er gemt i SuperOffice CRM som vedhæftede filer i e-mails."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: dokument, e-mail, vedhæftning
-so.topic: howto
+topic: howto
 language: da
 ---
 

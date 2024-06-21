@@ -3,11 +3,11 @@ uid: help-sv-request-reply
 title: Svar till kontakt
 description: I den här guiden får du lära dig hur du svarar på alla inkommande ärenden i SuperOffice.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende, svarsmall
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

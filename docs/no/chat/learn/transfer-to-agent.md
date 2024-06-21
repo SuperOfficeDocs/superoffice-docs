@@ -3,9 +3,9 @@ uid: help-no-chat-transfer-to-agent
 title: Overføre en chatsamtale til en annen agent
 description: I denne guiden lærer du hvordan du overfører en chatsamtale til en annen agent.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

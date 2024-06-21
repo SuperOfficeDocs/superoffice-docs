@@ -3,9 +3,9 @@ uid: help-de-email-inbox
 title: SuperOffice Posteingang
 description: SuperOffice Posteingang
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-nl-reply-template-copy
 title: Antwoordsjablonen kopiëren
 description: Antwoordsjablonen kopiëren
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek, beantwoorden
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

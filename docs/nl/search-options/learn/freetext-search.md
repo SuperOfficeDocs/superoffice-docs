@@ -3,9 +3,9 @@ uid: help-nl-search-freetext
 title: Vrije-tekst zoekbewerking
 description: Vrije-tekst zoekbewerking
 author: SuperOffice RnD
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: vrije tekst, zoeken
-so.topic: howto
+topic: howto
 language: nl
 ---
 

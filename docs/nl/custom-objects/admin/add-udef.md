@@ -4,11 +4,11 @@ title: Door gebruiker gedefinieerd veld toevoegen
 description: Door gebruiker gedefinieerd veld toevoegen
 keywords: udef, door gebruikers gedefinieerd, aangepast veld
 author: Bergfrid Dias
-so.date: 01.30.2024
-so.version: 10
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.30.2024
+version: 10
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

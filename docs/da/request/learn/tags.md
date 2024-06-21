@@ -3,11 +3,11 @@ uid: help-da-request-tags
 title: Brug af tags i sager
 description: "Få flere oplysninger om, hvordan du opretter og redigerer sagstags, i denne vejledning."
 author: Bergfrid Dias
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

@@ -3,10 +3,10 @@ uid: help-sv-invitation-accept
 title: Händelser du har inbjudits till
 description: Visa händelser du har inbjudits till; Acceptera eller tacka nej till förfrågningar
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: kalender, händelse, förfrågning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

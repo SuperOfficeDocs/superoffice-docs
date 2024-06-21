@@ -3,9 +3,9 @@ uid: help-da-selection-export
 title: Eksporter udvalg
 description: Sådan eksporteres et udvalg til Excel eller en fil.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection, eksport, Excel
-so.topic: howto
+topic: howto
 language: da
 ---
 

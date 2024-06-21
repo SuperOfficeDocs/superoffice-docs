@@ -3,11 +3,11 @@ uid: help-no-request-fav
 author: Hanne Gunnarsson
 title: Legge til saker i favorittlisten
 description: Legge til saker i favorittlisten
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sak, fav
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-address-formats-for-different-countries
 title: Adressformat för andra länder
 description: Adressformat för andra länder
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-follow-up-send
 title: Folgeaufgaben senden
 description: Folgeaufgaben senden
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Kalender, Folgeaufgabe
-so.topic: howto
+topic: howto
 language: de
 ---
 

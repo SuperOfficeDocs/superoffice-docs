@@ -3,9 +3,9 @@ uid: help-sv-chat
 title: Chatt
 description: Kommunicera med och hjälp befintliga eller potentiella kunder via en chattwidget på din webbplats.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatt
-so.topic: concept
+topic: concept
 language: sv
 ---
 

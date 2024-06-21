@@ -3,12 +3,12 @@ uid: help-sv-extra-table
 title: Extratabeller
 description: Extratabeller
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
+date: 01.29.2024
+version: 10
 keywords: extratabell
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

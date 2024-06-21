@@ -3,11 +3,11 @@ uid: help-da-chat-admin
 title: Chatadministration
 description: "Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du konfigurerer chatwidgetten og føjer den til din webside."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chat
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

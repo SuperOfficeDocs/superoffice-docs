@@ -3,11 +3,11 @@ uid: help-da-email-filter-create
 title: Oprettelse af e-mail-filtre
 description: Oprettelse af e-mail-filtre
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

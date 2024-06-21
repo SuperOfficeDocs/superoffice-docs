@@ -3,9 +3,9 @@ uid: help-nl-add-consent-purpose
 title: Toestemmingsdoel toevoegen
 description: Meer informatie over het instellen van de privacyinstellingen voor uw bedrijf.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Instellingen en onderhoud, privacy, toestemming
-so.topic: howto
+topic: howto
 language: nl
 ---
 

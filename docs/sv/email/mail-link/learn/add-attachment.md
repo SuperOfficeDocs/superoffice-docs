@@ -3,9 +3,9 @@ uid: help-sv-mail-link-add-attachment
 title:  Lägg till SuperOffice-dokument som en bilaga
 description: Lägg till SuperOffice-dokument som en bilaga
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

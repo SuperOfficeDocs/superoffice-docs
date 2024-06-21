@@ -3,11 +3,11 @@ uid: help-sv-mail-link-install
 title: Installera SuperOffice WebTools
 description: Så installerar du Mail Link/WebTools.
 author: Kirsti Aakerholt
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: Gmail-länk, e-post
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

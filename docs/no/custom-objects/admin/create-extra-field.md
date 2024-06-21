@@ -4,11 +4,11 @@ title: Legge til ekstrafelt
 description: Legge til ekstrafelt
 keywords: ekstrafelt, tilpasset felt, databasefelt, feltegenskaper
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.29.2024
+version: 10
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

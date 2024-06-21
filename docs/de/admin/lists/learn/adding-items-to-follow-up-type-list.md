@@ -3,9 +3,9 @@ uid: help-de-adding-items-to-follow-up-type-list
 title: Hinzufügung von Objekten zur Liste Folgeaufgabe - Typ
 description: Hinzufügung von Objekten zur Liste Folgeaufgabe - Typ
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
 

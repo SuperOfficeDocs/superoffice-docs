@@ -3,11 +3,11 @@ uid: help-da-request-delete
 title: Slette sager
 description: Sådan sletter du en sag i SuperOffice
 author: Hanne Gunnarsson
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

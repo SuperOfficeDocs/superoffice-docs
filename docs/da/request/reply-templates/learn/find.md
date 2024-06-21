@@ -3,11 +3,11 @@ uid: help-da-reply-template-find
 title: Søgning efter svarskabeloner
 description: Søgning efter svarskabeloner
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: sag, svarskabelon
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

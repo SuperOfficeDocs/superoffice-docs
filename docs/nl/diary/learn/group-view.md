@@ -3,9 +3,9 @@ uid: help-nl-diary-group-view
 title: Groepsweergave
 description: Groepsweergave; Agendaweergaven maken; Het dialoogvenster Nieuwe groepsweergave
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: agenda, vervolgactiviteit, groepsweergave
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-using-document-templates-for-multiple-languages
 title: documentsjablonen gebruiken voor meerdere talen
 description: documentsjablonen gebruiken voor meerdere talen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-chat
 title: Chat
 description: Kommunizieren Sie mit bestehenden oder potenziellen Kunden und helfen Sie ihnen über ein Chat-Widget auf Ihrer Website.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Chat
-so.topic: concept
+topic: concept
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-languages-selection
 title: Kundesprog til nye personer
 description: Sådan vælger SuperOffice kundesprog til nye personer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sprog
-so.topic: help
+topic: help
 language: da
 ---
 

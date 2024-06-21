@@ -3,9 +3,9 @@ uid: help-nl-automation-script-create
 title: Een script maken
 description: Een script maken
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: script, macro
-so.topic: howto
+topic: howto
 language: nl
 ---
 

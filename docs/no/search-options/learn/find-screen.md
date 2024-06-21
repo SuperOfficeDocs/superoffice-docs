@@ -3,9 +3,9 @@ uid: help-no-find-screen
 title: Søke-skjerm
 description: Søke-skjerm
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: søk, finn
-so.topic: howto
+topic: howto
 language: no
 ---
 

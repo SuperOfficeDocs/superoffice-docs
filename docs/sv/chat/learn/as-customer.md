@@ -3,9 +3,9 @@ uid: help-sv-chat-as-customer
 title: Använda chattfunktionen från kundens perspektiv
 description: Använda chattfunktionen från kundens perspektiv
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

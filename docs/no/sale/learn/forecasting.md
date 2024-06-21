@@ -3,9 +3,9 @@ uid: help-no-sale-forecasting
 title: "Overvåk pipelinen, og forutsi salg"
 description: "Slik kan du overvåke salgspipelinen din og forutsi salget ditt ved hjelp av dashbord, utvalg og rapporter."
 author: Bergfrid Dias
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: howto
+topic: howto
 language: no
 ---
 

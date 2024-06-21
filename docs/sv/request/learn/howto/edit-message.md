@@ -4,9 +4,9 @@ title: Redigera meddelande
 description: Så här redigerar du ett meddelande i ett ärende i SuperOffice
 author: Hanne Gunnarsson
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

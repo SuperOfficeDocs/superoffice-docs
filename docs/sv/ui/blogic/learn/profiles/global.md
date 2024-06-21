@@ -3,9 +3,9 @@ uid: help-sv-service-profile-global
 title:  Globala profiler
 description:  Globala profiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, tjänst
-so.topic: concept
+topic: concept
 language: sv
 ---
 

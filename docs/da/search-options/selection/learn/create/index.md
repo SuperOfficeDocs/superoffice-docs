@@ -3,9 +3,9 @@ uid: help-da-selection-create
 title: Opret udvalg
 description: Arbejd med dynamiske og statiske markeringer
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

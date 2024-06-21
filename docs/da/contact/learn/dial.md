@@ -3,9 +3,9 @@ uid: help-da-contact-dial
 title: Opringning af kontakter
 description: Opringning af kontakter og telefonegenskaber
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: dagbog, opfølgning, telefon, ring til, ring op
-so.topic: howto
+topic: howto
 language: da
 ---
 

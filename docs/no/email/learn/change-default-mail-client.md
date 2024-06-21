@@ -3,10 +3,10 @@ uid: help-no-email-change-default-client
 title: Endre standard e-postklient i SuperOffice
 description: Hvordan endre standard e-postklient i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post, innstillinger, e-postklient
 language: no
-so.topic: howto
+topic: howto
 ---
 
 # Endre standard e-postklient i SuperOffice

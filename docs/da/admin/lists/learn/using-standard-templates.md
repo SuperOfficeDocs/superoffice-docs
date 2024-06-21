@@ -3,9 +3,9 @@ uid: help-da-using-standard-templates
 title: Brug af standardskabeloner
 description: Brug af standardskabeloner
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

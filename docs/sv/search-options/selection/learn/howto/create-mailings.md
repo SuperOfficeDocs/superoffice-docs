@@ -3,9 +3,9 @@ uid: help-sv-mailing-create-with-selection
 title: Skapa ett utskick till alla kontakter i ett urval
 description: Skapa utskick
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, utskick
-so.topic: howto
+topic: howto
 language: sv
 ---
 

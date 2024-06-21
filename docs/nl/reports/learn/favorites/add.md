@@ -3,9 +3,9 @@ uid: help-nl-report-fav-add
 title: Favoriete rapporten toevoegen
 description: Favoriete rapporten toevoegen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: nl
 ---
 

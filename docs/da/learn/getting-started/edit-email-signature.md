@@ -4,12 +4,12 @@ title: Rediger signaturer
 description: Rediger e-mail-signatur eller Anmodningssignatur
 keywords: e-mail, signatur, Anmodningssignatur
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.2.8
-so.topic: howto
+date: 06.11.2024
+version: 10.2.8
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Rediger signaturer

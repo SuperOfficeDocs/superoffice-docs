@@ -3,9 +3,9 @@ uid: help-no-gmail-link-manage-senders
 title: Administrere avsendere med Gmail Link
 description: Administrere avsendere med Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: no
 ---
 

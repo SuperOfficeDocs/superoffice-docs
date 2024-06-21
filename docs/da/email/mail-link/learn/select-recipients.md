@@ -3,9 +3,9 @@ uid: help-da-mail-link-select-recipients
 title: Valg af modtagere
 description: Valg af modtagere
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

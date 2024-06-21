@@ -3,11 +3,11 @@ uid: help-nl-add-items-to-mailing-domain
 title: Items toevoegen aan mailingdomein
 description: Items toevoegen aan mailingdomeinlijst
 author: Hanne Gunnarsson
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mailing, domein, SPF
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

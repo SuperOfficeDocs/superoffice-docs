@@ -3,9 +3,9 @@ uid: help-de-section-tabs-configure
 title: Spaltenansicht ändern
 description: Spaltenansicht ändern
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv, Spalte
-so.topic: howto
+topic: howto
 language: de
 ---
 

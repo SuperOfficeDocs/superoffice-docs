@@ -3,9 +3,9 @@ uid: help-nl-reply-template-folder
 title: Mappen met antwoordsjablonen beheren
 description: Mappen met antwoordsjablonen beheren
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek, beantwoorden, map
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-selection-user
 title: Udførelse af opgaver med udvalg
 description: Udførelse af opgaver med udvalg
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

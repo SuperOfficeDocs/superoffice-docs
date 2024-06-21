@@ -3,12 +3,12 @@ uid: help-sv-screen-designer-add-layout
 title: Lägg till ny skärmlayout
 description: Så här lägger du till en ny layout för en användargrupp.
 author: Bergfrid Dias
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: skärmdesigner, layout, huvudkort, arkiv
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

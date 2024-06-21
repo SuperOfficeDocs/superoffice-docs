@@ -3,12 +3,12 @@ uid: help-da-freetext-search-and-travel
 title: Fritekstsøgning og Travel
 description: Fritekstsøgning og Travel
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Fritekstsøgning og Travel

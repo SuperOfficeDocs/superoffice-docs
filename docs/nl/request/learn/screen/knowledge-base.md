@@ -3,11 +3,11 @@ uid: help-nl-knowledge-base
 title: Knowledge Base
 description: Knowledge Base
 author: SuperOffice RnD
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: verzoek, kennisdatabase
-so.topic: help
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: help
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

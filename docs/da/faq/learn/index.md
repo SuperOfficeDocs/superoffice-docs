@@ -3,11 +3,11 @@ uid: help-da-faq
 title: Arbejde med FAQ-poster
 description: dokument faq
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: FAQ
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

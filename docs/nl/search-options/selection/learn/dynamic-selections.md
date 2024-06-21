@@ -3,9 +3,9 @@ uid: help-nl-selections-dynamic
 title: Dynamische selecties
 description: Dynamische selecties
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie, dynamisch
-so.topic: concept
+topic: concept
 language: nl
 ---
 

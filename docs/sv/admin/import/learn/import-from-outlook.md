@@ -3,9 +3,9 @@ uid: help-sv-import-from-outlook
 title: Importera från Outlook
 description: Importera från Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll, importera
-so.topic: help
+topic: help
 language: sv
 ---
 

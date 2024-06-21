@@ -3,9 +3,9 @@ uid: help-no-selection-create
 title: Opprett utvalg
 description: Arbeide med dynamiske og statiske utvalg
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

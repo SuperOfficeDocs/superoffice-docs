@@ -3,11 +3,11 @@ uid: help-no-request-screen
 title: Saksbilde
 description: Saksbilde
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: sak
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-quote
 title: Arbeta med offerter
 description: SuperOffice Quote är en funktion som hjälper dig att generera offerter snabbt och korrekt – vilket sparar tid och minimerar antalet fel.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offert
-so.topic: concept
+topic: concept
 language: sv
 ---
 

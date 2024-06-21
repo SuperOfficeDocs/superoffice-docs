@@ -3,9 +3,9 @@ uid: help-nl-diary
 title: Agenda
 description: De SuperOffice Agenda is het hart van uw CRM-systeem. Deze handleidingen helpen u te leren werken met de agenda.
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: agenda
-so.topic: concept
+topic: concept
 language: nl
 ---
 

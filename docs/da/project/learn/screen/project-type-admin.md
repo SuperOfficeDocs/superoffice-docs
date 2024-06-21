@@ -3,9 +3,9 @@ uid: help-da-project-type-admin
 title: Projekt - Type
 description: Projekt - Type
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: projekt, type
-so.topic: reference
+topic: reference
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-webtools-install
 title: Installer WebTools
 description: "Hvis du bruker Windows OS, trenger du WebTools for å integrere Outlook- og Microsoft 365-dokumentprogrammene dine med SuperOffice CRM."
 author: Bergfrid Dias
-so.date: 12.04.2023
+date: 12.04.2023
 keywords: WebTools
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-erp-create-new-actor
 title: Akteur im ERP-System erstellen
 description: Akteur im ERP-System erstellen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: de
 ---
 

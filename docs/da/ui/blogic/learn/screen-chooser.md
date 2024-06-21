@@ -3,9 +3,9 @@ uid: help-da-screen-chooser
 title: ScreenChoosers
 description: ScreenChoosers
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: UI, screen_chooser
-so.topic: concept
+topic: concept
 language: da
 ---
 

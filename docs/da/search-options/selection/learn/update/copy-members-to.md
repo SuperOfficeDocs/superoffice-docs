@@ -3,9 +3,9 @@ uid: help-da-selection-copy-members-to
 title: Kopiering til udvalg
 description: Kopiering til udvalg
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: da
 ---
 

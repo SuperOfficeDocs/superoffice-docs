@@ -3,9 +3,9 @@ uid: help-no-external-applications-and-url-addresses
 title: Eksterne applikasjoner og URL-adresser
 description: Eksterne applikasjoner og URL-adresser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: URL, snarvei
-so.topic: concept
+topic: concept
 language: no
 ---
 

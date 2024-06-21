@@ -3,11 +3,11 @@ uid: help-da-select-product-image
 title: Valg af produktbillede
 description: "I denne vejledning lærer du, hvordan du kan tilføje billeder til alle de produkter, du tilføjer til SuperOffice Quote."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: produkt, billede
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

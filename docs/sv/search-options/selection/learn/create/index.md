@@ -3,9 +3,9 @@ uid: help-sv-selection-create
 title: Skapa urval
 description: Arbeta med dynamiska och statiska urval
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-contact
 title: Kontaktperson
 description: Ett kontaktkort sparar värdefull information om all din kommunikation och interaktion med en person samt dokumentation om personens GDPR-samtycke.
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: person, contact
-so.topic: concept
+topic: concept
 language: sv
 ---
 

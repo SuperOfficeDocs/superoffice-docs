@@ -3,9 +3,9 @@ uid: help-no-document-dialog
 title: Dialogboks for dokument
 description: Dialogboks for dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: concept
+topic: concept
 language: no
 ---
 

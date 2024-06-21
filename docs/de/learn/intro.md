@@ -3,13 +3,13 @@ title: Leitfäden für SuperOffice CRM
 uid: help-de-start
 description: Startseite für SuperOffice CRM-Leitfäden
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: Benutzerleitfaden, Hilfe
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: de
-so.envir:
-so.client:
+envir:
+client:
 ---
 
 # Leitfäden für SuperOffice CRM

@@ -3,9 +3,9 @@ uid: help-da-search-freetext
 title: Fritekstsøgning
 description: Fritekstsøgning
 author: SuperOffice RnD
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: fritekst, søge
-so.topic: howto
+topic: howto
 language: da
 ---
 

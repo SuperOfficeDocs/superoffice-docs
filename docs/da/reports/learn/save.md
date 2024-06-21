@@ -3,9 +3,9 @@ uid: help-da-saving-reports-as-files
 title: Gemme rapporter som filer
 description: Gemme rapporter som filer
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: da
 ---
 

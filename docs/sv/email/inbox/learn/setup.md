@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-setup
 title: Konfigurera inkorgen i SuperOffice
 description: Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till din SuperOffice CRM för e-postklienter som inte kan anslutas via WebTools. Läs om hur du konfigurerar inkorgen och loggar in första gången.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: e-post, inkorg
-so.topic: howto
+topic: howto
 language: sv
 ---
 

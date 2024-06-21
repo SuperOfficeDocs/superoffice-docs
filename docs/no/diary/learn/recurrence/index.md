@@ -4,9 +4,9 @@ title: Repeterende oppfølginger
 description: Repeterende oppfølginger
 author: SuperOffice RnD
 author: Bergfrid Dias
-so.date: 10.09.2023
+date: 10.09.2023
 keywords: dagbok, oppfølging, gjenta, repeter, hyppighet, frekvens, mønster
-so.topic: concept
+topic: concept
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-document
 title: Arbeide med dokumenter
 description: "Denne veiledningen viser deg hvordan du kan opprette og lagre dokumenter i SuperOffice CRM, og hvordan du kan sende og motta dokumenter direkte i CRM-løsningen."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: dokument
-so.topic: concept
+topic: concept
 language: no
 ---
 

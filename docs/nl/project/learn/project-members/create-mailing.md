@@ -3,9 +3,9 @@ uid: help-nl-project-mail-merge
 title: Een samenvoegbewerking uitvoeren voor projecten
 description: Een samenvoegbewerking uitvoeren voor projecten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid, mailing, document
-so.topic: howto
+topic: howto
 language: nl
 ---
 

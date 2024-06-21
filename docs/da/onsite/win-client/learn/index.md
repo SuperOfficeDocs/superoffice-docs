@@ -3,12 +3,12 @@ uid: help-da-win-client
 title: Indstillinger for Windows-klient
 description: Indstillinger for Windows-klient
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: concept
+topic: concept
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Indstillinger for Windows-klient

@@ -3,9 +3,9 @@ uid: help-no-contact-dial
 title: Ringe personer
 description: Ringe personer; Telefonpreferanser
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: dagbok, oppfølging, telefon, samtale, ringe
-so.topic: howto
+topic: howto
 language: no
 ---
 

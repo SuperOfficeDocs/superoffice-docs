@@ -3,9 +3,9 @@ uid: help-da-external-applications-and-url-addresses
 title: Eksterne programmer og URL-adresser
 description: Eksterne programmer og URL-adresser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: URL, genvej
-so.topic: concept
+topic: concept
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-report-create
 title: Skapa rapport
 description: Skapa rapport
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: sv
 ---
 

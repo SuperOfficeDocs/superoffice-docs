@@ -3,9 +3,9 @@ uid: help-da-licences-screen
 title: Skærmbilledet Licenser
 description: Skærmbilledet Licenser i Indstillinger og vedligeholdelse
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: licens, forbrugstjeneste, databaseejer, fanen status
-so.topic: reference
+topic: reference
 language: da
 ---
 

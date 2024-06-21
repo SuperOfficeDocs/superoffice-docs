@@ -3,9 +3,9 @@ uid: help-no-chat-send-files
 title:  Sende filer i chat
 description:  Sende filer i chat
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

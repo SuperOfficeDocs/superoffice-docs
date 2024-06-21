@@ -3,9 +3,9 @@ uid: help-nl-selection-screen
 title: Sectietabbladen in het scherm Selectie
 description: Sectietabbladen in het scherm Selectie
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie
-so.topic: reference
+topic: reference
 language: nl
 ---
 

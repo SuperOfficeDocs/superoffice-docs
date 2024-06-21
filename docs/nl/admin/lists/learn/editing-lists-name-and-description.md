@@ -3,11 +3,11 @@ uid: help-nl-editing-lists-name-and-description
 title: De naam en beschrijving van een lijst bewerken
 description: De naam en beschrijving van een lijst bewerken
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: lijst, type abonnement
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -4,9 +4,9 @@ title: Hålla koll på meddelanden
 description: Hålla koll på meddelanden
 author: Hanne Gunnarsson
 keywords: ärende, De flesta mottagare kan läsa meddelanden (till exempel nyhetsbrev) som är formaterade som HTML-text. Budskapet blir ofta tydligare om du skickar meddelandet som HTML eftersom du då kan lägga in bilder och använda färger i texten., flagga
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

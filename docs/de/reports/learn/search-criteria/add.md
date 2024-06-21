@@ -3,9 +3,9 @@ uid: help-de-report-search-criteria-add
 title: Suchkriterien zu Berichten hinzufügen
 description: Suchkriterien zu Berichten hinzufügen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

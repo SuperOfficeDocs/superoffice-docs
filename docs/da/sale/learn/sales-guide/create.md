@@ -3,11 +3,11 @@ uid: help-da-sales-guide-create
 title: Opret ny salgsguide
 description: Sådan opretter du en salgsguide i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salg, guide
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

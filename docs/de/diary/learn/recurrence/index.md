@@ -3,9 +3,9 @@ uid: help-de-recurrence
 title: Wiederkehrende Folgeaufgaben
 description: Wiederkehrende Folgeaufgaben
 author: Bergfrid Dias
-so.date: 10.09.2023
+date: 10.09.2023
 keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren, Häufigkeit, regelmäßig, planen
-so.topic: concept
+topic: concept
 language: de
 ---
 

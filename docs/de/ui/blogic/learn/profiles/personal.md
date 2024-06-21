@@ -3,9 +3,9 @@ uid: help-de-service-profile-personal
 title: Persönliche Profile
 description: Persönliche Profile
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Profil, UI
-so.topic: concept
+topic: concept
 language: de
 ---
 

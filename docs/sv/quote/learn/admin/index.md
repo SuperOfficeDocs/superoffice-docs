@@ -3,11 +3,11 @@ uid: help-sv-quote-admin
 title: Offertsynk
 description: "SuperOffice Quote hjälper dig att skapa, validera och hantera offerter och order under hela orderns livscykel."
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: offert, synk, försäljning
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

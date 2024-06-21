@@ -3,11 +3,11 @@ uid: help-nl-system-event-add
 title: Systeemgebeurtenissen toevoegen
 description: Systeemgebeurtenissen toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: gebeurtenis, melding
-so.topic: howto
+topic: howto
 language: nl
-so.envir: onsite
+envir: onsite
 ---
 
 # Systeemgebeurtenissen toevoegen (lokaal)

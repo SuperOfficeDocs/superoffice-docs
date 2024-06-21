@@ -3,9 +3,9 @@ uid: help-de-project-member-add
 title: Projektmitglied hinzufügen
 description: Wie man ein Projektmitglied in SuperOffice hinzufügt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Mitglied
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-sv-request-screen
 title: Ärendeskärm
 description: Ärendeskärm
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: ärende
-so.topic: reference
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

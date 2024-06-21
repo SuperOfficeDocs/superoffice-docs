@@ -3,11 +3,11 @@ uid: help-nl-adding-items-to-web-panel-list
 title: Items toevoegen aan de lijst Webpaneel
 description: Items toevoegen aan de lijst Webpaneel
 author: SuperOffice RnD
-so.date: 01.20.2023
+date: 01.20.2023
 keywords: lijst, webpaneel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

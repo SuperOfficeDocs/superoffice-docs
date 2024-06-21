@@ -3,9 +3,9 @@ uid: help-no-email-inbox-preview
 title: forhåndsvisning-feltet
 description: forhåndsvisning-feltet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: help
+topic: help
 language: no
 ---
 

@@ -4,12 +4,12 @@ title: Arbeide med skjemamaler
 description: Arbeide med skjemamaler
 keywords: skjema, mal, skjemamal
 author: SuperOffice RnD
-so.date: 03.04.2024
-so.version: 10
-so.topic: howto
+date: 03.04.2024
+version: 10
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med skjemamaler

@@ -3,9 +3,9 @@ uid: help-sv-gmail-link-settings
 title: Redigera Gmail Link-inställningar
 description: Redigera Gmail Link-inställningar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail-länk
-so.topic: reference
+topic: reference
 language: sv
 ---
 

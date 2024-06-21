@@ -3,9 +3,9 @@ uid: help-de-quote-create-order
 title: Angebot für Auftrag erstellen
 description: "In dieser Anleitung lernen Sie, wie Sie einen Auftrag erteilen."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

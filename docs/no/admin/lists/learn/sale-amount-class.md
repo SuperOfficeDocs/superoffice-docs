@@ -3,11 +3,11 @@ uid: help-no-sale-amount-class
 title: Legge til salgsbeløpsklasse
 description: Legge til salgsbeløpsklasse
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salg, beløp
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

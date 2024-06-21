@@ -3,11 +3,11 @@ uid: help-da-role
 title: Rolle
 description: Rolle
 author: Kirsti Aakerholt
-so.date: 04.19.2023
+date: 04.19.2023
 keywords: rolle, dataobjekt, brugerniveau 
-so.topic: concept
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: admin
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-document-template
 title: Dokumentskabelon
 description: Dokumentskabelon
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

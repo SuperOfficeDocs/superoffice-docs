@@ -3,11 +3,11 @@ uid: help-nl-sync-resync-from-crm
 title: Opnieuw synchr. vanuit CRM
 description: Opnieuw synchr. vanuit CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: offerte, synchroniseren, connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-quote-add-products
 title: Producten aan een offerte toevoegen
 description: Producten aan een offerte toevoegen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

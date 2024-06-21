@@ -3,9 +3,9 @@ uid: help-no-marketing-add-images
 title: Legg til bilder
 description: Legg til bilder
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Markedsføring
-so.topic: help
+topic: help
 language: no
 ---
 

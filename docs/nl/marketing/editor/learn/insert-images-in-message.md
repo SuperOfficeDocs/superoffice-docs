@@ -4,12 +4,12 @@ title: Afbeeldingen in het bericht invoegen
 description: "Het gebruik van zorgvuldig gekozen afbeeldingen in uw mailings kan een krachtige impact hebben op uw resultaten. U kunt uw eigen afbeeldingen uploaden of een van de miljoenen afbeeldingen gebruiken die worden verzorgd door Unsplash, Pexels, Pixabay in de online afbeeldingenbibliotheek."
 keywords: Marketing, afbeelding
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Afbeeldingen in het bericht invoegen

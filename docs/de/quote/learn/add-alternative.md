@@ -3,9 +3,9 @@ uid: help-de-quote-add-alternative
 title: Alternative zu Angebot hinzufügen
 description: "In SuperOffice-Angebot können Sie Alternativen zu jedem Angebot erstellen und Ihren Kunden verschiedene Optionen zur Auswahl anbieten. Diese Anleitung zeigt Ihnen, wie Sie alternative Angebote für ein Angebot erstellen."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

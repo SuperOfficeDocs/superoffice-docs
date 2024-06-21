@@ -4,12 +4,12 @@ title: Hauptkartenlayout bearbeiten
 description: "In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können."
 keywords: Ansichtsdesigner, Layout, Feld, Registerkarten-Layout
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: de
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Layout bearbeiten – Hauptkarten

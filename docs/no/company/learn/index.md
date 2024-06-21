@@ -3,9 +3,9 @@ uid: help-no-company
 title: Firmaer
 description: "All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet i SuperOffice CRM."
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: firma
-so.topic: concept
+topic: concept
 language: no
 ---
 

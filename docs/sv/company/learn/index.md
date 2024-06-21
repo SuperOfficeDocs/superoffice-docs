@@ -3,9 +3,9 @@ uid: help-sv-company
 title: Företag
 description: "All information som hör samman med ett företag – oavsett om det är din kund, partner eller leverantör – lagras på företagskortet i SuperOffice CRM."
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: företag
-so.topic: concept
+topic: concept
 language: sv
 ---
 

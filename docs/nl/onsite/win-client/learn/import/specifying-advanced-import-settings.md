@@ -3,12 +3,12 @@ uid: help-nl-specifying-advanced-import-settings
 title: Geavanceerde importinstellingen opgeven
 description: Geavanceerde importinstellingen opgeven
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Geavanceerde importinstellingen opgeven

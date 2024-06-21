@@ -3,9 +3,9 @@ uid: help-da-project-guide
 title: Projektvejledning
 description: Introduktion til projektguides i SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: projekt, guide, workflow
-so.topic: concept
+topic: concept
 language: da
 ---
 

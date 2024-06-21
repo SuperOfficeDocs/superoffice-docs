@@ -3,9 +3,9 @@ uid: help-nl-send-privacy-confirmation-email
 title: E-mail met privacybevestiging verzenden
 description: E-mail met privacybevestiging verzenden
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, toestemming, e-mail, privacy
-so.topic: howto
+topic: howto
 language: nl
 ---
 

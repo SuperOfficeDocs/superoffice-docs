@@ -3,9 +3,9 @@ uid: help-nl-contact-add-relation
 title: Relaties toevoegen (scherm Persoon)
 description: Relaties toevoegen (scherm Persoon)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: howto
+topic: howto
 language: nl
 ---
 

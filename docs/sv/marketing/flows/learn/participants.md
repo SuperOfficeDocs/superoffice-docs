@@ -4,13 +4,13 @@ title: Flödesdeltagare
 description: Flödesdeltagare
 keywords: flöde, flödesdeltagare, deltagar, deltagarlistan, deltagarstatus, slutförd, bortfall, framgångsgrad, framgångskriterier
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.14.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.14.2024
+version: 10.3.7
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flödesdeltagare

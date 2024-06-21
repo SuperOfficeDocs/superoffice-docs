@@ -3,9 +3,9 @@ uid: help-sv-options
 title: Alternativ
 description: Alternativ
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: inställningar, alternativ
-so.topic: reference
+topic: reference
 language: sv
 ---
 

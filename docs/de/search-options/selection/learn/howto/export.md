@@ -3,9 +3,9 @@ uid: help-de-selection-export
 title: Selektion exportieren
 description: Wie man eine Selektion in Excel oder eine Datei exportiert.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Selektion, exportieren, Excel
-so.topic: howto
+topic: howto
 language: de
 ---
 

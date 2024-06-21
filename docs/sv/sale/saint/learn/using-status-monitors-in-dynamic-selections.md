@@ -3,9 +3,9 @@ uid: help-sv-using-status-monitors-in-dynamic-selections
 title: Använda statusövervakning i dynamiska urval
 description: Använda statusövervakning i dynamiska urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: help
+topic: help
 language: sv
 ---
 

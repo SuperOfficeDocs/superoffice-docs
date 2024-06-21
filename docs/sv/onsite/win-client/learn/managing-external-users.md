@@ -3,11 +3,11 @@ uid: help-sv-managing-external-users
 title: hantera externa användare
 description: hantera externa användare
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: help
+topic: help
 language: sv
-so.envir: onsite
+envir: onsite
 ---
 
 # Hantera externa användare

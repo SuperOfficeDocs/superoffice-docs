@@ -3,11 +3,11 @@ uid: help-nl-reply-template
 title: Werken met antwoordsjablonen
 description: Werken met antwoordsjablonen
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: verzoek
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

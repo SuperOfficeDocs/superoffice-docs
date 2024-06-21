@@ -4,12 +4,12 @@ title: Behandla formulärinlämningar
 description: I den här guiden lär du dig hur du bearbetar formulärinlämningar manuellt.
 keywords: formulär, formulärinlämning, avsändar, inlämnad, data från formulär, formulärdat
 author: Bergfrid Dias
-so.date: 03.18.2024
-so.version: 10
-so.topic: howto
+date: 03.18.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Behandla formulärinlämningar

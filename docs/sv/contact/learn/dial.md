@@ -3,9 +3,9 @@ uid: help-sv-contact-dial
 title: Ringa till kontakter
 description: Ringa till kontakter; Telefoninställningar
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: kalender, händelse, telefon, ringa upp, ringa
-so.topic: howto
+topic: howto
 language: sv
 ---
 

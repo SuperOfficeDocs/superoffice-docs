@@ -3,11 +3,11 @@ uid: help-nl-quote-delete-deactivate-price-list-or-product
 title: "offerte verwijderen, prijslijst of product deactiveren"
 description: "offerte verwijderen, prijslijst of product deactiveren"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: verkoop, offerte, product, prijslijst
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

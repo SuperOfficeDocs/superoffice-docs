@@ -3,11 +3,11 @@ uid: help-no-preferences-intro
 title: Preferanser
 description: Oversikt over personlige omgivelser og hvordan du endrer dem.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: preferanse, innstilling
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

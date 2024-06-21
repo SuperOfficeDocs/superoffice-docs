@@ -3,11 +3,11 @@ uid: help-sv-privacy-implementation
 title: Hantera dina integritetsinställningar (GDPR)
 description: "Innan du börjar konfigurera din SuperOffice CRM-databas för att bli GDPR-kompatibel, bör du först lägga en grund för detta."
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, samtycke
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

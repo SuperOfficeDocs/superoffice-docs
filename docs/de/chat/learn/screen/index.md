@@ -3,9 +3,9 @@ uid: help-de-chat-screen
 title: Chat-Bildschirm
 description: Chat-Bildschirm
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Chat
-so.topic: reference
+topic: reference
 language: de
 ---
 

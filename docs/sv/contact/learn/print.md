@@ -3,9 +3,9 @@ uid: help-sv-contact-print
 title: Skriv ut kontaktinformation
 description: Skriv ut kontaktinformation
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact, skriv ut
-so.topic: howto
+topic: howto
 language: sv
 ---
 

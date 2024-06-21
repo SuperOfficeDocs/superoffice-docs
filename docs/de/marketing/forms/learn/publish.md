@@ -4,12 +4,12 @@ title: Formulare veröffentlichen
 description: Formulare veröffentlichen
 keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgefüllt, Formular einbetten, Skript-Tag, veröffentlichen
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
-so.topic: howto
+date: 03.18.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Formulare veröffentlichen

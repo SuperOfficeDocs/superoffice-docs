@@ -3,12 +3,12 @@ uid: help-nl-deleting-field-mapping
 title: Veldtoewijzing verwijderen
 description: Veldtoewijzing verwijderen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Veldtoewijzing verwijderen

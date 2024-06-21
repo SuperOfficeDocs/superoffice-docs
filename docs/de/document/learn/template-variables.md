@@ -3,9 +3,9 @@ uid: help-de-template-variables
 title: Vorlagenvariablen
 description: Mit Vorlagenvariablen können Sie die Eingabe von Kundendaten personalisieren und automatisieren
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Dokument, Vorlage, Variable
-so.topic: concept
+topic: concept
 language: de
 ---
 

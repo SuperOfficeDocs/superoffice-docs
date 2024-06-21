@@ -3,11 +3,11 @@ uid: help-no-project-guide-deactivate
 title: Deaktivere prosjektguide
 description: Slik deaktiverer du en prosjektguide i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: prosjekt, guide
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

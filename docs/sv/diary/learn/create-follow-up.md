@@ -3,10 +3,10 @@ uid: help-sv-follow-up-create
 title: "Lägga till händelser"
 description: "Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice"
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: kalender, händelse, ringa upp, telefon, möte
-so.topic: howto
+topic: howto
 language: sv
 ---
 

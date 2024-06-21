@@ -3,11 +3,11 @@ uid: help-de-reply-template-create
 title: Antwortvorlagen erstellen
 description: "In dieser Anleitung lernen Sie, wie Sie eine Antwortvorlage erstellen."
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage, Antwort, Vorlage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

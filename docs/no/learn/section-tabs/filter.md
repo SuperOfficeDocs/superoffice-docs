@@ -3,9 +3,9 @@ uid: help-no-section-tabs-filter
 title: Filtrere detaljkortene
 description: Slik bruker du filtre i detaljkortene.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: detaljkort, filter
-so.topic: howto
+topic: howto
 language: no
 ---
 

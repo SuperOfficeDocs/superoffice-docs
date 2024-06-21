@@ -3,11 +3,11 @@ uid: help-de-reply-template-delete
 title: Antwortvorlagen löschen
 description: Antwortvorlagen löschen
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage, Antwort
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

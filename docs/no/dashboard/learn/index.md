@@ -3,9 +3,9 @@ uid: help-no-dashboard
 title: Dashboard
 description: Konfigurere SuperOffice Dashboard og bruke forhåndsdefinerte figurer. Dashbord er ideelle for alle brukere og ledere. Du kan få en oversikt over arbeidet ditt eller teamets innsats.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashbord
-so.topic: concept
+topic: concept
 language: no
 ---
 

@@ -3,11 +3,11 @@ uid: help-da-preferences-intro
 title: Præferencer
 description: Oversigt over personlige indstillinger og hvordan du ændrer dem.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: præference, indstilling
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

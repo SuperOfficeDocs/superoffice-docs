@@ -3,9 +3,9 @@ uid: help-sv-selection-print-company-reports
 title: Skriva ut företagsrapporter
 description: Skriva ut företagsrapporter
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

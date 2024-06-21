@@ -3,11 +3,11 @@ uid: help-no-edit-privacy-confirmation-email
 title: Rediger e-post med personvernbekreftelse
 description: I denne veiledningen lærer du hvordan du redigerer e-postbekreftelsen for personvern.
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: GDPR, samtykke, e-post, mal
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

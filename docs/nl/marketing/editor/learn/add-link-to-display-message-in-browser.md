@@ -4,12 +4,12 @@ title: Een koppeling toevoegen om het bericht weer te geven in een browser
 description: Een koppeling toevoegen om het bericht weer te geven in een browser
 keywords: Marketing, koppeling, mailing
 author: SuperOffice RnD
-so.date: 02.05.2024
-so.version: 10
-so.topic: howto
+date: 02.05.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Een koppeling toevoegen om het bericht weer te geven in een browser

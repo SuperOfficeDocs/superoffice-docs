@@ -3,9 +3,9 @@ uid: help-da-project-screen-activities
 title: Fanen Aktiviteter
 description: Fanen Aktiviteter i skærmbilledet Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: reference
+topic: reference
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-email-template
 title: E-mailskabelon
 description: E-mailskabelon
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

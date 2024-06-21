@@ -4,12 +4,12 @@ title: Administrere e-mail-abonnementer
 description: "Funktionerne til administration af abonnementer i SuperOffice CRM giver dig mulighed for at dokumentere, hvilken type indhold dine kontakter ønsker at modtage fra dig."
 keywords: marketing
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: concept
+date: 02.09.2024
+version: 10
+topic: concept
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Administrere e-mail-abonnementer

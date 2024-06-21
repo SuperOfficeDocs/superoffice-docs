@@ -3,9 +3,9 @@ uid: help-de-ui-web-panels
 title: Web-Bildschirme
 description: Web-Bildschirme
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: Web-Bildschirm
-so.topic: concept
+topic: concept
 language: de
 ---
 

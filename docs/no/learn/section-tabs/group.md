@@ -3,9 +3,9 @@ uid: help-no-sections-tabs-group
 title: Grupperingslister
 description: Du kan gruppere en liste etter én eller flere datatyper for å få bedre oversikt over postene i et detaljkort (arkiv).
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: detaljkort, arkiv
-so.topic: howto
+topic: howto
 language: no
 ---
 

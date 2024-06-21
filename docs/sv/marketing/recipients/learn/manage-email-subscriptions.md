@@ -4,12 +4,12 @@ title: Hantera e-postprenumerationer
 description: Med funktionerna för prenumerationshantering i SuperOffice CRM kan du dokumentera vilken typ av innehåll dina kontakter vill få från dig.
 keywords: marknadsföring
 author: Bergfrid Dias
-so.date: 02.09.2024
-so.version: 10
-so.topic: concept
+date: 02.09.2024
+version: 10
+topic: concept
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Hantera e-postprenumerationer

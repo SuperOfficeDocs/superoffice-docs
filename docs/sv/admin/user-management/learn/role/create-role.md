@@ -3,11 +3,11 @@ uid: help-sv-role-create
 title: Skapa roll
 description: Skapa roll
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: roll, administrera användare
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

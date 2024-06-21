@@ -3,13 +3,13 @@ uid: help-sv-custom-objects
 title: Egendefinierade objekt och fält
 description: Egendefinierade objekt och fält
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
+date: 01.29.2024
+version: 10
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
-so.topic: concept
+topic: concept
 language: sv
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Egendefinierade objekt och fält

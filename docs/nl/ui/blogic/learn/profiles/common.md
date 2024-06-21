@@ -3,9 +3,9 @@ uid: help-nl-service-profile-common
 title: Algemene profielen
 description: Algemene profielen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profiel, service
-so.topic: howto
+topic: howto
 language: nl
 ---
 

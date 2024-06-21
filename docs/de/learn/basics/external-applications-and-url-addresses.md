@@ -3,9 +3,9 @@ uid: help-de-external-applications-and-url-addresses
 title: Externe Anwendungen und URL-Adressen
 description: Externe Anwendungen und URL-Adressen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: URL, Shortcut
-so.topic: concept
+topic: concept
 language: de
 ---
 

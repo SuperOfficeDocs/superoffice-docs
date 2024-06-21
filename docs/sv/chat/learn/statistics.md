@@ -3,9 +3,9 @@ uid: help-sv-chat-statistics
 title: Visa chattstatistik
 description: I den här guiden förklarar vi hur du visar chattstatistik både på en dashboard och i chattfönstret.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

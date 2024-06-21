@@ -3,9 +3,9 @@ uid: help-nl-ui-web-panels
 title: Webpanelen
 description: Webpanelen
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: webpaneel
-so.topic: concept
+topic: concept
 language: nl
 ---
 

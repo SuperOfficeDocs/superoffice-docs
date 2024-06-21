@@ -3,9 +3,9 @@ uid: help-da-ui-extra-menu-actions
 title: Knappen Tilføj funktion til opgave
 description: Knappen Tilføj funktion til opgave
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: makro, opgave, handlinger
-so.topic: howto
+topic: howto
 language: da
 ---
 

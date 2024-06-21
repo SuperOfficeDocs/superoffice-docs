@@ -3,11 +3,11 @@ uid: help-da-admin-primer
 title: Oversigt
 description: Introduktion til administration af SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Indstillinger og vedligeholdelse
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 # Oversigt

@@ -3,9 +3,9 @@ uid: help-da-sale-forecasting
 title: "Overvåg din pipeline, og forudsig salg"
 description: "Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards, udvalg og rapporter."
 author: Bergfrid Dias
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: howto
+topic: howto
 language: da
 ---
 

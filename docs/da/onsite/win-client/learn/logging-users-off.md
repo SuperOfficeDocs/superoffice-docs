@@ -3,9 +3,9 @@ uid: help-da-logging-users-off
 title: Log brugere af
 description: Log brugere af
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse, user
-so.topic: help
+topic: help
 language: da
 ---
 

@@ -3,11 +3,11 @@ uid: help-de-reply-template
 title: Mit Antwortvorlagen arbeiten
 description: Mit Antwortvorlagen arbeiten
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

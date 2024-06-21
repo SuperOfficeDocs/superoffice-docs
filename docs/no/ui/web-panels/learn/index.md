@@ -3,9 +3,9 @@ uid: help-no-ui-web-panels
 title: Nettleserfaner
 description: Nettleserfaner
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: nettleserfane
-so.topic: concept
+topic: concept
 language: no
 ---
 

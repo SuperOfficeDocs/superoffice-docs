@@ -3,9 +3,9 @@ uid: help-da-adding-items-to-follow-up-type-list
 title: Tilføjelse af forekomster på listen Opfølgning - Type
 description: Tilføjelse af forekomster på listen Opfølgning - Type
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

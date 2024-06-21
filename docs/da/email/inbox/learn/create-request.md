@@ -3,9 +3,9 @@ uid: help-da-create-request
 title: Opret sag
 description: Opret sag
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: help
+topic: help
 language: da
 ---
 

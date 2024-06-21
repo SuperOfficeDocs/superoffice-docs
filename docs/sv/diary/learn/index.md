@@ -3,9 +3,9 @@ uid: help-sv-diary
 title: Kalender
 description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De här guiderna förklarar hur du använder kalendern.
 author: Bergfrid Dias
-so.date: 10.04.2023
+date: 10.04.2023
 keywords: kalender
-so.topic: concept
+topic: concept
 language: sv
 ---
 

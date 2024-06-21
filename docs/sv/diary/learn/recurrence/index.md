@@ -3,9 +3,9 @@ uid: help-sv-recurrence
 title: Återkommande händelser
 description: Återkommande händelser
 author: Bergfrid Dias
-so.date: 10.09.2023
+date: 10.09.2023
 keywords: kalender, händelse, upprepa, återkomma, förekomst
-so.topic: concept
+topic: concept
 language: sv
 ---
 

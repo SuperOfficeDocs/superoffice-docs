@@ -3,12 +3,12 @@ uid: help-da-udef
 title: Brugerdefinerede felter
 description: Brugerdefinerede felter
 author: Bergfrid Dias
-so.date: 01.29.2024
+date: 01.29.2024
 so-version: 10
 keywords: udef, tilpasset felt, Brugerdefinered
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

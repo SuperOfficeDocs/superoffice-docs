@@ -3,9 +3,9 @@ uid: help-sv-selection-static
 title: Statiska urval
 description: Statiska urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, statiskt
-so.topic: concept
+topic: concept
 language: sv
 ---
 

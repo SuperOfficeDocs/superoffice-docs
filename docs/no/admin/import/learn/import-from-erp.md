@@ -3,9 +3,9 @@ uid: help-no-import-from-erp
 title: importere fra ERP
 description: importere fra ERP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold, importere
-so.topic: help
+topic: help
 language: no
 ---
 

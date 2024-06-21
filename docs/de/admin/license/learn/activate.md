@@ -3,9 +3,9 @@ uid: help-de-license-activate
 title: Lizenz aktivieren
 description: Lizenz für SuperOffice aktivieren
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: Lizenzen
-so.topic: howto
+topic: howto
 language: de
 ---
 

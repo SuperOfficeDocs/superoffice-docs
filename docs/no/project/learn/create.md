@@ -3,9 +3,9 @@ uid: help-no-project-create
 title: Opprette et prosjekt
 description: Slik oppretter du et prosjekt og blir enda mer organisert i arbeidet.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: prosjekt
-so.topic: howto
+topic: howto
 language: no
 ---
 

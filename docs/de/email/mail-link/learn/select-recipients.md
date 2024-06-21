@@ -3,9 +3,9 @@ uid: help-de-mail-link-select-recipients
 title: Empfänger auswählen
 description: Empfänger auswählen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-Link
-so.topic: howto
+topic: howto
 language: de
 ---
 

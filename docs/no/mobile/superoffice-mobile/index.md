@@ -3,12 +3,12 @@ uid: help-no-mobile-intro
 title: Mobile CRM – Få tilgang til CRM mens du er på farten
 description: I denne veiledningen lærer du hvordan du kommer i gang med de grunnleggende funksjonene i Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, pocket
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: no
-so.client: mobile
+client: mobile
 ---
 
 # Mobile CRM: Få tilgang til CRM mens du er på farten

@@ -3,9 +3,9 @@ uid: help-nl-document-library
 title: Documentbibliotheek
 description: Documentbibliotheek
 author: SuperOffice RnD
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: document
-so.topic: concept
+topic: concept
 language: nl
 ---
 

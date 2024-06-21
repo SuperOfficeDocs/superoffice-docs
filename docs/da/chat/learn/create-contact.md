@@ -3,9 +3,9 @@ uid: help-da-chat-create-contact
 title: Opret en ny person i SuperOffice
 description: Sådan linker du ny kunde til SuperOffice fra en chat.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

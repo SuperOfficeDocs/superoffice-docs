@@ -3,9 +3,9 @@ uid: help-nl-mail-link-create-so
 title: E-mails maken vanuit SuperOffice CRM
 description: E-mails maken vanuit SuperOffice CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: howto
+topic: howto
 language: nl
 ---
 

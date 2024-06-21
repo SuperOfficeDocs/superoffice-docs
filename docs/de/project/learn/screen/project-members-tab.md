@@ -3,9 +3,9 @@ uid: help-de-project-members-tab
 title: Projektmitglieder
 description: Projektmitglieder
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt, Mitglied
-so.topic: reference
+topic: reference
 language: de
 ---
 

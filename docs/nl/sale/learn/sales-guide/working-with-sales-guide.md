@@ -3,9 +3,9 @@ uid: help-nl-working-with-sales-guide
 title: Werken met verkoopgids
 description: Werken met verkoopgids
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

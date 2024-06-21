@@ -3,11 +3,11 @@ uid: help-de-adding-items-to-web-panel-list
 title: Objekte zur Liste Web-Bildschirm hinzufügen
 description: Objekte zur Liste Web-Bildschirm hinzufügen
 author: SuperOffice RnD
-so.date: 01.20.2023
+date: 01.20.2023
 keywords: Liste, Web-Bildschirm
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

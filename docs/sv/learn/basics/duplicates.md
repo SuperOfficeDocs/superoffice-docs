@@ -3,9 +3,9 @@ uid: help-sv-duplicates
 title: Dubbletter
 description: Dubbletter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dubblett
-so.topic: concept
+topic: concept
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-grouping-items-under-headings
 title: Gruppera poster under rubriker
 description: Gruppera poster under rubriker
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

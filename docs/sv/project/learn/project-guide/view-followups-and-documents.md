@@ -3,9 +3,9 @@ uid: help-sv-view-followups-and-documents
 title: Visa händelser och dokument
 description: Visa händelser och dokument
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: sv
 ---
 

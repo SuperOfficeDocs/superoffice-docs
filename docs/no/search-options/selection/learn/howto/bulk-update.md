@@ -3,9 +3,9 @@ uid: help-no-selection-bulk-update
 title: Masseredigering av utvalgsoppgave
 description: "Med masseredigering kan du endre detaljer for en stor gruppe personer, aktiviteter, salg, prosjekter og mer."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg, masseredigering
-so.topic: howto
+topic: howto
 language: no
 ---
 

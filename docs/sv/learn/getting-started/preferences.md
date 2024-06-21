@@ -3,11 +3,11 @@ uid: help-sv-preferences-intro
 title: Preferenser
 description: Översikt över personliga inställningar och hur du ändrar dem.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: inställning, inställning
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

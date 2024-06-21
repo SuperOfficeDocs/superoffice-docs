@@ -3,9 +3,9 @@ uid: help-de-service-screen-definition
 title: Definition der Ansicht
 description: Definition der Ansicht
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Definition der Ansicht
-so.topic: reference
+topic: reference
 language: de
 ---
 

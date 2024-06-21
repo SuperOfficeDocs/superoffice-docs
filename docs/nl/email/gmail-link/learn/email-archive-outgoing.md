@@ -3,9 +3,9 @@ uid: help-nl-gmail-link-archive-outgoing
 title: Uitgaande e-mail archiveren
 description: Uitgaande e-mail archiveren met SuperOffice Gmail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: nl
 ---
 

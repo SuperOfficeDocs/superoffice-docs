@@ -3,10 +3,10 @@ uid: help-de-activity-add-link
 title: Dokumente mit Folgeaufgaben verknüpfen
 description: Dokumente mit Folgeaufgaben verknüpfen
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: CRM
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-no-quote-admin
 title: Tilbud/Sync
 description: "SuperOffice Quote hjelper deg med å opprette, validere og administrere tilbud og ordrer gjennom hele livssyklusen til en ordre."
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: tilbud, Sync, salg
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

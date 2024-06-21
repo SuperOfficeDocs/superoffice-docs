@@ -3,9 +3,9 @@ uid: help-da-time-zones
 title: Tidszoner
 description: Tidszoner
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: concept
+topic: concept
 language: da
 ---
 

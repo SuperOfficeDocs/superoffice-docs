@@ -4,12 +4,12 @@ uid: help-de-custom-objects
 description: Benutzerdefinierte Objekte
 keywords: benutzerdefiniertes Objekt, Felder, udef
 author: Bergfrid Dias
-so.date: 01.30.2024
-so.version: 10
-so.topic: concept
+date: 01.30.2024
+version: 10
+topic: concept
 language: de
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+audience: user
+audience_tooltip: SuperOffice CRM
 ---
 
 # Benutzerdefinierte Objekte und Felder

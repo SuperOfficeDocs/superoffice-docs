@@ -3,9 +3,9 @@ uid: help-no-project-member-invite
 title: Invitere prosjektdeltakere til et møte
 description: Slik inviterer du en prosjektdeltaker til et møte i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, deltaker, invitere, oppfølging
-so.topic: howto
+topic: howto
 language: no
 ---
 

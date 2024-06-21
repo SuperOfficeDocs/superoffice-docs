@@ -3,9 +3,9 @@ uid: help-sv-mail-link-archive
 title: Arkivera e-postmeddelanden till SuperOffice
 description: Arkivera e-postmeddelanden till SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: sv
 ---
 

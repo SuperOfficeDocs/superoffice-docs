@@ -3,11 +3,11 @@ uid: help-no-import-from-excel
 title: Importere fra Excel
 description: "I denne veiledningen lærer du hvordan du kan importere alle potensielle kunder, kunder og deres personer."
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: importere, Excel, firma, person, regneark
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

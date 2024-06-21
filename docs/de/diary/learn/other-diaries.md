@@ -3,9 +3,9 @@ uid: help-de-diary-other
 title: Anderen Kalender anzeigen
 description: Zeigen Sie den Kalender eines anderen an.
 author: Bergfrid Dias
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: Kalender, Folgeaufgabe, Ressource, Besitzer
-so.topic: howto
+topic: howto
 language: de
 ---
 

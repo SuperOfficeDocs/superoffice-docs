@@ -3,9 +3,9 @@ uid: help-de-dashboard-tile-edit
 title: Kacheln bearbeiten
 description: Kacheln bearbeiten
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

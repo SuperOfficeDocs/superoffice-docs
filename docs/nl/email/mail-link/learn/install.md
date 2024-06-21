@@ -3,11 +3,11 @@ uid: help-nl-mail-link-install
 title: SuperOffice WebTools installeren
 description: Meer informatie over het installeren van de e-mailkoppeling/WebTools.
 author: Kirsti Aakerholt
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-quote-add-products
 title: Lägg till produkter i offert
 description: Lägg till produkter i offert
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

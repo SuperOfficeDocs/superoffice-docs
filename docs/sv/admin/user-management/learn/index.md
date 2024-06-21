@@ -3,11 +3,11 @@ uid: help-sv-users
 title: Användare
 description: "Lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

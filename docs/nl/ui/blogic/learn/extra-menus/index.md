@@ -3,11 +3,11 @@ uid: help-nl-ui-extra-menu
 title: Extra menu's
 description: "Extra menu's in de SuperOffice UI"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: extra menu's
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

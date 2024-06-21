@@ -3,12 +3,12 @@ uid: help-de-updating-rules-for-duplicate-handling
 title: Regeln zur Duplikathandhabung aktualisieren
 description: Regeln zur Duplikathandhabung aktualisieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
-so.topic: help
+topic: help
 language: de
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Regeln zur Duplikathandhabung aktualisieren

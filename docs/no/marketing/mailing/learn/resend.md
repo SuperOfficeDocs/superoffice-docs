@@ -3,9 +3,9 @@ uid: help-no-mailings-resend
 title: Sende utsendelsen på nytt
 description: "Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt."
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Markedsføring
-so.topic: howto
+topic: howto
 language: no
 ---
 

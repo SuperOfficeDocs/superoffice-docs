@@ -3,9 +3,9 @@ uid: help-da-import-from-outlook
 title: Importér fra Outlook
 description: Importér fra Outlook
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse, importer
-so.topic: help
+topic: help
 language: da
 ---
 

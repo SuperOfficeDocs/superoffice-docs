@@ -3,9 +3,9 @@ uid: help-de-dashboard-tile-delete
 title: Kacheln entfernen
 description: Kachel von einem Dashboard entfernen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-project-member-invite
 title: Projectleden uitnodigen voor een vergadering
 description: Zo nodigt u in SuperOffice een projectlid voor een vergadering
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid, uitnodigen, vervolgactiviteit
-so.topic: howto
+topic: howto
 language: nl
 ---
 

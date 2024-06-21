@@ -3,9 +3,9 @@ uid: help-de-project-delete
 title: Projekt löschen
 description: Wie man ein Projekt in SuperOffice löscht
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-chat-send-files
 title:  Skicka filer i chatt
 description:  Skicka filer i chatt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

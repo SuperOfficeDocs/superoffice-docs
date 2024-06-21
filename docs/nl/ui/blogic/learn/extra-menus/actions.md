@@ -3,9 +3,9 @@ uid: help-nl-ui-extra-menu-actions
 title: Functie toevoegen aan taakknop
 description: Functie toevoegen aan taakknop
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: macro, taak, acties
-so.topic: howto
+topic: howto
 language: nl
 ---
 

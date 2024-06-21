@@ -3,12 +3,12 @@ uid: help-da-importing-files
 title: Import af data
 description: Import af data
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Importér en datafil til SuperOffice-databasen

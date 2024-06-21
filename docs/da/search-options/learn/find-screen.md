@@ -3,9 +3,9 @@ uid: help-da-find-screen
 title: Skærmbilledet Find
 description: Skærmbilledet Find
 author: SuperOffice RnD
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: søge, finde
-so.topic: howto
+topic: howto
 language: da
 ---
 

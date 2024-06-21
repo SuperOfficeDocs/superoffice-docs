@@ -3,11 +3,11 @@ uid: help-da-freetext-index-regen
 title: Gendannelse af fritekstindeks
 description: Gendannelse af fritekstindeks
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: fritekst, søgeindeks
-so.topic: howto
+topic: howto
 language: da
-so.envir: onsite
+envir: onsite
 ---
 
 # Gendannelse af fritekstindeks (onsite)

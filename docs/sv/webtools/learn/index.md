@@ -3,9 +3,9 @@ uid: help-sv-webtools
 title: WebTools
 description: Introduktion till SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-so.date: 12.04.2023
+date: 12.04.2023
 keywords: WebTools, dokument, e-post, Mail Link
-so.topic: concept
+topic: concept
 language: sv
 ---
 

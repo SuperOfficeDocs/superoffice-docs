@@ -3,9 +3,9 @@ uid: help-da-sale-screen
 title: Salgsskærmbillede
 description: Skærmbilledet Salg i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: reference
+topic: reference
 language: da
 ---
 

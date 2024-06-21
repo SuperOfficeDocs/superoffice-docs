@@ -3,9 +3,9 @@ uid: help-da-deleting-user-defined-lists
 title: Sletning af brugerdefinerede lister
 description: Sletning af brugerdefinerede lister
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

@@ -3,12 +3,12 @@ uid: help-sv-freetext-search-and-travel
 title: Fritextsökning och Travel
 description: Fritextsökning och Travel
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Fritextsökning och Travel

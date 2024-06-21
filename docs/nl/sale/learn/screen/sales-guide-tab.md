@@ -3,9 +3,9 @@ uid: help-nl-sale-screen-tab-guide
 title: Het sectietabblad Verkoopgids
 description: Het sectietabblad Verkoopgids
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop, gids
-so.topic: reference
+topic: reference
 language: nl
 ---
 

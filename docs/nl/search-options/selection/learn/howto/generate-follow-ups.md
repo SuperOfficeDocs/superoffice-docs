@@ -3,9 +3,9 @@ uid: help-nl-selection-generate-follow-ups
 title: Vervolgactiviteiten genereren
 description: Vervolgactiviteiten genereren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

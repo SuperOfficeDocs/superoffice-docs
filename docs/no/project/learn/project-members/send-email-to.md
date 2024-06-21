@@ -3,9 +3,9 @@ uid: help-no-project-member-email
 title: Sende e-post til prosjektdeltakere
 description: Slik sender du e-post til interessenter eller prosjektdeltakere i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, deltaker, interessent, e-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-email-inbox-options
 title: Muligheder
 description: Muligheder
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail, indbakke
-so.topic: reference
+topic: reference
 language: da
 ---
 

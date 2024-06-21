@@ -3,13 +3,13 @@ uid: help-de-our-companies-manage
 title: Unsere Firmen verwalten
 description: Wie man Firmen in der Registerkarte Unsere Firmen hinzufügt oder entfernt
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: user, unsere Firmen
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
-so.client: web
+client: web
 ---
 
 # "Unsere Firmen" verwalten

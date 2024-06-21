@@ -3,10 +3,10 @@ uid: help-nl-follow-up-create
 title: "Vervolgactiviteiten toevoegen"
 description: "Vervolgactiviteiten toevoegen of kopiëren"
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: agenda, vervolgactiviteit, bellen, telefoon, vergadering, tak
-so.topic: howto
+topic: howto
 language: nl
 ---
 

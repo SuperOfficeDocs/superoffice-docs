@@ -3,9 +3,9 @@ uid: help-no-company-screen-contacts
 title: Personer-fane
 description: Personer-fane
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: firma
-so.topic: reference
+topic: reference
 language: no
 ---
 

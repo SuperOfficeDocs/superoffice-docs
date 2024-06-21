@@ -3,9 +3,9 @@ uid: help-sv-license-activate
 title: Aktivera licens
 description: Aktivera licens för SuperOffice
 author: Bergfrid Dias
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: licens
-so.topic: howto
+topic: howto
 language: sv
 ---
 

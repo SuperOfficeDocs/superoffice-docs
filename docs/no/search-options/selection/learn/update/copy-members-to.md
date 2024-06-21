@@ -3,9 +3,9 @@ uid: help-no-selection-copy-members-to
 title: Kopiere til merkede områder
 description: Kopiere til merkede områder
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

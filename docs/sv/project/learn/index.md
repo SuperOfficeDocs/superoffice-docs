@@ -3,9 +3,9 @@ uid: help-sv-project
 title: Projekt
 description: Den här guiden visar hur du skapar och använder projekt för att hålla koll på ditt arbete.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: projekt
-so.topic: concept
+topic: concept
 language: sv
 ---
 

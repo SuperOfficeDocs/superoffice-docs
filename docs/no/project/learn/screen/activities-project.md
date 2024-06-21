@@ -3,9 +3,9 @@ uid: help-no-project-screen-activities
 title: Aktiviteter-fanen
 description: Kategorien Aktiviteter i Prosjekt-bildet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt
-so.topic: reference
+topic: reference
 language: no
 ---
 

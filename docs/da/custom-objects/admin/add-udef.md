@@ -3,12 +3,12 @@ uid: help-da-udef-add
 title: Tilføj brugerdefinerede felter
 description: Tilføj brugerdefinerede felter
 author: Bergfrid Dias
-so.date: 01.25.2024
-so.version: 10
+date: 01.25.2024
+version: 10
 keywords: udef, brugerdefineret, tilpasset felt
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

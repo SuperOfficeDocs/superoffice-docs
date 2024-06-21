@@ -3,9 +3,9 @@ uid: help-da-mail-link-archive-by-default
 title: Sådan slås standardarkivering til/fra
 description: Sådan slås standardarkivering til/fra
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

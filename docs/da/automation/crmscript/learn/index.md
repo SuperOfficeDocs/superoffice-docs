@@ -3,11 +3,11 @@ uid: help-da-crmscript
 title: CRMScript
 description: "CRMScript er en funktion, der giver dig mulighed for at automatisere opgaver i eller ændre funktionsmåden for SuperOffice."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: CRMScript
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

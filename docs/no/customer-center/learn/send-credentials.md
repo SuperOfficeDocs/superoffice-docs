@@ -3,9 +3,9 @@ uid: help-no-customer-center-send-credentials
 title: Sende passord til personer
 description: Sende passord til personer
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundesenter
-so.topic: howto
+topic: howto
 language: no
 ---
 

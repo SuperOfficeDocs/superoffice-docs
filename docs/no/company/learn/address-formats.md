@@ -3,9 +3,9 @@ uid: help-no-address-formats-for-different-countries
 title: Adresseformater for ulike land
 description: Adresseformater for ulike land
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: no
 ---
 

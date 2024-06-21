@@ -3,9 +3,9 @@ uid: help-sv-email-outlook
 title: SuperOffice for Outlook
 description: Med SuperOffice för Outlook-tillägget kan du enkelt arbeta med både Microsoft 365 och din SuperOffice CRM-lösning genom att du får tillgång till viktiga uppgifter och funktioner från SuperOffice direkt i din e-post.
 author: Bergfrid Dias
-so.date: 07.04.2023
+date: 07.04.2023
 keywords: e-post
-so.topic: concept
+topic: concept
 language: sv
 ---
 

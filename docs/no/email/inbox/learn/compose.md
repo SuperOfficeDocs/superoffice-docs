@@ -3,9 +3,9 @@ uid: help-no-email-inbox-compose
 title: Skrive e-post
 description: Skrive post
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: howto
+topic: howto
 language: no
 ---
 

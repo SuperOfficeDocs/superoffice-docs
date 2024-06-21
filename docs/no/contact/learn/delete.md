@@ -3,9 +3,9 @@ uid: help-no-contact-delete
 title: slette person
 description: slette person
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, person
-so.topic: howto
+topic: howto
 language: no
 ---
 

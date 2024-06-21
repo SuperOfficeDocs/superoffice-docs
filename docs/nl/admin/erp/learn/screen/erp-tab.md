@@ -3,9 +3,9 @@ uid: help-nl-erp-tab
 title: Tabblad ERP
 description: Tabblad ERP
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: ERP
-so.topic: reference
+topic: reference
 language: nl
 ---
 

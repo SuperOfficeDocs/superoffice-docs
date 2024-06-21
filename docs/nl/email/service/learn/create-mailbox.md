@@ -3,10 +3,10 @@ uid: help-nl-service-mailbox-create
 title: Postbussen maken
 description: Postbussen maken
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-sale-stages
 title: "Status for et salg, solgt og tabt"
 description: "Status for et salg, solgt og tabt"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: concept
+topic: concept
 language: da
 ---
 

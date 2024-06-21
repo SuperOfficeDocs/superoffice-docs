@@ -3,9 +3,9 @@ uid: help-sv-dashboard-delete
 title: Ta bort ett dashboard
 description: Ta bort ett dashboard
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: sv
 ---
 

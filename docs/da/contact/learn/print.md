@@ -3,9 +3,9 @@ uid: help-da-contact-print
 title: Udskriv kontaktinfo
 description: Udskriv kontaktinfo
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact, udskriv
-so.topic: howto
+topic: howto
 language: da
 ---
 

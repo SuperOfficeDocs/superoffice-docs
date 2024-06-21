@@ -3,9 +3,9 @@ uid: help-nl-project-guide
 title: Projectgids
 description: Inleiding tot projectgidsen in SuperOffice.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: project, gids, workflow
-so.topic: concept
+topic: concept
 language: nl
 ---
 

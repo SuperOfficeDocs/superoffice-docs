@@ -3,9 +3,9 @@ uid: help-no-privacy
 title: Personvern
 description: personvern
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: personvern, GDPR, e-markedsføring, samtykke
-so.topic: concept
+topic: concept
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tile-marketing
 title: Mailing en formulieren gebruiken in tegels
 description: "Maak dashboards voor uw marketingtaken, zoals formulierverzendingen en mailings, om hun prestaties, trends en productiviteit bij alle marketingactiviteiten bij te houden en te analyseren."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: dashboard, marketing
-so.topic: howto
+topic: howto
 language: nl
 ---
 

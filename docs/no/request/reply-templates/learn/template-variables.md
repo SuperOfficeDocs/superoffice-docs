@@ -3,9 +3,9 @@ uid: help-no-template-variables-service
 title: Malvariabler
 description: Malvariabler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sak
-so.topic: reference
+topic: reference
 language: no
 ---
 

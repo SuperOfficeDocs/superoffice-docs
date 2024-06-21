@@ -3,9 +3,9 @@ uid: help-sv-create-request
 title: Skapa ärende
 description: Skapa ärende
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: help
+topic: help
 language: sv
 ---
 

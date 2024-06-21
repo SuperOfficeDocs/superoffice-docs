@@ -3,9 +3,9 @@ uid: help-de-contact-delete-relation
 title: Beziehung löschen (Ansicht Person)
 description: Beziehungen löschen (Ansicht Person)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, Person
-so.topic: howto
+topic: howto
 language: de
 ---
 

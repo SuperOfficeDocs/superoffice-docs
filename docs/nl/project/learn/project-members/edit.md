@@ -3,9 +3,9 @@ uid: help-nl-project-member-edit
 title: Projectleden bewerken
 description: Een projectlid in SuperOffice bewerken of verwijderen.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid
-so.topic: howto
+topic: howto
 language: nl
 ---
 

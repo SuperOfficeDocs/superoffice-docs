@@ -4,12 +4,12 @@ title: Toewijzingsmethoden
 description: Toewijzingsmethoden voor verzoeken
 keywords: verzoek
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10
+date: 06.11.2024
+version: 10
 language: nl
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 ---
 
 # Automatische toewijzingsmethoden voor verzoeken

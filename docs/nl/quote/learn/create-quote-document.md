@@ -3,9 +3,9 @@ uid: help-nl-quote-create-quote-document
 title: offerte offertedocument aanmaken
 description: offerte offertedocument aanmaken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

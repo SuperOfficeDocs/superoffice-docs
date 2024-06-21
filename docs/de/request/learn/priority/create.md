@@ -3,11 +3,11 @@ uid: help-de-request-priority-create
 title: Priorität erstellen
 description: Priorität erstellen
 author: Hanne Gunnarsson
-so.date: 07.03.2023
+date: 07.03.2023
 keywords: Anfrage, Priorität
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

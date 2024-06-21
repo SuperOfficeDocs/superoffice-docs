@@ -3,9 +3,9 @@ uid: help-sv-sharepoint-documents-folders
 title: Så konfigurerar du SharePoint-mapparna
 description: Så konfigurerar du SharePoint-mapparna
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: dokument, Sharepoint
-so.topic: howto
+topic: howto
 language: sv
 ---
 

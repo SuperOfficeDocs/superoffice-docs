@@ -3,11 +3,11 @@ uid: help-nl-request-tags
 title: Labels gebruiken in verzoeken
 description: Meer informatie over het maken en bewerken van aanvraaglabels vindt u in deze gids.
 author: Bergfrid Dias
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: verzoek
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

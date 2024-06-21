@@ -3,11 +3,11 @@ uid: help-nl-project-type-add
 title:  Een projecttype toevoegen
 description: Een projecttype toevoegen in SuperOffice.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: project, type
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

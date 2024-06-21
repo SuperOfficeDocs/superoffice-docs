@@ -3,9 +3,9 @@ uid: help-sv-company-merge
 title: Slå ihop företag
 description: "För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och 'skräpfri' miljö. Det innebär att företag och kontakter som inte används tas bort och att dubbletter av företag och kontakter slås ihop."
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: företag
-so.topic: howto
+topic: howto
 language: sv
 ---
 

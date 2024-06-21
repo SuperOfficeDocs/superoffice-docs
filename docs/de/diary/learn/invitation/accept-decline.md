@@ -3,10 +3,10 @@ uid: help-de-invitation-accept
 title: Folgeaufgaben zu denen Sie eingeladen sind
 description: "Folgeaufgaben anzeigen, zu denen Sie eingeladen sind; Einladungen annehmen oder ablehnen"
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: Kalender, Folgeaufgabe, Einladung
-so.topic: howto
+topic: howto
 language: de
 ---
 

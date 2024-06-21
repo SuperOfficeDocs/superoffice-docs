@@ -3,11 +3,11 @@ uid: help-sv-mailbox-folder
 title: Administrera mappar med e-postadresser
 description: Administrera mappar med e-postadresser
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

@@ -3,11 +3,11 @@ uid: help-de-user-group-manage
 title: Benutzergruppen verwalten
 description: Wie man Benutzergruppen erstellt und löscht
 author: Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: Benutzergruppe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

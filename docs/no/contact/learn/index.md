@@ -3,9 +3,9 @@ uid: help-no-contact
 title: Person
 description: "Et personkort lagrer verdifull informasjon om all kommunikasjon og samhandling med en person, samt dokumentasjon av vedkommendes GDPR-samtykke."
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: person, person
-so.topic: concept
+topic: concept
 language: no
 ---
 

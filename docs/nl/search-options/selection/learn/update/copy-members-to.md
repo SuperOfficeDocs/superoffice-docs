@@ -3,9 +3,9 @@ uid: help-nl-selection-copy-members-to
 title: Kopiëren naar selecties
 description: Kopiëren naar selecties
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-fastsearcher-dialog
 title: Använda snabbsökning i dialogrutor
 description: Använda snabbsökning i dialogrutor
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: söka, Snabbsökning, dialog
-so.topic: howto
+topic: howto
 language: sv
 ---
 

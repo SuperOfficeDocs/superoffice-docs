@@ -3,9 +3,9 @@ uid: help-no-service-profile-personal
 title: Personlige profiler
 description: Personlige profiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, UI
-so.topic: concept
+topic: concept
 language: no
 ---
 

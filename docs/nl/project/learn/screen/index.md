@@ -3,9 +3,9 @@ uid: help-nl-project-screen
 title: Het scherm Project
 description: Het scherm Project in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: reference
+topic: reference
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-report-delete-from-archive
 title: Slette rapporter i rapportarkivet
 description: Slette rapporter i rapportarkivet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: no
 ---
 

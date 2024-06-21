@@ -3,9 +3,9 @@ uid: help-nl-marketing-add-fav
 title: Favoriet toevoegen
 description: Favoriet toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Marketing, favoriet, favoriet
-so.topic: howto
+topic: howto
 language: nl
 ---
 

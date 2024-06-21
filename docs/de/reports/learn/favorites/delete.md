@@ -3,9 +3,9 @@ uid: help-de-report-fav-delete
 title: Favoriten löschen
 description: Favoriten löschen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

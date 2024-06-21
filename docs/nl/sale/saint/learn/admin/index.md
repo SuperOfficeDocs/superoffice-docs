@@ -3,11 +3,11 @@ uid: help-nl-saint-admin
 title: Instellen SAINT
 description: In deze gids staat hoe u SuperOffice SAINT instelt.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: verkoop, SAINT
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

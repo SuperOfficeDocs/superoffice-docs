@@ -3,9 +3,9 @@ uid: help-sv-quote-create-quote-document
 title: offert skapa offertdokument
 description: offert skapa offertdokument
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offert
-so.topic: howto
+topic: howto
 language: sv
 ---
 

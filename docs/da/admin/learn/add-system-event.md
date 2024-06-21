@@ -3,11 +3,11 @@ uid: help-da-system-event-add
 title: Tilføjelse af systemhændelser
 description: Tilføjelse af systemhændelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: arrangement, notifikation
-so.topic: howto
+topic: howto
 language: da
-so.envir: onsite
+envir: onsite
 ---
 
 # Tilføjelse af systemhændelser (onsite)

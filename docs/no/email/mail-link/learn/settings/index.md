@@ -3,9 +3,9 @@ uid: help-no-mail-link-settings
 title: Dialogboks for e-postalternativer
 description: Dialogboks for e-postalternativer
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link
-so.topic: reference
+topic: reference
 language: no
 ---
 

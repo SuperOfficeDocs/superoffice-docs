@@ -3,9 +3,9 @@ uid: help-de-working-with-sales-guide
 title: Mit Verkaufsleitfaden arbeiten
 description: Mit Verkaufsleitfaden arbeiten
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Verkauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

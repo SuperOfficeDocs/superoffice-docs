@@ -3,9 +3,9 @@ uid: help-de-company-update
 title: Firmen bearbeiten
 description: Firmen bearbeiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
 ---
 

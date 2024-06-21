@@ -3,9 +3,9 @@ uid: help-nl-selection-bulk-update
 title: Bulksgewijs bijwerken van selectietaken
 description: "Met bulksgewijs bijwerken kunt u details wijzigen voor een grote groep personen, activiteiten, verkopen, projecten en meer."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selectie, bulkgewijs bijwerken
-so.topic: howto
+topic: howto
 language: nl
 ---
 

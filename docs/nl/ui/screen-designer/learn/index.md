@@ -3,13 +3,13 @@ uid: help-nl-screen-designer
 title: Schermontwerper
 description: "Kom te weten hoe u uw kaarten configureert in deze gids."
 author: SuperOffice RnD
-so.date: 01.02.2024
-so.version: 10.2.11
+date: 01.02.2024
+version: 10.2.11
 keywords: schermontwerper
-so.topic: concept
+topic: concept
 language: nl
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Schermontwerper

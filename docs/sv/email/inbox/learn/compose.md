@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-compose
 title: Skriva e-postmeddelanden
 description: Skriva e-postmeddelanden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

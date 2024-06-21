@@ -3,9 +3,9 @@ uid: help-no-quote-create-quote-document
 title: tilbud opprette tilbudsdokument
 description: tilbud opprette tilbudsdokument
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

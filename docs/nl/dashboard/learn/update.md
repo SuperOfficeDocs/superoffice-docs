@@ -3,9 +3,9 @@ uid: help-nl-dashboard-edit
 title: Een dashboard bewerken
 description: Een dashboard bewerken
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: dashboard, tegel, opmaak
-so.topic: howto
+topic: howto
 language: nl
 ---
 

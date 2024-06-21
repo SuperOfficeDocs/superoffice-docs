@@ -3,10 +3,10 @@ uid: help-de-follow-up-alarms
 title: Alarme für Folgeaufgabe festlegen
 description: Wie man einen Alarm für eine Folgeaufgabe in SuperOffice einrichtet.
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Alarm, Benachrichtigung
-so.topic: howto
+topic: howto
 language: de
 ---
 

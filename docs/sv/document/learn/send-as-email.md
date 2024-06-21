@@ -3,9 +3,9 @@ uid: help-sv-document-send
 title: Skicka ett dokument som e-post
 description: Det går snabbt och enkelt att skicka dokument som lagras i SuperOffice CRM som bilagor i e-postmeddelanden.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: dokument, e-post, bilaga
-so.topic: howto
+topic: howto
 language: sv
 ---
 

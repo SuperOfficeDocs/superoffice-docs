@@ -4,12 +4,12 @@ title: Editor slepen en neerzetten
 description: Editor slepen en neerzetten
 keywords: marketing, editor, sjabloonvariabele, variabelen
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: concept
+date: 02.07.2024
+version: 10
+topic: concept
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Editor slepen en neerzetten

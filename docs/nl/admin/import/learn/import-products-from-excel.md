@@ -3,11 +3,11 @@ uid: help-nl-import-products-from-excel
 title: Producten importeren uit Excel
 description: "In deze handleiding leert u hoe u al uw producten, beschrijvingen en product kunt importeren."
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: import, product, Excel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

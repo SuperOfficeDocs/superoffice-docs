@@ -3,9 +3,9 @@ uid: help-de-customer-center-send-credentials
 title: Kennwörter an Personen senden
 description: Kennwörter an Personen senden
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundenzentrum
-so.topic: howto
+topic: howto
 language: de
 ---
 

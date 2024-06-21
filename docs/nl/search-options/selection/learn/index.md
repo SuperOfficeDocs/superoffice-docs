@@ -3,9 +3,9 @@ uid: help-nl-selection
 title: Selectie
 description: Selectie
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie
-so.topic: concept
+topic: concept
 language: nl
 ---
 

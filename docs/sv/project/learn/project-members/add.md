@@ -3,9 +3,9 @@ uid: help-sv-project-member-add
 title: Lägg till projektmedlem
 description: Så lägger du till en projektdeltagare i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltagare
-so.topic: howto
+topic: howto
 language: sv
 ---
 

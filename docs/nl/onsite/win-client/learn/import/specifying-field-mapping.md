@@ -3,12 +3,12 @@ uid: help-nl-specifying-field-mapping
 title: Veldtoewijzing opgeven
 description: Veldtoewijzing opgeven
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Veldtoewijzing opgeven

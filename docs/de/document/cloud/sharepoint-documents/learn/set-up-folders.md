@@ -3,9 +3,9 @@ uid: help-de-sharepoint-documents-folders
 title: Wie man die SharePoint-Ordner einrichtet
 description: Wie man die SharePoint-Ordner einrichtet
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: Dokument, Sharepoint
-so.topic: howto
+topic: howto
 language: de
 ---
 

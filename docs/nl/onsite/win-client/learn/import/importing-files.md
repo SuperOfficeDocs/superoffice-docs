@@ -3,12 +3,12 @@ uid: help-nl-importing-files
 title: Bestanden importeren
 description: Bestanden importeren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Windows Client-instellingen
-so.topic: help
+topic: help
 language: nl
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Een gegevensbestand importeren in de SuperOffice-database

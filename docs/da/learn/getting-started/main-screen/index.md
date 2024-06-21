@@ -3,9 +3,9 @@ uid: help-da-ui-main-screen
 title: Hovedskærmbilledet
 description: Hovedskærmbilledet
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: CRM
-so.topic: reference
+topic: reference
 language: da
 ---
 

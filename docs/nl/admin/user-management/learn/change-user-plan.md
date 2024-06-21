@@ -3,11 +3,11 @@ uid: help-nl-user-change-plan
 title: Gebruikersplannen voor actieve gebruikers wijzigen
 description: In deze handleiding leert u hoe u een gebruikersplan voor actieve gebruikers kunt wijzigen.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: gebruiker, medewerker
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

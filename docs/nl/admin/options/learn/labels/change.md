@@ -3,11 +3,11 @@ uid: help-nl-label-change
 title: Labels wijzigen
 description: Labels wijzigen
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: label
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
-so.topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+topic: howto
 language: nl
 ---
 

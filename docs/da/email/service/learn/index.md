@@ -3,9 +3,9 @@ uid: help-da-email-service
 title: E-mails om service
 description: E-mails om service
 author: SuperOffice RnD
-so.date: 03.06.2024
+date: 03.06.2024
 keywords: Indstillinger og vedligeholdelse
-so.topic: concept
+topic: concept
 language: da
 ---
 

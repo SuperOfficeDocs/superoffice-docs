@@ -4,11 +4,11 @@ title: Egendefinerte objekter og felt
 description: Egendefinerte objekter og felt
 keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstratabell
 author: Bergfrid Dias
-so.date: 01.29.2024
-so.version: 10
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+date: 01.29.2024
+version: 10
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

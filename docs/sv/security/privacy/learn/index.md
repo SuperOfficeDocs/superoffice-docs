@@ -3,9 +3,9 @@ uid: help-sv-privacy
 title: Integritet
 description: integritet
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: integritet, GDPR, e-marknadsföring, samtycke
-so.topic: concept
+topic: concept
 language: sv
 ---
 

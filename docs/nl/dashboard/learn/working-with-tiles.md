@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tiles
 title: Werken met tegels
 description: "In deze handleiding leert u hoe u toegang krijgt tot de informatie in uw dashboard, zodat u een duidelijk overzicht krijgt en uw volgende stappen beter kunt rangschikken."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

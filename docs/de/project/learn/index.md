@@ -3,9 +3,9 @@ uid: help-de-project
 title: Projekt
 description: "Diese Anleitung zeigt Ihnen, wie Sie Projekte erstellen und verwenden, um den Überblick über Ihre Arbeit zu behalten."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Projekt
-so.topic: concept
+topic: concept
 language: de
 ---
 

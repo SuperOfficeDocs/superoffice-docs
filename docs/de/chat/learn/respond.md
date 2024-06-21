@@ -3,9 +3,9 @@ uid: help-de-chat-respond
 title: Chat beantworten
 description: "Wenn ein Kunde eine Anfrage über das Chat-Widget auf der Website sendet, ist es nicht nur wichtig, darauf zu antworten, sondern sie auch auf seiner Personenkarte zu erfassen."
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Chat
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-sale-stakeholders
 title: Interessenter
 description: Interessenter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg, interessent
-so.topic: concept
+topic: concept
 language: no
 ---
 

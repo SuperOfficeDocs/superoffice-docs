@@ -3,11 +3,11 @@ uid: help-da-request-find
 title: Find en sag
 description: "I denne vejledning lærer du, hvordan du finder sager i SuperOffice"
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sag, søge, finde
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

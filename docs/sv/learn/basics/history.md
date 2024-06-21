@@ -3,9 +3,9 @@ uid: help-sv-history-list
 title: Använda historiklistan
 description: Använda historiklistan
 author: SuperOffice RnD
-so.date: 08.05.2023
+date: 08.05.2023
 keywords: söka, historik
-so.topic: howto
+topic: howto
 language: sv
 ---
 

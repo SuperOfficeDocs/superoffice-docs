@@ -3,11 +3,11 @@ uid: help-da-user-update
 title: Rediger information for brugere
 description: Rediger medarbejder
 author: Bergfrid Dias
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: user, medarbejder
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

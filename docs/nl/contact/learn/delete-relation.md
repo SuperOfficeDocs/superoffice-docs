@@ -3,9 +3,9 @@ uid: help-nl-contact-delete-relation
 title: Relatie verwijderen (scherm Persoon)
 description: Relaties verwijderen (scherm Persoon)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: persoon, contactpersoon
-so.topic: howto
+topic: howto
 language: nl
 ---
 

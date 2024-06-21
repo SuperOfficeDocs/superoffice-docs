@@ -3,9 +3,9 @@ uid: help-nl-using-status-monitors-in-dynamic-selections
 title: Statuscontroles gebruiken in dynamische selectie
 description: Statuscontroles gebruiken in dynamische selectie
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: help
+topic: help
 language: nl
 ---
 

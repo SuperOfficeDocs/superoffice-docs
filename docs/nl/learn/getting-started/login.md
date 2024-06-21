@@ -3,11 +3,11 @@ uid: help-nl-sign-in-to-superoffice
 title: Aanmelden
 description: Meld u aan om uw SuperOffice CRM-account te activeren met een SuperOffice CRM-wachtwoord of een optie voor eenmalige aanmelding.
 author: SuperOffice RnD
-so.date: 08.28.2023
+date: 08.28.2023
 keywords: CRM, aanmelden, aanmelden, wachtwoord
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

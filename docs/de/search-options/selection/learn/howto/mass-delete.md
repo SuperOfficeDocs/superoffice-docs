@@ -3,9 +3,9 @@ uid: help-de-mass-delete
 title: Massenlöschung von Datensätzen (unwiederbringlich)
 description: "Gemäß den Anforderungen der DSGVO müssen Sie eine Rechtsgrundlage für die Speicherung der Daten aller Ihrer Personen haben. Und wenn Sie keine Rechtsgrundlage mehr dafür haben, müssen Sie ihre Daten aus allen Ihren Systemen entfernen."
 author: Bergfrid Dias
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: Selektion, DSGVO
-so.topic: howto
+topic: howto
 language: de
 ---
 

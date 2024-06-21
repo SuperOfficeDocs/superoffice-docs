@@ -3,9 +3,9 @@ uid: help-da-creating-shortcuts-to-entries-in-crm
 title: Oprettelse af genveje til poster i CRM
 description: Oprettelse af genveje til poster i CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: help
+topic: help
 language: da
 ---
 

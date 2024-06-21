@@ -3,11 +3,11 @@ uid: help-sv-adjusting-views
 title: Anpassa vyer
 description: Så anpassar du olika vyer i Inställningar och underhåll.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

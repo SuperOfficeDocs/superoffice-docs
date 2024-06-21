@@ -3,9 +3,9 @@ uid: help-de-ui-top-bar
 title: Schaltflächen in der Menüleiste
 description: Schaltflächen in der Menüleiste
 author: SuperOffice RnD
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: Obere Leiste, Schaltfläche
-so.topic: reference
+topic: reference
 language: de
 ---
 

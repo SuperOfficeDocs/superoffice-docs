@@ -3,9 +3,9 @@ uid: help-sv-import-from-mac-address-book
 title: Importera från Mac-adressbok
 description: Importera från Mac-adressbok
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll, importera
-so.topic: help
+topic: help
 language: sv
 ---
 

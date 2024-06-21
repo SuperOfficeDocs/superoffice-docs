@@ -3,9 +3,9 @@ uid: help-de-mail-link-archive-attachment
 title: Anhänge archivieren
 description: "Wenn Sie einen E-Mail-Anhang, nicht aber die E-Mail in SuperOffice CRM speichern möchten, können Sie den Anhang als Dokument archivieren."
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-Link, E-Mail, Anlage
-so.topic: howto
+topic: howto
 language: de
 ---
 

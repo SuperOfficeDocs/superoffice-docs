@@ -3,9 +3,9 @@ uid: help-no-quote-add-alternative
 title: tilbud legg til alternativ
 description: "I SuperOffice Tilbud kan du lage alternativer for et hvilket som helst tilbud, og tilby kundene dine forskjellige alternativer å velge mellom. Denne veiledningen viser deg hvordan du oppretter alternativer i et tilbud."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: no
 ---
 

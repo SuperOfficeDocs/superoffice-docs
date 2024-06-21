@@ -3,9 +3,9 @@ uid: help-da-sale-add-type
 title: Tilføjelse af salgstype
 description: Tilføjelse af salgstype
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: salgstype
-so.topic: howto
+topic: howto
 language: da
 ---
 

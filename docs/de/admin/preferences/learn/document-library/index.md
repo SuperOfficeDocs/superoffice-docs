@@ -3,9 +3,9 @@ uid: help-de-document-library
 title: Dokumentbibliothek
 description: Dokumentbibliothek
 author: SuperOffice RnD
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: Dokument
-so.topic: concept
+topic: concept
 language: de
 ---
 

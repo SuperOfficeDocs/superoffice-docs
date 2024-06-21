@@ -3,9 +3,9 @@ uid: help-da-search-intro
 title: Søgemuligheder i CRM
 description: "Lær, hvordan du søger og finder data i SuperOffice CRM med blot et par klik."
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: søge, finde
-so.topic: concept
+topic: concept
 language: da
 ---
 

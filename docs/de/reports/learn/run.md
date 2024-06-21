@@ -3,9 +3,9 @@ uid: help-de-report-generate
 title: Berichte ausführen
 description: Berichte ausführen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: help
+topic: help
 language: de
 ---
 

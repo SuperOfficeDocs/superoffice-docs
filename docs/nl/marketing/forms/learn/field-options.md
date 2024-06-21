@@ -4,12 +4,12 @@ title: Veldopties
 description: Veldopties
 keywords: formulier, veld, veldoptie, formulierelement
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
-so.topic: reference
+date: 03.18.2024
+version: 10
+topic: reference
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Veldopties

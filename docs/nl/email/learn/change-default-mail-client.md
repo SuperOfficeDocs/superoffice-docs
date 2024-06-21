@@ -3,10 +3,10 @@ uid: help-nl-email-change-default-client
 title: Standaard-e-mailclient wijzigen in SuperOffice
 description: De standaard e-mailclient wijzigen in SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail, instellingen, mailclient
 language: nl
-so.topic: howto
+topic: howto
 ---
 
 # Standaard-e-mailclient wijzigen in SuperOffice

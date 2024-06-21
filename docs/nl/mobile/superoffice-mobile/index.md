@@ -3,12 +3,12 @@ uid: help-nl-mobile-intro
 title: Mobile CRM - Onderweg toegang tot uw CRM
 description: In deze handleiding leert u hoe u aan de slag kunt gaan met de basisfuncties in Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobiel, pocket
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: nl
-so.client: mobile
+client: mobile
 ---
 
 # Mobile CRM: Onderweg toegang tot uw CRM

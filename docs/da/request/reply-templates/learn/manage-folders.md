@@ -3,9 +3,9 @@ uid: help-da-reply-template-folder
 title: Administration af mapper med svarskabeloner
 description: Administration af mapper med svarskabeloner
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag, svar, mappe
-so.topic: howto
+topic: howto
 language: da
 ---
 

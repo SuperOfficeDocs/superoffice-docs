@@ -3,11 +3,11 @@ uid: help-no-ui-extra-menu-navigator
 title: Legg til navigatorgruppe og ekstrameny
 description: Legg til navigatorgruppe og ekstrameny
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: navigator-gruppen
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

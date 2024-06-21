@@ -3,9 +3,9 @@ uid: help-nl-project-create
 title: Een project maken
 description: Zo maakt u een project en wordt u nog beter georganiseerd in uw werk.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: project
-so.topic: howto
+topic: howto
 language: nl
 ---
 

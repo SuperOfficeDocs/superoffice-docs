@@ -4,12 +4,12 @@ title: Spåra formulärinlämningar och visa statistik
 description: Spåra formulärinlämningar och visa statistik
 keywords: Formulär
 author: Bergfrid Dias
-so.date: 03.15.2024
-so.version: 10
-so.topic: howto
+date: 03.15.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Spåra formulärinlämningar och visa statistik

@@ -3,11 +3,11 @@ uid: help-no-request-delete
 title: Slette saker
 description: Slik sletter du en sak i SuperOffice
 author: Hanne Gunnarsson
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

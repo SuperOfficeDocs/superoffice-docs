@@ -4,13 +4,13 @@ title: Flow bewerken
 description: Flow bewerken
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.17.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.17.2024
+version: 10.3.7
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Flow bewerken

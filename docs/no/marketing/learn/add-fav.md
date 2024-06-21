@@ -3,9 +3,9 @@ uid: help-no-marketing-add-fav
 title: Legg til favoritt
 description: Legg til favoritt
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Markedsføring, favoritt, favoritt
-so.topic: howto
+topic: howto
 language: no
 ---
 

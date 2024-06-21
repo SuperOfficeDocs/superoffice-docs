@@ -4,12 +4,12 @@ title: Mit Kampagnen arbeiten
 description: Mit Kampagnen arbeiten
 keywords: Marketing, E-Mail-Zustellung
 author: SuperOffice RnD, Jeanette Small Strøm
-so.date: 02.27.2024
-so.version: 10
-so.topic: concept
+date: 02.27.2024
+version: 10
+topic: concept
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Mit Kampagnen arbeiten

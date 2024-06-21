@@ -3,9 +3,9 @@ uid: help-nl-follow-up-type
 title: Vervolgactiviteit - Type
 description: Vervolgactiviteit - Type
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

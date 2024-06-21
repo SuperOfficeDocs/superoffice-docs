@@ -3,9 +3,9 @@ uid: help-de-notes
 title: Notizen machen
 description: Notizen machen
 author: SuperOffice RnD
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: Notiz, Notizblock
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,12 +3,12 @@ uid: help-da-extra-table
 title:  Ekstra tabeller
 description:  Ekstra tabeller
 author: Bergfrid Dias
-so.date: 01.26.2024
-so.version: 10
+date: 01.26.2024
+version: 10
 keywords: ekstra tabel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

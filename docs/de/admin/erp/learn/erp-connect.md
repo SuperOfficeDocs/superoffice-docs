@@ -3,9 +3,9 @@ uid: help-de-erp-connect
 title: Mit ERP verbinden
 description: Mit ERP verbinden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: de
 ---
 

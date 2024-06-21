@@ -3,9 +3,9 @@ uid: help-no-diary
 title: Dagbok
 description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse guidene gjør det enklere å lære å jobbe med dagboken.
 author: Bergfrid Dias
-so.date: 10.11.2023
+date: 10.11.2023
 keywords: dagbok
-so.topic: concept
+topic: concept
 language: no
 ---
 

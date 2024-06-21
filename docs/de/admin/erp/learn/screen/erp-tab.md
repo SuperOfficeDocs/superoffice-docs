@@ -3,9 +3,9 @@ uid: help-de-erp-tab
 title: Registerkarte ERP
 description: Registerkarte ERP
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: ERP
-so.topic: reference
+topic: reference
 language: de
 ---
 

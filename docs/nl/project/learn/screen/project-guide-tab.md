@@ -3,9 +3,9 @@ uid: help-nl-project-screen-tab-guide
 title: Het sectietabblad Projectgids
 description: Het sectietabblad Projectgids
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, gids
-so.topic: reference
+topic: reference
 language: nl
 ---
 

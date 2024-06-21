@@ -3,9 +3,9 @@ uid: help-nl-dashboard-tile-delete
 title: Een tegel verwijderen
 description: Een tegel uit een dashboard verwijderen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: howto
+topic: howto
 language: nl
 ---
 

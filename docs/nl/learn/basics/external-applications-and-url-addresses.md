@@ -3,9 +3,9 @@ uid: help-nl-external-applications-and-url-addresses
 title: Externe toepassingen en URL-adressen
 description: Externe toepassingen en URL-adressen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: URL, snelkoppeling
-so.topic: concept
+topic: concept
 language: nl
 ---
 

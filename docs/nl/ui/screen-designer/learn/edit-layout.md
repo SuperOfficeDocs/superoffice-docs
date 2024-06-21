@@ -4,12 +4,12 @@ title: Opmaak hoofdkaarten bewerken
 description: In deze handleiding staat u hoe u een opmaak bewerkt.
 keywords: schermontwerper, opmaak, veld, tabbladindeling
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: nl
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Opmaak bewerken - Hoofdkaarten

@@ -3,11 +3,11 @@ uid: help-de-email-filter-delete
 title: E-Mail-Filter löschen
 description: E-Mail-Filter löschen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: E-Mail
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

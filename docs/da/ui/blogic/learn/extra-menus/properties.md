@@ -3,9 +3,9 @@ uid: help-da-ui-extra-menu-properties
 title: Egenskaber for menu
 description: Egenskaber for menu
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjeneste
-so.topic: howto
+topic: howto
 language: da
 ---
 

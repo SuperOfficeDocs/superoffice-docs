@@ -3,9 +3,9 @@ uid: help-no-section-tabs-configure
 title: Endre kolonnevisningen
 description: Endre kolonnevisningen
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: detaljkort, arkiv, kolonne
-so.topic: howto
+topic: howto
 language: no
 ---
 

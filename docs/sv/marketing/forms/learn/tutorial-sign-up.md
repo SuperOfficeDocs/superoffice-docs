@@ -4,12 +4,12 @@ title: Guide - formulär för anmälning till nyhetsbrev
 description: Denna guide kommer att förklara hur du kan skapa ett formulär för anmälning till nyhetsbrev
 keywords: formulär, nyhetsbrevsprenumeration, anmälning, dubbel anmälan, nyhetsbrev, prenumeration
 author: Bergfrid Dias
-so.date: 03.15.2024
-so.version: 10
-so.topic: tutorial
+date: 03.15.2024
+version: 10
+topic: tutorial
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Guide - formulär för anmälning till nyhetsbrev

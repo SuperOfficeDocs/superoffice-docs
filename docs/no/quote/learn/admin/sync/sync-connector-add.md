@@ -3,11 +3,11 @@ uid: help-no-sync-connector-add
 title: sync connector legge til
 description: sync connector legge til
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: tilbud, sync, connector, ERP
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

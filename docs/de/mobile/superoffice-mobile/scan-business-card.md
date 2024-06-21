@@ -3,12 +3,12 @@ uid: help-de-mobile-scan
 title: Mobiles CRM - Visitenkarte einscannen
 description: Wie man eine Visitenkarte mit der SuperOffice Mobile CRM App einscannt.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, Pocket, Visitenkarte
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: de
-so.client: mobile
+client: mobile
 ---
 
 # Visitenkarte einscannen

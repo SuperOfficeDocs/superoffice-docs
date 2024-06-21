@@ -4,12 +4,12 @@ title: Een map maken
 description: Hoe maak je een map in Marketing
 keywords: Marketing, map, mapstructuur
 author: Bergfrid Dias
-so.date: 06.17.2024
-so.version: 10.3.5
-so.topic: howto
+date: 06.17.2024
+version: 10.3.5
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Een map maken

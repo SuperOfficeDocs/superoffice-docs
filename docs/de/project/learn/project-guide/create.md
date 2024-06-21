@@ -3,11 +3,11 @@ uid: help-de-project-guide-create
 title: Neuen Projektleitfaden erstellen
 description: Wie man einen neuen Projektleitfaden in SuperOffice erstellt
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Projekt, Leitfaden, Workflow
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

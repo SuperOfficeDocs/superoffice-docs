@@ -3,9 +3,9 @@ uid: help-sv-company-screen-relations
 title: Fliken Relationer (fönstret Företag)
 description: Fliken Relationer (fönstret Företag)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag, relation
-so.topic: reference
+topic: reference
 language: sv
 ---
 

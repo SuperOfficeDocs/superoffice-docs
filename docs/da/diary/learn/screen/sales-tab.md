@@ -3,9 +3,9 @@ uid: help-da-diary-screen-sales
 title: Detaljekortet Salgssektion (dagbog)
 description: Detaljekortet Salgssektion (dagbog)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dagbog, opfølgning
-so.topic: reference
+topic: reference
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-gmail-link-archive-incoming
 title: Arkivera inkommande e-post
 description: Arkivera inkommande e-post
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail-länk, e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

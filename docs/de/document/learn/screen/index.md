@@ -3,9 +3,9 @@ uid: help-de-document-dialog
 title: "Dialogfeld 'Dokument'"
 description: "Dialogfeld 'Dokument'"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Dokument
-so.topic: concept
+topic: concept
 language: de
 ---
 

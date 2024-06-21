@@ -3,9 +3,9 @@ uid: help-sv-sales-targets-create
 title: Konfigurera försäljningsmål
 description: "Håll koll på dina budgetar genom att konfigurera försäljningsmål. Detta hjälper dig att ha korrekta förväntningar, planera din tillväxt, öka motivationen och spara tid."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

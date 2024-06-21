@@ -3,9 +3,9 @@ uid: help-no-dashboard-tile-add
 title: Legg til figur / rediger layout i dashbord
 description: I denne guiden lærer du hvordan du oppretter en figur i dashbordet.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: dashbord
-so.topic: howto
+topic: howto
 language: no
 ---
 

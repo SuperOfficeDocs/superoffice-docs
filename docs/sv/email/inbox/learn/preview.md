@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-preview
 title: fältet förhandsgranskning
 description: fältet förhandsgranskning
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: help
+topic: help
 language: sv
 ---
 

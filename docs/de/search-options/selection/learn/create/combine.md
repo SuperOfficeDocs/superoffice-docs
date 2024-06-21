@@ -3,9 +3,9 @@ uid: help-de-selection-combine
 title: Kombinierte Selektion erstellen
 description: "In dieser Anleitung lernen Sie, wie Sie eine kombinierte Selektion erstellen."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

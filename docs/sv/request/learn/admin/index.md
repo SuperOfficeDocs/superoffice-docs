@@ -3,9 +3,9 @@ uid: help-sv-service-settings
 title: Systeminställningar
 description: Systeminställningar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjänst
-so.topic: reference
+topic: reference
 language: sv
 ---
 

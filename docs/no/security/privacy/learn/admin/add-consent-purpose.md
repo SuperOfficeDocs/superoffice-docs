@@ -3,9 +3,9 @@ uid: help-no-add-consent-purpose
 title: Legge til samtykkeformål
 description: Finn ut hvordan du konfigurerer personverninnstillingene for firmaet ditt.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Innstillinger og vedlikehold, personvern, samtykke
-so.topic: howto
+topic: howto
 language: no
 ---
 

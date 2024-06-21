@@ -3,12 +3,12 @@ uid: help-nl-request-type
 title: Verzoektypen
 description: Verzoektypen
 author: Bergfrid Dias
-so.date: 02.22.2024
-so.version: 10.3.2
+date: 02.22.2024
+version: 10.3.2
 keywords: verzoek, type
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

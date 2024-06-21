@@ -3,11 +3,11 @@ uid: help-nl-import-from-excel
 title: Importeren uit Excel
 description: "In deze handleiding leert u hoe u al uw prospects, klanten en hun contactpersonen kunt importeren."
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: import, Excel, bedrijf, contactpersoon, spreadsheet
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

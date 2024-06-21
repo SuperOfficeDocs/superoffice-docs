@@ -3,9 +3,9 @@ uid: help-de-selection-print-company-reports
 title: Firmenberichte drucken
 description: Firmenberichte drucken
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -4,13 +4,13 @@ title: Angive indstillinger for udsendelser
 description: Angive indstillinger for udsendelser
 keywords: Marketing, indstillinger
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: da
-so.envir: onsite
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+envir: onsite
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Angive indstillinger for udsendelser

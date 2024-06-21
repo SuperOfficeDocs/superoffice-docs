@@ -3,11 +3,11 @@ uid: help-da-reply-template-delete
 title: Sletning af svarskabeloner
 description: Sletning af svarskabeloner
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag, svar
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

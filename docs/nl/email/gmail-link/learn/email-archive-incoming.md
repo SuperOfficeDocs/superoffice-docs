@@ -3,9 +3,9 @@ uid: help-nl-gmail-link-archive-incoming
 title: Binnenkomende e-mail archiveren
 description: Binnenkomende e-mail archiveren
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -4,12 +4,12 @@ title: Klagomål om skräppost
 description: Klagomål om skräppost
 keywords: Marknadsföring
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: concept
+date: 02.09.2024
+version: 10
+topic: concept
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Klagomål om skräppost

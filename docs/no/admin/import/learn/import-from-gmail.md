@@ -3,9 +3,9 @@ uid: help-no-import-from-gmail
 title: Importere fra Gmail
 description: Importere fra Gmail
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold, importere
-so.topic: help
+topic: help
 language: no
 ---
 

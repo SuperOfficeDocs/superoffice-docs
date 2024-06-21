@@ -3,9 +3,9 @@ uid: help-sv-stakeholder-create
 title: Skapa en intressent
 description: Hur man kopplar en försäljning till en intressent (företag eller kontakt) i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

@@ -4,12 +4,12 @@ title: Werken met mailings
 description: Werken met mailings
 keywords: Marketing, mailings, e-mailcampagne, E-maillevering
 author: SuperOffice RnD, Jeanette Small Strøm
-so.date: 02.27.2024
-so.version: 10
-so.topic: concept
+date: 02.27.2024
+version: 10
+topic: concept
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Werken met mailings

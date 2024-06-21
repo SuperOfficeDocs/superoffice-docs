@@ -3,9 +3,9 @@ uid: help-no-customer-center-edit
 title: "Kundesenter, kildefiler"
 description: "Kundesenter, kildefiler"
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundesenter, CEP
-so.topic: howto
+topic: howto
 language: no
 ---
 

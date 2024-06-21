@@ -3,9 +3,9 @@ uid: help-da-preferences-manage
 title: Arbejde med præferencer
 description: "Sådan tilføjes, redigeres og slettes præferenceindstillinger."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: præference, indstilling
-so.topic: howto
+topic: howto
 language: da
 ---
 

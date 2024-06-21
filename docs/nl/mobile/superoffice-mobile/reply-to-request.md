@@ -3,10 +3,10 @@ uid: help-nl-request-reply-mobile
 title: Een verzoek beantwoorden op uw mobiele apparaat
 description: In deze handleiding leert u hoe u een verzoek kunt beantwoorden in Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: verzoek, mobiel
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: nl
 ---
 

@@ -4,12 +4,12 @@ title: Verwenden vorausgefüllter Felder in Formularen
 description: Verwenden vorausgefüllter Felder in Formularen
 keywords: Formular, Feld, vorausgefüllt, vorausgefüllts Feld, Feldidentifikator, Feldbezeichnung
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
-so.topic: howto
+date: 03.18.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Verwenden vorausgefüllter Felder in Formularen

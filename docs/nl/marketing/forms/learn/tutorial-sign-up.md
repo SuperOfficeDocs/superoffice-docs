@@ -4,12 +4,12 @@ title: Handleiding - Aanmelden nieuwsbrief
 description: In deze handleiding zullen we een formulier maken voor klanten die zich willen aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces zal ook dubbele opt-in bevatten om foutieve of valse aanmeldingen te elimineren.
 keywords: formulier, aanmelden, nieuwsbrief
 author: Bergfrid Dias
-so.date: 03.18.2024
-so.version: 10
-so.topic: howto
+date: 03.18.2024
+version: 10
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Handleiding - Aanmelden nieuwsbrief

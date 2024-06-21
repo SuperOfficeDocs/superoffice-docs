@@ -3,9 +3,9 @@ uid: help-da-diary-screen-activities
 title: Detaljekortet Aktiviteter (Dagbog)
 description: Detaljekortet Aktiviteter (Dagbog)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dagbog, opfølgning
-so.topic: reference
+topic: reference
 language: da
 ---
 

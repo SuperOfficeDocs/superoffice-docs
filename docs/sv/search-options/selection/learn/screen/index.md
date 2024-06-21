@@ -3,9 +3,9 @@ uid: help-sv-selection-screen
 title: Detaljkorten i fönstret Urval
 description: Detaljkorten i fönstret Urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: reference
+topic: reference
 language: sv
 ---
 

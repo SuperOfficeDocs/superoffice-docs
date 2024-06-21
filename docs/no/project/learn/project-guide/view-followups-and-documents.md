@@ -3,9 +3,9 @@ uid: help-no-view-followups-and-documents
 title: Vise oppfølginger og dokumenter
 description: Vise oppfølginger og dokumenter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: no
 ---
 

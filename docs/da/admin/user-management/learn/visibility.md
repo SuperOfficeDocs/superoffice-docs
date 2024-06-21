@@ -3,9 +3,9 @@ uid: help-da-visibility
 title: Synlig for
 description: Synlig for
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: synlighed, user, rolle, tilgængelig
-so.topic: concept
+topic: concept
 language: da
 ---
 

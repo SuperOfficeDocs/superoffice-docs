@@ -3,11 +3,11 @@ uid: help-nl-add-template
 title: Een sjabloon toevoegen
 description: In deze handleiding leert u hoe u een nieuwe documentsjabloon toevoegt aan SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: document, sjabloon
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

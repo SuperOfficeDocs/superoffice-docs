@@ -4,10 +4,10 @@ title: Visa extra fält på fliken Detaljer
 description: Visa extra fält på fliken Detaljer
 keywords: extra fält, custom field, förfrågan, layout, screen designer
 author: Bergfrid Dias
-so.date: 01.18.2024
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.18.2024
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

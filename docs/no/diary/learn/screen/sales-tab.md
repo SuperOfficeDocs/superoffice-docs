@@ -3,9 +3,9 @@ uid: help-no-diary-screen-sales
 title: Detaljkortet Salg (Dagbok)
 description: Detaljkortet Salg (Dagbok)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dagbok, oppfølging
-so.topic: reference
+topic: reference
 language: no
 ---
 

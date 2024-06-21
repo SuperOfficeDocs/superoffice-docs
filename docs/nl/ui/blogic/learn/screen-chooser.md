@@ -3,9 +3,9 @@ uid: help-nl-screen-chooser
 title: Schermkiezers
 description: Schermkiezers
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: UI, screen chooser
-so.topic: concept
+topic: concept
 language: nl
 ---
 

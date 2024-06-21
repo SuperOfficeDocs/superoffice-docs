@@ -3,9 +3,9 @@ uid: help-de-template-variables-service
 title: Vorlagenvariablen
 description: Vorlagenvariablen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Anfrage
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -3,13 +3,13 @@ title: Handböcker för SuperOffice CRM
 uid: help-sv-start
 description: Startsida för SuperOffice CRM-handböcker
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: användarhandbok, hjälp
-so.topic: concept
-so.version: 10
+topic: concept
+version: 10
 language: sv
-so.envir:
-so.client:
+envir:
+client:
 ---
 
 # Handböcker för SuperOffice CRM

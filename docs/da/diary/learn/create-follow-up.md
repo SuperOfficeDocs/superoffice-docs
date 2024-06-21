@@ -3,10 +3,10 @@ uid: help-da-follow-up-create
 title: "Tilføjelse af opfølgning"
 description: "Tilføje eller kopiere møde, opgave, samtale i SuperOffice"
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: dagbog, opfølgning, ring til, telefon, møde
-so.topic: howto
+topic: howto
 language: da
 ---
 

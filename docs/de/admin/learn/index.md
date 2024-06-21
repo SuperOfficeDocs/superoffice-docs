@@ -3,11 +3,11 @@ uid: help-de-admin-primer
 title: Überblick
 description: Einführung in die Verwaltung von SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Admin, Einstellungen und Verwaltung
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 # Überblick

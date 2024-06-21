@@ -3,9 +3,9 @@ uid: help-da-sms-mailbox-create
 title: Opret sms-konto
 description: Opret sms-konto
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

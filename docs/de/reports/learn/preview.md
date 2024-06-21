@@ -3,9 +3,9 @@ uid: help-de-report-preview
 title: Berichtevorschau
 description: Funktionen im Vorschaufenster
 author: Bergfrid Dias
-so.date: 07.14.2023
+date: 07.14.2023
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

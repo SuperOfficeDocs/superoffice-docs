@@ -3,9 +3,9 @@ uid: help-nl-contact-create
 title: Contactpersoon maken
 description: Een contactpersoon maken in SuperOffice.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: persoon, contactpersoon
-so.topic: howto
+topic: howto
 language: nl
 ---
 

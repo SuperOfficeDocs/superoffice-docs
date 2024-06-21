@@ -3,11 +3,11 @@ uid: help-sv-sales-guide-deactivate
 title: Inaktivera säljguide
 description: Så här inaktiverar du en säljguide i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: försäljning, guide
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

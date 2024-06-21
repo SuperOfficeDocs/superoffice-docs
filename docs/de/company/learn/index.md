@@ -3,9 +3,9 @@ uid: help-de-company
 title: Firmen
 description: "Alle Informationen bezüglich einer Firma – egal, ob Kunde, Partner oder Lieferant – werden auf der Firmenkarte/der Ansicht in SuperOffice CRM gespeichert."
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: Firma
-so.topic: concept
+topic: concept
 language: de
 ---
 

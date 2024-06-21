@@ -3,10 +3,10 @@ uid: help-nl-follow-up-edit
 title: Vervolgactiviteiten bewerken
 description: Vervolgactiviteiten openen, bewerken, verwijderen via de agenda; De eindtijd voor een vervolgactiviteit in de agenda wijzigen
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, afspraak, taak, gesprek, herhalen, terugkeren, instantie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

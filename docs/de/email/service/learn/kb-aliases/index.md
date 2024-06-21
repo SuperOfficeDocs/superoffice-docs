@@ -3,11 +3,11 @@ uid: help-de-mailbox
 title: Mit E-Mail-Adressen arbeiten
 description: Mit E-Mail-Adressen arbeiten
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Anfrage
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

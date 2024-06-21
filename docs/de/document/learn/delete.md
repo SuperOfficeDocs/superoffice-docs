@@ -3,9 +3,9 @@ uid: help-de-document-delete
 title: Dokumente löschen
 description: Dokumente löschen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Dokument
-so.topic: howto
+topic: howto
 language: de
 ---
 

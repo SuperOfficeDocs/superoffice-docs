@@ -3,9 +3,9 @@ uid: help-no-add-items-to-country-list
 title: Legge til forekomster på listen Land
 description: Legge til forekomster på listen Land
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger og vedlikehold
-so.topic: howto
+topic: howto
 language: no
 ---
 

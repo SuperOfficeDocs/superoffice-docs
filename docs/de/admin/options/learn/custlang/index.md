@@ -3,9 +3,9 @@ uid: help-de-languages
 title: Kundensprachen
 description: Kundensprachen
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: Sprache
-so.topic: concept
+topic: concept
 language: de
 ---
 

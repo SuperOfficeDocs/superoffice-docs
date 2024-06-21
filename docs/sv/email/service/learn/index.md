@@ -3,9 +3,9 @@ uid: help-sv-email-service
 title: Servicemejl
 description: Servicemejl
 author: SuperOffice RnD
-so.date: 03.06.2024
+date: 03.06.2024
 keywords: Inställningar och underhåll
-so.topic: concept
+topic: concept
 language: sv
 ---
 

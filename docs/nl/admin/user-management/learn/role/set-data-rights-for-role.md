@@ -3,11 +3,11 @@ uid: help-nl-role-set-data-rights
 title: Gegevensrechten voor rol instellen
 description: Gegevensrechten voor rol instellen
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: gebruikersbeheer, rol, toegang, rechten
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

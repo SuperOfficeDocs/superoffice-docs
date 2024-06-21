@@ -3,9 +3,9 @@ uid: help-nl-email-inbox
 title: SuperOffice Postvak IN
 description: SuperOffice Postvak IN
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: concept
+topic: concept
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-sale-screen
 title: Verkaufsansicht
 description: Die Ansicht Verkauf in SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Verkauf
-so.topic: reference
+topic: reference
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-address-formats-for-different-countries
 title: Adresseformater for forskellige lande
 description: Adresseformater for forskellige lande
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: reference
+topic: reference
 language: da
 ---
 

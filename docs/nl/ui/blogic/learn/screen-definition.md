@@ -3,9 +3,9 @@ uid: help-nl-service-screen-definition
 title: Schermdefinitie
 description: Schermdefinitie
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: schermdefinitie
-so.topic: reference
+topic: reference
 language: nl
 ---
 

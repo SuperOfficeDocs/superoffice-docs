@@ -3,9 +3,9 @@ uid: help-nl-customer-centre
 title: Klantportaal
 description: Klantportaal
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Klantportaal
-so.topic: concept
+topic: concept
 language: nl
 ---
 

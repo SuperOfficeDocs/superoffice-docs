@@ -3,9 +3,9 @@ uid: help-nl-adding-items-to-relation-list
 title: Items toevoegen aan de lijst Relatie
 description: Items toevoegen aan de lijst Relatie
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

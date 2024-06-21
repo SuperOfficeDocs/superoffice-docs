@@ -3,9 +3,9 @@ uid: help-no-basics-delete
 title: Slette elementer
 description: "Hvordan slå sammen, slette og gjenopprette elementer."
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: slette, gjenopprette, papirkurv
-so.topic: howto
+topic: howto
 language: no
 ---
 

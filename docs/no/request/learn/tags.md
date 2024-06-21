@@ -3,11 +3,11 @@ uid: help-no-request-tags
 title: Bruke emneknagger i saker
 description: "Finn ut hvordan du oppretter og redigerer emneknagger, i denne veiledningen."
 author: Bergfrid Dias
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

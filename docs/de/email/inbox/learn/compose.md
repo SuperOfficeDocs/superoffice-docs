@@ -3,9 +3,9 @@ uid: help-de-email-inbox-compose
 title: E-Mail schreiben
 description: E-Mail schreiben
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -4,12 +4,12 @@ title: Feldoptionen
 description: Feldoptionen
 keywords: Formular, Feld, Feldoption, Formularelement, Ansichtselement
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
-so.topic: reference
+date: 03.18.2024
+version: 10
+topic: reference
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Feldoptionen

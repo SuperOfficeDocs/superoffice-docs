@@ -3,9 +3,9 @@ uid: help-sv-preferences-manage
 title: Arbeta med inställningar
 description: "Så lägger du till, ändrar och tar bort inställningar."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: inställning, inställning
-so.topic: howto
+topic: howto
 language: sv
 ---
 

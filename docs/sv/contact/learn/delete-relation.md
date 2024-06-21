@@ -3,9 +3,9 @@ uid: help-sv-contact-delete-relation
 title: Ta bort relation (fönstret Kontakt)
 description: Ta bort relationer (fönstret Kontakt)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: sv
 ---
 

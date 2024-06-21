@@ -3,11 +3,11 @@ uid: help-nl-configure-video-meetings
 title: Videovergaderingen configureren
 description: Videovergaderingen configureren
 author: SuperOffice RnD
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: Videovergadering, uitnodiging
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

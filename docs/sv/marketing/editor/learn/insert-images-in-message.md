@@ -4,12 +4,12 @@ title: Lägga in bilder i meddelandet
 description: "Att använda noga utvalda bilder i dina utskick kan påverka ditt resultat på ett kraftfullt sätt. Du kan ladda upp dina egna bilder eller använda en av de miljontals bilder som kommer från Unsplash, Pexels och Pixabay i online-bildbiblioteket."
 keywords: Marknadsföring, bild
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägga in bilder i meddelandet

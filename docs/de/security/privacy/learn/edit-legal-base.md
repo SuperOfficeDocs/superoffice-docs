@@ -3,9 +3,9 @@ uid: help-de-edit-legal-base
 title: Rechtsgrundlage bearbeiten
 description: "In dieser Anleitung erfahren Sie mehr über die DSGVO-Funktionen in SuperOffice-Marketing, mit denen Sie sicherstellen können, dass Ihre Marketingaktivitäten konform nach der DSGVO sind."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Datenschutz, Einwilligung, Rechtsgrundlage
-so.topic: howto
+topic: howto
 language: de
 ---
 

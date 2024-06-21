@@ -3,14 +3,14 @@ uid: help-nl-user-import
 title: Gebruikers importeren
 description: Groepen gebruikers importeren uit Active Directory
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: gebruiker, import, medewerker, Active Directory, bulk
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Gebruikers importeren

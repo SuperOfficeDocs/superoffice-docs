@@ -3,9 +3,9 @@ uid: help-nl-search-criteria
 title: Zoekcriteria gebruiken
 description: Zoekcriteria gebruiken
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: zoeken, criteria
-so.topic: howto
+topic: howto
 language: nl
 ---
 

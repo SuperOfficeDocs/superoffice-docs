@@ -4,12 +4,12 @@ title: Definere automatiske koblingshandlinger
 description: I denne veiledningen lærer du hvordan du bruker koblinger i utsendelser til å automatisere handlinger.
 keywords: Markedsføring
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.24.2024
+version: 10.3.5
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Definer automatiske koblinghandlinger

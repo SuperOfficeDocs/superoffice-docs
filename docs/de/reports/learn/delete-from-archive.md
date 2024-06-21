@@ -3,9 +3,9 @@ uid: help-de-report-delete-from-archive
 title: Berichte aus dem Berichtsarchiv löschen
 description: Berichte aus dem Berichtsarchiv löschen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: help
+topic: help
 language: de
 ---
 

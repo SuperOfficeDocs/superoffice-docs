@@ -3,9 +3,9 @@ uid: help-da-gmail-link-archive-email-as-requests
 title: Arkiver e-mail som sager
 description: Arkiver e-mail som sager
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: howto
+topic: howto
 language: da
 ---
 

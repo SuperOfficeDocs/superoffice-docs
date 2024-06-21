@@ -3,12 +3,12 @@ uid: help-da-automation-script-tracing
 title: Sporing
 description: Sporing
 author: Bergfrid Dias
-so.date: 12.20.2023
-so.version: 10.2.11
+date: 12.20.2023
+version: 10.2.11
 keywords: CRMScript, spor, debug
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

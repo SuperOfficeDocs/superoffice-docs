@@ -4,9 +4,9 @@ title: Slå sammen saker
 description: Slå sammen saker
 author: Hanne Gunnarsson
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

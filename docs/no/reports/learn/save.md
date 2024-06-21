@@ -3,9 +3,9 @@ uid: help-no-saving-reports-as-files
 title: Lagre rapporter som filer
 description: Lagre rapporter som filer
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: no
 ---
 

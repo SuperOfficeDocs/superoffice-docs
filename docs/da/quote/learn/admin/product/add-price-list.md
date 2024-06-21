@@ -3,11 +3,11 @@ uid: help-da-price-list-add
 title: Tilføj prisliste
 description: "I denne vejledning lærer du, hvordan du tilføjer og redigerer en prisliste i SuperOffice Quote."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: produkt, prisliste
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

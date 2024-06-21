@@ -3,9 +3,9 @@ uid: help-nl-selection-create
 title: Selectie maken
 description: Werken met dynamische en statische selecties
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

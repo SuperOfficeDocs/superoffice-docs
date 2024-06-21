@@ -3,9 +3,9 @@ uid: help-da-status-dialog
 title: Dialogboksen Status
 description: Dialogboksen Status
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, SAINT
-so.topic: reference
+topic: reference
 language: da
 ---
 

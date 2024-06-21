@@ -3,9 +3,9 @@ uid: help-nl-google-workspace
 title: Google Workspace-integratie inschakelen
 description: Met de gratis Google Workspace integratie-app voor documenten kunt u moeiteloos werken met documenten uit SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: document, Google
-so.topic: concept
+topic: concept
 language: nl
 ---
 

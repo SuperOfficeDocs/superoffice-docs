@@ -3,9 +3,9 @@ uid: help-da-dashboard-tile-sales-targets
 title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: dashboard, salg, mål, diagram
-so.topic: howto
+topic: howto
 language: da
 ---
 

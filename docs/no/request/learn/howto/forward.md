@@ -3,11 +3,11 @@ uid: help-no-request-forward
 title: Videresend sak til ekstern person
 description: Denne veiledningen viser deg hvordan du videresender en sak.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sak
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

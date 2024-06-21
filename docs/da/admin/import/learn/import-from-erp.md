@@ -3,9 +3,9 @@ uid: help-da-import-from-erp
 title: Import fra ERP
 description: Import fra ERP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse, importer
-so.topic: help
+topic: help
 language: da
 ---
 

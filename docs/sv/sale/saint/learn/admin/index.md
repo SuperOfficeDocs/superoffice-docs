@@ -3,11 +3,11 @@ uid: help-sv-saint-admin
 title: Konfigurera SAINT
 description: Lär dig hur du konfigurerar SuperOffice SAINT i den här guiden.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: försäljning, SAINT
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

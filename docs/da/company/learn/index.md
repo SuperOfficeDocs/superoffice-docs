@@ -3,9 +3,9 @@ uid: help-da-company
 title: Kontakter
 description: "Alle oplysninger relateret til en virksomhed – det være sig din kunde, samarbejdspartner eller leverandør – gemmes på virksomhedskortet/skærmen i SuperOffice CRM."
 author: Bergfrid Dias
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: firma
-so.topic: concept
+topic: concept
 language: da
 ---
 

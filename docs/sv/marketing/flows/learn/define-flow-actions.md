@@ -4,13 +4,13 @@ title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.14.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.14.2024
+version: 10.3.7
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Definiera flödesåtgärder

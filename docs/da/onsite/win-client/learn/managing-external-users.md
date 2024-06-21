@@ -3,11 +3,11 @@ uid: help-da-managing-external-users
 title: håndtering af eksterne brugere
 description: håndtering af eksterne brugere
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: help
+topic: help
 language: da
-so.envir: onsite
+envir: onsite
 ---
 
 # Håndtering af eksterne brugere

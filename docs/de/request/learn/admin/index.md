@@ -3,9 +3,9 @@ uid: help-de-service-settings
 title: Systemeinstellungen
 description: Systemeinstellungen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: de
 ---
 

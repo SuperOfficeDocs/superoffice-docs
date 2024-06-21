@@ -3,9 +3,9 @@ uid: help-no-company-screen-relations
 title: Relasjoner-fane (Firma-bildet)
 description: Relasjoner-fane (Firma-bildet)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma, relasjon
-so.topic: reference
+topic: reference
 language: no
 ---
 

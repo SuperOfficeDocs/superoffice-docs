@@ -4,12 +4,12 @@ title: Se statistik for udsendelser
 description: Se statistik for udsendelser
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Analysere resultaterne af dine udsendelser

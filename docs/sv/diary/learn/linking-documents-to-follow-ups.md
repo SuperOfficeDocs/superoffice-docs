@@ -3,10 +3,10 @@ uid: help-sv-activity-add-link
 title: Länka dokument till uppföljningar
 description: Länka dokument till uppföljningar
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: CRM
-so.topic: howto
+topic: howto
 language: sv
 ---
 

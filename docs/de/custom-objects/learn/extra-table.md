@@ -4,11 +4,11 @@ title: Zusatztabellen
 description: Zusatztabellen
 keywords: Zusatztabelle
 author: Bergfrid Dias
-so.date: 01.30.2024
-so.version: 10
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+date: 01.30.2024
+version: 10
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

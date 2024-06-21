@@ -3,9 +3,9 @@ uid: help-nl-sharepoint-documents
 title: Integratie SharePoint-documentbibliotheek
 description: "Met de invoegtoepassing SuperOffice voor Outlook kunt u moeiteloos werken tussen uw Microsoft 365- en SuperOffice CRM-oplossing, door u rechtstreeks in uw e-mail toegang te geven tot belangrijke informatie en functies van SuperOffice."
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: document, Sharepoint
-so.topic: concept
+topic: concept
 language: nl
 ---
 

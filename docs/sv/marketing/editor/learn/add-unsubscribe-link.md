@@ -4,12 +4,12 @@ title: Lägga in länk för avregistrering
 description: När du skickar ett utskick måste mottagarna ges möjlighet att avregistrera sig. Lär dig hur du kan lägga till en länk för avregistrering i ditt utskick i den här guiden.
 keywords: marknadsföring
 author: SuperOffice RnD
-so.date: 02.09.2024
-so.version: 10
-so.topic: howto
+date: 02.09.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Lägg till prenumerationslänkar

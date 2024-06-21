@@ -3,9 +3,9 @@ uid: help-nl-sale-forecasting
 title: Bewaak uw pijplijn en maak een prognose van de verkopen
 description: "Hoe u uw verkooppijplijn kunt bewaken en uw verkopen kunt voorspellen met behulp van dashboards, selecties en rapporten."
 author: Bergfrid Dias
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

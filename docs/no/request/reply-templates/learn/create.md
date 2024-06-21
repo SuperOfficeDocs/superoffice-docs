@@ -3,11 +3,11 @@ uid: help-no-reply-template-create
 title: Opprette svarmaler
 description: "Lær hvordan du oppretter en svarmal, i denne veiledningen."
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak, svare, mal
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: user
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

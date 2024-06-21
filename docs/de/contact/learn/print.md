@@ -3,9 +3,9 @@ uid: help-de-contact-print
 title: Personen-Info drucken
 description: Personen-Info drucken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, Person, Drucken
-so.topic: howto
+topic: howto
 language: de
 ---
 

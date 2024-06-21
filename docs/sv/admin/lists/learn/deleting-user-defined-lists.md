@@ -3,9 +3,9 @@ uid: help-sv-deleting-user-defined-lists
 title: Ta bort användardefinierade listor
 description: Ta bort användardefinierade listor
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-selection-generate-follow-ups
 title: Folgeaufgaben erstellen
 description: Folgeaufgaben erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion
-so.topic: howto
+topic: howto
 language: de
 ---
 

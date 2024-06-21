@@ -3,9 +3,9 @@ uid: help-no-automation-script-create
 title: Opprette et skript
 description: Opprette et skript
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: skript, makro
-so.topic: howto
+topic: howto
 language: no
 ---
 

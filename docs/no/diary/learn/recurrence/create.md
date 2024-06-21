@@ -3,10 +3,10 @@ uid: help-no-recurrence-set
 title: Planlegge repeterende oppfølging
 description: Planlegge repeterende oppfølging
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: dagbok, oppfølging, gjenta
-so.topic: howto
+topic: howto
 language: no
 ---
 

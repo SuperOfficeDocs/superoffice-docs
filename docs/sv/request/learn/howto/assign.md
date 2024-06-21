@@ -4,12 +4,12 @@ title: Tilldelningsmetoder
 description: Tilldelningsmetoder för ärenden
 keywords: ärende
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10
+date: 06.11.2024
+version: 10
 language: sv
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 ---
 
 # Automatiska tilldelningsmetoder för ärenden

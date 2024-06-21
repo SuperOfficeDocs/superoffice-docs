@@ -3,10 +3,10 @@ uid: help-da-recurrence-set
 title: Planlæg gentagen opfølgning
 description: Planlæg gentagen opfølgning
 author: Bergfrid Dias
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: dagbog, opfølgning, gentag
-so.topic: howto
+topic: howto
 language: da
 ---
 

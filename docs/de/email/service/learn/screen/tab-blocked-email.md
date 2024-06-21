@@ -3,9 +3,9 @@ uid: help-de-email-blocked-service
 title: Blockierte E-Mails
 description: Blockierte E-Mails
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: E-Mail
-so.topic: reference
+topic: reference
 language: de
 ---
 

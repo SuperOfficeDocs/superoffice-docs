@@ -3,11 +3,11 @@ uid: help-nl-service-settings-system-settings
 title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 author: SuperOffice RnD
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: Service, instellingen
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

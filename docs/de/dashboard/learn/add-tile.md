@@ -3,9 +3,9 @@ uid: help-de-dashboard-tile-add
 title: Im Dashboard Kachel hinzufügen/Layout bearbeiten
 description: "In dieser Anleitung lernen Sie, wie Sie eine Dashboard-Kachel erstellen."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

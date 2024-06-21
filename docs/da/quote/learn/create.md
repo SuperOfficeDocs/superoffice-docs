@@ -3,9 +3,9 @@ uid: help-da-quote-create
 title: Opret et tilbud
 description: "I denne vejledning lærer du, hvordan du opretter et tilbud, tilføjer og redigerer et produkt inde i tilbuddet, og hvordan du sender et tilbud."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: da
 ---
 

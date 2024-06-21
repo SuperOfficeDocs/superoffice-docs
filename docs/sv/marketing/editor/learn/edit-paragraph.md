@@ -4,12 +4,12 @@ title: Redigera ett avsnitt
 description: Redigera ett avsnitt
 keywords: Marknadsföring
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: howto
+date: 02.07.2024
+version: 10
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Redigera innehåll

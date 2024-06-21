@@ -3,9 +3,9 @@ uid: help-no-screen-chooser
 title: Skjermvelgere
 description: Skjermvelgere
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: UI, skjermvelger
-so.topic: concept
+topic: concept
 language: no
 ---
 

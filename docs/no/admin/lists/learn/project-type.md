@@ -3,11 +3,11 @@ uid: help-no-project-type-add
 title:  Legge til en prosjekttype
 description: Slik legger du til en prosjekttype i SuperOffice.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: prosjekt, type
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

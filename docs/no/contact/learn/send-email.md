@@ -3,9 +3,9 @@ uid: help-no-contact-send-email
 title: Sende e-post til en person
 description: "Når du sender e-post via SuperOffice CRM, blir det enklere å dele og lagre all kundekommunikasjon på ett sted."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: person, person
-so.topic: howto
+topic: howto
 language: no
 ---
 

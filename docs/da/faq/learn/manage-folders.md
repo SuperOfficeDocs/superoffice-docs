@@ -3,11 +3,11 @@ uid: help-da-faq-folder
 title: Administration af mapper med FAQ-poster
 description: Administration af mapper med FAQ-poster
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: FAQ, mappe
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

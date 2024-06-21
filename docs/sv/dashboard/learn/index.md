@@ -3,9 +3,9 @@ uid: help-sv-dashboard
 title: Dashboards
 description: Konfigurera SuperOffice Dashboard och använd fördefinierade figurer. Dashboards är perfekta för alla användare och chefer. Du får en översikt över ditt arbete eller teamets resultat.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: concept
+topic: concept
 language: sv
 ---
 

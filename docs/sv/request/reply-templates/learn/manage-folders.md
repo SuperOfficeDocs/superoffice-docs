@@ -3,9 +3,9 @@ uid: help-sv-reply-template-folder
 title: Administrera mappar med svarsmallar
 description: Administrera mappar med svarsmallar
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: ärende, svar, mapp
-so.topic: howto
+topic: howto
 language: sv
 ---
 

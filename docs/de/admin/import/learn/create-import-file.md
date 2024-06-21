@@ -3,11 +3,11 @@ uid: help-de-import-create-excel
 title: Importdatei erstellen
 description: "In dieser Anleitung lernen Sie, wie Sie mit der Excel-Vorlage eine Importdatei erstellen."
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: Importieren, Excel, Firma, Person, Produkt, Tabellenkalkulation
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-email-inbox-print
 title: Udskriv en e-mail
 description: Udskriv en e-mail
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

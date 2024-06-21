@@ -3,9 +3,9 @@ uid: help-sv-project-guide-working-with
 title: Arbeta med projektguide
 description: Arbeta med projektguide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, guide
-so.topic: howto
+topic: howto
 language: sv
 ---
 

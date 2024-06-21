@@ -3,9 +3,9 @@ uid: help-de-email-inbox-preview
 title: Feld Vorschau
 description: Feld Vorschau
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-Mail
-so.topic: help
+topic: help
 language: de
 ---
 

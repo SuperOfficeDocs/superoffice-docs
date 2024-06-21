@@ -4,10 +4,10 @@ title: Vis ekstrafelt i fanen Detaljer
 description: Vis ekstrafelt i fanen Detaljer
 keywords: ekstrafelt, sak, layout, Skjermdesigner
 author: Bergfrid Dias
-so.date: 01.18.2024
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+date: 01.18.2024
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

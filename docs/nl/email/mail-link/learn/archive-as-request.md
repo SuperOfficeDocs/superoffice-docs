@@ -3,9 +3,9 @@ uid: help-nl-mail-link-archive-as-request
 title: E-mail archiveren als verzoek
 description: Meer informatie over het archiveren van e-mails als verzoeken vindt u in deze handleiding.
 author: SuperOffice RnD
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: Mail-koppeling
-so.topic: howto
+topic: howto
 language: nl
 ---
 

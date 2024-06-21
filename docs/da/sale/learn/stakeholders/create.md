@@ -3,9 +3,9 @@ uid: help-da-stakeholder-create
 title: Opret en interessent
 description: Sådan knyttes et salg til en interessent (firma eller person) i SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg
-so.topic: howto
+topic: howto
 language: da
 ---
 

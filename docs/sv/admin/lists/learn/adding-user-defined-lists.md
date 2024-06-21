@@ -3,9 +3,9 @@ uid: help-sv-adding-user-defined-lists
 title: Lägga till användardefinierade listor
 description: Lägga till användardefinierade listor
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

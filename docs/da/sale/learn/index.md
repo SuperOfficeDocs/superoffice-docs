@@ -3,9 +3,9 @@ uid: help-da-sale
 title: Salg
 description: SuperOffice Salg hjælper salgsteams med at bevare kontrollen over deres salgspipelines og processer.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: salg
-so.topic: concept
+topic: concept
 language: da
 ---
 

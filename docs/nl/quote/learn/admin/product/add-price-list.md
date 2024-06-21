@@ -3,11 +3,11 @@ uid: help-nl-price-list-add
 title: Prijslijst toevoegen
 description: In deze hulpgids leert u hoe u een prijslijst kunt toevoegen en bewerken in SuperOffice Quote.
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: product, prijslijst
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

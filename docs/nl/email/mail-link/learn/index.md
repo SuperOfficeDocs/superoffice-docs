@@ -3,9 +3,9 @@ uid: help-nl-mail-link
 title: Inleiding tot SuperOffice Mail Link
 description: Inleiding tot SuperOffice Mail Link
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail-koppeling
-so.topic: concept
+topic: concept
 language: nl
 ---
 

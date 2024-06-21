@@ -3,9 +3,9 @@ uid: help-sv-project-screen
 title: Projektskärm
 description: Projektskärmen i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-admin-onboard
 title: Översikt
 description: Introduktion till administrera SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: admin, Inställningar och underhåll
-so.topic: howto
+topic: howto
 language: sv
 ---
 # Få med dig användarna

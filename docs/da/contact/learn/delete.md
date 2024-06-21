@@ -3,9 +3,9 @@ uid: help-da-contact-delete
 title: person slet
 description: person slet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: howto
+topic: howto
 language: da
 ---
 

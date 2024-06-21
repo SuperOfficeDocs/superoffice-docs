@@ -3,9 +3,9 @@ uid: help-da-quote-add-products
 title: "Tilføj produkter, der skal med i tilbuddet"
 description: "Tilføj produkter, der skal med i tilbuddet"
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: da
 ---
 

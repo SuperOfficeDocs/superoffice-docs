@@ -3,9 +3,9 @@ uid: help-de-company-print
 title: Informationen über eine Firma drucken
 description: Informationen über eine Firma drucken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: howto
+topic: howto
 language: de
 ---
 

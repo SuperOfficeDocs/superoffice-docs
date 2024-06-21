@@ -3,11 +3,11 @@ uid: help-sv-request-forward
 title: Vidarebefordra ärende till extern kontakt
 description: Lär dig hur du vidarebefordrar ett ärende i den här guiden.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

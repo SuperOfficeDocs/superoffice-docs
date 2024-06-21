@@ -3,11 +3,11 @@ uid: help-de-users
 title: Benutzer
 description: "Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

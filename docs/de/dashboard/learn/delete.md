@@ -3,9 +3,9 @@ uid: help-de-dashboard-delete
 title: Dashboards löschen
 description: Dashboards löschen
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

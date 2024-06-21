@@ -3,9 +3,9 @@ uid: help-nl-selection-user
 title: Taken uitvoeren met selecties
 description: Taken uitvoeren met selecties
 author: SuperOffice RnD
-so.date: 02.15.2023
+date: 02.15.2023
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-preferences-manage
 title: Arbeide med preferanser
 description: "Slik legger du til, redigerer og sletter preferanseinnstillinger."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: preferanse, innstilling
-so.topic: howto
+topic: howto
 language: no
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-dashboard
 title: Dashboards
 description: "Konfigurer SuperOffice Dashboard, og brug foruddefinerede felter. Dashboards er ideelle til alle brugere og ledere. Du kan få et overblik over dit individuelle arbejde eller din teampræstation."
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashboard
-so.topic: concept
+topic: concept
 language: da
 ---
 

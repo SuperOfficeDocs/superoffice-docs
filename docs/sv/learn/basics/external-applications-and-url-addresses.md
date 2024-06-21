@@ -3,9 +3,9 @@ uid: help-sv-external-applications-and-url-addresses
 title: Externa applikationer och webbadresser
 description: Externa applikationer och webbadresser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: URL, genväg
-so.topic: concept
+topic: concept
 language: sv
 ---
 

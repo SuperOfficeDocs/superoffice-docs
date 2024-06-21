@@ -3,12 +3,12 @@ uid: help-da-deleting-field-mapping
 title: Sletter felttilknytning
 description: Sletter felttilknytning
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Sletning af felttilknytning

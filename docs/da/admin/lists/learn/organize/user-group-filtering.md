@@ -3,11 +3,11 @@ uid: help-da-user-group-filtering
 title: Brugergrupper
 description: Brugergrupper
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, gruppe
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

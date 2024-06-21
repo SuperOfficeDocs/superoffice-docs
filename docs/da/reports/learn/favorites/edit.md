@@ -3,9 +3,9 @@ uid: help-da-report-fav-edit
 title: Redigering af foretrukne rapporter
 description: Redigering af foretrukne rapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: da
 ---
 

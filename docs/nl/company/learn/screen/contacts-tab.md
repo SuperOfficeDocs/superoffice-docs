@@ -3,9 +3,9 @@ uid: help-nl-company-screen-contacts
 title: Tabblad Contactpersonen
 description: Tabblad Contactpersonen
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: bedrijf
-so.topic: reference
+topic: reference
 language: nl
 ---
 

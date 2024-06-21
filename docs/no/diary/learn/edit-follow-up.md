@@ -3,9 +3,9 @@ uid: help-no-follow-up-edit
 title: Redigere oppfølging
 description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken; redigere eller slette invitasjon.
 author: Bergfrid Dias
-so.date: 10.19.2023
+date: 10.19.2023
 keywords: dagbok, oppfølging, invitasjon, avtale, oppgave, samtale, gjenta
-so.topic: howto
+topic: howto
 language: no
 ---
 

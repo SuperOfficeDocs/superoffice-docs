@@ -3,10 +3,10 @@ title: Sådan bruges sidepanelet effektivt til salg
 uid: help-da-sale-side-panel
 description: Sådan bruges sidepanelet effektivt til salg
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: salg, side-panel, selection
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: da
 ---
 

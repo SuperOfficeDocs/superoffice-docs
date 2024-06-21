@@ -3,9 +3,9 @@ uid: help-da-service-profile-common
 title: Fællesprofiler
 description: Fællesprofiler
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profil, service
-so.topic: howto
+topic: howto
 language: da
 ---
 

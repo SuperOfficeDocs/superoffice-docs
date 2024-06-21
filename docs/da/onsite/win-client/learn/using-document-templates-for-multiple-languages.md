@@ -3,9 +3,9 @@ uid: help-da-using-document-templates-for-multiple-languages
 title: brug af dokumentskabeloner til flere sprog
 description: brug af dokumentskabeloner til flere sprog
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

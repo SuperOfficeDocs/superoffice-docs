@@ -3,9 +3,9 @@ uid: help-no-script-screen
 title: Makroer og skript-fanen
 description: Makroer og skript-fanen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: skript, makro
-so.topic: reference
+topic: reference
 language: no
 ---
 

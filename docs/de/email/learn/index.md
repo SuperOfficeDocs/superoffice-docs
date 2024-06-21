@@ -3,9 +3,9 @@ uid: help-de-email
 title: E-Mail
 description: "Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten speichern und teilen, damit Sie und Ihr Team produktiver arbeiten können."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: E-Mail, E-Mail
-so.topic: concept
+topic: concept
 language: de
 ---
 

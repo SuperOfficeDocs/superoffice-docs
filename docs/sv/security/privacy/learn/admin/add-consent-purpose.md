@@ -3,9 +3,9 @@ uid: help-sv-add-consent-purpose
 title: Lägga till samtyckessyfte
 description: Lär dig hur du konfigurerar integritetsinställningarna för ditt företag.
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Inställningar och underhåll, integritet, samtycke
-so.topic: howto
+topic: howto
 language: sv
 ---
 

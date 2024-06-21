@@ -3,11 +3,11 @@ uid: help-no-document-external
 title: Arbeide med eksterne dokumenter
 description: Arbeide med eksterne dokumenter
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak, dokument
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

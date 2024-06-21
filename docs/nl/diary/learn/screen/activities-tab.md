@@ -3,9 +3,9 @@ uid: help-nl-diary-screen-activities
 title: Het sectietabblad Activiteiten (Agenda).
 description: Het sectietabblad Activiteiten (Agenda).
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: agenda, vervolgactiviteit
-so.topic: reference
+topic: reference
 language: nl
 ---
 

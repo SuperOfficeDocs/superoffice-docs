@@ -3,9 +3,9 @@ uid: help-de-licences-screen
 title: Die Ansicht Lizenzen
 description: Die Ansicht Lizenzen unter Einstellungen und Verwaltung
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Lizenzen, gemessene Dienstleistung, Datenbankbesitzer, Registerkarte Status
-so.topic: reference
+topic: reference
 language: de
 ---
 

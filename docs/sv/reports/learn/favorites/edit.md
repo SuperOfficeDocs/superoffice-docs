@@ -3,9 +3,9 @@ uid: help-sv-report-fav-edit
 title: Redigera favoritrapporter
 description: Redigera favoritrapporter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: help
+topic: help
 language: sv
 ---
 

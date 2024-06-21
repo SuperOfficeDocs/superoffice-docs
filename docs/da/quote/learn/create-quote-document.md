@@ -3,9 +3,9 @@ uid: help-da-quote-create-quote-document
 title: tilbud opret tilbudsdokument
 description: tilbud opret tilbudsdokument
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: da
 ---
 

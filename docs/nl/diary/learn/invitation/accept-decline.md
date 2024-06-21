@@ -3,10 +3,10 @@ uid: help-nl-invitation-accept
 title: Vervolgactiviteiten waarvoor u bent uitgenodigd
 description: Vervolgactiviteiten weergeven waarvoor u bent uitgenodigd
 author: Bergfrid Dias
-so.date: 02.16.2024
-so.version: 10.3.2
+date: 02.16.2024
+version: 10.3.2
 keywords: agenda, vervolgactiviteit, uitnodiging
-so.topic: howto
+topic: howto
 language: nl
 ---
 

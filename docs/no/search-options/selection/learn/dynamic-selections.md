@@ -3,9 +3,9 @@ uid: help-no-selections-dynamic
 title: Dynamiske utvalg
 description: Dynamiske utvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg, dynamisk
-so.topic: concept
+topic: concept
 language: no
 ---
 

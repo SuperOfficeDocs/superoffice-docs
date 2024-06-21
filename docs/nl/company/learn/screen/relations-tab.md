@@ -3,9 +3,9 @@ uid: help-nl-company-screen-relations
 title: Tabblad Relaties (scherm Bedrijf)
 description: Tabblad Relaties (scherm Bedrijf)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf, relatie
-so.topic: reference
+topic: reference
 language: nl
 ---
 

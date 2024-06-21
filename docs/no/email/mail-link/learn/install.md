@@ -3,11 +3,11 @@ uid: help-no-mail-link-install
 title: Installere SuperOffice WebTools
 description: Finn ut hvordan du installerer e-postkoblingen/WebTools.
 author: Kirsti Aakerholt
-so.date: 04.12.2023
+date: 04.12.2023
 keywords: Gmail Link, e-post
-so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice CRM
+topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

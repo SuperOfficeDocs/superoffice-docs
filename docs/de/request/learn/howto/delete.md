@@ -3,11 +3,11 @@ uid: help-de-request-delete
 title: Anfragen löschen
 description: Wie man eine Anfrage in SuperOffice löscht
 author: Hanne Gunnarsson
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Anfrage
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

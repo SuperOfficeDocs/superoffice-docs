@@ -3,9 +3,9 @@ uid: help-nl-find-screen
 title: Scherm zoeken
 description: Scherm zoeken
 author: SuperOffice RnD
-so.date: 12.13.2023
+date: 12.13.2023
 keywords: zoeken, zoeken
-so.topic: howto
+topic: howto
 language: nl
 ---
 

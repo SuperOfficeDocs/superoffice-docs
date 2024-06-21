@@ -3,9 +3,9 @@ uid: help-de-mail-link-archive-on-contact
 title: E-Mails nach Firmen/Personen archivieren
 description: E-Mails nach Firmen/Personen archivieren
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail-Link, E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

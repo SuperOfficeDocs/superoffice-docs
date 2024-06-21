@@ -3,11 +3,11 @@ uid: help-nl-preferences-intro
 title: Voorkeuren
 description: Overzicht van persoonlijke instellingen en hoe u deze kunt wijzigen.
 author: Bergfrid Dias
-so.date: 08.24.2023
+date: 08.24.2023
 keywords: voorkeur, instelling
-so.topic: howto
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

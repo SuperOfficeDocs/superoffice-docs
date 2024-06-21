@@ -3,9 +3,9 @@ uid: help-nl-basics-delete
 title: Elementen verwijderen
 description: "Elementen samenvoegen, verwijderen en herstellen."
 author: SuperOffice RnD
-so.date: 03.07.2023
+date: 03.07.2023
 keywords: delete, herstellen, prullenbak
-so.topic: howto
+topic: howto
 language: nl
 ---
 

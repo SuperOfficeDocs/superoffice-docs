@@ -3,9 +3,9 @@ uid: help-no-creating-shortcuts-to-entries-in-crm
 title: Lage snarveier til oppføringer i CRM
 description: Lage snarveier til oppføringer i CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: firma
-so.topic: help
+topic: help
 language: no
 ---
 

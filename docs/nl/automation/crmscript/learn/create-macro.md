@@ -3,11 +3,11 @@ uid: help-nl-automation-macro-create
 title: Een macro maken - voorbeeld van SuperOffice
 description: Voorbeeld van het maken van een macro in SuperOffice.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: script, macro
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

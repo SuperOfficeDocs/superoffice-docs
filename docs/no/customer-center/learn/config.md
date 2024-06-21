@@ -3,9 +3,9 @@ uid: help-no-customer-center-config
 title: Kundesenterkonfigurasjon
 description: Finn ut hvordan du konfigurerer kundesenteret ditt i denne guiden.
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Tjeneste, Kundesenter, CEP
-so.topic: howto
+topic: howto
 language: no
 ---
 

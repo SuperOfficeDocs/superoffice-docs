@@ -3,9 +3,9 @@ uid: help-nl-document-send
 title: Een document als e-mail verzenden
 description: Het verzenden van documenten die zijn opgeslagen in SuperOffice CRM als bijlagen in e-mails is snel en eenvoudig.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: document, e-mail, bijlage
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,11 +3,11 @@ uid: help-da-import-products-from-excel
 title: Import af produkter fra Excel
 description: "I denne guide lærer du, hvordan du kan importere alle dine produkter, beskrivelser og produktkoder."
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: importer, produkt, Excel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

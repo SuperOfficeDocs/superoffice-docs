@@ -3,11 +3,11 @@ uid: help-nl-user-group-manage
 title: Gebruikersgroepen beheren
 description: Gebruikersgroepen maken en verwijderen
 author: Bergfrid Dias
-so.date: 08.25.2023
+date: 08.25.2023
 keywords: gebruikersgroep
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

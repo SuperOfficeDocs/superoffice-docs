@@ -3,11 +3,11 @@ uid: help-nl-users-screen
 title: Scherm Gebruikers
 description: Scherm Gebruikers
 author: Bergfrid Dias
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: gebruiker, medewerker, onze bedrijven
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

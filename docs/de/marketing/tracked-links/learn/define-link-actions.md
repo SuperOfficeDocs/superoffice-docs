@@ -4,12 +4,12 @@ title: Automatisierte Linkaktionen definieren
 description: In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren.
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.31.2024
+version: 10.3.5
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Automatisierte Linkaktionen definieren

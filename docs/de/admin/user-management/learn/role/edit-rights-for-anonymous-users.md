@@ -3,13 +3,13 @@ uid: help-de-edit-rights-for-anonymous-users
 title: Rechte für anonyme Benutzer bearbeiten
 description: Rechte für anonyme Benutzer bearbeiten
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: Benutzerverwaltung, Rolle, Anonym
-so.topic: howto
+topic: howto
 language: de
-so.envir: onsite
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+envir: onsite
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Rechte für anonyme Benutzer bearbeiten (vor Ort)

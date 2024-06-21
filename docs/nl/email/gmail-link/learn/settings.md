@@ -3,9 +3,9 @@ uid: help-nl-gmail-link-settings
 title: Instellingen Gmail Link bewerken
 description: Instellingen Gmail Link bewerken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Gmail Link
-so.topic: reference
+topic: reference
 language: nl
 ---
 

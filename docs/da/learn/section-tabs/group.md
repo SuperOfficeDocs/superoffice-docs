@@ -3,9 +3,9 @@ uid: help-da-sections-tabs-group
 title: Gruppering af lister
 description: Du kan gruppere en liste på en eller flere datatyper for at få et bedre overblik over posterne under et detaljekort (arkiv).
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: detaljekort, arkiv
-so.topic: howto
+topic: howto
 language: da
 ---
 

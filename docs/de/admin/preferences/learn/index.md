@@ -3,11 +3,11 @@ uid: help-de-preferences
 title: Voreinstellungen
 description: "Administratoren können Einstellungen für verschiedene Funktionen im System für bestimmte Benutzer, Benutzergruppen oder für das gesamte SuperOffice CRM festlegen (Globale Einstellungen)."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: Einstellungen, Einstellungen
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

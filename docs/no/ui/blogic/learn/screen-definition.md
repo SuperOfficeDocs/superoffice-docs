@@ -3,9 +3,9 @@ uid: help-no-service-screen-definition
 title: Definisjon av skjerm
 description: Definisjon av skjerm
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: definisjon av skjerm
-so.topic: reference
+topic: reference
 language: no
 ---
 

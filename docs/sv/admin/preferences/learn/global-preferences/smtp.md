@@ -3,11 +3,11 @@ uid: help-sv-service-settings-system-smtp
 title: SMTP
 description: SMTP
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Tjänst, inställningar
-so.topic: help
+topic: help
 language: sv
-so.envir: onsite
+envir: onsite
 ---
 
 # SMTP (endast LOKALT)

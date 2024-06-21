@@ -3,9 +3,9 @@ uid: help-no-email-inbox
 title: SuperOffice-innboksen
 description: SuperOffice-innboksen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: concept
+topic: concept
 language: no
 ---
 

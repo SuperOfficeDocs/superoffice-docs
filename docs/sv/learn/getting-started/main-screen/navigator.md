@@ -3,9 +3,9 @@ uid: help-sv-ui-navigator
 title: Navigator
 description: Navigator
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: navigator, meny, användargränssnitt
-so.topic: reference
+topic: reference
 language: sv
 ---
 

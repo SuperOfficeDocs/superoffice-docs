@@ -3,10 +3,10 @@ uid: help-sv-follow-up-edit
 title: Redigera händelser
 description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern; Redigera eller ta bort förfrågan; Redigera återkommande händelse
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: kalender, händelse, förfrågan, bokning, uppgift, samtal, upprepa, återkomma
-so.topic: howto
+topic: howto
 language: sv
 ---
 

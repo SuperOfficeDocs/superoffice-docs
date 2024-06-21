@@ -3,9 +3,9 @@ uid: help-no-company-merge
 title: Slå sammen firmaer
 description: "For å være effektiv i arbeidet med kunder og personer er det viktig å ha et ryddig miljø. Dette betyr å slette ubrukte firmaer og personer, og å slå sammen dupliserte firmaer og personer."
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: firma
-so.topic: howto
+topic: howto
 language: no
 ---
 

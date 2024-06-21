@@ -3,9 +3,9 @@ uid: help-sv-project-image-add
 title: Lägga in en projektbild
 description: Så här lägger du in en projektbild
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: sv
 ---
 

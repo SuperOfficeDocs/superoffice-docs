@@ -3,9 +3,9 @@ uid: help-sv-email
 title: E-post
 description: Med SuperOffice CRM kan du välja att spara och dela dina e-postmeddelanden på olika sätt som gör att du och ditt team blir mer produktiva.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: e-post, inkorg
-so.topic: concept
+topic: concept
 language: sv
 ---
 

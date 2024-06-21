@@ -3,9 +3,9 @@ uid: help-da-project-mail-merge
 title: Udføre brevfletning for projekter
 description: Udføre brevfletning for projekter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, deltager, udsendelse, dokument
-so.topic: howto
+topic: howto
 language: da
 ---
 

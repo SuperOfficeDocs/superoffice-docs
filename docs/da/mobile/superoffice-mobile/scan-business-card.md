@@ -3,12 +3,12 @@ uid: help-da-mobile-scan
 title: Mobile CRM - Scan et visitkort
 description: Sådan scanner du et visitkort med appen SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: mobil, pocket, visitkort
-so.topic: howto
-so.version: 10
+topic: howto
+version: 10
 language: da
-so.client: mobile
+client: mobile
 ---
 
 # Scan et visitkort

@@ -3,9 +3,9 @@ uid: help-de-dashboard-copy
 title: Dashboards duplizieren
 description: Dashboards duplizieren
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

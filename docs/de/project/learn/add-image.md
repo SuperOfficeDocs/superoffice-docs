@@ -3,9 +3,9 @@ uid: help-de-project-image-add
 title: Projektbild hinzufügen
 description: Wie man ein Projektbild hinzufügt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Projekt
-so.topic: howto
+topic: howto
 language: de
 ---
 

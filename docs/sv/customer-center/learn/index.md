@@ -3,9 +3,9 @@ uid: help-sv-customer-centre
 title: Kundcenter
 description: Kundcenter
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundcenter
-so.topic: concept
+topic: concept
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-da-request-escalation
 title: Eskaleringsniveauer
 description: Eskaleringsniveauer
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: sag, prioritet, eskaler
-so.topic: howto
+topic: howto
 language: da
 ---
 

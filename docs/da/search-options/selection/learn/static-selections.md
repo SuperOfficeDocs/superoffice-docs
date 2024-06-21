@@ -3,9 +3,9 @@ uid: help-da-selection-static
 title: Statiske udvalg
 description: Statiske udvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, statisk
-so.topic: concept
+topic: concept
 language: da
 ---
 

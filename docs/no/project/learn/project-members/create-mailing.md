@@ -3,9 +3,9 @@ uid: help-no-project-mail-merge
 title: Utføre brevfletting på prosjekter
 description: Utføre brevfletting på prosjekter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, deltaker, utsendelse, dokument
-so.topic: howto
+topic: howto
 language: no
 ---
 

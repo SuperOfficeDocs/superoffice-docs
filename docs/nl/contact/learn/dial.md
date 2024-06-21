@@ -3,9 +3,9 @@ uid: help-nl-contact-dial
 title: Contactpersonen bellen
 description: Contactpersonen bellen; Telefoonvoorkeuren
 author: SuperOffice RnD
-so.date: 09.22.2023
+date: 09.22.2023
 keywords: agenda, vervolgactiviteit,  telefoon, bellen, bellen
-so.topic: howto
+topic: howto
 language: nl
 ---
 

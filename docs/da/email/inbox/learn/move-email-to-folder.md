@@ -3,9 +3,9 @@ uid: help-da-email-inbox-move-to-folder
 title: Flyt e-mail til mappe
 description: Sådan flyttes en e-mail til en mappe
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

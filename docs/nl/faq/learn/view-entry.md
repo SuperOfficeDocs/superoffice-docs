@@ -3,11 +3,11 @@ uid: help-nl-faq-view-entry
 title: Items in Veelgestelde vragen weergeven
 description: Items in Veelgestelde vragen weergeven
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Veelgestelde vragen
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

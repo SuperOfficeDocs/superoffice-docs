@@ -3,9 +3,9 @@ uid: help-sv-chat-create-quick-reply
 title: Skapa ett snabbsvar
 description: Skapa ett snabbsvar
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: sv
 ---
 

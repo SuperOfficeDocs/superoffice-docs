@@ -3,9 +3,9 @@ uid: help-no-dashboard-tile-sales-targets
 title: Bruke salgsmål i figurer
 description: Bruke dashbord og figurer til å sammenligne salgsmålene med det faktiske salget.
 author: SuperOffice RnD
-so.date: 12.13.2022
+date: 12.13.2022
 keywords: dashbord, salg, mål, diagram
-so.topic: howto
+topic: howto
 language: no
 ---
 

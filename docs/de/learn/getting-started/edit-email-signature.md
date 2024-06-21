@@ -4,12 +4,12 @@ title: Signaturen bearbeiten
 description: E-Mail-Signatur oder Anfrage-Signatur bearbeiten
 keywords: E-Mail, Signatur
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.2.8
-so.topic: howto
+date: 06.11.2024
+version: 10.2.8
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Signaturen bearbeiten

@@ -3,9 +3,9 @@ uid: help-no-project-screen
 title: Prosjekt-bildet
 description: Prosjekt-bildet i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt
-so.topic: reference
+topic: reference
 language: no
 ---
 

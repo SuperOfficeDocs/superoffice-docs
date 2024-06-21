@@ -3,12 +3,12 @@ uid: help-no-win-client
 title: Innstillinger for Windows-klient
 description: Innstillinger for Windows-klient
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-so.topic: concept
+topic: concept
 language: no
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Innstillinger for Windows-klient

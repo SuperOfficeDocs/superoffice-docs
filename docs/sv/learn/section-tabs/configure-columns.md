@@ -3,9 +3,9 @@ uid: help-sv-section-tabs-configure
 title: Ändrar kolumnvisningen
 description: Ändrar kolumnvisningen
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: detaljkort, arkiv, kolumn
-so.topic: howto
+topic: howto
 language: sv
 ---
 

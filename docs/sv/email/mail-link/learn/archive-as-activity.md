@@ -3,9 +3,9 @@ uid: help-sv-mail-link-archive-as-activity
 title: Arkivera e-postmeddelande som en aktivitet
 description: "Genom att spara ett e-postmeddelande direkt som en uppgift, ett möte eller ett telefonsamtal i din SuperOffice-kalender ser du till att du aldrig glömmer att följa upp en kund eller fråga."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail Link, e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

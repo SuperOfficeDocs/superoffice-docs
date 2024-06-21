@@ -3,9 +3,9 @@ uid: help-no-create-request
 title: Opprett sak
 description: Opprett sak
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: E-post
-so.topic: help
+topic: help
 language: no
 ---
 

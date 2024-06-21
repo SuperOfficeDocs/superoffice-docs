@@ -3,9 +3,9 @@ uid: help-nl-diary-other
 title: Een andere agenda weergeven
 description: Bekijk andermans agenda.
 author: Bergfrid Dias
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: agenda, vervolgactiviteit, bron, eigenaar
-so.topic: howto
+topic: howto
 language: nl
 ---
 

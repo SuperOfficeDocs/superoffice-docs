@@ -3,9 +3,9 @@ uid: help-de-company-screen-requests
 title: Registerkarte Anfragen
 description: Registerkarte Anfragen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma, Anfrage
-so.topic: reference
+topic: reference
 language: de
 ---
 

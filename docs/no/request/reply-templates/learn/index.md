@@ -3,11 +3,11 @@ uid: help-no-reply-template
 title: Arbeide med svarmaler
 description: Arbeide med svarmaler
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sak
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: user
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

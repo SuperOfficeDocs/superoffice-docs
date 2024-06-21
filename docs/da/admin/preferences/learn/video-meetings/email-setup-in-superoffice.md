@@ -3,9 +3,9 @@ uid: help-da-video-meetings-email-setup
 title: E-mailopsætning til videomøder
 description: E-mailopsætning til videomøder
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: videomøde
-so.topic: howto
+topic: howto
 language: da
 ---
 

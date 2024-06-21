@@ -3,9 +3,9 @@ uid: help-da-customer-center-edit
 title: Kundecenter-kildefiler
 description: Kundecenter-kildefiler
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Kundecenter, CEP
-so.topic: howto
+topic: howto
 language: da
 ---
 

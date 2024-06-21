@@ -3,9 +3,9 @@ uid: help-de-section-tabs-filter
 title: Bereichsregisterkarten filtern
 description: Wie man Filter in den Bereichsregisterkarten verwendet.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: Bereichsregisterkarte, Filtern
-so.topic: howto
+topic: howto
 language: de
 ---
 

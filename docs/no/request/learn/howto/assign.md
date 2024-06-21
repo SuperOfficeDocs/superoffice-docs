@@ -4,12 +4,12 @@ title: Fordelingsmetode
 description: Fordelingsmetoder for saker
 keywords: sak
 author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10
+date: 06.11.2024
+version: 10
 language: no
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 ---
 
 # Automatiske fordelingsmetoder for saker

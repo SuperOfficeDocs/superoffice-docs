@@ -3,9 +3,9 @@ uid: help-nl-quote-create
 title: Een offerte maken
 description: "In deze gids leert u hoe u een offerte kunt maken, een product in de offerte kunt toevoegen en bewerken en hoe u een offerte kunt verzenden."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 

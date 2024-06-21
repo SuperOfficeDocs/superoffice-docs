@@ -3,9 +3,9 @@ uid: help-de-section-tabs
 title: Bereichsregisterkarten
 description: Bereichsregisterkarten
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv
-so.topic: concept
+topic: concept
 language: de
 ---
 

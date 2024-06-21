@@ -3,9 +3,9 @@ uid: help-de-contact
 title: Kontaktperson
 description: Eine Personenkarte speichert wertvolle Informationen über Ihre gesamte Kommunikation und Interaktion mit einer Person sowie deren DSGVO-Einwilligungsdokumentation.
 author: Bergfrid Dias
-so.date: 12.14.2022
+date: 12.14.2022
 keywords: person, Person
-so.topic: concept
+topic: concept
 language: de
 ---
 

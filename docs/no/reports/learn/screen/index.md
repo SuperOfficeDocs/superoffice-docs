@@ -3,9 +3,9 @@ uid: help-no-reports-screen
 title: Rapporter-bilde
 description: Rapporter-bilde
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: reference
+topic: reference
 language: no
 ---
 

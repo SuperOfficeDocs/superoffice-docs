@@ -3,9 +3,9 @@ uid: help-sv-document-template
 title: Dokumentmall
 description: Dokumentmall
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

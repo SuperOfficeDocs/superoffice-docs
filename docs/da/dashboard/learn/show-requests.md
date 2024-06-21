@@ -3,11 +3,11 @@ uid: help-da-dashboard-requests
 title: Brug af sager i ruder
 description: "I denne vejledning lærer du, hvordan du får et hurtigt overblik over alle åbne sager i SuperOffice-dashboards."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: dashboard, sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

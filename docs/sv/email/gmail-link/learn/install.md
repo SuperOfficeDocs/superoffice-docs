@@ -3,9 +3,9 @@ uid: help-sv-gmail-link-install
 title: Installera SuperOffice Gmail Link
 description: I den här guiden förklarar vi hur du installerar webbläsartillägget för Gmail.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail-länk, e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

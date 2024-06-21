@@ -3,9 +3,9 @@ uid: help-no-sms-outbox
 title: Utboks for SMS
 description: Utboks for SMS
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Service
-so.topic: reference
+topic: reference
 language: no
 ---
 

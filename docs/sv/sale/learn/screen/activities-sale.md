@@ -3,9 +3,9 @@ uid: help-sv-sale-activities
 title: Detaljkortet Aktiviteter (Försäljning)
 description: Detaljkortet Aktiviteter i fönstret Försäljning i SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: försäljning
-so.topic: reference
+topic: reference
 language: sv
 ---
 

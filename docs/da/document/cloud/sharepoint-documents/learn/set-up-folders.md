@@ -3,9 +3,9 @@ uid: help-da-sharepoint-documents-folders
 title: Sådan konfigureres SharePoint-mapperne
 description: Sådan konfigureres SharePoint-mapperne
 author: Bergfrid Dias
-so.date: 01.15.2024
+date: 01.15.2024
 keywords: dokument, Sharepoint
-so.topic: howto
+topic: howto
 language: da
 ---
 

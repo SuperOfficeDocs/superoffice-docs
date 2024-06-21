@@ -3,9 +3,9 @@ uid: help-nl-sale-create
 title: Een verkoop registreren
 description: Registreer verkopen in SuperOffice Sales om al uw verkoopkansen en klantinformatie op één plek te hebben. Deze gids laat u zien hoe u verkopen kunt registreren in vier eenvoudige stappen.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: verkoop
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-sections-tabs-group
 title: Lijsten groeperen
 description: U kunt een lijst groeperen op een of meer gegevenstypen om een beter overzicht te krijgen van de records op een sectietabblad (archief).
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: sectietabblad, archief
-so.topic: howto
+topic: howto
 language: nl
 ---
 

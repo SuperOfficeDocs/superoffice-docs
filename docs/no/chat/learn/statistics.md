@@ -3,9 +3,9 @@ uid: help-no-chat-statistics
 title: Vise chatstatistikk
 description: I denne guiden lærer du hvordan du viser chattestatistikk både i et dashbord og på Chatsamtale-skjermen.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chat
-so.topic: howto
+topic: howto
 language: no
 ---
 

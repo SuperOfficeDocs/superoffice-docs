@@ -3,11 +3,11 @@ uid: help-de-product-configure
 title: Produkt konfigurieren
 description: "Sie können die Funktionen der Angebotsverwaltung unter Einstellungen und Verwaltung anpassen und konfigurieren, damit sie mit den Namen und Bezeichnungen übereinstimmen, mit denen Ihre Benutzer vertraut sind."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: Produkt, Angebot
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

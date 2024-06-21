@@ -3,13 +3,13 @@ uid: help-da-edit-rights-for-anonymous-users
 title: Redigering af rettigheder for anonyme brugere
 description: Redigering af rettigheder for anonyme brugere
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: brugerstyring, rolle, anonym
-so.topic: howto
+topic: howto
 language: da
-so.envir: onsite
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+envir: onsite
+audience: settings
+audience_tooltip: Settings and maintenance
 ---
 
 # Redigering af rettigheder for anonyme brugere (onsite)

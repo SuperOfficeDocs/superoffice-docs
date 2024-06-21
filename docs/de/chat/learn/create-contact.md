@@ -3,9 +3,9 @@ uid: help-de-chat-create-contact
 title: Neue Person in SuperOffice erstellen
 description: Wie man neue Kunden über einen Chat mit SuperOffice verknüpft.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Chat, Person
-so.topic: howto
+topic: howto
 language: de
 ---
 

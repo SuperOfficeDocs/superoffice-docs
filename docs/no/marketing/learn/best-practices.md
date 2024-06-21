@@ -4,12 +4,12 @@ title: Beste praksis
 description: Beste praksis
 keywords: Markedsføring
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: howto
+date: 05.24.2024
+version: 10.3.5
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Beste praksis

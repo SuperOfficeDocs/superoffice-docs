@@ -3,9 +3,9 @@ uid: help-sv-video-meetings-email-setup
 title: E-postinställningar för videomöten
 description: E-postinställningar för videomöten
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: videomöte
-so.topic: howto
+topic: howto
 language: sv
 ---
 

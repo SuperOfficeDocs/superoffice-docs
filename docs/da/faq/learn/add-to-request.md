@@ -3,11 +3,11 @@ uid: help-da-faq-add-to-request
 title: Tilføjelse af FAQ-poster til meddelelser
 description: Tilføjelse af FAQ-poster til meddelelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

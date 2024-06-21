@@ -3,11 +3,11 @@ uid: help-no-service-global-preferences-customer-centre-password
 title: Passordregler for Kundesenter
 description: Globale preferanser for passordregler for kundesenter
 author: SuperOffice RnD
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Tjeneste, innstillinger
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

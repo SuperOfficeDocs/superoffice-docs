@@ -4,12 +4,12 @@ title: Arbejde med sporede links efter udsendelsen
 description: Arbejde med sporede links efter udsendelsen
 keywords: Marketing, udsendelse, sporede links
 author: Bergfrid Dias
-so.date: 02.26.2024
-so.version: 10
-so.topic: howto
+date: 02.26.2024
+version: 10
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Arbejde med sporede links efter udsendelsen

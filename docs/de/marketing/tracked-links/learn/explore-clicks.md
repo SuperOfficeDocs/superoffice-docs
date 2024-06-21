@@ -4,12 +4,12 @@ title: Nach der Kampagne mit überwachten Links arbeiten
 description: Nach der Kampagne mit überwachten Links arbeiten
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Nach der Kampagne mit überwachten Links arbeiten

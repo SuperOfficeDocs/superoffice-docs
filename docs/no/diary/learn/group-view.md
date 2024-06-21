@@ -3,9 +3,9 @@ uid: help-no-diary-group-view
 title: Gruppeoversikt
 description: Gruppeoversikt; Opprette dagbokvisninger; Dialogboksen Ny gruppeoversikt
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: dagbok, oppfølging, gruppeoversikt
-so.topic: howto
+topic: howto
 language: no
 ---
 

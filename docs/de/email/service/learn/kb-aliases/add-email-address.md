@@ -3,11 +3,11 @@ uid: help-de-mailbox-add
 title: E-Mail-Adressen erstellen
 description: E-Mail-Adressen erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Anfrage, Postfach
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-nl-select-default-follow-up-type-for-status
 title: Standaardtype vervolgactiviteit selecteren voor status
 description: Standaardtype vervolgactiviteit selecteren voor status
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: verkoop, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

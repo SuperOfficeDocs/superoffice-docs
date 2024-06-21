@@ -3,11 +3,11 @@ uid: help-da-request-log
 title: Sagslog
 description: Sagslog
 author: Hanne Gunnarsson
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sag
-so.topic: concept
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: concept
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

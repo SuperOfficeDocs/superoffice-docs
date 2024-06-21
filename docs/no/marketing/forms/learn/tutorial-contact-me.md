@@ -4,12 +4,12 @@ title: Veiledning - hvordan opprette et Kontakt meg skjema
 description: Denne veiledningen forklarer hvordan du oppretter et Kontakt meg skjema i SuperOffice Marketing.
 keywords: skjema, kontakt meg
 author: Bergfrid Dias
-so.date: 02.29.2024
-so.version: 10
-so.topic: tutorial
+date: 02.29.2024
+version: 10
+topic: tutorial
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Hvordan opprette et Kontakt meg skjema

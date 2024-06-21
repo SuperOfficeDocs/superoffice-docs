@@ -3,9 +3,9 @@ uid: help-nl-email-outlook
 title: SuperOffice voor Outlook
 description: "Met de invoegtoepassing SuperOffice voor Outlook kunt u moeiteloos werken tussen uw Microsoft 365- en SuperOffice CRM-oplossing, door u rechtstreeks in uw e-mail toegang te geven tot belangrijke informatie en functies van SuperOffice."
 author: Bergfrid Dias
-so.date: 07.04.2023
+date: 07.04.2023
 keywords: e-mail
-so.topic: concept
+topic: concept
 language: nl
 ---
 

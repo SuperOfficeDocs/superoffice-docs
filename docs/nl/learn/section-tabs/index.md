@@ -3,9 +3,9 @@ uid: help-nl-section-tabs
 title: De sectietabbladen
 description: De sectietabbladen
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: sectietabblad, archief
-so.topic: concept
+topic: concept
 language: nl
 ---
 

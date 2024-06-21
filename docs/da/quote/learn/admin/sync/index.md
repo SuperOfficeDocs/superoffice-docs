@@ -3,13 +3,13 @@ uid: help-da-quote-sync
 title: Sync
 description: Fanen Sync i skærmbilledet Tilbud/Sync.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: tilbud, sync, henvisning, ERP
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
-so.client: web
+client: web
 ---
 
 # Sync

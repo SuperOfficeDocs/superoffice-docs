@@ -3,12 +3,12 @@ uid: help-no-our-companies-manage
 title: Vedlikeholde Våre firmaer
 description: Slik legger du til og fjerner firmaer i fanen Våre firmaer
 author: Bergfrid
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: bruker, våre firmaer
-so.topic: howto
-so.user: admin
+topic: howto
+audience: settings
 language: no
-so.client: web
+client: web
 ---
 
 # Vedlikeholde Våre firmaer

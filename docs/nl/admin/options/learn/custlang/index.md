@@ -3,9 +3,9 @@ uid: help-nl-languages
 title: Klanttalen
 description: Klanttalen
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: taal
-so.topic: concept
+topic: concept
 language: nl
 ---
 

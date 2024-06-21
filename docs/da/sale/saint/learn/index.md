@@ -3,9 +3,9 @@ uid: help-da-saint
 title: Sales Intelligence (SAINT)
 description: "I denne guide lærer du, hvordan SAINT kan skabe fremskridt i dine salgs- og kundeprocesser samt forbedre workflows."
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: firma, SAINT
-so.topic: concept
+topic: concept
 language: da
 ---
 

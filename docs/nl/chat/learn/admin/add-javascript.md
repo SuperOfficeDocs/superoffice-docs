@@ -3,11 +3,11 @@ uid: help-nl-chat-add-javascript
 title: JavaScript voor uw website toevoegen
 description: Live Chat is een populaire manier voor uw klanten en prospects om contact met u op te nemen wanneer ze uw website bezoeken. Deze handleiding laat u zien hoe u een chatwidget aan uw website kunt toevoegen.
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: chatten
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

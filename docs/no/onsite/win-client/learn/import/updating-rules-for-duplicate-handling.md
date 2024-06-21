@@ -3,12 +3,12 @@ uid: help-no-updating-rules-for-duplicate-handling
 title: Oppdatere regler for duplikathåndtering
 description: Oppdatere regler for duplikathåndtering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-so.topic: help
+topic: help
 language: no
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Oppdatere regler for duplikathåndtering

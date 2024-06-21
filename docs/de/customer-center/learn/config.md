@@ -3,9 +3,9 @@ uid: help-de-customer-center-config
 title: Kundenzentrum-Konfiguration
 description: "In dieser Anleitung lernen Sie, wie Sie Ihr Kundenzentrum konfigurieren."
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: Service, Kundenzentrum, CEP
-so.topic: howto
+topic: howto
 language: de
 ---
 

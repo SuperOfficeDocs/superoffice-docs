@@ -3,11 +3,11 @@ uid: help-da-reply-template-create
 title: Oprettelse af svarskabeloner
 description: "Få mere at vide om, hvordan du opretter en svarskabelon, i denne vejledning."
 author: Bergfrid Dias
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: sag, svar, skabelon
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

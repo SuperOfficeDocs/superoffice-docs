@@ -3,9 +3,9 @@ uid: help-sv-adding-items-to-follow-up-type-list
 title: Lägga till poster i listan Händelse – Typ
 description: Lägga till poster i listan Händelse – Typ
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

@@ -3,10 +3,10 @@ uid: help-sv-email-change-default-client
 title: Ändra standardklienten för e-post i SuperOffice
 description: Så ändrar du standardklienten för e-post i SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: e-post, inställningar, e-postklient
 language: sv
-so.topic: howto
+topic: howto
 ---
 
 # Ändra standardklienten för e-post i SuperOffice

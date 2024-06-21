@@ -4,13 +4,13 @@ title: Angi innstillinger for utsendelser
 description: Angi innstillinger for utsendelser
 keywords: Markedsføring, innstillinger
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: reference
+date: 02.12.2024
+version: 10
+topic: reference
 language: no
-so.envir: onsite
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+envir: onsite
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Angi innstillinger for utsendelser

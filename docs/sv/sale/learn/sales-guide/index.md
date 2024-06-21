@@ -3,9 +3,9 @@ uid: help-sv-sales-guide
 title: Säljguide
 description: Säljguiden i SuperOffice CRM är en försäljningsprocess enligt bästa praxis som hjälper dig att arbeta strukturerat och konsekvent.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning, guide, arbetsflöde
-so.topic: concept
+topic: concept
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-senders
 title: Hantera avsändare med inkorgen i SuperOffice
 description: Hantera avsändare med inkorgen i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

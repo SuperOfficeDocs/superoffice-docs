@@ -3,9 +3,9 @@ uid: help-nl-follow-up-send
 title: Vervolgactiviteiten verzenden
 description: Vervolgactiviteiten verzenden
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: agenda, vervolgactiviteit
-so.topic: howto
+topic: howto
 language: nl
 ---
 

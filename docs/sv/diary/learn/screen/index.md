@@ -3,9 +3,9 @@ uid: help-sv-diary-screen
 title: Fönstret Kalender
 description: Fönstret Kalender
 author: SuperOffice RnD
-so.date: 10.02.2023
+date: 10.02.2023
 keywords: kalender, händelse
-so.topic: reference
+topic: reference
 language: sv
 ---
 

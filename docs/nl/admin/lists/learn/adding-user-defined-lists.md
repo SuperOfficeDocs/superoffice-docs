@@ -3,9 +3,9 @@ uid: help-nl-adding-user-defined-lists
 title: Door gebruikers gedefinieerde lijsten toevoegen
 description: Door gebruikers gedefinieerde lijsten toevoegen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

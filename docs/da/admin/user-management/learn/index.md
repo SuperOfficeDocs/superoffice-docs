@@ -3,11 +3,11 @@ uid: help-da-users
 title: Brugere
 description: "Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools."
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: user
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

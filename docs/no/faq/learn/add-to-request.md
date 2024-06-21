@@ -3,11 +3,11 @@ uid: help-no-faq-add-to-request
 title: Legg til FAQ-oppføringer i meldinger
 description: Legg til FAQ-oppføringer i meldinger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: FAQ
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 

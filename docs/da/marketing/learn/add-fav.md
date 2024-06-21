@@ -3,9 +3,9 @@ uid: help-da-marketing-add-fav
 title: Tilføj foretrukken
 description: Tilføj foretrukken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Marketing, foretrukken, udsendelse
-so.topic: howto
+topic: howto
 language: da
 ---
 

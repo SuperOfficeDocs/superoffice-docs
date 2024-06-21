@@ -3,9 +3,9 @@ uid: help-da-import-from-mac-address-book
 title: Import fra Mac-adressebog
 description: Import fra Mac-adressebog
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse, importer
-so.topic: help
+topic: help
 language: da
 ---
 

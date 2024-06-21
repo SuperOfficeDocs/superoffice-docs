@@ -3,9 +3,9 @@ uid: help-de-document-template
 title: Dokumentvorlage
 description: Dokumentvorlage
 author: SuperOffice RnD
-so.date: 03.22.2024
+date: 03.22.2024
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
 

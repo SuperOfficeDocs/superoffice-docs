@@ -3,9 +3,9 @@ uid: help-nl-service-profile-personal
 title: Persoonlijke profielen
 description: Persoonlijke profielen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: profiel, UI
-so.topic: concept
+topic: concept
 language: nl
 ---
 

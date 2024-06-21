@@ -3,9 +3,9 @@ uid: help-no-report-open-from-archive
 title: Åpne rapporter i rapportarkivet
 description: Åpne rapporter i rapportarkivet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: no
 ---
 

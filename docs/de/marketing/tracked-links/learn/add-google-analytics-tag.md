@@ -4,12 +4,12 @@ title: Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt
 description: "In dieser Anleitung lernen Sie, wie Sie Ihre Besucher nachverfolgen können."
 keywords: Marketing, Google Analytics, verfolgen, Kampagne, Aussendung, Datenverfolgungsstrategie
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
-so.topic: howto
+date: 02.27.2024
+version: 10
+topic: howto
 language: de
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt

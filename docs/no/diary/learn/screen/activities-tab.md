@@ -3,9 +3,9 @@ uid: help-no-diary-screen-activities
 title: Detaljkortet Aktiviteter (dagbok)
 description: Detaljkortet Aktiviteter (dagbok)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dagbok, oppfølging
-so.topic: reference
+topic: reference
 language: no
 ---
 

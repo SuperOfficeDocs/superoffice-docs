@@ -3,9 +3,9 @@ uid: help-nl-project-guide-working-with
 title: Werken met projectgidsen
 description: Werken met projectgidsen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, gids
-so.topic: howto
+topic: howto
 language: nl
 ---
 

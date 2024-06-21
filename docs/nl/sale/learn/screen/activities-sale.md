@@ -3,9 +3,9 @@ uid: help-nl-sale-activities
 title: Het sectietabblad Activiteiten (Verkoop)
 description: Het sectietabblad Activiteiten in het scherm Verkoop van SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: reference
+topic: reference
 language: nl
 ---
 

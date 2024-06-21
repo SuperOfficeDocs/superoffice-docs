@@ -3,9 +3,9 @@ uid: help-no-project-delete
 title: Slette et prosjekt
 description: Slik sletter du et prosjekt i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt
-so.topic: howto
+topic: howto
 language: no
 ---
 

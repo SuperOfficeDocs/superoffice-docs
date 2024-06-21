@@ -3,12 +3,12 @@ uid: help-da-updating-rules-for-duplicate-handling
 title: Opdatering af regler for dublethåndtering
 description: Opdatering af regler for dublethåndtering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger for Windows-klient
-so.topic: help
+topic: help
 language: da
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Opdatering af regler for dublethåndtering

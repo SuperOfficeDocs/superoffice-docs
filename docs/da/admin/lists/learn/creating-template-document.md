@@ -3,9 +3,9 @@ uid: help-da-creating-template-document
 title: Oprettelse af et skabelondokument
 description: Oprettelse af et skabelondokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

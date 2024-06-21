@@ -3,9 +3,9 @@ uid: help-da-send-privacy-confirmation-email
 title: Send e-mail med bekræftelse om personbeskyttelse
 description: Send e-mail med bekræftelse om personbeskyttelse
 author: SuperOffice RnD
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: GDPR, samtykke, e-mail, personbeskyttelse
-so.topic: howto
+topic: howto
 language: da
 ---
 

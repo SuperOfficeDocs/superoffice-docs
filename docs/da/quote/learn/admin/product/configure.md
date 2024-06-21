@@ -3,11 +3,11 @@ uid: help-da-product-configure
 title: Konfiguration af produkt
 description: "Du kan tilpasse og konfigurere funktionerne til tilbudshåndtering i Indstillinger og vedligeholdelse, så de svarer til de navne og etiketter, som brugerne kender."
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: produkt, tilbud
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

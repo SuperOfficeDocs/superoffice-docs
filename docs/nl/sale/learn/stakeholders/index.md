@@ -3,9 +3,9 @@ uid: help-nl-sale-stakeholders
 title: Belanghebbenden
 description: Belanghebbenden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop, belanghebbende
-so.topic: concept
+topic: concept
 language: nl
 ---
 

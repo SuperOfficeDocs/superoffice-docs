@@ -3,9 +3,9 @@ uid: help-nl-erp
 title: ERP
 description: ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: concept
+topic: concept
 language: nl
 ---
 

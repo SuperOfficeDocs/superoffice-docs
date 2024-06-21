@@ -3,11 +3,11 @@ uid: help-da-service-settings-system-settings
 title: SuperOffice Service-systemindstillinger
 description: Globale præferencer for SuperOffice Service-systemindstillinger
 author: SuperOffice RnD
-so.date: 03.27.2023
+date: 03.27.2023
 keywords: Tjeneste, indstillinger
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-quote-versions
 title:  Gesendetes Angebot bearbeiten (Versionen)
 description:  Gesendetes Angebot bearbeiten (Versionen)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Angebot
-so.topic: howto
+topic: howto
 language: de
 ---
 

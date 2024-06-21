@@ -3,9 +3,9 @@ uid: help-nl-template-variables
 title: Sjabloonvariabelen
 description: Met sjabloonvariabelen kunt u de invoer van klantgegevens personaliseren en automatiseren
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: document, sjabloon, variable
-so.topic: concept
+topic: concept
 language: nl
 ---
 

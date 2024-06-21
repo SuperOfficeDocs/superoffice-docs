@@ -3,9 +3,9 @@ uid: help-da-selections-dynamic
 title: Dynamiske udvalg
 description: Dynamiske udvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection, dynamisk
-so.topic: concept
+topic: concept
 language: da
 ---
 

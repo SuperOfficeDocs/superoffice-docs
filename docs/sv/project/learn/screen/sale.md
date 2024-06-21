@@ -3,9 +3,9 @@ uid: help-sv-project-screen-sale
 title: Fliken Försäljning
 description: Fliken Försäljning i fönstret Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, försäljning
-so.topic: reference
+topic: reference
 language: sv
 ---
 

@@ -3,9 +3,9 @@ uid: help-de-marketing-add-fav
 title: Favoriten hinzufügen
 description: Favoriten hinzufügen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Marketing, Favorit, Favorit
-so.topic: howto
+topic: howto
 language: de
 ---
 

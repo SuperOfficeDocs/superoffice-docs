@@ -3,9 +3,9 @@ uid: help-de-selection-bulk-update
 title: Massenabgleich der Selektionaufgabe
 description: "Beim Massenabgleich können Sie Details für eine große Gruppe von Personen, Aktivitäten, Verkäufen, Projekten usw. ändern."
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Selektion, Massenabgleich
-so.topic: howto
+topic: howto
 language: de
 ---
 

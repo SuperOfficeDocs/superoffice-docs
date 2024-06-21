@@ -3,9 +3,9 @@ uid: help-no-request-escalation
 title: Eskaleringsnivå
 description: Eskaleringsnivå
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: sak, prioritet, eskalere
-so.topic: howto
+topic: howto
 language: no
 ---
 

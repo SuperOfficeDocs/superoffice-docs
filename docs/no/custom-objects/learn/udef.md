@@ -4,11 +4,11 @@ title: Brukerdefinerte felt
 description: Introduksjon til brukerdefinerte felt i SuperOffice
 keywords: udef, egendefinert, brukerdefinert, felt, felttype
 author: Bergfrid Dias
-so.date: 01.25.2024
+date: 01.25.2024
 so-version: 10
-so.topic: concept
-so.audience: user
-so.audience.tooltip: SuperOffice CRM
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

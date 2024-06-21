@@ -3,9 +3,9 @@ uid: help-nl-replace-existing-template
 title: Bestaande sjabloon vervangen
 description: Bestaande sjabloon vervangen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Instellingen en onderhoud
-so.topic: help
+topic: help
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-erp-connect
 title: Knytte til ERP
 description: Knytte til ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: ERP
-so.topic: howto
+topic: howto
 language: no
 ---
 

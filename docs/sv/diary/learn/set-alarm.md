@@ -3,10 +3,10 @@ uid: help-sv-follow-up-alarms
 title: Ställa in alarm för händelser
 description: Så ställer du in ett alarm för en händelse i SuperOffice.
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: kalender, händelse, alarm, avisering
-so.topic: howto
+topic: howto
 language: sv
 ---
 

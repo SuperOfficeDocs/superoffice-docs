@@ -3,9 +3,9 @@ uid: help-nl-sales-targets
 title: Verkooptargets
 description: De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functionaliteiten in SuperOffice CRM. Met behulp van onze functies voor verkooptargets kunt u uw werkelijke verkopen vergelijken met uw targets.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop
-so.topic: concept
+topic: concept
 language: nl
 ---
 

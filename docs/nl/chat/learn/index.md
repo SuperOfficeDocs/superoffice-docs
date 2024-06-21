@@ -3,9 +3,9 @@ uid: help-nl-chat
 title: Chatten
 description: Communiceer met en help bestaande of potentiële klanten via een chatwidget op uw website.
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: chatten
-so.topic: concept
+topic: concept
 language: nl
 ---
 

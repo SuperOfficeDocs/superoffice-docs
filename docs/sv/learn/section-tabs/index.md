@@ -3,9 +3,9 @@ uid: help-sv-section-tabs
 title: Detaljkorten
 description: Detaljkorten
 author: Bergfrid Dias
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: detaljkort, arkiv
-so.topic: concept
+topic: concept
 language: sv
 ---
 

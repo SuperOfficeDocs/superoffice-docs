@@ -3,9 +3,9 @@ uid: help-sv-company-screen-contacts
 title: Fliken Kontakter
 description: Fliken Kontakter
 author: SuperOffice RnD
-so.date: 05.24.2023
+date: 05.24.2023
 keywords: företag
-so.topic: reference
+topic: reference
 language: sv
 ---
 

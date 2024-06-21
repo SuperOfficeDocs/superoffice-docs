@@ -3,9 +3,9 @@ uid: help-sv-document-create
 title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: dokument
-so.topic: howto
+topic: howto
 language: sv
 ---
 

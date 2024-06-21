@@ -3,11 +3,11 @@ uid: help-sv-project-type-add
 title:  Lägg till en projekttyp
 description: Så lägger du till en projekttyp i SuperOffice.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: projekt, typ
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

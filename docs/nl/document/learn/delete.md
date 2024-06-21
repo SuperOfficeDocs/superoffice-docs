@@ -3,9 +3,9 @@ uid: help-nl-document-delete
 title: Documenten verwijderen
 description: Documenten verwijderen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: document
-so.topic: howto
+topic: howto
 language: nl
 ---
 

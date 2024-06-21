@@ -3,9 +3,9 @@ uid: help-no-project-members
 title: Prosjektdeltakere
 description: Prosjektdeltakere
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, deltaker
-so.topic: concept
+topic: concept
 language: no
 ---
 

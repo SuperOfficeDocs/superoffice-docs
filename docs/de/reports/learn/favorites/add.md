@@ -3,9 +3,9 @@ uid: help-de-report-fav-add
 title: Favoriten hinzufügen
 description: Favoriten hinzufügen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

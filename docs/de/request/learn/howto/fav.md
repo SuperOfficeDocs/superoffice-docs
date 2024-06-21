@@ -3,11 +3,11 @@ uid: help-de-request-fav
 author: Hanne Gunnarsson
 title: Anfragen zur Favoritenliste hinzufügen
 description: Anfragen zur Favoritenliste hinzufügen
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Anfrage, fav
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 

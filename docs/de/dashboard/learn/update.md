@@ -3,9 +3,9 @@ uid: help-de-dashboard-edit
 title: Dashboards bearbeiten
 description: Dashboards bearbeiten
 author: Bergfrid Dias
-so.date: 03.15.2023
+date: 03.15.2023
 keywords: Dashboard, Kachel, Layout
-so.topic: howto
+topic: howto
 language: de
 ---
 

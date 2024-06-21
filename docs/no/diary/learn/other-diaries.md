@@ -3,9 +3,9 @@ uid: help-no-diary-other
 title: Se andres dagbok
 description: Se andres dagbok.
 author: Bergfrid Dias
-so.date: 10.05.2023
+date: 10.05.2023
 keywords: dagbok, oppfølging, ressurs, eier
-so.topic: howto
+topic: howto
 language: no
 ---
 

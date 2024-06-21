@@ -3,9 +3,9 @@ uid: help-sv-contact-screen-requests
 title: Fliken Ärenden
 description: Fliken Ärenden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: reference
+topic: reference
 language: sv
 ---
 

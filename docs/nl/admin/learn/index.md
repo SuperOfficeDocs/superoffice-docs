@@ -3,11 +3,11 @@ uid: help-nl-admin-primer
 title: Overzicht
 description: Inleiding tot het beheer van SuperOffice.
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: beheerder, Instellingen en onderhoud
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 # Overzicht

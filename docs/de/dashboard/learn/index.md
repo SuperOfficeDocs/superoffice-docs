@@ -3,9 +3,9 @@ uid: help-de-dashboard
 title: "Dashboards:"
 description: Richten Sie das SuperOffice Dashboard ein und verwenden Sie vordefinierte Kacheln. Dashboards sind gleichermaßen ideal für alle Benutzer und Manager. Sie erhalten einen Überblick über Ihre individuelle Arbeit oder Ihre Teamleistung.
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Dashboard
-so.topic: concept
+topic: concept
 language: de
 ---
 

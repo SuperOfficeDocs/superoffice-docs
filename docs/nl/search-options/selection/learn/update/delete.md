@@ -3,9 +3,9 @@ uid: help-nl-selection-delete
 title: Selecties verwijderen
 description: Selecties verwijderen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selectie
-so.topic: howto
+topic: howto
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-nl-report-properties
 title: Rapporteigenschappen weergeven
 description: Rapporteigenschappen weergeven
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: rapport
-so.topic: howto
+topic: howto
 language: nl
 ---
 

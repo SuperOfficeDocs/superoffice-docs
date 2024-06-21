@@ -3,9 +3,9 @@ uid: help-da-quote-add-alternative
 title: tilbud tilføj alternativ
 description: "I SuperOffice Quote kan du oprette alternativer til ethvert tilbud, der tilbyder dine kunder forskellige muligheder at vælge imellem. Denne vejledning viser dig, hvordan du opretter alternative tilbud på et forslag."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: tilbud
-so.topic: howto
+topic: howto
 language: da
 ---
 

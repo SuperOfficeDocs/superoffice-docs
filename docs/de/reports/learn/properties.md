@@ -3,9 +3,9 @@ uid: help-de-report-properties
 title: Berichtseigenschaften anzeigen
 description: Berichtseigenschaften anzeigen
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: Bericht
-so.topic: howto
+topic: howto
 language: de
 ---
 

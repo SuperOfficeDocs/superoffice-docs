@@ -3,11 +3,11 @@ uid: help-sv-restore-status
 title: Återskapa borttagen statuswebb
 description: Återskapa borttagen statuswebb
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: försäljning, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 

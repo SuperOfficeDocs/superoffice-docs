@@ -3,9 +3,9 @@ uid: help-de-contact-send-email
 title: E-Mail an eine Person senden
 description: "Das Senden von E-Mails über SuperOffice CRM macht es einfacher, all Ihre Kundenkommunikation an einem Ort zu teilen und zu speichern."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: person, Person
-so.topic: howto
+topic: howto
 language: de
 ---
 

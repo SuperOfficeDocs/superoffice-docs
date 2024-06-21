@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-mark-as-read
 title: Markera e-postmeddelanden som lästa eller olästa
 description: Markera e-postmeddelanden som lästa eller olästa
 author: SuperOffice RnD
-so.date: 03.16.2023
+date: 03.16.2023
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

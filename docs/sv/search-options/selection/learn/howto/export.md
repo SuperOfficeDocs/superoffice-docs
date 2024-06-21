@@ -3,9 +3,9 @@ uid: help-sv-selection-export
 title: Exportera urval
 description: Så här exporterar du ett urval till Excel eller en fil.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selection, export, Excel
-so.topic: howto
+topic: howto
 language: sv
 ---
 

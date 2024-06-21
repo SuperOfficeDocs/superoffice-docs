@@ -3,9 +3,9 @@ uid: help-de-diary
 title: Kalender
 description: "Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Diese Anleitungen helfen Ihnen, die Arbeit mit dem Kalender zu erlernen."
 author: Bergfrid Dias
-so.date: 10.03.2023
+date: 10.03.2023
 keywords: Kalender
-so.topic: concept
+topic: concept
 language: de
 ---
 

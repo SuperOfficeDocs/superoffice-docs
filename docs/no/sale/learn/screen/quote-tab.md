@@ -3,9 +3,9 @@ uid: help-no-sale-screen-quote-tab
 title: Tilbud (detaljkort i Salg)
 description: Tilbud (detaljkort i Salg)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: salg, tilbud
-so.topic: reference
+topic: reference
 language: no
 ---
 

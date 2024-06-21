@@ -3,9 +3,9 @@ uid: help-de-ui-side-panel
 title: Seitenleiste für eine effizientere Arbeit verwenden
 description: "Über die Seitenleiste erhalten Sie Zugriff auf Informationen, die in anderen Teilen von SuperOffice CRM gespeichert sind, ohne die Ansicht zu verlassen, auf dem Sie sich befinden."
 author: Bergfrid Dias
-so.date: 03.02.2023
+date: 03.02.2023
 keywords: Seitenleiste
-so.topic: concept
+topic: concept
 language: de
 ---
 

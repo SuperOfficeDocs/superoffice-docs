@@ -3,9 +3,9 @@ uid: help-da-project-link-add
 title: Tilføjelse af links fra skærmbilledet Projekt
 description: Tilføjelse af links fra skærmbilledet Projekt
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt
-so.topic: howto
+topic: howto
 language: da
 ---
 

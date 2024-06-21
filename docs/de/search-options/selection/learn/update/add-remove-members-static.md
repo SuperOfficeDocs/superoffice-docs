@@ -3,9 +3,9 @@ uid: help-de-selection-static-members
 title: Mitglieder zu/von statischen Selektionen hinzufügen und entfernen
 description: Wie man Mitglieder in statistischen Selektionen verwaltet.
 author: Bergfrid Dias
-so.date: 03.08.2023
+date: 03.08.2023
 keywords: Selektion, Mitglied
-so.topic: howto
+topic: howto
 language: de
 ---
 

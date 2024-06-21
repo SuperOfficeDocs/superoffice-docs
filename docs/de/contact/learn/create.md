@@ -3,9 +3,9 @@ uid: help-de-contact-create
 title: Person erstellen
 description: Wie man eine Person in SuperOffice erstellt.
 author: SuperOffice RnD
-so.date: 12.15.2022
+date: 12.15.2022
 keywords: person, Person
-so.topic: howto
+topic: howto
 language: de
 ---
 

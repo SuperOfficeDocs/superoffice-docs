@@ -4,12 +4,12 @@ title: Træk og slip-editor
 description: Træk og slip-editor
 keywords: marketing, editor, skabelonvariabler, fletfelter
 author: SuperOffice RnD
-so.date: 02.07.2024
-so.version: 10
-so.topic: concept
+date: 02.07.2024
+version: 10
+topic: concept
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Træk og slip-editor

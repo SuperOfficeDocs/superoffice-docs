@@ -3,9 +3,9 @@ uid: help-de-dashboard-create
 title: Neues Dashboard erstellen
 description: "Erstellen Sie mehrere Dashboards, um sich einen besseren Einblick in Ihre CRM-Daten zu schaffen. In dieser Anleitung lernen Sie, wie Sie neue Dashboard-Registerkarten erstellen."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Dashboard
-so.topic: howto
+topic: howto
 language: de
 ---
 

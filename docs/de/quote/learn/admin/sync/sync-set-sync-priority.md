@@ -3,11 +3,11 @@ uid: help-de-sync-set-sync-priority
 title: Sync-Priorität festlegen synchronisieren
 description: Sync-Priorität festlegen synchronisieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Angebot, Sync, Connector, ERP, Priorität
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

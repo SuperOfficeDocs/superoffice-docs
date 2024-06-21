@@ -3,10 +3,10 @@ uid: help-nl-follow-up-move
 title: Vervolgactiviteiten verplaatsen
 description: Vervolgactiviteiten verplaatsen
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: agenda, vervolgactiviteit
-so.topic: howto
+topic: howto
 language: nl
 ---
 

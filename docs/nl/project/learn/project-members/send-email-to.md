@@ -3,9 +3,9 @@ uid: help-nl-project-member-email
 title: E-mail versturen naar projectleden
 description: E-mail verzenden naar belanghebbenden of projectleden
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project, lid, belanghebbende, e-mail
-so.topic: howto
+topic: howto
 language: nl
 ---
 

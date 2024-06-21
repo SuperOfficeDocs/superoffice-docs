@@ -3,9 +3,9 @@ uid: help-nl-chat-create-quick-reply
 title: Een snel antwoord maken
 description: Een snel antwoord maken
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: nl
 ---
 

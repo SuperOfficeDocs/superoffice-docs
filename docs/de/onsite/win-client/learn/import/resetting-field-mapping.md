@@ -3,12 +3,12 @@ uid: help-de-resetting-field-mapping
 title: Feldzuordnung zurücksetzen
 description: Feldzuordnung zurücksetzen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen für den Windows-Client
-so.topic: help
+topic: help
 language: de
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Feldzuordnung zurücksetzen

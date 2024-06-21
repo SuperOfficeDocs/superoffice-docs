@@ -3,11 +3,11 @@ uid: help-da-preferences
 title: Præferencer
 description: "Administratorer kan indstille præferencer for forskellige funktioner i systemet for bestemte brugere, brugergrupper eller for hele SuperOffice CRM (globale præferencer)."
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: indstillinger, præferencer
-so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

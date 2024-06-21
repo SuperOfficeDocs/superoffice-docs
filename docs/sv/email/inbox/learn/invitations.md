@@ -3,9 +3,9 @@ uid: help-sv-email-inbox-invitations
 title: Få en förfrågan
 description: Få en förfrågan
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: howto
+topic: howto
 language: sv
 ---
 

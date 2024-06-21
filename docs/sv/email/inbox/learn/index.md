@@ -3,9 +3,9 @@ uid: help-sv-email-inbox
 title: Inkorgen i SuperOffice
 description: Inkorgen i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: e-post
-so.topic: concept
+topic: concept
 language: sv
 ---
 

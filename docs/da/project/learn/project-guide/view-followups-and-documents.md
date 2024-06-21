@@ -3,9 +3,9 @@ uid: help-da-view-followups-and-documents
 title: Visning af opfølgninger og dokumenter
 description: Visning af opfølgninger og dokumenter
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: CRM
-so.topic: howto
+topic: howto
 language: da
 ---
 

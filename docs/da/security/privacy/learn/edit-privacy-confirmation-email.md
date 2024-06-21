@@ -3,11 +3,11 @@ uid: help-da-edit-privacy-confirmation-email
 title: Rediger e-mail med bekræftelse om personbeskyttelse
 description: "I denne vejledning lærer du, hvordan du redigerer e-mailen med bekræftelse om personbeskyttelse."
 author: Bergfrid Dias
-so.date: 03.23.2023
+date: 03.23.2023
 keywords: GDPR, samtykke, e-mail, skabelon
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

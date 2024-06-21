@@ -3,9 +3,9 @@ uid: help-no-dashboard-tile-edit
 title: Redigere en figur
 description: Redigere en figur
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: dashbord
-so.topic: howto
+topic: howto
 language: no
 ---
 

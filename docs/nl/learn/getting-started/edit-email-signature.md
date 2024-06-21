@@ -4,12 +4,12 @@ title: Handtekening bewerken
 description: E-mail-handtekening of Verzoekhandtekening bewerken
 keywords: e-mail, handtekening
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.2.8
-so.topic: howto
+date: 06.11.2024
+version: 10.2.8
+topic: howto
 language: nl
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Handtekeningen bewerken

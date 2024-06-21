@@ -3,9 +3,9 @@ uid: help-no-project-member-add
 title: Legg til prosjektdeltaker
 description: Slik legger du til en prosjektdeltaker i SuperOffice
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt, deltaker
-so.topic: howto
+topic: howto
 language: no
 ---
 

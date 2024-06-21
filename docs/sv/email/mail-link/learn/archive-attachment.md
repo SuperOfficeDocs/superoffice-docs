@@ -3,9 +3,9 @@ uid: help-sv-mail-link-archive-attachment
 title: Arkivera bifogade filer
 description: Om du vill spara en e-postbilaga men inte själva e-postmeddelandet i SuperOffice CRM kan du arkivera bilagan som ett dokument.
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Mail Link, e-post, bilaga
-so.topic: howto
+topic: howto
 language: sv
 ---
 

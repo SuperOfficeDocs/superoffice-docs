@@ -3,9 +3,9 @@ uid: help-sv-languages
 title: Kundspråk
 description: Kundspråk
 author: Bergfrid Dias
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: språk
-so.topic: concept
+topic: concept
 language: sv
 ---
 

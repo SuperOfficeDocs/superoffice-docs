@@ -3,11 +3,11 @@ uid: help-da-stopwords
 title: Stopord
 description: Stopord
 author: Bergfrid Dias
-so.date: 03.21.2023
+date: 03.21.2023
 keywords: fritekst, søge, stopord
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

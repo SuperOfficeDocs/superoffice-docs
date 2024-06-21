@@ -4,13 +4,13 @@ title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-so.date: 06.11.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.11.2024
+version: 10.3.7
+topic: howto
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Definer flythandlinger

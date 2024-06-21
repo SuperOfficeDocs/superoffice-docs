@@ -3,9 +3,9 @@ uid: help-nl-project-screen-activities
 title: Tabblad Activiteiten
 description: Het tabblad Activiteiten in het venster Project
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: reference
+topic: reference
 language: nl
 ---
 

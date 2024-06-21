@@ -3,10 +3,10 @@ uid: help-da-request-reply-mobile
 title: Svar på en sag fra din mobile enhed
 description: "I denne vejledning lærer du, hvordan du besvarer en sag i Mobile CRM."
 author: Bergfrid Dias
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: sag, mobil
-so.topic: howto
-so.client: mobile
+topic: howto
+client: mobile
 language: da
 ---
 

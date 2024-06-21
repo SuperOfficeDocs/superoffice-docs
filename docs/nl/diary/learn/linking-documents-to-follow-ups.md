@@ -3,10 +3,10 @@ uid: help-nl-activity-add-link
 title: Documenten koppelen aan vervolgactiviteiten
 description: Documenten koppelen aan vervolgactiviteiten
 author: SuperOffice RnD
-so.date: 05.21.2024
-so.version: 10.3.6
+date: 05.21.2024
+version: 10.3.6
 keywords: CRM
-so.topic: howto
+topic: howto
 language: nl
 ---
 

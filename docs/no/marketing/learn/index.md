@@ -4,12 +4,12 @@ title: SuperOffice Marketing
 description: "Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet."
 keywords: Markedsføring
 author: SuperOffice RnD
-so.date: 05.24.2024
-so.version: 10.3.5
-so.topic: concept
+date: 05.24.2024
+version: 10.3.5
+topic: concept
 language: no
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing

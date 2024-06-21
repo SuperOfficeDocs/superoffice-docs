@@ -3,9 +3,9 @@ uid: help-de-ai-text-analysis
 title: AIext-Analyse
 description: KI-Textanalyse
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: KI
-so.topic: concept
+topic: concept
 language: de
 ---
 

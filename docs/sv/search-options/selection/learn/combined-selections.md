@@ -3,9 +3,9 @@ uid: help-sv-selection-combined
 title: Kombinerade urval
 description: Kombinerade urval
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: concept
+topic: concept
 language: sv
 ---
 

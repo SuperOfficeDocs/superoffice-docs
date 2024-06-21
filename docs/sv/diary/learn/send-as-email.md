@@ -3,9 +3,9 @@ uid: help-sv-follow-up-send
 title: Skicka händelser
 description: Skicka händelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: kalender, händelse
-so.topic: howto
+topic: howto
 language: sv
 ---
 

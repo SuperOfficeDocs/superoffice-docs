@@ -3,9 +3,9 @@ uid: help-da-contact-screen-relations
 title: Fanen Relationer (skærmbilledet Person)
 description: Fanen Relationer (skærmbilledet Person)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: person, contact
-so.topic: reference
+topic: reference
 language: da
 ---
 

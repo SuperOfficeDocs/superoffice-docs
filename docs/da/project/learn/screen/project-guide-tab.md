@@ -3,9 +3,9 @@ uid: help-da-project-screen-tab-guide
 title: Detaljekortet Projektguide
 description: Detaljekortet Projektguide
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: projekt, guide
-so.topic: reference
+topic: reference
 language: da
 ---
 

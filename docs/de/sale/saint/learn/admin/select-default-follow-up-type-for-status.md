@@ -3,11 +3,11 @@ uid: help-de-select-default-follow-up-type-for-status
 title: Standardfolgeaufgabe für Status auswählen
 description: Standardfolgeaufgabe für Status auswählen
 author: SuperOffice RnD
-so.date: 02.22.2023
+date: 02.22.2023
 keywords: Verkauf, SAINT
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 

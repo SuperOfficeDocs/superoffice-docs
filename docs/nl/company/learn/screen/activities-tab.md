@@ -3,9 +3,9 @@ uid: help-nl-company-screen-activities
 title: Tabblad Activiteiten (scherm Bedrijf)
 description: Tabblad Activiteiten (scherm Bedrijf)
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: bedrijf
-so.topic: reference
+topic: reference
 language: nl
 ---
 

@@ -3,12 +3,12 @@ uid: help-no-update-database
 title: Oppdatere databasen
 description: Oppdatere databasen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-so.topic: help
+topic: help
 language: no
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Oppdatere informasjon i databasen

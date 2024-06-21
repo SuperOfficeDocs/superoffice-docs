@@ -3,9 +3,9 @@ uid: help-de-import-from-gmail
 title: Aus Gmail importieren
 description: Aus Gmail importieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung, Importieren
-so.topic: help
+topic: help
 language: de
 ---
 

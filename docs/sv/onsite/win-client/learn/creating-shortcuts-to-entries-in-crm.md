@@ -3,9 +3,9 @@ uid: help-sv-creating-shortcuts-to-entries-in-crm
 title: Skapa genvägar till poster i CRM
 description: Skapa genvägar till poster i CRM
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag
-so.topic: help
+topic: help
 language: sv
 ---
 

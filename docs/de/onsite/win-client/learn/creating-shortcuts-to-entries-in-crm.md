@@ -3,9 +3,9 @@ uid: help-de-creating-shortcuts-to-entries-in-crm
 title: Shortcuts zu Einträgen in CRM erstellen
 description: Shortcuts zu Einträgen in CRM erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Firma
-so.topic: help
+topic: help
 language: de
 ---
 

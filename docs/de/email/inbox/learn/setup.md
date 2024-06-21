@@ -3,9 +3,9 @@ uid: help-de-email-inbox-setup
 title: SuperOffice Posteingang einrichten
 description: "Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit Ihrem SuperOffice CRM für E-Mail-Clients zu verbinden, die nicht über WebTools verbunden werden können. Lernen Sie, wie Sie ihn einrichten und zum ersten Mal einloggen."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: E-Mail, E-Mail
-so.topic: howto
+topic: howto
 language: de
 ---
 

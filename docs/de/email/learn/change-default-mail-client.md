@@ -3,10 +3,10 @@ uid: help-de-email-change-default-client
 title: Standard-E-Mail-Client in SuperOffice ändern
 description: Wie man einen Standard-E-Mail-Client in SuperOffice ändert
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: E-Mail, Einstellungen, E-Mail-Client
 language: de
-so.topic: howto
+topic: howto
 ---
 
 # Standard-E-Mail-Client in SuperOffice ändern

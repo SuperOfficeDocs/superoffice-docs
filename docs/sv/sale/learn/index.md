@@ -3,9 +3,9 @@ uid: help-sv-sale
 title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: försäljning
-so.topic: concept
+topic: concept
 language: sv
 ---
 

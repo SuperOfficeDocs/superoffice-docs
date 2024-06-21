@@ -3,11 +3,11 @@ uid: help-no-configure-video-meetings
 title: Konfigurere videomøter
 description: Konfigurere videomøter
 author: SuperOffice RnD
-so.date: 03.20.2023
+date: 03.20.2023
 keywords: Videomøte, invitasjon
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

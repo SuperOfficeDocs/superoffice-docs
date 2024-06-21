@@ -3,11 +3,11 @@ uid: help-sv-request-next-in-queue
 title: Hämta nästa ärende i kön
 description: Hämta nästa ärende i kön
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: ärende
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 

@@ -3,14 +3,14 @@ uid: help-de-user-import
 title: Benutzer importieren
 description: Benutzer aus Active Directory importieren
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: user, Importieren, Mitarbeiter, Active Directory, Masse
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
-so.envir: onsite
-so.client: web
+envir: onsite
+client: web
 ---
 
 # Benutzer importieren

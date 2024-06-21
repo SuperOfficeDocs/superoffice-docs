@@ -4,13 +4,13 @@ title: Skapa ett nytt flöde
 description: Hur man skapar ett nytt flöde och definierar flödesinställningar i SuperOffice Marketing
 keywords: flöde, Flödesredigerare, flödesfält, trigger, flödeskontroll, exkluderingslista, prenumerationstyp, tidsram, framgångskriterier, väntetid, vänta på åtgärd, flödesschem, kontaktfilter
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 06.14.2024
-so.version: 10.3.7
-so.topic: howto
+date: 06.14.2024
+version: 10.3.7
+topic: howto
 language: sv
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
-so.pilot: yes
+audience: person
+audience_tooltip: SuperOffice Marketing
+pilot: yes
 ---
 
 # Skapa ett nytt flöde

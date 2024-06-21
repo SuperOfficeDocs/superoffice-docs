@@ -3,9 +3,9 @@ uid: help-no-selection-print-labels
 title: Skrive ut etiketter Utvalg
 description: Skrive ut etiketter Utvalg
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

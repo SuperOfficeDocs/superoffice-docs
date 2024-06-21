@@ -3,9 +3,9 @@ uid: help-da-mailings-resend
 title: Genudsende din mailing
 description: "Når du har håndteret de afviste e-mails, er det en god ide at genudsende din e-mailudsendelse."
 author: Bergfrid Dias
-so.date: 02.21.2023
+date: 02.21.2023
 keywords: Marketing
-so.topic: howto
+topic: howto
 language: da
 ---
 

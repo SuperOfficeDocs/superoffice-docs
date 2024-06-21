@@ -3,11 +3,11 @@ uid: help-da-adding-items-to-web-panel-list
 title: Tilføjelse af forekomster på webpanellisten
 description: Tilføjelse af forekomster på webpanellisten
 author: SuperOffice RnD
-so.date: 01.20.2023
+date: 01.20.2023
 keywords: liste, webpanel
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

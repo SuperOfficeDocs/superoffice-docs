@@ -3,9 +3,9 @@ uid: help-nl-selection-export
 title: Selectie exporteren
 description: Een selectie exporteren naar Excel of een bestand.
 author: Bergfrid Dias
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: selectie, exporteren, Excel
-so.topic: howto
+topic: howto
 language: nl
 ---
 

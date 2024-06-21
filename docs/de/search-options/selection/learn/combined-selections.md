@@ -3,9 +3,9 @@ uid: help-de-selection-combined
 title: Kombinierte Selektionen
 description: Kombinierte Selektionen
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Selektion
-so.topic: concept
+topic: concept
 language: de
 ---
 

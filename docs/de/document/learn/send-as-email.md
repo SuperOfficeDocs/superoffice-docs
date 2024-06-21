@@ -3,9 +3,9 @@ uid: help-de-document-send
 title: Dokument als E-Mail senden
 description: "Dokumente, die in SuperOffice CRM als Anhänge in E-Mails gespeichert sind, können schnell und einfach gesendet werden."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Dokument, E-Mail, Anlage
-so.topic: howto
+topic: howto
 language: de
 ---
 

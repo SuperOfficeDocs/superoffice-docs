@@ -3,10 +3,10 @@ uid: help-nl-video-meetings
 title: Werken met videovergaderingen
 description: Lees hier hoe u een videovergadering in SuperOffice kunt maken en eraan kunt deelnemen.
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: agenda, vervolgactiviteit, videovergadering
-so.topic: howto
+topic: howto
 language: nl
 ---
 

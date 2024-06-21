@@ -3,12 +3,12 @@ uid: help-da-activity-send-email
 title: Besvare eller videresende e-mail fra detaljekortet Aktiviteter
 description: Besvare eller videresende e-mail fra detaljekortet Aktiviteter
 author: Bergfrid Dias
-so.date: 09.21.2023
+date: 09.21.2023
 keywords: firma
-so.topic: howto
+topic: howto
 language: da
-so.audience: person
-so.audience.tooltip: SuperOffice CRM
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Besvare eller videresende e-mail fra detaljekortet Aktiviteter

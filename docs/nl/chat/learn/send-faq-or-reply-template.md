@@ -3,9 +3,9 @@ uid: help-nl-chat-send-faq-or-reply-template
 title: "Veelgestelde vragen, antwoordsjablonen en snelle antwoorden verzenden"
 description: "Veelgestelde vragen, antwoordsjablonen en snelle antwoorden verzenden"
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: chatten
-so.topic: howto
+topic: howto
 language: nl
 ---
 

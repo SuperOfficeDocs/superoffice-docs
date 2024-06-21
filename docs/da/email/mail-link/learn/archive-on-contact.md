@@ -3,9 +3,9 @@ uid: help-da-mail-link-archive-on-contact
 title: Sådan arkiveres e-mails på firmaer/personer
 description: Sådan arkiveres e-mails på firmaer/personer
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: Mail Link, e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

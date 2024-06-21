@@ -3,9 +3,9 @@ uid: help-de-service-mailboxes-in
 title: Posteingang für E-Mail
 description: Posteingang für E-Mail
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: E-Mail
-so.topic: reference
+topic: reference
 language: de
 ---
 

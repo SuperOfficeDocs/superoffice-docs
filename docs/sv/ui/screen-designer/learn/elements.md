@@ -3,9 +3,9 @@ uid: help-sv-screen-designer-elements
 title: Objekt i skärmdesignern
 description: Objekt i skärmdesignern
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Inställningar och underhåll
-so.topic: help
+topic: help
 language: sv
 ---
 

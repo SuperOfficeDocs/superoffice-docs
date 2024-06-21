@@ -3,9 +3,9 @@ uid: help-nl-quote-dialog-edit
 title: Het dialoogvenster Offerte bewerken
 description: Het dialoogvenster Offerte bewerken
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: verkoop, offerte
-so.topic: reference
+topic: reference
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-selection-delete
 title: Slette utvalg
 description: Slette utvalg
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: utvalg
-so.topic: howto
+topic: howto
 language: no
 ---
 

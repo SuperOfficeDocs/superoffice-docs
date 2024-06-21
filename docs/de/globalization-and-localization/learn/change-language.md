@@ -3,9 +3,9 @@ uid: help-de-language-change
 title: Aktive Sprache ändern
 description: Aktive Sprache ändern
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Sprache
-so.topic: howto
+topic: howto
 language: de
 ---
 

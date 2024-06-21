@@ -3,9 +3,9 @@ uid: help-de-chat-send-files
 title:  Dateien in einem Chat senden
 description:  Dateien in einem Chat senden
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Chat
-so.topic: howto
+topic: howto
 language: de
 ---
 

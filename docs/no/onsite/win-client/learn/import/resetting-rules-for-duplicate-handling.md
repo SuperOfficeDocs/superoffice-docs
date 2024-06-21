@@ -3,12 +3,12 @@ uid: help-no-resetting-rules-for-duplicate-handling
 title: Tilbakestille regler for duplikathåndtering
 description: Tilbakestille regler for duplikathåndtering
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Innstillinger for Windows-klient
-so.topic: help
+topic: help
 language: no
-so.client: win
-so.envir: onsite
+client: win
+envir: onsite
 ---
 
 # Tilbakestille én eller alle regler for duplikathåndtering

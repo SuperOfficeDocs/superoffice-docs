@@ -3,9 +3,9 @@ uid: help-no-diary-print
 title: Skrive ut oppfølginger og dagbokfaner
 description: Skrive ut oppfølginger og dagbokfaner
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dagbok, oppfølging
-so.topic: howto
+topic: howto
 language: no
 ---
 

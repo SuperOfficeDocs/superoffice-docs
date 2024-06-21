@@ -3,9 +3,9 @@ uid: help-de-parameter-examples
 title: Parameterbeispiele
 description: Parameterbeispiele
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Einstellungen und Verwaltung
-so.topic: help
+topic: help
 language: de
 ---
 

@@ -3,11 +3,11 @@ uid: help-no-project-guide-create
 title: Opprette ny prosjektguide
 description: Slik lager du en ny prosjektguide i SuperOffice
 author: SuperOffice RnD
-so.date: 02.23.2023
+date: 02.23.2023
 keywords: prosjekt, guide, arbeidsflyt
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 
 language: no
 ---

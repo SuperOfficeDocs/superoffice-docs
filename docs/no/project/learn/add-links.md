@@ -3,9 +3,9 @@ uid: help-no-project-link-add
 title: Legge til koblinger fra Prosjekt-bildet
 description: Legge til koblinger fra Prosjekt-bildet
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: prosjekt
-so.topic: howto
+topic: howto
 language: no
 ---
 

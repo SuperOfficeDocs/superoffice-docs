@@ -3,11 +3,11 @@ uid: help-nl-service-global-preferences-customer-centre-password
 title: Wachtwoordbeleid voor het Customer Centre
 description: Algemene voorkeuren voor het wachtwoordbeleid van het Customer Centre
 author: SuperOffice RnD
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Service, instellingen
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: help
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

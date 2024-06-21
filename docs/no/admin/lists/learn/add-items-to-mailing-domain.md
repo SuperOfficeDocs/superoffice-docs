@@ -3,11 +3,11 @@ uid: help-no-add-items-to-mailing-domain
 title: Legge til elementer i domene for utsendelser
 description: Legge til elementer i listen over domene for utsendelser
 author: Hanne Gunnarsson
-so.date: 03.14.2023
+date: 03.14.2023
 keywords: utsendelse, domene, SPF
-so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 

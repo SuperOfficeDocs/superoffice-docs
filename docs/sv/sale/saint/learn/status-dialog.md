@@ -3,9 +3,9 @@ uid: help-sv-status-dialog
 title: Statusdialogruta
 description: Statusdialogruta
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: företag, SAINT
-so.topic: reference
+topic: reference
 language: sv
 ---
 

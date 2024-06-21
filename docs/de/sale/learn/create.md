@@ -3,9 +3,9 @@ uid: help-de-sale-create
 title: Verkauf erfassen
 description: "Erfassen Sie die Verkäufe in SuperOffice-Verkäufe, um alle Ihre Verkaufschancen und Kundeninformationen an einem Ort zu haben. Diese Anleitung zeigt Ihnen, wie Sie Verkäufe in vier einfachen Schritten erfassen können."
 author: SuperOffice RnD
-so.date: 02.16.2023
+date: 02.16.2023
 keywords: Verkauf
-so.topic: howto
+topic: howto
 language: de
 ---
 

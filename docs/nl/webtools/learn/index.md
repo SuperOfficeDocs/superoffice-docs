@@ -3,9 +3,9 @@ uid: help-nl-webtools
 title: WebTools
 description: Inleiding tot SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-so.date: 12.04.2023
+date: 12.04.2023
 keywords: WebTools, document, email, Mail Link
-so.topic: concept
+topic: concept
 language: nl
 ---
 

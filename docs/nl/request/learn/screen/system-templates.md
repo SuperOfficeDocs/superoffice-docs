@@ -3,11 +3,11 @@ uid: help-nl-system-templates
 title: Systeemsjablonen
 description: Systeemsjablonen
 author: Hanne Gunnarsson
-so.date: 03.29.2023
+date: 03.29.2023
 keywords: Instellingen en onderhoud
-so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

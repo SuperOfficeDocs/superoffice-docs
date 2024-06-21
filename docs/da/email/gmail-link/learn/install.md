@@ -3,9 +3,9 @@ uid: help-da-gmail-link-install
 title: Installer SuperOffice Gmail Link
 description: "Få flere oplysninger om, hvordan du installerer browserudvidelsen til Gmail, i denne vejledning."
 author: SuperOffice RnD
-so.date: 02.14.2023
+date: 02.14.2023
 keywords: Gmail Link, e-mail
-so.topic: howto
+topic: howto
 language: da
 ---
 

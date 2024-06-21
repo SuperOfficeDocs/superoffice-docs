@@ -3,9 +3,9 @@ uid: help-no-document-lock
 title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dokument
-so.topic: howto
+topic: howto
 language: no
 ---
 

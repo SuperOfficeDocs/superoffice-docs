@@ -3,11 +3,11 @@ uid: help-da-request-close
 title: Luk en sag
 description: Sådan opretter du en sag i SuperOffice
 author: Hanne Gunnarsson
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: sag
-so.topic: howto
-so.audience: person
-so.audience.tooltip: SuperOffice Service
+topic: howto
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 

@@ -4,12 +4,12 @@ title: Inkludere koblinger du vil spore
 description: Finn ut hvordan du legger til en sporet kobling i denne veiledningen. Du kan enten bruke en forhåndsinnstilt sporet kobling til å spore klikk på tvers av flere utsendelser, eller konfigurere en ny kobling som bare er tilgjengelig i denne utsendelsen.
 keywords: Markedsføring, utsendelse, sporede koblinger, 
 author: SuperOffice RnD
-so.date: 02.22.2024
-so.version: 10
-so.topic: howto
+date: 02.22.2024
+version: 10
+topic: howto
 language: en
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Legge til sporede koblinger i meldinger

@@ -3,9 +3,9 @@ uid: help-sv-search-criteria
 title: Använda sökkriterier
 description: Använda sökkriterier
 author: Bergfrid Dias
-so.date: 05.25.2023
+date: 05.25.2023
 keywords: söka, kriterier, sök
-so.topic: howto
+topic: howto
 language: sv
 ---
 

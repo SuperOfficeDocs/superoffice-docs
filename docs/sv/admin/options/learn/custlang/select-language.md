@@ -3,9 +3,9 @@ uid: help-sv-languages-selection
 title: Kundspråk för nya kontakter
 description: Så väljer SuperOffice kundspråk för nya kontakter
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: språk
-so.topic: help
+topic: help
 language: sv
 ---
 

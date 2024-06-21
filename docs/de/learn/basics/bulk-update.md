@@ -3,9 +3,9 @@ uid: help-de-bulk-update
 title: Massenabgleich
 description: Massenabgleich
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Massenabgleich
-so.topic: howto
+topic: howto
 language: de
 ---
 

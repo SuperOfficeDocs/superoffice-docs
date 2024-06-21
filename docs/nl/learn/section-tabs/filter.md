@@ -3,9 +3,9 @@ uid: help-nl-section-tabs-filter
 title: De sectietabbladen filteren
 description: Filters gebruiken op de sectietabbladen.
 author: Bergfrid Dias
-so.date: 03.06.2023
+date: 03.06.2023
 keywords: sectietabblad, filter
-so.topic: howto
+topic: howto
 language: nl
 ---
 

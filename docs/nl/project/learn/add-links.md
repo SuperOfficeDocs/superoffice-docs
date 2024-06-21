@@ -3,9 +3,9 @@ uid: help-nl-project-link-add
 title: Koppelingen toevoegen vanuit het scherm Project
 description: Koppelingen toevoegen vanuit het scherm Project
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: project
-so.topic: howto
+topic: howto
 language: nl
 ---
 

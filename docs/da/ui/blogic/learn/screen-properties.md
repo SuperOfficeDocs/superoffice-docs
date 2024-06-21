@@ -3,9 +3,9 @@ uid: help-da-service-screen-properties
 title: Egenskaber for skærmbillede
 description: Egenskaber for skærmbillede
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: skærmbillede
-so.topic: reference
+topic: reference
 language: da
 ---
 

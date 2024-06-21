@@ -3,10 +3,10 @@ uid: help-de-video-meetings
 title: Mit Videokonferenzen arbeiten
 description: Lernen Sie hier, wie Sie eine Videokonferenz in SuperOffice erstellen und daran teilnehmen können.
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+date: 12.12.2023
+version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung
-so.topic: howto
+topic: howto
 language: de
 ---
 

@@ -3,9 +3,9 @@ uid: help-no-follow-up-send
 title: Sende oppfølginger
 description: Sende oppfølginger
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: dagbok, oppfølging
-so.topic: howto
+topic: howto
 language: no
 ---
 

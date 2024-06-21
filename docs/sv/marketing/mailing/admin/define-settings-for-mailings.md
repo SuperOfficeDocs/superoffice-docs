@@ -4,13 +4,13 @@ title: Ange inställningar för utskick
 description: Ange inställningar för utskick
 keywords: Marknadsföring, inställningar
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
-so.topic: howto
+date: 02.12.2024
+version: 10
+topic: howto
 language: sv
-so.envir: onsite
-so.audience: person
-so.audience.tooltip: SuperOffice Marketing
+envir: onsite
+audience: person
+audience_tooltip: SuperOffice Marketing
 ---
 
 # Ange inställningar för utskick

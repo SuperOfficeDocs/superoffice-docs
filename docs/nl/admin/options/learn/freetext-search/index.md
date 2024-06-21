@@ -3,9 +3,9 @@ uid: help-nl-settings-freetext-search
 title: Zoeken op vrije tekst
 description: Zoeken op vrije tekst
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: vrije tekst, zoeken
-so.topic: concept
+topic: concept
 language: nl
 ---
 

@@ -3,9 +3,9 @@ uid: help-sv-selection-generate-follow-ups
 title: Skapa händelser
 description: Skapa händelser
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: selection
-so.topic: howto
+topic: howto
 language: sv
 ---
 

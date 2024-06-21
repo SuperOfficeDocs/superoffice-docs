@@ -3,9 +3,9 @@ uid: help-de-settings-freetext-search
 title: Volltextsuche
 description: Volltextsuche
 author: Bergfrid Dias
-so.date: 03.24.2023
+date: 03.24.2023
 keywords: Volltext, Suchen
-so.topic: concept
+topic: concept
 language: de
 ---
 

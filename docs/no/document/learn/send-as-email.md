@@ -3,9 +3,9 @@ uid: help-no-document-send
 title: Sende et dokument som e-post
 description: "Det er raskt og enkelt å sende dokumenter som er lagret i SuperOffice CRM, som vedlegg i e-post."
 author: SuperOffice RnD
-so.date: 02.10.2023
+date: 02.10.2023
 keywords: dokument, E-post, vedlegg
-so.topic: howto
+topic: howto
 language: no
 ---
 

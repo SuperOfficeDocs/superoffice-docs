@@ -3,9 +3,9 @@ uid: help-da-add-items-to-country-list
 title: Tilføjelse af forekomster på listen Land
 description: Tilføjelse af forekomster på listen Land
 author: SuperOffice RnD
-so.date: 06.29.2022
+date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+topic: help
 language: da
 ---
 

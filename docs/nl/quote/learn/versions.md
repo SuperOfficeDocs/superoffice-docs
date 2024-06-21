@@ -3,9 +3,9 @@ uid: help-nl-quote-versions
 title:  Een verzonden offerte bewerken (versies)
 description:  Een verzonden offerte bewerken (versies)
 author: SuperOffice RnD
-so.date: 07.04.2022
+date: 07.04.2022
 keywords: offerte
-so.topic: howto
+topic: howto
 language: nl
 ---
 
