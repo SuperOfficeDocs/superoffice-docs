@@ -22,7 +22,7 @@ You can save time and reduce manual work by automating various business processe
 
 ## Pre-requisites
 
-* Use CRM Online and have [signed up for the SuperOffice AI Pilot Program][1]
+* Use CRM Online
 * SuperOffice AI Platform
 * AI-specific service license
 
