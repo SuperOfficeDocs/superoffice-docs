@@ -146,6 +146,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 10.3.4 - (2024.04.10-02) | 09.04.2024 |
 | 10.3.5 - (2024.04.30-02) | 03.05.2024 |
 | 10.3.6 - (2024.05.21-01) | 21.05.2024 |
+| 10.3.7 - (2024.06.26-03) | 14.06.2024 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
