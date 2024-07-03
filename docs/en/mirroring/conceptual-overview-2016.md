@@ -44,7 +44,7 @@ There is no user or session concept in the Mirroring Client, so no session token
 
 OC handles the scheduling of the Mirroring Task, running it periodically for each customer and application instance.
 
-On each customer tenant, there are multiple tasks running in sequence. The mirroring task is scheduled to run every 10 minutes, but times may vary if there is another long-running customer task that is not yet finished. As of April 2019, we also stop the task completely between 23.00 to 06:00 every night.
+On each customer tenant, there are multiple tasks running in sequence. The mirroring task is scheduled to run every 20 minutes, but times may vary if there is another long-running customer task that is not yet finished. We also stop the task completely between 01.30 to 03:00 every night.
 
 For each cycle, the following operations are performed:
 
