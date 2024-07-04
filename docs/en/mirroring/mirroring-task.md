@@ -43,7 +43,7 @@ This process will automatically set up change tracking on the SuperOffice CRM On
 
 The mirroring task is scheduled to run every 20 minutes. However, multiple tasks run in sequence on each customer tenant. If another task takes longer to complete than planned, the mirroring task might be delayed.
 
-We also stop the task completely from 23.00 to 06:00 every night.
+We also stop the task completely from 01.30 to 03:00 every night.
 
 Mirroring does not run during server maintenance, such as SuperOffice CRM Online version upgrades.
 
