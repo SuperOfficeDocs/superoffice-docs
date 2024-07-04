@@ -23,9 +23,9 @@ The **API Performance tab** shows API-level application performance for one spec
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 
-2. Select **API metrics**, then select **API Usage** tab.
+2. Select **API metrics**, then select **API Performance** tab.
 
-3. Select a time range interval (days, weeks, or months).
+3. Select a time range interval (minutes, hours or days).
 
 4. Click through the environment specific buttons.
 <!-- markdownlint-restore -->
@@ -40,13 +40,18 @@ The **API Performance tab** shows API-level application performance for one spec
 | Count | The number of API invocations to the endpoint. |
 | Record Count | The number of database records selected by the API invocation. |
 | Duration (AVG) | The average number number of milliseconds elapsed for each of all API invocations. |
+| Customer | The customer context identifier that invoked the API. |
 
 > [!TIP]
 > Click on a row to observe the samples (individual invocations) related to the endpoint.
 
+When there are many rows, you can filter the list by typing in the search box. The list will update as you type.
+
 ## Filter by sample
 
 * To see the request details, select one of the samples from the samples list.
+
+    Observe the *sort by* dropdown menu above the samples. Use the sort option to sort the samples according to timestamp, database rows and duration.
 
     ![API performance selected row -screenshot][img2]
 
