@@ -28,6 +28,7 @@ Entity-specific navigation points are used to navigate to a specific entity in t
 | Appointment Dialog | appointment | main, details, status, links, udef | - |
 | Document Dialog | document | main, links, more | - |
 | Invitations Dialog | invitations | archive, main | - |
+| Custom object | customobject?customobject_name= | - | - |
 
 ## Minicard addresses
 
