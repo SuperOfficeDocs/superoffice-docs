@@ -1,10 +1,10 @@
 ---
-title: Template
 uid: customer-center-template
+title: Customer center templates
 description: Customer center templates
-author: {github-id}
-date: 03.16.2023
 keywords: Customer Center, CEP
+author: {github-id}
+date: 07.10.2024
 topic: howto
 audience: settings
 envir: onsite
@@ -12,9 +12,7 @@ envir: onsite
 
 # Customer center templates
 
-The templates are located inside the *Templates* directory in your SuperOffice install directory. Inside this directory, there can be multiple folders, each containing templates for the different customer languages. Inside the language directory, there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
-
-What the various templates do is described on [Customer Center Configuration][1] page.
+The templates are located inside the SuperOffice database. To edit one, you simply open it in a text editor. What the various templates do is described in the [Customer Center configuration][1].
 
 The templates are composed of normal HTML code and some tags that are understood by SuperOffice. These tags are marked with the percent symbol. For example, %GfxPath%. In SuperOffice jargon, these tags are called *parser variables*. When accessed through the customer module in SuperOffice, the parser variables are replaced with understandable HTML code.
 
