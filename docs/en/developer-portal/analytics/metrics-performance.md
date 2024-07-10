@@ -1,14 +1,15 @@
 ---
-title: Check application performance
 uid: dp-metric-performance
+title: Check application performance
 description: How to check the API performance for your application.
-author: Anthony Yates
-date: 01.02.2024
 keywords: API metrics, API performance, metered services
+author: Anthony Yates
+date: 07.08.2024
+version: 1.24
+version_devportal: 1.24
 topic: howto
 envir: cloud
 client: online
-version: 1.16
 ---
 
 # Check application API performance
@@ -25,7 +26,7 @@ The **API Performance tab** shows API-level application performance for one spec
 
 2. Select **API metrics**, then select **API Performance** tab.
 
-3. Select a time range interval (minutes, hours or days).
+3. Select a time range interval (minutes, hours, or days).
 
 4. Click through the environment specific buttons.
 <!-- markdownlint-restore -->
@@ -51,7 +52,7 @@ When there are many rows, you can filter the list by typing in the search box. T
 
 * To see the request details, select one of the samples from the samples list.
 
-    Observe the *sort by* dropdown menu above the samples. Use the sort option to sort the samples according to timestamp, database rows and duration.
+    Use the **sort option** drop-down menu above the list to sort the samples according to timestamp, database rows, or duration.
 
     ![API performance selected row -screenshot][img2]
 
@@ -62,7 +63,7 @@ When there are many rows, you can filter the list by typing in the search box. T
     > [!NOTE]
     > The left side samples column contains each invocation for the endpoint. The center column contains the endpoint and the column on the right contains the invocation details.
 
-* To return to the API Performance list, click the X in the upper right-hand corner.
+* To return to the API Performance list, click the X in the upper-right corner.
 
 ## Improve app performance
 
