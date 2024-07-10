@@ -1,0 +1,43 @@
+items:
+- name: Company
+  href: from-company-card.md
+- name: Company (sender)
+  href: from-senders-company-card.md
+- name: Contact (selected)
+  href: for-selected-contact.md
+- name: Contact (sender)
+  href: for-sender-contact-dialog.md
+- name: Document and system
+  href: from-doc-dialog-or-system.md
+- name: Follow-up
+  href: for-appointments.md
+- name: ical
+  href: for-ical.md
+- name: Intl address
+  href: for-int-address.md
+- name: Mail Gateway
+  href: for-mail-gateway.md
+- name: Pocket CRM
+  href: for-pocket.md
+- name: Project
+  href: from-project-card.md
+- name: Quote alternative
+  href: for-quote-alternative.md
+- name: Quote info
+  href: for-quote-info.md
+- name: Quote line
+  href: for-quote-line.md
+- name: Quote line with subscription
+  href: for-quote-line-with-subscription.md
+- name: Request
+  href: for-request.md
+- name: Sale
+  href: for-sales.md
+- name: Selection
+  href: for-selections.md
+- name: Service
+  href: for-service.md
+- name: Web app
+  href: for-web-app.md
+- name: Misc
+  href: misc.md

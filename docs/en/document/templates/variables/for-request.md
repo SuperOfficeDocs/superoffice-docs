@@ -1,13 +1,16 @@
 ---
 uid: tempvar-request
-title: Variables for Request
-description: Variables for Request
+title: Variables for requests
+description: Variables for requests
+keywords: template variable, request, current ticket
 author: David Hollegien
 date: 04.25.2023
-keywords: template variable
 topic: reference
 ---
 
-# Variables for Request
+# Variables for requests
 
-[!include[Table](../../../../../common/includes/variable/table-request.md)]
+| Variable | Description |
+|---|---|
+| tiid | Current ticket ID |
+| miid | Current ticket message ID (in web panel URL only, from v.10.2.5)|

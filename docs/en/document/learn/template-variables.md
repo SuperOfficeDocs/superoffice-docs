@@ -140,7 +140,7 @@ When you use address variables from the company card, the system will select add
 
 When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
 
-The templates for quote documents, quote details and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+The templates for quote documents, quote details and order confirmations differ from ordinary document templates, as they use "merge fields" in addition to standard template variables.
 
 ## Service and Marketing template variables
 

@@ -1,13 +1,22 @@
 ---
 uid: tempvar-quote-alternative
-title: Variables for Quote alternative
-description: Variables for Quote alternative
+title: Variables for quote alternatives
+description: Variables for quote alternative
+keywords: template variable, quote alternative, quote
 author: Bergfrid Dias
 date: 09.22.2022
-keywords: template variable
 topic: reference
 ---
 
-# Variables for Quote alternative
+# Variables for quote alternatives
 
-[!include[Table](../../../../../common/includes/variable/table-quote-alt.md)]
+| Variable | Description |
+|---|---|
+| qaid | ID |
+| qaf1 | Extra field 1 |
+| qaf2 | Extra field 2 |
+| qaf3 | Extra field 3 |
+| qaf4 | Extra field 4 |
+| qaf5 | Extra field 5 |
+| qaky | ERP quote alternative key |
+| qanm | Name |
