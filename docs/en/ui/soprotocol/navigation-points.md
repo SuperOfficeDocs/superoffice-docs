@@ -1,11 +1,13 @@
 ---
+uid: so-protocol-nav
 title: Navigation points (where)
-uid: so_protocol_nav
 description: SoProtocol navigation points
-author:
-date:
 keywords: soprotocol, deeplinking
+author: Michel Krohn-Dale
+date: 09.07.2024
+version: 10.3.8
 topic: reference
+client: web
 ---
 
 # SoProtocol entity targets
@@ -28,7 +30,7 @@ Entity-specific navigation points are used to navigate to a specific entity in t
 | Appointment Dialog | appointment | main, details, status, links, udef | - |
 | Document Dialog | document | main, links, more | - |
 | Invitations Dialog | invitations | archive, main | - |
-| Custom object | customobject?customobject_name= | - | - |
+| Custom object (pilot) | customobject?customobject_name= | - | - |
 
 ## Minicard addresses
 

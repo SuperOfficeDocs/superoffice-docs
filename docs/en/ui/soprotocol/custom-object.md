@@ -1,28 +1,30 @@
 ---
-title: How to work with Custom objects
-uid: sop_custom_object
-description: How to work with Custom objects with SoProtocol
+uid: sop-custom-object
+title: How to work with custom objects using SoProtocol
+description: How to show or create a custom object with or without prefilled values using SoProtocol.
+keywords: soprotocol, custom object
 author: Michel Krohn-Dale
-date: 9.7.2024
-keywords: soprotocol, customobjects
+date: 09.07.2024
+version: 10.3.8
 topic: howto
 client: web
 envir: online, onsite
+pilot: yes
 ---
 
-# How to work with Custom objects using SoProtocol
+# How to work with custom objects using SoProtocol
 
-For various reasons you might want to be able to create a new Custom object from for instance a button or link in added in Screen designer, below are some examples of how to accomplish this by using SoProtocol.
+You can create a new [custom object][1] from for instance a button or link added in the Screen designer. Here are examples of how to accomplish this by using SoProtocol.
 
-## Add new Custom object
+## Add new custom object
 
 ```http
 default.aspx?customobject?customobject_name=y_car
 ```
 
-## Add new Custom object passing in current or other prefilled values
+## Add new custom object with prefilled values
 
-For new entries we can pass any value to field or prefill with currents. Just add &\<custom_field_name\>=\<value\> to SOProtocol. Current is referred by "{current_id}".
+For new entries, we can pass any value to a field or prefill it with currents. Just add `&<custom_field_name>=<value>` to SOProtocol. Current is referred by "{current_id}".
 
 ```http
 // Prefilling current
@@ -32,8 +34,13 @@ default.aspx?customobject?customobject_name=y_car?<custom_field_name>={contact_i
 default.aspx?customobject?customobject_name=y_car?<custom_field_name>=blue
 ```
 
-## Showing an existing custom object based on Id
+## Show existing custom object based on ID
 
 ```http
 default.aspx?customobject?customobject_name=y_car&customobject_id=1520
 ```
+
+<!-- Referenced links -->
+[1]: ../../custom-objects/learn/extra-table.md
+
+<!-- Referenced images -->
