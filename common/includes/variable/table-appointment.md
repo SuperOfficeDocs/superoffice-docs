@@ -7,8 +7,6 @@
 | bcon | The follow-up's company, name |
 | bcrd | The follow-up's creation date, in PC's local time, formatted YYYYMMdd |
 | bcrt | The follow-up's creation time, in PC's local time, formatted HHmmss |
-| bdlg | The "SuperOffice:invitations" link to the invitation dialog |
-| bdll | The "Use this link to open the Invitation dialog in SuperOffice CRM" link displayed for registered contacts. Blank if recipient is not a registered contact |
 | beda | The follow-up's end date, formatted as YYYYMMdd |
 | bema | The follow-up's owner, email address |
 | beti | The follow-up's end time, formatted as HHmmss |

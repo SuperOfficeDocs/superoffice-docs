@@ -2,9 +2,10 @@
 uid: tempvar-appointment
 title: Variables for follow-up
 description: Variables for follow-up
-author: Bergfrid Dias
-date: 09.22.2022
 keywords: template variable
+author: Bergfrid Dias
+date: 05.21.2024
+version: 10.3.6
 topic: reference
 ---
 
