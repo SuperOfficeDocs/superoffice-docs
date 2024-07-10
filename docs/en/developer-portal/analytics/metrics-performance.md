@@ -1,14 +1,15 @@
 ---
-title: Check application performance
 uid: dp-metric-performance
+title: Check application performance
 description: How to check the API performance for your application.
-author: Anthony Yates
-date: 01.02.2024
 keywords: API metrics, API performance, metered services
+author: Anthony Yates
+date: 07.08.2024
+version: 1.24
+version_devportal: 1.24
 topic: howto
 envir: cloud
 client: online
-version: 1.16
 ---
 
 # Check application API performance
@@ -23,9 +24,9 @@ The **API Performance tab** shows API-level application performance for one spec
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 
-2. Select **API metrics**, then select **API Usage** tab.
+2. Select **API metrics**, then select **API Performance** tab.
 
-3. Select a time range interval (days, weeks, or months).
+3. Select a time range interval (minutes, hours, or days).
 
 4. Click through the environment specific buttons.
 <!-- markdownlint-restore -->
@@ -40,13 +41,18 @@ The **API Performance tab** shows API-level application performance for one spec
 | Count | The number of API invocations to the endpoint. |
 | Record Count | The number of database records selected by the API invocation. |
 | Duration (AVG) | The average number number of milliseconds elapsed for each of all API invocations. |
+| Customer | The customer context identifier that invoked the API. |
 
 > [!TIP]
 > Click on a row to observe the samples (individual invocations) related to the endpoint.
 
+When there are many rows, you can filter the list by typing in the search box. The list will update as you type.
+
 ## Filter by sample
 
 * To see the request details, select one of the samples from the samples list.
+
+    Use the **sort option** drop-down menu above the list to sort the samples according to timestamp, database rows, or duration.
 
     ![API performance selected row -screenshot][img2]
 
@@ -57,7 +63,7 @@ The **API Performance tab** shows API-level application performance for one spec
     > [!NOTE]
     > The left side samples column contains each invocation for the endpoint. The center column contains the endpoint and the column on the right contains the invocation details.
 
-* To return to the API Performance list, click the X in the upper right-hand corner.
+* To return to the API Performance list, click the X in the upper-right corner.
 
 ## Improve app performance
 
