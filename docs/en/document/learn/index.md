@@ -33,7 +33,7 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 ## Standardize your documents
 
-When working with customers, there are often documents that you create and send out repeatedly. Usually they contain the same basic elements, but different content. By creating your own templates, you can be certain that the documents your employees create all look the same.
+When working with customers, there are often documents that you create and send out repeatedly. Usually they contain the same basic elements, but different content. By creating your own [templates][11], you can be certain that the documents your employees create all look the same.
 
 You can add any type of document template to SuperOffice CRM, whether it is a contract, a quotation, a project description, or your own version of the Privacy confirmation email.
 
@@ -41,35 +41,10 @@ Creating templates for frequently used documents and making them available for e
 
 In SuperOffice CRM, you can easily create document templates for Word, Email, Excel, PowerPoint and other file types.
 
-### Benefits of creating document templates
-
-* Everyone saves time whenever they create a new document, because they do not have to enter information that is typically repeated in each document, such as customer name and address. By using template variables, SuperOffice CRM will automatically add the customer's information when you create your next document.
-
-* You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
-
-* You ensure that all users can access and use legal text that is important to your business, such as terms and conditions and similar.
-
-* You can even create lists and find companies that have a document template in common.
-
-## How SuperOffice CRM selects the correct language template
-
-SuperOffice CRM has multiple default templates available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
-
-To ensure that you can communicate with your clients in their own language (where possible), SuperOffice CRM will automatically perform a language check to determine which language temple to use. Relevant when sending out invitation emails, and when notifying new contacts that their details were saved. For GDPR related communication, this is also an requirement.
-
-**Steps:**
-
-1. Is a preferred language set for the contact? Is a template is available in this language?
-2. Can the contact's country be mapped to a corresponding language?
-3. What is the preferred document language for the logged-in user, and is a template available in this language?
-4. What is the user interface language for the logged-in user, and is a template available in this language?
-5. If no language is found, the English template is used.
-
 ## Related topics
 
 * [Connect email, documents and diary][9]
 * [Open documents][1]
-* [Upload documents][2]
 * [Create new documents][3]
 * [Edit documents][4]
 * [Send documents][5]
@@ -80,7 +55,6 @@ To ensure that you can communicate with your clients in their own language (wher
 
 <!-- Referenced links -->
 [1]: open.md
-[2]: upload.md
 [3]: create.md
 [4]: edit.md
 [5]: send-as-email.md
@@ -89,6 +63,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [10]: ../../webtools/learn/index.md
+[11]: ../templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

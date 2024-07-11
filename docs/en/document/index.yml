@@ -44,12 +44,12 @@ highlightedContent:
     - title: "Microsoft 365 (legacy)"
       itemType: explore
       typeDesc: concept
-      url: cloud/legacy/office-365/index.md      
+      url: cloud/legacy/office-365/index.md
     # Card
     - title: "Template variable reference"
       itemType: library_books
       typeDesc: reference
-      url: templates/variables/from-doc-dialog-or-system.md
+      url: templates/variables/index.md
     # Card
     - title: "Document table"
       itemType: library_books
@@ -109,10 +109,6 @@ conceptualContent:
           itemType: library_books
           typeDesc: reference
           url: ../admin/user-preferences/index.md
-        - text: List Document template
-          itemType: list
-          typeDesc: how-to-guide
-          url: ../admin/lists/learn/document-template.md
 
     # Card
     - title: UI options
@@ -229,11 +225,11 @@ additionalContent:
       # Card
       - title: Document templates
         links:
-        - url: templates/index.md
+        - url: templates/learn/index.md
           text: Intro
         - url: templates/quote/index.md
           text: Quote documents
-        - url: templates/troubleshooting.md
+        - url: templates/learn/troubleshooting.md
           text: Troubleshooting
 
       # Card

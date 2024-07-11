@@ -65,7 +65,7 @@ Watch this video to see how you can edit your sales lists to make them fit the w
 * [Organizing lists][3]
 * [Specialized lists][4]
 * [Add user-defined lists][5]
-* [Document - Template][6]
+* [Document templates][6]
 * [Edit a list item][11]
 
 <!-- Referenced links -->
@@ -74,7 +74,7 @@ Watch this video to see how you can edit your sales lists to make them fit the w
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: adding-user-defined-lists.md
-[6]: document-template.md
+[6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md
 [9]: organize/deleted-items-and-headings.md

@@ -134,7 +134,7 @@ Planning meeting:
 2. Click **Add** under **Suggested documents in status**.
 3. In the **Suggested document** dialog, enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
-5. Select the required template in the **Template** field (see also [Document - Template][4]).
+5. Select the required [template][4] in the **Template** field.
 6. Enter the subject to be used in the document in the **Default subject** field.
 7. Enter any reference in the **Our ref.** field. For example, a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save**.
@@ -158,7 +158,7 @@ Planning meeting:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

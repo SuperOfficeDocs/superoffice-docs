@@ -38,19 +38,17 @@ In most cases, you can [save and close the document][1] in the application, and 
 
 ## Edit mode and read mode
 
-By default, a document is opened in edit mode.
-
-> [!NOTE]
-> If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
+By default, a document is opened in edit mode. If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
 
 * Edit mode: The document is opened for editing. The document cannot be edited by other users until you save and close the document, which automatically checks in the document.
 
-> [!NOTE]
-> If you do not want a document to be automatically checked in when you save and close it, you can activate the **Suggest check-in when editing is complete** option in **Preferences** in SuperOffice WebTools.
+    If you do not want a document to be automatically checked in when you save and close it, you can activate the **Suggest check-in when editing is complete** option in **Preferences** in SuperOffice WebTools.
 
 * Read mode: The document is opened for reading. If you make changes to the document, they will not be saved. To [save the document with your changes][1], you must create a new document in SuperOffice CRM and upload the file with your changes.
 
 ## Cancel a check-out (revert to saved version)
+
+You need special privileges to access this option. You also need write access to the document.
 
 > [!CAUTION]
 > If another user has checked out a document, always contact that user before performing this procedure. Otherwise there is a risk that you overwrite someone else's changes or the other user overwrites your changes when they check in the document
@@ -61,9 +59,6 @@ If you or someone else checked out a document, and you want to edit the document
 
 1. Right-click the document and select **Document**.
 2. In the Document screen, click ![icon][img1] and select **Revert to saved version**.
-
-> [!NOTE]
-> You need special privileges to access this option. You also need write access to the document.
 
 <!-- Referenced links -->
 [1]: edit.md

@@ -64,67 +64,17 @@ items:
       href: ribbons/enable-debug.md
     - name: Troubleshooting
       href: ribbons/troubleshooting.md
-  - name: Templates
-    href: templates/index.md
+  - name: Template variable reference
+    topicHref: templates/variables/index.md
+  - name: Quote templates
+    href: templates/quote/index.md
     items:
-    - name: Document types
-      href: templates/document-types.md
-    - name: Variables
-      topicHref: templates/variables/index.md
-      items:
-      - name: For follow-ups
-        href: templates/variables/for-appointments.md
-      - name: For ical
-        href: templates/variables/for-ical.md
-      - name: For int address
-        href: templates/variables/for-int-address.md
-      - name: For mail gateway
-        href: templates/variables/for-mail-gateway.md
-      - name: For pocket
-        href: templates/variables/for-pocket.md
-      - name: For quote alternative
-        href: templates/variables/for-quote-alternative.md
-      - name: For quote info
-        href: templates/variables/for-quote-info.md
-      - name: For quote line
-        href: templates/variables/for-quote-line.md
-      - name: For quote line with subscription
-        href: templates/variables/for-quote-line-with-subscription.md
-      - name: For sales
-        href: templates/variables/for-sales.md
-      - name: For selected contact
-        href: templates/variables/for-selected-contact.md
-      - name: For selections
-        href: templates/variables/for-selections.md
-      - name: For sender contact dialog
-        href: templates/variables/for-sender-contact-dialog.md
-      - name: For service
-        href: templates/variables/for-service.md
-      - name: For web app
-        href: templates/variables/for-web-app.md
-      - name: From company card
-        href: templates/variables/from-company-card.md
-      - name: From doc dialog or system
-        href: templates/variables/from-doc-dialog-or-system.md
-      - name: From project card
-        href: templates/variables/from-project-card.md
-      - name: For request
-        href: templates/variables/for-request.md  
-      - name: From senders company card
-        href: templates/variables/from-senders-company-card.md
-      - name: Misc
-        href: templates/variables/misc.md
-    - name: Quote
-      href: templates/quote/index.md
-      items:
-      - name: Add template variables
-        href: templates/quote/add-template-var.md
-      - name: Language and culture
-        href: templates/quote/lang-culture.md
-      - name: Mergefields
-        href: templates/quote/mergefields.md
-    - name: Troubleshooting
-      href: templates/troubleshooting.md
+    - name: Add template variables
+      href: templates/quote/add-template-var.md
+    - name: Language and culture
+      href: templates/quote/lang-culture.md
+    - name: Mergefields
+      href: templates/quote/mergefields.md
   - name: Open Document Format
     href: odf.md
   - name: API options

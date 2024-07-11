@@ -4,7 +4,7 @@ title: Edit signatures
 description: How to edit email signature and request signature
 keywords: email, signature
 author: Bergfrid Dias
-date: 06.11.2024
+date: 07.11.2024
 version: 10.2.8
 topic: howto
 language: en
@@ -42,6 +42,38 @@ The default templates contain template variables that are replaced with data fro
 5. Click **Save** when you are done.
 
 6. Optional: Test the signature by sending an email to yourself (for email signatures) or by creating a new request (for request signatures). Check that all information is displayed correctly, and the links work and images are displayed as intended.
+
+## Example
+
+This is an example of a signature that can be used by anyone in your company.
+
+**Template:**
+
+```text
+Best Regards,
+{auth}
+{atit}
+{onam}
+Address: {opad}, {ozip} {ocit}
+Phone: {audp}
+Mobile phone: {aupc}
+{auem}
+{owww}
+```
+
+**Result:**
+
+```text
+Best Regards,
+John Jones
+Sales Manager
+SuperShop
+Address: High Street 12, 223-344, Springfield
+Phone: 22334455
+Mobile phone: 99887766
+jj@supershop.com
+supershop.com
+```
 
 ## Related topics
 

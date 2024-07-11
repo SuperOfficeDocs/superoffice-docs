@@ -40,20 +40,7 @@ items:
   - name: Overview
     href: specialized-lists.md
   - name: Document template
-    topicHref: document-template.md
-    items:
-    - name: Overview
-      href: document-template.md
-    - name: Edit standard templates
-      href: using-standard-templates.md
-    - name: Create document template
-      href: creating-template-document.md
-    - name: Add template
-      href: add-template.md
-    - name: Replace existing template
-      href: replace-existing-template.md
-    - name: Document templates in multiple languages
-      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    topicHref: ../../../document/templates/learn/index.md
   - name: Email template
     href: email-template.md
     items:

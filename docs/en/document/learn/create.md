@@ -31,8 +31,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
 
-    > [!NOTE]
-    > To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+    To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
 
 4. Type in the contents of the document.
 
@@ -97,7 +96,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 [2]: screen/index.md
 [3]: ../../webtools/learn/index.md
 [4]: send-as-email.md
-[5]: ../../admin/lists/learn/add-template.md
+[5]: ../templates/admin/link-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
