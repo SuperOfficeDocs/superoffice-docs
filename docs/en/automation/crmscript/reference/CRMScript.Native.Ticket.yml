@@ -7,7 +7,6 @@ items:
   - crmscript
   children:
   - CRMScript.Native.Ticket.#ctor
-  - CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
   - CRMScript.Native.Ticket.buildEmailSubject()
   - CRMScript.Native.Ticket.checkEscalating(Integer)
   - CRMScript.Native.Ticket.delegate()
@@ -52,27 +51,6 @@ items:
     content: Ticket
   example: 
   - "\n<pre><code>Ticket t;\n\nt.load(2); // Loads the ticket with id = 2\nprint(t.getValue(&quot;ticketStatus&quot;));\nt.setValue(&quot;title&quot;, &quot;Test&quot;);\nt.setValue(&quot;status&quot;, &quot;1&quot;);\nDateTime d; // Default value for DateTime is now\nt.setValue(&quot;dbiLastModified&quot;, d.toString());\nprint(t.getOwnerEmail()); // Prints name and email of owner</code></pre>\n"
-- uid: CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
-  commentId: M:CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
-  id: 'addSecondaryCustomers(Vector)'
-  so.intellisense: Ticket.addSecondaryCustomers
-  langs:
-  - crmscript
-  name: 'addSecondaryCustomers(Vector)'
-  nameWithType: Ticket.addSecondaryCustomers(Vector)
-  fullName: CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
-  type: Method
-  summary: "\nAdd secondary customers to the ticket.\n"
-  remarks: 
-  syntax: 
-    content: addSecondaryCustomers(Vector ids)
-    parameters:
-    - id: ids
-      type: CRMScript.Native.Vector
-      description: "An array of Strings containing the customerIds to add as secondary customers on the ticket."
-    return: 
-      type: CRMScript.Global.Void
-  example: 
 - uid: CRMScript.Native.Ticket.buildEmailSubject()
   commentId: M:CRMScript.Native.Ticket.buildEmailSubject()
   id: 'buildEmailSubject()'
