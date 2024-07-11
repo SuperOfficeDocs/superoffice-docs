@@ -145,11 +145,11 @@ See the [reference of permissions in SharePoint​][1] for more information.
 [2]: permissions-app.md
 
 <!-- Referenced images -->
-[img1]: media/sharepoint-config-wizard.png
-[img2]: media/template-location.png
-[img3]: media/compatibility-check.png
-[img4]: media/groups-and-access.png
-[img7]: media/groups-and-access-ad.png
-[img8]: media/confirm.png
-[img9]: media/so-admin-document-library.png
-[img10]: media/transfer-document-properties.png
+[img1]: ../../../../media/loc/en/document/sharepoint-config-wizard.png
+[img2]: ../../../../media/loc/en/document/template-location.png
+[img3]: ../../../../media/loc/en/document/compatibility-check.png
+[img4]: ../../../../media/loc/en/document/groups-and-access.png
+[img7]: ../../../../media/loc/en/document/groups-and-access-ad.png
+[img8]: ../../../../media/loc/en/document/confirm.png
+[img9]: ../../../../media/loc/en/document/so-admin-document-library.png
+[img10]: ../../../../media/loc/en/document/transfer-document-properties.png

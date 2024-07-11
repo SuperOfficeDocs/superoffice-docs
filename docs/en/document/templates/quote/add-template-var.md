@@ -31,6 +31,6 @@ The field used in step 2 is an example only. You can find all template variables
 [1]:mergefields.md
 
 <!-- Referenced images -->
-[img1]: media/6762-11545.jpg
-[img2]: media/6763-11543.jpg
-[img3]: media/6764-11541.jpg
+[img1]: ../../../../media/loc/en/document/6762-11545.jpg
+[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img3]: ../../../../media/loc/en/document/6764-11541.jpg

@@ -150,4 +150,4 @@ If you have a third-party app that creates documents in SuperOffice, you need to
 [8]: ../configure-superoffice.md#step-4
 
 <!-- Referenced images -->
-[img5]: media/sharepoint-wizard.png
+[img5]: ../../../../../media/loc/en/document/sharepoint-wizard.png

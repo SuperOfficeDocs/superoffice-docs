@@ -134,8 +134,8 @@ Excel .**xlsx** (**sheet1.xml** is the actual Sheet 1):
 [1]: variables/for-sales.md
 
 <!-- Referenced images -->
-[img1]: media/unnamed.png
-[img2]: media/unnamed-1.png
-[img4]: media/unnamed-2.png
-[img5]: media/unnamed-3.png
-[img6]: media/unnamed-4.png
+[img1]: ../../../media/loc/en/document/troubleshoot-tempvar.png
+[img2]: ../../../media/loc/en/document/troubleshoot-tempvar-1.png
+[img4]: ../../../media/loc/en/document/troubleshoot-tempvar-2.png
+[img5]: ../../../media/loc/en/document/troubleshoot-tempvar-3.png
+[img6]: ../../../media/loc/en/document/troubleshoot-tempvar-4.png
