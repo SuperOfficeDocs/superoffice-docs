@@ -168,7 +168,7 @@ conceptualContent:
       - text: CRMScript
         itemType: explore
         typeDesc: concept
-        url: howto/crmscript/index.md
+        url: ../automation/crmscript/howto/document/index.md
       - text: REST
         itemType: list
         typeDesc: how-to-guide

@@ -131,6 +131,6 @@ For a complete list of fields, see the [database reference][5].
 For a complete list of fields, see the [database reference][6].
 
 <!-- Referenced links -->
-[3]: ../../../document/howto/crmscript/doc-properties.md
+[3]: ../../../automation/crmscript/howto/document/properties.md
 [5]: ../../../database/tables/suggestedappointment.md
 [6]: ../../../database/tables/suggesteddocument.md

@@ -129,15 +129,6 @@ items:
     href: odf.md
   - name: API options
     items:
-    - name: CRMScript
-      href: howto/crmscript/index.md
-      items:
-      - name: Document properties
-        href: howto/crmscript/doc-properties.md
-      - name: Document files
-        href: howto/crmscript/doc-files.md
-      - name: Document templates
-        href: howto/crmscript/doc-templates.md
     - name: Web services
       href: howto/services/index.md
       items:

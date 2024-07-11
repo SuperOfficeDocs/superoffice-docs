@@ -57,4 +57,4 @@ This example prints the 1st 20 characters of the stream.
 
 <!-- Referenced links -->
 [1]: ../../../automation/crmscript/datatypes/string-type.md
-[2]: ../../../document/howto/crmscript/index.md
+[2]: ../../../automation/crmscript/howto/document/index.md

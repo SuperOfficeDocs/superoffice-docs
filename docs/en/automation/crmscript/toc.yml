@@ -150,6 +150,15 @@ items:
       href: howto/custom-objects/sort-extra-field-values.md
     - name: Extra tables
       href: howto/custom-objects/extra-table.md
+  - name: Documents
+    topicHref: howto/document/index.md
+    items:
+    - name: Document properties
+      href: howto/document/properties.md
+    - name: Document files
+      href: howto/document/file.md
+    - name: Document templates
+      href: howto/document/templates.md
   - name: Interests
     topicHref: howto/interests/index.md
     items:

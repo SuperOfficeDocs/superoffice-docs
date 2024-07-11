@@ -1,9 +1,12 @@
 ---
-uid: crmscript-doc-properties-redirect
+uid: crmscript-document-properties
 title: Document properties
+description: How to retrieve document info; create a document entity; link document to a follow-up; change document properties; work with suggested documents.
+keywords: CRMScript, document, document properties, NSDocument, GetDocumentEntity, GetDocumentList, GetAppointmentDocuments, GetContactDocuments, CreateDefaultDocumentEntity, SuggestedDocument
 author: Bergfrid Skaara Dias
 date: 07.11.2024
-redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/document/properties.html
+version: 10
+topic: howto
 ---
 
 # Document properties
@@ -204,15 +207,15 @@ agent.DeleteDocumentEntity(99);
 
 ### Frequently used fields
 
-| Field          | Description                             |
-|:---------------|:----------------------------------------|
-| document_id    | ID                                      |
+| Field | Description |
+|:--|:--|
+| document_id | ID |
 | application_id | application this document was made with |
-| name           | filename with extension                 |
-| header         | visible document name aka title         |
-| our_ref        | our reference (internal)                |
-| your_ref       | your reference (external)               |
-| appointment_id | points back to owning appointment       |
+| name | filename with extension |
+| header | visible document name aka title |
+| our_ref | our reference (internal) |
+| your_ref | your reference (external) |
+| appointment_id | points back to owning appointment |
 
 For a complete list of fields, see the [database reference][3].
 
@@ -220,7 +223,7 @@ For a complete list of fields, see the [database reference][3].
 > Both `our_ref` and `your_ref` are strings.
 
 <!-- Referenced links -->
-[1]: doc-templates.md
-[2]: ../../../sale/howto/crmscript/guides.md
-[3]: ../../../database/tables/document.md
-[4]: ../../../contact/howto/crmscript/index.md
+[1]: templates.md
+[2]: ../../../../sale/howto/crmscript/guides.md
+[3]: ../../../../database/tables/document.md
+[4]: ../../../../contact/howto/crmscript/index.md

@@ -1,9 +1,12 @@
 ---
-uid: crmscript-doc-templates-redirect
+uid: crmscript-document-templates
 title: Document templates
+description: A document template is a blueprint consisting of regular text and template variables. How to work with document templates in CRMScript.
+keywords: CRMScript, document, document template, template variable, NSDocument, NSDocumentTemplate, DocTmpl, SubstituteTemplateVariables, GetDocumentsBy, GetContactDocumentsBy, GetPersonDocumentsBy
 author: Bergfrid Skaara Dias
 date: 07.11.2024
-redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/document/templates.html
+version: 10
+topic: howto
 ---
 
 # Document templates
@@ -159,18 +162,18 @@ print(result);
 
 **Parameters, in order:**
 
-| Parameter         | Type    | Description                               |
-|:------------------|:--------|:------------------------------------------|
-| source            | String  | original string with template variables   |
-| generatorEncoding | Integer | encoding of input                         |
-| contactId         | Integer | contact to get substitution data from     |
-| personId          | Integer | person to get substitution data from      |
-| appointmentId     | Integer | appointment to get substitution data from |
-| documentId        | Integer | document to get substitution data from    |
-| saleId            | Integer | sale to get substitution data from        |
-| selectionId       | Integer | selection to get substitution data from   |
-| projectId         | Integer | project to get substitution data from     |
-| cultureName       | String  | for culture-sensitive data, such as dates or multi-language texts |
+| Parameter | Type | Description |
+|:--|:--|:--|
+| source | String | original string with template variables |
+| generatorEncoding | Integer | encoding of input |
+| contactId | Integer | contact to get substitution data from |
+| personId | Integer | person to get substitution data from |
+| appointmentId | Integer | appointment to get substitution data from |
+| documentId | Integer | document to get substitution data from |
+| saleId | Integer | sale to get substitution data from |
+| selectionId | Integer | selection to get substitution data from |
+| projectId | Integer | project to get substitution data from |
+| cultureName | String | for culture-sensitive data, such as dates or multi-language texts |
 
 > [!TIP]
 > Use an empty `cultureName` string to accept whatever current culture is set on the server. However, in multi-national organizations with a single server, set an appropriate value to avoid surprises.
@@ -179,24 +182,24 @@ print(result);
 
 ### Template types
 
-| Type   | Description |
-|:------:|:------------|
-| 0      | unknown     |
-| 2      | document    |
-| 3      | email       |
-| 4      | fax         |
+| Type | Description |
+|:-:|:--|
+| 0 | unknown |
+| 2 | document |
+| 3 | email |
+| 4 | fax |
 
 Types 1, 5, and 6 are not used for *document* templates.
 
 ### Frequently used fields
 
-| Field       | Description                             |
-|:------------|:----------------------------------------|
-| DocTmpl_id  | ID                                      |
-| name        | as shown in lists                       |
-| rank        | for sorting                             |
-| record_type | type                                    |
-| direction   | 0 = unknown, 1 = incoming, 2 = outgoing |
+| Field | Description |
+|:--|:--|
+| DocTmpl_id | ID |
+| name | as shown in lists |
+| rank | for sorting |
+| record_type | type |
+| direction | 0 = unknown, 1 = incoming, 2 = outgoing |
 
 > [!NOTE]
 > `name` refers to the label displayed in the GUI and not the physical filename of the template.
@@ -205,19 +208,19 @@ For a complete list of fields, see the [database reference][4].
 
 ### Common encoding
 
-| Value | Description    |
-|:-----:|:---------------|
-| 0     | Plain text     |
-| 1     | HTML           |
-| 2     | XML            |
-| 3     | Microsoft Word |
-| 10    | Adobe PDF      |
+| Value | Description |
+|:-:|:--|
+| 0 | Plain text |
+| 1 | HTML |
+| 2 | XML |
+| 3 | Microsoft Word |
+| 10 | Adobe PDF |
 
 See the [full list of encodings][5].
 
 <!-- Referenced links -->
-[1]: ../../../request/reply-templates/index.md
-[2]: ../../../database/tables/heading.md
-[3]: ../../../document/templates/index.md
-[4]: ../../../database/tables/doctmpl.md
-[5]: ../../../api/reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml
+[1]: ../../../../request/reply-templates/index.md
+[2]: ../../../../database/tables/heading.md
+[3]: ../../../../document/templates/index.md
+[4]: ../../../../database/tables/doctmpl.md
+[5]: ../../../../api/reference/netserver/core/SuperOffice.Data.GeneratorEncoding.yml

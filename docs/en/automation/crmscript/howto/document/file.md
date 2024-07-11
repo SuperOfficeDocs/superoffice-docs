@@ -1,9 +1,12 @@
 ---
-uid: crmscript-doc-files-redirect
+uid: crmscript-document-file
 title: Document files
+description: How to create physical document from template; rename document; change file extension; edit document; delete document; check document in/out
+keywords: CRMScript, document, NSDocument, GetDocumentEntity, SaveDocumentEntity, RenameDocument, GetCheckoutState, CheckoutDocument, CheckinDocument, GetDocumentUrl, GetDocumentStream, SetDocumentStream
 author: Bergfrid Skaara Dias
 date: 07.11.2024
-redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/document/file.html
+version: 10
+topic: howto
 ---
 
 # Document files
@@ -258,4 +261,4 @@ The document plugin might need to request additional processing. When deleting, 
 * SoProtocol
 
 <!-- Referenced links -->
-[1]: ./doc-properties.md
+[1]: properties.md
