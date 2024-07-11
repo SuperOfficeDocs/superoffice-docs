@@ -23,4 +23,4 @@ In SuperOffice Web, you should also get the real ODF icons in the document dialo
 Please note this support has not been highly advertised and is not as tested as our general Microsoft Office file format support. If you encounter errors or issues, please let us know.
 
 <!-- Referenced images -->
-[img1]: media/imageghtzm.png
+[img1]: ../../media/loc/en/document/imageghtzm.png

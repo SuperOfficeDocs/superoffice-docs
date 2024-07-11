@@ -133,7 +133,7 @@ This step is the same for both Microsoft 365 and Google Workspace document integ
 [7]: configure.md
 
 <!-- Referenced images -->
-[img1]: media/image58qub.png
-[img2]: media/image0ox0s.png
-[img3]: media/image5avtq.png
-[img4]: media/imageu3rda.png
+[img1]: ../../../../media/loc/en/document/image58qub.png
+[img2]: ../../../../media/loc/en/document/image0ox0s.png
+[img3]: ../../../../media/loc/en/document/image5avtq.png
+[img4]: ../../../../media/loc/en/document/imageu3rda.png

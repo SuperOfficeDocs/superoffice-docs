@@ -100,14 +100,14 @@ Follow these steps if the Microsoft Entra domain groups already exist. If the gr
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/01-templ-site.png
-[img2]: media/02-templ-library.png
-[img3]: media/03-templ-library-settings.png
-[img4]: media/04-templ-library-permissions.png
-[img5]: media/05-templ-inheriting.png
-[img6]: media/06-templ-groups.png
-[img7]: media/07-templ-read.png
-[img8]: media/08-templ-grant-permissions.png
-[img9]: media/09-templ-invite-people.png
-[img10]: media/10-templ-edit.png
-[img11]: media/11-templ-remove.png
+[img1]: ../../../../media/loc/en/document/01-templ-site.png
+[img2]: ../../../../media/loc/en/document/02-templ-library.png
+[img3]: ../../../../media/loc/en/document/03-templ-library-settings.png
+[img4]: ../../../../media/loc/en/document/04-templ-library-permissions.png
+[img5]: ../../../../media/loc/en/document/05-templ-inheriting.png
+[img6]: ../../../../media/loc/en/document/06-templ-groups.png
+[img7]: ../../../../media/loc/en/document/07-templ-read.png
+[img8]: ../../../../media/loc/en/document/08-templ-grant-permissions.png
+[img9]: ../../../../media/loc/en/document/09-templ-invite-people.png
+[img10]: ../../../../media/loc/en/document/10-templ-edit.png
+[img11]: ../../../../media/loc/en/document/11-templ-remove.png

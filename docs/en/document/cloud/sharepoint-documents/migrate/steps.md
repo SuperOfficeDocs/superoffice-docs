@@ -82,7 +82,7 @@ Click **Next step** to proceed. The button doesn't turn green and clickable unti
 [6]: ../../../../search-options/selection/learn/create/index.md
 
 <!-- Referenced images -->
-[img2]: media/migration-started.png
-[img6]: media/migrate-step-1.png
-[img7]: media/migrate-step-2.png
-[img8]: media/migrate-step-3.png
+[img2]: ../../../../../media/loc/en/document/migration-started.png
+[img6]: ../../../../../media/loc/en/document/migrate-step-1.png
+[img7]: ../../../../../media/loc/en/document/migrate-step-2.png
+[img8]: ../../../../../media/loc/en/document/migrate-step-3.png

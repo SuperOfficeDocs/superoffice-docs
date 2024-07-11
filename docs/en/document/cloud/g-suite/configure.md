@@ -44,7 +44,7 @@ This will store the template in the Google cloud, and when the user uses this te
 
 6. Click **Save**. The Document template is now available in the CRM client:
 
-![New document-screenshot][img4]
+![New document -screenshot][img4]
 
 ![New document dialog -screenshot][img5]
 
@@ -61,8 +61,8 @@ This will store the template in the Google cloud, and when the user uses this te
 [1]: ../../templates/index.md
 
 <!-- Referenced images -->
-[img1]: media/imageh3map.png
-[img2]: media/template3.png
-[img3]: media/template3b.png
-[img4]: media/imagedmnmi.png
-[img5]: media/image6r9sc.png
+[img1]: ../../../../media/loc/en/document/imageh3map.png
+[img2]: ../../../../media/loc/en/document/template3.png
+[img3]: ../../../../media/loc/en/document/template3b.png
+[img4]: ../../../../media/loc/en/document/imagedmnmi.png
+[img5]: ../../../../media/loc/en/document/image6r9sc.png
