@@ -1,44 +1,7 @@
 ---
+uid: generate-document-rest-redirect
 title: Generate a document
-uid: generate_document_rest
-description: How to generate a document with REST.
 author: Bergfrid Skaara Dias
-date: 11.04.2021
-keywords: document, API, REST
-topic: howto
-# envir:
-# client:
+date: 07.11.2024
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/document/rest-generate-document.html
 ---
-
-# Generate a document
-
-```javascript
-var doc = {}
-doc.Header = "Testing test";
-doc.Name = "foo.doc";
-doc.OurRef = "foo/1";
-doc.YourRef = "bar/99";
-doc.Description = "BAZ FTW";
-doc.DocumentTemplate = { DocumentTemplateId = 2 };
-doc.Contact = { ContactId = 25 };
-doc.Person = { PersonId = 63, ContactId = 25, }; 
-doc = Post("api/v1/Document", doc);
-```
-
-At this point, the document record has been created, but the content is not generated yet. We can either upload some content directly:
-
-```javascript
-id = res.DocumentId;
-content = "This is some document content.";
-Put("api/v1/Document/" + id + "/content", content)
-```
-
-Or we can use the document template to generate a fresh document for us:
-
-```javascript
-id = res.DocumentId;
-Post("api/v1/Document/" + id + "/content")
-content = Get("api/v1/Document/" + id + "/content")
-```
-
-This will generate a new document based on the template and return the generated content to us.

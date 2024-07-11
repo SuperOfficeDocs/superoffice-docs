@@ -172,15 +172,11 @@ conceptualContent:
       - text: REST
         itemType: list
         typeDesc: how-to-guide
-        url: howto/rest/generate-document.md
-      - text: Agents WebApi
-        itemType: list
-        typeDesc: how-to-guide
-        url: howto/agents-web-api/generate-document.md
+        url: ../api/web-services/howto/document/rest-generate-document.md
       - text: Services
         itemType: list
         typeDesc: how-to-guide
-        url: howto/services/index.md
+        url: ../api/web-services/howto/document/services-create.md
       - text: SO_Arc document plugin
         itemType: list
         typeDesc: how-to-guide

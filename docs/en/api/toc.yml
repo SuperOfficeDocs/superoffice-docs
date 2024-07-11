@@ -287,7 +287,7 @@ items:
         - name: How to update row
           href: web-services/howto/custom-objects/rest-update-custom-object-row.md
         - name: How to read row
-          href: web-services/howto/custom-objects/rest-get-custom-object-row.md1  
+          href: web-services/howto/custom-objects/rest-get-custom-object-row.md
         - name: How to delete row
           href: web-services/howto/custom-objects/rest-delete-custom-object-row.md
         - name: How to search
@@ -309,6 +309,21 @@ items:
           href: web-services/howto/custom-objects/get-udef-list-and-values.md
         - name: Find contact by udef
           href: web-services/howto/custom-objects/find-contact-by-udef.md
+    - name: Documents
+      href: web-services/howto/document/index.md
+      items:
+      - name: Add document template (REST)
+        href: web-services/howto/document/rest-add-document-template.md
+      - name: Generate document (REST)
+        href: web-services/howto/document/rest-generate-document.md
+      - name: Create (Services88)
+        href: web-services/howto/document/services-create.md
+      - name: Download (Services88)
+        href: web-services/howto/document/services-download.md
+      - name: Update (Services88)
+        href: web-services/howto/document/services-update.md
+      - name: Configure access (Services88)
+        href: web-services/howto/document/services-configure-access.md
     - name: Flows
       href: web-services/howto/flows/index.md
       items:
