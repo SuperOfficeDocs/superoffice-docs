@@ -92,23 +92,6 @@ t.setValue("title", "No audio");
 t.save("audio",true, true);
 ```
 
-## Void addSecondaryCustomers(Vector ids)
-
-Adds 1 or more customer IDs to the list of secondary customers.
-
-> [!TIP]
-> A [vector][2] is a 1-dimensional list of String objects.
-
-```crmscript
-Ticket t;
-t.setValue("title", "Bad audio");
-Vector v;
-v.parseString("1,4,5",",");
-t.addSecondaryCustomers(v);
-t.save();
-```
-
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Ticket.setValue(String,String)>
-[2]: <xref:CRMScript.Native.Vector>
 [6]: ../../../database/tables/ticket.md
