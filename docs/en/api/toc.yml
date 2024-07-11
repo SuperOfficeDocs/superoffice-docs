@@ -312,17 +312,17 @@ items:
     - name: Documents
       href: web-services/howto/document/index.md
       items:
-      - name: Add document template (REST)
+      - name: Add document template
         href: web-services/howto/document/rest-add-document-template.md
-      - name: Generate document (REST)
+      - name: Generate document
         href: web-services/howto/document/rest-generate-document.md
-      - name: Create (Services88)
+      - name: Create
         href: web-services/howto/document/services-create.md
-      - name: Download (Services88)
+      - name: Download
         href: web-services/howto/document/services-download.md
-      - name: Update (Services88)
+      - name: Update
         href: web-services/howto/document/services-update.md
-      - name: Configure access (Services88)
+      - name: Configure access
         href: web-services/howto/document/services-configure-access.md
     - name: Flows
       href: web-services/howto/flows/index.md
