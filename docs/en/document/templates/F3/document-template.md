@@ -1,14 +1,10 @@
 # How do I upload and use document templates in SuperOffice CRM?
 
-What is the way to upload a document template in SuperOffice CRM and use it when preparing documents for your customers? 
+What is the way to upload a document template in SuperOffice CRM and use it when preparing documents for your customers?
 
 In SuperOffice CRM you can easily upload your personalized document templates and use them to prepare documents with automatically populated information easily. Please follow the steps below to do it:
 
-[Step 1. Upload a document template in SuperOffice CRM](https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/#1)
-
-[Step 2. Use your document template](https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/#2)
-
-### Step 1. Upload a document template in SuperOffice CRM
+## Step 1. Upload a document template in SuperOffice CRM
 
 Please follow the steps below:
 
@@ -28,7 +24,6 @@ Please follow the steps below:
     > [!NOTE]
     > As a default all document templates are stored in the SO Arc folder, however if you use G Suite of Office 365 integration document can be stored in the cloud storage provided by the integration. Please check the following links for [Office 365](https://online.superoffice.com/appstore/superoffice-as/office-365-integration) or [G Suite](https://online.superoffice.com/appstore/superoffice-as/g-suite-integration) integrations and [this link](https://docs.superoffice.com/document/cloud/overview.html) for a technical overview.
 
-
 1. Then select **Direction** (1), **Document type** (2), and **Intention** (3) of the document. If you are uploading a quote document template, select a tick next to **Quote document type** (4) and select the type of the document from the drop-down list. Please check [this FAQ](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113056) about the different Quote document template types.
 
     If you want that your documents to automatically get a reference you need to include the reference pattern in Our reference (5) field. One option is to use a template variable {oref}.
@@ -45,11 +40,11 @@ Please follow the steps below:
 
 1. Click **Save** and the document template is ready to use.
 
-### Step 2. Use your document template
+## Step 2. Use your document template
 
 Please follow the steps below:
 
-1. Click on the **+New** button in the top left corner of the screen and then click on **Document**. 
+1. Click on the **+New** button in the top left corner of the screen and then click on **Document**.
 
     ![New Document][img6]
 
@@ -57,17 +52,11 @@ Please follow the steps below:
 
     ![Create Document][img7]
 
-1. If you use [SuperOffice Web Tools](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112992), the new document will be opened in the program on your computer. If [Web Tools are not in use](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113661), the new document will be downloaded on your computer and you'll be able to open it by double-clincing on the document file. Be aware that changes made on the document won't be saved in SuperOffice. If you want that all changes would be saved in the document automatically we recommend installing [SuperOffice Web Tools](https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113747). 
-
----
-Please follow [this FAQ](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113183), if you use SuperOffice Onsite 8 or any previous version.
-
----
+1. If you use [SuperOffice Web Tools](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112992), the new document will be opened in the program on your computer. If [Web Tools are not in use](https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113661), the new document will be downloaded on your computer and you'll be able to open it by double-clincing on the document file. Be aware that changes made on the document won't be saved in SuperOffice. If you want that all changes would be saved in the document automatically we recommend installing [SuperOffice Web Tools](https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113747).
 
 ### More Information
 
 Forum: [PDF form as a template, is it possible.](https://community.superoffice.com/en/technical/forums/product-forums/crm-windows-application/pdf-form-as-a-template-is-it-possible/)
-
 
 [img1]:media/lists-add.png
 [img2]:media/edit-list-item.png
