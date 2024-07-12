@@ -2,9 +2,9 @@
 uid: help-en-document-template-link
 title: Link a document template
 description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
-keywords: document, template
+keywords: document, template, list
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.12.2024
 version: 10
 topic: howto
 language: en
@@ -25,17 +25,19 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 ## Steps
 
-1. In Settings and maintenance, select **Lists** in the Navigator.
+1. In Settings and maintenance, select **Lists** (1) in the Navigator.
 
-1. Choose the **Items** tab, click the arrow, and select **Document - Template**.
+1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
 
-1. Click the **Add** button.
+1. Click the **Add** button (3).
 
     ![Add document template -screenshot][img3]
 
-1. Enter the required name of the item in the **Name** field.
+1. Enter the required name of the item in the **Name** field (1).
 
-1. Optionally, choose where to store the document template, in the **Store template in** list.
+    ![Edit list item -screenshot ][img2]
+
+1. Optionally, choose where to store the document template, in the **Store template in** list (2).
 
 1. You now have two options:
 
@@ -47,7 +49,7 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
     * Copy an existing template in SuperOffice:
 
-        1. Select **Upload a new document template from disk**.
+        1. Select **Upload a new document template from disk** (3).
         2. Click the **Upload** button.
         3. Click **Upload file** in the **Upload file** dialog.
         4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
@@ -86,9 +88,11 @@ Enter the following information in the **Details** tab:
 
 6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
 
-7. Check the **Quote document type** option if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
+7. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
 
-8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender's first and last names.
+    ![Reference list item -screenshot][img8]
+
+8. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
 
 9. Optionally, type in a description of the template in the **Description** field.
 
@@ -100,24 +104,34 @@ Enter the following information in the **Details** tab:
 Here you can add translated versions of the document template.
 
 1. Click **Add**.
-2. In the **Edit list item** dialog, select the language you require in the **Add language** list.
-3. Add the translated document template as described above.
-4. Click **Add**. The language is listed in the **Languages** tab.
-5. Repeat the steps above to add additional languages.
+
+    ![Add languages -screenshot][img6]
+
+1. In the **Edit list item** dialog, select the language you require in the **Add language** list.
+
+1. Add the translated document template as described above.
+
+    ![Deutch document upload -screenshot][img7]
+
+1. Click **Add**. The language is listed in the **Languages** tab.
+
+1. Repeat the steps above to add additional languages.
 
 ## Related topics
 
-* [How do I upload and use document templates?][3] - FAQ
 * [Replace existing template][1]
 
 <!-- Referenced links -->
 [1]: update-template.md
 [2]: ../../../../en/document/templates/quote/index.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/
 [4]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png
-[img3]: ../../../../media/loc/en/document/imageh3map.png
+[img2]: ../../../../media/loc/en/document/edit-list-item.png
+[img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png
 [img5]: ../../../../media/loc/en/document/image6r9sc.png
+[img6]: ../../../../media/loc/en/document/language-add.png
+[img7]: ../../../../media/loc/en/document/deutch-document-upload.png
+[img8]: ../../../../media/loc/en/document/reference-item.png

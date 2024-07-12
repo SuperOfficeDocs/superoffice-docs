@@ -2,9 +2,9 @@
 uid: help-en-document-create
 title: Create new document
 description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: document
+author: Bergfrid Dias
+date: 07.12.2024
 topic: howto
 language: en
 ---
@@ -42,11 +42,13 @@ Follow the instructions below, depending on how documents are managed in your Su
 If you have not installed SuperOffice WebTools, you must manually download documents to edit them. Afterwards, you must upload the edited documents to the central server.
 
 > [!NOTE]
-> This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
+> This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft 365) and a document library (like SharePoint).
 
 1. Click **New** > **Document** on the top bar.
 
 2. [Complete the fields with the required information][2].
+
+    ![Create document from template -screenshot][img3]
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
 
@@ -57,6 +59,9 @@ If you have not installed SuperOffice WebTools, you must manually download docum
     * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
 
     * **Save**: When you click **Save**, the **Save As** dialog appears. Specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download is finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
+
+    > [!NOTE]
+    > Changes to the document are not saved in SuperOffice automatically. If you want such behavior, we recommend installing [SuperOffice WebTools][3].
 
 6. Close the text-editing program.
 
@@ -87,17 +92,17 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 ## Related topics
 
-* [WebTools][3]
 * [Send email attachments from SuperOffice][4]
 * [Manage document templates in Settings and maintenance][5]
 
 <!-- Referenced links -->
 [1]: upload.md
 [2]: screen/index.md
-[3]: ../../webtools/learn/index.md
+[3]: ../../webtools/learn/install.md
 [4]: send-as-email.md
 [5]: ../templates/admin/link-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
+[img3]: ../../../media/loc/en/document/create-document.png
