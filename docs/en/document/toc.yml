@@ -40,8 +40,6 @@ items:
         href: cloud/g-suite/getting-started.md
       - name: Set up
         href: cloud/g-suite/set-up.md
-      - name: Configure
-        href: cloud/g-suite/configure.md
     - name: Microsoft 365 document integration (legacy)
       href: cloud/legacy/office-365/index.md
       items:

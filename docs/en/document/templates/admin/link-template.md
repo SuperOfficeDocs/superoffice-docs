@@ -29,7 +29,9 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 1. Choose the **Items** tab, click the arrow, and select **Document - Template**.
 
-1. Click the **Add** button ![icon][img2] below the **Items** list.
+1. Click the **Add** button.
+
+    ![Add document template -screenshot][img3]
 
 1. Enter the required name of the item in the **Name** field.
 
@@ -56,7 +58,14 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 1. Enter the required information in the **Details** and **Languages** tabs.
 
-1. Click **Save**. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
+1. Click **Save**. The template is added as a separate item in the **Items** list and is now available in the CRM client:
+
+![New document -screenshot][img4]
+
+![New document dialog -screenshot][img5]
+
+> [!TIP]
+> Repeat this procedure to add more templates.
 
 ## Details tab
 
@@ -109,4 +118,6 @@ Here you can add translated versions of the document template.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png
-[img2]: ../../../../media/icons/btn-add.png
+[img3]: ../../../../media/loc/en/document/imageh3map.png
+[img4]: ../../../../media/loc/en/document/imagedmnmi.png
+[img5]: ../../../../media/loc/en/document/image6r9sc.png

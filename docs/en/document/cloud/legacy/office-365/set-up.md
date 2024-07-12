@@ -252,7 +252,7 @@ To turn on the Microsoft 365 SharePoint integration for your CRMOnline tenant, s
 
 You will get a notification from SuperOffice R&D Services when the Microsoft 365 SharePoint integration is activated.
 
-When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
+When it is ready to use, you may continue to set up the templates, to make use of the Microsoft 365 SharePoint integration.
 
 ## Step 5 - Configure your templates in SuperOffice Admin
 
@@ -292,7 +292,7 @@ This will store the template in the Microsoft 365 cloud. When the user uses this
 * Moving existing **templates** to or from SuperOffice and Microsoft 365 SharePoint can be performed in the Admin client.
 
 <!-- Referenced links -->
-[1]: ../../g-suite/configure.md
+[1]: ../../../templates/learn/template-variables.md
 [3]: requirements.md
 [4]: https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script
 [5]: https://social.technet.microsoft.com/wikicontents/articles/37533.sharepoint-online-how-to-enable-custom-script.aspx

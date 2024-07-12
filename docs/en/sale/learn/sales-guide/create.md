@@ -122,7 +122,7 @@ Agenda for first meeting:
 
 4. In the **The purpose of this document** field, enter the text to use as tooltip for the document in the **Sales guide** section tab.
 
-5. Select the required template in the **Template** field (see also [Document - Template][4]).
+5. Select the required [template][4] in the **Template** field.
 
 6. Enter the subject to be used in the document in the **Default subject** field.
 
