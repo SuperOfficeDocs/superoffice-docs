@@ -25,7 +25,7 @@ You can also create your own templates. You do this by entering [template variab
 1. Make the email template available to the requisite user groups. See [User group filtering][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

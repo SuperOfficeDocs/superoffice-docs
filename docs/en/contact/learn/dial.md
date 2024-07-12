@@ -55,7 +55,7 @@ If IP phone, Skype or FaceTime is installed, you can make phone calls from Super
 [Template variables][2] can also be used in the phone parameters.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png
