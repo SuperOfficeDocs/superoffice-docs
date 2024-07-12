@@ -2,9 +2,9 @@
 uid: help-sv-document-create
 title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: dokument
+author: Bergfrid Dias
+date: 07.12.2024
 topic: howto
 language: sv
 ---
@@ -31,8 +31,7 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 3. Skapa det nya dokumentet med den valda dokumentmallen som grund genom att klicka på **Skapa**. Dokumentet skapas i SharePoint och öppnas i en ny flik med online-textredigeringsprogrammet (Office Online).
 
-    > [!NOTE]
-    > Om du vill använda ditt desktop-redigeringsprogram kan du välja **Öppna i Desktop-appen** från Office Online.
+    Om du vill använda ditt desktop-redigeringsprogram kan du välja **Öppna i Desktop-appen** från Office Online.
 
 4. Skriv in dokumentets innehåll.
 
@@ -43,11 +42,13 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dokument för att redigera dem. När du är klar måste du ladda upp de redigerade dokumenten till den centrala servern.
 
 > [!NOTE]
-> Den här proceduren beskriver hur du skapar dokument om du använder ett desktop-program för textredigering. Den faktiska processen kan skilja sig något om du använder ett online-baserat textredigeringsverktyg (som Microsoft Office Online) och ett dokumentbibliotek (som SharePoint).
+> Den här proceduren beskriver hur du skapar dokument om du använder ett desktop-program för textredigering. Den faktiska processen kan skilja sig något om du använder ett online-baserat textredigeringsverktyg (som Microsoft 365) och ett dokumentbibliotek (som SharePoint).
 
 1. Klicka på **Nytt** > **Dokument** på toppraden.
 
 2. [Ange den information som behövs i fälten][2].
+
+    ![Create document from template -screenshot][img3]
 
 3. Skapa det nya dokumentet med den valda dokumentmallen som grund genom att klicka på **Skapa**. Dokumentet skapas på servern.
 
@@ -58,6 +59,9 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
     * **Aktivt**: När du klickar på **Öppna** öppnas dokumentet i ordbehandlingsprogrammet. Skriv in önskat innehåll i dokumentet och välj **Arkiv** > **Spara som** och bläddra till den mapp där du vill spara det på datorn.
 
     * **Spara**: När du klickar på **Spara** öppnas dialogrutan **Spara som**. Ange var på datorn filen ska sparas och klicka sedan på **Spara** så börjar hämtningen. Klicka på **Stäng** när hämtningen är klar. Öppna Windows Utforskaren och bläddra fram till dokumentet som du sparade. Öppna dokumentet, skriv innehåll och spara dokumentet.
+
+    > [!NOTE]
+    > Ändringar i dokumentet sparas inte automatiskt i SuperOffice. Om du vill ha sådan funktionalitet rekommenderar vi att installera [SuperOffice WebTools][3].
 
 6. Stäng ordbehandlingsprogrammet.
 
@@ -95,10 +99,11 @@ Med SuperOffice CRM kan du logga in från vilken dator som helst via webbläsare
 <!-- Referenced links -->
 [1]: upload.md
 [2]: screen/index.md
-[3]: ../../webtools/learn/index.md
+[3]: ../../webtools/learn/install.md
 [4]: send-as-email.md
-[5]: ../../admin/lists/learn/add-template.md
+[5]: ../templates/admin/link-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
+[img3]: ../../../media/loc/en/document/create-document.png

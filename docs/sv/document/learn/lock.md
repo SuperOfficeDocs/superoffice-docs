@@ -38,19 +38,17 @@ I de flesta fall kan du [spara och stänga dokumentet][1] i applikationen så ch
 
 ## Redigeringsläge och läsläge
 
-Som standard öppnas ett dokument i redigeringsläge.
-
-> [!NOTE]
-> Om du föredrar att välja läsläge eller redigeringsläge när du öppnar ett dokument går du till ![ikon][img2] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter **Fråga om redigering eller läsning** till **Ja**.
+Som standard öppnas ett dokument i redigeringsläge. Om du föredrar att välja läsläge eller redigeringsläge när du öppnar ett dokument går du till ![ikon][img2] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter **Fråga om redigering eller läsning** till **Ja**.
 
 * Redigeringsläge: Dokumentet öppnas för redigering. Dokumentet kan inte redigeras av andra användare förrän du sparar och stänger det, vilket gör att dokumentet automatiskt checkas in.
 
-> [!NOTE]
-> Om du inte vill att ett dokument ska checkas in automatiskt när du sparar och stänger det kan du aktivera inställningen **Fråga om incheckning när redigeringen är avslutad** under **Inställningar** i SuperOffice WebTools.
+    Om du inte vill att ett dokument ska checkas in automatiskt när du sparar och stänger det kan du aktivera inställningen **Fråga om incheckning när redigeringen är avslutad** under **Inställningar** i SuperOffice WebTools.
 
 * Läsläge: Dokumentet öppnas för läsning. Om du gör ändringar i dokumentet sparas de inte. För att kunna [spara dokumentet med dina ändringar][1] måste du skapa ett nytt dokument SuperOffice CRM och ladda upp filen med ändringarna.
 
 ## Avbryta en utcheckning (hämta sparad version)
+
+Du behöver särskilda behörigheter för att få tillgång till det här alternativet. Du måste också ha skrivrättigheter till dokumentet.
 
 > [!CAUTION]
 > Om en annan användare har checkat ut ett dokument måste du alltid kontakta denna användare innan du utför den här proceduren. Annars finns en risk att du skriver över en annan persons ändringar eller att den andra användaren skriver över dina ändringar när han/hon checkar in dokumentet
@@ -61,9 +59,6 @@ Om du eller någon annan har checkat ut ett dokument och du vill redigera detta 
 
 1. Högerklicka på dokumentet och välj **Dokument**.
 2. Klicka på ![ikon][img1] och välj **Hämta sparad version**.
-
-> [!NOTE]
-> Du behöver särskilda behörigheter för att få tillgång till det här alternativet. Du måste också ha skrivrättigheter till dokumentet.
 
 <!-- Referenced links -->
 [1]: edit.md

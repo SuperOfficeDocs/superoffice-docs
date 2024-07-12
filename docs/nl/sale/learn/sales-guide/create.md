@@ -122,7 +122,7 @@ Agenda voor eerste gesprek:
 
 4. Voer in het veld **Het doel van dit document** de tekst in voor de knopinfo van het document op het sectietabblad **Verkoopgids**.
 
-5. Selecteer de gewenste sjabloon in het veld **Sjabloon** (zie ook [Document - Sjabloon][4]).
+5. Selecteer de gewenste [sjabloon][4] in het veld **Sjabloon**.
 
 6. Voer het in het document te gebruiken onderwerp in het veld **Standaardonderwerp** in.
 
@@ -145,7 +145,7 @@ Agenda voor eerste gesprek:
 [1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

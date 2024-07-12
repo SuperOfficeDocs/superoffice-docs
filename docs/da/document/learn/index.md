@@ -41,30 +41,6 @@ Hvis du opretter skabeloner til ofte anvendte dokumenter og gør dem tilgængeli
 
 I SuperOffice CRM kan du nemt oprette dokumentskabeloner til Word, E-mail, Excel, PowerPoint og andre filtyper.
 
-### Fordele ved at oprette dokumentskabeloner
-
-* Alle sparer tid, når de opretter et nyt dokument, fordi de ikke behøver at indtaste oplysninger, der typisk gentages i hvert dokument, f.eks. kundenavn og adresse. Ved hjælp af skabelonvariabler tilføjer SuperOffice CRM automatisk kundens oplysninger, når du opretter dit næste dokument.
-
-* Du sørger for, at dine kontakter modtager dokumenter, der har et samlet, professionelt udseende, herunder dit logo og din virksomhedsidentitet.
-
-* Du sikrer, at alle brugere kan få adgang til og bruge juridisk tekst, der er vigtig for din virksomhed, såsom vilkår og betingelser og lignende.
-
-* Du kan endda oprette lister og finde virksomheder, der har en dokumentskabelon til fælles.
-
-## Sådan vælger SuperOffice CRM den korrekte sprogskabelon
-
-SuperOffice CRM har flere standardskabeloner tilgængelige på 12-16 sprog afhængigt af skabelontypen. Dette omfatter e-mail-skabeloner og GDPR-skabeloner (12 sprog).
-
-For at sikre, at du kan kommunikere med dine kunder på deres eget sprog (hvor det er muligt), udfører SuperOffice CRM automatisk en sprogkontrol for at bestemme, hvilken sprogskabelon der skal bruges. Dette er relevant, når du sender invitations-e-mails, og når du giver nye personer besked om, at deres oplysninger er gemt. For GDPR-relateret kommunikation er dette også et krav.
-
-**Trin:**
-
-1. Er der angivet et foretrukket sprog for personen? Er en skabelon tilgængelig på dette sprog?
-2. Kontroller, om personens land kan knyttes til et tilsvarende sprog.
-3. Hvad er det foretrukne dokumentsprog for den bruger, der er logget på, og er en skabelon tilgængelig på dette sprog?
-4. Hvad er det brugergrænsefladesproget for den bruger, der er logget på, og er en skabelon tilgængelig på dette sprog?
-5. Hvis der ikke findes noget sprog, bruges den engelske skabelon.
-
 ## Relaterede emner
 
 * [Forbind mail, dokumenter og dagbog][9]

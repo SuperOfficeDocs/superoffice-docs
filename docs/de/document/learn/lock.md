@@ -38,19 +38,17 @@ In den meisten Fällen können Sie in der Anwendung das [Dokument speichern und 
 
 ## Bearbeitungsmodus und Lesemodus
 
-Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet.
-
-> [!NOTE]
-> Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
+* Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
 
 * Bearbeitungsmodus: Das Dokument ist zur Bearbeitung geöffnet. Das Dokument kann von anderen Benutzern erst wieder bearbeitet werden, wenn Sie es speichern und schließen, wodurch es automatisch eingecheckt wird.
 
-> [!NOTE]
-> Wenn ein Dokument beim Speichern und Schließen nicht automatisch eingecheckt werden soll, können Sie die Option **Einchecken nach Abschluss der Bearbeitung empfohlen** unter **Einstellungen** in SuperOffice WebTools aktivieren.
+    Wenn ein Dokument beim Speichern und Schließen nicht automatisch eingecheckt werden soll, können Sie die Option **Einchecken nach Abschluss der Bearbeitung empfohlen** unter **Einstellungen** in SuperOffice WebTools aktivieren.
 
 * Lesemodus: Das Dokument ist zum Lesen geöffnet. Änderungen, die Sie am Dokument vornehmen, werden nicht gespeichert. Um das [Dokument mit den Änderungen speichern][1] möchten, müssen Sie in SuperOffice CRM ein neues Dokument erstellen und die Datei mit den Änderungen hochladen.
 
 ## Auschecken rückgängig machen (zurück zur gespeicherten Version)
+
+Für den Zugriff auf diese Option benötigen Sie spezielle Rechte. Zudem benötigen Sie Schreibzugriff auf das Dokument.
 
 > [!CAUTION]
 > Wenn ein Dokument von einem anderen Benutzer ausgecheckt wurde, sollten Sie sich unbedingt an den Benutzer wenden, bevor Sie die folgenden Schritte ausführen. Andernfalls besteht die Gefahr, dass Sie die Änderungen eines anderen Benutzers überschreiben oder ein anderer Benutzer beim Einchecken des Dokuments Ihre Änderungen überschreibt
@@ -61,9 +59,6 @@ Wenn ein Dokument von Ihnen oder einem anderen Benutzer ausgecheckt wurde und Si
 
 1. Klicken Sie mit der rechten Maustaste auf das Dokument und wählen Sie **Dokument**.
 2. Klicken Sie in der Anzeige Dokument auf ![Symbol][img1] und wählen Sie **Zurück zur gespeicherten Version** aus.
-
-> [!NOTE]
-> Für den Zugriff auf diese Option benötigen Sie spezielle Rechte. Zudem benötigen Sie Schreibzugriff auf das Dokument.
 
 <!-- Referenced links -->
 [1]: edit.md

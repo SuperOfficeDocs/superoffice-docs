@@ -55,7 +55,7 @@ Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOff
 Du kan också använda [mallvariabler][2] i telefoninställningarna.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png

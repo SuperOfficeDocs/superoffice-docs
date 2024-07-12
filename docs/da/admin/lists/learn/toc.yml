@@ -40,20 +40,7 @@ items:
   - name: Oversigt
     href: specialized-lists.md
   - name: Dokumentskabelon
-    topicHref: document-template.md
-    items:
-    - name: Oversigt
-      href: document-template.md
-    - name: Rediger standardskabeloner
-      href: using-standard-templates.md
-    - name: Opret dokumentskabelon
-      href: creating-template-document.md
-    - name: Tilføj skabelon
-      href: add-template.md
-    - name: Overskriv eksisterende skabelon
-      href: replace-existing-template.md
-    - name: Dokumentskabeloner på flere sprog
-      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    topicHref: ../../../document/templates/learn/index.md
   - name: E-mailskabelon
     href: email-template.md
     items:

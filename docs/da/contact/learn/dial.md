@@ -55,7 +55,7 @@ Hvis du har installeret IP-telefon, Skype eller FaceTime, kan du ringe fra Super
 Det er også muligt at anvende [Skabelonvariabler][2] i telefonparametrene.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png

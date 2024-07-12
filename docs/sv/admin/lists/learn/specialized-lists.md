@@ -32,7 +32,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 * [Försäljning – Typ, Faser, Offert][17]
 
 <!-- Referenced links -->
-[1]: document-template.md
+[1]: ../../../document/templates/learn/index.md
 [2]: email-template.md
 [3]: follow-up-type.md
 [4]: country.md

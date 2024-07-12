@@ -73,7 +73,7 @@ Hvis et firma, en person eller et projekt har flere aktive statusser, vises stat
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../../../globalization-and-localization/learn/translate-fields.md
-[9]: ../../../../document/learn/template-variables.md
+[9]: ../../../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../common/icons/az.png

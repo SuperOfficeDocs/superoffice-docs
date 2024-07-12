@@ -123,10 +123,10 @@ De wijzigingen worden automatisch opgeslagen. De projectgids wordt nu weergegeve
 
 Planningsvergadering:
 
-- Waar moet de vergadering over gaan?
-- Deelnemers?
-- Sprekers?
-- Waar?
+\- Waar moet de vergadering over gaan?
+\- Deelnemers?
+\- Sprekers?
+\- Waar?
 
 ## <a id="add-doc-status" />Een document toevoegen voor een status
 
@@ -134,7 +134,7 @@ Planningsvergadering:
 2. Klik op **Toevoegen** onder **Voorgestelde documenten in status**.
 3. Voer in het dialoogvenster **Voorgestelde document** de naam van het document in het veld **Naam** in. Dit moet een beschrijvende naam zijn voor het document.
 4. Typ het doel van het document in het veld **Het doel van dit document**. Deze tekst wordt weergegeven wanneer u de muisaanwijzer op de het document plaatst op het sectietabblad **Projectgids** in SuperOffice CRM.
-5. Selecteer de gewenste sjabloon in het veld **Sjabloon** (zie ook [Document - Sjabloon][4]).
+5. Selecteer de gewenste [sjabloon][4] in het veld **Sjabloon**.
 6. Voer het in het document te gebruiken onderwerp in het veld **Standaardonderwerp** in.
 7. Voer eventueel een referentie in het veld **Onze ref.** in. Bijvoorbeeld een [sjabloonvariabele][1] voor een projectnummer, projecttitel of een ander veld met betrekking tot het project.
 8. Klik op **Opslaan**.
@@ -158,7 +158,7 @@ Planningsvergadering:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

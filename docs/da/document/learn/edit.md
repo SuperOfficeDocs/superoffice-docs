@@ -42,8 +42,7 @@ Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal 
 
 1. [Dobbeltklik på det ønskede dokument][2]. Dokumentet åbnes på en ny fane med online-tekstredigeringsprogrammet (Office Online).
 
-    > [!NOTE]
-    > Hvis du vil bruge dit redigeringsprogram på computeren, kan du vælge **Åbn i desktop-appen** fra Office Online.
+    Hvis du vil bruge dit redigeringsprogram på computeren, kan du vælge **Åbn i desktop-appen** fra Office Online.
 
 2. Rediger dokumentet.
 

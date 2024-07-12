@@ -122,7 +122,7 @@ Dagsorden for første møde:
 
 4. I feltet **Formålet med denne opfølgning** skal du indtaste den tekst, der skal bruges som værktøjstip til dokumentet, i detaljekortet **Salgsguide**.
 
-5. Vælg den ønskede skabelon i feltet **Skabelon** (se også [Dokument - Skabelon][4]).
+5. Vælg den ønskede [skabelon][4] i feltet **Skabelon**.
 
 6. Angiv det emne, der skal bruges i dokumentet, i feltet **Standardoverskrift**.
 
@@ -145,7 +145,7 @@ Dagsorden for første møde:
 [1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

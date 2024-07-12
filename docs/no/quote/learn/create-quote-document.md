@@ -47,7 +47,7 @@ Hvis du har opprettet et tilbudsdokument for et tilbud, men vil bruke et annet d
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../document/learn/screen/index.md
-[3]: ../../document/learn/template-variables.md
+[3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
 

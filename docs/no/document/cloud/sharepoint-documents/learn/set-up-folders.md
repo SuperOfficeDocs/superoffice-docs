@@ -36,7 +36,7 @@ Dokumenter i biblioteket arver tillatelsen fra selve biblioteket.
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../../admin/lists/learn/add-template.md
+[2]: ../../../templates/admin/link-template.md
 [3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 
 <!-- Referenced images -->

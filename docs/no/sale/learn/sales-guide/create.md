@@ -122,7 +122,7 @@ Agenda for første møte:
 
 4. I feltet **Formålet med dette dokumentet** skriver du inn teksten som skal brukes som hjelpetekst for dokumentet i detaljkortet **Salgsguide**.
 
-5. Velg ønsket mal i feltet **Mal** (se også [Dokument – Mal][4]).
+5. Velg ønsket [mal][4] i feltet **Mal**.
 
 6. Skriv inn overskriften som skal brukes i dokumentet, i feltet **Standardoverskrift**.
 
@@ -145,7 +145,7 @@ Agenda for første møte:
 [1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

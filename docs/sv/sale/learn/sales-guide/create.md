@@ -122,7 +122,7 @@ Agenda för första mötet:
 
 4. I fältet **Syftet med denna dokument** anger du texten som ska användas som beskrivning för dokumentet på detaljkortet **Säljguide**.
 
-5. Välj önskad mall i fältet **Mall** (se även [Dokument – Mall][4]).
+5. Välj önskad [mall][4] i fältet **Mall**.
 
 6. Ange rubriken som ska användas i dokumentet i fältet **Standardrubrik** .
 
@@ -145,7 +145,7 @@ Agenda för första mötet:
 [1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

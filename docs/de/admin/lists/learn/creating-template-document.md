@@ -25,7 +25,7 @@ Sie können auch Vorlagen im HTML-Format erstellen und die Vorlage mit dem Super
 Nachdem Sie eine Vorlage definiert und im Vorlagenordner gespeichert haben, müssen Sie die [Vorlage mit SuperOffice CRM verknüpfen][2], um daraus Dokumente zu erstellen.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: add-template.md
 
 <!-- Referenced images -->

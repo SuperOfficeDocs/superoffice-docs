@@ -81,7 +81,7 @@ Der beste Weg für die Definition Ihrer eigenen Projekt- oder Verkaufsleitfäden
 [4]: ../../sale/learn/sales-guide/index.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md
-[7]: ../lists/learn/document-template.md
+[7]: ../../document/templates/learn/index.md
 [8]: ../../security/privacy/learn/implementation-guide.md
 [9]: ../preferences/learn/index.md
 

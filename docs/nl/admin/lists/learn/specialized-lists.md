@@ -32,7 +32,7 @@ Het is meestal heel eenvoudig om lijsten en items toe te voegen, te bewerken en 
 * [Verkoop - Type, Fasen, Offerte][17]
 
 <!-- Referenced links -->
-[1]: document-template.md
+[1]: ../../../document/templates/learn/index.md
 [2]: email-template.md
 [3]: follow-up-type.md
 [4]: country.md

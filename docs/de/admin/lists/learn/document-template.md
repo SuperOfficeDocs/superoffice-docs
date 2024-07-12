@@ -33,7 +33,7 @@ Sie können in den Anwendungen, die Sie in Verbindung mit SuperOffice CRM verwen
 * [Vorlagenvariablen (Service)][8]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md

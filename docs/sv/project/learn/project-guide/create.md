@@ -134,7 +134,7 @@ Planeringsmöte:
 2. Klicka på **Lägg till** under **Föreslagna dokument i denna status**.
 3. I dialogrutan **Föreslaget dokument** anger du namnet på dokumentet i fältet **Namn**. Detta bör vara ett beskrivande namn för dokumentet.
 4. Ange syftet med dokumentet i fältet **Syftet med detta dokument**. Den här texten visas när du håller muspekaren över dokumentet på fliken detaljkortet **Projektguide** i SuperOffice CRM.
-5. Välj önskad mall i fältet **Mall** (se även [Dokument – Mall][4]).
+5. Välj önskad [mall][4] i fältet **Mall**.
 6. Ange rubriken som ska användas i dokumentet i fältet **Standardrubrik** .
 7. Ange eventuell referens i fältet **Vår ref**. Till exempel en [mallvariabel][1] för ett projektnummer, en projekttitel eller ett annat fält som är kopplat till projektet.
 8. Klicka på **Spara**.
@@ -158,7 +158,7 @@ Planeringsmöte:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

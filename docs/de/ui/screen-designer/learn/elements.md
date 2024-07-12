@@ -86,7 +86,7 @@ Schaltflächen funktionieren ähnlich wie Links. Sie können Links zum Nachschla
 <!-- Referenced links -->
 [1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../document/learn/template-variables.md
+[3]: ../../../../en/document/templates/variables/index.md
 [6]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->

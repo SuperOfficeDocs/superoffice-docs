@@ -39,7 +39,7 @@ language: nl
     > Items toevoegen aan de [lijst Privacy - Rechtsgrondslag][2].
 
 <!-- Referenced links -->
-[1]: add-template.md
+[1]: ../../../document/templates/admin/link-template.md
 [2]: privacy-legal-base-add.md
 
 <!-- Referenced images -->

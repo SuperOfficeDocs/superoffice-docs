@@ -124,10 +124,10 @@ Endringene lagres automatisk. Prosjektguiden vises nå i SuperOffice CRM, hvis d
 
 Planleggingsmøte:
 
-- Hva bør konferansen inneholde?
-- Deltakere?
-- Foredragsholdere?
-- Hvor?
+\- Hva bør konferansen inneholde?
+\- Deltakere?
+\- Foredragsholdere?
+\- Hvor?
 
 ## <a id="add-doc-status" />Legge til dokument for en status
 
@@ -135,7 +135,7 @@ Planleggingsmøte:
 2. Klikk på **Legg til** under **Foreslåtte dokumenter i denne statusen**.
 3. I dialogboksen **Foreslått dokument** skriver du inn navnet på dokumentet i feltet **Navn**. Dette bør være et beskrivende navn for dokumentet.
 4. Skriv inn hva hensikten med dokumentet er, i feltet **Målsetningen med dette dokumentet**. Denne teksten vises når du holder musepekeren over dokumentet på detaljkortet **Prosjektguide** i SuperOffice CRM.
-5. Velg ønsket mal i feltet **Mal** (se også [Dokument - Mal][4]).
+5. Velg ønsket [mal][4] i feltet **Mal**.
 6. Skriv inn overskriften som skal brukes i dokumentet, i feltet **Standardoverskrift**.
 7. Skriv eventuelt inn en referanse i feltet **Vår ref.**. For eksempel en [malvariabel][1] for prosjektnummer, prosjektnavn eller et annet felt som har med prosjektet å gjøre.
 8. Klikk på **Lagre**.
@@ -159,7 +159,7 @@ Planleggingsmøte:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

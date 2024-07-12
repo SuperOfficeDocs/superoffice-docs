@@ -20,8 +20,31 @@ items:
     href: send-as-email.md
   - name: Slette dokumenter
     href: delete.md
-  - name: Eksempler på malvariabler
-    href: template-variables.md
+
+- name: Dokumentmaler
+  topicHref: ../templates/learn/index.md
+  items:
+  - name: Oversikt
+    href: ../templates/learn/index.md
+  - name: Document types
+    href: ../templates/learn/document-types.md
+  - name: Malvariabler
+    href: ../templates/learn/template-variables.md
+    items:
+    - name: Referanse
+      href: ../templates/variables/toc.yml
+      topicHref: ../templates/variables/index.md
+  - name: Troubleshooting
+    href: ../templates/learn/troubleshooting.md
+  - name: Opprette dokumentmal
+    href: ../templates/learn/create.md
+  - name: Legg til mal
+    href: ../templates/admin/link-template.md
+  - name: Redigere mal
+    href: ../templates/admin/update-template.md
+  - name: Dokumentmaler på flere språk
+    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+
   - name: Integrering av SharePoint-dokumentbibliotek
     href: ../cloud/sharepoint-documents/learn/index.md
     items:

@@ -122,7 +122,7 @@ Agenda für Erstgespräch:
 
 4. Geben Sie im Feld **Zweck dieses Dokuments** den Text ein, der als QuickInfo für das Dokument auf der Registerkarte **Verkaufsleitfaden** verwendet werden soll.
 
-5. Wählen Sie die gewünschte Vorlage im Feld **Vorlage** aus (siehe auch [Dokument - Vorlage][4]).
+5. Wählen Sie die gewünschte [Vorlage][4] im Feld **Vorlage** aus.
 
 6. Wählen Sie den im Dokument zu verwendenden Betreff im Feld **Standardbetreff** aus.
 
@@ -145,7 +145,7 @@ Agenda für Erstgespräch:
 [1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

@@ -25,7 +25,7 @@ Du kan også opprette maler i HTML-format og bruke HTML-redigeringsprogrammet fo
 Når du har definert en mal og lagret den i malmappen, må du [koble malen til SuperOffice CRM][2] for å kunne opprette dokumenter med den.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: add-template.md
 
 <!-- Referenced images -->

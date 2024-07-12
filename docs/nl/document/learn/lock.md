@@ -38,19 +38,17 @@ In de meeste gevallen kunt u [het document opslaan en sluiten][1] binnen de toep
 
 ## Bewerkingsmodus en leesmodus
 
-Een document wordt standaard in de bewerkingsmodus geopend.
-
-> [!NOTE]
-> Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
+Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
 
 * Bewerkingsmodus: Het document is geopend voor bewerking. Het document kan niet worden bewerkt door andere gebruikers tot u het document hebt opgeslagen en gesloten, waardoor het document automatisch wordt aangemeld.
 
-> [!NOTE]
-> Als u niet wilt dat een document automatisch wordt aangemeld wanneer u het opslaat en sluit, kunt u de optie **Aanmelding voorstellen na voltooiing bewerking** activeren in **Voorkeuren** in SuperOffice Web Tools.
+    Als u niet wilt dat een document automatisch wordt aangemeld wanneer u het opslaat en sluit, kunt u de optie **Aanmelding voorstellen na voltooiing bewerking** activeren in **Voorkeuren** in SuperOffice Web Tools.
 
 * Leesmodus: Het document is geopend voor lezen. Als u wijzigingen aanbrengt, worden deze niet opgeslagen. Als u [de wijzigingen in uw document wilt opslaan][1], moet u een nieuw document maken in SuperOffice CRM en het bestand met uw wijzigingen uploaden.
 
 ## Een afmelding annuleren (opgeslagen versie gebruiken)
+
+U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt ook schrijftoegang nodig voor het document.
 
 > [!CAUTION]
 > Als een andere gebruiker een document heeft afgemeld, moet u altijd contact opnemen met die gebruiker voordat u deze procedure uitvoert. Anders loopt u het risico dat u de wijzigingen van een ander overschrijft of dat de andere gebruiker uw wijzigingen overschrijft wanneer het document weer wordt aangemeld
@@ -61,9 +59,6 @@ Als u of iemand anders een document heeft uitgecheckt en u het document wilt bew
 
 1. Klik met de rechtermuisknop op het document en selecteer **Document**.
 2. Klik in het documentscherm op ![pictogram][img1] en selecteer **Opgeslagen versie gebruiken**.
-
-> [!NOTE]
-> U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt ook schrijftoegang nodig voor het document.
 
 <!-- Referenced links -->
 [1]: edit.md

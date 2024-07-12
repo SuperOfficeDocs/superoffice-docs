@@ -55,7 +55,7 @@ Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffic
 Det er også mulig å bruke [malvariabler][2] i telefonparameterne.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png

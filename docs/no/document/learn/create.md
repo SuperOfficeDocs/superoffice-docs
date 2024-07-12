@@ -2,9 +2,9 @@
 uid: help-no-document-create
 title: Opprett nytt dokument
 description: "Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp eksisterende, for å sikre at du og kollegene dine alltid har tilgang til de nyeste dokumentene og versjonene. Denne veiledningen viser deg hvordan du gjør begge deler."
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: dokument
+author: Bergfrid Dias
+date: 07.12.2024
 topic: howto
 language: no
 ---
@@ -31,8 +31,7 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 
 3. Klikk på **Opprett**-knappen for å opprette det nye dokumentet basert på den valgte dokumentmalen. Dokumentet opprettes i SharePoint og åpnes i en ny fane med et online tekstbehandlingsprogram (Office Online).
 
-    > [!NOTE]
-    > Hvis du vil bruke skrivebordprogrammet for å redigere, kan du velge **Åpne i skrivebordsprogrammet** fra Office Online.
+    Hvis du vil bruke skrivebordprogrammet for å redigere, kan du velge **Åpne i skrivebordsprogrammet** fra Office Online.
 
 4. Skriv inn innholdet i dokumentet.
 
@@ -43,11 +42,13 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter manuelt for å redigere dem. Etterpå må du laste opp de redigerte dokumentene til den sentrale serveren.
 
 > [!NOTE]
-> Denne fremgangsmåten beskriver hvordan du oppretter nye dokumenter hvis du bruker et skrivebordsprogram for tekstredigering. Selve prosessen kan være litt annerledes hvis du bruker et tekstbehandlingsprogram tilgjengelig på Internett (for eksempel Microsoft Office Online) og et dokumentbibliotek (for eksempel SharePoint).
+> Denne fremgangsmåten beskriver hvordan du oppretter nye dokumenter hvis du bruker et skrivebordsprogram for tekstredigering. Selve prosessen kan være litt annerledes hvis du bruker et tekstbehandlingsprogram tilgjengelig på Internett (for eksempel Microsoft 365) og et dokumentbibliotek (for eksempel SharePoint).
 
 1. Klikk på **Ny** > **Dokument** på toppraden.
 
 2. [Fyll ut feltene med nødvendig informasjon][2].
+
+    ![Create document from template -screenshot][img3]
 
 3. Klikk på **Opprett**-knappen for å opprette det nye dokumentet basert på den valgte dokumentmalen. Dokumentet opprettes på serveren.
 
@@ -58,6 +59,9 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
     * **Åpne**: Når du klikker på **Åpne**, åpnes dokumentet i tekstbehandlingsprogrammet. Skriv inn ønsket innhold i dokumentet, og velg **Fil** > **Lagre som** for å lagre det på ønsket sted på PCen.
 
     * **Lagre**: Når du klikker på **Lagre**, vises dialogboksen **Lagre som**. Angi hvor på PC-en du vil lagre filen, og klikk deretter **Lagre** for å starte nedlastingen. Klikk på **Lukk** når nedlastingen er fullført. Åpne Windows Utforsker, og bla gjennom til dokumentet du nettopp lagret. Åpne dokumentet, skriv inn ønsket innhold, og lagre dokumentet.
+
+    > [!NOTE]
+    > Endringer i dokumentet lagres ikke automatisk i SuperOffice. Hvis du ønsker slik oppførsel, anbefaler vi å installere [SuperOffice WebTools][3].
 
 6. Lukk tekstbehandlingsprogrammet.
 
@@ -95,10 +99,11 @@ Med SuperOffice CRM kan du logge på fra en hvilken som helst PC ved hjelp av en
 <!-- Referenced links -->
 [1]: upload.md
 [2]: screen/index.md
-[3]: ../../webtools/learn/index.md
+[3]: ../../webtools/learn/install.md
 [4]: send-as-email.md
-[5]: ../../admin/lists/learn/add-template.md
+[5]: ../templates/admin/link-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
+[img3]: ../../../media/loc/en/document/create-document.png

@@ -123,10 +123,10 @@ Når du har oprettet statusser og angivet en projekttype for projektguiden, kan 
 
 Planlægningsmøde:
 
-- Hvad skal konferencen indeholde?
-- Deltagere?
-- Foredragsholdere?
-- Hvor?
+\- Hvad skal konferencen indeholde?
+\- Deltagere?
+\- Foredragsholdere?
+\- Hvor?
 
 ## <a id="add-doc-status" />Tilføj et dokument til en status
 
@@ -134,7 +134,7 @@ Planlægningsmøde:
 2. Klik på **Tilføj** under **Foreslåede dokumenter i denne status**.
 3. I dialogboksen **Foreslået dokument** skal du indtaste navnet på opfølgningen i feltet **Navn**. Dette bør være et beskrivende navn til dokumentet.
 4. Angiv formålet med dokumentet i feltet **Formålet med dette dokument**. Denne tekst vises, når du holder musemarkøren over dokumentet under detaljekortet **Projektguide** i SuperOffice CRM.
-5. Vælg den ønskede skabelon i feltet **Skabelon** (se også [Dokument - Skabelon][4]).
+5. Vælg den ønskede [skabelon][4] i feltet **Skabelon**.
 6. Angiv det emne, der skal bruges i dokumentet, i feltet **Standardoverskrift**.
 7. Indtast en reference i feltet **Vores ref.**. Det kan f.eks. være en [skabelonvariabel][1] for et projektnummer, en projekttitel eller et andet felt, der vedrører projektet.
 8. Klik på **Gem**.
@@ -158,7 +158,7 @@ Planlægningsmøde:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

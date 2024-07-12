@@ -25,7 +25,7 @@ U kunt ook sjablonen maken met een HTML-indeling en de HTML-editor van SuperOffi
 Nadat u een sjabloon hebt gedefinieerd en opgeslagen in de sjabloonmap, moet u [de sjabloon koppelen aan SuperOffice CRM][2] om er documenten van te maken.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: add-template.md
 
 <!-- Referenced images -->

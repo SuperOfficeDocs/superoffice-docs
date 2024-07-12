@@ -20,8 +20,31 @@ items:
     href: send-as-email.md
   - name: Slet dokumenter
     href: delete.md
-  - name: Eksempler på skabelonvariabler
-    href: template-variables.md
+
+- name: Dokumentskabeloner
+  topicHref: ../templates/learn/index.md
+  items:
+  - name: Oversigt
+    href: ../templates/learn/index.md
+  - name: Document types
+    href: ../templates/learn/document-types.md
+  - name: Skabelonvariabler
+    href: ../templates/learn/template-variables.md
+    items:
+    - name: Reference
+      href: ../templates/variables/toc.yml
+      topicHref: ../templates/variables/index.md
+  - name: Troubleshooting
+    href: ../templates/learn/troubleshooting.md
+  - name: Opret dokumentskabelon
+    href: ../templates/learn/create.md
+  - name: Tilføj skabelon
+    href: ../templates/admin/link-template.md
+  - name: Rediger skabelon
+    href: ../templates/admin/update-template.md
+  - name: Dokumentskabeloner på flere sprog
+    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+
   - name: Integration af SharePoint-dokumentbibliotek
     href: ../cloud/sharepoint-documents/learn/index.md
     items:

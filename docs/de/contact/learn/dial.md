@@ -27,6 +27,7 @@ Zu diesem Zweck verwenden Sie die Telefon-Schaltfläche, die z. B. in den Dialog
 3. Klicken Sie auf die Schaltfläche neben dem Feld Person ![Symbol][img1]. Eine Liste von Nummern, die mit der ausgewählten Person verknüpft sind, wird angezeigt.
 4. Wählen Sie die Telefonnummer, die Sie anrufen möchten. Die Person wird daraufhin angerufen.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Anruf von Bereichsregisterkarten (Personen, Selektionsmitglieder, Beteiligte und Teilnehmer)
 
 1. Wechseln Sie zu einer Bereichsregisterkarte, die Personen enthält.
@@ -55,7 +56,7 @@ Wenn ein IP-Telefon, Skype oder FaceTime installiert ist, können Sie aus SuperO
 [Vorlagenvariablen][2] können ebenfalls in den Telefonparametern verwendet werden.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png

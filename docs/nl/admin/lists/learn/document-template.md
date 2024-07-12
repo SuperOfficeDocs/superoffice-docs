@@ -33,7 +33,7 @@ U kunt ook uw eigen sjablonen maken in de toepassingen die u hebt gekozen om te 
 * [Sjabloonvariabelen (Service)][8]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md

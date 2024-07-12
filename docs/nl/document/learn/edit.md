@@ -42,8 +42,7 @@ Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het documen
 
 1. [Dubbelklik op het gewenste document][2]. Het document wordt geopend in een nieuw tabblad met het online tekstbewerkingsprogramma (Office Online).
 
-    > [!NOTE]
-    > Als u uw bewerkingsprogramma op uw bureaublad wilt gebruiken, kiest u **Openen in desktop-app** van Office Online.
+    Als u uw bewerkingsprogramma op uw bureaublad wilt gebruiken, kiest u **Openen in desktop-app** van Office Online.
 
 2. Bewerk het document.
 

@@ -32,7 +32,7 @@ Det er generelt meget nemt at tilføje, redigere og slette lister og forekomster
 * [Salg – Type, Faser, Tilbud][17]
 
 <!-- Referenced links -->
-[1]: document-template.md
+[1]: ../../../document/templates/learn/index.md
 [2]: email-template.md
 [3]: follow-up-type.md
 [4]: country.md

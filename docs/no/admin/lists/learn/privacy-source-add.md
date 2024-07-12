@@ -39,7 +39,7 @@ language: no
     > Slik legger du til forekomster i listen [Personvern - Hjemmel][2].
 
 <!-- Referenced links -->
-[1]: add-template.md
+[1]: ../../../document/templates/admin/link-template.md
 [2]: privacy-legal-base-add.md
 
 <!-- Referenced images -->

@@ -42,8 +42,7 @@ Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er 
 
 1. [Dobbeltklikk på det nødvendige dokumentet][2]. Dokumentet åpnes i en ny fane med det elektroniske tekstredigeringsprogrammet (Office Online).
 
-    > [!NOTE]
-    > Hvis du vil bruke skrivebordsprogrammet for å redigere, kan du velge **Åpne i skrivebordsprogrammet** fra Office Online.
+    Hvis du vil bruke skrivebordsprogrammet for å redigere, kan du velge **Åpne i skrivebordsprogrammet** fra Office Online.
 
 2. Rediger dokumentet.
 

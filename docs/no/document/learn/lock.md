@@ -38,19 +38,17 @@ I de fleste tilfeller kan du [lagre og lukke dokumentet][1] i programmet, og dok
 
 ## Redigeringsmodus og lesemodus
 
-Som standard åpnes et dokument i redigeringsmodus.
-
-> [!NOTE]
-> Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til ![icon][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
+Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til ![icon][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
 
 * Redigeringsmodus: Dokumentet åpnes for redigering. Dokumentet kan ikke redigeres av andre brukere før du lagrer og lukker det, noe som gjør at dokumentet automatisk sjekkes inn.
 
-> [!NOTE]
-> Hvis du ikke vil at et dokument skal sjekkes inn automatisk når du lagrer og lukker det, kan du aktivere alternativet **Foreslå innsjekking når redigeringen er fullført** under **Preferanser** i SuperOffice WebTools.
+    Hvis du ikke vil at et dokument skal sjekkes inn automatisk når du lagrer og lukker det, kan du aktivere alternativet **Foreslå innsjekking når redigeringen er fullført** under **Preferanser** i SuperOffice WebTools.
 
 * Lesemodus: Dokumentet åpnes for lesing. Hvis du gjør endringer i dokumentet, lagres de ikke. Hvis du vil [lagre dokumentet sammen med endringene][1], må du opprette et nytt dokument i SuperOffice CRM og laste opp filen sammen med endringene.
 
 ## Avbryte en utsjekking (gå tilbake til lagret versjon)
+
+Du trenger spesielle privilegier for å få tilgang til dette alternativet. Du trenger også skrivetilgang til dokumentet.
 
 > [!CAUTION]
 > Hvis en annen bruker har sjekket ut et dokument, må du alltid kontakte denne brukeren før du utfører denne prosedyren. Ellers er det en risiko for at du overskriver noen andres endringer, eller at den andre brukeren overskriver endringene når de sjekker inn dokumentet
@@ -61,9 +59,6 @@ Hvis du eller noen andre har sjekket ut et dokument og vil redigere dokumentet, 
 
 1. Høyreklikk på dokumentet og velg **Dokument**.
 2. I skjermbildet Dokument klikker du på ![icon][img1] og velger **Hent lagret versjon**.
-
-> [!NOTE]
-> Du trenger spesielle privilegier for å få tilgang til dette alternativet. Du trenger også skrivetilgang til dokumentet.
 
 <!-- Referenced links -->
 [1]: edit.md

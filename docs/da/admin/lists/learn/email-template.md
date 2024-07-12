@@ -25,7 +25,7 @@ Du kan også oprette dine egne skabeloner. Det gør du ved at indsætte [skabelo
 1. Gør e-mailskabelonen tilgængelig for de ønskede brugergrupper. Se [Brugergruppefiltrering][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

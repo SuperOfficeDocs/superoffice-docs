@@ -47,7 +47,7 @@ Om du har skapat ett offertdokument för en offert, men vill använda ett annat 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../document/learn/screen/index.md
-[3]: ../../document/learn/template-variables.md
+[3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
 

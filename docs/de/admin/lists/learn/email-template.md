@@ -25,7 +25,7 @@ Sie können auch eigene Vorlagen erstellen. Geben Sie zu diesem Zweck [Vorlagenv
 1. Machen Sie die E-Mail-Vorlage in den gewünschten Benutzergruppen verfügbar. Siehe [Benutzergruppe filtern][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

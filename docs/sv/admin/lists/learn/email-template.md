@@ -25,7 +25,7 @@ Du kan också skapa egna mallar. Det gör du genom att lägga till [mallvariable
 1. Gör e-postmallen tillgänglig för de användargrupper som behöver använda den. Se [Användargruppfiltrering][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

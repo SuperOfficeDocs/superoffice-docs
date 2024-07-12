@@ -36,7 +36,7 @@ Dokumente innerhalb der Bibliothek erben die Berechtigung von der Bibliothek sel
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../../admin/lists/learn/add-template.md
+[2]: ../../../templates/admin/link-template.md
 [3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 
 <!-- Referenced images -->

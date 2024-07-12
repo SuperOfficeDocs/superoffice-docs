@@ -40,20 +40,7 @@ items:
   - name: Überblick
     href: specialized-lists.md
   - name: Dokumentvorlage
-    topicHref: document-template.md
-    items:
-    - name: Überblick
-      href: document-template.md
-    - name: Standardvorlagen bearbeiten
-      href: using-standard-templates.md
-    - name: Eine Dokumentvorlage erstellen
-      href: creating-template-document.md
-    - name: Vorlage hinzufügen
-      href: add-template.md
-    - name: Vorhandene Vorlage ersetzen
-      href: replace-existing-template.md
-    - name: Dokumentvorlagen in mehreren Sprachen
-      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    topicHref: ../../../document/templates/learn/index.md
   - name: E-Mail-Vorlage
     href: email-template.md
     items:

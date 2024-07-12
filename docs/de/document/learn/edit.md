@@ -42,8 +42,7 @@ Verwenden Sie die Ansicht Dokument, um die Dokumenteigenschaften zu ändern, wie
 
 1. [Doppelklicken Sie auf das gewünschte Dokument][2]. Das Dokument wird mit dem Online-Textbearbeitungsprogramm (Office Online) auf einer neuen Registerkarte geöffnet.
 
-    > [!NOTE]
-    > Wenn Sie das Desktop-Textbearbeitungsprogramm verwenden möchten, können Sie von Office Online **In Desktop-App öffnen** auswählen.
+    Wenn Sie das Desktop-Textbearbeitungsprogramm verwenden möchten, können Sie von Office Online **In Desktop-App öffnen** auswählen.
 
 2. Bearbeiten Sie das Dokument.
 

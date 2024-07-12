@@ -43,6 +43,31 @@ Standardskabelonerne indeholder skabelonvariabler, der erstattes med data fra Su
 
 6. Valgfrit: Test signaturen ved at sende en e-mail til dig selv (for e-mail-signaturer) eller ved at oprette en ny sag (for anmodningssignaturer). Kontroller, at alle oplysninger vises korrekt, og at linkene fungerer, og billederne vises som de skal.
 
+## Eksempel
+
+Dette er et eksempel på en signatur, der kan bruges af alle i virksomheden.
+
+```text
+Venlig hilsen
+{auth}
+{atit}
+{onam}
+Adresse: {opad}, {ozip} {ocit}
+Telefon: {audp}
+Mobiltelefon: {aupc}
+{auem}
+
+Med venlig hilsen
+John Hansen
+Salgschef
+SuperShop
+Adresse: Højgade 12, 2234, Springfelt
+Telefon: 22334455
+Mobiltelefon: 99887766
+jh@supershop.com
+supershop.com
+```
+
 ## Relaterede emner
 
 * [Skift standard e-mailklient i SuperOffice][1]

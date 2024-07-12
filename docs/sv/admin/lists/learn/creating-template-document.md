@@ -25,7 +25,7 @@ Du kan också skapa mallar i HTML-format och redigera dem med SuperOffices redig
 När du har definierat en mall och sparat den i mallmappen måste du [koppla mallen till SuperOffice CRM][2] för att kunna skapa dokument från den.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/template-variables.md
+[1]: ../../../document/templates/learn/template-variables.md
 [2]: add-template.md
 
 <!-- Referenced images -->

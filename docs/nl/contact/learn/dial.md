@@ -27,6 +27,7 @@ U gebruikt hiervoor de telefoonknop in bijvoorbeeld de dialoogvensters **Afspraa
 3. Klik op de knop naast het veld persoon ![pictogram][img1]. Er wordt een lijst met nummers weergegeven voor de geselecteerde persoon.
 4. Selecteer het nummer dat u wilt bellen. De persoon wordt vervolgens gebeld.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Bellen vanuit sectietabbladen (met contactpersonen, selectieleden, belanghebbenden, deelnemers)
 
 1. Ga naar een sectietabblad met personen.
@@ -55,7 +56,7 @@ Als IP-telefoon, Skype of Facetime is geïnstalleerd, kunt u telefoneren vanuit 
 Er kunnen ook [sjabloonvariabelen][2] worden gebruikt in de telefoonparameters.
 
 <!-- Referenced links -->
-[2]: ../../document/learn/template-variables.md
+[2]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/phone.png

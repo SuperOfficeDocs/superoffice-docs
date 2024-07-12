@@ -25,7 +25,7 @@ U kunt ook uw eigen sjablonen maken. Dit doet u door [sjabloonvariabelen][2] in 
 1. De e-mailsjabloon beschikbaar maken voor de gebruikersgroepen. Zie [Gebruikersgroepen filteren][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

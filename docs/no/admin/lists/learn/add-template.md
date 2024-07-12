@@ -99,7 +99,7 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 * [Erstatte eksisterende mal][1]
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [5]: ../../../document/learn/index.md
 [1]: replace-existing-template.md
 [4]: ../../../sale/saint/learn/index.md

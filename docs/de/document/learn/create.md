@@ -2,9 +2,9 @@
 uid: help-de-document-create
 title: Neues Dokument erstellen
 description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: Dokument
+author: Bergfrid Dias
+date: 07.12.2024
 topic: howto
 language: de
 ---
@@ -31,8 +31,7 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 
 3. Klicken Sie auf die Schaltfläche **Erstellen**, um ein neues Dokument auf Grundlage der ausgewählten Dokumentvorlage zu erstellen. Das Dokument wird in SharePoint erstellt und auf einer neuen Registerkarte mit der Online-Anwendung zur Textbearbeitung (Office Online) geöffnet.
 
-    > [!NOTE]
-    > Wenn Sie das Desktop-Textbearbeitungsprogramm verwenden möchten, können Sie von Office Online **In Desktop-App öffnen** auswählen.
+    Wenn Sie das Desktop-Textbearbeitungsprogramm verwenden möchten, können Sie von Office Online **In Desktop-App öffnen** auswählen.
 
 4. Geben Sie den Inhalt des Dokuments ein.
 
@@ -43,11 +42,13 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum Bearbeiten manuell herunterladen. Danach müssen Sie die bearbeiteten Dokumente auch wieder auf den zentralen Server hochladen.
 
 > [!NOTE]
-> In diesem Verfahren wird beschrieben, wie Sie mit einem Desktop-Textbearbeitungsprogramm neue Dokumente erstellen. Die tatsächliche Schritte können mit einem Online-Textbearbeitungstool (wie Microsoft Office Online) und einer Dokumentbibliothek (wie SharePoint) leicht abweichen.
+> In diesem Verfahren wird beschrieben, wie Sie mit einem Desktop-Textbearbeitungsprogramm neue Dokumente erstellen. Die tatsächliche Schritte können mit einem Online-Textbearbeitungstool (wie Microsoft 365) und einer Dokumentbibliothek (wie SharePoint) leicht abweichen.
 
 1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 
 2. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein][2].
+
+    ![Create document from template -screenshot][img3]
 
 3. Klicken Sie auf die Schaltfläche **Erstellen**, um ein neues Dokument auf Grundlage der ausgewählten Dokumentvorlage zu erstellen. Das Dokument wird auf dem Server erstellt.
 
@@ -58,6 +59,9 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
     * **Öffnen**: Wenn Sie auf **Öffnen** klicken, wird das Dokument im Textbearbeitungsprogramm geöffnet. Geben Sie den Inhalt des Dokuments ein und wählen Sie **Datei** > **Speichern unter**, um die Datei am gewünschten Ort auf Ihrem PC zu speichern.
 
     * **Speichern**: Wenn Sie auf **Speichern** klicken, wird das Dialogfeld **Speichern unter** angezeigt. Geben Sie an, wo Sie die Datei auf Ihrem PC speichern möchten, und klicken Sie anschließend auf **Speichern**, um das Herunterladen zu starten. Klicken Sie auf **Schließen**, nachdem der Herunterladen-Vorgang fertiggestellt wurde. Öffnen Sie den Windows Explorer und navigieren Sie zum soeben gespeicherten Dokument. Öffnen Sie das Dokument, geben Sie den erforderlichen Text ein und speichern Sie das Dokument.
+
+    > [!NOTE]
+    > Änderungen am Dokument werden in SuperOffice nicht automatisch gespeichert. Wenn Sie ein solches Verhalten wünschen, empfehlen wir die Installation von [SuperOffice WebTools][3].
 
 6. Schließen Sie das Textbearbeitungsprogramm.
 
@@ -95,10 +99,11 @@ Bei SuperOffice CRM können Sie sich über einen Browser von jedem PC aus anmeld
 <!-- Referenced links -->
 [1]: upload.md
 [2]: screen/index.md
-[3]: ../../webtools/learn/index.md
+[3]: ../../webtools/learn/install.md
 [4]: send-as-email.md
-[5]: ../../admin/lists/learn/add-template.md
+[5]: ../templates/admin/link-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
+[img3]: ../../../media/loc/en/document/create-document.png

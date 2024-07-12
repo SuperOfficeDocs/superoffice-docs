@@ -87,7 +87,7 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [3]: sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../sale/saint/learn/index.md

@@ -25,7 +25,7 @@ Du kan også opprette dine egne maler. Dette gjør du ved å legge inn [malvaria
 1. Gjør e-postmalen tilgjengelig for de nødvendige brukergruppene. Se [Brukergruppefiltrering][5].
 
 <!-- Referenced links -->
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

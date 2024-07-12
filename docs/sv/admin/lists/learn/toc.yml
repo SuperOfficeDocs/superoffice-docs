@@ -40,20 +40,7 @@ items:
   - name: Översikt
     href: specialized-lists.md
   - name: Dokumentmall
-    topicHref: document-template.md
-    items:
-    - name: Översikt
-      href: document-template.md
-    - name: Redigera standardmallar
-      href: using-standard-templates.md
-    - name: Skapa dokumentmall
-      href: creating-template-document.md
-    - name: Lägga till mall
-      href: add-template.md
-    - name: Ersätta befintlig mall
-      href: replace-existing-template.md
-    - name: Dokumentmallar på flera språk
-      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    topicHref: ../../../document/templates/learn/index.md
   - name: E-post - mall
     href: email-template.md
     items:

@@ -123,10 +123,10 @@ The changes are saved automatically. The project guide will now be displayed in 
 
 Planning meeting:
 
-- What should the conference cover?
-- Attendees?
-- Speakers?
-- Where?
+\- What should the conference cover?
+\- Attendees?
+\- Speakers?
+\- Where?
 
 ## <a id="add-doc-status" />Add a document for a status
 

@@ -134,7 +134,7 @@ Recherche:
 2. Klicken Sie unter **Vorgeschlagene Dokumente in Status** auf **Hinzufügen**.
 3. Geben Sie im Dialogfeld **Vorgeschlagenes Dokument** den Namen des Dokuments in das Feld **Name** ein. Es sollte sich dabei um eine aussagekräftige Bezeichnung des Dokuments handeln.
 4. Geben Sie den Zweck des Dokuments in das Feld **Zweck dieses Dokuments** ein. Dieser Text wird angezeigt, wenn Sie den Mauszeiger auf der Bereichsregisterkarte **Projektleitfaden** in SuperOffice CRM auf das Dokument bewegen.
-5. Wählen Sie die gewünschte Vorlage im Feld **Vorlage** aus (siehe auch [Dokument - Vorlage][4]).
+5. Wählen Sie die gewünschte [Vorlage][4] im Feld **Vorlage** aus.
 6. Wählen Sie den im Dokument zu verwendenden Betreff im Feld **Standardbetreff** aus.
 7. Geben Sie Ihr Zeichen in das Feld **Unser Zeichen** ein. Hier können Sie zum Beispiel eine [Vorlagenvariable][1] für eine Projektnummer, einen Projekttitel oder ein anderes Feld angeben, das mit dem Projekt verknüpft ist.
 8. Klicken Sie auf **Speichern**.
@@ -158,7 +158,7 @@ Recherche:
 [1]: ../../../../en/document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../admin/lists/learn/document-template.md
+[4]: ../../../document/templates/learn/index.md
 [5]: edit.md
 [6]: deactivate.md
 

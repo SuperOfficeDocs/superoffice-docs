@@ -27,7 +27,6 @@ language: de
 * [Dokumente öffnen][3]
 * [Dokumente ein-/auschecken][5]
 * [Dokumente bearbeiten][4]
-* [WebTools][6]
 
 <!-- Referenced links -->
 [1]: screen/index.md
@@ -35,7 +34,6 @@ language: de
 [3]: open.md
 [4]: edit.md
 [5]: lock.md
-[6]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-not-completed-small.png
