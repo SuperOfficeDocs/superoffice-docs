@@ -1,29 +1,29 @@
 ---
-uid: help-en-document-template-link
-title: Link a document template
-description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
-keywords: document, template, list
+uid: help-nl-document-template-link
+title: Een documentsjabloon toevoegen
+description: In deze handleiding leert u hoe u een nieuwe documentsjabloon toevoegt aan SuperOffice CRM.
+keywords: document, sjabloon, lijst
 author: Bergfrid Dias
 date: 07.12.2024
 version: 10
 topic: howto
-language: en
+language: nl
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Link a document template
+# Een documentsjabloon toevoegen
 
-If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
+Als u nieuwe sjablonen maakt of een standaardsjabloon wijzigt en hebt opgeslagen onder een andere bestandsnaam, moet u de sjablonen koppelen met SuperOffice CRM, zodat het programma de sjablonen kan vinden wanneer u documenten opstelt in SuperOffice CRM.
 
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
+Sjablonen worden weergegeven als items in de lijst **Document - Sjabloon** en u koppelt een sjabloon met SuperOffice CRM door de sjabloon als een item in te voeren in de lijst.
 
-Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
+Bekijk deze video of volg de onderstaande stappen om te leren hoe u een documentsjabloon kunt toevoegen (videolengte - 2:30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
 
-## Steps
+## Stappen
 
 1. In Settings and maintenance, select **Lists** (1) in the Navigator.
 
@@ -33,89 +33,89 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
     ![Add document template -screenshot][img3]
 
-1. Enter the required name of the item in the **Name** field (1).
+1. Typ de gewenste naam voor het item in het veld **Naam** (1).
 
     ![Edit list item -screenshot ][img2]
 
-1. Optionally, choose where to store the document template, in the **Store template in** list (2).
+1. Als u wilt kunt u aangeven waar de documentsjabloon wordt opgeslagen in de lijst **Sjabloon opslaan in** (2).
 
-1. You now have two options:
+1. U hebt nu twee opties:
 
-    * Upload a new document template:
+    * Een nieuwe documentsjabloon uploaden:
 
-        1. Click **Copy an existing document template file**.
-        2. Click the **Copy template** list.
-        3. Select the required template from the list.
+        1. Klik op **Een bestaande documentsjabloonbestand kopiëren**.
+        2. Klik op de lijst **Sjabloon** kopiëren.
+        3. Selecteer de gewenste sjabloon in de lijst.
 
-    * Copy an existing template in SuperOffice:
+    * Een bestaande sjabloon kopiëren in SuperOffice:
 
-        1. Select **Upload a new document template from disk** (3).
-        2. Click the **Upload** button.
-        3. Click **Upload file** in the **Upload file** dialog.
-        4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
+        1. Selecteer **Een nieuw documentsjabloon uploaden vanaf schijf** (3).
+        2. Klik op de knop **Uploaden**.
+        3. Klik op **Bestand uploaden** in het dialoogvenster **Bestand uploaden**.
+        4. Selecteer het gewenste bestand en klik op **Openen**. De naam van het bestand wordt weergegeven in het dialoogvenster **Item in lijst bewerken**.
 
-1. Click **Save** in the **Edit list item** dialog. The dialog is updated.
+1. Klik op **Opslaan** in het dialoogvenster **Item in lijst bewerken**. Het dialoogvenster wordt bijgewerkt.
 
-1. Optionally, change the template name and, if required, click **Edit** to edit the template file itself.
+1. Optioneel: Bewerk indien nodig de sjabloonnaam en klik op **Bewerken** om het sjabloonbestand zelf te bewerken.
 
-1. Enter the required information in the **Details** and **Languages** tabs.
+1. Geef de vereiste informatie op in de tabbladen **Details** en **Talen**.
 
-1. Click **Save**. The template is added as a separate item in the **Items** list and is now available in the CRM client:
+1. Klik op **Opslaan**. De sjabloon wordt als een afzonderlijk item toegevoegd aan de lijst **Items** and is now available in the CRM client:
 
 ![New document -screenshot][img4]
 
 ![New document dialog -screenshot][img5]
 
 > [!TIP]
-> Repeat this procedure to add more templates.
+> Herhaal deze procedure voor alle sjablonen die u wilt toevoegen.
 
-## Details tab
+## Tabblad Details
 
-Enter the following information in the **Details** tab:
+Geef de volgende informatie op op het tabblad **Details**:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
+1. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op de pijl ![pictogram][img1] en een keuze te maken in de keuzelijst.
 
-2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
+2. Kies in het veld **Documenttype** de optie **Document** of **Fax** als sjabloontype.
 
-3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
+3. In het veld **Document opgeslagen in** kunt u kiezen om het document op een andere plaats dan op de standaardplaats op te slaan.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+4. Klik in het veld **Intentie** op ![pictogram][img1] en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
 
     > [!TIP]
-    > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    >U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
 
-5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
+5. Lokaal: Schakel de optie **Publiceren** in als u in het Documentscherm wilt kunnen opgeven dat de desbetreffende documentsjabloon beschikbaar moet zijn voor externe gebruikers.
 
-6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
+6. Lokaal: Schakel de optie **Opslaan in database** in om op te geven of documenten die u maakt met deze sjabloon, worden opgeslagen in de documentdatabase. Als u deze optie hebt ingeschakeld, wordt het document weergegeven op het sectietabblad **Activiteiten**. Zo niet, wordt het document niet weergegeven in SuperOffice CRM nadat u het hebt gemaakt en kan het niet via het programma worden geopend.
 
-7. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
+7. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of orderbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
 
     ![Reference list item -screenshot][img8]
 
-8. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
+8. Geef met behulp van de sjabloonvariabelen de standaardinstelling op voor het veld **Onze referentie (standaard)** (5), bijvoorbeeld *auteur* voor de voor- en achternaam van de afzender, of {oref}
 
-9. Optionally, type in a description of the template in the **Description** field.
+9. Typ zo nodig een beschrijving voor de sjabloon in het veld **Beschrijving**.
 
     > [!TIP]
-    > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog.
+    > U kunt de sjabloon rechtstreeks bewerken vanuit het dialoogvenster Item in lijst **bewerken** door te klikken op de knop **Bewerken**.
 
-## Languages tab
+## Tabblad Talen
 
-Here you can add translated versions of the document template.
+Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 
-1. Click **Add**.
+1. Klik op **Toev.**
 
     ![Add languages -screenshot][img6]
 
-1. In the **Edit list item** dialog, select the language you require in the **Add language** list.
+1. Selecteer in het dialoogvenster **Item in lijst bewerken** de gewenste taal in de lijst **Taal toevoegen**.
 
-1. Add the translated document template as described above.
+1. Voeg het vertaalde documentsjabloon toe zoals hierboven beschreven.
 
     ![Deutch document upload -screenshot][img7]
 
-1. Click **Add**. The language is listed in the **Languages** tab.
+1. Klik op **Toevoegen**. De taal is toegevoegd aan het tabblad **Talen**.
 
-1. Repeat the steps above to add additional languages.
+1. Herhaal de stappen hierboven om extra talen toe te voegen.
 
 ## Related topics
 

@@ -40,7 +40,7 @@ items:
     href: ../templates/learn/create.md
   - name: Sjabloon toevoegen
     href: ../templates/admin/link-template.md
-  - name: Sjablon bewerken
+  - name: Sjabloon bewerken
     href: ../templates/admin/update-template.md
   - name: Documentsjablonen in meerdere talen
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md

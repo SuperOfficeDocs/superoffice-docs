@@ -1,33 +1,33 @@
 ---
-uid: help-en-document-template-create
-title: Create a template document
-description: How to create a template document
+uid: help-nl-document-template-create
+title: Een sjabloondocument maken
+description: Een sjabloondocument maken
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 06.29.2022
 topic: howto
-language: en
+language: nl
 ---
 
-# Create a template document
+# Een sjabloondocument maken
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
+Om ervoor te zorgen dat iedereen in uw bedrijf dezelfde documenten gebruikt, kunt u uw eigen documentsjablonen voor verschillende bestandstypen maken en toevoegen. Gebruik de beschikbare sjabloonvariabelen om de invoer van klantgegevens in uw documenten te personaliseren en te automatiseren.
 
-You create a template as a document in an application which is linked to SuperOffice CRM, for example, a word-processing program. If you create the template in Word, you must save it as a normal document (with the file type **DOC** or **DOCX**), and not as a template (with the file type **DOT** or **DOTX**).
+U maakt een sjabloon als een document in een toepassing die is gekoppeld met SuperOffice CRM 5, bijvoorbeeld een tekstverwerkingsprogramma. Als u de sjabloon maakt in Word, moet u de sjabloon opslaan als een normaal document (bestandstype **DOC** of **DOCX**) en niet als sjabloondocument (bestandstype **DOT** of **DOTX**).
 
-You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
+U kunt ook sjablonen maken met een HTML-indeling en de HTML-editor van SuperOffice gebruiken om de sjabloon te bewerken.
 
 > [!TIP]
-> To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
+> Als u nieuwe sjablonen wilt toevoegen, kunt u eenvoudig een bestaand documentsjabloonbestand kopiëren en dit aanpassen aan uw wensen.
 
-## Steps
+## Stappen
 
-1. Start the required application.
-2. Create a new document.
-3. Insert the [template variables][1] you want to use in the template, for example, variables for name, address and telephone number.
-4. Save the template document somewhere where you can find it easily again.
+1. Start de benodigde toepassing.
+2. Maak een nieuw document.
+3. Voeg de gewenste [sjabloonvariabelen][1] toe die u wilt gebruiken in de sjabloon, bijvoorbeeld variabelen voor naam, adres en telefoonnummer.
+4. Sla het sjabloondocument op een plaats op die u gemakkelijk weer kunt vinden.
 
-After you define a template and save it in the template folder, an administrator must [link the template to SuperOffice CRM][2] to create documents from it.
+Nadat u een sjabloon hebt gedefinieerd en opgeslagen in de sjabloonmap, moet u [de sjabloon koppelen aan SuperOffice CRM][2] om er documenten van te maken.
 
 <!-- Referenced links -->
 [1]: template-variables.md

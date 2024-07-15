@@ -41,30 +41,6 @@ Door sjablonen te maken voor veelgebruikte documenten en deze voor iedereen besc
 
 In SuperOffice CRM kunt u eenvoudig documentsjablonen maken voor Word, E-mail, Excel, PowerPoint en andere bestandstypen.
 
-### Voordelen van het maken van documentsjablonen
-
-* Iedereen bespaart tijd wanneer ze een nieuw document maken, omdat ze geen informatie hoeven in te voeren die meestal in elk document wordt herhaald, zoals de naam en het adres van de klant. Door sjabloonvariabelen te gebruiken, voegt SuperOffice CRM automatisch de klantgegevens toe wanneer u uw volgende document maakt.
-
-* U zorgt ervoor dat uw contacten documenten ontvangen die een uniforme, professionele uitstraling hebben, inclusief uw logo en huisstijl.
-
-* U zorgt ervoor dat alle gebruikers toegang hebben tot juridische tekst die belangrijk is voor uw bedrijf, zoals algemene voorwaarden en dergelijke, en deze kunnen gebruiken.
-
-* U kunt zelfs lijsten maken en bedrijven vinden die een documentsjabloon gemeen hebben.
-
-## Hoe SuperOffice CRM de juiste taalsjabloon selecteert
-
-SuperOffice CRM heeft meerdere standaardsjablonen beschikbaar in 12-16 talen, afhankelijk van het sjabloontype. Dit omvat e-mailsjablonen en GDPR-sjablonen (12 talen).
-
-Om ervoor te zorgen dat u (waar mogelijk) met uw klanten kunt communiceren in hun eigen taal, voert SuperOffice CRM automatisch een taalcontrole uit om te bepalen welke taalsjabloon moet worden gebruikt. Relevant bij het verzenden van uitnodigingsmails en bij het melden van nieuwe contacten dat hun gegevens zijn opgeslagen. Voor AVG-gerelateerde communicatie is dit ook een vereiste.
-
-**Stappen:**
-
-1. Is er een voorkeurstaal ingesteld voor de contactpersoon? Is er een sjabloon beschikbaar in deze taal?
-2. Kan het land van de contactpersoon worden toegewezen aan een overeenkomstige taal?
-3. Wat is de voorkeursdocumenttaal voor de ingelogde gebruiker en is er een sjabloon beschikbaar in deze taal?
-4. Wat is de taal van de gebruikersinterface voor de ingelogde gebruiker en is er een sjabloon beschikbaar in deze taal?
-5. Als er geen taal wordt gevonden, wordt de Engelse sjabloon gebruikt.
-
 ## Verwante onderwerpen
 
 * [E-mail, documenten en agenda verbinden][9]

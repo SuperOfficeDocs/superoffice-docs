@@ -1,45 +1,49 @@
 ---
-uid: help-en-document-template-update
-title: Update document template
-description: Edit standard template
+uid: help-nl-document-template-update
+title: Sjabloon bewerken
+description: Standaardsjablonen bewerken; Bestaande sjabloon vervangen
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10
 topic: howto
-language: en
+language: nl
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Update document template
+# Sjabloon bewerken
 
-You can edit the standard templates supplied with SuperOffice CRM and save them with your own names. Using the standard templates as a basis, you can, for example, change the font and font size, insert graphics and replace or add fields.
+U kunt de standaardsjablonen van SuperOffice CRM bewerken en onder een naam van uw keuze opslaan. U kunt bijvoorbeeld een standaardsjabloon als basis gebruiken voor een eigen sjabloon en het lettertype en de lettergrootte wijzigen, afbeeldingen invoegen en velden vervangen of toevoegen.
 
-## Edit standard template
+## Standaardsjablonen bewerken
 
-1. In Settings and maintenance, select **Lists** in the Navigator.
-2. Click the arrow and select **Document - Template**.
-3. Double-click the required item in the **Items** list.
-4. In the dialog, click the **Edit** button. The document opens in the correct application.
-5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
-    If you chose a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
+1. In Instellingen en onderhoud, select **Lists** in the Navigator.
+
+2. Click the arrow and select **Document - Sjabloon**.
+
+3. Dubbelklik op het gewenste item in de lijst **Items**.
+
+4. Klik in het dialoogvenster op de knop **Bewerken**. Het document wordt geopend in de juiste toepassing.
+
+5. Sla het document op onder een nieuwe naam als u de oorspronkelijke sjabloon wilt bewaren of onder dezelfde naam als u de oorspronkelijke sjabloon wilt overschrijven.
+    Als u een standaardsjabloon opslaat onder een nieuwe naam, hebt u een nieuwe sjabloon gemaakt. U moet [deze sjabloon koppelen met SuperOffice CRM][1].
 
 > [!CAUTION]
-> Do not change the file names of the system templates as this will prevent the functions included in them from working.
+> Wijzig niet de namen van de systeemsjablonen. Als u de namen wel wijzigt, werken de functies in deze sjablonen namelijk niet meer.
 
-## Replace existing template
+## Bestaande sjabloon vervangen
 
-1. Download and edit the document template, and save it on your disk.
-2. Rename or delete the "old" document template in SuperOffice.
-3. Upload the revised document template to SuperOffice.
+1. Download en bewerk de documentsjabloon en sla deze op uw schijf op.
+2. Hernoem of verwijder de "oude" documentsjabloon in SuperOffice.
+3. Upload de herziene documentsjabloon naar SuperOffice.
 
 > [!NOTE]
-> If you try to replace the existing document template without changing the name, SuperOffice will rename the updated version of the template.
+> Als u probeert de bestaande documentsjabloon te vervangen zonder de naam te wijzigen, wordt de bijgewerkte versie van de sjabloon door SuperOffice hernoemd.
 
 ## Related topics
 
-* [Create a template document][2]
+* [Een sjabloondocument maken][2]
 * [Template variable reference][3]
 
 <!-- Referenced links -->

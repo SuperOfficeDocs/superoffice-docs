@@ -1,62 +1,62 @@
 ---
-uid: help-en-document-template
-title: Document templates
-description: Introduction to document templates
+uid: help-nl-document-template
+title: Documentsjabloon
+description: Documentsjabloon
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
 topic: concept
-language: en
+language: nl
 ---
 
-# Document templates
+# Documentsjabloon
 
-It is important for an organization's profile that letters, faxes and other documents have a distinctive and consistent appearance. This means that all documents sent out by the organization should use the same fonts, margins, logos and so on. By creating templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence.
+Het is belangrijk voor het profiel van een organisatie dat brieven, faxen en andere documenten een duidelijke en uniforme vormgeving hebben. Dit betekent dat alle uitgaande documenten dezelfde lettertypen, marges, logo's, enzovoort moeten hebben. Door sjablonen speciaal voor uw organisatie te maken, zorgt u ervoor dat de contactpersonen van uw organisatie eenvoudig de correspondentie van uw organisatie herkennen.
 
-The templates can contain variables that extract information from the SuperOffice database and enter it into the document automatically.
+De sjablonen bevatten variabelen die informatie ophalen uit de SuperOffice-database en deze automatisch invoeren in het document.
 
-SuperOffice CRM has a set of [standard templates][2] that you can use immediately after installing the program. These templates are used when you create documents from SuperOffice CRM.
+SuperOffice CRM wordt geleverd met een aantal [standaardsjablonen][2] die u direct kunt gebruiken nadat u het programma hebt geïnstalleerd. Deze sjablonen worden gebruikt voor het maken van documenten van SuperOffice CRM.
 
-You can edit the templates that are supplied with SuperOffice CRM.
+U kunt de meegeleverde sjablonen van SuperOffice CRM bewerken.
 
-You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM. You do this by entering [template variables][1] in the template documents.
+U kunt ook uw eigen sjablonen maken in de toepassingen die u hebt gekozen om te gebruiken samen met SuperOffice CRM. Dit doet u door [sjabloonvariabelen][1] in te voeren in de sjabloondocumenten.
 
-## Benefits of creating document templates
+## Voordelen van het maken van documentsjablonen
 
-* Everyone saves time whenever they create a new document, because they do not have to enter information that is typically repeated in each document, such as customer name and address. By using template variables, SuperOffice CRM will automatically add the customer's information when you create your next document.
+* Iedereen bespaart tijd wanneer ze een nieuw document maken, omdat ze geen informatie hoeven in te voeren die meestal in elk document wordt herhaald, zoals de naam en het adres van de klant. Door sjabloonvariabelen te gebruiken, voegt SuperOffice CRM automatisch de klantgegevens toe wanneer u uw volgende document maakt.
 
-* You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
+* U zorgt ervoor dat uw contacten documenten ontvangen die een uniforme, professionele uitstraling hebben, inclusief uw logo en huisstijl.
 
-* You ensure that all users can access and use legal text that is important to your business, such as terms and conditions and similar.
+* U zorgt ervoor dat alle gebruikers toegang hebben tot juridische tekst die belangrijk is voor uw bedrijf, zoals algemene voorwaarden en dergelijke, en deze kunnen gebruiken.
 
-* You can even create lists and find companies that have a document template in common.
+* U kunt zelfs lijsten maken en bedrijven vinden die een documentsjabloon gemeen hebben.
 
-## How SuperOffice CRM selects the correct language template
+## Hoe SuperOffice CRM de juiste taalsjabloon selecteert
 
-SuperOffice CRM has multiple default templates available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
+SuperOffice CRM heeft meerdere standaardsjablonen beschikbaar in 12-16 talen, afhankelijk van het sjabloontype. Dit omvat e-mailsjablonen en GDPR-sjablonen (12 talen).
 
-To ensure that you can communicate with your clients in their own language (where possible), SuperOffice CRM will automatically perform a language check to determine which language temple to use. Relevant when sending out invitation emails, and when notifying new contacts that their details were saved. For GDPR related communication, this is also an requirement.
+Om ervoor te zorgen dat u (waar mogelijk) met uw klanten kunt communiceren in hun eigen taal, voert SuperOffice CRM automatisch een taalcontrole uit om te bepalen welke taalsjabloon moet worden gebruikt. Relevant bij het verzenden van uitnodigingsmails en bij het melden van nieuwe contacten dat hun gegevens zijn opgeslagen. Voor AVG-gerelateerde communicatie is dit ook een vereiste.
 
-**Steps:**
+**Stappen:**
 
-1. Is a preferred language set for the contact? Is a template is available in this language?
-2. Can the contact's country be mapped to a corresponding language?
-3. What is the preferred document language for the logged-in user, and is a template available in this language?
-4. What is the user interface language for the logged-in user, and is a template available in this language?
-5. If no language is found, the English template is used.
+1. Is er een voorkeurstaal ingesteld voor de contactpersoon? Is er een sjabloon beschikbaar in deze taal?
+2. Kan het land van de contactpersoon worden toegewezen aan een overeenkomstige taal?
+3. Wat is de voorkeursdocumenttaal voor de ingelogde gebruiker en is er een sjabloon beschikbaar in deze taal?
+4. Wat is de taal van de gebruikersinterface voor de ingelogde gebruiker en is er een sjabloon beschikbaar in deze taal?
+5. Als er geen taal wordt gevonden, wordt de Engelse sjabloon gebruikt.
 
-## How to add a template document
+## Een sjabloondocument toevoegen
 
-1. [Add and define the document template][6] in Settings and maintenance.
-1. [Specify user groups][5] for the document template.
+1. [De documentsjabloon toevoegen en definiëren][6] in Instellingen en onderhoud.
+1. De documentsjabloon beschikbaar maken voor de [gebruikersgroepen][5].
 
 ## Related content
 
 * [Edit or replace a template][2]
-* [Create a template document][4]
-* [Look at template variables][1]
-* [Reply template variables (Service)][8]
+* [Een sjabloondocument maken][4]
+* [Sjabloonvariabelen bekijken][1]
+* [Sjabloonvariabelen (Service)][8]
 * [Quote templates][7]
 
 <!-- Referenced links -->

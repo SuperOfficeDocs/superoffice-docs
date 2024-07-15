@@ -1,130 +1,133 @@
 ---
-uid: help-en-template-variables
-title: Template variables
-description: With template variables you can personalize and automate the input of customer data.
-keywords: document, template, variable
+uid: help-nl-template-variables
+title: Sjabloonvariabelen
+description: Met sjabloonvariabelen kunt u de invoer van klantgegevens personaliseren en automatiseren
+keywords: document, sjabloon, variable
 author: Bergfrid Dias
 date: 07.11.2024
 topic: concept
-language: en
+language: nl
 ---
 
-# Template variables
+# Sjabloonvariabelen
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
+Sjabloonvariabelen worden gebruikt om gegevens van SuperOffice in te voegen in e-mails, offerten, vergaderingsmeldingen, documentsjablonen enz. U kunt sjabloonvariabelen gebruiken om de invoer van klantgegevens (of gegevens van contact, verkoop en andere) in uw inhoud te personaliseren en te automatiseren en complexe offertes op te stellen.
 
-## Example: How to personalize an email using template variables
+## Voorbeeld: een e-mail personaliseren met sjabloonvariabelen
 
-Instead of this text:
+In plaats van deze tekst:
 
-"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us."
+"Beste klant. Wilt u meer weten over hoe ons product uw bedrijf kan helpen nieuwe klanten te krijgen? Aarzel niet ons te bellen."
 
-you can send this one:
+kunt u de volgende tekst verzenden:
 
-"Hi Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
+"Hallo Chris. Wilt u meer weten over hoe ons product Car Care Ltd kan helpen nieuwe klanten te winnen? Bel Jan Weber bij SuperShop."
 
-The text you enter will look like this:
+De ingevoerde tekst ziet er als volgt uit:
 
-"Hi **{atfn}**. Would you like to know more about how our product can help **{name}** win new customers? Please call **{cont}** at **{onam}**."
+"Hallo **{atfn}**, Wilt u meer weten over hoe ons product **{name}** kan helpen nieuwe klanten te winnen? Bel dan **{cont}** op **{onam}**."
 
 ## How to use template variables
 
-* The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
+* Voor de gehele variabele moet u Ã©Ã©n lettertype en Ã©Ã©n lettergrootte gebruiken. Bovendien moet u alleen kleine letters typen. Als de voorkeur **Hoofdlettergevoelige sjabloonvariabelen gebruiken** echter is ingeschakeld, kan de sjabloonvariabele worden opgemaakt.
 
-* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company's name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* U kunt gewone tekst en variabelen door elkaar gebruiken in het sjabloondocument: U kunt bijvoorbeeld sjabloonvariabelen invoeren die de naam en het adres van een bedrijf ophalen, een standaardtekst typen die in de brief wordt opgenomen en de variabele voor onze persoon invoeren om de brief af te sluiten.
 
-* You can also use fill characters in the template document (see below).
+* U kunt ook opvultekens gebruiken in het sjabloondocument (zie hieronder).
 
-* The date and time in template variables are controlled by the PC's system clock.
+* De datum en tijd in sjabloonvariabelen worden bepaald door de systeemklok van de pc.
 
-* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* In documenten van het bestandstype .doc in Office 2003 en ouder moet u punthaken - &lt; &gt; - gebruiken rondom de variabelen in plaats van gekrulde haken – { } –.
 
-### Example: meeting minutes (header)
+### Voorbeeld: notulen van de vergadering (koptekst)
 
-This is an example of a header in a meeting minutes (document or email).
+Dit is een voorbeeld van een koptekst in vergaderingsnotulen (document of e-mail).
 
-**Template:**
+**Sjabloon:**
 
 ```text
 {head}
-Date / Location: {sdat}, {city}
-Present: {attn} ({name}), {auth} ({onam})
-Not attending:
-Meeting secretary: {auth} ({auem})
+Datum / Locatie:{sdat}, {city}
+Aanwezig: {attn} ({name}), {auth} ({onam})
+Niet aanwezig:
+Notulist: {auth} ({auem})
 ```
 
-**Result:**
+**Resultaat:**
 
 ```text
-Summer sales campaign - planning
-Date / Location: 15.12.2019, London
-Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
-Not attending:
-Meeting secretary: John Jones (jj@supershop.com)
+Zomerverkoopcampagne - planning
+Datum / Locatie: 15-12-2019, Londen
+Aanwezig: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
+Niet aanwezig:
+Notulist: John Jones (jj@supershop.com)
 ```
 
-## Fill characters
+## Opvultekens
 
-Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Soms moet u opvultekens gebruiken in sjablonen om ervoor te zorgen dat een veldinhoud of -opmaak niet wordt gewijzigd of verwijderd als de inhoud in een veld korter is dan bepaald door de veldvariabele.
 
-Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for. Microsoft Word uses {padd31} as a fill character.
+Met de variabele padd# geeft u op welk teken u gebruikt als opvulteken. Vervang het teken # door de ANSI-code van het teken dat u als opvulteken wilt gebruiken. U vindt meestal een lijst met ANSI-codes in de handleiding van het programma waarvoor u sjablonen maakt. Microsoft Word gebruikt {padd31} als opvulteken.
 
-SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.
+SuperOffice CRM heeft standaardwaarden voor opvultekens voor de meest algemeen gebruikte tekstverwerkings- of spreadsheettoepassingen. Meestal wordt een tijdelijk afbreekstreepje gebruikt, omdat dit niet op het scherm of op een afdruk wordt weergegeven. Voor toepassingen waarin de instelling onbekend is, wordt in SuperOffice CRM {padd32} gebruikt. Dit is de ANSI-code voor een spatie.
 
-If you do not want to use fill characters, use the template variable {padd0}.
+Als u geen opvultekens wilt gebruiken, gebruikt u de sjabloonvariabele {padd0}.
 
 > [!NOTE]
-> This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.
+> dit werkt alleen voor sequentiële documentindelingen, zoals Kladblok- en AmiPro-sjablonen zonder afbeeldingen.
 
-When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).
+Wanneer u {padd0} gebruikt, kunt u alle sjabloonvariabelen schrijven zonder lege tekens tussen de naam van de sjabloonvariabele en het laatste teken van de variabele (}).
 
-## Smart variables from the Company screen
+## Slimme variabelen van de bedrijfskaart
 
-Address variables from the Company screen are so called "smart" template variables. This means that the system selects address data in a specific order:
+> [!NOTE]
+> Adresvariabelen van de bedrijfskaart worden "slimme" sjabloonvariabelen genoemd. Dit betekent dat het systeem adresgegevens selecteert in een bepaalde volgorde. De variabelen in **vette tekst** hieronder (zoals **addr** en **plaats**) zijn slimme sjabloonvariabelen.
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
-2. If the above option is not active, the company's address data is used.
-3. If the company's postal address is empty, the company street address is used.
+Wanneer u adresvariabelen van de bedrijfskaart gebruikt, selecteert het systeem adresgegevens in de volgende volgorde:
 
-## Quote template variables
+1. Als de optie **Gebruiken als postadres** actief is voor een persoon in het bedrijf, worden de adresgegevens van de persoon gebruikt.
+2. Als de bovenstaande optie niet actief is, zullen de adresgegevens van het bedrijf worden gebruikt.
+3. Als het postadres van het bedrijf leeg is, wordt het bezoekadres van het bedrijf gebruikt.
 
-When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+## Offertesjabloonvariabelen
 
-The templates for quote documents, quote details, and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+Wanneer u offertes en producten in SuperOffice gebruikt, moet u offertesjablonen instellen en de variabelen zijn te vinden in een pdf die ook laat zien hoe u met offertesjablonen kunt werken.
 
-### Example: order confirmation (header)
+De sjablonen voor offertedocumenten, offertedetails en orderbevestigingen verschillen van gewone documentsjablonen, omdat ze naast standaardsjabloonvariabelen ook "samenvoegvelden" gebruiken.
 
-Template variables for quotes and order confirmations can be used within the context of a quote.
+### Voorbeeld: orderbevestiging (koptekst)
 
-**Template:**
+Sjabloonvariabelen voor offerten en orderbevestigingen kunnen worden gebruikt binnen de context van een offerte.
 
-```text
-Order date: {sdat}
-Order number: {qnum}
-Delivery terms: {qdev}
-Payment terms: {qpev}
-Your PO number: {qpon}
-Our contact: {cont}
-```
-
-**Result:**
+**Sjabloon:**
 
 ```text
-Order date: 15.12.2019
-Order number: 550012
-Delivery terms: Delivery included
-Payment terms: 15 days
-Your PO number: 70000882
-Our contact: John Jones
+Besteldatum: {sdat}
+Bestelnummer: {qnum}
+Leveringsvoorwaarden: {qdev}
+Betalingsvoorwaarden: {qpev}
+Uw PO-nummer: {qpon}
+Onze contactpersoon: {cont}
 ```
 
-## Service and Marketing template variables
+**Resultaat:**
 
-When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+```text
+Besteldatum: 15-12-2019
+Bestelnummer: 550012
+Leveringsvoorwaarden: Bij levering inbegrepen
+Betalingsvoorwaarden: 15 dagen
+Uw PO-nummer: 70000882
+Onze contactpersoon: John Jones
+```
 
-## Reference
+## Service- en marketingsjabloonvariabelen
 
-The reference is grouped by area. [Go to reference][1]
+Bij het genereren van e-mailsjablonen voor verzoeken en mailings (en berichtsjablonen) in Marketing, kunt u de e-mail of mailing personaliseren met sjabloonvariabelen. Deze variabelen verschillen enigszins van de variabelen die in documenten worden gebruikt.
+
+## Referentie
+
+De referentie is gegroepeerd per gebied. [Ga naar referentie][1]
 
 <!-- Referenced links -->
 [1]: ../../../../en/document/templates/variables/index.md

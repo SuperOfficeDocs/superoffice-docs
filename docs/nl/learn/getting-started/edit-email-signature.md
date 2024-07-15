@@ -43,6 +43,32 @@ De standaard sjablonen bevatten sjabloonvariabelen die worden vervangen door geg
 
 6. Optioneel: Test de handtekening door een e-mail naar uzelf te sturen (voor e-mailhandtekeningen) of door een nieuw verzoek aan te maken (voor verzoekhandtekeningen). Controleer of alle informatie correct wordt weergegeven, de links werken en de afbeeldingen zoals bedoeld worden weergegeven.
 
+## Voorbeeld
+
+Dit is een voorbeeld van een handtekening die door iedereen in uw bedrijf kan worden gebruikt.
+
+```text
+Met vriendelijke groet,
+{auth}
+{atit}
+{onam}
+Adres:{opad}, {ozip}{ocit}
+Phone: {audp}
+Mobiel nummer: {aupc}
+{auem}
+{owww}
+
+Met vriendelijke groet,
+John Jones
+Verkoopmanager
+SuperShop
+Adres: High Street 12, 223-344, Springfield
+Telefoon: 22334455
+Mobiel nummer: 99887766
+jj@supershop.com
+supershop.com
+```
+
 ## Verwante onderwerpen
 
 * [Standaard-e-mailclient wijzigen in SuperOffice][1]

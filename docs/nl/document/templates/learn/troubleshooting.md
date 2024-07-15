@@ -22,7 +22,7 @@ For pure text files we rarely have unexplained errors with the template variable
 
 For new Microsoft formats, however, this is not the case. Files of type docx, pptx, xlsx are actually .zip files with several xml files inside. In addition to the actual text in the document, these .xml files contain a lot of other information. Sometimes the xml-tags interfere with our template variables making them unrecognizable by our substitution engine.
 
-### Example
+### Voorbeeld
 
 A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`.
 
