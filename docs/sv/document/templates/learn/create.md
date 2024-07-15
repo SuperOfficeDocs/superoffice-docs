@@ -1,33 +1,33 @@
 ---
-uid: help-en-document-template-create
-title: Create a template document
-description: How to create a template document
+uid: help-sv-document-template-create
+title: Skapa ett malldokument
+description: Skapa ett malldokument
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 06.29.2022
 topic: howto
-language: en
+language: sv
 ---
 
-# Create a template document
+# Skapa ett malldokument
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
+För att alla i företaget ska använda samma dokument kan du skapa och lägga till egna dokumentmallar för olika filtyper. Använd de tillgängliga mallvariablerna för att anpassa och automatisera inmatningen av kunduppgifter i dina dokument.
 
-You create a template as a document in an application which is linked to SuperOffice CRM, for example, a word-processing program. If you create the template in Word, you must save it as a normal document (with the file type **DOC** or **DOCX**), and not as a template (with the file type **DOT** or **DOTX**).
+Du skapar en mall som ett dokument i en applikation som är kopplad till SuperOffice CRM, till exempel ett ordbehandlingsprogram. Om du skapar mallen i Word måste du spara den som ett vanligt dokument (med filtypen **DOC** eller **DOCX**), inte som en mall (med filtypen **DOT** eller **DOTX**).
 
-You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
+Du kan också skapa mallar i HTML-format och redigera dem med SuperOffices redigeringsverktyg för HTML-filer.
 
 > [!TIP]
-> To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
+> Om du vill lägga till nya mallar kan du enkelt kopiera en befintlig dokumentmallfil och redigera den så att den passar dina behov.
 
-## Steps
+## Steg
 
-1. Start the required application.
-2. Create a new document.
-3. Insert the [template variables][1] you want to use in the template, for example, variables for name, address and telephone number.
-4. Save the template document somewhere where you can find it easily again.
+1. Starta den applikation du ska använda.
+2. Skapa ett nytt dokument.
+3. Lägg in de [mallvariabler][1] du vill använda i mallen, till exempel variabler för namn, adress och telefonnummer.
+4. Spara malldokumentet på en plats där du enkelt hittar den.
 
-After you define a template and save it in the template folder, an administrator must [link the template to SuperOffice CRM][2] to create documents from it.
+När du har definierat en mall och sparat den i mallmappen måste du [koppla mallen till SuperOffice CRM][2] för att kunna skapa dokument från den.
 
 <!-- Referenced links -->
 [1]: template-variables.md

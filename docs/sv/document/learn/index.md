@@ -41,30 +41,6 @@ Genom att skapa mallar för dokument som används ofta och göra dem tillgängli
 
 I SuperOffice CRM kan du enkelt skapa dokumentmallar för Word, E-post, Excel, PowerPoint och andra filtyper.
 
-### Fördelar med att skapa dokumentmallar
-
-* Alla sparar tid när de skapar ett nytt dokument eftersom de inte behöver lägga in uppgifter som ofta upprepas i varje dokument, till exempel kundens namn och adress. Med hjälp av mallvariabler lägger SuperOffice CRM automatiskt till kundens uppgifter när du skapar nästa dokument.
-
-* Du ser till att dina kontakter får dokument som har ett enhetligt och professionellt utseende med företagets logotyp och identitet.
-
-* Du ser till att alla användare kommer åt och kan använda juridisk text som är viktig för företaget, till exempel villkor och liknande.
-
-* Du kan till och med skapa listor och hitta företag som har en gemensam dokumentmall.
-
-## Så väljer SuperOffice CRM rätt språkmall
-
-SuperOffice CRM har flera standardmallar på 12–16 språk beroende på malltyp. Bland annat e-postmallar och GDPR-mallar (12 språk).
-
-För att säkerställa att du kan kommunicera med dina kunder på deras eget språk (om möjligt) gör SuperOffice CRM automatiskt en språkkontroll för att avgöra vilken språkmall som ska användas. Detta är relevant när du skickar förfrågningar via e-post och när du informerar nya kontakter om att deras uppgifter har sparats. Detta är också ett krav för GDPR-relaterad kommunikation.
-
-**Steg:**
-
-1. Har ett supportspråk valts för kontakten? Finns en mall på det här språket?
-2. Kan kontaktens land mappas till motsvarande språk?
-3. Vad är det föredragna dokumentspråket för den inloggade användaren och finns det en mall på detta språk?
-4. Vad är gränssnittsspråket för den inloggade användaren och finns det en mall på detta språk?
-5. Om inget språk hittas används den engelska mallen.
-
 ## Relaterade ämnen
 
 * [Koppla e-post, dokument och kalender][9]

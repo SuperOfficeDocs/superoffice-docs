@@ -1,130 +1,132 @@
 ---
-uid: help-en-template-variables
-title: Template variables
-description: With template variables you can personalize and automate the input of customer data.
-keywords: document, template, variable
+uid: help-sv-template-variables
+title: Mallvariabler
+description: Med mallvariabler kan du anpassa och automatisera inmatningen av kunddata
+keywords: dokument, mall, variabel, mallvariabel
 author: Bergfrid Dias
 date: 07.11.2024
 topic: concept
-language: en
+language: sv
 ---
 
-# Template variables
+# Mallvariabler
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
+Mallvariabler används för att infoga data från SuperOffice i e-postmeddelanden, offerter, mötesaviseringar, dokumentmallar med mera. Du kan använda mallvariabler för att anpassa och automatisera inmatningen av kunddata (eller data från kontakter, försäljningar och annat) i ditt innehåll och skapa komplexa offerter.
 
-## Example: How to personalize an email using template variables
+## Exempel: Så anpassar du ett e-postmeddelande med hjälp av mallvariabler
 
-Instead of this text:
+I stället för följande text:
 
-"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us."
+"Bästa kund! Vill du veta mer om hur vår produkt kan hjälpa ditt företag att skaffa nya kunder? Kontakta oss."
 
-you can send this one:
+kan du skicka denna text:
 
-"Hi Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
+"Hej Chris! Vill du veta mer om hur vår produkt kan hjälpa Bilbutiken AB att skaffa nya kunder? Vänliga hälsningar, Karin Nordman på SuperShop."
 
-The text you enter will look like this:
+Den text du anger ser ut så här:
 
-"Hi **{atfn}**. Would you like to know more about how our product can help **{name}** win new customers? Please call **{cont}** at **{onam}**."
+"Hej **{atfn}**, Vill du veta mer om hur vår produkt kan hjälpa **{name}** att skaffa nya kunder? Ring **{cont}** på **{onam}**."
 
-## How to use template variables
+## Använda mallvariabler
 
-* The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
+* Hela variabeln måste vara formaterad med samma typsnitt och teckenstorlek och du får använda endast små bokstäver. Om du har aktiverat inställningen **Tillåt stora bokstäver i mallvariabler** går det däremot bra att formatera mallvariabeln.
 
-* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company's name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* Du kan blanda vanlig text och variabler i malldokumentet: Du kan till exempel lägga till mallvariabler som hämtar ett företags namn och adress, skriva en standardtext till brevets brödtext och lägga till variabeln för vår kontakt som avslutning på brevet.
 
-* You can also use fill characters in the template document (see below).
+* Du kan också använda så kallade fyllnadstecken i malldokumentet (se nedan).
 
-* The date and time in template variables are controlled by the PC's system clock.
+* Datum och klockslag i mallvariablerna styrs av systemklockan på datorn.
 
-* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* I dokument med filtypen .doc i Office 2003 och äldre måste du använda vinkelparenteser – &lt; &gt; – runt variablerna i stället för klammerparenteser – { } –.
 
-### Example: meeting minutes (header)
+### Exempel: mötesprotokoll (rubrik)
 
-This is an example of a header in a meeting minutes (document or email).
+Det här är ett exempel på en rubrik i ett mötesprotokoll (dokument eller e-post).
 
-**Template:**
+**Mall:**
 
 ```text
 {head}
-Date / Location: {sdat}, {city}
-Present: {attn} ({name}), {auth} ({onam})
-Not attending:
-Meeting secretary: {auth} ({auem})
+Datum/Plats: {sdat}, {city}
+Närvarande: {attn} ({name}), {auth} ({onam})
+Frånvarande:
+Mötessekreterare: {auth} ({auem})
 ```
 
-**Result:**
+**Resultat:**
 
 ```text
-Summer sales campaign - planning
-Date / Location: 15.12.2019, London
-Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
-Not attending:
-Meeting secretary: John Jones (jj@supershop.com)
+Sommarkampanj – planering
+Daum/Plats: 2019-12-15, London
+Närvarande: Sara Miller (Liberty Ltd.), Johan Jonsson (SuperShop)
+Frånvarande:
+Mötessekreterare: Johan Jonsson (jj@supershop.com)
 ```
 
-## Fill characters
+## Fyllnadstecken
 
-Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Ibland kan du behöva använda fyllnadstecken i mallar för att fältinnehåll eller fältformatering inte ska ändras eller tas bort om innehållet i ett fält blir kortare än vad fältvariabeln anger.
 
-Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for. Microsoft Word uses {padd31} as a fill character.
+Du använder variabeln padd# för att ange vilket fyllnadstecken som ska användas. Ersätt #-tecknet med ANSI-koden för det tecken du vill använda som fyllnad. En lista över ANSI-koder finns vanligtvis i handboken till det program du skapar mallar i. I Microsoft Word används {padd31} som fyllnadstecken.
 
-SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.
+SuperOffice CRM har standardvärden för fyllnadstecken i de vanligaste ordbehandlings- och kalkylprogrammen. Vanligtvis används mjuka bindestreck, eftersom dessa inte visas på skärmen eller utskriften. För applikationer där inställningen är okänd används {padd32}, som är ANSI-koden för mellanslag.
 
-If you do not want to use fill characters, use the template variable {padd0}.
+Om du inte vill använda fyllnadstecken använder du mallvariabeln {padd0}.
 
 > [!NOTE]
-> This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.
+> Detta fungerar bara för dokumentformat som är sekventiella, till exempel Anteckningar och AmiPro-mallar utan grafik.
 
-When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).
+När du använder {padd0} kan du skriva alla mallvariabler utan mellanrum mellan namnet på mallvariabeln och det avslutande variabeltecknet (}).
 
-## Smart variables from the Company screen
+## Smarta variabler från företagskortet
 
-Address variables from the Company screen are so called "smart" template variables. This means that the system selects address data in a specific order:
+Adressvariabler från företagskortet är så kallade "smarta" mallvariabler. Detta innebär att systemet väljer adressdata i en viss ordning. Variablerna i **fet text** nedan (till exempel **addr** och **city**) är smarta mallvariabler.
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
-2. If the above option is not active, the company's address data is used.
-3. If the company's postal address is empty, the company street address is used.
+När du använder adressvariabler från företagskortet väljer systemet adressdata i följande ordning:
 
-## Quote template variables
+1. Om alternativet **Använd som postadress** är aktivt för en kontakt på företaget används kontaktens adressuppgifter.
+2. Om alternativet ovan inte är aktivt används företagets adressuppgifter.
+3. Om företagets postadress är tom, kommer företagets gatuadress att användas.
 
-When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+## Variabler i offertmallar
 
-The templates for quote documents, quote details, and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+När du använder offerter och produkter i SuperOffice behöver du skapa offertmallar. Variablerna finns i en pdf-fil som även visar hur du arbetar med offertmallar.
 
-### Example: order confirmation (header)
+Mallarna för offertdokument, offertdetaljer och orderbekräftelser skiljer sig från vanliga dokumentmallar eftersom de använder "mergefields" vid sidan om vanliga mallvariabler.
 
-Template variables for quotes and order confirmations can be used within the context of a quote.
+### Exempel: Orderbekräftelse (rubrik)
 
-**Template:**
+Mallvariabler för offerter och orderbekräftelser kan användas i en offert.
 
-```text
-Order date: {sdat}
-Order number: {qnum}
-Delivery terms: {qdev}
-Payment terms: {qpev}
-Your PO number: {qpon}
-Our contact: {cont}
-```
-
-**Result:**
+**Mall:**
 
 ```text
-Order date: 15.12.2019
-Order number: 550012
-Delivery terms: Delivery included
-Payment terms: 15 days
-Your PO number: 70000882
-Our contact: John Jones
+Orderdatum: {sdat}
+Ordernummer: {qnum}
+Leveransvillkor: {qdev}
+Betalningsvillkor: {qpev}
+Ert ordernummer: {qpon}
+Vår kontakt: {cont}
 ```
 
-## Service and Marketing template variables
+**Resultat:**
 
-When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+```text
+Orderdatum: 2019-12-15
+Ordernummer: 550012
+Leveransvillkor: Leverans ingår
+Betalningsvillkor: 15 dagar
+Ert ordernummer: 70000882
+Vår kontakt: Johan Jonsson
+```
 
-## Reference
+## Mallvariabler för service och marknadsföring
 
-The reference is grouped by area. [Go to reference][1]
+När du skapar e-postmallar för ärenden och utskick (och meddelandemallar) i Marknadsföring kan du anpassa e-postmeddelandet eller utskicket med mallvariabler. Variablerna skiljer sig något från dem som används i dokument.
+
+## Referens
+
+Referensen är grupperad efter område. [Gå till referens][1]
 
 <!-- Referenced links -->
 [1]: ../../../../en/document/templates/variables/index.md

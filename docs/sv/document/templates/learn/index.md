@@ -1,63 +1,63 @@
 ---
-uid: help-en-document-template
-title: Document templates
-description: Introduction to document templates
-keywords: document template, document, template
+uid: help-sv-document-template
+title: Dokumentmall
+description: Dokumentmall
+keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
 topic: concept
-language: en
+language: sv
 ---
 
-# Document templates
+# Dokumentmall
 
-It is important for an organization's profile that letters, faxes and other documents have a distinctive and consistent appearance. This means that all documents sent out by the organization should use the same fonts, margins, logos and so on. By creating templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence.
+Det är viktigt för företagets profil att brev, fax och andra dokument har ett unikt och enhetligt utseende. Det betyder att alla dokument som skickas från företaget bör ha samma typsnitt, marginaler, logotyper och så vidare. Genom att skapa mallar som är anpassade för företaget kan du vara säker på att företagets kontakter lätt känner igen dokument från företaget.
 
-The templates can contain variables that extract information from the SuperOffice database and enter it into the document automatically.
+Mallarna innehåller variabler som hämtar information från SuperOffice-databasen och automatiskt lägger in den i dokumentet.
 
-SuperOffice CRM has a set of [standard templates][2] that you can use immediately after installing the program. These templates are used when you create documents from SuperOffice CRM.
+SuperOffice CRM levereras med flera [standardmallar][2] som du kan använda så fort du har installerat programmet. Mallarna används när du skapar dokument från SuperOffice CRM.
 
-You can edit the templates that are supplied with SuperOffice CRM.
+Du kan redigera mallarna som medföljer SuperOffice CRM.
 
-You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM. You do this by entering [template variables][1] in the template documents.
+Du kan även skapa egna mallar i de applikationer du har valt att använda tillsammans med SuperOffice CRM. Det gör du genom att lägga till [mallvariabler][1] i malldokumenten.
 
-## Benefits of creating document templates
+## Fördelar med att skapa dokumentmallar
 
-* Everyone saves time whenever they create a new document, because they do not have to enter information that is typically repeated in each document, such as customer name and address. By using template variables, SuperOffice CRM will automatically add the customer's information when you create your next document.
+* Alla sparar tid när de skapar ett nytt dokument eftersom de inte behöver lägga in uppgifter som ofta upprepas i varje dokument, till exempel kundens namn och adress. Med hjälp av mallvariabler lägger SuperOffice CRM automatiskt till kundens uppgifter när du skapar nästa dokument.
 
-* You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
+* Du ser till att dina kontakter får dokument som har ett enhetligt och professionellt utseende med företagets logotyp och identitet.
 
-* You ensure that all users can access and use legal text that is important to your business, such as terms and conditions and similar.
+* Du ser till att alla användare kommer åt och kan använda juridisk text som är viktig för företaget, till exempel villkor och liknande.
 
-* You can even create lists and find companies that have a document template in common.
+* Du kan till och med skapa listor och hitta företag som har en gemensam dokumentmall.
 
-## How SuperOffice CRM selects the correct language template
+## Så väljer SuperOffice CRM rätt språkmall
 
-SuperOffice CRM has multiple default templates available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
+SuperOffice CRM har flera standardmallar på 12–16 språk beroende på malltyp. Bland annat e-postmallar och GDPR-mallar (12 språk).
 
-To ensure that you can communicate with your clients in their own language (where possible), SuperOffice CRM will automatically perform a language check to determine which language temple to use. Relevant when sending out invitation emails, and when notifying new contacts that their details were saved. For GDPR related communication, this is also an requirement.
+För att säkerställa att du kan kommunicera med dina kunder på deras eget språk (om möjligt) gör SuperOffice CRM automatiskt en språkkontroll för att avgöra vilken språkmall som ska användas. Detta är relevant när du skickar förfrågningar via e-post och när du informerar nya kontakter om att deras uppgifter har sparats. Detta är också ett krav för GDPR-relaterad kommunikation.
 
-**Steps:**
+**Steg:**
 
-1. Is a preferred language set for the contact? Is a template is available in this language?
-2. Can the contact's country be mapped to a corresponding language?
-3. What is the preferred document language for the logged-in user, and is a template available in this language?
-4. What is the user interface language for the logged-in user, and is a template available in this language?
-5. If no language is found, the English template is used.
+1. Har ett supportspråk valts för kontakten? Finns en mall på det här språket?
+2. Kan kontaktens land mappas till motsvarande språk?
+3. Vad är det föredragna dokumentspråket för den inloggade användaren och finns det en mall på detta språk?
+4. Vad är gränssnittsspråket för den inloggade användaren och finns det en mall på detta språk?
+5. Om inget språk hittas används den engelska mallen.
 
-## How to add a template document
+## Så lägger du till ett malldokument
 
-1. [Add and define the document template][6] in Settings and maintenance.
-1. [Specify user groups][5] for the document template.
+1. [Lägg till och definiera dokumentmallen][6] under Inställningar och underhåll.
+1. Gör dokumentmallen tillgänglig för de [användargrupper][5] som behöver använda den.
 
 ## Related content
 
-* [Edit or replace a template][2]
-* [Create a template document][4]
-* [Look at template variables][1]
-* [Reply template variables (Service)][8]
-* [Quote templates][7]
+* [Redigera mall][2]
+* [Skapa ett malldokument][4]
+* [Visa mallvariabler][1]
+* [Mallvariabler (Service)][8]
+* [Offertmallar][7]
 
 <!-- Referenced links -->
 [1]: template-variables.md

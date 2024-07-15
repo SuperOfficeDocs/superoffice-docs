@@ -1,29 +1,29 @@
 ---
-uid: help-en-document-template-link
-title: Link a document template
-description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
-keywords: document, template, list
+uid: help-sv-document-template-link
+title: Lägga till en dokumentmall
+description: I den här guiden förklarar vi hur du lägger till en ny dokumentmall i SuperOffice CRM.
+keywords: dokument, mall, lista
 author: Bergfrid Dias
 date: 07.12.2024
 version: 10
 topic: howto
-language: en
+language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Link a document template
+# Lägga till en dokumentmall
 
-If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
+Om du skapar nya mallar eller ändrar en standardmall och sparar den med ett nytt filnamn måste du koppla mallarna till SuperOffice CRM så att programmet kan hitta dem när du skriver dokument med SuperOffice CRM.
 
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
+Mallarna visas som objekt i listan **Dokument – Mall** och du kopplar en mall till SuperOffice CRM genom att lägga in den som en post i listan.
 
-Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
+Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till en dokumentmall (filmens längd: 2:30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
 
-## Steps
+## Steg
 
 1. In Settings and maintenance, select **Lists** (1) in the Navigator.
 
@@ -33,93 +33,93 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
     ![Add document template -screenshot][img3]
 
-1. Enter the required name of the item in the **Name** field (1).
+1. Skriv in namnet på posten i fältet **Namn** (1).
 
     ![Edit list item -screenshot ][img2]
 
-1. Optionally, choose where to store the document template, in the **Store template in** list (2).
+1. Välj eventuellt var du vill spara dokumentmallen i listan **Spara mallen i** (2).
 
-1. You now have two options:
+1. Nu har du två alternativ:
 
-    * Upload a new document template:
+    * Ladda upp en ny dokumentmall:
 
-        1. Click **Copy an existing document template file**.
-        2. Click the **Copy template** list.
-        3. Select the required template from the list.
+        1. Klicka på **Kopiera en befintlig dokumentmallfil**.
+        2. Klicka på listan **Kopiera mall**.
+        3. Välj önskad mall i listan.
 
-    * Copy an existing template in SuperOffice:
+    * Kopiera en befintlig mall i SuperOffice:
 
-        1. Select **Upload a new document template from disk** (3).
-        2. Click the **Upload** button.
-        3. Click **Upload file** in the **Upload file** dialog.
-        4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
+        1. Välj **Ladda upp en ny dokumentmall från disk**.
+        2. Klicka på **Ladda upp**.
+        3. Klicka på **Ladda upp fil** i dialogrutan **Ladda upp fil**.
+        4. Välj önskad fil och klicka på **Öppna**. Filnamnet visas i dialogrutan **Redigera post**.
 
-1. Click **Save** in the **Edit list item** dialog. The dialog is updated.
+1. Klicka på **Spara** i dialogrutan **Redigera post**. Dialogrutan uppdateras.
 
-1. Optionally, change the template name and, if required, click **Edit** to edit the template file itself.
+1. Valfritt: Redigera mallnamnet om det behövs, och klicka på **Redigera** för att redigera själva mallen.
 
-1. Enter the required information in the **Details** and **Languages** tabs.
+1. Ange önskad information på flikarna **Detaljer** och **Språk**.
 
-1. Click **Save**. The template is added as a separate item in the **Items** list and is now available in the CRM client:
+1. Klicka på **Spara**. Mallen läggs nu till som en egen post i listan **Poster** and is now available in the CRM client:
 
 ![New document -screenshot][img4]
 
 ![New document dialog -screenshot][img5]
 
 > [!TIP]
-> Repeat this procedure to add more templates.
+> Upprepa proceduren om du vill lägga till fler mallar.
 
-## Details tab
+## Fliken Detaljer
 
-Enter the following information in the **Details** tab:
+Ange följande information på fliken **Detaljer**:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
+1. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på ![ikon][img1] pilen och välja ett alternativ i listrutan.
 
-2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
+2. I fältet **Dokumenttyp** väljer du **Dokument** eller **Fax** som malltyp.
 
-3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
+3. I fältet **Dokument sparat i** kan du välja att spara dokumentet på en annan plats än standardalternativet.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+4. Gå till fältet **Syfte**, klicka på ![ikon][img1] och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][4]).
 
     > [!TIP]
-    > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    >Du kan skapa nya alternativ förutom de fördefinierade genom att lägga till poster i listan **Händelse – Syfte** i Inställningar och underhåll.
 
-5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
+5. Lokalt: Markera alternativet **Publicera** om du vill att dokumentmallen ska kunna göras tillgänglig för externa användare i fönstret Dokument.
 
-6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
+6. Lokalt: Markera alternativet **Spara i databasen** om du vill att de dokument som du skapar med den här mallen ska sparas i dokumentdatabasen. Om du markerar det här alternativet visas dokumentet på detaljkortet **Aktiviteter**. Om du inte markerar det visas inte dokumentet i SuperOffice CRM när du har skapat det, och du kommer inte åt det via programmet.
 
-7. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
+7. Markera alternativet **Offertdokumenttyp** om dokumentet ska vara tillgängligt som [offertmall][2] eller orderbekräftelsemall. Du väljer offertdokumenttyp i listan nedan.
 
     ![Reference list item -screenshot][img8]
 
-8. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
+8. Ange standardinställningen för fältet **Vår ref (standard)** med hjälp av mallvariablerna, till exempel *auth* för avsändarens för- och efternamn.
 
-9. Optionally, type in a description of the template in the **Description** field.
+9. Skriv eventuellt en beskrivning av mallen i fältet **Beskrivning**.
 
     > [!TIP]
-    > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog.
+    > Du kan öppna mallen för redigering direkt från dialogrutan **Redigera post** genom att klicka på **Redigera**-knappen.
 
-## Languages tab
+## Fliken Språk
 
-Here you can add translated versions of the document template.
+Här kan du lägga till översatta versioner av dokumentmallen.
 
-1. Click **Add**.
+1. Klicka på **Lägg till**.
 
     ![Add languages -screenshot][img6]
 
-1. In the **Edit list item** dialog, select the language you require in the **Add language** list.
+1. Välj önskat språk i listan **Lägg till språk** i dialogrutan **Redigera post**.
 
-1. Add the translated document template as described above.
+1. Lägg till den översatta dokumentmallen enligt beskrivningen ovan.
 
     ![Deutch document upload -screenshot][img7]
 
-1. Click **Add**. The language is listed in the **Languages** tab.
+1. Klicka på **Lägg till**. Språket visas på fliken **Språk**.
 
-1. Repeat the steps above to add additional languages.
+1. Upprepa stegen ovan om du vill lägga till fler språk.
 
-## Related topics
+## Relaterat
 
-* [Replace existing template][1]
+* [Ersätta befintlig mall][1]
 
 <!-- Referenced links -->
 [1]: update-template.md

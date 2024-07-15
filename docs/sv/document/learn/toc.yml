@@ -26,7 +26,7 @@ items:
   items:
   - name: Översikt
     href: ../templates/learn/index.md
-  - name: Document types
+  - name: Dokumenttypen
     href: ../templates/learn/document-types.md
   - name: Mallvariabler
     href: ../templates/learn/template-variables.md

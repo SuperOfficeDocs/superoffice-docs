@@ -43,6 +43,32 @@ Standardmallarna innehåller mallvariabler som ersätts med data från SuperOffi
 
 6. Valfritt: Testa signaturen genom att skicka ett e-postmeddelande till dig själv (för e-postsignaturer) eller genom att skapa ett nytt ärende (för ärandesignatur). Kontrollera att all information visas korrekt, och att länkarna fungerar och bilderna visas som avsett.
 
+## Exempel
+
+Detta är ett exempel på en signatur som kan användas av vem som helst i ditt företag.
+
+```text
+Bästa hälsningar,
+{auth}
+{atit}
+{onam}
+Adress: {opad}, {ozip} {ocit}
+Telefon: {audp}
+Mobiltelefon: {aupc}
+{auem}
+{owww}
+
+Med vänlig hälsning,
+Johan Jonsson
+Försäljningschef
+SuperShop
+Adress: Storgatan 12, 123 45 Storstad
+Telefon: 22334455
+Mobiltelefon: 99887766
+jj@supershop.com
+supershop.com
+```
+
 ## Relaterade ämnen
 
 * [Ändra standardklienten för e-post i SuperOffice][1]
