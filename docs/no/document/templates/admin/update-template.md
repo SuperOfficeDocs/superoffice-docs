@@ -1,46 +1,50 @@
 ---
-uid: help-en-document-template-update
-title: Update document template
-description: Edit standard template
-keywords: document template, document, template
+uid: help-no-document-template-update
+title: Redigere mal
+description: Hovrdan redigere eller erstatte eksisterende mal
+keywords: dokumentmal, dokument, mal
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10
 topic: howto
-language: en
+language: no
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Update document template
+# Redigere mal
 
-You can edit the standard templates supplied with SuperOffice CRM and save them with your own names. Using the standard templates as a basis, you can, for example, change the font and font size, insert graphics and replace or add fields.
+Du kan redigere standardmalene som følger med SuperOffice CRM, og lagre dem med dine egne navn. Med standardmalene som utgangspunkt kan du for eksempel endre skrifttype og skriftstørrelse, sette inn grafikk, og bytte ut eller legge til felt.
 
-## Edit standard template
+## Redigere standardmaler
 
-1. In Settings and maintenance, select **Lists** in the Navigator.
-2. Click the arrow and select **Document - Template**.
-3. Double-click the required item in the **Items** list.
-4. In the dialog, click the **Edit** button. The document opens in the correct application.
-5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
-    If you chose a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
+1. I Innstillinger og velikehold, velg **Lister**  i navigatoren.
+
+2. Klikk på pilen, og velg **Dokument - Mal**.
+
+3. Dobbeltklikk på ønsket forekomst i listen **Forekomster**.
+
+4. Klikk på **Rediger**-knappen i dialogboksen. Dokumentet åpnes i riktig applikasjon.
+
+5. Lagre dokumentet med et nytt navn hvis du vil beholde den opprinnelige malen, eller med samme navn hvis du vil overskrive den.
+    Hvis du lagrer en standardmal med et nytt navn, har du opprettet en ny mal. Da må du [knytte malen til SuperOffice CRM][1].
 
 > [!CAUTION]
-> Do not change the file names of the system templates as this will prevent the functions included in them from working.
+> Du må ikke endre filnavnet på systemmalene, for da vil ikke funksjonene som ligger i disse malene, fungere.
 
-## Replace existing template
+## Erstatte eksisterende mal
 
-1. Download and edit the document template, and save it on your disk.
-2. Rename or delete the "old" document template in SuperOffice.
-3. Upload the revised document template to SuperOffice.
+1. Last ned og rediger dokumentmalen, og lagre den på disken.
+2. Gi nytt navn til eller slett den "gamle" dokumentmalen i SuperOffice.
+3. Last opp den reviderte dokumentmalen til SuperOffice.
 
 > [!NOTE]
-> If you try to replace the existing document template without changing the name, SuperOffice will rename the updated version of the template.
+> Hvis du prøver å erstatte den eksisterende dokumentmalen uten å endre navnet, vil SuperOffice gi nytt navn til den oppdaterte versjonen av malen.
 
-## Related topics
+## Relatert
 
-* [Create a template document][2]
-* [Template variable reference][3]
+* [Opprette et maldokument][2]
+* [Malvariabelreferanse][3]
 
 <!-- Referenced links -->
 [1]: link-template.md

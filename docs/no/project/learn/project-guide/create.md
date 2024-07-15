@@ -23,7 +23,7 @@ Du kan for eksempel ha en prosjekttype som heter **Konferanse**. Denne prosjektt
 | Status | Oppfølginger | Dokumenter |
 |---|---|---|
 | Planlagt | Planleggingsmøte (Møte inne) | Konferanseprogram (Notat) |
-| Under arbeid | Opprett liste over prosjektdeltakere (Oppgave); Konferanse (Møte ute)) | Konferanseinvitasjon (Brev) |
+| Under arbeid | Opprett liste over prosjektdeltakere (Oppgave); Konferanse (Møte ute) | Konferanseinvitasjon (Brev) |
 | Lukking | Evalueringsmøte (Møte inne) | Evalueringsrapport (Notat) |
 
 Denne prosedyren viser deg hvordan du lager en prosjektguide helt fra bunnen av.

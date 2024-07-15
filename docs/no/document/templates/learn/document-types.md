@@ -2,7 +2,7 @@
 uid: document-template-type
 title: Document template types
 description: Supported document template types
-keywords: template, document template, document type, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
+keywords: dokumentmal, documenttype, mal, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
 date: 07.11.2024
 version: 10

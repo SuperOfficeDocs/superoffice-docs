@@ -1,63 +1,63 @@
 ---
-uid: help-en-document-template
-title: Document templates
-description: Introduction to document templates
-keywords: document template, document, template
+uid: help-no-document-template
+title: Dokumentmal
+description: Introduksjon til dokumentmaler
+keywords: dokumentmal, document, mal
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
 topic: concept
-language: en
+language: no
 ---
 
-# Document templates
+# Dokumentmal
 
-It is important for an organization's profile that letters, faxes and other documents have a distinctive and consistent appearance. This means that all documents sent out by the organization should use the same fonts, margins, logos and so on. By creating templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence.
+Det er viktig for en organisasjons profil at brev, fakser og andre dokumenter har et unikt og helhetlig utseende. Det betyr at alle dokumenter som sendes ut av organisasjonen, bør bruke samme skrifttyper, marger, logoer og så videre. Ved å lage maler som er tilpasset din organisasjon, sikrer du at organisasjonens personer lett gjenkjenner organisasjonens korrespondanse.
 
-The templates can contain variables that extract information from the SuperOffice database and enter it into the document automatically.
+Malene inneholder variabler som trekker ut informasjon fra SuperOffice-databasen og legger den inn i dokumentet automatisk.
 
-SuperOffice CRM has a set of [standard templates][2] that you can use immediately after installing the program. These templates are used when you create documents from SuperOffice CRM.
+SuperOffice CRM leveres med flere [standardmaler][2] som du kan bruke umiddelbart etter at du har installert programmet. Disse malene bruker du når du oppretter dokumenter fra SuperOffice CRM.
 
-You can edit the templates that are supplied with SuperOffice CRM.
+Du kan redigere malene som følger med SuperOffice CRM.
 
-You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM. You do this by entering [template variables][1] in the template documents.
+Du kan også lage egne maler i applikasjonene du har valgt å bruke sammen med SuperOffice CRM. Dette gjør du ved å legge inn [malvariabler][1] i maldokumentene.
 
-## Benefits of creating document templates
+## Fordeler med å opprette dokumentmaler
 
-* Everyone saves time whenever they create a new document, because they do not have to enter information that is typically repeated in each document, such as customer name and address. By using template variables, SuperOffice CRM will automatically add the customer's information when you create your next document.
+* Alle sparer tid når de oppretter et nytt dokument, fordi de ikke trenger å skrive inn informasjon som vanligvis gjentas i hvert dokument, som for eksempel kundenavn og adresse. Ved å bruke malvariabler legger SuperOffice CRM automatisk til kundens informasjon når du oppretter ditt neste dokument.
 
-* You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
+* Du sørger for at personer mottar dokumenter som har et enhetlig, profesjonelt utseende, inkludert logoen din og firmaidentiteten.
 
-* You ensure that all users can access and use legal text that is important to your business, such as terms and conditions and similar.
+* Du sørger for at alle brukere har tilgang til og kan bruke lovtekst som er viktig for din virksomhet, for eksempel vilkår og lignende.
 
-* You can even create lists and find companies that have a document template in common.
+* Du kan til og med lage lister og finne firma som har en felles dokumentmal.
 
-## How SuperOffice CRM selects the correct language template
+## Slik velger SuperOffice CRM riktig språkmal
 
-SuperOffice CRM has multiple default templates available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
+SuperOffice CRM har flere standardmaler tilgjengelig på 12–16 språk, avhengig av maltypen. Dette inkluderer e-postmaler og GDPR-maler (12 språk).
 
-To ensure that you can communicate with your clients in their own language (where possible), SuperOffice CRM will automatically perform a language check to determine which language temple to use. Relevant when sending out invitation emails, and when notifying new contacts that their details were saved. For GDPR related communication, this is also an requirement.
+For å sikre at du kan kommunisere med kundene dine på deres eget språk (der det er mulig), vil SuperOffice CRM automatisk utføre en språksjekk for å finne ut hvilken språkmal som skal brukes. Det er relevant når du sender ut invitasjons-e-post, og når du varsler nye personer om at detaljene deres ble lagret. Det er også et krav for kommunikasjon relatert til GDPR.
 
-**Steps:**
+**Trinn:**
 
-1. Is a preferred language set for the contact? Is a template is available in this language?
-2. Can the contact's country be mapped to a corresponding language?
-3. What is the preferred document language for the logged-in user, and is a template available in this language?
-4. What is the user interface language for the logged-in user, and is a template available in this language?
-5. If no language is found, the English template is used.
+1. Er et foretrukket språk angitt for personen? Er en mal tilgjengelig på dette språket?
+2. Kan personens land tilordnes til et tilsvarende språk?
+3. Hva er det foretrukne dokumentspråket for den påloggede brukeren, og er en mal tilgjengelig på dette språket?
+4. Hva er brukergrensesnittspråket for den påloggede brukeren, og er en mal tilgjengelig på dette språket?
+5. Hvis det ikke blir funnet noe språk, brukes den engelske malen.
 
-## How to add a template document
+## Slik legger du til et maldokument
 
-1. [Add and define the document template][6] in Settings and maintenance.
-1. [Specify user groups][5] for the document template.
+1. [Legg til og definer dokumentmalen][6] i Innstillinger og vedlikehold.
+1. Gjør dokumentmalen tilgjengelig for de [ønskede brukergruppene][5].
 
-## Related content
+## Relatert
 
 * [Edit or replace a template][2]
-* [Create a template document][4]
-* [Look at template variables][1]
-* [Reply template variables (Service)][8]
-* [Quote templates][7]
+* [Opprette et maldokument][4]
+* [Se på malvariabler][1]
+* [Malvariabler (Service)][8]
+* [Tilbudsmaler][7]
 
 <!-- Referenced links -->
 [1]: template-variables.md

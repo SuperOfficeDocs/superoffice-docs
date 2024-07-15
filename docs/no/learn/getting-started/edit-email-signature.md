@@ -43,6 +43,38 @@ De standard signaturmalene inneholder malvariabler som erstattes med data fra Su
 
 6. Valgfritt: Test signaturen ved å sende en e-post til deg selv (for e-postsignaturer) eller ved å opprette en ny sak (for behandlingssignaturer). Sjekk at all informasjon vises riktig, og at lenkene fungerer og bildene vises som de skal.
 
+## Eksempel
+
+Dette er et eksempel på en signatur som kan brukes av alle i firmaet ditt.
+
+**Mal:**
+
+```text
+Med vennlig hilsen,
+{auth}
+{atit}
+{onam}
+Adresse: {opad}, {ozip} {ocit}
+Telefon: {audp}
+Mobiltelefon: {aupc}
+{auem}
+{owww}
+```
+
+**Resultat:**
+
+```text
+Vennlig hilsen
+Kari Nordmann
+Salgssjef
+SuperShop
+Adresse: Storgata 12, 0655 Oslo
+Phone: 22334455
+Mobiltelefon: 99887766
+kn@supershop.com
+supershop.com
+```
+
 ## Aktuelle emner
 
 * [Endre standard e-postklient i SuperOffice][1]

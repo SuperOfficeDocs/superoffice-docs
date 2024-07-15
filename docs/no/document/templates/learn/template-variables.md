@@ -1,130 +1,130 @@
 ---
-uid: help-en-template-variables
-title: Template variables
-description: With template variables you can personalize and automate the input of customer data.
-keywords: document, template, variable
+uid: help-no-template-variables
+title: Malvariabler
+description: Med malvariabler kan du tilpasse og automatisere inntasting av kundedata
+keywords: document, mal, variabel
 author: Bergfrid Dias
 date: 07.11.2024
 topic: concept
-language: en
+language: no
 ---
 
-# Template variables
+# Malvariabler
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
+Malvariabler brukes til å sette inn data fra SuperOffice i e-poster, tilbud, møtevarsler, dokumentmaler og så videre. Du kan bruke malvariabler til å tilpasse og automatisere innlegging av kundedata (eller data fra person, salg og annet) i innholdet ditt og sette opp komplekse tilbud.
 
-## Example: How to personalize an email using template variables
+## Eksempel: Slik tilpasser du en e-post ved hjelp av malvariabler
 
-Instead of this text:
+I stedet for denne teksten:
 
-"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us."
+"Kjære kunde. Vil du vite mer om hvordan vårt produkt kan hjelpe din bedrift med å skaffe nye kunder? Ring oss."
 
-you can send this one:
+Kan du sende denne:
 
-"Hi Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
+"Hei, Bård Vil du vite mer om hvordan vårt produkt kan hjelpe Bilbutikken AS med å skaffe nye kunder? Ring Kari Nordmann på SuperShop."
 
-The text you enter will look like this:
+Teksten du skriver inn vil se slik ut:
 
-"Hi **{atfn}**. Would you like to know more about how our product can help **{name}** win new customers? Please call **{cont}** at **{onam}**."
+"Hei **{atfn}**. Vil du vite mer om hvordan vårt produkt kan hjelpe **{name}** til å vinne nye kunder? Ring **{cont}** på **{onam}**stedet."
 
-## How to use template variables
+## Hvordan bruke malvariabler
 
-* The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
+* Hele variabelen må være formatert med samme skrifttype og skriftstørrelse, og du må bare bruke små bokstaver. Men hvis preferansen **Tillat store bokstaver i malvariabler** er aktivert, kan malvariabelen formateres.
 
-* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company's name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* Du kan blande vanlig tekst og variabler i maldokumentet: For eksempel kan du skrive inn malvariabler som henter et firmanavn og adresse, skrive inn standardtekst for brødteksten i brevet og angi variabelen for personen vår for å avslutte brevet.
 
-* You can also use fill characters in the template document (see below).
+* Du kan også bruke fylltegn i maldokumentet (se nedenfor).
 
-* The date and time in template variables are controlled by the PC's system clock.
+* Dato og klokkeslett i malvariabler styres av systemklokken på PC-en.
 
-* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* I dokumenter med filtype .doc i Office 2003 og eldre må du bruke vinklede hakeparenteser – < > – rundt variabler i stedet for klammeparenteser – { } –.
 
-### Example: meeting minutes (header)
+### Eksempel: møtereferater (topptekst)
 
-This is an example of a header in a meeting minutes (document or email).
+Dette er et eksempel på en topptekst i et møtereferat (dokument eller e-post).
 
-**Template:**
+**Mal:**
 
 ```text
 {head}
-Date / Location: {sdat}, {city}
-Present: {attn} ({name}), {auth} ({onam})
-Not attending:
-Meeting secretary: {auth} ({auem})
+Dato / sted: {sdat}, {city}
+Til stede: {attn} ({name}), {auth} ({onam})
+Forfall:
+Møtesekretær: {auth} ({auem})
 ```
 
-**Result:**
+**Resultat:**
 
 ```text
-Summer sales campaign - planning
-Date / Location: 15.12.2019, London
-Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
-Not attending:
-Meeting secretary: John Jones (jj@supershop.com)
+Sommerkampanje - planlegging
+Dato/sted: 15.01.2020, Oslo
+Deltakere: Hans Olsen (Liberty Ltd.), Kari Nordmann (SuperShop)
+Forfall:
+Referent: Jonas Berg (jb@supershop.com)
 ```
 
-## Fill characters
+## Fylltegn
 
-Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Noen ganger bør du bruke fylltegn i maler slik at et felts innhold eller formatering ikke endres eller slettes hvis innholdet i et felt er kortere enn lengden angitt av feltvariabelen.
 
-Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for. Microsoft Word uses {padd31} as a fill character.
+Du bruker variabelen padd# for å angi fylltegnet som skal brukes. Erstatt #-tegnet med ANSI-koden for det tegnet du ønsker å bruke som fylltegn. Du finner vanligvis en liste over ANSI-koder i håndboken til programmet du lager maler for. Microsoft Word bruker {padd31} som fylltegn.
 
-SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.
+SuperOffice CRM har standardverdier for fylltegn for de mest brukte tekstbehandlings- og regnearkprogrammene. En myk bindestrek brukes vanligvis fordi den ikke vises på skjermen eller en utskrift. For programmer der oppsettet er ukjent, bruker SuperOffice CRM {padd32}, som er ANSI-koden for et mellomrom.
 
-If you do not want to use fill characters, use the template variable {padd0}.
+Hvis du ikke vil bruke fylltegn, bruker du malvariabelen {padd0}.
 
 > [!NOTE]
-> This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.
+> Dette fungerer bare for dokumentformater som er sekvensielle, for eksempel Notisblokk og AmiPro-maler uten grafikk.
 
-When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).
+Når du bruker {padd0} kan du skrive alle malvariablene uten tomme tegn mellom navnet på malvariabelen og den avsluttende variabelens skilletegn (}).
 
-## Smart variables from the Company screen
+## Smarte variabler fra firmakortet
 
-Address variables from the Company screen are so called "smart" template variables. This means that the system selects address data in a specific order:
+Adressevariabler fra firmakortet er såkalte "smarte" malvariabler. Dette betyr at systemet velger adressedata i en bestemt rekkefølge:
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
-2. If the above option is not active, the company's address data is used.
-3. If the company's postal address is empty, the company street address is used.
+1. Hvis alternativet **Bruk som postadresse** er aktivt for en person i firmaet, brukes personens adressedata.
+2. Hvis alternativet ovenfor ikke er aktivt, brukes firmaets adressedata.
+3. Hvis firmaets postadresse er tom, brukes firmaets gateadresse.
 
-## Quote template variables
+## Variabler for tilbudsmaler
 
-When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+Ved bruk av tilbud og produkter i SuperOffice må du sette opp tilbudsmaler og variablene finnes i en pdf som også viser hvordan man jobber med tilbudsmaler.
 
-The templates for quote documents, quote details, and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+Malene for tilbudsdokumenter, tilbudsdetaljer og ordrebekreftelser er annerledes enn vanlige dokumentmaler, siden de bruker flettefelt ("mergefields") i tillegg til standard malvariabler.
 
-### Example: order confirmation (header)
+### Eksempel: ordrebekreftelse (topptekst)
 
-Template variables for quotes and order confirmations can be used within the context of a quote.
+Malvariabler for tilbud og ordrebekreftelser kan brukes i forbindelse med et tilbud.
 
-**Template:**
-
-```text
-Order date: {sdat}
-Order number: {qnum}
-Delivery terms: {qdev}
-Payment terms: {qpev}
-Your PO number: {qpon}
-Our contact: {cont}
-```
-
-**Result:**
+**Mal:**
 
 ```text
-Order date: 15.12.2019
-Order number: 550012
-Delivery terms: Delivery included
-Payment terms: 15 days
-Your PO number: 70000882
-Our contact: John Jones
+Ordredato: {sdat}
+Ordrenummer: {qnum}
+Leveringsbetingelser: {qdev}
+Betalingsbetingelser: {qpev}
+Ditt bestillingsnummer: {qpon}
+Vår kontakt: {cont}
 ```
 
-## Service and Marketing template variables
+**Resultat:**
 
-When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+```text
+Ordredato: 15.12.2019
+Ordrenummer: 550012
+Leveringsbetingelser: Levering inkludert
+Betalingsbetingelser: 15 dager
+Ditt bestillingsnummer: 70000882
+Vår kontakt: Kari Nordmann
+```
 
-## Reference
+## Variabler for service- og markedsføringsmaler
 
-The reference is grouped by area. [Go to reference][1]
+Når du genererer e-postmaler for forespørsler og utsendelser (og meldingsmaler) i markedsføring, kan du tilpasse e-postmeldingen eller utsendelsen med malvariabler. Disse variablene er litt forskjellige fra de som brukes i dokumenter.
+
+## Referanse
+
+Referansen er gruppert etter område. [Gå til referanse][1]
 
 <!-- Referenced links -->
 [1]: ../../../../en/document/templates/variables/index.md
