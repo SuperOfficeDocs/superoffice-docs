@@ -1,23 +1,25 @@
 ---
-uid: tempvar-intro-sv
-title: Template variable reference
-description: Template variable reference
-date: 05.29.2021
+uid: help-sv-tempvar-intro
+title: Mallvariabelreferens
+description: Mallvariabelreferens
+keywords: mallvariabel
 author: Bergfrid Dias
-keywords: template variable
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: sv
 ---
 
-# Template variable reference
+# Mallvariabelreferens
 
-A personalized message is always received better than a generic message. That’s why one of the greatest benefits of using a CRM solution is the possibility to easily personalize your content and communication.
+Ett personligt meddelande tas alltid emot bättre än ett generiskt meddelande. Därför är en av de största fördelarna med att använda en CRM-lösning möjligheten att enkelt anpassa ditt innehåll och din kommunikation.
 
-On this page, we’d like to share all the SuperOffice template variables available to you. You can also find them from Help (click F1) inside your SuperOffice CRM solution.
+På denna sida vill vi dela alla SuperOffice-mallvariabler som finns tillgängliga för dig. Du kan också hitta dem i Hjälp (tryck F1) i din SuperOffice CRM-lösning.
 
 > [!NOTE]
-> When new releases are deployed, there may be instances where the user guide does not yet include the latest template variables.
+> När nya versioner implementeras kan det finnas tillfällen då användarguiden ännu inte inkluderar de senaste mallvariablerna.
 
-If you encounter a problem with templates check [Document templates troubleshooting][2].
+Om du stöter på ett problem med mallar, kontrollera [Felsökning av dokumentmallar][2].
 
 <!-- Referenced links -->
 [2]: ../learn/troubleshooting.md

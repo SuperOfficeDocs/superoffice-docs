@@ -1,23 +1,25 @@
 ---
-uid: tempvar-intro-no
-title: Template variable reference
-description: Template variable reference
-date: 05.29.2021
+uid: help-no-tempvar-intro
+title: Malvariabelreferanse
+description: Malvariabelreferanse
+keywords: malvariabel
 author: Bergfrid Dias
-keywords: template variable
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: no
 ---
 
-# Template variable reference
+# Malvariabelreferanse
 
-A personalized message is always received better than a generic message. That’s why one of the greatest benefits of using a CRM solution is the possibility to easily personalize your content and communication.
+En personlig melding mottas alltid bedre enn en generell melding. Derfor er en av de største fordelene med å bruke en CRM-løsning muligheten til enkelt å tilpasse innholdet og kommunikasjonen din.
 
-On this page, we’d like to share all the SuperOffice template variables available to you. You can also find them from Help (click F1) inside your SuperOffice CRM solution.
+På denne siden vil vi dele alle SuperOffice-malvariablene som er tilgjengelige for deg. Du kan også finne dem i Hjelp (trykk F1) inne i din SuperOffice CRM-løsning.
 
 > [!NOTE]
-> When new releases are deployed, there may be instances where the user guide does not yet include the latest template variables.
+> Når nye utgivelser implementeres, kan det være tilfeller der brukerveiledningen ennå ikke inkluderer de nyeste malvariablene.
 
-If you encounter a problem with templates check [Document templates troubleshooting][2].
+Hvis du støter på et problem med maler, sjekk [Feilsøking av dokumentmaler][2].
 
 <!-- Referenced links -->
 [2]: ../learn/troubleshooting.md

@@ -26,7 +26,7 @@ items:
   items:
   - name: Översikt
     href: ../templates/learn/index.md
-  - name: Dokumenttypen
+  - name: Dokumenttyper
     href: ../templates/learn/document-types.md
   - name: Mallvariabler
     href: ../templates/learn/template-variables.md
@@ -34,7 +34,7 @@ items:
     - name: Referens
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
-  - name: Troubleshooting
+  - name: Felsökning
     href: ../templates/learn/troubleshooting.md
   - name: Skapa dokumentmall
     href: ../templates/learn/create.md

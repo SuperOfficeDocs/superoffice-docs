@@ -1,36 +1,37 @@
 ---
-uid: document-template-troubleshooting
-title: Troubleshooting
-description: How to spot and fix problems when using SuperOffice template variables in Microsoft 365 documents.
-keywords: document template, template variable, document
+uid: help-no-document-template-troubleshooting
+title: Feilsøking
+description: Hvordan finne og fikse problemer når du bruker SuperOffice malvariabler i Microsoft 365-dokumenter.
+keywords: dokumentmal, malvariabel, dokument
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 topic: howto
+language: no
 ---
 
-# Troubleshooting
+# Feilsøking
 
-## Use of template variables in Microsoft 365 documents
+## Bruk av malvariabler i Microsoft 365-dokumenter
 
-When we create a document in SuperOffice we extract all the content of the document as a plain text which our template substitution system uses to identify and replace template variables.
+Når vi oppretter et dokument i SuperOffice, trekker vi ut alt innholdet i dokumentet som ren tekst, som vårt malutskiftingssystem bruker for å identifisere og erstatte malvariabler.
 
-We search for a start tag ( `{` or `<`) then for an end tag (`}` or `>`). The text in between the tags is then checked to see if it is a template variable. For example {**atit**} will be recognized as the template variable **atit,** while **{thisisnotatag}** is not recognized as a valid tag, and will not be replaced.
+Vi søker etter en starttagg ( `{` eller `<`) og deretter en slutttagg (`}` eller `>`). Teksten mellom taggene sjekkes deretter for å se om det er en malvariabel. For eksempel vil {**atit**} bli gjenkjent som malvariabelen **atit,** mens **{thisisnotatag}** ikke gjenkjennes som en gyldig tagg og vil ikke bli erstattet.
 
-If a template variable is recognized, it will be replaced with its respective value, even when blank. If a template variable is still visible in the finished created document, it means that our system has not recognized it as a valid template variable.
+Hvis en malvariabel gjenkjennes, vil den bli erstattet med sin respektive verdi, selv når den er tom. Hvis en malvariabel fortsatt er synlig i det ferdige opprettede dokumentet, betyr det at systemet vårt ikke har gjenkjent det som en gyldig malvariabel.
 
-For pure text files we rarely have unexplained errors with the template variables as what you see is what you get.
+For rene tekstfiler har vi sjelden uforklarlige feil med malvariabler, da det du ser, er det du får.
 
-For new Microsoft formats, however, this is not the case. Files of type docx, pptx, xlsx are actually .zip files with several xml files inside. In addition to the actual text in the document, these .xml files contain a lot of other information. Sometimes the xml-tags interfere with our template variables making them unrecognizable by our substitution engine.
+For nye Microsoft-formater er dette imidlertid ikke tilfelle. Filer av typen docx, pptx, xlsx er faktisk .zip-filer med flere xml-filer inni. I tillegg til den faktiske teksten i dokumentet, inneholder disse .xml-filene mye annen informasjon. Noen ganger forstyrrer xml-taggene malvariablene våre, noe som gjør dem ugjenkjennelige for erstatningsmotoren vår.
 
-### Example
+### Eksempel
 
-A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`.
+En ny PowerPoint-fil (.pptx) som inneholder en tekstboks med teksten `{onam}`.
 
-This is how it looks in PowerPoint:
+Slik ser det ut i PowerPoint:
 
-![SuperOffice template variables in Microsoft PowerPoint -screenshot][img1]
+![SuperOffice malvariabler i Microsoft PowerPoint -screenshot][img1]
 
-This is the content of the xml file for slide 1: (Observe that `{onam}` should be recognized by us)
+Dette er innholdet i xml-filen for slide 1: (Merk at `{onam}` skal gjenkjennes av oss)
 
 ```xml
 <p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
@@ -86,55 +87,55 @@ This is the content of the xml file for slide 1: (Observe that `{onam}` should b
 </p:sld>
 ```
 
-But for some reason the xml around our template variables can end up looking something like this:
+Men av en eller annen grunn kan xml rundt våre malvariabler ende opp med å se slik ut:
 
 ```xml
 {</a:t><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" smtClean="0"/><a:t>}
 ```
 
-As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
+Som du kan se, er start- "{" og slutt- "}" taggene plassert langt fra malvariabelidentifikatoren "onam", så systemet vårt vil ikke gjenkjenne dette som en gyldig malvariabel. Sluttresultatet er at dokumentet etter opprettelse fortsatt vil vise teksten {onam}.
 
-### What can I do when this happens?
+## Hva kan jeg gjøre når dette skjer?
 
-* The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
+Det første du bør prøve, er å fjerne malvariablene fra dokumentet og skrive dem inn manuelt igjen (ikke kopier/lim inn, da dette kan inneholde formatering eller andre skjulte elementer).
 
-* For PowerPoint: The text boxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
+For PowerPoint: Tekstboksene som inneholder malvariablene, skal ellers være tomme (bilder, annen tekst og lignende skal legges til i egne bokser).
 
-* Same goes for Excel: The cells containing template variables should otherwise be empty.
+Det samme gjelder for Excel: Cellene som inneholder malvariabler, skal ellers være tomme.
 
-* For Word documents: Turn ON **Show/Hide hidden characters** too see if Word has put something inside the template variable:
+For Word-dokumenter: Slå på Vis/Skjul skjulte tegn for å se om Word har plassert noe inne i malvariabelen:
 
-![Turn hon Show/Hide hidden characters -screenshot][img2]
+![Slå på Vis/Skjul skjulte tegn -screenshot][img2]
 
-* Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
+Er malvariabelen stavet riktig, og er den faktisk støttet? Se [listen over alle våre støttede malvariabler][1].
 
-* Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
+Merk at både Web- og Win-versjonene bruker samme motor for malutskifting, så resultatet skal være det samme uansett hvor du oppretter dokumentet.
 
-### It still doesn't work, could this be a bug?
+## Det fungerer fortsatt ikke, kan dette være en feil?
 
-It is extremely rare that a template variable should work in documents of one type but fail in other types. It is also rare that a document contains some template variables that work and some that don't.
+Det er ekstremt sjeldent at en malvariabel skal fungere i dokumenter av én type, men mislykkes i andre typer. Det er også sjeldent at et dokument inneholder noen malvariabler som fungerer, og noen som ikke gjør det.
 
-If this happens, it is most probably another case of generated xml that messes up the tags.
+Hvis dette skjer, er det mest sannsynlig et annet tilfelle av generert xml som roter til taggene.
 
-* To verify the files of type .**pptx**, .**docx** or .**xlsx**, you can simply rename the extension of the file to .**zip** (make sure to take a backup of the file first).
+For å verifisere filer av typen .pptx, .docx eller .xlsx, kan du enkelt endre filtypen til .zip (pass på å ta en sikkerhetskopi av filen først).
 
-* After unzipping you can open the relevant xml file to verify. Use Notepad or similar as you do want the whole file to be shown in its entirety without any parsing of the xml tags.
+Etter utpakking kan du åpne den relevante xml-filen for å verifisere. Bruk Notisblokk eller lignende, da du vil at hele filen skal vises i sin helhet uten parsing av xml-tagene.
 
-* Search for the template variable in question and observe if it has its start and end tags intact.
+Søk etter den aktuelle malvariabelen og observer om den har sine start- og slutt tagger intakte.
 
-* If you can still see the non-working template variable with its tags intact, it could be a bug in our side.
+Hvis du fortsatt kan se den ikke-fungerende malvariabelen med sine tagger intakte, kan det være en feil på vår side.
 
-### Internal structures
+## Interne strukturer
 
-This is how a PowerPoint **.pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
+Slik ser en PowerPoint .pptx ut etter utpakking (den slide1.xml er den faktiske lysbilde 1):
 
 ![PowerPoint -screenshot][img4]
 
-Word **.docx** (**document.xml** is the actual document when shown to the user):
+Word .docx (document.xml er det faktiske dokumentet når det vises for brukeren):
 
 ![Word -screenshot][img5]
 
-Excel **.xlsx** (**sheet1.xml** is the actual Sheet 1):
+Excel .xlsx (sheet1.xml er det faktiske ark 1):
 
 ![Excel -screenshot][img6]
 

@@ -1,21 +1,22 @@
 ---
-uid: document-template-type
-title: Document template types
-description: Supported document template types
-keywords: template, document template, document type, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
+uid: help-nl-document-template-type
+title: Documentsjabloontypen
+description: Ondersteunde documentsjabloontypen
+keywords: sjabloon, documentsjabloon, documenttype, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
-date: 07.11.2024
+date: 07.16.2024
 version: 10
 topic: reference
+language: nl
 ---
 
-# Document template types
+# Documentsjabloontypen
 
-Supported Microsoft Office file types as document templates are DOC, XLS, PPT, DOCX, XLSX, and PPTX. Microsoft Office file formats with macros (DOCM, XLSM, PPTM) are also supported.
+Ondersteunde Microsoft Office-bestandstypen als documentsjablonen zijn DOC, XLS, PPT, DOCX, XLSX en PPTX. Microsoft Office-bestandsindelingen met macro's (DOCM, XLSM, PPTM) worden ook ondersteund.
 
-Other supported file types:
+Andere ondersteunde bestandstypen:
 
-| Main type | Other file types handled the same |
+| Hoofdtype | Andere bestandstypen worden hetzelfde behandeld |
 | ---|---|
 | DOC | DOT* |
 | XLS | XLT*, XLW |
@@ -25,9 +26,9 @@ Other supported file types:
 | PPTX | PPTM, POTX*, POTM |
 
 > [!NOTE]
-> DOT, DOTX, POT, POTX, XLT, and XLTX template formats are available only in the SuperOffice Windows client. They are not supported in SuperOffice Web and CRM Online.
+> DOT-, DOTX-, POT-, POTX-, XLT- en XLTX-sjabloonformaten zijn alleen beschikbaar in de SuperOffice Windows-client. Ze worden niet ondersteund in SuperOffice Web en CRM Online.
 
-See also support for [Open Document Format][1].
+Zie ook ondersteuning voor [Open Document Format][1].
 
 <!-- Referenced links -->
 [1]: ../../odf.md

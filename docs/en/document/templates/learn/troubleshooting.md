@@ -94,7 +94,7 @@ But for some reason the xml around our template variables can end up looking som
 
 As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
 
-### What can I do when this happens?
+## What can I do when this happens?
 
 * The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
 
@@ -110,7 +110,7 @@ As you can see, the start "**{**" and the end "**}**" tags are placed far apart 
 
 * Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
 
-### It still doesn't work, could this be a bug?
+## It still doesn't work, could this be a bug?
 
 It is extremely rare that a template variable should work in documents of one type but fail in other types. It is also rare that a document contains some template variables that work and some that don't.
 
@@ -124,7 +124,7 @@ If this happens, it is most probably another case of generated xml that messes u
 
 * If you can still see the non-working template variable with its tags intact, it could be a bug in our side.
 
-### Internal structures
+## Internal structures
 
 This is how a PowerPoint **.pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
 

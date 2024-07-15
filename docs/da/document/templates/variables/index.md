@@ -1,23 +1,25 @@
 ---
-uid: tempvar-intro-da
-title: Skabelonvariabler reference
-description: Skabelonvariabler reference
-date: 05.29.2021
+uid: help-da-tempvar-intro
+title: Reference til skabelonvariabler
+description: Reference til skabelonvariabler
+keywords: skabelonvariabel
 author: Bergfrid Dias
-keywords: skabelonvariabler
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: da
 ---
 
-# Skabelonvariabler reference
+# Reference til skabelonvariabler
 
-A personalized message is always received better than a generic message. That’s why one of the greatest benefits of using a CRM solution is the possibility to easily personalize your content and communication.
+En personlig besked modtages altid bedre end en generisk besked. Derfor er en af de største fordele ved at bruge en CRM-løsning muligheden for nemt at tilpasse dit indhold og din kommunikation.
 
-On this page, we’d like to share all the SuperOffice template variables available to you. You can also find them from Help (click F1) inside your SuperOffice CRM solution.
+På denne side vil vi dele alle de SuperOffice skabelonvariabler, der er tilgængelige for dig. Du kan også finde dem i Hjælp (tryk F1) inde i din SuperOffice CRM-løsning.
 
 > [!NOTE]
-> When new releases are deployed, there may be instances where the user guide does not yet include the latest template variables.
+> Når nye udgivelser implementeres, kan der være tilfælde, hvor brugervejledningen endnu ikke inkluderer de nyeste skabelonvariabler.
 
-If you encounter a problem with templates check [Document templates troubleshooting][2].
+Hvis du støder på et problem med skabeloner, kan du tjekke [Fejlfinding af dokumentskabeloner][2].
 
 <!-- Referenced links -->
 [2]: ../learn/troubleshooting.md

@@ -1,21 +1,22 @@
 ---
-uid: document-template-type
-title: Document template types
-description: Supported document template types
-keywords: dokumentmal, documenttype, mal, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
+uid: help-no-document-template-type
+title: Dokumentmaltyper
+description: Støttede dokumentmaltyper
+keywords: mal, dokumentmal, dokumenttype, dokument, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
-date: 07.11.2024
+date: 07.16.2024
 version: 10
 topic: reference
+language: no
 ---
 
-# Document template types
+# Dokumentmaltyper
 
-Supported Microsoft Office file types as document templates are DOC, XLS, PPT, DOCX, XLSX, and PPTX. Microsoft Office file formats with macros (DOCM, XLSM, PPTM) are also supported.
+Støttede Microsoft Office-filtyper som dokumentmaler er DOC, XLS, PPT, DOCX, XLSX og PPTX. Microsoft Office-filformater med makroer (DOCM, XLSM, PPTM) støttes også.
 
-Other supported file types:
+Andre støttede filtyper:
 
-| Main type | Other file types handled the same |
+| Hovedtype | Andre filtyper håndteres på samme måte |
 | ---|---|
 | DOC | DOT* |
 | XLS | XLT*, XLW |
@@ -25,9 +26,9 @@ Other supported file types:
 | PPTX | PPTM, POTX*, POTM |
 
 > [!NOTE]
-> DOT, DOTX, POT, POTX, XLT, and XLTX template formats are available only in the SuperOffice Windows client. They are not supported in SuperOffice Web and CRM Online.
+> DOT-, DOTX-, POT-, POTX-, XLT- og XLTX-malformater er bare tilgjengelige i SuperOffice Windows-klienten. De støttes ikke i SuperOffice Web og CRM Online.
 
-See also support for [Open Document Format][1].
+Se også støtte for [Open Document Format][1].
 
 <!-- Referenced links -->
 [1]: ../../odf.md

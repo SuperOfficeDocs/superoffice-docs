@@ -1,11 +1,13 @@
 ---
-uid: tempvar-intro
+uid: help-en-tempvar-intro
 title: Template variable reference
 description: Template variable reference
-date: 05.29.2021
-author: Bergfrid Dias
 keywords: template variable
+author: Bergfrid Dias
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Template variable reference

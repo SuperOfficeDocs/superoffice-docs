@@ -1,36 +1,37 @@
 ---
-uid: document-template-troubleshooting
-title: Troubleshooting
-description: How to spot and fix problems when using SuperOffice template variables in Microsoft 365 documents.
-keywords: document template, template variable, document
+uid: help-nldocument-template-troubleshooting
+title: Probleemoplossing
+description: Hoe u problemen herkent en oplost bij het gebruik van SuperOffice-sjabloonvariabelen in Microsoft 365-documenten.
+keywords: documentsjabloon, sjabloonvariabele, document
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 topic: howto
+language: nl
 ---
 
-# Troubleshooting
+# Probleemoplossing
 
-## Use of template variables in Microsoft 365 documents
+## Gebruik van sjabloonvariabelen in Microsoft 365-documenten
 
-When we create a document in SuperOffice we extract all the content of the document as a plain text which our template substitution system uses to identify and replace template variables.
+Wanneer we een document in SuperOffice maken, halen we alle inhoud van het document als platte tekst op, die ons sjabloonvervangingssysteem gebruikt om sjabloonvariabelen te identificeren en te vervangen.
 
-We search for a start tag ( `{` or `<`) then for an end tag (`}` or `>`). The text in between the tags is then checked to see if it is a template variable. For example {**atit**} will be recognized as the template variable **atit,** while **{thisisnotatag}** is not recognized as a valid tag, and will not be replaced.
+We zoeken naar een starttag ( `{` of `<`) en vervolgens naar een eindtag (`}` of `>`). De tekst tussen de tags wordt vervolgens gecontroleerd om te zien of het een sjabloonvariabele is. Bijvoorbeeld {**atit**} zal worden herkend als de sjabloonvariabele **atit**, terwijl **{thisisnotatag}** niet wordt herkend als een geldige tag en niet zal worden vervangen.
 
-If a template variable is recognized, it will be replaced with its respective value, even when blank. If a template variable is still visible in the finished created document, it means that our system has not recognized it as a valid template variable.
+Als een sjabloonvariabele wordt herkend, wordt deze vervangen door de respectieve waarde, zelfs als deze leeg is. Als een sjabloonvariabele nog steeds zichtbaar is in het voltooide gemaakte document, betekent dit dat ons systeem deze niet als een geldige sjabloonvariabele heeft herkend.
 
-For pure text files we rarely have unexplained errors with the template variables as what you see is what you get.
+Voor pure tekstbestanden hebben we zelden onverklaarbare fouten met de sjabloonvariabelen, omdat wat je ziet is wat je krijgt.
 
-For new Microsoft formats, however, this is not the case. Files of type docx, pptx, xlsx are actually .zip files with several xml files inside. In addition to the actual text in the document, these .xml files contain a lot of other information. Sometimes the xml-tags interfere with our template variables making them unrecognizable by our substitution engine.
+Voor nieuwe Microsoft-formaten is dit echter niet het geval. Bestanden van het type docx, pptx, xlsx zijn eigenlijk .zip-bestanden met daarin meerdere xml-bestanden. Naast de eigenlijke tekst in het document bevatten deze .xml-bestanden veel andere informatie. Soms interfereren de xml-tags met onze sjabloonvariabelen, waardoor ze onherkenbaar worden voor onze vervangingsengine.
 
 ### Voorbeeld
 
-A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`.
+Een nieuw PowerPoint-bestand (.pptx) met één tekstvak met de tekst `{onam}`.
 
-This is how it looks in PowerPoint:
+Zo ziet het eruit in PowerPoint:
 
-![SuperOffice template variables in Microsoft PowerPoint -screenshot][img1]
+![SuperOffice sjabloonvariabelen in Microsoft PowerPoint -screenshot][img1]
 
-This is the content of the xml file for slide 1: (Observe that `{onam}` should be recognized by us)
+Dit is de inhoud van het xml-bestand voor dia 1: (Let op dat `{onam}` door ons herkend zou moeten worden)
 
 ```xml
 <p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
@@ -86,55 +87,55 @@ This is the content of the xml file for slide 1: (Observe that `{onam}` should b
 </p:sld>
 ```
 
-But for some reason the xml around our template variables can end up looking something like this:
+Maar om een of andere reden kan de xml rond onze sjabloonvariabelen er uiteindelijk zo uitzien:
 
 ```xml
 {</a:t><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" smtClean="0"/><a:t>}
 ```
 
-As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
+Zoals je kunt zien, zijn de start- "{" en eind- "}" tags ver van de sjabloonvariabele-identificatie "onam" geplaatst, dus ons systeem zal dit niet als een geldige sjabloonvariabele herkennen. Het eindresultaat is dat het document na het maken nog steeds de tekst {onam} laat zien.
 
-### What can I do when this happens?
+## Wat kan ik doen als dit gebeurt?
 
-* The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
+Het eerste wat je moet proberen, is de sjabloonvariabelen uit het document verwijderen en handmatig opnieuw invoeren (geen kopiëren/plakken, omdat dit opmaak of andere verborgen zaken kan bevatten).
 
-* For PowerPoint: The text boxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
+Voor PowerPoint: De tekstvakken die de sjabloonvariabelen bevatten, moeten anders leeg zijn (afbeeldingen, andere tekst en dergelijke moeten in eigen vakken worden toegevoegd).
 
-* Same goes for Excel: The cells containing template variables should otherwise be empty.
+Hetzelfde geldt voor Excel: De cellen die sjabloonvariabelen bevatten, moeten anders leeg zijn.
 
-* For Word documents: Turn ON **Show/Hide hidden characters** too see if Word has put something inside the template variable:
+Voor Word-documenten: Zet Verborgen tekens weergeven/verbergen aan om te zien of Word iets in de sjabloonvariabele heeft geplaatst:
 
-![Turn hon Show/Hide hidden characters -screenshot][img2]
+![Verborgen tekens weergeven/verbergen inschakelen -screenshot][img2]
 
-* Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
+Is de sjabloonvariabele correct gespeld en wordt deze daadwerkelijk ondersteund? Zie de [lijst van al onze ondersteunde sjabloonvariabelen][1].
 
-* Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
+Merk op dat zowel de Web- als Win-versies dezelfde motor voor sjabloonvervanging gebruiken, dus het resultaat zou hetzelfde moeten zijn, ongeacht waar je het document maakt.
 
-### It still doesn't work, could this be a bug?
+## Het werkt nog steeds niet, kan dit een bug zijn?
 
-It is extremely rare that a template variable should work in documents of one type but fail in other types. It is also rare that a document contains some template variables that work and some that don't.
+Het is uiterst zeldzaam dat een sjabloonvariabele in documenten van het ene type werkt, maar in andere typen faalt. Het is ook zeldzaam dat een document enkele sjabloonvariabelen bevat die werken en enkele die niet werken.
 
-If this happens, it is most probably another case of generated xml that messes up the tags.
+Als dit gebeurt, is het hoogstwaarschijnlijk een ander geval van gegenereerde xml die de tags verstoort.
 
-* To verify the files of type .**pptx**, .**docx** or .**xlsx**, you can simply rename the extension of the file to .**zip** (make sure to take a backup of the file first).
+Om bestanden van het type .pptx, .docx of .xlsx te verifiëren, kun je eenvoudig de extensie van het bestand wijzigen in .zip (zorg ervoor dat je eerst een back-up van het bestand maakt).
 
-* After unzipping you can open the relevant xml file to verify. Use Notepad or similar as you do want the whole file to be shown in its entirety without any parsing of the xml tags.
+Na het uitpakken kun je het relevante xml-bestand openen om te verifiëren. Gebruik Kladblok of iets dergelijks, omdat je wilt dat het hele bestand in zijn geheel wordt weergegeven zonder enige parsing van de xml-tags.
 
-* Search for the template variable in question and observe if it has its start and end tags intact.
+Zoek naar de betreffende sjabloonvariabele en observeer of de start- en eindtags intact zijn.
 
-* If you can still see the non-working template variable with its tags intact, it could be a bug in our side.
+Als je de niet-werkende sjabloonvariabele met zijn intacte tags nog steeds kunt zien, kan het een bug aan onze kant zijn.
 
-### Internal structures
+## Interne structuren
 
-This is how a PowerPoint **.pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
+Zo ziet een PowerPoint .pptx eruit na het uitpakken (de slide1.xml is de eigenlijke dia 1):
 
 ![PowerPoint -screenshot][img4]
 
-Word **.docx** (**document.xml** is the actual document when shown to the user):
+Word .docx (document.xml is het eigenlijke document wanneer het aan de gebruiker wordt getoond):
 
 ![Word -screenshot][img5]
 
-Excel **.xlsx** (**sheet1.xml** is the actual Sheet 1):
+Excel .xlsx (sheet1.xml is het eigenlijke blad 1):
 
 ![Excel -screenshot][img6]
 

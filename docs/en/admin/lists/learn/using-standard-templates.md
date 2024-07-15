@@ -1,5 +1,5 @@
 ---
-uid: help-en-use-standard-templates-redirect
+uid: help-en-using-standard-templates-redirect
 author: Bergfrid
 date: 07.11.2024
 language: en

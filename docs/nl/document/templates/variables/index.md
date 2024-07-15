@@ -1,23 +1,25 @@
 ---
-uid: tempvar-intro-nl
-title: Template variable reference
-description: Template variable reference
-date: 05.29.2021
+uid: help-nl-tempvar-intro
+title: Sjabloonvariabelenreferentie
+description: Sjabloonvariabelenreferentie
+keywords: sjabloonvariabele
 author: Bergfrid Dias
-keywords: template variable
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: nl
 ---
 
-# Template variable reference
+# Sjabloonvariabelenreferentie
 
-A personalized message is always received better than a generic message. That’s why one of the greatest benefits of using a CRM solution is the possibility to easily personalize your content and communication.
+Een persoonlijke boodschap wordt altijd beter ontvangen dan een algemene boodschap. Daarom is een van de grootste voordelen van het gebruik van een CRM-oplossing de mogelijkheid om eenvoudig uw inhoud en communicatie te personaliseren.
 
-On this page, we’d like to share all the SuperOffice template variables available to you. You can also find them from Help (click F1) inside your SuperOffice CRM solution.
+Op deze pagina willen we alle beschikbare SuperOffice-sjabloonvariabelen met u delen. U kunt ze ook vinden in de Help (druk op F1) in uw SuperOffice CRM-oplossing.
 
 > [!NOTE]
-> When new releases are deployed, there may be instances where the user guide does not yet include the latest template variables.
+> Wanneer er nieuwe releases worden geïmplementeerd, kan het voorkomen dat de gebruikershandleiding de nieuwste sjabloonvariabelen nog niet bevat.
 
-If you encounter a problem with templates check [Document templates troubleshooting][2].
+Als u een probleem met sjablonen tegenkomt, controleer dan [Probleemoplossing documentensjablonen][2].
 
 <!-- Referenced links -->
 [2]: ../learn/troubleshooting.md

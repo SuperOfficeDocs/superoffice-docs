@@ -1,36 +1,37 @@
 ---
-uid: document-template-troubleshooting
-title: Troubleshooting
-description: How to spot and fix problems when using SuperOffice template variables in Microsoft 365 documents.
-keywords: document template, template variable, document
+uid: help-de-document-template-troubleshooting
+title: Fehlerbehebung
+description: So erkennen und beheben Sie Probleme bei der Verwendung von SuperOffice-Vorlagenvariablen in Microsoft 365-Dokumenten.
+keywords: Dokumentvorlage, Vorlagenvariable, Dokument
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 topic: howto
+language: de
 ---
 
-# Troubleshooting
+# Fehlerbehebung
 
-## Use of template variables in Microsoft 365 documents
+## Verwendung von Vorlagenvariablen in Microsoft 365-Dokumenten
 
-When we create a document in SuperOffice we extract all the content of the document as a plain text which our template substitution system uses to identify and replace template variables.
+Wenn wir ein Dokument in SuperOffice erstellen, extrahieren wir den gesamten Inhalt des Dokuments als Klartext, den unser Vorlagenersatzsystem verwendet, um Vorlagenvariablen zu identifizieren und zu ersetzen.
 
-We search for a start tag ( `{` or `<`) then for an end tag (`}` or `>`). The text in between the tags is then checked to see if it is a template variable. For example {**atit**} will be recognized as the template variable **atit,** while **{thisisnotatag}** is not recognized as a valid tag, and will not be replaced.
+Wir suchen nach einem Start-Tag ( `{` oder `<`) und dann nach einem End-Tag (`}` oder `>`). Der Text zwischen den Tags wird dann überprüft, ob es sich um eine Vorlagenvariable handelt. Zum Beispiel wird {**atit**} als Vorlagenvariable **atit** erkannt, während **{thisisnotatag}** nicht als gültiges Tag erkannt wird und nicht ersetzt wird.
 
-If a template variable is recognized, it will be replaced with its respective value, even when blank. If a template variable is still visible in the finished created document, it means that our system has not recognized it as a valid template variable.
+Wenn eine Vorlagenvariable erkannt wird, wird sie durch ihren jeweiligen Wert ersetzt, auch wenn sie leer ist. Wenn eine Vorlagenvariable im fertig erstellten Dokument noch sichtbar ist, bedeutet dies, dass unser System sie nicht als gültige Vorlagenvariable erkannt hat.
 
-For pure text files we rarely have unexplained errors with the template variables as what you see is what you get.
+Bei reinen Textdateien haben wir selten unerklärliche Fehler mit den Vorlagenvariablen, da das, was man sieht, auch das ist, was man bekommt.
 
-For new Microsoft formats, however, this is not the case. Files of type docx, pptx, xlsx are actually .zip files with several xml files inside. In addition to the actual text in the document, these .xml files contain a lot of other information. Sometimes the xml-tags interfere with our template variables making them unrecognizable by our substitution engine.
+Bei neuen Microsoft-Formaten ist dies jedoch nicht der Fall. Dateien vom Typ docx, pptx, xlsx sind tatsächlich .zip-Dateien mit mehreren xml-Dateien darin. Zusätzlich zum eigentlichen Text im Dokument enthalten diese .xml-Dateien viele andere Informationen. Manchmal stören die xml-Tags unsere Vorlagenvariablen und machen sie für unsere Ersatzmaschine unkenntlich.
 
 ### Beispiel
 
-A new PowerPoint file (.pptx) which contains one text box with the text `{onam}`.
+Eine neue PowerPoint-Datei (.pptx), die ein Textfeld mit dem Text `{onam}` enthält.
 
-This is how it looks in PowerPoint:
+So sieht es in PowerPoint aus:
 
-![SuperOffice template variables in Microsoft PowerPoint -screenshot][img1]
+![SuperOffice Vorlagenvariablen in Microsoft PowerPoint -screenshot][img1]
 
-This is the content of the xml file for slide 1: (Observe that `{onam}` should be recognized by us)
+Dies ist der Inhalt der xml-Datei für Folie 1: (Beachten Sie, dass `{onam}` von uns erkannt werden sollte)
 
 ```xml
 <p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
@@ -86,55 +87,55 @@ This is the content of the xml file for slide 1: (Observe that `{onam}` should b
 </p:sld>
 ```
 
-But for some reason the xml around our template variables can end up looking something like this:
+Aber aus irgendeinem Grund kann das XML um unsere Vorlagenvariablen am Ende so aussehen:
 
 ```xml
 {</a:t><a:rPr lang="en-US" dirty="0" smtClean="0"/><a:t>onam</a:t></a:r><a:r><a:rPr lang="en-US" smtClean="0"/><a:t>}
 ```
 
-As you can see, the start "**{**" and the end "**}**" tags are placed far apart from the template variable identifier "**onam**" so our system will not recognize this as a valid template variable. The end result is that the document after creation will still show the text **{onam}**.
+Wie Sie sehen können, sind die Start- "{" und End- "}" Tags weit entfernt vom Vorlagenvariablen-Identifier "onam" platziert, so dass unser System dies nicht als gültige Vorlagenvariable erkennt. Das Endergebnis ist, dass das Dokument nach der Erstellung immer noch den Text {onam} anzeigt.
 
-### What can I do when this happens?
+## Was kann ich tun, wenn das passiert?
 
-* The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
+Das Erste, was Sie versuchen sollten, ist, die Vorlagenvariablen aus dem Dokument zu entfernen und sie manuell erneut einzugeben (kein Kopieren/Einfügen, da dies Formatierungen oder andere versteckte Elemente enthalten kann).
 
-* For PowerPoint: The text boxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
+Für PowerPoint: Die Textfelder, die die Vorlagenvariablen enthalten, sollten ansonsten leer sein (Bilder, anderer Text und Ähnliches sollten in eigenen Boxen hinzugefügt werden).
 
-* Same goes for Excel: The cells containing template variables should otherwise be empty.
+Das Gleiche gilt für Excel: Die Zellen, die Vorlagenvariablen enthalten, sollten ansonsten leer sein.
 
-* For Word documents: Turn ON **Show/Hide hidden characters** too see if Word has put something inside the template variable:
+Für Word-Dokumente: Schalten Sie Verborgene Zeichen ein-/ausblenden ein, um zu sehen, ob Word etwas in die Vorlagenvariable eingefügt hat:
 
-![Turn hon Show/Hide hidden characters -screenshot][img2]
+![Verborgene Zeichen ein-/ausblenden einschalten -screenshot][img2]
 
-* Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
+Ist die Vorlagenvariable korrekt geschrieben und wird sie tatsächlich unterstützt? Siehe die [Liste aller unserer unterstützten Vorlagenvariablen][1].
 
-* Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
+Beachten Sie, dass sowohl die Web- als auch die Win-Versionen denselben Motor für den Vorlagenersatz verwenden, so dass das Ergebnis dasselbe sein sollte, unabhängig davon, wo Sie das Dokument erstellen.
 
-### It still doesn't work, could this be a bug?
+## Es funktioniert immer noch nicht, könnte das ein Fehler sein?
 
-It is extremely rare that a template variable should work in documents of one type but fail in other types. It is also rare that a document contains some template variables that work and some that don't.
+Es ist äußerst selten, dass eine Vorlagenvariable in Dokumenten eines Typs funktionieren, aber in anderen Typen fehlschlagen sollte. Es ist auch selten, dass ein Dokument einige Vorlagenvariablen enthält, die funktionieren, und einige, die nicht funktionieren.
 
-If this happens, it is most probably another case of generated xml that messes up the tags.
+Wenn dies passiert, handelt es sich höchstwahrscheinlich um einen weiteren Fall von generiertem XML, das die Tags durcheinander bringt.
 
-* To verify the files of type .**pptx**, .**docx** or .**xlsx**, you can simply rename the extension of the file to .**zip** (make sure to take a backup of the file first).
+Um Dateien vom Typ .pptx, .docx oder .xlsx zu überprüfen, können Sie einfach die Erweiterung der Datei in .zip umbenennen (stellen Sie sicher, dass Sie zuerst eine Sicherungskopie der Datei erstellen).
 
-* After unzipping you can open the relevant xml file to verify. Use Notepad or similar as you do want the whole file to be shown in its entirety without any parsing of the xml tags.
+Nach dem Entpacken können Sie die relevante XML-Datei öffnen, um sie zu überprüfen. Verwenden Sie Notepad oder ähnliches, da Sie möchten, dass die gesamte Datei in ihrer Gesamtheit ohne Parsen der XML-Tags angezeigt wird.
 
-* Search for the template variable in question and observe if it has its start and end tags intact.
+Suchen Sie nach der betreffenden Vorlagenvariablen und beobachten Sie, ob ihre Start- und End-Tags intakt sind.
 
-* If you can still see the non-working template variable with its tags intact, it could be a bug in our side.
+Wenn Sie die nicht funktionierende Vorlagenvariable mit ihren intakten Tags noch sehen können, könnte es ein Fehler auf unserer Seite sein.
 
-### Internal structures
+## Interne Strukturen
 
-This is how a PowerPoint **.pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
+So sieht eine PowerPoint .pptx nach dem Entpacken aus (die slide1.xml ist die eigentliche Folie 1):
 
 ![PowerPoint -screenshot][img4]
 
-Word **.docx** (**document.xml** is the actual document when shown to the user):
+Word .docx (document.xml ist das eigentliche Dokument, wenn es dem Benutzer angezeigt wird):
 
 ![Word -screenshot][img5]
 
-Excel **.xlsx** (**sheet1.xml** is the actual Sheet 1):
+Excel .xlsx (sheet1.xml ist das eigentliche Blatt 1):
 
 ![Excel -screenshot][img6]
 

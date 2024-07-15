@@ -1,23 +1,25 @@
 ---
-uid: tempvar-intro-de
-title: Template variable reference
-description: Template variable reference
-date: 05.29.2021
+uid: help-de-tempvar-intro
+title: Vorlagenvariablen-Referenz
+description: Vorlagenvariablen-Referenz
+keywords: vorlagenvariable
 author: Bergfrid Dias
-keywords: template variable
+date: 07.16.2024
+version: 10.3
 topic: reference
+language: de
 ---
 
-# Template variable reference
+# Vorlagenvariablen-Referenz
 
-A personalized message is always received better than a generic message. That’s why one of the greatest benefits of using a CRM solution is the possibility to easily personalize your content and communication.
+Eine persönliche Nachricht wird immer besser angenommen als eine generische Nachricht. Deshalb ist eine der größten Vorteile der Verwendung einer CRM-Lösung die Möglichkeit, Ihre Inhalte und Kommunikation einfach zu personalisieren.
 
-On this page, we’d like to share all the SuperOffice template variables available to you. You can also find them from Help (click F1) inside your SuperOffice CRM solution.
+Auf dieser Seite möchten wir alle verfügbaren SuperOffice-Vorlagenvariablen mit Ihnen teilen. Sie können sie auch in der Hilfe (drücken Sie F1) in Ihrer SuperOffice CRM-Lösung finden.
 
 > [!NOTE]
-> When new releases are deployed, there may be instances where the user guide does not yet include the latest template variables.
+> Wenn neue Versionen bereitgestellt werden, kann es vorkommen, dass das Benutzerhandbuch die neuesten Vorlagenvariablen noch nicht enthält.
 
-If you encounter a problem with templates check [Document templates troubleshooting][2].
+Wenn Sie auf ein Problem mit Vorlagen stoßen, überprüfen Sie [Fehlerbehebung bei Dokumentvorlagen][2].
 
 <!-- Referenced links -->
 [2]: ../learn/troubleshooting.md

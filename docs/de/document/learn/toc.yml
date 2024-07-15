@@ -26,7 +26,7 @@ items:
   items:
   - name: Überblick
     href: ../templates/learn/index.md
-  - name: Document typen
+  - name: Documenttypen
     href: ../templates/learn/document-types.md
   - name: Vorlagenvariablen
     href: ../templates/learn/template-variables.md
@@ -34,7 +34,7 @@ items:
     - name: Referenz
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
-  - name: Troubleshooting
+  - name: Fehlerbehebung
     href: ../templates/learn/troubleshooting.md
   - name: Eine Dokumentvorlage erstellen
     href: ../templates/learn/create.md

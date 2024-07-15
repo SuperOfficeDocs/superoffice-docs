@@ -34,7 +34,7 @@ items:
     - name: Referanse
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
-  - name: Troubleshooting
+  - name: Feilsøking
     href: ../templates/learn/troubleshooting.md
   - name: Opprette dokumentmal
     href: ../templates/learn/create.md
