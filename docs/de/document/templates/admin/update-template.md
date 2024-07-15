@@ -1,46 +1,46 @@
 ---
-uid: help-en-document-template-update
-title: Update document template
-description: Edit standard template
+uid: help-de-document-template-update
+title: Vorhandene Vorlage ersetzen
+description: Standardvorlagen bearbeiten; Vorhandene Vorlage ersetzen
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 07.11.2024
 version: 10
 topic: howto
-language: en
+language: de
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Update document template
+# Vorlagen bearbeiten
 
-You can edit the standard templates supplied with SuperOffice CRM and save them with your own names. Using the standard templates as a basis, you can, for example, change the font and font size, insert graphics and replace or add fields.
+Sie können die mit SuperOffice CRM enthaltenen Standardvorlagen bearbeiten und mit Ihrem eigenen Namen speichern. Ausgehend von den Standardvorlagen können Sie beispielsweise die Schrift und Schriftgröße ändern, Grafiken einfügen oder Felder ersetzen oder hinzufügen.
 
-## Edit standard template
+## Standardvorlagen bearbeiten
 
-1. In Settings and maintenance, select **Lists** in the Navigator.
-2. Click the arrow and select **Document - Template**.
-3. Double-click the required item in the **Items** list.
-4. In the dialog, click the **Edit** button. The document opens in the correct application.
-5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
-    If you chose a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
+1. In Einstellungen und Verwaltung, select **Lists** in the Navigator.
+2. Click the arrow and select **Dokument - Vorlage**.
+3. Doppelklicken Sie in der Liste **Objekte** auf das gewünschte Objekt.
+4. Klicken Sie im Dialogfeld auf die Schaltfläche **Bearbeiten**. Das Dokument wird in der richtigen Anwendung geöffnet.
+5. Speichern Sie das Dokument unter einem neuen Namen, wenn Sie die Originalvorlage beibehalten möchten, oder unter demselben Namen, wenn Sie die Vorlage überschreiben möchten.
+    Wenn Sie eine Standardvorlage unter einem neuen Namen speichern, haben Sie eine neue Vorlage erstellt. Sie müssen [diese Vorlage mit SuperOffice CRM verknüpfen][1].
 
 > [!CAUTION]
-> Do not change the file names of the system templates as this will prevent the functions included in them from working.
+> Die Dateinamen der Systemvorlagen dürfen Sie nicht ändern, da dann die in diesen Vorlagen enthaltenen Funktionen nicht mehr funktionieren.
 
-## Replace existing template
+## Vorhandene Vorlage ersetzen
 
-1. Download and edit the document template, and save it on your disk.
-2. Rename or delete the "old" document template in SuperOffice.
-3. Upload the revised document template to SuperOffice.
+1. Laden Sie die Dokumentvorlage herunter, bearbeiten Sie sie und speichern Sie sie auf Ihrer Festplatte.
+2. Benennen Sie die "alte" Dokumentvorlage um oder löschen Sie sie aus SuperOffice.
+3. Laden Sie die überarbeitete Dokumentvorlage zu SuperOffice hoch.
 
 > [!NOTE]
-> If you try to replace the existing document template without changing the name, SuperOffice will rename the updated version of the template.
+> Wenn Sie versuchen, die vorhandene Dokumentvorlage zu ersetzen, ohne den Namen zu ändern, benennt SuperOffice die aktualisierte Version der Vorlage um.
 
-## Related topics
+## Verwandt
 
-* [Create a template document][2]
-* [Template variable reference][3]
+* [Vorlagendokument erstellen][2]
+* [Vorlagenvariablenreferenz][3]
 
 <!-- Referenced links -->
 [1]: link-template.md

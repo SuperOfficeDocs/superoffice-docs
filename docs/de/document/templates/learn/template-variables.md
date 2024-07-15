@@ -1,130 +1,132 @@
 ---
-uid: help-en-template-variables
-title: Template variables
-description: With template variables you can personalize and automate the input of customer data.
-keywords: document, template, variable
+uid: help-de-template-variables
+title: Vorlagenvariablen
+description: Mit Vorlagenvariablen können Sie die Eingabe von Kundendaten personalisieren und automatisieren.
+keywords: Vorlagenvariablen, Dokument, Vorlage, Variable
 author: Bergfrid Dias
 date: 07.11.2024
 topic: concept
-language: en
+language: de
 ---
 
-# Template variables
+# Vorlagenvariablen
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
+Mit Vorlagenvariablen können Sie Daten aus SuperOffice in E-Mails, Angebote, Besprechungsbenachrichtigungen, Dokumentvorlagen usw. einfügen. Sie können Vorlagenvariablen verwenden, um die Eingabe von Kundendaten (oder Daten von Person, Verkauf und anderen) in Ihren Inhalt zu personalisieren und zu automatisieren und komplexe Angebote einzurichten.
 
-## Example: How to personalize an email using template variables
+## Beispiel: Wie man eine E-Mail mit Vorlagenvariablen personalisiert
 
-Instead of this text:
+Anstelle des folgenden Textes:
 
-"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us."
+"Sehr geehrte Kundin, sehr geehrter Kunde, möchten Sie gerne mehr darüber erfahren, wie unser Produkt Ihre Firma bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie uns an."
 
-you can send this one:
+können Sie diesen abgeänderten Text senden:
 
-"Hi Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
+"Hallo Chris, möchten Sie gerne mehr darüber erfahren, wie unser Produkt AutoPflege GmbH bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie Richard Weber bei SuperShop."
 
-The text you enter will look like this:
+Der Text, den Sie eingeben, sieht folgendermaßen aus:
 
-"Hi **{atfn}**. Would you like to know more about how our product can help **{name}** win new customers? Please call **{cont}** at **{onam}**."
+"Hallo **{atfn}**. möchten Sie gerne mehr darüber erfahren, wie unser Produkt **{name}** bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie **{cont}** unter **{onam}** an."
 
-## How to use template variables
+## Vorlagenvariablen verwenden
 
-* The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
+* Die gesamte Variable muss in einer Schrift und Schriftgröße formatiert werden. Es sind nur Kleinbuchstaben zulässig. Wenn allerdings die Einstellung **Vorlagenvariablen mit Unterscheidung zwischen Groß- und Kleinschreibung verwenden** aktiviert ist, kann die Vorlagenvariable formatiert werden.
 
-* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company's name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* Sie können normalen Text und Variablen im Vorlagendokument kombinieren. So können Sie beispielsweise zuerst Vorlagenvariablen eingeben, die den Namen und die Adresse einer Firma abrufen, dann einen Standardtext für den Brief eingeben, und als Briefabschluss eine Variable für einen eigenen Mitarbeiter (Person) eingeben.
 
-* You can also use fill characters in the template document (see below).
+* Sie können auch Füllzeichen im Vorlagendokument verwenden (siehe unten).
 
-* The date and time in template variables are controlled by the PC's system clock.
+* Das Datum und die Uhrzeit in den Vorlagenvariablen werden von der Systemuhr des PC gesteuert.
 
-* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* In Dokumenten des Dateityps .doc (Office 2003 und älter) müssen Sie die Variablen anstelle von geschweiften Klammern – { } – in spitze Klammern – &lt; &gt; – setzen.
 
-### Example: meeting minutes (header)
+### Beispiel: Besprechungsnotizen (Kopfzeile)
 
-This is an example of a header in a meeting minutes (document or email).
+Dies ist ein Beispiel für eine Kopfzeile in Besprechungsnotizen (Dokument oder E-Mail).
 
-**Template:**
+**Vorlage:**
 
 ```text
 {head}
-Date / Location: {sdat}, {city}
-Present: {attn} ({name}), {auth} ({onam})
-Not attending:
-Meeting secretary: {auth} ({auem})
+Datum / Ort: {sdat}, {city}
+Anwesend: {attn} ({name}), {auth} ({onam})
+Nicht teilgenommen:
+Protokollführer: {auth} ({auem})
 ```
 
-**Result:**
+**Ergebnis:**
 
 ```text
-Summer sales campaign - planning
-Date / Location: 15.12.2019, London
-Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
-Not attending:
-Meeting secretary: John Jones (jj@supershop.com)
+Sommerschlussverkaufskampagne - Planung
+Datum / Ort: 15.12.2019, London
+Anwesend: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
+Nicht teilgenommen:
+Besprechungsleiter: John Jones (jj@supershop.com)
 ```
 
-## Fill characters
+## Füllzeichen
 
-Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Es kann vorkommen, dass Sie Füllzeichen in Variablen verwenden müssen, damit der Inhalt oder die Formatierung eines Felds sich nicht verändert oder gelöscht wird, falls der Inhalt eines Felds kürzer ist als durch die Feldvariable festgelegt.
 
-Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for. Microsoft Word uses {padd31} as a fill character.
+Mit der Variable padd# legen Sie das zu verwendende Füllzeichen fest. Ersetzen Sie das Nummernzeichen (#) durch den ANSI-Code des Zeichens, das Sie als Füllzeichen verwenden möchten. Eine Liste der ANSI-Codes finden Sie in der Regel im Handbuch des Programms, für das Sie Vorlagen erstellen. Microsoft Word verwendet als Füllzeichen {padd31}.
 
-SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.
+SuperOffice CRM verfügt über Füllzeichen-Standardwerte für die am häufigsten verwendeten Textverarbeitungs- und Tabellenkalkulationsanwendungen. Es wird meist ein bedingter Trennstrich verwendet, da er nicht auf dem Bildschirm oder einem Ausdruck angezeigt wird. Bei Anwendungen, deren Aufbau unbekannt ist, verwendet SuperOffice CRM {padd32}, den ANSI-Code für ein Leerzeichen.
 
-If you do not want to use fill characters, use the template variable {padd0}.
+Wenn Sie keine Füllzeichen einsetzen möchten, verwenden Sie die Vorlagenvariable {padd0}.
 
 > [!NOTE]
-> This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.
+> Dies gilt nur für Dokumentformate, die sequentiell sind, z. B. Notepad- und AmiPro-Vorlagen ohne Grafiken.
 
-When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).
+Wenn Sie {padd0} verwenden, können Sie alle Vorlagenvariablen ohne Leerzeichen zwischen den Namen der Vorlagenvariable und das schließende Variablenzeichen (}) schreiben.
 
-## Smart variables from the Company screen
+## Intelligente Variablen auf der Firmenkarte
 
-Address variables from the Company screen are so called "smart" template variables. This means that the system selects address data in a specific order:
+Adressenvariablen auf der Firmenkarte werden als "intelligente" Vorlagenvariablen bezeichnet. Das heißt, dass das System Adressdaten in einer bestimmten Reihenfolge auswählt. Die **fettgedruckten** Variablen unten (wie **addr** und **city**) sind "intelligente" Vorlagenvariablen.
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
-2. If the above option is not active, the company's address data is used.
-3. If the company's postal address is empty, the company street address is used.
+Wenn Sie Adressvariablen von der Firmenkarte nutzen, wählt das System Adressdaten in folgender Reihenfolge aus:
 
-## Quote template variables
+1. Wenn die Option **Als Postadresse verwenden** für eine Person in der Firma aktiviert ist, werden die Adressdaten der Person verwendet.
+2. Wenn die Option oben nicht aktiviert ist, werden die Adressdaten der Firma verwendet.
+3. Wenn die Postadresse der Firma leer ist, wird die Besuchsadresse der Firma verwendet.
 
-When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+## Variablen für Angebotsvorlagen
 
-The templates for quote documents, quote details, and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+Wenn Sie Angebote und Produkte in SuperOffice verwenden, müssen Sie Angebotsvorlagen einrichten. Die Variablen befinden sich in einer PDF-Datei, die auch zeigt, wie Sie mit Angebotsvorlagen arbeiten.
 
-### Example: order confirmation (header)
+Die Vorlagen für Angebotsdokumente, Angebotsdetails und Auftragsbestätigungen unterscheiden sich dadurch von gewöhnlichen Dokumentvorlagen, dass sie zusätzlich zu den Standard-Vorlagenvariablen "Mergefields" verwenden.
 
-Template variables for quotes and order confirmations can be used within the context of a quote.
+### Beispiel: Auftragsbestätigung (Kopfzeile)
 
-**Template:**
+Sie können Vorlagenvariablen für Angebote und Auftragsbestätigungen im Kontext eines Angebots verwenden.
 
-```text
-Order date: {sdat}
-Order number: {qnum}
-Delivery terms: {qdev}
-Payment terms: {qpev}
-Your PO number: {qpon}
-Our contact: {cont}
-```
-
-**Result:**
+**Vorlage:**
 
 ```text
-Order date: 15.12.2019
-Order number: 550012
-Delivery terms: Delivery included
-Payment terms: 15 days
-Your PO number: 70000882
-Our contact: John Jones
+Auftragsdatum: {sdat}
+Auftragsnummer: {qnum}
+Lieferbedingungen: {qdev}
+Zahlungsbedingungen: {qpev}
+Ihre Auftragsnummer: {qpon}
+Verantwortlich: {cont}
 ```
 
-## Service and Marketing template variables
+**Ergebnis:**
 
-When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+```text
+Auftragsdatum: 15.12.2019
+Auftragsnummer: 550012
+Lieferbedingungen: Lieferung inbegriffen
+Zahlungsbedingungen: 15 Tage
+Ihre Auftragsnummer: 70000882
+Verantwortlich: John Jones
+```
 
-## Reference
+## Variablen für Service und Marketingvorlagen
 
-The reference is grouped by area. [Go to reference][1]
+Beim Erstellen von E-Mail-Vorlagen für Anfragen und Kampagnen (und Nachrichtenvorlagen) im Marketing können Sie die E-Mail oder die Kampagne mit Vorlagenvariablen personalisieren. Diese Variablen unterscheiden sich geringfügig von denen, die in Dokumenten verwendet werden.
+
+## Referenz
+
+Die Referenz ist nach Bereich gruppiert. [Gehen Sie zu Referenz][1]
 
 <!-- Referenced links -->
 [1]: ../../../../en/document/templates/variables/index.md

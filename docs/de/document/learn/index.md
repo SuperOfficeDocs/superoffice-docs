@@ -41,30 +41,6 @@ Das Erstellen von Vorlagen für häufig verwendete Dokumente und deren Bereitste
 
 In SuperOffice CRM können Sie ganz einfach Dokumentvorlagen für Word, E-Mail, Excel, PowerPoint und andere Dateitypen erstellen.
 
-### Vorteile der Erstellung von Dokumentvorlagen
-
-* Alle sparen Zeit, wenn sie ein neues Dokument erstellen, weil keine Informationen eingegeben werden müssen, die normalerweise in jedem Dokument wiederholt werden, wie zum Beispiel Kundenname und Adresse. Durch die Verwendung von Vorlagenvariablen fügt SuperOffice CRM automatisch die Kundeninformationen hinzu, wenn Sie Ihr nächstes Dokument erstellen.
-
-* Sie stellen sicher, dass Ihre Personen Dokumente erhalten, die ein einheitliches, professionelles Erscheinungsbild haben und Ihr Logo haben und Ihrer Firmenidentität widerspiegeln.
-
-* Sie stellen sicher, dass alle Benutzer auf Rechtstexte zugreifen und diese verwenden können, die für Ihre Branche wichtig sind, wie zum Beispiel Geschäftsbedingungen und ähnliches.
-
-* Sie können sogar Listen erstellen und Firmen suchen, die eine gemeinsame Dokumentvorlage haben.
-
-## So wählt SuperOffice CRM die richtige Sprachvorlage aus
-
-SuperOffice CRM verfügt über mehrere Standardvorlagen, die je nach Vorlagentyp in 12-16 Sprachen verfügbar sind. Dazu gehören E-Mail- und DSGVO-Vorlagen (12 Sprachen).
-
-Damit Sie mit Ihren Kunden in deren Sprache kommunizieren können (sofern möglich), führt SuperOffice CRM automatisch eine Sprachprüfung durch, um die zu verwendende Sprachvorlage zu ermitteln. Dies ist wichtig, wenn Sie Einladungs-E-Mails versenden und neue Personen informieren, dass ihre Details gespeichert wurden. Für die Kommunikation im Zusammenhang mit der DSGVO ist dies ebenfalls erforderlich.
-
-**Schritte:**
-
-1. Wurde eine bevorzugte Sprache für die Person festgelegt? Ist eine Vorlage in dieser Sprache verfügbar?
-2. Kann das Land der Person einer entsprechenden Sprache zugeordnet werden?
-3. Wie lautet die bevorzugte Dokumentsprache der eingeloggten Benutzer und ist eine Vorlage in dieser Sprache verfügbar?
-4. Wie lautet die Schnittstellensprache der eingeloggten Benutzer und ist eine Vorlage in dieser Sprache verfügbar?
-5. Wenn keine Sprache gefunden wird, wird die englische Vorlage verwendet.
-
 ## Verwandte Themen
 
 * [E-Mail, Dokumente und Kalender verbinden][9]

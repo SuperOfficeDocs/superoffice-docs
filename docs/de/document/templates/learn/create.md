@@ -1,33 +1,33 @@
 ---
-uid: help-en-document-template-create
-title: Create a template document
-description: How to create a template document
+uid: help-de-document-template-create
+title: Vorlagendokument erstellen
+description: Vorlagendokument erstellen
 keywords: document template, document, template
 author: Bergfrid Dias
 date: 06.29.2022
 topic: howto
-language: en
+language: de
 ---
 
-# Create a template document
+# Vorlagendokument erstellen
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
+Um sicherzustellen, dass alle in Ihrer Firma die gleichen Dokumente verwenden, können Sie Ihre eigenen Dokumentvorlagen für verschiedene Dateitypen erstellen und hinzufügen. Verwenden Sie die verfügbaren Vorlagenvariablen, um die Eingabe von Kundeninformationen in Ihre Dokumente zu personalisieren und zu automatisieren.
 
-You create a template as a document in an application which is linked to SuperOffice CRM, for example, a word-processing program. If you create the template in Word, you must save it as a normal document (with the file type **DOC** or **DOCX**), and not as a template (with the file type **DOT** or **DOTX**).
+Eine Vorlage erstellen Sie als Dokument in einer Anwendung, die mit SuperOffice CRM verknüpft ist (z. B. in einem Textverarbeitungsprogramm). Wenn Sie die Vorlage in Word erstellen, speichern Sie sie als normales Dokument (mit der Dateierweiterung **DOC** oder **DOCX**), nicht als Vorlage (mit der Dateierweiterung **DOT** oder **DOTX**).
 
-You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
+Sie können auch Vorlagen im HTML-Format erstellen und die Vorlage mit dem SuperOffice HTML-Editor bearbeiten.
 
 > [!TIP]
-> To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
+> Um neue Vorlagen hinzuzufügen, können Sie ganz einfach vorhandene Dokumentvorlagen kopieren und bearbeiten, um sie an Ihre Bedürfnisse anzupassen.
 
-## Steps
+## Schritte
 
-1. Start the required application.
-2. Create a new document.
-3. Insert the [template variables][1] you want to use in the template, for example, variables for name, address and telephone number.
-4. Save the template document somewhere where you can find it easily again.
+1. Starten Sie die gewünschte Anwendung.
+2. Erstellen Sie ein neues Dokument.
+3. Fügen Sie die gewünschten [Vorlagenvariablen][1], wie zum Beispiel Variablen für Namen, Adresse und Telefonnummer in die Vorlage ein.
+4. Speichern Sie das Vorlagendokument irgendwo, wo Sie es jederzeit problemlos wiederfinden.
 
-After you define a template and save it in the template folder, an administrator must [link the template to SuperOffice CRM][2] to create documents from it.
+Nachdem Sie eine Vorlage definiert und im Vorlagenordner gespeichert haben, müssen Sie die [Vorlage mit SuperOffice CRM verknüpfen][2], um daraus Dokumente zu erstellen.
 
 <!-- Referenced links -->
 [1]: template-variables.md

@@ -43,6 +43,32 @@ Die standardmäßige Signaturvorlage enthalten Vorlagenvariablen, die durch Date
 
 6. Optional: Testen Sie die Signatur, indem Sie eine E-Mail an sich selbst senden (für E-Mail-Signaturen) oder indem Sie eine neue Anfrage erstellen (für Anfrage Signaturen). Überprüfen Sie, ob alle Informationen korrekt angezeigt werden und die Links funktionieren und die Bilder wie vorgesehen angezeigt werden.
 
+## Beispiel
+
+Dies ist ein Beispiel für eine Signatur, die jeder in Ihrer Firma verwenden kann.
+
+```text
+Mit freundlichen Grüßen
+{auth}
+{atit}
+{onam}
+Adresse: {opad}, {ozip} {ocit}
+Telefon: {audp}
+Mobiltelefon: {aupc}
+{auem}
+{owww}
+
+Mit freundlichen Grüßen,
+John Jones
+Sales Manager
+SuperShop
+Adresse: High Street 12, 223-344, Springfield
+Telefon: 22334455
+Mobiltelefon: 99887766
+jj@supershop.com
+supershop.com
+```
+
 ## Verwandte Themen
 
 * [Standard-E-Mail-Client in SuperOffice ändern][1]

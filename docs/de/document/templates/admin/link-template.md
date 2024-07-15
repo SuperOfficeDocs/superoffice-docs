@@ -1,29 +1,29 @@
 ---
-uid: help-en-document-template-link
-title: Link a document template
-description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
-keywords: document, template, list
+uid: help-de-document-template-link
+title: Eine Dokumentvorlage hinzufügen
+description: In dieser Anleitung lernen Sie, wie Sie eine neue Dokumentvorlage zu SuperOffice CRM hinzufügen.
+keywords: Dokument, Vorlage
 author: Bergfrid Dias
 date: 07.12.2024
 version: 10
 topic: howto
-language: en
+language: de
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Link a document template
+# Eine Dokumentvorlage hinzufügen
 
-If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
+Wenn Sie neue Vorlagen erstellen oder eine Standardvorlage ändern und unter einem anderen Dateinamen speichern, müssen Sie die Vorlagen mit SuperOffice CRM verknüpfen, damit das Programm diese finden kann, wenn Sie in SuperOffice CRM Dokumente schreiben.
 
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
+Vorlagen werden in der Liste **Dokument - Vorlage** als Objekte angezeigt. Sie können also eine Vorlage mit SuperOffice CRM verknüpfen, indem Sie sie als Objekt in diese Liste eingeben.
 
-Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
+Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leitfaden, um zu lernen, wie Sie eine Dokumentvorlage hinzufügen können (Videolänge - 2:30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
 
-## Steps
+## Schritte
 
 1. In Settings and maintenance, select **Lists** (1) in the Navigator.
 
@@ -33,93 +33,93 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
     ![Add document template -screenshot][img3]
 
-1. Enter the required name of the item in the **Name** field (1).
+1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Name** ein (1).
 
     ![Edit list item -screenshot ][img2]
 
-1. Optionally, choose where to store the document template, in the **Store template in** list (2).
+1. In der Liste **Vorlage speichern in** können Sie angeben, wo die Dokumentvorlage gespeichert werden soll (2).
 
-1. You now have two options:
+1. Hier haben Sie zwei Möglichkeiten:
 
-    * Upload a new document template:
+    * Eine neue Dokumentvorlage hochladen:
 
-        1. Click **Copy an existing document template file**.
-        2. Click the **Copy template** list.
-        3. Select the required template from the list.
+        1. Klicken Sie auf **Eine bereits vorhandene Dokumentvorlagendatei kopieren**.
+        2. Klicken Sie auf die Liste **Vorlage kopieren**.
+        3. Wählen Sie die gewünschte Vorlage in der Liste aus.
 
-    * Copy an existing template in SuperOffice:
+    * Eine bereits vorhandene Vorlage in SuperOffice kopieren:
 
-        1. Select **Upload a new document template from disk** (3).
-        2. Click the **Upload** button.
-        3. Click **Upload file** in the **Upload file** dialog.
-        4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
+        1. Wählen Sie **Neue Dokumentvorlage von Datenträger hochladen** (3).
+        2. Klicken Sie auf die Schaltfläche **Hochladen**.
+        3. Klicken Sie auf **Datei hochladen** im Dialogfeld **Datei hochladen**.
+        4. Wählen Sie die gewünschte Datei aus und klicken Sie auf **Öffnen**. Der Name der Datei wird im Dialogfeld **Listenobjekt bearbeiten** angezeigt.
 
-1. Click **Save** in the **Edit list item** dialog. The dialog is updated.
+1. Klicken Sie im Dialogfeld **Listenobjekt bearbeiten** auf **Speichern**. Das Dialogfeld ist aktualisiert.
 
-1. Optionally, change the template name and, if required, click **Edit** to edit the template file itself.
+1. Optional: Bearbeiten Sie, falls nötig, den Vorlagennamen und klicken Sie auf **Bearbeiten**, um die Vorlagendatei zu ändern.
 
-1. Enter the required information in the **Details** and **Languages** tabs.
+1. Geben Sie die erforderlichen Informationen in die Registerkarten **Details** und **Sprachen** ein.
 
-1. Click **Save**. The template is added as a separate item in the **Items** list and is now available in the CRM client:
+1. Klicken Sie auf **Speichern**. Die Vorlage wird als separates Objekt zur Liste **Objekte** hinzugefügt and is now available in the CRM client:
 
 ![New document -screenshot][img4]
 
 ![New document dialog -screenshot][img5]
 
 > [!TIP]
-> Repeat this procedure to add more templates.
+> Wiederholen Sie diesen Vorgang, wenn Sie weitere Vorlagen hinzufügen möchten.
 
-## Details tab
+## Registerkarte Details
 
-Enter the following information in the **Details** tab:
+Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
+1. Legen Sie im Feld **Richtung** fest, ob die Vorlage eingehend oder ausgehend ist, indem Sie auf den Pfeil ![Symbol][img1]  klicken und im Listenfeld eine Option auswählen.
 
-2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
+2. Wählen Sie im Feld **Dokumenttyp** entweder **Dokument** oder **Fax** als Vorlagentyp aus.
 
-3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
+3. Im Feld **Dokument gespeichert unter** können Sie einen von der Standardoption abweichenden Speicherort angeben.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+4. Klicken Sie im Feld **Zweck** auf das ![Symbol][img1] und wählen Sie eine der vordefinierten Optionen aus der Liste aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][4]-Lizenz erforderlich ist).
 
     > [!TIP]
-    > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
+    > Zusätzlich zu den vordefinierten Optionen können Sie neue Optionen erstellen, indem Sie sie zur Liste **Folgeaufgabe - Zweck** in Einstellungen und Verwaltung hinzufügen.
 
-5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
+5. Vor Ort: Aktivieren Sie die Option **Veröffentlichen**, damit Sie in der Ansicht Dokument festlegen können, dass die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
 
-6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
+6. Vor Ort: Aktivieren Sie die Option **In Datenbank speichern**, wenn mit dieser Vorlage erstellte Dokumente in der Dokumentdatenbank gespeichert werden sollen. Wenn Sie diese Option aktivieren, wird das Dokument auf der Bereichsregisterkarte **Aktivitäten** in SuperOffice CRM angezeigt. Andernfalls wird das Dokument nach der Erstellung nicht in SuperOffice CRM angezeigt, und Sie können vom Programm aus nicht darauf zugreifen.
 
-7. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
+7. Aktivieren Sie die Option **Typ des Angebotsdokuments**, (4) wenn das Dokument als [Angebotsvorlage][2] oder Auftragsbestätigungsvorlage verfügbar sein sollte. Den gewünschten Typ des Angebotsdokuments wählen Sie in der Liste unten aus.
 
     ![Reference list item -screenshot][img8]
 
-8. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
+8. Geben Sie eine Standardeinstellung in das Feld **Unser Zeichen (Standard)** ein, indem Sie Vorlagenvariablen verwenden, z. B. *verf* für den Vor- und Nachnamen des Absenders, oder {oref}.
 
-9. Optionally, type in a description of the template in the **Description** field.
+9. Geben Sie optional in das Feld Beschreibung eine **Beschreibung** für die Vorlage ein.
 
     > [!TIP]
-    > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog.
+    > Sie können die Vorlage direkt im Dialogfeld **Listenobjekt bearbeiten** öffnen und bearbeiten, indem Sie auf die Schaltfläche **Bearbeiten** klicken.
 
-## Languages tab
+## Registerkarte Sprachen
 
-Here you can add translated versions of the document template.
+Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 
-1. Click **Add**.
+1. Klicken Sie auf **Hinzufügen**.
 
     ![Add languages -screenshot][img6]
 
-1. In the **Edit list item** dialog, select the language you require in the **Add language** list.
+1. Wählen Sie im Dialogfeld **Listenobjekt bearbeiten** die gewünschte Sprache in der Liste **Sprache hinzufügen** aus.
 
-1. Add the translated document template as described above.
+1. Fügen Sie eine übersetzte Dokumentvorlage hinzu, wie oben beschrieben.
 
     ![Deutch document upload -screenshot][img7]
 
-1. Click **Add**. The language is listed in the **Languages** tab.
+1. Klicken Sie auf **Hinzufügen**. Die Sprache ist in der Registerkarte **Sprachen** aufgeführt.
 
-1. Repeat the steps above to add additional languages.
+1. Gehen Sie wie in den Schritten oben erläutert vor, um weitere Sprachen hinzuzufügen.
 
-## Related topics
+## Verwandt
 
-* [Replace existing template][1]
+* [Vorhandene Vorlage ersetzen][1]
 
 <!-- Referenced links -->
 [1]: update-template.md
