@@ -1,5 +1,5 @@
 ---
-uid: tempvar-intro
+uid: tempvar-intro-da
 title: Skabelonvariabler reference
 description: Skabelonvariabler reference
 date: 05.29.2021

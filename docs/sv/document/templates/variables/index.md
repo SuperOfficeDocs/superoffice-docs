@@ -1,5 +1,5 @@
 ---
-uid: tempvar-intro
+uid: tempvar-intro-sv
 title: Template variable reference
 description: Template variable reference
 date: 05.29.2021
