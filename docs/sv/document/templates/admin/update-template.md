@@ -18,9 +18,9 @@ Du kan redigera standardmallarna som medföljer SuperOffice CRM och spara dem un
 
 ## Redigera standardmallar
 
-1. I Inställningar och underhåll, select **Lists** in the Navigator.
+1. I Inställningar och underhåll, klicka på knappen **Listor** i navigatorn.
 
-1. Click the arrow and select **Dokument – Mall**.
+1. Klicka på pilen och välj **Dokument – Mall**.
 
 1. Dubbelklicka på önskad post i listan **Poster**.
 

@@ -18,8 +18,8 @@ Du kan redigere de standardskabeloner, der følger med SuperOffice CRM, og gemme
 
 ## Redigering af standardskabeloner
 
-1. In Settings and maintenance, select **Lists** in the Navigator.
-2. Click the arrow and select **Dokument – Skabelon**.
+1. I Indstillinger og vedligeholdelse, klik på knappen **Lister** i navigatoren.
+2. Klik på pilen, og vælg **Dokument – Skabelon**.
 3. Dobbeltklik på den ønskede forekomst på listen **Forekomster**.
 4. Klik på knappen **Rediger** i dialogboksen. Dokumentet åbnes i det rette program.
 5. Gem dokumentet med et nyt navn for at bevare den oprindelige skabelon intakt eller med samme navn for at overskrive den.
@@ -37,10 +37,10 @@ Du kan redigere de standardskabeloner, der følger med SuperOffice CRM, og gemme
 > [!NOTE]
 > Hvis du forsøger at erstatte den eksisterende dokumentskabelon uden at ændre navnet, omdøber SuperOffice den opdaterede version af skabelonen.
 
-## Related topics
+## Relateret
 
 * [Oprettelse af et skabelondokument][2]
-* [Template variable reference][3]
+* [Reference][3]
 
 <!-- Referenced links -->
 [1]: link-template.md

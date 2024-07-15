@@ -25,11 +25,11 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leit
 
 ## Schritte
 
-1. In Settings and maintenance, select **Lists** (1) in the Navigator.
+1. In Einstellungen und Verwaltung, klicken Sie im Navigator auf die Schaltfläche **Listen** (1).
 
-1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
+1. Wählen Sie **Objekte**, klicken Sie auf den Pfeil und wählen Sie **Dokument - Vorlage** (2).
 
-1. Click the **Add** button (3).
+1. Klicken Sie auf **Hinzufügen** (3).
 
     ![Add document template -screenshot][img3]
 
@@ -60,7 +60,7 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leit
 
 1. Geben Sie die erforderlichen Informationen in die Registerkarten **Details** und **Sprachen** ein.
 
-1. Klicken Sie auf **Speichern**. Die Vorlage wird als separates Objekt zur Liste **Objekte** hinzugefügt and is now available in the CRM client:
+1. Klicken Sie auf **Speichern**. Die Vorlage wird als separates Objekt zur Liste **Objekte** hinzugefügt und ist jetzt im CRM-Client verfügbar:
 
 ![New document -screenshot][img4]
 

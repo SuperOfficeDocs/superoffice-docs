@@ -18,9 +18,9 @@ U kunt de standaardsjablonen van SuperOffice CRM bewerken en onder een naam van 
 
 ## Standaardsjablonen bewerken
 
-1. In Instellingen en onderhoud, select **Lists** in the Navigator.
+1. In Instellingen en onderhoud, klikken op de knop **Lijsten** in de Navigator.
 
-2. Click the arrow and select **Document - Sjabloon**.
+2. Klik op de pijl en selecteer **Document - Sjabloon**.
 
 3. Dubbelklik op het gewenste item in de lijst **Items**.
 

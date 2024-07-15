@@ -60,7 +60,7 @@ Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan d
 
 1. Angi ønsket informasjon i fanene **Detaljer** og **Språk**.
 
-1. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster** and is now available in the CRM client:
+1. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster** og er nå tilgjengelig i CRM-klienten:
 
 ![New document -screenshot][img4]
 

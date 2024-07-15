@@ -18,8 +18,8 @@ Sie können die mit SuperOffice CRM enthaltenen Standardvorlagen bearbeiten und 
 
 ## Standardvorlagen bearbeiten
 
-1. In Einstellungen und Verwaltung, select **Lists** in the Navigator.
-2. Click the arrow and select **Dokument - Vorlage**.
+1. In Einstellungen und Verwaltung, klicken Sie im Navigator auf die Schaltfläche **Listen**.
+2. Klicken Sie auf den Pfeil und wählen Sie **Dokument - Vorlage**.
 3. Doppelklicken Sie in der Liste **Objekte** auf das gewünschte Objekt.
 4. Klicken Sie im Dialogfeld auf die Schaltfläche **Bearbeiten**. Das Dokument wird in der richtigen Anwendung geöffnet.
 5. Speichern Sie das Dokument unter einem neuen Namen, wenn Sie die Originalvorlage beibehalten möchten, oder unter demselben Namen, wenn Sie die Vorlage überschreiben möchten.

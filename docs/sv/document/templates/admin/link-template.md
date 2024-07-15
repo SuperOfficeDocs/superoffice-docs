@@ -25,11 +25,11 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till
 
 ## Steg
 
-1. In Settings and maintenance, select **Lists** (1) in the Navigator.
+1. I Inställningar och underhåll, klicka på knappen **Listor** i navigatorn (1).
 
-1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
+1. Välj fliken **Poster**, klicka på pilen och välj **Dokument – Mall** (2).
 
-1. Click the **Add** button (3).
+1. Klicka på **Lägg till** (3).
 
     ![Add document template -screenshot][img3]
 
@@ -60,7 +60,7 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till
 
 1. Ange önskad information på flikarna **Detaljer** och **Språk**.
 
-1. Klicka på **Spara**. Mallen läggs nu till som en egen post i listan **Poster** and is now available in the CRM client:
+1. Klicka på **Spara**. Mallen läggs nu till som en egen post i listan **Poster** och är nu tillgänglig i CRM-klienten:
 
 ![New document -screenshot][img4]
 

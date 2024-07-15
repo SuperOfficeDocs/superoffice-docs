@@ -25,11 +25,11 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u een document
 
 ## Stappen
 
-1. In Settings and maintenance, select **Lists** (1) in the Navigator.
+1. In Instellingen en onderhoud, klikken op de knop **Lijsten** in de Navigator (1).
 
-1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
+1. Selecteer het tabblad **Items**, klik op de pijl en selecteer **Document - Sjabloon** (2).
 
-1. Click the **Add** button (3).
+1. Klik op **Toevoegen** (3).
 
     ![Add document template -screenshot][img3]
 
@@ -60,7 +60,7 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u een document
 
 1. Geef de vereiste informatie op in de tabbladen **Details** en **Talen**.
 
-1. Klik op **Opslaan**. De sjabloon wordt als een afzonderlijk item toegevoegd aan de lijst **Items** and is now available in the CRM client:
+1. Klik op **Opslaan**. De sjabloon wordt als een afzonderlijk item toegevoegd aan de lijst **Items** en is nu beschikbaar in de CRM-client:
 
 ![New document -screenshot][img4]
 
@@ -103,7 +103,7 @@ Geef de volgende informatie op op het tabblad **Details**:
 
 Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 
-1. Klik op **Toev.**
+1. Klik op **Toevoegen**.
 
     ![Add languages -screenshot][img6]
 

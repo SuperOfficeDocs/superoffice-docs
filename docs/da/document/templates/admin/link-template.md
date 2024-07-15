@@ -9,7 +9,7 @@ version: 10
 topic: howto
 language: da
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Indstillinger og vedligeholdelse
 ---
 
 # Tilføjelse af dokumentskabelon
@@ -25,9 +25,9 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilf
 
 ## Trin
 
-1. In Settings and maintenance, select **Lists** (1) in the Navigator.
+1. I Indstillinger og vedligeholdelse, klik på knappen **Lister** i navigatoren (1).
 
-1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
+1. Vælg fanen **Forekomster**, klik på pilen, og vælg **Dokument – Skabelon** (2).
 
 1. Klik på **Tilføj** (3).
 
@@ -49,8 +49,8 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilf
 
     * Kopiere en eksisterende skabelon i SuperOffice:
 
-        1. Vælg**Upload en ny skabelon på disken** (3).
-        2. Klik på knappen**Upload**.
+        1. Vælg **Upload en ny skabelon på disken** (3).
+        2. Klik på knappen **Upload**.
         3. Klik på **Upload fil** i dialogboksen **Upload fil**.
         4. Vælg den ønskede fil og klik på **Åbn**. Navnet på filen vises i dialogboksen **Rediger forekomst**.
 
@@ -60,7 +60,7 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilf
 
 1. Angiv ønsket information på fanerne **Detaljer** og **Sprog**.
 
-1. Klik på **Gem**. Skabelonen bliver nu tilføjet som en særlig forekomst på listen **Forekomster** and is now available in the CRM client:
+1. Klik på **Gem**. Skabelonen bliver nu tilføjet som en særlig forekomst på listen **Forekomster** og er nu tilgængelig i CRM-klienten:
 
 ![New document -screenshot][img4]
 

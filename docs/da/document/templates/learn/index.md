@@ -1,5 +1,5 @@
 ---
-uid: help-en-document-template
+uid: help-da-document-template
 title: Document templates
 description: Introduction to document templates
 keywords: document template, document, template
@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 07.11.2024
 version: 10.3
 topic: concept
-language: en
+language: da
 ---
 
 # Document templates
