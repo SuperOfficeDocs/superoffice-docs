@@ -53,7 +53,7 @@ For å sikre at du kan kommunisere med kundene dine på deres eget språk (der d
 
 ## Relatert
 
-* [Edit or replace a template][2]
+* [Redigere eller erstatte en mal][2]
 * [Opprette et maldokument][4]
 * [Se på malvariabler][1]
 * [Malvariabler (Service)][8]

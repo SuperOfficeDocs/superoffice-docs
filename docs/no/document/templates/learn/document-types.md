@@ -16,7 +16,7 @@ Støttede Microsoft Office-filtyper som dokumentmaler er DOC, XLS, PPT, DOCX, XL
 
 Andre støttede filtyper:
 
-| Hovedtype | Andre filtyper håndteres på samme måte |
+| Hovedtype | Andre filtyper håndtert på samme måte |
 | ---|---|
 | DOC | DOT* |
 | XLS | XLT*, XLW |

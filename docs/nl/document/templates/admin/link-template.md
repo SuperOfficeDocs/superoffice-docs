@@ -31,11 +31,11 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u een document
 
 1. Klik op **Toevoegen** (3).
 
-    ![Add document template -screenshot][img3]
+    ![Documentsjabloon toevoegen -screenshot][img3]
 
 1. Typ de gewenste naam voor het item in het veld **Naam** (1).
 
-    ![Edit list item -screenshot ][img2]
+    ![Item in lijst bewerken -screenshot ][img2]
 
 1. Als u wilt kunt u aangeven waar de documentsjabloon wordt opgeslagen in de lijst **Sjabloon opslaan in** (2).
 
@@ -82,7 +82,7 @@ Geef de volgende informatie op op het tabblad **Details**:
 4. Klik in het veld **Intentie** op ![pictogram][img1] en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
 
     > [!TIP]
-    >U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
+    > U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
 
 5. Lokaal: Schakel de optie **Publiceren** in als u in het Documentscherm wilt kunnen opgeven dat de desbetreffende documentsjabloon beschikbaar moet zijn voor externe gebruikers.
 
@@ -90,7 +90,7 @@ Geef de volgende informatie op op het tabblad **Details**:
 
 7. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of orderbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
 
-    ![Reference list item -screenshot][img8]
+    ![Item in lijst bewerken -screenshot][img8]
 
 8. Geef met behulp van de sjabloonvariabelen de standaardinstelling op voor het veld **Onze referentie (standaard)** (5), bijvoorbeeld *auteur* voor de voor- en achternaam van de afzender, of {oref}
 
@@ -105,19 +105,19 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 
 1. Klik op **Toevoegen**.
 
-    ![Add languages -screenshot][img6]
+    ![Taal toevoegen -screenshot][img6]
 
 1. Selecteer in het dialoogvenster **Item in lijst bewerken** de gewenste taal in de lijst **Taal toevoegen**.
 
 1. Voeg het vertaalde documentsjabloon toe zoals hierboven beschreven.
 
-    ![Deutch document upload -screenshot][img7]
+    ![vertaalde documentsjabloon toevoegen -screenshot][img7]
 
 1. Klik op **Toevoegen**. De taal is toegevoegd aan het tabblad **Talen**.
 
 1. Herhaal de stappen hierboven om extra talen toe te voegen.
 
-## Related topics
+## Gerelateerde inhoud
 
 * [Replace existing template][1]
 

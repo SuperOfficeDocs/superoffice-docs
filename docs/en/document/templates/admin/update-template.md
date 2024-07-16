@@ -19,9 +19,13 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 ## Edit standard template
 
 1. In Settings and maintenance, select **Lists** in the Navigator.
+
 2. Click the arrow and select **Document - Template**.
+
 3. Double-click the required item in the **Items** list.
+
 4. In the dialog, click the **Edit** button. The document opens in the correct application.
+
 5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
     If you chose a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
 

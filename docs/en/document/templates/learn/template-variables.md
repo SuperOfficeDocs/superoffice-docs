@@ -5,6 +5,7 @@ description: With template variables you can personalize and automate the input 
 keywords: document, template, variable
 author: Bergfrid Dias
 date: 07.11.2024
+version: 10.3
 topic: concept
 language: en
 ---

@@ -2,9 +2,9 @@
 uid: help-nl-document-template
 title: Documentsjabloon
 description: Documentsjabloon
-keywords: document template, document, template
+keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 version: 10.3
 topic: concept
 language: nl
@@ -51,13 +51,13 @@ Om ervoor te zorgen dat u (waar mogelijk) met uw klanten kunt communiceren in hu
 1. [De documentsjabloon toevoegen en definiëren][6] in Instellingen en onderhoud.
 1. De documentsjabloon beschikbaar maken voor de [gebruikersgroepen][5].
 
-## Related content
+## Gerelateerde inhoud
 
-* [Edit or replace a template][2]
+* [Sjabloon bewerken][2]
 * [Een sjabloondocument maken][4]
 * [Sjabloonvariabelen bekijken][1]
 * [Sjabloonvariabelen (Service)][8]
-* [Quote templates][7]
+* [Offertesjablonen][7]
 
 <!-- Referenced links -->
 [1]: template-variables.md

@@ -2,9 +2,10 @@
 uid: help-sv-document-template-create
 title: Skapa ett malldokument
 description: Skapa ett malldokument
-keywords: document template, document, template
+keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias
-date: 06.29.2022
+date: 07.16.2024
+version: 10
 topic: howto
 language: sv
 ---

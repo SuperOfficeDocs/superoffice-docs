@@ -99,15 +99,15 @@ Som du kan se, er start- "{" og slutt- "}" taggene plassert langt fra malvariabe
 
 Det første du bør prøve, er å fjerne malvariablene fra dokumentet og skrive dem inn manuelt igjen (ikke kopier/lim inn, da dette kan inneholde formatering eller andre skjulte elementer).
 
-For PowerPoint: Tekstboksene som inneholder malvariablene, skal ellers være tomme (bilder, annen tekst og lignende skal legges til i egne bokser).
+* For PowerPoint: Tekstboksene som inneholder malvariablene, skal ellers være tomme (bilder, annen tekst og lignende skal legges til i egne bokser).
 
-Det samme gjelder for Excel: Cellene som inneholder malvariabler, skal ellers være tomme.
+* Det samme gjelder for Excel: Cellene som inneholder malvariabler, skal ellers være tomme.
 
-For Word-dokumenter: Slå på Vis/Skjul skjulte tegn for å se om Word har plassert noe inne i malvariabelen:
+* For Word-dokumenter: Slå på Vis/Skjul skjulte tegn for å se om Word har plassert noe inne i malvariabelen:
 
 ![Slå på Vis/Skjul skjulte tegn -screenshot][img2]
 
-Er malvariabelen stavet riktig, og er den faktisk støttet? Se [listen over alle våre støttede malvariabler][1].
+* Er malvariabelen stavet riktig, og er den faktisk støttet? Se [listen over alle våre støttede malvariabler][1].
 
 Merk at både Web- og Win-versjonene bruker samme motor for malutskifting, så resultatet skal være det samme uansett hvor du oppretter dokumentet.
 

@@ -2,9 +2,10 @@
 uid: help-de-document-template-create
 title: Vorlagendokument erstellen
 description: Vorlagendokument erstellen
-keywords: document template, document, template
+keywords: Dokumentvorlage, Dokument, Vorlage
 author: Bergfrid Dias
-date: 06.29.2022
+date: 07.16.2024
+version: 10
 topic: howto
 language: de
 ---

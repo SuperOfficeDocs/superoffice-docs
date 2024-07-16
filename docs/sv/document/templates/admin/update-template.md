@@ -1,10 +1,10 @@
 ---
 uid: help-sv-document-template-update
-title: Update document template
+title: Redigera mallar
 description: Använda standardmallar; Ersätta befintlig mall
-keywords: document template, document, template
+keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 version: 10
 topic: howto
 language: sv
@@ -44,7 +44,7 @@ Du kan redigera standardmallarna som medföljer SuperOffice CRM och spara dem un
 ## Relaterat
 
 * [Skapa ett malldokument][2]
-* [Template variable reference][3]
+* [Mallreferens][3]
 
 <!-- Referenced links -->
 [1]: link-template.md

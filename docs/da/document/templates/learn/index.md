@@ -1,16 +1,16 @@
 ---
 uid: help-da-document-template
-title: Document templates
-description: Introduction to document templates
-keywords: document template, document, template
+title: Dokumentskabeloner
+description: Dokumentskabeloner
+keywords: dokumentskabelon, dokument, skabelon
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 version: 10.3
 topic: concept
 language: da
 ---
 
-# Document templates
+# Dokumentskabeloner
 
 Det er vigtigt for en organisations profil, at breve, faxer og andre dokumenter har et ensartet og helstøbt udseende. Det betyder, at alle dokumenter, der sendes ud af organisationen, skal bruge samme skrifttyper, margener, logoer osv. Ved at oprette skabeloner, der er tilpasset din organisation, sikrer du, at dine personer nemt kan genkende din korrespondance.
 
@@ -53,11 +53,11 @@ For at sikre, at du kan kommunikere med dine kunder på deres eget sprog (hvor d
 
 ## Relateret
 
-* [Edit or replace a template][2]
+* [Rediger eller erstat skabelon][2]
 * [Oprettelse af et skabelondokument][4]
 * [Visning af skabelonvariabler][1]
 * [Skabelonvariabler (Service)][8]
-* [Quote templates][7]
+* [Tilbudsskabeloner][7]
 
 <!-- Referenced links -->
 [1]: template-variables.md

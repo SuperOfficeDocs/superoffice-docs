@@ -1,10 +1,11 @@
 ---
 uid: help-no-document-template-create
 title: Opprette et maldokument
-description: Opprette et maldokument
+description: Hvordan opprette et maldokument
 keywords: dokumentmal, dokument, mal
 author: Bergfrid Dias
-date: 06.29.2022
+date: 07.16.2024
+version: 10
 topic: howto
 language: no
 ---

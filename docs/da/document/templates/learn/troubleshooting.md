@@ -99,15 +99,15 @@ Som du kan se, er start "{" og slut "}" taggene placeret langt fra skabelonvaria
 
 Det første, du skal prøve, er at fjerne skabelonvariablerne fra dokumentet og indtaste dem manuelt igen (ingen kopi/indsæt, da dette kan indeholde formatering eller andet skjult materiale).
 
-For PowerPoint: Tekstboksene, der indeholder skabelonvariablerne, skal ellers være tomme (billeder, anden tekst og lignende skal tilføjes i egne bokse).
+* For PowerPoint: Tekstboksene, der indeholder skabelonvariablerne, skal ellers være tomme (billeder, anden tekst og lignende skal tilføjes i egne bokse).
 
-Det samme gælder for Excel: Cellerne, der indeholder skabelonvariabler, skal ellers være tomme.
+* Det samme gælder for Excel: Cellerne, der indeholder skabelonvariabler, skal ellers være tomme.
 
-For Word-dokumenter: Tænd for Vis/Skjul skjulte tegn for at se, om Word har placeret noget inde i skabelonvariablen:
+* For Word-dokumenter: Tænd for Vis/Skjul skjulte tegn for at se, om Word har placeret noget inde i skabelonvariablen:
 
 ![Tænd for Vis/Skjul skjulte tegn -screenshot][img2]
 
-Er skabelonvariablen stavet korrekt, og er den faktisk understøttet? Se [listen over alle vores understøttede skabelonvariabler][1].
+* Er skabelonvariablen stavet korrekt, og er den faktisk understøttet? Se [listen over alle vores understøttede skabelonvariabler][1].
 
 Bemærk, at både Web- og Win-versioner bruger den samme motor til skabelonudskiftning, så resultatet skal være det samme, uanset hvor du opretter dokumentet.
 
@@ -117,13 +117,13 @@ Det er ekstremt sjældent, at en skabelonvariabel skulle virke i dokumenter af e
 
 Hvis dette sker, er det sandsynligvis et andet tilfælde af genereret xml, der forstyrrer taggene.
 
-For at verificere filer af typen .pptx, .docx eller .xlsx, kan du simpelthen omdøbe filtypen til .zip (sørg for at tage en sikkerhedskopi af filen først).
+* For at verificere filer af typen .pptx, .docx eller .xlsx, kan du simpelthen omdøbe filtypen til .zip (sørg for at tage en sikkerhedskopi af filen først).
 
-Efter udpakning kan du åbne den relevante xml-fil for at verificere. Brug Notepad eller lignende, da du vil have, at hele filen vises i sin helhed uden nogen parsning af xml-tags.
+* Efter udpakning kan du åbne den relevante xml-fil for at verificere. Brug Notepad eller lignende, da du vil have, at hele filen vises i sin helhed uden nogen parsning af xml-tags.
 
-Søg efter den pågældende skabelonvariabel og se, om den har sine start- og slut tags intakte.
+* Søg efter den pågældende skabelonvariabel og se, om den har sine start- og slut tags intakte.
 
-Hvis du stadig kan se den ikke-fungerende skabelonvariabel med sine tags intakte, kan det være en fejl på vores side.
+* Hvis du stadig kan se den ikke-fungerende skabelonvariabel med sine tags intakte, kan det være en fejl på vores side.
 
 ## Interne strukturer
 

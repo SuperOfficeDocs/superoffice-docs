@@ -2,9 +2,10 @@
 uid: help-no-template-variables
 title: Malvariabler
 description: Med malvariabler kan du tilpasse og automatisere inntasting av kundedata
-keywords: document, mal, variabel
+keywords: document, mal, variabel, malvariabler
 author: Bergfrid Dias
 date: 07.11.2024
+version: 10.3
 topic: concept
 language: no
 ---

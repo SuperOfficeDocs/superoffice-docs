@@ -4,7 +4,8 @@ title: Create a template document
 description: How to create a template document
 keywords: document template, document, template
 author: Bergfrid Dias
-date: 06.29.2022
+date: 07.16.2024
+version: 10
 topic: howto
 language: en
 ---

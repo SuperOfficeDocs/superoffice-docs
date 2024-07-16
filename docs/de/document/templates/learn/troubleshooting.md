@@ -99,15 +99,15 @@ Wie Sie sehen können, sind die Start- "{" und End- "}" Tags weit entfernt vom V
 
 Das Erste, was Sie versuchen sollten, ist, die Vorlagenvariablen aus dem Dokument zu entfernen und sie manuell erneut einzugeben (kein Kopieren/Einfügen, da dies Formatierungen oder andere versteckte Elemente enthalten kann).
 
-Für PowerPoint: Die Textfelder, die die Vorlagenvariablen enthalten, sollten ansonsten leer sein (Bilder, anderer Text und Ähnliches sollten in eigenen Boxen hinzugefügt werden).
+* Für PowerPoint: Die Textfelder, die die Vorlagenvariablen enthalten, sollten ansonsten leer sein (Bilder, anderer Text und Ähnliches sollten in eigenen Boxen hinzugefügt werden).
 
-Das Gleiche gilt für Excel: Die Zellen, die Vorlagenvariablen enthalten, sollten ansonsten leer sein.
+* Das Gleiche gilt für Excel: Die Zellen, die Vorlagenvariablen enthalten, sollten ansonsten leer sein.
 
-Für Word-Dokumente: Schalten Sie Verborgene Zeichen ein-/ausblenden ein, um zu sehen, ob Word etwas in die Vorlagenvariable eingefügt hat:
+* Für Word-Dokumente: Schalten Sie Verborgene Zeichen ein-/ausblenden ein, um zu sehen, ob Word etwas in die Vorlagenvariable eingefügt hat:
 
 ![Verborgene Zeichen ein-/ausblenden einschalten -screenshot][img2]
 
-Ist die Vorlagenvariable korrekt geschrieben und wird sie tatsächlich unterstützt? Siehe die [Liste aller unserer unterstützten Vorlagenvariablen][1].
+* Ist die Vorlagenvariable korrekt geschrieben und wird sie tatsächlich unterstützt? Siehe die [Liste aller unserer unterstützten Vorlagenvariablen][1].
 
 Beachten Sie, dass sowohl die Web- als auch die Win-Versionen denselben Motor für den Vorlagenersatz verwenden, so dass das Ergebnis dasselbe sein sollte, unabhängig davon, wo Sie das Dokument erstellen.
 
@@ -117,13 +117,13 @@ Es ist äußerst selten, dass eine Vorlagenvariable in Dokumenten eines Typs fun
 
 Wenn dies passiert, handelt es sich höchstwahrscheinlich um einen weiteren Fall von generiertem XML, das die Tags durcheinander bringt.
 
-Um Dateien vom Typ .pptx, .docx oder .xlsx zu überprüfen, können Sie einfach die Erweiterung der Datei in .zip umbenennen (stellen Sie sicher, dass Sie zuerst eine Sicherungskopie der Datei erstellen).
+* Um Dateien vom Typ .pptx, .docx oder .xlsx zu überprüfen, können Sie einfach die Erweiterung der Datei in .zip umbenennen (stellen Sie sicher, dass Sie zuerst eine Sicherungskopie der Datei erstellen).
 
-Nach dem Entpacken können Sie die relevante XML-Datei öffnen, um sie zu überprüfen. Verwenden Sie Notepad oder ähnliches, da Sie möchten, dass die gesamte Datei in ihrer Gesamtheit ohne Parsen der XML-Tags angezeigt wird.
+* Nach dem Entpacken können Sie die relevante XML-Datei öffnen, um sie zu überprüfen. Verwenden Sie Notepad oder ähnliches, da Sie möchten, dass die gesamte Datei in ihrer Gesamtheit ohne Parsen der XML-Tags angezeigt wird.
 
-Suchen Sie nach der betreffenden Vorlagenvariablen und beobachten Sie, ob ihre Start- und End-Tags intakt sind.
+* Suchen Sie nach der betreffenden Vorlagenvariablen und beobachten Sie, ob ihre Start- und End-Tags intakt sind.
 
-Wenn Sie die nicht funktionierende Vorlagenvariable mit ihren intakten Tags noch sehen können, könnte es ein Fehler auf unserer Seite sein.
+* Wenn Sie die nicht funktionierende Vorlagenvariable mit ihren intakten Tags noch sehen können, könnte es ein Fehler auf unserer Seite sein.
 
 ## Interne Strukturen
 

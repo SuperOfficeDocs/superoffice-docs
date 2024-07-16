@@ -9,7 +9,7 @@ version: 10
 topic: howto
 language: da
 audience: settings
-audience_tooltip: Indstillinger og vedligeholdelse
+audience_tooltip: Settings and maintenance
 ---
 
 # Tilføjelse af dokumentskabelon
@@ -31,11 +31,11 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilf
 
 1. Klik på **Tilføj** (3).
 
-    ![Add document template -screenshot][img3]
+    ![Tilføj dokumentskabelon -screenshot][img3]
 
 1. Indtast det ønskede navn for forekomsten i feltet **Navn** (1).
 
-    ![Edit list item -screenshot ][img2]
+    ![Rediger forekomst -screenshot ][img2]
 
 1. Vælg eventuelt, hvor du vil gemme dokumentskabelonen, på listen **Gem skabelonen i** (2).
 
@@ -105,13 +105,13 @@ Here you can add translated versions of the document template.
 
 1. Klik på **Tilføj**.
 
-    ![Add languages -screenshot][img6]
+    ![Tilføj sprog -screenshot][img6]
 
 1. I dialogboksen **Rediger forekomst** skal du vælge det sprog, du har brug for, på listen **Tilføj sprog**.
 
 1. Tilføj den oversatte dokumentskabelon som beskrevet ovenfor.
 
-    ![Deutch document upload -screenshot][img7]
+    ![Oversatt dokumentskabelon -screenshot][img7]
 
 1. Klik på **Tilføj**. Sproget vises på fanen **Sprog**.
 

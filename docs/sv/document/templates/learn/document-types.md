@@ -1,6 +1,6 @@
 ---
 uid: help-sv-document-template-type
-title: Dokumentmalltyper
+title: Stödda dokumentmalltyper
 description: Stödda dokumentmalltyper
 keywords: mall, dokumentmall, dokumenttyp, dokument, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
@@ -10,7 +10,7 @@ topic: reference
 language: sv
 ---
 
-# Dokumentmalltyper
+# Stödda dokumentmalltyper
 
 Stödda Microsoft Office-filtyper som dokumentmallar är DOC, XLS, PPT, DOCX, XLSX och PPTX. Microsoft Office-filformat med makron (DOCM, XLSM, PPTM) stöds också.
 

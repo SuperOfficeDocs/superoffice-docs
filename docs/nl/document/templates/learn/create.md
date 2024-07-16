@@ -2,9 +2,10 @@
 uid: help-nl-document-template-create
 title: Een sjabloondocument maken
 description: Een sjabloondocument maken
-keywords: document template, document, template
+keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias
-date: 06.29.2022
+date: 07.16.2024
+version: 10
 topic: howto
 language: nl
 ---

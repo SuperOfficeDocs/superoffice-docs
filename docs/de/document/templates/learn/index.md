@@ -1,7 +1,7 @@
 ---
 uid: help-de-document-template
 title: Dokumentvorlage
-description: Introduction to document templates
+description: Dokumentvorlage
 keywords: Dokumentvorlage, Dokument, Vorlage
 author: Bergfrid Dias
 date: 07.11.2024
@@ -57,7 +57,7 @@ Damit Sie mit Ihren Kunden in deren Sprache kommunizieren können (sofern mögli
 * [Vorlagendokument erstellen][4]
 * [Vorlagenvariablen anzeigen][1]
 * [Vorlagenvariablen (Service)][8]
-* [Quote templates][7]
+* [Angebotsvorlagen][7]
 
 <!-- Referenced links -->
 [1]: template-variables.md

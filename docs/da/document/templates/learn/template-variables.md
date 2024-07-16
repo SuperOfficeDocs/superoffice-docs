@@ -4,7 +4,8 @@ title: Skabelonvariabler
 description: Med skabelonvariabler kan du tilpasse og automatisere indtastningen af kundedata
 keywords: dokument, skabelon, variable
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
+version: 10.3
 topic: concept
 language: da
 ---
@@ -27,7 +28,7 @@ Teksten du skriver ser således ud:
 
 "Hej **{atfn}** Vil du vide mere om, hvordan vores produkt kan hjælpe **{name}** med at skaffe nye kunder? Så skal du endelige ringer til os **{cont}** på **{onam}**."
 
-## How to use template variables
+## Sådan bruger du skabelonvariabler
 
 * Hele variablen skal være formateret med samme skrifttype og skriftstørrelse, og du må kun bruge små bogstaver. Hvis præferencen **Tillad store bogstaver i skabelonvariabler** er aktiveret, kan skabelonvariablen dog formateres.
 
@@ -43,7 +44,7 @@ Teksten du skriver ser således ud:
 
 Dette er et eksempel på et sidehoved i et mødereferat (dokument eller e-mail).
 
-**Template:**
+**Skabelon:**
 
 ```text
 {head}
@@ -53,7 +54,7 @@ Fraværende:
 Mødesekretær: {auth} ({auem})
 ```
 
-**Result:**
+**Resultat:**
 
 ```text
 Sommersalgskampagne - planlægning
@@ -96,7 +97,7 @@ Skabelonerne til tilbudsdokumenter, tilbudsdetaljer og ordrebekræftelser adskil
 
 Skabelonvariabler for tilbud og ordrebekræftelser kan bruges i forbindelse med et tilbud.
 
-**Template:**
+**Skabelon:**
 
 ```text
 Ordredato: {sdat}
@@ -107,7 +108,7 @@ Dit PO-nummer: {qpon}
 Vores kontaktperson: {cont}
 ```
 
-**Result:**
+**Resultat:**
 
 ```text
 Ordredato: 15.12.2019
@@ -118,7 +119,7 @@ Dit PO-nummer: 70000882
 Vores kontakt: John Hansen
 ```
 
-## Service and Marketing template variables
+## Service og Marketing skabelonvariabler
 
 Når du genererer mailskabeloner til anmodninger og forsendelser (og meddelelsesskabeloner) i Marketing, kan du tilpasse mailen eller mailingen med skabelonvariabler. Disse variabler er lidt forskellige fra dem, der bruges i dokumenter.
 

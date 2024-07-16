@@ -1,6 +1,6 @@
 ---
 uid: help-en-document-template-type
-title: Document template types
+title: Supported document template types
 description: Supported document template types
 keywords: template, document template, document type, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
@@ -10,7 +10,7 @@ topic: reference
 language: en
 ---
 
-# Document template types
+# Supported document template types
 
 Supported Microsoft Office file types as document templates are DOC, XLS, PPT, DOCX, XLSX, and PPTX. Microsoft Office file formats with macros (DOCM, XLSM, PPTM) are also supported.
 

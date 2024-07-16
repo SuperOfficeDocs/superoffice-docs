@@ -1,11 +1,12 @@
 ---
-uid: document-template-troubleshooting
+uid: help-en-document-template-troubleshooting
 title: Troubleshooting
 description: How to spot and fix problems when using SuperOffice template variables in Microsoft 365 documents.
 keywords: document template, template variable, document
 author: Bergfrid Dias
 date: 07.11.2024
 topic: howto
+language: en
 ---
 
 # Troubleshooting
@@ -96,7 +97,7 @@ As you can see, the start "**{**" and the end "**}**" tags are placed far apart 
 
 ## What can I do when this happens?
 
-* The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
+The first thing to try is to remove the template variables from the document and re-enter them manually (no copy/paste as this can contain formatting or other hidden stuff).
 
 * For PowerPoint: The text boxes containing the template variables should be otherwise empty (pictures, other text and similar should be added in own boxes).
 
@@ -108,7 +109,7 @@ As you can see, the start "**{**" and the end "**}**" tags are placed far apart 
 
 * Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
 
-* Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
+Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
 
 ## It still doesn't work, could this be a bug?
 

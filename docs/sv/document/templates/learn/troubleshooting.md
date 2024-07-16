@@ -99,15 +99,15 @@ Som du kan se är start- "{" och slut- "}" taggarna placerade långt från mallv
 
 Det första du ska försöka är att ta bort mallvariablerna från dokumentet och ange dem manuellt igen (ingen kopiering/klistring eftersom detta kan innehålla formatering eller andra dolda saker).
 
-För PowerPoint: Textlådorna som innehåller mallvariablerna ska annars vara tomma (bilder, annan text och liknande ska läggas till i egna lådor).
+* För PowerPoint: Textlådorna som innehåller mallvariablerna ska annars vara tomma (bilder, annan text och liknande ska läggas till i egna lådor).
 
-Samma gäller för Excel: Cellerna som innehåller mallvariablerna ska annars vara tomma.
+* Samma gäller för Excel: Cellerna som innehåller mallvariablerna ska annars vara tomma.
 
-För Word-dokument: Slå på Visa/dölj dolda tecken för att se om Word har placerat något inuti mallvariabeln:
+* För Word-dokument: Slå på Visa/dölj dolda tecken för att se om Word har placerat något inuti mallvariabeln:
 
 ![Slå på Visa/dölj dolda tecken -screenshot][img2]
 
-Är mallvariabeln stavad korrekt och stöds den verkligen? Se [listan över alla våra stödda mallvariabler][1].
+* Är mallvariabeln stavad korrekt och stöds den verkligen? Se [listan över alla våra stödda mallvariabler][1].
 
 Observera att både webb- och Win-versionerna använder samma motor för mallutbyte, så resultatet ska vara detsamma oavsett var du skapar dokumentet.
 
@@ -117,13 +117,13 @@ Det är extremt sällsynt att en mallvariabel skulle fungera i dokument av en ty
 
 Om detta händer är det högst troligt ett annat fall av genererad xml som stör taggarna.
 
-För att verifiera filer av typen .pptx, .docx eller .xlsx, kan du helt enkelt byta namn på filens tillägg till .zip (se till att ta en säkerhetskopia av filen först).
+* För att verifiera filer av typen .pptx, .docx eller .xlsx, kan du helt enkelt byta namn på filens tillägg till .zip (se till att ta en säkerhetskopia av filen först).
 
-Efter att ha packat upp kan du öppna den relevanta xml-filen för att verifiera. Använd Anteckningar eller liknande eftersom du vill att hela filen ska visas i sin helhet utan någon parsning av xml-taggarna.
+* Efter att ha packat upp kan du öppna den relevanta xml-filen för att verifiera. Använd Anteckningar eller liknande eftersom du vill att hela filen ska visas i sin helhet utan någon parsning av xml-taggarna.
 
-Sök efter den aktuella mallvariabeln och observera om dess start- och sluttaggar är intakta.
+* Sök efter den aktuella mallvariabeln och observera om dess start- och sluttaggar är intakta.
 
-Om du fortfarande kan se den icke-fungerande mallvariabeln med dess taggar intakta, kan det vara ett fel på vår sida.
+* Om du fortfarande kan se den icke-fungerande mallvariabeln med dess taggar intakta, kan det vara ett fel på vår sida.
 
 ## Interna strukturer
 

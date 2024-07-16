@@ -1,5 +1,5 @@
 ---
-uid: help-nldocument-template-troubleshooting
+uid: help-nl-document-template-troubleshooting
 title: Probleemoplossing
 description: Hoe u problemen herkent en oplost bij het gebruik van SuperOffice-sjabloonvariabelen in Microsoft 365-documenten.
 keywords: documentsjabloon, sjabloonvariabele, document
@@ -99,15 +99,15 @@ Zoals je kunt zien, zijn de start- "{" en eind- "}" tags ver van de sjabloonvari
 
 Het eerste wat je moet proberen, is de sjabloonvariabelen uit het document verwijderen en handmatig opnieuw invoeren (geen kopiëren/plakken, omdat dit opmaak of andere verborgen zaken kan bevatten).
 
-Voor PowerPoint: De tekstvakken die de sjabloonvariabelen bevatten, moeten anders leeg zijn (afbeeldingen, andere tekst en dergelijke moeten in eigen vakken worden toegevoegd).
+* Voor PowerPoint: De tekstvakken die de sjabloonvariabelen bevatten, moeten anders leeg zijn (afbeeldingen, andere tekst en dergelijke moeten in eigen vakken worden toegevoegd).
 
-Hetzelfde geldt voor Excel: De cellen die sjabloonvariabelen bevatten, moeten anders leeg zijn.
+* Hetzelfde geldt voor Excel: De cellen die sjabloonvariabelen bevatten, moeten anders leeg zijn.
 
-Voor Word-documenten: Zet Verborgen tekens weergeven/verbergen aan om te zien of Word iets in de sjabloonvariabele heeft geplaatst:
+* Voor Word-documenten: Zet Verborgen tekens weergeven/verbergen aan om te zien of Word iets in de sjabloonvariabele heeft geplaatst:
 
 ![Verborgen tekens weergeven/verbergen inschakelen -screenshot][img2]
 
-Is de sjabloonvariabele correct gespeld en wordt deze daadwerkelijk ondersteund? Zie de [lijst van al onze ondersteunde sjabloonvariabelen][1].
+* Is de sjabloonvariabele correct gespeld en wordt deze daadwerkelijk ondersteund? Zie de [lijst van al onze ondersteunde sjabloonvariabelen][1].
 
 Merk op dat zowel de Web- als Win-versies dezelfde motor voor sjabloonvervanging gebruiken, dus het resultaat zou hetzelfde moeten zijn, ongeacht waar je het document maakt.
 
@@ -117,13 +117,13 @@ Het is uiterst zeldzaam dat een sjabloonvariabele in documenten van het ene type
 
 Als dit gebeurt, is het hoogstwaarschijnlijk een ander geval van gegenereerde xml die de tags verstoort.
 
-Om bestanden van het type .pptx, .docx of .xlsx te verifiëren, kun je eenvoudig de extensie van het bestand wijzigen in .zip (zorg ervoor dat je eerst een back-up van het bestand maakt).
+* Om bestanden van het type .pptx, .docx of .xlsx te verifiëren, kun je eenvoudig de extensie van het bestand wijzigen in .zip (zorg ervoor dat je eerst een back-up van het bestand maakt).
 
-Na het uitpakken kun je het relevante xml-bestand openen om te verifiëren. Gebruik Kladblok of iets dergelijks, omdat je wilt dat het hele bestand in zijn geheel wordt weergegeven zonder enige parsing van de xml-tags.
+* Na het uitpakken kun je het relevante xml-bestand openen om te verifiëren. Gebruik Kladblok of iets dergelijks, omdat je wilt dat het hele bestand in zijn geheel wordt weergegeven zonder enige parsing van de xml-tags.
 
-Zoek naar de betreffende sjabloonvariabele en observeer of de start- en eindtags intact zijn.
+* Zoek naar de betreffende sjabloonvariabele en observeer of de start- en eindtags intact zijn.
 
-Als je de niet-werkende sjabloonvariabele met zijn intacte tags nog steeds kunt zien, kan het een bug aan onze kant zijn.
+* Als je de niet-werkende sjabloonvariabele met zijn intacte tags nog steeds kunt zien, kan het een bug aan onze kant zijn.
 
 ## Interne structuren
 

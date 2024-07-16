@@ -2,9 +2,9 @@
 uid: help-nl-document-template-update
 title: Sjabloon bewerken
 description: Standaardsjablonen bewerken; Bestaande sjabloon vervangen
-keywords: document template, document, template
+keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias
-date: 07.11.2024
+date: 07.16.2024
 version: 10
 topic: howto
 language: nl
@@ -41,10 +41,10 @@ U kunt de standaardsjablonen van SuperOffice CRM bewerken en onder een naam van 
 > [!NOTE]
 > Als u probeert de bestaande documentsjabloon te vervangen zonder de naam te wijzigen, wordt de bijgewerkte versie van de sjabloon door SuperOffice hernoemd.
 
-## Related topics
+## Gerelateerde inhoud
 
 * [Een sjabloondocument maken][2]
-* [Template variable reference][3]
+* [Sjabloonvariabelenreferentie][3]
 
 <!-- Referenced links -->
 [1]: link-template.md

@@ -5,6 +5,7 @@ description: Med mallvariabler kan du anpassa och automatisera inmatningen av ku
 keywords: dokument, mall, variabel, mallvariabel
 author: Bergfrid Dias
 date: 07.11.2024
+version: 10.3
 topic: concept
 language: sv
 ---

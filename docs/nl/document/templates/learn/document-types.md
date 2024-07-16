@@ -1,6 +1,6 @@
 ---
 uid: help-nl-document-template-type
-title: Documentsjabloontypen
+title: Ondersteunde documentsjabloontypen
 description: Ondersteunde documentsjabloontypen
 keywords: sjabloon, documentsjabloon, documenttype, document, Microsoft Office, Microsoft 365, DOC, DOCX, XLS, XLSX, PPT, PPTX
 author: Martin Pavlas
@@ -10,7 +10,7 @@ topic: reference
 language: nl
 ---
 
-# Documentsjabloontypen
+# Ondersteunde documentsjabloontypen
 
 Ondersteunde Microsoft Office-bestandstypen als documentsjablonen zijn DOC, XLS, PPT, DOCX, XLSX en PPTX. Microsoft Office-bestandsindelingen met macro's (DOCM, XLSM, PPTM) worden ook ondersteund.
 

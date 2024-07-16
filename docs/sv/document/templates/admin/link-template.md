@@ -31,11 +31,11 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till
 
 1. Klicka på **Lägg till** (3).
 
-    ![Add document template -screenshot][img3]
+    ![Lägg till dokumentmall -screenshot][img3]
 
 1. Skriv in namnet på posten i fältet **Namn** (1).
 
-    ![Edit list item -screenshot ][img2]
+    ![Redigera post -screenshot ][img2]
 
 1. Välj eventuellt var du vill spara dokumentmallen i listan **Spara mallen i** (2).
 
@@ -49,7 +49,7 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till
 
     * Kopiera en befintlig mall i SuperOffice:
 
-        1. Välj **Ladda upp en ny dokumentmall från disk**.
+        1. Välj **Ladda upp en ny dokumentmall från disk** (3).
         2. Klicka på **Ladda upp**.
         3. Klicka på **Ladda upp fil** i dialogrutan **Ladda upp fil**.
         4. Välj önskad fil och klicka på **Öppna**. Filnamnet visas i dialogrutan **Redigera post**.
@@ -105,13 +105,13 @@ Här kan du lägga till översatta versioner av dokumentmallen.
 
 1. Klicka på **Lägg till**.
 
-    ![Add languages -screenshot][img6]
+    ![Lägg till språk -screenshot][img6]
 
 1. Välj önskat språk i listan **Lägg till språk** i dialogrutan **Redigera post**.
 
 1. Lägg till den översatta dokumentmallen enligt beskrivningen ovan.
 
-    ![Deutch document upload -screenshot][img7]
+    ![Översatta dokumentmallen -screenshot][img7]
 
 1. Klicka på **Lägg till**. Språket visas på fliken **Språk**.
 

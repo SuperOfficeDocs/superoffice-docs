@@ -25,17 +25,17 @@ Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan d
 
 ## Trinn
 
-1. I Innstillinger og velikehold, velg **Lister** (1) i navigatoren.
+1. I Innstillinger og velikehold, velg **Lister** i navigatoren (1).
 
 1. Velg fanen **Forekomster**, klikk på pilen, og velg **Dokument - Mal** (2).
 
 1. Klikk på **Legg til**-knappen (3).
 
-    ![Add document template -screenshot][img3]
+    ![Legge til en dokumentmal -screenshot][img3]
 
 1. Skriv inn ønsket navn på forekomsten i feltet **Navn** (1).
 
-    ![Edit list item -screenshot ][img2]
+    ![Angi dokumentmalnavn -screenshot ][img2]
 
 1. Velg eventuelt hvor du vil lagre dokumentmalen, i listen **Lagre malen i** (2).
 
@@ -62,9 +62,9 @@ Se denne videoen, eller følg fremgangsmåten nedenfor for å finne ut hvordan d
 
 1. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster** og er nå tilgjengelig i CRM-klienten:
 
-![New document -screenshot][img4]
+![Nytt dokument -screenshot][img4]
 
-![New document dialog -screenshot][img5]
+![Nytt dokument -screenshot][img5]
 
 > [!TIP]
 > Gjenta prosedyren hvis du vil legge til flere maler.
@@ -90,7 +90,7 @@ Angi følgende informasjon i fanen **Detaljer**:
 
 7. Merk av for alternativet **Tilbudsdokument-type** (4) hvis dokumentet skal være tilgjengelig som [tilbudsmal][2] eller bekreftelsesdokument. Du velger typen tilbudsdokument i listen nedenfor.
 
-    ![Reference list item -screenshot][img8]
+    ![Dialogboksen Rediger forekomst -screenshot][img8]
 
 8. Angi standardoppsett for feltet **Vår ref (standard)** (5) ved hjelp av malvariabler, for eksempel *auth* for avsenderens fornavn og etternavn, eller {oref}.
 
@@ -105,13 +105,13 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 
 1. Klikk på **Legg til**.
 
-    ![Add languages -screenshot][img6]
+    ![Legg til språk -screenshot][img6]
 
 1. I dialogboksen **Rediger forekomst** velger du ønsket språk fra listen **Legg til språk**.
 
 1. Legg til den oversatte dokumentmalen som beskrevet ovenfor.
 
-    ![Deutch document upload -screenshot][img7]
+    ![Oversatt dokumentmalen -screenshot][img7]
 
 1. Klikk på **Legg til**. Språket vises i fanen **Språk**.
 

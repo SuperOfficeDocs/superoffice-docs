@@ -25,7 +25,7 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 ## Steps
 
-1. In Settings and maintenance, select **Lists** (1) in the Navigator.
+1. In Settings and maintenance, select **Lists** in the Navigator (1).
 
 1. Choose the **Items** tab, click the arrow, and select **Document - Template** (2).
 

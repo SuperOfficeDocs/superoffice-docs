@@ -2,7 +2,7 @@
 uid: help-de-document-template-link
 title: Eine Dokumentvorlage hinzufügen
 description: In dieser Anleitung lernen Sie, wie Sie eine neue Dokumentvorlage zu SuperOffice CRM hinzufügen.
-keywords: Dokument, Vorlage
+keywords: Dokument, Vorlage, Listen
 author: Bergfrid Dias
 date: 07.12.2024
 version: 10
@@ -31,11 +31,11 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leit
 
 1. Klicken Sie auf **Hinzufügen** (3).
 
-    ![Add document template -screenshot][img3]
+    ![Dokumentvorlage hinzufügen -screenshot][img3]
 
 1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Name** ein (1).
 
-    ![Edit list item -screenshot ][img2]
+    ![Listenobjekt bearbeiten -screenshot ][img2]
 
 1. In der Liste **Vorlage speichern in** können Sie angeben, wo die Dokumentvorlage gespeichert werden soll (2).
 
@@ -90,7 +90,7 @@ Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
 7. Aktivieren Sie die Option **Typ des Angebotsdokuments**, (4) wenn das Dokument als [Angebotsvorlage][2] oder Auftragsbestätigungsvorlage verfügbar sein sollte. Den gewünschten Typ des Angebotsdokuments wählen Sie in der Liste unten aus.
 
-    ![Reference list item -screenshot][img8]
+    ![Listenobjekt bearbeiten -screenshot][img8]
 
 8. Geben Sie eine Standardeinstellung in das Feld **Unser Zeichen (Standard)** ein, indem Sie Vorlagenvariablen verwenden, z. B. *verf* für den Vor- und Nachnamen des Absenders, oder {oref}.
 
@@ -105,13 +105,13 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 
 1. Klicken Sie auf **Hinzufügen**.
 
-    ![Add languages -screenshot][img6]
+    ![Sprache hinzufügen -screenshot][img6]
 
 1. Wählen Sie im Dialogfeld **Listenobjekt bearbeiten** die gewünschte Sprache in der Liste **Sprache hinzufügen** aus.
 
 1. Fügen Sie eine übersetzte Dokumentvorlage hinzu, wie oben beschrieben.
 
-    ![Deutch document upload -screenshot][img7]
+    ![Übersetzte Dokumentvorlage -screenshot][img7]
 
 1. Klicken Sie auf **Hinzufügen**. Die Sprache ist in der Registerkarte **Sprachen** aufgeführt.
 
