@@ -49,6 +49,6 @@ Du kan redigera standardmallarna som medföljer SuperOffice CRM och spara dem un
 <!-- Referenced links -->
 [1]: link-template.md
 [2]: ../learn/create.md
-[3]: ../../../../en/document/templates/variables/index.md
+[3]: ../variables/index.md
 
 <!-- Referenced images -->

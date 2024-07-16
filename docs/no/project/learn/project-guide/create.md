@@ -156,7 +156,7 @@ Planleggingsmøte:
 * [Deaktivere prosjektguide][6]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/from-project-card.md
+[1]: ../../../document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../document/templates/learn/index.md

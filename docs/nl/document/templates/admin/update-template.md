@@ -49,6 +49,6 @@ U kunt de standaardsjablonen van SuperOffice CRM bewerken en onder een naam van 
 <!-- Referenced links -->
 [1]: link-template.md
 [2]: ../learn/create.md
-[3]: ../../../../en/document/templates/variables/index.md
+[3]: ../variables/index.md
 
 <!-- Referenced images -->

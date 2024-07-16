@@ -73,7 +73,7 @@ If a company, contact or project has several active statuses, the lower priority
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../../../globalization-and-localization/learn/translate-fields.md
-[9]: ../../../../../en/document/templates/variables/index.md
+[9]: ../../../../document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../common/icons/az.png

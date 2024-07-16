@@ -142,7 +142,7 @@ Agenda for first meeting:
 **Default subject**: Meeting confirmation (first meeting)
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/for-sales.md
+[1]: ../../../document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../document/templates/learn/index.md

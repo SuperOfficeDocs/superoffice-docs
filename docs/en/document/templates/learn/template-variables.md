@@ -128,6 +128,6 @@ When generating email templates for requests and mailings (and message templates
 The reference is grouped by area. [Go to reference][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

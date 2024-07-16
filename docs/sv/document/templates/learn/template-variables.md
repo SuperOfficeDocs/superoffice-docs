@@ -130,6 +130,6 @@ När du skapar e-postmallar för ärenden och utskick (och meddelandemallar) i M
 Referensen är grupperad efter område. [Gå till referens][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]: ../variables/index.md
 
 <!-- Referenced images -->
