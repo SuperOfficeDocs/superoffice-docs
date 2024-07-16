@@ -28,7 +28,7 @@ date: 06.27.2014
 The field used in step 2 is an example only. You can find all template variables in the [reference][1].
 
 <!-- Referenced links -->
-[1]:mergefields.md
+[1]: mergefields.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/document/6762-11545.jpg
