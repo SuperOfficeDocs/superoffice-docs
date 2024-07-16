@@ -1,3 +1,43 @@
 items:
-- name: TBD
-  href: index.md
+- name: Firma
+  href: from-company-card.md
+- name: Firma (Absender)
+  href: from-senders-company-card.md
+- name: Person (ausgewählt)
+  href: for-selected-contact.md
+- name: Person (Absender)
+  href: for-sender-contact-dialog.md
+- name: Dokument und System
+  href: from-doc-dialog-or-system.md
+- name: Folgeaufgabe
+  href: for-appointments.md
+- name: iCal
+  href: for-ical.md
+- name: Int. Adresse
+  href: for-int-address.md
+- name: Mail-Gateway
+  href: for-mail-gateway.md
+- name: Pocket CRM
+  href: for-pocket.md
+- name: Projekt
+  href: from-project-card.md
+- name: Angebotsalternative
+  href: for-quote-alternative.md
+- name: Angebotsinfo
+  href: for-quote-info.md
+- name: Angebotszeile
+  href: for-quote-line.md
+- name: Angebotszeile mit Abonnement
+  href: for-quote-line-with-subscription.md
+- name: Anfrage
+  href: for-request.md
+- name: Verkauf
+  href: for-sales.md
+- name: Selektion
+  href: for-selections.md
+- name: Service
+  href: for-service.md
+- name: Web-App
+  href: for-web-app.md
+- name: Verschiedenes
+  href: misc.md
