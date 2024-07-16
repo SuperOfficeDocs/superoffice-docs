@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-These are template variables from Service which can be used in Sales & Marketing document templates. Service has also its own [template variables][1] used in reply templates.
+These are template variables from Service that can be used in Sales and Marketing document templates. Service also has [reply template variables][1].
 
 | Variable | Description | Example |
 |---|---|---|

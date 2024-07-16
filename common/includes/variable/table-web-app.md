@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
 | Variable | Description |
 |---|---|
-| uctx | Current online context identifier, or online customer ID. |
+| uctx | Current online context identifier, or online customer ID |
 | usec | Encrypted login information for NetServer. Do not use this in a web application for CRM Online |
 | usem | Current user's primary email address |
 | user | Current user ID |

@@ -3,12 +3,12 @@
 |---|---|
 | quid | Quote ID |
 | qabi | Version approved by (ID) |
-| qaby | Version approved by (Full name) |
+| qaby | Version approved by (full name) |
 | qadt | Version approval reg date |
-| qarb | Version approval reg by (Full name) |
+| qarb | Version approval reg by (full name) |
 | qari | Version approval reg by (ID) |
 | qatx | Version approved text |
-| qcom | Quote Comment |
+| qcom | Quote comment |
 | qda1 | Version delivery address line 1, formatted |
 | qda2 | Version delivery address line 2, formatted |
 | qda3 | Version delivery address line 3, formatted |
@@ -21,9 +21,9 @@
 | qdci | Version delivery country ID |
 | qdcn | Version delivery country name |
 | qdek | Version delivery terms key (ID) |
-| qdev | Version delivery terms (Display text) |
+| qdev | Version delivery terms (display text) |
 | qdtk | Version delivery type key (ID) |
-| qdtv | Version delivery type (Display text) |
+| qdtv | Version delivery type (display text) |
 | qexp | Version expiry date |
 | qia1 | Version invoice address line 1, formatted |
 | qia2 | Version invoice address line 2, formatted |
@@ -40,10 +40,10 @@
 | qnum | Version number |
 | qord | Quote ERP order key |
 | qpek | Version payment terms key (ID) |
-| qpev | Version payment terms (Display text) |
-| qpon | Quote PO Number |
+| qpev | Version payment terms (display text) |
+| qpon | Quote PO number |
 | qptk | Version payment type key (ID) |
-| qptv | Version payment type (Display text) |
+| qptv | Version payment type (display text) |
 | qver | Version rank |
 | qvf1 | Version extra field 1 |
 | qvf2 | Version extra field 2 |
@@ -51,4 +51,4 @@
 | qvf4 | Version extra field 4 |
 | qvf5 | Version extra field 5 |
 | qvid | Version ID |
-| qvky | Version ERP Key |
+| qvky | Version ERP key |
