@@ -1,11 +1,13 @@
 ---
-uid: tempvar-pocket
+uid: help-en-tempvar-pocket
 title: Pocket template variables
 description: Pocket template variables
+keywords: template variable, Pocket CRM, mobile
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Pocket template variables

@@ -1,11 +1,13 @@
 ---
-uid: tempvar-misc
+uid: help-en-tempvar-misc
 title: Misc template variables
 description: Misc template variables
+keywords: template variable, current diary, diid, dday
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Misc template variables

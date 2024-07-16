@@ -1,13 +1,15 @@
 ---
-uid: tempvar-quote-line
-title: Variables for Quote line
-description: Variables for Quote line
+uid: help-en-tempvar-quote-line
+title: Variables for quote line
+description: Variables for quote line
+keywords: template variable, quote line, quote
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
-# Variables for Quote line
+# Variables for quote line
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line.md)]

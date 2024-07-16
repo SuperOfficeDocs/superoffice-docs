@@ -1,13 +1,15 @@
 ---
-uid: tempvar-project-card
-title: Variables from the project card
+uid: help-en-tempvar-project-card
+title: Variables from the Project card
 description: Variables from the project card
+keywords: template variable, project
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
-# Variables from the project card
+# Variables from the Project card
 
 [!include[Table](../../../../../common/includes/variable/table-project.md)]

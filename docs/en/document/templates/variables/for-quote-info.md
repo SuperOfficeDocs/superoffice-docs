@@ -1,13 +1,15 @@
 ---
-uid: tempvar-quote-info
-title: Variables for Quote info
-description: "Template variable reference for Quote info."
+uid: help-en-tempvar-quote-info
+title: Variables for quote info
+description: Template variable reference for quote info.
+keywords: template variable, quote info, quote
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
-# Variables for Quote info
+# Variables for quote info
 
 [!include[Table](../../../../../common/includes/variable/table-quote-info.md)]
