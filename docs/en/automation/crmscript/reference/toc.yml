@@ -98,8 +98,6 @@ items:
     href: CRMScript.Native.MacroReturnValue.yml
   - name: MainMenu
     href: CRMScript.Native.MainMenu.yml
-  - name: Map
-    href: CRMScript.Native.Map.yml
   - name: Message
     href: CRMScript.Native.Message.yml
   - name: Notify
@@ -144,8 +142,6 @@ items:
     href: CRMScript.Native.TimeZone.yml
   - name: User
     href: CRMScript.Native.User.yml
-  - name: Vector
-    href: CRMScript.Native.Vector.yml
   - name: WeekSchedule
     href: CRMScript.Native.WeekSchedule.yml
   - name: XMLNode
