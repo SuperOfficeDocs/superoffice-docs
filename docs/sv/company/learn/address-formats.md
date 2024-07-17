@@ -2,18 +2,19 @@
 uid: help-sv-address-formats-for-different-countries
 title: Adressformat för andra länder
 description: Adressformat för andra länder
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: företag
+keywords: företag, adressformat
+author: Bergfrid Dias
+date: 07.17.2024
+version: 10
 topic: reference
 language: sv
 ---
 
 # Adressformat för andra länder
 
-Du kan skapa företag med adresser i många olika länder. För att det ska bli lättare att skicka brev till företag i andra länder finns åtta olika adressformat i systemet: europeiskt, australiensiskt/kanadensiskt, amerikanskt, tyskt, brittiskt, spanskt, japanskt och ett generellt adressformat.
+Du kan skapa företag med adresser i olika länder. För att underlätta internationell korrespondens finns flera adressformat tillgängliga, inklusive europeiskt, australiskt/kanadensiskt, amerikanskt, tyskt, brittiskt, spanskt, japanskt och ett generellt format.
 
-När du [skapar ett företag][1] och väljer vilket land företaget tillhör ändras adressfälten på fliken **Företag** enligt ditt val. Adressfälten som ändras beskrivs nedan.
+När du [skapar ett företag][1] och väljer land anpassas adressfälten i fliken **Företag** därefter. De specifika adressfälten som ändras beskrivs nedan.
 
 > [!TIP]
 > Du kan ändra standardadressformatet för ett land under Inställningar och underhåll.
@@ -53,6 +54,19 @@ Det här adressformatet används för Spanien.
 | Adress 3 | Tredje adressraden |
 | Postnummer/ort | Postnummer och postort för postadress. |
 | Län | Län |
+| Land | Land |
+
+## Brittisk
+
+Det här adressformatet används för Storbritannien.
+
+| Fält | Beskrivning |
+|---|---|
+| Adress 1 | Första adressraden |
+| Adress 2 | Andra adressraden |
+| Adress 3 | Tredje adressraden |
+| Ort | Postort |
+| County/postnummer | Län (county) och postnummer. Till exempel "Somerset TA1 2WB" |
 | Land | Land |
 
 ## Övriga Europa
@@ -100,19 +114,6 @@ Det här adressformatet används för USA. Det liknar formatet för Australien/K
 | Adress 2 | Andra adressraden |
 | Ort | Postortens namn |
 | Delstat/postnummer | Delstatskod (till exempel CA) och postnummer (zip code) |
-| Land | Land |
-
-## Brittisk
-
-Det här adressformatet används för Storbritannien.
-
-| Fält | Beskrivning |
-|---|---|
-| Adress 1 | Första adressraden |
-| Adress 2 | Andra adressraden |
-| Adress 3 | Tredje adressraden |
-| Ort | Postort |
-| County/postnummer | Län (county) och postnummer. Till exempel "Somerset TA1 2WB" |
 | Land | Land |
 
 ## Japan

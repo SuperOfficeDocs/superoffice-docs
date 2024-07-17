@@ -2,18 +2,19 @@
 uid: help-nl-address-formats-for-different-countries
 title: Adresnotaties voor verschillende landen
 description: Adresnotaties voor verschillende landen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: bedrijf
+keywords: bedrijf, adresnotatie
+author: Bergfrid Dias
+date: 07.17.2024
+version: 10
 topic: reference
 language: nl
 ---
 
 # Adresnotaties voor verschillende landen
 
-U kunt bedrijven maken met adressen in een groot aantal verschillende landen. Om de verzending van brieven naar bedrijven in het buitenland beter te laten verlopen, zijn er verschillende adresnotaties opgenomen: een Europese, Australische/Canadese, Amerikaanse, Duitse, Britse, Spaanse, Japanse en een algemene adresnotatie.
+U kunt bedrijven aanmaken met adressen in verschillende landen. Om internationale correspondentie te vergemakkelijken, zijn er meerdere adresformaten beschikbaar, waaronder Europees, Australisch/Canadees, Amerikaans, Duits, Brits, Spaans, Japans en een algemeen formaat.
 
-Wanneer u [een bedrijf maakt][1] en het land kiest waarin het bedrijf is gevestigd, worden de adresvelden in het tabblad **Bedrijf** overeenkomstig uw keuze aangepast. De adresvelden die worden gewijzigd, worden hieronder beschreven.
+Bij het [aanmaken van een bedrijf][1] en het selecteren van het land, worden de adresvelden in het tabblad **Bedrijf** dienovereenkomstig aangepast. De specifieke adresvelden die veranderen, worden hieronder beschreven.
 
 > [!TIP]
 > In Instellingen en onderhoud kunt u de standaardadresnotatie voor een land wijzigen.
@@ -53,6 +54,19 @@ Deze adresnotatie wordt gebruikt voor Spanje.
 | Adres 3 | Derde adresregel |
 | Postcode/plaats | Postcode en plaatsnaam voor adressering postadres. |
 | District | District |
+| Land | Land |
+
+## Verenigd Koninkrijk
+
+Deze adresnotatie wordt gebruikt voor Groot-Brittannië.
+
+| Veld | Beschrijving |
+|---|---|
+| Adres 1 | Eerste adresregel |
+| Adres 2 | Tweede adresregel |
+| Adres 3 | Derde adresregel |
+| Postadres | Plaatsnaam voor adressering |
+| District/postcode | District en postcode. Bijvoorbeeld Somerset TA1 2WB |
 | Land | Land |
 
 ## Overige Europese landen
@@ -100,19 +114,6 @@ Deze adresnotatie wordt gebruikt voor de Verenigde Staten van Amerika. Deze opma
 | Adres 2 | Tweede adresregel |
 | Postadres | Plaatsnaam voor adressering |
 | Staat/postcode | Code voor de staat (bijvoorbeeld CA), en de postcode (zip code) |
-| Land | Land |
-
-## Verenigd Koninkrijk
-
-Deze adresnotatie wordt gebruikt voor Groot-Brittannië.
-
-| Veld | Beschrijving |
-|---|---|
-| Adres 1 | Eerste adresregel |
-| Adres 2 | Tweede adresregel |
-| Adres 3 | Derde adresregel |
-| Postadres | Plaatsnaam voor adressering |
-| District/postcode | District en postcode. Bijvoorbeeld Somerset TA1 2WB |
 | Land | Land |
 
 ## Japan

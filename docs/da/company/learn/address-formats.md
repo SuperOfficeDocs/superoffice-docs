@@ -2,18 +2,19 @@
 uid: help-da-address-formats-for-different-countries
 title: Adresseformater for forskellige lande
 description: Adresseformater for forskellige lande
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: firma
+keywords: firma, adresseformat
+author: Bergfrid Dias
+date: 07.17.2024
+version: 10
 topic: reference
 language: da
 ---
 
 # Adresseformater for forskellige lande
 
-Du kan oprette firmaer med adresser i mange forskellige lande. For at lette fremsendelse af breve til virksomheder i udlandet er otte forskellige adresseformater inkluderet: Europæisk, australsk/canadisk, amerikansk, tysk, britisk, spansk, japansk og et generelt adresseformat.
+Du kan oprette firmaer med adresser i forskellige lande. For at lette international korrespondance er flere adresseformater tilgængelige, herunder europæisk, australsk/canadisk, amerikansk, tysk, britisk, spansk, japansk og et generelt format.
 
-Når du [opretter en virksomhed][1] og vælger, hvilket land virksomheden tilhører, ændres adressefelterne **under fanen Firma** efter eget valg. De adressefelter, der ændres, er beskrevet nedenfor.
+Når du [opretter et firma][1] og vælger land, tilpasses adressefelterne i fanen **Firma** i overensstemmelse hermed. De specifikke adressefelter, der ændres, er beskrevet nedenfor.
 
 > [!TIP]
 > Du kan ændre standardadresseformatet for et land i Indstillinger og vedligeholdelse.
@@ -53,6 +54,19 @@ Dette adresseformat bruges til Spanien.
 | Adresse 3 | Tredje adresselinje |
 | Postnummer/by | Postnummer og by for postadresse. |
 | Distrikt | Distrikt |
+| Land | Land |
+
+## UK
+
+Dette adresseformat bruges til Storbritannien.
+
+| Felt | Beskrivelse |
+|---|---|
+| Adresse 1 | Første adresselinje |
+| Adresse 2 | Anden adresselinje |
+| Adresse 3 | Tredje adresselinje |
+| By | By |
+| Amt/postnummer | Amt og postnummer. For eksempel Somerset TA1 2WB |
 | Land | Land |
 
 ## Resten af Europa
@@ -100,19 +114,6 @@ Dette adresseformat bruges til USA. Det ligner formatet for Australien / Canada,
 | Adresse 2 | Anden adresselinje |
 | By | Navn på by |
 | Stat / postnummer | Angiv nummer (f.eks. CA) og postnummer (postnummer) |
-| Land | Land |
-
-## UK
-
-Dette adresseformat bruges til Storbritannien.
-
-| Felt | Beskrivelse |
-|---|---|
-| Adresse 1 | Første adresselinje |
-| Adresse 2 | Anden adresselinje |
-| Adresse 3 | Tredje adresselinje |
-| By | By |
-| Amt/postnummer | Amt og postnummer. For eksempel Somerset TA1 2WB |
 | Land | Land |
 
 ## Japan

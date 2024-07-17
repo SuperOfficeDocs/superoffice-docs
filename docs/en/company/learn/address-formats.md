@@ -2,18 +2,19 @@
 uid: help-en-address-formats-for-different-countries
 title: Address formats for different countries
 description: Address formats for different countries
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: company
+keywords: company, address format
+author: Bergfrid Dias
+date: 07.17.2024
+version: 10
 topic: reference
 language: en
 ---
 
 # Address formats for different countries
 
-You can create companies with addresses in many different countries. To facilitate the posting of letters to companies abroad, eight different address formats are included: European, Australian/Canadian, American, German, British, Spanish, Japanese and a general address format.
+You can create companies with addresses in various countries. To facilitate international correspondence, multiple address formats are available, including European, Australian/Canadian, American, German, British, Spanish, Japanese, and a general format.
 
-When you [create a company][1] and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields that change are described below.
+When [creating a company][1] and selecting its country, the address fields in the **Company** tab will adjust accordingly. The specific address fields that change are described below.
 
 > [!TIP]
 > You can change the default address format for a country in Settings and maintenance.
@@ -53,6 +54,19 @@ This address format is used for Spain.
 | Address 3 | Third address line |
 | Postcode/City | Postcode and postal town for postal address. |
 | County | County |
+| Country | Country |
+
+## UK
+
+This address format is used for the UK.
+
+| Field | Description |
+|---|---|
+| Address 1 | First address line |
+| Address 2 | Second address line |
+| Address 3 | Third address line |
+| City | Postal town |
+| County/postcode | County and postcode. For example, Somerset TA1 2WB |
 | Country | Country |
 
 ## Rest of Europe
@@ -100,19 +114,6 @@ This address format is used for the USA. It resembles the format for Australia/C
 | Address 2 | Second address line |
 | City | Name of postal town |
 | State / zip code | State code (for example, CA) and postal code (zip code) |
-| Country | Country |
-
-## UK
-
-This address format is used for the UK.
-
-| Field | Description |
-|---|---|
-| Address 1 | First address line |
-| Address 2 | Second address line |
-| Address 3 | Third address line |
-| City | Postal town |
-| County/postcode | County and postcode. For example, Somerset TA1 2WB |
 | Country | Country |
 
 ## Japan
