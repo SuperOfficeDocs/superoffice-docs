@@ -82,7 +82,7 @@ supershop.com
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
 [2]: ../../request/reply-templates/learn/template-variables.md
-[3]: ../../../en/document/templates/variables/for-selected-contact.md
+[3]: ../../document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/editor-toolbar-icon.png

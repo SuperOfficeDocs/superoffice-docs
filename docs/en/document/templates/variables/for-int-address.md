@@ -1,11 +1,13 @@
 ---
-uid: tempvar-int-address
+uid: help-en-tempvar-int-address
 title: Variables for international addresses
 description: Variables for international addresses
+keywords: template variable, international address, address, internationalization, fad
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Variables for international addresses

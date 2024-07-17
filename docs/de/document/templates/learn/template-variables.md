@@ -130,6 +130,6 @@ Beim Erstellen von E-Mail-Vorlagen für Anfragen und Kampagnen (und Nachrichtenv
 Die Referenz ist nach Bereich gruppiert. [Gehen Sie zu Referenz][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]: ../variables/index.md
 
 <!-- Referenced images -->

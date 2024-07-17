@@ -1,11 +1,13 @@
 ---
-uid: tempvar-service-in-sales
+uid: help-en-tempvar-service-in-sales
 title: Variables for service
 description: Variables for SuperOffice Service
+keywords: template variable, Service, csbl, csbu, cscu, csbn
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Variables for SuperOffice Service

@@ -72,6 +72,6 @@ You now need to select the correct document languages for the users who are goin
 * [All template variables][1] - Reference
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

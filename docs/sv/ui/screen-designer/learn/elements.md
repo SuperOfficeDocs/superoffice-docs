@@ -86,7 +86,7 @@ Knappar fungerar på samma sätt som länkar. Du kan lägga till länkar för at
 <!-- Referenced links -->
 [1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../../en/document/templates/variables/index.md
+[3]: ../../../document/templates/variables/index.md
 [6]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->

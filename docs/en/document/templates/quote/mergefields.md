@@ -4,6 +4,7 @@ description: Quote merge-field reference
 author:
 keywords:
 topic: reference
+language: en
 date:
 ---
 
@@ -38,7 +39,7 @@ date:
 | quote/approvedDate | Approved date | Date of approval of a Quote that broke one or more of the workflow rules that trigger an approval process |
 | quote/poNumber | P.O.Number | Customer's purchase order number |
 | Image:quote/portraitThumbnail | Sale - Portrait | Portrait of sale’s associate – *note the **Image**: prefix*, without it you will get a **lot** of funny letters and digits |
-| quote/quoteId | Quote ID | SuperOffice database id of quote record
+| quote/quoteId | Quote ID | SuperOffice database ID of quote record |
 | quote/quoteVersionId | ID | Database ID of QuoteVersion record |
 | quote/saleAmount | Sale - Amount | The gross sales total |
 | quote/saleDescription | Sale - Text | Displays the text entered in the description field |

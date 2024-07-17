@@ -1,13 +1,15 @@
 ---
-uid: tempvar-quote-alternative
-title: Variables for Quote alternative
-description: Variables for Quote alternative
+uid: help-en-tempvar-quote-alternative
+title: Variables for quote alternative
+description: Variables for quote alternative
+keywords: template variable, quote alternative, quote, qaid, qaf, qanm
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
-# Variables for Quote alternative
+# Variables for quote alternative
 
 [!include[Table](../../../../../common/includes/variable/table-quote-alt.md)]

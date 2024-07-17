@@ -30,13 +30,13 @@
 | brei | Translated text: "This follow-up is part of a repeating pattern:". Empty is this is not a repeating pattern |
 | brel | Translated text "See below in this message for a list of the repeating follow-ups." Empty is this is not a repeating pattern |
 | brid | ID of the follow-up's recurrence rule |
-| brph | Changes in the recurrence rule and/or participants for follow-ups. Used when sending email to participants to notify them of changes to an follow-up they are invited to |
+| brph | Changes in the recurrence rule and/or attendees for follow-ups. Used when sending email to attendees to notify them of changes to an follow-up they are invited to |
 | brsd | The start date for the follow-up's repeating pattern, formatted as YYYYMMdd |
 | bsda | The follow-up's start date, formatted as YYYYMMdd |
 | bsta | The follow-up's status (in English): "TENTATIVE", "CONFIRMED" or "CANCELLED" |
 | bsti | The follow-up's start time, formatted as HHmmss |
 | bsug | The ID of the suggestion for the follow-up ("SuggestedAppointmentId"). Set to 0 when the follow-up is not part of a sale/project guide |
-| btim | The follow-up's date and time, for example 30.03.2005 (16:00)-(17:00) |
+| btim | The follow-up's date and time, for example 30.03.2025 (16:00)-(17:00) |
 | btod | Today's date in UTC, formatted as YYYYMMdd |
 | btot | Current time in UTC, formatted as HHmmss |
 | btyp | Activity type |
@@ -47,7 +47,7 @@
 | btzf | The follow-up's end time, converted into the PC's local time. Formatted as HHmmss |
 | btzk | The time zone key, from the follow-up's start date. (AR-CN means the Argentina-Corrientes time zone -0300.) |
 | btzl | The time zone ID of the follow-up |
-| btzn | The follow-up's date and time converted to UTC if time zones are enabled. For example, 30.03.2005 (17:00)-(18:00) |
+| btzn | The follow-up's date and time converted to UTC if time zones are enabled. For example, 30.03.2025 (17:00)-(18:00) |
 | btzm | Time zone formatted as Norway (GMT +1:00) if time zones are enabled |
 | btzs | The time zone offset for summer time, for the PC's local time. Formatted as +0200 or -1200 |
 | btzt | Time zone information, for the PC's local time. Formatted as (GMT+01.00) or (GMT-04.00) |
@@ -55,7 +55,7 @@
 | btzw | The follow-up's start time converted to UTC if time zones are enabled. Formatted as HHmmss |
 | btzx | The follow-up's end date converted to UTC if time zones are enabled. Formatted as YYYYMMdd |
 | btzy | The follow-up's end time converted to UTC if time zones are enabled. Formatted as HHmmss |
-| buid | Unique ID created for iCal. SerialnoDfollowupIdDinvitedId (where D is a separator). For example, 1010000014D345D971. Only for follow-ups with several participants |
+| buid | Unique ID created for iCal. SerialnoDfollowupIdDinvitedId (where D is a separator). For example, 1010000014D345D971. Only for follow-ups with several attendees |
 | bunt | The end date for the follow-up's repeating pattern, formatted as "UNTIL=YYYYMMdd;" |
 | bupc | The number of times the follow-up has been updated. (Counter from version 6 onwards only) |
 | bupd | Update date for the follow-up, formatted as YYYYMMdd |

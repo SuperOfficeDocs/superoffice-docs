@@ -1,11 +1,13 @@
 ---
-uid: tempvar-mail-gateway
+uid: help-en-tempvar-mail-gateway
 title: Variables for SuperOffice Mail Gateway
 description: Variables for SuperOffice Mail Gateway
+keywords: template variable, Mail Gateway, mgdn, mgma
 author: Bergfrid Dias
-date: 09.22.2022
-keywords: template variable
+date: 07.17.2024
+version: 10.3
 topic: reference
+language: en
 ---
 
 # Variables for SuperOffice Mail Gateway

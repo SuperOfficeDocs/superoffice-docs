@@ -49,6 +49,6 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 <!-- Referenced links -->
 [1]: link-template.md
 [2]: ../learn/create.md
-[3]: ../../../../en/document/templates/variables/index.md
+[3]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

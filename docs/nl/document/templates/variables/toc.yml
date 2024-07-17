@@ -1,3 +1,43 @@
 items:
-- name: TBD
-  href: index.md
+- name: Bedrijf
+  href: from-company-card.md
+- name: Bedrijf (afzender)
+  href: from-senders-company-card.md
+- name: Persoon (geselecteerd)
+  href: for-selected-contact.md
+- name: Persoon (afzender)
+  href: for-sender-contact-dialog.md
+- name: Document en systeem
+  href: from-doc-dialog-or-system.md
+- name: Vervolgactiviteit
+  href: for-appointments.md
+- name: ical
+  href: for-ical.md
+- name: Int. adres
+  href: for-int-address.md
+- name: Mail Gateway
+  href: for-mail-gateway.md
+- name: Pocket CRM
+  href: for-pocket.md
+- name: Project
+  href: from-project-card.md
+- name: Offerte-alternatief
+  href: for-quote-alternative.md
+- name: Offerte-info
+  href: for-quote-info.md
+- name: Offertelijn
+  href: for-quote-line.md
+- name: Offertelijn met abonnement
+  href: for-quote-line-with-subscription.md
+- name: Verzoek
+  href: for-request.md
+- name: Verkoop
+  href: for-sales.md
+- name: Selectie
+  href: for-selections.md
+- name: Service
+  href: for-service.md
+- name: Webapp
+  href: for-web-app.md
+- name: Diversen
+  href: misc.md

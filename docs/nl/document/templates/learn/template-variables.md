@@ -131,6 +131,6 @@ Bij het genereren van e-mailsjablonen voor verzoeken en mailings (en berichtsjab
 De referentie is gegroepeerd per gebied. [Ga naar referentie][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]: ../variables/index.md
 
 <!-- Referenced images -->

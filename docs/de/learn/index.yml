@@ -253,7 +253,7 @@ conceptualContent:
       - text: Vorlagenvariablen
         itemType: library_books
         typeDesc: reference
-        url: ../../en/document/templates/variables/index.md
+        url: ../document/templates/variables/index.md
 
     # Card
     - title: Anfragen

@@ -9,7 +9,7 @@ I trinnet **Indhold** indtaster du indholdet af SMS'en.
 > Antal karakterer (med mellemrum) vises i feltet **Antal tegn**. Det maksimale antal tegn for en SMS-besked er 160 tegn. Hvis meddelelsen overstiger 160 tegn, sendes den som 2 eller flere meddelelser.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
+[1]: ../../../../../document/templates/variables/for-selected-contact.md
 [2]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

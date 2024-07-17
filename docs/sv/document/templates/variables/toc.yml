@@ -1,3 +1,43 @@
 items:
-- name: TBD
-  href: index.md
+- name: Företag
+  href: from-company-card.md
+- name: Företag (avsändare)
+  href: from-senders-company-card.md
+- name: Kontakt (vald)
+  href: for-selected-contact.md
+- name: Kontakt (avsändare)
+  href: for-sender-contact-dialog.md
+- name: Dokument och system
+  href: from-doc-dialog-or-system.md
+- name: Händelse
+  href: for-appointments.md
+- name: ical
+  href: for-ical.md
+- name: Internationell adress
+  href: for-int-address.md
+- name: Mail Gateway
+  href: for-mail-gateway.md
+- name: Pocket CRM
+  href: for-pocket.md
+- name: Projekt
+  href: from-project-card.md
+- name: Offertalternativ
+  href: for-quote-alternative.md
+- name: Offertinformation
+  href: for-quote-info.md
+- name: Offertlinje
+  href: for-quote-line.md
+- name: Offertlinje med prenumeration
+  href: for-quote-line-with-subscription.md
+- name: Ärende
+  href: for-request.md
+- name: Försäljning
+  href: for-sales.md
+- name: Urval
+  href: for-selections.md
+- name: Service
+  href: for-service.md
+- name: Webbapp
+  href: for-web-app.md
+- name: Diverse
+  href: misc.md
