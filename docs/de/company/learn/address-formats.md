@@ -2,18 +2,19 @@
 uid: help-de-address-formats-for-different-countries
 title: Länderspezifische Adressformate
 description: Länderspezifische Adressformate
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Firma
+keywords: Firma, Adressformat
+author: Bergfrid Dias
+date: 07.17.2024
+version: 10
 topic: reference
 language: de
 ---
 
 # Länderspezifische Adressformate
 
-Sie können Firmen mit Adressen in vielen verschiedenen Ländern erstellen. Um den Versand von Briefen an Firmen im Ausland zu erleichtern, sind acht verschiedene Adressformate enthalten: Das Programm unterscheidet europäische, australische/kanadische, amerikanische, deutsche, britische, spanische, japanische und allgemeine Adressformate.
+Sie können Firmen mit Adressen in verschiedenen Ländern erstellen. Um die internationale Korrespondenz zu erleichtern, stehen mehrere Adressformate zur Verfügung, darunter europäisch, australisch/kanadisch, amerikanisch, deutsch, britisch, spanisch, japanisch und ein allgemeines Format.
 
-Wenn Sie eine [Firma erstellen][1] und auswählen, zu welchem Land die Firma gehört, ändern sich die Adressfelder auf der Registerkarte **Firma** entsprechend Ihrer Auswahl. Die Adressfelder, die sich ändern, sind im Folgenden beschrieben.
+Wenn Sie [eine Firma erstellen][1] und das Land auswählen, passt sich die Adressfelder auf der Registerkarte **Firma** entsprechend an. Die spezifischen Adressfelder, die sich ändern, sind unten beschrieben.
 
 > [!TIP]
 > Sie können das Standardadressformat für ein Land unter Einstellungen und Verwaltung ändern.
@@ -53,6 +54,19 @@ Dieses Adressformat gilt für Spanien.
 | Adresse 3 | Dritte Adresszeile |
 | PLZ/Ort | Postleitzahl und Zustellbezirk der Postadresse |
 | Grafschaft | Grafschaft |
+| Land | Land |
+
+## Großbritannien
+
+Dieses Adressformat gilt für Großbritannien.
+
+| Feld | Beschreibung |
+|---|---|
+| Adresse 1 | Erste Adresszeile |
+| Adresse 2 | Zweite Adresszeile |
+| Adresse 3 | Dritte Adresszeile |
+| Ort | Zustellbezirk |
+| Grafschaft/PLZ | Landkreis und PLZ. Zum Beispiel: Somerset TA1 2WB |
 | Land | Land |
 
 ## Restliches Europa
@@ -100,19 +114,6 @@ Dieses Adressformat gilt für die USA. Dieses Format entspricht in den meisten P
 | Adresse 2 | Zweite Adresszeile |
 | Ort | Bezeichnung des Zustellpostbezirks |
 | Bundesland/PLZ | Bundeslandcode (z. B. CA) und Postleitzahl (PLZ) |
-| Land | Land |
-
-## Großbritannien
-
-Dieses Adressformat gilt für Großbritannien.
-
-| Feld | Beschreibung |
-|---|---|
-| Adresse 1 | Erste Adresszeile |
-| Adresse 2 | Zweite Adresszeile |
-| Adresse 3 | Dritte Adresszeile |
-| Ort | Zustellbezirk |
-| Grafschaft/PLZ | Landkreis und PLZ. Zum Beispiel: Somerset TA1 2WB |
 | Land | Land |
 
 ## Japan
