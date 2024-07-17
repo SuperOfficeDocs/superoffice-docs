@@ -3,7 +3,7 @@ uid: help-nl-privacy
 title: Privacy
 description: privacy
 author: SuperOffice RnD
-date: 06.29.2022
+date: 07.17.2024
 keywords: privacy, GDPR, e-marketing, toestemming
 topic: concept
 language: nl
@@ -21,7 +21,7 @@ In het tabblad **Toestemming** in het scherm **Privacy** (![pictogram][img1]) ku
 
 Voor elk doel moet een rechtsgrondslag en een toestemmingsbron worden gedocumenteerd (tijdens het importeren of in SuperOffice CRM voor individuele of meerdere gebruikers).
 
-## <a id="legal-basis" />Rechtsgrondsla
+## <a id="legal-basis" />Rechtsgrondslag
 
 U moet de rechtsgrondslag documenteren voor elk voor de persoon geregistreerd doel. In deze lijst onderhoudt u de lijst met rechtsgrondslagen die worden gebruikt wanneer u de privacy-instellingen voor personen bewerkt.
 
