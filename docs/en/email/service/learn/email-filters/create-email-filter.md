@@ -2,9 +2,9 @@
 uid: help-en-email-filter-create
 title: Create email filters
 description: Create email filters
+keywords: email, email filter, filter
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: email
+date: 07.17.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -22,7 +22,7 @@ language: en
 1. In the **Filter** tab, you can specify which emails are to be filtered, by entering the following information:
 
     * **Description**: Enter a brief description of the email filter.
-    * **Priority**: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.
+    * **Priority**: In this list box, you select the filter's priority. A value of 100 is the highest priority and 1 the lowest.
     * **Script**: Here you can select a [script or macro][1] to be run by this filter.
 
 1. Select what the filter applies to:

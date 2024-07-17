@@ -2,9 +2,9 @@
 uid: help-nl-email-filter-create
 title: E-mailfilters maken
 description: E-mailfilters maken
+keywords: e-mail, e-mailfilter, filter
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: e-mail
+date: 07.17.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -22,7 +22,7 @@ language: nl
 1. Op het tabblad **Filter** kunt u opgeven welke e-mailberichten moeten worden gefilterd door de volgende informatie in te voeren:
 
     * **Beschrijving**: Voer een korte beschrijving van het e-mailfilter in.
-    * **Prioriteit**: selecteer in deze keuzelijst de prioriteit van het filter. De waarde 10 geeft de hoogste prioriteit aan, de waarde 1 de laagste.
+    * **Prioriteit**: selecteer in deze keuzelijst de prioriteit van het filter. De waarde 100 geeft de hoogste prioriteit aan, de waarde 1 de laagste.
     * **Script**: Hier kunt u een [script of macro][1] selecteren dat door dit filter moet worden uitgevoerd.
 
 1. Selecteer waarop het filter van toepassing is:

@@ -2,9 +2,9 @@
 uid: help-no-email-filter-create
 title: Opprette e-postfiltre
 description: Opprette e-postfiltre
+keywords: e-post, e-postfilter, filter
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: e-post
+date: 07.17.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +23,7 @@ language: no
 1. På **Filter**-fanen kan du spesifisere hvilke e-postmeldinger som skal filtreres, ved å skrive inn følgende informasjon:
 
     * **Beskrivelse**: Skriv inn en kort beskrivelse av e-postfilteret.
-    * **Prioritet**: I denne listeboksen velger du filterets prioritet. Verdien 10 gir høyest prioritet, og 1 gir lavest.
+    * **Prioritet**: I denne listeboksen velger du filterets prioritet. Verdien 100 gir høyest prioritet, og 1 gir lavest.
     * **Skript**: Her kan du velge et [skript eller en makro][1] som skal kjøres av dette filteret.
 
 1. Velg hva filteret gjelder for:

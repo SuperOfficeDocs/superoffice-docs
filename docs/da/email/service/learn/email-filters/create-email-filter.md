@@ -2,9 +2,9 @@
 uid: help-da-email-filter-create
 title: Oprettelse af e-mail-filtre
 description: Oprettelse af e-mail-filtre
+keywords: e-mail, e-mail-filter, filtrer
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: e-mail
+date: 07.17.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -22,7 +22,7 @@ language: da
 1. På fanen **Filtrer** kan du angive, hvilke e-mail-meddelelser der skal filtreres, ved at angive følgende oplysninger:
 
     * **Beskrivelse**: Indtast en kort beskrivelse af e-mail-filteret.
-    * **Prioritet**: På listen vælger du filterets prioritet. Værdien 10 er højeste prioritet, og 1 er den laveste.
+    * **Prioritet**: På listen vælger du filterets prioritet. Værdien 100 er højeste prioritet, og 1 er den laveste.
     * **Script**: Her kan du vælge et [script eller en makro][1], der skal køres af dette filter.
 
 1. Vælg, hvad filteret gælder for:

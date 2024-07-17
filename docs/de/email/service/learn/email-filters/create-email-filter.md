@@ -2,9 +2,9 @@
 uid: help-de-email-filter-create
 title: E-Mail-Filter erstellen
 description: E-Mail-Filter erstellen
+keywords: E-Mail, E-Mail-Filter, Filter
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: E-Mail
+date: 07.17.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -22,7 +22,7 @@ language: de
 1. Auf der Registerkarte **Filter** können Sie angeben, welche E-Mails gefiltert werden sollen. Geben Sie dazu folgende Informationen ein:
 
     * **Beschreibung**: Geben Sie eine kurze Beschreibung des E-Mail-Filters ein.
-    * **Priorität**: In dieser Dropdown-Liste wählen Sie die Priorität für den Filter aus. 10 ist der höchste und 1 der niedrigste Prioritätswert.
+    * **Priorität**: In dieser Dropdown-Liste wählen Sie die Priorität für den Filter aus. 100 ist der höchste und 1 der niedrigste Prioritätswert.
     * **Skript**: Hier können Sie ein [Skript oder Makro][1] auswählen, das von diesem Filter ausgeführt werden soll.
 
 1. Wählen Sie aus, wofür der Filter angewendet werden soll:
