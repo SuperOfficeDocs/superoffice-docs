@@ -7,6 +7,8 @@ date: 02.10.2023
 keywords: document, email, attachment
 topic: howto
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Send a document as email

@@ -71,7 +71,7 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 * The **Contact** tab in the Contact screen
 * The **Project** tab in the Project screen
 * The **Sale** tab in the Sale screen
-* The **Details** tab in the Document screen
+* The **Details** tab in the **Document** dialog
 
 > [!NOTE]
 > Page 1 fields require a Development Tools license and are not applicable if you are using another layout via the [Screen designer][8].
