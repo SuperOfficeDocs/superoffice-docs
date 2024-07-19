@@ -37,18 +37,6 @@ To change document properties, such the project the document is linked to, use t
 Follow the instructions below, depending on how documents are managed in your SuperOffice installation.
 
 <!-- markdownlint-disable-file MD051 -->
-### [Using SharePoint Documents](#tab/sharepoint)
-
-**This feature requires a license.**
-
-1. Double-click the required document. The document opens in a new tab with the online text-editing program (Office Online).
-
-    To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
-
-2. Edit the document.
-
-3. Close the tab or your desktop app. The document is automatically saved to SharePoint
-
 ### [Using SuperOffice WebTools](#tab/webtools)
 
 1. Double-click the required document.
@@ -62,6 +50,18 @@ Follow the instructions below, depending on how documents are managed in your Su
     This dialog appears only if this option was activated in SuperOffice WebTools.
 
 5. The document is checked in and the status is set to **Completed**.
+
+### [Using SharePoint Documents](#tab/sharepoint)
+
+**This feature requires a license.**
+
+1. Double-click the required document. The document opens in a new tab with the online text-editing program (Office Online).
+
+    To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+
+2. Edit the document.
+
+3. Close the tab or your desktop app. The document is automatically saved to SharePoint
 
 ### [Without WebTools](#tab/no-webtools)
 

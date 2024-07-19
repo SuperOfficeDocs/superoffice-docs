@@ -25,7 +25,21 @@ Follow the instructions below, depending on how documents are managed in your Su
 <!-- markdownlint-disable-file MD051 -->
 ## Steps
 
-### [With SharePoint Documents](#tab/sharepoint)
+### [Using SuperOffice WebTools](#tab/webtools)
+
+With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice WebTools.
+
+1. Click **New** > **Document** on the top bar.
+
+2. [Enter the required information in the fields.](#fields)
+
+3. Click the **Create** button to create a new document based on the selected [document template][5]. The **Document** dialog closes automatically, and the document opens in your default text-editing application.
+
+4. Type in the content of your document.
+
+5. Save it and close the text-editing application. The document is saved.
+
+### [Using SharePoint Documents](#tab/sharepoint)
 
 **This feature requires a license.**
 
@@ -40,20 +54,6 @@ Follow the instructions below, depending on how documents are managed in your Su
 4. Type in the contents of the document.
 
 5. Close the tab or your desktop app. The document is automatically saved to SharePoint.
-
-### [Using SuperOffice WebTools](#tab/webtools)
-
-With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice WebTools.
-
-1. Click **New** > **Document** on the top bar.
-
-2. [Enter the required information in the fields.](#fields)
-
-3. Click the **Create** button to create a new document based on the selected [document template][5]. The **Document** dialog closes automatically, and the document opens in your default text-editing application.
-
-4. Type in the content of your document.
-
-5. Save it and close the text-editing application. The document is saved.
 
 ### [Without WebTools](#tab/no-webtools)
 
