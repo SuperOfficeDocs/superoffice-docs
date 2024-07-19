@@ -30,7 +30,7 @@ After connecting SuperOffice for Outlook you can save new contacts, emails, sale
 * [Overview of the SharePoint integration][3]
 
 <!-- Referenced links -->
-[2]: ../../../admin/preferences/learn/document-library/index.md
+[2]: ../../../document/library/learn/index.md
 [3]: ../../../learn/getting-started/connect-email-doc/microsoft-365.yml
 
 <!-- Referenced images -->

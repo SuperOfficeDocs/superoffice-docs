@@ -47,8 +47,5 @@ items:
   - name: Document templates in multiple languages
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
 
-- name: SharePoint document library integration
-  href: ../cloud/sharepoint-documents/learn/index.md
-  items:
-  - name: Set up folders
-    href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+- name: Document library
+  href: ../library/index.md

@@ -19,9 +19,4 @@ items:
     href: video-meetings/email-setup-in-superoffice.md
 
 - name: Document library
-  topicHref: document-library/index.md
-  items:
-  - name: Overview
-    href: document-library/index.md
-  - name: Configure SharePoint document library
-    href: document-library/change-to-sharepoint.md
+  topicHref: ../../../document/library/learn/index.md
