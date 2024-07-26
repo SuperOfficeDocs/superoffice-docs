@@ -34,6 +34,12 @@ items:
     - name: Reference
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+  - name: Merge fields (quote templates)
+    href: ../templates/learn/quote-templates.md
+    items:
+    - name: Reference
+      href: ../templates/merge-fields/toc.yml
+      topicHref: ../templates/merge-fields/index.md
   - name: Troubleshooting
     href: ../templates/learn/troubleshooting.md
   - name: Create document template
