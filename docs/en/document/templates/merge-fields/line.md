@@ -57,5 +57,3 @@ language: en
 | line/vat | VAT | May be filled out by the ERP system. (Should be the VAT percentage, but can be the amount) |
 | line/vatAmount | VAT | Will be the VAT amount |
 | line/vatInfo | VAT info | |
-
-<!-- Referenced links -->

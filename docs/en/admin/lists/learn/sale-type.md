@@ -80,9 +80,6 @@ Settings for quotes with this sale type:
 * **Allow alternatives to be added to quote**: Check here if users are to be allowed to add several alternatives to a quote.
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.
 * **Quote format template**: Check the template you want to use for the quote.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 
 ## Quote approval
@@ -93,11 +90,16 @@ Here you can choose if the quote must be approved if the total discount is above
 * **Total discount is over limit**. Enter a percentage value.
 * **Total earning is below limit**. Enter a percentage value.
 
+## Related content
+
+* [Quote templates][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

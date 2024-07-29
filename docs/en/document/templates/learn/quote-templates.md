@@ -2,81 +2,163 @@
 uid: help-en-quote-template
 title: Quote templates and merge fields
 description: Quote templates and merge fields
-keywords: quote, quote template, template, merge field
+keywords: quote, quote template, template, quote document, quote details, merge field
 author: Bergfrid Dias
 date: 07.31.2024
+version: 10
 topic: concept
 language: en
 ---
 
 # Quote templates and merge fields
 
-## Main document vs. Quote details
+This guide outlines the different types of quote templates available in SuperOffice CRM, along with instructions for using merge fields to customize quotes and order confirmations. These templates include the main quote document, quote details, order confirmations, and associated email templates.
 
-The tags for the details such as lines and prices of the quote are generally in a document template separate from the *Quote Main Document*, the document that the sales rep writes and that is a cover letter for the whole quote.
+A quote often consists of more than one product. It is therefore necessary to create a quote details template (and an order confirmation template) in which each product is listed in a table with different groupings (such as alternatives). The user will only be able to edit the quote document in Word. The quote details and the order confirmation will only be generated as a PDF and cannot be edited by the user. All quote templates can be edited in the normal way in Settings and maintenance.
 
-If only the Main Document or the Details Document is chosen for the email, then it is generated and rendered as a PDF and included. However, if both documents exist, there are 2 possibilities:
+## <a id="types" />Types of quote document templates
 
-* The merge field MERGEFIELD  QuoteDetails \* MERGEFORMAT "QuoteDetails" is found somewhere within the Main Document. If so, then the Details Document will be inserted at that point.
+SuperOffice CRM provides various templates for generating quotes. These templates can be accessed and customized in Settings and Maintenance under **Lists**.
 
-* No such merge field exists in the Main Document. The Details Document is appended at the end of the Main Document
-In both cases, a single PDF results, and will be attached to the email.
+| Type | Description | Format | Example |
+|---|---|---|---|
+| Quotation | Main quote document template | .doc or .docx | marked in yellow |
+| Quote details | Details template for quotes | .pdf | marked in purple |
+| Order confirmation | Confirmation template for orders | .pdf | marked in pink |
+| Email template | Templates for quote and order confirmation emails | | marked in orange |
 
-## Tables and nesting
+![Quote - Document template -screenshot][img1]
 
-Table names are quote, alternative, group and line – nested in this order. Tags for a particular table are available from that table’s TableStart: tag on downwards. It’s possible to use (for instance) the quote/currency tag when inside a TableStart:line level.
+![Quote - Email template -screenshot][img2]
 
-Every template must conform to the nesting order and always start with the outermost level (quote). It need not go all the way down, but cannot start with alternative or anything else than quote.
+### Quotation – Main quote document template
+
+The **quotation** template is a combination of the main quote text (cover letter written by the sales rep) and the quote details. The quote document is generated when you [create a new quote][6] or open an existing quote and select **Click to create quote document**. The document is generated in a .doc or .docx format, allowing for post-creation editing. It is automatically saved under the **Activities** tab in the sales record. It is also available via the link on the **Quote** section tab.
+
+### Quote details template
+
+The **quote details** template is [automatically merged](#usage) into the main quote document where the merge field `<<QuoteDetails>>` is placed. To generate the quote details document, click **Send** in the Quote screen. This opens a dialog where you can select the desired layout and choose which quote details template to use. The document is created in .pdf format and cannot be edited once generated.
+
+![Quote details layout -screenshot][img3]
+
+### Order confirmation template
+
+To generate an **order confirmation** document, click the **Place Order** button. This opens a dialog where you can either select **Send order confirmation via email** or generate the document directly. The order confirmation template is selected based on the sales type and set in Settings and Maintenance under **List** > **Sale – Type, Stages, Quote**. The document is created in .pdf format and cannot be edited after it is generated.
+
+![Quote order confirmation template selection -screenshot][img4]
+
+### Email text template for quote and order confirmation
+
+When sending quotes or order confirmations via email, you can select an email text template. For quotes, click the **Send** button and choose the template from the **Email text** list. For order confirmations, click **Place order**, select **Send order confirmation via email**, choose the email text template and the language, then click **OK** to send.
+
+![Quote send email -screenshot][img5]
+
+![Quote send order confirmation -screenshot][img6]
+
+## Merge fields in quote templates
+
+**Merge fields** in SuperOffice CRM quote templates enable dynamic insertion of details such as product lines and alternatives. Unlike [standard template variables][1], merge fields follow a specific structure, or hierarchy, to ensure proper data integration.
+
+You can customize quote and order confirmation templates using merge fields in Microsoft Word. Merge fields allow you to insert specific quote information into templates, while standard template variables retrieve customer data and other details.
+
+### <a id="structure" />Structure of merge fields
+
+Merge fields must follow a hierarchical order: quote > alternative > group > line. This structure is defined using **TableStart** and **TableEnd** fields, which delineate the start and end of each table area:
 
 ```text
 «TableStart:quote»
-«TableStart:alternative»
-«GroupBy:productFamilyKey»«TableStart:group»
-«TableStart:line»
-«TableEnd:line»
-«TableEnd:group»
-«TableEnd:alternative»
+  «TableStart:alternative»
+    «GroupBy:productFamilyKey»«TableStart:group»
+      «TableStart:line»
+      «TableEnd:line»
+    «TableEnd:group»
+  «TableEnd:alternative»
 «TableEnd:quote»
 ```
 
-## Grouping
-
-Templates support grouping, which is **a user-defined level in between alternative and line**. Grouping is activated using a special tag, **GroupBy:xxx**, where xxx is (in principle) any string field on the line level (but without the line/ prefix). As an example, you can use **GroupBy:productFamilyKey** to activate grouping by product family.
-
-The GroupBy: tag is case sensitive and can be located anywhere in the document. At runtime it will disappear (no text is inserted in its place). There can be at most one GroupBy: tag in a template.
-
-If GroupBy is present, then TableStart:group and TableEnd:group can be used to mark the start and end of group-related sections. group/groupField is a tag that will contain the value of the group field (productFamily in the example above), and the part of the document between TableStart:group and TableEnd:group will be repeated for each distinct value of the group field.
-
-It is possible to have more than one set of TableStart:group / TableEnd:group sections, for instance if you want a summary table with just the sums, and elsewhere tables with the lines that actually make up each group. In this case, the summary table would not contain an inner TableStart:line / TableEnd:line.
-
-## Order of lines
-
-Quote lines are, by default, listed in rank order, which is the same that you see in the quote line archives. If grouping is used, then groups come in alphabetical order, and the lines that belong to each group come in rank order.
-
-The OrderBy:xxx tag can be used to change the order of quote lines. Similarly to GroupBy:, it is case sensitive and can occur at most once, anywhere within the document. It can refer to any field on the line level, without the line/ prefix. Example: OrderBy:vatInfo to sort lines by the VAT status. Only one level of sorting is supported.
-
-## <a id ="culture" />Numeric and date data, culture settings
-
-Numeric tags that have decimal values (all amounts and percentages) have 4 variants of the tag, with different formats. The decimal separator is always according to the selected language/culture (drop-downs in the **Send Quote** and **Order Confirmation** dialogs). The number of decimals is either the default or 0, 2, or 5 depending on the tag name suffix. Thus, line/totalPrice:2 will force 2 decimals, while line/totalPrice will have whatever the default number of decimals is for the culture.
-
-Date and time tags have a similar set of variants. The tag alone will produce a "short date", with the following variants  also available:
-
-* :ShortDate
-* :ShortTime
-* :ShortDateTime
-* :LongDate
-* :LongTime
-* :LongDateTime
-
-The actual formatting (day/month order, and so on) is always according to the selected culture.
-
-Culture is selected by the user in the **Send Quote** and **Place Order** dialogs. The language chosen there directs the system to the correct template subfolder (English template vs. German). It also sets the .NET Culture used for the numeric and date formatting. However, sometimes the culture is not completely specified, such as German – do you mean Germany, or Switzerland, with different number formats‌.
-
-In such cases it is possible to include the merge field Culture: in the template, specifying a .NET culture code, taken from [System.Globalization.CultureInfo][1]. For Switzerland, use "Culture:de-CH", and you will get the Swiss number formats regardless of the user's choice. This implies that such a culture code should be embedded in a special template called *Offer to Swiss customers* or something similar. Arabic-Kuwait (ar-KW) will give you 23 ﺳﺒﺘﻤﺒﺮ, 2013 as the quote/sent:LongDate.
+* quote: The outermost level, representing the entire quote.
+* alternative: Nested within quote, used for different product alternatives.
+* group: Nested within alternative, used to group products (optional).
+* line: Nested within group, representing individual product lines.
 
 > [!NOTE]
-> Do not use the *Table of Language Culture Names, Codes, and ISO Values Method* of the [C++ AppConfig object][2] as a reference, there are slight differences.
+> Every template must conform to the nesting order and always start with the outermost level (quote). It need not go all the way down, but cannot start with alternative or anything else than quote.
+
+### <a id="usage" />Usage of merge fields
+
+Quote details include detailed information like lines, prices, and product names, typically placed in a separate template from the main quote document. If both the main document and quote details are used:
+
+* If the `<<QuoteDetails>>` merge field is present in the main document, the quote details are inserted at that location.
+* If the `<<QuoteDetails>>` merge field is not present, the quote details are appended at the end.
+
+In both cases, a single PDF is generated and attached to the email.
+
+Tags for a particular table are available from that table's TableStart: tag to its end.
+
+**Example:**
+
+[Line fields][2] (such as *line/name*) can only be placed within the line table (`«TableStart:line» «TableEnd:line»`), while alternative fields can be placed within both the alternative table and the underlying tables (group and line).
+
+![Quote details example, TableStart:line -screenshot][img7]
+
+### Grouping and sorting
+
+**Grouping:** You can group products in the template using the **GroupBy** tag, with a line-level string field, such as `GroupBy:productFamilyKey` to group products by their family.
+
+* The GroupBy tag is case sensitive and can be placed anywhere in the document. At runtime, this tag will disappear without leaving any text.
+* Only one GroupBy tag is allowed per template.
+
+When a GroupBy tag is present, use **TableStart** and **TableEnd** to mark the beginning and end of group-related sections. The **group/groupField** tag will contain the value of the group field (for example, productFamily). The section between TableStart and TableEnd will repeat for each unique value of the group field.
+
+* You can have multiple sets of TableStart and TableEnd sections. For example, you might want a summary table with totals and separate tables for the lines in each group. In this case, the summary table should not include an inner TableStart:line/TableEnd:line section.
+
+Within the group (between TableStart and TableEnd), you can add fields that are specific to the group.
+
+**Sorting:** By default, quote lines are listed in rank order, as seen in the quote line archives. If grouping is used, groups are sorted alphabetically, and the lines within each group are sorted by rank.
+
+To change the order of quote lines, use the **OrderBy** tag, with a line-level string field. For example, `OrderBy:name` sorts products alphabetically by name, and `OrderBy:vatInfo` sorts products by VAT status. Only one level of sorting is supported.
+
+### <a id ="culture" />Formatting numeric and date data
+
+Numeric and date fields can be formatted to match the selected language/culture settings (affecting the display order and separators):
+
+* **Numeric fields:** For decimal values, you can specify the number of decimals (0, 2, or 5). For example, `line/totalPrice:2` ensures two decimal places. The decimal separator is always according to the selected language/culture.
+
+* **Date and time fields:** Available formats include ShortDate, ShortTime, ShortDateTime, LongDate, LongTime, and LongDateTime. For example, `quote/sent:LongDateTime` for full date and time.
+
+If no specific formatting is set, the default for the selected language is used.
+
+The actual formatting (decimal separator, day/month order, and so on) reflects the user's selected culture, which is specified in the **Send Quote** and **Place Order** dialogs. For specific formatting needs, you can include the **Culture:** merge field in the template, specifying a [.NET culture code][11] (such as, `Culture:de-CH` for Swiss German) to override the user's choice. This implies that such a culture code should be embedded in a special template called *Offer to Swiss customers* or something similar.
+
+> [!NOTE]
+> Do not use the *Table of Language Culture Names, Codes, and ISO Values Method* of the [C++ AppConfig object][12] as a reference, there are slight differences.
+
+By following these guidelines, you can effectively use merge fields to create detailed, customized quote and order confirmation templates in SuperOffice CRM.
+
+## Related content
+
+* [Update quote template][5]
+* [Merge field reference][3]
+* [Template variable reference][4]
+* [System.Globalization.CultureInfo][11]
+* [Aspose][13] (handles document generation)
 
 <!-- Referenced links -->
-[1]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo?view=net-5.0
-[2]: https://docs.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)
+[1]: template-variables.md
+[2]: ../merge-fields/line.md
+[3]: ../merge-fields/index.md
+[4]: ../variables/for-quote-line.md
+[5]: ../admin/update-template.md
+[6]: ../../../quote/learn/create.md
+[11]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo?view=net-5.0
+[12]: https://docs.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)
+[13]: http://www.aspose.com
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/document/quote-list-document-template.png
+[img2]: ../../../../media/loc/en/document/quote-list-email-template.png
+[img3]: ../../../../media/loc/en/document/quote-layout.png
+[img4]: ../../../../media/loc/en/document/quote-order-confirmation-template.png
+[img5]: ../../../../media/loc/en/document/quote-send-email.png
+[img6]: ../../../../media/loc/en/document/quote-send-confirmation.png
+[img7]: ../../../../media/loc/en/document/tablestart-line.png

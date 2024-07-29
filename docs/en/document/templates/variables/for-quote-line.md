@@ -13,3 +13,8 @@ language: en
 # Variables for quote line
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line.md)]
+
+See also [merge fields][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

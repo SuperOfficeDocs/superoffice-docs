@@ -37,5 +37,3 @@ language: en
 | alternative/vat | VAT | Value-added and other tax, total amount |
 | alternative/vatAmount | VAT | Value-added and other tax, total amount. The quote line VAT field is interpreted as a percentage  and used to calculate from the line-total |
 | alternative/vatInfo | VAT Info | Information about value-added and other taxes |
-
-<!-- Referenced links -->

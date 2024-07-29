@@ -24,7 +24,7 @@ In the **Settings** tab in the Quote/Sync screen, you can adjust the settings fo
 
 * **Default text for follow-up**: Here you can enter the text to be displayed for any follow-up that may be created for this quote. Users have the option of creating a follow-up when they send a quote.
 
-* [Open Sale Types][1]: Click this link to go to the **Sale - Type, Stages, Quote** list. Every sale in SuperOffice CRM must have a sale type, and many of the default properties of a quote are obtained from the sale type of the associated sale. This applies to, for instance, the use of alternatives, the quote template, validity of the quote and requirement for approval.
+* [Open Sale Types][1]: Click this link to go to the **Sale - Type, Stages, Quote** list. Every sale in SuperOffice CRM must have a sale type, and many of the default properties of a quote are obtained from the sale type of the associated sale. This applies to, for instance, the use of alternatives, the [quote template][3], validity of the quote and requirement for approval.
 
 ## Product dialog settings
 
@@ -33,5 +33,6 @@ Shows the fields used in each quote line in the quote. Click the field name link
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md
 [2]: product/configure.md
+[3]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

@@ -49,4 +49,3 @@ language: en
 | quote/saleType | Sale – sale type | The sale type of the sale |
 | quote/sent | Sent | Quote sent date |
 | quote/title | Sale - Title | Displays whether the contact is addressed as Mr or Ms |
-<!-- Referenced links -->

@@ -14,6 +14,8 @@ language: en
 
 > [!NOTE]
 > Numbers, dates, and time are [culture-sensitive][2].
+>
+> If documents are stored in Google Drive, merge fields are not supported.
 
 ## VAT
 

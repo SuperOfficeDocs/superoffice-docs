@@ -37,6 +37,8 @@ items:
   - name: Merge fields (quote templates)
     href: ../templates/learn/quote-templates.md
     items:
+    - name: Tutorial
+      href: ../templates/admin/tutorial.md
     - name: Reference
       href: ../templates/merge-fields/toc.yml
       topicHref: ../templates/merge-fields/index.md
