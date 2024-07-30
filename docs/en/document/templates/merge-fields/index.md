@@ -30,4 +30,4 @@ These values are summed up into the alternative's VATAmount field.
 Finally, the alternatives TotalPrice and the alternatives VATAmount are then added together into the field we call **TotalPriceIncVAT**.
 
 <!-- Referenced links -->
-[2]: ../learn/lang-culture.md
+[2]: ../learn/quote-templates.md#culture
