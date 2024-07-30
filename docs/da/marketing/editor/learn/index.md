@@ -99,12 +99,12 @@ Når du klikker på et afsnit i en meddelelse, får du adgang til forskellige fu
 
 For at give meddelelsen et mere personligt præg kan du bruge pladsholdere til at indsætte kundespecifikke oplysninger såsom kundens fornavn. På denne måde kan du skræddersy indholdet til hver enkelt kunde.
 
-Disse pladsholdere kaldes **skabelonvariabler** i den gamle editor og flettefelter **i træk og** slip-editoren.
+Disse pladsholdere kaldes **skabelonvariabler** i den gamle editor og fletfelter **i træk og** slip-editoren.
 
 Der findes flere slags fletfelter:
 
-* Flettefelter, der er knyttet til kontakter. F.eks. **\[\[customer.name\]\]** indsætter personens fulde navn.
-* Flettefelter, der er knyttet til firmaer. F.eks. **\[\[company.name\]\]** indsætter navnet på det firma, som personen tilhører.
+* fletfelter, der er knyttet til kontakter. F.eks. **\[\[customer.name\]\]** indsætter personens fulde navn.
+* fletfelter, der er knyttet til firmaer. F.eks. **\[\[company.name\]\]** indsætter navnet på det firma, som personen tilhører.
 
 ### Eksempel
 

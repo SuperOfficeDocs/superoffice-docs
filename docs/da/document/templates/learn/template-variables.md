@@ -89,9 +89,7 @@ Adressevariabler fra firmakortet kaldes "intelligente" skabelonvariabler. Det be
 
 ## Skabelonvariabler for tilbud
 
-Når du bruger tilbud og produkter i SuperOffice, skal du opsætte tilbudsskabeloner, og variablerne findes i en pdf, der også viser, hvordan du arbejder med tilbudsskabeloner.
-
-Skabelonerne til tilbudsdokumenter, tilbudsdetaljer og ordrebekræftelser adskiller sig fra almindelige dokumentskabeloner, da de bruger "fletfelter" ud over standardskabelonvariabler.
+Når du bruger tilbud og produkter i SuperOffice, skal du opsætte tilbudsskabeloner. Skabelonerne til tilbudsdokumenter, tilbudsdetaljer og ordrebekræftelser adskiller sig fra almindelige dokumentskabeloner, da de bruger "fletfelter" ud over standardskabelonvariabler.
 
 ### Eksempel: Ordrebekræftelse (overskrift)
 

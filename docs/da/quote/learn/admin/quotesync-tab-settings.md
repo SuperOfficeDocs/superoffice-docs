@@ -24,7 +24,7 @@ På fanen **Indstillinger** på skærmbilledet Tilbud/Sync kan du tilpasse indst
 
 * **Standardtekst til opfølgning**: Her kan du indtaste den tekst, der skal vises for enhver opfølgning, der kan oprettes for dette tilbud. Brugere har mulighed for at oprette en opfølgning, når de sender et tilbud.
 
-* [Åbne Salgstyper][1]: Klik på dette link for at gå til listen **Salg - Type, Faser, Tilbud**. Hvert salg i SuperOffice CRM skal have en salgstype, og mange af standardegenskaberne for et tilbud hentes fra salgstypen for det tilknyttede salg. Det gælder f.eks. brugen af alternativer, tilbudsskabelonen, tilbuddets validitet og krav om godkendelse.
+* [Åbne Salgstyper][1]: Klik på dette link for at gå til listen **Salg - Type, Faser, Tilbud**. Hvert salg i SuperOffice CRM skal have en salgstype, og mange af standardegenskaberne for et tilbud hentes fra salgstypen for det tilknyttede salg. Det gælder f.eks. brugen af alternativer, [tilbudsskabelonen][3], tilbuddets validitet og krav om godkendelse.
 
 ## Indstilinger for produktdialog
 
@@ -33,5 +33,6 @@ Viser de felter, der bruges i hver tilbudslinje i tilbuddet. Klik på linkene ti
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md
 [2]: product/configure.md
+[3]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->
