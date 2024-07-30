@@ -84,7 +84,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
 Bokser med prikkede linjer i layouten angir hvor du kan plassere et felt:
 
-![Bokser med stiplede linjer - skjermbilde][img6]
+![Bokser med stiplede linjer -screenshot][img6]
 
 Nedenfor finner du mer detaljerte beskrivelser av de ulike delene og funksjonene.
 

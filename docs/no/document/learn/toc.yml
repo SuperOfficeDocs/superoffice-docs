@@ -34,6 +34,14 @@ items:
     - name: Referanse
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+  - name: Flettefelt (tilbudsmaler)
+    href: ../templates/learn/quote-templates.md
+    items:
+    - name: Referanse
+      href: ../templates/merge-fields/toc.yml
+      topicHref: ../templates/merge-fields/index.md
+    - name: Tutorial
+      href: ../templates/admin/tutorial.md
   - name: Feilsøking
     href: ../templates/learn/troubleshooting.md
   - name: Opprette dokumentmal

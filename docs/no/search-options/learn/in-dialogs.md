@@ -13,7 +13,7 @@ language: no
 
 I dialogbokser er formålet ditt å finne å velge en spesifik post som verdien av et felt. Posttypen er allerede bestemt av konteksten. For eksempel, du ønsker å referere til et prosjekt når du booker et møte.
 
-![Hurtigsøk i dialogbokser - skjermbilde][img3]
+![Hurtigsøk i dialogbokser -screenshot][img3]
 
 ## Steg for steg
 

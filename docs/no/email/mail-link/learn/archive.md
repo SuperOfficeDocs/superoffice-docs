@@ -41,7 +41,7 @@ Dialogboksen **Dokument** åpnes ikke automatisk hvis du:
 
 * Klikk på **E-post**-knappen i SuperOffice CRM. E-postene vil imidlertid bli arkivert hvis **Arkiver e-post som standard når: opprettet fra SuperOffice CRM**-alternativet i dialogboksen **SuperOffice CRM-alternativer** er valgt.
 
-* Når du oppretter en e-post ved hjelp av **E-post**-knappen i SuperOffice CRM, er det mulig å bruke en forhåndsdefinert e-posttekstmal som standard hvis alternativet **Bruk SuperOffice e-posttekst** i dialogboksen**SuperOffice CRM-alternativer** er valgt.
+* Når du oppretter en e-post ved hjelp av **E-post**-knappen i SuperOffice CRM, er det mulig å bruke en forhåndsdefinert e-postmal som standard hvis alternativet **Bruk SuperOffice e-posttekst** i dialogboksen**SuperOffice CRM-alternativer** er valgt.
 
 > [!NOTE]
 > Dette gjelder også hvis du klikker på en e-postadresse i SuperOffice CRM, sender en e-post fra detaljkortet **Personer**, eller svarer på/videresender en e-post fra **Aktiviteter**.

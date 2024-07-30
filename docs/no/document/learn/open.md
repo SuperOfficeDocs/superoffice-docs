@@ -16,7 +16,7 @@ Du kan åpne og vise eksisterende dokumenter fra følgende steder:
 <!-- markdownlint-disable MD032 -->
 
 [!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
-* Detaljkortet **Dokumenter** på Valg- skjermbildet, hvis et dokumentvalg er aktivt.
+* Detaljkortet **Dokumenter** på Valg-screenshott, hvis et dokumentvalg er aktivt.
 * Søkeresultatene i **Dokument**-fanen på skjermbildet **Finn**.
 <!-- markdownlint-restore -->
 
