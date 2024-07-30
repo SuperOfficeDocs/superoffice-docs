@@ -18,7 +18,7 @@ A quote often consists of more than one product. It is therefore necessary to cr
 
 ## <a id="types" />Types of quote document templates
 
-SuperOffice CRM provides various templates for generating quotes. These templates can be accessed and customized in Settings and Maintenance under **Lists**.
+SuperOffice CRM provides various templates for generating quotes. These templates can be accessed and customized in Settings and maintenance under **Lists**.
 
 | Type | Description | Format | Example |
 |---|---|---|---|
@@ -33,7 +33,7 @@ SuperOffice CRM provides various templates for generating quotes. These template
 
 ### Quotation – Main quote document template
 
-The **quotation** template is a combination of the main quote text (cover letter written by the sales rep) and the quote details. The quote document is generated when you [create a new quote][6] or open an existing quote and select **Click to create quote document**. The document is generated in a .doc or .docx format, allowing for post-creation editing. It is automatically saved under the **Activities** tab in the sales record. It is also available via the link on the **Quote** section tab.
+The **quotation** template is a combination of the main quote text (cover letter written by the sales rep) and the quote details. The quote document is generated when you [create a new quote][7] or open an existing quote and select **Click to create quote document**. The document is generated in a .doc or .docx format, allowing for post-creation editing. It is automatically saved under the **Activities** tab in the sales record. It is also available via the link on the **Quote** section tab.
 
 ### Quote details template
 
@@ -43,7 +43,7 @@ The **quote details** template is [automatically merged](#usage) into the main q
 
 ### Order confirmation template
 
-To generate an **order confirmation** document, click the **Place Order** button. This opens a dialog where you can either select **Send order confirmation via email** or generate the document directly. The order confirmation template is selected based on the sales type and set in Settings and Maintenance under **List** > **Sale – Type, Stages, Quote**. The document is created in .pdf format and cannot be edited after it is generated.
+To generate an **order confirmation** document, click the **Place Order** button. This opens a dialog where you can either select **Send order confirmation via email** or generate the document directly. The order confirmation template is selected based on the sales type and set in Settings and maintenance under **List** > **Sale – Type, Stages, Quote**. The document is created in .pdf format and cannot be edited after it is generated.
 
 ![Quote order confirmation template selection -screenshot][img4]
 
@@ -103,7 +103,7 @@ Tags for a particular table are available from that table's TableStart: tag to i
 
 ### Grouping and sorting
 
-**Grouping:** You can group products in the template using the **GroupBy** tag, with a line-level string field, such as `GroupBy:productFamilyKey` to group products by their family.
+**Grouping:** You can group products in the template using the **GroupBy** tag, with a line-level suffix, such as `GroupBy:productFamilyKey` to group products by their family.
 
 * The GroupBy tag is case sensitive and can be placed anywhere in the document. At runtime, this tag will disappear without leaving any text.
 * Only one GroupBy tag is allowed per template.
@@ -116,7 +116,7 @@ Within the group (between TableStart and TableEnd), you can add fields that are 
 
 **Sorting:** By default, quote lines are listed in rank order, as seen in the quote line archives. If grouping is used, groups are sorted alphabetically, and the lines within each group are sorted by rank.
 
-To change the order of quote lines, use the **OrderBy** tag, with a line-level string field. For example, `OrderBy:name` sorts products alphabetically by name, and `OrderBy:vatInfo` sorts products by VAT status. Only one level of sorting is supported.
+To change the order of quote lines, use the **OrderBy** tag, with a line-level suffix. For example, `OrderBy:name` sorts products alphabetically by name, and `OrderBy:vatInfo` sorts products by VAT status. Only one level of sorting is supported.
 
 ### <a id ="culture" />Formatting numeric and date data
 
@@ -138,6 +138,7 @@ By following these guidelines, you can effectively use merge fields to create de
 ## Related content
 
 * [Update quote template][5]
+* [Tutorial][6]
 * [Merge field reference][3]
 * [Template variable reference][4]
 * [System.Globalization.CultureInfo][11]
@@ -149,7 +150,8 @@ By following these guidelines, you can effectively use merge fields to create de
 [3]: ../merge-fields/index.md
 [4]: ../variables/for-quote-line.md
 [5]: ../admin/update-template.md
-[6]: ../../../quote/learn/create.md
+[6]: ../admin/update-template.md
+[7]: ../../../quote/learn/create.md
 [11]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo?view=net-5.0
 [12]: https://docs.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)
 [13]: http://www.aspose.com

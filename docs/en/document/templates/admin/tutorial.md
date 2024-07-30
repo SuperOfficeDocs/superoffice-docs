@@ -31,7 +31,7 @@ We will:
 
 1. In SuperOffice CRM, create a quote with various products from different product families to test the grouping feature.
 
-2. Ensure the sale has the same type as the one you will link the template to (see "Link the Template Document to a Sale Type" below).
+2. Ensure the sale has the same type as the one you will link the template to (later in this tutorial).
 
 3. In the quote, click **Place Order** to enable the **Show Confirmation** button.
 
@@ -39,13 +39,13 @@ We will:
 
 1. Verify that the required product fields are visible in the **Configure Product** dialog.
 
-* Only fields marked as visible in Settings and Maintenance will appear in the template.
+* Only fields marked as visible in Settings and maintenance will appear in the template.
 
 * See [Configure products][4] for more details on setting field visibility.
 
 ### Copy the template to be modified
 
-1. In Settings and Maintenance, select **Lists** from the Navigator.
+1. In Settings and maintenance, select **Lists** from the Navigator.
 2. Click the arrow and select **Document - Template**.
 3. Double-click the *Order Confirmation* template and click **Edit** to open it in Microsoft Word.
 4. Save the document with a new name in an easily accessible location.

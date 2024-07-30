@@ -65,7 +65,7 @@ items:
   - name: Template variable reference
     topicHref: templates/variables/index.md
   - name: Merge field reference
-    topicHref: ../templates/merge-fields/index.md
+    topicHref: templates/merge-fields/index.md
   - name: Open Document Format
     href: odf.md
   - name: API options
