@@ -22,7 +22,7 @@ Nadat de klant de offerte accepteert, kunt u de order plaatsen, zodat deze wordt
     > U kunt de bestelling niet plaatsen als de [offerte niet is goedgekeurd][1] of als de [offerte fouten of waarschuwingen bevat][2].
 
 1. Als de offerte een aantal alternatieven bevat, selecteert u het gewenste alternatief in het veld **Te gebruiken alternatief selecteren**.
-1. Om de order per e-mail te verzenden, selecteert u **Orderbevestiging via e-mail verzenden** en kiest u de e-mailsjabloon en taal.
+1. Om de order per e-mail te verzenden, selecteert u **Opdrachtbevestiging via e-mail verzenden** en kiest u de e-mailsjabloon en taal.
 1. Voer het **PO-nummer** van de klant in, indien van toepassing, en een **Orderopmerking**, indien gewenst.
 1. Selecteer **Verkoop markeren als verkocht (100%)** om de status van de verkoop te wijzigen.
 1. Klik op **OK**.

@@ -80,10 +80,7 @@ Instellingen voor offertes met dit verkooptype:
 * **Toevoegen alternatieven aan offerte toestaan**: selecteer deze optie als gebruikers wordt toegestaan verschillende alternatieven toe te voegen aan een offerte.
 * **Standaardaantal dagen dat een offerte geldig is**: geef het aantal dagen op dat een offerte geldig blijft. Deze waarde kan worden gewijzigd wanneer de offerte is verzonden.
 * **Sjabloon offerte-opmaak**: selecteer de sjabloon die u wilt gebruiken voor de offerte.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
-* **Orderbevestigingssjabloon**: selecteer de sjabloon die u wilt gebruiken voor de bevestiging.
+* **Opdrachtbevestigingssjabloon**: selecteer de sjabloon die u wilt gebruiken voor de bevestiging.
 
 ## Offertegoedkeuring
 
@@ -93,11 +90,16 @@ Hier kunt u kiezen of de offerte moet worden goedgekeurd als de totaalkorting bo
 * **Totaalkorting ligt boven limiet**. Voer een geldig percentage in.
 * **Winsttotaal ligt onder limiet**. Voer een geldig percentage in.
 
+## Gerelateerde inhoud
+
+* [Offertesjablonen][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

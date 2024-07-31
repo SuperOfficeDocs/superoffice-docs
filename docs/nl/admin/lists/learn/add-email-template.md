@@ -11,7 +11,7 @@ language: nl
 
 # Een e-mailsjabloon toevoegen
 
-E-mailsjablonen kunnen worden gebruikt om nieuwe e-mails te maken in het Postvak IN van SuperOffice en voor het verzenden van offertes, orderbevestigingen en privacybevestigingen.
+E-mailsjablonen kunnen worden gebruikt om nieuwe e-mails te maken in het Postvak IN van SuperOffice en voor het verzenden van offertes, opdrachtbevestigingen en privacybevestigingen.
 
 Sjablonen worden weergegeven als items in de lijst **E-mail - Sjabloon** en u kunt nieuwe sjablonen toevoegen aan SuperOffice CRM door deze als een item in te voeren in de lijst.
 
@@ -19,7 +19,7 @@ Sjablonen worden weergegeven als items in de lijst **E-mail - Sjabloon** en u ku
 
 1. Typ de gewenste naam voor het item in het veld **Sjabloonnaam**.
 
-2. Selecteer in het veld **Sjabloontype** het type sjabloon dat u maakt. Selecteer **Normaal** als u wilt dat de sjabloon beschikbaar is in **Postvak IN**. U kunt de sjabloon ook beschikbaar stellen als een offertesjabloon, een [orderbevestigingsjabloon][3] of een [privacybevestigingssjabloon][4].
+2. Selecteer in het veld **Sjabloontype** het type sjabloon dat u maakt. Selecteer **Normaal** als u wilt dat de sjabloon beschikbaar is in **Postvak IN**. U kunt de sjabloon ook beschikbaar stellen als een offertesjabloon, een [opdrachtbevestigingsjabloon][3] of een [privacybevestigingssjabloon][4].
 
 3. Als u wilt kunt u aangeven waar de documentsjabloon wordt opgeslagen in de lijst **Sjabloon opslaan in**.
 

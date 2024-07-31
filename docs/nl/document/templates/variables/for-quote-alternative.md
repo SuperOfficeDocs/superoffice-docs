@@ -13,3 +13,8 @@ language: en
 # Variabelen voor offerte-alternatief
 
 [!include[Table](../../../../../common/includes/variable/table-quote-alt.md)]
+
+Zie ook [samenvoegvelden][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md
