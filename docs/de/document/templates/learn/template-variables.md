@@ -91,9 +91,7 @@ Wenn Sie Adressvariablen von der Firmenkarte nutzen, wählt das System Adressdat
 
 ## Variablen für Angebotsvorlagen
 
-Wenn Sie Angebote und Produkte in SuperOffice verwenden, müssen Sie Angebotsvorlagen einrichten. Die Variablen befinden sich in einer PDF-Datei, die auch zeigt, wie Sie mit Angebotsvorlagen arbeiten.
-
-Die Vorlagen für Angebotsdokumente, Angebotsdetails und Auftragsbestätigungen unterscheiden sich dadurch von gewöhnlichen Dokumentvorlagen, dass sie zusätzlich zu den Standard-Vorlagenvariablen "Mergefields" verwenden.
+Wenn Sie Angebote und Produkte in SuperOffice verwenden, müssen Sie Angebotsvorlagen einrichten. Die Vorlagen für Angebotsdokumente, Angebotsdetails und Auftragsbestätigungen unterscheiden sich dadurch von gewöhnlichen Dokumentvorlagen, dass sie zusätzlich zu den Standard-Vorlagenvariablen "Mergefields" verwenden.
 
 ### Beispiel: Auftragsbestätigung (Kopfzeile)
 

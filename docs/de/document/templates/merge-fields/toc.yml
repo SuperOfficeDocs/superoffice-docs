@@ -1,0 +1,11 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Angebot
+  href: quote.md
+- name: Alternative
+  href: alternative.md
+- name: Gruppe
+  href: group.md
+- name: Zeile
+  href: line.md

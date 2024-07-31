@@ -83,7 +83,7 @@ Die TAB-Reihenfolge wird in der Liste **Name** links auf der Ansicht angezeigt. 
 
 1. In der Listbox **Feld 1** wählen Sie das Feld aus, das oben angezeigt werden soll. Wählen Sie die Felder aus, die in den nächsten Positionen in den Listboxen **Feld 2** und **Feld 3** angezeigt werden sollen.
 
-1. Klicken Sie auf **Speichern**, um Ihre Änderungen nur in "Einstellungen und Wartung" zu speichern, oder klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
+1. Klicken Sie auf **Speichern**, um Ihre Änderungen nur in "Einstellungen und Verwaltung" zu speichern, oder klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
 
 ### Benutzergruppen und Seite-1-Felder
 

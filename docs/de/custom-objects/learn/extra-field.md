@@ -30,7 +30,7 @@ Ein *Zusatzfeld* ist ein Feld, das Sie einer vorhandenen SuperOffice-Datenbankta
 > [!NOTE]
 > Zusatzfelder in Unternehmen oder Kontakt sind nicht dasselbe wie benutzerdefinierte Felder in diesen Entitäten!
 
-Zusatzfelder werden in **Einstellungen und Wartung**, im **Tabellen**-Ansicht verwaltet.
+Zusatzfelder werden in **Einstellungen und Verwaltung**, im **Tabellen**-Ansicht verwaltet.
 
 ## <a id="field-types" />Feldtypen
 

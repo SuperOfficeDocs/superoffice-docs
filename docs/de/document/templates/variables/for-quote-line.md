@@ -13,3 +13,8 @@ language: en
 # Variablen für Angebotszeile
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line.md)]
+
+Siehe auch [Merge fields][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md
