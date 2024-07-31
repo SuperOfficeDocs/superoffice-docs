@@ -13,3 +13,8 @@ language: en
 # Variabler för offertinformation
 
 [!include[Table](../../../../../common/includes/variable/table-quote-info.md)]
+
+Se även [merge fields][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

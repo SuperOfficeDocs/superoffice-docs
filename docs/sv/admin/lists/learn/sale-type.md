@@ -80,9 +80,6 @@ Inställningar för offerter med den här försäljningstypen:
 * **Tillåt användning av alternativ i offerter**: Markera det här alternativet om användarna ska kunna lägga till flera alternativ i en offert.
 * **Antal dagar en offert är giltig**: Ange hur många dagar en offert ska vara giltig. Det här värdet kan ändras när offerten skickas.
 * **Mall för offertformat**: Markera mallen som du vill använda för offerten.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 * **Bekräftelsedokument**: Markera mallen som du vill använda för bekräftelsen.
 
 ## Godkännande
@@ -93,11 +90,16 @@ Här kan du välja om offerten måste godkännas ifall den totala rabatten över
 * **Totalrabatten överskrider gränsen**. Ange ett procentvärde.
 * **Totalvinsten underskrider gränsen**. Ange ett procentvärde.
 
+## Relateret indhold
+
+* [Offertmallar][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

@@ -34,6 +34,14 @@ items:
     - name: Referens
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+  - name: Merge fields (offertmallar)
+    href: ../templates/learn/quote-templates.md
+    items:
+    - name: Referens
+      href: ../templates/merge-fields/toc.yml
+      topicHref: ../templates/merge-fields/index.md
+    - name: Tutorial
+      href: ../templates/admin/tutorial.md
   - name: Felsökning
     href: ../templates/learn/troubleshooting.md
   - name: Skapa dokumentmall

@@ -40,7 +40,7 @@ Om du vill se statistik om ditt formulär kan du gå till fliken **Formulär** o
 
 För att arbeta mer effektivt kan du filtrera posterna för att visa en eller flera formulärstatusar eller Mina/Primära grupper. Du hittar **Filtrera**-knappen i nedre högra hörnet.
 
-![Filteralternativ för formulärinlämningar - skärmbild][img1]
+![Filteralternativ för formulärinlämningar -screenshot][img1]
 
 ## Använd dashboards för att få en översikt över formulärinlämning
 
