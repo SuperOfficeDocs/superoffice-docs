@@ -29,7 +29,7 @@ We will:
 
 ### Create a sale for testing the template
 
-1. In SuperOffice CRM, create a quote with various products from different product families to test the grouping feature.
+1. In SuperOffice CRM, [create a quote][5] with various products from different product families to test the grouping feature.
 
 2. Ensure the sale has the same type as the one you will link the template to (later in this tutorial).
 
@@ -101,9 +101,9 @@ To ensure your changes are correctly reflected, follow these steps to view the o
 3. Click **Place order** if you have not done so already.
 4. In the **Edit quote** dialog, click **Show confirmation**. The order confirmation will open as a PDF file.
 5. Verify the order confirmation:
-   * Ensure all table content displays correctly, with no numbers split over two lines.
-   * Check that no field names appear in the document; if they do, you might have used incorrect field names.
-   * Confirm that all inserted fields are present. Missing fields might indicate that the required data is not available in the quote or product.
+    * Ensure all table content displays correctly, with no numbers split over two lines.
+    * Check that no field names appear in the document; if they do, you might have used incorrect field names.
+    * Confirm that all inserted fields are present. Missing fields might indicate that the required data is not available in the quote or product.
 6. Make any necessary adjustments to the template and save it.
 7. Review the order confirmation again to ensure all changes are correctly displayed.
 
@@ -113,8 +113,7 @@ To ensure your changes are correctly reflected, follow these steps to view the o
 
     `«TableStart:alternative»«OrderBy:name»`
 
-Products will now be sorted by product name within each alternative.
-After defining the grouping area, products will also be sorted within each group.
+Products will now be sorted by product name within each alternative. After defining the grouping area, products will also be sorted within each group.
 
 ### Specify the grouping area and key
 
@@ -154,6 +153,7 @@ After defining the grouping area, products will also be sorted within each group
 [2]: ../learn/create.md
 [3]: ../variables/index.md
 [4]: ../../../quote/learn/admin/product/configure.md
+[5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/document/tutorial-insert-fields.png

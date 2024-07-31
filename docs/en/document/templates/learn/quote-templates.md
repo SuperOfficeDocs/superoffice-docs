@@ -18,7 +18,7 @@ A quote often consists of more than one product. It is therefore necessary to cr
 
 ## <a id="types" />Types of quote document templates
 
-SuperOffice CRM provides various templates for generating quotes. These templates can be accessed and customized in Settings and maintenance under **Lists**.
+SuperOffice provides various templates for generating quotes. These templates can be accessed and customized in Settings and maintenance under **Lists**.
 
 | Type | Description | Format | Example |
 |---|---|---|---|

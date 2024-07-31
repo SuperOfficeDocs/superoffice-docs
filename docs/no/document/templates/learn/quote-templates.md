@@ -124,7 +124,7 @@ Numeriske og datofelt kan formateres for å matche de valgte språk/kultinnstill
 
 * **Numeriske felt:** For desimalverdier, kan du spesifisere antall desimaler (0, 2, eller 5). For eksempel, `line/totalPrice:2` sikrer to desimaler. Desimal separatoren er alltid i henhold til valgt språk/kultur.
 
-* **Dato- og tidfelt:** Tilgjengelige formater inkluderer ShortDate, ShortTime, ShortDateTime, LongDate, LongTime, and LongDateTime. For eksempel, `quote/sent:LongDateTime` for full dato og tid.
+* **Dato- og tidfelt:** Tilgjengelige formater inkluderer ShortDate, ShortTime, ShortDateTime, LongDate, LongTime, og LongDateTime. For eksempel, `quote/sent:LongDateTime` for full dato og tid.
 
 Hvis ingen spesifikk formatering er satt, brukes standarden for valgt språk.
 

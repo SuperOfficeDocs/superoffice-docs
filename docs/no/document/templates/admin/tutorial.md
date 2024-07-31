@@ -58,7 +58,7 @@ Vi skal:
 
 1. I skjermbildet **Lister**, dobbeltklikk **Sale - Type, Stages, Quote**.
 2. I oversikten **Forekomster**, dobbeltklikk en salgstype for å åpne dialogboksen **Rediger forekomst**.
-3. Gå til fanen **Detaljer**, åpne listen **Tilbudsformat** og velg din nye mal.
+3. Gå til fanen **Standardverdier**, åpne listen **Tilbudsformat** og velg din nye mal.
 4. Klikk **OK** for å lagre endringene dine.
 
 ## Endre malen
@@ -101,9 +101,9 @@ For å sikre at endringene dine reflekteres korrekt, følg disse trinnene for å
 3. Klikk **Registrer ordre** hvis du ikke har gjort det allerede.
 4. I dialogboksen **Rediger tilbud**, klikk **Vis bekreftelse**. Ordrebekreftelsen åpnes som en PDF-fil.
 5. Verifiser ordrebekreftelsen:
-   * Sørg for at alt innhold i tabellene vises korrekt, uten at tall deles over to linjer.
-   * Sjekk at ingen feltnavn vises i dokumentet; hvis de gjør det, kan du ha brukt feil feltnavn.
-   * Bekreft at alle innsatte felter er tilstede. Manglende felter kan indikere at de nødvendige dataene ikke er tilgjengelige i tilbudet eller produktet.
+    * Sørg for at alt innhold i tabellene vises korrekt, uten at tall deles over to linjer.
+    * Sjekk at ingen feltnavn vises i dokumentet; hvis de gjør det, kan du ha brukt feil feltnavn.
+    * Bekreft at alle innsatte felter er tilstede. Manglende felter kan indikere at de nødvendige dataene ikke er tilgjengelige i tilbudet eller produktet.
 6. Gjør nødvendige justeringer i malen og lagre den.
 7. Gå gjennom ordrebekreftelsen igjen for å sikre at alle endringer vises korrekt.
 

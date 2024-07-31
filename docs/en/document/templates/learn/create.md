@@ -64,7 +64,7 @@ To insert fields into your template, you can use one of the following methods:
 
 4. In the **Field name** box under **Field properties**, enter or paste the new field name (without «»).
 
-5. **Click OK**.
+5. Click **OK**.
 
 ## Calculations
 
