@@ -120,7 +120,7 @@ U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken.
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
-[9]: document-library/index.md
+[9]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-preferences-active.png

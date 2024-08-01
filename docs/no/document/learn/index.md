@@ -1,35 +1,42 @@
 ---
 uid: help-no-document
 title: Arbeide med dokumenter
-description: "Denne veiledningen viser deg hvordan du kan opprette og lagre dokumenter i SuperOffice CRM, og hvordan du kan sende og motta dokumenter direkte i CRM-løsningen."
-author: SuperOffice RnD
-date: 02.23.2023
+description: Introduksjon til dokumenter og dokumenthåndtering i SuperOffice.
 keywords: dokument
+author: Bergfrid Dias
+date: 08.02.2024
 topic: concept
 language: no
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
-# Arbeide med dokumenter
+# Arbeide med dokumenter ![icon][img1]
 
 Lagring av alle dokumenter på ett sted hjelper deg og teamet ditt med å få tilgang til oppdatert informasjon og ha kontroll over kunderelasjoner.
 
-![icon][img1]
+Dokumenter kan for eksempel være brev, tilbud eller notater, og de kan vises på flere steder i SuperOffice CRM.
+
+> [!TIP]
+> Hvis du vil åpne og se på et eksisterende dokument, kan du dobbeltklikke på ønsket rad på detaljkortet **Aktiviteter** eller i et utvalg av dokumenter. Dokumentet åpnes i det programmet det ble opprettet i.
+
+Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][7]. Når du åpner dokumentet i redigeringsmodus, er det bare du som kan redigere det. Andre brukere kan åpne dokumentet i lesemodus. Hvis organisasjonen bruker et dokumentbibliotek som SharePoint, kan flere personer redigere et dokument samtidig.
+
+## Opprett ny
 
 Uansett hvor du er i SuperOffice CRM, kan du opprette eller laste opp et nytt dokument ved å klikke på **Ny** på toppraden og velge **Dokument**. Du kan også opprette og laste opp nye dokumenter fra **Ny**-knappen på toppraden.
 
-Dokumenter kan for eksempel være brev, tilbud eller notater, og de kan vises på flere steder i SuperOffice CRM.
+## Finn dine dokumenter
 
-| Bilde | Detaljkort | Innhold |
-|---|---|---|
-| Firma | Aktiviteter | Alle dokumenter knyttet til det aktive firmaet |
-| Person | Aktiviteter | Alle dokumenter knyttet til den aktive personen |
-| Salg | Aktiviteter | Alle dokumenter knyttet til det aktive salget |
-| Prosjekt | Aktiviteter | Alle dokumenter knyttet til det aktive prosjektet |
-| Dagbok | Aktiviteter | Alle ufullførte dokumenter pluss de som er merket som fullført etter at du sist logget på SuperOffice CRM. |
-| Utvalg | Dokumenter | Et utvalg dokumenter |
+* Detaljkortet **Aktiviteter** i Dagboken viser alle ufullførte dokumenter samt de som er merket som fullført etter at du sist logget inn i SuperOffice CRM.
 
-> [!TIP]
-> Hvis du vil åpne og se på et eksisterende dokument, kan du dobbeltklikke på ønsket rad på detaljkortet.
+* Detaljkortet **Aktiviteter** i Firma, Person, Salg, og Prosjekt-skjermbildet viser alle dokumenter knyttet til den gjeldende posten.
+
+* **Dokumenter**-fanen i skjermbildet Utvalg viser alle dokumenter innenfor det gjeldende utvalget (hvis det er et dokumentutvalg).
+
+## Legge til oppføring som en favoritt
+
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 ## Standardiser dokumentene dine
 
@@ -44,27 +51,17 @@ I SuperOffice CRM kan du enkelt opprette dokumentmaler for Word, e-post, Excel, 
 ## Aktuelle emner
 
 * [Koble til e-post, dokumenter og dagbok][9]
-* [Åpne dokumenter][1]
-* [Last opp dokumenter][2]
 * [Opprett nye dokumenter][3]
-* [Redigere dokumenter][4]
-* [Sende dokumenter][5]
-* [Slette dokumenter][6]
+* [Redigere og slette dokumenter][4]
 * [Sjekke inn/ut dokumenter][7]
-* [Lagre e-postvedlegg][8]
-* [Installere WebTools][10]
+* [Sende dokumenter][5]
 
 <!-- Referenced links -->
-[1]: open.md
-[2]: upload.md
 [3]: create.md
 [4]: edit.md
 [5]: send-as-email.md
-[6]: delete.md
 [7]: lock.md
-[8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
-[10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

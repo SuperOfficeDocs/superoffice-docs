@@ -8,18 +8,12 @@ items:
   items:
   - name: Opret nyt dokument
     href: create.md
-  - name: Overfør dokument
-    href: upload.md
-  - name: Åbn dokument
-    href: open.md
   - name: Tjek dokument ind/ud
     href: lock.md
-  - name: Rediger dokument
+  - name: Rediger eller slet dokument
     href: edit.md
   - name: Send dokument som e-mail
     href: send-as-email.md
-  - name: Slet dokumenter
-    href: delete.md
 
 - name: Dokumentskabeloner
   topicHref: ../templates/learn/index.md
@@ -53,8 +47,5 @@ items:
   - name: Dokumentskabeloner på flere sprog
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
 
-  - name: Integration af SharePoint-dokumentbibliotek
-    href: ../cloud/sharepoint-documents/learn/index.md
-    items:
-    - name: Konfigurer SharePoint-mapperne
-      href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: SharePoint-dokumentbibliotek
+    href: ../library/learn/index.md

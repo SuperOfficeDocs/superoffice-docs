@@ -135,7 +135,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 3. (optional) Click ![icon][img4] in the top-right corner to set the document to **Completed** ![icon][img1].
 
-4. [Complete the fields with the required information][2].
+4. [Complete the fields with the required information](#fields).
 
 5. Click the **Create** button to create the new document in SuperOffice CRM. The document is added to the **Activities** section tab.
 
@@ -149,7 +149,6 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: screen/index.md
 [3]: lock.md
 [4]: send-as-email.md
 [5]: ../templates/learn/index.md

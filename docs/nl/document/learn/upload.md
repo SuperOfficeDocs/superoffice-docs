@@ -1,40 +1,7 @@
 ---
-uid: help-nl-document-upload
-title: Documenten uploaden
-description: Documenten uploaden
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: document
-topic: howto
+uid: help-nl-document-upload-redirect
+author: Bergfrid Dias
+date: 08.02.2024
 language: nl
+redirect_url: https://docs.superoffice.com/nl/document/learn/create.html
 ---
-
-# Documenten uploaden
-
-1. Klik op **Nieuw** > **Document** op de bovenste balk.
-
-2. Gebruik slepen en neerzetten om het document te verplaatsen vanuit Windows Explorer naar het dialoogvenster **Document**.
-
-3. (optioneel) Klik op ![pictogram][img1] in de rechterbovenhoek om het document in te stellen als **Voltooid** (![pictogram][img2]).
-
-4. [Typ de gewenste informatie in de verschillende velden.][1]
-
-5. Klik op de knop **Maken** om een nieuw document te maken in SuperOffice CRM. Het document wordt toegevoegd aan het sectietabblad **Activiteiten**.
-
-## Verwante onderwerpen
-
-* [Nieuwe documenten maken][2]
-* [Documenten openen][3]
-* [Documenten aan/afmelden][5]
-* [Documenten bewerken][4]
-
-<!-- Referenced links -->
-[1]: screen/index.md
-[2]: create.md
-[3]: open.md
-[4]: edit.md
-[5]: lock.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/followup-not-completed-small.png
-[img2]: ../../../media/icons/followup-completed-small.png

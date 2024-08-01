@@ -2,11 +2,13 @@
 uid: help-nl-document-update
 title: Documenten bewerken
 description: Documenten bewerken
-author: SuperOffice RnD
-date: 12.06.2023
+author: Bergfrid Dias
+date: 08.02.2024
 keywords: document
 topic: howto
 language: nl
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Documenten bewerken
@@ -16,31 +18,44 @@ Het bewerken van documenten omvat twee zaken:
 * Bewerken van de documenteigenschappen in het dialoogvenster Document.
 * Bewerken van het documentbestand zelf in de toepassing waarin het document is gemaakt.
 
-U kunt een document openen in [bewerkingsmodus of in leesmodus][1]. Wanneer u een document opent in de bewerkingsmodus, kunt u alleen zelf het document bewerken. Andere gebruikers kunnen het document in leesmodus openen.
-
-Als uw organisatie een documentbibliotheek zoals SharePoint gebruikt, kunnen meerdere mensen tegelijkertijd een document bewerken.
-
-> [!NOTE]
-> Voor deze functie is een licentie vereist.
-
-Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd in uw SuperOffice-installatie:
-
-## Hoe weet ik of ik SharePoint, SuperOffice WebTools gebruik of niet?
-
-[!include[How to check document library](includes/webtools-or-sharepoint.md)]
+U kunt een document openen in [bewerkingsmodus of in leesmodus][1]. Wanneer u een document opent in de bewerkingsmodus, kunt u alleen zelf het document bewerken. Andere gebruikers kunnen het document in leesmodus openen. Als uw organisatie een documentbibliotheek zoals SharePoint gebruikt, kunnen meerdere mensen tegelijkertijd een document bewerken.
 
 ## Documenteigenschappen bewerken in het venster Document
 
 Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het document is gekoppeld, gebruikt u het scherm Document:
 
-1. [Selecteer het gewenste document][2].
+1. Selecteer het gewenste document.
+
 2. Klik met de rechtermuisknop en kies **Document**. Als u dubbelklikt op het document, wordt het document rechtstreeks geopend in de toepassing waarin het is gemaakt.
+
 3. [Breng de gewenste wijzigingen aan][3].
+
 4. Klik op de knop **Opslaan**.
 
-## Documentinhoud bewerken met SharePoint-documenten
+## Documentinhoud bewerken
 
-1. [Dubbelklik op het gewenste document][2]. Het document wordt geopend in een nieuw tabblad met het online tekstbewerkingsprogramma (Office Online).
+Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd in uw SuperOffice-installatie.
+
+<!-- markdownlint-disable-file MD051 -->
+### [Met SuperOffice Web Tools](#tab/webtools)
+
+1. Dubbelklik op het gewenste document.
+
+2. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
+
+3. Sla het document op en sluit de tekstbewerkingstoepassing.
+
+4. (indien van toepassing) Klik in het dialoogvenster dat wordt weergegeven, op **Ja** als u klaar bent met de bewerking van het document. Klik op **Nee** om het document afgemeld te houden.
+
+    Dit dialoogvenster wordt alleen weergegeven als deze optie is geactiveerd in SuperOffice WebTools.
+
+5. Het document is aangemeld en de status is ingesteld op **Voltooid**.
+
+### [Met SharePoint](#tab/sharepoint)
+
+**Voor deze functie is een licentie vereist.**
+
+1. Dubbelklik op het gewenste document. Het document wordt geopend in een nieuw tabblad met het online tekstbewerkingsprogramma (Office Online).
 
     Als u uw bewerkingsprogramma op uw bureaublad wilt gebruiken, kiest u **Openen in desktop-app** van Office Online.
 
@@ -48,39 +63,20 @@ Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het documen
 
 3. Sluit het tabblad of uw bureaublad-app. Het document wordt automatisch opgeslagen in SharePoint
 
-## Documentinhoud bewerken - zonder SuperOffice Web Tools
+### [Zonder SuperOffice Web Tools](#tab/no-webtools)
 
 > [!NOTE]
 > In deze procedure wordt beschreven hoe u nieuwe documenten maakt als u een bureaubladtoepassing voor tekstbewerking gebruikt. Het werkelijke proces kan enigszins anders zijn als u een online tekstbewerkingsprogramma (zoals Microsoft Office Online) en een documentbibliotheek (zoals SharePoint) gebruikt.
 
-1. [Dubbelklik op het gewenste document][2].
+1. Dubbelklik op het gewenste document.
+
 2. Klik in het dialoogvenster **Document** op **Openen**.
+
 3. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
-4. Selecteer in het dialoogvenster voor het downloaden van bestanden een van de volgende opties:
-    * **Openen**: wanneer u klikt op de optie Openen, wordt het document geopend in de tekstbewerkingstoepassing. Typ de inhoud van het document en selecteer **Bestand** > **Opslaan als** om het op te slaan op de gewenste locatie op uw computer.
-    * **Opslaan**: Wanneer u op de optie Opslaan klikt, wordt het dialoogvenster **Opslaan als** weergegeven. Geef aan op welke computer u het bestand wilt opslaan en sla het op. Open vervolgens het document, voer de gewenste tekst in en sla het document op.
-5. Sluit het tekstverwerkingsprogramma.
-6. Ga naar het dialoogvenster **Document**.
 
-    > [!NOTE]
-    > Als **Voltooid** is geselecteerd in het dialoogvenster **Document**, zijn de opties voor uploaden uitgeschakeld. Verwijder in dat geval het vinkje **Voltooid**.
+4. In het dialoogvenster **Bestandsdownload** selecteert u **Openen** of **Opslaan**. Volg vervolgens stap 5-9 uit de procedure [document maken zonder WebTools][2].
 
-7. Klik op de koppeling om het document te uploaden of gebruik Slepen en neerzetten om het document vanuit Windows Verkenner naar het dialoogvenster **Document** te verplaatsen.
-
-    ![Een nieuw document maken -screenshot][img1]
-
-8. Sluit het dialoogvenster **Document** door te klikken op **Opslaan**. Het document is aangemeld en de status is ingesteld op **Voltooid**.
-
-## Documentinhoud bewerken - met SuperOffice Web Tools
-
-1. [Dubbelklik op het gewenste document][2].
-2. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
-3. Sla het document op en sluit de tekstbewerkingstoepassing.
-4. (indien van toepassing) Klik in het dialoogvenster dat wordt weergegeven, op **Ja** als u klaar bent met de bewerking van het document. Klik op **Nee** om het document afgemeld te houden.
-
-    Dit dialoogvenster wordt alleen weergegeven als deze optie is geactiveerd in SuperOffice WebTools.
-
-5. Het document is aangemeld en de status is ingesteld op **Voltooid**.
+***
 
 ### <a id="allow" />Beveiligingsvraag van de browser bij het openen van bestanden
 
@@ -107,17 +103,26 @@ De dialoog is enigszins verschillend in Chrome, Edge, Firefox en Safari.
 
 ![Safari: Altijd toestaan of Toestaan -screenshot][img4]
 
+## <a id="delete" />Documenten verwijderen
+
+1. Selecteer het gewenste document op het sectietabblad **Activiteiten** op de schermen Bedrijf, Persoon, Agenda, Verkoop of Project.
+2. Klik op de knop **Verwijderen** links onder in de lijst.
+3. Bevestig of annuleer het verwijderen in het dialoogvenster **Document verwijderen**.
+
 ## Probleemoplossing
 
 Als u dubbelklikt op een document en er gebeurt niets, klikt u er met de rechtermuisknop op en selecteert u **Document**. Hiermee wordt het dialoogvenster **Document** geopend. Klik op **Openen** en kijk of het document nu wordt geopend.
 
+### Hoe weet ik of ik SharePoint, SuperOffice WebTools gebruik of niet?
+
+[!include[How to check document library](includes/webtools-or-sharepoint.md)]
+
 <!-- Referenced links -->
 [1]: lock.md
-[2]: open.md
+[2]: create.md
 [3]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/document/upload.png
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
 [img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
 [img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png

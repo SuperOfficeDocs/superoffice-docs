@@ -81,14 +81,7 @@ Klik i feltet **Synlig for** for at få vist en liste, hvor du kan vælge, om do
 
 ### Tjekket ud til redigering
 
-Hvis dokumentet er tjekket ud til redigering, vises et af følgende ikoner:
-
-![ikon][img2] Dokumentet er i øjeblikket tjekket ud til redigering af dig.
-
-![ikon][img3] Dokumentet er i øjeblikket tjekket ud til redigering af en anden bruger.
-
-> [!TIP]
-> Hold musemarkøren over et ikon for at vise oplysninger om den bruger, der har tjekket dokumentet ud.
+Se [Tjek dokument ind/ud][4].
 
 ### Afsluttet
 
@@ -152,7 +145,5 @@ Denne fane viser alle [brugerdefinerede felter][3], der er konfigureret i Indsti
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png

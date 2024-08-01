@@ -19,9 +19,4 @@ items:
     href: video-meetings/email-setup-in-superoffice.md
 
 - name: Dokumentbibliotek
-  topicHref: document-library/index.md
-  items:
-  - name: Oversigt
-    href: document-library/index.md
-  - name: Konfigurer SharePoint-dokumentbibliotek
-    href: document-library/change-to-sharepoint.md
+  topicHref: ../../../document/library/learn/index.md

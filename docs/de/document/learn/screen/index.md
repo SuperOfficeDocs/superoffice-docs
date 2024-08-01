@@ -81,14 +81,7 @@ Wenn Sie auf das Feld **Sichtbar für** klicken, wird eine Liste eingeblendet, i
 
 ### Zum Bearbeiten ausgecheckt
 
-Wenn das Dokument zum Bearbeiten ausgecheckt wurde, wird eins der folgenden Symbole angezeigt:
-
-![Symbol][img2] Das Dokument ist derzeit zur Bearbeitung durch Sie ausgecheckt.
-
-![Symbol][img3] Das Dokument ist derzeit zur Bearbeitung durch einen anderen Benutzer ausgecheckt.
-
-> [!TIP]
-> Zeigen Sie mit dem Mauszeiger auf ein Symbol, um Informationen über den Benutzer anzuzeigen, der das Dokument ausgecheckt hat.
+Siehe [Dokument ein-/auschecken][4].
 
 ### Bearbeitet
 
@@ -152,7 +145,5 @@ Diese Registerkarte zeigt alle [benutzerdefinierten Felder][3], die in Einstellu
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png

@@ -8,18 +8,12 @@ items:
   items:
   - name: Neues Dokument erstellen
     href: create.md
-  - name: Dokument hochladen
-    href: upload.md
-  - name: Dokument öffnen
-    href: open.md
   - name: Dokument ein-/auschecken
     href: lock.md
-  - name: Dokument bearbeiten
+  - name: Dokument bearbeiten oder löschen
     href: edit.md
   - name: Dokuments als E-Mail senden
     href: send-as-email.md
-  - name: Dokumente löschen
-    href: delete.md
 
 - name: Dokumentvorlagen
   topicHref: ../templates/learn/index.md
@@ -53,8 +47,5 @@ items:
   - name: Dokumentvorlagen in mehreren Sprachen
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
 
-  - name: Integration der SharePoint-Dokumentbibliothek
-    href: ../cloud/sharepoint-documents/learn/index.md
-    items:
-    - name: SharePoint-Ordner einrichten
-      href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: SharePoint-Dokumentbibliothek
+    href: ../library/learn/index.md

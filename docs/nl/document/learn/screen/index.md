@@ -81,14 +81,7 @@ Klik naast het veld **Zichtbaar voor** om een lijst weer te geven waarin u kunt 
 
 ### Afgemeld voor bewerking
 
-Als het document is afgemeld voor bewerking, wordt een van de volgende pictogrammen weergegeven:
-
-![pictogram][img2] Het document is momenteel afgemeld voor bewerking door uzelf.
-
-![pictogram][img3] Het document is momenteel afgemeld voor bewerking door een andere gebruiker.
-
-> [!TIP]
-> Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te geven die het document heeft afgemeld.
+Zie [Document aan/afmelden][4].
 
 ### Voltooid
 
@@ -152,7 +145,5 @@ Dit tabblad bevat alle velden die in Instellingen en onderhoud zijn [gedefinieer
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png

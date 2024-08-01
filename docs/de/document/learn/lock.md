@@ -2,19 +2,28 @@
 uid: help-de-document-lock
 title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Dokument
+author: Bergfrid Dias
+date: 87.02.2024
 topic: howto
 language: de
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Dokumente ein-/auschecken
 
-In SuperOffice CRM sind häufig viele Benutzer gleichzeitig damit befasst, Dokumente zu erstellen, zu bearbeiten oder zu lesen. Wenn jedoch ein Dokument gleichzeitig von mehreren Benutzern bearbeitet wird, besteht die Gefahr, dass sie ihre Änderungen gegenseitig überschreiben. Damit dies nicht geschieht, wird ein Dokument in SuperOffice CRM automatisch gesperrt, wenn es von einem Benutzer bearbeitet wird. Andere Benutzer können das Dokument weiterhin öffnen, aber nur im Lesemodus.
+In SuperOffice CRM sind häufig viele Benutzer gleichzeitig damit befasst, Dokumente zu erstellen, zu bearbeiten oder zu lesen. Wenn jedoch ein Dokument gleichzeitig von mehreren Benutzern bearbeitet wird, besteht die Gefahr, dass sie ihre Änderungen gegenseitig überschreiben. Damit dies nicht geschieht, wird ein Dokument in SuperOffice CRM automatisch gesperrt, wenn es von einem Benutzer bearbeitet wird. Andere Benutzer können das Dokument weiterhin öffnen, aber nur im Lesemodus. (Wenn Ihre Organisation eine Dokumentbibliothek wie SharePoint nutzt, können mehrere Personen ein Dokument gleichzeitig bearbeiten.)
 
-> [!NOTE]
-> Wenn Ihre Organisation eine Dokumentbibliothek wie SharePoint nutzt, können mehrere Personen ein Dokument gleichzeitig bearbeiten.
+## Bearbeitungsmodus und Lesemodus
+
+* Bearbeitungsmodus: Das Dokument ist zur Bearbeitung geöffnet. Das Dokument kann von anderen Benutzern erst wieder bearbeitet werden, wenn Sie es speichern und schließen, wodurch es automatisch eingecheckt wird.
+
+    Wenn ein Dokument beim Speichern und Schließen nicht automatisch eingecheckt werden soll, können Sie die Option **Einchecken nach Abschluss der Bearbeitung empfohlen** unter **Einstellungen** in SuperOffice WebTools aktivieren.
+
+* Lesemodus: Das Dokument ist zum Lesen geöffnet. Änderungen, die Sie am Dokument vornehmen, werden nicht gespeichert. Um das [Dokument mit den Änderungen speichern][1] möchten, müssen Sie in SuperOffice CRM ein neues Dokument erstellen und die Datei mit den Änderungen hochladen.
+
+Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
 
 ## Woran erkannt man, ob ein Dokument ausgecheckt wurde?
 
@@ -35,16 +44,6 @@ Wenn Sie versuchen, ein ausgechecktes Dokument zu öffnen, wird ein Dialogfeld m
 ## Dokument nach der Bearbeitung einchecken
 
 In den meisten Fällen können Sie in der Anwendung das [Dokument speichern und schließen][1], woraufhin es automatisch eingecheckt wird.
-
-## Bearbeitungsmodus und Lesemodus
-
-* Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
-
-* Bearbeitungsmodus: Das Dokument ist zur Bearbeitung geöffnet. Das Dokument kann von anderen Benutzern erst wieder bearbeitet werden, wenn Sie es speichern und schließen, wodurch es automatisch eingecheckt wird.
-
-    Wenn ein Dokument beim Speichern und Schließen nicht automatisch eingecheckt werden soll, können Sie die Option **Einchecken nach Abschluss der Bearbeitung empfohlen** unter **Einstellungen** in SuperOffice WebTools aktivieren.
-
-* Lesemodus: Das Dokument ist zum Lesen geöffnet. Änderungen, die Sie am Dokument vornehmen, werden nicht gespeichert. Um das [Dokument mit den Änderungen speichern][1] möchten, müssen Sie in SuperOffice CRM ein neues Dokument erstellen und die Datei mit den Änderungen hochladen.
 
 ## Auschecken rückgängig machen (zurück zur gespeicherten Version)
 

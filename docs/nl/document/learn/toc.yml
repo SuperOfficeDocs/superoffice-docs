@@ -8,18 +8,12 @@ items:
   items:
   - name: Nieuw document maken
     href: create.md
-  - name: Document uploaden
-    href: upload.md
-  - name: Document openen
-    href: open.md
   - name: Document aan/afmelden
     href: lock.md
-  - name: Document bewerken
+  - name: Document bewerken of verwijderen
     href: edit.md
   - name: Document als e-mailbericht verzenden
     href: send-as-email.md
-  - name: Documenten verwijderen
-    href: delete.md
 
 - name: Documentsjablonen
   topicHref: ../templates/learn/index.md
@@ -53,8 +47,5 @@ items:
   - name: Documentsjablonen in meerdere talen
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
 
-  - name: Integratie SharePoint-documentbibliotheek
-    href: ../cloud/sharepoint-documents/learn/index.md
-    items:
-    - name: De SharePoint-mappen instellen
-      href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: SharePoint-documentbibliotheek
+    href: ../library/learn/index.md
