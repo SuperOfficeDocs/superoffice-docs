@@ -88,7 +88,7 @@ Geef de volgende informatie op op het tabblad **Details**:
 
 6. Lokaal: Schakel de optie **Opslaan in database** in om op te geven of documenten die u maakt met deze sjabloon, worden opgeslagen in de documentdatabase. Als u deze optie hebt ingeschakeld, wordt het document weergegeven op het sectietabblad **Activiteiten**. Zo niet, wordt het document niet weergegeven in SuperOffice CRM nadat u het hebt gemaakt en kan het niet via het programma worden geopend.
 
-7. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of orderbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
+7. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of opdrachtbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
 
     ![Item in lijst bewerken -screenshot][img8]
 
@@ -123,7 +123,7 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 
 <!-- Referenced links -->
 [1]: update-template.md
-[2]: ../../../../en/document/templates/quote/index.md
+[2]: ../learn/quote-templates.md
 [4]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

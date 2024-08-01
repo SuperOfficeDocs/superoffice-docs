@@ -3,8 +3,8 @@ uid: help-sv-document-template-create
 title: Skapa ett malldokument
 description: Skapa ett malldokument
 keywords: dokumentmall, dokument, mall
-author: Bergfrid Dias
-date: 07.16.2024
+author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
+date: 07.31.2024
 version: 10
 topic: howto
 language: sv
@@ -30,8 +30,83 @@ Du kan också skapa mallar i HTML-format och redigera dem med SuperOffices redig
 
 När du har definierat en mall och sparat den i mallmappen måste du [koppla mallen till SuperOffice CRM][2] för att kunna skapa dokument från den.
 
+## Lägg till merge fields till offertmallen
+
+Fält på offertlinjen som inte är aktiverade kommer att ha tomma värden för sina taggar – även om du lägger till data manuellt i databasen. För att använda alla taggar, gå till offertinställningarna i Inställningar och underhåll och aktivera alla fält.
+
+För att infoga fält i din mall kan du använda en av följande metoder:
+
+### Metod 1: Använd Fältdialogen
+
+1. Placera markören där du vill infoga fältet.
+
+1. Klicka på **Infoga** > **Snabbdelar** > **Fält**.
+
+    ![Snabbdelar -screenshot][img1]
+
+1. I listan **Fältnamn**, skriv "merge" för att markera **MergeField**.
+
+1. I **Fältegenskaper**, skriv ditt [fältnamn][3] (utan «»):
+
+    ![Fältegenskaper -screenshot][img2]
+
+1. Klicka på **OK** och fältet kommer att infogas i ditt dokument:
+
+    ![Infoga MERGEFIELD -screenshot][img3]
+
+### Metod 2: Kopiera och klistra in befintliga fält (snabbast)
+
+1. **Kopiera** ett befintligt fält från mallen. Se till att du kopierar hela fältet, inklusive «».
+
+1. **Klistra** in fältet i din mall där det behövs.
+
+1. Högerklicka på det inklistrade fältet och välj **Redigera fält**.
+
+1. I rutan **Fältnamn** under **Fältegenskaper**, skriv eller klistra in det nya fältnamnet (utan «»).
+
+1. Klicka på **OK**.
+
+## Beräkningar
+
+Du kan utföra beräkningar med merge fields.
+
+### Nettopris per enhet
+
+För att visa priset per enhet efter rabatter kan du lägga till ett merge field som detta:
+
+```text
+{= {MERGEFIELD line/totalPrice} / {MERGEFIELD line/quantity}}
+```
+
+**Steg:**
+
+1. Tryck Ctrl + F9 för att lägga till ett nytt merge field. Du kommer att se två klamrar { }.
+
+1. Inuti klamrarna:
+
+    1. Lägg till "= " och tryck Ctrl + F9 igen.
+    1. Lägg till "MERGEFIELD line/totalPrice" i en ny uppsättning klamrar.
+    1. Skriv "/" och tryck sedan Ctrl + F9.
+    1. Lägg till "MERGEFIELD line/quantity" i den sista uppsättningen klamrar.
+
+1. Nu ska du ha ett fält som ser ut så här: {= {MERGEFIELD line/totalPrice} / {MERGEFIELD line/quantity}}
+
+## Relaterat innehåll
+
+* [Hur man arbetar med fält i Aspose Words][9]
+* [Offertmallar och merge fields][4]
+* [Referens för merge fields][3]
+* [Referens för mallvariabler][6]
+
 <!-- Referenced links -->
 [1]: template-variables.md
+[4]: quote-templates.md
 [2]: ../admin/link-template.md
+[3]: ../merge-fields/index.md
+[6]: ../variables/for-quote-line.md
+[9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/document/6762-11545.jpg
+[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img3]: ../../../../media/loc/en/document/6764-11541.jpg

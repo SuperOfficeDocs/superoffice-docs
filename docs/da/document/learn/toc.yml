@@ -34,6 +34,14 @@ items:
     - name: Reference
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+  - name: Fletfelter (tilbudsskabeloner)
+    href: ../templates/learn/quote-templates.md
+    items:
+    - name: Reference
+      href: ../templates/merge-fields/toc.yml
+      topicHref: ../templates/merge-fields/index.md
+    - name: Tutorial
+      href: ../templates/admin/tutorial.md
   - name: Fejlfinding
     href: ../templates/learn/troubleshooting.md
   - name: Opret dokumentskabelon

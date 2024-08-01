@@ -13,3 +13,8 @@ language: en
 # Variable for tilbudslinje
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line.md)]
+
+Se også [fletfelter][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

@@ -11,7 +11,7 @@ language: de
 
 # Schnellsuche in Dialogfeldern verwenden
 
-![Schnellsuche - Screenshot][img3]
+![Schnellsuche -screenshot][img3]
 
 ## Schritte
 

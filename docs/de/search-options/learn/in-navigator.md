@@ -13,7 +13,7 @@ language: de
 
 1. Klicken Sie im links im Fenster angezeigten Navigator auf **Firma**, **Person**, **Verkauf**, **Projekt**, **Selektion**, oder **Anfrage**. Oben wird ein leeres Feld eingeblendet. Darunter befindet sich eine [Liste der Datensätze, mit denen Sie bereits gearbeitet haben][1].
 
-    ![Schnellsuche - Screenshot][img1]
+    ![Schnellsuche -screenshot][img1]
 
 2. Geben Sie im Feld den Namen des zu suchenden Datensatzes ein. Während der Eingabe werden in der folgenden Liste alle übereinstimmenden Datensätze angezeigt.
 

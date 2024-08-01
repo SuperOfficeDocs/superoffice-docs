@@ -13,3 +13,8 @@ language: en
 # Variabler for tilbudsinfo
 
 [!include[Table](../../../../../common/includes/variable/table-quote-info.md)]
+
+Se også [flettefelt][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

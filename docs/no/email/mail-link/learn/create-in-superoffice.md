@@ -29,7 +29,7 @@ Du kan imidlertid også bruke knappen **Skrive** på verktøylinjen.
 
 Når du oppretter en e-post fra SuperOffice CRM, er det også mulig å bruke forhåndsdefinerte SuperOffice-maler bare for e-postens brødtekst.
 
-1. Kontroller at en e-posttekstmal er tilgjengelig, og at alternativet **Bruk SuperOffice e-posttekst** i dialogboksen **SuperOffice CRM-alternativer** er valgt.
+1. Kontroller at en e-postmal er tilgjengelig, og at alternativet **Bruk SuperOffice e-posttekst** i dialogboksen **SuperOffice CRM-alternativer** er valgt.
 
 2. Klikk på knappen **E-post** på verktøylinjen nederst i SuperOffice CRM-vinduet. (Dette gjelder også hvis du klikker på en e-postadresse i SuperOffice CRM, sender en e-post fra detaljkortet **Personer** eller svarer på / videresender en e-post fra detaljkortet **Aktiviteter**.)
 

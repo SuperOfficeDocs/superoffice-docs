@@ -13,3 +13,8 @@ language: en
 # Variables for quote alternative
 
 [!include[Table](../../../../../common/includes/variable/table-quote-alt.md)]
+
+See also [merge fields][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

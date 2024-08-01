@@ -91,9 +91,7 @@ När du använder adressvariabler från företagskortet väljer systemet adressd
 
 ## Variabler i offertmallar
 
-När du använder offerter och produkter i SuperOffice behöver du skapa offertmallar. Variablerna finns i en pdf-fil som även visar hur du arbetar med offertmallar.
-
-Mallarna för offertdokument, offertdetaljer och orderbekräftelser skiljer sig från vanliga dokumentmallar eftersom de använder "mergefields" vid sidan om vanliga mallvariabler.
+När du använder offerter och produkter i SuperOffice behöver du skapa offertmallar. Mallarna för offertdokument, offertdetaljer och orderbekräftelser skiljer sig från vanliga dokumentmallar eftersom de använder "merge fields" vid sidan om vanliga mallvariabler.
 
 ### Exempel: Orderbekräftelse (rubrik)
 

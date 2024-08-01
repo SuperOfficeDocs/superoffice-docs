@@ -89,9 +89,7 @@ Adressevariabler fra firmakortet er såkalte "smarte" malvariabler. Dette betyr 
 
 ## Variabler for tilbudsmaler
 
-Ved bruk av tilbud og produkter i SuperOffice må du sette opp tilbudsmaler og variablene finnes i en pdf som også viser hvordan man jobber med tilbudsmaler.
-
-Malene for tilbudsdokumenter, tilbudsdetaljer og ordrebekreftelser er annerledes enn vanlige dokumentmaler, siden de bruker flettefelt ("mergefields") i tillegg til standard malvariabler.
+Ved bruk av tilbud og produkter i SuperOffice må du sette opp tilbudsmaler. Malene for tilbudsdokumenter, tilbudsdetaljer og ordrebekreftelser er annerledes enn vanlige dokumentmaler, siden de bruker flettefelt ("merge fields") i tillegg til standard malvariabler.
 
 ### Eksempel: ordrebekreftelse (topptekst)
 

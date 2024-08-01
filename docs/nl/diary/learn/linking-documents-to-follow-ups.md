@@ -30,7 +30,7 @@ Om details van een gekoppeld document, vervolgactiviteit, verkoop of project te 
 
 Om een koppeling te verwijderen, klik op het rode X op die rij.
 
-![Tabblad Links van een vervolgactiviteit - schermafbeelding][img1]
+![Tabblad Links van een vervolgactiviteit -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

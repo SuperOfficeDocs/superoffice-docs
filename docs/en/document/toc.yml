@@ -64,15 +64,8 @@ items:
       href: ribbons/troubleshooting.md
   - name: Template variable reference
     topicHref: templates/variables/index.md
-  - name: Quote templates
-    href: templates/quote/index.md
-    items:
-    - name: Add template variables
-      href: templates/quote/add-template-var.md
-    - name: Language and culture
-      href: templates/quote/lang-culture.md
-    - name: Mergefields
-      href: templates/quote/mergefields.md
+  - name: Merge field reference
+    topicHref: templates/merge-fields/index.md
   - name: Open Document Format
     href: odf.md
   - name: API options

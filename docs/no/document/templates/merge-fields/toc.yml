@@ -1,0 +1,11 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Tilbud
+  href: quote.md
+- name: Alternativ
+  href: alternative.md
+- name: Gruppe
+  href: group.md
+- name: Linje
+  href: line.md

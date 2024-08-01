@@ -13,3 +13,8 @@ language: en
 # Variabelen voor offertelijn
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line.md)]
+
+Zie ook [samenvoegvelden][1].
+
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

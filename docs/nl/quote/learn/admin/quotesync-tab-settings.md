@@ -24,7 +24,7 @@ Op het tabblad **Instellingen** op het scherm Offerte/Synchroniseren kunt u de i
 
 * **Standaardtekst voor vervolgactiviteit**: Hier kunt u tekst opgeven die moet worden weergegeven voor een vervolgactiviteit die voor deze offerte kan worden gemaakt. Gebruikers hebben de mogelijkheid een vervolgactiviteit te maken wanneer ze een offerte verzenden.
 
-* [Verkooptypen openen][1]: Klik op deze koppeling om naar de lijst **Verkoop - Type, Fasen, Offerte** te gaan. Elke verkoop in SuperOffice CRM moet een verkooptype hebben en veel standaardeigenschappen van een offerte worden verkregen via het verkooptype van de gekoppelde verkoop. Dit is bijvoorbeeld van toepassing op het gebruik van alternatieven, de offertesjabloon, de geldigheid van de offerte en de goedkeuringseisen.
+* [Verkooptypen openen][1]: Klik op deze koppeling om naar de lijst **Verkoop - Type, Fasen, Offerte** te gaan. Elke verkoop in SuperOffice CRM moet een verkooptype hebben en veel standaardeigenschappen van een offerte worden verkregen via het verkooptype van de gekoppelde verkoop. Dit is bijvoorbeeld van toepassing op het gebruik van alternatieven, de [offertesjabloon][3], de geldigheid van de offerte en de goedkeuringseisen.
 
 ## Dialoogvenster product
 
@@ -33,5 +33,6 @@ Geeft de gebruikte velden weer in elke offerteregel in de offerte. Klik op de ve
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md
 [2]: product/configure.md
+[3]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

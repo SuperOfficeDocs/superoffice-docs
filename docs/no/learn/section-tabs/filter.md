@@ -100,7 +100,7 @@ Nå har alle kolonnene i arkivet ditt et traktikon bak seg.
 
 1. Gjenta forrige trinn for å filtrere etter en kolonne til.
 
-    ![Se arkivet med færre enheter.-skjermbilde][img14]
+    ![Se arkivet med færre enheter.-screenshot][img14]
 
 ## Fjern filter
 

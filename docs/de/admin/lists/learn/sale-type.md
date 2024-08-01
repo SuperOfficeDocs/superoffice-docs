@@ -80,9 +80,6 @@ Einstellungen für Angebote mit diesem Verkaufstyp:
 * **Hinzufügen von Alternativen zu Angebot erlauben**: Aktivieren Sie diese Option, wenn Benutzer einem Angebot mehrere Alternativen hinzufügen dürfen.
 * **Standardwert für die Tage, die ein Angebot gültig ist**: Geben Sie die Anzahl an Tagen ein, für die ein Angebot gültig sein soll. Dieser Wert kann noch einmal geändert werden, wenn das Angebot gesendet worden ist.
 * **Formatvorlage Angebot**: Aktivieren Sie die Vorlage, die Sie für das Angebot verwenden möchten.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 * **Vorlage für Auftragsbestätigung**: Aktivieren Sie die Vorlage, die Sie für die Bestätigung verwenden möchten.
 
 ## Angebotsgenehmigung
@@ -93,11 +90,16 @@ Hier können Sie auswählen, ob das Angebot genehmigt werden muss, wenn der Gesa
 * **Gesamtrabatt liegt über dem Grenzwert**. Geben Sie einen Prozentwert ein.
 * **Gesamtverdienst liegt unter dem Grenzwert**. Geben Sie einen Prozentwert ein.
 
+## Verwandte Themen
+
+* [Angebotsvorlage][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

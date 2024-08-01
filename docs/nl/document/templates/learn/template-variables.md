@@ -92,13 +92,11 @@ Wanneer u adresvariabelen van de bedrijfskaart gebruikt, selecteert het systeem 
 
 ## Offertesjabloonvariabelen
 
-Wanneer u offertes en producten in SuperOffice gebruikt, moet u offertesjablonen instellen en de variabelen zijn te vinden in een pdf die ook laat zien hoe u met offertesjablonen kunt werken.
+Wanneer u offertes en producten in SuperOffice gebruikt, moet u offertesjablonen instellen. De sjablonen voor offertedocumenten, offertedetails en opdrachtbevestigingen verschillen van gewone documentsjablonen, omdat ze naast standaardsjabloonvariabelen ook "samenvoegvelden" gebruiken.
 
-De sjablonen voor offertedocumenten, offertedetails en orderbevestigingen verschillen van gewone documentsjablonen, omdat ze naast standaardsjabloonvariabelen ook "samenvoegvelden" gebruiken.
+### Voorbeeld: opdrachtbevestiging (koptekst)
 
-### Voorbeeld: orderbevestiging (koptekst)
-
-Sjabloonvariabelen voor offerten en orderbevestigingen kunnen worden gebruikt binnen de context van een offerte.
+Sjabloonvariabelen voor offerten en opdrachtbevestigingen kunnen worden gebruikt binnen de context van een offerte.
 
 **Sjabloon:**
 

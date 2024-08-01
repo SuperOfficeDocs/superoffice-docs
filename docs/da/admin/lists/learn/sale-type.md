@@ -80,9 +80,6 @@ Indstillinger for tilbud med denne salgstype:
 * **Tillad at alternativer føjes til tilbud**: Markér dette, hvis brugerne skal kunne tilføje flere alternativer til et tilbud.
 * **Standarddage et tilbud er gyldigt**: Indtast det antal dage, et tilbud forbliver gyldigt. Denne værdi kan ændres, når tilbuddet sendes.
 * **Skabelon til tilbudsformat**: Markér den skabelon, du vil bruge til tilbuddet.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 * **Skabelon til ordrebekræftelse**: Markér den skabelon, du vil bruge til bekræftelsen.
 
 ## Godkendelse af tilbud
@@ -93,11 +90,16 @@ Her kan du vælge, om tilbuddet skal godkendes, hvis den samlede rabat er over e
 * **Den samlede rabat er over grænsen**. Angiv en procentværdi.
 * **Den samlede indtjening er under grænsen**. Angiv en procentværdi.
 
+## Relateret inhold
+
+* [Tilbudsskabeloner][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

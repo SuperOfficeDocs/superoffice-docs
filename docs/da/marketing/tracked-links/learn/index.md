@@ -40,7 +40,7 @@ I fanebladet **Sporede links** har du følgende valgmuligheder:
 |:-:|---|---|
 | ![Ikon][img2] | Tilføj | [Opret et nyt link][1], [Definer linkhandlinger][7] |
 | ![Ikon][img3] | Tilføj mappe | [Opret en mappe][5] til dine links |
-| Link | Klik på et link for at åbne **Visning af link** -skærmbilledet. | [Arbejde med sporede links efter udsendelsen][2] |
+| Link | Klik på et link for at åbne **Visning af link** -screenshott. | [Arbejde med sporede links efter udsendelsen][2] |
 | ![Ikon][img1] | Menu | Klik på knappen ud for et link for at få adgang til flere indstillinger: |
 
 Menuindstillinger:

@@ -20,7 +20,7 @@ Szenario: Sie haben ein Zusatzfeld für Unternehmen (`contact` Tabelle) hinzugef
 
 ### [In der neuen Anfragenansicht mit dem Ansichtsdesigner](#tab/screen-designer)
 
-1. Gehen Sie zu **Einstellungen und Wartung** > **Ansichtsdesigner** und wählen Sie den Tab **Anfragen**.
+1. Gehen Sie zu **Einstellungen und Verwaltung** > **Ansichtsdesigner** und wählen Sie den Tab **Anfragen**.
 1. Klicken Sie unten auf **Layout bearbeiten**.
 1. Suchen Sie die Einstellung für **Felder**.
 1. Wählen Sie Ihr Feld aus.
@@ -34,7 +34,7 @@ Szenario: Sie haben ein Zusatzfeld für Unternehmen (`contact` Tabelle) hinzugef
 
 Im Service müssen Sie ein gemeinsames Elementprofil erstellen.
 
-1. Gehen Sie zu **Einstellungen und Wartung** > **Systemdesign** und wählen Sie den Tab **Profil**.
+1. Gehen Sie zu **Einstellungen und Verwaltung** > **Systemdesign** und wählen Sie den Tab **Profil**.
 
 1. Wählen Sie **Systembildschirme**. Klicken Sie dann auf **Ticket anzeigen**, zeigen Sie mit dem Cursor auf **ticketinfo** und klicken Sie auf **Neues gemeinsames Profil**.
 

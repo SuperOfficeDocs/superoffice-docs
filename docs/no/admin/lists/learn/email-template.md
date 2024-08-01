@@ -11,8 +11,6 @@ language: no
 
 # E-post - Mal
 
-[!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 Det er viktig for en organisasjons profil at e-postmeldinger har et unikt og helhetlig utseende. Det betyr at alle e-postmeldinger som sendes ut av organisasjonen, bør bruke samme skrifttyper, formatering, logoer og så videre. Ved å lage e-postmaler som er tilpasset din organisasjon, sikrer du at organisasjonens personer lett gjenkjenner organisasjonens korrespondanse. E-postmaler brukes også når du sender tilbud, ordrebekreftelser og personvernbekreftelser.
 
 SuperOffice CRM leveres med flere standardmaler som du kan bruke umiddelbart etter at du har installert programmet.
@@ -24,7 +22,12 @@ Du kan også opprette dine egne maler. Dette gjør du ved å legge inn [malvaria
 1. [Opprett e-postmalen][4] i Innstillinger og vedlikehold.
 1. Gjør e-postmalen tilgjengelig for de nødvendige brukergruppene. Se [Brukergruppefiltrering][5].
 
+## Aktuelt innhold
+
+* [Tilbudsmaler][1]
+
 <!-- Referenced links -->
+[1]: ../../../document/templates/learn/quote-templates.md
 [2]: ../../../document/templates/learn/template-variables.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md

@@ -1,8 +1,8 @@
 ---
 uid: help-da-mailing-add-merge-tags
-title: Føj flettefelter til din meddelelse
-description: "Få flere oplysninger om, hvordan du føjer flettefelter til din udsendelse"
-keywords: Marketing, flettefelt, meddelelse, skabelonvariabler
+title: Føj fletfelter til din meddelelse
+description: "Få flere oplysninger om, hvordan du føjer fletfelter til din udsendelse"
+keywords: Marketing, fletfelt, meddelelse, skabelonvariabler
 author: SuperOffice RnD
 date: 02.07.2024
 version: 10
@@ -12,13 +12,13 @@ audience: person
 audience_tooltip: SuperOffice Marketing
 ---
 
-# Føj flettefelter til din meddelelse
+# Føj fletfelter til din meddelelse
 
-Der er ikke noget bedre end et personligt præg i forbindelse med arbejdet. Hvis du vil tilpasse din kommunikation, kan du bruge flettefelter (også kaldet skabelonvariabler) til at indsætte kundespecifikke oplysninger i din udsendelse.
+Der er ikke noget bedre end et personligt præg i forbindelse med arbejdet. Hvis du vil tilpasse din kommunikation, kan du bruge fletfelter (også kaldet skabelonvariabler) til at indsætte kundespecifikke oplysninger i din udsendelse.
 
-Flettefelter findes i mange former: det kan være kundens fornavn, firmanavn, hilsen, navnet på den sælger, kunden havde at gøre med osv. Med andre ord er flettefelter dine brugervenlige værktøjer til at tilpasse indholdet til hver enkelt kunde.
+fletfelter findes i mange former: det kan være kundens fornavn, firmanavn, hilsen, navnet på den sælger, kunden havde at gøre med osv. Med andre ord er fletfelter dine brugervenlige værktøjer til at tilpasse indholdet til hver enkelt kunde.
 
-![Tilpas udsendelsen ved at føje flettefelter til tekstfelterne -screenshot][img2]
+![Tilpas udsendelsen ved at føje fletfelter til tekstfelterne -screenshot][img2]
 
 ## Trin
 
@@ -26,11 +26,11 @@ Flettefelter findes i mange former: det kan være kundens fornavn, firmanavn, hi
 
 2. Skriv for eksempel "Kære ".
 
-3. Anbring markøren efter teksten, og klik på  **Flettefelter** på værktøjslinjen.
+3. Anbring markøren efter teksten, og klik på  **fletfelter** på værktøjslinjen.
 
 4. Vælg **Person** og **Fornavn** på den liste, der vises.
 
-    ![Føj flettefelter til din meddelelse -screenshot][img1]
+    ![Føj fletfelter til din meddelelse -screenshot][img1]
 
 5. Fortsæt med at skrive tekst og indsætte de ønskede fletfelter. Du kan finde en liste under [variabelreferencen][2].
 

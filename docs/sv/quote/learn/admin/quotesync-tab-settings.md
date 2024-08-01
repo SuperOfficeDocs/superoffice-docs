@@ -24,7 +24,7 @@ På fliken **Inställningar** i fönstret Offert/Synk kan du anpassa inställnin
 
 * **Standardtext för uppföljning**: Här kan du ange texten som ska visas för eventuell uppföljning som kan skapas för denna offert. Användare har möjlighet att skapa en uppföljning när de skickar en offert.
 
-* [Öppna försäljningstyper][1]: Klicka på denna länk för att gå till listan **Försäljning – Typ, faser, offert**. Varje försäljning i SuperOffice CRM måste ha en försäljningstyp och många av standardegenskaperna för en offert hämtas från försäljningstypen för den tillhörande försäljningen. Det gäller till exempel användningen av alternativ, offertmallen, offertens giltighet och krav på godkännande.
+* [Öppna försäljningstyper][1]: Klicka på denna länk för att gå till listan **Försäljning – Typ, faser, offert**. Varje försäljning i SuperOffice CRM måste ha en försäljningstyp och många av standardegenskaperna för en offert hämtas från försäljningstypen för den tillhörande försäljningen. Det gäller till exempel användningen av alternativ, [offertmallen][3], offertens giltighet och krav på godkännande.
 
 ## Produktdialoginställningar
 
@@ -33,5 +33,6 @@ Visar fälten som används på varje offertrad i offerten. Klicka på fältnamns
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md
 [2]: product/configure.md
+[3]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

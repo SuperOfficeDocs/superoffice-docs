@@ -30,7 +30,7 @@ För att visa detaljer för ett länkat dokument, uppföljning, försäljning el
 
 För att ta bort en länk, klicka på det röda X:et på den raden.
 
-![Fliken för länkar i en uppföljning - skärmbild][img1]
+![Fliken för länkar i en uppföljning -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

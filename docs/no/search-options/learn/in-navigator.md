@@ -13,7 +13,7 @@ language: no
 
 1. Klikk på ordet **Firma**, **Person**, **Salg**, **Prosjekt**, **Sak**, eller **Utvalg** i navigatoren til venstre i vinduet. Et tomt felt vises øverst. Nedenfor dette finnes en [liste over poster du tidligere har jobbet med][1].
 
-    ![Hurtigsøk - skjermbilde][img1]
+    ![Hurtigsøk -screenshot][img1]
 
 2. I boksen skriver du inn navnet på posten du vil søke etter. Mens du skriver, viser listen nedenfor alle samsvarende poster.
 
@@ -31,7 +31,7 @@ Navigatorens hurtigsøk utfører to parallelle søk.
 
 * Du kan søke etter et salg ved å skrive inn navnet på salget eller navnet på et firma som er knyttet til salget, i hurtigsøkfeltet for **Salg** i navigatoren.
 
-    ![Hurtigsøk - skjermbilde][img2]
+    ![Hurtigsøk -screenshot][img2]
 
 * Du kan søke etter en person i hurtigsøkfeltet for **Firma** i navigatoren.
 

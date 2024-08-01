@@ -24,7 +24,7 @@ I fanen **Innstillinger** i Tilbud/Sync-bildet kan du tilpasse innstillingene fo
 
 * **Standardtekst for oppfølging**: Her kan du skrive inn teksten som skal vises for oppfølgingen som eventuelt opprettes for dette tilbudet. Brukerne får mulighet til å opprette en oppfølging når de sender et tilbud.
 
-* [Åpne salgstyper][1]: Klikk på denne koblingen for å gå til listen **Salg - Type, Faser, Tilbud**. Hvert salg i SuperOffice CRM må ha en salgstype, og mange av standardegenskapene til et tilbud hentes fra salgstypen til salget. Det gjelder blant annet bruk av alternativer, tilbudsmal, tilbudets gyldighet og krav til godkjenning.
+* [Åpne salgstyper][1]: Klikk på denne koblingen for å gå til listen **Salg - Type, Faser, Tilbud**. Hvert salg i SuperOffice CRM må ha en salgstype, og mange av standardegenskapene til et tilbud hentes fra salgstypen til salget. Det gjelder blant annet bruk av alternativer, [tilbudsmal][3], tilbudets gyldighet og krav til godkjenning.
 
 ## Innstillinger for dialogboksen Produkt
 
@@ -33,5 +33,6 @@ Her vises feltene som brukes i hver tilbudslinje i tilbudet. Klikk på koblingen
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md
 [2]: product/configure.md
+[3]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->

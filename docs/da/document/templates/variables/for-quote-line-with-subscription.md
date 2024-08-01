@@ -14,8 +14,7 @@ language: en
 
 [!include[Table](../../../../../common/includes/variable/table-quote-line-sub.md)]
 
-<a href="../../../../assets/downloads/quote-templates.pdf" download>Download the guide for quote templates</a> (PDF)
+Se også [fletfelter][1].
 
-The templates for quote documents, quote details and order confirmations differ from ordinary document templates, as they use **mergefields** in addition to standard template variables.
-
-In this guide, you will learn how to create and modify a template and how to work with merge fields.
+<!-- Referenced links -->
+[1]: ../merge-fields/index.md

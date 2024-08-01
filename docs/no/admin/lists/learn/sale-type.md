@@ -80,9 +80,6 @@ Innstillinger for tilbud med denne salgstypen:
 * **Tillat bruk av alternativer i tilbud**: Merk av her hvis brukerne skal kunne legge til flere alternativer i et tilbud.
 * **Antall dager et tilbud er gyldig**: Angi antall dager som tilbudet skal være gyldig. Denne verdien kan endres når tilbudet sendes.
 * **Mal for tilbudsformat**: Merk av for malen du vil bruke for tilbudet.
-
-    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
-
 * **Bekreftelsesdokument**: Merk av for malen du vil bruke for bekreftelsen.
 
 ## Godkjenning
@@ -93,11 +90,16 @@ Her kan du velge om tilbudet må godkjennes hvis totalrabatten er over en viss g
 * **Totalrabatt er over grensen**. Angi en prosentverdi.
 * **Total fortjeneste er under grensen**. Angi en prosentverdi.
 
+## Aktuelt innhold
+
+* [Tilbudsmaler][6]
+
 <!-- Referenced links -->
 [2]: adding-items.md
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
 [1]: ../../../search-options/learn/search-criteria.md
+[6]: ../../../document/templates/learn/quote-templates.md
 
 <!-- Referenced images -->
