@@ -19,7 +19,7 @@ Tællere kan anvendes på følgende felter:
 
 * **Nummer**-felter på skærmbilledet Firma, skærmbilledet Projekt, skærmbilledet Salg og skærmbilledet Person.
 
-* Feltet **Vores ref.** på skærmbilledet Dokument, hvis det er defineret for den relevante skabelon.
+* Feltet **Vores ref.** på dialogboksen Dokument, hvis det er defineret for den relevante skabelon.
 
 * Tællere fra tredjepartsleverandører kan også bruges.
 

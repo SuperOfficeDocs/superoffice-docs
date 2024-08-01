@@ -43,7 +43,7 @@ U kunt uw eigen sjablonen maken om te gebruiken bij het maken van e-mails vanuit
 
 14. Klik in het veld **Intentie** op de pijl ![pictogram][img1] en selecteer een van de vooraf gedefinieerde opties in de keuzelijst. Deze items worden met statuscontroles gebruikt in SuperOffice CRM (SAINT-licentie is vereist).
 
-15. Schakel het vakje **Publiceren** in om een gebruiker toe te staan te selecteren in het Documentscherm dat de desbetreffende documentsjabloon beschikbaar moet worden gesteld aan externe gebruikers.
+15. Schakel het vakje **Publiceren** in om een gebruiker toe te staan te selecteren in het Dialoogvenster Document dat de desbetreffende documentsjabloon beschikbaar moet worden gesteld aan externe gebruikers.
 
 16. Geef met behulp van de sjabloonvariabelen de standaardinstelling op voor het veld **Onze referentie (standaard)**, bijvoorbeeld {auth} voor de voor- en achternaam van de afzender.
 

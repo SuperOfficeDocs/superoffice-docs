@@ -31,7 +31,7 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 
 ## Dokumenteigenschaften in der Anzeige Dokument bearbeiten
 
-Verwenden Sie die Ansicht Dokument, um die Dokumenteigenschaften zu ändern, wie zum Beispiel das Projekt, mit dem das Dokument verknüpft ist:
+Verwenden Sie das Dialogfeld Dokument, um die Dokumenteigenschaften zu ändern, wie zum Beispiel das Projekt, mit dem das Dokument verknüpft ist:
 
 1. [Wählen Sie das gewünschte Dokument aus][2].
 2. Klicken Sie mit der rechten Maustaste und wählen Sie **Dokument**. Wenn Sie auf das Dokument doppelklicken, wird es direkt in dem Programm geöffnet, in dem es erstellt wurde.

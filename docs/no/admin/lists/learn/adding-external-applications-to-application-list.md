@@ -48,7 +48,7 @@ language: no
 
         * **Dialogboksen for oppfølginger**: Applikasjonen vises som et valg under **Oppgave**-knappen i dialogboksen for oppfølginger.
 
-        * **Dokument-bildet**: Applikasjonen vises som et alternativ under **Oppgave**-knappen i den valgte dialogboksen. Det samme alternativet er tilgjengelig for bildene Person, Tilbud og Produkt.
+        * **Dialogboksen Dokument**: Applikasjonen vises som et alternativ under **Oppgave**-knappen i den valgte dialogboksen. Det samme alternativet er tilgjengelig for bildene Person, Tilbud og Produkt.
 
         </details>
 

@@ -48,7 +48,7 @@ language: da
 
         * **Dialogboksen for opfølgninger**: Programmet vises som et valg under knappen **Opgave** i dialogboksen for opfølgninger.
 
-        * **Skærmbilledet Dokument**: Programmet vises som et alternativ under knappen **Opgave** i den valgte dialogboks. Den samme indstilling er tilgængelig for skærmbillederne Person, Tilbud og Produkt.
+        * **Dialogboksen Dokument**: Programmet vises som et alternativ under knappen **Opgave** i den valgte dialogboks. Den samme indstilling er tilgængelig for skærmbillederne Person, Tilbud og Produkt.
 
         </details>
 

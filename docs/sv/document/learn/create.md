@@ -65,10 +65,10 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 6. Stäng ordbehandlingsprogrammet.
 
-7. Gå till fönstret Dokument.
+7. Gå till dialogrutan Dokument.
 
     > [!NOTE]
-    > Om alternativet ![ikon][img1] **Slutfört** är markerat i fönstret Dokument är uppladdningsalternativen inaktiverade. Ta i så fall bort markeringen för **Slutfört**.
+    > Om alternativet ![ikon][img1] **Slutfört** är markerat i dialogrutan Dokument är uppladdningsalternativen inaktiverade. Ta i så fall bort markeringen för **Slutfört**.
 
 8. Klicka på länken för att ladda upp dokumentet eller dra och släpp dokumentet från Utforskaren till dialogrutan **Dokument**.
 

@@ -48,7 +48,7 @@ language: nl
 
         * **Dialoogvenster voor Vervolgactiviteiten**: de toepassing wordt weergegeven als een optie onder de knop **Taak** in het dialoogvenster voor vervolgactiviteiten.
 
-        * **Documentscherm**: de toepassing wordt weergegeven als een optie onder de knop **Taak** in het geselecteerde dialoogvenster. Dezelfde optie is beschikbaar voor de schermen Persoon, Offerte en Product.
+        * **Dialoogvenster Document**: de toepassing wordt weergegeven als een optie onder de knop **Taak** in het geselecteerde dialoogvenster. Dezelfde optie is beschikbaar voor de schermen Persoon, Offerte en Product.
 
         </details>
 

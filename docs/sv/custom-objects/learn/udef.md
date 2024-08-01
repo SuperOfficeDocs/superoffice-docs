@@ -69,7 +69,7 @@ Bland de användardefinierade fälten som visas på fliken **Mer** i SuperOffice
 * Fliken **Kontakt** på kontaktkortet
 * Fliken **Projekt** i fönstret Projekt
 * Fliken **Försäljning** i fönstret Försäljning
-* Fliken **Detaljer** i fönstret Dokument
+* Fliken **Detaljer** i dialogrutan Dokument
 
 > [!NOTE]
 > Sida-1 fält kräver licensen Development Tools och är inte tillgängligt om organisationen använder en annan layout via [Skärmdesignern][8].

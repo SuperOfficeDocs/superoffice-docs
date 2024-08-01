@@ -68,7 +68,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 7. Ga naar het scherm Document.
 
     > [!NOTE]
-    > Als ![pictogram][img1] **Voltooid** is ingeschakeld in het documentscherm, zijn de uploadopties uitgeschakeld. Verwijder in dat geval het vinkje **Voltooid**.
+    > Als ![pictogram][img1] **Voltooid** is ingeschakeld in het dialoogvenster Document, zijn de uploadopties uitgeschakeld. Verwijder in dat geval het vinkje **Voltooid**.
 
 8. Klik op de koppeling om het document te uploaden of gebruik Slepen en neerzetten om het document vanuit Windows Verkenner naar het dialoogvenster **Document** te verplaatsen.
 

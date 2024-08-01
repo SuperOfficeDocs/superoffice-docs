@@ -43,7 +43,7 @@ Du kan lage dine egne maler som du kan bruke når du oppretter e-post fra SuperO
 
 14. I feltet **Hensikt** klikker du på pilen ![ikon][img1] og velger et av de forhåndsdefinerte alternativene fra nedtrekksmenyen. Disse forekomstene brukes i forbindelse med statusovervåking i SuperOffice CRM (krever lisens for SAINT).
 
-15. Merk av i boksen **Publiser** for å la en bruker velge, i Dokument-bildet, at den aktuelle dokumentmalen skal være tilgjengelig for eksterne brukere.
+15. Merk av i boksen **Publiser** for å la en bruker velge, i dialogboksen Dokument, at den aktuelle dokumentmalen skal være tilgjengelig for eksterne brukere.
 
 16. Angi standardoppsett for feltet **Vår ref (standard)** ved hjelp av malvariabler, for eksempel {auth} for avsenderens fornavn og etternavn.
 

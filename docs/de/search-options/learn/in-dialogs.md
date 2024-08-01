@@ -27,7 +27,7 @@ Wenn Sie dem Suchtext ein Prozentzeichen (%) voranstellen, werden alle Datensät
 
 Sie können %% verwenden, um alle Datensätze eines bestimmten Typs anzuzeigen, wie zum Beispiel alle Firmen, alle Selektionen, alle Projekte.
 
-Wenn Sie zum Beispiel alle in SuperOffice CRM verfügbaren Dokumentvorlagen sehen möchten, müssen Sie zum Menü **+Neu** gehen und auf **Dokument** klicken. Geben Sie %% in das obere Feld der Ansicht Dokument ein, das die Typen von Dokumentvorlagen angibt. Sie sehen dann eine Dropdown-Liste, welche die vollständige Liste der verfügbaren Dokumentvorlagen enthält.
+Wenn Sie zum Beispiel alle in SuperOffice CRM verfügbaren Dokumentvorlagen sehen möchten, müssen Sie zum Menü **+Neu** gehen und auf **Dokument** klicken. Geben Sie %% in das obere Feld des Dialogfelds Dokument ein, das die Typen von Dokumentvorlagen angibt. Sie sehen dann eine Dropdown-Liste, welche die vollständige Liste der verfügbaren Dokumentvorlagen enthält.
 
 ![Geben Sie zwei Prozentzeichen in die Schnellsuche ein, um alle Datensätze anzuzeigen -screenshot][img4]
 

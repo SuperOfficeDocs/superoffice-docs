@@ -43,7 +43,7 @@ Du kan skapa egna mallar som du använder när du skapar e-postmeddelanden från
 
 14. Klicka på pilen ![ikon][img1] i fältet **Syfte** och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning i SuperOffice CRM (kräver SAINT-licens).
 
-15. Markera kryssrutan **Publicera** om du vill att en användare ska kunna välja att göra dokumentmallen tillgänglig för externa användare i fönstret Dokument.
+15. Markera kryssrutan **Publicera** om du vill att en användare ska kunna välja att göra dokumentmallen tillgänglig för externa användare i dialogrutan Dokument.
 
 16. Ange standardinställningen för fältet **Vår ref (standard)** med hjälp av mallvariablerna, till exempel {auth} för avsändarens för- och efternamn.
 

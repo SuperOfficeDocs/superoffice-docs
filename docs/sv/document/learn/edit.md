@@ -13,7 +13,7 @@ language: sv
 
 Redigering av dokument innefattar:
 
-* Redigera dokumentegenskaperna i fönstret Dokument.
+* Redigera dokumentegenskaperna i dialogrutan Dokument.
 * Redigera själva dokumentfilen i det program där dokumentet skapades.
 
 Du kan öppna ett dokument i [redigeringsläge eller läsläge][1]. När du öppnar dokumentet i redigeringsläge, är det bara du som kan redigera det. Andra användare kan öppna dokumentet i läsläge.
@@ -29,9 +29,9 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Redigera dokumentegenskaper i fönstret Dokument
+## Redigera dokumentegenskaper i dialogrutan Dokument
 
-Om du vill ändra dokumentegenskaper, till exempel vilket projekt dokumentet är kopplat till, använder du fönstret Dokument:
+Om du vill ändra dokumentegenskaper, till exempel vilket projekt dokumentet är kopplat till, använder du dialogrutan Dokument:
 
 1. [Markera dokumentet][2].
 2. Högerklicka och välj **Dokument**. Om du dubbelklickar på dokumentet öppnas det direkt i det program som dokumentet skapades i.

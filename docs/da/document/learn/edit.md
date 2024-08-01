@@ -13,7 +13,7 @@ language: da
 
 Redigering af dokumenter omfatter to ting:
 
-* Redigering af dokumentets egenskaber, i skærmbilledet Dokument.
+* Redigering af dokumentets egenskaber, i dialogboksen Dokument.
 * Redigering af selve dokumentfilen i det program, som dokumentet er oprettet i.
 
 Du kan åbne et dokument i [redigeringstilstand eller læsetilstand][1]. Når du åbner dokumentet i redigeringstilstand, er det kun dig, der kan redigere det. Andre brugere kan åbne dokumentet i læsetilstand.
@@ -29,9 +29,9 @@ Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Rediger dokumentegenskaber i skærmbilledet Dokument
+## Rediger dokumentegenskaber i dialogboksen Dokument
 
-Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal knyttes til, skal dette gøres via skærmbilledet Dokument:
+Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal knyttes til, skal dette gøres via dialogboksen Dokument:
 
 1. [Marker det ønskede dokument][2].
 2. Højreklik, og vælg **Dokument**. Hvis du dobbeltklikker på dokumentet, åbnes det direkte i det program, det er oprettet i.

@@ -58,7 +58,7 @@ Du skal have særlige rettigheder for at få adgang til dette alternativ. Du ska
 Hvis du eller en anden har tjekket et dokument ud, og du gerne vil redigere dokumentet kan du annullere udtjekningen:
 
 1. Højreklik på dokumentet, og vælg **Dokument**.
-2. På skærmbilledet Dokument skal du klikke på ![ikonet][img1] og vælge **Tilbage til gemt version**.
+2. På dialogboksen Dokument skal du klikke på ![ikonet][img1] og vælge **Tilbage til gemt version**.
 
 <!-- Referenced links -->
 [1]: edit.md

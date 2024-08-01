@@ -13,10 +13,10 @@ language: de
 
 # Standardwerte für neue Dokumentvorlagen
 
-Bei Bedarf können Sie Standardwerte für neue Dokumentvorlagen festlegen. Das bedeutet, dass der Wert im Feld **Unser Zeichen** in der Ansicht Dokument bei jeder Verwendung genau dieser Vorlage um 1 erhöht wird. Wenn Sie das Kontrollkästchen **Automatisch einen neuen Zähler für neue Dokumentvorlagen erstellen** nicht aktivieren, wird derselbe Zähler für alle Dokumentvorlagen verwendet, so dass der Wert im Feld **Unser Zeichen** sich jedes Mal um 1 erhöht, wenn eine der Vorlagen verwendet wird.
+Bei Bedarf können Sie Standardwerte für neue Dokumentvorlagen festlegen. Das bedeutet, dass der Wert im Feld **Unser Zeichen** in dem Dialogfeld Dokument bei jeder Verwendung genau dieser Vorlage um 1 erhöht wird. Wenn Sie das Kontrollkästchen **Automatisch einen neuen Zähler für neue Dokumentvorlagen erstellen** nicht aktivieren, wird derselbe Zähler für alle Dokumentvorlagen verwendet, so dass der Wert im Feld **Unser Zeichen** sich jedes Mal um 1 erhöht, wenn eine der Vorlagen verwendet wird.
 
 > [!NOTE]
-> Ob das Feld **Unser Zeichen** in der Ansicht Dokument als Zähler fungiert, hängt davon ab, ob die {snum} Vorlagenvariabel in der betreffenden Vorlage festgelegt wurde. Dies wird in der Ansicht Listen festgelegt: Klicken Sie auf **Dokumentvorlage**, doppelklicken Sie dann auf die Dokumentvorlage unter **Objekte** und bearbeiten das Feld **Unser Zeichen (Standard)** im Dialogfeld **Listenobjekt bearbeiten**.
+> Ob das Feld **Unser Zeichen** im Dialogfeld Dokument als Zähler fungiert, hängt davon ab, ob die {snum} Vorlagenvariabel in der betreffenden Vorlage festgelegt wurde. Dies wird in der Ansicht Listen festgelegt: Klicken Sie auf **Dokumentvorlage**, doppelklicken Sie dann auf die Dokumentvorlage unter **Objekte** und bearbeiten das Feld **Unser Zeichen (Standard)** im Dialogfeld **Listenobjekt bearbeiten**.
 
 ## Festlegen, dass neue Dokumentvorlagen ihre eigenen Zähler haben
 

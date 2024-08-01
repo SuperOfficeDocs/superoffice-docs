@@ -49,7 +49,7 @@ U kunt een e-mail voorbereiden vanuit zowel het scherm Persoon als het scherm Be
     * **Verzenden:** De e-mail wordt verzonden en staat in het sectietabblad **Activiteiten**.
     * **Verzenden en archiveren:** De e-mail wordt verzonden en opgeslagen als een document.
 
-1. Als u **Verzenden en archiveren** hebt geselecteerd, wordt het [documentscherm][1] geopend wanneer u de e-mail verzendt. Voeg informatie toe in dit dialoogvenster indien nodig.
+1. Als u **Verzenden en archiveren** hebt geselecteerd, wordt het [dialoogvenster Document][1] geopend wanneer u de e-mail verzendt. Voeg informatie toe in dit dialoogvenster indien nodig.
 
 1. Klik op **Maken** in het scherm Document.
 

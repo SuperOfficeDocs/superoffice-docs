@@ -69,7 +69,7 @@ Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in Sup
 * Auf der Registerkarte **Person** auf der Personenkarte
 * Die Registerkarte **Projekt** in der Ansicht Projekt
 * Die Registerkarte **Verkauf** in der Ansicht Verkauf
-* Die Registerkarte **Details** in der Ansicht Dokument
+* Die Registerkarte **Details** in dem Dialogfeld Dokument
 
 > [!NOTE]
 > Seite-1-Feld erfordert die Lizenz für Development Tools und ist nicht verfügbar, wenn Ihre Organisation ein anderes Layout über [Ansichtsdesigner][8] verwendet.

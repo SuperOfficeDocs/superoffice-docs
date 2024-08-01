@@ -84,7 +84,7 @@ Angiv følgende information på fanen **Detaljer**:
     > [!TIP]
     > Du kan oprette nye indstillinger, ud over de foruddefinerede indstillinger, ved at tilføje forekomster på listen **Opfølgning - Hensigt** i Indstillinger og vedligeholdelse.
 
-5. Onsite: Marker alternativet **Udgiv**, hvis det skal være muligt at angive i skærmbilledet Dokument, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
+5. Onsite: Marker alternativet **Udgiv**, hvis det skal være muligt at angive i dialogboksen Dokument, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
 
 6. Onsite: Marker indstillingen **Gem i database** for at angive, at dokumenter, du opretter med denne skabelon, skal gemmes i dokumentdatabasen. Hvis du markerer denne indstilling, vises dokumentet på detaljekortet **Aktiviteter**. Hvis du ikke markerer denne indstilling, vises dokumentet ikke i SuperOffice, efter at du har oprettet det, og du får ikke adgang til det via programmet.
 

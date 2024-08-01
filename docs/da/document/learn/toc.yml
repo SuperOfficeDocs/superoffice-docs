@@ -1,7 +1,7 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skærmbilledet Dokument
+- name: Dialogboksen Dokument
   href: screen/index.md
 - name: Arbejd med dokument
   topicHref: create.md

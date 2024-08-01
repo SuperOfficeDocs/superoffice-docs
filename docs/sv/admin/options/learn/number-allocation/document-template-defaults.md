@@ -13,10 +13,10 @@ language: sv
 
 # Standardvärden för nya dokumentmallar
 
-Du kan ange standardvärden för nya dokumentmallar om det behövs. Det innebär att värdet i fältet **Vår ref.** i fönstret Dokument ökar med 1 varje gång den här mallen används. Om du inte markerar **Skapa nya räknare automatiskt för nya dokumentmallar** används samma räknare för alla dokumentmallar så att värdet i fältet **Vår ref.** ökar med 1 varje gång en mall används.
+Du kan ange standardvärden för nya dokumentmallar om det behövs. Det innebär att värdet i fältet **Vår ref.** i dialogrutan Dokument ökar med 1 varje gång den här mallen används. Om du inte markerar **Skapa nya räknare automatiskt för nya dokumentmallar** används samma räknare för alla dokumentmallar så att värdet i fältet **Vår ref.** ökar med 1 varje gång en mall används.
 
 > [!NOTE]
-> Huruvida fältet **Vår ref.** i fönstret Dokument fungerar som räknarfält beror på om mallvariabeln {snum} har definierats för den aktuella mallen. Detta definieras i fönstret Listor: Klicka på **Dokumentmall**. Dubbelklicka sedan på dokumentmallen under **Poster** och redigera fältet **Vår ref (standard)** i dialogrutan **Redigera post**.
+> Huruvida fältet **Vår ref.** i dialogrutan Dokument fungerar som räknarfält beror på om mallvariabeln {snum} har definierats för den aktuella mallen. Detta definieras i fönstret Listor: Klicka på **Dokumentmall**. Dubbelklicka sedan på dokumentmallen under **Poster** och redigera fältet **Vår ref (standard)** i dialogrutan **Redigera post**.
 
 ## Ange att nya dokumentmallar ska ha egna räknare
 

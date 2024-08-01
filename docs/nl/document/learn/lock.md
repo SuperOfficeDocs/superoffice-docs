@@ -58,7 +58,7 @@ U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt 
 Als u of iemand anders een document heeft uitgecheckt en u het document wilt bewerken, kunt u het afmelden annuleren:
 
 1. Klik met de rechtermuisknop op het document en selecteer **Document**.
-2. Klik in het documentscherm op ![pictogram][img1] en selecteer **Opgeslagen versie gebruiken**.
+2. Klik in het dialoogvenster Document op ![pictogram][img1] en selecteer **Opgeslagen versie gebruiken**.
 
 <!-- Referenced links -->
 [1]: edit.md

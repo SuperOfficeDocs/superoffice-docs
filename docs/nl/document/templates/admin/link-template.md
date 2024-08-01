@@ -84,7 +84,7 @@ Geef de volgende informatie op op het tabblad **Details**:
     > [!TIP]
     > U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
 
-5. Lokaal: Schakel de optie **Publiceren** in als u in het Documentscherm wilt kunnen opgeven dat de desbetreffende documentsjabloon beschikbaar moet zijn voor externe gebruikers.
+5. Lokaal: Schakel de optie **Publiceren** in als u in het Dialoogvenster Document wilt kunnen opgeven dat de desbetreffende documentsjabloon beschikbaar moet zijn voor externe gebruikers.
 
 6. Lokaal: Schakel de optie **Opslaan in database** in om op te geven of documenten die u maakt met deze sjabloon, worden opgeslagen in de documentdatabase. Als u deze optie hebt ingeschakeld, wordt het document weergegeven op het sectietabblad **Activiteiten**. Zo niet, wordt het document niet weergegeven in SuperOffice CRM nadat u het hebt gemaakt en kan het niet via het programma worden geopend.
 

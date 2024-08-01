@@ -13,10 +13,10 @@ language: da
 
 # Standardværdier for nye dokumentskabeloner
 
-Du kan angive standardværdier for nye dokumentskabeloner, hvis det er nødvendigt. Det betyder, at værdien i feltet **Vores ref.** på skærmbilledet Dokument øges med 1, hver gang netop denne skabelon bruges. Hvis du ikke markerer **Opret nye tællere automatisk for nye dokumentskabeloner**, bruges den samme tæller til alle dokumentskabeloner, så værdien i feltet **Vores ref.** øges med 1, hver gang en skabelon bruges.
+Du kan angive standardværdier for nye dokumentskabeloner, hvis det er nødvendigt. Det betyder, at værdien i feltet **Vores ref.** på dialogboksen Dokument øges med 1, hver gang netop denne skabelon bruges. Hvis du ikke markerer **Opret nye tællere automatisk for nye dokumentskabeloner**, bruges den samme tæller til alle dokumentskabeloner, så værdien i feltet **Vores ref.** øges med 1, hver gang en skabelon bruges.
 
 > [!NOTE]
-> Hvorvidt feltet **Vores ref.** på skærmbilledet Dokument fungerer som et tællerfelt, afhænger af, om {snum}skabelonvariablen er angivet for den pågældende skabelon. Dette defineres på skærmbilledet Lister: Klik på **Dokumentskabelon**, dobbeltklik derefter på dokumentskabelonen under **Forekomster**, og rediger feltet **Vores ref. (standard)** i dialogboksen **Rediger forekomst**.
+> Hvorvidt feltet **Vores ref.** på dialogboksen Dokument fungerer som et tællerfelt, afhænger af, om {snum}skabelonvariablen er angivet for den pågældende skabelon. Dette defineres på skærmbilledet Lister: Klik på **Dokumentskabelon**, dobbeltklik derefter på dokumentskabelonen under **Forekomster**, og rediger feltet **Vores ref. (standard)** i dialogboksen **Rediger forekomst**.
 
 ## Angivelse af, at nye dokumentskabeloner skal have deres egen tæller
 

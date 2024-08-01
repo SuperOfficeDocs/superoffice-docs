@@ -43,7 +43,7 @@ Du kan oprette dine egne skabeloner til oprettelse af e-mails i SuperOffice CRM.
 
 14. I feltet **Hensigt** klikker du på pilen ![icon][img1], hvorefter du vælger en af de foruddefinerede indstillinger på rullelisten. Disse forekomster bruges i forbindelse med statusovervågning i SuperOffice CRM (kræver SAINT-licens).
 
-15. Marker feltet **Udgiv** for i skærmbilledet Dokument at lade en bruger vælge, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
+15. Marker feltet **Udgiv** i dialogboksen Dokument for at lade en bruger vælge, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
 
 16. Angiv standardindstillingen for feltet **Vores reference (standard)** ved at anvende skabelonvariabler, eksempelvis {auth}{auth} for afsenderens for- og efternavne.
 

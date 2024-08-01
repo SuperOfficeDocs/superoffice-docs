@@ -19,7 +19,7 @@ Räknare kan tillämpas på följande fält:
 
 * **Nummer**-fälten i fönstren Företag, Projekt, Försäljning och Kontakt.
 
-* Fältet **Vår ref.** i fönstret Dokument om det har definierats för den aktuella mallen.
+* Fältet **Vår ref.** i dialogrutan Dokument om det har definierats för den aktuella mallen.
 
 * Räknare från tredjepartsleverantörer kan också användas.
 

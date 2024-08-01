@@ -65,10 +65,10 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 6. Luk tekstbehandlingsprogrammet.
 
-7. Gå til skærmbilledet Dokument.
+7. Gå til dialogboksen Dokument.
 
     > [!NOTE]
-    > Hvis ![ikon][img1] **Udført** er markeret på skærmbilledet Dokument, er indstillingerne for upload deaktiveret. Fjern i så fald markeringen **Udført**.
+    > Hvis ![ikon][img1] **Udført** er markeret på dialogboksen Dokument, er indstillingerne for upload deaktiveret. Fjern i så fald markeringen **Udført**.
 
 8. Klik på linket for at uploade dokumentet eller trække og slippe dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 

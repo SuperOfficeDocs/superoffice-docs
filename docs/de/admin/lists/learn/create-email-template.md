@@ -43,7 +43,7 @@ Sie können Ihre eigenen Vorlagen erstellen, die Sie beim Erstellen von E-Mails 
 
 14. Klicken Sie im Feld **Zweck** auf den ![Symbol][img1] Pfeil und wählen Sie eine der voreingestellten Optionen vom Dropdown-Menü aus. Diese Objekte gehören zur Statuskontrollfunktion von SuperOffice CRM, für die eine SAINT-Lizenz erforderlich ist.
 
-15. Aktivieren Sie das Feld **Veröffentlichen**, damit ein Benutzer in der Ansicht Dokument auswählen kann, ob die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
+15. Aktivieren Sie das Feld **Veröffentlichen**, damit ein Benutzer in dem Dialogfeld Dokument auswählen kann, ob die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
 
 16. Geben Sie eine Standardeinstellung in das Feld **Unser Zeichen (Standard)** ein, indem Sie Vorlagenvariablen verwenden, zum Beispiel {auth} für den Vor- und Nachnamen des Absenders.
 

@@ -29,7 +29,7 @@ Opties in het deelvenster **Archiefopties** van het dialoogvenster **SuperOffice
 
 * U kunt een vervolgactiviteit als e-mail verzenden door te klikken op **Taak** > **Verzenden als e-mail** in het dialoogvenster **Vervolgactiviteit**. Er wordt dan een nieuw e-mailvenster met de vervolgactiviteit geopend in uw e-mailclient.
 
-* U kunt een document als e-mail verzenden door er met de rechtermuisknop op te klikken op het sectietabblad **Activiteiten** in SuperOffice CRM en **Verzenden als e-mail** te selecteren of door te klikken op **Taak** > **Verzenden als e-mail** in het documentscherm. Er wordt dan een nieuw e-mailvenster met het document geopend in uw e-mailclient.
+* U kunt een document als e-mail verzenden door er met de rechtermuisknop op te klikken op het sectietabblad **Activiteiten** in SuperOffice CRM en **Verzenden als e-mail** te selecteren of door te klikken op **Taak** > **Verzenden als e-mail** in het dialoogvenster Document. Er wordt dan een nieuw e-mailvenster met het document geopend in uw e-mailclient.
 
 <!-- Referenced links -->
 [2]: ../index.md

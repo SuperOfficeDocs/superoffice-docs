@@ -13,7 +13,7 @@ language: nl
 
 Het bewerken van documenten omvat twee zaken:
 
-* Bewerken van de documenteigenschappen in het documentscherm.
+* Bewerken van de documenteigenschappen in het dialoogvenster Document.
 * Bewerken van het documentbestand zelf in de toepassing waarin het document is gemaakt.
 
 U kunt een document openen in [bewerkingsmodus of in leesmodus][1]. Wanneer u een document opent in de bewerkingsmodus, kunt u alleen zelf het document bewerken. Andere gebruikers kunnen het document in leesmodus openen.
