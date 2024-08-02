@@ -31,7 +31,7 @@ Denne integration giver dig mulighed for at gemme alle dokumenter og e-mails i S
 ### Kom godt i gang
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/8mIo3Yac2QI]?t=672
+> [!Video https://www.youtube.com/embed/8mIo3Yac2QI?t=672]
 
 <!-- markdownlint-disable-next-line MD028 -->
 > [!NOTE]
@@ -51,4 +51,4 @@ Denne integration giver dig mulighed for at gemme alle dokumenter og e-mails i S
 [5]: ../../../../en/document/cloud/sharepoint-documents/configure-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary.png
+[img1]: ../../../../media/loc/en/document/admin-preferences-documentlibrary.png

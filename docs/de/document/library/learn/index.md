@@ -31,7 +31,7 @@ Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Onli
 ### Erste Schritte
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/8mIo3Yac2QI]?t=672
+> [!Video https://www.youtube.com/embed/8mIo3Yac2QI?t=672]
 
 <!-- markdownlint-disable-next-line MD028 -->
 > [!NOTE]
@@ -51,4 +51,4 @@ Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Onli
 [5]: ../../../../en/document/cloud/sharepoint-documents/configure-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary.png
+[img1]: ../../../../media/loc/en/document/admin-preferences-documentlibrary.png
