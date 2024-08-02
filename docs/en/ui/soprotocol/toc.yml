@@ -23,6 +23,8 @@ items:
     href: open-appointment-dialog.md
   - name: Requests
     href: requests.md
+  - name: Create/show custom object
+    href: custom-object.md
 - name: In CRMScript
   href: in-crmscript.md
 - name: In web panels
