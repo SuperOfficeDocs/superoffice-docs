@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dialogboksen Dokument
   href: screen/index.md
+- name: Dokumentbibliotek
+  href: ../library/learn/index.md
 - name: Arbejd med dokument
   topicHref: create.md
   items:
@@ -28,6 +30,8 @@ items:
     - name: Reference
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Fejlfinding
+      href: ../templates/learn/troubleshooting.md
   - name: Fletfelter (tilbudsskabeloner)
     href: ../templates/learn/quote-templates.md
     items:
@@ -36,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Fejlfinding
-    href: ../templates/learn/troubleshooting.md
   - name: Opret dokumentskabelon
     href: ../templates/learn/create.md
   - name: Tilføj skabelon
@@ -46,6 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentskabeloner på flere sprog
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-  - name: SharePoint-dokumentbibliotek
-    href: ../library/learn/index.md

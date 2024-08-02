@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dokumentenansicht
   href: screen/index.md
+- name: Dokumentbibliothek
+  href: ../library/learn/index.md
 - name: Mit Dokument arbeiten
   topicHref: create.md
   items:
@@ -28,6 +30,8 @@ items:
     - name: Referenz
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Fehlerbehebung
+      href: ../templates/learn/troubleshooting.md
   - name: Merge fields (Angebotsvorlagen)
     href: ../templates/learn/quote-templates.md
     items:
@@ -36,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Fehlerbehebung
-    href: ../templates/learn/troubleshooting.md
   - name: Eine Dokumentvorlage erstellen
     href: ../templates/learn/create.md
   - name: Vorlage hinzufügen
@@ -46,6 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentvorlagen in mehreren Sprachen
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-  - name: SharePoint-Dokumentbibliothek
-    href: ../library/learn/index.md

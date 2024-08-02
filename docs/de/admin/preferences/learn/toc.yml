@@ -6,7 +6,7 @@ items:
 
 - name: Globale Einstellungen
   href: global-preferences/toc.yml
-  topicHref: global-preferences//system.md
+  topicHref: global-preferences/system.md
 
 - name: Videokonferenzen
   topicHref: video-meetings/index.md
@@ -18,5 +18,3 @@ items:
   - name: E-Mail-Setup für Videokonferenzen
     href: video-meetings/email-setup-in-superoffice.md
 
-- name: Dokumentbibliothek
-  topicHref: ../../../document/library/learn/index.md

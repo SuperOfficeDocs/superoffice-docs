@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Document dialog
   href: screen/index.md
+- name: Document library
+  href: ../library/learn/index.md
 - name: Work with documents
   topicHref: create.md
   items:
@@ -28,6 +30,8 @@ items:
     - name: Reference
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Troubleshooting
+      href: ../templates/learn/troubleshooting.md
   - name: Merge fields (quote templates)
     href: ../templates/learn/quote-templates.md
     items:
@@ -36,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Troubleshooting
-    href: ../templates/learn/troubleshooting.md
   - name: Create document template
     href: ../templates/learn/create.md
   - name: Link template
@@ -46,6 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Document templates in multiple languages
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-- name: Document library
-  href: ../library/learn/index.md
