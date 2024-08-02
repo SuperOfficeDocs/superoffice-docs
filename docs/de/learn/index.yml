@@ -122,18 +122,6 @@ conceptualContent:
         itemType: explore
         typeDesc: concept
         url: ../ui/screen-designer/learn/edit-layout-archives.md
-      - text: Verkaufsziele
-        itemType: explore
-        typeDesc: concept
-        url: ../sale/learn/sales-targets/index.md
-      - text: SharePoint-Dokumentbibliothek
-        itemType: list
-        typeDesc: how-to-guide 
-        url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
-      - text: Marketing-Dashboard
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../dashboard/learn/show-marketing.md
 
     # Card
     - title: Suchoptionen

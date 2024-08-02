@@ -84,7 +84,7 @@ Angi følgende informasjon i fanen **Detaljer**:
     > [!TIP]
     > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å legge til forekomster på listen **Oppfølging - Hensikt** i Innstillinger og vedlikehold.
 
-5. Onsite: Merk av for alternativet **Publiser** på Dokument-bildet hvis du vil at det skal være mulig å angi at den aktuelle dokumentmalen skal gjøres tilgjengelig for eksterne brukere.
+5. Onsite: Merk av for alternativet **Publiser** på dialogboksen Dokument hvis du vil at det skal være mulig å angi at den aktuelle dokumentmalen skal gjøres tilgjengelig for eksterne brukere.
 
 6. Onsite: Merk av for valget **Lagre i database** for å angi at dokumenter du oppretter ved hjelp av denne malen, skal lagres i dokumentdatabasen. Hvis du merket av for dette alternativet, vises dokumentet på detaljkortet **Aktiviteter**. Hvis du ikke merker av for dette alternativet, vises ikke dokumentet i SuperOffice etter at du har opprettet det, og du får ikke tilgang til det via programmet.
 

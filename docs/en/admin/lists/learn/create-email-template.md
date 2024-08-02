@@ -43,7 +43,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 14. In the **Intention** field, click the arrow ![icon][img1] and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
 
-15. Check the **Publish** box to allow a user to select, in the Document screen, that the document template in question should be made available to external users.
+15. Check the **Publish** box to allow a user to select, in the Document dialog, that the document template in question should be made available to external users.
 
 16. Specify the default setting for the **Our reference (default)** field using template variables, for example {auth} for the sender's first and last names.
 

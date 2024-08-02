@@ -6,7 +6,7 @@ items:
 
 - name: Algemene voorkeuren
   href: global-preferences/toc.yml
-  topicHref: global-preferences//system.md
+  topicHref: global-preferences/system.md
 
 - name: Videovergaderingen
   topicHref: video-meetings/index.md
@@ -17,11 +17,3 @@ items:
     href: video-meetings/configure-video-meetings.md
   - name: E-mailinstellingen voor videovergaderingen
     href: video-meetings/email-setup-in-superoffice.md
-
-- name: Documentbibliotheek
-  topicHref: document-library/index.md
-  items:
-  - name: Overzicht
-    href: document-library/index.md
-  - name: SharePoint-documentbibliotheek configureren
-    href: document-library/change-to-sharepoint.md

@@ -19,7 +19,7 @@ Counters can apply to the following fields:
 
 * **Number** fields in the Company screen, the Project screen, the Sale screen, and the Contact screen.
 
-* The **Our Ref.** field in the Document screen if it is defined for the relevant template.
+* The **Our Ref.** field in the **Document** dialog if it is defined for the relevant template.
 
 * Counters from third party suppliers can also be used.
 

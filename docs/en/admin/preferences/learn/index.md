@@ -120,7 +120,7 @@ You can sort the rows in the columns by clicking on the required column heading.
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
-[9]: document-library/index.md
+[9]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-preferences-active.png

@@ -69,7 +69,7 @@ Blant de brukerdefinerte feltene som vises i **Mer**-fanene i SuperOffice CRM, k
 * Fanen **Person** på personkortet
 * Fanen **Prosjekt** i Prosjekt-bildet
 * Fanen **Salg** i Salg-bildet
-* Fanen **Detaljer** i Dokument-bildet
+* Fanen **Detaljer** i dialogboksen Dokument
 
 > [!NOTE]
 > Side-1 felt krever lisensen Development Tools, og er ikke tilgjengelig hvis organisasjonen bruker en annen layout via [Skjermdesigneren][8].

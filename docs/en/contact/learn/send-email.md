@@ -49,9 +49,9 @@ You can prepare an email from both the Contact screen and the Company screen. Th
     * **Send:** The email is sent and available in the **Activities** section tab.
     * **Send and archive:** The email is sent and saved as a document.
 
-1. If you selected **Send and archive**, the [Document screen][1] opens when you send the email. Add information in this dialog as necessary.
+1. If you selected **Send and archive**, the [Document dialog][1] opens when you send the email. Add information in this dialog as necessary.
 
-1. Click **Create** in the Document screen.
+1. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md

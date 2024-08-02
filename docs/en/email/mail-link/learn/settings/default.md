@@ -29,7 +29,7 @@ Options in the **Archive options** pane of the **SuperOffice CRM options** dialo
 
 * You can send a follow-up as an email by clicking **Task** > **Send as email** in the **Follow-up** dialog. A new email window containing the follow-up will then open in your mail client.
 
-* You can send a document as an email by right-clicking it in the **Activities** section tab in SuperOffice CRM and selecting **Send as email** or by clicking **Task** > **Send as email** in the Document screen. A new email window containing the document will then open in your mail client.
+* You can send a document as an email by right-clicking it in the **Activities** section tab in SuperOffice CRM and selecting **Send as email** or by clicking **Task** > **Send as email** in the **Document** dialog. A new email window containing the document will then open in your mail client.
 
 <!-- Referenced links -->
 [2]: ../index.md

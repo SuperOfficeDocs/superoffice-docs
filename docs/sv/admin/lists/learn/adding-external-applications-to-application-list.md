@@ -48,7 +48,7 @@ language: sv
 
         * **Dialogrutan för händelser**: Applikationen visas som ett alternativ under **Uppgift**-knappen i dialogrutan för händelser.
 
-        * **Fönstret Dokument**: Applikationen visas som ett alternativ under knappen **Uppgift** i den valda dialogrutan. Samma alternativ är tillgängligt för skärmbilderna Kontakt, Offert och Produkt.
+        * **Dialogrutan Dokument**: Applikationen visas som ett alternativ under knappen **Uppgift** i den valda dialogrutan. Samma alternativ är tillgängligt för skärmbilderna Kontakt, Offert och Produkt.
 
         </details>
 

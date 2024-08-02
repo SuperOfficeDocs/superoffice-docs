@@ -81,14 +81,7 @@ Klicka i fältet **Synlig för** för att visa en lista där du kan välja om do
 
 ### Utcheckat för redigering
 
-Om dokumentet har checkats ut för redigering visas en av följande ikoner:
-
-![ikon][img2] Dokumentet är för tillfället utcheckat för redigering av dig.
-
-![ikon][img3] Dokumentet är för tillfället utcheckat för redigering av en annan användare.
-
-> [!TIP]
-> Håll muspekaren över en ikon för att visa information om användaren som har checkat ut dokumentet.
+Se [Checka in/ut dokument][4].
 
 ### Slutförd
 
@@ -152,7 +145,5 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png

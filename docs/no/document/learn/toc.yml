@@ -1,25 +1,21 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Dokumentbilde
+- name: Dialogboksen Dokument
   href: screen/index.md
+- name: Dokumentbibliotek
+  href: ../library/learn/index.md
 - name: Arbeide med dokument
   topicHref: create.md
   items:
   - name: Opprett nytt dokument
     href: create.md
-  - name: Laste opp dokument
-    href: upload.md
-  - name: Åpne dokument
-    href: open.md
   - name: Sjekke inn/ut dokument
     href: lock.md
-  - name: Redigere dokument
+  - name: Redigere eller slette dokument
     href: edit.md
   - name: Sende dokument som e-post
     href: send-as-email.md
-  - name: Slette dokumenter
-    href: delete.md
 
 - name: Dokumentmaler
   topicHref: ../templates/learn/index.md
@@ -34,6 +30,8 @@ items:
     - name: Referanse
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Feilsøking
+      href: ../templates/learn/troubleshooting.md
   - name: Flettefelt (tilbudsmaler)
     href: ../templates/learn/quote-templates.md
     items:
@@ -42,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Feilsøking
-    href: ../templates/learn/troubleshooting.md
   - name: Opprette dokumentmal
     href: ../templates/learn/create.md
   - name: Legg til mal
@@ -52,9 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentmaler på flere språk
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-  - name: Integrering av SharePoint-dokumentbibliotek
-    href: ../cloud/sharepoint-documents/learn/index.md
-    items:
-    - name: Konfigurere SharePoint-mappene
-      href: ../cloud/sharepoint-documents/learn/set-up-folders.md

@@ -1,16 +1,7 @@
 ---
-uid: help-en-document-delete
-title: Deleting documents
-description: Deleting documents
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: document
-topic: howto
+uid: help-en-document-delete-redirect
+author: Bergfrid Dias
+date: 07.19.2024
 language: en
+redirect_url: https://docs.superoffice.com/en/document/learn/edit.html
 ---
-
-# Delete documents
-
-1. Select the required document on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens.
-2. Click the **Delete** button at the lower left of the list.
-3. In the **Delete Document** dialog, confirm or cancel the deletion.

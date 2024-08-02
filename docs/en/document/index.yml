@@ -1,258 +1,232 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
 title: Document
 summary: Welcome to the document area where you can find relevant links to all things related to documents.
-brand: devdocs
 
 metadata:
   title: Document
-  description: ""
-  so.product: cloud documents
-  so.topic: hub-page
-  so.collection: collection
+  description: "Documents, document integrations, and document handling"
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.29.2021
+  so.date: 08.02.2024
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: "Web Tools"
-      itemType: map
-      typeDesc: overview
-      url: ../webtools/index.md
-    # Card
-    - title: "Cloud integrations"
-      itemType: map
-      typeDesc: overview
-      url: cloud/overview.md
-    # Card
-    - title: "SharePoint documents"
-      itemType: explore
-      typeDesc: concept
-      url: cloud/sharepoint-documents/index.md
-    # Card
-    - title: "Google Workspace"
-      itemType: explore
-      typeDesc: concept
-      url: cloud/g-suite/index.md
-    # Card
-    - title: "Microsoft 365 (legacy)"
-      itemType: explore
-      typeDesc: concept
-      url: cloud/legacy/office-365/index.md
-    # Card
-    - title: "Template variable reference"
-      itemType: library_books
-      typeDesc: reference
-      url: templates/variables/index.md
-    # Card
-    - title: "Document table"
-      itemType: library_books
-      typeDesc: reference
-      url: ../database/tables/document.md
 
-# conceptualContent section (optional)
-conceptualContent:
-# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
-# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-# Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: Create a document
-        itemType: school
-        typeDesc: learn
-        url: learn/create.md
-      - text: Create a follow-up
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../diary/learn/create-follow-up.md
+# PLEASE PAY ATTENTION TO INDENTATION
 
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: Getting started with SharePoint for documents storage
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=9QHJKkqDlzY
-      - text: Create a document and link it to your project
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
-      - text: Document management
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=IUhlGOwXp0o
-      - text: Edit document template
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=FnhcmjP-TgE
-      - text: Add document template
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=XcTN1wZPJGY
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preferences
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/index.md
-
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: map
-        typeDesc: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol - open dialog
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../ui/soprotocol/open-appointment-dialog.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: map
-        typeDesc: overview
-        url: ../custom-objects/overview.md
-      - text: UddocSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/uddocsmall.md
-      - text: UddocLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/uddoclarge.md
-
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: map
-        typeDesc: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: explore
+landingContent:
+  # Card 1
+  - title: Introduction
+    linkLists:
+      - itemType: explore
         typeDesc: concept
-        url: ../automation/trigger/index.md
-      - text: Zapier
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/zapier/index.md
+        links:
+        - text: Introduction to documents
+          url: learn/index.md
+        - text: Document library
+          url: library/learn/index.md
+        - text: Cloud integrations
+          url: cloud/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Connect email, documents and diary
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: "Web Tools"
+          url: ../webtools/index.md
+        - text: How to create a document
+          url: learn/create.md
+        - text: Edit or delete documents
+          url: learn/edit.md
+        - text: Check in/out documents
+          url: learn/lock.md
+        - text: Send email attachments from SuperOffice
+          url: learn/send-as-email.md
+        - text: Save email attachment to SuperOffice
+          url: ../email/mail-link/learn/archive.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Guided tour
+          url: https://www.youtube.com/watch?v=IUhlGOwXp0o
+        - text: Create a document and link it to your project
+          url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
 
-    # Card
-    - title: API options
-      summary: ""
-      links:
-      - text: CRMScript
-        itemType: explore
+  - title: SharePoint documents
+    linkLists:
+      - itemType: explore
         typeDesc: concept
-        url: ../automation/crmscript/howto/document/index.md
-      - text: REST
-        itemType: list
+        links:
+        - text: Overview
+          url: cloud/sharepoint-documents/index.md
+        - text: Requirements
+          url: cloud/sharepoint-documents/requirements.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../api/web-services/howto/document/rest-generate-document.md
-      - text: Services
-        itemType: list
+        links:
+        - text: Set up SharePoint
+          url: cloud/sharepoint-documents/set-up.md
+        - text: Set up SuperOffice
+          url: cloud/sharepoint-documents/configure-superoffice.md
+        - text: Troubleshooting
+          url: cloud/sharepoint-documents/troubleshooting.md
+        - text: Migration
+          url: cloud/sharepoint-documents/migrate/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Getting started with SharePoint for documents storage
+          url: https://www.youtube.com/watch?v=9QHJKkqDlzY 
+
+  - title: Google Workspace
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: cloud/g-suite/index.md
+        - text: Requirements
+          url: cloud/g-suite/requirements.md
+        - text: Security
+          url: cloud/g-suite/security.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../api/web-services/howto/document/services-create.md
-      - text: SO_Arc document plugin
-        itemType: list
+        links:
+        - text: Quick start
+          url: cloud/g-suite/getting-started.md
+        - text: Set up
+          url: cloud/g-suite/set-up.md
+
+  - title: Document templates
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: templates/learn/index.md
+        - text: Document types
+          url: templates/learn/document-types.md
+        - text: About template variables
+          url: templates/learn/template-variables.md
+        - text: Quote templates and merge fields
+          url: templates/learn/quote-templates.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../api/plugins/document/soarc-document-plugin.md
-
-    # Card
-    - title: Database options
-      summary: ""
-      links:
-      - text: Document table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/document.md
-      - text: SuggestedDocument table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/suggesteddocument.md
-      - text: DocTmpl table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/doctmpl.md
-      - text: Associate table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/associate.md
-      - text: Quote table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/quote.md
-      - text: Appointment table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/appointment.md
-      - text: UddocSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/uddocsmall.md
-      - text: UddocLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/uddoclarge.md
-
-# Card with summary style
-additionalContent:
-  # Supports up to 3 sections
-  sections: 
-    - title: "" # < 60 chars (optional)
-      summary: "" # < 160 chars (optional)
-      items:
-      # Card
-      - title: Document templates
         links:
-        - url: templates/learn/index.md
-          text: Intro
-        - url: templates/quote/index.md
-          text: Quote documents
-        - url: templates/learn/troubleshooting.md
-          text: Troubleshooting
-
-      # Card
-      - title: ODF
+        - text: Create document template
+          url: templates/learn/create.md
+        - text: Link template (in Settings and maintenance)
+          url: templates/admin/link-template.md
+        - text: Document templates in multiple languages
+          url: ../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+      - itemType: video_library
+        typeDesc: video
         links:
-        - url: odf.md
-          text: Intro
-
-      # Card
-      - title: Reports
+        - text: Edit document template
+          url: https://www.youtube.com/watch?v=FnhcmjP-TgE
+        - text: Add document template
+          url: https://www.youtube.com/watch?v=XcTN1wZPJGY
+      - itemType: library_books
+        typeDesc: reference
         links:
-        - url: ../service/reports/parameters.md
-          text: Parameters
+        - text: Template variable reference
+          url: templates/variables/index.md
+        - text: Merge field reference
+          url: templates/merge-fields/index.md
 
-      # Card
-      - title: Ribbons
+  - title: UI customization
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
         links:
-        - url: ribbons/index.md
-          text: Intro
-        - url: ribbons/enable-debug.md
-          text: Enable debug
-        - url: ribbons/troubleshooting.md
-          text: Troubleshooting
+        - text: Screen Designer
+          url: ../ui/screen-designer/learn/index.md
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+        - text: SoProtocol
+          url: ../ui/soprotocol/index.md
+        - text: Custom screens (bLogic)
+          url: ../ui/blogic/custom-screens/index.md
+        - text: Task menu items
+          url: ../admin/lists/learn/add-items-to-task-menu.md
+        - text: Extra fields
+          url: ../custom-objects/admin/create-extra-field.md
 
-  # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](../../../../contribution/index.yml)."
+  - title: Automation
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../automation/index.yml
+        - text: Triggers
+          url: ../automation/trigger/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Webhooks - project events
+          url: ../automation/webhook/reference/project-events.md
+        - text: Webhooks - project member events
+          url: ../automation/webhook/reference/project-member-events.md
+        - text: Zapier
+          url: ../automation/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../automation/crmscript/howto/document/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Document properties
+          url: ../automation/crmscript/howto/document/properties.md
+        - text: Document files
+          url: ../automation/crmscript/howto/document/file.md
+        - text: Document templates
+          url: ../automation/crmscript/howto/document/templates.md
+
+  - title: API
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: REST
+          url: ../api/web-services/howto/document/rest-generate-document.md
+        - text: Services
+          url: ../api/web-services/howto/document/services-create.md
+        - text: SO_Arc document plugin
+          url: ../api/plugins/document/soarc-document-plugin.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: REST
+          url: ../api/reference/restful/rest/Document/index.md
+        - text: SOAP (services88)
+          url: ../api/reference/soap/Services88/Document/index.md
+
+  - title: Database tables
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Document
+          url: ../database/tables/document.md
+        - text: SuggestedDocument
+          url: ../database/tables/suggesteddocument.md
+        - text: DocTmpl
+          url: ../database/tables/doctmpl.md
+        - text: Quote table
+          url: ../database/tables/quote.md
+        - text: Associate
+          url: ../database/tables/associate.md
+        - text: Appointment
+          url: ../database/tables/appointment.md
+        - text: UddocSmall table
+          url: ../database/tables/uddocsmall.md
+        - text: UddocLarge table
+          url: ../database/tables/uddoclarge.md

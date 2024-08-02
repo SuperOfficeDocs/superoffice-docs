@@ -2,19 +2,28 @@
 uid: help-no-document-lock
 title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: dokument
+author: Bergfrid Dias
+date: 08.02.2024
 topic: howto
 language: no
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Sjekke inn/ut dokumenter
 
-I SuperOffice CRM er det mange som oppretter, redigerer og leser dokumenter til enhver tid. Hvis flere brukere redigerer samme dokument samtidig, risikerer de å overskrive hverandres data. For å unngå at dette skjer, vil SuperOffice CRM låse et dokument når det redigeres av en bruker. Andre brukere kan fortsatt åpne dokumentet, men bare i lesemodus.
+I SuperOffice CRM er det mange som oppretter, redigerer og leser dokumenter til enhver tid. Hvis flere brukere redigerer samme dokument samtidig, risikerer de å overskrive hverandres data. For å unngå at dette skjer, vil SuperOffice CRM låse et dokument når det redigeres av en bruker. Andre brukere kan fortsatt åpne dokumentet, men bare i lesemodus. (Hvis organisasjonen bruker et dokumentbibliotek som SharePoint, kan flere personer redigere et dokument samtidig.)
 
-> [!NOTE]
-> Hvis organisasjonen bruker et dokumentbibliotek som SharePoint, kan flere personer redigere et dokument samtidig.
+## Redigeringsmodus og lesemodus
+
+* Redigeringsmodus: Dokumentet åpnes for redigering. Dokumentet kan ikke redigeres av andre brukere før du lagrer og lukker det, noe som gjør at dokumentet automatisk sjekkes inn.
+
+    Hvis du ikke vil at et dokument skal sjekkes inn automatisk når du lagrer og lukker det, kan du aktivere alternativet **Foreslå innsjekking når redigeringen er fullført** under **Preferanser** i SuperOffice WebTools.
+
+* Lesemodus: Dokumentet åpnes for lesing. Hvis du gjør endringer i dokumentet, lagres de ikke. Hvis du vil [lagre dokumentet sammen med endringene][1], må du opprette et nytt dokument i SuperOffice CRM og laste opp filen sammen med endringene.
+
+Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til ![icon][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
 
 ## Hvordan vet jeg når et dokument er sjekket ut?
 
@@ -35,16 +44,6 @@ Hvis du prøver å åpne et utsjekket dokument, vises en dialogboks med informas
 ## Sjekke inn et dokument etter redigering
 
 I de fleste tilfeller kan du [lagre og lukke dokumentet][1] i programmet, og dokumentet sjekkes inn automatisk.
-
-## Redigeringsmodus og lesemodus
-
-Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge lesemodus eller redigeringsmodus når du åpner et dokument, går du til ![icon][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter **Spør om redigering eller lesing** til **Ja**.
-
-* Redigeringsmodus: Dokumentet åpnes for redigering. Dokumentet kan ikke redigeres av andre brukere før du lagrer og lukker det, noe som gjør at dokumentet automatisk sjekkes inn.
-
-    Hvis du ikke vil at et dokument skal sjekkes inn automatisk når du lagrer og lukker det, kan du aktivere alternativet **Foreslå innsjekking når redigeringen er fullført** under **Preferanser** i SuperOffice WebTools.
-
-* Lesemodus: Dokumentet åpnes for lesing. Hvis du gjør endringer i dokumentet, lagres de ikke. Hvis du vil [lagre dokumentet sammen med endringene][1], må du opprette et nytt dokument i SuperOffice CRM og laste opp filen sammen med endringene.
 
 ## Avbryte en utsjekking (gå tilbake til lagret versjon)
 

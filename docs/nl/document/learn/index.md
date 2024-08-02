@@ -9,27 +9,32 @@ topic: concept
 language: nl
 ---
 
-# Werken met documenten
+# Werken met documenten ![pictogram][img1]
 
 Door alle documenten op één plek op te slaan, krijgen u en uw team toegang tot actuele informatie en behouden u de controle over klantrelaties.
 
-![pictogram][img1]
+Documenten kunnen bijvoorbeeld brieven, offertes of memo's zijn en deze kunnen op de volgende plaatsen in SuperOffice CRM worden weergegeven.
+
+> [!TIP]
+> als u een bestaand document wilt openen en bekijken, dubbelklikt u op de gewenste rij op het sectietabblad. Het document wordt geopend in het programma waarin het is gemaakt.
+
+U kunt een document openen in [bewerkingsmodus of in leesmodus][7]. Wanneer u een document opent in de bewerkingsmodus, kunt u alleen zelf het document bewerken. Andere gebruikers kunnen het document in leesmodus openen. Als uw organisatie een documentbibliotheek zoals SharePoint gebruikt, kunnen meerdere mensen tegelijkertijd een document bewerken.
+
+## Nieuwe maken
 
 Waar u ook bent in SuperOffice CRM, u kunt een nieuw document maken of uploaden door op **Nieuw** in de bovenste balk te klikken en **Document** te selecteren. U kunt ook nieuwe documenten maken en uploaden via de knop **Nieuw** in de bovenste balk.
 
-Documenten kunnen bijvoorbeeld brieven, offertes of memo's zijn en deze kunnen op de volgende plaatsen in SuperOffice CRM worden weergegeven.
+## Vind uw documenten
 
-| Scherm | Sectietabblad | Inhoudsopgave |
-|---|---|---|
-| Bedrijf | Activiteiten | Alle documenten gekoppeld aan het actieve bedrijf |
-| Persoon | Activiteiten | Alle documenten gekoppeld aan de actieve contactpersoon |
-| Verkoop | Activiteiten | Alle documenten gekoppeld aan de actieve verkoop |
-| Project | Activiteiten | Alle documenten gekoppeld aan het actieve project |
-| Agenda | Activiteiten | Alle onvoltooide documenten plus de documenten die als voltooid zijn gemarkeerd nadat u zich voor het laatst hebt aangemeld bij SuperOffice CRM. |
-| Selectie | Documenten | Een selectie van documenten |
+* Het Sectietabblad **Activiteiten** in het Agenda toont alle onvoltooide documenten plus die welke als voltooid zijn gemarkeerd nadat u voor het laatst bent ingelogd in SuperOffice CRM.
 
-> [!TIP]
-> als u een bestaand document wilt openen en bekijken, dubbelklikt u op de gewenste rij op het sectietabblad.
+* Het Sectietabblad **Activiteiten** in het Bedrijf-, Persoon-, Verkoop- en Project-scherm toont alle documenten die aan het huidige record zijn gekoppeld.
+
+* Het **Documenten**-tabblad in het scherm Selectie toont alle documenten binnen de huidige selectie (als het een documentselectie is).
+
+## Record toevoegen als een favoriet
+
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 ## Uw documenten standaardiseren
 
@@ -44,27 +49,17 @@ In SuperOffice CRM kunt u eenvoudig documentsjablonen maken voor Word, E-mail, E
 ## Verwante onderwerpen
 
 * [E-mail, documenten en agenda verbinden][9]
-* [Documenten openen][1]
-* [Documenten uploaden][2]
 * [Nieuwe documenten maken][3]
-* [Documenten bewerken][4]
-* [Documenten verzenden][5]
-* [Documenten verwijderen][6]
+* [Documenten bewerken of verwijderen][4]
 * [Documenten aan/afmelden][7]
-* [E-mailbijlage opslaan][8]
-* [WebTools installeren][10]
+* [Documenten verzenden][5]
 
 <!-- Referenced links -->
-[1]: open.md
-[2]: upload.md
 [3]: create.md
 [4]: edit.md
 [5]: send-as-email.md
-[6]: delete.md
 [7]: lock.md
-[8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
-[10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

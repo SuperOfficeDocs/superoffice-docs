@@ -81,14 +81,7 @@ Klikk på **Synlig for**-feltet for å vise en liste der du kan velge om dokumen
 
 ### Sjekket ut for redigering
 
-Hvis dokumentet er sjekket ut for redigering, vises ett av følgende ikoner:
-
-![icon][img2] Dokumentet er for øyeblikket sjekket ut for redigering av deg.
-
-![icon][img3] Dokumentet er for øyeblikket sjekket ut for redigering av en annen bruker.
-
-> [!TIP]
-> Hold musepekeren over et ikon for å vise informasjon om brukeren som sjekket ut dokumentet.
+Se [Sjekke inn/ut dokument][4].
 
 ### Fullført
 
@@ -152,7 +145,5 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png

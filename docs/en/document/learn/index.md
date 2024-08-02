@@ -1,35 +1,42 @@
 ---
 uid: help-en-document
-title: Work with documents
-description: This how-to guide will show you how you can create and store documents in SuperOffice CRM, and how you can send and receive documents directly in your CRM solution.
-author: SuperOffice RnD
-date: 02.23.2023
-keywords: document
+title: Documents
+description: Introduction to documents and document handling in SuperOffice.
+keywords: document, activities
+author: Bergfrid Dias
+date: 07.19.2024
 topic: concept
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
-# Work with documents
+# Documents ![icon][img1]
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
-![icon][img1]
+Documents can be letters, quotations or memos, and they can be displayed in several places in SuperOffice CRM.
+
+> [!TIP]
+> To open and examine an existing document, double-click it in the **Activities** section tab or in a document selection. The document is opened in the program it was created in.
+
+You can open a document in [edit mode or in read mode][7]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode. If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
+
+## Create new
 
 No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.
 
-Documents can be letters, quotations or memos, and they can be displayed in several places in SuperOffice CRM.
+## Locate your documents
 
-| Screen | Section tab | Contents |
-|---|---|---|
-| Company | Activities | All documents linked to the active company |
-| Contact | Activities | All documents linked to the active contact |
-| Sale | Activities | All documents linked to the active sale |
-| Project | Activities | All documents linked to the active project |
-| Diary | Activities | All uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM. |
-| Selection | Documents | A selection of documents |
+* The **Activities** section tab in the and Diary screen shows all uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM.
 
-> [!TIP]
-> To open and examine an existing document, double-click the required row on the section tab.
+* The **Activities** section tab in the Company, Contact, Sale, and Project screen shows all documents linked to the current record.
+
+* The **Documents** tab in the Selection screen shows all documents within the current selection (if it is a document selection).
+
+## Add record as a favorite
+
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 ## Standardize your documents
 
@@ -44,25 +51,17 @@ In SuperOffice CRM, you can easily create document templates for Word, Email, Ex
 ## Related topics
 
 * [Connect email, documents and diary][9]
-* [Open documents][1]
 * [Create new documents][3]
-* [Edit documents][4]
-* [Send documents][5]
-* [Delete documents][6]
+* [Edit or delete documents][4]
 * [Check in/out documents][7]
-* [Save email attachment][8]
-* [Install WebTools][10]
+* [Send documents][5]
 
 <!-- Referenced links -->
-[1]: open.md
 [3]: create.md
 [4]: edit.md
 [5]: send-as-email.md
-[6]: delete.md
 [7]: lock.md
-[8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
-[10]: ../../webtools/learn/index.md
 [11]: ../templates/learn/index.md
 
 <!-- Referenced images -->

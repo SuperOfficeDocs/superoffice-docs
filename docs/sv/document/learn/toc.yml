@@ -3,23 +3,19 @@ items:
   href: index.md
 - name: Dokumentskärm
   href: screen/index.md
+- name: Dokumentbibliotek
+  href: ../library/learn/index.md
 - name: Arbeta med dokument
   topicHref: create.md
   items:
   - name: Skapa ett nytt dokument
     href: create.md
-  - name: Ladda upp dokument
-    href: upload.md
-  - name: Öppna dokument
-    href: open.md
   - name: Checka in/ut dokument
     href: lock.md
-  - name: Redigera dokument
+  - name: Redigera eller ta bort dokument
     href: edit.md
   - name: Skicka dokument som e-post
     href: send-as-email.md
-  - name: Ta bort dokument
-    href: delete.md
 
 - name: Dokumentmallar
   topicHref: ../templates/learn/index.md
@@ -34,6 +30,8 @@ items:
     - name: Referens
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Felsökning
+      href: ../templates/learn/troubleshooting.md
   - name: Merge fields (offertmallar)
     href: ../templates/learn/quote-templates.md
     items:
@@ -42,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Felsökning
-    href: ../templates/learn/troubleshooting.md
   - name: Skapa dokumentmall
     href: ../templates/learn/create.md
   - name: Lägga till mall
@@ -52,9 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentmallar på flera språk
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-  - name: Integration för SharePoint dokumentbibliotek
-    href: ../cloud/sharepoint-documents/learn/index.md
-    items:
-    - name: Konfigurera SharePoint-mapparna
-      href: ../cloud/sharepoint-documents/learn/set-up-folders.md

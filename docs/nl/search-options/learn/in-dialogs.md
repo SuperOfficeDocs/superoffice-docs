@@ -27,7 +27,7 @@ Als u een percentageteken (%) typt voor de zoektekst, worden alle records weerge
 
 U kunt %% gebruiken om alle records van een bepaald type te bekijken, zoals alle bedrijven, alle selecties, alle projecten.
 
-Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in SuperOffice CRM, gaat u naar het menu **+Nieuw** en klikt u op **Document**. Schrijf %% in het bovenste veld in het documentscherm waar typen documentsjablonen staan. U krijgt dan een vervolgkeuzelijst met de volledige lijst met beschikbare documentsjablonen.
+Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in SuperOffice CRM, gaat u naar het menu **+Nieuw** en klikt u op **Document**. Schrijf %% in het bovenste veld in het dialoogvenster Document waar typen documentsjablonen staan. U krijgt dan een vervolgkeuzelijst met de volledige lijst met beschikbare documentsjablonen.
 
 ![Typ twee percentagetekens in de Snel zoeken om alle records te bekijken -screenshot][img4]
 

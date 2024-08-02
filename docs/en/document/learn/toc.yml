@@ -1,25 +1,21 @@
 items:
 - name: Overview
   href: index.md
-- name: Document screen
+- name: Document dialog
   href: screen/index.md
-- name: Work with document
+- name: Document library
+  href: ../library/learn/index.md
+- name: Work with documents
   topicHref: create.md
   items:
   - name: Create new document
     href: create.md
-  - name: Upload document
-    href: upload.md
-  - name: Open document
-    href: open.md
   - name: Check in/out document
     href: lock.md
-  - name: Edit document
+  - name: Edit or delete document
     href: edit.md
   - name: Send document as email
     href: send-as-email.md
-  - name: Delete documents
-    href: delete.md
 
 - name: Document templates
   topicHref: ../templates/learn/index.md
@@ -34,6 +30,8 @@ items:
     - name: Reference
       href: ../templates/variables/toc.yml
       topicHref: ../templates/variables/index.md
+    - name: Troubleshooting
+      href: ../templates/learn/troubleshooting.md
   - name: Merge fields (quote templates)
     href: ../templates/learn/quote-templates.md
     items:
@@ -42,8 +40,6 @@ items:
       topicHref: ../templates/merge-fields/index.md
     - name: Tutorial
       href: ../templates/admin/tutorial.md
-  - name: Troubleshooting
-    href: ../templates/learn/troubleshooting.md
   - name: Create document template
     href: ../templates/learn/create.md
   - name: Link template
@@ -52,9 +48,3 @@ items:
     href: ../templates/admin/update-template.md
   - name: Document templates in multiple languages
     href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-
-- name: SharePoint document library integration
-  href: ../cloud/sharepoint-documents/learn/index.md
-  items:
-  - name: Set up folders
-    href: ../cloud/sharepoint-documents/learn/set-up-folders.md

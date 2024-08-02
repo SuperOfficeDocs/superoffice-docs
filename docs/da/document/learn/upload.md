@@ -1,40 +1,7 @@
 ---
-uid: help-da-document-upload
-title: Upload af dokumenter
-description: Upload af dokumenter
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: dokument
-topic: howto
+uid: help-da-document-upload-redirect
+author: Bergfrid Dias
+date: 08.02.2024
 language: da
+redirect_url: https://docs.superoffice.com/da/document/learn/create.html
 ---
-
-# Upload af dokumenter
-
-1. Klik på **Ny** > **Dokument** på toplinjen.
-
-2. Træk og slip dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
-
-3. (valgfrit) Klik på ![ikon][img1] i øverste højre hjørne for at angive dokumentet til **Fuldført** (![ikon][img2]).
-
-4. [Indtast de ønskede oplysninger i felterne][1].
-
-5. Klik på knappen **Opret** for at oprette det nye dokument i SuperOffice CRM. Dokumentet tilføjes til detaljekortet **Aktiviteter**.
-
-## Relaterede emner
-
-* [Oprettelse af nye dokumenter][2]
-* [Åbning af dokumenter][3]
-* [Indtjekning/udtjekning af dokumenter][5]
-* [Redigering af dokumenter][4]
-
-<!-- Referenced links -->
-[1]: screen/index.md
-[2]: create.md
-[3]: open.md
-[4]: edit.md
-[5]: lock.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/followup-not-completed-small.png
-[img2]: ../../../media/icons/followup-completed-small.png

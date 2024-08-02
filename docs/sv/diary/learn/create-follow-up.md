@@ -43,7 +43,7 @@ Om din SuperOffice har [tidszoner][9] aktiverat, kan du välja vilken tidszon h�
 
 Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som anges som [standard arbetsdag][8] (**Starttid för hela dagen** och **Sluttid för hela dagen** preferens).
 
-![Uppföljningsdialogruta -screenshot][img7]
+![Händelsesdialogruta -screenshot][img7]
 
 1. Ange en titel.
 

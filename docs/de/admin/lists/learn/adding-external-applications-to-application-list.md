@@ -46,9 +46,9 @@ language: de
 
         * **Symbolleiste**: Die Anwendung wird als Option in der Symbolleiste angezeigt. Die Benutzer müssen zunächst die Werkzeugleiste in SuperOffice CRM konfigurieren und festlegen, dass die Anwendung angezeigt werden soll.
 
-        * **Dialogfeld 'Folgeaufgabe'**: Die Anwendung wird als Option unter der Schaltfläche **Aufgabe** im Dialogfeld für Folgeaufgaben angezeigt.
+        * **Dialogfeld Folgeaufgabe**: Die Anwendung wird als Option unter der Schaltfläche **Aufgabe** im Dialogfeld für Folgeaufgaben angezeigt.
 
-        * **Ansicht Dokument**: Die Anwendung wird als Option unter der Schaltfläche **Aufgabe** im ausgewählten Dialogfeld angezeigt. Dieselbe Option steht für die Ansichten Person, Angebot und Produkt zur Verfügung.
+        * **Dialogfeld Dokument**: Die Anwendung wird als Option unter der Schaltfläche **Aufgabe** im ausgewählten Dialogfeld angezeigt. Dieselbe Option steht für die Ansichten Person, Angebot und Produkt zur Verfügung.
 
         </details>
 

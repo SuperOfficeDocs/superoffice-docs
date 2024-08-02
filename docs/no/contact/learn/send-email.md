@@ -49,9 +49,9 @@ Du kan skrive en e-post fra både Person-bildet og Firma-bildet. Deretter er tri
     * **Send:** E-postmeldingen sendes og er tilgjengelig i detaljkortet **Aktiviteter**.
     * **Send og arkiver:** E-postmeldingen sendes og lagres som et dokument.
 
-1. Hvis du har valgt **Send og arkiver**, åpnes [Dokument-bildet][1] når du sender e-posten. Legg til informasjon i denne dialogboksen ved behov.
+1. Hvis du har valgt **Send og arkiver**, åpnes [dialogboksen Dokument][1] når du sender e-posten. Legg til informasjon i denne dialogboksen ved behov.
 
-1. Klikk på **Opprett** i Dokument-bildet.
+1. Klikk på **Opprett** i dialogboksen Dokument.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md

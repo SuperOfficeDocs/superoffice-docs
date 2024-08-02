@@ -2,11 +2,13 @@
 uid: help-no-document-update
 title: Redigere dokumenter
 description: Redigere dokumenter
-author: SuperOffice RnD
-date: 12.06.2023
 keywords: dokument
+author: Bergfrid Dias
+date: 08.02.2024
 topic: howto
 language: no
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Redigere dokumenter
@@ -16,31 +18,44 @@ Redigering av dokumenter omfatter to ting:
 * Redigering av dokumentegenskapene i skjermbildet Dokument.
 * Redigering av selve dokumentfilen i programmet dokumentet ble opprettet i.
 
-Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][1]. Når du åpner dokumentet i redigeringsmodus, er det bare du som kan redigere det. Andre brukere kan åpne dokumentet i lesemodus.
+Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][1]. Når du åpner dokumentet i redigeringsmodus, er det bare du som kan redigere det. Andre brukere kan åpne dokumentet i lesemodus. Hvis organisasjonen bruker et dokumentbibliotek som SharePoint, kan flere personer redigere et dokument samtidig.
 
-Hvis organisasjonen bruker et dokumentbibliotek som SharePoint, kan flere personer redigere et dokument samtidig.
+## Redigere dokumentegenskaper i dialogboksen Dokument
 
-> [!NOTE]
-> Denne funksjonen krever en lisens.
+**Denne funksjonen krever en lisens.**
 
-Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i SuperOffice-installasjonen:
+Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er knyttet til, bruker du dialogboksen Dokument:
 
-## Hvordan vet jeg om jeg bruker SharePoint, SuperOffice WebTools eller ikke?
+1. Velg ønsket dokument.
 
-[!include[How to check document library](includes/webtools-or-sharepoint.md)]
-
-## Redigere dokumentegenskaper i skjermbildet Dokument
-
-Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er knyttet til, bruker du skjermbildet Dokument:
-
-1. [Velg ønsket dokument][2].
 2. Høyreklikk og velg **Dokument**. Hvis du dobbeltklikker på dokumentet, åpnes det direkte i det programmet det ble opprettet i.
+
 3. [Gjør de nødvendige endringene][3].
+
 4. Klikk på **Lagre**-knappen.
 
-## Redigere dokumentinnhold ved hjelp av SharePoint Documents
+## Redigere dokumentinnhold
 
-1. [Dobbeltklikk på det nødvendige dokumentet][2]. Dokumentet åpnes i en ny fane med det elektroniske tekstredigeringsprogrammet (Office Online).
+Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i SuperOffice-installasjonen.
+
+<!-- markdownlint-disable-file MD051 -->
+### [Med SuperOffice WebTools](#tab/webtools)
+
+1. Dobbeltklikk på det nødvendige dokumentet.
+
+2. Hvis en dialogboks åpnes, klikker du på **Rediger**.
+
+3. Lagre dokumentet, og lukk tekstbehandlingsprogrammet.
+
+4. (hvis det er aktuelt) I dialogboksen som vises, klikker du på **Ja** hvis du er ferdig med å redigere dokumentet. Klikk på **Nei** for å beholde dokumentet utsjekket.
+
+    Denne dialogboksen vises bare hvis dette alternativet ble aktivert i SuperOffice WebTools.
+
+5. Dokumentet sjekkes inn, og statusen settes til **Utført**.
+
+### [Med SharePoint](#tab/sharepoint)
+
+1. Dobbeltklikk på det nødvendige dokumentet. Dokumentet åpnes i en ny fane med det elektroniske tekstredigeringsprogrammet (Office Online).
 
     Hvis du vil bruke skrivebordsprogrammet for å redigere, kan du velge **Åpne i skrivebordsprogrammet** fra Office Online.
 
@@ -48,39 +63,20 @@ Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er 
 
 3. Lukk fanen eller skrivebordsprogrammet. Dokumentet lagres automatisk i SharePoint
 
-## Redigere dokumentinnhold – uten SuperOffice WebTools
+### [Uten SuperOffice WebTools](#tab/no-webtools)
 
 > [!NOTE]
 > Denne fremgangsmåten beskriver hvordan du oppretter nye dokumenter hvis du bruker et skrivebordsprogram for tekstredigering. Selve prosessen kan være litt annerledes hvis du bruker et tekstbehandlingsprogram tilgjengelig på Internett (for eksempel Microsoft Office Online) og et dokumentbibliotek (for eksempel SharePoint).
 
-1. [Dobbeltklikk på det nødvendige dokumentet][2].
+1. Dobbeltklikk på det nødvendige dokumentet.
+
 2. I dialogboksen **Dokument** klikker du på **Åpne**.
+
 3. Hvis en dialogboks åpnes, klikker du på **Rediger**.
-4. I dialogboksen for filnedlasting velger du ett av følgende alternativer:
-    * **Åpne**: Når du velger alternativet for å åpne, åpnes dokumentet i tekstbehandlingsprogrammet. Skriv inn ønsket innhold i dokumentet, og velg **Fil** > **Lagre som** for å lagre det på ønsket sted på PCen.
-    * **Lagre**: Når du velger alternativet for å lagre, vises dialogboksen **Lagre som**. Angi hvor på PCen du vil lagre filen, og lagre den. Deretter åpner du dokumentet, skriver inn ønsket innhold og lagrer det.
-5. Lukk tekstbehandlingsprogrammet.
-6. Gå til dialogboksen **Dokument**.
 
-    > [!NOTE]
-    > Hvis **Fullført** er valgt i **Dokument**-dialogboksen, er  opplastingsalternativene er deaktivert. Fjern i så fall avmerkingen for **Utført**.
+4. I dialogboksen **Filnedlasting** velger du **Åpne** eller **Lagre**. Deretter følger du trinn 5-9 fra prosedyren [opprett dokument uten WebTools][2].
 
-7. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
-
-    ![Opprette nytt dokument -screenshot][img1]
-
-8. Lukk dialogboksen **Dokument** ved å klikke på **Lagre**. Dokumentet sjekkes inn, og statusen settes til **Utført**.
-
-## Redigere dokumentinnhold – ved hjelp av SuperOffice WebTools
-
-1. [Dobbeltklikk på det nødvendige dokumentet][2].
-2. Hvis en dialogboks åpnes, klikker du på **Rediger**.
-3. Lagre dokumentet, og lukk tekstbehandlingsprogrammet.
-4. (hvis det er aktuelt) I dialogboksen som vises, klikker du på **Ja** hvis du er ferdig med å redigere dokumentet. Klikk på **Nei** for å beholde dokumentet utsjekket.
-
-    Denne dialogboksen vises bare hvis dette alternativet ble aktivert i SuperOffice WebTools.
-
-5. Dokumentet sjekkes inn, og statusen settes til **Utført**.
+***
 
 ### <a id="allow" />Nettlesersikkerhetsspørsmål ved åpning av filer
 
@@ -107,17 +103,26 @@ Dialogboksen er litt annerledes i Chrome, Edge, Firefox og Safari.
 
 ![Safari: Alltid tillat eller Tillat knapp -screenshot][img4]
 
+## <a id="delete" />Slette dokumenter
+
+1. Velg ønsket dokument i detaljkortet **Aktiviteter** på skjermbildene firma, person, dagbok, salg eller prosjekt.
+2. Klikk på **Slett**-knappen nederst til venstre i listen.
+3. I dialogboksen **Slett dokument** bekrefter eller avbryter du slettingen.
+
 ## Feilsøking
 
 Hvis du dobbeltklikker på et dokument og ingenting skjer, kan du prøve å høyreklikke på det og velge **Dokument**. Dette åpner dialogboksen **Dokument** . Klikk på **Åpne** og se om dokumentet åpnes nå.
 
+### Hvordan vet jeg om jeg bruker SharePoint, SuperOffice WebTools eller ikke?
+
+[!include[How to check document library](includes/webtools-or-sharepoint.md)]
+
 <!-- Referenced links -->
 [1]: lock.md
-[2]: open.md
+[2]: create.md
 [3]: screen/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/document/upload.png
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
 [img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
 [img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png

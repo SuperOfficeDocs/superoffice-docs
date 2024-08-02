@@ -69,7 +69,7 @@ Blandt de brugerdefinerede felter, der vises under fanen **Mere** i SuperOffice 
 * Fanen **Kontakt** på personkortet
 * Fanen **Projekt** på skærmbilledet Projekt
 * Fanen **Salg** på skærmbilledet Salg
-* Fanen **Detaljer** på skærmbilledet Dokument
+* Fanen **Detaljer** på dialogboksen Dokument
 
 > [!NOTE]
 > Side-1 felt kræver licensen Development Tools og er ikke tilgængelig, hvis organisationen bruger en anden layout via [Skærmdesigneren][8].

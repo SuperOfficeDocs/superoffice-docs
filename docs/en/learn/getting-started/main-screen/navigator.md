@@ -54,7 +54,7 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img54] | **Import**: opens the Import screen, where you can import data into the SuperOffice database. | [Import][27] |
 | ![icon][img55] | **Fields**: opens the Fields screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
 | ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
-| ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34]
+| ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34] |
 | ![icon][img58] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
 | ![icon][img59] | **System design**: here you can find various advanced settings for SuperOffice Service. | |
 | ![icon][img60] | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard app and integrations that can expand SuperOffice CRM Online. | |
@@ -103,7 +103,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md
-[43]: ../../../admin/preferences/learn/document-library/index.md
+[43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md

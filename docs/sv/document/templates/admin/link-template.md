@@ -84,7 +84,7 @@ Ange följande information på fliken **Detaljer**:
     > [!TIP]
     >Du kan skapa nya alternativ förutom de fördefinierade genom att lägga till poster i listan **Händelse – Syfte** i Inställningar och underhåll.
 
-5. Lokalt: Markera alternativet **Publicera** om du vill att dokumentmallen ska kunna göras tillgänglig för externa användare i fönstret Dokument.
+5. Lokalt: Markera alternativet **Publicera** om du vill att dokumentmallen ska kunna göras tillgänglig för externa användare i dialogrutan Dokument.
 
 6. Lokalt: Markera alternativet **Spara i databasen** om du vill att de dokument som du skapar med den här mallen ska sparas i dokumentdatabasen. Om du markerar det här alternativet visas dokumentet på detaljkortet **Aktiviteter**. Om du inte markerar det visas inte dokumentet i SuperOffice CRM när du har skapat det, och du kommer inte åt det via programmet.
 

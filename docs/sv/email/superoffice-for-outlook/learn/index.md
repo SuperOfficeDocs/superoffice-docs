@@ -31,7 +31,7 @@ Om du vill ansluta SuperOffice för Outlook går du till vår [App Store][1] och
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
-[2]: ../../../admin/preferences/learn/document-library/index.md
+[2]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

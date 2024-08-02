@@ -122,18 +122,6 @@ conceptualContent:
         itemType: explore
         typeDesc: concept
         url: ../ui/screen-designer/learn/edit-layout-archives.md
-      - text: Verkoopdoelen
-        itemType: explore
-        typeDesc: concept
-        url: ../sale/learn/sales-targets/index.md
-      - text: SharePoint-documentbibliotheek
-        itemType: list
-        typeDesc: how-to-guide 
-        url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
-      - text: Marketing-dashboard
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../dashboard/learn/show-marketing.md
 
     # Card
     - title: Zoekopties
@@ -246,7 +234,7 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: ../document/learn/create.md
-      - text: Documentscherm
+      - text: Dialoogvenster Document
         itemType: library_books
         typeDesc: reference
         url: ../document/learn/screen/index.md

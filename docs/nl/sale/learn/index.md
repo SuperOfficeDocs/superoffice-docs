@@ -71,7 +71,7 @@ Dit tabblad bevat velden met financiële informatie over de verkoop.
 | Veld | Beschrijving | Gedefinieerd in Instellingen en onderhoud |
 |---|---|---|
 |Cijfer | Het ID-nummer v ande verkoop. Hier wordt automatisch het eerstvolgende beschikbare verkoopnummer ingevuld. | x |
-| Bron | Hier wordt de bron van de verkoop weergegeven, zoals opgegeven op het tabblad **Verkoop**. U kunt hier ook de bron bewerken. |
+| Bron | Hier wordt de bron van de verkoop weergegeven, zoals opgegeven op het tabblad **Verkoop**. U kunt hier ook de bron bewerken. | |
 | Concurrent | Bevat een vooraf gedefinieerde lijst met concurrenten. Hier kunt u een willekeurige concurrent invoeren voor de verkoop. U kunt slechts één concurrent kiezen. | x |
 | Totale kosten | Hier kunt u de kosten voor de verkoop invoeren. Dit veld wordt in dezelfde valuta weergegeven als het bedrag. De standaardwaarde is 0. Wanneer u een bedrag invoert in dit veld, wordt in het onderstaande veld automatisch het winstpercentage en het bedrag weergegeven. | |
 | Winst | Hier kunt u de winst voor de verkoop invoeren. Dit veld wordt in dezelfde valuta weergegeven als het bedrag. | |

@@ -46,9 +46,9 @@ language: en
 
         * **Toolbar**: the application is displayed as an option on the toolbar. The users must configure the toolbar in SuperOffice CRM and choose to display the application.
 
-        * **Dialog for follow-ups**: the application is displayed as an option under the **Task** button in the dialog for follow-ups.
+        * **Follow-up dialog**: the application is displayed as an option under the **Task** button in the dialog for follow-ups.
 
-        * **Document screen**: the application is displayed as an option under the **Task** button in the selected dialog. The same option is available for the Contact, Quote, and Product screens.
+        * **Document dialog**: the application is displayed as an option under the **Task** button in the selected dialog. The same option is available for the Contact, Quote, and Product screens.
 
         </details>
 

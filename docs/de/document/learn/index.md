@@ -1,35 +1,42 @@
 ---
 uid: help-de-document
 title: Mit Dokumenten arbeiten
-description: "Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM erstellen und speichern können und wie Sie sie direkt in Ihrer CRM-Lösung senden und empfangen können."
-author: SuperOffice RnD
-date: 02.23.2023
+description: Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM erstellen und speichern können und wie Sie sie direkt in Ihrer CRM-Lösung senden und empfangen können.
 keywords: Dokument
+author: Bergfrid Dias
+date: 08.02.2024
 topic: concept
 language: de
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
-# Mit Dokumenten arbeiten
+# Mit Dokumenten arbeiten ![Symbol][img1]
 
 Durch die Speicherung aller Dokumente an einem Ort können Sie und Ihr Team leichter auf aktuelle Informationen zugreifen und die Kontrolle über die Kundenbeziehungen behalten.
 
-![Symbol][img1]
+Dokumente können z. B. Briefe, Angebote oder Memos sein und sie können an verschiedenen Stellen in SuperOffice CRM angezeigt werden.
+
+> [!TIP]
+> Doppelklicken Sie auf die gewünschte Zeile in der Bereichsregisterkarte, um ein vorhandenes Dokument zu öffnen und zu prüfen. Das Dokument wird in dem Programm geöffnet, in dem es erstellt wurde.
+
+Sie können Dokumente im [Bearbeitungs- oder im Lesemodus][7] öffnen. Wenn Sie ein Dokument im Bearbeitungsmodus öffnen, können nur Sie selbst es bearbeiten. Andere Benutzer können das Dokument im Lesemodus öffnen. Wenn Ihre Organisation eine Dokumentbibliothek wie SharePoint nutzt, können mehrere Personen ein Dokument gleichzeitig bearbeiten.
+
+## Neu erstellen
 
 Ganz gleich, wo Sie sich in SuperOffice CRM befinden, Sie können ein neues Dokument erstellen oder hochladen, indem Sie in der oberen Leiste auf **Neu** klicken und **Dokument** auswählen. Sie können Dokumente auch über die Schaltfläche **Neu** auf der oberen Leiste erstellen und hochladen.
 
-Dokumente können z. B. Briefe, Angebote oder Memos sein und sie können an verschiedenen Stellen in SuperOffice CRM angezeigt werden.
+## Finden Sie Ihre Dokumente
 
-| Ansicht | Bereichsregisterkarte | Inhalt |
-|---|---|---|
-| Firma | Aktivitäten | Alle Dokumente, die mit der aktiven Firma verknüpft sind |
-| Kontaktperson | Aktivitäten | Alle Dokumente, die mit der aktiven Person verknüpft sind |
-| Verkauf | Aktivitäten | Alle Dokumente, die mit dem aktiven Verkauf verknüpft sind |
-| Projekt | Aktivitäten | Alle Dokumente, die mit dem aktiven Projekt verknüpft sind |
-| Kalender | Aktivitäten | Alle nicht abgeschlossenen Dokumente sowie diejenigen, die als abgeschlossen markiert wurden, nachdem Sie sich das letzte Mal bei SuperOffice CRM eingeloggt haben. |
-| Selektion | Dokumente | Eine Auswahl an Dokumenten |
+* Der Bereichsregisterkarte **Aktivitäten** im Kalender-Bildschirm zeigt alle unvollständigen Dokumente sowie jene, die nach Ihrer letzten Anmeldung in SuperOffice CRM als abgeschlossen markiert wurden.
 
-> [!TIP]
-> Doppelklicken Sie auf die gewünschte Zeile in der Bereichsregisterkarte, um ein vorhandenes Dokument zu öffnen und zu prüfen.
+* Der Bereichsregisterkarte **Aktivitäten** im Firmen-, Kontaktperson-, Verkaufs- und Projekt-Bildschirm zeigt alle Dokumente, die mit dem aktuellen Datensatz verknüpft sind.
+
+* Der **Dokumente**-Tab in der Ansicht Selektion zeigt alle Dokumente innerhalb der aktuellen Selektion (wenn es sich um eine Dokumentselektion handelt).
+
+## Datensatz als Favoriten hinzufügen
+
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 ## Dokumente standardisieren
 
@@ -44,27 +51,17 @@ In SuperOffice CRM können Sie ganz einfach Dokumentvorlagen für Word, E-Mail, 
 ## Verwandte Themen
 
 * [E-Mail, Dokumente und Kalender verbinden][9]
-* [Dokumente öffnen][1]
-* [Dokumente hochladen][2]
 * [Neue Dokumente erstellen][3]
-* [Dokumente bearbeiten][4]
-* [Dokumente senden][5]
-* [Dokumente löschen][6]
+* [Dokumente bearbeiten oder löschen][4]
 * [Dokumente ein-/auschecken][7]
-* [E-Mail-Anlage speichern][8]
-* [WebTools installieren][10]
+* [Dokumente senden][5]
 
 <!-- Referenced links -->
-[1]: open.md
-[2]: upload.md
 [3]: create.md
 [4]: edit.md
 [5]: send-as-email.md
-[6]: delete.md
 [7]: lock.md
-[8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
-[10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

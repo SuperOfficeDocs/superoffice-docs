@@ -84,7 +84,7 @@ Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
     > [!TIP]
     > Zusätzlich zu den vordefinierten Optionen können Sie neue Optionen erstellen, indem Sie sie zur Liste **Folgeaufgabe - Zweck** in Einstellungen und Verwaltung hinzufügen.
 
-5. Vor Ort: Aktivieren Sie die Option **Veröffentlichen**, damit Sie in der Ansicht Dokument festlegen können, dass die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
+5. Vor Ort: Aktivieren Sie die Option **Veröffentlichen**, damit Sie im Dialogfeld Dokument festlegen können, dass die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
 
 6. Vor Ort: Aktivieren Sie die Option **In Datenbank speichern**, wenn mit dieser Vorlage erstellte Dokumente in der Dokumentdatenbank gespeichert werden sollen. Wenn Sie diese Option aktivieren, wird das Dokument auf der Bereichsregisterkarte **Aktivitäten** in SuperOffice CRM angezeigt. Andernfalls wird das Dokument nach der Erstellung nicht in SuperOffice CRM angezeigt, und Sie können vom Programm aus nicht darauf zugreifen.
 

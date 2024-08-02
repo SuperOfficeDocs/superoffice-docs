@@ -51,7 +51,7 @@ Du kan förbereda ett e-postmeddelande från både fönstret Kontakt och fönstr
 
 1. Om du har valt **Skicka och arkivera** öppnas fönstret [Dokument][1] när du skickar e-postmeddelandet. Ange önskad information i dialogrutan.
 
-1. Klicka på **Skapa** i fönstret Dokument.
+1. Klicka på **Skapa** i dialogrutan Dokument.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md

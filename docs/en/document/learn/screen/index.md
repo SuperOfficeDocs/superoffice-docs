@@ -81,14 +81,7 @@ Click the **Visible for** field to display a list that allows you to choose if t
 
 ### Checked out for editing
 
-If the document is checked out for editing, one of the following icons are displayed:
-
-![icon][img2] The document is currently checked out for editing by you.
-
-![icon][img3] The document is currently checked out for editing by another user.
-
-> [!TIP]
-> Hold the mouse pointer over an icon to show information about the user who checked out the document.
+See [Check in/out documents][4].
 
 ### Completed
 
@@ -152,7 +145,5 @@ This tab displays any [user-defined fields][3] configured in Settings and mainte
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
-[img2]: ../../../../media/icons/document-lock-editing.png
-[img3]: ../../../../media/icons/document-lock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png
 [img5]: ../../../../media/icons/followup-not-completed-small.png
