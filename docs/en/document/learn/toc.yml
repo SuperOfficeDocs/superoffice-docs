@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Document dialog
   href: screen/index.md
-- name: Work with document
+- name: Work with documents
   topicHref: create.md
   items:
   - name: Create new document
