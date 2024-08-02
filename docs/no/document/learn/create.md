@@ -94,38 +94,38 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 ***
 
-## <a id="fields" />How to enter information
+## <a id="fields" />Slik fyller du inn informasjon
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
-![Create document from template -screenshot][img3]
+![Opprett dokument fra mal -screenshot][img3]
 
-1. Choose a [document template][5]. Select a language for the template. This option is only available if the selected template includes translated versions.
+1. Velg en [dokumentmal][5]. Velg et språk for malen. Dette feltet er bare tilgjengelig hvis den valgte malen inneholder oversatte versjoner.
 
-1. Optionally, select a company or contact the document pertains to.
+1. Velg eventuelt et firma eller en person som dokumentet gjelder.
 
-1. Optionally, select a project and/or sale to link it to the document. You can choose any project/sale regardless of which company you chose earlier.
+1. Velg eventuelt et prosjekt og/eller salg for å knytte det til dokumentet. Du kan velge et hvilket som helst prosjekt/salg uavhengig av hvilket firma du valgte tidligere.
 
-1. Enter a document title in the **Subject** field. This text is shown in section tabs and in other lists of document.
+1. Skriv inn en dokumenttittel i **Emne**-feltet. Denne teksten vises i detaljfaner og i andre dokumentlister.
 
-1. Today's **date** is set by default. Optionally, change the creation date (click to open the date picker).
+1. Dagens **dato** er satt som standard. Endre eventuelt opprettelsesdatoen (klikk for å åpne datovelgeren).
 
     > [!NOTE]
-    > You cannot change this date after clicking the **Create** button (the field becomes read-only).
+    > Du kan ikke endre denne datoen etter å ha klikket på **Opprett**-knappen (feltet blir skrivebeskyttet).
 
-1. Enter references:
+1. Skriv inn referanser:
 
-    * **Our ref:** Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
-    * **Your ref:** Enter the addressee's reference from their communication.
+    * **Vår ref:** Skriv inn din egen referanse. Standardoppføringen for hver mal er definert i Innstillinger og vedlikehold, men du kan også redigere innholdet i dette feltet.
+    * **Din ref:** Skriv inn mottakerens referanse fra deres kommunikasjon.
 
-### Other settings (optional)
+### Andre innstillinger (valgfritt)
 
-* In the the **Details** tab, enter a description of the document (or keywords) to aid free-text searching.
+* I fanen **Detaljer** skriver du inn en beskrivelse av dokumentet (eller nøkkelord) for å lette fritekstsøk.
 
-* In the **Links** tab, click **Add link** to [link the document to other activities][9].
+* I fanen **Lenker** klikker du på **Legg til lenke** for å [knytte dokumentet til andre aktiviteter][9].
 
-* In the **More** tab, set any [user-defined fields][10] configured in Settings and maintenance.
+* I **Mer**-fanen, angi eventuelle [brukerdefinerte felt][10] konfigurert i Innstillinger og vedlikehold.
 
 ## <a id="upload" />Last opp dokumenter
 

@@ -94,38 +94,38 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 ***
 
-## <a id="fields" />How to enter information
+## <a id="fields" />Hoe informatie in te voeren
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
-![Create document from template -screenshot][img3]
+![Document maken vanuit sjabloon -screenshot][img3]
 
-1. Choose a [document template][5]. Select a language for the template. This option is only available if the selected template includes translated versions.
+1. Kies een [documentsjabloon][5]. Selecteer een taal voor de sjabloon. Deze optie is alleen beschikbaar als de geselecteerde sjabloon vertaalde versies bevat.
 
-1. Optionally, select a company or contact the document pertains to.
+1. Selecteer eventueel een bedrijf of contactpersoon waarop het document betrekking heeft.
 
-1. Optionally, select a project and/or sale to link it to the document. You can choose any project/sale regardless of which company you chose earlier.
+1. Selecteer eventueel een project en/of verkoop om het aan het document te koppelen. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
 
-1. Enter a document title in the **Subject** field. This text is shown in section tabs and in other lists of document.
+1. Voer een documenttitel in het veld **Onderwerp** in. Deze tekst wordt weergegeven in sectietabs en in andere documentenlijsten.
 
-1. Today's **date** is set by default. Optionally, change the creation date (click to open the date picker).
+1. De **datum** van vandaag is standaard ingesteld. Wijzig eventueel de aanmaakdatum (klik om de datumkiezer te openen).
 
     > [!NOTE]
-    > You cannot change this date after clicking the **Create** button (the field becomes read-only).
+    > U kunt deze datum niet meer wijzigen nadat u op de knop **Opslaan** heeft geklikt (het veld wordt alleen-lezen).
 
-1. Enter references:
+1. Voer referenties in:
 
-    * **Our ref:** Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
-    * **Your ref:** Enter the addressee's reference from their communication.
+    * **Onze ref.:** Voer uw eigen referentie in. De standaardwaarde voor elke sjabloon wordt gedefinieerd in Instellingen en onderhoud, maar u kunt de inhoud van dit veld ook bewerken.
+    * **Uw ref.:** Voer de referentie van de geadresseerde in hun communicatie in.
 
-### Other settings (optional)
+### Andere instellingen (optioneel)
 
-* In the the **Details** tab, enter a description of the document (or keywords) to aid free-text searching.
+* Voer in het tabblad **Details** een beschrijving van het document (of trefwoorden) in om vrijetextzoekopdrachten te vergemakkelijken.
 
-* In the **Links** tab, click **Add link** to [link the document to other activities][9].
+* Klik in het tabblad **Links** op **Link toevoegen** om [het document aan andere activiteiten te koppelen][9].
 
-* In the **More** tab, set any [user-defined fields][10] configured in Settings and maintenance.
+* Stel in het tabblad **Meer** alle [gebruikersgedefinieerde velden][10] in die zijn geconfigureerd in Instellingen en onderhoud.
 
 ## <a id="upload" />Documenten uploaden
 

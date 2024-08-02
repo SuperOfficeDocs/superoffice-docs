@@ -94,36 +94,38 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 ***
 
-## <a id="fields" />How to enter information
+## <a id="fields" />Hur man anger information
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
-![Create document from template -screenshot][img3]
+> Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
 
-1. Choose a [document template][5]. Select a language for the template. This option is only available if the selected template includes translated versions.
+![Skapa dokument från mall -screenshot][img3]
 
-1. Optionally, select a company or contact the document pertains to.
+1. Välj en [dokumentmall][5]. Välj ett språk för mallen. Det här fältet är endast tillgängligt om den valda mallen innehåller översatta versioner.
 
-1. Optionally, select a project and/or sale to link it to the document. You can choose any project/sale regardless of which company you chose earlier.
+1. Välj eventuellt ett företag eller en kontakt som dokumentet gäller.
 
-1. Enter a document title in the **Subject** field. This text is shown in section tabs and in other lists of document.
+1. Välj eventuellt ett projekt och/eller en försäljning för att koppla det till dokumentet. Du kan välja vilket projekt/försäljning som helst, oavsett vilket företag du valde tidigare.
 
-1. Today's **date** is set by default. Optionally, change the creation date (click to open the date picker).
+1. Ange en dokumenttitel i **Ämne**-fältet. Denna text visas i sektionsflikar och i andra dokumentlistor.
+
+1. Dagens **datum** är standardinställt. Ändra eventuellt skapelsedatumet (klicka för att öppna datumväljaren).
 
     > [!NOTE]
-    > You cannot change this date after clicking the **Create** button (the field becomes read-only).
-1. Enter references:
+    > Du kan inte ändra detta datum efter att du klickat på **Skapa**-knappen (fältet blir skrivskyddat).
 
-    * **Our ref:** Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
-    * **Your ref:** Enter the addressee's reference from their communication.
+1. Ange referenser:
 
-### Other settings (optional)
+    * **Vår ref:** Ange din egen referens. Standardposten för varje mall är definierad i Inställningar och underhåll, men du kan också redigera innehållet i detta fält.
+    * **Er ref:** Ange mottagarens referens från deras kommunikation.
 
-* In the the **Details** tab, enter a description of the document (or keywords) to aid free-text searching.
+### Andra inställningar (valfritt)
 
-* In the **Links** tab, click **Add link** to [link the document to other activities][9].
+* I fliken **Detaljer** anger du en beskrivning av dokumentet (eller nyckelord) för att underlätta fritekstsökning.
 
-* In the **More** tab, set any [user-defined fields][10] configured in Settings and maintenance.
+* I fliken **Länkar** klickar du på **Lägg till länk** för att [koppla dokumentet till andra aktiviteter][9].
+
+* I fliken **Mer** anger du eventuella [användardefinierade fält][10] som är konfigurerade i Inställningar och underhåll.
 
 ## <a id="upload" />Ladda upp dokument
 

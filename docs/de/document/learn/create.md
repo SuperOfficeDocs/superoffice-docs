@@ -94,38 +94,38 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 ***
 
-## <a id="fields" />How to enter information
+## <a id="fields" />Wie man Informationen eingibt
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img5], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
 
-![Create document from template -screenshot][img3]
+![Dokument aus Vorlage erstellen -screenshot][img3]
 
-1. Choose a [document template][5]. Select a language for the template. This option is only available if the selected template includes translated versions.
+1. Wählen Sie eine [Dokumentvorlage][5]. Wählen Sie eine Sprache für die Vorlage. Diese Option ist nur verfügbar, wenn die ausgewählte Vorlage übersetzte Versionen enthält.
 
-1. Optionally, select a company or contact the document pertains to.
+1. Wählen Sie optional ein Unternehmen oder einen Kontakt, auf den sich das Dokument bezieht.
 
-1. Optionally, select a project and/or sale to link it to the document. You can choose any project/sale regardless of which company you chose earlier.
+1. Wählen Sie optional ein Projekt und/oder einen Verkauf, um es mit dem Dokument zu verknüpfen. Sie können jedes Projekt/Verkauf unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
 
-1. Enter a document title in the **Subject** field. This text is shown in section tabs and in other lists of document.
+1. Geben Sie einen Dokumenttitel im Feld **Betreff** ein. Dieser Text wird in Abschnitts-Tabs und in anderen Dokumentlisten angezeigt.
 
-1. Today's **date** is set by default. Optionally, change the creation date (click to open the date picker).
+1. Das heutige **Datum** ist standardmäßig eingestellt. Ändern Sie optional das Erstellungsdatum (klicken Sie, um den Datumswähler zu öffnen).
 
     > [!NOTE]
-    > You cannot change this date after clicking the **Create** button (the field becomes read-only).
+    > Sie können dieses Datum nicht mehr ändern, nachdem Sie auf die Schaltfläche **Erstellen** geklickt haben (das Feld wird schreibgeschützt).
 
-1. Enter references:
+1. Geben Sie Referenzen ein:
 
-    * **Our ref:** Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
-    * **Your ref:** Enter the addressee's reference from their communication.
+    * **Unsere Ref.:** Geben Sie Ihre eigene Referenz ein. Der Standardwert für jede Vorlage wird in den Einstellungen und der Wartung definiert, aber Sie können den Inhalt dieses Feldes auch bearbeiten.
+    * **Ihre Ref.:** Geben Sie die Referenz des Adressaten aus ihrer Kommunikation ein.
 
-### Other settings (optional)
+### Weitere Einstellungen (optional)
 
-* In the the **Details** tab, enter a description of the document (or keywords) to aid free-text searching.
+* Geben Sie im Tab **Details** eine Beschreibung des Dokuments (oder Schlüsselwörter) ein, um die Freitextsuche zu erleichtern.
 
-* In the **Links** tab, click **Add link** to [link the document to other activities][9].
+* Klicken Sie im Tab **Links** auf **Link hinzufügen**, um [das Dokument mit anderen Aktivitäten zu verknüpfen][9].
 
-* In the **More** tab, set any [user-defined fields][10] configured in Settings and maintenance.
+* Legen Sie im Tab **Mehr** alle [benutzerdefinierten Felder][10] fest, die in den Einstellungen und der Wartung konfiguriert sind.
 
 ## <a id="upload" />Dokumente hochladen
 
