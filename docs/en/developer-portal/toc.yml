@@ -35,12 +35,10 @@ items:
   - name: Best practices
     href: best-practices/index.md
     items:
-    - name: Tenant status
-      href: best-practices/tenant-status/index.md
-    - name: How to check status
-      href: best-practices/tenant-status/check-status.md
-    - name: Register and parse notifications
-      href: best-practices/tenant-status/get-notifications.md
+    - name: Tenant status API
+      href: best-practices/tenant-status/tenant-status-api.md
+    - name: Tenant status Webhook
+      href: best-practices/tenant-status/tenant-status-webhook.md
     - name: Error reporting emails
       href: best-practices/error-emails.md
   - name: Partners and users
