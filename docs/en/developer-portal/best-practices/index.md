@@ -33,10 +33,7 @@ To obtain either one of these credentials requires authentication. SuperOffice s
 
 ## Tenant status
 
-Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change.
-
-* [Tenant status API (Pull)][8]
-* [Tenant status webhook (Push)][9]
+Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change, both described in the [Tenant status][8] section.
 
 ## API Usage
 
@@ -315,9 +312,8 @@ Read about [effective visual design][6].
 [2]: ./credential-management.md#front-channel
 [5]: ./credential-management.md#back-channel
 
-[1]: ./tenant-status/tenant-status-api.md#state
-[8]: ./tenant-status/tenant-status-api.md
-[9]: ./tenant-status/tenant-status-webhook.md
+[1]: ./tenant-status/index.md#state
+[8]: ./tenant-status/index.md
 
 <!--[10]: tenant-status/index.md#notify
 [4]: ../faq/update-app.md
