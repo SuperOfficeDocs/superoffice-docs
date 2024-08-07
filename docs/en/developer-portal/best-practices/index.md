@@ -31,7 +31,7 @@ Valid credentials are:
 
 To obtain either one of these credentials requires authentication. SuperOffice supports two types of authentication: [front-channel][2] and [back-channel][5]. Both exist outside any tenant API space and availability is independent of the tenant.
 
-## Tenant status
+## Tenant availability
 
 Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change, both described in the [Tenant status][8] section.
 
