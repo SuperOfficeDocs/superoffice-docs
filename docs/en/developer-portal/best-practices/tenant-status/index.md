@@ -10,7 +10,7 @@ envir: cloud
 client: online
 ---
 
-# Tenant Status
+# Tenant status
 
 The state of the tenant indicates if a tenant is available to receive requests, and it is recommended you always know the state of the tenant before sending any requests to the API.
 There are two ways to know the tenant status, either by [checking its status through the API (Pull)][1] or [receive notifications when a tenant changes status (Push)][2].
@@ -19,8 +19,6 @@ These options are fundamentally different, proactive vs reactive, and its up to 
 ## Checking tenant status (Pull)
 
 This is a proactive means to determine the current status of a tenant. Your application precedes each API request with a [call to the state endpoint][1] to ensure the tenant is in a **Running** state.
-
-<!-- Placeholder for image/diagram for the flow -->
 
 ![Check-status-mermaid][img1]
 
@@ -36,7 +34,6 @@ Notifications ensure that vendors are aware when the states of their customers c
 
 When SuperOffice upgrades a tenant, for example, SuperOffice looks at each application approved by the tenant and sends out a notification to each one to indicate that the tenant is about to be upgraded. This provides the application an opportunity to know when a tenant going to be unavailable and why communications with that tenant cease until further notice.
 
-<!-- Placeholder for image/diagram for the flow -->
 ![get-notifications-mermaid][img2]
 
 Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
