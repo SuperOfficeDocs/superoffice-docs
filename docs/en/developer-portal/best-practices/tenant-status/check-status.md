@@ -13,6 +13,7 @@ client: online
 # Check tenant status
 
 The following parameters are required to send a request to the state API:
+
 * Set `ENVIR` to [sod, stage or online][1] depending on where your application runs.
 * Set `CONTEXTID` to your context identifier, for example, Cust00000.
 

@@ -315,9 +315,6 @@ Read about [effective visual design][6].
 [1]: ./tenant-status/index.md#state
 [8]: ./tenant-status/index.md
 
-<!--[10]: tenant-status/index.md#notify
-[4]: ../faq/update-app.md
-[12]: ../create-app/index.md-->
 [13]: ../getting-started/what-api-to-use.md
 [14]: ../standard-app/certification/checklist.md
 [15]: ../standard-app/requirements/security.md
