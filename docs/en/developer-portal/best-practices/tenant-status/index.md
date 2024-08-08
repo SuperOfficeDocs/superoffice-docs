@@ -20,7 +20,7 @@ These options are fundamentally different, proactive vs reactive, and its up to 
 
 This is a proactive means to determine the current status of a tenant. Your application precedes each API request with a [call to the state endpoint][1] to ensure the tenant is in a **Running** state.
 
-[!code-mermaid[check-status-mermaid](includes/check-status-mermaid.md)]
+[!include[check-status-mermaid](includes/check-status-mermaid.md)]
 
 The [state][3] signals wether the tenant is available for handling API requests.
 
@@ -34,7 +34,7 @@ Notifications ensure that vendors are aware when the states of their customers c
 
 When SuperOffice upgrades a tenant, for example, SuperOffice looks at each application approved by the tenant and sends out a notification to each one to indicate that the tenant is about to be upgraded. This provides the application an opportunity to know when a tenant going to be unavailable and why communications with that tenant cease until further notice.
 
-[!code-mermaid[get-notifications-mermaid](includes/get-notifications-mermaid.md)]
+[!include[get-notifications-mermaid](includes/get-notifications-mermaid.md)]
 
 Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
 
