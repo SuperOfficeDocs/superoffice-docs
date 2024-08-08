@@ -9,9 +9,11 @@ envir: cloud
 client: online
 ---
 
-# How to authenticate an application user
+# How to authenticate an application user (front-channel)
 
-Let's look at how you can authenticate an application user with OAuth 2.0. Not sure which flow to use? Check out the [authentication scenarios for various app types][7].
+Front-channel authentication is a user-interactive experience facilitated by OAuth 2.0 or **OpenID Connect** (OIDC). In short, the result of an OIDC flow includes an access token, an ID token, and a refresh token. An access token is good for 20 minutes, and a new one is easily obtained using the refresh token. As a **best practice**, several frameworks including ASP.NET, continue to use access tokens until an HTTP 403 error occurs, at which time it uses the refresh token to obtain a new access token and then tries the request again. We have [one example][11] (ASP.NET Core 3.1) that demonstrates another routine using [middleware][12] that checks the expiration of the token before each request and updates it if necessary. We do not claim this to be *the way* to do it but share this as one option among several possible solutions.
+
+Not sure which flow to use? Check out the [authentication scenarios for various app types][7].
 
 The **client ID** is necessary to link the user to an application definition where the redirect URL is specified.
 
@@ -67,6 +69,9 @@ Below is a high-level overview of the flow. For details, check out the [Implicit
 [7]: ../which-flow-to-use.md
 [8]: hybrid-flow.md
 [9]: native-apps.md
+
+[11]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
+[12]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/blob/master/source/SuperOffice.DevNet.RazorPages/Middleware/RefreshTokenMiddleware.cs
 
 <!-- Referenced images -->
 [img1]: media/oauth-code-flow.png

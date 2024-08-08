@@ -309,8 +309,8 @@ Read about [effective visual design][6].
 
 <!-- Referenced links -->
 
-[2]: ./credential-management.md#front-channel
-[5]: ./credential-management.md#back-channel
+[2]: ../../api/authentication/online/sign-in-user/index.md
+[5]: ../../api/authentication/online/auth-application/index.md
 
 [1]: ./tenant-status/index.md#state
 [8]: ./tenant-status/index.md
