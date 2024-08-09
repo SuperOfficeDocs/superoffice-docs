@@ -14,7 +14,7 @@ client: online
 
 Building integrations in the cloud requires a different mindset than onsite integrations. This guide presents concepts to consider when building online applications and provides suggestions for how to best work in this **stateless environment**.
 
-First and foremost, every application must have a solid testing foundation where every measurable metric is measured. This requirement is not limited to just your integration with SuperOffice but also frequently used 3rd-party applications. **How will your application affect the performance of a tenant or one of the other applications used by that tenant?** These are the type of questions you must ask yourself and have answers to when or if a tenant starts to complain about performance.
+First and foremost, every application must have a solid testing foundation where every measurable metric is measured. This requirement is not limited to just your integration with SuperOffice but also frequently used 3rd-party applications. **How will your application affect the performance of a tenant or one of the other applications used by that tenant?** These are the type of questions you must ask yourself and have answers to when or if a tenant starts to run into performance-issues.
 
 There is a wide variety of things to consider, from authentication and basic connectivity issues to API usage, complex query analysis, and notifications.
 
@@ -29,62 +29,11 @@ Valid credentials are:
 * An [access token][22]
 * A [ticket][23]
 
-To obtain either one of these credentials requires authentication. SuperOffice supports two types of authentication: front-channel and back-channel. Both exist outside any tenant API space and availability is independent of the tenant.
-
-**Front-channel** authentication is a user-interactive experience facilitated by OAuth 2.0 or **OpenID Connect** (OIDC), and is documented in our [interactive authentication][8] section. In short, the result of an OIDC flow includes an access token, an ID token, and a refresh token. An access token is good for 20 minutes, and a new one is easily obtained using the refresh token. As a **best practice**, several frameworks including ASP.NET, continue to use access tokens until an HTTP 403 error occurs, at which time it uses the refresh token to obtain a new access token and then tries the request again. We have [one example][18] (ASP.NET Core 3.1) that demonstrates another routine using [middleware][19] that checks the expiration of the token before each request and updates it if necessary. We do not claim this to be *the way* to do it but share this as one option among several possible solutions.
-
-**Back-channel** authentication is a non-interactive, server-to-server, experience facilitated by the [System User flow][9]. This flow returns a JWT token that contains several claims **including a ticket**. The ticket claim is *the* credential, **not** the JWT itself, and is valid for up to 6 hours. Our recommended **best practice** for back-channel communications is to actively manage the system user ticket credential. The ticket credential is good for 6 hours, and has a sliding-expiration behavior that resets the 6 hour window each time it is used. We recommend applications cache the Ticket credential and keep track of the timeout period from when it was issued and last used. Only obtain a new ticket when the current one has expired or is about to expire.
-
-Do not invoke the system user flow before each and every call to a tenant's API, unless there is more than 6 hours between each invocation.
-
-You must for security reasons [Validate every security token][5] sent from SuperOffice CRM Online.
+To obtain either one of these credentials requires authentication. SuperOffice supports two types of authentication: [front-channel][2] and [back-channel][5]. Both exist outside any tenant API space and availability is independent of the tenant.
 
 ## Tenant availability
 
-Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change.
-
-* Tenant status API
-* Tenant status webhook
-
-### Tenant status API
-
-This is a proactive means to determine the current state of a tenant. Your application precedes each API request with a call to the state endpoint to ensure the tenant is in a **Running** state. This signals the tenant is available for handling API requests. The following example demonstrates how the request by an application should work.
-
-**Tenant status API request example:**
-
-```http
-https://online.superoffice.com/api/state/Cust12345
-```
-
-**Tenant status API Response example:**
-
-```json
-{
-    "ContextIdentifier": "Cust12345",
-    "Endpoint": "https://online.superoffice.com/Cust12345",
-    "State": "Running",
-    "IsRunning": true,
-    "ValidUntil": "2020-10-05T09:52:01.9342965Z",
-    "Api": "https://online.superoffice.com/Cust12345/api"
-}
-```
-
-### Tenant status webhook
-
-This option is a more reactive flow that sends notifications each and every time a tenant state changes. SuperOffice sends out a [notifications][10] payload and gives you a chance to manage tenant customer states better.
-
-The five possible state changes are:
-
-* Upgrade
-* BackupRestored
-* Suspend
-* Resume
-* Delete
-
-Not only does that provide advanced notice when tenants are upgraded to new versions of SuperOffice, but it can signal whenever a customer has canceled a subscription (Delete).
-
-> [!NOTE]
-> The only way to subscribe to this webhook is by supplying a **State Change URL** when you [register the application][12], or submitting an [application change request][4]. Provide the URL where the state change payload is sent in the **Other changes** textbox as *Stage Change URL: `https://your_domain.com/your_endpoint_name`*.
+Online tenants can be in one of several [states][1] at any given time and therefore, it is recommended you always check the state of the tenant before sending any requests to the API. There are two options to check a tenant's current state or be notified of a tenant's state change, both described in the [Tenant status][8] section.
 
 ## API Usage
 
@@ -359,10 +308,13 @@ Read about [effective visual design][6].
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
 
 <!-- Referenced links -->
-[1]: tenant-status/index.md#state
-[10]: tenant-status/index.md#notify
-[4]: ../faq/update-app.md
-[12]: ../create-app/index.md
+
+[2]: ../../api/authentication/online/sign-in-user/index.md
+[5]: ../../api/authentication/online/auth-application/index.md
+
+[1]: ./tenant-status/index.md#state
+[8]: ./tenant-status/index.md
+
 [13]: ../getting-started/what-api-to-use.md
 [14]: ../standard-app/certification/checklist.md
 [15]: ../standard-app/requirements/security.md
@@ -371,9 +323,6 @@ Read about [effective visual design][6].
 [6]: ../../ui/design/index.md
 [16]: ../../automation/webhook/index.md
 
-[5]: ../../api/authentication/online/validate-security-tokens.md
-[8]: ../../api/authentication/online/sign-in-user/index.md
-[9]: ../../api/authentication/online/auth-application/index.md
 [17]: ../../api/bulk-operations/index.md
 [21]: ../../api/search/odata/index.md
 [22]: ../../api/authentication/online/api.md#access-tokens
@@ -382,8 +331,6 @@ Read about [effective visual design][6].
 
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
-[18]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[19]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/blob/master/source/SuperOffice.DevNet.RazorPages/Middleware/RefreshTokenMiddleware.cs
 [20]: https://en.wikipedia.org/wiki/Big_O_notation
 
 <!-- Referenced images -->

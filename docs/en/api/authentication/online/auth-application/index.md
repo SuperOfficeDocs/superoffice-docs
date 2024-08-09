@@ -10,9 +10,13 @@ client: online
 ---
 
 <!-- markdownlint-disable-file MD051 -->
-# System user flow
+# System user flow (back-channel)
 
-The **System User Flow** offers a method for server-to-server communication, eliminating the need for an interactive user login. This approach is pivotal for applications aiming to access data without traditional user constraints.
+The **System User Flow** offers a method for server-to-server communication, eliminating the need for an interactive user login. This flow returns a JWT token that contains several claims **including a ticket**. The ticket claim is *the* credential, **not** the JWT itself, and is valid for up to 6 hours. Our recommended **best practice** for back-channel communications is to actively manage the system user ticket credential. The ticket credential is good for 6 hours, and has a sliding-expiration behavior that resets the 6 hour window each time it is used. We recommend applications cache the Ticket credential and keep track of the timeout period from when it was issued and last used. Only obtain a new ticket when the current one has expired or is about to expire.
+
+Do not invoke the system user flow before each and every call to a tenant's API, unless there is more than 6 hours between each invocation.
+
+You must for security reasons [Validate every security token][3] sent from SuperOffice CRM Online.
 
 > [!WARNING]
 > The ticket credential from the System User flow should be cached. It is valid for 6 hours, with a sliding expiration each time it is used. Therefore, only obtain a new one when necessary, for example when a request results in a 401 Unauthorized or the cache times out.
@@ -101,5 +105,6 @@ Armed with valid credentials, your application is set to send authenticated requ
 [8]: get-system-user-ticket.md
 [10]: ../sign-in-user/index.md
 [11]: sign-system-user-token.md
+
 <!-- Referenced images -->
 [img3]: media/create-application-server-to-server.png

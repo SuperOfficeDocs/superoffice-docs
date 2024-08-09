@@ -17,7 +17,7 @@ items:
       href: authentication/online/which-flow-to-use.md
     - name: OpenID Connect
       href: authentication/online/api.md
-    - name: Sign in user (interactive)
+    - name: Sign in user (front-channel)
       href: authentication/online/sign-in-user/index.md
       items:
       - name: Authorization Code Flow
