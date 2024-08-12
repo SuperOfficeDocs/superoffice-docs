@@ -2,13 +2,15 @@
 uid: help-en-document-lock
 title: Check in/out documents
 description: Check in/out documents
-keywords: document
+keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 07.19.2024
-topic: howto
+date: 08.12.2024
+version: 10.3.8
+topic: concept
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Check in/out documents
@@ -57,13 +59,12 @@ You need special privileges to access this option. You also need write access to
 If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
-2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.
+2. In the **Document** dialog, click **Task** and select **Revert to saved version**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png

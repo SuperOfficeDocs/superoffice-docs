@@ -4,11 +4,13 @@ title: Create new document
 description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
 keywords: document, SharePoint, create document, upload document, online text-editing
 author: Bergfrid Dias
-date: 07.19.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Create new document
@@ -84,10 +86,11 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 7. Go to the **Document** dialog.
 
     > [!NOTE]
-    > If ![icon][img1] **Completed** is checked, the upload options are disabled. In that case, remove the checkmark.
+    > If **Completed** is checked, the upload options are disabled. In that case, remove the checkmark.
 
 8. Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
+    <!-- TODO: retake screenshot when GA -->
     ![Create a new document -screenshot][img2]
 
 9. Close the **Document** dialog by clicking **Save**.
@@ -99,7 +102,19 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 > [!NOTE]
 > Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
-![Create document from template -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/old)
+
+![Create document from template (classic) -screenshot][img3]
+
+### [New (from version 10.3.8 pilot)](#tab/new)
+
+![Create document from template (new) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Steps:**
 
 1. Choose a [document template][5]. Select a language for the template. This option is only available if the selected template includes translated versions.
 
@@ -133,7 +148,10 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 2. Drag and drop the document from Windows Explorer to the **Document** dialog.
 
-3. (optional) Click ![icon][img4] in the top-right corner to set the document to **Completed** ![icon][img1].
+3. (optional) Mark the document as completed:
+
+    * Classic dialog: Click the checkmark icon at the top-right of the dialog.
+    * New (from version 10.3.8 pilot): Select the checkbox in the footer.
 
 4. [Complete the fields with the required information](#fields).
 
@@ -159,8 +177,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png

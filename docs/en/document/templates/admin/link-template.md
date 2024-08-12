@@ -64,6 +64,7 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 ![New document -screenshot][img4]
 
+<!-- TODO: retake screenshot when GA -->
 ![New document dialog -screenshot][img5]
 
 > [!TIP]
