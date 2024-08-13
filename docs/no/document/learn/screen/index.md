@@ -85,7 +85,7 @@ Se [Sjekke inn/ut dokument][4].
 
 ### Fullført
 
-Som standard er dokumentet merket som fullført (![icon][img4]), men du kan fjerne denne avmerkingen hvis du ønsker det (![icon][img5]). Dokumentet vil da vises på detaljkortet **Aktiviteter** på dagbokskjermbildet til det er merket som fullført.
+Som standard er dokumentet merket som fullført ![icon][img4], men du kan fjerne denne avmerkingen hvis du ønsker det. Dokumentet vil da vises på detaljkortet **Aktiviteter** på dagbokskjermbildet til det er merket som fullført.
 
 > [!NOTE]
 > Du kan ikke redigere fullførte dokumenter før du har deaktivert **Utført**-statusen. [Slik endrer du Fullført-statusen for en aktivitet][7].
