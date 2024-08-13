@@ -4,11 +4,13 @@ title: Nieuw document maken
 description: Maak een nieuw document rechtstreeks in SuperOffice CRM of upload bestaande documenten, om ervoor te zorgen dat u en uw collega's altijd toegang hebben tot de nieuwste documenten en versies. Deze handleiding laat u zien hoe u beide kunt doen.
 keywords: document
 author: Bergfrid Dias
-date: 07.12.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Nieuwe documenten maken
@@ -84,7 +86,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 7. Ga naar het scherm Document.
 
     > [!NOTE]
-    > Als ![pictogram][img1] **Voltooid** is ingeschakeld in het dialoogvenster Document, zijn de uploadopties uitgeschakeld. Verwijder in dat geval het vinkje **Voltooid**.
+    > Als **Voltooid** is ingeschakeld in het dialoogvenster Document, zijn de uploadopties uitgeschakeld. Verwijder in dat geval het vinkje **Voltooid**.
 
 8. Klik op de koppeling om het document te uploaden of gebruik Slepen en neerzetten om het document vanuit Windows Verkenner naar het dialoogvenster **Document** te verplaatsen.
 
@@ -99,7 +101,19 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 > [!NOTE]
 > Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
-![Document maken vanuit sjabloon -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/dialog-old)
+
+![Document maken vanuit sjabloon (Klassiek) -screenshot][img3]
+
+### [Nieuw (vanaf versie 10.3.8 pilot)](#tab/cdialog-new)
+
+![Document maken vanuit sjabloon (Nieuw) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Stappen:**
 
 1. Kies een [documentsjabloon][5]. Selecteer een taal voor de sjabloon. Deze optie is alleen beschikbaar als de geselecteerde sjabloon vertaalde versies bevat.
 
@@ -133,7 +147,10 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 2. Gebruik slepen en neerzetten om het document te verplaatsen vanuit Windows Explorer naar het dialoogvenster **Document**.
 
-3. (optioneel) Klik op ![pictogram][img4] in de rechterbovenhoek om het document in te stellen als **Voltooid** ![pictogram][img1].
+3. (optioneel) Markeer het document als voltooid:
+
+     * Klassieke dialoog: Klik op het vinkje pictogram rechtsboven in de dialoog.
+     * Nieuw (vanaf versie 10.3.8 pilot): Selecteer het selectievakje in de voettekst.
 
 4. [Typ de gewenste informatie in de verschillende velden.](#fields)
 
@@ -159,8 +176,8 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img5]: ../../../../common/icons/dropdown-icon.png
 [img5]: ../../../../common/icons/dropdown-icon.png

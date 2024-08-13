@@ -4,7 +4,7 @@ title: Check in/out documents
 description: Check in/out documents
 keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 08.12.2024
+date: 08.27.2024
 version: 10.3.8
 topic: concept
 language: en

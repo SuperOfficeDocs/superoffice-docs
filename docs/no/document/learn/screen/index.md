@@ -3,7 +3,7 @@ uid: help-no-document-dialog
 title: Dialogboks for dokument
 description: Dialogboks for dokument
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.27.2024
 keywords: dokument
 topic: concept
 language: no
@@ -138,6 +138,7 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +147,3 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

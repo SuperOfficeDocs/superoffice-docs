@@ -4,11 +4,13 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 87.02.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Documenten aan/afmelden
@@ -57,13 +59,12 @@ U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt 
 Als u of iemand anders een document heeft uitgecheckt en u het document wilt bewerken, kunt u het afmelden annuleren:
 
 1. Klik met de rechtermuisknop op het document en selecteer **Document**.
-2. Klik in het dialoogvenster Document op ![pictogram][img1] en selecteer **Opgeslagen versie gebruiken**.
+2. Klik in het dialoogvenster Document op **Taak** en selecteer **Opgeslagen versie gebruiken**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png

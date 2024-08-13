@@ -4,11 +4,13 @@ title: Arbeta med dokument
 description: Den här guiden visar hur du skapar och sparar dokument i SuperOffice CRM och hur du skickar och tar emot dokument direkt i din CRM-lösning.
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 08.12.2024
+version: 10.3.8
 topic: concept
 language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Arbeta med dokument ![ikon][img1]
@@ -22,9 +24,23 @@ Dokument kan till exempel vara brev, offerter eller anteckningar, och de kan anv
 
 Du kan öppna ett dokument i [redigeringsläge eller läsläge][7]. När du öppnar dokumentet i redigeringsläge, är det bara du som kan redigera det. Andra användare kan öppna dokumentet i läsläge. Om ditt företag använder ett dokumentbibliotek som SharePoint kan flera personer redigera ett dokument samtidigt.
 
+## Allmän information
+
+| Ikon | Egenskap | Beskrivning |
+|:-:|---|---|
+| ![icon][img11] | Språk | En lista över tillgängliga översättningar av mallen. "Standard" om ej översatt. |
+| ![icon][img4] | Datum | Dagens datum (standard). Klicka på pilen bredvid **Datum**-fältet för att öppna en månadskalender där du kan välja det önskade datumet. |
+| ![icon][img3] | Ämne | Rubriken på dokumentet (texten som visas i avsnittsflikar och rapporter där dokumentet är listat). |
+| ![icon][img2] | Mall | En fördefinierad lista över [dokumentmallar][11] som Brev eller Offert. |
+| ![icon][img7], ![icon][img8] | Företag / kontakt | Vem dokumentet gäller. |
+| ![icon][img5] | Försäljning | En försäljning kopplad till dokumentet. |
+| ![icon][img6] | Projekt | Ett projekt kopplat till dokumentet. |
+| | Vår ref | Tilldelat dokumentnummer. |
+| | Er ref | Mottagarens referens från deras kommunikation. |
+
 ## Skapa ny
 
-Oavsett var i SuperOffice CRM du befinner dig kan du skapa eller ladda upp ett nytt dokument genom att klicka på **Nytt** i det övre fältet och välja **Dokument**. Du kan också skapa och ladda upp nya dokument via **Nytt**-knappen på toppraden.
+Oavsett var i SuperOffice CRM du befinner dig kan du skapa eller ladda upp ett nytt dokument genom att klicka på **Nytt** i det övre fältet och välja **Dokument**.
 
 ## Hitta dina dokument
 
@@ -36,7 +52,7 @@ Oavsett var i SuperOffice CRM du befinner dig kan du skapa eller ladda upp ett n
 
 ## Lägg till en post som favorit
 
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
+Om du vill lägga till en post i favoriter klickar du på stjärnikonen ikonen ![ikon][img13] i hörnet av det aktuella kortet, fliken eller dialogrutan. Stjärnan blir gul ![ikon][img12] och posten läggs omedelbart till i favoriter. Du behöver inte klicka på **Spara**.
 
 ## Standardisera dina dokument
 
@@ -47,6 +63,10 @@ Du kan lägga till alla typer av dokumentmallar i SuperOffice CRM: avtal, offert
 Genom att skapa mallar för dokument som används ofta och göra dem tillgängliga för alla sparar du tid för dina CRM-användare och säkerställer ett enhetligt utseende i hela företaget.
 
 I SuperOffice CRM kan du enkelt skapa dokumentmallar för Word, E-post, Excel, PowerPoint och andra filtyper.
+
+## <a id="more-tab" />Fliken Mer
+
+På fliken **Mer** visas användardefinierade fält för dokument. Om din organisation behöver fler fält än standardfälten, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
 
 ## Relaterade ämnen
 
@@ -62,6 +82,18 @@ I SuperOffice CRM kan du enkelt skapa dokumentmallar för Word, E-post, Excel, P
 [5]: send-as-email.md
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
+[11]: ../templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png
+[img2]: ../../../../common/icons/singlecolour/document.png
+[img3]: ../../../../common/icons/title.png
+[img4]: ../../../../common/icons/diaryblack.png
+[img5]: ../../../../common/icons/sale.png
+[img6]: ../../../../common/icons/singlecolour/project.png
+[img7]: ../../../../common/icons/singlecolour/contact.png
+[img8]: ../../../../common/icons/person.png
+
+[img11]: ../../../../common/icons/az.png
+[img12]: ../../../../common/icons/favourite-yes.png
+[img13]: ../../../../common/icons/favourite-no.png

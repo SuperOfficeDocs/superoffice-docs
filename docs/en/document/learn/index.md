@@ -1,10 +1,10 @@
 ---
 uid: help-en-document
-title: Documents
+title: Document
 description: Introduction to documents and document handling in SuperOffice.
 keywords: document, activity, activities
 author: Bergfrid Dias
-date: 08.12.2024
+date: 08.27.2024
 version: 10.3.8
 topic: concept
 language: en
@@ -13,7 +13,7 @@ audience_tooltip: SuperOffice CRM
 pilot: yes
 ---
 
-# Documents ![icon][img1]
+# Document ![icon][img1]
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 

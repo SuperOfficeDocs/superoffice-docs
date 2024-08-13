@@ -4,7 +4,7 @@ title: Edit documents
 description: Editing documents; Deleting documents
 keywords: document, edit mode, read mode, completed, document properties, document content, SharePoint
 author: Bergfrid Dias
-date: 08.12.2024
+date: 08.27.2024
 version: 10.3.8
 topic: howto
 language: en

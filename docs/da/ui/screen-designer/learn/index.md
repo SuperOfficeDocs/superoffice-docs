@@ -5,7 +5,7 @@ description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i 
 keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.8
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance

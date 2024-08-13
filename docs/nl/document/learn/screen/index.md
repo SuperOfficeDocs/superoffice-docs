@@ -2,9 +2,9 @@
 uid: help-nl-document-dialog
 title: Dialoogvenster Document
 description: Dialoogvenster Document
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: document
+author: SuperOffice RnD
+date: 08.27.2024
 topic: concept
 language: nl
 ---
@@ -85,7 +85,7 @@ Zie [Document aan/afmelden][4].
 
 ### Voltooid
 
-Standaard wordt dit document gemarkeerd als voltooid (![pictogram][img4]), maar u kunt het vinkje eventueel verwijderen (![pictogram][img5] ). Het document wordt vervolgens weergegeven op het sectietabblad **Activiteiten** in het scherm Agenda totdat het als voltooid wordt gemarkeerd.
+Standaard wordt dit document gemarkeerd als voltooid ![pictogram][img4], maar u kunt het vinkje eventueel verwijderen. Het document wordt vervolgens weergegeven op het sectietabblad **Activiteiten** in het scherm Agenda totdat het als voltooid wordt gemarkeerd.
 
 > [!NOTE]
 > voltooide documenten kunt u pas bewerken als u de optie **Voltooid** ongedaan hebt gemaakt. [De status Voltooid voor een activiteit wijzigen][7].
@@ -138,6 +138,7 @@ Dit tabblad bevat alle velden die in Instellingen en onderhoud zijn [gedefinieer
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +147,3 @@ Dit tabblad bevat alle velden die in Instellingen en onderhoud zijn [gedefinieer
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

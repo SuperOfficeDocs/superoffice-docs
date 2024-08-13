@@ -4,11 +4,13 @@ title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Sjekke inn/ut dokumenter
@@ -57,13 +59,12 @@ Du trenger spesielle privilegier for å få tilgang til dette alternativet. Du t
 Hvis du eller noen andre har sjekket ut et dokument og vil redigere dokumentet, kan du avbryte utsjekkingen:
 
 1. Høyreklikk på dokumentet og velg **Dokument**.
-2. I skjermbildet Dokument klikker du på ![icon][img1] og velger **Hent lagret versjon**.
+2. I skjermbildet Dokument klikker du på **Oppgave** og velger **Hent lagret versjon**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png

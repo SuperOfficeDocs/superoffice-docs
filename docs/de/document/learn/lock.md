@@ -4,11 +4,13 @@ title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
 keywords: Dokument
 author: Bergfrid Dias
-date: 87.02.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Dokumente ein-/auschecken
@@ -57,13 +59,12 @@ Für den Zugriff auf diese Option benötigen Sie spezielle Rechte. Zudem benöti
 Wenn ein Dokument von Ihnen oder einem anderen Benutzer ausgecheckt wurde und Sie das Dokument bearbeiten möchten, können Sie das Auschecken wie folgt abbrechen:
 
 1. Klicken Sie mit der rechten Maustaste auf das Dokument und wählen Sie **Dokument**.
-2. Klicken Sie in der Anzeige Dokument auf ![Symbol][img1] und wählen Sie **Zurück zur gespeicherten Version** aus.
+2. Klicken Sie in der Anzeige Dokument auf **Aufgabe** und wählen Sie **Zurück zur gespeicherten Version** aus.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png

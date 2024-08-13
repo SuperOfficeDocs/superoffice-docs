@@ -5,7 +5,7 @@ description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfi
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.8
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance

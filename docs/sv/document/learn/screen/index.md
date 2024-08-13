@@ -3,7 +3,7 @@ uid: help-sv-document-dialog
 title: Dialogrutan Dokument
 description: Dialogrutan Dokument
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.27.2024
 keywords: dokument
 topic: concept
 language: sv
@@ -138,6 +138,7 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +147,3 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

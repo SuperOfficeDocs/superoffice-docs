@@ -4,11 +4,13 @@ title: Checka in/ut dokument
 description: Checka in/ut dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 87.02.2024
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Checka in/ut dokument
@@ -57,13 +59,12 @@ Du behöver särskilda behörigheter för att få tillgång till det här altern
 Om du eller någon annan har checkat ut ett dokument och du vill redigera detta dokument kan du avbryta utcheckningen:
 
 1. Högerklicka på dokumentet och välj **Dokument**.
-2. Klicka på ![ikon][img1] och välj **Hämta sparad version**.
+2. Klicka på **Uppgift** och välj **Hämta sparad version**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png

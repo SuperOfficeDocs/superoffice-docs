@@ -1,17 +1,19 @@
 ---
 uid: help-no-document-update
-title: Redigere dokumenter
-description: Redigere dokumenter
+title: Redigere dokument
+description: Redigere dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
-# Redigere dokumenter
+# Redigere dokument
 
 Redigering av dokumenter omfatter to ting:
 
@@ -34,6 +36,9 @@ Hvis du vil endre dokumentegenskaper, for eksempel prosjektet som dokumentet er 
 
 4. Klikk på **Lagre**-knappen.
 
+> [!NOTE]
+> Du kan ikke redigere fullførte dokumenter før du har deaktivert **Utført**-statusen.
+
 ## Redigere dokumentinnhold
 
 Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i SuperOffice-installasjonen.
@@ -43,15 +48,17 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 
 1. Dobbeltklikk på det nødvendige dokumentet.
 
-2. Hvis en dialogboks åpnes, klikker du på **Rediger**.
+1. Hvis en dialogboks åpnes, klikker du på **Rediger**.
 
-3. Lagre dokumentet, og lukk tekstbehandlingsprogrammet.
+1. Gjør de nødvendige endringene.
 
-4. (hvis det er aktuelt) I dialogboksen som vises, klikker du på **Ja** hvis du er ferdig med å redigere dokumentet. Klikk på **Nei** for å beholde dokumentet utsjekket.
+1. Lagre dokumentet, og lukk tekstbehandlingsprogrammet.
+
+1. (hvis det er aktuelt) I dialogboksen som vises, klikker du på **Ja** hvis du er ferdig med å redigere dokumentet. Klikk på **Nei** for å beholde dokumentet utsjekket.
 
     Denne dialogboksen vises bare hvis dette alternativet ble aktivert i SuperOffice WebTools.
 
-5. Dokumentet sjekkes inn, og statusen settes til **Utført**.
+1. Dokumentet sjekkes inn, og statusen settes til **Utført**.
 
 ### [Med SharePoint](#tab/sharepoint)
 
@@ -61,7 +68,7 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 
 2. Rediger dokumentet.
 
-3. Lukk fanen eller skrivebordsprogrammet. Dokumentet lagres automatisk i SharePoint
+3. Lukk fanen eller skrivebordsprogrammet. Dokumentet lagres automatisk i SharePoint.
 
 ### [Uten SuperOffice WebTools](#tab/no-webtools)
 
@@ -105,9 +112,21 @@ Dialogboksen er litt annerledes i Chrome, Edge, Firefox og Safari.
 
 ## <a id="delete"></a>Slette dokumenter
 
+### Fra aktivitetsfanen
+
 1. Velg ønsket dokument i detaljkortet **Aktiviteter** på skjermbildene firma, person, dagbok, salg eller prosjekt.
-2. Klikk på **Slett**-knappen nederst til venstre i listen.
-3. I dialogboksen **Slett dokument** bekrefter eller avbryter du slettingen.
+
+2. Høyreklikk og velg **Slett**.
+
+3. Bekreft eller avbryt slettingen i bekreftelsesdialogen.
+
+### Fra dokumentdialogen
+
+Når du ser et spesifikt dokument:
+
+1. Klikk på **Oppgave**-knappen i **Dokument**-dialogen.
+2. Velg **Slett**.
+3. Bekreft eller avbryt slettingen i bekreftelsesdialogen.
 
 ## Feilsøking
 
@@ -117,10 +136,15 @@ Hvis du dobbeltklikker på et dokument og ingenting skjer, kan du prøve å høy
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Aktuelle emner
+
+* [Slik endrer du Fullført-statusen for en aktivitet][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png

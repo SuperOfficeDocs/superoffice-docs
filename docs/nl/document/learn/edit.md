@@ -2,13 +2,15 @@
 uid: help-nl-document-update
 title: Documenten bewerken
 description: Documenten bewerken
-author: Bergfrid Dias
-date: 08.02.2024
 keywords: document
+author: Bergfrid Dias
+date: 08.12.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+pilot: yes
 ---
 
 # Documenten bewerken
@@ -32,6 +34,9 @@ Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het documen
 
 4. Klik op de knop **Opslaan**.
 
+> [!NOTE]
+> Voltooide documenten kunt u pas bewerken als u de optie **Voltooid** ongedaan hebt gemaakt.
+
 ## Documentinhoud bewerken
 
 Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd in uw SuperOffice-installatie.
@@ -41,15 +46,17 @@ Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd 
 
 1. Dubbelklik op het gewenste document.
 
-2. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
+1. Als er een dialoogvenster wordt geopend, klikt u op **Bewerken**.
 
-3. Sla het document op en sluit de tekstbewerkingstoepassing.
+1. Breng de gewenste wijzigingen aan.
 
-4. (indien van toepassing) Klik in het dialoogvenster dat wordt weergegeven, op **Ja** als u klaar bent met de bewerking van het document. Klik op **Nee** om het document afgemeld te houden.
+1. Sla het document op en sluit de tekstbewerkingstoepassing.
+
+1. (indien van toepassing) Klik in het dialoogvenster dat wordt weergegeven, op **Ja** als u klaar bent met de bewerking van het document. Klik op **Nee** om het document afgemeld te houden.
 
     Dit dialoogvenster wordt alleen weergegeven als deze optie is geactiveerd in SuperOffice WebTools.
 
-5. Het document is aangemeld en de status is ingesteld op **Voltooid**.
+1. Het document is aangemeld en de status is ingesteld op **Voltooid**.
 
 ### [Met SharePoint](#tab/sharepoint)
 
@@ -61,7 +68,7 @@ Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd 
 
 2. Bewerk het document.
 
-3. Sluit het tabblad of uw bureaublad-app. Het document wordt automatisch opgeslagen in SharePoint
+3. Sluit het tabblad of uw bureaublad-app. Het document wordt automatisch opgeslagen in SharePoint.
 
 ### [Zonder SuperOffice Web Tools](#tab/no-webtools)
 
@@ -105,9 +112,21 @@ De dialoog is enigszins verschillend in Chrome, Edge, Firefox en Safari.
 
 ## <a id="delete"></a>Documenten verwijderen
 
+### Vanuit het Activiteiten-tabblad
+
 1. Selecteer het gewenste document op het sectietabblad **Activiteiten** op de schermen Bedrijf, Persoon, Agenda, Verkoop of Project.
-2. Klik op de knop **Verwijderen** links onder in de lijst.
-3. Bevestig of annuleer het verwijderen in het dialoogvenster **Document verwijderen**.
+
+2. Klik met de rechtermuisknop en kies **Verwijderen**.
+
+3. Bevestig of annuleer de verwijdering in het bevestigingsdialoogvenster.
+
+### Vanuit het Documentdialoogvenster
+
+Bij het bekijken van een specifiek document:
+
+1. Klik op de knop **Taak** in het **Document**-dialoogvenster.
+2. Kies **Verwijderen**.
+3. Bevestig of annuleer de verwijdering in het bevestigingsdialoogvenster.
 
 ## Probleemoplossing
 
@@ -117,10 +136,15 @@ Als u dubbelklikt op een document en er gebeurt niets, klikt u er met de rechter
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Verwante onderwerpen
+
+* [De status Voltooid voor een activiteit wijzigen][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
