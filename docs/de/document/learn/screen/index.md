@@ -1,7 +1,7 @@
 ---
 uid: help-de-document-dialog
-title: "Dialogfeld 'Dokument'"
-description: "Dialogfeld 'Dokument'"
+title: "Dialogfeld Dokument"
+description: "Dialogfeld Dokument"
 author: SuperOffice RnD
 date: 08.27.2024
 keywords: Dokument
@@ -85,7 +85,7 @@ Siehe [Dokument ein-/auschecken][4].
 
 ### Bearbeitet
 
-Standardmäßig ist das Dokument als abgeschlossen (![Symbol][img4]) gekennzeichnet. Sie können diese Kennzeichnung bei Bedarf jedoch entfernen (![Symbol][img5]). Das Dokument wird anschließend in der Ansicht Kalender auf der Bereichsregisterkarte **Aktivitäten** angezeigt, bis es als abgeschlossen gekennzeichnet wird.
+Standardmäßig ist das Dokument als abgeschlossen ![Symbol][img4] gekennzeichnet. Sie können diese Kennzeichnung bei Bedarf jedoch entfernen. Das Dokument wird anschließend in der Ansicht Kalender auf der Bereichsregisterkarte **Aktivitäten** angezeigt, bis es als abgeschlossen gekennzeichnet wird.
 
 > [!NOTE]
 > Erledigte Dokumente können Sie nur bearbeiten, wenn Sie den Status **Abgeschlossen** aufheben. [Wie man den Status Abgeschlossen für eine Aktivität ändert][7].

@@ -85,7 +85,7 @@ Se [Checka in/ut dokument][4].
 
 ### Slutförd
 
-Som standard markeras dokumentet som slutfört (![ikon][img4]), men du kan ta bort denna markering om du vill (![ikon][img5]). Dokumentet visas då på detaljkortet **Aktiviteter** i fönstret Kalender tills det markeras som slutfört.
+Som standard markeras dokumentet som slutfört ![ikon][img4], men du kan ta bort denna markering om du vill. Dokumentet visas då på detaljkortet **Aktiviteter** i fönstret Kalender tills det markeras som slutfört.
 
 > [!NOTE]
 > Du kan inte göra ändringar i slutförda dokument förrän du har inaktiverat deras **Slutfört**-status. [Så ändrar du Slutförd-status för en aktivitet][7].
