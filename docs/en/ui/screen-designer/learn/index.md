@@ -5,7 +5,7 @@ description: Learn how to configure your screens and dialogs in this how-to guid
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.7
+version: 10.3.8
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
