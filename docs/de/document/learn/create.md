@@ -180,4 +180,3 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 [img3]: ../../../media/loc/en/document/create-document.png
 [img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/dropdown-icon.png

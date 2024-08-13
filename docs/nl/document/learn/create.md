@@ -180,4 +180,3 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 [img3]: ../../../media/loc/en/document/create-document.png
 [img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/dropdown-icon.png

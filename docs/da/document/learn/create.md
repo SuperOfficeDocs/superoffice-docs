@@ -181,4 +181,3 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 [img3]: ../../../media/loc/en/document/create-document.png
 [img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/dropdown-icon.png
