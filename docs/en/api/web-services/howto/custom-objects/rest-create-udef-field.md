@@ -349,7 +349,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 <!-- markdownlint-restore -->
 
 > [!NOTE]
-> Depending on the user-case it might be a good idea to [flush caches][4]
+> Depending on the user-case it might be a good idea to [flush caches][4].
 
 ## User-Defined Field Lists
 
