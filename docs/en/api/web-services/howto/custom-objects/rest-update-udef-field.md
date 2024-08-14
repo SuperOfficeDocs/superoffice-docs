@@ -352,7 +352,7 @@ The get none published fields, use one of the following endpoints:
 <!-- markdownlint-restore -->
 
 > [!NOTE]
-> Depending on the user-case it might be a good idea to [flush caches][4]
+> Depending on the user-case it might be a good idea to [flush caches][4].
 
 <!-- Reference links -->
 [4]: ../../../caching/flush-cache.md
