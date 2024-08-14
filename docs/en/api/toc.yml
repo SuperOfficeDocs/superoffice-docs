@@ -171,6 +171,8 @@ items:
     href: caching/superoffice-crm-security.md
   - name: Cached tables (Windows)
     href: caching/cached-tables.md
+  - name: Flush cache
+    href: caching/flush-cache.md
 - name: Logging
   href: logging/index.md
   items:

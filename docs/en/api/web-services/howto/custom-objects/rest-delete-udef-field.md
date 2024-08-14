@@ -107,8 +107,12 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     }
     ```
 
-    [!INCLUDE [File not found: flush.md](../../../../includes/flush.md)]
+> [!NOTE]
+> Depending on the user-case it might be a good idea to [flush caches][4]
 
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
 ***
+
+<!-- Reference links -->
+[4]: ../../../caching/flush-cache.md
