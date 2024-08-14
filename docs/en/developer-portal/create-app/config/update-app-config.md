@@ -1,10 +1,11 @@
 ---
-title: Update app config
 uid: dp-update-app-config
+title: Update app config
 description: Update technical specification for an application
+keywords: app config
 author: Bergfrid Dias
-date: 08.26.2022
-keywords: App Store
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
 envir: cloud
 client: online
@@ -16,9 +17,8 @@ The application configuration, also known as the technical specification, consis
 
 1. In the [Developer Portal][7], go to your application page.
 1. Select **Configuration** from the left menu.
-1. Toggle on **Advanced**.
 1. [Create a new version.][3]
-1. Go through each sub-section and change what you need.
+1. Go through each tab and change what you need.
 
     * [Create a new client secret][2]
     * [Create a new certificate][3]

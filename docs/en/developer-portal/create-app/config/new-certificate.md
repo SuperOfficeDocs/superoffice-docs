@@ -1,14 +1,13 @@
 ---
-title: New certificate
 uid: dp-new-certificate
+title: New certificate
 description: How to create a new certificate for an app in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 04.27.2023
 keywords: Developer Portal, app, certificate
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version_devportal: 1.11
 envir: cloud
-client:
 ---
 
 # New certificate
@@ -24,27 +23,25 @@ The Developer Portal stores your public key. However, you must store the private
 <!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
-2. Select **Configuration**.
-
-3. Toggle **Advanced** and select **Secrets and Certificates**.
+2. Select **Configuration** > **Authentication**.
 
     ![Secrets and Certificates -screenshot][img1]
 
-4. Click **New Certificate**.
+3. Click **New Certificate**.
 
     ![New Certificate dialog -screenshot][img2]
 
-5. Enter a description and expiration, and then click **Add**.
+4. Enter a description and expiration, and then click **Add**.
 
     ![Certificates -screenshot][img3]
 
     [!include[Expiration ignored](includes/note-expiration.md)]
 
-6. Store the **private key** somewhere safe! You can't look it up in the Developer Portal later.
+5. Store the **private key** somewhere safe! You can't look it up in the Developer Portal later.
 
-7. Click **Save Settings**.
+6. Click **Save Settings**.
 
-8. Request to publish the new configuration.
+7. Request to publish the new configuration.
 <!-- markdownlint-restore -->
 
 ## Read more

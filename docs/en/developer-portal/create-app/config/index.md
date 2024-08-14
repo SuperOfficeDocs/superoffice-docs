@@ -1,14 +1,13 @@
 ---
-title: Application configuration
 uid: dp-app-config-intro
+title: Application configuration
 description: Overview of application configuration in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 05.13.2022
 keywords: Developer Portal, app, security
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: concept
-version:
 envir: cloud
-client:
 ---
 
 # Application configuration

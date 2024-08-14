@@ -2,11 +2,11 @@
 uid: mirroring-stop-app
 title: How to turn off database mirroring
 description: How to turn off database mirroring for a running custom mirror app
-author: Margrethe Romnes
-date: 10.04.2023
 keywords: database, mirroring, custom app
+author: Margrethe Romnes
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version_devportal: 1.14
 envir: cloud
 client: online
 ---
@@ -17,11 +17,11 @@ client: online
 
 1. Select **Configuration** from the left menu, [create a new version][2], and publish it to SOD.
 
-1. Open the advanced configuration and select **Mirroring** from the secondary menu.
+1. Select the **Integration settings** tab.
 
     ![Database mirroring configuration for application -screenshot][img1]
 
-1. Turn off the toggle below the **Endpoint** field and save the settings.
+1. In the **Data mirroring** section, turn off the toggle below the **Endpoint** field and save the settings.
 
     ![Database mirroring toggle -screenshot][img2]
 
@@ -32,5 +32,5 @@ client: online
 [2]: ../create-app/versioning.md
 
 <!-- Referenced images -->
-[img1]: ../create-app/config/media/mirror-config.png
+[img1]: ../media/integration-settings.png
 [img2]: media/endpoint-toggle.png

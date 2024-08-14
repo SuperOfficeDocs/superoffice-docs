@@ -1,15 +1,13 @@
 ---
-title: Register an app
 uid: dp-register-app
+title: Register an app
 description: Registering a new app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, app
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version:
-version_devportal: 1.16
 envir: cloud
-client:
 ---
 
 # Register an application
