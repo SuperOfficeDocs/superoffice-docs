@@ -28,8 +28,8 @@ The URL of the webpage can contain **template variables**, so that what the page
 6. The web server returns the webpage.
 7. The web panel displays the page.
 
-> [!TIP]
-> [!include[File not found: flush.md](../../includes/flush.md)]
+> [!NOTE]
+> After adding a webpanel it is good practice to [flush caches][4] in the application
 
 ## Places you can add web panels
 
@@ -82,3 +82,4 @@ The **display location** of a web panel is selected as *Visible in* when you def
 | Show         | Whether to show the menu bar, toolbar, address bar, and/or status bar |
 
 <!-- Referenced links -->
+[4]: ../../api/caching/flush-cache.md
