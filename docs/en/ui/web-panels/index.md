@@ -29,7 +29,7 @@ The URL of the webpage can contain **template variables**, so that what the page
 7. The web panel displays the page.
 
 > [!NOTE]
-> After adding a webpanel it is good practice to [flush caches][4] in the application
+> After adding a webpanel it is good practice to [flush caches][4] in the application.
 
 ## Places you can add web panels
 
