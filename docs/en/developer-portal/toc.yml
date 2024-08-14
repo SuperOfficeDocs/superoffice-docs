@@ -44,6 +44,8 @@ items:
         href: best-practices/tenant-status/get-notifications.md
     - name: Error reporting emails
       href: best-practices/error-emails.md
+    - name: System Messages
+      href: best-practices/system-messages.md
   - name: Partners and users
     href: partner/update-profile.md
     items:
