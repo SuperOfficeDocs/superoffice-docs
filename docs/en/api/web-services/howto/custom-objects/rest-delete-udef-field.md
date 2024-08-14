@@ -108,7 +108,7 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     ```
 
 > [!NOTE]
-> Depending on the user-case it might be a good idea to [flush caches][4]
+> Depending on the user-case it might be a good idea to [flush caches][4].
 
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
