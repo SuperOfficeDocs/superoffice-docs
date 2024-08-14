@@ -28,6 +28,9 @@ The URL of the webpage can contain **template variables**, so that what the page
 6. The web server returns the webpage.
 7. The web panel displays the page.
 
+> [!TIP]
+> [!include[File not found: flush.md](../../includes/flush.md)]
+
 ## Places you can add web panels
 
 The **display location** of a web panel is selected as *Visible in* when you define the panel.
