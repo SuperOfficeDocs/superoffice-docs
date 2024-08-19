@@ -14,6 +14,10 @@ audience_tooltip: SuperOffice Mobile CRM
 
 # SuperOffice Mobile CRM
 
+## Version 11.0
+
+* Mobile CRM are rewritten to the Xamarin platform, all existing functionality still works as before. See [Mobile CRM Product release for 11.0.0][36].
+
 ## Version 10.2
 
 * [Follow-up - Description split into Title, Agenda, and Internal notes (10.2.19)][35]
@@ -79,4 +83,5 @@ audience_tooltip: SuperOffice Mobile CRM
 [33]: 10.2.16-update.md
 [34]: 10.2.18-update.md
 [35]: 10.2.19-update.md
+[36]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [50]: ../../docs/en/mobile/overview.md

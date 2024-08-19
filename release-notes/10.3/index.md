@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-date: 06.11.2024
+date: 08.19.2024
 version: 10.3
 topic: reference
 ---
@@ -20,6 +20,10 @@ topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.8 (27.08.2024):
+  * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
+  * [Requests - Get next in queue including own open requests (10.3.8)][36] in Service
 
 * 10.3.7 (11.06.2024):
   * [CRMScript - Trigger dialog with formatted text (10.3.7)][29] in Settings and maintenance
@@ -53,7 +57,7 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### Mobile CRM
 
-* [Version 10.2.19][27] (15.05.2024)
+* [Version 11.0.0][27] (07.08.2024)
 
 ### Office integrations
 
@@ -71,7 +75,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (available by invitation  only in 10.3.5 - 21.05.2024)
+* [SuperOffice Marketing Premium][20] (available by invitation  only from 10.3.5 - 21.05.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -135,5 +139,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [33]: https://appstore.superoffice.com/sesam-io/wix
 [34]: https://appstore.superoffice.com/infobridge-software-b-v-/databridge-for-superoffice
 [35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
+[36]: service/10.3.8-update.md
 
 <!-- Referenced images -->
