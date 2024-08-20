@@ -47,7 +47,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 ## Field types
 
-### <a id="text" />Text field
+### <a id="text"></a>Text field
 
 If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
@@ -55,11 +55,11 @@ If the field you are searching in is a text field (such as a name), the search i
 
 Select one of these options and then enter the search criteria in the text field on the right.
 
-### <a id="yes-no" />Yes/No field
+### <a id="yes-no"></a>Yes/No field
 
 If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the Company screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
-### <a id="date" />Date field
+### <a id="date"></a>Date field
 
 If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
@@ -67,7 +67,7 @@ If the field you are searching in is a date field, for example, the **Date** fie
 
 Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
-### <a id="number" />Number field
+### <a id="number"></a>Number field
 
 If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
@@ -75,7 +75,7 @@ If the field you are searching in contains a numerical value, for example, the *
 
 Select the required option and enter the required numerical value in the text field on the right.
 
-### <a id="list" />List field
+### <a id="list"></a>List field
 
 If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**. For company and contact interests, the options are **Is equal**, **Is one of**, and **None of**.
 
@@ -83,13 +83,13 @@ If the field you are searching in is a field containing lists, for example, the 
 1. If the list is long, you can type text in the **Search criteria** fields to search for values.
 1. Click outside the list to close it.
 
-### <a id="status" />Status field
+### <a id="status"></a>Status field
 
 If the field you are searching in is a status field, select the required status.
 
 The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
-### <a id="counter" />Counter field
+### <a id="counter"></a>Counter field
 
 [Counters][3] can be, for example, the number of sales in a period or the date of the last completed sale.
 

@@ -16,7 +16,7 @@ This guide outlines the different types of quote templates available in SuperOff
 
 A quote often consists of more than one product. It is therefore necessary to create a quote details template (and an order confirmation template) in which each product is listed in a table with different groupings (such as alternatives). The user will only be able to edit the quote document in Word. The quote details and the order confirmation will only be generated as a PDF and cannot be edited by the user. All quote templates can be edited in the normal way in Settings and maintenance.
 
-## <a id="types" />Types of quote document templates
+## <a id="types"></a>Types of quote document templates
 
 SuperOffice provides various templates for generating quotes. These templates can be accessed and customized in Settings and maintenance under **Lists**.
 
@@ -61,7 +61,7 @@ When sending quotes or order confirmations via email, you can select an email te
 
 You can customize quote and order confirmation templates using merge fields in Microsoft Word. Merge fields allow you to insert specific quote information into templates, while standard template variables retrieve customer data and other details.
 
-### <a id="structure" />Structure of merge fields
+### <a id="structure"></a>Structure of merge fields
 
 Merge fields must follow a hierarchical order: quote > alternative > group > line. This structure is defined using **TableStart** and **TableEnd** fields, which delineate the start and end of each table area:
 
@@ -84,7 +84,7 @@ Merge fields must follow a hierarchical order: quote > alternative > group > lin
 > [!NOTE]
 > Every template must conform to the nesting order and always start with the outermost level (quote). It need not go all the way down, but cannot start with alternative or anything else than quote.
 
-### <a id="usage" />Usage of merge fields
+### <a id="usage"></a>Usage of merge fields
 
 Quote details include detailed information like lines, prices, and product names, typically placed in a separate template from the main quote document. If both the main document and quote details are used:
 

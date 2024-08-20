@@ -48,7 +48,7 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
 
-## <a id="or" />Broaden your search using the OR function
+## <a id="or"></a>Broaden your search using the OR function
 
 The Find feature allows you to perform a search by combining search criteria with the value operator "OR" between them. This way you can search for two sets of independent data and save it in one selection.
 
@@ -59,7 +59,7 @@ Watch this video to learn how to create a search using the OR function (video 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## <a id="results" />Work with search results
+## <a id="results"></a>Work with search results
 
 After following the above steps, and search results are displayed in the **Results** tab, you have several options available:
 
@@ -82,7 +82,7 @@ After following the above steps, and search results are displayed in the **Resul
 
 * Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
 
-## <a id="ex1" />Example 1: search for profitable customers
+## <a id="ex1"></a>Example 1: search for profitable customers
 
 As a sales department manager, you want to give a presentation to the rest of management, showing what you have achieved after the last meeting. You want to focus on profitable customers (customers you have recently sold a lot to).
 
@@ -131,7 +131,7 @@ As a sales department manager, you want to give a presentation to the rest of ma
 21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex2" />Example 2: search for customers in Denmark who you are responsible for
+## <a id="ex2"></a>Example 2: search for customers in Denmark who you are responsible for
 
 Imagine you are going to attend a conference in Denmark. When you are there, you also want to use the opportunity to visit some customers. You start your planning by searching for all customers in Denmark who you are responsible for.
 
@@ -165,7 +165,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 14. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex3" />Example 3: search for sold sales
+## <a id="ex3"></a>Example 3: search for sold sales
 
 Let's assume you are the manager of a company and want to find out what types of sales work well for you, and why, with a view to achieving more of the same. You start by searching for sales with the status **Sold**.
 
@@ -188,7 +188,7 @@ Let's assume you are the manager of a company and want to find out what types of
 9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex4" />Example 4: search for projects you have participated in during the last year
+## <a id="ex4"></a>Example 4: search for projects you have participated in during the last year
 
 Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell them about the projects you have been involved in in the last year.
 
@@ -224,7 +224,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 15. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex5" />Example 5: search for marketing initiatives undertaken
+## <a id="ex5"></a>Example 5: search for marketing initiatives undertaken
 
 Imagine that you are a marketing department manager and you want to brainstorm about future marketing initiatives. As a basis for this, you want to get an overview of the marketing-related follow-ups you have done in the previous quarter.
 

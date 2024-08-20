@@ -74,7 +74,7 @@ Logging will create 2 files - one for incoming emails (communication with IMAP s
 > [!NOTE]
 > This is not a debug log for MailLink. That log file is in *%appdata%\SuperOffice\MailLink\Log*. [Read more about debugging MailLink][3].
 
-## <a id="10-2" />Changes in NetServer logging from 10.2
+## <a id="10-2"></a>Changes in NetServer logging from 10.2
 
 Some settings in the **Diagnostics** tab of the Product Configuration/web.config are obsolete from SuperOffice 10.2, but they are still visible in the web.config/GUI.
 

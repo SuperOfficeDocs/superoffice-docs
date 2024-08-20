@@ -69,7 +69,7 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
     * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
 
-### <a id="criteria" />The search criteria
+### <a id="criteria"></a>The search criteria
 
 The fields below correspond to the fields on the company card.
 

@@ -35,7 +35,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 1. Continue adding fields. Click **Publish** when you are done to make the field available to SuperOffice users. Unpublished fields ![icon][img1] and fields with unpublished changes ![icon][img2] are displayed in bold text in the **Fields** list.
 
-## <a id="properties" />Field properties
+## <a id="properties"></a>Field properties
 
 | Property | Description |
 |---|---|

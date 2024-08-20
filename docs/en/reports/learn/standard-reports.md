@@ -18,7 +18,7 @@ SuperOffice CRM is supplied with multiple reports as standard, but an organizati
 > [!TIP]
 > You can save frequently-used standard reports as [favorite reports][2], to make them easier to access. Additionally you can edit standard reports and save them as favorites.
 
-## <a id="type" />Types
+## <a id="type"></a>Types
 
 | Type | Description |
 |---|---|

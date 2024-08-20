@@ -50,7 +50,7 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 
 ![Trace CRMScript -screenshot][img4]
 
-### <a id="fields" />Fields
+### <a id="fields"></a>Fields
 
 | Field | Description |
 |---|---|

@@ -94,7 +94,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 ***
 
-## <a id="fields" />How to enter information
+## <a id="fields"></a>How to enter information
 
 > [!NOTE]
 > Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
@@ -127,7 +127,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 * In the **More** tab, set any [user-defined fields][10] configured in Settings and maintenance.
 
-## <a id="upload" />Upload document
+## <a id="upload"></a>Upload document
 
 1. Click **New** > **Document** on the top bar.
 

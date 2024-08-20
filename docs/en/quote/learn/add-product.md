@@ -36,7 +36,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
     or
     Click **Save** to save and return to the quote.
 
-## <a id="add-multiple" />Add several products to a quote
+## <a id="add-multiple"></a>Add several products to a quote
 
 1. Click **Add** at the bottom of the **Products** tab in the **Edit quote** dialog.
 
@@ -73,7 +73,7 @@ Detailed product information is shown here, if this is defined in Settings and m
 
 Detailed price calculations are shown here. The content of this tab is defined in Settings and maintenance.
 
-## <a id="warning" />Warnings and how to deal with them
+## <a id="warning"></a>Warnings and how to deal with them
 
 In Settings and maintenance, different rules can be defined for what is allowed and not allowed when you add products to a quote. Depending on how these rules are defined, various icons/warnings may be displayed when you add products to a quote. In some cases, the quote must be [approved before sending][1].
 

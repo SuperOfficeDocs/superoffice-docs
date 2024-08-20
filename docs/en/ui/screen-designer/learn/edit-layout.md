@@ -87,7 +87,7 @@ Boxes with stapled lines in the layout, indicate where you can place a field:
 
 Below you can find more detailed descriptions of the various sections and functions.
 
-## <a id="fields" />Fields
+## <a id="fields"></a>Fields
 
 In the **Fields** section you can find all available data fields for the selected screen layout. Use the filter function to find specific fields.
 
@@ -106,13 +106,13 @@ In the **Fields** section you can find all available data fields for the selecte
 
 In the **Elements** section you can add various non-data elements such as labels, dividers, links and buttons.
 
-## <a id="settings" />Settings
+## <a id="settings"></a>Settings
 
 Make fields more visible by changing the font to bold and large text. Make room for more fields by using a smaller font. Save screen space by hiding labels.
 
 Click a field or element in the layout to edit its settings. The available setting will vary according to the type of field or element.
 
-## <a id="columns" />Tab layout
+## <a id="columns"></a>Tab layout
 
 By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to view and sort more data.
 
@@ -123,7 +123,7 @@ By default a tab has 2 columns, but you can use anything from 1-4 columns depend
 * Some tabs, such as **ERP** and **Note**, do not have a column setup, because they have specific functions.
 * If a user does not have the screen size to fit all columns, they are stacked on top of each other.
 
-## <a id="tabs" />Tabs
+## <a id="tabs"></a>Tabs
 
 Add more tabs for additional fields, or remove irrelevant tabs.
 
@@ -148,7 +148,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 * You cannot remove a tab that contains mandatory fields. Mandatory fields must be moved to another tab first.
 * If only one tab remains, you cannot delete it.
 
-## <a id="undo-changes" />Undo changes
+## <a id="undo-changes"></a>Undo changes
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 

@@ -20,7 +20,7 @@ It is easy to create a form and post it on any web page you want it to show, and
 
 ![You can use a web form to ask people to sign up for your next webinar or seminar, or to contact your company with their questions -screenshot][img1]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 You can use web forms to capture your website visitors' details – their name, email address, preferences, comments, and feedback, and possibly convert them into customers. The data you get via web forms can be automatically imported to your SuperOffice CRM database, saving you time and effort.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing has 3 tabs pertaining to forms.
 
 * **Form submissions tab:** shows a list of persons who have submitted a form, and the current [status of their submission](#status).
 
-## <a id="view" />The View form screen
+## <a id="view"></a>The View form screen
 
 ![The SuperOffice Marketing 'View form' screen -screenshot][img4]
 
@@ -79,7 +79,7 @@ The **View form** screen consists of the following tabs:
 * **Form submissions:** shows submissions for an individual form
 * **Response email:** shows a preview the form response (mailing) associated with this form. Visible only if the **Email response** [form action][8] is selected.
 
-## <a id="submissions" />Form submissions
+## <a id="submissions"></a>Form submissions
 
 When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img3].
 
@@ -88,13 +88,13 @@ Use the filter options at the bottom of the list to view only submissions with s
 > [!NOTE]
 > You can also [view submissions for individual forms][5] by opening a form in the **Forms** tab.
 
-### <a id="status" />Status
+### <a id="status"></a>Status
 
 * **Processed**: The form was submitted and automatically processed.
 * **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][6].
 * **Awaiting confirmation**: The form was submitted, but the sender must confirm their email address (double-opt in).
 
-## <a id="opt-in" />What is double opt-in?
+## <a id="opt-in"></a>What is double opt-in?
 
 With double opt-in, the customers must verify their email address by clicking the link in a confirmation email in addition to submitting the form.
 

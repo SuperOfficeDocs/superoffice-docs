@@ -16,7 +16,7 @@ Cross tables can be displayed and printed in various ways. You can select which 
 > [!TIP]
 > If you are not sure if your report is a cross table, you can check the image between the report list and the report description. [How][1].
 
-## <a id="install" />Install the CrossTable viewer
+## <a id="install"></a>Install the CrossTable viewer
 
 To view a cross table report (.Dcube file), you must install the **CrossTable viewer** (once per computer).
 
@@ -51,11 +51,11 @@ To view a cross table report (.Dcube file), you must install the **CrossTable vi
 
 1. Click **OK** to close the cross table viewer.
 
-## <a id="print" />Print cross tables
+## <a id="print"></a>Print cross tables
 
 There are several print options for cross tables. You can select which parts of the cross table to print, preview the cross table, or print it as an ordinary table or as a chart.
 
-## <a id="export" />Save cross table reports as files
+## <a id="export"></a>Save cross table reports as files
 
 Saving reports as files works slightly differently for cross table reports than for other types of report. To save a cross table report as a file, click **Export** when viewing the report in the CrossTable viewer.
 

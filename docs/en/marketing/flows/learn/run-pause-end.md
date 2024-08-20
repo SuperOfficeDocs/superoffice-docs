@@ -15,7 +15,7 @@ pilot: yes
 
 # Run, pause, and end flow
 
-## <a id="status" />Flow status
+## <a id="status"></a>Flow status
 
 * **Not running:** Represents a new flow that has not been started (or an ended flow). Triggers are not activated.
 
@@ -70,7 +70,7 @@ To end the flow:
 
 If flow is started again after ending it, only new participants go through the flow, old participants keep status Cancelled.
 
-## <a id="delete" />Delete flow
+## <a id="delete"></a>Delete flow
 
 1. Pause the flow.
 1. Select **Task** > **Delete flow**.

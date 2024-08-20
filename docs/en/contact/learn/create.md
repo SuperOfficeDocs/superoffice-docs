@@ -71,13 +71,13 @@ There are many ways you can add contacts to SuperOffice CRM:
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 
-## <a id="more-tab" />The More tab (Contact screen)
+## <a id="more-tab"></a>The More tab (Contact screen)
 
 The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in Settings and maintenance that these fields are to be inserted here.
 
 Other examples: Year employed, ERP IDs, user type, CXM info.
 
-## <a id="interests-tab" />The Interests tab (Contact screen)
+## <a id="interests-tab"></a>The Interests tab (Contact screen)
 
 In the **Interests** tab you have the following options:
 

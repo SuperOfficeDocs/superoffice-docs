@@ -42,7 +42,7 @@ When it is time to develop your application idea, you have 3 options:
 * Ask a SuperOffice partner for help to create a customization
 * Ask a vendor to create a tailored version of a standard application for you
 
-## <a id="validate" />About our validation process for custom apps
+## <a id="validate"></a>About our validation process for custom apps
 
 Unlike standard applications, custom applications don't have to go through certification and Watchcom security testing. Instead, we do light-weight testing called **validation**.
 

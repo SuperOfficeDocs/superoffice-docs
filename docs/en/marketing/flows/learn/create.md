@@ -30,7 +30,7 @@ pilot: yes
 
 ![Set properties for new flow -screenshot][img1]
 
-## <a id="fields" />Filling in flow fields
+## <a id="fields"></a>Filling in flow fields
 
 ### Settings (for flow)
 
@@ -74,7 +74,7 @@ Success criteria define [what success means for a flow][7].
 
 ![Set success criteria for new flow -screenshot][img3]
 
-## <a id="trigger" />Define flow start trigger and filters
+## <a id="trigger"></a>Define flow start trigger and filters
 
 The **Trigger** step is automatically added as the starting point for any flow. It determines who the flow is relevant for. Triggers are only activated for running or paused flows.
 
@@ -128,7 +128,7 @@ The exclusion list **prevents selected contacts from being added to the flow**. 
 * Prevent specific customers from receiving general mass emails.
 * Send reminders, but not to those already signed up.
 
-## <a id="add-step"/>Add step
+## <a id="add-step"></a>Add step
 
 1. Select **Steps** from the left menu.
 1. Chose a step and drag it to where you wish to add it in the flowchart.
@@ -151,7 +151,7 @@ When you open the **Steps** tab for the first time, you will see something like 
 * A flowchart with a **Trigger**, a **placeholder** for adding a step, and a **Finish** step (in the center).
 * A list of available step types (to the right).
 
-## <a id="wait" />Flow control
+## <a id="wait"></a>Flow control
 
 Most steps in a flow represent actions related to the participant, such as updating contact interests. However, flow-control steps are different; they involve **timing** and **segmentation**.
 

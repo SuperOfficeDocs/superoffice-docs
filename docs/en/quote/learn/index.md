@@ -25,7 +25,7 @@ When the customer has accepted the quote, you can generate an order which you se
 4. [Send the quote][4].
 5. When the customer accepts the quote, you can [place the order][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

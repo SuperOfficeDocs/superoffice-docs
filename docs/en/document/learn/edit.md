@@ -77,7 +77,7 @@ This procedure describes how to edit a document if you are using a desktop text-
 
 ***
 
-## <a id="allow" />Browser security question for opening files
+## <a id="allow"></a>Browser security question for opening files
 
 When you access and edit a document, file, or email in SuperOffice, your browser prompts you with a *security question* regarding the file download.
 
@@ -102,7 +102,7 @@ The dialog is slightly different in Chrome, Edge, Firefox, and Safari.
 
 ![Safari: Always Allow or Allow button -screenshot][img4]
 
-## <a id="delete" />Delete document
+## <a id="delete"></a>Delete document
 
 1. Select the required document on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screen.
 

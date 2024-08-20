@@ -28,20 +28,20 @@ Each tab consists of the following:
 
 * A **Documents** section tab containing a [list of saved reports](#archive).
 
-## <a id="list" />Report list
+## <a id="list"></a>Report list
 
 The report list is at the upper left of the **Reports** screen and contains a list of standard reports in the tab you selected. If you select the **Favorites** tab, your favorite reports appear here. The content of the report description and the criteria list changes according to what you select in the report list.
 
 > [!TIP]
 > If you select the **Favorites** report category, you can edit the name and description of these reports by double-clicking a report, or selecting it and clicking **Edit**. To delete a favorite report, select it and click **Delete**.
 
-## <a id="criteria" />Criteria list
+## <a id="criteria"></a>Criteria list
 
 The criteria list is located in the upper half of the **Reports** screen, next to the report list and below the report description. It contains criteria that apply to the report you selected in the report list. Here you can add or delete criteria by clicking the **Add** or **Delete** buttons, and you can edit a criterion by double-clicking it.
 
 Click the **Add to favorites** button to add the report with the specified criteria to the report list in the **Favorites** tab.
 
-## <a id="archive" />The report archive (Documents)
+## <a id="archive"></a>The report archive (Documents)
 
 The report archive (the **Documents** section tab) appears at the bottom of the **Reports** screen. It contains previously generated reports that were saved as documents. In this section tab, you can open, edit, delete and [filter][7] saved reports. You can also export a list of reports.
 

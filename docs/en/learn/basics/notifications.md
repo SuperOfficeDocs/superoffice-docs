@@ -22,7 +22,7 @@ When you click on the **bell icon** ![icon][img1] in the upper-right corner of S
 
 ![The Notification pop out that shows both notifications on Requests and Invitations -screenshot][img5]
 
-## <a id="activity" />Activity notifications
+## <a id="activity"></a>Activity notifications
 
 When you receive an activity notification, it will appear in your notifications panel. Click the link in the notification to open the activity.
 
@@ -87,7 +87,7 @@ These are the notification options:
 * System notifications for emails
 * System notifications for chats
 
-## <a id="enable-browser" />How to change browser settings for notifications
+## <a id="enable-browser"></a>How to change browser settings for notifications
 
 **Chrome:** Click the padlock icon in front of the URL and turn on the **Notifications** toggle.
 

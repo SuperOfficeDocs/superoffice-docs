@@ -33,7 +33,7 @@ This procedure shows you how to create a project guide from scratch.
 
 ![Go to the Workflow section and create your own project routines in SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" /> Create statuses for the project guide
+## <a id="create-stage"></a> Create statuses for the project guide
 
 A project guide must be linked to a project type, which in turn consists of several statuses. [How to create a status][2].
 
@@ -41,7 +41,7 @@ For example, a project guide for a project of the Conference type could have sta
 
 Go to the next procedure to link the statuses to a project type.
 
-## <a id="create-type" /> Create a project type for the project guide
+## <a id="create-type"></a> Create a project type for the project guide
 
 A project guide must be linked to a project type. [How to create a project type][3].
 
@@ -51,7 +51,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 1. Select at least two statuses.
 1. Go to the next procedure to create the project guide.
 
-## <a id="create-guide" />Create a project guide
+## <a id="create-guide"></a>Create a project guide
 
 After you create statuses and specify a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
@@ -79,7 +79,7 @@ After you create statuses and specify a project type for the project guide, you 
 
 The changes are saved automatically. The project guide will now be displayed in SuperOffice CRM when a project is created with the project type selected in step B.
 
-## <a id="add-fo-status" />Add a follow-up for a status
+## <a id="add-fo-status"></a>Add a follow-up for a status
 
 1. Select the required project type and status as described above.
 
@@ -128,7 +128,7 @@ Planning meeting:
 \- Speakers?
 \- Where?
 
-## <a id="add-doc-status" />Add a document for a status
+## <a id="add-doc-status"></a>Add a document for a status
 
 1. Select the required project type and status as described above.
 2. Click **Add** under **Suggested documents in status**.

@@ -29,7 +29,7 @@ The workflow is different for custom and standard applications.
 
 The [tenant administrative user must sign in to SuperID and approve the application][6] to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a strict hand-shake flow must be implemented.
 
-### <a id="hand-shake"/>Tenant approval sequence (hand-shake)
+### <a id="hand-shake"></a>Tenant approval sequence (hand-shake)
 
 No one **may** ask for a customer's username and password to gain access to the tenant's resources. Everyone must adhere to the following authorization sequence.
 

@@ -72,7 +72,7 @@ Picture this scenario: you have meticulously created an email campaign with top-
 
 **Email deliverability** is a big deal because it decides if your emails actually make it to your subscribers' inboxes or not. If they do not get delivered, they will not be seen or read by your target audience, which means missed chances and lower success for your email marketing campaigns. Check out our [best practices][9].
 
-## <a id="after" />How can I follow up mailings?
+## <a id="after"></a>How can I follow up mailings?
 
 After your mailing is sent, it is always exciting to see how well your mailing has performed. To see if all your hard work has paid off. It is also a great opportunity to check and improve the quality of the information registered in your CRM database.
 

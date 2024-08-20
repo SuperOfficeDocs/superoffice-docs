@@ -36,7 +36,7 @@ These steps are common to all how-tos on this page.
 
 1. Click the print button in the PDF viewer, or save the PDF file so you can open it later.
 
-## <a id="add-format" />Add label format
+## <a id="add-format"></a>Add label format
 
 To print labels in a format different from those already available, you can define your own new format.
 

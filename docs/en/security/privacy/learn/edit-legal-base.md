@@ -67,7 +67,7 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 9. Click **Close** when you are done.
 
-## <a id="bulk" />How to set privacy settings of many contacts all at once
+## <a id="bulk"></a>How to set privacy settings of many contacts all at once
 
 If you import or store a lot of data in your SuperOffice CRM, you can do a bulk update to help you get this data GDPR-ready.
 

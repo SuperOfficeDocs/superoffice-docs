@@ -44,7 +44,7 @@ There are two main types of activities – documents and follow-ups. In addition
 > [!NOTE]
 > Activities are also displayed in the [different views][7] in the Diary screen.
 
-## <a id="view" />View activities
+## <a id="view"></a>View activities
 
 The activities displayed depend on which filters you select at the bottom of the section tab. You can show all activities, or just one of the types. Click the ![icon][img5] **Filter** button to [filter activities][17] by date and user.
 
@@ -64,7 +64,7 @@ The activities list columns contain the following information:
 
 You create activities using the **New** menu in the top bar, or by clicking **Add** button in the section tab.
 
-## <a id="delete" />Delete activity
+## <a id="delete"></a>Delete activity
 
 You can delete activities from any screen where they are displayed:
 

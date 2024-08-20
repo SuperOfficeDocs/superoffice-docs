@@ -81,7 +81,7 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
     We strongly recommend that you replace your old legacy template with a template based on the current format.
 
-## <a id="legacy" />Migrate from Microsoft 365 Document Integration (legacy)
+## <a id="legacy"></a>Migrate from Microsoft 365 Document Integration (legacy)
 
 How do you handle documents that have never been stored in SoArc Online? Perhaps your organization has used Microsoft 365 Document Integration (also referred to as Office 365 Document Integration, 365 CloudOffice, 365 SharePoint document integration, and O365 integration) since it started using SuperOffice. Here's how it works:
 

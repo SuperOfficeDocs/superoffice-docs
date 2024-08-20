@@ -46,7 +46,7 @@ If you receive an email requesting you to take action, you can convert the email
 
 12. Click **OK**. The selected emails are archived to SuperOffice CRM as meetings.
 
-## <a id="todo" />Create task (to-do)
+## <a id="todo"></a>Create task (to-do)
 
 1. Select the emails you want to archive.
 

@@ -91,7 +91,7 @@ Apart from the layout/formatting of the reply template, it must contain the foll
 [[ENDIF]]
 ```
 
-## <a id="faq" />Automatic FAQ reply
+## <a id="faq"></a>Automatic FAQ reply
 
 SuperOffice Service comes with a set of reply templates. Among these reply templates you will find "Example of an automated FAQ response". This reply template contains an example of automation of replies to the customer, in the **HTML text** tab.
 

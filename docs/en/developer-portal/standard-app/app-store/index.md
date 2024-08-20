@@ -55,7 +55,7 @@ Visitors can also see the category and language of the application and find out 
 
 All SuperOffice customers can visit the App Store. There are no geographical limitations when viewing Apps. However, it could be that an application is not suitable for specific markets. For example, BankID for proving identity doesn't work in the Benelux.
 
-## <a id="get-noticed" />How to get noticed in the App Store
+## <a id="get-noticed"></a>How to get noticed in the App Store
 
 Catching the customers' attention and interest becomes harder as the applications in the SuperOffice App Store grow in number.
 

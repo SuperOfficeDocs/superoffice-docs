@@ -54,7 +54,7 @@ Bulk update allows you to change values across multiple records of the same type
 
 10. Click **Close**.
 
-## <a id="search-and-replace" />Search and replace
+## <a id="search-and-replace"></a>Search and replace
 
 The action type **Search and replace** allows you to find a specific text in a field and replace it.
 
@@ -63,7 +63,7 @@ The action type **Search and replace** allows you to find a specific text in a f
 3. Enter the replacement text in the **Replace with** field.
 4. Optional: Click **Options** and select settings for case-sensitivity and whole/partial word search.
 
-## <a id="regex" />Regular expressions
+## <a id="regex"></a>Regular expressions
 
 The action type **Regex** allows you to use regular expressions to update a field.
 

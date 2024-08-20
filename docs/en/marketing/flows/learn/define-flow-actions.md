@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > When adding or updating flow actions, keep in mind that forms and tracked links have actions too. You should make sure there are no duplicate or conflicting actions. We recommend that you include all actions one place, either in the form or in the flow.
 
-## <a id="send" />Send message
+## <a id="send"></a>Send message
 
 Things to consider:
 
@@ -71,7 +71,7 @@ Flow participants without a registered phone number can either skip the step (co
 > [!TIP]
 > If you wish to send only one SMS, keep an eye on the counter in bottom-right corner. If the number of characters exceeds 160, the message is sent as multiple SMS segments and additional pricing may apply. We recommend to keep the message brief and informative.
 
-## <a id="update" />Update participant
+## <a id="update"></a>Update participant
 
 * Update contact
 * Add to selection/project
@@ -110,7 +110,7 @@ Contact is removed as member from the specified selection and/or project.
 
 This step is similar to **Add to selection and/or project**.
 
-## <a id="create" />Create activity
+## <a id="create"></a>Create activity
 
 The flow can automatically create a follow-up, request, and/or sale on the contact according to settings. By connecting CRM activities and notifications, your organization can bridge the gap between marketing and sales. Creating activities also lets you focus on contacts who are engaged​.
 
@@ -154,7 +154,7 @@ When contact arrives this step, the contact is mature, and has shown indications
 
 For details, see the [list of step settings][1] and [how to create a sale][18].
 
-## <a id="internal" />Internal actions
+## <a id="internal"></a>Internal actions
 
 ### Run script
 
