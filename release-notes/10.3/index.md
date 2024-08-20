@@ -57,7 +57,7 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### Mobile CRM
 
-* [Version 11.0.0][27] (07.08.2024)
+* [Version 11.0.1][27] (20.08.2024)
 
 ### Office integrations
 
@@ -65,11 +65,11 @@ Latest released versions:
 
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
-* SuperOffice for Outlook 4.1 (21.12.2023)
+* SuperOffice for Outlook 5.0 (10.07.2024)
 * WebTools for Mac 13.0 (10.04.2024)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.10 (11.03.2024)
-* Video Meetings 2.5 (18.09.2023)
+* Video Meetings 2.6 (20.06.2024)
 
 ### Ongoing pilot programs
 
