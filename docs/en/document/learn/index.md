@@ -31,7 +31,7 @@ You can open a document in [edit mode or in read mode][7]. When you open the doc
 | ![icon][img11] | Language | A list of available translations of the template. "Default" if untranslated. |
 | ![icon][img4] | Date | Today's date (default). Click the arrow next to the **Date** field to open a monthly calendar where you can select the date you require. |
 | ![icon][img3]| Subject | The heading of the document (the text that is displayed in section tabs and reports where the document is listed). |
-| ![icon][img2] | Template | A pre-defined list of [document templates][11] such as Letter or Quotation. |
+| ![icon][img2] | Template | A list of available [document templates][11], such as Letter or Quotation. |
 | ![icon][img7], ![icon][img8] | Company / contact | Who the document concerns. |
 | ![icon][img5] | Sale | A sale linked to the document. |
 | ![icon][img6] | Project | A project linked to the document. |
@@ -44,7 +44,7 @@ No matter where you are in SuperOffice CRM, you can create or upload a document 
 
 ## Locate your documents
 
-* The **Activities** section tab in the and Diary screen shows all uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM.
+* The **Activities** section tab in the Diary screen shows all uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM.
 
 * The **Activities** section tab in the Company, Contact, Sale, and Project screen shows all documents linked to the current record.
 
