@@ -4,8 +4,8 @@ title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
 keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: sv
 audience: person
@@ -78,6 +78,16 @@ Deltagare som når slutfördssteget har nått slutet av flödet. Deltagaren kan 
 |---|-|
 | Lägg till i ett annat flöde när ett framgångskriterium uppnås | slutförd med framgång |
 | Lägg till i ett annat flöde när inget framgångskriterium uppfylls | slutförd |
+
+## Meddela via e-post
+
+| Inställning | Beskrivning |
+|---|---|
+| Till | Mottagaren - "vår kontakt", "vår servicekontakt" eller en specifik e-postadress. |
+| Ämne | Text för ämnesfältet i e-posten. |
+| Text | Ange meddelandet. |
+
+Du kan anpassa ämne och meddelande med kontaktvariabler (samma som sammanslagningstaggar i e-postredigeraren).
 
 ## Skicka e-post
 

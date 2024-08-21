@@ -4,8 +4,8 @@ title: Definér flow-handlinger
 description: Definér flow-handlinger
 keywords: Marketing, flow, flow-handlinger
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: da
 audience: person
@@ -165,6 +165,17 @@ Kør brugerdefineret forretningslogik ved at udløse et CRM-script som en del af
 
 > [!NOTE]
 > Deltageren vil fortsætte til næste trin umiddelbart efter scriptet udløses, uden at vente på resultatet.
+
+### Underret via e-mail
+
+Send en underretnings-e-mail til en bestemt person som en del af flowet.
+
+1. Træk boksen **Underret via e-mail** fra trinmenuen og slip den i en ledig plads i flowchartet.
+1. Angiv modtageren (**Til:**).
+1. Indtast **emnet** for e-mailen.
+1. Indtast den besked, du ønsker at sende.
+
+Kontaktvariabler (fletfelter) er tilgængelige.
 
 ## Flowhandling vs. formularhandling
 

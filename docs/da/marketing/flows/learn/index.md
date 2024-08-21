@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduktion til SuperOffice Marketing automatisering og flows.
 keywords: Marketing, flow, kundesegment, kunderejse, kommunikation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: da
 audience: person
@@ -90,12 +90,12 @@ Vælg mellem liste eller flise **visningstilstand** i nederste højre hjørne.
 Skærmen **Vis flow** består af følgende faner:
 
 * **Oversigt:** Giver grundlæggende information om flowet og forskellige statistikker.
-* **Flow:** Tilbyder en skrivebeskyttet visning af flowet, der tillader brugere at få et overblik uden at pause og redigere flowet.
+* **Flow:** Tilbyder en skrivebeskyttet visning af flowet, der tillader brugere at få et overblik uden at pause og redigere flowet. Klik på et trin for at se detaljerne.
 * **Rapporter:** Viser diagrammer med statistikker for flowet, brugt til at overvåge dets ydeevne.
 * **Deltagere:** Præsenterer en liste over alle deltagere i flowet, der viser deres e-mailadresse, firmasaffiliation, tilmeldingsdato, nuværende status, nuværende trin, sidste afsendte, dato for sidste afsendte og status for sidste afsendte.
 * **Flowindhold:** Indeholder flow mailinger og formularer brugt af flowet.
 
-## <a id="success" >Succeskriterier
+## <a id="success"></a>Succeskriterier
 
 Succeskriterier etablerer parametrene for at bestemme flowets succes. For eksempel:
 

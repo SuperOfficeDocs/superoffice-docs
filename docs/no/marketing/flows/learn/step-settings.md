@@ -4,8 +4,8 @@ title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
 keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: reference
 language: no
 audience: person
@@ -78,6 +78,16 @@ Deltakere som når trinnet **Avsluttet** har nådd slutten av flyten. Deltakeren
 |---|-|
 | Legg til i en annen flyt når et suksesskriterium er oppfylt | Fullført med suksess |
 | Legg til i en annen flyt når ingen suksesskriterier er oppfylt | Fullført |
+
+## Varsle via e-post
+
+| Innstilling | Beskrivelse |
+|---|---|
+| Til | Mottakeren - "vår kontakt", "vår servicekontakt" eller en spesifikk e-postadresse. |
+| Emne | Tekst for emnefeltet i e-posten. |
+| Tekst | Skriv inn meldingen. |
+
+Du kan tilpasse emne og melding med kontaktvariabler (samme som flettesymboler i e-postredigereren).
 
 ## Send e-post
 

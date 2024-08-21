@@ -4,8 +4,8 @@ title: Flödeskontroll - delning
 description: Flödeskontroll - delning
 keywords: flöde, flödeskontroll, dela flöde, dela, delning, delningssteg, gren, grenvillkor, segmentera, alla andra, utträdesvillkor, differentiera
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: sv
 audience: person

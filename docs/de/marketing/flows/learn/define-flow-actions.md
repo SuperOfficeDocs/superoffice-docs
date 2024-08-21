@@ -4,8 +4,8 @@ title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
 keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: de
 audience: person
@@ -164,6 +164,17 @@ Führen Sie benutzerdefinierte Geschäftslogik aus, indem Sie ein CRMScript als 
 
 > [!NOTE]
 > Der Teilnehmer wird sofort nach dem Auslösen des Skripts zum nächsten Schritt übergehen, ohne auf das Ergebnis zu warten.
+
+### Per E-Mail benachrichtigen
+
+Senden Sie eine Benachrichtigungs-E-Mail an eine bestimmte Person als Teil des Ablaufs.
+
+1. Ziehen Sie das Feld **Per E-Mail benachrichtigen** aus dem Schrittmenü und legen Sie es in einem verfügbaren Slot im Ablaufdiagramm ab.
+1. Geben Sie den Empfänger (**An:**).
+1. Geben Sie den **Betreff** der E-Mail ein.
+1. Geben Sie die Nachricht ein, die Sie senden möchten.
+
+Kontaktvariablen (Zusammenführungstags) sind verfügbar.
 
 ## Flow-Aktion vs. Formular-Aktion
 

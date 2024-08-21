@@ -4,8 +4,8 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: reference
 language: en
 audience: person
@@ -78,6 +78,16 @@ Participants reaching the finish step has reached the end of the flow. Participa
 |---|-|
 | Add to another flow when a success criterion is met | Finished with success |
 | Add to another flow when no success criterion is met | Finished |
+
+## Notify by email
+
+| Setting | Description |
+|---|---|
+| To | The recipient - "our contact", "our service contact", or a specific email address. |
+| Subject | Text for the email's subject field. |
+| Text | Enter the message. |
+
+You can personalize the subject and message with contact variables (same as merge tags within the mailing editor).
 
 ## Send email
 

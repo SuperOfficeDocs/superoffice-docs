@@ -4,8 +4,8 @@ title: Opret et nyt flow
 description: Opret et nyt flow
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: da
 audience: person

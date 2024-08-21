@@ -4,8 +4,8 @@ title: Stap instellingen
 description: Overzicht van instellingen voor de verschillende flowstappen.
 keywords: Marketing, flow, stap, stap instelling, veld
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
@@ -78,6 +78,16 @@ Deelnemers die de voltooidstap bereiken, hebben het einde van de flow bereikt. D
 |---|-|
 | Toevoegen aan een andere flow wanneer een succes criterium wordt voldaan | Voltooid met succes |
 | Toevoegen aan een andere flow wanneer er geen succes criterium wordt voldaan | Voltooid |
+
+## Melding via e-mail
+
+| Instelling | Beschrijving |
+|---|---|
+| Aan | De ontvanger - "onze contactpersoon", "onze servicecontact" of een specifiek e-mailadres. |
+| Onderwerp | Tekst voor het onderwerpveld van de e-mail. |
+| Tekst | Voer het bericht in. |
+
+U kunt het onderwerp en het bericht personaliseren met contactvariabelen (dezelfde als merge tags in de mailingeditor).
 
 ## E-mail versenden
 

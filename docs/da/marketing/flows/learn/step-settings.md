@@ -4,8 +4,8 @@ title: Trinindstillinger
 description: Gennemgang af indstillingerne for de forskellige flowtrin.
 keywords: Marketing, flow, trin, trinindstilling
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: da
 audience: person
@@ -78,6 +78,16 @@ Deltagere, der når afslutningstrinnet, har nået slutningen af flowet. Deltager
 |---|-|
 | Føj til et andet flow, når et succeskriterium er opfyldt | Afsluttet med succes |
 | Føj til et andet flow, når intet succeskriterium er opfyldt | Afsluttet |
+
+## Underret via e-mail
+
+| Indstilling | Beskrivelse |
+|---|---|
+| Til | Modtageren - "vores kontakt", "vores servicekontakt" eller en specifik e-mailadresse. |
+| Emne | Tekst til e-mailens emnefelt. |
+| Tekst | Indtast beskeden. |
+
+Du kan personliggøre emne og besked med kontaktvariabler (samme som fletfelter i e-mail-editoren).
 
 ## Send e-mail
 
