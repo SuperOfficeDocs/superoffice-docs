@@ -79,15 +79,15 @@ Deltagere, der når afslutningstrinnet, har nået slutningen af flowet. Deltager
 | Føj til et andet flow, når et succeskriterium er opfyldt | Afsluttet med succes |
 | Føj til et andet flow, når intet succeskriterium er opfyldt | Afsluttet |
 
-## Underret via e-mail
+## Giv besked via e-mail
 
 | Indstilling | Beskrivelse |
 |---|---|
 | Til | Modtageren - "vores kontakt", "vores servicekontakt" eller en specifik e-mailadresse. |
-| Emne | Tekst til e-mailens emnefelt. |
+| Overskrift | Tekst til e-mailens emnelinje. |
 | Tekst | Indtast beskeden. |
 
-Du kan personliggøre emne og besked med kontaktvariabler (samme som fletfelter i e-mail-editoren).
+Du kan tilpasse emnet med personvariabler (det samme som mergetags).
 
 ## Send e-mail
 

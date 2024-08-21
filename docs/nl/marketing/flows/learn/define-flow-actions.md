@@ -182,16 +182,16 @@ Voer aangepaste bedrijfslogica uit door een CRMScript te activeren als onderdeel
 > [!NOTE]
 > De deelnemer gaat onmiddellijk naar de volgende stap nadat het script is geactiveerd, zonder te wachten op het resultaat.
 
-### Melding via e-mail
+### Melden via e-mail
 
 Stuur een melding per e-mail naar een specifieke persoon als onderdeel van de flow.
 
-1. Sleep het vak **Melding via e-mail** uit het stappenmenu en plaats het in een beschikbare plaats in het stroomdiagram.
+1. Sleep het vak **Melden via e-mail** uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
 1. Geef de ontvanger op (**Aan:**).
 1. Voer het **onderwerp** van de e-mail in.
 1. Voer het bericht in dat u wilt verzenden.
 
-Contactvariabelen (merge tags) zijn beschikbaar.
+Contactvariabelen zijn beschikbaar.
 
 ## Flowactie vs. formulieractie
 

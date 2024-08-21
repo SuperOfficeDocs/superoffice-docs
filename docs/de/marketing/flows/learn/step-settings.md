@@ -87,7 +87,7 @@ Teilnehmer, die den Abschlussschritt erreichen, haben das Ende des Flows erreich
 | Betreff | Text für das Betreff-Feld der E-Mail. |
 | Text | Geben Sie die Nachricht ein. |
 
-Sie können den Betreff und die Nachricht mit Kontaktvariablen personalisieren (ähnlich wie Merge-Tags im Mailing-Editor).
+Sie können den Betreff mit Kontaktvariablen personalisieren (gleich wie Zusammenführungstags innerhalb des E-Mail-Editors).
 
 ## E-Mail senden
 

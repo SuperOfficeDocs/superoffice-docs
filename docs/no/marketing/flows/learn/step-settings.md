@@ -79,15 +79,15 @@ Deltakere som når trinnet **Avsluttet** har nådd slutten av flyten. Deltakeren
 | Legg til i en annen flyt når et suksesskriterium er oppfylt | Fullført med suksess |
 | Legg til i en annen flyt når ingen suksesskriterier er oppfylt | Fullført |
 
-## Varsle via e-post
+## Varsling på e-post
 
 | Innstilling | Beskrivelse |
 |---|---|
 | Til | Mottakeren - "vår kontakt", "vår servicekontakt" eller en spesifikk e-postadresse. |
-| Emne | Tekst for emnefeltet i e-posten. |
+| Overskrift | Tekst for e-postens emnefelt. ekst for e-postens emnefelt. |
 | Tekst | Skriv inn meldingen. |
 
-Du kan tilpasse emne og melding med kontaktvariabler (samme som flettesymboler i e-postredigereren).
+Du kan tilpasse emne og melding med kontaktvariabler (samme som flettefelt i e-postredigereren).
 
 ## Send e-post
 

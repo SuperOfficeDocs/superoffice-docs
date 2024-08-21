@@ -165,16 +165,16 @@ Kjør egendefinert forretningslogikk ved å utløse et CRMScript som en del av f
 > [!NOTE]
 > Deltakeren vil fortsette til neste trinn umiddelbart etter at skriptet er utløst, uten å vente på resultatet.
 
-### Varsle via e-post
+### Varsling på e-post
 
 Send en varslingse-post til en spesifikk person som en del av flyten.
 
-1. Dra **Varsle via e-post**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
+1. Dra **Varsling på e-post**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
 1. Angi mottakeren (**Til:**).
 1. Skriv inn **emnet** for e-posten.
 1. Skriv inn meldingen du ønsker å sende.
 
-Kontaktvariabler (flettesymboler) er tilgjengelige.
+Malvariabler for person er tilgjengelige.
 
 ## Flythandling vs. skjemahandling
 

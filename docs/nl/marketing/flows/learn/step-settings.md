@@ -79,15 +79,15 @@ Deelnemers die de voltooidstap bereiken, hebben het einde van de flow bereikt. D
 | Toevoegen aan een andere flow wanneer een succes criterium wordt voldaan | Voltooid met succes |
 | Toevoegen aan een andere flow wanneer er geen succes criterium wordt voldaan | Voltooid |
 
-## Melding via e-mail
+## Melden via e-mail
 
 | Instelling | Beschrijving |
 |---|---|
 | Aan | De ontvanger - "onze contactpersoon", "onze servicecontact" of een specifiek e-mailadres. |
-| Onderwerp | Tekst voor het onderwerpveld van de e-mail. |
+| Onderwerp | Tekst voor het onderwerp van de e-mail. |
 | Tekst | Voer het bericht in. |
 
-U kunt het onderwerp en het bericht personaliseren met contactvariabelen (dezelfde als merge tags in de mailingeditor).
+U kunt het onderwerp en het bericht personaliseren met contactvariabelen (hetzelfde als samenvoegtags binnen de mailing-editor).
 
 ## E-mail versenden
 

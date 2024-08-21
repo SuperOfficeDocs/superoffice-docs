@@ -84,10 +84,10 @@ Deltagare som når slutfördssteget har nått slutet av flödet. Deltagaren kan 
 | Inställning | Beskrivning |
 |---|---|
 | Till | Mottagaren - "vår kontakt", "vår servicekontakt" eller en specifik e-postadress. |
-| Ämne | Text för ämnesfältet i e-posten. |
+| Rubrik | Text för e-postens ämnesfält. |
 | Text | Ange meddelandet. |
 
-Du kan anpassa ämne och meddelande med kontaktvariabler (samma som sammanslagningstaggar i e-postredigeraren).
+Du kan anpassa ämnet med kontaktvariabler (samma som kopplingsfält inom e-postredigeraren).
 
 ## Skicka e-post
 

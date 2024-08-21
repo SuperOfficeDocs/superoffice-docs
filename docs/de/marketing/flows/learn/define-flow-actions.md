@@ -169,12 +169,12 @@ Führen Sie benutzerdefinierte Geschäftslogik aus, indem Sie ein CRMScript als 
 
 Senden Sie eine Benachrichtigungs-E-Mail an eine bestimmte Person als Teil des Ablaufs.
 
-1. Ziehen Sie das Feld **Per E-Mail benachrichtigen** aus dem Schrittmenü und legen Sie es in einem verfügbaren Slot im Ablaufdiagramm ab.
+1. Ziehen Sie das Feld **Per E-Mail benachrichtigen** aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
 1. Geben Sie den Empfänger (**An:**).
 1. Geben Sie den **Betreff** der E-Mail ein.
 1. Geben Sie die Nachricht ein, die Sie senden möchten.
 
-Kontaktvariablen (Zusammenführungstags) sind verfügbar.
+Kontaktvariablen (Merge-Tags) sind verfügbar.
 
 ## Flow-Aktion vs. Formular-Aktion
 

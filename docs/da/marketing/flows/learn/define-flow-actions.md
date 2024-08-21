@@ -166,16 +166,16 @@ Kør brugerdefineret forretningslogik ved at udløse et CRM-script som en del af
 > [!NOTE]
 > Deltageren vil fortsætte til næste trin umiddelbart efter scriptet udløses, uden at vente på resultatet.
 
-### Underret via e-mail
+### Giv besked via e-mail
 
 Send en underretnings-e-mail til en bestemt person som en del af flowet.
 
-1. Træk boksen **Underret via e-mail** fra trinmenuen og slip den i en ledig plads i flowchartet.
+1. Træk boksen **Giv besked via e-mail** fra trinmenuen og slip den i en tilgængelig slot i flowdiagrammet.
 1. Angiv modtageren (**Til:**).
-1. Indtast **emnet** for e-mailen.
+1. Indtast **overskriften** for e-mailen.
 1. Indtast den besked, du ønsker at sende.
 
-Kontaktvariabler (fletfelter) er tilgængelige.
+Personvariabler (merge tags) er tilgængelige.
 
 ## Flowhandling vs. formularhandling
 

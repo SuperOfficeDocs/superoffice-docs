@@ -170,12 +170,12 @@ Kör anpassad affärslogik genom att aktivera ett CRM-skript som en del av flöd
 
 Skicka ett meddelande via e-post till en specifik person som en del av flödet.
 
-1. Dra rutan **Meddela via e-post** från stegmenyn och släpp den i en ledig plats i flödesschemat.
+1. Dra rutan **Meddela via e-post** från stegmenyn och släpp den i ett tillgängligt fält i flödesschemat.
 1. Ange mottagaren (**Till:**).
 1. Ange **ämnet** för e-posten.
 1. Ange meddelandet du vill skicka.
 
-Kontaktvariabler (sammanslagningstaggar) är tillgängliga.
+Kontaktvariabler (kopplingsfält) är tillgängliga.
 
 ## Flödesåtgärd vs. formuläråtgärd
 
