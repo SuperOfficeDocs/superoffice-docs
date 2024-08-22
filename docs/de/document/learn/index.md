@@ -4,8 +4,8 @@ title: Mit Dokumenten arbeiten
 description: Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM erstellen und speichern können und wie Sie sie direkt in Ihrer CRM-Lösung senden und empfangen können.
 keywords: Dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: de
 audience: person

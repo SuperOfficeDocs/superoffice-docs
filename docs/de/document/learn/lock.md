@@ -4,8 +4,8 @@ title: Dokumente ein-/auschecken
 description: Dokumente ein-/auschecken
 keywords: Dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -29,6 +29,9 @@ Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet. Wenn Sie es vor
 
 ## Woran erkannt man, ob ein Dokument ausgecheckt wurde?
 
+<!-- markdownlint-disable MD051 -->
+### [Klassisch](#tab/lock-old)
+
 Im Dialogfeld **Dokument** ist ein ausgechecktes Dokument mit einem der folgenden Symbole gekennzeichnet:
 
 ![Symbol][img3] Das Dokument ist derzeit zur Bearbeitung durch Sie ausgecheckt.
@@ -38,6 +41,17 @@ Im Dialogfeld **Dokument** ist ein ausgechecktes Dokument mit einem der folgende
 Zeigen Sie mit dem Mauszeiger auf ein Symbol, um Informationen über den Benutzer anzuzeigen, der das Dokument ausgecheckt hat.
 
 Wenn Sie versuchen, ein ausgechecktes Dokument zu öffnen, wird ein Dialogfeld mit Informationen über den Benutzer angezeigt, der das Dokument ausgecheckt hat. Sie können das Dokument nur im Lesemodus öffnen.
+
+### [Neu (ab Version 10.3.9 pilot)](#tab/lock-new)
+
+Im Dialogfeld **Dokument** zeigt ein ausgechecktes Dokument ein Banner mit Informationen darüber, wer das Dokument bearbeitet.
+
+![Symbol][img5] **Sie** bearbeiten dieses Dokument.
+
+![Symbol][img5] Sie können dieses Dokument nicht bearbeiten, da es von **NN** gesperrt ist.
+
+***
+<!-- markdownlint-restore -->
 
 ## Dokument zur Bearbeitung auschecken
 
@@ -68,3 +82,4 @@ Wenn ein Dokument von Ihnen oder einem anderen Benutzer ausgecheckt wurde und Si
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

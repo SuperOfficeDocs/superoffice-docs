@@ -4,8 +4,8 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person
@@ -29,6 +29,9 @@ Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de lees
 
 ## Hoe weet ik wanneer een document is afgemeld?
 
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/lock-old)
+
 In het dialoogvenster **Document** heeft een afgemeld document een van de volgende pictogrammen:
 
 ![pictogram][img3] Het document is momenteel afgemeld voor bewerking door uzelf.
@@ -38,6 +41,17 @@ In het dialoogvenster **Document** heeft een afgemeld document een van de volgen
 Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te geven die het document heeft afgemeld.
 
 Als u probeert een afgemeld document te openen, wordt er een dialoogvenster weergegeven met informatie over de persoon die het document heeft afgemeld. U kunt het document alleen in leesmodus openen.
+
+### [Nieuw (vanaf versie 10.3.9 pilot)](#tab/lock-new)
+
+In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
+
+![pictogram][img5] **Jij** bewerkt dit document.
+
+![pictogram][img5] Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Een document afmelden voor bewerking
 
@@ -68,3 +82,4 @@ Als u of iemand anders een document heeft uitgecheckt en u het document wilt bew
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

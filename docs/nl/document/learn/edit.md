@@ -4,8 +4,8 @@ title: Documenten bewerken
 description: Documenten bewerken
 keywords: document
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person

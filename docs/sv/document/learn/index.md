@@ -4,8 +4,8 @@ title: Arbeta med dokument
 description: Den här guiden visar hur du skapar och sparar dokument i SuperOffice CRM och hur du skickar och tar emot dokument direkt i din CRM-lösning.
 keywords: dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: sv
 audience: person

@@ -4,8 +4,8 @@ title: Redigering af dokumenter
 description: Redigering af dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person

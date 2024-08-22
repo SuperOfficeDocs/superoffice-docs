@@ -4,8 +4,8 @@ title: Neues Dokument erstellen
 description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
 keywords: Dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -106,7 +106,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 ![Dokument aus Vorlage erstellen (klassisch) -screenshot][img3]
 
-### [Neu (ab Version 10.3.8 Pilot)](#tab/cdialog-new)
+### [Neu (ab Version 10.3.9 pilot)](#tab/dialog-new)
 
 ![Dokument aus Vorlage erstellen (neu) -screenshot][img4]
 
@@ -150,7 +150,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 3. (Optional) Markieren Sie das Dokument als abgeschlossen:
 
     * Klassischer Dialog: Klicken Sie auf das Häkchensymbol oben rechts im Dialog.
-    * Neu (ab Version 10.3.8 Pilot): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
+    * Neu (ab Version 10.3.9 pilot): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
 
 4. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein](#fields).
 

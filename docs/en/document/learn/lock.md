@@ -4,8 +4,8 @@ title: Check in/out documents
 description: Check in/out documents
 keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: en
 audience: person
@@ -29,6 +29,9 @@ By default, a document is opened in edit mode. If you prefer to select read mode
 
 ## How do I know when a document is checked out?
 
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/lock-old)
+
 In the **Document** dialog, a checked-out document has one of the following icons:
 
 ![icon][img3] The document is currently checked out for editing by you.
@@ -38,6 +41,17 @@ In the **Document** dialog, a checked-out document has one of the following icon
 Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
 If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
+
+### [New (from version 10.3.9 pilot)](#tab/lock-new)
+
+In the **Document** dialog, a checked-out document displays a banner showing who is editing it.
+
+![icon][img5] **You** are editing this document.
+
+![icon][img5] You cannot edit this document because it is locked by **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Check out a document for editing
 
@@ -68,3 +82,4 @@ If you or someone else checked out a document, and you want to edit the document
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

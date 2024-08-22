@@ -4,8 +4,8 @@ title: Dokument
 description: Introduksjon til dokumenter og dokumenthåndtering i SuperOffice.
 keywords: dokument
 author: Bergfrid Dias
-date: 08.12.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: no
 audience: person

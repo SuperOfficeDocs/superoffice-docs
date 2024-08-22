@@ -4,8 +4,8 @@ title: Document
 description: Introduction to documents and document handling in SuperOffice.
 keywords: document, activity, activities
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: en
 audience: person

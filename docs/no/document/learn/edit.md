@@ -4,8 +4,8 @@ title: Redigere dokument
 description: Redigere dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: no
 audience: person
