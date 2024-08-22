@@ -27,7 +27,7 @@ För att gå bakåt och framåt mellan projekt, klicka på knapparna ![ikon][img
 
 Om du har valt en projekttyp för vilken en [projektguide][1] har definierats, visas fliken **Projektguide** på detaljkortet.
 
-## <a id="more-tab" />Fliken Mer
+## <a id="more-tab"></a>Fliken Mer
 
 ![Fliken Mer (projekt) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Tre av de användardefinierade fälten från fliken **Mer** kan också visas på
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />Fliken Arrangemang
+## <a id="event-tab"></a>Fliken Arrangemang
 
 Denna funktion kräver en separat licens.
 

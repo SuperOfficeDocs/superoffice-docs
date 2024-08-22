@@ -32,7 +32,7 @@ Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperO
 
 Ekstrafelt administreres i **Innstillinger og vedlikehold** > **Tabeller**.
 
-## <a id="field-types" />Felttyper
+## <a id="field-types"></a>Felttyper
 
 * Sannhetsverdi (ja/nei)
 * Heltall

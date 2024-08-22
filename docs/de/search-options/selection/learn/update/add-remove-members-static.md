@@ -78,7 +78,7 @@ Verwenden Sie diese Option, um einer vorhandenen statischen Selektion ausgewähl
 
 9. Klicken Sie auf **OK**. Die Selektion wird aktualisiert.
 
-## <a id="remove" />Mitglieder über Suchkriterien entfernen
+## <a id="remove"></a>Mitglieder über Suchkriterien entfernen
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

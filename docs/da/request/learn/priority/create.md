@@ -58,7 +58,7 @@ Standardprioriteterne, der følger med systemet, er **Høj**, **Middel** og **La
 
 1. Klik på **Gem**. Prioriteten oprettes. Nu kan du f.eks. [knytte eskaleringsniveauer til denne prioritet][1].
 
-## <a id="priority-settings"/>Prioriterede indstillinger
+## <a id="priority-settings"></a>Prioriterede indstillinger
 
 | Indstilling | Beskrivelse |
 |---|---|
@@ -72,7 +72,7 @@ Standardprioriteterne, der følger med systemet, er **Høj**, **Middel** og **La
 | Medtag år | Hvis du markerer dette, medtages året i feriedatoerne. |
 | Eskaler sager i henhold til tidsramme | Hvis afkrydsningsfeltet er markeret, eskaleres sager med denne prioritet kun inden for prioritetens definerede tidsramme. Eskaleringen 'fryses' i perioder, der er uden for den tidsramme, der er angivet på fanen **Tidsramme**. |
 
-## <a id="escalation-options"/>Indstillinger for eskalering
+## <a id="escalation-options"></a>Indstillinger for eskalering
 
 | Mulighed | Beskrivelse |
 |---|---|

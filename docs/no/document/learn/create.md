@@ -94,7 +94,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 ***
 
-## <a id="fields" />Slik fyller du inn informasjon
+## <a id="fields"></a>Slik fyller du inn informasjon
 
 > [!NOTE]
 > Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
@@ -127,7 +127,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 * I **Mer**-fanen, angi eventuelle [brukerdefinerte felt][10] konfigurert i Innstillinger og vedlikehold.
 
-## <a id="upload" />Last opp dokumenter
+## <a id="upload"></a>Last opp dokumenter
 
 1. Klikk på **Ny** > **Dokument** på toppraden.
 

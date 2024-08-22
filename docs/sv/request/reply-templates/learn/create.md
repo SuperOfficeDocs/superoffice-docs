@@ -91,7 +91,7 @@ Förutom sin layout och formatering måste svarsmallen även innehålla följand
 [[ENDIF]]
 ```
 
-## <a id="faq" />Automatiskt svar på FAQ
+## <a id="faq"></a>Automatiskt svar på FAQ
 
 SuperOffice Service levereras med en uppsättning svarsmallar. Bland dessa svarsmallar hittar du "Example of an automated FAQ response". I denna svarsmall finns ett exempel på hur svar till kunden kan automatiseras på fliken **HTML-text**.
 

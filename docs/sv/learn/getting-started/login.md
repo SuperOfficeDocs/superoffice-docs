@@ -111,7 +111,7 @@ Du måste ha *Behörighet 0* eller en roll som ger dig behörighet att logga in 
 
 ## Felsökning
 
-### <a id="forgot-password" />Glömt ditt lösenord?
+### <a id="forgot-password"></a>Glömt ditt lösenord?
 
 Människor glömmer ofta sina referenser framför allt sina lösenord. Därför kan det vara praktiskt att veta hur du ändrar eller återställer SuperOffice CRM-lösenordet. Följ instruktionerna för din version av SuperOffice för att ändra ditt lösenord.
 

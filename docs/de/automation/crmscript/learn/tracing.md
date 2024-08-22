@@ -50,7 +50,7 @@ Die Registerkarte **Ablaufverfolgung** enthält eine Liste aller verfügbaren Ab
 
 ![CRMScript verfolgen -screenshot][img4]
 
-### <a id="fields" />Feld
+### <a id="fields"></a>Feld
 
 | Feld | Beschreibung |
 |---|---|

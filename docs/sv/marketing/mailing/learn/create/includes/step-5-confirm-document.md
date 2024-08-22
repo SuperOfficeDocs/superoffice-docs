@@ -13,7 +13,7 @@ Klicka på **Skicka nu** och generera ett PDF-dokument. Ett PDF-dokument generer
 
 Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik för utskicket][1].
 
-## <a id="open-and-print-the-document" />Öppna och skriv ut dokumentet
+## <a id="open-and-print-the-document"></a>Öppna och skriv ut dokumentet
 
 1. Välj fliken **Utskick**.
 2. Leta rätt på dokumentet, klicka på ![ikon][img2] och välj **Visning**.

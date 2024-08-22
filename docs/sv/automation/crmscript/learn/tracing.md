@@ -50,7 +50,7 @@ Fliken **Spårning** innehåller en lista över alla spårningar. Klicka på ett
 
 ![Trace CRMScript -screenshot][img4]
 
-### <a id="fields" />Fält
+### <a id="fields"></a>Fält
 
 | Fält | Beskrivning |
 |---|---|

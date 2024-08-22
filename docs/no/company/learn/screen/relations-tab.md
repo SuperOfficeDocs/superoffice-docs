@@ -15,7 +15,7 @@ language: no
 
 Detaljkortet **Relasjoner** viser eventuelle forbindelser som finnes mellom firmaer og/eller personer, for eksempel informasjon om eierstruktur eller om personer som har vært ansatt hos forskjellige firmaer.
 
-## <a id="columns" />Kolonner i fanen Relasjoner
+## <a id="columns"></a>Kolonner i fanen Relasjoner
 
 I kolonnene på detaljkortet **Relasjoner** finner du følgende informasjon:
 

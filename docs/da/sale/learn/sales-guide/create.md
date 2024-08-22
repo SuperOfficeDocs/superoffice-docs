@@ -21,7 +21,7 @@ Denne procedure viser, hvordan du opretter en salgsguide fra bunden.
 2. Definer [den salgstype](#create-type) (med tilknyttede faser), som salgsguiden skal knyttes til.
 3. Design [salgsguiden](#create-guide).
 
-## <a id="create-stages" />Opret faser til salgsguiden
+## <a id="create-stages"></a>Opret faser til salgsguiden
 
 En salgsguide skal være knyttet til en salgstype, som igen består af flere faser. [Sådan opretter du faser][2].
 
@@ -29,7 +29,7 @@ For eksempel kan en salgsguide for salg til nye kunder indeholde faserne "Først
 
 Gå til den næste procedure for at knytte faserne til en salgstype.
 
-## <a id="create-type" />Opret en salgstype til salgsguiden
+## <a id="create-type"></a>Opret en salgstype til salgsguiden
 
 En salgsguide skal være tilknyttet en salgstype. [Sådan opretter du en salgstype][3].
 
@@ -39,7 +39,7 @@ Eksempler på salgstyper: "Salg til ny kunde", "Salg til eksisterende kunde", "K
 1. Vælg mindst to faser.
 1. Gå til den næste procedure for at oprette salgsguiden.
 
-## <a id="create-guide" />Opret en salgsguide
+## <a id="create-guide"></a>Opret en salgsguide
 
 Når du har oprettet faser og angivet en salgstype for salgsguiden, kan du designe selve salgsguiden ved at tilføje opfølgninger og/eller dokumenter for hver fase.
 
@@ -65,7 +65,7 @@ Når du har oprettet faser og angivet en salgstype for salgsguiden, kan du desig
 
 Ændringerne gemmes automatisk. Salgsguiden vises nu i SuperOffice CRM, når der oprettes et salg med salgstypen valgt i trin B.
 
-## <a id="add-fo-stage" />Tilføj en opfølgning til en fase
+## <a id="add-fo-stage"></a>Tilføj en opfølgning til en fase
 
 1. Vælg den ønskede salgstype og -fase som beskrevet ovenover.
 
@@ -112,7 +112,7 @@ Dagsorden for første møde:
 \- Firmapræsentation
 \- Andet
 
-## <a id="add-doc-stage" />Tilføj et dokument til en fase
+## <a id="add-doc-stage"></a>Tilføj et dokument til en fase
 
 1. Vælg den ønskede salgstype og -fase som beskrevet ovenover.
 

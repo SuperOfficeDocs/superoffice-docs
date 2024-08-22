@@ -40,7 +40,7 @@ Bruk tannhjulikonet ![ikon][img4] i listens topptekst for å tilpasse kolonnene.
 | Dropout | Deltakeren har trukket seg ut, alltid med en spesifisert avbruddsårsak. |
 | Avbrutt | Deltakeren vil ikke fullføre flyten fordi en administrator avsluttet den. |
 
-## <a id="logic" />Påmelding og progresjon gjennom flyten
+## <a id="logic"></a>Påmelding og progresjon gjennom flyten
 
 Før hvert trinn vurderer SuperOffice CRM om deltakeren kan gå videre.
 

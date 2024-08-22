@@ -35,7 +35,7 @@ Die Benutzeroberfläche besteht aus fünf Hauptelementen:
   * [Selektionsmitglieder hinzufügen][19]
   * [Aktivitäten][13]
 
-## <a id="global-buttons" />Allgemeine Schaltflächen
+## <a id="global-buttons"></a>Allgemeine Schaltflächen
 
 Die allgemeinen Schaltflächen werden an verschiedenen Stellen der Benutzerschaltfläche angezeigt. Einige sind in der Hauptansicht zu sehen, während sich andere in den verschiedenen Dialogfeldern befinden.
 

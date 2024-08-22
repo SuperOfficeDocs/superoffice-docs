@@ -33,7 +33,7 @@ Dra och släpp-flödesredigeraren är ditt verktyg för att bygga dessa dynamisk
 
 ![Dra och släpp-flödesredigeraren -screenshot][img2]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 * **Välkomna nya kunder:** Skicka personliga e-postmeddelanden, rabatter och dela din varumärkesberättelse. Stöd onboarding av nya produkter.
 * **Engagemangskampanjer:** Håll aktiva kunder engagerade och informerade med relevant innehåll, produktuppdateringar och exklusiva erbjudanden.
@@ -78,7 +78,7 @@ Välj mellan lista eller tiles **vy-läge** i det nedre högra hörnet.
 | ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på menynknappen ![ikon][img3] för att öppna, redigera eller radera flödet. |
 | ![ikon][img8] | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera eller radera flödet. |
 
-## <a id="view" />Skärmen Flöde
+## <a id="view"></a>Skärmen Flöde
 
 Överst kan du se flödets namn och dess plats i mappstrukturen. Du har följande alternativ:
 
@@ -117,7 +117,7 @@ När ett framgångskriterium uppfylls kan kampanjen antingen stanna eller forts�
 
 Det är tillrådligt för de flesta automatiserade flöden att sätta framgångskriterier för registrerade deltagare. Men det är inte obligatoriskt att definiera sådana kriterier.
 
-## <a id="req" />Krav
+## <a id="req"></a>Krav
 
 * Marketing premium-licens (ny nivå)
 * Sales essential eller premium - för att skapa en försäljning

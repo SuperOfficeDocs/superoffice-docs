@@ -34,7 +34,7 @@ Medlemslisten ser litt ulik ut avhengig av hva utvalget inneholder. Alle utvalgs
 
 Hvis du vil flytte mellom utvalg, klikker du på forrige/neste-knappene ( ![ikon][img2] ![ikon][img1] ) øverst til høyre på skjermbildet.
 
-### <a id="filter" />Filtrere medlemslisten
+### <a id="filter"></a>Filtrere medlemslisten
 
 > [!NOTE]
 > Før du filtrerer medlemslisten (for eksempel salg eller oppfølginger), må du klikke på **Vis alle** i fanens bunntekst. Dette sørger for at fanen viser alle postene i utvalget. For å optimere ytelsen når du jobber med store utvalg, lastes vanligvis bare de første 100 postene inn i medlemslisten.
@@ -60,7 +60,7 @@ Bruk **Oppgave**-knappen til å utføre ulike oppgaver for medlemmene eller noen
 
 * ![ikon][img5]: Oppdaterer dataene i listen.
 
-### <a id="mailing" /> Vise utsendelser arkivert på utvalg
+### <a id="mailing"></a> Vise utsendelser arkivert på utvalg
 
 Bruk fanen **Utsendelser** i skjermbildet Utvalg til å holde oversikt over alle utsendelser som er relatert til et utvalg.
 

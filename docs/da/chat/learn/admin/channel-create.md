@@ -87,7 +87,7 @@ I fanen **Repræsentant** kan du give brugere adgang til en chatkanal, og angive
     * **Leder**: Repræsentanten vil få ledermeddelelser. Denne tilladelse kan bruges for teamledere.
 4. Gentag trin 1-3 for hver repræsentant, du vil tilføje.
 
-## <a id="chatbot" />ChatBot
+## <a id="chatbot"></a>ChatBot
 
 På fanen **ChatBot** kan du aktivere chatbot. Når der startes en chat startes på en kanal, hvor en chatbot er aktiv, udløses scriptet "on-new-chat-message", og meddelelsen sendes til scriptet til behandling. Scriptet sender meddelelsen til behandling og modtager meddelelsen, tilføjer resultaterne og markerer muligvis meddelelsen til overdragelse til en agent.
 

@@ -47,7 +47,7 @@ Voorbeelden:
 * U kunt geen persoon verwijderen die een werknemer is in een SuperOffice-bedrijf.
 * U kunt geen vervolgactiviteit, documenten, verkopen, projecten, enz. verwijderen die niet van u zijn, tenzij u hiervoor voldoende gebruikersrechten hebt.
 
-## <a id="restore" />Verwijderde bedrijven en personen herstellen
+## <a id="restore"></a>Verwijderde bedrijven en personen herstellen
 
 Wanneer u iets hebt verwijderd dat niet bedoeld was om te worden verwijderd, voor bedrijven en personen, kunt u ze nog steeds herstellen vanuit uw Prullenbak. Dit maakt het minder eng om te verwijderen, wanneer u weet dat u nog steeds een hersteloptie hebt.
 

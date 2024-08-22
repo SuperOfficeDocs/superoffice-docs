@@ -72,7 +72,7 @@ Stel je dit scenario voor: je hebt zorgvuldig een e-mailcampagne met eersteklas 
 
 **E-maillevering** is cruciaal omdat het bepaalt of uw e-mails daadwerkelijk de inbox van abonnees bereiken of niet. Als ze niet worden bezorgd, worden ze niet gezien of gelezen door uw doelgroep, wat betekent dat er kansen verloren gaan en het succes van uw e-mailmarketingcampagnes lager is. Bekijk onze [best practices][9].
 
-## <a id="after" />Hoe kan ik dit opvolgen?
+## <a id="after"></a>Hoe kan ik dit opvolgen?
 
 * [Bekijk de statistieken][2] van de mailing en krijg informatie over eventuele problemen die zich hebben voorgedaan.
 * [Voeg ontvangers toe aan selecties en projecten][12] voor verdere verwerking.

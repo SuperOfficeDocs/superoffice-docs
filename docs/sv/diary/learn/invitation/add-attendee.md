@@ -48,7 +48,7 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
 
 1. Klicka på **Spara** för att spara alla ändringar.
 
-### <a id="availability" />Schemarådgivare
+### <a id="availability"></a>Schemarådgivare
 
 Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade kalendern visar tillgängligheten för varje intern deltagare (kollega). Den översta raden visar den ackumulerade tillgängligheten. Tillgängligheten för externa deltagare och e-postdeltagare är okänd.
 
@@ -65,7 +65,7 @@ Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade 
 1. Klicka **OK** när du är klar.
 1. Klicka **Spara** för att spara alla ändringar.
 
-### <a id="preview" />Förhandsgranska och uppdatera inbjudnings-e-post
+### <a id="preview"></a>Förhandsgranska och uppdatera inbjudnings-e-post
 
 När du klickar på **Spara och skicka**, visas en förhandsgranskning av e-posten baserat på titeln och dagordningen. Eventuella interna anteckningar som läggs till i händelsen utesluts.
 

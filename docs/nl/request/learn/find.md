@@ -25,7 +25,7 @@ Voer een van de volgende handelingen uit:
 * Gebruik de [navigator][12] zoeken op Verzoeken.
 * Gebruik [Zoeken][11] in de bovenste balk, kies een van de frequente zoekacties of voeg gewenste criteria toe.
 
-## <a id="list" />Lijsten gebruiken
+## <a id="list"></a>Lijsten gebruiken
 
 De eenvoudigste manier om naar verzoeken te zoeken, is door het zoekveld te gebruiken dat beschikbaar is in het menu voor het eerste tabblad **Verzoek zoeken** op het scherm Verzoeken.
 
@@ -64,7 +64,7 @@ In de praktijk zijn al deze lijsten vooraf gedefinieerde zoekopdrachten. U kunt 
 >
 > Als u al uw criteria wilt wissen, selecteert u **Alles wissen**.
 
-### <a id="result" />Zoekresultaat
+### <a id="result"></a>Zoekresultaat
 
 Het resultaat is een lijst met verzoeken die voldoen aan de hierboven opgegeven criteria. Hier kunt u:
 
@@ -83,7 +83,7 @@ Onderaan de lijst kunt u klikken op de ![pictogram][img1] knop **Taak**op voor t
 
 * **Bulksgewijs bijwerken**: als u in de lijst een of meer verzoeken hebt geselecteerd, kunt u op deze optie klikken en een actie selecteren die op alle geselecteerde verzoeken tegelijk moet worden uitgevoerd. U kunt er bijvoorbeeld voor kiezen [hetzelfde bericht aan meerdere verzoeken toe te voegen][8], [meerdere verzoeken door te sturen][7] of meerdere verzoeken tegelijk te verwijderen.
 
-### <a id="preview" />Afdrukvoorbeeld
+### <a id="preview"></a>Afdrukvoorbeeld
 
 In dit gedeelte van het scherm wordt de inhoud van het verzoek weergegeven dat is geselecteerd onder **Zoekresultaat**. U hebt dezelfde opties als bij [het verwerken van verzoeken][6].
 

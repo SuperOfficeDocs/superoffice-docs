@@ -16,7 +16,7 @@ Denne guide beskriver de forskellige typer af tilbudsskabeloner, der er tilgæng
 
 Et tilbud består ofte af mere end ét produkt. Det er derfor nødvendigt at oprette en tilbudsdetaljeskabelon (og en ordrebekræftelsesskabelon), hvor hvert produkt er opført i en tabel med forskellige grupperinger (som alternativer). Brugeren vil kun kunne redigere tilbudsdokumentet i Word. Tilbudsdetaljerne og ordrebekræftelsen bliver genereret som en PDF og kan ikke redigeres af brugeren. Alle tilbudsskabeloner kan redigeres på normal vis i Indstillinger og vedligeholdelse.
 
-## <a id="types" />Typer af tilbudsskabeloner
+## <a id="types"></a>Typer af tilbudsskabeloner
 
 SuperOffice tilbyder forskellige skabeloner til generering af tilbud. Disse skabeloner kan tilgås og tilpasses i Indstillinger og vedligeholdelse under **Lister**.
 
@@ -61,7 +61,7 @@ Når du sender tilbud eller ordrebekræftelser via e-mail, kan du vælge en e-ma
 
 Du kan tilpasse tilbuds- og ordrebekræftelsesskabeloner ved brug af fletfelter i Microsoft Word. Fletfelter lader dig indsætte specifik tilbudsinformation i skabeloner, mens standard skabelonvariabler henter kundedata og andre detaljer.
 
-### <a id="structure" />Struktur af fletfelter
+### <a id="structure"></a>Struktur af fletfelter
 
 Fletfelter skal følge en hierarkisk rækkefølge: quote > alternative > group > line. Denne struktur defineres ved brug af **TableStart** og **TableEnd** felter, som markerer starten og slutningen af hvert tabelområde:
 
@@ -84,7 +84,7 @@ Fletfelter skal følge en hierarkisk rækkefølge: quote > alternative > group >
 > [!NOTE]
 > Hver skabelon skal overholde indlejringsrækkefølgen og altid starte med det yderste niveau (quote). Den behøver ikke at gå hele vejen ned, men kan ikke starte med alternative eller andet end quote.
 
-### <a id="usage" />Brug af fletfelter
+### <a id="usage"></a>Brug af fletfelter
 
 Tilbudsdetaljer inkluderer detaljerede informationer som linjer, priser og produktnavne, typisk placeret i en separat skabelon fra tilbudsdokumentet. Hvis både hoveddokumentet og tilbudsdetaljerne bruges:
 

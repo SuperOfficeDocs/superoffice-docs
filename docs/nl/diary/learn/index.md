@@ -22,13 +22,13 @@ De agenda is een handig hulpmiddel bij het plannen en uitvoeren van verschillend
 
 Regelmatig gebruik van de agenda, waarbij activiteiten worden gekoppeld aan een contact of bedrijf, zorgt ervoor dat jij en jouw team moeiteloos georganiseerd blijven, wat soepel samenwerken en verhoogde productiviteit bevordert.
 
-## <a id="open" />Agenda weergeven
+## <a id="open"></a>Agenda weergeven
 
 Om een agenda te weergeven, klik op het woord **Agenda** in de Navigator en selecteer een tijdsperiode in de lijst die wordt weergegeven, of klik op **Vandaag** of **Deze week** om naar de huidige dag of week te gaan. Uw naam staat rechtsboven in het scherm Agenda. Als twee of meer vervolgactiviteit elkaar overlappen, kun je een deel van elke vervolgactiviteit zien.
 
 U kunt toegang krijgen tot de agenda van een andere gebruiker of een beschikbare bron om hun beschikbaarheid te controleren of direct vervolgactiviteit te maken. Om meerdere agenda's tegelijk te bekijken, maak je een [groepsweergave][2].
 
-## <a id="nav" />Navigeren in het scherm Agenda
+## <a id="nav"></a>Navigeren in het scherm Agenda
 
 De agenda bestaat uit [vier tabbladen][24]: Tabblad **Dag**, tabblad **Week**, tabblad **Maand** en tabblad **Weergave**. Schakelen tussen deze weergaven is makkelijk: gewoon op de tabbladen klikken boven aan het scherm Agenda. De relevante dag, week of maand wordt boven aan de pagina weergegeven, afhankelijk van het tabblad dat actief is.
 

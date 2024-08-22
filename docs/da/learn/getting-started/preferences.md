@@ -30,7 +30,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 > [!NOTE]
 > Hvis du vil ændre sproget i din Mobile CRM-app, skal du klikke på knappen **Opgave** i nederste venstre hjørne, trykke på **Indstillinger**, klikke på Sprog**Sprog** og vælge mellem indstillingerne.
 
-## <a id="options" />Dialogboksen Præferencer - indstillinger
+## <a id="options"></a>Dialogboksen Præferencer - indstillinger
 
 | Knap | Mulighed | Beskrivelse |
 |---|---|---|

@@ -75,7 +75,7 @@ TAB-rækkefølgen vises i listen **Navn** til venstre på skærmen. Denne række
 
 1. Klik på **Udgiv** for at gøre ændringerne tilgængelige for SuperOffice CRM-brugere.
 
-## <a id="page-1" />Vis et brugerdefineret felt på første side
+## <a id="page-1"></a>Vis et brugerdefineret felt på første side
 
 1. Marker af for **Tillad forskellige side 1-felter for forskellige brugergrupper** nederst på fanen for at angive forskellige side 1-felter for forskellige brugergrupper. Hvis afkrydsningsfeltet ikke er markeret, bruges de felter, du angiver, for alle brugergrupper.
 

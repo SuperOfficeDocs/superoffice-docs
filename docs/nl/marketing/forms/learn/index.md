@@ -20,7 +20,7 @@ Het is gemakkelijk om een formulier te maken en op elke webpagina te plaatsen wa
 
 ![U kunt een webformulier gebruiken om mensen te vragen zich aan te melden voor uw volgende webinar of seminar, of om contact op te nemen met uw bedrijf met hun vragen -screenshot][img1]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 U kunt webformulieren gebruiken om de gegevens van uw websitebezoekers vast te leggen – hun naam, e-mailadres, voorkeuren, opmerkingen en feedback, en deze mogelijk om te zetten in klanten. De gegevens die u via webformulieren ontvangt, kunnen automatisch worden geïmporteerd in uw SuperOffice CRM-database, waardoor u tijd en moeite bespaart.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing heeft 3 tabbladen met betrekking tot formulieren.
 
 * **Tabblad Formulierverzendingen:** toont een lijst van personen die een formulier hebben ingediend, en de huidige [status van hun inzending](#status).
 
-## <a id="view" />Het scherm Formulier weergeven
+## <a id="view"></a>Het scherm Formulier weergeven
 
 ![SuperOffice Marketing 'Formulier weergeven' -screenshot][img4]
 
@@ -79,7 +79,7 @@ Het scherm **Formulier weergeven** bestaat uit de volgende tabbladen:
 * **Formulierinzendingen:** toont verzendingen voor een individueel formulier.
 * **Antwoord-e-mail:** toont een voorbeeld van het formulierantwoord (mailing) dat bij dit formulier hoort. Alleen zichtbaar als de **E-mailantwoord** [formulieractie][8] is geselecteerd.
 
-## <a id="submissions" />Formulierverzendingen
+## <a id="submissions"></a>Formulierverzendingen
 
 Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan ![pictogram][img3].
 
@@ -88,13 +88,13 @@ Gebruik de filteropties onder aan de lijst om alleen verzendingen weer te geven 
 > [!NOTE]
 > U kunt ook [verzendingen weergeven voor individuele formulieren][1] door een formulier te openen in het tabblad **Formulieren**.
 
-### <a id="status" />Formulierstatus
+### <a id="status"></a>Formulierstatus
 
 * **Verwerkt**: Het formulier is verzonden en automatisch verwerkt.
 * **Ingediend**: Het formulier is verzonden, maar nog niet verwerkt. [Formulierverzendingen verwerken][2]
 * **Wachten op bevestiging**: Het formulier is verzonden, maar de afzender moet zijn e-mailadres bevestigen (dubbele opt-in).
 
-## <a id="opt-in" />Wat is dubbele opt-in?
+## <a id="opt-in"></a>Wat is dubbele opt-in?
 
 Met dubbele opt-in moeten de klanten hun e-mailadres verifiëren door op de link in een bevestigingsmail te klikken naast het indienen van het formulier.
 

@@ -44,7 +44,7 @@ Det finns två typer av aktiviteter – dokument och händelser. Dessutom visas 
 > [!NOTE]
 > Aktiviteter visas även i de [olika vyerna][7] i fönstret Kalender.
 
-## <a id="view" />Visa aktiviteter
+## <a id="view"></a>Visa aktiviteter
 
 Vilka aktiviteter som visas beror på vilka filter du väljer längst ned på detaljkortet. Du kan välja att visa alla aktiviteter eller en av typerna. Klicka på ![ikon][img5] Filtrera-knappen för att [filtrera aktiviteter][17] efter datum och användare.
 
@@ -64,7 +64,7 @@ I kolumnerna i aktivitetslistan finns följande information:
 
 Du skapar aktiviteter med **Ny** på toppraden, eller genom att dubbelklicka på knappen **Lägg till** på avsnittsfliken.
 
-## <a id="delete" />Ta bort aktivitete
+## <a id="delete"></a>Ta bort aktivitete
 
 Du kan ta bort aktiviteter från alla fönster där de visas:
 

@@ -22,7 +22,7 @@ Når du klikker på **klokkeikonikonet** ![ikon][img1] i øverste højre hjørne
 
 ![Pop op-meddelelsen vises, der viser både meddelelser om sager og invitationer -screenshot][img5]
 
-## <a id="activity" />Meddelelser om aktivitet
+## <a id="activity"></a>Meddelelser om aktivitet
 
 Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik på linket i meddelelsen for at åbne aktiviteten.
 
@@ -83,7 +83,7 @@ Dette er meddelelsesmulighederne:
 * Systembeskeder for e-mails
 * Systembeskeder for chats
 
-## <a id="enable-browser" />Ændres browserindstillingerne for notifikationer
+## <a id="enable-browser"></a>Ændres browserindstillingerne for notifikationer
 
 **Chrome:** Klik på hængelåsen foran URL'en og aktiver **Notifikationer**-vippen.
 

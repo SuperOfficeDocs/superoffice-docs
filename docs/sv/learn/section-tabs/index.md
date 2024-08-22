@@ -18,7 +18,7 @@ Detaljkorten (också kallade arkiv) ligger under huvudkortet. Här finns det lis
 
 Du kan själv välja vilka kolumner som ska visas, hur breda de ska vara och hur de ska sorteras.
 
-## <a id="sort" />Sortera listor
+## <a id="sort"></a>Sortera listor
 
 På detaljkorten kan du sortera listorna efter olika kolumner i stigande eller fallande ordning.
 

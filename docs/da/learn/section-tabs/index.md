@@ -18,7 +18,7 @@ Detaljekortene (også kaldet arkiver) ligger under hovedkortet. Her findes liste
 
 Du kan selv vælge, hvilke kolonner der skal vises, hvor brede de skal være, og hvordan de skal sorteres.
 
-## <a id="sort" />Sortering af lister
+## <a id="sort"></a>Sortering af lister
 
 På detaljekortene i kan du sortere listerne efter de forskellige kolonner i stigende eller faldende rækkefølge.
 

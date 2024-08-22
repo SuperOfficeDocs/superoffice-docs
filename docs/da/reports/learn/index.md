@@ -23,7 +23,7 @@ På skærmbilledet **Rapporter** findes der en rapportgenerator med en række st
 > [!TIP]
 > Du kan gå direkte til en bestemt fane på skærmbilledet **Rapporter** ved at klikke på ordet **Rapporter** ![ikon][img8] ved siden af knappen **Rapporter** og derefter vælge på listen.
 
-## <a id="types" />Rapporttyper
+## <a id="types"></a>Rapporttyper
 
 | Ikon | Navn | Beskrivelse |
 |---|---|---|

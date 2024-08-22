@@ -35,7 +35,7 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden ![pictogram][img1] en velden met niet-gepubliceerde wijzigingen ![pictogram][img2] worden vet weergegeven in de lijst **Velden**.
 
-## <a id="properties" />Veld eigenschappen
+## <a id="properties"></a>Veld eigenschappen
 
 | Eigenschap | Beschrijving |
 |---|---|

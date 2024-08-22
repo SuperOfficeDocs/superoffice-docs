@@ -88,7 +88,7 @@ I fanen **Agent** kan du gi brukere tilgang til en chatkanal og angi hvilke till
     * **Leder**: Agenten vil få ledervarslinger. Denne tillatelsen kan for eksempel brukes for teamledere.
 4. Gjenta trinn 1–3 for hver agent du vil legge til.
 
-## <a id="chatbot" />ChatBot
+## <a id="chatbot"></a>ChatBot
 
 I **ChatBot**-fanen kan du aktivere chatboten. Når en chat startes på en kanal der en chatrobot er aktiv, utløses skriptet "på-ny-chat-melding", og meldingen sendes til skriptet for behandling. Skriptet sender meldingen til behandling, og mottar meldingen, legger inn resultatene og merker eventuelt meldingen for levering til en agent.
 

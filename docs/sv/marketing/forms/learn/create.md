@@ -40,7 +40,7 @@ Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa et
 4. Välj **Kopiera till nytt formulär**. Mallen öppnas i dialogrutan **Redigera formulär**.
 5. [Aktivera och publicera formuläret][2].
 
-## <a id="multi-page" />Skapa flersidiga formulär
+## <a id="multi-page"></a>Skapa flersidiga formulär
 
 För att öka användarvänligheten och underlätta läsbarheten kan du överväga att dela upp ett formulär med många fält på flera sidor. Användare kan navigera genom formuläret med hjälp av **Nästa**- och **Föregående**-knappar, och en förloppsindikator kan läggas till för att visa återstående fält.
 
@@ -56,7 +56,7 @@ För att öka användarvänligheten och underlätta läsbarheten kan du övervä
 > [!TIP]
 > Du kan lägga till en förloppsindikator i formuläret så att användaren kan se hur mycket det är kvar att fylla i. Gå till kategorin **Stil**, klicka på kryssrutan bredvid **Färg på förloppsindikatorn** och välj en färg.
 
-## <a id="fields" />Fylla i formulärfält
+## <a id="fields"></a>Fylla i formulärfält
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

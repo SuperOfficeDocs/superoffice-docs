@@ -51,7 +51,7 @@ Wählen Sie das richtige Werkzeug für Ihre Aufgabe aus:
 
 Der Hauptunterschied zwischen diesen Werkzeug besteht darin, ob Sie Schlüsselwörter oder Bedingungen angeben.
 
-## <a id="fastsearcher" />Schnellsuche verwenden
+## <a id="fastsearcher"></a>Schnellsuche verwenden
 
 Verwenden Sie die **Schnellsuche** im Menü **Navigator** und in Popup-Dialogen. Es erstellt Ihnen schnell eine Liste, die Ihren Suchwörtern entspricht.
 
@@ -86,7 +86,7 @@ Wenn Sie in der oberen Leiste auf die Schaltfläche **Suchen** klicken, wird die
 
 Wenn Sie die Suchfunktion verwenden, können Sie jede durchgeführte Suche als Selektion speichern.
 
-## <a id="typical" />Verwenden Sie typische Suchanfragen als Ausgangspunkt
+## <a id="typical"></a>Verwenden Sie typische Suchanfragen als Ausgangspunkt
 
 Eine typische Suchanfrage ist eine vordefinierte Suche, die wir für Sie eingerichtet haben, damit Sie sehen können, nach was andere Benutzer normalerweise suchen. Jeder Datensatz in der Ansicht Suchen enthält eine Liste typischer Suchanfragen, die verwendet werden können.
 
@@ -105,7 +105,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Suche erstellen und als Selektion speichern
+## <a id="search-to-selection"></a>Suche erstellen und als Selektion speichern
 
 Eine Selektion ist eine Liste von Daten, die ein oder mehrere Suchkriterien gemeinsam haben. Sie kann später verwendet werden, um eine Reihe von Aktionen auszuführen. In dieser Anleitung erklären wir Ihnen, wie Sie eine Suchanfrage erstellen und als Selektion speichern können.
 

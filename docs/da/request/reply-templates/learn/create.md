@@ -91,7 +91,7 @@ Ud over svarskabelonens udseende/formatering skal den indeholde følgende skabel
 [[ENDIF]]
 ```
 
-## <a id="faq" />Automatisk FAQ-svar
+## <a id="faq"></a>Automatisk FAQ-svar
 
 SuperOffice Service leveres med et sæt af svarskabeloner. Blandt disse svarskabeloner finder du "Eksempel på et automatisk FAQ-svar". Denne svarskabelon indeholder et eksempel på automatisering af svar til kunden på fanen **HTML-tekst**.
 

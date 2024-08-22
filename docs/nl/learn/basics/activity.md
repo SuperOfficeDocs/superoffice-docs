@@ -44,7 +44,7 @@ Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Daarnaast
 > [!NOTE]
 > Activiteiten worden ook weergegeven in de [verschillende weergaven][7] in het scherm Agenda.
 
-## <a id="view" />Activiteiten weergeven
+## <a id="view"></a>Activiteiten weergeven
 
 Welke activiteiten worden weergegeven, is afhankelijk van de filters die je onderaan het sectietabblad selecteert. U kunt naar keus alle activiteiten weergeven of slechts één type. Klik op de ![icoon][img5] Filter-knop om activiteiten te [filteren][17] op datum en gebruiker.
 
@@ -64,7 +64,7 @@ De activiteitenlijst bevat de volgende informatie:
 
 U creëert activiteiten met het menu **Nieuw** in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad.
 
-## <a id="delete" />Activiteit verwijderen
+## <a id="delete"></a>Activiteit verwijderen
 
 U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten worden weergegeven:
 

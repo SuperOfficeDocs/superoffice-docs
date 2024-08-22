@@ -78,7 +78,7 @@ Følg instruksjonene nedenfor, avhengig av hvordan dokumenter håndteres i Super
 
 ***
 
-### <a id="allow" />Nettlesersikkerhetsspørsmål ved åpning av filer
+### <a id="allow"></a>Nettlesersikkerhetsspørsmål ved åpning av filer
 
 Når du får tilgang til og redigerer et dokument, fil eller e-post i SuperOffice, gir nettleseren din deg en *sikkerhetsspørsmål* angående nedlasting av filen.
 
@@ -103,7 +103,7 @@ Dialogboksen er litt annerledes i Chrome, Edge, Firefox og Safari.
 
 ![Safari: Alltid tillat eller Tillat knapp -screenshot][img4]
 
-## <a id="delete" />Slette dokumenter
+## <a id="delete"></a>Slette dokumenter
 
 1. Velg ønsket dokument i detaljkortet **Aktiviteter** på skjermbildene firma, person, dagbok, salg eller prosjekt.
 2. Klikk på **Slett**-knappen nederst til venstre i listen.

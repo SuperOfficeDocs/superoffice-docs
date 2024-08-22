@@ -20,7 +20,7 @@ U stelt vervolgactiviteiten met andere medewerkers in door de medewerkers als de
 
 Wanneer we de vergadering opslaan, wordt er een uitnodiging toegevoegd aan de persoon die we hebben uitgenodigd, en deze wordt getoond in de agenda van de persoon op de juiste datum en tijd. Dit gebeurt alleen als de uitgenodigde persoon ook een collega is. Je kunt ook personen uitnodigen die tot andere contacten behoren; zij zullen geen eigen agenda hebben waar de vergadering wordt getoond, maar deze zal in plaats daarvan worden weergegeven in het activiteitenarchief van hun contact.
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 De gebruikers die u hebt gekozen voor koppeling aan een vervolgactiviteit, ontvangen hierover een bericht op hun schermen. Als u het tabblad **Deelnemers** van de vervolgactiviteit opent, wordt een lijst met deelnemers en bronnen weergegeven die u aan de vervolgactiviteit hebt gekoppeld. De symbolen naast de namen geven aan wie de uitnodiging heeft geaccepteerd of geweigerd en welke bronnen zijn gereserveerd:
 

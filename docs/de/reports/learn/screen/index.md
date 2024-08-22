@@ -28,20 +28,20 @@ Jede Registerkarte besteht aus den folgenden Elementen:
 
 * Eine Bereichsregisterkarte **Dokumente** mit einer [Liste von gespeicherten Berichten](#archive).
 
-## <a id="list" />Berichtsliste
+## <a id="list"></a>Berichtsliste
 
 Die Berichtsliste befindet sich im oberen Teil links in der Ansicht **Berichte** und enthält die Standardberichte für die ausgewählte Registerkarte. Wenn Sie die Registerkarte **Favoriten** ausgewählt haben, werden hier Ihre Favoriten angezeigt. Der Inhalt der Berichtsbeschreibung und die Kriterienliste ändern sich je nachdem, was Sie in der Berichtsliste auswählen.
 
 > [!TIP]
 > Wenn Sie die Berichtskategorie **Favoriten** auswählen, können Sie den Namen und die Beschreibung der Berichte ändern, indem Sie auf einen Bericht doppelklicken, oder indem Sie einen Bericht auswählen und dann auf **Bearbeiten** klicken. Um einen Favoritenbericht zu löschen, markieren Sie ihn und klicken auf **Löschen**.
 
-## <a id="criteria" />Kriterienliste
+## <a id="criteria"></a>Kriterienliste
 
 Die Kriterienliste befindet sich in der oberen Hälfte der Ansicht **Berichte** neben der Berichtsliste und unterhalb der Berichtsbeschreibung. Sie enthält die Kriterien, die dem in der Berichtsliste ausgewählten Bericht entsprechen. Hier können Sie Kriterien hinzufügen oder löschen, indem Sie auf die Schaltflächen **Hinzufügen** oder **Löschen** klicken. Sie können Kriterien auch bearbeiten, indem Sie auf ein Kriterium doppelklicken.
 
 Klicken Sie auf die Schaltfläche **Zu Favoriten hinzufügen**, um den Bericht mit den festgelegten Kriterien zur Berichtsliste auf der Registerkarte **Favoriten** hinzuzufügen.
 
-## <a id="archive" />Das Berichtsarchiv (Dokumente)
+## <a id="archive"></a>Das Berichtsarchiv (Dokumente)
 
 Das Berichtsarchiv (die Bereichsregisterkarte **Dokumente**) wird unten in der Ansicht **Berichte**angezeigt. Es enthält bereits erstellte Berichte, die als Dokumente gespeichert wurden. Auf dieser Bereichsregisterkarte können Sie gespeicherte Berichte öffnen, bearbeiten, löschen und [filtern][7]. Sie können auch eine Liste von Berichten exportieren.
 

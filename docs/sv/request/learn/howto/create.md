@@ -69,7 +69,7 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 1. Klicka på **Skicka** för att skicka och spara ärendet.
 
-## <a id="message" />Meddelanden
+## <a id="message"></a>Meddelanden
 
 > [!NOTE]
 > För att skicka meddelandet till någon, lägg till mottagare i fältet **Till** under flikarna. För att göra meddelandet tillgängligt för kontakten via SuperOffice Customer Centre, ange åtkomstnivån (för meddelandet) till **Externt**.
@@ -90,7 +90,7 @@ Längst ned på skärmen visas dessutom följande alternativ:
 > [!NOTE]
 > Standardärendesignaturen läggs till i meddelandet. Du kan redigera signaturen direkt i meddelandet eller redigera din [standardsignatur för e-post][1].
 
-## <a id="details" />Detaljer
+## <a id="details"></a>Detaljer
 
 Fliken **Information** innehåller ytterligare information om ärendet. Här hittar du information som när ärendet skapades, när det senast ändrades, stängdes eller besvarades, när det lästes av ägaren eller kontakten och extrafält. Den här informationen uppdateras automatiskt under ärendets livslängd, men det finns några fält som kan redigeras när ärendet skapas:
 

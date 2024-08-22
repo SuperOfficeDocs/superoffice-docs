@@ -16,7 +16,7 @@ Diese Anleitung beschreibt die verschiedenen Arten von Angebotsvorlagen, die in 
 
 Ein Angebot besteht oft aus mehr als einem Produkt. Daher ist es notwendig, eine Angebotsdetails-Vorlage (und eine Auftragsbestätigungs-Vorlage) zu erstellen, in der jedes Produkt in einer Tabelle mit verschiedenen Gruppierungen (wie Alternativen) aufgeführt ist. Der Benutzer kann das Angebotsdokument nur in Word bearbeiten. Die Angebotsdetails und die Auftragsbestätigung werden als PDF generiert und können vom Benutzer nicht bearbeitet werden. Alle Angebotsvorlagen können auf die übliche Weise in den Einstellungen und Verwaltung bearbeitet werden.
 
-## <a id="types" />Typ des Angebotsdokumentvorlagen
+## <a id="types"></a>Typ des Angebotsdokumentvorlagen
 
 SuperOffice bietet verschiedene Vorlagen zur Erstellung von Angeboten. Diese Vorlagen sind in den Einstellungen und Verwaltung unter **Listen** zugänglich und anpassbar.
 
@@ -61,7 +61,7 @@ Beim Versenden von Angeboten oder Auftragsbestätigungen per E-Mail können Sie 
 
 Sie können Angebots- und Auftragsbestätigungs-Vorlagen mit Merge fields in Microsoft Word anpassen. Merge fields ermöglichen das Einfügen spezifischer Angebotsinformationen in Vorlagen, während Standard-Vorlagenvariablen Kundendaten und andere Details abrufen.
 
-### <a id="structure" />Struktur der Merge fields
+### <a id="structure"></a>Struktur der Merge fields
 
 Merge fields müssen einer hierarchischen Reihenfolge folgen: Angebot > Alternative > Gruppe > Zeile. Diese Struktur wird mit den **TableStart**- und **TableEnd**-Feldern definiert, die den Beginn und das Ende jedes Tabellenbereichs markieren:
 
@@ -84,7 +84,7 @@ Merge fields müssen einer hierarchischen Reihenfolge folgen: Angebot > Alternat
 > [!NOTE]
 > Jede Vorlage muss der Verschachtelungsreihenfolge entsprechen und immer mit der äußersten Ebene (quote) beginnen. Sie muss nicht bis ganz nach unten gehen, darf jedoch nicht mit Alternative oder etwas anderem als Angebot beginnen.
 
-### <a id="usage" />Verwendung von Merge fields
+### <a id="usage"></a>Verwendung von Merge fields
 
 Angebotsdetails umfassen detaillierte Informationen wie Zeilen, Preise und Produktnamen, die normalerweise in einer separaten Vorlage vom Angebotsdokument platziert werden. Wenn sowohl das Hauptdokument als auch die Angebotsdetails verwendet werden:
 

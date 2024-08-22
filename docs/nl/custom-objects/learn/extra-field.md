@@ -32,7 +32,7 @@ Een *extra veld* is een aangepast veld dat je toevoegt aan een bestaande SuperOf
 
 Extra velden worden beheerd in **Instellingen en onderhoud**, op het scherm **Tabellen**.
 
-## <a id="field-types" />Veldtypen
+## <a id="field-types"></a>Veldtypen
 
 * Bool (ja/nee)
 * Geheel getal

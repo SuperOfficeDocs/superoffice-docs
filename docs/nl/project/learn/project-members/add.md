@@ -49,7 +49,7 @@ Als u het project wilt koppelen aan een bedrijf, moet u ten minste Ã©Ã©n pro
 > [!TIP]
 > u kunt meerdere contactpersonen selecteren aan de rechterkant van het venster door **CTRL** of **SHIFT** ingedrukt te houden bij het selecteren. Wijzigingen die u doorvoert in het veld **Functie** en het tekstvak **Commentaar**, worden toegepast op alle geselecteerde personen.
 
-## <a id="from-section-tab" />Projectleden en belanghebbenden toevoegen vanaf sectietabbladen
+## <a id="from-section-tab"></a>Projectleden en belanghebbenden toevoegen vanaf sectietabbladen
 
 U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op verschillende sectietabbladen, zoals **Bedrijf** (**Personen**), **Selectie** (**Bedrijf/persoon**), **Verkoop** (**Aandeelhouders**) en **Project** (**Projectleden**). De onderstaande procedure kan dus ook worden uitgevoerd op het tabblad **Resultaat** in het [scherm Zoeken][3].
 

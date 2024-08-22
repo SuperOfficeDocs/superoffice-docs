@@ -15,7 +15,7 @@ language: no
 
 For å gruppere kolleger sammen og gi dem tilgang til CRM-data basert på denne grupperingen, må du opprette en ny brukergruppe i SuperOffice og deretter tildele denne gruppen til kollegaene dine.
 
-## <a id="create" />Opprette brukergrupper
+## <a id="create"></a>Opprette brukergrupper
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -33,7 +33,7 @@ For å gruppere kolleger sammen og gi dem tilgang til CRM-data basert på denne 
 
     ![Brukere-bildet -screenshot][img5]
 
-## <a id="delete" />Slette brukergruppe
+## <a id="delete"></a>Slette brukergruppe
 
 1. Gå til listen **Generelt - Brukergruppe**, som beskrevet over.
 1. Klikk på navnet på ønsket brukergruppe.

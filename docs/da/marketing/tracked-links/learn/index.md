@@ -51,7 +51,7 @@ Menuindstillinger:
 * **Flyt til mappe** (flytter linket til en anden mappe)
 * **Slet**
 
-## <a id="ex" />Eksempler på brug
+## <a id="ex"></a>Eksempler på brug
 
 Sporbare links kan bruges på forskellige måder:
 
@@ -73,7 +73,7 @@ Sporbare links kan bruges på forskellige måder:
 > [!NOTE]
 > Disse eksempler fungerer lige så godt for almindelige links, men i så fald registreres kun klik for den enkelte udsendelse.
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 Når du konfigurerer en udsendelse, har du mulighed for at bruge Google Analytics som sporingssystem. I indstillingerne af mailudsendelser har du mulighed ved hjælp af specifikke felter at definere en mere præcis sporing af dine e-mails, så du får mere detaljerede rapporter fra Google Channel.
 

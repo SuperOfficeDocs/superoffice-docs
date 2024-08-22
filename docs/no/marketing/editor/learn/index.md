@@ -95,7 +95,7 @@ Når du klikker på en seksjon i en melding får du tilgang til ulike funksjoner
 | ![icon][img8] | Dupliser | Oppretter en kopi av seksjonen. |
 | ![icon][img9] | Lagre blokk | Lagrer den merkede seksjonen som en blokk. Lar deg gjenbruke innhold (som topp- og bunntekster) på tvers av meldinger. |
 
-## <a id="variables" />Malvariabler
+## <a id="variables"></a>Malvariabler
 
 Hvis du vil gi meldingen et mer personlig preg, kan du bruke plassholdere til å sette inn kundespesifikk informasjon, som for eksempel kundens fornavn. På denne måten kan du tilpasse innholdet for hver enkelt kunde.
 
@@ -126,7 +126,7 @@ Bruker du det nye Dra og slipp-redigeringsprogrammet eller den forrige versjonen
 
 Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra og slipp-redigeringsprogrammet") for å erstatte det gamle ("Redigeringsprogrammet"). Redigeringsprogrammet for meldinger brukes når du oppretter e-postutsendelser og skjemasvar. Det gamle redigeringsprogrammet for meldinger vil fortsatt være tilgjengelig for redigering av meldinger og maler som er opprettet i den gamle versjonen. Alle nye utsendelser og maler bruker det nye meldingsredigeringsprogrammet.
 
-### <a id="old" />Redigeringsprogram (gammelt)
+### <a id="old"></a>Redigeringsprogram (gammelt)
 
 ![Redigeringsprogram (gammelt) -screenshot][img13]
 

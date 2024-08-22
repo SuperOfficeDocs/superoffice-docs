@@ -49,7 +49,7 @@ Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan d
 
 1. Klik på **Gem** for at gemme alle ændringer.
 
-### <a id="availability" />Planlægningsassistent
+### <a id="availability"></a>Planlægningsassistent
 
 Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detaljerede kalender viser tilgængeligheden for hver intern deltager (kollega). Den øverste række viser den akkumulerede tilgængelighed. Tilgængeligheden for eksterne deltagere og e-mail deltagere er ukendt.
 
@@ -66,7 +66,7 @@ Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detalj
 1. Klik på **OK**, når du er færdig.
 1. Klik på **Gem** for at gemme alle ændringer.
 
-### <a id="preview" />Forhåndsvisning og opdater invitationsemail
+### <a id="preview"></a>Forhåndsvisning og opdater invitationsemail
 
 Når du klikker på **Gem og send**, vises en forhåndsvisning af e-mailen baseret på titlen og dagsordenen. Eventuelle interne noter, der er tilføjet opfølgningen, ekskluderes.
 

@@ -15,7 +15,7 @@ language: sv
 
 **Kontakter** är ett av detaljkorten längst ned i fönstret Företag. Här hittar du all information om [medarbetarna på det aktiva företaget][1]. Dubbelklicka på ett namn i listan för att öppna kontakten i fönstret Kontakt.
 
-## <a id="columns" />Kolumner på detaljkortet Kontakter
+## <a id="columns"></a>Kolumner på detaljkortet Kontakter
 
 Detaljkortet **Kontakter** innehåller följande kolumner:
 

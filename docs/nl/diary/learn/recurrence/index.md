@@ -13,7 +13,7 @@ language: nl
 
 Het kan gebeuren dat u een reeks afspraken wilt maken die met regelmatige tussenpozen moeten plaatsvinden, bijvoorbeeld een wekelijkse statusvergadering. In plaats van deze vergadering één voor één vast te leggen kunt u hiervoor de functie voor herhalende vervolgactiviteiten gebruiken.
 
-## <a id="frequency" />Frequentie
+## <a id="frequency"></a>Frequentie
 
 **Frequentie** is hoe de vervolgactiviteit wordt herhaald. Het patroon kan dagelijks, wekelijks, maandelijks, jaarlijks of herhaald worden met een door de gebruiker gedefinieerd interval. De beschikbare opties voor elke frequentie variëren.
 

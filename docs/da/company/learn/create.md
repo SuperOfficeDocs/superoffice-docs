@@ -36,7 +36,7 @@ Se videoen, der viser, hvordan du [opretter et firma][1].
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
 
-## <a id="more-tab" />Fanen Mere (skærmen Firma)
+## <a id="more-tab"></a>Fanen Mere (skærmen Firma)
 
 1. Gå til fanen **Mere**. På denne fane finder du brugerdefinerede felter for firmaer. Hvis din organisation f.eks. skal have felter til antallet af medarbejdere i firmaet eller til dens omsætning, kan du angive i Indstillinger og vedligeholdelse, at disse felter skal indsættes her.
 
@@ -47,7 +47,7 @@ Se videoen, der viser, hvordan du [opretter et firma][1].
 > [!NOTE]
 > Du kan også redigere firmaoplysningerne under fanen **Mere** ved at klikke på **Rediger**.
 
-## <a id="interests-tab" />Fanen Interesser (skærmbilledet Firma)
+## <a id="interests-tab"></a>Fanen Interesser (skærmbilledet Firma)
 
 1. Gå til fanen **Interesser**.
 

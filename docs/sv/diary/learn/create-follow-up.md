@@ -34,7 +34,7 @@ Det finns många olika sätt att skapa händelser. Denna metod fungerar från va
 | Knappen Uppgift på kontaktkortet | x | x | |
 | Kalender | x | | |
 
-### <a id="fields" />Hur man anger information
+### <a id="fields"></a>Hur man anger information
 
 > [!NOTE]
 > Många fält har en lista över fördefinierade värden som du kan välja från. Klicka på pilen ![ikon][img4] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett företagsnamn.
@@ -94,7 +94,7 @@ Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som
 > [!NOTE]
 > Om du skapar mötet på fliken **Översikt** kan du välja att deltagarlistan ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
-## <a id="associate" />Skapa möte för en medarbetare
+## <a id="associate"></a>Skapa möte för en medarbetare
 
 Du kan öppna en annan användares kalender, eller kalendern för en tillgänglig resurs, för att se när de är lediga, eller för att skapa händelser för dem direkt.
 
@@ -110,7 +110,7 @@ Du kan öppna en annan användares kalender, eller kalendern för en tillgängli
 
 6. Klicka på **Spara**-knappen. Mötet visas i den valda personens kalender.
 
-## <a id="copy" />Kopiera en händelse till kalendern
+## <a id="copy"></a>Kopiera en händelse till kalendern
 
 Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljning till en annan tid eller dag i dagboken.
 

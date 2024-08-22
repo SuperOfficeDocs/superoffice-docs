@@ -15,7 +15,7 @@ language: nl
 
 **Contactpersonen** is een van de sectietabbladen onder in het scherm Bedrijf. Dit tabblad bevat informatie over de [werknemers van het actieve bedrijf][1]. Dubbelklik op een naam in de lijst om de persoon te openen in het scherm Persoon.
 
-## <a id="columns" />De kolommen op het sectietabblad Contactpersonen
+## <a id="columns"></a>De kolommen op het sectietabblad Contactpersonen
 
 Het sectietabblad **Contactpersonen** bevat de volgende kolommen:
 

@@ -51,7 +51,7 @@ Menüoptionen:
 * **In Ordner verschieben** (verschiebt den Link in einen anderen Ordner)
 * **Löschen**
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Überwachbare Links können auf verschiedene Arten genutzt werden:
 
@@ -73,7 +73,7 @@ Menüoptionen:
 > [!NOTE]
 > Diese Beispiele funktionieren genauso gut für normale Links, aber in diesem Fall werden nur die Klicks für die jeweilige Aussendung erfasst.
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 Beim Einrichten einer Kampagne haben Sie die Möglichkeit, Google Analytics als Tracking-System zu verwenden. Die Einrichtung in Kampagnen ermöglicht Ihnen eine genauere Nachverfolgung von E-Mails mithilfe der bereitgestellten Felder, was zu detaillierteren Google Channel-Berichten führt.
 

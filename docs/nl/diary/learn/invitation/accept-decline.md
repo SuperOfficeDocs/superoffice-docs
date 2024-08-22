@@ -16,7 +16,7 @@ Deelnemers die worden uitgenodigd voor een vervolgactiviteit ontvangen een meldi
 
 ![Uitnodigingen ontvangen -screenshot][img2]
 
-## <a id="accept" />Uitnodigingen accepteren of afwijzen
+## <a id="accept"></a>Uitnodigingen accepteren of afwijzen
 
 * Klik op het **belpictogram** in de bovenste balk om uw uitnodigingen te bekijken.
 * Klik op de link in de Meldingen-paneel om de vervolgactiviteit te openen.

@@ -26,7 +26,7 @@ Jede Frage und Abfrage kann als Anfrage definiert werden. Diese Fragen umfassen 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Wo kann ich auf Anfragen zugreifen?
+## <a id="open"></a>Wo kann ich auf Anfragen zugreifen?
 
 * Archive in allen Hauptkarten, wie Firma, Verkauf, Projekt
 * [Benutzerdefinierte Listen][11]
@@ -36,7 +36,7 @@ Jede Frage und Abfrage kann als Anfrage definiert werden. Diese Fragen umfassen 
 
 Wenn Sie in der [Anzeige Suchergebnisse][13] auf eine Zeile doppelklicken, gelangen Sie zur Ansicht Anfrage.
 
-### <a id="customers" />Personen
+### <a id="customers"></a>Personen
 
 Anfragen können mit [Personen][2] verknüpft werden, die zu einer [Firma][3] gehören. Dies bedeutet, dass Anfragen nicht direkt, sondern nur indirekt über Personen mit Firmen verknüpft werden können. Wenn neue E-Mails importiert und als Anfragen gespeichert werden, wird die Anfrage über die E-Mail-Adresse automatisch mit der richtigen Person verknüpft. Wenn Sie eine Anfrage ansehen , können Sie ganz einfach feststellen, von welcher Person diese Anfrage stammt, und wenn Sie auf den Namen der Person klicken, können Sie sich über die weiteren für diese Person erfassten Anfragen informieren. Dadurch erhalten Sie einen schnellen Überblick über vorherige Kommunikationen mit dieser Person.
 
@@ -48,7 +48,7 @@ Anfragen können mit [Personen][2] verknüpft werden, die zu einer [Firma][3] ge
 * [Anfragen suchen][10]
 * [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
 
-## <a id="request-mgt" />Anfragenmanagement
+## <a id="request-mgt"></a>Anfragenmanagement
 
 Eingehende Anfragen können über viele Kanäle eingehen. Es gibt mehrere Möglichkeit, diese Anfragen zu erfassen und zu beantworten. Die Vorgehensweise bei der Bearbeitung von Anfragen unterscheidet sich von Anfrage zu Anfrage.
 

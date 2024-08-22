@@ -31,7 +31,7 @@ Hvis du redigerer tid, dato eller sted for en opfølgning - eller sletter en inv
 > [!NOTE]
 > Du kan ikke redigere afsluttede ændringer, før du har sat deres status til **Udført**.
 
-## <a id="change-end" />Rediger sluttidspunkt for opfølgninger i dagbogen
+## <a id="change-end"></a>Rediger sluttidspunkt for opfølgninger i dagbogen
 
 På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden at skulle åbne den:
 
@@ -46,7 +46,7 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 > [!NOTE]
 > Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed**.
 
-## <a id="repeat" />Rediger gentagne opfølgninger
+## <a id="repeat"></a>Rediger gentagne opfølgninger
 
 Ændringer fungerer på samme måde, som når du redigerer opfølgninger, men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning**.
 
@@ -64,7 +64,7 @@ Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mø
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
+## <a id="delete"></a>Slet opfølgning ved hjælp af Dagbogen
 
 * Hvis du sletter en opfølgning, som du er inviteret til, fjernes opfølgningen kun fra din dagbog.
 * Hvis du sletter en invitation, som du ejer, fra din dagbog, forsvinder denne opfølgning også fra de inviteredes dagbøger.

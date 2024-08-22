@@ -13,7 +13,7 @@ language: da
 
 Det kan ske, at du vil oprette en række aftaler, der skal forekomme med jævne mellemrum, for eksempel et ugentligt statusmøde. I stedet for at optage disse møder et ad gangen, kan du bruge den gentagne opfølgningsfunktion.
 
-## <a id="frequency" />Frekvens
+## <a id="frequency"></a>Frekvens
 
 **Frekvens** er, hvordan opfølgningen gentages. Mønsteret kan være dagligt, ugentligt, månedligt, årligt eller gentages med et brugerdefineret interval. De tilgængelige indstillinger for hver frekvens varierer.
 

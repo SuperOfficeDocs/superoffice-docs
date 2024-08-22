@@ -15,7 +15,7 @@ language: de
 
 Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage dieser Gruppierung zu gewähren, müssen Sie in SuperOffice eine neue Benutzergruppe erstellen und diese dann Ihren Kollegen zuweisen.
 
-## <a id="create" />Benutzergruppen erstellen
+## <a id="create"></a>Benutzergruppen erstellen
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -33,7 +33,7 @@ Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage diese
 
     ![Benutzer-Dialog -screenshot][img5]
 
-## <a id="delete" />Benutzergruppe löschen
+## <a id="delete"></a>Benutzergruppe löschen
 
 1. Gehen Sie wie oben beschrieben zur Liste **Allgemein - Benutzergruppe**.
 1. Klicken Sie auf den Namen der betreffenden Benutzergruppe.

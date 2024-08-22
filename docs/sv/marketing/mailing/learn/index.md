@@ -72,7 +72,7 @@ Föreställ dig detta scenario: du har noggrant skapat en e-postkampanj med för
 
 **E-postleverans** är viktig eftersom det avgör om dina e-postmeddelanden faktiskt når abonnenternas inkorgar eller inte. Om de inte levereras kommer de inte att ses eller läsas av din målgrupp, vilket innebär förlorade möjligheter och lägre framgång för dina e-postmarknadsföringskampanjer. Kolla in våra [bästa praxis][9].
 
-## <a id="after" />Hur gör jag för att följa upp utskick?
+## <a id="after"></a>Hur gör jag för att följa upp utskick?
 
 När ditt utskick är skickat är det alltid spännande att se hur bra det har presterat. För att se om allt ditt hårda arbete har lönat sig. Det är också ett utmärkt tillfälle att kontrollera och förbättra kvaliteten på den information som registreras i din CRM-databas.
 

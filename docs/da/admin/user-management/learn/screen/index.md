@@ -22,7 +22,7 @@ I skærmbilledet Brugere kan du tilføje og redigere forskellige brugertyper.
 > [!NOTE]
 > Eventuelle ændringer, du foretager i skærmbilledet Brugere, træder ikke i kraft, før du klikker på **Gem** nederst i skærmbilledet, eller bekræfter, at du vil gemme ændringen/ændringerne, i dialogboksen som vises. Hvis du klikker på **Afbryd**, mister du alt det, du har foretaget i skærmbilledet, siden du gemte sidst.
 
-## <a id="associates" />Medarbejderlisten
+## <a id="associates"></a>Medarbejderlisten
 
 Listen under fanen **Medarbejdere** består som standard af følgende kolonner:
 
@@ -51,11 +51,11 @@ Der er forskellige faner i brugeroversigten:
 * **Licenser** - ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på opfølgingerr, dokumenter og valg.
 * **Mere** - fanen viser, om der er ekstra felter på personen.
 
-## <a id="other-users" />Andre brugere (Onsite)
+## <a id="other-users"></a>Andre brugere (Onsite)
 
 På fanen **Andre brugere** på skærmen Brugere kan du redigere logonrettigheder for og tilføje anonyme brugere og systembrugere.
 
-## <a id="our-companies" />Vores virksomheder
+## <a id="our-companies"></a>Vores virksomheder
 
 Formålet med virksomhedslisten på fanen **Vores virksomheder**på skærmbilledet Brugere er at angive:
 

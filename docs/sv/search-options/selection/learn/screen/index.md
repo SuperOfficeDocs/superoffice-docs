@@ -34,7 +34,7 @@ Medlemslistan ser lite olika ut beroende på vad urvalet innehåller. Alla urval
 
 Om du vill flytta mellan olika urval, klickar du på knapparna föregående/nästa ( ![ikon][img2] ![ikon][img1] ) längst upp till höger på skärmen.
 
-### <a id="filter" />Filtrera medlemslistan
+### <a id="filter"></a>Filtrera medlemslistan
 
 > [!NOTE]
 > Innan du filtrerar medlemslistan (för t.ex. försäljning eller händelser), klicka på **Visa alla** i sidfoten på fliken. Detta säkerställer att fliken visar alla poster i urvalet. För att säkerställa bästa möjliga prestanda när du arbetar med stora urval laddas oftast bara de första 100 posterna i deltagarlistan.
@@ -60,7 +60,7 @@ Använd **Uppgift**-knappen för att utföra olika uppgifter för alla eller nå
 
 * ![ikon][img5]: Uppdaterar data i listan.
 
-### <a id="mailing" /> Visa arkiverade utskick för urval
+### <a id="mailing"></a> Visa arkiverade utskick för urval
 
 Använd fliken **Utskick** i fönstret Urval för att hålla reda på alla utskick som är kopplade till ett urval.
 

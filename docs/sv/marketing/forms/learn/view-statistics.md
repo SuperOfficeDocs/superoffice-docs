@@ -36,7 +36,7 @@ Om du vill se statistik om ditt formulär kan du gå till fliken **Formulär** o
 
 * **Formulärinlämningar:** Här kan du visa och [behandla alla inlämnade formulär][1]. En röd ikon på fliken anger nya formulärinlämningar.
 
-## <a id="filter" />Filteralternativ
+## <a id="filter"></a>Filteralternativ
 
 För att arbeta mer effektivt kan du filtrera posterna för att visa en eller flera formulärstatusar eller Mina/Primära grupper. Du hittar **Filtrera**-knappen i nedre högra hörnet.
 

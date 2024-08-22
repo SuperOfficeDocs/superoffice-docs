@@ -47,7 +47,7 @@ Händelserna visas som standard som blå fält på kalenderflikarna. Om du håll
 > [!NOTE]
 > Under Inställningar och underhåll kan du definiera att alla händelser av en viss typ ska visas med en annan bakgrundsfärg än den vanliga blå i fönstret Kalender.
 
-### <a id="day" />Fliken Dag
+### <a id="day"></a>Fliken Dag
 
 På fliken **Dag** visas en dag i taget med timintervall längs den vänstra kanten.
 
@@ -55,7 +55,7 @@ På fliken **Dag** visas en dag i taget med timintervall längs den vänstra kan
 
 Om [tidszoner][14] är aktiverade kan du byta tidszon längst ner till vänster.
 
-### <a id="week" />Fliken Vecka
+### <a id="week"></a>Fliken Vecka
 
 På fliken **Vecka** visas en vecka i taget. Det finns en kolumn för varje veckodag och timintervaller längs den vänstra kanten.
 
@@ -66,7 +66,7 @@ Om du vill öppna fliken **Dag** för en viss dag klickar du på rubriken för d
 > [!NOTE]
 > Du kan definiera om veckan ska inledas på söndag eller måndag under ![icon][img7] **Personliga inställningar** > **Inställningar**.
 
-### <a id="month" />Fliken Månad
+### <a id="month"></a>Fliken Månad
 
 På fliken **Månad** visas en månad i taget. Här visas inte tiden, utan händelser för enskilda dagar.
 
@@ -77,7 +77,7 @@ På fliken **Månad** visas en månad i taget. Här visas inte tiden, utan händ
 
 Om du vill öppna fliken **Dag** för en viss dag klickar du på sidhuvudet/datumet.
 
-### <a id="view" />Fliken Översikt
+### <a id="view"></a>Fliken Översikt
 
 På fliken **Översikt** i Kalender-fönstret visas din egen kalender med ditt användar-ID högst upp på sidan.
 

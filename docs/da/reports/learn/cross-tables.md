@@ -16,7 +16,7 @@ Du kan vise og udskrive krydstabeller på forskellige måder. Du kan bl.a. vælg
 > [!TIP]
 > Hvis du er i tvivl om, hvorvidt rapporten er en krydstabel, kan du se på billedet mellem rapportlisten og rapportbeskrivelsen. [Hvordan][1].
 
-## <a id="install" />Installer CrossTable Viewer
+## <a id="install"></a>Installer CrossTable Viewer
 
 Sådan får du vist en krydstabelrapport (. Dcube-fil), skal du installere **CrossTable-fremviseren** (én gang pr. computer).
 
@@ -51,11 +51,11 @@ Sådan får du vist en krydstabelrapport (. Dcube-fil), skal du installere **Cro
 
 1. Klik på **OK** for at lukke programmet til visning af krydstabeller.
 
-## <a id="print" />Udskrivning af krydstabeller
+## <a id="print"></a>Udskrivning af krydstabeller
 
 Der er flere udskriftsmuligheder for krydstabeller. Du kan bl.a. vælge, hvilke dele af krydstabellen, der skal vises på udskriften, forhåndsvise krydstabellen og udskrive krydstabellen som en almindelig tabel eller som et diagram.
 
-## <a id="export" />Lagring af krydstabelrapporter som filer
+## <a id="export"></a>Lagring af krydstabelrapporter som filer
 
 Lagring af rapporter som filer fungerer lidt anderledes for rapporttypen krydstabel end for de andre rapporttyper. Hvis du vil gemme en krydstabelrapport som en fil, skal du klikke på **Eksportér** når rapporten vises i Krydstabelfremviser.
 

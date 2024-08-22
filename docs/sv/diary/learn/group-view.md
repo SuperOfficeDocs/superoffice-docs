@@ -45,7 +45,7 @@ Du kan välja kalendrar för andra användare och resurser, och du kan spara des
 > [!TIP]
 > Om du vill ta bort den aktiva gruppöversikten klickar du på knappen **Uppgift** längst ner till höger och väljer **Ta bort gruppöversikt**.
 
-## <a id="fields" />Fält
+## <a id="fields"></a>Fält
 
 ### Namn
 
@@ -84,7 +84,7 @@ Klicka på **Markera alla** ![ikon][img6] om du vill välja alla användare/resu
 
 Här visas alla användare och resurser som du har lagt till i gruppöversikten. Om du vill ta bort en användare eller resurs från listan markerar du posten och klickar på vänsterpilen ![ikon][img1]. De användare och resurser du har valt visas i gruppöversikten i samma ordning som i rutan till höger. Om du vill ändra ordningen markerar du en användare eller resurs och klickar på uppåtpilen ![ikon][img3] eller nedåtpilen ![ikon][img4] så flyttas posten uppåt eller nedåt i listan.
 
-## <a id="troubleshoot" />Varför är Redigera-knappen grå?
+## <a id="troubleshoot"></a>Varför är Redigera-knappen grå?
 
 Du kan bara ändra gruppöversikter som du har skapat. I en fördefinierad gruppöversikt är knappen **Redigera** grå eftersom du inte kan ändra den härifrån. Dessa gruppöversikter innehåller alla användare som har tilldelats till de specifika grupperna. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

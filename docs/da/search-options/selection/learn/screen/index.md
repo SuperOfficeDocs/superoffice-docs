@@ -34,7 +34,7 @@ Medlemslisten ser lidt forskellig ud afhængig af, hvad udvalget indeholder. All
 
 Hvis du vil gå frem og tilbage mellem udvalg, skal du klikke på knapperne forrige/næste (![ikon][img2] ![ikon][img1]) øverst til højre i skærmbilledet.
 
-### <a id="filter" />Filtrering af listen over medlemmer
+### <a id="filter"></a>Filtrering af listen over medlemmer
 
 > [!NOTE]
 > Før du filtrerer listen over medlemmer (for eksempel salg eller opfølgninger), skal du klikke på **Vis alle** i sidefoden på fanen. Det sikrer, at fanen viser alle poster i udvalget. For at sikre den bedst mulige ydelse, når du arbejder med store udvalg, indlæses som regel kun de første 100 poster på listen over medlemmer.
@@ -60,7 +60,7 @@ Brug knappen **Opgave** for at udføre forskellige opgaver for medlemmerne eller
 
 * ![ikon][img5]: Opdaterer dataene på listen.
 
-### <a id="mailing" /> Vis udsendelser arkiveret efter udvalg
+### <a id="mailing"></a> Vis udsendelser arkiveret efter udvalg
 
 Brug fanen **Udsendelser** på skærmbilledet Valg til at holde styr på alle udsendelser, der er relateret til et udvalg.
 

@@ -15,7 +15,7 @@ pilot: yes
 
 # Ausführen, pausieren und beenden des Flow
 
-## <a id="status" />Flowstatus
+## <a id="status"></a>Flowstatus
 
 * **Wird nicht ausgeführt:** Stellt einen neuen Flow dar, der nicht gestartet wurde (oder ein beendeter Flow). Trigger sind nicht aktiviert.
 
@@ -70,7 +70,7 @@ Um den Flow zu beenden:
 
 Wenn der Flow nach dem Beenden erneut gestartet wird, gehen nur neue Teilnehmer durch den Flow, alte Teilnehmer behalten den Status Abbruch bei.
 
-## <a id="delete" />Flow löschen
+## <a id="delete"></a>Flow löschen
 
 1. Pausieren Sie den Flow.
 1. Wählen Sie **Aufgabe** > **Flow löschen**.

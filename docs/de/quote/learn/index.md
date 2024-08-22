@@ -25,7 +25,7 @@ Wenn der Kunde das Angebot akzeptiert hat, können Sie einen Auftrag erstellen u
 4. [Angebot senden][4].
 5. Wenn der Kunde das Angebot akzeptiert, können Sie den [Auftrag erteilen][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

@@ -36,7 +36,7 @@ Alternativ visas som flikar i offerten (i dialogrutan **Redigera offert**).
 
 7. Om du vill ändra namnet på fliken **Produkter** till något som beskriver det här alternativet, dubbelklickar du på flikens namn.
 
-## <a id="fav" />Favoritalternativ
+## <a id="fav"></a>Favoritalternativ
 
 Om du skapar flera alternativ i en offert, markeras det första (vanligtvis fliken **Produkter**) som favorit ( ![ikon][img2] **Favoritalternativ**). Uppskattade försäljningsbelopp för försäljningen (prognos) hämtas från det totala beloppet för favoritalternativet.
 

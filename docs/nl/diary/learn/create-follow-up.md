@@ -34,7 +34,7 @@ Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt ov
 | Knop Taak op de persoonskaart | x | x | |
 | Agenda | x | | |
 
-### <a id="fields" />Hoe informatie in te voeren
+### <a id="fields"></a>Hoe informatie in te voeren
 
 > [!NOTE]
 > Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icoon][img4] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
@@ -94,7 +94,7 @@ Als u **Hele dag** aanvinkt, wordt de tijd van de opvolging ingesteld op de peri
 > [!NOTE]
 > Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om deelnemers automatisch te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
-### <a id="associate" />Vervolgactiviteit maken voor een medewerker
+### <a id="associate"></a>Vervolgactiviteit maken voor een medewerker
 
 U kunt ook de agenda van een andere gebruiker openen of de agenda voor een beschikbare bron, om te kijken wanneer iemand tijd heeft of als u rechtstreeks vervolgactiviteiten wilt registreren voor een gebruiker.
 
@@ -110,7 +110,7 @@ U kunt ook de agenda van een andere gebruiker openen of de agenda voor een besch
 
 6. Klik op de knop **Opslaan**. De vergadering wordt weergegeven in de agenda van de geselecteerde persoon.
 
-## <a id="copy" />Vervolgactiviteit naar de agenda kopiëren
+## <a id="copy"></a>Vervolgactiviteit naar de agenda kopiëren
 
 U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een andere tijd of dag in de agenda te kopiëren.
 

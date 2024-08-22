@@ -36,7 +36,7 @@ Alternativen werden als Registerkarten im Angebot angezeigt (im Dialogfeld **Ang
 
 7. Um den Namen der Registerkarte **Produkte** beispielsweise in einen Namen zu ändern, der die Alternative beschreibt, müssen Sie auf den Namen der Registerkarte doppelklicken.
 
-## <a id="fav" />Favorisierte Alternative
+## <a id="fav"></a>Favorisierte Alternative
 
 Wenn Sie mehrere Alternativen in einem Angebot erstellt haben, wird die erste Alternative (normalerweise die Registerkarte **Produkte**) als Favorit markiert (![Symbol][img2] **Favorisierte Alternative**). Geschätzte Verkaufsbeträge für den Verkauf (Prognosen) stammen vom Gesamtbetrag für die favorisierte Alternative.
 

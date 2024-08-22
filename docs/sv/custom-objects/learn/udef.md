@@ -28,7 +28,7 @@ Användardefinierade fält hanteras i Inställningar och underhåll, i **Fält**
 > [!NOTE]
 > Alla kan **uppdatera** data lagrade i ett användardefinierat fält. Endast en administratör kan lägga till (eller ta bort) ett användardefinierat fält. Du behöver en Development Tools-licens för att anpassa layouten för **Mer**-fliken och använda sidan 1-fält.
 
-## <a id="field-types" />Fälttyper
+## <a id="field-types"></a>Fälttyper
 
 * **Nummer**: Heltal, obegränsat antal siffror.
 * **Kort text**: Text med högst 39 tecken. I fältet **Textlängd**, som aktiveras när du väljer det här alternativet, anger du det maximala antalet tecken som användarna kan skriva i fältet.
@@ -39,7 +39,7 @@ Användardefinierade fält hanteras i Inställningar och underhåll, i **Fält**
 * **Lista**: En listruta. Välj en lista från systemet i fältet nedan.
 * **Decimal**: en siffra med decimaler.
 
-## <a id="limit" />Maximalt antal fält
+## <a id="limit"></a>Maximalt antal fält
 
 Följande begränsningar gäller för antalet användardefinierade fält som du kan lägga till på flikarna Företag, Kontakt, Projekt och Försäljning.
 
@@ -51,7 +51,7 @@ Följande begränsningar gäller för antalet användardefinierade fält som du 
 > [!NOTE]
 > Fyra av de användardefinierade fälten i varje grupp måste indexeras.
 
-## <a id="index" />Indexerade fält
+## <a id="index"></a>Indexerade fält
 
 Indexering är bra för användarupplevelsen och prestandan. De första 4 fälten av varje datatyp är reserverade för index.
 
@@ -59,7 +59,7 @@ Du måste markera rutan när du skapar fältet för att tillåta indexering. Du 
 
 Om du väljer att inte indexera alls slösar du i princip bort 16 fält! Därmed minskas det maximala antalet anpassade fält till 103.
 
-## <a id="page-1" />Sidan 1-fält
+## <a id="page-1"></a>Sidan 1-fält
 
 Bland de användardefinierade fälten som visas på fliken **Mer** i SuperOffice CRM kan du välja ut *tre* fält som ska fungera som så kallade sidan 1-fält (eftersom de visas på "förstasidan" i sina respektive bilder eller dialogrutor).
 

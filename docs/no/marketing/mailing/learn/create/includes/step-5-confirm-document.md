@@ -13,7 +13,7 @@ Klikk på **Send nå** for å generere et PDF-dokument. Det genereres et PDF-dok
 
 Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 
-## <a id="open-and-print-the-document" />Åpne og skrive ut dokumentet
+## <a id="open-and-print-the-document"></a>Åpne og skrive ut dokumentet
 
 1. Velg fanen **Utsendelser**.
 2. Finn dokumentet, klikk på ![ikon][img2] og velg **Vis**.

@@ -51,7 +51,7 @@ Choose the right tool for your task:
 
 Hovedforskjellen mellom disse verktøyene er om du angir nøkkelord eller betingelser.
 
-## <a id="fastsearcher" />Hurtigsøk
+## <a id="fastsearcher"></a>Hurtigsøk
 
 Du kan bruke hurtigsøk i navigatoren og i dialoger. Listen av treff bygges etterhvert som du skriver.
 
@@ -89,7 +89,7 @@ Klikk på **Finn**-knappen på toppraden for å åpne [Finn][1]-skjermbildet, de
 
 Fra Finn-skjermbildet kan du lagre hvert søk du utfører som et utvalg.
 
-## <a id="typical" />Bruk vanlige søk som utgangspunkt
+## <a id="typical"></a>Bruk vanlige søk som utgangspunkt
 
 Et vanlig søk er et forhåndsdefinert søk vi har satt opp for deg, slik at du kan se hva andre brukere vanligvis søker etter. Hvert datasett i Finn-skjermbildet inneholder en liste over vanlige søk som er klare til bruk.
 
@@ -108,7 +108,7 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Opprett et søk og lagre det som et utvalg
+## <a id="search-to-selection"></a>Opprett et søk og lagre det som et utvalg
 
 Et utvalg er en liste med data som deler ett eller flere søkekriterier. Det kan senere brukes til å utføre en rekke handlinger. I denne veiledningen forklarer vi hvordan du kan opprette et søk og lagre det som et utvalg.
 

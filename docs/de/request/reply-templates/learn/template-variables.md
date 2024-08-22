@@ -62,7 +62,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | link.subscription | Der Link zum Beenden Ihres Abonnements |
 | link.viewShipmentMessage | Der Link, um die E-Mail-Nachricht online zu sehen |
 
-## <a id="config" />Verwaltung
+## <a id="config"></a>Verwaltung
 
 | Variable | Beschreibung|
 |---|---|
@@ -83,7 +83,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | config.warning | Der Pfad für die Warnungs-Logdateien |
 | config.wwwPath | Der Systempfad für WWW-Dateien |
 
-## <a id="customer" />Variablen für eine ausgewählte Person
+## <a id="customer"></a>Variablen für eine ausgewählte Person
 
 | Variable | Beschreibung|
 |---|---|
@@ -107,7 +107,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | customer.username | Benutzername in SuperOffice Kundenzentrum |
 | makeSalutation(customer.id) | Anrede |
 
-## <a id="ticket" />Variablen für Anfragen (nur SuperOffice Service)
+## <a id="ticket"></a>Variablen für Anfragen (nur SuperOffice Service)
 
 | Variable | Beschreibung|
 |---|---|
@@ -150,7 +150,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | ticket.urlWithSession | Die URL für den Zugriff auf die Anfrage durch Benutzeragenten in der aktuellen Benutzersitzung |
 | ticket.userUrl | Die URL für den Zugriff auf die Anfrage durch Benutzeragenten |
 
-## <a id="company" />Variablen für ausgewählte Firma
+## <a id="company"></a>Variablen für ausgewählte Firma
 
 | Variable | Beschreibung|
 |---|---|
@@ -177,7 +177,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | ourContact.email | Verantwortliche, E-Mail-Adresse |
 | ourContact.name | Verantwortlich |
 
-## <a id="user" />Variablen für Antwortvorlagen (Benutzer) (nur SuperOffice Service)
+## <a id="user"></a>Variablen für Antwortvorlagen (Benutzer) (nur SuperOffice Service)
 
 Bitte beachten Sie, dass diese Variablen nicht für vom System gesendete automatisierte Antworten funktionieren werden, weil solche Antworten nicht mit einem Benutzer verknüpft sind.
 

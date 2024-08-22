@@ -40,7 +40,7 @@ Se denne videoen for å lære hvordan du kan lage et nettskjema (videolengde - 7
 4. Velg **Kopier til nytt skjema**. Malen åpnes i dialogboksen **Rediger skjema**.
 5. [Aktivere og publisere skjemaet][2].
 
-## <a id="multi-page" />Opprette skjema med flere sider
+## <a id="multi-page"></a>Opprette skjema med flere sider
 
 For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema med mange felt inn i flere sider. Brukere kan navigere gjennom skjemaet ved hjelp av **Neste**- og **Forrige**-knappene, og en fremdriftslinje kan legges til for å indikere gjenværende felt.
 
@@ -56,7 +56,7 @@ For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema me
 > [!TIP]
 > Du kan legge til en fremdriftsindikator i skjemaet, slik at brukeren kan se hvor mye som gjenstår å fylle ut. Gå til kategorien **Stil**, klikk på avmerkingsboksen ved siden av **Farge**, på fremdriftsindikatoren, og velg en farge.
 
-## <a id="fields" />Fylle ut skjemafelt
+## <a id="fields"></a>Fylle ut skjemafelt
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

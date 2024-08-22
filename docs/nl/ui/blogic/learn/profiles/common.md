@@ -20,7 +20,7 @@ Algemene profielen zijn gekoppeld aan een [rol][2] en gelden van toepassing voor
 * **Systeem**: deze profielen kunt u configureren door de onderstaande procedure te volgen.
 * **Systeemschermen**: Een lijst met schermen die zijn gemaakt via de module [Systeemontwerp][1] in SuperOffice Service. U kunt deze veranderen als u toegang hebt tot **Systeemontwerp** > **Schermen**.
 
-## <a id="create" />Algemene profielen maken
+## <a id="create"></a>Algemene profielen maken
 
 In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm **Verzoeken zoeken**.
 

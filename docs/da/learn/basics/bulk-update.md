@@ -54,7 +54,7 @@ Masseredigering giver dig mulighed for at ændre værdier på tværs af flere po
 
 10. Klik på **Luk**.
 
-## <a id="search-and-replace" />Søg og erstat
+## <a id="search-and-replace"></a>Søg og erstat
 
 Du kan bruge handlingen **Søg og erstat** til at finde en bestemt tekst i et felt og erstatte den.
 
@@ -63,7 +63,7 @@ Du kan bruge handlingen **Søg og erstat** til at finde en bestemt tekst i et fe
 3. Indtast erstatningsteksten i feltet **Erstat med**.
 4. Valgfrit: Klik på **Alternativer**, og vælg indstillinger for, om du vil skelne mellem store og små bogstaver og søge efter hele ord eller dele af ord.
 
-## <a id="regex" />Regulære udtryk
+## <a id="regex"></a>Regulære udtryk
 
 Du kan bruge handlingen **Regex** til at anvende regulære udtryk til at opdatere et felt.
 

@@ -45,7 +45,7 @@ Du kan vise brukere og ressurser som du vil se dagbøkene til, og lagre oversikt
 > [!TIP]
 > Hvis du vil slette den aktive gruppeoversikten, klikker du på knappen **Oppgave** nederst til høyre, og deretter velger du **Slett gruppeoversikt**.
 
-## <a id="fields" />Felt
+## <a id="fields"></a>Felt
 
 ### Navn
 
@@ -84,7 +84,7 @@ Klikk på **Velg alle** ![icon][img6] for å velge alle brukerne/ressursene i li
 
 Her vises alle brukerne og ressursene du har lagt til i gruppeoversikten. Hvis du vil fjerne en bruker eller en ressurs fra denne listen, velg den og klikk på venstrepilen ![icon][img1]. Brukerne og ressursene du har valgt, vises i gruppeoversikten i samme rekkefølge som i ruten til høyre. Hvis du vil endre denne rekkefølgen, velger du en bruker eller ressurs og klikker pil opp ![icon][img3] eller pil ned ![icon][img4] for å flytte den opp eller ned.
 
-## <a id="troubleshoot" />Hvorfor er Rediger-knappen grå?
+## <a id="troubleshoot"></a>Hvorfor er Rediger-knappen grå?
 
 Du kan bare endre gruppeoversikter som du har opprettet selv. I en forhåndsdefinert gruppevisning er **Rediger**-knappen grå for å vise at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

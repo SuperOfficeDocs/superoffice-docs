@@ -45,7 +45,7 @@ Sie können Benutzer und Ressourcen aufrufen, deren Kalender Sie einsehen möcht
 > [!TIP]
 > Klicken Sie unten rechts auf die Schaltfläche **Aufgabe** und wählen **Gruppenansicht löschen** aus, um die aktive Gruppenansicht zu löschen.
 
-## <a id="fields" />Felder
+## <a id="fields"></a>Felder
 
 ### Name
 
@@ -84,7 +84,7 @@ Klicken Sie auf **Alles markieren** ![Symbol][img6], wenn Sie alle oben in der L
 
 Hier werden alle Benutzer und Ressourcen angezeigt, die Sie zur Gruppenansicht hinzugefügt haben. Um einen Benutzer oder eine Ressource aus der Liste zu entfernen, markieren Sie den gewünschten Eintrag und klicken Sie auf den Pfeil nach Links ![Symbol][img1]. Die ausgewählten Benutzer und Ressourcen werden in der Gruppenansicht in der gleichen Reihenfolge wie im rechten Fenster angezeigt. Wenn Sie diese Reihenfolge ändern möchten, wählen Sie einen Benutzer oder eine Ressource aus und klicken Sie auf den Pfeil nach oben ![Symbol][img3] oder nach unten ![Symbol][img4], um den Eintrag entsprechend zu verschieben.
 
-## <a id="troubleshoot" />Warum ist die Schaltfläche Bearbeiten ausgegraut?
+## <a id="troubleshoot"></a>Warum ist die Schaltfläche Bearbeiten ausgegraut?
 
 Sie können nur von Ihnen erstellte Gruppenansichten ändern. In einer vordefinierten Gruppenansicht ist die Schaltfläche **Bearbeiten** ausgegraut, um anzuzeigen, dass Sie die Ansicht hier nicht ändern können. Diese Gruppenansichten enthalten sämtliche Benutzer, die den jeweiligen Gruppen zugewiesen wurden. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

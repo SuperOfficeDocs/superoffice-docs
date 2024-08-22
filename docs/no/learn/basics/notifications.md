@@ -22,7 +22,7 @@ Når du klikker på **bjelleikonet** ![icon][img1] øverst til høyre i SuperOff
 
 ![Popup-vinduet med varsel som viser både varsler om saker og invitasjoner -screenshot][img5]
 
-## <a id="activity" />Aktivitetsvarsler
+## <a id="activity"></a>Aktivitetsvarsler
 
 Når du mottar et aktivitetsvarsel, vises det i varslingsruten. Klikk på koblingen i varselet for å åpne aktiviteten.
 
@@ -83,7 +83,7 @@ Dette er varslingsalternativene:
 * Systemvarslinger for e-post
 * Systemvarslinger for chat
 
-## <a id="enable-browser" />Hvordan endre nettleserinnstillingene for varsler
+## <a id="enable-browser"></a>Hvordan endre nettleserinnstillingene for varsler
 
 **Chrome:** Klikk på hengelåsikonet foran URL-en og slå på **Varsler**-bryteren.
 

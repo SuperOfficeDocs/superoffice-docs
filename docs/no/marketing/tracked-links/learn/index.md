@@ -51,7 +51,7 @@ Menyalternativer:
 * **Flytt til mappe** (flytter koblingen til en annen mappe)
 * **Slett**
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Sporbare koblingr kan brukes på forskjellige måter:
 
@@ -73,7 +73,7 @@ Sporbare koblingr kan brukes på forskjellige måter:
 > [!NOTE]
 > Disse eksemplene fungerer like bra for vanlige koblinger, men klikkene måles da bare for den enkelte utsendelse.
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 Når du setter opp en utsendelse, har du muligheten til å bruke Google Analytics som sporingssystem. Oppsettet i utsendelser lar deg definere en mer nøyaktig sporing av e-postmeldinger ved hjelp av de angitte feltene, noe som resulterer i mer detaljerte Google Channel-rapporter.
 

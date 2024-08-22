@@ -48,7 +48,7 @@ Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På
 > [!TIP]
 > Hvis du for eksempel vil søke etter alle firmaer, kan du bruke prosenttegnet (%) når du [angir søkekriterier][3] for **Firma**.
 
-## <a id="or" />Utvide søket ved hjelp av ELLER-funksjonen
+## <a id="or"></a>Utvide søket ved hjelp av ELLER-funksjonen
 
 Med Finn-funksjonen kan du utføre et søk ved å kombinere søkekriterier med verdioperatoren "OR" mellom dem. Slik kan du søke etter to sett med uavhengige data og lagre dem i ett utvalg.
 
@@ -59,7 +59,7 @@ Se denne videoen for å lære hvordan du oppretter et søk ved hjelp av ELLER-fu
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## <a id="results" />Jobbe med søkeresultater
+## <a id="results"></a>Jobbe med søkeresultater
 
 Når du har fulgt trinnene over, og søkeresultatene vises i fanen **Resultater** har du flere tilgjengelige alternativer:
 
@@ -82,7 +82,7 @@ Når du har fulgt trinnene over, og søkeresultatene vises i fanen **Resultater*
 
 * Merk oppføringen, høyreklikk og velg **Legg til i utvalg**. Se [Legg til medlemmer til statiske utvalg][9].
 
-## <a id="ex1" />Eksempel 1: søk etter lønnsomme kunder
+## <a id="ex1"></a>Eksempel 1: søk etter lønnsomme kunder
 
 Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som viser hva du har oppnådd etter forrige møte. Du ønsker å fokusere på lønnsomme kunder (kunder du nylig har solgt mye til).
 
@@ -131,7 +131,7 @@ Som salgsavdelingsleder vil du holde en presentasjon for resten av ledelsen, som
 21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex2" />Eksempel 2: søk etter kunder i Danmark som du er ansvarlig for
+## <a id="ex2"></a>Eksempel 2: søk etter kunder i Danmark som du er ansvarlig for
 
 Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte anledningen til å besøke noen kunder. Du begynner planleggingen med å søke frem alle kundene i Danmark som du har ansvar for.
 
@@ -165,7 +165,7 @@ Tenk deg at du skal på en konferanse i Danmark. Når du er der, vil du benytte 
 
 14. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex3" />Eksempel 3: søk etter solgte (utførte) salg
+## <a id="ex3"></a>Eksempel 3: søk etter solgte (utførte) salg
 
 La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lykkes med, og hvorfor, slik at dere kan lære av det og lykkes med flere salg. Du begynner med å søke etter salg med statusen **Solgt**.
 
@@ -188,7 +188,7 @@ La oss si at du er leder for et firma og vil finne ut hvilken type salg dere lyk
 9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex4" />Eksempel 4: søk etter prosjekter du har deltatt i under det siste året
+## <a id="ex4"></a>Eksempel 4: søk etter prosjekter du har deltatt i under det siste året
 
 La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å få bedre betalt for innsatsen din. For å vise sjefen din hvor iherdig og allsidig du er, vil du snakke om prosjektene du har vært involvert i det siste året.
 
@@ -224,7 +224,7 @@ La oss si at det nærmer seg lønnsforhandlinger, og at du mener du fortjener å
 
 15. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex5" />Eksempel 5: søk etter gjennomførte markedsføringsinitiativer
+## <a id="ex5"></a>Eksempel 5: søk etter gjennomførte markedsføringsinitiativer
 
 La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugnad om fremtidige markedsføringstiltak. Som utgangspunkt for dette vil du gjerne ha en oversikt over hvilke oppfølginger knyttet til markedsføring du gjennomførte i forrige kvartal.
 

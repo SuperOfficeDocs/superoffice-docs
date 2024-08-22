@@ -35,7 +35,7 @@ De gebruikersinterface heeft vijf hoofdelementen:
   * [Lijst van selectieleden][19]
   * [Activiteiten][13]
 
-## <a id="global-buttons" />Algemene knoppen
+## <a id="global-buttons"></a>Algemene knoppen
 
 De algemene knoppen verschijnen overal in de gebruikersinterface. Sommige bevinden zich in het hoofdscherm, terwijl andere zich in de verschillende dialoogvensters bevinden.
 

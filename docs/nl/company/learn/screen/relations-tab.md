@@ -15,7 +15,7 @@ language: nl
 
 Op het sectietabblad **Relaties** worden alle bestaande relaties tussen bedrijven en/of contactpersonen weergegeven, bijvoorbeeld informatie over de eigendomsstructuur of over personen die voor verschillende bedrijven hebben gewerkt.
 
-## <a id="columns" />Kolommen in het tabblad Relaties
+## <a id="columns"></a>Kolommen in het tabblad Relaties
 
 De kolommen van het sectietabblad **Relaties** bevatten de volgende informatie:
 

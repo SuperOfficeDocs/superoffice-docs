@@ -80,7 +80,7 @@ Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysning
 > [!NOTE]
 > Hvis du endrer verdien i feltet **Total kostnad**, feltet **Fortjeneste** eller feltet for fortjenesteprosenten, oppdateres de andre feltene automatisk.
 
-### <a id="more-tab" />Fanen Mer
+### <a id="more-tab"></a>Fanen Mer
 
 ![Mer-fanen (Salg) -screenshot][img6]
 

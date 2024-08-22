@@ -95,7 +95,7 @@ Wanneer u op een sectie in een bericht klikt, krijgt u toegang tot verschillende
 | ![pictogram][img8] | Duplicaat | Maakt een kopie van de selectie. |
 | ![pictogram][img9] | Blok opslaan | Slaat de geselecteerde sectie op als een blok. Laat u inhoud (zoals kop- en voetteksten) opnieuw gebruiken voor berichten. |
 
-## <a id="variables" />Sjabloonvariabelen
+## <a id="variables"></a>Sjabloonvariabelen
 
 Als u het bericht een persoonlijker tintje wilt geven, kunt u tijdelijke aanduidingen gebruiken om klantspecifieke informatie in te voegen, zoals de voornaam van de klant. Op deze manier kunt u de inhoud voor elke afzonderlijke klant aanpassen.
 
@@ -126,7 +126,7 @@ Gebruikt u de nieuwe Drag &drop-editor of de vorige versie van de editor?
 
 Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") toegevoegd ter vervanging van de oude (de "Editor"). De berichteditor wordt gebruikt bij het maken van e-mail-mailings en formulierantwoorden. De oude berichteditor is nog steeds beschikbaar om berichten en sjablonen die in de oude versie zijn gemaakt, te bewerken. Alle nieuwe mailings en sjablonen maken gebruik van de nieuwe berichteditor.
 
-### <a id="old" />Editor (oud)
+### <a id="old"></a>Editor (oud)
 
 ![Editor (oud) -screenshot][img13]
 

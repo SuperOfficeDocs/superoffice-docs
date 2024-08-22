@@ -69,7 +69,7 @@ For at du kan slette firmaer under fanen **Vores firmaer**, skal følgende to kr
 
     * **Ingen hit**: Der vises en meddelelse om, at der ikke er nogen poster, der opfylder søgekriterierne. Klik på **OK**, og søg igen ved hjælp af andre kriterier.
 
-### <a id="criteria" />Søgekriterierne
+### <a id="criteria"></a>Søgekriterierne
 
 Felterne nedenfor svarer til felterne på firmakortet.
 

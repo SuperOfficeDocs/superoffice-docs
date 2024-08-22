@@ -33,7 +33,7 @@ Nachstehend wird die Vorgehensweise zur Erstellung eines komplett neuen Projektl
 
 ![Gehen Sie zum Abschnitt Workflow und erstellen Sie Ihre eigenen Projektroutinen in SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" />Status für den Projektleitfaden erstellen
+## <a id="create-stage"></a>Status für den Projektleitfaden erstellen
 
 Der Projektleitfaden muss mit einem Projekttyp verknüpft werden, der wiederum aus mehreren Status besteht. [Wie man einen Status erstellt][2].
 
@@ -41,7 +41,7 @@ Ein Projektleitfaden für ein Projekt des Konferenztyps kann zum Beispiel die St
 
 Im nächsten Schritt können Sie die Status mit einem Projekttyp verknüpfen.
 
-## <a id="create-type" /> Projekttyp für den Projektleitfaden erstellen
+## <a id="create-type"></a> Projekttyp für den Projektleitfaden erstellen
 
 Der Projektleitfaden muss mit einem Projekttyp verknüpft werden. [Wie man einen Projekttyp erstellt][3].
 
@@ -51,7 +51,7 @@ Mögliche Projekttypen sind z. B.: "Konferenz", "Kampagne" und "Intern".
 1. Wählen Sie zumindest zwei Status aus.
 1. Im nächsten Schritt können Sie den Projektleitfaden erstellen.
 
-## <a id="create-guide" />Projektleitfaden erstellen
+## <a id="create-guide"></a>Projektleitfaden erstellen
 
 Nachdem Sie die Status erstellt und einen Projekttyp für den Projektleitfaden festgelegt haben, können Sie den eigentlichen Projektleitfaden gestalten. Dazu fügen Sie Folgeaufgaben und/oder Dokumente für jeden Status im Projektleitfaden hinzu.
 
@@ -79,7 +79,7 @@ Nachdem Sie die Status erstellt und einen Projekttyp für den Projektleitfaden f
 
 Die Änderungen werden automatisch gespeichert. Der betreffende Projektleitfaden wird in SuperOffice CRM angezeigt, wenn ein Projekt mit einer Projektart, die in Schritt B ausgewählt wurde, erstellt wird.
 
-## <a id="add-fo-status" />Folgeaufgabe für einen Status hinzufügen
+## <a id="add-fo-status"></a>Folgeaufgabe für einen Status hinzufügen
 
 1. Wählen Sie den gewünschten Projekttyp und den Status wie oben beschrieben aus.
 
@@ -128,7 +128,7 @@ Recherche:
 \- Redner?
 \- Wo?
 
-## <a id="add-doc-status" />Dokument für einen Status hinzufügen
+## <a id="add-doc-status"></a>Dokument für einen Status hinzufügen
 
 1. Wählen Sie den gewünschten Projekttyp und den Status wie oben beschrieben aus.
 2. Klicken Sie unter **Vorgeschlagene Dokumente in Status** auf **Hinzufügen**.

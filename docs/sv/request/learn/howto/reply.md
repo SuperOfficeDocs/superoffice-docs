@@ -33,7 +33,7 @@ När du öppnar ett ärende och väljer **Svara**, kommer den [e-postsignatur][7
 
 1. Klicka på **Spara**. Meddelandet skickas till kontakten.
 
-## <a id="reply-templ" />Lägga till svarsmallar i meddelanden
+## <a id="reply-templ"></a>Lägga till svarsmallar i meddelanden
 
 När du svarar på en förfrågan från en kontakt kan du spara tid genom att utgå från en [svarsmall][8] för att ge kontakten ett anpassat svar. Välj vilken svarsmall du vill lägga till i meddelandefältet och redigera sedan texten och lägg till eller ta bort bilagor för att anpassa den till den exakta situationen.
 

@@ -15,7 +15,7 @@ pilot: yes
 
 # Køre, pause og afslutte flow
 
-## <a id="status" />Flowstatus
+## <a id="status"></a>Flowstatus
 
 * **Stoppet:** Repræsenterer et nyt flow, der ikke er startet (eller et afsluttet flow). Triggere er ikke aktiveret.
 
@@ -70,7 +70,7 @@ For at afslutte flowet:
 
 Hvis flowet startes igen efter afslutning, går kun nye deltagere gennem flowet, gamle deltagere beholder status Annulleret.
 
-## <a id="delete" />Slet flow
+## <a id="delete"></a>Slet flow
 
 1. Pause flowet.
 2. Vælg **Opgave** > **Slet flow**.

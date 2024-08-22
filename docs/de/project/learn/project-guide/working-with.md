@@ -41,7 +41,7 @@ Wenn für einen Projekttyp, den Sie für ein Projekt angeben, ein Projektleitfad
 
 1. Wiederholen Sie die oben beschriebene Vorgehensweise für alle Folgeaufgaben/Dokumente in jedem Status des Projektleitfadens.
 
-## <a id="move-to-next-status" />Zum nächsten Status verschieben
+## <a id="move-to-next-status"></a>Zum nächsten Status verschieben
 
 Sie haben zwei Möglichkeiten, das Projekt in den nächsten Status zu verschieben:
 

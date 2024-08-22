@@ -87,7 +87,7 @@ Autoren sehen eine Nachricht, wenn sie eine nicht validierte E-Mail-Adresse im F
 
 * Sie können dasselbe erreichen, indem Sie einen Split in einem Flow verwenden oder die Kommunikation in zwei verschiedenen Flows arrangieren. Ob Sie einen Split verwenden oder mehrere Flows definieren, hängt vom Szenario und dem gewünschten Ergebnis ab. Je mehr die beiden Kommunikationspfade gemeinsam haben, desto effektiver ist es für den Benutzer, sie innerhalb desselben Flows zu arrangieren.
 
-## <a id="mobile" />Die Nachricht für die Anzeige auf mobilen Geräten anpassen
+## <a id="mobile"></a>Die Nachricht für die Anzeige auf mobilen Geräten anpassen
 
 Die Nachricht wird automatisch für die Anzeige auf kleineren Ansichten angepasst.
 

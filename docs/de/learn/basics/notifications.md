@@ -22,7 +22,7 @@ Wenn Sie auf das **Glockensymbol** ![Symbol][img1] in der oberen rechten Ecke vo
 
 ![Das Popup-Fenster Benachrichtigung zeigt sowohl Benachrichtigungen über Anfragen als auch Einladungen -screenshot][img5]
 
-## <a id="activity" />Aktivitätsbenachrichtigungen
+## <a id="activity"></a>Aktivitätsbenachrichtigungen
 
 Wenn Sie eine Aktivitätsbenachrichtigung erhalten, wird diese in Ihrem Benachrichtigungsbildschirm angezeigt. Klicken Sie auf den Link in der Benachrichtigung, um die Aktivität zu öffnen.
 
@@ -83,7 +83,7 @@ Dies sind die Benachrichtigungsoptionen:
 * Benachrichtigungen für Email
 * Benachrichtigungen für Chat
 
-## <a id="enable-browser" />Die Browsereinstellungen für Benachrichtigungen ändern
+## <a id="enable-browser"></a>Die Browsereinstellungen für Benachrichtigungen ändern
 
 **Chrome:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und aktivieren Sie den **Benachrichtigungen**-Schalter.
 

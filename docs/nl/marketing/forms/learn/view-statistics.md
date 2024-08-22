@@ -36,7 +36,7 @@ Als u de statistieken over uw formulier wilt weergeven, gaat u naar het tabblad 
 
 * **Formulierverzendingen:** Hier kunt alle [verzonden formulieren weergeven en verwerken][1]. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan.
 
-## <a id="filter" />Formulierverzendingen filteren
+## <a id="filter"></a>Formulierverzendingen filteren
 
 Om efficiënter te werken, kunt u de records filteren om één of meer formulierstatussen of Mijn/Primaire groepen weer te geven. U vindt de **Filter**-knop in de rechterbenedenhoek.
 

@@ -16,7 +16,7 @@ Denne veiledningen beskriver de forskjellige typene tilbudsmaler som er tilgjeng
 
 Et tilbud består ofte av mer enn ett produkt. Det er derfor nødvendig å lage en mal for tilbudsdetaljer (og en ordrebekreftelsesmal) der hvert produkt er oppført i en tabell med forskjellige grupperinger (som alternativer). Brukeren vil bare kunne redigere tilbudsdokumentet i Word. Tilbudsdetaljene og ordrebekreftelsen genereres som en PDF og kan ikke redigeres av brukeren. Alle tilbudsmaler kan redigeres på vanlig måte i Innstillinger og vedlikehold.
 
-## <a id="types" />Typer tilbudsdokumentmaler
+## <a id="types"></a>Typer tilbudsdokumentmaler
 
 SuperOffice tilbyr forskjellige maler for å generere tilbud. Disse malene kan nås og tilpasses i Innstillinger og vedlikehold under **Lister**.
 
@@ -61,7 +61,7 @@ Når du sender tilbud eller ordrebekreftelser via e-post, kan du velge en e-post
 
 Du kan tilpasse tilbuds- og ordrebekreftelsesmaler ved bruk av flettefelt i Microsoft Word. flettefelt lar deg sette inn spesifikk tilbudsinformasjon i maler, mens standard malvariabler henter kundedata og andre detaljer.
 
-### <a id="structure" />Struktur av flettefelt
+### <a id="structure"></a>Struktur av flettefelt
 
 flettefelt må følge en hierarkisk rekkefølge: quote > alternative > group > line. Denne strukturen defineres ved bruk av **TableStart** og **TableEnd** felt, som markerer starten og slutten av hvert tabellområde:
 
@@ -84,7 +84,7 @@ flettefelt må følge en hierarkisk rekkefølge: quote > alternative > group > l
 > [!NOTE]
 > Hver mal må overholde rekkefølgen og alltid starte med det ytterste nivået (quote). Den trenger ikke gå helt ned, men kan ikke starte med alternative eller noe annet enn quote.
 
-### <a id="usage" />Bruk av flettefelt
+### <a id="usage"></a>Bruk av flettefelt
 
 Tilbudsdetaljer inkluderer detaljer som linjer, priser og produktnavn, og er vanligvis plassert i en separat mal fra tilbudsdokumentet. Hvis både hoveddokumentet og tilbudsdetaljene brukes:
 

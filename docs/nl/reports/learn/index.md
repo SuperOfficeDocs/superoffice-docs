@@ -23,7 +23,7 @@ Open het scherm **Rapporten** door te klikken op de ![pictogram][img7] knop **Ra
 > [!TIP]
 > als u direct naar een bepaald tabblad in het scherm **Rapporten** wilt gaan, klikt u in de navigator op het woord **Rapporten** ![pictogram][img8] naast de knop **Rapporten** en dan in de lijst te selecteren.
 
-## <a id="types" />Rapporttypen
+## <a id="types"></a>Rapporttypen
 
 | Pictogram | Naam | Beschrijving |
 |---|---|---|

@@ -45,7 +45,7 @@ Du kan vælge brugere og ressourcer, som du vil se dagbogen for, og gemme oversi
 > [!TIP]
 > Hvis du vil slette den aktive gruppeoversigt, skal du klikke på knappen **Opgave** nederst til højre og vælge **Slet gruppeoversigt**.
 
-## <a id="fields" />Felter
+## <a id="fields"></a>Felter
 
 ### Navn
 
@@ -84,7 +84,7 @@ Klik på **Marker alle** ![ikon][img6], hvis du vil markere alle brugerne/ressou
 
 Her vises alle brugere og ressourcer, som du har føjet til gruppeoversigten. Hvis du vil fjerne en bruger eller en ressource fra denne liste, skal du markere den og klikke venstrepilen ![ikon][img1]. De brugere og ressourcer, du har valgt, vises i gruppeoversigten i den rækkefølge, de vises i vinduet til højre. Hvis du vil redigere rækkefølgen af dem, kan du markere en bruger eller ressource og klikke på pil op ![ikon][img3] eller pil ned ![ikon][img4] for at flytte den op eller ned.
 
-## <a id="troubleshoot" />Hvorfor er knappen Rediger nedtonet?
+## <a id="troubleshoot"></a>Hvorfor er knappen Rediger nedtonet?
 
 Du kan kun ændre gruppevisninger, der er oprettet af dig. I en foruddefineret gruppeoversigt, er knappen **Rediger** nedtonet, hvilket angiver, at du ikke kan ændre den herfra. Disse gruppeoversigter indeholder alle brugere, som er tildelt de bestemte grupper. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

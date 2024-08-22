@@ -54,7 +54,7 @@ Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen va
 
 10. Klik op **Sluiten**.
 
-## <a id="search-and-replace" />Zoeken en vervangen
+## <a id="search-and-replace"></a>Zoeken en vervangen
 
 Met het actietype **Zoeken en vervangen** kunt een specifieke tekst in een veld zoeken en deze vervangen.
 
@@ -63,7 +63,7 @@ Met het actietype **Zoeken en vervangen** kunt een specifieke tekst in een veld 
 3. Typ de vervangende tekst in het veld **Vervangen door**.
 4. Optioneel: Klik op **Opties** en selecteer de instellingen voor hoofdlettergevoeligheid en om volledige woorden of woorddelen te zoeken.
 
-## <a id="regex" />Reguliere expressies
+## <a id="regex"></a>Reguliere expressies
 
 Met het actietype **Reguliere expressie** kunt u reguliere expressies gebruiken om een veld bij te werken.
 

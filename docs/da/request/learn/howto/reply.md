@@ -33,7 +33,7 @@ Når du åbner en anmodning og vælger **Svar**, vises den [e-mailsignatur][7], 
 
 1. Klik på **Gem**. Meddelelsen sendes til personen.
 
-## <a id="reply-templ" />Tilføjelse af svarskabeloner i meddelelser
+## <a id="reply-templ"></a>Tilføjelse af svarskabeloner i meddelelser
 
 Når du besvarer en henvendelse fra en person, kan du spare tid ved at tage udgangspunkt i en [svarskabelon][8], der kan danne grundlag for dit svar til personen. Vælg, hvilken svarskabelon du vil føje til meddelelsesfeltet, og rediger derefter teksten og tilføj eller fjern vedhæftede filer for at skræddersy den til den specifikke situation.
 

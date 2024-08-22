@@ -48,20 +48,20 @@ Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna informa
 > [!TIP]
 > När du uppdaterar en spårad länk, kom ihåg att den kan användas av flera e-postmeddelanden och/eller automatiserade flöden (en pilotfunktion). Du bör säkerställa att det inte finns några duplicerade eller motstridiga åtgärder.
 
-## <a id="response" />Svar
+## <a id="response"></a>Svar
 
 Välj vad som ska hända när mottagaren klickar på länken.
 
 * **Dirigera om till ny webbplatsa**: Ange URL:en i det angivna fältet.
 * Eller, **Visa återkopplingstext**: Ange texten som ska visas. Klicka på ![ikonen][img4] redigeringsknappen för att visa verktygsfältet för rik text.
 
-## <a id="set-field" />Konfigurera fält
+## <a id="set-field"></a>Konfigurera fält
 
 På fliken **Konfigurera fält** kan du ange ett värde som ska läggas till i ett extrafält när mottagaren klickar på länken. Detta registrerar ytterligare kundinformation.
 
 Välj ett fält och ange ett värde.
 
-## <a id="interests" />Intressen
+## <a id="interests"></a>Intressen
 
 Ange att ett länkklick ska ändra kontaktens intressen. Till exempel, lägg till intresset "Produktnyheter" om länken "Ja tack! Jag vill veta mer om nya produkter" klickas, eller ta bort det om länken "Avsluta prenumeration" klickas.
 
@@ -70,11 +70,11 @@ Ange att ett länkklick ska ändra kontaktens intressen. Till exempel, lägg til
 
 [Hur du skapar ett anmälningsformulär för nyhetsbrev][1]
 
-## <a id="selection" />Urval/Projekt
+## <a id="selection"></a>Urval/Projekt
 
 Ange att mottagare som klickar på länken kommer att läggas till eller tas bort från urval eller projekt. Börja skriva ett namn för att starta en snabbsökning.
 
-## <a id="follow-up" />Uppföljning (möte/uppgift)
+## <a id="follow-up"></a>Uppföljning (möte/uppgift)
 
 På fliken **Uppföljning** kan du ställa in att ett länkklick ska generera möten eller uppgifter i SuperOffice CRM. Välj uppföljningstyp, ange en beskrivning, länka den till ett projekt, välj uppgiftstyp, tilldela ansvar och ställ in varaktigheten.
 
@@ -87,13 +87,13 @@ Aktivera denna funktion genom att välja **Uppföljning**.
 >
 > När du ställer in **Skapad av** eller **Standardmottagare** kan du klicka på knappen **Välj aktiv användare** ![ikonen][img1] för att välja dig själv.
 
-## <a id="request" />Ärende
+## <a id="request"></a>Ärende
 
 På fliken **Ärende** kan du ställa in att ett länkklick ska skapa ett ärende. Markera rutan för att registrera ett nytt ärende, ange en titel, välj prioritet och kategori, och välj ägaren. Du kan även välja **Tilldelas automatiskt** eller **Otilldelat**.
 
 [Hur du skapar ett ärende][3]
 
-## <a id="script" />Skript
+## <a id="script"></a>Skript
 
 På fliken **Skript** kan du välja ett CRMSkript eller makro som ska köras när länken klickas på. Aktivera denna funktion genom att välja **Kör skript**, och välj sedan det önskade skriptet från listan.
 

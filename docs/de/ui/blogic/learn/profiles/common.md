@@ -20,7 +20,7 @@ Gemeinsame Profile werden mit einer [Rolle][2] verknüpft und gelten für alle B
 * **System**: Diese Profile werden wie im Folgenden erläutert konfiguriert.
 * **Systemansichten**: Mit den [Systemdesignern][1] in SuperOffice Service wird eine List von Ansichten erstellt. Diese Ansichten können Sie ändern, wenn Sie Zugriff auf **Systemdesign** > **Ansichten** haben.
 
-## <a id="create" />Gemeinsame Profile erstellen
+## <a id="create"></a>Gemeinsame Profile erstellen
 
 Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **Anfragen suchen** hinzufügen.
 

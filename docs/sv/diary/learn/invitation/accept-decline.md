@@ -16,7 +16,7 @@ Deltagare som har bjudits in till en händelse får ett varningsmeddelande på t
 
 ![Få förfrågningar -screenshot][img2]
 
-## <a id="accept" />Acceptera eller tacka nej till förfrågningar
+## <a id="accept"></a>Acceptera eller tacka nej till förfrågningar
 
 * Klicka på klockikonet i toppraden för att se dina förfrågningar.
 * Klicka på länken i Aviseringar-panelen för att öppna händelsen.

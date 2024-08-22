@@ -32,7 +32,7 @@ Ein *Zusatzfeld* ist ein Feld, das Sie einer vorhandenen SuperOffice-Datenbankta
 
 Zusatzfelder werden in **Einstellungen und Verwaltung**, im **Tabellen**-Ansicht verwaltet.
 
-## <a id="field-types" />Feldtypen
+## <a id="field-types"></a>Feldtypen
 
 * Boolescher Wert (ja/nein)
 * Integer

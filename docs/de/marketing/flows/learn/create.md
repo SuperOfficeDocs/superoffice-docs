@@ -30,7 +30,7 @@ pilot: yes
 
 ![Eigenschaften für neuen Flow festlegen -screenshot][img1]
 
-## <a id="fields" />Flowfelder ausfüllen
+## <a id="fields"></a>Flowfelder ausfüllen
 
 ### Einstellungen (für Flow)
 
@@ -74,7 +74,7 @@ Erfolgskriterien definieren [was Erfolg für einen Flow bedeutet][7].
 
 ![Erfolgskriterien für neuen Flow festlegen -screenshot][img3]
 
-## <a id="trigger" />Flow-Trigger und Filter definieren
+## <a id="trigger"></a>Flow-Trigger und Filter definieren
 
 Der **Trigger**-Schritt wird automatisch als Startpunkt für jeden Flow hinzugefügt. Er bestimmt, für wen der Flow relevant ist. Trigger werden nur für Flows in Bearbeitung oder pausiert aktiviert.
 
@@ -128,7 +128,7 @@ Die Ausschlussliste **verhindert, dass ausgewählte Persone dem Flow hinzugefüg
 * Verhindern, dass bestimmte Kunden allgemeine Massen-E-Mails erhalten.
 * Erinnerungen senden, aber nicht an diejenigen, die bereits angemeldet sind.
 
-## <a id="add-step"/>Schritt hinzufügen
+## <a id="add-step"></a>Schritt hinzufügen
 
 1. Wählen Sie **Schritte** im linken Menü aus.
 1. Wählen Sie einen Schritt aus und ziehen Sie ihn an die gewünschte Stelle im Diagramm.
@@ -151,7 +151,7 @@ Wenn Sie **Schritte** zum ersten Mal öffnen, sehen Sie etwas Ähnliches wie die
 * Ein Diagramm mit einem **Trigger**, einem **Platzhalter** zum Hinzufügen eines Schritts und einem **Abgeschlossen**-Schritt (in der Mitte).
 * Eine Liste der verfügbaren Schritttypen (rechts).
 
-## <a id="wait" />Ablaufsteuerung
+## <a id="wait"></a>Ablaufsteuerung
 
 Die meisten Schritte in einem Flow repräsentieren Aktionen, die sich auf den Teilnehmer beziehen, wie z.B. das Aktualisieren von Kontaktinteressen. Ablaufsteuerungsschritte sind jedoch anders; sie beinhalten **Timing** und **Segmentierung**.
 

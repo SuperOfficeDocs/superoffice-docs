@@ -11,7 +11,7 @@ language: no
 
 # Arkivere e-poster
 
-## <a id="in" />Arkivere innkommende e-post
+## <a id="in"></a>Arkivere innkommende e-post
 
 Du kan arkivere en innkommende e-post (inkludert eventuelle vedlegg) som et dokument i SuperOffice CRM. Dette er en praktisk måte å lagre informasjon på som du mottar via e-post sammen med annen firma-/personinformasjon i SuperOffice CRM.
 
@@ -20,14 +20,14 @@ Du kan arkivere en innkommende e-post (inkludert eventuelle vedlegg) som et doku
 3. Klikk på **Arkiv** ![icon][img1].
 4. Klikk på **Arkiver e-post**. Dialogboksen [**Dokument** åpnes][1].
 
-## <a id="out" />Arkivere utgående e-post
+## <a id="out"></a>Arkivere utgående e-post
 
 Hvis du vil sende en melding og arkivere den som et dokument i SuperOffice CRM, klikker du på **Send og arkiver** når du [skriver en e-postmelding][3].
 
 > [!TIP]
 > Hvis du ikke arkiverer meldingen når du sender den, kan du fortsatt gå til Sendt-mappen og arkivere meldingen som beskrevet ovenfor.
 
-## <a id="attachment" />Arkivere eller åpne vedlegg
+## <a id="attachment"></a>Arkivere eller åpne vedlegg
 
 1. Gå til innboksen.
 2. Merk ønsket melding i innboksen. Vedlegg vises under e-postoverskriften, og viser navn og filtypeikon (hvis gjenkjent).

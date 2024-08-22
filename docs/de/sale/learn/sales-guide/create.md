@@ -21,7 +21,7 @@ In dieser Vorgehensweise wird beschrieben, wie Sie einen Verkaufsleitfaden kompl
 2. Definieren Sie den [Vertriebstyp](#create-type) (mit den zugehörigen Stufen), mit dem der Verkaufsleitfaden verknüpft werden soll.
 3. Designen Sie [Verkaufsleitfäden](#create-guide).
 
-## <a id="create-stages" />Stufen für den Verkaufsleitfaden erstellen
+## <a id="create-stages"></a>Stufen für den Verkaufsleitfaden erstellen
 
 Der Verkaufsleitfaden muss mit einem Verkaufstyp verknüpft werden, der wiederum aus mehreren Stufen besteht. [Wie man eine Stufe erstellt][2].
 
@@ -29,7 +29,7 @@ Ein Verkaufsleitfaden für Verkäufe an neue Kunden kann zum Beispiel die Stufen
 
 Im nächsten Schritt können Sie die Stufen mit einem Verkaufstyp verknüpfen.
 
-## <a id="create-type" />Verkaufstyp für den Verkaufsleitfaden erstellen
+## <a id="create-type"></a>Verkaufstyp für den Verkaufsleitfaden erstellen
 
 Der Verkaufsleitfaden muss mit einem Verkaufstyp verknüpft werden. [Wie man einen Verkaufstyp erstellt][3].
 
@@ -39,7 +39,7 @@ Mögliche Verkaufstypen sind z. B.: "Verkauf an neuen Kunden", "Verkauf an beste
 1. Wählen Sie zumindest zwei Stufen aus.
 1. Im nächsten Schritt können Sie den Verkaufsleitfaden erstellen.
 
-## <a id="create-guide" />Verkaufsleitfaden erstellen
+## <a id="create-guide"></a>Verkaufsleitfaden erstellen
 
 Nachdem Sie die Stufen erstellt und einen Verkaufstyp für den Verkaufsleitfaden angegeben haben, können Sie den eigentlichen Verkaufsleitfaden gestalten, indem Sie Folgeaufgaben und/oder Dokumente für jede Stufe hinzufügen.
 
@@ -65,7 +65,7 @@ Nachdem Sie die Stufen erstellt und einen Verkaufstyp für den Verkaufsleitfaden
 
 Die Änderungen werden automatisch gespeichert. Der betreffende Verkaufsleitfaden wird in SuperOffice CRM angezeigt, wenn ein Verkauf mit dem Verkaufstyp, der in Schritt B ausgewählt wurde, erstellt wird.
 
-## <a id="add-fo-stage" />Folgeaufgabe für eine Stufe hinzufügen
+## <a id="add-fo-stage"></a>Folgeaufgabe für eine Stufe hinzufügen
 
 1. Wählen Sie den gewünschten Verkaufstyp und die Stufe wie oben beschrieben aus.
 
@@ -112,7 +112,7 @@ Agenda für Erstgespräch:
 \- Präsentation der Firma
 \- Sonstiges
 
-## <a id="add-doc-stage" />Dokument für eine Stufe hinzufügen
+## <a id="add-doc-stage"></a>Dokument für eine Stufe hinzufügen
 
 1. Wählen Sie den gewünschten Verkaufstyp und die Stufe wie oben beschrieben aus.
 

@@ -17,7 +17,7 @@ En försäljning har en huvudkontakt, men även samarbetspartners och underlever
 
 För varje intressent finns det information om företag, namn på kontakt, vilken roll de har i försäljningen, e-postadress och telefonnummer.
 
-## <a id="role" />Försäljning - Roll (Intressent)
+## <a id="role"></a>Försäljning - Roll (Intressent)
 
 En försäljning har en huvudkontakt, men även samarbetspartners och underleverantörer kan vara inblandade i försäljningen. Dessa kallas intressenter och kan registreras på detaljkortet **Intressenter** längst ned i fönstret Försäljning. Både företag och personer kan vara intressenter.
 

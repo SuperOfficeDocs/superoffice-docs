@@ -78,7 +78,7 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 
 ***
 
-### <a id="allow" />Browser-Sicherheitsfrage beim Öffnen von Dateien
+### <a id="allow"></a>Browser-Sicherheitsfrage beim Öffnen von Dateien
 
 Wenn Sie auf ein Dokument, eine Datei oder eine E-Mail in SuperOffice zugreifen und diese bearbeiten, fordert Ihr Browser Sie mit einer *Sicherheitsfrage* zur Dateiherunterladung auf.
 
@@ -103,7 +103,7 @@ Die Dialogbox sieht in Chrome, Edge, Firefox und Safari etwas anders aus.
 
 ![Safari: Immer erlauben oder Erlauben button -screenshot][img4]
 
-## <a id="delete" />Dokumente löschen
+## <a id="delete"></a>Dokumente löschen
 
 1. Wählen Sie das gewünschte Dokument in der Ansicht Firma, Person, Kalender, Verkauf oder Projekt in der Bereichsregisterkarte **Aktivitäten** aus.
 2. Klicken Sie links unter der Liste auf die Schaltfläche **Löschen**.

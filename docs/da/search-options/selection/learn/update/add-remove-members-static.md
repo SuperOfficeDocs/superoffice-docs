@@ -78,7 +78,7 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
 
 9. Klik på **OK**. Udvælgelsen opdateres.
 
-## <a id="remove" />Fjern medlemmer ved hjælp af søgekriterier
+## <a id="remove"></a>Fjern medlemmer ved hjælp af søgekriterier
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

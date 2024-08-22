@@ -25,7 +25,7 @@ Gjør ett av følgende:
 * Bruk [navigatørsøket][12] på Saker.
 * Bruk [Finn][11] i toppraden, velg et av de vanlige søkene, eller legg til ønskede kriterier.
 
-## <a id="list" />Bruk lister
+## <a id="list"></a>Bruk lister
 
 Den enkleste måten å søke etter saker på er å bruke søkefeltet som er tilgjengelig i menyen for den første fanen **Finn sak** på Saker-bildet.
 
@@ -64,7 +64,7 @@ Alle disse listene er i praksis forhåndsdefinerte søk, og hvis du ønsker det,
 >
 > Hvis du vil slette alle kriteriene, velger du **Slett alt**.
 
-### <a id="result" />Søkeresultat
+### <a id="result"></a>Søkeresultat
 
 Resultatet inneholder en liste over saker som samsvarer med kriteriene som er angitt ovenfor. Her kan du gjøre følgende:
 
@@ -83,7 +83,7 @@ I bunnteksten i listen kan du klikke på ![ikon][img1] **Oppgave**-knappen for �
 
 * **Masseredigering**: Hvis du merker av for en eller flere saker i listen, kan du klikke på dette alternativet og velge en handling du vil utføre på alle sakene samtidig. Du kan f.eks. velge å [legge den samme meldingen til i flere saker][8], [videresende flere saker][7] eller slette flere saker i en enkelt operasjon.
 
-### <a id="preview" />Forhåndsvis
+### <a id="preview"></a>Forhåndsvis
 
 I denne delen av bildet vises innholdet i saken som er valgt under **Søkeresultat**. Du har de samme alternativene som når du [behandler saker][6].
 

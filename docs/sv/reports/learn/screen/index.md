@@ -28,20 +28,20 @@ Varje flik består av följande:
 
 * Detaljkortet **Dokument** innehåller en [lista över sparade rapporter](#archive).
 
-## <a id="list" />Rapportlista
+## <a id="list"></a>Rapportlista
 
 Rapportlistan finns längst upp till vänster i fönstret **Rapporter** och innehåller en lista över standardrapporter på den flik du valde. Om du väljer fliken **Favoriter** visas dina favoritrapporter här. Innehållet i rapportbeskrivningen och kriterielistan ändras beroende på vad du väljer i rapportlistan.
 
 > [!TIP]
 > Om du väljer rapportkategorin **Favoriter** kan du redigera namn och beskrivning för rapporterna genom att dubbelklicka på en rapport eller markera den och klicka på **Redigera**. Om du vill ta bort en favoritrapport, markerar du den och klickar på **Ta bort**.
 
-## <a id="criteria" />Kriterielista
+## <a id="criteria"></a>Kriterielista
 
 Kriterielistan finns på den övre halvan av fönstret **Rapporter**, bredvid rapportlistan och under rapportbeskrivningen. Den innehåller kriterier som gäller för den rapport som du valde i rapportlistan. Här kan du lägga till eller ta bort kriterier genom att klicka på knapparna **Lägg till** eller **Ta bort**, och du kan redigera ett kriterium genom att dubbelklicka på det.
 
 Klicka på knappen **Lägg till i favoriter** om du vill lägga till rapporten med de angivna kriterierna i rapportlistan på fliken **Favoriter**.
 
-## <a id="archive" />Rapportarkivet (Dokument)
+## <a id="archive"></a>Rapportarkivet (Dokument)
 
 Rapportarkivet (detaljkortet **Dokument**) visas längst ned i fönstret **Rapporter**. Det innehåller tidigare genererade rapporter som sparades som dokument. På det här detaljkortet kan du öppna, redigera, ta bort och [filtrera][7] sparade rapporter. Du kan också exportera en lista med rapporter.
 

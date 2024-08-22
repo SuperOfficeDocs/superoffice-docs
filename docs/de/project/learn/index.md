@@ -27,7 +27,7 @@ Um zwischen Projekten hin und her zu wechseln, müssen Sie auf das ![Symbol][img
 
 Wenn Sie einen Projekttyp ausgewählt haben, für den ein [Projektleitfaden][1] definiert wurde, wird in der Bereichsregisterkarte die Registerkarte **Projektleitfaden** angezeigt.
 
-## <a id="more-tab" />Registerkarte Mehr
+## <a id="more-tab"></a>Registerkarte Mehr
 
 ![Registerkarte Mehr (Projekt) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Auf der Registerkarte **Projekt** können Sie außerdem drei benutzerdefinierte 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />Registerkarte Ereignis
+## <a id="event-tab"></a>Registerkarte Ereignis
 
 Für diese Funktion ist eine separate Lizenz erforderlich.
 

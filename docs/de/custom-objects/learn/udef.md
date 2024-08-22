@@ -28,7 +28,7 @@ Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im Ansicht **Fe
 > [!NOTE]
 > Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen eine Development Tools-Lizenz, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
 
-## <a id="field-types" />Feldtypen
+## <a id="field-types"></a>Feldtypen
 
 * **Nummer**: ganze Zahl, unbegrenzte Ziffernanzahl
 * **Kurztext**: Text mit maximal 39 Zeichen. Geben Sie im Feld **Textlänge**, das bei Auswahl dieser Option aktiviert ist, die maximale Zeichenanzahl ein, die Benutzer in dieses Feld eingeben dürfen.
@@ -39,7 +39,7 @@ Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im Ansicht **Fe
 * **Liste**: ein Listenfeld. Wählen Sie in dem Feld unten eine Liste aus dem System.
 * **Dezimal**: eine Zahl mit Dezimalstellen.
 
-## <a id="limit" />Maximale Feldanzahl
+## <a id="limit"></a>Maximale Feldanzahl
 
 Die folgenden Einschränkungen gelten für die Anzahl der benutzerdefinierten Felder, die Sie auf den einzelnen Registerkarten Firma, Person, Projekt und Verkauf festlegen können.
 
@@ -51,7 +51,7 @@ Die folgenden Einschränkungen gelten für die Anzahl der benutzerdefinierten Fe
 > [!NOTE]
 > Vier der benutzerdefinierten Felder in jeder Gruppe müssen indiziert werden.
 
-## <a id="index" />Indizierte Felder
+## <a id="index"></a>Indizierte Felder
 
 Die Indexierung ist gut für die Benutzererfahrung und die Leistung. Die ersten 4 Felder jeder Datentyp sind für Indizes reserviert.
 
@@ -59,7 +59,7 @@ Sie müssen das Kontrollkästchen aktivieren, wenn Sie das Feld erstellen, um di
 
 Wenn Sie sich entscheiden, überhaupt nicht zu indizieren, verschwenden Sie im Grunde genommen 16 Felder! Damit wird die maximale Anzahl der benutzerdefinierten Felder auf 103 reduziert.
 
-## <a id="page-1" />Seite 1-Felder
+## <a id="page-1"></a>Seite 1-Felder
 
 Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in SuperOffice CRM angezeigt werden, können Sie *drei* auswählen, die als Seite 1-Felder fungieren (so genannt, weil sie auf der "ersten Seite" in ihren jeweiligen Ansichten angezeigt werden).
 

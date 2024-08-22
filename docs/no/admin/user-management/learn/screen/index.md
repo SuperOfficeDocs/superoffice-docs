@@ -22,7 +22,7 @@ I Brukere-bildet kan du legge til og redigere ulike typer brukere.
 > [!NOTE]
 > Eventuelle endringer du gjør i Brukere-bildet, trer ikke i kraft før du klikker på **Lagre** nederst i bildet, eller bekrefter at du vil lagre endringen(e), i dialogboksen som vises. Hvis du klikker på **Avbryt**, mister du alt du har gjort i bildet siden sist du lagret.
 
-## <a id="associates" />Medarbeider-listen
+## <a id="associates"></a>Medarbeider-listen
 
 Listen i fanen **Medarbeidere** består som standard av følgende kolonner:
 
@@ -51,11 +51,11 @@ Det er forskjellige faner i brukeroversikten:
 * **Lisen** – ekstra lisensinformasjon, for eksempel **Konfidensielle aktiviteter**, som gir brukeren muligheten til å velge **synlig for** for oppfølginger, dokumenter og utvalg.
 * **Mer** – fanen viser om det finnes ekstrafelt for personen.
 
-## <a id="other-users" />Andre brukere (Onsite)
+## <a id="other-users"></a>Andre brukere (Onsite)
 
 I fanen **Andre brukere** i Brukere-bildet kan du redigere påloggingsrettigheter for og legge til anonyme brukere og systembrukere.
 
-## <a id="our-companies" />Våre firmaer
+## <a id="our-companies"></a>Våre firmaer
 
 Hensikten med firmalisten i fanen **Våre firmaer** i Brukere-bildet er å angi:
 

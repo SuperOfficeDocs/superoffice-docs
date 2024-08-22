@@ -22,7 +22,7 @@ In het scherm Gebruikers kunt u verschillende typen gebruikers toevoegen en bewe
 > [!NOTE]
 > Wijzigingen die u in het scherm Gebruikers aanbrengt, worden pas van kracht wanneer u onder aan het scherm op **Opslaan** klikt en vervolgens in het dialoogvenster dat wordt weergegeven, bevestigt dat u de wijzigingen wilt opslaan. Als u op **Annuleren** klikt, raakt u alle wijzigingen kwijt die u in het scherm hebt aangebracht sinds de laatste keer dat u de gegevens hebt opgeslagen.
 
-## <a id="associates" />De medewerkerlijst
+## <a id="associates"></a>De medewerkerlijst
 
 De lijst op het tabblad **Medewerkers** bestaat standaard uit de volgende kolommen:
 
@@ -51,11 +51,11 @@ Er zijn verschillende tabbladen in het gebruikersoverzicht:
 * **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
 * **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
 
-## <a id="other-users" />Andere gebruikers (lokaal)
+## <a id="other-users"></a>Andere gebruikers (lokaal)
 
 Op het tabblad **Andere gebruikers** in het scherm Gebruikers kunt u aanmeldrechten voor en anonieme gebruikers en systeemgebruikers toevoegen.
 
-## <a id="our-companies" />Onze bedrijven
+## <a id="our-companies"></a>Onze bedrijven
 
 Via de bedrijvenlijst op het tabblad **Onze bedrijven** in het scherm Gebruikers kunt u het volgende opgeven:
 

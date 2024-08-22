@@ -49,7 +49,7 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 
 1. Klicken Sie auf **Speichern**, um alle Änderungen zu speichern.
 
-### <a id="availability" />Terminassistent
+### <a id="availability"></a>Terminassistent
 
 Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
 
@@ -66,7 +66,7 @@ Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte 
 1. Klicken Sie auf **OK**, wenn Sie fertig sind.
 1. Klicken Sie auf **Speichern**, um alle Änderungen zu speichern.
 
-### <a id="preview" />Vorschau und Aktualisierung der Einladungs-E-Mail
+### <a id="preview"></a>Vorschau und Aktualisierung der Einladungs-E-Mail
 
 Wenn Sie auf **Speichern und senden** klicken, wird eine Vorschau der E-Mail basierend auf dem Titel und der Agenda angezeigt. Alle internen Notizen, die der Folgeaufgabe hinzugefügt wurden, sind ausgeschlossen.
 

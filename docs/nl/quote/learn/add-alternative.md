@@ -36,7 +36,7 @@ Alternatieven worden weergegeven als tabbladen in de offerte (in het dialoogvens
 
 7. Om de naam van het tabblad **Producten** te wijzigen in een passende beschrijving van dit alternatief, dubbelklikt u op de naam van het tabblad.
 
-## <a id="fav" />Favoriet alternatief
+## <a id="fav"></a>Favoriet alternatief
 
 Als u verschillende alternatieven maakt in een offerte, wordt de eerste (meestal het tabblad **Producten**) gemarkeerd als favoriet ( ![pictogram][img2] **alternatief Favoriet**). Geschatte verkoopbedragen voor de verkoop (prognose) worden verkregen via het totaalbedrag voor het favoriete alternatief.
 

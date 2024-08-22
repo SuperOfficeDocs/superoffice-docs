@@ -32,7 +32,7 @@ Wenn Sie die Zeit, Datum oder Ort einer Folgeaufgabe bearbeiten - oder eine erst
 > [!NOTE]
 > Erledigte Folgeaufgaben können Sie nur bearbeiten, wenn Sie den Status **Erledigt** deaktivieren.
 
-## <a id="change-end" />Endzeitpunkt für eine Folgeaufgabe im Kalender ändern
+## <a id="change-end"></a>Endzeitpunkt für eine Folgeaufgabe im Kalender ändern
 
 Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern, ohne die Aufgabe vorher zu öffnen:
 
@@ -47,7 +47,7 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 > [!NOTE]
 > Sie können auch das Zeitfenster ändern, indem Sie die Folgeaufgabe öffnen und die Felder **Start**, **Ende**, **Fällig** oder **Dauer** ändern.
 
-## <a id="repeat" />Regelmäßige Folgeaufgabe bearbeiten
+## <a id="repeat"></a>Regelmäßige Folgeaufgabe bearbeiten
 
 Änderungen werden auf dieselbe Weise ausgeführt wie Folgeaufgaben bearbeiten. Wenn Sie die Änderungen vornehmen, wird das Dialogfeld **Regelmäßige Folgeaufgaben**.
 
@@ -65,7 +65,7 @@ Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel 
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Folgeaufgabe aus dem Kalender löschen
+## <a id="delete"></a>Folgeaufgabe aus dem Kalender löschen
 
 * Wenn Sie eine Folgeaufgabe löschen, zu der Sie eingeladen sind, wird die Folgeaufgabe nur aus Ihrem Kalender entfernt.
 * Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet diese Folgeaufgabe auch aus den Kalendern der Eingeladenen.

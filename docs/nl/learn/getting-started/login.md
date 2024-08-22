@@ -111,7 +111,7 @@ Hiervoor dient u een rol op *Gebruikersniveau 0* te hebben, of een andere rol wa
 
 ## Probleemoplossing
 
-### <a id="forgot-password" />Wachtwoord vergeten?
+### <a id="forgot-password"></a>Wachtwoord vergeten?
 
 Mensen vergeten vaak hun aanmeldreferenties, vooral hun wachtwoord. Daarom kan het handig zijn om te weten hoe u uw SuperOffice CRM-wachtwoord kunt wijzigen of opnieuw kunt instellen. Volg de instructies voor uw versie van SuperOffice om uw wachtwoord te wijzigen.
 

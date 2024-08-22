@@ -21,13 +21,13 @@ På fliken **Samtycke** i fönstret **Integritet** (![ikon][img1]) kan du [skapa
 
 En rättslig grund och en samtyckeskälla måste dokumenteras för varje syfte (under import eller i SuperOffice CRM för enskilda användare eller grupper av användare).
 
-## <a id="legal-basis" />Rättslig grund
+## <a id="legal-basis"></a>Rättslig grund
 
 Du måste dokumentera den rättsliga grunden för varje syfte som registrerats för en kontakt. I den här listan lägger du till och underhåller listan över rättsliga grunder som används när du redigerar integritetsinställningarna för dina kontakter.
 
 Exempel: En person skickar en förfrågan via ett webbformulär och markerar alternativet "Prenumerera på nyhetsbrev" (eller liknande). Det innebär att denna person har gett sitt samtycke till att ta emot e-marknadsföring från ditt företag. Den rättsliga grunden är alltså **Samtycke** för syftet e-marknadsföring.
 
-## <a id="source" />Källa
+## <a id="source"></a>Källa
 
 Var och hur fick du samtycke från en kontakt? Exempel: E-post, chatt, webbformulär och kundportal.
 

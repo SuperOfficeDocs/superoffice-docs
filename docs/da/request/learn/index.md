@@ -26,7 +26,7 @@ Hvert spørgsmål og hver forespørgsel kan defineres som en sag. Disse spørgsm
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Hvor kan jeg få adgang til sager?
+## <a id="open"></a>Hvor kan jeg få adgang til sager?
 
 * Arkiver i alle hovedkort såsom Firma, Salg, Projekt
 * [Brugerdefinerede lister][11]
@@ -36,7 +36,7 @@ Hvert spørgsmål og hver forespørgsel kan defineres som en sag. Disse spørgsm
 
 Når du dobbeltklikker på en række i skærmbilledet [søgeresultater][13], kommer du til skærmbilledet Sag.
 
-### <a id="customers" />Personer
+### <a id="customers"></a>Personer
 
 Sager kan knyttes til [personer][2], som igen kan være tilknyttet et [firma][3]. Det betyder, at sager ikke kan knyttes direkte til firmaer (kun indirekte via personer). Når nye e-mailmeddelelser importeres og gemmes som sager, knyttes sagen automatisk til den rigtige person via e-mailadressen. Når du ser på en sag, kan du derfor meget nemt se, hvem personen er, og hvis du klikker på personens navn, kan du se, hvilke sager der er registreret på denne person. På denne måde kan du hurtigt få et overblik over den tidligere kommunikation med den samme person.
 
@@ -48,7 +48,7 @@ Sager kan knyttes til [personer][2], som igen kan være tilknyttet et [firma][3]
 * [Find anmodninger][10]
 * [7 tips til at yde den bedste kundeservice med SuperOffice Service][20] - blog
 
-## <a id="request-mgt" />Sagshåndtering
+## <a id="request-mgt"></a>Sagshåndtering
 
 Indgående sager kan ankomme via mange kanaler, og der er mere end én måde at registrere og besvare dem på. Det varierer fra sag til sag, hvordan sagsbehandlingen foregår.
 

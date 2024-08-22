@@ -21,7 +21,7 @@ Den här proceduren visar hur du skapar en säljguide från grunden.
 2. Definiera [försäljningstypen](#create-type) (med associerade faser) som säljguiden ska kopplas till.
 3. Designa [säljguiden](#create-guide).
 
-## <a id="create-stages" />Skapa faser för säljguiden
+## <a id="create-stages"></a>Skapa faser för säljguiden
 
 En säljguide måste vara kopplad till en försäljningstyp, som i sin tur består av flera faser. [Så skapar du faser][2].
 
@@ -29,7 +29,7 @@ Till exempel kan en säljguide för försäljning till nya kunder innehålla fas
 
 Gå till nästa procedur för att länka faserna till en försäljningstyp.
 
-## <a id="create-type" />Skapa en försäljningstyp för säljguiden
+## <a id="create-type"></a>Skapa en försäljningstyp för säljguiden
 
 En säljguide måste kopplas till en försäljningstyp. [Så skapar du en försäljningstyp][3].
 
@@ -39,7 +39,7 @@ Exempel på försäljningstyper: "Försäljning till ny kund", "Försäljning ti
 1. Välj minst två faser.
 1. Gå till nästa procedur för att skapa säljguiden.
 
-## <a id="create-guide" />Skapa en säljguide
+## <a id="create-guide"></a>Skapa en säljguide
 
 När du har skapat faser och angett en försäljningstyp för säljguiden, kan du utforma själva säljguiden genom att lägga till händelser och/eller dokument för varje fas.
 
@@ -65,7 +65,7 @@ När du har skapat faser och angett en försäljningstyp för säljguiden, kan d
 
 Ändringarna sparas automatiskt. Säljguiden visas nu i SuperOffice CRM när en försäljning skapas med den försäljningstyp som valdes i steg B.
 
-## <a id="add-fo-stage" />Lägg till en händelse för en fas
+## <a id="add-fo-stage"></a>Lägg till en händelse för en fas
 
 1. Välj önskad försäljningstyp och fas enligt beskrivningen ovan.
 
@@ -112,7 +112,7 @@ Agenda för första mötet:
 \- Företagspresentation
 \- Annat
 
-## <a id="add-doc-stage" />Lägg till ett dokument för en fas
+## <a id="add-doc-stage"></a>Lägg till ett dokument för en fas
 
 1. Välj önskad försäljningstyp och fas enligt beskrivningen ovan.
 

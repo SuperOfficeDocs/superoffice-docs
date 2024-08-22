@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > Når du tilføjer eller opdaterer flow-handlinger, skal du huske, at formularer og sporede links også har handlinger. Sørg for, at der ikke er nogen dublerede eller modstridende handlinger. Vi anbefaler, at du inkluderer alle handlinger ét sted, enten i formularen eller i flowet.
 
-## <a id="send" />Send besked
+## <a id="send"></a>Send besked
 
 Overvejelser:
 
@@ -71,7 +71,7 @@ Flowdeltagere uden et registreret telefonnummer kan enten springe trinnet over (
 > [!TIP]
 > Hvis du kun ønsker at sende én SMS, skal du holde øje med tælleren i nederste højre hjørne. Hvis antallet af tegn overstiger 160, sendes beskeden som flere SMS-segmenter, og yderligere omkostninger kan gælde. Vi anbefaler at holde beskeden kort og informativ.
 
-## <a id="update" />Opdater deltager
+## <a id="update"></a>Opdater deltager
 
 * Opdater person
 * Tilføj til udvalg/projekt
@@ -110,7 +110,7 @@ Personen fjernes som medlem fra det specificerede udvalg og/eller projekt.
 
 Dette trin ligner **Tilføj til udvalg og/eller projekt**.
 
-## <a id="create" />Opret aktivitet
+## <a id="create"></a>Opret aktivitet
 
 Flowet kan automatisk oprette en opfølgning, sag og/eller salg på personen i henhold til indstillingerne. Ved at forbinde CRM-aktiviteter og meddelelser kan din organisation bygge bro mellem marketing og salg. Oprettelse af aktiviteter giver dig også mulighed for at fokusere på personer, der er engagerede.
 
@@ -154,7 +154,7 @@ Når personen når dette trin, er personen moden og har vist tegn på at være e
 
 For detaljer, se [listen over trinindstillinger][1] og [hvordan man opretter et salg][18].
 
-## <a id="internal" />Interne handlinger
+## <a id="internal"></a>Interne handlinger
 
 ### Kør script
 

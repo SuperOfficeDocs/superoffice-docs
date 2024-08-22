@@ -25,7 +25,7 @@ Wanneer de klant de offerte heeft geaccepteerd, kunt u een order genereren die u
 4. [Verzend de offerte.][4]
 5. Wanneer de klant de offerte accepteert, kunt u [de order plaatsen][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

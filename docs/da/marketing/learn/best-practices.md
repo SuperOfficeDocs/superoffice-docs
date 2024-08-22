@@ -87,7 +87,7 @@ Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mai
 
 * Du kan opnå den samme effekt ved at have en opdeling i ét flow eller arrangere kommunikationen i to forskellige flows. Om du skal opdele eller definere flere flows afhænger af scenariet og hvilket resultat, du gerne vil spore. Jo mere to kommunikationsspor har til fælles, desto mere effektivt er det for brugeren at arrangere det inden for det samme flow.
 
-## <a id="mobile" />Tilpasse meddelelsen til visning på mobile enheder
+## <a id="mobile"></a>Tilpasse meddelelsen til visning på mobile enheder
 
 Beskeden tilpasses automatisk til visning på mindre skærme.
 

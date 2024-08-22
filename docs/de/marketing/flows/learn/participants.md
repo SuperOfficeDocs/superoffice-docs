@@ -40,7 +40,7 @@ Verwenden Sie das Zahnrad ![icon][img4] im Kopf der Liste, um die Spalten anzupa
 | Abbruch | Teilnehmer ist ausgeschieden, immer mit einem angegebenen Ausscheidungsgrund. |
 | Abbruch | Teilnehmer wird den Flow nicht abschließen, weil ein Administrator den Flow beendet hat. |
 
-## <a id="logic" />Einschreibung und Fortschritt im Flow
+## <a id="logic"></a>Einschreibung und Fortschritt im Flow
 
 Vor jedem Schritt überprüft SuperOffice CRM, ob der Teilnehmer fortschreiten kann.
 

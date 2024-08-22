@@ -30,7 +30,7 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 > [!NOTE]
 > Als u de taal in uw mobiele CRM-app wilt wijzigen, klikt u op de knop **Taak** in de linkerbenedenhoek, tikt u op **Instellingen**, klikt u op de **taal** en selecteert u een van de opties.
 
-## <a id="options" />Dialoogvenster Voorkeuren - opties
+## <a id="options"></a>Dialoogvenster Voorkeuren - opties
 
 | Knop | Optie | Beschrijving |
 |---|---|---|

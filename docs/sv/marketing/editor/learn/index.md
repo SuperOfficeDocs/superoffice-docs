@@ -95,7 +95,7 @@ När du klickar på ett avsnitt i ett meddelande får du tillgång till olika fu
 | ![ikon][img8] | Dubblett | Skapar en kopia av avsnittet. |
 | ![ikon][img9] | Spara block | Sparar det markerade avsnittet som ett block. Låter dig återanvända innehåll (som sidhuvuden och sidfötter) i meddelanden. |
 
-## <a id="variables" />Mallvariabler
+## <a id="variables"></a>Mallvariabler
 
 Om du vill göra meddelandet mer personligt kan du använda platshållare för att infoga kundspecifik information, som kundens förnamn. På så sätt kan du anpassa innehållet efter varje enskild kund.
 
@@ -126,7 +126,7 @@ Använder du den nya Dra och släpp-redigeraren eller den tidigare versionen av 
 
 I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och släpp-redigeraren") för att ersätta den gamla ("Redigerare"). Meddelanderedigeraren används när du skapar e-postutskick och formulärsvar. Du kommer fortfarande att kunna använda den gamla meddelanderedigeraren för att redigera meddelanden och mallar som har skapats i den äldre versionen. Alla nya utskick och mallar använder sig av den nya meddelanderedigeraren.
 
-### <a id="old" />Redigerare (gammal)
+### <a id="old"></a>Redigerare (gammal)
 
 ![Redigerare (gammal) -screenshot][img13]
 

@@ -94,7 +94,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 ***
 
-## <a id="fields" />Wie man Informationen eingibt
+## <a id="fields"></a>Wie man Informationen eingibt
 
 > [!NOTE]
 > Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img5], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
@@ -127,7 +127,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 * Legen Sie im Tab **Mehr** alle [benutzerdefinierten Felder][10] fest, die in den Einstellungen und der Wartung konfiguriert sind.
 
-## <a id="upload" />Dokumente hochladen
+## <a id="upload"></a>Dokumente hochladen
 
 1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 

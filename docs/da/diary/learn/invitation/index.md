@@ -20,7 +20,7 @@ Opfølgninger med medarbejdere oprettes ved at knytte dem som deltagere til opf�
 
 Når vi gemmer mødet, vil der blive tilføjet en invitation til den person, vi har inviteret, og den vil blive vist i vedkommendes dagbog på den passende dato og tidspunkt. Dette sker kun, hvis den inviterede person også er en kollega. Du kan også invitere personer, der hører til andre kontakter; disse vil ikke have en dagbog, hvor mødet vises, men det vil i stedet blive vist i aktivitetsarkivet for deres kontakt.
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 De brugere, du har valgt at knytte til en opfølgning, får en meddelelse om dette på skærmen. Hvis du åbner opfølgningen på fanen **Deltagere**, får du vist en oversigt over de deltagere og ressourcer, der er tilknyttet til opfølgningen. Her kan du også se, hvem der har accepteret eller afvist invitationen, og hvilke ressourcer der er reserveret, ved hjælp af symbolerne ved siden af navnene:
 

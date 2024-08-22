@@ -34,7 +34,7 @@ Der er mange måder at oprette en opfølging på. Denne metode fungerer fra ethv
 | Knappen Opgave på personkortet | x | x | |
 | Dagbog | x | | |
 
-### <a id="fields" />Sådan indtastes information
+### <a id="fields"></a>Sådan indtastes information
 
 > [!NOTE]
 > Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![ikon][img4] for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en specifik værdi, som f.eks. et firmanavn.
@@ -94,7 +94,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 > [!NOTE]
 > Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få deltagere udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
-### <a id="associate" />Opret møde for en medarbejder
+### <a id="associate"></a>Opret møde for en medarbejder
 
 Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressource for at se, hvornår de er ledige, eller for at oprette opfølgninger direkte til dem.
 
@@ -110,7 +110,7 @@ Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressourc
 
 6. Klik på knappen **Gem**. Mødet vises i den valgte persons dagbog.
 
-## <a id="copy" />Kopiering af opfølgning til dagbogen
+## <a id="copy"></a>Kopiering af opfølgning til dagbogen
 
 Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgning til en anden tid eller dag i dagbogen.
 

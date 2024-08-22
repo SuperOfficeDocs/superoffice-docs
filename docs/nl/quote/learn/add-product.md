@@ -36,7 +36,7 @@ In het dialoogvenster **Product toevoegen/bewerken** kunt een product toevoegen 
     of
     Klik op **Opslaan** om op te slaan en terug te gaan naar de offerte.
 
-## <a id="add-multiple" />Verschillende producten aan een offerte toevoegen
+## <a id="add-multiple"></a>Verschillende producten aan een offerte toevoegen
 
 1. Klik op **Toevoegen** onder aan het tabblad **Producten** in het dialoogvenster **Offerte bewerken**.
 
@@ -73,7 +73,7 @@ Hier staat gedetailleerde productinformatie als dit gedefinieerd is in Instellin
 
 Hier worden gedetailleerde prijsberekeningen weergegeven. De inhoud van dit tabblad is gedefinieerd in Instellingen en onderhoud.
 
-## <a id="warning" />Waarschuwingen en hoe ermee om te gaan
+## <a id="warning"></a>Waarschuwingen en hoe ermee om te gaan
 
 In Instellingen en onderhoud kunnen verschillende regels worden gedefinieerd voor toegestane en niet-toegestane handelingen tijdens de toevoeging van producten aan offerte. Afhankelijk van de definitie van deze regels, worden bepaalde pictogrammen/waarschuwingen weergegeven tijdens de toevoeging van producten aan een offerte. In bepaalde gevallen moet de offerte worden [goedgekeurd voor verzending][1].
 

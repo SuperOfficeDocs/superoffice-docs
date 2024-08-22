@@ -32,7 +32,7 @@ Ett *extrafält* är ett anpassat fält som du lägger till i en befintlig Super
 
 Extrafält hanteras i **Inställningar och underhåll** > **Tabeller**.
 
-## <a id="field-types" />Fälttyper
+## <a id="field-types"></a>Fälttyper
 
 * Sannolikhet(ja/nej)
 * Heltal

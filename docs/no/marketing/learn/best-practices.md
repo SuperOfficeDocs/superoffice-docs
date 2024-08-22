@@ -87,7 +87,7 @@ Forfattere vil se en melding hvis de bruker en ikke-validerbar e-postadresse i F
 
 * Du kan oppnå den samme opplevelsen ved å dele én flyt eller arrangere kommunikasjonen i to forskjellige flyter.​ Om du skal dele eller definere flere flyter avhenger av scenarioet og hvilket resultat du vil spore. ​Jo mer to kommunikasjonsspor har til felles, jo mer effektivt er det for brukeren å arrangere det innenfor samme flyt.​
 
-## <a id="mobile" />Tilpass meldingen for visning på mobile enheter
+## <a id="mobile"></a>Tilpass meldingen for visning på mobile enheter
 
 Meldingen tilpasses automatisk for visning på mindre skjermer.
 

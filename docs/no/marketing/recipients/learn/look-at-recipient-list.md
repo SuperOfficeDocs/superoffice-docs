@@ -43,7 +43,7 @@ SuperOffice Marketing samler inn data om statusen for hver sendte e-post. I fane
 
 Hvis statusen er **Klar til å sende**, trenger du ikke å gjøre noe. SuperOffice sender utsendelsene til mottakerne. Statusen endres til **Sendt** etter at dette er gjort.
 
-## <a id="filters" />Filtre
+## <a id="filters"></a>Filtre
 
 * **Sendt**: Aktiver dette filteret for å vise alle mottakere som utsendelsen er sendt til.
 
@@ -63,7 +63,7 @@ Hvis statusen er **Klar til å sende**, trenger du ikke å gjøre noe. SuperOffi
 
 Hvis statusen er **Klar til å sendes**, trenger du ikke å gjøre noe. SuperOffice sender utsendelsene til mottakerne. Statusen endres til **Sendt** når dette er gjort.
 
-## <a id="add-recipients" />Legge til mottakere i utvalg eller prosjekter
+## <a id="add-recipients"></a>Legge til mottakere i utvalg eller prosjekter
 
 Ved å bruke menyknappen **Handlinger** kan du legge til mottakere eller klikkere i et utvalg eller prosjekt.
 

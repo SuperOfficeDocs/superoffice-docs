@@ -47,7 +47,7 @@ language: nl
 > [!NOTE]
 > Voorkeuren met actieve individuele instellingen worden met vette tekst weergegeven in de lijst met voorkeuren.
 
-## <a id="edit" />Voorkeursinstelling bewerken
+## <a id="edit"></a>Voorkeursinstelling bewerken
 
 1. Ga naar de voorkeur die u wilt bijwerken.
 
@@ -60,7 +60,7 @@ language: nl
     > [!NOTE]
     > klik op **Annuleren** als u de wijzigingen niet wilt verwerken.
 
-## <a id="personal" />Persoonlijke instellingen toestaan
+## <a id="personal"></a>Persoonlijke instellingen toestaan
 
 1. Ga naar de voorkeur die u beschikbaar wilt maken in het menu **Persoonlijke instellingen**.
 

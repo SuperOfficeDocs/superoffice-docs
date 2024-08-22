@@ -91,7 +91,7 @@ Afgezien van de lay-out/opmaak van de antwoordsjabloon, moet deze de volgende sj
 [[ENDIF]]
 ```
 
-## <a id="faq" />Automatische beantwoording van Veelgestelde vragen
+## <a id="faq"></a>Automatische beantwoording van Veelgestelde vragen
 
 SuperOffice Service wordt geleverd met een set antwoordsjablonen. Onder deze antwoordsjablonen vindt u 'Voorbeeld van een geautomatiseerd antwoord uit Veelgestelde vragen'. Deze antwoordsjabloon bevat een voorbeeld van de automatisering van de antwoorden voor de klant op het tabblad **HTML-tekst**.
 

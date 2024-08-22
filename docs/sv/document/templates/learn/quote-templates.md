@@ -16,7 +16,7 @@ Denna guide beskriver de olika typerna av offertermallar som finns tillgängliga
 
 En offert består ofta av mer än en produkt. Det är därför nödvändigt att skapa en offertdetaljmall (och en orderbekräftelsemall) där varje produkt är listad i en tabell med olika grupperingar (såsom alternativ). Användaren kommer endast att kunna redigera offertdokumentet i Word. Offertdetaljerna och orderbekräftelsen kommer att genereras som en PDF och kan inte redigeras av användaren. Alla offertermallar kan redigeras på vanligt sätt i Inställningar och underhåll.
 
-## <a id="types" />Typer av offertdokumentmallar
+## <a id="types"></a>Typer av offertdokumentmallar
 
 SuperOffice erbjuder olika mallar för att generera offerter. Dessa mallar kan nås och anpassas i Inställningar och underhåll under **Listor**.
 
@@ -61,7 +61,7 @@ När du skickar offerter eller orderbekräftelser via e-post, kan du välja en e
 
 Du kan anpassa offert- och orderbekräftelsemallar genom att använda merge fields i Microsoft Word. Merge fields låter dig infoga specifik offertinformation i mallar, medan standard mallvariabler hämtar kunddata och andra detaljer.
 
-### <a id="structure" />Struktur av merge fields
+### <a id="structure"></a>Struktur av merge fields
 
 Merge fields måste följa en hierarkisk ordning: quote > alternative > group > line. Denna struktur definieras med hjälp av **TableStart** och **TableEnd** fält, som markerar början och slutet av varje tabellområde:
 
@@ -84,7 +84,7 @@ Merge fields måste följa en hierarkisk ordning: quote > alternative > group > 
 > [!NOTE]
 > Varje mall måste följa inbäddningsordningen och alltid starta med den yttersta nivån (quote). Den behöver inte gå hela vägen ner, men kan inte börja med alternativ eller något annat än offert.
 
-### <a id="usage" />Användning av merge fields
+### <a id="usage"></a>Användning av merge fields
 
 Offertdetaljer inkluderar detaljerad information som linjer, priser och produktnamn, vanligtvis placerad i en separat mall från offertdokumentet. Om både huvuddokumentet och offertdetaljerna används:
 

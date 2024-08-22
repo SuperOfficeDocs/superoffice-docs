@@ -15,7 +15,7 @@ language: no
 
 **Personer** er et av detaljkortene nederst i Firma-bildet. Det inneholder opplysninger om [ansatte hos det aktive firmaet][1]. Dobbeltklikk på et navn i listen for å åpne personen i Person-bildet.
 
-## <a id="columns" />Kolonnene på detaljkortet Personer
+## <a id="columns"></a>Kolonnene på detaljkortet Personer
 
 Detaljkortet **Personer** inneholder følgende kolonner:
 

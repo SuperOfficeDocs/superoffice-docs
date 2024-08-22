@@ -47,7 +47,7 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 
 ## Fälttyper
 
-### <a id="text" />Textfält
+### <a id="text"></a>Textfält
 
 Om fältet som du ska söka i är ett textfält (till exempel namn) söker programmet efter text eller tal som du själv anger. Då visas en lista med följande alternativ:
 
@@ -55,11 +55,11 @@ Om fältet som du ska söka i är ett textfält (till exempel namn) söker progr
 
 Välj ett av dessa alternativ och skriv sedan in sökkriterierna i textfältet till höger.
 
-### <a id="yes-no" />Ja/Nej-fält
+### <a id="yes-no"></a>Ja/Nej-fält
 
 Om fältet som du ska söka i är ett Ja/Nej-fält, till exempel fältet **Inga utskick** i fönstret Företag, så visas två alternativknappar. Du kan välja mellan **Ja** och **Nej**.
 
-### <a id="date" />Datumfält
+### <a id="date"></a>Datumfält
 
 Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum** i dialogrutan **Dokument**, visas en listruta med följande alternativ:
 
@@ -67,7 +67,7 @@ Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum**
 
 Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på pilknappen ![ikon][img1].
 
-### <a id="number" />Sifferfält
+### <a id="number"></a>Sifferfält
 
 Om fältet som du ska söka i innehåller siffror, till exempel fältet **Belopp** i fönstret Försäljning, visas en listruta med följande alternativ:
 
@@ -75,7 +75,7 @@ Om fältet som du ska söka i innehåller siffror, till exempel fältet **Belopp
 
 Välj önskat alternativ och skriv in önskat siffervärde i textfältet till höger.
 
-### <a id="list" />Listfält
+### <a id="list"></a>Listfält
 
 Om fältet som du ska söka i är ett fält som innehåller listor, till exempel fältet **Bransch** i fönstret Företag, visas en listruta med alternativen **Är en av** och **Är inte en av**.
 
@@ -85,13 +85,13 @@ Om listan är lång, kan du skriva text i fälten **Sökkriterier** för att sö
 
 Klicka utanför listan för att stänga den.
 
-### <a id="status" />Statusfält
+### <a id="status"></a>Statusfält
 
 Om fältet som du ska söka i är ett statusfält, välj en status.
 
 Statusarna skapas och administreras i Inställningar och underhåll. Statusfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
 
-### <a id="counter" />Räknarfält
+### <a id="counter"></a>Räknarfält
 
 [Räknare][3] kan till exempel visa antal försäljningar i en period eller datum för den senast slutförda försäljningen.
 

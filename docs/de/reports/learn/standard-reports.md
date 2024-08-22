@@ -18,7 +18,7 @@ SuperOffice CRM beinhaltet bereits einige vordefinierte Standardberichte, aber e
 > [!TIP]
 > Sie können häufig verwendete Standardberichte als [Favoriten][2] speichern, um schneller darauf zugreifen zu können. Darüber hinaus können Sie Standardberichte bearbeiten und ebenfalls als Favoriten speichern.
 
-## <a id="type" />Typen
+## <a id="type"></a>Typen
 
 | Typ | Beschreibung |
 |---|---|

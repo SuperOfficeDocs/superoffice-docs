@@ -22,7 +22,7 @@ När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av 
 
 ![Aviseringsrutan visar både aviseringar om ärenden och inbjudningar -screenshot][img5]
 
-## <a id="activity" />Aktivitetsmeddelanden
+## <a id="activity"></a>Aktivitetsmeddelanden
 
 När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på länken i meddelandet för att öppna aktiviteten.
 
@@ -83,7 +83,7 @@ Det här är aviseringsalternativen:
 * Systemmeddelanden för e-post
 * Systemmeddelanden för chatt
 
-## <a id="enable-browser" />Hvordan endre nettleserinnstillingene for varsler
+## <a id="enable-browser"></a>Hvordan endre nettleserinnstillingene for varsler
 
 **Chrome:** Klicka på hänglåssymbolen framför URL:en och aktivera **Aviseringar**-omkopplaren.
 

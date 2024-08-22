@@ -32,7 +32,7 @@ Om du redigerar tid, datum eller plats för en händelse - eller tar bort en fö
 > [!NOTE]
 > Du kan inte göra ändringar i slutförda händelser förrän du har inaktiverat statusen **Slutförd**.
 
-## <a id="change-end" />Ändra sluttid för en händelse i kalendern
+## <a id="change-end"></a>Ändra sluttid för en händelse i kalendern
 
 I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna den:
 
@@ -47,7 +47,7 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 > [!NOTE]
 > Du kan också ändra tidsspannet genom att öppna händelsen och ändra fälten **Start**, **Slut**, **Tidsgräns** eller **Varaktighet**.
 
-## <a id="repeat" />Redigera återkommande händelse
+## <a id="repeat"></a>Redigera återkommande händelse
 
 Ändringar fungerar på samma sätt som när du redigerar händelser, men när du gör en ändring visas dialogrutan **Återkommande händelser**.
 
@@ -65,7 +65,7 @@ Om du ändrar starttiden för ett enskilt möte påverkas inte regeln. Mötesund
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Ta bort händelse i kalendern
+## <a id="delete"></a>Ta bort händelse i kalendern
 
 * Om du tar bort en förfrågan du blivit inbjuden till, tas den bort enbart från din egen dagbok.
 * Om du tar bort en förfrågan som du äger från din dagbok, försvinner den även från de inbjudna personernas kalendrar.

@@ -47,7 +47,7 @@ language: no
 > [!NOTE]
 > Preferanser med aktive brukerinnstillinger vises med fet skrift i preferanselisten.
 
-## <a id="edit" />Redigere preferanseinnstilling
+## <a id="edit"></a>Redigere preferanseinnstilling
 
 1. Gå til preferansen du vil oppdatere.
 
@@ -60,7 +60,7 @@ language: no
     > [!NOTE]
     > Hvis du ikke vil lagre endringene likevel, kan du klikke på **Avbryt**.
 
-## <a id="personal" /> Tillate brukerinnstillinger
+## <a id="personal"></a> Tillate brukerinnstillinger
 
 1. Gå til preferansen du vil gjøre tilgjengelig, i menyen **Personlige innstillinger**.
 

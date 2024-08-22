@@ -28,7 +28,7 @@ Gebruikersgedefinieerde velden worden beheerd in Instellingen en onderhoud, in h
 > [!NOTE]
 > Iedereen kan de gegevens in een gebruikersgedefinieerd veld **bijwerken**. Alleen een beheerder kan een gebruikersgedefinieerd veld toevoegen (of verwijderen). U hebt een Development Tools-licentie nodig om het ontwerp van het **Meer**-tabblad aan te passen en pagina 1-velden te gebruiken.
 
-## <a id="field-types" />Veldtypen
+## <a id="field-types"></a>Veldtypen
 
 * **Getal**: Geheel getal, onbeperkt aantal cijfers.
 * **Korte tekst**: Een tekst van maximaal 39 tekens. Geef in het veld **Tekstlengte**, dat is ingeschakeld wanneer u deze optie kiest, het maximaal aantal tekens aan dat door gebruikers in dit veld ingevoerd kan worden.
@@ -39,7 +39,7 @@ Gebruikersgedefinieerde velden worden beheerd in Instellingen en onderhoud, in h
 * **Lijst**: Een keuzelijst. Selecteer een lijst uit het systeem uit het veld hieronder.
 * **Decimaal**: Een getal met decimalen.
 
-## <a id="limit" />Maximumaantal velden
+## <a id="limit"></a>Maximumaantal velden
 
 De volgende beperkingen gelden voor het aantal door gebruikers gedefinieerde velden dat u kunt opgeven op elk van de tabbladen Bedrijf, Persoon, Project en Verkoop.
 
@@ -51,7 +51,7 @@ De volgende beperkingen gelden voor het aantal door gebruikers gedefinieerde vel
 > [!NOTE]
 > Vier van de door de gebruiker gedefinieerde velden in elke groep moeten worden geïndexeerd.
 
-## <a id="index" />Geïndexeerde velden
+## <a id="index"></a>Geïndexeerde velden
 
 Indexering is goed voor de gebruikerservaring en prestaties. De eerste 4 velden van elk gegevenstype zijn gereserveerd voor indexen.
 
@@ -59,7 +59,7 @@ U moet het selectievakje aanvinken bij het maken van het veld om indexering toe 
 
 Als u ervoor kiest helemaal niet te indexeren, verspilt u in feite 16 velden! Hierdoor wordt het maximale aantal aangepaste velden teruggebracht tot 103.
 
-## <a id="page-1" />Velden pagina 1
+## <a id="page-1"></a>Velden pagina 1
 
 Uit de door gebruikers gedefinieerde velden die worden weergegeven op de tabbladen **Meer** in SuperOffice CRM kunt u *drie* velden kiezen die fungeren als velden voor pagina 1 (deze heten zo omdat de velden worden weergegeven op de eerste pagina van de respectievelijke schermen).
 

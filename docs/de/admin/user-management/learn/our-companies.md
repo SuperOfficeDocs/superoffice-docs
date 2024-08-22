@@ -69,7 +69,7 @@ Damit eine Firma von der Registerkarte **Unsere Firmen** gelöscht werden kann, 
 
     * **Keine Treffer**: Es wird die Meldung angezeigt, dass kein mit den Suchkriterien übereinstimmender Eintrag gefunden wurde. Klicken Sie auf **OK**, und suchen Sie erneut mit anderen Kriterien.
 
-### <a id="criteria" />Suchkriterien
+### <a id="criteria"></a>Suchkriterien
 
 Die Felder unten entsprechen den Feldern auf der Firmenkarte.
 

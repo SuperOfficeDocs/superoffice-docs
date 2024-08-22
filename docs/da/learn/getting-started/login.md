@@ -111,7 +111,7 @@ Du skal tilhøre rollen *Brugerniveau 0* eller en rolle, der giver dig rettighed
 
 ## Fejlfinding
 
-### <a id="forgot-password" />Har du glemt din adgangskode?
+### <a id="forgot-password"></a>Har du glemt din adgangskode?
 
 Folk glemmer ofte deres adgangsoplysninger, især deres adgangskode. Derfor kan det være nyttigt at vide, hvordan du ændrer eller nulstiller din SuperOffice CRM-adgangskode. Følg instruktionerne for din version af SuperOffice for at ændre din adgangskode.
 

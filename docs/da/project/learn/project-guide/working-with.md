@@ -41,7 +41,7 @@ Hvis der er defineret en projektguide for en projekttype, du har angivet for et 
 
 1. Gentag fremgangsmåden ovenfor for alle opfølgninger/dokumenter i hver status i projektguiden.
 
-## <a id="move-to-next-status" />Gå til næste status
+## <a id="move-to-next-status"></a>Gå til næste status
 
 Du kan flytte projektet til næste status på to måder:
 

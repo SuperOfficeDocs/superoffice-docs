@@ -16,7 +16,7 @@ Kreuztabellen können auf verschiedene Weise angezeigt und gedruckt werden. Sie 
 > [!TIP]
 > Wenn Sie sich nicht sicher sind, ob es sich bei Ihrem Bericht um eine Kreuztabelle handelt, prüfen Sie das Bild zwischen der Berichtsliste und der Beschreibung. [Wie?][1]
 
-## <a id="install" />Installieren Sie den CrossTable Viewer
+## <a id="install"></a>Installieren Sie den CrossTable Viewer
 
 Um einen Kreuztabellen-Bericht (Dcube-Datei) anzuzeigen, müssen Sie den **CrossTable Viewer** installieren (einmal pro Computer).
 
@@ -51,11 +51,11 @@ Um einen Kreuztabellen-Bericht (Dcube-Datei) anzuzeigen, müssen Sie den **Cross
 
 1. Klicken Sie auf **OK**, um den CrossTable Viewer zu schließen.
 
-## <a id="print" />Kreuztabellen drucken
+## <a id="print"></a>Kreuztabellen drucken
 
 Es gibt verschiedene Optionen zum Drucken von Kreuztabellen. Sie können die zu druckenden Abschnitte der Kreuztabelle auswählen, eine Vorschau der Kreuztabelle anzeigen oder sie als normale Tabelle oder als Diagramm drucken.
 
-## <a id="export" />Kreuztabellenberichte als Dateien speichern
+## <a id="export"></a>Kreuztabellenberichte als Dateien speichern
 
 Im Vergleich zu den übrigen Berichtsformaten weicht das Speichern von Berichten als Datei bei Berichten im Kreuztabellenformat in einigen Punkten leicht ab. Um einen Kreuztabellenbericht als Datei zu speichern, müssen Sie auf **Export** klicken, wenn Sie den Bericht im CrossTable Viewer anzeigen.
 

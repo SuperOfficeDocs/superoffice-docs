@@ -49,7 +49,7 @@ Wenn Sie das Projekt mit einer Firma verknüpfen möchten, müssen Sie zumindest
 > [!TIP]
 > Sie können rechts neben dem Fenster mehrere Personen gleichzeitig auswählen, indem Sie die **STRG**-Taste oder die **UMSCHALTTASTE** während der Auswahl gedrückt halten. Änderungen, die Sie im Feld **Funktion** und im Textfeld **Kommentar** vornehmen, gelten für alle ausgewählten Personen.
 
-## <a id="from-section-tab" />Projektmitglieder und Beteiligte von Bereichsregisterkarten hinzufügen
+## <a id="from-section-tab"></a>Projektmitglieder und Beteiligte von Bereichsregisterkarten hinzufügen
 
 Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschiedenen Bereichsregisterkarten hinzufügen, z. B. **Firma** (**Personen**), **Selektion** (**Firma/Person**), **Verkauf** (**Beteiligte**) und **Projekt** (**Projektmitglieder**). So kann das folgende Verfahren auch über die Registerkarte **Ergebnis** in der [Ansicht Suchen][3] durchgeführt werden.
 

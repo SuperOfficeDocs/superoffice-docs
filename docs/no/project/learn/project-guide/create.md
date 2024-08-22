@@ -34,7 +34,7 @@ Denne prosedyren viser deg hvordan du lager en prosjektguide helt fra bunnen av.
 
 ![Gå til Arbeidsflyt-seksjonen og opprett dine egne prosjektrutiner i SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" />Opprette statuser for prosjektguiden
+## <a id="create-stage"></a>Opprette statuser for prosjektguiden
 
 En prosjektguide må være knyttet til en prosjekttype, som igjen består av flere statuser. [Slik oppretter du en status][2].
 
@@ -42,7 +42,7 @@ En prosjektguide for et prosjekt av typen Konferanse kan for eksempel ha statuse
 
 Gå til neste prosedyre for å knytte statusene til en prosjekttype.
 
-## <a id="create-type" />Opprette prosjekttype for prosjektguiden
+## <a id="create-type"></a>Opprette prosjekttype for prosjektguiden
 
 En prosjektguide må være knyttet til en prosjekttype. [Slik oppretter du en prosjekttype][3].
 
@@ -52,7 +52,7 @@ Eksempel på prosjekttyper: "Konferanse", "Kampanje", "Internt".
 1. Velg minst to statuser.
 1. Gå til neste prosedyre for å opprette prosjektguiden.
 
-## <a id="create-guide" />Opprette en prosjektguide
+## <a id="create-guide"></a>Opprette en prosjektguide
 
 Når du har opprettet statuser og angitt en prosjekttype med prosjektguide, kan du utforme selve prosjektguiden. Det gjør du ved å legge til oppfølginger og/eller dokumenter for hver status i prosjektguiden.
 
@@ -80,7 +80,7 @@ Når du har opprettet statuser og angitt en prosjekttype med prosjektguide, kan 
 
 Endringene lagres automatisk. Prosjektguiden vises nå i SuperOffice CRM, hvis det blir opprettet et prosjekt med prosjekttypen valgt i trinn B.
 
-## <a id="add-fo-status" />Legge til oppfølging for en status
+## <a id="add-fo-status"></a>Legge til oppfølging for en status
 
 1. Velg ønsket prosjekttype og status som beskrevet ovenfor.
 
@@ -129,7 +129,7 @@ Planleggingsmøte:
 \- Foredragsholdere?
 \- Hvor?
 
-## <a id="add-doc-status" />Legge til dokument for en status
+## <a id="add-doc-status"></a>Legge til dokument for en status
 
 1. Velg ønsket prosjekttype og status som beskrevet ovenfor.
 2. Klikk på **Legg til** under **Foreslåtte dokumenter i denne statusen**.

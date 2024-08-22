@@ -16,7 +16,7 @@ Als u licenties wilt beheren, moet u zijn aangemeld als beheerder.
 > [!NOTE]
 > Als u een demoversie van SuperOffice CRM gebruikt, kunt u gevraagd worden een nieuw serienummer en licentie-eigenaar in te vullen. U ontvangt deze van SuperOffice wanneer u een SuperOffice-licentie koopt.
 
-## <a id="buy" />Kopen
+## <a id="buy"></a>Kopen
 
 1. Ga naar Instellingen en onderhoud.
 1. Open het scherm Licenties.

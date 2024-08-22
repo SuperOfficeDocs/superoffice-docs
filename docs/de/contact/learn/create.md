@@ -71,13 +71,13 @@ Es gibt viele Möglichkeiten, wie Sie Personen zu SuperOffice CRM hinzufügen k�
 
 12. Wechseln Sie zur Bereichsregisterkarte **Beziehungen**. Hier können Sie [Beziehungen hinzufügen][8], die zwischen dieser und einer anderen Person oder Firma bestehen.
 
-## <a id="more-tab" />Registerkarte Mehr (Ansicht Person)
+## <a id="more-tab"></a>Registerkarte Mehr (Ansicht Person)
 
 Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für Personen. Wenn Ihre Organisation zum Beispiel IT-Produkte verkauft und Felder für die Hard- und Software jeder Person benötigt, können Sie unter Einstellungen und Verwaltung festlegen, ob diese Felder hier eingefügt werden sollen.
 
 Weitere Beispiele: Beschäftigungsjahr, ERP-IDs, Mitarbeitertyp, CXM-Info.
 
-## <a id="interests-tab" />Die Registerkarte Interessen (Ansicht Person)
+## <a id="interests-tab"></a>Die Registerkarte Interessen (Ansicht Person)
 
 Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 

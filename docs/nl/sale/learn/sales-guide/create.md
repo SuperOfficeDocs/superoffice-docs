@@ -21,7 +21,7 @@ Deze procedure toont u hoe u een geheel nieuwe verkoopgids kunt maken.
 2. Definieer [het verkooptype](#create-type) (met gekoppelde fasen) waaraan de verkoopgids wordt gekoppeld.
 3. Ontwerpen van de [Verkoopgids](#create-guide).
 
-## <a id="create-stages" />Fasen maken voor de verkoopgids
+## <a id="create-stages"></a>Fasen maken voor de verkoopgids
 
 Een verkoopgids moet worden gekoppeld aan een verkooptype dat weer uit verschillende fasen bestaat. [Het maken van fasen][2].
 
@@ -29,7 +29,7 @@ Een verkoopgids voor verkoop aan nieuwe klanten kan bijvoorbeeld bestaan uit de 
 
 Ga naar de volgende procedures om de fasen aan een verkooptype te koppelen.
 
-## <a id="create-type" />Een verkooptype maken voor de verkoopgids
+## <a id="create-type"></a>Een verkooptype maken voor de verkoopgids
 
 Een verkoopgids moet aan een verkooptype worden gekoppeld. [Het maken van een fasetype][3].
 
@@ -39,7 +39,7 @@ Voorbeelden van verkooptypen: 'Verkoop aan nieuwe klant', 'Verkoop aan bestaande
 1. Selecteer ten minste twee fasen.
 1. Ga naar de volgende procedure om de verkoopgids te maken.
 
-## <a id="create-guide" />Een verkoopgids maken
+## <a id="create-guide"></a>Een verkoopgids maken
 
 Nadat u fasen hebt gemaakt en een verkooptype voor de verkoopgids hebt opgegeven, kunt u de verkoopgids zelf ontwerpen door vervolgactiviteiten en/of documenten voor elke fase toe te voegen.
 
@@ -65,7 +65,7 @@ Nadat u fasen hebt gemaakt en een verkooptype voor de verkoopgids hebt opgegeven
 
 De wijzigingen worden automatisch opgeslagen. De verkoopgids wordt nu weergegeven in SuperOffice CRM wanneer een verkoop wordt aangemaakt met het in stap B geselecteerde verkooptype.
 
-## <a id="add-fo-stage" />Een vervolgactiviteit toevoegen voor een fase
+## <a id="add-fo-stage"></a>Een vervolgactiviteit toevoegen voor een fase
 
 1. Selecteer het gewenste verkooptype en de gewenste verkoopfase, zoals hierboven is beschreven.
 
@@ -112,7 +112,7 @@ Agenda voor eerste gesprek:
 \- Bedrijfspresentatie
 \- Wvttk
 
-## <a id="add-doc-stage" />Een document toevoegen voor een fase
+## <a id="add-doc-stage"></a>Een document toevoegen voor een fase
 
 1. Selecteer het gewenste verkooptype en de gewenste verkoopfase, zoals hierboven is beschreven.
 

@@ -54,7 +54,7 @@ Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Proje
 | Att göra (uppgift) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
 | Händelse (samtal) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
 
-## <a id="meeting" />Möte (bokning)
+## <a id="meeting"></a>Möte (bokning)
 
 Ett möte är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
 
@@ -70,13 +70,13 @@ Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt 
 | Egen tid och resurs bokad | &#10003; | | Som ovan, plus behov av rum eller utrustning |
 | Möte med flera deltagare | &#10003; | &#10003; | Ett möte, oftast även med en resurs eller plats |
 
-## <a id="todo" />Att göra (uppgift)
+## <a id="todo"></a>Att göra (uppgift)
 
 En *uppgift* är en händelse utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
 
 Som standard hittar du uppgifter på dagbokens "att göra"-lista, där de kan bockas av när de är klara. Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
 
-## <a id="call" />Händelse (samtal)
+## <a id="call"></a>Händelse (samtal)
 
 Ett *samtal* representerar en mycket specifik handling - telefonsamtalet - och är en hybrid mellan ett möte och en att göra:
 
@@ -95,7 +95,7 @@ Standardlängden för ett möte är 1 timme och 15 minuter for et samtal, men du
     * **Längd för ny bokning**
     * **Längd för nytt samtal**
 
-## <a id="more-tab" />Fliken Mer
+## <a id="more-tab"></a>Fliken Mer
 
 På fliken **Mer** visas användardefinierade fält för händelsen. Om din organisation behöver fler fält än standardfälten för händelser, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
 

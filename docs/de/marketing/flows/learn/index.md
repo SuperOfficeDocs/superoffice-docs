@@ -33,7 +33,7 @@ Der Drag-and-Drop-Flowdesigner ist Ihr Werkzeug zum Erstellen dieser dynamischen
 
 ![Drag-and-Drop-Flowdesigner -screenshot][img2]
 
-## <a id="ex" />Anwendungsfälle
+## <a id="ex"></a>Anwendungsfälle
 
 * **Begrüßen neuer Kunden:** Senden Sie personalisierte E-Mails, Rabatte und teilen Sie Ihre Markengeschichte. Unterstützen Sie die Einführung neuer Produkte.
 * **Engagement-Kampagnen:** Halten Sie aktive Kunden mit relevanten Inhalten, Produktaktualisierungen und exklusiven Angeboten informiert und engagiert.
@@ -78,7 +78,7 @@ Wählen Sie zwischen der Listen- oder Kachelansicht im unteren rechten Bereich a
 | ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf die Menütaste ![icon][img3], um den Flow zu öffnen, zu bearbeiten oder zu löschen. |
 | ![icon][img8] | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten oder zu löschen. |
 
-## <a id="view" />Die Ansicht Flow anzeigen
+## <a id="view"></a>Die Ansicht Flow anzeigen
 
 Oben sehen Sie der Name des Flow und seinen Speicherort innerhalb der Ordnerstruktur. Sie haben die folgenden Optionen:
 
@@ -117,7 +117,7 @@ Nach Erfüllung eines Erfolgskriteriums kann die Kampagne entweder gestoppt oder
 
 Für die meisten automatisierten Flows ist es ratsam, Erfolgskriterien für eingeschriebene Teilnehmer festzulegen. Es ist jedoch nicht zwingend erforderlich, solche Kriterien zu definieren.
 
-## <a id="req" />Anforderungen
+## <a id="req"></a>Anforderungen
 
 * Marketing-Premium-Lizenz (neue Stufe)
 * Sales Essential oder Premium - um einen Verkauf zu erstellen

@@ -87,7 +87,7 @@ Innehållsförfattare kommer att se ett meddelande om de använder en ej valider
 
 * Du kan uppnå samma effekt genom att ha en uppdelning i ett flöde eller arrangera kommunikationen i två olika flöden. Om du ska dela upp eller definiera flera flöden beror på scenariot och vilket resultat du vill spåra. Ju mer två kommunikationsspår har gemensamt, desto mer effektivt är det för användaren att arrangera det inom samma flöde.
 
-## <a id="mobile" />Anpassa meddelandet för visning på mobila enheter
+## <a id="mobile"></a>Anpassa meddelandet för visning på mobila enheter
 
 Meddelandet anpassas automatiskt för visning på mindre skärmar.
 

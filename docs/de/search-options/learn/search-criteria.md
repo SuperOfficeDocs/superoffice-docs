@@ -47,7 +47,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine typische Suchanfrage 
 
 ## Feldtypen
 
-### <a id="text" />Textfeld
+### <a id="text"></a>Textfeld
 
 Wenn Sie in einem Textfeld suchen (wie einen Namen), wird nach eingegebenem Text oder eingegebenen Zahlen gesucht. Eine Liste mit den folgenden Optionen wird angezeigt:
 
@@ -55,11 +55,11 @@ Wenn Sie in einem Textfeld suchen (wie einen Namen), wird nach eingegebenem Text
 
 Wählen Sie eine dieser Optionen und geben Sie dann im Textfeld auf der rechten Seite die Suchkriterien ein.
 
-### <a id="yes-no" />Ja/Nein-Feld
+### <a id="yes-no"></a>Ja/Nein-Feld
 
 Handelt es sich bei dem gesuchten Feld um ein Ja/Nein-Feld (zum Beispiel das Feld **Mailsperre** in der Ansicht Firma), werden zwei Optionsfelder angezeigt. Sie können zwischen **Ja** und **Nein** wählen.
 
-### <a id="date" />Datumsfeld
+### <a id="date"></a>Datumsfeld
 
 Wenn das Feld, das Sie durchsuchen, ein Datumsfeld ist (zum Beispiel das Feld **Datum** im Dialogfeld **Dokument**), wird ein Listenfeld mit den folgenden Optionen angezeigt:
 
@@ -67,7 +67,7 @@ Wenn das Feld, das Sie durchsuchen, ein Datumsfeld ist (zum Beispiel das Feld **
 
 Wählen Sie die gewünschte Option. Je nach Ihrer Auswahl wird das Feld automatisch mit einem Datum oder Datumsbereich ausgefüllt, oder Sie können das gewünschte Datum auch selbst eingeben. Sie können auch ein Datum aus dem Kalender auswählen, der angezeigt wird, wenn Sie auf die Pfeilschaltfläche ![Symbol][img1] klicken.
 
-### <a id="number" />Nummernfeld
+### <a id="number"></a>Nummernfeld
 
 Wenn das gesuchte Feld einen numerischen Wert enthält (zum Beispiel das Feld **Betrag** in der Ansicht Verkauf), wird ein Listenfeld mit den folgenden Optionen angezeigt:
 
@@ -75,7 +75,7 @@ Wenn das gesuchte Feld einen numerischen Wert enthält (zum Beispiel das Feld **
 
 Wählen Sie die erforderliche Option und geben Sie im Textfeld auf der rechten Seite den gewünschten numerischen Wert ein.
 
-### <a id="list" />Listenfeld
+### <a id="list"></a>Listenfeld
 
 Enthält das durchsuchte Feld Listen (zum Beispiel das Feld **Branche** in der Ansicht Firma), wird ein Listenfeld mit den Optionen **Ist eines von** und **Ist nicht eines von** angezeigt.
 
@@ -83,13 +83,13 @@ Enthält das durchsuchte Feld Listen (zum Beispiel das Feld **Branche** in der A
 1. Wenn die Liste lang ist, können Sie Text in die Felder **Suchkriterien** eingeben, um nach Werten zu suchen.
 1. Klicken Sie außerhalb der Liste, um sie zu schließen.
 
-### <a id="status" />Statusfeld
+### <a id="status"></a>Statusfeld
 
 Handelt es sich bei dem zu durchsuchenden Feld um ein Statusfeld, müssen Sie den erforderlichen Status auswählen.
 
 Die Statusangaben werden in Einstellungen und Verwaltung erstellt und verwaltet. Statusfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und aktiviert haben.
 
-### <a id="counter" />Zählerfeld
+### <a id="counter"></a>Zählerfeld
 
 [Zähler][3] können zum Beispiel die Anzahl von Verkäufen innerhalb eines bestimmten Zeitraums oder das Datum des zuletzt abgeschlossenen Verkaufs angeben.
 

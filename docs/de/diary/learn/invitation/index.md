@@ -20,7 +20,7 @@ Sie tragen Folgeaufgaben in die Kalender anderer Mitarbeiter ein, indem Sie sie 
 
 Wenn wir die Besprechung speichern, wird eine Einladung an die eingeladene Person hinzugefügt und wird in der Agenda der Person an dem entsprechenden Datum und zur richtigen Uhrzeit angezeigt. Dies geschieht nur, wenn die eingeladene Person ebenfalls ein Kollege ist. Sie können auch Personen einladen, die zu anderen Kontakten gehören; diese werden keine eigene Agenda haben, in der die Besprechung angezeigt wird, sondern es wird stattdessen im Aktivitätsarchiv ihres Kontakts angezeigt.
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 Den Benutzern, die Sie mit einer Folgeaufgabe verknüpfen möchten, wird dies auf ihren Ansichten angezeigt. Wenn Sie die Registerkarte **Teilnehmer** für die Folgeaufgabe öffnen, sehen Sie eine Liste mit den Teilnehmern und Ressourcen, die Sie mit der Folgeaufgabe verknüpft sind. Sie können auch an den Symbolen neben den Namen erkennen, wer die Einladung akzeptiert oder abgelehnt hat und welche Ressourcen reserviert sind:
 

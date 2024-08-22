@@ -15,7 +15,7 @@ pilot: yes
 
 # Kör, pausa och avsluta flöde
 
-## <a id="status" />Flödestatus
+## <a id="status"></a>Flödestatus
 
 * **Inte igång:** Representerar ett nytt flöde som inte har startats än (eller ett avslutat flöde). Triggers är inte aktiverade.
 
@@ -70,7 +70,7 @@ För att avsluta flödet:
 
 Om flödet startas igen efter att ha avslutats, går bara nya deltagare igenom flödet, gamla deltagare behåller statusen Avbruten.
 
-## <a id="delete" />Ta bort flöde
+## <a id="delete"></a>Ta bort flöde
 
 1. Pausa flödet.
 2. Välj **Uppgift** > **Ta bort flöde**.

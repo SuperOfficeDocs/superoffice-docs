@@ -27,7 +27,7 @@ U kunt vooruit en achteruit door de projecten bladeren door te klikken op de kno
 
 Wanneer u een projecttype hebt geselecteerd waarvoor een [projectgids][1] is gedefinieerd, wordt het tabblad **Projectgids** weergegeven op het sectietabblad.
 
-## <a id="more-tab" />Het tabblad Meer
+## <a id="more-tab"></a>Het tabblad Meer
 
 ![Het tabblad Meer (Project) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Drie van de door de gebruikers gedefinieerde velden op het tabblad **Meer**kunne
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />Het tabblad Gebeurtenis
+## <a id="event-tab"></a>Het tabblad Gebeurtenis
 
 Voor deze functie is een afzonderlijke licentie vereist.
 

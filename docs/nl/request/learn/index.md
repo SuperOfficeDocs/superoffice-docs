@@ -26,7 +26,7 @@ Elke vraag en query kan worden gedefinieerd als een verzoek. Deze vragen variër
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Waar heb ik toegang tot verzoeken?
+## <a id="open"></a>Waar heb ik toegang tot verzoeken?
 
 * Archieven in alle hoofdkaarten zoals Bedrijf, Verkoop, Project
 * [Vooraf ge lijsten][11]
@@ -36,7 +36,7 @@ Elke vraag en query kan worden gedefinieerd als een verzoek. Deze vragen variër
 
 Wanneer u dubbelklikt op een rij in het [zoekresultatenscherm][13], wordt het scherm Verzoek geopend.
 
-### <a id="customers" />Personen
+### <a id="customers"></a>Personen
 
 Verzoeken kunnen aan [personen][2] worden gekoppeld, die op hun beurt weer tot een [bedrijf][3] kunnen behoren. Dit betekent dat verzoeken niet rechtstreeks aan bedrijven kunnen worden gekoppeld maar alleen indirect via personen. Wanneer nieuwe e-mailberichten worden geïmporteerd en opgeslagen als verzoeken, wordt het verzoek automatisch gekoppeld aan de juiste persoon via het e-mailadres. Wanneer u een verzoek bekijkt, kunt u gemakkelijk nagaan wie de persoon is. Wanneer u op de naam van de persoon klikt, kunt u zien welke andere verzoeken voor die persoon zijn geregistreerd. Op die manier krijgt u een snel overzicht van eerdere communicatie met dezelfde persoon.
 
@@ -48,7 +48,7 @@ Verzoeken kunnen aan [personen][2] worden gekoppeld, die op hun beurt weer tot e
 * [Verzoeken zoeken][10]
 * [7 tips om de beste klantenservice te bieden met SuperOffice Service][20] - blog
 
-## <a id="request-mgt" />Verzoekbeheer
+## <a id="request-mgt"></a>Verzoekbeheer
 
 Binnenkomende verzoeken kunnen via vele kanalen binnenkomen en er is meer dan één manier om ze te registreren en te beantwoorden. De manier waarop verzoekafhandeling plaatsvindt, verschilt per verzoek.
 

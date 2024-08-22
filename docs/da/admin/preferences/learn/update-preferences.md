@@ -47,7 +47,7 @@ language: da
 > [!NOTE]
 > Præferencer med aktive individuelle indstillinger vises med fed skrift på præferencelisten.
 
-## <a id="edit" />Redigering af præferenceindstilling
+## <a id="edit"></a>Redigering af præferenceindstilling
 
 1. Gå til den præference, du vil opdatere.
 
@@ -60,7 +60,7 @@ language: da
     > [!NOTE]
     > Hvis du ikke vil gemme ændringerne alligevel, kan du klikke på **Afbryd**.
 
-## <a id="personal" />Tillad brugerindstillinger
+## <a id="personal"></a>Tillad brugerindstillinger
 
 1. Gå til den indstilling, du vil gøre tilgængelig, i menuen **Personlige indstillinger**.
 

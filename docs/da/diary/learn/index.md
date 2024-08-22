@@ -22,13 +22,13 @@ Dagbogen er et nyttigt hjælpemiddel til at planlægge og udføre forskellige fo
 
 Regelmæssig brug af dagbogen, hvor aktiviteter knyttes til en kontakt eller et firma, sikrer, at du og dit team nemt kan holde styr på tingene, fremme smidigt samarbejde og øget produktivitet.
 
-## <a id="open" />Se dagbog
+## <a id="open"></a>Se dagbog
 
 For at åbne din dagbog, klik på ordet **Dagbog** i navigatoren, og vælg en tidsperiode på den liste, der vises, eller klik på **I dag** eller **Denne uge** for at gå til den aktuelle dag eller uge. Dit navn vises øverst til højre på skærmen Dagbog. Hvis to eller flere opfølgninger overlapper, kan du se en del af hver opfølgning.
 
 Du kan få adgang til en anden brugers dagbog eller en tilgængelig ressource for at tjekke deres tilgængelighed eller oprette opfølgningsopgaver direkte. For at se flere dagbøger samtidigt, opret en [gruppevisning][2].
 
-## <a id="nav" />Navigering i skærmbilledet Dagbog
+## <a id="nav"></a>Navigering i skærmbilledet Dagbog
 
 Dagbogen består af [fire faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt**. Du kan nemt skifte mellem disse oversigter ved at klikke på fanerne øverst i skærmbilledet Dagbog. Den aktuelle dag, uge eller måned vises øverst på siden, afhængigt af hvilken oversigt du befinder dig i.
 

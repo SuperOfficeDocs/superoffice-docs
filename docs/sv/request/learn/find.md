@@ -25,7 +25,7 @@ Gör något av följande:
 * Använd [navigatorns][12] sökning på Ärenden.
 * Använd [Sök][11] i det övre fältet, välj en av de typiska sökningarna eller lägg till önskade kriterier.
 
-## <a id="list" />Använda listor
+## <a id="list"></a>Använda listor
 
 Det enklaste sättet att söka efter ärenden är att använda sökfältet som finns i menyn för den första fliken **Sök ärenden** i fönstret Ärenden.
 
@@ -64,7 +64,7 @@ Alla dessa listor är i praktiken fördefinierade sökningar, och du kan anpassa
 >
 > Om du vill rensa alla dina kriterier, väljer du **Ta bort allt**.
 
-### <a id="result" />Sökresultat
+### <a id="result"></a>Sökresultat
 
 Resultatet innehåller en lista över ärenden som motsvarar de kriterier som har angetts ovan. Här kan du göra följande:
 
@@ -83,7 +83,7 @@ I listans sidfot kan du klicka på knappen ![ikon][img1] **Uppgift** för att f�
 
 * **Massuppdatering**: Om du väljer en eller flera ärenden i listan kan du klicka på detta alternativ och välja en åtgärd som du vill utföra på alla valda ärenden samtidigt. Du kan t.ex. välja att [lägga till samma meddelande i flera ärenden][8], [vidarebefordra flera ärenden][7] eller ta bort flera ärenden i en enda åtgärd.
 
-### <a id="preview" />Förhandsgranskning
+### <a id="preview"></a>Förhandsgranskning
 
 På denna del av skärmen visas innehållet i det ärende som är markerat under **Sökresultat**. Du har samma alternativ som när du [behandlar ärenden][6].
 

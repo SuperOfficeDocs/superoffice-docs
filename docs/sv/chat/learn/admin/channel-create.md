@@ -87,7 +87,7 @@ På fliken **Agent** kan du ge användarna tillgång till en chattkanal och ange
     * **Chef**: Agenten får chefsvarningar. Denna behörighet kan användas för exempelvis teamledare.
 4. Upprepa steg 1-3 för varje agent du vill lägga till.
 
-## <a id="chatbot" />ChatBot
+## <a id="chatbot"></a>ChatBot
 
 Under fliken **ChatBot** kan du aktivera chatboten. När en chatt initieras i en kanal där en chattbot är aktiv triggas skriptet "on-new-chat-message" och meddelandet skickas till skriptet för bearbetning. Skriptet skickar meddelandet för bearbetning och tar emot meddelandet, publicerar resultaten och markerar eventuellt fför överlämning till en agent.
 

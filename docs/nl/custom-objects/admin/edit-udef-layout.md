@@ -75,7 +75,7 @@ De TAB-volgorde wordt weergeven in de lijst **Naam** links in het scherm. Deze v
 
 1. Klik op **Publiceren** als u de wijzigingen beschikbaar wilt maken voor SuperOffice CRM-gebruikers.
 
-## <a id="page-1" />Een door de gebruiker gedefinieerd veld op de eerste pagina weergeven
+## <a id="page-1"></a>Een door de gebruiker gedefinieerd veld op de eerste pagina weergeven
 
 1. Schakel **Verschillende velden voor pagina 1 toestaan voor verschillende gebruikersgroepen** onder in het tabblad in om verschillende velden voor pagina 1 voor verschillende gebruikersgroepen op te geven. Als dit niet is ingeschakeld, worden de velden die u opgeeft gebruikt voor alle gebruikersgroepen.
 

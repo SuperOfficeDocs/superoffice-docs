@@ -52,7 +52,7 @@ Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dag
 | Skal udføres (opgave) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
 | Opkald (opfølgning) | &#10003; | | &#10003; | | Aktiviteter-sektionen | Telefonopkald | Indgående opkald fra kunden |
 
-## <a id="meeting" />Møde (aftale)
+## <a id="meeting"></a>Møde (aftale)
 
 Møder er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
 
@@ -68,13 +68,13 @@ Forfaldne og fuldførte møder vil blive vist i **Aktiviteter**-fanen ud over i 
 | Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
 | Møde med flere deltakere | &#10003; | &#10003; | Et møde, vanligvis også med en ressurs eller sted |
 
-## <a id="todo" />Skal udføres (opgave)
+## <a id="todo"></a>Skal udføres (opgave)
 
 En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Skal udføres bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
 
 Som standard finder du skal udføres på dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er udført. Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
 
-## <a id="call" />Opfølging (samtale)
+## <a id="call"></a>Opfølging (samtale)
 
 En *samtale* repræsenterer en meget specifik handling - telefonopkaldet - og er en hybrid mellem et møde og en to-do:
 
@@ -93,7 +93,7 @@ Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at �
     * **Varighed for ny aftale**
     * **Varighed for ny samtale**
 
-## <a id="more-tab" />Fanen Mere
+## <a id="more-tab"></a>Fanen Mere
 
 Fanen **Mere** viser brugerdefinerede felter for opfølgningen. Hvis din organisation har brug for flere felter end standardfelterne, kan du under Indstillinger og vedligeholdelse angive, at disse felter skal indsættes her.
 

@@ -23,7 +23,7 @@ Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapp
 > [!TIP]
 > Du kan gå direkt till en specifik flik i fönstret **Rapporter** genom att klicka på ordet **Rapporter** ![ikon][img8] bredvid knappen **Rapporter** och sedan välja i listan.
 
-## <a id="types" />Rapporttyper
+## <a id="types"></a>Rapporttyper
 
 | Ikon | Namn | Beskrivning |
 |---|---|---|

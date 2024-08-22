@@ -71,13 +71,13 @@ Du kan lägga till kontakter i SuperOffice CRM på många olika sätt:
 
 12. Gå till detaljkortet **Relationer**. Här kan du [lägga till relationer][8] mellan den här kontakten och en annan kontakt eller ett annat företag.
 
-## <a id="more-tab" />Fliken Mer (fönstret Kontakt)
+## <a id="more-tab"></a>Fliken Mer (fönstret Kontakt)
 
 Fliken **Mer** innehåller användardefinierade fält för kontakter. Om ditt företag till exempel säljer IT-produkter och behöver fält för varje kontakts maskinvara och programvara kan du ange att dessa fält ska läggas in på den här fliken under Inställningar och underhåll.
 
 Andra exempel: Anställningsår, ERP, användartyp, CXM-information.
 
-## <a id="interests-tab" />Fliken Intressen (fönstret Kontakt)
+## <a id="interests-tab"></a>Fliken Intressen (fönstret Kontakt)
 
 På fliken **Intressen** finns följande alternativ:
 

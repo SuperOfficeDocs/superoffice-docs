@@ -15,7 +15,7 @@ language: de
 
 **Personen** ist eine der Bereichsregisterkarten unten in der Ansicht Firma. Sie enthält Informationen über [Mitarbeiter der aktiven Firma][1]. Doppelklicken Sie auf einen Namen in der Liste, um die Person in der Ansicht Person aufzurufen
 
-## <a id="columns" />Spalten auf der Bereichsregisterkarte 'Personen'
+## <a id="columns"></a>Spalten auf der Bereichsregisterkarte 'Personen'
 
 Die Bereichsregisterkarte **Personen** besteht aus folgenden Spalten:
 

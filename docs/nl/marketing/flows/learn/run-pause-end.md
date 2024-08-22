@@ -15,7 +15,7 @@ pilot: yes
 
 # Flow uitvoeren, pauzeren en beëindigen
 
-## <a id="status" />Flow status
+## <a id="status"></a>Flow status
 
 * **Wordt niet uitgevoerd:** Vertegenwoordigt een nieuwe flow die nog niet is gestart (of een beëindigde flow). Triggers zijn niet geactiveerd.
 
@@ -70,7 +70,7 @@ Om de flow te beëindigen:
 
 Als de flow opnieuw wordt gestart na beëindiging, zullen alleen nieuwe deelnemers door de flow gaan, oude deelnemers blijven geannuleerd.
 
-## <a id="delete" />Flow verwijderen
+## <a id="delete"></a>Flow verwijderen
 
 1. Pauzeer de flow.
 1. Selecteer **Taak** > **Flow verwijderen**.

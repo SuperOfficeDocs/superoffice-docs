@@ -23,7 +23,7 @@ Du kommer til **Rapporter**-bildet ved å klikke på ![ikon][img7] **Rapporter**
 > [!TIP]
 > Hvis du vil gå direkte til en bestemt fane i **Rapporter**-bildet, kan du klikke på teksten **Rapporter** ![ikon][img8] ved siden av **Rapporter**-knappen, og deretter velge fra listen.
 
-## <a id="types" />Rapporttyper
+## <a id="types"></a>Rapporttyper
 
 | Ikon | Navn | Beskrivelse |
 |---|---|---|

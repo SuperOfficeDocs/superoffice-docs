@@ -35,7 +35,7 @@ Användargränssnittet har fem huvudelement:
   * [Lista över urvalsmedlemmar][19]
   * [Aktiviteter][13]
 
-## <a id="global-buttons" />Globala knappar
+## <a id="global-buttons"></a>Globala knappar
 
 De globala knapparna visas i hela användargränssnittet. Vissa finns på huvudskärmen, medan andra finns i de olika dialogrutorna.
 

@@ -111,7 +111,7 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 
 ## Feilsøking
 
-### <a id="forgot-password" />Har du glemt passordet?
+### <a id="forgot-password"></a>Har du glemt passordet?
 
 Folk glemmer ofte legitimasjonen sin, spesielt passordet. Derfor kan det være nyttig å vite hvordan du endrer eller tilbakestiller SuperOffice CRM-passordet. Følg instruksjonene for din versjon av SuperOffice for å endre passordet.
 

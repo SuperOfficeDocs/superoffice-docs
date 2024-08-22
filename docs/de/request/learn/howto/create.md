@@ -70,7 +70,7 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen, alternativ können S
 
 1. Klicken Sie auf **Senden**, um die Anfrage zu senden und zu speichern.
 
-## <a id="message" />Mitteilung
+## <a id="message"></a>Mitteilung
 
 > [!NOTE]
 > Wenn Sie die Mitteilung an jemanden senden möchten, müssen Sie Empfänger in das Feld **An** unter den Registerkarten eingeben. Wenn die Mitteilung über das SuperOffice Kundenzentrum für die Person verfügbar sein soll, müssen Sie die Zugriffsstufe (für die Meldung) auf **Extern** einstellen.
@@ -91,7 +91,7 @@ Der untere Bereich enthält folgende Optionen:
 > [!NOTE]
 > Die Standardanfragesignatur wird zur Mitteilung hinzugefügt. Sie können die Signatur direkt in der Mitteilung bearbeiten oder Ihre Standard-[E-Mail-Signatur][1] bearbeiten.
 
-## <a id="details" />Details
+## <a id="details"></a>Details
 
 Die Registerkarte **Details** enthält weitere Details zur Anfrage. Hier finden Sie Zusatzfelder und Informationen, wann zum Beispiel die Anfrage erstellt, zuletzt geändert, geschlossen oder beantwortet wurde, wann sie vom Eigentümer oder von der Person gelesen wurde. Diese Informationen werden während der Lebensdauer der Anfrage automatisch aktualisiert, dennoch gibt es einige Felder, die bei der Erstellung der Anfrage bearbeitet werden können:
 

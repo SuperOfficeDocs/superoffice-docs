@@ -87,7 +87,7 @@ Rutor med streckade linjer i layouten visar var du kan placera ett fält:
 
 Nedan hittar du mer detaljerade beskrivningar av de olika avsnitten och funktionerna.
 
-## <a id="fields" />Fält
+## <a id="fields"></a>Fält
 
 I avsnittet **Fält** hittar du alla tillgängliga datafält för den valda skärmlayouten. Använd filterfunktionen för att hitta specifika fält.
 
@@ -106,13 +106,13 @@ I avsnittet **Fält** hittar du alla tillgängliga datafält för den valda skä
 
 I avsnittet **Objekt** kan du lägga till olika icke-data-objekt såsom etiketter, avdelare, länkar och knappar.
 
-## <a id="settings"/>Inställningar
+## <a id="settings"></a>Inställningar
 
 Gör fälten mer synliga genom att ändra fonten till fetstil och stor text. Gör plats för fler fält genom att använda en mindre font. Spara skärmyta genom att dölja etiketter.
 
 Klicka på ett fält eller ett objekt i layouten för att redigera dess inställningar. Den tillgängliga inställningen kommer att variera beroende på typ av fält eller objekt.
 
-## <a id="columns"/>Fliklayout
+## <a id="columns"></a>Fliklayout
 
 Som standard har en flik 2 kolumner, men du kan använda allt från 1-4 kolumner beroende på dina behov. Användare med breda skärmar kan föredra fler kolumner för att visa och sortera mer data.
 
@@ -123,7 +123,7 @@ Som standard har en flik 2 kolumner, men du kan använda allt från 1-4 kolumner
 * Vissa flikar som **ERP** och **Anteckning** har inte någon kolumnkonfiguration, eftersom de har specifika funktioner.
 * Om en användare inte har en skärmstorlek som gör att alla kolumner ryms, staplas de ovanpå varandra.
 
-## <a id="tabs" />Flikar
+## <a id="tabs"></a>Flikar
 
 Lägg till fler flika för ytterligare fält, eller ta bort irrelevanta flikar.
 
@@ -148,7 +148,7 @@ Lägg till fler flika för ytterligare fält, eller ta bort irrelevanta flikar.
 * Du kan inte ta bort flik som innehåller obligatoriska fält. Obligatoriska fält måste först flyttas till en annan flik.
 * Om bara en flik, återstår kan du inte ta bort den.
 
-## <a id="undo-changes" />Ångra ändringar
+## <a id="undo-changes"></a>Ångra ändringar
 
 Om du behöver återgå till en tidigare version av skärmen, kommer du åt följande alternativ från **Uppgift**-knappen:
 
