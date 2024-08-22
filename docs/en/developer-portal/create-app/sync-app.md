@@ -1,22 +1,20 @@
 ---
-title: Register an ERP and quote sync app
 uid: dp-register-sync-app
+title: Register an ERP and quote sync app
 description: Describes how to register a new ERP and quote sync app in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, app, ERP
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version:
-version_devportal: 1.16
 envir: cloud
-client:
 ---
 
 # Register an ERP and quote sync app
 
 ## About this template
 
-This template creates an app configuration for a standard app and asks for the ERP Sync and Quote endpoint URLs. These may also be added at a later time under **Advanced - ERP** in the application configuration.
+This template creates an app configuration for a standard app and asks for the ERP Sync and Quote endpoint URLs. These may also be added at a later time.
 
 * Enables the [WebApi][1] and [Services88][6] API endpoints
 * Enable access to the [SystemToken claim][7]

@@ -1,12 +1,12 @@
 ---
-title: Error reporting emails
 uid: dp-error-email
+title: Error reporting emails
 description: How to subscribe to error emails in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 04.27.2023
 keywords: Developer Portal, app, notification, error, tenant status
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version_devportal: 1.11
 envir: cloud
 client:
 ---
@@ -24,7 +24,7 @@ Watch the walk-through on YouTube:
 
 For each endpoint you have configured SuperOffice to send data to, you can also subscribe to error emails.
 
-To turn off/on error emails to the technical contact for an endpoint, update the advanced configuration of the application.
+To turn off/on error emails to the technical contact for an endpoint, update the integration settings configuration of the application.
 
 * [ERP sync][5]
 * [Quote connector][6]

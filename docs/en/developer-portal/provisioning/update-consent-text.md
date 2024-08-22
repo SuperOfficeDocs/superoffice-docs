@@ -1,12 +1,12 @@
 ---
-title: Update text for consent dialog
 uid: dp-update-consent-text
+title: Update text for consent dialog
 description: How to update the text shown in the consent dialog for an app in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 04.26.2023
 keywords: Developer Portal, app, consent
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version_devportal: 1.10
 envir: cloud
 client:
 ---
@@ -22,15 +22,13 @@ The description shown in the concent dialog when the admin is prompted to approv
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
 
-3. Toggle **Advanced** and select **Authentication**.
-
-4. Scroll down and update the text in the **Authorize** box.
+3. . On the **Authentication** tab, scroll down and update the text in the **Authorize** box.
 
     ![Edit Authorize field -screenshot][img1]
 
-5. Click **Save Settings**.
+4. Click **Save Settings**.
 
-6. Request to publish the new configuration.
+5. Request to publish the new configuration.
 <!-- markdownlint-restore -->
 
 ## Read more

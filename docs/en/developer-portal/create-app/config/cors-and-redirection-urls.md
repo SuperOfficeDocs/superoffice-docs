@@ -1,14 +1,13 @@
 ---
-title: CORS and redirection URLs
 uid: dp-add-update-redirect
+title: CORS and redirection URLs
 description: CORS and redirection URLs in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, app, client ID
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version_devportal: 1.16
 envir: cloud
-client:
 ---
 
 # CORS and redirection URLs
@@ -44,13 +43,10 @@ Types of URLs:
 <!-- markdownlint-disable MD029 -->
 [!include[Go to the app page](../../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
-2. Select **Configuration**.
+2. Select **Configuration** > **Authentication**.
 
     ![Allowed redirects -screenshot][img1]
 
-3. If not shown on the **Configuration** start page, toggle **Advanced** and select **Authentication**.
-
-    ![Application configuration: authentication URLs -screenshot][img2]
 <!-- markdownlint-restore -->
 
 ## To add or update redirection endpoints
@@ -70,4 +66,3 @@ Types of URLs:
 
 <!-- Referenced images -->
 [img1]: media/allowed-redirects.png
-[img2]: media/app-authentication.png

@@ -1,14 +1,13 @@
 ---
-title: Versioning
 uid: dp-versioning
+title: Versioning
 description: Introduction to versioned information and configuration in the SuperOffice Online Developer Portal and how it relates to our different environments (SOD, Stage, Production).
-author: Bergfrid Dias
-date: 04.26.2023
 keywords: developer, Developer Portal, apps, app-store
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: concept
-version_devportal: 1.10
 envir: cloud
-client:
 ---
 
 # Versioning
@@ -71,17 +70,6 @@ To make changes:
 > [!NOTE]
 > Some settings can be configured per environment. A single configuration will then hold multiple values of that setting. For example, if you have environment-specific certificates you handle this within one configuration and request it published to Stage and Production. Don't confuse settings per environment with versions per environment.
 
-## Change label of version
-
-You can change the label of a version to make it more descriptive.
-
-1. Locate the version you want to update either from the **Overview**, **App Store information**, or **Configuration** section.
-2. Select the **Versions** section.
-
-    ![Versioning page -screenshot][img3]
-
-3. Enter a new label and click **Save Settings**.
-
 ## Create new version
 
 1. Locate the version you want to update either from the **Overview**, **App Store information**, or **Configuration** section.
@@ -120,4 +108,3 @@ You can for example compare to variants of the same version or compare the curre
 <!-- Referenced images -->
 [img1]: media/app-versions-2.png
 [img2]: media/more-versions.png
-[img3]: ../media/versioning-page.png

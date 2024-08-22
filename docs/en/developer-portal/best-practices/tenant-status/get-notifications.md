@@ -1,10 +1,11 @@
 ---
-title: Tenant status webhook
 uid: notify-customer-state-change
+title: Tenant status webhook
 description: Get notifications when tenant status changes
-author: Eivind Fasting
-date: 05.08.2024
 keywords: state, tenant
+author: Eivind Fasting, Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
 envir: cloud
 client: online
@@ -16,17 +17,15 @@ client: online
 
     `https://www.awesomeapp.com/NotifyCustomerStateChange`
 
-2. In the Developer Portal, go to your app page.
+1. In the Developer Portal, go to your app page.
 
-3. Select **Configuration**.
+1. Select **Configuration**.
 
-4. Turn on **Advanced**.
-
-5. Select **Notifications**.
+1. Select **Integration settings**.
 
     ![Configure notifications -screenshot][img1]
 
-6. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant changes status.
+1. Scroll down to the **Customer state change** section and enter the URL of your endpoint that SuperOffice should push notifications to when a tenant changes status.
 
     `https://www.awesomeapp.com/NotifyCustomerStateChange`
 
@@ -34,11 +33,11 @@ client: online
 
     ![Configure notifications per environment -screenshot][img2]
 
-7. [!include[Has integration?](../../includes/has-integration.md)]
+1. [!include[Has integration?](../../includes/has-integration.md)]
 
-8. Click **Save Settings** or **OK**.
+1. Click **Save Settings** or **OK**.
 
-9. [Request to publish the new configuration.][1]
+1. [Request to publish the new configuration.][1]
 
 You are now set to parse notifications when you get them.
 
@@ -68,7 +67,7 @@ The JSON payload contains the following information:
 }
 ```
 
-### CustomerStateChangeNotificationType Enumeration
+### CustomerStateChangeNotificationType enumeration
 
 [!code-csharp[CS](includes/CustomerStateChangeNotificationType.cs)]
 
@@ -76,7 +75,7 @@ The JSON payload contains the following information:
 
 [!code-csharp[CS](includes/NotificationMessage.cs)]
 
-#### API Controller and JWT Validation
+#### API Controller and JWT validation
 
 [!code-csharp[CS](includes/ApiController.cs)]
 
@@ -86,7 +85,7 @@ The **change type** is a number value that corresponds to the operation performe
 
 | Type | Name | Description |
 |:----:|------|-------------|
-| 0 | Upgrade | Occurs when a tenant installation is upgraded to a new version of SuperOffice |
+| 0 | Upgrade | Occurs when a tenant installation is upgraded to a new version of SuperOffice. |
 | 1 | BackupRestored | Occurs when a tenant installation is restored from a backup. |
 | 2 | Suspend | Occurs when a tenant installation is placed in suspension. |
 | 3 | Resume | Occurs when a tenant installation is resumed from another operation. |
@@ -96,5 +95,5 @@ The **change type** is a number value that corresponds to the operation performe
 [1]: ../../create-app/request-to-publish.md
 
 <!-- Referenced images -->
-[img1]: ../media/notifications.png
+[img1]: ../../media/integration-settings.png
 [img2]: ../media/endpoint-per-envir.png

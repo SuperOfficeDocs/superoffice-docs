@@ -4,7 +4,7 @@ uid: dp-get-client-secret
 description: How to create a new client secret in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 date: 04.27.2023
-keywords: Developer Portal, app, client secret
+keywords: Developer Portal, app, client secret, application secret
 topic: howto
 version_devportal: 1.11
 envir: cloud

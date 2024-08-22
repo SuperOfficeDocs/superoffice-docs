@@ -1,15 +1,13 @@
 ---
-title: Register a native app
 uid: dp-register-native-app
+title: Register a native app
 description: Registering a new native app in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, app, OAuth2 Native app flow, PKCE
+author: Bergfrid Dias
+date: 08.21.2024
+version_devportal: 1.25
 topic: howto
-version:
-version_devportal: 1.16
 envir: cloud
-client:
 ---
 # Register a native app
 
@@ -19,7 +17,7 @@ This template creates an application configuration that uses [OAuth2 Native app 
 
 * Adds `^http://127.0.0.1\:\d{4,10}$` as an allowed redirect URL. You may add more.
 * Enables the [WebApi][6] API endpoint and add access to the [Webhook agent][4].
-* Sets **Is native or mobile** in the advanced authentication configuration.
+* Sets **Is native or mobile** in the authentication configuration.
 
 [!include[Required license](includes/cust-app-req-license.md)]
 
