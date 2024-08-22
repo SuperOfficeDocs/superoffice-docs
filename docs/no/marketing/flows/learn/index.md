@@ -4,8 +4,8 @@ title: Markedsføringsautomatisering - flyter
 description: Introduksjon til markedsføringsautomatisering og flyter.
 keywords: flyt, arkedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: concept
 language: no
 audience: person
@@ -90,12 +90,12 @@ Velg **visningsmodus** i nedre høyre hjørne.
 **Vis flyt**-skjermen består av følgende faner:
 
 * **Oversikt:** Gir grunnleggende informasjon om flyten og forskjellige statistikker.
-* **Flyt:** Tilbyr en skrivebeskyttet visning av flyten, slik at du kan få en oversikt uten å pause og redigere flyten.
+* **Flyt:** Tilbyr en skrivebeskyttet visning av flyten, slik at du kan få en oversikt uten å pause og redigere flyten. Klikk på et trinn for å se detaljene.
 * **Rapporter:** Viser diagrammer med statistikk for flyten, brukt til å overvåke ytelsen.
 * **Deltakere:** Viser en liste av alle deltakere i flyten, med deres e-postadresse, firmaaffiliasjon, registreringsdato, nåværende status, nåværende trinn, siste sending mottatt, dato for siste sending, og status for siste sending.
 * **Flytinnhold:** Inkluderer flytutsendelser og skjemaer brukt av flyten.
 
-## <a id="success" >Suksesskriterier
+## <a id="success"></a>Suksesskriterier
 
 Suksesskriterier etablerer parametrene for å bestemme suksessen til en flyt. For eksempel:
 

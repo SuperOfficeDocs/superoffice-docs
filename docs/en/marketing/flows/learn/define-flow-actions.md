@@ -4,8 +4,8 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: en
 audience: person
@@ -165,6 +165,17 @@ Run custom business logic by triggering a CRM script as part of the flow.
 
 > [!NOTE]
 > The participant will proceed to the next step immediately after the script is triggered, without waiting for the result.
+
+### Notify by email
+
+Send a notification email to a specific person as part of the flow.
+
+1. Drag the **Notify by email** box from the step menu and drop it into an available slot in the flowchart.
+1. Specify the recipient (**To:**).
+1. Enter the **subject** of the email.
+1. Enter the message you wish to send.
+
+Contact variables (merge tags) are available.
 
 ## Flow action vs. form action
 

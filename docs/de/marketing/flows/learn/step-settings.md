@@ -4,8 +4,8 @@ title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: de
 audience: person
@@ -78,6 +78,16 @@ Teilnehmer, die den Abschlussschritt erreichen, haben das Ende des Flows erreich
 |---|-|
 | Zu einem anderen Flow hinzufügen, wenn ein Erfolgskriterium erfüllt ist | Mit Erfolg abgeschlossen |
 | Zu einem anderen Flow hinzufügen, wenn kein Erfolgskriterium erfüllt ist | Abgeschlossen |
+
+## Per E-Mail benachrichtigen
+
+| Einstellung | Beschreibung |
+|---|---|
+| An | Der Empfänger - "unser Kontakt", "unser Servicekontakt" oder eine spezifische E-Mail-Adresse. |
+| Betreff | Text für das Betreff-Feld der E-Mail. |
+| Text | Geben Sie die Nachricht ein. |
+
+Sie können den Betreff mit Kontaktvariablen personalisieren (gleich wie Zusammenführungstags innerhalb des E-Mail-Editors).
 
 ## E-Mail senden
 

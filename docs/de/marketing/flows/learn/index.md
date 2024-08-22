@@ -4,8 +4,8 @@ title: Marketing-Automatisierung - Flows
 description: Einführung in die Marketing-Automatisierung und Flows von SuperOffice.
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: de
 audience: person
@@ -90,12 +90,12 @@ Oben sehen Sie der Name des Flow und seinen Speicherort innerhalb der Ordnerstru
 Der Bildschirm **Flow anzeigen** besteht aus den folgenden Registerkarten:
 
 * **Zusammenfassung:** Bietet grundlegende Informationen zum Flow und verschiedene Statistiken.
-* **Flow:** Bietet eine nur-Lese-Ansicht des Flow , sodass Benutzer einen Überblick erhalten können, ohne den Flow anzuhalten und zu bearbeiten.
+* **Flow:** Bietet eine nur-Lese-Ansicht des Flow , sodass Benutzer einen Überblick erhalten können, ohne den Flow anzuhalten und zu bearbeiten. Klicken Sie auf einen Schritt, um die Details anzuzeigen.
 * **Berichte:** Zeigt Diagramme mit Statistiken für den Flow an, die zur Überwachung seiner Leistung verwendet werden.
 * **Teilnehmer:** Präsentiert eine Liste aller Teilnehmer im Flow, zeigt ihre E-Mail-Adresse, Firmenzugehörigkeit, Einschreibedatum, aktuellen Status, aktuellen Schritt, zuletzt empfangene Sendung, Datum der letzten Sendung und Status der letzten Sendung an.
 * **Inhalt des Flows:** Enthält E-Mail-Kampagnen und Formulare, die vom Flow verwendet werden.
 
-## <a id="success" >Erfolgskriterien
+## <a id="success"></a>Erfolgskriterien
 
 Erfolgskriterien legen die Parameter für die Bestimmung des Erfolgs eines Flow fest. Zum Beispiel:
 

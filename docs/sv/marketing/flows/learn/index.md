@@ -4,8 +4,8 @@ title: Marknadsföringsautomatisering - flöden
 description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: sv
 audience: person
@@ -90,12 +90,12 @@ Välj mellan lista eller tiles **vy-läge** i det nedre högra hörnet.
 Skärmen **Flöde** består av följande flikar:
 
 * **Sammanfattning:** Ger grundläggande information om flödet och olika statistik.
-* **Flöde:** Erbjuder en skrivskyddad vy av flödet, vilket gör det möjligt för användare att få en översikt utan att pausa och redigera flödet.
+* **Flöde:** Erbjuder en skrivskyddad vy av flödet, vilket gör det möjligt för användare att få en översikt utan att pausa och redigera flödet. Klicka på ett steg för att visa detaljerna.
 * **Rapporter:** Visar diagram med statistik för flödet, som används för att övervaka dess prestanda.
 * **Deltagare:** Visar en lista över alla deltagare inom flödet, visar deras e-postadress, företagsanslutning, registreringsdatum, nuvarande status, nuvarande steg, senaste mottagna utskick, datum för senaste utskick och status för senaste utskick.
 * **Flödets innehåll:** Inkluderar flödesutskick och formulär som används av flödet.
 
-## <a id="success" >Framgångskriterier
+## <a id="success"></a>Framgångskriterier
 
 Framgångskriterier fastställer parametrarna för att bestämma framgången för ett flöde. Till exempel:
 

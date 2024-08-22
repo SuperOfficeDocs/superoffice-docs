@@ -4,8 +4,8 @@ title: Marketing automatisering - flows
 description: Inleiding tot SuperOffice marketingautomatisering en flows.
 keywords: Marketing, flow, automatisering, klantsegment, klantreis, segment, campaign, succespercentage, succescriteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
@@ -90,12 +90,12 @@ Bovenaan zie je de naam van de flow en de locatie ervan binnen de mapstructuur. 
 Het scherm **Flow weergeven** bestaat uit de volgende tabbladen:
 
 * **Samenvatting:** Biedt basisinformatie over de flow en verschillende statistieken.
-* **Flow:** Biedt een alleen-lezen weergave van de flow, waardoor gebruikers een overzicht kunnen krijgen zonder de flow te onderbreken en te bewerken.
+* **Flow:** Biedt een alleen-lezen weergave van de flow, waardoor gebruikers een overzicht kunnen krijgen zonder de flow te onderbreken en te bewerken. Klik op een stap om de details te bekijken.
 * **Rapporten:** Toont grafieken met statistieken voor de flow, gebruikt om de prestaties ervan te monitoren.
 * **Deelnemers:** Geeft een lijst van alle deelnemers binnen de flow weer, met hun e-mailadres, bedrijfsaffiliatie, inschrijfdatum, huidige status, huidige stap, laatst ontvangen verzending, datum van de laatst ontvangen verzending, en status van de laatst ontvangen verzending.
 * **Inhoud flow:** Bevat flow-mailings en formulieren die door de flow worden gebruikt.
 
-## <a id="success" >Succescriteria
+## <a id="success"></a>Succescriteria
 
 Succescriteria stellen de parameters vast voor het bepalen van het succes van een flow. Bijvoorbeeld:
 

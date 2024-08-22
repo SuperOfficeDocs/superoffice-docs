@@ -4,8 +4,8 @@ title: Definieer flowacties
 description: Definieer flowacties
 keywords: Marketing, flow, flowactie, script uitvoeren
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: nl
 audience: person
@@ -181,6 +181,17 @@ Voer aangepaste bedrijfslogica uit door een CRMScript te activeren als onderdeel
 
 > [!NOTE]
 > De deelnemer gaat onmiddellijk naar de volgende stap nadat het script is geactiveerd, zonder te wachten op het resultaat.
+
+### Melden via e-mail
+
+Stuur een melding per e-mail naar een specifieke persoon als onderdeel van de flow.
+
+1. Sleep het vak **Melden via e-mail** uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
+1. Geef de ontvanger op (**Aan:**).
+1. Voer het **onderwerp** van de e-mail in.
+1. Voer het bericht in dat u wilt verzenden.
+
+Contactvariabelen zijn beschikbaar.
 
 ## Flowactie vs. formulieractie
 

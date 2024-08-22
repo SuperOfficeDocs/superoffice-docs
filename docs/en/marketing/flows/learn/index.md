@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: concept
 language: en
 audience: person
@@ -90,12 +90,12 @@ At the top, you can see the flow's name and its location within the folder struc
 The **View flow** screen consists of the following tabs:
 
 * **Summary:** Provides basic information about the flow and various statistics.
-* **Flow:** Offers a read-only view of the flow, allowing users to get an overview without pausing and editing the flow.
+* **Flow:** Offers a read-only view of the flow, allowing users to get an overview without pausing and editing the flow. Click a step to view the details.
 * **Reports:** Displays charts with statistics for the flow, used to monitor its performance.
 * **Participants:** Presents a list of all participants within the flow, showing their email address, company affiliation, enrollment date, current status, current step, last sending received, date of the last sending, and status of the last sending.
 * **Flow Content:** Includes flow mailings and forms used by the flow.
 
-## <a id="success" >Success criteria
+## <a id="success"></a>Success criteria
 
 Success criteria establish the parameters for determining the success of a flow. For example:
 

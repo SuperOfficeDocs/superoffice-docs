@@ -4,8 +4,8 @@ title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: no
 audience: person
@@ -164,6 +164,17 @@ Kjør egendefinert forretningslogikk ved å utløse et CRMScript som en del av f
 
 > [!NOTE]
 > Deltakeren vil fortsette til neste trinn umiddelbart etter at skriptet er utløst, uten å vente på resultatet.
+
+### Varsling på e-post
+
+Send en varslingse-post til en spesifikk person som en del av flyten.
+
+1. Dra **Varsling på e-post**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
+1. Angi mottakeren (**Til:**).
+1. Skriv inn **emnet** for e-posten.
+1. Skriv inn meldingen du ønsker å sende.
+
+Malvariabler for person er tilgjengelige.
 
 ## Flythandling vs. skjemahandling
 

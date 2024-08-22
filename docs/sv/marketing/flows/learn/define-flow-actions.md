@@ -4,8 +4,8 @@ title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 language: sv
 audience: person
@@ -165,6 +165,17 @@ Kör anpassad affärslogik genom att aktivera ett CRM-skript som en del av flöd
 
 > [!NOTE]
 > Deltagaren kommer att gå vidare till nästa steg omedelbart efter att skriptet har aktiverats, utan att vänta på resultatet.
+
+### Meddela via e-post
+
+Skicka ett meddelande via e-post till en specifik person som en del av flödet.
+
+1. Dra rutan **Meddela via e-post** från stegmenyn och släpp den i ett tillgängligt fält i flödesschemat.
+1. Ange mottagaren (**Till:**).
+1. Ange **ämnet** för e-posten.
+1. Ange meddelandet du vill skicka.
+
+Kontaktvariabler (kopplingsfält) är tillgängliga.
 
 ## Flödesåtgärd vs. formuläråtgärd
 
