@@ -24,6 +24,7 @@ Check out our **Product release** overview for more details in our [Community][2
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
   * [Requests - Get next in queue including own open requests (10.3.8)][36] in Service
+  * [CRMScript with Monaco as editor (10.3.8)][37] in Settings and maintenance
 
 * 10.3.7 (11.06.2024):
   * [CRMScript - Trigger dialog with formatted text (10.3.7)][29] in Settings and maintenance
@@ -140,5 +141,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [34]: https://appstore.superoffice.com/infobridge-software-b-v-/databridge-for-superoffice
 [35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
 [36]: service/10.3.8-update.md
+[37]: admin/10.3.8-update.md
 
 <!-- Referenced images -->

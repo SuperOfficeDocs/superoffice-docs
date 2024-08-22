@@ -25,10 +25,10 @@ The latest release is [**version 10.3.8**][8] - 27.08.2024.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.0.0**][7] - 07.08.2024.
+The latest release is [**version 11.0.1**][7] - 20.08.2024.
 
 * [11.0 -][7]
-* [10.0 - 10.2][7]
+* [10.0 - 10.3][7]
 
 ## How to navigate this section
 

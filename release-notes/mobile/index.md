@@ -16,7 +16,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.0
 
-* Mobile CRM are rewritten to the Xamarin platform, all existing functionality still works as before. See [Mobile CRM Product release for 11.0.0][36].
+* Mobile CRM are rewritten to the Xamarin platform, all existing functionality still works as before. See [Mobile CRM Product release for 11.0.1][36].
 
 ## Version 10.2
 

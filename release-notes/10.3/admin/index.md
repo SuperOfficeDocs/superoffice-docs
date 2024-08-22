@@ -13,6 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [CRMScript with Monaco as editor (10.3.8)][8]
 * [CRMScript - Trigger dialog with formatted text (10.3.7)][7]
 * [Requests - Add and customize request types (10.3.2)][2]
 * [Screen designer - Assign layouts to request types (10.3.2)][2]
@@ -23,3 +24,4 @@ audience_tooltip: Settings and maintenance
 [1]: 10.3.1-update.md
 [2]: 10.3.2-update.md
 [7]: 10.3.7-update.md
+[8]: 10.3.8-update.md
