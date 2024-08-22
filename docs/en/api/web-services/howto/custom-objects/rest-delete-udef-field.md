@@ -107,16 +107,12 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     }
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
+> [!NOTE]
+> Depending on the user-case it might be a good idea to [flush caches][4].
 
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
 ***
+
+<!-- Reference links -->
+[4]: ../../../caching/flush-cache.md

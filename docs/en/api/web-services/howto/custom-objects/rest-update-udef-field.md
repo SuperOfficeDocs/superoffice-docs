@@ -156,16 +156,6 @@ This guide describes how to update a user-defined field using the web services A
     Accept: application/json; charset=utf-8
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
-
 ### [RESTful Agent API](#tab/update-agent)
 
 There are several options to get one or all user-defined field, published and non-published fields.
@@ -299,16 +289,6 @@ The get none published fields, use one of the following endpoints:
     }
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
-
 ### [SuperOffice.WebApi](#tab/update-webapi)
 
 There are several options to get one or all user-defined field, published and non-published fields.
@@ -370,3 +350,9 @@ The get none published fields, use one of the following endpoints:
 
 ***
 <!-- markdownlint-restore -->
+
+> [!NOTE]
+> Depending on the user-case it might be a good idea to [flush caches][4].
+
+<!-- Reference links -->
+[4]: ../../../caching/flush-cache.md

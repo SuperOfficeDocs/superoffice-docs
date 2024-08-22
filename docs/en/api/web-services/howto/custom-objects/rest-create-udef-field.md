@@ -126,16 +126,6 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     Accept: application/json; charset=utf-8
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
-
 #### [RESTful Agent API](#tab/create-agent)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
@@ -316,16 +306,6 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
-
 ##### [SuperOffice.WebApi](#tab/create-webapi)
 
 1. First create the UserDefinedFieldInfo instance that represents a user-defined field.
@@ -367,6 +347,9 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
 ***
 <!-- markdownlint-restore -->
+
+> [!NOTE]
+> Depending on the user-case it might be a good idea to [flush caches][4].
 
 ## User-Defined Field Lists
 
@@ -492,3 +475,4 @@ Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
 [1]: <xref:SuperOffice.WebApi.Data.UDefFieldType>
 [2]: ../../../lists/services/how-to/get-all-lists.md
 [3]: ../../../mdo-providers/reference/index.md
+[4]: ../../../caching/flush-cache.md
