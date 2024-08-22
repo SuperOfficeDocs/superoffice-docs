@@ -50,7 +50,7 @@ Fanen **Sporing** indeholder en liste over alle sporinger. Klik på en sporing p
 
 ![Spor CRMScript -screenshot][img4]
 
-### <a id="fields" />Felt
+### <a id="fields"></a>Felt
 
 | Felt | Beskrivelse |
 |---|---|

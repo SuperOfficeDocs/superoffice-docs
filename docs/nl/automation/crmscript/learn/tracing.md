@@ -50,7 +50,7 @@ Het tabblad **Traceren** bevat een lijst met alle traceringen. Klik op een trace
 
 ![Trace CRMScript -screenshot][img4]
 
-### <a id="fields" />Veld
+### <a id="fields"></a>Veld
 
 | Veld | Beschrijving |
 |---|---|

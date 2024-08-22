@@ -19,7 +19,7 @@ Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche 
 
 Zudem können Sie Videokonferenzen auf der Registerkarte [Videokonferenzen][8] und die Dokumentbibliothek auf der Registerkarte [Dokumentbibliothek][9] konfigurieren.
 
-## <a id="levels" />Ebenen für Einstellungsoptionen
+## <a id="levels"></a>Ebenen für Einstellungsoptionen
 
 Sie können Einstellungsoptionen für vier verschiedene Ebenen festlegen:
 
@@ -40,7 +40,7 @@ Sie können im Feld **Aktive Einstellungen** gemäß der betreffenden Stufe fest
 > [!NOTE]
 > Die Optionen für die Systemebene werden immer angezeigt.
 
-## <a id="global" />Globale Einstellungen (für das gesamte System)
+## <a id="global"></a>Globale Einstellungen (für das gesamte System)
 
 Manche [Einstellungen][1] können nur global vorgenommen werden:
 
@@ -64,7 +64,7 @@ Gehen Sie zum Bearbeiten dieser Einstellungen auf das ![Symbol][img1] **Einstell
 * Zeigen Sie mit dem Mauszeiger auf eine Einstellung, um zusätzliche Informationen anzuzeigen.
 * Klicken Sie auf **Speichern**, um die Änderungen zu implementieren.
 
-## <a id="preferences-tab" />Registerkarte Einstellungen
+## <a id="preferences-tab"></a>Registerkarte Einstellungen
 
 Auf der Registerkarte **Einstellungen** können Sie Einstellungen für verschiedene Komponenten von SuperOffice CRM festlegen, wie beispielsweise die Anzahl der Objekte, die in der Verlaufsliste angezeigt werden, den Standardtyp bei neuem Besprechungen sowie die Standardwährung in der Ansicht Verkauf.
 

@@ -36,7 +36,7 @@ Alternativer vises som faner i tilbudet (i dialogboksen **Rediger tilbud**).
 
 7. Du endrer navnet på fanen **Produkter** til noe som beskriver dette alternativet, ved å dobbeltklikke på navnet på fanen.
 
-## <a id="fav" />Favorittalternativ
+## <a id="fav"></a>Favorittalternativ
 
 Hvis du oppretter flere alternativer i et tilbud, blir det første alternativet (vanligvis fanen **Produkter**) merket som favoritt i (![ikon][img2]**Favorittalternativ**). Estimert salgsbeløp i salget ("forecast") hentes fra totalbeløpet for favorittalternativet.
 

@@ -34,7 +34,7 @@ Das Erscheinungsbild der Mitgliederliste variiert ein wenig, je nachdem, welche 
 
 Um zwischen Selektionen zu wechseln, klicken Sie auf die Schaltflächen Zurück/Weiter (![Symbol][img2] ![Symbol][img1]) weiter oben rechts in der Ansicht.
 
-### <a id="filter" />Mitgliederliste filtern
+### <a id="filter"></a>Mitgliederliste filtern
 
 > [!NOTE]
 > Bevor Sie die Mitgliederliste filtern (zum Beispiel nach Verkäufen oder Folgeaufgaben), müssen Sie in der Registerkarte Fußzeile auf **Alle anzeigen** klicken. So stellen Sie sicher, dass auf der Registerkarte alle Datensätze in der Selektion angezeigt werden. Zur Optimierung der Leistung bei der Arbeit mit großen Selektionen werden üblicherweise nur die ersten 100 Datensätze in die Mitgliederliste geladen.
@@ -60,7 +60,7 @@ Verwenden Sie die Schaltfläche **Aufgabe**, um verschiedene Aufgaben für alle 
 
 * ![Symbol][img5]: Aktualisiert die Daten in der Liste.
 
-### <a id="mailing" /> Bei Selektion archivierte Kampagnen anzeigen
+### <a id="mailing"></a> Bei Selektion archivierte Kampagnen anzeigen
 
 Verwenden Sie die Registerkarte **Kampagnen** in der Ansicht Selektion, um einen Überblick über alle Kampagnen bezüglich einer Selektion zu behalten.
 

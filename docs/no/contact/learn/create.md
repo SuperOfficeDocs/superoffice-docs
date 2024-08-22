@@ -71,13 +71,13 @@ Det er mange måter å legge til personer i SuperOffice CRM på:
 
 12. Gå til detaljkortet **Relasjoner**. Her kan du [legge til relasjoner][8] mellom denne personen og en annen person eller et annet firma.
 
-## <a id="more-tab" />Mer-fanen (Person-bildet)
+## <a id="more-tab"></a>Mer-fanen (Person-bildet)
 
 Fanen **Mer** inneholder brukerdefinerte felt for personene. Hvis organisasjonen din for eksempel selger IT-produkter og har behov for å ha felt for maskinvare og programvare for hver person, kan du angi i Innstillinger og vedlikehold at disse feltene skal settes inn her.
 
 Andre eksempler: År ansatt, ERP-ID-er, brukertype, CXM-info.
 
-## <a id="interests-tab" />Fanen Interesser (Person-bildet)
+## <a id="interests-tab"></a>Fanen Interesser (Person-bildet)
 
 I fanen **Interesser** finner du følgende alternativer:
 

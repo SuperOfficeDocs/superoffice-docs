@@ -33,7 +33,7 @@ Denne procedure viser, hvordan du opretter en projektguide fra bunden.
 
 ![Gå til afsnittet Workflow og opret dine egne projektrutiner i SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" /> Opret statusser for projektguiden
+## <a id="create-stage"></a> Opret statusser for projektguiden
 
 En projektguide skal være knyttet til en projekttype, som igen består af flere statusser. [Sådan opretter du en status][2].
 
@@ -41,7 +41,7 @@ En projektguide til et projekt af konferencetypen kan f.eks. have statusserne Pl
 
 Gå til den næste procedure for at knytte statusserne til en projekttype.
 
-## <a id="create-type" /> Opret en projekttype til projektguiden
+## <a id="create-type"></a> Opret en projekttype til projektguiden
 
 En projektguide skal være knyttet til en projekttype. [Sådan opretter du en projekttype][3].
 
@@ -51,7 +51,7 @@ Eksempler på projekttyper: "Konference", "Kampagne", "Intern".
 1. Vælg mindst to statusser.
 1. Gå til den næste procedure for at oprette projektguiden.
 
-## <a id="create-guide" />Opret en projektguide
+## <a id="create-guide"></a>Opret en projektguide
 
 Når du har oprettet statusser og angivet en projekttype for projektguiden, kan du designe selve projektguiden. Det gør du ved at tilføje opfølgninger og/eller dokumenter for hver status i projektguiden.
 
@@ -79,7 +79,7 @@ Når du har oprettet statusser og angivet en projekttype for projektguiden, kan 
 
 Ændringerne gemmes automatisk. Projektguiden vises nu i SuperOffice CRM, når der oprettes et projekt med projekttypen valgt i trin B.
 
-## <a id="add-fo-status" />Tilføj en opfølgning for en status
+## <a id="add-fo-status"></a>Tilføj en opfølgning for en status
 
 1. Vælg den ønskede projekttype og -status som beskrevet ovenfor.
 
@@ -128,7 +128,7 @@ Planlægningsmøde:
 \- Foredragsholdere?
 \- Hvor?
 
-## <a id="add-doc-status" />Tilføj et dokument til en status
+## <a id="add-doc-status"></a>Tilføj et dokument til en status
 
 1. Vælg den ønskede projekttype og -status som beskrevet ovenfor.
 2. Klik på **Tilføj** under **Foreslåede dokumenter i denne status**.

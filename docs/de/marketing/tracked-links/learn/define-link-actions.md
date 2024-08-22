@@ -48,20 +48,20 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 > [!TIP]
 > Wenn Sie einen überwachte Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows (einer Pilotfunktion) verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
-## <a id="response" />Antwort
+## <a id="response"></a>Antwort
 
 Wählen Sie aus, was passieren soll, wenn der Empfänger auf den Link klickt.
 
 * **Auf neue Webseite umleiten**: Geben Sie die URL im vorgesehenen Feld ein.
 * Oder, **Benutzerdefinierten Text anzeigen**: Geben Sie den anzuzeigenden Text ein. Klicken Sie auf das Bearbeitungssymbol ![Symbol][img4], um die Rich-Text-Toolbar anzuzeigen.
 
-## <a id="set-field" />Feld festlegen
+## <a id="set-field"></a>Feld festlegen
 
 Auf der Registerkarte **Feld festlegen** können Sie einen Wert festlegen, der einem Zusatzfeld hinzugefügt wird, wenn der Empfänger auf den Link klickt. Dies zeichnet zusätzliche Kundendaten auf.
 
 Wählen Sie ein Feld aus und geben Sie einen Wert ein.
 
-## <a id="interests" />Interessen
+## <a id="interests"></a>Interessen
 
 Geben Sie an, dass ein Link-Klick die Interessen des Kontakts ändern soll. Fügen Sie zum Beispiel das Interesse "Neuigkeiten zu Produkten" hinzu, wenn auf den Link "Ja, ich möchte über neue Produkte informiert werden" geklickt wird, oder entfernen Sie es, wenn auf den Link "Abmelden" geklickt wird.
 
@@ -70,11 +70,11 @@ Geben Sie an, dass ein Link-Klick die Interessen des Kontakts ändern soll. Füg
 
 [Wie man ein Anmeldeformular für den Newsletter erstellt][1]
 
-## <a id="selection" />Selektion/Projekt
+## <a id="selection"></a>Selektion/Projekt
 
 Geben Sie an, dass Empfänger, die auf den Link klicken, zu Selektion oder Projekten hinzugefügt oder daraus entfernt werden. Beginnen Sie einen Namen zu tippen, um die Schnellsuche zu starten.
 
-## <a id="follow-up" />Folgeaufgabe (Aufgabe/Besprechung)
+## <a id="follow-up"></a>Folgeaufgabe (Aufgabe/Besprechung)
 
 Auf der Registerkarte **Folgeaufgabe** setzen Sie einen Link-Klick, um Aufgaben bzw. Besprechungen in SuperOffice CRM zu generieren. Wählen Sie der Folgeaufgabentyp, geben Sie eine Beschreibung an, verlinke sie mit einem Projekt, wählen Sie den Aufgabentyp, ordnen die Verantwortlichkeit zu und setzen Sie die Dauer.
 
@@ -87,13 +87,13 @@ Aktiviere diese Funktion, indem du **Folgeaufgabe** auswählst.
 >
 > Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1] klicken, um sich selbst auszuwählen.
 
-## <a id="request" />Anfrage
+## <a id="request"></a>Anfrage
 
 Auf der Registerkarte **Anfrage** setzen Sie einen Link-Klick, um eine Service-Anfrage zu erstellen. Setzen Sie das Häkchen, um eine neue Anfrage zu registrieren, geben Sie einen Titel an, wählen Sie die Priorität und Kategorie aus und wählen Sie den Eigentümer. Du kannst auch **Automatisch zugeordnet** oder **Nicht zugeordnet** auswählen.
 
 [Wie man eine Anfrage erstellt][3]
 
-## <a id="script" />Skript
+## <a id="script"></a>Skript
 
 Auf der Registerkarte **Skript** wählen Sie ein CRMSkript oder eine Makro aus, das beim Klicken des Links ausgeführt werden soll. Aktiviere diese Funktion, indem Sie **Skript ausführen** wählen und dann das erforderliche Skript aus der Liste auswählen.
 

@@ -25,7 +25,7 @@ Gør ét af følgende:
 * Brug [navigatorsøgningen][12] på Sager.
 * Brug [Find][11] i den øverste bjælke, vælg en af de typiske søgninger, eller tilføj ønskede kriterier.
 
-## <a id="list" />Brug lister
+## <a id="list"></a>Brug lister
 
 Den nemmeste måde at søge efter sager på er at bruge søgefeltet i menuen for den første fane **Find sag** på skærmbilledet Sager.
 
@@ -64,7 +64,7 @@ Alle disse lister er i praksis foruddefinerede søgninger, og hvis du ønsker de
 >
 > Hvis du vil rydde alle dine kriterier, skal du vælge **Ryd alle**.
 
-### <a id="result" />Søgeresultat
+### <a id="result"></a>Søgeresultat
 
 Resultaterne indeholder en liste over sager, der modsvarer de kriterier, der er angivet ovenfor. Her kan du gøre følgende:
 
@@ -83,7 +83,7 @@ På sidefoden under listen kan du klikke på menuknappen ![ikon][img1] **Opgave*
 
 * **Masseredigering**: Hvis du markerer en eller flere sager på listen, kan du klikke på denne valgmulighed og vælge en handling, du ønsker at udføre på alle sagerne samtidig. Du kan f.eks. vælge at [tilføje samme meddelelse til flere sager][8], [videresende flere sager][7] eller slette flere sager i én handling.
 
-### <a id="preview" />Forhåndsvisning
+### <a id="preview"></a>Forhåndsvisning
 
 I denne del af skærmbilledet vises indholdet i sagen, der er markeret under **Søgeresultat**. Du har de samme muligheder som ved [behandling af sager][6].
 

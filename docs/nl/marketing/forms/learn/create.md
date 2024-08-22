@@ -40,7 +40,7 @@ Bekijk deze video om te leren hoe u een webformulier kunt maken (videolengte - 7
 4. Selecteer **Kopiëren naar nieuw formulier**. De sjabloon wordt geopend in het dialoogvenster **Formulier bewerken**.
 5. [Activeer en publiceer het formulier][2].
 
-## <a id="multi-page" />Formulieren met meerdere pagina's maken
+## <a id="multi-page"></a>Formulieren met meerdere pagina's maken
 
 Om de gebruiksvriendelijkheid te vergroten en de leesbaarheid te verbeteren, overweeg om een formulier met veel velden op te splitsen in meerdere pagina's. De gebruiker kan navigeren met de knoppen **Volgende** en **Vorige** en u kunt ook een voortgangsbalk toevoegen om aan te geven hoeveel er nog moet worden ingevuld.
 
@@ -56,7 +56,7 @@ Om de gebruiksvriendelijkheid te vergroten en de leesbaarheid te verbeteren, ove
 > [!TIP]
 > U kunt een voortgangsbalk aan het formulier toevoegen, zodat de gebruiker kan zien hoeveel er nog moet worden ingevuld. Ga naar de categorie **Stijl**, klik op het selectievakje naast **Kleur van voortgangsbalk** en selecteer een kleur.
 
-## <a id="fields" />Formuliervelden invullen
+## <a id="fields"></a>Formuliervelden invullen
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

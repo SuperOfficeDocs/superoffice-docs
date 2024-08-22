@@ -33,7 +33,7 @@ Wenn Sie eine Anfrage öffnen und **Antworten** auswählen, wird automatisch die
 
 1. Klicken Sie auf **Speichern**. Die Mitteilung wird an die Person gesendet.
 
-## <a id="reply-templ" />Antwortvorlagen zu Nachrichten hinzufügen
+## <a id="reply-templ"></a>Antwortvorlagen zu Nachrichten hinzufügen
 
 Wenn Sie auf die Anfrage einer Person antworten, können Sie Zeit sparen, indem Sie eine [Antwortvorlage][8] als Basis für eine personalisierte Antwort für eine Person verwenden. Wählen Sie aus, welche Antwortvorlage Sie dem Feld Mitteilung hinzufügen möchten, und bearbeiten Sie dann den Text und fügen Sie Anhänge hinzu oder entfernen Sie sie, um sie genau an die Situation anzupassen.
 

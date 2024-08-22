@@ -32,7 +32,7 @@ Et *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende Su
 
 Ekstra felter administreres i **Indstillinger og vedligeholdelse**, på **Tabeller**-skærmen.
 
-## <a id="field-types" />Felttyper
+## <a id="field-types"></a>Felttyper
 
 * Sandhedsværdi (ja/nej)
 * Heltal

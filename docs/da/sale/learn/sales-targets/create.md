@@ -121,7 +121,7 @@ Hvis du har tilføjet nogle tal, der ikke er korrekte, eller en bruger har forla
 
 Klik på knappen **Opgave** for at eksportere salgsmålet for det valgte år til Excel eller PDF.
 
-## <a id="import" />Import
+## <a id="import"></a>Import
 
 Du kan kopiere måldata fra Excel og indsætte dataene i tabellen i SuperOffice.
 

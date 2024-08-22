@@ -51,7 +51,7 @@ Vælg det rigtige værktøj til din opgave:
 
 Den største forskel mellem disse værktøjer er, om du angiver nøgleord eller betingelser.
 
-## <a id="fastsearcher" />Brug af hurtigsøgning
+## <a id="fastsearcher"></a>Brug af hurtigsøgning
 
 **Hurtigsøgning** kan findes enten i menuen **Navigator** og i pop op-dialogbokse. Det vil hurtigt give dig en liste, der matcher dine søgeord. Brug den til at kontrollere databasen for mulige dubletter, før du tilføjer et nyt firma eller en ny person.
 
@@ -86,7 +86,7 @@ Hvis du klikker **på knappen Find** i toplinjen, åbner du [Find skærmbillede]
 
 Når du bruger funktionen Find, kan du gemme hver søgning, du udfører, som et udvalg.
 
-## <a id="typical" />Brug typiske søgninger som udgangspunkt
+## <a id="typical"></a>Brug typiske søgninger som udgangspunkt
 
 En typisk søgning er en foruddefineret søgning, som vi har konfigureret for dig, så du kan se, hvad andre brugere typisk søger efter. Hvert datasæt i skærmbilledet Find indeholder en liste over typiske søgninger, der er klar til brug.
 
@@ -105,7 +105,7 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Opret en søgning, og gem den som et udvalg
+## <a id="search-to-selection"></a>Opret en søgning, og gem den som et udvalg
 
 Et udvalg er en liste over data, der deler et eller flere søgekriterier. Det kan senere bruges til at udføre en række handlinger. I denne guide forklarer vi, hvordan du kan oprette en søgning og gemme den som et udvalg.
 

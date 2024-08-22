@@ -33,7 +33,7 @@ Dra-og-slipp-flytdesigneren er ditt verktøy for å bygge disse dynamiske flyten
 
 ![Dra-og-slipp flytdesigner -screenshot][img2]
 
-## <a id="ex" />Brukstilfeller
+## <a id="ex"></a>Brukstilfeller
 
 * **Ønske nye kunder velkommen:** Send personaliserte e-poster, rabatter og del din merkevarehistorie. Støtt introduksjon av nye produkter.
 * **Engasjementskampanjer:** Hold aktive kunder engasjert og informert med relevant innhold, produktoppdateringer og eksklusive tilbud.
@@ -78,7 +78,7 @@ Velg **visningsmodus** i nedre høyre hjørne.
 | ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på menyknappen ![ikon][img3] for å åpne, redigere eller slette flyten. |
 | ![ikon][img8] | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere eller slette flyten. |
 
-## <a id="view" />Skjermbildet Vis flyt
+## <a id="view"></a>Skjermbildet Vis flyt
 
 Øverst kan du se flytens navn og plassering i mappestrukturen. Du har følgende alternativer:
 
@@ -117,7 +117,7 @@ Når et suksesskriterium oppfylles, kan kampanjen enten stoppe eller fortsette f
 
 Det er tilrådelig for de fleste automatiserte flyter å sette suksesskriterier for registrerte deltakere. Det er imidlertid ikke obligatorisk å definere slike kriterier.
 
-## <a id="req" />Krav
+## <a id="req"></a>Krav
 
 * Marketing Premium-lisens (nytt nivå)
 * Sales essential eller premium - for å opprette et salg

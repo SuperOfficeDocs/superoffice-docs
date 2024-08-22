@@ -25,7 +25,7 @@ När kunden har accepterat offerten, kan du generera en order som du skickar iv�
 4. [Skicka offerten][4].
 5. När kunden accepterar offerten, kan du [registrera ordern][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

@@ -16,7 +16,7 @@ Du kan visa och skriva ut korstabeller på olika sätt. Du kan bland annat välj
 > [!TIP]
 > Om är osäker på om din rapport är en korstabell kan du se bilden mellan rapportlistan och rapportbeskrivningen. [Hur][1]?
 
-## <a id="install" />Installera program för visning av korstabeller
+## <a id="install"></a>Installera program för visning av korstabeller
 
 Om du vill visa en korstabellsrapport (.Dcube-fil) måste du installera **program för visning av korstabeller** (en gång per dator).
 
@@ -51,11 +51,11 @@ Om du vill visa en korstabellsrapport (.Dcube-fil) måste du installera **progra
 
 1. Klicka på **OK** om du vill stänga programmet för granskning av korstabeller.
 
-## <a id="print" />Skriva ut korstabeller
+## <a id="print"></a>Skriva ut korstabeller
 
 Det finns flera utskriftsmöjligheter för korstabeller. Du kan bland annat välja vilka delar av korstabellen som ska visas i en utskrift, förhandsgranska korstabellen och skriva ut korstabellen som en vanlig tabell eller som ett diagram.
 
-## <a id="export" />Spara korstabellrapporter som filer
+## <a id="export"></a>Spara korstabellrapporter som filer
 
 Om du vill spara en rapport med korstabellformat som en fil gör du på ett annat sätt än i rapporter med andra format. Om du vill spara en korstabellsrapport som en fil, klicka på **Exportera** när du visar rapporten i programmet för visning av korstabeller.
 

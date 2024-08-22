@@ -35,7 +35,7 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält ![ikon][img1] och fält med opublicerade ändringar ![ikon][img2] visas i fetstil i listan **Fält**.
 
-## <a id="properties" />Fältegenskaper
+## <a id="properties"></a>Fältegenskaper
 
 | Egenskap | Beskrivning |
 |---|---|

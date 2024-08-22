@@ -95,7 +95,7 @@ Wenn Sie auf einen Bereich in einer Nachricht klicken, erhalten Sie Zugriff auf 
 | ![Symbol][img8] | Duplizieren | Erstellt eine Kopie der Selektion. |
 | ![Symbol][img9] | Block speichern | Speichert den ausgewählten Bereich als Block. Inhalte (wie Kopf- und Fußzeilen) über Mitteilungen hinweg wiederholen. |
 
-## <a id="variables" />Vorlagenvariablen
+## <a id="variables"></a>Vorlagenvariablen
 
 Um einer Mitteilung eine persönlichere Note zu verleihen, können Sie mithilfe von Platzhaltern kundenspezifische Informationen wie den Vornamen des Kunden einfügen. Dadurch können Sie den Inhalt an jeden Kunden individuell anpassen.
 
@@ -126,7 +126,7 @@ Verwenden Sie den neuen Drag & Drop Editor oder die vorherige Version des Editor
 
 Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop Editor") hinzu, der den alten (den "Editor") ersetzt. Der Mitteilungs-Editor wird beim Erstellen von E-Mail-Kampagnen und Formularantworten verwendet. Der alte Nachrichten-Editor steht weiterhin zum Bearbeiten von Nachrichten und Vorlagen zur Verfügung, die in der alten Version erstellt wurden. Alle neuen Kampagnen und Vorlagen werden den neuen Mitteilungs-Editor verwenden.
 
-### <a id="old" />Editor (alt)
+### <a id="old"></a>Editor (alt)
 
 ![Editor (alt) -screenshot][img13]
 

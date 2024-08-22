@@ -47,7 +47,7 @@ language: de
 > [!NOTE]
 > Einstellungen mit aktiven individuellen Einstelloptionen werden in der Liste mit den Einstellungen in Fettschrift angezeigt.
 
-## <a id="edit" />Einstellungsoptionen bearbeiten
+## <a id="edit"></a>Einstellungsoptionen bearbeiten
 
 1. Gehen Sie zur Einstellung, die Sie aktualisieren möchten.
 
@@ -60,7 +60,7 @@ language: de
     > [!NOTE]
     > Wenn Sie die Änderungen verwerfen möchten, klicken Sie auf **Abbrechen**.
 
-## <a id="personal" />Individuelle Einstellungen zulassen
+## <a id="personal"></a>Individuelle Einstellungen zulassen
 
 1. Gehen Sie zur Einstellung, die Sie im Menü **Persönliche Einstellungen** verfügbar machen möchten.
 

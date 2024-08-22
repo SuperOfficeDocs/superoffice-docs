@@ -69,7 +69,7 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
 1. Klik op **Verzenden** om de aanvraag te verzenden en op te slaan.
 
-## <a id="message" />Bericht
+## <a id="message"></a>Bericht
 
 > [!NOTE]
 > om het bericht naar iemand wilt verzenden, moet u ontvangers toevoegen in het veld **Aan** onder de tabbladen. Om het bericht beschikbaar te maken voor de persoon via SuperOffice Customer Centre, moet u het toegangsniveau (voor het bericht) instellen op **Extern**.
@@ -90,7 +90,7 @@ Onderin staan de volgende opties:
 > [!NOTE]
 > De standaardhandtekening van het verzoek wordt aan het bericht toegevoegd. U kunt de handtekening rechtstreeks in het bericht bewerken of uw standaard [e-mailhandtekening][1] bewerken.
 
-## <a id="details" />Details
+## <a id="details"></a>Details
 
 Het tabblad **Details** bevat meer details over het verzoek. Hier vindt u informatie zoals wanneer het verzoek is gemaakt, wanneer het voor het laatst is gewijzigd, gesloten of beantwoord, wanneer het is gelezen door de eigenaar of contactpersoon en extra velden. Deze informatie wordt automatisch bijgewerkt tijdens de levensduur van het verzoek, maar er zijn enkele velden die kunnen worden bewerkt wanneer het verzoek wordt gemaakt:
 

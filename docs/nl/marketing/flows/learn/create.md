@@ -30,7 +30,7 @@ pilot: yes
 
 ![Eigenschappen instellen voor nieuwe flow -screenshot][img1]
 
-## <a id="fields" />Veldinvulling voor de flow
+## <a id="fields"></a>Veldinvulling voor de flow
 
 ### Instellingen (voor flow)
 
@@ -74,7 +74,7 @@ Succescriteria definiëren [wat succes betekent voor een flow][7].
 
 ![Stel succescriteria in voor nieuwe flow -screenshot][img3]
 
-## <a id="trigger" />Definieer triggers en filters
+## <a id="trigger"></a>Definieer triggers en filters
 
 De stap **Trigger** wordt automatisch toegevoegd als het startpunt voor elke flow. Het bepaalt voor wie de flow relevant is. Triggers worden alleen geactiveerd voor actieve of gepauzeerde flows.
 
@@ -128,7 +128,7 @@ De uitsluitingslijst **voorkomt dat geselecteerde contacten aan de flow worden t
 * Voorkom dat specifieke klanten algemene massamails ontvangen.
 * Stuur herinneringen, maar niet naar degenen die zich al hebben aangemeld.
 
-## <a id="add-step"/>Stap toevoegen
+## <a id="add-step"></a>Stap toevoegen
 
 1. Selecteer **Stappen** in het linkermenu.
 1. Kies een stap en sleep deze naar de gewenste plaats in het diagram.
@@ -151,7 +151,7 @@ Wanneer u het tabblad **Stappen** voor de eerste keer opent, ziet u iets als dit
 * Een diagram met een **Trigger**, een **placeholder** voor het toevoegen van een stap en een **Voltooi**-stap (in het midden).
 * Een lijst met beschikbare staptypen (aan de rechterkant).
 
-## <a id="wait" />Flow-controle
+## <a id="wait"></a>Flow-controle
 
 De meeste stappen in een flow vertegenwoordigen acties met betrekking tot de deelnemer, zoals het bijwerken van contactinteresses. Echter, flow-control stappen zijn anders; ze hebben betrekking op **timing** en **segmentatie**.
 

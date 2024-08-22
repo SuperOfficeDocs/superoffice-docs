@@ -20,7 +20,7 @@ Det är enkelt att skapa ett formulär och lägga upp det på en webbsida som du
 
 ![Du kan använda ett webbformulär för att be människor att anmäla sig till ditt nästa webbinarium eller seminarium, eller för att kontakta ditt företag med sina frågor -screenshot][img1]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Du kan använda webbformulär för att samla in dina webbplatsbesökares uppgifter – deras namn, e-postadress, preferenser, kommentarer och återkoppling och eventuellt omvandla dem till kunder. De data du får in via webbformulär kan importeras automatiskt till din SuperOffice CRM-databas, vilket sparar tid och arbete.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing har 3 flikar som rör formulär.
 
 * **Fliken Formulärinlämningar:** visar en lista över personer som har skickat in ett formulär och det aktuella [status för deras inlämning](#status).
 
-## <a id="view" />Skärmen Visa formulär
+## <a id="view"></a>Skärmen Visa formulär
 
 ![SuperOffice Marketing skärmen Visa formulär -screenshot][img4]
 
@@ -79,7 +79,7 @@ Skärmen **Visa formulär** består av följande flikar:
 * **Formulärintagningar:** visar inlämningar för ett individuellt formulär.
 * **Svars-e-post:** visar en förhandsgranskning av formulärsvaret (utskicket) kopplad till detta formulär. Synlig endast om **E-postsvar** [formuläråtgärd][8] är vald.
 
-## <a id="submissions" />Formulärinlämningar
+## <a id="submissions"></a>Formulärinlämningar
 
 När ett formulär lämnas in från ett kundcenter eller en webbplats samlas denna information in och visas på fliken **Formulärinlämningar**. En röd ikon på fliken anger nya formulärinlämningar ![ikon][img3].
 
@@ -88,13 +88,13 @@ På fliken **Formulärinlämningar** kan du visa alla inlämnade formulär. Anv�
 > [!NOTE]
 > Du kan även [visa inlämningar för enskilda formulär][5] genom att öppna ett formulär på fliken **Formulär**.
 
-### <a id="status" />Status
+### <a id="status"></a>Status
 
 * **Behandlad**: Formuläret lämnades in och behandlades automatiskt.
 * **Inlämnad**: Formuläret lämnades in men har ännu inte behandlats. [Så här behandlar du formulärinlämningar][2]
 * **Väntar på bekräftelse**: Formuläret lämnades in men avsändaren måste bekräfta sin e-postadress (dubbel anmälan).
 
-## <a id="opt-in" />Vad är dubbel anmälan?
+## <a id="opt-in"></a>Vad är dubbel anmälan?
 
 Med dubbel anmälan måste kunden förutom att skicka in formuläret verifiera sin e-postadress genom att klicka på länken i ett bekräftelsemeddelande.
 

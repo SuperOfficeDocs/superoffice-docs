@@ -47,7 +47,7 @@ Se denne videoen for å lære hvordan du gjør et vanlig søk og endrer det ved 
 
 ## Felttyper
 
-### <a id="text" />Tekstfelt
+### <a id="text"></a>Tekstfelt
 
 Hvis feltet du søker i, er et tekstfelt (for eksempel et navn), søkes det etter tekst eller tall du skriver inn. En liste med følgende alternativer vises:
 
@@ -55,11 +55,11 @@ Hvis feltet du søker i, er et tekstfelt (for eksempel et navn), søkes det ette
 
 Velg ett av disse alternativene, og skriv deretter inn søkekriterier i tekstfeltet til høyre.
 
-### <a id="yes-no" />Ja/Nei-felt
+### <a id="yes-no"></a>Ja/Nei-felt
 
 Hvis feltet du søker i er et Ja/nei-felt, for eksempel feltet **Ingen utsendelser** i skjermbildet Firma, vises to alternativknapper. Du kan velge mellom **Ja** og **Nei**.
 
-### <a id="date" />Datofelt
+### <a id="date"></a>Datofelt
 
 Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument** vises en liste med følgende alternativer:
 
@@ -67,7 +67,7 @@ Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogbok
 
 Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på pilknappen ![ikon][img1].
 
-### <a id="number" />Tallfelt
+### <a id="number"></a>Tallfelt
 
 Hvis feltet du søker i inneholder en numerisk verdi, for eksempel feltet **Beløp** i skjermbildet Salg, vises en liste med følgende alternativer:
 
@@ -75,7 +75,7 @@ Hvis feltet du søker i inneholder en numerisk verdi, for eksempel feltet **Bel�
 
 Velg ønsket alternativ, og skriv inn ønsket tallverdi i tekstfeltet til høyre.
 
-### <a id="list" />Listefelt
+### <a id="list"></a>Listefelt
 
 Hvis feltet du søker i er et felt som inneholder lister, for eksempel feltet **Bransje** i skjermbildet Firma, vises en liste med alternativene **Er en av** og **Er ikke en av**. For for firma- og personinterresser er valgene **Er lik**, **Er en av**, and **Ingen av**.
 
@@ -83,13 +83,13 @@ Hvis feltet du søker i er et felt som inneholder lister, for eksempel feltet **
 1. Hvis listen er lang, kan du skrive inn tekst i **Søkevilkår** for å søke etter verdier.
 1. Klikk utenfor listen for å lukke den.
 
-### <a id="status" />Statusfelt
+### <a id="status"></a>Statusfelt
 
 Hvis feltet du søker i er et statusfelt, velger du ønsket status.
 
 Statusene opprettes og vedlikeholdes i Innstillinger og vedlikehold. Statusfelt er bare aktuelle hvis du har kjøpt lisens for og aktivert statusovervåking.
 
-### <a id="counter" />Tellerfelt
+### <a id="counter"></a>Tellerfelt
 
 [Tellere][3] kan for eksempel være antall salg i en periode eller datoen for det siste fullførte salget.
 

@@ -49,7 +49,7 @@ Hvis du vil at prosjektet skal knyttes til et firma, må du angi minst én prosj
 > [!TIP]
 > Du kan merke flere kontaktpersoner på høyre side av vinduet ved å holde nede **CTRL**- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Funksjon** og i tekstboksen **Kommentar**, vil gjelde for alle de merkede personene.
 
-## <a id="from-section-tab" />Legg til prosjektdeltakere og interessenter fra detaljkort
+## <a id="from-section-tab"></a>Legg til prosjektdeltakere og interessenter fra detaljkort
 
 Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulike detaljkort, for eksempel **Firma** (**Personer**), **Utvalg** (**Firma/Person**), **Salg** (**Interessenter**) og **Prosjekt** (**Prosjektdeltakere**). Dermed kan prosedyren nedenfor også utføres fra fanen **Resultat** i [Finn][3]-bildet.
 

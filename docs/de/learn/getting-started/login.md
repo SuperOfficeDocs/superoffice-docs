@@ -111,7 +111,7 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 
 ## Fehlerbehebung
 
-### <a id="forgot-password" />Passwort vergessen?
+### <a id="forgot-password"></a>Passwort vergessen?
 
 Die Benutzer vergessen oft ihre Anmeldedaten, insbesondere ihr Passwort. Daher ist es nützlich, wenn Sie wissen, wie Sie Ihr SuperOffice CRM-Passwort ändern oder zurücksetzen können. Folgen Sie den Anweisungen für Ihre Version von SuperOffice, um Ihr Passwort zu ändern.
 

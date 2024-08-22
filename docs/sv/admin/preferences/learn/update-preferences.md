@@ -47,7 +47,7 @@ language: sv
 > [!NOTE]
 > Parametrar med aktiva individuella inställningar visas i feststil i inställningslistan.
 
-## <a id="edit" />Redigera inställningar
+## <a id="edit"></a>Redigera inställningar
 
 1. Gå till den inställning du vill uppdatera.
 
@@ -60,7 +60,7 @@ language: sv
     > [!NOTE]
     > Om du inte vill spara ändringarna klickar du på **Avbryt**.
 
-## <a id="personal" />Tillåt individuella inställningar
+## <a id="personal"></a>Tillåt individuella inställningar
 
 1. Gå till den inställning du vill göra tillgänglig på menyn **Personliga inställningar**.
 

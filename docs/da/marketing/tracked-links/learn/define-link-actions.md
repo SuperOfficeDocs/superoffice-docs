@@ -48,20 +48,20 @@ Baseret på din udsendelses mål og call-to-action kan du opdatere din database.
 > [!TIP]
 > Når du opdaterer et sporet link, skal du huske, at det muligvis bruges af flere e-mails og/eller automatiserede flows (en pilotfunktion). Du bør sikre dig, at der ikke er nogen duplikerede eller modstridende handlinger.
 
-## <a id="response" />Respons
+## <a id="response"></a>Respons
 
 Vælg, hvad der skal ske, når modtageren klikker på linket.
 
 * **Omdirigere til ny webside**: Indtast webadressen i det angivne felt.
 * Eller, **Vise tilpasset tekst**: Indtast teksten, der skal vises. Klik på ![ikon][img4] redigeringsknappen for at vise værktøjslinjen til formateret tekst.
 
-## <a id="set-field" />Indstille felt
+## <a id="set-field"></a>Indstille felt
 
 I fanen **Indstil felt** kan du angive en værdi, der skal tilføjes til et ekstrafelt, når modtageren klikker på linket. Dette registrerer yderligere kundeoplysninger.
 
 Vælg et felt og indtast en værdi.
 
-## <a id="interests" />Interesser
+## <a id="interests"></a>Interesser
 
 Angiv, at et linkklik skal ændre personens interesser. For eksempel, tilføj interessen "Produktnyheder", hvis linket "Ja tak! Jeg vil gerne vide mere om nye produkter" bliver klikket på, eller fjern den, hvis linket "Afmeld mailingliste" bliver klikket på.
 
@@ -70,11 +70,11 @@ Angiv, at et linkklik skal ændre personens interesser. For eksempel, tilføj in
 
 [Sådan opretter du en tilmeldingsformular til nyhedsbrevet][1]
 
-## <a id="selection" />Udtræk/projekt
+## <a id="selection"></a>Udtræk/projekt
 
 Specificér, at modtagere, der klikker på linket, vil blive tilføjet eller fjernet fra udtræk eller projekter. Begynd at skrive et navn for at starte en hurtigsøgning.
 
-## <a id="follow-up" />Opfølgning (møde/opgave)
+## <a id="follow-up"></a>Opfølgning (møde/opgave)
 
 På fanen **Opfølgning** kan du angive et linkklik for at generere møder eller opgaver i SuperOffice CRM. Vælg opfølgningstypen, angiv en beskrivelse, link den til et projekt, vælg opgavetypen, tildel ansvar og angiv varigheden.
 Aktivér denne funktion ved at vælge **Opfølgning**.
@@ -86,13 +86,13 @@ Aktivér denne funktion ved at vælge **Opfølgning**.
 >
 > Når du angiver **Oprettet af** eller **Standardmodtager**, kan du klikke på knappen **Angiv aktiv bruger** ![ikon][img1] for at vælge dig selv.
 
-## <a id="request" />Sag
+## <a id="request"></a>Sag
 
 På fanen **Sag** kan du angive et linkklik for at oprette en sag i SuperOffice Service. Markér af i boksen for at registrere en ny sag, angiv en titel, vælg prioritet og kategori, og vælg ejeren. Du kan også vælge **Automatisk tildelt** eller **Ikke tildelt**.
 
 [Sådan oprettes en sag][3]
 
-## <a id="script" />Script
+## <a id="script"></a>Script
 
 På fanen **Script** kan du vælge et CRMScript eller makro, der skal køres, når linket klikkes. Aktivér denne funktion ved at vælge **Kør script** og vælg derefter det nødvendige script fra listen.
 

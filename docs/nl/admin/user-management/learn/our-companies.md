@@ -69,7 +69,7 @@ Als u bedrijven wilt verwijderen van het tabblad **Onze bedrijven**, moet aan de
 
     * **Geen treffers**: er wordt een bericht weergegeven met de mededeling dat er geen records zijn gevonden die overeenkomen met de door u opgegeven zoekcriteria. Klik op **OK** en zoek opnieuw, met andere criteria.
 
-### <a id="criteria" /> De zoekcriteria
+### <a id="criteria"></a> De zoekcriteria
 
 Onderstaande velden komen overeen met de velden op de bedrijfskaart.
 

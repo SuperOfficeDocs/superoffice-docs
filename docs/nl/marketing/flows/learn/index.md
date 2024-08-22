@@ -33,7 +33,7 @@ De drag-and-drop flow designer is jouw tool voor het bouwen van deze dynamische 
 
 ![Drag-and-drop flow designer -screenshot][img2]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 * **Nieuwe klanten verwelkomen:** Stuur gepersonaliseerde e-mails, kortingen, en deel je merkverhaal. Ondersteun de onboarding van nieuwe producten.
 * **Betrokkenheid campagnes:** Houd actieve klanten betrokken en geïnformeerd met relevante content, productupdates en exclusieve aanbiedingen.
@@ -78,7 +78,7 @@ Kies tussen de weergave in **lijst- of tegelmodus** in de rechterbenedenhoek.
 | ![pictogram][img9] | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op de menuknop ![pictogram][img3] om de flow te openen, bewerken of verwijderen. |
 | ![pictogram][img8] | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken of verwijderen. |
 
-## <a id="view" />Het scherm Flow weergeven
+## <a id="view"></a>Het scherm Flow weergeven
 
 Bovenaan zie je de naam van de flow en de locatie ervan binnen de mapstructuur. Je hebt de volgende opties:
 
@@ -117,7 +117,7 @@ Bij het behalen van een succescriterium kan de campagne stoppen of doorgaan voor
 
 Voor de meeste geautomatiseerde flows is het raadzaam om succescriteria voor ingeschreven deelnemers vast te stellen. Het is echter niet verplicht om dergelijke criteria te definiëren.
 
-## <a id="req" />Vereisten
+## <a id="req"></a>Vereisten
 
 * Marketing Premium licentie (nieuw niveau)
 * Sales essentieel of premium - om een verkoop te maken

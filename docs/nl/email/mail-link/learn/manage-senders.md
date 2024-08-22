@@ -51,7 +51,7 @@ Als de afzender helemaal niet wordt vermeld in SuperOffice CRM, kunt u zijn e-ma
 > [!NOTE]
 > Als u meer dan één e-mail tegelijk probeert te archiveren, wordt u om toestemming gevraagd voor elke afzender die niet wordt vermeld in SuperOffice CRM.
 
-## <a id="new-contact" /> Een e-mailadres aan een nieuwe persoon toevoegen
+## <a id="new-contact"></a> Een e-mailadres aan een nieuwe persoon toevoegen
 
 1. Open het dialoogvenster **E-mailadres opslaan**.
 
@@ -63,7 +63,7 @@ Als de afzender helemaal niet wordt vermeld in SuperOffice CRM, kunt u zijn e-ma
 
 5. Klik op **OK**. De persoon en het e-mailadres worden nu weergegeven op het sectietabblad **Personen** van de opgegeven bedrijfskaart.
 
-## <a id="existing-contact" />Een e-mailadres aan bestaande persoon toevoegen
+## <a id="existing-contact"></a>Een e-mailadres aan bestaande persoon toevoegen
 
 1. Open het dialoogvenster **E-mailadres opslaan**.
 

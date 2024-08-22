@@ -18,7 +18,7 @@ SuperOffice CRM leveres med flere forskellige rapport som standard, men en organ
 > [!TIP]
 > Du kan gemme de standardrapporter, du bruger ofte, som [foretrukne rapporter][2] for at gøre dem lettere tilgængelige. Desuden kan du redigere standardrapporter og gemme dem som foretrukne.
 
-## <a id="type" />Typer
+## <a id="type"></a>Typer
 
 | Type | Beskrivelse |
 |---|---|

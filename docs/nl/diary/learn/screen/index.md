@@ -47,7 +47,7 @@ De vervolgactiviteiten worden standaard als een blauw veld weergegeven op de tab
 > [!NOTE]
 > In Instellingen en onderhoud kunt u definiëren dat alle vervolgactiviteiten van een specifiek type met een andere achtergrondkleur in het Agendascherm moeten worden weergegeven dan het gebruikelijke blauw.
 
-### <a id="day" />Het tabblad Dag
+### <a id="day"></a>Het tabblad Dag
 
 Het tabblad **Dag** wordt één dag tegelijk weergegeven, met tijdsintervallen per uur langs de linkerrand.
 
@@ -55,7 +55,7 @@ Het tabblad **Dag** wordt één dag tegelijk weergegeven, met tijdsintervallen p
 
 Als [tijdzones][14] zijn ingeschakeld, kunt u van tijdzone wisselen in de linkerbenedenhoek.
 
-### <a id="week" />Het tabblad Week
+### <a id="week"></a>Het tabblad Week
 
 In het tabblad **Week** wordt Ã©Ã©n week tegelijk weergegeven. Er is één kolom voor elke dag van de week en tijdsintervallen per uur langs de linkerrand.
 
@@ -66,7 +66,7 @@ Als u het tabblad **Dag** voor een bepaalde dag wilt openen, klikt u op de kop v
 > [!NOTE]
 > U kunt opgeven of zondag dan wel maandag als de eerste dag van de week moet worden beschouwd onder ![icon][img7] **Persoonlijke instellingen** > **Voorkeuren**.
 
-### <a id="month" />Het tabblad Maand
+### <a id="month"></a>Het tabblad Maand
 
 In het tabblad **Maand** wordt Ã©Ã©n maand tegelijk weergegeven. Op dit tabblad wordt niet de tijd vermeld, maar worden de vervolgactiviteiten weergegeven die zijn geregistreerd voor afzonderlijke dagen.
 
@@ -77,7 +77,7 @@ In het tabblad **Maand** wordt Ã©Ã©n maand tegelijk weergegeven. Op dit tabb
 
 Om het tabblad **Dag** voor een bepaalde dag te openen, klikt u op de koptekst/datum.
 
-### <a id="view" />Het tabblad Weergave
+### <a id="view"></a>Het tabblad Weergave
 
 Als u op het tabblad **Weergave** klikt in het scherm Agenda, ziet u een scherm met daarin uw eigen agenda met uw gebruikers-ID boven aan de pagina.
 

@@ -48,7 +48,7 @@ Er zijn feitelijk geen beperkingen op waar u naar kunt zoeken in SuperOffice CRM
 > [!TIP]
 > Als u bijvoorbeeld naar alle bedrijven wilt zoeken, kunt u het percentageteken (%) opgeven wanneer u [zoekcriteria invoert][3] voor **Bedrijf**.
 
-## <a id="or" />Verbreed uw zoekopdracht met behulp van de OR-functie
+## <a id="or"></a>Verbreed uw zoekopdracht met behulp van de OR-functie
 
 Met de functie Zoeken kunt u een zoekopdracht uitvoeren door zoekcriteria te combineren met de waardeoperator "OR" ertussen. Op deze manier kunt u zoeken naar twee sets onafhankelijke gegevens en deze opslaan in één selectie.
 
@@ -59,7 +59,7 @@ Bekijk deze video om te zien hoe u een zoekopdracht maakt met de OF-functie (duu
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## <a id="results" />Werken met zoekresultaten
+## <a id="results"></a>Werken met zoekresultaten
 
 Nadat de bovenstaande procedure gedaan is en de zoekresultaten in het tabblad **Resultaten** staan, hebt u verschillende opties:
 
@@ -82,7 +82,7 @@ Nadat de bovenstaande procedure gedaan is en de zoekresultaten in het tabblad **
 
 * Selecteer records, klik met de rechtermuisknop en selecteer **Toevoegen aan selectie**. Zie [Leden toevoegen aan statische selecties][9].
 
-## <a id="ex1" />Voorbeeld 1: zoeken naar winstgevende klanten
+## <a id="ex1"></a>Voorbeeld 1: zoeken naar winstgevende klanten
 
 Als manager van een verkoopafdeling wilt u een presentatie geven voor de rest van het management waarin u presenteert wat u sinds de laatste vergadering hebt bereikt. U wilt zich richten op winstgevende klanten (klanten waar u onlangs veel aan hebt verkocht).
 
@@ -131,7 +131,7 @@ Als manager van een verkoopafdeling wilt u een presentatie geven voor de rest va
 21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex2" />Voorbeeld 2: zoeken naar klanten in Denemarken waarvoor u verantwoordelijk bent
+## <a id="ex2"></a>Voorbeeld 2: zoeken naar klanten in Denemarken waarvoor u verantwoordelijk bent
 
 Stelt u zich voor dat u deelneemt aan een conferentie in Denemarken. Als u daar bent, wilt u van de gelegenheid gebruikmaken enkele klanten te bezoeken. U begint uw planning door alle klanten in Denemarken te zoeken waarvoor u verantwoordelijk bent.
 
@@ -165,7 +165,7 @@ Stelt u zich voor dat u deelneemt aan een conferentie in Denemarken. Als u daar 
 
 14. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex3" />Voorbeeld 3: zoeken naar verkochte verkopen
+## <a id="ex3"></a>Voorbeeld 3: zoeken naar verkochte verkopen
 
 Veronderstel, u bent manager van een bedrijf en wilt weten welke typen verkoop goed verlopen en waarom, met als doel meerdere hiervan te bewerkstelligen. U begint met het zoeken naar verkopen met de status **Verkocht**.
 
@@ -188,7 +188,7 @@ Veronderstel, u bent manager van een bedrijf en wilt weten welke typen verkoop g
 9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex4" />Voorbeeld 4: zoeken naar projecten waaraan u het afgelopen jaar hebt deelgenomen
+## <a id="ex4"></a>Voorbeeld 4: zoeken naar projecten waaraan u het afgelopen jaar hebt deelgenomen
 
 Stelt u zich voor dat de tijd voor uw betalingsoverzicht nadert en u denkt dat u beter betaald zou moeten worden voor uw inspanningen. U wilt uw baas laten zien hoe actief en veelzijdig u bent, en wilt hun daarom vertellen over de projecten waar u het afgelopen jaar bij betrokken bent geweest.
 
@@ -224,7 +224,7 @@ Stelt u zich voor dat de tijd voor uw betalingsoverzicht nadert en u denkt dat u
 
 15. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex5" />Voorbeeld 5: zoeken naar ondernomen marketinginitiatieven
+## <a id="ex5"></a>Voorbeeld 5: zoeken naar ondernomen marketinginitiatieven
 
 Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstormen over toekomstige marketinginitiatieven. Als basis hiervoor wilt u een overzicht ophalen van de marketinggerelateerde vervolgacties die u het afgelopen kwartaal hebt ondernomen.
 

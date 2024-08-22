@@ -51,7 +51,7 @@ Menyalternativ:
 * **Flytta till mall** (flytta länken till en annan mapp)
 * **Ta bort**
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Sporbara länkar kan användas på olika sätt:
 
@@ -73,7 +73,7 @@ Sporbara länkar kan användas på olika sätt:
 > [!NOTE]
 > Dessa exempel fungerar lika bra för vanliga länkar, men i det fallet registreras endast klick för det enskilda utskicket.
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 När du konfigurerar ett utskick har du möjlighet att använda Google Analytics som spårningssystem. Med inställningen i utskick kan du definiera en mer exakt spårning av e-postmeddelanden med hjälp av de tillhandahållna fälten, vilket ger mer detaljerade Google Channel-rapporter.
 

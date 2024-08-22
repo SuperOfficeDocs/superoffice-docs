@@ -16,7 +16,7 @@ För att kunna hantera licenser måste du vara inloggad som administratör.
 > [!NOTE]
 > Om du använder en demoversion av SuperOffice CRM kan du bli ombedd att ange serienummer och licensägare. De uppgifterna får du av SuperOffice när du köper en SuperOffice-licens.
 
-## <a id="buy" />Köp
+## <a id="buy"></a>Köp
 
 1. Gå till Inställningar och underhåll.
 1. Öppna fönstret Licenser.

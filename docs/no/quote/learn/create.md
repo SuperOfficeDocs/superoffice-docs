@@ -25,7 +25,7 @@ Følg GIF-en eller trinnene nedenfor for å se hvordan du oppretter og sender et
 
     Du kan nå [legge til produkter i tilbudet][2].
 
-## <a id="erp" />Vises dialogboksen Velg ERP-kobling?
+## <a id="erp"></a>Vises dialogboksen Velg ERP-kobling?
 
 Hvis dialogboksen **Velg ERP-kobling** vises når du skal opprette et tilbud, kan det skyldes følgende:
 

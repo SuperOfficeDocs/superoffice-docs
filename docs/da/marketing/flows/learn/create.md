@@ -30,7 +30,7 @@ pilot: yes
 
 ![Angiv egenskaber for nyt flow -screenshot][img1]
 
-## <a id="fields" />Udfyldning af flow-felter
+## <a id="fields"></a>Udfyldning af flow-felter
 
 ### Indstillinger (for flow)
 
@@ -74,7 +74,7 @@ Succeskriterier definerer [hvad succes betyder for et flow][7].
 
 ![Indstil succeskriterier for nyt flow -screenshot][img3]
 
-## <a id="trigger" />Definér trigger og filtre
+## <a id="trigger"></a>Definér trigger og filtre
 
 **Trigger**-trinnet tilføjes automatisk som udgangspunkt for ethvert flow. Det bestemmer, hvem flowet er relevant for. Triggere aktiveres kun for i gang eller pausede flows.
 
@@ -128,7 +128,7 @@ Udelukkelseslisten **forhindrer udvalgte personer i at blive tilføjet til flowe
 * Forhindre specifikke kunder i at modtage generelle masse-e-mails.
 * Send påmindelser, men ikke til dem, der allerede er tilmeldt.
 
-## <a id="add-step" />Tilføj trin
+## <a id="add-step"></a>Tilføj trin
 
 1. Vælg **Trin** fra venstremenuen.
 1. Vælg et trin og træk det til, hvor du ønsker at tilføje det i flowdiagrammet.
@@ -151,7 +151,7 @@ Når du åbner fanen **Trin** for første gang, vil du se noget som dette:
 * Et flowdiagram med en **Trigger**, en **pladsholder** til at tilføje et trin og et **Afslut**-trin (i midten).
 * En liste over tilgængelige trin-typer (til højre).
 
-## <a id="wait" />Flowkontrol
+## <a id="wait"></a>Flowkontrol
 
 De fleste trin i et flow repræsenterer handlinger relateret til deltageren, såsom opdatering af personinteresser. Flowkontrol-trin er dog forskellige; de involverer **timing** og **segmentering**.
 

@@ -43,7 +43,7 @@ Nadat de mailing is verzonden, verzamelt SuperOffice Marketing gegevens over de 
 
 Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice verzendt uw mailing naar de ontvangers. De status wordt gewijzigd in **Verzonden** nadat dit is voltooid.
 
-## <a id="filters" />Filters
+## <a id="filters"></a>Filters
 
 * **Verzonden**: Activeer dit filter om alle ontvangers weer te geven aan wie de mailing is gestuurd.
 
@@ -64,7 +64,7 @@ Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice 
 Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice verzendt uw mailing naar de ontvangers. De status wordt gewijzigd in **Verzonden** nadat dit is gebeurd.
 
 <!-- markdownlint-disable-file MD013 -->
-## <a id="add-recipients" />Ontvangers toevoegen aan selecties of projecten
+## <a id="add-recipients"></a>Ontvangers toevoegen aan selecties of projecten
 
 Met de **Acties** menuknop kunt u ontvangers en klikkers toevoegen aan een selectie of project.
 

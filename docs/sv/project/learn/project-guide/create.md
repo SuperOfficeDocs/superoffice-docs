@@ -33,7 +33,7 @@ Den här proceduren visar hur du skapar en projektguide från grunden.
 
 ![Gå till avsnittet Arbetsflöde och skapa dina egna projektrutiner i SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" /> Skapa statusar för projektguiden
+## <a id="create-stage"></a> Skapa statusar för projektguiden
 
 En projektguide måste vara kopplad till en projekttyp, som i sin tur består av flera statusar. [Så skapar du en status][2].
 
@@ -41,7 +41,7 @@ En projektguide för ett projekt av typen Konferens kan till exempel ha statusar
 
 Gå till nästa procedur för att länka statusarna till en projekttyp.
 
-## <a id="create-type" /> Skapa en projekttyp för projektguiden
+## <a id="create-type"></a> Skapa en projekttyp för projektguiden
 
 En projektguide måste vara länkad till en projekttyp. [Så skapar du en projekttyp][3].
 
@@ -51,7 +51,7 @@ Exempel på projekttyper: "Konferens", "Kampanj", "Internt".
 1. Välj minst två statusar.
 1. Gå till nästa procedur för att skapa projektguiden.
 
-## <a id="create-guide" />Skapa en projektguide
+## <a id="create-guide"></a>Skapa en projektguide
 
 När du har skapat statusar och angett en projekttyp för projektguiden, kan du utforma själva projektguiden. Det gör du genom att lägga till händelser och/eller dokument för varje status i projektguiden.
 
@@ -79,7 +79,7 @@ När du har skapat statusar och angett en projekttyp för projektguiden, kan du 
 
 Ändringarna sparas automatiskt. Projektguiden visas nu i SuperOffice CRM när ett projekt skapas med den projekttyp som valdes i steg B.
 
-## <a id="add-fo-status" />Lägg till en händelse för en status
+## <a id="add-fo-status"></a>Lägg till en händelse för en status
 
 1. Välj önskad projekttyp och status enligt beskrivningen ovan.
 
@@ -128,7 +128,7 @@ Planeringsmöte:
 \- Talare?
 \- Var?
 
-## <a id="add-doc-status" />Lägg till ett dokument för en status
+## <a id="add-doc-status"></a>Lägg till ett dokument för en status
 
 1. Välj önskad projekttyp och status enligt beskrivningen ovan.
 2. Klicka på **Lägg till** under **Föreslagna dokument i denna status**.

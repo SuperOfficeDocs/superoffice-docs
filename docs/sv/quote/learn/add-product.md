@@ -36,7 +36,7 @@ I dialogrutan **Lägg till/redigera produkt** kan du lägga till en produkt och 
     eller
     Klicka på **Spara** för att spara och återgå till offerten.
 
-## <a id="add-multiple" />Lägga till flera produkter i en offert
+## <a id="add-multiple"></a>Lägga till flera produkter i en offert
 
 1. Klicka på **Lägg till** längst ned på fliken **Produkter** i dialogrutan **Redigera offert för**.
 
@@ -73,7 +73,7 @@ Här visas detaljerad produktinformation, om detta är definierat i Inställning
 
 Här visas prisberäkningar. Innehållet på denna flik definieras i Inställningar och underhåll.
 
-## <a id="warning" />Varningar och hur man hanterar dem
+## <a id="warning"></a>Varningar och hur man hanterar dem
 
 I Inställningar och underhåll kan olika regler definieras för vad som är tillåtet och inte tillåtet när du lägger till produkter i en offert. Beroende på hur dessa regler definieras, kan olika ikoner/varningar visas när du lägger till produkter i en offert. I vissa fall måste offerten [godkännas innan den skickas][1].
 

@@ -51,7 +51,7 @@ Kies het juiste gereedschap voor je taak:
 
 Het grootste verschil tussen deze gereedschappen is of je sleutelwoorden of voorwaarden opgeeft.
 
-## <a id="fastsearcher" />De functie Snel zoeken gebruiken
+## <a id="fastsearcher"></a>De functie Snel zoeken gebruiken
 
 **Snel zoeken** kan worden gevonden in het **Navigator-menu** of in pop-upvensters. Het zal snel een lijst maken die overeenkomt met uw zoekwoorden.
 
@@ -84,7 +84,7 @@ Als u op de knop **Zoeken** klikt in de bovenste balk, opent u het [Zoekscherm][
 
 Wanneer u de functie Zoeken gebruikt, kunt u elke zoekopdracht die u uitvoert, opslaan als een selectie.
 
-## <a id="typical" />Gebruik frequente zoekacties als uitgangspunt
+## <a id="typical"></a>Gebruik frequente zoekacties als uitgangspunt
 
 Een frequente zoekactie is een vooraf gedefinieerde zoekopdracht die we voor u hebben ingesteld, zodat u kunt zien waar andere gebruikers vaak naar zoeken. Elke gegevensset in het scherm Zoeken bevat een lijst met frequente zoekacties die klaar zijn voor gebruik.
 
@@ -103,7 +103,7 @@ Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wij
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Een zoekopdracht maken en opslaan als een selectie
+## <a id="search-to-selection"></a>Een zoekopdracht maken en opslaan als een selectie
 
 Een selectie is een lijst met gegevens die een of meer zoekcriteria deelt. Het kan later worden gebruikt om een aantal acties uit te voeren. In deze gids leggen we uit hoe u een zoekopdracht kunt maken en deze als selectie kunt opslaan.
 

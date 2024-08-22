@@ -48,7 +48,7 @@ Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte 
 
 1. Klikk på **Lagre** for å lagre alle endringer.
 
-### <a id="availability" />Planleggingsassistent
+### <a id="availability"></a>Planleggingsassistent
 
 Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den detaljerte kalenderen viser tilgjengeligheten til hver intern deltaker (kollega). Den øverste raden viser den akkumulerte tilgjengeligheten. Tilgjengeligheten til eksterne deltakere og e-postdeltakere er ukjent.
 
@@ -65,7 +65,7 @@ Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den deta
 1. Klikk **OK** når du er ferdig.
 1. Klikk **Lagre** for å lagre alle endringer.
 
-### <a id="preview" />Forhåndsvisning og oppdater invitasjons-e-post
+### <a id="preview"></a>Forhåndsvisning og oppdater invitasjons-e-post
 
 Når du klikker på **Lagre og send**, vises en forhåndsvisning av e-posten basert på tittelen og agendaen. Eventuelle interne notater som er lagt til i oppfølgingen, ekskluderes.
 

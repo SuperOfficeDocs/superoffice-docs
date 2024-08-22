@@ -40,7 +40,7 @@ Se denne video for at lære, hvordan du kan oprette en webformular (videoens læ
 4. Vælg **Kopier til ny formular**. Skabelonen åbnes i dialogboksen **Rediger formular**.
 5. [Aktivere og udgive formularen][2].
 
-## <a id="multi-page" />Oprette formularer med flere sider
+## <a id="multi-page"></a>Oprette formularer med flere sider
 
 For at øge brugervenligheden og lette læsbarheden kan du overveje at opdele en formular med mange felter i flere sider. Brugere kan navigere gennem formularen ved hjælp af **Næste**- og **Forrige**-knapper, og en fremskridtslinje kan tilføjes for at angive de resterende felter.
 
@@ -56,7 +56,7 @@ For at øge brugervenligheden og lette læsbarheden kan du overveje at opdele en
 > [!TIP]
 > Du kan føje en statuslinje til formularen, så brugeren kan se, hvor meget der er tilbage at udfylde. Gå til kategorien **Stil,** klik på afkrydsningsfeltet ud for **Statuslinjefarve**, og vælg en farve.
 
-## <a id="fields" />Udfyldning af formularfelter
+## <a id="fields"></a>Udfyldning af formularfelter
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

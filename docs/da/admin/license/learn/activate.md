@@ -16,7 +16,7 @@ Hvis du vil administrere licenser, skal du være logget på som administrator.
 > [!NOTE]
 > Hvis du bruger en demoversion af SuperOffice CRM, kan du blive bedt om at indtaste et nyt serienummer og en ny licensejer. Det får du af SuperOffice, når du køber en SuperOffice-licens.
 
-## <a id="buy" />Køb
+## <a id="buy"></a>Køb
 
 1. Gå til Indstillinger og vedligeholdelse.
 1. Åbn skærmbilledet Licenser.

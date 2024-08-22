@@ -16,7 +16,7 @@ Um Lizenzen verwalten zu können, müssen Sie als Administrator angemeldet sein.
 > [!NOTE]
 > Wenn Sie eine Demo-Version von SuperOffice CRM verwenden, könnten Sie aufgefordert werden, eine neue Seriennummer und einen neuen Lizenz Eigentümer einzugeben. Diese Angaben erhalten Sie von SuperOffice, wenn Sie eine SuperOffice-Lizenz erwerben.
 
-## <a id="buy" />Erwerben
+## <a id="buy"></a>Erwerben
 
 1. Gehe zu Einstellungen und Verwaltung.
 1. Öffnen Sie die Ansicht Lizenzen.

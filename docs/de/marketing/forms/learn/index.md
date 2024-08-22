@@ -20,7 +20,7 @@ Sie können problemlos ein Formular erstellen und auf jeder gewünschten Webseit
 
 ![Sie können ein Web-Formular verwenden, um Personen zu bitten, sich für Ihr nächstes Webinar oder Seminar anzumelden oder sich mit ihren Fragen an Ihre Firma zu wenden -screenshot][img1]
 
-## <a id="ex" />Wofür kann man Web-Formulare verwenden?
+## <a id="ex"></a>Wofür kann man Web-Formulare verwenden?
 
 Sie können Web-Formulare verwenden, um die Daten Ihrer Website-Besucher zu erfassen – ihren Namen, ihre E-Mail-Adresse, ihre Voreinstellungen, Kommentare und Rückmeldungen – und sie möglicherweise in Kunden umzuwandeln. Die Daten, die Sie über Web-Formulare erhalten, können automatisch in Ihre SuperOffice CRM-Datenbank importiert werden, wodurch Sie Zeit und Mühe sparen.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing hat 3 Registerkarte, die sich auf Formulare beziehen.
 
 * **Registerkarte Formularübermittlungen:** zeigt eine Liste der Personen, die ein Formular übermittelt haben, und den aktuellen [Status ihrer Übermittlung](#status).
 
-## <a id="view" />Die Ansicht Formular anzeigen
+## <a id="view"></a>Die Ansicht Formular anzeigen
 
 ![SuperOffice Marketing 'Formular anzeigen' -screenshot][img4]
 
@@ -79,7 +79,7 @@ Der Bildschirm **Formular anzeigen** besteht aus den folgenden Registerkarten:
 * **Formularübermittlungen:** zeigt Übermittlungen für ein einzelnes Formular.
 * **Antwort-E-Mail:** zeigt eine Vorschau der Formularantwort (Kampagne), die mit diesem Formular verknüpft ist. Sichtbar nur, wenn die **E-Mail-Antwort** [Formularaktion][8] ausgewählt ist.
 
-## <a id="submissions" />Formularübermittlungen
+## <a id="submissions"></a>Formularübermittlungen
 
 Wenn ein Formular von einem Kundenzentrum oder einer Website übermittelt wird, werden die Daten erfasst und auf der Registerkarte **Formularübermittlungen** angezeigt. Ein rotes Symbol auf der Registerkarte weist auf neu übermittelte Formulare hin ![Symbol][img3].
 
@@ -88,13 +88,13 @@ Mit den Filteroptionen unten in der Liste können Sie gezielt übermittelte Form
 > [!NOTE]
 > Sie können auch [Übermittlungen für einzelne Formulare anzeigen][5], indem Sie ein Formular auf der Registerkarte **Formulare** öffnen.
 
-### <a id="status" />Formularstatus
+### <a id="status"></a>Formularstatus
 
 * **Verarbeitet**: Das Formular wurde übermittelt und automatisch verarbeitet.
 * **Übermittelt**: Das Formular wurde übermittelt, aber noch nicht verarbeitet. [Wie man Formularübermittlungen verarbeitet][2]
 * **Bestätigung ausstehend**: Das Formular wurde übermittelt, aber der Absender muss seine E-Mail-Adresse noch bestätigen (doppeltes Opt-in).
 
-## <a id="opt-in" />Was bedeutet doppeltes Opt-in?
+## <a id="opt-in"></a>Was bedeutet doppeltes Opt-in?
 
 Bei doppeltem Opt-in müssen die Kunden ihre E-Mail-Adresse verifizieren, indem sie zusätzlich zur Übermittlung des Formulars auf den Link in einer Bestätigungs-E-Mail klicken.
 

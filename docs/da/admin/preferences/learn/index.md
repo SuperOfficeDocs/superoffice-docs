@@ -19,7 +19,7 @@ Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at 
 
 Derudover kan du konfigurere videomøder under fanen [Videomøder][8] og dokumentbiblioteket under fanen [Dokumentbibliotek][9].
 
-## <a id="levels" />Niveauer for præferenceindstillinger
+## <a id="levels"></a>Niveauer for præferenceindstillinger
 
 Præferenceindstillinger kan angives for fire forskellige niveauer:
 
@@ -40,7 +40,7 @@ Du kan vælge, hvilke indstillinger der skal vises på listen, baseret på det n
 > [!NOTE]
 > Indstillinger for systemniveauet vises altid.
 
-## <a id="global" />Globale præferencer (for hele systemet)
+## <a id="global"></a>Globale præferencer (for hele systemet)
 
 Nogle [præferencer][1] kan kun indstilles på globalt niveau:
 
@@ -64,7 +64,7 @@ Hvis du vil redigere disse indstillinger, skal du gå til skærmbilledet ![icon]
 * Hold musemarkøren over en præference for at få vist yderligere oplysninger.
 * Klik på **Gem** for at implementere ændringerne.
 
-## <a id="preferences-tab" />Fanen Præferencer
+## <a id="preferences-tab"></a>Fanen Præferencer
 
 På fanen **Præferencer** kan du angive indstillinger for forskellige dele af SuperOffice CRM, f.eks. antallet af elementer, der skal vises på historiklisten, standardtypen for nytt møde og standardvalutaen på skærmbilledet Salg.
 

@@ -28,20 +28,20 @@ Elk tabblad bevat het volgende:
 
 * Een sectietabblad **Documenten** met een [lijst met opgeslagen rapporten](#archive).
 
-## <a id="list" />Rapportlijst
+## <a id="list"></a>Rapportlijst
 
 De rapportlijst bevindt zich linksboven in het scherm **Rapporten** en is een lijst met standaardrapporten voor het geselecteerde tabblad. Wanneer u het tabblad **Favorieten** selecteert, worden hier uw favoriete rapporten weergegeven. De inhoud van de rapportbeschrijving en de criterialijst hangt af van uw selectie in de rapportlijst.
 
 > [!TIP]
 > Wanneer de rapportcategorie **Favorieten** is geselecteerd, kunt u de naam en beschrijving van deze rapporten bewerken door op een rapport te dubbelklikken of door het te selecteren en te klikken op **Bewerken**. Verwijder een favoriet rapport door het te selecteren en op **Verwijderen** te klikken.
 
-## <a id="criteria" />De criterialijst
+## <a id="criteria"></a>De criterialijst
 
 De criterialijst bevindt zich boven in het scherm **Rapporten**, naast de rapportlijst en onder de rapportbeschrijving. Het bevat criteria die van toepassing zijn op het rapport dat u in de rapportlijst selecteert. Hier kunt u criteria toevoegen of verwijderen door te klikken op de knoppen **Toevoegen** of **Verwijderen**. U kunt een criterium bewerken door erop te dubbelklikken.
 
 Klik op de knop **Toev. aan favorieten** om het rapport met de opgegeven criteria toe te voegen aan de rapportlijst op het tabblad **Favorieten**.
 
-## <a id="archive" />Het rapportarchief (Documenten)
+## <a id="archive"></a>Het rapportarchief (Documenten)
 
 Het rapportarchief (het sectietabblad **Documenten**) wordt onder in het scherm **Rapporten** weergegeven. Het bevat eerder gegenereerde rapporten die opgeslagen zijn als documenten. Op dit sectietabblad kunt u opgeslagen rapporten openen, bewerken, verwijderen en [filteren][7]. U kan ook een rapportlijst exporteren.
 

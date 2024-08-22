@@ -36,7 +36,7 @@ I dialogboksen **Tilføj/rediger produkt** kan du tilføje et produkt og angive 
     eller
     Klik på **Gem** for at gemme og vende tilbage til tilbuddet.
 
-## <a id="add-multiple" />Tilføjelse af flere produkter i et tilbud
+## <a id="add-multiple"></a>Tilføjelse af flere produkter i et tilbud
 
 1. Klik på **Tilføj** nederst på fanen **Produkter** i dialogboksen **Rediger tilbud for**.
 
@@ -73,7 +73,7 @@ Detaljerede produktoplysninger vises her, hvis dette er defineret i Indstillinge
 
 Detaljerede prisberegninger vises her. Indholdet på denne fane er defineret i Indstillinger og vedligeholdelse.
 
-## <a id="warning" />Advarsler og hvordan man håndterer dem
+## <a id="warning"></a>Advarsler og hvordan man håndterer dem
 
 Under Indstillinger og vedligeholdelse kan der defineres forskellige regler for, hvad der er tilladt og ikke tilladt, når du føjer produkter til et tilbud. Afhængigt af hvordan disse regler er defineret, vises der muligvis forskellige ikoner/advarsler, når du føjer produkter til et tilbud. I nogle tilfælde skal tilbuddet [godkendes inden afsendelse][1].
 

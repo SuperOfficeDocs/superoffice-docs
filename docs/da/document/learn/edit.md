@@ -78,7 +78,7 @@ Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i
 
 ***
 
-### <a id="allow" />Browser sikkerhedsspørgsmål ved åbning af filer
+### <a id="allow"></a>Browser sikkerhedsspørgsmål ved åbning af filer
 
 Når du får adgang til og redigerer et dokument, fil eller e-mail i SuperOffice, præsenterer din browser dig for et *sikkerhedsspørgsmål* vedrørende filoverførslen.
 
@@ -103,7 +103,7 @@ Dialogboksen er lidt anderledes i Chrome, Edge, Firefox og Safari.
 
 ![Safari: Altid tillad eller Tillad -screenshot][img4]
 
-## <a id="delete" />Sletning af dokumenter
+## <a id="delete"></a>Sletning af dokumenter
 
 1. Vælg det ønskede dokument på detaljekortet **Aktiviteter** på skærmbillederne Firma, Person, Dagbog, Salg eller Projekt.
 2. Klik på knappen **Slet** nederst for listen.

@@ -48,7 +48,7 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 > [!TIP]
 > Wenn Sie beispielsweise nach allen Firmen suchen möchten, können Sie bei der [Eingabe der Suchkriterien][3] für **Firma** das Prozentzeichen (%) verwenden.
 
-## <a id="or" />Erweitern Sie Ihre Suche mit der ODER-Funktion
+## <a id="or"></a>Erweitern Sie Ihre Suche mit der ODER-Funktion
 
 Mit der Funktion Suchen können Sie eine Suche durchführen, indem Sie Suchkriterien mit dem Wertoperator "ODER" zwischen den beiden kombinieren. Auf diese Weise können Sie nach zwei unabhängigen Datensätzen suchen und diese in einer Selektion speichern.
 
@@ -59,7 +59,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine Suche mit der ODER-Fu
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## <a id="results" />Mit Suchergebnissen arbeiten
+## <a id="results"></a>Mit Suchergebnissen arbeiten
 
 Nachdem Sie die oben beschriebenen Schritte befolgt haben und die Suchergebnisse auf der Registerkarte **Ergebnisse** angezeigt werden, sind verschiedene Optionen verfügbar:
 
@@ -82,7 +82,7 @@ Nachdem Sie die oben beschriebenen Schritte befolgt haben und die Suchergebnisse
 
 * Wählen Sie Datensätze aus, klicken Sie mit der rechten Maustaste und wählen Sie **Zu Selektion hinzufügen**. Siehe [Mitglieder zu statischen Selektionen hinzufügen][9].
 
-## <a id="ex1" />Beispiel 1: Nach rentablen Kunden suchen
+## <a id="ex1"></a>Beispiel 1: Nach rentablen Kunden suchen
 
 Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation für Ihre Kollegen vorbereiten, in der Sie zeigen, was Sie nach der letzten Besprechung erreicht haben. Sie möchten sich auf rentable Kunden konzentrieren (Kunden, an die Sie große Mengen verkauft haben).
 
@@ -131,7 +131,7 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex2" />Beispiel 2: Nach Kunden in Dänemark suchen, für die Sie verantwortlich sind
+## <a id="ex2"></a>Beispiel 2: Nach Kunden in Dänemark suchen, für die Sie verantwortlich sind
 
 Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin reisen, möchten Sie die Möglichkeit nutzen, einige Kunden persönlich kennenzulernen. Sie beginnen Ihre Planung, indem Sie nach allen Kunden in Dänemark suchen, für die Sie verantwortlich sind.
 
@@ -165,7 +165,7 @@ Angenommen, Sie nehmen an einer Konferenz in Dänemark teil. Wenn Sie dorthin re
 
 14. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex3" />Beispiel 3: Nach Verkäufen mit dem Status Verkauft suchen
+## <a id="ex3"></a>Beispiel 3: Nach Verkäufen mit dem Status Verkauft suchen
 
 Angenommen, Sie sind der Manager einer Firma und möchten herausfinden, welche Verkaufstypen erfolgreich sind und warum. Das Ziel liegt darin, den Umsatz dieser Verkaufstypen zu steigern. Suchen Sie zuerst nach Verkäufen mit dem Status **Verkauft**.
 
@@ -188,7 +188,7 @@ Angenommen, Sie sind der Manager einer Firma und möchten herausfinden, welche V
 9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex4" />Beispiel 4: Nach Projekten suchen, an denen Sie im letzten Jahr beteiligt waren
+## <a id="ex4"></a>Beispiel 4: Nach Projekten suchen, an denen Sie im letzten Jahr beteiligt waren
 
 Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Gehaltserhöhung bitten. Damit Sie Ihrem Chef zeigen können, wie vielseitig und engagiert Sie sind, möchten Sie ihm die Projekte vorstellen, an denen Sie im letzten Jahr beteiligt waren.
 
@@ -224,7 +224,7 @@ Angenommen, Sie sind mit Ihrem Gehalt nicht mehr zufrieden und wollen um eine Ge
 
 15. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex5" />Beispiel 5: Nach ergriffenen Marketing-Initiativen suchen
+## <a id="ex5"></a>Beispiel 5: Nach ergriffenen Marketing-Initiativen suchen
 
 Angenommen, Sie arbeiten als Geschäftsführer der Marketing-Abteilung, und Sie suchen nach neuen Ideen für zukünftige Marketing-Initiativen. Deshalb möchten sie einen Überblick über die im vorherigen Quartal durchgeführten Folgeaufgaben im Hinblick auf das Marketing erhalten.
 

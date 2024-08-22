@@ -51,7 +51,7 @@ Hvis afsenderen slet ikke er oplistet i SuperOffice CRM, får du mulighed for at
 > [!NOTE]
 > Hvis du forsøger at arkivere mere end en e-mail ad gangen, bliver du adspurgt ved hver eneste afsender, der ikke er på listen i SuperOffice CRM.
 
-## <a id="new-contact" />Tilføj en e-mailadresse til en ny person
+## <a id="new-contact"></a>Tilføj en e-mailadresse til en ny person
 
 1. Åbn dialogboksen **Arkiver e-mailadresse**.
 
@@ -63,7 +63,7 @@ Hvis afsenderen slet ikke er oplistet i SuperOffice CRM, får du mulighed for at
 
 5. Klik på **OK**. Personen og dennes e-mailadresse vises på fanebladet **Personer** på det angivne firmakort.
 
-## <a id="existing-contact" />Tilføj e-mailadresse på eksisterende person
+## <a id="existing-contact"></a>Tilføj e-mailadresse på eksisterende person
 
 1. Åbn dialogboksen **Arkiver e-mailadresse**.
 

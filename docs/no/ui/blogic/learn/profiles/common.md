@@ -20,7 +20,7 @@ Fellesprofiler er koblet til en [rolle][2] og gjelder for alle brukere som har d
 * **System**: Du kan konfigurere disse profilene ved å følge fremgangsmåten nedenfor.
 * **Systemskjermbilder**: En liste over skjermbilder som er opprettet ved hjelp [av systemdesignerne][1] i SuperOffice Service. Disse kan du endre hvis du har tilgang til **Systemdesign** > **Skjermbilder**.
 
-## <a id="create" />Opprett felles profiler
+## <a id="create"></a>Opprett felles profiler
 
 Fremgangsmåten nedenfor viser et eksempel på hvordan du legger til et felt i skjermbildet **Finn saker**.
 

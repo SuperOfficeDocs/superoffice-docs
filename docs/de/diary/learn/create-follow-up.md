@@ -34,7 +34,7 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 | Schaltfläche Aufgabe in der Personenkarte | x | x | |
 | Kalender | x | | |
 
-### <a id="fields" />Wie Informationen eingegeben werden
+### <a id="fields"></a>Wie Informationen eingegeben werden
 
 > [!NOTE]
 > Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![Symbol][img4], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
@@ -94,7 +94,7 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 > [!NOTE]
 > Wenn Sie die Besprechung von der Registerkarte **Ansicht** erstellen, können Sie wählen, ob Teilnehmern automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
 
-### <a id="associate" />Besprechung für einen Mitarbeiter erstellen
+### <a id="associate"></a>Besprechung für einen Mitarbeiter erstellen
 
 Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öffnen, ihre Verfügbarkeit zu überprüfen oder Folgeaufgaben für sie zu erstellen.
 
@@ -110,7 +110,7 @@ Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öff
 
 6. Klicken Sie auf die Schaltfläche **Speichern**. Die Besprechung wird im Kalender der ausgewählten Person angezeigt.
 
-## <a id="copy" />Folgeaufgabe in den Kalender kopieren
+## <a id="copy"></a>Folgeaufgabe in den Kalender kopieren
 
 Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Folgeaufgabe in den Kalender zu einem anderen Zeitpunkt oder Tag kopieren.
 

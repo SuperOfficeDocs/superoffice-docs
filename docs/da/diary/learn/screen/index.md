@@ -47,7 +47,7 @@ Opfølgningerne vises som standard som blå felter i dagbogsfanerne. Hvis du hol
 > [!NOTE]
 > I Indstillinger og vedligeholdelse kan du definere, at alle opfølgninger af en bestemt type skal vises på skærmen Dagbog med en anden baggrundsfarve end den normale blå.
 
-### <a id="day" />Fanen Dag
+### <a id="day"></a>Fanen Dag
 
 Fanen **Dag** viser én dag ad gangen med timetidsintervaller langs venstre kant.
 
@@ -55,7 +55,7 @@ Fanen **Dag** viser én dag ad gangen med timetidsintervaller langs venstre kant
 
 Hvis [tidszoner][14] er aktiveret, kan du skifte tidszone i nederste venstre hjørne.
 
-### <a id="week" />Fanen Uge
+### <a id="week"></a>Fanen Uge
 
 Fanen **Uge** viser en uge ad gangen. Der er en kolonne for hver ugedag og timetidsintervaller langs venstre kant.
 
@@ -66,7 +66,7 @@ Hvis du vil åbne fanen **Dag** for en bestemt dag, skal du klikke på overskrif
 > [!NOTE]
 > Du kan definere, om søndag eller mandag skal betragtes som den første dag i ugen under ![icon][img7] **Personlige indstillinger** > **Indstillinger**.
 
-### <a id="month" />Fanen Måned
+### <a id="month"></a>Fanen Måned
 
 Fanen **Måned** viser en måned ad gangen. Det viser ikke tiden, men opfølgninger for individuelle dage vises.
 
@@ -77,7 +77,7 @@ Fanen **Måned** viser en måned ad gangen. Det viser ikke tiden, men opfølgnin
 
 Hvis du vil åbne **fanen Dag** for en bestemt dag, skal du klikke på overskriften/datoen.
 
-### <a id="view" />Fanen Oversigt
+### <a id="view"></a>Fanen Oversigt
 
 Fanen **Vis** på skærmen Dagbog viser din egen dagbog med dit bruger-id øverst på siden.
 

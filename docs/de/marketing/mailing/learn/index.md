@@ -72,7 +72,7 @@ Stellen Sie sich folgendes Szenario vor: Sie haben sorgfältig eine E-Mail-Kampa
 
 **Die E-Mail-Zustellung** ist entscheidend, weil sie darüber entscheidet, ob Ihre E-Mails tatsächlich im Posteingang der Abonnenten landen oder nicht. Wenn sie nicht zugestellt werden, werden sie von Ihrer Zielgruppe nicht gesehen oder gelesen, was bedeutet, dass Chancen verloren gehen und der Erfolg Ihrer E-Mail-Marketingkampagnen geringer ist. Schauen Sie sich unsere [Best Practices][9] an.
 
-## <a id="after" />Wie kann ich überwachen?
+## <a id="after"></a>Wie kann ich überwachen?
 
 Nach dem Versand Ihrer Kampagne ist es immer wieder spannend zu sehen, wie gut Ihre Kampagne funktioniert hat. Dadurch können Sie sehen, ob sich all Ihre harte Arbeit ausgezahlt hat. Es ist auch eine großartige Gelegenheit, die Qualität der in Ihrer CRM-Datenbank erfassten Informationen zu überprüfen und zu verbessern.
 

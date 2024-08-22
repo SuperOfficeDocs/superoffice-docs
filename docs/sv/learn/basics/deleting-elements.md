@@ -47,7 +47,7 @@ Exempel:
 * Du kan inte ta bort en kontakt som också är anställd i ett SuperOffice-företag.
 * Du kan inte ta bort händelser, dokument, försäljningar, projekt osv. som inte tillhör dig, såvida du inte har tillräckliga användarbehörigheter.
 
-## <a id="restore" />Återskapa borttagna företag och kontakter
+## <a id="restore"></a>Återskapa borttagna företag och kontakter
 
 När du har tagit bort något som inte var avsett att tas bort, för företag och kontakter, kan du fortfarande återställa det från papperskorgen. Detta gör det mindre skrämmande att ta bort, när du vet att du fortfarande har ett återställningsalternativ.
 

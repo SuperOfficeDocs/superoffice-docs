@@ -51,7 +51,7 @@ Menuopties:
 * **Verplaatsen naar map** (verplaats de koppeling naar een andere map)
 * **Verwijderen**
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Sporbare links kunnen op verschillende manieren worden gebruikt:
 
@@ -73,7 +73,7 @@ Sporbare links kunnen op verschillende manieren worden gebruikt:
 > [!NOTE]
 > Deze voorbeelden werken even goed voor gewone links, maar in dat geval worden alleen de klikken voor de afzonderlijke mailing geregistreerd.
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 Wanneer u een mailing instelt, kunt u Google Analytics als volgsysteem gebruiken. Via de instellingen in mailings kunt u een nauwkeurigere tracering van e-mails definiëren met behulp van de opgegeven velden, wat resulteert in meer gedetailleerde Google Channel-rapporten.
 

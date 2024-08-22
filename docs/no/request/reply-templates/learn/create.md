@@ -91,7 +91,7 @@ Bortsett fra layouten/formateringen til svarmalen, må den inneholde følgende m
 [[ENDIF]]
 ```
 
-## <a id="faq" />Automatisk FAQ-svar
+## <a id="faq"></a>Automatisk FAQ-svar
 
 SuperOffice Service leveres med et sett med svarmaler. Blant disse svarmalene finner du "Eksempel på automatisk FAQ-svar". Denne svarmalen inneholder et eksempel på automatisering av svar til kunden, i fanen **HTML-tekst**.
 

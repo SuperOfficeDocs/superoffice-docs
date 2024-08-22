@@ -71,13 +71,13 @@ Er zijn veel manieren waarop u personen kunt toevoegen aan SuperOffice CRM:
 
 12. Ga naar het sectietabblad **Relaties**. Hier kunt u [relaties toevoegen][8] tussen deze persoon en een andere persoon of een bedrijf.
 
-## <a id="more-tab" />Het tabblad Meer (scherm Persoon)
+## <a id="more-tab"></a>Het tabblad Meer (scherm Persoon)
 
 De tab **Meer** bevat door gebruiker gedefinieerde velden voor personen. Als uw organisatie bijvoorbeeld IT-producten en behoeftenvelden verkoopt voor de hardware en software van elke persoon, kunt u in Instellingen en onderhoud opgeven dat deze velden hier moeten worden ingevoegd.
 
 Andere voorbeelden: Jaar van indiensttreding, ERP-ID's, type gebruiker, CXM-info.
 
-## <a id="interests-tab" />Het tabblad Interesses (scherm Persoon)
+## <a id="interests-tab"></a>Het tabblad Interesses (scherm Persoon)
 
 De tab **Interesses** bevat de volgende opties:
 

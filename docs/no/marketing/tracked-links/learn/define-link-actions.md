@@ -48,20 +48,20 @@ Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere
 > [!NOTE]
 > Når du oppdaterer en sporingslenke, må du huske at den kan brukes av flere utsendelser og/eller automatiserte flyter (en pilotfunksjon). Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
-## <a id="response" />Respons
+## <a id="response"></a>Respons
 
 Velg hva som skal skje når mottakeren klikker på koblingen.
 
 * **Omdirigere til ny webside**: Skriv inn URL-en i det angitte feltet.
 * Eller, **Vis tilpasset tekst**: Skriv inn teksten som skal vises. Klikk på ![ikon][img4] redigeringsknappen for å vise verktøylinjen for rik tekst.
 
-## <a id="set-field" />Angi felt
+## <a id="set-field"></a>Angi felt
 
 I fanen **Angi felt** kan du sette en verdi som skal legges til i et ekstrafelt når mottakeren klikker på koblingen. Dette registrerer ytterligere kundeinformasjon.
 
 Velg et felt og skriv inn en verdi.
 
-## <a id="interests" />Interesser
+## <a id="interests"></a>Interesser
 
 Angi at et koblingklikk skal endre personens interesser. For eksempel, legg til interessen "Produktnyheter" hvis koblingen "Ja, hold meg informert om nye produkter" blir klikket på, eller fjern den hvis koblingen "Stopp abonnement" blir klikket på.
 
@@ -70,11 +70,11 @@ Angi at et koblingklikk skal endre personens interesser. For eksempel, legg til 
 
 [Hvordan lage et påmeldingsskjema for nyhetsbrev][1]
 
-## <a id="selection" />Utvalg/Prosjekt
+## <a id="selection"></a>Utvalg/Prosjekt
 
 Spesifiser at mottakere som klikker på koblingen, vil bli lagt til eller fjernet fra utvalg eller prosjekter. Begynn å skrive et navn for å starte hurtigsøket.
 
-## <a id="follow-up" />Oppfølging (møte/oppgave)
+## <a id="follow-up"></a>Oppfølging (møte/oppgave)
 
 På fanen **Oppfølging** kan du sette et koblingklikk for å generere møter eller oppgaver i SuperOffice CRM. Velg oppfølgingstypen, gi en beskrivelse, knytt den til et prosjekt, velg oppgavetypen, tildel ansvar, og sett varigheten.
 Aktiver denne funksjonen ved å velge **Oppfølging**.
@@ -86,13 +86,13 @@ Aktiver denne funksjonen ved å velge **Oppfølging**.
 >
 > Når du setter **Opprettet av** eller **Standardmottaker**, kan du klikke på **Velg aktiv bruker**-knappen ![ikon][img1] for å velge deg selv.
 
-## <a id="request" />Sak
+## <a id="request"></a>Sak
 
 På fanen **Sak** kan du sette et koblingklikk for å opprette en Service-sak. Merk av for å registrere en ny sak, gi en tittel, velg prioritet og kategori, og velg eieren. Du kan også velge **Automatisk tildelt** eller **Ufordelt**.
 
 [Hvordan opprette en sak][3]
 
-## <a id="script" />Skript
+## <a id="script"></a>Skript
 
 På fanen **Skript** kan du velge et CRMskript eller makro som skal kjøres når koblingen klikkes. Aktiver denne funksjonen ved å velge **Kjør skript**, og velg deretter det ønskede skriptet fra listen.
 

@@ -35,7 +35,7 @@ Brugergrænsefladen har fem hovedelementer:
   * [Liste over udvalgsmedlemmer][19]
   * [Aktiviteter][13]
 
-## <a id="global-buttons" />Globale knapper
+## <a id="global-buttons"></a>Globale knapper
 
 De globale knapper vises i hele brugerfladen. Nogle er på hovedskærmen, mens andre er i de forskellige dialogbokse.
 

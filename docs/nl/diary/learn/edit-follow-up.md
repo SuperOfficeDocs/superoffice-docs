@@ -32,7 +32,7 @@ Als u een uitnodiging die u hebt aangemaakt en verzonden, verwijdert of tijd, da
 > [!NOTE]
 > Voltooide vervolgactiviteiten kunt u pas bewerken als u de optie **Voltooid** hebt uitgeschakeld.
 
-## <a id="change-end" />De eindtijd voor een vervolgactiviteit in de agenda wijzigen
+## <a id="change-end"></a>De eindtijd voor een vervolgactiviteit in de agenda wijzigen
 
 U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm Agenda zonder de activiteit te openen:
 
@@ -47,7 +47,7 @@ U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm A
 > [!NOTE]
 > U kunt de tijd ook wijzigen door de vervolgactiviteit te openen en de velden **Start**, **Eind**, **Vervaldatum** of **Duur** te wijzigen.
 
-## <a id="repeat" />Herhalende vervolgactiviteit bewerken
+## <a id="repeat"></a>Herhalende vervolgactiviteit bewerken
 
 Wijzigingen worden op dezelfde manier doorgevoerd als in Vervolgactiviteiten bewerken, maar wanneer u een wijziging doorvoert, wordt het dialoogvenster **Herhalende vervolgactiviteiten** weergegeven.
 
@@ -65,7 +65,7 @@ Als u de starttijd van een enkele vergadering wijzigt, heeft dit geen invloed op
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Vervolgactiviteit verwijderen via de agenda
+## <a id="delete"></a>Vervolgactiviteit verwijderen via de agenda
 
 * Als u een vervolgactiviteit verwijdert waarvoor u bent uitgenodigd, wordt deze slechts verwijderd uit uw eigen agenda.
 * Als u een uitnodiging waarvan u de eigenaar bent verwijdert uit uw agenda, wordt deze vervolgactiviteit ook verwijderd uit de agenda's van de genodigden.

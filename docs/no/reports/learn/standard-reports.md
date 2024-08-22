@@ -18,7 +18,7 @@ En rekke rapporter følger med SuperOffice CRM som standard, men en organisasjon
 > [!TIP]
 > Du kan lagre standardrapporter du bruker ofte, som [favorittrapporter][2] for å gjøre dem lettere tilgjengelig. I tillegg kan du redigere standardrapporter og lagre dem som favoritter.
 
-## <a id="type" />Typer
+## <a id="type"></a>Typer
 
 | Type | Beskrivelse |
 |---|---|

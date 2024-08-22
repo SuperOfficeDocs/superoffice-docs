@@ -69,7 +69,7 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
 
 1. Klik på **Send** for at sende og gemme sagen.
 
-## <a id="message" />Meddelelse
+## <a id="message"></a>Meddelelse
 
 > [!NOTE]
 > Hvis du vil sende meddelelsen til en person, skal du tilføje modtagere i feltet **Til** over fanerne. Hvis du vil gøre meddelelsen tilgængelig for personen via SuperOffice kundecenter, skal du angive adgangsniveauet (for meddelelsen) til **Ekstern**.
@@ -90,7 +90,7 @@ Nederst i hvert skærmbillede finder du desuden følgende valgmuligheder:
 > [!NOTE]
 > Standardanmodningssignaturen føjes til meddelelsen. Du kan redigere signaturen direkte i meddelelsen eller redigere din [standardmailsignatur][1].
 
-## <a id="details" />Detaljer
+## <a id="details"></a>Detaljer
 
 Fanen **Detaljer** indeholder yderligere informationer om sagen. Her finder du informationer som, hvornår sagen blev oprettet, hvornår den sidst blev ændret, lukket eller besvaret, hvornår den blev læst af ejeren eller personen og ekstra felter. Disse informationer opdateres automatisk i sagens levetid, men der er nogle felter, der kan redigeres, når sagen oprettes:
 

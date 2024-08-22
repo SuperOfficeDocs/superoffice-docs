@@ -17,7 +17,7 @@ Et salg har en hovedperson, men også partnere og underleverandører kan være i
 
 For hver interessent vises oplysninger om firma, personnavn, rolle i salget, e-mailadresse og telefonnummer.
 
-## <a id="role" />Salg - Rolle (interessent)
+## <a id="role"></a>Salg - Rolle (interessent)
 
 Et salg har en hovedperson, men også partnere og underleverandører kan være involveret i salget. Disse kaldes interessenter og kan registreres på detaljekortet **Interessenter** nederst i skærmbilledet Salg. Både enkeltpersoner og organisationer kan være interessenter.
 

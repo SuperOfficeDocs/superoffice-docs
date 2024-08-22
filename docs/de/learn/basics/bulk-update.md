@@ -54,7 +54,7 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 
 10. Klicken Sie auf **Schließen**.
 
-## <a id="search-and-replace" />Suchen und ersetzen
+## <a id="search-and-replace"></a>Suchen und ersetzen
 
 Mit dem Aktionstyp **Suchen und ersetzen** können Sie eine bestimmte Zeichenfolge in einem Feld suchen und ersetzen.
 
@@ -63,7 +63,7 @@ Mit dem Aktionstyp **Suchen und ersetzen** können Sie eine bestimmte Zeichenfol
 3. Geben Sie den gewünschten Text in das Feld **Ersetzen mit** ein.
 4. Optional: Klicken Sie auf **Optionen** und wählen Sie Einstellungen zum Umgang mit Groß- und Kleinschreibung und zur Suche des ganzen Worts oder eines Wortteils aus.
 
-## <a id="regex" />Reguläre Suchausdrücke
+## <a id="regex"></a>Reguläre Suchausdrücke
 
 Mit dem Aktionstyp **Regex** können Sie ein Feld anhand von regulären Ausdrücken abgleichen.
 

@@ -36,7 +36,7 @@ Titta på filmen om hur du [skapar ett företag][1].
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
 
-## <a id="more-tab" />Fliken Mer (fönstret Företag)
+## <a id="more-tab"></a>Fliken Mer (fönstret Företag)
 
 1. Gå till fliken **Mer**. Här finns användardefinierade fält för företag. Om ditt företag till exempel behöver ha fält för antal medarbetare i företaget eller omsättning kan du ange att dessa fält ska läggas in på den här fliken under Inställningar och underhåll.
 
@@ -47,7 +47,7 @@ Titta på filmen om hur du [skapar ett företag][1].
 > [!NOTE]
 > Du kan också redigera företagsinformationen på fliken **Mer** genom att klicka på **Redigera**.
 
-## <a id="interests-tab" />Fliken Intressen (fönstret Företag)
+## <a id="interests-tab"></a>Fliken Intressen (fönstret Företag)
 
 1. Gå till fliken **Intressen**.
 

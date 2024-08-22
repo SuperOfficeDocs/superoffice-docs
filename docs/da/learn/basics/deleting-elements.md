@@ -47,7 +47,7 @@ Eksempler:
 * Du kan ikke slette en person, som også er ansat i et SuperOffice-firma.
 * Du kan ikke slette opfølginger, dokumenter, salg, projekter m.m., som ikke tilhører dig, medmindre du har tilstrækkelige brugerrettigheder til at gøre det.
 
-## <a id="restore" />Gendannelse af slettede firmaer og personer
+## <a id="restore"></a>Gendannelse af slettede firmaer og personer
 
 Når du har slettet noget, der ikke var beregnet til at blive slettet, for firmaer og personer, kan du stadig gendanne dem fra papirkurven. Dette gør det mindre skræmmende at slette, når du ved, at du stadig har en gendannelsesmulighed.
 

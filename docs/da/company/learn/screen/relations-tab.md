@@ -15,7 +15,7 @@ language: da
 
 Fanen **Relationer** viser eventuelle forbindelser mellem virksomheder og/eller kontakter, f.eks. oplysninger om ejerstruktur eller om personer, der har været ansat i forskellige firmaer.
 
-## <a id="columns" />Kolonner under fanen Relationer
+## <a id="columns"></a>Kolonner under fanen Relationer
 
 I kolonnerne på detaljekortet **Relationer** finder du følgende oplysninger:
 

@@ -94,7 +94,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 ***
 
-## <a id="fields" />Hoe informatie in te voeren
+## <a id="fields"></a>Hoe informatie in te voeren
 
 > [!NOTE]
 > Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
@@ -127,7 +127,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 * Stel in het tabblad **Meer** alle [gebruikersgedefinieerde velden][10] in die zijn geconfigureerd in Instellingen en onderhoud.
 
-## <a id="upload" />Documenten uploaden
+## <a id="upload"></a>Documenten uploaden
 
 1. Klik op **Nieuw** > **Document** op de bovenste balk.
 

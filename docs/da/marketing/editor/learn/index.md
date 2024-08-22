@@ -95,7 +95,7 @@ Når du klikker på et afsnit i en meddelelse, får du adgang til forskellige fu
 | ![ikon][img8] | Dupliker | Der oprettes en kopi af afsnittet. |
 | ![ikon][img9] | Gem blok | Gemmer det markerede afsnit som en blok. Lader dig genbruge indhold på (f.eks. sidehoveder og sidefødder) på tværs af meddelelser. |
 
-## <a id="variables" />Skabelonvariabler
+## <a id="variables"></a>Skabelonvariabler
 
 For at give meddelelsen et mere personligt præg kan du bruge pladsholdere til at indsætte kundespecifikke oplysninger såsom kundens fornavn. På denne måde kan du skræddersy indholdet til hver enkelt kunde.
 
@@ -126,7 +126,7 @@ Bruger du den nye Træk og slip-editor eller den tidligere version af editoren?
 
 I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og slip-editoren") som erstatning for den gamle ("Editoren"). Meddelelseseditoren bruges, når der oprettes e-mailudsendelser og formularsvar. Den gamle meddelelseseditor vil stadig være tilgængelig til at redigere meddelelser og skabeloner, der er oprettet i den gamle version. Alle nye udsendelser og skabeloner vil bruge den nye meddelelseseditor.
 
-### <a id="old" />Editor (gammel)
+### <a id="old"></a>Editor (gammel)
 
 ![Editor (gammel) -screenshot][img13]
 

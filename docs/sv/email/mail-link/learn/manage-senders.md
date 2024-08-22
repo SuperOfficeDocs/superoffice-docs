@@ -51,7 +51,7 @@ Om avsändaren inte finns med i SuperOffice CRM kan du lägga till personens e-p
 > [!NOTE]
 > Om du försöker arkivera mer än ett e-postmeddelande i taget får du en uppmaning för varje avsändare som inte finns med i SuperOffice CRM.
 
-## <a id="new-contact" />Lägg till en e-postadress till en ny kontakt
+## <a id="new-contact"></a>Lägg till en e-postadress till en ny kontakt
 
 1. Öppna dialogrutan **Spara e-postadress**.
 
@@ -63,7 +63,7 @@ Om avsändaren inte finns med i SuperOffice CRM kan du lägga till personens e-p
 
 5. Klicka på **OK**. Kontakten och e-postadressen visas på fliken **Kontakter** på det angivna företagskortet.
 
-## <a id="existing-contact" />Lägg till en e-postadress till en befintlig kontakt
+## <a id="existing-contact"></a>Lägg till en e-postadress till en befintlig kontakt
 
 1. Öppna dialogrutan **Spara e-postadress**.
 

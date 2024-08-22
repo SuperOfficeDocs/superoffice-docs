@@ -16,7 +16,7 @@ Du må være logget på som administrator for å behandle lisenser.
 > [!NOTE]
 > Hvis du bruker en demoversjon av SuperOffice CRM, kan du bli bedt om å oppgi et nytt serienummer og en ny lisenseier. Dette får du av SuperOffice når du kjøper en SuperOffice-lisens.
 
-## <a id="buy" />Kjøpe
+## <a id="buy"></a>Kjøpe
 
 1. Gå til Innstillinger og vedlikehold.
 1. Gå til Lisenser-bildet.

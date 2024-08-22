@@ -22,13 +22,13 @@ Der Kalender ist bei der Planung und Ausführung verschiedener Arten von Aufgabe
 
 Regelmäßige Nutzung des Kalenders, bei der Aktivitäten mit einem Kontakt oder einem Unternehmen verbunden werden, stellt sicher, dass Sie und Ihr Team mühelos organisiert bleiben und eine reibungslose Zusammenarbeit sowie gesteigerte Produktivität fördern.
 
-## <a id="open" />Kalender anzeigen
+## <a id="open"></a>Kalender anzeigen
 
 Klicken Sie im Navigator auf **Kalender** und wählen Sie einen Zeitraum aus der angezeigten Liste aus, oder klicken Sie auf **Heute** oder **Diese Woche**, um zum aktuellen Tag oder zur aktuellen Woche zu wechseln. Oben rechts in der Ansicht Kalender wird Ihr Name angezeigt. Wenn sich zwei oder mehr Folgeaufgabe überschneiden, können Sie einen Teil jeder Nachverfolgung sehen.
 
 Sie können auf den Kalender eines anderen Benutzers oder einer verfügbaren Ressource zugreifen, um deren Verfügbarkeit zu überprüfen oder Folgeaufgabe direkt zu erstellen. Um mehrere Kalender gleichzeitig anzuzeigen, erstellen Sie eine [Gruppenansicht][2].
 
-## <a id="nav" />In der Ansicht Kalender navigieren
+## <a id="nav"></a>In der Ansicht Kalender navigieren
 
 Der Kalender besteht aus [vier Registerkarten][24]: Registerkarte **Tag**, Registerkarte **Woche**, Registerkarte **Monat** und Registerkarte **Übersicht**. Sie können problemlos zwischen diesen Ansichten wechseln: Klicken Sie dazu einfach auf die Registerkarten oben in der Ansicht Kalender. Je nach Registerkarte wird oben der Tag, die Woche oder der Monat angezeigt.
 

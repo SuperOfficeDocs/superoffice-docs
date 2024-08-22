@@ -20,7 +20,7 @@ Det er enkelt å opprette et skjema og legge det ut på en hvilken som helst net
 
 ![Du kan bruke et webskjema til å be folk om å melde seg på ditt neste webinar eller seminar, eller til å kontakte firmaet ditt med sine spørsmål -screenshot][img1]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Du kan bruke webskjemaer til å fange opp besøkendes opplysninger - navn, e-postadresse, preferanser, kommentarer og tilbakemeldinger, og muligens konvertere dem til kunder. Dataene du får via nettskjemaer, kan importeres automatisk til SuperOffice CRM-databasen, noe som sparer deg for tid og krefter.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing har 3 faner som gjelder skjemaer.
 
 * **Fanen Skjemainnsendinger:** viser en liste over personer som har sendt inn et skjema, og gjeldende [status for deres innsending](#status).
 
-## <a id="view" />Skjermbildet Vis skjema
+## <a id="view"></a>Skjermbildet Vis skjema
 
 ![SuperOffice Marketing skjermbilde 'Vis skjema' -screenshot][img4]
 
@@ -79,7 +79,7 @@ Skjermen **Vis skjema** består av følgende faner:
 * **Skjemainnsendinger:** viser innsendinger for et individuelt skjema.
 * **Svar på e-post:** en forhåndsvisning av skjemasvaret (utsendelse) knyttet til dette skjemaet. Synlig bare hvis **E-postsvar** [skjemahandling][8] er valgt.
 
-## <a id="submissions" />Skjemainnsendinger
+## <a id="submissions"></a>Skjemainnsendinger
 
 Når et skjema sendes fra et kundesenter eller webside samles dataene inn og vises i fanen **Skjemainnsendinger**. Et rødt ikon indikerer ny skjemainnsending ![icon][img3].
 
@@ -88,13 +88,13 @@ Bruk filteralternativene nederst i listen for å se bare innsendinger med bestem
 > [!NOTE]
 > Du kan også [vise innsendinger for enkeltskjemaer][5] ved å åpne et skjema i fanen **Skjemaer**.
 
-### <a id="status" />Status
+### <a id="status"></a>Status
 
 * **Behandlet**: Skjemaet ble sendt inn og automatisk behandlet.
 * **Innsendt**: Skjemaet ble sendt inn, men er ikke behandlet ennå. [Slik behandler du skjemainnsendinger][2]
 * **Venter på bekreftelse**: Skjemaet ble sendt inn, men avsenderen må bekrefte e-postadressen sin (double-opt in).
 
-## <a id="opt-in" />Hva er dobbel opt-in?
+## <a id="opt-in"></a>Hva er dobbel opt-in?
 
 Med dobbel opt-in må kundene bekrefte e-postadressen sin ved å klikke på koblingen i en bekreftelses-e-post i tillegg til å sende inn skjemaet.
 

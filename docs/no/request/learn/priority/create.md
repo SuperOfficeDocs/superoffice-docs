@@ -59,7 +59,7 @@ Standardprioritetene som følger med systemet, er **Høy**, **Medium** og **Lav*
 
 1. Klikk på **Lagre**. Prioriteten opprettes. Nå kan du for eksempel [knytte eskaleringsnivåer til denne prioriteten][1].
 
-## <a id="priority-settings"/>Prioritetsinnstillinger
+## <a id="priority-settings"></a>Prioritetsinnstillinger
 
 | Innstilling | Beskrivelse |
 |---|---|
@@ -73,7 +73,7 @@ Standardprioritetene som følger med systemet, er **Høy**, **Medium** og **Lav*
 | Inkluder år | Her inkluderer du året i feriedatoene. |
 | Eskalere saker i henhold til tidsramme | Hvis det er merket av her, eskaleres saker med denne prioriteten bare i løpet av prioritetens definerte tidsramme. Utenfor periodene som er definert i fanen **Tidsramme** blir eskaleringen "frosset". |
 
-## <a id="escalation-options"/>Alternativer for eskalering
+## <a id="escalation-options"></a>Alternativer for eskalering
 
 | Alternativ | Beskrivelse |
 |---|---|

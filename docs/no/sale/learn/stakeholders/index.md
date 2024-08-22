@@ -17,7 +17,7 @@ Et salg har en primærkontakt, men også partnere og underleverandører kan vær
 
 For hver interessent vises det informasjon om firma, personnavn, rolle i salget, e-postadresse og telefonnummer.
 
-## <a id="role" />Salg – Rolle (Interessent)
+## <a id="role"></a>Salg – Rolle (Interessent)
 
 Et salg har en primærkontakt, men også partnere og underleverandører kan være involvert i salget. Disse kalles interessenter og kan registreres i detaljkortet **Interessenter** nederst i Salg-bildet. Interessenter kan omfatte enkeltpersoner så vel som organisasjoner.
 

@@ -13,7 +13,7 @@ language: sv
 
 Det kan hända att du vill skapa en serie bokningar som återkommer med jämna mellanrum, till exempel ett veckomöte för statusuppdatering. Istället för att lägga in dessa möten ett i taget kan du använda funktionen för återkommande händelser.
 
-## <a id="frequency" />Förekomst
+## <a id="frequency"></a>Förekomst
 
 **Förekomst** beskriver hur händelsen upprepas. Mönstret kan vara dagligen, veckovis, månadsvis, årligen eller upprepning med ett användardefinierat intervall. Vilka alternativ som är tillgängliga för varje förekomst varierar.
 

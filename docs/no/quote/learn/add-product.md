@@ -36,7 +36,7 @@ I dialogboksen **Legg til / rediger produkt** kan du legge til et produkt, angi 
     eller
     Klikk på **Lagre** for å lagre og gå tilbake til tilbudet.
 
-## <a id="add-multiple" />Legge til flere produkter i et tilbud
+## <a id="add-multiple"></a>Legge til flere produkter i et tilbud
 
 1. Klikk på **Legg til** nederst i fanen **Produkter** i dialogboksen **Rediger tilbud**.
 
@@ -73,7 +73,7 @@ Her vises det detaljert produktinformasjon, hvis dette er definert i Innstilling
 
 Her vises detaljerte prisberegninger. Innholdet på denne fanen defineres i Innstillinger og vedlikehold.
 
-## <a id="warning" />Advarsler og hvordan de skal håndteres
+## <a id="warning"></a>Advarsler og hvordan de skal håndteres
 
 I Innstillinger og vedlikehold kan det defineres ulike regler for hva som er tillatt og ikke tillatt når du legger til produkter i et tilbud. Avhengig av hvordan disse reglene er definert, kan det hende at det vises ulike ikoner/varsler når du legger til produkter i et tilbud. I noen tilfeller må tilbudet godkjennes [før sending][1].
 

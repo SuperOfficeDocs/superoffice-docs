@@ -30,7 +30,7 @@ pilot: yes
 
 ![Ange egenskaper för nytt flöde -screenshot][img1]
 
-## <a id="fields" />Fylla i flödesfält
+## <a id="fields"></a>Fylla i flödesfält
 
 ### Inställningar (för flöde)
 
@@ -74,7 +74,7 @@ Framgångskriterier definierar [vad framgång betyder för ett flöde][7].
 
 ![Ställ in framgångskriterier för nytt flöde -screenshot][img3]
 
-## <a id="trigger" />Definiera flödets triggers och filter
+## <a id="trigger"></a>Definiera flödets triggers och filter
 
 **Trigger**-steget läggs automatiskt till som startpunkt för alla flöden. Det avgör vem flödet är relevant för. Triggers aktiveras endast för körande eller pausade flöden.
 
@@ -128,7 +128,7 @@ Exkluderingslistan **förhindrar att utvalda kontakter läggs till i flödet**. 
 * Förhindra specifika kunder från att få allmänna massutskick.
 * Skicka påminnelser, men inte till dem som redan har anmält sig.
 
-## <a id="add-step"/>Lägg till steg
+## <a id="add-step"></a>Lägg till steg
 
 1. Välj **Steg** från vänstermenyn.
 1. Välj ett steg och dra det till där du vill lägga till det i flödesschemat.
@@ -151,7 +151,7 @@ När du öppnar fliken **Steg** för första gången kommer du att se något lik
 * Ett flödesschema med en **Trigger**, en **platshållare** för att lägga till ett steg och ett **Slutfördssteg** (i mitten).
 * En lista över tillgängliga stegtyper (till höger).
 
-## <a id="wait" />Flödeskontroll
+## <a id="wait"></a>Flödeskontroll
 
 De flesta steg i ett flöde representerar åtgärder relaterade till deltagaren, såsom att uppdatera kontaktintressen. Men flödeskontrollsteg är annorlunda; de involverar **timing** och **segmentering**.
 

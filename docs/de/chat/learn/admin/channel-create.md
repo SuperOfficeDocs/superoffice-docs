@@ -87,7 +87,7 @@ In der Registerkarte **Mitarbeiter** können Sie Benutzern Zugriff auf einen Cha
     * **Manager**: Der Mitarbeiter erhält Managerwarnungen. Diese Berechtigung kann zum Beispiel für Teamleiter vergeben werden.
 4. Gehen Sie für jeden Mitarbeiter, den Sie hinzufügen möchten, wie in Schritt 1-3 erläutert vor.
 
-## <a id="chatbot" />ChatBot
+## <a id="chatbot"></a>ChatBot
 
 Auf der Registerkarte **ChatBot** können Sie den Chatbot aktivieren. Wenn ein Chat auf einem Kanal mit aktivem Chat initiiert wird, wird das Skript "on-new-chat-message" ausgelöst und die Nachricht wird zur Verarbeitung an das Skript übergeben. Das Skript sendet die Nachricht zur Verarbeitung, empfängt die Nachricht, postet die Ergebnisse und markiert die Nachricht eventuell zur Übergabe an einen Mitarbeiter.
 

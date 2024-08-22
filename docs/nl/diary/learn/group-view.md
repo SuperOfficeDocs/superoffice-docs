@@ -45,7 +45,7 @@ U kunt gebruikers en bronnen weergeven waarvan u de agenda's wilt zien, waarna u
 > [!TIP]
 > Als u de groepsweergave wilt verwijderen, klikt u op de knop **Taak** rechtsonder en selecteert u **Groepsweergave verwijderen**.
 
-## <a id="fields" />Velden
+## <a id="fields"></a>Velden
 
 ### Naam
 
@@ -84,7 +84,7 @@ Klik op **Alles selecteren** ![pictogram][img6] als u alle gebruikers/bronnen in
 
 Hier worden de gebruikers en bronnen weergegeven die u aan de groepsweergave hebt toegevoegd. Als u een gebruiker of bron uit deze lijst wilt verwijderen, selecteert u de gebruiker of bron en klikt u op de pijl-links ![pictogram][img1]. De door u gekozen gebruikers en bronnen worden in de groepsweergave weergegeven in de volgorde waarin ze in het rechterdeelvenster staan. Als u deze volgorde wilt wijzigen, selecteert u een gebruiker of bron en klikt u op de pijl-omhoog ![pictogram][img3] of pijl-omlaag ![pictogram][img4] om deze omhoog of omlaag te verplaatsen.
 
-## <a id="troubleshoot" />Waarom is de knop Bewerken uitgeschakeld (grijs)?
+## <a id="troubleshoot"></a>Waarom is de knop Bewerken uitgeschakeld (grijs)?
 
 U kunt alleen groepsweergaven wijzigen die door u zijn gemaakt. In een vooraf gedefinieerde groepsweergave opent, wordt de knop **Bewerken** grijs weergegeven om aan te geven dat u de groepsweergave hier niet kunt wijzigen. Deze groepsweergaven bevatten alle gebruikers die aan de specifieke groepen toegewezen zijn. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

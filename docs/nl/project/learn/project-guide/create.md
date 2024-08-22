@@ -33,7 +33,7 @@ Deze procedure toont u hoe u een geheel nieuwe projectgids kunt maken.
 
 ![Ga naar de sectie Workflow en maak uw eigen projectroutines in SuperOffice CRM -screenshot][img2]
 
-## <a id="create-stage" /> Statussen maken voor de projectgids
+## <a id="create-stage"></a> Statussen maken voor de projectgids
 
 Een projectgids moet worden gekoppeld aan een projecttype dat weer uit verschillende statussen bestaat. [Zo maakt u een status][2].
 
@@ -41,7 +41,7 @@ Een projectgids voor een project van het type Conferentie kan bijvoorbeeld de st
 
 Ga naar de volgende procedures om de statussen aan een projecttype te koppelen.
 
-## <a id="create-type" /> Een projecttype maken voor de projectgids
+## <a id="create-type"></a> Een projecttype maken voor de projectgids
 
 Een projectgids moet aan een projecttype worden gekoppeld. [Zo maakt u een projecttype][3].
 
@@ -51,7 +51,7 @@ Voorbeelden van projecttypen: 'Vergadering', 'Campagne' en 'Intern'.
 1. Selecteer ten minste twee statussen.
 1. Ga naar de volgende procedure om de projectgids te maken.
 
-## <a id="create-guide" />Een projectgids maken
+## <a id="create-guide"></a>Een projectgids maken
 
 Nadat u statussen hebt gemaakt en een projecttype voor de projectgids hebt opgegeven, kunt u de projectgids zelf ontwerpen. U doet door vervolgactiviteiten en/of documenten toe te voegen voor elke status in de projectgids.
 
@@ -79,7 +79,7 @@ Nadat u statussen hebt gemaakt en een projecttype voor de projectgids hebt opgeg
 
 De wijzigingen worden automatisch opgeslagen. De projectgids wordt nu weergegeven in SuperOffice CRM wanneer een project wordt aangemaakt met het in stap B geselecteerde projecttype.
 
-## <a id="add-fo-status" />Een vervolgactiviteit toevoegen voor een status
+## <a id="add-fo-status"></a>Een vervolgactiviteit toevoegen voor een status
 
 1. Selecteer het gewenste projecttype en de gewenste status zoals hierboven is beschreven.
 
@@ -128,7 +128,7 @@ Planningsvergadering:
 \- Sprekers?
 \- Waar?
 
-## <a id="add-doc-status" />Een document toevoegen voor een status
+## <a id="add-doc-status"></a>Een document toevoegen voor een status
 
 1. Selecteer het gewenste projecttype en de gewenste status zoals hierboven is beschreven.
 2. Klik op **Toevoegen** onder **Voorgestelde documenten in status**.

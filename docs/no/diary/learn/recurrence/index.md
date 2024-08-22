@@ -14,7 +14,7 @@ language: no
 
 Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevne mellomrom, for eksempel et ukentlig statusmøte. I stedet for å registrere disse møtene enkeltvis, kan du bruke funksjonen for repeterende oppfølginger.
 
-## <a id="frequency" />Hyppighet
+## <a id="frequency"></a>Hyppighet
 
 **Hyppighet** er hvordan oppfølgingen gjentas. Mønsteret kan være daglig, ukentlig, månedlig, årlig eller gjentas med et brukerdefinert intervall. Alternativene som er tilgjengelige for hver hyppighet, varierer.
 

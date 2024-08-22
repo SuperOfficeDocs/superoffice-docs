@@ -78,7 +78,7 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 ***
 
-### <a id="allow" />Webbläsarsäkerhetsfråga vid öppning av filer
+### <a id="allow"></a>Webbläsarsäkerhetsfråga vid öppning av filer
 
 När du får tillgång till och redigerar ett dokument, fil eller e-post i SuperOffice, uppmanar din webbläsare dig med en *säkerhetsfråga* angående filnedladdningen.
 
@@ -103,7 +103,7 @@ Dialogen ser något annorlunda ut i Chrome, Edge, Firefox och Safari.
 
 ![Safari: Alltid tillåt eller Tillåt -screenshot][img4]
 
-## <a id="delete" />Ta bort dokument
+## <a id="delete"></a>Ta bort dokument
 
 1. Välj dokumentet på detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Kalender, Försäljning eller Projekt.
 2. Klicka på knappen **Ta bort** längst ner till vänster i listan.

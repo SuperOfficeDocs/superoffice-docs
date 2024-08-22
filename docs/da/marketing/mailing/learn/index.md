@@ -72,7 +72,7 @@ Forestil dig dette scenarie: Du har omhyggeligt skabt en e-mailkampagne med før
 
 **E-maillevering** er afgørende, fordi det afgør, om dine e-mails rent faktisk når frem til abonnenternes indbakker eller ej. Hvis de ikke leveres, vil de ikke blive set eller læst af din målgruppe, hvilket betyder tabte muligheder og mindre succesfulde e-mailmarkedsføringskampagner. Se vores [bedste praksisser][9].
 
-## <a id="after" />Hvordan kan jeg følge op udsendelser?
+## <a id="after"></a>Hvordan kan jeg følge op udsendelser?
 
 Når din mail er sendt ud, er det altid spændende at se, hvor godt den klarede sig, så du kan se, om alt dit hårde arbejde har været det værd. Det er også en fantastisk mulighed for at tjekke og forbedre kvaliteten af de oplysninger, der er registreret i din CRM-database.
 

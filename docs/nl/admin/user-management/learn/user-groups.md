@@ -15,7 +15,7 @@ language: nl
 
 Om collega's te groeperen en hen toegang te geven tot CRM-gegevens op basis van deze groepering, moet je een nieuwe gebruikersgroep aanmaken in SuperOffice en vervolgens deze groep toewijzen aan je collega's.
 
-## <a id="create" />Gebruikersgroepen maken
+## <a id="create"></a>Gebruikersgroepen maken
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -33,7 +33,7 @@ Om collega's te groeperen en hen toegang te geven tot CRM-gegevens op basis van 
 
     ![Gebruiker-venster -screenshot][img5]
 
-## <a id="delete" />Gebruikersgroep verwijderen
+## <a id="delete"></a>Gebruikersgroep verwijderen
 
 1. Ga naar de lijst **Algemeen - Gebruikersgroep** zoals hierboven beschreven.
 1. Klik op de naam van de betreffende gebruikersgroep.

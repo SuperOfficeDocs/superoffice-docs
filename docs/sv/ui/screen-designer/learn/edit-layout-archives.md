@@ -104,7 +104,7 @@ Om du vill redigera ett befintligt arkiv, markerar du det och redigerar de tillg
 
 Du kan alltid klicka på **Återställ flikar** för att ångra dessa ändringar.
 
-## <a id="undo-changes" />Ångra ändringar
+## <a id="undo-changes"></a>Ångra ändringar
 
 Om du behöver återgå till en tidigare version av skärmen, kommer du åt följande alternativ från **Uppgift**-knappen:
 

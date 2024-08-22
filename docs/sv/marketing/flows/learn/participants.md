@@ -40,7 +40,7 @@ Använd kugghjulet ![ikon][img4] i listans header för att anpassa kolumnerna.
 | Bortfall | Deltagaren har hoppat av, alltid med en specificerad bortfallsorsak. |
 | Avbruten | Deltagaren kommer inte att slutföra flödet eftersom en administratör avslutade flödet. |
 
-## <a id="logic" />Registrering och progression genom flödet
+## <a id="logic"></a>Registrering och progression genom flödet
 
 Före varje steg omvärderar SuperOffice CRM om deltagaren kan fortsätta.
 

@@ -44,7 +44,7 @@ Der findes to typer aktiviteter – dokumenter og opfølgninger. Desuden vises u
 > [!NOTE]
 > Aktiviteter vises også i de [forskellige visninger][7] i skærmbilledet Dagbog.
 
-## <a id="view" />Vis aktiviteter
+## <a id="view"></a>Vis aktiviteter
 
 De viste aktiviteter afhænger af de filtre, du vælger nederst på detaljekortet. Du kan vise alle aktiviteter eller bare én type. Klik på ![ikon][img5] Filtrer-knappen for at [filtrere aktiviteter][17] efter dato og bruger.
 
@@ -64,7 +64,7 @@ I kolonnerne på aktivitetslisten finder du følgende oplysninger:
 
 Du opretter aktiviteter ved hjælp af menuen **Ny** på toplinjen eller ved at klike på knappen **Tilføj** i detaljekortet.
 
-## <a id="delete" />Slet aktivitet
+## <a id="delete"></a>Slet aktivitet
 
 Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 

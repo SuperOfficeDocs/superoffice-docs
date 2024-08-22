@@ -16,7 +16,7 @@ Kruistabellen kunnen op verschillende manieren worden weergegeven en afgedrukt. 
 > [!TIP]
 > als u niet zeker weet of uw rapport een kruistabel is, kunt u de afbeelding tussen de rapportenlijst en de rapportbeschrijving controleren. [Hoe][1].
 
-## <a id="install" />De Kruistabelviewer installeren
+## <a id="install"></a>De Kruistabelviewer installeren
 
 Om een kruistabelrapport (.Dcube bestand) te bekijken, moet u de **Kruistabelviewer** installeren (een per computer).
 
@@ -51,11 +51,11 @@ Om een kruistabelrapport (.Dcube bestand) te bekijken, moet u de **Kruistabelvie
 
 1. Klik op **OK** om de kruistabelviewer te sluiten.
 
-## <a id="print" />Kruistabellen afdrukken
+## <a id="print"></a>Kruistabellen afdrukken
 
 Er zijn verschillende afdrukopties voor kruistabellen. U kunt aangeven welke delen van de kruistabel moeten worden afgedrukt, u kunt een afdrukvoorbeeld van de kruistabel weergeven of de kruistabel afdrukken als een gewone tabel of als een grafiek.
 
-## <a id="export" />Kruistabelrapporten opslaan als bestand
+## <a id="export"></a>Kruistabelrapporten opslaan als bestand
 
 De procedure voor het opslaan van kruistabelrapporten als bestand wijkt iets af van de procedure voor het opslaan van andere rapporten. Als u een kruistabelrapport als bestand wilt opslaan, klikt u op **Exporteren** wanneer u het rapport bekijkt in de crosstabelviewer.
 

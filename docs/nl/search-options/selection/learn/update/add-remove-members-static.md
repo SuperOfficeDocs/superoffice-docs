@@ -78,7 +78,7 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
 
 9. Klik op **OK**. De selectie wordt bijgewerkt.
 
-## <a id="remove" />Leden verwijderen met zoekcriteria
+## <a id="remove"></a>Leden verwijderen met zoekcriteria
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

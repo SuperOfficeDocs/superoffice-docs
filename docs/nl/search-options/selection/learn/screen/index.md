@@ -34,7 +34,7 @@ Het uiterlijk van de lijst met leden varieert iets, afhankelijk van de inhoud va
 
 Om tussen selecties te schakelen, klikt u op de knoppen vorige/volgende (![pictogram][img2] ![pictogram][img1]) rechtsboven op het scherm.
 
-### <a id="filter" />Lijst met leden filteren
+### <a id="filter"></a>Lijst met leden filteren
 
 > [!NOTE]
 > Voordat u de lijst met leden filtert (bijvoorbeeld op verkopen of vervolgactiviteiten), moet u op **Alles weergeven** klikken in de voettekst van het tabblad. Op deze manier bent u er zeker van dat het tabblad alle records binnen de selectie weergeeft. Ter optimalisering van de prestaties tijdens het werken met grote selecties worden meestal alleen de eerste 100 records geladen in de lijst met leden.
@@ -60,7 +60,7 @@ Gebruik de knop **Taak** om tegelijkertijd verschillende taken uit te voeren voo
 
 * ![pictogram][img5]: Ververst de gegevens in de lijst.
 
-### <a id="mailing" /> Bekijk mailings gearchiveerd op selectie
+### <a id="mailing"></a> Bekijk mailings gearchiveerd op selectie
 
 Gebruik het tabblad **Mailings** in het scherm Selectie om alle mailings met betrekking tot een selectie bij te houden.
 

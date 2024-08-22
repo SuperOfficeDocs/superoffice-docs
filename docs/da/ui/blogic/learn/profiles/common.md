@@ -20,7 +20,7 @@ Fællesprofiler er knyttet til en [rolle][2] og gælder for alle brugere, der ha
 * **System**: Du kan konfigurere disse profiler ved at følge fremgangsmåden nedenfor.
 * **System screens**: En liste over skærmbilleder, der er oprettet ved hjælp af [systemdesignere][1] i SuperOffice Service. Disse kan du ændre, hvis du har adgang til **Systemdesign** > **Billeder**.
 
-## <a id="create" />Oprettelse af fællesprofiler
+## <a id="create"></a>Oprettelse af fællesprofiler
 
 Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilledet **Find anmodninger** .
 

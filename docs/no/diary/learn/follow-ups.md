@@ -52,7 +52,7 @@ Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, o
 | Oppgave | | | | &#10003; | Seksjon Aktiviteter | Oppfølging uten starttid | Påminnelse for oppgaver som forfaller til en bestemt tid |
 | Oppfølging (samtale) | &#10003; | | &#10003; | | Seksjon Aktiviteter | Telefonsamtale | Innkommende samtale fra kunde |
 
-## <a id="meeting" />Møte (avtale)
+## <a id="meeting"></a>Møte (avtale)
 
 Møter er oppfølginger med definert start- og sluttid. De vises i eierens kalender.
 
@@ -68,13 +68,13 @@ Forfalte og fullførte møter vil vises i seksjonen **Aktiviteter**-fanen i till
 | Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
 | Møte med flere deltakere | &#10003; | &#10003; | Et møte, vanligvis også med en ressurs eller sted |
 
-## <a id="todo" />Oppgave
+## <a id="todo"></a>Oppgave
 
 En *oppgave* er en oppfølging uten starttid. Den har vanligvis heller ingen varighet, men den har alltid en **frist**. Oppgaver brukes vanligvis for ting du må huske å gjøre innen en bestemt tid.
 
 Som standard finner du oppgaver i dagbokens "to-do"-liste, hvor de kan krysses av når de er fullført. Hvis du angir et start- og sluttidspunkt for en oppgave, legges det inn i dagboken på riktig dag og klokkeslett.
 
-## <a id="call" />Oppfølging (samtale)
+## <a id="call"></a>Oppfølging (samtale)
 
 En *samtale* representerer en svært spesifikk handling - telefonsamtalen - og er en hybrid mellom et møte og en to-do:
 
@@ -93,7 +93,7 @@ Standard varighet for et møte er én time og 15 minutter for en samtale. For å
     * **Varighet på ny avtale**
     * **Varighet på ny samtale**
 
-## <a id="more-tab" />Mer-fanen
+## <a id="more-tab"></a>Mer-fanen
 
 I fanen **Mer** finner du brukerdefinerte felt for oppfølgingen. Hvis din organisasjon har behov for å ha flere felt enn de som er standard for oppfølginger, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
 

@@ -47,7 +47,7 @@ Beispiele:
 * Sie können keine Person löschen, die auch Mitarbeiter einer SuperOffice-Firma ist.
 * Sie können Folgeaufgabe, Dokumente, Verkäufe, Projekte usw., die Ihnen nicht gehören, nur löschen, wenn Sie über die entsprechenden Benutzerrechte verfügen.
 
-## <a id="restore" />Gelöschte Firmen und Personen wiederherstellen
+## <a id="restore"></a>Gelöschte Firmen und Personen wiederherstellen
 
 Wenn Sie etwas gelöscht haben, das für Firmen und Personen nicht gelöscht werden sollte, können Sie es immer noch aus Ihrem Papierkorb wiederherstellen. Das Löschen wird weniger beängstigend, wenn Sie wissen, dass Sie noch eine Wiederherstellungsoption haben.
 

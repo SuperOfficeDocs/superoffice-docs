@@ -69,7 +69,7 @@ Innan du kan ta bort företag från fliken **Våra företag** måste följande k
 
     * **Inga träffar**: Ett meddelande visas om att ingen post överensstämmer med sökkriterierna. Klicka på **OK** och gör en ny sökning med andra kriterier.
 
-### <a id="criteria" />Sökkriterierna
+### <a id="criteria"></a>Sökkriterierna
 
 Fälten nedan motsvarar fälten på företagskortet.
 

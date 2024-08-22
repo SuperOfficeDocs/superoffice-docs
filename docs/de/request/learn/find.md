@@ -25,7 +25,7 @@ Führen Sie einen der folgenden Schritte aus:
 * Verwenden Sie die [Navigator][12]-Suche nach Anfragen.
 * Verwenden Sie [Suchen][11] in der oberen Leiste, wählen Sie eine der typischen Suchanfragen aus oder fügen Sie gewünschte Kriterien hinzu.
 
-## <a id="list" />Listen verwenden
+## <a id="list"></a>Listen verwenden
 
 Der einfachste Weg, nach Anfragen zu suchen, ist die Verwendung des Suchfeldes, das im Menü für die erste Registerkarte **Anfrage suchen** in der Anzeige Anfragen verfügbar ist.
 
@@ -64,7 +64,7 @@ In der Praxis handelt es sich bei all diesen Listen um vordefinierte Suchen und 
 >
 > Wählen Sie **Alle löschen** aus, um alle Kriterien zu löschen..
 
-### <a id="result" />Suchergebnis
+### <a id="result"></a>Suchergebnis
 
 Das Ergebnis enthält eine Liste von Anfragen, die den oben angegebenen Kriterien entsprechen. Hier können Sie:
 
@@ -83,7 +83,7 @@ In der Fußzeile der Liste können Sie auf das ![Symbol][img1] der Schaltfläche
 
 * **Massenabgleich**: Wenn Sie eine oder mehrere Anfragen in der Liste wählen, können Sie auf diese Option klicken, um einen Vorgang auf allen gewählten Anfragen gleichzeitig auszuführen. Sie können zum Beispiel auswählen, [dass dieselbe Nachricht mehreren Anfragen hinzugefügt werden soll][8], [dass mehrere Anfragen weitergeleitet werden][7] oder dass mehrere Anfragen auf einmal gelöscht werden sollen.
 
-### <a id="preview" />Vorschau
+### <a id="preview"></a>Vorschau
 
 In diesem Abschnitt der Ansicht wird der Inhalt der unter **Suchergebnis** ausgewählten Anfrage angezeigt. Sie haben die gleichen Optionen wie bei der [Bearbeitung von Anfragen][6].
 

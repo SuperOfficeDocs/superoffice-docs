@@ -31,7 +31,7 @@ Hvis du redigerer tid, dato eller sted for en oppfølging - eller sletter en inv
 > [!NOTE]
 > Du kan ikke gjøre endringer i utførte oppfølginger før du har deaktivert **Utført**-statusen.
 
-## <a id="change-end" />Endre sluttidspunktet for en oppfølging i dagboken
+## <a id="change-end"></a>Endre sluttidspunktet for en oppfølging i dagboken
 
 I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte åpne den:
 
@@ -46,7 +46,7 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 > [!NOTE]
 > Du kan også endre tidsrommet ved å åpne oppfølgingen og endre feltene **Start**, **Slutt**, **Frist** eller **Varighet**.
 
-## <a id="repeat" />Redigere repeterende oppfølging
+## <a id="repeat"></a>Redigere repeterende oppfølging
 
 Endringer fungerer på samme måte som når du redigerer oppfølginger, men når du gjør en endring, vises dialogboksen **Repeterende oppfølginger**, der det vises en kort beskrivelse av oppfølgingen.
 
@@ -64,7 +64,7 @@ Hvis du endrer starttiden for et enkelt møte, påvirkes ikke regelen. Møtet be
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Slette oppfølging ved hjelp av dagboken
+## <a id="delete"></a>Slette oppfølging ved hjelp av dagboken
 
 * Hvis du sletter en oppfølging du er invitert til, blir oppfølgingen kun fjernet fra din dagbok.
 * Hvis du sletter en invitasjon du eier fra din dagbok, forsvinner denne oppfølgingen fra dagbøkene til alle inviterte deltakere også.

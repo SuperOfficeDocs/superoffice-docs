@@ -21,13 +21,13 @@ In het tabblad **Toestemming** in het scherm **Privacy** (![pictogram][img1]) ku
 
 Voor elk doel moet een rechtsgrondslag en een toestemmingsbron worden gedocumenteerd (tijdens het importeren of in SuperOffice CRM voor individuele of meerdere gebruikers).
 
-## <a id="legal-basis" />Rechtsgrondslag
+## <a id="legal-basis"></a>Rechtsgrondslag
 
 U moet de rechtsgrondslag documenteren voor elk voor de persoon geregistreerd doel. In deze lijst onderhoudt u de lijst met rechtsgrondslagen die worden gebruikt wanneer u de privacy-instellingen voor personen bewerkt.
 
 Bijvoorbeeld: Een persoon verzendt u een verzoek via een webformulier en klikt op de optie "Abonneren op nieuwsbrief" (of vergelijkbaar). Dit betekent dat deze persoon toestemming heeft gegeven om e-marketing te ontvangen van uw bedrijf. Dus de rechtsgrondslag is dan **Toestemming** voor het doel E-marketing.
 
-## <a id="source" />Bron
+## <a id="source"></a>Bron
 
 Waar en hoe hebt u de toestemming van een persoon verkregen? Voorbeelden: E-mail, chat, webformulier en klantenportal.
 

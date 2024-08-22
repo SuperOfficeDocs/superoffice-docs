@@ -40,7 +40,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie man ein Web-Formular erstellt 
 4. Wählen Sie **Kopie in neues Formular**. Die Vorlage wird im Dialogfeld **Formular bearbeiten** geöffnet.
 5. [Aktivieren und veröffentlichen Sie das Formular][2].
 
-## <a id="multi-page" />Mehrseitige Formulare erstellen
+## <a id="multi-page"></a>Mehrseitige Formulare erstellen
 
 Um die Benutzerfreundlichkeit zu erhöhen und die Lesbarkeit zu erleichtern, können Sie in Betracht ziehen, ein Formular mit vielen Feldern in mehrere Seiten aufzuteilen. Benutzer können durch das Formular navigieren, indem sie die Schaltflächen **Weiter** und **Zurück** verwenden, und eine Fortschrittsleiste kann hinzugefügt werden, um die verbleibenden Felder anzuzeigen.
 
@@ -56,7 +56,7 @@ Um die Benutzerfreundlichkeit zu erhöhen und die Lesbarkeit zu erleichtern, kö
 > [!TIP]
 > Sie können eine Fortschrittsleiste zum Formular hinzufügen, damit der Benutzer sehen kann, wie viel noch ausgefüllt werden muss. Gehen Sie zur Kategorie **Stil**, klicken Sie auf das Kontrollkästchen neben **Farbe der Fortschrittsleiste** und wählen Sie eine Farbe aus.
 
-## <a id="fields" />Formularfelder ausfüllen
+## <a id="fields"></a>Formularfelder ausfüllen
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

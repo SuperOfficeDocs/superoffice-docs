@@ -19,7 +19,7 @@ Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze
 
 Daarnaast kunt u videovergaderingen configureren op het tabblad [Videovergaderingen][8] en de documentbibliotheek op het tabblad [Documentbibliotheek][9].
 
-## <a id="levels" />Niveaus voor voorkeursinstellingen
+## <a id="levels"></a>Niveaus voor voorkeursinstellingen
 
 U kunt voorkeursinstellingen opgeven voor vier verschillende niveaus:
 
@@ -40,7 +40,7 @@ U kunt in het veld **Actieve instellingen** kiezen welke instellingen u in de li
 > [!NOTE]
 > instellingen op systeemniveau worden altijd weergegeven.
 
-## <a id="global" />Algemene voorkeuren (voor het hele systeem)
+## <a id="global"></a>Algemene voorkeuren (voor het hele systeem)
 
 Sommige [voorkeuren][1] kunnen alleen op algemeen niveau worden ingesteld:
 
@@ -64,7 +64,7 @@ Als u deze voorkeuren wilt bewerken, gaat u naar het ![pictogram][img1] scherm *
 * Plaats de muisaanwijzer op een voorkeur om aanvullende informatie weer te geven.
 * Klik op **Opslaan** om uw wijzigingen te implementeren.
 
-## <a id="preferences-tab" />Tabblad Voorkeuren
+## <a id="preferences-tab"></a>Tabblad Voorkeuren
 
 In het tabblad **Voorkeuren** kunt u instellingen opgeven voor verschillende onderdelen van SuperOffice CRM. Voorbeelden zijn het aantal items dat wordt weergegeven in de historielijst, het standaardtype voor nieuwe vergaderingen en de standaardvaluta in het scherm Verkoop.
 

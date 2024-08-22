@@ -25,7 +25,7 @@ Når kunden har godtatt tilbudet, kan du generere en ordre som du sender til vid
 4. [Send tilbudet][4].
 5. Når kunden godtar tilbudet, kan du [registrere ordren][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

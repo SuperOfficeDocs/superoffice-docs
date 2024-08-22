@@ -49,7 +49,7 @@ Hvis du ønsker at knytte projektet til et firma, skal du angive mindst én proj
 > [!TIP]
 > Du kan markere flere personer i højre side af vinduet ved at holde tasten **CTRL** eller tasten **Shift** nede, mens du markerer dem. Det, du derefter angiver i feltet **Funktion** og tekstboksen **Kommentar**, vil gælde for alle de markerede personer.
 
-## <a id="from-section-tab" />Tilføj projektdeltagere og interessenter fra detaljekort
+## <a id="from-section-tab"></a>Tilføj projektdeltagere og interessenter fra detaljekort
 
 Du kan tilføje projektdeltagere og interessenter fra personoversigterne på forskellige detaljekort, for eksempel **Firma** (**Personer**), **Udvalg** (**Firma/person**), **Salg** (**Interessenter**) og **Projekter** (**Projektdeltagere**). Nedenstående fremgangsmåde kan således også udføres fra fanen **Resultat** i skærmbilledet [Søg][3].
 

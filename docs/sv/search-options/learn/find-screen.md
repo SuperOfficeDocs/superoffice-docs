@@ -48,7 +48,7 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 > [!TIP]
 > Om du till exempel vill söka efter alla företag kan du använda procenttecknet (%) när du [lägger till sökkriterier][3] för **Företag**.
 
-## <a id="or" />Bredda din sökning med funktionen ELLER
+## <a id="or"></a>Bredda din sökning med funktionen ELLER
 
 Med sökfunktionen kan du utföra en sökning genom att kombinera sökkriterier med värdeoperatorn "ELLER" mellan dem. På så sätt kan du söka efter två uppsättningar oberoende data och spara dem i ett urval.
 
@@ -59,7 +59,7 @@ Titta på den här videon om du vill lära dig hur du skapar en sökning med fun
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
-## <a id="results" />Arbeta med sökresultat
+## <a id="results"></a>Arbeta med sökresultat
 
 När du har följt ovanstående steg, och det visas sökresultat längst ned i fliken **Resultat**, har du flera möjligheter:
 
@@ -82,7 +82,7 @@ När du har följt ovanstående steg, och det visas sökresultat längst ned i f
 
 * Markera poster, högerklicka och välj **Lägg till i urval**. Se [Lägga till medlemmar i statiska urval][9].
 
-## <a id="ex1" />Exempel 1: söka efter lönsamma kunder
+## <a id="ex1"></a>Exempel 1: söka efter lönsamma kunder
 
 Säg att du har ansvar för säljavdelningen och att du ska hålla en presentation för resten av ledningen för att visa vad säljavdelningen har uppnått sedan sist. Du vill fokusera på lönsamma kunder (kunder som har genomfört stora affärer den senaste tiden).
 
@@ -131,7 +131,7 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 21. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex2" />Exempel 2: söka efter kunder i Danmark som du har ansvaret för
+## <a id="ex2"></a>Exempel 2: söka efter kunder i Danmark som du har ansvaret för
 
 Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du passa på att besöka några kunder samtidigt. Du börjar planeringen genom att söka fram alla kunder i Danmark som du har ansvaret för.
 
@@ -165,7 +165,7 @@ Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du p
 
 14. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex3" />Exempel 3: söka efter sålda försäljningar
+## <a id="ex3"></a>Exempel 3: söka efter sålda försäljningar
 
 Säg att du är ansvarig för ett företag och vill ta reda på vilken typ av försäljningar som ni lyckas med, och varför, så att ni kan lära av det och lyckas med fler försäljningar. Du börjar med att söka efter försäljningar med statusen **Såld**.
 
@@ -188,7 +188,7 @@ Säg att du är ansvarig för ett företag och vill ta reda på vilken typ av f�
 9. [!include[Explore results](includes/use-results.md)]
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="ex4" />Exempel 4: söka efter projekt du har deltagit i under det senaste året
+## <a id="ex4"></a>Exempel 4: söka efter projekt du har deltagit i under det senaste året
 
 Säg nu att det börjar bli dags för löneförhandlingar och att du anser att du bör få bättre betalt för din insats. För att visa din chef hur ihärdig och allsidig du är vill du berätta för honom eller henne om de projekt du har deltagit i det senaste året.
 
@@ -224,7 +224,7 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 15. [!include[Explore results](includes/use-results.md)]
 
-## <a id="ex5" />Exempel 5: söka efter genomförda marknadsföringsåtgärder
+## <a id="ex5"></a>Exempel 5: söka efter genomförda marknadsföringsåtgärder
 
 Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idédag om framtida marknadsföringsteknik. För att ha något att utgå ifrån vill du skapa en översikt över vilka händelser som är knutna till marknadsföring som ni har genomfört under det föregående kvartalet.
 

@@ -62,7 +62,7 @@ Når du redigerer svarskabeloner og udsendelser, kan du indsætte skabelonvariab
 | link.subscription | Linket til at annullere dit abonnement |
 | link.viewShipmentMessage | Linket til at vise udsendelsesmeddelelsen online |
 
-## <a id="config" />Vedligeholdelse
+## <a id="config"></a>Vedligeholdelse
 
 | Variabel | Beskrivelse|
 |---|---|
@@ -83,7 +83,7 @@ Når du redigerer svarskabeloner og udsendelser, kan du indsætte skabelonvariab
 | config.warning | Stien for advarselslogfiler |
 | config.wwwPath | Systemstien for WWW-filer |
 
-## <a id="customer" /> Variabler for en valgt person
+## <a id="customer"></a> Variabler for en valgt person
 
 | Variabel | Beskrivelse|
 |---|---|
@@ -107,7 +107,7 @@ Når du redigerer svarskabeloner og udsendelser, kan du indsætte skabelonvariab
 | customer.username | Brugernavn i SuperOffice Kundecenter |
 | makeSalutation(customer.id) | Tiltale |
 
-## <a id="ticket" />Variabler for sager (kun SuperOffice Service)
+## <a id="ticket"></a>Variabler for sager (kun SuperOffice Service)
 
 | Variabel | Beskrivelse|
 |---|---|
@@ -150,7 +150,7 @@ Når du redigerer svarskabeloner og udsendelser, kan du indsætte skabelonvariab
 | ticket.urlWithSession | URL'en for adgang til sagen for brugeragenter, indeholdende den aktuelle brugersession |
 | ticket.userUrl | URL'en for adgang til sagen for brugeragenter |
 
-## <a id="company" />Variabler for valgt firma
+## <a id="company"></a>Variabler for valgt firma
 
 | Variabel | Beskrivelse|
 |---|---|
@@ -177,7 +177,7 @@ Når du redigerer svarskabeloner og udsendelser, kan du indsætte skabelonvariab
 | ourContact.email | Vores persons e-mailadresse |
 | ourContact.name | Vores kontaktperson |
 
-## <a id="user" />Variabler for svarskabeloner (bruger) (kun SuperOffice Service)
+## <a id="user"></a>Variabler for svarskabeloner (bruger) (kun SuperOffice Service)
 
 Bemærk, at disse variabler ikke fungerer for automatiske svar, der sendes af systemet, da sådanne svar ikke er knyttet til en bruger.
 

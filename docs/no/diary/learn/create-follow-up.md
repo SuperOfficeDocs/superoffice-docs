@@ -34,7 +34,7 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 | Oppgaveknappen i personkortet | x | x | |
 | Dagboken | x | | |
 
-### <a id="fields" />Hvordan legge inn informasjon
+### <a id="fields"></a>Hvordan legge inn informasjon
 
 > [!NOTE]
 > Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![ikon][img4] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et firmanavn.
@@ -94,7 +94,7 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 > [!NOTE]
 > Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at deltakerlisten skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
 
-### <a id="associate" />Opprette møte for en medarbeider
+### <a id="associate"></a>Opprette møte for en medarbeider
 
 Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
 
@@ -110,7 +110,7 @@ Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis
 
 6. Klikk på **Lagre**-knappen. Møtet vises i den merkede personens dagbok.
 
-## <a id="copy" />Kopiere en oppfølging til dagboken
+## <a id="copy"></a>Kopiere en oppfølging til dagboken
 
 Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til en annen tid eller dag i dagboken.
 

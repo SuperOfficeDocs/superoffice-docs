@@ -28,20 +28,20 @@ Hver fane består af følgende:
 
 * Et **Dokumenter** detaljekort, der indeholder en [liste over gemte rapporter](#archive).
 
-## <a id="list" />Rapportliste
+## <a id="list"></a>Rapportliste
 
 Rapportlisten findes øverst til venstre på skærmbilledet **Rapporter** og indeholder en liste over standardrapporter under den fane, du har valgt. Hvis du vælger fanen **Foretrukne**, vises dine foretrukne rapporter her. Indholdet af rapportbeskrivelsen og kriterielisten ændres i henhold til det, du vælger på rapportlisten.
 
 > [!TIP]
 > Hvis du vælger rapportkategorien **Foretrukne**, kan du redigere navnet på og beskrivelsen af disse rapporter ved at dobbeltklikke på en rapport eller vælge den og klikke på **Rediger**. Hvis du vil slette en foretrukken rapport, skal du markere den og klikke på **Slet**.
 
-## <a id="criteria" />Kriterieliste
+## <a id="criteria"></a>Kriterieliste
 
 Kriterielisten findes i den øverste halvdel af skærmbilledet **Rapporter** ved siden af rapportlisten og under rapportbeskrivelsen. Den indeholder kriterier, der gælder for den rapport, du har valgt på rapportlisten. Her kan du tilføje eller slette kriterier ved at klikke på knapperne **Tilføj** eller **Slet**, og du kan redigere et kriterium ved at dobbeltklikke på det.
 
 Klik på knappen **Føj til favoritter** for at føje rapporten med de angivne kriterier til rapportlisten under fanen **Favoritter**.
 
-## <a id="archive" />Rapportarkivet (Dokumenter)
+## <a id="archive"></a>Rapportarkivet (Dokumenter)
 
 Rapportarkivet (detaljekortet **Dokumenter**) vises nederst på skærmbilledet **Rapporter**. Den indeholder tidligere genererede rapporter, der blev gemt som dokumenter. På dette detaljekort kan du åbne, redigere, slette og [filtrere][7] gemte rapporter. Du kan også eksportere en liste over rapporter.
 

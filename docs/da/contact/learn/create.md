@@ -71,13 +71,13 @@ Der er mange måder, du kan føje kontakter til SuperOffice CRM på:
 
 12. Gå til detaljekortet **Relationer**. Her kan du [tilføje relationer][8] mellem denne person og en anden person eller et andet firma.
 
-## <a id="more-tab" />Fanen Mere (Person)
+## <a id="more-tab"></a>Fanen Mere (Person)
 
 Fanen **Mere** indeholder brugerdefinerede felter for personer. Hvis din organisation f.eks. sælger IT-produkter og skal bruge felter for hver persons hardware og software, kan du angive i Indstillinger og vedligeholdelse, at disse felter skal indsættes her.
 
 Andre eksempler: Ansættelsesår, ERP-id'er, brugertype, CXM-info.
 
-## <a id="interests-tab" />Fanen Interesser (skærmbilledet Person)
+## <a id="interests-tab"></a>Fanen Interesser (skærmbilledet Person)
 
 På fanen **Interesser** finder du følgende alternativer:
 

@@ -52,7 +52,7 @@ Het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Proj
 | Taak | | | | &#10003; | Tabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor zaken die op een bepaalde tijd moeten zijn afgerond |
 | Vervolgactiviteit (Gesprek) | &#10003; | | &#10003; | | Tabblad Activiteiten | Telefoongesprek | Inkomend gesprek van klant |
 
-## <a id="meeting" />Vergadering (afspraak)
+## <a id="meeting"></a>Vergadering (afspraak)
 
 Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Sie werden im Kalender des Besitzers angezeigt.
 
@@ -69,13 +69,13 @@ Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugke
 | Eigen tijd en hulpmiddel gereserveerd | &#10003; | | Zoals hierboven, plus de behoefte aan ruimte of apparatuur |
 | Vergadering met meerdere deelnemers | &#10003; | &#10003; | Een vergadering, meestal ook met een hulpmiddel of locatie |
 
-## <a id="todo" />Taak
+## <a id="todo"></a>Taak
 
 Een *taak* is een vervolgactiviteit zonder starttijd. Meestal heeft het ook geen duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor dingen die je moet onthouden om op een bepaald tijdstip te doen.
 
 Standaard vind je taken in de dagboek "to-do"-lijst, waar ze kunnen worden afgevinkt wanneer ze zijn voltooid. Als u een begin- en eindtijd opgeeft voor een taak, wordt de taak op de juiste dag en met de juiste tijd ingevoerd in de agenda.
 
-## <a id="call" />Gesprek
+## <a id="call"></a>Gesprek
 
 Een *gesprek* vertegenwoordigt een zeer specifieke handeling - het telefoongesprek - en is een hybride tussen een vergadering en een taak:
 
@@ -94,7 +94,7 @@ De standaardduur van een vergadering is één uur en 15 minuten van een gesprek.
     * **Duur van nieuwe afspraak**
     * **Duur van nieuw gesprek**
 
-## <a id="more-tab" />Het tabblad Meer
+## <a id="more-tab"></a>Het tabblad Meer
 
 Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de vervolgactiviteit. Wanneer voor de organisatie meer velden nodig zijn dan de standaardvelden voor vervolgactiviteiten, kan in Instellingen en onderhoud worden ingesteld dat hier extra velden worden weergegeven.
 

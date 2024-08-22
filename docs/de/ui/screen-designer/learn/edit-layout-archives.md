@@ -104,7 +104,7 @@ Wenn Sie ein bestehendes Archiv bearbeiten wollen, wählen Sie es aus und bearbe
 
 Sie können jederzeit auf **Registerkarten wiederherstellen** klicken, um diese Änderung rückgängig zu machen.
 
-## <a id="undo-changes" />Änderungen rückgängig machen
+## <a id="undo-changes"></a>Änderungen rückgängig machen
 
 Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über die Schaltfläche **Aufgabe** folgende Optionen zur Verfügung:
 

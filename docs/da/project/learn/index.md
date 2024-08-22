@@ -27,7 +27,7 @@ Hvis du vil gå frem og tilbage mellem projekter, skal du klikke på ![ikon][img
 
 Hvis du vælger en projekttype, der er defineret en [projektguide][1] for, vises fanen **Projektguide** på detaljekortet.
 
-## <a id="more-tab" />Fanen Mere
+## <a id="more-tab"></a>Fanen Mere
 
 ![Fanen Mere (projekt) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Tre af de brugerdefinerede felter fra fanen **Mere** kan også vises under fanen
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />Fanen Arrangement
+## <a id="event-tab"></a>Fanen Arrangement
 
 Denne funktion kræver en separat licens.
 

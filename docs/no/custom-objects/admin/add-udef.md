@@ -35,7 +35,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 1. Fortsett å legge til felt. Klikk på **Publiser** når du er ferdig for å gjøre feltet tilgjengelig for SuperOffice-brukere. Upubliserte felt ![ikon][img1] og felt med upubliserte endringer ![ikon][img2] vises i fet tekst i listen **Felt**.
 
-## <a id="properties" />Feltegenskaper
+## <a id="properties"></a>Feltegenskaper
 
 | Egenskap | Beskrivelse |
 |---|---|

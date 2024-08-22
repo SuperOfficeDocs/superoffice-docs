@@ -15,7 +15,7 @@ language: de
 
 Auf der Bereichsregisterkarte **Beziehungen** werden alle Verbindungen zwischen den gespeicherten Firmen und/oder Personen angezeigt. Dabei kann es sich z. B. um Eigentumsrechte oder um Personen handeln, die in verschiedenen Firmen tätig sind.
 
-## <a id="columns" />Spalten auf der Registerkarte Beziehungen
+## <a id="columns"></a>Spalten auf der Registerkarte Beziehungen
 
 Die Spalten auf der Bereichsregisterkarte **Beziehungen** enthalten die folgenden Informationen:
 

@@ -52,7 +52,7 @@ Die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Verkauf
 | Zu erledigen (Aufgabe) | | | | &#10003; | Aktivitäten Bereich | Nachverfolgung ohne Startzeit | Erinnerung für Aufgaben, die bis zu einer bestimmten Zeit fällig sind |
 | Folgeaufgabe (Anruf) | &#10003; | | &#10003; | | Aktivitäten Bereich | Telefonanruf | Eingehender Anruf vom Kunden |
 
-## <a id="meeting" />Besprechung (Termin)
+## <a id="meeting"></a>Besprechung (Termin)
 
 Besprechungen sind Aktivitäten mit einem definierten Anfangs- und Endzeitpunkt. Sie werden im Kalender des Besitzers angezeigt.
 
@@ -68,13 +68,13 @@ Eine Besprechung kann eine einzelne Veranstaltung oder Teil einer wiederkehrende
 | Eigene Zeit und Ressource reserviert | &#10003; | | Wie oben, plus Bedarf an Raum oder Ausrüstung |
 | Besprechung mit mehreren Teilnehmern | &#10003; | &#10003; | Eine Besprechung, normalerweise auch mit einer Ressource oder einem Ort |
 
-## <a id="todo" />Zu erledigen (Aufgabe)
+## <a id="todo"></a>Zu erledigen (Aufgabe)
 
 Eine *Aufgabe* ist eine Folgeaufgabe ohne Startzeit. Sie hat normalerweise auch keine Dauer, aber immer eine **Frist**. Aufgaben werden typischerweise für Dinge verwendet, die Sie sich merken müssen, bis zu einem bestimmten Zeitpunkt.
 
 Standardmäßig finden Sie Aufgaben in der To-do-Liste dem Kalender, wo sie abgehakt werden können, wenn sie erledigt sind. Wenn Sie einen Anfangs- und Endzeitpunkt für eine Aufgabe angeben, wird er für den betreffenden Tag und die betreffende Zeit im Kalender eingetragen.
 
-## <a id="call" />Folgeaufgabe (Anruf)
+## <a id="call"></a>Folgeaufgabe (Anruf)
 
 Ein *Anruf* repräsentiert eine sehr spezifische Handlung - den Telefonanruf - und ist eine Mischung zwischen einem Besprechung und einer Aufgabe:
 
@@ -93,7 +93,7 @@ Die Standarddauer für einen Besprechung beträgt 1 Stunde und 15 Minuten für e
     * **Dauer bei neuem Termin**
     * **Dauer bei neuem Anruf**
 
-## <a id="more-tab" />Die Registerkarte Mehr
+## <a id="more-tab"></a>Die Registerkarte Mehr
 
 Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für die Folgeaufgabe. Wenn Ihre Firma mehr Felder als von den Standardeinstellungen für Folgeaufgaben vorgesehen benötigt, können Sie diese Felder in Einstellungen und Verwaltung eingeben.
 

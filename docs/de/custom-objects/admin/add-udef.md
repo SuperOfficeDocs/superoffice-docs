@@ -35,7 +35,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 
 1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder ![Symbol][img1] und Felder mit nicht veröffentlichten Änderungen ![Symbol][img2] werden in Fettschrift in der Liste **Felder** angezeigt.
 
-## <a id="properties" />Feld-Eigenschaften
+## <a id="properties"></a>Feld-Eigenschaften
 
 | Eigenschaft | Beschreibung |
 |---|---|

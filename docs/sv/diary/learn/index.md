@@ -22,13 +22,13 @@ Kalendern är ett användbart hjälpmedel vid planering och utförande av olika 
 
 Regelbunden användning av dagboken, där aktiviteter kopplas till en kontakt eller ett företag, säkerställer att du och ditt team kan hålla ordning på ett enkelt sätt, främja smidigt samarbete och ökad produktivitet.
 
-## <a id="open" />Visa kalender
+## <a id="open"></a>Visa kalender
 
 För at gå til kalendern, klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas, eller klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka. Ditt namn visas längst upp till höger i Kalender-fönstret. Om två eller fler händelse överlappar varandra kan du se en del av varje händelse.
 
 Du kan få tillgång till en annan användares dagbok eller en tillgänglig resurs för att kontrollera deras tillgänglighet eller skapa uppföljningar direkt. För att visa flera dagböcker samtidigt, skapa en [gruppvyn][2].
 
-## <a id="nav" />Navigera i fönstret Kalender
+## <a id="nav"></a>Navigera i fönstret Kalender
 
 Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** och **Översikt**. Du kan enkelt växla mellan dessa översikter genom att klicka på flikarna högst upp i Kalender-fönstret. Aktuell dag, vecka eller månad visas överst på sidan beroende på vilken flik du är på.
 

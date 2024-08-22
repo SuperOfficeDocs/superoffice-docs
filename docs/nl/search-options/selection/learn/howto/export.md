@@ -19,7 +19,7 @@ language: nl
 
 1. Klik op het geëxporteerde bestand om het in Excel te openen.
 
-## <a id="to-file" />Exporteren naar bestand
+## <a id="to-file"></a>Exporteren naar bestand
 
 Met deze taak kunt u een tekstbestand maken met informatie van de selectieleden voor gebruik buiten SuperOffice CRM. U kunt de functie gebruiken voor zowel leden die bedrijven zijn (op het sectietabblad **Bedrijven**) en leden die verkopen, projecten, documenten of vervolgactiviteiten zijn. De sjabloon die u selecteert in het veld **Gebruik sjabloon** bepaalt welke informatie wordt opgenomen, de volgorde waarin deze wordt weergegeven en het scheidingsteken dat wordt gebruikt.
 

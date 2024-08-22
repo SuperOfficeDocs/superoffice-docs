@@ -18,7 +18,7 @@ SuperOffice CRM wordt standaard geleverd met een aantal rapporten. Een organisat
 > [!TIP]
 > Standaardrapporten die u veel gebruikt, kunt u opslaan als [favoriete rapporten][2] waardoor deze gemakkelijker toegankelijk zijn. Ook kunt u standaardrapporten bewerken en opslaan als favorieten.
 
-## <a id="type" />Typen
+## <a id="type"></a>Typen
 
 | Type | Beschrijving |
 |---|---|

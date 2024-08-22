@@ -60,7 +60,7 @@ language: no
 > [!TIP]
 > Når du legger til en URL-adresse, kan det være nyttig å bruke for eksempel malvariabelen for aktivt firma til å hente ut informasjon fra andre applikasjoner via URL. URL-adressen må angi parametere, for eksempel slik: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. org.nr. her er malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt; og navn på personen &lt;attn&gt;, kan også brukes.
 
-## <a id="options" />Systemvalg
+## <a id="options"></a>Systemvalg
 
 ### Panel
 

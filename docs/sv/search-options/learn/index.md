@@ -51,7 +51,7 @@ Välj rätt verktyg för din uppgift:
 
 Den största skillnaden mellan dessa verktyg är om du anger nyckelord eller villkor.
 
-## <a id="fastsearcher" />Använda snabbsökning
+## <a id="fastsearcher"></a>Använda snabbsökning
 
 Du hittar **Snabbsökning** antingen i menyn **Navigator** och i popup-dialogrutor. Funktionen kommer på kort tid att ge dig en lista som matchar dina sökord.
 
@@ -86,7 +86,7 @@ Om du klickar på knappen **Sök** i det övre fältet, öppnas [Fönstret Sök]
 
 När du använder sökfunktionen kan du spara varje sökning du utför som ett urval.
 
-## <a id="typical" />Använd vanliga sökningar som utgångspunkt
+## <a id="typical"></a>Använd vanliga sökningar som utgångspunkt
 
 En vanlig sökning är en fördefinierad sökning som vi har ställt in åt dig, så att du kan se vad andra användare vanligtvis söker efter. Varje datauppsättning i fönstret Sök innehåller en lista över vanliga sökningar som är klara att användas.
 
@@ -105,7 +105,7 @@ Titta på den här videon för att lära dig hur du gör en vanlig sökning och 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Skapa en sökning och spara den som ett urval
+## <a id="search-to-selection"></a>Skapa en sökning och spara den som ett urval
 
 Ett urval är en lista med data som delar ett eller flera sökkriterier. Det kan senare användas för att utföra ett antal åtgärder. I den här guiden förklarar vi hur du kan skapa en sökning och spara den som ett urval.
 

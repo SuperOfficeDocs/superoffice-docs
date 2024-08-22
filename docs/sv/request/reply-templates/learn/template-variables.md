@@ -62,7 +62,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | link.subscription | Länk för att avsluta din prenumeration |
 | link.viewShipmentMessage | Länk för att visa utskicksmeddelandet online |
 
-## <a id="config" />Underhåll
+## <a id="config"></a>Underhåll
 
 | Variabel | Beskrivning|
 |---|---|
@@ -83,7 +83,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | config.warning | Sökväg för varningsloggfilerna |
 | config.wwwPath | Systemsökväg för WWW-filer |
 
-## <a id="customer" />Variabler för en vald kontakt
+## <a id="customer"></a>Variabler för en vald kontakt
 
 | Variabel | Beskrivning|
 |---|---|
@@ -107,7 +107,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | customer.username | Användarnamn i SuperOffice Customer Centre |
 | makeSalutation(customer.id) | Hälsning |
 
-## <a id="ticket" />Variabler för ärenden (endast SuperOffice Service)
+## <a id="ticket"></a>Variabler för ärenden (endast SuperOffice Service)
 
 | Variabel | Beskrivning|
 |---|---|
@@ -150,7 +150,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | ticket.urlWithSession | URL för att komma åt ärendet för användaragenter inkl. den aktuella användarsessionen |
 | ticket.userUrl | URL för att komma åt ärendet för användaragenter |
 
-## <a id="company" />Variabler för valt företag
+## <a id="company"></a>Variabler för valt företag
 
 | Variabel | Beskrivning|
 |---|---|
@@ -177,7 +177,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | ourContact.email | Våra kontakter e-postadress |
 | ourContact.name | Vår kontakt |
 
-## <a id="user" />Variabler för svarsmallar (användare) (endast SuperOffice Service)
+## <a id="user"></a>Variabler för svarsmallar (användare) (endast SuperOffice Service)
 
 Observera att dessa variabler inte fungerar för automatiska svar från systemet eftersom sådana svar inte är kopplade till någon användare.
 

@@ -36,7 +36,7 @@ Im Dialogfeld **Produkt hinzufügen/bearbeiten** können Sie ein Produkt hinzuf�
     oder
     Klicken Sie auf **Speichern**, um das Produkt zu speichern und zum Angebot zurückzukehren.
 
-## <a id="add-multiple" />Einem Angebot mehrere Produkte hinzufügen
+## <a id="add-multiple"></a>Einem Angebot mehrere Produkte hinzufügen
 
 1. Klicken Sie unten auf der Registerkarte **Produkte** im Dialogfeld **Angebot bearbeiten** auf **Hinzufügen**.
 
@@ -73,7 +73,7 @@ Hier werden detaillierte Produktinformationen angezeigt, wenn dies in Einstellun
 
 Hier werden ausführliche Preisberechnungen angezeigt. Der Inhalt dieser Registerkarte ist in Einstellungen und Verwaltung definiert.
 
-## <a id="warning" />Warnungen und wie man damit umgeht
+## <a id="warning"></a>Warnungen und wie man damit umgeht
 
 In Einstellungen und Verwaltung können verschiedene Regeln dafür erstellt werden, was erlaubt bzw. nicht erlaubt ist, wenn einem Angebot Produkte hinzugefügt werden. Je nach Definition dieser Regeln werden verschiedene Symbole/Warnungen angezeigt, wenn Sie einem Angebot Produkte hinzufügen. In einigen Fällen muss das [Angebot vor dem Senden genehmigen][1] werden.
 

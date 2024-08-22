@@ -13,7 +13,7 @@ language: de
 
 Es kann vorkommen, dass Sie eine Reihe von Terminen in regelmäßigen Abständen erstellen möchten, zum Beispiel ein wöchentlich stattfindendes Statusmeeting. Statt diese Besprechungen eine nach der anderen zu erstellen, können Sie die Funktion für regelmäßige Folgeaufgaben verwenden.
 
-## <a id="frequency" />Häufigkeit
+## <a id="frequency"></a>Häufigkeit
 
 Die **Häufigkeit** ist die Art und Weise, wie die Folgeaufgabe wiederholt wird. Das Muster kann täglich, wöchentlich, monatlich, jährlich oder in einem benutzerdefinierten Intervall wiederholt werden. Die verfügbaren Optionen für jede Häufigkeit.
 

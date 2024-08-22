@@ -25,7 +25,7 @@ Volg de GIF of de onderstaande stappen om te zien hoe u een offerte maakt en ver
 
     Nu kunt u [Producten aan de offerte toevoegen][2].
 
-## <a id="erp" />Wordt het dialoogvenster ERP-verbinding selecteren weergegeven?
+## <a id="erp"></a>Wordt het dialoogvenster ERP-verbinding selecteren weergegeven?
 
 Als het dialoogvenster **ERP-verbinding selecteren** wordt weergegeven terwijl u een offerte maakt, kan dit worden veroorzaakt door:
 

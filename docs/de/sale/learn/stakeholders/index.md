@@ -17,7 +17,7 @@ Ein Verkauf enthält eine Hauptperson, jedoch können auch Partner und Zuliefere
 
 Zu jedem Beteiligten werden folgende Informationen angezeigt: Firma, Name der Person, Rolle im Verkauf, E-Mail-Adresse und Telefonnummer.
 
-## <a id="role" />Verkauf - Beteiligtenrolle
+## <a id="role"></a>Verkauf - Beteiligtenrolle
 
 Ein Verkauf enthält eine Hauptperson, jedoch können auch Partner und Zulieferer am Verkauf beteiligt sein. Diese werden als Beteiligte bezeichnet und können in der Bereichsregisterkarte **Beteiligte** unten in der Ansicht Verkauf eingegeben werden. Zu den Beteiligten zählen sowohl Einzelpersonen als auch Firmen.
 

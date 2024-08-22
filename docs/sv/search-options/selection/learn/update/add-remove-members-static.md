@@ -78,7 +78,7 @@ Använd det här alternativet för att lägga till de valda posterna till ett be
 
 9. Klicka på **OK**. Urvalet uppdateras.
 
-## <a id="remove" />Ta bort medlemmar med hjälp av sökkriterier
+## <a id="remove"></a>Ta bort medlemmar med hjälp av sökkriterier
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

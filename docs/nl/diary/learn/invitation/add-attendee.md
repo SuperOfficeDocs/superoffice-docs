@@ -48,7 +48,7 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 
 1. Klik op **Opslaan** om alle wijzigingen op te slaan.
 
-### <a id="availability" />Planningsassistent
+### <a id="availability"></a>Planningsassistent
 
 De planningsassistent maakt deel uit van de nieuwe **Vervolgactiviteit**-dialoog. De gedetailleerde kalender toont de beschikbaarheid van elke interne deelnemer (collega). De bovenste rij toont de geaccumuleerde beschikbaarheid. De beschikbaarheid van externe deelnemers en e-maildeelnemers is onbekend.
 
@@ -65,7 +65,7 @@ De planningsassistent maakt deel uit van de nieuwe **Vervolgactiviteit**-dialoog
 1. Klik op **OK** wanneer je klaar bent.
 1. Klik op **Opslaan** om alle wijzigingen op te slaan.
 
-### <a id="preview" />Voorbeeld en bijwerken van de uitnodigingse-mail
+### <a id="preview"></a>Voorbeeld en bijwerken van de uitnodigingse-mail
 
 Wanneer je op **Opslaan en verzenden** klikt, wordt er een voorbeeld van de e-mail getoond op basis van de titel en agenda. Eventuele interne notities toegevoegd aan de fvervolgactiviteit worden uitgesloten.
 

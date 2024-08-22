@@ -47,7 +47,7 @@ Standardmäßig werden die Folgeaufgaben auf der jeweiligen Registerkarte in ein
 > [!NOTE]
 > In Einstellungen und Verwaltung können Sie festlegen, dass alle Folgeaufgaben eines bestimmten Typs in der Ansicht Kalender mit anderer Hintergrundfarbe als das gewöhnliche Blau angezeigt werden.
 
-### <a id="day" />Registerkarte Tag
+### <a id="day"></a>Registerkarte Tag
 
 Auf der Registerkarte **Tag** wird jeweils ein Tag mit stündlichen Zeitintervallen am linken Rand angezeigt.
 
@@ -55,7 +55,7 @@ Auf der Registerkarte **Tag** wird jeweils ein Tag mit stündlichen Zeitinterval
 
 Wenn [Zeitzonen][14] aktiviert sind, können Sie die Zeitzone in der unteren linken Ecke wechseln.
 
-### <a id="week" />Registerkarte Woche
+### <a id="week"></a>Registerkarte Woche
 
 Auf der Registerkarte **Woche** wird jede Woche einzeln angezeigt. Es gibt eine Spalte für jeden Wochentag und stündliche Zeitintervalle am linken Rand.
 
@@ -66,7 +66,7 @@ Wenn Sie die Registerkarte **Tag** eines bestimmten Tags öffnen möchten, klick
 > [!NOTE]
 > Sie können unter ![icon][img7] **Persönliche Einstellungen** > **Einstellungen** festlegen, ob die Woche am Sonntag oder Montag beginnt.
 
-### <a id="month" />Registerkarte Monat
+### <a id="month"></a>Registerkarte Monat
 
 Auf der Registerkarte **Monat** wird jeder Monat einzeln angezeigt. Hier werden keine Uhrzeiten, sondern die Folgeaufgaben für die einzelnen Tage angezeigt.
 
@@ -77,7 +77,7 @@ Auf der Registerkarte **Monat** wird jeder Monat einzeln angezeigt. Hier werden 
 
 Wenn Sie eine bestimmte **Tagesübersicht** einsehen möchten, klicken Sie auf die Überschrift/das Datum.
 
-### <a id="view" />Registerkarte Übersicht
+### <a id="view"></a>Registerkarte Übersicht
 
 Wenn Sie in der Ansicht Kalender die Registerkarte **Ansicht**auswählen, wird ein Fenster mit Ihrem Kalender angezeigt, in dem oben Ihre Benutzer-ID angegeben ist.
 

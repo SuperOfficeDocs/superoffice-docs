@@ -47,7 +47,7 @@ Eksempler:
 * Du kan ikke slette en person som også er ansatt i et SuperOffice-firma.
 * Du kan ikke slette oppfølginger, dokumenter, salg, prosjekter og så videre som ikke tilhører deg, med mindre du har tilstrekkelige brukerrettigheter.
 
-## <a id="restore" />Gjenopprette slettede firma og personer
+## <a id="restore"></a>Gjenopprette slettede firma og personer
 
 Når du har slettet noe som ikke var ment å bli slettet for firmaer og personer, kan du fortsatt gjenopprette dem fra papirkurven. Dette gjør det mindre skummelt å slette, når du vet at du fortsatt har et alternativ for gjenoppretting.
 

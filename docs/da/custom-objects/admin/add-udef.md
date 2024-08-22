@@ -35,7 +35,7 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 1. Fortsæt med at tilføje felter. Klik på **Udgiv**, når du er færdig, for at gøre feltet tilgængeligt for SuperOffice-brugere. Upublicerede felter ![ikon][img1] og felter med upublicerede ændringer ![ikon][img2] vises i fed tekst i listen **Felt**.
 
-## <a id="properties" />Feltegenskaber
+## <a id="properties"></a>Feltegenskaber
 
 | Egenskab | Beskrivelse |
 |---|---|

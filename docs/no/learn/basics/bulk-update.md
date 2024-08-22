@@ -54,7 +54,7 @@ Med masseredigering kan du endre verdier på tvers av flere oppføringer av samm
 
 10. Klikk på **Lukk**.
 
-## <a id="search-and-replace" />Søk og erstatt
+## <a id="search-and-replace"></a>Søk og erstatt
 
 Med handlingen **Søk og erstatt** kan du finne en bestemt tekst i et felt og erstatte den.
 
@@ -63,7 +63,7 @@ Med handlingen **Søk og erstatt** kan du finne en bestemt tekst i et felt og er
 3. Skriv inn erstatningsteksten i feltet **Erstatt med**.
 4. Valgfritt: Klikk på **Alternativer** og velg innstillingen for om du vil bruke store eller små bokstaver og søke etter hele eller deler av ord.
 
-## <a id="regex" />Regulære uttrykk
+## <a id="regex"></a>Regulære uttrykk
 
 Handlingstypen **Regex** lar deg bruke vanlige uttrykk til å oppdatere et felt.
 

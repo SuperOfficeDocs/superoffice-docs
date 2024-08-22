@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > När du lägger till eller uppdaterar flödesåtgärder, kom ihåg att formulär och spårade länkar också har åtgärder. Se till att det inte finns några dubbla eller motsägande åtgärder. Vi rekommenderar att du sammanfogar alla åtgärder på ett ställe, antingen i formuläret eller i flödet.
 
-## <a id="send" />Skicka meddelande
+## <a id="send"></a>Skicka meddelande
 
 Saker att tänka på:
 
@@ -71,7 +71,7 @@ Deltagare i flödet utan ett registrerat telefonnummer kan antingen hoppa över 
 > [!TIP]
 > Om du vill skicka endast ett SMS, håll koll på räknaren i det nedre högra hörnet. Om antalet tecken överstiger 160 skickas meddelandet som flera SMS-segment och ytterligare avgifter kan tillkomma. Vi rekommenderar att du håller meddelandet kort och informativt.
 
-## <a id="update" />Uppdatera deltagare
+## <a id="update"></a>Uppdatera deltagare
 
 * Uppdatera kontakt
 * Lägg till i urval/projekt
@@ -110,7 +110,7 @@ Kontakten tas bort som medlem från det angivna urvalet och/eller projektet.
 
 Detta steg är liknande **Lägg till i urval/projekt**.
 
-## <a id="create" />Skapa aktivitet
+## <a id="create"></a>Skapa aktivitet
 
 Flödet kan automatiskt skapa uppföljningar, ärenden och/eller försäljning för kontakten enligt inställningarna. Genom att ansluta CRM-aktiviteter och meddelanden kan din organisation överbrygga gapet mellan marknadsföring och försäljning. Att skapa aktiviteter låter dig också fokusera på kontakter som är engagerade.
 
@@ -154,7 +154,7 @@ När en kontakt når detta steg är kontakten mogen och har visat tecken på att
 
 För mer information, se [listan över steginställningar][1] och [hur man skapar en försäljning][18].
 
-## <a id="internal" />Intern handling
+## <a id="internal"></a>Intern handling
 
 ### Kör skript
 

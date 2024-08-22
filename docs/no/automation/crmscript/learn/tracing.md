@@ -50,7 +50,7 @@ I fanen **Sporing** finner du en oversikt over alle sporinger. Klikk på en spor
 
 ![Spor CRMScript -screenshot][img4]
 
-### <a id="fields" />Felt
+### <a id="fields"></a>Felt
 
 | Felt | Beskrivelse |
 |---|---|

@@ -16,7 +16,7 @@ Du kan vise og skrive ut krysstabeller på ulike måter. Blant annet kan du velg
 > [!TIP]
 > Hvis du lurer på om rapporten din er en krysstabell, kan du se på bildet mellom rapportlisten og rapportbeskrivelsen. [Slik][1].
 
-## <a id="install" />Installering av program for visning av krysstabeller
+## <a id="install"></a>Installering av program for visning av krysstabeller
 
 Hvis du vil vise en krysstabellrapport (.Dcube file), må du installere **programmet for visning av krysstabeller** (ett per datamaskin).
 
@@ -51,11 +51,11 @@ Hvis du vil vise en krysstabellrapport (.Dcube file), må du installere **progra
 
 1. Klikk på **OK** for å lukke programmet for visning av krysstabeller.
 
-## <a id="print" />Skrive ut krysstabeller
+## <a id="print"></a>Skrive ut krysstabeller
 
 Du har flere utskriftsmuligheter for krysstabeller. Blant annet kan du velge hvilke deler av krysstabellen som skal vises i en utskrift, forhåndsvise krysstabellen og skrive ut krysstabellen som vanlig tabell eller som diagram.
 
-## <a id="export" />Lagre krysstabellrapporter som filer
+## <a id="export"></a>Lagre krysstabellrapporter som filer
 
 Lagring av rapporter som filer fungerer litt annerledes med rapporttypen krysstabell enn med andre rapporttyper. Hvis du vil lagre en krysstabellrapport som en fil, klikker du på **Eksporter** når du viser rapporten i programmet for visning av krysstabeller.
 

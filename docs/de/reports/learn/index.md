@@ -23,7 +23,7 @@ Die Ansicht **Berichte** ist ein Berichtgenerator mit einer Reihe von Standardbe
 > [!TIP]
 > Wenn Sie auf das Wort **Berichte** neben dem **Symbol** der Schaltfläche ![Berichte][img8] klicken, können Sie von der angezeigten Liste direkt zur festgelegten Registerkarte in der Ansicht **Berichte** gehen.
 
-## <a id="types" />Berichtstypen
+## <a id="types"></a>Berichtstypen
 
 | Symbol | Name | Beschreibung |
 |---|---|---|

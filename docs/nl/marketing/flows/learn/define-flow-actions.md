@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > Bij het toevoegen of bijwerken van flowacties moet u er rekening mee houden dat formulieren en bijgehouden links ook acties hebben. Zorg ervoor dat er geen dubbele of conflicterende acties zijn. We raden aan om alle acties op één plek op te nemen, ofwel in het formulier of in de flow.
 
-## <a id="send" />Bericht verzenden
+## <a id="send"></a>Bericht verzenden
 
 Overwegingen:
 
@@ -71,7 +71,7 @@ Deelnemers zonder geregistreerd telefoonnummer kunnen de stap overslaan (doorgaa
 > [!TIP]
 > Als u slechts één SMS wilt verzenden, houd dan het aantal tekens in de gaten in de rechterbenedenhoek. Als het aantal tekens meer dan 160 bedraagt, wordt het bericht verzonden als meerdere SMS-segmenten en kunnen extra kosten van toepassing zijn. We raden aan het bericht kort en informatief te houden.
 
-## <a id="update" />Deelnemer bijwerken
+## <a id="update"></a>Deelnemer bijwerken
 
 * Persoon bijwerken
 * Toevoegen aan selectie/project
@@ -116,7 +116,7 @@ Persoon wordt verwijderd als lid uit de gespecificeerde selectie en/of project.
 
 Deze stap is vergelijkbaar met **Toevoegen aan selectie/project**.
 
-## <a id="create" />Activiteit maken
+## <a id="create"></a>Activiteit maken
 
 De flow kan automatisch een vervolgactiviteit, verzoek en/of verkoop maken bij het persoon volgens de instellingen. Door CRM-activiteiten en meldingen te koppelen, kan uw organisatie de kloof tussen marketing en verkoop overbruggen. Het maken van activiteiten stelt u ook in staat zich te richten op contacten die betrokken zijn.
 
@@ -170,7 +170,7 @@ Wanneer een persoon deze stap bereikt, is het persoon volwassen geworden en heef
 
 Voor details, zie de [lijst met stapinstellingen][1] en [hoe u een verkoop kunt maken][18].
 
-## <a id="internal" />Interne acties
+## <a id="internal"></a>Interne acties
 
 ### Script uitvoeren
 

@@ -41,7 +41,7 @@ Wanneer een projectgids is gedefinieerd voor een projecttype dat u voor een proj
 
 1. Herhaal de bovenstaande procedure voor alle vervolgactiviteiten/documenten binnen elke status van de projectgids.
 
-## <a id="move-to-next-status" />Naar de volgende status gaan
+## <a id="move-to-next-status"></a>Naar de volgende status gaan
 
 U kunt het project op twee manieren naar de volgende status verplaatsen:
 

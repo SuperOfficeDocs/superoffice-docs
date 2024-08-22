@@ -44,7 +44,7 @@ Es gibt zwei Typen von Aktivitäten – Dokumente und Folgeaufgaben. Außerdem w
 > [!NOTE]
 > Die Aktivitäten werden auch in der Ansicht Kalender in [verschiedene Ansichten][7] angezeigt.
 
-## <a id="view" />Aktivitäten anzeigen
+## <a id="view"></a>Aktivitäten anzeigen
 
 Die angezeigten Aktivitäten hängen von den ausgewählten Filtern am unteren Rand der Bereichsregisterkarte ab. Sie können alle Aktivitäten anzeigen oder nur eine der Arten. Klicken Sie auf die ![Symbol][img5] Filter-Schaltfläche, um Aktivitäten nach Datum und Benutzer zu [filtern][17].
 
@@ -64,7 +64,7 @@ Die Spalten der Aktivitäten enthalten folgende Informationen:
 
 Aktivitäten erstellen Sie über das Menü **Neu** in der oberen Leiste oder durch Anklicken der Schaltfläche **Hinzufügen** in der Bereichsregisterkarte.
 
-## <a id="delete" />Aktivität löschen
+## <a id="delete"></a>Aktivität löschen
 
 Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werden:
 

@@ -87,7 +87,7 @@ In het tabblad **Agents** kunt u gebruikers toegang geven tot een chatkanaal en 
     * **Beheerder**: de agent ontvangt waarschuwingen voor beheerders. Deze machtiging kan bij voorbeeld worden gebruikt voor teamleiders.
 4. Herhaal stappen 1-3 voor elke agent die u wilt toevoegen.
 
-## <a id="chatbot" />ChatBot
+## <a id="chatbot"></a>ChatBot
 
 In het tabblad **ChatBot** kunt u de chatbot activeren. Wanneer een chat wordt gestart op een kanaal waar een chatbot actief is, wordt het script "on-new-chat-message" geactiveerd en wordt het bericht doorgegeven aan het script voor verwerking. Het script verzendt het bericht voor verwerking en ontvangt het bericht, plaatst de resultaten en markeert mogelijk het bericht voor overdracht aan een agent.
 

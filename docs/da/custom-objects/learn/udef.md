@@ -28,7 +28,7 @@ Brugerdefinerede felter administreres i Indstillinger og vedligeholdelse, i **Fe
 > [!NOTE]
 > Alle kan **opdatere** de data, der er gemt i et brugerdefineret felt. Kun en administrator kan tilføje (eller fjerne) et brugerdefineret felt. Du skal have en Development Tools-licens for at tilpasse layoutet af **Mere**-fanen og bruge side 1-felter.
 
-## <a id="field-types" />Felttyper
+## <a id="field-types"></a>Felttyper
 
 * **Nummer**: heltal, ubegrænset antal cifre.
 * **Kort tekst:**tekst på højst 39 tegn. Angiv i feltet **Tekstlængde**, som aktiveres, når du vælger denne indstilling, det maksimale antal tegn, brugerne kan skrive i dette felt.
@@ -39,7 +39,7 @@ Brugerdefinerede felter administreres i Indstillinger og vedligeholdelse, i **Fe
 * **Liste**: en liste. Vælg en liste fra systemet i feltet nedenfor.
 * **Decimal**: et nummer med decimaltegn.
 
-## <a id="limit" />Maksimalt antal felter
+## <a id="limit"></a>Maksimalt antal felter
 
 Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angive under hver fanerne Firma, Person, Projekt og Salg.
 
@@ -51,7 +51,7 @@ Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angiv
 > [!NOTE]
 > Fire af de brugerdefinerede felter i hver gruppe skal indekseres.
 
-## <a id="index" />Indekserede felter
+## <a id="index"></a>Indekserede felter
 
 Indeksering er godt for brugeroplevelsen og ydeevnen. De første 4 felter af hver datetype er reserveret til indeks.
 
@@ -59,7 +59,7 @@ Du skal markere af i afkrydsningsfeltet, når du opretter feltet, for at tillade
 
 Hvis du vælger slet ikke at indeksere, spilder du i princippet 16 felter! Derfor reduceres det maksimale antal brugerdefinerede felter til 103.
 
-## <a id="page-1" />Side 1-felt
+## <a id="page-1"></a>Side 1-felt
 
 Blandt de brugerdefinerede felter, der vises under fanen **Mere** i SuperOffice CRM, kan du vælge *tre* der skal fungere som side 1-felter (såkaldte, fordi de vises på "første side" på deres respektive skærmbilleder).
 

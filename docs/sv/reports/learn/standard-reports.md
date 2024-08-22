@@ -18,7 +18,7 @@ SuperOffice CRM levereras med flera olika standardrapporter, men ett företag ka
 > [!TIP]
 > Du kan spara standardrapporter som du ofta använder som [favoritrapporter][2], så att du lättare kan få tillgång till dem. Dessutom kan du redigera standardrapporter och spara dem som favoriter.
 
-## <a id="type" />Typer
+## <a id="type"></a>Typer
 
 | Typ | Beskrivning |
 |---|---|

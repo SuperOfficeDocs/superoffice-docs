@@ -72,7 +72,7 @@ Forestille deg dette scenariet: du har nøye laget en e-postkampanje med første
 
 **E-postlevering** er en stor sak fordi det bestemmer om e-postene dine faktisk kommer til abonnentenes innbokser eller ikke. Hvis de ikke blir levert, vil de ikke bli sett eller lest av målgruppen din, noe som betyr tapte sjanser og lavere suksess for e-postmarkedsføringskampanjene dine. Sjekk ut våre [beste praksiser][9].
 
-## <a id="after" />Hvordan kan jeg følge opp utsendelsen?
+## <a id="after"></a>Hvordan kan jeg følge opp utsendelsen?
 
 Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har gjort det. Da ser du om alt det harde arbeidet ditt har lønnet seg. Det er også en flott mulighet til å kontrollere og forbedre kvaliteten på informasjonen som er registrert i CRM-databasen.
 

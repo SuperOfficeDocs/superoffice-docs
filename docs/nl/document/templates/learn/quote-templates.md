@@ -16,7 +16,7 @@ Deze gids beschrijft de verschillende soorten offertesjablonen die beschikbaar z
 
 Een offerte bestaat vaak uit meer dan één product. Het is daarom noodzakelijk om een offerte-detailsjabloon (en een opdrachtbevestigingssjabloon) te maken waarin elk product in een tabel met verschillende groeperingen (zoals opties) wordt vermeld. De gebruiker kan alleen het offertedocument in Word bewerken. De offerte-details en opdrachtbevestiging worden alleen als PDF gegenereerd en kunnen niet door de gebruiker worden bewerkt. Alle offertesjablonen kunnen op de gebruikelijke manier worden bewerkt in Instellingen en Onderhoud.
 
-## <a id="types" />Soorten offertesjablonen
+## <a id="types"></a>Soorten offertesjablonen
 
 SuperOffice biedt verschillende sjablonen voor het genereren van offertes. Deze sjablonen zijn toegankelijk en aanpasbaar in Instellingen en Onderhoud onder **Lijsten**.
 
@@ -61,7 +61,7 @@ Wanneer je offertes of opdrachtbevestigingen via e-mail verzendt, kun je een e-m
 
 Je kunt offertes en opdrachtbevestigingssjablonen aanpassen door samenvoegvelden in Microsoft Word te gebruiken. Samenvoegvelden stellen je in staat om specifieke offertinformatie in sjablonen in te voegen, terwijl standaard sjabloonvariabelen klantgegevens en andere details ophalen.
 
-### <a id="structure" />Structuur van samenvoegvelden
+### <a id="structure"></a>Structuur van samenvoegvelden
 
 Samenvoegvelden moeten een hiërarchische volgorde volgen: quote > alternative > group > line. Deze structuur wordt gedefinieerd met behulp van **TableStart** en **TableEnd** velden, die het begin en einde van elk tabelgebied markeren:
 
@@ -84,7 +84,7 @@ Samenvoegvelden moeten een hiërarchische volgorde volgen: quote > alternative >
 > [!NOTE]
 > Elke sjabloon moet de inschietvolgorde volgen en altijd beginnen met het hoogste niveau (quote). Het hoeft niet helemaal naar beneden te gaan, maar kan niet beginnen met optie of iets anders dan offerte.
 
-## <a id="usage" />Gebruik van samenvoegvelden
+## <a id="usage"></a>Gebruik van samenvoegvelden
 
 Offerte-details omvatten gedetailleerde informatie zoals lijnen, prijzen en productnamen, meestal geplaatst in een aparte sjabloon van het hoofd-offertedocument. Als zowel het hoofd-document als de offerte-details worden gebruikt:
 

@@ -59,7 +59,7 @@ Mit Hilfe des linken Navigators können Sie sich zwischen den Hauptbereichen von
 | ![Symbol][img59] | **Systemdesign**: Hier finden Sie verschiedene erweiterte Einstellungen für SuperOffice Service. | |
 | ![Symbol][img60] | **App Store**: Öffnet den [SuperOffice App Store][44], wo Sie Informationen über Standard-Apps und Integrationen für die Erweiterung von SuperOffice CRM Online durchstöbern können. | |
 
-## <a id="navigator" />Navigatoroptionen
+## <a id="navigator"></a>Navigatoroptionen
 
 Wenn Sie auf eine Navigator-Schaltfläche klicken, werden eine oder mehrere der Schaltflächen unten angezeigt.
 

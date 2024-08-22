@@ -21,13 +21,13 @@ Auf der Registerkarte **Zustimmung** in der Ansicht **Datenschutz** (![Symbol][i
 
 Für jeden Zweck müssen eine Rechtsgrundlage und ein Zustimmungsnachweis dokumentiert werden (beim Import oder in SuperOffice CRM für einzelne oder mehrere Benutzer).
 
-## <a id="legal-basis" />Rechtsgrundlage
+## <a id="legal-basis"></a>Rechtsgrundlage
 
 Sie müssen die Rechtsgrundlage für jeden für eine Person registrierten Zweck dokumentieren. In dieser Liste können Sie Rechtsgrundlagen hinzufügen und pflegen, die beim Bearbeiten der Datenschutzeinstellungen für Ihre Personen verwendet werden.
 
 Beispiel: Eine Person sendet Ihnen über ein Web-Formular eine Anfrage und klickt auf die Option "Newsletter abonnieren" (oder Ähnliches). Damit hat die betreffende Person die Einwilligung zum Empfang von E-Marketing von Ihrer Firma gegeben. Die Rechtsgrundlage ist daher die **Einwilligung** für den Zweck "E-Marketing".
 
-## <a id="source" />Quelle
+## <a id="source"></a>Quelle
 
 Wo und wie haben Sie die Einwilligung einer Person eingeholt? Beispiele: E-Mail, Chat, Web-Formular und Kundenportal.
 

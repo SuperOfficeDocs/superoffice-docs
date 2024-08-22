@@ -51,7 +51,7 @@ Hvis avsenderen ikke er oppført i SuperOffice CRM, kan du legge til avsenderens
 > [!NOTE]
 > Hvis du prøver å arkivere mer enn én e-post om gangen, vil du bli spurt om hver avsender som ikke er oppført i SuperOffice CRM.
 
-## <a id="new-contact" />Legge til en e-postadresse for en ny person
+## <a id="new-contact"></a>Legge til en e-postadresse for en ny person
 
 1. Åpne dialogboksen **Lagre e-postadresse**.
 
@@ -63,7 +63,7 @@ Hvis avsenderen ikke er oppført i SuperOffice CRM, kan du legge til avsenderens
 
 5. Klikk på **OK**. Personen og e-postadressen deres vises på detaljkortet **Personer** på det angitte firmakortet.
 
-## <a id="existing-contact" />Legge til en e-postadresse for en eksisterende person
+## <a id="existing-contact"></a>Legge til en e-postadresse for en eksisterende person
 
 1. Åpne dialogboksen **Lagre e-postadresse**.
 

@@ -27,7 +27,7 @@ Hvis du vil flytte bakover og fremover mellom prosjekter, klikker du på knappen
 
 Hvis du velger en prosjekttype som det er definert en [prosjektguide][1] for, vises fanen **Prosjektguide** på detaljkortet.
 
-## <a id="more-tab" />Fanen Mer
+## <a id="more-tab"></a>Fanen Mer
 
 ![Mer-fanen (Prosjekt) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Pr
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />Fanen Arrangement
+## <a id="event-tab"></a>Fanen Arrangement
 
 Denne funksjonen krever egen lisens.
 

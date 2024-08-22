@@ -15,7 +15,7 @@ language: sv
 
 På detaljkortet **Relationer** visas eventuella kopplingar mellan företag och/eller kontakter, till exempel information om ägarstruktur eller personer som har varit anställda i olika företag.
 
-## <a id="columns" />Kolumner på fliken Relationer
+## <a id="columns"></a>Kolumner på fliken Relationer
 
 Kolumnerna på detaljkortet **Relationer** innehåller följande information:
 

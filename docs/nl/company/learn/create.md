@@ -36,7 +36,7 @@ Bekijk de video over [een bedrijf maken][1].
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
 
-## <a id="more-tab" />Het tabblad Meer (bedrijfsscherm)
+## <a id="more-tab"></a>Het tabblad Meer (bedrijfsscherm)
 
 1. Selecteer het tabblad **Meer**. Dit tabblad bevat door de gebruikers gedefinieerde velden voor bedrijven. Als uw organisatie bijvoorbeeld behoefte heeft aan velden voor het aantal werknemers of de omzet van het bedrijf, kunt u in Instellingen en onderhoud opgeven dat deze velden hier moeten worden ingevoegd.
 
@@ -47,7 +47,7 @@ Bekijk de video over [een bedrijf maken][1].
 > [!NOTE]
 > U kunt de bedrijfsinformatie op het tabblad **Meer** ook bewerken. Hiervoor klikt u op **Bewerken**.
 
-## <a id="interests-tab" /> Het tabblad Interesses (scherm Bedrijf)
+## <a id="interests-tab"></a> Het tabblad Interesses (scherm Bedrijf)
 
 1. Selecteer het tabblad **Interesses**.
 

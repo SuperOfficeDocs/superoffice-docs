@@ -75,7 +75,7 @@ Tabbordningen visas i listan **Namn** på vänster sida av fönstret. Ordningen 
 
 1. Klicka på **Publicera** för att ändringarna ska vara tillgängliga för SuperOffice CRM-användarna.
 
-## <a id="page-1" />Visa användardefinierat fält på förstasidan
+## <a id="page-1"></a>Visa användardefinierat fält på förstasidan
 
 1. Markera **Tillåt olika sidan 1-fält för olika användargrupper** längst ner på fliken om du vill definiera olika sidan 1-fält för olika användargrupper. Om det här alternativet inte markeras används fälten du skapar för alla användargrupper.
 

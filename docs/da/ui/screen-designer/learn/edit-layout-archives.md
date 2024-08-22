@@ -104,7 +104,7 @@ Hvis du vil redigere et eksisterende arkiv, skal du markere det og redigere de t
 
 Du kan altid klikke på **Gendan faner** for at fortryde disse ændringer.
 
-## <a id="undo-changes" />Fortryd ændringer
+## <a id="undo-changes"></a>Fortryd ændringer
 
 Hvis du har brug for at vende tilbage til en tidligere version af skærmen, kan du få adgang til følgende indstillinger fra knappen **Opgave**:
 

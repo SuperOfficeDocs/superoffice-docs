@@ -104,7 +104,7 @@ Als u een bestaand archief wilt bewerken, selecteert u het en bewerkt u de besch
 
 U kunt altijd op **Tabbladen herstellen** klikken om deze wijzigingen ongedaan te maken.
 
-## <a id="undo-changes" />Wijzigingen ongedaan maken
+## <a id="undo-changes"></a>Wijzigingen ongedaan maken
 
 Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende opties openen via de knop **Taak**:
 

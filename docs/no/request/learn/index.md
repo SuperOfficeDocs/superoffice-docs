@@ -26,7 +26,7 @@ Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttesp
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- > [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Hvor får jeg tilgang til saker?
+## <a id="open"></a>Hvor får jeg tilgang til saker?
 
 * Arkiver i alle hovedkort, som Firma, Salg, Prosjekt
 * [Forhåndsdefinerte lister][11]
@@ -36,7 +36,7 @@ Hvert spørsmål kan defineres som en sak. Det kan være alt fra brukerstøttesp
 
 Når du dobbeltklikker på en rad i [bildet med søkeresultater][13], kommer du til bildet Sak.
 
-### <a id="customers" />Personer
+### <a id="customers"></a>Personer
 
 Saker kan knyttes til [personer][2], som igjen kan tilhøre et [firma][3]. Dette betyr at saker ikke kan knyttes direkte til firmaer (bare indirekte via personer). Når nye e-postmeldinger importeres og lagres som saker, knyttes saken automatisk til riktig person via e-postadressen. Når du viser en sak, kan enkelt se hvem som er personen, og hvis du klikker på personens navn, kan du se hvilke saker som er registrert på denne personen. På denne måten får du raskt oversikt over tidligere kommunikasjon med samme person.
 
@@ -48,7 +48,7 @@ Saker kan knyttes til [personer][2], som igjen kan tilhøre et [firma][3]. Dette
 * [Finne saker][10]
 * [7 tips for å yte førsteklasses kundeservice med SuperOffice Service][20] – blogg
 
-## <a id="request-mgt" />Håndtering av saker
+## <a id="request-mgt"></a>Håndtering av saker
 
 Innkommende saker kan komme gjennom mange kanaler, og det er mer enn én måte å registrere og svare på dem. Hvordan saksbehandlingen foregår, vil variere fra sak til sak.
 

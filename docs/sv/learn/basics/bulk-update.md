@@ -54,7 +54,7 @@ Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter 
 
 10. Klicka på **Stäng**.
 
-## <a id="search-and-replace" />Sök och ersätt
+## <a id="search-and-replace"></a>Sök och ersätt
 
 Med hjälp av åtgärden **Sök och ersätt** kan du hitta en viss text i ett fält och ersätta den.
 
@@ -63,7 +63,7 @@ Med hjälp av åtgärden **Sök och ersätt** kan du hitta en viss text i ett f�
 3. Skriv in ersättningstexten i **Ersätt med**-fältet.
 4. Valfritt: Klicka på ett **Alternativ** och välj konfiguration om du vill skilja stora och små bokstäver och söka efter hela eller delar av ord.
 
-## <a id="regex" />Reguljära uttryck
+## <a id="regex"></a>Reguljära uttryck
 
 Med åtgärden **Regex** kan du använda reguljära uttryck för att uppdatera ett fält.
 

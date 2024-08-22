@@ -20,7 +20,7 @@ Det er nemt at oprette en formular og slå den op på enhver websid. Eksempler p
 
 ![Du kan bruge en webformular til at bede folk om at tilmelde sig dit næste webinar eller seminar eller kontakte din virksomhed med deres spørgsmål -screenshot][img1]
 
-<a id="ex" />Use cases
+<a id="ex"></a>Use cases
 
 Du kan bruge webformularer til at fange dine besøgendes oplysninger - deres navn, e-mail-adresse, præferencer, kommentarer og feedback og muligvis konvertere dem til kunder. De data, du får via webformularer, kan automatisk importeres til din SuperOffice CRM-database, så du sparer tid og kræfter.
 
@@ -58,7 +58,7 @@ SuperOffice Marketing har 3 faner vedrørende formularer.
 
 * **Fanen Formularindsendelser:** viser en liste over personer, der har indsendt en formular, og den aktuelle [status for deres indsendelse](#status).
 
-## <a id="view" />Skærmbilledet Vis formular
+## <a id="view"></a>Skærmbilledet Vis formular
 
 ![SuperOffice Marketing 'Vis formularen' -screenshot][img4]
 
@@ -79,7 +79,7 @@ Skærmbilledet **Vis formular** består af følgende faner:
 * **Formularindsendelser:** viser indsendelser for en individuel formular.
 * **E-mail med svar:** en forhåndsvisning af formularsvaret (udsendelsen) knyttet til denne formular. Synlig kun hvis **E-mail-svar** [formularhandling][8] er valgt.
 
-## <a id="submissions" />Formularindsendelser
+## <a id="submissions"></a>Formularindsendelser
 
 Når en formular indsendes fra et kundecenter eller websted, indsamles dataene og vises i fanen **Formularindsendelser**. Et rødt ikon på fanen angiver nye formularindsendelser ![ikon][img3]
 
@@ -88,13 +88,13 @@ Brug filterindstillingerne nederst på listen for kun at vise indsendelser med b
 > [!NOTE]
 > Du kan også[vise indsendelser for enkelte formularer][5] ved at åbne en formular i fanen **Formularer**.
 
-### <a id="status" />Status
+### <a id="status"></a>Status
 
 * **Behandlet**: Formularen er indsendt og behandlet automatisk.
 * **Indsendt**: Formularen er indsendt, men ikke behandlet endnu. [Sådan behandles formularindsendelser][2]
 * **Afventer bekræftelse**: Formularen er indsendt, men indsenderen skal bekræfte sin e-mailadresse (dobbelt tilsagn).
 
-## <a id="opt-in" />Hvad er dobbelt tilsagn?
+## <a id="opt-in"></a>Hvad er dobbelt tilsagn?
 
 Med dobbelt tilsagn skal kunderne bekræfte deres e-mailadresse ved at klikke på linket i en bekræftelses-e-mail ud over at indsende formularen.
 

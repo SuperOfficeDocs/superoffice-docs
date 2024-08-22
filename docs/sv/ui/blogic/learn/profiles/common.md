@@ -20,7 +20,7 @@ Delade profiler är kopplade till en [roll][2] och gäller för alla användare 
 * **System**: Dessa profiler kan du konfigurera genom att följa proceduren nedan.
 * **System screens**: En översikt över skärmar som har skapats med hjälp av [systemdesignern][1] i SuperOffice Service. Du kan ändra dessa skärmar om du har tillgång till **Systemdesign** > **Skärmbilder**.
 
-## <a id="create" />Skapa delade profiler
+## <a id="create"></a>Skapa delade profiler
 
 Följande steg visar till exempel hur du lägger till ett fält i fönstret **Söka ärenden**.
 

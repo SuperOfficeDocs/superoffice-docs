@@ -49,7 +49,7 @@ Om du vill att projektet ska kopplas till ett företag måste du registrera mins
 > [!TIP]
 > Du kan markera flera kontakter genom att på höger sida hålla ned **CTRL**- eller **SKIFT**-tangenten intryckt medan du markerar dem. Det du sedan anger i fältet **Funktion** och textrutan **Kommentar**, kommer då att gälla för alla de markerade kontakterna.
 
-## <a id="from-section-tab" />Lägga till projektdeltagare och intressenter från detaljkort
+## <a id="from-section-tab"></a>Lägga till projektdeltagare och intressenter från detaljkort
 
 Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna på olika detaljkort, till exempel **Företag** (**Kontakter**), **Urval** (**Företag/Kontakt**), **Försäljning** (**Intressenter**) och **Projekt** (**Projektdeltagare**). Proceduren nedan kan med andra ord även utföras från fliken **Resultat** i fönstret [Sök][3].
 

@@ -47,7 +47,7 @@ Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer 
 
 ## Typer af felter
 
-### <a id="text" />Tekstfelt
+### <a id="text"></a>Tekstfelt
 
 Hvis søgefeltet er et tekstfelt (for eksempel et navnefelt), søges der efter den tekst eller de tal, du indtaster. Der vises en liste med følgende indstillinger:
 
@@ -55,11 +55,11 @@ Hvis søgefeltet er et tekstfelt (for eksempel et navnefelt), søges der efter d
 
 Vælg én af disse indstillinger, og indtast derefter søgekriterier i tekstfeltet til højre.
 
-### <a id="yes-no" />Ja/Nej-felt
+### <a id="yes-no"></a>Ja/Nej-felt
 
 Hvis søgefeltet er et Ja/Nej-felt, for eksempel feltet **Ingen udsendelser** i skærmbilledet Firma, vises der to valgmulighedsknapper. Du kan vælge mellem **Ja** og **Nej**.
 
-### <a id="date" />Datofelt
+### <a id="date"></a>Datofelt
 
 Hvis søgefeltet er et datofelt, for eksempel feltet **Dato** i dialogboksen **Dokument**, vises der en liste med følgende alternativer:
 
@@ -67,7 +67,7 @@ Hvis søgefeltet er et datofelt, for eksempel feltet **Dato** i dialogboksen **D
 
 Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet automatisk med en dato eller et datointerval, eller du kan angive den ønskede dato. Du kan også vælge en dato i kalenderen, som vises, når du klikker på pileknappen ![ikon][img1].
 
-### <a id="number" />Talfelt
+### <a id="number"></a>Talfelt
 
 Hvis søgefeltet indeholder talværdier, for eksempel feltet **Beløb** i skærmbilledet Salg, vises der en liste med følgende alternativer:
 
@@ -75,7 +75,7 @@ Hvis søgefeltet indeholder talværdier, for eksempel feltet **Beløb** i skærm
 
 Vælg den ønskede indstilling, og indtast den ønskede talværdi i tekstfeltet til højre.
 
-### <a id="list" />Listefelt
+### <a id="list"></a>Listefelt
 
 Hvis feltet, du skal søge i, indeholder lister, for eksempel feltet **Branche** i skærmbilledet Firma, vises der en liste med indstillingerne **Er en af** og **Er ikke en af**.
 
@@ -85,7 +85,7 @@ Hvis listen er lang, kan du skrive tekst i felterne **Søgekriterier** for at s�
 
 Klik uden for listen for at lukke den.
 
-### <a id="status" />Statusfelt
+### <a id="status"></a>Statusfelt
 
 Hvis søgefeltet er et statusfelt, skal du blot vælge den ønskede status.
 
@@ -93,7 +93,7 @@ Statusserne oprettes og vedligeholdes i Indstillinger og vedligeholdelse.
 
 Statusfelter er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
 
-### <a id="counter" />Tællerfelt
+### <a id="counter"></a>Tællerfelt
 
 [Tællere][3] kan for eksempel være antal salg i en periode eller datoen for det sidst gennemførte salg.
 

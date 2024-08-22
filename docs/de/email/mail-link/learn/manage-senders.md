@@ -51,7 +51,7 @@ Wenn der Absender nicht in SuperOffice CRM aufgeführt ist, können Sie seine E-
 > [!NOTE]
 > Wenn Sie versuchen, mehr als eine E-Mail gleichzeitig zu archivieren, werden Sie zu jedem Absender, der nicht in SuperOffice CRM aufgeführt ist, gefragt.
 
-## <a id="new-contact" />Eine E-Mail-Adresse zu einer neuen Person hinzufügen
+## <a id="new-contact"></a>Eine E-Mail-Adresse zu einer neuen Person hinzufügen
 
 1. Das Dialogfeld **E-Mail-Adresse speichern** wird geöffnet.
 
@@ -63,7 +63,7 @@ Wenn der Absender nicht in SuperOffice CRM aufgeführt ist, können Sie seine E-
 
 5. Klicken Sie auf **OK**. Die Person und die dazugehörige E-Mail-Adresse werden nun in der Bereichsregisterkarte **Personen** der entsprechenden Firmenkarte angezeigt.
 
-## <a id="existing-contact" />Eine E-Mail-Adresse zu einer vorhandenen Person hinzufügen
+## <a id="existing-contact"></a>Eine E-Mail-Adresse zu einer vorhandenen Person hinzufügen
 
 1. Das Dialogfeld **E-Mail-Adresse speichern** wird geöffnet.
 

@@ -78,7 +78,7 @@ Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd 
 
 ***
 
-### <a id="allow" />Beveiligingsvraag van de browser bij het openen van bestanden
+### <a id="allow"></a>Beveiligingsvraag van de browser bij het openen van bestanden
 
 Wanneer u toegang krijgt tot en een document, bestand of e-mail bewerkt in SuperOffice, vraagt uw browser u om een *beveiligingsvraag* met betrekking tot het downloaden van het bestand.
 
@@ -103,7 +103,7 @@ De dialoog is enigszins verschillend in Chrome, Edge, Firefox en Safari.
 
 ![Safari: Altijd toestaan of Toestaan -screenshot][img4]
 
-## <a id="delete" />Documenten verwijderen
+## <a id="delete"></a>Documenten verwijderen
 
 1. Selecteer het gewenste document op het sectietabblad **Activiteiten** op de schermen Bedrijf, Persoon, Agenda, Verkoop of Project.
 2. Klik op de knop **Verwijderen** links onder in de lijst.

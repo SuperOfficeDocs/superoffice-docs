@@ -68,7 +68,7 @@ For at du skal kunne slette firmaer fra fanen **Våre firmaer**, må følgende t
 
     * **Ingen treff**: Du får en melding om at det ikke finnes noen oppføringer som samsvarer med søkekriteriene. Klikk på **OK**, og søk på nytt med andre søkekriterier.
 
-### <a id="criteria" />Søkekriteriene
+### <a id="criteria"></a>Søkekriteriene
 
 Feltene nedenfor tilsvarer feltene på firmakortet.
 

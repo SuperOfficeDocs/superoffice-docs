@@ -43,7 +43,7 @@ Nach dem Senden der Kampagne sammelt SuperOffice Marketing Daten über den Statu
 
 Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice sendet Ihre Kampagne an die Empfänger. Danach ändert sich der Status in **Gesendet** .
 
-## <a id="filters" />Filter
+## <a id="filters"></a>Filter
 
 * **Gesendet**: Aktivieren Sie diesen Filter, um alle Empfänger anzuzeigen, an die die Kampagne verschickt wurde.
 
@@ -64,7 +64,7 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice sendet Ihre Kampagne an die Empfänger. Danach wird der Status in **Gesendet** geändert.
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="add-recipients" />Empfänger Selektionen oder Projekten hinzufügen
+## <a id="add-recipients"></a>Empfänger Selektionen oder Projekten hinzufügen
 
 Über die Menüschaltfläche **Actionen** können Sie Empfänger und Klicker zu einer Selektion oder einem Projekt hinzufügen.
 

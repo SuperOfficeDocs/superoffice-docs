@@ -25,7 +25,7 @@ Når kunden har accepteret tilbuddet, kan du generere en ordre, som du sender ti
 4. [Send tilbuddet][4].
 5. Når kunden accepterer tilbuddet, kan [du afgive ordren][5].
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

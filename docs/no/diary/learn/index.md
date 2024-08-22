@@ -22,13 +22,13 @@ Dagboken er et nyttig hjelpemiddel for å planlegge og utføre ulike typer oppga
 
 Regelmessig bruk av dagboken, der aktiviteter knyttes til en kontakt eller et selskap, sikrer at du og ditt team kan holde orden enkelt, fremme smidig samarbeid og økt produktivitet.
 
-## <a id="open" />Vise dagbok
+## <a id="open"></a>Vise dagbok
 
 For å åpne dagboken, klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises, eller klikk **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke. Ditt eget navn vises øverst til høyre i Dagbok-bildet. Hvis to eller flere oppfølginger overlapper, kan du se deler av hver oppfølging.
 
 Du kan få tilgang til en annen brukers dagbok eller en tilgjengelig ressurs for å sjekke deres tilgjengelighet eller opprette oppfølginger direkte. For å se flere dagbøker samtidig, opprett en [gruppevisning][2].
 
-## <a id="nav" />Navigere i Dagbok-bildet
+## <a id="nav"></a>Navigere i Dagbok-bildet
 
 Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt**-fanen. Det er enkelt å bytte mellom disse visningene: bare klikk på fanene øverst på dagbokskjermen. Den aktuelle dagen, uken eller måneden vises øverst på siden, avhengig av hvilken fane du velger.
 

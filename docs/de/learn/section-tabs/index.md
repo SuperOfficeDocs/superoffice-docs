@@ -18,7 +18,7 @@ Die Bereichsregisterkarten (auch Archive genannt) werden unter der Hauptkarte an
 
 Sie können festlegen, welche Spalten in angezeigt werden, und deren Breite und Reihenfolge bestimmen.
 
-## <a id="sort" />Listen sortieren
+## <a id="sort"></a>Listen sortieren
 
 Auf den Bereichsregisterkarten können Sie die Listen nach den verschiedenen Spalten in auf- oder absteigender Reihenfolge sortieren.
 

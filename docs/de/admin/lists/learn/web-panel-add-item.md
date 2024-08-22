@@ -59,7 +59,7 @@ language: de
 > [!TIP]
 > Wenn Sie eine URL-Adresse hinzufügen, könnte es nützlich sein, Vorlagenvariablen für die aktive Firma zu verwenden, um zum Beispiel über eine URL Informationen von anderen Anwendungen abzurufen. Es müssen die URL-Adresse Parameter angegeben werden, wie in folgendem Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist die Vorlagenvariable für die Organisationsnummer, andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt; und Personenname &lt;attn&gt; können ebenfalls verwendet werden.
 
-## <a id="options" />Optionen
+## <a id="options"></a>Optionen
 
 ### Bildschirm
 

@@ -36,7 +36,7 @@ Sehen Sie sich das Video an, wie Sie eine [Firma erstellen][1].
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
 
-## <a id="more-tab" />Registerkarte Mehr (Ansicht Firma)
+## <a id="more-tab"></a>Registerkarte Mehr (Ansicht Firma)
 
 1. Wechseln Sie zur Registerkarte **Mehr**. Diese Registerkarte enthält benutzerdefinierte Felder für Firmen. Wenn Ihre Organisation z.B. Felder für die Anzahl der Mitarbeiter in der Firma oder für dessen Umsatz benötigt, können Sie unter Einstellungen und Verwaltung festlegen, dass diese Felder hier eingefügt werden sollen.
 
@@ -47,7 +47,7 @@ Sehen Sie sich das Video an, wie Sie eine [Firma erstellen][1].
 > [!NOTE]
 > Sie können die zu einer Firma gehörenden Informationen auch auf der Registerkarte **Mehr** ändern, indem Sie auf **Bearbeiten** klicken.
 
-## <a id="interests-tab" />Registerkarte Interessen (Ansicht Firma)
+## <a id="interests-tab"></a>Registerkarte Interessen (Ansicht Firma)
 
 1. Wechseln Sie zur Registerkarte **Interessen**.
 

@@ -15,7 +15,7 @@ pilot: yes
 
 # Kjør, pause og avslutt flyt
 
-## <a id="status" />Flytstatus
+## <a id="status"></a>Flytstatus
 
 * **Stoppet:** Representerer en ikke-startet ny flyt (eller en avsluttet flyt). Triggere er ikke aktive.
 
@@ -70,7 +70,7 @@ For å avslutte flyten:
 
 Hvis flyten startes igjen etter å ha avsluttet den, går bare nye deltakere gjennom flyten, gamle deltakere beholder statusen Dropout.
 
-## <a id="delete" />Slett flyt
+## <a id="delete"></a>Slett flyt
 
 1. Sett flyten på pause.
 1. Velg **Oppgave** > **Slett flyt**.

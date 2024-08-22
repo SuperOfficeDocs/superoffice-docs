@@ -69,7 +69,7 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
 
 1. Klikk på **Send** for å sende og lagre saken.
 
-## <a id="message" />Melding
+## <a id="message"></a>Melding
 
 > [!NOTE]
 > Hvis du vil sende meldingen til noen, legger du til mottakere i **Til**-feltet under fanene. For å gjøre meldingen tilgjengelig for personen via SuperOffice Kundesenter, må du angi tilgangsnivået (for meldingen) til **Eksternt**.
@@ -90,7 +90,7 @@ Nederst i bildet finner du dessuten følgende alternativer:
 > [!NOTE]
 > Standard sakssignatur vil bli lagt til i meldingen. Du kan redigere signaturen direkte i meldingen eller redigere din standard [e-postsignatur][1].
 
-## <a id="details" />Detaljer
+## <a id="details"></a>Detaljer
 
 Fanen **Detaljer** inneholder ytterligere detaljer om saken. Her finner du informasjon som når saken ble opprettet, når den sist ble endret, avsluttet eller besvart, når den ble lest av eieren eller personen, og ekstra felt. Denne informasjonen oppdateres automatisk i løpet av sakens levetid, men det er noen felt som kan redigeres når saken opprettes:
 

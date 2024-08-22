@@ -75,7 +75,7 @@ Die TAB-Reihenfolge wird in der Liste **Name** links auf der Ansicht angezeigt. 
 
 1. Klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
 
-## <a id="page-1" />Benutzerdefiniertes Feld auf der ersten Seite anzeigen
+## <a id="page-1"></a>Benutzerdefiniertes Feld auf der ersten Seite anzeigen
 
 1. Aktivieren Sie **Unterschiedliche Felder auf Seite 1 für unterschiedliche Benutzergruppen zulassen** unten auf der Registerkarte, um unterschiedliche Felder für Seite 1 für verschiedene Benutzergruppen anzugeben. Wenn diese Option nicht aktiviert ist, werden die von Ihnen festgelegten Felder für alle Benutzergruppen verwendet.
 

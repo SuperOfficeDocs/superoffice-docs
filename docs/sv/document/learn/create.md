@@ -94,7 +94,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 ***
 
-## <a id="fields" />Hur man anger information
+## <a id="fields"></a>Hur man anger information
 
 > [!NOTE]
 > Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
@@ -127,7 +127,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 * I fliken **Mer** anger du eventuella [användardefinierade fält][10] som är konfigurerade i Inställningar och underhåll.
 
-## <a id="upload" />Ladda upp dokument
+## <a id="upload"></a>Ladda upp dokument
 
 1. Klicka på **Nytt** > **Dokument** på toppraden.
 

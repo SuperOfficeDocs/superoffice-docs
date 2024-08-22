@@ -17,7 +17,7 @@ Een verkoop heeft een hoofdcontactpersoon, maar partners en onderaannemers kunne
 
 Voor elke belanghebbende worden het bedrijf, de naam van de contactpersoon, de functie in de verkoop, het e-mailadres en het telefoonnummer weergegeven.
 
-## <a id="role" />Verkoop - Rol belanghebbende
+## <a id="role"></a>Verkoop - Rol belanghebbende
 
 Een verkoop heeft een hoofdcontactpersoon, maar partners en onderaannemers kunnen ook bij de verkoop betrokken zijn. Zij worden belanghebbenden genoemd en kunnen worden ingevoerd via het sectietabblad **Belanghebbenden** onder in het scherm Verkoop. Belanghebbenden kunnen zowel personen als organisaties omvatten.
 

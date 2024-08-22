@@ -41,7 +41,7 @@ Om en projektguide är definierad för en projekttyp som du har angett för ett 
 
 1. Upprepa stegen ovan för alla händelser/dokument i varje status i projektguiden.
 
-## <a id="move-to-next-status" />Gå till nästa status
+## <a id="move-to-next-status"></a>Gå till nästa status
 
 Du kan flytta projektet till nästa status på två olika sätt:
 

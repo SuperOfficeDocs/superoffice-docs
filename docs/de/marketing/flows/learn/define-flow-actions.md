@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > Wenn Sie Flow-Aktionen hinzufügen oder aktualisieren, beachten Sie, dass auch Formulare und verfolgte Links Aktionen haben. Sie sollten sicherstellen, dass keine doppelten oder widersprüchlichen Aktionen vorhanden sind. Wir empfehlen, alle Aktionen an einem Ort einzubeziehen, entweder im Formular oder im Flow.
 
-## <a id="send" />Nachricht senden
+## <a id="send"></a>Nachricht senden
 
 Dinge, die zu beachten sind:
 
@@ -71,7 +71,7 @@ Flow-Teilnehmer ohne registrierte Telefonnummer können entweder den Schritt üb
 > [!TIP]
 > Wenn Sie nur eine SMS senden möchten, achten Sie auf den Zähler in der unteren rechten Ecke. Wenn die Anzahl der Zeichen 160 überschreitet, wird die Nachricht als mehrere SMS-Segmente gesendet und zusätzliche Kosten können anfallen. Wir empfehlen, die Nachricht kurz und informativ zu halten.
 
-## <a id="update" />Teilnehmer aktualisieren
+## <a id="update"></a>Teilnehmer aktualisieren
 
 * Person aktualisieren
 * Zur Selektion/Projekt hinzufügen
@@ -109,7 +109,7 @@ Der Person wird als Mitglied aus der angegebenen Selektion und/oder dem Projekt 
 
 Dieser Schritt ähnelt dem Schritt **Zur Selektion und/oder zum Projekt hinzufügen**.
 
-## <a id="create" />Aktivität erstellen
+## <a id="create"></a>Aktivität erstellen
 
 Der Flow kann automatisch eine Folgeaufgabe, Anfrage und/oder einen Verkauf beim Person gemäß den Einstellungen erstellen. Durch die Verknüpfung von CRM-Aktivitäten und Benachrichtigungen kann Ihre Organisation die Lücke zwischen Marketing und Vertrieb schließen. Das Erstellen von Aktivitäten ermöglicht es Ihnen auch, sich auf engagierte Persone zu konzentrieren.
 
@@ -153,7 +153,7 @@ Wenn der Person diesen Schritt erreicht, ist der Person reif und hat Anzeichen f
 
 Weitere Details finden Sie in der [Liste der Schritt-Einstellungen][1] und [wie man einen Verkauf erstellt][18].
 
-## <a id="internal" />Interne Aktionen
+## <a id="internal"></a>Interne Aktionen
 
 ### Skript ausführen
 

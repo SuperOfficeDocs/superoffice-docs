@@ -25,7 +25,7 @@ pilot: yes
 > [!NOTE]
 > Når du legger til eller oppdaterer flythandlinger, husk at skjemaer og sporingslenker også har handlinger. Du bør sørge for at det ikke finnes dupliserte eller motstridende handlinger. Vi anbefaler at du inkluderer alle handlinger på ett sted, enten i skjemaet eller i flyten.
 
-## <a id="send" />Send melding
+## <a id="send"></a>Send melding
 
 Ting å vurdere:
 
@@ -71,7 +71,7 @@ Flytdeltakere uten registrert telefonnummer kan enten hoppe over trinnet (fortse
 > [!TIP]
 > Hvis du ønsker å sende kun én SMS, hold øye med telleren i nederste høyre hjørne. Hvis antall tegn overstiger 160, sendes meldingen som flere SMS-segmenter og ekstra kostnader kan påløpe. Vi anbefaler å holde meldingen kort og informativ.
 
-## <a id="update" />Oppdater deltaker
+## <a id="update"></a>Oppdater deltaker
 
 * Oppdater person
 * Legg til i utvalg/prosjekt
@@ -109,7 +109,7 @@ Personen fjernes som medlem fra det angitte utvalget og/eller prosjektet.
 
 Dette trinnet er likt **Legg til i utvalg/prosjekt**.
 
-## <a id="create" />Opprett aktivitet
+## <a id="create"></a>Opprett aktivitet
 
 Flyten kan automatisk opprette en oppfølging, sak og/eller salg på personen i henhold til innstillingene. Ved å koble CRM-aktiviteter og varsler, kan organisasjonen bygge bro mellom markedsføring og salg. Oppretting av aktiviteter lar deg også fokusere på personer som er engasjerte.
 
@@ -153,7 +153,7 @@ Når deltakeren når dette trinnet, er personen moden og har vist tegn på å v�
 
 For detaljer, se [listen over trinninnstillinger][1] og [hvordan du oppretter et salg][18].
 
-## <a id="internal" />Interne handlinger
+## <a id="internal"></a>Interne handlinger
 
 ### Kjør skript
 

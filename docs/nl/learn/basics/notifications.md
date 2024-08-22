@@ -22,7 +22,7 @@ Wanneer u op het **belpictogram** ![pictogram][img1] in de rechterbovenhoek van 
 
 ![De melding verschijnt met zowel meldingen over verzoeken als uitnodigingen -screenshot][img5]
 
-## <a id="activity" />Activiteitsmeldingen
+## <a id="activity"></a>Activiteitsmeldingen
 
 Wanneer u een activiteitsmelding ontvangt, wordt deze weergegeven in uw meldingenpaneel. Klik op de link in de melding om de activiteit te openen.
 
@@ -83,7 +83,7 @@ Dit zijn de meldingsopties:
 * Systeemmeldingen voor email
 * Systeemmeldingen voor chatten
 
-## <a id="enable-browser" />Hoe de browserinstellingen voor meldingen wijzigen
+## <a id="enable-browser"></a>Hoe de browserinstellingen voor meldingen wijzigen
 
 **Chrome:** Klik op het hangslotsymbool voor de URL en schakel de **Meldingen**-schakelaar in.
 

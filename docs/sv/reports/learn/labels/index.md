@@ -36,7 +36,7 @@ Dessa steg är gemensamma för alla instruktioner på den här sidan.
 
 1. Klicka på utskriftsknappen i visningsprogrammet för PDF-filer eller spara PDF-filen så att du kan öppna den senare.
 
-## <a id="add-format" />Lägga till ledtextformat
+## <a id="add-format"></a>Lägga till ledtextformat
 
 Om du vill skriva ut etiketter i ett annat format än de som redan finns tillgängliga, kan du definiera ett eget nytt format.
 

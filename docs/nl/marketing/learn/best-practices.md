@@ -87,7 +87,7 @@ Auteurs zien een bericht als ze een niet-gevalideerd e-mailadres in het From-vel
 
 * Je kunt dezelfde ervaring bereiken door één flow te splitsen of de communicatie in twee verschillende flows te organiseren. Of je één flow moet splitsen of meerdere flows moet definiëren, hangt af van het scenario en welk resultaat je wilt volgen. Hoe meer twee communicatiepaden gemeen hebben, hoe efficiënter het voor de gebruiker is om ze binnen dezelfde flow te organiseren.​
 
-## <a id="mobile" />Het bericht aanpassen voor weergave op mobiele apparaten
+## <a id="mobile"></a>Het bericht aanpassen voor weergave op mobiele apparaten
 
 Het bericht wordt automatisch aangepast voor weergave op kleinere schermen.
 

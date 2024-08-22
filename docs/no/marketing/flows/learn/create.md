@@ -30,7 +30,7 @@ pilot: yes
 
 ![Set properties for new flow -screenshot][img1]
 
-## <a id="fields" />Fylle ut flytfeltene
+## <a id="fields"></a>Fylle ut flytfeltene
 
 ### Innstillinger (for flyt)
 
@@ -74,7 +74,7 @@ Suksesskriterier definerer [hva suksess betyr for en flyt][7].
 
 ![Sett suksesskriterium for ny flyt -screenshot][img3]
 
-## <a id="trigger" />Definer trigger og filter for flyten
+## <a id="trigger"></a>Definer trigger og filter for flyten
 
 Trinnet **Trigger** legges automatisk til som startpunkt for enhver flyt. Det bestemmer hvem flyten er relevant for. Triggere aktiveres bare for kjørende eller pausede flyter.
 
@@ -128,7 +128,7 @@ Ekskluderingslisten **forhindrer utvalgte personer fra å bli lagt til i flyten*
 * Forhindre spesifikke kunder fra å motta generelle masse-e-poster.
 * Send påminnelser, men ikke til de som allerede er påmeldt.
 
-## <a id="add-step"/>Legg til trinn
+## <a id="add-step"></a>Legg til trinn
 
 1. Velg **Trinn** fra venstremenyen.
 1. Velg et trinn og dra det til hvor du ønsker å legge det til i flytskjemaet.
@@ -151,7 +151,7 @@ Når du åpner fanen **Trinn** for første gang, vil du se noe slikt:
 * Et flytskjema med en **Trigger**, en **plassholder** for å legge til et trinn, og et **Avsluttet**-trinn (i midten).
 * En liste av tilgjengelige trinntyper (til høyre).
 
-## <a id="wait" />Flytkontroll
+## <a id="wait"></a>Flytkontroll
 
 De fleste trinn i en flyt representerer handlinger knyttet til deltakeren, som å oppdatere personens interesser. Flytkontrolltrinn er imidlertid annerledes; de involverer **timing** og **segmentering**.
 

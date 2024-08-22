@@ -22,7 +22,7 @@ I fönstret Användare kan du lägga till och redigera olika typer av användare
 > [!NOTE]
 > Ändringar som du gör i fönstret Användare träder inte i kraft förrän du klickar på **Spara** längst ned i fönstret eller bekräftar att du vill spara ändringarna i dialogrutan som visas. Om du klickar på **Avbryt** förlorar du alla ändringar som du har gjort i fönstret sedan du sparade sist.
 
-## <a id="associates" />Medarbetarlistan
+## <a id="associates"></a>Medarbetarlistan
 
 Listan på fliken **Medarbetare** har som standard följande kolumner:
 
@@ -51,11 +51,11 @@ I användaröversikten finns olika flikar:
 * **Licenser** – extra licensinformation som **Konfidentiella aktiviteter** som användaren kan använda för att ange **synlig för** för händelser, dokument och urval.
 * **Mer** – fliken visar om det finns extrafält för en person.
 
-## <a id="other-users" />Andra användare (lokalt)
+## <a id="other-users"></a>Andra användare (lokalt)
 
 På fliken **Andra användare** i fönstret Användare kan du redigera inloggningsrättigheter för och lägga till anonyma användare och systemanvändare.
 
-## <a id="our-companies" />Våra företag
+## <a id="our-companies"></a>Våra företag
 
 Syftet med företagslistan på fliken **Våra företag** är att specificera följande:
 

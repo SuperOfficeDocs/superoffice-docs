@@ -36,7 +36,7 @@ Disse trin er fælles for alle instruktioner på denne side.
 
 1. Klik på udskriftsknappen i visningsprogrammet for PDF-filer eller gemme PDF-filen så du kan åbne den senere.
 
-## <a id="add-format" />Tilføjelse af etiketformater
+## <a id="add-format"></a>Tilføjelse af etiketformater
 
 Hvis du vil udskrive etiketter i et andet format end dem, der allerede er tilgængelige, kan du definere dit eget nye format.
 

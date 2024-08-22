@@ -21,13 +21,13 @@ I fanen **Samtykke** på skjermbildet **Personvern** (![ikon][img1]) kan du [opp
 
 Du må dokumentere et rettslig grunnlag og kilde til samtykke for hvert formål (under import eller i SuperOffice CRM for enkeltpersoner eller flere brukere).
 
-## <a id="legal-basis" />Rettslig grunnlag
+## <a id="legal-basis"></a>Rettslig grunnlag
 
 Du må dokumentere det rettslige grunnlaget for hvert formål som er registrert på en person. I denne listen legger du til og vedlikeholder hjemlene som brukes når du redigerer personverninnstillingene for personer.
 
 Eksempel: En person sender deg en sak via webskjema og klikker på alternativet "Abonner på nyhetsbrev" (eller tilsvarende). Dette betyr at vedkommende har samtykket til å motta e-postmarkedsføring fra firmaet ditt. Så hjemmelen er **Samtykke** til formålet E-markedsføring.
 
-## <a id="source" />Kilde
+## <a id="source"></a>Kilde
 
 Hvor og hvordan innhentet du samtykke fra en person? Eksempler: E-post, chat, webskjema og kundeportal.
 

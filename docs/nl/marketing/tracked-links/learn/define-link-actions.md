@@ -48,20 +48,20 @@ Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. 
 > [!TIP]
 > Houd er bij het bijwerken van een gevolgde link rekening mee dat deze mogelijk wordt gebruikt door meerdere mailings en/of geautomatiseerde flows (een pilotfunctie). Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
-## <a id="response" />Reactie
+## <a id="response"></a>Reactie
 
 Selecteer wat er moet gebeuren wanneer de ontvanger op de link klikt.
 
 * **Omleiden naar nieuwe webpagina**: Voer de URL in het daarvoor bestemde veld in.
 * Of, **Aangepaste tekst weergeven**: Voer de tekst in die moet worden weergegeven. Klik op bewerkingssymbool ![pictogram][img4] om de rich-text toolbar te tonen.
 
-## <a id="set-field" />Veld instellen
+## <a id="set-field"></a>Veld instellen
 
 In het tabblad **Veld instellen** kun je een waarde instellen die moet worden toegevoegd aan een extra veld wanneer de ontvanger op de link klikt. Dit registreert aanvullende klantinformatie.
 
 Selecteer een veld en voer een waarde in.
 
-## <a id="interests" />Interesses
+## <a id="interests"></a>Interesses
 
 Specificeer dat een klik op de link de interesses van de contactpersoon moet wijzigen. Voeg bijvoorbeeld het interesse "Productnieuws" toe als er op de link "Ja, houd me op de hoogte van nieuwe producten" wordt geklikt, of verwijder het als er op de link "Uitschrijven" wordt geklikt.
 
@@ -70,11 +70,11 @@ Specificeer dat een klik op de link de interesses van de contactpersoon moet wij
 
 [Hoe je een aanmeldformulier voor de nieuwsbrief kunt maken][1]
 
-## <a id="selection" />Selectie/Project
+## <a id="selection"></a>Selectie/Project
 
 Specificeer dat ontvangers die op de link klikken, worden toegevoegd of verwijderd uit selecties of projecten. Begin met typen om om snel zoeken te starten.
 
-## <a id="follow-up" />Vervolgactiviteit (taak/vergadering)
+## <a id="follow-up"></a>Vervolgactiviteit (taak/vergadering)
 
 In het tabblad **Vervolgactiviteit** stel je een link klik in om vergaderingen of taak te genereren in SuperOffice CRM. Kies het type vervolgactiviteit, geef een beschrijving op, koppel het aan een project, selecteer het taaktype, wijs verantwoordelijkheid toe en stel de duur in.
 
@@ -87,13 +87,13 @@ Activeer deze functie door **Vervolgactiviteit** te selecteren.
 >
 > Bij het instellen van **Gemaakt door** of **Standaardontvanger** kun je op de knop **Actieve gebruiker selecteren** ![pictogram][img1] klikken om jezelf te kiezen.
 
-## <a id="request" />Verzoek
+## <a id="request"></a>Verzoek
 
 In het tabblad **Verzoek** stel je een link klik in om een Service-verzoek te creëren. Vink het vakje aan om een nieuw verzoek te registreren, geef een titel op, selecteer de prioriteit en categorie, en kies de eigenaar. Je kunt ook **Automatisch toegewezen** of **Niet-toegewezen** selecteren.
 
 [Hoe je een verzoek kunt maken][3]
 
-## <a id="script" />Script
+## <a id="script"></a>Script
 
 In het tabblad **Script** kies je een CRMScript of macro die moet worden uitgevoerd wanneer er op de link wordt geklikt. Activeer deze functie door **Script uitvoeren** te selecteren, en kies vervolgens het vereiste script uit de lijst.
 

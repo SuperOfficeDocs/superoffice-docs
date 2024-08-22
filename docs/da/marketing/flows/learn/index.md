@@ -33,7 +33,7 @@ Træk og slip flowdesigner er dit værktøj til at bygge disse dynamiske flows.
 
 ![Træk og slip-flowdesigner -screenshot][img2]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 * **Byde nye kunder velkommen:** Send personlige e-mails, rabatter og del din brandhistorie. Støt onboarding af nye produkter.
 * **Engagement-kampagner:** Hold aktive kunder engagerede og informerede med relevant indhold, produktopdateringer og eksklusive tilbud.
@@ -78,7 +78,7 @@ Vælg mellem liste eller flise **visningstilstand** i nederste højre hjørne.
 | ![ikon][img9] | Flise (thumbnail) | Viser et miniaturebillede af hvert flow med essentielle data. Klik på menuknappen ![ikon][img3] for at åbne, redigere eller slette flowet. |
 | ![ikon][img8] | Liste (arkiv, gitter) | Viser en liste over alle flows med information præsenteret i kolonner. Du kan gruppere, filtrere og tilpasse kolonnerne ligesom i [sektion faner][12]. Højreklik for at åbne kontekstmenuen for at åbne, redigere eller slette flowet. |
 
-## <a id="view" />Vis flow-skærmen
+## <a id="view"></a>Vis flow-skærmen
 
 Øverst kan du se flowets navn og dets placering inden for mappestrukturen. Du har følgende muligheder:
 
@@ -117,7 +117,7 @@ Ved opfyldelse af et succeskriterium kan kampagnen enten stoppe eller fortsætte
 
 Det er tilrådeligt for de fleste automatiserede flows at sætte succeskriterier for tilmeldte deltagere. Det er dog ikke obligatorisk at definere sådanne kriterier.
 
-## <a id="req" />Krav
+## <a id="req"></a>Krav
 
 * Marketing Premium licens (ny tier)
 * Sales essential eller premium - for at oprette et salg

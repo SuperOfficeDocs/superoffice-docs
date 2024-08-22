@@ -19,7 +19,7 @@ Under **Personliga inställningar** > **Inställningar** i det övre fältet kan
 
 Du kan också konfigurera videomöten på fliken [Videomöten][8] och dokumentbiblioteket på fliken [Dokumentbibliotek][9].
 
-## <a id="levels" />Nivåer för inställningar
+## <a id="levels"></a>Nivåer för inställningar
 
 Inställningar kan anges på fyra olika nivåer:
 
@@ -40,7 +40,7 @@ Du kan välja vilka inställningar som ska visas i listan baserat på vilken niv
 > [!NOTE]
 > Inställningarna för systemnivå visas alltid.
 
-## <a id="global" />Globala inställningar (för hela systemet)
+## <a id="global"></a>Globala inställningar (för hela systemet)
 
 Vissa [inställningar][1] kan bara göras på global nivå:
 
@@ -64,7 +64,7 @@ Om du vill ändra de här inställningarna går du till fönstret **Inställning
 * Håll muspekaren över en inställning för att visa mer information.
 * Klicka på **Spara** för att implementera ändringarna.
 
-## <a id="preferences-tab" /> Fliken inställningar
+## <a id="preferences-tab"></a> Fliken inställningar
 
 På fliken **Inställningar** kan du ange ett antal inställningar för olika delar av SuperOffice CRM, bland annat hur många poster som ska visas i historiken, standardtyp för ett nytt möte samt standardvaluta i fönstret Försäljning.
 

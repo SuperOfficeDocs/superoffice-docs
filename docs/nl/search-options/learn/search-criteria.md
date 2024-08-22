@@ -47,7 +47,7 @@ Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wij
 
 ## Veldtypen
 
-### <a id="text" />Tekstveld
+### <a id="text"></a>Tekstveld
 
 Als het veld waarin u zoekt een tekstveld is (zoals een naam), wordt er gezocht naar de tekst of cijfers die u invoert. Er wordt een lijst met de volgende opties weergegeven:
 
@@ -55,11 +55,11 @@ Als het veld waarin u zoekt een tekstveld is (zoals een naam), wordt er gezocht 
 
 Selecteer een van deze opties en voer vervolgens de zoekcriteria in het tekstveld rechts in.
 
-### <a id="yes-no" />Ja/Nee-veld
+### <a id="yes-no"></a>Ja/Nee-veld
 
 Als het veld waarin u zoekt een Ja/Nee-veld is (bijvoorbeeld het veld **Geen mailings** in het scherm Bedrijf), worden er twee keuzerondjes weergegeven. U kunt kiezen tussen **Ja** en **Nee**.
 
-### <a id="date" />Datumveld
+### <a id="date"></a>Datumveld
 
 Als het veld waarin u zoekt een datumveld is (bijvoorbeeld het veld **Datum** in het dialoogvenster **Document**), wordt een keuzelijst met de volgende opties weergegeven:
 
@@ -67,7 +67,7 @@ Als het veld waarin u zoekt een datumveld is (bijvoorbeeld het veld **Datum** in
 
 Selecteer de gewenste optie. Afhankelijk van uw keuze wordt het veld automatisch gevuld met een datum of datumbereik. U kunt ook zelf een datum invoeren. U kunt ook een datum in de kalender selecteren die wordt weergegeven wanneer u op de pijlknop ![pictogram][img1] klikt.
 
-### <a id="number" />Nummerveld
+### <a id="number"></a>Nummerveld
 
 Als het veld waarin u zoekt, een numerieke waarde bevat (bijvoorbeeld het veld **Bedrag** in het scherm Verkoop), wordt een keuzelijst met de volgende opties weergegeven:
 
@@ -75,7 +75,7 @@ Als het veld waarin u zoekt, een numerieke waarde bevat (bijvoorbeeld het veld *
 
 Selecteer de gewenste optie en voer de gewenste numerieke waarde in het tekstveld rechts in.
 
-### <a id="list" />Lijstveld
+### <a id="list"></a>Lijstveld
 
 Wanneer het veld waarin u zoekt een veld is dat lijsten bevat (bijvoorbeeld het veld **Branche** op het scherm Bedrijf), wordt een lijst weergegeven met de opties **Is een van** en **Is niet een van**.
 
@@ -85,13 +85,13 @@ Als de lijst lang is, kunt u tekst typen in de velden **Zoekcriteria** om te zoe
 
 Klik buiten de lijst om de lijst te sluiten.
 
-### <a id="status" />Statusveld
+### <a id="status"></a>Statusveld
 
 Als het veld waarin u zoekt een statusveld is, selecteer dan de vereiste status.
 
 De statussen worden gemaakt en bijgehouden in Instellingen en onderhoud. Statusvelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en statuscontroles hebt ingeschakeld.
 
-### <a id="counter" />Tellerveld
+### <a id="counter"></a>Tellerveld
 
 [Tellers][3] kunnen bijvoorbeeld voor het aantal verkopen binnen een periode staan, of voor de datum van de laatst afgeronde verkoop.
 

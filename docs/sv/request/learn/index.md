@@ -26,7 +26,7 @@ Varje fråga och förfrågning kan definieras som ett ärende. Dessa frågor kan
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Var kan jag komma åt ärenden?
+## <a id="open"></a>Var kan jag komma åt ärenden?
 
 * Arkiv i alla huvudkort, som Företag, Försäljning, Projekt
 * [Fördefinierade listor][11]
@@ -36,7 +36,7 @@ Varje fråga och förfrågning kan definieras som ett ärende. Dessa frågor kan
 
 När du dubbelklickar på en rad i fönstret [sökresultat][13], kommer du till fönstret Ärende.
 
-### <a id="customers" />Kontakter
+### <a id="customers"></a>Kontakter
 
 Ärenden kan kopplas till [kontakter][2], som i sin tur kan tillhöra ett [företag][3]. Det betyder att ärenden inte kan kopplas till företag direkt (endast indirekt via kontakter). När nya e-postmeddelanden importeras och sparas som ärenden kopplas ärendet automatiskt till rätt kontakt via e-postadressen. När du visar ett ärende kan du enkelt se vem kontakten är, och om du klickar på kontaktens namn kan du se vilka andra ärenden som finns registrerade för personen. Det ger dig en snabb översikt över tidigare kommunikationer med den aktuella kontakten.
 
@@ -48,7 +48,7 @@ När du dubbelklickar på en rad i fönstret [sökresultat][13], kommer du till 
 * [Söka ärenden][10]
 * [7 tips för att ge förstklassig kundservice med SuperOffice Service][20] – blogg
 
-## <a id="request-mgt" />Hantera ärenden
+## <a id="request-mgt"></a>Hantera ärenden
 
 Inkommande ärenden kan komma via många olika kanaler, och det finns mer än ett sätt att registrera och svara på dem. Hur ärendehanteringen går till varierar från ett ärende till ett annat.
 

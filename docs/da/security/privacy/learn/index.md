@@ -21,13 +21,13 @@ Unde fanen **Samtykke** på skærmbilledet **Privacy** (![ikon][img1]) kan du [o
 
 Til hvert formål skal der dokumenteres et retsgrundlag og en kilde til samtykke (under import eller i SuperOffice CRM for individuelle eller flere brugere).
 
-## <a id="legal-basis" />Retsgrundlag
+## <a id="legal-basis"></a>Retsgrundlag
 
 Du skal dokumentere retsgrundlaget for hvert enkelt formål, der er registreret på en person. På denne liste kan du tilføje og vedligeholde listen over retsgrundlag, der bruges, når du redigerer privacy-indstillingerne for dine personer.
 
 Eksempel: En person sender dig en sag via webformular og klikker på indstillingen"Abonner på nyhedsbrev" (eller lignende). Det betyder, at denne person har givet sit samtykke til at modtage e-markedsføring fra dit firma. Så retsgrundlaget er **Samtykke** til formålet E-markedsføring.
 
-## <a id="source" />Kilde
+## <a id="source"></a>Kilde
 
 Hvor og hvordan indhentede du samtykke fra en person? Eksempler: E-mail, chat, webformular og kundeportal.
 
