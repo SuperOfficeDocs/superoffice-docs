@@ -24,7 +24,7 @@ Each question and query can be defined as a request. These questions range from 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 <!-- > [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
-## <a id="open" />Where can I access requests?
+## <a id="open"></a>Where can I access requests?
 
 * Archives in the Company, Contact, Sale, and Project screens.
 * [Pre-defined lists][11]
@@ -34,7 +34,7 @@ Each question and query can be defined as a request. These questions range from 
 
 When you double-click a row in the [search results screen][13], you are taken to the Request screen.
 
-### <a id="customers" />Contacts
+### <a id="customers"></a>Contacts
 
 Requests can be linked to [contacts][2], who in turn can belong to a [company][3]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
 
@@ -46,7 +46,7 @@ Requests can be linked to [contacts][2], who in turn can belong to a [company][3
 * [Find requests][10]
 * [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
 
-## <a id="request-mgt" />Request management
+## <a id="request-mgt"></a>Request management
 
 Incoming requests can arrive through many channels, and there is more than one way to register and reply to them. How request handling progresses will vary from request to request.
 

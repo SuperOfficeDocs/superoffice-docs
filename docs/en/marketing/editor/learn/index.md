@@ -95,7 +95,7 @@ When you click a section in a message, you get access to various functions for t
 | ![icon][img8] | Duplicate | Creates a copy of the section. |
 | ![icon][img9] | Save block | Saves the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
-## <a id="variables" />Placeholders
+## <a id="variables"></a>Placeholders
 
 To give the message a more personal touch, you can use placeholders to insert customer-specific information such as the customer's first name. In this way, you can customize the content for each individual customer.
 
@@ -126,7 +126,7 @@ Are you using the new Drag & drop editor or the previous version of the editor?
 
 In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating email mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates use the new message editor.
 
-### <a id="old" />Editor (old)
+### <a id="old"></a>Editor (old)
 
 ![Editor (old) -screenshot][img13]
 

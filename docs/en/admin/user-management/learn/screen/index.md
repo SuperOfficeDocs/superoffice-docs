@@ -22,7 +22,7 @@ In the Users screen, you can add and edit different types of users.
 > [!NOTE]
 > Changes you make in the Users screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen  your last save.
 
-## <a id="associates" />The associate list
+## <a id="associates"></a>The associate list
 
 By default, the list in the **Associates** tab consists of the following columns:
 
@@ -51,11 +51,11 @@ There are different tabs in the User overview:
 * **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
 * **More** - the tab shows if there are any extra fields on person.
 
-## <a id="other-users" />Other users (Onsite)
+## <a id="other-users"></a>Other users (Onsite)
 
 On the **Other users** tab in the Users screen, you can edit login rights for and add anonymous users and System users.
 
-## <a id="our-companies" />Our companies
+## <a id="our-companies"></a>Our companies
 
 The object of the company list in the **Our companies** tab in the Users screen is to specify:
 

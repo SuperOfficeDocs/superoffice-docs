@@ -23,13 +23,13 @@ The diary is a useful tool when you want to plan and perform different types of 
 
 Regular use of the diary, connecting activities to a contact or a company, ensures that you and your team can stay organized effortlessly, promoting smooth collaboration and heightened productivity.
 
-## <a id="open" />View diary
+## <a id="open"></a>View diary
 
 To open your diary, click the word **Diary** in the Navigator and select a time period from the list, or click **Today** or **This week** to move to the current day or week. Your name is displayed at the upper right of the Diary screen. If two or more follow-ups overlap, you can see part of each follow-up.
 
 You can access the diary of another user or an available resource to check their availability or create follow-ups directly. To view multiple diaries at once, create a [group view][2].
 
-## <a id="nav" />Navigate in the Diary screen
+## <a id="nav"></a>Navigate in the Diary screen
 
 The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab, and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week, or month is displayed at the top of the page, depending on which tab you selected.
 

@@ -75,7 +75,7 @@ The TAB order is displayed in the **Name** list on the left of the screen. This 
 
 1. Click **Publish** to make the changes available to SuperOffice CRM users.
 
-## <a id="page-1" />Display a user-defined field on the first page
+## <a id="page-1"></a>Display a user-defined field on the first page
 
 1. Check **Allow different page 1 fields for different user groups** at the bottom of the tab to specify different page 1 fields for different user groups. If not checked, the fields you specify are used for all user groups.
 

@@ -34,7 +34,7 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 | Task button on a contact | x | x | |
 | Diary | x | | |
 
-### <a id="fields" />How to enter information
+### <a id="fields"></a>How to enter information
 
 > [!NOTE]
 > Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img4] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
@@ -94,7 +94,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 > [!NOTE]
 > If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
-### <a id="associate" />Create meeting for an associate
+### <a id="associate"></a>Create meeting for an associate
 
 You can open another user's diary, or the diary of an available resource, to see when they are free or to create follow-ups for them directly.
 
@@ -110,7 +110,7 @@ You can open another user's diary, or the diary of an available resource, to see
 
 6. Click **Save**. The meeting will be displayed in the selected person's diary.
 
-## <a id="copy" />Copy a follow-up to the Diary
+## <a id="copy"></a>Copy a follow-up to the Diary
 
 You can also create a new follow-up by copying an existing follow-up to another time or day in the diary.
 

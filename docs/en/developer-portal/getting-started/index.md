@@ -78,7 +78,7 @@ Standard and custom applications can incorporate the following external-facing i
 
 These integration types are referred to as Integration Services.
 
-## <a id="tldr" />Workflow from a developer's perspective
+## <a id="tldr"></a>Workflow from a developer's perspective
 
 ![Diagram of onboarding process for app developers][img1]
 
@@ -168,11 +168,11 @@ Applications are either [built to fit many][9] and available in the SuperOffice 
 
 [!include[Define app credentials](../includes/def-app-credentials.md)]
 
-### <a id="client-id" />Client ID - ApplicationIdentifier
+### <a id="client-id"></a>Client ID - ApplicationIdentifier
 
 Uniquely identifies the application used, and used by the SuperOffice CRM Online to know where to redirect a user.
 
-### <a id="client-secret" />Client secret - ApplicationToken
+### <a id="client-secret"></a>Client secret - ApplicationToken
 
 Must be supplied when invoking any of the SuperOffice CRM Online web services.
 

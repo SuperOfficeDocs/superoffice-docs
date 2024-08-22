@@ -18,7 +18,7 @@ The section tabs (also called archives) appear below the main card. These contai
 
 You can decide which columns are displayed, how wide they should be, and how they should be sorted.
 
-## <a id="sort" />Sort lists
+## <a id="sort"></a>Sort lists
 
 In the section tabs, you can sort the lists by the various columns in ascending or descending order.
 

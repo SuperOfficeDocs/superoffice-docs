@@ -87,7 +87,7 @@ Content authors will see a message if they are using an un-validated email addre
 
 * You can achieve the same experience by having a split in one flow or arrange the communication in two different flows.​ Whether to split or define several flows depends on the scenario, and what outcome you would like to track. ​The more two communication tracks have in common, the more effective it is for the user to arrange it within the same flow.​
 
-## <a id="mobile"/>Customize the message for display on mobile devices
+## <a id="mobile"></a>Customize the message for display on mobile devices
 
 The message is automatically customized for display on smaller screens.
 

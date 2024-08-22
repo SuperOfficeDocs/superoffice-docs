@@ -49,7 +49,7 @@ To link the project to a company, you must specify at least one project member.
 > [!TIP]
 > You can select multiple contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Function** field and **Comment** text box will apply to all the selected contacts.
 
-## <a id="from-section-tab" />Add project members and stakeholders from section tabs
+## <a id="from-section-tab"></a>Add project members and stakeholders from section tabs
 
 You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][3].
 

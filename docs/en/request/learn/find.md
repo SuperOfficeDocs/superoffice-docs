@@ -25,7 +25,7 @@ Do one of the following:
 * Use the [navigator][12] search on Requests.
 * Use [Find][11] in the top bar, choose one of the typical searches or add wanted criteria.
 
-## <a id="list" />Use lists
+## <a id="list"></a>Use lists
 
 The simplest way to search for requests is to use the search field available in the menu for the first tab **Find request** on the Requests screen.
 
@@ -64,7 +64,7 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 >
 > To clear all your criteria, select **Clear all**.
 
-### <a id="result" />Search result
+### <a id="result"></a>Search result
 
 The result contains a list of requests that match the criteria specified above. Here you can:
 

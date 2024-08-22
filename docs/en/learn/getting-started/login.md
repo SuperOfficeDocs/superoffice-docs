@@ -127,7 +127,7 @@ Still cannot log in for the first time? Contact your SuperOffice administration 
 
 1. Does your contact have more than one email address in the contact card? Try to delete the email address you do NOT use to log in.
 
-### <a id="forgot-password" />Forgot your password?
+### <a id="forgot-password"></a>Forgot your password?
 
 People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password. Follow the instructions for your version of SuperOffice to change your password.
 

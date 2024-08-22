@@ -63,7 +63,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** after this is done.
 
-## <a id="add-recipients" />Add recipients to selections or projects
+## <a id="add-recipients"></a>Add recipients to selections or projects
 
 Using the **Action** button you can add recipients and clickers to a selection or project.
 

@@ -35,7 +35,7 @@ The user interface has five main elements:
   * [List of selection members][19]
   * [Activities][13]
 
-## <a id="global-buttons" />Global buttons
+## <a id="global-buttons"></a>Global buttons
 
 The global buttons appear throughout the user interface. Some are in the main screen, while others are in the various dialogs.
 

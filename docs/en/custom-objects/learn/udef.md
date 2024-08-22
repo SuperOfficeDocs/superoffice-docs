@@ -28,7 +28,7 @@ User-defined fields are managed in Settings and maintenance, in the **Fields** s
 > [!NOTE]
 > Everyone can **update** the data stored in a user-defined field. Only an administrator can add (or remove) a user-defined field. You need a Development Tools license to customize the layout of the **More** tab and to use page 1 fields.
 
-## <a id="field-types" />Field types
+## <a id="field-types"></a>Field types
 
 There are 8 types of user-defined fields:
 
@@ -41,7 +41,7 @@ There are 8 types of user-defined fields:
 * **List**: a list box (drop-down). Select a list from the system in the field below.
 * **Decimal**: a number with decimals.
 
-## <a id="limit" />Maximum number of fields
+## <a id="limit"></a>Maximum number of fields
 
 The following limitations apply to the number of user-defined fields you can specify in each of the Company, Contact, Project, and Sale tabs.
 
@@ -53,7 +53,7 @@ The following limitations apply to the number of user-defined fields you can spe
 > [!NOTE]
 > Four of the user-defined fields in each group must be indexed.
 
-## <a id="index" />Indexed fields
+## <a id="index"></a>Indexed fields
 
 Indexing is good for user experience and performance. The first 4 fields of each data type are reserved for indexes.
 
@@ -61,7 +61,7 @@ You have to mark the checkbox when creating the field to allow it to be indexed.
 
 If you choose not to index at all, you are essentially wasting 16 fields! Thus, the max number of custom fields is reduced to 103.
 
-## <a id="page-1" />Page 1 fields
+## <a id="page-1"></a>Page 1 fields
 
 Among the user-defined fields that are displayed in the **More** tabs in SuperOffice, you can choose *three* that will function as page 1 fields (so called because they are displayed on the "first page" in their respective screens).
 

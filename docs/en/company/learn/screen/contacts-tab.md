@@ -15,7 +15,7 @@ language: en
 
 **Contacts** is one of the section tabs at the bottom of the Company screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the Contact screen.
 
-## <a id="columns" />Columns in the Contacts section tab
+## <a id="columns"></a>Columns in the Contacts section tab
 
 The **Contacts** section tab contains the following columns:
 

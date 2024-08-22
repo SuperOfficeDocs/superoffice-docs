@@ -105,7 +105,7 @@ To edit an existing archive, select it and edit the available fields and setting
 
 You can always click **Restore tabs** to undo these changes.
 
-## <a id="undo-changes" />Undo changes
+## <a id="undo-changes"></a>Undo changes
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 

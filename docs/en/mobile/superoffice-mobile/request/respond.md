@@ -22,7 +22,7 @@ You need a Service or complete license to take action on a request. For details,
 
 If the request is unclaimed, self-assign to avoid others answering the request at the same time.
 
-## <a id="reply" />Reply / reply all ![icon][img1]
+## <a id="reply"></a>Reply / reply all ![icon][img1]
 
 A reply is an external message to the customer.
 
@@ -36,7 +36,7 @@ A reply is an external message to the customer.
 
 1. Tap **Send**.
 
-## <a id="comment" />Add comment (internal) ![icon][img3]
+## <a id="comment"></a>Add comment (internal) ![icon][img3]
 
 Comments are used to discuss the request internally before replying to the customer. They are shown on a red background, cannot be viewed by the customer, and are not included if you forward the request.
 
@@ -50,7 +50,7 @@ Comments are used to discuss the request internally before replying to the custo
 
     ![Mobile CRM: Request with internal message -app-screen][img6]
 
-## <a id="forward" />Forward ![icon][img4]
+## <a id="forward"></a>Forward ![icon][img4]
 
 Sometimes, internal comments or reassigning the request is not enough to solve a problem, and you need to involve others.
 
@@ -62,7 +62,7 @@ Sometimes, internal comments or reassigning the request is not enough to solve a
 1. Compose a message.
 1. Tap **Send**.
 
-## <a id="message" />Working with messages
+## <a id="message"></a>Working with messages
 
 While composing a message, you can add images, insert a request reply template, and include a link to a FAQ - all from the **Task** menu.
 

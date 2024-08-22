@@ -21,7 +21,7 @@ This procedure shows you how to create a sales guide from scratch.
 2. Define [the sales type](#create-type) (with associated stages) that the sales guide will be linked to.
 3. Design the [sales guide](#create-guide).
 
-## <a id="create-stages" />Create stages for the sales guide
+## <a id="create-stages"></a>Create stages for the sales guide
 
 A sales guide must be linked to a sale type, which in turn consists of several stages. [How to create stages][2].
 
@@ -29,7 +29,7 @@ For example, a sales guide for sales to new customers may include the stages "Fi
 
 Go to the next procedure to link the stages to a sale type.
 
-## <a id="create-type" />Create a sale type for the sales guide
+## <a id="create-type"></a>Create a sale type for the sales guide
 
 A sales guide must be linked to a sale type. [How to create a sale type][3].
 
@@ -39,7 +39,7 @@ Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cr
 1. Select at least two stages.
 1. Go to the next procedure to create the sales guide.
 
-## <a id="create-guide" />Create a sales guide
+## <a id="create-guide"></a>Create a sales guide
 
 After you have created stages and specified a sale type for the sales guide, you can design the sales guide itself by adding follow-ups and/or documents for each stage.
 
@@ -65,7 +65,7 @@ After you have created stages and specified a sale type for the sales guide, you
 
 The changes are saved automatically. The sales guide will now be displayed in SuperOffice CRM when a sale is created with the sale type selected in step B.
 
-## <a id="add-fo-stage" />Add a follow-up for a stage
+## <a id="add-fo-stage"></a>Add a follow-up for a stage
 
 1. Select the required sale type and stage as described above.
 
@@ -112,7 +112,7 @@ Agenda for first meeting:
 \- Company presentation
 \- Other
 
-## <a id="add-doc-stage" />Add a document for a stage
+## <a id="add-doc-stage"></a>Add a document for a stage
 
 1. Select the required sale type and stage as described above.
 

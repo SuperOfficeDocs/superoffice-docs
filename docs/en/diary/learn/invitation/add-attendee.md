@@ -49,7 +49,7 @@ When you create a follow-up that concerns other people, you can add them as atte
 
 1. Click **Save** to save all changes.
 
-### <a id="availability" />Scheduling assistant
+### <a id="availability"></a>Scheduling assistant
 
 The scheduling assistant is part of the new **Follow-up** dialog. The detailed calendar shows the availability of each internal attendant (associate). The top-most row shows the accumulated availability. The availability of external attendees and email attendees is unknown.
 
@@ -66,7 +66,7 @@ The scheduling assistant is part of the new **Follow-up** dialog. The detailed c
 1. Click **OK** when you are done.
 1. Click **Save** to save all changes.
 
-### <a id="preview" />Preview and update invitation email
+### <a id="preview"></a>Preview and update invitation email
 
 When you click **Save and send**, a preview of the email is shown based on the title and agenda. Any internal notes added to the follow-up are excluded.
 

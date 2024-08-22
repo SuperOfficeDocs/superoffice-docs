@@ -40,7 +40,7 @@ Use the cogwheel ![icon][img4] in the list's header to customize the columns.
 | Dropped out | Participant dropped out, always with a specified drop-out reason. |
 | Cancelled | Participant will not complete the flow because an admin ended the flow. |
 
-## <a id="logic" />Enrollment and progression through the flow
+## <a id="logic"></a>Enrollment and progression through the flow
 
 Before each step, SuperOffice CRM re-assess whether the participant can progress.
 

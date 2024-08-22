@@ -16,7 +16,7 @@ Attendees who are invited to a follow-up will receive a notification.
 
 ![Receive invitations -screenshot][img2]
 
-## <a id="accept" />Accept or decline invitation
+## <a id="accept"></a>Accept or decline invitation
 
 * Click the bell icon in the Top bar to view your invitations.
 * Click the link in the **Notifications** panel to open the follow-up.

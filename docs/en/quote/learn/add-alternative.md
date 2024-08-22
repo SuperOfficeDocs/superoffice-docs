@@ -36,7 +36,7 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 7. To change the name of the **Products** tab to something describing this alternative, double-click the name of the tab.
 
-## <a id="fav" />Favorite alternative
+## <a id="fav"></a>Favorite alternative
 
 If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favorite ( ![icon][img2] **Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
 

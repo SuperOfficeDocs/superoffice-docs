@@ -23,7 +23,7 @@ Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in 
 > [!TIP]
 > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** ![icon][img8] next to the **Reports** button and then selecting from the list.
 
-## <a id="types" />Report types
+## <a id="types"></a>Report types
 
 | Icon | Name | Description |
 |---|---|---|

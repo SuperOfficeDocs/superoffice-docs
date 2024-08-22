@@ -80,7 +80,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 > [!NOTE]
 > If you change the value in the **Total cost** field, the **Profit** field or the field for the profit percentage, the other fields are automatically updated.
 
-### <a id="more-tab" />The More tab
+### <a id="more-tab"></a>The More tab
 
 ![The More tab (Sale) -screenshot][img6]
 

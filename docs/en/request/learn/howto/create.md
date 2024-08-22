@@ -69,7 +69,7 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Click **Send** to send and save the request.
 
-## <a id="message" />Message
+## <a id="message"></a>Message
 
 > [!NOTE]
 > To send the message to someone, add recipients in the **To** field below the tabs. To make the message available for the contact via SuperOffice Customer Centre, set the access level (for the message) to **External**.
@@ -90,7 +90,7 @@ The section at the bottom contains the following options:
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly in the message or edit your default [email signature][1].
 
-## <a id="details" />Details
+## <a id="details"></a>Details
 
 The **Details** tab contains further details on the request. Here you will find information like when the request was created, when it was last changed, closed or replied to, when it was read by the owner or contact and extra fields. This information is updated automatically during the lifespan of the request, but there are some fields that can be edited when the request is created:
 

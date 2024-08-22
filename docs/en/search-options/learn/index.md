@@ -51,7 +51,7 @@ Choose the right tool for your task:
 
 The main difference between these tools is whether you specify keywords or conditions.
 
-## <a id="fastsearcher" />FastSearcher
+## <a id="fastsearcher"></a>FastSearcher
 
 You can use the FastSearcher in the Navigator menu and within dialogs. As you type, the FastSearcher builds a list of items that match your search words.
 
@@ -86,7 +86,7 @@ Click the **Find** button on the top bar to open the [Find screen][1], where you
 
 From the Find screen, you can save each search you perform as a selection.
 
-## <a id="typical" />Use typical searches as a starting point
+## <a id="typical"></a>Use typical searches as a starting point
 
 A typical search is a *predefined search* based on what other users typically search for. Each data set in the Find screen contains a list of ready-to-use, pre-set search criteria.
 
@@ -105,7 +105,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
-## <a id="search-to-selection" />Create a search and save it as a selection
+## <a id="search-to-selection"></a>Create a search and save it as a selection
 
 A selection is a list of data that shares one or more search criteria. It can be used to perform a number of actions. In this guide we will explain how you can create a search and save it as a selection.
 

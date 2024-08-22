@@ -14,7 +14,7 @@ language: en
 
 It may happen that you want to create a series of follow-ups to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
 
-## <a id="frequency" />Frequency
+## <a id="frequency"></a>Frequency
 
 **Frequency** is how the follow-up is repeated. The pattern can be daily, weekly, monthly, yearly, or repeat at a user-defined interval. The options available for each frequency vary.
 

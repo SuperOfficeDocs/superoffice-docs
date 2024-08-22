@@ -48,7 +48,7 @@ By default, the follow-ups are displayed as a blue field in the diary tabs. If y
 > [!NOTE]
 > In Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the Diary screen with a different background color from the usual blue.
 
-### <a id="day" />The Day tab
+### <a id="day"></a>The Day tab
 
 The **Day** tab displays one day at a time, with hourly time intervals along the left edge.
 
@@ -56,7 +56,7 @@ The **Day** tab displays one day at a time, with hourly time intervals along the
 
 If [time zones][14] are enabled, you can switch time zone in the lower-left corner.
 
-### <a id="week" />The Week tab
+### <a id="week"></a>The Week tab
 
 The **Week** tab displays one week at a time. There is one column for each day of the week and hourly time intervals along the left edge.
 
@@ -67,7 +67,7 @@ To open the **Day** tab for a particular day, click the relevant day heading.
 > [!NOTE]
 > You can define if Sunday or Monday should be considered the first day of the week under ![icon][img7] **Personal settings** > **Preferences**.
 
-### <a id="month" />The Month tab
+### <a id="month"></a>The Month tab
 
 The **Month** tab displays one month at a time. It does not display the time, but follow-ups for individual days are shown.
 
@@ -78,7 +78,7 @@ The **Month** tab displays one month at a time. It does not display the time, bu
 
 To open the **Day** tab for a particular day, click the header/date.
 
-### <a id="view" />The View tab
+### <a id="view"></a>The View tab
 
 The **View** tab in the Diary screen shows your own diary with your user ID at the top of the page.
 

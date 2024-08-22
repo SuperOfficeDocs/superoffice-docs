@@ -32,7 +32,7 @@ If you edit the time, date, or location of a follow-up - or delete an invitation
 > [!NOTE]
 > You cannot edit completed follow-ups until you have undone their **Completed** status.
 
-## <a id="change-end" />Change the end time for a follow-up in the Diary
+## <a id="change-end"></a>Change the end time for a follow-up in the Diary
 
 In the Diary screen, you can change the end time for a follow-up without having to open it:
 
@@ -47,7 +47,7 @@ In the Diary screen, you can change the end time for a follow-up without having 
 > [!NOTE]
 > You can also change the time slot by opening the follow-up and changing the **Start**, **End**, **Due**, or **Duration** fields.
 
-## <a id="repeat" />Edit repeating follow-up
+## <a id="repeat"></a>Edit repeating follow-up
 
 Changes work in the same way as when you edit follow-ups, but when you make a change, the **Repeating follow-ups** dialog appears.
 
@@ -65,7 +65,7 @@ If you change the start time for a single meeting, the rule is not affected. The
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete" />Delete follow-up using the Diary
+## <a id="delete"></a>Delete follow-up using the Diary
 
 * If you delete a follow-up you are invited to, the follow-up is removed from your diary only.
 * If you delete an invitation that you own from your Diary, this follow-up also disappears from the invitees' diaries.

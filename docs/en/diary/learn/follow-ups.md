@@ -52,7 +52,7 @@ The **Activities** section tab (in the Company, Contact, Sale, Project, and Diar
 | To-do (task) | | | | &#10003; | Activities section tab | Follow-up w/ no start time | reminder for stuff due by a specific time |
 | Follow-up (call) | &#10003; | | &#10003; | | Activities section tab | Phone call | Incoming call from customer |
 
-## <a id="meeting" />Meeting (appointment)
+## <a id="meeting"></a>Meeting (appointment)
 
 Meetings are activities with a defined start and end time. They are shown in the owner's calendar.
 
@@ -68,13 +68,13 @@ Overdue and completed meetings will be in the **Activities** section tab in addi
 | Own time and resource reserved | &#10003; | | As above plus need room or equipment |
 | Meeting with multiple attendees | &#10003; | &#10003; | A meeting, commonly also with a resource or location |
 
-## <a id="todo" />To-do (task)
+## <a id="todo"></a>To-do (task)
 
 A *to-do* is a follow-up without a start time. It usually does not have a duration either, but it always has a **deadline**. To-dos are typically used for things you have to remember to do by a certain time.
 
 By default, you will find to-dos in the diary todo list, where they can be checked off when completed. If you specify a start and end time for a to-do, it is entered in the diary at the given day and time.
 
-## <a id="call" />Follow-up (phone call)
+## <a id="call"></a>Follow-up (phone call)
 
 A *call* represents a very specific action - the phone call - and is a hybrid between an meeting and a to-do:
 
@@ -93,7 +93,7 @@ The default duration is 1 hour for a meeting and 15 minutes for a call. To chang
     * **Duration for new appointment**
     * **Duration of a new phone call**
 
-## <a id="more-tab" />The More tab
+## <a id="more-tab"></a>The More tab
 
 The **More** tab displays user-defined fields for the follow-up. If your organization needs more fields than the default fields for follow-ups, you can specify in Settings and maintenance that these fields will be inserted here.
 

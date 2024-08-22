@@ -19,7 +19,7 @@ Users can edit the settings of [individual preferences][4] to customize them for
 
 In addition, you can configure video meetings in the [Video meetings][8] tab and document library in the [Document library][9] tab.
 
-## <a id="levels" />Levels for preference settings
+## <a id="levels"></a>Levels for preference settings
 
 You can specify preference settings for four different levels:
 
@@ -40,7 +40,7 @@ You can choose which settings to display in the list based on the level they are
 > [!NOTE]
 > Settings for the system level are always displayed.
 
-## <a id="global" />Global preferences (for the whole system)
+## <a id="global"></a>Global preferences (for the whole system)
 
 Some [preferences][1] can be set only on a global level:
 
@@ -64,7 +64,7 @@ To edit these preferences, go to the ![icon][img1] **Preferences** screen and se
 * Hold the mouse-pointer over a preference to display additional info.
 * Click **Save** to implement your changes.
 
-## <a id="preferences-tab" />Preferences tab
+## <a id="preferences-tab"></a>Preferences tab
 
 In the **Preferences** tab you can specify settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new meetings, and the default currency in the Sale screen.
 

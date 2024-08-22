@@ -47,7 +47,7 @@ language: en
 > [!NOTE]
 > Preferences with active individual settings are shown in bold text in the preferences list.
 
-## <a id="edit" />Edit preference setting
+## <a id="edit"></a>Edit preference setting
 
 1. Go to the preference you want to update.
 
@@ -60,7 +60,7 @@ language: en
     > [!NOTE]
     > You can click **Cancel** to reject your changes.
 
-## <a id="personal" />Allow individual settings
+## <a id="personal"></a>Allow individual settings
 
 1. Go to the preference you want to make available in the **Personal settings** menu.
 

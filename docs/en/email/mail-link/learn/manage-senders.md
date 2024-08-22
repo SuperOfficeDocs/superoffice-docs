@@ -51,7 +51,7 @@ If the sender is not listed in SuperOffice CRM at all, you may add their email a
 > [!NOTE]
 > If you attempt to archive more than one email at a time, you will be prompted for each sender not listed in SuperOffice CRM.
 
-## <a id="new-contact" />Add an email address to a new contact
+## <a id="new-contact"></a>Add an email address to a new contact
 
 1. Open the **Save email address** dialog.
 
@@ -63,7 +63,7 @@ If the sender is not listed in SuperOffice CRM at all, you may add their email a
 
 5. Click **OK**. The contact and their email address is displayed on the **Contacts** section tab of the specified company card.
 
-## <a id="existing-contact" />Add an email address to an existing contact
+## <a id="existing-contact"></a>Add an email address to an existing contact
 
 1. Open the **Save email address** dialog.
 

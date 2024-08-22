@@ -28,7 +28,7 @@ You can set up frequently used links even before creating content. This allows y
 
 Each recipient must have a unique URL to ensure that different recipients clicked the links, not the same recipient multiple times. Furthermore, the URLs must redirect to the SuperOffice server first for counting before redirecting to the destination URL. This is automatically arranged when you select the URLs in the message to track.
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 Trackable links can be utilized in various ways:
 
@@ -73,7 +73,7 @@ Menu options:
 * **Move to folder** (moves the link to another folder)
 * **Delete**
 
-## <a id="google" />Google Analytics
+## <a id="google"></a>Google Analytics
 
 When setting up a mailing, you can opt for Google Analytics for more accurate email tracking, leading to detailed Google Channel reports.
 

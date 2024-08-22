@@ -36,7 +36,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
 * **Form submissions:** Here you can view and [process all submitted forms][1]. A red icon on the tab indicates new form submissions.
 
-## <a id="filter" />Filter the form submissions overview
+## <a id="filter"></a>Filter the form submissions overview
 
 To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the **Filter** button in the lower-right corner.
 

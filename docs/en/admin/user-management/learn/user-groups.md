@@ -15,7 +15,7 @@ language: en
 
 To group colleagues together and grant them access to CRM data based on this grouping, you need to create a new user group in SuperOffice and then assign this group to your colleagues.
 
-## <a id="create" />Create user group
+## <a id="create"></a>Create user group
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
@@ -33,7 +33,7 @@ To group colleagues together and grant them access to CRM data based on this gro
 
     ![User dialog -screenshot][img5]
 
-## <a id="delete" />Delete user group
+## <a id="delete"></a>Delete user group
 
 1. Go to the **General - User group** list as described above.
 1. Click the name of the user group in question.

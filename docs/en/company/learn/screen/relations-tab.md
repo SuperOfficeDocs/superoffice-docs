@@ -15,7 +15,7 @@ language: en
 
 The **Relations** section tab displays any connections existing between companies and/or contacts, for example, information about ownership structure or about people who have been employed in different companies.
 
-## <a id="columns" />Columns in Relations tab
+## <a id="columns"></a>Columns in Relations tab
 
 The columns of the **Relations** section tab contain the following information:
 

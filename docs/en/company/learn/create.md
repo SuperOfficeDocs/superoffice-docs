@@ -36,7 +36,7 @@ Check out the video on how to [create a company][1].
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
 
-## <a id="more-tab" />The More tab (Company screen)
+## <a id="more-tab"></a>The More tab (Company screen)
 
 1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in Settings and maintenance that these fields are to be inserted here.
 
@@ -47,7 +47,7 @@ Check out the video on how to [create a company][1].
 > [!NOTE]
 > You can also edit the company information in the **More** tab by clicking **Edit**.
 
-## <a id="interests-tab" />The Interests tab (Company screen)
+## <a id="interests-tab"></a>The Interests tab (Company screen)
 
 1. Go to the **Interests** tab.
 

@@ -33,7 +33,7 @@ The drag-and-drop flow designer is your tool for building these dynamic flows.
 
 ![Drag-and-drop flow designer -screenshot][img2]
 
-## <a id="ex" />Use cases
+## <a id="ex"></a>Use cases
 
 * **Welcome new customers:** Send personalized emails, discounts, and share your brand story. Support the onboarding of new products.
 * **Engagement campaigns:** Keep active customers engaged and informed with relevant content, product updates, and exclusive offers.
@@ -78,7 +78,7 @@ Choose between list or tile **view mode** in the lower-right corner.
 | ![icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click the menu button ![icon][img3] to open, edit, or delete the flow. |
 | ![icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, or delete the flow. |
 
-## <a id="view" />The View flow screen
+## <a id="view"></a>The View flow screen
 
 At the top, you can see the flow's name and its location within the folder structure. You have the following options:
 
@@ -117,7 +117,7 @@ Upon meeting a success criterion, the campaign may either stop or proceed for th
 
 It is advisable for most automated flows to set success criteria for enrolled participants. However, it is not mandatory to define such criteria.
 
-## <a id="req" />Requirements
+## <a id="req"></a>Requirements
 
 * Marketing Premium license (new tier)
 * Sales essential or premium - to create a sale

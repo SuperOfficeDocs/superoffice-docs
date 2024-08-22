@@ -47,7 +47,7 @@ Examples:
 * You cannot delete a contact who is also an employee in a SuperOffice company.
 * You cannot delete follow-ups, documents, sales, projects, and so on that do not belong to you, unless you have sufficient user rights.
 
-## <a id="restore" />Restore deleted companies and contacts
+## <a id="restore"></a>Restore deleted companies and contacts
 
 When you have deleted something that was not meant to be deleted, for companies and contacts, you can still restore them from your Recycle bin. This makes it less scary to delete, when you know you still have a restore option.
 

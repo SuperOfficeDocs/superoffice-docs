@@ -23,7 +23,7 @@ When we save the meeting, an invitation is added to the person we invited and wi
 > [!NOTE]
 > Resources and non-user persons don't receive invitations – the meeting is just created as a normal meeting for them.
 
-## <a id="status" />Status
+## <a id="status"></a>Status
 
 The users you chose to link to a follow-up will be notified of this on their screens. In the follow-up dialog, you will see a list of attendees and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 

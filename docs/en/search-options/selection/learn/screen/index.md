@@ -34,7 +34,7 @@ The appearance of the list of members varies slightly depending on what the sele
 
 To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the upper right of the screen.
 
-### <a id="filter" />Filtering the list of members
+### <a id="filter"></a>Filtering the list of members
 
 > [!NOTE]
 > Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimize performance when working with large selections, only the first 100 records are usually loaded in the list of members.
@@ -60,7 +60,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 * ![icon][img5]: Refreshes the data in the list.
 
-### <a id="mailing" /> View mailings archived on selection
+### <a id="mailing"></a> View mailings archived on selection
 
 Use the **Mailings** tab in the Selection screen to keep track of all mailings related to a selection.
 

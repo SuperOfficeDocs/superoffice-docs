@@ -52,7 +52,7 @@ This access can't be removed (neither programmatically nor manually).​
 For that reason, you need to use a **ServiceAccount** to create your SharePoint site for SuperOffice documents​.
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="aad-service-account" />Microsoft Entra service account for SuperOffice documents​
+## <a id="aad-service-account"></a>Microsoft Entra service account for SuperOffice documents​
 
 In Microsoft Entra ID, there are three types of [service accounts][1]: managed identities, service principals, and user accounts employed as service accounts. When you create service accounts for automated use, they’re granted permissions to access resources in Azure and Microsoft Entra ID.
 

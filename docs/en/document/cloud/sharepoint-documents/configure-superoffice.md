@@ -78,7 +78,7 @@ First, we run a set of validation test.
 
   ![SuperOffice document templates – Location​ -screenshot][img2]
 
-## <a id="step-3" />Step 3 - Document properties​
+## <a id="step-3"></a>Step 3 - Document properties​
 
 Select **SuperOffice documents fields** to transfer as SharePoint document properties​.
 
@@ -93,7 +93,7 @@ We recommend that you select all here. These fields will appear as columns in yo
 
     ![SuperOffice documents fields -screenshot][img10]
 
-## <a id="step-4" />Step 4 - Groups and access​
+## <a id="step-4"></a>Step 4 - Groups and access​
 
 ![Groups and access​ -screenshot][img4]
 
@@ -106,7 +106,7 @@ Group access on SharePoint documents based on *Visible for* settings.
 
 To to set permissions on documents in SharePoint, the app needs to have *Read Write* permission to selected site. This is a one-time authorization and will include only the site you have selected for your SuperOffice documents.
 
-### <a id="apps" />Apps for SuperOffice (system user)
+### <a id="apps"></a>Apps for SuperOffice (system user)
 
 To use any app for SuperOffice that interacts with documents (to use *Visible for*, to migrate documents, or have a third-party app that creates documents in SuperOffice), you need to [enable a system user][2]. We recommend you keep this on and go through the authorization.
 

@@ -14,7 +14,7 @@ client: online
 
 The set-up of the SharePoint site and document libraries is quite flexible, but we recommend to create a separate SharePoint site for your SuperOffice documents, and 2 document libraries: one for documents and a separate document library for templates.
 
-## <a id="step-1" />Step 1 - Create a SharePoint site in your Microsoft 365 SharePoint
+## <a id="step-1"></a>Step 1 - Create a SharePoint site in your Microsoft 365 SharePoint
 
 > [!NOTE]
 > If you plan to use **Visible for** (confidentiality), we recommend to set up the SharePoint site with a Microsoft 365 "service user", to avoid normal users (personal) / SuperOffice users do not have owner-rights.
@@ -26,7 +26,7 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 1. Choose **Team site** as the type of site you would like to create.
 1. If you plan to use **Visible for**, you should use **Private** for privacy settings.
 
-## <a id="step-2" />Step 2 - Create library for documents in SharePoint site
+## <a id="step-2"></a>Step 2 - Create library for documents in SharePoint site
 
 1. Open the site you created in step 1.
 
@@ -42,7 +42,7 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 
 4. Click **Create**.
 
-## <a id="step-3" />Step 3 - Create library for templates in SharePoint site
+## <a id="step-3"></a>Step 3 - Create library for templates in SharePoint site
 
 1. Open the site you created in step 1.
 

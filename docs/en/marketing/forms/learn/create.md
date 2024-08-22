@@ -40,7 +40,7 @@ Watch this video to learn how you can create a web form (video length - 7:49) or
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 5. [Activate and publish the form][2].
 
-## <a id="multi-page" />Create multi-page form
+## <a id="multi-page"></a>Create multi-page form
 
 To enhance user-friendliness and facilitate readability, consider dividing a form with many fields into multiple pages. Users can navigate through the form using **Next** and **Previous** buttons, and a progress bar can be added to indicate the remaining fields.
 
@@ -56,7 +56,7 @@ To enhance user-friendliness and facilitate readability, consider dividing a for
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Go to the **Style** category, click the check box next to **Progress bar color**, and select a color.
 
-## <a id="fields" />Filling in form fields
+## <a id="fields"></a>Filling in form fields
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 

@@ -27,7 +27,7 @@ To move backwards and forwards between projects, click the ![icon][img2] ![icon]
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
-## <a id="more-tab" />The More tab
+## <a id="more-tab"></a>The More tab
 
 ![The More tab (Project) -screenshot][img4]
 
@@ -41,7 +41,7 @@ Three of the user-defined fields from the **More** tab can also be displayed in 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab" />The Event tab
+## <a id="event-tab"></a>The Event tab
 
 This function requires a separate licence.
 

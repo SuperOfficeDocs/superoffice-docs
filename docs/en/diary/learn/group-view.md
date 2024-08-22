@@ -46,7 +46,7 @@ You can choose users and resources whose diaries you want to see and save the vi
 > [!TIP]
 > To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.
 
-## <a id="fields" />Fields
+## <a id="fields"></a>Fields
 
 ### Name
 
@@ -85,7 +85,7 @@ Click **Select all** ![icon][img6] to select all the users/resources in the list
 
 Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click the left arrow ![icon][img1]. The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ![icon][img3] or arrow down ![icon][img4] to move it up or down.
 
-## <a id="troubleshoot" />Why is the Edit button greyed out?
+## <a id="troubleshoot"></a>Why is the Edit button greyed out?
 
 You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
 

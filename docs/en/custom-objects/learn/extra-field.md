@@ -32,7 +32,7 @@ An *extra field* is a custom field that you add to an existing SuperOffice datab
 
 Extra fields are managed in **Settings and maintenance**, in the **Tables** screen.
 
-## <a id="field-types" />Field types
+## <a id="field-types"></a>Field types
 
 * Bool (yes/no)
 * Integer
