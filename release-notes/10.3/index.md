@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-date: 08.19.2024
+date: 08.27.2024
 version: 10.3
 topic: reference
 ---
@@ -24,7 +24,7 @@ Check out our **Product release** overview for more details in our [Community][2
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
   * [Requests - Get next in queue including own open requests (10.3.8)][36] in Service
-  * [CRMScript with Monaco as editor (10.3.8)][37] in Settings and maintenance
+  * [CRMScript with Monaco editor (10.3.8)][37] in Settings and maintenance
 
 * 10.3.7 (11.06.2024):
   * [CRMScript - Trigger dialog with formatted text (10.3.7)][29] in Settings and maintenance
