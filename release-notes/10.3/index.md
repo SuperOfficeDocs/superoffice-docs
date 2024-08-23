@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-date: 06.11.2024
+date: 08.27.2024
 version: 10.3
 topic: reference
 ---
@@ -20,6 +20,11 @@ topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.8 (27.08.2024):
+  * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
+  * [Requests - Get next in queue including own open requests (10.3.8)][36] in Service
+  * [CRMScript with Monaco editor (10.3.8)][37] in Settings and maintenance
 
 * 10.3.7 (11.06.2024):
   * [CRMScript - Trigger dialog with formatted text (10.3.7)][29] in Settings and maintenance
@@ -53,7 +58,7 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### Mobile CRM
 
-* [Version 10.2.19][27] (15.05.2024)
+* [Version 11.0.1][27] (20.08.2024)
 
 ### Office integrations
 
@@ -61,17 +66,17 @@ Latest released versions:
 
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
-* SuperOffice for Outlook 4.1 (21.12.2023)
+* SuperOffice for Outlook 5.0 (10.07.2024)
 * WebTools for Mac 13.0 (10.04.2024)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.10 (11.03.2024)
-* Video Meetings 2.5 (18.09.2023)
+* Video Meetings 2.6 (20.06.2024)
 
 ### Ongoing pilot programs
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (available by invitation  only in 10.3.5 - 21.05.2024)
+* [SuperOffice Marketing Premium][20] (available by invitation  only from 10.3.5 - 21.05.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -135,5 +140,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [33]: https://appstore.superoffice.com/sesam-io/wix
 [34]: https://appstore.superoffice.com/infobridge-software-b-v-/databridge-for-superoffice
 [35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
+[36]: service/10.3.8-update.md
+[37]: admin/10.3.8-update.md
 
 <!-- Referenced images -->

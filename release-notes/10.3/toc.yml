@@ -13,6 +13,8 @@ items:
 - name: Settings and Maintenance
   href: admin/index.md
   items:
+  - name: 10.3.8 update
+    href: admin/10.3.8-update.md
   - name: 10.3.7 update
     href: admin/10.3.7-update.md
   - name: 10.3.2 update
@@ -22,6 +24,8 @@ items:
 - name: Service
   href: service/index.md
   items:
+  - name: 10.3.8 update
+    href: service/10.3.8-update.md
   - name: 10.3.6 update
     href: service/10.3.6-update.md
   - name: 10.3.5 update
