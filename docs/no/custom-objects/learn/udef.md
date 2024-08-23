@@ -4,8 +4,8 @@ title: Brukerdefinerte felt
 description: Introduksjon til brukerdefinerte felt i SuperOffice
 keywords: udef, egendefinert, brukerdefinert, felt, felttype
 author: Bergfrid Dias
-date: 01.25.2024
-so-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -49,15 +49,19 @@ Følgende begrensninger gjelder for hvor mange brukerdefinerte felt du kan angi 
 * **Desimal**: Maksimalt 10 totalt.
 
 > [!NOTE]
-> Fire av de brukerdefinerte feltene i hver gruppe må indekseres.
+> Indeksering av felt anbefales for bedre ytelse, spesielt i store datasett. Fire felt i hver gruppe er reservert for indeksering. Hvis ingen felt er indeksert, reduseres det totale antallet brukerdefinerte til 103, siden 16 plasser forblir ubrukt.
 
 ## <a id="index"></a>Indekserte felt
 
-Indeksering er bra for brukeropplevelsen og ytelsen. De fire første feltene av hver datatype er reservert for indekser.
+Indeksering gjør datahenting raskere og forbedrer brukeropplevelsen.
 
-Du må markere av i boksen når du oppretter feltet for å tillate indeksering. Du kan markere opptil 4 felt i hver av de 4 datatypene (Long, Double, String[40], String[200]) for hver enhet. For eksempel kan du indeksere 4 tall og 4 desimaler for en kontakt, men du kan ikke samtidig indeksere en dato - fordi alle Long-indeksposisjoner er opptatt av tallene.
+Du kan indeksere så mange felt som nødvendig ved å merke av for **Indeksert** når du oppretter eller redigerer et felt. Indekser oppdateres automatisk når du publiserer endringene dine.
 
-Hvis du velger å ikke indeksere i det hele tatt, kaster du bort 16 felt! Dermed reduseres det maksimale antallet tilpassede felt til 103.
+**Nytt fra versjon 10.3.1:**
+
+* Du kan nå indeksere mer enn 4 felt i hver gruppe (Long, Double, String[40], String[200]).
+
+* Data flyttes ikke lenger mellom felt når du publiserer indeksendringer, noe som gjør publisering raskere uavhengig av tabellstørrelsen (antall rader).
 
 ## <a id="page-1"></a>Side 1-felt
 
