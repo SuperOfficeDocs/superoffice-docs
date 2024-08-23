@@ -3,8 +3,8 @@ uid: help-sv-udef
 title: Användardefinierade fält
 description: Användardefinierade fält
 author: Bergfrid Dias
-date: 01.29.2024
-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 keywords: udef, anpassa fält, användardefinierad fält
 topic: concept
 audience: user
@@ -49,15 +49,19 @@ Följande begränsningar gäller för antalet användardefinierade fält som du 
 * **Decimal**: Max 10 totalt.
 
 > [!NOTE]
-> Fyra av de användardefinierade fälten i varje grupp måste indexeras.
+> Det rekommenderas att indexera fält för bättre prestanda, särskilt i stora datamängder. Fyra fält i varje grupp är reserverade för index. Om inga fält indexeras, reduceras det totala antalet användardefinierade fält till 103 eftersom 16 platser förblir outnyttjade.
 
 ## <a id="index"></a>Indexerade fält
 
-Indexering är bra för användarupplevelsen och prestandan. De första 4 fälten av varje datatyp är reserverade för index.
+Indexering snabbar upp datahämtning och förbättrar användarupplevelsen.
 
-Du måste markera rutan när du skapar fältet för att tillåta indexering. Du kan markera upp till 4 fält i var och en av de 4 datatyperna (Long, Double, String[40], String[200]) för varje enhet. Till exempel kan du indexera 4 nummer och 4 decimaler för en kontakt, men du kan inte samtidigt indexera en datum - eftersom alla Long-indexplatser tas upp av numren.
+Du kan indexera så många fält du behöver genom att markera rutan **Indexerad** när du skapar eller redigerar ett fält. Indexen uppdateras automatiskt när du publicerar dina ändringar.
 
-Om du väljer att inte indexera alls slösar du i princip bort 16 fält! Därmed minskas det maximala antalet anpassade fält till 103.
+**Nyheter från version 10.3.1:**
+
+* Du kan nu indexera fler än 4 fält i varje grupp (Long, Double, String[40], String[200]).
+
+* Data flyttas inte längre mellan fält när du publicerar indexändringar, vilket gör publiceringen snabbare oavsett tabellstorlek (antal rader).
 
 ## <a id="page-1"></a>Sidan 1-fält
 

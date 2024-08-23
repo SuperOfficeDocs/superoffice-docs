@@ -2,10 +2,10 @@
 uid: help-en-udef
 title: User-defined fields explained
 description: Introduction to user-defined fields in SuperOffice
-keywords: udef, custom object, custom field, user-defined field, Page 1-field
+keywords: udef, custom object, custom field, user-defined field, Page 1-field, index
 author: Bergfrid Dias
-date: 01.16.2024
-so-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 topic: concept
 language: en
 audience: user
@@ -51,15 +51,19 @@ The following limitations apply to the number of user-defined fields you can spe
 * **Decimal**: Maximum of 10 in all.
 
 > [!NOTE]
-> Four of the user-defined fields in each group must be indexed.
+> Indexing fields is recommended for better performance, especially in large datasets. Four fields in each group are reserved for indexes. If no fields are indexed, the total number of custom fields is reduced to 103, as 16 slots are left unused.
 
 ## <a id="index"></a>Indexed fields
 
-Indexing is good for user experience and performance. The first 4 fields of each data type are reserved for indexes.
+Indexing speeds up data retrieval and enhances the user experience.
 
-You have to mark the checkbox when creating the field to allow it to be indexed. You can mark up to 4 fields in each of the 4 data types (Long, Double, String[40], String[200]) for each entity. For example, you can index 4 numbers and 4 decimals for a contact, however you cannot at the same time also index a date - because all Long index slots are taken by the numbers.
+You can index as many fields as needed by selecting the **Indexed** checkbox when creating or editing a field. Indexes are automatically updated when you publish your changes.
 
-If you choose not to index at all, you are essentially wasting 16 fields! Thus, the max number of custom fields is reduced to 103.
+**New from version 10.3.1:**
+
+* You can now index more than 4 fields in each group (Long, Double, String[40], String[200]) per entity.
+
+* Data no longer shifts between fields when you publish index changes, making publishing faster regardless of the table size (number of rows).
 
 ## <a id="page-1"></a>Page 1 fields
 

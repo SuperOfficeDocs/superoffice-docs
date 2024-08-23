@@ -3,8 +3,8 @@ uid: help-da-udef
 title: Brugerdefinerede felter
 description: Brugerdefinerede felter
 author: Bergfrid Dias
-date: 01.29.2024
-so-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 keywords: udef, tilpasset felt, Brugerdefinered
 topic: concept
 audience: user
@@ -49,15 +49,19 @@ Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angiv
 * **Decimal**: Højst 10 i alt.
 
 > [!NOTE]
-> Fire af de brugerdefinerede felter i hver gruppe skal indekseres.
+> Det anbefales at indeksere felter for at opnå bedre ydeevne, især i store datasæt. Fire felter i hver gruppe er reserveret til indeksering. Hvis ingen felter er indekseret, reduceres det samlede antal brugerdefinerede felter til 103, da 16 pladser forbliver ubrugte.
 
 ## <a id="index"></a>Indekserede felter
 
-Indeksering er godt for brugeroplevelsen og ydeevnen. De første 4 felter af hver datetype er reserveret til indeks.
+Indeksering fremskynder datahentning og forbedrer brugeroplevelsen.
 
-Du skal markere af i afkrydsningsfeltet, når du opretter feltet, for at tillade indeksering. Du kan markere op til 4 felter i hver af de 4 datatyper (Long, Double, String[40], String[200]) for hver enhed. For eksempel kan du indeksere 4 tal og 4 decimaler for en kontakt, men du kan ikke samtidig indeksere en dato - fordi alle Long-indekspositioner er optaget af tallene.
+Du kan indeksere så mange felter, som du har brug for, ved at vælge afkrydsningsfeltet **Indekseret**, når du opretter eller redigerer et felt. Indekser opdateres automatisk, når du udgiver dine ændringer.
 
-Hvis du vælger slet ikke at indeksere, spilder du i princippet 16 felter! Derfor reduceres det maksimale antal brugerdefinerede felter til 103.
+**Nyt fra version 10.3.1:**
+
+* Du kan nu indeksere mere end 4 felter i hver gruppe (Long, Double, String[40], String[200]).
+
+* Data flyttes ikke længere mellem felter, når du udgiver indeksændringer, hvilket gør udgivelsen hurtigere, uanset tabelstørrelsen (antal rækker).
 
 ## <a id="page-1"></a>Side 1-felt
 

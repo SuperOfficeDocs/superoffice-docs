@@ -4,8 +4,8 @@ title: Benutzerdefinierte Felder
 description: Benutzerdefinierte Felder
 keywords: udef, benutzerdefiniertes Feld
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -49,15 +49,19 @@ Die folgenden Einschränkungen gelten für die Anzahl der benutzerdefinierten Fe
 * **Dezimal**: Insgesamt maximal 10.
 
 > [!NOTE]
-> Vier der benutzerdefinierten Felder in jeder Gruppe müssen indiziert werden.
+> Das Indizieren von Feldern wird für eine bessere Leistung empfohlen, insbesondere bei großen Datensätzen. Vier Felder in jeder Gruppe sind für Indizes reserviert. Wenn keine Felder indiziert sind, wird die Gesamtanzahl der benutzerdefinierten Felder auf 103 reduziert, da 16 Plätze ungenutzt bleiben.
 
 ## <a id="index"></a>Indizierte Felder
 
-Die Indexierung ist gut für die Benutzererfahrung und die Leistung. Die ersten 4 Felder jeder Datentyp sind für Indizes reserviert.
+Die Indizierung beschleunigt die Datenabfrage und verbessert die Benutzererfahrung.
 
-Sie müssen das Kontrollkästchen aktivieren, wenn Sie das Feld erstellen, um die Indexierung zu ermöglichen. Sie können bis zu 4 Felder in jeder der 4 Datentypen (Long, Double, String[40], String[200]) für jede Entität markieren. Zum Beispiel können Sie 4 Zahlen und 4 Dezimalstellen für einen Kontakt indizieren, jedoch können Sie nicht gleichzeitig auch ein Datum indizieren - weil alle Long-Indizeslots von den Zahlen belegt sind.
+Sie können so viele Felder indizieren, wie Sie benötigen, indem Sie das Kontrollkästchen **Indiziert** beim Erstellen oder Bearbeiten eines Feldes auswählen. Indizes werden automatisch aktualisiert, wenn Sie Ihre Änderungen veröffentlichen.
 
-Wenn Sie sich entscheiden, überhaupt nicht zu indizieren, verschwenden Sie im Grunde genommen 16 Felder! Damit wird die maximale Anzahl der benutzerdefinierten Felder auf 103 reduziert.
+**Neu in Version 10.3.1:**
+
+* Sie können nun mehr als 4 Felder in jeder Gruppe (Long, Double, String[40], String[200]) pro Entität indizieren.
+
+* Daten werden beim Veröffentlichen von Indexänderungen nicht mehr zwischen Feldern verschoben, was das Veröffentlichen schneller macht, unabhängig von der Tabellengröße (Anzahl der Zeilen).
 
 ## <a id="page-1"></a>Seite 1-Felder
 

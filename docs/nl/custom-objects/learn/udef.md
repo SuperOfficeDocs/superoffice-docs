@@ -4,8 +4,8 @@ title: Gebruikersgedefinieerde velden
 description: Gebruikersgedefinieerde velden
 keywords: udef, aangepast veld, gebruikersgedefinieerd
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 08.27.2024
+so-version: 10.3.1
 topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -49,15 +49,19 @@ De volgende beperkingen gelden voor het aantal door gebruikers gedefinieerde vel
 * **Decimaal**: Maximaal 10 in totaal.
 
 > [!NOTE]
-> Vier van de door de gebruiker gedefinieerde velden in elke groep moeten worden geïndexeerd.
+> Het wordt aanbevolen om velden te indexeren voor betere prestaties, vooral in grote datasets. Vier velden in elke groep zijn gereserveerd voor indexen. Als er geen velden worden geïndexeerd, wordt het totale aantal gebruiker gedefinieerde velden teruggebracht tot 103, omdat 16 slots onbenut blijven.
 
 ## <a id="index"></a>Geïndexeerde velden
 
-Indexering is goed voor de gebruikerservaring en prestaties. De eerste 4 velden van elk gegevenstype zijn gereserveerd voor indexen.
+Indexeren versnelt het ophalen van gegevens en verbetert de gebruikerservaring.
 
-U moet het selectievakje aanvinken bij het maken van het veld om indexering toe te staan. U kunt tot 4 velden markeren in elk van de 4 gegevenstypen (Long, Double, String[40], String[200]) voor elke entiteit. U kunt bijvoorbeeld 4 getallen en 4 decimalen indexeren voor een contact, maar u kunt niet tegelijkertijd ook een datum indexeren - omdat alle Long-indexposities worden ingenomen door de getallen.
+Je kunt zoveel velden indexeren als nodig is door het selectievakje **Geïndexeerd** aan te vinken bij het maken of bewerken van een veld. Indexen worden automatisch bijgewerkt wanneer je je wijzigingen publiceert.
 
-Als u ervoor kiest helemaal niet te indexeren, verspilt u in feite 16 velden! Hierdoor wordt het maximale aantal aangepaste velden teruggebracht tot 103.
+**Nieuw vanaf versie 10.3.1:**
+
+* Je kunt nu meer dan 4 velden in elke groep (Long, Double, String[40], String[200]) voor elke entiteit indexeren.
+
+* Gegevens worden niet langer verplaatst tussen velden bij het publiceren van indexwijzigingen, waardoor publiceren sneller gaat, ongeacht de tabelgrootte (aantal rijen).
 
 ## <a id="page-1"></a>Velden pagina 1
 
