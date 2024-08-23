@@ -3,9 +3,9 @@ uid: DocumentSelectionCombined
 title: DocumentSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: DocumentSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentSelectionCombined"
@@ -712,7 +712,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionCombined?$select=person/middleName,person/personAssociate/portraitThumbnail,person/correspondingAssociate/userName
+GET /api/v1/archive/DocumentSelectionCombined?$select=ourref,attention,documentPublish/publishedFrom,person/hasInfoText,person/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

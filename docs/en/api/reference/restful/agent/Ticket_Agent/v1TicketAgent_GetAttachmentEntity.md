@@ -26,7 +26,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=564
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=357
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 212,
-  "Name": "Senger LLC",
-  "ContentType": "quo",
-  "AttSize": 153,
-  "InlineImage": true,
-  "ContentId": "aut",
-  "AuthKey": "aut",
+  "AttachmentId": 255,
+  "Name": "Fisher, Pacocha and Grady",
+  "ContentType": "in",
+  "AttSize": 158,
+  "InlineImage": false,
+  "ContentId": "asperiores",
+  "AuthKey": "amet",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 917
     }
   }
 }

@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rutherford, Weber and Hickle",
-  "ProviderName": "Keeling-Olson",
-  "Context": "natus"
+  "GuiName": "Paucek-O'Keefe",
+  "ProviderName": "Hackett Inc and Sons",
+  "Context": "fugiat"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bauch LLC",
-      "DisplayTooltip": "natus",
-      "DisplayType": "reprehenderit",
-      "CanOrderBy": false,
-      "Name": "Runolfsdottir Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "iste",
-      "RestrictionListName": "Pfannerstill-Roberts",
+      "DisplayName": "Bergstrom, Halvorson and Huels",
+      "DisplayTooltip": "aut",
+      "DisplayType": "ad",
+      "CanOrderBy": true,
+      "Name": "Bartell-Hamill",
+      "CanRestrictBy": false,
+      "RestrictionType": "dolorum",
+      "RestrictionListName": "Ortiz-Krajcik",
       "IsVisible": false,
-      "ExtraInfo": "occaecati",
-      "Width": "molestiae",
-      "IconHint": "dolorem",
-      "HeadingIconHint": "quae"
+      "ExtraInfo": "deserunt",
+      "Width": "et",
+      "IconHint": "aperiam",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 270,
-      "Name": "Goyette-Hammes",
-      "ToolTip": "Doloremque quibusdam blanditiis.",
+      "Id": 442,
+      "Name": "Brekke-Schmitt",
+      "ToolTip": "Ullam velit voluptates.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "delectus",
-      "ColorBlock": 855,
-      "IconHint": "dicta",
-      "Selected": false,
-      "LastChanged": "2009-08-16T04:22:25.9653503+02:00",
+      "Rank": 205,
+      "Type": "temporibus",
+      "ColorBlock": 423,
+      "IconHint": "id",
+      "Selected": true,
+      "LastChanged": "2003-07-29T13:28:21.8043665+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sapiente",
-      "StyleHint": "earum",
+      "ExtraInfo": "non",
+      "StyleHint": "ut",
       "Hidden": true,
-      "FullName": "Jesse Toy",
+      "FullName": "Ana Rosenbaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 428
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Kuhn LLC",
+      "Name": "Mohr-Howe",
       "Direction": "ASC"
     },
     {
-      "Name": "Kuhn LLC",
+      "Name": "Mohr-Howe",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "qui",
+  "OwnerKeys": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 674
     }
   }
 }

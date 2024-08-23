@@ -3,9 +3,9 @@ uid: AppointmentCancelledNotification
 title: AppointmentCancelledNotification
 description: 
 keywords: AppointmentCancelledNotification archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "AppointmentCancelledNotification"

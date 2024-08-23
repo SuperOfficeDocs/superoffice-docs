@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 972
+  "ProjectId": 873
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quia",
-  "SignOffText": "quisquam",
-  "SignOnConfirmationText": "esse",
-  "SignOnText": "maiores",
-  "EventDate": "2009-02-21T04:22:27.3466141+01:00",
+  "SignOffConfirmationText": "cum",
+  "SignOffText": "ad",
+  "SignOnConfirmationText": "voluptas",
+  "SignOnText": "odit",
+  "EventDate": "2013-03-18T13:28:23.398054+01:00",
   "Enabled": true,
-  "CreatedDate": "2005-01-16T04:22:27.3466141+01:00",
-  "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 997,
+  "CreatedDate": "1998-11-26T13:28:23.398054+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 18,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 850,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2023-04-03T04:22:27.3466141+02:00",
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 942,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2016-10-25T13:28:23.398054+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 578,
-  "Id": 163,
-  "PublishFrom": "2001-12-13T04:22:27.3466141+01:00",
+  "ProjectId": 329,
+  "Id": 422,
+  "PublishFrom": "2014-02-06T13:28:23.4136698+01:00",
   "PublishType": "External",
-  "PublishTo": "2010-06-29T04:22:27.3466141+02:00",
+  "PublishTo": "2010-12-23T13:28:23.4136698+01:00",
   "VisibleForCategories": [
     {
-      "Id": 285,
-      "Name": "Dooley-Weissnat",
-      "ToolTip": "Exercitationem ab voluptates sunt.",
+      "Id": 188,
+      "Name": "Ratke-Ryan",
+      "ToolTip": "Consequuntur eaque et sunt non.",
       "Deleted": false,
-      "Rank": 334,
-      "Type": "aspernatur",
+      "Rank": 635,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 817,
-      "ExtraInfo": "vel",
-      "StyleHint": "iusto",
-      "FullName": "Cletus Towne",
+      "IconHint": "quis",
+      "ColorBlock": 174,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "maxime",
+      "FullName": "Stephen Schinner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 840
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 712,
-      "Name": "Buckridge Inc and Sons",
-      "ToolTip": "Repellat aut quo maiores.",
+      "Id": 74,
+      "Name": "Carroll, Harris and Wehner",
+      "ToolTip": "Exercitationem non et saepe dolorum distinctio enim tempora.",
       "Deleted": false,
-      "Rank": 912,
-      "Type": "eos",
+      "Rank": 597,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptate",
-      "ColorBlock": 841,
-      "ExtraInfo": "sunt",
-      "StyleHint": "quas",
-      "FullName": "Mr. Nick Watsica PhD",
+      "IconHint": "quia",
+      "ColorBlock": 907,
+      "ExtraInfo": "veniam",
+      "StyleHint": "nihil",
+      "FullName": "Prof. Aurelio Susie Cole III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 862
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 656,
+  "IsPublished": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

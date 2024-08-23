@@ -2,10 +2,10 @@
 uid: partneragent-deletewebpanel
 title: PartnerAgent.DeleteWebPanel event method
 description: Scripting events called on the DeleteWebPanel method on the PartnerAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PartnerAgent.DeleteWebPanel
 

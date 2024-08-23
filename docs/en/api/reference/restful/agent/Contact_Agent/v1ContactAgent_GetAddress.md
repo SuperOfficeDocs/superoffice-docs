@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 677
+  "ContactId": 209
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 15071.405999999999,
-  "Wgs84Longitude": 17061.496,
+  "Wgs84Latitude": 18371.507999999998,
+  "Wgs84Longitude": 18938.762,
   "LocalizedAddress": [
     [
       {
-        "Name": "Price LLC",
-        "Value": "in",
-        "Tooltip": "ducimus",
-        "Label": "velit",
-        "ValueLength": 427,
-        "AddressType": "fuga",
+        "Name": "Labadie-Watsica",
+        "Value": "illum",
+        "Tooltip": "dicta",
+        "Label": "ut",
+        "ValueLength": 554,
+        "AddressType": "doloremque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldLength": 323
           }
         }
       }
     ],
     [
       {
-        "Name": "Mills, Collins and Nikolaus",
-        "Value": "consequuntur",
-        "Tooltip": "rerum",
-        "Label": "totam",
-        "ValueLength": 44,
-        "AddressType": "delectus",
+        "Name": "Shanahan, Lehner and Kshlerin",
+        "Value": "sed",
+        "Tooltip": "beatae",
+        "Label": "dolor",
+        "ValueLength": 363,
+        "AddressType": "sapiente",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldType": "System.String",
+            "FieldLength": 535
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "vitae",
+  "Formatted": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 949
     }
   }
 }

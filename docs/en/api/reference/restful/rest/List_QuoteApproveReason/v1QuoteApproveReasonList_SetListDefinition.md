@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Mayer-Greenholt",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 991,
+  "Id": 839,
+  "Name": "Kertzmann, Friesen and Fadel",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 275,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "Emmerich Inc and Sons",
-  "Tooltip": "iste",
+  "Id": 724,
+  "Name": "Bailey, Lemke and Kuhn",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 389,
+  "Rank": 112,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 221
     }
   }
 }

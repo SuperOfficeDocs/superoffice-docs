@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 36,
-  "ColumnId": 335,
-  "FieldDefault": "voluptatum",
-  "FieldHeight": 861,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 707,
-  "FieldTop": 836,
+  "UDefFieldId": 796,
+  "ColumnId": 748,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 893,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 805,
+  "FieldTop": 818,
   "FieldType": "Checkbox",
-  "FieldWidth": 664,
-  "FormatMask": "vitae",
+  "FieldWidth": 510,
+  "FormatMask": "cum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 473,
-  "LabelLeft": 861,
-  "LabelTop": 786,
-  "LabelWidth": 234,
-  "LastVersionId": 4,
-  "ListTableId": 276,
+  "LabelHeight": 827,
+  "LabelLeft": 311,
+  "LabelTop": 91,
+  "LabelWidth": 922,
+  "LastVersionId": 477,
+  "ListTableId": 604,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 640,
-  "ProgId": "iure",
+  "Page1LineNo": 953,
+  "ProgId": "possimus",
   "IsReadOnly": false,
-  "ShortLabel": "nemo",
-  "TabOrder": 654,
-  "TextLength": 205,
-  "Tooltip": "temporibus",
-  "UdefIdentity": 101,
-  "UDListDefinitionId": 826,
+  "ShortLabel": "nulla",
+  "TabOrder": 640,
+  "TextLength": 528,
+  "Tooltip": "architecto",
+  "UdefIdentity": 721,
+  "UDListDefinitionId": 576,
   "Justification": "Center",
-  "Version": 39,
-  "TemplateVariableName": "Shields, Ryan and Harvey",
+  "Version": 996,
+  "TemplateVariableName": "Purdy Group",
   "HasBeenPublished": false,
-  "MdoListName": "Lakin Group",
+  "MdoListName": "Kuphal Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

@@ -3,9 +3,9 @@ uid: SimpleTicket
 title: SimpleTicket
 description: 
 keywords: SimpleTicket archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SimpleTicket"
@@ -756,7 +756,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleTicket?$select=person/correspondingAssociate/simultaneousEjUser,contact/postAddress/line1,contact/restrictionAddress/city,contact/contactAssociate/isActiveText,sale/amount
+GET /api/v1/archive/SimpleTicket?$select=tags,ownedBy/assocType,person/searchPhone/description,person/restrictionAddress/city,person/personExtra/x_person_date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

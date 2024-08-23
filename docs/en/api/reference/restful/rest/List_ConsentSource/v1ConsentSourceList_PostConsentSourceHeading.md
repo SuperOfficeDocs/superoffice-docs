@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 159,
-  "Name": "O'Keefe-Boyer",
-  "Tooltip": "quas",
+  "HeadingId": 469,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 657,
-  "UdListDefinitionId": 888
+  "Rank": 733,
+  "UdListDefinitionId": 160
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 545,
-  "Name": "Deckow-Zieme",
-  "Tooltip": "culpa",
+  "HeadingId": 660,
+  "Name": "Flatley-Ortiz",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 17,
-  "UdListDefinitionId": 183,
+  "Rank": 732,
+  "UdListDefinitionId": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 476
     }
   }
 }

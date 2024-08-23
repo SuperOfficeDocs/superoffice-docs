@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 906,
-  "Name": "Cruickshank, Kassulke and Bauch",
-  "CreatedDate": "1999-03-07T04:22:34.9698352+01:00",
-  "UpdatedDate": "2002-02-03T04:22:34.9698352+01:00",
+  "ForeignAppId": 67,
+  "Name": "Okuneva, Schuppe and Barton",
+  "CreatedDate": "2010-07-08T13:28:31.6636234+02:00",
+  "UpdatedDate": "2018-06-28T13:28:31.6636234+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 70,
-      "Name": "Howe LLC",
-      "CreatedDate": "2024-03-07T04:22:34.9698352+01:00",
-      "UpdatedDate": "2014-03-03T04:22:34.9698352+01:00",
-      "AssociateFullName": "Rodolfo Will",
-      "CreatedBy": "in",
-      "UpdatedBy": "perspiciatis",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 323,
+      "ForeignDeviceId": 989,
+      "Name": "Ritchie LLC",
+      "CreatedDate": "2017-05-27T13:28:31.6636234+02:00",
+      "UpdatedDate": "2012-08-25T13:28:31.6636234+02:00",
+      "AssociateFullName": "Vickie Padberg",
+      "CreatedBy": "enim",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "dolor",
+      "ForeignAppId": 67,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldType": "System.String",
+          "FieldLength": 217
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

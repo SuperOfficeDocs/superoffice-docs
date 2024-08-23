@@ -3,9 +3,9 @@ uid: mailing
 title: mailing
 keywords: mdoprovider mdo provider mailing
 description: All mailings - history ids
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "mailing" MDO List

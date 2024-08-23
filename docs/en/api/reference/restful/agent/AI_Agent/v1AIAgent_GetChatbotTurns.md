@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "ut"
+  "ChatId": "consectetur"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2004-11-26T04:22:25.5115955+01:00",
-    "UserPrompt": "minima",
-    "UserDisplayText": "et",
-    "BotResponse": "atque",
+    "Timestamp": "2003-08-21T13:28:21.3667801+02:00",
+    "UserPrompt": "cumque",
+    "UserDisplayText": "neque",
+    "BotResponse": "perferendis",
     "BotActions": {
-      "BotActions1": "officiis",
-      "BotActions2": "architecto"
+      "BotActions1": "ullam",
+      "BotActions2": "impedit"
     },
     "Attachments": [
-      "rerum",
-      "aperiam"
+      "veritatis",
+      "quasi"
     ]
   },
   {
-    "Timestamp": "2004-11-26T04:22:25.5115955+01:00",
-    "UserPrompt": "minima",
-    "UserDisplayText": "et",
-    "BotResponse": "atque",
+    "Timestamp": "2003-08-21T13:28:21.3667801+02:00",
+    "UserPrompt": "cumque",
+    "UserDisplayText": "neque",
+    "BotResponse": "perferendis",
     "BotActions": {
-      "BotActions1": "officiis",
-      "BotActions2": "architecto"
+      "BotActions1": "ullam",
+      "BotActions2": "impedit"
     },
     "Attachments": [
-      "rerum",
-      "aperiam"
+      "veritatis",
+      "quasi"
     ]
   }
 ]

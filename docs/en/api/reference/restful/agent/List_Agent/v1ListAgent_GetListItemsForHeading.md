@@ -92,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 405,
-  "HeadingId": 29
+  "UdListDefinitionId": 314,
+  "HeadingId": 427
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Douglas, Breitenberg and Heller",
-    "ToolTip": "Et dolorem qui recusandae pariatur.",
-    "Deleted": true,
-    "Rank": 893,
-    "Type": "impedit",
-    "ColorBlock": 677,
-    "IconHint": "fugit",
+    "Id": 54,
+    "Name": "Gerlach, Johnston and Hettinger",
+    "ToolTip": "Dolores consequatur id non quis quod.",
+    "Deleted": false,
+    "Rank": 198,
+    "Type": "voluptate",
+    "ColorBlock": 274,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2024-01-09T04:22:26.9848795+01:00",
+    "LastChanged": "2001-07-15T13:28:22.9606469+02:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Block LLC",
-        "ToolTip": "Omnis officiis qui harum esse sint.",
-        "Deleted": false,
-        "Rank": 754,
-        "Type": "aut",
-        "ColorBlock": 130,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "2022-05-02T04:22:26.9848795+02:00",
+        "Id": 98,
+        "Name": "Koepp-Ritchie",
+        "ToolTip": "Quibusdam et occaecati cumque commodi nobis nisi.",
+        "Deleted": true,
+        "Rank": 960,
+        "Type": "aperiam",
+        "ColorBlock": 857,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2017-08-01T13:28:22.9606469+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "sequi",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Elyssa Heidenreich",
+        "FullName": "Agnes Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 534
+            "FieldType": "System.Int32",
+            "FieldLength": 565
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "libero",
+    "ExtraInfo": "architecto",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Hardy Conn I",
+    "FullName": "Mr. Chaim Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 51
       }
     }
   }

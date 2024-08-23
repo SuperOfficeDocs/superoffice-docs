@@ -2,10 +2,10 @@
 uid: audienceagent-getconfigparametersbylayoutname
 title: AudienceAgent.GetConfigParametersByLayoutName event method
 description: Scripting events called on the GetConfigParametersByLayoutName method on the AudienceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AudienceAgent.GetConfigParametersByLayoutName
 

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thompson Group"
+  "Name": "Cronin Inc and Sons"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Krajcik, Langosh and Lebsack",
-    "ToolTip": "Veritatis asperiores rem sed quos voluptas.",
-    "Deleted": true,
-    "Rank": 226,
-    "Type": "ullam",
+    "Id": 187,
+    "Name": "Jacobi Group",
+    "ToolTip": "Cupiditate voluptatem voluptatum itaque.",
+    "Deleted": false,
+    "Rank": 293,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Lang-Hoppe",
-        "ToolTip": "Rerum eos voluptatibus.",
-        "Deleted": true,
-        "Rank": 897,
-        "Type": "et",
+        "Id": 671,
+        "Name": "Satterfield, Bashirian and Borer",
+        "ToolTip": "Itaque sint.",
+        "Deleted": false,
+        "Rank": 997,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 491,
-        "ExtraInfo": "cum",
-        "StyleHint": "id",
-        "FullName": "Miss Halle Beier III",
+        "IconHint": "et",
+        "ColorBlock": 198,
+        "ExtraInfo": "aut",
+        "StyleHint": "consequatur",
+        "FullName": "Prof. Myrna Lauriane Schultz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 954
+            "FieldType": "System.Int32",
+            "FieldLength": 996
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 884,
-    "ExtraInfo": "error",
-    "StyleHint": "qui",
-    "FullName": "Robbie Torphy",
+    "IconHint": "sit",
+    "ColorBlock": 596,
+    "ExtraInfo": "ut",
+    "StyleHint": "facere",
+    "FullName": "Ricardo Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 353
       }
     }
   }

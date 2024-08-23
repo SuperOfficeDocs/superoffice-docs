@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
+  "Id": 463,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 412,
+  "EjMessageId": 278,
   "Ticket": null,
-  "CreatedAt": "2006-07-21T04:22:28.0225046+02:00",
+  "CreatedAt": "2011-08-15T13:28:24.1010104+02:00",
   "CreatedBy": null,
-  "Author": "possimus",
+  "Author": "quae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 51,
-  "Body": "iste",
-  "HtmlBody": "aliquam",
-  "EmailHeader": "eva.gleichner@corwinswaniawski.com",
-  "DebugInfo": "qui",
-  "MailSorter": "esse",
+  "MessageId": "facilis",
+  "TimeSpent": 909,
+  "Body": "consectetur",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "claudine.steuber@cremin.co.uk",
+  "DebugInfo": "expedita",
+  "MailSorter": "eum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "perspiciatis",
   "MessageHeaders": [
     {
-      "Id": 704,
-      "Name": "Graham Inc and Sons",
-      "Value": "facere",
+      "Id": 802,
+      "Name": "Ullrich, Spencer and Beahan",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 664
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "tenetur",
-  "Sentiment": 996,
-  "SentimentConfidence": 781,
+  "Important": false,
+  "Language": "sed",
+  "Sentiment": 729,
+  "SentimentConfidence": 549,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 327,
-      "Name": "Jacobi-Roob",
-      "ContentType": "consequatur",
-      "AttSize": 455,
-      "InlineImage": true,
-      "ContentId": "at",
-      "AuthKey": "debitis",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 698,
+      "Name": "Thiel LLC",
+      "ContentType": "dolores",
+      "AttSize": 594,
+      "InlineImage": false,
+      "ContentId": "commodi",
+      "AuthKey": "omnis",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 808
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "commodi"
+    "CustomFields1": "itaque",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 2
     }
   }
 }

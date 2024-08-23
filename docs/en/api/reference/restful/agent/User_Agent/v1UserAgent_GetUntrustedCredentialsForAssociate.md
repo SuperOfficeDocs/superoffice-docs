@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 742,
-  "Type": "blanditiis"
+  "AssociateId": 722,
+  "Type": "aspernatur"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2000-11-06T04:22:28.1006289+01:00",
-    "ValidTo": "1999-12-05T04:22:28.1006289+01:00",
-    "Comment": "aperiam",
-    "SecretValue": "explicabo",
-    "PublicValue": "doloribus",
-    "IsActive": true,
+    "ValidFrom": "2008-03-30T13:28:24.1791219+02:00",
+    "ValidTo": "2008-05-06T13:28:24.1791219+02:00",
+    "Comment": "maxime",
+    "SecretValue": "error",
+    "PublicValue": "eveniet",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 738
       }
     }
   }

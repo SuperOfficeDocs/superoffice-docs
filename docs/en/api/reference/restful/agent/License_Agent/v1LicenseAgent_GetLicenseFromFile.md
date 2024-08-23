@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "reprehenderit"
+  "FileContent": "facilis"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "strategize B2C relationships",
-  "CanBeActivated": true,
+  "Reason": "",
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 932,
-      "NumberOfLicensesFree": 106,
-      "NumberOfLicensesAdded": 710,
-      "NumberOfLicensesNewTotal": 20,
-      "NumberOfLicensesNewFree": 302,
-      "NumberOfLicensesTotal": 634
+      "NumberOfLicensesInUse": 105,
+      "NumberOfLicensesFree": 726,
+      "NumberOfLicensesAdded": 483,
+      "NumberOfLicensesNewTotal": 219,
+      "NumberOfLicensesNewFree": 561,
+      "NumberOfLicensesTotal": 777
     }
   ],
-  "AccumulatedNextCheckDate": "2011-12-21T04:22:26.8911471+01:00"
+  "AccumulatedNextCheckDate": "2001-11-17T13:28:22.8835934+01:00"
 }
 ```

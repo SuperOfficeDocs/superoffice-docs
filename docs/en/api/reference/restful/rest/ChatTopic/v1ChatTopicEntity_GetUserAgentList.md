@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Connelly, Farrell and Schimmel",
-    "ToolTip": "Ea mollitia eaque quo.",
+    "Id": 647,
+    "Name": "Davis LLC",
+    "ToolTip": "Repudiandae cupiditate quidem praesentium necessitatibus blanditiis necessitatibus consequuntur.",
     "Deleted": false,
-    "Rank": 426,
-    "Type": "cupiditate",
+    "Rank": 22,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Ziemann, Spencer and Heaney",
-        "ToolTip": "Qui velit rerum omnis nesciunt.",
-        "Deleted": false,
-        "Rank": 782,
-        "Type": "ut",
+        "Id": 272,
+        "Name": "Kilback, Parker and Johnson",
+        "ToolTip": "Beatae numquam qui consequatur in.",
+        "Deleted": true,
+        "Rank": 241,
+        "Type": "at",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 757,
-        "ExtraInfo": "dolorum",
-        "StyleHint": "in",
-        "FullName": "Tomas White",
+        "IconHint": "accusamus",
+        "ColorBlock": 445,
+        "ExtraInfo": "accusantium",
+        "StyleHint": "nihil",
+        "FullName": "Dario Schaden PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldLength": 82
           }
         }
       }
     ],
-    "IconHint": "consequuntur",
-    "ColorBlock": 948,
-    "ExtraInfo": "quam",
-    "StyleHint": "alias",
-    "FullName": "Saige Powlowski",
+    "IconHint": "nemo",
+    "ColorBlock": 991,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "nulla",
+    "FullName": "Dr. Delilah Emilio Reynolds Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 884
       }
     }
   }

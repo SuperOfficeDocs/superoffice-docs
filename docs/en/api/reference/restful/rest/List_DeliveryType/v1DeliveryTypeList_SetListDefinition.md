@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Purdy Inc and Sons",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 90,
-  "IsCustomList": true,
+  "Id": 846,
+  "Name": "Jacobs, Welch and Walter",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "Rank": 638,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Pfeffer-McDermott",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 160,
-  "IsCustomList": false,
+  "Id": 668,
+  "Name": "Sipes-Berge",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 191,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "numquam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 998
     }
   }
 }

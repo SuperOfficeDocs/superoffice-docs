@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 241,
-  "Name": "O'Kon Inc and Sons",
-  "Description": "Monitored optimal function"
+  "SourceId": 793,
+  "Name": "King, Sporer and Davis",
+  "Description": "Up-sized web-enabled access"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 879,
+  "ReportId": 141,
   "ReportCategory": "All",
-  "Description": "Business-focused background budgetary management",
+  "Description": "Reverse-engineered 24 hour leverage",
   "ReportLayout": "CalendarMonth",
-  "Name": "Monahan LLC",
-  "AssociateId": 576,
-  "TemplateId": 257,
+  "Name": "Jaskolski LLC",
+  "AssociateId": 282,
+  "TemplateId": 920,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 563
     }
   }
 }

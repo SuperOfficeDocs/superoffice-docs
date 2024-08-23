@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 875,
+  "TicketId": 902,
   "MessageActionType": "Forward",
-  "TicketMessageId": 538,
-  "TicketTypeId": 981
+  "TicketMessageId": 670,
+  "TicketTypeId": 859
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "aut",
+  "Body": "dignissimos",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 529,
-      "Name": "Grimes LLC",
-      "ContentType": "architecto",
-      "AttSize": 732,
+      "AttachmentId": 180,
+      "Name": "Hagenes Group",
+      "ContentType": "optio",
+      "AttSize": 959,
       "InlineImage": true,
-      "ContentId": "dolor",
-      "AuthKey": "minus",
-      "IsSafeFileExtension": true,
+      "ContentId": "sed",
+      "AuthKey": "repellendus",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 56
         }
       }
     }

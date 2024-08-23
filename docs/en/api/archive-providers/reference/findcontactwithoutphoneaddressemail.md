@@ -3,9 +3,9 @@ uid: FindContactWithoutPhoneAddressEmail
 title: FindContactWithoutPhoneAddressEmail
 description: 
 keywords: FindContactWithoutPhoneAddressEmail archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindContactWithoutPhoneAddressEmail"
@@ -744,7 +744,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=updatedByWorkflow,personExtra/y_rental/id,personAssociate/credentialType,correspondingAssociate/locationAddress
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=sourceRelation/updatedByFullName,appointment/contactId,appointment/associate/lastName,document/icon,document/subject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -3,9 +3,9 @@ uid: TicketStaticSelection
 title: TicketStaticSelection
 description: Static archive Provider for a Selection of tickets archive.
 keywords: TicketStaticSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketStaticSelection"
@@ -763,7 +763,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelection?$select=person/personAssociate/ejUserId,contact/postAddress/line2,contact/postAddress/city
+GET /api/v1/archive/TicketStaticSelection?$select=timeToClose,person/consentSourceEmarketing,sale/time,project/projectUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

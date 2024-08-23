@@ -3,9 +3,9 @@ uid: ErpConnection
 title: ErpConnection
 description: Archive of ERP Connections, used by the ERP Integration Server
 keywords: ErpConnection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ErpConnection"

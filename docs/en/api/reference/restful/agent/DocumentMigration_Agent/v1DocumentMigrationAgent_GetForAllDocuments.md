@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 166,
-  "IncludeEmails": false
+  "DocumentPluginId": 773,
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 185,
-  "NumDocumentsAlreadyMigrated": 469,
+  "NumDocumentsOmitted": 501,
+  "NumDocumentsAlreadyMigrated": 89,
   "Documents": [
     {
-      "DocumentId": 464,
-      "ContactId": 913,
-      "PersonId": 412,
-      "SaleId": 182,
-      "ProjectId": 711,
-      "DocTmplId": 907,
-      "AssociateId": 871,
-      "UserGroupId": 824,
-      "VisibleForId": 753
+      "DocumentId": 952,
+      "ContactId": 4,
+      "PersonId": 170,
+      "SaleId": 549,
+      "ProjectId": 275,
+      "DocTmplId": 454,
+      "AssociateId": 448,
+      "UserGroupId": 223,
+      "VisibleForId": 11
     }
   ],
   "Associates": [
     {
-      "AssociateId": 152,
-      "EmailAddress": "glen@corwin.info"
+      "AssociateId": 928,
+      "EmailAddress": "lonie@quitzon.us"
     },
     {
-      "AssociateId": 152,
-      "EmailAddress": "glen@corwin.info"
+      "AssociateId": 928,
+      "EmailAddress": "lonie@quitzon.us"
     }
   ]
 }

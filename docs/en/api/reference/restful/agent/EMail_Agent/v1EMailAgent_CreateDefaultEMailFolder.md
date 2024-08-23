@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dickens-Considine",
-  "Delimiter": "aspernatur",
-  "Flags": "nisi",
-  "TotalItems": 660,
-  "UnreadItems": 772,
+  "Name": "Pacocha Inc and Sons",
+  "Delimiter": "corrupti",
+  "Flags": "sed",
+  "TotalItems": 847,
+  "UnreadItems": 868,
   "Subscribed": false,
-  "EmailFolderId": 364,
+  "EmailFolderId": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 465
     }
   }
 }

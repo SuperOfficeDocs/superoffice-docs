@@ -55,8 +55,15 @@ OK
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -70,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 69,
-  "UniqueIdentifier": "itaque",
-  "Name": "Miller Inc and Sons",
-  "Description": "De-engineered assymetric neural-net",
-  "IncludeId": "enim",
-  "HierarchyId": 401,
-  "Source": "temporibus",
-  "Registered": "2013-04-21T04:22:34.8589991+02:00",
-  "RegisteredAssociateId": 125,
-  "Updated": "2023-09-21T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 850,
+  "EjscriptId": 282,
+  "UniqueIdentifier": "molestiae",
+  "Name": "Kulas, Hagenes and Hamill",
+  "Description": "Devolved object-oriented matrices",
+  "IncludeId": "molestiae",
+  "AccessKey": "voluptatum",
+  "HierarchyId": 66,
+  "Source": "et",
+  "SourceCode": "illo",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 799,
+  "Includes": [
+    627,
+    815
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 2,
+      "LineNumberTo": 776,
+      "Delta": 690,
+      "IncludeId": "debitis",
+      "IncludedFrom": [
+        "odio",
+        "asperiores"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 575
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2009-12-24T13:28:31.53865+01:00",
+  "RegisteredAssociateId": 495,
+  "Updated": "2005-04-12T13:28:31.53865+02:00",
+  "UpdatedAssociateId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

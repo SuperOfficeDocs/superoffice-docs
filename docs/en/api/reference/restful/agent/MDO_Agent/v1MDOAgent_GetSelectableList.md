@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mills LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "quia",
+  "Name": "Denesik, Runte and Ryan",
+  "ForceFlatList": false,
+  "AdditionalInfo": "vel",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Totam atque molestiae.",
+    "Id": 822,
+    "Name": "Lind Inc and Sons",
+    "ToolTip": "Repellat nihil.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "doloremque",
-    "ColorBlock": 166,
-    "IconHint": "quaerat",
+    "Rank": 424,
+    "Type": "occaecati",
+    "ColorBlock": 737,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2021-12-20T04:22:27.0810055+01:00",
+    "LastChanged": "2000-08-27T13:28:23.0699949+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Walsh LLC",
-        "ToolTip": "Quasi sequi qui voluptatem.",
-        "Deleted": false,
-        "Rank": 886,
-        "Type": "minima",
-        "ColorBlock": 764,
-        "IconHint": "modi",
+        "Id": 484,
+        "Name": "Hartmann-Wiegand",
+        "ToolTip": "Dolore illum officia quia quidem et eum et.",
+        "Deleted": true,
+        "Rank": 89,
+        "Type": "laboriosam",
+        "ColorBlock": 918,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2008-03-04T04:22:27.0810055+01:00",
+        "LastChanged": "2020-02-22T13:28:23.0699949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Missouri Gerda Hirthe II",
+        "ExtraInfo": "velit",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Mrs. Eusebio Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 154
+            "FieldType": "System.Int32",
+            "FieldLength": 592
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Chaim Hermiston",
+    "FullName": "Richmond Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 345
       }
     }
   }

@@ -3,9 +3,9 @@ uid: y_car
 title: y_car
 keywords: mdoprovider mdo provider y_car
 description: Extra tables lists. List names are 'y_xyz' - based on the custom table name. Contents of the list are based on the display_field for the table
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "y_car" MDO List
@@ -52,7 +52,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Prius|||
-|2|Avensis|||
-|3|Corolla|||
+|1|1|||
+|2|2|||
+|3|3|||
 

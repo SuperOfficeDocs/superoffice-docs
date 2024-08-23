@@ -2,10 +2,10 @@
 uid: workflowagent-createdefaultworkflowstepfromtype
 title: WorkflowAgent.CreateDefaultWorkflowStepFromType event method
 description: Scripting events called on the CreateDefaultWorkflowStepFromType method on the WorkflowAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WorkflowAgent.CreateDefaultWorkflowStepFromType
 

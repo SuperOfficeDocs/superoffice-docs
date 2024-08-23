@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 521
+  "QuoteId": 762
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 274,
-  "SaleId": 139,
-  "QuoteConnectionId": 536,
-  "ERPQuoteKey": "ea",
-  "ERPOrderKey": "sed",
-  "ActiveQuoteVersionId": 120,
-  "AcceptedQuoteAlternativeId": 161,
-  "UseValuesFromQuote": 724,
-  "DocumentId": 417,
-  "PoNumber": "1324542",
-  "OrderComment": "et",
-  "PreferredEmailCulture": "enid@bayer.com",
+  "QuoteId": 187,
+  "SaleId": 523,
+  "QuoteConnectionId": 293,
+  "ERPQuoteKey": "eligendi",
+  "ERPOrderKey": "hic",
+  "ActiveQuoteVersionId": 146,
+  "AcceptedQuoteAlternativeId": 834,
+  "UseValuesFromQuote": 608,
+  "DocumentId": 746,
+  "PoNumber": "592791",
+  "OrderComment": "ipsum",
+  "PreferredEmailCulture": "arnold@turcotte.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 6
     }
   }
 }

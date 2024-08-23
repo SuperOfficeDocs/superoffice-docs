@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Apr 2010 04:22:35 G4T
+Last-Modified: Fri, 25 Feb 2000 13:28:31 G2T
 
 {
-  "ForeignAppId": 200,
-  "Name": "Koss, Stroman and Fadel",
-  "CreatedDate": "2000-03-14T04:22:35.0010854+01:00",
-  "UpdatedDate": "2010-04-17T04:22:35.0010854+02:00",
+  "ForeignAppId": 943,
+  "Name": "Schneider, Abbott and Cartwright",
+  "CreatedDate": "2013-10-25T13:28:31.6948645+02:00",
+  "UpdatedDate": "2000-02-25T13:28:31.6948645+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 96,
-      "Name": "Gislason-Kris",
-      "CreatedDate": "2013-01-15T04:22:35.0010854+01:00",
-      "UpdatedDate": "2003-02-17T04:22:35.0010854+01:00",
-      "AssociateFullName": "Miss Faustino Koby Buckridge",
-      "CreatedBy": "a",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "asperiores",
-      "ForeignAppId": 490,
+      "ForeignDeviceId": 502,
+      "Name": "Bergstrom Group",
+      "CreatedDate": "2006-12-07T13:28:31.6948645+01:00",
+      "UpdatedDate": "2002-04-21T13:28:31.6948645+02:00",
+      "AssociateFullName": "Miss Zechariah Reichert DVM",
+      "CreatedBy": "nam",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 83,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sat, 17 Apr 2010 04:22:35 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 161
     }
   }
 }

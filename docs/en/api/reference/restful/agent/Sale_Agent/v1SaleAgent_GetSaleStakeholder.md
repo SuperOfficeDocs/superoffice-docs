@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=335
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=363
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Davis Inc and Sons",
-  "Comment": "vel",
-  "StakeholderRoleId": 45,
-  "CountryId": 260,
-  "PersonId": 743,
-  "EmailDescription": "nettie@armstrong.name",
-  "EmailId": 788,
-  "EmailAddress": "marcos@monahan.ca",
-  "PhoneId": 495,
-  "ContactName": "Parisian, Wehner and Jast",
-  "ContactId": 165,
-  "SaleId": 363,
-  "Mrmrs": "nihil",
-  "Firstname": "Makenna",
-  "MiddleName": "Roob, Baumbach and Watsica",
-  "Lastname": "Pagac",
-  "SaleStakeholderId": 97,
-  "Rank": 484,
-  "Phone": "1-737-271-2293 x53121",
+  "StakeholderRoleName": "Boehm Inc and Sons",
+  "Comment": "voluptatem",
+  "StakeholderRoleId": 754,
+  "CountryId": 64,
+  "PersonId": 483,
+  "EmailDescription": "isabell@vandervort.biz",
+  "EmailId": 823,
+  "EmailAddress": "ross@hansen.com",
+  "PhoneId": 850,
+  "ContactName": "Ernser, Carter and Harvey",
+  "ContactId": 934,
+  "SaleId": 93,
+  "Mrmrs": "qui",
+  "Firstname": "Ewell",
+  "MiddleName": "Graham-Fadel",
+  "Lastname": "Weissnat",
+  "SaleStakeholderId": 40,
+  "Rank": 665,
+  "Phone": "1-443-656-9792 x0759",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 356
     }
   }
 }

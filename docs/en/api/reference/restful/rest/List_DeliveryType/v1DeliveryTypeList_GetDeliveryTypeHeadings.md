@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 990,
-    "Name": "Deckow, Botsford and Bergstrom",
-    "Tooltip": "amet",
+    "HeadingId": 245,
+    "Name": "Osinski-Collier",
+    "Tooltip": "numquam",
     "Deleted": true,
-    "Rank": 172,
-    "UdListDefinitionId": 562,
+    "Rank": 847,
+    "UdListDefinitionId": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 790
       }
     }
   }

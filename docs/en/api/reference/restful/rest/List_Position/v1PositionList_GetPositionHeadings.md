@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 590,
-    "Name": "Nolan, Bosco and Adams",
-    "Tooltip": "impedit",
+    "HeadingId": 258,
+    "Name": "Satterfield Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 143,
+    "Rank": 681,
+    "UdListDefinitionId": 251,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 963
       }
     }
   }

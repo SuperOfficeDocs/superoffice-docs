@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 131,
-  "Name": "Swaniawski-Ryan",
-  "Tooltip": "quod",
-  "Rank": 371,
-  "Key": "est",
-  "MailTemplateId": 190,
+  "ConsentSourceId": 680,
+  "Name": "Wisozk LLC",
+  "Tooltip": "ut",
+  "Rank": 718,
+  "Key": "non",
+  "MailTemplateId": 827,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 675
     }
   }
 }

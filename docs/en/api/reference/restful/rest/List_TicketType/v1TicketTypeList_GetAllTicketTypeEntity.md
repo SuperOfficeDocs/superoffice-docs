@@ -64,6 +64,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -84,38 +86,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 629,
-    "Name": "Cronin Group",
-    "Rank": 442,
-    "Tooltip": "animi",
-    "Icon": "voluptas",
-    "DefaultTicketStatus": 19,
+    "TicketTypeId": 962,
+    "Name": "Rodriguez Inc and Sons",
+    "Rank": 580,
+    "Tooltip": "commodi",
+    "Icon": "iste",
+    "DefaultTicketStatus": 445,
     "TicketStatuses": [
-      845,
-      695
+      464,
+      829
     ],
-    "DefaultTicketPriority": 375,
+    "DefaultTicketPriority": 663,
     "TicketPriorities": [
-      176,
-      637
+      496,
+      469
     ],
-    "ReplyTemplate": 227,
+    "ReplyTemplate": 153,
     "IsExternalVisible": false,
-    "IsDefault": true,
+    "IsDefault": false,
     "ShowInNew": false,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": true,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      634,
-      275
+      555,
+      890
     ],
+    "ReplyForwardNoSignature": false,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

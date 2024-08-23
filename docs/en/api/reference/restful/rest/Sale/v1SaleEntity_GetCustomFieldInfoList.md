@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Daugherty LLC",
-    "DisplayName": "Hodkiewicz Group",
-    "Description": "Mandatory discrete benchmark",
-    "ShortLabel": "omnis",
+    "FieldName": "Farrell LLC",
+    "DisplayName": "Larson Inc and Sons",
+    "Description": "Ergonomic high-level extranet",
+    "ShortLabel": "perspiciatis",
     "HideLabel": true,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 38,
-    "TemplateVariableName": "Reynolds-Doyle"
+    "Rank": 412,
+    "TemplateVariableName": "Rowe-Fritsch"
   }
 ]
 ```

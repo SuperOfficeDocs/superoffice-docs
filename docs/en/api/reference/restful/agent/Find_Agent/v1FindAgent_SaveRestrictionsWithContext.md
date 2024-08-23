@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugit",
-  "ProviderName": "Purdy-Lowe",
-  "StorageKey": "quasi",
+  "StorageType": "soluta",
+  "ProviderName": "Barton-Wilderman",
+  "StorageKey": "quis",
   "Restrictions": [
     {
-      "Name": "Carroll, Hudson and Witting",
-      "Operator": "recusandae",
+      "Name": "Blanda-Olson",
+      "Operator": "a",
       "Values": [
-        "iure",
-        "est"
+        "quia",
+        "rem"
       ],
       "DisplayValues": [
-        "tempora",
-        "dignissimos"
+        "unde",
+        "mollitia"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 787,
+      "InterParenthesis": 386,
       "InterOperator": "And",
-      "UniqueHash": 145
+      "UniqueHash": 451
     }
   ],
-  "Context": "tempora"
+  "Context": "nisi"
 }
 ```
 

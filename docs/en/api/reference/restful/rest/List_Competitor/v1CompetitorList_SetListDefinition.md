@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Willms Inc and Sons",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 913,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false
+  "Id": 638,
+  "Name": "Cremin-Kris",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 126,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 494,
-  "Name": "Olson, Nikolaus and Kiehn",
-  "Tooltip": "consectetur",
+  "Id": 545,
+  "Name": "Pouros-Schuster",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 741,
+  "Rank": 318,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

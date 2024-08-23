@@ -2,10 +2,10 @@
 uid: quoteagent-savequotelineconfigurations
 title: QuoteAgent.SaveQuoteLineConfigurations event method
 description: Scripting events called on the SaveQuoteLineConfigurations method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.SaveQuoteLineConfigurations
 

@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 573,
+  "SaleId": 931,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "McDermott, Koch and Dickens",
-      "Comment": "at",
-      "StakeholderRoleId": 714,
-      "CountryId": 857,
-      "PersonId": 649,
-      "EmailDescription": "darron@ullrich.info",
-      "EmailId": 472,
-      "EmailAddress": "suzanne@jakubowski.co.uk",
-      "PhoneId": 165,
-      "ContactName": "Goodwin Inc and Sons",
-      "ContactId": 430,
-      "SaleId": 972,
-      "Mrmrs": "minima",
-      "Firstname": "Geovanny",
-      "MiddleName": "McDermott-Rodriguez",
-      "Lastname": "Murphy",
-      "SaleStakeholderId": 916,
-      "Rank": 469,
-      "Phone": "057-380-9555 x640"
+      "StakeholderRoleName": "Blick, Kuhlman and Lebsack",
+      "Comment": "nihil",
+      "StakeholderRoleId": 958,
+      "CountryId": 335,
+      "PersonId": 833,
+      "EmailDescription": "curtis.johnston@hand.us",
+      "EmailId": 779,
+      "EmailAddress": "laurel@pacocha.ca",
+      "PhoneId": 808,
+      "ContactName": "Lind Inc and Sons",
+      "ContactId": 984,
+      "SaleId": 557,
+      "Mrmrs": "sunt",
+      "Firstname": "Raquel",
+      "MiddleName": "Konopelski-Shields",
+      "Lastname": "Erdman",
+      "SaleStakeholderId": 513,
+      "Rank": 747,
+      "Phone": "(663)758-7935"
     }
   ]
 }

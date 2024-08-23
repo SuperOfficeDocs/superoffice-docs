@@ -3,9 +3,9 @@ uid: Numbers
 title: Numbers
 description: Archive provider for the list of userpreferences
 keywords: Numbers archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Numbers"
@@ -87,7 +87,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=nextnum,updated_associate/title
+GET /api/v1/archive/Numbers?$select=recordId,nextnum,updated_associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

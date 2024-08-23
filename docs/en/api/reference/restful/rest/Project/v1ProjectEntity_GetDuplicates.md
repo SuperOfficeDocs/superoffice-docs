@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Dietrich-Wilderman",
-    "SoPrimaryKey": 697,
-    "EntryName": "Turcotte Group",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Flatley Group",
+    "RuleName": "Mills Group",
+    "SoPrimaryKey": 952,
+    "EntryName": "Borer-Huel",
+    "EntryIdentifier": "dicta",
+    "RuleDisplayName": "Greenholt Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

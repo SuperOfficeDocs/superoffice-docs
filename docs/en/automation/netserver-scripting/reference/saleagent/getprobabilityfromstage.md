@@ -2,10 +2,10 @@
 uid: saleagent-getprobabilityfromstage
 title: SaleAgent.GetProbabilityFromStage event method
 description: Scripting events called on the GetProbabilityFromStage method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.GetProbabilityFromStage
 

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rath-Farrell",
-  "RecordId": 884,
-  "AssociateId": 313
+  "TableName": "Cummings, Emard and Will",
+  "RecordId": 356,
+  "AssociateId": 780
 }
 ```
 

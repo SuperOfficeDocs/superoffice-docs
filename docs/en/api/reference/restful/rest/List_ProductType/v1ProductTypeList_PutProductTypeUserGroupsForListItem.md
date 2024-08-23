@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Runolfsson, Wolff and Funk",
-    "ToolTip": "Ut corrupti qui.",
+    "Id": 463,
+    "Name": "Kunde LLC",
+    "ToolTip": "Est ad quibusdam.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "est",
-    "ColorBlock": 734,
-    "IconHint": "hic",
+    "Rank": 361,
+    "Type": "dolore",
+    "ColorBlock": 251,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2011-10-21T04:22:36.0809665+02:00",
+    "LastChanged": "2004-05-09T13:28:32.9915768+02:00",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Bins-O'Reilly",
-        "ToolTip": "Qui maxime quod itaque rem repellat laboriosam nostrum.",
-        "Deleted": false,
-        "Rank": 395,
-        "Type": "et",
-        "ColorBlock": 14,
-        "IconHint": "sit",
+        "Id": 173,
+        "Name": "Ernser, Jakubowski and Frami",
+        "ToolTip": "Sint cum maiores voluptas et sed deserunt.",
+        "Deleted": true,
+        "Rank": 202,
+        "Type": "dolorem",
+        "ColorBlock": 265,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2020-12-14T04:22:36.0809665+01:00",
+        "LastChanged": "2014-12-14T13:28:32.9915768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Reese Larkin V"
+        "ExtraInfo": "neque",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Ms. Finn Kameron McLaughlin"
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "saepe",
+    "ExtraInfo": "harum",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Anne Bahringer"
+    "FullName": "Estrella Lynch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Funk Group",
-    "ToolTip": "Dolor deserunt saepe molestiae voluptatibus.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "iste",
-    "ColorBlock": 536,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "2018-08-29T04:22:36.0809665+02:00",
+    "Id": 392,
+    "Name": "O'Connell, Glover and Kutch",
+    "ToolTip": "Repellendus est.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "vero",
+    "ColorBlock": 639,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2001-08-18T13:28:32.9915768+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Soluta voluptatibus dolorum explicabo occaecati quia dolores expedita.",
-        "Deleted": true,
-        "Rank": 461,
-        "Type": "ipsam",
-        "ColorBlock": 757,
-        "IconHint": "nesciunt",
+        "Id": 10,
+        "Name": "Zulauf-Labadie",
+        "ToolTip": "Reprehenderit exercitationem unde.",
+        "Deleted": false,
+        "Rank": 31,
+        "Type": "et",
+        "ColorBlock": 533,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2008-03-25T04:22:36.0809665+01:00",
+        "LastChanged": "2009-09-21T13:28:32.9915768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Carmel Medhurst",
+        "FullName": "Miss Amos Thiel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldType": "System.String",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "cumque",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Elmer Block",
+    "FullName": "Mohamed Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 193
       }
     }
   }

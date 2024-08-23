@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "aut",
-    "DocumentId": 689,
-    "VersionId": "enim",
-    "CheckedInDate": "2007-07-29T04:22:34.9541759+02:00",
-    "CheckedInByName": "Considine Group",
-    "CheckedInByAssociateId": 82,
-    "Description": "Multi-lateral local time-frame",
-    "DisplayText": "tenetur",
+    "ExternalReference": "voluptas",
+    "DocumentId": 870,
+    "VersionId": "quae",
+    "CheckedInDate": "2015-08-26T13:28:31.6479995+02:00",
+    "CheckedInByName": "Armstrong-Ebert",
+    "CheckedInByAssociateId": 843,
+    "Description": "Virtual bifurcated installation",
+    "DisplayText": "optio",
     "ExtraFields": [
-      "neque",
-      "fugit"
+      "sed",
+      "earum"
     ]
   }
 ]

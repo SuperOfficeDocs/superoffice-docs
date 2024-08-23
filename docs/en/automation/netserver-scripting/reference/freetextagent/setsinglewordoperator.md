@@ -2,10 +2,10 @@
 uid: freetextagent-setsinglewordoperator
 title: FreeTextAgent.SetSingleWordOperator event method
 description: Scripting events called on the SetSingleWordOperator method on the FreeTextAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FreeTextAgent.SetSingleWordOperator
 

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 676,
+  "PersonId": 236,
   "IncludeProjectDocuments": false,
-  "StartTime": "2015-03-19T04:22:26.3884781+01:00",
-  "EndTime": "2020-06-04T04:22:26.3884781+02:00",
-  "Count": 933
+  "StartTime": "2006-04-07T13:28:22.4448744+02:00",
+  "EndTime": "2007-11-23T13:28:22.4448744+01:00",
+  "Count": 36
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 341,
-    "Attention": "ea",
-    "Header": "rem",
-    "Name": "Bergstrom LLC",
-    "OurRef": "et",
-    "YourRef": "consequatur",
-    "Description": "Universal transitional contingency",
-    "DocumentTemplate": "sed",
+    "DocumentId": 26,
+    "Attention": "qui",
+    "Header": "labore",
+    "Name": "Botsford-Brown",
+    "OurRef": "eos",
+    "YourRef": "facere",
+    "Description": "Triple-buffered 5th generation project",
+    "DocumentTemplate": "repellendus",
     "IsPublished": true,
-    "PersonId": 965,
-    "PersonFullName": "Rashad Schulist",
-    "AssociateFullName": "Miss Aleen Vallie Kunde III",
-    "ContactId": 73,
-    "ContactName": "Steuber, Jakubowski and Willms",
-    "ProjectId": 573,
-    "ProjectName": "Heaney, Schneider and Kunde",
-    "AssociateId": 954,
-    "Snum": 219,
-    "SaleId": 79,
-    "SaleName": "Koepp, Cronin and Douglas",
+    "PersonId": 769,
+    "PersonFullName": "Garett Terry",
+    "AssociateFullName": "Abner Wiza",
+    "ContactId": 936,
+    "ContactName": "Douglas-Abernathy",
+    "ProjectId": 139,
+    "ProjectName": "Dare Inc and Sons",
+    "AssociateId": 401,
+    "Snum": 399,
+    "SaleId": 138,
+    "SaleName": "Luettgen LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 542
       }
     }
   }

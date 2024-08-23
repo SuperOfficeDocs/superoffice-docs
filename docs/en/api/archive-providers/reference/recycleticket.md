@@ -3,9 +3,9 @@ uid: RecycleTicket
 title: RecycleTicket
 description: 
 keywords: RecycleTicket archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "RecycleTicket"
@@ -756,7 +756,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleTicket?$select=createdBy/isLocation,person/personAssociateFullName,person/correspondingAssociate/assocName,person/correspondingAssociate/isActiveText,contact/restrictionAddress/line2
+GET /api/v1/archive/RecycleTicket?$select=person/personAssociate/role,person/correspondingAssociate/isActive,extra/y_car/id,sale/text,sale/associate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

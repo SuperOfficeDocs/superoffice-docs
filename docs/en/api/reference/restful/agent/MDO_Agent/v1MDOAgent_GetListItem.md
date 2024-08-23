@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Hane-Kulas",
-  "Id": 637
+  "ListName": "Wilderman-Flatley",
+  "Id": 144
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Jast-Abshire",
-  "ToolTip": "Asperiores dolor.",
+  "Id": 14,
+  "Name": "Konopelski, Jenkins and Hamill",
+  "ToolTip": "Beatae cum ratione modi velit natus inventore illo.",
   "Deleted": false,
-  "Rank": 580,
-  "Type": "dolores",
+  "Rank": 10,
+  "Type": "ut",
   "ChildItems": [
     {
-      "Id": 44,
-      "Name": "McClure-Schiller",
-      "ToolTip": "Et non a distinctio repudiandae illo.",
+      "Id": 183,
+      "Name": "Kuhic-Parker",
+      "ToolTip": "Qui aut repellendus est ex.",
       "Deleted": false,
-      "Rank": 810,
-      "Type": "numquam",
+      "Rank": 29,
+      "Type": "odio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "suscipit",
-      "ColorBlock": 686,
-      "ExtraInfo": "a",
-      "StyleHint": "et",
-      "FullName": "Ewell Murphy",
+      "IconHint": "et",
+      "ColorBlock": 928,
+      "ExtraInfo": "dolor",
+      "StyleHint": "voluptatum",
+      "FullName": "Mrs. Elliot Oberbrunner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
+          "FieldType": "System.Int32",
+          "FieldLength": 101
         }
       }
     }
   ],
-  "IconHint": "animi",
-  "ColorBlock": 564,
-  "ExtraInfo": "quia",
-  "StyleHint": "repellendus",
-  "FullName": "Granville Nienow",
+  "IconHint": "libero",
+  "ColorBlock": 190,
+  "ExtraInfo": "ad",
+  "StyleHint": "quam",
+  "FullName": "Dangelo Fisher",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 805
     }
   }
 }

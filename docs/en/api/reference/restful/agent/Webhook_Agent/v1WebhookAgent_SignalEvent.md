@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Ritchie, Dickens and Klein",
-  "PrimaryKey": 277,
+  "EventName": "Ruecker-Funk",
+  "PrimaryKey": 512,
   "Data": {
     "fieldName": {}
   }

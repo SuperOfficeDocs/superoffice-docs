@@ -2,10 +2,10 @@
 uid: documentmigrationagent-migratedocumenttonewdocplugin
 title: DocumentMigrationAgent.MigrateDocumentToNewDocPlugin event method
 description: Scripting events called on the MigrateDocumentToNewDocPlugin method on the DocumentMigrationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DocumentMigrationAgent.MigrateDocumentToNewDocPlugin
 

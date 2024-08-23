@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 367,
-  "ColumnId": 518,
-  "FieldDefault": "debitis",
-  "FieldHeight": 687,
-  "FieldLabel": "aliquid",
-  "FieldLeft": 289,
-  "FieldTop": 188,
+  "UDefFieldId": 709,
+  "ColumnId": 735,
+  "FieldDefault": "ut",
+  "FieldHeight": 852,
+  "FieldLabel": "sed",
+  "FieldLeft": 193,
+  "FieldTop": 689,
   "FieldType": "Checkbox",
-  "FieldWidth": 490,
-  "FormatMask": "sed",
+  "FieldWidth": 899,
+  "FormatMask": "autem",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 495,
-  "LabelLeft": 978,
-  "LabelTop": 517,
-  "LabelWidth": 124,
-  "LastVersionId": 452,
-  "ListTableId": 959,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 660,
+  "LabelLeft": 281,
+  "LabelTop": 681,
+  "LabelWidth": 952,
+  "LastVersionId": 934,
+  "ListTableId": 865,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 568,
-  "ProgId": "odio",
-  "IsReadOnly": true,
-  "ShortLabel": "itaque",
-  "TabOrder": 250,
-  "TextLength": 981,
-  "Tooltip": "sed",
-  "UdefIdentity": 58,
-  "UDListDefinitionId": 765,
+  "Page1LineNo": 720,
+  "ProgId": "aliquam",
+  "IsReadOnly": false,
+  "ShortLabel": "exercitationem",
+  "TabOrder": 421,
+  "TextLength": 648,
+  "Tooltip": "sunt",
+  "UdefIdentity": 848,
+  "UDListDefinitionId": 727,
   "Justification": "Center",
-  "Version": 454,
-  "TemplateVariableName": "Glover-McLaughlin",
-  "HasBeenPublished": true,
-  "MdoListName": "Lebsack LLC",
+  "Version": 527,
+  "TemplateVariableName": "Langosh Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Hauck, Ward and Hickle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 361
     }
   }
 }

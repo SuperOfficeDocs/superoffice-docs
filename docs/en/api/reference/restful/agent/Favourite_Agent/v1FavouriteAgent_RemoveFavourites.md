@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hand Inc and Sons",
+  "TableName": "Satterfield-McDermott",
   "RecordIds": [
-    791,
-    112
+    506,
+    684
   ],
-  "AssociateId": 85
+  "AssociateId": 557
 }
 ```
 

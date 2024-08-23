@@ -3,9 +3,9 @@ uid: ticket
 title: ticket
 keywords: mdoprovider mdo provider ticket
 description: Provider for selecting a ticket. Supported additionalInfo - nameformat=includePersonAndCompany or nameformat=includeTicketId indicates how to format item name. If not specified, includePersonAndCompany is used.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ticket" MDO List

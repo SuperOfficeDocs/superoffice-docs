@@ -68,7 +68,7 @@ User with given id does not exist in the db.
 POST /api/v1/User/{id}/CustomCommand/{commandName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 127,
-  "Currency": "magni"
+  "QuoteConnectionId": 115,
+  "Currency": "exercitationem"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 251,
-    "ERPPriceListKey": "illo",
-    "QuoteConnectionId": 679,
-    "Name": "Brown LLC",
-    "Description": "Universal tertiary migration",
-    "Currency": "dicta",
-    "CurrencyName": "Grimes LLC",
-    "ValidFrom": "2016-08-25T04:22:27.4247427+02:00",
-    "ValidTo": "2010-10-23T04:22:27.4247427+02:00",
+    "PriceListId": 206,
+    "ERPPriceListKey": "praesentium",
+    "QuoteConnectionId": 339,
+    "Name": "Leuschke-Stanton",
+    "Description": "Switchable context-sensitive middleware",
+    "Currency": "enim",
+    "CurrencyName": "Stoltenberg-Zulauf",
+    "ValidFrom": "2019-01-14T13:28:23.5698866+01:00",
+    "ValidTo": "2014-08-04T13:28:23.5698866+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 255
       }
     }
   }

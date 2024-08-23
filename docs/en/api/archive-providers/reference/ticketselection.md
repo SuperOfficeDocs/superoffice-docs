@@ -3,9 +3,9 @@ uid: TicketSelection
 title: TicketSelection
 description: This is the archive Provider for the Selection ticket archive.
 keywords: TicketSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketSelection"
@@ -763,7 +763,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=ownedBy/contactId,ownedBy/portraitThumbnail,person/personId,person/correspondingAssociate/middleName,contact/contactUdef/SuperOffice:13
+GET /api/v1/archive/TicketSelection?$select=ownedBy/firstName,person/personExtra/y_rental/x_amount,contact/streetAddress/county,contact/LastCompletedTicket,sale/associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

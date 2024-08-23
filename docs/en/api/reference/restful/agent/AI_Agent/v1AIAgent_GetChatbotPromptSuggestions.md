@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "ipsum",
-  "SoProtocol": "eos",
-  "CurrentId": 320
+  "IsoLangCode": "autem",
+  "SoProtocol": "dicta",
+  "CurrentId": 204
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2000-05-09T04:22:25.49599+02:00",
-  "UserPrompt": "dignissimos",
-  "UserDisplayText": "est",
-  "BotResponse": "laudantium",
+  "Timestamp": "1997-11-18T13:28:21.3667801+01:00",
+  "UserPrompt": "consectetur",
+  "UserDisplayText": "natus",
+  "BotResponse": "soluta",
   "BotActions": {
-    "BotActions1": "quo",
-    "BotActions2": "voluptates"
+    "BotActions1": "voluptatem",
+    "BotActions2": "quae"
   },
   "Attachments": [
-    "corporis",
-    "iste"
+    "itaque",
+    "ratione"
   ]
 }
 ```

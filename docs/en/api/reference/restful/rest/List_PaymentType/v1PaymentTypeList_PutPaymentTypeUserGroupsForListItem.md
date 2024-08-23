@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Sawayn-Daniel",
-    "ToolTip": "Et beatae enim temporibus.",
-    "Deleted": true,
-    "Rank": 839,
-    "Type": "autem",
-    "ColorBlock": 922,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2000-10-30T04:22:36.0028417+01:00",
+    "Id": 678,
+    "Name": "Veum LLC",
+    "ToolTip": "Animi provident rerum occaecati eum.",
+    "Deleted": false,
+    "Rank": 590,
+    "Type": "omnis",
+    "ColorBlock": 655,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2001-09-13T13:28:32.9134667+02:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Buckridge, Klein and Block",
-        "ToolTip": "Fugit minima et commodi omnis.",
-        "Deleted": true,
-        "Rank": 349,
-        "Type": "non",
-        "ColorBlock": 753,
-        "IconHint": "ut",
+        "Id": 532,
+        "Name": "Price, Beahan and West",
+        "ToolTip": "Labore sed delectus vel consequuntur deserunt.",
+        "Deleted": false,
+        "Rank": 352,
+        "Type": "iusto",
+        "ColorBlock": 945,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2023-05-07T04:22:36.0028417+02:00",
+        "LastChanged": "2016-01-01T13:28:32.9134667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "enim",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Laisha Gerhold"
+        "FullName": "Vivienne Stoltenberg"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ab",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Sadie Bradtke"
+    "FullName": "Dave Marquardt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Glover, Klocko and Hermann",
-    "ToolTip": "Nemo repellendus.",
+    "Id": 179,
+    "Name": "Rogahn, Torphy and Weimann",
+    "ToolTip": "Doloremque et culpa dignissimos velit earum unde illo.",
     "Deleted": false,
-    "Rank": 472,
-    "Type": "consequatur",
-    "ColorBlock": 285,
-    "IconHint": "iste",
+    "Rank": 765,
+    "Type": "quaerat",
+    "ColorBlock": 770,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2007-05-05T04:22:36.0028417+02:00",
+    "LastChanged": "1999-05-25T13:28:32.9134667+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Cruickshank, Keebler and Heaney",
-        "ToolTip": "Corporis dolorem similique dolor eos ex ab.",
-        "Deleted": true,
-        "Rank": 595,
-        "Type": "odit",
-        "ColorBlock": 452,
-        "IconHint": "numquam",
+        "Id": 304,
+        "Name": "Lebsack, Crist and Veum",
+        "ToolTip": "Ut eligendi pariatur distinctio.",
+        "Deleted": false,
+        "Rank": 675,
+        "Type": "quibusdam",
+        "ColorBlock": 225,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2012-04-04T04:22:36.0028417+02:00",
+        "LastChanged": "2016-01-27T13:28:32.9134667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "velit",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Teresa Waelchi",
+        "FullName": "Sonya Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Prof. Leslie Jose Hayes Sr.",
+    "FullName": "Mckenna Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 996
       }
     }
   }

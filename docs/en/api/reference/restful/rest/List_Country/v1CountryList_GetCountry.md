@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 252,
-  "Name": "Schmidt, Fahey and White",
-  "CurrencyId": 529,
-  "EnglishName": "Kohler, Pfeffer and Zemlak",
+  "CountryId": 980,
+  "Name": "O'Conner, Reichel and Ledner",
+  "CurrencyId": 143,
+  "EnglishName": "Rodriguez-Blanda",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enhanced content-based task-force",
-  "OrgNrText": "1410482",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "fuga",
-  "ZipPrefix": "eius",
-  "DomainName": "Shanahan, Rippin and Volkman",
-  "AddressLayoutId": 98,
-  "DomesticAddressLayoutId": 408,
-  "ForeignAddressLayoutId": 541,
-  "Rank": 525,
-  "Tooltip": "doloremque",
-  "Deleted": true,
+  "ImageDescription": "Fundamental uniform software",
+  "OrgNrText": "509720",
+  "InterAreaPrefix": "incidunt",
+  "DialInPrefix": "magni",
+  "ZipPrefix": "molestiae",
+  "DomainName": "Lind Group",
+  "AddressLayoutId": 392,
+  "DomesticAddressLayoutId": 852,
+  "ForeignAddressLayoutId": 44,
+  "Rank": 812,
+  "Tooltip": "sint",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 666
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Altenwerth, Ratke and Bruen",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "UdListDefinitionId": 274,
-  "Rank": 120,
+  "Id": 791,
+  "Name": "Crona Group",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "UdListDefinitionId": 982,
+  "Rank": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

@@ -3,9 +3,9 @@ uid: QuoteLineShadowSelectionCombinedV2
 title: QuoteLineShadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: QuoteLineShadowSelectionCombinedV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteLineShadowSelectionCombinedV2"
@@ -758,7 +758,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=description,UnitListPriceSubscriptionQuantity,alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/hasGuide,alternative/version/quote/sale/person/personMobilePhone/formattedNumber
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/version/quote/sale/hasGuide,alternative/version/quote/sale/person/contactId,alternative/version/quote/sale/person/personHasInterests,alternative/version/quote/sale/person/email/emailDescription,alternative/version/quote/sale/contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

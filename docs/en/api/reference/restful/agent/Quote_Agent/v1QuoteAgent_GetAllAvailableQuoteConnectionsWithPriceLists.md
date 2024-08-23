@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 876,
-    "ERPName": "Waters, Reynolds and Abbott",
-    "DisplayName": "Nolan-Connelly",
-    "DisplayDescription": "Assimilated fresh-thinking time-frame",
-    "Rank": 736,
-    "ConnectorName": "Beatty Inc and Sons",
-    "ErpConnectionId": 759,
-    "ExtraData": "quasi",
-    "IsAvailable": false,
+    "QuoteConnectionId": 480,
+    "ERPName": "Denesik, Price and Christiansen",
+    "DisplayName": "Schneider, Ullrich and Morar",
+    "DisplayDescription": "Team-oriented bifurcated internet solution",
+    "Rank": 972,
+    "ConnectorName": "Collier Group",
+    "ErpConnectionId": 45,
+    "ExtraData": "labore",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 506,
-        "ERPPriceListKey": "consequuntur",
-        "QuoteConnectionId": 815,
-        "Name": "Sawayn-Sanford",
-        "Description": "Customizable reciprocal productivity",
-        "Currency": "nostrum",
-        "CurrencyName": "Murazik-Schuster",
-        "ValidFrom": "2005-02-21T04:22:27.4091176+01:00",
-        "ValidTo": "2008-11-10T04:22:27.4091176+01:00",
-        "IsActive": false,
+        "PriceListId": 669,
+        "ERPPriceListKey": "qui",
+        "QuoteConnectionId": 864,
+        "Name": "Goyette-Kertzmann",
+        "Description": "Switchable assymetric access",
+        "Currency": "harum",
+        "CurrencyName": "Tillman LLC",
+        "ValidFrom": "2014-06-15T13:28:23.5542604+02:00",
+        "ValidTo": "2007-12-30T13:28:23.5542604+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -125,21 +125,21 @@ Content-Type: application/json; charset=utf-8
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      773,
-      300
+      711,
+      509
     ],
     "AssociateAccessIds": [
-      649,
-      351
+      519,
+      372
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 146
       }
     }
   }

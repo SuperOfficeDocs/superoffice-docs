@@ -2,10 +2,10 @@
 uid: emailagent-getemailfromdocumentidwithoutattachmentstream
 title: EMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream event method
 description: Scripting events called on the GetEMailFromDocumentIdWithoutAttachmentStream method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream
 

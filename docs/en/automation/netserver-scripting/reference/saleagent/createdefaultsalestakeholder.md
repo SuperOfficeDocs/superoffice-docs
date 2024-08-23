@@ -2,10 +2,10 @@
 uid: saleagent-createdefaultsalestakeholder
 title: SaleAgent.CreateDefaultSaleStakeholder event method
 description: Scripting events called on the CreateDefaultSaleStakeholder method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.CreateDefaultSaleStakeholder
 

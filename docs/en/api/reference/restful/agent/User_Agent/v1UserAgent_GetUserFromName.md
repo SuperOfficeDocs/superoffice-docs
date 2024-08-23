@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Carroll-Lebsack"
+  "UserName": "Beer, Leffler and Nienow"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 572,
-  "Name": "Beier, Casper and Harris",
-  "Rank": 476,
-  "Tooltip": "non",
+  "AssociateId": 739,
+  "Name": "Johns, Wolf and Lubowitz",
+  "Rank": 688,
+  "Tooltip": "veniam",
   "LicenseOwners": [
     {
-      "Name": "Rippin, Rau and Considine",
-      "Description": "Robust executive algorithm",
+      "Name": "Langworth LLC",
+      "Description": "Customizable zero tolerance system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     },
     {
-      "Name": "Rippin, Rau and Considine",
-      "Description": "Robust executive algorithm",
+      "Name": "Langworth LLC",
+      "Description": "Customizable zero tolerance system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "natus",
-      "Tooltip": "velit",
-      "Id": 479,
-      "Rank": 342,
+      "Value": "sunt",
+      "Tooltip": "asperiores",
+      "Id": 56,
+      "Rank": 175,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldLength": 806
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2002-06-15T04:22:28.1006289+02:00",
-  "Lastlogout": "2005-12-01T04:22:28.1006289+01:00",
-  "EjUserId": 644,
-  "RequestSignature": "nam",
+  "Lastlogin": "2005-02-20T13:28:24.1791219+01:00",
+  "Lastlogout": "2020-01-16T13:28:24.1791219+01:00",
+  "EjUserId": 741,
+  "RequestSignature": "aliquid",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "sed",
+      "Value": "dolor",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldLength": 1002
         }
       }
     },
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "sed",
+      "Value": "dolor",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldLength": 1002
         }
       }
     }
   ],
-  "UserName": "Abshire Inc and Sons",
+  "UserName": "Kuvalis, Kuhn and Quitzon",
   "TicketCategories": [
     {
-      "Id": 194,
-      "Name": "Leannon, Von and Carter",
-      "ToolTip": "Explicabo rerum maxime dolorem deserunt velit beatae eveniet.",
+      "Id": 984,
+      "Name": "O'Keefe-Lind",
+      "ToolTip": "Omnis incidunt.",
       "Deleted": false,
-      "Rank": 655,
-      "Type": "eveniet",
+      "Rank": 511,
+      "Type": "delectus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vitae",
-      "ColorBlock": 616,
-      "ExtraInfo": "esse",
-      "StyleHint": "dolorem",
-      "FullName": "Tiara Jast",
+      "IconHint": "perspiciatis",
+      "ColorBlock": 780,
+      "ExtraInfo": "quasi",
+      "StyleHint": "nobis",
+      "FullName": "Ms. Candice Cassin Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 874
         }
       }
     }
   ],
-  "NickName": "Greenfelder LLC",
-  "WaitingForApproval": false,
+  "NickName": "Lebsack Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "impedit"
+    "CustomFields1": "aut",
+    "CustomFields2": "omnis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lubowitz-Considine",
-      "DisplayName": "Schamberger, Eichmann and Kub",
-      "Description": "Pre-emptive heuristic open system",
-      "ToolTip": "Nesciunt dolores sed voluptas mollitia.",
+      "Name": "Friesen-Schoen",
+      "DisplayName": "Grimes-Hansen",
+      "Description": "Re-contextualized multi-tasking instruction set",
+      "ToolTip": "Labore magnam.",
       "Actions": "Implicit",
-      "ActionData": "nesciunt",
+      "ActionData": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 509
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldLength": 506
     }
   }
 }

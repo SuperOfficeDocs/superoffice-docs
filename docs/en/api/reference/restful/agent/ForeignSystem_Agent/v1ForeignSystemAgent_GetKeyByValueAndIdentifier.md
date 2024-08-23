@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Parker-Cummerata",
-  "DeviceName": "Bechtelar Inc and Sons",
-  "DeviceIdentifier": "provident",
-  "KeyName": "Dibbert LLC",
-  "KeyValue": "voluptatem",
-  "TableName": "Goodwin-Ernser"
+  "ApplicationName": "O'Connell-VonRueden",
+  "DeviceName": "Kling-Konopelski",
+  "DeviceIdentifier": "sequi",
+  "KeyName": "Rohan-Towne",
+  "KeyValue": "sunt",
+  "TableName": "Cummerata Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "id",
-  "Value": "ut",
-  "RecordId": 643,
-  "CreatedDate": "2003-09-12T04:22:26.8755249+02:00",
-  "UpdatedDate": "2002-11-30T04:22:26.8755249+01:00",
-  "UpdatedBy": "perferendis",
-  "CreatedBy": "quos",
-  "TableName": "Moore-Herman",
+  "Key": "ut",
+  "Value": "harum",
+  "RecordId": 288,
+  "CreatedDate": "2001-01-25T13:28:22.8510314+01:00",
+  "UpdatedDate": "2001-04-23T13:28:22.8510314+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "dolorem",
+  "TableName": "Langosh, Botsford and Collier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

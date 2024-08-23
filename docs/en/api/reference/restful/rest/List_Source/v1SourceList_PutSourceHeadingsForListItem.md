@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Mraz LLC",
-    "ToolTip": "Rem iure neque quaerat modi facere tempore quasi.",
-    "Deleted": true,
-    "Rank": 807,
-    "Type": "ullam",
-    "ColorBlock": 29,
-    "IconHint": "dolores",
+    "Id": 665,
+    "Name": "Schimmel-Williamson",
+    "ToolTip": "Consequatur inventore aspernatur maxime sint sint.",
+    "Deleted": false,
+    "Rank": 596,
+    "Type": "voluptas",
+    "ColorBlock": 478,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2010-08-23T04:22:36.2215887+02:00",
+    "LastChanged": "2002-06-05T13:28:33.1951017+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Id rem dolores molestiae ipsam.",
+        "Id": 690,
+        "Name": "Deckow-Kemmer",
+        "ToolTip": "Temporibus distinctio omnis.",
         "Deleted": false,
-        "Rank": 201,
-        "Type": "rerum",
-        "ColorBlock": 935,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2022-06-23T04:22:36.2215887+02:00",
+        "Rank": 487,
+        "Type": "corrupti",
+        "ColorBlock": 597,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2012-06-13T13:28:33.1951017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quis",
+        "ExtraInfo": "placeat",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Genevieve Stark"
+        "FullName": "Ellsworth Pfannerstill III"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Keyon Ullrich"
+    "ExtraInfo": "quisquam",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mafalda Homenick PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Ratke Group",
-    "ToolTip": "Similique voluptatem officia vitae.",
+    "Id": 306,
+    "Name": "Kohler LLC",
+    "ToolTip": "Tempora sint culpa.",
     "Deleted": false,
-    "Rank": 726,
-    "Type": "ea",
-    "ColorBlock": 392,
-    "IconHint": "possimus",
+    "Rank": 912,
+    "Type": "eligendi",
+    "ColorBlock": 886,
+    "IconHint": "id",
     "Selected": true,
-    "LastChanged": "2000-10-22T04:22:36.2215887+02:00",
+    "LastChanged": "2002-11-02T13:28:33.1951017+01:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Blick, Beer and Ratke",
-        "ToolTip": "Cum et quaerat provident totam.",
+        "Id": 814,
+        "Name": "Koch-Oberbrunner",
+        "ToolTip": "Totam beatae qui inventore reiciendis laudantium corporis.",
         "Deleted": false,
-        "Rank": 30,
-        "Type": "velit",
-        "ColorBlock": 178,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2023-01-19T04:22:36.2215887+01:00",
+        "Rank": 248,
+        "Type": "aut",
+        "ColorBlock": 424,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2011-09-06T13:28:33.1951017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Leanne Hills",
+        "ExtraInfo": "et",
+        "StyleHint": "praesentium",
+        "Hidden": false,
+        "FullName": "Jameson Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 843
+            "FieldLength": 682
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "illo",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Vivien Feest",
+    "FullName": "Dr. Dedric Robyn Conn Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

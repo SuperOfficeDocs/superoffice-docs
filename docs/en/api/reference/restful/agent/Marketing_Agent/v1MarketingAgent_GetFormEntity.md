@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=494
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=786
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 409,
-  "FormKey": "dolor",
-  "Name": "Haag-Keeling",
-  "Description": "Organic multi-tasking policy",
-  "Config": "laborum",
-  "FolderId": 939,
-  "ScriptId": 587,
-  "ResponseShipmentId": 564,
+  "FormId": 974,
+  "FormKey": "dolores",
+  "Name": "Emmerich-Bernhard",
+  "Description": "Reduced incremental flexibility",
+  "Config": "quod",
+  "FolderId": 573,
+  "ScriptId": 319,
+  "ResponseShipmentId": 701,
   "Active": false,
-  "Expires": "2018-01-13T04:22:27.0653754+01:00",
-  "MaxSubmits": 469,
+  "Expires": "1997-08-11T13:28:23.038756+02:00",
+  "MaxSubmits": 897,
   "Type": "Normal",
-  "Recipe": "nihil",
-  "GroupId": 103,
+  "Recipe": "culpa",
+  "GroupId": 559,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-05-25T04:22:27.0653754+02:00",
-  "RegisteredAssociateId": 389,
-  "Updated": "2003-10-31T04:22:27.0653754+01:00",
-  "UpdatedAssociateId": 545,
-  "UpdatedCount": 913,
+  "Registered": "2020-11-04T13:28:23.038756+01:00",
+  "RegisteredAssociateId": 761,
+  "Updated": "1999-08-12T13:28:23.038756+02:00",
+  "UpdatedAssociateId": 992,
+  "UpdatedCount": 85,
   "EmailFlows": [
-    76,
-    94
+    445,
+    531
   ],
-  "FolderName": "Farrell Inc and Sons",
+  "FolderName": "Dach-Koepp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 264
     }
   }
 }

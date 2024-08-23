@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Friesen, Jast and Carroll",
-  "GroupId": 431
+  "UdListDefinitionName": "Thiel, Goodwin and Hane",
+  "GroupId": 51
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Johnston LLC",
-    "ToolTip": "Sed reprehenderit omnis inventore explicabo quia rerum magni.",
-    "Deleted": true,
-    "Rank": 670,
-    "Type": "sit",
-    "ColorBlock": 44,
-    "IconHint": "omnis",
+    "Id": 146,
+    "Name": "Lemke LLC",
+    "ToolTip": "Cupiditate deleniti dolor.",
+    "Deleted": false,
+    "Rank": 617,
+    "Type": "ducimus",
+    "ColorBlock": 766,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2017-07-17T04:22:26.969259+02:00",
+    "LastChanged": "2009-03-18T13:28:22.9449983+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Howe Inc and Sons",
-        "ToolTip": "Laudantium in ducimus rem.",
+        "Id": 423,
+        "Name": "Buckridge Inc and Sons",
+        "ToolTip": "Molestiae rem.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "quasi",
-        "ColorBlock": 145,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "1999-01-05T04:22:26.969259+01:00",
+        "Rank": 816,
+        "Type": "est",
+        "ColorBlock": 650,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "2005-12-16T13:28:22.9449983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Mr. Shirley Auer",
+        "ExtraInfo": "qui",
+        "StyleHint": "unde",
+        "Hidden": false,
+        "FullName": "Jailyn Brakus IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldType": "System.String",
+            "FieldLength": 197
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "dolor",
+    "ExtraInfo": "quis",
+    "StyleHint": "exercitationem",
     "Hidden": true,
-    "FullName": "Ms. Jadyn Curtis Jast",
+    "FullName": "Laurine Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 85
       }
     }
   }

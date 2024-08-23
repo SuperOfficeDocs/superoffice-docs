@@ -2,10 +2,10 @@
 uid: projectagent-deleteprojectentity
 title: ProjectAgent.DeleteProjectEntity event method
 description: Scripting events called on the DeleteProjectEntity method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.DeleteProjectEntity
 

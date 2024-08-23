@@ -3,9 +3,9 @@ uid: salestage
 title: salestage
 keywords: mdoprovider mdo provider salestage
 description: Provider for selecting a stage. AdditionalInfo is used as criteria to filter stages based on SaleType.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "salestage" MDO List

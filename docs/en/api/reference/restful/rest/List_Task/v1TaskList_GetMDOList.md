@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=rerum
+GET /api/v1/List/Task/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Hammes LLC",
-    "ToolTip": "Ea explicabo modi et deleniti.",
-    "Deleted": false,
-    "Rank": 95,
-    "Type": "non",
+    "Id": 461,
+    "Name": "Fahey LLC",
+    "ToolTip": "Eveniet veritatis quo assumenda ipsum et dolor.",
+    "Deleted": true,
+    "Rank": 182,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Walsh-Ebert",
-        "ToolTip": "Odit molestias enim et repellat esse assumenda.",
-        "Deleted": false,
-        "Rank": 309,
-        "Type": "aspernatur",
+        "Id": 427,
+        "Name": "Nader, Gibson and Towne",
+        "ToolTip": "Quia debitis consequatur et fuga voluptatibus.",
+        "Deleted": true,
+        "Rank": 726,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 441,
-        "ExtraInfo": "sint",
-        "StyleHint": "quas",
-        "FullName": "Mr. Lemuel Valentine Cremin",
+        "IconHint": "ut",
+        "ColorBlock": 402,
+        "ExtraInfo": "natus",
+        "StyleHint": "nesciunt",
+        "FullName": "Beatrice Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 587
+            "FieldLength": 831
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 929,
-    "ExtraInfo": "officiis",
-    "StyleHint": "doloremque",
-    "FullName": "Edna Cummerata",
+    "IconHint": "nihil",
+    "ColorBlock": 580,
+    "ExtraInfo": "ea",
+    "StyleHint": "modi",
+    "FullName": "Frederic Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

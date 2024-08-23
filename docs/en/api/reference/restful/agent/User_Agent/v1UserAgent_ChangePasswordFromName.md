@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Ferry Inc and Sons",
-  "OldPassword": "perspiciatis",
-  "NewPassword": "et"
+  "AssociateName": "Schiller Group",
+  "OldPassword": "id",
+  "NewPassword": "neque"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

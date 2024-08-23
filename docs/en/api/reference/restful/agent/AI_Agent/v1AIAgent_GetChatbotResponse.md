@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quas",
-  "IsoLangCode": "eos",
-  "UserPrompt": "tempora",
-  "DisplayValue": "et",
+  "ChatId": "temporibus",
+  "IsoLangCode": "sapiente",
+  "UserPrompt": "doloribus",
+  "DisplayValue": "nesciunt",
   "PreviousTurns": [
     {
-      "Timestamp": "2006-04-10T04:22:25.49599+02:00",
-      "UserPrompt": "deserunt",
-      "UserDisplayText": "voluptate",
-      "BotResponse": "exercitationem",
+      "Timestamp": "2001-09-28T13:28:21.3667801+02:00",
+      "UserPrompt": "consectetur",
+      "UserDisplayText": "impedit",
+      "BotResponse": "quidem",
       "BotActions": {
-        "BotActions1": "error",
-        "BotActions2": "totam"
+        "BotActions1": "inventore",
+        "BotActions2": "eos"
       },
       "Attachments": [
-        "rem",
-        "dolore"
+        "id",
+        "amet"
       ]
     },
     {
-      "Timestamp": "2006-04-10T04:22:25.49599+02:00",
-      "UserPrompt": "deserunt",
-      "UserDisplayText": "voluptate",
-      "BotResponse": "exercitationem",
+      "Timestamp": "2001-09-28T13:28:21.3667801+02:00",
+      "UserPrompt": "consectetur",
+      "UserDisplayText": "impedit",
+      "BotResponse": "quidem",
       "BotActions": {
-        "BotActions1": "error",
-        "BotActions2": "totam"
+        "BotActions1": "inventore",
+        "BotActions2": "eos"
       },
       "Attachments": [
-        "rem",
-        "dolore"
+        "id",
+        "amet"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2022-01-30T04:22:25.49599+01:00",
-  "UserPrompt": "aperiam",
-  "UserDisplayText": "corporis",
-  "BotResponse": "molestiae",
+  "Timestamp": "2004-09-09T13:28:21.3667801+02:00",
+  "UserPrompt": "in",
+  "UserDisplayText": "repudiandae",
+  "BotResponse": "voluptates",
   "BotActions": {
-    "BotActions1": "et",
-    "BotActions2": "eligendi"
+    "BotActions1": "vitae",
+    "BotActions2": "temporibus"
   },
   "Attachments": [
-    "dolore",
-    "assumenda"
+    "aut",
+    "voluptatem"
   ]
 }
 ```

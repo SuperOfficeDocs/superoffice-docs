@@ -69,6 +69,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,7 +80,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +90,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 792,
-  "Name": "Heathcote LLC",
-  "Rank": 410,
-  "Tooltip": "amet",
-  "Icon": "vel",
-  "DefaultTicketStatus": 988,
+  "TicketTypeId": 16,
+  "Name": "Mertz, Gutmann and Mitchell",
+  "Rank": 832,
+  "Tooltip": "corporis",
+  "Icon": "rem",
+  "DefaultTicketStatus": 754,
   "TicketStatuses": [
-    812,
-    301
+    1001,
+    54
   ],
-  "DefaultTicketPriority": 245,
+  "DefaultTicketPriority": 186,
   "TicketPriorities": [
-    543,
-    7
+    813,
+    849
   ],
-  "ReplyTemplate": 313,
+  "ReplyTemplate": 87,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    945,
-    65
+    95,
+    976
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

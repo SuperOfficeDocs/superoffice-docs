@@ -2,10 +2,10 @@
 uid: crmscriptagent-script-events
 title: CRMScriptAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # CRMScriptAgent method listing
@@ -28,8 +28,10 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICRMScriptAgent
 * [GetCRMScriptEntity](getcrmscriptentity.md)
 * [GetTriggerScriptByUniqueId](gettriggerscriptbyuniqueid.md)
 * [GetTriggerScriptEntity](gettriggerscriptentity.md)
+* [ResolveIncludes](resolveincludes.md)
 * [SaveCRMScriptByUniqueIdentifier](savecrmscriptbyuniqueidentifier.md)
 * [SaveCRMScriptEntity](savecrmscriptentity.md)
+* [SaveCRMScriptEntityWithoutCompile](savecrmscriptentitywithoutcompile.md)
 * [SaveTriggerScriptByUniqueId](savetriggerscriptbyuniqueid.md)
 * [SaveTriggerScriptEntity](savetriggerscriptentity.md)
 * [ValidateScript](validatescript.md)

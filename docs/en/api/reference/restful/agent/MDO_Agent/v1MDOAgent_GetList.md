@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin, Frami and Price",
-  "ForceFlatList": true,
-  "AdditionalInfo": "sit",
+  "Name": "Graham-Ritchie",
+  "ForceFlatList": false,
+  "AdditionalInfo": "cupiditate",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Emard Inc and Sons",
-    "ToolTip": "Labore vero cupiditate.",
-    "Deleted": true,
-    "Rank": 921,
-    "Type": "in",
+    "Id": 194,
+    "Name": "Sanford-Hyatt",
+    "ToolTip": "Dolor quo accusantium officiis.",
+    "Deleted": false,
+    "Rank": 464,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Wuckert, Will and Kris",
-        "ToolTip": "Sint similique cumque amet qui saepe voluptatum blanditiis.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "qui",
+        "Id": 187,
+        "Name": "Baumbach, Baumbach and Green",
+        "ToolTip": "Ut architecto repellendus repellat.",
+        "Deleted": false,
+        "Rank": 444,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 965,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "velit",
-        "FullName": "Maverick Dickinson",
+        "IconHint": "consequatur",
+        "ColorBlock": 999,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "labore",
+        "FullName": "Lea Wiegand II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldType": "System.String",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 785,
-    "ExtraInfo": "id",
-    "StyleHint": "cupiditate",
-    "FullName": "Ressie Davis",
+    "IconHint": "amet",
+    "ColorBlock": 536,
+    "ExtraInfo": "minima",
+    "StyleHint": "placeat",
+    "FullName": "Robin Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

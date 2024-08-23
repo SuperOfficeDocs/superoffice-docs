@@ -2,10 +2,10 @@
 uid: foreignsystemagent-adddevicebyidentifier
 title: ForeignSystemAgent.AddDeviceByIdentifier event method
 description: Scripting events called on the AddDeviceByIdentifier method on the ForeignSystemAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ForeignSystemAgent.AddDeviceByIdentifier
 

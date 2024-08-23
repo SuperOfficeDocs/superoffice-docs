@@ -3,9 +3,9 @@ uid: TicketActivatedNotification
 title: TicketActivatedNotification
 description: 
 keywords: TicketActivatedNotification archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketActivatedNotification"
@@ -35,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketActivatedNotification?$select=updateType,associateId,notifyDateTime
+GET /api/v1/archive/TicketActivatedNotification?$select=associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

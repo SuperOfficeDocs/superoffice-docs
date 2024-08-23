@@ -3,9 +3,9 @@ uid: FindChatSession
 title: FindChatSession
 description: ChatSession provider for Find
 keywords: FindChatSession archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindChatSession"
@@ -481,7 +481,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=associate/ejDisplayName,person/birthYear,person/restrictionAddress/wgs84latitude,person/correspondingAssociate/portraitThumbnail,contact/email/emailId
+GET /api/v1/archive/FindChatSession?$select=associate/contactFullName,person/personPager/formattedNumber,person/correspondingAssociate/role,person/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

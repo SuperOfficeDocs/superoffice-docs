@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Bednar-Block",
-    "ToolTip": "Quidem facere unde voluptatem.",
-    "Deleted": false,
-    "Rank": 628,
-    "Type": "sed",
-    "ColorBlock": 366,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2004-02-09T04:22:35.9559668+01:00",
+    "Id": 523,
+    "Name": "Balistreri, Treutel and Jones",
+    "ToolTip": "Odit inventore enim ut aut odit asperiores.",
+    "Deleted": true,
+    "Rank": 749,
+    "Type": "aut",
+    "ColorBlock": 317,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2016-05-26T13:28:32.8509815+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Schoen-Hickle",
-        "ToolTip": "Distinctio officiis ex suscipit enim aut omnis.",
-        "Deleted": true,
-        "Rank": 418,
-        "Type": "unde",
-        "ColorBlock": 860,
-        "IconHint": "aliquam",
+        "Id": 584,
+        "Name": "Will, Larkin and Cummerata",
+        "ToolTip": "Expedita voluptatum temporibus.",
+        "Deleted": false,
+        "Rank": 844,
+        "Type": "voluptatem",
+        "ColorBlock": 209,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2015-04-03T04:22:35.9559668+02:00",
+        "LastChanged": "2003-06-06T13:28:32.8509815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "fuga",
+        "ExtraInfo": "numquam",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Shanon Trantow",
+        "FullName": "Miss Zola Ledner III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 513
+            "FieldType": "System.Int32",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "ut",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jazmyne Carroll",
+    "FullName": "Davin Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 804
       }
     }
   }

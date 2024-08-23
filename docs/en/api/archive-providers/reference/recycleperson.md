@@ -3,9 +3,9 @@ uid: RecyclePerson
 title: RecyclePerson
 description: 
 keywords: RecyclePerson archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "RecyclePerson"
@@ -123,7 +123,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personUpdatedDate,isStakeholder
+GET /api/v1/archive/RecyclePerson?$select=personUpdatedDate,personUpdatedDate,isStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

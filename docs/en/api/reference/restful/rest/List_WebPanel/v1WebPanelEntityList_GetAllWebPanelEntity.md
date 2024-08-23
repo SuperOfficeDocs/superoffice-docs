@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 686,
-    "Name": "Beahan-Bartell",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "Rank": 884,
+    "WebPanelId": 845,
+    "Name": "Johnson-Friesen",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 925,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Hodkiewicz, Towne and DuBuque",
+    "ShowInStatusBar": true,
+    "WindowName": "Morissette Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "dolore",
-    "Icon": 850,
+    "ProgId": "eos",
+    "Icon": 906,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 28
       }
     }
   }

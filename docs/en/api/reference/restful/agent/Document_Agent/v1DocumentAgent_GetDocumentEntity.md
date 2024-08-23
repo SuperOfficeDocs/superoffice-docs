@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=176
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=817
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 833,
+  "DocumentId": 3,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "explicabo",
-  "Header": "occaecati",
-  "Name": "Ward, Berge and Schamberger",
-  "OurRef": "qui",
-  "YourRef": "repudiandae",
-  "CreatedDate": "2005-05-02T04:22:26.5616122+02:00",
-  "UpdatedDate": "2015-03-15T04:22:26.5616122+01:00",
-  "Description": "Optimized 6th generation customer loyalty",
+  "Attention": "aperiam",
+  "Header": "iusto",
+  "Name": "Mosciski Inc and Sons",
+  "OurRef": "animi",
+  "YourRef": "doloribus",
+  "CreatedDate": "2017-01-07T13:28:22.5229801+01:00",
+  "UpdatedDate": "2009-05-30T13:28:22.5229801+02:00",
+  "Description": "Synergistic systemic local area network",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-04-27T04:22:26.5616122+02:00",
-  "ExternalRef": "quisquam",
+  "Date": "2021-07-27T13:28:22.5229801+02:00",
+  "ExternalRef": "ipsam",
   "Completed": "Completed",
-  "ActiveLinks": 713,
+  "ActiveLinks": 388,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner, Feeney and Wisozk",
-      "Id": 657,
-      "Description": "Exclusive needs-based help-desk",
-      "ExtraInfo": "placeat",
-      "LinkId": 203,
+      "EntityName": "Rath Inc and Sons",
+      "Id": 831,
+      "Description": "Centralized explicit firmware",
+      "ExtraInfo": "distinctio",
+      "LinkId": 86,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 751,
-  "Snum": 536,
+  "SuggestedDocumentId": 833,
+  "Snum": 687,
   "UserDefinedFields": {
-    "SuperOffice:1": "Sienna Justus Murphy DDS",
-    "SuperOffice:2": "1435759377"
+    "SuperOffice:1": "Miss Quentin Anderson Huel",
+    "SuperOffice:2": "Mr. Gregorio Considine"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "a",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "rerum"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "nostrum"
   },
-  "PublishEventDate": "2017-10-16T04:22:26.5616122+02:00",
-  "PublishTo": "2009-06-28T04:22:26.5616122+02:00",
-  "PublishFrom": "2005-07-07T04:22:26.5616122+02:00",
+  "PublishEventDate": "2010-04-19T13:28:22.5229801+02:00",
+  "PublishTo": "2018-01-14T13:28:22.5229801+01:00",
+  "PublishFrom": "2003-12-10T13:28:22.5229801+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 768,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     },
     {
-      "VisibleId": 768,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   }
 }

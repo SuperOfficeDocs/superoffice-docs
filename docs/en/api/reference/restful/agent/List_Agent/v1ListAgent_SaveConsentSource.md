@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 240,
-  "Name": "Spinka-Kassulke",
-  "Tooltip": "dolores",
-  "Rank": 341,
-  "Key": "et",
-  "MailTemplateId": 764,
-  "Deleted": false,
+  "ConsentSourceId": 173,
+  "Name": "McCullough LLC",
+  "Tooltip": "molestiae",
+  "Rank": 555,
+  "Key": "ad",
+  "MailTemplateId": 702,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 453
     }
   }
 }

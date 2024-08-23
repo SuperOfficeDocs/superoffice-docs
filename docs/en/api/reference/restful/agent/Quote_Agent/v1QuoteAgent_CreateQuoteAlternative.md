@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 984,
-  "QuoteAlternativeName": "Shields-Reilly",
-  "QuoteAlternativeDescription": "Extended holistic policy"
+  "QuoteVersionId": 226,
+  "QuoteAlternativeName": "Deckow, Stroman and Feest",
+  "QuoteAlternativeDescription": "Pre-emptive actuating superstructure"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 399,
-  "ERPQuoteAlternativeKey": "sunt",
-  "QuoteVersionId": 450,
-  "Name": "Harber-Fadel",
-  "Description": "Intuitive mission-critical orchestration",
+  "QuoteAlternativeId": 658,
+  "ERPQuoteAlternativeKey": "autem",
+  "QuoteVersionId": 214,
+  "Name": "Kautzer-Cummings",
+  "Description": "Phased national ability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11451.636,
-  "ERPDiscountAmount": 28535.07,
-  "DiscountPercent": 5315.264,
-  "DiscountAmount": 9470.948,
+  "ERPDiscountPercent": 2851.94,
+  "ERPDiscountAmount": 9151.2799999999988,
+  "DiscountPercent": 2090.378,
+  "DiscountAmount": 15134.086,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "laudantium",
-  "VAT": 14118.67,
-  "EarningPercent": 17904.541999999998,
-  "EarningAmount": 20001.188,
-  "SubTotal": 22837.458,
-  "TotalPrice": 26570.052,
-  "ExtraField1": "modi",
-  "ExtraField2": "et",
-  "ExtraField3": "eaque",
-  "ExtraField4": "nihil",
-  "ExtraField5": "minus",
+  "VATInfo": "et",
+  "VAT": 29870.154,
+  "EarningPercent": 29146.2,
+  "EarningAmount": 3115.196,
+  "SubTotal": 28604.018,
+  "TotalPrice": 16459.768,
+  "ExtraField1": "esse",
+  "ExtraField2": "in",
+  "ExtraField3": "laudantium",
+  "ExtraField4": "non",
+  "ExtraField5": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 632
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 691,
-    "Name": "Boyle Inc and Sons",
-    "Tooltip": "ex",
-    "Rank": 605,
-    "Rate": 4550.568,
-    "Units": 23345.165999999997,
-    "Deleted": false,
+    "CurrencyId": 361,
+    "Name": "Daugherty-Reichel",
+    "Tooltip": "aliquid",
+    "Rank": 404,
+    "Rate": 13096.985999999999,
+    "Units": 711.418,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 231
       }
     }
   }

@@ -3,9 +3,9 @@ uid: udeffieldtype
 title: udeffieldtype
 keywords: mdoprovider mdo provider udeffieldtype
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "udeffieldtype" MDO List

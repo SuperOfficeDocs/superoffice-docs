@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 482,
-  "Name": "Metz, Hackett and Willms",
+  "ScreenChooserId": 997,
+  "Name": "Koepp LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nemo",
-  "Source": "sint",
-  "Registered": "2023-08-22T04:22:26.3090583+02:00",
-  "RegisteredAssociateId": 520,
-  "Updated": "2001-01-08T04:22:26.3090583+01:00",
-  "UpdatedAssociateId": 893,
+  "UniqueIdentifier": "rerum",
+  "Source": "atque",
+  "Registered": "2011-10-18T13:28:22.3511449+02:00",
+  "RegisteredAssociateId": 825,
+  "Updated": "2001-04-18T13:28:22.3511449+02:00",
+  "UpdatedAssociateId": 626,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 136
     }
   }
 }

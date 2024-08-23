@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=cumque
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consequatur
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 May 1997 04:22:35 G5T
+Last-Modified: Mon, 22 Jan 2001 13:28:31 G1T
 
 {
-  "Key": "eius",
-  "Value": "et",
-  "RecordId": 118,
-  "CreatedDate": "2010-08-04T04:22:35.0010854+02:00",
-  "UpdatedDate": "1997-05-13T04:22:35.0010854+02:00",
+  "Key": "in",
+  "Value": "numquam",
+  "RecordId": 949,
+  "CreatedDate": "2019-02-01T13:28:31.6948645+01:00",
+  "UpdatedDate": "2001-01-22T13:28:31.6948645+01:00",
   "UpdatedBy": "sint",
-  "CreatedBy": "eveniet",
-  "TableName": "Koch, Lemke and VonRueden",
+  "CreatedBy": "neque",
+  "TableName": "Oberbrunner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 188,
-  "Name": "Mueller Group",
-  "CreatedDate": "2000-04-14T04:22:34.9854602+02:00",
-  "UpdatedDate": "2010-03-20T04:22:34.9854602+01:00",
+  "ForeignAppId": 643,
+  "Name": "Roberts-Roob",
+  "CreatedDate": "2008-03-20T13:28:31.6792414+01:00",
+  "UpdatedDate": "1997-09-25T13:28:31.6792414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 634,
-      "Name": "Donnelly LLC",
-      "CreatedDate": "2003-03-05T04:22:34.9854602+01:00",
-      "UpdatedDate": "2015-01-30T04:22:34.9854602+01:00",
-      "AssociateFullName": "Zachariah Christop Keeling I",
-      "CreatedBy": "enim",
-      "UpdatedBy": "doloremque",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 774,
+      "ForeignDeviceId": 561,
+      "Name": "Mann LLC",
+      "CreatedDate": "2003-10-13T13:28:31.6792414+02:00",
+      "UpdatedDate": "2016-06-10T13:28:31.6792414+02:00",
+      "AssociateFullName": "Quinten Kory Cormier III",
+      "CreatedBy": "delectus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "nesciunt",
+      "ForeignAppId": 168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 570
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 207
     }
   }
 }

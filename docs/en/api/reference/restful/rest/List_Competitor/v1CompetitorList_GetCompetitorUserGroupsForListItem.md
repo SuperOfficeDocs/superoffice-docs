@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Osinski-Walker",
-    "ToolTip": "Aut eum dicta autem voluptate voluptatibus omnis dolor.",
-    "Deleted": false,
-    "Rank": 375,
-    "Type": "vitae",
-    "ColorBlock": 483,
-    "IconHint": "numquam",
+    "Id": 606,
+    "Name": "Gerlach LLC",
+    "ToolTip": "Et est consequatur et omnis error delectus repellendus.",
+    "Deleted": true,
+    "Rank": 461,
+    "Type": "sapiente",
+    "ColorBlock": 264,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2005-03-06T04:22:35.830971+01:00",
+    "LastChanged": "2015-09-25T13:28:32.7103906+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Treutel Group",
-        "ToolTip": "Enim exercitationem voluptas qui.",
+        "Id": 648,
+        "Name": "Kuhlman Inc and Sons",
+        "ToolTip": "Ratione necessitatibus ullam doloribus quis autem ab voluptates.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "sit",
-        "ColorBlock": 593,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2008-10-29T04:22:35.830971+01:00",
+        "Rank": 890,
+        "Type": "accusamus",
+        "ColorBlock": 665,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2002-06-04T13:28:32.7103906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "sit",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Miss Billie Arlo Schmitt",
+        "FullName": "Asha Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Idell Effertz",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Oran Quitzon V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 528
       }
     }
   }

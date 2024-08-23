@@ -114,6 +114,8 @@ TicketTypeEntity  updated.
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -124,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "reprehenderit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "reprehenderit",
     "value": {}
   }
 ]
@@ -148,38 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 483,
-  "Name": "Block-Hayes",
-  "Rank": 465,
-  "Tooltip": "est",
-  "Icon": "earum",
-  "DefaultTicketStatus": 455,
+  "TicketTypeId": 147,
+  "Name": "Simonis-Schroeder",
+  "Rank": 259,
+  "Tooltip": "veniam",
+  "Icon": "ut",
+  "DefaultTicketStatus": 847,
   "TicketStatuses": [
-    382,
-    943
+    970,
+    510
   ],
-  "DefaultTicketPriority": 732,
+  "DefaultTicketPriority": 344,
   "TicketPriorities": [
-    243,
-    273
+    73,
+    417
   ],
-  "ReplyTemplate": 907,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "ReplyTemplate": 407,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    286,
-    323
+    273,
+    816
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   },
   "_Links": {

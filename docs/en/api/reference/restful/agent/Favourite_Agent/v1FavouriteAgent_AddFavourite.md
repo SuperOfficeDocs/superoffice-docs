@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummings LLC",
-  "RecordId": 822,
-  "AssociateId": 913,
-  "ExtraInfo": "libero"
+  "TableName": "D'Amore, Fadel and Krajcik",
+  "RecordId": 786,
+  "AssociateId": 24,
+  "ExtraInfo": "saepe"
 }
 ```
 

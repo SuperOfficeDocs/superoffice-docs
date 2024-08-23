@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Bartoletti, Schoen and Ortiz",
-    "ToolTip": "Dolorum et impedit.",
-    "Deleted": false,
-    "Rank": 28,
-    "Type": "tempora",
-    "ColorBlock": 932,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2013-07-03T04:22:36.1122165+02:00",
+    "Id": 796,
+    "Name": "Hodkiewicz LLC",
+    "ToolTip": "Eius optio laboriosam ex placeat.",
+    "Deleted": true,
+    "Rank": 353,
+    "Type": "delectus",
+    "ColorBlock": 17,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "1998-10-11T13:28:33.0384399+02:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Tillman, McClure and Mitchell",
-        "ToolTip": "Et ut vel cumque.",
+        "Id": 377,
+        "Name": "Dach, Robel and Ritchie",
+        "ToolTip": "Omnis suscipit illo minus quae occaecati.",
         "Deleted": false,
-        "Rank": 576,
-        "Type": "beatae",
-        "ColorBlock": 367,
-        "IconHint": "tenetur",
+        "Rank": 532,
+        "Type": "repudiandae",
+        "ColorBlock": 234,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2003-11-08T04:22:36.1122165+01:00",
+        "LastChanged": "2000-06-13T13:28:33.0384399+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Ottilie Green"
+        "ExtraInfo": "pariatur",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Ara Emmerich"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Mr. Chauncey Alejandrin Kuhn II"
+    "ExtraInfo": "voluptate",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Avery Jaskolski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Johnston-Shields",
-    "ToolTip": "Ducimus quo.",
-    "Deleted": true,
-    "Rank": 201,
-    "Type": "possimus",
-    "ColorBlock": 173,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2007-02-07T04:22:36.1122165+01:00",
+    "Id": 911,
+    "Name": "Hilpert-Bruen",
+    "ToolTip": "Voluptate culpa vel.",
+    "Deleted": false,
+    "Rank": 377,
+    "Type": "voluptatem",
+    "ColorBlock": 219,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2019-11-21T13:28:33.0384399+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Littel, McCullough and Aufderhar",
-        "ToolTip": "Natus debitis alias iure.",
-        "Deleted": true,
-        "Rank": 260,
-        "Type": "omnis",
-        "ColorBlock": 460,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "1997-08-11T04:22:36.1122165+02:00",
+        "Id": 698,
+        "Name": "Haley LLC",
+        "ToolTip": "Inventore ipsam debitis qui dolorum consequatur molestiae id.",
+        "Deleted": false,
+        "Rank": 391,
+        "Type": "similique",
+        "ColorBlock": 9,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2016-04-16T13:28:33.0384399+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "autem",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Kelley Emard MD",
+        "FullName": "Mr. Priscilla Rozella Koch PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 719
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "at",
+    "ExtraInfo": "alias",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Mrs. Luther Norma Larkin MD",
+    "FullName": "Miss Sydni Johnston IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 275
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Hudson-Von",
-  "Tooltip": "provident",
+  "Id": 961,
+  "Name": "Hilpert Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 928,
-  "Rank": 346,
+  "UdListDefinitionId": 943,
+  "Rank": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

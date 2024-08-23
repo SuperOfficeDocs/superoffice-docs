@@ -2,10 +2,10 @@
 uid: marketingagent-renamemailingbymessageid
 title: MarketingAgent.RenameMailingByMessageId event method
 description: Scripting events called on the RenameMailingByMessageId method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.RenameMailingByMessageId
 

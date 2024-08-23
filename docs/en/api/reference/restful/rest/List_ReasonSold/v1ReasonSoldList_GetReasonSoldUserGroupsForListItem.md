@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Dietrich-Donnelly",
-    "ToolTip": "Quae est in nulla nulla.",
-    "Deleted": false,
-    "Rank": 767,
-    "Type": "recusandae",
-    "ColorBlock": 56,
-    "IconHint": "sunt",
+    "Id": 33,
+    "Name": "Yost LLC",
+    "ToolTip": "Voluptatum enim quidem eligendi alias.",
+    "Deleted": true,
+    "Rank": 76,
+    "Type": "veniam",
+    "ColorBlock": 682,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2021-07-22T04:22:36.1590905+02:00",
+    "LastChanged": "2011-10-09T13:28:33.1009254+02:00",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Hayes-Gerlach",
-        "ToolTip": "Ab reiciendis autem.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "ipsa",
-        "ColorBlock": 370,
-        "IconHint": "sed",
+        "Id": 47,
+        "Name": "Medhurst-Wiza",
+        "ToolTip": "Sit sed.",
+        "Deleted": false,
+        "Rank": 476,
+        "Type": "quis",
+        "ColorBlock": 409,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2004-04-18T04:22:36.1590905+02:00",
+        "LastChanged": "2021-12-26T13:28:33.1009254+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "architecto",
+        "ExtraInfo": "rerum",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Elenora Wisoky",
+        "FullName": "Zion Kuvalis PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldLength": 323
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "quasi",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Ms. Holden Orn",
+    "FullName": "Kaden Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 106
       }
     }
   }

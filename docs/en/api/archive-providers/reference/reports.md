@@ -3,9 +3,9 @@ uid: Reports
 title: Reports
 description: Archive provider for the list of reports
 keywords: Reports archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Reports"
@@ -34,7 +34,7 @@ Archive provider for the list of reports
 ## Sample
 
 ```http!
-GET /api/v1/archive/Reports?$select=reportTypeName,reportId,reportLayoutName
+GET /api/v1/archive/Reports?$select=reportId,reportLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

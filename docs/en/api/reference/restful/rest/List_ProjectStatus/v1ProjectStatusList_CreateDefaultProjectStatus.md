@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Stoltenberg-Reynolds",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "UdListDefinitionId": 627,
-  "Rank": 7,
+  "Id": 921,
+  "Name": "Littel LLC",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "UdListDefinitionId": 276,
+  "Rank": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

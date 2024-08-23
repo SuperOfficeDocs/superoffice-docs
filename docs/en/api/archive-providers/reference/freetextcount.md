@@ -3,9 +3,9 @@ uid: FreetextCount
 title: FreetextCount
 description: Archive provider for counts of freetext matches
 keywords: FreetextCount archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextCount"

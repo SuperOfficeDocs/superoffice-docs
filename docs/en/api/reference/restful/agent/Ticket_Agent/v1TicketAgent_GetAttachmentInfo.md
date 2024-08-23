@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 886
+  "TicketMessageEntityId": 793
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 887,
-    "Name": "Hegmann Group",
-    "ContentType": "facere",
-    "AttSize": 499,
+    "AttachmentId": 713,
+    "Name": "Denesik, McLaughlin and Boehm",
+    "ContentType": "quidem",
+    "AttSize": 795,
     "InlineImage": false,
-    "ContentId": "voluptatem",
-    "AuthKey": "nisi",
+    "ContentId": "adipisci",
+    "AuthKey": "aperiam",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 252
       }
     }
   }

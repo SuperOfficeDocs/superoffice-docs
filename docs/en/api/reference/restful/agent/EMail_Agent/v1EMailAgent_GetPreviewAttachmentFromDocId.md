@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 797,
-  "AttachmentId": "iure"
+  "DocId": 956,
+  "AttachmentId": "ipsa"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive needs-based benchmark",
-  "Filename": "est",
-  "Size": 360,
-  "Type": "molestias",
-  "Encoding": "cum",
-  "Id": "sapiente",
-  "Disposition": "quaerat",
-  "IsSafeFileExtension": false,
+  "Description": "Ameliorated multi-state methodology",
+  "Filename": "optio",
+  "Size": 338,
+  "Type": "qui",
+  "Encoding": "ullam",
+  "Id": "sed",
+  "Disposition": "nesciunt",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 913
     }
   }
 }

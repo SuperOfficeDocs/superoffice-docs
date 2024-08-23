@@ -2,10 +2,10 @@
 uid: quoteagent-createdefaultquotealternative
 title: QuoteAgent.CreateDefaultQuoteAlternative event method
 description: Scripting events called on the CreateDefaultQuoteAlternative method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.CreateDefaultQuoteAlternative
 

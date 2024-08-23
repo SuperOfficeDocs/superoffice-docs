@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=385
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=398
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -74,6 +74,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,38 +95,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 712,
-  "Name": "Ledner-Huel",
-  "Rank": 999,
-  "Tooltip": "id",
-  "Icon": "animi",
-  "DefaultTicketStatus": 538,
+  "TicketTypeId": 89,
+  "Name": "Mills, Hagenes and Botsford",
+  "Rank": 27,
+  "Tooltip": "deserunt",
+  "Icon": "ex",
+  "DefaultTicketStatus": 957,
   "TicketStatuses": [
-    31,
-    886
+    911,
+    304
   ],
-  "DefaultTicketPriority": 540,
+  "DefaultTicketPriority": 700,
   "TicketPriorities": [
-    336,
-    23
+    162,
+    266
   ],
-  "ReplyTemplate": 257,
+  "ReplyTemplate": 800,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    192,
-    185
+    173,
+    789
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 548
     }
   }
 }

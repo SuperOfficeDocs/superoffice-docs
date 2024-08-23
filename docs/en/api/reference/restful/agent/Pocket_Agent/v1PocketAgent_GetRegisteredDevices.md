@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 495
+  "AssociateId": 325
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Sawayn Group",
-    "DeviceIdentifier": "sapiente",
-    "PocketVersion": "eum",
-    "Language": "sapiente",
-    "PNSHandle": "consectetur",
+    "DeviceName": "Smitham, Connelly and Murazik",
+    "DeviceIdentifier": "dolore",
+    "PocketVersion": "voluptas",
+    "Language": "repellendus",
+    "PNSHandle": "sint",
     "Platform": "Apple",
-    "OSVersion": "qui",
-    "TimeZoneId": 770
+    "OSVersion": "iusto",
+    "TimeZoneId": 566
   }
 ]
 ```

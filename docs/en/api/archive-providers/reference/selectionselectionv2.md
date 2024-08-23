@@ -3,9 +3,9 @@ uid: SelectionSelectionV2
 title: SelectionSelectionV2
 description: This is the archive Provider for the Selection selection archive.
 keywords: SelectionSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionSelectionV2"

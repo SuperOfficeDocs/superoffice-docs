@@ -2,10 +2,10 @@
 uid: aiagent-translate
 title: AIAgent.Translate event method
 description: Scripting events called on the Translate method on the AIAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AIAgent.Translate
 

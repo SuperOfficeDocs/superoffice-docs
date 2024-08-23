@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 599,
-  "Year": 889,
+  "TargetGroupId": 576,
+  "Year": 839,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 239,
+      "TargetAssignmentInfoId": 37,
       "Values": [
-        232,
-        393
+        641,
+        300
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 751,
-      "DimensionListItemDisplayName": "Ward Group"
+      "DimensionListItem": 679,
+      "DimensionListItemDisplayName": "Medhurst-Haley"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 410,
-  "Year": 127,
+  "TargetGroupId": 366,
+  "Year": 721,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 392,
+      "TargetAssignmentInfoId": 874,
       "Values": [
-        24,
-        216
+        654,
+        1001
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 150,
-      "DimensionListItemDisplayName": "Schumm, Lind and Casper",
+      "DimensionListItem": 901,
+      "DimensionListItemDisplayName": "Gulgowski, McClure and Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 894
+          "FieldLength": 568
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 515
     }
   }
 }

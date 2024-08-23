@@ -2,10 +2,10 @@
 uid: targetsagent-createdefaulttargetdimension
 title: TargetsAgent.CreateDefaultTargetDimension event method
 description: Scripting events called on the CreateDefaultTargetDimension method on the TargetsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetDimension
 

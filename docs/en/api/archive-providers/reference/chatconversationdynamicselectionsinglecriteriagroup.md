@@ -3,9 +3,9 @@ uid: ChatConversationDynamicSelectionSingleCriteriaGroup
 title: ChatConversationDynamicSelectionSingleCriteriaGroup
 description: ChatConversation selection archive using the selectionId as criterionmapping.
 keywords: ChatConversationDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ChatConversationDynamicSelectionSingleCriteriaGroup"
@@ -481,7 +481,7 @@ ChatConversation selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=person/personExtra/x_person_request_relation,person/restrictionAddress/addressId,person/personAssociate/portraitThumbnail
+GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=person/personActiveErpLinks,person/personUdef/SuperOffice:6,person/personAssociate/mrMrs,contact/category,contact/LastDoByActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -55,8 +55,15 @@ OK
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -80,23 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 816,
-  "UniqueIdentifier": "optio",
-  "Name": "Bergnaum Group",
-  "Description": "Re-engineered static intranet",
-  "IncludeId": "in",
-  "HierarchyId": 688,
-  "Source": "quia",
-  "Registered": "2023-02-17T04:22:26.3090583+01:00",
-  "RegisteredAssociateId": 474,
-  "Updated": "2018-06-04T04:22:26.3090583+02:00",
-  "UpdatedAssociateId": 560,
+  "EjscriptId": 590,
+  "UniqueIdentifier": "ad",
+  "Name": "Yost-Medhurst",
+  "Description": "Profound methodical conglomeration",
+  "IncludeId": "non",
+  "AccessKey": "numquam",
+  "HierarchyId": 788,
+  "Source": "molestias",
+  "SourceCode": "doloribus",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 337,
+  "Includes": [
+    637,
+    153
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 916,
+      "LineNumberTo": 468,
+      "Delta": 844,
+      "IncludeId": "voluptates",
+      "IncludedFrom": [
+        "id",
+        "optio"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 560
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2003-05-19T13:28:22.3511449+02:00",
+  "RegisteredAssociateId": 185,
+  "Updated": "2003-08-15T13:28:22.3511449+02:00",
+  "UpdatedAssociateId": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 151
     }
   }
 }

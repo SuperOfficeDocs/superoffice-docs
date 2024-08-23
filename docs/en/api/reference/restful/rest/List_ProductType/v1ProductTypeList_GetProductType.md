@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Emard-Braun",
-  "Tooltip": "nemo",
+  "Id": 599,
+  "Name": "O'Reilly-Leannon",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 431,
-  "Rank": 799,
+  "UdListDefinitionId": 563,
+  "Rank": 826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 223
     }
   }
 }

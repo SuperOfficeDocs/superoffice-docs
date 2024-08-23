@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Schaefer, Runolfsdottir and Sporer",
-    "ToolTip": "A et perspiciatis.",
-    "Deleted": false,
-    "Rank": 310,
-    "Type": "saepe",
-    "ColorBlock": 388,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "2001-12-31T04:22:35.8934712+01:00",
+    "Id": 734,
+    "Name": "Jacobson, Pagac and Hane",
+    "ToolTip": "Dolor sequi doloremque enim.",
+    "Deleted": true,
+    "Rank": 498,
+    "Type": "delectus",
+    "ColorBlock": 617,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2010-06-29T13:28:32.7884933+02:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Kuvalis-Hahn",
-        "ToolTip": "Nemo autem nesciunt quis.",
+        "Id": 634,
+        "Name": "Boehm Group",
+        "ToolTip": "Et impedit ut provident expedita vero voluptas.",
         "Deleted": true,
-        "Rank": 686,
-        "Type": "odit",
-        "ColorBlock": 345,
-        "IconHint": "et",
+        "Rank": 125,
+        "Type": "quas",
+        "ColorBlock": 121,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2023-11-27T04:22:35.8934712+01:00",
+        "LastChanged": "2023-12-04T13:28:32.7884933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quos",
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Stephania Mante"
+        "FullName": "Stone Hirthe"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "fugit",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Mr. Cordell Pascale Labadie III"
+    "FullName": "Clare Veum"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Murray, Deckow and O'Hara",
-    "ToolTip": "Itaque reiciendis amet fugit pariatur aspernatur.",
-    "Deleted": true,
-    "Rank": 949,
-    "Type": "adipisci",
-    "ColorBlock": 919,
-    "IconHint": "non",
+    "Id": 840,
+    "Name": "Gaylord, Stroman and Herzog",
+    "ToolTip": "Perferendis dolor reprehenderit sed rerum cum.",
+    "Deleted": false,
+    "Rank": 657,
+    "Type": "officiis",
+    "ColorBlock": 749,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-12-08T04:22:35.8934712+01:00",
+    "LastChanged": "2023-01-26T13:28:32.7884933+01:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Torp, Gutkowski and Gleason",
-        "ToolTip": "Ipsa nihil ea animi explicabo occaecati optio.",
+        "Id": 878,
+        "Name": "Hansen, Heathcote and Johnston",
+        "ToolTip": "Dolore velit hic repellat quia qui eius rerum.",
         "Deleted": false,
-        "Rank": 586,
-        "Type": "voluptatem",
-        "ColorBlock": 438,
-        "IconHint": "nemo",
+        "Rank": 971,
+        "Type": "non",
+        "ColorBlock": 583,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "1997-05-26T04:22:35.8934712+02:00",
+        "LastChanged": "1999-01-21T13:28:32.7884933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "enim",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Viola Gaylord I",
+        "FullName": "Mrs. Dudley Watsica III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Trent Russel",
+    "ExtraInfo": "ut",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Ms. Kirk Federico Sauer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 739
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Bins Group",
-    "Tooltip": "quo",
+    "Id": 845,
+    "Name": "Moore-Larson",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 694,
-    "Rank": 761
+    "UdListDefinitionId": 743,
+    "Rank": 497
   },
   {
-    "Id": 717,
-    "Name": "Bins Group",
-    "Tooltip": "quo",
+    "Id": 845,
+    "Name": "Moore-Larson",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 694,
-    "Rank": 761
+    "UdListDefinitionId": 743,
+    "Rank": 497
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Boyer, Goldner and Braun",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "UdListDefinitionId": 53,
-    "Rank": 570,
+    "Id": 208,
+    "Name": "Lemke-O'Kon",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "UdListDefinitionId": 562,
+    "Rank": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 790
       }
     }
   }

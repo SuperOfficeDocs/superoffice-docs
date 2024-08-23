@@ -3,9 +3,9 @@ uid: personfavourites
 title: personfavourites
 description: 
 keywords: personfavourites archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "personfavourites"
@@ -1022,7 +1022,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=restrictionAddress/line3,personSourceRelation/personSource,personSourceRelation/createdByForm,correspondingAssociate/mrMrs,correspondingAssociate/isLocation
+GET /api/v1/archive/personfavourites?$select=personSourceRelation/mrMrs,personTargetRelation/associateType,correspondingAssociate/role,personContact/contactSupportPerson/middleName,personContact/contactSupportPerson/personUpdatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

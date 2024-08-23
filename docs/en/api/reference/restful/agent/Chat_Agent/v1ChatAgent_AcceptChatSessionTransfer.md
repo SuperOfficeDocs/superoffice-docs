@@ -109,7 +109,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 264
+  "ChatSessionId": 793
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 487,
-  "TopicId": 49,
+  "ChatSessionId": 475,
+  "TopicId": 438,
   "User": null,
   "Person": null,
-  "CustomerAlias": "porro",
-  "CustomerHost": "vel",
-  "CustomerName": "Thiel, Weber and Hagenes",
-  "CustomerEmail": "rhett@fadel.biz",
-  "CustomerPhone": "493.741.5739 x653",
+  "CustomerAlias": "vel",
+  "CustomerHost": "unde",
+  "CustomerName": "Vandervort, Trantow and Toy",
+  "CustomerEmail": "enoch@pfeffer.uk",
+  "CustomerPhone": "684-492-8524 x0788",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Casper-Beer",
+  "CustomerCompanyName": "Moen Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "hic",
-  "LastMessage": "voluptatum",
-  "WhenRequested": "2016-10-08T04:22:26.0903458+02:00",
-  "WhenStarted": "2008-01-04T04:22:26.0903458+01:00",
-  "WhenEnded": "1998-01-15T04:22:26.0903458+01:00",
-  "WhenIdle": "2020-06-12T04:22:26.0903458+02:00",
-  "WhenFetched": "2012-07-23T04:22:26.0903458+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 151,
-  "AlertLevel": 668,
-  "Rank": 171,
+  "FirstMessage": "qui",
+  "LastMessage": "dolor",
+  "WhenRequested": "2002-08-08T13:28:21.976202+02:00",
+  "WhenStarted": "2001-06-26T13:28:21.976202+02:00",
+  "WhenEnded": "2019-03-06T13:28:21.976202+01:00",
+  "WhenIdle": "2006-08-26T13:28:21.976202+02:00",
+  "WhenFetched": "2014-11-18T13:28:21.976202+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 104,
+  "AlertLevel": 768,
+  "Rank": 509,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 366,
+  "ChatbotIsActive": false,
+  "Rating": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 461
     }
   }
 }

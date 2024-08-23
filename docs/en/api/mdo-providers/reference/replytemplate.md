@@ -3,9 +3,9 @@ uid: replytemplate
 title: replytemplate
 keywords: mdoprovider mdo provider replytemplate
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "replytemplate" MDO List

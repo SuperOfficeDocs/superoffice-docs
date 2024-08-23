@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Runte, Ferry and Kunde",
-  "Tooltip": "in",
+  "Id": 44,
+  "Name": "Homenick-Schuppe",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 459,
+  "Rank": 723,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Little-Romaguera",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "Rank": 44,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 91,
+  "Name": "D'Amore-Carroll",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 538,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

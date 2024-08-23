@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 775,
-  "UniqueId": "optio",
-  "Name": "Considine, Goodwin and Vandervort",
-  "Description": "Ergonomic mobile Graphical User Interface",
-  "AssociateId": 926,
-  "Columns": 711,
+  "DashboardId": 511,
+  "UniqueId": "voluptates",
+  "Name": "Reichel-Sporer",
+  "Description": "Implemented web-enabled knowledge base",
+  "AssociateId": 553,
+  "Columns": 824,
   "Theme": null,
-  "VisibleForAll": 404,
+  "VisibleForAll": 85,
   "VisibleForAssociates": [
-    528,
-    241
+    132,
+    482
   ],
   "VisibleForGroups": [
-    42,
-    729
+    247,
+    435
   ],
-  "PinForAll": 587,
+  "PinForAll": 594,
   "PinForAssociates": [
-    8,
-    506
+    494,
+    387
   ],
   "PinForGroups": [
-    164,
-    619
+    705,
+    482
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 963,
-  "UniqueId": "recusandae",
-  "Name": "Harvey, Larkin and Sauer",
-  "Description": "Synchronised secondary knowledge base",
-  "AssociateId": 88,
-  "Columns": 810,
+  "DashboardId": 506,
+  "UniqueId": "quia",
+  "Name": "Quitzon, Berge and Flatley",
+  "Description": "Centralized full-range analyzer",
+  "AssociateId": 107,
+  "Columns": 120,
   "Theme": null,
-  "VisibleForAll": 182,
+  "VisibleForAll": 502,
   "VisibleForAssociates": [
-    779,
-    492
+    626,
+    68
   ],
   "VisibleForGroups": [
-    396,
-    58
+    469,
+    988
   ],
-  "PinForAll": 24,
+  "PinForAll": 111,
   "PinForAssociates": [
-    299,
-    351
+    461,
+    104
   ],
   "PinForGroups": [
-    439,
-    473
+    615,
+    619
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 663
     }
   }
 }

@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Synergistic exuding superstructure
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=ea,velit
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Configurable composite hub
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=tempore,deleniti
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsa",
+  "ExternalReference": "aut",
   "VersionId": "rerum",
-  "Success": true,
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "odit",
-  "AdditionalInfo": "et"
+  "Value": "error",
+  "AdditionalInfo": "accusamus"
 }
 ```

@@ -2,10 +2,10 @@
 uid: resourceagent-activateresourcesubstitution
 title: ResourceAgent.ActivateResourceSubstitution event method
 description: Scripting events called on the ActivateResourceSubstitution method on the ResourceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ResourceAgent.ActivateResourceSubstitution
 

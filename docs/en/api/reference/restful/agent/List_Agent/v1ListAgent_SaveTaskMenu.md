@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 300,
-  "Name": "Champlin-Nitzsche",
-  "Tooltip": "quae",
-  "TableName": "Bosco Group",
-  "Area": "quisquam",
+  "TaskMenuId": 708,
+  "Name": "Hammes-Hermann",
+  "Tooltip": "neque",
+  "TableName": "Kilback-Hand",
+  "Area": "doloribus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 448,
+  "CrmScriptId": 897,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 877,
+  "Rank": 449,
   "Encoding": "ANSI",
-  "ProgId": "dolore",
+  "ProgId": "voluptas",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 296,
-  "Name": "Schimmel Inc and Sons",
-  "Tooltip": "praesentium",
-  "TableName": "Wehner Inc and Sons",
-  "Area": "impedit",
+  "TaskMenuId": 60,
+  "Name": "Macejkovic, Kemmer and Will",
+  "Tooltip": "sed",
+  "TableName": "Collier-Sporer",
+  "Area": "ex",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 567,
+  "CrmScriptId": 726,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 717,
+  "Rank": 352,
   "Encoding": "ANSI",
-  "ProgId": "inventore",
-  "Deleted": false,
+  "ProgId": "sit",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

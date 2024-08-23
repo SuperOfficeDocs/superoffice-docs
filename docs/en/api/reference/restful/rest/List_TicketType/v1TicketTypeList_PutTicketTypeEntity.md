@@ -62,6 +62,8 @@ The details of TicketTypeEntity to be saved.
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 | VisibleForGroups | Array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | Boolean | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | Boolean | Set external access level when replying the message |
 
 ## Response:
 
@@ -93,6 +95,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -102,36 +106,38 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 778,
-  "Name": "Witting, Borer and Wunsch",
-  "Rank": 752,
-  "Tooltip": "rem",
-  "Icon": "et",
-  "DefaultTicketStatus": 750,
+  "TicketTypeId": 461,
+  "Name": "Hand-Franecki",
+  "Rank": 360,
+  "Tooltip": "consequatur",
+  "Icon": "voluptate",
+  "DefaultTicketStatus": 376,
   "TicketStatuses": [
-    511,
-    931
+    975,
+    120
   ],
-  "DefaultTicketPriority": 88,
+  "DefaultTicketPriority": 558,
   "TicketPriorities": [
-    165,
-    984
+    453,
+    515
   ],
-  "ReplyTemplate": 933,
+  "ReplyTemplate": 90,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    832,
-    107
-  ]
+    982,
+    738
+  ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -142,38 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 371,
-  "Name": "Christiansen-Stiedemann",
-  "Rank": 657,
-  "Tooltip": "deleniti",
-  "Icon": "earum",
-  "DefaultTicketStatus": 867,
+  "TicketTypeId": 468,
+  "Name": "Mosciski Group",
+  "Rank": 346,
+  "Tooltip": "eveniet",
+  "Icon": "itaque",
+  "DefaultTicketStatus": 419,
   "TicketStatuses": [
-    780,
-    488
+    781,
+    954
   ],
-  "DefaultTicketPriority": 18,
+  "DefaultTicketPriority": 155,
   "TicketPriorities": [
-    142,
-    343
+    314,
+    612
   ],
-  "ReplyTemplate": 866,
+  "ReplyTemplate": 111,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    482,
-    595
+    954,
+    222
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

@@ -25,7 +25,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Funk Inc and Sons",
-    "Tooltip": "quo",
+    "Id": 745,
+    "Name": "Prohaska, Volkman and Grady",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 77,
-    "Rank": 813,
+    "UdListDefinitionId": 39,
+    "Rank": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 853
       }
     }
   }

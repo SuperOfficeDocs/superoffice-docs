@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Rohan Group",
-  "Comment": "doloribus",
-  "StakeholderRoleId": 626,
-  "CountryId": 18,
-  "PersonId": 862,
-  "EmailDescription": "elva@bernier.uk",
-  "EmailId": 128,
-  "EmailAddress": "deondre@little.us",
-  "PhoneId": 377,
-  "ContactName": "Ferry, Parisian and Parker",
-  "ContactId": 929,
-  "SaleId": 763,
-  "Mrmrs": "doloremque",
-  "Firstname": "Arlie",
-  "MiddleName": "Hills LLC",
-  "Lastname": "Kessler",
-  "SaleStakeholderId": 391,
-  "Rank": 893,
-  "Phone": "1-582-345-6824 x0452"
+  "StakeholderRoleName": "Treutel Group",
+  "Comment": "autem",
+  "StakeholderRoleId": 743,
+  "CountryId": 717,
+  "PersonId": 596,
+  "EmailDescription": "gwendolyn_boyle@ratke.info",
+  "EmailId": 280,
+  "EmailAddress": "rosina@swaniawski.ca",
+  "PhoneId": 75,
+  "ContactName": "Dickens, Schuster and Botsford",
+  "ContactId": 246,
+  "SaleId": 263,
+  "Mrmrs": "voluptatum",
+  "Firstname": "Cordie",
+  "MiddleName": "Russel, Sipes and Kuhn",
+  "Lastname": "Langosh",
+  "SaleStakeholderId": 237,
+  "Rank": 846,
+  "Phone": "712.549.2732 x401"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Turner, Powlowski and Wuckert",
-  "Comment": "aperiam",
-  "StakeholderRoleId": 488,
-  "CountryId": 647,
-  "PersonId": 133,
-  "EmailDescription": "taya@barrows.com",
-  "EmailId": 534,
-  "EmailAddress": "sandra@feest.co.uk",
-  "PhoneId": 909,
-  "ContactName": "Wiegand-Herman",
-  "ContactId": 363,
-  "SaleId": 898,
-  "Mrmrs": "alias",
-  "Firstname": "Jefferey",
-  "MiddleName": "Daugherty, Lebsack and Schneider",
-  "Lastname": "Leuschke",
-  "SaleStakeholderId": 619,
-  "Rank": 260,
-  "Phone": "504.556.6606 x022",
+  "StakeholderRoleName": "Mann LLC",
+  "Comment": "eum",
+  "StakeholderRoleId": 381,
+  "CountryId": 888,
+  "PersonId": 213,
+  "EmailDescription": "tess@tremblaycronin.uk",
+  "EmailId": 160,
+  "EmailAddress": "randi_hoppe@olson.uk",
+  "PhoneId": 689,
+  "ContactName": "Baumbach-O'Conner",
+  "ContactId": 147,
+  "SaleId": 230,
+  "Mrmrs": "minima",
+  "Firstname": "Dallas",
+  "MiddleName": "Abernathy, Christiansen and Schuster",
+  "Lastname": "Ullrich",
+  "SaleStakeholderId": 662,
+  "Rank": 636,
+  "Phone": "1-606-254-0967 x493",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   },
   "_Links": {

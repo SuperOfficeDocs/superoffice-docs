@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Armstrong, Zemlak and Gleichner",
-    "Records": 188,
+    "EntityName": "Stoltenberg, O'Conner and Koelpin",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 829
       }
     }
   },
   {
-    "EntityName": "Armstrong, Zemlak and Gleichner",
-    "Records": 188,
+    "EntityName": "Stoltenberg, O'Conner and Koelpin",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 829
       }
     }
   }

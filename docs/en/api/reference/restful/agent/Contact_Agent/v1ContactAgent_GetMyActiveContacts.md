@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2017-05-17T04:22:26.2153105+02:00",
+  "ActivityStartTime": "1997-07-06T13:28:22.2417946+02:00",
   "ContactCategories": [
-    452,
-    833
+    775,
+    226
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 630,
-    "Department": "implement next-generation schemas",
-    "OrgNr": "966631",
-    "Name": "Stehr, Huel and Jerde",
+    "ContactId": 450,
+    "Department": "",
+    "OrgNr": "729131",
+    "Name": "Pagac Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Marge Maurice Langworth",
+    "AssociateFullName": "Mrs. Scotty Freddy Hand",
     "Action": "ActivityCompleted",
-    "ActionTime": "2003-08-22T04:22:26.2153105+02:00",
+    "ActionTime": "2024-05-19T13:28:22.2417946+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Christiansen-Ortiz",
-    "ActionId": 706,
-    "PersonId": 339,
-    "ActivityPersonId": 352,
-    "AssociateId": 501,
+    "ActivityPersonName": "Hartmann LLC",
+    "ActionId": 517,
+    "PersonId": 314,
+    "ActivityPersonId": 637,
+    "AssociateId": 316,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 399
       }
     }
   }

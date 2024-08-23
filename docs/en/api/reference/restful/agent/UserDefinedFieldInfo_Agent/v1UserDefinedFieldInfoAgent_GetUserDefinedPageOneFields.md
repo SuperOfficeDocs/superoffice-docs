@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 931
+  "UserGroupId": 419
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 248,
-    "ColumnId": 659,
-    "FieldDefault": "adipisci",
-    "FieldHeight": 31,
-    "FieldLabel": "ab",
-    "FieldLeft": 186,
-    "FieldTop": 93,
+    "UDefFieldId": 596,
+    "ColumnId": 733,
+    "FieldDefault": "est",
+    "FieldHeight": 386,
+    "FieldLabel": "enim",
+    "FieldLeft": 91,
+    "FieldTop": 810,
     "FieldType": "Checkbox",
-    "FieldWidth": 811,
-    "FormatMask": "ipsum",
-    "HideLabel": true,
+    "FieldWidth": 443,
+    "FormatMask": "at",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 317,
-    "LabelLeft": 327,
-    "LabelTop": 282,
-    "LabelWidth": 540,
-    "LastVersionId": 839,
-    "ListTableId": 402,
+    "LabelHeight": 213,
+    "LabelLeft": 591,
+    "LabelTop": 150,
+    "LabelWidth": 522,
+    "LastVersionId": 535,
+    "ListTableId": 265,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 920,
-    "ProgId": "adipisci",
+    "Page1LineNo": 281,
+    "ProgId": "minus",
     "IsReadOnly": false,
-    "ShortLabel": "adipisci",
-    "TabOrder": 387,
-    "TextLength": 98,
-    "Tooltip": "veniam",
-    "UdefIdentity": 788,
-    "UDListDefinitionId": 761,
+    "ShortLabel": "voluptate",
+    "TabOrder": 962,
+    "TextLength": 178,
+    "Tooltip": "totam",
+    "UdefIdentity": 798,
+    "UDListDefinitionId": 688,
     "Justification": "Center",
-    "Version": 158,
-    "TemplateVariableName": "Corwin-Konopelski",
+    "Version": 107,
+    "TemplateVariableName": "Willms, Windler and Turcotte",
     "HasBeenPublished": true,
-    "MdoListName": "Nienow LLC",
+    "MdoListName": "O'Kon, Lang and Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

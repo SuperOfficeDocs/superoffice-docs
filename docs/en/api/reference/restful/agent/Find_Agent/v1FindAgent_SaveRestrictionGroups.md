@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "D'Amore, Luettgen and Schaefer",
-  "StorageKey": "accusantium",
+  "StorageType": "eum",
+  "ProviderName": "Schmeler-Casper",
+  "StorageKey": "est",
   "RestrictionGroups": [
     {
-      "Name": "Gutkowski Group",
-      "Description": "Universal composite migration",
-      "Rank": 736,
+      "Name": "Rau-Toy",
+      "Description": "Reduced uniform matrices",
+      "Rank": 583,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski Group",
-      "Description": "Universal composite migration",
-      "Rank": 736,
+      "Name": "Rau-Toy",
+      "Description": "Reduced uniform matrices",
+      "Rank": 583,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "nihil"
+  "Context": "officia"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ryan, Osinski and McClure",
-    "Description": "Stand-alone asynchronous strategy",
-    "Rank": 788,
+    "Name": "Dare, Kassulke and Moen",
+    "Description": "Seamless fresh-thinking pricing structure",
+    "Rank": 904,
     "Restrictions": [
       {
-        "Name": "Goodwin, Lemke and Kunde",
-        "Operator": "et",
+        "Name": "Langworth, Sporer and Quitzon",
+        "Operator": "aut",
         "Values": [
-          "sapiente",
-          "dolorum"
+          "repellat",
+          "quia"
         ],
         "DisplayValues": [
-          "veritatis",
-          "non"
+          "in",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 852,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 425
+        "UniqueHash": 998
       }
     ]
   },
   {
-    "Name": "Ryan, Osinski and McClure",
-    "Description": "Stand-alone asynchronous strategy",
-    "Rank": 788,
+    "Name": "Dare, Kassulke and Moen",
+    "Description": "Seamless fresh-thinking pricing structure",
+    "Rank": 904,
     "Restrictions": [
       {
-        "Name": "Goodwin, Lemke and Kunde",
-        "Operator": "et",
+        "Name": "Langworth, Sporer and Quitzon",
+        "Operator": "aut",
         "Values": [
-          "sapiente",
-          "dolorum"
+          "repellat",
+          "quia"
         ],
         "DisplayValues": [
-          "veritatis",
-          "non"
+          "in",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 852,
+        "InterParenthesis": 183,
         "InterOperator": "And",
-        "UniqueHash": 425
+        "UniqueHash": 998
       }
     ]
   }

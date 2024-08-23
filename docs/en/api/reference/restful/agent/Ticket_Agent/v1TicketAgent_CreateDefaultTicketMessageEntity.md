@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 854,
+  "EjMessageId": 663,
   "Ticket": null,
-  "CreatedAt": "1998-04-30T04:22:27.8651245+02:00",
+  "CreatedAt": "2011-06-18T13:28:23.8823119+02:00",
   "CreatedBy": null,
-  "Author": "quis",
+  "Author": "modi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 178,
-  "Body": "sit",
-  "HtmlBody": "unde",
-  "EmailHeader": "angel@rohan.uk",
-  "DebugInfo": "deserunt",
-  "MailSorter": "sapiente",
+  "MessageId": "distinctio",
+  "TimeSpent": 699,
+  "Body": "totam",
+  "HtmlBody": "ut",
+  "EmailHeader": "bennie.price@kuhicgoldner.ca",
+  "DebugInfo": "aliquam",
+  "MailSorter": "error",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptate",
+  "SearchTitle": "ea",
   "MessageHeaders": [
     {
-      "Id": 760,
-      "Name": "Larkin-Schroeder",
-      "Value": "sed",
+      "Id": 388,
+      "Name": "Hagenes-Padberg",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 316
         }
       }
     }
   ],
   "Important": true,
-  "Language": "quibusdam",
-  "Sentiment": 263,
-  "SentimentConfidence": 564,
+  "Language": "qui",
+  "Sentiment": 308,
+  "SentimentConfidence": 152,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 598,
-      "Name": "Okuneva Inc and Sons",
-      "ContentType": "in",
-      "AttSize": 840,
-      "InlineImage": true,
-      "ContentId": "sapiente",
-      "AuthKey": "ea",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 907,
+      "Name": "Swaniawski Group",
+      "ContentType": "tenetur",
+      "AttSize": 539,
+      "InlineImage": false,
+      "ContentId": "tempore",
+      "AuthKey": "dolor",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "omnis"
+    "CustomFields1": "vitae",
+    "CustomFields2": "tempore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

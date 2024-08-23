@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sporer, Medhurst and Bergstrom",
+  "HistoryName": "Auer-Weissnat",
   "History": [
     {
-      "Rank": 602,
-      "Id": 331,
-      "HistoryName": "Gaylord-Simonis",
-      "HistoryId": 929,
-      "AssociateId": 158,
-      "Name": "Hane-Dooley",
-      "ItemInfo": "omnis"
+      "Rank": 877,
+      "Id": 931,
+      "HistoryName": "Towne, Breitenberg and Bauch",
+      "HistoryId": 820,
+      "AssociateId": 297,
+      "Name": "Koepp Inc and Sons",
+      "ItemInfo": "exercitationem"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 120,
-    "Id": 633,
-    "HistoryName": "Jaskolski-Kuphal",
-    "HistoryId": 169,
-    "AssociateId": 959,
-    "Name": "Hand Group",
-    "ItemInfo": "quia",
+    "Rank": 801,
+    "Id": 796,
+    "HistoryName": "Schowalter, Kihn and Weber",
+    "HistoryId": 866,
+    "AssociateId": 120,
+    "Name": "Quigley-Murray",
+    "ItemInfo": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

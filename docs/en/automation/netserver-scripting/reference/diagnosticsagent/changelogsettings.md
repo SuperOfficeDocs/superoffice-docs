@@ -2,10 +2,10 @@
 uid: diagnosticsagent-changelogsettings
 title: DiagnosticsAgent.ChangeLogSettings event method
 description: Scripting events called on the ChangeLogSettings method on the DiagnosticsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DiagnosticsAgent.ChangeLogSettings
 

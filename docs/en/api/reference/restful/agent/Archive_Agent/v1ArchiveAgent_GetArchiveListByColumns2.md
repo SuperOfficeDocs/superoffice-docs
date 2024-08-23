@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sanford Inc and Sons",
-  "Columns": "dicta",
-  "SortOrder": "autem",
-  "Restrictions": "eum",
-  "Entities": "repellendus",
-  "Page": 13,
-  "PageSize": 34
+  "ProviderName": "Sporer-Mills",
+  "Columns": "non",
+  "SortOrder": "aut",
+  "Restrictions": "laborum",
+  "Entities": "esse",
+  "Page": 852,
+  "PageSize": 432
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hodkiewicz LLC",
-    "PrimaryKey": 608,
+    "EntityName": "Dare-Jewess",
+    "PrimaryKey": 237,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolorem",
-        "TooltipHint": "molestias",
-        "LinkHint": "labore"
+        "DisplayValue": "laudantium",
+        "TooltipHint": "temporibus",
+        "LinkHint": "voluptates"
       }
     },
-    "LinkHint": "quisquam",
-    "StyleHint": "voluptate",
+    "LinkHint": "repellendus",
+    "StyleHint": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 934
       }
     }
   }

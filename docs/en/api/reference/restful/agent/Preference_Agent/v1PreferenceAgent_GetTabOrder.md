@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Kling, Gaylord and Swaniawski"
+  "TabName": "Harris, McDermott and Klein"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 330,
-  "TabName": "Miller LLC",
-  "Order": "doloremque",
-  "AssociateId": 573,
+  "TabOrderId": 92,
+  "TabName": "Simonis Inc and Sons",
+  "Order": "eum",
+  "AssociateId": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 757
     }
   }
 }

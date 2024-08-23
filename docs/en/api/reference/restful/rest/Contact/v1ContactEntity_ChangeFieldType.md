@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 541,
-  "ColumnId": 327,
-  "FieldDefault": "velit",
-  "FieldHeight": 361,
-  "FieldLabel": "velit",
-  "FieldLeft": 711,
-  "FieldTop": 785,
+  "UDefFieldId": 774,
+  "ColumnId": 420,
+  "FieldDefault": "consectetur",
+  "FieldHeight": 304,
+  "FieldLabel": "sunt",
+  "FieldLeft": 733,
+  "FieldTop": 5,
   "FieldType": "Checkbox",
-  "FieldWidth": 557,
-  "FormatMask": "dolores",
-  "HideLabel": true,
+  "FieldWidth": 241,
+  "FormatMask": "quia",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 54,
-  "LabelLeft": 21,
-  "LabelTop": 925,
-  "LabelWidth": 263,
-  "LastVersionId": 906,
-  "ListTableId": 422,
-  "IsMandatory": true,
+  "LabelHeight": 982,
+  "LabelLeft": 169,
+  "LabelTop": 395,
+  "LabelWidth": 243,
+  "LastVersionId": 998,
+  "ListTableId": 469,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 157,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "ab",
-  "TabOrder": 828,
-  "TextLength": 224,
-  "Tooltip": "facere",
-  "UdefIdentity": 863,
-  "UDListDefinitionId": 271,
+  "Page1LineNo": 514,
+  "ProgId": "sunt",
+  "IsReadOnly": false,
+  "ShortLabel": "asperiores",
+  "TabOrder": 38,
+  "TextLength": 439,
+  "Tooltip": "non",
+  "UdefIdentity": 201,
+  "UDListDefinitionId": 341,
   "Justification": "Center",
-  "Version": 404,
-  "TemplateVariableName": "Lubowitz, Konopelski and Sipes",
+  "Version": 474,
+  "TemplateVariableName": "Padberg Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Aufderhar-Denesik",
+  "MdoListName": "Keebler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 717
     }
   }
 }

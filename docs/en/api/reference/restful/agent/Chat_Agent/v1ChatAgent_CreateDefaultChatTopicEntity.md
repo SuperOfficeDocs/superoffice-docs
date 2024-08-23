@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 417,
-  "Name": "Donnelly Inc and Sons",
-  "Description": "Versatile maximized capacity",
-  "WelcomeMessage": "dolores",
+  "ChatTopicId": 565,
+  "Name": "Deckow Group",
+  "Description": "Total explicit knowledge base",
+  "WelcomeMessage": "quis",
   "Language": null,
-  "LastAccept": "2000-02-27T04:22:26.0590988+01:00",
-  "SecondsPrAccept": 219,
-  "AlertRecipient": "sint",
+  "LastAccept": "2016-06-02T13:28:21.9293697+02:00",
+  "SecondsPrAccept": 230,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "incidunt",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "voluptatem",
-  "WarnNewChatMinutes": 289,
-  "WarnManagerNewChatMinutes": 9,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "quaerat",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dolor",
+  "WarnNewChatMinutes": 407,
+  "WarnManagerNewChatMinutes": 829,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 595,
-  "WarnManagerChatMessageMinutes": 791,
+  "WarnChatMessageMinutes": 510,
+  "WarnManagerChatMessageMinutes": 238,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 207,
-  "OfflineFormQueueLength": 848,
+  "OfflineFormTimeLimit": 94,
+  "OfflineFormQueueLength": 904,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "deserunt",
+  "WidgetRatingText": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 893
     }
   }
 }

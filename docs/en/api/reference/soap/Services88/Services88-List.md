@@ -1230,6 +1230,8 @@ title: Services88.ListAgent WSDL
               <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
               <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ReplyForwardNoSignature" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ReplyExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

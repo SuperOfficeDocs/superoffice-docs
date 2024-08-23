@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 436,
-    "Name": "Larson LLC",
-    "TZLocationCode": "cum",
-    "TZLocationCities": "voluptatum",
-    "IsoNumber": 984,
+    "TZLocationID": 79,
+    "Name": "Weissnat-Johnston",
+    "TZLocationCode": "nihil",
+    "TZLocationCities": "sit",
+    "IsoNumber": 393,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 131,
-        "StartMonth": 753,
-        "EndDay": 907,
-        "EndMonth": 720,
-        "TZOffset": 684,
-        "StartRulePattern": "tenetur",
-        "EndRulePattern": "tempore"
+        "StartDay": 445,
+        "StartMonth": 103,
+        "EndDay": 866,
+        "EndMonth": 336,
+        "TZOffset": 226,
+        "StartRulePattern": "voluptas",
+        "EndRulePattern": "sapiente"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 965,
-        "StartMonth": 859,
-        "EndDay": 191,
-        "EndMonth": 435,
-        "TZOffset": 369,
-        "StartRulePattern": "est",
-        "EndRulePattern": "reiciendis"
+        "StartDay": 757,
+        "StartMonth": 17,
+        "EndDay": 515,
+        "EndMonth": 290,
+        "TZOffset": 50,
+        "StartRulePattern": "deserunt",
+        "EndRulePattern": "voluptatum"
       }
     }
   }

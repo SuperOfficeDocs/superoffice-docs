@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 445,
-  "Name": "Luettgen-Deckow",
-  "Tooltip": "praesentium",
-  "VisibleColumns": 623,
-  "Rank": 748,
-  "AssocId": 755,
+  "DiaryViewId": 743,
+  "Name": "Ortiz Inc and Sons",
+  "Tooltip": "saepe",
+  "VisibleColumns": 255,
+  "Rank": 915,
+  "AssocId": 30,
   "AssociateList": [
     {
-      "Id": 523,
-      "Name": "Pouros, Bogan and Harber",
-      "ToolTip": "Repudiandae fuga voluptatem eius.",
-      "Deleted": true,
-      "Rank": 410,
-      "Type": "ipsum",
-      "ColorBlock": 551,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2008-03-15T04:22:26.1528443+01:00",
+      "Id": 321,
+      "Name": "Corwin Inc and Sons",
+      "ToolTip": "Vitae et voluptatibus dolorum qui eum deserunt aut.",
+      "Deleted": false,
+      "Rank": 79,
+      "Type": "ut",
+      "ColorBlock": 275,
+      "IconHint": "ipsum",
+      "Selected": false,
+      "LastChanged": "2009-12-19T13:28:22.1636887+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Dr. Brady Delta Treutel MD",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Gideon Johnathon Considine Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 468
         }
       }
     }
   ],
-  "TzLocationId": 71,
+  "TzLocationId": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 926
     }
   }
 }

@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 743,
-  "UniqueId": "esse",
-  "Name": "Weissnat, Reichel and Stark",
-  "Description": "Synergistic human-resource strategy",
-  "AssociateId": 953,
-  "Columns": 29,
+  "DashboardId": 963,
+  "UniqueId": "recusandae",
+  "Name": "Blanda Inc and Sons",
+  "Description": "Vision-oriented national capacity",
+  "AssociateId": 895,
+  "Columns": 812,
   "Theme": null,
-  "VisibleForAll": 279,
+  "VisibleForAll": 636,
   "VisibleForAssociates": [
-    362,
-    867
+    905,
+    96
   ],
   "VisibleForGroups": [
-    321,
-    668
+    228,
+    184
   ],
-  "PinForAll": 661,
+  "PinForAll": 170,
   "PinForAssociates": [
-    245,
-    640
+    573,
+    227
   ],
   "PinForGroups": [
-    980,
-    743
+    557,
+    537
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 420,
-  "UniqueId": "quam",
-  "Name": "Will, Weissnat and Beer",
-  "Description": "Multi-lateral non-volatile concept",
-  "AssociateId": 105,
-  "Columns": 427,
+  "DashboardId": 757,
+  "UniqueId": "non",
+  "Name": "Grant Group",
+  "Description": "Visionary eco-centric info-mediaries",
+  "AssociateId": 149,
+  "Columns": 192,
   "Theme": null,
-  "VisibleForAll": 436,
+  "VisibleForAll": 520,
   "VisibleForAssociates": [
-    279,
-    744
+    883,
+    348
   ],
   "VisibleForGroups": [
-    839,
-    136
+    884,
+    618
   ],
-  "PinForAll": 492,
+  "PinForAll": 438,
   "PinForAssociates": [
-    788,
-    385
+    7,
+    426
   ],
   "PinForGroups": [
-    772,
-    26
+    633,
+    931
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 949
     }
   },
   "_Links": {

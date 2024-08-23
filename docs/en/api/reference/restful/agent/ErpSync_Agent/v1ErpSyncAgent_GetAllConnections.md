@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 277,
-    "ErpConnectorId": 33,
-    "DisplayName": "Reilly Group",
-    "DisplayDescription": "Object-based clear-thinking website",
+    "ErpConnectionId": 777,
+    "ErpConnectorId": 951,
+    "DisplayName": "Weber, Hudson and Sanford",
+    "DisplayDescription": "Synergized leading edge Graphical User Interface",
     "Active": true,
-    "ConnectionId": "voluptatem",
-    "MostRecentTimestamp": "expedita",
+    "ConnectionId": "omnis",
+    "MostRecentTimestamp": "facere",
     "ConfigFields": {
-      "ConfigFields1": "eius",
-      "ConfigFields2": "quasi"
+      "ConfigFields1": "saepe",
+      "ConfigFields2": "dolore"
     },
     "Deleted": true,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      827,
-      138
+      982,
+      166
     ],
     "AssociateAccessIds": [
-      571,
-      194
+      921,
+      155
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldType": "System.String",
+        "FieldLength": 762
       }
     }
   }

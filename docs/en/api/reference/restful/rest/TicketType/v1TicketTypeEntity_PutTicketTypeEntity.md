@@ -70,6 +70,8 @@ The TicketTypeEntity to be saved.
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 | VisibleForGroups | Array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | Boolean | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | Boolean | Set external access level when replying the message |
 
 ## Response:
 
@@ -101,6 +103,8 @@ TicketTypeEntity updated.
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -115,32 +119,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 420,
-  "Name": "Bruen, Waelchi and Gerhold",
-  "Rank": 608,
-  "Tooltip": "omnis",
-  "Icon": "tenetur",
-  "DefaultTicketStatus": 262,
+  "TicketTypeId": 219,
+  "Name": "Ernser, Cruickshank and Krajcik",
+  "Rank": 87,
+  "Tooltip": "tempora",
+  "Icon": "dolores",
+  "DefaultTicketStatus": 272,
   "TicketStatuses": [
-    1002,
-    820
+    659,
+    872
   ],
-  "DefaultTicketPriority": 646,
+  "DefaultTicketPriority": 342,
   "TicketPriorities": [
-    326,
-    946
+    620,
+    677
   ],
-  "ReplyTemplate": 55,
+  "ReplyTemplate": 691,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    728,
-    536
-  ]
+    83,
+    222
+  ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -151,38 +157,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 501,
-  "Name": "Hermann Inc and Sons",
-  "Rank": 723,
-  "Tooltip": "nihil",
-  "Icon": "at",
-  "DefaultTicketStatus": 990,
+  "TicketTypeId": 395,
+  "Name": "Heidenreich, Bode and Kris",
+  "Rank": 290,
+  "Tooltip": "aliquid",
+  "Icon": "rem",
+  "DefaultTicketStatus": 321,
   "TicketStatuses": [
-    803,
+    798,
+    240
+  ],
+  "DefaultTicketPriority": 489,
+  "TicketPriorities": [
+    545,
     376
   ],
-  "DefaultTicketPriority": 770,
-  "TicketPriorities": [
-    941,
-    411
-  ],
-  "ReplyTemplate": 502,
+  "ReplyTemplate": 705,
   "IsExternalVisible": true,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    549,
-    17
+    67,
+    138
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 489
     }
   },
   "_Links": {

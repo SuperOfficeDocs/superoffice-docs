@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 221,
-  "ModuleOwner": "minima",
+  "AssociateId": 591,
+  "ModuleOwner": "quo",
   "ModuleLicenseNames": [
-    "Funk Group",
-    "Bechtelar LLC"
+    "Luettgen, Fay and Blick",
+    "Hammes-Herzog"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 981,
-    "Tooltip": "consectetur",
+    "Unrestricted": true,
+    "Total": 961,
+    "Tooltip": "necessitatibus",
     "CanAssign": true,
-    "Free": 283,
-    "InUse": 348,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 293,
-    "Name": "Towne, Kling and Emmerich",
-    "Description": "Exclusive methodical emulation",
-    "PrerequisiteModuleName": "Ziemann Inc and Sons",
-    "SortOrder": 766,
-    "ExtraFlags": 491,
+    "Free": 176,
+    "InUse": 645,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 562,
+    "Name": "Conn Inc and Sons",
+    "Description": "Synchronised scalable help-desk",
+    "PrerequisiteModuleName": "Blick-Reilly",
+    "SortOrder": 328,
+    "ExtraFlags": 697,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Mills-Smith",
-    "ToolTip": "Sed voluptatibus voluptatem.",
-    "Deleted": false,
-    "Rank": 528,
-    "Type": "nostrum",
-    "ColorBlock": 633,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2015-05-04T04:22:35.2053915+02:00",
+    "Id": 367,
+    "Name": "Collier, Emard and Bahringer",
+    "ToolTip": "Eos voluptates minus.",
+    "Deleted": true,
+    "Rank": 531,
+    "Type": "labore",
+    "ColorBlock": 401,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2016-12-22T13:28:31.9135636+01:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Erdman, Considine and Jones",
-        "ToolTip": "Aperiam id.",
+        "Id": 872,
+        "Name": "Farrell, Bauch and King",
+        "ToolTip": "Voluptatem fugiat corporis sunt et enim consequatur.",
         "Deleted": false,
-        "Rank": 396,
-        "Type": "quas",
-        "ColorBlock": 220,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2012-10-22T04:22:35.2053915+02:00",
+        "Rank": 18,
+        "Type": "consequatur",
+        "ColorBlock": 132,
+        "IconHint": "ipsum",
+        "Selected": false,
+        "LastChanged": "2016-05-21T13:28:31.9135636+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "sit",
+        "ExtraInfo": "natus",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Yessenia Walsh",
+        "FullName": "Triston Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "nemo",
+    "ExtraInfo": "omnis",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Clarabelle Feil",
+    "FullName": "Claire Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 609
       }
     }
   }

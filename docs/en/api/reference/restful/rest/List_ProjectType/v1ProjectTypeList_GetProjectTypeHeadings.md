@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 422,
-    "Name": "Macejkovic Inc and Sons",
-    "Tooltip": "unde",
-    "Deleted": false,
-    "Rank": 309,
-    "UdListDefinitionId": 466,
+    "HeadingId": 537,
+    "Name": "Nitzsche LLC",
+    "Tooltip": "maxime",
+    "Deleted": true,
+    "Rank": 795,
+    "UdListDefinitionId": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldLength": 696
       }
     }
   }

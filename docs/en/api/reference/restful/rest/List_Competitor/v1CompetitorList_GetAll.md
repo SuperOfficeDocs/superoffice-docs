@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Hermann LLC",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "UdListDefinitionId": 836,
-    "Rank": 167,
+    "Id": 517,
+    "Name": "Littel Group",
+    "Tooltip": "praesentium",
+    "Deleted": true,
+    "UdListDefinitionId": 628,
+    "Rank": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldLength": 272
       }
     }
   }

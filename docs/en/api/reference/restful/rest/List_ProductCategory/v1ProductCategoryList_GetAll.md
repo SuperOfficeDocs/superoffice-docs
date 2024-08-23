@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Bergnaum-Nitzsche",
-    "Tooltip": "corrupti",
+    "Id": 611,
+    "Name": "Williamson-Powlowski",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 149,
+    "UdListDefinitionId": 167,
+    "Rank": 787,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 258
       }
     }
   }

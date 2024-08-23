@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Hessel LLC",
-    "ToolTip": "Et saepe quo enim officiis.",
+    "Id": 307,
+    "Name": "Becker-VonRueden",
+    "ToolTip": "Rerum enim provident nam et.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "ut",
-    "ColorBlock": 537,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2001-02-05T04:22:26.9067712+01:00",
+    "Rank": 399,
+    "Type": "optio",
+    "ColorBlock": 541,
+    "IconHint": "perspiciatis",
+    "Selected": true,
+    "LastChanged": "2017-08-15T13:28:22.8835934+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Jenkins, Mills and Schimmel",
-        "ToolTip": "Iusto iure et.",
+        "Id": 656,
+        "Name": "Lind Inc and Sons",
+        "ToolTip": "Esse nihil vitae dolores doloribus est sit sapiente.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "eos",
-        "ColorBlock": 834,
-        "IconHint": "sint",
+        "Rank": 272,
+        "Type": "numquam",
+        "ColorBlock": 565,
+        "IconHint": "repellat",
         "Selected": true,
-        "LastChanged": "2023-02-22T04:22:26.9067712+01:00",
+        "LastChanged": "2018-12-13T13:28:22.8835934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "ut",
+        "ExtraInfo": "quod",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Urban Walsh",
+        "FullName": "Miss Arturo Trudie Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 919
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "maxime",
+    "ExtraInfo": "labore",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Jerome Ziemann",
+    "FullName": "Ms. Sincere Blick Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 917
       }
     }
   }

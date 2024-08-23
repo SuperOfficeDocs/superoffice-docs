@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 671,
-  "ColumnId": 967,
-  "FieldDefault": "officia",
-  "FieldHeight": 618,
-  "FieldLabel": "eligendi",
-  "FieldLeft": 623,
-  "FieldTop": 365,
+  "UDefFieldId": 302,
+  "ColumnId": 397,
+  "FieldDefault": "id",
+  "FieldHeight": 559,
+  "FieldLabel": "fugit",
+  "FieldLeft": 211,
+  "FieldTop": 397,
   "FieldType": "Checkbox",
-  "FieldWidth": 365,
-  "FormatMask": "sint",
-  "HideLabel": false,
+  "FieldWidth": 348,
+  "FormatMask": "pariatur",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 115,
-  "LabelLeft": 949,
-  "LabelTop": 331,
-  "LabelWidth": 907,
-  "LastVersionId": 522,
-  "ListTableId": 845,
-  "IsMandatory": false,
+  "LabelHeight": 43,
+  "LabelLeft": 13,
+  "LabelTop": 389,
+  "LabelWidth": 132,
+  "LastVersionId": 632,
+  "ListTableId": 489,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 565,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "tempora",
-  "TabOrder": 294,
-  "TextLength": 911,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 259,
-  "UDListDefinitionId": 453,
+  "Page1LineNo": 661,
+  "ProgId": "eos",
+  "IsReadOnly": false,
+  "ShortLabel": "commodi",
+  "TabOrder": 586,
+  "TextLength": 474,
+  "Tooltip": "sunt",
+  "UdefIdentity": 197,
+  "UDListDefinitionId": 47,
   "Justification": "Center",
-  "Version": 429,
-  "TemplateVariableName": "Boehm, Botsford and Lesch",
+  "Version": 787,
+  "TemplateVariableName": "Hodkiewicz Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Roberts, West and Schimmel",
+  "MdoListName": "Orn, Borer and Hodkiewicz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 974
     }
   }
 }

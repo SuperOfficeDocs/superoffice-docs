@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Weimann Inc and Sons",
-    "Tooltip": "incidunt",
+    "Id": 41,
+    "Name": "Heidenreich Inc and Sons",
+    "Tooltip": "nesciunt",
     "Deleted": true,
-    "UdListDefinitionId": 401,
-    "Rank": 840,
+    "UdListDefinitionId": 660,
+    "Rank": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

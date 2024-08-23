@@ -3,9 +3,9 @@ uid: SaleDiary
 title: SaleDiary
 description: Sale archive provider for the Diary card
 keywords: SaleDiary archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleDiary"
@@ -1121,7 +1121,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/restrictionAddress/wgs84latitude,person/personUdef/SuperOffice:2,contact/contactAssociate/firstName,contact/contactExtra/x_contact_default_integer,project/statusRank
+GET /api/v1/archive/SaleDiary?$select=earning,person/correspondingAssociate/fullName,contact/updatedByFullName,contact/saintTicketCategory,project/projectAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

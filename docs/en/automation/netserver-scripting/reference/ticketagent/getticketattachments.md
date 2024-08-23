@@ -2,10 +2,10 @@
 uid: ticketagent-getticketattachments
 title: TicketAgent.GetTicketAttachments event method
 description: Scripting events called on the GetTicketAttachments method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.GetTicketAttachments
 

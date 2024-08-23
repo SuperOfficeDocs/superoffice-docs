@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 450,
+  "QuoteAlternativeId": 733,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 128,
-  "ERPQuoteLineKey": "hic",
-  "QuoteAlternativeId": 181,
-  "ERPProductKey": "ea",
+  "QuoteLineId": 150,
+  "ERPQuoteLineKey": "molestiae",
+  "QuoteAlternativeId": 141,
+  "ERPProductKey": "quo",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20524.566,
-  "DeliveredQuantity": 16538.118,
-  "Rank": 154,
-  "Name": "Conn-Berge",
-  "Description": "Object-based optimal contingency",
-  "Code": "quibusdam",
-  "QuantityUnit": "temporibus",
-  "PriceUnit": "at",
-  "ItemNumber": "302811",
+  "Quantity": 11122.565999999999,
+  "DeliveredQuantity": 17017.62,
+  "Rank": 264,
+  "Name": "Carter Inc and Sons",
+  "Description": "Synergized multi-tasking definition",
+  "Code": "et",
+  "QuantityUnit": "natus",
+  "PriceUnit": "nesciunt",
+  "ItemNumber": "1320902",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "consectetur",
-  "Supplier": "qui",
-  "SupplierCode": "aut",
-  "Thumbnail": "aliquam",
-  "VATInfo": "odit",
-  "VAT": 15770.287999999999,
-  "UnitCost": 376.08,
-  "UnitMinimumPrice": 29052.18,
-  "UnitListPrice": 10621.126,
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "suscipit",
+  "Supplier": "culpa",
+  "SupplierCode": "nihil",
+  "Thumbnail": "inventore",
+  "VATInfo": "iure",
+  "VAT": 7023.294,
+  "UnitCost": 5813.57,
+  "UnitMinimumPrice": 10777.826,
+  "UnitListPrice": 13200.408,
   "ExtraInfo": [
     {
-      "Name": "Zieme, Treutel and Torphy",
-      "Value": "vel",
+      "Name": "Baumbach LLC",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 722
         }
       }
     },
     {
-      "Name": "Zieme, Treutel and Torphy",
-      "Value": "vel",
+      "Name": "Baumbach LLC",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 722
         }
       }
     }
   ],
-  "RawExtraInfo": "veniam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quas",
-  "SubscriptionQuantity": 11016.01,
-  "SubscriptionStart": "2008-11-30T04:22:27.4247427+01:00",
-  "ERPDiscountPercent": 18913.69,
-  "ERPDiscountAmount": 607.996,
-  "DiscountPercent": 8455.532,
-  "DiscountAmount": 13388.448,
+  "RawExtraInfo": "qui",
+  "IsSubscription": false,
+  "SubscriptionUnit": "debitis",
+  "SubscriptionQuantity": 9743.606,
+  "SubscriptionStart": "2010-10-08T13:28:23.5855044+02:00",
+  "ERPDiscountPercent": 13040.573999999999,
+  "ERPDiscountAmount": 26168.899999999998,
+  "DiscountPercent": 23172.796,
+  "DiscountAmount": 28832.8,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4171.354,
-  "EarningAmount": 1197.1879999999999,
-  "SubTotal": 25921.314,
-  "TotalPrice": 7913.3499999999995,
-  "Rights": "aut",
-  "Rule": "at",
-  "ExtraField1": "id",
-  "ExtraField2": "harum",
-  "ExtraField3": "autem",
-  "ExtraField4": "at",
-  "ExtraField5": "optio",
+  "EarningPercent": 4857.7,
+  "EarningAmount": 18512.538,
+  "SubTotal": 20599.782,
+  "TotalPrice": 18954.432,
+  "Rights": "dolorem",
+  "Rule": "fugiat",
+  "ExtraField1": "quibusdam",
+  "ExtraField2": "esse",
+  "ExtraField3": "accusantium",
+  "ExtraField4": "saepe",
+  "ExtraField5": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bergstrom-Waelchi"
+  "ApplicationName": "Bechtelar-Friesen"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "beatae",
+    "Key": "aliquam",
     "Value": "iste",
-    "RecordId": 839,
-    "CreatedDate": "2013-12-02T04:22:26.8755249+01:00",
-    "UpdatedDate": "2008-08-25T04:22:26.8755249+02:00",
-    "UpdatedBy": "qui",
-    "CreatedBy": "sunt",
-    "TableName": "Ledner Inc and Sons",
+    "RecordId": 904,
+    "CreatedDate": "2009-12-16T13:28:22.866653+01:00",
+    "UpdatedDate": "2000-05-27T13:28:22.866653+02:00",
+    "UpdatedBy": "quae",
+    "CreatedBy": "deleniti",
+    "TableName": "Schimmel-Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

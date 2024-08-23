@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "itaque",
-    "sit"
+    "eos",
+    "aut"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "sit",
+    "Label": "quidem",
     "Values": [
       {
-        "Label": "amet",
-        "Value": 26024.736,
-        "Description": "Organized bi-directional knowledge user",
+        "Label": "accusantium",
+        "Value": 29794.938,
+        "Description": "Programmable homogeneous support",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 941
           }
         }
       },
       {
-        "Label": "amet",
-        "Value": 26024.736,
-        "Description": "Organized bi-directional knowledge user",
+        "Label": "accusantium",
+        "Value": 29794.938,
+        "Description": "Programmable homogeneous support",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 941
           }
         }
       }
     ],
-    "Description": "Seamless 6th generation extranet",
+    "Description": "Robust full-range projection",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   },
   {
-    "Label": "sit",
+    "Label": "quidem",
     "Values": [
       {
-        "Label": "amet",
-        "Value": 26024.736,
-        "Description": "Organized bi-directional knowledge user",
+        "Label": "accusantium",
+        "Value": 29794.938,
+        "Description": "Programmable homogeneous support",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 941
           }
         }
       },
       {
-        "Label": "amet",
-        "Value": 26024.736,
-        "Description": "Organized bi-directional knowledge user",
+        "Label": "accusantium",
+        "Value": 29794.938,
+        "Description": "Programmable homogeneous support",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 941
           }
         }
       }
     ],
-    "Description": "Seamless 6th generation extranet",
+    "Description": "Robust full-range projection",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   }

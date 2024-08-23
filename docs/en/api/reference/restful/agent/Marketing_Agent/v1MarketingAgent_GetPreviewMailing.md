@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 244
+  "ShipmentAddrId": 741
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2017-12-17T04:22:27.0653754+01:00",
+  "SendingTime": "2002-12-25T13:28:23.0543771+01:00",
   "Status": "Blocked",
-  "ShipmentId": 443,
-  "ShipmentDescription": "Reduced regional challenge",
-  "FromAddress": "accusamus",
-  "Configuration": 43,
-  "ContactId": 980,
-  "ContactName": "Marvin-Hilll",
-  "PersonId": 857,
-  "PersonFullName": "Garrison Trantow",
-  "ShipmentType": "dignissimos",
-  "MessageId": 233,
-  "MessageSubject": "aut",
-  "DocumentMessageId": 158,
-  "Opened": "2005-12-15T04:22:27.0653754+01:00",
-  "LinkClicks": 696,
+  "ShipmentId": 703,
+  "ShipmentDescription": "Mandatory multi-tasking application",
+  "FromAddress": "soluta",
+  "Configuration": 756,
+  "ContactId": 771,
+  "ContactName": "Ortiz, Lubowitz and Mueller",
+  "PersonId": 307,
+  "PersonFullName": "Blaise Stiedemann",
+  "ShipmentType": "est",
+  "MessageId": 754,
+  "MessageSubject": "accusantium",
+  "DocumentMessageId": 219,
+  "Opened": "2019-04-06T13:28:23.0543771+02:00",
+  "LinkClicks": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldLength": 686
     }
   }
 }

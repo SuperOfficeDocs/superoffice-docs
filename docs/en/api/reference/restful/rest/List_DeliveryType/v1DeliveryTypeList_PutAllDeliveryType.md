@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Keeling-Moen",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 879,
-    "Rank": 203
+    "Id": 652,
+    "Name": "Gleichner, Mayert and King",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 293,
+    "Rank": 576
   },
   {
-    "Id": 938,
-    "Name": "Keeling-Moen",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 879,
-    "Rank": 203
+    "Id": 652,
+    "Name": "Gleichner, Mayert and King",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 293,
+    "Rank": 576
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 790,
-    "Name": "Quigley-O'Hara",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "UdListDefinitionId": 637,
-    "Rank": 913,
+    "Id": 694,
+    "Name": "Ruecker Inc and Sons",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 423,
+    "Rank": 629,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 307
       }
     }
   }

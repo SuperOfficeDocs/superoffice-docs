@@ -3,9 +3,9 @@ uid: appointmentfavourites
 title: appointmentfavourites
 description: 
 keywords: appointmentfavourites archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "appointmentfavourites"
@@ -720,7 +720,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/appointmentfavourites?$select=duration,contact/url/URLAddress,contact/contactAssociate/locationAddress,person/personId
+GET /api/v1/archive/appointmentfavourites?$select=joinVideomeetUrl,person/personBusiness,person/email/emailId,person/correspondingAssociate/firstName,sale/associate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

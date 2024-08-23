@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 862,
-    "Name": "Heller-Lebsack",
-    "Tooltip": "aperiam",
+    "HeadingId": 850,
+    "Name": "Franecki Inc and Sons",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "Rank": 868,
-    "UdListDefinitionId": 621,
+    "Rank": 724,
+    "UdListDefinitionId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldLength": 720
       }
     }
   }

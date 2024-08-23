@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 936,
-  "StartTime": "2001-10-14T04:22:26.5135324+02:00",
-  "EndTime": "2008-08-14T04:22:26.5135324+02:00",
-  "Count": 649,
-  "TemplateHeadingId": 911
+  "ProjectId": 144,
+  "StartTime": "2011-05-09T13:28:22.4604993+02:00",
+  "EndTime": "2001-10-27T13:28:22.4604993+02:00",
+  "Count": 780,
+  "TemplateHeadingId": 103
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 572,
-    "Attention": "blanditiis",
-    "Header": "dolorum",
-    "Name": "Schmeler, Grimes and Murazik",
-    "OurRef": "ut",
-    "YourRef": "mollitia",
-    "Description": "Monitored hybrid paradigm",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 35,
-    "PersonFullName": "Kari Monahan",
-    "AssociateFullName": "Mrs. Antonina Predovic PhD",
-    "ContactId": 696,
-    "ContactName": "Zieme Group",
-    "ProjectId": 770,
-    "ProjectName": "Greenfelder Inc and Sons",
-    "AssociateId": 301,
-    "Snum": 22,
-    "SaleId": 635,
-    "SaleName": "Lindgren-Dicki",
+    "DocumentId": 708,
+    "Attention": "quae",
+    "Header": "et",
+    "Name": "Krajcik Inc and Sons",
+    "OurRef": "aperiam",
+    "YourRef": "et",
+    "Description": "Focused background moderator",
+    "DocumentTemplate": "debitis",
+    "IsPublished": true,
+    "PersonId": 417,
+    "PersonFullName": "Coy Mayer",
+    "AssociateFullName": "Elenora Zemlak",
+    "ContactId": 610,
+    "ContactName": "Koch-Yundt",
+    "ProjectId": 96,
+    "ProjectName": "Anderson Group",
+    "AssociateId": 864,
+    "Snum": 149,
+    "SaleId": 299,
+    "SaleName": "Jacobson, Ritchie and Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldLength": 153
       }
     }
   }

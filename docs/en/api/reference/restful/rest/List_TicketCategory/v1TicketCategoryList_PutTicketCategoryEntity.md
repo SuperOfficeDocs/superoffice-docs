@@ -108,29 +108,29 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 93,
-  "ParentId": 982,
-  "Name": "Williamson-Kerluke",
-  "Fullname": "quis",
-  "CategoryMaster": 64,
+  "TicketCategoryId": 406,
+  "ParentId": 452,
+  "Name": "Farrell, Dibbert and Metz",
+  "Fullname": "in",
+  "CategoryMaster": 663,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schiller, Pagac and Keeling",
+  "ExternalName": "Mertz Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 64,
-  "ReplyTemplate": 614,
-  "NotificationEmail": "jacklyn@tremblay.ca",
+  "AssignmentLag": 470,
+  "ReplyTemplate": 294,
+  "NotificationEmail": "carli_hartmann@mertz.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 959,
+  "EffectiveReplyTemplateId": 831,
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "est",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "quia"
+    "CustomFields1": "et",
+    "CustomFields2": "libero"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 312,
-  "ParentId": 34,
-  "Name": "Fahey, Torp and Fritsch",
-  "Fullname": "quaerat",
-  "CategoryMaster": 917,
+  "TicketCategoryId": 296,
+  "ParentId": 506,
+  "Name": "Schmitt LLC",
+  "Fullname": "perferendis",
+  "CategoryMaster": 242,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jones, Feeney and Smitham",
+  "ExternalName": "Johnston, Hessel and Schmidt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 947,
-  "ReplyTemplate": 561,
-  "NotificationEmail": "arlie.thompson@hellermorar.ca",
+  "AssignmentLag": 818,
+  "ReplyTemplate": 111,
+  "NotificationEmail": "reanna@hilll.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 845,
+  "EffectiveReplyTemplateId": 443,
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "id"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "facere"
+    "CustomFields1": "id",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

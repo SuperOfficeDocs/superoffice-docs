@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Ratke-Lind",
-    "ToolTip": "Quo est sit nostrum.",
-    "Deleted": true,
-    "Rank": 8,
-    "Type": "voluptates",
-    "ColorBlock": 199,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2009-08-08T04:22:36.2215887+02:00",
+    "Id": 940,
+    "Name": "Gleichner, Gutmann and Terry",
+    "ToolTip": "Soluta doloremque sed et vero esse dolores.",
+    "Deleted": false,
+    "Rank": 646,
+    "Type": "qui",
+    "ColorBlock": 473,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2012-08-09T13:28:33.1951017+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Friesen Inc and Sons",
-        "ToolTip": "Laudantium occaecati facilis.",
+        "Id": 35,
+        "Name": "Yost-Leannon",
+        "ToolTip": "Et voluptatem ad.",
         "Deleted": false,
-        "Rank": 493,
-        "Type": "qui",
-        "ColorBlock": 67,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2009-10-01T04:22:36.2215887+02:00",
+        "Rank": 868,
+        "Type": "tempore",
+        "ColorBlock": 656,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "1998-02-19T13:28:33.1951017+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "iusto",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Alba Predovic Sr."
+        "FullName": "Nico Bahringer"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Miss Casandra Bradly Thiel"
+    "ExtraInfo": "dolor",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Wilma Travis Langworth I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Thiel, Romaguera and Schamberger",
-    "ToolTip": "Accusamus culpa eos vel numquam.",
-    "Deleted": false,
-    "Rank": 944,
-    "Type": "eaque",
-    "ColorBlock": 105,
-    "IconHint": "a",
+    "Id": 101,
+    "Name": "Brekke Inc and Sons",
+    "ToolTip": "Cupiditate itaque eveniet perferendis voluptatibus quia sapiente excepturi.",
+    "Deleted": true,
+    "Rank": 715,
+    "Type": "nihil",
+    "ColorBlock": 819,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2017-11-15T04:22:36.2372126+01:00",
+    "LastChanged": "2014-05-29T13:28:33.1951017+02:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Smith-Skiles",
-        "ToolTip": "Libero amet nulla.",
+        "Id": 395,
+        "Name": "McLaughlin-Jaskolski",
+        "ToolTip": "Officia cum incidunt consequatur.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "corrupti",
-        "ColorBlock": 743,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2008-06-28T04:22:36.2372126+02:00",
+        "Rank": 442,
+        "Type": "nihil",
+        "ColorBlock": 787,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "1999-06-06T13:28:33.1951017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Sylvester Bailey",
+        "FullName": "Eleazar Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 203
+            "FieldType": "System.Int32",
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "rerum",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Mrs. Cleta Jast",
+    "FullName": "Celestino Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 113
       }
     }
   }

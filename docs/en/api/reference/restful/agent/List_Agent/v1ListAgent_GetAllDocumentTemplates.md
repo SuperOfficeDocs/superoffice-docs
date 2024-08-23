@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 850,
-    "Name": "White, O'Reilly and Prosacco",
-    "Tooltip": "esse",
-    "SaveInDb": 248,
-    "Filename": "voluptatem",
-    "DefaultOref": "assumenda",
+    "DocumentTemplateId": 712,
+    "Name": "Mann, Jones and Christiansen",
+    "Tooltip": "sunt",
+    "SaveInDb": 127,
+    "Filename": "harum",
+    "DefaultOref": "ipsa",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 299,
-    "IntentId": 391,
+    "AutoeventId": 912,
+    "IntentId": 188,
     "IsDefaultPublished": false,
-    "Rank": 713,
-    "LoadTemplateFromPlugin": 115,
-    "MimeType": "voluptate",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 834,
+    "Rank": 794,
+    "LoadTemplateFromPlugin": 333,
+    "MimeType": "debitis",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 837,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "daron_stehr@purdy.biz",
+    "EmailSubject": "rylee_orn@leffler.info",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "hillary@marvinkihn.co.uk",
+    "SenderEmailAddress": "tressie@corkery.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 517
       }
     }
   }

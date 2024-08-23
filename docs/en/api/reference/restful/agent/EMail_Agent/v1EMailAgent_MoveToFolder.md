@@ -68,16 +68,16 @@ No Content
 POST /api/v1/Agents/EMail/MoveToFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    379,
-    881
+    844,
+    990
   ],
-  "TargetFolder": "alias"
+  "TargetFolder": "non"
 }
 ```
 

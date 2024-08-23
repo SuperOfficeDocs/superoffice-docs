@@ -3,9 +3,9 @@ uid: ProjectSelectionV2
 title: ProjectSelectionV2
 description: This is the archive Provider for the Selection Project archive.
 keywords: ProjectSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectSelectionV2"
@@ -798,7 +798,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=projectAssociate/ejStatus,NumberOfSalesInPeriod,LastCompletedSale,sale/hasQuote,sale/associate/lastName
+GET /api/v1/archive/ProjectSelectionV2?$select=appointment/registeredDate,appointment/associate/simultaneousEjUser,document/updatedByFullName,projectMember/personExtra/x_person_shorttext_list,projectMember/correspondingAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

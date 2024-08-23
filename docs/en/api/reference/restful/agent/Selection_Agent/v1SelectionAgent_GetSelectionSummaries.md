@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    607,
-    4
+    51,
+    34
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 897,
-    "Name": "Keeling, Buckridge and Christiansen",
-    "TargetTable": "temporibus",
-    "Registered": "2014-12-06T04:22:27.6586455+01:00",
-    "ProviderName": "Upton, Haag and Corkery"
+    "SelectionId": 499,
+    "Name": "Windler, Zulauf and Boyle",
+    "TargetTable": "consequuntur",
+    "Registered": "2024-07-23T13:28:23.7885837+02:00",
+    "ProviderName": "Davis-Koss"
   },
   {
-    "SelectionId": 897,
-    "Name": "Keeling, Buckridge and Christiansen",
-    "TargetTable": "temporibus",
-    "Registered": "2014-12-06T04:22:27.6586455+01:00",
-    "ProviderName": "Upton, Haag and Corkery"
+    "SelectionId": 499,
+    "Name": "Windler, Zulauf and Boyle",
+    "TargetTable": "consequuntur",
+    "Registered": "2024-07-23T13:28:23.7885837+02:00",
+    "ProviderName": "Davis-Koss"
   }
 ]
 ```

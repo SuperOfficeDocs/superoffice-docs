@@ -77,7 +77,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 869
+  "DocumentId": 677
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 861,
-  "Name": "Dietrich, Torphy and Simonis"
+  "AssociateId": 41,
+  "Name": "Quitzon, Cole and Berge"
 }
 ```

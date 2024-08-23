@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 506,
-  "Name": "Connelly Inc and Sons",
-  "ContentType": "itaque",
-  "AttSize": 46,
-  "InlineImage": true,
-  "ContentId": "temporibus",
-  "AuthKey": "molestias",
+  "AttachmentId": 207,
+  "Name": "Kris-Cruickshank",
+  "ContentType": "eos",
+  "AttSize": 641,
+  "InlineImage": false,
+  "ContentId": "iste",
+  "AuthKey": "ea",
   "IsSafeFileExtension": true
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 7,
-  "Name": "Batz, Kerluke and Bogan",
-  "ContentType": "facilis",
-  "AttSize": 486,
-  "InlineImage": true,
-  "ContentId": "harum",
-  "AuthKey": "nulla",
+  "AttachmentId": 91,
+  "Name": "Harvey Group",
+  "ContentType": "sit",
+  "AttSize": 86,
+  "InlineImage": false,
+  "ContentId": "ut",
+  "AuthKey": "laudantium",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   }
 }

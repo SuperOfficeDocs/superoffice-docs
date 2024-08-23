@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 458,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2006-07-10T04:22:26.4978545+02:00",
-  "EndTime": "2001-05-21T04:22:26.4978545+02:00",
-  "Count": 565
+  "PersonId": 114,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2013-12-31T13:28:22.4604993+01:00",
+  "EndTime": "2024-02-10T13:28:22.4604993+01:00",
+  "Count": 942
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 151,
-    "Attention": "facere",
-    "Header": "sequi",
-    "Name": "Carter Group",
-    "OurRef": "eaque",
-    "YourRef": "non",
-    "Description": "User-friendly modular migration",
-    "DocumentTemplate": "officiis",
-    "IsPublished": false,
-    "PersonId": 781,
-    "PersonFullName": "Mose Pearline Littel I",
-    "AssociateFullName": "Domenick Luettgen",
-    "ContactId": 381,
-    "ContactName": "Emmerich-Cronin",
-    "ProjectId": 648,
-    "ProjectName": "Strosin Group",
-    "AssociateId": 710,
-    "Snum": 315,
-    "SaleId": 84,
-    "SaleName": "Kautzer, Ullrich and Hansen",
+    "DocumentId": 651,
+    "Attention": "consequatur",
+    "Header": "facilis",
+    "Name": "Douglas, Kihn and Schiller",
+    "OurRef": "sed",
+    "YourRef": "deleniti",
+    "Description": "Ameliorated hybrid database",
+    "DocumentTemplate": "eaque",
+    "IsPublished": true,
+    "PersonId": 670,
+    "PersonFullName": "Timmy Ziemann",
+    "AssociateFullName": "Noble Senger",
+    "ContactId": 864,
+    "ContactName": "Halvorson LLC",
+    "ProjectId": 433,
+    "ProjectName": "Ritchie, Herzog and Spencer",
+    "AssociateId": 329,
+    "Snum": 509,
+    "SaleId": 649,
+    "SaleName": "Boehm-Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 484
       }
     }
   }

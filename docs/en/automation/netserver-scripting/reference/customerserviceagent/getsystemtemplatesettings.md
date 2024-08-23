@@ -2,10 +2,10 @@
 uid: customerserviceagent-getsystemtemplatesettings
 title: CustomerServiceAgent.GetSystemTemplateSettings event method
 description: Scripting events called on the GetSystemTemplateSettings method on the CustomerServiceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CustomerServiceAgent.GetSystemTemplateSettings
 

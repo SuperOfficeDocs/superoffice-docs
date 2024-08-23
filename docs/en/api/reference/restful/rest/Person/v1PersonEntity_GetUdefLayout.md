@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 713,
-    "ColumnId": 406,
-    "FieldDefault": "vel",
-    "FieldHeight": 934,
-    "FieldLabel": "consectetur",
-    "FieldLeft": 342,
-    "FieldTop": 102,
+    "UDefFieldId": 614,
+    "ColumnId": 909,
+    "FieldDefault": "nam",
+    "FieldHeight": 625,
+    "FieldLabel": "tempora",
+    "FieldLeft": 318,
+    "FieldTop": 426,
     "FieldType": "Checkbox",
-    "FieldWidth": 390,
-    "FormatMask": "praesentium",
-    "HideLabel": true,
+    "FieldWidth": 272,
+    "FormatMask": "inventore",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 434,
-    "LabelLeft": 167,
-    "LabelTop": 270,
-    "LabelWidth": 631,
-    "LastVersionId": 988,
-    "ListTableId": 286,
-    "IsMandatory": true,
+    "LabelHeight": 115,
+    "LabelLeft": 610,
+    "LabelTop": 29,
+    "LabelWidth": 850,
+    "LastVersionId": 85,
+    "ListTableId": 43,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 79,
-    "ProgId": "pariatur",
+    "Page1LineNo": 929,
+    "ProgId": "ad",
     "IsReadOnly": false,
-    "ShortLabel": "sint",
-    "TabOrder": 685,
-    "TextLength": 582,
-    "Tooltip": "minima",
-    "UdefIdentity": 558,
-    "UDListDefinitionId": 821,
+    "ShortLabel": "ab",
+    "TabOrder": 706,
+    "TextLength": 240,
+    "Tooltip": "velit",
+    "UdefIdentity": 484,
+    "UDListDefinitionId": 458,
     "Justification": "Center",
-    "Version": 63,
-    "TemplateVariableName": "Jacobs, Cormier and McLaughlin",
-    "HasBeenPublished": false,
-    "MdoListName": "Batz-Kertzmann",
+    "Version": 312,
+    "TemplateVariableName": "Satterfield-Hermann",
+    "HasBeenPublished": true,
+    "MdoListName": "Oberbrunner-Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 116
       }
     }
   }

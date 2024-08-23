@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Toy LLC",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "UdListDefinitionId": 518,
-    "Rank": 271
+    "Id": 349,
+    "Name": "Ledner, Homenick and Maggio",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 232
   },
   {
-    "Id": 262,
-    "Name": "Toy LLC",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "UdListDefinitionId": 518,
-    "Rank": 271
+    "Id": 349,
+    "Name": "Ledner, Homenick and Maggio",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 232
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Kub, Hansen and Auer",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 942,
-    "Rank": 827,
+    "Id": 552,
+    "Name": "Batz, Crooks and Baumbach",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "UdListDefinitionId": 572,
+    "Rank": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldLength": 384
       }
     }
   }

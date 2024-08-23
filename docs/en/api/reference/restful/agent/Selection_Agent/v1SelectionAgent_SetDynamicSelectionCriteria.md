@@ -87,28 +87,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 82,
+  "SelectionId": 771,
   "Criteria": [
     {
-      "Name": "Wiegand-Abshire",
-      "Operator": "consequatur",
+      "Name": "Cummerata, Daniel and Robel",
+      "Operator": "maiores",
       "Values": [
-        "modi",
-        "libero"
+        "illum",
+        "animi"
       ],
       "DisplayValues": [
-        "recusandae",
-        "repudiandae"
+        "provident",
+        "fugiat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 770,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 789
+      "UniqueHash": 741
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Borer-Blanda",
-    "Operator": "fugiat",
+    "Name": "Crist, Smitham and Schneider",
+    "Operator": "maiores",
     "Values": [
-      "voluptas",
-      "dolorum"
+      "consequuntur",
+      "laboriosam"
     ],
     "DisplayValues": [
-      "quo",
-      "ab"
+      "dolor",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bosco-Sanford",
-        "Operator": "ratione",
+        "Name": "Nitzsche, Koch and Zboncak",
+        "Operator": "a",
         "Values": [
-          "dolor",
-          "dolorum"
+          "quis",
+          "et"
         ],
         "DisplayValues": [
-          "consequatur",
-          "odit"
+          "sed",
+          "aut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 319,
+        "InterParenthesis": 776,
         "InterOperator": "And",
-        "UniqueHash": 383
+        "UniqueHash": 5
       }
     ],
-    "InterParenthesis": 577,
+    "InterParenthesis": 211,
     "InterOperator": "And",
-    "UniqueHash": 340
+    "UniqueHash": 466
   }
 ]
 ```

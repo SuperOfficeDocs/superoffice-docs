@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 244,
-      "UniqueId": "vel",
-      "Name": "Bins LLC",
-      "Description": "Innovative mission-critical project",
-      "AssociateId": 259,
-      "Columns": 219,
+      "DashboardId": 735,
+      "UniqueId": "suscipit",
+      "Name": "Rau, Reilly and Green",
+      "Description": "Open-source tertiary time-frame",
+      "AssociateId": 836,
+      "Columns": 272,
       "Theme": null,
-      "VisibleForAll": 597,
+      "VisibleForAll": 971,
       "VisibleForAssociates": [
-        193,
-        134
+        156,
+        803
       ],
       "VisibleForGroups": [
-        146,
-        218
+        606,
+        318
       ],
-      "PinForAll": 578,
+      "PinForAll": 865,
       "PinForAssociates": [
-        754,
-        581
+        114,
+        573
       ],
       "PinForGroups": [
-        817,
-        930
+        399,
+        881
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 343
+          "FieldLength": 554
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 106,
-      "UniqueId": "cum",
-      "Name": "Swaniawski Group",
-      "Description": "Future-proofed bi-directional info-mediaries",
-      "AssociateId": 3,
-      "Columns": 693,
+      "DashboardId": 95,
+      "UniqueId": "enim",
+      "Name": "Hilpert, Emard and Barrows",
+      "Description": "Seamless modular neural-net",
+      "AssociateId": 989,
+      "Columns": 752,
       "Theme": null,
-      "VisibleForAll": 495,
+      "VisibleForAll": 662,
       "VisibleForAssociates": [
-        839,
-        825
+        70,
+        59
       ],
       "VisibleForGroups": [
-        216,
-        996
+        733,
+        636
       ],
-      "PinForAll": 6,
+      "PinForAll": 1002,
       "PinForAssociates": [
-        337,
-        247
+        298,
+        309
       ],
       "PinForGroups": [
-        165,
-        494
+        697,
+        27
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 769
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 668,
-      "UniqueId": "non",
-      "Name": "Zieme Group",
-      "Description": "Optimized coherent secured line",
-      "AssociateId": 391,
-      "Columns": 821,
+      "DashboardId": 772,
+      "UniqueId": "voluptatem",
+      "Name": "Ullrich-Konopelski",
+      "Description": "Extended object-oriented process improvement",
+      "AssociateId": 590,
+      "Columns": 571,
       "Theme": null,
-      "VisibleForAll": 159,
+      "VisibleForAll": 798,
       "VisibleForAssociates": [
-        270,
-        680
+        364,
+        182
       ],
       "VisibleForGroups": [
-        188,
-        166
+        4,
+        982
       ],
-      "PinForAll": 835,
+      "PinForAll": 180,
       "PinForAssociates": [
-        993,
-        37
+        719,
+        83
       ],
       "PinForGroups": [
-        120,
-        37
+        138,
+        921
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldLength": 801
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 667
     }
   }
 }

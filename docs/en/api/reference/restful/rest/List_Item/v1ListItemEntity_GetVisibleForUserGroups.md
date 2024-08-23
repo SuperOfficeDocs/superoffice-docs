@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Bartell, Abernathy and Bergnaum",
-    "ToolTip": "Fuga sit quas quis nisi dignissimos.",
+    "Id": 27,
+    "Name": "Green, VonRueden and Pagac",
+    "ToolTip": "Placeat inventore non officiis voluptas.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "ut",
-    "ColorBlock": 543,
-    "IconHint": "ipsa",
+    "Rank": 14,
+    "Type": "quo",
+    "ColorBlock": 692,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2001-02-14T04:22:35.7834778+01:00",
+    "LastChanged": "2016-05-09T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Abernathy-Feest",
-        "ToolTip": "Corporis aut quos dignissimos inventore est iste.",
-        "Deleted": false,
-        "Rank": 349,
-        "Type": "quaerat",
-        "ColorBlock": 857,
-        "IconHint": "fuga",
+        "Id": 756,
+        "Name": "Nader Group",
+        "ToolTip": "Facilis sit suscipit aliquam.",
+        "Deleted": true,
+        "Rank": 865,
+        "Type": "tempora",
+        "ColorBlock": 159,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2015-12-16T04:22:35.7834778+01:00",
+        "LastChanged": "2021-06-18T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Keaton Crist",
+        "ExtraInfo": "optio",
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Jeffry Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldType": "System.String",
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "qui",
+    "ExtraInfo": "sed",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Deanna Von",
+    "FullName": "Vena Ella Zieme Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 587
       }
     }
   }

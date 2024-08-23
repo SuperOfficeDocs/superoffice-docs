@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vitae",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vitae",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 518,
-  "Name": "Grimes, Christiansen and Johnston",
-  "Description": "Cross-platform maximized interface",
-  "WelcomeMessage": "occaecati",
+  "ChatTopicId": 84,
+  "Name": "VonRueden Group",
+  "Description": "Reduced national archive",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "2024-01-30T04:22:34.7340022+01:00",
-  "SecondsPrAccept": 525,
-  "AlertRecipient": "illum",
+  "LastAccept": "2008-06-02T13:28:31.3668129+02:00",
+  "SecondsPrAccept": 753,
+  "AlertRecipient": "possimus",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "ipsa",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "at",
-  "WarnNewChatMinutes": 798,
-  "WarnManagerNewChatMinutes": 453,
+  "CollectConsent": false,
+  "BadgeHeader": "eum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 269,
+  "WarnManagerNewChatMinutes": 58,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -185,25 +185,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 159,
-  "WarnManagerChatMessageMinutes": 92,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 265,
+  "WarnManagerChatMessageMinutes": 11,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 72,
-  "OfflineFormQueueLength": 598,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "aliquid",
+  "OfflineFormTimeLimit": 62,
+  "OfflineFormQueueLength": 354,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -3,9 +3,9 @@ uid: DocumentQuoteLineInnerData
 title: DocumentQuoteLineInnerData
 description: 
 keywords: DocumentQuoteLineInnerData archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentQuoteLineInnerData"
@@ -250,7 +250,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/extraField1,alternative/version/quote/sale/personId,alternative/version/quote/connection/connectorName
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/probPercent,alternative/version/sent,alternative/version/quote/sale/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

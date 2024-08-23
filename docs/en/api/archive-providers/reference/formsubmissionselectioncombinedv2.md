@@ -3,9 +3,9 @@ uid: FormSubmissionSelectionCombinedV2
 title: FormSubmissionSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: FormSubmissionSelectionCombinedV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FormSubmissionSelectionCombinedV2"
@@ -479,7 +479,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=registeredBy,person/personAssociate/personEmail,person/correspondingAssociate/assocName,contact/restrictionAddress/county,contact/contactInterestIds
+GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/correspondingAssociate/middleName,contact/contactUdef/SuperOffice:8,contact/contactUdef/SuperOffice:12
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 61,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 36,
-  "Name": "Bednar LLC",
-  "Description": "Stand-alone grid-enabled service-desk",
-  "Currency": "saepe",
-  "CurrencyName": "Cartwright, Hansen and Hagenes",
-  "ValidFrom": "2017-02-10T04:22:27.393494+01:00",
-  "ValidTo": "2003-02-10T04:22:27.393494+01:00",
-  "IsActive": false
+  "PriceListId": 587,
+  "ERPPriceListKey": "explicabo",
+  "QuoteConnectionId": 670,
+  "Name": "Carroll Group",
+  "Description": "Right-sized intermediate help-desk",
+  "Currency": "voluptatem",
+  "CurrencyName": "Runolfsdottir LLC",
+  "ValidFrom": "2010-01-26T13:28:23.5386436+01:00",
+  "ValidTo": "2003-01-08T13:28:23.5386436+01:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 763,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 878,
-  "Name": "Rohan, Kirlin and Swaniawski",
-  "Description": "Pre-emptive 3rd generation secured line",
-  "Currency": "voluptate",
-  "CurrencyName": "Cormier-Russel",
-  "ValidFrom": "2011-03-28T04:22:27.393494+02:00",
-  "ValidTo": "2006-11-26T04:22:27.393494+01:00",
+  "PriceListId": 451,
+  "ERPPriceListKey": "voluptatibus",
+  "QuoteConnectionId": 674,
+  "Name": "Bogan, Bogisich and Schulist",
+  "Description": "Organic motivating solution",
+  "Currency": "eius",
+  "CurrencyName": "Greenfelder, Cummerata and Johnson",
+  "ValidFrom": "2009-02-25T13:28:23.5386436+01:00",
+  "ValidTo": "2015-10-05T13:28:23.5386436+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldType": "System.String",
+      "FieldLength": 389
     }
   }
 }

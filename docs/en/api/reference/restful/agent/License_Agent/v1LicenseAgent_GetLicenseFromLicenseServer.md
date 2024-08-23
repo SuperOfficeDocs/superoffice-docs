@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Beatty Group"
+  "OwnerName": "Ritchie Inc and Sons"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "utilize bricks-and-clicks web services",
-  "CanBeActivated": false,
+  "Reason": "",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 649,
-      "NumberOfLicensesFree": 722,
-      "NumberOfLicensesAdded": 996,
-      "NumberOfLicensesNewTotal": 956,
-      "NumberOfLicensesNewFree": 795,
-      "NumberOfLicensesTotal": 487
+      "NumberOfLicensesInUse": 947,
+      "NumberOfLicensesFree": 285,
+      "NumberOfLicensesAdded": 195,
+      "NumberOfLicensesNewTotal": 347,
+      "NumberOfLicensesNewFree": 848,
+      "NumberOfLicensesTotal": 145
     }
   ],
-  "AccumulatedNextCheckDate": "2013-03-27T04:22:26.8911471+01:00"
+  "AccumulatedNextCheckDate": "2013-03-21T13:28:22.866653+01:00"
 }
 ```

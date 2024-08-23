@@ -58,6 +58,8 @@ The TicketTypeEntity to be created.
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 | VisibleForGroups | Array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | Boolean | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | Boolean | Set external access level when replying the message |
 
 ## Response:
 
@@ -88,6 +90,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -97,36 +101,38 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 899,
-  "Name": "Hermann-Gibson",
-  "Rank": 210,
-  "Tooltip": "facere",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 409,
+  "TicketTypeId": 601,
+  "Name": "Wilderman Group",
+  "Rank": 732,
+  "Tooltip": "quae",
+  "Icon": "dignissimos",
+  "DefaultTicketStatus": 735,
   "TicketStatuses": [
-    479,
-    217
+    680,
+    124
   ],
-  "DefaultTicketPriority": 841,
+  "DefaultTicketPriority": 22,
   "TicketPriorities": [
-    659,
-    330
+    166,
+    976
   ],
-  "ReplyTemplate": 605,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 683,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    374,
-    364
-  ]
+    376,
+    921
+  ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -137,38 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 328,
-  "Name": "Kunde, O'Connell and Schoen",
-  "Rank": 685,
-  "Tooltip": "ipsam",
-  "Icon": "expedita",
-  "DefaultTicketStatus": 128,
+  "TicketTypeId": 571,
+  "Name": "Hudson Group",
+  "Rank": 512,
+  "Tooltip": "deleniti",
+  "Icon": "ab",
+  "DefaultTicketStatus": 514,
   "TicketStatuses": [
-    548,
-    929
+    509,
+    992
   ],
-  "DefaultTicketPriority": 61,
+  "DefaultTicketPriority": 907,
   "TicketPriorities": [
-    768,
-    456
+    129,
+    219
   ],
-  "ReplyTemplate": 1002,
+  "ReplyTemplate": 176,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    549,
-    938
+    11,
+    141
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 780
     }
   }
 }

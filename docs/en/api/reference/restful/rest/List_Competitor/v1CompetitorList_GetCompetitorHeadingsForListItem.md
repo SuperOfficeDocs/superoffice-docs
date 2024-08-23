@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Kirlin LLC",
-    "ToolTip": "Asperiores et porro.",
-    "Deleted": false,
-    "Rank": 186,
-    "Type": "minus",
-    "ColorBlock": 554,
-    "IconHint": "tenetur",
+    "Id": 329,
+    "Name": "Beer Inc and Sons",
+    "ToolTip": "Magnam aut.",
+    "Deleted": true,
+    "Rank": 357,
+    "Type": "ea",
+    "ColorBlock": 861,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2012-09-28T04:22:35.8465939+02:00",
+    "LastChanged": "2023-06-09T13:28:32.7103906+02:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Kulas, Bergnaum and Kihn",
-        "ToolTip": "Non similique quam libero architecto necessitatibus nulla.",
+        "Id": 662,
+        "Name": "Orn-Bode",
+        "ToolTip": "Et aperiam dolores soluta labore quos ratione vel.",
         "Deleted": false,
-        "Rank": 655,
-        "Type": "aut",
-        "ColorBlock": 535,
-        "IconHint": "eum",
+        "Rank": 492,
+        "Type": "repellat",
+        "ColorBlock": 865,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2021-03-02T04:22:35.8465939+01:00",
+        "LastChanged": "2020-11-13T13:28:32.7103906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "quod",
-        "Hidden": true,
-        "FullName": "Jeffrey Haley",
+        "ExtraInfo": "natus",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Dr. Yazmin Conn II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 241
+            "FieldLength": 285
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "non",
+    "ExtraInfo": "enim",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Khalid Hauck",
+    "FullName": "Miss Magdalen Daugherty PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

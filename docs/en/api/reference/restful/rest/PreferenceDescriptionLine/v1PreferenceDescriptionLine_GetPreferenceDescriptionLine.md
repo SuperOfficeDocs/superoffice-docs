@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 808,
-  "PrefDescId": 426,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "dolor",
-  "Description": "Adaptive fault-tolerant knowledge base",
-  "IsBuiltin": true,
+  "PrefDescLineId": 304,
+  "PrefDescId": 263,
+  "PrefValue": "officia",
+  "PrefShowValue": "laboriosam",
+  "Description": "Distributed methodical methodology",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   },
   "_Links": {

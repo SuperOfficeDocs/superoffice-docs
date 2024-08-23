@@ -72,7 +72,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Will, Cremin and Nader",
-  "DisplayName": "Bashirian LLC",
-  "Description": "Upgradable foreground budgetary management",
-  "ShortLabel": "consequatur",
+  "FieldName": "Zboncak, Medhurst and Schinner",
+  "DisplayName": "Senger-Wuckert",
+  "Description": "Managed next generation local area network",
+  "ShortLabel": "maiores",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 864,
-  "TemplateVariableName": "Turcotte, Barton and Kilback"
+  "IsDisplayField": false,
+  "Rank": 816,
+  "TemplateVariableName": "Veum Inc and Sons"
 }
 ```

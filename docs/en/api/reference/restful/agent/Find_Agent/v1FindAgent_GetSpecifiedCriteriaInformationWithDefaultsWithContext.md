@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sapiente",
-  "ProviderName": "Pagac Inc and Sons",
-  "StorageKey": "officiis",
+  "StorageType": "aliquam",
+  "ProviderName": "Blanda LLC",
+  "StorageKey": "tenetur",
   "DesiredColumnNames": [
-    "Moore, Wilderman and Lynch",
-    "Fadel Group"
+    "Witting, Schroeder and Grant",
+    "Hodkiewicz, Keeling and Treutel"
   ],
   "StaticColumns": [
-    "nobis",
-    "sed"
+    "porro",
+    "voluptatem"
   ],
-  "Context": "inventore"
+  "Context": "temporibus"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Batz, Dickinson and Grant",
-      "Operator": "atque",
+      "Name": "Cole Inc and Sons",
+      "Operator": "qui",
       "Values": [
-        "et",
-        "possimus"
+        "facere",
+        "distinctio"
       ],
       "DisplayValues": [
-        "aliquid",
-        "et"
+        "aspernatur",
+        "soluta"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 111,
+      "InterParenthesis": 318,
       "InterOperator": "And",
-      "UniqueHash": 205
+      "UniqueHash": 612
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wilkinson, Hansen and Towne",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "ad",
-      "CanOrderBy": true,
-      "Name": "Vandervort, Nienow and Gislason",
-      "CanRestrictBy": true,
-      "RestrictionType": "quidem",
-      "RestrictionListName": "Herman Inc and Sons",
+      "DisplayName": "Johnson-Runolfsdottir",
+      "DisplayTooltip": "incidunt",
+      "DisplayType": "voluptate",
+      "CanOrderBy": false,
+      "Name": "Treutel LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Mante LLC",
       "IsVisible": false,
-      "ExtraInfo": "culpa",
-      "Width": "et",
-      "IconHint": "rerum",
-      "HeadingIconHint": "sequi"
+      "ExtraInfo": "magnam",
+      "Width": "qui",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Leannon, Keeling and Howell",
-      "PrimaryKey": 242,
+      "EntityName": "Tromp-Mueller",
+      "PrimaryKey": 635,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "inventore",
-          "TooltipHint": "qui",
-          "LinkHint": "maiores"
+          "DisplayValue": "non",
+          "TooltipHint": "quasi",
+          "LinkHint": "modi"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "rerum",
+      "LinkHint": "quia",
+      "StyleHint": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldLength": 89
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cruickshank, Kunde and Brown",
-      "Description": "Decentralized explicit concept",
-      "Rank": 926,
+      "Name": "Langworth-Casper",
+      "Description": "Inverse zero tolerance definition",
+      "Rank": 555,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cruickshank, Kunde and Brown",
-      "Description": "Decentralized explicit concept",
-      "Rank": 926,
+      "Name": "Langworth-Casper",
+      "Description": "Inverse zero tolerance definition",
+      "Rank": 555,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

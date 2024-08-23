@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=414
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=636
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 986,
+  "EjMessageId": 569,
   "Ticket": null,
-  "CreatedAt": "2012-02-17T04:22:28.00688+01:00",
+  "CreatedAt": "2015-12-28T13:28:24.0697414+01:00",
   "CreatedBy": null,
-  "Author": "explicabo",
+  "Author": "perspiciatis",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "et",
-  "TimeSpent": 229,
-  "Body": "labore",
-  "HtmlBody": "praesentium",
-  "EmailHeader": "ivory_bechtelar@roobjohns.us",
-  "DebugInfo": "id",
-  "MailSorter": "voluptas",
+  "TimeSpent": 32,
+  "Body": "provident",
+  "HtmlBody": "ducimus",
+  "EmailHeader": "violet@nader.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "magnam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "incidunt",
+  "SearchTitle": "ex",
   "MessageHeaders": [
     {
-      "Id": 801,
-      "Name": "Reinger, Turner and Nitzsche",
-      "Value": "voluptates",
+      "Id": 1002,
+      "Name": "Cummerata-Witting",
+      "Value": "autem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 75
         }
       }
     }
   ],
   "Important": true,
-  "Language": "quas",
-  "Sentiment": 69,
-  "SentimentConfidence": 4,
+  "Language": "exercitationem",
+  "Sentiment": 29,
+  "SentimentConfidence": 808,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 901,
-      "Name": "Wolf Inc and Sons",
-      "ContentType": "vel",
-      "AttSize": 295,
+      "AttachmentId": 733,
+      "Name": "Upton-Dibbert",
+      "ContentType": "voluptas",
+      "AttSize": 473,
       "InlineImage": false,
-      "ContentId": "repellat",
-      "AuthKey": "eveniet",
-      "IsSafeFileExtension": true,
+      "ContentId": "maiores",
+      "AuthKey": "architecto",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 673
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "facere",
+    "CustomFields2": "iure"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 127
     }
   }
 }

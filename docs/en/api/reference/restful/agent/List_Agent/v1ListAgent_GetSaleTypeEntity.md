@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=934
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=278
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 58,
-  "Name": "Brakus LLC",
-  "Tooltip": "autem",
-  "Rank": 150,
+  "SaleTypeId": 259,
+  "Name": "Casper-Kautzer",
+  "Tooltip": "culpa",
+  "Rank": 719,
   "DurationUnit": "Century",
-  "SaleDuration": 14,
-  "SaleTypeCatId": 919,
+  "SaleDuration": 494,
+  "SaleTypeCatId": 751,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 1000,
-  "QuoteLinesTemplate": 944,
-  "ConfirmationLinesTemplate": 516,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 712,
+  "QuoteLinesTemplate": 271,
+  "ConfirmationLinesTemplate": 470,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 26,
-  "MinEarningPercent": 378,
-  "GroupQuoteLinesBy": 14,
-  "SortGroupLinesBy": 370,
+  "MaxDiscountPercent": 127,
+  "MinEarningPercent": 432,
+  "GroupQuoteLinesBy": 940,
+  "SortGroupLinesBy": 128,
   "Stages": [
     {
-      "Id": 357,
-      "Name": "Fahey Group",
-      "ToolTip": "Voluptate quibusdam et maiores sint et velit.",
+      "Id": 243,
+      "Name": "Jast LLC",
+      "ToolTip": "Vitae neque molestiae voluptate voluptatem qui dignissimos cumque.",
       "Deleted": false,
-      "Rank": 843,
-      "Type": "est",
-      "ColorBlock": 782,
-      "IconHint": "expedita",
-      "Selected": true,
-      "LastChanged": "2005-07-03T04:22:26.9536139+02:00",
+      "Rank": 287,
+      "Type": "eaque",
+      "ColorBlock": 302,
+      "IconHint": "ad",
+      "Selected": false,
+      "LastChanged": "2022-11-12T13:28:22.9294051+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "eum",
+      "ExtraInfo": "harum",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Joseph Heidenreich",
+      "FullName": "Ashley Baumbach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 14
     }
   }
 }

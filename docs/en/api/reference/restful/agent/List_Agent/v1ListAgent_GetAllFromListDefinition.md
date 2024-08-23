@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 376,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 840,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Walker-Crona",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "UdListDefinitionId": 717,
-    "Rank": 960,
+    "Id": 861,
+    "Name": "Kunze-Ziemann",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "UdListDefinitionId": 234,
+    "Rank": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 759
       }
     }
   }

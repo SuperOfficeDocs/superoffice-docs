@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=629
+POST /api/v1/Agents/Sale/GetSale?saleId=401
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Moen-Emmerich",
-  "SaleDate": "2013-08-13T04:22:27.5180247+02:00",
-  "SaleId": 336,
-  "Probability": 889,
-  "Title": "porro",
-  "Amount": 2651.364,
-  "Currency": "enim",
-  "ProjectName": "King-Mann",
-  "AssociateFullName": "Lilla Rashad Moore I",
-  "Description": "Face to face holistic monitoring",
+  "ContactName": "Stoltenberg Group",
+  "SaleDate": "2012-03-18T13:28:23.6636125+01:00",
+  "SaleId": 495,
+  "Probability": 1001,
+  "Title": "at",
+  "Amount": 720.81999999999994,
+  "Currency": "ab",
+  "ProjectName": "Ziemann, Conn and Quigley",
+  "AssociateFullName": "Daphne Weimann",
+  "Description": "Expanded bifurcated product",
   "Status": "Lost",
-  "WeightedAmount": 11906.065999999999,
-  "ProjectId": 277,
-  "EarningPercent": 441.894,
-  "Earning": 12467.052,
-  "ContactId": 432,
-  "AssociateId": 264,
-  "PersonId": 95,
-  "SaleTypeId": 522,
-  "SaleTypeName": "Wyman, Ritchie and Bednar",
-  "PersonFullName": "Baby Fahey",
+  "WeightedAmount": 20825.43,
+  "ProjectId": 245,
+  "EarningPercent": 8938.168,
+  "Earning": 23410.98,
+  "ContactId": 193,
+  "AssociateId": 279,
+  "PersonId": 427,
+  "SaleTypeId": 242,
+  "SaleTypeName": "Daugherty, Conn and Lueilwitz",
+  "PersonFullName": "Emil Jay Hayes PhD",
   "Completed": "Completed",
-  "ActiveErpLinks": 382,
-  "NextDueDate": "2005-06-18T04:22:27.5180247+02:00",
-  "Number": "817244",
+  "ActiveErpLinks": 735,
+  "NextDueDate": "2016-10-19T13:28:23.6636125+02:00",
+  "Number": "396690",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldLength": 589
     }
   }
 }

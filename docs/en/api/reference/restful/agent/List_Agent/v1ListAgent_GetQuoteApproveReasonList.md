@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Value": "et",
-    "Tooltip": "veniam",
+    "Id": 4,
+    "Value": "enim",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 598
       }
     }
   },
   {
-    "Id": 253,
-    "Value": "et",
-    "Tooltip": "veniam",
+    "Id": 4,
+    "Value": "enim",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 598
       }
     }
   }

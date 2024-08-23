@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aliquid",
+  "UniqueIdentifier": "quod",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ex",
-  "Name": "Rohan-Bogisich",
-  "Description": "Secured tangible Graphical User Interface",
-  "IncludeId": "laborum",
-  "Source": "blanditiis",
-  "Registered": "2024-02-19T04:22:26.3090583+01:00",
-  "RegisteredBy": "doloremque",
-  "Updated": "2007-04-06T04:22:26.3090583+02:00",
-  "UpdatedBy": "minus",
-  "Path": "deserunt",
+  "UniqueIdentifier": "dolor",
+  "Name": "Kulas-Abshire",
+  "Description": "Synergistic executive framework",
+  "IncludeId": "molestiae",
+  "Source": "assumenda",
+  "Registered": "2008-01-25T13:28:22.3511449+01:00",
+  "RegisteredBy": "repellendus",
+  "Updated": "2021-09-27T13:28:22.3511449+02:00",
+  "UpdatedBy": "labore",
+  "Path": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 39
     }
   }
 }

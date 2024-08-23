@@ -63,6 +63,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </List:VisibleForGroups>
+     <List:ReplyForwardNoSignature xsi:type="xsd:boolean">false</List:ReplyForwardNoSignature>
+     <List:ReplyExternalAsDefault xsi:type="xsd:boolean">false</List:ReplyExternalAsDefault>
     </List:TicketTypeEntity>
    </List:SaveTicketTypeEntity>
 
@@ -110,6 +112,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </List:VisibleForGroups>
+    <List:ReplyForwardNoSignature xsi:type="xsd:boolean">false</List:ReplyForwardNoSignature>
+    <List:ReplyExternalAsDefault xsi:type="xsd:boolean">false</List:ReplyExternalAsDefault>
    </List:Response>
   </List:SaveTicketTypeEntityResponse>
  </SOAP-ENV:Body>

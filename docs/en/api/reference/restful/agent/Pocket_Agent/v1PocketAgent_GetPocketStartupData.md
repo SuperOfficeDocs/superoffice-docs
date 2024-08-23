@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "deleniti",
-    "vel"
+    "debitis",
+    "enim"
   ],
-  "CurrentClientTime": "2002-03-17T04:22:27.2841162+01:00"
+  "CurrentClientTime": "2010-01-16T13:28:23.2730777+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "veritatis",
-    "facere"
+    "pariatur",
+    "et"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 462,
-  "NotificationsCount": 690,
+  "OverdueSalesCount": 798,
+  "NotificationsCount": 40,
   "SystemWebPanels": [
     {
-      "WebPanelId": 178,
-      "Name": "Brown Inc and Sons",
-      "Tooltip": "necessitatibus",
-      "Deleted": false,
-      "Rank": 758,
+      "WebPanelId": 772,
+      "Name": "Yundt Group",
+      "Tooltip": "minus",
+      "Deleted": true,
+      "Rank": 248,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
+      "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": false,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Halvorson-Thiel",
+      "WindowName": "Ortiz Group",
       "Url": "http://www.example.com/",
-      "ProgId": "ad",
-      "Icon": 711,
-      "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": false,
+      "ProgId": "amet",
+      "Icon": 233,
+      "AlwaysReloadOnShow": true,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "sint",
+      "RawValue": "repudiandae",
       "Specification": null,
-      "DisplayValue": "aliquam",
-      "DisplayTooltip": "necessitatibus",
+      "DisplayValue": "ut",
+      "DisplayTooltip": "ut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 874,
-      "PrefDescId": 984,
-      "TableName": "Schimmel, Reynolds and Lesch",
-      "UserPreferenceId": 872,
+      "TargetId": 199,
+      "PrefDescId": 722,
+      "TableName": "Wehner, Sporer and Krajcik",
+      "UserPreferenceId": 571,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 29
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "debitis",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 730
     }
   }
 }

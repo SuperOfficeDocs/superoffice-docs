@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=similique
-GET /api/v1/Selection?$top=679
-GET /api/v1/Selection?$skip=677
+GET /api/v1/Selection?$entities=sequi
+GET /api/v1/Selection?$top=9
+GET /api/v1/Selection?$skip=531
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=iste
+GET /api/v1/Selection?$context=veritatis
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "beatae",
+  "odata.nextLink": "recusandae",
   "value": [
     {
-      "PrimaryKey": 5781,
+      "PrimaryKey": 1652,
       "EntityName": "sale",
-      "saleId": 5781,
-      "contactId": 1749,
-      "name": "Stoltenberg, Reichel and Monahan"
+      "saleId": 1652,
+      "contactId": 6759,
+      "name": "Williamson Inc and Sons"
     },
     {
-      "PrimaryKey": 4934,
+      "PrimaryKey": 7413,
       "EntityName": "sale",
-      "saleId": 4934,
-      "contactId": 3869,
-      "name": "Satterfield Group"
+      "saleId": 7413,
+      "contactId": 4664,
+      "name": "Konopelski-Kshlerin"
     }
   ]
 }

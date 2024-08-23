@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 445,
+  "Id": 666,
   "IncludeAttachments": false
 }
 ```
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 452,
-      "ContactName": "Kunze Group",
-      "PersonId": 227,
-      "PersonName": "Hettinger, Wehner and Kuvalis",
-      "AssociateId": 121,
-      "Address": "suscipit",
-      "EmailId": 93,
+      "ContactId": 785,
+      "ContactName": "Reichert, Schuppe and Mertz",
+      "PersonId": 856,
+      "PersonName": "Lubowitz, Kuvalis and Reichel",
+      "AssociateId": 791,
+      "Address": "provident",
+      "EmailId": 52,
       "DuplicatePersonIds": [
-        583,
-        205
+        892,
+        863
       ],
-      "Name": "Aufderhar, Walsh and Mraz",
+      "Name": "Quitzon, Lynch and Bode",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldType": "System.String",
+          "FieldLength": 612
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 965,
-      "ContactName": "Schumm, Douglas and Kunze",
-      "PersonId": 995,
-      "PersonName": "Lockman, Jewess and Pagac",
-      "AssociateId": 365,
-      "Address": "exercitationem",
-      "EmailId": 851,
+      "ContactId": 564,
+      "ContactName": "Marquardt-Shields",
+      "PersonId": 163,
+      "PersonName": "Murray, Bosco and Anderson",
+      "AssociateId": 358,
+      "Address": "alias",
+      "EmailId": 263,
       "DuplicatePersonIds": [
-        424,
-        804
+        53,
+        114
       ],
-      "Name": "Bins Group",
+      "Name": "Upton-Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 266
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 356,
-      "ContactName": "Heaney LLC",
-      "PersonId": 384,
-      "PersonName": "Rowe-Parker",
-      "AssociateId": 689,
-      "Address": "illo",
-      "EmailId": 924,
+      "ContactId": 423,
+      "ContactName": "Lang Inc and Sons",
+      "PersonId": 172,
+      "PersonName": "Collier, Metz and Rempel",
+      "AssociateId": 976,
+      "Address": "odit",
+      "EmailId": 567,
       "DuplicatePersonIds": [
-        509,
-        849
+        169,
+        77
       ],
-      "Name": "Bartell Inc and Sons",
+      "Name": "Keebler, Rosenbaum and Bednar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 831
         }
       }
     }
   ],
-  "Subject": "minus",
-  "HTMLBody": "quia",
+  "Subject": "consequatur",
+  "HTMLBody": "quas",
   "From": null,
-  "Sent": "2007-03-29T04:22:26.7924683+02:00",
-  "Size": 584,
+  "Sent": "2019-02-16T13:28:22.7729236+01:00",
+  "Size": 628,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "officiis",
-  "PlainBody": "consequatur",
-  "IsSent": false,
+  "MessageID": "doloremque",
+  "PlainBody": "ex",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 304,
+  "ServerId": 437,
   "Attachments": [
     {
-      "Description": "Enhanced full-range task-force",
-      "Filename": "ipsam",
-      "Size": 14,
-      "Type": "non",
-      "Encoding": "quam",
-      "Id": "nostrum",
-      "Disposition": "cumque",
-      "IsSafeFileExtension": true,
+      "Description": "Total fault-tolerant strategy",
+      "Filename": "omnis",
+      "Size": 79,
+      "Type": "vel",
+      "Encoding": "totam",
+      "Id": "est",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 915
+          "FieldLength": 201
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Langworth Inc and Sons",
+      "Name": "Predovic, Goldner and Tillman",
       "Values": [
-        "sit",
-        "et"
+        "ducimus",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldType": "System.String",
+          "FieldLength": 237
         }
       }
     },
     {
-      "Name": "Langworth Inc and Sons",
+      "Name": "Predovic, Goldner and Tillman",
       "Values": [
-        "sit",
-        "et"
+        "ducimus",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldType": "System.String",
+          "FieldLength": 237
         }
       }
     }
   ],
-  "FolderName": "Kassulke, Mertz and Goldner",
-  "EmailItemId": 533,
-  "AccountId": 445,
-  "ReceivedAt": "1998-06-07T04:22:26.7924683+02:00",
+  "FolderName": "Osinski, Shanahan and Tremblay",
+  "EmailItemId": 219,
+  "AccountId": 83,
+  "ReceivedAt": "1999-11-06T13:28:22.7729236+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-02-20T04:22:26.7924683+01:00",
+  "RepliedAt": "2015-05-15T13:28:22.7729236+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 714
+      "FieldLength": 539
     }
   }
 }

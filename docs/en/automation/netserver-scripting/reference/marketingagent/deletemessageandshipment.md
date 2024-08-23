@@ -2,10 +2,10 @@
 uid: marketingagent-deletemessageandshipment
 title: MarketingAgent.DeleteMessageAndShipment event method
 description: Scripting events called on the DeleteMessageAndShipment method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.DeleteMessageAndShipment
 

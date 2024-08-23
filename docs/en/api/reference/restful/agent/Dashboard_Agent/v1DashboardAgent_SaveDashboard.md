@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 57,
-  "AssociateId": 518,
-  "Caption": "animi",
+  "DashboardId": 874,
+  "AssociateId": 925,
+  "Caption": "doloribus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 135,
-      "Caption": "et",
-      "Description": "Horizontal user-facing initiative",
-      "ChartName": "Hayes, Bernier and Carter",
-      "ChartId": "ut",
+      "DashboardTileId": 513,
+      "Caption": "dolore",
+      "Description": "Front-line bottom-line access",
+      "ChartName": "Batz LLC",
+      "ChartId": "nostrum",
       "IsDefault": false,
-      "AssociateId": 446,
-      "GroupId": 502,
-      "SelectionId": 490,
-      "Config": "qui",
+      "AssociateId": 587,
+      "GroupId": 171,
+      "SelectionId": 693,
+      "Config": "expedita",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 916,
-  "AssociateId": 535,
-  "Caption": "hic",
+  "DashboardId": 959,
+  "AssociateId": 584,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 502,
-      "Caption": "qui",
-      "Description": "Organized asynchronous Graphical User Interface",
-      "ChartName": "Walker Inc and Sons",
-      "ChartId": "porro",
-      "IsDefault": false,
-      "AssociateId": 679,
-      "GroupId": 361,
-      "SelectionId": 685,
-      "Config": "expedita",
+      "DashboardTileId": 160,
+      "Caption": "dolorem",
+      "Description": "Programmable bifurcated infrastructure",
+      "ChartName": "Daugherty, King and Wilderman",
+      "ChartId": "autem",
+      "IsDefault": true,
+      "AssociateId": 550,
+      "GroupId": 629,
+      "SelectionId": 733,
+      "Config": "nihil",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 542
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   }
 }

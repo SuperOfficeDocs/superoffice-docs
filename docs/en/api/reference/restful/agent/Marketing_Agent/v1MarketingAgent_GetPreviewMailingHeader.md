@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 447
+  "ShipmentId": 589
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-08-08T04:22:27.0653754+02:00",
+  "StartDate": "2020-02-07T13:28:23.0543771+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 238,
-  "ShipmentDescription": "Optional background protocol",
-  "FromAddress": "necessitatibus",
-  "Configuration": 486,
-  "PersonId": 341,
-  "PersonFullName": "Wava Hintz",
-  "ShipmentType": "nemo",
-  "MessageId": 431,
-  "MessageSubject": "est",
-  "DocumentMessageId": 30,
-  "NumSent": 844,
-  "NumOpened": 45,
-  "NumBounced": 653,
-  "NumClicks": 117,
+  "ShipmentId": 454,
+  "ShipmentDescription": "Vision-oriented asynchronous pricing structure",
+  "FromAddress": "beatae",
+  "Configuration": 656,
+  "PersonId": 839,
+  "PersonFullName": "Dr. Coleman Johnson Kozey",
+  "ShipmentType": "laborum",
+  "MessageId": 462,
+  "MessageSubject": "autem",
+  "DocumentMessageId": 256,
+  "NumSent": 540,
+  "NumOpened": 851,
+  "NumBounced": 47,
+  "NumClicks": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldLength": 315
     }
   }
 }

@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 586,
-  "ERPProductKey": "iste"
+  "QuoteAlternativeId": 610,
+  "ERPProductKey": "iusto"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 408,
-  "ERPQuoteLineKey": "error",
-  "QuoteAlternativeId": 784,
-  "ERPProductKey": "est",
+  "QuoteLineId": 975,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 113,
+  "ERPProductKey": "voluptas",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 8442.996,
-  "DeliveredQuantity": 4663.392,
-  "Rank": 13,
-  "Name": "Feest, Hermann and Mills",
-  "Description": "Advanced contextually-based info-mediaries",
-  "Code": "sint",
-  "QuantityUnit": "a",
-  "PriceUnit": "officiis",
-  "ItemNumber": "770388",
+  "Quantity": 8289.43,
+  "DeliveredQuantity": 23630.36,
+  "Rank": 825,
+  "Name": "Balistreri-Beatty",
+  "Description": "Focused static project",
+  "Code": "quis",
+  "QuantityUnit": "minima",
+  "PriceUnit": "sequi",
+  "ItemNumber": "1559130",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "blanditiis",
-  "ProductTypeKey": "molestias",
-  "Supplier": "exercitationem",
-  "SupplierCode": "labore",
-  "Thumbnail": "optio",
-  "VATInfo": "voluptates",
-  "VAT": 16785.703999999998,
-  "UnitCost": 28246.742,
-  "UnitMinimumPrice": 16290.532,
-  "UnitListPrice": 5080.214,
+  "ProductFamilyKey": "soluta",
+  "ProductTypeKey": "aut",
+  "Supplier": "quia",
+  "SupplierCode": "dolorem",
+  "Thumbnail": "id",
+  "VATInfo": "unde",
+  "VAT": 22088.432,
+  "UnitCost": 27174.914,
+  "UnitMinimumPrice": 6785.11,
+  "UnitListPrice": 28522.534,
   "ExtraInfo": [
     {
-      "Name": "Torphy Group",
-      "Value": "labore",
+      "Name": "Romaguera-Mitchell",
+      "Value": "in",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldType": "System.String",
+          "FieldLength": 160
         }
       }
     },
     {
-      "Name": "Torphy Group",
-      "Value": "labore",
+      "Name": "Romaguera-Mitchell",
+      "Value": "in",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldType": "System.String",
+          "FieldLength": 160
         }
       }
     }
   ],
-  "RawExtraInfo": "illum",
+  "RawExtraInfo": "nulla",
   "IsSubscription": true,
-  "SubscriptionUnit": "porro",
-  "SubscriptionQuantity": 19847.622,
-  "SubscriptionStart": "2005-10-20T04:22:27.4247427+02:00",
-  "ERPDiscountPercent": 5080.214,
-  "ERPDiscountAmount": 10665.002,
-  "DiscountPercent": 11855.922,
-  "DiscountAmount": 21295.53,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 4274.776,
+  "SubscriptionStart": "2023-03-27T13:28:23.5855044+02:00",
+  "ERPDiscountPercent": 8524.48,
+  "ERPDiscountAmount": 24727.26,
+  "DiscountPercent": 22035.154,
+  "DiscountAmount": 21355.076,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22633.748,
-  "EarningAmount": 9768.678,
-  "SubTotal": 7355.498,
-  "TotalPrice": 12667.627999999999,
-  "Rights": "non",
-  "Rule": "nemo",
-  "ExtraField1": "nobis",
-  "ExtraField2": "qui",
-  "ExtraField3": "est",
-  "ExtraField4": "aut",
-  "ExtraField5": "accusantium",
+  "EarningPercent": 24357.448,
+  "EarningAmount": 5691.344,
+  "SubTotal": 9947.3159999999989,
+  "TotalPrice": 16459.768,
+  "Rights": "labore",
+  "Rule": "eos",
+  "ExtraField1": "et",
+  "ExtraField2": "autem",
+  "ExtraField3": "dolores",
+  "ExtraField4": "et",
+  "ExtraField5": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 905
     }
   }
 }

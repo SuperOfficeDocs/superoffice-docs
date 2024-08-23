@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Romaguera Group",
-    "ToolTip": "Pariatur perspiciatis quod similique et facilis.",
-    "Deleted": true,
-    "Rank": 224,
-    "Type": "molestiae",
-    "ColorBlock": 715,
-    "IconHint": "non",
+    "Id": 131,
+    "Name": "Franecki Inc and Sons",
+    "ToolTip": "Molestiae quasi tempora.",
+    "Deleted": false,
+    "Rank": 334,
+    "Type": "expedita",
+    "ColorBlock": 231,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-11-11T04:22:35.9247166+01:00",
+    "LastChanged": "1999-05-19T13:28:32.8197387+02:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Mraz, Mosciski and Cormier",
-        "ToolTip": "Corrupti veniam repellat.",
-        "Deleted": false,
-        "Rank": 654,
-        "Type": "rerum",
-        "ColorBlock": 458,
-        "IconHint": "qui",
+        "Id": 50,
+        "Name": "Schuppe LLC",
+        "ToolTip": "Id aspernatur quisquam.",
+        "Deleted": true,
+        "Rank": 352,
+        "Type": "numquam",
+        "ColorBlock": 257,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "1999-12-24T04:22:35.9247166+01:00",
+        "LastChanged": "1997-12-08T13:28:32.8197387+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Sincere Lind",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Cristian O'Connell MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 530
+            "FieldType": "System.Int32",
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Justina Langosh",
+    "ExtraInfo": "esse",
+    "StyleHint": "quidem",
+    "Hidden": true,
+    "FullName": "Elza Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 541
       }
     }
   }

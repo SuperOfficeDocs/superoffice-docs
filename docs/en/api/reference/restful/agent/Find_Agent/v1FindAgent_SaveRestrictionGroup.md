@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "numquam",
-  "ProviderName": "Monahan-Feil",
-  "StorageKey": "sunt",
+  "StorageType": "porro",
+  "ProviderName": "Maggio-Mills",
+  "StorageKey": "modi",
   "RestrictionGroup": null,
-  "Context": "qui"
+  "Context": "et"
 }
 ```
 

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 591,
-  "Name": "Gislason Inc and Sons",
-  "Description": "Integrated demand-driven concept",
+  "ReportLabelLayoutId": 991,
+  "Name": "Cartwright, Hamill and Wiza",
+  "Description": "Balanced uniform collaboration",
   "Orientation": "Landscape",
-  "PaperWidth": 30,
-  "PaperHeight": 915,
-  "LeftMargin": 103,
-  "RightMargin": 252,
-  "TopMargin": 914,
-  "BottomMargin": 905,
-  "CountColumns": 450,
-  "CountRows": 508,
+  "PaperWidth": 498,
+  "PaperHeight": 624,
+  "LeftMargin": 383,
+  "RightMargin": 707,
+  "TopMargin": 188,
+  "BottomMargin": 496,
+  "CountColumns": 4,
+  "CountRows": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

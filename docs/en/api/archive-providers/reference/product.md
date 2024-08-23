@@ -3,9 +3,9 @@ uid: Product
 title: Product
 description: This is the archive Provider for the Product Archive is SoAdmin.
 keywords: Product archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Product"

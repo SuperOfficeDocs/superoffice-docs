@@ -2,10 +2,10 @@
 uid: erpsyncagent-validatearchivecolumnconfig
 title: ErpSyncAgent.ValidateArchiveColumnConfig event method
 description: Scripting events called on the ValidateArchiveColumnConfig method on the ErpSyncAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ErpSyncAgent.ValidateArchiveColumnConfig
 

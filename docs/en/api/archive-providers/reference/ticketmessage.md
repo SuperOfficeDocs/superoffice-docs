@@ -3,9 +3,9 @@ uid: TicketMessage
 title: TicketMessage
 description: Messages on support tickets. Messages are typically e-mail messages with attachments, but not always.
 keywords: TicketMessage archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketMessage"
@@ -819,7 +819,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/categoryFullName,ticket/origin,ticket/content,ticket/ownedBy/isActiveText,ticket/ownedBy/isLocation
+GET /api/v1/archive/TicketMessage?$select=ticket/person/associateType,ticket/person/personUpdatedDate,ticket/person/personAssociate/fullName,ticket/contact/url/URLDescription,ticket/sale/visibleFor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

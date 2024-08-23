@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Collins-Schuppe",
-  "DisplayName": "Dickinson, Steuber and Balistreri",
-  "Description": "Sharable secondary utilisation",
-  "ShortLabel": "unde",
+  "FieldName": "Williamson, Weimann and Walsh",
+  "DisplayName": "Bahringer-Koch",
+  "Description": "Progressive coherent methodology",
+  "ShortLabel": "quaerat",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": true,
-  "Rank": 678,
-  "TemplateVariableName": "Heller, Jacobson and Emmerich"
+  "Rank": 50,
+  "TemplateVariableName": "Goodwin-Tromp"
 }
 ```

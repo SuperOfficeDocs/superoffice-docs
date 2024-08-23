@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Oct 2009 04:22:35 G10T
+Last-Modified: Wed, 18 Mar 1998 13:28:31 G3T
 
 {
-  "Key": "dolores",
-  "Value": "perspiciatis",
-  "RecordId": 414,
-  "CreatedDate": "2021-04-04T04:22:35.0010854+02:00",
-  "UpdatedDate": "2009-10-28T04:22:35.0010854+01:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "aliquid",
-  "TableName": "Haley LLC",
+  "Key": "explicabo",
+  "Value": "repellendus",
+  "RecordId": 379,
+  "CreatedDate": "2020-09-23T13:28:31.6948645+02:00",
+  "UpdatedDate": "1998-03-18T13:28:31.6948645+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "mollitia",
+  "TableName": "Gottlieb, Macejkovic and Hauck",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

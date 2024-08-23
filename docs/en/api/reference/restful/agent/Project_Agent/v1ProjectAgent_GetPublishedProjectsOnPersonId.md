@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 469
+  "PersonId": 941
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 569,
-    "Name": "Kunze, Paucek and Ullrich",
-    "Description": "Polarised bandwidth-monitored project",
+    "ProjectId": 405,
+    "Name": "Gerlach, O'Kon and Gutkowski",
+    "Description": "Front-line optimizing algorithm",
     "URL": "http://www.example.com/",
-    "Type": "commodi",
-    "AssociateId": 606,
-    "AssociateFullName": "Mrs. Haylee Beulah Johns MD",
-    "TypeId": 772,
-    "Updated": "2016-07-01T04:22:27.3466141+02:00",
-    "StatusId": 18,
-    "Status": "necessitatibus",
-    "TextId": 947,
-    "PublishTo": "2002-01-29T04:22:27.3466141+01:00",
-    "PublishFrom": "2006-01-13T04:22:27.3466141+01:00",
-    "IsPublished": true,
+    "Type": "voluptatibus",
+    "AssociateId": 537,
+    "AssociateFullName": "Amber Beatty",
+    "TypeId": 880,
+    "Updated": "2023-02-04T13:28:23.491777+01:00",
+    "StatusId": 143,
+    "Status": "at",
+    "TextId": 429,
+    "PublishTo": "2021-08-16T13:28:23.491777+02:00",
+    "PublishFrom": "2017-11-07T13:28:23.491777+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "515738",
-    "ActiveErpLinks": 424,
+    "ProjectNumber": "938932",
+    "ActiveErpLinks": 612,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 486
       }
     }
   }

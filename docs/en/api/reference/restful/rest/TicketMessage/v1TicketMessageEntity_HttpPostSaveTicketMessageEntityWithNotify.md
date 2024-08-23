@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 549,
+  "EjMessageId": 812,
   "Ticket": null,
-  "CreatedAt": "2013-12-19T04:22:35.5647298+01:00",
+  "CreatedAt": "2010-01-27T13:28:32.3823383+01:00",
   "CreatedBy": null,
-  "Author": "illum",
+  "Author": "deserunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 61,
-  "Body": "a",
-  "HtmlBody": "ratione",
-  "EmailHeader": "elvera@bergnaum.info",
-  "DebugInfo": "temporibus",
-  "MailSorter": "corrupti",
+  "MessageId": "amet",
+  "TimeSpent": 536,
+  "Body": "ipsum",
+  "HtmlBody": "quibusdam",
+  "EmailHeader": "rowland.hagenes@goldner.ca",
+  "DebugInfo": "ut",
+  "MailSorter": "esse",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 261,
-      "Name": "Turcotte LLC",
-      "Value": "est",
+      "Id": 6,
+      "Name": "Kris Group",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 261,
-      "Name": "Turcotte LLC",
-      "Value": "est",
+      "Id": 6,
+      "Name": "Kris Group",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "sunt",
-  "Sentiment": 188,
-  "SentimentConfidence": 785,
+  "Language": "repudiandae",
+  "Sentiment": 245,
+  "SentimentConfidence": 891,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 82,
-      "Name": "Tremblay, Cassin and Quitzon",
-      "ContentType": "vero",
-      "AttSize": 883,
-      "InlineImage": false,
-      "ContentId": "laboriosam",
-      "AuthKey": "molestias",
+      "AttachmentId": 577,
+      "Name": "Abernathy-Rodriguez",
+      "ContentType": "necessitatibus",
+      "AttSize": 251,
+      "InlineImage": true,
+      "ContentId": "nemo",
+      "AuthKey": "repellendus",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "minima"
+    "CustomFields1": "fuga",
+    "CustomFields2": "cumque"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 494,
+  "EjMessageId": 644,
   "Ticket": null,
-  "CreatedAt": "2017-09-11T04:22:35.5647298+02:00",
+  "CreatedAt": "2023-03-23T13:28:32.3823383+01:00",
   "CreatedBy": null,
-  "Author": "illo",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "magni",
-  "TimeSpent": 991,
-  "Body": "voluptas",
-  "HtmlBody": "rerum",
-  "EmailHeader": "alfonzo@yostleannon.ca",
-  "DebugInfo": "doloribus",
-  "MailSorter": "qui",
+  "MessageId": "incidunt",
+  "TimeSpent": 579,
+  "Body": "omnis",
+  "HtmlBody": "explicabo",
+  "EmailHeader": "ova@krisdavis.ca",
+  "DebugInfo": "aut",
+  "MailSorter": "maxime",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fugit",
+  "SearchTitle": "hic",
   "MessageHeaders": [
     {
-      "Id": 673,
-      "Name": "Stamm, Heaney and Sanford",
-      "Value": "voluptatem",
+      "Id": 445,
+      "Name": "Homenick Inc and Sons",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldType": "System.Int32",
+          "FieldLength": 408
         }
       }
     }
   ],
   "Important": false,
-  "Language": "est",
-  "Sentiment": 808,
-  "SentimentConfidence": 463,
+  "Language": "soluta",
+  "Sentiment": 603,
+  "SentimentConfidence": 87,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 918,
-      "Name": "Bosco, Hilpert and Parker",
-      "ContentType": "velit",
-      "AttSize": 252,
-      "InlineImage": false,
-      "ContentId": "nulla",
-      "AuthKey": "sint",
+      "AttachmentId": 969,
+      "Name": "McDermott, Harvey and Witting",
+      "ContentType": "nesciunt",
+      "AttSize": 474,
+      "InlineImage": true,
+      "ContentId": "quod",
+      "AuthKey": "provident",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 891
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "quo",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 219
     }
   }
 }

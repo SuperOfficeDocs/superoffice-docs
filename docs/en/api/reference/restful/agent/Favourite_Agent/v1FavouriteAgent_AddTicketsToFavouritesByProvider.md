@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Blanda-Schumm",
+  "ProviderName": "Carter LLC",
   "Restrictions": [
     {
-      "Name": "O'Kon-Mante",
-      "Operator": "soluta",
+      "Name": "Wunsch Group",
+      "Operator": "fugiat",
       "Values": [
-        "dicta",
-        "consequuntur"
+        "sed",
+        "cumque"
       ],
       "DisplayValues": [
-        "hic",
-        "sed"
+        "aspernatur",
+        "iure"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 604,
+      "InterParenthesis": 206,
       "InterOperator": "And",
-      "UniqueHash": 893
+      "UniqueHash": 595
     }
   ],
-  "AssociateId": 20,
-  "ExtraInfo": "dolorem"
+  "AssociateId": 493,
+  "ExtraInfo": "amet"
 }
 ```
 

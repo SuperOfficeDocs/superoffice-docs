@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 81,
-  "Name": "Hermann-Mohr",
+  "HeadingId": 648,
+  "Name": "Haag, Kreiger and Halvorson",
   "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 110,
-  "UdListDefinitionId": 93
+  "Rank": 420,
+  "UdListDefinitionId": 138
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 500,
-  "Name": "Weber LLC",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "Rank": 539,
-  "UdListDefinitionId": 994,
+  "HeadingId": 941,
+  "Name": "Schamberger LLC",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 382,
+  "UdListDefinitionId": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldLength": 851
     }
   }
 }

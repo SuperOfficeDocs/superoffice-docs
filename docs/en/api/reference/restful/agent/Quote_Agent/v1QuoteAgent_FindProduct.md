@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 201,
-  "UserInput": "dicta",
-  "PriceListKey": "animi"
+  "QuoteAlternativeId": 10,
+  "UserInput": "molestiae",
+  "PriceListKey": "qui"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 469,
-    "ERPProductKey": "ea",
-    "ERPPriceListKey": "dignissimos",
-    "Name": "Lockman, Emard and Pagac",
-    "Description": "Enhanced stable Graphical User Interface",
-    "Code": "dignissimos",
-    "PriceUnit": "officiis",
-    "QuantityUnit": "ipsum",
-    "IsSubscription": true,
-    "SubscriptionUnit": "reiciendis",
-    "DefaultSubscriptionQuantity": 28851.604,
-    "ItemNumber": "1024014",
+    "ProductId": 468,
+    "ERPProductKey": "minus",
+    "ERPPriceListKey": "excepturi",
+    "Name": "Predovic Group",
+    "Description": "Cross-group dynamic functionalities",
+    "Code": "sed",
+    "PriceUnit": "officia",
+    "QuantityUnit": "asperiores",
+    "IsSubscription": false,
+    "SubscriptionUnit": "molestiae",
+    "DefaultSubscriptionQuantity": 13219.212,
+    "ItemNumber": "705891",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptatem",
-    "ProductTypeKey": "molestiae",
-    "VAT": 2359.902,
-    "VATInfo": "sequi",
-    "UnitCost": 10226.242,
-    "UnitMinimumPrice": 7136.1179999999995,
-    "UnitListPrice": 11329.41,
-    "InAssortment": true,
-    "Supplier": "occaecati",
-    "SupplierCode": "ut",
-    "Rights": "consequatur",
-    "Rule": "et",
+    "ProductFamilyKey": "ut",
+    "ProductTypeKey": "quae",
+    "VAT": 2729.714,
+    "VATInfo": "est",
+    "UnitCost": 6227.258,
+    "UnitMinimumPrice": 14055.99,
+    "UnitListPrice": 9966.119999999999,
+    "InAssortment": false,
+    "Supplier": "fuga",
+    "SupplierCode": "ratione",
+    "Rights": "voluptate",
+    "Rule": "in",
     "ExtraInfo": [
       {
-        "Name": "Lakin-Renner",
-        "Value": "ad",
+        "Name": "Lakin, Davis and McCullough",
+        "Value": "voluptas",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 634
+            "FieldType": "System.Int32",
+            "FieldLength": 970
           }
         }
       },
       {
-        "Name": "Lakin-Renner",
-        "Value": "ad",
+        "Name": "Lakin, Davis and McCullough",
+        "Value": "voluptas",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 634
+            "FieldType": "System.Int32",
+            "FieldLength": 970
           }
         }
       }
     ],
-    "RawExtraInfo": "fuga",
-    "ExtraField1": "autem",
-    "ExtraField2": "iste",
-    "ExtraField3": "assumenda",
-    "ExtraField4": "et",
-    "ExtraField5": "id",
-    "InStock": 5945.1979999999994,
+    "RawExtraInfo": "magni",
+    "ExtraField1": "mollitia",
+    "ExtraField2": "reprehenderit",
+    "ExtraField3": "maiores",
+    "ExtraField4": "nostrum",
+    "ExtraField5": "rerum",
+    "InStock": 28604.018,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 408
       }
     }
   }

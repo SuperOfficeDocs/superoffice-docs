@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    151,
-    691
+    99,
+    832
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 188,
-    "MessageId": "iure",
-    "Subject": "ratione",
+    "ServerId": 847,
+    "MessageId": "sit",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 905,
-        "ContactName": "Bartoletti, Beer and Schmidt",
-        "PersonId": 444,
-        "PersonName": "Green LLC",
-        "AssociateId": 415,
-        "Address": "recusandae",
-        "EmailId": 529,
+        "ContactId": 271,
+        "ContactName": "Greenholt, Pollich and Schuster",
+        "PersonId": 946,
+        "PersonName": "Towne, Langworth and Runolfsson",
+        "AssociateId": 101,
+        "Address": "inventore",
+        "EmailId": 385,
         "DuplicatePersonIds": [
-          193,
-          1000
+          86,
+          446
         ],
-        "Name": "Parisian-Botsford",
+        "Name": "Jerde-Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 165
           }
         }
       }
     ],
-    "Sent": "2003-05-20T04:22:26.7647342+02:00",
+    "Sent": "2024-07-22T13:28:22.7416819+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 838,
+    "Size": 335,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

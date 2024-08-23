@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=magni
-GET /api/v1/MDOList/{listname}?query=nam
+GET /api/v1/MDOList/{listname}?additional=sunt
+GET /api/v1/MDOList/{listname}?query=labore
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Mante LLC",
-    "ToolTip": "Consequatur nihil omnis et dolor.",
-    "Deleted": false,
-    "Rank": 20,
-    "Type": "consequatur",
+    "Id": 984,
+    "Name": "Zulauf-O'Keefe",
+    "ToolTip": "Beatae qui ipsum eius odio ullam id.",
+    "Deleted": true,
+    "Rank": 349,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Considine, DuBuque and Gutkowski",
-        "ToolTip": "Provident reprehenderit qui ex ut quis.",
+        "Id": 749,
+        "Name": "Dickinson Inc and Sons",
+        "ToolTip": "Sit et ipsam.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "rerum",
+        "Rank": 469,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 422,
-        "ExtraInfo": "quia",
-        "StyleHint": "soluta",
-        "FullName": "Miss Bria Kellie Simonis",
+        "IconHint": "accusantium",
+        "ColorBlock": 845,
+        "ExtraInfo": "vitae",
+        "StyleHint": "sed",
+        "FullName": "Mrs. Gabe Schmidt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 277
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 82,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "praesentium",
-    "FullName": "Merl Ferry",
+    "IconHint": "sunt",
+    "ColorBlock": 278,
+    "ExtraInfo": "numquam",
+    "StyleHint": "non",
+    "FullName": "Oleta German Rohan III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

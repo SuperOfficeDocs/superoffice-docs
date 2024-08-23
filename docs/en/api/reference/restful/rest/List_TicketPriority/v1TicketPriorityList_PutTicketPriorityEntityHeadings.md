@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 338,
-    "Name": "McCullough-Morar",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 45,
-    "UdListDefinitionId": 191
+    "HeadingId": 205,
+    "Name": "Marks, Waelchi and Bogisich",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 392,
+    "UdListDefinitionId": 697
   },
   {
-    "HeadingId": 338,
-    "Name": "McCullough-Morar",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 45,
-    "UdListDefinitionId": 191
+    "HeadingId": 205,
+    "Name": "Marks, Waelchi and Bogisich",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 392,
+    "UdListDefinitionId": 697
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 186,
-    "Name": "Schumm, Collier and Schneider",
-    "Tooltip": "unde",
-    "Deleted": true,
-    "Rank": 84,
-    "UdListDefinitionId": 926,
+    "HeadingId": 723,
+    "Name": "Nader, Wiegand and Langworth",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 49,
+    "UdListDefinitionId": 496,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldType": "System.String",
+        "FieldLength": 61
       }
     }
   }

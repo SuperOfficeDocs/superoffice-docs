@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 565,
-  "StartTime": "1999-04-08T04:22:26.4978545+02:00",
-  "EndTime": "2010-06-23T04:22:26.4978545+02:00",
-  "Count": 727,
+  "ProjectId": 650,
+  "StartTime": "2022-01-09T13:28:22.4604993+01:00",
+  "EndTime": "2021-09-10T13:28:22.4604993+02:00",
+  "Count": 113,
   "DocumentTemplateIds": [
-    331,
-    981
+    122,
+    566
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 596,
-    "Attention": "voluptas",
-    "Header": "fugit",
-    "Name": "Pacocha, Yost and Torp",
-    "OurRef": "ex",
-    "YourRef": "similique",
-    "Description": "Versatile high-level info-mediaries",
-    "DocumentTemplate": "quis",
+    "DocumentId": 742,
+    "Attention": "veritatis",
+    "Header": "fugiat",
+    "Name": "Beer LLC",
+    "OurRef": "impedit",
+    "YourRef": "iste",
+    "Description": "Polarised tangible parallelism",
+    "DocumentTemplate": "perspiciatis",
     "IsPublished": false,
-    "PersonId": 403,
-    "PersonFullName": "Mr. Jacey Hadley Weber Jr.",
-    "AssociateFullName": "Thalia Barton",
-    "ContactId": 947,
-    "ContactName": "Rutherford, Dickens and O'Conner",
-    "ProjectId": 634,
-    "ProjectName": "Reilly Inc and Sons",
-    "AssociateId": 502,
-    "Snum": 838,
-    "SaleId": 29,
-    "SaleName": "Rodriguez Inc and Sons",
+    "PersonId": 551,
+    "PersonFullName": "Emmie Leffler",
+    "AssociateFullName": "Bennett Weimann",
+    "ContactId": 523,
+    "ContactName": "Carter, Emard and Wyman",
+    "ProjectId": 637,
+    "ProjectName": "Carter-Strosin",
+    "AssociateId": 831,
+    "Snum": 115,
+    "SaleId": 221,
+    "SaleName": "Klein-Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 258
       }
     }
   }

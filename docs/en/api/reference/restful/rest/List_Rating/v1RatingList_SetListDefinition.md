@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Baumbach-Trantow",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 639,
+  "Id": 570,
+  "Name": "Schulist Inc and Sons",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 932,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "labore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 128,
-  "Name": "Powlowski LLC",
-  "Tooltip": "id",
+  "Id": 795,
+  "Name": "O'Hara-McDermott",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 111,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nulla",
-  "InUseByUserDefinedFields": true,
+  "Rank": 661,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 726
     }
   }
 }

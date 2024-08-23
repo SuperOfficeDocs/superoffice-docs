@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
+  "Id": 869,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 469,
-  "Name": "Boyle-Smitham",
-  "Tooltip": "quibusdam",
+  "HeadingId": 807,
+  "Name": "Treutel-Beatty",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 993,
-  "UdListDefinitionId": 962,
+  "Rank": 561,
+  "UdListDefinitionId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldLength": 704
     }
   }
 }

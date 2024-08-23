@@ -3,9 +3,9 @@ uid: MailingsDynamicSelectionSingleCriteriaGroup
 title: MailingsDynamicSelectionSingleCriteriaGroup
 description: Mailings selection archive using the selectionId as criterionmapping.
 keywords: MailingsDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "MailingsDynamicSelectionSingleCriteriaGroup"
@@ -591,7 +591,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactAssociate/role,mailingAddr/contact/LastCompletedActivity,mailingAddr/person/firstName,mailingAddr/person/personUdef/SuperOffice:2,mailingAddr/person/personExtra/y_rental/x_contact
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/restrictionAddress/state,mailingAddr/contact/contactUdef/SuperOffice:1,mailingAddr/person/middleName,mailingAddr/person/supportAssociateFullName,mailingAddr/person/personAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

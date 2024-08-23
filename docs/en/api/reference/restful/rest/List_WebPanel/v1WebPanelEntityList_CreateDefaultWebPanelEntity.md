@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 429,
-  "Name": "Kreiger LLC",
-  "Tooltip": "possimus",
+  "WebPanelId": 174,
+  "Name": "Larson-Goyette",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 604,
+  "Rank": 640,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Zieme, Wiegand and Bashirian",
+  "WindowName": "Wunsch, Upton and Wuckert",
   "Url": "http://www.example.com/",
-  "ProgId": "repudiandae",
-  "Icon": 148,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "harum",
+  "Icon": 19,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 802
     }
   }
 }

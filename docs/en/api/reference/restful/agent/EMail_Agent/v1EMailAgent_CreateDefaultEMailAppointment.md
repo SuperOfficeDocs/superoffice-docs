@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "optio",
-    "id"
+    "atque",
+    "mollitia"
   ],
-  "Comment": "autem",
-  "Sequence": 582,
-  "DtStart": "2014-11-22T04:22:26.7178597+01:00",
-  "DtEnd": "2004-05-29T04:22:26.7178597+02:00",
+  "Comment": "sit",
+  "Sequence": 815,
+  "DtStart": "2021-01-12T13:28:22.6791961+01:00",
+  "DtEnd": "2009-09-01T13:28:22.6791961+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

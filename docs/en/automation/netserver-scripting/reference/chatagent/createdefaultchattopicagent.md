@@ -2,10 +2,10 @@
 uid: chatagent-createdefaultchattopicagent
 title: ChatAgent.CreateDefaultChatTopicAgent event method
 description: Scripting events called on the CreateDefaultChatTopicAgent method on the ChatAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ChatAgent.CreateDefaultChatTopicAgent
 

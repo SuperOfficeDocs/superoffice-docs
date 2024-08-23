@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 683,
-  "Count": 90
+  "AmountLimit": 307,
+  "Count": 618
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wolf, Abbott and King",
-    "SaleDate": "2023-11-25T04:22:27.5492747+01:00",
-    "SaleId": 160,
-    "Probability": 192,
-    "Title": "et",
-    "Amount": 2344.232,
-    "Currency": "laudantium",
-    "ProjectName": "Barton-Stanton",
-    "AssociateFullName": "Mr. Camryn Maximillian Lebsack Sr.",
-    "Description": "Virtual multi-state service-desk",
+    "ContactName": "Huels, Aufderhar and Klocko",
+    "SaleDate": "2014-10-30T13:28:23.6948543+01:00",
+    "SaleId": 381,
+    "Probability": 452,
+    "Title": "dicta",
+    "Amount": 24050.316,
+    "Currency": "velit",
+    "ProjectName": "Schulist, Wolf and Sanford",
+    "AssociateFullName": "Miss Frieda Dare",
+    "Description": "Persistent 6th generation archive",
     "Status": "Lost",
-    "WeightedAmount": 8841.014,
-    "ProjectId": 630,
-    "EarningPercent": 8565.222,
-    "Earning": 27366.088,
-    "ContactId": 780,
-    "AssociateId": 818,
-    "PersonId": 193,
-    "SaleTypeId": 988,
-    "SaleTypeName": "Thiel LLC",
-    "PersonFullName": "Meaghan Crona",
+    "WeightedAmount": 12438.846,
+    "ProjectId": 897,
+    "EarningPercent": 6299.34,
+    "Earning": 11169.576,
+    "ContactId": 980,
+    "AssociateId": 224,
+    "PersonId": 895,
+    "SaleTypeId": 460,
+    "SaleTypeName": "Cummerata, Runolfsson and Hayes",
+    "PersonFullName": "Miss Keegan Gregorio Gerlach",
     "Completed": "Completed",
-    "ActiveErpLinks": 444,
-    "NextDueDate": "2012-12-01T04:22:27.5492747+01:00",
-    "Number": "42632",
+    "ActiveErpLinks": 642,
+    "NextDueDate": "2001-05-12T13:28:23.6948543+02:00",
+    "Number": "1354972",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 537
       }
     }
   }

@@ -3,9 +3,9 @@ uid: ProjectGuideDocument
 title: ProjectGuideDocument
 description: Specific provider for Project Guide Items of type Appointment
 keywords: ProjectGuideDocument archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectGuideDocument"
@@ -727,7 +727,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/hasInfoText,documentInstance/person/personUdef/SuperOffice:11,documentInstance/contact/contactPhone/formattedNumber,documentInstance/contact/postAddress/state,documentInstance/contact/contactExtra/x_contact_short_dropdown
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/personAddress/formattedMultiLineAddress,documentInstance/person/personExtra/x_person_contact_relation,documentInstance/person/personAssociate/simultaneousEjUser,documentInstance/contact/business,documentInstance/contact/postAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

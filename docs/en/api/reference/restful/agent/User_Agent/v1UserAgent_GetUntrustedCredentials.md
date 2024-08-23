@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "rerum"
+  "Type": "rem"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2019-08-01T04:22:28.1006289+02:00",
-    "ValidTo": "2003-04-12T04:22:28.1006289+02:00",
-    "Comment": "quod",
-    "SecretValue": "sit",
-    "PublicValue": "voluptatem",
+    "ValidFrom": "2012-04-12T13:28:24.1791219+02:00",
+    "ValidTo": "1998-07-27T13:28:24.1791219+02:00",
+    "Comment": "quidem",
+    "SecretValue": "illo",
+    "PublicValue": "minima",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

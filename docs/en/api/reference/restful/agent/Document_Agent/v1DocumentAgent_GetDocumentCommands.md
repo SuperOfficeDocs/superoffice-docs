@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 370,
+  "DocumentId": 472,
   "AllowedReturnTypes": [
-    "modi",
-    "doloremque"
+    "fuga",
+    "excepturi"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser-Collier",
-    "DisplayName": "Hintz, Brekke and Lang",
-    "DisplayTooltip": "esse",
-    "IconHint": "explicabo",
+    "Name": "Murazik LLC",
+    "DisplayName": "Harvey-Mitchell",
+    "DisplayTooltip": "nihil",
+    "IconHint": "nemo",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Wintheiser-Collier",
-    "DisplayName": "Hintz, Brekke and Lang",
-    "DisplayTooltip": "esse",
-    "IconHint": "explicabo",
+    "Name": "Murazik LLC",
+    "DisplayName": "Harvey-Mitchell",
+    "DisplayTooltip": "nihil",
+    "IconHint": "nemo",
     "ReturnType": "CustomGui"
   }
 ]

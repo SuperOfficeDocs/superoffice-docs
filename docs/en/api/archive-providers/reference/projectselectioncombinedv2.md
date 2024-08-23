@@ -3,9 +3,9 @@ uid: ProjectSelectionCombinedV2
 title: ProjectSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: ProjectSelectionCombinedV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectSelectionCombinedV2"
@@ -790,7 +790,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=NumberOfSales,sale/projectId,appointment/recurring,document/documentId,projectMember/contactId
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=document/keywords,document/associate/credentialDisplayValue,projectMember/personCountryId,projectMember/personExtra/y_rental/y_equipment/x_name,projectMember/mainContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -72,6 +72,9 @@ OK
 | ErrorMessage | string | Deprecated, see ErrorInformation instead. Contains the error message for a non-valide CRMScript |
 | LineNumber | int32 | Deprecated, see ErrorInformation instead. The line number containing the incorrect syntax, if available |
 | ErrorInformation | CRMScriptErrorInfo | Contains error information if the validation failed |
+| Transpiled | string | This will contain transpiled code. In case of Typescript, this will then contain the executable JavaScript |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | Array of source maps showing where in the original code a specific line originated from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et"
+  "TriggerScriptUniqueId": "laborum"
 }
 ```
 
@@ -97,15 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "quos",
-  "LineNumber": 998,
+  "ErrorMessage": "nemo",
+  "LineNumber": 641,
   "ErrorInformation": null,
+  "Transpiled": "nobis",
+  "Includes": [
+    321,
+    521
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 812,
+      "LineNumberTo": 620,
+      "Delta": 211,
+      "IncludeId": "minus",
+      "IncludedFrom": [
+        "vel",
+        "quis"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 240
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 267
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 393
+  "ProjectId": 481
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 543,
-  "BlobSize": 185,
-  "Description": "Reverse-engineered analyzing throughput",
-  "ExtraInfo": "nesciunt",
+  "BlobId": 172,
+  "BlobSize": 218,
+  "Description": "Quality-focused next generation support",
+  "ExtraInfo": "repellat",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "doloremque",
-  "OriginalSize": 86,
-  "CreatedDate": "2016-07-23T04:22:26.0122232+02:00",
-  "UpdatedDate": "2010-12-12T04:22:26.0122232+01:00",
+  "IsZipped": false,
+  "MimeType": "est",
+  "OriginalSize": 208,
+  "CreatedDate": "2016-08-23T13:28:21.8668811+02:00",
+  "UpdatedDate": "2013-01-22T13:28:21.8668811+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "velit",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

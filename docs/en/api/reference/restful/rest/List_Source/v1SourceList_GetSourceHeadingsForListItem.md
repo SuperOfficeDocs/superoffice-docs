@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "West LLC",
-    "ToolTip": "Impedit nostrum quas asperiores modi.",
+    "Id": 977,
+    "Name": "Boyle-Ferry",
+    "ToolTip": "Ut asperiores est tempore.",
     "Deleted": true,
-    "Rank": 469,
-    "Type": "in",
-    "ColorBlock": 440,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2001-12-13T04:22:36.2215887+01:00",
+    "Rank": 120,
+    "Type": "aut",
+    "ColorBlock": 257,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "1997-07-17T13:28:33.1951017+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Stark, Terry and Schroeder",
-        "ToolTip": "Aut mollitia.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "in",
-        "ColorBlock": 794,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2020-10-24T04:22:36.2215887+02:00",
+        "Id": 473,
+        "Name": "Schiller Group",
+        "ToolTip": "Quisquam veniam accusamus voluptas quod quam odio commodi.",
+        "Deleted": true,
+        "Rank": 724,
+        "Type": "a",
+        "ColorBlock": 433,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1998-05-28T13:28:33.1951017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Mr. Nickolas Robel",
+        "ExtraInfo": "provident",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Mose Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldLength": 280
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "quia",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Elenora Feeney",
+    "FullName": "Stacy Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   }

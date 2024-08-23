@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 654,
-  "ColumnId": 532,
-  "FieldDefault": "perferendis",
-  "FieldHeight": 605,
-  "FieldLabel": "porro",
-  "FieldLeft": 378,
-  "FieldTop": 39,
+  "UDefFieldId": 786,
+  "ColumnId": 344,
+  "FieldDefault": "labore",
+  "FieldHeight": 735,
+  "FieldLabel": "blanditiis",
+  "FieldLeft": 175,
+  "FieldTop": 315,
   "FieldType": "Checkbox",
-  "FieldWidth": 819,
-  "FormatMask": "eos",
-  "HideLabel": true,
+  "FieldWidth": 500,
+  "FormatMask": "reprehenderit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 538,
-  "LabelLeft": 421,
-  "LabelTop": 935,
-  "LabelWidth": 594,
-  "LastVersionId": 267,
-  "ListTableId": 634,
+  "LabelHeight": 954,
+  "LabelLeft": 219,
+  "LabelTop": 674,
+  "LabelWidth": 746,
+  "LastVersionId": 28,
+  "ListTableId": 281,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 980,
-  "ProgId": "qui",
+  "Page1LineNo": 372,
+  "ProgId": "recusandae",
   "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 99,
-  "TextLength": 265,
-  "Tooltip": "laborum",
-  "UdefIdentity": 25,
-  "UDListDefinitionId": 746,
+  "ShortLabel": "odio",
+  "TabOrder": 725,
+  "TextLength": 517,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 20,
+  "UDListDefinitionId": 476,
   "Justification": "Center",
-  "Version": 766,
-  "TemplateVariableName": "Goldner-Osinski",
+  "Version": 85,
+  "TemplateVariableName": "Kuphal, Lynch and Anderson",
   "HasBeenPublished": false,
-  "MdoListName": "Wilkinson, Bergnaum and Tromp",
+  "MdoListName": "Glover-Leannon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 477
     }
   }
 }

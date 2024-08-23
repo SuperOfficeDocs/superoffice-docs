@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "dolorum",
-  "Key": "pariatur",
+  "Section": "qui",
+  "Key": "error",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 489,
-  "Section": "quisquam",
-  "Key": "voluptas",
-  "Name": "Douglas Group",
+  "PrefDescId": 416,
+  "Section": "occaecati",
+  "Key": "perferendis",
+  "Name": "Bruen-Thiel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered needs-based intranet",
-  "IsBuiltin": false,
-  "TableName": "Hahn LLC",
-  "UserDefinedListId": 621,
-  "Rank": 323,
-  "SubGroup": "aut",
-  "MinLevel": 572,
-  "MaxValue": 819,
-  "MinValue": 193,
-  "RequiredLicense": "amet",
+  "Description": "Vision-oriented well-modulated knowledge user",
+  "IsBuiltin": true,
+  "TableName": "Rolfson, Green and Moen",
+  "UserDefinedListId": 420,
+  "Rank": 683,
+  "SubGroup": "qui",
+  "MinLevel": 248,
+  "MaxValue": 30,
+  "MinValue": 536,
+  "RequiredLicense": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

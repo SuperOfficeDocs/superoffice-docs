@@ -2,10 +2,10 @@
 uid: targetsagent-gettargetdimension
 title: TargetsAgent.GetTargetDimension event method
 description: Scripting events called on the GetTargetDimension method on the TargetsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TargetsAgent.GetTargetDimension
 

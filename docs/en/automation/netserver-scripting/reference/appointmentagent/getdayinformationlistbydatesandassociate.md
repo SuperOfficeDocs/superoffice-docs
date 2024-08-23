@@ -2,10 +2,10 @@
 uid: appointmentagent-getdayinformationlistbydatesandassociate
 title: AppointmentAgent.GetDayInformationListByDatesAndAssociate event method
 description: Scripting events called on the GetDayInformationListByDatesAndAssociate method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.GetDayInformationListByDatesAndAssociate
 

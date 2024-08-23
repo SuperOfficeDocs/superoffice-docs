@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 554,
-  "Name": "Steuber Group",
+  "ContactId": 508,
+  "Name": "Rowe-Becker",
   "Department": "",
-  "OrgNr": "274035",
-  "Number1": "1523763",
-  "Number2": "586281",
-  "UpdatedDate": "2017-06-26T04:22:26.1840946+02:00",
-  "CreatedDate": "1998-02-26T04:22:26.1840946+01:00",
+  "OrgNr": "1076408",
+  "Number1": "491669",
+  "Number2": "907568",
+  "UpdatedDate": "2012-08-01T13:28:22.1949288+02:00",
+  "CreatedDate": "2012-12-21T13:28:22.1949288+01:00",
   "Emails": [
     {
-      "Value": "eum",
-      "StrippedValue": "impedit",
-      "Description": "Mandatory value-added pricing structure",
+      "Value": "accusantium",
+      "StrippedValue": "vel",
+      "Description": "Devolved static pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 74
         }
       }
     },
     {
-      "Value": "eum",
-      "StrippedValue": "impedit",
-      "Description": "Mandatory value-added pricing structure",
+      "Value": "accusantium",
+      "StrippedValue": "vel",
+      "Description": "Devolved static pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 74
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 197,
-      "Name": "Ebert, Quitzon and Hahn",
-      "ToolTip": "Aut ea aut.",
+      "Id": 961,
+      "Name": "Zemlak LLC",
+      "ToolTip": "Molestias dolores.",
       "Deleted": false,
-      "Rank": 60,
-      "Type": "neque",
-      "ColorBlock": 253,
-      "IconHint": "atque",
-      "Selected": false,
-      "LastChanged": "2023-10-17T04:22:26.1840946+02:00",
+      "Rank": 171,
+      "Type": "modi",
+      "ColorBlock": 605,
+      "IconHint": "voluptatum",
+      "Selected": true,
+      "LastChanged": "2014-08-15T13:28:22.1949288+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "dicta",
+      "ExtraInfo": "fuga",
+      "StyleHint": "voluptatem",
       "Hidden": true,
-      "FullName": "Ernestina Matt Weber DVM",
+      "FullName": "Miss Kale Murl Kerluke DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldLength": 697
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sed",
-      "StrippedValue": "dolore",
-      "Description": "Cross-group explicit challenge",
+      "Value": "molestiae",
+      "StrippedValue": "magnam",
+      "Description": "Expanded eco-centric collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldLength": 547
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "dolore",
-      "Description": "Cross-group explicit challenge",
+      "Value": "molestiae",
+      "StrippedValue": "magnam",
+      "Description": "Expanded eco-centric collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldLength": 547
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "delectus",
-      "StrippedValue": "saepe",
-      "Description": "Organic dedicated success",
+      "Value": "rerum",
+      "StrippedValue": "enim",
+      "Description": "Inverse foreground paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 144
         }
       }
     },
     {
-      "Value": "delectus",
-      "StrippedValue": "saepe",
-      "Description": "Organic dedicated success",
+      "Value": "rerum",
+      "StrippedValue": "enim",
+      "Description": "Inverse foreground paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 144
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "corporis",
-      "StrippedValue": "dolorum",
-      "Description": "Reduced reciprocal analyzer",
+      "Value": "consequatur",
+      "StrippedValue": "repellendus",
+      "Description": "User-centric assymetric framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldType": "System.String",
+          "FieldLength": 952
         }
       }
     },
     {
-      "Value": "corporis",
-      "StrippedValue": "dolorum",
-      "Description": "Reduced reciprocal analyzer",
+      "Value": "consequatur",
+      "StrippedValue": "repellendus",
+      "Description": "User-centric assymetric framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldType": "System.String",
+          "FieldLength": 952
         }
       }
     }
   ],
-  "Description": "Future-proofed local orchestration",
+  "Description": "Universal contextually-based access",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "consequuntur",
-      "PersonId": 294,
-      "Mrmrs": "reiciendis",
-      "Firstname": "Cooper",
-      "Lastname": "Gaylord",
-      "MiddleName": "Hermiston Inc and Sons",
-      "Title": "vel",
-      "Description": "Object-based disintermediate conglomeration",
-      "Email": "rubie.auer@schoen.com",
-      "FullName": "Celine Rau",
-      "DirectPhone": "1-972-926-9835",
-      "FormalName": "Thompson Group",
-      "CountryId": 251,
-      "ContactId": 149,
-      "ContactName": "Toy-Halvorson",
-      "Retired": 583,
-      "Rank": 469,
-      "ActiveInterests": 538,
+      "Position": "numquam",
+      "PersonId": 468,
+      "Mrmrs": "fuga",
+      "Firstname": "Larue",
+      "Lastname": "Hilll",
+      "MiddleName": "Gislason Inc and Sons",
+      "Title": "consequatur",
+      "Description": "Phased 3rd generation forecast",
+      "Email": "jonathon@bergnaumschimmel.biz",
+      "FullName": "Carleton Gottlieb V",
+      "DirectPhone": "499-291-3853",
+      "FormalName": "Stark, Grady and Bailey",
+      "CountryId": 109,
+      "ContactId": 129,
+      "ContactName": "Hudson Inc and Sons",
+      "Retired": 261,
+      "Rank": 404,
+      "ActiveInterests": 644,
       "ContactDepartment": "",
-      "ContactCountryId": 139,
-      "ContactOrgNr": "248295",
-      "FaxPhone": "1-779-230-2927",
-      "MobilePhone": "1-514-967-3772 x14016",
-      "ContactPhone": "745.938.9334 x4104",
-      "AssociateName": "Hessel-Mueller",
-      "AssociateId": 61,
+      "ContactCountryId": 352,
+      "ContactOrgNr": "1492043",
+      "FaxPhone": "311.504.3188",
+      "MobilePhone": "111-698-2044 x2329",
+      "ContactPhone": "1-574-034-8475",
+      "AssociateName": "Mitchell Inc and Sons",
+      "AssociateId": 187,
       "UsePersonAddress": false,
-      "ContactFax": "suscipit",
-      "Kanafname": "dicta",
-      "Kanalname": "totam",
-      "Post1": "unde",
-      "Post2": "nobis",
-      "Post3": "magni",
-      "EmailName": "erna@reichel.biz",
-      "ContactFullName": "Mr. Ara Marion Conroy Jr.",
-      "ActiveErpLinks": 707,
-      "TicketPriorityId": 997,
-      "SupportLanguageId": 809,
-      "SupportAssociateId": 384,
+      "ContactFax": "id",
+      "Kanafname": "quis",
+      "Kanalname": "illum",
+      "Post1": "vitae",
+      "Post2": "laboriosam",
+      "Post3": "harum",
+      "EmailName": "claudine_fritsch@feest.biz",
+      "ContactFullName": "Audra Weber",
+      "ActiveErpLinks": 326,
+      "TicketPriorityId": 222,
+      "SupportLanguageId": 889,
+      "SupportAssociateId": 22,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 184
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "nesciunt",
+  "NoMailing": false,
+  "Kananame": "qui",
   "Xstop": true,
-  "ActiveInterests": 214,
-  "GroupId": 635,
-  "ActiveStatusMonitorId": 468,
+  "ActiveInterests": 134,
+  "GroupId": 367,
+  "ActiveStatusMonitorId": 111,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 35,
-  "DbiAgentId": 704,
-  "DbiLastSyncronized": "2012-06-06T04:22:26.1840946+02:00",
-  "DbiKey": "est",
-  "DbiLastModified": "2000-08-24T04:22:26.1840946+02:00",
+  "Deleted": 712,
+  "DbiAgentId": 675,
+  "DbiLastSyncronized": "2003-05-24T13:28:22.2105528+02:00",
+  "DbiKey": "molestias",
+  "DbiLastModified": "1998-06-05T13:28:22.2105528+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 534,
-  "ActiveErpLinks": 785,
+  "Source": 75,
+  "ActiveErpLinks": 143,
   "BounceEmails": [
-    "dallas@uptonlemke.ca",
-    "maynard.haley@hirthe.co.uk"
+    "kaci@hane.info",
+    "emerson_mcdermott@schmittemmerich.us"
   ],
   "Domains": [
-    "rerum",
-    "labore"
+    "rem",
+    "expedita"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Finn Annabel Hermann V",
-    "SuperOffice:2": "1192872887"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Emmett Kuphal"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "optio"
+    "CustomFields1": "omnis",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

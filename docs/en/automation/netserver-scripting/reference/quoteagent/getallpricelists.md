@@ -2,10 +2,10 @@
 uid: quoteagent-getallpricelists
 title: QuoteAgent.GetAllPriceLists event method
 description: Scripting events called on the GetAllPriceLists method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.GetAllPriceLists
 

@@ -3,9 +3,9 @@ uid: SaintContact
 title: SaintContact
 description: Archive provider for Contact Saint Status - same as Find Contact, but adds ability to call up stored definitions via a statusDefId column
 keywords: SaintContact archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaintContact"
@@ -747,7 +747,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=sale/activeErpLinks,sale/associate/portraitThumbnail,appointment/personId,appointment/registeredBy,appointment/appointmentUdef/SuperOffice:4
+GET /api/v1/archive/SaintContact?$select=searchPhone/formattedNumber,streetAddress/line1,contactAssociate/firstName,LastCompletedSale,targetRelation/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

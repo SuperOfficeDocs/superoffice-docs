@@ -2,10 +2,10 @@
 uid: selectionagent-addcontactselectionmembers
 title: SelectionAgent.AddContactSelectionMembers event method
 description: Scripting events called on the AddContactSelectionMembers method on the SelectionAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SelectionAgent.AddContactSelectionMembers
 

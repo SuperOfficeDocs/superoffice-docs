@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Apr 2018 04:22:34 G4T
+Last-Modified: Fri, 08 Mar 2019 13:28:31 G3T
 
 {
-  "ForeignAppId": 428,
-  "Name": "Hammes-Morissette",
-  "CreatedDate": "2000-09-19T04:22:34.9854602+02:00",
-  "UpdatedDate": "2018-04-25T04:22:34.9854602+02:00",
+  "ForeignAppId": 75,
+  "Name": "Hauck, Gleichner and Hettinger",
+  "CreatedDate": "1998-03-02T13:28:31.6792414+01:00",
+  "UpdatedDate": "2019-03-08T13:28:31.6792414+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 292,
-      "Name": "Thompson Group",
-      "CreatedDate": "2000-01-25T04:22:34.9854602+01:00",
-      "UpdatedDate": "2001-06-21T04:22:34.9854602+02:00",
-      "AssociateFullName": "Dr. Boyd Durgan I",
-      "CreatedBy": "alias",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "autem",
-      "ForeignAppId": 804,
+      "ForeignDeviceId": 566,
+      "Name": "Reynolds-Schulist",
+      "CreatedDate": "2018-11-07T13:28:31.6792414+01:00",
+      "UpdatedDate": "2010-02-13T13:28:31.6792414+01:00",
+      "AssociateFullName": "Mrs. Xavier Ortiz",
+      "CreatedBy": "sit",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 68,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Wed, 25 Apr 2018 04:22:34 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   },
   "_Links": {

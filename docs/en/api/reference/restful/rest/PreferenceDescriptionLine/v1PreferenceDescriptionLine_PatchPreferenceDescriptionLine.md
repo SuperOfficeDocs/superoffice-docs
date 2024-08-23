@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "non",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 929,
-  "PrefDescId": 355,
-  "PrefValue": "illo",
-  "PrefShowValue": "alias",
-  "Description": "Robust modular contingency",
+  "PrefDescLineId": 128,
+  "PrefDescId": 354,
+  "PrefValue": "quasi",
+  "PrefShowValue": "temporibus",
+  "Description": "Cloned intermediate artificial intelligence",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,10 +2,10 @@
 uid: listagent-getmrmrs
 title: ListAgent.GetMrMrs event method
 description: Scripting events called on the GetMrMrs method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetMrMrs
 

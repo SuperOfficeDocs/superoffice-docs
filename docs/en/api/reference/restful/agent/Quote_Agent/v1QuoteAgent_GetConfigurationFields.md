@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 282,
-  "ConnectorName": "Jacobi, Wiegand and Hirthe"
+  "ConnectionId": 719,
+  "ConnectorName": "Kemmer, Armstrong and Lebsack"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "qui",
-    "Rank": 676,
-    "DisplayName": "Conn LLC",
-    "DisplayDescription": "Exclusive bi-directional frame",
+    "FieldKey": "rem",
+    "Rank": 316,
+    "DisplayName": "Lueilwitz-Sipes",
+    "DisplayDescription": "Operative value-added standardization",
     "FieldType": "Checkbox",
-    "ListName": "Graham Inc and Sons",
-    "DefaultValue": "deleniti",
-    "MaxLength": 914,
+    "ListName": "O'Connell LLC",
+    "DefaultValue": "unde",
+    "MaxLength": 50,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 632
       }
     }
   }

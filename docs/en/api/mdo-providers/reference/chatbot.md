@@ -3,9 +3,9 @@ uid: chatbot
 title: chatbot
 keywords: mdoprovider mdo provider chatbot
 description: List of all script folders that contain a script named like "%bot%register%". Returns script id + folder name as flat list.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "chatbot" MDO List

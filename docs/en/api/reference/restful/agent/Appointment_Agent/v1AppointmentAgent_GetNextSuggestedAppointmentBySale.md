@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 392,
-  "CurrentAppointmentId": 141,
+  "SaleId": 825,
+  "CurrentAppointmentId": 927,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 706,
-  "Deleted": 138,
-  "DaysFuture": 29,
-  "Tooltip": "adipisci",
-  "Text": "molestiae",
-  "TaskId": 432,
-  "SuggestedAppointmentId": 530,
-  "SaleTypeStageLinkId": 450,
-  "RegisteredAssociateId": 954,
-  "Rank": 424,
-  "ProjectTypeStatusLinkId": 681,
-  "Name": "O'Keefe Group",
-  "Duration": 674,
+  "AutoSuggest": 999,
+  "Deleted": 65,
+  "DaysFuture": 994,
+  "Tooltip": "rerum",
+  "Text": "ut",
+  "TaskId": 389,
+  "SuggestedAppointmentId": 59,
+  "SaleTypeStageLinkId": 1002,
+  "RegisteredAssociateId": 706,
+  "Rank": 77,
+  "ProjectTypeStatusLinkId": 356,
+  "Name": "Hackett LLC",
+  "Duration": 586,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

@@ -3,9 +3,9 @@ uid: FreetextPerson
 title: FreetextPerson
 description: Archive provider for freetext search on the Person entity.
 keywords: FreetextPerson archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextPerson"
@@ -1032,7 +1032,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=associateType,personAssociate/mrMrs,personContact/restrictionAddress/line2,personContact/contactAssociate/firstName,projectMembers/text
+GET /api/v1/archive/FreetextPerson?$select=fullNameWithContact,personContact/restrictionPostalAddress/formattedAddress,personContact/contactAssociate/title,personContact/contactSupportAssociate/simultaneousEjUser,personContact/contactSupportPerson/personInfo/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

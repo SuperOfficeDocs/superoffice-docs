@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 487,
-  "StartTime": "2009-06-27T04:22:26.3884781+02:00",
-  "EndTime": "2005-03-15T04:22:26.3884781+01:00",
-  "Count": 760
+  "ContactId": 262,
+  "StartTime": "2007-12-14T13:28:22.4604993+01:00",
+  "EndTime": "2010-03-08T13:28:22.4604993+01:00",
+  "Count": 778
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 80,
-    "Attention": "quia",
-    "Header": "fuga",
-    "Name": "Moore, Mills and Hoeger",
-    "OurRef": "animi",
-    "YourRef": "sed",
-    "Description": "Operative real-time paradigm",
-    "DocumentTemplate": "sed",
+    "DocumentId": 870,
+    "Attention": "dicta",
+    "Header": "tempora",
+    "Name": "Hayes-Mills",
+    "OurRef": "quia",
+    "YourRef": "excepturi",
+    "Description": "Mandatory multi-tasking knowledge base",
+    "DocumentTemplate": "commodi",
     "IsPublished": false,
-    "PersonId": 791,
-    "PersonFullName": "Marlee Klein",
-    "AssociateFullName": "Mrs. Rasheed Sonia Rodriguez DDS",
-    "ContactId": 54,
-    "ContactName": "Cruickshank, Wunsch and Davis",
-    "ProjectId": 466,
-    "ProjectName": "Gerlach, Schaden and Gleason",
-    "AssociateId": 117,
-    "Snum": 972,
-    "SaleId": 583,
-    "SaleName": "Lemke-Gottlieb",
+    "PersonId": 971,
+    "PersonFullName": "Maxine Hane",
+    "AssociateFullName": "Julian Brekke",
+    "ContactId": 828,
+    "ContactName": "Green Group",
+    "ProjectId": 477,
+    "ProjectName": "Roob Group",
+    "AssociateId": 420,
+    "Snum": 148,
+    "SaleId": 720,
+    "SaleName": "Conroy, Goldner and Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 258
       }
     }
   }

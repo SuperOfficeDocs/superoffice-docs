@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 421,
-      "TabName": "Stracke, Altenwerth and Bergstrom",
-      "Order": "et",
-      "AssociateId": 768
+      "TabOrderId": 58,
+      "TabName": "McGlynn-Treutel",
+      "Order": "doloremque",
+      "AssociateId": 442
     },
     {
-      "TabOrderId": 421,
-      "TabName": "Stracke, Altenwerth and Bergstrom",
-      "Order": "et",
-      "AssociateId": 768
+      "TabOrderId": 58,
+      "TabName": "McGlynn-Treutel",
+      "Order": "doloremque",
+      "AssociateId": 442
     }
   ]
 }

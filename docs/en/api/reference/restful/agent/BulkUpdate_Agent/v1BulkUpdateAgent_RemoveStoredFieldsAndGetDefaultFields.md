@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Buckridge Group",
-  "Context": "laboriosam"
+  "TableName": "Spinka, Prosacco and Hoeger",
+  "Context": "provident"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "dolorem",
-    "ValueType": "placeat",
+    "IsActive": true,
+    "Key": "incidunt",
+    "ValueType": "iure",
     "Mandatory": false,
-    "EncodedDisplayName": "Bergnaum-Cruickshank",
-    "EncodedDisplayDescription": "Configurable dynamic leverage",
-    "IconHint": "consequuntur",
+    "EncodedDisplayName": "Blick, Strosin and Bogisich",
+    "EncodedDisplayDescription": "Managed regional projection",
+    "IconHint": "eius",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "perferendis",
-        "Dimension": 422,
-        "ListProviderName": "Okuneva-Zboncak",
-        "ListProviderExtraInfo": "modi",
-        "ListProviderPrimaryKeyName": "McClure, Borer and Kessler",
-        "ListLeadText": "officiis",
+        "Type": "quia",
+        "Label": "quas",
+        "Dimension": 97,
+        "ListProviderName": "Hoppe Inc and Sons",
+        "ListProviderExtraInfo": "distinctio",
+        "ListProviderPrimaryKeyName": "Ernser-Schmeler",
+        "ListLeadText": "odit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 812
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "EncodedDataCaption": "non",
-    "EncodedDataCaptionDescription": "Business-focused attitude-oriented analyzer",
-    "CurrentOperationType": "rem",
+    "EncodedDataCaption": "ut",
+    "EncodedDataCaptionDescription": "Public-key transitional capacity",
+    "CurrentOperationType": "temporibus",
     "Values": [
-      "recusandae",
-      "in"
+      "deleniti",
+      "quia"
     ],
     "DisplayValues": [
-      "in",
-      "voluptas"
+      "iusto",
+      "ducimus"
     ],
     "OperationInfos": [
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Feeney Inc and Sons",
+        "Key": "molestias",
+        "EncodedDisplayName": "Gulgowski Inc and Sons",
         "EncodedLeadTexts": [
-          "fuga",
-          "ipsa"
+          "nihil",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 78
           }
         }
       },
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Feeney Inc and Sons",
+        "Key": "molestias",
+        "EncodedDisplayName": "Gulgowski Inc and Sons",
         "EncodedLeadTexts": [
-          "fuga",
-          "ipsa"
+          "nihil",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 78
           }
         }
       }

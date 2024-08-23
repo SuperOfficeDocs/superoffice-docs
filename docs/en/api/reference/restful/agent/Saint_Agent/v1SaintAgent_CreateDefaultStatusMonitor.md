@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 21,
-  "Rank": 605,
-  "DefaultTask": 519,
-  "DefaultTaskText": "soluta",
-  "IsVisual": true,
-  "LastGenerated": "2014-05-05T04:22:27.4788585+02:00",
-  "Description": "Mandatory directional installation",
-  "Name": "Jacobs-Heathcote",
-  "StatusMonitorId": 246,
-  "PictureId": 437,
+  "OwnerTable": 577,
+  "Rank": 470,
+  "DefaultTask": 596,
+  "DefaultTaskText": "suscipit",
+  "IsVisual": false,
+  "LastGenerated": "2010-06-06T13:28:23.6167457+02:00",
+  "Description": "Distributed neutral help-desk",
+  "Name": "Grady Group",
+  "StatusMonitorId": 273,
+  "PictureId": 775,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 902,
-  "NumNeedUpdate": 878,
-  "GenerationStart": "2022-02-20T04:22:27.4788585+01:00",
+  "NumMatches": 187,
+  "NumNeedUpdate": 156,
+  "GenerationStart": "2022-04-19T13:28:23.6167457+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 815
     }
   }
 }

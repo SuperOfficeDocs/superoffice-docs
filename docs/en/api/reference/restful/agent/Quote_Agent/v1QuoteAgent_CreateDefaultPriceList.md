@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 307,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 891,
-  "Name": "Johns Group",
-  "Description": "Upgradable reciprocal architecture",
-  "Currency": "vel",
-  "CurrencyName": "Blick-Conn",
-  "ValidFrom": "2016-04-11T04:22:27.393494+02:00",
-  "ValidTo": "2019-07-31T04:22:27.393494+02:00",
+  "PriceListId": 270,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 360,
+  "Name": "Corwin-Stokes",
+  "Description": "Self-enabling transitional throughput",
+  "Currency": "dolorem",
+  "CurrencyName": "Lowe-Gerhold",
+  "ValidFrom": "2009-01-16T13:28:23.5386436+01:00",
+  "ValidTo": "2020-08-15T13:28:23.5386436+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

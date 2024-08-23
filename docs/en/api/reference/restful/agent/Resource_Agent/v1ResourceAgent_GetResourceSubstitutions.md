@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Medhurst, Becker and Crist",
-    "Strosin, Becker and Grady"
+    "Von Inc and Sons",
+    "Harber Group"
   ],
-  "Culture": "ex",
+  "Culture": "qui",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Nitzsche, Pfannerstill and Moore",
-    "ResourceValue": "est",
-    "Culture": "doloribus",
+    "ResourceName": "Hettinger-Yost",
+    "ResourceValue": "consequuntur",
+    "Culture": "delectus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   },
   {
-    "ResourceName": "Nitzsche, Pfannerstill and Moore",
-    "ResourceValue": "est",
-    "Culture": "doloribus",
+    "ResourceName": "Hettinger-Yost",
+    "ResourceValue": "consequuntur",
+    "Culture": "delectus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

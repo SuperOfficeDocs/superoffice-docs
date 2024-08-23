@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 129
+  "ProjectId": 116
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 885,
-  "StartDate": "2008-02-02T04:22:27.3309943+01:00",
-  "EndDate": "2012-06-05T04:22:27.3309943+02:00",
+  "AppointmentId": 419,
+  "StartDate": "2024-03-24T13:28:23.3355601+01:00",
+  "EndDate": "2010-11-02T13:28:23.3355601+01:00",
   "Type": "BookingForChecklist",
-  "Task": "maiores",
-  "AssociateFullName": "Koby Ruecker DDS",
-  "ContactName": "Wisozk Group",
-  "Description": "Automated analyzing functionalities",
-  "PersonFullName": "Annabell Hansen",
-  "PersonId": 50,
-  "ContactId": 984,
-  "ProjectId": 318,
-  "ProjectName": "Wiegand, Stark and Kautzer",
+  "Task": "dolores",
+  "AssociateFullName": "Dr. Aida Brekke III",
+  "ContactName": "Romaguera-Farrell",
+  "Description": "Monitored homogeneous collaboration",
+  "PersonFullName": "Ms. Leon Robel II",
+  "PersonId": 684,
+  "ContactId": 315,
+  "ProjectId": 494,
+  "ProjectName": "Donnelly-Ortiz",
   "IsPublished": false,
-  "AssociateId": 294,
-  "ColorIndex": 623,
-  "IsFree": true,
+  "AssociateId": 71,
+  "ColorIndex": 347,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 451,
-  "PriorityName": "Hickle-Reynolds",
+  "PriorityId": 936,
+  "PriorityName": "Lakin-Hilll",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2020-05-07T04:22:27.3309943+02:00",
+  "IsRecurrence": true,
+  "IsBooking": false,
+  "ActiveDate": "2015-04-15T13:28:23.3355601+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-04-15T04:22:27.3309943+02:00",
-  "RecurringEndDate": "2020-01-01T04:22:27.3309943+01:00",
-  "MotherId": 950,
-  "AssignedBy": 634,
-  "AssignedByFullName": "Cory Gusikowski",
-  "RejectReason": "repurpose cutting-edge web services",
-  "Location": "voluptatem",
-  "AlarmLeadTime": "minus",
-  "SaleId": 14,
-  "SaleName": "Kshlerin-Nicolas",
-  "AssociateName": "Gulgowski-Kuhlman",
-  "CreatedDate": "2016-09-17T04:22:27.3309943+02:00",
-  "CreatedBy": "aliquam",
-  "CreatedByFullName": "Ms. Federico Tamia Denesik",
-  "CreatedByAssociateId": 877,
+  "RecurringStartDate": "2001-10-10T13:28:23.3355601+02:00",
+  "RecurringEndDate": "2006-10-15T13:28:23.3355601+02:00",
+  "MotherId": 469,
+  "AssignedBy": 909,
+  "AssignedByFullName": "Mr. Aubrey Mann II",
+  "RejectReason": "",
+  "Location": "ex",
+  "AlarmLeadTime": "accusamus",
+  "SaleId": 847,
+  "SaleName": "Weimann Inc and Sons",
+  "AssociateName": "Marquardt, Emard and Kertzmann",
+  "CreatedDate": "2008-11-28T13:28:23.3355601+01:00",
+  "CreatedBy": "assumenda",
+  "CreatedByFullName": "Diego Conroy",
+  "CreatedByAssociateId": 705,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 284,
-  "Title": "ipsam",
-  "Agenda": "blanditiis",
-  "InternalNotes": "reprehenderit",
+  "PreferredTZLocation": 683,
+  "Title": "aspernatur",
+  "Agenda": "magnam",
+  "InternalNotes": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 510
     }
   }
 }

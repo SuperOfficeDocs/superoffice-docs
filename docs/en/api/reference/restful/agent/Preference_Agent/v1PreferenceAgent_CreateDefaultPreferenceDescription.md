@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 291,
-  "Section": "aut",
-  "Key": "natus",
-  "Name": "Sporer-Adams",
+  "PrefDescId": 96,
+  "Section": "dolores",
+  "Key": "qui",
+  "Name": "Pacocha-Will",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled analyzing application",
-  "IsBuiltin": true,
-  "TableName": "O'Conner LLC",
-  "UserDefinedListId": 927,
-  "Rank": 350,
+  "Description": "Advanced actuating open architecture",
+  "IsBuiltin": false,
+  "TableName": "McLaughlin-Ankunding",
+  "UserDefinedListId": 312,
+  "Rank": 67,
   "SubGroup": "molestiae",
-  "MinLevel": 104,
-  "MaxValue": 889,
-  "MinValue": 693,
-  "RequiredLicense": "rerum",
+  "MinLevel": 477,
+  "MaxValue": 78,
+  "MinValue": 581,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldLength": 907
     }
   }
 }

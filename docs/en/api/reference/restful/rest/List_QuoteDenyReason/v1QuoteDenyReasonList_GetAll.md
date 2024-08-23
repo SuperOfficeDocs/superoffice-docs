@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Bartell, Flatley and Botsford",
-    "Tooltip": "delectus",
+    "Id": 757,
+    "Name": "Luettgen-Grant",
+    "Tooltip": "harum",
     "Deleted": false,
-    "UdListDefinitionId": 253,
-    "Rank": 454,
+    "UdListDefinitionId": 115,
+    "Rank": 333,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

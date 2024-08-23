@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Huels, Pouros and Schaden",
-      "DisplayName": "Marquardt-Schulist",
-      "DisplayTooltip": "et",
-      "IsActive": true
+      "Name": "Fahey LLC",
+      "DisplayName": "Hane, Dickinson and Wilderman",
+      "DisplayTooltip": "qui",
+      "IsActive": false
     },
     {
-      "Name": "Huels, Pouros and Schaden",
-      "DisplayName": "Marquardt-Schulist",
-      "DisplayTooltip": "et",
-      "IsActive": true
+      "Name": "Fahey LLC",
+      "DisplayName": "Hane, Dickinson and Wilderman",
+      "DisplayTooltip": "qui",
+      "IsActive": false
     }
   ]
 }

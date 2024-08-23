@@ -3,9 +3,9 @@ uid: FindContact
 title: FindContact
 description: 
 keywords: FindContact archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindContact"
@@ -744,7 +744,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContact?$select=sale/associate/role,appointment/associate/fullName,appointment/associate/title,kanaFirstName,personEmail/emailId
+GET /api/v1/archive/FindContact?$select=registeredBy,contactSource,contactExtra/x_contact_datetime,contactExtra/x_contact_time,sourceRelation/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

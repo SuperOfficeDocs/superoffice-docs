@@ -3,9 +3,9 @@ uid: BookingResponseInvitation
 title: BookingResponseInvitation
 description: This is the query provider for invitations, of subtype 'Response'
 keywords: BookingResponseInvitation archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "BookingResponseInvitation"
@@ -727,7 +727,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/BookingResponseInvitation?$select=duration,contact/contactExtra/x_contact_dropdown,person/restrictionAddress/wgs84latitude,person/personInterestIds,person/personExtra/x_person_float
+GET /api/v1/archive/BookingResponseInvitation?$select=contact/stop,person/whenUpdatedByWorkflow,person/email/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

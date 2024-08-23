@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 46,
-  "Name": "Bechtelar-Kautzer",
-  "Tooltip": "dolor",
+  "HeadingId": 482,
+  "Name": "Williamson-Kovacek",
+  "Tooltip": "animi",
   "Deleted": true,
-  "Rank": 621,
-  "UdListDefinitionId": 242
+  "Rank": 758,
+  "UdListDefinitionId": 394
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 389,
-  "Name": "Kertzmann, Mraz and Padberg",
-  "Tooltip": "voluptatem",
+  "HeadingId": 885,
+  "Name": "Altenwerth Inc and Sons",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 816,
-  "UdListDefinitionId": 864,
+  "Rank": 856,
+  "UdListDefinitionId": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

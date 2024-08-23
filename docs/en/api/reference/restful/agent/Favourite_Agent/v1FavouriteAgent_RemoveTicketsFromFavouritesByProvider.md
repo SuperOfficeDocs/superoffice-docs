@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rosenbaum-Hilpert",
+  "ProviderName": "Frami Group",
   "Restrictions": [
     {
-      "Name": "Schiller, Hyatt and Bartoletti",
-      "Operator": "odit",
+      "Name": "Gleichner, Hansen and O'Reilly",
+      "Operator": "perferendis",
       "Values": [
-        "laudantium",
-        "eos"
+        "quis",
+        "sint"
       ],
       "DisplayValues": [
-        "ullam",
-        "placeat"
+        "dolore",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 371,
+      "InterParenthesis": 286,
       "InterOperator": "And",
-      "UniqueHash": 17
+      "UniqueHash": 715
     }
   ],
-  "AssociateId": 874
+  "AssociateId": 780
 }
 ```
 

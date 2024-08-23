@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key intermediate protocol",
-  "Postit": "natus",
+  "Description": "Synchronised encompassing Graphical User Interface",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 210,
-  "IncludePerson": 761,
+  "GroupIdx": 665,
+  "IncludePerson": 718,
   "MemberCount": 99.99,
-  "Name": "Gottlieb Inc and Sons",
-  "PostitTextId": 210,
-  "CreatedDate": "2017-10-03T04:22:35.424107+02:00",
-  "SelectionId": 139,
-  "SoundEx": "et",
-  "Source": 551,
-  "TextId": 578,
-  "UpdatedDate": "2015-12-18T04:22:35.424107+01:00",
-  "UpdatedCount": 389,
-  "Visibility": 999,
+  "Name": "Raynor, West and Torp",
+  "PostitTextId": 900,
+  "CreatedDate": "2010-11-07T13:28:32.2105026+01:00",
+  "SelectionId": 247,
+  "SoundEx": "sunt",
+  "Source": 879,
+  "TextId": 992,
+  "UpdatedDate": "2017-08-06T13:28:32.2105026+02:00",
+  "UpdatedCount": 504,
+  "Visibility": 306,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 198,
-  "TargetTableName": "Schimmel-Sipes",
+  "CompanyUnique": false,
+  "TargetTableNumber": 55,
+  "TargetTableName": "Larson-Hilpert",
   "Completed": true,
-  "LeftSelectionId": 661,
-  "RightSelectionId": 207,
+  "LeftSelectionId": 101,
+  "RightSelectionId": 955,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hand, Cole and Barton",
-  "ShadowProviderName": "Terry Inc and Sons",
-  "ChartKey": "veritatis",
-  "LastLoaded": "2024-04-21T04:22:35.424107+02:00",
-  "LastLoadedBy": 199,
+  "MainProviderName": "Blick LLC",
+  "ShadowProviderName": "Bins-Medhurst",
+  "ChartKey": "rerum",
+  "LastLoaded": "2014-08-06T13:28:32.2105026+02:00",
+  "LastLoadedBy": 62,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-07-02T04:22:35.424107+02:00",
-  "LastMembershipChangeBy": 497,
+  "LastMembershipChange": "2015-06-20T13:28:32.2105026+02:00",
+  "LastMembershipChangeBy": 16,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "earum",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Heaney-Batz",
-  "DashboardTileDefinitionId": 576,
+  "MainHeading": "iste",
+  "MemberTabHeading": "natus",
+  "MailingsProviderName": "Cummerata, Ward and Schultz",
+  "DashboardTileDefinitionId": 373,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "veniam"
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "veniam"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed impactful challenge",
-  "Postit": "suscipit",
+  "Description": "Managed bifurcated projection",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 146,
-  "IncludePerson": 267,
+  "GroupIdx": 388,
+  "IncludePerson": 521,
   "MemberCount": 99.99,
-  "Name": "Effertz Group",
-  "PostitTextId": 99,
-  "CreatedDate": "2012-06-13T04:22:35.4397315+02:00",
-  "SelectionId": 281,
-  "SoundEx": "perferendis",
-  "Source": 583,
-  "TextId": 301,
-  "UpdatedDate": "2017-03-22T04:22:35.4397315+01:00",
-  "UpdatedCount": 491,
-  "Visibility": 329,
+  "Name": "Zemlak, Rogahn and Cruickshank",
+  "PostitTextId": 453,
+  "CreatedDate": "2017-09-05T13:28:32.2261252+02:00",
+  "SelectionId": 506,
+  "SoundEx": "mollitia",
+  "Source": 256,
+  "TextId": 442,
+  "UpdatedDate": "2020-09-21T13:28:32.2261252+02:00",
+  "UpdatedCount": 333,
+  "Visibility": 871,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 274,
-  "TargetTableName": "Rath Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 528,
-  "RightSelectionId": 254,
+  "CompanyUnique": false,
+  "TargetTableNumber": 72,
+  "TargetTableName": "Robel-Becker",
+  "Completed": false,
+  "LeftSelectionId": 343,
+  "RightSelectionId": 809,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nikolaus LLC",
-  "ShadowProviderName": "Greenfelder-Ritchie",
-  "ChartKey": "error",
-  "LastLoaded": "2024-02-09T04:22:35.4397315+01:00",
-  "LastLoadedBy": 636,
+  "MainProviderName": "Turcotte, Hodkiewicz and Smitham",
+  "ShadowProviderName": "Will, O'Connell and Eichmann",
+  "ChartKey": "corrupti",
+  "LastLoaded": "2020-05-17T13:28:32.2261252+02:00",
+  "LastLoadedBy": 212,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-12-23T04:22:35.4397315+01:00",
-  "LastMembershipChangeBy": 818,
+  "LastMembershipChange": "2018-05-17T13:28:32.2261252+02:00",
+  "LastMembershipChangeBy": 473,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iure",
-  "MemberTabHeading": "minus",
-  "MailingsProviderName": "McKenzie Group",
-  "DashboardTileDefinitionId": 672,
+  "MainHeading": "itaque",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Gibson Inc and Sons",
+  "DashboardTileDefinitionId": 897,
   "VisibleFor": [
     {
-      "VisibleId": 695,
+      "VisibleId": 576,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 332
         }
       }
     },
     {
-      "VisibleId": 695,
+      "VisibleId": 576,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 332
         }
       }
     }
@@ -295,12 +295,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 165
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

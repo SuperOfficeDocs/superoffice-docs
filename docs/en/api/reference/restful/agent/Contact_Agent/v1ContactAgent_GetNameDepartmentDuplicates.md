@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jast-Wisozk",
+  "Name": "Cremin Inc and Sons",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hand Inc and Sons",
-    "SoPrimaryKey": 34,
-    "EntryName": "Vandervort, Ledner and Kunze",
-    "EntryIdentifier": "excepturi",
-    "RuleDisplayName": "Cormier, Spinka and Morar",
+    "RuleName": "Stiedemann-Crooks",
+    "SoPrimaryKey": 299,
+    "EntryName": "Swift, Ortiz and Barrows",
+    "EntryIdentifier": "dolore",
+    "RuleDisplayName": "Kutch, Heidenreich and Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   }

@@ -3,9 +3,9 @@ uid: InnerSelectionStaticContactProvider
 title: InnerSelectionStaticContactProvider
 description: 
 keywords: InnerSelectionStaticContactProvider archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "InnerSelectionStaticContactProvider"
@@ -649,7 +649,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactFax/description,restrictionAddress/wgs84latitude,appointment/recordTypeText,document/icon,document/contactId
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactUdef/SuperOffice:3,sale/associate/usergroup,isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=3
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=673
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 167,
-  "Name": "Mraz-Zemlak",
-  "Description": "Realigned upward-trending firmware",
-  "DefaultHeight": 323,
-  "DefaultWidth": 724,
+  "DashboardTileDefinitionId": 791,
+  "Name": "Oberbrunner, Langworth and Ankunding",
+  "Description": "Cross-group heuristic emulation",
+  "DefaultHeight": 730,
+  "DefaultWidth": 40,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kling, Cremin and Christiansen",
-  "SelectionId": 400,
+  "EntityName": "Fisher, Mraz and Casper",
+  "SelectionId": 261,
   "CurrencyMode": "Base",
-  "CurrencyCode": "adipisci",
+  "CurrencyCode": "officiis",
   "Measure": "Average",
-  "MeasureField": "esse",
-  "SortBy": "officiis",
-  "LayoutConfig": "alias",
-  "SecondarySelectionId": 687,
-  "MeasureByField": "distinctio",
+  "MeasureField": "et",
+  "SortBy": "veniam",
+  "LayoutConfig": "rerum",
+  "SecondarySelectionId": 448,
+  "MeasureByField": "dolor",
   "Usage": "Dashboard",
-  "ProviderName": "Cummerata-Rowe",
+  "ProviderName": "Haley, Muller and Bednar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

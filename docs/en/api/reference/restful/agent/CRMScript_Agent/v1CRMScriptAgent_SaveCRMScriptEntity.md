@@ -46,8 +46,15 @@ The CRMScriptEntity to be saved.
 | Name | String | A description of this script |
 | Description | String | Optional description of what this script is used for. |
 | IncludeId | String | A unique name used for including this script in another |
+| AccessKey | String | Access key used to run this script on the customer pages |
 | HierarchyId | Integer | The script is inside this hierarchy folder |
 | Source | String | The script |
+| SourceCode | String | Contains the source code of the script |
+| ScriptType | String | The type/language of this script |
+| HtmlOutput | Integer | True if this script will return HTML output |
+| Includes | Array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | Array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | String | Registered when  in UTC. |
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
@@ -70,8 +77,15 @@ OK
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -85,21 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 666,
-  "UniqueIdentifier": "cumque",
-  "Name": "Donnelly, Hyatt and Schoen",
-  "Description": "Virtual dedicated paradigm",
-  "IncludeId": "ab",
-  "HierarchyId": 765,
-  "Source": "alias",
-  "Registered": "2016-09-27T04:22:26.3090583+02:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2022-01-08T04:22:26.3090583+01:00",
-  "UpdatedAssociateId": 11
+  "EjscriptId": 577,
+  "UniqueIdentifier": "distinctio",
+  "Name": "Nikolaus Group",
+  "Description": "Re-engineered homogeneous website",
+  "IncludeId": "est",
+  "AccessKey": "natus",
+  "HierarchyId": 48,
+  "Source": "repellendus",
+  "SourceCode": "fugit",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 990,
+  "Includes": [
+    9,
+    339
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 734,
+      "LineNumberTo": 946,
+      "Delta": 924,
+      "IncludeId": "dicta",
+      "IncludedFrom": [
+        "culpa",
+        "placeat"
+      ]
+    },
+    {
+      "LineNumberFrom": 734,
+      "LineNumberTo": 946,
+      "Delta": 924,
+      "IncludeId": "dicta",
+      "IncludedFrom": [
+        "culpa",
+        "placeat"
+      ]
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2008-09-12T13:28:22.3511449+02:00",
+  "RegisteredAssociateId": 288,
+  "Updated": "2014-06-12T13:28:22.3511449+02:00",
+  "UpdatedAssociateId": 552
 }
 ```
 
@@ -110,23 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 248,
-  "UniqueIdentifier": "repellendus",
-  "Name": "Thiel, Bode and Keeling",
-  "Description": "Enterprise-wide multimedia infrastructure",
-  "IncludeId": "dicta",
-  "HierarchyId": 901,
-  "Source": "ut",
-  "Registered": "2016-11-26T04:22:26.3090583+01:00",
-  "RegisteredAssociateId": 109,
-  "Updated": "2003-03-23T04:22:26.3090583+01:00",
-  "UpdatedAssociateId": 692,
+  "EjscriptId": 398,
+  "UniqueIdentifier": "sint",
+  "Name": "Stiedemann, Bogan and Bernhard",
+  "Description": "User-centric fault-tolerant open system",
+  "IncludeId": "magni",
+  "AccessKey": "aut",
+  "HierarchyId": 378,
+  "Source": "voluptas",
+  "SourceCode": "assumenda",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 440,
+  "Includes": [
+    697,
+    995
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 427,
+      "LineNumberTo": 194,
+      "Delta": 659,
+      "IncludeId": "velit",
+      "IncludedFrom": [
+        "et",
+        "quo"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 336
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2018-12-29T13:28:22.3511449+01:00",
+  "RegisteredAssociateId": 271,
+  "Updated": "2020-04-17T13:28:22.3511449+02:00",
+  "UpdatedAssociateId": 752,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldLength": 742
     }
   }
 }

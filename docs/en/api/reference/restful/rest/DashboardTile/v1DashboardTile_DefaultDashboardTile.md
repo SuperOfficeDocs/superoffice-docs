@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 374,
-  "Caption": "est",
-  "Description": "Self-enabling bandwidth-monitored infrastructure",
-  "ChartName": "Skiles-Friesen",
-  "ChartId": "aliquam",
+  "DashboardTileId": 53,
+  "Caption": "quasi",
+  "Description": "Face to face stable protocol",
+  "ChartName": "Schiller Inc and Sons",
+  "ChartId": "rerum",
   "IsDefault": false,
-  "AssociateId": 808,
-  "GroupId": 246,
-  "SelectionId": 900,
-  "Config": "voluptatem",
+  "AssociateId": 844,
+  "GroupId": 353,
+  "SelectionId": 121,
+  "Config": "blanditiis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Gulgowski, Cronin and Mohr",
-      "Description": "Open-source exuding functionalities",
+      "Name": "Ferry LLC",
+      "Description": "Sharable static database",
       "Type": "Boolean",
-      "ListName": "McLaughlin-Bernhard",
+      "ListName": "Gaylord Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eum",
+      "Value": "sequi",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldType": "System.String",
+          "FieldLength": 49
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 684,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 931
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "amet",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 931
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 76
     }
   }
 }

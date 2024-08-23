@@ -103,10 +103,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 381,
+  "TicketId": 281,
   "MessageIds": [
-    956,
-    318
+    371,
+    27
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 720,
+    "EjMessageId": 393,
     "Ticket": null,
-    "CreatedAt": "2011-10-18T04:22:27.9756303+02:00",
+    "CreatedAt": "1998-06-15T13:28:24.0385348+02:00",
     "CreatedBy": null,
-    "Author": "quis",
+    "Author": "non",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "minima",
-    "TimeSpent": 680,
-    "Body": "reiciendis",
-    "HtmlBody": "voluptas",
-    "EmailHeader": "herbert@hand.com",
-    "DebugInfo": "omnis",
-    "MailSorter": "odio",
+    "MessageId": "iusto",
+    "TimeSpent": 471,
+    "Body": "minus",
+    "HtmlBody": "doloribus",
+    "EmailHeader": "una@blickjones.com",
+    "DebugInfo": "est",
+    "MailSorter": "esse",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "tempora",
+    "SearchTitle": "veritatis",
     "MessageHeaders": [
       {
-        "Id": 382,
-        "Name": "Herzog LLC",
-        "Value": "illum",
+        "Id": 496,
+        "Name": "Mosciski Inc and Sons",
+        "Value": "aut",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 370
           }
         }
       }
     ],
     "Important": false,
-    "Language": "distinctio",
-    "Sentiment": 938,
-    "SentimentConfidence": 953,
+    "Language": "quis",
+    "Sentiment": 785,
+    "SentimentConfidence": 503,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 596,
-        "Name": "Lubowitz Inc and Sons",
-        "ContentType": "iure",
-        "AttSize": 237,
+        "AttachmentId": 389,
+        "Name": "Wintheiser-Gusikowski",
+        "ContentType": "sint",
+        "AttSize": 711,
         "InlineImage": false,
-        "ContentId": "nemo",
-        "AuthKey": "nihil",
-        "IsSafeFileExtension": false,
+        "ContentId": "eaque",
+        "AuthKey": "recusandae",
+        "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 478
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "labore",
-      "ExtraFields2": "eveniet"
+      "ExtraFields1": "velit",
+      "ExtraFields2": "praesentium"
     },
     "CustomFields": {
-      "CustomFields1": "quisquam",
-      "CustomFields2": "nam"
+      "CustomFields1": "velit",
+      "CustomFields2": "delectus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldType": "System.String",
+        "FieldLength": 425
       }
     }
   }

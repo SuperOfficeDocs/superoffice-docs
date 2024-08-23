@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 210,
-  "SourcePersonId": 207,
-  "DestinationContactId": 266,
-  "DestinationPersonId": 537,
-  "RelationId": 978,
-  "Comment": "fugit",
-  "RelationDefinitionId": 806,
-  "Reversed": 676,
-  "UpdatedDate": "1999-11-02T04:22:34.8589991+01:00",
-  "CreatedDate": "2018-11-13T04:22:34.8589991+01:00",
+  "SourceContactId": 896,
+  "SourcePersonId": 586,
+  "DestinationContactId": 125,
+  "DestinationPersonId": 602,
+  "RelationId": 274,
+  "Comment": "distinctio",
+  "RelationDefinitionId": 294,
+  "Reversed": 305,
+  "UpdatedDate": "2006-01-27T13:28:31.53865+01:00",
+  "CreatedDate": "2022-09-14T13:28:31.53865+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jerde, Lakin and Murphy",
-  "SourcePersonName": "Huel-Raynor",
-  "DestinationContactName": "Stroman, Olson and Kozey",
-  "DestinationPersonName": "Kassulke LLC",
-  "ActiveText": "quis",
-  "PassiveText": "facilis"
+  "SourceContactName": "Blanda Inc and Sons",
+  "SourcePersonName": "Turcotte, Mayert and Larkin",
+  "DestinationContactName": "Glover Inc and Sons",
+  "DestinationPersonName": "Fahey-Buckridge",
+  "ActiveText": "sit",
+  "PassiveText": "et"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 216,
-  "SourcePersonId": 291,
-  "DestinationContactId": 430,
-  "DestinationPersonId": 476,
-  "RelationId": 967,
-  "Comment": "similique",
-  "RelationDefinitionId": 774,
-  "Reversed": 240,
-  "UpdatedDate": "2000-08-05T04:22:34.8589991+02:00",
-  "CreatedDate": "2020-12-23T04:22:34.8589991+01:00",
+  "SourceContactId": 531,
+  "SourcePersonId": 350,
+  "DestinationContactId": 595,
+  "DestinationPersonId": 605,
+  "RelationId": 815,
+  "Comment": "nihil",
+  "RelationDefinitionId": 562,
+  "Reversed": 468,
+  "UpdatedDate": "2005-08-17T13:28:31.53865+02:00",
+  "CreatedDate": "2019-07-19T13:28:31.53865+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Block LLC",
-  "SourcePersonName": "Kling-Keebler",
-  "DestinationContactName": "Herman, Medhurst and Pfeffer",
-  "DestinationPersonName": "Feil, Cormier and Mante",
-  "ActiveText": "debitis",
-  "PassiveText": "voluptatibus",
+  "SourceContactName": "Skiles Group",
+  "SourcePersonName": "Stanton Inc and Sons",
+  "DestinationContactName": "Gusikowski-Stehr",
+  "DestinationPersonName": "Hegmann LLC",
+  "ActiveText": "dolorum",
+  "PassiveText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   },
   "_Links": {

@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 856,
-  "Name": "Altenwerth LLC",
-  "Tooltip": "impedit",
-  "Rank": 296,
+  "SaleTypeId": 752,
+  "Name": "Wiza, Kirlin and Rogahn",
+  "Tooltip": "iusto",
+  "Rank": 231,
   "DurationUnit": "Century",
-  "SaleDuration": 574,
-  "SaleTypeCatId": 702,
+  "SaleDuration": 81,
+  "SaleTypeCatId": 983,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 450,
-  "QuoteLinesTemplate": 461,
-  "ConfirmationLinesTemplate": 421,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 209,
+  "QuoteLinesTemplate": 28,
+  "ConfirmationLinesTemplate": 995,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 247,
-  "MinEarningPercent": 464,
-  "GroupQuoteLinesBy": 422,
-  "SortGroupLinesBy": 420,
+  "MaxDiscountPercent": 14,
+  "MinEarningPercent": 399,
+  "GroupQuoteLinesBy": 518,
+  "SortGroupLinesBy": 395,
   "Stages": [
     {
-      "Id": 662,
-      "Name": "Walter-Sanford",
-      "ToolTip": "Quod ducimus.",
-      "Deleted": true,
-      "Rank": 492,
-      "Type": "expedita",
-      "ColorBlock": 99,
-      "IconHint": "deserunt",
-      "Selected": true,
-      "LastChanged": "2023-03-21T04:22:36.1747132+01:00",
+      "Id": 791,
+      "Name": "Kovacek Group",
+      "ToolTip": "Nemo dicta quod earum nemo.",
+      "Deleted": false,
+      "Rank": 123,
+      "Type": "maxime",
+      "ColorBlock": 169,
+      "IconHint": "adipisci",
+      "Selected": false,
+      "LastChanged": "2006-12-12T13:28:33.1482054+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "sint",
       "Hidden": true,
-      "FullName": "Patience Berge"
+      "FullName": "Marcelo Conroy"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 720,
-  "Name": "Collier Inc and Sons",
-  "Tooltip": "ipsam",
-  "Rank": 81,
+  "SaleTypeId": 687,
+  "Name": "O'Connell, Spinka and Ziemann",
+  "Tooltip": "aut",
+  "Rank": 896,
   "DurationUnit": "Century",
-  "SaleDuration": 680,
-  "SaleTypeCatId": 727,
+  "SaleDuration": 695,
+  "SaleTypeCatId": 234,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 151,
-  "QuoteLinesTemplate": 530,
-  "ConfirmationLinesTemplate": 172,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 391,
+  "QuoteLinesTemplate": 313,
+  "ConfirmationLinesTemplate": 259,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 919,
-  "MinEarningPercent": 117,
-  "GroupQuoteLinesBy": 503,
-  "SortGroupLinesBy": 921,
+  "MaxDiscountPercent": 28,
+  "MinEarningPercent": 745,
+  "GroupQuoteLinesBy": 254,
+  "SortGroupLinesBy": 881,
   "Stages": [
     {
-      "Id": 358,
-      "Name": "Block Inc and Sons",
-      "ToolTip": "Nemo possimus necessitatibus repellendus aut.",
-      "Deleted": true,
-      "Rank": 10,
-      "Type": "modi",
-      "ColorBlock": 459,
-      "IconHint": "vero",
-      "Selected": false,
-      "LastChanged": "2005-07-05T04:22:36.1747132+02:00",
+      "Id": 485,
+      "Name": "Sanford-Pouros",
+      "ToolTip": "Officiis error ut sit cupiditate voluptas.",
+      "Deleted": false,
+      "Rank": 405,
+      "Type": "eius",
+      "ColorBlock": 122,
+      "IconHint": "fugiat",
+      "Selected": true,
+      "LastChanged": "2006-10-27T13:28:33.1482054+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "esse",
+      "ExtraInfo": "nam",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Miss Rodolfo Kuhlman DDS",
+      "FullName": "Keenan Yost I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

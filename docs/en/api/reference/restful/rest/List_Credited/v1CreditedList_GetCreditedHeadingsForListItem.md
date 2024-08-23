@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Hauck-Terry",
-    "ToolTip": "Saepe culpa quo reprehenderit repudiandae provident.",
-    "Deleted": false,
-    "Rank": 521,
-    "Type": "consequatur",
-    "ColorBlock": 291,
-    "IconHint": "alias",
+    "Id": 239,
+    "Name": "Ullrich-Moen",
+    "ToolTip": "Dolore quae quo ut quo eum natus.",
+    "Deleted": true,
+    "Rank": 606,
+    "Type": "nostrum",
+    "ColorBlock": 208,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2007-09-19T04:22:35.8934712+02:00",
+    "LastChanged": "2009-10-26T13:28:32.7884933+01:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Rippin-Pagac",
-        "ToolTip": "Eligendi id aut sed quo perferendis.",
-        "Deleted": true,
-        "Rank": 222,
-        "Type": "repellendus",
-        "ColorBlock": 936,
-        "IconHint": "voluptatibus",
+        "Id": 175,
+        "Name": "Hilpert-Bartell",
+        "ToolTip": "Odit reiciendis nobis vitae quas harum.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "ipsam",
+        "ColorBlock": 514,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "1997-01-31T04:22:35.8934712+01:00",
+        "LastChanged": "2012-05-26T13:28:32.7884933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Oliver Cormier",
+        "ExtraInfo": "magni",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Dorothy Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 677
+            "FieldType": "System.String",
+            "FieldLength": 794
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "labore",
-    "Hidden": true,
-    "FullName": "Mr. Orlando Dovie Buckridge",
+    "ExtraInfo": "sit",
+    "StyleHint": "natus",
+    "Hidden": false,
+    "FullName": "Mr. Mable Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 968
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 550,
-    "Name": "Conn-Bechtelar",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "Rank": 618,
-    "UdListDefinitionId": 548,
+    "HeadingId": 325,
+    "Name": "Cole, Klocko and Dach",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 496,
+    "UdListDefinitionId": 749,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 86
       }
     }
   }

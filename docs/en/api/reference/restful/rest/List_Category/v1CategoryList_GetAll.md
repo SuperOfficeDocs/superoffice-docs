@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Harvey-Johnston",
-    "Tooltip": "modi",
+    "Id": 973,
+    "Name": "Rempel LLC",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "UdListDefinitionId": 614,
-    "Rank": 117,
+    "UdListDefinitionId": 132,
+    "Rank": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

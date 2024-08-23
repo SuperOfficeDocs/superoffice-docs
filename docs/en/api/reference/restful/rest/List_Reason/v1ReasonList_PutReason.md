@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Adams Inc and Sons",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "UdListDefinitionId": 271,
-  "Rank": 275
+  "Id": 541,
+  "Name": "Kutch Inc and Sons",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 115,
+  "Rank": 947
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582,
-  "Name": "Leuschke Group",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "UdListDefinitionId": 736,
-  "Rank": 568,
+  "Id": 458,
+  "Name": "Kassulke LLC",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 910,
+  "Rank": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 104
     }
   }
 }

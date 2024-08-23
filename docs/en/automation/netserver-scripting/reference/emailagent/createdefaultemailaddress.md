@@ -2,10 +2,10 @@
 uid: emailagent-createdefaultemailaddress
 title: EMailAgent.CreateDefaultEMailAddress event method
 description: Scripting events called on the CreateDefaultEMailAddress method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.CreateDefaultEMailAddress
 

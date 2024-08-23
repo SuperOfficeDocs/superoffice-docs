@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=minima
+GET /api/v1/List/ConsentPurpose/MDOItems?query=nobis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Zieme, Hayes and Erdman",
-    "ToolTip": "Id ullam accusamus.",
-    "Deleted": true,
-    "Rank": 393,
-    "Type": "suscipit",
+    "Id": 417,
+    "Name": "Becker Group",
+    "ToolTip": "Dolorum exercitationem hic qui nisi.",
+    "Deleted": false,
+    "Rank": 569,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Fay, Price and Thompson",
-        "ToolTip": "Quo veritatis optio ex praesentium quis vero.",
+        "Id": 754,
+        "Name": "Dickinson Inc and Sons",
+        "ToolTip": "Eum maxime.",
         "Deleted": false,
-        "Rank": 407,
-        "Type": "doloribus",
+        "Rank": 689,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 847,
-        "ExtraInfo": "nemo",
-        "StyleHint": "sunt",
-        "FullName": "Cory Goldner",
+        "IconHint": "temporibus",
+        "ColorBlock": 133,
+        "ExtraInfo": "neque",
+        "StyleHint": "aperiam",
+        "FullName": "Eleazar Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 362
+            "FieldType": "System.Int32",
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 793,
-    "ExtraInfo": "vel",
-    "StyleHint": "veritatis",
-    "FullName": "Rico Rohan",
+    "IconHint": "velit",
+    "ColorBlock": 19,
+    "ExtraInfo": "ullam",
+    "StyleHint": "et",
+    "FullName": "Rocky Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

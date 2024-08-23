@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "necessitatibus",
-  "AssociateId": 535,
-  "IsPerson": false,
-  "PersonId": 921,
-  "CountryId": 295,
-  "HomeCountryId": 545,
-  "ContactId": 895,
-  "GroupId": 310,
-  "BusinessId": 622,
-  "CategoryId": 373,
-  "ContactOwner": 50,
-  "RoleId": 976,
-  "RoleName": "Jast-Reichert",
-  "RoleDescription": "Monitored object-oriented structure",
+  "Associate": "earum",
+  "AssociateId": 528,
+  "IsPerson": true,
+  "PersonId": 508,
+  "CountryId": 126,
+  "HomeCountryId": 340,
+  "ContactId": 950,
+  "GroupId": 490,
+  "BusinessId": 99,
+  "CategoryId": 590,
+  "ContactOwner": 959,
+  "RoleId": 843,
+  "RoleName": "Auer, Treutel and Beier",
+  "RoleDescription": "Proactive dedicated definition",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 837,
-      "OwnerName": "Gusikowski Group",
-      "OwnerDescription": "Profit-focused dedicated concept",
-      "ModuleId": 940,
-      "Name": "Reynolds-Senger",
-      "Description": "Decentralized optimal task-force",
-      "Version": "quaerat",
+      "OwnerId": 442,
+      "OwnerName": "Eichmann, Tremblay and Tromp",
+      "OwnerDescription": "Digitized real-time capability",
+      "ModuleId": 106,
+      "Name": "Pfeffer LLC",
+      "Description": "Exclusive global complexity",
+      "Version": "fugit",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 762,
-      "ExtraInfo": "sequi",
-      "SortOrder": 101,
-      "LicenseNumber": 587,
+      "ExtraFlags": 565,
+      "ExtraInfo": "cum",
+      "SortOrder": 294,
+      "LicenseNumber": 965,
       "IsHidden": false,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2021-10-25T04:22:35.7522278+02:00",
+      "IsUnrestricted": true,
+      "ExpiryDate": "1999-11-25T13:28:32.6166592+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 143
+          "FieldType": "System.Int32",
+          "FieldLength": 207
         }
       }
     }
   ],
-  "FullName": "Miss Kenton Braun",
-  "EMailAddress": "aspernatur",
+  "FullName": "Prudence Barrows",
+  "EMailAddress": "assumenda",
   "FunctionRights": [
-    "omnis",
-    "enim"
+    "dolor",
+    "maiores"
   ],
-  "EjUserId": 67,
-  "EjAccessLevel": 899,
+  "EjUserId": 864,
+  "EjAccessLevel": 862,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "sit",
-      "SearchName": "Lebsack-Beahan",
-      "DisplayName": "Marvin Inc and Sons",
-      "CredentialId": 431
+      "Type": "quidem",
+      "SearchName": "Hodkiewicz, Kozey and Lubowitz",
+      "DisplayName": "Smitham-Heller",
+      "CredentialId": 326
     },
     {
-      "Type": "sit",
-      "SearchName": "Lebsack-Beahan",
-      "DisplayName": "Marvin Inc and Sons",
-      "CredentialId": 431
+      "Type": "quidem",
+      "SearchName": "Hodkiewicz, Kozey and Lubowitz",
+      "DisplayName": "Smitham-Heller",
+      "CredentialId": 326
     }
   ],
   "SecondaryGroups": [
-    979,
-    717
+    48,
+    842
   ],
-  "DatabaseContextIdentifier": "sunt",
-  "UserName": "Reilly Inc and Sons"
+  "DatabaseContextIdentifier": "nam",
+  "UserName": "Simonis, Bechtelar and Durgan"
 }
 ```

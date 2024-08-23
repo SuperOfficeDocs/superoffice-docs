@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 449,
-  "StartTime": "2005-04-09T04:22:25.5428448+02:00",
-  "EndTime": "2016-07-23T04:22:25.5428448+02:00",
-  "Count": 821,
+  "ProjectId": 694,
+  "StartTime": "2023-09-03T13:28:21.4136438+02:00",
+  "EndTime": "2000-02-14T13:28:21.4136438+01:00",
+  "Count": 191,
   "TaskIds": [
-    347,
-    852
+    941,
+    257
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 366,
-    "StartDate": "2006-11-04T04:22:25.5428448+01:00",
-    "EndDate": "2015-05-20T04:22:25.5428448+02:00",
+    "AppointmentId": 480,
+    "StartDate": "2023-08-10T13:28:21.4292674+02:00",
+    "EndDate": "2008-02-15T13:28:21.4292674+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eum",
-    "AssociateFullName": "Miss Olin Garnett Altenwerth",
-    "ContactName": "Bode-Daugherty",
-    "Description": "Cloned zero administration database",
-    "PersonFullName": "Jayson Hane",
-    "PersonId": 316,
-    "ContactId": 583,
-    "ProjectId": 401,
-    "ProjectName": "Satterfield-Hilll",
-    "IsPublished": true,
-    "AssociateId": 702,
-    "ColorIndex": 986,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "saepe",
+    "AssociateFullName": "Mrs. Genevieve Batz Sr.",
+    "ContactName": "Hagenes, Beer and Schmeler",
+    "Description": "Extended analyzing portal",
+    "PersonFullName": "Destiny Dayna Tromp II",
+    "PersonId": 358,
+    "ContactId": 14,
+    "ProjectId": 631,
+    "ProjectName": "Miller LLC",
+    "IsPublished": false,
+    "AssociateId": 596,
+    "ColorIndex": 552,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 490,
-    "PriorityName": "Wilkinson-Turner",
+    "PriorityId": 65,
+    "PriorityName": "Lesch, Boyle and Schoen",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-05-29T04:22:25.5428448+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2017-02-26T13:28:21.4292674+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-11-01T04:22:25.5428448+01:00",
-    "RecurringEndDate": "2002-05-28T04:22:25.5428448+02:00",
-    "MotherId": 880,
-    "AssignedBy": 215,
-    "AssignedByFullName": "Quinten Luettgen",
+    "RecurringStartDate": "2024-03-25T13:28:21.4292674+01:00",
+    "RecurringEndDate": "2016-12-18T13:28:21.4292674+01:00",
+    "MotherId": 740,
+    "AssignedBy": 37,
+    "AssignedByFullName": "Mrs. Aimee Carroll DDS",
     "RejectReason": "",
-    "Location": "facilis",
-    "AlarmLeadTime": "ea",
-    "SaleId": 40,
-    "SaleName": "Dicki-Kihn",
-    "AssociateName": "Friesen-Corwin",
-    "CreatedDate": "2022-10-22T04:22:25.5428448+02:00",
-    "CreatedBy": "deleniti",
-    "CreatedByFullName": "Alta Gerson Lockman V",
-    "CreatedByAssociateId": 227,
+    "Location": "voluptas",
+    "AlarmLeadTime": "ratione",
+    "SaleId": 86,
+    "SaleName": "Towne, McCullough and Ondricka",
+    "AssociateName": "Luettgen-Kutch",
+    "CreatedDate": "2021-10-09T13:28:21.4292674+02:00",
+    "CreatedBy": "architecto",
+    "CreatedByFullName": "Margot Anne Pfannerstill DVM",
+    "CreatedByAssociateId": 442,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 74,
-    "Title": "et",
-    "Agenda": "temporibus",
-    "InternalNotes": "adipisci",
+    "PreferredTZLocation": 932,
+    "Title": "sed",
+    "Agenda": "eaque",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 671
       }
     }
   }

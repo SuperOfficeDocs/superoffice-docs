@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 942,
+  "SystemEventId": 148,
   "Scope": "Database",
-  "Eta": "2024-04-23T04:22:26.1528443+02:00",
-  "Eventkey": "consequatur",
-  "Eventmess": "est",
-  "ExtraInfo": 589,
-  "Owner": 223,
-  "UpdatedCount": 653,
-  "Registered": "1997-04-01T04:22:26.1528443+02:00",
+  "Eta": "2015-03-08T13:28:22.1636887+01:00",
+  "Eventkey": "quisquam",
+  "Eventmess": "eum",
+  "ExtraInfo": 732,
+  "Owner": 372,
+  "UpdatedCount": 505,
+  "Registered": "2018-07-01T13:28:22.1636887+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 7,
+  "SystemEventId": 397,
   "Scope": "Database",
-  "Eta": "2005-09-21T04:22:26.1684694+02:00",
-  "Eventkey": "facilis",
-  "Eventmess": "dolorem",
-  "ExtraInfo": 950,
-  "Owner": 618,
-  "UpdatedCount": 951,
-  "Registered": "2006-09-03T04:22:26.1684694+02:00",
+  "Eta": "2020-09-26T13:28:22.1636887+02:00",
+  "Eventkey": "dolorem",
+  "Eventmess": "dolor",
+  "ExtraInfo": 57,
+  "Owner": 81,
+  "UpdatedCount": 348,
+  "Registered": "2022-03-29T13:28:22.1636887+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 674
     }
   }
 }

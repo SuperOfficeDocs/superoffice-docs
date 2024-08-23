@@ -102,13 +102,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 534,
-  "StartTime": "2006-03-22T04:22:26.3884781+01:00",
-  "EndTime": "2011-10-11T04:22:26.3884781+02:00",
-  "Count": 980,
+  "ContactId": 477,
+  "StartTime": "1998-08-10T13:28:22.4448744+02:00",
+  "EndTime": "2000-08-28T13:28:22.4448744+02:00",
+  "Count": 645,
   "DocumentTemplateIds": [
-    779,
-    701
+    971,
+    861
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 991,
-    "Attention": "omnis",
-    "Header": "voluptatem",
-    "Name": "Franecki LLC",
-    "OurRef": "id",
-    "YourRef": "et",
-    "Description": "Synchronised national firmware",
-    "DocumentTemplate": "quasi",
+    "DocumentId": 504,
+    "Attention": "ab",
+    "Header": "voluptatibus",
+    "Name": "Marquardt, Ferry and Morar",
+    "OurRef": "omnis",
+    "YourRef": "qui",
+    "Description": "Future-proofed static workforce",
+    "DocumentTemplate": "sit",
     "IsPublished": true,
-    "PersonId": 282,
-    "PersonFullName": "Duane Kulas",
-    "AssociateFullName": "Miss Felipa Lilian Johnson I",
-    "ContactId": 228,
-    "ContactName": "Erdman LLC",
-    "ProjectId": 828,
-    "ProjectName": "Schmidt-Roberts",
-    "AssociateId": 687,
-    "Snum": 416,
-    "SaleId": 271,
-    "SaleName": "Rice-Nitzsche",
+    "PersonId": 738,
+    "PersonFullName": "Tessie Beer",
+    "AssociateFullName": "Leanna Predovic I",
+    "ContactId": 901,
+    "ContactName": "Bradtke, Senger and Simonis",
+    "ProjectId": 542,
+    "ProjectName": "Bernhard-Kunze",
+    "AssociateId": 317,
+    "Snum": 735,
+    "SaleId": 229,
+    "SaleName": "Rogahn-Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

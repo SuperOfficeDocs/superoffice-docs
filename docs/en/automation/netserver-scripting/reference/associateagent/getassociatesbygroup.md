@@ -2,10 +2,10 @@
 uid: associateagent-getassociatesbygroup
 title: AssociateAgent.GetAssociatesByGroup event method
 description: Scripting events called on the GetAssociatesByGroup method on the AssociateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AssociateAgent.GetAssociatesByGroup
 

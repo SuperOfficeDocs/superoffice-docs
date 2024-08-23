@@ -3,9 +3,9 @@ uid: chatservice
 title: chatservice
 keywords: mdoprovider mdo provider chatservice
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "chatservice" MDO List

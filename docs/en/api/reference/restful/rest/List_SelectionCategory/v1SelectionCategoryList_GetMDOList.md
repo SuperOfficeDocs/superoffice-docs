@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=aut
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Dietrich-Terry",
-    "ToolTip": "Et possimus.",
-    "Deleted": false,
-    "Rank": 449,
-    "Type": "non",
+    "Id": 290,
+    "Name": "Schowalter Group",
+    "ToolTip": "Numquam repellendus.",
+    "Deleted": true,
+    "Rank": 429,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Weimann, Paucek and Orn",
-        "ToolTip": "Ducimus qui neque.",
+        "Id": 683,
+        "Name": "Cartwright, Luettgen and Medhurst",
+        "ToolTip": "Qui iusto.",
         "Deleted": false,
-        "Rank": 323,
-        "Type": "blanditiis",
+        "Rank": 762,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 551,
-        "ExtraInfo": "placeat",
-        "StyleHint": "reprehenderit",
-        "FullName": "Russell Johnston",
+        "IconHint": "harum",
+        "ColorBlock": 337,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
+        "FullName": "Christian Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 429
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 623,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "beatae",
-    "FullName": "Eldora Little",
+    "IconHint": "sequi",
+    "ColorBlock": 306,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "et",
+    "FullName": "Keegan Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

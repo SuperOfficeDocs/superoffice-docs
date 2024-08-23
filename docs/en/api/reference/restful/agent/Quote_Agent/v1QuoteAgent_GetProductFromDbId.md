@@ -110,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 732
+  "ProductId": 18
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 232,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "impedit",
-  "Name": "Ernser-Upton",
-  "Description": "Distributed next generation attitude",
-  "Code": "excepturi",
-  "PriceUnit": "ipsum",
-  "QuantityUnit": "ratione",
-  "IsSubscription": true,
-  "SubscriptionUnit": "tenetur",
-  "DefaultSubscriptionQuantity": 14256.565999999999,
-  "ItemNumber": "1438812",
+  "ProductId": 668,
+  "ERPProductKey": "tempore",
+  "ERPPriceListKey": "nulla",
+  "Name": "Johnston Inc and Sons",
+  "Description": "Profound client-server model",
+  "Code": "possimus",
+  "PriceUnit": "doloribus",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "unde",
+  "DefaultSubscriptionQuantity": 27695.158,
+  "ItemNumber": "1376772",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "voluptates",
-  "VAT": 26538.712,
-  "VATInfo": "sapiente",
-  "UnitCost": 26407.084,
-  "UnitMinimumPrice": 27920.806,
-  "UnitListPrice": 23517.536,
-  "InAssortment": true,
-  "Supplier": "tempora",
-  "SupplierCode": "ea",
-  "Rights": "est",
-  "Rule": "quam",
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "rerum",
+  "VAT": 30449.944,
+  "VATInfo": "temporibus",
+  "UnitCost": 17443.844,
+  "UnitMinimumPrice": 7408.776,
+  "UnitListPrice": 3660.5119999999997,
+  "InAssortment": false,
+  "Supplier": "beatae",
+  "SupplierCode": "sunt",
+  "Rights": "labore",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Pollich Group",
-      "Value": "esse",
+      "Name": "Block LLC",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 327
+          "FieldLength": 537
         }
       }
     },
     {
-      "Name": "Pollich Group",
-      "Value": "esse",
+      "Name": "Block LLC",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 327
+          "FieldLength": 537
         }
       }
     }
   ],
-  "RawExtraInfo": "libero",
-  "ExtraField1": "non",
-  "ExtraField2": "facilis",
-  "ExtraField3": "molestias",
-  "ExtraField4": "voluptate",
-  "ExtraField5": "expedita",
-  "InStock": 12999.832,
+  "RawExtraInfo": "et",
+  "ExtraField1": "dolorum",
+  "ExtraField2": "sunt",
+  "ExtraField3": "omnis",
+  "ExtraField4": "incidunt",
+  "ExtraField5": "occaecati",
+  "InStock": 22100.968,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 691
     }
   }
 }

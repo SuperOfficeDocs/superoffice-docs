@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 171,
-  "Name": "King, Thompson and Romaguera",
-  "Description": "Universal 24/7 intranet",
-  "WelcomeMessage": "at",
+  "ChatTopicId": 169,
+  "Name": "Walter LLC",
+  "Description": "Digitized bifurcated moderator",
+  "WelcomeMessage": "harum",
   "Language": null,
-  "LastAccept": "2005-11-20T04:22:34.7183767+01:00",
-  "SecondsPrAccept": 524,
-  "AlertRecipient": "dolorem",
+  "LastAccept": "2023-03-21T13:28:31.351192+01:00",
+  "SecondsPrAccept": 515,
+  "AlertRecipient": "harum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "blanditiis",
+  "BadgeHeader": "itaque",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "optio",
-  "WarnNewChatMinutes": 495,
-  "WarnManagerNewChatMinutes": 443,
+  "CustomQueueText": "ad",
+  "WarnNewChatMinutes": 288,
+  "WarnManagerNewChatMinutes": 187,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 79,
-  "WarnManagerChatMessageMinutes": 430,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 281,
-  "OfflineFormQueueLength": 280,
+  "WarnChatMessageMinutes": 814,
+  "WarnManagerChatMessageMinutes": 181,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 705,
+  "OfflineFormQueueLength": 189,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "soluta",
+  "WidgetRatingText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 497
     }
   }
 }

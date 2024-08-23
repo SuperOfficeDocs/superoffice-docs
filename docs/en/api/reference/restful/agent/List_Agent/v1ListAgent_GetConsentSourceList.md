@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 467,
-    "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "est",
-    "Rank": 132,
-    "Key": "aut",
-    "MailTemplateId": 526,
+    "ConsentSourceId": 303,
+    "Name": "Friesen Group",
+    "Tooltip": "iusto",
+    "Rank": 178,
+    "Key": "ipsa",
+    "MailTemplateId": 548,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 434
       }
     }
   }

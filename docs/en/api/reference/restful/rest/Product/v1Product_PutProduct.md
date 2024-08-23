@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 940,
-  "ERPProductKey": "possimus",
-  "ERPPriceListKey": "et",
-  "Name": "Reilly LLC",
-  "Description": "Up-sized bottom-line intranet",
-  "Code": "rem",
-  "PriceUnit": "atque",
-  "QuantityUnit": "nisi",
+  "ProductId": 230,
+  "ERPProductKey": "quisquam",
+  "ERPPriceListKey": "placeat",
+  "Name": "Farrell Inc and Sons",
+  "Description": "Future-proofed context-sensitive leverage",
+  "Code": "modi",
+  "PriceUnit": "vel",
+  "QuantityUnit": "saepe",
   "IsSubscription": false,
-  "SubscriptionUnit": "in",
-  "DefaultSubscriptionQuantity": 22862.53,
-  "ItemNumber": "457981",
+  "SubscriptionUnit": "nesciunt",
+  "DefaultSubscriptionQuantity": 21580.724,
+  "ItemNumber": "165088",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "deleniti",
-  "VAT": 15080.807999999999,
-  "VATInfo": "inventore",
-  "UnitCost": 329.07,
-  "UnitMinimumPrice": 272.658,
-  "UnitListPrice": 14008.98,
+  "ProductFamilyKey": "laborum",
+  "ProductTypeKey": "suscipit",
+  "VAT": 26378.878,
+  "VATInfo": "iste",
+  "UnitCost": 9593.1739999999991,
+  "UnitMinimumPrice": 29465.868,
+  "UnitListPrice": 14030.918,
   "InAssortment": true,
-  "Supplier": "id",
-  "SupplierCode": "eveniet",
-  "Rights": "tenetur",
-  "Rule": "voluptatibus",
+  "Supplier": "fugit",
+  "SupplierCode": "eos",
+  "Rights": "quia",
+  "Rule": "iure",
   "ExtraInfo": [
     {
-      "Name": "Lueilwitz-Jaskolski",
-      "Value": "ad",
+      "Name": "Kutch, Blanda and Considine",
+      "Value": "unde",
       "Type": "Image"
     },
     {
-      "Name": "Lueilwitz-Jaskolski",
-      "Value": "ad",
+      "Name": "Kutch, Blanda and Considine",
+      "Value": "unde",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "pariatur",
-  "ExtraField2": "rerum",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "officiis",
-  "ExtraField5": "fugit",
-  "InStock": 9859.564
+  "RawExtraInfo": "unde",
+  "ExtraField1": "enim",
+  "ExtraField2": "eum",
+  "ExtraField3": "consequuntur",
+  "ExtraField4": "itaque",
+  "ExtraField5": "tenetur",
+  "InStock": 1595.206
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 874,
-  "ERPProductKey": "odit",
-  "ERPPriceListKey": "molestiae",
-  "Name": "Schamberger-Crist",
-  "Description": "Diverse eco-centric local area network",
-  "Code": "tempore",
-  "PriceUnit": "nobis",
-  "QuantityUnit": "neque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "exercitationem",
-  "DefaultSubscriptionQuantity": 16513.046,
-  "ItemNumber": "550195",
+  "ProductId": 774,
+  "ERPProductKey": "minus",
+  "ERPPriceListKey": "consequatur",
+  "Name": "Treutel, Farrell and Barrows",
+  "Description": "Multi-layered systematic archive",
+  "Code": "pariatur",
+  "PriceUnit": "quaerat",
+  "QuantityUnit": "minima",
+  "IsSubscription": false,
+  "SubscriptionUnit": "incidunt",
+  "DefaultSubscriptionQuantity": 11743.098,
+  "ItemNumber": "473062",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nulla",
-  "ProductTypeKey": "quis",
-  "VAT": 22489.584,
-  "VATInfo": "sit",
-  "UnitCost": 19593.768,
-  "UnitMinimumPrice": 965.27199999999993,
-  "UnitListPrice": 12228.868,
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 8806.5399999999991,
+  "VATInfo": "numquam",
+  "UnitCost": 27776.642,
+  "UnitMinimumPrice": 3582.162,
+  "UnitListPrice": 11573.862,
   "InAssortment": false,
-  "Supplier": "quisquam",
-  "SupplierCode": "officiis",
-  "Rights": "explicabo",
-  "Rule": "occaecati",
+  "Supplier": "sed",
+  "SupplierCode": "voluptatum",
+  "Rights": "consectetur",
+  "Rule": "optio",
   "ExtraInfo": [
     {
-      "Name": "Kovacek Group",
-      "Value": "error",
+      "Name": "Kuhn, Anderson and Metz",
+      "Value": "nulla",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 454
         }
       }
     },
     {
-      "Name": "Kovacek Group",
-      "Value": "error",
+      "Name": "Kuhn, Anderson and Metz",
+      "Value": "nulla",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 454
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "ad",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "occaecati",
-  "ExtraField4": "atque",
-  "ExtraField5": "rerum",
-  "InStock": 26068.611999999997,
+  "RawExtraInfo": "atque",
+  "ExtraField1": "vel",
+  "ExtraField2": "sunt",
+  "ExtraField3": "numquam",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "odit",
+  "InStock": 17710.234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 415
     }
   }
 }

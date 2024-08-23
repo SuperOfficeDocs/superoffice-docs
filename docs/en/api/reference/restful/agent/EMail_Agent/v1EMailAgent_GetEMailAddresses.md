@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    45,
-    876
+    713,
+    467
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 802,
-    "ContactName": "Reichert Group",
-    "PersonId": 3,
-    "PersonName": "Bradtke-Little",
-    "AssociateId": 810,
-    "Address": "voluptas",
-    "EmailId": 754,
+    "ContactId": 227,
+    "ContactName": "Rau Group",
+    "PersonId": 598,
+    "PersonName": "Cormier Inc and Sons",
+    "AssociateId": 185,
+    "Address": "neque",
+    "EmailId": 132,
     "DuplicatePersonIds": [
-      742,
-      153
+      181,
+      847
     ],
-    "Name": "Effertz-Hodkiewicz",
+    "Name": "Towne LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

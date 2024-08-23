@@ -2,10 +2,10 @@
 uid: importagent-createerpimportdata
 title: ImportAgent.CreateErpImportData event method
 description: Scripting events called on the CreateErpImportData method on the ImportAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ImportAgent.CreateErpImportData
 

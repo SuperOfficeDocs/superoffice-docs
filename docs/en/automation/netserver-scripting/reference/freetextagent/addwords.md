@@ -2,10 +2,10 @@
 uid: freetextagent-addwords
 title: FreeTextAgent.AddWords event method
 description: Scripting events called on the AddWords method on the FreeTextAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FreeTextAgent.AddWords
 

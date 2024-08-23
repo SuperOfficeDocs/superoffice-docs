@@ -2,10 +2,10 @@
 uid: licenseagent-getshopurl
 title: LicenseAgent.GetShopUrl event method
 description: Scripting events called on the GetShopUrl method on the LicenseAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # LicenseAgent.GetShopUrl
 

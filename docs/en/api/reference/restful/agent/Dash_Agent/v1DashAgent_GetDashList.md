@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    867,
-    88
+    199,
+    818
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 410,
-    "UniqueId": "sequi",
-    "Name": "Schaefer, Stehr and Bartoletti",
-    "Description": "Seamless leading edge firmware",
-    "AssociateId": 481,
-    "Columns": 2,
+    "DashboardId": 375,
+    "UniqueId": "ipsam",
+    "Name": "Pfannerstill-Goldner",
+    "Description": "Public-key zero administration benchmark",
+    "AssociateId": 57,
+    "Columns": 10,
     "Theme": null,
-    "VisibleForAll": 980,
+    "VisibleForAll": 735,
     "VisibleForAssociates": [
-      540,
-      386
+      941,
+      881
     ],
     "VisibleForGroups": [
-      500,
-      262
+      639,
+      419
     ],
-    "PinForAll": 197,
+    "PinForAll": 603,
     "PinForAssociates": [
-      289,
-      969
+      313,
+      813
     ],
     "PinForGroups": [
-      617,
-      436
+      760,
+      472
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 521
       }
     }
   }

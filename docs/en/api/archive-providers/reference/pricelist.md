@@ -3,9 +3,9 @@ uid: PriceList
 title: PriceList
 description: Archive of Pricelists - used by the web api.
 keywords: PriceList archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "PriceList"
@@ -43,7 +43,7 @@ Lists all Pricelist in table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/PriceList?$select=description,validFrom
+GET /api/v1/archive/PriceList?$select=name,description,validFrom
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

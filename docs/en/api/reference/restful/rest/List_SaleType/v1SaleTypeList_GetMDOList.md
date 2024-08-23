@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=ipsam
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=eveniet
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Schmitt, Upton and Fay",
-    "ToolTip": "Dolores eaque et nihil non perferendis ducimus.",
+    "Id": 185,
+    "Name": "Gerlach LLC",
+    "ToolTip": "Aliquid necessitatibus ducimus odio voluptate sapiente impedit fugit.",
     "Deleted": false,
-    "Rank": 511,
-    "Type": "et",
+    "Rank": 536,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Rowe, Schulist and Hudson",
-        "ToolTip": "Magnam commodi omnis tempora numquam dolorem voluptatem.",
-        "Deleted": true,
-        "Rank": 475,
-        "Type": "ea",
+        "Id": 223,
+        "Name": "Torphy-Borer",
+        "ToolTip": "Soluta aliquam dolorum.",
+        "Deleted": false,
+        "Rank": 266,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 648,
-        "ExtraInfo": "repellat",
-        "StyleHint": "eveniet",
-        "FullName": "Carlos Champlin",
+        "IconHint": "qui",
+        "ColorBlock": 774,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "a",
+        "FullName": "Miss Aubree Travis Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 305
+            "FieldType": "System.Int32",
+            "FieldLength": 826
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 434,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "tempore",
-    "FullName": "Prof. Ben Kendall Rosenbaum",
+    "IconHint": "quia",
+    "ColorBlock": 193,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "non",
+    "FullName": "Suzanne Botsford DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 389
       }
     }
   }

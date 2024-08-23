@@ -72,6 +72,9 @@ OK
 | ErrorMessage | string | Deprecated, see ErrorInformation instead. Contains the error message for a non-valide CRMScript |
 | LineNumber | int32 | Deprecated, see ErrorInformation instead. The line number containing the incorrect syntax, if available |
 | ErrorInformation | CRMScriptErrorInfo | Contains error information if the validation failed |
+| Transpiled | string | This will contain transpiled code. In case of Typescript, this will then contain the executable JavaScript |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | Array of source maps showing where in the original code a specific line originated from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -85,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 704
+  "CRMScriptId": 447
 }
 ```
 
@@ -96,16 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "sit",
-  "LineNumber": 958,
+  "Valid": false,
+  "ErrorMessage": "rerum",
+  "LineNumber": 120,
   "ErrorInformation": null,
+  "Transpiled": "sunt",
+  "Includes": [
+    320,
+    487
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 778,
+      "LineNumberTo": 748,
+      "Delta": 287,
+      "IncludeId": "sint",
+      "IncludedFrom": [
+        "qui",
+        "maxime"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 113
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

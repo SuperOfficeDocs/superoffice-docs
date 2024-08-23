@@ -2,10 +2,10 @@
 uid: mdoagent-getlist
 title: MDOAgent.GetList event method
 description: Scripting events called on the GetList method on the MDOAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MDOAgent.GetList
 

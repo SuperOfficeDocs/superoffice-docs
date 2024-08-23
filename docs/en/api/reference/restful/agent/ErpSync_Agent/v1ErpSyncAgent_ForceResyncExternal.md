@@ -86,11 +86,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 91,
+  "ErpConnectionId": 403,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "ducimus",
-    "dolorem"
+    "omnis",
+    "reiciendis"
   ]
 }
 ```
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "omnis",
-  "TechExplanation": "et",
-  "ErrorCode": "quibusdam",
+  "UserExplanation": "ipsam",
+  "TechExplanation": "sequi",
+  "ErrorCode": "corrupti",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 513
     }
   }
 }

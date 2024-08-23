@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 675,
-    "Name": "Keebler-Steuber",
-    "Tooltip": "facere",
+    "HeadingId": 671,
+    "Name": "Olson, McCullough and Kiehn",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "Rank": 497,
-    "UdListDefinitionId": 332
+    "Rank": 655,
+    "UdListDefinitionId": 490
   },
   {
-    "HeadingId": 675,
-    "Name": "Keebler-Steuber",
-    "Tooltip": "facere",
+    "HeadingId": 671,
+    "Name": "Olson, McCullough and Kiehn",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "Rank": 497,
-    "UdListDefinitionId": 332
+    "Rank": 655,
+    "UdListDefinitionId": 490
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Schumm Group",
-    "Tooltip": "qui",
+    "HeadingId": 526,
+    "Name": "Kris-Kerluke",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 921,
-    "UdListDefinitionId": 907,
+    "Rank": 951,
+    "UdListDefinitionId": 20,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 89
       }
     }
   }

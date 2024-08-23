@@ -3,9 +3,9 @@ uid: FindProject
 title: FindProject
 description: Provider for searching in projects
 keywords: FindProject archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindProject"
@@ -791,7 +791,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=projectUdef/SuperOffice:9,document/associate/fullName,projectMember/projectId,projectMember/personAssociate/associateDbId
+GET /api/v1/archive/FindProject?$select=sale/projectId,sale/heading,sale/stageRank,document/document/description,projectMember/searchPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

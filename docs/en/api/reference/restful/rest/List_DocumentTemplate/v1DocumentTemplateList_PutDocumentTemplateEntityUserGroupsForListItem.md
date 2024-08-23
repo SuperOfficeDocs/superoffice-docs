@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Senger, Hoppe and Schmidt",
-    "ToolTip": "Nihil officia neque architecto deserunt expedita.",
-    "Deleted": true,
-    "Rank": 626,
-    "Type": "fuga",
-    "ColorBlock": 822,
-    "IconHint": "consequatur",
+    "Id": 447,
+    "Name": "Ernser Group",
+    "ToolTip": "Eaque quis ullam qui error repellendus odio.",
+    "Deleted": false,
+    "Rank": 51,
+    "Type": "sed",
+    "ColorBlock": 178,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2017-08-23T04:22:35.9559668+02:00",
+    "LastChanged": "2011-11-08T13:28:32.8509815+01:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "King, Miller and Oberbrunner",
-        "ToolTip": "Unde ut et autem nostrum.",
+        "Id": 960,
+        "Name": "Reichert-Kertzmann",
+        "ToolTip": "Et unde ratione.",
         "Deleted": true,
-        "Rank": 344,
-        "Type": "ut",
-        "ColorBlock": 185,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2002-09-10T04:22:35.9559668+02:00",
+        "Rank": 306,
+        "Type": "corrupti",
+        "ColorBlock": 912,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2004-08-12T13:28:32.8509815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sed",
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Sheila Schuppe"
+        "FullName": "Lydia Nolan"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "nam",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dana Hagenes I"
+    "FullName": "Rey Schiller Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "O'Reilly-Lang",
-    "ToolTip": "Autem sunt accusantium eos reiciendis itaque et a.",
+    "Id": 592,
+    "Name": "Casper LLC",
+    "ToolTip": "Nemo voluptas dolore est ratione.",
     "Deleted": false,
-    "Rank": 919,
-    "Type": "aut",
-    "ColorBlock": 297,
-    "IconHint": "rerum",
+    "Rank": 162,
+    "Type": "molestiae",
+    "ColorBlock": 328,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2018-04-29T04:22:35.9559668+02:00",
+    "LastChanged": "2017-04-25T13:28:32.8509815+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Kilback Inc and Sons",
-        "ToolTip": "Et et nesciunt laudantium qui quo.",
-        "Deleted": true,
-        "Rank": 701,
-        "Type": "non",
-        "ColorBlock": 368,
-        "IconHint": "illum",
-        "Selected": true,
-        "LastChanged": "1999-11-29T04:22:35.9559668+01:00",
+        "Id": 606,
+        "Name": "Altenwerth Group",
+        "ToolTip": "Mollitia cum earum vitae nisi quia.",
+        "Deleted": false,
+        "Rank": 897,
+        "Type": "odio",
+        "ColorBlock": 548,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2006-04-27T13:28:32.8509815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Dr. Geovany Tyshawn O'Conner",
+        "ExtraInfo": "quia",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Reed Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldType": "System.Int32",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "ab",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Frederik Bergnaum",
+    "FullName": "Willis Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 578
       }
     }
   }

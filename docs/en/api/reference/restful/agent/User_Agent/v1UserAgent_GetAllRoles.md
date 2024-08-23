@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Boehm, Jenkins and Veum",
-    "ToolTip": "Dolores minima eligendi ullam ad.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "optio",
-    "ColorBlock": 253,
-    "IconHint": "aspernatur",
+    "Id": 848,
+    "Name": "Waelchi Inc and Sons",
+    "ToolTip": "Est molestias quo eaque pariatur vel.",
+    "Deleted": false,
+    "Rank": 338,
+    "Type": "omnis",
+    "ColorBlock": 764,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-10-25T04:22:28.0850044+02:00",
+    "LastChanged": "2011-01-19T13:28:24.1478781+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Haag-Windler",
-        "ToolTip": "Quia exercitationem.",
+        "Id": 105,
+        "Name": "Bechtelar-Beatty",
+        "ToolTip": "Quasi repellendus iusto aliquid voluptatum modi voluptatem.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "vel",
-        "ColorBlock": 479,
-        "IconHint": "placeat",
+        "Rank": 892,
+        "Type": "explicabo",
+        "ColorBlock": 318,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2016-08-31T04:22:28.0850044+02:00",
+        "LastChanged": "2024-04-07T13:28:24.1478781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "neque",
+        "ExtraInfo": "rerum",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Lurline Miller",
+        "FullName": "Delmer Bradtke Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Jevon Klocko",
+    "ExtraInfo": "autem",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Serena Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

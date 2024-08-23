@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 61,
-  "Name": "Hills-Tillman",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 668,
-  "UdListDefinitionId": 759
+  "HeadingId": 51,
+  "Name": "Rutherford, Hahn and Herzog",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "Rank": 242,
+  "UdListDefinitionId": 831
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 482,
-  "Name": "Price LLC",
-  "Tooltip": "blanditiis",
+  "HeadingId": 563,
+  "Name": "Champlin, Wehner and Weimann",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 48,
-  "UdListDefinitionId": 399,
+  "Rank": 740,
+  "UdListDefinitionId": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 380
     }
   }
 }

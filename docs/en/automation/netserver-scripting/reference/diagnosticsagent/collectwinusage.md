@@ -2,10 +2,10 @@
 uid: diagnosticsagent-collectwinusage
 title: DiagnosticsAgent.CollectWinUsage event method
 description: Scripting events called on the CollectWinUsage method on the DiagnosticsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DiagnosticsAgent.CollectWinUsage
 

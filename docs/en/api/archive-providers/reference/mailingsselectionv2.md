@@ -3,9 +3,9 @@ uid: MailingsSelectionV2
 title: MailingsSelectionV2
 description: This is the archive Provider for the Selection Mailings archive.
 keywords: MailingsSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "MailingsSelectionV2"
@@ -596,7 +596,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/NumberOfNotCompletedTickets,mailingAddr/person/personAssociate/contactId,mailingAddr/person/correspondingAssociate/locationAddress
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/person/hasInfoText,mailingAddr/person/personAssociateFullName,project/imageThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

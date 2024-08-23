@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=431
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=725
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-06-05T04:22:25.7615574+02:00",
-  "AppointmentId": 974,
-  "Description": "Streamlined intermediate structure",
-  "Title": "voluptas",
-  "Agenda": "accusamus",
-  "InternalNotes": "et",
-  "StartDate": "2017-01-11T04:22:25.7615574+01:00",
-  "EndDate": "2007-09-30T04:22:25.7615574+02:00",
+  "CreatedDate": "2022-05-05T13:28:21.5544547+02:00",
+  "AppointmentId": 61,
+  "Description": "Configurable fault-tolerant conglomeration",
+  "Title": "expedita",
+  "Agenda": "adipisci",
+  "InternalNotes": "libero",
+  "StartDate": "2003-11-08T13:28:21.5544547+01:00",
+  "EndDate": "2000-03-11T13:28:21.5544547+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 8,
+  "MotherId": 773,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-01-30T04:22:25.7615574+01:00",
+  "UpdatedDate": "2015-03-27T13:28:21.5544547+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 488,
+  "ActiveLinks": 429,
   "Links": [
     {
-      "EntityName": "Schaden, Shields and Zieme",
-      "Id": 76,
-      "Description": "Quality-focused uniform methodology",
-      "ExtraInfo": "cumque",
-      "LinkId": 344,
+      "EntityName": "Runte-Mosciski",
+      "Id": 827,
+      "Description": "Intuitive responsive forecast",
+      "ExtraInfo": "aut",
+      "LinkId": 460,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
-  "HasAlarm": false,
-  "ColorIndex": 372,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nam",
-  "LeadTime": "beatae",
-  "Location": "rem",
-  "RejectCounter": 548,
+  "AlarmLeadTime": "distinctio",
+  "HasAlarm": true,
+  "ColorIndex": 320,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "hic",
+  "LeadTime": "qui",
+  "Location": "ducimus",
+  "RejectCounter": 45,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 76,
-      "PersonId": 920,
-      "ContactId": 794,
-      "EmailId": 830,
+      "AssociateId": 347,
+      "PersonId": 296,
+      "ContactId": 953,
+      "EmailId": 164,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "estella_hilll@gloverreilly.uk",
-      "Description": "Fully-configurable assymetric ability"
+      "EmailAddress": "kieran@davis.us",
+      "Description": "Ameliorated web-enabled data-warehouse"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-07-25T04:22:25.7615574+02:00",
+  "ActiveDate": "2019-01-07T13:28:21.5544547+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 595,
+  "PreferredTZLocation": 301,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 477,
+  "SuggestedAppointmentId": 849,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "animi",
+  "CentralserviceVideomeetId": "officiis",
   "UserDefinedFields": {
-    "SuperOffice:1": "519413556",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1795680834"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "dicta",
+    "CustomFields2": "commodi"
   },
-  "PublishEventDate": "2018-08-18T04:22:25.7615574+02:00",
-  "PublishTo": "2023-07-11T04:22:25.7615574+02:00",
-  "PublishFrom": "2017-05-22T04:22:25.7615574+02:00",
+  "PublishEventDate": "2023-08-19T13:28:21.5544547+02:00",
+  "PublishTo": "2021-02-02T13:28:21.5544547+01:00",
+  "PublishFrom": "1999-11-12T13:28:21.5544547+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 938,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 744
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 938,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 744
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

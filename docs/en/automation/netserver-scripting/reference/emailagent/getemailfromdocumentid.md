@@ -2,10 +2,10 @@
 uid: emailagent-getemailfromdocumentid
 title: EMailAgent.GetEMailFromDocumentId event method
 description: Scripting events called on the GetEMailFromDocumentId method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.GetEMailFromDocumentId
 

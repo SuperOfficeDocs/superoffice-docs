@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Veum Inc and Sons",
-    "ToolTip": "Qui vel veritatis ut non.",
-    "Deleted": true,
-    "Rank": 571,
-    "Type": "harum",
-    "ColorBlock": 648,
-    "IconHint": "repudiandae",
+    "Id": 584,
+    "Name": "Gorczany-Metz",
+    "ToolTip": "Labore ratione non corrupti illum ut.",
+    "Deleted": false,
+    "Rank": 102,
+    "Type": "blanditiis",
+    "ColorBlock": 791,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2010-09-09T04:22:36.2215887+02:00",
+    "LastChanged": "2006-11-06T13:28:33.1951017+01:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Champlin-Zieme",
-        "ToolTip": "Occaecati neque est et.",
-        "Deleted": false,
-        "Rank": 683,
-        "Type": "voluptatem",
-        "ColorBlock": 278,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2019-12-01T04:22:36.2215887+01:00",
+        "Id": 588,
+        "Name": "Collier, Koelpin and Willms",
+        "ToolTip": "Nemo omnis quisquam blanditiis sapiente sed enim inventore.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "quia",
+        "ColorBlock": 502,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2006-10-25T13:28:33.1951017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Judson O'Conner",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Gardner Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 929
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Prof. Elmore Bethel Rempel Jr.",
+    "FullName": "Emilia Wiza V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 106
       }
     }
   }

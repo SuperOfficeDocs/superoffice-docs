@@ -3,9 +3,9 @@ uid: comptr
 title: comptr
 keywords: mdoprovider mdo provider comptr
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "comptr" MDO List

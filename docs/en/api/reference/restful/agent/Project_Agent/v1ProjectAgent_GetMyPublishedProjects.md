@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 497,
-    "Name": "Rolfson, Bruen and Stehr",
-    "Description": "Persevering demand-driven local area network",
+    "ProjectId": 457,
+    "Name": "Barton, Johnston and Little",
+    "Description": "Enhanced upward-trending flexibility",
     "URL": "http://www.example.com/",
-    "Type": "nihil",
-    "AssociateId": 888,
-    "AssociateFullName": "Mrs. Anibal Norberto Green V",
-    "TypeId": 324,
-    "Updated": "2020-03-09T04:22:27.3466141+01:00",
-    "StatusId": 937,
-    "Status": "in",
-    "TextId": 879,
-    "PublishTo": "2015-06-20T04:22:27.3466141+02:00",
-    "PublishFrom": "2002-02-10T04:22:27.3466141+01:00",
+    "Type": "pariatur",
+    "AssociateId": 734,
+    "AssociateFullName": "Jabari Robel",
+    "TypeId": 360,
+    "Updated": "2006-05-29T13:28:23.491777+02:00",
+    "StatusId": 176,
+    "Status": "rem",
+    "TextId": 816,
+    "PublishTo": "1999-09-10T13:28:23.491777+02:00",
+    "PublishFrom": "2001-12-23T13:28:23.491777+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "888406",
-    "ActiveErpLinks": 133,
+    "ProjectNumber": "1737546",
+    "ActiveErpLinks": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 252
       }
     }
   }

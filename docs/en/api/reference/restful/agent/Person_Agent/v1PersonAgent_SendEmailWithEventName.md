@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "sit",
-  "To": "odit",
-  "Subject": "suscipit",
-  "PlainBody": "similique",
-  "HtmlBody": "autem",
+  "From": "mollitia",
+  "To": "voluptas",
+  "Subject": "recusandae",
+  "PlainBody": "inventore",
+  "HtmlBody": "at",
   "AttachmentIds": [
-    759,
-    137
+    554,
+    510
   ],
-  "EventName": "Herman Group"
+  "EventName": "Deckow, Bartell and Harber"
 }
 ```
 

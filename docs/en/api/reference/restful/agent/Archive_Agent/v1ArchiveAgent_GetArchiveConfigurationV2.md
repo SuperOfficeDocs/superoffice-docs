@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Keebler, McLaughlin and Wehner",
-  "ProviderName": "Dibbert, Conn and Blick",
-  "Context": "earum",
-  "OwnerKeys": "qui"
+  "GuiName": "Bednar-Bradtke",
+  "ProviderName": "Fadel, Greenfelder and Carter",
+  "Context": "et",
+  "OwnerKeys": "commodi"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kirlin-Gleason",
-      "DisplayTooltip": "consequuntur",
-      "DisplayType": "deleniti",
+      "DisplayName": "Schowalter-Shanahan",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Grady, Pagac and Crooks",
-      "CanRestrictBy": false,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Batz-Flatley",
+      "Name": "Collins-Mayert",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptatum",
+      "RestrictionListName": "Cummings Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
-      "Width": "eveniet",
-      "IconHint": "possimus",
-      "HeadingIconHint": "veritatis"
+      "ExtraInfo": "odio",
+      "Width": "dignissimos",
+      "IconHint": "est",
+      "HeadingIconHint": "sed"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 583,
-      "Name": "Bartell-Shanahan",
-      "ToolTip": "Qui sed incidunt voluptatem commodi harum.",
+      "Id": 748,
+      "Name": "Robel-Koelpin",
+      "ToolTip": "Facere occaecati repudiandae in et sapiente mollitia.",
       "Deleted": true,
-      "Rank": 572,
-      "Type": "tempora",
-      "ColorBlock": 819,
-      "IconHint": "suscipit",
-      "Selected": true,
-      "LastChanged": "2007-08-18T04:22:25.9653503+02:00",
+      "Rank": 287,
+      "Type": "aperiam",
+      "ColorBlock": 495,
+      "IconHint": "pariatur",
+      "Selected": false,
+      "LastChanged": "2021-10-17T13:28:21.8043665+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "eos",
+      "StyleHint": "sequi",
       "Hidden": false,
-      "FullName": "Alivia Demetrius Wuckert I",
+      "FullName": "Jonatan Nolan II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 412
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Grimes, Schimmel and Bednar",
+      "Name": "Bins, Miller and Wiza",
       "Direction": "ASC"
     },
     {
-      "Name": "Grimes, Schimmel and Bednar",
+      "Name": "Bins, Miller and Wiza",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "maxime",
+  "OwnerKeys": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 479
     }
   }
 }

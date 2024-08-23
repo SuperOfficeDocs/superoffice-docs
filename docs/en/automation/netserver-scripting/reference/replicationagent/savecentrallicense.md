@@ -2,10 +2,10 @@
 uid: replicationagent-savecentrallicense
 title: ReplicationAgent.SaveCentralLicense event method
 description: Scripting events called on the SaveCentralLicense method on the ReplicationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ReplicationAgent.SaveCentralLicense
 

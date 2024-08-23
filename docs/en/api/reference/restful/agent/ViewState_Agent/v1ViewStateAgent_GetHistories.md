@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 994,
-    "Id": 128,
-    "HistoryName": "Denesik LLC",
-    "HistoryId": 72,
-    "AssociateId": 616,
-    "Name": "Kozey, Lehner and Ward",
-    "ItemInfo": "neque",
+    "Rank": 531,
+    "Id": 352,
+    "HistoryName": "Maggio, Herman and O'Reilly",
+    "HistoryId": 492,
+    "AssociateId": 741,
+    "Name": "Kilback-Wehner",
+    "ItemInfo": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

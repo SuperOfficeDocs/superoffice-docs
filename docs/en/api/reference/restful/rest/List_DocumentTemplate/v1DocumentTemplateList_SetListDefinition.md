@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Powlowski-Morar",
-  "Tooltip": "veritatis",
+  "Id": 669,
+  "Name": "Kirlin, Kilback and Hodkiewicz",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 935,
+  "Rank": 649,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Gusikowski, Gleichner and Ward",
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "Rank": 771,
+  "Id": 181,
+  "Name": "Wiza-Upton",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 518,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "ListType": "eveniet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

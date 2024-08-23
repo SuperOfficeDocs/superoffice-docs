@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 101,
-  "Name": "Goodwin Inc and Sons",
-  "Tooltip": "fugit",
-  "Deleted": true,
-  "Rank": 297,
-  "UdListDefinitionId": 751
+  "HeadingId": 893,
+  "Name": "Paucek LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 660,
+  "UdListDefinitionId": 935
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 601,
-  "Name": "Keeling-Mante",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 998,
-  "UdListDefinitionId": 88,
+  "HeadingId": 169,
+  "Name": "Prosacco-Kerluke",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "Rank": 437,
+  "UdListDefinitionId": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 251
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

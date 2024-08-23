@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 9,
-  "Currency": "ut"
+  "QuoteConnectionId": 57,
+  "Currency": "sed"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 583,
-    "ERPPriceListKey": "vel",
-    "QuoteConnectionId": 810,
-    "Name": "Leffler Inc and Sons",
-    "Description": "Optional fresh-thinking methodology",
-    "Currency": "saepe",
-    "CurrencyName": "Hegmann, Herzog and Hilpert",
-    "ValidFrom": "1997-01-25T04:22:27.4247427+01:00",
-    "ValidTo": "2003-03-22T04:22:27.4247427+01:00",
+    "PriceListId": 450,
+    "ERPPriceListKey": "recusandae",
+    "QuoteConnectionId": 479,
+    "Name": "Walsh-Champlin",
+    "Description": "Front-line 6th generation moderator",
+    "Currency": "est",
+    "CurrencyName": "Ullrich LLC",
+    "ValidFrom": "2011-06-29T13:28:23.5698866+02:00",
+    "ValidTo": "2023-04-29T13:28:23.5698866+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 355
       }
     }
   }

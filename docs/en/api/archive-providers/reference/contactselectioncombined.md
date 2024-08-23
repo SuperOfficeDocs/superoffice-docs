@@ -3,9 +3,9 @@ uid: ContactSelectionCombined
 title: ContactSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: ContactSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactSelectionCombined"
@@ -145,7 +145,7 @@ Implementation of the provider for the combined selection
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
 |contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contactUdef/SuperOffice:3|int|companynumber| x |
@@ -1201,7 +1201,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=code,updatedByFullName,restrictionAddress/wgs84latitude,sale/personId,appointment/who
+GET /api/v1/archive/ContactSelectionCombined?$select=LastDoBySale,appointment/registeredBy,createdByForm,personAddress/line2,personSourceRelation/personUpdatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

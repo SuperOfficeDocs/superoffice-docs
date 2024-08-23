@@ -3,9 +3,9 @@ uid: locateperson
 title: locateperson
 keywords: mdoprovider mdo provider locateperson
 description: Person list with contact name.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "locateperson" MDO List

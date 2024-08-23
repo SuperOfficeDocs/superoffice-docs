@@ -2,10 +2,10 @@
 uid: ticketagent-script-events
 title: TicketAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # TicketAgent method listing

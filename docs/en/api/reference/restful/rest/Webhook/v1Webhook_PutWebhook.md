@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 888,
-  "Name": "Renner Inc and Sons",
+  "WebhookId": 220,
+  "Name": "Schinner, Larkin and Bashirian",
   "Events": [
-    "est",
-    "accusamus"
+    "molestiae",
+    "accusantium"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sint",
+  "Secret": "in",
   "State": "Active",
-  "Type": "cumque",
+  "Type": "perspiciatis",
   "Headers": {
-    "Headers1": "suscipit",
-    "Headers2": "dicta"
+    "Headers1": "est",
+    "Headers2": "minima"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-05-22T04:22:35.7678517+02:00",
+  "Registered": "2020-02-24T13:28:32.6322813+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-06-30T04:22:35.7678517+02:00",
+  "Updated": "2022-12-13T13:28:32.6322813+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "adrianna@moore.biz"
+  "ErrorsEmail": "wilbert@keebler.info"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 207,
-  "Name": "Rau, Kunze and Veum",
+  "WebhookId": 35,
+  "Name": "Smitham Inc and Sons",
   "Events": [
-    "hic",
-    "consectetur"
+    "quos",
+    "quam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "expedita",
+  "Secret": "consequatur",
   "State": "Active",
-  "Type": "id",
+  "Type": "maxime",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "consequuntur"
+    "Headers1": "quod",
+    "Headers2": "deserunt"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-09-08T04:22:35.7678517+02:00",
+  "Registered": "2009-03-01T13:28:32.6322813+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-03-28T04:22:35.7678517+02:00",
+  "Updated": "2024-01-11T13:28:32.6322813+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "baylee.welch@kirlin.uk",
+  "ErrorsEmail": "kenna.mertz@heller.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

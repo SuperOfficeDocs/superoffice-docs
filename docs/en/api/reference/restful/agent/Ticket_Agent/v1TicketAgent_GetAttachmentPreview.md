@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 605
+  "AttachmentId": 825
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roberts, Thompson and Fay",
-  "MimeType": "facilis",
-  "Size": 51,
+  "Name": "Watsica-Gusikowski",
+  "MimeType": "non",
+  "Size": 535,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "annette.stark@feeneyterry.com",
-  "EmailFrom": "vella@howe.ca",
-  "EmailTo": "ivory@wisozk.us",
-  "EmailCc": "sylvia@blick.com",
-  "EmailDate": "2009-06-15T04:22:28.00688+02:00",
+  "EmailSubject": "gaston_runte@terry.ca",
+  "EmailFrom": "alejandrin.swift@boyle.info",
+  "EmailTo": "ottilie@grady.ca",
+  "EmailCc": "sigmund_borer@runolfsson.name",
+  "EmailDate": "2015-04-28T13:28:24.0697414+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 727,
-      "Name": "Nolan, Upton and Upton",
-      "ContentType": "aut",
-      "AttSize": 966,
-      "InlineImage": false,
-      "ContentId": "nihil",
-      "AuthKey": "porro",
+      "AttachmentId": 328,
+      "Name": "Mosciski, Rutherford and Quitzon",
+      "ContentType": "est",
+      "AttSize": 870,
+      "InlineImage": true,
+      "ContentId": "velit",
+      "AuthKey": "eos",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 328
+          "FieldLength": 540
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 666
     }
   }
 }

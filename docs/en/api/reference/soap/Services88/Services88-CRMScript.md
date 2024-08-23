@@ -11,6 +11,7 @@ title: Services88.CRMScriptAgent WSDL
 <wsdl:definitions name="WcfCRMScriptService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="CreateDefaultCRMScriptEntity">
         <xs:complexType>
@@ -49,8 +50,15 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IncludeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AccessKey" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="HierarchyId" type="xs:int" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SourceCode" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ScriptType" type="tns:ScriptType" />
+              <xs:element minOccurs="0" name="HtmlOutput" type="xs:short" />
+              <xs:element minOccurs="0" name="Includes" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="SourceMaps" nillable="true" type="tns:ArrayOfCRMScriptSourceMap" />
+              <xs:element minOccurs="0" name="ValidationResult" nillable="true" type="tns:CRMScriptResult" />
               <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
               <xs:element minOccurs="0" name="RegisteredAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
@@ -163,6 +171,68 @@ title: Services88.CRMScriptAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
+      <xs:simpleType name="ScriptType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="CRMScript" />
+          <xs:enumeration value="JavaScript" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ScriptType" nillable="true" type="tns:ScriptType" />
+      <xs:complexType name="ArrayOfCRMScriptSourceMap">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="CRMScriptSourceMap" nillable="true" type="tns:CRMScriptSourceMap" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCRMScriptSourceMap" nillable="true" type="tns:ArrayOfCRMScriptSourceMap" />
+      <xs:complexType name="CRMScriptSourceMap">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LineNumberFrom" type="xs:int" />
+              <xs:element minOccurs="0" name="LineNumberTo" type="xs:int" />
+              <xs:element minOccurs="0" name="Delta" type="xs:int" />
+              <xs:element minOccurs="0" name="IncludeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IncludedFrom" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptSourceMap" nillable="true" type="tns:CRMScriptSourceMap" />
+      <xs:complexType name="CRMScriptResult">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Valid" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
+              <xs:element minOccurs="0" name="Transpiled" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Includes" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="SourceMaps" nillable="true" type="tns:ArrayOfCRMScriptSourceMap" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptResult" nillable="true" type="tns:CRMScriptResult" />
+      <xs:complexType name="CRMScriptErrorInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IncludeId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="CharacterPosition" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptErrorInfo" nillable="true" type="tns:CRMScriptErrorInfo" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -876,6 +946,13 @@ title: Services88.CRMScriptAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesLoadCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1017</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -1091,6 +1168,20 @@ title: Services88.CRMScriptAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SaveCRMScriptEntityWithoutCompile">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CrmScriptEntity" nillable="true" type="tns:CRMScriptEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveCRMScriptEntityWithoutCompileResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="ExecuteScript">
         <xs:complexType>
           <xs:sequence>
@@ -1179,6 +1270,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="CgiVariables" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CgiContent" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Headers" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="TraceExecution" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1220,31 +1312,6 @@ title: Services88.CRMScriptAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="CRMScriptResult">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Valid" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
-              <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="CRMScriptResult" nillable="true" type="tns:CRMScriptResult" />
-      <xs:complexType name="CRMScriptErrorInfo">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ErrorLine" type="xs:int" />
-              <xs:element minOccurs="0" name="ErrorCharacterPosition" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="CRMScriptErrorInfo" nillable="true" type="tns:CRMScriptErrorInfo" />
       <xs:element name="ValidateScriptByIncludeId">
         <xs:complexType>
           <xs:sequence>
@@ -1335,6 +1402,20 @@ title: Services88.CRMScriptAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResolveIncludes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Script" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResolveIncludesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1462,6 +1543,20 @@ title: Services88.CRMScriptAgent WSDL
       <xs:attribute name="FactoryType" type="xs:QName" />
       <xs:attribute name="Id" type="xs:ID" />
       <xs:attribute name="Ref" type="xs:IDREF" />
+    </xs:schema>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <xs:complexType name="ArrayOfint">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="CreateDefaultCRMScriptEntityRequest">
@@ -1629,6 +1724,23 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="parameters" element="tns:GetCRMScriptEntityResponse" />
   </wsdl:message>
   <wsdl:message name="GetCRMScriptEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptEntityWithoutCompileRequest">
+    <wsdl:part name="parameters" element="tns:SaveCRMScriptEntityWithoutCompile" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptEntityWithoutCompileRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptEntityWithoutCompileResponse">
+    <wsdl:part name="parameters" element="tns:SaveCRMScriptEntityWithoutCompileResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveCRMScriptEntityWithoutCompileResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1804,6 +1916,23 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="ResolveIncludesRequest">
+    <wsdl:part name="parameters" element="tns:ResolveIncludes" />
+  </wsdl:message>
+  <wsdl:message name="ResolveIncludesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ResolveIncludesResponse">
+    <wsdl:part name="parameters" element="tns:ResolveIncludesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResolveIncludesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTriggerScriptEntityRequest">
     <wsdl:part name="parameters" element="tns:GetTriggerScriptEntity" />
   </wsdl:message>
@@ -1947,6 +2076,10 @@ title: Services88.CRMScriptAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntity" name="GetCRMScriptEntityRequest" message="tns:GetCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetCRMScriptEntityResponse" name="GetCRMScriptEntityResponse" message="tns:GetCRMScriptEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SaveCRMScriptEntityWithoutCompile">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptEntityWithoutCompile" name="SaveCRMScriptEntityWithoutCompileRequest" message="tns:SaveCRMScriptEntityWithoutCompileRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptEntityWithoutCompileResponse" name="SaveCRMScriptEntityWithoutCompileResponse" message="tns:SaveCRMScriptEntityWithoutCompileResponse" />
+    </wsdl:operation>
     <wsdl:operation name="ExecuteScript">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScript" name="ExecuteScriptRequest" message="tns:ExecuteScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptResponse" name="ExecuteScriptResponse" message="tns:ExecuteScriptResponse" />
@@ -1986,6 +2119,10 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:operation name="ValidateScriptByString">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByString" name="ValidateScriptByStringRequest" message="tns:ValidateScriptByStringRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByStringResponse" name="ValidateScriptByStringResponse" message="tns:ValidateScriptByStringResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ResolveIncludes">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ResolveIncludes" name="ResolveIncludesRequest" message="tns:ResolveIncludesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ResolveIncludesResponse" name="ResolveIncludesResponse" message="tns:ResolveIncludesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTriggerScriptEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptEntity" name="GetTriggerScriptEntityRequest" message="tns:GetTriggerScriptEntityRequest" />
@@ -2174,6 +2311,22 @@ title: Services88.CRMScriptAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SaveCRMScriptEntityWithoutCompile">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/SaveCRMScriptEntityWithoutCompile" style="document" />
+      <wsdl:input name="SaveCRMScriptEntityWithoutCompileRequest">
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveCRMScriptEntityWithoutCompileResponse">
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveCRMScriptEntityWithoutCompileResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="ExecuteScript">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScript" style="document" />
       <wsdl:input name="ExecuteScriptRequest">
@@ -2331,6 +2484,22 @@ title: Services88.CRMScriptAgent WSDL
         <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResolveIncludes">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ResolveIncludes" style="document" />
+      <wsdl:input name="ResolveIncludesRequest">
+        <soap:header message="tns:ResolveIncludesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ResolveIncludesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ResolveIncludesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ResolveIncludesResponse">
+        <soap:header message="tns:ResolveIncludesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ResolveIncludesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ResolveIncludesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ResolveIncludesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

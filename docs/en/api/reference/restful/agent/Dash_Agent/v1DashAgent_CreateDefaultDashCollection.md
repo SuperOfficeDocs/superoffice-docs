@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 736,
-      "UniqueId": "et",
-      "Name": "McDermott Group",
-      "Description": "Total intangible capability",
-      "AssociateId": 117,
-      "Columns": 869,
+      "DashboardId": 777,
+      "UniqueId": "praesentium",
+      "Name": "Parker Group",
+      "Description": "Centralized stable alliance",
+      "AssociateId": 500,
+      "Columns": 84,
       "Theme": null,
-      "VisibleForAll": 689,
+      "VisibleForAll": 919,
       "VisibleForAssociates": [
-        420,
-        489
+        891,
+        902
       ],
       "VisibleForGroups": [
-        579,
-        140
+        465,
+        101
       ],
-      "PinForAll": 216,
+      "PinForAll": 27,
       "PinForAssociates": [
-        493,
-        636
+        594,
+        425
       ],
       "PinForGroups": [
-        188,
-        146
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 681
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 270,
-      "UniqueId": "voluptate",
-      "Name": "Sanford, Orn and Wehner",
-      "Description": "Persistent scalable archive",
-      "AssociateId": 394,
-      "Columns": 357,
-      "Theme": null,
-      "VisibleForAll": 414,
-      "VisibleForAssociates": [
-        413,
-        648
-      ],
-      "VisibleForGroups": [
-        475,
-        909
-      ],
-      "PinForAll": 797,
-      "PinForAssociates": [
-        995,
-        123
-      ],
-      "PinForGroups": [
-        724,
-        970
+        843,
+        836
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 1002
+          "FieldLength": 406
         }
       }
     }
   ],
-  "Other": [
+  "Favourites": [
     {
-      "DashboardId": 180,
-      "UniqueId": "culpa",
-      "Name": "O'Kon, Herzog and Shanahan",
-      "Description": "Profit-focused object-oriented support",
-      "AssociateId": 60,
-      "Columns": 225,
+      "DashboardId": 56,
+      "UniqueId": "autem",
+      "Name": "Pfannerstill, Kunze and Goldner",
+      "Description": "Polarised system-worthy productivity",
+      "AssociateId": 5,
+      "Columns": 900,
       "Theme": null,
-      "VisibleForAll": 794,
+      "VisibleForAll": 337,
       "VisibleForAssociates": [
-        675,
-        793
+        479,
+        233
       ],
       "VisibleForGroups": [
-        80,
-        701
+        763,
+        608
       ],
-      "PinForAll": 33,
+      "PinForAll": 431,
       "PinForAssociates": [
-        418,
-        106
+        678,
+        660
       ],
       "PinForGroups": [
-        25,
-        212
+        280,
+        750
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldLength": 573
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 516,
+      "UniqueId": "repellat",
+      "Name": "Vandervort Inc and Sons",
+      "Description": "Enterprise-wide didactic firmware",
+      "AssociateId": 721,
+      "Columns": 349,
+      "Theme": null,
+      "VisibleForAll": 484,
+      "VisibleForAssociates": [
+        121,
+        492
+      ],
+      "VisibleForGroups": [
+        728,
+        971
+      ],
+      "PinForAll": 678,
+      "PinForAssociates": [
+        467,
+        732
+      ],
+      "PinForGroups": [
+        31,
+        232
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldLength": 787
     }
   }
 }

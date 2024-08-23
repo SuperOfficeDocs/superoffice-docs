@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=atque
+GET /api/v1/List/Reason/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Gorczany Group",
-    "ToolTip": "Perferendis dolores.",
+    "Id": 113,
+    "Name": "Rosenbaum-Gerlach",
+    "ToolTip": "Nam vel et aut vitae voluptate nihil.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "iure",
+    "Rank": 449,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Jenkins-Hauck",
-        "ToolTip": "Ipsam aliquam dolorum totam vero perferendis.",
-        "Deleted": true,
-        "Rank": 171,
-        "Type": "autem",
+        "Id": 390,
+        "Name": "Wunsch, Kovacek and Hagenes",
+        "ToolTip": "Accusantium ad impedit quaerat quia.",
+        "Deleted": false,
+        "Rank": 412,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 342,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "nobis",
-        "FullName": "Ms. Jermain Lila Strosin",
+        "IconHint": "temporibus",
+        "ColorBlock": 419,
+        "ExtraInfo": "in",
+        "StyleHint": "incidunt",
+        "FullName": "Kristian Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 266
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 39,
-    "ExtraInfo": "velit",
-    "StyleHint": "laudantium",
-    "FullName": "Evans Waelchi",
+    "IconHint": "tempore",
+    "ColorBlock": 931,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "ab",
+    "FullName": "Kellie Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

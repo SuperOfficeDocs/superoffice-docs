@@ -3,9 +3,9 @@ uid: BatchTasks
 title: BatchTasks
 description: Archive of Batch Tasks - used by the web api and partners.
 keywords: BatchTasks archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "BatchTasks"
@@ -48,7 +48,7 @@ Lists all batch tasks
 ## Sample
 
 ```http!
-GET /api/v1/archive/BatchTasks?$select=getAllRows,DbTag,DetailsRecord
+GET /api/v1/archive/BatchTasks?$select=DefinitionId,Response,DbTag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

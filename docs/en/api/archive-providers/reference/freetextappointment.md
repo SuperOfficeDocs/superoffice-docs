@@ -3,9 +3,9 @@ uid: FreetextAppointment
 title: FreetextAppointment
 description: Archive provider for freetext search on the Appointment entity (any kind of appointment, phone call, or task).
 keywords: FreetextAppointment archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextAppointment"
@@ -737,7 +737,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=contact/business,contact/contactAssociate/associateDbId,person/portraitThumbnail,person/personAssociate/isActiveText,project/projectAssociate/contactCategory
+GET /api/v1/archive/FreetextAppointment?$select=contact/stop,contact/contactUdef/SuperOffice:4,person/birthMonth,person/supportLanguage,person/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

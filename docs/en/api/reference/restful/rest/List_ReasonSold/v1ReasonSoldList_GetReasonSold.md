@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "ratione",
+  "Id": 863,
+  "Name": "Casper Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 847,
-  "Rank": 172,
+  "UdListDefinitionId": 879,
+  "Rank": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 364
     }
   }
 }

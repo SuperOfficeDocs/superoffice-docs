@@ -3,9 +3,9 @@ uid: ProjectActivity
 title: ProjectActivity
 description: Activity archive provider for the Project card
 keywords: ProjectActivity archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectActivity"
@@ -1164,7 +1164,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactAssociate/contactFullName,mailingAddr/person/supportLanguage,mailingAddr/person/personBusiness,mailingAddr/person/personUdef/SuperOffice:9
+GET /api/v1/archive/ProjectActivity?$select=mailingBounceRate,mailingAddr/person/personExtra/y_rental/x_start,project/hasInfoText,project/projectAssociate/otherGroups,person/personCountryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

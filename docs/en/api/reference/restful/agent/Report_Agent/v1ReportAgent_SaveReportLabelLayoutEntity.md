@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 839,
-  "Name": "Baumbach-Grady",
-  "Description": "Grass-roots motivating productivity",
+  "ReportLabelLayoutId": 774,
+  "Name": "Kuhlman, Padberg and Schulist",
+  "Description": "Down-sized logistical contingency",
   "Orientation": "Landscape",
-  "PaperWidth": 921,
-  "PaperHeight": 740,
-  "LeftMargin": 283,
-  "RightMargin": 78,
-  "TopMargin": 616,
-  "BottomMargin": 233,
-  "CountColumns": 713,
-  "CountRows": 121
+  "PaperWidth": 953,
+  "PaperHeight": 825,
+  "LeftMargin": 608,
+  "RightMargin": 389,
+  "TopMargin": 942,
+  "BottomMargin": 66,
+  "CountColumns": 530,
+  "CountRows": 429
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 859,
-  "Name": "Kirlin-Schowalter",
-  "Description": "Profound 4th generation time-frame",
+  "ReportLabelLayoutId": 567,
+  "Name": "Nienow Inc and Sons",
+  "Description": "Multi-layered multi-state success",
   "Orientation": "Landscape",
-  "PaperWidth": 774,
-  "PaperHeight": 961,
-  "LeftMargin": 854,
-  "RightMargin": 900,
-  "TopMargin": 363,
-  "BottomMargin": 636,
-  "CountColumns": 457,
-  "CountRows": 121,
+  "PaperWidth": 879,
+  "PaperHeight": 730,
+  "LeftMargin": 253,
+  "RightMargin": 249,
+  "TopMargin": 27,
+  "BottomMargin": 906,
+  "CountColumns": 582,
+  "CountRows": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

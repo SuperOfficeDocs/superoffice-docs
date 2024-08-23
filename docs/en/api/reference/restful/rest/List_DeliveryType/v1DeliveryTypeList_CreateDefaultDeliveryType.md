@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 566,
-  "Name": "Maggio-Luettgen",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "UdListDefinitionId": 557,
-  "Rank": 716,
+  "Id": 658,
+  "Name": "Veum-Gutkowski",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 797,
+  "Rank": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

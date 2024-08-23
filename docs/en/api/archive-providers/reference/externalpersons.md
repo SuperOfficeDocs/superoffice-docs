@@ -3,9 +3,9 @@ uid: ExternalPersons
 title: ExternalPersons
 description: 
 keywords: ExternalPersons archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ExternalPersons"
@@ -692,7 +692,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personNumber,personCategory,personExtra/x_person_time,request/extra/x_ticket_longtext,personAppointment/associate/ejUserId
+GET /api/v1/archive/ExternalPersons?$select=restrictionAddress/state,personTargetRelation/personNumber,correspondingAssociate/isLocation,hasStoreConsent,personAppointment/isMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

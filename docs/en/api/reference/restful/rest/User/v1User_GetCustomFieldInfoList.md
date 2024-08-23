@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Moen, Parker and Fisher",
-    "DisplayName": "Mayer LLC",
-    "Description": "Organic mobile capacity",
-    "ShortLabel": "impedit",
-    "HideLabel": true,
+    "FieldName": "Buckridge-Mayert",
+    "DisplayName": "Mueller, Cassin and Wolf",
+    "Description": "Cross-group optimizing monitoring",
+    "ShortLabel": "praesentium",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 196,
-    "TemplateVariableName": "Lynch, Kohler and Mills"
+    "IsDisplayField": true,
+    "Rank": 321,
+    "TemplateVariableName": "Jones-Gleichner"
   }
 ]
 ```

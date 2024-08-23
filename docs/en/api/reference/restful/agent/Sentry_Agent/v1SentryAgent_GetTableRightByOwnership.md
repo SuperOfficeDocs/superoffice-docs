@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harvey, Wuckert and Hudson",
-  "ContactGroupId": 504,
-  "ContactAssociateId": 90
+  "TableName": "Purdy, Bode and Stehr",
+  "ContactGroupId": 255,
+  "ContactAssociateId": 733
 }
 ```
 

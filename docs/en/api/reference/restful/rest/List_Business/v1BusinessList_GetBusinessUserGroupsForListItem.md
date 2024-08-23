@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Keebler, Effertz and Johns",
-    "ToolTip": "Voluptates non voluptas aliquid quia.",
+    "Id": 720,
+    "Name": "Cronin, Schamberger and Ziemann",
+    "ToolTip": "Aspernatur vel et vel provident reiciendis autem accusamus.",
     "Deleted": false,
-    "Rank": 764,
-    "Type": "repudiandae",
-    "ColorBlock": 173,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2006-01-02T04:22:35.8153337+01:00",
+    "Rank": 309,
+    "Type": "nesciunt",
+    "ColorBlock": 526,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "1998-05-29T13:28:32.679146+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Quitzon, Jacobi and Nitzsche",
-        "ToolTip": "Iure quia dolor modi et.",
-        "Deleted": false,
-        "Rank": 413,
-        "Type": "qui",
-        "ColorBlock": 739,
-        "IconHint": "debitis",
+        "Id": 174,
+        "Name": "Oberbrunner, Hahn and Miller",
+        "ToolTip": "Saepe deleniti dolor dolorum alias sit.",
+        "Deleted": true,
+        "Rank": 98,
+        "Type": "facere",
+        "ColorBlock": 408,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2009-01-03T04:22:35.8153337+01:00",
+        "LastChanged": "1999-06-01T13:28:32.679146+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Juana Steuber",
+        "ExtraInfo": "est",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Jarret Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 446
+            "FieldType": "System.Int32",
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ex",
+    "ExtraInfo": "et",
+    "StyleHint": "aliquid",
     "Hidden": true,
-    "FullName": "Tierra Schneider",
+    "FullName": "Emmanuel O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 811
       }
     }
   }

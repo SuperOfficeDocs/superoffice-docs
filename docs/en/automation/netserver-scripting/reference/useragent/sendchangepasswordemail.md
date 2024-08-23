@@ -2,10 +2,10 @@
 uid: useragent-sendchangepasswordemail
 title: UserAgent.SendChangePasswordEMail event method
 description: Scripting events called on the SendChangePasswordEMail method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.SendChangePasswordEMail
 

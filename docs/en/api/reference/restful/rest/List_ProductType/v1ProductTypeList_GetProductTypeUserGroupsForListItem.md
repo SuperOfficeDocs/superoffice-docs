@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Hauck Group",
-    "ToolTip": "Ut architecto tempore.",
+    "Id": 786,
+    "Name": "Kuphal, Stracke and Wintheiser",
+    "ToolTip": "A et molestiae asperiores doloremque enim molestias.",
     "Deleted": false,
-    "Rank": 717,
-    "Type": "nobis",
-    "ColorBlock": 360,
-    "IconHint": "ullam",
+    "Rank": 404,
+    "Type": "vitae",
+    "ColorBlock": 353,
+    "IconHint": "illo",
     "Selected": true,
-    "LastChanged": "2004-03-28T04:22:36.0809665+02:00",
+    "LastChanged": "2019-01-24T13:28:32.9915768+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Flatley-Adams",
-        "ToolTip": "Nisi dolore aliquid.",
+        "Id": 288,
+        "Name": "Brekke Inc and Sons",
+        "ToolTip": "Delectus provident nesciunt suscipit temporibus.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "rerum",
-        "ColorBlock": 916,
-        "IconHint": "facilis",
+        "Rank": 386,
+        "Type": "consequatur",
+        "ColorBlock": 300,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2006-03-19T04:22:36.0809665+01:00",
+        "LastChanged": "2016-10-24T13:28:32.9915768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Glenda Ortiz",
+        "FullName": "Dr. Zena Evangeline Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldType": "System.String",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Jedidiah Lehner",
+    "ExtraInfo": "odio",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Caroline Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 822
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

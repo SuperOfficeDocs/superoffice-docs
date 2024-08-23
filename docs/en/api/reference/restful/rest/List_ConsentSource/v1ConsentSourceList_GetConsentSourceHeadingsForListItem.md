@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Pfeffer, Kshlerin and Ratke",
-    "ToolTip": "Quia impedit aut.",
+    "Id": 173,
+    "Name": "Lind LLC",
+    "ToolTip": "Ut libero eos repellat debitis ducimus et et.",
     "Deleted": true,
-    "Rank": 116,
-    "Type": "impedit",
-    "ColorBlock": 278,
-    "IconHint": "accusamus",
+    "Rank": 285,
+    "Type": "voluptates",
+    "ColorBlock": 352,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2015-11-12T04:22:35.8778461+01:00",
+    "LastChanged": "2023-06-10T13:28:32.7572536+02:00",
     "ChildItems": [
       {
-        "Id": 898,
-        "Name": "Wiza-Hudson",
-        "ToolTip": "Quia est eum labore.",
-        "Deleted": false,
-        "Rank": 713,
-        "Type": "repellat",
-        "ColorBlock": 554,
-        "IconHint": "neque",
+        "Id": 72,
+        "Name": "Herman Group",
+        "ToolTip": "Voluptatem laborum quos velit odio aut.",
+        "Deleted": true,
+        "Rank": 862,
+        "Type": "eos",
+        "ColorBlock": 341,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2019-10-22T04:22:35.8778461+02:00",
+        "LastChanged": "2011-05-28T13:28:32.7572536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "quis",
+        "ExtraInfo": "commodi",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Darius Fisher",
+        "FullName": "Tom Donny Schaden II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Olaf Morar",
+    "ExtraInfo": "cumque",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Leonor Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldType": "System.Int32",
+        "FieldLength": 332
       }
     }
   }

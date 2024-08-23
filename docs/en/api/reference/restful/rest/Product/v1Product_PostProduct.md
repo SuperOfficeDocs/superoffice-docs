@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 46,
-  "ERPProductKey": "ratione",
-  "ERPPriceListKey": "et",
-  "Name": "Kiehn-Quigley",
-  "Description": "Virtual multimedia migration",
-  "Code": "et",
-  "PriceUnit": "quo",
-  "QuantityUnit": "ab",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 13153.398,
-  "ItemNumber": "671419",
+  "ProductId": 338,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "aut",
+  "Name": "Smitham-Ferry",
+  "Description": "Reduced upward-trending complexity",
+  "Code": "sunt",
+  "PriceUnit": "officia",
+  "QuantityUnit": "a",
+  "IsSubscription": true,
+  "SubscriptionUnit": "perspiciatis",
+  "DefaultSubscriptionQuantity": 796.036,
+  "ItemNumber": "1540707",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ad",
-  "ProductTypeKey": "qui",
-  "VAT": 30888.703999999998,
-  "VATInfo": "iusto",
-  "UnitCost": 10943.928,
-  "UnitMinimumPrice": 14789.346,
-  "UnitListPrice": 2438.252,
-  "InAssortment": true,
-  "Supplier": "quia",
-  "SupplierCode": "eum",
-  "Rights": "ut",
-  "Rule": "dolores",
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "et",
+  "VAT": 19562.428,
+  "VATInfo": "ut",
+  "UnitCost": 391.75,
+  "UnitMinimumPrice": 8549.552,
+  "UnitListPrice": 13795.868,
+  "InAssortment": false,
+  "Supplier": "sunt",
+  "SupplierCode": "sequi",
+  "Rights": "et",
+  "Rule": "assumenda",
   "ExtraInfo": [
     {
-      "Name": "Swaniawski-Metz",
-      "Value": "non",
+      "Name": "Johns Group",
+      "Value": "mollitia",
       "Type": "Image"
     },
     {
-      "Name": "Swaniawski-Metz",
-      "Value": "non",
+      "Name": "Johns Group",
+      "Value": "mollitia",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "ExtraField1": "ad",
-  "ExtraField2": "est",
-  "ExtraField3": "tempora",
-  "ExtraField4": "tempora",
-  "ExtraField5": "recusandae",
-  "InStock": 6079.96
+  "RawExtraInfo": "quos",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "et",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "eos",
+  "ExtraField5": "itaque",
+  "InStock": 20941.388
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 586,
-  "ERPProductKey": "quae",
-  "ERPPriceListKey": "dolor",
-  "Name": "Cole-O'Connell",
-  "Description": "Down-sized fault-tolerant core",
-  "Code": "laudantium",
-  "PriceUnit": "ratione",
-  "QuantityUnit": "amet",
+  "ProductId": 107,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "saepe",
+  "Name": "Emmerich, Fahey and Morar",
+  "Description": "Optimized grid-enabled workforce",
+  "Code": "eaque",
+  "PriceUnit": "maiores",
+  "QuantityUnit": "non",
   "IsSubscription": false,
-  "SubscriptionUnit": "commodi",
-  "DefaultSubscriptionQuantity": 3613.502,
-  "ItemNumber": "1125226",
+  "SubscriptionUnit": "dolorum",
+  "DefaultSubscriptionQuantity": 21762.496,
+  "ItemNumber": "1007368",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nostrum",
-  "ProductTypeKey": "est",
-  "VAT": 13062.511999999999,
-  "VATInfo": "aliquam",
-  "UnitCost": 15162.292,
-  "UnitMinimumPrice": 25021.856,
-  "UnitListPrice": 4224.632,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "praesentium",
-  "Rights": "consequuntur",
-  "Rule": "velit",
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "eos",
+  "VAT": 29503.476,
+  "VATInfo": "nobis",
+  "UnitCost": 30697.53,
+  "UnitMinimumPrice": 8007.37,
+  "UnitListPrice": 17077.166,
+  "InAssortment": true,
+  "Supplier": "labore",
+  "SupplierCode": "vitae",
+  "Rights": "possimus",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Cummerata Inc and Sons",
-      "Value": "magni",
+      "Name": "Hartmann-Boyle",
+      "Value": "incidunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     },
     {
-      "Name": "Cummerata Inc and Sons",
-      "Value": "magni",
+      "Name": "Hartmann-Boyle",
+      "Value": "incidunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
   ],
-  "RawExtraInfo": "at",
-  "ExtraField1": "necessitatibus",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "commodi",
-  "ExtraField4": "dicta",
-  "ExtraField5": "consequuntur",
-  "InStock": 5487.634,
+  "RawExtraInfo": "veniam",
+  "ExtraField1": "pariatur",
+  "ExtraField2": "quia",
+  "ExtraField3": "dolor",
+  "ExtraField4": "unde",
+  "ExtraField5": "minima",
+  "InStock": 25745.809999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

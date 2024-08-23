@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 258,
-  "Name": "Jacobi LLC",
-  "Tooltip": "labore",
+  "RoleId": 487,
+  "Name": "Torphy-Botsford",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 611,
-  "Rank": 212,
-  "Created": "1998-12-27T04:22:35.1897687+01:00",
-  "UseCategories": 173,
+  "Deleted": 737,
+  "Rank": 743,
+  "Created": "2002-06-21T13:28:31.8979432+02:00",
+  "UseCategories": 172,
   "CreatedBy": null,
-  "Updated": "2023-12-24T04:22:35.1897687+01:00",
+  "Updated": "2018-11-06T13:28:31.8979432+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

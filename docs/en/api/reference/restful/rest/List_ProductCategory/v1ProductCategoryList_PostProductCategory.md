@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 348,
-  "Name": "Leuschke Group",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "UdListDefinitionId": 255,
-  "Rank": 977
+  "Id": 419,
+  "Name": "Ledner-Treutel",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 375,
+  "Rank": 217
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 529,
-  "Name": "Russel, Ruecker and Tillman",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "UdListDefinitionId": 39,
-  "Rank": 197,
+  "Id": 245,
+  "Name": "Gutkowski, Predovic and Reinger",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 224,
+  "Rank": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 139
     }
   }
 }

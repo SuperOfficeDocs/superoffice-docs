@@ -2,10 +2,10 @@
 uid: crmscriptagent-createdefaulttriggerscriptentity
 title: CRMScriptAgent.CreateDefaultTriggerScriptEntity event method
 description: Scripting events called on the CreateDefaultTriggerScriptEntity method on the CRMScriptAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CRMScriptAgent.CreateDefaultTriggerScriptEntity
 

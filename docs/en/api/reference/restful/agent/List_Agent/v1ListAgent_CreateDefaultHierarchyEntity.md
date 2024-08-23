@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 88,
+  "HierarchyId": 634,
   "Domain": "Dashboards",
-  "Name": "Kessler-Vandervort",
-  "Fullname": "dicta",
-  "ParentId": 865,
+  "Name": "Tromp-Morissette",
+  "Fullname": "nihil",
+  "ParentId": 523,
   "Children": [
     {
-      "HierarchyId": 199,
+      "HierarchyId": 192,
       "Domain": "Dashboards",
-      "Name": "Doyle, Nader and Eichmann",
-      "Fullname": "quia",
-      "ParentId": 470,
+      "Name": "Volkman-Zboncak",
+      "Fullname": "vel",
+      "ParentId": 823,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-04-11T04:22:27.0329423+02:00",
-      "RegisteredAssociateId": 156,
-      "Updated": "2000-04-07T04:22:27.0329423+02:00",
-      "UpdatedAssociateId": 55,
+      "Registered": "2011-01-19T13:28:23.007483+01:00",
+      "RegisteredAssociateId": 267,
+      "Updated": "2012-07-15T13:28:23.007483+02:00",
+      "UpdatedAssociateId": 924,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldType": "System.Int32",
+          "FieldLength": 203
         }
       }
     }
   ],
-  "Registered": "2008-06-13T04:22:27.0329423+02:00",
-  "RegisteredAssociateId": 675,
-  "Updated": "2021-06-09T04:22:27.0329423+02:00",
-  "UpdatedAssociateId": 398,
+  "Registered": "2004-01-17T13:28:23.007483+01:00",
+  "RegisteredAssociateId": 6,
+  "Updated": "2005-11-21T13:28:23.007483+01:00",
+  "UpdatedAssociateId": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 245
     }
   }
 }

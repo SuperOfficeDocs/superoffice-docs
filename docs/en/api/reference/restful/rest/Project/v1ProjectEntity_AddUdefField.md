@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 110,
-  "ColumnId": 102,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 741,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 454,
-  "FieldTop": 138,
+  "UDefFieldId": 354,
+  "ColumnId": 899,
+  "FieldDefault": "ipsa",
+  "FieldHeight": 730,
+  "FieldLabel": "aut",
+  "FieldLeft": 98,
+  "FieldTop": 152,
   "FieldType": "Checkbox",
-  "FieldWidth": 680,
-  "FormatMask": "quod",
+  "FieldWidth": 674,
+  "FormatMask": "amet",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 36,
-  "LabelLeft": 919,
-  "LabelTop": 739,
-  "LabelWidth": 199,
-  "LastVersionId": 37,
-  "ListTableId": 702,
-  "IsMandatory": false,
+  "LabelHeight": 134,
+  "LabelLeft": 537,
+  "LabelTop": 44,
+  "LabelWidth": 381,
+  "LastVersionId": 761,
+  "ListTableId": 547,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 217,
-  "ProgId": "ratione",
+  "Page1LineNo": 789,
+  "ProgId": "eveniet",
   "IsReadOnly": false,
-  "ShortLabel": "magni",
-  "TabOrder": 825,
-  "TextLength": 552,
-  "Tooltip": "fuga",
-  "UdefIdentity": 220,
-  "UDListDefinitionId": 955,
+  "ShortLabel": "tempore",
+  "TabOrder": 310,
+  "TextLength": 595,
+  "Tooltip": "aut",
+  "UdefIdentity": 79,
+  "UDListDefinitionId": 860,
   "Justification": "Center",
-  "Version": 669,
-  "TemplateVariableName": "Grant Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Wunsch Inc and Sons",
+  "Version": 605,
+  "TemplateVariableName": "Bruen Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Witting, Schimmel and Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 427
     }
   }
 }

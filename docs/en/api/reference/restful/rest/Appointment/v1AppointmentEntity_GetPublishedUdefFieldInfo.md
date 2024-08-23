@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 778,
-  "ColumnId": 931,
-  "FieldDefault": "minus",
-  "FieldHeight": 46,
-  "FieldLabel": "ab",
-  "FieldLeft": 887,
-  "FieldTop": 822,
+  "UDefFieldId": 6,
+  "ColumnId": 420,
+  "FieldDefault": "saepe",
+  "FieldHeight": 773,
+  "FieldLabel": "deserunt",
+  "FieldLeft": 164,
+  "FieldTop": 7,
   "FieldType": "Checkbox",
-  "FieldWidth": 293,
-  "FormatMask": "beatae",
-  "HideLabel": false,
+  "FieldWidth": 613,
+  "FormatMask": "ipsa",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 697,
-  "LabelLeft": 282,
-  "LabelTop": 894,
-  "LabelWidth": 809,
-  "LastVersionId": 74,
-  "ListTableId": 204,
-  "IsMandatory": false,
+  "LabelHeight": 893,
+  "LabelLeft": 714,
+  "LabelTop": 655,
+  "LabelWidth": 52,
+  "LastVersionId": 972,
+  "ListTableId": 875,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 317,
-  "ProgId": "sed",
-  "IsReadOnly": true,
-  "ShortLabel": "distinctio",
-  "TabOrder": 777,
-  "TextLength": 896,
-  "Tooltip": "illum",
-  "UdefIdentity": 601,
-  "UDListDefinitionId": 963,
+  "Page1LineNo": 221,
+  "ProgId": "quas",
+  "IsReadOnly": false,
+  "ShortLabel": "suscipit",
+  "TabOrder": 833,
+  "TextLength": 145,
+  "Tooltip": "non",
+  "UdefIdentity": 769,
+  "UDListDefinitionId": 743,
   "Justification": "Center",
-  "Version": 599,
-  "TemplateVariableName": "Brekke-Marks",
+  "Version": 582,
+  "TemplateVariableName": "Toy Group",
   "HasBeenPublished": false,
-  "MdoListName": "Erdman Inc and Sons",
+  "MdoListName": "Windler-Ward",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 767
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 146,
-  "TopicId": 433,
+  "ChatSessionId": 654,
+  "TopicId": 43,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "illum",
-  "CustomerName": "Howell LLC",
-  "CustomerEmail": "johnny_reilly@mohr.us",
-  "CustomerPhone": "375.897.5175 x66884",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "doloremque",
+  "CustomerName": "Trantow Group",
+  "CustomerEmail": "lyda@greenfelder.name",
+  "CustomerPhone": "614.886.8712 x312",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Von Group",
+  "CustomerCompanyName": "Mohr, Lockman and O'Reilly",
   "Status": "Closed",
-  "FirstMessage": "unde",
-  "LastMessage": "illum",
-  "WhenRequested": "1998-08-01T04:22:34.7496337+02:00",
-  "WhenStarted": "2000-04-03T04:22:34.7496337+02:00",
-  "WhenEnded": "2013-07-12T04:22:34.7496337+02:00",
-  "WhenIdle": "2003-12-08T04:22:34.7496337+01:00",
-  "WhenFetched": "2007-11-21T04:22:34.7496337+01:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 221,
-  "AlertLevel": 383,
-  "Rank": 757,
+  "FirstMessage": "eaque",
+  "LastMessage": "quia",
+  "WhenRequested": "1999-02-08T13:28:31.3980564+01:00",
+  "WhenStarted": "2002-04-11T13:28:31.3980564+02:00",
+  "WhenEnded": "2010-05-18T13:28:31.3980564+02:00",
+  "WhenIdle": "2018-05-02T13:28:31.3980564+02:00",
+  "WhenFetched": "2008-01-30T13:28:31.3980564+01:00",
+  "SessionKey": "illo",
+  "InitialQueuePos": 705,
+  "AlertLevel": 188,
+  "Rank": 737,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 305,
+  "ChatbotIsActive": true,
+  "Rating": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 29
     }
   }
 }

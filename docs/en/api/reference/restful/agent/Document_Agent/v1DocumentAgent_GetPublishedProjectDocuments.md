@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 246
+  "ProjectId": 480
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 866,
-    "Attention": "nam",
-    "Header": "aut",
-    "Name": "Spencer-Smith",
-    "OurRef": "sed",
-    "YourRef": "repellat",
-    "Description": "Multi-layered object-oriented productivity",
-    "DocumentTemplate": "dolor",
+    "DocumentId": 787,
+    "Attention": "consequatur",
+    "Header": "deleniti",
+    "Name": "Ankunding-Gaylord",
+    "OurRef": "et",
+    "YourRef": "ab",
+    "Description": "Expanded 6th generation throughput",
+    "DocumentTemplate": "omnis",
     "IsPublished": false,
-    "PersonId": 780,
-    "PersonFullName": "Ms. Geoffrey Kerluke V",
-    "AssociateFullName": "Selena Demario Durgan Sr.",
-    "ContactId": 238,
-    "ContactName": "Wiegand Group",
-    "ProjectId": 132,
-    "ProjectName": "Littel-Welch",
-    "AssociateId": 724,
-    "Snum": 308,
-    "SaleId": 597,
-    "SaleName": "Witting-Nolan",
+    "PersonId": 499,
+    "PersonFullName": "Deshaun Bartoletti",
+    "AssociateFullName": "Dr. Derick Everardo Kautzer",
+    "ContactId": 417,
+    "ContactName": "Marquardt, Romaguera and Walter",
+    "ProjectId": 870,
+    "ProjectName": "Weber Inc and Sons",
+    "AssociateId": 98,
+    "Snum": 108,
+    "SaleId": 976,
+    "SaleName": "O'Connell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 612
       }
     }
   }

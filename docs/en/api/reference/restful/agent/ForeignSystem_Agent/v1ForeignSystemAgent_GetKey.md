@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mitchell, Treutel and Mohr",
-  "DeviceName": "Pagac-Hayes",
-  "KeyName": "Hoppe Inc and Sons",
-  "TableName": "Schultz LLC",
-  "RecordId": 732
+  "ApplicationName": "Yost, Kemmer and Sauer",
+  "DeviceName": "Dickinson-Schamberger",
+  "KeyName": "Lehner Inc and Sons",
+  "TableName": "Schaden, Kuphal and Bartell",
+  "RecordId": 358
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "impedit",
-  "Value": "praesentium",
-  "RecordId": 916,
-  "CreatedDate": "2002-02-14T04:22:26.8755249+01:00",
-  "UpdatedDate": "2007-08-15T04:22:26.8755249+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "at",
-  "TableName": "Connelly, Kunze and Borer",
+  "Key": "dignissimos",
+  "Value": "ad",
+  "RecordId": 288,
+  "CreatedDate": "2006-09-26T13:28:22.8510314+02:00",
+  "UpdatedDate": "1997-11-05T13:28:22.8510314+01:00",
+  "UpdatedBy": "deleniti",
+  "CreatedBy": "fuga",
+  "TableName": "Adams-Stroman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 287
     }
   }
 }

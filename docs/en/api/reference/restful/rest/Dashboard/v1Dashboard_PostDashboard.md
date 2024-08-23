@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 490,
-  "AssociateId": 445,
-  "Caption": "reiciendis",
+  "DashboardId": 540,
+  "AssociateId": 326,
+  "Caption": "consectetur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 524,
-      "Caption": "dicta",
-      "Description": "Decentralized explicit open system",
-      "ChartName": "Champlin, Murphy and Roob",
-      "ChartId": "minus",
+      "DashboardTileId": 695,
+      "Caption": "libero",
+      "Description": "Focused heuristic local area network",
+      "ChartName": "Mertz Group",
+      "ChartId": "odio",
       "IsDefault": true,
-      "AssociateId": 12,
-      "GroupId": 316,
-      "SelectionId": 508,
-      "Config": "quidem",
+      "AssociateId": 123,
+      "GroupId": 968,
+      "SelectionId": 944,
+      "Config": "ad",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 164,
-  "AssociateId": 729,
-  "Caption": "sed",
+  "DashboardId": 236,
+  "AssociateId": 992,
+  "Caption": "error",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 251,
-      "Caption": "cupiditate",
-      "Description": "Automated multi-tasking groupware",
-      "ChartName": "Homenick-Bernhard",
-      "ChartId": "saepe",
-      "IsDefault": false,
-      "AssociateId": 32,
-      "GroupId": 513,
-      "SelectionId": 943,
-      "Config": "et",
+      "DashboardTileId": 518,
+      "Caption": "cum",
+      "Description": "Digitized didactic architecture",
+      "ChartName": "Hane, Klocko and Kiehn",
+      "ChartId": "deleniti",
+      "IsDefault": true,
+      "AssociateId": 712,
+      "GroupId": 118,
+      "SelectionId": 56,
+      "Config": "adipisci",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
@@ -167,12 +167,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 26
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

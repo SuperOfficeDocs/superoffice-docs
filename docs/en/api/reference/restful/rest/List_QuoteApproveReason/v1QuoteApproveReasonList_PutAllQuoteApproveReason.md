@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Koch-Brown",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "UdListDefinitionId": 115,
-    "Rank": 147
+    "Id": 961,
+    "Name": "Little-Gerhold",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "UdListDefinitionId": 925,
+    "Rank": 205
   },
   {
-    "Id": 422,
-    "Name": "Koch-Brown",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "UdListDefinitionId": 115,
-    "Rank": 147
+    "Id": 961,
+    "Name": "Little-Gerhold",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "UdListDefinitionId": 925,
+    "Rank": 205
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Kuhic, Stanton and Bogisich",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "UdListDefinitionId": 641,
-    "Rank": 298,
+    "Id": 836,
+    "Name": "Sporer Inc and Sons",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "UdListDefinitionId": 342,
+    "Rank": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldLength": 919
       }
     }
   }

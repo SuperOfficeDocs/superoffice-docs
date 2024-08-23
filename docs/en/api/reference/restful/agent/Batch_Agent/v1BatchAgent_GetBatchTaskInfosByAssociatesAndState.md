@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    542,
-    155
+    650,
+    58
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Mann, Toy and Walker",
-    "AssociateId": 801,
-    "DetailsTable": 478,
-    "DetailsRecord": 989,
+    "Id": 104,
+    "Name": "Ryan LLC",
+    "AssociateId": 759,
+    "DetailsTable": 524,
+    "DetailsRecord": 29,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "saepe",
+      "ParameterObject1": "sit",
       "ParameterObject2": "aut"
     },
-    "LastStarted": "2005-07-27T04:22:26.0122232+02:00",
-    "Created": "2002-11-07T04:22:26.0122232+01:00",
-    "StartCount": 750,
-    "DatabaseSerialNumber": "137216",
-    "Context": "consequatur",
-    "Result": "nobis",
+    "LastStarted": "2024-02-16T13:28:21.8512599+01:00",
+    "Created": "2007-08-10T13:28:21.8512599+02:00",
+    "StartCount": 333,
+    "DatabaseSerialNumber": "545056",
+    "Context": "laborum",
+    "Result": "velit",
     "State": "All",
-    "Description": "Function-based web-enabled system engine",
-    "Response": "eius",
-    "Request": "odit",
-    "ProgressDescription": "Synergized asynchronous open system",
-    "ProgressPercent": 912,
-    "FileName": "Fay Inc and Sons",
+    "Description": "Right-sized high-level circuit",
+    "Response": "molestias",
+    "Request": "maiores",
+    "ProgressDescription": "Customer-focused disintermediate toolset",
+    "ProgressPercent": 764,
+    "FileName": "Rowe, Wyman and Kunde",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   }

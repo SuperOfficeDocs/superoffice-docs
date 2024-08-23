@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": false
+  "Flat": false,
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Romaguera-Steuber",
-    "ToolTip": "Quasi impedit reiciendis quae tempore molestiae eligendi voluptatem.",
+    "Id": 560,
+    "Name": "Reichel Inc and Sons",
+    "ToolTip": "Dolorum nesciunt sint sit reprehenderit.",
     "Deleted": false,
-    "Rank": 537,
-    "Type": "voluptatum",
+    "Rank": 623,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Kerluke-Reinger",
-        "ToolTip": "Eveniet debitis laudantium quasi sunt architecto quo non.",
-        "Deleted": true,
-        "Rank": 146,
-        "Type": "non",
+        "Id": 222,
+        "Name": "Sauer Group",
+        "ToolTip": "Enim dolorem quia voluptas sit.",
+        "Deleted": false,
+        "Rank": 603,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 988,
-        "ExtraInfo": "harum",
-        "StyleHint": "quod",
-        "FullName": "Fredrick Halvorson",
+        "IconHint": "voluptatem",
+        "ColorBlock": 78,
+        "ExtraInfo": "repellat",
+        "StyleHint": "minima",
+        "FullName": "Yesenia Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 831
+            "FieldType": "System.String",
+            "FieldLength": 997
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 121,
-    "ExtraInfo": "quas",
-    "StyleHint": "dolores",
-    "FullName": "Delia Mellie Fisher IV",
+    "IconHint": "qui",
+    "ColorBlock": 189,
+    "ExtraInfo": "soluta",
+    "StyleHint": "adipisci",
+    "FullName": "Craig Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 382
       }
     }
   }

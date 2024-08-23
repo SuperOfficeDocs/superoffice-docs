@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 228,
-  "Rank": 448,
-  "DefaultTask": 601,
-  "DefaultTaskText": "officiis",
-  "IsVisual": false,
-  "LastGenerated": "2011-01-26T04:22:27.4788585+01:00",
-  "Description": "Upgradable 24/7 challenge",
-  "Name": "Hermiston Group",
-  "StatusMonitorId": 553,
-  "PictureId": 343,
+  "OwnerTable": 644,
+  "Rank": 507,
+  "DefaultTask": 219,
+  "DefaultTaskText": "nulla",
+  "IsVisual": true,
+  "LastGenerated": "2008-05-01T13:28:23.6167457+02:00",
+  "Description": "Future-proofed impactful support",
+  "Name": "Fahey, Schroeder and Lindgren",
+  "StatusMonitorId": 115,
+  "PictureId": 825,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 999,
-  "NumNeedUpdate": 852,
-  "GenerationStart": "2009-11-05T04:22:27.4788585+01:00"
+  "NumMatches": 327,
+  "NumNeedUpdate": 578,
+  "GenerationStart": "2018-09-18T13:28:23.6167457+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 401,
-  "Rank": 309,
-  "DefaultTask": 293,
-  "DefaultTaskText": "modi",
-  "IsVisual": true,
-  "LastGenerated": "2001-06-13T04:22:27.4788585+02:00",
-  "Description": "Centralized 4th generation process improvement",
-  "Name": "Ritchie, Marks and Koch",
-  "StatusMonitorId": 93,
-  "PictureId": 526,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 689,
-  "NumNeedUpdate": 453,
-  "GenerationStart": "2023-04-03T04:22:27.4788585+02:00",
+  "OwnerTable": 414,
+  "Rank": 315,
+  "DefaultTask": 150,
+  "DefaultTaskText": "optio",
+  "IsVisual": false,
+  "LastGenerated": "2024-04-28T13:28:23.6167457+02:00",
+  "Description": "Focused intermediate success",
+  "Name": "Gottlieb, Crooks and Jacobs",
+  "StatusMonitorId": 529,
+  "PictureId": 854,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 715,
+  "NumNeedUpdate": 137,
+  "GenerationStart": "2011-02-20T13:28:23.6167457+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

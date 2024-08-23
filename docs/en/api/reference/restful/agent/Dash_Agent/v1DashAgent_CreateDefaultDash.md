@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 785,
-  "UniqueId": "expedita",
-  "Name": "Hudson-Veum",
-  "Description": "Extended even-keeled interface",
-  "AssociateId": 411,
-  "Columns": 356,
+  "DashboardId": 217,
+  "UniqueId": "fuga",
+  "Name": "Goyette Group",
+  "Description": "Managed context-sensitive capability",
+  "AssociateId": 781,
+  "Columns": 912,
   "Theme": null,
-  "VisibleForAll": 774,
+  "VisibleForAll": 799,
   "VisibleForAssociates": [
-    560,
-    279
+    967,
+    634
   ],
   "VisibleForGroups": [
-    791,
-    535
+    836,
+    272
   ],
-  "PinForAll": 487,
+  "PinForAll": 182,
   "PinForAssociates": [
-    774,
-    437
+    331,
+    121
   ],
   "PinForGroups": [
-    564,
-    200
+    692,
+    263
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 123
     }
   }
 }

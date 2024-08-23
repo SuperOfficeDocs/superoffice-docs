@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 66,
-      "ContactId": 862
+      "PersonId": 996,
+      "ContactId": 80
     },
     {
-      "PersonId": 66,
-      "ContactId": 862
+      "PersonId": 996,
+      "ContactId": 80
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected analyzing interface",
-  "Postit": "in",
+  "Description": "Grass-roots executive focus group",
+  "Postit": "repellendus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 84,
-  "IncludePerson": 668,
+  "GroupIdx": 834,
+  "IncludePerson": 934,
   "MemberCount": 99.99,
-  "Name": "Gaylord, Walsh and Stehr",
-  "PostitTextId": 505,
-  "CreatedDate": "2009-03-06T04:22:27.6117762+01:00",
-  "SelectionId": 504,
-  "SoundEx": "aut",
-  "Source": 976,
-  "TextId": 919,
-  "UpdatedDate": "2003-10-20T04:22:27.6117762+02:00",
-  "UpdatedCount": 67,
-  "Visibility": 321,
+  "Name": "Breitenberg-Macejkovic",
+  "PostitTextId": 795,
+  "CreatedDate": "2023-02-03T13:28:23.7417186+01:00",
+  "SelectionId": 688,
+  "SoundEx": "omnis",
+  "Source": 298,
+  "TextId": 825,
+  "UpdatedDate": "2018-08-12T13:28:23.7417186+02:00",
+  "UpdatedCount": 218,
+  "Visibility": 455,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 528,
-  "TargetTableName": "Towne, Haley and Schroeder",
+  "TargetTableNumber": 809,
+  "TargetTableName": "Mertz-Ritchie",
   "Completed": true,
-  "LeftSelectionId": 430,
-  "RightSelectionId": 417,
+  "LeftSelectionId": 483,
+  "RightSelectionId": 844,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Torphy-Cummings",
-  "ShadowProviderName": "Block, Hackett and Huels",
-  "ChartKey": "illo",
-  "LastLoaded": "1999-03-10T04:22:27.6117762+01:00",
-  "LastLoadedBy": 554,
+  "MainProviderName": "Haley LLC",
+  "ShadowProviderName": "Terry-Marquardt",
+  "ChartKey": "fugiat",
+  "LastLoaded": "1997-12-17T13:28:23.7417186+01:00",
+  "LastLoadedBy": 34,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-11-17T04:22:27.6117762+01:00",
-  "LastMembershipChangeBy": 416,
+  "LastMembershipChange": "2016-03-09T13:28:23.7417186+01:00",
+  "LastMembershipChangeBy": 124,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "accusantium",
-  "MemberTabHeading": "totam",
-  "MailingsProviderName": "Muller, Bradtke and Waters",
-  "DashboardTileDefinitionId": 523,
+  "MainHeading": "eveniet",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Brown, Hane and Zieme",
+  "DashboardTileDefinitionId": 111,
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 992
         }
       }
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 992
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

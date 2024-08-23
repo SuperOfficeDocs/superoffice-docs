@@ -3,9 +3,9 @@ uid: webpanel
 title: webpanel
 keywords: mdoprovider mdo provider webpanel
 description: List of WebPanels visible possible for use with groups and headings.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "webpanel" MDO List

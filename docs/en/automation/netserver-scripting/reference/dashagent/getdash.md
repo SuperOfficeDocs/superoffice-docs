@@ -2,10 +2,10 @@
 uid: dashagent-getdash
 title: DashAgent.GetDash event method
 description: Scripting events called on the GetDash method on the DashAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DashAgent.GetDash
 

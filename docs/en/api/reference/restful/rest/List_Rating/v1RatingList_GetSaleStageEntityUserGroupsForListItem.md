@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Hudson-Bins",
-    "ToolTip": "Voluptatibus error laboriosam veritatis similique odio aspernatur.",
+    "Id": 20,
+    "Name": "Corkery-Stiedemann",
+    "ToolTip": "Voluptas enim sint nostrum.",
     "Deleted": true,
-    "Rank": 634,
-    "Type": "vero",
-    "ColorBlock": 954,
-    "IconHint": "eos",
+    "Rank": 173,
+    "Type": "harum",
+    "ColorBlock": 852,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2009-07-03T04:22:36.1278402+02:00",
+    "LastChanged": "2014-11-02T13:28:33.0696831+01:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Greenfelder, McLaughlin and Eichmann",
-        "ToolTip": "Fugit aut est ducimus.",
-        "Deleted": false,
-        "Rank": 68,
-        "Type": "quidem",
-        "ColorBlock": 133,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2006-09-29T04:22:36.1278402+02:00",
+        "Id": 698,
+        "Name": "Green Group",
+        "ToolTip": "Doloremque rem qui dicta tempore illo autem.",
+        "Deleted": true,
+        "Rank": 668,
+        "Type": "et",
+        "ColorBlock": 90,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "2021-11-02T13:28:33.0696831+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "natus",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Dr. Sophia Prohaska",
+        "FullName": "Antonietta Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "minima",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Dave Miller",
+    "FullName": "Mrs. Karianne Heaven Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 438
       }
     }
   }

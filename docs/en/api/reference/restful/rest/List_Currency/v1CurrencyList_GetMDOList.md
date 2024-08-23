@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=et
+GET /api/v1/List/Currency/MDOItems?query=hic
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Zemlak, Daugherty and Smitham",
-    "ToolTip": "Reprehenderit assumenda consequatur dolorum.",
-    "Deleted": false,
-    "Rank": 879,
-    "Type": "harum",
+    "Id": 206,
+    "Name": "Weimann Inc and Sons",
+    "ToolTip": "Et repudiandae maxime molestiae ea laboriosam.",
+    "Deleted": true,
+    "Rank": 519,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Wolf, Rodriguez and Sporer",
-        "ToolTip": "Et omnis tempora.",
-        "Deleted": false,
-        "Rank": 126,
-        "Type": "voluptates",
+        "Id": 297,
+        "Name": "Toy-Reichert",
+        "ToolTip": "Tempora ut.",
+        "Deleted": true,
+        "Rank": 770,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 439,
-        "ExtraInfo": "tempora",
-        "StyleHint": "quas",
-        "FullName": "Zack Zieme",
+        "IconHint": "doloribus",
+        "ColorBlock": 771,
+        "ExtraInfo": "est",
+        "StyleHint": "voluptas",
+        "FullName": "Jany Fadel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 422,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "numquam",
-    "FullName": "Giles Amira Maggio DVM",
+    "IconHint": "minus",
+    "ColorBlock": 922,
+    "ExtraInfo": "omnis",
+    "StyleHint": "nesciunt",
+    "FullName": "Dr. Elnora Hazel Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 405
       }
     }
   }

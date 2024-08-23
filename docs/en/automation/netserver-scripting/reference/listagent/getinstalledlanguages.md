@@ -2,10 +2,10 @@
 uid: listagent-getinstalledlanguages
 title: ListAgent.GetInstalledLanguages event method
 description: Scripting events called on the GetInstalledLanguages method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetInstalledLanguages
 

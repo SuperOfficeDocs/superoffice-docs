@@ -3,9 +3,9 @@ uid: ChatConversationSelectionV2
 title: ChatConversationSelectionV2
 description: This is the archive Provider for the Selection archive.
 keywords: ChatConversationSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ChatConversationSelectionV2"
@@ -486,7 +486,7 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=person/email/emailBounceCount,person/restrictionAddress/wgs84longitude,contact/searchPhone/description,contact/email/emailBounceCount,contact/streetAddress/line2
+GET /api/v1/archive/ChatConversationSelectionV2?$select=person/withdrawnEmarketingConsent,person/restrictionAddress/line2,person/personAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

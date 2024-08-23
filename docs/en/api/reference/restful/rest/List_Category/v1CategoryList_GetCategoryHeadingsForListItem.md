@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Maggio LLC",
-    "ToolTip": "Quia doloremque vitae voluptatum et ut.",
+    "Id": 210,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Qui odio labore amet pariatur maxime dignissimos et.",
     "Deleted": false,
-    "Rank": 117,
-    "Type": "omnis",
-    "ColorBlock": 417,
-    "IconHint": "voluptate",
+    "Rank": 604,
+    "Type": "consequuntur",
+    "ColorBlock": 609,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2006-08-13T04:22:35.830971+02:00",
+    "LastChanged": "2004-04-14T13:28:32.694768+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Schneider, Feil and Morissette",
-        "ToolTip": "Dolorum repellat est corporis nisi fugiat iusto molestiae.",
+        "Id": 439,
+        "Name": "Olson-Kunze",
+        "ToolTip": "Et temporibus at ducimus sed voluptatum sequi.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "impedit",
-        "ColorBlock": 372,
-        "IconHint": "pariatur",
-        "Selected": true,
-        "LastChanged": "2010-09-09T04:22:35.830971+02:00",
+        "Rank": 475,
+        "Type": "corporis",
+        "ColorBlock": 728,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2017-08-29T13:28:32.694768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "quod",
-        "Hidden": false,
-        "FullName": "Nedra Moen",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Prof. Jolie Leonor O'Kon V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldType": "System.String",
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mrs. Alexandrea Presley Koch I",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptate",
+    "Hidden": true,
+    "FullName": "Miss Veronica Tavares Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 592
       }
     }
   }

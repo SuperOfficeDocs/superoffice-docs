@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 82,
-    "Name": "Nader-Keebler",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "Rank": 757,
-    "UdListDefinitionId": 215
+    "HeadingId": 58,
+    "Name": "Renner, Gerlach and McClure",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 87,
+    "UdListDefinitionId": 169
   },
   {
-    "HeadingId": 82,
-    "Name": "Nader-Keebler",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "Rank": 757,
-    "UdListDefinitionId": 215
+    "HeadingId": 58,
+    "Name": "Renner, Gerlach and McClure",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 87,
+    "UdListDefinitionId": 169
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 895,
-    "Name": "Braun Group",
-    "Tooltip": "dolorum",
+    "HeadingId": 97,
+    "Name": "Hessel, Ebert and Mante",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 190,
-    "UdListDefinitionId": 568,
+    "Rank": 820,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   }

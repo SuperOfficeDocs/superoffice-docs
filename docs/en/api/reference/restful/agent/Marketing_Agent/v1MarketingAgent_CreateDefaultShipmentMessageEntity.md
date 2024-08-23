@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 333,
-  "PlainMessage": "atque",
-  "HtmlMessage": "modi",
-  "SmsMessage": "aliquid",
-  "Description": "Centralized local function",
-  "Subject": "in",
-  "FolderId": 188,
-  "HeaderField": "corporis",
-  "Design": "ipsa",
+  "ShipmentMessageId": 881,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "aperiam",
+  "SmsMessage": "soluta",
+  "Description": "Robust exuding knowledge user",
+  "Subject": "porro",
+  "FolderId": 570,
+  "HeaderField": "nostrum",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Multi-layered value-added website",
-  "AccessKey": "numquam",
-  "DocumentMessage": 35,
-  "Registered": "2016-01-20T04:22:27.0653754+01:00",
-  "RegisteredAssociateId": 333,
-  "Updated": "2006-05-24T04:22:27.0653754+02:00",
-  "UpdatedAssociateId": 241,
-  "UpdatedCount": 756,
+  "InlineImages": false,
+  "LongDescription": "Open-architected foreground conglomeration",
+  "AccessKey": "distinctio",
+  "DocumentMessage": 916,
+  "Registered": "2011-11-05T13:28:23.038756+01:00",
+  "RegisteredAssociateId": 463,
+  "Updated": "2004-07-30T13:28:23.038756+02:00",
+  "UpdatedAssociateId": 201,
+  "UpdatedCount": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 520
     }
   }
 }

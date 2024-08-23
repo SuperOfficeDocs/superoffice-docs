@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Bailey-Walsh",
-    "ToolTip": "Sit est unde.",
+    "Id": 204,
+    "Name": "Harris Inc and Sons",
+    "ToolTip": "Quia odit voluptas aut dolorem.",
     "Deleted": false,
-    "Rank": 885,
-    "Type": "architecto",
-    "ColorBlock": 846,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2015-01-03T04:22:36.1903389+01:00",
+    "Rank": 522,
+    "Type": "sapiente",
+    "ColorBlock": 631,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "1999-08-20T13:28:33.1482054+02:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Willms LLC",
-        "ToolTip": "Quaerat odio ut.",
-        "Deleted": true,
-        "Rank": 967,
-        "Type": "error",
-        "ColorBlock": 408,
-        "IconHint": "voluptatum",
+        "Id": 950,
+        "Name": "Leuschke Group",
+        "ToolTip": "Illum quasi veritatis.",
+        "Deleted": false,
+        "Rank": 561,
+        "Type": "inventore",
+        "ColorBlock": 976,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2003-02-01T04:22:36.1903389+01:00",
+        "LastChanged": "2017-08-26T13:28:33.1482054+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "natus",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Zella Hilll"
+        "FullName": "Carlee Kohler III"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Ross Brakus"
+    "ExtraInfo": "atque",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Megane Marks PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Goodwin, Cartwright and Kertzmann",
-    "ToolTip": "Vitae similique.",
-    "Deleted": false,
-    "Rank": 654,
-    "Type": "quo",
-    "ColorBlock": 396,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2021-08-04T04:22:36.1903389+02:00",
+    "Id": 395,
+    "Name": "Nitzsche-Howe",
+    "ToolTip": "Omnis tenetur quisquam nobis excepturi quia distinctio.",
+    "Deleted": true,
+    "Rank": 391,
+    "Type": "corrupti",
+    "ColorBlock": 928,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2020-06-05T13:28:33.1638597+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Wintheiser-Brown",
-        "ToolTip": "Tempore est et tempore voluptas cum.",
+        "Id": 520,
+        "Name": "Anderson-Erdman",
+        "ToolTip": "Fugiat iure error et in nam.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "quia",
-        "ColorBlock": 518,
-        "IconHint": "nostrum",
+        "Rank": 838,
+        "Type": "dolores",
+        "ColorBlock": 288,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2021-07-06T04:22:36.1903389+02:00",
+        "LastChanged": "2017-10-08T13:28:33.1638597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Kamille Diana Wisoky V",
+        "ExtraInfo": "quae",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Hosea Gretchen Anderson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Prof. Baby Heller DVM",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Jonathan Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

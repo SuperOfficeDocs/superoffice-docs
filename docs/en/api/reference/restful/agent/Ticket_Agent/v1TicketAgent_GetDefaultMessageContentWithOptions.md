@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 293,
+  "TicketId": 520,
   "MessageActionType": "Forward",
-  "TicketMessageId": 8,
-  "TicketTypeId": 295,
-  "ExcludeSignature": false
+  "TicketMessageId": 572,
+  "TicketTypeId": 92,
+  "ExcludeSignature": true
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "non",
+  "Body": "facere",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 183,
-      "Name": "Williamson Inc and Sons",
-      "ContentType": "tenetur",
-      "AttSize": 172,
+      "AttachmentId": 61,
+      "Name": "Rohan-Moen",
+      "ContentType": "facilis",
+      "AttSize": 902,
       "InlineImage": false,
-      "ContentId": "ab",
-      "AuthKey": "facilis",
+      "ContentId": "tempore",
+      "AuthKey": "nemo",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 243
         }
       }
     }

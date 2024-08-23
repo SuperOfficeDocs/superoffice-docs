@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 732,
-  "Name": "Hansen-Kihn",
-  "Tooltip": "magni",
-  "Rank": 307,
-  "Deleted": true,
-  "DaysFuture": 252,
-  "Duration": "quo",
+  "SuggestedAppointmentId": 263,
+  "Name": "Ullrich-O'Conner",
+  "Tooltip": "cum",
+  "Rank": 669,
+  "Deleted": false,
+  "DaysFuture": 863,
+  "Duration": "natus",
   "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "blanditiis",
+  "IsMilestone": true,
+  "AssignToMember": true,
+  "Text": "soluta",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 954,
-  "Name": "King, Luettgen and Doyle",
-  "Tooltip": "ducimus",
-  "Rank": 329,
-  "Deleted": false,
-  "DaysFuture": 938,
-  "Duration": "rerum",
+  "SuggestedAppointmentId": 638,
+  "Name": "Buckridge-Rau",
+  "Tooltip": "ut",
+  "Rank": 102,
+  "Deleted": true,
+  "DaysFuture": 430,
+  "Duration": "aut",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "ut",
+  "Text": "dolor",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 658
     }
   }
 }

@@ -3,9 +3,9 @@ uid: FindSale
 title: FindSale
 description: 
 keywords: FindSale archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindSale"
@@ -1300,7 +1300,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSale?$select=updatedByFullName,contact/contactInterestIds,contact/NumberOfNotCompletedSales,appointment/text,appointment/updatedDate
+GET /api/v1/archive/FindSale?$select=personId,source,originalStage,person/personUdef/SuperOffice:11,contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

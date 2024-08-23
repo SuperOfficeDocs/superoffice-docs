@@ -30,6 +30,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:CRMScript="http://www.superoffice.net/ws/crm/NetServer/Services88">
   <CRMScript:ApplicationToken>1234567-1234-9876</CRMScript:ApplicationToken>
@@ -89,6 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
       </CRMScript:StringKeyValuePair>
      </CRMScript:Headers>
+     <CRMScript:TraceExecution xsi:type="xsd:boolean">false</CRMScript:TraceExecution>
     </CRMScript:EventData>
    </CRMScript:ExecuteScriptByString>
 
@@ -107,6 +109,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:CRMScript="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
@@ -120,8 +123,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CRMScript:StringKeyValuePair>
     </CRMScript:Parameters>
     <CRMScript:TraceRun xsi:type="CRMScript:CRMScriptTraceRun">
-     <CRMScript:StartedAt xsi:type="xsd:dateTime">2024-06-05T02:20:17Z</CRMScript:StartedAt>
-     <CRMScript:EndedAt xsi:type="xsd:dateTime">2024-06-05T02:20:17Z</CRMScript:EndedAt>
+     <CRMScript:StartedAt xsi:type="xsd:dateTime">2024-08-22T11:26:19Z</CRMScript:StartedAt>
+     <CRMScript:EndedAt xsi:type="xsd:dateTime">2024-08-22T11:26:19Z</CRMScript:EndedAt>
      <CRMScript:ExecutionTime xsi:type="xsd:int">0</CRMScript:ExecutionTime>
      <CRMScript:UserExecutionTime xsi:type="xsd:int">0</CRMScript:UserExecutionTime>
      <CRMScript:PeakMemory xsi:type="xsd:int">0</CRMScript:PeakMemory>
@@ -176,12 +179,14 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
       </CRMScript:StringKeyValuePair>
      </CRMScript:Headers>
+     <CRMScript:TraceExecution xsi:type="xsd:boolean">false</CRMScript:TraceExecution>
     </CRMScript:Eventdata>
     <CRMScript:Success xsi:type="xsd:boolean">false</CRMScript:Success>
     <CRMScript:ErrorInformation xsi:type="CRMScript:CRMScriptErrorInfo">
      <CRMScript:ErrorMessage xsi:type="xsd:string"></CRMScript:ErrorMessage>
-     <CRMScript:ErrorLine xsi:type="xsd:int">0</CRMScript:ErrorLine>
-     <CRMScript:ErrorCharacterPosition xsi:type="xsd:int">0</CRMScript:ErrorCharacterPosition>
+     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
+     <CRMScript:LineNumber xsi:type="xsd:int">0</CRMScript:LineNumber>
+     <CRMScript:CharacterPosition xsi:type="xsd:int">0</CRMScript:CharacterPosition>
     </CRMScript:ErrorInformation>
    </CRMScript:Response>
   </CRMScript:ExecuteScriptByStringResponse>

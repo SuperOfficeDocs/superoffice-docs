@@ -72,11 +72,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Stoltenberg-Morissette",
-  "StorageKey": "optio",
-  "Restrictions": "ullam",
-  "Context": "accusantium"
+  "StorageType": "nulla",
+  "ProviderName": "Kling Group",
+  "StorageKey": "nihil",
+  "Restrictions": "animi",
+  "Context": "et"
 }
 ```
 

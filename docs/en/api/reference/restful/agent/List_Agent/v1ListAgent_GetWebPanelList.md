@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 833,
-    "Name": "Larkin Group",
-    "Tooltip": "omnis",
+    "WebPanelId": 740,
+    "Name": "Ebert Inc and Sons",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 798,
+    "Rank": 12,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Daugherty, Parker and Maggio",
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Nikolaus, Beahan and Wunsch",
     "Url": "http://www.example.com/",
-    "ProgId": "qui",
-    "Icon": 294,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "eum",
+    "Icon": 1002,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 879
       }
     }
   }

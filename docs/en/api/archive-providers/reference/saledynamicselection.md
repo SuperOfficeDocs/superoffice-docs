@@ -3,9 +3,9 @@ uid: SaleDynamicSelection
 title: SaleDynamicSelection
 description: Sale selection archive using the selectionId as criterionmapping.
 keywords: SaleDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleDynamicSelection"
@@ -1304,7 +1304,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=rowKind,person/rank,person/kanaFirstName,person/personUpdatedDate,person/personInfo/infoText
+GET /api/v1/archive/SaleDynamicSelection?$select=person/isStakeholder,person/personExtra/x_person_category_relation,contact/searchPhone/formattedNumber,contact/contactUdef/SuperOffice:7,associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

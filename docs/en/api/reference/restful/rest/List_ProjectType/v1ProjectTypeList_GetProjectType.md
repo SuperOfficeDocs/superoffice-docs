@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Hauck Group",
-  "Tooltip": "iste",
+  "Id": 77,
+  "Name": "Cronin, Kub and Gusikowski",
+  "Tooltip": "animi",
   "Deleted": true,
-  "UdListDefinitionId": 303,
-  "Rank": 653,
+  "UdListDefinitionId": 393,
+  "Rank": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

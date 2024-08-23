@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Gutmann-Howell",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 905,
+  "Id": 674,
+  "Name": "Schulist, Thiel and Padberg",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 519,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 949
     }
   },
   "_Links": {

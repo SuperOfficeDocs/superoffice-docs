@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 916,
-    "Name": "Cummerata Group",
-    "Tooltip": "pariatur",
+    "HeadingId": 117,
+    "Name": "Padberg-Nienow",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 916,
-    "UdListDefinitionId": 604,
+    "Rank": 588,
+    "UdListDefinitionId": 502,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 782
       }
     }
   }

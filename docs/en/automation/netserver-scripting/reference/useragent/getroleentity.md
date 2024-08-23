@@ -2,10 +2,10 @@
 uid: useragent-getroleentity
 title: UserAgent.GetRoleEntity event method
 description: Scripting events called on the GetRoleEntity method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.GetRoleEntity
 

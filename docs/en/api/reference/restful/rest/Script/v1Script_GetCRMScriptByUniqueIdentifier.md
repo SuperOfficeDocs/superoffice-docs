@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Walsh-Beier",
-  "Description": "Team-oriented tertiary focus group",
-  "IncludeId": "nulla",
-  "Source": "voluptatem",
-  "Registered": "2012-12-22T04:22:35.6897281+01:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2007-06-30T04:22:35.6897281+02:00",
-  "UpdatedBy": "laboriosam",
-  "Path": "et",
+  "UniqueIdentifier": "corrupti",
+  "Name": "Schiller-Leuschke",
+  "Description": "Object-based exuding project",
+  "IncludeId": "ipsam",
+  "Source": "et",
+  "Registered": "2007-01-07T13:28:32.5385534+01:00",
+  "RegisteredBy": "odit",
+  "Updated": "2022-04-28T13:28:32.5385534+02:00",
+  "UpdatedBy": "ratione",
+  "Path": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 121
     }
   }
 }

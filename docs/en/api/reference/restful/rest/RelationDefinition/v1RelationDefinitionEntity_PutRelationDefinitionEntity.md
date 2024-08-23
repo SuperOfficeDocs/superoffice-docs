@@ -97,12 +97,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 410,
-  "Name": "Kertzmann-Cummerata",
-  "Tooltip": "distinctio",
-  "PassiveText": "illo",
+  "ReldefId": 144,
+  "Name": "Kozey, Kuhn and Funk",
+  "Tooltip": "inventore",
+  "PassiveText": "in",
   "Deleted": false,
-  "Rank": 754,
+  "Rank": 261,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 984,
-  "Name": "Robel, Cummings and Predovic",
-  "Tooltip": "animi",
-  "PassiveText": "nemo",
+  "ReldefId": 479,
+  "Name": "Moore, Ziemann and Larkin",
+  "Tooltip": "tenetur",
+  "PassiveText": "ipsam",
   "Deleted": false,
-  "Rank": 62,
+  "Rank": 17,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 803
     }
   },
   "_Links": {

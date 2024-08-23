@@ -117,7 +117,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Kutch, Halvorson and Hamill"
+  "TargetTableName": "Kuhn Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised intermediate software",
-  "Postit": "pariatur",
+  "Description": "Persistent holistic algorithm",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 786,
-  "IncludePerson": 560,
+  "GroupIdx": 729,
+  "IncludePerson": 509,
   "MemberCount": 99.99,
-  "Name": "Runolfsdottir Inc and Sons",
-  "PostitTextId": 510,
-  "CreatedDate": "2020-02-19T04:22:27.5961507+01:00",
-  "SelectionId": 14,
-  "SoundEx": "unde",
-  "Source": 262,
-  "TextId": 864,
-  "UpdatedDate": "2009-11-18T04:22:27.5961507+01:00",
-  "UpdatedCount": 464,
-  "Visibility": 544,
+  "Name": "Stroman-Murray",
+  "PostitTextId": 577,
+  "CreatedDate": "2002-11-06T13:28:23.7417186+01:00",
+  "SelectionId": 780,
+  "SoundEx": "aut",
+  "Source": 591,
+  "TextId": 934,
+  "UpdatedDate": "2004-11-21T13:28:23.7417186+01:00",
+  "UpdatedCount": 116,
+  "Visibility": 306,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 878,
-  "TargetTableName": "Lind Group",
-  "Completed": false,
-  "LeftSelectionId": 580,
-  "RightSelectionId": 304,
+  "CompanyUnique": true,
+  "TargetTableNumber": 900,
+  "TargetTableName": "Marks LLC",
+  "Completed": true,
+  "LeftSelectionId": 273,
+  "RightSelectionId": 403,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rath-Renner",
-  "ShadowProviderName": "Medhurst LLC",
-  "ChartKey": "veniam",
-  "LastLoaded": "2011-08-16T04:22:27.5961507+02:00",
-  "LastLoadedBy": 498,
+  "MainProviderName": "Marks-Prosacco",
+  "ShadowProviderName": "Conn LLC",
+  "ChartKey": "maxime",
+  "LastLoaded": "2018-09-26T13:28:23.7417186+02:00",
+  "LastLoadedBy": 159,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-07-29T04:22:27.5961507+02:00",
-  "LastMembershipChangeBy": 211,
+  "LastMembershipChange": "2020-02-19T13:28:23.7417186+01:00",
+  "LastMembershipChangeBy": 331,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quaerat",
-  "MemberTabHeading": "inventore",
-  "MailingsProviderName": "Grady Group",
-  "DashboardTileDefinitionId": 267,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "esse",
+  "MailingsProviderName": "Crist-Witting",
+  "DashboardTileDefinitionId": 507,
   "VisibleFor": [
     {
-      "VisibleId": 187,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 942
         }
       }
     },
     {
-      "VisibleId": 187,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 942
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 389
     }
   }
 }

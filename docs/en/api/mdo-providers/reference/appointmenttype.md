@@ -3,9 +3,9 @@ uid: appointmenttype
 title: appointmenttype
 keywords: mdoprovider mdo provider appointmenttype
 description: List of AppointmentType values - inDiary, inChecklist, Note, Document, SavedReport, BookingForDiary, BookingForChecklist
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "appointmenttype" MDO List

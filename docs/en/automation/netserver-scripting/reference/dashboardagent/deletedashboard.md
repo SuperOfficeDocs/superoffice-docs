@@ -2,10 +2,10 @@
 uid: dashboardagent-deletedashboard
 title: DashboardAgent.DeleteDashboard event method
 description: Scripting events called on the DeleteDashboard method on the DashboardAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DashboardAgent.DeleteDashboard
 

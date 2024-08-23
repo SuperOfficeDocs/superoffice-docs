@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 515,
+  "EjMessageId": 815,
   "Ticket": null,
-  "CreatedAt": "2021-07-18T04:22:35.5803553+02:00",
+  "CreatedAt": "2005-08-27T13:28:32.3979624+02:00",
   "CreatedBy": null,
-  "Author": "at",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 418,
-  "Body": "voluptatem",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "randall@spinka.info",
-  "DebugInfo": "eius",
-  "MailSorter": "enim",
+  "MessageId": "iusto",
+  "TimeSpent": 133,
+  "Body": "beatae",
+  "HtmlBody": "quos",
+  "EmailHeader": "annamae@vonbuckridge.us",
+  "DebugInfo": "voluptas",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusamus",
+  "SearchTitle": "excepturi",
   "MessageHeaders": [
     {
-      "Id": 564,
-      "Name": "Kiehn-Bernhard",
-      "Value": "saepe",
+      "Id": 235,
+      "Name": "Dickens-Ferry",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldType": "System.Int32",
+          "FieldLength": 614
         }
       }
     }
   ],
   "Important": true,
-  "Language": "sint",
-  "Sentiment": 4,
-  "SentimentConfidence": 792,
+  "Language": "et",
+  "Sentiment": 217,
+  "SentimentConfidence": 869,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 682,
-      "Name": "Reynolds-Lockman",
-      "ContentType": "magni",
-      "AttSize": 516,
-      "InlineImage": true,
-      "ContentId": "dolores",
-      "AuthKey": "eos",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 140,
+      "Name": "Willms-Kilback",
+      "ContentType": "id",
+      "AttSize": 9,
+      "InlineImage": false,
+      "ContentId": "voluptatem",
+      "AuthKey": "dolor",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 709
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "in"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "error"
+    "CustomFields1": "non",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 72
     }
   }
 }

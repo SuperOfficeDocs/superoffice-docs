@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Sale/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125,
-  "Number": "717183"
+  "ContactId": 666,
+  "Number": "1346060"
 }
 ```
 

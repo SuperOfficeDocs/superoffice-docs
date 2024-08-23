@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "molestiae",
-      "Key": "amet"
+      "Section": "et",
+      "Key": "vel"
     },
     {
-      "Section": "molestiae",
-      "Key": "amet"
+      "Section": "et",
+      "Key": "vel"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "facilis",
+    "RawValue": "libero",
     "Specification": null,
-    "DisplayValue": "nihil",
+    "DisplayValue": "tenetur",
     "DisplayTooltip": "non",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 708,
-    "PrefDescId": 987,
-    "TableName": "Roberts, Padberg and Conroy",
-    "UserPreferenceId": 19,
+    "TargetId": 988,
+    "PrefDescId": 973,
+    "TableName": "Rogahn Inc and Sons",
+    "UserPreferenceId": 709,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 793
       }
     }
   }

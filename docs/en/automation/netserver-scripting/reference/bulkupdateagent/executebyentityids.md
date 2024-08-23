@@ -2,10 +2,10 @@
 uid: bulkupdateagent-executebyentityids
 title: BulkUpdateAgent.ExecuteByEntityIds event method
 description: Scripting events called on the ExecuteByEntityIds method on the BulkUpdateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BulkUpdateAgent.ExecuteByEntityIds
 

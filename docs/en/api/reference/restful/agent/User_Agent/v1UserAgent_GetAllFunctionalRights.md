@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Ritchie-Hermann",
-    "ToolTip": "Quod quia velit a quo reprehenderit maiores ipsa.",
-    "Deleted": true,
-    "Rank": 159,
-    "Type": "minima",
-    "ColorBlock": 394,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2001-09-25T04:22:28.0850044+02:00",
+    "Id": 950,
+    "Name": "Schaefer LLC",
+    "ToolTip": "Nihil quaerat et.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "et",
+    "ColorBlock": 221,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2015-03-09T13:28:24.1478781+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Brakus-Emmerich",
-        "ToolTip": "Quae atque consectetur quasi quia fuga officiis ipsa.",
+        "Id": 176,
+        "Name": "Schneider, Orn and Hermann",
+        "ToolTip": "Facere et nobis amet.",
         "Deleted": false,
-        "Rank": 919,
-        "Type": "libero",
-        "ColorBlock": 116,
-        "IconHint": "occaecati",
+        "Rank": 275,
+        "Type": "numquam",
+        "ColorBlock": 548,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2016-05-27T04:22:28.0850044+02:00",
+        "LastChanged": "2003-01-15T13:28:24.1478781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "ratione",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Linwood McLaughlin PhD",
+        "FullName": "Shemar Balistreri DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 141
+            "FieldType": "System.Int32",
+            "FieldLength": 445
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Dulce Kuhlman",
+    "ExtraInfo": "nisi",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Wellington Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

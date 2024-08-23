@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 471,
-  "Name": "Casper-Sauer"
+  "DashTileId": 756,
+  "Name": "Gleichner-Collier"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 31,
-  "DashboardId": 989,
-  "Height": 771,
-  "Width": 295,
-  "Rank": 104,
+  "DashboardTileId": 610,
+  "DashboardId": 920,
+  "Height": 524,
+  "Width": 220,
+  "Rank": 923,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

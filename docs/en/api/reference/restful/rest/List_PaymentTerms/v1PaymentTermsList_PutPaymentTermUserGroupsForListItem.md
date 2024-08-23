@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Johnston Group",
-    "ToolTip": "Explicabo in ea fuga molestiae et molestiae.",
-    "Deleted": false,
-    "Rank": 923,
-    "Type": "expedita",
-    "ColorBlock": 136,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2007-05-24T04:22:35.9872165+02:00",
+    "Id": 771,
+    "Name": "Glover LLC",
+    "ToolTip": "Et illum labore est omnis vel ea provident.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "distinctio",
+    "ColorBlock": 907,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2022-03-04T13:28:32.8978487+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Kovacek, Jacobs and Dare",
-        "ToolTip": "Quidem non.",
+        "Id": 521,
+        "Name": "Weimann-Rippin",
+        "ToolTip": "Quae natus sunt.",
         "Deleted": false,
-        "Rank": 88,
-        "Type": "quaerat",
-        "ColorBlock": 560,
-        "IconHint": "sapiente",
+        "Rank": 196,
+        "Type": "eius",
+        "ColorBlock": 454,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2002-03-31T04:22:35.9872165+02:00",
+        "LastChanged": "2000-12-24T13:28:32.8978487+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Niko Hane MD"
+        "FullName": "Johanna Bechtelar"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Aleen Altenwerth"
+    "ExtraInfo": "debitis",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Wilhelm Kirlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Sipes-Bergnaum",
-    "ToolTip": "Totam unde recusandae quis molestias iusto ut.",
+    "Id": 254,
+    "Name": "Johnston-Skiles",
+    "ToolTip": "Eum odit esse sapiente.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "voluptas",
-    "ColorBlock": 11,
-    "IconHint": "natus",
-    "Selected": true,
-    "LastChanged": "2013-04-16T04:22:36.0028417+02:00",
+    "Rank": 822,
+    "Type": "qui",
+    "ColorBlock": 8,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2011-04-11T13:28:32.8978487+02:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Renner-Herzog",
-        "ToolTip": "Ratione quod architecto.",
+        "Id": 362,
+        "Name": "Treutel Group",
+        "ToolTip": "Nostrum repellat quo rerum dignissimos suscipit amet veritatis.",
         "Deleted": false,
-        "Rank": 542,
-        "Type": "laborum",
-        "ColorBlock": 530,
-        "IconHint": "vero",
+        "Rank": 374,
+        "Type": "maxime",
+        "ColorBlock": 516,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-10-08T04:22:36.0028417+02:00",
+        "LastChanged": "1999-10-13T13:28:32.8978487+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Rick Funk PhD",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Adalberto Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Miss Lafayette Travis Moore",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Fritz Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

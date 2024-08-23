@@ -64,6 +64,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,38 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 30,
-  "Name": "Waters LLC",
-  "Rank": 330,
-  "Tooltip": "culpa",
-  "Icon": "dolores",
-  "DefaultTicketStatus": 795,
+  "TicketTypeId": 480,
+  "Name": "Zboncak, Windler and Stark",
+  "Rank": 198,
+  "Tooltip": "consectetur",
+  "Icon": "voluptas",
+  "DefaultTicketStatus": 559,
   "TicketStatuses": [
-    894,
-    853
+    430,
+    192
   ],
-  "DefaultTicketPriority": 116,
+  "DefaultTicketPriority": 640,
   "TicketPriorities": [
-    55,
-    578
+    717,
+    433
   ],
-  "ReplyTemplate": 724,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 990,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    24,
-    900
+    993,
+    556
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 558
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 952,
+  "TargetDimensionId": 224,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ipsam",
-  "DimensionListName": "Bergstrom Group",
-  "DimensionListId": 858,
-  "DimensionListLabel": "sunt",
+  "DimensionListField": "soluta",
+  "DimensionListName": "D'Amore-Brown",
+  "DimensionListId": 646,
+  "DimensionListLabel": "numquam",
   "SelectedDimensions": [
-    341,
-    483
+    585,
+    437
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 962
     }
   }
 }

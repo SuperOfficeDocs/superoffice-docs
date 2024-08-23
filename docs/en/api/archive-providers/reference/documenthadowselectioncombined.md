@@ -3,9 +3,9 @@ uid: DocumenthadowSelectionCombined
 title: DocumenthadowSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: DocumenthadowSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumenthadowSelectionCombined"
@@ -712,7 +712,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombined?$select=getAllRows,contact/email/emailAddress,contact/streetAddress/line3,project/projectAssociate/lastName,associate/contactFullName
+GET /api/v1/archive/DocumenthadowSelectionCombined?$select=person/personAssociateId,person/personInfo/textId,person/correspondingAssociate/contactId,contact/contactAssociate/simultaneousEjUser,contact/contactExtra/x_contact_contact_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

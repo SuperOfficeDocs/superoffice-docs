@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 740,
-  "Name": "Wilderman Inc and Sons",
+  "ScreenChooserId": 562,
+  "Name": "Reinger-Zboncak",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "eos",
-  "Source": "qui",
-  "Registered": "2016-11-21T04:22:35.595979+01:00",
-  "RegisteredAssociateId": 327,
-  "Updated": "1999-09-21T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 302,
+  "Enabled": true,
+  "UniqueIdentifier": "saepe",
+  "Source": "est",
+  "Registered": "2023-11-10T13:28:32.4135814+01:00",
+  "RegisteredAssociateId": 250,
+  "Updated": "2023-06-19T13:28:32.4135814+02:00",
+  "UpdatedAssociateId": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   },
   "_Links": {

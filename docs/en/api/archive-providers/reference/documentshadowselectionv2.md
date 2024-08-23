@@ -3,9 +3,9 @@ uid: DocumentShadowSelectionV2
 title: DocumentShadowSelectionV2
 description: Shadow contact provider for the Document provider.
 keywords: DocumentShadowSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentShadowSelectionV2"
@@ -712,7 +712,7 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelectionV2?$select=person/personNoMail,person/personInfo/infoText,contact/updatedDate,contact/postAddress/city,contact/contactExtra/x_contact_float
+GET /api/v1/archive/DocumentShadowSelectionV2?$select=person/personAssociate/firstName,person/correspondingAssociate/lastName,contact/code,contact/streetAddress/line1,contact/contactAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

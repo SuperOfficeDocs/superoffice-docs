@@ -3,9 +3,9 @@ uid: business
 title: business
 keywords: mdoprovider mdo provider business
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "business" MDO List

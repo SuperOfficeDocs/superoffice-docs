@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51,
-  "ContactName": "Bergnaum, Purdy and Block",
-  "PersonId": 472,
-  "PersonName": "Rath, Stamm and Kilback",
-  "AssociateId": 537,
-  "Address": "at",
-  "EmailId": 301,
+  "ContactId": 195,
+  "ContactName": "Fahey-Ernser",
+  "PersonId": 23,
+  "PersonName": "Gerhold LLC",
+  "AssociateId": 617,
+  "Address": "eum",
+  "EmailId": 30,
   "DuplicatePersonIds": [
-    841,
-    225
+    908,
+    574
   ],
-  "Name": "Ziemann Group",
+  "Name": "Kiehn, Turner and Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   }
 }

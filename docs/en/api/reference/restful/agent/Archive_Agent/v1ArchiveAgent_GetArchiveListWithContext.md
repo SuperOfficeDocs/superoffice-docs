@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cremin, Hane and Kling",
-  "ProviderName": "Wisozk Inc and Sons",
+  "GuiName": "Haag-Schroeder",
+  "ProviderName": "Mills-Weber",
   "SortOrder": [
     {
-      "Name": "Eichmann, Schinner and Windler",
+      "Name": "Hirthe-Weber",
       "Direction": "ASC"
     },
     {
-      "Name": "Eichmann, Schinner and Windler",
+      "Name": "Hirthe-Weber",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Emard-Parker",
-      "Operator": "odio",
+      "Name": "Greenholt, Harris and Kling",
+      "Operator": "fugiat",
       "Values": [
-        "debitis",
-        "ab"
+        "voluptatibus",
+        "dolores"
       ],
       "DisplayValues": [
-        "qui",
-        "laboriosam"
+        "ut",
+        "dolores"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 865,
+      "InterParenthesis": 61,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 991
     }
   ],
   "Entities": [
-    "consequatur",
-    "eum"
+    "quaerat",
+    "quo"
   ],
-  "Page": 850,
-  "PageSize": 681,
-  "Context": "rerum"
+  "Page": 24,
+  "PageSize": 340,
+  "Context": "ut"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ortiz, Botsford and Zemlak",
-    "PrimaryKey": 680,
+    "EntityName": "Connelly Group",
+    "PrimaryKey": 645,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quam",
-        "TooltipHint": "voluptas",
-        "LinkHint": "quam"
+        "DisplayValue": "praesentium",
+        "TooltipHint": "sit",
+        "LinkHint": "aperiam"
       }
     },
-    "LinkHint": "ex",
-    "StyleHint": "quam",
+    "LinkHint": "magni",
+    "StyleHint": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 403
       }
     }
   }

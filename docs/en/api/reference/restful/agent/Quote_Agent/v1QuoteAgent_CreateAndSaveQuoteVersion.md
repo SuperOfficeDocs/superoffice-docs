@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 246
+  "QuoteVersionId": 796
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 767,
-  "ERPQuoteVersionKey": "velit",
-  "QuoteId": 532,
-  "Description": "Phased tertiary artificial intelligence",
-  "Number": "265432",
+  "QuoteVersionId": 925,
+  "ERPQuoteVersionKey": "eaque",
+  "QuoteId": 767,
+  "Description": "Realigned motivating function",
+  "Number": "926498",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 553,
-  "SentDate": "1999-07-29T04:22:27.3778332+02:00",
-  "FollowupId": 867,
-  "ExpirationDate": "2006-10-04T04:22:27.3778332+02:00",
-  "DeliveryCountryId": 962,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 183,
+  "LikelyQuoteAlternativeId": 833,
+  "SentDate": "2007-02-16T13:28:23.5230176+01:00",
+  "FollowupId": 584,
+  "ExpirationDate": "2009-04-02T13:28:23.5230176+02:00",
+  "DeliveryCountryId": 796,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 80,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "cupiditate",
-  "ERPPaymentTypeKey": "laborum",
-  "ERPDeliveryTermsKey": "repellat",
-  "ERPDeliveryTypeKey": "nam",
-  "Rank": 358,
-  "ApprovedBy": 71,
-  "ApprovedText": "dolorum",
-  "ApprovedRegisteredBy": 412,
-  "ApprovedRegisteredDate": "2000-07-01T04:22:27.3778332+02:00",
-  "ExtraField1": "aperiam",
-  "ExtraField2": "vel",
-  "ExtraField3": "at",
-  "ExtraField4": "quas",
-  "ExtraField5": "magnam",
-  "LastRecalculated": "2006-02-06T04:22:27.3778332+01:00",
-  "Updated": "2023-08-19T04:22:27.3778332+02:00",
-  "UpdatedAssociateId": 291,
-  "Registered": "2017-02-02T04:22:27.3778332+01:00",
-  "RegisteredAssociateId": 933,
-  "RequestAssociateId": 317,
-  "RequestComment": "ad",
+  "ERPPaymentTermsKey": "itaque",
+  "ERPPaymentTypeKey": "voluptates",
+  "ERPDeliveryTermsKey": "repellendus",
+  "ERPDeliveryTypeKey": "harum",
+  "Rank": 990,
+  "ApprovedBy": 429,
+  "ApprovedText": "dicta",
+  "ApprovedRegisteredBy": 917,
+  "ApprovedRegisteredDate": "2017-01-04T13:28:23.5230176+01:00",
+  "ExtraField1": "esse",
+  "ExtraField2": "magni",
+  "ExtraField3": "sint",
+  "ExtraField4": "vitae",
+  "ExtraField5": "nesciunt",
+  "LastRecalculated": "2017-11-15T13:28:23.5230176+01:00",
+  "Updated": "1997-05-18T13:28:23.5230176+02:00",
+  "UpdatedAssociateId": 692,
+  "Registered": "2019-03-27T13:28:23.5230176+01:00",
+  "RegisteredAssociateId": 292,
+  "RequestAssociateId": 814,
+  "RequestComment": "dolor",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 409,
-      "ERPQuoteAlternativeKey": "dolores",
-      "QuoteVersionId": 150,
-      "Name": "Veum LLC",
-      "Description": "Progressive scalable capacity",
+      "QuoteAlternativeId": 420,
+      "ERPQuoteAlternativeKey": "deserunt",
+      "QuoteVersionId": 428,
+      "Name": "Roob LLC",
+      "Description": "Integrated well-modulated forecast",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 22853.128,
-      "ERPDiscountAmount": 21546.25,
-      "DiscountPercent": 18384.043999999998,
-      "DiscountAmount": 22383.028,
+      "ERPDiscountPercent": 25958.922,
+      "ERPDiscountAmount": 15983.4,
+      "DiscountPercent": 10849.908,
+      "DiscountAmount": 19625.108,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 11790.108,
-      "EarningPercent": 29779.268,
-      "EarningAmount": 5077.08,
-      "SubTotal": 27168.646,
-      "TotalPrice": 20189.228,
-      "ExtraField1": "est",
-      "ExtraField2": "reiciendis",
-      "ExtraField3": "voluptatum",
-      "ExtraField4": "nisi",
-      "ExtraField5": "pariatur",
+      "VATInfo": "atque",
+      "VAT": 2134.254,
+      "EarningPercent": 23081.91,
+      "EarningAmount": 14237.761999999999,
+      "SubTotal": 413.688,
+      "TotalPrice": 29926.566,
+      "ExtraField1": "porro",
+      "ExtraField2": "voluptatem",
+      "ExtraField3": "aut",
+      "ExtraField4": "earum",
+      "ExtraField5": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldLength": 880
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 217
+      "FieldLength": 413
     }
   }
 }

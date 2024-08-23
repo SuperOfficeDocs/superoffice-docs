@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Stiedemann LLC",
-    "ToolTip": "Voluptatibus vitae.",
+    "Id": 674,
+    "Name": "Reynolds Group",
+    "ToolTip": "Cum maiores.",
     "Deleted": true,
-    "Rank": 783,
-    "Type": "sed",
-    "ColorBlock": 526,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "2016-02-05T04:22:36.2215887+01:00",
+    "Rank": 244,
+    "Type": "aliquid",
+    "ColorBlock": 404,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "2015-08-07T13:28:33.1794796+02:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Goyette, Anderson and Haag",
-        "ToolTip": "Hic et et aut.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "ut",
-        "ColorBlock": 578,
-        "IconHint": "ipsam",
+        "Id": 260,
+        "Name": "Orn Group",
+        "ToolTip": "Qui sequi voluptatem corrupti facere cum.",
+        "Deleted": false,
+        "Rank": 603,
+        "Type": "qui",
+        "ColorBlock": 580,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2003-09-01T04:22:36.2215887+02:00",
+        "LastChanged": "2000-08-30T13:28:33.1794796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Logan Tillman",
+        "FullName": "Gerry Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 189
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "impedit",
-    "Hidden": false,
-    "FullName": "Miss Enoch Luettgen",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Elwyn Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldLength": 406
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 866,
-    "Name": "Moore LLC",
-    "Tooltip": "non",
+    "HeadingId": 990,
+    "Name": "Tremblay-Ratke",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 673,
-    "UdListDefinitionId": 477,
+    "Rank": 193,
+    "UdListDefinitionId": 140,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 656
       }
     }
   }

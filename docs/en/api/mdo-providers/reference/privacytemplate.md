@@ -3,9 +3,9 @@ uid: privacytemplate
 title: privacytemplate
 keywords: mdoprovider mdo provider privacytemplate
 description: This is a variant of the DocTmpl list - document templates - restricted to those that are of some privacy document type.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "privacytemplate" MDO List

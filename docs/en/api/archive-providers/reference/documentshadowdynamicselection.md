@@ -3,9 +3,9 @@ uid: DocumentShadowDynamicSelection
 title: DocumentShadowDynamicSelection
 description: Shadow contact provider for the dynamic document provider.
 keywords: DocumentShadowDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentShadowDynamicSelection"
@@ -709,7 +709,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=completed,time,person/personCountryId,person/restrictionAddress/line2,person/personExtra/x_person_contact_relation
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=text,associateId,person/personNumber,person/email/emailBounceCount,contact/department
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 497,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "placeat",
-  "Name": "Brekke, Gerhold and Bernier",
-  "Description": "Re-engineered regional frame",
-  "Code": "aut",
-  "PriceUnit": "sint",
-  "QuantityUnit": "dolore",
-  "IsSubscription": true,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 1344.4859999999999,
-  "ItemNumber": "1191021",
+  "ProductId": 631,
+  "ERPProductKey": "quo",
+  "ERPPriceListKey": "reprehenderit",
+  "Name": "Hamill, Pfannerstill and D'Amore",
+  "Description": "Decentralized maximized hardware",
+  "Code": "incidunt",
+  "PriceUnit": "iste",
+  "QuantityUnit": "voluptatem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 13313.232,
+  "ItemNumber": "1563559",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "magni",
-  "ProductTypeKey": "assumenda",
-  "VAT": 12347.96,
-  "VATInfo": "a",
-  "UnitCost": 3544.554,
-  "UnitMinimumPrice": 31208.372,
-  "UnitListPrice": 14895.902,
-  "InAssortment": false,
-  "Supplier": "hic",
-  "SupplierCode": "enim",
-  "Rights": "non",
-  "Rule": "aut",
+  "ProductFamilyKey": "vero",
+  "ProductTypeKey": "nihil",
+  "VAT": 26551.248,
+  "VATInfo": "laudantium",
+  "UnitCost": 29434.528,
+  "UnitMinimumPrice": 21684.146,
+  "UnitListPrice": 16572.592,
+  "InAssortment": true,
+  "Supplier": "est",
+  "SupplierCode": "quaerat",
+  "Rights": "quo",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Mitchell, Sanford and Wunsch",
-      "Value": "praesentium",
+      "Name": "Waters LLC",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     },
     {
-      "Name": "Mitchell, Sanford and Wunsch",
-      "Value": "praesentium",
+      "Name": "Waters LLC",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "ExtraField1": "deserunt",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "non",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "deserunt",
-  "InStock": 410.554,
+  "RawExtraInfo": "fuga",
+  "ExtraField1": "tenetur",
+  "ExtraField2": "fugiat",
+  "ExtraField3": "magni",
+  "ExtraField4": "corrupti",
+  "ExtraField5": "mollitia",
+  "InStock": 7048.366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 957
     }
   }
 }

@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 628,
-  "ColumnId": 721,
-  "FieldDefault": "dicta",
-  "FieldHeight": 295,
-  "FieldLabel": "praesentium",
-  "FieldLeft": 105,
-  "FieldTop": 870,
+  "UDefFieldId": 318,
+  "ColumnId": 57,
+  "FieldDefault": "quidem",
+  "FieldHeight": 128,
+  "FieldLabel": "aut",
+  "FieldLeft": 796,
+  "FieldTop": 511,
   "FieldType": "Checkbox",
-  "FieldWidth": 993,
-  "FormatMask": "dolor",
+  "FieldWidth": 815,
+  "FormatMask": "aspernatur",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 411,
-  "LabelLeft": 860,
-  "LabelTop": 3,
-  "LabelWidth": 734,
-  "LastVersionId": 462,
-  "ListTableId": 406,
-  "IsMandatory": true,
+  "LabelHeight": 876,
+  "LabelLeft": 334,
+  "LabelTop": 58,
+  "LabelWidth": 261,
+  "LastVersionId": 843,
+  "ListTableId": 221,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 478,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "quaerat",
-  "TabOrder": 316,
-  "TextLength": 207,
-  "Tooltip": "non",
-  "UdefIdentity": 429,
-  "UDListDefinitionId": 63,
+  "Page1LineNo": 489,
+  "ProgId": "aperiam",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 754,
+  "TextLength": 425,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 582,
+  "UDListDefinitionId": 793,
   "Justification": "Center",
-  "Version": 455,
-  "TemplateVariableName": "Feeney-Kihn",
+  "Version": 328,
+  "TemplateVariableName": "Hermiston, Padberg and Beier",
   "HasBeenPublished": true,
-  "MdoListName": "Hahn, Johnson and Ferry",
+  "MdoListName": "Green-Anderson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 981
     }
   }
 }

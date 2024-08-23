@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 188,
-    "Name": "Vandervort-Waters",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "Rank": 279,
-    "UdListDefinitionId": 234,
+    "HeadingId": 988,
+    "Name": "McLaughlin, Padberg and Fahey",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 485,
+    "UdListDefinitionId": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 309
+        "FieldLength": 400
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 423,
-  "ListItemId": 640
+  "UdListDefinitionId": 122,
+  "ListItemId": 107
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Mills Group",
-    "ToolTip": "Officiis aut labore iusto rerum atque rerum.",
+    "Id": 194,
+    "Name": "Boyer Group",
+    "ToolTip": "Facilis nihil cupiditate.",
     "Deleted": true,
-    "Rank": 414,
-    "Type": "molestiae",
-    "ColorBlock": 586,
-    "IconHint": "esse",
+    "Rank": 303,
+    "Type": "tenetur",
+    "ColorBlock": 537,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1998-12-07T04:22:26.9536139+01:00",
+    "LastChanged": "2010-02-19T13:28:22.9294051+01:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Barton-Kling",
-        "ToolTip": "Amet officiis vitae magni laborum architecto nisi et.",
-        "Deleted": true,
-        "Rank": 540,
-        "Type": "ipsum",
-        "ColorBlock": 350,
-        "IconHint": "quo",
+        "Id": 22,
+        "Name": "O'Conner, Murazik and Leannon",
+        "ToolTip": "Sapiente magnam est magni sunt nulla.",
+        "Deleted": false,
+        "Rank": 866,
+        "Type": "doloremque",
+        "ColorBlock": 705,
+        "IconHint": "doloremque",
         "Selected": true,
-        "LastChanged": "2021-04-28T04:22:26.9536139+02:00",
+        "LastChanged": "2015-08-31T13:28:22.9294051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Edwardo Alessandro Gusikowski III",
+        "ExtraInfo": "similique",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Dr. Luz Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldType": "System.String",
+            "FieldLength": 633
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "architecto",
+    "ExtraInfo": "corporis",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Adaline Stamm",
+    "FullName": "Eduardo Lakin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

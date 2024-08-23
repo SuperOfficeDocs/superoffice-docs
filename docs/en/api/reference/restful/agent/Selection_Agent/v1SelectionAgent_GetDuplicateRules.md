@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grady, Boyle and Wyman",
-    "DisplayName": "Batz Group",
-    "DisplayTooltip": "odio",
+    "Name": "Casper-Metz",
+    "DisplayName": "Dicki-Stroman",
+    "DisplayTooltip": "quam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldLength": 72
       }
     }
   },
   {
-    "Name": "Grady, Boyle and Wyman",
-    "DisplayName": "Batz Group",
-    "DisplayTooltip": "odio",
+    "Name": "Casper-Metz",
+    "DisplayName": "Dicki-Stroman",
+    "DisplayTooltip": "quam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldLength": 72
       }
     }
   }

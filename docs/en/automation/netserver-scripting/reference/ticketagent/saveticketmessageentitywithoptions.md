@@ -2,10 +2,10 @@
 uid: ticketagent-saveticketmessageentitywithoptions
 title: TicketAgent.SaveTicketMessageEntityWithOptions event method
 description: Scripting events called on the SaveTicketMessageEntityWithOptions method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.SaveTicketMessageEntityWithOptions
 

@@ -2,10 +2,10 @@
 uid: blobagent-cleanupbatchtask
 title: BLOBAgent.CleanupBatchTask event method
 description: Scripting events called on the CleanupBatchTask method on the BLOBAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BLOBAgent.CleanupBatchTask
 

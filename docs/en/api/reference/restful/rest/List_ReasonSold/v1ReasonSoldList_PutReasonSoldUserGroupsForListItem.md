@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "McDermott Inc and Sons",
-    "ToolTip": "Qui excepturi doloribus dicta debitis.",
-    "Deleted": true,
-    "Rank": 225,
-    "Type": "dignissimos",
-    "ColorBlock": 135,
-    "IconHint": "mollitia",
+    "Id": 478,
+    "Name": "Raynor, Cummings and Armstrong",
+    "ToolTip": "Aut ut ab.",
+    "Deleted": false,
+    "Rank": 476,
+    "Type": "quod",
+    "ColorBlock": 180,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2014-11-23T04:22:36.1590905+01:00",
+    "LastChanged": "2019-06-21T13:28:33.1009254+02:00",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Kessler-Kovacek",
-        "ToolTip": "Accusamus quibusdam sit.",
+        "Id": 948,
+        "Name": "Sipes-Jerde",
+        "ToolTip": "Sed doloremque aut modi ut aut natus possimus.",
         "Deleted": false,
-        "Rank": 675,
-        "Type": "a",
-        "ColorBlock": 765,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2000-09-14T04:22:36.1590905+02:00",
+        "Rank": 135,
+        "Type": "pariatur",
+        "ColorBlock": 888,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2001-10-15T13:28:33.1009254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "voluptate",
         "Hidden": true,
-        "FullName": "Prince Jensen Herzog PhD"
+        "FullName": "Hailee Reilly"
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Dayna Grady"
+    "ExtraInfo": "nisi",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Liam Eichmann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Nienow, Gutmann and Stiedemann",
-    "ToolTip": "Sequi eveniet fugit et.",
+    "Id": 858,
+    "Name": "Halvorson Inc and Sons",
+    "ToolTip": "Quia autem molestias qui optio.",
     "Deleted": false,
-    "Rank": 225,
-    "Type": "ad",
-    "ColorBlock": 646,
-    "IconHint": "consequatur",
+    "Rank": 992,
+    "Type": "voluptatum",
+    "ColorBlock": 177,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "1999-08-06T04:22:36.1590905+02:00",
+    "LastChanged": "2018-12-30T13:28:33.1009254+01:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Mohr LLC",
-        "ToolTip": "Eligendi aut ut et.",
-        "Deleted": false,
-        "Rank": 263,
-        "Type": "mollitia",
-        "ColorBlock": 737,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2002-12-07T04:22:36.1590905+01:00",
+        "Id": 408,
+        "Name": "Funk Group",
+        "ToolTip": "Ut veritatis iure placeat aut ab.",
+        "Deleted": true,
+        "Rank": 262,
+        "Type": "impedit",
+        "ColorBlock": 765,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2003-04-19T13:28:33.1009254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Miss Keenan Serena Prohaska Jr.",
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Estel Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 677
+            "FieldType": "System.Int32",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "quae",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Darrin Fisher",
+    "FullName": "Prof. Emmy Dock Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldLength": 170
       }
     }
   }

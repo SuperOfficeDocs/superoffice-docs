@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=minus
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=incidunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Stroman Group",
-    "ToolTip": "Reprehenderit omnis soluta ea ut asperiores.",
+    "Id": 764,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Neque accusantium.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "ab",
+    "Rank": 226,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Heathcote-Graham",
-        "ToolTip": "Voluptate amet occaecati repellendus perspiciatis perspiciatis.",
-        "Deleted": false,
-        "Rank": 973,
-        "Type": "tenetur",
+        "Id": 556,
+        "Name": "Murazik, Gerhold and O'Connell",
+        "ToolTip": "Sint pariatur et magnam tempore.",
+        "Deleted": true,
+        "Rank": 230,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 913,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptas",
-        "FullName": "Trevion Hodkiewicz",
+        "IconHint": "fuga",
+        "ColorBlock": 326,
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
+        "FullName": "Terence Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 650
+            "FieldLength": 626
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 810,
-    "ExtraInfo": "aut",
-    "StyleHint": "omnis",
-    "FullName": "Shanna Murphy V",
+    "IconHint": "error",
+    "ColorBlock": 29,
+    "ExtraInfo": "fugit",
+    "StyleHint": "qui",
+    "FullName": "Erica Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldType": "System.Int32",
+        "FieldLength": 257
       }
     }
   }

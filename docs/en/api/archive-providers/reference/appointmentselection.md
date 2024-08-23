@@ -3,9 +3,9 @@ uid: AppointmentSelection
 title: AppointmentSelection
 description: This is the archive Provider for the Selection appouintment archive.
 keywords: AppointmentSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "AppointmentSelection"
@@ -726,7 +726,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=visibleInDiary,duration,contact/searchPhone/description,contact/email/emailBounceCount,contact/NumberOfActivities
+GET /api/v1/archive/AppointmentSelection?$select=contact/contactAssociate/isActive,contact/contactUdef/SuperOffice:11,person/personDirectFax/description,appointmentUdef/SuperOffice:7,project/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=653
+PUT /api/v1/Project/{id}/ImageInfo?projectId=868
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 216,
-  "BlobSize": 220,
-  "Description": "Cloned motivating workforce",
-  "ExtraInfo": "non",
+  "BlobId": 935,
+  "BlobSize": 177,
+  "Description": "Inverse maximized portal",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 622,
-  "CreatedDate": "2006-08-25T04:22:35.1897687+02:00",
-  "UpdatedDate": "2007-11-29T04:22:35.1897687+01:00",
+  "MimeType": "magni",
+  "OriginalSize": 878,
+  "CreatedDate": "2014-12-12T13:28:31.8979432+01:00",
+  "UpdatedDate": "2006-03-07T13:28:31.8979432+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste"
+  "ConceptualType": "doloremque"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 742,
-  "BlobSize": 190,
-  "Description": "Visionary coherent synergy",
-  "ExtraInfo": "adipisci",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "consequatur",
-  "OriginalSize": 412,
-  "CreatedDate": "2022-06-11T04:22:35.1897687+02:00",
-  "UpdatedDate": "2006-10-14T04:22:35.1897687+02:00",
+  "BlobId": 316,
+  "BlobSize": 731,
+  "Description": "Optimized scalable hardware",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "sequi",
+  "OriginalSize": 480,
+  "CreatedDate": "2006-03-21T13:28:31.8979432+01:00",
+  "UpdatedDate": "2006-10-13T13:28:31.8979432+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veniam",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

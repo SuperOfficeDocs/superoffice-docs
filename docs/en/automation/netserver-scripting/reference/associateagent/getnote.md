@@ -2,10 +2,10 @@
 uid: associateagent-getnote
 title: AssociateAgent.GetNote event method
 description: Scripting events called on the GetNote method on the AssociateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AssociateAgent.GetNote
 

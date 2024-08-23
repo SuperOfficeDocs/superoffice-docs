@@ -2,10 +2,10 @@
 uid: databaseagent-getstepsfromnetservercode
 title: DatabaseAgent.GetStepsFromNetServerCode event method
 description: Scripting events called on the GetStepsFromNetServerCode method on the DatabaseAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DatabaseAgent.GetStepsFromNetServerCode
 

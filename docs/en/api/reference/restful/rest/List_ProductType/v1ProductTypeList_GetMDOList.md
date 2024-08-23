@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=quod
+GET /api/v1/List/ProductType/MDOItems?query=ullam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Abshire-Reynolds",
-    "ToolTip": "Possimus nihil et dolorem qui.",
+    "Id": 446,
+    "Name": "Lockman, Volkman and Predovic",
+    "ToolTip": "Qui numquam sit expedita ea occaecati atque.",
     "Deleted": false,
-    "Rank": 156,
-    "Type": "asperiores",
+    "Rank": 389,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Lind Inc and Sons",
-        "ToolTip": "Eum quam temporibus ducimus possimus quia.",
-        "Deleted": false,
-        "Rank": 888,
-        "Type": "illum",
+        "Id": 96,
+        "Name": "Keebler LLC",
+        "ToolTip": "Neque reprehenderit neque fugiat debitis distinctio explicabo deleniti.",
+        "Deleted": true,
+        "Rank": 655,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 389,
-        "ExtraInfo": "corporis",
-        "StyleHint": "fugiat",
-        "FullName": "Drake Dach",
+        "IconHint": "unde",
+        "ColorBlock": 505,
+        "ExtraInfo": "placeat",
+        "StyleHint": "repellat",
+        "FullName": "Lilly Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldType": "System.String",
+            "FieldLength": 645
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 836,
-    "ExtraInfo": "sunt",
-    "StyleHint": "commodi",
-    "FullName": "Giovanny Micah Gaylord V",
+    "IconHint": "adipisci",
+    "ColorBlock": 149,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "et",
+    "FullName": "Brigitte Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 653
       }
     }
   }

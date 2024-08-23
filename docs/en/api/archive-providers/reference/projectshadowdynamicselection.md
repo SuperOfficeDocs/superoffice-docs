@@ -3,9 +3,9 @@ uid: ProjectShadowDynamicSelection
 title: ProjectShadowDynamicSelection
 description: Shadow contact provider for the dynamic Project provider.
 keywords: ProjectShadowDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectShadowDynamicSelection"
@@ -793,7 +793,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=LastSale,sale/date,sale/earning,document/time,document/attention
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=NumberOfActivitiesInPeriod,sale/earning,sale/associate/contactFullName,document/isMail,projectMember/personAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

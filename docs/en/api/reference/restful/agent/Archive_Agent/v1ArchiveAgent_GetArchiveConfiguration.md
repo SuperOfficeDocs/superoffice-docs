@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Carter, Borer and Kertzmann",
-  "ProviderName": "Kovacek-Flatley"
+  "GuiName": "Thiel LLC",
+  "ProviderName": "Mayer, Boehm and VonRueden"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Mante-Jewess",
-      "DisplayTooltip": "velit",
-      "DisplayType": "dolorem",
+      "DisplayName": "Murphy LLC",
+      "DisplayTooltip": "fugit",
+      "DisplayType": "voluptatem",
       "CanOrderBy": true,
-      "Name": "Mitchell-Sauer",
+      "Name": "Turcotte-Hirthe",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Ratke Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "quia",
-      "IconHint": "non",
-      "HeadingIconHint": "ipsam"
+      "RestrictionType": "non",
+      "RestrictionListName": "Ferry-Ullrich",
+      "IsVisible": false,
+      "ExtraInfo": "quia",
+      "Width": "rerum",
+      "IconHint": "sunt",
+      "HeadingIconHint": "dolorum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 190,
-      "Name": "Beer-Boyle",
-      "ToolTip": "Qui odio omnis.",
-      "Deleted": true,
-      "Rank": 116,
-      "Type": "aut",
-      "ColorBlock": 439,
-      "IconHint": "laudantium",
+      "Id": 212,
+      "Name": "Harvey-Bergstrom",
+      "ToolTip": "Eligendi perspiciatis et.",
+      "Deleted": false,
+      "Rank": 833,
+      "Type": "qui",
+      "ColorBlock": 954,
+      "IconHint": "quod",
       "Selected": false,
-      "LastChanged": "2009-11-26T04:22:25.9653503+01:00",
+      "LastChanged": "2019-12-28T13:28:21.7887743+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "quia",
+      "ExtraInfo": "nihil",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Dr. Kellie Labadie",
+      "FullName": "Mrs. Johnpaul Johan Howe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 518
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Glover, Stoltenberg and Howell",
+      "Name": "Waelchi LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Glover, Stoltenberg and Howell",
+      "Name": "Waelchi LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptatibus",
+  "OwnerKeys": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

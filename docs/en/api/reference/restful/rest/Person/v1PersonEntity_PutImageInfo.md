@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 597,
-  "BlobSize": 498,
-  "Description": "Front-line leading edge info-mediaries",
-  "ExtraInfo": "quo",
-  "IsEncrypted": true,
+  "BlobId": 916,
+  "BlobSize": 830,
+  "Description": "Managed system-worthy capability",
+  "ExtraInfo": "eaque",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "maxime",
-  "OriginalSize": 739,
-  "CreatedDate": "1999-04-03T04:22:35.1260788+02:00",
-  "UpdatedDate": "2013-09-19T04:22:35.1260788+02:00",
+  "MimeType": "nihil",
+  "OriginalSize": 633,
+  "CreatedDate": "1999-11-02T13:28:31.8354545+01:00",
+  "UpdatedDate": "2019-05-11T13:28:31.8354545+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repellendus"
+  "ConceptualType": "aliquid"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 287,
-  "BlobSize": 858,
-  "Description": "Open-source didactic concept",
-  "ExtraInfo": "distinctio",
+  "BlobId": 751,
+  "BlobSize": 621,
+  "Description": "Mandatory discrete time-frame",
+  "ExtraInfo": "expedita",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptate",
-  "OriginalSize": 968,
-  "CreatedDate": "2004-05-19T04:22:35.1260788+02:00",
-  "UpdatedDate": "2002-06-07T04:22:35.1260788+02:00",
+  "IsZipped": false,
+  "MimeType": "suscipit",
+  "OriginalSize": 900,
+  "CreatedDate": "2015-10-24T13:28:31.8354545+02:00",
+  "UpdatedDate": "2021-05-06T13:28:31.8354545+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestias",
+  "ConceptualType": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 530
     }
   }
 }

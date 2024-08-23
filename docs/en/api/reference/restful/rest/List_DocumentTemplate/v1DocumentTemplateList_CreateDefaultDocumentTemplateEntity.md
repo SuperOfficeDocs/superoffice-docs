@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 261,
-  "Name": "Dicki-Ullrich",
-  "Tooltip": "autem",
-  "SaveInDb": 671,
-  "Filename": "dignissimos",
-  "DefaultOref": "sit",
+  "DocumentTemplateId": 469,
+  "Name": "Gutkowski-Stracke",
+  "Tooltip": "ab",
+  "SaveInDb": 429,
+  "Filename": "quae",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 643,
-  "IntentId": 83,
-  "IsDefaultPublished": false,
-  "Rank": 282,
-  "LoadTemplateFromPlugin": 72,
-  "MimeType": "sapiente",
+  "AutoeventId": 196,
+  "IntentId": 839,
+  "IsDefaultPublished": true,
+  "Rank": 924,
+  "LoadTemplateFromPlugin": 741,
+  "MimeType": "itaque",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 905,
+  "DocumentTypeKey": 487,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "oleta.legros@hodkiewiczkeebler.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "angus@morarsipes.ca",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "camila.rowe@lowevandervort.uk",
+  "SenderEmailAddress": "layne@wiza.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

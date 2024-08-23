@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 302,
-    "Name": "Purdy-Haag",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "Rank": 930,
+    "WebPanelId": 597,
+    "Name": "Cronin Group",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 654,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "DuBuque, Hauck and Daniel",
+    "WindowName": "Schulist-Blick",
     "Url": "http://www.example.com/",
-    "ProgId": "ea",
-    "Icon": 385,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "et",
+    "Icon": 614,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

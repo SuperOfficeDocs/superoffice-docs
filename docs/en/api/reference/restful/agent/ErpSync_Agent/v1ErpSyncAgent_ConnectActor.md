@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 508,
-  "CrmRecordId": 205,
+  "ErpConnectionId": 174,
+  "CrmRecordId": 597,
   "CrmActorType": "Contact",
-  "ErpKey": "quibusdam",
+  "ErpKey": "fugiat",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Spinka-Murazik",
-      "CrmFieldKey": "eum",
-      "Value": "error",
-      "DisplayValue": "tempore",
+      "DisplayName": "Gaylord Inc and Sons",
+      "CrmFieldKey": "et",
+      "Value": "ut",
+      "DisplayValue": "et",
       "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Spinka-Murazik",
-      "CrmFieldKey": "eum",
-      "Value": "error",
-      "DisplayValue": "tempore",
+      "DisplayName": "Gaylord Inc and Sons",
+      "CrmFieldKey": "et",
+      "Value": "ut",
+      "DisplayValue": "et",
       "SyncToCrm": true,
       "SyncToErp": false
     }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rosenbaum-Schulist",
+  "UdListDefinitionName": "Hayes Group",
   "Items": [
     {
-      "Id": 581,
-      "Name": "Jakubowski, Wisoky and Walter",
-      "Tooltip": "nostrum",
-      "Deleted": false,
-      "UdListDefinitionId": 968,
-      "Rank": 914
+      "Id": 216,
+      "Name": "Marvin Group",
+      "Tooltip": "excepturi",
+      "Deleted": true,
+      "UdListDefinitionId": 192,
+      "Rank": 887
     },
     {
-      "Id": 581,
-      "Name": "Jakubowski, Wisoky and Walter",
-      "Tooltip": "nostrum",
-      "Deleted": false,
-      "UdListDefinitionId": 968,
-      "Rank": 914
+      "Id": 216,
+      "Name": "Marvin Group",
+      "Tooltip": "excepturi",
+      "Deleted": true,
+      "UdListDefinitionId": 192,
+      "Rank": 887
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Kling Inc and Sons",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "UdListDefinitionId": 734,
-    "Rank": 679,
+    "Id": 781,
+    "Name": "Shields, Robel and O'Connell",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "UdListDefinitionId": 196,
+    "Rank": 475,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldLength": 260
       }
     }
   }

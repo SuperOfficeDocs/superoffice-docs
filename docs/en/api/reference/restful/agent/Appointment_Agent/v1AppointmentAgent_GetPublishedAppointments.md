@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    735,
-    168
+    645,
+    225
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 25,
-    "StartDate": "2005-10-25T04:22:25.558472+02:00",
-    "EndDate": "2007-02-17T04:22:25.558472+01:00",
+    "AppointmentId": 228,
+    "StartDate": "1998-05-24T13:28:21.4448873+02:00",
+    "EndDate": "2015-01-05T13:28:21.4448873+01:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Jillian Berge",
-    "ContactName": "Kub, Schaden and Schmidt",
-    "Description": "Cloned mission-critical instruction set",
-    "PersonFullName": "Jeramy Wolff",
-    "PersonId": 716,
-    "ContactId": 864,
-    "ProjectId": 60,
-    "ProjectName": "Cruickshank Inc and Sons",
+    "Task": "vel",
+    "AssociateFullName": "Vivianne Lehner",
+    "ContactName": "Yundt LLC",
+    "Description": "Diverse multimedia help-desk",
+    "PersonFullName": "Camden Harber",
+    "PersonId": 277,
+    "ContactId": 123,
+    "ProjectId": 919,
+    "ProjectName": "Bosco-Kuphal",
     "IsPublished": true,
-    "AssociateId": 184,
-    "ColorIndex": 862,
+    "AssociateId": 476,
+    "ColorIndex": 374,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 55,
-    "PriorityName": "Batz Inc and Sons",
+    "PriorityId": 153,
+    "PriorityName": "Keeling, Legros and Tromp",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2022-05-03T04:22:25.5740962+02:00",
+    "ActiveDate": "1997-11-18T13:28:21.4448873+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-04-11T04:22:25.5740962+02:00",
-    "RecurringEndDate": "2016-04-30T04:22:25.5740962+02:00",
-    "MotherId": 763,
-    "AssignedBy": 906,
-    "AssignedByFullName": "Oswaldo Raynor",
+    "RecurringStartDate": "2004-12-06T13:28:21.4448873+01:00",
+    "RecurringEndDate": "2016-08-30T13:28:21.4448873+02:00",
+    "MotherId": 271,
+    "AssignedBy": 56,
+    "AssignedByFullName": "Laurianne Borer",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 184,
-    "SaleName": "Jewess, Crona and Turner",
-    "AssociateName": "Sipes Group",
-    "CreatedDate": "1998-06-10T04:22:25.5740962+02:00",
-    "CreatedBy": "ea",
-    "CreatedByFullName": "Alessia Eichmann",
-    "CreatedByAssociateId": 906,
+    "Location": "veritatis",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 551,
+    "SaleName": "Windler Inc and Sons",
+    "AssociateName": "Mraz, Leuschke and Wilderman",
+    "CreatedDate": "2002-04-08T13:28:21.4448873+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Arnulfo Rodriguez",
+    "CreatedByAssociateId": 698,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 369,
-    "Title": "aut",
-    "Agenda": "commodi",
-    "InternalNotes": "nulla",
+    "PreferredTZLocation": 831,
+    "Title": "velit",
+    "Agenda": "facere",
+    "InternalNotes": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

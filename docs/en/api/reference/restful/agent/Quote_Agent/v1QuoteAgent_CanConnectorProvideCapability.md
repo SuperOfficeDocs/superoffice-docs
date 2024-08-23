@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 805,
-  "CapabilityName": "Buckridge, Schumm and Lang"
+  "QuoteConnectionId": 547,
+  "CapabilityName": "Lemke Inc and Sons"
 }
 ```
 

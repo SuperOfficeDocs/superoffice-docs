@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 64,
-    "Name": "Dach-Wisoky",
-    "Tooltip": "dolorem",
+    "HeadingId": 463,
+    "Name": "Trantow, Gulgowski and Kutch",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "Rank": 162,
-    "UdListDefinitionId": 232
+    "Rank": 542,
+    "UdListDefinitionId": 178
   },
   {
-    "HeadingId": 64,
-    "Name": "Dach-Wisoky",
-    "Tooltip": "dolorem",
+    "HeadingId": 463,
+    "Name": "Trantow, Gulgowski and Kutch",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "Rank": 162,
-    "UdListDefinitionId": 232
+    "Rank": 542,
+    "UdListDefinitionId": 178
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 419,
-    "Name": "Bednar Group",
-    "Tooltip": "ullam",
-    "Deleted": true,
-    "Rank": 77,
-    "UdListDefinitionId": 313,
+    "HeadingId": 888,
+    "Name": "Hartmann Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 861,
+    "UdListDefinitionId": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 7
       }
     }
   }

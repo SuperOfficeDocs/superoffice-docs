@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Pouros LLC",
-    "ToolTip": "Aliquid omnis earum ratione.",
+    "Id": 122,
+    "Name": "Mayert Group",
+    "ToolTip": "Sunt natus autem ab laborum unde.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "fuga",
-    "ColorBlock": 817,
-    "IconHint": "laboriosam",
+    "Rank": 167,
+    "Type": "ullam",
+    "ColorBlock": 746,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2022-08-13T04:22:36.0965902+02:00",
+    "LastChanged": "2005-01-24T13:28:33.0228222+01:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Davis Group",
-        "ToolTip": "Aut saepe fugit in qui.",
+        "Id": 420,
+        "Name": "Sanford LLC",
+        "ToolTip": "Quis temporibus unde.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "asperiores",
-        "ColorBlock": 222,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "2008-09-16T04:22:36.0965902+02:00",
+        "Rank": 510,
+        "Type": "animi",
+        "ColorBlock": 669,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2005-04-04T13:28:33.0228222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "a",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Camren Bernardo Hirthe DDS"
+        "FullName": "Heather Williamson"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Aliza O'Reilly"
+    "ExtraInfo": "ut",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Carrie Ebert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Schuppe-Schuster",
-    "ToolTip": "Autem neque sed.",
-    "Deleted": true,
-    "Rank": 430,
-    "Type": "dicta",
-    "ColorBlock": 458,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2005-10-18T04:22:36.1122165+02:00",
+    "Id": 366,
+    "Name": "Runolfsdottir, Ziemann and Lowe",
+    "ToolTip": "Est quasi aut.",
+    "Deleted": false,
+    "Rank": 615,
+    "Type": "vitae",
+    "ColorBlock": 272,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2002-11-05T13:28:33.0384399+01:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Quigley, Rath and Farrell",
-        "ToolTip": "Explicabo in qui nihil illo consequuntur.",
+        "Id": 605,
+        "Name": "Hettinger, Kirlin and Wolf",
+        "ToolTip": "Excepturi consequatur cupiditate.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "impedit",
-        "ColorBlock": 384,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2022-12-15T04:22:36.1122165+01:00",
+        "Rank": 822,
+        "Type": "et",
+        "ColorBlock": 144,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2023-08-24T13:28:33.0384399+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "est",
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Karl Beryl Nolan",
+        "FullName": "Lewis Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Griffin Zulauf",
+    "ExtraInfo": "tempora",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Mr. Agustina Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldType": "System.Int32",
+        "FieldLength": 723
       }
     }
   }

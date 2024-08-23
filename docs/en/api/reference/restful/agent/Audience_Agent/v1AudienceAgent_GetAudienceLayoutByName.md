@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Mills Group"
+  "LayoutName": "Witting, Hauck and Rice"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 690,
-  "InstanceLayout": "sint",
-  "InstanceName": "Rosenbaum, Keeling and Green",
-  "CreatedDate": "2020-01-18T04:22:25.9965968+01:00",
-  "UpdatedDate": "1999-03-02T04:22:25.9965968+01:00",
+  "AudienceLayoutId": 260,
+  "InstanceLayout": "cupiditate",
+  "InstanceName": "Watsica Inc and Sons",
+  "CreatedDate": "1998-01-10T13:28:21.8356378+01:00",
+  "UpdatedDate": "2005-06-04T13:28:21.8356378+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 573
     }
   }
 }

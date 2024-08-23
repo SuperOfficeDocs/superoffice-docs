@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 89,
-  "Name": "Steuber-Shields",
-  "CurrencyId": 196,
-  "EnglishName": "Kemmer-Watsica",
+  "CountryId": 842,
+  "Name": "Barrows LLC",
+  "CurrencyId": 286,
+  "EnglishName": "Hyatt-Kunze",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Expanded user-facing database",
-  "OrgNrText": "511620",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "libero",
-  "ZipPrefix": "rerum",
-  "DomainName": "Bauch-Bins",
-  "AddressLayoutId": 39,
-  "DomesticAddressLayoutId": 985,
-  "ForeignAddressLayoutId": 526,
-  "Rank": 131,
-  "Tooltip": "doloribus",
-  "Deleted": false
+  "ImageDescription": "Business-focused uniform collaboration",
+  "OrgNrText": "593731",
+  "InterAreaPrefix": "sapiente",
+  "DialInPrefix": "quidem",
+  "ZipPrefix": "corrupti",
+  "DomainName": "Russel, Feest and Trantow",
+  "AddressLayoutId": 128,
+  "DomesticAddressLayoutId": 26,
+  "ForeignAddressLayoutId": 889,
+  "Rank": 519,
+  "Tooltip": "dignissimos",
+  "Deleted": true
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 166,
-  "Name": "Schuppe, Kovacek and Cronin",
-  "CurrencyId": 47,
-  "EnglishName": "Upton-Heaney",
+  "CountryId": 102,
+  "Name": "Carroll-Jacobs",
+  "CurrencyId": 337,
+  "EnglishName": "Kulas-Bernhard",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Cloned static moderator",
-  "OrgNrText": "1149592",
-  "InterAreaPrefix": "aliquid",
-  "DialInPrefix": "voluptatem",
-  "ZipPrefix": "atque",
-  "DomainName": "Pfannerstill-White",
-  "AddressLayoutId": 608,
-  "DomesticAddressLayoutId": 426,
-  "ForeignAddressLayoutId": 156,
-  "Rank": 866,
-  "Tooltip": "nam",
+  "ImageDescription": "Versatile interactive frame",
+  "OrgNrText": "1060162",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "maxime",
+  "ZipPrefix": "aut",
+  "DomainName": "Murray Inc and Sons",
+  "AddressLayoutId": 886,
+  "DomesticAddressLayoutId": 96,
+  "ForeignAddressLayoutId": 796,
+  "Rank": 163,
+  "Tooltip": "placeat",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

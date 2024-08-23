@@ -2,10 +2,10 @@
 uid: emailagent-setsubscription
 title: EMailAgent.SetSubscription event method
 description: Scripting events called on the SetSubscription method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.SetSubscription
 

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 276,
-  "ColumnId": 874,
-  "FieldDefault": "provident",
-  "FieldHeight": 741,
-  "FieldLabel": "omnis",
-  "FieldLeft": 221,
-  "FieldTop": 528,
+  "UDefFieldId": 25,
+  "ColumnId": 446,
+  "FieldDefault": "explicabo",
+  "FieldHeight": 142,
+  "FieldLabel": "quisquam",
+  "FieldLeft": 785,
+  "FieldTop": 790,
   "FieldType": "Checkbox",
-  "FieldWidth": 704,
-  "FormatMask": "quibusdam",
+  "FieldWidth": 240,
+  "FormatMask": "esse",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 686,
-  "LabelLeft": 46,
-  "LabelTop": 660,
-  "LabelWidth": 361,
-  "LastVersionId": 284,
-  "ListTableId": 862,
-  "IsMandatory": false,
+  "LabelHeight": 45,
+  "LabelLeft": 508,
+  "LabelTop": 247,
+  "LabelWidth": 882,
+  "LastVersionId": 518,
+  "ListTableId": 866,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 195,
-  "ProgId": "sequi",
-  "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 671,
-  "TextLength": 583,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 561,
-  "UDListDefinitionId": 5,
+  "Page1LineNo": 16,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "omnis",
+  "TabOrder": 282,
+  "TextLength": 516,
+  "Tooltip": "debitis",
+  "UdefIdentity": 359,
+  "UDListDefinitionId": 845,
   "Justification": "Center",
-  "Version": 103,
-  "TemplateVariableName": "Bogan Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Walter-Gottlieb",
+  "Version": 200,
+  "TemplateVariableName": "Lemke-Lakin",
+  "HasBeenPublished": false,
+  "MdoListName": "Lind, Harber and Bayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

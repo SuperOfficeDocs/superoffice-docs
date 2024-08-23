@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 384,
-  "NewName": "Bergstrom, Parisian and Streich",
-  "ValidFrom": "1997-09-20T04:22:27.393494+02:00",
-  "ValidTo": "2006-07-01T04:22:27.393494+02:00",
-  "NewCurrencyId": 636,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 382,
+  "NewName": "Huel Inc and Sons",
+  "ValidFrom": "1999-10-19T13:28:23.5386436+02:00",
+  "ValidTo": "2017-10-26T13:28:23.5386436+02:00",
+  "NewCurrencyId": 158,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 211,
-  "ERPPriceListKey": "ratione",
-  "QuoteConnectionId": 253,
-  "Name": "Balistreri-Gottlieb",
-  "Description": "Fully-configurable executive methodology",
-  "Currency": "corporis",
-  "CurrencyName": "Welch, Koelpin and Yundt",
-  "ValidFrom": "2005-02-13T04:22:27.393494+01:00",
-  "ValidTo": "2005-08-17T04:22:27.393494+02:00",
+  "PriceListId": 110,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 886,
+  "Name": "Haley Group",
+  "Description": "Reactive didactic emulation",
+  "Currency": "aut",
+  "CurrencyName": "Funk, Miller and Bergnaum",
+  "ValidFrom": "2017-06-07T13:28:23.5386436+02:00",
+  "ValidTo": "2006-10-21T13:28:23.5386436+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 432
     }
   }
 }

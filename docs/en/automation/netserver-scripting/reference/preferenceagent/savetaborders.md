@@ -2,10 +2,10 @@
 uid: preferenceagent-savetaborders
 title: PreferenceAgent.SaveTabOrders event method
 description: Scripting events called on the SaveTabOrders method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.SaveTabOrders
 

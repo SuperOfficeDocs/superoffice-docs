@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "McDermott-Bauch",
-    "ToolTip": "Dolorem vitae nihil explicabo.",
-    "Deleted": true,
-    "Rank": 473,
-    "Type": "ipsa",
-    "ColorBlock": 374,
-    "IconHint": "culpa",
+    "Id": 320,
+    "Name": "Vandervort, Nitzsche and O'Reilly",
+    "ToolTip": "Ex voluptatem rerum.",
+    "Deleted": false,
+    "Rank": 1000,
+    "Type": "non",
+    "ColorBlock": 518,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2007-06-07T04:22:35.9715928+02:00",
+    "LastChanged": "2018-09-17T13:28:32.8666025+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Quitzon Group",
-        "ToolTip": "Voluptatem rerum.",
+        "Id": 386,
+        "Name": "Kub-Hammes",
+        "ToolTip": "Fugiat est voluptatem architecto quia soluta.",
         "Deleted": false,
-        "Rank": 654,
-        "Type": "quis",
-        "ColorBlock": 267,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2014-11-23T04:22:35.9715928+01:00",
+        "Rank": 679,
+        "Type": "illo",
+        "ColorBlock": 199,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2006-04-22T13:28:32.8666025+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "et",
+        "ExtraInfo": "qui",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Ms. Oswald Javon Dietrich I",
+        "FullName": "Cierra Chelsea DuBuque MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 205
+            "FieldType": "System.String",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Yasmin Ernser",
+    "ExtraInfo": "minima",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Tillman Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 101
       }
     }
   }

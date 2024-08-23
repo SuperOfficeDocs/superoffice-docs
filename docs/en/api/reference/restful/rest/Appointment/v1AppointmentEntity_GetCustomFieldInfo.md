@@ -72,7 +72,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jones-Morar",
-  "DisplayName": "Dickinson Inc and Sons",
-  "Description": "De-engineered 4th generation adapter",
-  "ShortLabel": "doloremque",
+  "FieldName": "Blick-Rosenbaum",
+  "DisplayName": "Rosenbaum-Aufderhar",
+  "Description": "Compatible even-keeled software",
+  "ShortLabel": "magnam",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 219,
-  "TemplateVariableName": "Rogahn LLC"
+  "IsDisplayField": false,
+  "Rank": 39,
+  "TemplateVariableName": "Schiller LLC"
 }
 ```

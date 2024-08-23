@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 196,
-  "UdListDefinitionName": "Kuhic, Denesik and Leffler",
+  "Id": 895,
+  "UdListDefinitionName": "Ziemann, Cormier and Bauch",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "West, Collier and Harvey",
-  "Tooltip": "aliquam",
+  "Id": 397,
+  "Name": "Schmitt, Lehner and Kunze",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 302,
-  "Rank": 161,
+  "UdListDefinitionId": 925,
+  "Rank": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "harum",
+      "RawValue": "est",
       "Specification": null,
-      "DisplayValue": "officia",
-      "DisplayTooltip": "ut",
+      "DisplayValue": "magni",
+      "DisplayTooltip": "minus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 242,
-      "PrefDescId": 113,
-      "TableName": "Jacobson-Collier",
-      "UserPreferenceId": 219
+      "TargetId": 250,
+      "PrefDescId": 890,
+      "TableName": "Moore LLC",
+      "UserPreferenceId": 679
     }
   ],
   "RemoveLowerLevels": false

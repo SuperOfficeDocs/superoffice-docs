@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Smith Group",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 380,
+  "Id": 330,
+  "Name": "O'Hara-Kling",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "Rank": 718,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
-  "Name": "Braun Inc and Sons",
-  "Tooltip": "repellendus",
+  "Id": 662,
+  "Name": "Deckow Group",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 913,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 301,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptate",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 423
     }
   }
 }

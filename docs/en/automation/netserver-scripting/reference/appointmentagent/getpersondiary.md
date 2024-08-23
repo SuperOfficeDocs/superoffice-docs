@@ -2,10 +2,10 @@
 uid: appointmentagent-getpersondiary
 title: AppointmentAgent.GetPersonDiary event method
 description: Scripting events called on the GetPersonDiary method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.GetPersonDiary
 

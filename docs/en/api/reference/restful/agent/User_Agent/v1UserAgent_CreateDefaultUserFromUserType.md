@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 249,
-  "Name": "Terry-Glover",
-  "Rank": 223,
+  "AssociateId": 454,
+  "Name": "Kreiger Group",
+  "Rank": 224,
   "Tooltip": "enim",
   "LicenseOwners": [
     {
-      "Name": "Watsica Inc and Sons",
-      "Description": "Devolved static knowledge base",
+      "Name": "Hoeger, Wintheiser and Feeney",
+      "Description": "Organized actuating success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 682
         }
       }
     },
     {
-      "Name": "Watsica Inc and Sons",
-      "Description": "Devolved static knowledge base",
+      "Name": "Hoeger, Wintheiser and Feeney",
+      "Description": "Organized actuating success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 682
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "id",
-      "Tooltip": "asperiores",
-      "Id": 410,
-      "Rank": 830,
-      "Deleted": true,
+      "Value": "ex",
+      "Tooltip": "a",
+      "Id": 121,
+      "Rank": 465,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 261
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-09-30T04:22:28.1162538+02:00",
-  "Lastlogout": "1997-11-12T04:22:28.1162538+01:00",
-  "EjUserId": 262,
-  "RequestSignature": "dolores",
+  "Lastlogin": "2007-11-24T13:28:24.2103618+01:00",
+  "Lastlogout": "2004-11-12T13:28:24.2103618+01:00",
+  "EjUserId": 936,
+  "RequestSignature": "dolor",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "dolore",
+      "Value": "molestiae",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 390
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "dolore",
+      "Value": "molestiae",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 390
         }
       }
     }
   ],
-  "UserName": "Rohan LLC",
+  "UserName": "Schumm-Jaskolski",
   "TicketCategories": [
     {
-      "Id": 827,
-      "Name": "Oberbrunner Group",
-      "ToolTip": "Ut earum sunt dignissimos cum.",
+      "Id": 551,
+      "Name": "Strosin Inc and Sons",
+      "ToolTip": "Aut vero non sequi.",
       "Deleted": false,
-      "Rank": 863,
-      "Type": "ipsa",
+      "Rank": 255,
+      "Type": "aperiam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloremque",
-      "ColorBlock": 496,
-      "ExtraInfo": "odio",
-      "StyleHint": "eos",
-      "FullName": "Alejandra Shanahan Sr.",
+      "IconHint": "a",
+      "ColorBlock": 262,
+      "ExtraInfo": "nemo",
+      "StyleHint": "recusandae",
+      "FullName": "Giuseppe Renner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldType": "System.Int32",
+          "FieldLength": 518
         }
       }
     }
   ],
-  "NickName": "Collier, Harber and Marks",
+  "NickName": "Mann Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "culpa"
+    "CustomFields1": "dolor",
+    "CustomFields2": "ea"
   },
   "PostSaveCommands": [
     {
-      "Name": "Reichel-Mitchell",
-      "DisplayName": "Aufderhar-Farrell",
-      "Description": "Integrated context-sensitive core",
-      "ToolTip": "Necessitatibus voluptates fugiat ratione qui aspernatur vel.",
+      "Name": "Bergnaum-Quitzon",
+      "DisplayName": "Klocko-Mohr",
+      "Description": "Reduced incremental policy",
+      "ToolTip": "Nobis quo dolore sit quis veniam.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 419
     }
   }
 }

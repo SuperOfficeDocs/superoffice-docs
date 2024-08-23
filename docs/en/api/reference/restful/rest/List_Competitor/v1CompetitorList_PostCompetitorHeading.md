@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Powlowski, Breitenberg and Crooks",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 877,
-  "UdListDefinitionId": 472
+  "HeadingId": 345,
+  "Name": "Gottlieb-Waelchi",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 763,
+  "UdListDefinitionId": 143
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 200,
-  "Name": "Bauch, Becker and Lindgren",
-  "Tooltip": "illo",
+  "HeadingId": 57,
+  "Name": "Haag-Wintheiser",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 199,
-  "UdListDefinitionId": 748,
+  "Rank": 783,
+  "UdListDefinitionId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 464
     }
   }
 }

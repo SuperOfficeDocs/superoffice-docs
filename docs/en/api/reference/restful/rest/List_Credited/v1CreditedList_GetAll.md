@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Wisoky-Farrell",
-    "Tooltip": "molestias",
-    "Deleted": false,
-    "UdListDefinitionId": 684,
-    "Rank": 500,
+    "Id": 405,
+    "Name": "Botsford, Lemke and Stokes",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "UdListDefinitionId": 627,
+    "Rank": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 215
       }
     }
   }

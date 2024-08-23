@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Buckridge-Rice",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 211,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "Id": 480,
+  "Name": "Leannon-Pagac",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 632,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Keeling, Huel and Swift",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 646,
+  "Id": 978,
+  "Name": "Keebler Group",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 47,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

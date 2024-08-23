@@ -72,6 +72,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,38 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 302,
-    "Name": "Ondricka, Reichert and Trantow",
-    "Rank": 799,
-    "Tooltip": "in",
-    "Icon": "ad",
-    "DefaultTicketStatus": 171,
+    "TicketTypeId": 673,
+    "Name": "DuBuque-Huels",
+    "Rank": 455,
+    "Tooltip": "dolorum",
+    "Icon": "impedit",
+    "DefaultTicketStatus": 766,
     "TicketStatuses": [
-      506,
-      292
+      809,
+      551
     ],
-    "DefaultTicketPriority": 777,
+    "DefaultTicketPriority": 866,
     "TicketPriorities": [
-      200,
-      581
+      803,
+      710
     ],
-    "ReplyTemplate": 796,
+    "ReplyTemplate": 734,
     "IsExternalVisible": true,
     "IsDefault": false,
     "ShowInNew": false,
-    "ExcludeSignature": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      471,
-      238
+      153,
+      519
     ],
+    "ReplyForwardNoSignature": false,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 972
       }
     }
   }

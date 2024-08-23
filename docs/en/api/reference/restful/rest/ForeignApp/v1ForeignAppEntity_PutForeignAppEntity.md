@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 302,
-  "Name": "Watsica, Gulgowski and Armstrong",
-  "CreatedDate": "2006-04-01T04:22:34.9854602+02:00",
-  "UpdatedDate": "2018-01-24T04:22:34.9854602+01:00",
+  "ForeignAppId": 464,
+  "Name": "Swift, Bergstrom and Mueller",
+  "CreatedDate": "2002-12-25T13:28:31.6792414+01:00",
+  "UpdatedDate": "2015-10-04T13:28:31.6792414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 44,
-      "Name": "Ernser-Bernier",
-      "CreatedDate": "2000-05-11T04:22:34.9854602+02:00",
-      "UpdatedDate": "2002-12-29T04:22:34.9854602+01:00",
-      "AssociateFullName": "Rita Bergnaum",
-      "CreatedBy": "facilis",
-      "UpdatedBy": "fugiat",
-      "DeviceIdentifier": "pariatur",
-      "ForeignAppId": 898
+      "ForeignDeviceId": 941,
+      "Name": "Lueilwitz-Emmerich",
+      "CreatedDate": "2006-08-20T13:28:31.6792414+02:00",
+      "UpdatedDate": "2012-10-28T13:28:31.6792414+01:00",
+      "AssociateFullName": "Elmira Rodriguez",
+      "CreatedBy": "quibusdam",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 192
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 804,
-  "Name": "Metz Group",
-  "CreatedDate": "2013-05-26T04:22:34.9854602+02:00",
-  "UpdatedDate": "2006-02-05T04:22:34.9854602+01:00",
+  "ForeignAppId": 877,
+  "Name": "Nicolas-Steuber",
+  "CreatedDate": "2011-05-12T13:28:31.6792414+02:00",
+  "UpdatedDate": "2023-02-21T13:28:31.6792414+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 573,
-      "Name": "Wisoky Inc and Sons",
-      "CreatedDate": "2000-07-21T04:22:34.9854602+02:00",
-      "UpdatedDate": "2009-08-04T04:22:34.9854602+02:00",
-      "AssociateFullName": "Mathilde Witting",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 144,
+      "ForeignDeviceId": 623,
+      "Name": "Goyette, Daniel and Bechtelar",
+      "CreatedDate": "1998-02-03T13:28:31.6792414+01:00",
+      "UpdatedDate": "2015-02-17T13:28:31.6792414+01:00",
+      "AssociateFullName": "Asia Schowalter",
+      "CreatedBy": "reiciendis",
+      "UpdatedBy": "laboriosam",
+      "DeviceIdentifier": "esse",
+      "ForeignAppId": 746,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 723
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 34
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 964
+  "QuoteId": 677
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 138,
-    "ERPQuoteVersionKey": "consectetur",
-    "QuoteId": 254,
-    "Description": "Focused zero administration core",
-    "Number": "1548839",
+    "QuoteVersionId": 36,
+    "ERPQuoteVersionKey": "rerum",
+    "QuoteId": 288,
+    "Description": "Secured dedicated initiative",
+    "Number": "1102373",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 414,
-    "SentDate": "1999-12-25T04:22:27.3778332+01:00",
-    "FollowupId": 67,
-    "ExpirationDate": "2017-08-20T04:22:27.3778332+02:00",
-    "DeliveryCountryId": 822,
+    "LikelyQuoteAlternativeId": 925,
+    "SentDate": "2000-07-28T13:28:23.5230176+02:00",
+    "FollowupId": 598,
+    "ExpirationDate": "2008-06-24T13:28:23.5230176+02:00",
+    "DeliveryCountryId": 736,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 572,
+    "InvoiceCountryId": 356,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "enim",
-    "ERPPaymentTypeKey": "facere",
-    "ERPDeliveryTermsKey": "voluptas",
-    "ERPDeliveryTypeKey": "ex",
-    "Rank": 99,
-    "ApprovedBy": 288,
-    "ApprovedText": "modi",
-    "ApprovedRegisteredBy": 489,
-    "ApprovedRegisteredDate": "2014-12-12T04:22:27.3778332+01:00",
-    "ExtraField1": "rem",
-    "ExtraField2": "corporis",
-    "ExtraField3": "enim",
-    "ExtraField4": "tenetur",
-    "ExtraField5": "molestiae",
-    "LastRecalculated": "2017-12-17T04:22:27.3778332+01:00",
-    "Updated": "2024-01-26T04:22:27.3778332+01:00",
-    "UpdatedAssociateId": 336,
-    "Registered": "2013-12-17T04:22:27.3778332+01:00",
-    "RegisteredAssociateId": 54,
-    "RequestAssociateId": 270,
-    "RequestComment": "dolorem",
+    "ERPPaymentTermsKey": "ut",
+    "ERPPaymentTypeKey": "dolorem",
+    "ERPDeliveryTermsKey": "sit",
+    "ERPDeliveryTypeKey": "sapiente",
+    "Rank": 396,
+    "ApprovedBy": 727,
+    "ApprovedText": "expedita",
+    "ApprovedRegisteredBy": 996,
+    "ApprovedRegisteredDate": "1998-07-14T13:28:23.5230176+02:00",
+    "ExtraField1": "atque",
+    "ExtraField2": "mollitia",
+    "ExtraField3": "quod",
+    "ExtraField4": "quo",
+    "ExtraField5": "ut",
+    "LastRecalculated": "2001-06-06T13:28:23.5230176+02:00",
+    "Updated": "2024-08-18T13:28:23.5230176+02:00",
+    "UpdatedAssociateId": 412,
+    "Registered": "2017-11-30T13:28:23.5230176+01:00",
+    "RegisteredAssociateId": 825,
+    "RequestAssociateId": 439,
+    "RequestComment": "qui",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 117,
-        "ERPQuoteAlternativeKey": "nemo",
-        "QuoteVersionId": 915,
-        "Name": "Hamill-Baumbach",
-        "Description": "Enterprise-wide intermediate knowledge base",
+        "QuoteAlternativeId": 11,
+        "ERPQuoteAlternativeKey": "eum",
+        "QuoteVersionId": 54,
+        "Name": "Glover, Lindgren and Wunsch",
+        "Description": "Profit-focused 6th generation paradigm",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 4763.68,
-        "ERPDiscountAmount": 8023.04,
-        "DiscountPercent": 17083.434,
-        "DiscountAmount": 22132.308,
+        "ERPDiscountPercent": 9533.6279999999988,
+        "ERPDiscountAmount": 1172.116,
+        "DiscountPercent": 890.05599999999993,
+        "DiscountAmount": 28218.536,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "quis",
-        "VAT": 28315.69,
-        "EarningPercent": 21749.96,
-        "EarningAmount": 12539.134,
-        "SubTotal": 23533.206,
-        "TotalPrice": 13024.904,
-        "ExtraField1": "ut",
-        "ExtraField2": "aut",
-        "ExtraField3": "quibusdam",
-        "ExtraField4": "dolorem",
-        "ExtraField5": "nihil",
+        "VATInfo": "inventore",
+        "VAT": 4610.114,
+        "EarningPercent": 6866.594,
+        "EarningAmount": 12532.866,
+        "SubTotal": 2673.302,
+        "TotalPrice": 22389.296,
+        "ExtraField1": "necessitatibus",
+        "ExtraField2": "temporibus",
+        "ExtraField3": "eveniet",
+        "ExtraField4": "tenetur",
+        "ExtraField5": "sunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 349
           }
         }
       }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

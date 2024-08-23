@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Reilly-Bergstrom",
-  "Tooltip": "molestiae",
+  "Id": 149,
+  "Name": "Gislason, Gottlieb and Parker",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 645,
+  "Rank": 477,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Robel, Runolfsdottir and Gerhold",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 221,
-  "IsCustomList": true,
+  "Id": 11,
+  "Name": "Hammes-Heidenreich",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 756,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

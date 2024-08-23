@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
-  "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 848
+  "IncludeInvitations": false,
+  "IncludeAllAppointments": true,
+  "DefaultAlarmLeadTimeInMinutes": 97
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 496,
-      "StartTime": "2011-09-25T04:22:25.6990591+02:00",
-      "EndDate": "2001-07-19T04:22:25.6990591+02:00",
-      "AlarmTime": "2010-07-25T04:22:25.6990591+02:00",
-      "PersonId": 449,
-      "PersonFullName": "Prof. Kay Eloisa Hyatt PhD",
-      "ContactName": "Effertz-Rowe",
-      "ProjectId": 532,
-      "ProjectName": "Nader, Rippin and Wintheiser",
-      "AppointmentText": "magni",
-      "SaleId": 297,
-      "SaleName": "Tremblay-Goodwin",
-      "Location": "et",
+      "AppointmentId": 641,
+      "StartTime": "2003-10-20T13:28:21.4761283+02:00",
+      "EndDate": "2022-02-22T13:28:21.4761283+01:00",
+      "AlarmTime": "2012-11-02T13:28:21.4761283+01:00",
+      "PersonId": 313,
+      "PersonFullName": "Ulises Rolfson",
+      "ContactName": "Barton, Kuhic and Robel",
+      "ProjectId": 277,
+      "ProjectName": "Funk, Stamm and Dickens",
+      "AppointmentText": "et",
+      "SaleId": 766,
+      "SaleName": "McDermott, Boyle and Klocko",
+      "Location": "sed",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 86,
+      "ContactId": 557,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "DuBuque-Weber",
-      "TaskName": "Crona, Koss and Hermann",
+      "FormalName": "Sanford Inc and Sons",
+      "TaskName": "Hilpert-Streich",
       "ContactDepartment": "",
-      "ContactFullName": "Miss Isadore Anais Howell",
+      "ContactFullName": "Alfredo Barton",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldType": "System.String",
+          "FieldLength": 917
         }
       }
     }
   ],
-  "PollingInterval": 121,
-  "SilentAfter": 739,
+  "PollingInterval": 648,
+  "SilentAfter": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

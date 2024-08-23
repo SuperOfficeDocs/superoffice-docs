@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 882,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "voluptatem",
-    "SaveInDb": 81,
-    "Filename": "aut",
-    "DefaultOref": "blanditiis",
+    "DocumentTemplateId": 733,
+    "Name": "Raynor Group",
+    "Tooltip": "rerum",
+    "SaveInDb": 475,
+    "Filename": "tenetur",
+    "DefaultOref": "tenetur",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 574,
-    "IntentId": 929,
+    "AutoeventId": 862,
+    "IntentId": 825,
     "IsDefaultPublished": false,
-    "Rank": 626,
-    "LoadTemplateFromPlugin": 227,
-    "MimeType": "est",
+    "Rank": 426,
+    "LoadTemplateFromPlugin": 215,
+    "MimeType": "et",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 779,
+    "DocumentTypeKey": 595,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "brain@faybeatty.info",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "noel@cruickshank.uk",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "tanya@lindgren.info",
+    "SenderEmailAddress": "cleveland.miller@mannemard.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

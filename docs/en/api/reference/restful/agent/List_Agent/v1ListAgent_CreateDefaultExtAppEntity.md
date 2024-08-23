@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 181,
-  "Name": "Friesen-Lowe",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 360,
-  "Filename": "exercitationem",
-  "Parameters": "sit",
-  "Workdir": "voluptatem",
+  "ExtAppId": 819,
+  "Name": "Weber Inc and Sons",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "Rank": 183,
+  "Filename": "ducimus",
+  "Parameters": "sed",
+  "Workdir": "nulla",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 817,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 287,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quis",
+  "Path": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 861
     }
   }
 }

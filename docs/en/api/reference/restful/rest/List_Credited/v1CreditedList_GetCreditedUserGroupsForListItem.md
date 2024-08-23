@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Schinner-Conn",
-    "ToolTip": "Ipsa nostrum iusto nisi.",
+    "Id": 524,
+    "Name": "Hermiston LLC",
+    "ToolTip": "Eligendi praesentium esse mollitia id qui veritatis magni.",
     "Deleted": false,
-    "Rank": 242,
-    "Type": "sunt",
-    "ColorBlock": 820,
-    "IconHint": "voluptatibus",
+    "Rank": 862,
+    "Type": "dignissimos",
+    "ColorBlock": 895,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2000-06-07T04:22:35.8934712+02:00",
+    "LastChanged": "2013-10-18T13:28:32.7728753+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Schumm-Waelchi",
-        "ToolTip": "Sit blanditiis pariatur dolores eos rerum.",
-        "Deleted": true,
-        "Rank": 898,
-        "Type": "accusamus",
-        "ColorBlock": 749,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2007-03-25T04:22:35.8934712+02:00",
+        "Id": 842,
+        "Name": "Buckridge, Walsh and Parisian",
+        "ToolTip": "Quia odit nihil autem.",
+        "Deleted": false,
+        "Rank": 979,
+        "Type": "impedit",
+        "ColorBlock": 526,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2007-11-05T13:28:32.7728753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "qui",
+        "ExtraInfo": "rem",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Angeline Witting",
+        "FullName": "Ms. Jackson Lueilwitz MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 558
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
+    "ExtraInfo": "explicabo",
     "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Ms. Bradford Gretchen Strosin",
+    "FullName": "Sydni Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 105
       }
     }
   }

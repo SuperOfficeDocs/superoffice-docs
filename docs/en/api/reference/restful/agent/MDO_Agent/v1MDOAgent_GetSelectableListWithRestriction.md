@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Littel Inc and Sons",
-  "AdditionalInfo": "nulla",
-  "SearchValue": "est"
+  "Name": "Hackett-Hoppe",
+  "AdditionalInfo": "alias",
+  "SearchValue": "minima"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "King-Parker",
-    "ToolTip": "Eveniet exercitationem doloribus atque reprehenderit.",
+    "Id": 38,
+    "Name": "Cruickshank LLC",
+    "ToolTip": "Quia expedita aut tempore cumque est omnis.",
     "Deleted": false,
-    "Rank": 174,
-    "Type": "laborum",
-    "ColorBlock": 664,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2013-08-22T04:22:27.0810055+02:00",
+    "Rank": 171,
+    "Type": "suscipit",
+    "ColorBlock": 402,
+    "IconHint": "recusandae",
+    "Selected": false,
+    "LastChanged": "2001-03-29T13:28:23.0543771+02:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Cruickshank, Considine and Stiedemann",
-        "ToolTip": "Numquam molestiae explicabo occaecati qui.",
+        "Id": 237,
+        "Name": "Bauch-Vandervort",
+        "ToolTip": "Qui eum ut quia.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "quo",
-        "ColorBlock": 897,
-        "IconHint": "sint",
+        "Rank": 5,
+        "Type": "possimus",
+        "ColorBlock": 168,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2014-07-06T04:22:27.0810055+02:00",
+        "LastChanged": "2017-02-24T13:28:23.0543771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "et",
+        "StyleHint": "praesentium",
         "Hidden": false,
-        "FullName": "Marta Herman",
+        "FullName": "Lauren Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldType": "System.String",
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "dolor",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Ms. Elsa Andres Rolfson",
+    "FullName": "Carlie Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 443
       }
     }
   }

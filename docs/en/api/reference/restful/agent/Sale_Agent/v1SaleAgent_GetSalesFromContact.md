@@ -102,8 +102,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 947,
-  "OnlyOpenSales": false
+  "ContactId": 899,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Sipes-Herman",
-    "SaleDate": "2020-06-15T04:22:27.5492747+02:00",
-    "SaleId": 447,
-    "Probability": 504,
-    "Title": "autem",
-    "Amount": 17791.718,
-    "Currency": "consequatur",
-    "ProjectName": "Wunsch LLC",
-    "AssociateFullName": "Mr. Ibrahim McClure V",
-    "Description": "Reverse-engineered disintermediate product",
+    "ContactName": "D'Amore LLC",
+    "SaleDate": "2012-01-10T13:28:23.6948543+01:00",
+    "SaleId": 321,
+    "Probability": 627,
+    "Title": "harum",
+    "Amount": 16654.076,
+    "Currency": "aut",
+    "ProjectName": "Towne, Littel and Macejkovic",
+    "AssociateFullName": "Palma Boehm",
+    "Description": "Operative bandwidth-monitored core",
     "Status": "Lost",
-    "WeightedAmount": 28660.43,
-    "ProjectId": 306,
-    "EarningPercent": 4550.568,
-    "Earning": 11395.224,
-    "ContactId": 943,
-    "AssociateId": 364,
-    "PersonId": 851,
-    "SaleTypeId": 305,
-    "SaleTypeName": "Hahn Inc and Sons",
-    "PersonFullName": "Gudrun Stracke",
+    "WeightedAmount": 26532.444,
+    "ProjectId": 417,
+    "EarningPercent": 24946.64,
+    "Earning": 629.934,
+    "ContactId": 25,
+    "AssociateId": 120,
+    "PersonId": 571,
+    "SaleTypeId": 680,
+    "SaleTypeName": "Stoltenberg-Berge",
+    "PersonFullName": "Ibrahim Smith",
     "Completed": "Completed",
-    "ActiveErpLinks": 150,
-    "NextDueDate": "2002-10-31T04:22:27.5648986+01:00",
-    "Number": "931602",
+    "ActiveErpLinks": 330,
+    "NextDueDate": "1998-12-05T13:28:23.6948543+01:00",
+    "Number": "1433973",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldLength": 884
       }
     }
   }

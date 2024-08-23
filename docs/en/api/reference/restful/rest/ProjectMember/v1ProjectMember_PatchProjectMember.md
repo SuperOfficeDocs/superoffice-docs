@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 570,
-  "ContactId": 898,
-  "ProjectId": 557,
-  "ContactName": "Hahn Inc and Sons",
+  "ProjectmemberId": 835,
+  "ContactId": 912,
+  "ProjectId": 902,
+  "ContactName": "Veum Group",
   "ContactDepartment": "",
-  "ProjectName": "Klocko-Rolfson",
-  "EmailId": 968,
-  "EmailAddress": "flo@tillmankautzer.info",
-  "CountryId": 296,
-  "Firstname": "Trycia",
-  "MiddleName": "Hilll LLC",
-  "Lastname": "Mueller",
-  "PersonId": 50,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Ledner Inc and Sons",
-  "Phone": "1-315-354-2549 x0975",
-  "PhoneId": 193,
-  "ProjectMemberTypeId": 568,
-  "EmailAddressName": "sarai@lynchstrosin.uk",
-  "Comment": "et",
-  "FullName": "Annabel Rutherford",
+  "ProjectName": "Mitchell-Rice",
+  "EmailId": 998,
+  "EmailAddress": "alexanne.nikolaus@stehrjakubowski.uk",
+  "CountryId": 571,
+  "Firstname": "Emerson",
+  "MiddleName": "Kuhlman, Boyle and Hickle",
+  "Lastname": "Walker",
+  "PersonId": 647,
+  "Mrmrs": "molestiae",
+  "ProjectMemberTypeName": "Raynor-Gislason",
+  "Phone": "336-805-7453",
+  "PhoneId": 439,
+  "ProjectMemberTypeId": 336,
+  "EmailAddressName": "viviane.langosh@durgan.name",
+  "Comment": "sint",
+  "FullName": "Aletha Mertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   },
   "_Links": {

@@ -2,10 +2,10 @@
 uid: preferenceagent-getpreferenceswithdisplayvalues
 title: PreferenceAgent.GetPreferencesWithDisplayValues event method
 description: Scripting events called on the GetPreferencesWithDisplayValues method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.GetPreferencesWithDisplayValues
 

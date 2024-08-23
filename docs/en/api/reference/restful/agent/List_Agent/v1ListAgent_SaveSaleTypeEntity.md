@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 903,
-  "Name": "Stroman Group",
-  "Tooltip": "itaque",
-  "Rank": 240,
+  "SaleTypeId": 988,
+  "Name": "Nolan-Mraz",
+  "Tooltip": "corrupti",
+  "Rank": 55,
   "DurationUnit": "Century",
-  "SaleDuration": 164,
-  "SaleTypeCatId": 728,
+  "SaleDuration": 248,
+  "SaleTypeCatId": 19,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 959,
-  "QuoteLinesTemplate": 812,
-  "ConfirmationLinesTemplate": 187,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 561,
-  "MinEarningPercent": 278,
-  "GroupQuoteLinesBy": 380,
-  "SortGroupLinesBy": 85,
+  "DefaultQuoteValidity": 189,
+  "QuoteLinesTemplate": 840,
+  "ConfirmationLinesTemplate": 541,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 986,
+  "MinEarningPercent": 354,
+  "GroupQuoteLinesBy": 104,
+  "SortGroupLinesBy": 229,
   "Stages": [
     {
-      "Id": 215,
-      "Name": "Connelly LLC",
-      "ToolTip": "Aspernatur consequatur excepturi quos sequi.",
-      "Deleted": false,
-      "Rank": 293,
-      "Type": "autem",
-      "ColorBlock": 35,
-      "IconHint": "perferendis",
-      "Selected": true,
-      "LastChanged": "2003-09-21T04:22:27.0329423+02:00",
+      "Id": 889,
+      "Name": "Skiles-Kihn",
+      "ToolTip": "Pariatur nam consequatur odit libero placeat ut.",
+      "Deleted": true,
+      "Rank": 424,
+      "Type": "ipsum",
+      "ColorBlock": 852,
+      "IconHint": "quas",
+      "Selected": false,
+      "LastChanged": "2015-02-17T13:28:23.0231319+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "tempore",
+      "ExtraInfo": "hic",
+      "StyleHint": "repellat",
       "Hidden": false,
-      "FullName": "Adriana Bernhard"
+      "FullName": "Kane Kozey"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 54,
-  "Name": "Stark Group",
-  "Tooltip": "tempora",
-  "Rank": 174,
+  "SaleTypeId": 636,
+  "Name": "Cummings LLC",
+  "Tooltip": "et",
+  "Rank": 302,
   "DurationUnit": "Century",
-  "SaleDuration": 305,
-  "SaleTypeCatId": 484,
+  "SaleDuration": 908,
+  "SaleTypeCatId": 387,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 520,
-  "QuoteLinesTemplate": 685,
-  "ConfirmationLinesTemplate": 47,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 187,
-  "MinEarningPercent": 179,
-  "GroupQuoteLinesBy": 972,
-  "SortGroupLinesBy": 427,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 72,
+  "QuoteLinesTemplate": 288,
+  "ConfirmationLinesTemplate": 914,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 306,
+  "MinEarningPercent": 524,
+  "GroupQuoteLinesBy": 509,
+  "SortGroupLinesBy": 640,
   "Stages": [
     {
-      "Id": 267,
-      "Name": "Rempel LLC",
-      "ToolTip": "Accusamus ex et distinctio.",
+      "Id": 636,
+      "Name": "Rodriguez-Hansen",
+      "ToolTip": "Tenetur sequi neque soluta ipsa itaque.",
       "Deleted": false,
-      "Rank": 782,
-      "Type": "cupiditate",
-      "ColorBlock": 205,
-      "IconHint": "soluta",
+      "Rank": 599,
+      "Type": "dignissimos",
+      "ColorBlock": 910,
+      "IconHint": "expedita",
       "Selected": true,
-      "LastChanged": "2004-07-06T04:22:27.0329423+02:00",
+      "LastChanged": "2024-03-27T13:28:23.0231319+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "et",
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "molestiae",
       "Hidden": false,
-      "FullName": "Garland Tremblay",
+      "FullName": "Ms. Rashawn Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 992
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

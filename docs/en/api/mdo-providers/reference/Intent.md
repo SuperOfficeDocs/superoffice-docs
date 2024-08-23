@@ -3,9 +3,9 @@ uid: intent
 title: intent
 keywords: mdoprovider mdo provider intent
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "intent" MDO List

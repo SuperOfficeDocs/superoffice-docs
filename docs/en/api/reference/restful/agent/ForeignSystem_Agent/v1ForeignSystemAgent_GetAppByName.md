@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cremin, Zulauf and Weissnat"
+  "ApplicationName": "Bauch-Hammes"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 519,
-  "Name": "Brown Inc and Sons",
-  "CreatedDate": "1999-11-08T04:22:26.8598968+01:00",
-  "UpdatedDate": "2007-01-12T04:22:26.8598968+01:00",
+  "ForeignAppId": 304,
+  "Name": "Medhurst-Jakubowski",
+  "CreatedDate": "2000-02-11T13:28:22.8510314+01:00",
+  "UpdatedDate": "2000-02-04T13:28:22.8510314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 297,
-      "Name": "Shields-Quigley",
-      "CreatedDate": "2003-05-18T04:22:26.8598968+02:00",
-      "UpdatedDate": "2011-12-04T04:22:26.8598968+01:00",
-      "AssociateFullName": "Aileen Terry",
-      "CreatedBy": "eos",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 961,
+      "ForeignDeviceId": 31,
+      "Name": "Tillman, Willms and Crist",
+      "CreatedDate": "1999-09-12T13:28:22.8510314+02:00",
+      "UpdatedDate": "2001-07-21T13:28:22.8510314+02:00",
+      "AssociateFullName": "Sammie Willms",
+      "CreatedBy": "est",
+      "UpdatedBy": "fugiat",
+      "DeviceIdentifier": "excepturi",
+      "ForeignAppId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 373
+          "FieldLength": 692
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 219
     }
   }
 }

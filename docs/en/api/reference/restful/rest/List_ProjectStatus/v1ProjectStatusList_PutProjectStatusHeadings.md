@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 778,
-    "Name": "Witting-Veum",
-    "Tooltip": "tempora",
+    "HeadingId": 264,
+    "Name": "Schroeder, King and Klein",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 528
+    "Rank": 150,
+    "UdListDefinitionId": 522
   },
   {
-    "HeadingId": 778,
-    "Name": "Witting-Veum",
-    "Tooltip": "tempora",
+    "HeadingId": 264,
+    "Name": "Schroeder, King and Klein",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 528
+    "Rank": 150,
+    "UdListDefinitionId": 522
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "West, Stehr and Borer",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "Rank": 105,
-    "UdListDefinitionId": 873,
+    "HeadingId": 90,
+    "Name": "Maggio-Rempel",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 571,
+    "UdListDefinitionId": 927,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 695
       }
     }
   }

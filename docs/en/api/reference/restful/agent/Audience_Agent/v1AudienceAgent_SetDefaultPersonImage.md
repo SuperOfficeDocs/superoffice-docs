@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hills-Rowe",
+  "LayoutName": "Collins, Cassin and Braun",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

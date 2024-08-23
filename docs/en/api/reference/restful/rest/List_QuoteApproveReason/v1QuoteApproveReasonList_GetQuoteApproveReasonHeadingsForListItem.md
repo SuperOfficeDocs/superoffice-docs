@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Kreiger-Barrows",
-    "ToolTip": "Et accusamus odit.",
+    "Id": 138,
+    "Name": "Daniel, Bartell and Paucek",
+    "ToolTip": "Inventore et magni ab laboriosam labore maxime tempore.",
     "Deleted": false,
-    "Rank": 289,
-    "Type": "quo",
-    "ColorBlock": 5,
-    "IconHint": "fuga",
+    "Rank": 419,
+    "Type": "non",
+    "ColorBlock": 765,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2012-03-22T04:22:36.1122165+01:00",
+    "LastChanged": "2022-12-18T13:28:33.0384399+01:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "McCullough-Haley",
-        "ToolTip": "Blanditiis quos et reprehenderit nobis quia rerum labore.",
-        "Deleted": false,
-        "Rank": 535,
-        "Type": "repellat",
-        "ColorBlock": 186,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "2012-09-30T04:22:36.1122165+02:00",
+        "Id": 946,
+        "Name": "Doyle LLC",
+        "ToolTip": "Qui veritatis qui.",
+        "Deleted": true,
+        "Rank": 486,
+        "Type": "fugiat",
+        "ColorBlock": 600,
+        "IconHint": "aperiam",
+        "Selected": false,
+        "LastChanged": "2018-09-10T13:28:33.0384399+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Arvel Ortiz",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "officiis",
+        "Hidden": true,
+        "FullName": "Willy Heath Zulauf DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 422
+            "FieldType": "System.String",
+            "FieldLength": 512
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Marlen Karson Ledner Sr.",
+    "ExtraInfo": "a",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Jazmin Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 829
       }
     }
   }

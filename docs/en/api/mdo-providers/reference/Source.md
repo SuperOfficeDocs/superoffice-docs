@@ -3,9 +3,9 @@ uid: source
 title: source
 keywords: mdoprovider mdo provider source
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "source" MDO List

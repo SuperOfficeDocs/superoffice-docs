@@ -3,9 +3,9 @@ uid: priority
 title: priority
 keywords: mdoprovider mdo provider priority
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "priority" MDO List

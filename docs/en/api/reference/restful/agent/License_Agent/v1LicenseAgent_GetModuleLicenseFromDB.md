@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Muller Group",
-  "ModuleName": "Hansen, Braun and Cronin"
+  "OwnerName": "Dibbert, Carroll and Conn",
+  "ModuleName": "Jast-Olson"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hermiston LLC",
-  "ModuleName": "Friesen, Fay and Weimann",
-  "ModuleDescription": "Configurable explicit infrastructure",
-  "ModuleTooltip": "quo",
-  "ModuleVersion": "ipsam",
+  "OwnerName": "Howell, Littel and Reynolds",
+  "ModuleName": "Fisher, West and Rodriguez",
+  "ModuleDescription": "Pre-emptive bi-directional task-force",
+  "ModuleTooltip": "veritatis",
+  "ModuleVersion": "quidem",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 345,
-  "ExtraFlags": 601,
-  "ExtraInfo": "aut",
-  "SortOrder": 582,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Smith-Reichel",
-  "Signature": "ea"
+  "NumberOfLicenses": 107,
+  "ExtraFlags": 333,
+  "ExtraInfo": "consectetur",
+  "SortOrder": 914,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "West-Aufderhar",
+  "Signature": "rerum"
 }
 ```

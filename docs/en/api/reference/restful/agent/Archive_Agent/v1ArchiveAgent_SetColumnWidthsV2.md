@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hyatt Inc and Sons",
-  "ProviderName": "Brown, Dietrich and Kassulke",
-  "Context": "eum",
-  "OwnerKeys": "dolor",
+  "GuiName": "Rice, Kirlin and O'Conner",
+  "ProviderName": "Weissnat-Will",
+  "Context": "dolores",
+  "OwnerKeys": "sunt",
   "ColumnWidths": [
-    "et",
-    "expedita"
+    "quam",
+    "aperiam"
   ]
 }
 ```

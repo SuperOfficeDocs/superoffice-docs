@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 581,
-  "ToAssociate": "nam"
+  "ChatSessionId": 618,
+  "ToAssociate": "inventore"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 131,
-  "TopicId": 466,
+  "ChatSessionId": 436,
+  "TopicId": 856,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "maiores",
-  "CustomerName": "Larkin-Cole",
-  "CustomerEmail": "carlotta_considine@will.us",
-  "CustomerPhone": "679.965.8927",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Abshire-Ferry",
+  "CustomerAlias": "veniam",
+  "CustomerHost": "et",
+  "CustomerName": "Thiel, Crooks and Volkman",
+  "CustomerEmail": "gerardo.kemmer@hudson.com",
+  "CustomerPhone": "1-645-065-9097",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hackett-Kessler",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "qui",
-  "WhenRequested": "2011-03-22T04:22:26.0903458+01:00",
-  "WhenStarted": "2015-01-09T04:22:26.0903458+01:00",
-  "WhenEnded": "2015-03-08T04:22:26.0903458+01:00",
-  "WhenIdle": "1997-03-01T04:22:26.0903458+01:00",
-  "WhenFetched": "1998-07-30T04:22:26.0903458+02:00",
-  "SessionKey": "laboriosam",
-  "InitialQueuePos": 13,
-  "AlertLevel": 8,
-  "Rank": 34,
+  "FirstMessage": "omnis",
+  "LastMessage": "aut",
+  "WhenRequested": "2006-11-21T13:28:21.960611+01:00",
+  "WhenStarted": "2007-08-26T13:28:21.960611+02:00",
+  "WhenEnded": "2014-12-24T13:28:21.960611+01:00",
+  "WhenIdle": "2017-04-10T13:28:21.960611+02:00",
+  "WhenFetched": "2014-10-20T13:28:21.960611+02:00",
+  "SessionKey": "sunt",
+  "InitialQueuePos": 854,
+  "AlertLevel": 705,
+  "Rank": 60,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 653,
+  "Rating": 324,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=889
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=10
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 552,
-  "UserName": "Bahringer-Muller",
-  "PersonId": 432,
-  "Rank": 259,
-  "Tooltip": "minus",
-  "UserGroupId": 302,
-  "EjUserId": 81,
+  "Deleted": false,
+  "UserInfoId": 217,
+  "UserName": "Murphy, Gerhold and Wuckert",
+  "PersonId": 91,
+  "Rank": 477,
+  "Tooltip": "temporibus",
+  "UserGroupId": 200,
+  "EjUserId": 12,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "et",
-    "necessitatibus"
+    "dolorum",
+    "explicabo"
   ],
-  "CanLogon": true,
-  "RoleName": "Kris LLC",
-  "RoleTooltip": "saepe",
-  "UserGroupName": "McClure-Beier",
-  "UserGroupTooltip": "ea",
+  "CanLogon": false,
+  "RoleName": "Nienow LLC",
+  "RoleTooltip": "ducimus",
+  "UserGroupName": "Koch, Considine and Tromp",
+  "UserGroupTooltip": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

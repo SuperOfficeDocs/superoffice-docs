@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 844,
-  "ModuleOwner": "quo",
+  "AssociateId": 496,
+  "ModuleOwner": "minima",
   "ModuleLicenseNames": [
-    "Fadel-Hamill",
-    "Pfannerstill, Prosacco and Langosh"
+    "Dooley-Friesen",
+    "Kuphal-Olson"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 719,
-    "Tooltip": "explicabo",
+    "Unrestricted": false,
+    "Total": 841,
+    "Tooltip": "totam",
     "CanAssign": false,
-    "Free": 720,
-    "InUse": 414,
+    "Free": 506,
+    "InUse": 642,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 8,
-    "Name": "Stokes LLC",
-    "Description": "Multi-tiered full-range Graphic Interface",
-    "PrerequisiteModuleName": "Fadel, Christiansen and Mitchell",
-    "SortOrder": 979,
-    "ExtraFlags": 523,
+    "ModuleLicenseId": 858,
+    "Name": "Luettgen Inc and Sons",
+    "Description": "Seamless cohesive portal",
+    "PrerequisiteModuleName": "Hodkiewicz Group",
+    "SortOrder": 117,
+    "ExtraFlags": 596,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 289
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Welch-Zieme",
-    "ToolTip": "Repellendus qui dolor labore sunt dolores rerum.",
-    "Deleted": false,
-    "Rank": 326,
-    "Type": "sit",
-    "ColorBlock": 817,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2023-06-15T04:22:35.8934712+02:00",
+    "Id": 637,
+    "Name": "Will-Will",
+    "ToolTip": "Beatae et ullam eaque veritatis nisi nihil harum.",
+    "Deleted": true,
+    "Rank": 45,
+    "Type": "rerum",
+    "ColorBlock": 897,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2019-04-15T13:28:32.7884933+02:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Mosciski-Parker",
-        "ToolTip": "Omnis voluptatum.",
+        "Id": 989,
+        "Name": "Kertzmann, Hagenes and Zulauf",
+        "ToolTip": "Minima deleniti quaerat.",
         "Deleted": false,
-        "Rank": 755,
-        "Type": "odit",
-        "ColorBlock": 345,
-        "IconHint": "pariatur",
+        "Rank": 760,
+        "Type": "accusamus",
+        "ColorBlock": 144,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2009-11-20T04:22:35.8934712+01:00",
+        "LastChanged": "2011-02-22T13:28:32.7884933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "qui",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Janice Vandervort"
+        "FullName": "Bennett Thompson"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Shanon Walker"
+    "ExtraInfo": "aut",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Miss Michel Sydnie Hilpert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Huel, Kiehn and Cassin",
-    "ToolTip": "Amet explicabo rerum est ipsa ut.",
-    "Deleted": true,
-    "Rank": 196,
-    "Type": "cum",
-    "ColorBlock": 312,
-    "IconHint": "unde",
+    "Id": 887,
+    "Name": "Schamberger, Abshire and Haag",
+    "ToolTip": "Tempora laudantium eum et quibusdam.",
+    "Deleted": false,
+    "Rank": 570,
+    "Type": "veniam",
+    "ColorBlock": 75,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2007-11-06T04:22:35.9090937+01:00",
+    "LastChanged": "2001-05-26T13:28:32.7884933+02:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Turcotte, Jacobs and O'Kon",
-        "ToolTip": "Tempora consectetur corporis eos est dicta ex.",
+        "Id": 67,
+        "Name": "Heathcote-Abshire",
+        "ToolTip": "Et ut excepturi enim laborum.",
         "Deleted": false,
-        "Rank": 694,
-        "Type": "sed",
-        "ColorBlock": 872,
-        "IconHint": "velit",
+        "Rank": 550,
+        "Type": "reiciendis",
+        "ColorBlock": 614,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2001-04-25T04:22:35.9090937+02:00",
+        "LastChanged": "2011-01-16T13:28:32.7884933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Betsy Morar",
+        "ExtraInfo": "molestias",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Prof. Jayde Robyn Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldLength": 101
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Miss Cathy Michele Raynor MD",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Gladyce Dickinson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 856
       }
     }
   }

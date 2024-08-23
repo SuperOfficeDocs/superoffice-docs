@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 944,
-      "FieldName": "Kuhlman, Greenholt and Goldner",
-      "Label": "tempore",
-      "Tooltip": "nisi",
-      "Editable": true,
-      "InUse": true,
+      "QuoteLineConfigurationId": 509,
+      "FieldName": "King Group",
+      "Label": "veniam",
+      "Tooltip": "officiis",
+      "Editable": false,
+      "InUse": false,
       "Mandatory": false,
-      "Rank": 739,
-      "RestrictEdit": false
+      "Rank": 653,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 933,
-    "FieldName": "Dickinson, Jewess and Schowalter",
-    "Label": "possimus",
-    "Tooltip": "repellat",
+    "QuoteLineConfigurationId": 431,
+    "FieldName": "Hayes-McLaughlin",
+    "Label": "magni",
+    "Tooltip": "soluta",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": true,
-    "Rank": 619,
-    "RestrictEdit": true,
+    "Rank": 746,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 640
       }
     }
   }

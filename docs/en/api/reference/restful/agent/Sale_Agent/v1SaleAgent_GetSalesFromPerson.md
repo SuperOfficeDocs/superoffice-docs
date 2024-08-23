@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 935,
+  "PersonId": 41,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kemmer, Purdy and Schuppe",
-    "SaleDate": "2008-04-28T04:22:27.5648986+02:00",
-    "SaleId": 133,
-    "Probability": 424,
-    "Title": "repudiandae",
-    "Amount": 17102.238,
-    "Currency": "doloremque",
-    "ProjectName": "Dickinson, Huels and Treutel",
-    "AssociateFullName": "Prof. Gianni Pacocha Jr.",
-    "Description": "Decentralized systematic capability",
+    "ContactName": "Durgan Inc and Sons",
+    "SaleDate": "2013-11-22T13:28:23.6948543+01:00",
+    "SaleId": 872,
+    "Probability": 374,
+    "Title": "beatae",
+    "Amount": 27760.971999999998,
+    "Currency": "ut",
+    "ProjectName": "Feil Group",
+    "AssociateFullName": "Deja Leuschke",
+    "Description": "Compatible reciprocal system engine",
     "Status": "Lost",
-    "WeightedAmount": 7170.592,
-    "ProjectId": 255,
-    "EarningPercent": 12457.65,
-    "Earning": 30565.902,
-    "ContactId": 123,
-    "AssociateId": 2,
-    "PersonId": 755,
-    "SaleTypeId": 641,
-    "SaleTypeName": "Bednar Inc and Sons",
-    "PersonFullName": "Elisabeth Morissette",
+    "WeightedAmount": 23041.167999999998,
+    "ProjectId": 637,
+    "EarningPercent": 14162.546,
+    "Earning": 1206.59,
+    "ContactId": 72,
+    "AssociateId": 968,
+    "PersonId": 863,
+    "SaleTypeId": 937,
+    "SaleTypeName": "Zieme LLC",
+    "PersonFullName": "Issac Mraz",
     "Completed": "Completed",
-    "ActiveErpLinks": 988,
-    "NextDueDate": "2010-04-10T04:22:27.5648986+02:00",
-    "Number": "1035753",
+    "ActiveErpLinks": 318,
+    "NextDueDate": "2011-12-22T13:28:23.6948543+01:00",
+    "Number": "1220177",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 833
       }
     }
   }

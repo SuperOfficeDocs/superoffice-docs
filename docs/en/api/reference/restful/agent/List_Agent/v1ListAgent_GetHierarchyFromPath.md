@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "at",
+  "Path": "laborum",
   "Children": true
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 539,
+  "HierarchyId": 64,
   "Domain": "Dashboards",
-  "Name": "Mraz-Beier",
-  "Fullname": "inventore",
-  "ParentId": 731,
+  "Name": "Lynch Inc and Sons",
+  "Fullname": "distinctio",
+  "ParentId": 881,
   "Children": [
     {
-      "HierarchyId": 471,
+      "HierarchyId": 335,
       "Domain": "Dashboards",
-      "Name": "Bergnaum, O'Keefe and Cremin",
-      "Fullname": "sapiente",
-      "ParentId": 211,
+      "Name": "Collier Inc and Sons",
+      "Fullname": "consequuntur",
+      "ParentId": 899,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-04-23T04:22:27.0173186+02:00",
-      "RegisteredAssociateId": 831,
-      "Updated": "2015-11-28T04:22:27.0173186+01:00",
-      "UpdatedAssociateId": 680,
+      "Registered": "2006-09-21T13:28:22.9918891+02:00",
+      "RegisteredAssociateId": 618,
+      "Updated": "2015-11-24T13:28:22.9918891+01:00",
+      "UpdatedAssociateId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldType": "System.Int32",
+          "FieldLength": 736
         }
       }
     }
   ],
-  "Registered": "2006-12-06T04:22:27.0173186+01:00",
-  "RegisteredAssociateId": 8,
-  "Updated": "2015-10-03T04:22:27.0173186+02:00",
-  "UpdatedAssociateId": 555,
+  "Registered": "2009-06-17T13:28:22.9918891+02:00",
+  "RegisteredAssociateId": 911,
+  "Updated": "2017-11-05T13:28:22.9918891+01:00",
+  "UpdatedAssociateId": 498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldLength": 877
     }
   }
 }

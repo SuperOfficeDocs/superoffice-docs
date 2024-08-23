@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 178,
-    "Name": "Ebert, Vandervort and Torphy",
-    "Tooltip": "ut",
-    "Rank": 230,
+    "SaleTypeId": 562,
+    "Name": "Bosco Inc and Sons",
+    "Tooltip": "sint",
+    "Rank": 887,
     "DurationUnit": "Century",
-    "SaleDuration": 494,
-    "SaleTypeCatId": 984,
-    "Deleted": true,
+    "SaleDuration": 573,
+    "SaleTypeCatId": 590,
+    "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 755,
-    "QuoteLinesTemplate": 546,
-    "ConfirmationLinesTemplate": 482,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 695,
+    "QuoteLinesTemplate": 694,
+    "ConfirmationLinesTemplate": 338,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 558,
-    "MinEarningPercent": 959,
-    "GroupQuoteLinesBy": 857,
-    "SortGroupLinesBy": 829,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 607,
+    "MinEarningPercent": 783,
+    "GroupQuoteLinesBy": 340,
+    "SortGroupLinesBy": 12,
     "Stages": [
       {
-        "Id": 76,
-        "Name": "O'Reilly Inc and Sons",
-        "ToolTip": "Iste praesentium ullam voluptates provident tenetur dolores.",
+        "Id": 1002,
+        "Name": "Denesik-Heaney",
+        "ToolTip": "Porro vero aut.",
         "Deleted": false,
-        "Rank": 662,
-        "Type": "non",
-        "ColorBlock": 220,
-        "IconHint": "dolores",
+        "Rank": 155,
+        "Type": "dolorem",
+        "ColorBlock": 871,
+        "IconHint": "autem",
         "Selected": true,
-        "LastChanged": "2021-06-14T04:22:36.1747132+02:00",
+        "LastChanged": "2018-06-25T13:28:33.1436654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eum",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Ricardo Yundt",
+        "FullName": "Cesar Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 132
+            "FieldLength": 428
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 285
       }
     }
   }

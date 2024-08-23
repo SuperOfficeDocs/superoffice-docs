@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    923,
-    75
+    437,
+    826
   ]
 }
 ```
@@ -150,21 +150,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 172,
-  "Title": "possimus",
-  "CreatedAt": "2006-08-04T04:22:27.9756303+02:00",
-  "LastChanged": "2011-11-14T04:22:27.9756303+01:00",
-  "ReadByOwner": "2008-10-31T04:22:27.9756303+01:00",
-  "ReadByCustomer": "2015-11-28T04:22:27.9756303+01:00",
-  "FirstReadByOwner": "2013-11-04T04:22:27.9756303+01:00",
-  "FirstReadByUser": "2003-12-26T04:22:27.9756303+01:00",
-  "Activate": "2002-07-25T04:22:27.9756303+02:00",
-  "ClosedAt": "2003-01-24T04:22:27.9756303+01:00",
-  "RepliedAt": "2018-02-07T04:22:27.9756303+01:00",
-  "AlertTimeout": "2017-10-31T04:22:27.9756303+01:00",
-  "Deadline": "1998-03-10T04:22:27.9756303+01:00",
+  "TicketId": 875,
+  "Title": "rerum",
+  "CreatedAt": "2021-01-24T13:28:24.0229116+01:00",
+  "LastChanged": "2024-02-04T13:28:24.0229116+01:00",
+  "ReadByOwner": "2020-05-25T13:28:24.0229116+02:00",
+  "ReadByCustomer": "2000-12-22T13:28:24.0229116+01:00",
+  "FirstReadByOwner": "2022-03-29T13:28:24.0229116+02:00",
+  "FirstReadByUser": "2001-08-21T13:28:24.0229116+02:00",
+  "Activate": "2005-12-15T13:28:24.0229116+01:00",
+  "ClosedAt": "2001-07-17T13:28:24.0229116+02:00",
+  "RepliedAt": "2014-07-19T13:28:24.0229116+02:00",
+  "AlertTimeout": "2012-03-25T13:28:24.0229116+02:00",
+  "Deadline": "2004-11-24T13:28:24.0229116+01:00",
   "CreatedBy": null,
-  "Author": "ipsa",
+  "Author": "delectus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -175,162 +175,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sit",
-      "PersonId": 695,
-      "Mrmrs": "ipsum",
-      "Firstname": "Anastacio",
-      "Lastname": "Ziemann",
-      "MiddleName": "Mohr-Tromp",
-      "Title": "veniam",
-      "Description": "Vision-oriented systemic benchmark",
-      "Email": "jodie@kiehn.us",
-      "FullName": "Seth Swaniawski",
-      "DirectPhone": "163.722.8819 x3663",
-      "FormalName": "Shanahan, Schaefer and Morissette",
-      "CountryId": 237,
-      "ContactId": 628,
-      "ContactName": "Block LLC",
-      "Retired": 361,
-      "Rank": 433,
-      "ActiveInterests": 545,
+      "Position": "neque",
+      "PersonId": 891,
+      "Mrmrs": "exercitationem",
+      "Firstname": "Maximillia",
+      "Lastname": "Christiansen",
+      "MiddleName": "Purdy, Gerhold and Huels",
+      "Title": "commodi",
+      "Description": "Multi-lateral systemic definition",
+      "Email": "kimberly_hoppe@king.us",
+      "FullName": "Dr. Leta Dach Jr.",
+      "DirectPhone": "(175)478-1093",
+      "FormalName": "Boyer-Kulas",
+      "CountryId": 33,
+      "ContactId": 510,
+      "ContactName": "McLaughlin-Schuppe",
+      "Retired": 901,
+      "Rank": 434,
+      "ActiveInterests": 541,
       "ContactDepartment": "",
-      "ContactCountryId": 550,
-      "ContactOrgNr": "394861",
-      "FaxPhone": "751.310.3028 x80571",
-      "MobilePhone": "1-748-825-0681",
-      "ContactPhone": "1-371-464-4590 x54432",
-      "AssociateName": "Willms, Gibson and Schaefer",
-      "AssociateId": 200,
-      "UsePersonAddress": true,
-      "ContactFax": "placeat",
-      "Kanafname": "amet",
-      "Kanalname": "laboriosam",
-      "Post1": "similique",
-      "Post2": "voluptas",
-      "Post3": "et",
-      "EmailName": "austen@koepp.co.uk",
-      "ContactFullName": "Marquise Dickens",
-      "ActiveErpLinks": 611,
-      "TicketPriorityId": 516,
-      "SupportLanguageId": 928,
-      "SupportAssociateId": 44,
+      "ContactCountryId": 854,
+      "ContactOrgNr": "1169965",
+      "FaxPhone": "(237)083-7625 x3363",
+      "MobilePhone": "608.411.0523 x444",
+      "ContactPhone": "1-851-772-2615 x389",
+      "AssociateName": "Dickinson LLC",
+      "AssociateId": 814,
+      "UsePersonAddress": false,
+      "ContactFax": "omnis",
+      "Kanafname": "aliquid",
+      "Kanalname": "quas",
+      "Post1": "et",
+      "Post2": "voluptatem",
+      "Post3": "eligendi",
+      "EmailName": "elliott_bergnaum@murazikjohnston.info",
+      "ContactFullName": "Prof. Eldon Fleta Ebert",
+      "ActiveErpLinks": 214,
+      "TicketPriorityId": 966,
+      "SupportLanguageId": 497,
+      "SupportAssociateId": 924,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldType": "System.String",
+          "FieldLength": 142
         }
       }
     }
   ],
-  "AlertLevel": 401,
-  "ConnectId": 798,
+  "AlertLevel": 211,
+  "ConnectId": 957,
   "ReadStatus": "Green",
-  "TimeToReply": 498,
-  "RealTimeToReply": 486,
-  "TimeToClose": 45,
-  "RealTimeToClose": 176,
-  "TimeSpentInternally": 446,
-  "TimeSpentExternally": 11,
-  "TimeSpentQueue": 341,
-  "RealTimeSpentInternally": 272,
-  "RealTimeSpentExternally": 475,
-  "RealTimeSpentQueue": 349,
-  "TimeSpent": 992,
+  "TimeToReply": 817,
+  "RealTimeToReply": 163,
+  "TimeToClose": 972,
+  "RealTimeToClose": 994,
+  "TimeSpentInternally": 19,
+  "TimeSpentExternally": 309,
+  "TimeSpentQueue": 330,
+  "RealTimeSpentInternally": 943,
+  "RealTimeSpentExternally": 772,
+  "RealTimeSpentQueue": 976,
+  "TimeSpent": 440,
   "HasAttachment": false,
-  "NumReplies": 309,
-  "NumMessages": 751,
-  "FromAddress": "earum",
+  "NumReplies": 618,
+  "NumMessages": 167,
+  "FromAddress": "aperiam",
   "Messages": [
     {
-      "TicketMessageId": 529,
-      "CreatedAt": "2022-03-25T04:22:27.9756303+01:00",
+      "TicketMessageId": 891,
+      "CreatedAt": "2018-10-25T13:28:24.0385348+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "et",
-      "PersonId": 893,
-      "PersonFullName": "Amelie Bauch",
-      "ContactId": 768,
-      "ContactName": "Robel-Windler",
+      "Author": "necessitatibus",
+      "PersonId": 438,
+      "PersonFullName": "Keaton Kihn",
+      "ContactId": 328,
+      "ContactName": "Upton Group",
       "ContactDepartment": "",
-      "NumAttachments": 832,
-      "EmailHeader": "helena_bailey@welch.com",
+      "NumAttachments": 143,
+      "EmailHeader": "savanah_swaniawski@bashirian.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "ipsa",
-      "Sentiment": 618,
-      "SentimentConfidence": 372,
-      "CreatedBy": 375,
-      "ChangedAt": "2017-02-05T04:22:27.9756303+01:00",
+      "Language": "vitae",
+      "Sentiment": 214,
+      "SentimentConfidence": 934,
+      "CreatedBy": 861,
+      "ChangedAt": "2022-01-31T13:28:24.0385348+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldType": "System.String",
+          "FieldLength": 516
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 516,
-      "Name": "Greenholt-Keeling",
-      "ToolTip": "Aut aut minus ut incidunt officia iste.",
+      "Id": 59,
+      "Name": "Trantow-Cormier",
+      "ToolTip": "Aut cupiditate id exercitationem aliquam tempora.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 628
         }
       }
     },
     {
-      "Id": 516,
-      "Name": "Greenholt-Keeling",
-      "ToolTip": "Aut aut minus ut incidunt officia iste.",
+      "Id": 59,
+      "Name": "Trantow-Cormier",
+      "ToolTip": "Aut cupiditate id exercitationem aliquam tempora.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 628
         }
       }
     }
   ],
-  "Language": "est",
-  "Sentiment": 298,
-  "SentimentConfidence": 592,
-  "SuggestedCategoryId": 569,
+  "Language": "amet",
+  "Sentiment": 887,
+  "SentimentConfidence": 368,
+  "SuggestedCategoryId": 821,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 255,
-  "IconHint": "sunt",
+  "OrigHumanCategoryId": 774,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 610,
+  "ActiveStatusMonitorId": 519,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "qui"
+    "CustomFields1": "quia",
+    "CustomFields2": "consequuntur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 594
     }
   }
 }

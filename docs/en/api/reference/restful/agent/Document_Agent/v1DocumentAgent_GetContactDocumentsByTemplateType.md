@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 287,
-  "StartTime": "2012-11-29T04:22:26.3884781+01:00",
-  "EndTime": "2010-11-09T04:22:26.3884781+01:00",
-  "Count": 149,
-  "DocumentTemplateId": 868
+  "ContactId": 278,
+  "StartTime": "2009-04-09T13:28:22.4448744+02:00",
+  "EndTime": "1998-04-08T13:28:22.4448744+02:00",
+  "Count": 605,
+  "DocumentTemplateId": 145
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 899,
+    "DocumentId": 632,
     "Attention": "et",
-    "Header": "aut",
-    "Name": "Aufderhar-Dickinson",
-    "OurRef": "aut",
-    "YourRef": "qui",
-    "Description": "Quality-focused optimal success",
-    "DocumentTemplate": "repudiandae",
-    "IsPublished": false,
-    "PersonId": 317,
-    "PersonFullName": "Mrs. Trevion Bruen I",
-    "AssociateFullName": "Mrs. Seamus Tre Koepp",
-    "ContactId": 843,
-    "ContactName": "Kuhn-Fisher",
-    "ProjectId": 226,
-    "ProjectName": "Vandervort-Schmidt",
-    "AssociateId": 527,
-    "Snum": 456,
-    "SaleId": 176,
-    "SaleName": "Herman, Romaguera and Botsford",
+    "Header": "voluptates",
+    "Name": "Buckridge, Schuppe and Bernhard",
+    "OurRef": "quibusdam",
+    "YourRef": "similique",
+    "Description": "Streamlined value-added algorithm",
+    "DocumentTemplate": "consequatur",
+    "IsPublished": true,
+    "PersonId": 908,
+    "PersonFullName": "Ms. Marilie Kaleb Kuhlman MD",
+    "AssociateFullName": "Mustafa Schowalter MD",
+    "ContactId": 725,
+    "ContactName": "Sanford Inc and Sons",
+    "ProjectId": 844,
+    "ProjectName": "Rice-Sauer",
+    "AssociateId": 20,
+    "Snum": 989,
+    "SaleId": 816,
+    "SaleName": "Luettgen, Schuppe and Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 128
       }
     }
   }

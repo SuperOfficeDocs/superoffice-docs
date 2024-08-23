@@ -3,9 +3,9 @@ uid: EmailFlowsAndFolders
 title: EmailFlowsAndFolders
 description: Archive of EmailFlows and Folders.
 keywords: EmailFlowsAndFolders archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "EmailFlowsAndFolders"
@@ -29,19 +29,19 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
 |emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
-|overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this workflow?|  |
+|overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
 |thumbnail| *None* |Thumbnail|  |
 |mediumThumbnail| *None* |Thumbnail|  |
-|workflowId| *None* |Workflow id: Id of a worflow definition|  |
-|name|string|Name: Name of the workflow definition| x |
-|workflowDescription| *None* |Description: Description of the workflow definition|  |
-|workflowDefinitionStatus| *None* |Status: Status of the workflow definition|  |
+|workflowId| *None* |Flow id: Id of a flow definition|  |
+|name|string|Name: Name of the flow definition| x |
+|workflowDescription| *None* |Description: Description of flow definition|  |
+|workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
 |jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
-|startOnlyOnce| *None* |Start only once: Should the participant enter the workflow only once?|  |
-|workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
+|startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
+|workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
 |workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
 |workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|workflowSucceededCount| *None* |Succeeded: How many participants has successfully finished the workflow (goals criteria met)|  |
+|workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
 |workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
 |updatedBy| *None* |Updated by: The user who last updated the data|  |
 |updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
@@ -88,7 +88,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=overrideConsentSubscription,workflowSucceededCount,updatedDate
+GET /api/v1/archive/EmailFlowsAndFolders?$select=hierarchyFullname,updatedDate,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,10 +2,10 @@
 uid: bulkupdateagent-getjobresultsfromstorageasjson
 title: BulkUpdateAgent.GetJobResultsFromStorageAsJson event method
 description: Scripting events called on the GetJobResultsFromStorageAsJson method on the BulkUpdateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BulkUpdateAgent.GetJobResultsFromStorageAsJson
 

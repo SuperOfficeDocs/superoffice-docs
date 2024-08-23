@@ -3,9 +3,9 @@ uid: documentgroup
 title: documentgroup
 keywords: mdoprovider mdo provider documentgroup
 description: Document types - TaskType.Document, Email, Fax, Merge draft, Merge Final.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "documentgroup" MDO List

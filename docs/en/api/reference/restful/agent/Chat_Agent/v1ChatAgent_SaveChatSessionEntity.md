@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 969,
-  "TopicId": 380,
+  "ChatSessionId": 704,
+  "TopicId": 948,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "minima",
-  "CustomerName": "Trantow-Blick",
-  "CustomerEmail": "yoshiko_cormier@kreiger.ca",
-  "CustomerPhone": "(001)723-1247 x415",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Schulist LLC",
+  "CustomerAlias": "enim",
+  "CustomerHost": "esse",
+  "CustomerName": "Zulauf, Lakin and Will",
+  "CustomerEmail": "estel@mccullough.co.uk",
+  "CustomerPhone": "943.769.1013 x001",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Doyle-Gleason",
   "Status": "Closed",
-  "FirstMessage": "fuga",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2010-02-21T04:22:26.0434701+01:00",
-  "WhenStarted": "2001-12-09T04:22:26.0434701+01:00",
-  "WhenEnded": "2007-08-07T04:22:26.0434701+02:00",
-  "WhenIdle": "2016-05-10T04:22:26.0434701+02:00",
-  "WhenFetched": "2014-07-15T04:22:26.0434701+02:00",
-  "SessionKey": "maxime",
-  "InitialQueuePos": 390,
-  "AlertLevel": 340,
-  "Rank": 335,
+  "FirstMessage": "dicta",
+  "LastMessage": "quia",
+  "WhenRequested": "2017-01-21T13:28:21.8981266+01:00",
+  "WhenStarted": "2017-05-03T13:28:21.8981266+02:00",
+  "WhenEnded": "2015-07-07T13:28:21.8981266+02:00",
+  "WhenIdle": "2008-09-23T13:28:21.8981266+02:00",
+  "WhenFetched": "2005-03-22T13:28:21.8981266+01:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 71,
+  "AlertLevel": 377,
+  "Rank": 717,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 70
+  "Rating": 478
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 217,
-  "TopicId": 931,
+  "ChatSessionId": 242,
+  "TopicId": 28,
   "User": null,
   "Person": null,
-  "CustomerAlias": "id",
-  "CustomerHost": "reiciendis",
-  "CustomerName": "Berge Group",
-  "CustomerEmail": "samson@watsica.biz",
-  "CustomerPhone": "317.717.9637",
+  "CustomerAlias": "est",
+  "CustomerHost": "ut",
+  "CustomerName": "Dietrich-Sauer",
+  "CustomerEmail": "coralie.fritsch@padberg.info",
+  "CustomerPhone": "281.583.3805",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Dibbert, Buckridge and Schroeder",
+  "CustomerCompanyName": "Langworth, Hartmann and Fay",
   "Status": "Closed",
-  "FirstMessage": "laudantium",
-  "LastMessage": "saepe",
-  "WhenRequested": "2015-10-09T04:22:26.0590988+02:00",
-  "WhenStarted": "2002-04-04T04:22:26.0590988+02:00",
-  "WhenEnded": "2015-12-23T04:22:26.0590988+01:00",
-  "WhenIdle": "2004-09-02T04:22:26.0590988+02:00",
-  "WhenFetched": "2017-04-30T04:22:26.0590988+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 405,
-  "AlertLevel": 780,
-  "Rank": 126,
+  "FirstMessage": "id",
+  "LastMessage": "numquam",
+  "WhenRequested": "2024-05-25T13:28:21.9137463+02:00",
+  "WhenStarted": "2010-03-02T13:28:21.9137463+01:00",
+  "WhenEnded": "2006-11-19T13:28:21.9137463+01:00",
+  "WhenIdle": "2002-05-09T13:28:21.9137463+02:00",
+  "WhenFetched": "2000-09-06T13:28:21.9137463+02:00",
+  "SessionKey": "blanditiis",
+  "InitialQueuePos": 862,
+  "AlertLevel": 530,
+  "Rank": 570,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 42,
+  "Rating": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 608
     }
   }
 }

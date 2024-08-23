@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 93,
-    "Name": "Mueller, Nader and Hartmann",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 557,
-    "UdListDefinitionId": 478,
+    "HeadingId": 612,
+    "Name": "Moore, Wehner and Turcotte",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "Rank": 118,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 800
       }
     }
   }

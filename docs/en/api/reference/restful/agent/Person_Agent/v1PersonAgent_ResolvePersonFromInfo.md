@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 877,
-  "PersonName": "Morar LLC",
+  "ContactId": 979,
+  "PersonName": "Blick, Pouros and Nienow",
   "PhoneNumbers": [
-    "1344534",
-    "497251"
+    "739515",
+    "1626786"
   ],
   "Emails": [
-    "lexi@carter.ca",
-    "idella_schultz@sipesyost.us"
+    "vicente_kiehn@manteswaniawski.name",
+    "winona_stanton@schowalter.us"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: useragent-executeusercommand
 title: UserAgent.ExecuteUserCommand event method
 description: Scripting events called on the ExecuteUserCommand method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.ExecuteUserCommand
 

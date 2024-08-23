@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 322,
+  "LatestKnownEventId": 198,
   "PublishEvents": [
     {
-      "EventId": 472,
-      "EventName": "Hammes Group",
-      "EntityType": "deleniti",
-      "EntityKey": 593,
-      "AssociateId": 929,
-      "AssociateName": "Mann-Veum",
-      "EventDateTime": "2004-02-02T04:22:28.1475044+01:00"
+      "EventId": 139,
+      "EventName": "Ryan, Kshlerin and Waters",
+      "EntityType": "ex",
+      "EntityKey": 96,
+      "AssociateId": 863,
+      "AssociateName": "Flatley, Marquardt and Bogisich",
+      "EventDateTime": "2022-07-09T13:28:24.2429064+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Marquardt, Cruickshank and Parisian",
-      "Value": 900
+      "Name": "Keebler-Bartoletti",
+      "Value": 538
     },
     {
-      "Name": "Marquardt, Cruickshank and Parisian",
-      "Value": 900
+      "Name": "Keebler-Bartoletti",
+      "Value": 538
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 385,
-    "EventName": "Dare Group",
-    "EntityType": "incidunt",
-    "EntityKey": 607,
-    "AssociateId": 902,
-    "AssociateName": "Sauer-Champlin",
-    "EventDateTime": "1997-04-17T04:22:28.1475044+02:00",
+    "EventId": 954,
+    "EventName": "Lang-Roob",
+    "EntityType": "qui",
+    "EntityKey": 389,
+    "AssociateId": 554,
+    "AssociateName": "Huels Group",
+    "EventDateTime": "2013-03-09T13:28:24.2429064+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldLength": 802
       }
     }
   }

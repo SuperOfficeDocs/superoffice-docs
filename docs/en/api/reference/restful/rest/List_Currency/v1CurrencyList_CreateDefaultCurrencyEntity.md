@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 922,
-  "Name": "Huels, Turcotte and Effertz",
-  "Tooltip": "dolor",
-  "Rank": 609,
-  "Rate": 8756.3959999999988,
-  "Units": 11100.627999999999,
+  "CurrencyId": 918,
+  "Name": "Sporer-Kertzmann",
+  "Tooltip": "quia",
+  "Rank": 256,
+  "Rate": 5923.26,
+  "Units": 7769.186,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: listagent-getdocumenttemplate
 title: ListAgent.GetDocumentTemplate event method
 description: Scripting events called on the GetDocumentTemplate method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetDocumentTemplate
 

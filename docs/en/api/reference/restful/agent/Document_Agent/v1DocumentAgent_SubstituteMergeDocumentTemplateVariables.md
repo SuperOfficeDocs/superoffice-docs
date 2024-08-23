@@ -73,19 +73,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 84,
-  "AssociateId": 454,
+  "DocumentId": 425,
+  "AssociateId": 194,
   "CustomTags": [
-    "facilis",
-    "alias"
+    "maxime",
+    "laboriosam"
   ],
   "CustomValues": [
-    "aperiam",
-    "voluptas"
+    "quasi",
+    "non"
   ]
 }
 ```

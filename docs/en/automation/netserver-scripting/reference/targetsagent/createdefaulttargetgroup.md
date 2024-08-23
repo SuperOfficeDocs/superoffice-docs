@@ -2,10 +2,10 @@
 uid: targetsagent-createdefaulttargetgroup
 title: TargetsAgent.CreateDefaultTargetGroup event method
 description: Scripting events called on the CreateDefaultTargetGroup method on the TargetsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetGroup
 

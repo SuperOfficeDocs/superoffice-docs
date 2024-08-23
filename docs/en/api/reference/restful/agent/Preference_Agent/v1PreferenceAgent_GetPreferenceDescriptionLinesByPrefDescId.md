@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 855
+  "PrefDescId": 897
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 202,
-    "PrefDescId": 295,
-    "PrefValue": "exercitationem",
-    "PrefShowValue": "tempora",
-    "Description": "Right-sized didactic concept",
+    "PrefDescLineId": 733,
+    "PrefDescId": 625,
+    "PrefValue": "cumque",
+    "PrefShowValue": "tempore",
+    "Description": "Optional directional archive",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

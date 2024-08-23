@@ -83,10 +83,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abernathy, Kilback and Abbott",
+  "TableName": "Zboncak Inc and Sons",
   "IDs": [
-    441,
-    152
+    287,
+    779
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "maxime",
-  "Inserts": 735,
-  "Updates": 187,
-  "Deletes": 205,
+  "Success": false,
+  "Message": "iusto",
+  "Inserts": 929,
+  "Updates": 953,
+  "Deletes": 24,
   "RowStatus": [
     {
-      "PrimaryKey": 896,
+      "PrimaryKey": 299,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "non",
-        "neque"
+        "delectus",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     },
     {
-      "PrimaryKey": 896,
+      "PrimaryKey": 299,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "non",
-        "neque"
+        "delectus",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 802
     }
   }
 }

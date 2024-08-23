@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=tempore
+GET /api/v1/List/Position/MDOItems?query=officia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Schaefer-Blick",
-    "ToolTip": "Assumenda fugit qui aperiam quibusdam.",
-    "Deleted": false,
-    "Rank": 325,
-    "Type": "qui",
+    "Id": 809,
+    "Name": "Reichel LLC",
+    "ToolTip": "Molestiae provident expedita eveniet quod.",
+    "Deleted": true,
+    "Rank": 260,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Robel-Haag",
-        "ToolTip": "Et placeat delectus et nihil.",
+        "Id": 767,
+        "Name": "Bayer, O'Reilly and Klein",
+        "ToolTip": "Provident neque.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "quia",
+        "Rank": 803,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 106,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "totam",
-        "FullName": "Dr. Burdette Sipes",
+        "IconHint": "sit",
+        "ColorBlock": 962,
+        "ExtraInfo": "ea",
+        "StyleHint": "iste",
+        "FullName": "Maia Steuber Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldLength": 117
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 250,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "voluptatem",
-    "FullName": "Dr. Patience Rogahn DDS",
+    "IconHint": "dolorem",
+    "ColorBlock": 366,
+    "ExtraInfo": "et",
+    "StyleHint": "dolorum",
+    "FullName": "Eusebio Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 578
       }
     }
   }

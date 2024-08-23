@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nisi",
-  "SearchString": "aut"
+  "Type": "voluptatum",
+  "SearchString": "dignissimos"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McLaughlin-Hodkiewicz",
-    "DisplayName": "Jerde Inc and Sons",
+    "Name": "McDermott-Bode",
+    "DisplayName": "Crona, Hansen and Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   },
   {
-    "Name": "McLaughlin-Hodkiewicz",
-    "DisplayName": "Jerde Inc and Sons",
+    "Name": "McDermott-Bode",
+    "DisplayName": "Crona, Hansen and Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

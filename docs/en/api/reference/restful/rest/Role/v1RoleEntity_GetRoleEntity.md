@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 860,
-  "Name": "Fahey-Batz",
-  "Tooltip": "ut",
+  "RoleId": 278,
+  "Name": "Watsica-Jaskolski",
+  "Tooltip": "quis",
   "RoleType": "Anonymous",
-  "Deleted": 44,
-  "Rank": 643,
-  "Created": "2012-06-25T04:22:35.2053915+02:00",
-  "UseCategories": 551,
+  "Deleted": 830,
+  "Rank": 859,
+  "Created": "2014-02-06T13:28:31.9135636+01:00",
+  "UseCategories": 456,
   "CreatedBy": null,
-  "Updated": "2011-11-04T04:22:35.2053915+01:00",
+  "Updated": "2017-04-09T13:28:31.9135636+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 482
     }
   },
   "_Links": {

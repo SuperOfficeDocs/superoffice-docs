@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ab",
-  "ProviderName": "Predovic-Bayer",
-  "StorageKey": "magni",
-  "Context": "quas"
+  "StorageType": "a",
+  "ProviderName": "Franecki-Bartell",
+  "StorageKey": "rerum",
+  "Context": "maxime"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein, Tromp and Hermiston",
-    "Description": "User-friendly assymetric benchmark",
-    "Rank": 434,
+    "Name": "Becker-White",
+    "Description": "Multi-channelled assymetric access",
+    "Rank": 237,
     "Restrictions": [
       {
-        "Name": "Hintz-Kovacek",
-        "Operator": "corporis",
+        "Name": "Rodriguez, Glover and O'Keefe",
+        "Operator": "ut",
         "Values": [
-          "velit",
-          "ut"
+          "qui",
+          "dolores"
         ],
         "DisplayValues": [
-          "occaecati",
-          "eligendi"
+          "rerum",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 570,
+        "InterParenthesis": 121,
         "InterOperator": "And",
-        "UniqueHash": 471
+        "UniqueHash": 229
       }
     ]
   },
   {
-    "Name": "Klein, Tromp and Hermiston",
-    "Description": "User-friendly assymetric benchmark",
-    "Rank": 434,
+    "Name": "Becker-White",
+    "Description": "Multi-channelled assymetric access",
+    "Rank": 237,
     "Restrictions": [
       {
-        "Name": "Hintz-Kovacek",
-        "Operator": "corporis",
+        "Name": "Rodriguez, Glover and O'Keefe",
+        "Operator": "ut",
         "Values": [
-          "velit",
-          "ut"
+          "qui",
+          "dolores"
         ],
         "DisplayValues": [
-          "occaecati",
-          "eligendi"
+          "rerum",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 570,
+        "InterParenthesis": 121,
         "InterOperator": "And",
-        "UniqueHash": 471
+        "UniqueHash": 229
       }
     ]
   }

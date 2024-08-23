@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Howell, Howell and Feil",
-    "ToolTip": "Quo veniam sit.",
+    "Id": 138,
+    "Name": "Champlin-Greenfelder",
+    "ToolTip": "Molestias recusandae.",
     "Deleted": false,
-    "Rank": 217,
-    "Type": "repudiandae",
-    "ColorBlock": 709,
-    "IconHint": "quasi",
+    "Rank": 801,
+    "Type": "dignissimos",
+    "ColorBlock": 743,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2006-01-14T04:22:35.8465939+01:00",
+    "LastChanged": "2019-07-09T13:28:32.7103906+02:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Kautzer-VonRueden",
-        "ToolTip": "Est alias ea quidem natus omnis.",
+        "Id": 54,
+        "Name": "Keebler, Robel and Huels",
+        "ToolTip": "Laudantium praesentium aliquid vitae placeat omnis quibusdam praesentium.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "omnis",
-        "ColorBlock": 900,
-        "IconHint": "tempora",
+        "Rank": 719,
+        "Type": "eligendi",
+        "ColorBlock": 440,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2005-11-19T04:22:35.8465939+01:00",
+        "LastChanged": "2005-04-24T13:28:32.7103906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Chester Hillard Rempel V"
+        "ExtraInfo": "ut",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Emil Kuhic"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "quas",
+    "ExtraInfo": "tempora",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Mrs. Scottie McClure"
+    "FullName": "Santa Kreiger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Bednar Inc and Sons",
-    "ToolTip": "Rerum iusto iure.",
+    "Id": 291,
+    "Name": "Kassulke-West",
+    "ToolTip": "Sit aliquam et.",
     "Deleted": true,
-    "Rank": 947,
-    "Type": "rem",
-    "ColorBlock": 271,
-    "IconHint": "odio",
+    "Rank": 455,
+    "Type": "illum",
+    "ColorBlock": 76,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1998-01-27T04:22:35.8465939+01:00",
+    "LastChanged": "1999-12-06T13:28:32.7260108+01:00",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Stanton-McKenzie",
-        "ToolTip": "Quos repellat et praesentium.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "ex",
-        "ColorBlock": 419,
-        "IconHint": "voluptas",
+        "Id": 856,
+        "Name": "Lowe-Von",
+        "ToolTip": "Earum est repellendus nihil.",
+        "Deleted": false,
+        "Rank": 882,
+        "Type": "fugiat",
+        "ColorBlock": 76,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2015-12-21T04:22:35.8465939+01:00",
+        "LastChanged": "2012-07-21T13:28:32.7260108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "quidem",
+        "ExtraInfo": "fugit",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Abraham Hirthe",
+        "FullName": "Astrid Johns IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 704
+            "FieldType": "System.String",
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Mr. Nia Edgardo Funk",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Jevon Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

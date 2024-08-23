@@ -77,6 +77,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -97,38 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 801,
-    "Name": "McKenzie-Barton",
-    "Rank": 936,
-    "Tooltip": "sequi",
-    "Icon": "velit",
-    "DefaultTicketStatus": 772,
+    "TicketTypeId": 964,
+    "Name": "Ortiz Inc and Sons",
+    "Rank": 781,
+    "Tooltip": "et",
+    "Icon": "inventore",
+    "DefaultTicketStatus": 27,
     "TicketStatuses": [
-      44,
-      40
+      298,
+      103
     ],
-    "DefaultTicketPriority": 103,
+    "DefaultTicketPriority": 977,
     "TicketPriorities": [
-      474,
-      760
+      123,
+      545
     ],
-    "ReplyTemplate": 25,
+    "ReplyTemplate": 661,
     "IsExternalVisible": false,
-    "IsDefault": true,
-    "ShowInNew": false,
+    "IsDefault": false,
+    "ShowInNew": true,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      724,
-      146
+      422,
+      503
     ],
+    "ReplyForwardNoSignature": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

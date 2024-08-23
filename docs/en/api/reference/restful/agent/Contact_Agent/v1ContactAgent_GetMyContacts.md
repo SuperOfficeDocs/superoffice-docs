@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 315,
-    "Name": "Spinka-Rodriguez",
-    "OrgNr": "741434",
-    "Department": "transform customized partnerships",
+    "ContactId": 470,
+    "Name": "Altenwerth LLC",
+    "OrgNr": "1053629",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "est",
-    "DirectPhone": "1-272-013-5860",
-    "AssociateId": 558,
-    "CountryId": 769,
-    "EmailAddress": "dorothea_okon@waelchistehr.ca",
-    "Kananame": "sed",
-    "EmailAddressName": "frederic_kris@reichertwindler.ca",
+    "City": "qui",
+    "DirectPhone": "314-161-7780",
+    "AssociateId": 516,
+    "CountryId": 176,
+    "EmailAddress": "victor@kuphalkoelpin.uk",
+    "Kananame": "repellendus",
+    "EmailAddressName": "alexandrea@bernierrohan.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Moses Hardy Steuber MD",
+    "AssociateFullName": "Emely Ritchie",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Ms. Rosalee Kyle Gutmann",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 699,
-    "Number1": "583415",
-    "Number2": "1351477",
+    "FormattedAddress": "sed",
+    "FullName": "Shaun Schroeder",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 26,
+    "Number1": "1518391",
+    "Number2": "892317",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 196
       }
     }
   }

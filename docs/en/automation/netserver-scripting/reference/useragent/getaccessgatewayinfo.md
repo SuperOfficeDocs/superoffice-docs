@@ -2,10 +2,10 @@
 uid: useragent-getaccessgatewayinfo
 title: UserAgent.GetAccessGatewayInfo event method
 description: Scripting events called on the GetAccessGatewayInfo method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.GetAccessGatewayInfo
 

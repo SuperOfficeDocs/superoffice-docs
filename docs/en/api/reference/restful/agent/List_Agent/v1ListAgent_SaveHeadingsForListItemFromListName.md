@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Homenick, Hermiston and Smitham",
-  "ListItemId": 309,
+  "UdListDefinitionName": "Nitzsche, Johns and Farrell",
+  "ListItemId": 739,
   "Headings": [
     {
-      "Id": 363,
-      "Name": "Sawayn, Satterfield and Ortiz",
-      "ToolTip": "Facilis aut.",
-      "Deleted": false,
-      "Rank": 608,
-      "Type": "alias",
-      "ColorBlock": 738,
-      "IconHint": "atque",
+      "Id": 339,
+      "Name": "Welch, Hirthe and O'Reilly",
+      "ToolTip": "Enim aut est id.",
+      "Deleted": true,
+      "Rank": 6,
+      "Type": "et",
+      "ColorBlock": 604,
+      "IconHint": "sunt",
       "Selected": true,
-      "LastChanged": "2011-10-06T04:22:26.9848795+02:00",
+      "LastChanged": "2015-04-11T13:28:22.9449983+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "voluptates",
+      "ExtraInfo": "saepe",
+      "StyleHint": "blanditiis",
       "Hidden": false,
-      "FullName": "Noemy O'Connell"
+      "FullName": "Mollie Carroll"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Kunde, Baumbach and Klocko",
-    "ToolTip": "Eaque autem.",
+    "Id": 726,
+    "Name": "Walter Inc and Sons",
+    "ToolTip": "Quas ad nemo itaque ad laboriosam tenetur.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "ea",
-    "ColorBlock": 704,
-    "IconHint": "modi",
+    "Rank": 34,
+    "Type": "id",
+    "ColorBlock": 119,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2018-06-11T04:22:26.9848795+02:00",
+    "LastChanged": "2022-07-20T13:28:22.9606469+02:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Dietrich Group",
-        "ToolTip": "Error omnis rerum.",
+        "Id": 683,
+        "Name": "Gleason Group",
+        "ToolTip": "Eos aut est.",
         "Deleted": false,
-        "Rank": 947,
-        "Type": "et",
-        "ColorBlock": 165,
-        "IconHint": "suscipit",
+        "Rank": 938,
+        "Type": "fugit",
+        "ColorBlock": 198,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "1997-07-30T04:22:26.9848795+02:00",
+        "LastChanged": "2004-10-17T13:28:22.9606469+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "quae",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Miss Luna Thiel II",
+        "FullName": "Dr. Rebekah Gene Wisozk DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Dr. Aisha Nedra Feeney I",
+    "ExtraInfo": "labore",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Mr. Reynold Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 61
       }
     }
   }

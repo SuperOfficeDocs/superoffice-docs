@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Kertzmann Inc and Sons",
-  "Tooltip": "et",
+  "Id": 823,
+  "Name": "Muller, Smitham and Yost",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 193,
+  "Rank": 32,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Bogan, Eichmann and Cassin",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 527,
-  "IsCustomList": false,
+  "Id": 286,
+  "Name": "Schulist LLC",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 505,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

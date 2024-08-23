@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Durgan Group",
-      "Description": "Business-focused high-level workforce",
-      "Rank": 735,
+      "Name": "Erdman, Hodkiewicz and Trantow",
+      "Description": "Fundamental empowering definition",
+      "Rank": 757,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Durgan Group",
-      "Description": "Business-focused high-level workforce",
-      "Rank": 735,
+      "Name": "Erdman, Hodkiewicz and Trantow",
+      "Description": "Fundamental empowering definition",
+      "Rank": 757,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 812
     }
   }
 }

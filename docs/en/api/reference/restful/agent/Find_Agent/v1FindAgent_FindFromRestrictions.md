@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Ratke Inc and Sons",
-      "Operator": "sed",
+      "Name": "Leuschke, Luettgen and Douglas",
+      "Operator": "iste",
       "Values": [
-        "voluptas",
-        "praesentium"
+        "ex",
+        "iusto"
       ],
       "DisplayValues": [
-        "debitis",
-        "non"
+        "placeat",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 195,
+      "InterParenthesis": 565,
       "InterOperator": "And",
-      "UniqueHash": 760
+      "UniqueHash": 348
     }
   ],
-  "ProviderName": "O'Conner-Orn",
-  "PageSize": 242,
-  "PageNumber": 391
+  "ProviderName": "Bechtelar-Aufderhar",
+  "PageSize": 656,
+  "PageNumber": 826
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaefer-Morar",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "aspernatur",
+      "DisplayName": "Parker Inc and Sons",
+      "DisplayTooltip": "magni",
+      "DisplayType": "harum",
       "CanOrderBy": false,
-      "Name": "Jenkins, Goldner and Stroman",
-      "CanRestrictBy": false,
-      "RestrictionType": "eum",
-      "RestrictionListName": "Fahey, Denesik and Jacobson",
+      "Name": "Gerhold, Green and Morissette",
+      "CanRestrictBy": true,
+      "RestrictionType": "neque",
+      "RestrictionListName": "Lockman-Beier",
       "IsVisible": true,
-      "ExtraInfo": "quae",
-      "Width": "unde",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "sint"
+      "ExtraInfo": "ut",
+      "Width": "consequatur",
+      "IconHint": "nostrum",
+      "HeadingIconHint": "a"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Murray-Greenholt",
-      "PrimaryKey": 834,
+      "EntityName": "Miller, Cummings and Schmidt",
+      "PrimaryKey": 638,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloremque",
-          "TooltipHint": "quia",
-          "LinkHint": "vel"
+          "DisplayValue": "quasi",
+          "TooltipHint": "aut",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "beatae",
+      "LinkHint": "odio",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 7
         }
       }
     }
   ],
-  "RowCount": 362,
+  "RowCount": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 399
     }
   }
 }

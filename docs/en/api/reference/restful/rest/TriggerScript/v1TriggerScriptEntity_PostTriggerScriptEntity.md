@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 337,
-  "Name": "Wiza Group",
+  "ScreenChooserId": 462,
+  "Name": "Lemke-Heidenreich",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "sit",
-  "Registered": "2022-03-18T04:22:35.595979+01:00",
-  "RegisteredAssociateId": 16,
-  "Updated": "2019-07-23T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 907
+  "UniqueIdentifier": "assumenda",
+  "Source": "occaecati",
+  "Registered": "2004-04-23T13:28:32.4135814+02:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "2023-07-28T13:28:32.4135814+02:00",
+  "UpdatedAssociateId": 176
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 510,
-  "Name": "Nitzsche-Murazik",
+  "ScreenChooserId": 72,
+  "Name": "Kuvalis-Lebsack",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "eos",
-  "Source": "aut",
-  "Registered": "2005-08-11T04:22:35.595979+02:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2008-04-04T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 769,
+  "UniqueIdentifier": "voluptas",
+  "Source": "neque",
+  "Registered": "2010-03-28T13:28:32.4135814+02:00",
+  "RegisteredAssociateId": 107,
+  "Updated": "2014-08-23T13:28:32.4135814+02:00",
+  "UpdatedAssociateId": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   },
   "_Links": {

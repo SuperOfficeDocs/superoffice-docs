@@ -2,10 +2,10 @@
 uid: useragent-deleteuser
 title: UserAgent.DeleteUser event method
 description: Scripting events called on the DeleteUser method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.DeleteUser
 

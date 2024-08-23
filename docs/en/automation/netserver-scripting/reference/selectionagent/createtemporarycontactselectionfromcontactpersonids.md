@@ -2,10 +2,10 @@
 uid: selectionagent-createtemporarycontactselectionfromcontactpersonids
 title: SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds event method
 description: Scripting events called on the CreateTemporaryContactSelectionFromContactPersonIds method on the SelectionAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
 

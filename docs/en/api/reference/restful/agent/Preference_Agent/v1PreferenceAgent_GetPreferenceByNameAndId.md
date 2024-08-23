@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "esse",
-  "PrefKey": "fugit",
+  "PrefSection": "fugit",
+  "PrefKey": "eos",
   "PrefLevel": "Database",
-  "OwnerId": 827
+  "OwnerId": 487
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "eos",
   "Specification": null,
-  "DisplayValue": "culpa",
-  "DisplayTooltip": "quis",
+  "DisplayValue": "sed",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 2,
-  "PrefDescId": 617,
-  "TableName": "Schimmel, Muller and Graham",
-  "UserPreferenceId": 739,
+  "TargetId": 134,
+  "PrefDescId": 304,
+  "TableName": "Walsh, Kessler and Senger",
+  "UserPreferenceId": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 970
     }
   }
 }

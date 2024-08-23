@@ -2,10 +2,10 @@
 uid: diagnosticsagent-collectwebusage
 title: DiagnosticsAgent.CollectWebUsage event method
 description: Scripting events called on the CollectWebUsage method on the DiagnosticsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DiagnosticsAgent.CollectWebUsage
 

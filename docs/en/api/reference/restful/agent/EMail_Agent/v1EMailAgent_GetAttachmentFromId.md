@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 417,
-  "AttachmentId": "quo"
+  "MailItemId": 67,
+  "AttachmentId": "sit"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased reciprocal moderator",
-  "Filename": "consequatur",
-  "Size": 50,
-  "Type": "aperiam",
-  "Encoding": "ipsa",
-  "Id": "fugit",
-  "Disposition": "pariatur",
+  "Description": "Seamless attitude-oriented projection",
+  "Filename": "aut",
+  "Size": 416,
+  "Type": "culpa",
+  "Encoding": "ducimus",
+  "Id": "aliquid",
+  "Disposition": "quia",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 382
     }
   }
 }

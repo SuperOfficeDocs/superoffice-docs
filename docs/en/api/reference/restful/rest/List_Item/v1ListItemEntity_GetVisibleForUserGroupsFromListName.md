@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Nader-Schinner",
-    "ToolTip": "Consequatur necessitatibus voluptatem.",
+    "Id": 865,
+    "Name": "Fahey-VonRueden",
+    "ToolTip": "Labore veniam aperiam esse qui qui repellendus voluptatem.",
     "Deleted": false,
-    "Rank": 868,
-    "Type": "corporis",
-    "ColorBlock": 192,
-    "IconHint": "minima",
+    "Rank": 905,
+    "Type": "deleniti",
+    "ColorBlock": 912,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2014-10-13T04:22:35.7834778+02:00",
+    "LastChanged": "2022-06-13T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Gleason-Herzog",
-        "ToolTip": "Aut cupiditate consequatur molestiae nesciunt.",
-        "Deleted": false,
-        "Rank": 19,
-        "Type": "nihil",
-        "ColorBlock": 9,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2002-07-19T04:22:35.7834778+02:00",
+        "Id": 643,
+        "Name": "Effertz, Haley and Yost",
+        "ToolTip": "Enim id voluptas dolores quo ad cumque.",
+        "Deleted": true,
+        "Rank": 30,
+        "Type": "ex",
+        "ColorBlock": 476,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2016-09-09T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "officia",
+        "ExtraInfo": "eum",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Ms. Cleta Mauricio Ullrich Jr.",
+        "FullName": "Skye Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldType": "System.String",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
+    "ExtraInfo": "fuga",
     "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Samantha Conn Jr.",
+    "Hidden": true,
+    "FullName": "Kyler Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldType": "System.String",
+        "FieldLength": 572
       }
     }
   }

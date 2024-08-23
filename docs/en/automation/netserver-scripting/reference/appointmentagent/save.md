@@ -2,10 +2,10 @@
 uid: appointmentagent-save
 title: AppointmentAgent.Save event method
 description: Scripting events called on the Save method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.Save
 

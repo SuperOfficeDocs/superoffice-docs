@@ -3,9 +3,9 @@ uid: FavouriteTickets
 title: FavouriteTickets
 description: 
 keywords: FavouriteTickets archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FavouriteTickets"
@@ -758,7 +758,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=person/personInfo/textId,person/personAssociate/role,contact/contactFax/formattedNumber,contact/postAddress/formattedMultiLineAddress,contact/contactAssociate/personId
+GET /api/v1/archive/FavouriteTickets?$select=createdBy/isLocation,person/personExtra/y_rental/x_contact,person/personAssociate/ejStatus,person/correspondingAssociate/credentialType,project/projectEvent/hasSignOff
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

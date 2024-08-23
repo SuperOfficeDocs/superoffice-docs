@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walter LLC",
-    "Operator": "ex",
+    "Name": "Stark-Mertz",
+    "Operator": "dolor",
     "Values": [
-      "reiciendis",
-      "natus"
+      "enim",
+      "qui"
     ],
     "DisplayValues": [
-      "asperiores",
-      "voluptates"
+      "sequi",
+      "earum"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kreiger-Kreiger",
-        "Operator": "eaque",
+        "Name": "Kuhn-Brown",
+        "Operator": "non",
         "Values": [
-          "minima",
-          "minus"
+          "optio",
+          "consequatur"
         ],
         "DisplayValues": [
-          "quis",
-          "similique"
+          "neque",
+          "pariatur"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 574,
+        "InterParenthesis": 672,
         "InterOperator": "And",
-        "UniqueHash": 537
+        "UniqueHash": 423
       }
     ],
-    "InterParenthesis": 62,
+    "InterParenthesis": 888,
     "InterOperator": "And",
-    "UniqueHash": 232
+    "UniqueHash": 391
   }
 ]
 ```

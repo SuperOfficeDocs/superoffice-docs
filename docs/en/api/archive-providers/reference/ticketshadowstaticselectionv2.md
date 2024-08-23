@@ -3,9 +3,9 @@ uid: TicketShadowStaticSelectionV2
 title: TicketShadowStaticSelectionV2
 description: Shadow contact provider for the static ticket provider.
 keywords: TicketShadowStaticSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketShadowStaticSelectionV2"
@@ -763,7 +763,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=createdAt,createdBy/assocName,ownedBy/assocTooltip,person/personAddress/line2,person/personAssociate/usergroup
+GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=person/personUrl/URLDescription,person/personAssociate/firstName,contact/contactExtra/x_contact_shorttext,sale/earningPercent,project/projectEvent/hasSignOn
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

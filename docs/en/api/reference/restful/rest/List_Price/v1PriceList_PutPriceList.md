@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 48,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 526,
-  "Name": "Schoen Inc and Sons",
-  "Description": "Operative fresh-thinking leverage",
-  "Currency": "dolores",
-  "CurrencyName": "Hansen-Paucek",
-  "ValidFrom": "2016-04-29T04:22:36.0340897+02:00",
-  "ValidTo": "2004-05-05T04:22:36.0340897+02:00",
+  "PriceListId": 975,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 652,
+  "Name": "West, Fisher and Schneider",
+  "Description": "Proactive analyzing core",
+  "Currency": "corporis",
+  "CurrencyName": "Flatley-DuBuque",
+  "ValidFrom": "2008-02-28T13:28:32.9447127+01:00",
+  "ValidTo": "2021-11-19T13:28:32.9447127+01:00",
   "IsActive": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 622,
-  "ERPPriceListKey": "corporis",
-  "QuoteConnectionId": 521,
-  "Name": "Koelpin, Ryan and Lang",
-  "Description": "Reactive executive synergy",
-  "Currency": "hic",
-  "CurrencyName": "Orn Inc and Sons",
-  "ValidFrom": "2024-02-22T04:22:36.0340897+01:00",
-  "ValidTo": "2022-01-02T04:22:36.0340897+01:00",
-  "IsActive": true,
+  "PriceListId": 363,
+  "ERPPriceListKey": "saepe",
+  "QuoteConnectionId": 235,
+  "Name": "Runte Group",
+  "Description": "Down-sized real-time neural-net",
+  "Currency": "eveniet",
+  "CurrencyName": "Hahn, Swaniawski and Marks",
+  "ValidFrom": "2005-06-09T13:28:32.9447127+02:00",
+  "ValidTo": "2016-12-29T13:28:32.9447127+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 284
     }
   },
   "_Links": {

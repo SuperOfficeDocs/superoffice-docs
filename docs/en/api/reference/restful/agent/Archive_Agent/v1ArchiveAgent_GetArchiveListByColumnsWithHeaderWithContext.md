@@ -107,52 +107,52 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Vandervort Inc and Sons",
+  "ProviderName": "Weissnat-Keeling",
   "Columns": [
-    "dolore",
-    "cum"
+    "hic",
+    "amet"
   ],
   "SortOrder": [
     {
-      "Name": "Marks-Aufderhar",
+      "Name": "Bayer-Kuhic",
       "Direction": "ASC"
     },
     {
-      "Name": "Marks-Aufderhar",
+      "Name": "Bayer-Kuhic",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Corwin-Daugherty",
-      "Operator": "qui",
+      "Name": "Mayert-Kuvalis",
+      "Operator": "amet",
       "Values": [
-        "voluptatem",
-        "ut"
+        "ea",
+        "quam"
       ],
       "DisplayValues": [
-        "quidem",
-        "veniam"
+        "eligendi",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 462,
+      "InterParenthesis": 317,
       "InterOperator": "And",
-      "UniqueHash": 366
+      "UniqueHash": 729
     }
   ],
   "Entities": [
-    "corrupti",
-    "in"
+    "ducimus",
+    "similique"
   ],
-  "Page": 289,
-  "PageSize": 938,
-  "Options": "repellat",
-  "Context": "rerum"
+  "Page": 992,
+  "PageSize": 872,
+  "Options": "enim",
+  "Context": "repellat"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 479,
+  "RowCount": 301,
   "Rows": [
     {
-      "EntityName": "Yundt-Walter",
-      "PrimaryKey": 617,
+      "EntityName": "Emmerich, Hickle and Streich",
+      "PrimaryKey": 194,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "sed",
-          "LinkHint": "aliquid"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "facilis",
+          "LinkHint": "porro"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "ullam",
+      "LinkHint": "non",
+      "StyleHint": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldLength": 218
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

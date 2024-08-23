@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "DuBuque LLC",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 169,
-    "Rank": 576,
+    "Id": 852,
+    "Name": "Kohler LLC",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "UdListDefinitionId": 845,
+    "Rank": 810,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 842
       }
     }
   }

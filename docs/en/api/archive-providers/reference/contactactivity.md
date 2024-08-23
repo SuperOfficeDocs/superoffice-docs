@@ -3,9 +3,9 @@ uid: ContactActivity
 title: ContactActivity
 description: Activity archive provider for the Company card
 keywords: ContactActivity archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactActivity"
@@ -1190,7 +1190,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/personNumber,person/correspondingAssociate/ejDisplayName,contact/business,contact/restrictionAddress/line3,contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/ContactActivity?$select=whenRequested,person/hasInterests,person/personAddress/addressId,person/personUdef/SuperOffice:1,person/personExtra/x_person_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

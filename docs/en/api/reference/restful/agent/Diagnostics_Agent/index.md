@@ -36,6 +36,16 @@ generated: true
 
 * [POST Agents/Diagnostics/ResyncUsers](v1DiagnosticsAgent_ResyncUsers.md)
 
+* [POST Agents/Diagnostics/SendSystemMessage](v1DiagnosticsAgent_SendSystemMessage.md)
+
+* [POST Agents/Diagnostics/RemoveSystemMessage](v1DiagnosticsAgent_RemoveSystemMessage.md)
+
+* [POST Agents/Diagnostics/RemoveSystemMessageForAssociate](v1DiagnosticsAgent_RemoveSystemMessageForAssociate.md)
+
+* [POST Agents/Diagnostics/GetSystemMessages](v1DiagnosticsAgent_GetSystemMessages.md)
+
+* [POST Agents/Diagnostics/RemoveExpiredSystemMessages](v1DiagnosticsAgent_RemoveExpiredSystemMessages.md)
+
 * [POST Agents/Diagnostics/PerformTasksAfterUpgrade](v1DiagnosticsAgent_PerformTasksAfterUpgrade.md)
 
 * [POST Agents/Diagnostics/AddWebAppUsage](v1DiagnosticsAgent_AddWebAppUsage.md)

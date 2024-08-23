@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Hand Group",
-    "Tooltip": "accusamus",
+    "HeadingId": 764,
+    "Name": "Bashirian LLC",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 502,
-    "UdListDefinitionId": 243,
+    "Rank": 872,
+    "UdListDefinitionId": 217,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 821
       }
     }
   }

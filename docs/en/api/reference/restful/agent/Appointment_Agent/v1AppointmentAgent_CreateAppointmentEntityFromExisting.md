@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 615,
-  "AssociateId": 737
+  "AppointmentId": 708,
+  "AssociateId": 385
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-05-09T04:22:25.7934405+02:00",
-  "AppointmentId": 121,
-  "Description": "Open-architected coherent artificial intelligence",
-  "Title": "eligendi",
-  "Agenda": "voluptatibus",
-  "InternalNotes": "laboriosam",
-  "StartDate": "1997-08-16T04:22:25.7934405+02:00",
-  "EndDate": "2017-10-01T04:22:25.7934405+02:00",
+  "CreatedDate": "1997-05-16T13:28:21.5856977+02:00",
+  "AppointmentId": 276,
+  "Description": "Implemented analyzing help-desk",
+  "Title": "enim",
+  "Agenda": "animi",
+  "InternalNotes": "et",
+  "StartDate": "2014-07-31T13:28:21.5856977+02:00",
+  "EndDate": "1998-11-06T13:28:21.5856977+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 361,
+  "MotherId": 655,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-01-24T04:22:25.7934405+01:00",
+  "UpdatedDate": "2004-01-27T13:28:21.5856977+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 776,
+  "ActiveLinks": 569,
   "Links": [
     {
-      "EntityName": "Huel, Kassulke and Bradtke",
-      "Id": 367,
-      "Description": "Re-contextualized value-added challenge",
-      "ExtraInfo": "delectus",
-      "LinkId": 939,
+      "EntityName": "Ledner, Schaefer and Dickens",
+      "Id": 892,
+      "Description": "Ameliorated logistical concept",
+      "ExtraInfo": "eius",
+      "LinkId": 555,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 498
         }
       }
     }
   ],
-  "AlarmLeadTime": "quaerat",
+  "AlarmLeadTime": "quisquam",
   "HasAlarm": false,
-  "ColorIndex": 121,
+  "ColorIndex": 443,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "omnis",
-  "LeadTime": "esse",
-  "Location": "atque",
-  "RejectCounter": 343,
+  "LagTime": "et",
+  "LeadTime": "perspiciatis",
+  "Location": "maiores",
+  "RejectCounter": 617,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 879,
-      "PersonId": 674,
-      "ContactId": 184,
-      "EmailId": 413,
+      "AssociateId": 40,
+      "PersonId": 723,
+      "ContactId": 376,
+      "EmailId": 768,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "xander_breitenberg@cronin.name",
-      "Description": "Cross-platform multimedia ability"
+      "EmailAddress": "maurice_corkery@sipes.co.uk",
+      "Description": "Diverse real-time strategy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-12-11T04:22:25.7934405+01:00",
+  "ActiveDate": "2008-02-27T13:28:21.5856977+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 550,
+  "PreferredTZLocation": 295,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 198,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 267,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Elnora Murphy",
-    "SuperOffice:2": "Yoshiko O'Kon"
+    "SuperOffice:1": "Johan Hane",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "in",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "totam"
+    "CustomFields1": "saepe",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2015-03-22T04:22:25.7934405+01:00",
-  "PublishTo": "2007-07-08T04:22:25.7934405+02:00",
-  "PublishFrom": "2017-07-19T04:22:25.7934405+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-05-13T13:28:21.5856977+02:00",
+  "PublishTo": "2022-05-12T13:28:21.5856977+02:00",
+  "PublishFrom": "2018-11-18T13:28:21.5856977+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 984,
+      "VisibleId": 415,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     },
     {
-      "VisibleId": 984,
+      "VisibleId": 415,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 419
     }
   }
 }

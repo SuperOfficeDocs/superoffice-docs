@@ -3,9 +3,9 @@ uid: LinksDocuments
 title: LinksDocuments
 description: Link data provider for documents, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksDocuments archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "LinksDocuments"
@@ -717,7 +717,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/correspondingAssociate/middleName,person/correspondingAssociate/simultaneousEjUser,person/correspondingAssociate/userName,contact/number,contact/registeredBy
+GET /api/v1/archive/LinksDocuments?$select=person/withdrawnStoreConsent,contact/restrictionAddress/line1,contact/LastDoBySale,project/projectAssociate/credentialDisplayValue,project/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Workflow/AddAfterWorkflowStep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 64,
+  "WorkflowStepId": 818,
   "SubStep": null
 }
 ```
@@ -91,9 +91,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 132,
-  "WorkflowId": 532,
+  "WorkflowStepId": 764,
+  "WorkflowId": 551,
   "StepType": "AddToList",
-  "Rank": 182
+  "Rank": 539
 }
 ```

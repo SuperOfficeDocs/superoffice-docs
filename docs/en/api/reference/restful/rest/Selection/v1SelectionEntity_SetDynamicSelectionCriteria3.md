@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collins Group",
+    "Name": "Stamm, Rolfson and Ankunding",
     "Operator": "quia",
     "Values": [
-      "similique",
-      "enim"
+      "recusandae",
+      "non"
     ],
     "DisplayValues": [
-      "aut",
-      "deserunt"
+      "qui",
+      "quas"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fadel Group",
-        "Operator": "magnam",
+        "Name": "Casper, Haag and Hudson",
+        "Operator": "est",
         "Values": [
-          "molestias",
-          "consequatur"
+          "nobis",
+          "labore"
         ],
         "DisplayValues": [
-          "molestiae",
-          "quas"
+          "facere",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 987,
+        "InterParenthesis": 105,
         "InterOperator": "And",
-        "UniqueHash": 55
+        "UniqueHash": 40
       }
     ],
-    "InterParenthesis": 466,
+    "InterParenthesis": 671,
     "InterOperator": "And",
-    "UniqueHash": 77
+    "UniqueHash": 4
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Auer Group",
-    "Operator": "et",
+    "Name": "Stark LLC",
+    "Operator": "error",
     "Values": [
-      "quos",
-      "debitis"
+      "et",
+      "dignissimos"
     ],
     "DisplayValues": [
-      "dolores",
-      "adipisci"
+      "mollitia",
+      "non"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "DuBuque LLC",
-        "Operator": "voluptatibus",
+        "Name": "Hyatt-Lemke",
+        "Operator": "quam",
         "Values": [
-          "qui",
-          "non"
+          "at",
+          "alias"
         ],
         "DisplayValues": [
-          "ut",
-          "fugit"
+          "nemo",
+          "itaque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 413,
+        "InterParenthesis": 652,
         "InterOperator": "And",
-        "UniqueHash": 691
+        "UniqueHash": 40
       }
     ],
-    "InterParenthesis": 107,
+    "InterParenthesis": 223,
     "InterOperator": "And",
-    "UniqueHash": 651
+    "UniqueHash": 680
   }
 ]
 ```

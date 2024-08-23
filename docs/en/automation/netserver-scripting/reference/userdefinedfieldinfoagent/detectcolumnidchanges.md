@@ -2,10 +2,10 @@
 uid: userdefinedfieldinfoagent-detectcolumnidchanges
 title: UserDefinedFieldInfoAgent.DetectColumnIdChanges event method
 description: Scripting events called on the DetectColumnIdChanges method on the UserDefinedFieldInfoAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.DetectColumnIdChanges
 

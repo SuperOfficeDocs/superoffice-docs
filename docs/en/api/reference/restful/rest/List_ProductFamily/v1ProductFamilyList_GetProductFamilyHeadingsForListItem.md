@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Effertz, Weimann and Towne",
-    "ToolTip": "Sit quas consequatur officiis numquam inventore.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "illum",
-    "ColorBlock": 278,
-    "IconHint": "voluptas",
+    "Id": 374,
+    "Name": "O'Keefe Inc and Sons",
+    "ToolTip": "Autem eum modi id eligendi enim in harum.",
+    "Deleted": true,
+    "Rank": 559,
+    "Type": "minus",
+    "ColorBlock": 850,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2019-01-26T04:22:36.06534+01:00",
+    "LastChanged": "2006-05-21T13:28:32.9759535+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Fadel LLC",
-        "ToolTip": "Dolores consequatur rem sed quia.",
+        "Id": 466,
+        "Name": "O'Kon LLC",
+        "ToolTip": "Aut voluptas.",
         "Deleted": false,
-        "Rank": 819,
-        "Type": "iure",
-        "ColorBlock": 674,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2009-01-21T04:22:36.06534+01:00",
+        "Rank": 147,
+        "Type": "dicta",
+        "ColorBlock": 814,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2016-07-22T13:28:32.9759535+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Madilyn Franecki",
+        "ExtraInfo": "quia",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Tristian Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldType": "System.Int32",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "laborum",
+    "ExtraInfo": "dicta",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Weston Kautzer",
+    "FullName": "Prof. Clark Zola Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 464
       }
     }
   }

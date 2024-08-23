@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Herzog-Kunze",
-  "Comment": "dolorem",
-  "StakeholderRoleId": 251,
-  "CountryId": 691,
-  "PersonId": 79,
-  "EmailDescription": "maximillia@krisfahey.biz",
-  "EmailId": 243,
-  "EmailAddress": "alvah.wiegand@lueilwitzzulauf.co.uk",
-  "PhoneId": 522,
-  "ContactName": "Walsh-Kuhic",
-  "ContactId": 173,
-  "SaleId": 114,
-  "Mrmrs": "aliquam",
-  "Firstname": "Nola",
-  "MiddleName": "Aufderhar, Bailey and Zboncak",
-  "Lastname": "Adams",
-  "SaleStakeholderId": 85,
-  "Rank": 698,
-  "Phone": "413.286.6593",
+  "StakeholderRoleName": "Lehner, Bartoletti and Marks",
+  "Comment": "esse",
+  "StakeholderRoleId": 716,
+  "CountryId": 321,
+  "PersonId": 142,
+  "EmailDescription": "lamont_vonrueden@robelkrajcik.uk",
+  "EmailId": 446,
+  "EmailAddress": "emmie@ratkeswift.co.uk",
+  "PhoneId": 312,
+  "ContactName": "Zieme, McDermott and Heathcote",
+  "ContactId": 229,
+  "SaleId": 124,
+  "Mrmrs": "error",
+  "Firstname": "Maxime",
+  "MiddleName": "Schowalter, Ritchie and Toy",
+  "Lastname": "Reynolds",
+  "SaleStakeholderId": 273,
+  "Rank": 598,
+  "Phone": "1-764-077-2583 x22862",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   },
   "_Links": {

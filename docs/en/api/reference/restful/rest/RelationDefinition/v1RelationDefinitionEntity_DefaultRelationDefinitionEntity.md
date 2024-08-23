@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 747,
-  "Name": "Erdman-McGlynn",
-  "Tooltip": "modi",
-  "PassiveText": "iure",
-  "Deleted": true,
-  "Rank": 828,
+  "ReldefId": 153,
+  "Name": "Heathcote, Muller and Leffler",
+  "Tooltip": "officiis",
+  "PassiveText": "illo",
+  "Deleted": false,
+  "Rank": 966,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

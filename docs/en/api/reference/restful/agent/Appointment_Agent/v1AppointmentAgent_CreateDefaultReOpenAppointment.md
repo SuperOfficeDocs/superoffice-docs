@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 283
+  "SaleId": 960
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-06-01T04:22:25.8872211+02:00",
-  "AppointmentId": 262,
-  "Description": "Diverse logistical local area network",
-  "Title": "eligendi",
-  "Agenda": "quia",
-  "InternalNotes": "sint",
-  "StartDate": "2017-03-14T04:22:25.8872211+01:00",
-  "EndDate": "2005-12-24T04:22:25.8872211+01:00",
+  "CreatedDate": "2004-06-29T13:28:21.7106646+02:00",
+  "AppointmentId": 341,
+  "Description": "Cross-platform solution-oriented collaboration",
+  "Title": "blanditiis",
+  "Agenda": "dolorem",
+  "InternalNotes": "doloremque",
+  "StartDate": "2011-11-24T13:28:21.7106646+01:00",
+  "EndDate": "1999-01-31T13:28:21.7106646+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 794,
+  "MotherId": 178,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-02-22T04:22:25.8872211+01:00",
+  "UpdatedDate": "2016-09-27T13:28:21.7106646+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 342,
+  "ActiveLinks": 55,
   "Links": [
     {
-      "EntityName": "Stehr, Terry and Hyatt",
-      "Id": 973,
-      "Description": "Total encompassing capacity",
-      "ExtraInfo": "veniam",
-      "LinkId": 809,
+      "EntityName": "Purdy-Johnson",
+      "Id": 41,
+      "Description": "Adaptive composite local area network",
+      "ExtraInfo": "error",
+      "LinkId": 17,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldLength": 88
         }
       }
     }
   ],
-  "AlarmLeadTime": "magnam",
-  "HasAlarm": true,
-  "ColorIndex": 461,
-  "IsFree": false,
+  "AlarmLeadTime": "debitis",
+  "HasAlarm": false,
+  "ColorIndex": 246,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "debitis",
-  "LeadTime": "voluptatum",
-  "Location": "blanditiis",
-  "RejectCounter": 166,
-  "RejectReason": "utilize compelling bandwidth",
+  "LagTime": "pariatur",
+  "LeadTime": "nihil",
+  "Location": "deserunt",
+  "RejectCounter": 652,
+  "RejectReason": "architect 24/365 functionalities",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 690,
-      "PersonId": 641,
-      "ContactId": 104,
-      "EmailId": 783,
-      "SendEmail": true,
+      "AssociateId": 406,
+      "PersonId": 181,
+      "ContactId": 412,
+      "EmailId": 808,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "hester@quitzontillman.us",
-      "Description": "User-friendly zero defect access"
+      "EmailAddress": "alexa.murray@schmitt.co.uk",
+      "Description": "Distributed 5th generation architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-05-20T04:22:25.8872211+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2008-01-17T13:28:21.7106646+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 641,
+  "PreferredTZLocation": 789,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 965,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 625,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facere",
+  "CentralserviceVideomeetId": "nesciunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Guillermo Newton Cassin",
+    "SuperOffice:1": "Shea McCullough",
     "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "quam",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "1997-08-25T04:22:25.8872211+02:00",
-  "PublishTo": "2023-10-04T04:22:25.8872211+02:00",
-  "PublishFrom": "2003-11-16T04:22:25.8872211+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-01-17T13:28:21.7106646+01:00",
+  "PublishTo": "2018-03-21T13:28:21.7106646+01:00",
+  "PublishFrom": "2000-03-01T13:28:21.7106646+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 82,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 434
         }
       }
     },
     {
-      "VisibleId": 82,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 434
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

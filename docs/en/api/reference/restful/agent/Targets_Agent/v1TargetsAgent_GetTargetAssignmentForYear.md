@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 996,
+  "TargetYear": 158,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 86
+  "Id": 446
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 799,
+  "TargetAssignmentInfoId": 114,
   "Values": [
-    375,
-    197
+    752,
+    945
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 938,
-  "DimensionListItemDisplayName": "Denesik, Quigley and Jacobson",
+  "DimensionListItem": 293,
+  "DimensionListItemDisplayName": "Crooks LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

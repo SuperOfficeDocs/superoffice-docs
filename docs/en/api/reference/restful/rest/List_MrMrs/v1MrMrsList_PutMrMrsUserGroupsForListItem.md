@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Effertz Inc and Sons",
-    "ToolTip": "Quia fugiat explicabo.",
-    "Deleted": false,
-    "Rank": 430,
-    "Type": "quaerat",
-    "ColorBlock": 356,
-    "IconHint": "quo",
+    "Id": 713,
+    "Name": "Grady-Barton",
+    "ToolTip": "Quis voluptatem repellendus.",
+    "Deleted": true,
+    "Rank": 879,
+    "Type": "dicta",
+    "ColorBlock": 704,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2003-05-24T04:22:35.9872165+02:00",
+    "LastChanged": "2021-07-15T13:28:32.8822233+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Pacocha-Stamm",
-        "ToolTip": "Ex libero voluptatem consectetur in.",
+        "Id": 597,
+        "Name": "Ritchie, Crist and Quigley",
+        "ToolTip": "Libero voluptatum.",
         "Deleted": true,
-        "Rank": 788,
-        "Type": "voluptate",
-        "ColorBlock": 564,
-        "IconHint": "enim",
+        "Rank": 816,
+        "Type": "earum",
+        "ColorBlock": 660,
+        "IconHint": "repudiandae",
         "Selected": true,
-        "LastChanged": "2013-06-20T04:22:35.9872165+02:00",
+        "LastChanged": "2019-03-07T13:28:32.8822233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Franz Kerluke"
+        "ExtraInfo": "excepturi",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Opal Kassulke"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Ms. Dasia Spinka"
+    "ExtraInfo": "ea",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Patricia Wehner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Turner, Witting and Toy",
-    "ToolTip": "Qui assumenda.",
+    "Id": 758,
+    "Name": "Hermiston, Feil and Bruen",
+    "ToolTip": "Quis odio voluptates voluptatem libero architecto eum non.",
     "Deleted": false,
-    "Rank": 369,
-    "Type": "ab",
-    "ColorBlock": 672,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2012-12-17T04:22:35.9872165+01:00",
+    "Rank": 872,
+    "Type": "et",
+    "ColorBlock": 535,
+    "IconHint": "ad",
+    "Selected": true,
+    "LastChanged": "2020-08-14T13:28:32.8822233+02:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Daniel-Hansen",
-        "ToolTip": "Fugit error quia.",
-        "Deleted": false,
-        "Rank": 508,
-        "Type": "consectetur",
-        "ColorBlock": 274,
-        "IconHint": "eaque",
+        "Id": 250,
+        "Name": "Howe-Thompson",
+        "ToolTip": "Dolorem labore ea.",
+        "Deleted": true,
+        "Rank": 976,
+        "Type": "assumenda",
+        "ColorBlock": 805,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2004-09-13T04:22:35.9872165+02:00",
+        "LastChanged": "2009-01-15T13:28:32.8822233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Katlyn Runolfsson",
+        "ExtraInfo": "facere",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Kasey Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "officia",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Samanta Solon Bernhard V",
+    "FullName": "Leonor Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 571
       }
     }
   }

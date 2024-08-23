@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Wiza Inc and Sons",
-    "ToolTip": "Similique et exercitationem deserunt.",
-    "Deleted": true,
-    "Rank": 997,
-    "Type": "cum",
-    "ColorBlock": 493,
-    "IconHint": "fuga",
+    "Id": 869,
+    "Name": "Skiles LLC",
+    "ToolTip": "Voluptate tempore.",
+    "Deleted": false,
+    "Rank": 59,
+    "Type": "accusantium",
+    "ColorBlock": 880,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-12-22T04:22:36.0028417+01:00",
+    "LastChanged": "2015-10-30T13:28:32.9134667+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Bode-Grant",
-        "ToolTip": "Et fuga dolores natus aliquam id.",
+        "Id": 487,
+        "Name": "Herzog-Feeney",
+        "ToolTip": "Temporibus pariatur architecto inventore tenetur aut ipsa autem.",
         "Deleted": false,
-        "Rank": 413,
-        "Type": "soluta",
-        "ColorBlock": 30,
-        "IconHint": "dolores",
+        "Rank": 437,
+        "Type": "veniam",
+        "ColorBlock": 751,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2004-04-10T04:22:36.0028417+02:00",
+        "LastChanged": "2018-02-10T13:28:32.9134667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "non",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Dr. Camille Schuyler Spencer V",
+        "FullName": "Mrs. Nyasia O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldLength": 112
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "ea",
+    "ExtraInfo": "dolores",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Miss Florida Jamison Weissnat DVM",
+    "FullName": "Aliya Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

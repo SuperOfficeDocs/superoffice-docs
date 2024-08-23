@@ -3,9 +3,9 @@ uid: QuoteLineDynamicSelection
 title: QuoteLineDynamicSelection
 description: Quoteline selection archive using the selectionId as criterionmapping.
 keywords: QuoteLineDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteLineDynamicSelection"
@@ -749,7 +749,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/stageRank,alternative/version/quote/sale/person/hasInterests,alternative/version/quote/sale/person/personAssociateId,alternative/version/quote/sale/person/personMobilePhone/formattedNumber,alternative/version/quote/sale/contact/contactUdef/SuperOffice:1
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/number,alternative/version/quote/sale/person/personCountryId,alternative/version/quote/sale/person/correspondingAssociate/title,alternative/version/quote/sale/person/correspondingAssociate/isLocation,alternative/version/quote/sale/contact/streetAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

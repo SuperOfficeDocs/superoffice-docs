@@ -3,9 +3,9 @@ uid: targetentitytype
 title: targetentitytype
 keywords: mdoprovider mdo provider targetentitytype
 description: TargetEntities
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "targetentitytype" MDO List

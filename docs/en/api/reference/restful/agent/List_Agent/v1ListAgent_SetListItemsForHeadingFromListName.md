@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grant-Hamill",
-  "HeadingId": 618,
+  "UdListDefinitionName": "Abbott Group",
+  "HeadingId": 195,
   "ListItemIds": [
-    129,
-    643
+    263,
+    422
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

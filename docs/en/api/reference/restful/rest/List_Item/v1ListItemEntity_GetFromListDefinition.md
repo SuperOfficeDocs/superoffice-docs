@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Bins LLC",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "UdListDefinitionId": 214,
-  "Rank": 831,
+  "Id": 743,
+  "Name": "Mills-Schumm",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 998,
+  "Rank": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

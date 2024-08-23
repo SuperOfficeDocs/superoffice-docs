@@ -3,9 +3,9 @@ uid: locatecontact
 title: locatecontact
 keywords: mdoprovider mdo provider locatecontact
 description: Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will return contact records.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "locatecontact" MDO List

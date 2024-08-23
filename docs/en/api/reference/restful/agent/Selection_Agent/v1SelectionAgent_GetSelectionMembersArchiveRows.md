@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 422,
-  "Select": "beatae"
+  "SelectionId": 562,
+  "Select": "nesciunt"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Marks LLC",
-    "PrimaryKey": 737,
+    "EntityName": "Kshlerin-Schaefer",
+    "PrimaryKey": 220,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "numquam",
-        "TooltipHint": "perspiciatis",
-        "LinkHint": "nihil"
+        "DisplayValue": "similique",
+        "TooltipHint": "harum",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "iusto",
-    "StyleHint": "eius",
+    "LinkHint": "voluptatem",
+    "StyleHint": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

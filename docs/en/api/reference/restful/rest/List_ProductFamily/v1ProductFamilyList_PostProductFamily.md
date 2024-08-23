@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Ebert-Vandervort",
-  "Tooltip": "tempora",
+  "Id": 667,
+  "Name": "Bernhard-Goodwin",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 790
+  "UdListDefinitionId": 185,
+  "Rank": 754
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Gusikowski Group",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 963,
-  "Rank": 772,
+  "Id": 311,
+  "Name": "Gusikowski-Armstrong",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 736,
+  "Rank": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 118
     }
   }
 }

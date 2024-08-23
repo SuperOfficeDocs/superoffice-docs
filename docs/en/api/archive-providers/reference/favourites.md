@@ -3,9 +3,9 @@ uid: Favourites
 title: Favourites
 description: Archive provider for the list of favourites
 keywords: Favourites archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Favourites"
@@ -3238,7 +3238,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=visibleFor,person/personExtra/x_person_category_relation,contact/contactAssociate/ejUserId,contact/contactUdef/SuperOffice:12,project/completed
+GET /api/v1/archive/Favourites?$select=heading,person/birthdate,person/correspondingAssociate/isActiveText,contact/countryId,project/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

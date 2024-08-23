@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 460,
-  "Name": "Mohr-Ondricka",
-  "Tooltip": "aliquid",
-  "Rank": 565,
+  "SaleTypeId": 277,
+  "Name": "Little, Pagac and Hayes",
+  "Tooltip": "qui",
+  "Rank": 204,
   "DurationUnit": "Century",
-  "SaleDuration": 129,
-  "SaleTypeCatId": 301,
-  "Deleted": true,
+  "SaleDuration": 791,
+  "SaleTypeCatId": 749,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 215,
-  "QuoteLinesTemplate": 849,
-  "ConfirmationLinesTemplate": 12,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 824,
+  "QuoteLinesTemplate": 52,
+  "ConfirmationLinesTemplate": 107,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 765,
-  "MinEarningPercent": 330,
-  "GroupQuoteLinesBy": 455,
-  "SortGroupLinesBy": 203,
+  "MaxDiscountPercent": 915,
+  "MinEarningPercent": 248,
+  "GroupQuoteLinesBy": 556,
+  "SortGroupLinesBy": 217,
   "Stages": [
     {
-      "Id": 896,
-      "Name": "Schuster, Olson and Jacobson",
-      "ToolTip": "Nihil voluptatum minus praesentium sequi similique sit dicta.",
-      "Deleted": false,
-      "Rank": 450,
-      "Type": "at",
-      "ColorBlock": 762,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2023-01-08T04:22:27.0329423+01:00",
+      "Id": 446,
+      "Name": "Block, Funk and Watsica",
+      "ToolTip": "Tenetur quia.",
+      "Deleted": true,
+      "Rank": 589,
+      "Type": "aliquid",
+      "ColorBlock": 995,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2017-02-07T13:28:23.0231319+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "corrupti",
+      "ExtraInfo": "sint",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Myles Runolfsdottir",
+      "FullName": "Lindsey Pacocha",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldType": "System.String",
+          "FieldLength": 852
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

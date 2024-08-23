@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Paucek LLC",
-  "AssociateId": 742,
-  "DetailsTable": 203,
-  "DetailsRecord": 490,
-  "IsSystemTask": false,
+  "Id": 39,
+  "Name": "Goldner Group",
+  "AssociateId": 747,
+  "DetailsTable": 207,
+  "DetailsRecord": 785,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "id",
-    "ParameterObject2": "dicta"
+    "ParameterObject1": "odio",
+    "ParameterObject2": "id"
   },
-  "LastStarted": "2010-04-15T04:22:35.6116053+02:00",
-  "Created": "2015-10-23T04:22:35.6116053+02:00",
-  "StartCount": 550,
-  "DatabaseSerialNumber": "1614985",
-  "Context": "enim",
-  "Result": "corporis",
+  "LastStarted": "2019-07-22T13:28:32.4292054+02:00",
+  "Created": "2017-05-03T13:28:32.4292054+02:00",
+  "StartCount": 92,
+  "DatabaseSerialNumber": "602707",
+  "Context": "labore",
+  "Result": "velit",
   "State": "All",
-  "Description": "Operative full-range open architecture",
-  "Response": "esse",
-  "Request": "et",
-  "ProgressDescription": "Reactive tangible product",
-  "ProgressPercent": 631,
-  "FileName": "Goodwin-Conn",
+  "Description": "Polarised mission-critical contingency",
+  "Response": "ratione",
+  "Request": "ut",
+  "ProgressDescription": "Public-key impactful algorithm",
+  "ProgressPercent": 514,
+  "FileName": "Marquardt Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-970
+592
 ```

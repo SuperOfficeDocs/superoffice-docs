@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=at
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=beatae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Reynolds, VonRueden and Stracke",
-    "ToolTip": "Eveniet vel molestiae nobis quidem dolor nihil.",
+    "Id": 101,
+    "Name": "Braun-Doyle",
+    "ToolTip": "Possimus provident amet culpa.",
     "Deleted": false,
-    "Rank": 963,
-    "Type": "perferendis",
+    "Rank": 940,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Schneider-Schimmel",
-        "ToolTip": "Et debitis culpa dicta vel aut quis et.",
-        "Deleted": false,
-        "Rank": 190,
-        "Type": "sunt",
+        "Id": 97,
+        "Name": "Parisian-Skiles",
+        "ToolTip": "Et nesciunt.",
+        "Deleted": true,
+        "Rank": 763,
+        "Type": "quasi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 925,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "voluptatibus",
-        "FullName": "Samara Cassin",
+        "IconHint": "quis",
+        "ColorBlock": 496,
+        "ExtraInfo": "excepturi",
+        "StyleHint": "similique",
+        "FullName": "Prof. Eunice Kuphal MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 249
+            "FieldLength": 473
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 359,
-    "ExtraInfo": "similique",
-    "StyleHint": "et",
-    "FullName": "Verla Ward",
+    "IconHint": "quaerat",
+    "ColorBlock": 365,
+    "ExtraInfo": "eos",
+    "StyleHint": "id",
+    "FullName": "Misty Boyle II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 136
       }
     }
   }

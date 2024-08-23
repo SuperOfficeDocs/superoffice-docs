@@ -30,6 +30,8 @@ generated: true
 
 * [POST Agents/CRMScript/GetCRMScriptEntity](v1CRMScriptAgent_GetCRMScriptEntity.md)
 
+* [POST Agents/CRMScript/SaveCRMScriptEntityWithoutCompile](v1CRMScriptAgent_SaveCRMScriptEntityWithoutCompile.md)
+
 * [POST Agents/CRMScript/ExecuteScript](v1CRMScriptAgent_ExecuteScript.md)
 
 * [POST Agents/CRMScript/ExecuteScriptByIncludeId](v1CRMScriptAgent_ExecuteScriptByIncludeId.md)
@@ -49,6 +51,8 @@ generated: true
 * [POST Agents/CRMScript/ExecuteScriptByString](v1CRMScriptAgent_ExecuteScriptByString.md)
 
 * [POST Agents/CRMScript/ValidateScriptByString](v1CRMScriptAgent_ValidateScriptByString.md)
+
+* [POST Agents/CRMScript/ResolveIncludes](v1CRMScriptAgent_ResolveIncludes.md)
 
 * [POST Agents/CRMScript/GetTriggerScriptEntity](v1CRMScriptAgent_GetTriggerScriptEntity.md)
 

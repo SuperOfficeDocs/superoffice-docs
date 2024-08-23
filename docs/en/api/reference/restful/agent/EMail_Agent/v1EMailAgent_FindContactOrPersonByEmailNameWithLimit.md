@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lakin-Cummings",
-  "EmailAddress": "myrtice.mraz@boscoratke.name",
-  "NumberOfContacts": 925,
-  "NumberOfPersons": 302
+  "Name": "Batz-Kovacek",
+  "EmailAddress": "rowan.mckenzie@johnston.co.uk",
+  "NumberOfContacts": 355,
+  "NumberOfPersons": 41
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 355,
-    "FullName": "Scot Gaylord",
-    "EmailAddress": "cornell_botsford@romaguera.info",
-    "ContactId": 862,
-    "ContactName": "Dietrich, Kemmer and Schowalter",
+    "PersonId": 813,
+    "FullName": "Maximilian Ziemann",
+    "EmailAddress": "merritt@morissette.us",
+    "ContactId": 247,
+    "ContactName": "Funk, Effertz and Turcotte",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Torphy-Little",
+    "SortName": "Kerluke-Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

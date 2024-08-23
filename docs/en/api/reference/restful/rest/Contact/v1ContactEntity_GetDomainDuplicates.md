@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schmeler, Kub and Koelpin",
-    "SoPrimaryKey": 686,
-    "EntryName": "Stamm-Oberbrunner",
-    "EntryIdentifier": "tempora",
-    "RuleDisplayName": "Moore, Hartmann and Farrell",
+    "RuleName": "Wiegand Inc and Sons",
+    "SoPrimaryKey": 94,
+    "EntryName": "Johns Group",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Ankunding LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   }

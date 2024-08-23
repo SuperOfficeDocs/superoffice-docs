@@ -2,10 +2,10 @@
 uid: timezoneagent-getdefaulttimezonepreference
 title: TimeZoneAgent.GetDefaultTimeZonePreference event method
 description: Scripting events called on the GetDefaultTimeZonePreference method on the TimeZoneAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TimeZoneAgent.GetDefaultTimeZonePreference
 

@@ -3,9 +3,9 @@ uid: reasonstalled
 title: reasonstalled
 keywords: mdoprovider mdo provider reasonstalled
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "reasonstalled" MDO List

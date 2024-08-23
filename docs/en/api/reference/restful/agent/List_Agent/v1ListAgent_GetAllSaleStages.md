@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 133,
-    "Value": "accusamus",
-    "Tooltip": "corporis",
-    "Probability": 577,
-    "Deleted": false,
-    "Rank": 83,
+    "SaleStageId": 593,
+    "Value": "unde",
+    "Tooltip": "omnis",
+    "Probability": 58,
+    "Deleted": true,
+    "Rank": 632,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

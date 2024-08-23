@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Lesch, Rice and Hirthe"
+  "FileName": "Weimann, Nitzsche and Hauck"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 696,
-      "ContactName": "Mitchell-Ritchie",
-      "PersonId": 398,
-      "PersonName": "Mills-Trantow",
-      "AssociateId": 559,
-      "Address": "minus",
-      "EmailId": 363,
+      "ContactId": 104,
+      "ContactName": "Runolfsdottir Inc and Sons",
+      "PersonId": 296,
+      "PersonName": "Jast-Wisozk",
+      "AssociateId": 597,
+      "Address": "non",
+      "EmailId": 260,
       "DuplicatePersonIds": [
-        191,
-        990
+        553,
+        114
       ],
-      "Name": "Cartwright-Donnelly",
+      "Name": "Fritsch-Runte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 994
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 271,
-      "ContactName": "Tromp, Harris and Connelly",
-      "PersonId": 698,
-      "PersonName": "Borer-Grady",
-      "AssociateId": 117,
-      "Address": "incidunt",
-      "EmailId": 562,
+      "ContactId": 950,
+      "ContactName": "Pagac Inc and Sons",
+      "PersonId": 58,
+      "PersonName": "Gulgowski Group",
+      "AssociateId": 182,
+      "Address": "eos",
+      "EmailId": 165,
       "DuplicatePersonIds": [
-        80,
-        569
+        615,
+        239
       ],
-      "Name": "Wilkinson-Morissette",
+      "Name": "Ernser-Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldLength": 719
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 559,
-      "ContactName": "Gerhold-Champlin",
-      "PersonId": 934,
-      "PersonName": "Rohan-O'Hara",
-      "AssociateId": 245,
-      "Address": "enim",
-      "EmailId": 488,
+      "ContactId": 488,
+      "ContactName": "Dach Inc and Sons",
+      "PersonId": 845,
+      "PersonName": "Lang Inc and Sons",
+      "AssociateId": 298,
+      "Address": "molestias",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        668,
-        671
+        629,
+        770
       ],
-      "Name": "Wilderman-Walter",
+      "Name": "Bartoletti Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldLength": 404
         }
       }
     }
   ],
-  "Subject": "architecto",
-  "HTMLBody": "aut",
+  "Subject": "autem",
+  "HTMLBody": "totam",
   "From": null,
-  "Sent": "2021-02-08T04:22:26.7840717+01:00",
-  "Size": 644,
+  "Sent": "2003-01-16T13:28:22.7573023+01:00",
+  "Size": 543,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vitae",
-  "PlainBody": "ut",
+  "MessageID": "quia",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 340,
+  "ServerId": 643,
   "Attachments": [
     {
-      "Description": "Organized multimedia website",
-      "Filename": "dicta",
-      "Size": 985,
-      "Type": "et",
-      "Encoding": "fugiat",
-      "Id": "error",
-      "Disposition": "facere",
-      "IsSafeFileExtension": true,
+      "Description": "Centralized empowering implementation",
+      "Filename": "excepturi",
+      "Size": 840,
+      "Type": "eos",
+      "Encoding": "molestiae",
+      "Id": "id",
+      "Disposition": "aut",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldLength": 952
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Rowe-Hayes",
       "Values": [
-        "quam",
-        "veritatis"
+        "voluptatem",
+        "rem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     },
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Rowe-Hayes",
       "Values": [
-        "quam",
-        "veritatis"
+        "voluptatem",
+        "rem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
   ],
-  "FolderName": "Nitzsche, Boehm and Effertz",
-  "EmailItemId": 889,
-  "AccountId": 152,
-  "ReceivedAt": "2021-02-06T04:22:26.7840717+01:00",
+  "FolderName": "Reichert-Lemke",
+  "EmailItemId": 192,
+  "AccountId": 486,
+  "ReceivedAt": "2020-07-29T13:28:22.7573023+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-03-05T04:22:26.7840717+01:00",
+  "RepliedAt": "2000-07-10T13:28:22.7573023+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 378
     }
   }
 }

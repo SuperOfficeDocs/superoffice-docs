@@ -3,9 +3,9 @@ uid: QuoteLineShadowStaticSelectionV2
 title: QuoteLineShadowStaticSelectionV2
 description: Shadow contact provider for the static quoteline prov ider.
 keywords: QuoteLineShadowStaticSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteLineShadowStaticSelectionV2"
@@ -758,7 +758,7 @@ Shadow contact provider for the static quoteline prov ider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=quoteLineThumbnailLarge,discountAmount,alternative/version/quote/sale/soldReason,alternative/version/quote/sale/person/email/emailLastBounce,alternative/version/quote/sale/person/restrictionAddress/wgs84longitude
+GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/paymentType,alternative/version/quote/sale/personId,alternative/version/quote/sale/person/birthdate,alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/correspondingAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

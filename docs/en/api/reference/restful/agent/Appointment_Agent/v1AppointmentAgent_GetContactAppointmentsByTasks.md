@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 359,
-  "StartTime": "2023-12-11T04:22:25.558472+01:00",
-  "EndTime": "1998-02-16T04:22:25.558472+01:00",
-  "Count": 729,
+  "ContactId": 493,
+  "StartTime": "2012-06-20T13:28:21.4292674+02:00",
+  "EndTime": "2015-11-07T13:28:21.4292674+01:00",
+  "Count": 276,
   "TaskIds": [
-    109,
-    347
+    855,
+    939
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 647,
-    "StartDate": "2015-09-09T04:22:25.558472+02:00",
-    "EndDate": "2015-02-02T04:22:25.558472+01:00",
+    "AppointmentId": 556,
+    "StartDate": "2011-03-08T13:28:21.4448873+01:00",
+    "EndDate": "2001-01-27T13:28:21.4448873+01:00",
     "Type": "BookingForChecklist",
-    "Task": "vitae",
-    "AssociateFullName": "Sigurd Kulas",
-    "ContactName": "Lebsack-Bruen",
-    "Description": "Compatible background encoding",
-    "PersonFullName": "Ms. Audrey Sanford MD",
-    "PersonId": 1000,
-    "ContactId": 972,
-    "ProjectId": 935,
-    "ProjectName": "Pagac-Stark",
+    "Task": "debitis",
+    "AssociateFullName": "Oscar VonRueden",
+    "ContactName": "Rolfson, Barrows and Hauck",
+    "Description": "Robust multimedia moderator",
+    "PersonFullName": "Jeffrey Hahn III",
+    "PersonId": 521,
+    "ContactId": 913,
+    "ProjectId": 452,
+    "ProjectName": "Murazik Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 560,
-    "ColorIndex": 474,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 590,
+    "ColorIndex": 432,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 501,
-    "PriorityName": "Predovic-Moore",
+    "PriorityId": 643,
+    "PriorityName": "McClure LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2000-09-20T04:22:25.558472+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2003-06-03T13:28:21.4448873+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-12-24T04:22:25.558472+01:00",
-    "RecurringEndDate": "2021-02-08T04:22:25.558472+01:00",
-    "MotherId": 930,
-    "AssignedBy": 848,
-    "AssignedByFullName": "Violet Schinner",
+    "RecurringStartDate": "2018-03-06T13:28:21.4448873+01:00",
+    "RecurringEndDate": "2010-10-28T13:28:21.4448873+02:00",
+    "MotherId": 252,
+    "AssignedBy": 221,
+    "AssignedByFullName": "Prof. Sylvester Koelpin",
     "RejectReason": "",
-    "Location": "incidunt",
-    "AlarmLeadTime": "explicabo",
-    "SaleId": 197,
-    "SaleName": "Stroman, Frami and Walker",
-    "AssociateName": "Klein-Walker",
-    "CreatedDate": "2009-11-15T04:22:25.558472+01:00",
-    "CreatedBy": "enim",
-    "CreatedByFullName": "Vivien Senger",
-    "CreatedByAssociateId": 767,
+    "Location": "sint",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 450,
+    "SaleName": "Okuneva, Beahan and Jerde",
+    "AssociateName": "Sporer-Stroman",
+    "CreatedDate": "2000-05-08T13:28:21.4448873+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Ms. Jesse Cartwright",
+    "CreatedByAssociateId": 184,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 837,
-    "Title": "est",
-    "Agenda": "et",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 152,
+    "Title": "aut",
+    "Agenda": "est",
+    "InternalNotes": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldLength": 752
       }
     }
   }

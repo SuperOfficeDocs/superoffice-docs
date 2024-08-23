@@ -3,9 +3,9 @@ uid: WebAppUsage
 title: WebAppUsage
 description: 
 keywords: WebAppUsage archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "WebAppUsage"
@@ -66,7 +66,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/WebAppUsage?$select=fileVersion,associate/contactId,associate/usergroup
+GET /api/v1/archive/WebAppUsage?$select=assocId,associate/contactId,associate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

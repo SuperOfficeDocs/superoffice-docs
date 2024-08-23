@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=commodi
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=accusantium
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 12 Aug 2001 04:22:35 G8T
+Last-Modified: Thu, 03 May 2012 13:28:31 G5T
 
 {
-  "Key": "ut",
-  "Value": "quidem",
-  "RecordId": 960,
-  "CreatedDate": "2012-10-29T04:22:35.0010854+01:00",
-  "UpdatedDate": "2001-08-12T04:22:35.0010854+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "omnis",
-  "TableName": "Mayert, Rolfson and Gutkowski",
+  "Key": "beatae",
+  "Value": "dolores",
+  "RecordId": 168,
+  "CreatedDate": "2011-07-20T13:28:31.6948645+02:00",
+  "UpdatedDate": "2012-05-03T13:28:31.6948645+02:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "distinctio",
+  "TableName": "Runolfsson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldLength": 349
     }
   }
 }

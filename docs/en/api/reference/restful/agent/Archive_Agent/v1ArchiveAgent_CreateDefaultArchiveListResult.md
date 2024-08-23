@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 721,
+  "RowCount": 335,
   "Rows": [
     {
-      "EntityName": "Kovacek, Roob and Pagac",
-      "PrimaryKey": 675,
+      "EntityName": "Johns LLC",
+      "PrimaryKey": 787,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "nihil",
-          "LinkHint": "nemo"
+          "DisplayValue": "facilis",
+          "TooltipHint": "minus",
+          "LinkHint": "harum"
         }
       },
-      "LinkHint": "consectetur",
-      "StyleHint": "corrupti",
+      "LinkHint": "eaque",
+      "StyleHint": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 75
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 209
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Kassulke, Lesch and Ryan",
-  "Tooltip": "quia",
+  "Id": 902,
+  "Name": "Jerde Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 812,
-  "Rank": 437,
+  "UdListDefinitionId": 701,
+  "Rank": 352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

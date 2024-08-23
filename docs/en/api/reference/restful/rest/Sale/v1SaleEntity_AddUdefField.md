@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 887,
-  "ColumnId": 312,
-  "FieldDefault": "id",
-  "FieldHeight": 321,
-  "FieldLabel": "eos",
-  "FieldLeft": 480,
-  "FieldTop": 674,
+  "UDefFieldId": 81,
+  "ColumnId": 106,
+  "FieldDefault": "quidem",
+  "FieldHeight": 698,
+  "FieldLabel": "recusandae",
+  "FieldLeft": 561,
+  "FieldTop": 289,
   "FieldType": "Checkbox",
-  "FieldWidth": 110,
-  "FormatMask": "amet",
-  "HideLabel": true,
+  "FieldWidth": 169,
+  "FormatMask": "ea",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 12,
-  "LabelLeft": 833,
-  "LabelTop": 329,
-  "LabelWidth": 552,
-  "LastVersionId": 981,
-  "ListTableId": 631,
+  "LabelHeight": 889,
+  "LabelLeft": 70,
+  "LabelTop": 259,
+  "LabelWidth": 703,
+  "LastVersionId": 928,
+  "ListTableId": 436,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 107,
-  "ProgId": "praesentium",
+  "Page1LineNo": 377,
+  "ProgId": "sit",
   "IsReadOnly": true,
-  "ShortLabel": "alias",
-  "TabOrder": 994,
-  "TextLength": 822,
-  "Tooltip": "aut",
-  "UdefIdentity": 82,
-  "UDListDefinitionId": 715,
+  "ShortLabel": "occaecati",
+  "TabOrder": 742,
+  "TextLength": 680,
+  "Tooltip": "velit",
+  "UdefIdentity": 662,
+  "UDListDefinitionId": 391,
   "Justification": "Center",
-  "Version": 383,
-  "TemplateVariableName": "Kunze-Fay",
+  "Version": 671,
+  "TemplateVariableName": "Bechtelar, Volkman and Powlowski",
   "HasBeenPublished": false,
-  "MdoListName": "Boehm-Collier",
+  "MdoListName": "Okuneva LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

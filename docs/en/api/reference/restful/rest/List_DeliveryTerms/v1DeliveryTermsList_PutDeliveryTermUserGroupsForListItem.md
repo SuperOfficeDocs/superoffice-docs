@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Adams LLC",
-    "ToolTip": "Atque maxime quo sunt at consectetur distinctio.",
+    "Id": 451,
+    "Name": "Gottlieb, Adams and Cole",
+    "ToolTip": "Minus voluptate commodi.",
     "Deleted": false,
-    "Rank": 124,
-    "Type": "recusandae",
-    "ColorBlock": 392,
-    "IconHint": "deleniti",
+    "Rank": 916,
+    "Type": "culpa",
+    "ColorBlock": 785,
+    "IconHint": "nostrum",
     "Selected": true,
-    "LastChanged": "2005-12-01T04:22:35.9247166+01:00",
+    "LastChanged": "2001-09-30T13:28:32.8197387+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Goodwin, Lakin and Cole",
-        "ToolTip": "Aut saepe.",
+        "Id": 962,
+        "Name": "Bartell, Reinger and Renner",
+        "ToolTip": "Voluptatum nostrum et.",
         "Deleted": false,
-        "Rank": 137,
-        "Type": "numquam",
-        "ColorBlock": 726,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2003-06-23T04:22:35.9247166+02:00",
+        "Rank": 501,
+        "Type": "omnis",
+        "ColorBlock": 164,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2018-04-17T13:28:32.8197387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "ratione",
+        "ExtraInfo": "id",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Mrs. Bertrand Spencer IV"
+        "FullName": "Alek Hand"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "ut",
+    "ExtraInfo": "illum",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Dr. Claudie Marcelina Zulauf III"
+    "FullName": "Abdiel Rosenbaum"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Wolf, Fritsch and Goldner",
-    "ToolTip": "Quos aut optio qui molestiae delectus possimus maiores.",
-    "Deleted": true,
-    "Rank": 810,
-    "Type": "cupiditate",
-    "ColorBlock": 111,
-    "IconHint": "et",
+    "Id": 684,
+    "Name": "Mante-Wunsch",
+    "ToolTip": "Quos laborum quasi explicabo ut et.",
+    "Deleted": false,
+    "Rank": 976,
+    "Type": "dolor",
+    "ColorBlock": 63,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1998-05-02T04:22:35.9247166+02:00",
+    "LastChanged": "2011-10-27T13:28:32.8197387+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Zulauf Inc and Sons",
-        "ToolTip": "Dignissimos in quibusdam totam minima.",
-        "Deleted": false,
-        "Rank": 370,
-        "Type": "sed",
-        "ColorBlock": 727,
-        "IconHint": "explicabo",
+        "Id": 842,
+        "Name": "Walter Group",
+        "ToolTip": "Ea iusto in numquam corrupti ullam qui.",
+        "Deleted": true,
+        "Rank": 882,
+        "Type": "amet",
+        "ColorBlock": 473,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2003-06-30T04:22:35.9247166+02:00",
+        "LastChanged": "2016-10-22T13:28:32.8197387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Prof. Ubaldo Orin Reinger",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Savannah Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 697
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Mr. Ara Caleb Jewess Jr.",
+    "ExtraInfo": "nihil",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Ms. Ali Javon Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 988
       }
     }
   }

@@ -3,9 +3,9 @@ uid: ChatConversationShadowDynamicSelectionSingleCriteriaGroup
 title: ChatConversationShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic appointmnet provider.
 keywords: ChatConversationShadowDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ChatConversationShadowDynamicSelectionSingleCriteriaGroup"
@@ -481,7 +481,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=rating,person/rank,person/personExtra/x_person_shorttext_list,contact/contactAssociate/mrMrs,contact/contactExtra/x_contact_contact
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=person/restrictionAddress/line3,contact/name,contact/code,contact/url/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

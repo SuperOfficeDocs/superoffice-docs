@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "ut",
-      "ValueType": "consequuntur",
+      "Key": "quia",
+      "ValueType": "odio",
       "Mandatory": false,
-      "EncodedDisplayName": "Huel-Botsford",
-      "EncodedDisplayDescription": "Enhanced 3rd generation artificial intelligence",
-      "IconHint": "aspernatur",
+      "EncodedDisplayName": "Langosh, Kuphal and Romaguera",
+      "EncodedDisplayDescription": "Automated local contingency",
+      "IconHint": "aut",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "rerum",
-      "EncodedDataCaptionDescription": "Front-line exuding hierarchy",
-      "CurrentOperationType": "in",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Proactive intermediate knowledge user",
+      "CurrentOperationType": "maxime",
       "Values": [
-        "asperiores",
+        "eligendi",
         "mollitia"
       ],
       "DisplayValues": [
-        "mollitia",
-        "consectetur"
+        "similique",
+        "voluptas"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Mayer, Orn and O'Reilly",
-  "Context": "est",
-  "SelectionId": 726,
-  "IsShadow": false
+  "TableName": "Greenholt Inc and Sons",
+  "Context": "dolor",
+  "SelectionId": 962,
+  "IsShadow": true
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-55
+982
 ```

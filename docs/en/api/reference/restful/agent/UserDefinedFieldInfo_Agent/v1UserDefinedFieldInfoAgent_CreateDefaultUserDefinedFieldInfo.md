@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 867,
-  "ColumnId": 197,
-  "FieldDefault": "iusto",
-  "FieldHeight": 513,
-  "FieldLabel": "minus",
-  "FieldLeft": 707,
-  "FieldTop": 469,
+  "UDefFieldId": 399,
+  "ColumnId": 321,
+  "FieldDefault": "numquam",
+  "FieldHeight": 822,
+  "FieldLabel": "sed",
+  "FieldLeft": 298,
+  "FieldTop": 415,
   "FieldType": "Checkbox",
-  "FieldWidth": 604,
-  "FormatMask": "voluptatibus",
+  "FieldWidth": 528,
+  "FormatMask": "autem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 600,
-  "LabelLeft": 353,
-  "LabelTop": 837,
-  "LabelWidth": 39,
-  "LastVersionId": 676,
-  "ListTableId": 759,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 212,
+  "LabelLeft": 703,
+  "LabelTop": 312,
+  "LabelWidth": 295,
+  "LastVersionId": 805,
+  "ListTableId": 31,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 617,
-  "ProgId": "blanditiis",
+  "Page1LineNo": 612,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 117,
-  "TextLength": 53,
-  "Tooltip": "eveniet",
-  "UdefIdentity": 524,
-  "UDListDefinitionId": 996,
+  "ShortLabel": "eaque",
+  "TabOrder": 233,
+  "TextLength": 928,
+  "Tooltip": "adipisci",
+  "UdefIdentity": 189,
+  "UDListDefinitionId": 427,
   "Justification": "Center",
-  "Version": 498,
-  "TemplateVariableName": "Vandervort LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Jones, Stoltenberg and Davis",
+  "Version": 75,
+  "TemplateVariableName": "Crooks LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "McGlynn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 67
     }
   }
 }

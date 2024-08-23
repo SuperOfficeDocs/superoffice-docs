@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741
+  "Id": 488
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "alias",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "aspernatur",
-  "DisplayTooltip": "beatae",
+  "DisplayValue": "vel",
+  "DisplayTooltip": "sit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 371,
-  "PrefDescId": 184,
-  "TableName": "Yundt-Lindgren",
-  "UserPreferenceId": 406,
+  "TargetId": 716,
+  "PrefDescId": 690,
+  "TableName": "Herman Inc and Sons",
+  "UserPreferenceId": 46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 184
     }
   }
 }

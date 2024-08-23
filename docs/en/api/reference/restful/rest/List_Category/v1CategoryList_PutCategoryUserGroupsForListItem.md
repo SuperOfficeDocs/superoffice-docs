@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Moore Inc and Sons",
-    "ToolTip": "Sed ut sint at saepe aut corrupti.",
+    "Id": 106,
+    "Name": "Boehm LLC",
+    "ToolTip": "Impedit molestiae porro modi voluptatibus laborum id.",
     "Deleted": false,
-    "Rank": 487,
-    "Type": "explicabo",
-    "ColorBlock": 83,
-    "IconHint": "eos",
+    "Rank": 131,
+    "Type": "ratione",
+    "ColorBlock": 349,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2012-12-07T04:22:35.830971+01:00",
+    "LastChanged": "2010-03-31T13:28:32.694768+02:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Parisian, Reinger and O'Conner",
-        "ToolTip": "Ab sequi.",
+        "Id": 458,
+        "Name": "Baumbach, Feil and Kirlin",
+        "ToolTip": "Et veniam dolores odit nostrum et eligendi et.",
         "Deleted": false,
-        "Rank": 467,
-        "Type": "sequi",
-        "ColorBlock": 275,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2023-08-23T04:22:35.830971+02:00",
+        "Rank": 636,
+        "Type": "cum",
+        "ColorBlock": 372,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2014-03-30T13:28:32.694768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Jaiden Haag"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Prof. Serenity Wolf"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "sequi",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Christophe Morissette"
+    "FullName": "Helena Thompson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Jacobs, Abernathy and Beier",
-    "ToolTip": "Non cupiditate iusto.",
-    "Deleted": true,
-    "Rank": 825,
-    "Type": "qui",
-    "ColorBlock": 775,
-    "IconHint": "blanditiis",
+    "Id": 357,
+    "Name": "Hermiston-Bogisich",
+    "ToolTip": "Dolor itaque voluptatum sint velit et incidunt.",
+    "Deleted": false,
+    "Rank": 567,
+    "Type": "minus",
+    "ColorBlock": 157,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1997-06-13T04:22:35.830971+02:00",
+    "LastChanged": "2013-09-08T13:28:32.694768+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Herman-Crooks",
-        "ToolTip": "Vero ipsa expedita et sit odio ad.",
+        "Id": 238,
+        "Name": "Blanda, Dicki and Hermiston",
+        "ToolTip": "Repudiandae vel dicta dolores.",
         "Deleted": true,
-        "Rank": 904,
-        "Type": "pariatur",
-        "ColorBlock": 422,
-        "IconHint": "aliquam",
+        "Rank": 229,
+        "Type": "tempora",
+        "ColorBlock": 701,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2001-09-09T04:22:35.830971+02:00",
+        "LastChanged": "1997-07-25T13:28:32.694768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Giovanny Kailey Mante DDS",
+        "ExtraInfo": "optio",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Lincoln Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Roderick Gusikowski",
+    "ExtraInfo": "ut",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Mr. Denis Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 902
       }
     }
   }

@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Bartell-Russel",
-  "StorageKey": "et",
+  "StorageType": "quasi",
+  "ProviderName": "O'Reilly-Nitzsche",
+  "StorageKey": "iste",
   "StaticColumns": [
-    "illum",
-    "rerum"
+    "et",
+    "repellat"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bogan LLC",
-      "Operator": "et",
+      "Name": "Lebsack Group",
+      "Operator": "accusantium",
       "Values": [
-        "rerum",
-        "corporis"
+        "possimus",
+        "itaque"
       ],
       "DisplayValues": [
-        "similique",
-        "molestiae"
+        "omnis",
+        "a"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 576,
+      "InterParenthesis": 777,
       "InterOperator": "And",
-      "UniqueHash": 58
+      "UniqueHash": 383
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Walsh LLC",
-      "DisplayTooltip": "autem",
-      "DisplayType": "saepe",
-      "CanOrderBy": true,
-      "Name": "Kreiger-Klocko",
-      "CanRestrictBy": false,
-      "RestrictionType": "porro",
-      "RestrictionListName": "D'Amore Group",
-      "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "dolorum",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "cum"
+      "DisplayName": "Cassin, Ledner and Orn",
+      "DisplayTooltip": "totam",
+      "DisplayType": "officia",
+      "CanOrderBy": false,
+      "Name": "Wiegand, Kutch and Hessel",
+      "CanRestrictBy": true,
+      "RestrictionType": "quod",
+      "RestrictionListName": "Bartell, Satterfield and Ondricka",
+      "IsVisible": true,
+      "ExtraInfo": "doloremque",
+      "Width": "omnis",
+      "IconHint": "est",
+      "HeadingIconHint": "sed"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Wiza Group",
-      "PrimaryKey": 202,
+      "EntityName": "Kautzer, Labadie and Mayert",
+      "PrimaryKey": 803,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "numquam",
-          "TooltipHint": "omnis",
-          "LinkHint": "consequatur"
+          "DisplayValue": "provident",
+          "TooltipHint": "in",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "commodi",
+      "LinkHint": "aut",
+      "StyleHint": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 595
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Brakus Inc and Sons",
-      "Description": "Multi-lateral value-added protocol",
-      "Rank": 393,
+      "Name": "Koch-Kilback",
+      "Description": "Multi-channelled 6th generation installation",
+      "Rank": 326,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Brakus Inc and Sons",
-      "Description": "Multi-lateral value-added protocol",
-      "Rank": 393,
+      "Name": "Koch-Kilback",
+      "Description": "Multi-channelled 6th generation installation",
+      "Rank": 326,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 801
     }
   }
 }

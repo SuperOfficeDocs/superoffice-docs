@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 358
+  "QuoteAlternativeId": 356
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 320,
-    "ERPQuoteLineKey": "et",
-    "QuoteAlternativeId": 529,
-    "ERPProductKey": "quia",
+    "QuoteLineId": 970,
+    "ERPQuoteLineKey": "doloremque",
+    "QuoteAlternativeId": 985,
+    "ERPProductKey": "possimus",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 20208.032,
-    "DeliveredQuantity": 14808.15,
-    "Rank": 669,
-    "Name": "Kirlin, DuBuque and Cummerata",
-    "Description": "Fully-configurable eco-centric middleware",
-    "Code": "quia",
-    "QuantityUnit": "neque",
-    "PriceUnit": "quas",
-    "ItemNumber": "1309849",
+    "Quantity": 21768.764,
+    "DeliveredQuantity": 11429.698,
+    "Rank": 927,
+    "Name": "Blanda-Murphy",
+    "Description": "De-engineered human-resource emulation",
+    "Code": "voluptate",
+    "QuantityUnit": "ut",
+    "PriceUnit": "tempora",
+    "ItemNumber": "1170507",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
     "ProductFamilyKey": "commodi",
-    "ProductTypeKey": "vitae",
-    "Supplier": "accusamus",
-    "SupplierCode": "molestiae",
-    "Thumbnail": "consectetur",
-    "VATInfo": "laboriosam",
-    "VAT": 2717.178,
-    "UnitCost": 43.876,
-    "UnitMinimumPrice": 959.004,
-    "UnitListPrice": 10815.434,
+    "ProductTypeKey": "id",
+    "Supplier": "et",
+    "SupplierCode": "officia",
+    "Thumbnail": "amet",
+    "VATInfo": "nisi",
+    "VAT": 25632.986,
+    "UnitCost": 2754.786,
+    "UnitMinimumPrice": 21934.865999999998,
+    "UnitListPrice": 30641.118,
     "ExtraInfo": [
       {
-        "Name": "Hauck Inc and Sons",
-        "Value": "beatae",
+        "Name": "Heidenreich, Luettgen and Hegmann",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldType": "System.String",
+            "FieldLength": 948
           }
         }
       },
       {
-        "Name": "Hauck Inc and Sons",
-        "Value": "beatae",
+        "Name": "Heidenreich, Luettgen and Hegmann",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldType": "System.String",
+            "FieldLength": 948
           }
         }
       }
     ],
-    "RawExtraInfo": "ut",
-    "IsSubscription": true,
-    "SubscriptionUnit": "deleniti",
-    "SubscriptionQuantity": 17155.516,
-    "SubscriptionStart": "2024-05-16T04:22:27.4403662+02:00",
-    "ERPDiscountPercent": 4914.112,
-    "ERPDiscountAmount": 27845.59,
-    "DiscountPercent": 27384.892,
-    "DiscountAmount": 10417.416,
+    "RawExtraInfo": "qui",
+    "IsSubscription": false,
+    "SubscriptionUnit": "est",
+    "SubscriptionQuantity": 8734.458,
+    "SubscriptionStart": "2009-01-20T13:28:23.5855044+01:00",
+    "ERPDiscountPercent": 3829.748,
+    "ERPDiscountAmount": 29287.23,
+    "DiscountPercent": 29584.96,
+    "DiscountAmount": 6565.73,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 19951.043999999998,
-    "EarningAmount": 15453.753999999999,
-    "SubTotal": 23746.318,
-    "TotalPrice": 6440.37,
-    "Rights": "repellat",
-    "Rule": "enim",
-    "ExtraField1": "nemo",
-    "ExtraField2": "modi",
-    "ExtraField3": "consectetur",
-    "ExtraField4": "praesentium",
-    "ExtraField5": "impedit",
+    "EarningPercent": 3789.006,
+    "EarningAmount": 11398.358,
+    "SubTotal": 26711.082,
+    "TotalPrice": 5873.116,
+    "Rights": "voluptas",
+    "Rule": "in",
+    "ExtraField1": "sed",
+    "ExtraField2": "cumque",
+    "ExtraField3": "voluptatum",
+    "ExtraField4": "non",
+    "ExtraField5": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 562
       }
     }
   }

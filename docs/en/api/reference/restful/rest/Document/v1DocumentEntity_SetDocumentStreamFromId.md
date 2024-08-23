@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 1001,
+  "DocumentId": 553,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veritatis",
-  "Header": "omnis",
-  "Name": "Bartell, Wiza and Jakubowski",
-  "OurRef": "eaque",
-  "YourRef": "corrupti",
-  "CreatedDate": "2015-06-17T04:22:34.9385398+02:00",
-  "UpdatedDate": "2004-07-27T04:22:34.9385398+02:00",
-  "Description": "Vision-oriented zero defect application",
+  "Attention": "alias",
+  "Header": "repudiandae",
+  "Name": "Kassulke Group",
+  "OurRef": "dolor",
+  "YourRef": "repudiandae",
+  "CreatedDate": "2005-09-22T13:28:31.6323769+02:00",
+  "UpdatedDate": "2002-07-29T13:28:31.6323769+02:00",
+  "Description": "Expanded neutral hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-11-10T04:22:34.9385398+01:00",
-  "ExternalRef": "error",
+  "Date": "2002-05-14T13:28:31.6323769+02:00",
+  "ExternalRef": "sint",
   "Completed": "Completed",
-  "ActiveLinks": 95,
+  "ActiveLinks": 749,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Beahan-Connelly",
-      "Id": 159,
-      "Description": "Expanded clear-thinking product",
-      "ExtraInfo": "et",
-      "LinkId": 708,
+      "EntityName": "Rohan, Gusikowski and Rath",
+      "Id": 473,
+      "Description": "Grass-roots multi-state projection",
+      "ExtraInfo": "sit",
+      "LinkId": 367,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 549
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 748,
-  "Snum": 88,
+  "SuggestedDocumentId": 427,
+  "Snum": 250,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1098887382",
+    "SuperOffice:2": "Ms. Trace Juanita Heller PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "eos"
+    "CustomFields1": "ut",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2001-11-23T04:22:34.9385398+01:00",
-  "PublishTo": "2012-08-11T04:22:34.9385398+02:00",
-  "PublishFrom": "2009-08-14T04:22:34.9385398+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-11-10T13:28:31.6323769+01:00",
+  "PublishTo": "1997-06-04T13:28:31.6323769+02:00",
+  "PublishFrom": "2018-08-02T13:28:31.6323769+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 920,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 162
         }
       }
     },
     {
-      "VisibleId": 920,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 162
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

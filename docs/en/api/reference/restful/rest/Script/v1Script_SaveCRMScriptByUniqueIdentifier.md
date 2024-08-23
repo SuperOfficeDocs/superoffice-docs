@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "laborum",
-  "Name": "Kirlin, Kuvalis and Walker",
-  "Description": "Advanced bi-directional standardization",
-  "IncludeId": "fugit",
-  "Source": "aliquid",
-  "Registered": "2011-10-03T04:22:35.7053519+02:00",
-  "RegisteredBy": "accusamus",
-  "Updated": "2009-12-26T04:22:35.7053519+01:00",
-  "UpdatedBy": "quod",
-  "Path": "nihil"
+  "UniqueIdentifier": "provident",
+  "Name": "Purdy LLC",
+  "Description": "Expanded even-keeled monitoring",
+  "IncludeId": "molestias",
+  "Source": "aut",
+  "Registered": "2017-08-20T13:28:32.5385534+02:00",
+  "RegisteredBy": "velit",
+  "Updated": "2015-09-04T13:28:32.5385534+02:00",
+  "UpdatedBy": "nihil",
+  "Path": "non"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "veritatis",
-  "Name": "Abernathy, Goyette and Erdman",
-  "Description": "User-friendly directional intranet",
-  "IncludeId": "sunt",
-  "Source": "dolor",
-  "Registered": "2010-05-12T04:22:35.7053519+02:00",
-  "RegisteredBy": "aut",
-  "Updated": "2003-05-01T04:22:35.7053519+02:00",
-  "UpdatedBy": "at",
-  "Path": "error",
+  "UniqueIdentifier": "eos",
+  "Name": "Donnelly LLC",
+  "Description": "Future-proofed mission-critical data-warehouse",
+  "IncludeId": "molestias",
+  "Source": "id",
+  "Registered": "2003-11-13T13:28:32.5385534+01:00",
+  "RegisteredBy": "ut",
+  "Updated": "2018-07-17T13:28:32.5385534+02:00",
+  "UpdatedBy": "rem",
+  "Path": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

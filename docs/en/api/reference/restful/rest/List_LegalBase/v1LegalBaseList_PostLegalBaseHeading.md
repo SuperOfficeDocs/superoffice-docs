@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 23,
-  "Name": "Mraz, Schimmel and Hagenes",
-  "Tooltip": "illo",
+  "HeadingId": 365,
+  "Name": "Bradtke Inc and Sons",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 311,
-  "UdListDefinitionId": 280
+  "Rank": 80,
+  "UdListDefinitionId": 757
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 563,
-  "Name": "Zboncak Inc and Sons",
-  "Tooltip": "consequatur",
+  "HeadingId": 137,
+  "Name": "Nikolaus-Lind",
+  "Tooltip": "vero",
   "Deleted": true,
-  "Rank": 149,
-  "UdListDefinitionId": 915,
+  "Rank": 613,
+  "UdListDefinitionId": 71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 291
     }
   }
 }

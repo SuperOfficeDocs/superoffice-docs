@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ullrich-Klein",
+  "TaskName": "Hahn, Cremin and Bechtelar",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Dickens, Conn and Balistreri",
-    "AssociateId": 309,
-    "DetailsTable": 428,
-    "DetailsRecord": 804,
+    "Id": 482,
+    "Name": "Johns, Luettgen and Kassulke",
+    "AssociateId": 413,
+    "DetailsTable": 198,
+    "DetailsRecord": 560,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "doloremque",
-      "ParameterObject2": "et"
+      "ParameterObject1": "dolores",
+      "ParameterObject2": "error"
     },
-    "LastStarted": "2015-12-27T04:22:26.0122232+01:00",
-    "Created": "2023-06-02T04:22:26.0122232+02:00",
-    "StartCount": 78,
-    "DatabaseSerialNumber": "840533",
-    "Context": "laudantium",
-    "Result": "qui",
+    "LastStarted": "2009-02-24T13:28:21.8512599+01:00",
+    "Created": "2004-11-11T13:28:21.8512599+01:00",
+    "StartCount": 351,
+    "DatabaseSerialNumber": "460739",
+    "Context": "voluptas",
+    "Result": "sit",
     "State": "All",
-    "Description": "Pre-emptive scalable structure",
-    "Response": "cumque",
-    "Request": "asperiores",
-    "ProgressDescription": "Innovative background system engine",
-    "ProgressPercent": 819,
-    "FileName": "Kemmer Inc and Sons",
+    "Description": "Function-based cohesive local area network",
+    "Response": "qui",
+    "Request": "non",
+    "ProgressDescription": "Balanced regional encryption",
+    "ProgressPercent": 403,
+    "FileName": "Sauer LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldType": "System.Int32",
+        "FieldLength": 480
       }
     }
   }

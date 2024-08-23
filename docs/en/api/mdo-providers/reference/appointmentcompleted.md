@@ -3,9 +3,9 @@ uid: appointmentcompleted
 title: appointmentcompleted
 keywords: mdoprovider mdo provider appointmentcompleted
 description: Appointment completed statuses - AppointmentStatus.NotStarted, AppointmentStatus.Completed
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "appointmentcompleted" MDO List

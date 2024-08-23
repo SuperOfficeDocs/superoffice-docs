@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 428,
-    "Name": "Pagac, Cassin and Osinski",
-    "Tooltip": "officiis",
-    "Deleted": false,
-    "Rank": 3,
-    "UdListDefinitionId": 702
+    "HeadingId": 701,
+    "Name": "Christiansen-Kulas",
+    "Tooltip": "maxime",
+    "Deleted": true,
+    "Rank": 197,
+    "UdListDefinitionId": 950
   },
   {
-    "HeadingId": 428,
-    "Name": "Pagac, Cassin and Osinski",
-    "Tooltip": "officiis",
-    "Deleted": false,
-    "Rank": 3,
-    "UdListDefinitionId": 702
+    "HeadingId": 701,
+    "Name": "Christiansen-Kulas",
+    "Tooltip": "maxime",
+    "Deleted": true,
+    "Rank": 197,
+    "UdListDefinitionId": 950
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 418,
-    "Name": "Deckow LLC",
-    "Tooltip": "asperiores",
+    "HeadingId": 638,
+    "Name": "Marvin-Bins",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 881,
-    "UdListDefinitionId": 106,
+    "Rank": 149,
+    "UdListDefinitionId": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 713
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   }

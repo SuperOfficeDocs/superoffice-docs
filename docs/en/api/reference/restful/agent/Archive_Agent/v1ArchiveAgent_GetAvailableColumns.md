@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "White, Hauck and Senger",
-  "Context": "qui"
+  "ProviderName": "Schinner, Nikolaus and Price",
+  "Context": "exercitationem"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kuhn, Haley and Mitchell",
-    "DisplayTooltip": "tempora",
-    "DisplayType": "sint",
+    "DisplayName": "Howe-Keebler",
+    "DisplayTooltip": "autem",
+    "DisplayType": "similique",
     "CanOrderBy": true,
-    "Name": "Herman, Spencer and Leffler",
-    "CanRestrictBy": false,
-    "RestrictionType": "labore",
-    "RestrictionListName": "Paucek-Hammes",
-    "IsVisible": true,
-    "ExtraInfo": "alias",
-    "Width": "inventore",
-    "IconHint": "quaerat",
-    "HeadingIconHint": "molestiae"
+    "Name": "Schimmel-Kub",
+    "CanRestrictBy": true,
+    "RestrictionType": "explicabo",
+    "RestrictionListName": "Beatty LLC",
+    "IsVisible": false,
+    "ExtraInfo": "ullam",
+    "Width": "tenetur",
+    "IconHint": "rerum",
+    "HeadingIconHint": "et"
   }
 ]
 ```

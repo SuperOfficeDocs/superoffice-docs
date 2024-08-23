@@ -3,9 +3,9 @@ uid: typicalsearch
 title: typicalsearch
 keywords: mdoprovider mdo provider typicalsearch
 description: MDO provider for the TypicalSearch Title, Tooltip and Id ExtraInfo parameter specifies the entity of the typical search rows to fetch
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "typicalsearch" MDO List

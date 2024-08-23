@@ -3,9 +3,9 @@ uid: ticketfavourite
 title: ticketfavourite
 keywords: mdoprovider mdo provider ticketfavourite
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ticketfavourite" MDO List

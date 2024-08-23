@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 487
+  "SelectionId": 5
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fisher-Leannon",
-    "Description": "Automated optimizing system engine",
-    "Rank": 571,
+    "Name": "Wyman Inc and Sons",
+    "Description": "Synergized analyzing process improvement",
+    "Rank": 741,
     "Restrictions": [
       {
-        "Name": "Denesik, Runolfsdottir and Corwin",
-        "Operator": "reiciendis",
+        "Name": "Kovacek, Prosacco and Monahan",
+        "Operator": "modi",
         "Values": [
-          "illo",
-          "eaque"
+          "ipsa",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatum",
-          "consequatur"
+          "vel",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 494,
+        "InterParenthesis": 182,
         "InterOperator": "And",
-        "UniqueHash": 713
+        "UniqueHash": 794
       }
     ]
   },
   {
-    "Name": "Fisher-Leannon",
-    "Description": "Automated optimizing system engine",
-    "Rank": 571,
+    "Name": "Wyman Inc and Sons",
+    "Description": "Synergized analyzing process improvement",
+    "Rank": 741,
     "Restrictions": [
       {
-        "Name": "Denesik, Runolfsdottir and Corwin",
-        "Operator": "reiciendis",
+        "Name": "Kovacek, Prosacco and Monahan",
+        "Operator": "modi",
         "Values": [
-          "illo",
-          "eaque"
+          "ipsa",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatum",
-          "consequatur"
+          "vel",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 494,
+        "InterParenthesis": 182,
         "InterOperator": "And",
-        "UniqueHash": 713
+        "UniqueHash": 794
       }
     ]
   }

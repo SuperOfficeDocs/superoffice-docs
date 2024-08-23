@@ -2,10 +2,10 @@
 uid: documentmigrationagent-getfortemplates
 title: DocumentMigrationAgent.GetForTemplates event method
 description: Scripting events called on the GetForTemplates method on the DocumentMigrationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DocumentMigrationAgent.GetForTemplates
 

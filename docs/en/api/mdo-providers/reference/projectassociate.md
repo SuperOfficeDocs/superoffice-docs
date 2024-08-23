@@ -3,9 +3,9 @@ uid: projectassociate
 title: projectassociate
 keywords: mdoprovider mdo provider projectassociate
 description: MDO provider for associates that are members of a project
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "projectassociate" MDO List

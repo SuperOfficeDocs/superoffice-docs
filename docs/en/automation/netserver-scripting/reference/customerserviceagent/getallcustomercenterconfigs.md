@@ -2,10 +2,10 @@
 uid: customerserviceagent-getallcustomercenterconfigs
 title: CustomerServiceAgent.GetAllCustomerCenterConfigs event method
 description: Scripting events called on the GetAllCustomerCenterConfigs method on the CustomerServiceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CustomerServiceAgent.GetAllCustomerCenterConfigs
 

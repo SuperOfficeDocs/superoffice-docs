@@ -2,10 +2,10 @@
 uid: marketingagent-verifygooglerecaptcha
 title: MarketingAgent.VerifyGoogleRecaptcha event method
 description: Scripting events called on the VerifyGoogleRecaptcha method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.VerifyGoogleRecaptcha
 

@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 601
+  "ProductId": 332
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 207,
-  "BlobSize": 992,
-  "Description": "Synergistic bi-directional policy",
-  "ExtraInfo": "ipsum",
+  "BlobId": 625,
+  "BlobSize": 841,
+  "Description": "Synchronised grid-enabled support",
+  "ExtraInfo": "ea",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 98,
-  "CreatedDate": "2017-09-03T04:22:26.0278466+02:00",
-  "UpdatedDate": "2011-10-29T04:22:26.0278466+02:00",
+  "MimeType": "alias",
+  "OriginalSize": 726,
+  "CreatedDate": "2005-02-13T13:28:21.8668811+01:00",
+  "UpdatedDate": "1998-11-06T13:28:21.8668811+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldLength": 862
     }
   }
 }

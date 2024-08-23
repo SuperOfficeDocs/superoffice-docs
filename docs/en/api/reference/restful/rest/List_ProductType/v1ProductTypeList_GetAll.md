@@ -25,7 +25,7 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=True
+GET /api/v1/List/ProductType/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Ryan LLC",
-    "Tooltip": "excepturi",
+    "Id": 313,
+    "Name": "McKenzie, Kunze and Quigley",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 626,
-    "Rank": 636,
+    "UdListDefinitionId": 963,
+    "Rank": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

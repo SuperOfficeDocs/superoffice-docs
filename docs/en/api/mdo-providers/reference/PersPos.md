@@ -3,9 +3,9 @@ uid: perspos
 title: perspos
 keywords: mdoprovider mdo provider perspos
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "perspos" MDO List

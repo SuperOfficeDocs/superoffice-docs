@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 26,
-  "Name": "Bergstrom, Spinka and Dare",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "UdListDefinitionId": 390,
-  "Rank": 972,
+  "Id": 292,
+  "Name": "Brakus Inc and Sons",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "UdListDefinitionId": 813,
+  "Rank": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 971
     }
   }
 }

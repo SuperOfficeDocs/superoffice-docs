@@ -70,8 +70,15 @@ CRMScriptEntity found.
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -86,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,23 +103,52 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 276,
+  "EjscriptId": 482,
   "UniqueIdentifier": "ea",
-  "Name": "Kutch-Ledner",
-  "Description": "Customizable real-time groupware",
-  "IncludeId": "dicta",
-  "HierarchyId": 475,
-  "Source": "qui",
-  "Registered": "2008-06-14T04:22:34.8589991+02:00",
-  "RegisteredAssociateId": 234,
-  "Updated": "2016-02-22T04:22:34.8589991+01:00",
-  "UpdatedAssociateId": 331,
+  "Name": "Williamson, Emmerich and Runolfsson",
+  "Description": "Integrated reciprocal hardware",
+  "IncludeId": "labore",
+  "AccessKey": "esse",
+  "HierarchyId": 568,
+  "Source": "voluptas",
+  "SourceCode": "sed",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 509,
+  "Includes": [
+    258,
+    209
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 918,
+      "LineNumberTo": 758,
+      "Delta": 14,
+      "IncludeId": "velit",
+      "IncludedFrom": [
+        "explicabo",
+        "ducimus"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 874
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2016-11-03T13:28:31.53865+01:00",
+  "RegisteredAssociateId": 280,
+  "Updated": "2014-04-24T13:28:31.53865+02:00",
+  "UpdatedAssociateId": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldLength": 942
     }
   },
   "_Links": {

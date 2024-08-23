@@ -3,9 +3,9 @@ uid: contactfavourite
 title: contactfavourite
 keywords: mdoprovider mdo provider contactfavourite
 description: MDO list provider for Favourites
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "contactfavourite" MDO List

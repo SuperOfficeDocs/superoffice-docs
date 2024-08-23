@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 149,
-    "Name": "Marquardt LLC",
-    "Tooltip": "et",
+    "HeadingId": 13,
+    "Name": "Considine Inc and Sons",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 132,
-    "UdListDefinitionId": 755
+    "Rank": 326,
+    "UdListDefinitionId": 121
   },
   {
-    "HeadingId": 149,
-    "Name": "Marquardt LLC",
-    "Tooltip": "et",
+    "HeadingId": 13,
+    "Name": "Considine Inc and Sons",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 132,
-    "UdListDefinitionId": 755
+    "Rank": 326,
+    "UdListDefinitionId": 121
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 811,
-    "Name": "Hegmann LLC",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 595,
-    "UdListDefinitionId": 326,
+    "HeadingId": 717,
+    "Name": "Schmeler LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 172,
+    "UdListDefinitionId": 520,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 472
       }
     }
   }

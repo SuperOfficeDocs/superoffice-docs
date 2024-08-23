@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Wehner, Anderson and Morissette",
+  "UserName": "Cartwright, Bradtke and Bailey",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 869,
-  "Name": "Rippin Group",
-  "Rank": 767,
-  "Tooltip": "officiis",
+  "AssociateId": 614,
+  "Name": "Toy, Ward and Hyatt",
+  "Rank": 881,
+  "Tooltip": "quasi",
   "LicenseOwners": [
     {
-      "Name": "Skiles-Hoeger",
-      "Description": "Synergized intangible hierarchy",
+      "Name": "Hirthe-Fahey",
+      "Description": "Seamless user-facing instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 632
         }
       }
     },
     {
-      "Name": "Skiles-Hoeger",
-      "Description": "Synergized intangible hierarchy",
+      "Name": "Hirthe-Fahey",
+      "Description": "Seamless user-facing instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 632
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "debitis",
-      "Tooltip": "ipsum",
-      "Id": 351,
-      "Rank": 528,
-      "Deleted": true,
+      "Value": "aliquid",
+      "Tooltip": "dicta",
+      "Id": 801,
+      "Rank": 521,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 802
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-10-26T04:22:28.1006289+02:00",
-  "Lastlogout": "2012-02-23T04:22:28.1006289+01:00",
-  "EjUserId": 253,
-  "RequestSignature": "autem",
+  "Lastlogin": "1999-07-26T13:28:24.1791219+02:00",
+  "Lastlogout": "2009-12-09T13:28:24.1791219+01:00",
+  "EjUserId": 995,
+  "RequestSignature": "non",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "eaque",
-      "DisplayValue": "fuga",
+      "Value": "modi",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 937
         }
       }
     },
     {
       "Type": null,
-      "Value": "eaque",
-      "DisplayValue": "fuga",
+      "Value": "modi",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 937
         }
       }
     }
   ],
-  "UserName": "Schinner, Bechtelar and Gutmann",
+  "UserName": "Torphy-Kuhlman",
   "TicketCategories": [
     {
-      "Id": 580,
-      "Name": "Kub, D'Amore and Abernathy",
-      "ToolTip": "Minima at.",
+      "Id": 720,
+      "Name": "Grimes Inc and Sons",
+      "ToolTip": "Voluptatum quos quia aut aut cupiditate nihil.",
       "Deleted": false,
-      "Rank": 720,
-      "Type": "velit",
+      "Rank": 955,
+      "Type": "nesciunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 378,
-      "ExtraInfo": "dolorum",
-      "StyleHint": "est",
-      "FullName": "Dr. Katarina Stiedemann I",
+      "IconHint": "eum",
+      "ColorBlock": 990,
+      "ExtraInfo": "esse",
+      "StyleHint": "voluptatem",
+      "FullName": "Abdiel Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 679
         }
       }
     }
   ],
-  "NickName": "Armstrong-Becker",
-  "WaitingForApproval": false,
+  "NickName": "Conroy-Cartwright",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "a",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "id"
+    "CustomFields1": "corporis",
+    "CustomFields2": "quis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Auer Group",
-      "DisplayName": "Ziemann-Kutch",
-      "Description": "Innovative systematic structure",
-      "ToolTip": "In officiis voluptatibus ea doloremque facilis dolores.",
+      "Name": "King-Rau",
+      "DisplayName": "Klein LLC",
+      "Description": "Devolved upward-trending migration",
+      "ToolTip": "Ut nobis ad voluptatibus libero dolore quod sint.",
       "Actions": "Implicit",
-      "ActionData": "tempora",
+      "ActionData": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 651
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

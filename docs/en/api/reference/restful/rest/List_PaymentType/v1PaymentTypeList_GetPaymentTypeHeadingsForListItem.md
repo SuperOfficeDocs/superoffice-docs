@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Frami Group",
-    "ToolTip": "Quos ea tempore aut tempora ea aliquam nihil.",
+    "Id": 84,
+    "Name": "Turcotte Inc and Sons",
+    "ToolTip": "Exercitationem illo sit omnis et.",
     "Deleted": false,
-    "Rank": 306,
-    "Type": "mollitia",
-    "ColorBlock": 629,
-    "IconHint": "explicabo",
+    "Rank": 804,
+    "Type": "inventore",
+    "ColorBlock": 253,
+    "IconHint": "quibusdam",
     "Selected": true,
-    "LastChanged": "2013-02-05T04:22:36.0028417+01:00",
+    "LastChanged": "2014-04-20T13:28:32.9134667+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "O'Reilly Group",
-        "ToolTip": "Exercitationem quae quo facere earum id non accusantium.",
+        "Id": 490,
+        "Name": "Hamill-Stark",
+        "ToolTip": "Quasi sint officia et eos voluptatem.",
         "Deleted": false,
-        "Rank": 695,
-        "Type": "eos",
-        "ColorBlock": 563,
-        "IconHint": "vel",
+        "Rank": 114,
+        "Type": "sit",
+        "ColorBlock": 455,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2021-04-04T04:22:36.0028417+02:00",
+        "LastChanged": "2022-08-11T13:28:32.9134667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "et",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Alford Klocko",
+        "FullName": "Keyon Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 150
+            "FieldType": "System.Int32",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Mrs. Macy Smith I",
+    "ExtraInfo": "ullam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Josue Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldLength": 925
       }
     }
   }

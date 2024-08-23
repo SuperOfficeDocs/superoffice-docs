@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 446,
-  "Field": "reiciendis",
-  "RecordId": 822,
+  "RefCountsId": 287,
+  "Field": "eligendi",
+  "RecordId": 771,
   "SuggestedRecords": [
     {
-      "Id": 82,
-      "Name": "Leuschke-Mills",
-      "ToolTip": "Aut vitae.",
-      "Deleted": true,
-      "Rank": 947,
-      "Type": "numquam",
+      "Id": 494,
+      "Name": "Lockman LLC",
+      "ToolTip": "Mollitia sit.",
+      "Deleted": false,
+      "Rank": 926,
+      "Type": "eius",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 301,
-      "ExtraInfo": "commodi",
-      "StyleHint": "et",
-      "FullName": "Mr. Syble Aryanna Monahan"
+      "IconHint": "et",
+      "ColorBlock": 201,
+      "ExtraInfo": "et",
+      "StyleHint": "quis",
+      "FullName": "Shirley Rowe"
     }
   ],
-  "CurrentValue": 725,
-  "TravelPrefix": 6,
-  "SatPrefix": 265,
+  "CurrentValue": 260,
+  "TravelPrefix": 911,
+  "SatPrefix": 377,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 968,
-  "Field": "autem",
-  "RecordId": 617,
+  "RefCountsId": 572,
+  "Field": "ut",
+  "RecordId": 422,
   "SuggestedRecords": [
     {
-      "Id": 686,
-      "Name": "Rutherford, Funk and Ondricka",
-      "ToolTip": "Temporibus neque ullam libero a id odit sit.",
+      "Id": 966,
+      "Name": "Ward Inc and Sons",
+      "ToolTip": "Sequi praesentium non aut iusto.",
       "Deleted": false,
-      "Rank": 495,
-      "Type": "expedita",
+      "Rank": 220,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quos",
-      "ColorBlock": 910,
-      "ExtraInfo": "earum",
-      "StyleHint": "et",
-      "FullName": "Florida Thompson II",
+      "IconHint": "occaecati",
+      "ColorBlock": 132,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "beatae",
+      "FullName": "Freddy Hessel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 172
         }
       }
     }
   ],
-  "CurrentValue": 946,
-  "TravelPrefix": 382,
-  "SatPrefix": 34,
+  "CurrentValue": 239,
+  "TravelPrefix": 544,
+  "SatPrefix": 576,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 520
     }
   }
 }

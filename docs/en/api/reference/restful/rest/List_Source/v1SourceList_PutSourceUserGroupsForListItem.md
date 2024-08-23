@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Feeney-Kohler",
-    "ToolTip": "Sit sit laborum minus perferendis eius.",
-    "Deleted": true,
-    "Rank": 423,
-    "Type": "ea",
-    "ColorBlock": 941,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2019-12-17T04:22:36.2215887+01:00",
+    "Id": 438,
+    "Name": "Leannon Group",
+    "ToolTip": "Temporibus velit aut delectus alias quas.",
+    "Deleted": false,
+    "Rank": 679,
+    "Type": "exercitationem",
+    "ColorBlock": 209,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2010-05-16T13:28:33.1794796+02:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Cronin LLC",
-        "ToolTip": "Nam qui aperiam sapiente.",
-        "Deleted": true,
-        "Rank": 535,
-        "Type": "unde",
-        "ColorBlock": 114,
-        "IconHint": "nostrum",
+        "Id": 479,
+        "Name": "Wunsch Group",
+        "ToolTip": "Voluptatibus nisi.",
+        "Deleted": false,
+        "Rank": 882,
+        "Type": "ea",
+        "ColorBlock": 130,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2019-01-13T04:22:36.2215887+01:00",
+        "LastChanged": "2020-03-04T13:28:33.1794796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Douglas Jast"
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Ramiro Dickens"
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "numquam",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Ms. Nya Viva Reichel IV"
+    "FullName": "Miss Cleta Cydney Langworth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Runolfsdottir-Nienow",
-    "ToolTip": "Dolorum tempora voluptatem officia quo quasi quia.",
-    "Deleted": true,
-    "Rank": 995,
-    "Type": "aut",
-    "ColorBlock": 989,
-    "IconHint": "nesciunt",
+    "Id": 994,
+    "Name": "Strosin Inc and Sons",
+    "ToolTip": "Nihil esse quis esse est id voluptate sunt.",
+    "Deleted": false,
+    "Rank": 933,
+    "Type": "distinctio",
+    "ColorBlock": 407,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2008-03-16T04:22:36.2215887+01:00",
+    "LastChanged": "2021-05-07T13:28:33.1794796+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Leannon LLC",
-        "ToolTip": "Nihil similique aut illum possimus eum optio.",
-        "Deleted": false,
-        "Rank": 558,
-        "Type": "corporis",
-        "ColorBlock": 663,
-        "IconHint": "aspernatur",
+        "Id": 606,
+        "Name": "Koelpin Group",
+        "ToolTip": "Sed natus nemo.",
+        "Deleted": true,
+        "Rank": 105,
+        "Type": "qui",
+        "ColorBlock": 673,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2009-04-11T04:22:36.2215887+02:00",
+        "LastChanged": "1999-04-03T13:28:33.1794796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "sunt",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Roselyn Branson Glover MD",
+        "FullName": "Carley Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 984
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "non",
+    "ExtraInfo": "quis",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Zander Daniel",
+    "FullName": "Maya Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 338
       }
     }
   }

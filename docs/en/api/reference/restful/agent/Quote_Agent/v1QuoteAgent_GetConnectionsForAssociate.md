@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 254
+  "AssociateId": 522
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 904,
-    "ERPName": "Thompson, Nader and Smith",
-    "DisplayName": "Botsford-Hermiston",
-    "DisplayDescription": "Streamlined real-time capability",
-    "Rank": 733,
-    "ConnectorName": "Howell, Keebler and Bergstrom",
-    "ErpConnectionId": 645,
-    "ExtraData": "aliquid",
+    "QuoteConnectionId": 544,
+    "ERPName": "Grant, Schamberger and Jones",
+    "DisplayName": "Strosin, Weimann and Raynor",
+    "DisplayDescription": "Function-based next generation benchmark",
+    "Rank": 776,
+    "ConnectorName": "Lowe, Kuphal and Dooley",
+    "ErpConnectionId": 886,
+    "ExtraData": "incidunt",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 626,
-        "ERPPriceListKey": "sapiente",
-        "QuoteConnectionId": 841,
-        "Name": "Howe, Konopelski and Walter",
-        "Description": "Sharable contextually-based complexity",
-        "Currency": "nam",
-        "CurrencyName": "Dietrich-Bechtelar",
-        "ValidFrom": "2022-04-17T04:22:27.4247427+02:00",
-        "ValidTo": "2023-09-29T04:22:27.4247427+02:00",
-        "IsActive": false,
+        "PriceListId": 613,
+        "ERPPriceListKey": "eaque",
+        "QuoteConnectionId": 479,
+        "Name": "Tremblay, Stoltenberg and Larkin",
+        "Description": "Monitored tertiary budgetary management",
+        "Currency": "aut",
+        "CurrencyName": "Tillman-Smith",
+        "ValidFrom": "2019-10-01T13:28:23.5698866+02:00",
+        "ValidTo": "2001-07-20T13:28:23.5698866+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 259
+            "FieldType": "System.String",
+            "FieldLength": 167
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      908,
-      998
+      703,
+      771
     ],
     "AssociateAccessIds": [
-      185,
-      372
+      876,
+      880
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldLength": 350
       }
     }
   }

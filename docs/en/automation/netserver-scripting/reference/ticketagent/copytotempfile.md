@@ -2,10 +2,10 @@
 uid: ticketagent-copytotempfile
 title: TicketAgent.CopyToTempFile event method
 description: Scripting events called on the CopyToTempFile method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.CopyToTempFile
 

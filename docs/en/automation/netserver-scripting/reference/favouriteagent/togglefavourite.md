@@ -2,10 +2,10 @@
 uid: favouriteagent-togglefavourite
 title: FavouriteAgent.ToggleFavourite event method
 description: Scripting events called on the ToggleFavourite method on the FavouriteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FavouriteAgent.ToggleFavourite
 

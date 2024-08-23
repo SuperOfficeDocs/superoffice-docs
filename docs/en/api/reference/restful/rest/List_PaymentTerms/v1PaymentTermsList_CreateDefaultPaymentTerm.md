@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 121,
-  "Name": "Mills-Klocko",
-  "Tooltip": "tenetur",
+  "Id": 119,
+  "Name": "Cummerata-Feest",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 731,
-  "Rank": 100,
+  "UdListDefinitionId": 423,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   }
 }

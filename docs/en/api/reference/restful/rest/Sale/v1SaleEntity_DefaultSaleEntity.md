@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 May 1998 04:22:35 G5T
+Last-Modified: Tue, 29 May 2007 13:28:32 G5T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Thu, 21 May 1998 04:22:35 G5T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ipsa",
+  "SaleText": "fugiat",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Thu, 21 May 1998 04:22:35 G5T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-11-02T04:22:35.2210212+01:00",
-  "Amount": 27162.378,
-  "SaleId": 532,
-  "Earning": 14081.062,
-  "EarningPercent": 18559.548,
-  "Heading": "consequatur",
-  "Number": "821631",
-  "Probability": 295,
-  "CreatedDate": "2002-02-03T04:22:35.2210212+01:00",
-  "UpdatedDate": "1998-05-21T04:22:35.2210212+02:00",
+  "Saledate": "2012-12-22T13:28:32.1011664+01:00",
+  "Amount": 4616.382,
+  "SaleId": 279,
+  "Earning": 22708.964,
+  "EarningPercent": 1648.484,
+  "Heading": "iste",
+  "Number": "1252631",
+  "Probability": 925,
+  "CreatedDate": "2012-07-14T13:28:32.1011664+02:00",
+  "UpdatedDate": "2007-05-29T13:28:32.1011664+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 757,
+  "ActiveLinks": 663,
   "Links": [
     {
-      "EntityName": "Olson, Daugherty and Rosenbaum",
-      "Id": 724,
-      "Description": "Seamless incremental analyzer",
-      "ExtraInfo": "enim",
-      "LinkId": 491,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 93
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2022-02-08T04:22:35.2210212+01:00",
-  "Postit": "ullam",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2011-04-13T04:22:35.2210212+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bosco-Casper",
-      "Comment": "iure",
-      "StakeholderRoleId": 143,
-      "CountryId": 186,
-      "PersonId": 873,
-      "EmailDescription": "opal.johns@lebsackrau.info",
-      "EmailId": 697,
-      "EmailAddress": "sherman_mills@waelchi.ca",
-      "PhoneId": 357,
-      "ContactName": "Stamm Inc and Sons",
-      "ContactId": 43,
-      "SaleId": 655,
-      "Mrmrs": "quo",
-      "Firstname": "Fletcher",
-      "MiddleName": "O'Connell Inc and Sons",
-      "Lastname": "Boyer",
-      "SaleStakeholderId": 352,
-      "Rank": 271,
-      "Phone": "248.464.9296",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 256
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 229,
-  "UserDefinedFields": {
-    "SuperOffice:1": "165933793",
-    "SuperOffice:2": "Mrs. Edward Renner III"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "ad"
-  },
-  "PublishEventDate": "2008-03-11T04:22:35.2210212+01:00",
-  "PublishTo": "1999-09-28T04:22:35.2210212+02:00",
-  "PublishFrom": "2007-11-08T04:22:35.2210212+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 854,
-      "Visibility": "All",
-      "DisplayValue": "fuga",
+      "EntityName": "Swift Inc and Sons",
+      "Id": 113,
+      "Description": "Optimized mission-critical intranet",
+      "ExtraInfo": "dolorem",
+      "LinkId": 183,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldLength": 970
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2007-03-28T13:28:32.1011664+02:00",
+  "Postit": "delectus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2014-05-27T13:28:32.1011664+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Daugherty-Hand",
+      "Comment": "odit",
+      "StakeholderRoleId": 635,
+      "CountryId": 340,
+      "PersonId": 709,
+      "EmailDescription": "marshall.kautzer@haag.biz",
+      "EmailId": 388,
+      "EmailAddress": "breanne.steuber@watsica.uk",
+      "PhoneId": 420,
+      "ContactName": "Schoen, Huels and Sipes",
+      "ContactId": 867,
+      "SaleId": 540,
+      "Mrmrs": "numquam",
+      "Firstname": "Della",
+      "MiddleName": "Corwin-Gutmann",
+      "Lastname": "Boehm",
+      "SaleStakeholderId": 197,
+      "Rank": 364,
+      "Phone": "1-944-177-2977 x1080",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 504
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 385,
+  "UserDefinedFields": {
+    "SuperOffice:1": "861005686",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "modi",
+    "ExtraFields2": "ea"
+  },
+  "CustomFields": {
+    "CustomFields1": "autem",
+    "CustomFields2": "asperiores"
+  },
+  "PublishEventDate": "2015-12-08T13:28:32.1011664+01:00",
+  "PublishTo": "2004-10-23T13:28:32.1011664+02:00",
+  "PublishFrom": "2012-12-18T13:28:32.1011664+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 758,
+      "Visibility": "All",
+      "DisplayValue": "fugiat",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     },
     {
-      "VisibleId": 854,
+      "VisibleId": 758,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldLength": 391
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Thu, 21 May 1998 04:22:35 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ledner-Bergnaum",
-    "DisplayName": "Bartell-Farrell",
-    "Description": "Face to face multimedia framework",
-    "ShortLabel": "sit",
+    "FieldName": "Kovacek-Weimann",
+    "DisplayName": "Ruecker, Hauck and Rohan",
+    "Description": "Universal dynamic database",
+    "ShortLabel": "accusantium",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 624,
-    "TemplateVariableName": "Barton Group"
+    "IsDisplayField": true,
+    "Rank": 750,
+    "TemplateVariableName": "Hahn, Aufderhar and Steuber"
   }
 ]
 ```

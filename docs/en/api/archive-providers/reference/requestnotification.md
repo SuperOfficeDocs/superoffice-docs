@@ -3,9 +3,9 @@ uid: RequestNotification
 title: RequestNotification
 description: 
 keywords: RequestNotification archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "RequestNotification"

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 910,
-  "ListItemId": 444,
+  "UdListDefinitionId": 99,
+  "ListItemId": 861,
   "UserGroups": [
     {
-      "Id": 74,
-      "Name": "Lehner Group",
-      "ToolTip": "Aliquam ipsa non autem iste.",
+      "Id": 845,
+      "Name": "Thompson, Mraz and Bruen",
+      "ToolTip": "Cum cum deleniti quas.",
       "Deleted": false,
-      "Rank": 430,
-      "Type": "ut",
-      "ColorBlock": 215,
+      "Rank": 804,
+      "Type": "mollitia",
+      "ColorBlock": 350,
       "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2017-09-22T04:22:26.969259+02:00",
+      "LastChanged": "2002-11-13T13:28:22.9449983+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "inventore",
-      "StyleHint": "impedit",
+      "ExtraInfo": "nulla",
+      "StyleHint": "aut",
       "Hidden": true,
-      "FullName": "Zechariah Hahn"
+      "FullName": "Coby Reilly"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Runolfsdottir Group",
-    "ToolTip": "Exercitationem voluptatem dolorem iusto voluptas qui.",
-    "Deleted": false,
-    "Rank": 597,
-    "Type": "dignissimos",
-    "ColorBlock": 138,
-    "IconHint": "ipsum",
+    "Id": 402,
+    "Name": "Weissnat Inc and Sons",
+    "ToolTip": "Laudantium magni.",
+    "Deleted": true,
+    "Rank": 816,
+    "Type": "nostrum",
+    "ColorBlock": 918,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2011-03-16T04:22:26.969259+01:00",
+    "LastChanged": "1998-09-18T13:28:22.9449983+02:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Greenholt Group",
-        "ToolTip": "Similique placeat id.",
+        "Id": 457,
+        "Name": "McClure, Tillman and Davis",
+        "ToolTip": "Quia aliquid et aut maiores ea.",
         "Deleted": true,
-        "Rank": 190,
-        "Type": "quod",
-        "ColorBlock": 534,
-        "IconHint": "corporis",
+        "Rank": 482,
+        "Type": "omnis",
+        "ColorBlock": 293,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2017-11-28T04:22:26.969259+01:00",
+        "LastChanged": "2011-01-27T13:28:22.9449983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ad",
+        "ExtraInfo": "in",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Dr. Savion Alayna Abernathy II",
+        "FullName": "Kody Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 334
+            "FieldType": "System.Int32",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "non",
+    "ExtraInfo": "aut",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Taylor Mathias Howell MD",
+    "FullName": "Xander Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 106
       }
     }
   }

@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 900,
-  "Name": "Frami, Powlowski and Wiegand",
-  "Tooltip": "autem",
+  "ExtAppId": 728,
+  "Name": "Kris-Johnson",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 591,
-  "Filename": "corrupti",
-  "Parameters": "in",
-  "Workdir": "veritatis",
+  "Rank": 389,
+  "Filename": "deleniti",
+  "Parameters": "nisi",
+  "Workdir": "id",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 387,
+  "ShowInStatusBar": true,
+  "Icon": 359,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ea"
+  "Path": "modi"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 341,
-  "Name": "Shields LLC",
-  "Tooltip": "et",
+  "ExtAppId": 121,
+  "Name": "Koelpin, Jakubowski and Ferry",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 934,
-  "Filename": "sapiente",
-  "Parameters": "labore",
-  "Workdir": "beatae",
+  "Rank": 760,
+  "Filename": "totam",
+  "Parameters": "debitis",
+  "Workdir": "error",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 845,
+  "Icon": 480,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quis",
+  "Path": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Zulauf, Reinger and Witting",
-  "Tooltip": "recusandae",
+  "Id": 64,
+  "Name": "White, Feest and Littel",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 654,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 550,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "iure",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   },
   "_Links": {

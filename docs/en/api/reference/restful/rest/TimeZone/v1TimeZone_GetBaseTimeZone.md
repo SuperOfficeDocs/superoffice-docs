@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 960,
-  "Name": "Roob, Spencer and Tromp",
-  "TZLocationCode": "voluptatem",
-  "TZLocationCities": "qui",
-  "IsoNumber": 194,
+  "TZLocationID": 495,
+  "Name": "Howell LLC",
+  "TZLocationCode": "minus",
+  "TZLocationCities": "eos",
+  "IsoNumber": 93,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 642,
-      "StartMonth": 90,
-      "EndDay": 330,
-      "EndMonth": 105,
-      "TZOffset": 418,
-      "StartRulePattern": "sint",
-      "EndRulePattern": "error"
+      "StartDay": 242,
+      "StartMonth": 812,
+      "EndDay": 195,
+      "EndMonth": 691,
+      "TZOffset": 630,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "necessitatibus"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 875,
-      "StartMonth": 700,
-      "EndDay": 636,
-      "EndMonth": 922,
-      "TZOffset": 909,
-      "StartRulePattern": "enim",
-      "EndRulePattern": "non"
+      "StartDay": 427,
+      "StartMonth": 436,
+      "EndDay": 491,
+      "EndMonth": 793,
+      "TZOffset": 220,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "a"
     }
   }
 }

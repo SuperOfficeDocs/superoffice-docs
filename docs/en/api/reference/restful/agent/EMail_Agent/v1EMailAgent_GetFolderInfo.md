@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "consequatur",
-    "eos"
+    "ullam",
+    "velit"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schuster Inc and Sons",
-    "Delimiter": "neque",
-    "Flags": "consequatur",
-    "TotalItems": 802,
-    "UnreadItems": 919,
+    "Name": "Lebsack, Schiller and Bartell",
+    "Delimiter": "assumenda",
+    "Flags": "qui",
+    "TotalItems": 863,
+    "UnreadItems": 376,
     "Subscribed": false,
-    "EmailFolderId": 290,
+    "EmailFolderId": 490,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

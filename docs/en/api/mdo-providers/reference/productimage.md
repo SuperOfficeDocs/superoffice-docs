@@ -3,9 +3,9 @@ uid: productimage
 title: productimage
 keywords: mdoprovider mdo provider productimage
 description: Return product images from the blob table
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "productimage" MDO List

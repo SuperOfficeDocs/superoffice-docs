@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 178,
-  "ERPPriceListKey": "provident",
-  "QuoteConnectionId": 192,
-  "Name": "Runte-Hickle",
-  "Description": "Down-sized heuristic protocol",
-  "Currency": "praesentium",
-  "CurrencyName": "Wyman-Gerhold",
-  "ValidFrom": "2000-07-15T04:22:36.0340897+02:00",
-  "ValidTo": "2018-05-31T04:22:36.0340897+02:00",
-  "IsActive": false,
+  "PriceListId": 469,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 171,
+  "Name": "Rippin LLC",
+  "Description": "Enterprise-wide local task-force",
+  "Currency": "ut",
+  "CurrencyName": "Morar, Koch and Metz",
+  "ValidFrom": "1998-04-01T13:28:32.9447127+02:00",
+  "ValidTo": "2011-06-13T13:28:32.9447127+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 973
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

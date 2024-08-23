@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 475,
-  "Name": "Donnelly-Pagac",
+  "TZLocationID": 408,
+  "Name": "Kuvalis LLC",
   "TZLocationCode": "et",
-  "TZLocationCities": "natus",
-  "IsoNumber": 323,
+  "TZLocationCities": "eos",
+  "IsoNumber": 327,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 2,
-      "StartMonth": 966,
-      "EndDay": 952,
-      "EndMonth": 973,
-      "TZOffset": 468,
-      "StartRulePattern": "voluptatum",
-      "EndRulePattern": "nesciunt"
+      "StartDay": 422,
+      "StartMonth": 402,
+      "EndDay": 58,
+      "EndMonth": 809,
+      "TZOffset": 259,
+      "StartRulePattern": "cum",
+      "EndRulePattern": "et"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 24,
-      "StartMonth": 786,
-      "EndDay": 354,
-      "EndMonth": 271,
-      "TZOffset": 354,
-      "StartRulePattern": "iste",
-      "EndRulePattern": "ea"
+      "StartDay": 812,
+      "StartMonth": 592,
+      "EndDay": 69,
+      "EndMonth": 73,
+      "TZOffset": 620,
+      "StartRulePattern": "necessitatibus",
+      "EndRulePattern": "molestias"
     }
   }
 }

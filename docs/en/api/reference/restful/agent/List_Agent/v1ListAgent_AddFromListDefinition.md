@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 905,
+  "UdListDefinitionId": 137,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Wiegand, Mann and Sauer",
-  "Tooltip": "harum",
+  "Id": 369,
+  "Name": "Glover, Glover and Cruickshank",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "UdListDefinitionId": 938,
-  "Rank": 211,
+  "UdListDefinitionId": 34,
+  "Rank": 183,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 567
     }
   }
 }

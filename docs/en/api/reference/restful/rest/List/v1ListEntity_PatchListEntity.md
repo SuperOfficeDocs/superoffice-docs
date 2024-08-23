@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Williamson LLC",
-  "Tooltip": "maiores",
+  "Id": 874,
+  "Name": "Jewess Group",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 989,
+  "Rank": 830,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   },
   "_Links": {

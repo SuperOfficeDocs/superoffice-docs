@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "veniam",
-  "Value": "voluptatem",
-  "RecordId": 111,
-  "CreatedDate": "2020-08-03T04:22:35.0010854+02:00",
-  "UpdatedDate": "2002-07-22T04:22:35.0010854+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "saepe",
-  "TableName": "Armstrong Group"
+  "Key": "consequatur",
+  "Value": "est",
+  "RecordId": 846,
+  "CreatedDate": "2011-07-20T13:28:31.6948645+02:00",
+  "UpdatedDate": "2003-04-04T13:28:31.6948645+02:00",
+  "UpdatedBy": "officiis",
+  "CreatedBy": "cupiditate",
+  "TableName": "Douglas-Price"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laboriosam",
-  "Value": "provident",
-  "RecordId": 84,
-  "CreatedDate": "2010-08-19T04:22:35.0010854+02:00",
-  "UpdatedDate": "2020-10-12T04:22:35.0010854+02:00",
-  "UpdatedBy": "quaerat",
-  "CreatedBy": "repellat",
-  "TableName": "Kemmer Group",
+  "Key": "vel",
+  "Value": "omnis",
+  "RecordId": 747,
+  "CreatedDate": "2011-07-13T13:28:31.6948645+02:00",
+  "UpdatedDate": "2011-11-17T13:28:31.6948645+01:00",
+  "UpdatedBy": "maiores",
+  "CreatedBy": "molestiae",
+  "TableName": "Casper Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldLength": 562
     }
   }
 }

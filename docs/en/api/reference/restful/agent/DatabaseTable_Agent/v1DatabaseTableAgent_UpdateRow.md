@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mraz, Rice and Gerlach",
-  "Id": 433,
+  "TableName": "Kozey-Lebsack",
+  "Id": 625,
   "Values": {
-    "Values1": "ad",
-    "Values2": "dicta"
+    "Values1": "suscipit",
+    "Values2": "quisquam"
   }
 }
 ```

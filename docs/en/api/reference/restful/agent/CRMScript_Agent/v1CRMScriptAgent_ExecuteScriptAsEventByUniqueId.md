@@ -82,6 +82,7 @@ OK
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
 | Headers | object | Incoming headers if sent by the context which the script is executed from |
+| TraceExecution | bool | If true, then the execution will be traced |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -95,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "ipsum",
+  "CRMScriptUniqueId": "consequatur",
   "EventData": null
 }
 ```
@@ -109,41 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dolorum",
-    "InputValues2": "excepturi"
+    "InputValues1": "in",
+    "InputValues2": "tenetur"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "molestiae",
-  "ShowDialog": "facilis",
+  "NavigateTo": "voluptatem",
+  "Message": "quia",
+  "ShowDialog": "fuga",
   "OutputValues": {
-    "OutputValues1": "nemo",
-    "OutputValues2": "dolorem"
+    "OutputValues1": "consequuntur",
+    "OutputValues2": "molestiae"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "odio"
+    "StateValues1": "aspernatur",
+    "StateValues2": "aut"
   },
-  "Exception": "necessitatibus",
+  "Exception": "eum",
   "ParserValues": {
-    "ParserValues1": "aut",
-    "ParserValues2": "quo"
+    "ParserValues1": "ab",
+    "ParserValues2": "omnis"
   },
   "CgiVariables": {
-    "CgiVariables1": "aspernatur",
-    "CgiVariables2": "ipsam"
+    "CgiVariables1": "earum",
+    "CgiVariables2": "eum"
   },
-  "CgiContent": "eligendi",
+  "CgiContent": "quia",
   "Headers": {
-    "Headers1": "expedita",
-    "Headers2": "quasi"
+    "Headers1": "ex",
+    "Headers2": "quaerat"
   },
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

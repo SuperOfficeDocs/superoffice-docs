@@ -33,7 +33,7 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=True
+GET /api/v1/Ticket/{id}?fk=False
 ```
 
 
@@ -132,7 +132,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -142,21 +142,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 207,
-  "Title": "perferendis",
-  "CreatedAt": "2007-02-05T04:22:35.5022347+01:00",
-  "LastChanged": "2021-11-27T04:22:35.5022347+01:00",
-  "ReadByOwner": "2017-08-06T04:22:35.5022347+02:00",
-  "ReadByCustomer": "2020-11-25T04:22:35.5022347+01:00",
-  "FirstReadByOwner": "2017-06-05T04:22:35.5022347+02:00",
-  "FirstReadByUser": "2012-12-06T04:22:35.5022347+01:00",
-  "Activate": "2008-08-25T04:22:35.5022347+02:00",
-  "ClosedAt": "1998-02-09T04:22:35.5022347+01:00",
-  "RepliedAt": "2002-05-26T04:22:35.5022347+02:00",
-  "AlertTimeout": "2015-12-24T04:22:35.5022347+01:00",
-  "Deadline": "2002-10-01T04:22:35.5022347+02:00",
+  "TicketId": 958,
+  "Title": "quia",
+  "CreatedAt": "2022-03-05T13:28:32.3042318+01:00",
+  "LastChanged": "2017-06-05T13:28:32.3042318+02:00",
+  "ReadByOwner": "2016-12-31T13:28:32.3042318+01:00",
+  "ReadByCustomer": "2014-01-18T13:28:32.3042318+01:00",
+  "FirstReadByOwner": "2012-09-22T13:28:32.3042318+02:00",
+  "FirstReadByUser": "2019-01-19T13:28:32.3042318+01:00",
+  "Activate": "2014-01-10T13:28:32.3042318+01:00",
+  "ClosedAt": "2007-09-19T13:28:32.3042318+02:00",
+  "RepliedAt": "2016-10-11T13:28:32.3042318+02:00",
+  "AlertTimeout": "2020-04-08T13:28:32.3042318+02:00",
+  "Deadline": "2013-03-28T13:28:32.3042318+01:00",
   "CreatedBy": null,
-  "Author": "culpa",
+  "Author": "dignissimos",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,162 +167,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "repudiandae",
-      "PersonId": 175,
-      "Mrmrs": "magnam",
-      "Firstname": "Rigoberto",
-      "Lastname": "Connelly",
-      "MiddleName": "Swift, Turner and Dicki",
-      "Title": "rerum",
-      "Description": "Re-engineered demand-driven frame",
-      "Email": "garland@nitzsche.ca",
-      "FullName": "Brant Lemke",
-      "DirectPhone": "1-195-873-7098",
-      "FormalName": "Collins-Murazik",
-      "CountryId": 282,
-      "ContactId": 26,
-      "ContactName": "Rowe Inc and Sons",
-      "Retired": 276,
-      "Rank": 676,
-      "ActiveInterests": 349,
+      "Position": "numquam",
+      "PersonId": 263,
+      "Mrmrs": "quibusdam",
+      "Firstname": "Mose",
+      "Lastname": "Littel",
+      "MiddleName": "Murphy-Kemmer",
+      "Title": "omnis",
+      "Description": "Robust human-resource conglomeration",
+      "Email": "caleigh.morissette@mosciskimarks.co.uk",
+      "FullName": "Eloise McCullough",
+      "DirectPhone": "248.907.5828 x40220",
+      "FormalName": "McDermott, Powlowski and Pfannerstill",
+      "CountryId": 405,
+      "ContactId": 46,
+      "ContactName": "Okuneva, Bogisich and Anderson",
+      "Retired": 78,
+      "Rank": 128,
+      "ActiveInterests": 34,
       "ContactDepartment": "",
-      "ContactCountryId": 850,
-      "ContactOrgNr": "1037485",
-      "FaxPhone": "(634)060-5987",
-      "MobilePhone": "1-818-716-0357 x464",
-      "ContactPhone": "(358)310-3447 x43962",
-      "AssociateName": "Walker, Bechtelar and Mertz",
-      "AssociateId": 679,
+      "ContactCountryId": 30,
+      "ContactOrgNr": "1026921",
+      "FaxPhone": "429-871-7635 x18495",
+      "MobilePhone": "(563)060-6448 x412",
+      "ContactPhone": "335-181-9780",
+      "AssociateName": "Miller, O'Connell and Rogahn",
+      "AssociateId": 627,
       "UsePersonAddress": false,
-      "ContactFax": "repellat",
-      "Kanafname": "praesentium",
-      "Kanalname": "voluptas",
-      "Post1": "libero",
-      "Post2": "aut",
-      "Post3": "et",
-      "EmailName": "devin@windler.uk",
-      "ContactFullName": "Melany Gerlach",
-      "ActiveErpLinks": 414,
-      "TicketPriorityId": 165,
-      "SupportLanguageId": 5,
-      "SupportAssociateId": 729,
+      "ContactFax": "cumque",
+      "Kanafname": "veritatis",
+      "Kanalname": "est",
+      "Post1": "deserunt",
+      "Post2": "nisi",
+      "Post3": "voluptatibus",
+      "EmailName": "delpha@rohanziemann.com",
+      "ContactFullName": "Hayley Crooks",
+      "ActiveErpLinks": 205,
+      "TicketPriorityId": 846,
+      "SupportLanguageId": 27,
+      "SupportAssociateId": 278,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldLength": 209
         }
       }
     }
   ],
-  "AlertLevel": 495,
-  "ConnectId": 395,
+  "AlertLevel": 522,
+  "ConnectId": 39,
   "ReadStatus": "Green",
-  "TimeToReply": 177,
-  "RealTimeToReply": 649,
-  "TimeToClose": 787,
-  "RealTimeToClose": 198,
-  "TimeSpentInternally": 852,
-  "TimeSpentExternally": 791,
-  "TimeSpentQueue": 496,
-  "RealTimeSpentInternally": 696,
-  "RealTimeSpentExternally": 815,
-  "RealTimeSpentQueue": 625,
-  "TimeSpent": 509,
+  "TimeToReply": 867,
+  "RealTimeToReply": 190,
+  "TimeToClose": 491,
+  "RealTimeToClose": 759,
+  "TimeSpentInternally": 117,
+  "TimeSpentExternally": 794,
+  "TimeSpentQueue": 928,
+  "RealTimeSpentInternally": 735,
+  "RealTimeSpentExternally": 451,
+  "RealTimeSpentQueue": 162,
+  "TimeSpent": 653,
   "HasAttachment": false,
-  "NumReplies": 748,
-  "NumMessages": 602,
-  "FromAddress": "quis",
+  "NumReplies": 476,
+  "NumMessages": 69,
+  "FromAddress": "distinctio",
   "Messages": [
     {
-      "TicketMessageId": 43,
-      "CreatedAt": "1997-07-12T04:22:35.5022347+02:00",
+      "TicketMessageId": 363,
+      "CreatedAt": "2012-11-04T13:28:32.3042318+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "impedit",
-      "PersonId": 937,
-      "PersonFullName": "Frederique Kailyn Hermiston DDS",
-      "ContactId": 989,
-      "ContactName": "Carter, Medhurst and Jakubowski",
-      "ContactDepartment": "",
-      "NumAttachments": 11,
-      "EmailHeader": "dorothy@konopelski.info",
+      "Author": "aut",
+      "PersonId": 480,
+      "PersonFullName": "Dr. Lessie Hoppe DDS",
+      "ContactId": 662,
+      "ContactName": "Bosco Group",
+      "ContactDepartment": "unleash clicks-and-mortar bandwidth",
+      "NumAttachments": 746,
+      "EmailHeader": "guido_lockman@wehner.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "facilis",
-      "Sentiment": 36,
-      "SentimentConfidence": 742,
-      "CreatedBy": 511,
-      "ChangedAt": "2006-11-12T04:22:35.5022347+01:00",
+      "Language": "unde",
+      "Sentiment": 944,
+      "SentimentConfidence": 149,
+      "CreatedBy": 689,
+      "ChangedAt": "2018-04-07T13:28:32.3198544+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 816
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 236,
-      "Name": "Breitenberg, Gusikowski and O'Conner",
-      "ToolTip": "Qui voluptatum nobis.",
+      "Id": 561,
+      "Name": "Feest, Romaguera and Langosh",
+      "ToolTip": "Et unde dolores assumenda vel molestias.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldType": "System.String",
+          "FieldLength": 335
         }
       }
     },
     {
-      "Id": 236,
-      "Name": "Breitenberg, Gusikowski and O'Conner",
-      "ToolTip": "Qui voluptatum nobis.",
+      "Id": 561,
+      "Name": "Feest, Romaguera and Langosh",
+      "ToolTip": "Et unde dolores assumenda vel molestias.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldType": "System.String",
+          "FieldLength": 335
         }
       }
     }
   ],
-  "Language": "cumque",
-  "Sentiment": 748,
-  "SentimentConfidence": 805,
-  "SuggestedCategoryId": 597,
+  "Language": "ea",
+  "Sentiment": 170,
+  "SentimentConfidence": 403,
+  "SuggestedCategoryId": 500,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 756,
-  "IconHint": "ea",
+  "OrigHumanCategoryId": 246,
+  "IconHint": "sunt",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 40,
+  "ActiveStatusMonitorId": 105,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "earum"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 446
     }
   },
   "_Links": {

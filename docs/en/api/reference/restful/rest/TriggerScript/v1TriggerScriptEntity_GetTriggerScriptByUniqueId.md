@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 363,
-  "Name": "Gulgowski, Tillman and Kovacek",
+  "ScreenChooserId": 196,
+  "Name": "Blanda Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolores",
-  "Source": "eum",
-  "Registered": "2009-01-06T04:22:35.595979+01:00",
-  "RegisteredAssociateId": 771,
-  "Updated": "2011-04-21T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 613,
+  "Enabled": false,
+  "UniqueIdentifier": "quibusdam",
+  "Source": "iste",
+  "Registered": "2006-04-12T13:28:32.4292054+02:00",
+  "RegisteredAssociateId": 676,
+  "Updated": "2013-03-21T13:28:32.4292054+01:00",
+  "UpdatedAssociateId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 388
     }
   }
 }

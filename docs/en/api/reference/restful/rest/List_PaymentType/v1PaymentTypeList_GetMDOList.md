@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=fuga
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=ratione
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Mills Group",
-    "ToolTip": "Numquam architecto quas dolor quasi iste.",
-    "Deleted": true,
-    "Rank": 653,
-    "Type": "aperiam",
+    "Id": 245,
+    "Name": "Yundt, Johnson and Boyer",
+    "ToolTip": "Quidem aut debitis molestiae quam repellendus omnis soluta.",
+    "Deleted": false,
+    "Rank": 281,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Conroy, Stokes and Bode",
-        "ToolTip": "Tempore non sequi consequatur et recusandae.",
+        "Id": 713,
+        "Name": "Harris-Turner",
+        "ToolTip": "Laborum quidem.",
         "Deleted": false,
-        "Rank": 899,
-        "Type": "qui",
+        "Rank": 30,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 643,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "quia",
-        "FullName": "Rogers Rempel Jr.",
+        "IconHint": "voluptas",
+        "ColorBlock": 940,
+        "ExtraInfo": "neque",
+        "StyleHint": "placeat",
+        "FullName": "Ewald Keeling I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldLength": 846
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 102,
-    "ExtraInfo": "est",
-    "StyleHint": "maiores",
-    "FullName": "Dr. Keagan Gabriella Rau II",
+    "IconHint": "sapiente",
+    "ColorBlock": 979,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "id",
+    "FullName": "Dr. Coby Braden Schuster MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldLength": 199
       }
     }
   }

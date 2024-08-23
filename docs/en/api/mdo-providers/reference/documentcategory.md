@@ -3,9 +3,9 @@ uid: documentcategory
 title: documentcategory
 keywords: mdoprovider mdo provider documentcategory
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "documentcategory" MDO List

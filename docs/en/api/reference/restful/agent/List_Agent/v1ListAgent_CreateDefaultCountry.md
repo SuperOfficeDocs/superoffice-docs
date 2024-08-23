@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 270,
-  "Name": "Jakubowski-Rosenbaum",
-  "CurrencyId": 829,
-  "EnglishName": "Lubowitz, Gutmann and Cormier",
+  "CountryId": 826,
+  "Name": "Cronin LLC",
+  "CurrencyId": 501,
+  "EnglishName": "Kautzer, Barton and Cole",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Assimilated holistic monitoring",
-  "OrgNrText": "190884",
-  "InterAreaPrefix": "voluptates",
-  "DialInPrefix": "non",
-  "ZipPrefix": "tenetur",
-  "DomainName": "Erdman, Dach and Kertzmann",
-  "AddressLayoutId": 554,
-  "DomesticAddressLayoutId": 643,
-  "ForeignAddressLayoutId": 862,
-  "Rank": 374,
-  "Tooltip": "pariatur",
+  "ImageDescription": "Phased real-time flexibility",
+  "OrgNrText": "1322578",
+  "InterAreaPrefix": "eveniet",
+  "DialInPrefix": "id",
+  "ZipPrefix": "beatae",
+  "DomainName": "Kub-Kuphal",
+  "AddressLayoutId": 533,
+  "DomesticAddressLayoutId": 470,
+  "ForeignAddressLayoutId": 995,
+  "Rank": 96,
+  "Tooltip": "est",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 7
     }
   }
 }

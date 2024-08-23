@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    42,
-    173
+    384,
+    590
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 67,
-    "Caption": "distinctio",
-    "Description": "Distributed zero administration synergy",
-    "ChartName": "Bosco LLC",
-    "ChartId": "dolores",
+    "DashboardTileId": 124,
+    "Caption": "quaerat",
+    "Description": "Monitored fresh-thinking instruction set",
+    "ChartName": "Bauch-Predovic",
+    "ChartId": "eaque",
     "IsDefault": false,
-    "AssociateId": 866,
-    "GroupId": 521,
-    "SelectionId": 171,
-    "Config": "ad",
+    "AssociateId": 749,
+    "GroupId": 661,
+    "SelectionId": 195,
+    "Config": "quam",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Jewess-Beatty",
-        "Description": "Balanced motivating portal",
+        "Name": "Marvin-Hahn",
+        "Description": "Customer-focused zero defect help-desk",
         "Type": "Boolean",
-        "ListName": "Smith Inc and Sons",
+        "ListName": "Olson-Connelly",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "nostrum",
+        "Value": "et",
         "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 755
+            "FieldLength": 891
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 569,
+        "VisibleId": 880,
         "Visibility": "All",
-        "DisplayValue": "excepturi",
+        "DisplayValue": "maxime",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 809
           }
         }
       },
       {
-        "VisibleId": 569,
+        "VisibleId": 880,
         "Visibility": "All",
-        "DisplayValue": "excepturi",
+        "DisplayValue": "maxime",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 809
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 66
       }
     }
   }

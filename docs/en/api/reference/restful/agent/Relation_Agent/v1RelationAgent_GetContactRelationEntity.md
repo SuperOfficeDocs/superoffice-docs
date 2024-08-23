@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=168
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=447
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 79,
-  "SourcePersonId": 590,
-  "DestinationContactId": 390,
-  "DestinationPersonId": 344,
-  "RelationId": 451,
-  "Comment": "qui",
-  "RelationDefinitionId": 194,
-  "Reversed": 712,
-  "UpdatedDate": "2020-07-30T04:22:27.4403662+02:00",
-  "CreatedDate": "2018-11-22T04:22:27.4403662+01:00",
+  "SourceContactId": 555,
+  "SourcePersonId": 331,
+  "DestinationContactId": 887,
+  "DestinationPersonId": 123,
+  "RelationId": 432,
+  "Comment": "aut",
+  "RelationDefinitionId": 853,
+  "Reversed": 312,
+  "UpdatedDate": "2004-10-08T13:28:23.6011243+02:00",
+  "CreatedDate": "1997-05-31T13:28:23.6011243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lebsack Inc and Sons",
-  "SourcePersonName": "Bins-Hettinger",
-  "DestinationContactName": "Reilly, Hoppe and Schaefer",
-  "DestinationPersonName": "Harris LLC",
-  "ActiveText": "aut",
-  "PassiveText": "sit",
+  "SourceContactName": "Schimmel, Gleichner and Brakus",
+  "SourcePersonName": "Ernser-Orn",
+  "DestinationContactName": "Fisher-Huel",
+  "DestinationPersonName": "Gerhold, Langworth and Wiza",
+  "ActiveText": "sint",
+  "PassiveText": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 821
     }
   }
 }

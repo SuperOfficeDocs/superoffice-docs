@@ -2,10 +2,10 @@
 uid: databaseagent-getstepsindatabase
 title: DatabaseAgent.GetStepsInDatabase event method
 description: Scripting events called on the GetStepsInDatabase method on the DatabaseAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DatabaseAgent.GetStepsInDatabase
 

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 253,
-  "ErpConnectorId": 442,
-  "DisplayName": "Skiles, Kihn and Boyer",
-  "DisplayDescription": "Reactive eco-centric leverage",
+  "ErpConnectionId": 511,
+  "ErpConnectorId": 668,
+  "DisplayName": "Koch-Jast",
+  "DisplayDescription": "Streamlined human-resource capability",
   "Active": true,
-  "ConnectionId": "quos",
-  "MostRecentTimestamp": "non",
+  "ConnectionId": "quod",
+  "MostRecentTimestamp": "dolorum",
   "ConfigFields": {
-    "ConfigFields1": "rem",
-    "ConfigFields2": "architecto"
+    "ConfigFields1": "non",
+    "ConfigFields2": "ducimus"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    15,
-    593
+    962,
+    645
   ],
   "AssociateAccessIds": [
-    709,
-    406
+    797,
+    917
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 468
     }
   }
 }

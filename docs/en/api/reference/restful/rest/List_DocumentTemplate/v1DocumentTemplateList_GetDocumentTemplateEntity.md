@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 600,
-  "Name": "McGlynn-Terry",
-  "Tooltip": "aut",
-  "SaveInDb": 132,
-  "Filename": "vel",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 307,
+  "Name": "Collier, Howell and Breitenberg",
+  "Tooltip": "et",
+  "SaveInDb": 487,
+  "Filename": "ex",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 307,
-  "IntentId": 515,
-  "IsDefaultPublished": false,
-  "Rank": 576,
-  "LoadTemplateFromPlugin": 44,
-  "MimeType": "soluta",
+  "AutoeventId": 926,
+  "IntentId": 128,
+  "IsDefaultPublished": true,
+  "Rank": 123,
+  "LoadTemplateFromPlugin": 828,
+  "MimeType": "explicabo",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 97,
+  "DocumentTypeKey": 799,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "henry@schoen.co.uk",
+  "EmailSubject": "briana.langosh@kutch.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "janie_nikolaus@mckenziehahn.com",
+  "SenderEmailAddress": "eriberto@jacobigreenfelder.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 834
     }
   }
 }

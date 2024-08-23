@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 213,
-    "Name": "Wilkinson Group",
-    "Tooltip": "omnis",
-    "Rank": 287,
-    "Key": "possimus",
-    "MailTemplateId": 693,
-    "Deleted": false,
+    "ConsentSourceId": 979,
+    "Name": "Rempel LLC",
+    "Tooltip": "autem",
+    "Rank": 130,
+    "Key": "nam",
+    "MailTemplateId": 29,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 168
       }
     }
   }

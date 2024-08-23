@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=365
+POST /api/v1/Agents/Project/GetProject?projectId=269
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 927,
-  "Name": "Kuhlman, Vandervort and Crist",
-  "Description": "Future-proofed modular flexibility",
+  "ProjectId": 627,
+  "Name": "Kovacek, Cronin and Dach",
+  "Description": "Organic composite toolset",
   "URL": "http://www.example.com/",
-  "Type": "repudiandae",
-  "AssociateId": 115,
-  "AssociateFullName": "Mrs. Daphney Kyle Konopelski PhD",
-  "TypeId": 453,
-  "Updated": "2018-10-13T04:22:27.3309943+02:00",
-  "StatusId": 460,
-  "Status": "ut",
-  "TextId": 559,
-  "PublishTo": "2016-05-28T04:22:27.3309943+02:00",
-  "PublishFrom": "2008-04-01T04:22:27.3309943+02:00",
-  "IsPublished": true,
+  "Type": "non",
+  "AssociateId": 758,
+  "AssociateFullName": "Dennis Hilma Baumbach IV",
+  "TypeId": 867,
+  "Updated": "2002-11-28T13:28:23.3199391+01:00",
+  "StatusId": 707,
+  "Status": "voluptate",
+  "TextId": 20,
+  "PublishTo": "2018-07-31T13:28:23.3355601+02:00",
+  "PublishFrom": "2009-06-26T13:28:23.3355601+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1433613",
-  "ActiveErpLinks": 913,
+  "ProjectNumber": "928386",
+  "ActiveErpLinks": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

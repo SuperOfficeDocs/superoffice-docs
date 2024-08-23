@@ -3,9 +3,9 @@ uid: NewCategoryMembers
 title: NewCategoryMembers
 description: Archive of NewCategoryMember - used by the web api.
 keywords: NewCategoryMembers archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "NewCategoryMembers"
@@ -63,7 +63,7 @@ Lists new CategoryMembers added through restriction.
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=associateDbId,role
+GET /api/v1/archive/NewCategoryMembers?$select=firstName,contactCategory,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

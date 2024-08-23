@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 983,
-  "Name": "Braun, Lubowitz and Rippin",
-  "Tooltip": "velit",
+  "Id": 727,
+  "Name": "Monahan-Gislason",
+  "Tooltip": "cum",
   "Deleted": false,
-  "UdListDefinitionId": 810,
-  "Rank": 514,
+  "UdListDefinitionId": 83,
+  "Rank": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

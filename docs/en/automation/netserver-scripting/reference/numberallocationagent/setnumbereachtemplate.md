@@ -2,10 +2,10 @@
 uid: numberallocationagent-setnumbereachtemplate
 title: NumberAllocationAgent.SetNumberEachTemplate event method
 description: Scripting events called on the SetNumberEachTemplate method on the NumberAllocationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # NumberAllocationAgent.SetNumberEachTemplate
 

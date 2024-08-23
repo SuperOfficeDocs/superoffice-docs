@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 186,
-  "Name": "Hoppe LLC",
-  "CurrencyId": 314,
-  "EnglishName": "Murphy Group",
+  "CountryId": 380,
+  "Name": "Kessler, Klein and Lang",
+  "CurrencyId": 811,
+  "EnglishName": "Weber Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable next generation forecast",
-  "OrgNrText": "1404247",
-  "InterAreaPrefix": "eligendi",
-  "DialInPrefix": "aliquam",
-  "ZipPrefix": "id",
-  "DomainName": "Baumbach-Greenfelder",
-  "AddressLayoutId": 794,
-  "DomesticAddressLayoutId": 345,
-  "ForeignAddressLayoutId": 244,
-  "Rank": 94,
-  "Tooltip": "qui",
+  "ImageDescription": "Face to face modular open system",
+  "OrgNrText": "1332103",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "autem",
+  "ZipPrefix": "dolorum",
+  "DomainName": "Prohaska-Mueller",
+  "AddressLayoutId": 833,
+  "DomesticAddressLayoutId": 672,
+  "ForeignAddressLayoutId": 531,
+  "Rank": 568,
+  "Tooltip": "dolores",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 875,
-  "Name": "Conn, Spencer and Gorczany",
-  "CurrencyId": 464,
-  "EnglishName": "Kling, Runolfsson and Hoeger",
+  "CountryId": 595,
+  "Name": "Douglas, Shields and Ullrich",
+  "CurrencyId": 619,
+  "EnglishName": "McClure Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Focused zero tolerance encryption",
-  "OrgNrText": "1642234",
-  "InterAreaPrefix": "voluptatibus",
-  "DialInPrefix": "voluptas",
-  "ZipPrefix": "quisquam",
-  "DomainName": "Mante Group",
-  "AddressLayoutId": 594,
-  "DomesticAddressLayoutId": 788,
-  "ForeignAddressLayoutId": 81,
-  "Rank": 243,
-  "Tooltip": "dolor",
-  "Deleted": true,
+  "ImageDescription": "Multi-layered explicit groupware",
+  "OrgNrText": "747122",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "est",
+  "DomainName": "Kling, Gorczany and Jewess",
+  "AddressLayoutId": 494,
+  "DomesticAddressLayoutId": 188,
+  "ForeignAddressLayoutId": 227,
+  "Rank": 123,
+  "Tooltip": "est",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldLength": 387
     }
   }
 }

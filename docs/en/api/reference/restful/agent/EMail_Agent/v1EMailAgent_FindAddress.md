@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "voluptatum"
+  "Address": "est"
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 309,
-    "ContactName": "Bogisich-Schmidt",
-    "PersonId": 906,
-    "PersonName": "Steuber, Doyle and Gutkowski",
-    "AssociateId": 633,
-    "Address": "minima",
-    "EmailId": 622,
+    "ContactId": 407,
+    "ContactName": "Ryan, Crist and Friesen",
+    "PersonId": 715,
+    "PersonName": "Bechtelar, Dicki and Predovic",
+    "AssociateId": 997,
+    "Address": "eveniet",
+    "EmailId": 797,
     "DuplicatePersonIds": [
-      550,
-      906
+      38,
+      206
     ],
-    "Name": "Gorczany-Pfeffer",
+    "Name": "Morissette LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

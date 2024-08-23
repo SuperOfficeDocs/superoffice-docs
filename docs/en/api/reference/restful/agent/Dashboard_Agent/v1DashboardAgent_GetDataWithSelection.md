@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 527,
-  "SelectionId": 459,
-  "Restrictions": "commodi"
+  "DashboardTileId": 617,
+  "SelectionId": 319,
+  "Restrictions": "est"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fadel Group",
-        "DisplayTooltip": "sint",
-        "DisplayType": "assumenda",
+        "DisplayName": "Halvorson, Thompson and Bartell",
+        "DisplayTooltip": "esse",
+        "DisplayType": "quia",
         "CanOrderBy": false,
-        "Name": "Smitham Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "quod",
-        "RestrictionListName": "Lesch-Nienow",
+        "Name": "Kozey, Nolan and Koelpin",
+        "CanRestrictBy": false,
+        "RestrictionType": "fugiat",
+        "RestrictionListName": "Robel-Dickens",
         "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "saepe",
-        "IconHint": "eveniet",
-        "HeadingIconHint": "omnis"
+        "ExtraInfo": "odit",
+        "Width": "sequi",
+        "IconHint": "incidunt",
+        "HeadingIconHint": "nesciunt"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fadel Group",
-        "DisplayTooltip": "sint",
-        "DisplayType": "assumenda",
+        "DisplayName": "Halvorson, Thompson and Bartell",
+        "DisplayTooltip": "esse",
+        "DisplayType": "quia",
         "CanOrderBy": false,
-        "Name": "Smitham Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "quod",
-        "RestrictionListName": "Lesch-Nienow",
+        "Name": "Kozey, Nolan and Koelpin",
+        "CanRestrictBy": false,
+        "RestrictionType": "fugiat",
+        "RestrictionListName": "Robel-Dickens",
         "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "saepe",
-        "IconHint": "eveniet",
-        "HeadingIconHint": "omnis"
+        "ExtraInfo": "odit",
+        "Width": "sequi",
+        "IconHint": "incidunt",
+        "HeadingIconHint": "nesciunt"
       }
     ],
     "Result": null

@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 275,
-  "NumSentences": 103,
-  "Summary": "quos",
-  "IsoLangCode": "asperiores"
+  "ContactId": 810,
+  "NumSentences": 493,
+  "Summary": "consequatur",
+  "IsoLangCode": "sit"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2016-03-07T04:22:25.5115955+01:00",
-  "UserPrompt": "sequi",
-  "UserDisplayText": "qui",
-  "BotResponse": "earum",
+  "Timestamp": "2012-03-07T13:28:21.3824006+01:00",
+  "UserPrompt": "voluptatem",
+  "UserDisplayText": "sapiente",
+  "BotResponse": "consequuntur",
   "BotActions": {
-    "BotActions1": "aperiam",
-    "BotActions2": "doloremque"
+    "BotActions1": "voluptas",
+    "BotActions2": "excepturi"
   },
   "Attachments": [
-    "perferendis",
-    "rem"
+    "consectetur",
+    "dignissimos"
   ]
 }
 ```

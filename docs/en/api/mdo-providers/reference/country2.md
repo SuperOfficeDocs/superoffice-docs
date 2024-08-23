@@ -3,9 +3,9 @@ uid: country2
 title: country2
 keywords: mdoprovider mdo provider country2
 description: Same as CountryProvider, but with icon hints based on the countrys name.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "country2" MDO List

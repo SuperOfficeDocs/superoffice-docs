@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 524,
-  "Name": "Rutherford LLC",
-  "Tooltip": "unde",
+  "HeadingId": 502,
+  "Name": "Reichel Group",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 813,
-  "UdListDefinitionId": 680
+  "Rank": 853,
+  "UdListDefinitionId": 545
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 770,
-  "Name": "Zieme Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 856,
-  "UdListDefinitionId": 542,
+  "HeadingId": 285,
+  "Name": "Mann-Kihn",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 384,
+  "UdListDefinitionId": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

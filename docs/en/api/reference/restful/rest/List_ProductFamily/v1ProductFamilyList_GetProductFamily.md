@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Bradtke-Grant",
-  "Tooltip": "eum",
+  "Id": 905,
+  "Name": "Robel, Wolff and Keeling",
+  "Tooltip": "ducimus",
   "Deleted": true,
-  "UdListDefinitionId": 544,
-  "Rank": 522,
+  "UdListDefinitionId": 54,
+  "Rank": 629,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 600
     }
   }
 }

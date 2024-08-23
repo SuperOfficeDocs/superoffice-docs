@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Wehner-Hyatt",
-  "Tooltip": "dolorem",
+  "Id": 690,
+  "Name": "Zemlak, Lubowitz and Lind",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 80,
-  "Rank": 54,
+  "UdListDefinitionId": 774,
+  "Rank": 549,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 81
     }
   }
 }

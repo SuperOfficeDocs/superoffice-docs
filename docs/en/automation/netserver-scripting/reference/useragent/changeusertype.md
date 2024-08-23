@@ -2,10 +2,10 @@
 uid: useragent-changeusertype
 title: UserAgent.ChangeUserType event method
 description: Scripting events called on the ChangeUserType method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.ChangeUserType
 

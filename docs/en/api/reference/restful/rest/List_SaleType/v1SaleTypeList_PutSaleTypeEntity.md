@@ -116,47 +116,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 565,
-  "Name": "Hauck Group",
-  "Tooltip": "illum",
-  "Rank": 532,
+  "SaleTypeId": 961,
+  "Name": "Williamson, Konopelski and Watsica",
+  "Tooltip": "ea",
+  "Rank": 186,
   "DurationUnit": "Century",
-  "SaleDuration": 109,
-  "SaleTypeCatId": 390,
-  "Deleted": false,
+  "SaleDuration": 156,
+  "SaleTypeCatId": 414,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 354,
-  "QuoteLinesTemplate": 419,
-  "ConfirmationLinesTemplate": 745,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 443,
-  "MinEarningPercent": 579,
-  "GroupQuoteLinesBy": 36,
-  "SortGroupLinesBy": 956,
+  "DefaultQuoteValidity": 35,
+  "QuoteLinesTemplate": 261,
+  "ConfirmationLinesTemplate": 59,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 613,
+  "MinEarningPercent": 74,
+  "GroupQuoteLinesBy": 585,
+  "SortGroupLinesBy": 89,
   "Stages": [
     {
-      "Id": 403,
-      "Name": "Gutkowski, Mayert and Maggio",
-      "ToolTip": "Ut quasi cum odit quo.",
+      "Id": 801,
+      "Name": "Harber, Roob and Effertz",
+      "ToolTip": "Doloribus harum.",
       "Deleted": false,
-      "Rank": 861,
-      "Type": "eveniet",
-      "ColorBlock": 320,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "2013-02-08T04:22:36.1903389+01:00",
+      "Rank": 382,
+      "Type": "qui",
+      "ColorBlock": 112,
+      "IconHint": "minus",
+      "Selected": false,
+      "LastChanged": "2011-05-15T13:28:33.1482054+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "veritatis",
-      "Hidden": true,
-      "FullName": "Chanel Kling"
+      "ExtraInfo": "occaecati",
+      "StyleHint": "qui",
+      "Hidden": false,
+      "FullName": "Chauncey Dibbert III"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 676,
-  "Name": "Wunsch-Bartell",
-  "Tooltip": "ut",
-  "Rank": 121,
+  "SaleTypeId": 916,
+  "Name": "Hegmann Group",
+  "Tooltip": "et",
+  "Rank": 180,
   "DurationUnit": "Century",
-  "SaleDuration": 775,
-  "SaleTypeCatId": 308,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 930,
+  "SaleTypeCatId": 507,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 729,
-  "QuoteLinesTemplate": 257,
-  "ConfirmationLinesTemplate": 193,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 423,
+  "QuoteLinesTemplate": 433,
+  "ConfirmationLinesTemplate": 789,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 196,
-  "MinEarningPercent": 709,
-  "GroupQuoteLinesBy": 452,
-  "SortGroupLinesBy": 480,
+  "MaxDiscountPercent": 875,
+  "MinEarningPercent": 451,
+  "GroupQuoteLinesBy": 789,
+  "SortGroupLinesBy": 297,
   "Stages": [
     {
-      "Id": 437,
-      "Name": "Christiansen, Goyette and Stiedemann",
-      "ToolTip": "Impedit voluptatem.",
-      "Deleted": false,
-      "Rank": 447,
-      "Type": "aut",
-      "ColorBlock": 991,
-      "IconHint": "doloribus",
-      "Selected": false,
-      "LastChanged": "1999-06-01T04:22:36.1903389+02:00",
+      "Id": 438,
+      "Name": "Schroeder-Jacobi",
+      "ToolTip": "Quia nihil voluptatem.",
+      "Deleted": true,
+      "Rank": 184,
+      "Type": "nulla",
+      "ColorBlock": 185,
+      "IconHint": "exercitationem",
+      "Selected": true,
+      "LastChanged": "2008-09-22T13:28:33.1482054+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "saepe",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "impedit",
       "Hidden": false,
-      "FullName": "Vilma Predovic",
+      "FullName": "Dr. Marques Pagac Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 327
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Zulauf-Bosco",
-    "ToolTip": "Cumque qui enim nihil provident aut.",
+    "Id": 535,
+    "Name": "Ziemann-Pacocha",
+    "ToolTip": "Alias et et blanditiis repudiandae.",
     "Deleted": false,
-    "Rank": 816,
-    "Type": "corporis",
-    "ColorBlock": 128,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2000-06-04T04:22:35.8153337+02:00",
+    "Rank": 405,
+    "Type": "ullam",
+    "ColorBlock": 444,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2017-02-07T13:28:32.679146+01:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Yost-Stoltenberg",
-        "ToolTip": "Ut odit ratione.",
+        "Id": 227,
+        "Name": "Abbott-Jacobi",
+        "ToolTip": "Dolorum aperiam.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "aut",
-        "ColorBlock": 323,
-        "IconHint": "non",
+        "Rank": 265,
+        "Type": "porro",
+        "ColorBlock": 819,
+        "IconHint": "nulla",
         "Selected": true,
-        "LastChanged": "2021-06-22T04:22:35.8153337+02:00",
+        "LastChanged": "2006-04-15T13:28:32.679146+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "facere",
+        "ExtraInfo": "magni",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Ulices Herzog MD"
+        "FullName": "Coty Friesen"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "est",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Karl Spinka"
+    "FullName": "Precious Marisol Grady III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Waelchi, Ratke and Welch",
-    "ToolTip": "Ex similique.",
+    "Id": 321,
+    "Name": "Reichel Group",
+    "ToolTip": "Est voluptas est qui quas sit.",
     "Deleted": true,
-    "Rank": 348,
-    "Type": "beatae",
-    "ColorBlock": 302,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2023-10-24T04:22:35.8153337+02:00",
+    "Rank": 541,
+    "Type": "error",
+    "ColorBlock": 411,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2007-02-22T13:28:32.679146+01:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Jacobi, Reichel and Hoppe",
-        "ToolTip": "In sint praesentium quis tenetur quam.",
-        "Deleted": false,
-        "Rank": 969,
-        "Type": "et",
-        "ColorBlock": 322,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2013-12-03T04:22:35.8153337+01:00",
+        "Id": 166,
+        "Name": "Sanford, Runolfsdottir and Mohr",
+        "ToolTip": "Quia dicta quasi quod repellendus et.",
+        "Deleted": true,
+        "Rank": 163,
+        "Type": "quia",
+        "ColorBlock": 155,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2016-02-09T13:28:32.679146+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Mr. Percival O'Keefe",
+        "ExtraInfo": "neque",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Miss Alexandrea Nitzsche",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldType": "System.String",
+            "FieldLength": 875
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "fugit",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Miss Maya Nikolaus DVM",
+    "FullName": "Mrs. Timmy Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldLength": 129
       }
     }
   }

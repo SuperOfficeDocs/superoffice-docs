@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 27 Jul 2015 04:22:35 G7T
+Last-Modified: Sun, 16 Aug 2015 13:28:32 G8T
 
 {
-  "BlobId": 411,
-  "BlobSize": 935,
-  "Description": "Down-sized transitional hierarchy",
-  "ExtraInfo": "aut",
+  "BlobId": 434,
+  "BlobSize": 891,
+  "Description": "Cross-platform optimal leverage",
+  "ExtraInfo": "impedit",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 956,
-  "CreatedDate": "2016-05-08T04:22:35.6584781+02:00",
-  "UpdatedDate": "2015-07-27T04:22:35.6584781+02:00",
+  "MimeType": "cum",
+  "OriginalSize": 828,
+  "CreatedDate": "1997-08-15T13:28:32.5073109+02:00",
+  "UpdatedDate": "2015-08-16T13:28:32.5073109+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eos",
+  "ConceptualType": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 225,
-  "Caption": "quia",
-  "Description": "Exclusive fault-tolerant task-force",
-  "SelectionId": 419,
+  "DashboardTileId": 336,
+  "Caption": "aut",
+  "Description": "Customizable 5th generation workforce",
+  "SelectionId": 648,
   "VisibleFor": [
     {
-      "VisibleId": 856,
+      "VisibleId": 92,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "debitis"
     },
     {
-      "VisibleId": 856,
+      "VisibleId": 92,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "debitis"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 716,
-  "Caption": "illum",
-  "Description": "Versatile static focus group",
-  "ChartName": "Kulas Group",
-  "ChartId": "quibusdam",
-  "IsDefault": true,
-  "AssociateId": 359,
-  "GroupId": 731,
-  "SelectionId": 199,
-  "Config": "quis",
+  "DashboardTileId": 474,
+  "Caption": "aut",
+  "Description": "Cross-platform tangible firmware",
+  "ChartName": "Cormier-Dicki",
+  "ChartId": "non",
+  "IsDefault": false,
+  "AssociateId": 535,
+  "GroupId": 250,
+  "SelectionId": 545,
+  "Config": "officia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Treutel-Purdy",
-      "Description": "Persevering 24/7 model",
+      "Name": "Cummings, Kreiger and Graham",
+      "Description": "Inverse bi-directional neural-net",
       "Type": "Boolean",
-      "ListName": "Robel-Schuster",
+      "ListName": "Ebert-Wisoky",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iusto",
-      "DefaultDataOption": true,
+      "Value": "aut",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 774,
+      "VisibleId": 555,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldLength": 761
         }
       }
     },
     {
-      "VisibleId": 774,
+      "VisibleId": 555,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldLength": 761
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 970
     }
   }
 }

@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2018-10-21T04:22:25.94972+02:00",
-  "EndTime": "2019-08-05T04:22:25.94972+02:00",
-  "Count": 627
+  "StartTime": "2001-09-17T13:28:21.7731516+02:00",
+  "EndTime": "2010-05-16T13:28:21.7731516+02:00",
+  "Count": 879
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 467,
-    "StartDate": "2015-05-15T04:22:25.94972+02:00",
-    "EndDate": "2003-05-02T04:22:25.94972+02:00",
+    "AppointmentId": 348,
+    "StartDate": "2020-08-01T13:28:21.7731516+02:00",
+    "EndDate": "2020-07-28T13:28:21.7731516+02:00",
     "Type": "BookingForChecklist",
-    "Task": "beatae",
-    "AssociateFullName": "Prof. Lucile Reichert",
-    "ContactName": "Abernathy, Harris and McGlynn",
-    "Description": "Assimilated scalable secured line",
-    "PersonFullName": "Terrance West",
-    "PersonId": 387,
-    "ContactId": 235,
-    "ProjectId": 803,
-    "ProjectName": "Carroll, Rippin and Jerde",
+    "Task": "fugit",
+    "AssociateFullName": "Miss Westley Meggie Predovic DVM",
+    "ContactName": "Bechtelar-Lind",
+    "Description": "Vision-oriented secondary installation",
+    "PersonFullName": "Trystan Schmeler III",
+    "PersonId": 852,
+    "ContactId": 984,
+    "ProjectId": 351,
+    "ProjectName": "Wisozk-Reilly",
     "IsPublished": false,
-    "AssociateId": 365,
-    "ColorIndex": 962,
-    "IsFree": true,
+    "AssociateId": 729,
+    "ColorIndex": 652,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 157,
-    "PriorityName": "Abshire-Funk",
+    "PriorityId": 52,
+    "PriorityName": "Pacocha LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-07-11T04:22:25.94972+02:00",
+    "ActiveDate": "2004-01-16T13:28:21.7731516+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-06-10T04:22:25.94972+02:00",
-    "RecurringEndDate": "2007-06-19T04:22:25.94972+02:00",
-    "MotherId": 756,
-    "AssignedBy": 238,
-    "AssignedByFullName": "Shemar Dooley",
+    "RecurringStartDate": "2012-04-30T13:28:21.7731516+02:00",
+    "RecurringEndDate": "2007-04-14T13:28:21.7731516+02:00",
+    "MotherId": 840,
+    "AssignedBy": 857,
+    "AssignedByFullName": "Marilou Zieme",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "delectus",
-    "SaleId": 768,
-    "SaleName": "McCullough-Welch",
-    "AssociateName": "Pacocha-Gleason",
-    "CreatedDate": "2021-08-30T04:22:25.94972+02:00",
-    "CreatedBy": "dignissimos",
-    "CreatedByFullName": "Kari Littel I",
-    "CreatedByAssociateId": 388,
+    "Location": "magnam",
+    "AlarmLeadTime": "est",
+    "SaleId": 613,
+    "SaleName": "Gottlieb Group",
+    "AssociateName": "Erdman Inc and Sons",
+    "CreatedDate": "2008-08-17T13:28:21.7731516+02:00",
+    "CreatedBy": "aspernatur",
+    "CreatedByFullName": "Reginald Stiedemann",
+    "CreatedByAssociateId": 452,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 141,
-    "Title": "at",
-    "Agenda": "sequi",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 223,
+    "Title": "laboriosam",
+    "Agenda": "aliquid",
+    "InternalNotes": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   }

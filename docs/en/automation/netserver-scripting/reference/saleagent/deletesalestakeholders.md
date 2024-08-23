@@ -2,10 +2,10 @@
 uid: saleagent-deletesalestakeholders
 title: SaleAgent.DeleteSaleStakeholders event method
 description: Scripting events called on the DeleteSaleStakeholders method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.DeleteSaleStakeholders
 

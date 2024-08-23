@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 528
+  "TemplateHeadingId": 441
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 969,
-    "Attention": "facere",
-    "Header": "voluptate",
-    "Name": "Simonis-Mraz",
-    "OurRef": "et",
-    "YourRef": "quam",
-    "Description": "Open-source 6th generation website",
-    "DocumentTemplate": "voluptatum",
+    "DocumentId": 473,
+    "Attention": "aliquid",
+    "Header": "cum",
+    "Name": "Jewess-Kilback",
+    "OurRef": "in",
+    "YourRef": "delectus",
+    "Description": "Switchable content-based instruction set",
+    "DocumentTemplate": "veritatis",
     "IsPublished": true,
-    "PersonId": 760,
-    "PersonFullName": "Florencio Abdiel Keeling PhD",
-    "AssociateFullName": "Dr. Rachelle Jaylan Pouros",
-    "ContactId": 4,
-    "ContactName": "Stehr-Emard",
-    "ProjectId": 391,
-    "ProjectName": "Ritchie, Terry and Sanford",
-    "AssociateId": 820,
-    "Snum": 843,
-    "SaleId": 271,
-    "SaleName": "Heathcote-Bechtelar",
+    "PersonId": 768,
+    "PersonFullName": "Enola Stoltenberg",
+    "AssociateFullName": "Layne Runolfsdottir V",
+    "ContactId": 647,
+    "ContactName": "Gulgowski LLC",
+    "ProjectId": 539,
+    "ProjectName": "Ritchie-Wiegand",
+    "AssociateId": 246,
+    "Snum": 398,
+    "SaleId": 824,
+    "SaleName": "Weber-Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldLength": 831
       }
     }
   }

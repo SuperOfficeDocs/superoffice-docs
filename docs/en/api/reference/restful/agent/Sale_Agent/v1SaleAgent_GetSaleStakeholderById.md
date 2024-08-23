@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    229,
-    367
+    637,
+    340
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Corkery, Simonis and Lind",
-    "Comment": "cumque",
-    "StakeholderRoleId": 709,
-    "CountryId": 143,
-    "PersonId": 17,
-    "EmailDescription": "ashlynn@yost.com",
-    "EmailId": 123,
-    "EmailAddress": "porter@ferry.biz",
-    "PhoneId": 296,
-    "ContactName": "Gibson Group",
-    "ContactId": 476,
-    "SaleId": 418,
-    "Mrmrs": "fugit",
-    "Firstname": "Eryn",
-    "MiddleName": "Hauck Group",
-    "Lastname": "Lockman",
-    "SaleStakeholderId": 369,
-    "Rank": 557,
-    "Phone": "655.137.1259 x948",
+    "StakeholderRoleName": "Leffler, Kris and Willms",
+    "Comment": "et",
+    "StakeholderRoleId": 599,
+    "CountryId": 283,
+    "PersonId": 465,
+    "EmailDescription": "providenci_carroll@braunbecker.biz",
+    "EmailId": 271,
+    "EmailAddress": "abdullah.dicki@predovic.info",
+    "PhoneId": 708,
+    "ContactName": "Cummings-Bailey",
+    "ContactId": 821,
+    "SaleId": 330,
+    "Mrmrs": "vel",
+    "Firstname": "Donavon",
+    "MiddleName": "Nader, O'Kon and Rath",
+    "Lastname": "Armstrong",
+    "SaleStakeholderId": 442,
+    "Rank": 662,
+    "Phone": "951.041.6030 x26330",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 641
       }
     }
   }

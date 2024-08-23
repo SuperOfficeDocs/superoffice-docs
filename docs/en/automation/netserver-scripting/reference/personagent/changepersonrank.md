@@ -2,10 +2,10 @@
 uid: personagent-changepersonrank
 title: PersonAgent.ChangePersonRank event method
 description: Scripting events called on the ChangePersonRank method on the PersonAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PersonAgent.ChangePersonRank
 

@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 346,
-  "Name": "Rodriguez, Krajcik and Emmerich",
-  "CreatedDate": "2014-09-30T04:22:35.0010854+02:00",
-  "UpdatedDate": "1997-01-31T04:22:35.0010854+01:00",
-  "AssociateFullName": "Miss Crystal Kilback",
-  "CreatedBy": "vel",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "cumque",
-  "ForeignAppId": 358
+  "ForeignDeviceId": 897,
+  "Name": "Treutel, Zieme and Quitzon",
+  "CreatedDate": "2000-07-15T13:28:31.6948645+02:00",
+  "UpdatedDate": "2023-03-18T13:28:31.6948645+01:00",
+  "AssociateFullName": "Afton Anais Boehm IV",
+  "CreatedBy": "atque",
+  "UpdatedBy": "voluptatibus",
+  "DeviceIdentifier": "quis",
+  "ForeignAppId": 765
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 207,
-  "Name": "Beier-Bergnaum",
-  "CreatedDate": "2002-01-25T04:22:35.0010854+01:00",
-  "UpdatedDate": "2017-11-01T04:22:35.0010854+01:00",
-  "AssociateFullName": "Florencio Greenholt",
-  "CreatedBy": "harum",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "corrupti",
-  "ForeignAppId": 1001,
+  "ForeignDeviceId": 706,
+  "Name": "Gerhold-Cormier",
+  "CreatedDate": "2012-12-10T13:28:31.6948645+01:00",
+  "UpdatedDate": "2016-12-11T13:28:31.6948645+01:00",
+  "AssociateFullName": "Friedrich Paucek",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "eaque",
+  "DeviceIdentifier": "ipsam",
+  "ForeignAppId": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

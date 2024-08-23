@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 525,
-    "Name": "Beatty Group",
-    "Tooltip": "autem",
+    "HeadingId": 759,
+    "Name": "Baumbach LLC",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 972,
-    "UdListDefinitionId": 232,
+    "Rank": 909,
+    "UdListDefinitionId": 992,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

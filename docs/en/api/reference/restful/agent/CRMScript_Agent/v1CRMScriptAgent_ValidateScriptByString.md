@@ -72,6 +72,9 @@ OK
 | ErrorMessage | string | Deprecated, see ErrorInformation instead. Contains the error message for a non-valide CRMScript |
 | LineNumber | int32 | Deprecated, see ErrorInformation instead. The line number containing the incorrect syntax, if available |
 | ErrorInformation | CRMScriptErrorInfo | Contains error information if the validation failed |
+| Transpiled | string | This will contain transpiled code. In case of Typescript, this will then contain the executable JavaScript |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | Array of source maps showing where in the original code a specific line originated from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "qui"
+  "Script": "repellat"
 }
 ```
 
@@ -97,15 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "totam",
-  "LineNumber": 475,
+  "ErrorMessage": "qui",
+  "LineNumber": 524,
   "ErrorInformation": null,
+  "Transpiled": "doloremque",
+  "Includes": [
+    329,
+    568
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 47,
+      "LineNumberTo": 627,
+      "Delta": 36,
+      "IncludeId": "velit",
+      "IncludedFrom": [
+        "dolores",
+        "cumque"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 636
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 454
     }
   }
 }

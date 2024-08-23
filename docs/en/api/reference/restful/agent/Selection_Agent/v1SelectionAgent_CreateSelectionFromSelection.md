@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 921,
-  "Name": "McDermott, Abbott and Wuckert",
+  "SelectionId": 6,
+  "Name": "Blanda LLC",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-engineered dynamic artificial intelligence",
-  "Postit": "adipisci",
+  "Description": "Seamless value-added model",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 641,
-  "IncludePerson": 252,
+  "GroupIdx": 719,
+  "IncludePerson": 546,
   "MemberCount": 99.99,
-  "Name": "Wisoky, Schroeder and West",
-  "PostitTextId": 980,
-  "CreatedDate": "2013-04-07T04:22:27.6430234+02:00",
-  "SelectionId": 338,
-  "SoundEx": "maiores",
-  "Source": 386,
-  "TextId": 94,
-  "UpdatedDate": "2015-11-19T04:22:27.6430234+01:00",
-  "UpdatedCount": 468,
-  "Visibility": 908,
+  "Name": "Kreiger-Windler",
+  "PostitTextId": 173,
+  "CreatedDate": "2009-08-13T13:28:23.772965+02:00",
+  "SelectionId": 306,
+  "SoundEx": "illo",
+  "Source": 343,
+  "TextId": 691,
+  "UpdatedDate": "2022-10-12T13:28:23.772965+02:00",
+  "UpdatedCount": 30,
+  "Visibility": 656,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 750,
-  "TargetTableName": "Nolan, Keeling and Grady",
+  "CompanyUnique": false,
+  "TargetTableNumber": 480,
+  "TargetTableName": "Gibson, Robel and Deckow",
   "Completed": false,
-  "LeftSelectionId": 794,
-  "RightSelectionId": 235,
+  "LeftSelectionId": 663,
+  "RightSelectionId": 913,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turcotte, Hickle and Trantow",
-  "ShadowProviderName": "Champlin Group",
-  "ChartKey": "recusandae",
-  "LastLoaded": "2005-02-07T04:22:27.6430234+01:00",
-  "LastLoadedBy": 766,
+  "MainProviderName": "Ryan-Schinner",
+  "ShadowProviderName": "Pagac, Hudson and Olson",
+  "ChartKey": "vitae",
+  "LastLoaded": "2006-09-08T13:28:23.772965+02:00",
+  "LastLoadedBy": 407,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-08-09T04:22:27.6430234+02:00",
-  "LastMembershipChangeBy": 929,
+  "LastMembershipChange": "2019-07-27T13:28:23.772965+02:00",
+  "LastMembershipChangeBy": 909,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "accusamus",
-  "MemberTabHeading": "ipsam",
-  "MailingsProviderName": "Mante-Carter",
-  "DashboardTileDefinitionId": 428,
+  "MainHeading": "et",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Lueilwitz, Casper and Lehner",
+  "DashboardTileDefinitionId": 602,
   "VisibleFor": [
     {
-      "VisibleId": 455,
+      "VisibleId": 506,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 616
         }
       }
     },
     {
-      "VisibleId": 455,
+      "VisibleId": 506,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 616
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

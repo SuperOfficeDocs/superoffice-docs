@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Batz, Halvorson and Nicolas",
-    "Tooltip": "ut",
+    "Id": 368,
+    "Name": "Hyatt LLC",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "UdListDefinitionId": 474,
-    "Rank": 771
+    "UdListDefinitionId": 517,
+    "Rank": 392
   },
   {
-    "Id": 946,
-    "Name": "Batz, Halvorson and Nicolas",
-    "Tooltip": "ut",
+    "Id": 368,
+    "Name": "Hyatt LLC",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "UdListDefinitionId": 474,
-    "Rank": 771
+    "UdListDefinitionId": 517,
+    "Rank": 392
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Gutmann, Orn and Bergnaum",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "UdListDefinitionId": 736,
-    "Rank": 277,
+    "Id": 974,
+    "Name": "Kuphal-Huel",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 86,
+    "Rank": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

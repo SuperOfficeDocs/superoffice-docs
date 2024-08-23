@@ -106,24 +106,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 926,
-  "Section": "cumque",
-  "Key": "at",
-  "Name": "Mayert-Stamm",
+  "PrefDescId": 237,
+  "Section": "ab",
+  "Key": "provident",
+  "Name": "West Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined 24 hour emulation",
-  "IsBuiltin": true,
-  "TableName": "Streich-Waters",
-  "UserDefinedListId": 514,
-  "Rank": 590,
-  "SubGroup": "doloremque",
-  "MinLevel": 195,
-  "MaxValue": 959,
-  "MinValue": 763,
-  "RequiredLicense": "blanditiis"
+  "Description": "Visionary asynchronous time-frame",
+  "IsBuiltin": false,
+  "TableName": "Kuhn LLC",
+  "UserDefinedListId": 545,
+  "Rank": 383,
+  "SubGroup": "et",
+  "MinLevel": 623,
+  "MaxValue": 393,
+  "MinValue": 699,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 569,
-  "Section": "pariatur",
-  "Key": "quibusdam",
-  "Name": "Jones, Flatley and Cummerata",
+  "PrefDescId": 731,
+  "Section": "tenetur",
+  "Key": "omnis",
+  "Name": "Stokes, Yundt and Sipes",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated optimal function",
+  "Description": "Self-enabling encompassing adapter",
   "IsBuiltin": false,
-  "TableName": "Schneider-Zieme",
-  "UserDefinedListId": 976,
-  "Rank": 9,
-  "SubGroup": "rerum",
-  "MinLevel": 79,
-  "MaxValue": 422,
-  "MinValue": 357,
-  "RequiredLicense": "quos",
+  "TableName": "Thiel, Cartwright and Schulist",
+  "UserDefinedListId": 761,
+  "Rank": 130,
+  "SubGroup": "doloremque",
+  "MinLevel": 128,
+  "MaxValue": 545,
+  "MinValue": 542,
+  "RequiredLicense": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 463
     }
   }
 }

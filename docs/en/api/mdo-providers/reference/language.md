@@ -3,9 +3,9 @@ uid: language
 title: language
 keywords: mdoprovider mdo provider language
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "language" MDO List

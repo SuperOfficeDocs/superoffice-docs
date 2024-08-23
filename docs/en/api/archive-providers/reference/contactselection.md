@@ -3,9 +3,9 @@ uid: ContactSelection
 title: ContactSelection
 description: 
 keywords: ContactSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactSelection"
@@ -144,7 +144,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
 |contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contactUdef/SuperOffice:3|int|companynumber| x |
@@ -1202,7 +1202,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=contactAssociate/fullName,contactExtra/x_contact_default_integer,targetRelation/contactNoMail,document/associate/lastName,personUdef/SuperOffice:4
+GET /api/v1/archive/ContactSelection?$select=postAddress/formattedAddress,NumberOfSales,sourceRelation/who,sale/saleId,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

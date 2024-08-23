@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Swift, Wintheiser and Murphy",
-    "ToolTip": "Dignissimos illo quis.",
-    "Deleted": false,
-    "Rank": 672,
-    "Type": "ut",
-    "ColorBlock": 908,
-    "IconHint": "aut",
+    "Id": 968,
+    "Name": "Heidenreich-Kuhn",
+    "ToolTip": "Ut porro omnis soluta.",
+    "Deleted": true,
+    "Rank": 66,
+    "Type": "odit",
+    "ColorBlock": 26,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2016-11-03T04:22:36.0497173+01:00",
+    "LastChanged": "2005-06-24T13:28:32.9603316+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Casper-Weimann",
-        "ToolTip": "Id sed consequatur officiis.",
+        "Id": 827,
+        "Name": "Fritsch-Pacocha",
+        "ToolTip": "Molestiae quo et fugiat magni accusantium reprehenderit dicta.",
         "Deleted": false,
-        "Rank": 255,
-        "Type": "recusandae",
-        "ColorBlock": 545,
-        "IconHint": "dolorem",
+        "Rank": 223,
+        "Type": "velit",
+        "ColorBlock": 215,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2019-04-17T04:22:36.0497173+02:00",
+        "LastChanged": "2019-08-25T13:28:32.9603316+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Teagan Weber",
+        "ExtraInfo": "quis",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Bessie Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldType": "System.String",
+            "FieldLength": 570
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Korbin Bergstrom",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Dr. Obie Hirthe III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 199
       }
     }
   }

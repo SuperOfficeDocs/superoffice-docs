@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Kihn-Gerhold",
-    "ToolTip": "Alias voluptatem.",
+    "Id": 6,
+    "Name": "Hahn-Rempel",
+    "ToolTip": "Ut consequuntur molestiae ratione quis.",
     "Deleted": false,
-    "Rank": 808,
-    "Type": "nemo",
-    "ColorBlock": 93,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2000-04-13T04:22:35.7834778+02:00",
+    "Rank": 550,
+    "Type": "sint",
+    "ColorBlock": 310,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2009-06-15T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Kling-Lehner",
-        "ToolTip": "Consequatur et quasi omnis a.",
-        "Deleted": false,
-        "Rank": 181,
-        "Type": "exercitationem",
-        "ColorBlock": 61,
-        "IconHint": "culpa",
-        "Selected": false,
-        "LastChanged": "2010-08-22T04:22:35.7834778+02:00",
+        "Id": 843,
+        "Name": "Kuhic Group",
+        "ToolTip": "Vitae adipisci rerum consequatur voluptatem aperiam ex.",
+        "Deleted": true,
+        "Rank": 561,
+        "Type": "est",
+        "ColorBlock": 539,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1998-12-13T13:28:32.6479022+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "dolore",
+        "ExtraInfo": "ab",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Dr. Sylvia Angie Romaguera",
+        "FullName": "Edwardo Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 609
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "ea",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Mr. Maymie Maeve Goldner",
+    "FullName": "Alford Ilene Zulauf DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

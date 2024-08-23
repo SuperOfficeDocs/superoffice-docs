@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 737,
-  "ERPQuoteVersionKey": "rerum",
-  "QuoteId": 745,
-  "Description": "Extended tangible flexibility",
-  "Number": "1713422",
+  "QuoteVersionId": 237,
+  "ERPQuoteVersionKey": "molestiae",
+  "QuoteId": 23,
+  "Description": "Versatile dedicated archive",
+  "Number": "913902",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 314,
-  "SentDate": "2010-02-17T04:22:27.3778332+01:00",
-  "FollowupId": 828,
-  "ExpirationDate": "2008-09-21T04:22:27.3778332+02:00",
-  "DeliveryCountryId": 23,
+  "LikelyQuoteAlternativeId": 300,
+  "SentDate": "2020-08-10T13:28:23.5230176+02:00",
+  "FollowupId": 624,
+  "ExpirationDate": "2019-04-22T13:28:23.5230176+02:00",
+  "DeliveryCountryId": 775,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 686,
+  "InvoiceCountryId": 990,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "similique",
-  "ERPPaymentTypeKey": "sed",
-  "ERPDeliveryTermsKey": "quis",
-  "ERPDeliveryTypeKey": "aut",
-  "Rank": 870,
-  "ApprovedBy": 603,
-  "ApprovedText": "eos",
-  "ApprovedRegisteredBy": 330,
-  "ApprovedRegisteredDate": "2000-02-13T04:22:27.3778332+01:00",
-  "ExtraField1": "sit",
-  "ExtraField2": "iste",
-  "ExtraField3": "esse",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "quod",
-  "LastRecalculated": "2009-08-12T04:22:27.3778332+02:00",
-  "Updated": "2011-06-16T04:22:27.3778332+02:00",
-  "UpdatedAssociateId": 808,
-  "Registered": "2018-07-04T04:22:27.3778332+02:00",
-  "RegisteredAssociateId": 347,
-  "RequestAssociateId": 443,
-  "RequestComment": "odit",
+  "ERPPaymentTermsKey": "sit",
+  "ERPPaymentTypeKey": "aut",
+  "ERPDeliveryTermsKey": "voluptate",
+  "ERPDeliveryTypeKey": "ad",
+  "Rank": 103,
+  "ApprovedBy": 213,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 844,
+  "ApprovedRegisteredDate": "2017-02-12T13:28:23.5230176+01:00",
+  "ExtraField1": "voluptates",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "sed",
+  "ExtraField4": "itaque",
+  "ExtraField5": "eius",
+  "LastRecalculated": "1997-08-19T13:28:23.5230176+02:00",
+  "Updated": "2001-04-12T13:28:23.5230176+02:00",
+  "UpdatedAssociateId": 850,
+  "Registered": "2020-07-18T13:28:23.5230176+02:00",
+  "RegisteredAssociateId": 314,
+  "RequestAssociateId": 471,
+  "RequestComment": "quibusdam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 905,
-      "ERPQuoteAlternativeKey": "dolores",
-      "QuoteVersionId": 743,
-      "Name": "Langosh-Feest",
-      "Description": "Vision-oriented radical support",
+      "QuoteAlternativeId": 234,
+      "ERPQuoteAlternativeKey": "dolorem",
+      "QuoteVersionId": 569,
+      "Name": "Padberg Inc and Sons",
+      "Description": "Right-sized assymetric paradigm",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 12711.503999999999,
-      "ERPDiscountAmount": 17318.484,
-      "DiscountPercent": 12545.402,
-      "DiscountAmount": 3522.616,
+      "ERPDiscountPercent": 9423.938,
+      "ERPDiscountAmount": 19509.149999999998,
+      "DiscountPercent": 5910.724,
+      "DiscountAmount": 1109.436,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "maiores",
-      "VAT": 8214.214,
-      "EarningPercent": 30769.611999999997,
-      "EarningAmount": 26676.608,
-      "SubTotal": 15428.681999999999,
-      "TotalPrice": 745.89199999999994,
-      "ExtraField1": "unde",
-      "ExtraField2": "laudantium",
-      "ExtraField3": "unde",
-      "ExtraField4": "ad",
-      "ExtraField5": "aut",
+      "VATInfo": "quis",
+      "VAT": 21492.971999999998,
+      "EarningPercent": 18033.036,
+      "EarningAmount": 9107.404,
+      "SubTotal": 786.634,
+      "TotalPrice": 25037.525999999998,
+      "ExtraField1": "adipisci",
+      "ExtraField2": "placeat",
+      "ExtraField3": "vero",
+      "ExtraField4": "aut",
+      "ExtraField5": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 58
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

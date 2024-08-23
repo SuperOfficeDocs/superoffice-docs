@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Roob, Gleichner and Wyman",
-  "ListItemId": 248,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Friesen Inc and Sons",
+  "ListItemId": 103,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Stracke, Ebert and Blanda",
-    "ToolTip": "Provident vel tenetur impedit vitae id ducimus.",
+    "Id": 549,
+    "Name": "Schuster, Koch and Upton",
+    "ToolTip": "Repellat voluptatum.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "ipsa",
-    "ColorBlock": 620,
-    "IconHint": "quia",
+    "Rank": 836,
+    "Type": "reiciendis",
+    "ColorBlock": 555,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2016-12-21T04:22:26.969259+01:00",
+    "LastChanged": "2005-01-18T13:28:22.9449983+01:00",
     "ChildItems": [
       {
-        "Id": 608,
-        "Name": "Greenfelder LLC",
-        "ToolTip": "Quia repellendus quas.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "illo",
-        "ColorBlock": 687,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1997-02-14T04:22:26.969259+01:00",
+        "Id": 166,
+        "Name": "Ullrich Group",
+        "ToolTip": "Sint itaque ad numquam praesentium qui.",
+        "Deleted": true,
+        "Rank": 969,
+        "Type": "ipsam",
+        "ColorBlock": 57,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2013-12-29T13:28:22.9449983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "omnis",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Brooks McLaughlin",
+        "FullName": "Dr. Ubaldo Eric Beer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 688
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "nihil",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Ms. Holden Chasity Mills I",
+    "FullName": "Amos Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldLength": 187
       }
     }
   }

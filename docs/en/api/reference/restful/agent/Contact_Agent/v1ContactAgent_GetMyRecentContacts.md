@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 40,
-    "Name": "Rau Group",
-    "OrgNr": "890603",
-    "Department": "synergize cross-platform markets",
+    "ContactId": 497,
+    "Name": "Schuster LLC",
+    "OrgNr": "1934876",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "sint",
-    "DirectPhone": "1-534-099-1952 x876",
-    "AssociateId": 468,
-    "CountryId": 348,
-    "EmailAddress": "william_mclaughlin@gibson.name",
-    "Kananame": "ex",
-    "EmailAddressName": "dejah_hettinger@kshlerinebert.com",
+    "City": "in",
+    "DirectPhone": "626-919-9149 x6364",
+    "AssociateId": 330,
+    "CountryId": 983,
+    "EmailAddress": "keaton.russel@rolfson.co.uk",
+    "Kananame": "veniam",
+    "EmailAddressName": "laverne@rice.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Elvis Gilberto Hintz DDS",
+    "AssociateFullName": "Leonora Corkery",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "expedita",
-    "FullName": "Hardy Kuphal",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 861,
-    "Number1": "609318",
-    "Number2": "448026",
+    "FormattedAddress": "aut",
+    "FullName": "Jillian Schamberger",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 879,
+    "Number1": "1545843",
+    "Number2": "1629912",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 949
       }
     }
   }

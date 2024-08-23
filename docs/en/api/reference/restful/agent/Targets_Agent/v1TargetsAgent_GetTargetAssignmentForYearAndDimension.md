@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 499,
+  "TargetYear": 264,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 496,
-  "DimensionId": 577
+  "Id": 128,
+  "DimensionId": 965
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 778,
+  "TargetAssignmentInfoId": 407,
   "Values": [
-    72,
-    139
+    315,
+    133
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 212,
-  "DimensionListItemDisplayName": "Harber, Luettgen and McKenzie",
+  "DimensionListItem": 317,
+  "DimensionListItemDisplayName": "Hauck Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 583
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 273,
-    "Name": "Anderson-Gleichner",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 881
+    "HeadingId": 404,
+    "Name": "Graham-Kreiger",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 103,
+    "UdListDefinitionId": 499
   },
   {
-    "HeadingId": 273,
-    "Name": "Anderson-Gleichner",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 881
+    "HeadingId": 404,
+    "Name": "Graham-Kreiger",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 103,
+    "UdListDefinitionId": 499
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 642,
-    "Name": "Runolfsson, Eichmann and Morissette",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 340,
-    "UdListDefinitionId": 474,
+    "HeadingId": 262,
+    "Name": "Green Group",
+    "Tooltip": "fuga",
+    "Deleted": false,
+    "Rank": 853,
+    "UdListDefinitionId": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldType": "System.Int32",
+        "FieldLength": 724
       }
     }
   }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 438,
+    "HierarchyId": 632,
     "Domain": "Dashboards",
-    "Name": "Kuphal-Willms",
-    "Fullname": "reprehenderit",
-    "ParentId": 469,
+    "Name": "Schneider Inc and Sons",
+    "Fullname": "tempora",
+    "ParentId": 571,
     "Children": [
       {
-        "HierarchyId": 434,
+        "HierarchyId": 240,
         "Domain": "Dashboards",
-        "Name": "Cummings, Von and Glover",
-        "Fullname": "consequuntur",
-        "ParentId": 49,
+        "Name": "Hills LLC",
+        "Fullname": "dolorem",
+        "ParentId": 455,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-10-10T04:22:27.0173186+02:00",
-        "RegisteredAssociateId": 225,
-        "Updated": "2023-02-09T04:22:27.0173186+01:00",
-        "UpdatedAssociateId": 312,
+        "Registered": "2022-12-19T13:28:22.9918891+01:00",
+        "RegisteredAssociateId": 320,
+        "Updated": "2021-04-16T13:28:22.9918891+02:00",
+        "UpdatedAssociateId": 981,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldLength": 311
           }
         }
       }
     ],
-    "Registered": "2002-05-29T04:22:27.0173186+02:00",
-    "RegisteredAssociateId": 753,
-    "Updated": "2023-05-12T04:22:27.0173186+02:00",
-    "UpdatedAssociateId": 35,
+    "Registered": "2017-07-11T13:28:22.9918891+02:00",
+    "RegisteredAssociateId": 332,
+    "Updated": "2018-12-19T13:28:22.9918891+01:00",
+    "UpdatedAssociateId": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   }

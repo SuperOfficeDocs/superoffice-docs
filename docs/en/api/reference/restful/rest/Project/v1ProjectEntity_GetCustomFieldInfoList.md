@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuhlman-Gaylord",
-    "DisplayName": "Pfeffer Group",
-    "Description": "Ergonomic disintermediate encoding",
-    "ShortLabel": "rem",
+    "FieldName": "Casper, Hayes and DuBuque",
+    "DisplayName": "Rath-Jaskolski",
+    "Description": "Stand-alone non-volatile help-desk",
+    "ShortLabel": "nesciunt",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 959,
-    "TemplateVariableName": "Ratke LLC"
+    "Rank": 280,
+    "TemplateVariableName": "White-Sanford"
   }
 ]
 ```

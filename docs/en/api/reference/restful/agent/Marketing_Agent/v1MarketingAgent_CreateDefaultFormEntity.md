@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 50,
-  "FormKey": "necessitatibus",
-  "Name": "Toy-VonRueden",
-  "Description": "Implemented background frame",
-  "Config": "doloremque",
-  "FolderId": 555,
-  "ScriptId": 62,
-  "ResponseShipmentId": 413,
+  "FormId": 190,
+  "FormKey": "consequatur",
+  "Name": "Langosh-Mueller",
+  "Description": "Reverse-engineered tertiary implementation",
+  "Config": "numquam",
+  "FolderId": 775,
+  "ScriptId": 832,
+  "ResponseShipmentId": 182,
   "Active": false,
-  "Expires": "2005-12-15T04:22:27.0653754+01:00",
-  "MaxSubmits": 55,
+  "Expires": "2018-07-07T13:28:23.038756+02:00",
+  "MaxSubmits": 377,
   "Type": "Normal",
-  "Recipe": "est",
-  "GroupId": 154,
-  "NewTicket": true,
+  "Recipe": "aut",
+  "GroupId": 735,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2010-08-01T04:22:27.0653754+02:00",
-  "RegisteredAssociateId": 672,
-  "Updated": "2020-02-27T04:22:27.0653754+01:00",
-  "UpdatedAssociateId": 484,
-  "UpdatedCount": 222,
+  "Registered": "2009-03-21T13:28:23.038756+01:00",
+  "RegisteredAssociateId": 90,
+  "Updated": "2010-11-30T13:28:23.038756+01:00",
+  "UpdatedAssociateId": 904,
+  "UpdatedCount": 300,
   "EmailFlows": [
-    69,
-    997
+    80,
+    654
   ],
-  "FolderName": "Will Group",
+  "FolderName": "Keeling-Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 341
     }
   }
 }

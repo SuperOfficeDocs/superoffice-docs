@@ -3,9 +3,9 @@ uid: ChatConversationShadowDynamicSelectionV2
 title: ChatConversationShadowDynamicSelectionV2
 description: ChatConversation shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: ChatConversationShadowDynamicSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ChatConversationShadowDynamicSelectionV2"
@@ -483,7 +483,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/personPrivate/formattedNumber,person/correspondingAssociate/contactFullName,person/personAddress/formattedMultiLineAddress
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=rating,person/personNoMail,contact/streetAddress/formattedAddress,contact/saintSaleStatus,contact/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

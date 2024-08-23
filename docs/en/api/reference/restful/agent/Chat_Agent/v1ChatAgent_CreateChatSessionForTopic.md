@@ -107,7 +107,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 114
+  "ChatTopicId": 55
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 787,
-  "TopicId": 683,
+  "ChatSessionId": 981,
+  "TopicId": 93,
   "User": null,
   "Person": null,
-  "CustomerAlias": "corrupti",
-  "CustomerHost": "distinctio",
-  "CustomerName": "McGlynn LLC",
-  "CustomerEmail": "wilfrid@yundt.com",
-  "CustomerPhone": "1-797-598-1227",
+  "CustomerAlias": "ea",
+  "CustomerHost": "pariatur",
+  "CustomerName": "Yost, Wilderman and Botsford",
+  "CustomerEmail": "josefina@sawaynschumm.ca",
+  "CustomerPhone": "487-621-0900",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bechtelar, Turner and Walter",
+  "CustomerCompanyName": "Eichmann Group",
   "Status": "Closed",
-  "FirstMessage": "delectus",
-  "LastMessage": "eius",
-  "WhenRequested": "2001-05-03T04:22:26.1528443+02:00",
-  "WhenStarted": "2019-12-22T04:22:26.1528443+01:00",
-  "WhenEnded": "2007-04-11T04:22:26.1528443+02:00",
-  "WhenIdle": "2006-02-04T04:22:26.1528443+01:00",
-  "WhenFetched": "2001-11-30T04:22:26.1528443+01:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 369,
-  "AlertLevel": 411,
-  "Rank": 586,
+  "FirstMessage": "reprehenderit",
+  "LastMessage": "et",
+  "WhenRequested": "1998-08-21T13:28:22.1636887+02:00",
+  "WhenStarted": "2014-04-19T13:28:22.1636887+02:00",
+  "WhenEnded": "2015-05-06T13:28:22.1636887+02:00",
+  "WhenIdle": "2018-10-04T13:28:22.1636887+02:00",
+  "WhenFetched": "2020-03-07T13:28:22.1636887+01:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 82,
+  "AlertLevel": 852,
+  "Rank": 667,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 70,
+  "Rating": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 678
     }
   }
 }

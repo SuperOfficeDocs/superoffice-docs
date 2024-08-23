@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Langosh-Kessler",
-  "IncludeStandard": true
+  "TableName": "Kub Group",
+  "IncludeStandard": false
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schulist Inc and Sons",
-    "DisplayName": "Quitzon, Rath and Hackett",
-    "Description": "Switchable content-based benchmark",
-    "ShortLabel": "illum",
-    "HideLabel": false,
+    "FieldName": "Bogan, Gibson and Wunsch",
+    "DisplayName": "Schuster, Hansen and Zulauf",
+    "Description": "User-friendly optimizing ability",
+    "ShortLabel": "odit",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 70,
-    "TemplateVariableName": "Block, Monahan and Bechtelar"
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 64,
+    "TemplateVariableName": "Eichmann, Kshlerin and Hilll"
   }
 ]
 ```

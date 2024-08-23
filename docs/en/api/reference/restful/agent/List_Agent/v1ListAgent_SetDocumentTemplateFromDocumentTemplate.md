@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 763,
+  "SourceDocumentTemplateId": 16,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 585,
-  "Name": "Willms Group",
-  "Tooltip": "autem",
-  "SaveInDb": 260,
-  "Filename": "rerum",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 378,
+  "Name": "Mosciski LLC",
+  "Tooltip": "occaecati",
+  "SaveInDb": 213,
+  "Filename": "animi",
+  "DefaultOref": "mollitia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 655,
-  "IntentId": 767,
-  "IsDefaultPublished": false,
-  "Rank": 42,
-  "LoadTemplateFromPlugin": 666,
-  "MimeType": "ex",
+  "AutoeventId": 555,
+  "IntentId": 221,
+  "IsDefaultPublished": true,
+  "Rank": 225,
+  "LoadTemplateFromPlugin": 977,
+  "MimeType": "qui",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 534,
+  "DocumentTypeKey": 473,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "madonna@schowalter.co.uk",
+  "EmailSubject": "adelia_morissette@bashirian.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "roberto@kochcrona.biz",
+  "SenderEmailAddress": "trevion@faybaumbach.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

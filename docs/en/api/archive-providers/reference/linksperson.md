@@ -3,9 +3,9 @@ uid: LinksPerson
 title: LinksPerson
 description: 
 keywords: LinksPerson archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "LinksPerson"
@@ -119,7 +119,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=personSource,supportLanguage
+GET /api/v1/archive/LinksPerson?$select=hasInfoText,personSource,supportLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

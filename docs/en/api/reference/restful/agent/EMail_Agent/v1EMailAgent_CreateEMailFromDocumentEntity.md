@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 753,
-      "ContactName": "Zboncak, Jast and Kemmer",
-      "PersonId": 746,
-      "PersonName": "Ward, Cole and Jacobi",
-      "AssociateId": 293,
-      "Address": "ut",
-      "EmailId": 181,
+      "ContactId": 662,
+      "ContactName": "Kautzer-Rice",
+      "PersonId": 804,
+      "PersonName": "Braun-Pfeffer",
+      "AssociateId": 782,
+      "Address": "magni",
+      "EmailId": 611,
       "DuplicatePersonIds": [
-        553,
-        15
+        87,
+        951
       ],
-      "Name": "Johnson, Anderson and Schmeler",
+      "Name": "Ruecker LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 79
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 558,
-      "ContactName": "Wilderman, Mueller and O'Hara",
-      "PersonId": 916,
-      "PersonName": "Wunsch-Ondricka",
-      "AssociateId": 337,
-      "Address": "sed",
-      "EmailId": 586,
+      "ContactId": 410,
+      "ContactName": "Goldner, Heidenreich and Auer",
+      "PersonId": 336,
+      "PersonName": "Koch, Aufderhar and Schuster",
+      "AssociateId": 47,
+      "Address": "itaque",
+      "EmailId": 448,
       "DuplicatePersonIds": [
-        90,
-        72
+        594,
+        335
       ],
-      "Name": "Trantow, Trantow and Turner",
+      "Name": "Pfannerstill Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldType": "System.String",
+          "FieldLength": 732
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 525,
-      "ContactName": "Murphy LLC",
-      "PersonId": 167,
-      "PersonName": "Lind, Schmitt and Friesen",
-      "AssociateId": 342,
-      "Address": "dolorum",
-      "EmailId": 445,
+      "ContactId": 145,
+      "ContactName": "Rowe, Sipes and Bergnaum",
+      "PersonId": 479,
+      "PersonName": "Huel-Mohr",
+      "AssociateId": 35,
+      "Address": "veritatis",
+      "EmailId": 82,
       "DuplicatePersonIds": [
-        499,
-        701
+        57,
+        285
       ],
-      "Name": "Dietrich Group",
+      "Name": "Feest-Stark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 131
         }
       }
     }
   ],
-  "Subject": "perferendis",
-  "HTMLBody": "velit",
+  "Subject": "dolores",
+  "HTMLBody": "quam",
   "From": null,
-  "Sent": "2012-06-04T04:22:26.7647342+02:00",
-  "Size": 777,
+  "Sent": "2011-05-10T13:28:22.7573023+02:00",
+  "Size": 994,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "omnis",
-  "PlainBody": "fugiat",
+  "MessageID": "repellat",
+  "PlainBody": "magnam",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 926,
+  "ServerId": 513,
   "Attachments": [
     {
-      "Description": "Enhanced even-keeled policy",
-      "Filename": "repellendus",
-      "Size": 870,
-      "Type": "porro",
-      "Encoding": "voluptatem",
-      "Id": "assumenda",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": false,
+      "Description": "Organized explicit secured line",
+      "Filename": "reprehenderit",
+      "Size": 403,
+      "Type": "provident",
+      "Encoding": "odio",
+      "Id": "aut",
+      "Disposition": "a",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 645
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Casper-Gleichner",
+      "Name": "Fahey-Swaniawski",
       "Values": [
-        "enim",
-        "dolor"
+        "sit",
+        "corrupti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 235
         }
       }
     },
     {
-      "Name": "Casper-Gleichner",
+      "Name": "Fahey-Swaniawski",
       "Values": [
-        "enim",
-        "dolor"
+        "sit",
+        "corrupti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 235
         }
       }
     }
   ],
-  "FolderName": "O'Conner-Schmitt",
-  "EmailItemId": 585,
-  "AccountId": 954,
-  "ReceivedAt": "2000-10-28T04:22:26.7647342+02:00",
+  "FolderName": "Gusikowski, Maggio and Lindgren",
+  "EmailItemId": 599,
+  "AccountId": 409,
+  "ReceivedAt": "1998-02-03T13:28:22.7573023+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-06-22T04:22:26.7647342+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2017-04-05T13:28:22.7573023+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 53
     }
   }
 }

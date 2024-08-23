@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 99,
-  "ERPProductKey": "libero",
-  "ERPPriceListKey": "minima",
-  "Name": "Smitham LLC",
-  "Description": "Versatile multi-tasking concept",
-  "Code": "sed",
-  "PriceUnit": "est",
-  "QuantityUnit": "sunt",
+  "ProductId": 477,
+  "ERPProductKey": "eum",
+  "ERPPriceListKey": "placeat",
+  "Name": "Carroll Group",
+  "Description": "Automated uniform knowledge base",
+  "Code": "aperiam",
+  "PriceUnit": "deleniti",
+  "QuantityUnit": "reprehenderit",
   "IsSubscription": false,
-  "SubscriptionUnit": "aliquam",
-  "DefaultSubscriptionQuantity": 26566.917999999998,
-  "ItemNumber": "950872",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 11661.614,
+  "ItemNumber": "1543879",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "deserunt",
-  "ProductTypeKey": "officia",
-  "VAT": 17258.938,
-  "VATInfo": "non",
-  "UnitCost": 26971.203999999998,
-  "UnitMinimumPrice": 8684.314,
-  "UnitListPrice": 22232.595999999998,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "ducimus",
+  "VAT": 22831.19,
+  "VATInfo": "tempora",
+  "UnitCost": 17008.218,
+  "UnitMinimumPrice": 21232.85,
+  "UnitListPrice": 29606.897999999997,
   "InAssortment": false,
-  "Supplier": "nam",
-  "SupplierCode": "sunt",
-  "Rights": "nostrum",
-  "Rule": "nesciunt",
+  "Supplier": "unde",
+  "SupplierCode": "officiis",
+  "Rights": "voluptas",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Turner-Marvin",
-      "Value": "et",
+      "Name": "O'Kon Inc and Sons",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 790
         }
       }
     },
     {
-      "Name": "Turner-Marvin",
-      "Value": "et",
+      "Name": "O'Kon Inc and Sons",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 790
         }
       }
     }
   ],
-  "RawExtraInfo": "iste",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "sequi",
-  "ExtraField4": "dolores",
-  "ExtraField5": "ratione",
-  "InStock": 19891.498,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "iusto",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "expedita",
+  "ExtraField4": "iusto",
+  "ExtraField5": "sed",
+  "InStock": 23508.134,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   }
 }

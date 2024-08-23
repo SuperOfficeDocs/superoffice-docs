@@ -3,9 +3,9 @@ uid: mailingdomains
 title: mailingdomains
 keywords: mdoprovider mdo provider mailingdomains
 description: MDO list provider for Mailing domains, including leading @
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "mailingdomains" MDO List

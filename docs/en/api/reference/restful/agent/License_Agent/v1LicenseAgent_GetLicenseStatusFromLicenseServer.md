@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Gutkowski, Friesen and Bednar"
+  "OwnerName": "Purdy, Veum and Sporer"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "recusandae",
+  "Message": "nulla",
   "Url": "http://www.example.com/"
 }
 ```

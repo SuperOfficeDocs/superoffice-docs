@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Turner LLC",
-    "SoPrimaryKey": 828,
-    "EntryName": "Tromp-Schuster",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Nienow-Franecki",
+    "RuleName": "Langworth Group",
+    "SoPrimaryKey": 548,
+    "EntryName": "Spinka-Hand",
+    "EntryIdentifier": "omnis",
+    "RuleDisplayName": "Murray-Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 608
       }
     }
   }

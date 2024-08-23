@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "O'Conner Inc and Sons",
-    "ToolTip": "Sint at corrupti aut aliquid.",
+    "Id": 885,
+    "Name": "Daniel Inc and Sons",
+    "ToolTip": "Nam libero ducimus debitis est.",
     "Deleted": true,
-    "Rank": 205,
-    "Type": "doloremque",
-    "ColorBlock": 904,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2020-05-31T04:22:36.0497173+02:00",
+    "Rank": 629,
+    "Type": "soluta",
+    "ColorBlock": 891,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2024-01-09T13:28:32.9603316+01:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Reichel, Witting and Wunsch",
-        "ToolTip": "Non quasi.",
-        "Deleted": true,
-        "Rank": 439,
-        "Type": "nisi",
-        "ColorBlock": 48,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "1998-06-06T04:22:36.0497173+02:00",
+        "Id": 286,
+        "Name": "Tillman-Barton",
+        "ToolTip": "Ut perferendis iusto ducimus omnis molestiae fugit optio.",
+        "Deleted": false,
+        "Rank": 686,
+        "Type": "eum",
+        "ColorBlock": 238,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2008-01-22T13:28:32.9603316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "iste",
+        "ExtraInfo": "nulla",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Mr. Nella Millie Hermann MD"
+        "FullName": "Willis Ally Ryan V"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "sunt",
+    "ExtraInfo": "quia",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Mrs. Nicholas Laney Howell PhD"
+    "FullName": "Ms. Marisol Effertz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Botsford-Thiel",
-    "ToolTip": "Pariatur voluptas quisquam debitis aperiam.",
+    "Id": 464,
+    "Name": "Adams-Kub",
+    "ToolTip": "Iste repudiandae perspiciatis impedit dignissimos cum est quia.",
     "Deleted": false,
-    "Rank": 937,
-    "Type": "ut",
-    "ColorBlock": 680,
-    "IconHint": "aut",
+    "Rank": 134,
+    "Type": "dicta",
+    "ColorBlock": 563,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2012-06-08T04:22:36.0497173+02:00",
+    "LastChanged": "2006-11-07T13:28:32.9603316+01:00",
     "ChildItems": [
       {
-        "Id": 92,
-        "Name": "O'Connell, Keeling and Langosh",
-        "ToolTip": "Omnis dolores.",
-        "Deleted": false,
-        "Rank": 981,
-        "Type": "in",
-        "ColorBlock": 852,
-        "IconHint": "doloribus",
+        "Id": 734,
+        "Name": "Wolf-Dickens",
+        "ToolTip": "Iusto quae dolore nisi molestias aut voluptatem ex.",
+        "Deleted": true,
+        "Rank": 74,
+        "Type": "eum",
+        "ColorBlock": 626,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2013-06-15T04:22:36.0497173+02:00",
+        "LastChanged": "2020-02-18T13:28:32.9603316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Ms. Angelita Schultz Sr.",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Marcelino Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 643
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "vero",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Mr. Loren Blair Baumbach Jr.",
+    "FullName": "Mr. Eulah Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

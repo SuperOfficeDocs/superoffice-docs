@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 376,
-  "Name": "Mitchell Inc and Sons",
-  "Rank": 404,
-  "Tooltip": "aut",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "laudantium",
+  "ResourceId": 671,
+  "Name": "Hand-Roberts",
+  "Rank": 415,
+  "Tooltip": "non",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 414,
-    "Name": "Cartwright, Bauch and Walter",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 113,
-    "UdListDefinitionId": 139
+    "HeadingId": 517,
+    "Name": "O'Conner, Gutkowski and Lynch",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 879,
+    "UdListDefinitionId": 363
   },
   {
-    "HeadingId": 414,
-    "Name": "Cartwright, Bauch and Walter",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 113,
-    "UdListDefinitionId": 139
+    "HeadingId": 517,
+    "Name": "O'Conner, Gutkowski and Lynch",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 879,
+    "UdListDefinitionId": 363
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 413,
-    "Name": "Greenholt Group",
-    "Tooltip": "nesciunt",
+    "HeadingId": 252,
+    "Name": "Boyle, Walker and Zemlak",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 150,
-    "UdListDefinitionId": 278,
+    "Rank": 387,
+    "UdListDefinitionId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   }

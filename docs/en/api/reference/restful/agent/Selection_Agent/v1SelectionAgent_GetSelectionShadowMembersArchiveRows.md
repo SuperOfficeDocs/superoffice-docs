@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 875,
-  "Select": "nobis"
+  "SelectionId": 870,
+  "Select": "aliquid"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Orn-Toy",
-    "PrimaryKey": 127,
+    "EntityName": "Ondricka-Lehner",
+    "PrimaryKey": 598,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cupiditate",
-        "TooltipHint": "aspernatur",
-        "LinkHint": "deserunt"
+        "DisplayValue": "a",
+        "TooltipHint": "deserunt",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "cum",
-    "StyleHint": "non",
+    "LinkHint": "libero",
+    "StyleHint": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldLength": 310
       }
     }
   }

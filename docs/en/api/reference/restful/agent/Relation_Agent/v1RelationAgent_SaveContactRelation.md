@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 372,
-  "SourcePersonId": 479,
-  "DestinationContactId": 362,
-  "DestinationPersonId": 534,
-  "RelationId": 585,
-  "Comment": "ducimus",
-  "RelationDefinitionId": 246,
-  "Reversed": 698,
-  "UpdatedDate": "2013-06-27T04:22:27.4403662+02:00",
-  "CreatedDate": "2012-09-15T04:22:27.4403662+02:00",
+  "SourceContactId": 718,
+  "SourcePersonId": 25,
+  "DestinationContactId": 88,
+  "DestinationPersonId": 422,
+  "RelationId": 118,
+  "Comment": "facilis",
+  "RelationDefinitionId": 365,
+  "Reversed": 123,
+  "UpdatedDate": "1997-12-28T13:28:23.6011243+01:00",
+  "CreatedDate": "2003-08-27T13:28:23.6011243+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Monahan, Hand and D'Amore",
-  "SourcePersonName": "Harris, Koepp and Anderson",
-  "DestinationContactName": "Kertzmann, Bosco and Mayert",
-  "DestinationPersonName": "Olson Inc and Sons",
-  "ActiveText": "distinctio",
-  "PassiveText": "culpa",
+  "SourceContactName": "Kautzer Group",
+  "SourcePersonName": "Kihn Group",
+  "DestinationContactName": "Balistreri, Ledner and O'Hara",
+  "DestinationPersonName": "Schaden, Blick and Schultz",
+  "ActiveText": "quisquam",
+  "PassiveText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

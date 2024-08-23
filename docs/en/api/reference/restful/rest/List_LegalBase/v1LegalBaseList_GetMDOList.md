@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=dolorum
+GET /api/v1/List/LegalBase/MDOItems?query=a
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Schmitt-Daugherty",
-    "ToolTip": "Aut impedit possimus ipsa dolorum.",
-    "Deleted": true,
-    "Rank": 673,
-    "Type": "voluptatem",
+    "Id": 373,
+    "Name": "Hoppe-Luettgen",
+    "ToolTip": "Voluptate voluptatem itaque nam.",
+    "Deleted": false,
+    "Rank": 422,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Bogisich Inc and Sons",
-        "ToolTip": "In vel est voluptas occaecati ut excepturi dolor.",
+        "Id": 29,
+        "Name": "Nader LLC",
+        "ToolTip": "Non minus quas vel nihil quia eaque.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "eveniet",
+        "Rank": 469,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 706,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptates",
-        "FullName": "Velva Goyette",
+        "IconHint": "ex",
+        "ColorBlock": 618,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "velit",
+        "FullName": "Miss Brandon Lucious Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 966,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "doloribus",
-    "FullName": "Lance Adelle Zemlak III",
+    "IconHint": "ut",
+    "ColorBlock": 279,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "expedita",
+    "FullName": "Jaunita Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 197
       }
     }
   }

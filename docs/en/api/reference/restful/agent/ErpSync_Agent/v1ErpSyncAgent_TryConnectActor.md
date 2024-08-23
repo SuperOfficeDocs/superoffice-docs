@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 889,
-  "CrmRecordId": 809,
+  "ErpConnectionId": 608,
+  "CrmRecordId": 450,
   "CrmActorType": "Contact",
-  "ErpKey": "id",
+  "ErpKey": "similique",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Bashirian, Kulas and Bogan",
-      "CrmFieldKey": "inventore",
-      "Value": "aliquid",
-      "DisplayValue": "blanditiis",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Lind-Smith",
+      "CrmFieldKey": "doloribus",
+      "Value": "eveniet",
+      "DisplayValue": "ipsa",
+      "SyncToCrm": true,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Bashirian, Kulas and Bogan",
-      "CrmFieldKey": "inventore",
-      "Value": "aliquid",
-      "DisplayValue": "blanditiis",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Lind-Smith",
+      "CrmFieldKey": "doloribus",
+      "Value": "eveniet",
+      "DisplayValue": "ipsa",
+      "SyncToCrm": true,
+      "SyncToErp": false
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

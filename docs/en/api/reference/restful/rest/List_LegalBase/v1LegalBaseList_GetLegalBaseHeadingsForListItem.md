@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "O'Conner-Wilkinson",
-    "ToolTip": "Reprehenderit autem expedita quisquam nihil dolore.",
-    "Deleted": false,
-    "Rank": 117,
-    "Type": "dolorem",
-    "ColorBlock": 394,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "1999-04-21T04:22:35.9715928+02:00",
+    "Id": 330,
+    "Name": "West-Ratke",
+    "ToolTip": "Atque sed officiis dolor debitis nemo quos saepe.",
+    "Deleted": true,
+    "Rank": 970,
+    "Type": "eveniet",
+    "ColorBlock": 14,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2010-02-13T13:28:32.8666025+01:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "D'Amore LLC",
-        "ToolTip": "Deserunt dolores illum quis.",
+        "Id": 974,
+        "Name": "Hegmann Group",
+        "ToolTip": "Ipsum incidunt commodi rerum vitae exercitationem non.",
         "Deleted": false,
-        "Rank": 484,
-        "Type": "omnis",
-        "ColorBlock": 211,
-        "IconHint": "eveniet",
+        "Rank": 429,
+        "Type": "eos",
+        "ColorBlock": 994,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2018-09-27T04:22:35.9715928+02:00",
+        "LastChanged": "1997-11-09T13:28:32.8666025+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Marietta Bernhard",
+        "FullName": "Crawford Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 443
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Harmony Ebert",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Miss Jamil Anjali Goyette MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 982
       }
     }
   }

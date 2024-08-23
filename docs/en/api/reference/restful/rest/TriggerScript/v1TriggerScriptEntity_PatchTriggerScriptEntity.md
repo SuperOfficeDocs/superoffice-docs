@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ad",
+    "path": "iusto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ad",
+    "path": "iusto",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 622,
-  "Name": "Mills, Braun and Walker",
+  "ScreenChooserId": 417,
+  "Name": "O'Conner, Gerhold and Predovic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dicta",
-  "Source": "ea",
-  "Registered": "2001-02-18T04:22:35.595979+01:00",
-  "RegisteredAssociateId": 49,
-  "Updated": "2021-06-26T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 247,
+  "UniqueIdentifier": "odit",
+  "Source": "blanditiis",
+  "Registered": "2022-10-09T13:28:32.4292054+02:00",
+  "RegisteredAssociateId": 431,
+  "Updated": "2008-10-02T13:28:32.4292054+02:00",
+  "UpdatedAssociateId": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

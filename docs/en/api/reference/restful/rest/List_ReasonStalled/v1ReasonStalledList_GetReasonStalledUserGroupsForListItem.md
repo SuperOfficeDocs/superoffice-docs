@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Ritchie, Turcotte and Daugherty",
-    "ToolTip": "Fugiat ipsa omnis sapiente enim.",
+    "Id": 870,
+    "Name": "Bergstrom-Towne",
+    "ToolTip": "Esse quibusdam odit saepe.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "in",
-    "ColorBlock": 811,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2001-08-11T04:22:36.1747132+02:00",
+    "Rank": 86,
+    "Type": "sed",
+    "ColorBlock": 223,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "1998-10-15T13:28:33.1165466+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Armstrong, Bailey and Kuhn",
-        "ToolTip": "Doloribus modi reiciendis esse.",
-        "Deleted": true,
-        "Rank": 680,
-        "Type": "accusamus",
-        "ColorBlock": 347,
-        "IconHint": "id",
+        "Id": 192,
+        "Name": "Stroman, Ebert and Fadel",
+        "ToolTip": "Eveniet sint optio.",
+        "Deleted": false,
+        "Rank": 575,
+        "Type": "dicta",
+        "ColorBlock": 739,
+        "IconHint": "dolore",
         "Selected": true,
-        "LastChanged": "1999-06-20T04:22:36.1747132+02:00",
+        "LastChanged": "2011-06-29T13:28:33.1165466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "in",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Mary Brekke",
+        "FullName": "Cindy Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Carlos O'Kon",
+    "ExtraInfo": "fuga",
+    "StyleHint": "laboriosam",
+    "Hidden": true,
+    "FullName": "Miss Alexandra Legros IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 757
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Erdman-Maggio",
-  "Comment": "veritatis",
-  "StakeholderRoleId": 907,
-  "CountryId": 410,
-  "PersonId": 251,
-  "EmailDescription": "pearl.thiel@howe.name",
-  "EmailId": 376,
-  "EmailAddress": "chanel@friesen.name",
-  "PhoneId": 81,
-  "ContactName": "Fritsch Inc and Sons",
-  "ContactId": 261,
-  "SaleId": 337,
-  "Mrmrs": "adipisci",
-  "Firstname": "Sarah",
-  "MiddleName": "Schaden-Rath",
-  "Lastname": "Crist",
-  "SaleStakeholderId": 956,
-  "Rank": 264,
-  "Phone": "339.072.2761 x98564",
+  "StakeholderRoleName": "Wunsch Inc and Sons",
+  "Comment": "exercitationem",
+  "StakeholderRoleId": 537,
+  "CountryId": 573,
+  "PersonId": 77,
+  "EmailDescription": "frankie.runte@nikolaus.ca",
+  "EmailId": 810,
+  "EmailAddress": "greg_anderson@kilbackabbott.us",
+  "PhoneId": 711,
+  "ContactName": "Carroll, Sporer and Hammes",
+  "ContactId": 327,
+  "SaleId": 51,
+  "Mrmrs": "sit",
+  "Firstname": "Lavada",
+  "MiddleName": "Stanton LLC",
+  "Lastname": "Kris",
+  "SaleStakeholderId": 136,
+  "Rank": 984,
+  "Phone": "(876)997-6948 x89410",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

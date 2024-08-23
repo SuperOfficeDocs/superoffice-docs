@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 754,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 418,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 949,
+  "EjMessageId": 562,
   "Ticket": null,
-  "CreatedAt": "2011-11-18T04:22:27.8182504+01:00",
+  "CreatedAt": "2010-01-23T13:28:23.8510673+01:00",
   "CreatedBy": null,
-  "Author": "facere",
+  "Author": "architecto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "architecto",
-  "TimeSpent": 777,
-  "Body": "id",
-  "HtmlBody": "deserunt",
-  "EmailHeader": "katelyn@pouroswintheiser.name",
-  "DebugInfo": "laborum",
-  "MailSorter": "repudiandae",
+  "MessageId": "voluptate",
+  "TimeSpent": 974,
+  "Body": "nobis",
+  "HtmlBody": "asperiores",
+  "EmailHeader": "terrill@lowelangosh.biz",
+  "DebugInfo": "et",
+  "MailSorter": "veniam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "cupiditate",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 507,
-      "Name": "Stehr-Gutkowski",
-      "Value": "quas",
+      "Id": 536,
+      "Name": "Krajcik LLC",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldLength": 969
         }
       }
     }
   ],
   "Important": true,
-  "Language": "et",
-  "Sentiment": 15,
-  "SentimentConfidence": 245,
+  "Language": "modi",
+  "Sentiment": 97,
+  "SentimentConfidence": 651,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 729,
-      "Name": "Considine-Waelchi",
-      "ContentType": "ipsam",
-      "AttSize": 341,
+      "AttachmentId": 201,
+      "Name": "Weimann Inc and Sons",
+      "ContentType": "nesciunt",
+      "AttSize": 520,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "excepturi",
-      "IsSafeFileExtension": false,
+      "ContentId": "non",
+      "AuthKey": "vero",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 579
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "earum"
+    "CustomFields1": "inventore",
+    "CustomFields2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

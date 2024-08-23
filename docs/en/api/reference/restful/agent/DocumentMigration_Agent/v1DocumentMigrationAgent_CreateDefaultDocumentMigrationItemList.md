@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 292,
-  "NumDocumentsAlreadyMigrated": 401,
+  "NumDocumentsOmitted": 334,
+  "NumDocumentsAlreadyMigrated": 240,
   "Documents": [
     {
-      "DocumentId": 16,
-      "ContactId": 52,
-      "PersonId": 964,
-      "SaleId": 377,
-      "ProjectId": 279,
-      "DocTmplId": 810,
-      "AssociateId": 111,
-      "UserGroupId": 694,
-      "VisibleForId": 842
+      "DocumentId": 352,
+      "ContactId": 196,
+      "PersonId": 547,
+      "SaleId": 475,
+      "ProjectId": 651,
+      "DocTmplId": 182,
+      "AssociateId": 168,
+      "UserGroupId": 558,
+      "VisibleForId": 298
     }
   ],
   "Associates": [
     {
-      "AssociateId": 392,
-      "EmailAddress": "nedra@jenkins.biz"
+      "AssociateId": 477,
+      "EmailAddress": "lindsay@jast.info"
     },
     {
-      "AssociateId": 392,
-      "EmailAddress": "nedra@jenkins.biz"
+      "AssociateId": 477,
+      "EmailAddress": "lindsay@jast.info"
     }
   ]
 }

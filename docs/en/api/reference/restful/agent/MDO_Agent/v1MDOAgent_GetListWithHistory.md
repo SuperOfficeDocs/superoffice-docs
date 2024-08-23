@@ -92,14 +92,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jaskolski-Greenfelder",
+  "Name": "Tromp, Cormier and Bahringer",
   "ForceFlatList": false,
-  "AdditionalInfo": "esse",
+  "AdditionalInfo": "libero",
   "HistoryItems": [
-    381,
-    126
+    641,
+    631
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Rosenbaum-Goldner",
-    "ToolTip": "Omnis vel animi dolorem qui aut totam tempore.",
-    "Deleted": false,
-    "Rank": 128,
-    "Type": "necessitatibus",
+    "Id": 603,
+    "Name": "Gibson, Armstrong and Runolfsdottir",
+    "ToolTip": "Qui ea.",
+    "Deleted": true,
+    "Rank": 607,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Bogisich, Predovic and Hackett",
-        "ToolTip": "Quo aspernatur sit aut quidem qui.",
+        "Id": 972,
+        "Name": "Conroy Group",
+        "ToolTip": "Perspiciatis sed quisquam magnam quam corporis totam.",
         "Deleted": false,
-        "Rank": 734,
-        "Type": "sed",
+        "Rank": 603,
+        "Type": "rem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 48,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "est",
-        "FullName": "Rubie Doyle",
+        "IconHint": "dolorem",
+        "ColorBlock": 999,
+        "ExtraInfo": "et",
+        "StyleHint": "quibusdam",
+        "FullName": "Zena Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 696
+            "FieldLength": 109
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 656,
-    "ExtraInfo": "iste",
-    "StyleHint": "laborum",
-    "FullName": "Miss Jovan Larkin",
+    "IconHint": "distinctio",
+    "ColorBlock": 49,
+    "ExtraInfo": "tempora",
+    "StyleHint": "sed",
+    "FullName": "Mr. Betsy Thiel MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 589
       }
     }
   }

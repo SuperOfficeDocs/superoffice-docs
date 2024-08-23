@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 177
+  "DepartmentId": 718
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 620,
-    "Mrmrs": "aut",
-    "Firstname": "Etha",
-    "Lastname": "Aufderhar",
-    "MiddleName": "Schoen, Koepp and Tromp",
-    "Title": "aut",
-    "Description": "Organized non-volatile collaboration",
-    "Email": "wilburn.rutherford@strosin.co.uk",
-    "FullName": "Sonya Labadie",
-    "DirectPhone": "(068)103-9933",
-    "FormalName": "McCullough-Adams",
-    "CountryId": 477,
-    "ContactId": 40,
-    "ContactName": "Friesen, Maggio and Schamberger",
-    "Retired": 341,
-    "Rank": 716,
-    "ActiveInterests": 896,
+    "Position": "eaque",
+    "PersonId": 541,
+    "Mrmrs": "fugiat",
+    "Firstname": "Gerson",
+    "Lastname": "Renner",
+    "MiddleName": "Connelly-Stroman",
+    "Title": "exercitationem",
+    "Description": "De-engineered context-sensitive superstructure",
+    "Email": "ofelia@mohrnitzsche.ca",
+    "FullName": "Mrs. Jodie Kertzmann",
+    "DirectPhone": "(739)308-8695 x0694",
+    "FormalName": "Wisoky Inc and Sons",
+    "CountryId": 344,
+    "ContactId": 550,
+    "ContactName": "Bradtke Inc and Sons",
+    "Retired": 993,
+    "Rank": 938,
+    "ActiveInterests": 164,
     "ContactDepartment": "",
-    "ContactCountryId": 86,
-    "ContactOrgNr": "1387391",
-    "FaxPhone": "(193)951-7612 x76229",
-    "MobilePhone": "130.885.1767",
-    "ContactPhone": "1-430-483-9205 x67979",
-    "AssociateName": "Stroman-Pacocha",
-    "AssociateId": 453,
-    "UsePersonAddress": true,
-    "ContactFax": "maiores",
-    "Kanafname": "quis",
-    "Kanalname": "magni",
-    "Post1": "minima",
-    "Post2": "distinctio",
-    "Post3": "veritatis",
-    "EmailName": "jeremy@naderraynor.info",
-    "ContactFullName": "Ophelia Lakin",
-    "ActiveErpLinks": 647,
-    "TicketPriorityId": 854,
-    "SupportLanguageId": 851,
-    "SupportAssociateId": 889,
+    "ContactCountryId": 586,
+    "ContactOrgNr": "1026874",
+    "FaxPhone": "145-739-3802",
+    "MobilePhone": "114-255-8426 x812",
+    "ContactPhone": "1-541-939-1750",
+    "AssociateName": "McGlynn-Grant",
+    "AssociateId": 914,
+    "UsePersonAddress": false,
+    "ContactFax": "autem",
+    "Kanafname": "et",
+    "Kanalname": "nemo",
+    "Post1": "nam",
+    "Post2": "et",
+    "Post3": "beatae",
+    "EmailName": "dillon@cronin.biz",
+    "ContactFullName": "Miss Lea Miles Oberbrunner Jr.",
+    "ActiveErpLinks": 980,
+    "TicketPriorityId": 820,
+    "SupportLanguageId": 818,
+    "SupportAssociateId": 49,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 33
       }
     }
   }

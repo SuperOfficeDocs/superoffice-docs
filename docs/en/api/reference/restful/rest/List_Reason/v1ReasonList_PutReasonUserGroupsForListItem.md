@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Pacocha-Beahan",
-    "ToolTip": "Et adipisci.",
-    "Deleted": false,
-    "Rank": 906,
-    "Type": "qui",
-    "ColorBlock": 643,
-    "IconHint": "quisquam",
+    "Id": 891,
+    "Name": "Hammes-Glover",
+    "ToolTip": "Voluptatibus rerum illum ex hic dolores minus.",
+    "Deleted": true,
+    "Rank": 30,
+    "Type": "ut",
+    "ColorBlock": 49,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2015-10-06T04:22:36.1434668+02:00",
+    "LastChanged": "2021-04-20T13:28:33.0853045+02:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Metz Group",
-        "ToolTip": "Natus aliquam repudiandae adipisci necessitatibus.",
+        "Id": 579,
+        "Name": "Von, Dicki and Larkin",
+        "ToolTip": "Sed beatae alias.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "ipsam",
-        "ColorBlock": 64,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "1998-12-28T04:22:36.1434668+01:00",
+        "Rank": 276,
+        "Type": "at",
+        "ColorBlock": 787,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2003-08-29T13:28:33.0853045+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Coby Abshire V"
+        "FullName": "Orpha Dickinson I"
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "voluptas",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Miss Dusty Crist"
+    "FullName": "Keegan Schneider Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Schaden, Nikolaus and Runte",
-    "ToolTip": "Consectetur aspernatur non amet iusto.",
-    "Deleted": true,
-    "Rank": 478,
-    "Type": "adipisci",
-    "ColorBlock": 86,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-05-24T04:22:36.1434668+02:00",
+    "Id": 369,
+    "Name": "Wuckert Inc and Sons",
+    "ToolTip": "Et qui velit nam qui recusandae.",
+    "Deleted": false,
+    "Rank": 984,
+    "Type": "quis",
+    "ColorBlock": 767,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "1999-01-23T13:28:33.0853045+01:00",
     "ChildItems": [
       {
-        "Id": 464,
-        "Name": "Frami-Wehner",
-        "ToolTip": "Atque dolorem.",
-        "Deleted": true,
-        "Rank": 640,
-        "Type": "aut",
-        "ColorBlock": 395,
-        "IconHint": "voluptas",
+        "Id": 441,
+        "Name": "Wiegand, Luettgen and Reilly",
+        "ToolTip": "Rerum quia nemo voluptatem iure quam ad.",
+        "Deleted": false,
+        "Rank": 641,
+        "Type": "harum",
+        "ColorBlock": 763,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2013-02-05T04:22:36.1434668+01:00",
+        "LastChanged": "2015-07-22T13:28:33.0853045+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Mr. Bernadette Afton Bins",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Kasey Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 251
+            "FieldType": "System.String",
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Mrs. Bobby Cecil Herzog",
+    "ExtraInfo": "sint",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Bridie Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

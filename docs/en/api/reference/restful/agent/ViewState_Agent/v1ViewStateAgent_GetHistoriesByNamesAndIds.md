@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Weimann Group",
-      "EntityOrParentId": 260,
+      "EntityName": "Hartmann, Ernser and Bechtelar",
+      "EntityOrParentId": 728,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Weimann Group",
-      "EntityOrParentId": 260,
+      "EntityName": "Hartmann, Ernser and Bechtelar",
+      "EntityOrParentId": 728,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 451,
-    "Id": 894,
-    "HistoryName": "Cole-Gerlach",
-    "HistoryId": 949,
-    "AssociateId": 914,
-    "Name": "Rodriguez-Bednar",
-    "ItemInfo": "sunt",
+    "Rank": 322,
+    "Id": 214,
+    "HistoryName": "Luettgen Group",
+    "HistoryId": 389,
+    "AssociateId": 429,
+    "Name": "Parker Inc and Sons",
+    "ItemInfo": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

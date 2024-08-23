@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Zieme, Langosh and Schuster",
-    "ToolTip": "Ex sint qui iste fuga aspernatur ipsum.",
+    "Id": 591,
+    "Name": "Halvorson, Kuvalis and Glover",
+    "ToolTip": "Quis sit.",
     "Deleted": false,
-    "Rank": 618,
-    "Type": "doloremque",
-    "ColorBlock": 778,
-    "IconHint": "doloremque",
+    "Rank": 974,
+    "Type": "id",
+    "ColorBlock": 370,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2021-06-08T04:22:35.8778461+02:00",
+    "LastChanged": "2021-03-01T13:28:32.7572536+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Bashirian, Huel and Sipes",
-        "ToolTip": "Aut architecto quo tempore.",
-        "Deleted": false,
-        "Rank": 681,
-        "Type": "voluptatum",
-        "ColorBlock": 112,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2023-05-07T04:22:35.8778461+02:00",
+        "Id": 737,
+        "Name": "D'Amore-Gulgowski",
+        "ToolTip": "Nesciunt dolor mollitia repellendus corrupti est voluptatem est.",
+        "Deleted": true,
+        "Rank": 977,
+        "Type": "repellat",
+        "ColorBlock": 366,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2003-04-13T13:28:32.7572536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Hans Kiehn"
+        "ExtraInfo": "illum",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Nora Sylvia Satterfield DVM"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
+    "ExtraInfo": "laborum",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Mr. Keon Kuvalis"
+    "FullName": "Prof. Lenore Vandervort PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Gulgowski-Bednar",
-    "ToolTip": "Eveniet sint.",
+    "Id": 974,
+    "Name": "Jenkins Group",
+    "ToolTip": "Et fuga nesciunt.",
     "Deleted": true,
-    "Rank": 758,
-    "Type": "dolores",
-    "ColorBlock": 989,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "2002-09-14T04:22:35.8934712+02:00",
+    "Rank": 841,
+    "Type": "suscipit",
+    "ColorBlock": 3,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2013-04-29T13:28:32.7728753+02:00",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Streich-Ernser",
-        "ToolTip": "A optio dolores natus molestiae eligendi velit.",
-        "Deleted": false,
-        "Rank": 588,
-        "Type": "sint",
-        "ColorBlock": 716,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2008-06-23T04:22:35.8934712+02:00",
+        "Id": 233,
+        "Name": "Rippin-Bosco",
+        "ToolTip": "Provident consequatur.",
+        "Deleted": true,
+        "Rank": 223,
+        "Type": "veritatis",
+        "ColorBlock": 652,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2018-11-03T13:28:32.7728753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Dr. Thad Wilkinson",
+        "ExtraInfo": "facilis",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Adolf Zieme Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldLength": 668
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Fay White",
+    "ExtraInfo": "veniam",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Ruben Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 252
       }
     }
   }

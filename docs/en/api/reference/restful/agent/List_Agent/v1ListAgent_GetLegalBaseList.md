@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 60,
-    "Name": "Wiegand Inc and Sons",
-    "Tooltip": "dignissimos",
-    "Rank": 548,
-    "Key": "sed",
-    "Deleted": false,
+    "LegalBaseId": 280,
+    "Name": "McClure LLC",
+    "Tooltip": "eveniet",
+    "Rank": 326,
+    "Key": "dolore",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 764
       }
     }
   }

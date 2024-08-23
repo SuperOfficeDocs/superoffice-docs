@@ -3,9 +3,9 @@ uid: efd_13
 title: efd_13
 keywords: mdoprovider mdo provider efd_13
 description: Extra fields dropdown lists. Contains list of string values defined on the extra_field. List names are 'EFD_123' where 123 is the extra field id.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "efd_13" MDO List

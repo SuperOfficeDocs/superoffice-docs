@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Considine, Cummerata and Mertz",
-  "PersonId": 25
+  "ParameterName": "Schiller, Weissnat and Torphy",
+  "PersonId": 131
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 437,
-  "Name": "O'Kon Inc and Sons",
-  "Value": "aut",
-  "CreatedDate": "1997-02-10T04:22:25.9965968+01:00",
-  "UpdatedDate": "2017-10-04T04:22:25.9965968+02:00",
-  "CreatedBy": "quam",
-  "UpdatedBy": "hic",
+  "AudienceLayoutId": 588,
+  "Name": "Cole LLC",
+  "Value": "incidunt",
+  "CreatedDate": "2018-02-09T13:28:21.8356378+01:00",
+  "UpdatedDate": "2015-10-26T13:28:21.8356378+01:00",
+  "CreatedBy": "magnam",
+  "UpdatedBy": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

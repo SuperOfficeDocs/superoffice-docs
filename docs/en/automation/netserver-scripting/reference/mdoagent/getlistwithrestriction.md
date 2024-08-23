@@ -2,10 +2,10 @@
 uid: mdoagent-getlistwithrestriction
 title: MDOAgent.GetListWithRestriction event method
 description: Scripting events called on the GetListWithRestriction method on the MDOAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MDOAgent.GetListWithRestriction
 

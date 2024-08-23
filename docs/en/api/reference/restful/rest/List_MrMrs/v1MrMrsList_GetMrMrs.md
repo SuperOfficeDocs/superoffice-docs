@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 579,
-  "Name": "Kling Group",
-  "Tooltip": "hic",
+  "Id": 641,
+  "Name": "Keebler Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 232,
-  "Rank": 927,
+  "UdListDefinitionId": 495,
+  "Rank": 375,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 3
     }
   }
 }

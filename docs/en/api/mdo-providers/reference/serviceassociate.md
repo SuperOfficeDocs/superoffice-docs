@@ -3,9 +3,9 @@ uid: serviceassociate
 title: serviceassociate
 keywords: mdoprovider mdo provider serviceassociate
 description: MDO provider for associates that are allowed to approve a quote.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "serviceassociate" MDO List

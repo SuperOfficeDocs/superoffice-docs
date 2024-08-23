@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 584,
-    "Name": "Davis, McLaughlin and Brown",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 260,
-    "UdListDefinitionId": 92,
+    "HeadingId": 848,
+    "Name": "Larkin LLC",
+    "Tooltip": "dolorum",
+    "Deleted": false,
+    "Rank": 69,
+    "UdListDefinitionId": 537,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 766
       }
     }
   }

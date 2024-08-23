@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Value": "atque",
-    "Tooltip": "doloremque",
+    "Id": 959,
+    "Value": "explicabo",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 719
       }
     }
   },
   {
-    "Id": 854,
-    "Value": "atque",
-    "Tooltip": "doloremque",
+    "Id": 959,
+    "Value": "explicabo",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 719
       }
     }
   }

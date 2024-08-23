@@ -2,10 +2,10 @@
 uid: crmscriptagent-executescriptbyincludeid
 title: CRMScriptAgent.ExecuteScriptByIncludeId event method
 description: Scripting events called on the ExecuteScriptByIncludeId method on the CRMScriptAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CRMScriptAgent.ExecuteScriptByIncludeId
 

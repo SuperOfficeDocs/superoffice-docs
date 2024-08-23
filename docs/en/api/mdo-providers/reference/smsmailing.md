@@ -3,9 +3,9 @@ uid: smsmailing
 title: smsmailing
 keywords: mdoprovider mdo provider smsmailing
 description: SMS Shipment names
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "smsmailing" MDO List

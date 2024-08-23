@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=amet
+GET /api/v1/List/DocumentTemplate/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Herzog, Mayer and Keeling",
-    "ToolTip": "Voluptas rerum.",
+    "Id": 320,
+    "Name": "Rodriguez, Conn and O'Connell",
+    "ToolTip": "Velit ipsum ab velit omnis.",
     "Deleted": true,
-    "Rank": 596,
-    "Type": "non",
+    "Rank": 282,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Heidenreich, Cremin and Mayert",
-        "ToolTip": "Deleniti a.",
-        "Deleted": true,
-        "Rank": 613,
-        "Type": "est",
+        "Id": 251,
+        "Name": "Kshlerin, Hettinger and Jacobson",
+        "ToolTip": "Animi voluptatem.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 730,
-        "ExtraInfo": "occaecati",
-        "StyleHint": "commodi",
-        "FullName": "Dr. Caitlyn McClure Sr.",
+        "IconHint": "dignissimos",
+        "ColorBlock": 341,
+        "ExtraInfo": "rerum",
+        "StyleHint": "ipsum",
+        "FullName": "Gabe Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldLength": 619
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 988,
-    "ExtraInfo": "omnis",
-    "StyleHint": "ex",
-    "FullName": "Jorge Pouros",
+    "IconHint": "explicabo",
+    "ColorBlock": 918,
+    "ExtraInfo": "aut",
+    "StyleHint": "quo",
+    "FullName": "Brendon Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 124
       }
     }
   }

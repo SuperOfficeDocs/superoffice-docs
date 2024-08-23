@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Runolfsson Group",
-    "ToolTip": "Laudantium omnis est cum reiciendis est debitis.",
-    "Deleted": true,
-    "Rank": 411,
-    "Type": "dolor",
-    "ColorBlock": 873,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2017-06-07T04:22:35.7991031+02:00",
+    "Id": 395,
+    "Name": "Gaylord-Hermiston",
+    "ToolTip": "Est iure.",
+    "Deleted": false,
+    "Rank": 110,
+    "Type": "incidunt",
+    "ColorBlock": 891,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2018-04-12T13:28:32.6635259+02:00",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Casper, Corwin and Parker",
-        "ToolTip": "Labore accusantium tempore laudantium perspiciatis dicta omnis nulla.",
+        "Id": 522,
+        "Name": "Lockman Inc and Sons",
+        "ToolTip": "Incidunt commodi sit velit atque veritatis et facere.",
         "Deleted": false,
-        "Rank": 853,
-        "Type": "modi",
-        "ColorBlock": 554,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2008-07-15T04:22:35.7991031+02:00",
+        "Rank": 965,
+        "Type": "aut",
+        "ColorBlock": 924,
+        "IconHint": "aliquid",
+        "Selected": true,
+        "LastChanged": "2019-06-21T13:28:32.6635259+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "tempore",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Raymond Howell"
+        "FullName": "Prof. Adam Madison Spencer I"
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Gloria Hackett"
+    "ExtraInfo": "sed",
+    "StyleHint": "repellendus",
+    "Hidden": true,
+    "FullName": "Mr. Magdalena Renner"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Ortiz, Murray and Zboncak",
-    "ToolTip": "Aperiam accusamus est veniam omnis voluptas non.",
-    "Deleted": true,
-    "Rank": 306,
-    "Type": "sint",
-    "ColorBlock": 225,
-    "IconHint": "qui",
+    "Id": 990,
+    "Name": "Kuphal-Bartoletti",
+    "ToolTip": "Placeat tempore deserunt perferendis commodi adipisci.",
+    "Deleted": false,
+    "Rank": 499,
+    "Type": "ab",
+    "ColorBlock": 126,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2016-04-09T04:22:35.7991031+02:00",
+    "LastChanged": "2012-12-22T13:28:32.6635259+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Hettinger, Hackett and McClure",
-        "ToolTip": "Et ut aliquid nesciunt eveniet vel accusamus qui.",
+        "Id": 119,
+        "Name": "Carroll, Monahan and Hauck",
+        "ToolTip": "Similique nesciunt at et facere et et.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "aut",
-        "ColorBlock": 953,
-        "IconHint": "reprehenderit",
+        "Rank": 45,
+        "Type": "ut",
+        "ColorBlock": 212,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2019-07-03T04:22:35.7991031+02:00",
+        "LastChanged": "2009-12-27T13:28:32.6635259+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ad",
+        "ExtraInfo": "magnam",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Grover Crooks",
+        "FullName": "Jovani Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sed",
+    "ExtraInfo": "nobis",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Prof. Peggie Champlin",
+    "FullName": "General Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 598
       }
     }
   }

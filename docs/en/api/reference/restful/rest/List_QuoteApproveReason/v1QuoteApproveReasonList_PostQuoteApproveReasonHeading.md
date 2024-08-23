@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 79,
-  "Name": "Rodriguez Inc and Sons",
-  "Tooltip": "tempore",
+  "HeadingId": 92,
+  "Name": "Kertzmann, Zieme and Mayert",
+  "Tooltip": "quisquam",
   "Deleted": true,
-  "Rank": 898,
-  "UdListDefinitionId": 894
+  "Rank": 964,
+  "UdListDefinitionId": 329
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 768,
-  "Name": "Frami Group",
-  "Tooltip": "dignissimos",
+  "HeadingId": 785,
+  "Name": "Ortiz Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 140,
-  "UdListDefinitionId": 239,
+  "Rank": 317,
+  "UdListDefinitionId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

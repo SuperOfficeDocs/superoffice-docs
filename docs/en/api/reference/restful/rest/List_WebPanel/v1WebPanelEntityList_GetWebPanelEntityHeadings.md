@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Rolfson LLC",
-    "Tooltip": "delectus",
+    "HeadingId": 698,
+    "Name": "Roberts, Kohler and Schmeler",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "Rank": 860,
-    "UdListDefinitionId": 59,
+    "Rank": 684,
+    "UdListDefinitionId": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 367
       }
     }
   }

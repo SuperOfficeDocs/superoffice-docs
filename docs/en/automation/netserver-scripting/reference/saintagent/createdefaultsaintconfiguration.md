@@ -2,10 +2,10 @@
 uid: saintagent-createdefaultsaintconfiguration
 title: SaintAgent.CreateDefaultSaintConfiguration event method
 description: Scripting events called on the CreateDefaultSaintConfiguration method on the SaintAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaintAgent.CreateDefaultSaintConfiguration
 

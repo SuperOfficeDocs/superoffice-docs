@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Ankunding LLC",
-    "Tooltip": "quis",
+    "HeadingId": 989,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 708,
-    "UdListDefinitionId": 973
+    "Rank": 318,
+    "UdListDefinitionId": 948
   },
   {
-    "HeadingId": 968,
-    "Name": "Ankunding LLC",
-    "Tooltip": "quis",
+    "HeadingId": 989,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 708,
-    "UdListDefinitionId": 973
+    "Rank": 318,
+    "UdListDefinitionId": 948
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 95,
-    "Name": "Gorczany-Bergnaum",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "Rank": 431,
-    "UdListDefinitionId": 807,
+    "HeadingId": 227,
+    "Name": "Beahan, McCullough and Casper",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 38,
+    "UdListDefinitionId": 80,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 469
       }
     }
   }

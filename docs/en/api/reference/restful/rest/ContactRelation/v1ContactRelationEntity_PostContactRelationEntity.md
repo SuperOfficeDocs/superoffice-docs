@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 410,
-  "SourcePersonId": 535,
-  "DestinationContactId": 561,
-  "DestinationPersonId": 962,
-  "RelationId": 314,
-  "Comment": "assumenda",
-  "RelationDefinitionId": 691,
-  "Reversed": 234,
-  "UpdatedDate": "2008-03-13T04:22:34.8589991+01:00",
-  "CreatedDate": "2001-12-25T04:22:34.8589991+01:00",
+  "SourceContactId": 212,
+  "SourcePersonId": 973,
+  "DestinationContactId": 664,
+  "DestinationPersonId": 595,
+  "RelationId": 46,
+  "Comment": "repudiandae",
+  "RelationDefinitionId": 681,
+  "Reversed": 281,
+  "UpdatedDate": "2018-11-07T13:28:31.53865+01:00",
+  "CreatedDate": "2004-06-05T13:28:31.53865+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bergstrom Group",
-  "SourcePersonName": "Hegmann-Hansen",
-  "DestinationContactName": "Mann Inc and Sons",
-  "DestinationPersonName": "Haley-Waters",
-  "ActiveText": "possimus",
-  "PassiveText": "esse"
+  "SourceContactName": "Bins LLC",
+  "SourcePersonName": "Mayert-Kub",
+  "DestinationContactName": "Connelly, Koss and Watsica",
+  "DestinationPersonName": "Gottlieb, Senger and Kling",
+  "ActiveText": "tenetur",
+  "PassiveText": "quae"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 94,
-  "SourcePersonId": 300,
-  "DestinationContactId": 1002,
-  "DestinationPersonId": 238,
-  "RelationId": 864,
-  "Comment": "in",
-  "RelationDefinitionId": 585,
-  "Reversed": 326,
-  "UpdatedDate": "2016-12-10T04:22:34.8589991+01:00",
-  "CreatedDate": "2005-01-02T04:22:34.8589991+01:00",
+  "SourceContactId": 991,
+  "SourcePersonId": 199,
+  "DestinationContactId": 191,
+  "DestinationPersonId": 569,
+  "RelationId": 150,
+  "Comment": "iusto",
+  "RelationDefinitionId": 364,
+  "Reversed": 332,
+  "UpdatedDate": "2012-10-25T13:28:31.53865+02:00",
+  "CreatedDate": "1998-05-31T13:28:31.53865+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rippin, Hyatt and Weber",
-  "SourcePersonName": "Yundt Inc and Sons",
-  "DestinationContactName": "Rohan, Morissette and Krajcik",
-  "DestinationPersonName": "Lakin, Torp and Feeney",
-  "ActiveText": "non",
-  "PassiveText": "quo",
+  "SourceContactName": "VonRueden LLC",
+  "SourcePersonName": "Von, Hilpert and Hahn",
+  "DestinationContactName": "Bechtelar, Reynolds and Gerlach",
+  "DestinationPersonName": "Breitenberg-Weber",
+  "ActiveText": "voluptate",
+  "PassiveText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 270
     }
   },
   "_Links": {

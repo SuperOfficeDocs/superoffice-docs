@@ -3,9 +3,9 @@ uid: documenttypes
 title: documenttypes
 keywords: mdoprovider mdo provider documenttypes
 description: List of document types for the given plugin. ExtraInfo = document plugin-id.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "documenttypes" MDO List

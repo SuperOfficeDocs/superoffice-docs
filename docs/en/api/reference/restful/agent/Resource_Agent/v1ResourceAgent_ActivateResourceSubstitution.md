@@ -70,8 +70,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Skiles-Armstrong",
-  "Culture": "consequatur",
+  "ResourceName": "Wilderman-Brekke",
+  "Culture": "tempore",
   "IsActive": false
 }
 ```

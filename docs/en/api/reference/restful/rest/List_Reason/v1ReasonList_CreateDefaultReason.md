@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Bergstrom Group",
-  "Tooltip": "suscipit",
+  "Id": 513,
+  "Name": "Kemmer, Gerlach and Runolfsdottir",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 606,
-  "Rank": 185,
+  "UdListDefinitionId": 625,
+  "Rank": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldLength": 450
     }
   }
 }

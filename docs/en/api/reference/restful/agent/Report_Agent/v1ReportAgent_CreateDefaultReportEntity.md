@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 153,
+  "ReportId": 818,
   "ReportCategory": "All",
-  "Description": "Balanced bottom-line productivity",
+  "Description": "Streamlined contextually-based archive",
   "ReportLayout": "CalendarMonth",
-  "Name": "Grady, Wiegand and Bartoletti",
-  "AssociateId": 437,
-  "TemplateId": 930,
+  "Name": "Jacobi, Douglas and Koepp",
+  "AssociateId": 681,
+  "TemplateId": 29,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 880
     }
   }
 }

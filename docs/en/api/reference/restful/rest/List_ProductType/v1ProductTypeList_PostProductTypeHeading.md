@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 832,
-  "Name": "Hudson Inc and Sons",
-  "Tooltip": "maxime",
+  "HeadingId": 868,
+  "Name": "Lesch, Waelchi and Nicolas",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 69,
-  "UdListDefinitionId": 503
+  "Rank": 457,
+  "UdListDefinitionId": 327
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 844,
-  "Name": "Eichmann Inc and Sons",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 97,
-  "UdListDefinitionId": 683,
+  "HeadingId": 828,
+  "Name": "Reichert-Wehner",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 295,
+  "UdListDefinitionId": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

@@ -3,9 +3,9 @@ uid: ContactStaticSelection
 title: ContactStaticSelection
 description: 
 keywords: ContactStaticSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactStaticSelection"
@@ -143,7 +143,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
 |contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contactUdef/SuperOffice:3|int|companynumber| x |
@@ -1199,7 +1199,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=restrictionAddress/addressId,appointment/registeredByFullName,appointment/appointmentUdef/SuperOffice:5,position,personTargetRelation/birthdate
+GET /api/v1/archive/ContactStaticSelection?$select=sourceRelation/csRelation,targetRelation/hasInterests,targetRelation/deletedDate,appointment/associate/assocTooltip,document/associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

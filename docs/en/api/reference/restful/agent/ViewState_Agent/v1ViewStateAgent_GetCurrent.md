@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Gibson, Bernhard and Hickle"
+  "HistoryName": "Weber LLC"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 675,
-  "Id": 425,
-  "HistoryName": "Jewess-Feest",
-  "HistoryId": 129,
-  "AssociateId": 350,
-  "Name": "Orn Group",
-  "ItemInfo": "alias",
+  "Rank": 502,
+  "Id": 810,
+  "HistoryName": "Bogisich, Doyle and Buckridge",
+  "HistoryId": 14,
+  "AssociateId": 540,
+  "Name": "Kutch, Kuvalis and Auer",
+  "ItemInfo": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 717
     }
   }
 }

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 569
+  "QuoteLineId": 216
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 886,
-  "ERPQuoteLineKey": "unde",
-  "QuoteAlternativeId": 685,
-  "ERPProductKey": "itaque",
+  "QuoteLineId": 307,
+  "ERPQuoteLineKey": "nisi",
+  "QuoteAlternativeId": 111,
+  "ERPProductKey": "dolor",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 27037.018,
-  "DeliveredQuantity": 2936.558,
-  "Rank": 251,
-  "Name": "Bartoletti LLC",
-  "Description": "Progressive reciprocal hierarchy",
-  "Code": "molestias",
-  "QuantityUnit": "commodi",
-  "PriceUnit": "sit",
-  "ItemNumber": "1541809",
+  "Quantity": 4400.1359999999995,
+  "DeliveredQuantity": 23705.576,
+  "Rank": 427,
+  "Name": "Jakubowski-Pfeffer",
+  "Description": "Re-contextualized solution-oriented firmware",
+  "Code": "voluptas",
+  "QuantityUnit": "molestias",
+  "PriceUnit": "doloribus",
+  "ItemNumber": "1093738",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "est",
-  "Supplier": "in",
-  "SupplierCode": "rem",
-  "Thumbnail": "sint",
-  "VATInfo": "in",
-  "VAT": 11711.758,
-  "UnitCost": 13610.962,
-  "UnitMinimumPrice": 20371.0,
-  "UnitListPrice": 20715.739999999998,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "ut",
+  "Supplier": "doloremque",
+  "SupplierCode": "harum",
+  "Thumbnail": "aut",
+  "VATInfo": "deleniti",
+  "VAT": 21602.662,
+  "UnitCost": 6590.802,
+  "UnitMinimumPrice": 7013.892,
+  "UnitListPrice": 18775.793999999998,
   "ExtraInfo": [
     {
-      "Name": "Bauch LLC",
-      "Value": "asperiores",
+      "Name": "Jerde-Corkery",
+      "Value": "aliquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     },
     {
-      "Name": "Bauch LLC",
-      "Value": "asperiores",
+      "Name": "Jerde-Corkery",
+      "Value": "aliquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     }
   ],
-  "RawExtraInfo": "rerum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "hic",
-  "SubscriptionQuantity": 13404.118,
-  "SubscriptionStart": "2001-06-17T04:22:27.4403662+02:00",
-  "ERPDiscountPercent": 12698.967999999999,
-  "ERPDiscountAmount": 28795.192,
-  "DiscountPercent": 30509.489999999998,
-  "DiscountAmount": 1385.228,
+  "RawExtraInfo": "quidem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "earum",
+  "SubscriptionQuantity": 15983.4,
+  "SubscriptionStart": "2000-09-18T13:28:23.5855044+02:00",
+  "ERPDiscountPercent": 8211.08,
+  "ERPDiscountAmount": 18239.88,
+  "DiscountPercent": 15105.88,
+  "DiscountAmount": 10044.47,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14522.956,
-  "EarningAmount": 28397.174,
-  "SubTotal": 11614.604,
-  "TotalPrice": 11645.944,
-  "Rights": "esse",
-  "Rule": "est",
-  "ExtraField1": "est",
-  "ExtraField2": "enim",
-  "ExtraField3": "molestias",
-  "ExtraField4": "quisquam",
-  "ExtraField5": "facere",
+  "EarningPercent": 3883.026,
+  "EarningAmount": 6816.45,
+  "SubTotal": 27751.57,
+  "TotalPrice": 9962.985999999999,
+  "Rights": "cupiditate",
+  "Rule": "sed",
+  "ExtraField1": "explicabo",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "voluptatibus",
+  "ExtraField4": "minus",
+  "ExtraField5": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

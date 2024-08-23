@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "Lesch Group",
-  "Tooltip": "ratione",
+  "Id": 283,
+  "Name": "Bergnaum-Heidenreich",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 104,
+  "Rank": 55,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "vel",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Champlin, Carroll and Willms",
-  "Tooltip": "quidem",
+  "Id": 347,
+  "Name": "Stehr-Becker",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 131,
+  "Rank": 643,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 598
     }
   }
 }

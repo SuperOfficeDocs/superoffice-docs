@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 478,
-  "Created": "2017-04-11T04:22:27.4403662+02:00",
+  "SatelliteId": 359,
+  "Created": "2014-08-13T13:28:23.6011243+02:00",
   "CreatedBy": null,
-  "Updated": "2005-06-17T04:22:27.4403662+02:00",
+  "Updated": "2010-04-18T13:28:23.6011243+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Armstrong, Gulgowski and Jones",
-      "Description": "Enhanced fresh-thinking customer loyalty",
+      "Name": "Kozey-Frami",
+      "Description": "Profit-focused incremental matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 381
         }
       }
     },
     {
-      "Name": "Armstrong, Gulgowski and Jones",
-      "Description": "Enhanced fresh-thinking customer loyalty",
+      "Name": "Kozey-Frami",
+      "Description": "Profit-focused incremental matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 381
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 328
     }
   }
 }

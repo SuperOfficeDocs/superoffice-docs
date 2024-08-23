@@ -3,9 +3,9 @@ uid: SelectionDynamicSelectionSingleCriteriaGroup
 title: SelectionDynamicSelectionSingleCriteriaGroup
 description: Selection selection archive using the selectionId as criterionmapping.
 keywords: SelectionDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionDynamicSelectionSingleCriteriaGroup"
@@ -82,7 +82,7 @@ Selection selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=selectionAssociate/locationAddress,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

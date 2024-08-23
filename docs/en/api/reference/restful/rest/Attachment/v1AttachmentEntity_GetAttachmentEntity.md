@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 227,
-  "Name": "Bartoletti, Parker and Pfannerstill",
-  "ContentType": "hic",
-  "AttSize": 635,
+  "AttachmentId": 197,
+  "Name": "Smitham, Schneider and Aufderhar",
+  "ContentType": "reiciendis",
+  "AttSize": 212,
   "InlineImage": false,
-  "ContentId": "voluptatibus",
-  "AuthKey": "aperiam",
+  "ContentId": "maxime",
+  "AuthKey": "nobis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 299
     }
   },
   "_Links": {

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 919,
-  "Name": "Glover, Dach and Gutmann",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 33,
-  "UdListDefinitionId": 231
+  "HeadingId": 633,
+  "Name": "Lesch, Kulas and Hudson",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "Rank": 965,
+  "UdListDefinitionId": 146
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 288,
-  "Name": "Wolff LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 646,
-  "UdListDefinitionId": 543,
+  "HeadingId": 914,
+  "Name": "Hayes Group",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 765,
+  "UdListDefinitionId": 589,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldLength": 138
     }
   }
 }

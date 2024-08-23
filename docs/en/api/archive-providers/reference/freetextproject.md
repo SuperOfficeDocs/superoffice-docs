@@ -3,9 +3,9 @@ uid: FreetextProject
 title: FreetextProject
 description: Archive provider for freetext search on the Project entity.
 keywords: FreetextProject archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextProject"

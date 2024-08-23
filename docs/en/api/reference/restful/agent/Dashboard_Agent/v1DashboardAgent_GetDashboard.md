@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=820
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=720
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 90,
-  "AssociateId": 270,
-  "Caption": "rerum",
+  "DashboardId": 630,
+  "AssociateId": 584,
+  "Caption": "cupiditate",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 320,
-      "Caption": "sed",
-      "Description": "Adaptive context-sensitive adapter",
-      "ChartName": "Bogan, Nolan and Sipes",
-      "ChartId": "et",
+      "DashboardTileId": 330,
+      "Caption": "distinctio",
+      "Description": "De-engineered upward-trending model",
+      "ChartName": "Lesch Group",
+      "ChartId": "rerum",
       "IsDefault": false,
-      "AssociateId": 837,
-      "GroupId": 226,
-      "SelectionId": 268,
-      "Config": "corporis",
+      "AssociateId": 116,
+      "GroupId": 186,
+      "SelectionId": 56,
+      "Config": "sunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 433
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldLength": 425
     }
   }
 }

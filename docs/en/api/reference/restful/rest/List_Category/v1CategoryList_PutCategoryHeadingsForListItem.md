@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Goodwin-Bins",
-    "ToolTip": "Voluptatibus vel sed illum a vel iste.",
+    "Id": 596,
+    "Name": "Johnston-Leffler",
+    "ToolTip": "Nihil placeat.",
     "Deleted": true,
-    "Rank": 417,
-    "Type": "sapiente",
-    "ColorBlock": 977,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2002-06-18T04:22:35.830971+02:00",
+    "Rank": 339,
+    "Type": "pariatur",
+    "ColorBlock": 785,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2007-03-18T13:28:32.694768+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Ratke, Crist and Murray",
-        "ToolTip": "Illum distinctio quia quos id perspiciatis magni.",
-        "Deleted": true,
-        "Rank": 554,
-        "Type": "sint",
-        "ColorBlock": 654,
-        "IconHint": "odio",
+        "Id": 160,
+        "Name": "Kutch Group",
+        "ToolTip": "Iste eligendi cum aut ut dolores.",
+        "Deleted": false,
+        "Rank": 289,
+        "Type": "beatae",
+        "ColorBlock": 65,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2022-10-17T04:22:35.830971+02:00",
+        "LastChanged": "2023-01-28T13:28:32.694768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "officiis",
+        "ExtraInfo": "quidem",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Johnpaul Casper Rowe IV"
+        "FullName": "Miss Kendrick Mac Stokes DDS"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "at",
+    "ExtraInfo": "provident",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Wilbert Durgan"
+    "FullName": "Ricky Robel Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Nitzsche Group",
-    "ToolTip": "Atque voluptate voluptatem velit enim.",
+    "Id": 981,
+    "Name": "Kozey-Kshlerin",
+    "ToolTip": "Laboriosam non similique sapiente animi.",
     "Deleted": true,
-    "Rank": 743,
-    "Type": "perspiciatis",
-    "ColorBlock": 472,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2013-07-19T04:22:35.830971+02:00",
+    "Rank": 49,
+    "Type": "quia",
+    "ColorBlock": 243,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "1997-09-02T13:28:32.694768+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Zieme-Goyette",
-        "ToolTip": "Sint maxime iste rerum omnis dolorum.",
-        "Deleted": false,
-        "Rank": 808,
-        "Type": "explicabo",
-        "ColorBlock": 521,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2009-12-14T04:22:35.830971+01:00",
+        "Id": 590,
+        "Name": "Crooks, Lind and Swift",
+        "ToolTip": "Aut illum enim impedit.",
+        "Deleted": true,
+        "Rank": 678,
+        "Type": "officia",
+        "ColorBlock": 499,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2000-03-01T13:28:32.7103906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "commodi",
+        "ExtraInfo": "eius",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Ms. Shemar Eloy Fadel PhD",
+        "FullName": "Ms. Jermaine Hauck IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Kobe Cormier",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Miss Carmelo Alyson Cole Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 131
       }
     }
   }

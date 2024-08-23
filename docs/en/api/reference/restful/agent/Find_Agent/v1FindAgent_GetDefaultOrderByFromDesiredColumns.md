@@ -79,10 +79,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kreiger, Hermann and Jenkins",
+  "ProviderName": "Hartmann-Reilly",
   "DesiredColumns": [
-    "quisquam",
-    "ad"
+    "quas",
+    "quos"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Auer, Osinski and Brakus",
+    "Name": "Nitzsche, Kertzmann and Champlin",
     "Direction": "ASC"
   },
   {
-    "Name": "Auer, Osinski and Brakus",
+    "Name": "Nitzsche, Kertzmann and Champlin",
     "Direction": "ASC"
   }
 ]

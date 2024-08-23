@@ -3,9 +3,9 @@ uid: createdocumenttemplateplugin
 title: createdocumenttemplateplugin
 keywords: mdoprovider mdo provider createdocumenttemplateplugin
 description: List of document plugins that can create document templates.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "createdocumenttemplateplugin" MDO List

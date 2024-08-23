@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 133,
+  "SystemEventId": 613,
   "Scope": "Database",
-  "Eta": "2022-10-22T04:22:35.4553554+02:00",
-  "Eventkey": "est",
-  "Eventmess": "maxime",
-  "ExtraInfo": 195,
-  "Owner": 522,
-  "UpdatedCount": 128,
-  "Registered": "2017-12-06T04:22:35.4709806+01:00",
+  "Eta": "2001-07-31T13:28:32.2573673+02:00",
+  "Eventkey": "labore",
+  "Eventmess": "qui",
+  "ExtraInfo": 176,
+  "Owner": 770,
+  "UpdatedCount": 552,
+  "Registered": "2004-04-23T13:28:32.2573673+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 299,
+  "SystemEventId": 125,
   "Scope": "Database",
-  "Eta": "2000-12-25T04:22:35.4709806+01:00",
-  "Eventkey": "est",
-  "Eventmess": "est",
-  "ExtraInfo": 762,
-  "Owner": 860,
-  "UpdatedCount": 581,
-  "Registered": "2006-07-10T04:22:35.4709806+02:00",
+  "Eta": "2001-01-13T13:28:32.2573673+01:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "expedita",
+  "ExtraInfo": 744,
+  "Owner": 25,
+  "UpdatedCount": 29,
+  "Registered": "2022-12-10T13:28:32.2573673+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldLength": 421
     }
   },
   "_Links": {

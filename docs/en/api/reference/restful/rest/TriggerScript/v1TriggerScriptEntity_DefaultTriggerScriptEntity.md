@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 707,
-  "Name": "Kirlin LLC",
+  "ScreenChooserId": 962,
+  "Name": "Aufderhar Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "quis",
-  "Registered": "2023-10-22T04:22:35.595979+02:00",
-  "RegisteredAssociateId": 917,
-  "Updated": "2011-04-18T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 984,
+  "UniqueIdentifier": "repellendus",
+  "Source": "error",
+  "Registered": "2018-08-27T13:28:32.4135814+02:00",
+  "RegisteredAssociateId": 759,
+  "Updated": "2008-05-08T13:28:32.4135814+02:00",
+  "UpdatedAssociateId": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 562
     }
   }
 }

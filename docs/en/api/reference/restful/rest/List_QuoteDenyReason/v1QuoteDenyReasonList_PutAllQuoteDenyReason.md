@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Padberg LLC",
-    "Tooltip": "est",
+    "Id": 109,
+    "Name": "Walker Group",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 241,
-    "Rank": 158
+    "UdListDefinitionId": 1002,
+    "Rank": 64
   },
   {
-    "Id": 917,
-    "Name": "Padberg LLC",
-    "Tooltip": "est",
+    "Id": 109,
+    "Name": "Walker Group",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 241,
-    "Rank": 158
+    "UdListDefinitionId": 1002,
+    "Rank": 64
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Bergstrom-Donnelly",
-    "Tooltip": "corrupti",
+    "Id": 102,
+    "Name": "D'Amore, Walsh and Beatty",
+    "Tooltip": "numquam",
     "Deleted": true,
-    "UdListDefinitionId": 619,
-    "Rank": 417,
+    "UdListDefinitionId": 546,
+    "Rank": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 513
       }
     }
   }

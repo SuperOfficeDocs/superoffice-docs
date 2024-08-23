@@ -3,9 +3,9 @@ uid: ContactPersonSelectionV2
 title: ContactPersonSelectionV2
 description: This is the archive Provider for the Selection contact/person archive.
 keywords: ContactPersonSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactPersonSelectionV2"
@@ -147,7 +147,7 @@ This is the archive Provider for the Selection contact/person archive.
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
 |contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contactUdef/SuperOffice:3|int|companynumber| x |
@@ -1205,7 +1205,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/line3,streetAddress/formattedMultiLineAddress,contactAssociate/role,contactAssociate/isLocation,sourceRelation/deletedDate
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/assocType,contactUdef/SuperOffice:9,NumberOfNotCompletedTicketsInPeriod,targetRelation/contactDeleted,personActiveErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

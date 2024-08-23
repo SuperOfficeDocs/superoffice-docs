@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 818,
-  "MinDate": "1998-11-07T04:22:26.6709828+01:00",
-  "MaxDate": "2001-07-20T04:22:26.6709828+02:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 710,
+  "MinDate": "2004-02-08T13:28:22.6167096+01:00",
+  "MaxDate": "2009-08-31T13:28:22.6167096+02:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 503,
-  "NumDocumentsAlreadyMigrated": 734,
+  "NumDocumentsOmitted": 881,
+  "NumDocumentsAlreadyMigrated": 605,
   "Documents": [
     {
-      "DocumentId": 324,
-      "ContactId": 502,
-      "PersonId": 706,
-      "SaleId": 75,
-      "ProjectId": 189,
-      "DocTmplId": 852,
-      "AssociateId": 220,
-      "UserGroupId": 879,
-      "VisibleForId": 581
+      "DocumentId": 440,
+      "ContactId": 301,
+      "PersonId": 436,
+      "SaleId": 229,
+      "ProjectId": 114,
+      "DocTmplId": 195,
+      "AssociateId": 859,
+      "UserGroupId": 503,
+      "VisibleForId": 961
     }
   ],
   "Associates": [
     {
-      "AssociateId": 765,
-      "EmailAddress": "francis.kub@wunschgoldner.biz"
+      "AssociateId": 773,
+      "EmailAddress": "ricky.medhurst@reinger.biz"
     },
     {
-      "AssociateId": 765,
-      "EmailAddress": "francis.kub@wunschgoldner.biz"
+      "AssociateId": 773,
+      "EmailAddress": "ricky.medhurst@reinger.biz"
     }
   ]
 }

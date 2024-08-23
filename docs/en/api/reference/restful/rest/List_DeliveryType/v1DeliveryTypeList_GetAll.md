@@ -25,7 +25,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=False
+GET /api/v1/List/DeliveryType/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Rolfson, Franecki and DuBuque",
-    "Tooltip": "provident",
+    "Id": 241,
+    "Name": "Franecki Group",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "UdListDefinitionId": 836,
-    "Rank": 548,
+    "UdListDefinitionId": 663,
+    "Rank": 924,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

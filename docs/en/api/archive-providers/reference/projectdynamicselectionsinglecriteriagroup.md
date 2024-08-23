@@ -3,9 +3,9 @@ uid: ProjectDynamicSelectionSingleCriteriaGroup
 title: ProjectDynamicSelectionSingleCriteriaGroup
 description: Project selection archive using the selectionId as criterionmapping.
 keywords: ProjectDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectDynamicSelectionSingleCriteriaGroup"
@@ -791,7 +791,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=NumberOfNotCompletedSalesInPeriod,appointment/associate/lastName,projectMember/personInfo/infoText,projectMember/personExtra/x_person_timespan,projectMember/correspondingAssociate/assocName
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=sale/saleUdef/SuperOffice:2,appointment/recurring,appointment/appointmentUdef/SuperOffice:2,document/userGroup,projectMember/personRegisteredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

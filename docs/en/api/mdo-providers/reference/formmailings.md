@@ -3,9 +3,9 @@ uid: formmailings
 title: formmailings
 keywords: mdoprovider mdo provider formmailings
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "formmailings" MDO List

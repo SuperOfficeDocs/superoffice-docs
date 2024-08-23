@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 63,
-    "Name": "Morar, Gerhold and Hilll",
-    "Tooltip": "ullam",
-    "Deleted": true,
-    "Rank": 787,
-    "UdListDefinitionId": 942,
+    "HeadingId": 185,
+    "Name": "Hammes-Langworth",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 720,
+    "UdListDefinitionId": 85,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldType": "System.String",
+        "FieldLength": 203
       }
     }
   }

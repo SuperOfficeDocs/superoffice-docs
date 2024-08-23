@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421
+  "Id": 332
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 880,
-    "Name": "Schuppe, Blanda and Heathcote",
-    "Tooltip": "veritatis",
+    "HeadingId": 673,
+    "Name": "Dicki Inc and Sons",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 920,
-    "UdListDefinitionId": 764,
+    "Rank": 362,
+    "UdListDefinitionId": 915,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

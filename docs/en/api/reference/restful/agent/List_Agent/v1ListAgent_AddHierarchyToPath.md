@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "expedita",
-  "Name": "Quitzon, Feeney and McGlynn"
+  "Path": "nostrum",
+  "Name": "DuBuque, Eichmann and Batz"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 949,
+  "HierarchyId": 248,
   "Domain": "Dashboards",
-  "Name": "Zboncak LLC",
-  "Fullname": "inventore",
-  "ParentId": 653,
+  "Name": "Cummings, Quigley and Osinski",
+  "Fullname": "minima",
+  "ParentId": 813,
   "Children": [
     {
-      "HierarchyId": 575,
+      "HierarchyId": 282,
       "Domain": "Dashboards",
-      "Name": "Sauer-McLaughlin",
-      "Fullname": "alias",
-      "ParentId": 754,
+      "Name": "Tromp-Russel",
+      "Fullname": "quae",
+      "ParentId": 218,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-06-23T04:22:27.0173186+02:00",
-      "RegisteredAssociateId": 847,
-      "Updated": "2022-06-04T04:22:27.0173186+02:00",
-      "UpdatedAssociateId": 334,
+      "Registered": "2012-09-05T13:28:22.9918891+02:00",
+      "RegisteredAssociateId": 531,
+      "Updated": "2005-11-20T13:28:22.9918891+01:00",
+      "UpdatedAssociateId": 608,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 876
         }
       }
     }
   ],
-  "Registered": "2017-01-18T04:22:27.0173186+01:00",
-  "RegisteredAssociateId": 397,
-  "Updated": "2006-09-18T04:22:27.0173186+02:00",
-  "UpdatedAssociateId": 535,
+  "Registered": "2011-01-16T13:28:22.9918891+01:00",
+  "RegisteredAssociateId": 265,
+  "Updated": "2009-06-21T13:28:22.9918891+02:00",
+  "UpdatedAssociateId": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

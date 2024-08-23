@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 476,
-  "TypeId": 531,
-  "StartDate": "1998-05-13T04:22:27.5805229+02:00",
-  "Duration": 131,
-  "Description": "Customer-focused 5th generation array",
-  "PriorityId": 343,
+  "ProjectId": 405,
+  "TypeId": 135,
+  "StartDate": "2000-04-26T13:28:23.7104488+02:00",
+  "Duration": 975,
+  "Description": "Grass-roots discrete contingency",
+  "PriorityId": 192,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 721,
+  "OwnerAssociateId": 80,
   "SingleEntryOnEachCompany": true,
-  "SaleId": 711,
+  "SaleId": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

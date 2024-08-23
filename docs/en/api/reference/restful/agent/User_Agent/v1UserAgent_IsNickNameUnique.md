@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 665,
-  "NickName": "Fahey LLC"
+  "AssociateId": 217,
+  "NickName": "Sauer-Brakus"
 }
 ```
 

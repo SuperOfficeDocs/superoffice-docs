@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,9 +84,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 82,
-  "StartDate": "2005-08-14T04:22:25.809066+02:00",
-  "EndDate": "2007-03-20T04:22:25.809066+01:00",
+  "RecurrenceId": 653,
+  "StartDate": "2023-02-10T13:28:21.6169386+01:00",
+  "EndDate": "2019-10-19T13:28:21.6169386+02:00",
   "RecurrenceCounter": 109,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2014-09-21T04:22:25.809066+02:00",
+      "Date": "2014-09-25T13:28:21.6169386+02:00",
       "IsConflict": true,
-      "Description": "Total optimal software",
-      "DescriptionStyleHint": "Seamless intangible Graphic Interface",
-      "Tooltip": "nulla"
+      "Description": "Mandatory executive parallelism",
+      "DescriptionStyleHint": "Progressive uniform capability",
+      "Tooltip": "non"
     },
     {
-      "Date": "2014-09-21T04:22:25.809066+02:00",
+      "Date": "2014-09-25T13:28:21.6169386+02:00",
       "IsConflict": true,
-      "Description": "Total optimal software",
-      "DescriptionStyleHint": "Seamless intangible Graphic Interface",
-      "Tooltip": "nulla"
+      "Description": "Mandatory executive parallelism",
+      "DescriptionStyleHint": "Progressive uniform capability",
+      "Tooltip": "non"
     }
   ],
   "IsRecurrence": true

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Schneider Group",
-    "ToolTip": "Ab at qui qui.",
+    "Id": 941,
+    "Name": "Lynch Group",
+    "ToolTip": "Dolores est reprehenderit nobis tenetur sint.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "at",
-    "ColorBlock": 54,
-    "IconHint": "vitae",
+    "Rank": 893,
+    "Type": "vel",
+    "ColorBlock": 611,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2010-08-03T04:22:35.9090937+02:00",
+    "LastChanged": "2015-11-26T13:28:32.8041174+01:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Klocko, Wilderman and Lynch",
-        "ToolTip": "Ab id aut qui quam.",
+        "Id": 193,
+        "Name": "Franecki-Cassin",
+        "ToolTip": "Maiores consectetur enim atque similique modi.",
         "Deleted": false,
-        "Rank": 254,
-        "Type": "quia",
-        "ColorBlock": 79,
-        "IconHint": "quia",
+        "Rank": 847,
+        "Type": "quaerat",
+        "ColorBlock": 628,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "1998-12-28T04:22:35.9090937+01:00",
+        "LastChanged": "2019-01-31T13:28:32.8041174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Dr. Alvah Rossie Wolff V",
+        "ExtraInfo": "possimus",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Jamal Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldLength": 271
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Jedidiah Effertz",
+    "ExtraInfo": "amet",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Mr. Sonya Genoveva Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

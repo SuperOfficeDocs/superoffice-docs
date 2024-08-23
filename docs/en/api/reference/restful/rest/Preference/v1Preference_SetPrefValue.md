@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "at",
+  "RawValue": "corrupti",
   "Specification": null,
-  "DisplayValue": "eius",
-  "DisplayTooltip": "reprehenderit",
+  "DisplayValue": "architecto",
+  "DisplayTooltip": "quasi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 487,
-  "PrefDescId": 560,
-  "TableName": "Jast Inc and Sons",
-  "UserPreferenceId": 567
+  "TargetId": 40,
+  "PrefDescId": 759,
+  "TableName": "Ebert, Bayer and Schinner",
+  "UserPreferenceId": 43
 }
 ```
 

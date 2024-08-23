@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "UdListDefinitionId": 347,
+  "Id": 959,
+  "UdListDefinitionId": 984,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Kunze-Johnson",
-  "Tooltip": "cum",
+  "Id": 990,
+  "Name": "Schowalter-Hoeger",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 507,
-  "Rank": 67,
+  "UdListDefinitionId": 239,
+  "Rank": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 699
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

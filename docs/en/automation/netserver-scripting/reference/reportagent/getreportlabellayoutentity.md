@@ -2,10 +2,10 @@
 uid: reportagent-getreportlabellayoutentity
 title: ReportAgent.GetReportLabelLayoutEntity event method
 description: Scripting events called on the GetReportLabelLayoutEntity method on the ReportAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ReportAgent.GetReportLabelLayoutEntity
 

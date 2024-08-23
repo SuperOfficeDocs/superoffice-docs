@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "accusantium",
+  "ProgId": "necessitatibus",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 671,
-  "ColumnId": 143,
-  "FieldDefault": "quidem",
-  "FieldHeight": 39,
-  "FieldLabel": "eaque",
-  "FieldLeft": 430,
-  "FieldTop": 320,
+  "UDefFieldId": 274,
+  "ColumnId": 58,
+  "FieldDefault": "dolor",
+  "FieldHeight": 774,
+  "FieldLabel": "doloremque",
+  "FieldLeft": 637,
+  "FieldTop": 10,
   "FieldType": "Checkbox",
-  "FieldWidth": 478,
-  "FormatMask": "ut",
-  "HideLabel": true,
+  "FieldWidth": 226,
+  "FormatMask": "ad",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 743,
-  "LabelLeft": 917,
-  "LabelTop": 74,
-  "LabelWidth": 907,
-  "LastVersionId": 428,
-  "ListTableId": 945,
+  "LabelHeight": 785,
+  "LabelLeft": 642,
+  "LabelTop": 446,
+  "LabelWidth": 91,
+  "LastVersionId": 296,
+  "ListTableId": 792,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 512,
-  "ProgId": "voluptatibus",
-  "IsReadOnly": false,
-  "ShortLabel": "similique",
-  "TabOrder": 551,
-  "TextLength": 837,
-  "Tooltip": "modi",
-  "UdefIdentity": 493,
-  "UDListDefinitionId": 969,
+  "Page1LineNo": 431,
+  "ProgId": "laboriosam",
+  "IsReadOnly": true,
+  "ShortLabel": "quia",
+  "TabOrder": 753,
+  "TextLength": 48,
+  "Tooltip": "velit",
+  "UdefIdentity": 589,
+  "UDListDefinitionId": 357,
   "Justification": "Center",
-  "Version": 731,
-  "TemplateVariableName": "Simonis Inc and Sons",
+  "Version": 118,
+  "TemplateVariableName": "Dibbert-Little",
   "HasBeenPublished": false,
-  "MdoListName": "Cronin, Marvin and O'Hara",
+  "MdoListName": "Schmitt-Rogahn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 104
     }
   }
 }

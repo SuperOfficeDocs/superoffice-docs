@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 826,
-  "Name": "Nienow-Krajcik",
-  "ContentType": "molestiae",
-  "AttSize": 803,
+  "AttachmentId": 879,
+  "Name": "Kohler-Armstrong",
+  "ContentType": "ab",
+  "AttSize": 129,
   "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "dolor",
+  "ContentId": "et",
+  "AuthKey": "deleniti",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 296
     }
   }
 }

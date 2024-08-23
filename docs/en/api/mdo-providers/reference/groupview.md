@@ -3,9 +3,9 @@ uid: groupview
 title: groupview
 keywords: mdoprovider mdo provider groupview
 description: GroupViewMDOProvider uses the AssociateMDOProvider + DiaryView to create the MDOlist for Groupview in Diary view.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "groupview" MDO List

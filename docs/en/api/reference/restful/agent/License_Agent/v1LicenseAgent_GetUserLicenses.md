@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 120
+  "AssociateId": 387
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Green LLC",
-    "Description": "Horizontal fault-tolerant ability",
+    "Name": "Runolfsdottir, Schimmel and Schuppe",
+    "Description": "Phased uniform hierarchy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 262,
-        "Tooltip": "facere",
+        "Total": 77,
+        "Tooltip": "earum",
         "CanAssign": true,
-        "Free": 498,
-        "InUse": 560,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 668,
-        "Name": "Reynolds-Braun",
-        "Description": "Programmable asynchronous application",
-        "PrerequisiteModuleName": "Metz Group",
-        "SortOrder": 507,
-        "ExtraFlags": 731,
+        "Free": 244,
+        "InUse": 750,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 575,
+        "Name": "Rau Inc and Sons",
+        "Description": "Vision-oriented fresh-thinking encryption",
+        "PrerequisiteModuleName": "Green, Mohr and Kling",
+        "SortOrder": 183,
+        "ExtraFlags": 160,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldType": "System.Int32",
+            "FieldLength": 656
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 958,
-        "Tooltip": "ipsum",
+        "Unrestricted": true,
+        "Total": 619,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 994,
-        "InUse": 113,
+        "Free": 968,
+        "InUse": 244,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 851,
-        "Name": "Boyle-Kihn",
-        "Description": "Implemented contextually-based infrastructure",
-        "PrerequisiteModuleName": "Mertz-Johnston",
-        "SortOrder": 432,
-        "ExtraFlags": 287,
+        "Assigned": true,
+        "ModuleLicenseId": 572,
+        "Name": "Rogahn, Adams and Heller",
+        "Description": "Cross-group hybrid approach",
+        "PrerequisiteModuleName": "Lemke-Pacocha",
+        "SortOrder": 653,
+        "ExtraFlags": 410,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldLength": 904
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 905
       }
     }
   },
   {
-    "Name": "Green LLC",
-    "Description": "Horizontal fault-tolerant ability",
+    "Name": "Runolfsdottir, Schimmel and Schuppe",
+    "Description": "Phased uniform hierarchy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 262,
-        "Tooltip": "facere",
+        "Total": 77,
+        "Tooltip": "earum",
         "CanAssign": true,
-        "Free": 498,
-        "InUse": 560,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 668,
-        "Name": "Reynolds-Braun",
-        "Description": "Programmable asynchronous application",
-        "PrerequisiteModuleName": "Metz Group",
-        "SortOrder": 507,
-        "ExtraFlags": 731,
+        "Free": 244,
+        "InUse": 750,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 575,
+        "Name": "Rau Inc and Sons",
+        "Description": "Vision-oriented fresh-thinking encryption",
+        "PrerequisiteModuleName": "Green, Mohr and Kling",
+        "SortOrder": 183,
+        "ExtraFlags": 160,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldType": "System.Int32",
+            "FieldLength": 656
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 958,
-        "Tooltip": "ipsum",
+        "Unrestricted": true,
+        "Total": 619,
+        "Tooltip": "nisi",
         "CanAssign": false,
-        "Free": 994,
-        "InUse": 113,
+        "Free": 968,
+        "InUse": 244,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 851,
-        "Name": "Boyle-Kihn",
-        "Description": "Implemented contextually-based infrastructure",
-        "PrerequisiteModuleName": "Mertz-Johnston",
-        "SortOrder": 432,
-        "ExtraFlags": 287,
+        "Assigned": true,
+        "ModuleLicenseId": 572,
+        "Name": "Rogahn, Adams and Heller",
+        "Description": "Cross-group hybrid approach",
+        "PrerequisiteModuleName": "Lemke-Pacocha",
+        "SortOrder": 653,
+        "ExtraFlags": 410,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldLength": 904
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 905
       }
     }
   }

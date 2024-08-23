@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Grant, Hessel and Roberts",
-  "ModuleName": "Dicki, Murphy and Harris",
-  "ModuleDescription": "Team-oriented 5th generation definition",
-  "ModuleTooltip": "dicta",
-  "ModuleVersion": "libero",
+  "OwnerName": "Breitenberg-Mertz",
+  "ModuleName": "Raynor, Stokes and Bosco",
+  "ModuleDescription": "Object-based eco-centric matrices",
+  "ModuleTooltip": "dolorem",
+  "ModuleVersion": "repellat",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 80,
-  "ExtraFlags": 393,
-  "ExtraInfo": "fuga",
-  "SortOrder": 864,
+  "NumberOfLicenses": 238,
+  "ExtraFlags": 74,
+  "ExtraInfo": "alias",
+  "SortOrder": 224,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Green-Schaefer",
-  "Signature": "vel"
+  "PrerequisiteModuleName": "Tromp-Rippin",
+  "Signature": "harum"
 }
 ```

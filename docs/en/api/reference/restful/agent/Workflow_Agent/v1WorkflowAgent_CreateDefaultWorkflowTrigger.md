@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 122,
-  "WorkflowId": 528,
+  "WorkflowTriggerId": 601,
+  "WorkflowId": 595,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Paucek Group",
-      "Description": "Balanced heuristic groupware",
-      "Rank": 614,
+      "Name": "Homenick, Brakus and Lebsack",
+      "Description": "Fundamental multi-state structure",
+      "Rank": 858,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Paucek Group",
-      "Description": "Balanced heuristic groupware",
-      "Rank": 614,
+      "Name": "Homenick, Brakus and Lebsack",
+      "Description": "Fundamental multi-state structure",
+      "Rank": 858,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 897
     }
   }
 }

@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 308,
-  "Name": "Heidenreich Inc and Sons",
-  "ConsentText": "nam",
-  "FormText": "enim",
-  "Key": "delectus",
-  "Tooltip": "autem",
-  "Active": 169,
-  "UpdatedDate": "1999-07-14T04:22:35.8622202+02:00",
+  "ConsentPurposeId": 512,
+  "Name": "Carter Group",
+  "ConsentText": "consequatur",
+  "FormText": "ab",
+  "Key": "molestiae",
+  "Tooltip": "et",
+  "Active": 80,
+  "UpdatedDate": "2002-01-20T13:28:32.7260108+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 115,
-  "PrivacyStatementDesc": "ratione",
+  "Deleted": false,
+  "Rank": 816,
+  "PrivacyStatementDesc": "ut",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 570,
-  "Name": "Hayes-Kessler",
-  "ConsentText": "sequi",
-  "FormText": "ut",
-  "Key": "ipsa",
-  "Tooltip": "distinctio",
-  "Active": 451,
-  "UpdatedDate": "2004-02-14T04:22:35.8622202+01:00",
+  "ConsentPurposeId": 340,
+  "Name": "Schaden Group",
+  "ConsentText": "eveniet",
+  "FormText": "nam",
+  "Key": "voluptatem",
+  "Tooltip": "omnis",
+  "Active": 481,
+  "UpdatedDate": "2013-07-31T13:28:32.7260108+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 425,
-  "PrivacyStatementDesc": "eligendi",
+  "Rank": 756,
+  "PrivacyStatementDesc": "quis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   }
 }

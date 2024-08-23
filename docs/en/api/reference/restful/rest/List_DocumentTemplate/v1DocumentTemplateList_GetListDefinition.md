@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Tremblay Group",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 982,
+  "Id": 289,
+  "Name": "Dooley-Hagenes",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 410,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "impedit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 538
     }
   },
   "_Links": {

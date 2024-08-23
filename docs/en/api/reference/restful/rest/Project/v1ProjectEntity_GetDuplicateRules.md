@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bashirian LLC",
-    "DisplayName": "Goyette LLC",
-    "DisplayTooltip": "officia",
-    "IsActive": true,
+    "Name": "Volkman-Thiel",
+    "DisplayName": "Kassulke-Klocko",
+    "DisplayTooltip": "quibusdam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   },
   {
-    "Name": "Bashirian LLC",
-    "DisplayName": "Goyette LLC",
-    "DisplayTooltip": "officia",
-    "IsActive": true,
+    "Name": "Volkman-Thiel",
+    "DisplayName": "Kassulke-Klocko",
+    "DisplayTooltip": "quibusdam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   }

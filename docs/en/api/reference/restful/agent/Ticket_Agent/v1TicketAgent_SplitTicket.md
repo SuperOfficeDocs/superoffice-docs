@@ -136,16 +136,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 908,
-  "SourceTicketEntityStatusId": 215,
-  "SourceTicketEntityActivate": "2019-04-04T04:22:27.9443814+02:00",
+  "SourceTicketEntityId": 108,
+  "SourceTicketEntityStatusId": 751,
+  "SourceTicketEntityActivate": "2006-05-16T13:28:23.9916622+02:00",
   "TransferMessageIds": [
-    521,
-    433
+    383,
+    1000
   ],
   "NewTicketEntity": null
 }
@@ -158,21 +158,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 915,
-  "Title": "recusandae",
-  "CreatedAt": "2005-02-26T04:22:27.9443814+01:00",
-  "LastChanged": "2000-08-13T04:22:27.9443814+02:00",
-  "ReadByOwner": "2021-01-17T04:22:27.9443814+01:00",
-  "ReadByCustomer": "2000-12-28T04:22:27.9443814+01:00",
-  "FirstReadByOwner": "2006-07-20T04:22:27.9443814+02:00",
-  "FirstReadByUser": "2000-01-04T04:22:27.9443814+01:00",
-  "Activate": "2016-03-26T04:22:27.9443814+01:00",
-  "ClosedAt": "2017-04-18T04:22:27.9443814+02:00",
-  "RepliedAt": "2013-10-14T04:22:27.9443814+02:00",
-  "AlertTimeout": "2014-09-13T04:22:27.9443814+02:00",
-  "Deadline": "2005-09-02T04:22:27.9443814+02:00",
+  "TicketId": 371,
+  "Title": "ut",
+  "CreatedAt": "2012-07-29T13:28:23.9916622+02:00",
+  "LastChanged": "2020-03-03T13:28:23.9916622+01:00",
+  "ReadByOwner": "2000-03-01T13:28:23.9916622+01:00",
+  "ReadByCustomer": "2008-01-31T13:28:23.9916622+01:00",
+  "FirstReadByOwner": "2010-02-19T13:28:23.9916622+01:00",
+  "FirstReadByUser": "2023-05-16T13:28:23.9916622+02:00",
+  "Activate": "1997-11-21T13:28:23.9916622+01:00",
+  "ClosedAt": "2002-04-28T13:28:23.9916622+02:00",
+  "RepliedAt": "2019-12-05T13:28:23.9916622+01:00",
+  "AlertTimeout": "2006-07-12T13:28:23.9916622+02:00",
+  "Deadline": "2000-12-12T13:28:23.9916622+01:00",
   "CreatedBy": null,
-  "Author": "nulla",
+  "Author": "consequatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -183,162 +183,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sunt",
-      "PersonId": 817,
-      "Mrmrs": "nihil",
-      "Firstname": "Twila",
-      "Lastname": "Schmeler",
-      "MiddleName": "Price, Torp and Watsica",
-      "Title": "enim",
-      "Description": "Open-architected stable interface",
-      "Email": "oceane_mertz@schaefergislason.ca",
-      "FullName": "Mr. Junius Barry Douglas",
-      "DirectPhone": "175-975-3240",
-      "FormalName": "Cassin Group",
+      "Position": "ut",
+      "PersonId": 249,
+      "Mrmrs": "illo",
+      "Firstname": "Mustafa",
+      "Lastname": "Raynor",
+      "MiddleName": "Orn Group",
+      "Title": "neque",
+      "Description": "Focused neutral moratorium",
+      "Email": "ubaldo.hudson@herman.info",
+      "FullName": "Ramiro Weissnat",
+      "DirectPhone": "297-664-0301",
+      "FormalName": "Bogisich-Bayer",
       "CountryId": 715,
-      "ContactId": 464,
-      "ContactName": "Bogisich-Moore",
-      "Retired": 806,
-      "Rank": 893,
-      "ActiveInterests": 290,
+      "ContactId": 508,
+      "ContactName": "Haley-Block",
+      "Retired": 960,
+      "Rank": 710,
+      "ActiveInterests": 18,
       "ContactDepartment": "",
-      "ContactCountryId": 536,
-      "ContactOrgNr": "793156",
-      "FaxPhone": "1-712-267-3967 x783",
-      "MobilePhone": "736.650.7805 x411",
-      "ContactPhone": "557.062.5659 x8196",
-      "AssociateName": "McClure-Boyer",
-      "AssociateId": 649,
+      "ContactCountryId": 987,
+      "ContactOrgNr": "954168",
+      "FaxPhone": "1-997-762-1667 x762",
+      "MobilePhone": "916.386.3501",
+      "ContactPhone": "1-551-099-3360 x1200",
+      "AssociateName": "Berge-Weimann",
+      "AssociateId": 871,
       "UsePersonAddress": true,
-      "ContactFax": "in",
-      "Kanafname": "consequatur",
-      "Kanalname": "rerum",
-      "Post1": "et",
-      "Post2": "suscipit",
-      "Post3": "provident",
-      "EmailName": "hassie.conn@skilesflatley.uk",
-      "ContactFullName": "Prof. Lessie Roberts",
-      "ActiveErpLinks": 429,
-      "TicketPriorityId": 769,
-      "SupportLanguageId": 610,
-      "SupportAssociateId": 163,
+      "ContactFax": "hic",
+      "Kanafname": "sed",
+      "Kanalname": "doloribus",
+      "Post1": "voluptate",
+      "Post2": "voluptate",
+      "Post3": "maiores",
+      "EmailName": "fausto_zboncak@ankunding.info",
+      "ContactFullName": "Flavie Kshlerin",
+      "ActiveErpLinks": 997,
+      "TicketPriorityId": 1000,
+      "SupportLanguageId": 667,
+      "SupportAssociateId": 483,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 829
         }
       }
     }
   ],
-  "AlertLevel": 120,
-  "ConnectId": 339,
+  "AlertLevel": 398,
+  "ConnectId": 157,
   "ReadStatus": "Green",
-  "TimeToReply": 307,
-  "RealTimeToReply": 695,
-  "TimeToClose": 150,
-  "RealTimeToClose": 923,
-  "TimeSpentInternally": 972,
-  "TimeSpentExternally": 954,
-  "TimeSpentQueue": 449,
-  "RealTimeSpentInternally": 860,
-  "RealTimeSpentExternally": 805,
-  "RealTimeSpentQueue": 487,
-  "TimeSpent": 457,
-  "HasAttachment": false,
-  "NumReplies": 746,
-  "NumMessages": 705,
-  "FromAddress": "minus",
+  "TimeToReply": 942,
+  "RealTimeToReply": 73,
+  "TimeToClose": 13,
+  "RealTimeToClose": 728,
+  "TimeSpentInternally": 73,
+  "TimeSpentExternally": 44,
+  "TimeSpentQueue": 990,
+  "RealTimeSpentInternally": 573,
+  "RealTimeSpentExternally": 638,
+  "RealTimeSpentQueue": 692,
+  "TimeSpent": 915,
+  "HasAttachment": true,
+  "NumReplies": 234,
+  "NumMessages": 428,
+  "FromAddress": "maiores",
   "Messages": [
     {
-      "TicketMessageId": 821,
-      "CreatedAt": "2003-09-21T04:22:27.9600051+02:00",
+      "TicketMessageId": 25,
+      "CreatedAt": "2007-08-13T13:28:24.0072827+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quo",
-      "PersonId": 336,
-      "PersonFullName": "Berry Ritchie",
-      "ContactId": 649,
-      "ContactName": "Pacocha-Christiansen",
-      "ContactDepartment": "",
-      "NumAttachments": 494,
-      "EmailHeader": "cesar_durgan@priceabernathy.us",
+      "Author": "et",
+      "PersonId": 377,
+      "PersonFullName": "Loraine Hettinger",
+      "ContactId": 416,
+      "ContactName": "Kirlin, Parker and Aufderhar",
+      "ContactDepartment": "whiteboard open-source markets",
+      "NumAttachments": 560,
+      "EmailHeader": "irwin@jones.name",
       "MessageHeaders": [
         {},
         {}
       ],
       "Language": "esse",
-      "Sentiment": 823,
-      "SentimentConfidence": 83,
-      "CreatedBy": 10,
-      "ChangedAt": "2012-12-24T04:22:27.9600051+01:00",
+      "Sentiment": 639,
+      "SentimentConfidence": 992,
+      "CreatedBy": 567,
+      "ChangedAt": "1997-10-27T13:28:24.0072827+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 813
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 2,
-      "Name": "Becker-Hermiston",
-      "ToolTip": "Porro architecto.",
+      "Id": 810,
+      "Name": "Metz, Lakin and Monahan",
+      "ToolTip": "Exercitationem corrupti sapiente iure dolorem sed.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     },
     {
-      "Id": 2,
-      "Name": "Becker-Hermiston",
-      "ToolTip": "Porro architecto.",
+      "Id": 810,
+      "Name": "Metz, Lakin and Monahan",
+      "ToolTip": "Exercitationem corrupti sapiente iure dolorem sed.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     }
   ],
-  "Language": "repudiandae",
-  "Sentiment": 700,
-  "SentimentConfidence": 170,
-  "SuggestedCategoryId": 886,
+  "Language": "temporibus",
+  "Sentiment": 810,
+  "SentimentConfidence": 271,
+  "SuggestedCategoryId": 324,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 341,
-  "IconHint": "a",
+  "OrigHumanCategoryId": 737,
+  "IconHint": "velit",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 132,
+  "ActiveStatusMonitorId": 986,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "veniam",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "sed"
+    "CustomFields1": "autem",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 507
     }
   }
 }

@@ -3,9 +3,9 @@ uid: QuoteLineShadowDynamicSelection
 title: QuoteLineShadowDynamicSelection
 description: Shadow contact provider for the dynamic quoteline provider.
 keywords: QuoteLineShadowDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteLineShadowDynamicSelection"
@@ -749,7 +749,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=rank,alternative/version/quote/sale/associateId,alternative/version/quote/sale/person/personAddress/wgs84latitude,alternative/version/quote/sale/person/personExtra/x_person_integer,alternative/version/quote/sale/person/personExtra/x_person_float
+GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/text,alternative/version/quote/sale/hasQuote,alternative/version/quote/sale/person/personAssociate/contactDepartment,alternative/version/quote/sale/person/personAssociate/role,alternative/version/quote/sale/person/hasEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

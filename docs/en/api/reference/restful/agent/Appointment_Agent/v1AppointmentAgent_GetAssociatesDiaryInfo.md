@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    930,
-    157
+    171,
+    476
   ],
-  "StartTime": "2021-10-23T04:22:25.6834441+02:00",
-  "EndTime": "2017-01-19T04:22:25.6834441+01:00"
+  "StartTime": "2015-02-05T13:28:21.4605072+01:00",
+  "EndTime": "2011-05-04T13:28:21.4605072+02:00"
 }
 ```
 
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 793,
-    "AssociateId": 450,
-    "MotherId": 651,
-    "StartDate": "2005-06-30T04:22:25.6834441+02:00",
-    "EndDate": "1998-05-17T04:22:25.6834441+02:00",
+    "AppointmentId": 864,
+    "AssociateId": 331,
+    "MotherId": 94,
+    "StartDate": "2007-03-25T13:28:21.4605072+02:00",
+    "EndDate": "1998-01-10T13:28:21.4605072+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Schaden LLC",
-    "ContactName": "Will, Will and Cremin",
-    "Title": "accusamus",
-    "Agenda": "est",
+    "TaskName": "Bode, Mosciski and Rath",
+    "ContactName": "Orn Inc and Sons",
+    "Title": "ipsa",
+    "Agenda": "quisquam",
     "IsAllDay": true,
     "IsBusy": false,
-    "IsRecurring": false,
+    "IsRecurring": true,
     "IsVideoMeeting": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 749
       }
     }
   }

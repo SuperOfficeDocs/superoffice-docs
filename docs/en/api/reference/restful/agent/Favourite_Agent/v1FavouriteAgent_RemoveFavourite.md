@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Connelly, Little and Jast",
-  "RecordId": 43,
-  "AssociateId": 302
+  "TableName": "Leffler-Keebler",
+  "RecordId": 927,
+  "AssociateId": 798
 }
 ```
 

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Kreiger-Predovic",
-    "ToolTip": "Asperiores facilis incidunt aut magni eaque.",
+    "Id": 897,
+    "Name": "Reinger-Morar",
+    "ToolTip": "Deleniti maxime et iusto.",
     "Deleted": false,
-    "Rank": 341,
-    "Type": "laboriosam",
-    "ColorBlock": 148,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2009-11-11T04:22:35.8622202+01:00",
+    "Rank": 1001,
+    "Type": "pariatur",
+    "ColorBlock": 378,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2003-01-08T13:28:32.7416326+01:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Turner-Mraz",
-        "ToolTip": "Et consequatur.",
+        "Id": 244,
+        "Name": "Brekke, Moen and Kozey",
+        "ToolTip": "Ipsum architecto ea est totam facilis.",
         "Deleted": false,
-        "Rank": 103,
-        "Type": "quisquam",
-        "ColorBlock": 204,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2020-11-29T04:22:35.8622202+01:00",
+        "Rank": 399,
+        "Type": "magnam",
+        "ColorBlock": 731,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2022-02-11T13:28:32.7416326+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Jaylon Sigurd Lynch DVM"
+        "ExtraInfo": "eius",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Isaac Rosenbaum Jr."
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "quaerat",
-    "Hidden": true,
-    "FullName": "Nickolas Larkin"
+    "ExtraInfo": "eos",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Meagan Yost"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Rowe, Abbott and Stiedemann",
-    "ToolTip": "Praesentium repellendus voluptatem necessitatibus perspiciatis minima est autem.",
+    "Id": 664,
+    "Name": "Watsica LLC",
+    "ToolTip": "Eius molestiae ullam qui.",
     "Deleted": false,
-    "Rank": 3,
-    "Type": "amet",
-    "ColorBlock": 676,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2003-11-14T04:22:35.8622202+01:00",
+    "Rank": 597,
+    "Type": "nisi",
+    "ColorBlock": 297,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2012-08-24T13:28:32.7416326+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Expedita corrupti fuga commodi qui a repudiandae.",
+        "Id": 78,
+        "Name": "Purdy-Weimann",
+        "ToolTip": "Et cupiditate consectetur.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "ut",
-        "ColorBlock": 715,
-        "IconHint": "est",
+        "Rank": 163,
+        "Type": "dolores",
+        "ColorBlock": 52,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2009-08-12T04:22:35.8622202+02:00",
+        "LastChanged": "2004-04-22T13:28:32.7416326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "iste",
-        "Hidden": true,
-        "FullName": "Bryana Renner",
+        "ExtraInfo": "harum",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Andreane Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 713
+            "FieldType": "System.Int32",
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "excepturi",
-    "Hidden": false,
-    "FullName": "Prof. Jacey Koss III",
+    "ExtraInfo": "tempora",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Darion Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 733
       }
     }
   }

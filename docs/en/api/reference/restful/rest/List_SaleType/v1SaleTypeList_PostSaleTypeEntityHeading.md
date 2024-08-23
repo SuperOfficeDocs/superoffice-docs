@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 858,
-  "Name": "Rice LLC",
-  "Tooltip": "quibusdam",
+  "HeadingId": 87,
+  "Name": "Sanford, Koch and Tremblay",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 108,
-  "UdListDefinitionId": 568
+  "Rank": 323,
+  "UdListDefinitionId": 432
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 149,
-  "Name": "Kessler, Bradtke and Kessler",
-  "Tooltip": "modi",
+  "HeadingId": 705,
+  "Name": "Abshire, Dickens and Torp",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 739,
-  "UdListDefinitionId": 1001,
+  "Rank": 370,
+  "UdListDefinitionId": 349,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

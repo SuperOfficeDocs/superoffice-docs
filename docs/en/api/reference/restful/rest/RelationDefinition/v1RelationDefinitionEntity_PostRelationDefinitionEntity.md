@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 249,
-  "Name": "Effertz, Cartwright and Labadie",
-  "Tooltip": "quasi",
-  "PassiveText": "minus",
-  "Deleted": true,
-  "Rank": 453,
+  "ReldefId": 921,
+  "Name": "Kuvalis, O'Keefe and Turcotte",
+  "Tooltip": "est",
+  "PassiveText": "et",
+  "Deleted": false,
+  "Rank": 532,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 979,
-  "Name": "Walsh-Corwin",
-  "Tooltip": "deleniti",
-  "PassiveText": "illo",
-  "Deleted": true,
-  "Rank": 6,
+  "ReldefId": 976,
+  "Name": "Streich-Marquardt",
+  "Tooltip": "earum",
+  "PassiveText": "ut",
+  "Deleted": false,
+  "Rank": 959,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   },
   "_Links": {

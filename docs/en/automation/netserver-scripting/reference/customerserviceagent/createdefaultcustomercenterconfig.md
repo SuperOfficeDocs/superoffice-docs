@@ -2,10 +2,10 @@
 uid: customerserviceagent-createdefaultcustomercenterconfig
 title: CustomerServiceAgent.CreateDefaultCustomerCenterConfig event method
 description: Scripting events called on the CreateDefaultCustomerCenterConfig method on the CustomerServiceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CustomerServiceAgent.CreateDefaultCustomerCenterConfig
 

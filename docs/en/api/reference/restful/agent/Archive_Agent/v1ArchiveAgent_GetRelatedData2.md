@@ -80,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "perspiciatis",
-  "RecordId": 117,
-  "Fields": "ex"
+  "Table": "maiores",
+  "RecordId": 102,
+  "Fields": "voluptate"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "sequi",
+    "Field": "inventore",
     "FieldValue": null
   },
   {
-    "Field": "sequi",
+    "Field": "inventore",
     "FieldValue": null
   }
 ]

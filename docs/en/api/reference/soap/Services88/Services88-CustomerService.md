@@ -1050,6 +1050,13 @@ title: Services88.CustomerServiceAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesLoadCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1017</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -1397,6 +1404,7 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:element minOccurs="0" name="CgiVariables" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CgiContent" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Headers" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="TraceExecution" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

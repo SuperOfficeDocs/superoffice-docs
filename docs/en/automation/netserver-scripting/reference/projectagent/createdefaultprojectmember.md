@@ -2,10 +2,10 @@
 uid: projectagent-createdefaultprojectmember
 title: ProjectAgent.CreateDefaultProjectMember event method
 description: Scripting events called on the CreateDefaultProjectMember method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.CreateDefaultProjectMember
 

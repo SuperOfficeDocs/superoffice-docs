@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Conn, Rohan and Simonis",
-  "DeviceName": "DuBuque, Wisozk and Rowe"
+  "ApplicationName": "Upton-Pagac",
+  "DeviceName": "Koch LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 889,
-  "Name": "Armstrong LLC",
-  "CreatedDate": "2003-04-29T04:22:26.8598968+02:00",
-  "UpdatedDate": "1997-02-01T04:22:26.8598968+01:00",
-  "AssociateFullName": "Mrs. Lester Hilma McDermott I",
-  "CreatedBy": "architecto",
-  "UpdatedBy": "quibusdam",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 75,
+  "ForeignDeviceId": 298,
+  "Name": "Lehner, Haag and Johns",
+  "CreatedDate": "2020-08-21T13:28:22.8510314+02:00",
+  "UpdatedDate": "2008-03-19T13:28:22.8510314+01:00",
+  "AssociateFullName": "Kenneth Maggio Jr.",
+  "CreatedBy": "delectus",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "iure",
+  "ForeignAppId": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 931
     }
   }
 }

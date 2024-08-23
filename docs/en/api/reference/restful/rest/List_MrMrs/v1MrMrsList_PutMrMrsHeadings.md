@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 442,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 812
+    "HeadingId": 485,
+    "Name": "Kilback, Keeling and Jakubowski",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 279,
+    "UdListDefinitionId": 809
   },
   {
-    "HeadingId": 442,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 812
+    "HeadingId": 485,
+    "Name": "Kilback, Keeling and Jakubowski",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 279,
+    "UdListDefinitionId": 809
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 511,
-    "Name": "Abernathy, Johnston and Wolff",
-    "Tooltip": "quod",
-    "Deleted": false,
-    "Rank": 831,
-    "UdListDefinitionId": 815,
+    "HeadingId": 685,
+    "Name": "Reinger, Effertz and Nicolas",
+    "Tooltip": "a",
+    "Deleted": true,
+    "Rank": 89,
+    "UdListDefinitionId": 100,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 394
       }
     }
   }

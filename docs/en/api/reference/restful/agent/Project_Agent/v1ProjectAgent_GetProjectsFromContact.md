@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 814
+  "ContactId": 124
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 832,
-    "Name": "Wyman, O'Reilly and Volkman",
-    "Description": "Programmable assymetric forecast",
+    "ProjectId": 704,
+    "Name": "Haag, Goodwin and Johnston",
+    "Description": "Public-key well-modulated architecture",
     "URL": "http://www.example.com/",
-    "Type": "corrupti",
-    "AssociateId": 571,
-    "AssociateFullName": "Herman Toy",
-    "TypeId": 123,
-    "Updated": "1997-06-25T04:22:27.3466141+02:00",
-    "StatusId": 666,
-    "Status": "odio",
-    "TextId": 466,
-    "PublishTo": "2002-02-07T04:22:27.3466141+01:00",
-    "PublishFrom": "2002-09-04T04:22:27.3466141+02:00",
+    "Type": "sunt",
+    "AssociateId": 842,
+    "AssociateFullName": "Mrs. Emil Mollie Gorczany II",
+    "TypeId": 145,
+    "Updated": "2005-12-22T13:28:23.491777+01:00",
+    "StatusId": 333,
+    "Status": "enim",
+    "TextId": 239,
+    "PublishTo": "2016-02-22T13:28:23.491777+01:00",
+    "PublishFrom": "1998-07-05T13:28:23.491777+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "649335",
-    "ActiveErpLinks": 404,
+    "ProjectNumber": "457863",
+    "ActiveErpLinks": 546,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldLength": 625
       }
     }
   }

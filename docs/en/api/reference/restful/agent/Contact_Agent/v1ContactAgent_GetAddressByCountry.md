@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 762,
-  "CountryId": 454
+  "ContactId": 850,
+  "CountryId": 263
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 16500.51,
-  "Wgs84Longitude": 12934.018,
+  "Wgs84Latitude": 3857.9539999999997,
+  "Wgs84Longitude": 1432.238,
   "LocalizedAddress": [
     [
       {
-        "Name": "Smith Group",
-        "Value": "nihil",
-        "Tooltip": "laborum",
-        "Label": "excepturi",
-        "ValueLength": 661,
-        "AddressType": "veritatis",
+        "Name": "Koelpin, Schowalter and Lang",
+        "Value": "rerum",
+        "Tooltip": "est",
+        "Label": "inventore",
+        "ValueLength": 67,
+        "AddressType": "suscipit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 317
           }
         }
       }
     ],
     [
       {
-        "Name": "Hilll-Lehner",
-        "Value": "sit",
-        "Tooltip": "corporis",
-        "Label": "aut",
-        "ValueLength": 771,
-        "AddressType": "laborum",
+        "Name": "Keebler, Eichmann and Satterfield",
+        "Value": "eum",
+        "Tooltip": "sit",
+        "Label": "corrupti",
+        "ValueLength": 667,
+        "AddressType": "nesciunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 787
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "qui",
+  "Formatted": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

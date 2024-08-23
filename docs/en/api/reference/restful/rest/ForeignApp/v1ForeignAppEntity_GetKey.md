@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Oct 2013 04:22:35 G10T
+Last-Modified: Mon, 24 Jun 2024 13:28:31 G6T
 
 {
-  "Key": "et",
-  "Value": "et",
-  "RecordId": 494,
-  "CreatedDate": "2011-02-20T04:22:35.0010854+01:00",
-  "UpdatedDate": "2013-10-05T04:22:35.0010854+02:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "accusamus",
-  "TableName": "Kirlin Group",
+  "Key": "ut",
+  "Value": "id",
+  "RecordId": 375,
+  "CreatedDate": "2022-04-14T13:28:31.6948645+02:00",
+  "UpdatedDate": "2024-06-24T13:28:31.6948645+02:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "consectetur",
+  "TableName": "Gulgowski, Klocko and Waters",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 753,
-  "StartTime": "2021-12-18T04:22:25.5428448+01:00",
-  "EndTime": "1998-10-28T04:22:25.5428448+01:00",
-  "Count": 462,
-  "TaskId": 839
+  "ProjectId": 741,
+  "StartTime": "2023-06-26T13:28:21.4136438+02:00",
+  "EndTime": "2013-10-17T13:28:21.4136438+02:00",
+  "Count": 75,
+  "TaskId": 897
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 65,
-    "StartDate": "2007-11-18T04:22:25.5428448+01:00",
-    "EndDate": "2020-08-31T04:22:25.5428448+02:00",
+    "AppointmentId": 430,
+    "StartDate": "2007-04-13T13:28:21.4136438+02:00",
+    "EndDate": "1999-08-27T13:28:21.4136438+02:00",
     "Type": "BookingForChecklist",
-    "Task": "delectus",
-    "AssociateFullName": "Zack Halvorson",
-    "ContactName": "Lueilwitz-Lindgren",
-    "Description": "Configurable bandwidth-monitored groupware",
-    "PersonFullName": "Dr. Gideon Micheal Hoeger DVM",
-    "PersonId": 155,
-    "ContactId": 915,
-    "ProjectId": 979,
-    "ProjectName": "Yundt-Leannon",
+    "Task": "repellat",
+    "AssociateFullName": "Prof. Tristin Bahringer",
+    "ContactName": "Price, Pollich and O'Conner",
+    "Description": "Future-proofed reciprocal capacity",
+    "PersonFullName": "Prof. Sherwood Spencer MD",
+    "PersonId": 943,
+    "ContactId": 908,
+    "ProjectId": 140,
+    "ProjectName": "Gutkowski, Marquardt and Fritsch",
     "IsPublished": false,
-    "AssociateId": 952,
-    "ColorIndex": 63,
-    "IsFree": true,
+    "AssociateId": 184,
+    "ColorIndex": 483,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 487,
-    "PriorityName": "Okuneva, Hills and Funk",
+    "PriorityId": 180,
+    "PriorityName": "Wintheiser, Stanton and Will",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-12-03T04:22:25.5428448+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2004-05-22T13:28:21.4136438+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-08-14T04:22:25.5428448+02:00",
-    "RecurringEndDate": "2016-02-20T04:22:25.5428448+01:00",
-    "MotherId": 693,
-    "AssignedBy": 114,
-    "AssignedByFullName": "Mr. Jimmy Stanford Hermann IV",
+    "RecurringStartDate": "2000-11-09T13:28:21.4136438+01:00",
+    "RecurringEndDate": "2009-07-21T13:28:21.4136438+02:00",
+    "MotherId": 897,
+    "AssignedBy": 981,
+    "AssignedByFullName": "Wilma Wunsch I",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "voluptas",
-    "SaleId": 49,
-    "SaleName": "Langosh Inc and Sons",
-    "AssociateName": "Beahan, Rau and Heidenreich",
-    "CreatedDate": "2017-04-15T04:22:25.5428448+02:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Ramona Becker",
-    "CreatedByAssociateId": 739,
+    "Location": "et",
+    "AlarmLeadTime": "harum",
+    "SaleId": 688,
+    "SaleName": "Lang, Boyle and Rosenbaum",
+    "AssociateName": "Denesik Group",
+    "CreatedDate": "2001-07-27T13:28:21.4136438+02:00",
+    "CreatedBy": "consequuntur",
+    "CreatedByFullName": "Juana Satterfield",
+    "CreatedByAssociateId": 583,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 935,
-    "Title": "et",
-    "Agenda": "sequi",
-    "InternalNotes": "cum",
+    "PreferredTZLocation": 943,
+    "Title": "dicta",
+    "Agenda": "alias",
+    "InternalNotes": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 981
       }
     }
   }

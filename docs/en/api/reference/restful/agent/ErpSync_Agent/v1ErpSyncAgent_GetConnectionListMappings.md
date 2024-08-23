@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 401
+  "ErpConnectionId": 378
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Thiel, Hane and Reichert",
+      "ErpListName": "Krajcik-Wuckert",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Larson-Bosco",
-      "ErpFieldId": 915,
+      "ErpActorTypeName": "Hoeger, Lehner and Koch",
+      "ErpFieldId": 362,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 910
+          "FieldLength": 891
         }
       }
     }
   ],
-  "ErpConnectionId": 102,
-  "ErpConnectionName": "Quitzon-Kling",
+  "ErpConnectionId": 691,
+  "ErpConnectionName": "Homenick LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 243,
-    "Name": "Mueller LLC",
-    "Description": "Customizable composite standardization",
+    "ProjectId": 354,
+    "Name": "Boyer, Jast and Koch",
+    "Description": "Ameliorated user-facing structure",
     "URL": "http://www.example.com/",
-    "Type": "sunt",
-    "AssociateId": 427,
-    "AssociateFullName": "Margie Feil",
-    "TypeId": 220,
-    "Updated": "1998-01-07T04:22:27.3466141+01:00",
-    "StatusId": 955,
-    "Status": "recusandae",
-    "TextId": 591,
-    "PublishTo": "2001-03-02T04:22:27.3466141+01:00",
-    "PublishFrom": "2024-01-12T04:22:27.3466141+01:00",
+    "Type": "voluptatum",
+    "AssociateId": 758,
+    "AssociateFullName": "Prof. Kiel Schimmel",
+    "TypeId": 47,
+    "Updated": "1999-09-20T13:28:23.491777+02:00",
+    "StatusId": 365,
+    "Status": "ea",
+    "TextId": 957,
+    "PublishTo": "2000-02-05T13:28:23.491777+01:00",
+    "PublishFrom": "2001-08-24T13:28:23.491777+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1035000",
-    "ActiveErpLinks": 178,
+    "ProjectNumber": "957472",
+    "ActiveErpLinks": 256,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 266
+        "FieldType": "System.Int32",
+        "FieldLength": 536
       }
     }
   }

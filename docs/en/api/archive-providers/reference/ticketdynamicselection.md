@@ -3,9 +3,9 @@ uid: TicketDynamicSelection
 title: TicketDynamicSelection
 description: Ticket selection archive using the selectionId as criterionmapping.
 keywords: TicketDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketDynamicSelection"
@@ -760,7 +760,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelection?$select=slevel,createdBy/title,person/personRegisteredDate,person/correspondingAssociate/firstName,person/correspondingAssociate/credentialDisplayValue
+GET /api/v1/archive/TicketDynamicSelection?$select=ownedBy/locationAddress,person/personMobilePhone/description,person/personAddress/line1,contact/email/emailLastBounce,contact/restrictionAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

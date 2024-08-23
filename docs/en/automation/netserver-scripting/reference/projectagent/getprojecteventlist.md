@@ -2,10 +2,10 @@
 uid: projectagent-getprojecteventlist
 title: ProjectAgent.GetProjectEventList event method
 description: Scripting events called on the GetProjectEventList method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.GetProjectEventList
 

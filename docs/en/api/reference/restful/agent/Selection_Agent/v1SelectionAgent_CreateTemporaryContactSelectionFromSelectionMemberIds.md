@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 557,
+  "SelectionId": 686,
   "SelectionMemberIds": [
-    70,
-    769
+    126,
+    308
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized stable focus group",
-  "Postit": "voluptas",
+  "Description": "Balanced zero defect internet solution",
+  "Postit": "sapiente",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 850,
-  "IncludePerson": 776,
+  "GroupIdx": 878,
+  "IncludePerson": 768,
   "MemberCount": 99.99,
-  "Name": "Beahan Inc and Sons",
-  "PostitTextId": 868,
-  "CreatedDate": "2014-04-17T04:22:27.6273988+02:00",
-  "SelectionId": 440,
-  "SoundEx": "et",
-  "Source": 890,
-  "TextId": 749,
-  "UpdatedDate": "2017-08-03T04:22:27.6273988+02:00",
-  "UpdatedCount": 127,
-  "Visibility": 893,
+  "Name": "Carter, McLaughlin and Reichert",
+  "PostitTextId": 964,
+  "CreatedDate": "2002-05-05T13:28:23.772965+02:00",
+  "SelectionId": 68,
+  "SoundEx": "nam",
+  "Source": 327,
+  "TextId": 995,
+  "UpdatedDate": "2007-12-22T13:28:23.772965+01:00",
+  "UpdatedCount": 479,
+  "Visibility": 975,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 522,
-  "TargetTableName": "Brown LLC",
-  "Completed": false,
-  "LeftSelectionId": 311,
-  "RightSelectionId": 856,
+  "CompanyUnique": false,
+  "TargetTableNumber": 546,
+  "TargetTableName": "Heathcote LLC",
+  "Completed": true,
+  "LeftSelectionId": 952,
+  "RightSelectionId": 286,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bogan LLC",
-  "ShadowProviderName": "Senger-Johnson",
-  "ChartKey": "quasi",
-  "LastLoaded": "2017-02-27T04:22:27.6273988+01:00",
-  "LastLoadedBy": 453,
+  "MainProviderName": "Jacobi, Koelpin and Lynch",
+  "ShadowProviderName": "Kerluke-Hintz",
+  "ChartKey": "at",
+  "LastLoaded": "2003-06-07T13:28:23.772965+02:00",
+  "LastLoadedBy": 90,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-01-21T04:22:27.6273988+01:00",
-  "LastMembershipChangeBy": 234,
+  "LastMembershipChange": "2008-02-10T13:28:23.772965+01:00",
+  "LastMembershipChangeBy": 949,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nobis",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Kessler, Schowalter and Torphy",
-  "DashboardTileDefinitionId": 930,
+  "MainHeading": "est",
+  "MemberTabHeading": "quod",
+  "MailingsProviderName": "Morar Inc and Sons",
+  "DashboardTileDefinitionId": 716,
   "VisibleFor": [
     {
-      "VisibleId": 880,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 376
         }
       }
     },
     {
-      "VisibleId": 880,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 376
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

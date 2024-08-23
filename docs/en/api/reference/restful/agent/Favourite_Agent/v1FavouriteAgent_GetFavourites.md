@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Sauer-Tromp",
-  "AssociateId": 162
+  "TableName": "Abernathy Group",
+  "AssociateId": 750
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Kunde, Waelchi and Boyer",
-    "RecordId": 461,
-    "AssociateId": 103,
-    "ExtraInfo": "repellendus",
-    "Rank": 293,
+    "TableName": "Brekke, West and Hansen",
+    "RecordId": 822,
+    "AssociateId": 64,
+    "ExtraInfo": "odio",
+    "Rank": 202,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 718
       }
     }
   }

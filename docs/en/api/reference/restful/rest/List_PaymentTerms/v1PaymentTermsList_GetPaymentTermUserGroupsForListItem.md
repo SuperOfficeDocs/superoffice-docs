@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Mraz, Ruecker and Blanda",
-    "ToolTip": "Ex et sint dolorum veritatis necessitatibus dolor.",
+    "Id": 664,
+    "Name": "McLaughlin-O'Kon",
+    "ToolTip": "Aspernatur commodi ea in velit molestiae.",
     "Deleted": false,
-    "Rank": 921,
-    "Type": "quibusdam",
-    "ColorBlock": 601,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2018-10-05T04:22:35.9872165+02:00",
+    "Rank": 232,
+    "Type": "est",
+    "ColorBlock": 445,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2001-10-26T13:28:32.8978487+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Bogisich Inc and Sons",
-        "ToolTip": "Dicta minima alias fugit qui nostrum maiores.",
-        "Deleted": true,
-        "Rank": 322,
-        "Type": "eum",
-        "ColorBlock": 953,
-        "IconHint": "inventore",
+        "Id": 613,
+        "Name": "Boyle-Kuhn",
+        "ToolTip": "Itaque iure ut non sed.",
+        "Deleted": false,
+        "Rank": 106,
+        "Type": "atque",
+        "ColorBlock": 137,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2014-01-08T04:22:35.9872165+01:00",
+        "LastChanged": "2023-06-05T13:28:32.8978487+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "dolore",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "earum",
         "Hidden": true,
-        "FullName": "Arne Swaniawski",
+        "FullName": "Mrs. Kylie Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 336
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Elliot Hessel",
+    "ExtraInfo": "nihil",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Duane Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 141
       }
     }
   }

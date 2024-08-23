@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 717,
+  "SystemEventId": 893,
   "Scope": "Database",
-  "Eta": "2003-08-10T04:22:35.4553554+02:00",
-  "Eventkey": "amet",
-  "Eventmess": "provident",
-  "ExtraInfo": 726,
-  "Owner": 507,
-  "UpdatedCount": 661,
-  "Registered": "2017-10-08T04:22:35.4553554+02:00",
+  "Eta": "2010-10-24T13:28:32.2573673+02:00",
+  "Eventkey": "optio",
+  "Eventmess": "quisquam",
+  "ExtraInfo": 916,
+  "Owner": 469,
+  "UpdatedCount": 553,
+  "Registered": "2014-07-14T13:28:32.2573673+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 972,
+  "SystemEventId": 238,
   "Scope": "Database",
-  "Eta": "2007-01-02T04:22:35.4553554+01:00",
-  "Eventkey": "nostrum",
-  "Eventmess": "aut",
-  "ExtraInfo": 377,
-  "Owner": 423,
-  "UpdatedCount": 618,
-  "Registered": "2006-08-07T04:22:35.4553554+02:00",
+  "Eta": "2000-09-14T13:28:32.2573673+02:00",
+  "Eventkey": "fugit",
+  "Eventmess": "non",
+  "ExtraInfo": 173,
+  "Owner": 726,
+  "UpdatedCount": 496,
+  "Registered": "2004-08-18T13:28:32.2573673+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,18 +90,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Adams-Pfannerstill",
+  "ProviderName": "Collins, Bogan and Stiedemann",
   "Restrictions": [
     {
-      "Name": "Buckridge-Ernser",
-      "Operator": "aliquam",
+      "Name": "Hills-Hauck",
+      "Operator": "qui",
       "Values": [
-        "aut",
-        "qui"
+        "consequatur",
+        "maiores"
       ],
       "DisplayValues": [
-        "eum",
-        "provident"
+        "mollitia",
+        "tempora"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 509,
+      "InterParenthesis": 635,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 940
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Beatty LLC",
-    "DisplayTooltip": "et",
-    "DisplayType": "sed",
+    "DisplayName": "Fritsch Group",
+    "DisplayTooltip": "est",
+    "DisplayType": "tempore",
     "CanOrderBy": false,
-    "Name": "Pollich, Connelly and Fahey",
-    "CanRestrictBy": false,
-    "RestrictionType": "sit",
-    "RestrictionListName": "Nitzsche-Steuber",
+    "Name": "Wyman-Murphy",
+    "CanRestrictBy": true,
+    "RestrictionType": "ab",
+    "RestrictionListName": "Fahey, Schultz and Streich",
     "IsVisible": false,
-    "ExtraInfo": "inventore",
-    "Width": "mollitia",
-    "IconHint": "ea",
-    "HeadingIconHint": "rerum"
+    "ExtraInfo": "omnis",
+    "Width": "non",
+    "IconHint": "dignissimos",
+    "HeadingIconHint": "dolore"
   }
 ]
 ```

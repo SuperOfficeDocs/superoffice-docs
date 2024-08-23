@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "totam",
-    "ea"
+    "fugit",
+    "vero"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 620,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 417,
-  "ERPProductKey": "laboriosam",
+  "QuoteLineId": 822,
+  "ERPQuoteLineKey": "quisquam",
+  "QuoteAlternativeId": 386,
+  "ERPProductKey": "non",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 5271.388,
-  "DeliveredQuantity": 11533.119999999999,
-  "Rank": 19,
-  "Name": "Aufderhar, Steuber and Jewess",
-  "Description": "Distributed grid-enabled Graphic Interface",
-  "Code": "placeat",
-  "QuantityUnit": "quia",
-  "PriceUnit": "eaque",
-  "ItemNumber": "943587",
+  "Quantity": 27024.482,
+  "DeliveredQuantity": 8411.655999999999,
+  "Rank": 757,
+  "Name": "Predovic-Runolfsdottir",
+  "Description": "Devolved zero defect orchestration",
+  "Code": "corrupti",
+  "QuantityUnit": "sit",
+  "PriceUnit": "labore",
+  "ItemNumber": "1101930",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "aut",
-  "Supplier": "sed",
-  "SupplierCode": "consequatur",
-  "Thumbnail": "illo",
-  "VATInfo": "incidunt",
-  "VAT": 12824.328,
-  "UnitCost": 611.13,
-  "UnitMinimumPrice": 16607.066,
-  "UnitListPrice": 4559.97,
+  "ProductFamilyKey": "aliquid",
+  "ProductTypeKey": "fuga",
+  "Supplier": "possimus",
+  "SupplierCode": "provident",
+  "Thumbnail": "dolores",
+  "VATInfo": "aspernatur",
+  "VAT": 1031.086,
+  "UnitCost": 24711.59,
+  "UnitMinimumPrice": 12341.692,
+  "UnitListPrice": 19559.293999999998,
   "ExtraInfo": [
     {
-      "Name": "Becker-Rowe",
-      "Value": "necessitatibus",
+      "Name": "Bahringer-DuBuque",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 98
+          "FieldType": "System.String",
+          "FieldLength": 387
         }
       }
     },
     {
-      "Name": "Becker-Rowe",
-      "Value": "necessitatibus",
+      "Name": "Bahringer-DuBuque",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 98
+          "FieldType": "System.String",
+          "FieldLength": 387
         }
       }
     }
   ],
-  "RawExtraInfo": "eveniet",
+  "RawExtraInfo": "hic",
   "IsSubscription": false,
-  "SubscriptionUnit": "temporibus",
-  "SubscriptionQuantity": 4842.03,
-  "SubscriptionStart": "2014-01-26T04:22:27.362244+01:00",
-  "ERPDiscountPercent": 30951.384,
-  "ERPDiscountAmount": 23843.471999999998,
-  "DiscountPercent": 4613.248,
-  "DiscountAmount": 18656.702,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 996.612,
+  "SubscriptionStart": "1999-08-05T13:28:23.507397+02:00",
+  "ERPDiscountPercent": 7173.726,
+  "ERPDiscountAmount": 5587.922,
+  "DiscountPercent": 8731.324,
+  "DiscountAmount": 13238.016,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22135.442,
-  "EarningAmount": 19223.956,
-  "SubTotal": 15491.362,
-  "TotalPrice": 3798.408,
-  "Rights": "cum",
-  "Rule": "est",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "quidem",
-  "ExtraField3": "hic",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "aut",
+  "EarningPercent": 611.13,
+  "EarningAmount": 24163.14,
+  "SubTotal": 14171.948,
+  "TotalPrice": 2457.056,
+  "Rights": "quis",
+  "Rule": "aut",
+  "ExtraField1": "iste",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "explicabo",
+  "ExtraField4": "sint",
+  "ExtraField5": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

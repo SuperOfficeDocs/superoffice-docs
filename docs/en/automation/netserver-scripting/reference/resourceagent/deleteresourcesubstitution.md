@@ -2,10 +2,10 @@
 uid: resourceagent-deleteresourcesubstitution
 title: ResourceAgent.DeleteResourceSubstitution event method
 description: Scripting events called on the DeleteResourceSubstitution method on the ResourceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ResourceAgent.DeleteResourceSubstitution
 

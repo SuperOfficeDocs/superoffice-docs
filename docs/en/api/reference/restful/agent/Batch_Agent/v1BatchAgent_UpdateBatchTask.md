@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Koss, Denesik and Frami",
-  "AssociateId": 10,
-  "DetailsTable": 582,
-  "DetailsRecord": 196,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 929,
+  "Name": "Nicolas LLC",
+  "AssociateId": 56,
+  "DetailsTable": 971,
+  "DetailsRecord": 653,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "maiores",
-    "ParameterObject2": "necessitatibus"
+    "ParameterObject1": "enim",
+    "ParameterObject2": "at"
   },
-  "LastStarted": "2008-10-08T04:22:26.0122232+02:00",
-  "Created": "2012-01-21T04:22:26.0122232+01:00",
-  "StartCount": 625,
-  "DatabaseSerialNumber": "997139",
-  "Context": "cumque",
-  "Result": "ut",
+  "LastStarted": "2006-07-27T13:28:21.8512599+02:00",
+  "Created": "2006-08-03T13:28:21.8512599+02:00",
+  "StartCount": 198,
+  "DatabaseSerialNumber": "1824661",
+  "Context": "aut",
+  "Result": "quasi",
   "State": "All",
-  "Description": "Diverse dedicated extranet",
-  "Response": "ullam",
-  "Request": "dolor",
-  "ProgressDescription": "Vision-oriented scalable middleware",
-  "ProgressPercent": 193,
-  "FileName": "Lebsack Group",
+  "Description": "Multi-channelled fresh-thinking leverage",
+  "Response": "alias",
+  "Request": "sit",
+  "ProgressDescription": "Reduced full-range monitoring",
+  "ProgressPercent": 645,
+  "FileName": "Carter-Greenfelder",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

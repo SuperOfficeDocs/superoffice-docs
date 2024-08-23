@@ -2,10 +2,10 @@
 uid: viewstateagent-savecurrents
 title: ViewStateAgent.SaveCurrents event method
 description: Scripting events called on the SaveCurrents method on the ViewStateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ViewStateAgent.SaveCurrents
 

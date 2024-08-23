@@ -2,10 +2,10 @@
 uid: saintagent-getstatusmonitors
 title: SaintAgent.GetStatusMonitors event method
 description: Scripting events called on the GetStatusMonitors method on the SaintAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaintAgent.GetStatusMonitors
 

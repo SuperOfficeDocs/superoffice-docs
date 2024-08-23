@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=12
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=771
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 27,
-  "FormId": 778,
-  "WhenSubmitted": "2006-03-25T04:22:27.0653754+01:00",
-  "ContactId": 132,
-  "PersonId": 638,
-  "EmailAddress": "fatima_deckow@crona.co.uk",
-  "ResponseShipmentAddrId": 214,
-  "Response": "ut",
+  "FormSubmissionId": 494,
+  "FormId": 254,
+  "WhenSubmitted": "1997-10-05T13:28:23.0543771+02:00",
+  "ContactId": 585,
+  "PersonId": 957,
+  "EmailAddress": "ova@mcdermott.ca",
+  "ResponseShipmentAddrId": 161,
+  "Response": "voluptas",
   "Status": "EmailVerification",
-  "ProcessingLog": "ratione",
+  "ProcessingLog": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

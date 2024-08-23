@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 254
+  "ContactId": 469
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ziemann, Wilderman and Harber",
-    "SaleDate": "2016-05-23T04:22:27.5492747+02:00",
-    "SaleId": 812,
-    "Probability": 339,
-    "Title": "ab",
-    "Amount": 10464.426,
-    "Currency": "tempora",
-    "ProjectName": "Hodkiewicz Group",
-    "AssociateFullName": "Ms. Ena Zora Kessler PhD",
-    "Description": "Organic well-modulated benchmark",
+    "ContactName": "Fisher, Osinski and Lockman",
+    "SaleDate": "2008-04-25T13:28:23.6948543+02:00",
+    "SaleId": 30,
+    "Probability": 97,
+    "Title": "magnam",
+    "Amount": 6412.164,
+    "Currency": "beatae",
+    "ProjectName": "Blick Inc and Sons",
+    "AssociateFullName": "Carlos Reichert",
+    "Description": "Front-line 5th generation matrices",
     "Status": "Lost",
-    "WeightedAmount": 27272.068,
-    "ProjectId": 812,
-    "EarningPercent": 31289.856,
-    "Earning": 13159.666,
-    "ContactId": 922,
-    "AssociateId": 2,
-    "PersonId": 182,
-    "SaleTypeId": 738,
-    "SaleTypeName": "Koch-Koch",
-    "PersonFullName": "Mr. Ryann Dixie Hermiston V",
+    "WeightedAmount": 23153.992,
+    "ProjectId": 151,
+    "EarningPercent": 29760.464,
+    "Earning": 14253.431999999999,
+    "ContactId": 789,
+    "AssociateId": 424,
+    "PersonId": 621,
+    "SaleTypeId": 67,
+    "SaleTypeName": "Legros, Bradtke and Hyatt",
+    "PersonFullName": "Madalyn Jake Sanford DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 153,
-    "NextDueDate": "2015-05-24T04:22:27.5492747+02:00",
-    "Number": "1225631",
+    "ActiveErpLinks": 606,
+    "NextDueDate": "2003-04-25T13:28:23.6948543+02:00",
+    "Number": "938839",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 415
       }
     }
   }

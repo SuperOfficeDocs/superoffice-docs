@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 18 Aug 2012 04:22:34 G8T
+Last-Modified: Mon, 11 Oct 1999 13:28:31 G10T
 
 {
-  "DocumentId": 248,
+  "DocumentId": 874,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "illo",
-  "Header": "odio",
-  "Name": "Sawayn LLC",
-  "OurRef": "qui",
-  "YourRef": "delectus",
-  "CreatedDate": "2013-08-18T04:22:34.9058744+02:00",
-  "UpdatedDate": "2012-08-18T04:22:34.9058744+02:00",
-  "Description": "User-friendly composite functionalities",
+  "Attention": "laudantium",
+  "Header": "et",
+  "Name": "Harber Inc and Sons",
+  "OurRef": "perspiciatis",
+  "YourRef": "aut",
+  "CreatedDate": "2018-08-25T13:28:31.5855121+02:00",
+  "UpdatedDate": "1999-10-11T13:28:31.5855121+02:00",
+  "Description": "Synergized modular portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-07-16T04:22:34.9058744+02:00",
-  "ExternalRef": "vero",
+  "Date": "2008-07-26T13:28:31.5855121+02:00",
+  "ExternalRef": "sapiente",
   "Completed": "Completed",
-  "ActiveLinks": 998,
+  "ActiveLinks": 616,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koch-Gutmann",
+      "EntityName": "Metz LLC",
       "Id": 672,
-      "Description": "Reactive bottom-line migration",
-      "ExtraInfo": "rerum",
-      "LinkId": 207,
+      "Description": "Customizable intangible support",
+      "ExtraInfo": "illo",
+      "LinkId": 383,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldLength": 916
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 156,
-  "Snum": 322,
+  "SuggestedDocumentId": 310,
+  "Snum": 880,
   "UserDefinedFields": {
-    "SuperOffice:1": "130484394",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1965013151",
+    "SuperOffice:2": "1855361413"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "non"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2022-03-03T04:22:34.9058744+01:00",
-  "PublishTo": "2010-01-25T04:22:34.9058744+01:00",
-  "PublishFrom": "2001-03-28T04:22:34.9058744+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-12-16T13:28:31.5855121+01:00",
+  "PublishTo": "2008-09-21T13:28:31.5855121+02:00",
+  "PublishFrom": "2001-02-24T13:28:31.5855121+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 154,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 799
         }
       }
     },
     {
-      "VisibleId": 154,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 799
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Sat, 18 Aug 2012 04:22:34 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 154
     }
   },
   "_Links": {

@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 468,
-  "Name": "Strosin-Swift",
-  "PersonId": 919,
-  "Rank": 856,
-  "Tooltip": "et",
+  "AssociateId": 122,
+  "Name": "Moen, Casper and Reilly",
+  "PersonId": 970,
+  "Rank": 727,
+  "Tooltip": "voluptates",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 495,
-  "FullName": "Nash Lindsey Morar III",
-  "FormalName": "Kautzer-O'Connell",
-  "Deleted": true,
-  "EjUserId": 619,
-  "UserName": "Conn, Terry and Little",
+  "GroupIdx": 169,
+  "FullName": "Margarette Ford Harvey PhD",
+  "FormalName": "Considine-Hartmann",
+  "Deleted": false,
+  "EjUserId": 389,
+  "UserName": "Goodwin, Legros and Heaney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 822
     }
   }
 }

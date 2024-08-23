@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=305
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=913
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 927,
-  "Name": "Sipes-Feil",
-  "Tooltip": "aut",
-  "Rank": 123,
+  "ProjTypeId": 100,
+  "Name": "Marks-Littel",
+  "Tooltip": "qui",
+  "Rank": 114,
   "DurationUnit": "Century",
-  "ProjectDuration": 125,
+  "ProjectDuration": 150,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 147,
-      "Name": "Jaskolski-Larson",
-      "ToolTip": "Laborum quia ex rerum eveniet distinctio explicabo.",
+      "Id": 349,
+      "Name": "Gutkowski LLC",
+      "ToolTip": "Inventore eligendi.",
       "Deleted": false,
-      "Rank": 996,
-      "Type": "beatae",
-      "ColorBlock": 778,
-      "IconHint": "molestiae",
-      "Selected": false,
-      "LastChanged": "2010-08-19T04:22:26.9380271+02:00",
+      "Rank": 412,
+      "Type": "repellendus",
+      "ColorBlock": 244,
+      "IconHint": "placeat",
+      "Selected": true,
+      "LastChanged": "2005-12-19T13:28:22.913781+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "aut",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Colin Brakus",
+      "FullName": "Maverick Lakin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 110
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 146
     }
   }
 }

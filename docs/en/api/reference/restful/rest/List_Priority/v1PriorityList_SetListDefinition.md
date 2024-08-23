@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Ratke, Renner and Mayert",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 714,
-  "IsCustomList": false,
+  "Id": 804,
+  "Name": "Vandervort-Toy",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 222,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 619,
-  "Name": "Herzog LLC",
-  "Tooltip": "itaque",
+  "Id": 925,
+  "Name": "Gerhold LLC",
+  "Tooltip": "molestias",
   "Deleted": true,
-  "Rank": 768,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 450,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minima",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 521
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: chatagent-deletechattopicuseragent
 title: ChatAgent.DeleteChatTopicUserAgent event method
 description: Scripting events called on the DeleteChatTopicUserAgent method on the ChatAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ChatAgent.DeleteChatTopicUserAgent
 

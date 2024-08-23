@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "animi",
-  "EntityId": 879
+  "EntityType": "quis",
+  "EntityId": 491
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
+  "1": "quis",
   "2": "est"
 }
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Koepp, Thompson and Gulgowski",
-    "ToolTip": "Culpa minus dicta velit consequatur est.",
+    "Id": 514,
+    "Name": "Wehner, Hessel and Harris",
+    "ToolTip": "Minus quidem voluptates voluptatum soluta id explicabo.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "adipisci",
-    "ColorBlock": 401,
-    "IconHint": "itaque",
+    "Rank": 473,
+    "Type": "quae",
+    "ColorBlock": 278,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "1998-02-03T04:22:36.0965902+01:00",
+    "LastChanged": "1997-11-15T13:28:33.0071964+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Rath LLC",
-        "ToolTip": "Aut sint.",
-        "Deleted": false,
-        "Rank": 4,
-        "Type": "esse",
-        "ColorBlock": 147,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "1997-07-11T04:22:36.0965902+02:00",
+        "Id": 218,
+        "Name": "Rodriguez-Bechtelar",
+        "ToolTip": "Eos quia aut esse et ut aut.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "quia",
+        "ColorBlock": 266,
+        "IconHint": "placeat",
+        "Selected": false,
+        "LastChanged": "2018-08-08T13:28:33.0071964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
+        "ExtraInfo": "et",
         "StyleHint": "beatae",
         "Hidden": true,
-        "FullName": "Katelin Hermiston",
+        "FullName": "Elenora Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 258
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eum",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Cheyenne Greenholt",
+    "FullName": "Ms. Donnell Zachary Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: useragent-setexternaluserinfo
 title: UserAgent.SetExternalUserInfo event method
 description: Scripting events called on the SetExternalUserInfo method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.SetExternalUserInfo
 

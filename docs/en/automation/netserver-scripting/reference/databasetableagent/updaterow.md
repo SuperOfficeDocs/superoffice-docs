@@ -2,10 +2,10 @@
 uid: databasetableagent-updaterow
 title: DatabaseTableAgent.UpdateRow event method
 description: Scripting events called on the UpdateRow method on the DatabaseTableAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DatabaseTableAgent.UpdateRow
 

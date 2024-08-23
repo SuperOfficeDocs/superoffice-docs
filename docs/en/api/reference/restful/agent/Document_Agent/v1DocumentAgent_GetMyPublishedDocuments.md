@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 630,
-    "Attention": "distinctio",
-    "Header": "reiciendis",
-    "Name": "Cremin-Glover",
-    "OurRef": "sequi",
-    "YourRef": "mollitia",
-    "Description": "Reactive exuding core",
-    "DocumentTemplate": "unde",
+    "DocumentId": 526,
+    "Attention": "magni",
+    "Header": "tempore",
+    "Name": "Connelly-Gulgowski",
+    "OurRef": "delectus",
+    "YourRef": "eos",
+    "Description": "Operative global implementation",
+    "DocumentTemplate": "necessitatibus",
     "IsPublished": false,
-    "PersonId": 290,
-    "PersonFullName": "Abel Bogisich",
-    "AssociateFullName": "Boyd Turcotte",
-    "ContactId": 490,
-    "ContactName": "O'Hara, Schmidt and Lesch",
-    "ProjectId": 350,
-    "ProjectName": "Rosenbaum Inc and Sons",
-    "AssociateId": 4,
-    "Snum": 122,
-    "SaleId": 986,
-    "SaleName": "Hoppe Group",
+    "PersonId": 184,
+    "PersonFullName": "Amiya Volkman",
+    "AssociateFullName": "Wendell Gislason",
+    "ContactId": 849,
+    "ContactName": "Klein, Wiegand and Prosacco",
+    "ProjectId": 535,
+    "ProjectName": "Bartoletti Inc and Sons",
+    "AssociateId": 210,
+    "Snum": 255,
+    "SaleId": 83,
+    "SaleName": "Dach Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 226
       }
     }
   }

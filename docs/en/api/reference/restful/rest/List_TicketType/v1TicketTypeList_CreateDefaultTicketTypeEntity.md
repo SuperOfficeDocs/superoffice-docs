@@ -62,6 +62,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -71,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,38 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 372,
-  "Name": "Macejkovic LLC",
-  "Rank": 541,
-  "Tooltip": "eum",
-  "Icon": "commodi",
-  "DefaultTicketStatus": 817,
+  "TicketTypeId": 70,
+  "Name": "Quitzon-Hickle",
+  "Rank": 974,
+  "Tooltip": "praesentium",
+  "Icon": "quis",
+  "DefaultTicketStatus": 942,
   "TicketStatuses": [
-    40,
-    373
+    834,
+    920
   ],
-  "DefaultTicketPriority": 994,
+  "DefaultTicketPriority": 501,
   "TicketPriorities": [
-    454,
-    817
+    759,
+    957
   ],
-  "ReplyTemplate": 970,
+  "ReplyTemplate": 418,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    150,
-    836
+    26,
+    382
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 660
     }
   }
 }

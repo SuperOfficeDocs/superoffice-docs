@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=fuga
-GET /api/v1/Project/{id}/Guide?$top=176
-GET /api/v1/Project/{id}/Guide?$skip=1002
+GET /api/v1/Project/{id}/Guide?$entities=magni
+GET /api/v1/Project/{id}/Guide?$top=823
+GET /api/v1/Project/{id}/Guide?$skip=386
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=sed
+GET /api/v1/Project/{id}/Guide?$context=non
 GET /api/v1/Project/{id}/Guide?$format=JSON
-GET /api/v1/Project/{id}/Guide?$jsonSafe=True
+GET /api/v1/Project/{id}/Guide?$jsonSafe=False
 GET /api/v1/Project/{id}/Guide?$output=Display
 ```
 
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "doloremque",
+  "odata.nextLink": "neque",
   "value": [
     {
-      "PrimaryKey": 6265,
+      "PrimaryKey": 1358,
       "EntityName": "sale",
-      "saleId": 6265,
-      "contactId": 4305,
-      "name": "Yost, Collier and Abshire"
+      "saleId": 1358,
+      "contactId": 9694,
+      "name": "Cormier, Ullrich and Baumbach"
     },
     {
-      "PrimaryKey": 7499,
+      "PrimaryKey": 2875,
       "EntityName": "sale",
-      "saleId": 7499,
-      "contactId": 6110,
-      "name": "Lind-Conroy"
+      "saleId": 2875,
+      "contactId": 2830,
+      "name": "Muller, Klocko and Ward"
     }
   ]
 }

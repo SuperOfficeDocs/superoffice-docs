@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 543,
-  "Count": 503
+  "WeightedAmountLimit": 792,
+  "Count": 393
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schimmel LLC",
-    "SaleDate": "2021-01-25T04:22:27.5492747+01:00",
-    "SaleId": 701,
-    "Probability": 547,
-    "Title": "quas",
-    "Amount": 30528.293999999998,
-    "Currency": "nemo",
-    "ProjectName": "Hand Group",
-    "AssociateFullName": "Lindsay Brakus",
-    "Description": "Multi-channelled transitional monitoring",
+    "ContactName": "Oberbrunner Group",
+    "SaleDate": "2011-05-20T13:28:23.6948543+02:00",
+    "SaleId": 100,
+    "Probability": 381,
+    "Title": "ratione",
+    "Amount": 28093.176,
+    "Currency": "reiciendis",
+    "ProjectName": "Zboncak Group",
+    "AssociateFullName": "Wilma Lang",
+    "Description": "Mandatory background model",
     "Status": "Lost",
-    "WeightedAmount": 27040.152,
-    "ProjectId": 97,
-    "EarningPercent": 6459.174,
-    "Earning": 16553.788,
-    "ContactId": 366,
-    "AssociateId": 731,
-    "PersonId": 532,
-    "SaleTypeId": 999,
-    "SaleTypeName": "Conroy Inc and Sons",
-    "PersonFullName": "Benjamin Crooks",
+    "WeightedAmount": 4224.632,
+    "ProjectId": 303,
+    "EarningPercent": 16516.18,
+    "Earning": 28616.554,
+    "ContactId": 67,
+    "AssociateId": 882,
+    "PersonId": 709,
+    "SaleTypeId": 163,
+    "SaleTypeName": "Senger-Little",
+    "PersonFullName": "Joel Leuschke",
     "Completed": "Completed",
-    "ActiveErpLinks": 174,
-    "NextDueDate": "2004-08-07T04:22:27.5492747+02:00",
-    "Number": "1300592",
+    "ActiveErpLinks": 876,
+    "NextDueDate": "2007-05-09T13:28:23.6948543+02:00",
+    "Number": "418918",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 681
       }
     }
   }

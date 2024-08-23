@@ -3,9 +3,9 @@ uid: stopword
 title: stopword
 keywords: mdoprovider mdo provider stopword
 description: List of stop words. i.e. words which will not be included in the free-text index.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "stopword" MDO List

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Torp-Watsica",
-  "Tooltip": "perferendis",
+  "Id": 440,
+  "Name": "Padberg LLC",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 650,
-  "Rank": 253
+  "UdListDefinitionId": 918,
+  "Rank": 224
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Treutel, Mohr and Rice",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "UdListDefinitionId": 629,
-  "Rank": 68,
+  "Id": 689,
+  "Name": "Quitzon Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 959,
+  "Rank": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 387
     }
   }
 }

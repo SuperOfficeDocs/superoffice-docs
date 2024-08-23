@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 214
+  "PersonId": 614
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 512,
-  "InstanceLayout": "est",
-  "InstanceName": "Fisher-Erdman",
-  "CreatedDate": "1999-01-17T04:22:25.9965968+01:00",
-  "UpdatedDate": "2007-09-23T04:22:25.9965968+02:00",
+  "AudienceLayoutId": 770,
+  "InstanceLayout": "et",
+  "InstanceName": "Ebert, Swaniawski and O'Reilly",
+  "CreatedDate": "2001-07-24T13:28:21.8512599+02:00",
+  "UpdatedDate": "2014-08-24T13:28:21.8512599+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 834
     }
   }
 }

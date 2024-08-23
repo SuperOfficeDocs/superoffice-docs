@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=dignissimos
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Schulist Inc and Sons",
-    "ToolTip": "Cumque labore fuga expedita.",
+    "Id": 265,
+    "Name": "Hilll, Renner and Weimann",
+    "ToolTip": "Voluptatum quasi maiores.",
     "Deleted": false,
-    "Rank": 432,
-    "Type": "ea",
+    "Rank": 582,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Terry-Walsh",
-        "ToolTip": "Repellat dicta nobis ut nesciunt.",
+        "Id": 893,
+        "Name": "Mayert-Miller",
+        "ToolTip": "Laboriosam distinctio et et quod.",
         "Deleted": false,
-        "Rank": 813,
-        "Type": "et",
+        "Rank": 504,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 150,
-        "ExtraInfo": "qui",
-        "StyleHint": "quibusdam",
-        "FullName": "Prof. Alyson Kiehn III",
+        "IconHint": "harum",
+        "ColorBlock": 970,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "non",
+        "FullName": "Mrs. Efrain Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 496
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 197,
-    "ExtraInfo": "nulla",
-    "StyleHint": "mollitia",
-    "FullName": "Humberto Kilback III",
+    "IconHint": "consequuntur",
+    "ColorBlock": 23,
+    "ExtraInfo": "vero",
+    "StyleHint": "officiis",
+    "FullName": "Rebeca Vickie Kutch PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

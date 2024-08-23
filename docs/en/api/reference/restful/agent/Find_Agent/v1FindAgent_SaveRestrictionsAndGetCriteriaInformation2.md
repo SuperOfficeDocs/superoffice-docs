@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ratione",
-  "ProviderName": "Dicki Group",
-  "StorageKey": "qui",
-  "Restrictions": "aut",
-  "StaticColumns": "cupiditate"
+  "StorageType": "qui",
+  "ProviderName": "Marks Group",
+  "StorageKey": "delectus",
+  "Restrictions": "rerum",
+  "StaticColumns": "mollitia"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ward, Greenfelder and Schulist",
-      "Operator": "et",
+      "Name": "Koss-Hilll",
+      "Operator": "rem",
       "Values": [
-        "ipsa",
-        "et"
+        "dignissimos",
+        "dolorem"
       ],
       "DisplayValues": [
-        "cum",
-        "illum"
+        "sunt",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 290,
+      "InterParenthesis": 368,
       "InterOperator": "And",
-      "UniqueHash": 99
+      "UniqueHash": 848
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schinner, Emmerich and Gleichner",
-      "DisplayTooltip": "ea",
-      "DisplayType": "eum",
+      "DisplayName": "Zemlak, Bosco and Sanford",
+      "DisplayTooltip": "est",
+      "DisplayType": "odit",
       "CanOrderBy": false,
-      "Name": "Wilkinson Inc and Sons",
+      "Name": "Vandervort-Ortiz",
       "CanRestrictBy": false,
-      "RestrictionType": "nam",
-      "RestrictionListName": "Nader, Moore and O'Reilly",
+      "RestrictionType": "et",
+      "RestrictionListName": "Herzog, Pfeffer and Hills",
       "IsVisible": false,
-      "ExtraInfo": "sint",
-      "Width": "ex",
-      "IconHint": "harum",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "ab",
+      "Width": "qui",
+      "IconHint": "qui",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Reichel, Rodriguez and Schulist",
-      "PrimaryKey": 634,
+      "EntityName": "Steuber-Block",
+      "PrimaryKey": 13,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "a",
-          "TooltipHint": "sunt",
-          "LinkHint": "ut"
+          "DisplayValue": "corporis",
+          "TooltipHint": "consequatur",
+          "LinkHint": "ullam"
         }
       },
-      "LinkHint": "eveniet",
-      "StyleHint": "maxime",
+      "LinkHint": "consequatur",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 100
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Price-Witting",
-      "Description": "Progressive transitional algorithm",
-      "Rank": 926,
+      "Name": "Veum Group",
+      "Description": "Focused transitional monitoring",
+      "Rank": 122,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Price-Witting",
-      "Description": "Progressive transitional algorithm",
-      "Rank": 926,
+      "Name": "Veum Group",
+      "Description": "Focused transitional monitoring",
+      "Rank": 122,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 208
     }
   }
 }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 62,
-  "Type": 673
+  "GroupId": 483,
+  "Type": 897
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 845,
-    "Name": "Schroeder-Wiegand",
-    "PersonId": 473,
-    "Rank": 924,
-    "Tooltip": "quos",
+    "AssociateId": 225,
+    "Name": "Sanford-Hessel",
+    "PersonId": 843,
+    "Rank": 968,
+    "Tooltip": "unde",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 733,
-    "FullName": "Miss Cicero Jeffry Keebler",
-    "FormalName": "Bergnaum, Harris and Kerluke",
-    "Deleted": true,
-    "EjUserId": 282,
-    "UserName": "Stoltenberg-Kilback",
+    "GroupIdx": 424,
+    "FullName": "Dr. Edyth Ladarius Champlin Sr.",
+    "FormalName": "Harvey-Dickinson",
+    "Deleted": false,
+    "EjUserId": 511,
+    "UserName": "Dicki LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 718
       }
     }
   }

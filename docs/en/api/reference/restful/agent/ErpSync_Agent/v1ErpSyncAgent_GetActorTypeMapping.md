@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 631,
+  "ErpConnectionId": 943,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 624,
+  "ErpConnectionId": 999,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 806,
-      "CrmFieldKey": "eos",
-      "CrmDisplayName": "Wolff-Bashirian",
-      "CrmDisplayTooltip": "molestiae",
-      "ErpFieldKey": "deleniti",
+      "ErpFieldId": 291,
+      "CrmFieldKey": "magni",
+      "CrmDisplayName": "Johnson-Goodwin",
+      "CrmDisplayTooltip": "labore",
+      "ErpFieldKey": "doloribus",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Feil Group",
-      "ErpDisplayTooltip": "accusantium",
+      "ErpDisplayName": "Schinner Inc and Sons",
+      "ErpDisplayTooltip": "eveniet",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": false,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "itaque",
+      "ListReference": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 859
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 457
     }
   }
 }

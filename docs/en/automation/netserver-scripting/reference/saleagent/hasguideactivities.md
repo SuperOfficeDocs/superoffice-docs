@@ -2,10 +2,10 @@
 uid: saleagent-hasguideactivities
 title: SaleAgent.HasGuideActivities event method
 description: Scripting events called on the HasGuideActivities method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.HasGuideActivities
 

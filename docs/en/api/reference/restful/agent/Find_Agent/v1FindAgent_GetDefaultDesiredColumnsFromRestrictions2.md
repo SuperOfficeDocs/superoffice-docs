@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kuvalis Group",
-  "Restrictions": "qui"
+  "ProviderName": "Kirlin, Bogisich and Orn",
+  "Restrictions": "pariatur"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Connelly LLC",
-    "DisplayTooltip": "repudiandae",
-    "DisplayType": "esse",
+    "DisplayName": "McDermott-Kub",
+    "DisplayTooltip": "odio",
+    "DisplayType": "officiis",
     "CanOrderBy": false,
-    "Name": "Cartwright Group",
+    "Name": "Abernathy Group",
     "CanRestrictBy": true,
-    "RestrictionType": "doloremque",
-    "RestrictionListName": "Tromp-Kuphal",
+    "RestrictionType": "dolore",
+    "RestrictionListName": "Flatley-Cassin",
     "IsVisible": false,
-    "ExtraInfo": "consequatur",
-    "Width": "dolorem",
-    "IconHint": "minima",
-    "HeadingIconHint": "voluptatem"
+    "ExtraInfo": "et",
+    "Width": "qui",
+    "IconHint": "ut",
+    "HeadingIconHint": "id"
   }
 ]
 ```

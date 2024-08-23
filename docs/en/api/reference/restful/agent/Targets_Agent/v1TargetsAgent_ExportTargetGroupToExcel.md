@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 981
+  "TargetGroupId": 142
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 506,
-  "FileName": "Greenholt, Kirlin and Kozey",
-  "Message": "et",
+  "BatchTaskId": 782,
+  "FileName": "Murray, Barrows and Ratke",
+  "Message": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 640
     }
   }
 }

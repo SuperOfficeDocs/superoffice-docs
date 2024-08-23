@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Tromp LLC",
-    "ToolTip": "Sed natus ut eum saepe cum sunt error.",
+    "Id": 274,
+    "Name": "Powlowski Inc and Sons",
+    "ToolTip": "Sit placeat.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "voluptates",
-    "ColorBlock": 411,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2016-04-19T04:22:36.1434668+02:00",
+    "Rank": 69,
+    "Type": "rem",
+    "ColorBlock": 872,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2005-10-19T13:28:33.0696831+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Koss, Wisozk and Ward",
-        "ToolTip": "Dignissimos qui libero.",
-        "Deleted": true,
-        "Rank": 714,
-        "Type": "officia",
-        "ColorBlock": 531,
-        "IconHint": "ipsum",
-        "Selected": true,
-        "LastChanged": "1998-06-04T04:22:36.1434668+02:00",
+        "Id": 32,
+        "Name": "Gibson LLC",
+        "ToolTip": "Distinctio asperiores aut blanditiis ex et id.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "laborum",
+        "ColorBlock": 198,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2020-04-17T13:28:33.0696831+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "sunt",
+        "ExtraInfo": "sit",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Frieda Parker",
+        "FullName": "Mrs. Ayden Marianna Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 438
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "minus",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Gavin Tremblay",
+    "FullName": "Wiley Rodriguez V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 501
       }
     }
   }

@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 616
+  "PersonId": 275
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 940,
-  "Name": "Kessler, Bechtelar and Osinski",
-  "Rank": 293,
-  "Tooltip": "libero",
+  "AssociateId": 413,
+  "Name": "Hammes-Streich",
+  "Rank": 809,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Powlowski, Rice and Auer",
-      "Description": "Multi-channelled value-added Graphic Interface",
+      "Name": "Rau-Sanford",
+      "Description": "Triple-buffered composite secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 112
         }
       }
     },
     {
-      "Name": "Powlowski, Rice and Auer",
-      "Description": "Multi-channelled value-added Graphic Interface",
+      "Name": "Rau-Sanford",
+      "Description": "Triple-buffered composite secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldType": "System.String",
+          "FieldLength": 112
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "delectus",
-      "Tooltip": "officia",
-      "Id": 717,
-      "Rank": 138,
+      "Value": "pariatur",
+      "Tooltip": "iusto",
+      "Id": 893,
+      "Rank": 215,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldType": "System.Int32",
+          "FieldLength": 19
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2019-07-19T04:22:28.1162538+02:00",
-  "Lastlogout": "2007-02-17T04:22:28.1162538+01:00",
-  "EjUserId": 515,
-  "RequestSignature": "et",
+  "Lastlogin": "2008-07-05T13:28:24.1947123+02:00",
+  "Lastlogout": "2019-05-23T13:28:24.1947123+02:00",
+  "EjUserId": 839,
+  "RequestSignature": "nostrum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "odit",
-      "DisplayValue": "ad",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "odit",
-      "DisplayValue": "ad",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
-        }
-      }
-    }
-  ],
-  "UserName": "Beahan-Halvorson",
-  "TicketCategories": [
-    {
-      "Id": 595,
-      "Name": "Durgan-Pagac",
-      "ToolTip": "Soluta quaerat unde porro dolorem vel aut.",
-      "Deleted": false,
-      "Rank": 724,
-      "Type": "aliquam",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "id",
-      "ColorBlock": 800,
-      "ExtraInfo": "dolor",
-      "StyleHint": "dolores",
-      "FullName": "Krystel Hansen",
+      "Value": "reiciendis",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 667
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "reiciendis",
+      "DisplayValue": "totam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     }
   ],
-  "NickName": "Mann-Goyette",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "consequatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "perspiciatis"
-  },
-  "PostSaveCommands": [
+  "UserName": "Bartoletti LLC",
+  "TicketCategories": [
     {
-      "Name": "Mertz, Fisher and Lowe",
-      "DisplayName": "DuBuque, Howell and West",
-      "Description": "Focused 24 hour service-desk",
-      "ToolTip": "Qui repellendus quis commodi.",
-      "Actions": "Implicit",
-      "ActionData": "fugit",
+      "Id": 45,
+      "Name": "Batz, Reilly and Armstrong",
+      "ToolTip": "Assumenda consequuntur hic eligendi voluptatibus magni.",
+      "Deleted": false,
+      "Rank": 900,
+      "Type": "ut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "laboriosam",
+      "ColorBlock": 459,
+      "ExtraInfo": "magnam",
+      "StyleHint": "occaecati",
+      "FullName": "Princess Bayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldLength": 131
+        }
+      }
+    }
+  ],
+  "NickName": "Buckridge Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "amet"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptas",
+    "CustomFields2": "sit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Bailey, Bartoletti and Pfannerstill",
+      "DisplayName": "Schulist Group",
+      "Description": "Intuitive leading edge solution",
+      "ToolTip": "Aliquam tempore autem facilis vel.",
+      "Actions": "Implicit",
+      "ActionData": "dolor",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 155
     }
   }
 }

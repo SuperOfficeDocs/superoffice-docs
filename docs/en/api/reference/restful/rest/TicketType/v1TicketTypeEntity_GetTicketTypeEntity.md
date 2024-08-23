@@ -79,6 +79,8 @@ TicketTypeEntity found.
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -89,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 245,
-  "Name": "Kerluke Inc and Sons",
-  "Rank": 107,
-  "Tooltip": "pariatur",
-  "Icon": "optio",
-  "DefaultTicketStatus": 6,
+  "TicketTypeId": 525,
+  "Name": "Raynor, Greenfelder and Breitenberg",
+  "Rank": 583,
+  "Tooltip": "quisquam",
+  "Icon": "ut",
+  "DefaultTicketStatus": 27,
   "TicketStatuses": [
-    140,
-    925
+    407,
+    425
   ],
-  "DefaultTicketPriority": 230,
+  "DefaultTicketPriority": 612,
   "TicketPriorities": [
-    570,
-    704
+    514,
+    81
   ],
-  "ReplyTemplate": 25,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "ReplyTemplate": 747,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    951,
-    418
+    239,
+    462
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 683
     }
   },
   "_Links": {

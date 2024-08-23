@@ -2,10 +2,10 @@
 uid: archiveagent-exportarchive
 title: ArchiveAgent.ExportArchive event method
 description: Scripting events called on the ExportArchive method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.ExportArchive
 

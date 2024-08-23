@@ -2,10 +2,10 @@
 uid: ticketagent-sendticketmessage
 title: TicketAgent.SendTicketMessage event method
 description: Scripting events called on the SendTicketMessage method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.SendTicketMessage
 

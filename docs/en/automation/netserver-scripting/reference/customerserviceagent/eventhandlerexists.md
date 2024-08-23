@@ -2,10 +2,10 @@
 uid: customerserviceagent-eventhandlerexists
 title: CustomerServiceAgent.EventHandlerExists event method
 description: Scripting events called on the EventHandlerExists method on the CustomerServiceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CustomerServiceAgent.EventHandlerExists
 

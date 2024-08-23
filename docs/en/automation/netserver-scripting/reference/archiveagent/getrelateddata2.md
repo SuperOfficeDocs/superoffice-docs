@@ -2,10 +2,10 @@
 uid: archiveagent-getrelateddata2
 title: ArchiveAgent.GetRelatedData2 event method
 description: Scripting events called on the GetRelatedData2 method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.GetRelatedData2
 

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dibbert Group",
-  "DeviceName": "Lebsack-McLaughlin",
-  "DeviceIdentifier": "ut",
-  "TableName": "Powlowski-Bashirian",
-  "RecordId": 766
+  "ApplicationName": "Towne Inc and Sons",
+  "DeviceName": "Nader Group",
+  "DeviceIdentifier": "alias",
+  "TableName": "Harvey LLC",
+  "RecordId": 384
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "repellendus",
-    "Value": "pariatur",
-    "RecordId": 702,
-    "CreatedDate": "2022-07-19T04:22:26.8755249+02:00",
-    "UpdatedDate": "1999-05-13T04:22:26.8755249+02:00",
-    "UpdatedBy": "sunt",
-    "CreatedBy": "totam",
-    "TableName": "Prosacco Inc and Sons",
+    "Key": "rem",
+    "Value": "laboriosam",
+    "RecordId": 665,
+    "CreatedDate": "2009-03-26T13:28:22.866653+01:00",
+    "UpdatedDate": "2012-10-01T13:28:22.866653+02:00",
+    "UpdatedBy": "quia",
+    "CreatedBy": "et",
+    "TableName": "Haley LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldLength": 829
       }
     }
   }

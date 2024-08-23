@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gutmann, Hermann and Kozey"
+  "Name": "Powlowski Inc and Sons"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "McKenzie-Heidenreich",
-    "ToolTip": "Nihil et at eum.",
+    "Id": 33,
+    "Name": "Quitzon Group",
+    "ToolTip": "Nihil aut rem sed et.",
     "Deleted": false,
-    "Rank": 673,
-    "Type": "facere",
-    "ColorBlock": 36,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2010-02-27T04:22:27.0810055+01:00",
+    "Rank": 991,
+    "Type": "dolor",
+    "ColorBlock": 10,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2015-07-15T13:28:23.0543771+02:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Rath, Schowalter and Fay",
-        "ToolTip": "Exercitationem deleniti ut deleniti.",
-        "Deleted": false,
-        "Rank": 969,
-        "Type": "enim",
-        "ColorBlock": 874,
-        "IconHint": "ea",
+        "Id": 85,
+        "Name": "Bechtelar Group",
+        "ToolTip": "Soluta temporibus aliquam amet.",
+        "Deleted": true,
+        "Rank": 166,
+        "Type": "repudiandae",
+        "ColorBlock": 425,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-07-13T04:22:27.0810055+02:00",
+        "LastChanged": "2006-03-03T13:28:23.0543771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Mr. Chad Bogan",
+        "ExtraInfo": "nihil",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Kian Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 50
+            "FieldLength": 632
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
+    "ExtraInfo": "dolores",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Kira Wiza",
+    "FullName": "Tevin McCullough II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldLength": 174
       }
     }
   }

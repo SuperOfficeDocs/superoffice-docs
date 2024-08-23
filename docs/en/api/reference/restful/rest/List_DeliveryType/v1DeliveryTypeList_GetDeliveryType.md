@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Fisher, Koch and Beahan",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "UdListDefinitionId": 864,
-  "Rank": 123,
+  "Id": 232,
+  "Name": "Legros-DuBuque",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 458,
+  "Rank": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

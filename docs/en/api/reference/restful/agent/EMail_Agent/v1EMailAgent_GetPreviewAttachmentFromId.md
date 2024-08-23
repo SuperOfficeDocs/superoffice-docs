@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 305,
-  "AttachmentId": "saepe",
-  "AttachmentType": "ut",
-  "AttachmentFilename": "aliquam"
+  "MailItemId": 361,
+  "AttachmentId": "placeat",
+  "AttachmentType": "est",
+  "AttachmentFilename": "suscipit"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile systemic encoding",
-  "Filename": "pariatur",
-  "Size": 939,
-  "Type": "nisi",
-  "Encoding": "rerum",
-  "Id": "ut",
-  "Disposition": "itaque",
-  "IsSafeFileExtension": true,
+  "Description": "De-engineered demand-driven knowledge user",
+  "Filename": "quia",
+  "Size": 621,
+  "Type": "doloribus",
+  "Encoding": "asperiores",
+  "Id": "eos",
+  "Disposition": "non",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 202
     }
   }
 }

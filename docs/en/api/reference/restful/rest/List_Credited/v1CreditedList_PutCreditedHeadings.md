@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 651,
-    "Name": "Nitzsche Inc and Sons",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 870,
+    "Name": "Quigley, Marks and Homenick",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 779,
-    "UdListDefinitionId": 989
+    "Rank": 543,
+    "UdListDefinitionId": 602
   },
   {
-    "HeadingId": 651,
-    "Name": "Nitzsche Inc and Sons",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 870,
+    "Name": "Quigley, Marks and Homenick",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 779,
-    "UdListDefinitionId": 989
+    "Rank": 543,
+    "UdListDefinitionId": 602
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 983,
-    "Name": "Cruickshank, Baumbach and Pfeffer",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 238,
+    "HeadingId": 474,
+    "Name": "Lemke Group",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "Rank": 168,
+    "UdListDefinitionId": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

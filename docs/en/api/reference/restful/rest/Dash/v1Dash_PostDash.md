@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 97,
-  "UniqueId": "distinctio",
-  "Name": "Konopelski-Schmitt",
-  "Description": "Upgradable tangible capacity",
-  "AssociateId": 46,
-  "Columns": 361,
+  "DashboardId": 356,
+  "UniqueId": "nemo",
+  "Name": "Cummerata LLC",
+  "Description": "Cross-group incremental approach",
+  "AssociateId": 541,
+  "Columns": 621,
   "Theme": null,
-  "VisibleForAll": 161,
+  "VisibleForAll": 496,
   "VisibleForAssociates": [
-    79,
-    957
+    424,
+    898
   ],
   "VisibleForGroups": [
-    739,
-    391
+    453,
+    328
   ],
-  "PinForAll": 82,
+  "PinForAll": 844,
   "PinForAssociates": [
-    897,
-    999
+    761,
+    939
   ],
   "PinForGroups": [
-    628,
-    806
+    225,
+    201
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 24,
-  "UniqueId": "ea",
-  "Name": "Kuphal, Mueller and Hickle",
-  "Description": "Realigned non-volatile approach",
-  "AssociateId": 477,
-  "Columns": 570,
+  "DashboardId": 769,
+  "UniqueId": "quia",
+  "Name": "Brakus, Wiza and Lebsack",
+  "Description": "Upgradable needs-based architecture",
+  "AssociateId": 78,
+  "Columns": 340,
   "Theme": null,
-  "VisibleForAll": 26,
+  "VisibleForAll": 998,
   "VisibleForAssociates": [
-    377,
-    460
+    851,
+    526
   ],
   "VisibleForGroups": [
-    307,
-    604
+    169,
+    164
   ],
-  "PinForAll": 493,
+  "PinForAll": 822,
   "PinForAssociates": [
-    493,
-    685
+    664,
+    657
   ],
   "PinForGroups": [
-    102,
-    561
+    322,
+    760
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 209
     }
   },
   "_Links": {

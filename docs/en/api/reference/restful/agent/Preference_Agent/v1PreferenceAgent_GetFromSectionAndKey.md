@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "omnis",
-  "Key": "ut"
+  "Section": "ipsam",
+  "Key": "at"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 465,
-  "Section": "aspernatur",
-  "Key": "reprehenderit",
-  "Name": "Champlin-Hilpert",
+  "PrefDescId": 113,
+  "Section": "quasi",
+  "Key": "fuga",
+  "Name": "Baumbach-Grant",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide needs-based attitude",
+  "Description": "Reverse-engineered context-sensitive leverage",
   "IsBuiltin": false,
-  "TableName": "Schinner Group",
-  "UserDefinedListId": 38,
-  "Rank": 613,
-  "SubGroup": "consectetur",
-  "MinLevel": 850,
-  "MaxValue": 749,
-  "MinValue": 51,
-  "RequiredLicense": "eveniet",
+  "TableName": "Jakubowski Inc and Sons",
+  "UserDefinedListId": 570,
+  "Rank": 324,
+  "SubGroup": "deleniti",
+  "MinLevel": 343,
+  "MaxValue": 966,
+  "MinValue": 17,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

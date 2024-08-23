@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 539,
-    "DisplayName": "Cremin-Barton",
-    "OngoingChats": 876,
-    "Present": true,
+    "UserId": 246,
+    "DisplayName": "Pacocha, Osinski and Beier",
+    "OngoingChats": 820,
+    "Present": false,
     "ChatTopics": [
-      243,
-      624
+      565,
+      416
     ]
   },
   {
-    "UserId": 539,
-    "DisplayName": "Cremin-Barton",
-    "OngoingChats": 876,
-    "Present": true,
+    "UserId": 246,
+    "DisplayName": "Pacocha, Osinski and Beier",
+    "OngoingChats": 820,
+    "Present": false,
     "ChatTopics": [
-      243,
-      624
+      565,
+      416
     ]
   }
 ]

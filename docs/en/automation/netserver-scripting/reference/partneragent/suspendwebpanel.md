@@ -2,10 +2,10 @@
 uid: partneragent-suspendwebpanel
 title: PartnerAgent.SuspendWebPanel event method
 description: Scripting events called on the SuspendWebPanel method on the PartnerAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PartnerAgent.SuspendWebPanel
 

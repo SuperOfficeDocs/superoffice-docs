@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 265,
-  "Value": "ipsam",
-  "Tooltip": "accusamus",
-  "Probability": 443,
-  "Deleted": true,
-  "Rank": 432,
+  "SaleStageId": 865,
+  "Value": "libero",
+  "Tooltip": "aut",
+  "Probability": 281,
+  "Deleted": false,
+  "Rank": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

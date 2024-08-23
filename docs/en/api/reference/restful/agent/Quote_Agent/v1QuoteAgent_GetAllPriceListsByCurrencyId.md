@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 116,
-  "CurrencyId": 369
+  "QuoteConnectionId": 997,
+  "CurrencyId": 157
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 973,
-    "ERPPriceListKey": "consequatur",
-    "QuoteConnectionId": 935,
-    "Name": "Streich, Rodriguez and Hamill",
-    "Description": "Proactive needs-based protocol",
-    "Currency": "veritatis",
-    "CurrencyName": "Klocko Inc and Sons",
-    "ValidFrom": "2023-05-05T04:22:27.4247427+02:00",
-    "ValidTo": "2016-09-16T04:22:27.4247427+02:00",
-    "IsActive": true,
+    "PriceListId": 784,
+    "ERPPriceListKey": "sint",
+    "QuoteConnectionId": 168,
+    "Name": "Trantow, Legros and Leannon",
+    "Description": "Triple-buffered optimal initiative",
+    "Currency": "sunt",
+    "CurrencyName": "Rosenbaum Group",
+    "ValidFrom": "2024-05-21T13:28:23.5698866+02:00",
+    "ValidTo": "2017-06-03T13:28:23.5698866+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldLength": 239
       }
     }
   }

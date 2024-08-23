@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=850
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=768
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -64,8 +64,15 @@ OK
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -89,23 +96,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 545,
-  "UniqueIdentifier": "unde",
-  "Name": "Adams, Prohaska and Kiehn",
-  "Description": "Enterprise-wide upward-trending database",
-  "IncludeId": "at",
-  "HierarchyId": 770,
-  "Source": "expedita",
-  "Registered": "2014-01-11T04:22:26.3090583+01:00",
-  "RegisteredAssociateId": 889,
-  "Updated": "2005-05-17T04:22:26.3090583+02:00",
-  "UpdatedAssociateId": 928,
+  "EjscriptId": 35,
+  "UniqueIdentifier": "nulla",
+  "Name": "Crist, Wisozk and Lowe",
+  "Description": "Robust secondary benchmark",
+  "IncludeId": "enim",
+  "AccessKey": "omnis",
+  "HierarchyId": 123,
+  "Source": "repellendus",
+  "SourceCode": "et",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 330,
+  "Includes": [
+    701,
+    630
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 751,
+      "LineNumberTo": 573,
+      "Delta": 799,
+      "IncludeId": "recusandae",
+      "IncludedFrom": [
+        "qui",
+        "itaque"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 258
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2012-04-15T13:28:22.3511449+02:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2023-02-07T13:28:22.3511449+01:00",
+  "UpdatedAssociateId": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

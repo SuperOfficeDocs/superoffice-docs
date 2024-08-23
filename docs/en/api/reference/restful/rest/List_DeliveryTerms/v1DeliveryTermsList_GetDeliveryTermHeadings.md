@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Lemke-Kreiger",
-    "Tooltip": "est",
+    "HeadingId": 832,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 652,
-    "UdListDefinitionId": 482,
+    "Rank": 263,
+    "UdListDefinitionId": 473,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 609
+        "FieldType": "System.Int32",
+        "FieldLength": 348
       }
     }
   }

@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Brown, Mertz and Macejkovic",
-    "ToolTip": "Id omnis quo.",
-    "Deleted": true,
-    "Rank": 927,
-    "Type": "atque",
-    "ColorBlock": 945,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2015-06-15T04:22:36.06534+02:00",
+    "Id": 394,
+    "Name": "Gleason, Huel and Kuvalis",
+    "ToolTip": "Et ut et iste odio.",
+    "Deleted": false,
+    "Rank": 956,
+    "Type": "vitae",
+    "ColorBlock": 511,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2019-12-06T13:28:32.9759535+01:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Lehner-Lemke",
-        "ToolTip": "Maiores tempora quisquam suscipit voluptates.",
+        "Id": 514,
+        "Name": "Rath, Hauck and O'Hara",
+        "ToolTip": "Rem provident at.",
         "Deleted": true,
-        "Rank": 896,
-        "Type": "ad",
-        "ColorBlock": 77,
-        "IconHint": "quibusdam",
+        "Rank": 626,
+        "Type": "officiis",
+        "ColorBlock": 448,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2009-10-07T04:22:36.06534+02:00",
+        "LastChanged": "1999-08-14T13:28:32.9759535+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Korbin Marvin PhD",
+        "ExtraInfo": "officiis",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Miss Demario Rory Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 531
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Rebeca Gerlach",
+    "ExtraInfo": "alias",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Adah Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 659
       }
     }
   }

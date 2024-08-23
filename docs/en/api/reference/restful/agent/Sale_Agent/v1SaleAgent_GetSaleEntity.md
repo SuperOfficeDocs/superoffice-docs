@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=187
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=298
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "officiis",
+  "SaleText": "doloremque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-09-05T04:22:27.5336493+02:00",
-  "Amount": 20323.989999999998,
-  "SaleId": 436,
-  "Earning": 9267.238,
-  "EarningPercent": 29384.384,
-  "Heading": "voluptas",
-  "Number": "585585",
-  "Probability": 141,
-  "CreatedDate": "2023-10-10T04:22:27.5336493+02:00",
-  "UpdatedDate": "2002-09-03T04:22:27.5336493+02:00",
+  "Saledate": "2022-11-10T13:28:23.6792365+01:00",
+  "Amount": 8649.84,
+  "SaleId": 876,
+  "Earning": 12000.086,
+  "EarningPercent": 4751.144,
+  "Heading": "quo",
+  "Number": "944158",
+  "Probability": 525,
+  "CreatedDate": "2008-11-12T13:28:23.6792365+01:00",
+  "UpdatedDate": "2013-07-10T13:28:23.6792365+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 998,
+  "ActiveLinks": 904,
   "Links": [
     {
-      "EntityName": "Nitzsche LLC",
-      "Id": 155,
-      "Description": "Expanded composite capacity",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 65,
+      "EntityName": "Homenick-Vandervort",
+      "Id": 134,
+      "Description": "Triple-buffered optimizing moderator",
+      "ExtraInfo": "consequatur",
+      "LinkId": 255,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 928
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2012-01-05T13:28:23.6792365+01:00",
+  "Postit": "asperiores",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2002-01-19T13:28:23.6792365+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Ebert-Skiles",
+      "Comment": "velit",
+      "StakeholderRoleId": 636,
+      "CountryId": 973,
+      "PersonId": 162,
+      "EmailDescription": "sophie_gusikowski@kirlin.name",
+      "EmailId": 394,
+      "EmailAddress": "brendan@mante.ca",
+      "PhoneId": 281,
+      "ContactName": "Kreiger, O'Kon and Daugherty",
+      "ContactId": 44,
+      "SaleId": 541,
+      "Mrmrs": "perferendis",
+      "Firstname": "Spencer",
+      "MiddleName": "Collins, Borer and Bins",
+      "Lastname": "West",
+      "SaleStakeholderId": 454,
+      "Rank": 570,
+      "Phone": "352-778-7524",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 355
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 40,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Brendan Haag DVM",
+    "SuperOffice:2": "True"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "dicta"
+  },
+  "CustomFields": {
+    "CustomFields1": "error",
+    "CustomFields2": "dolor"
+  },
+  "PublishEventDate": "2003-12-14T13:28:23.6792365+01:00",
+  "PublishTo": "2017-03-21T13:28:23.6792365+01:00",
+  "PublishFrom": "2014-02-19T13:28:23.6792365+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 779,
+      "Visibility": "All",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 919
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2016-07-24T04:22:27.5336493+02:00",
-  "Postit": "inventore",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2002-03-26T04:22:27.5336493+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Mante Inc and Sons",
-      "Comment": "adipisci",
-      "StakeholderRoleId": 954,
-      "CountryId": 829,
-      "PersonId": 324,
-      "EmailDescription": "thurman_bosco@johnson.name",
-      "EmailId": 228,
-      "EmailAddress": "audreanne@bode.com",
-      "PhoneId": 32,
-      "ContactName": "Tromp-Willms",
-      "ContactId": 814,
-      "SaleId": 768,
-      "Mrmrs": "tempore",
-      "Firstname": "Lee",
-      "MiddleName": "Eichmann-Hessel",
-      "Lastname": "Rohan",
-      "SaleStakeholderId": 627,
-      "Rank": 893,
-      "Phone": "186.655.0262 x016",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 669,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Augustus McLaughlin Sr.",
-    "SuperOffice:2": "59298586"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "at"
-  },
-  "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "sint"
-  },
-  "PublishEventDate": "2021-01-22T04:22:27.5336493+01:00",
-  "PublishTo": "2007-08-13T04:22:27.5336493+02:00",
-  "PublishFrom": "1998-11-09T04:22:27.5336493+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 157,
-      "Visibility": "All",
-      "DisplayValue": "reprehenderit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 762
         }
       }
     },
     {
-      "VisibleId": 157,
+      "VisibleId": 779,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 70
     }
   }
 }

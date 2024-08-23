@@ -3,9 +3,9 @@ uid: QuoteConnection
 title: QuoteConnection
 description: This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 keywords: QuoteConnection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteConnection"
@@ -60,7 +60,7 @@ This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteConnection?$select=updatedDate,erpConnection/description
+GET /api/v1/archive/QuoteConnection?$select=quoteConnectionId,updatedDate,erpConnection/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

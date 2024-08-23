@@ -2,10 +2,10 @@
 uid: blobagent-getproductimage
 title: BLOBAgent.GetProductImage event method
 description: Scripting events called on the GetProductImage method on the BLOBAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BLOBAgent.GetProductImage
 

@@ -2,10 +2,10 @@
 uid: mdoagent-getselectablelist
 title: MDOAgent.GetSelectableList event method
 description: Scripting events called on the GetSelectableList method on the MDOAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MDOAgent.GetSelectableList
 

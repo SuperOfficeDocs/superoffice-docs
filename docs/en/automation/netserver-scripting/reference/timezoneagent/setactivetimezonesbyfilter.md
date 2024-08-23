@@ -2,10 +2,10 @@
 uid: timezoneagent-setactivetimezonesbyfilter
 title: TimeZoneAgent.SetActiveTimeZonesByFilter event method
 description: Scripting events called on the SetActiveTimeZonesByFilter method on the TimeZoneAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TimeZoneAgent.SetActiveTimeZonesByFilter
 

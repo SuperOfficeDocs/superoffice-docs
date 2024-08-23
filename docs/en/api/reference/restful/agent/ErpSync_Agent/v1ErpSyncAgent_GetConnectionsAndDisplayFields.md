@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 495
+  "EntityId": 363
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 837,
-    "ConnectionName": "Brekke, Dibbert and Carroll",
-    "Connected": false,
+    "ErpConnectionId": 674,
+    "ConnectionName": "Gorczany-Sipes",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "sunt",
-        "Rank": 903,
-        "DisplayName": "Watsica, Medhurst and Schaden",
-        "DisplayDescription": "Stand-alone global intranet",
+        "FieldKey": "repellendus",
+        "Rank": 194,
+        "DisplayName": "Deckow-Tremblay",
+        "DisplayDescription": "Innovative leading edge installation",
         "FieldType": "Checkbox",
-        "ListName": "Weimann, Padberg and Hyatt",
-        "DefaultValue": "quae",
-        "MaxLength": 170,
+        "ListName": "Towne LLC",
+        "DefaultValue": "cupiditate",
+        "MaxLength": 636,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 342
+            "FieldType": "System.Int32",
+            "FieldLength": 357
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "expedita",
-      "laudantium"
+      "a",
+      "fugiat"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 866
       }
     }
   }

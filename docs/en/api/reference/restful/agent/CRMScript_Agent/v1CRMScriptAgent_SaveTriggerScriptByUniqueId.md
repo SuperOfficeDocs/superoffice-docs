@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aut",
+  "TriggerScriptUniqueId": "et",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 741,
-  "Name": "Upton Group",
+  "ScreenChooserId": 758,
+  "Name": "Jones LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptates",
-  "Source": "neque",
-  "Registered": "2010-09-12T04:22:26.3246815+02:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "2003-02-04T04:22:26.3246815+01:00",
-  "UpdatedAssociateId": 844,
+  "UniqueIdentifier": "necessitatibus",
+  "Source": "commodi",
+  "Registered": "2012-02-07T13:28:22.3823876+01:00",
+  "RegisteredAssociateId": 421,
+  "Updated": "2023-03-27T13:28:22.3823876+02:00",
+  "UpdatedAssociateId": 14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   }
 }

@@ -56,9 +56,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
      <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
      <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-     <Marketing:Registered xsi:type="xsd:dateTime">2024-06-05T02:21:10Z</Marketing:Registered>
+     <Marketing:Registered xsi:type="xsd:dateTime">2024-08-22T11:27:11Z</Marketing:Registered>
      <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-     <Marketing:Updated xsi:type="xsd:dateTime">2024-06-05T02:21:10Z</Marketing:Updated>
+     <Marketing:Updated xsi:type="xsd:dateTime">2024-08-22T11:27:11Z</Marketing:Updated>
      <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
      <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     </Marketing:ShipmentMessageEntity>
@@ -101,9 +101,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:LongDescription xsi:type="xsd:string"></Marketing:LongDescription>
     <Marketing:AccessKey xsi:type="xsd:string"></Marketing:AccessKey>
     <Marketing:DocumentMessage xsi:type="xsd:int">0</Marketing:DocumentMessage>
-    <Marketing:Registered xsi:type="xsd:dateTime">2024-06-05T02:21:10Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2024-08-22T11:27:11Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2024-06-05T02:21:10Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2024-08-22T11:27:11Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>

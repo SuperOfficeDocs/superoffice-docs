@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 997,
-  "Name": "Hartmann-Rippin",
-  "Tooltip": "aliquid",
-  "SaveInDb": 999,
-  "Filename": "doloremque",
-  "DefaultOref": "ex",
+  "DocumentTemplateId": 517,
+  "Name": "Wuckert, Wiegand and Harber",
+  "Tooltip": "minima",
+  "SaveInDb": 540,
+  "Filename": "ducimus",
+  "DefaultOref": "quas",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 317,
-  "IntentId": 548,
-  "IsDefaultPublished": true,
-  "Rank": 105,
-  "LoadTemplateFromPlugin": 693,
-  "MimeType": "consequatur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 5,
+  "AutoeventId": 551,
+  "IntentId": 504,
+  "IsDefaultPublished": false,
+  "Rank": 741,
+  "LoadTemplateFromPlugin": 864,
+  "MimeType": "facilis",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 173,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "garett_emmerich@kochpadberg.us",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "bart@oreilly.us",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "myrtice@ferry.co.uk",
+  "SenderEmailAddress": "kellie.waelchi@okeefe.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 545,
-  "Name": "Hilpert-Kub",
-  "Tooltip": "eius",
-  "SaveInDb": 731,
-  "Filename": "reprehenderit",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 684,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "numquam",
+  "SaveInDb": 934,
+  "Filename": "rerum",
+  "DefaultOref": "quae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 458,
-  "IntentId": 234,
+  "AutoeventId": 468,
+  "IntentId": 599,
   "IsDefaultPublished": false,
-  "Rank": 218,
-  "LoadTemplateFromPlugin": 286,
-  "MimeType": "facilis",
+  "Rank": 859,
+  "LoadTemplateFromPlugin": 269,
+  "MimeType": "molestias",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 479,
+  "DocumentTypeKey": 299,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tomas_sauer@rau.com",
+  "EmailSubject": "leonor@gloverkunze.co.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carmel@wiegand.ca",
+  "SenderEmailAddress": "meda_wisoky@mills.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

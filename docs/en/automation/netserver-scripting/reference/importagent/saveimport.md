@@ -2,10 +2,10 @@
 uid: importagent-saveimport
 title: ImportAgent.SaveImport event method
 description: Scripting events called on the SaveImport method on the ImportAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ImportAgent.SaveImport
 

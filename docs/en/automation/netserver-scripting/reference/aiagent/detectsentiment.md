@@ -2,10 +2,10 @@
 uid: aiagent-detectsentiment
 title: AIAgent.DetectSentiment event method
 description: Scripting events called on the DetectSentiment method on the AIAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AIAgent.DetectSentiment
 

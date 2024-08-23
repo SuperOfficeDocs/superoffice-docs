@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 264,
-  "Name": "Mitchell, Kris and Roob",
-  "Tooltip": "voluptatem",
+  "WebPanelId": 507,
+  "Name": "Harris Group",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 334,
+  "Rank": 719,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Mitchell-Jast",
+  "ShowInStatusBar": false,
+  "WindowName": "Nicolas-Brakus",
   "Url": "http://www.example.com/",
-  "ProgId": "culpa",
-  "Icon": 722,
+  "ProgId": "tempora",
+  "Icon": 196,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

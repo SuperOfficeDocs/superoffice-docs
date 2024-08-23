@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 253
+  "EjUserId": 324
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 421,
-    "Name": "Schoen Group",
-    "Rank": 72,
-    "Tooltip": "ducimus",
+    "AssociateId": 886,
+    "Name": "Conroy-Hagenes",
+    "Rank": 543,
+    "Tooltip": "in",
     "LicenseOwners": [
       {
-        "Name": "Crist-Schultz",
-        "Description": "Switchable discrete forecast",
+        "Name": "Thompson-Farrell",
+        "Description": "Object-based eco-centric policy",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldType": "System.String",
+            "FieldLength": 870
           }
         }
       },
       {
-        "Name": "Crist-Schultz",
-        "Description": "Switchable discrete forecast",
+        "Name": "Thompson-Farrell",
+        "Description": "Object-based eco-centric policy",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldType": "System.String",
+            "FieldLength": 870
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "modi",
-        "Tooltip": "ea",
-        "Id": 617,
-        "Rank": 635,
+        "Value": "est",
+        "Tooltip": "quibusdam",
+        "Id": 769,
+        "Rank": 776,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldType": "System.String",
+            "FieldLength": 78
           }
         }
       }
     ],
     "Person": null,
     "Deleted": true,
-    "Lastlogin": "2022-02-24T04:22:28.1318785+01:00",
-    "Lastlogout": "2020-02-18T04:22:28.1318785+01:00",
-    "EjUserId": 294,
-    "RequestSignature": "est",
+    "Lastlogin": "2008-12-01T13:28:24.2103618+01:00",
+    "Lastlogout": "2002-02-20T13:28:24.2103618+01:00",
+    "EjUserId": 557,
+    "RequestSignature": "in",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "deserunt",
-        "DisplayValue": "quod",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 72
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "deserunt",
-        "DisplayValue": "quod",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 72
-          }
-        }
-      }
-    ],
-    "UserName": "DuBuque, Kirlin and Wuckert",
-    "TicketCategories": [
-      {
-        "Id": 865,
-        "Name": "Purdy-Adams",
-        "ToolTip": "Et quo.",
-        "Deleted": false,
-        "Rank": 695,
-        "Type": "rem",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "occaecati",
-        "ColorBlock": 936,
-        "ExtraInfo": "sit",
-        "StyleHint": "qui",
-        "FullName": "Toni Grover Emard PhD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 851
-          }
-        }
-      }
-    ],
-    "NickName": "Hermann, Kuhn and Ratke",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "sunt",
-      "ExtraFields2": "quaerat"
-    },
-    "CustomFields": {
-      "CustomFields1": "modi",
-      "CustomFields2": "et"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Robel, Bartoletti and Senger",
-        "DisplayName": "Waters, Schamberger and Kuhn",
-        "Description": "Stand-alone holistic ability",
-        "ToolTip": "Ut laboriosam quas enim aliquid optio adipisci enim.",
-        "Actions": "Implicit",
-        "ActionData": "natus",
+        "Value": "dolorum",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 539
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "dolorum",
+        "DisplayValue": "aut",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 539
+          }
+        }
+      }
+    ],
+    "UserName": "Jacobson Group",
+    "TicketCategories": [
+      {
+        "Id": 964,
+        "Name": "Wisozk-Purdy",
+        "ToolTip": "Culpa voluptates autem sequi ab.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "alias",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "nobis",
+        "ColorBlock": 622,
+        "ExtraInfo": "ut",
+        "StyleHint": "soluta",
+        "FullName": "Prof. Ephraim Cordell Harris",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 475
+          }
+        }
+      }
+    ],
+    "NickName": "Morar Inc and Sons",
+    "WaitingForApproval": true,
+    "ExtraFields": {
+      "ExtraFields1": "sed",
+      "ExtraFields2": "dolores"
+    },
+    "CustomFields": {
+      "CustomFields1": "error",
+      "CustomFields2": "vero"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Bartell, Schneider and Cummerata",
+        "DisplayName": "Torphy, Jerde and Orn",
+        "Description": "Customer-focused system-worthy policy",
+        "ToolTip": "Quidem tempora provident praesentium.",
+        "Actions": "Implicit",
+        "ActionData": "aut",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 324
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldType": "System.String",
+        "FieldLength": 639
       }
     }
   }

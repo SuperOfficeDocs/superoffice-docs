@@ -72,11 +72,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dickinson-Waelchi",
-  "ProviderName": "Bartell-Runolfsson",
+  "GuiName": "Mayer, Willms and Hagenes",
+  "ProviderName": "Shanahan Group",
   "ChosenColumns": [
-    "ut",
-    "adipisci"
+    "rerum",
+    "optio"
   ]
 }
 ```

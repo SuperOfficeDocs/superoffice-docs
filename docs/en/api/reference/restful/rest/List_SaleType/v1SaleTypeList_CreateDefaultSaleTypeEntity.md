@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 470,
-  "Name": "Nitzsche-Langworth",
-  "Tooltip": "eveniet",
-  "Rank": 189,
+  "SaleTypeId": 514,
+  "Name": "Konopelski Group",
+  "Tooltip": "hic",
+  "Rank": 992,
   "DurationUnit": "Century",
-  "SaleDuration": 842,
-  "SaleTypeCatId": 687,
+  "SaleDuration": 511,
+  "SaleTypeCatId": 553,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 401,
-  "QuoteLinesTemplate": 183,
-  "ConfirmationLinesTemplate": 136,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 904,
+  "QuoteLinesTemplate": 307,
+  "ConfirmationLinesTemplate": 730,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 988,
-  "MinEarningPercent": 226,
-  "GroupQuoteLinesBy": 49,
-  "SortGroupLinesBy": 547,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 885,
+  "MinEarningPercent": 480,
+  "GroupQuoteLinesBy": 42,
+  "SortGroupLinesBy": 645,
   "Stages": [
     {
-      "Id": 496,
-      "Name": "Stamm-Donnelly",
-      "ToolTip": "Sed repellat autem facere non natus iusto.",
+      "Id": 629,
+      "Name": "Langosh-Doyle",
+      "ToolTip": "Dolor itaque rerum facilis iste enim aut repellat.",
       "Deleted": false,
-      "Rank": 43,
-      "Type": "et",
-      "ColorBlock": 716,
-      "IconHint": "labore",
-      "Selected": false,
-      "LastChanged": "1997-11-09T04:22:36.1903389+01:00",
+      "Rank": 931,
+      "Type": "veritatis",
+      "ColorBlock": 417,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2018-08-10T13:28:33.1482054+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "tempora",
-      "Hidden": false,
-      "FullName": "Dorthy Heller",
+      "ExtraInfo": "ut",
+      "StyleHint": "nesciunt",
+      "Hidden": true,
+      "FullName": "Dr. Shawn Bayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 731
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 777
     }
   }
 }

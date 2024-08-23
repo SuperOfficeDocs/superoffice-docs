@@ -2,10 +2,10 @@
 uid: quoteagent-movequoteline
 title: QuoteAgent.MoveQuoteLine event method
 description: Scripting events called on the MoveQuoteLine method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.MoveQuoteLine
 

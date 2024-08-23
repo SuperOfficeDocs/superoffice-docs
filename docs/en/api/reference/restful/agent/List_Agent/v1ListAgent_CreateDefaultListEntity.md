@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Trantow Group",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 723,
+  "Id": 978,
+  "Name": "Bayer, Kilback and Dicki",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 545,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 316
     }
   }
 }

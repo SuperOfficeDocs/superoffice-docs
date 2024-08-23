@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 121,
+  "DocumentId": 285,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "earum",
-  "Header": "quo",
-  "Name": "Friesen Inc and Sons",
-  "OurRef": "qui",
-  "YourRef": "autem",
-  "CreatedDate": "2008-05-06T04:22:34.9541759+02:00",
-  "UpdatedDate": "2005-12-04T04:22:34.9541759+01:00",
-  "Description": "Optimized demand-driven groupware",
+  "Attention": "consectetur",
+  "Header": "quia",
+  "Name": "O'Conner, Torp and Bailey",
+  "OurRef": "fuga",
+  "YourRef": "earum",
+  "CreatedDate": "2012-10-31T13:28:31.6479995+01:00",
+  "UpdatedDate": "2019-06-28T13:28:31.6479995+02:00",
+  "Description": "Team-oriented maximized task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-10-09T04:22:34.9698352+02:00",
-  "ExternalRef": "itaque",
+  "Date": "2016-02-16T13:28:31.6636234+01:00",
+  "ExternalRef": "mollitia",
   "Completed": "Completed",
-  "ActiveLinks": 408,
+  "ActiveLinks": 607,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hamill-Ziemann",
-      "Id": 484,
-      "Description": "Innovative explicit algorithm",
-      "ExtraInfo": "saepe",
-      "LinkId": 814
+      "EntityName": "Schimmel LLC",
+      "Id": 111,
+      "Description": "Diverse heuristic neural-net",
+      "ExtraInfo": "aut",
+      "LinkId": 933
     },
     {
-      "EntityName": "Hamill-Ziemann",
-      "Id": 484,
-      "Description": "Innovative explicit algorithm",
-      "ExtraInfo": "saepe",
-      "LinkId": 814
+      "EntityName": "Schimmel LLC",
+      "Id": 111,
+      "Description": "Diverse heuristic neural-net",
+      "ExtraInfo": "aut",
+      "LinkId": 933
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 606,
-  "Snum": 123,
+  "SuggestedDocumentId": 528,
+  "Snum": 894,
   "UserDefinedFields": {
-    "SuperOffice:1": "1258436578",
-    "SuperOffice:2": "1344519411"
+    "SuperOffice:1": "Ambrose Keebler",
+    "SuperOffice:2": "972020159"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "non",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "quidem"
+    "CustomFields1": "ab",
+    "CustomFields2": "fugiat"
   },
-  "PublishEventDate": "2004-03-03T04:22:34.9698352+01:00",
-  "PublishTo": "2019-11-24T04:22:34.9698352+01:00",
-  "PublishFrom": "2011-04-19T04:22:34.9698352+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2020-06-05T13:28:31.6636234+02:00",
+  "PublishTo": "2013-10-21T13:28:31.6636234+02:00",
+  "PublishFrom": "2012-11-09T13:28:31.6636234+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 631,
+      "VisibleId": 121,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 631,
+      "VisibleId": 121,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "modi",
-  "2": "consectetur"
+  "1": "nobis",
+  "2": "eaque"
 }
 ```

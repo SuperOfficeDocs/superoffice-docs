@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 589,
-  "Name": "West-Cormier",
-  "Tooltip": "saepe",
-  "Rank": 979,
+  "ProjTypeId": 521,
+  "Name": "Veum, Wiza and Barton",
+  "Tooltip": "ut",
+  "Rank": 264,
   "DurationUnit": "Century",
-  "ProjectDuration": 298,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 982,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 45,
-      "Name": "Walter, Doyle and Sanford",
-      "ToolTip": "Dolore velit.",
-      "Deleted": false,
-      "Rank": 140,
-      "Type": "et",
-      "ColorBlock": 696,
-      "IconHint": "illum",
+      "Id": 916,
+      "Name": "Goldner, Goyette and Brakus",
+      "ToolTip": "Facere aut alias reiciendis autem molestiae enim.",
+      "Deleted": true,
+      "Rank": 408,
+      "Type": "corrupti",
+      "ColorBlock": 615,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2014-11-28T04:22:27.0329423+01:00",
+      "LastChanged": "2023-10-25T13:28:23.007483+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "voluptatum",
+      "ExtraInfo": "at",
+      "StyleHint": "enim",
       "Hidden": false,
-      "FullName": "Gladyce Shea Kuvalis MD",
+      "FullName": "Doug Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 528
     }
   }
 }

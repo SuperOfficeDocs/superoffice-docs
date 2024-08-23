@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Value": "aut",
-    "Tooltip": "ipsam",
+    "Id": 757,
+    "Value": "qui",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 289
       }
     }
   },
   {
-    "Id": 134,
-    "Value": "aut",
-    "Tooltip": "ipsam",
+    "Id": 757,
+    "Value": "qui",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 289
       }
     }
   }

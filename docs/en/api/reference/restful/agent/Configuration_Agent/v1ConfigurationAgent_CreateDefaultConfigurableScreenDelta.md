@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 579,
-  "Name": "Schmidt-Kovacek",
-  "Description": "Re-contextualized maximized matrices",
-  "DeltaJson": "fugit",
+  "ConfigurableScreenDeltaId": 504,
+  "Name": "Dickens, Kautzer and Wilderman",
+  "Description": "Versatile object-oriented infrastructure",
+  "DeltaJson": "sint",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2011-05-07T04:22:26.1528443+02:00",
-  "CreatedDate": "2022-08-04T04:22:26.1528443+02:00",
+  "RecipeId": "quae",
+  "UpdatedDate": "2004-11-13T13:28:22.1636887+01:00",
+  "CreatedDate": "2017-04-05T13:28:22.1636887+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    387,
-    606
+    963,
+    121
   ],
-  "AppliesToKey": "recusandae",
+  "AppliesToKey": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

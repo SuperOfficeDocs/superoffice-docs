@@ -2,10 +2,10 @@
 uid: userdefinedfieldinfoagent-ispublisheventactive
 title: UserDefinedFieldInfoAgent.IsPublishEventActive event method
 description: Scripting events called on the IsPublishEventActive method on the UserDefinedFieldInfoAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.IsPublishEventActive
 

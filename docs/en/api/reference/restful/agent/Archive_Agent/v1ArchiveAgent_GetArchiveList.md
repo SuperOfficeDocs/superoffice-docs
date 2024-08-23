@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Koepp Inc and Sons",
-  "ProviderName": "Jewess Group",
+  "GuiName": "Kertzmann-Lubowitz",
+  "ProviderName": "Anderson-Schuster",
   "SortOrder": [
     {
-      "Name": "Balistreri, O'Kon and Streich",
+      "Name": "Fahey Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Balistreri, O'Kon and Streich",
+      "Name": "Fahey Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rolfson, White and Mueller",
-      "Operator": "et",
+      "Name": "McClure Group",
+      "Operator": "id",
       "Values": [
-        "ducimus",
-        "ut"
+        "voluptas",
+        "quas"
       ],
       "DisplayValues": [
-        "quia",
-        "quo"
+        "impedit",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 763,
+      "InterParenthesis": 833,
       "InterOperator": "And",
-      "UniqueHash": 454
+      "UniqueHash": 957
     }
   ],
   "Entities": [
-    "harum",
-    "ut"
+    "error",
+    "molestiae"
   ],
-  "Page": 632,
-  "PageSize": 365
+  "Page": 120,
+  "PageSize": 375
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McGlynn-Hickle",
-    "PrimaryKey": 851,
+    "EntityName": "Boyle LLC",
+    "PrimaryKey": 735,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "deleniti",
-        "LinkHint": "ipsam"
+        "DisplayValue": "excepturi",
+        "TooltipHint": "praesentium",
+        "LinkHint": "quae"
       }
     },
-    "LinkHint": "doloribus",
-    "StyleHint": "exercitationem",
+    "LinkHint": "id",
+    "StyleHint": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 104
       }
     }
   }

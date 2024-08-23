@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 402,
-  "Section": "a",
-  "Key": "corporis",
-  "Name": "Hermann-Becker",
+  "PrefDescId": 788,
+  "Section": "alias",
+  "Key": "voluptatem",
+  "Name": "Lynch, Spencer and Rolfson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless global product",
+  "Description": "Phased executive groupware",
   "IsBuiltin": false,
-  "TableName": "Ratke Inc and Sons",
-  "UserDefinedListId": 236,
-  "Rank": 625,
-  "SubGroup": "tempore",
-  "MinLevel": 282,
-  "MaxValue": 437,
-  "MinValue": 54,
-  "RequiredLicense": "sit"
+  "TableName": "Douglas Inc and Sons",
+  "UserDefinedListId": 730,
+  "Rank": 134,
+  "SubGroup": "accusantium",
+  "MinLevel": 765,
+  "MaxValue": 951,
+  "MinValue": 877,
+  "RequiredLicense": "eaque"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 380,
-  "Section": "error",
-  "Key": "vel",
-  "Name": "Christiansen, Lind and Bednar",
+  "PrefDescId": 671,
+  "Section": "sed",
+  "Key": "perspiciatis",
+  "Name": "Will, Rippin and Lubowitz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked modular encryption",
-  "IsBuiltin": true,
-  "TableName": "Breitenberg Inc and Sons",
-  "UserDefinedListId": 594,
-  "Rank": 476,
-  "SubGroup": "ad",
-  "MinLevel": 427,
-  "MaxValue": 615,
-  "MinValue": 94,
-  "RequiredLicense": "porro",
+  "Description": "Open-architected 24 hour strategy",
+  "IsBuiltin": false,
+  "TableName": "Towne-Corwin",
+  "UserDefinedListId": 214,
+  "Rank": 141,
+  "SubGroup": "quas",
+  "MinLevel": 732,
+  "MaxValue": 12,
+  "MinValue": 529,
+  "RequiredLicense": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

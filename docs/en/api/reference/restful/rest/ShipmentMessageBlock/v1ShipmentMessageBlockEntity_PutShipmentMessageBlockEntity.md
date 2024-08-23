@@ -97,14 +97,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 164,
-  "AssociateId": 698,
-  "Block": "ipsam",
-  "Registered": "1997-11-03T04:22:35.4553554+01:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "2012-01-27T04:22:35.4553554+01:00",
-  "UpdatedAssociateId": 239,
-  "UpdatedCount": 13
+  "ShipmentMessageBlockId": 639,
+  "AssociateId": 677,
+  "Block": "perspiciatis",
+  "Registered": "2007-08-26T13:28:32.2573673+02:00",
+  "RegisteredAssociateId": 74,
+  "Updated": "2011-05-10T13:28:32.2573673+02:00",
+  "UpdatedAssociateId": 419,
+  "UpdatedCount": 534
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 413,
-  "AssociateId": 350,
-  "Block": "non",
-  "Registered": "2009-04-24T04:22:35.4553554+02:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "2007-06-23T04:22:35.4553554+02:00",
-  "UpdatedAssociateId": 931,
-  "UpdatedCount": 848,
+  "ShipmentMessageBlockId": 359,
+  "AssociateId": 486,
+  "Block": "ex",
+  "Registered": "2017-02-17T13:28:32.2573673+01:00",
+  "RegisteredAssociateId": 605,
+  "Updated": "2004-08-13T13:28:32.2573673+02:00",
+  "UpdatedAssociateId": 88,
+  "UpdatedCount": 72,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 367
     }
   },
   "_Links": {

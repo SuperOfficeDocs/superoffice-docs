@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "nulla",
-    "Type": "aut",
-    "Description": "Reduced bottom-line parallelism",
+    "DisplayType": "magni",
+    "Type": "voluptatibus",
+    "Description": "Decentralized national product",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

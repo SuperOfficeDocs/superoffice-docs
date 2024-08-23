@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 362,
-  "Field": "aspernatur",
-  "RecordId": 249,
+  "RefCountsId": 124,
+  "Field": "et",
+  "RecordId": 123,
   "SuggestedRecords": [
     {
-      "Id": 241,
-      "Name": "Watsica, Kertzmann and Kirlin",
-      "ToolTip": "Magnam doloribus itaque est.",
-      "Deleted": true,
-      "Rank": 800,
-      "Type": "molestias",
+      "Id": 49,
+      "Name": "Franecki, Kovacek and Powlowski",
+      "ToolTip": "Voluptas mollitia ut voluptatem voluptates voluptate in.",
+      "Deleted": false,
+      "Rank": 712,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rerum",
-      "ColorBlock": 61,
-      "ExtraInfo": "nemo",
-      "StyleHint": "consequatur",
-      "FullName": "Sienna Powlowski",
+      "IconHint": "et",
+      "ColorBlock": 501,
+      "ExtraInfo": "ut",
+      "StyleHint": "rerum",
+      "FullName": "Edythe Koss",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "CurrentValue": 592,
-  "TravelPrefix": 687,
-  "SatPrefix": 615,
+  "CurrentValue": 231,
+  "TravelPrefix": 429,
+  "SatPrefix": 758,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldLength": 515
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 654
+  "ReplyTemplateId": 874
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn Group",
-  "Description": "Implemented transitional attitude",
-  "OwnedByFullName": "Melba Cruickshank",
-  "Updated": "2001-06-08T04:22:26.3415618+02:00",
-  "Body": "atque",
+  "Name": "Fritsch, Herman and Baumbach",
+  "Description": "Mandatory real-time encoding",
+  "OwnedByFullName": "Javonte Rutherford",
+  "Updated": "2002-02-03T13:28:22.3823876+01:00",
+  "Body": "et",
   "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 443
     }
   }
 }

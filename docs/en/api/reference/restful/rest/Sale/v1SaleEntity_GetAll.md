@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=eius
-GET /api/v1/Sale?$top=433
-GET /api/v1/Sale?$skip=514
+GET /api/v1/Sale?$entities=beatae
+GET /api/v1/Sale?$top=743
+GET /api/v1/Sale?$skip=413
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=velit
+GET /api/v1/Sale?$context=ullam
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -132,18 +132,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 1793,
+      "PrimaryKey": 4706,
       "EntityName": "sale",
-      "saleId": 1793,
-      "contactId": 7090,
-      "name": "Kozey-Yost"
+      "saleId": 4706,
+      "contactId": 1875,
+      "name": "Gerhold-Harvey"
     },
     {
-      "PrimaryKey": 7067,
+      "PrimaryKey": 7256,
       "EntityName": "sale",
-      "saleId": 7067,
-      "contactId": 800,
-      "name": "Nolan, Flatley and Treutel"
+      "saleId": 7256,
+      "contactId": 2834,
+      "name": "Franecki, Walsh and Rempel"
     }
   ]
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Flatley, Champlin and Herman",
-    "Tooltip": "facilis",
+    "HeadingId": 192,
+    "Name": "Lindgren-Stracke",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 892,
-    "UdListDefinitionId": 495
+    "Rank": 788,
+    "UdListDefinitionId": 735
   },
   {
-    "HeadingId": 14,
-    "Name": "Flatley, Champlin and Herman",
-    "Tooltip": "facilis",
+    "HeadingId": 192,
+    "Name": "Lindgren-Stracke",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 892,
-    "UdListDefinitionId": 495
+    "Rank": 788,
+    "UdListDefinitionId": 735
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Boyer-Morissette",
-    "Tooltip": "natus",
+    "HeadingId": 754,
+    "Name": "Wehner Inc and Sons",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 257,
+    "Rank": 716,
+    "UdListDefinitionId": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

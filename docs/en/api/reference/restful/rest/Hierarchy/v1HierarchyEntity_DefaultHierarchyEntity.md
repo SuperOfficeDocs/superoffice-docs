@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 529,
+  "HierarchyId": 971,
   "Domain": "Dashboards",
-  "Name": "Parker Group",
-  "Fullname": "ad",
-  "ParentId": 155,
+  "Name": "Aufderhar-Ondricka",
+  "Fullname": "qui",
+  "ParentId": 290,
   "Children": [
     {
-      "HierarchyId": 388,
+      "HierarchyId": 962,
       "Domain": "Dashboards",
-      "Name": "VonRueden-Heathcote",
-      "Fullname": "sunt",
-      "ParentId": 653,
+      "Name": "Prosacco, Casper and Abbott",
+      "Fullname": "beatae",
+      "ParentId": 937,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-11-08T04:22:35.0167083+01:00",
-      "RegisteredAssociateId": 193,
-      "Updated": "2000-02-17T04:22:35.0167083+01:00",
-      "UpdatedAssociateId": 729,
+      "Registered": "2023-10-09T13:28:31.6948645+02:00",
+      "RegisteredAssociateId": 916,
+      "Updated": "1999-04-28T13:28:31.6948645+02:00",
+      "UpdatedAssociateId": 389,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     }
   ],
-  "Registered": "2016-07-06T04:22:35.0167083+02:00",
-  "RegisteredAssociateId": 252,
-  "Updated": "2016-09-27T04:22:35.0167083+02:00",
-  "UpdatedAssociateId": 244,
+  "Registered": "2010-04-29T13:28:31.6948645+02:00",
+  "RegisteredAssociateId": 225,
+  "Updated": "2010-01-29T13:28:31.6948645+01:00",
+  "UpdatedAssociateId": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 158
     }
   }
 }

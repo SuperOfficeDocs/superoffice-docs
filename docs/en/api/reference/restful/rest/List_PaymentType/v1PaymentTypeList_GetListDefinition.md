@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 579,
-  "Name": "Crooks, Cruickshank and Kuphal",
-  "Tooltip": "consequatur",
+  "Id": 921,
+  "Name": "Stoltenberg, Schmitt and O'Hara",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 578,
+  "Rank": 884,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldLength": 771
     }
   },
   "_Links": {

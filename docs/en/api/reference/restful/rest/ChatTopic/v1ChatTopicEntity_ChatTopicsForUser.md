@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 137,
-    "Name": "Pagac, Sipes and Prosacco",
-    "Description": "Face to face assymetric hierarchy",
-    "WelcomeMessage": "dignissimos",
+    "ChatTopicId": 128,
+    "Name": "Koelpin LLC",
+    "Description": "Enhanced zero administration analyzer",
+    "WelcomeMessage": "maxime",
     "Language": null,
-    "LastAccept": "2002-08-05T04:22:34.7340022+02:00",
-    "SecondsPrAccept": 418,
-    "AlertRecipient": "enim",
+    "LastAccept": "2014-11-08T13:28:31.3824342+01:00",
+    "SecondsPrAccept": 94,
+    "AlertRecipient": "qui",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "nam",
+    "BadgeHeader": "id",
     "CustomQueueTextEnabled": true,
-    "CustomQueueText": "saepe",
-    "WarnNewChatMinutes": 418,
-    "WarnManagerNewChatMinutes": 861,
+    "CustomQueueText": "optio",
+    "WarnNewChatMinutes": 891,
+    "WarnManagerNewChatMinutes": 483,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 693,
-    "WarnManagerChatMessageMinutes": 639,
+    "WarnChatMessageMinutes": 502,
+    "WarnManagerChatMessageMinutes": 686,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 756,
-    "OfflineFormQueueLength": 255,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "quaerat",
+    "OfflineFormTimeLimit": 837,
+    "OfflineFormQueueLength": 697,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 175
       }
     }
   }

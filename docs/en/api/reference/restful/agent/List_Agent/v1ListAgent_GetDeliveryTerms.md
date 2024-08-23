@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Value": "itaque",
-    "Tooltip": "pariatur",
+    "Id": 173,
+    "Value": "eum",
+    "Tooltip": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   },
   {
-    "Id": 61,
-    "Value": "itaque",
-    "Tooltip": "pariatur",
+    "Id": 173,
+    "Value": "eum",
+    "Tooltip": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   }

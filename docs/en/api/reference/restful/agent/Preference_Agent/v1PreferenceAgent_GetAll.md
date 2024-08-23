@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 155,
-    "Section": "suscipit",
-    "Key": "maxime",
-    "Name": "Cole, Fadel and VonRueden",
+    "PrefDescId": 159,
+    "Section": "aut",
+    "Key": "et",
+    "Name": "Reinger-Streich",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persistent foreground framework",
-    "IsBuiltin": true,
-    "TableName": "Upton, Marks and Spinka",
-    "UserDefinedListId": 721,
-    "Rank": 541,
-    "SubGroup": "qui",
-    "MinLevel": 507,
-    "MaxValue": 251,
-    "MinValue": 180,
-    "RequiredLicense": "rerum",
+    "Description": "Universal reciprocal alliance",
+    "IsBuiltin": false,
+    "TableName": "Torphy Inc and Sons",
+    "UserDefinedListId": 229,
+    "Rank": 811,
+    "SubGroup": "ducimus",
+    "MinLevel": 843,
+    "MaxValue": 415,
+    "MinValue": 241,
+    "RequiredLicense": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldLength": 590
       }
     }
   }

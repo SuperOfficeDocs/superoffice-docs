@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 79,
-  "ListItemId": 520,
+  "UdListDefinitionId": 966,
+  "ListItemId": 724,
   "Headings": [
     {
-      "Id": 691,
-      "Name": "Fahey, Auer and Gleason",
-      "ToolTip": "Aliquid at consectetur omnis.",
-      "Deleted": false,
-      "Rank": 92,
-      "Type": "magnam",
-      "ColorBlock": 170,
-      "IconHint": "a",
+      "Id": 895,
+      "Name": "Borer, Bauch and Waelchi",
+      "ToolTip": "Voluptatum non a.",
+      "Deleted": true,
+      "Rank": 649,
+      "Type": "at",
+      "ColorBlock": 209,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "2024-05-29T04:22:26.969259+02:00",
+      "LastChanged": "2014-03-27T13:28:22.9449983+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "corporis",
+      "ExtraInfo": "ut",
+      "StyleHint": "ea",
       "Hidden": false,
-      "FullName": "Dr. Irwin Ortiz"
+      "FullName": "Ralph Ullrich"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Jones-Breitenberg",
-    "ToolTip": "Et tempora.",
+    "Id": 930,
+    "Name": "Sawayn-Hauck",
+    "ToolTip": "Omnis ipsam est sunt quibusdam id voluptas nisi.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "vitae",
-    "ColorBlock": 350,
-    "IconHint": "a",
-    "Selected": true,
-    "LastChanged": "2012-05-01T04:22:26.9848795+02:00",
+    "Rank": 374,
+    "Type": "itaque",
+    "ColorBlock": 892,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2017-07-31T13:28:22.9449983+02:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Koelpin, Kunze and Kerluke",
-        "ToolTip": "Ratione et.",
+        "Id": 345,
+        "Name": "VonRueden Group",
+        "ToolTip": "Distinctio enim dolorem pariatur blanditiis.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "cumque",
-        "ColorBlock": 550,
-        "IconHint": "eos",
+        "Rank": 631,
+        "Type": "facere",
+        "ColorBlock": 973,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "1997-02-11T04:22:26.9848795+01:00",
+        "LastChanged": "2019-12-16T13:28:22.9449983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "dolor",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "debitis",
         "Hidden": true,
-        "FullName": "Brenna Rhett Johnson DDS",
+        "FullName": "Arianna Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 355
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "eum",
+    "ExtraInfo": "enim",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Prof. Nicolas Rodriguez",
+    "FullName": "Charles Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 128
       }
     }
   }

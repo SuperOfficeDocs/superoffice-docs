@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 78,
+  "EjMessageId": 848,
   "Ticket": null,
-  "CreatedAt": "2015-01-07T04:22:35.5647298+01:00",
+  "CreatedAt": "1999-09-06T13:28:32.3667168+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "esse",
-  "TimeSpent": 196,
-  "Body": "explicabo",
-  "HtmlBody": "ut",
-  "EmailHeader": "paula_gulgowski@carroll.uk",
-  "DebugInfo": "aperiam",
-  "MailSorter": "enim",
+  "MessageId": "qui",
+  "TimeSpent": 242,
+  "Body": "qui",
+  "HtmlBody": "alias",
+  "EmailHeader": "macey_satterfield@blockwindler.uk",
+  "DebugInfo": "culpa",
+  "MailSorter": "doloribus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "aliquid",
   "MessageHeaders": [
     {
-      "Id": 701,
-      "Name": "Wolf-Schmeler",
-      "Value": "et",
+      "Id": 618,
+      "Name": "Casper, Leuschke and Fay",
+      "Value": "doloribus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
   "Important": false,
-  "Language": "autem",
-  "Sentiment": 537,
-  "SentimentConfidence": 9,
+  "Language": "eos",
+  "Sentiment": 749,
+  "SentimentConfidence": 205,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 928,
-      "Name": "Gaylord-Muller",
-      "ContentType": "ipsa",
-      "AttSize": 654,
-      "InlineImage": true,
-      "ContentId": "consequuntur",
-      "AuthKey": "omnis",
+      "AttachmentId": 882,
+      "Name": "Abbott-Treutel",
+      "ContentType": "corporis",
+      "AttSize": 775,
+      "InlineImage": false,
+      "ContentId": "suscipit",
+      "AuthKey": "suscipit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldType": "System.String",
+          "FieldLength": 23
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "et"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "aut",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

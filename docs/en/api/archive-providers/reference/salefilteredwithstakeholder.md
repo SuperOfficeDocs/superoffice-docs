@@ -3,9 +3,9 @@ uid: SaleFilteredWithStakeholder
 title: SaleFilteredWithStakeholder
 description: 
 keywords: SaleFilteredWithStakeholder archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleFilteredWithStakeholder"
@@ -1122,7 +1122,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=person/updatedByWorkflow,person/personPager/formattedNumber,person/legalBaseEmarketing,project/projectAssociate/personId,saleStakeholder/person/correspondingAssociate/contactName
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=icon,registeredDate,contact/contactAssociate/isLocation,project/updatedByFullName,project/projectAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

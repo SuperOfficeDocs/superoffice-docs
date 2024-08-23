@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 423,
-    "Rank": 268
+    "Id": 493,
+    "Name": "Greenfelder, Jakubowski and Moen",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 634,
+    "Rank": 473
   },
   {
-    "Id": 465,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 423,
-    "Rank": 268
+    "Id": 493,
+    "Name": "Greenfelder, Jakubowski and Moen",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 634,
+    "Rank": 473
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Osinski, Schumm and Hodkiewicz",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "UdListDefinitionId": 119,
-    "Rank": 170,
+    "Id": 449,
+    "Name": "Hudson Group",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 413,
+    "Rank": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 467
       }
     }
   }

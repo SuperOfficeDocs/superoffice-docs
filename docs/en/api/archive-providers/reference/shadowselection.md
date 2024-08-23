@@ -3,9 +3,9 @@ uid: ShadowSelection
 title: ShadowSelection
 description: Universal shadow selection dispatcher - Retrieve the contactId and/or personId of all contact/person shadow members of any selection
 keywords: ShadowSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ShadowSelection"

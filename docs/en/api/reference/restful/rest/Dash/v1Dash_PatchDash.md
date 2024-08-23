@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 345,
-  "UniqueId": "modi",
-  "Name": "Morissette LLC",
-  "Description": "Distributed holistic toolset",
-  "AssociateId": 152,
-  "Columns": 101,
+  "DashboardId": 419,
+  "UniqueId": "assumenda",
+  "Name": "Eichmann-Hackett",
+  "Description": "Distributed client-server conglomeration",
+  "AssociateId": 156,
+  "Columns": 815,
   "Theme": null,
-  "VisibleForAll": 615,
+  "VisibleForAll": 456,
   "VisibleForAssociates": [
-    511,
-    224
+    990,
+    791
   ],
   "VisibleForGroups": [
-    806,
-    312
+    105,
+    571
   ],
-  "PinForAll": 906,
+  "PinForAll": 563,
   "PinForAssociates": [
-    411,
-    883
+    457,
+    698
   ],
   "PinForGroups": [
-    963,
-    655
+    132,
+    126
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 948
     }
   },
   "_Links": {

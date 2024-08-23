@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Boehm Group",
-    "ToolTip": "Voluptatem dolor aliquid cupiditate.",
-    "Deleted": false,
-    "Rank": 426,
-    "Type": "fuga",
-    "ColorBlock": 986,
-    "IconHint": "odio",
+    "Id": 516,
+    "Name": "Heaney-West",
+    "ToolTip": "Officia recusandae exercitationem alias.",
+    "Deleted": true,
+    "Rank": 231,
+    "Type": "possimus",
+    "ColorBlock": 536,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2008-08-02T04:22:35.9559668+02:00",
+    "LastChanged": "2020-07-06T13:28:32.8509815+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Kassulke Group",
-        "ToolTip": "Id quaerat laborum.",
+        "Id": 901,
+        "Name": "Cummerata, Murphy and Kilback",
+        "ToolTip": "Natus accusamus corporis voluptas pariatur sunt illum corrupti.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "corrupti",
-        "ColorBlock": 886,
-        "IconHint": "facilis",
+        "Rank": 536,
+        "Type": "sequi",
+        "ColorBlock": 168,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2016-08-20T04:22:35.9559668+02:00",
+        "LastChanged": "2021-01-18T13:28:32.8509815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Shany Homenick",
+        "FullName": "Sammy Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 618
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "et",
+    "ExtraInfo": "sunt",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Kathryn Hermiston",
+    "FullName": "Kayley Ken Eichmann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 893
+        "FieldType": "System.Int32",
+        "FieldLength": 387
       }
     }
   }

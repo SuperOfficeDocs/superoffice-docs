@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 552,
-    "Name": "Deckow-Bailey",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "Rank": 627,
-    "UdListDefinitionId": 448
+    "HeadingId": 529,
+    "Name": "O'Keefe LLC",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 60,
+    "UdListDefinitionId": 526
   },
   {
-    "HeadingId": 552,
-    "Name": "Deckow-Bailey",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "Rank": 627,
-    "UdListDefinitionId": 448
+    "HeadingId": 529,
+    "Name": "O'Keefe LLC",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 60,
+    "UdListDefinitionId": 526
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 686,
-    "Name": "Auer-Roberts",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 366,
-    "UdListDefinitionId": 476,
+    "HeadingId": 462,
+    "Name": "Schamberger, McClure and Schmidt",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "Rank": 456,
+    "UdListDefinitionId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 340
       }
     }
   }

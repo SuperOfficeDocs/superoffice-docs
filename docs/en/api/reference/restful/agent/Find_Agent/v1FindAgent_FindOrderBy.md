@@ -86,18 +86,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fuga",
-  "ProviderName": "Schoen Inc and Sons",
-  "StorageKey": "et",
-  "PageSize": 886,
-  "PageNumber": 786,
+  "StorageType": "accusamus",
+  "ProviderName": "Bednar, Lesch and Trantow",
+  "StorageKey": "alias",
+  "PageSize": 933,
+  "PageNumber": 143,
   "OrderBy": [
     {
-      "Name": "Nikolaus LLC",
+      "Name": "Heller Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Nikolaus LLC",
+      "Name": "Heller Group",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lemke-Pfeffer",
-      "DisplayTooltip": "libero",
-      "DisplayType": "dolor",
-      "CanOrderBy": false,
-      "Name": "Williamson LLC",
+      "DisplayName": "Spencer LLC",
+      "DisplayTooltip": "ut",
+      "DisplayType": "qui",
+      "CanOrderBy": true,
+      "Name": "Douglas-Renner",
       "CanRestrictBy": false,
-      "RestrictionType": "asperiores",
-      "RestrictionListName": "Predovic, Lehner and Emmerich",
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Senger, Kirlin and Swaniawski",
       "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "enim",
-      "IconHint": "qui",
-      "HeadingIconHint": "omnis"
+      "ExtraInfo": "quo",
+      "Width": "ut",
+      "IconHint": "et",
+      "HeadingIconHint": "laborum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boehm Group",
-      "PrimaryKey": 983,
+      "EntityName": "Jast-Bernhard",
+      "PrimaryKey": 547,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "velit",
-          "LinkHint": "qui"
+          "DisplayValue": "recusandae",
+          "TooltipHint": "id",
+          "LinkHint": "sapiente"
         }
       },
-      "LinkHint": "officiis",
-      "StyleHint": "rerum",
+      "LinkHint": "vel",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 208
         }
       }
     }
   ],
-  "RowCount": 586,
+  "RowCount": 78,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

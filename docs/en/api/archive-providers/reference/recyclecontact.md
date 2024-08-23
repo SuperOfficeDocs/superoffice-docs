@@ -3,9 +3,9 @@ uid: RecycleContact
 title: RecycleContact
 description: 
 keywords: RecycleContact archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "RecycleContact"
@@ -203,7 +203,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=contactFax/formattedNumber,streetAddress/line2,contactAssociate/personId
+GET /api/v1/archive/RecycleContact?$select=postAddress/wgs84latitude,contactUdef/SuperOffice:7,streetAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

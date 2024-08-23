@@ -3,9 +3,9 @@ uid: SelectionStaticContactAddMembers
 title: SelectionStaticContactAddMembers
 description: This is the provider used when searching for potential new members of a static selection. It is actually
 keywords: SelectionStaticContactAddMembers archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionStaticContactAddMembers"
@@ -1227,7 +1227,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=deletedDate,sale/soldReason,personEmail/emailId,personSourceRelation/associateType,personTargetRelation/contactPersonRelation
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=phone/formattedNumber,contactExtra/x_contact_default_integer,sourceRelation/code,document/registeredByFullName,document/keywords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

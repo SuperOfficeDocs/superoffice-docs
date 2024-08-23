@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "magnam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "magnam",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "ducimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-12-06T04:22:35.4084818+01:00",
-  "Amount": 22658.82,
-  "SaleId": 331,
-  "Earning": 15231.24,
-  "EarningPercent": 9333.052,
-  "Heading": "dignissimos",
-  "Number": "83412",
-  "Probability": 473,
-  "CreatedDate": "2015-09-15T04:22:35.4084818+02:00",
-  "UpdatedDate": "2003-02-16T04:22:35.4084818+01:00",
+  "Saledate": "2018-08-09T13:28:32.1792668+02:00",
+  "Amount": 13043.707999999999,
+  "SaleId": 783,
+  "Earning": 1482.382,
+  "EarningPercent": 15507.032,
+  "Heading": "eius",
+  "Number": "676435",
+  "Probability": 95,
+  "CreatedDate": "2021-08-04T13:28:32.1792668+02:00",
+  "UpdatedDate": "2007-08-18T13:28:32.1792668+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 988,
+  "ActiveLinks": 656,
   "Links": [
     {
-      "EntityName": "Murphy, Considine and Abernathy",
-      "Id": 161,
-      "Description": "Synergized analyzing synergy",
-      "ExtraInfo": "neque",
-      "LinkId": 436,
+      "EntityName": "Barrows, Moen and O'Kon",
+      "Id": 117,
+      "Description": "Universal grid-enabled archive",
+      "ExtraInfo": "libero",
+      "LinkId": 457,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 76
         }
       }
     }
   ],
-  "NextDueDate": "2004-10-13T04:22:35.4084818+02:00",
-  "Postit": "aut",
+  "NextDueDate": "2012-05-05T13:28:32.1948816+02:00",
+  "Postit": "dolorum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-05-26T04:22:35.4084818+02:00",
+  "ReopenDate": "2012-09-17T13:28:32.1948816+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schmeler Group",
-      "Comment": "quos",
-      "StakeholderRoleId": 713,
-      "CountryId": 852,
-      "PersonId": 294,
-      "EmailDescription": "adam@predovic.uk",
-      "EmailId": 191,
-      "EmailAddress": "adan@turcotte.us",
-      "PhoneId": 710,
-      "ContactName": "Johnson-Kovacek",
-      "ContactId": 492,
-      "SaleId": 330,
-      "Mrmrs": "eligendi",
-      "Firstname": "Dell",
-      "MiddleName": "Halvorson, Koss and Ullrich",
-      "Lastname": "Fay",
-      "SaleStakeholderId": 40,
-      "Rank": 855,
-      "Phone": "938.378.1853 x43395",
+      "StakeholderRoleName": "Durgan LLC",
+      "Comment": "minus",
+      "StakeholderRoleId": 563,
+      "CountryId": 265,
+      "PersonId": 715,
+      "EmailDescription": "hillard@beatty.biz",
+      "EmailId": 209,
+      "EmailAddress": "schuyler@jenkins.us",
+      "PhoneId": 420,
+      "ContactName": "Hagenes, Kautzer and Kassulke",
+      "ContactId": 623,
+      "SaleId": 154,
+      "Mrmrs": "sequi",
+      "Firstname": "Kyler",
+      "MiddleName": "Douglas, Schimmel and Wilkinson",
+      "Lastname": "Barton",
+      "SaleStakeholderId": 4,
+      "Rank": 143,
+      "Phone": "346.753.7993 x72671",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 748
         }
       }
     }
   ],
-  "ActiveErpLinks": 36,
+  "ActiveErpLinks": 931,
   "UserDefinedFields": {
-    "SuperOffice:1": "616018927",
-    "SuperOffice:2": "Stanley Huels"
+    "SuperOffice:1": "Prof. Anjali Urban Bergnaum",
+    "SuperOffice:2": "Mr. Retha Sipes II"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "in"
+    "CustomFields1": "numquam",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2024-02-05T04:22:35.4084818+01:00",
-  "PublishTo": "1998-10-29T04:22:35.4084818+01:00",
-  "PublishFrom": "2002-06-26T04:22:35.4084818+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-01-27T13:28:32.1948816+01:00",
+  "PublishTo": "2001-03-19T13:28:32.1948816+01:00",
+  "PublishFrom": "2002-07-08T13:28:32.1948816+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 875,
+      "VisibleId": 148,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     },
     {
-      "VisibleId": 875,
+      "VisibleId": 148,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldLength": 903
     }
   },
   "_Links": {

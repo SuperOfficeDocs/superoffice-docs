@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Farrell-Crooks",
-  "ProviderName": "Mante-Effertz",
-  "SortOrder": "facilis",
-  "Restriction": "deserunt",
-  "Entities": "quia",
-  "Page": 263,
-  "PageSize": 81
+  "GuiName": "Koepp, Hilpert and Kuhlman",
+  "ProviderName": "Leuschke Group",
+  "SortOrder": "consequatur",
+  "Restriction": "eum",
+  "Entities": "deleniti",
+  "Page": 489,
+  "PageSize": 388
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bins LLC",
-    "PrimaryKey": 863,
+    "EntityName": "Shanahan-Dooley",
+    "PrimaryKey": 791,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "laborum",
-        "TooltipHint": "ipsum",
-        "LinkHint": "et"
+        "DisplayValue": "cumque",
+        "TooltipHint": "nesciunt",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "pariatur",
-    "StyleHint": "totam",
+    "LinkHint": "labore",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 118
       }
     }
   }

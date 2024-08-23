@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 372
+  "ChatSessionId": 237
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 82,
-  "TopicId": 439,
+  "ChatSessionId": 282,
+  "TopicId": 157,
   "User": null,
   "Person": null,
-  "CustomerAlias": "asperiores",
-  "CustomerHost": "dolorum",
-  "CustomerName": "Weber-Ritchie",
-  "CustomerEmail": "cristobal.prohaska@satterfieldschiller.co.uk",
-  "CustomerPhone": "029.227.9818",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "optio",
+  "CustomerName": "Kub-Kozey",
+  "CustomerEmail": "angela@schuppe.co.uk",
+  "CustomerPhone": "(758)578-6305 x6360",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Roob LLC",
+  "CustomerCompanyName": "Jerde-Torp",
   "Status": "Closed",
-  "FirstMessage": "iure",
-  "LastMessage": "itaque",
-  "WhenRequested": "2004-04-15T04:22:26.1215931+02:00",
-  "WhenStarted": "2014-05-06T04:22:26.1215931+02:00",
-  "WhenEnded": "1998-01-05T04:22:26.1215931+01:00",
-  "WhenIdle": "2008-06-18T04:22:26.1215931+02:00",
-  "WhenFetched": "2011-02-17T04:22:26.1215931+01:00",
-  "SessionKey": "nihil",
-  "InitialQueuePos": 60,
-  "AlertLevel": 440,
-  "Rank": 812,
+  "FirstMessage": "quia",
+  "LastMessage": "nam",
+  "WhenRequested": "2011-06-27T13:28:21.9918508+02:00",
+  "WhenStarted": "1998-12-11T13:28:21.9918508+01:00",
+  "WhenEnded": "1998-12-10T13:28:21.9918508+01:00",
+  "WhenIdle": "2014-07-09T13:28:21.9918508+02:00",
+  "WhenFetched": "2007-02-10T13:28:21.9918508+01:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 365,
+  "AlertLevel": 721,
+  "Rank": 639,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 294,
+  "Rating": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 101
     }
   }
 }

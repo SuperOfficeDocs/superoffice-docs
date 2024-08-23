@@ -3,9 +3,9 @@ uid: ExternalUsers
 title: ExternalUsers
 description: Concrete provider for External Users - our customer, vendors etc (Audience, eJournal Customer Care Centre). See <see cref="T -SuperOffice.CRM.ArchiveLists.UsersProviderBase" /> for
 keywords: ExternalUsers archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ExternalUsers"
@@ -61,7 +61,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=mrMrs,contactFullName
+GET /api/v1/archive/ExternalUsers?$select=getAllRows,mrMrs,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

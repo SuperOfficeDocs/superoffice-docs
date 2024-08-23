@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stroman Inc and Sons",
-  "DeviceName": "Goyette, Hauck and Homenick",
-  "DeviceIdentifier": "qui",
-  "TableName": "Hamill-Reilly"
+  "ApplicationName": "Berge, Batz and Connelly",
+  "DeviceName": "Price Inc and Sons",
+  "DeviceIdentifier": "sint",
+  "TableName": "Veum, Marvin and Wolff"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quo",
-    "Value": "aut",
-    "RecordId": 941,
-    "CreatedDate": "1999-12-03T04:22:26.8755249+01:00",
-    "UpdatedDate": "2022-11-08T04:22:26.8755249+01:00",
-    "UpdatedBy": "voluptate",
-    "CreatedBy": "deleniti",
-    "TableName": "Rogahn-Berge",
+    "Key": "aut",
+    "Value": "delectus",
+    "RecordId": 931,
+    "CreatedDate": "2021-11-19T13:28:22.866653+01:00",
+    "UpdatedDate": "2018-02-19T13:28:22.866653+01:00",
+    "UpdatedBy": "deserunt",
+    "CreatedBy": "et",
+    "TableName": "Goodwin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 764
       }
     }
   }

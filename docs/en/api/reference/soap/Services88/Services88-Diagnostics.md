@@ -353,6 +353,112 @@ title: Services88.DiagnosticsAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="SendSystemMessage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SystemMessageId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="MarkdownMessage" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Expire" type="xs:dateTime" />
+            <xs:element minOccurs="0" name="Type" type="tns:SystemMessageType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="SystemMessageType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Info" />
+              <xs:enumeration value="Warning" />
+              <xs:enumeration value="UndefinedValue4" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="SystemMessageType" nillable="true" type="tns:SystemMessageType" />
+      <xs:element name="SendSystemMessageResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveSystemMessage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="OnlineappId" type="xs:int" />
+            <xs:element minOccurs="0" name="SystemMessageId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveSystemMessageResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveSystemMessageForAssociate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="OnlineappId" type="xs:int" />
+            <xs:element minOccurs="0" name="SystemMessageId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveSystemMessageForAssociateResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemMessages">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemMessagesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfSystemMessage" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfSystemMessage">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SystemMessage" nillable="true" type="tns:SystemMessage" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfSystemMessage" nillable="true" type="tns:ArrayOfSystemMessage" />
+      <xs:complexType name="SystemMessage">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MessageId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="OnlineappId" type="xs:int" />
+              <xs:element minOccurs="0" name="SystemMessageId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="MarkdownMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Expire" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Type" type="tns:SystemMessageType" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SystemMessage" nillable="true" type="tns:SystemMessage" />
+      <xs:element name="RemoveExpiredSystemMessages">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveExpiredSystemMessagesResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="PerformTasksAfterUpgrade">
         <xs:complexType>
           <xs:sequence />
@@ -703,6 +809,91 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SendSystemMessageRequest">
+    <wsdl:part name="parameters" element="tns:SendSystemMessage" />
+  </wsdl:message>
+  <wsdl:message name="SendSystemMessageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SendSystemMessageResponse">
+    <wsdl:part name="parameters" element="tns:SendSystemMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSystemMessageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageRequest">
+    <wsdl:part name="parameters" element="tns:RemoveSystemMessage" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageResponse">
+    <wsdl:part name="parameters" element="tns:RemoveSystemMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageForAssociateRequest">
+    <wsdl:part name="parameters" element="tns:RemoveSystemMessageForAssociate" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageForAssociateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageForAssociateResponse">
+    <wsdl:part name="parameters" element="tns:RemoveSystemMessageForAssociateResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveSystemMessageForAssociateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemMessagesRequest">
+    <wsdl:part name="parameters" element="tns:GetSystemMessages" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemMessagesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemMessagesResponse">
+    <wsdl:part name="parameters" element="tns:GetSystemMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemMessagesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveExpiredSystemMessagesRequest">
+    <wsdl:part name="parameters" element="tns:RemoveExpiredSystemMessages" />
+  </wsdl:message>
+  <wsdl:message name="RemoveExpiredSystemMessagesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveExpiredSystemMessagesResponse">
+    <wsdl:part name="parameters" element="tns:RemoveExpiredSystemMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveExpiredSystemMessagesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="PerformTasksAfterUpgradeRequest">
     <wsdl:part name="parameters" element="tns:PerformTasksAfterUpgrade" />
   </wsdl:message>
@@ -823,6 +1014,26 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:operation name="ResyncUsers">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsers" name="ResyncUsersRequest" message="tns:ResyncUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsersResponse" name="ResyncUsersResponse" message="tns:ResyncUsersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSystemMessage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/SendSystemMessage" name="SendSystemMessageRequest" message="tns:SendSystemMessageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/SendSystemMessageResponse" name="SendSystemMessageResponse" message="tns:SendSystemMessageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSystemMessage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessage" name="RemoveSystemMessageRequest" message="tns:RemoveSystemMessageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessageResponse" name="RemoveSystemMessageResponse" message="tns:RemoveSystemMessageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSystemMessageForAssociate">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessageForAssociate" name="RemoveSystemMessageForAssociateRequest" message="tns:RemoveSystemMessageForAssociateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessageForAssociateResponse" name="RemoveSystemMessageForAssociateResponse" message="tns:RemoveSystemMessageForAssociateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemMessages">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetSystemMessages" name="GetSystemMessagesRequest" message="tns:GetSystemMessagesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetSystemMessagesResponse" name="GetSystemMessagesResponse" message="tns:GetSystemMessagesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveExpiredSystemMessages">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveExpiredSystemMessages" name="RemoveExpiredSystemMessagesRequest" message="tns:RemoveExpiredSystemMessagesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveExpiredSystemMessagesResponse" name="RemoveExpiredSystemMessagesResponse" message="tns:RemoveExpiredSystemMessagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="PerformTasksAfterUpgrade">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
@@ -1048,6 +1259,86 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:ResyncUsersResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ResyncUsersResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ResyncUsersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSystemMessage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/SendSystemMessage" style="document" />
+      <wsdl:input name="SendSystemMessageRequest">
+        <soap:header message="tns:SendSystemMessageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SendSystemMessageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SendSystemMessageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SendSystemMessageResponse">
+        <soap:header message="tns:SendSystemMessageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SendSystemMessageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SendSystemMessageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SendSystemMessageResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSystemMessage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessage" style="document" />
+      <wsdl:input name="RemoveSystemMessageRequest">
+        <soap:header message="tns:RemoveSystemMessageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveSystemMessageResponse">
+        <soap:header message="tns:RemoveSystemMessageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSystemMessageForAssociate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveSystemMessageForAssociate" style="document" />
+      <wsdl:input name="RemoveSystemMessageForAssociateRequest">
+        <soap:header message="tns:RemoveSystemMessageForAssociateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageForAssociateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageForAssociateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveSystemMessageForAssociateResponse">
+        <soap:header message="tns:RemoveSystemMessageForAssociateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageForAssociateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageForAssociateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveSystemMessageForAssociateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemMessages">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetSystemMessages" style="document" />
+      <wsdl:input name="GetSystemMessagesRequest">
+        <soap:header message="tns:GetSystemMessagesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSystemMessagesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSystemMessagesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSystemMessagesResponse">
+        <soap:header message="tns:GetSystemMessagesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSystemMessagesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSystemMessagesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSystemMessagesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveExpiredSystemMessages">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RemoveExpiredSystemMessages" style="document" />
+      <wsdl:input name="RemoveExpiredSystemMessagesRequest">
+        <soap:header message="tns:RemoveExpiredSystemMessagesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveExpiredSystemMessagesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveExpiredSystemMessagesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveExpiredSystemMessagesResponse">
+        <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveExpiredSystemMessagesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

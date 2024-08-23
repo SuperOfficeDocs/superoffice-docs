@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=930
+POST /api/v1/Agents/User/GetUser?userId=646
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 740,
-  "Name": "Huel, Luettgen and Zieme",
-  "Rank": 616,
-  "Tooltip": "possimus",
+  "AssociateId": 259,
+  "Name": "Wolf, Haley and Walter",
+  "Rank": 344,
+  "Tooltip": "quia",
   "LicenseOwners": [
     {
-      "Name": "Schinner-Dicki",
-      "Description": "Polarised systematic architecture",
+      "Name": "Kling-Durgan",
+      "Description": "Re-engineered attitude-oriented implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 710
         }
       }
     },
     {
-      "Name": "Schinner-Dicki",
-      "Description": "Polarised systematic architecture",
+      "Name": "Kling-Durgan",
+      "Description": "Re-engineered attitude-oriented implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 710
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eos",
-      "Tooltip": "perferendis",
-      "Id": 180,
-      "Rank": 647,
+      "Value": "voluptas",
+      "Tooltip": "commodi",
+      "Id": 590,
+      "Rank": 807,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldType": "System.String",
+          "FieldLength": 901
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2014-10-07T04:22:28.0850044+02:00",
-  "Lastlogout": "2006-06-22T04:22:28.0850044+02:00",
-  "EjUserId": 167,
-  "RequestSignature": "rerum",
+  "Lastlogin": "2018-08-02T13:28:24.1635033+02:00",
+  "Lastlogout": "2011-12-05T13:28:24.1635033+01:00",
+  "EjUserId": 519,
+  "RequestSignature": "excepturi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "laborum",
-      "DisplayValue": "rerum",
+      "Value": "molestias",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldType": "System.Int32",
+          "FieldLength": 392
         }
       }
     },
     {
       "Type": null,
-      "Value": "laborum",
-      "DisplayValue": "rerum",
+      "Value": "molestias",
+      "DisplayValue": "quia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 392
+        }
+      }
+    }
+  ],
+  "UserName": "Wunsch Group",
+  "TicketCategories": [
+    {
+      "Id": 68,
+      "Name": "Crooks, Wilkinson and Baumbach",
+      "ToolTip": "Dignissimos accusamus beatae ipsum vel perferendis dolore.",
+      "Deleted": false,
+      "Rank": 268,
+      "Type": "tempore",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptatem",
+      "ColorBlock": 968,
+      "ExtraInfo": "nam",
+      "StyleHint": "tenetur",
+      "FullName": "Trey Walsh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldLength": 824
         }
       }
     }
   ],
-  "UserName": "Okuneva-Hessel",
-  "TicketCategories": [
-    {
-      "Id": 298,
-      "Name": "Roob, Ledner and Monahan",
-      "ToolTip": "Molestias eos explicabo consequatur illo.",
-      "Deleted": true,
-      "Rank": 656,
-      "Type": "inventore",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ut",
-      "ColorBlock": 343,
-      "ExtraInfo": "eum",
-      "StyleHint": "nulla",
-      "FullName": "Verda Heathcote",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
-        }
-      }
-    }
-  ],
-  "NickName": "Eichmann-Dach",
+  "NickName": "Bartell, Willms and Padberg",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "debitis"
+    "CustomFields1": "non",
+    "CustomFields2": "repellendus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mante, Paucek and McLaughlin",
-      "DisplayName": "Welch-O'Conner",
-      "Description": "Persevering needs-based info-mediaries",
-      "ToolTip": "Dolorem repudiandae iusto sapiente voluptas et accusamus tempore.",
+      "Name": "Lueilwitz, Cole and Muller",
+      "DisplayName": "Prohaska, Flatley and Padberg",
+      "Description": "Open-source object-oriented methodology",
+      "ToolTip": "Expedita sint commodi.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 608
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Crooks, Quitzon and Romaguera",
-    "ToolTip": "Consequatur voluptas molestias.",
+    "Id": 190,
+    "Name": "Moore-Goodwin",
+    "ToolTip": "Ducimus facilis odit.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "consequuntur",
-    "ColorBlock": 643,
-    "IconHint": "aut",
+    "Rank": 241,
+    "Type": "ipsa",
+    "ColorBlock": 581,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2000-12-14T04:22:35.8934712+01:00",
+    "LastChanged": "2016-12-08T13:28:32.7728753+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Abshire, Renner and Hermiston",
-        "ToolTip": "Magni tempora aut ea quam iusto aut.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "autem",
-        "ColorBlock": 193,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2013-01-05T04:22:35.8934712+01:00",
+        "Id": 919,
+        "Name": "Blanda-Wunsch",
+        "ToolTip": "Dolores ut.",
+        "Deleted": true,
+        "Rank": 981,
+        "Type": "eos",
+        "ColorBlock": 183,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2014-08-24T13:28:32.7728753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "odit",
+        "ExtraInfo": "nisi",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Paolo Aufderhar",
+        "FullName": "Elva Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 932
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "hic",
+    "ExtraInfo": "facilis",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Jalyn Hickle",
+    "FullName": "Kailyn Stephon Blanda PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldType": "System.String",
+        "FieldLength": 710
       }
     }
   }

@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 975,
-    "UserName": "Cartwright, Balistreri and Rowe",
-    "PersonId": 939,
-    "Rank": 69,
-    "Tooltip": "cum",
-    "UserGroupId": 330,
-    "EjUserId": 464,
+    "UserInfoId": 794,
+    "UserName": "Barrows-Rohan",
+    "PersonId": 533,
+    "Rank": 733,
+    "Tooltip": "ab",
+    "UserGroupId": 118,
+    "EjUserId": 459,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "voluptatem",
-      "deserunt"
+      "corporis",
+      "ea"
     ],
-    "CanLogon": true,
-    "RoleName": "Reinger, Mertz and Rogahn",
-    "RoleTooltip": "nobis",
-    "UserGroupName": "Kuhlman, Gleason and Schinner",
-    "UserGroupTooltip": "accusamus",
+    "CanLogon": false,
+    "RoleName": "Schulist-Fahey",
+    "RoleTooltip": "quibusdam",
+    "UserGroupName": "Crona, Orn and Schaefer",
+    "UserGroupTooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "id",
+  "Message": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 618
     }
   }
 }

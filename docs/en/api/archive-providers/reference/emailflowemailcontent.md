@@ -3,9 +3,9 @@ uid: EmailFlowEmailContent
 title: EmailFlowEmailContent
 description: Email flow message content.
 keywords: EmailFlowEmailContent archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "EmailFlowEmailContent"
@@ -38,19 +38,19 @@ Lists all email flow message content
 |emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
-|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this workflow?| x |
+|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
 |emailFlow/thumbnail| *None* |Thumbnail|  |
 |emailFlow/mediumThumbnail| *None* |Thumbnail|  |
-|emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
-|emailFlow/workflowName|string|Name: Name of the workflow definition| x |
-|emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
-|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
+|emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
+|emailFlow/workflowName|string|Name: Name of the flow definition| x |
+|emailFlow/workflowDescription|string|Description: Description of flow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
-|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the workflow only once?| x |
-|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
+|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
 |emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
 |emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants has successfully finished the workflow (goals criteria met)|  |
+|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
 |emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
 |emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
 |emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -194,7 +194,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=getNoRows,shipment/project/LastCompletedActivity,shipment/text
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipmentMessageThumbnail,shipment/project/projectPublish/publishedTo,shipment/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

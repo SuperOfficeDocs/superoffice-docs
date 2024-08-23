@@ -3,9 +3,9 @@ uid: satellites
 title: satellites
 keywords: mdoprovider mdo provider satellites
 description: SatelliteProvider creates a MDO list of satellites.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "satellites" MDO List

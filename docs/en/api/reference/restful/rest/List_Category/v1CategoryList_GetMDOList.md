@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=molestiae
+GET /api/v1/List/Category/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Weimann LLC",
-    "ToolTip": "Facere illo.",
-    "Deleted": false,
-    "Rank": 747,
-    "Type": "facilis",
+    "Id": 831,
+    "Name": "Hessel Inc and Sons",
+    "ToolTip": "Itaque aut nostrum voluptas laudantium hic.",
+    "Deleted": true,
+    "Rank": 637,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Casper LLC",
-        "ToolTip": "Quas aspernatur deserunt.",
+        "Id": 301,
+        "Name": "D'Amore Group",
+        "ToolTip": "Cum veniam modi ipsum.",
         "Deleted": true,
-        "Rank": 38,
-        "Type": "ullam",
+        "Rank": 187,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 261,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "aut",
-        "FullName": "Ms. Deondre Little III",
+        "IconHint": "ad",
+        "ColorBlock": 553,
+        "ExtraInfo": "sed",
+        "StyleHint": "corporis",
+        "FullName": "Ms. Christine Kreiger Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 268
+            "FieldType": "System.Int32",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 880,
-    "ExtraInfo": "rerum",
-    "StyleHint": "architecto",
-    "FullName": "Gerhard Daisy Okuneva DDS",
+    "IconHint": "aut",
+    "ColorBlock": 76,
+    "ExtraInfo": "aut",
+    "StyleHint": "maiores",
+    "FullName": "Dr. Fredrick Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 79
       }
     }
   }

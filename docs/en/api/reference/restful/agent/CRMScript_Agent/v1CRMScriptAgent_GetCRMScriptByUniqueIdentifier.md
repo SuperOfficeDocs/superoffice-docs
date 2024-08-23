@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "odio"
+  "UniqueIdentifier": "quos"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "inventore",
-  "Name": "Dooley-Ebert",
-  "Description": "Proactive interactive secured line",
-  "IncludeId": "fuga",
-  "Source": "quod",
-  "Registered": "1998-09-14T04:22:26.3090583+02:00",
-  "RegisteredBy": "sint",
-  "Updated": "2018-05-01T04:22:26.3090583+02:00",
-  "UpdatedBy": "ab",
-  "Path": "sint",
+  "UniqueIdentifier": "qui",
+  "Name": "Stroman Group",
+  "Description": "Cross-group national utilisation",
+  "IncludeId": "dolores",
+  "Source": "nam",
+  "Registered": "2016-06-26T13:28:22.3511449+02:00",
+  "RegisteredBy": "quos",
+  "Updated": "2024-07-12T13:28:22.3511449+02:00",
+  "UpdatedBy": "doloribus",
+  "Path": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldLength": 771
     }
   }
 }

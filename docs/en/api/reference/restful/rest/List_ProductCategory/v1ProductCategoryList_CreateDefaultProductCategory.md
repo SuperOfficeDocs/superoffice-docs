@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Gaylord-Romaguera",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "UdListDefinitionId": 346,
-  "Rank": 170,
+  "Id": 559,
+  "Name": "Koss Group",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "UdListDefinitionId": 474,
+  "Rank": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 931
     }
   }
 }

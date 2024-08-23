@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 260
+  "UserGroupId": 25
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 776,
+    "TargetAssignmentInfoId": 655,
     "Values": [
-      692,
-      37
+      864,
+      220
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 881,
-    "DimensionListItemDisplayName": "Pollich, Skiles and Kozey",
+    "DimensionListItem": 693,
+    "DimensionListItemDisplayName": "O'Kon-Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 811
       }
     }
   }

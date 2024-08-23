@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Powlowski-Langworth",
-    "Delimiter": "reiciendis",
-    "Flags": "aut",
-    "TotalItems": 654,
-    "UnreadItems": 660,
-    "Subscribed": true,
-    "EmailFolderId": 121,
+    "Name": "Bednar-Streich",
+    "Delimiter": "aut",
+    "Flags": "saepe",
+    "TotalItems": 179,
+    "UnreadItems": 224,
+    "Subscribed": false,
+    "EmailFolderId": 406,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 590
       }
     }
   }

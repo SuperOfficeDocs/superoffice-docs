@@ -2,10 +2,10 @@
 uid: findagent-saverestrictionsandgetcriteriainformation2
 title: FindAgent.SaveRestrictionsAndGetCriteriaInformation2 event method
 description: Scripting events called on the SaveRestrictionsAndGetCriteriaInformation2 method on the FindAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FindAgent.SaveRestrictionsAndGetCriteriaInformation2
 

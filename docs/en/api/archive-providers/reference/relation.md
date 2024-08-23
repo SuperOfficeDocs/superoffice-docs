@@ -3,9 +3,9 @@ uid: Relation
 title: Relation
 description: Data provider class for the 'Relation' archive under the company card. This class combines output from
 keywords: Relation archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Relation"
@@ -557,7 +557,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=target/registeredBy,target/who,target/email/emailLastSent,source/contactExtra/x_contact_request_relation
+GET /api/v1/archive/Relation?$select=source/supportLanguage,source/personMobilePhone/formattedNumber,source/name,target/contactAssociate/firstName,target/contactAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

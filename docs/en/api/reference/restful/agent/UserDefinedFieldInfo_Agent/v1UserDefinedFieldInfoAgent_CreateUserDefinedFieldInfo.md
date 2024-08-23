@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 179,
-  "ColumnId": 374,
-  "FieldDefault": "earum",
-  "FieldHeight": 645,
-  "FieldLabel": "dolor",
-  "FieldLeft": 731,
-  "FieldTop": 261,
+  "UDefFieldId": 587,
+  "ColumnId": 606,
+  "FieldDefault": "et",
+  "FieldHeight": 135,
+  "FieldLabel": "expedita",
+  "FieldLeft": 287,
+  "FieldTop": 127,
   "FieldType": "Checkbox",
-  "FieldWidth": 788,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 968,
+  "FormatMask": "ut",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 411,
-  "LabelLeft": 871,
-  "LabelTop": 683,
-  "LabelWidth": 364,
-  "LastVersionId": 188,
-  "ListTableId": 35,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 692,
+  "LabelLeft": 497,
+  "LabelTop": 368,
+  "LabelWidth": 529,
+  "LastVersionId": 281,
+  "ListTableId": 768,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 356,
-  "ProgId": "illum",
+  "Page1LineNo": 170,
+  "ProgId": "sint",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 647,
-  "TextLength": 690,
-  "Tooltip": "cumque",
-  "UdefIdentity": 526,
-  "UDListDefinitionId": 10,
+  "ShortLabel": "animi",
+  "TabOrder": 238,
+  "TextLength": 400,
+  "Tooltip": "ab",
+  "UdefIdentity": 539,
+  "UDListDefinitionId": 39,
   "Justification": "Center",
-  "Version": 497,
-  "TemplateVariableName": "Abbott-Rice",
-  "HasBeenPublished": true,
-  "MdoListName": "Fisher, Stark and Buckridge",
+  "Version": 462,
+  "TemplateVariableName": "Turcotte, Parisian and Miller",
+  "HasBeenPublished": false,
+  "MdoListName": "Barrows, Shanahan and Bartoletti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 584
     }
   }
 }

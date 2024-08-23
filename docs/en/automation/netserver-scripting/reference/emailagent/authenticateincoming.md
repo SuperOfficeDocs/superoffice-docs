@@ -2,10 +2,10 @@
 uid: emailagent-authenticateincoming
 title: EMailAgent.AuthenticateIncoming event method
 description: Scripting events called on the AuthenticateIncoming method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.AuthenticateIncoming
 

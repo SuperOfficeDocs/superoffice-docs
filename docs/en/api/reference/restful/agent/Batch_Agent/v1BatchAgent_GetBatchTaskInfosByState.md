@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Predovic Inc and Sons",
-    "AssociateId": 620,
-    "DetailsTable": 709,
-    "DetailsRecord": 953,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 912,
+    "Name": "Armstrong LLC",
+    "AssociateId": 252,
+    "DetailsTable": 468,
+    "DetailsRecord": 952,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quibusdam",
-      "ParameterObject2": "neque"
+      "ParameterObject1": "nulla",
+      "ParameterObject2": "magni"
     },
-    "LastStarted": "2023-03-25T04:22:25.9965968+01:00",
-    "Created": "2011-06-28T04:22:25.9965968+02:00",
-    "StartCount": 437,
-    "DatabaseSerialNumber": "1390586",
-    "Context": "odio",
-    "Result": "quaerat",
+    "LastStarted": "2001-03-13T13:28:21.8512599+01:00",
+    "Created": "2013-01-08T13:28:21.8512599+01:00",
+    "StartCount": 40,
+    "DatabaseSerialNumber": "1486852",
+    "Context": "rerum",
+    "Result": "reiciendis",
     "State": "All",
-    "Description": "Integrated mobile parallelism",
-    "Response": "dignissimos",
-    "Request": "animi",
-    "ProgressDescription": "Reactive upward-trending toolset",
-    "ProgressPercent": 990,
-    "FileName": "Sipes-Schmidt",
+    "Description": "Reduced client-server Graphical User Interface",
+    "Response": "unde",
+    "Request": "commodi",
+    "ProgressDescription": "Mandatory 5th generation initiative",
+    "ProgressPercent": 506,
+    "FileName": "Prosacco-Roob",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 415
       }
     }
   }

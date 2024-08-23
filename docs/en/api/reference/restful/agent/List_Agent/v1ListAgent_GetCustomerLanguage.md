@@ -26,7 +26,7 @@ Gets a CustomerLanguage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCustomerLanguage?customerLanguageId=992
+POST /api/v1/Agents/List/GetCustomerLanguage?customerLanguageId=928
 POST /api/v1/Agents/List/GetCustomerLanguage?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetCustomerLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Value": "illum",
-  "Tooltip": "ratione",
+  "Id": 966,
+  "Value": "similique",
+  "Tooltip": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 321
     }
   }
 }

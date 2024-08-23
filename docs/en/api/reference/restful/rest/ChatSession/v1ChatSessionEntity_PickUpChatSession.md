@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 855,
-  "TopicId": 751,
+  "ChatSessionId": 513,
+  "TopicId": 261,
   "User": null,
   "Person": null,
-  "CustomerAlias": "pariatur",
-  "CustomerHost": "possimus",
-  "CustomerName": "Kshlerin Group",
-  "CustomerEmail": "fermin@keelingstiedemann.ca",
-  "CustomerPhone": "242.595.5996 x631",
+  "CustomerAlias": "corrupti",
+  "CustomerHost": "qui",
+  "CustomerName": "Rice-Kub",
+  "CustomerEmail": "brooks@gerlach.biz",
+  "CustomerPhone": "(722)456-7764 x7590",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Murazik-Effertz",
+  "CustomerCompanyName": "Botsford LLC",
   "Status": "Closed",
-  "FirstMessage": "nemo",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2015-09-04T04:22:34.6871278+02:00",
-  "WhenStarted": "2008-04-18T04:22:34.6871278+02:00",
-  "WhenEnded": "2015-08-27T04:22:34.6871278+02:00",
-  "WhenIdle": "2018-02-25T04:22:34.6871278+01:00",
-  "WhenFetched": "2007-12-03T04:22:34.6871278+01:00",
-  "SessionKey": "assumenda",
-  "InitialQueuePos": 292,
-  "AlertLevel": 633,
-  "Rank": 889,
+  "FirstMessage": "deserunt",
+  "LastMessage": "deserunt",
+  "WhenRequested": "2012-04-04T13:28:31.3355749+02:00",
+  "WhenStarted": "1997-09-21T13:28:31.3355749+02:00",
+  "WhenEnded": "2014-12-04T13:28:31.3355749+01:00",
+  "WhenIdle": "1997-09-13T13:28:31.3355749+02:00",
+  "WhenFetched": "2018-09-01T13:28:31.3355749+02:00",
+  "SessionKey": "veritatis",
+  "InitialQueuePos": 363,
+  "AlertLevel": 790,
+  "Rank": 826,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 953,
+  "Rating": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 950
     }
   }
 }

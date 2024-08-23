@@ -2,10 +2,10 @@
 uid: aiagent-getsummarizeticketprompt
 title: AIAgent.GetSummarizeTicketPrompt event method
 description: Scripting events called on the GetSummarizeTicketPrompt method on the AIAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AIAgent.GetSummarizeTicketPrompt
 

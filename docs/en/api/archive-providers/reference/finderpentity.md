@@ -3,9 +3,9 @@ uid: FindErpEntity
 title: FindErpEntity
 description: 
 keywords: FindErpEntity archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindErpEntity"

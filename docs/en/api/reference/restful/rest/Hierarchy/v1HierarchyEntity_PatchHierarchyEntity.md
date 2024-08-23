@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facere",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facere",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 158,
+  "HierarchyId": 572,
   "Domain": "Dashboards",
-  "Name": "Russel-Murray",
-  "Fullname": "atque",
-  "ParentId": 726,
+  "Name": "Franecki Group",
+  "Fullname": "suscipit",
+  "ParentId": 465,
   "Children": [
     {
-      "HierarchyId": 477,
+      "HierarchyId": 909,
       "Domain": "Dashboards",
-      "Name": "Blanda Group",
-      "Fullname": "deleniti",
-      "ParentId": 335,
+      "Name": "Pfannerstill Inc and Sons",
+      "Fullname": "vel",
+      "ParentId": 345,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-02-09T04:22:35.0167083+01:00",
-      "RegisteredAssociateId": 684,
-      "Updated": "2012-04-14T04:22:35.0167083+02:00",
-      "UpdatedAssociateId": 548,
+      "Registered": "2023-04-28T13:28:31.7104853+02:00",
+      "RegisteredAssociateId": 967,
+      "Updated": "2002-02-10T13:28:31.7104853+01:00",
+      "UpdatedAssociateId": 551,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 421
         }
       }
     }
   ],
-  "Registered": "2012-11-14T04:22:35.0167083+01:00",
-  "RegisteredAssociateId": 168,
-  "Updated": "2000-01-03T04:22:35.0167083+01:00",
-  "UpdatedAssociateId": 580,
+  "Registered": "2007-06-12T13:28:31.7104853+02:00",
+  "RegisteredAssociateId": 775,
+  "Updated": "2023-05-27T13:28:31.7104853+02:00",
+  "UpdatedAssociateId": 489,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   },
   "_Links": {

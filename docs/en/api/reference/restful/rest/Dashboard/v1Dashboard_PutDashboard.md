@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 143,
-  "AssociateId": 671,
-  "Caption": "amet",
+  "DashboardId": 623,
+  "AssociateId": 606,
+  "Caption": "ad",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 930,
-      "Caption": "magnam",
-      "Description": "Down-sized reciprocal system engine",
-      "ChartName": "Strosin, Treutel and Klocko",
-      "ChartId": "cum",
+      "DashboardTileId": 986,
+      "Caption": "quia",
+      "Description": "Persistent object-oriented application",
+      "ChartName": "Dooley Inc and Sons",
+      "ChartId": "velit",
       "IsDefault": false,
-      "AssociateId": 183,
-      "GroupId": 814,
-      "SelectionId": 605,
-      "Config": "et",
+      "AssociateId": 400,
+      "GroupId": 896,
+      "SelectionId": 662,
+      "Config": "quo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 555,
-  "AssociateId": 677,
-  "Caption": "ratione",
+  "DashboardId": 760,
+  "AssociateId": 366,
+  "Caption": "consectetur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 792,
-      "Caption": "eaque",
-      "Description": "Networked reciprocal moratorium",
-      "ChartName": "Harvey-Fay",
-      "ChartId": "inventore",
-      "IsDefault": true,
-      "AssociateId": 861,
-      "GroupId": 481,
-      "SelectionId": 955,
-      "Config": "dolores",
+      "DashboardTileId": 989,
+      "Caption": "occaecati",
+      "Description": "Mandatory demand-driven attitude",
+      "ChartName": "Kling Group",
+      "ChartId": "voluptatem",
+      "IsDefault": false,
+      "AssociateId": 649,
+      "GroupId": 959,
+      "SelectionId": 221,
+      "Config": "suscipit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldLength": 577
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldLength": 738
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

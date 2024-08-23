@@ -3,9 +3,9 @@ uid: Links
 title: Links
 description: 
 keywords: Links archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Links"
@@ -1472,7 +1472,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/associateId,person/retired,project/projectUdef/SuperOffice:8,sale/stageRank,sale/hasQuote
+GET /api/v1/archive/Links?$select=getAllRows,contact/category,contact/contactAssociate/associateDbId,person/personPager/description,person/email/emailLastSent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

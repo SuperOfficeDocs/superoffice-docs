@@ -2,10 +2,10 @@
 uid: reportagent-deletereport
 title: ReportAgent.DeleteReport event method
 description: Scripting events called on the DeleteReport method on the ReportAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ReportAgent.DeleteReport
 

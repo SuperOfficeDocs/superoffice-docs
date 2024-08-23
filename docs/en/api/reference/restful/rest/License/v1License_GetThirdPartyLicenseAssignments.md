@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 311,
-    "Tooltip": "accusamus",
+    "Total": 36,
+    "Tooltip": "voluptas",
     "CanAssign": true,
-    "Free": 602,
-    "InUse": 184,
-    "IsHidden": false,
+    "Free": 74,
+    "InUse": 223,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 368,
-    "Name": "Greenholt LLC",
-    "Description": "Open-architected fault-tolerant capacity",
-    "PrerequisiteModuleName": "Lakin-Corkery",
-    "SortOrder": 625,
-    "ExtraFlags": 87,
+    "ModuleLicenseId": 483,
+    "Name": "Nitzsche, Barton and Lehner",
+    "Description": "Configurable high-level methodology",
+    "PrerequisiteModuleName": "Gerhold, Rolfson and Kunde",
+    "SortOrder": 683,
+    "ExtraFlags": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 807
       }
     }
   }

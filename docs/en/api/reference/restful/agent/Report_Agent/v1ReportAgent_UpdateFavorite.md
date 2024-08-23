@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 236,
+  "ReportId": 639,
   "ReportCategory": "All",
-  "Description": "Balanced fault-tolerant moderator",
+  "Description": "Centralized foreground archive",
   "ReportLayout": "CalendarMonth",
-  "Name": "Boyer, Collins and Dickens",
-  "AssociateId": 168,
-  "TemplateId": 693,
+  "Name": "Considine-Prosacco",
+  "AssociateId": 230,
+  "TemplateId": 451,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

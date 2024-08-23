@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Christiansen-Lesch",
-    "ToolTip": "Placeat minus aut fuga magnam.",
-    "Deleted": true,
-    "Rank": 32,
-    "Type": "beatae",
-    "ColorBlock": 996,
-    "IconHint": "nemo",
+    "Id": 956,
+    "Name": "Toy-Moen",
+    "ToolTip": "Ullam totam quaerat dolor rerum.",
+    "Deleted": false,
+    "Rank": 627,
+    "Type": "praesentium",
+    "ColorBlock": 643,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2024-03-20T04:22:35.9403427+01:00",
+    "LastChanged": "2006-01-17T13:28:32.8353602+01:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Marks-Ferry",
-        "ToolTip": "Voluptatibus alias sit quia ullam aut eveniet sit.",
-        "Deleted": false,
-        "Rank": 347,
-        "Type": "odio",
-        "ColorBlock": 986,
-        "IconHint": "debitis",
+        "Id": 999,
+        "Name": "Bashirian, Volkman and Towne",
+        "ToolTip": "Dolores repellendus assumenda culpa impedit dolore maiores.",
+        "Deleted": true,
+        "Rank": 652,
+        "Type": "rem",
+        "ColorBlock": 285,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2011-10-12T04:22:35.9403427+02:00",
+        "LastChanged": "2006-07-13T13:28:32.8353602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Mrs. Alvera Margarett Murazik DVM"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Alysa Frami"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "et",
+    "ExtraInfo": "illo",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Elton Beatty Sr."
+    "FullName": "Desiree Herman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Huels-Effertz",
-    "ToolTip": "Sint vel facilis aperiam.",
-    "Deleted": false,
-    "Rank": 159,
-    "Type": "explicabo",
-    "ColorBlock": 28,
-    "IconHint": "quia",
+    "Id": 182,
+    "Name": "Kuhic, Walter and Brown",
+    "ToolTip": "Et iste.",
+    "Deleted": true,
+    "Rank": 531,
+    "Type": "placeat",
+    "ColorBlock": 319,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2022-04-22T04:22:35.9403427+02:00",
+    "LastChanged": "2000-04-27T13:28:32.8353602+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Cormier, Adams and Champlin",
-        "ToolTip": "Repellat et iure beatae sint necessitatibus.",
+        "Id": 572,
+        "Name": "Turcotte, Schulist and Pollich",
+        "ToolTip": "Consequatur doloremque ut voluptas amet fugit.",
         "Deleted": false,
-        "Rank": 475,
-        "Type": "enim",
-        "ColorBlock": 589,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2014-12-08T04:22:35.9403427+01:00",
+        "Rank": 124,
+        "Type": "laudantium",
+        "ColorBlock": 525,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "1997-11-13T13:28:32.8353602+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Pearlie Beahan",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Prof. Rene Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 928
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Mariam Hermann V",
+    "ExtraInfo": "neque",
+    "StyleHint": "incidunt",
+    "Hidden": true,
+    "FullName": "Mr. Nettie Hickle I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 91
       }
     }
   }

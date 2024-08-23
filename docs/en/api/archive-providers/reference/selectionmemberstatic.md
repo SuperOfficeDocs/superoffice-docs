@@ -3,9 +3,9 @@ uid: SelectionMemberStatic
 title: SelectionMemberStatic
 description: Provider for the Selection Member table
 keywords: SelectionMemberStatic archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionMemberStatic"

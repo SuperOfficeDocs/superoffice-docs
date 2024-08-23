@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 621,
-  "ColumnId": 704,
-  "FieldDefault": "ullam",
-  "FieldHeight": 165,
-  "FieldLabel": "aut",
-  "FieldLeft": 717,
-  "FieldTop": 649,
+  "UDefFieldId": 62,
+  "ColumnId": 390,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 542,
+  "FieldLabel": "expedita",
+  "FieldLeft": 238,
+  "FieldTop": 729,
   "FieldType": "Checkbox",
-  "FieldWidth": 858,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 283,
+  "FormatMask": "tempora",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 167,
-  "LabelLeft": 724,
-  "LabelTop": 415,
-  "LabelWidth": 62,
-  "LastVersionId": 688,
-  "ListTableId": 254,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 362,
+  "LabelLeft": 674,
+  "LabelTop": 660,
+  "LabelWidth": 495,
+  "LastVersionId": 755,
+  "ListTableId": 827,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 261,
-  "ProgId": "magni",
+  "Page1LineNo": 471,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "rerum",
-  "TabOrder": 492,
-  "TextLength": 326,
-  "Tooltip": "libero",
-  "UdefIdentity": 725,
-  "UDListDefinitionId": 459,
+  "ShortLabel": "error",
+  "TabOrder": 724,
+  "TextLength": 443,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 68,
+  "UDListDefinitionId": 15,
   "Justification": "Center",
-  "Version": 227,
-  "TemplateVariableName": "Willms, Johnston and Mosciski",
-  "HasBeenPublished": true,
-  "MdoListName": "Hahn-Balistreri",
+  "Version": 103,
+  "TemplateVariableName": "Kovacek, Ziemann and Hegmann",
+  "HasBeenPublished": false,
+  "MdoListName": "Kertzmann, Langosh and Boyle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

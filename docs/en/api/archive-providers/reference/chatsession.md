@@ -3,9 +3,9 @@ uid: ChatSession
 title: ChatSession
 description: Archive provider for listing chat session and related data to a chat
 keywords: ChatSession archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ChatSession"
@@ -481,7 +481,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=getAllRows,recordTypeText,associate/contactFullName,person/title,person/hasCompany
+GET /api/v1/archive/ChatSession?$select=person/personAssociate/usergroup,person/personAssociate/isActiveText,person/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

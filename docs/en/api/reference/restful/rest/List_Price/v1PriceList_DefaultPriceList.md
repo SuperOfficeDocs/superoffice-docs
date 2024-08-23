@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 434,
-  "ERPPriceListKey": "velit",
-  "QuoteConnectionId": 547,
-  "Name": "Sipes, Toy and Hilll",
-  "Description": "Integrated well-modulated application",
-  "Currency": "aut",
-  "CurrencyName": "Thompson-Dare",
-  "ValidFrom": "2015-02-22T04:22:36.0340897+01:00",
-  "ValidTo": "2002-12-07T04:22:36.0340897+01:00",
-  "IsActive": false,
+  "PriceListId": 710,
+  "ERPPriceListKey": "consequatur",
+  "QuoteConnectionId": 400,
+  "Name": "VonRueden-Greenfelder",
+  "Description": "Programmable disintermediate data-warehouse",
+  "Currency": "qui",
+  "CurrencyName": "Larson-Howell",
+  "ValidFrom": "2009-09-11T13:28:32.9290905+02:00",
+  "ValidTo": "2021-05-30T13:28:32.9290905+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 422
     }
   }
 }

@@ -82,6 +82,7 @@ OK
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
 | Headers | object | Incoming headers if sent by the context which the script is executed from |
+| TraceExecution | bool | If true, then the execution will be traced |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -91,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 871,
+  "CRMScriptId": 538,
   "EventData": null
 }
 ```
@@ -109,41 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "temporibus",
-    "InputValues2": "corrupti"
+    "InputValues1": "dolores",
+    "InputValues2": "id"
   },
   "BlockExecution": true,
-  "NavigateTo": "animi",
-  "Message": "numquam",
-  "ShowDialog": "neque",
+  "NavigateTo": "dolor",
+  "Message": "placeat",
+  "ShowDialog": "qui",
   "OutputValues": {
-    "OutputValues1": "eaque",
-    "OutputValues2": "aut"
+    "OutputValues1": "repudiandae",
+    "OutputValues2": "accusamus"
   },
   "StateValues": {
-    "StateValues1": "magnam",
-    "StateValues2": "sed"
+    "StateValues1": "impedit",
+    "StateValues2": "exercitationem"
   },
-  "Exception": "atque",
+  "Exception": "qui",
   "ParserValues": {
-    "ParserValues1": "at",
-    "ParserValues2": "aperiam"
+    "ParserValues1": "labore",
+    "ParserValues2": "dolor"
   },
   "CgiVariables": {
-    "CgiVariables1": "quo",
-    "CgiVariables2": "quasi"
+    "CgiVariables1": "incidunt",
+    "CgiVariables2": "consectetur"
   },
-  "CgiContent": "voluptatem",
+  "CgiContent": "deserunt",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "pariatur"
+    "Headers1": "in",
+    "Headers2": "delectus"
   },
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 158
     }
   }
 }

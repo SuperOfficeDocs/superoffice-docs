@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Welch Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 614,
-    "UdListDefinitionId": 853
+    "HeadingId": 740,
+    "Name": "Pouros, Miller and Rempel",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "Rank": 769,
+    "UdListDefinitionId": 83
   },
   {
-    "HeadingId": 499,
-    "Name": "Welch Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 614,
-    "UdListDefinitionId": 853
+    "HeadingId": 740,
+    "Name": "Pouros, Miller and Rempel",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "Rank": 769,
+    "UdListDefinitionId": 83
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 278,
-    "Name": "Waelchi, Willms and Kautzer",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 376,
-    "UdListDefinitionId": 637,
+    "HeadingId": 135,
+    "Name": "Schowalter, Lebsack and Pollich",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 325,
+    "UdListDefinitionId": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 683
       }
     }
   }

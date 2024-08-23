@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 692,
-  "DocumentId": 843,
+  "SelectionId": 732,
+  "DocumentId": 390,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "nulla",
-  "AlwaysUseCustomAttention": false,
+  "CustomAttention": "quisquam",
+  "AlwaysUseCustomAttention": true,
   "SaveDocument": true,
-  "CustomMailBody": "quia",
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 740,
-  "AddPersonInterest": 889,
-  "RemoveCompanyInterest": 630,
-  "RemovePersonInterest": 971,
+  "AddCompanyInterest": 489,
+  "AddPersonInterest": 438,
+  "RemoveCompanyInterest": 545,
+  "RemovePersonInterest": 703,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 378,
-  "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "sint",
-  "ExtraInfo": "velit",
+  "TestOnly": false,
+  "ProjectId": 45,
+  "IncludeRetiredRecipients": true,
+  "IncludeStoppedRecipients": false,
+  "CustomMailSubject": "doloribus",
+  "ExtraInfo": "quasi",
   "Synchronous": true,
-  "IsTemporarySelection": false,
+  "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   }
 }

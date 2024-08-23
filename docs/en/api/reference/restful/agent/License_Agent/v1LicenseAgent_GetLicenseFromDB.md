@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schamberger, Vandervort and Jenkins"
+  "OwnerName": "O'Connell-Aufderhar"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 648,
-      "NumberOfLicensesFree": 718,
-      "NumberOfLicensesAdded": 889,
-      "NumberOfLicensesNewTotal": 651,
-      "NumberOfLicensesNewFree": 951,
-      "NumberOfLicensesTotal": 435
+      "NumberOfLicensesInUse": 930,
+      "NumberOfLicensesFree": 971,
+      "NumberOfLicensesAdded": 242,
+      "NumberOfLicensesNewTotal": 106,
+      "NumberOfLicensesNewFree": 786,
+      "NumberOfLicensesTotal": 968
     }
   ],
-  "AccumulatedNextCheckDate": "2018-03-01T04:22:26.8911471+01:00"
+  "AccumulatedNextCheckDate": "2017-01-27T13:28:22.866653+01:00"
 }
 ```

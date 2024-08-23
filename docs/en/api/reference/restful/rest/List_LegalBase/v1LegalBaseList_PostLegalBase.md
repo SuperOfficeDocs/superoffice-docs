@@ -75,15 +75,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 549,
-  "Name": "Aufderhar-Thiel",
-  "Tooltip": "facere",
-  "Rank": 433,
-  "Key": "sunt",
+  "LegalBaseId": 996,
+  "Name": "Hilpert Inc and Sons",
+  "Tooltip": "est",
+  "Rank": 353,
+  "Key": "cum",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 856,
-  "Name": "Wisoky-Miller",
-  "Tooltip": "provident",
-  "Rank": 384,
-  "Key": "dicta",
-  "Deleted": true,
+  "LegalBaseId": 742,
+  "Name": "Champlin, Bradtke and Hintz",
+  "Tooltip": "et",
+  "Rank": 405,
+  "Key": "exercitationem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 401
     }
   }
 }

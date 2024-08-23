@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 436,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "voluptatum",
-  "Name": "Schroeder, Hand and Roberts",
-  "Description": "Centralized asynchronous secured line",
-  "Code": "ut",
-  "PriceUnit": "quia",
-  "QuantityUnit": "quas",
-  "IsSubscription": true,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 12156.786,
-  "ItemNumber": "1325754",
+  "ProductId": 481,
+  "ERPProductKey": "in",
+  "ERPPriceListKey": "dolor",
+  "Name": "Ernser Inc and Sons",
+  "Description": "Enterprise-wide demand-driven emulation",
+  "Code": "rerum",
+  "PriceUnit": "voluptatibus",
+  "QuantityUnit": "sit",
+  "IsSubscription": false,
+  "SubscriptionUnit": "laboriosam",
+  "DefaultSubscriptionQuantity": 15096.478,
+  "ItemNumber": "500942",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "fugiat",
-  "VAT": 6167.7119999999995,
-  "VATInfo": "qui",
-  "UnitCost": 17619.347999999998,
-  "UnitMinimumPrice": 25617.316,
-  "UnitListPrice": 8477.47,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "nostrum",
-  "Rights": "expedita",
-  "Rule": "minus",
+  "ProductFamilyKey": "inventore",
+  "ProductTypeKey": "corrupti",
+  "VAT": 16409.624,
+  "VATInfo": "nihil",
+  "UnitCost": 26682.876,
+  "UnitMinimumPrice": 20208.032,
+  "UnitListPrice": 6227.258,
+  "InAssortment": false,
+  "Supplier": "quos",
+  "SupplierCode": "ut",
+  "Rights": "est",
+  "Rule": "ratione",
   "ExtraInfo": [
     {
-      "Name": "Beatty, Farrell and Wuckert",
-      "Value": "perferendis",
+      "Name": "Casper-Lakin",
+      "Value": "repellat",
       "Type": "Image"
     },
     {
-      "Name": "Beatty, Farrell and Wuckert",
-      "Value": "perferendis",
+      "Name": "Casper-Lakin",
+      "Value": "repellat",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptate",
-  "ExtraField1": "similique",
-  "ExtraField2": "quas",
-  "ExtraField3": "et",
-  "ExtraField4": "quia",
-  "ExtraField5": "labore",
-  "InStock": 23226.074
+  "RawExtraInfo": "reprehenderit",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "soluta",
+  "ExtraField3": "id",
+  "ExtraField4": "et",
+  "ExtraField5": "et",
+  "InStock": 7590.548
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 967,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "eum",
-  "Name": "Crist Inc and Sons",
-  "Description": "Realigned incremental knowledge base",
-  "Code": "perspiciatis",
-  "PriceUnit": "cumque",
-  "QuantityUnit": "nam",
+  "ProductId": 949,
+  "ERPProductKey": "neque",
+  "ERPPriceListKey": "non",
+  "Name": "Fahey, Willms and O'Keefe",
+  "Description": "Front-line empowering budgetary management",
+  "Code": "maiores",
+  "PriceUnit": "ex",
+  "QuantityUnit": "beatae",
   "IsSubscription": false,
-  "SubscriptionUnit": "magni",
-  "DefaultSubscriptionQuantity": 23360.836,
-  "ItemNumber": "1678373",
+  "SubscriptionUnit": "eos",
+  "DefaultSubscriptionQuantity": 26065.478,
+  "ItemNumber": "1014342",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iusto",
-  "ProductTypeKey": "in",
-  "VAT": 4603.846,
-  "VATInfo": "sit",
-  "UnitCost": 20101.476,
-  "UnitMinimumPrice": 4904.71,
-  "UnitListPrice": 3303.236,
-  "InAssortment": true,
-  "Supplier": "tempore",
-  "SupplierCode": "nam",
-  "Rights": "est",
-  "Rule": "sint",
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "corrupti",
+  "VAT": 5741.4879999999994,
+  "VATInfo": "consequatur",
+  "UnitCost": 23106.982,
+  "UnitMinimumPrice": 19976.115999999998,
+  "UnitListPrice": 8888.024,
+  "InAssortment": false,
+  "Supplier": "ipsa",
+  "SupplierCode": "ut",
+  "Rights": "doloribus",
+  "Rule": "nam",
   "ExtraInfo": [
     {
-      "Name": "Stokes, Altenwerth and Johnson",
-      "Value": "neque",
+      "Name": "Schuster LLC",
+      "Value": "nostrum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 702
+          "FieldLength": 495
         }
       }
     },
     {
-      "Name": "Stokes, Altenwerth and Johnson",
-      "Value": "neque",
+      "Name": "Schuster LLC",
+      "Value": "nostrum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 702
+          "FieldLength": 495
         }
       }
     }
   ],
-  "RawExtraInfo": "exercitationem",
-  "ExtraField1": "quis",
-  "ExtraField2": "a",
-  "ExtraField3": "nam",
-  "ExtraField4": "in",
-  "ExtraField5": "nesciunt",
-  "InStock": 8919.364,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "non",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "non",
+  "ExtraField4": "quia",
+  "ExtraField5": "ea",
+  "InStock": 13031.172,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldLength": 53
     }
   }
 }

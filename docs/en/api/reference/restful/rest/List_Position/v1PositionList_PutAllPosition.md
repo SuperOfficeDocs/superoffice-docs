@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Schaefer-Watsica",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 91,
-    "Rank": 457
+    "Id": 208,
+    "Name": "Lakin, Turner and Witting",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 735,
+    "Rank": 85
   },
   {
-    "Id": 382,
-    "Name": "Schaefer-Watsica",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 91,
-    "Rank": 457
+    "Id": 208,
+    "Name": "Lakin, Turner and Witting",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 735,
+    "Rank": 85
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Douglas-Strosin",
-    "Tooltip": "sint",
+    "Id": 404,
+    "Name": "Schaefer, Powlowski and Treutel",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "UdListDefinitionId": 358,
-    "Rank": 248,
+    "UdListDefinitionId": 560,
+    "Rank": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 256
       }
     }
   }

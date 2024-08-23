@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 601,
-    "Name": "Metz, Farrell and Kovacek",
-    "Description": "Enterprise-wide user-facing throughput",
-    "DeltaJson": "dolorum",
+    "ConfigurableScreenDeltaId": 929,
+    "Name": "Lesch, Altenwerth and Cummerata",
+    "Description": "Digitized encompassing attitude",
+    "DeltaJson": "id",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "a",
-    "UpdatedDate": "2020-04-16T04:22:26.1684694+02:00",
-    "CreatedDate": "2021-11-02T04:22:26.1684694+01:00",
+    "RecipeId": "ipsum",
+    "UpdatedDate": "2021-01-07T13:28:22.17931+01:00",
+    "CreatedDate": "2001-10-19T13:28:22.17931+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      713,
-      755
+      592,
+      496
     ],
-    "AppliesToKey": "vero",
+    "AppliesToKey": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 993
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kovacek, Bradtke and West",
-  "ListItemId": 716
+  "UdListDefinitionName": "O'Kon, Cummerata and Welch",
+  "ListItemId": 348
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Fadel, Wolff and Welch",
-    "ToolTip": "Tempore ipsum ut aperiam.",
-    "Deleted": false,
-    "Rank": 75,
-    "Type": "hic",
-    "ColorBlock": 116,
-    "IconHint": "aut",
+    "Id": 891,
+    "Name": "Deckow, Wilkinson and Crona",
+    "ToolTip": "Aut sed excepturi eum magni rerum quasi.",
+    "Deleted": true,
+    "Rank": 542,
+    "Type": "eos",
+    "ColorBlock": 658,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2012-04-28T04:22:26.9536139+02:00",
+    "LastChanged": "1997-04-18T13:28:22.9294051+02:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Weber Group",
-        "ToolTip": "Consequuntur et dolores ab voluptatem est sunt rerum.",
-        "Deleted": false,
-        "Rank": 665,
-        "Type": "eos",
-        "ColorBlock": 909,
-        "IconHint": "dolor",
+        "Id": 370,
+        "Name": "Aufderhar, Schiller and Morar",
+        "ToolTip": "Natus quia illo recusandae.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "at",
+        "ColorBlock": 963,
+        "IconHint": "facilis",
         "Selected": true,
-        "LastChanged": "2015-05-14T04:22:26.969259+02:00",
+        "LastChanged": "2009-05-17T13:28:22.9294051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Marianne Wava Roob",
+        "ExtraInfo": "et",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Ms. Aurelio Leatha Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 201
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "quia",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Miss Hilbert Caitlyn Dare",
+    "FullName": "Vito Linwood Heathcote Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   }

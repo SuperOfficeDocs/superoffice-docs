@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 479,
-    "Name": "Spencer Group",
-    "PersonId": 379,
-    "Rank": 978,
-    "Tooltip": "eligendi",
+    "AssociateId": 839,
+    "Name": "Wilkinson, Hagenes and Schimmel",
+    "PersonId": 604,
+    "Rank": 1001,
+    "Tooltip": "dolores",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 194,
-    "FullName": "Mrs. Esther Griffin Runolfsdottir IV",
-    "FormalName": "Purdy Group",
+    "GroupIdx": 761,
+    "FullName": "Prince Dietrich",
+    "FormalName": "Robel Inc and Sons",
     "Deleted": false,
-    "EjUserId": 858,
-    "UserName": "Koss-West",
+    "EjUserId": 727,
+    "UserName": "Beier LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 854
       }
     }
   }

@@ -3,9 +3,9 @@ uid: legalbase
 title: legalbase
 keywords: mdoprovider mdo provider legalbase
 description: MDO list provider for Legal base
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "legalbase" MDO List

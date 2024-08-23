@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Macejkovic LLC"
+  "ParameterName": "Feil-Kunze"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 136,
-  "Name": "Kuhn LLC",
-  "Value": "sit",
-  "CreatedDate": "2005-03-28T04:22:25.9965968+02:00",
-  "UpdatedDate": "2006-11-16T04:22:25.9965968+01:00",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "ducimus",
+  "AudienceLayoutId": 115,
+  "Name": "Waters, Veum and O'Kon",
+  "Value": "rerum",
+  "CreatedDate": "2015-07-24T13:28:21.8356378+02:00",
+  "UpdatedDate": "2012-02-17T13:28:21.8356378+01:00",
+  "CreatedBy": "sit",
+  "UpdatedBy": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldLength": 419
     }
   }
 }

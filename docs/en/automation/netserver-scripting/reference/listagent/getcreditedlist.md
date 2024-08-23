@@ -2,10 +2,10 @@
 uid: listagent-getcreditedlist
 title: ListAgent.GetCreditedList event method
 description: Scripting events called on the GetCreditedList method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetCreditedList
 

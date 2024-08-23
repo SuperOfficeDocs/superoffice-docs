@@ -2,10 +2,10 @@
 uid: documentmigrationagent-hasdocumentstomigrate
 title: DocumentMigrationAgent.HasDocumentsToMigrate event method
 description: Scripting events called on the HasDocumentsToMigrate method on the DocumentMigrationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DocumentMigrationAgent.HasDocumentsToMigrate
 

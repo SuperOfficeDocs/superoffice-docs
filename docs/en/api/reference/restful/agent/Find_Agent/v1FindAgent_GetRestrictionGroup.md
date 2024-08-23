@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequuntur",
-  "ProviderName": "Feeney LLC",
-  "StorageKey": "recusandae",
-  "Rank": 767,
-  "Context": "laboriosam"
+  "StorageType": "ullam",
+  "ProviderName": "Reilly Inc and Sons",
+  "StorageKey": "sit",
+  "Rank": 276,
+  "Context": "consequuntur"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nitzsche Group",
-  "Description": "Function-based non-volatile ability",
-  "Rank": 656,
+  "Name": "Mayert, Glover and McKenzie",
+  "Description": "Fully-configurable tertiary array",
+  "Rank": 556,
   "Restrictions": [
     {
-      "Name": "Windler-Farrell",
-      "Operator": "aliquam",
+      "Name": "Bednar, Conroy and Hyatt",
+      "Operator": "et",
       "Values": [
-        "natus",
-        "sed"
+        "in",
+        "sunt"
       ],
       "DisplayValues": [
-        "at",
-        "praesentium"
+        "molestiae",
+        "fuga"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 936,
+      "InterParenthesis": 618,
       "InterOperator": "And",
-      "UniqueHash": 297
+      "UniqueHash": 113
     }
   ]
 }

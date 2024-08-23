@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 228,
+  "EmailId": 890,
   "AttachmentIds": [
-    "hic",
-    "autem"
+    "maiores",
+    "odio"
   ],
   "IncludeAttachments": false
 }
@@ -124,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 397,
-      "ContactName": "Bogisich-Ebert",
-      "PersonId": 910,
-      "PersonName": "Nikolaus-Grady",
-      "AssociateId": 48,
-      "Address": "omnis",
-      "EmailId": 523,
+      "ContactId": 528,
+      "ContactName": "Baumbach, Franecki and Graham",
+      "PersonId": 823,
+      "PersonName": "Heller Inc and Sons",
+      "AssociateId": 702,
+      "Address": "tenetur",
+      "EmailId": 125,
       "DuplicatePersonIds": [
-        601,
-        496
+        259,
+        680
       ],
-      "Name": "Lesch-Cronin",
+      "Name": "Hegmann-Yundt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 901
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 990,
-      "ContactName": "Kiehn Group",
-      "PersonId": 828,
-      "PersonName": "Schuster Inc and Sons",
-      "AssociateId": 773,
-      "Address": "velit",
-      "EmailId": 250,
+      "ContactId": 846,
+      "ContactName": "Schamberger-Marvin",
+      "PersonId": 675,
+      "PersonName": "Schmitt LLC",
+      "AssociateId": 449,
+      "Address": "qui",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        465,
-        798
+        560,
+        211
       ],
-      "Name": "Mueller, Schuppe and Bechtelar",
+      "Name": "Brown Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 529
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 460,
-      "ContactName": "Purdy-Hagenes",
-      "PersonId": 565,
-      "PersonName": "McKenzie, Collier and Durgan",
-      "AssociateId": 351,
-      "Address": "cumque",
-      "EmailId": 263,
+      "ContactId": 661,
+      "ContactName": "Weber, Senger and Walsh",
+      "PersonId": 678,
+      "PersonName": "Graham, Lindgren and Eichmann",
+      "AssociateId": 758,
+      "Address": "vero",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        928,
-        338
+        517,
+        427
       ],
-      "Name": "Effertz Group",
+      "Name": "Torp-Schneider",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 613
         }
       }
     }
   ],
-  "Subject": "expedita",
-  "HTMLBody": "fuga",
+  "Subject": "dolores",
+  "HTMLBody": "maxime",
   "From": null,
-  "Sent": "2016-07-25T04:22:26.7647342+02:00",
-  "Size": 902,
+  "Sent": "2004-10-09T13:28:22.7416819+02:00",
+  "Size": 230,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eligendi",
-  "PlainBody": "et",
+  "MessageID": "quasi",
+  "PlainBody": "distinctio",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 821,
+  "ServerId": 208,
   "Attachments": [
     {
-      "Description": "Sharable intermediate pricing structure",
-      "Filename": "voluptatem",
-      "Size": 704,
-      "Type": "natus",
-      "Encoding": "officia",
-      "Id": "est",
-      "Disposition": "repudiandae",
+      "Description": "Team-oriented 24 hour pricing structure",
+      "Filename": "veritatis",
+      "Size": 534,
+      "Type": "nisi",
+      "Encoding": "delectus",
+      "Id": "dolor",
+      "Disposition": "praesentium",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 657
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hartmann, Beier and Wilkinson",
+      "Name": "Crona LLC",
       "Values": [
-        "sed",
-        "blanditiis"
+        "rem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 347
         }
       }
     },
     {
-      "Name": "Hartmann, Beier and Wilkinson",
+      "Name": "Crona LLC",
       "Values": [
-        "sed",
-        "blanditiis"
+        "rem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 347
         }
       }
     }
   ],
-  "FolderName": "Cremin, Grady and Mills",
-  "EmailItemId": 494,
-  "AccountId": 146,
-  "ReceivedAt": "2024-02-07T04:22:26.7647342+01:00",
+  "FolderName": "Deckow Group",
+  "EmailItemId": 654,
+  "AccountId": 551,
+  "ReceivedAt": "2001-09-07T13:28:22.7416819+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-08-02T04:22:26.7647342+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-12-03T13:28:22.7416819+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 178
     }
   }
 }

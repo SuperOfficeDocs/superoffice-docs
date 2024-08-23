@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
+GET /api/v1/List/DeliveryTerm/MDOItems?query=cupiditate
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Muller Group",
-    "ToolTip": "Sapiente vero.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "et",
+    "Id": 510,
+    "Name": "Pouros Group",
+    "ToolTip": "Aperiam quasi odit harum temporibus fugiat.",
+    "Deleted": false,
+    "Rank": 90,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Rippin-Schulist",
-        "ToolTip": "Ipsum sit enim non est vero.",
+        "Id": 165,
+        "Name": "Halvorson-Christiansen",
+        "ToolTip": "Porro tempore.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "quae",
+        "Rank": 246,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 5,
-        "ExtraInfo": "quos",
-        "StyleHint": "eum",
-        "FullName": "Mariano Kariane Spencer I",
+        "IconHint": "repudiandae",
+        "ColorBlock": 247,
+        "ExtraInfo": "aut",
+        "StyleHint": "sequi",
+        "FullName": "Cruz Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldType": "System.String",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 250,
-    "ExtraInfo": "officia",
-    "StyleHint": "numquam",
-    "FullName": "Ansley Grady",
+    "IconHint": "odio",
+    "ColorBlock": 170,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nulla",
+    "FullName": "Izabella Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 292
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: diagnosticsagent-script-events
 title: DiagnosticsAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # DiagnosticsAgent method listing
@@ -24,9 +24,14 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDiagnosticsAge
 * [GetCacheState](getcachestate.md)
 * [GetEntityCountsForAllUsers](getentitycountsforallusers.md)
 * [GetEntityCountsForCurrentUser](getentitycountsforcurrentuser.md)
+* [GetSystemMessages](getsystemmessages.md)
 * [GetWebAppUsagesForPeriod](getwebappusagesforperiod.md)
 * [LogViewState](logviewstate.md)
 * [PerformTasksAfterUpgrade](performtasksafterupgrade.md)
+* [RemoveExpiredSystemMessages](removeexpiredsystemmessages.md)
+* [RemoveSystemMessage](removesystemmessage.md)
+* [RemoveSystemMessageForAssociate](removesystemmessageforassociate.md)
 * [ResyncUsers](resyncusers.md)
+* [SendSystemMessage](sendsystemmessage.md)
 * [WebAppUsageExistsInPeriod](webappusageexistsinperiod.md)
 

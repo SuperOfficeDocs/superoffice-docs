@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=est
-GET /api/v1/TriggerScript?$top=825
-GET /api/v1/TriggerScript?$skip=771
+GET /api/v1/TriggerScript?$entities=veniam
+GET /api/v1/TriggerScript?$top=777
+GET /api/v1/TriggerScript?$skip=117
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=et
+GET /api/v1/TriggerScript?$context=voluptatem
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=True
+GET /api/v1/TriggerScript?$jsonSafe=False
 GET /api/v1/TriggerScript?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eos",
+  "odata.nextLink": "reprehenderit",
   "value": [
     {
-      "PrimaryKey": 6870,
+      "PrimaryKey": 9715,
       "EntityName": "sale",
-      "saleId": 6870,
-      "contactId": 2399,
-      "name": "Schuster-Cartwright"
+      "saleId": 9715,
+      "contactId": 4062,
+      "name": "Hamill, Beatty and Robel"
     },
     {
-      "PrimaryKey": 532,
+      "PrimaryKey": 5761,
       "EntityName": "sale",
-      "saleId": 532,
-      "contactId": 4619,
-      "name": "Stiedemann LLC"
+      "saleId": 5761,
+      "contactId": 6282,
+      "name": "Abshire Inc and Sons"
     }
   ]
 }

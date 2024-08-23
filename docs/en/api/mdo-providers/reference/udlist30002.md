@@ -3,9 +3,9 @@ uid: udlist30002
 title: udlist30002
 keywords: mdoprovider mdo provider udlist30002
 description: MDO provider for the ChatService
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "udlist30002" MDO List

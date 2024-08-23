@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dolore",
-  "PersonId": 262,
-  "Mrmrs": "vero",
-  "Firstname": "Obie",
-  "Lastname": "Lebsack",
-  "MiddleName": "Bergstrom, Bode and Wisozk",
-  "Title": "quasi",
-  "Description": "Public-key next generation pricing structure",
-  "Email": "derrick_smith@haag.info",
-  "FullName": "Ms. Clovis Quitzon",
-  "DirectPhone": "1-749-022-1778",
-  "FormalName": "Kautzer Group",
-  "CountryId": 716,
-  "ContactId": 959,
-  "ContactName": "Blanda, Emmerich and Krajcik",
-  "Retired": 606,
-  "Rank": 710,
-  "ActiveInterests": 149,
+  "Position": "similique",
+  "PersonId": 383,
+  "Mrmrs": "deserunt",
+  "Firstname": "Earlene",
+  "Lastname": "Jakubowski",
+  "MiddleName": "Witting Group",
+  "Title": "fugit",
+  "Description": "Horizontal eco-centric leverage",
+  "Email": "kobe@hammesdicki.name",
+  "FullName": "Isabell Wiegand",
+  "DirectPhone": "1-102-225-5837",
+  "FormalName": "Bartoletti, Hand and Hauck",
+  "CountryId": 119,
+  "ContactId": 49,
+  "ContactName": "Zieme, Hoppe and Langworth",
+  "Retired": 491,
+  "Rank": 998,
+  "ActiveInterests": 671,
   "ContactDepartment": "",
-  "ContactCountryId": 787,
-  "ContactOrgNr": "1053969",
-  "FaxPhone": "1-748-337-4597",
-  "MobilePhone": "(359)281-7466 x45209",
-  "ContactPhone": "1-907-785-3137 x8202",
-  "AssociateName": "Brakus-Schuppe",
-  "AssociateId": 854,
+  "ContactCountryId": 773,
+  "ContactOrgNr": "823437",
+  "FaxPhone": "1-537-413-4654",
+  "MobilePhone": "(125)129-3709",
+  "ContactPhone": "013.389.4475 x8317",
+  "AssociateName": "Wuckert-D'Amore",
+  "AssociateId": 293,
   "UsePersonAddress": false,
-  "ContactFax": "est",
+  "ContactFax": "omnis",
   "Kanafname": "et",
-  "Kanalname": "sint",
-  "Post1": "sed",
-  "Post2": "accusamus",
-  "Post3": "accusantium",
-  "EmailName": "darwin@simonisberge.ca",
-  "ContactFullName": "Alejandrin Reichel",
-  "ActiveErpLinks": 710,
-  "TicketPriorityId": 644,
-  "SupportLanguageId": 342,
-  "SupportAssociateId": 693,
+  "Kanalname": "velit",
+  "Post1": "quibusdam",
+  "Post2": "illo",
+  "Post3": "eaque",
+  "EmailName": "jordy@dickinson.uk",
+  "ContactFullName": "Annabell Gislason",
+  "ActiveErpLinks": 681,
+  "TicketPriorityId": 917,
+  "SupportLanguageId": 185,
+  "SupportAssociateId": 453,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

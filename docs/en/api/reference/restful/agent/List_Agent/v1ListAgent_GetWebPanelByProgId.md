@@ -98,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolorum"
+  "ProgId": "a"
 }
 ```
 
@@ -109,26 +109,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 351,
-  "Name": "Stehr-Klocko",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 770,
+  "WebPanelId": 54,
+  "Name": "Koelpin Group",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 351,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Wyman, Batz and Bode",
+  "WindowName": "Halvorson, Christiansen and Schroeder",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 630,
+  "ProgId": "dolores",
+  "Icon": 590,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldLength": 743
     }
   }
 }

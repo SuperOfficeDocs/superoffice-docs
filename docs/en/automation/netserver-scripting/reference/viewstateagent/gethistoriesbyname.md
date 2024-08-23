@@ -2,10 +2,10 @@
 uid: viewstateagent-gethistoriesbyname
 title: ViewStateAgent.GetHistoriesByName event method
 description: Scripting events called on the GetHistoriesByName method on the ViewStateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ViewStateAgent.GetHistoriesByName
 

@@ -2,10 +2,10 @@
 uid: mdo-provider-listing
 title: MDO List Provider names
 description: Valid list of provider names
-generated: true
+so.generated: true
 keywords: mdoprovider mdo provider
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # MDO List Providers
@@ -65,6 +65,7 @@ envir: onsite, online
 
 |Provider Name|Implemented by Class|
 | ---------- | ----------- |
+| [activelanguage](activelanguage.md) ||
 | [activitystatus](activitystatus.md) |MDO provider for the ActivityStatus enum: NotStarted, Started, Completed|
 | [addressformat](addressformat.md) |MDO list provider for AddressFormats Id returned is the layout_id, not the addressformat_id.|
 | [allpersonsearch](allpersonsearch.md) |Provider for selecting a Person, including search on contacts that match as well as persons. This provider wil|
@@ -144,6 +145,7 @@ envir: onsite, online
 | [documentcompleted](documentcompleted.md) |Document completed status list: Not done, Done.|
 | [documentfavourite](documentfavourite.md) |MDO list provider for Favourites|
 | [documentgroup](documentgroup.md) |Document types: TaskType.Document, Email, Fax, Merge draft, Merge Final.|
+| [documenthandler](documenthandler.md) ||
 | [documentmailing](documentmailing.md) |Document shipments (mail merges).|
 | [documentmailingtemplate](documentmailingtemplate.md) |Document mailing templates|
 | [documenttemplatelanguage](documenttemplatelanguage.md) ||
@@ -187,6 +189,11 @@ envir: onsite, online
 | [form](form.md) |Get all forms with folder hierarchy|
 | [formfolder](formfolder.md) |FormFolderProvider creates a flat or tree list based on the table: s_picture_folder|
 | [formmailings](formmailings.md) ||
+| [formratingdice](formratingdice.md) ||
+| [formratingnps](formratingnps.md) ||
+| [formratingsmileys](formratingsmileys.md) ||
+| [formratingstars](formratingstars.md) |MDO provider for the Ratings as used in forms|
+| [formratingthumbs](formratingthumbs.md) ||
 | [formsubmissionstatusprovider](formsubmissionstatusprovider.md) ||
 | [freetextsearchentity](freetextsearchentity.md) |List provider that returns the entities supported by free text search. The extraInfo field contains th|
 | [functionrights](functionrights.md) |FunctionRightsListProvider returns a MDO list of function rights in the database|
@@ -220,6 +227,7 @@ envir: onsite, online
 | [locatecontact_new](locatecontact_new.md) |Provider for selecting a Contact, including search on persons that match as well as contacts. this provider wil|
 | [locateperson](locateperson.md) |Person list with contact name.|
 | [location](location.md) |Implements the mdo provider for the list of avaiable locations. This list aggregates element|
+| [mailclient](mailclient.md) ||
 | [mailhtmltemplate](mailhtmltemplate.md) |List provider for the Mailtemplates.|
 | [mailing](mailing.md) |All mailings - history ids|
 | [mailingdomains](mailingdomains.md) |MDO list provider for Mailing domains, including leading @|
@@ -408,6 +416,7 @@ envir: onsite, online
 | [taskmenu](taskmenu.md) |GenericMDOProvider reads MDO lists with default settings|
 | [taskmenudestination](taskmenudestination.md) ||
 | [taskmenugroup](taskmenugroup.md) |List of TaskMenus with visible for groups as commaseperated ids in extrainfo field|
+| [templatevariables](templatevariables.md) ||
 | [ticket](ticket.md) |Provider for selecting a ticket|
 | [ticketalert](ticketalert.md) ||
 | [ticketfavourite](ticketfavourite.md) ||

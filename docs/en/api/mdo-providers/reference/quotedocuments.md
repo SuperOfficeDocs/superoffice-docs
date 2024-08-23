@@ -3,9 +3,9 @@ uid: quotedocuments
 title: quotedocuments
 keywords: mdoprovider mdo provider quotedocuments
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "quotedocuments" MDO List

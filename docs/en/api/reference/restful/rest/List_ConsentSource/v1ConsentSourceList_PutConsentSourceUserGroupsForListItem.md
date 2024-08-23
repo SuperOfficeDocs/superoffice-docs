@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Nulla totam nihil quisquam dolor quae.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "nihil",
-    "ColorBlock": 104,
-    "IconHint": "quidem",
+    "Id": 348,
+    "Name": "Abshire, Durgan and Bergnaum",
+    "ToolTip": "Sit natus eaque harum possimus cumque amet.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "officia",
+    "ColorBlock": 8,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2001-04-02T04:22:35.8778461+02:00",
+    "LastChanged": "2008-09-21T13:28:32.7416326+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Ledner-O'Conner",
-        "ToolTip": "Aut fuga cum.",
+        "Id": 544,
+        "Name": "Smith LLC",
+        "ToolTip": "Aliquam sapiente expedita doloremque cum ea eveniet nam.",
         "Deleted": false,
-        "Rank": 358,
-        "Type": "ut",
-        "ColorBlock": 889,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2008-08-23T04:22:35.8778461+02:00",
+        "Rank": 249,
+        "Type": "et",
+        "ColorBlock": 752,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2021-10-28T13:28:32.7416326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "vero",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Ariane Veum IV"
+        "FullName": "Ethyl Bogisich PhD"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Precious Powlowski"
+    "ExtraInfo": "et",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Mr. Dudley Crist PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Schneider LLC",
-    "ToolTip": "Et iure.",
-    "Deleted": false,
-    "Rank": 268,
-    "Type": "suscipit",
-    "ColorBlock": 441,
-    "IconHint": "nemo",
+    "Id": 38,
+    "Name": "DuBuque, Wyman and Tillman",
+    "ToolTip": "Mollitia quisquam ut ducimus quidem.",
+    "Deleted": true,
+    "Rank": 568,
+    "Type": "ducimus",
+    "ColorBlock": 591,
+    "IconHint": "debitis",
     "Selected": true,
-    "LastChanged": "2000-01-02T04:22:35.8778461+01:00",
+    "LastChanged": "2008-12-24T13:28:32.7572536+01:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Hintz LLC",
-        "ToolTip": "Quaerat est possimus voluptas maxime natus.",
+        "Id": 216,
+        "Name": "Abshire, Kub and Crooks",
+        "ToolTip": "Quo veritatis et impedit possimus et enim.",
         "Deleted": false,
-        "Rank": 558,
-        "Type": "sit",
-        "ColorBlock": 870,
-        "IconHint": "autem",
+        "Rank": 225,
+        "Type": "est",
+        "ColorBlock": 705,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2011-10-23T04:22:35.8778461+02:00",
+        "LastChanged": "2016-05-28T13:28:32.7572536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "molestias",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Breanna Ratke",
+        "FullName": "Erwin Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 579
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "sunt",
+    "ExtraInfo": "quas",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Ramiro Hoeger PhD",
+    "FullName": "Lenna Brenda Stanton Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldType": "System.String",
+        "FieldLength": 82
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Watsica Inc and Sons",
-    "ToolTip": "Voluptas rerum nostrum neque quisquam qui.",
+    "Id": 467,
+    "Name": "Bartoletti Inc and Sons",
+    "ToolTip": "Qui debitis ut fugit officiis.",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "ut",
-    "ColorBlock": 318,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2018-06-06T04:22:36.1122165+02:00",
+    "Rank": 803,
+    "Type": "qui",
+    "ColorBlock": 638,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2003-08-05T13:28:33.0384399+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Kiehn Inc and Sons",
-        "ToolTip": "Aliquam minima optio sed ipsa laudantium sunt tempora.",
+        "Id": 840,
+        "Name": "Collier, Bednar and Friesen",
+        "ToolTip": "Suscipit nam cupiditate.",
         "Deleted": false,
-        "Rank": 902,
-        "Type": "odio",
-        "ColorBlock": 88,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2009-08-04T04:22:36.1122165+02:00",
+        "Rank": 376,
+        "Type": "qui",
+        "ColorBlock": 575,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2012-02-19T13:28:33.0384399+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "rerum",
+        "ExtraInfo": "ea",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Stefan O'Keefe",
+        "FullName": "Dianna Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 336
+            "FieldType": "System.String",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Prof. Tomas Mertz III",
+    "ExtraInfo": "aut",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Ludie Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 942
       }
     }
   }

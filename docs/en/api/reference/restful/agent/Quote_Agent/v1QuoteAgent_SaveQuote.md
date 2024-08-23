@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 763,
-  "SaleId": 47,
-  "QuoteConnectionId": 746,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "odio",
-  "ActiveQuoteVersionId": 291,
-  "AcceptedQuoteAlternativeId": 631,
-  "UseValuesFromQuote": 396,
-  "DocumentId": 196,
-  "PoNumber": "1337880",
-  "OrderComment": "assumenda",
-  "PreferredEmailCulture": "lura@miller.co.uk",
+  "QuoteId": 580,
+  "SaleId": 737,
+  "QuoteConnectionId": 61,
+  "ERPQuoteKey": "soluta",
+  "ERPOrderKey": "qui",
+  "ActiveQuoteVersionId": 278,
+  "AcceptedQuoteAlternativeId": 363,
+  "UseValuesFromQuote": 969,
+  "DocumentId": 487,
+  "PoNumber": "1275909",
+  "OrderComment": "quis",
+  "PreferredEmailCulture": "richard@leschmurray.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 422
     }
   }
 }

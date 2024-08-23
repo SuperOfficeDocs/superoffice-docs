@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 874
+  "QuoteVersionId": 18
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 558,
-    "ERPQuoteAlternativeKey": "et",
-    "QuoteVersionId": 652,
-    "Name": "Hauck LLC",
-    "Description": "Optimized full-range architecture",
+    "QuoteAlternativeId": 514,
+    "ERPQuoteAlternativeKey": "aspernatur",
+    "QuoteVersionId": 781,
+    "Name": "Towne Group",
+    "Description": "Synergistic high-level forecast",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 24037.78,
-    "ERPDiscountAmount": 30308.914,
-    "DiscountPercent": 949.602,
-    "DiscountAmount": 3011.774,
+    "ERPDiscountPercent": 22223.194,
+    "ERPDiscountAmount": 12498.392,
+    "DiscountPercent": 6976.284,
+    "DiscountAmount": 28011.692,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "facere",
-    "VAT": 19938.507999999998,
-    "EarningPercent": 30766.478,
-    "EarningAmount": 3469.3379999999997,
-    "SubTotal": 23924.956,
-    "TotalPrice": 17506.523999999998,
-    "ExtraField1": "est",
-    "ExtraField2": "expedita",
-    "ExtraField3": "et",
-    "ExtraField4": "distinctio",
-    "ExtraField5": "quibusdam",
+    "VATInfo": "occaecati",
+    "VAT": 4779.3499999999995,
+    "EarningPercent": 13366.51,
+    "EarningAmount": 12661.359999999999,
+    "SubTotal": 24818.146,
+    "TotalPrice": 28848.469999999998,
+    "ExtraField1": "necessitatibus",
+    "ExtraField2": "rerum",
+    "ExtraField3": "aut",
+    "ExtraField4": "consequatur",
+    "ExtraField5": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldLength": 257
       }
     }
   }

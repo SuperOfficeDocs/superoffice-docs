@@ -2,10 +2,10 @@
 uid: relationagent-getcontactrelationentity
 title: RelationAgent.GetContactRelationEntity event method
 description: Scripting events called on the GetContactRelationEntity method on the RelationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # RelationAgent.GetContactRelationEntity
 

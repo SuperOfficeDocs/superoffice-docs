@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 373,
-  "Name": "Emmerich Inc and Sons",
-  "ContentType": "voluptatibus",
-  "AttSize": 139,
+  "AttachmentId": 148,
+  "Name": "Crooks-Fisher",
+  "ContentType": "commodi",
+  "AttSize": 767,
   "InlineImage": false,
-  "ContentId": "recusandae",
-  "AuthKey": "ipsum",
+  "ContentId": "deleniti",
+  "AuthKey": "provident",
   "IsSafeFileExtension": true
 }
 ```
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 900,
-  "Name": "Walter, Hagenes and Dooley",
-  "ContentType": "culpa",
-  "AttSize": 638,
-  "InlineImage": true,
-  "ContentId": "rerum",
-  "AuthKey": "architecto",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 547,
+  "Name": "Frami LLC",
+  "ContentType": "inventore",
+  "AttSize": 538,
+  "InlineImage": false,
+  "ContentId": "qui",
+  "AuthKey": "quae",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 169
     }
   },
   "_Links": {

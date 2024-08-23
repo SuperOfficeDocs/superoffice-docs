@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 163,
-    "Section": "sint",
-    "Key": "atque",
-    "Name": "Kuhlman, Morar and Nikolaus",
+    "PrefDescId": 592,
+    "Section": "neque",
+    "Key": "voluptas",
+    "Name": "Gibson Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Team-oriented bifurcated pricing structure",
+    "Description": "Up-sized stable initiative",
     "IsBuiltin": false,
-    "TableName": "Cruickshank-Heidenreich",
-    "UserDefinedListId": 260,
-    "Rank": 14,
-    "SubGroup": "repellat",
-    "MinLevel": 864,
-    "MaxValue": 739,
-    "MinValue": 345,
-    "RequiredLicense": "nesciunt",
+    "TableName": "Roob-Howell",
+    "UserDefinedListId": 351,
+    "Rank": 54,
+    "SubGroup": "distinctio",
+    "MinLevel": 930,
+    "MaxValue": 558,
+    "MinValue": 45,
+    "RequiredLicense": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 956
       }
     }
   }

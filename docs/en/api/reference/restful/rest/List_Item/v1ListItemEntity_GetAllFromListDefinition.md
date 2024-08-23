@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Luettgen-Osinski",
-    "Tooltip": "fugit",
-    "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 209,
+    "Id": 174,
+    "Name": "Purdy Inc and Sons",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "UdListDefinitionId": 284,
+    "Rank": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: saintagent-savestatusmonitorperiods
 title: SaintAgent.SaveStatusMonitorPeriods event method
 description: Scripting events called on the SaveStatusMonitorPeriods method on the SaintAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaintAgent.SaveStatusMonitorPeriods
 

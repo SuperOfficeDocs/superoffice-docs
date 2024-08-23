@@ -3,9 +3,9 @@ uid: SelectionDynamicSelectionV2
 title: SelectionDynamicSelectionV2
 description: Selection selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.SelectionSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: SelectionDynamicSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionDynamicSelectionV2"
@@ -83,7 +83,7 @@ Selection selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionV2?$select=lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionDynamicSelectionV2?$select=updatedByFullName,lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

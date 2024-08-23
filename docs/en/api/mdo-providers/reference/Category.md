@@ -3,9 +3,9 @@ uid: category
 title: category
 keywords: mdoprovider mdo provider category
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "category" MDO List

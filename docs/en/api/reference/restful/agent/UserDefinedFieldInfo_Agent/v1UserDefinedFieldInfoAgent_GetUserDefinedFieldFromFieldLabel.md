@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "perspiciatis",
+  "FieldLabel": "tempore",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 646,
-  "ColumnId": 794,
-  "FieldDefault": "minus",
-  "FieldHeight": 675,
-  "FieldLabel": "sit",
-  "FieldLeft": 470,
-  "FieldTop": 239,
+  "UDefFieldId": 549,
+  "ColumnId": 536,
+  "FieldDefault": "rerum",
+  "FieldHeight": 718,
+  "FieldLabel": "est",
+  "FieldLeft": 196,
+  "FieldTop": 69,
   "FieldType": "Checkbox",
-  "FieldWidth": 183,
-  "FormatMask": "fuga",
-  "HideLabel": false,
+  "FieldWidth": 614,
+  "FormatMask": "corporis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 54,
-  "LabelLeft": 217,
-  "LabelTop": 907,
-  "LabelWidth": 67,
-  "LastVersionId": 585,
-  "ListTableId": 903,
+  "LabelHeight": 49,
+  "LabelLeft": 949,
+  "LabelTop": 66,
+  "LabelWidth": 622,
+  "LastVersionId": 93,
+  "ListTableId": 35,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 237,
-  "ProgId": "earum",
+  "Page1LineNo": 648,
+  "ProgId": "quia",
   "IsReadOnly": true,
-  "ShortLabel": "expedita",
-  "TabOrder": 251,
-  "TextLength": 539,
-  "Tooltip": "cum",
-  "UdefIdentity": 756,
-  "UDListDefinitionId": 857,
+  "ShortLabel": "incidunt",
+  "TabOrder": 369,
+  "TextLength": 232,
+  "Tooltip": "velit",
+  "UdefIdentity": 581,
+  "UDListDefinitionId": 524,
   "Justification": "Center",
-  "Version": 508,
-  "TemplateVariableName": "Pagac-Nader",
+  "Version": 536,
+  "TemplateVariableName": "King, Kohler and Keeling",
   "HasBeenPublished": true,
-  "MdoListName": "Dicki Inc and Sons",
+  "MdoListName": "Wintheiser, Kemmer and Welch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 479
     }
   }
 }

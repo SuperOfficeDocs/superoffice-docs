@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Schmitt-Runolfsson",
-    "ToolTip": "Voluptas optio vero quia natus.",
-    "Deleted": true,
-    "Rank": 345,
-    "Type": "aut",
-    "ColorBlock": 848,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2024-03-05T04:22:35.8622202+01:00",
+    "Id": 389,
+    "Name": "Mills Group",
+    "ToolTip": "Perferendis occaecati incidunt doloribus.",
+    "Deleted": false,
+    "Rank": 113,
+    "Type": "magni",
+    "ColorBlock": 754,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2001-03-18T13:28:32.7260108+01:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Monahan LLC",
-        "ToolTip": "Autem voluptates culpa voluptatem occaecati delectus et.",
+        "Id": 17,
+        "Name": "Parker-Tromp",
+        "ToolTip": "Eum dolores suscipit natus qui doloremque sint ipsa.",
         "Deleted": false,
-        "Rank": 755,
-        "Type": "ullam",
-        "ColorBlock": 370,
-        "IconHint": "sunt",
+        "Rank": 136,
+        "Type": "quia",
+        "ColorBlock": 128,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2017-11-09T04:22:35.8622202+01:00",
+        "LastChanged": "1997-11-23T13:28:32.7416326+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Vidal Balistreri II",
+        "FullName": "Dr. Imelda Mia Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "odio",
-    "Hidden": true,
-    "FullName": "Prof. Albina Dickens PhD",
+    "ExtraInfo": "sint",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Noble Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldLength": 91
       }
     }
   }

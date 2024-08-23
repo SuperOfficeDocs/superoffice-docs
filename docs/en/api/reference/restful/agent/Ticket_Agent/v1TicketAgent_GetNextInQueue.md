@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 635,
-  "Title": "saepe",
-  "CreatedAt": "2003-01-13T04:22:27.9287467+01:00",
-  "LastChanged": "2011-06-25T04:22:27.9287467+02:00",
-  "ReadByOwner": "2003-10-04T04:22:27.9287467+02:00",
-  "ReadByCustomer": "2019-03-19T04:22:27.9287467+01:00",
-  "FirstReadByOwner": "2009-04-29T04:22:27.9287467+02:00",
-  "FirstReadByUser": "2019-09-25T04:22:27.9287467+02:00",
-  "Activate": "2003-03-01T04:22:27.9287467+01:00",
-  "ClosedAt": "1999-08-16T04:22:27.9287467+02:00",
-  "RepliedAt": "2005-12-21T04:22:27.9287467+01:00",
-  "AlertTimeout": "2011-04-23T04:22:27.9287467+02:00",
-  "Deadline": "2019-07-04T04:22:27.9287467+02:00",
+  "TicketId": 811,
+  "Title": "adipisci",
+  "CreatedAt": "2005-07-01T13:28:23.9760402+02:00",
+  "LastChanged": "2012-05-02T13:28:23.9760402+02:00",
+  "ReadByOwner": "2016-12-07T13:28:23.9760402+01:00",
+  "ReadByCustomer": "2009-05-20T13:28:23.9760402+02:00",
+  "FirstReadByOwner": "2010-10-29T13:28:23.9760402+02:00",
+  "FirstReadByUser": "2006-08-12T13:28:23.9760402+02:00",
+  "Activate": "2021-01-16T13:28:23.9760402+01:00",
+  "ClosedAt": "2024-02-08T13:28:23.9760402+01:00",
+  "RepliedAt": "2018-04-21T13:28:23.9760402+02:00",
+  "AlertTimeout": "2023-06-07T13:28:23.9760402+02:00",
+  "Deadline": "2005-11-24T13:28:23.9760402+01:00",
   "CreatedBy": null,
-  "Author": "harum",
+  "Author": "ipsa",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,162 +157,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "fuga",
-      "PersonId": 858,
-      "Mrmrs": "dolorem",
-      "Firstname": "Helena",
-      "Lastname": "Stroman",
-      "MiddleName": "Christiansen-Rippin",
-      "Title": "sit",
-      "Description": "Customer-focused full-range standardization",
-      "Email": "chanelle_kessler@parisian.name",
-      "FullName": "Rebeca Judge DuBuque Jr.",
-      "DirectPhone": "1-133-612-5489 x8262",
-      "FormalName": "Wisozk-Simonis",
-      "CountryId": 827,
-      "ContactId": 241,
-      "ContactName": "Bednar, Predovic and Keebler",
-      "Retired": 705,
-      "Rank": 436,
-      "ActiveInterests": 1000,
+      "Position": "totam",
+      "PersonId": 373,
+      "Mrmrs": "fuga",
+      "Firstname": "Carmela",
+      "Lastname": "Green",
+      "MiddleName": "Jerde, Sporer and Torp",
+      "Title": "quos",
+      "Description": "Synchronised solution-oriented workforce",
+      "Email": "joy@schimmel.com",
+      "FullName": "Miss Shanon Lowe",
+      "DirectPhone": "613.241.7531",
+      "FormalName": "McCullough-Crist",
+      "CountryId": 418,
+      "ContactId": 931,
+      "ContactName": "D'Amore-Lakin",
+      "Retired": 628,
+      "Rank": 558,
+      "ActiveInterests": 186,
       "ContactDepartment": "",
-      "ContactCountryId": 938,
-      "ContactOrgNr": "903934",
-      "FaxPhone": "(555)003-0590",
-      "MobilePhone": "646.071.2832 x61161",
-      "ContactPhone": "336.151.0265 x246",
-      "AssociateName": "Considine Inc and Sons",
-      "AssociateId": 993,
+      "ContactCountryId": 748,
+      "ContactOrgNr": "1094849",
+      "FaxPhone": "(749)041-9755 x9122",
+      "MobilePhone": "(142)971-5651",
+      "ContactPhone": "424.231.9808",
+      "AssociateName": "Jacobson Inc and Sons",
+      "AssociateId": 351,
       "UsePersonAddress": false,
-      "ContactFax": "natus",
-      "Kanafname": "eos",
-      "Kanalname": "qui",
-      "Post1": "quaerat",
-      "Post2": "labore",
-      "Post3": "numquam",
-      "EmailName": "shyanne@marksernser.com",
-      "ContactFullName": "Denis Cruickshank",
-      "ActiveErpLinks": 919,
-      "TicketPriorityId": 104,
-      "SupportLanguageId": 715,
-      "SupportAssociateId": 454,
+      "ContactFax": "consequatur",
+      "Kanafname": "dignissimos",
+      "Kanalname": "unde",
+      "Post1": "dolorem",
+      "Post2": "quia",
+      "Post3": "autem",
+      "EmailName": "jamar@okon.us",
+      "ContactFullName": "Madyson Koelpin",
+      "ActiveErpLinks": 66,
+      "TicketPriorityId": 105,
+      "SupportLanguageId": 285,
+      "SupportAssociateId": 922,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 649
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "AlertLevel": 410,
-  "ConnectId": 771,
+  "AlertLevel": 63,
+  "ConnectId": 586,
   "ReadStatus": "Green",
-  "TimeToReply": 437,
-  "RealTimeToReply": 227,
-  "TimeToClose": 712,
-  "RealTimeToClose": 134,
-  "TimeSpentInternally": 815,
-  "TimeSpentExternally": 9,
-  "TimeSpentQueue": 59,
-  "RealTimeSpentInternally": 250,
-  "RealTimeSpentExternally": 273,
-  "RealTimeSpentQueue": 137,
-  "TimeSpent": 640,
-  "HasAttachment": false,
-  "NumReplies": 269,
-  "NumMessages": 500,
-  "FromAddress": "quo",
+  "TimeToReply": 166,
+  "RealTimeToReply": 106,
+  "TimeToClose": 29,
+  "RealTimeToClose": 755,
+  "TimeSpentInternally": 644,
+  "TimeSpentExternally": 685,
+  "TimeSpentQueue": 933,
+  "RealTimeSpentInternally": 734,
+  "RealTimeSpentExternally": 348,
+  "RealTimeSpentQueue": 483,
+  "TimeSpent": 920,
+  "HasAttachment": true,
+  "NumReplies": 60,
+  "NumMessages": 761,
+  "FromAddress": "repellat",
   "Messages": [
     {
-      "TicketMessageId": 633,
-      "CreatedAt": "1998-11-19T04:22:27.9287467+01:00",
+      "TicketMessageId": 30,
+      "CreatedAt": "2004-09-07T13:28:23.9760402+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "assumenda",
-      "PersonId": 282,
-      "PersonFullName": "Miss Florine Beth Schuppe",
-      "ContactId": 623,
-      "ContactName": "Hirthe-Kuhn",
-      "ContactDepartment": "",
-      "NumAttachments": 621,
-      "EmailHeader": "karl@hilllmetz.biz",
+      "Author": "veritatis",
+      "PersonId": 519,
+      "PersonFullName": "Miss Ruthie Consuelo Corwin",
+      "ContactId": 383,
+      "ContactName": "Schaefer Group",
+      "ContactDepartment": "architect rich niches",
+      "NumAttachments": 189,
+      "EmailHeader": "edmond_jakubowski@dare.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptas",
-      "Sentiment": 773,
-      "SentimentConfidence": 471,
-      "CreatedBy": 236,
-      "ChangedAt": "2003-07-24T04:22:27.9287467+02:00",
+      "Language": "et",
+      "Sentiment": 909,
+      "SentimentConfidence": 141,
+      "CreatedBy": 616,
+      "ChangedAt": "2012-11-10T13:28:23.9760402+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 811
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 869,
-      "Name": "Schmidt Group",
-      "ToolTip": "Cum qui voluptatum ut amet fuga at non.",
+      "Id": 983,
+      "Name": "Skiles, Friesen and Klein",
+      "ToolTip": "Id quae aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 240
         }
       }
     },
     {
-      "Id": 869,
-      "Name": "Schmidt Group",
-      "ToolTip": "Cum qui voluptatum ut amet fuga at non.",
+      "Id": 983,
+      "Name": "Skiles, Friesen and Klein",
+      "ToolTip": "Id quae aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 240
         }
       }
     }
   ],
-  "Language": "perferendis",
-  "Sentiment": 388,
-  "SentimentConfidence": 73,
-  "SuggestedCategoryId": 694,
+  "Language": "quibusdam",
+  "Sentiment": 15,
+  "SentimentConfidence": 566,
+  "SuggestedCategoryId": 545,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 627,
-  "IconHint": "qui",
+  "OrigHumanCategoryId": 124,
+  "IconHint": "quasi",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 582,
+  "ActiveStatusMonitorId": 113,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "quo",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 568
     }
   }
 }

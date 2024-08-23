@@ -3,9 +3,9 @@ uid: faqreplytemplate
 title: faqreplytemplate
 keywords: mdoprovider mdo provider faqreplytemplate
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "faqreplytemplate" MDO List

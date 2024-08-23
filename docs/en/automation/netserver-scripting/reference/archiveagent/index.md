@@ -2,10 +2,10 @@
 uid: archiveagent-script-events
 title: ArchiveAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # ArchiveAgent method listing

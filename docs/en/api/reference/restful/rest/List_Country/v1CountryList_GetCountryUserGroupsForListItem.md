@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Brekke-Bogisich",
-    "ToolTip": "Nam est sed et.",
-    "Deleted": false,
-    "Rank": 68,
-    "Type": "quaerat",
-    "ColorBlock": 429,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2023-11-27T04:22:35.8778461+01:00",
+    "Id": 100,
+    "Name": "Erdman-Larson",
+    "ToolTip": "Nulla ipsam exercitationem labore reprehenderit.",
+    "Deleted": true,
+    "Rank": 735,
+    "Type": "optio",
+    "ColorBlock": 27,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2019-09-15T13:28:32.7572536+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Brown, Walsh and Stanton",
-        "ToolTip": "Delectus nostrum harum.",
-        "Deleted": false,
-        "Rank": 683,
-        "Type": "magnam",
-        "ColorBlock": 183,
-        "IconHint": "eveniet",
+        "Id": 70,
+        "Name": "Padberg-Bashirian",
+        "ToolTip": "Mollitia qui perferendis voluptatem.",
+        "Deleted": true,
+        "Rank": 55,
+        "Type": "laborum",
+        "ColorBlock": 667,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2009-10-13T04:22:35.8778461+02:00",
+        "LastChanged": "2015-09-24T13:28:32.7572536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "inventore",
-        "Hidden": false,
-        "FullName": "Erna Grimes",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Dr. Stevie Macey Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldType": "System.String",
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Korbin Hudson",
+    "ExtraInfo": "est",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Sidney Martin Murray DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 487
       }
     }
   }

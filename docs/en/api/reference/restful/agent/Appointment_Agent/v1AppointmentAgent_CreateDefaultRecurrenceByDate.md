@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2007-11-24T04:22:25.8559745+01:00"
+  "StartDate": "2011-08-06T13:28:21.6638038+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 789,
-  "StartDate": "2022-01-02T04:22:25.8559745+01:00",
-  "EndDate": "2019-05-29T04:22:25.8559745+02:00",
-  "RecurrenceCounter": 787,
+  "RecurrenceId": 568,
+  "StartDate": "2012-05-12T13:28:21.6638038+02:00",
+  "EndDate": "2021-01-23T13:28:21.6638038+01:00",
+  "RecurrenceCounter": 200,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2013-04-02T04:22:25.8559745+02:00",
-      "IsConflict": false,
-      "Description": "Digitized uniform ability",
-      "DescriptionStyleHint": "Customizable fresh-thinking hardware",
-      "Tooltip": "mollitia"
+      "Date": "2020-12-12T13:28:21.6638038+01:00",
+      "IsConflict": true,
+      "Description": "Vision-oriented value-added algorithm",
+      "DescriptionStyleHint": "Expanded mobile support",
+      "Tooltip": "odit"
     },
     {
-      "Date": "2013-04-02T04:22:25.8559745+02:00",
-      "IsConflict": false,
-      "Description": "Digitized uniform ability",
-      "DescriptionStyleHint": "Customizable fresh-thinking hardware",
-      "Tooltip": "mollitia"
+      "Date": "2020-12-12T13:28:21.6638038+01:00",
+      "IsConflict": true,
+      "Description": "Vision-oriented value-added algorithm",
+      "DescriptionStyleHint": "Expanded mobile support",
+      "Tooltip": "odit"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

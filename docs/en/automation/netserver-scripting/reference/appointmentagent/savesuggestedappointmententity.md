@@ -2,10 +2,10 @@
 uid: appointmentagent-savesuggestedappointmententity
 title: AppointmentAgent.SaveSuggestedAppointmentEntity event method
 description: Scripting events called on the SaveSuggestedAppointmentEntity method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.SaveSuggestedAppointmentEntity
 

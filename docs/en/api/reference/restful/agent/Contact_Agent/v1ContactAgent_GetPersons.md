@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 725
+  "ContactId": 495
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aut",
-    "PersonId": 845,
-    "Mrmrs": "natus",
-    "Firstname": "Zachary",
-    "Lastname": "Fay",
-    "MiddleName": "Strosin LLC",
-    "Title": "corrupti",
-    "Description": "Profit-focused web-enabled encryption",
-    "Email": "abel@nikolausaufderhar.co.uk",
-    "FullName": "Mr. Roderick Prosacco",
-    "DirectPhone": "(992)835-1497 x905",
-    "FormalName": "Powlowski, Gulgowski and Ryan",
-    "CountryId": 545,
-    "ContactId": 880,
-    "ContactName": "Kunde-Turcotte",
-    "Retired": 375,
-    "Rank": 817,
-    "ActiveInterests": 74,
+    "Position": "consequatur",
+    "PersonId": 45,
+    "Mrmrs": "consectetur",
+    "Firstname": "Dennis",
+    "Lastname": "Dickinson",
+    "MiddleName": "Reynolds-Brekke",
+    "Title": "iste",
+    "Description": "Centralized 24/7 firmware",
+    "Email": "deon@nitzsche.us",
+    "FullName": "Ms. Arianna Beahan DVM",
+    "DirectPhone": "710-627-9320 x519",
+    "FormalName": "Abbott Inc and Sons",
+    "CountryId": 33,
+    "ContactId": 548,
+    "ContactName": "Volkman, Mann and Dickinson",
+    "Retired": 287,
+    "Rank": 199,
+    "ActiveInterests": 567,
     "ContactDepartment": "",
-    "ContactCountryId": 172,
-    "ContactOrgNr": "1305869",
-    "FaxPhone": "(904)094-7552 x421",
-    "MobilePhone": "270.352.7198",
-    "ContactPhone": "1-462-703-1455 x489",
-    "AssociateName": "Jakubowski Group",
-    "AssociateId": 769,
-    "UsePersonAddress": false,
-    "ContactFax": "enim",
-    "Kanafname": "illum",
-    "Kanalname": "autem",
-    "Post1": "blanditiis",
-    "Post2": "officia",
-    "Post3": "voluptatibus",
-    "EmailName": "shad@hanedouglas.com",
-    "ContactFullName": "Kennith Pacocha PhD",
-    "ActiveErpLinks": 396,
-    "TicketPriorityId": 521,
-    "SupportLanguageId": 148,
-    "SupportAssociateId": 73,
+    "ContactCountryId": 201,
+    "ContactOrgNr": "1488497",
+    "FaxPhone": "132-033-0408 x296",
+    "MobilePhone": "1-298-858-2533",
+    "ContactPhone": "1-476-952-9700 x270",
+    "AssociateName": "Thiel, Kuphal and Collins",
+    "AssociateId": 20,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "vitae",
+    "Kanalname": "voluptate",
+    "Post1": "quia",
+    "Post2": "at",
+    "Post3": "autem",
+    "EmailName": "wilber@andersonkeeling.co.uk",
+    "ContactFullName": "Stanley Conroy",
+    "ActiveErpLinks": 31,
+    "TicketPriorityId": 808,
+    "SupportLanguageId": 886,
+    "SupportAssociateId": 800,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 247
       }
     }
   }

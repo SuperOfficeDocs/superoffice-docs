@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 264,
-  "PlainMessage": "rem",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "ipsa",
-  "Description": "User-friendly web-enabled customer loyalty",
-  "Subject": "et",
-  "FolderId": 930,
-  "HeaderField": "nemo",
-  "Design": "occaecati",
+  "ShipmentMessageId": 371,
+  "PlainMessage": "maxime",
+  "HtmlMessage": "reprehenderit",
+  "SmsMessage": "aspernatur",
+  "Description": "Cross-platform static model",
+  "Subject": "repellendus",
+  "FolderId": 375,
+  "HeaderField": "aut",
+  "Design": "sapiente",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Front-line contextually-based framework",
-  "AccessKey": "vel",
-  "DocumentMessage": 800,
-  "Registered": "2004-09-28T04:22:35.4553554+02:00",
-  "RegisteredAssociateId": 887,
-  "Updated": "2007-10-11T04:22:35.4553554+02:00",
-  "UpdatedAssociateId": 728,
-  "UpdatedCount": 74,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Persevering optimizing utilisation",
+  "AccessKey": "enim",
+  "DocumentMessage": 245,
+  "Registered": "2011-12-30T13:28:32.2573673+01:00",
+  "RegisteredAssociateId": 706,
+  "Updated": "2008-04-29T13:28:32.2573673+02:00",
+  "UpdatedAssociateId": 888,
+  "UpdatedCount": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 582
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

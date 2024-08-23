@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "esse",
+  "SaleText": "numquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-01-31T04:22:27.486728+01:00",
-  "Amount": 14720.398,
-  "SaleId": 666,
-  "Earning": 3453.6679999999997,
-  "EarningPercent": 23373.372,
-  "Heading": "delectus",
-  "Number": "1368883",
-  "Probability": 516,
-  "CreatedDate": "2018-01-26T04:22:27.486728+01:00",
-  "UpdatedDate": "2010-03-19T04:22:27.486728+01:00",
+  "Saledate": "2014-11-24T13:28:23.6323677+01:00",
+  "Amount": 12952.822,
+  "SaleId": 639,
+  "Earning": 17271.474,
+  "EarningPercent": 21098.088,
+  "Heading": "impedit",
+  "Number": "517981",
+  "Probability": 168,
+  "CreatedDate": "2008-04-25T13:28:23.6323677+02:00",
+  "UpdatedDate": "2005-11-15T13:28:23.6323677+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 560,
+  "ActiveLinks": 287,
   "Links": [
     {
-      "EntityName": "Gottlieb-Toy",
-      "Id": 456,
-      "Description": "Exclusive clear-thinking initiative",
-      "ExtraInfo": "fugit",
-      "LinkId": 99,
+      "EntityName": "Steuber Group",
+      "Id": 918,
+      "Description": "Diverse explicit encoding",
+      "ExtraInfo": "non",
+      "LinkId": 751,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldType": "System.String",
+          "FieldLength": 281
         }
       }
     }
   ],
-  "NextDueDate": "2023-06-04T04:22:27.486728+02:00",
-  "Postit": "est",
+  "NextDueDate": "2015-03-26T13:28:23.6323677+01:00",
+  "Postit": "quasi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-09-20T04:22:27.486728+02:00",
+  "ReopenDate": "1998-03-13T13:28:23.6323677+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nikolaus, Fritsch and Corkery",
-      "Comment": "delectus",
-      "StakeholderRoleId": 491,
-      "CountryId": 591,
-      "PersonId": 968,
-      "EmailDescription": "estell@gorczanyfeil.ca",
-      "EmailId": 729,
-      "EmailAddress": "woodrow_hegmann@ankundingschultz.info",
-      "PhoneId": 973,
-      "ContactName": "Bartell Inc and Sons",
-      "ContactId": 598,
-      "SaleId": 262,
-      "Mrmrs": "dolor",
-      "Firstname": "Bud",
-      "MiddleName": "Gutmann Group",
-      "Lastname": "Grant",
-      "SaleStakeholderId": 975,
-      "Rank": 95,
-      "Phone": "793.417.7368 x675",
+      "StakeholderRoleName": "Dibbert LLC",
+      "Comment": "ullam",
+      "StakeholderRoleId": 26,
+      "CountryId": 190,
+      "PersonId": 924,
+      "EmailDescription": "maxwell.goyette@greenfelder.us",
+      "EmailId": 132,
+      "EmailAddress": "rick.marks@bogan.us",
+      "PhoneId": 195,
+      "ContactName": "Stroman-Turner",
+      "ContactId": 236,
+      "SaleId": 803,
+      "Mrmrs": "velit",
+      "Firstname": "Keira",
+      "MiddleName": "Vandervort-Effertz",
+      "Lastname": "Metz",
+      "SaleStakeholderId": 551,
+      "Rank": 74,
+      "Phone": "(756)129-1094 x352",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 680
         }
       }
     }
   ],
-  "ActiveErpLinks": 100,
+  "ActiveErpLinks": 215,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Dexter Matt Fahey I",
-    "SuperOffice:2": "Meagan Swaniawski V"
+    "SuperOffice:1": "Brennon Braun",
+    "SuperOffice:2": "257185662"
   },
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "esse",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2004-06-20T04:22:27.486728+02:00",
-  "PublishTo": "1998-04-14T04:22:27.486728+02:00",
-  "PublishFrom": "2011-11-21T04:22:27.486728+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2024-03-26T13:28:23.6323677+01:00",
+  "PublishTo": "2019-07-06T13:28:23.6323677+02:00",
+  "PublishFrom": "2022-10-28T13:28:23.6323677+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 527,
+      "VisibleId": 869,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 985
         }
       }
     },
     {
-      "VisibleId": 527,
+      "VisibleId": 869,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 985
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

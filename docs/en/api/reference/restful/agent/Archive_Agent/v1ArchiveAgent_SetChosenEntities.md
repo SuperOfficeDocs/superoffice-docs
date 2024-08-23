@@ -72,11 +72,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Von-Kunde",
-  "ProviderName": "Labadie-Stracke",
+  "GuiName": "Bayer, Reynolds and Sauer",
+  "ProviderName": "Zboncak Group",
   "Entities": [
-    "corrupti",
-    "suscipit"
+    "non",
+    "iusto"
   ]
 }
 ```

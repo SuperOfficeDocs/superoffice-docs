@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 779,
-      "ContactName": "Lindgren, Trantow and Bruen",
-      "PersonId": 643,
-      "PersonName": "O'Hara LLC",
-      "AssociateId": 596,
-      "Address": "voluptatem",
-      "EmailId": 434,
+      "ContactId": 599,
+      "ContactName": "McDermott, Ritchie and Keebler",
+      "PersonId": 394,
+      "PersonName": "Weber, Ward and Eichmann",
+      "AssociateId": 850,
+      "Address": "nesciunt",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        988,
-        253
+        639,
+        483
       ],
-      "Name": "Gutkowski-Kassulke",
+      "Name": "Volkman, Rutherford and Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 402
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 258,
-      "ContactName": "Purdy-Grady",
-      "PersonId": 360,
-      "PersonName": "Langosh-Mayert",
-      "AssociateId": 263,
-      "Address": "provident",
-      "EmailId": 90,
+      "ContactId": 444,
+      "ContactName": "O'Conner Inc and Sons",
+      "PersonId": 395,
+      "PersonName": "Tremblay LLC",
+      "AssociateId": 833,
+      "Address": "quia",
+      "EmailId": 572,
       "DuplicatePersonIds": [
-        478,
-        475
+        309,
+        813
       ],
-      "Name": "Crona Group",
+      "Name": "Heller-Pacocha",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 62
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 544,
-      "ContactName": "Marks, Goldner and Schamberger",
-      "PersonId": 233,
-      "PersonName": "Davis LLC",
-      "AssociateId": 82,
-      "Address": "hic",
-      "EmailId": 481,
+      "ContactId": 448,
+      "ContactName": "Thompson-Harber",
+      "PersonId": 27,
+      "PersonName": "Bashirian-Schuster",
+      "AssociateId": 224,
+      "Address": "dolor",
+      "EmailId": 894,
       "DuplicatePersonIds": [
-        706,
-        481
+        691,
+        208
       ],
-      "Name": "Fritsch-Watsica",
+      "Name": "Wunsch-Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 301
         }
       }
     }
   ],
-  "Subject": "vel",
-  "HTMLBody": "explicabo",
+  "Subject": "sed",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2019-06-06T04:22:26.686607+02:00",
-  "Size": 194,
+  "Sent": "2002-06-07T13:28:22.6323326+02:00",
+  "Size": 359,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "assumenda",
-  "PlainBody": "consequatur",
+  "MessageID": "nulla",
+  "PlainBody": "nihil",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 19,
+  "ServerId": 415,
   "Attachments": [
     {
-      "Description": "Ergonomic actuating analyzer",
-      "Filename": "velit",
-      "Size": 368,
-      "Type": "delectus",
-      "Encoding": "quo",
-      "Id": "cum",
-      "Disposition": "sed",
-      "IsSafeFileExtension": false,
+      "Description": "Devolved dynamic project",
+      "Filename": "sapiente",
+      "Size": 374,
+      "Type": "et",
+      "Encoding": "unde",
+      "Id": "aut",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 95
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nitzsche, Konopelski and Dickinson",
+      "Name": "Zboncak-Russel",
       "Values": [
-        "accusantium",
-        "voluptatum"
+        "officiis",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 679
         }
       }
     },
     {
-      "Name": "Nitzsche, Konopelski and Dickinson",
+      "Name": "Zboncak-Russel",
       "Values": [
-        "accusantium",
-        "voluptatum"
+        "officiis",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 679
         }
       }
     }
   ],
-  "FolderName": "Hahn Inc and Sons",
-  "EmailItemId": 147,
-  "AccountId": 765,
-  "ReceivedAt": "2008-10-06T04:22:26.686607+02:00",
+  "FolderName": "Nikolaus, Dare and Stamm",
+  "EmailItemId": 140,
+  "AccountId": 43,
+  "ReceivedAt": "2022-01-30T13:28:22.6323326+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-06-17T04:22:26.686607+02:00",
+  "RepliedAt": "2020-02-06T13:28:22.6323326+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

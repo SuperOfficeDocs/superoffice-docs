@@ -2,10 +2,10 @@
 uid: customerserviceagent-sessionisvalid
 title: CustomerServiceAgent.SessionIsValid event method
 description: Scripting events called on the SessionIsValid method on the CustomerServiceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CustomerServiceAgent.SessionIsValid
 

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cole-Wintheiser",
+  "TableName": "Schultz Inc and Sons",
   "Columns": [
-    "dignissimos",
-    "rerum"
+    "est",
+    "et"
   ],
   "Keys": [
-    "eligendi",
-    "illum"
+    "quo",
+    "id"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "rerum",
-  "Inserts": 416,
-  "Updates": 779,
-  "Deletes": 580,
+  "Message": "saepe",
+  "Inserts": 102,
+  "Updates": 899,
+  "Deletes": 668,
   "RowStatus": [
     {
-      "PrimaryKey": 267,
+      "PrimaryKey": 219,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ab"
+        "accusantium",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 555
+          "FieldType": "System.Int32",
+          "FieldLength": 601
         }
       }
     },
     {
-      "PrimaryKey": 267,
+      "PrimaryKey": 219,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ab"
+        "accusantium",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 555
+          "FieldType": "System.Int32",
+          "FieldLength": 601
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

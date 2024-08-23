@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 239,
-  "Name": "Corkery LLC",
-  "Description": "Cross-group intermediate initiative",
-  "DeltaJson": "dolorem",
+  "ConfigurableScreenDeltaId": 892,
+  "Name": "Cole Group",
+  "Description": "Exclusive dedicated parallelism",
+  "DeltaJson": "unde",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "perferendis",
-  "UpdatedDate": "2023-04-24T04:22:26.1684694+02:00",
-  "CreatedDate": "2000-09-20T04:22:26.1684694+02:00",
+  "RecipeId": "vero",
+  "UpdatedDate": "2012-08-31T13:28:22.17931+02:00",
+  "CreatedDate": "2022-11-30T13:28:22.17931+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    182,
-    503
+    555,
+    36
   ],
-  "AppliesToKey": "et",
+  "AppliesToKey": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 968
     }
   }
 }

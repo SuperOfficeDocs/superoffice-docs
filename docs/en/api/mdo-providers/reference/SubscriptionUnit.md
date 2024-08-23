@@ -3,9 +3,9 @@ uid: subscriptionunit
 title: subscriptionunit
 keywords: mdoprovider mdo provider subscriptionunit
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "subscriptionunit" MDO List

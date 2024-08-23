@@ -2,10 +2,10 @@
 uid: selectionagent-setduplicaterulesstatus
 title: SelectionAgent.SetDuplicateRulesStatus event method
 description: Scripting events called on the SetDuplicateRulesStatus method on the SelectionAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SelectionAgent.SetDuplicateRulesStatus
 

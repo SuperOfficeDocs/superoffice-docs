@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable systematic knowledge user",
-  "Postit": "minus",
+  "Description": "Face to face radical attitude",
+  "Postit": "asperiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 805,
-  "IncludePerson": 649,
+  "GroupIdx": 202,
+  "IncludePerson": 116,
   "MemberCount": 99.99,
-  "Name": "Powlowski, Jast and Eichmann",
-  "PostitTextId": 703,
-  "CreatedDate": "2014-01-13T04:22:27.5805229+01:00",
-  "SelectionId": 726,
-  "SoundEx": "dolores",
-  "Source": 371,
-  "TextId": 426,
-  "UpdatedDate": "2004-10-22T04:22:27.5805229+02:00",
-  "UpdatedCount": 93,
-  "Visibility": 709,
+  "Name": "Gusikowski, Bosco and Kertzmann",
+  "PostitTextId": 772,
+  "CreatedDate": "2013-10-30T13:28:23.7260971+01:00",
+  "SelectionId": 780,
+  "SoundEx": "nobis",
+  "Source": 487,
+  "TextId": 15,
+  "UpdatedDate": "2023-07-21T13:28:23.7260971+02:00",
+  "UpdatedCount": 670,
+  "Visibility": 62,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 788,
-  "TargetTableName": "Wolf Inc and Sons",
+  "TargetTableNumber": 139,
+  "TargetTableName": "Kris-Ankunding",
   "Completed": false,
-  "LeftSelectionId": 88,
-  "RightSelectionId": 210,
+  "LeftSelectionId": 694,
+  "RightSelectionId": 512,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson, Kemmer and Hauck",
-  "ShadowProviderName": "Gutmann, Leuschke and Howell",
-  "ChartKey": "molestias",
-  "LastLoaded": "2007-12-05T04:22:27.5805229+01:00",
-  "LastLoadedBy": 232,
+  "MainProviderName": "Koch LLC",
+  "ShadowProviderName": "Johnson LLC",
+  "ChartKey": "et",
+  "LastLoaded": "2023-09-20T13:28:23.7260971+02:00",
+  "LastLoadedBy": 230,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-05-10T04:22:27.5805229+02:00",
-  "LastMembershipChangeBy": 275,
+  "LastMembershipChange": "2008-01-31T13:28:23.7260971+01:00",
+  "LastMembershipChangeBy": 78,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Gerlach, Raynor and Marks",
-  "DashboardTileDefinitionId": 741,
+  "MainHeading": "iusto",
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Stehr, Waters and Pagac",
+  "DashboardTileDefinitionId": 852,
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   }
 }

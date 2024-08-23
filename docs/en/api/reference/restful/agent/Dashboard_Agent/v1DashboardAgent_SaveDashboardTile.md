@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 62,
-  "Caption": "quae",
-  "Description": "Multi-channelled directional pricing structure",
-  "ChartName": "Flatley, Bernier and Torphy",
-  "ChartId": "reprehenderit",
-  "IsDefault": true,
-  "AssociateId": 100,
-  "GroupId": 113,
-  "SelectionId": 207,
-  "Config": "qui",
+  "DashboardTileId": 322,
+  "Caption": "sed",
+  "Description": "Programmable cohesive hub",
+  "ChartName": "Sporer, Kub and Larkin",
+  "ChartId": "et",
+  "IsDefault": false,
+  "AssociateId": 429,
+  "GroupId": 650,
+  "SelectionId": 851,
+  "Config": "necessitatibus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Luettgen Group",
-      "Description": "Robust attitude-oriented utilisation",
+      "Name": "Kub-Friesen",
+      "Description": "Public-key global groupware",
       "Type": "Boolean",
-      "ListName": "Weissnat Group",
+      "ListName": "Aufderhar Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "unde",
-      "DefaultDataOption": true
+      "Value": "quisquam",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 441,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "soluta"
     },
     {
-      "VisibleId": 441,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "soluta"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 125,
-  "Caption": "aut",
-  "Description": "Innovative assymetric product",
-  "ChartName": "Ortiz-Strosin",
-  "ChartId": "dolor",
+  "DashboardTileId": 891,
+  "Caption": "aliquid",
+  "Description": "Assimilated didactic contingency",
+  "ChartName": "Schroeder, Boehm and Douglas",
+  "ChartId": "praesentium",
   "IsDefault": false,
-  "AssociateId": 104,
-  "GroupId": 452,
-  "SelectionId": 749,
-  "Config": "voluptas",
+  "AssociateId": 112,
+  "GroupId": 29,
+  "SelectionId": 780,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Ernser Inc and Sons",
-      "Description": "Extended client-server implementation",
+      "Name": "Erdman, Cummings and Kertzmann",
+      "Description": "Operative zero administration array",
       "Type": "Boolean",
-      "ListName": "Beier, Stoltenberg and Abbott",
+      "ListName": "Fadel, Dietrich and Jacobs",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sit",
+      "Value": "quia",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldType": "System.String",
+          "FieldLength": 39
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 685,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 685,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 279
     }
   }
 }

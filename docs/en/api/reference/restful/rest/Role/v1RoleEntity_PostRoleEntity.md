@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 637,
-  "Name": "Klein Group",
-  "Tooltip": "laudantium",
+  "RoleId": 197,
+  "Name": "Lindgren Group",
+  "Tooltip": "amet",
   "RoleType": "Anonymous",
-  "Deleted": 685,
-  "Rank": 381,
-  "Created": "2009-03-26T04:22:35.1897687+01:00",
-  "UseCategories": 166,
+  "Deleted": 913,
+  "Rank": 189,
+  "Created": "2013-03-01T13:28:31.9135636+01:00",
+  "UseCategories": 360,
   "CreatedBy": null,
-  "Updated": "2015-01-01T04:22:35.1897687+01:00",
+  "Updated": "2023-08-28T13:28:31.9135636+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 4,
-  "Name": "Terry, O'Hara and Hane",
-  "Tooltip": "et",
+  "RoleId": 873,
+  "Name": "Barton LLC",
+  "Tooltip": "consectetur",
   "RoleType": "Anonymous",
-  "Deleted": 323,
-  "Rank": 664,
-  "Created": "2003-01-05T04:22:35.1897687+01:00",
-  "UseCategories": 475,
+  "Deleted": 970,
+  "Rank": 444,
+  "Created": "2011-06-15T13:28:31.9135636+02:00",
+  "UseCategories": 144,
   "CreatedBy": null,
-  "Updated": "2014-07-04T04:22:35.1897687+02:00",
+  "Updated": "2020-01-26T13:28:31.9135636+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   },
   "_Links": {

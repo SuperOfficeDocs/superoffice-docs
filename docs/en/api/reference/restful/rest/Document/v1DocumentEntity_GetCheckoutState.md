@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 548,
-  "Name": "Runte LLC"
+  "AssociateId": 944,
+  "Name": "Mueller-Franecki"
 }
 ```

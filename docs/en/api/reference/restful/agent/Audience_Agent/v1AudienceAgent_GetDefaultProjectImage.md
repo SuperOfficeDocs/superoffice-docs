@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Monahan, Hermiston and Weissnat"
+  "LayoutName": "Ward, Jakubowski and Mueller"
 }
 ```
 

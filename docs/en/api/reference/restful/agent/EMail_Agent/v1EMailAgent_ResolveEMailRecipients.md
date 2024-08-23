@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "micah.lakin@franecki.co.uk"
+  "EmailAddress": "deon_stark@hills.com"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 836,
-    "ContactName": "Gusikowski-Kilback",
-    "PersonId": 438,
-    "PersonName": "Paucek LLC",
-    "AssociateId": 244,
-    "Address": "suscipit",
-    "EmailId": 3,
+    "ContactId": 984,
+    "ContactName": "Schiller, Howe and Casper",
+    "PersonId": 644,
+    "PersonName": "Reichert Group",
+    "AssociateId": 167,
+    "Address": "adipisci",
+    "EmailId": 434,
     "DuplicatePersonIds": [
-      266,
-      163
+      302,
+      567
     ],
-    "Name": "Schimmel Inc and Sons",
+    "Name": "Kling, Runte and Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 253
       }
     }
   }

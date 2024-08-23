@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 976,
+  "ErpConnectionId": 821,
   "ActorTypeErp": "Customer",
-  "ErpKey": "natus"
+  "ErpKey": "modi"
 }
 ```
 
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Smith-Kihn",
-    "CrmFieldKey": "hic",
-    "Value": "eum",
-    "DisplayValue": "sint",
+    "DisplayName": "D'Amore LLC",
+    "CrmFieldKey": "libero",
+    "Value": "atque",
+    "DisplayValue": "accusantium",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 825
       }
     }
   }

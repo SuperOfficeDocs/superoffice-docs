@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Hackett-Price",
-  "DeviceName": "Dibbert LLC",
-  "DeviceIdentifier": "minima"
+  "ApplicationName": "Erdman Group",
+  "DeviceName": "Kirlin-Rodriguez",
+  "DeviceIdentifier": "dolores"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eligendi",
-  "Value": "itaque",
-  "RecordId": 930,
-  "CreatedDate": "2010-07-07T04:22:26.8755249+02:00",
-  "UpdatedDate": "2002-01-31T04:22:26.8755249+01:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "illum",
-  "TableName": "Lindgren-Osinski",
+  "Key": "facere",
+  "Value": "quae",
+  "RecordId": 552,
+  "CreatedDate": "1997-11-18T13:28:22.8510314+01:00",
+  "UpdatedDate": "2010-07-19T13:28:22.8510314+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "nihil",
+  "TableName": "Hammes, Cassin and Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 495
     }
   }
 }

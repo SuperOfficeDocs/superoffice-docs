@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 85,
-    "Name": "Anderson, Lowe and Stokes",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 346,
-    "UdListDefinitionId": 53
+    "HeadingId": 723,
+    "Name": "Satterfield, Nicolas and Heathcote",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 525,
+    "UdListDefinitionId": 755
   },
   {
-    "HeadingId": 85,
-    "Name": "Anderson, Lowe and Stokes",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 346,
-    "UdListDefinitionId": 53
+    "HeadingId": 723,
+    "Name": "Satterfield, Nicolas and Heathcote",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 525,
+    "UdListDefinitionId": 755
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 990,
-    "Name": "Thompson, Wiegand and Olson",
-    "Tooltip": "quisquam",
+    "HeadingId": 877,
+    "Name": "Wintheiser Group",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 894,
-    "UdListDefinitionId": 336,
+    "Rank": 621,
+    "UdListDefinitionId": 601,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

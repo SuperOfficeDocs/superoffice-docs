@@ -2,10 +2,10 @@
 uid: preferenceagent-getallfromsection
 title: PreferenceAgent.GetAllFromSection event method
 description: Scripting events called on the GetAllFromSection method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.GetAllFromSection
 

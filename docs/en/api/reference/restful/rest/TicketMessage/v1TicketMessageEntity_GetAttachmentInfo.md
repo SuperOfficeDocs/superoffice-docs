@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 903,
-    "Name": "Feil Inc and Sons",
-    "ContentType": "rem",
-    "AttSize": 593,
-    "InlineImage": true,
-    "ContentId": "deleniti",
-    "AuthKey": "excepturi",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 406,
+    "Name": "Koch-Boyle",
+    "ContentType": "veritatis",
+    "AttSize": 857,
+    "InlineImage": false,
+    "ContentId": "dolorem",
+    "AuthKey": "qui",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 192
       }
     }
   }

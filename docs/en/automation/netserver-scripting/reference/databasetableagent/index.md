@@ -2,10 +2,10 @@
 uid: databasetableagent-script-events
 title: DatabaseTableAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # DatabaseTableAgent method listing

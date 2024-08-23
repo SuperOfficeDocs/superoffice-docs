@@ -3,9 +3,9 @@ uid: QuoteLineSelection
 title: QuoteLineSelection
 description: This is the archive Provider for the Selection QuoteLine archive.
 keywords: QuoteLineSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "QuoteLineSelection"
@@ -758,7 +758,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=description,alternative/version/quote/sale/recordType,alternative/version/quote/sale/hasStakeholders,alternative/version/quote/sale/person/restrictionAddress/city,alternative/version/quote/sale/contact/streetAddress/city
+GET /api/v1/archive/QuoteLineSelection?$select=totalCost,alternative/version/quote/sale/person/personUrl/URLAddress,alternative/version/quote/sale/person/personAssociate/otherGroups,alternative/version/quote/sale/contact/registeredByFullName,alternative/version/quote/sale/contact/contactAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

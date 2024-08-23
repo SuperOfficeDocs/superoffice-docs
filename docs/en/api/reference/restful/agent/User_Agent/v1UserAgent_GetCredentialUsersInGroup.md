@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "hic",
-  "GroupName": "Rutherford, Parker and Walter"
+  "Type": "suscipit",
+  "GroupName": "Bode-Frami"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "deleniti",
-    "aliquam"
+    "dicta",
+    "debitis"
   ],
   "Users": [
     {
-      "Value": "iusto",
-      "DisplayValue": "vero",
+      "Value": "voluptas",
+      "DisplayValue": "aut",
       "Columns": [
-        "atque",
-        "labore"
+        "iure",
+        "aliquam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     },
     {
-      "Value": "iusto",
-      "DisplayValue": "vero",
+      "Value": "voluptas",
+      "DisplayValue": "aut",
       "Columns": [
-        "atque",
-        "labore"
+        "iure",
+        "aliquam"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 78
     }
   }
 }

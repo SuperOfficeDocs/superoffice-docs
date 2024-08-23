@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Bode-Runolfsson",
-      "Delimiter": "totam",
-      "Flags": "at",
-      "TotalItems": 887,
-      "UnreadItems": 510,
+      "Name": "Pouros, Rath and Torp",
+      "Delimiter": "reiciendis",
+      "Flags": "nam",
+      "TotalItems": 622,
+      "UnreadItems": 966,
       "Subscribed": false,
-      "EmailFolderId": 485
+      "EmailFolderId": 314
     }
   ]
 }

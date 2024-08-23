@@ -2,10 +2,10 @@
 uid: diagnosticsagent-getcachenames
 title: DiagnosticsAgent.GetCacheNames event method
 description: Scripting events called on the GetCacheNames method on the DiagnosticsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DiagnosticsAgent.GetCacheNames
 

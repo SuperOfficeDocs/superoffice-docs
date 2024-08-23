@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 476,
-  "ParentId": 946,
-  "Name": "Hoppe-O'Conner",
-  "Fullname": "vel",
-  "CategoryMaster": 241,
+  "TicketCategoryId": 906,
+  "ParentId": 222,
+  "Name": "Shanahan, Treutel and Hilll",
+  "Fullname": "in",
+  "CategoryMaster": 721,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jacobs Inc and Sons",
+  "ExternalName": "Cronin Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 749,
-  "ReplyTemplate": 595,
-  "NotificationEmail": "davion.weissnat@abshire.info",
+  "AssignmentLag": 315,
+  "ReplyTemplate": 736,
+  "NotificationEmail": "davon@crist.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 730,
+  "EffectiveReplyTemplateId": 662,
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "alias"
+    "CustomFields1": "numquam",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

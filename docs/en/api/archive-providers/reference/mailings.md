@@ -3,9 +3,9 @@ uid: Mailings
 title: Mailings
 description: Archive provider for the list of mailings
 keywords: Mailings archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Mailings"
@@ -591,7 +591,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/LastSale,mailingAddr/person/correspondingAssociate/lastName,project/hasGuide,project/projectAssociate/mrMrs
+GET /api/v1/archive/Mailings?$select=mailingAddr/contact/hasInfoText,mailingAddr/person/personDirectPhone/description,mailingAddr/person/personAssociate/firstName,mailingAddr/person/personAssociate/isLocation,associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

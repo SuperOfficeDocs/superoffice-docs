@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 741,
+  "TargetDimensionId": 14,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "deleniti",
-  "DimensionListName": "Berge-Ullrich",
-  "DimensionListId": 100,
-  "DimensionListLabel": "nostrum",
+  "DimensionListField": "quod",
+  "DimensionListName": "Hessel LLC",
+  "DimensionListId": 16,
+  "DimensionListLabel": "aut",
   "SelectedDimensions": [
-    378,
-    701
+    96,
+    108
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 179,
+  "TargetDimensionId": 863,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "blanditiis",
-  "DimensionListName": "Schaefer-Dooley",
-  "DimensionListId": 396,
-  "DimensionListLabel": "dolorem",
+  "DimensionListField": "voluptatem",
+  "DimensionListName": "Labadie LLC",
+  "DimensionListId": 70,
+  "DimensionListLabel": "consequuntur",
   "SelectedDimensions": [
-    896,
-    441
+    491,
+    356
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 3
     }
   }
 }

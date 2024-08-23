@@ -3,9 +3,9 @@ uid: SaleGuideDocument
 title: SaleGuideDocument
 description: Specific provider for Sale Guide Items of type Appointment
 keywords: SaleGuideDocument archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleGuideDocument"
@@ -726,7 +726,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=date,documentInstance/person/consentSourceStore,documentInstance/contact/restrictionAddress/state,documentInstance/contact/contactUdef/SuperOffice:6,documentInstance/contact/LastDoByTicket
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/associateId,documentInstance/person/restrictionAddress/line2,documentInstance/person/personExtra/x_person_boolean,documentInstance/person/correspondingAssociate/ejUserId,documentInstance/contact/contactUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

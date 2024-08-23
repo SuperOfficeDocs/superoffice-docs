@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 172,
-  "Name": "Corwin-Jerde",
-  "Tooltip": "soluta",
+  "RoleId": 355,
+  "Name": "Gulgowski, Goldner and Beatty",
+  "Tooltip": "ullam",
   "RoleType": "Anonymous",
-  "Deleted": 787,
-  "Rank": 127,
-  "Created": "2007-12-15T04:22:28.0537538+01:00",
-  "UseCategories": 250,
+  "Deleted": 187,
+  "Rank": 851,
+  "Created": "2014-05-03T13:28:24.1166042+02:00",
+  "UseCategories": 817,
   "CreatedBy": null,
-  "Updated": "2023-04-04T04:22:28.0537538+02:00",
+  "Updated": "2009-10-27T13:28:24.132253+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 118,
-  "Name": "Koelpin, Lemke and Rogahn",
-  "Tooltip": "blanditiis",
+  "RoleId": 878,
+  "Name": "Bernier, Wolff and Flatley",
+  "Tooltip": "fuga",
   "RoleType": "Anonymous",
-  "Deleted": 571,
-  "Rank": 711,
-  "Created": "1999-11-21T04:22:28.0537538+01:00",
-  "UseCategories": 95,
+  "Deleted": 943,
+  "Rank": 223,
+  "Created": "2021-04-23T13:28:24.132253+02:00",
+  "UseCategories": 305,
   "CreatedBy": null,
-  "Updated": "1997-10-03T04:22:28.0537538+02:00",
+  "Updated": "2018-10-10T13:28:24.132253+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 520
     }
   }
 }

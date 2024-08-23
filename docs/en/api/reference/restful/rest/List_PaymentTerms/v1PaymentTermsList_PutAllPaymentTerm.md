@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Monahan-Gleichner",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "UdListDefinitionId": 974,
-    "Rank": 434
+    "Id": 519,
+    "Name": "McGlynn Group",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "UdListDefinitionId": 226,
+    "Rank": 359
   },
   {
-    "Id": 167,
-    "Name": "Monahan-Gleichner",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "UdListDefinitionId": 974,
-    "Rank": 434
+    "Id": 519,
+    "Name": "McGlynn Group",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "UdListDefinitionId": 226,
+    "Rank": 359
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Larkin Group",
-    "Tooltip": "molestias",
+    "Id": 325,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "UdListDefinitionId": 5,
-    "Rank": 733,
+    "UdListDefinitionId": 845,
+    "Rank": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

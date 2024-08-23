@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Lakin Group"
+  "FunctionalRightName": "Murray Group"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Ankunding, Oberbrunner and Harber",
-    "ToolTip": "Ratione et.",
-    "Deleted": false,
-    "Rank": 675,
-    "Type": "recusandae",
+    "Id": 226,
+    "Name": "Zboncak Inc and Sons",
+    "ToolTip": "Incidunt ut officiis.",
+    "Deleted": true,
+    "Rank": 638,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "O'Reilly-Weber",
-        "ToolTip": "Iusto doloribus facilis officiis et consequuntur omnis tempora.",
+        "Id": 202,
+        "Name": "Marquardt-McClure",
+        "ToolTip": "Fugiat enim odit rerum.",
         "Deleted": false,
-        "Rank": 775,
-        "Type": "nihil",
+        "Rank": 362,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 461,
-        "ExtraInfo": "at",
-        "StyleHint": "quo",
-        "FullName": "Angelita Naomi Stracke III",
+        "IconHint": "eius",
+        "ColorBlock": 825,
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "FullName": "Dr. Maureen Hansen III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 742
+            "FieldLength": 835
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 873,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dolorem",
-    "FullName": "Katelyn Jacobi",
+    "IconHint": "aliquam",
+    "ColorBlock": 373,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "iusto",
+    "FullName": "Katelin Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 339
       }
     }
   }

@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 334,
-  "EMailAddress": "sapiente",
-  "AssociateId": 983,
+  "EMailAccountId": 789,
+  "EMailAddress": "dicta",
+  "AssociateId": 320,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 932,
-  "ErrorCount": 407,
+  "AccountStatus": 125,
+  "ErrorCount": 813,
   "ErrorReason": "",
-  "InboxFolder": "ut",
-  "SentFolder": "voluptatem"
+  "InboxFolder": "maiores",
+  "SentFolder": "ducimus"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 288,
-  "EMailAddress": "assumenda",
-  "AssociateId": 255,
+  "EMailAccountId": 86,
+  "EMailAddress": "vitae",
+  "AssociateId": 71,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 885,
-  "ErrorCount": 613,
+  "AccountStatus": 694,
+  "ErrorCount": 466,
   "ErrorReason": "",
-  "InboxFolder": "minima",
-  "SentFolder": "sit",
+  "InboxFolder": "ab",
+  "SentFolder": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 837
     }
   }
 }

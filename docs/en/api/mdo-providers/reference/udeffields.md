@@ -3,9 +3,9 @@ uid: udeffields
 title: udeffields
 keywords: mdoprovider mdo provider udeffields
 description: Get a list of udef fields for a given type. Optionally it is possible to exclude page one fields by adding extrainfo ( 'Contact,excludepageone' )
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "udeffields" MDO List

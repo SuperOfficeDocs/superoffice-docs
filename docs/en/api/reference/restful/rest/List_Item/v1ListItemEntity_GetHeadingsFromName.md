@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 787,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "expedita",
+    "HeadingId": 38,
+    "Name": "Rohan-Dickens",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 565,
+    "Rank": 605,
+    "UdListDefinitionId": 327,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 437
       }
     }
   }

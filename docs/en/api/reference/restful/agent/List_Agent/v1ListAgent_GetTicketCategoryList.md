@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 309,
-    "ParentId": 749,
-    "Name": "Barrows, Weimann and Bailey",
-    "Fullname": "modi",
-    "CategoryMaster": 849,
+    "TicketCategoryId": 990,
+    "ParentId": 541,
+    "Name": "Hintz Inc and Sons",
+    "Fullname": "cupiditate",
+    "CategoryMaster": 978,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "McLaughlin Group",
+    "ExternalName": "Blick, Steuber and Sawayn",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 972,
-    "ReplyTemplate": 974,
-    "NotificationEmail": "amalia_rice@bashirian.co.uk",
+    "AssignmentLag": 466,
+    "ReplyTemplate": 725,
+    "NotificationEmail": "ebony.muller@pollichbeatty.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 416,
+    "EffectiveReplyTemplateId": 362,
     "ExtraFields": {
-      "ExtraFields1": "atque",
-      "ExtraFields2": "nulla"
+      "ExtraFields1": "omnis",
+      "ExtraFields2": "vero"
     },
     "CustomFields": {
-      "CustomFields1": "voluptates",
-      "CustomFields2": "odit"
+      "CustomFields1": "qui",
+      "CustomFields2": "rerum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldLength": 67
       }
     }
   }

@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-10-16T04:22:25.809066+02:00",
-  "AppointmentId": 654,
-  "Description": "Mandatory bandwidth-monitored Graphical User Interface",
-  "Title": "culpa",
-  "Agenda": "voluptatem",
-  "InternalNotes": "ut",
-  "StartDate": "2002-11-24T04:22:25.809066+01:00",
-  "EndDate": "1998-10-28T04:22:25.809066+01:00",
+  "CreatedDate": "2003-04-19T13:28:21.6013191+02:00",
+  "AppointmentId": 977,
+  "Description": "Future-proofed user-facing help-desk",
+  "Title": "quas",
+  "Agenda": "qui",
+  "InternalNotes": "excepturi",
+  "StartDate": "2004-06-27T13:28:21.6013191+02:00",
+  "EndDate": "2001-10-21T13:28:21.6013191+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 51,
+  "MotherId": 44,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-05-16T04:22:25.809066+02:00",
+  "UpdatedDate": "2011-11-26T13:28:21.6169386+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 710,
+  "ActiveLinks": 616,
   "Links": [
     {
-      "EntityName": "Crooks, Stoltenberg and Buckridge",
-      "Id": 287,
-      "Description": "Inverse analyzing hierarchy",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 452,
+      "EntityName": "Osinski, Abernathy and Wiza",
+      "Id": 707,
+      "Description": "Streamlined 5th generation policy",
+      "ExtraInfo": "aut",
+      "LinkId": 577,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
   ],
-  "AlarmLeadTime": "nostrum",
-  "HasAlarm": false,
-  "ColorIndex": 366,
-  "IsFree": false,
+  "AlarmLeadTime": "assumenda",
+  "HasAlarm": true,
+  "ColorIndex": 858,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "hic",
-  "LeadTime": "id",
-  "Location": "aliquid",
-  "RejectCounter": 14,
-  "RejectReason": "visualize user-centric methodologies",
+  "LagTime": "illum",
+  "LeadTime": "aperiam",
+  "Location": "tenetur",
+  "RejectCounter": 353,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 65,
-      "PersonId": 270,
-      "ContactId": 399,
-      "EmailId": 400,
+      "AssociateId": 987,
+      "PersonId": 301,
+      "ContactId": 405,
+      "EmailId": 200,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "abigail.schowalter@effertz.us",
-      "Description": "Fundamental responsive migration"
+      "EmailAddress": "mariana.kreiger@heathcote.biz",
+      "Description": "Object-based fault-tolerant knowledge user"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-07-26T04:22:25.809066+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2009-01-02T13:28:21.6169386+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 498,
+  "PreferredTZLocation": 203,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 266,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 187,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "dolores",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Jaycee Erdman"
+    "SuperOffice:1": "Blaze Aubree Douglas Sr.",
+    "SuperOffice:2": "Ms. Kaylah Providenci Buckridge"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "hic"
+    "CustomFields1": "odit",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "1998-04-15T04:22:25.809066+02:00",
-  "PublishTo": "2002-09-24T04:22:25.809066+02:00",
-  "PublishFrom": "2017-01-13T04:22:25.809066+01:00",
+  "PublishEventDate": "2022-08-12T13:28:21.6169386+02:00",
+  "PublishTo": "2018-06-26T13:28:21.6169386+02:00",
+  "PublishFrom": "2021-07-30T13:28:21.6169386+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 822,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldLength": 965
         }
       }
     },
     {
-      "VisibleId": 822,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldLength": 965
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 128
     }
   }
 }

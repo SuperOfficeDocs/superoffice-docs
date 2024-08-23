@@ -2,10 +2,10 @@
 uid: findagent-getspecifiedcriteriainformationwithdefaultswithcontext
 title: FindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext event method
 description: Scripting events called on the GetSpecifiedCriteriaInformationWithDefaultsWithContext method on the FindAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext
 

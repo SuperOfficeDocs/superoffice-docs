@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=423
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=481
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 505,
-  "StartDate": "2016-01-08T04:22:25.745933+01:00",
-  "EndDate": "2000-07-10T04:22:25.745933+02:00",
+  "AppointmentId": 217,
+  "StartDate": "2018-01-24T13:28:21.5388325+01:00",
+  "EndDate": "1997-12-23T13:28:21.5388325+01:00",
   "Type": "BookingForChecklist",
-  "Task": "accusamus",
-  "AssociateFullName": "Ottilie Reynolds II",
-  "ContactName": "Jacobs Inc and Sons",
-  "Description": "Proactive interactive utilisation",
-  "PersonFullName": "Jasen Gutmann",
-  "PersonId": 801,
-  "ContactId": 197,
-  "ProjectId": 791,
-  "ProjectName": "Wyman-Cormier",
+  "Task": "illo",
+  "AssociateFullName": "Lazaro Labadie PhD",
+  "ContactName": "Hammes-Lemke",
+  "Description": "Secured static utilisation",
+  "PersonFullName": "Carey Wolf",
+  "PersonId": 407,
+  "ContactId": 950,
+  "ProjectId": 751,
+  "ProjectName": "Green Group",
   "IsPublished": false,
-  "AssociateId": 375,
-  "ColorIndex": 655,
-  "IsFree": false,
-  "HasAlarm": false,
+  "AssociateId": 640,
+  "ColorIndex": 482,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 137,
-  "PriorityName": "Wilkinson-Kassulke",
+  "PriorityId": 762,
+  "PriorityName": "Rodriguez-Hegmann",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2001-05-17T04:22:25.7615574+02:00",
+  "ActiveDate": "2022-07-01T13:28:21.5388325+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-03-15T04:22:25.7615574+01:00",
-  "RecurringEndDate": "2012-02-15T04:22:25.7615574+01:00",
-  "MotherId": 402,
-  "AssignedBy": 431,
-  "AssignedByFullName": "Mrs. Taryn Beverly Rath",
+  "RecurringStartDate": "2008-02-23T13:28:21.5388325+01:00",
+  "RecurringEndDate": "2008-03-03T13:28:21.5388325+01:00",
+  "MotherId": 276,
+  "AssignedBy": 642,
+  "AssignedByFullName": "Mohammed Durgan",
   "RejectReason": "",
-  "Location": "sit",
-  "AlarmLeadTime": "nesciunt",
-  "SaleId": 826,
-  "SaleName": "Borer-Thiel",
-  "AssociateName": "Schmidt LLC",
-  "CreatedDate": "2024-01-10T04:22:25.7615574+01:00",
-  "CreatedBy": "itaque",
-  "CreatedByFullName": "Jorge Mayer",
-  "CreatedByAssociateId": 529,
+  "Location": "quibusdam",
+  "AlarmLeadTime": "est",
+  "SaleId": 433,
+  "SaleName": "Schmeler, Abshire and Spencer",
+  "AssociateName": "Satterfield Group",
+  "CreatedDate": "2011-05-04T13:28:21.5388325+02:00",
+  "CreatedBy": "eaque",
+  "CreatedByFullName": "Ms. Tanner Glover IV",
+  "CreatedByAssociateId": 660,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 74,
-  "Title": "inventore",
-  "Agenda": "nemo",
-  "InternalNotes": "ab",
+  "PreferredTZLocation": 264,
+  "Title": "consectetur",
+  "Agenda": "consequatur",
+  "InternalNotes": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 341
     }
   }
 }

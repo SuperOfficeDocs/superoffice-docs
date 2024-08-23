@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=voluptatem
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=ex
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Frami-Ritchie",
-    "ToolTip": "Eveniet eveniet quos temporibus quaerat.",
+    "Id": 453,
+    "Name": "Jerde-Cummerata",
+    "ToolTip": "Voluptas inventore vel ex doloremque est eius.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "eligendi",
+    "Rank": 498,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Hamill Inc and Sons",
-        "ToolTip": "Sint et.",
-        "Deleted": false,
-        "Rank": 396,
-        "Type": "dignissimos",
+        "Id": 443,
+        "Name": "Gusikowski, Block and Adams",
+        "ToolTip": "Ratione perferendis eum qui officia saepe nihil consectetur.",
+        "Deleted": true,
+        "Rank": 354,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 250,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "praesentium",
-        "FullName": "Mrs. Breanne Georgianna Bashirian PhD",
+        "IconHint": "commodi",
+        "ColorBlock": 682,
+        "ExtraInfo": "enim",
+        "StyleHint": "quis",
+        "FullName": "Prof. Alejandra Susan Grady DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 50
+            "FieldType": "System.String",
+            "FieldLength": 769
           }
         }
       }
     ],
-    "IconHint": "tempore",
-    "ColorBlock": 435,
-    "ExtraInfo": "aut",
+    "IconHint": "dolor",
+    "ColorBlock": 157,
+    "ExtraInfo": "laboriosam",
     "StyleHint": "quidem",
-    "FullName": "Dr. Brock Streich",
+    "FullName": "Fleta Marlee Monahan IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 867
       }
     }
   }

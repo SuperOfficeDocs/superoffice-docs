@@ -26,7 +26,7 @@ Gets a ResourceEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=554
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=265
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 169,
-  "Name": "Hettinger-Grant",
-  "Rank": 568,
-  "Tooltip": "autem",
+  "ResourceId": 95,
+  "Name": "Kshlerin Group",
+  "Rank": 289,
+  "Tooltip": "hic",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "aperiam",
+  "IsLocation": true,
+  "LocationAddress": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 682
     }
   }
 }

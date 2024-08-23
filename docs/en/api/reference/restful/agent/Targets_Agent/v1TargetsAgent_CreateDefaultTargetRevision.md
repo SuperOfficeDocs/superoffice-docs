@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2016-09-28T04:22:27.6586455+02:00",
+  "When": "2021-02-12T13:28:23.8042084+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "deserunt",
-      "ValueChangeFrom": 4118.076,
-      "ValueChangeTo": 22301.543999999998,
+      "FieldIdentifier": "delectus",
+      "ValueChangeFrom": 9753.008,
+      "ValueChangeTo": 24987.381999999998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldType": "System.String",
+          "FieldLength": 811
         }
       }
     },
     {
-      "FieldIdentifier": "deserunt",
-      "ValueChangeFrom": 4118.076,
-      "ValueChangeTo": 22301.543999999998,
+      "FieldIdentifier": "delectus",
+      "ValueChangeFrom": 9753.008,
+      "ValueChangeTo": 24987.381999999998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldType": "System.String",
+          "FieldLength": 811
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 895
     }
   }
 }

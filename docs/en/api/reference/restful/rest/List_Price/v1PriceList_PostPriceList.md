@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 174,
-  "ERPPriceListKey": "ab",
-  "QuoteConnectionId": 134,
-  "Name": "Sawayn-Gleason",
-  "Description": "Ameliorated 24 hour synergy",
-  "Currency": "quia",
-  "CurrencyName": "Farrell, Torphy and Denesik",
-  "ValidFrom": "2010-01-25T04:22:36.0340897+01:00",
-  "ValidTo": "2009-03-12T04:22:36.0340897+01:00",
-  "IsActive": false
+  "PriceListId": 700,
+  "ERPPriceListKey": "consequatur",
+  "QuoteConnectionId": 899,
+  "Name": "Beer, Ruecker and Weimann",
+  "Description": "Digitized tangible encoding",
+  "Currency": "modi",
+  "CurrencyName": "Wuckert Inc and Sons",
+  "ValidFrom": "2004-05-02T13:28:32.9447127+02:00",
+  "ValidTo": "2011-04-03T13:28:32.9447127+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 811,
-  "ERPPriceListKey": "quas",
-  "QuoteConnectionId": 658,
-  "Name": "Green-Schuppe",
-  "Description": "Down-sized tertiary Graphic Interface",
-  "Currency": "molestias",
-  "CurrencyName": "Murphy, Cummings and Jast",
-  "ValidFrom": "2009-11-29T04:22:36.0340897+01:00",
-  "ValidTo": "2003-03-15T04:22:36.0340897+01:00",
+  "PriceListId": 620,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 627,
+  "Name": "Breitenberg, Windler and Muller",
+  "Description": "Ameliorated intermediate alliance",
+  "Currency": "ea",
+  "CurrencyName": "Batz, Dach and Raynor",
+  "ValidFrom": "2008-04-03T13:28:32.9447127+02:00",
+  "ValidTo": "2017-01-07T13:28:32.9447127+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 636
     }
   },
   "_Links": {

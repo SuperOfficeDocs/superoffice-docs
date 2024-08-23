@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 775,
-    "ResourceId": 36,
-    "Text": "deleniti",
+    "LanguageId": 359,
+    "ResourceId": 104,
+    "Text": "nisi",
     "Type": "Column",
-    "LocalizedTextId": 569,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 972,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 153
       }
     }
   }

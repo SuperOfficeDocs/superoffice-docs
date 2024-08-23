@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    266,
-    407
+    1000,
+    54
   ],
-  "TargetTableNumber": 828
+  "TargetTableNumber": 385
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling 5th generation emulation",
-  "Postit": "nulla",
+  "Description": "Organic content-based data-warehouse",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 288,
-  "IncludePerson": 700,
+  "GroupIdx": 233,
+  "IncludePerson": 209,
   "MemberCount": 99.99,
-  "Name": "Weimann Inc and Sons",
-  "PostitTextId": 326,
-  "CreatedDate": "1998-01-20T04:22:27.6430234+01:00",
-  "SelectionId": 333,
-  "SoundEx": "odit",
-  "Source": 951,
-  "TextId": 882,
-  "UpdatedDate": "2006-10-05T04:22:27.6430234+02:00",
-  "UpdatedCount": 82,
-  "Visibility": 160,
+  "Name": "Emmerich-Miller",
+  "PostitTextId": 226,
+  "CreatedDate": "2010-02-21T13:28:23.772965+01:00",
+  "SelectionId": 651,
+  "SoundEx": "veritatis",
+  "Source": 464,
+  "TextId": 774,
+  "UpdatedDate": "2014-12-26T13:28:23.772965+01:00",
+  "UpdatedCount": 110,
+  "Visibility": 15,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 276,
-  "TargetTableName": "Deckow Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 918,
+  "TargetTableName": "Emmerich-Tromp",
   "Completed": false,
-  "LeftSelectionId": 620,
-  "RightSelectionId": 810,
+  "LeftSelectionId": 871,
+  "RightSelectionId": 304,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wisozk-Quitzon",
-  "ShadowProviderName": "Emmerich-Little",
-  "ChartKey": "veritatis",
-  "LastLoaded": "2018-10-03T04:22:27.6430234+02:00",
-  "LastLoadedBy": 560,
+  "MainProviderName": "Larkin, Gorczany and Ward",
+  "ShadowProviderName": "Christiansen-Labadie",
+  "ChartKey": "necessitatibus",
+  "LastLoaded": "2015-02-10T13:28:23.772965+01:00",
+  "LastLoadedBy": 206,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-09-08T04:22:27.6430234+02:00",
-  "LastMembershipChangeBy": 839,
+  "LastMembershipChange": "2013-08-26T13:28:23.772965+02:00",
+  "LastMembershipChangeBy": 567,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maiores",
-  "MemberTabHeading": "commodi",
-  "MailingsProviderName": "Harber-Robel",
-  "DashboardTileDefinitionId": 334,
+  "MainHeading": "necessitatibus",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Keebler, Schinner and Nader",
+  "DashboardTileDefinitionId": 695,
   "VisibleFor": [
     {
-      "VisibleId": 259,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 515
         }
       }
     },
     {
-      "VisibleId": 259,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 515
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

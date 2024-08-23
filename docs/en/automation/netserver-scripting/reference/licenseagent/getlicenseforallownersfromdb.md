@@ -2,10 +2,10 @@
 uid: licenseagent-getlicenseforallownersfromdb
 title: LicenseAgent.GetLicenseForAllOwnersFromDB event method
 description: Scripting events called on the GetLicenseForAllOwnersFromDB method on the LicenseAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # LicenseAgent.GetLicenseForAllOwnersFromDB
 

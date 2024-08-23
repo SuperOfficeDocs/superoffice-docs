@@ -3,9 +3,9 @@ uid: plugin
 title: plugin
 keywords: mdoprovider mdo provider plugin
 description: List of installed and available Document plugins
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "plugin" MDO List

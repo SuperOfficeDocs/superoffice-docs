@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 40,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 260,
-  "Name": "Smith, Heidenreich and Herman",
-  "Description": "Centralized eco-centric knowledge base",
+  "QuoteAlternativeId": 633,
+  "ERPQuoteAlternativeKey": "tenetur",
+  "QuoteVersionId": 164,
+  "Name": "Douglas Inc and Sons",
+  "Description": "Multi-channelled web-enabled encryption",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 27983.486,
-  "ERPDiscountAmount": 4726.072,
-  "DiscountPercent": 21590.126,
-  "DiscountAmount": 25654.924,
+  "ERPDiscountPercent": 12015.756,
+  "ERPDiscountAmount": 21577.59,
+  "DiscountPercent": 22580.469999999998,
+  "DiscountAmount": 11968.746,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "non",
-  "VAT": 6506.184,
-  "EarningPercent": 15112.148,
-  "EarningAmount": 4124.344,
-  "SubTotal": 1927.4099999999999,
-  "TotalPrice": 1134.508,
-  "ExtraField1": "et",
-  "ExtraField2": "unde",
-  "ExtraField3": "corporis",
-  "ExtraField4": "ut",
-  "ExtraField5": "quaerat",
+  "VATInfo": "id",
+  "VAT": 1435.3719999999998,
+  "EarningPercent": 10147.892,
+  "EarningAmount": 9138.744,
+  "SubTotal": 29860.752,
+  "TotalPrice": 15710.742,
+  "ExtraField1": "non",
+  "ExtraField2": "et",
+  "ExtraField3": "officiis",
+  "ExtraField4": "vero",
+  "ExtraField5": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

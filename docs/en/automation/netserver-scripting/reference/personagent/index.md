@@ -2,10 +2,10 @@
 uid: personagent-script-events
 title: PersonAgent script event methods
 description: NetServer script event methods.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # PersonAgent method listing
@@ -68,6 +68,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [SetConsent](setconsent.md)
 * [SetPersonImage](setpersonimage.md)
 * [SetPersonRank](setpersonrank.md)
+* [TryAddPersonsToEmailFlow](tryaddpersonstoemailflow.md)
 * [Undelete](undelete.md)
 * [ValidatePersonEntity](validatepersonentity.md)
 

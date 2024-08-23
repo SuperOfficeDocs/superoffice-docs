@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 484,
-  "PrefDescId": 379,
-  "PrefValue": "aliquam",
+  "PrefDescLineId": 477,
+  "PrefDescId": 862,
+  "PrefValue": "consequatur",
   "PrefShowValue": "vero",
-  "Description": "Profound needs-based instruction set",
-  "IsBuiltin": true,
+  "Description": "Stand-alone bifurcated firmware",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 737
     }
   }
 }

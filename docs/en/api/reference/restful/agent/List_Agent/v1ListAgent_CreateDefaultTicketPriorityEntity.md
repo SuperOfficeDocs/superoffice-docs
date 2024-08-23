@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 25,
-  "Name": "Barrows-Oberbrunner",
+  "TicketPriorityId": 435,
+  "Name": "Jones-Haag",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 806,
+  "SortOrder": 538,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 658,
-  "MonStart": "2008-06-14T04:22:27.0486609+02:00",
-  "MonStop": "2006-12-03T04:22:27.0486609+01:00",
-  "TueStart": "2020-05-13T04:22:27.0486609+02:00",
-  "TueStop": "2003-09-08T04:22:27.0486609+02:00",
-  "WedStart": "2000-08-20T04:22:27.0486609+02:00",
-  "WedStop": "2003-09-27T04:22:27.0486609+02:00",
-  "ThuStart": "2006-02-12T04:22:27.0486609+01:00",
-  "ThuStop": "2005-08-22T04:22:27.0486609+02:00",
-  "FriStart": "2024-05-24T04:22:27.0486609+02:00",
-  "FriStop": "1999-12-18T04:22:27.0486609+01:00",
-  "SatStart": "2008-04-30T04:22:27.0486609+02:00",
-  "SatStop": "2003-09-24T04:22:27.0486609+02:00",
-  "SunStart": "2023-07-31T04:22:27.0486609+02:00",
-  "SunStop": "2014-04-25T04:22:27.0486609+02:00",
+  "Deadline": 452,
+  "MonStart": "2001-07-02T13:28:23.0231319+02:00",
+  "MonStop": "1997-10-07T13:28:23.0231319+02:00",
+  "TueStart": "2008-02-24T13:28:23.0231319+01:00",
+  "TueStop": "2014-07-09T13:28:23.0231319+02:00",
+  "WedStart": "2007-06-01T13:28:23.0231319+02:00",
+  "WedStop": "2000-08-06T13:28:23.0231319+02:00",
+  "ThuStart": "2020-01-20T13:28:23.0231319+01:00",
+  "ThuStop": "2001-09-24T13:28:23.0231319+02:00",
+  "FriStart": "2011-07-10T13:28:23.0231319+02:00",
+  "FriStop": "2015-09-06T13:28:23.0231319+02:00",
+  "SatStart": "2002-04-02T13:28:23.0231319+02:00",
+  "SatStop": "2005-04-03T13:28:23.0231319+02:00",
+  "SunStart": "2021-03-28T13:28:23.0231319+02:00",
+  "SunStop": "2016-01-03T13:28:23.0231319+01:00",
   "NonDates": [
-    "quibusdam",
-    "numquam"
+    "quasi",
+    "qui"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 757,
-      "AlertLevel": 170,
-      "AlertTimeout": 766,
-      "Action": 797,
-      "DelegateTo": 491,
-      "ScriptId": 886,
-      "EmailTo": "kenya_kuhn@dicki.com",
-      "SmsTo": "ea",
-      "ReplyTemplateIdCustomer": 726,
-      "ReplyTemplateIdUser": 824,
-      "ReplyTemplateIdCatmast": 988,
-      "ReplyTemplateIdEmail": 460,
-      "RtiCustomerSms": 538,
-      "ReplyTemplateIdUserSms": 208,
-      "ReplyTemplateIdCatmastSms": 503,
-      "ReplyTemplateIdSms": 76,
+      "TicketAlertId": 77,
+      "AlertLevel": 902,
+      "AlertTimeout": 336,
+      "Action": 230,
+      "DelegateTo": 537,
+      "ScriptId": 994,
+      "EmailTo": "walton.hermann@boyer.com",
+      "SmsTo": "voluptate",
+      "ReplyTemplateIdCustomer": 936,
+      "ReplyTemplateIdUser": 314,
+      "ReplyTemplateIdCatmast": 498,
+      "ReplyTemplateIdEmail": 439,
+      "RtiCustomerSms": 107,
+      "ReplyTemplateIdUserSms": 93,
+      "ReplyTemplateIdCatmastSms": 710,
+      "ReplyTemplateIdSms": 748,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

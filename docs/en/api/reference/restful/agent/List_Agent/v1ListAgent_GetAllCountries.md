@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 260,
-    "Name": "O'Connell-Braun",
-    "CurrencyId": 75,
-    "EnglishName": "Grant, Shanahan and Witting",
+    "CountryId": 611,
+    "Name": "Kiehn, Watsica and Cummerata",
+    "CurrencyId": 291,
+    "EnglishName": "Kovacek LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-layered clear-thinking encryption",
-    "OrgNrText": "1479078",
-    "InterAreaPrefix": "tenetur",
-    "DialInPrefix": "aut",
-    "ZipPrefix": "vel",
-    "DomainName": "Grimes-Huels",
-    "AddressLayoutId": 252,
-    "DomesticAddressLayoutId": 970,
-    "ForeignAddressLayoutId": 154,
-    "Rank": 827,
-    "Tooltip": "eum",
-    "Deleted": true,
+    "ImageDescription": "Ergonomic radical model",
+    "OrgNrText": "870388",
+    "InterAreaPrefix": "odio",
+    "DialInPrefix": "et",
+    "ZipPrefix": "reprehenderit",
+    "DomainName": "Wunsch, Nolan and Lindgren",
+    "AddressLayoutId": 293,
+    "DomesticAddressLayoutId": 67,
+    "ForeignAddressLayoutId": 514,
+    "Rank": 10,
+    "Tooltip": "sequi",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 440
       }
     }
   }

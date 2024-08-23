@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 364,
-    "ERPName": "Kub, Lehner and Mills",
-    "DisplayName": "Beier-Dach",
-    "DisplayDescription": "Polarised scalable structure",
-    "Rank": 707,
-    "ConnectorName": "Hilpert Inc and Sons",
-    "ErpConnectionId": 517,
-    "ExtraData": "expedita",
+    "QuoteConnectionId": 956,
+    "ERPName": "McKenzie-Abbott",
+    "DisplayName": "Hammes LLC",
+    "DisplayDescription": "De-engineered background extranet",
+    "Rank": 390,
+    "ConnectorName": "Hudson Group",
+    "ErpConnectionId": 734,
+    "ExtraData": "aperiam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 652,
-        "ERPPriceListKey": "alias",
-        "QuoteConnectionId": 239,
-        "Name": "Schiller Group",
-        "Description": "Profound encompassing policy",
-        "Currency": "vitae",
-        "CurrencyName": "Moore Inc and Sons",
-        "ValidFrom": "2012-10-11T04:22:27.4091176+02:00",
-        "ValidTo": "2000-08-08T04:22:27.4091176+02:00",
+        "PriceListId": 32,
+        "ERPPriceListKey": "qui",
+        "QuoteConnectionId": 991,
+        "Name": "Rowe-Kovacek",
+        "Description": "Synchronised attitude-oriented standardization",
+        "Currency": "corrupti",
+        "CurrencyName": "Kunde LLC",
+        "ValidFrom": "1998-05-08T13:28:23.5542604+02:00",
+        "ValidTo": "2019-05-12T13:28:23.5542604+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldType": "System.Int32",
+            "FieldLength": 228
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      43,
-      132
+      664,
+      328
     ],
     "AssociateAccessIds": [
-      488,
-      326
+      954,
+      991
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 398
+        "FieldLength": 581
       }
     }
   }

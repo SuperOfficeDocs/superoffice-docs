@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 699,
-  "Name": "Mueller-Kunde",
-  "Tooltip": "aliquam",
+  "HeadingId": 440,
+  "Name": "Zboncak, Hauck and Trantow",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 593,
-  "UdListDefinitionId": 816
+  "Rank": 296,
+  "UdListDefinitionId": 156
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 304,
-  "Name": "Weber Group",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 991,
-  "UdListDefinitionId": 289,
+  "HeadingId": 824,
+  "Name": "Schowalter Group",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 976,
+  "UdListDefinitionId": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 277
     }
   }
 }

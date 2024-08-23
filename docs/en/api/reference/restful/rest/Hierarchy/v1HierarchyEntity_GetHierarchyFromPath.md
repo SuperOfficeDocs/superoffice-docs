@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 146,
+  "HierarchyId": 514,
   "Domain": "Dashboards",
-  "Name": "Collier LLC",
-  "Fullname": "velit",
-  "ParentId": 607,
+  "Name": "Hickle-Johnson",
+  "Fullname": "aliquid",
+  "ParentId": 495,
   "Children": [
     {
-      "HierarchyId": 665,
+      "HierarchyId": 511,
       "Domain": "Dashboards",
-      "Name": "Schoen-Borer",
-      "Fullname": "vel",
-      "ParentId": 943,
+      "Name": "Lesch-Gerlach",
+      "Fullname": "est",
+      "ParentId": 118,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-11-30T04:22:35.0167083+01:00",
-      "RegisteredAssociateId": 339,
-      "Updated": "2007-12-15T04:22:35.0167083+01:00",
-      "UpdatedAssociateId": 13,
+      "Registered": "2015-10-21T13:28:31.7104853+02:00",
+      "RegisteredAssociateId": 665,
+      "Updated": "2018-02-18T13:28:31.7104853+01:00",
+      "UpdatedAssociateId": 171,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     }
   ],
-  "Registered": "2020-09-03T04:22:35.0167083+02:00",
-  "RegisteredAssociateId": 930,
-  "Updated": "2009-11-03T04:22:35.0167083+01:00",
-  "UpdatedAssociateId": 206,
+  "Registered": "1999-11-20T13:28:31.7104853+01:00",
+  "RegisteredAssociateId": 764,
+  "Updated": "2003-03-11T13:28:31.7104853+01:00",
+  "UpdatedAssociateId": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldLength": 116
     }
   }
 }

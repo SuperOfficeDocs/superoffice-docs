@@ -3,9 +3,9 @@ uid: ticketstatuswithoutpostpone
 title: ticketstatuswithoutpostpone
 keywords: mdoprovider mdo provider ticketstatuswithoutpostpone
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ticketstatuswithoutpostpone" MDO List

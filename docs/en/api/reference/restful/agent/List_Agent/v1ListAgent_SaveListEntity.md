@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Cremin-Homenick",
-  "Tooltip": "dignissimos",
+  "Id": 869,
+  "Name": "Harber Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 128,
+  "Rank": 101,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "nesciunt",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "Stroman-Graham",
-  "Tooltip": "id",
+  "Id": 760,
+  "Name": "Robel LLC",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 73,
+  "Rank": 409,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fuga",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 220
     }
   }
 }

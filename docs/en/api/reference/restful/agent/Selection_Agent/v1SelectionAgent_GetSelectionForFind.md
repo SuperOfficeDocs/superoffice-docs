@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Schimmel-Kris",
-  "TypicalSearchId": 602
+  "EntityName": "Boyle-Beahan",
+  "TypicalSearchId": 832
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Veum, Green and Schneider",
-  "SelectionId": 723,
+  "ProviderName": "Schmidt LLC",
+  "SelectionId": 411,
   "CanSaveAsSelection": false,
-  "MainHeading": "aliquam",
-  "FilterScreenHeading": "ullam",
-  "SelectionEntityHeading": "saepe",
+  "MainHeading": "neque",
+  "FilterScreenHeading": "aliquam",
+  "SelectionEntityHeading": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 264
     }
   }
 }

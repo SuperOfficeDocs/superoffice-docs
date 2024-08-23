@@ -56,6 +56,8 @@ The TicketTypeEntity to be saved.
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 | VisibleForGroups | Array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | Boolean | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | Boolean | Set external access level when replying the message |
 
 ## Response:
 
@@ -86,6 +88,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -95,36 +99,38 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 285,
-  "Name": "McDermott-Kerluke",
-  "Rank": 816,
-  "Tooltip": "fugiat",
-  "Icon": "sint",
-  "DefaultTicketStatus": 431,
+  "TicketTypeId": 18,
+  "Name": "Cassin, Carroll and Marvin",
+  "Rank": 233,
+  "Tooltip": "magni",
+  "Icon": "eum",
+  "DefaultTicketStatus": 198,
   "TicketStatuses": [
-    755,
-    870
+    119,
+    660
   ],
-  "DefaultTicketPriority": 82,
+  "DefaultTicketPriority": 974,
   "TicketPriorities": [
-    9,
-    285
+    746,
+    258
   ],
-  "ReplyTemplate": 485,
+  "ReplyTemplate": 215,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    479,
-    470
-  ]
+    248,
+    565
+  ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -135,38 +141,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 694,
-  "Name": "Pacocha Group",
-  "Rank": 656,
-  "Tooltip": "porro",
-  "Icon": "qui",
-  "DefaultTicketStatus": 817,
+  "TicketTypeId": 517,
+  "Name": "Rutherford LLC",
+  "Rank": 831,
+  "Tooltip": "et",
+  "Icon": "assumenda",
+  "DefaultTicketStatus": 367,
   "TicketStatuses": [
-    205,
-    198
+    351,
+    510
   ],
-  "DefaultTicketPriority": 743,
+  "DefaultTicketPriority": 994,
   "TicketPriorities": [
-    410,
-    901
+    311,
+    178
   ],
-  "ReplyTemplate": 952,
+  "ReplyTemplate": 570,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    238,
-    410
+    841,
+    666
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 475
     }
   }
 }

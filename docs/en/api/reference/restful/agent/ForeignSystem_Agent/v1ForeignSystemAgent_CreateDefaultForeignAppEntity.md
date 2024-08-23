@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 978,
-  "Name": "Dibbert, Howell and Stokes",
-  "CreatedDate": "2023-07-16T04:22:26.8598968+02:00",
-  "UpdatedDate": "2003-06-23T04:22:26.8598968+02:00",
+  "ForeignAppId": 705,
+  "Name": "Doyle-Prosacco",
+  "CreatedDate": "2016-10-22T13:28:22.8354083+02:00",
+  "UpdatedDate": "2009-12-12T13:28:22.8354083+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 159,
-      "Name": "Hilpert-Brown",
-      "CreatedDate": "1999-10-08T04:22:26.8598968+02:00",
-      "UpdatedDate": "2008-03-19T04:22:26.8598968+01:00",
-      "AssociateFullName": "Mr. Sabina Justine Roob Jr.",
-      "CreatedBy": "qui",
-      "UpdatedBy": "commodi",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 251,
+      "ForeignDeviceId": 902,
+      "Name": "Lueilwitz-Howell",
+      "CreatedDate": "2003-09-29T13:28:22.8354083+02:00",
+      "UpdatedDate": "2016-10-24T13:28:22.8354083+02:00",
+      "AssociateFullName": "Cara Wilma Yost I",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 990,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 144
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

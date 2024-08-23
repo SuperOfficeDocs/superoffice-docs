@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 30 Oct 2003 04:22:34 G10T
+Last-Modified: Mon, 28 Feb 2000 13:28:31 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-12-23T04:22:34.4840046+01:00",
-  "AppointmentId": 159,
-  "Description": "Sharable cohesive migration",
-  "Title": "ad",
-  "Agenda": "fugiat",
-  "InternalNotes": "praesentium",
-  "StartDate": "2001-06-18T04:22:34.4840046+02:00",
-  "EndDate": "2018-03-03T04:22:34.4840046+01:00",
+  "CreatedDate": "2021-12-16T13:28:31.0856326+01:00",
+  "AppointmentId": 358,
+  "Description": "Centralized high-level projection",
+  "Title": "necessitatibus",
+  "Agenda": "fuga",
+  "InternalNotes": "non",
+  "StartDate": "2011-11-18T13:28:31.0856326+01:00",
+  "EndDate": "2018-08-03T13:28:31.0856326+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 359,
+  "MotherId": 184,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-10-30T04:22:34.4840046+01:00",
+  "UpdatedDate": "2000-02-28T13:28:31.0856326+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 572,
+  "ActiveLinks": 731,
   "Links": [
     {
-      "EntityName": "Bayer-Lueilwitz",
-      "Id": 679,
-      "Description": "Universal optimizing open system",
-      "ExtraInfo": "dolore",
-      "LinkId": 391,
+      "EntityName": "Lakin LLC",
+      "Id": 962,
+      "Description": "Function-based systemic projection",
+      "ExtraInfo": "itaque",
+      "LinkId": 188,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldType": "System.String",
+          "FieldLength": 856
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 395,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "magnam",
-  "LeadTime": "vel",
-  "Location": "placeat",
-  "RejectCounter": 869,
+  "ColorIndex": 731,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "quis",
+  "LeadTime": "iure",
+  "Location": "sit",
+  "RejectCounter": 606,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 361,
-      "PersonId": 40,
-      "ContactId": 620,
-      "EmailId": 280,
+      "AssociateId": 964,
+      "PersonId": 911,
+      "ContactId": 672,
+      "EmailId": 243,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "darron@ondrickakuhlman.biz",
-      "Description": "User-centric 4th generation utilisation"
+      "EmailAddress": "bertha@beahan.name",
+      "Description": "Open-architected radical architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-06-07T04:22:34.4840046+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-11-26T13:28:31.0856326+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 181,
+  "PreferredTZLocation": 256,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 874,
+  "SuggestedAppointmentId": 165,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Carmella Kirlin DDS"
+    "SuperOffice:1": "210352842",
+    "SuperOffice:2": "Murl Stark"
   },
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "ea",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2023-04-05T04:22:34.4840046+02:00",
-  "PublishTo": "2024-02-17T04:22:34.4840046+01:00",
-  "PublishFrom": "1999-03-18T04:22:34.4840046+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-08-16T13:28:31.0856326+02:00",
+  "PublishTo": "2010-10-12T13:28:31.0856326+02:00",
+  "PublishFrom": "1999-03-10T13:28:31.0856326+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 201,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 624
         }
       }
     },
     {
-      "VisibleId": 201,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 624
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Thu, 30 Oct 2003 04:22:34 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 986
     }
   }
 }

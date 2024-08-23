@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Runolfsdottir, Johns and Streich",
-  "StorageKey": "facere",
+  "StorageType": "repellendus",
+  "ProviderName": "Runolfsdottir-Fritsch",
+  "StorageKey": "cupiditate",
   "Restrictions": [
     {
-      "Name": "Powlowski Inc and Sons",
-      "Operator": "doloribus",
+      "Name": "Pfeffer-Harris",
+      "Operator": "illo",
       "Values": [
-        "incidunt",
-        "deleniti"
+        "earum",
+        "in"
       ],
       "DisplayValues": [
-        "quod",
-        "eaque"
+        "at",
+        "error"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 591,
+      "InterParenthesis": 66,
       "InterOperator": "And",
-      "UniqueHash": 973
+      "UniqueHash": 282
     }
   ]
 }

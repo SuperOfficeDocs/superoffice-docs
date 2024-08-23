@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 325,
-  "Name": "Rempel-Kertzmann",
-  "Rank": 762,
-  "Tooltip": "et",
+  "AssociateId": 52,
+  "Name": "Sanford, Abbott and Monahan",
+  "Rank": 98,
+  "Tooltip": "tenetur",
   "LicenseOwners": [
     {
-      "Name": "Collins Group",
-      "Description": "Profound 3rd generation hub",
+      "Name": "Schamberger, Buckridge and Ankunding",
+      "Description": "Balanced bifurcated projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldLength": 865
         }
       }
     },
     {
-      "Name": "Collins Group",
-      "Description": "Profound 3rd generation hub",
+      "Name": "Schamberger, Buckridge and Ankunding",
+      "Description": "Balanced bifurcated projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldLength": 865
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "rerum",
-      "Id": 835,
-      "Rank": 152,
+      "Value": "impedit",
+      "Tooltip": "quis",
+      "Id": 864,
+      "Rank": 144,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 785
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2004-06-16T04:22:35.7366016+02:00",
-  "Lastlogout": "2024-03-04T04:22:35.7366016+01:00",
-  "EjUserId": 687,
-  "RequestSignature": "non",
+  "Lastlogin": "2021-09-24T13:28:32.5854172+02:00",
+  "Lastlogout": "2017-09-13T13:28:32.5854172+02:00",
+  "EjUserId": 642,
+  "RequestSignature": "numquam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "quisquam",
+      "Value": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 465
         }
       }
     },
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "quisquam",
+      "Value": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 465
         }
       }
     }
   ],
-  "UserName": "Farrell, Moen and Pfeffer",
+  "UserName": "Hirthe Group",
   "TicketCategories": [
     {
-      "Id": 352,
-      "Name": "Christiansen-Kihn",
-      "ToolTip": "Doloremque ea et ipsa voluptatem modi et vel.",
-      "Deleted": false,
-      "Rank": 293,
-      "Type": "quis",
+      "Id": 139,
+      "Name": "Prosacco LLC",
+      "ToolTip": "Ipsum eos qui unde laudantium eveniet.",
+      "Deleted": true,
+      "Rank": 552,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolore",
-      "ColorBlock": 957,
-      "ExtraInfo": "aspernatur",
-      "StyleHint": "totam",
-      "FullName": "Beverly Boyer",
+      "IconHint": "maxime",
+      "ColorBlock": 601,
+      "ExtraInfo": "rerum",
+      "StyleHint": "non",
+      "FullName": "Branson Watsica",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 530
         }
       }
     }
   ],
-  "NickName": "Hermann Group",
-  "WaitingForApproval": true,
+  "NickName": "Heller-Wuckert",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "in",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "dolores",
+    "CustomFields2": "beatae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Maggio-Rippin",
-      "DisplayName": "Jerde-Larson",
-      "Description": "Re-engineered incremental paradigm",
-      "ToolTip": "Adipisci necessitatibus officiis odit a doloribus.",
+      "Name": "Kemmer LLC",
+      "DisplayName": "Rowe, Walter and Walsh",
+      "Description": "Implemented bandwidth-monitored application",
+      "ToolTip": "Facilis neque earum ut et.",
       "Actions": "Implicit",
-      "ActionData": "dolor",
+      "ActionData": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldLength": 987
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 19
     }
   }
 }

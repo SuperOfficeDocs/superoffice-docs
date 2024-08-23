@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Hamill-Hammes",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "UdListDefinitionId": 20,
-  "Rank": 186,
+  "Id": 687,
+  "Name": "Auer Group",
+  "Tooltip": "quod",
+  "Deleted": false,
+  "UdListDefinitionId": 900,
+  "Rank": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 135
     }
   }
 }

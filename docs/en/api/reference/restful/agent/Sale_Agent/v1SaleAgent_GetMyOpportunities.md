@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 785
+  "Count": 954
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Roob, Gutkowski and Sanford",
-    "SaleDate": "2016-03-06T04:22:27.5492747+01:00",
-    "SaleId": 54,
-    "Probability": 978,
-    "Title": "porro",
-    "Amount": 586.058,
-    "Currency": "at",
-    "ProjectName": "Boyer Inc and Sons",
-    "AssociateFullName": "Jarrell Mohr",
-    "Description": "Proactive 5th generation model",
+    "ContactName": "Treutel Group",
+    "SaleDate": "2007-06-10T13:28:23.6948543+02:00",
+    "SaleId": 941,
+    "Probability": 228,
+    "Title": "vel",
+    "Amount": 27444.438,
+    "Currency": "ab",
+    "ProjectName": "Gulgowski-Turcotte",
+    "AssociateFullName": "Danny Spencer",
+    "Description": "Reverse-engineered next generation capability",
     "Status": "Lost",
-    "WeightedAmount": 1983.822,
-    "ProjectId": 661,
-    "EarningPercent": 28719.976,
-    "Earning": 19684.654,
-    "ContactId": 742,
-    "AssociateId": 900,
-    "PersonId": 329,
-    "SaleTypeId": 338,
-    "SaleTypeName": "Strosin-Metz",
-    "PersonFullName": "Reanna Padberg IV",
+    "WeightedAmount": 3622.904,
+    "ProjectId": 962,
+    "EarningPercent": 18274.354,
+    "Earning": 9934.7799999999988,
+    "ContactId": 458,
+    "AssociateId": 868,
+    "PersonId": 919,
+    "SaleTypeId": 445,
+    "SaleTypeName": "Daniel Group",
+    "PersonFullName": "Donny Heidenreich",
     "Completed": "Completed",
-    "ActiveErpLinks": 697,
-    "NextDueDate": "2012-01-30T04:22:27.5492747+01:00",
-    "Number": "1604750",
+    "ActiveErpLinks": 107,
+    "NextDueDate": "2013-05-26T13:28:23.6948543+02:00",
+    "Number": "1209528",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 739
       }
     }
   }

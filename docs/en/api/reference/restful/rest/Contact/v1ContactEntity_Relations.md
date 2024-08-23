@@ -75,11 +75,11 @@ GET /api/v1/Contact/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Relations?$orderBy=name asc
 GET /api/v1/Contact/{id}/Relations?$entities=aut
-GET /api/v1/Contact/{id}/Relations?$top=596
-GET /api/v1/Contact/{id}/Relations?$skip=625
+GET /api/v1/Contact/{id}/Relations?$top=245
+GET /api/v1/Contact/{id}/Relations?$skip=915
 GET /api/v1/Contact/{id}/Relations?$mode=Full
 GET /api/v1/Contact/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Relations?$context=repellat
+GET /api/v1/Contact/{id}/Relations?$context=aliquam
 GET /api/v1/Contact/{id}/Relations?$format=JSON
 GET /api/v1/Contact/{id}/Relations?$jsonSafe=False
 GET /api/v1/Contact/{id}/Relations?$output=Display
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "esse",
   "value": [
     {
-      "PrimaryKey": 604,
+      "PrimaryKey": 9286,
       "EntityName": "sale",
-      "saleId": 604,
-      "contactId": 2467,
-      "name": "Greenfelder Group"
+      "saleId": 9286,
+      "contactId": 8915,
+      "name": "Ryan, Durgan and Kilback"
     },
     {
-      "PrimaryKey": 6356,
+      "PrimaryKey": 1544,
       "EntityName": "sale",
-      "saleId": 6356,
-      "contactId": 761,
-      "name": "Erdman, Tromp and Hintz"
+      "saleId": 1544,
+      "contactId": 3547,
+      "name": "Hane LLC"
     }
   ]
 }

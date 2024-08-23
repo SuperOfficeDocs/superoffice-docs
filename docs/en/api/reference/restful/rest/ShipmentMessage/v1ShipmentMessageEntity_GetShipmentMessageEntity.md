@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 102,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "sunt",
-  "SmsMessage": "nulla",
-  "Description": "Upgradable high-level open system",
-  "Subject": "numquam",
-  "FolderId": 903,
-  "HeaderField": "et",
-  "Design": "sed",
+  "ShipmentMessageId": 741,
+  "PlainMessage": "minima",
+  "HtmlMessage": "id",
+  "SmsMessage": "porro",
+  "Description": "Integrated neutral superstructure",
+  "Subject": "in",
+  "FolderId": 99,
+  "HeaderField": "ut",
+  "Design": "in",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Proactive holistic moratorium",
-  "AccessKey": "et",
-  "DocumentMessage": 1001,
-  "Registered": "2018-05-24T04:22:35.4553554+02:00",
-  "RegisteredAssociateId": 400,
-  "Updated": "2007-07-27T04:22:35.4553554+02:00",
-  "UpdatedAssociateId": 929,
-  "UpdatedCount": 457,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Polarised transitional challenge",
+  "AccessKey": "aut",
+  "DocumentMessage": 529,
+  "Registered": "2013-04-05T13:28:32.2573673+02:00",
+  "RegisteredAssociateId": 504,
+  "Updated": "2002-07-09T13:28:32.2573673+02:00",
+  "UpdatedAssociateId": 669,
+  "UpdatedCount": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 58
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

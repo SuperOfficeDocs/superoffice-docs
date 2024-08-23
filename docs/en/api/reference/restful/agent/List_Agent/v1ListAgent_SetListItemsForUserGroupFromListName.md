@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Buckridge, Abshire and Runte",
-  "UsergroupId": 770,
+  "UdListDefinitionName": "Botsford LLC",
+  "UsergroupId": 583,
   "ListItemsID": [
-    870,
-    791
+    754,
+    559
   ],
   "Enable": false
 }

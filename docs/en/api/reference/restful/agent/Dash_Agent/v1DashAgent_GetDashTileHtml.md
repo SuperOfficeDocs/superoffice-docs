@@ -79,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 395,
-  "LanguageCode": "voluptas"
+  "DashboardTileDefinitionId": 124,
+  "LanguageCode": "nam"
 }
 ```
 
@@ -91,8 +91,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "fuga",
-  "Html": "explicabo",
+  "LanguageCode": "qui",
+  "Html": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

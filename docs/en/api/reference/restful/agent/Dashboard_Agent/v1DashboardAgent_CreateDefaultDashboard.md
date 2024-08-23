@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 321,
-  "AssociateId": 373,
-  "Caption": "provident",
+  "DashboardId": 689,
+  "AssociateId": 274,
+  "Caption": "ad",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 915,
-      "Caption": "autem",
-      "Description": "Versatile foreground success",
-      "ChartName": "Mayert-Crona",
-      "ChartId": "nam",
-      "IsDefault": false,
-      "AssociateId": 783,
-      "GroupId": 141,
-      "SelectionId": 272,
-      "Config": "culpa",
+      "DashboardTileId": 654,
+      "Caption": "voluptates",
+      "Description": "Intuitive hybrid algorithm",
+      "ChartName": "Schowalter Inc and Sons",
+      "ChartId": "error",
+      "IsDefault": true,
+      "AssociateId": 181,
+      "GroupId": 523,
+      "SelectionId": 566,
+      "Config": "odio",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 279
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldLength": 830
     }
   }
 }

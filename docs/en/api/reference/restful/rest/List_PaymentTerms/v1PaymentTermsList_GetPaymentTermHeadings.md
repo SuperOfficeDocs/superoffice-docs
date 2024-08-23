@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Hamill-Schroeder",
-    "Tooltip": "blanditiis",
-    "Deleted": false,
-    "Rank": 222,
-    "UdListDefinitionId": 711,
+    "HeadingId": 1001,
+    "Name": "Jaskolski, Abshire and Upton",
+    "Tooltip": "distinctio",
+    "Deleted": true,
+    "Rank": 194,
+    "UdListDefinitionId": 653,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldType": "System.Int32",
+        "FieldLength": 775
       }
     }
   }

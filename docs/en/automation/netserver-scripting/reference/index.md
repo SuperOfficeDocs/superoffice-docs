@@ -2,10 +2,10 @@
 uid: netserver-scripting-events
 title: NetServer web service scripting events
 description: List of available NetServer web service method event hooks.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 
 # NetServer web service scripting API

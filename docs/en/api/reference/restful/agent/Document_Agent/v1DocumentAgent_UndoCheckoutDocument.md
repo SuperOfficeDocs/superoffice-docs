@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 984,
+  "DocumentId": 180,
   "AllowedReturnTypes": [
-    "et",
-    "nobis"
+    "minus",
+    "soluta"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptas",
-  "VersionId": "enim",
+  "ExternalReference": "et",
+  "VersionId": "deleniti",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "a",
-  "AdditionalInfo": "ut"
+  "Value": "autem",
+  "AdditionalInfo": "accusamus"
 }
 ```

@@ -3,9 +3,9 @@ uid: ofmonth
 title: ofmonth
 keywords: mdoprovider mdo provider ofmonth
 description: MDO provider for the hard-coded list of "of" months in the recurrence dialog.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ofmonth" MDO List

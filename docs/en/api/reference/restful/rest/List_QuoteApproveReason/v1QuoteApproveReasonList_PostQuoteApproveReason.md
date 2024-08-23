@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Mohr Inc and Sons",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "UdListDefinitionId": 927,
-  "Rank": 860
+  "Id": 291,
+  "Name": "Zieme LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 176,
+  "Rank": 391
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Eichmann Group",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 709,
-  "Rank": 312,
+  "Id": 739,
+  "Name": "Schowalter-Brown",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "UdListDefinitionId": 204,
+  "Rank": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: relationagent-savecontactrelation
 title: RelationAgent.SaveContactRelation event method
 description: Scripting events called on the SaveContactRelation method on the RelationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # RelationAgent.SaveContactRelation
 

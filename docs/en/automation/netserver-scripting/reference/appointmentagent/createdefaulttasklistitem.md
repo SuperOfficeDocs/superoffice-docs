@@ -2,10 +2,10 @@
 uid: appointmentagent-createdefaulttasklistitem
 title: AppointmentAgent.CreateDefaultTaskListItem event method
 description: Scripting events called on the CreateDefaultTaskListItem method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.CreateDefaultTaskListItem
 

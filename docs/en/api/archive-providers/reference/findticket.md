@@ -3,9 +3,9 @@ uid: FindTicket
 title: FindTicket
 description: Ticket provider for Find
 keywords: FindTicket archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FindTicket"
@@ -759,7 +759,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=author,numberOfMessages,messageLanguage,ownedBy/assocType,ownedBy/isLocation
+GET /api/v1/archive/FindTicket?$select=person/personRegisteredByFullName,contact/contactSource,contact/restrictionAddress/city,extra/x_ticket_date,extra/y_equipment/x_name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

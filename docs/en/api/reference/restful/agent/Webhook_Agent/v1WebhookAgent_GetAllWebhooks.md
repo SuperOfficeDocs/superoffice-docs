@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Mante LLC",
-  "EventFilter": "repellendus",
+  "NameFilter": "Weissnat LLC",
+  "EventFilter": "culpa",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 909,
-    "Name": "Schimmel Group",
+    "WebhookId": 904,
+    "Name": "Goyette-Weissnat",
     "Events": [
-      "in",
-      "iste"
+      "recusandae",
+      "reiciendis"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "autem",
+    "Secret": "dolor",
     "State": "Active",
-    "Type": "architecto",
+    "Type": "iste",
     "Headers": {
-      "Headers1": "maiores",
-      "Headers2": "ipsam"
+      "Headers1": "provident",
+      "Headers2": "accusamus"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1997-12-27T04:22:28.1637268+01:00",
+    "Registered": "2001-08-11T13:28:24.2429064+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2024-06-01T04:22:28.1637268+02:00",
+    "Updated": "2010-04-16T13:28:24.2574417+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "abby_dickinson@schmidt.co.uk"
+    "ErrorsEmail": "dashawn@wolfbartoletti.ca"
   }
 ]
 ```

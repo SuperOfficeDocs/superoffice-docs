@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 589,
-  "Name": "Kris LLC",
-  "Description": "Sharable fault-tolerant website",
-  "DefaultHeight": 984,
-  "DefaultWidth": 289,
+  "DashboardTileDefinitionId": 463,
+  "Name": "Miller Inc and Sons",
+  "Description": "Profit-focused asynchronous synergy",
+  "DefaultHeight": 565,
+  "DefaultWidth": 328,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reichel-Terry",
-  "SelectionId": 337,
+  "EntityName": "Gutkowski Inc and Sons",
+  "SelectionId": 567,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptas",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "temporibus",
-  "SortBy": "a",
-  "LayoutConfig": "autem",
-  "SecondarySelectionId": 691,
-  "MeasureByField": "tenetur",
+  "MeasureField": "minus",
+  "SortBy": "quis",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 590,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "Kiehn, Crona and Lehner",
+  "ProviderName": "Steuber Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 661
     }
   }
 }

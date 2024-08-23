@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 963,
-  "FieldName": "Koss Inc and Sons",
-  "Label": "voluptatem",
-  "Tooltip": "quas",
+  "QuoteLineConfigurationId": 464,
+  "FieldName": "Lockman, Mills and Bartell",
+  "Label": "corporis",
+  "Tooltip": "officiis",
   "Editable": true,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 495,
-  "RestrictEdit": false,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 642,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

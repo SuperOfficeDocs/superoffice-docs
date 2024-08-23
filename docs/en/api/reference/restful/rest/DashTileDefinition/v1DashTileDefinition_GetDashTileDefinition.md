@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 369,
-  "Name": "Crooks LLC",
-  "Description": "Customer-focused dedicated knowledge user",
-  "DefaultHeight": 879,
-  "DefaultWidth": 704,
+  "DashboardTileDefinitionId": 812,
+  "Name": "Adams-Pacocha",
+  "Description": "Multi-channelled responsive superstructure",
+  "DefaultHeight": 608,
+  "DefaultWidth": 485,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Conn, Wolf and Pouros",
-  "SelectionId": 534,
+  "EntityName": "Jerde Inc and Sons",
+  "SelectionId": 350,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eum",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "quibusdam",
-  "SortBy": "architecto",
-  "LayoutConfig": "non",
-  "SecondarySelectionId": 153,
-  "MeasureByField": "velit",
+  "MeasureField": "distinctio",
+  "SortBy": "eum",
+  "LayoutConfig": "vitae",
+  "SecondarySelectionId": 23,
+  "MeasureByField": "repudiandae",
   "Usage": "Dashboard",
-  "ProviderName": "Dicki Inc and Sons",
+  "ProviderName": "Nikolaus-Wilderman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 151
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   },
   "_Links": {

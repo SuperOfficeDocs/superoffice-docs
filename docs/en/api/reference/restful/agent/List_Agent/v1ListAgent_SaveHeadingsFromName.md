@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rau, Barrows and Gutkowski",
+  "Name": "Gorczany-Haag",
   "Entities": [
     {
-      "HeadingId": 719,
-      "Name": "Kreiger-Wolf",
-      "Tooltip": "ullam",
-      "Deleted": false,
-      "Rank": 862,
-      "UdListDefinitionId": 2
+      "HeadingId": 494,
+      "Name": "Oberbrunner, Roob and Connelly",
+      "Tooltip": "doloribus",
+      "Deleted": true,
+      "Rank": 471,
+      "UdListDefinitionId": 242
     },
     {
-      "HeadingId": 719,
-      "Name": "Kreiger-Wolf",
-      "Tooltip": "ullam",
-      "Deleted": false,
-      "Rank": 862,
-      "UdListDefinitionId": 2
+      "HeadingId": 494,
+      "Name": "Oberbrunner, Roob and Connelly",
+      "Tooltip": "doloribus",
+      "Deleted": true,
+      "Rank": 471,
+      "UdListDefinitionId": 242
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Bailey LLC",
-    "Tooltip": "sed",
+    "HeadingId": 778,
+    "Name": "Schultz Group",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 277,
-    "UdListDefinitionId": 593,
+    "Rank": 238,
+    "UdListDefinitionId": 567,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

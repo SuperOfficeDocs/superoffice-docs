@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 278,
-  "ERPProductKey": "facilis"
+  "QuoteConnectionId": 550,
+  "ERPProductKey": "atque"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 399,
-  "ERPProductKey": "debitis",
-  "ERPPriceListKey": "sit",
-  "Name": "Feeney, Legros and Beahan",
-  "Description": "Business-focused national installation",
-  "Code": "est",
-  "PriceUnit": "similique",
-  "QuantityUnit": "doloremque",
-  "IsSubscription": false,
-  "SubscriptionUnit": "excepturi",
-  "DefaultSubscriptionQuantity": 12266.475999999999,
-  "ItemNumber": "103964",
+  "ProductId": 968,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "earum",
+  "Name": "Kunze-Botsford",
+  "Description": "Team-oriented solution-oriented analyzer",
+  "Code": "consequatur",
+  "PriceUnit": "sit",
+  "QuantityUnit": "culpa",
+  "IsSubscription": true,
+  "SubscriptionUnit": "nisi",
+  "DefaultSubscriptionQuantity": 24771.136,
+  "ItemNumber": "1848231",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laborum",
-  "ProductTypeKey": "occaecati",
-  "VAT": 23417.248,
-  "VATInfo": "iusto",
-  "UnitCost": 27331.613999999998,
-  "UnitMinimumPrice": 4957.988,
-  "UnitListPrice": 10683.806,
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "facilis",
+  "VAT": 2002.626,
+  "VATInfo": "rerum",
+  "UnitCost": 21869.052,
+  "UnitMinimumPrice": 30421.737999999998,
+  "UnitListPrice": 14569.966,
   "InAssortment": false,
-  "Supplier": "minus",
-  "SupplierCode": "tempora",
-  "Rights": "explicabo",
-  "Rule": "praesentium",
+  "Supplier": "vitae",
+  "SupplierCode": "voluptatum",
+  "Rights": "harum",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Halvorson, Medhurst and Trantow",
-      "Value": "et",
+      "Name": "Hirthe LLC",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 363
         }
       }
     },
     {
-      "Name": "Halvorson, Medhurst and Trantow",
-      "Value": "et",
+      "Name": "Hirthe LLC",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 363
         }
       }
     }
   ],
-  "RawExtraInfo": "itaque",
-  "ExtraField1": "eos",
-  "ExtraField2": "ullam",
-  "ExtraField3": "tempora",
-  "ExtraField4": "earum",
-  "ExtraField5": "a",
-  "InStock": 3121.464,
+  "RawExtraInfo": "est",
+  "ExtraField1": "sunt",
+  "ExtraField2": "ratione",
+  "ExtraField3": "asperiores",
+  "ExtraField4": "commodi",
+  "ExtraField5": "quam",
+  "InStock": 8640.438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 15948.926,
-  "FromCurrency": "aperiam",
-  "ToCurrency": "quis"
+  "Amount": 15723.278,
+  "FromCurrency": "qui",
+  "ToCurrency": "officia"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-17663.224
+17183.721999999998
 ```

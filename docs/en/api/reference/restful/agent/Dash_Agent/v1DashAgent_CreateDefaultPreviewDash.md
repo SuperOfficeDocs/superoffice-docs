@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 84,
-  "Name": "Barton-Feil",
-  "Description": "Front-line methodical customer loyalty",
-  "OwnedByFullName": "Izabella Mayert Jr.",
-  "Registered": "1999-06-09T04:22:26.3571975+02:00",
+  "DashboardId": 902,
+  "Name": "Lubowitz, Heller and Raynor",
+  "Description": "Function-based 6th generation emulation",
+  "OwnedByFullName": "Miss Dandre Lora Pagac",
+  "Registered": "2022-12-20T13:28:22.3980101+01:00",
   "Tiles": [
     {
-      "Name": "Abernathy-Koss",
+      "Name": "Powlowski, Hermiston and Leannon",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 201
         }
       }
     },
     {
-      "Name": "Abernathy-Koss",
+      "Name": "Powlowski, Hermiston and Leannon",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 201
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 457
     }
   }
 }

@@ -3,9 +3,9 @@ uid: SaleShadowSelectionV2
 title: SaleShadowSelectionV2
 description: Shadow contact provider for the sale provider.
 keywords: SaleShadowSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleShadowSelectionV2"
@@ -1307,7 +1307,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=person/personUdef/SuperOffice:1,person/personExtra/y_rental/x_contact,person/correspondingAssociate/contactDepartment,appointment/text,appointment/appointmentUdef/SuperOffice:5
+GET /api/v1/archive/SaleShadowSelectionV2?$select=salePublish/isPublished,person/birthYear,person/isProjectMember,person/email/emailLastBounce,contact/postAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

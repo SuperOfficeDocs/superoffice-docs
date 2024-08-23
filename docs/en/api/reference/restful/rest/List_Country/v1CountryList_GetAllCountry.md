@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 761,
-    "Name": "Wyman-Wintheiser",
-    "CurrencyId": 172,
-    "EnglishName": "Torp, Runte and Bahringer",
+    "CountryId": 586,
+    "Name": "Brown-Conn",
+    "CurrencyId": 696,
+    "EnglishName": "Ryan-Dickens",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Decentralized transitional framework",
-    "OrgNrText": "155049",
-    "InterAreaPrefix": "nihil",
-    "DialInPrefix": "sed",
-    "ZipPrefix": "exercitationem",
-    "DomainName": "Wolff Group",
-    "AddressLayoutId": 25,
-    "DomesticAddressLayoutId": 612,
-    "ForeignAddressLayoutId": 634,
-    "Rank": 636,
-    "Tooltip": "hic",
-    "Deleted": true,
+    "ImageDescription": "Customizable scalable model",
+    "OrgNrText": "1182676",
+    "InterAreaPrefix": "eum",
+    "DialInPrefix": "fuga",
+    "ZipPrefix": "omnis",
+    "DomainName": "Funk LLC",
+    "AddressLayoutId": 341,
+    "DomesticAddressLayoutId": 471,
+    "ForeignAddressLayoutId": 932,
+    "Rank": 562,
+    "Tooltip": "dolorem",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

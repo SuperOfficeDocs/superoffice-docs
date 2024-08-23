@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 734,
-  "Name": "Dietrich LLC",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 244,
+  "WebPanelId": 670,
+  "Name": "Denesik Group",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 640,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Koepp, Kohler and Brown",
+  "WindowName": "Oberbrunner, Hodkiewicz and Rath",
   "Url": "http://www.example.com/",
-  "ProgId": "ab",
-  "Icon": 462,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "earum",
+  "Icon": 325,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 814,
-  "Name": "Block, Hoppe and Kulas",
-  "Tooltip": "modi",
+  "WebPanelId": 311,
+  "Name": "Wisoky LLC",
+  "Tooltip": "quod",
   "Deleted": true,
-  "Rank": 663,
+  "Rank": 41,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Altenwerth-White",
+  "ShowInStatusBar": false,
+  "WindowName": "Kovacek-Marvin",
   "Url": "http://www.example.com/",
-  "ProgId": "molestiae",
-  "Icon": 116,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "reiciendis",
+  "Icon": 588,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 484
     }
   }
 }

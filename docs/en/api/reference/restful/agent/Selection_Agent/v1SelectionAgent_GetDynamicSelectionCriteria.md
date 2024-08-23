@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 713
+  "SelectionId": 6
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Buckridge Inc and Sons",
-    "Operator": "qui",
+    "Name": "Bergstrom, Halvorson and Parisian",
+    "Operator": "repellendus",
     "Values": [
-      "in",
-      "inventore"
+      "placeat",
+      "est"
     ],
     "DisplayValues": [
-      "ut",
-      "quae"
+      "et",
+      "inventore"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Daugherty, Gibson and Frami",
-        "Operator": "ut",
+        "Name": "Swift, King and Emard",
+        "Operator": "maiores",
         "Values": [
-          "et",
-          "est"
+          "asperiores",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "tempore",
-          "quas"
+          "dolore",
+          "ad"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 596,
+        "InterParenthesis": 428,
         "InterOperator": "And",
-        "UniqueHash": 579
+        "UniqueHash": 726
       }
     ],
-    "InterParenthesis": 123,
+    "InterParenthesis": 443,
     "InterOperator": "And",
-    "UniqueHash": 89
+    "UniqueHash": 349
   }
 ]
 ```

@@ -116,28 +116,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 767,
-  "Name": "Waelchi-Jacobi",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 898,
+  "WebPanelId": 194,
+  "Name": "Barrows, Lind and Fritsch",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 263,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Balistreri Inc and Sons",
+  "WindowName": "Powlowski-Rosenbaum",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 474,
+  "ProgId": "iusto",
+  "Icon": 745,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 691,
-  "Name": "Kulas-Schuster",
-  "Tooltip": "qui",
+  "WebPanelId": 792,
+  "Name": "Hermann, Brekke and Kreiger",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 404,
+  "Rank": 92,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Bechtelar-McLaughlin",
+  "WindowName": "Conroy LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "facilis",
-  "Icon": 221,
+  "ProgId": "qui",
+  "Icon": 617,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

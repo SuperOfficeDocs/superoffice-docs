@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Kilback, Gleason and Pollich",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "UdListDefinitionId": 955,
-    "Rank": 601
+    "Id": 872,
+    "Name": "Hills-Sporer",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "UdListDefinitionId": 799,
+    "Rank": 448
   },
   {
-    "Id": 689,
-    "Name": "Kilback, Gleason and Pollich",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "UdListDefinitionId": 955,
-    "Rank": 601
+    "Id": 872,
+    "Name": "Hills-Sporer",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "UdListDefinitionId": 799,
+    "Rank": 448
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Brekke-Roberts",
-    "Tooltip": "ut",
+    "Id": 477,
+    "Name": "Dibbert-Grimes",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 689,
-    "Rank": 373,
+    "UdListDefinitionId": 663,
+    "Rank": 339,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

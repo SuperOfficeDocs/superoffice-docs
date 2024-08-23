@@ -2,10 +2,10 @@
 uid: preferenceagent-deletepreferencedescription
 title: PreferenceAgent.DeletePreferenceDescription event method
 description: Scripting events called on the DeletePreferenceDescription method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.DeletePreferenceDescription
 

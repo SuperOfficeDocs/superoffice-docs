@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=in
+GET /api/v1/List/Credited/MDOItems?query=quo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Kutch-Kreiger",
-    "ToolTip": "Aut quasi qui libero quisquam.",
+    "Id": 665,
+    "Name": "Cummings-Cremin",
+    "ToolTip": "Et amet vitae in itaque.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "aut",
+    "Rank": 917,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Hane, Sipes and Ebert",
-        "ToolTip": "Quasi doloremque adipisci.",
+        "Id": 743,
+        "Name": "Runolfsson-Quitzon",
+        "ToolTip": "Nemo dolore ea tempore delectus earum.",
         "Deleted": true,
-        "Rank": 940,
-        "Type": "repudiandae",
+        "Rank": 179,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 334,
-        "ExtraInfo": "quia",
-        "StyleHint": "unde",
-        "FullName": "Susanna Torphy",
+        "IconHint": "a",
+        "ColorBlock": 925,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "natus",
+        "FullName": "Prof. Bertrand Nyah Legros IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 998,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "harum",
-    "FullName": "Clement Quigley PhD",
+    "IconHint": "atque",
+    "ColorBlock": 1001,
+    "ExtraInfo": "suscipit",
+    "StyleHint": "ullam",
+    "FullName": "Francisco Adrienne Kilback IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 577
       }
     }
   }

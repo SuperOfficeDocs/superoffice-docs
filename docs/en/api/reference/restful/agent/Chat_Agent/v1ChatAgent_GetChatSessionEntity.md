@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=661
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=189
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 438,
-  "TopicId": 979,
+  "ChatSessionId": 267,
+  "TopicId": 790,
   "User": null,
   "Person": null,
-  "CustomerAlias": "assumenda",
-  "CustomerHost": "mollitia",
-  "CustomerName": "McGlynn LLC",
-  "CustomerEmail": "porter_fritsch@zboncakhodkiewicz.info",
-  "CustomerPhone": "1-530-151-3142",
+  "CustomerAlias": "aperiam",
+  "CustomerHost": "natus",
+  "CustomerName": "Blick, Fahey and Tremblay",
+  "CustomerEmail": "gus.kuhlman@kertzmann.us",
+  "CustomerPhone": "088.848.2333 x7847",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rosenbaum, Lueilwitz and Wintheiser",
+  "CustomerCompanyName": "Pouros-Auer",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "aliquid",
-  "WhenRequested": "2019-01-24T04:22:26.0747276+01:00",
-  "WhenStarted": "2000-06-23T04:22:26.0747276+02:00",
-  "WhenEnded": "1997-05-31T04:22:26.0747276+02:00",
-  "WhenIdle": "2019-11-17T04:22:26.0747276+01:00",
-  "WhenFetched": "1999-11-15T04:22:26.0747276+01:00",
-  "SessionKey": "quasi",
-  "InitialQueuePos": 672,
-  "AlertLevel": 584,
-  "Rank": 328,
+  "FirstMessage": "qui",
+  "LastMessage": "eligendi",
+  "WhenRequested": "2001-11-10T13:28:21.9293697+01:00",
+  "WhenStarted": "2019-12-03T13:28:21.9293697+01:00",
+  "WhenEnded": "2008-11-30T13:28:21.9293697+01:00",
+  "WhenIdle": "2008-12-20T13:28:21.9293697+01:00",
+  "WhenFetched": "2020-12-04T13:28:21.9293697+01:00",
+  "SessionKey": "consectetur",
+  "InitialQueuePos": 496,
+  "AlertLevel": 41,
+  "Rank": 465,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 19,
+  "ChatbotIsActive": false,
+  "Rating": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 336
     }
   }
 }

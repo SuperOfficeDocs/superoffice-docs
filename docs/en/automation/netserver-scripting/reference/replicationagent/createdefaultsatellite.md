@@ -2,10 +2,10 @@
 uid: replicationagent-createdefaultsatellite
 title: ReplicationAgent.CreateDefaultSatellite event method
 description: Scripting events called on the CreateDefaultSatellite method on the ReplicationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ReplicationAgent.CreateDefaultSatellite
 

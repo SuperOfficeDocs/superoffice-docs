@@ -3,9 +3,9 @@ uid: SelectionSelectionCombinedV2
 title: SelectionSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: SelectionSelectionCombinedV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionSelectionCombinedV2"
@@ -81,7 +81,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=registeredDate,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

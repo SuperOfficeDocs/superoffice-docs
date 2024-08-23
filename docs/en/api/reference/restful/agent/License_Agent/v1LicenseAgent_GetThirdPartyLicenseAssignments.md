@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 313,
-  "ModuleOwner": "tempore"
+  "AssociateId": 300,
+  "ModuleOwner": "similique"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 555,
-    "Tooltip": "nihil",
+    "Total": 376,
+    "Tooltip": "autem",
     "CanAssign": false,
-    "Free": 223,
-    "InUse": 432,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 242,
-    "Name": "Smitham Group",
-    "Description": "Stand-alone zero defect utilisation",
-    "PrerequisiteModuleName": "Dickens-McGlynn",
-    "SortOrder": 886,
-    "ExtraFlags": 275,
+    "Free": 444,
+    "InUse": 990,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 808,
+    "Name": "Hegmann, Renner and Effertz",
+    "Description": "Innovative web-enabled frame",
+    "PrerequisiteModuleName": "Heidenreich-Runolfsdottir",
+    "SortOrder": 173,
+    "ExtraFlags": 771,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 692
       }
     }
   }

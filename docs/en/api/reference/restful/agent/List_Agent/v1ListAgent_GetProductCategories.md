@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Value": "asperiores",
-    "Tooltip": "est",
+    "Id": 577,
+    "Value": "temporibus",
+    "Tooltip": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 984
       }
     }
   },
   {
-    "Id": 561,
-    "Value": "asperiores",
-    "Tooltip": "est",
+    "Id": 577,
+    "Value": "temporibus",
+    "Tooltip": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 984
       }
     }
   }

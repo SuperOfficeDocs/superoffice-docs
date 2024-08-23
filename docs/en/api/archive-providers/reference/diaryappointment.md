@@ -3,9 +3,9 @@ uid: DiaryAppointment
 title: DiaryAppointment
 description: Archive provider for Appointment activities, of the Diary type (not followup or booking). This provider can be used on its own, or can form part of the
 keywords: DiaryAppointment archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DiaryAppointment"
@@ -722,7 +722,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=contact/contactExtra/x_contact_contact_relation,contact/NumberOfNotCompletedSales,person/personBusiness,person/personExtra/x_person_datetime,project/LastCompletedActivity
+GET /api/v1/archive/DiaryAppointment?$select=project/LastSale,sale/associate/personId,person/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -3,9 +3,9 @@ uid: SimpleDocument
 title: SimpleDocument
 description: 
 keywords: SimpleDocument archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SimpleDocument"
@@ -705,7 +705,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleDocument?$select=person/personExtra/x_person_appointment_relation,person/correspondingAssociate/assocTooltip,person/legalBaseStore,contact/contactUdef/SuperOffice:9,sale/soldReason
+GET /api/v1/archive/SimpleDocument?$select=suggestedDocumentId,visibleFor,person/personAssociate/associateDbId,person/correspondingAssociate/usergroup,person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

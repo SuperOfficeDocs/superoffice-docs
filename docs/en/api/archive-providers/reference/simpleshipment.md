@@ -3,9 +3,9 @@ uid: simpleshipment
 title: simpleshipment
 description: Archive provider for the list of mailings
 keywords: simpleshipment archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "simpleshipment"
@@ -591,7 +591,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=associate/usergroup,project/registeredByFullName,mailingAddr/contact/LastCompletedActivity
+GET /api/v1/archive/simpleshipment?$select=updatedDate,mailingAddr/person/personUdef/SuperOffice:5,mailingAddr/person/personExtra/x_person_datetime,mailingAddr/person/personExtra/x_person_shorttext_list,mailingAddr/person/personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

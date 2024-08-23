@@ -2,10 +2,10 @@
 uid: archiveagent-setactivityfilter
 title: ArchiveAgent.SetActivityFilter event method
 description: Scripting events called on the SetActivityFilter method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.SetActivityFilter
 

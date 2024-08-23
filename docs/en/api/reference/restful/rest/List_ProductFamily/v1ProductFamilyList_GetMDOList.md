@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=distinctio
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Konopelski LLC",
-    "ToolTip": "Autem maiores omnis natus deserunt consequatur.",
+    "Id": 293,
+    "Name": "Armstrong Inc and Sons",
+    "ToolTip": "Voluptatem voluptatem consectetur.",
     "Deleted": false,
-    "Rank": 139,
-    "Type": "velit",
+    "Rank": 493,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Bins, Carroll and Roob",
-        "ToolTip": "Rerum ipsa et.",
+        "Id": 25,
+        "Name": "Rogahn Group",
+        "ToolTip": "Iste asperiores accusantium dolores amet.",
         "Deleted": false,
-        "Rank": 507,
-        "Type": "est",
+        "Rank": 41,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vitae",
-        "ColorBlock": 85,
-        "ExtraInfo": "saepe",
-        "StyleHint": "nostrum",
-        "FullName": "Elwin Kessler Sr.",
+        "IconHint": "rerum",
+        "ColorBlock": 902,
+        "ExtraInfo": "laborum",
+        "StyleHint": "rerum",
+        "FullName": "Magnolia Abigale Leannon DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 481
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 294,
-    "ExtraInfo": "autem",
-    "StyleHint": "numquam",
-    "FullName": "Ismael Beatty",
+    "IconHint": "ipsa",
+    "ColorBlock": 125,
+    "ExtraInfo": "quo",
+    "StyleHint": "veniam",
+    "FullName": "Dr. Sheldon Clint Schaefer PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

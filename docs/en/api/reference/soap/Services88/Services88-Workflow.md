@@ -561,7 +561,6 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="SpecificEmailAddresses" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -583,7 +582,6 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="SpecificPhoneNumbers" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

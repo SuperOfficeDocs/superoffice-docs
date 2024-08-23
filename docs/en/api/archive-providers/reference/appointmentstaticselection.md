@@ -3,9 +3,9 @@ uid: AppointmentStaticSelection
 title: AppointmentStaticSelection
 description: 
 keywords: AppointmentStaticSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "AppointmentStaticSelection"
@@ -723,7 +723,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelection?$select=appointmentId,contact/name,contact/contactAssociate/role,person/restrictionAddress/zip,project/projectAssociate/title
+GET /api/v1/archive/AppointmentStaticSelection?$select=rawType,contact/restrictionAddress/county,person/associateType,person/personCategory,person/personDirectFax/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

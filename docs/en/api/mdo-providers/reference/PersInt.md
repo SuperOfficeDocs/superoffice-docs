@@ -3,9 +3,9 @@ uid: persint
 title: persint
 keywords: mdoprovider mdo provider persint
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "persint" MDO List

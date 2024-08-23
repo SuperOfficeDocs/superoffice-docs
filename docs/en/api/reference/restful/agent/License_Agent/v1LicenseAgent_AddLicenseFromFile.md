@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "maiores"
+  "FileContent": "eius"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 181,
-      "NumberOfLicensesFree": 567,
-      "NumberOfLicensesAdded": 829,
-      "NumberOfLicensesNewTotal": 46,
-      "NumberOfLicensesNewFree": 486,
-      "NumberOfLicensesTotal": 645
+      "NumberOfLicensesInUse": 875,
+      "NumberOfLicensesFree": 429,
+      "NumberOfLicensesAdded": 660,
+      "NumberOfLicensesNewTotal": 571,
+      "NumberOfLicensesNewFree": 678,
+      "NumberOfLicensesTotal": 851
     }
   ],
-  "AccumulatedNextCheckDate": "1998-04-14T04:22:26.9067712+02:00"
+  "AccumulatedNextCheckDate": "2024-04-01T13:28:22.8835934+02:00"
 }
 ```

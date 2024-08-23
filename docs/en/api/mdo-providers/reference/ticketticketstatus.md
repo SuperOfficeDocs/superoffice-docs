@@ -3,9 +3,9 @@ uid: ticketticketstatus
 title: ticketticketstatus
 keywords: mdoprovider mdo provider ticketticketstatus
 description: TicketTicketStatusProvider creates a flat list based on the table - TICKET_STATUS
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ticketticketstatus" MDO List

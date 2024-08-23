@@ -2,10 +2,10 @@
 uid: preferenceagent-createdefaultpreferencedescriptionline
 title: PreferenceAgent.CreateDefaultPreferenceDescriptionLine event method
 description: Scripting events called on the CreateDefaultPreferenceDescriptionLine method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.CreateDefaultPreferenceDescriptionLine
 

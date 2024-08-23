@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 563,
-    "Name": "Schoen, Walsh and Emard",
-    "Tooltip": "illo",
+    "HeadingId": 106,
+    "Name": "Lindgren, Dare and Carter",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 185,
-    "UdListDefinitionId": 383,
+    "Rank": 52,
+    "UdListDefinitionId": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

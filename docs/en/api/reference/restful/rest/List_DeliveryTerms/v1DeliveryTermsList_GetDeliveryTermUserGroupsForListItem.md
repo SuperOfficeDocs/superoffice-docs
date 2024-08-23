@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Spencer-Kuvalis",
-    "ToolTip": "Sapiente ex velit.",
+    "Id": 897,
+    "Name": "Zboncak LLC",
+    "ToolTip": "Voluptatem quia velit amet.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "veritatis",
-    "ColorBlock": 463,
-    "IconHint": "ut",
+    "Rank": 228,
+    "Type": "veniam",
+    "ColorBlock": 353,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2023-01-29T04:22:35.9247166+01:00",
+    "LastChanged": "2014-07-17T13:28:32.8041174+02:00",
     "ChildItems": [
       {
-        "Id": 365,
-        "Name": "Price, Spinka and Hackett",
-        "ToolTip": "Amet possimus fuga nihil ratione rerum.",
+        "Id": 870,
+        "Name": "Ziemann-Bogan",
+        "ToolTip": "Ut in et expedita quia aliquid.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "similique",
-        "ColorBlock": 750,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2020-12-17T04:22:35.9247166+01:00",
+        "Rank": 750,
+        "Type": "illo",
+        "ColorBlock": 652,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2014-02-15T13:28:32.8041174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Tyrese Littel",
+        "ExtraInfo": "culpa",
+        "StyleHint": "temporibus",
+        "Hidden": true,
+        "FullName": "Mr. Lurline Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 493
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "minus",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Jonatan Christiansen Jr.",
+    "FullName": "Ova Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 97
       }
     }
   }

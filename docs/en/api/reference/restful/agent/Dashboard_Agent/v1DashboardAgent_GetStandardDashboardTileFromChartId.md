@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "sequi"
+  "ChartId": "ad"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 683,
-  "Caption": "odit",
-  "Description": "Cloned directional time-frame",
-  "ChartName": "O'Keefe Group",
-  "ChartId": "quasi",
+  "DashboardTileId": 431,
+  "Caption": "blanditiis",
+  "Description": "Re-contextualized client-driven monitoring",
+  "ChartName": "Feil-Murphy",
+  "ChartId": "tenetur",
   "IsDefault": false,
-  "AssociateId": 721,
-  "GroupId": 510,
-  "SelectionId": 724,
-  "Config": "dolorem",
+  "AssociateId": 883,
+  "GroupId": 487,
+  "SelectionId": 329,
+  "Config": "eos",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Powlowski Inc and Sons",
-      "Description": "Intuitive 24 hour artificial intelligence",
+      "Name": "Wilderman-Pollich",
+      "Description": "Multi-channelled static conglomeration",
       "Type": "Boolean",
-      "ListName": "Jakubowski, Rolfson and Pfeffer",
+      "ListName": "Wiegand Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "officiis",
-      "DefaultDataOption": false,
+      "Value": "tenetur",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 717,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 662
         }
       }
     },
     {
-      "VisibleId": 717,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 662
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

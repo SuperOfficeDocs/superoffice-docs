@@ -2,10 +2,10 @@
 uid: chatagent-iswithinopeninghours
 title: ChatAgent.IsWithinOpeningHours event method
 description: Scripting events called on the IsWithinOpeningHours method on the ChatAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ChatAgent.IsWithinOpeningHours
 

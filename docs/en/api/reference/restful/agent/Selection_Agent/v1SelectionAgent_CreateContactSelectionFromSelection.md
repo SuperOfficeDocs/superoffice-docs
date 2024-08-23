@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 956,
-  "Name": "Kunde-Labadie",
+  "SelectionId": 478,
+  "Name": "Swift Group",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based 4th generation local area network",
-  "Postit": "temporibus",
+  "Description": "Stand-alone national framework",
+  "Postit": "voluptas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 629,
-  "IncludePerson": 717,
+  "GroupIdx": 35,
+  "IncludePerson": 361,
   "MemberCount": 99.99,
-  "Name": "Orn-Fisher",
-  "PostitTextId": 515,
-  "CreatedDate": "2020-06-08T04:22:27.6117762+02:00",
-  "SelectionId": 586,
-  "SoundEx": "molestias",
-  "Source": 489,
-  "TextId": 76,
-  "UpdatedDate": "1999-04-11T04:22:27.6117762+02:00",
-  "UpdatedCount": 871,
-  "Visibility": 269,
+  "Name": "Block-Toy",
+  "PostitTextId": 118,
+  "CreatedDate": "2022-12-24T13:28:23.7417186+01:00",
+  "SelectionId": 494,
+  "SoundEx": "unde",
+  "Source": 744,
+  "TextId": 745,
+  "UpdatedDate": "2021-01-24T13:28:23.7417186+01:00",
+  "UpdatedCount": 371,
+  "Visibility": 342,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 652,
-  "TargetTableName": "Pfeffer, Rau and Crist",
+  "TargetTableNumber": 498,
+  "TargetTableName": "Rowe LLC",
   "Completed": false,
-  "LeftSelectionId": 735,
-  "RightSelectionId": 790,
+  "LeftSelectionId": 179,
+  "RightSelectionId": 474,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Smitham-Littel",
-  "ShadowProviderName": "Wolf, Oberbrunner and Eichmann",
-  "ChartKey": "blanditiis",
-  "LastLoaded": "2002-07-10T04:22:27.6117762+02:00",
-  "LastLoadedBy": 626,
+  "MainProviderName": "Abernathy, Boehm and Maggio",
+  "ShadowProviderName": "Reynolds, Spencer and Satterfield",
+  "ChartKey": "ut",
+  "LastLoaded": "2010-07-16T13:28:23.7417186+02:00",
+  "LastLoadedBy": 442,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-01T04:22:27.6117762+01:00",
-  "LastMembershipChangeBy": 991,
+  "LastMembershipChange": "2023-10-22T13:28:23.7417186+02:00",
+  "LastMembershipChangeBy": 733,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Simonis-Koss",
-  "DashboardTileDefinitionId": 578,
+  "MainHeading": "sed",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Satterfield, Nikolaus and Denesik",
+  "DashboardTileDefinitionId": 655,
   "VisibleFor": [
     {
-      "VisibleId": 60,
+      "VisibleId": 330,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldLength": 159
         }
       }
     },
     {
-      "VisibleId": 60,
+      "VisibleId": 330,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldLength": 159
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 592,
-  "Name": "Bergstrom, Spinka and Altenwerth",
-  "Tooltip": "labore",
+  "HeadingId": 655,
+  "Name": "Schmitt-Lang",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 110,
-  "UdListDefinitionId": 301
+  "Rank": 579,
+  "UdListDefinitionId": 732
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 880,
-  "Name": "Tromp, Yost and Hahn",
-  "Tooltip": "repellendus",
+  "HeadingId": 917,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 238,
-  "UdListDefinitionId": 497,
+  "Rank": 57,
+  "UdListDefinitionId": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

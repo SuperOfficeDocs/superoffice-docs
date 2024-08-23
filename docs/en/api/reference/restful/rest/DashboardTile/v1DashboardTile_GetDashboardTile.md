@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 247,
-  "Caption": "eligendi",
-  "Description": "Profound heuristic service-desk",
-  "ChartName": "Nader, Dare and Gulgowski",
-  "ChartId": "ex",
+  "DashboardTileId": 321,
+  "Caption": "sit",
+  "Description": "Future-proofed reciprocal artificial intelligence",
+  "ChartName": "Ferry-Welch",
+  "ChartId": "perferendis",
   "IsDefault": false,
-  "AssociateId": 365,
-  "GroupId": 320,
-  "SelectionId": 481,
-  "Config": "excepturi",
+  "AssociateId": 199,
+  "GroupId": 813,
+  "SelectionId": 458,
+  "Config": "pariatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Willms LLC",
-      "Description": "Distributed fresh-thinking concept",
+      "Name": "Wisoky LLC",
+      "Description": "Mandatory logistical protocol",
       "Type": "Boolean",
-      "ListName": "Bradtke-Kassulke",
+      "ListName": "Dietrich-Mayert",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sunt",
-      "DefaultDataOption": false,
+      "Value": "quos",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 81
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 594,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 788
         }
       }
     },
     {
-      "VisibleId": 594,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 788
         }
       }
     }
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldLength": 864
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Jenkins LLC",
-    "Tooltip": "totam",
+    "HeadingId": 988,
+    "Name": "Graham-Schmitt",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 939,
-    "UdListDefinitionId": 227,
+    "Rank": 365,
+    "UdListDefinitionId": 473,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 197
       }
     }
   }

@@ -64,6 +64,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -73,7 +75,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,38 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 547,
-  "Name": "Leuschke Inc and Sons",
-  "Rank": 65,
-  "Tooltip": "libero",
-  "Icon": "quas",
-  "DefaultTicketStatus": 570,
+  "TicketTypeId": 681,
+  "Name": "Windler Group",
+  "Rank": 903,
+  "Tooltip": "at",
+  "Icon": "incidunt",
+  "DefaultTicketStatus": 318,
   "TicketStatuses": [
-    843,
-    68
+    394,
+    299
   ],
-  "DefaultTicketPriority": 700,
+  "DefaultTicketPriority": 238,
   "TicketPriorities": [
-    296,
-    126
+    38,
+    890
   ],
-  "ReplyTemplate": 489,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 626,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    884,
-    211
+    276,
+    161
   ],
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 745
     }
   }
 }

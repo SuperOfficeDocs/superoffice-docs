@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Kuhic, Prohaska and Lakin",
-      "DisplayName": "Farrell Group",
-      "DisplayTooltip": "accusantium",
+      "Name": "Feeney-Spinka",
+      "DisplayName": "Cummerata LLC",
+      "DisplayTooltip": "sit",
       "IsActive": false
     },
     {
-      "Name": "Kuhic, Prohaska and Lakin",
-      "DisplayName": "Farrell Group",
-      "DisplayTooltip": "accusantium",
+      "Name": "Feeney-Spinka",
+      "DisplayName": "Cummerata LLC",
+      "DisplayTooltip": "sit",
       "IsActive": false
     }
   ]

@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 952,
-  "GroupType": 153,
-  "StartTime": "2003-12-31T04:22:25.6834441+01:00",
-  "EndTime": "2008-11-22T04:22:25.6834441+01:00",
-  "Count": 603
+  "GroupId": 415,
+  "GroupType": 376,
+  "StartTime": "2011-01-22T13:28:21.4605072+01:00",
+  "EndTime": "1999-01-01T13:28:21.4605072+01:00",
+  "Count": 155
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 676,
-    "StartDate": "1999-03-02T04:22:25.6834441+01:00",
-    "EndDate": "2014-12-27T04:22:25.6834441+01:00",
+    "AppointmentId": 691,
+    "StartDate": "2006-03-29T13:28:21.4605072+02:00",
+    "EndDate": "2006-11-25T13:28:21.4605072+01:00",
     "Type": "BookingForChecklist",
-    "Task": "repellat",
-    "AssociateFullName": "Zetta Veum DDS",
-    "ContactName": "Borer LLC",
-    "Description": "Seamless exuding monitoring",
-    "PersonFullName": "Lottie Chance Lind MD",
-    "PersonId": 944,
-    "ContactId": 222,
-    "ProjectId": 236,
-    "ProjectName": "Gaylord, Keebler and Sauer",
-    "IsPublished": false,
-    "AssociateId": 336,
-    "ColorIndex": 465,
-    "IsFree": true,
+    "Task": "odio",
+    "AssociateFullName": "Vita Hartmann",
+    "ContactName": "Lowe-Schmeler",
+    "Description": "Future-proofed fault-tolerant protocol",
+    "PersonFullName": "Idell Wilkinson",
+    "PersonId": 68,
+    "ContactId": 57,
+    "ProjectId": 476,
+    "ProjectName": "Spinka-Maggio",
+    "IsPublished": true,
+    "AssociateId": 972,
+    "ColorIndex": 127,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 613,
-    "PriorityName": "Ruecker-Gleason",
+    "PriorityId": 846,
+    "PriorityName": "Rosenbaum-Ernser",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-07-31T04:22:25.6834441+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2014-02-01T13:28:21.4605072+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-10-07T04:22:25.6834441+02:00",
-    "RecurringEndDate": "2016-02-17T04:22:25.6834441+01:00",
-    "MotherId": 520,
-    "AssignedBy": 548,
-    "AssignedByFullName": "Mrs. Ines Pacocha",
+    "RecurringStartDate": "2007-06-27T13:28:21.4605072+02:00",
+    "RecurringEndDate": "2002-02-08T13:28:21.4605072+01:00",
+    "MotherId": 729,
+    "AssignedBy": 35,
+    "AssignedByFullName": "Mrs. Amos Mona Homenick",
     "RejectReason": "",
-    "Location": "unde",
-    "AlarmLeadTime": "ratione",
-    "SaleId": 426,
-    "SaleName": "Schuster, Franecki and Batz",
-    "AssociateName": "Streich-Kub",
-    "CreatedDate": "2024-05-17T04:22:25.6834441+02:00",
-    "CreatedBy": "esse",
-    "CreatedByFullName": "Fidel Howe DDS",
-    "CreatedByAssociateId": 163,
+    "Location": "autem",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 892,
+    "SaleName": "McKenzie Group",
+    "AssociateName": "Deckow, Jacobs and Ratke",
+    "CreatedDate": "2020-07-27T13:28:21.4605072+02:00",
+    "CreatedBy": "vitae",
+    "CreatedByFullName": "Ms. Chauncey Holly Legros IV",
+    "CreatedByAssociateId": 744,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 948,
-    "Title": "possimus",
-    "Agenda": "enim",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 193,
+    "Title": "quia",
+    "Agenda": "perspiciatis",
+    "InternalNotes": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 699
       }
     }
   }

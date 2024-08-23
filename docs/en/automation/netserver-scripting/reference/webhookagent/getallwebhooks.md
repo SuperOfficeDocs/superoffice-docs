@@ -2,10 +2,10 @@
 uid: webhookagent-getallwebhooks
 title: WebhookAgent.GetAllWebhooks event method
 description: Scripting events called on the GetAllWebhooks method on the WebhookAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WebhookAgent.GetAllWebhooks
 

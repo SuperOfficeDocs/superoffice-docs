@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "StorageType": "sed",
-  "ProviderName": "Altenwerth LLC",
-  "StorageKey": "quis"
+  "ProviderName": "Terry, O'Reilly and Blanda",
+  "StorageKey": "ut"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Mohr, Heathcote and Ortiz",
-    "DisplayTooltip": "quasi",
-    "DisplayType": "distinctio",
+    "DisplayName": "Leannon-Kuphal",
+    "DisplayTooltip": "sed",
+    "DisplayType": "aut",
     "CanOrderBy": false,
-    "Name": "Witting, Schinner and Goodwin",
-    "CanRestrictBy": false,
-    "RestrictionType": "quaerat",
-    "RestrictionListName": "Dach, O'Kon and Casper",
-    "IsVisible": false,
-    "ExtraInfo": "natus",
-    "Width": "quas",
-    "IconHint": "necessitatibus",
-    "HeadingIconHint": "tempora"
+    "Name": "Schulist-Parker",
+    "CanRestrictBy": true,
+    "RestrictionType": "voluptate",
+    "RestrictionListName": "Harvey, Heidenreich and Gislason",
+    "IsVisible": true,
+    "ExtraInfo": "sunt",
+    "Width": "qui",
+    "IconHint": "ex",
+    "HeadingIconHint": "exercitationem"
   }
 ]
 ```

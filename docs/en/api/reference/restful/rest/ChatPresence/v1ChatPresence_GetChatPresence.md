@@ -59,7 +59,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 257,
-    "DisplayName": "Durgan Inc and Sons",
-    "OngoingChats": 409,
-    "Present": false,
+    "UserId": 983,
+    "DisplayName": "Miller, Monahan and Grant",
+    "OngoingChats": 336,
+    "Present": true,
     "ChatTopics": [
-      65,
-      17
+      141,
+      463
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 819
       }
     }
   }

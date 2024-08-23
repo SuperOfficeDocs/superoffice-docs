@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 293,
+  "AssociateId": 326,
   "Type": "AnonymousAssociate",
-  "PersonId": 511,
-  "UserName": "Mraz-Ward"
+  "PersonId": 620,
+  "UserName": "Boyer-Hirthe"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

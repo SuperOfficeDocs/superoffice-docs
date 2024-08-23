@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 137,
-    "Name": "Turcotte, Stanton and Skiles",
-    "ContentType": "consequatur",
-    "AttSize": 972,
+    "AttachmentId": 593,
+    "Name": "Parker-Ruecker",
+    "ContentType": "veniam",
+    "AttSize": 748,
     "InlineImage": true,
-    "ContentId": "et",
-    "AuthKey": "quia",
+    "ContentId": "perspiciatis",
+    "AuthKey": "sequi",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 736
       }
     }
   }

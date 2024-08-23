@@ -3,9 +3,9 @@ uid: DocumentDynamicSelectionSingleCriteriaGroup
 title: DocumentDynamicSelectionSingleCriteriaGroup
 description: Document selection archive using the selectionId as criterionmapping.
 keywords: DocumentDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentDynamicSelectionSingleCriteriaGroup"
@@ -707,7 +707,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=person/personExtra/y_rental/x_amount,contact/url/URLAddress,contact/NumberOfActivities,project/projectUdef/SuperOffice:10,sale/reopenDate
+GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=person/portraitThumbnail,person/personAddress/addressId,sale/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

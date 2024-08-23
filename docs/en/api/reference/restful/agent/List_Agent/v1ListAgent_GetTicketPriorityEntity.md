@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=956
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=476
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 6,
-  "Name": "Stiedemann, Barrows and Wyman",
+  "TicketPriorityId": 487,
+  "Name": "Maggio, Klocko and Rosenbaum",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 986,
+  "SortOrder": 834,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 68,
-  "MonStart": "2003-04-09T04:22:26.9223945+02:00",
-  "MonStop": "2011-11-04T04:22:26.9223945+01:00",
-  "TueStart": "2023-11-08T04:22:26.9223945+01:00",
-  "TueStop": "2011-07-05T04:22:26.9223945+02:00",
-  "WedStart": "2008-11-09T04:22:26.9223945+01:00",
-  "WedStop": "2006-04-21T04:22:26.9223945+02:00",
-  "ThuStart": "2008-02-18T04:22:26.9223945+01:00",
-  "ThuStop": "2018-08-20T04:22:26.9223945+02:00",
-  "FriStart": "2010-07-26T04:22:26.9223945+02:00",
-  "FriStop": "2018-02-20T04:22:26.9223945+01:00",
-  "SatStart": "2020-06-21T04:22:26.9223945+02:00",
-  "SatStop": "2012-04-02T04:22:26.9223945+02:00",
-  "SunStart": "2015-02-03T04:22:26.9223945+01:00",
-  "SunStop": "2006-01-27T04:22:26.9223945+01:00",
+  "Deadline": 676,
+  "MonStart": "2011-11-01T13:28:22.8981275+01:00",
+  "MonStop": "2005-09-14T13:28:22.8981275+02:00",
+  "TueStart": "2015-09-16T13:28:22.8981275+02:00",
+  "TueStop": "2006-12-02T13:28:22.8981275+01:00",
+  "WedStart": "2003-09-30T13:28:22.8981275+02:00",
+  "WedStop": "2004-10-19T13:28:22.8981275+02:00",
+  "ThuStart": "2000-02-06T13:28:22.8981275+01:00",
+  "ThuStop": "2000-03-20T13:28:22.8981275+01:00",
+  "FriStart": "2014-08-09T13:28:22.8981275+02:00",
+  "FriStop": "2005-01-17T13:28:22.8981275+01:00",
+  "SatStart": "2001-12-22T13:28:22.8981275+01:00",
+  "SatStop": "2022-11-02T13:28:22.8981275+01:00",
+  "SunStart": "2013-09-25T13:28:22.8981275+02:00",
+  "SunStop": "2022-10-24T13:28:22.8981275+02:00",
   "NonDates": [
-    "aut",
-    "quisquam"
+    "rem",
+    "consequuntur"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 350,
-      "AlertLevel": 56,
-      "AlertTimeout": 379,
-      "Action": 931,
-      "DelegateTo": 986,
-      "ScriptId": 388,
-      "EmailTo": "shaina_reinger@larkin.com",
-      "SmsTo": "adipisci",
-      "ReplyTemplateIdCustomer": 287,
-      "ReplyTemplateIdUser": 816,
-      "ReplyTemplateIdCatmast": 470,
-      "ReplyTemplateIdEmail": 192,
-      "RtiCustomerSms": 844,
-      "ReplyTemplateIdUserSms": 285,
-      "ReplyTemplateIdCatmastSms": 93,
-      "ReplyTemplateIdSms": 528,
+      "TicketAlertId": 965,
+      "AlertLevel": 187,
+      "AlertTimeout": 261,
+      "Action": 196,
+      "DelegateTo": 429,
+      "ScriptId": 411,
+      "EmailTo": "ethyl@sauer.co.uk",
+      "SmsTo": "tempora",
+      "ReplyTemplateIdCustomer": 754,
+      "ReplyTemplateIdUser": 910,
+      "ReplyTemplateIdCatmast": 22,
+      "ReplyTemplateIdEmail": 476,
+      "RtiCustomerSms": 687,
+      "ReplyTemplateIdUserSms": 112,
+      "ReplyTemplateIdCatmastSms": 455,
+      "ReplyTemplateIdSms": 660,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldLength": 757
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 285
     }
   }
 }

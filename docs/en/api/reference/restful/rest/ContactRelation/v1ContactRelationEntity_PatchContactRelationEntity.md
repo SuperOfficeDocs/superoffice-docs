@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 888,
-  "SourcePersonId": 141,
-  "DestinationContactId": 613,
-  "DestinationPersonId": 234,
-  "RelationId": 807,
-  "Comment": "quibusdam",
-  "RelationDefinitionId": 230,
-  "Reversed": 396,
-  "UpdatedDate": "2015-02-06T04:22:34.8589991+01:00",
-  "CreatedDate": "2005-04-24T04:22:34.8589991+02:00",
+  "SourceContactId": 465,
+  "SourcePersonId": 890,
+  "DestinationContactId": 458,
+  "DestinationPersonId": 278,
+  "RelationId": 837,
+  "Comment": "eius",
+  "RelationDefinitionId": 291,
+  "Reversed": 308,
+  "UpdatedDate": "2021-05-13T13:28:31.53865+02:00",
+  "CreatedDate": "2006-03-24T13:28:31.53865+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Fisher LLC",
-  "SourcePersonName": "Bauch LLC",
-  "DestinationContactName": "Christiansen, Metz and Corkery",
-  "DestinationPersonName": "Bogisich LLC",
-  "ActiveText": "possimus",
-  "PassiveText": "libero",
+  "SourceContactName": "Schuster, Schneider and Sauer",
+  "SourcePersonName": "Sauer-Mayert",
+  "DestinationContactName": "Schmeler-Hane",
+  "DestinationPersonName": "Klein, McGlynn and Kautzer",
+  "ActiveText": "vero",
+  "PassiveText": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

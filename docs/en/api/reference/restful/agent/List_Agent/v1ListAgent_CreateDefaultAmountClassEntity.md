@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 615,
-  "Name": "Orn, Beier and Von",
-  "Tooltip": "nemo",
-  "Rank": 62,
-  "AmountFrom": 20568.442,
-  "AmountTo": 22267.07,
+  "AmountClassId": 471,
+  "Name": "Bauch-Wilderman",
+  "Tooltip": "quam",
+  "Rank": 689,
+  "AmountFrom": 4453.414,
+  "AmountTo": 10006.862,
   "Deleted": false,
-  "CurrencyId": 428,
+  "CurrencyId": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 540
     }
   }
 }

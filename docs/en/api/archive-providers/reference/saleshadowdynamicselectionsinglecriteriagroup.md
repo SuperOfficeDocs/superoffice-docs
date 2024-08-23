@@ -3,9 +3,9 @@ uid: SaleShadowDynamicSelectionSingleCriteriaGroup
 title: SaleShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic sale provider.
 keywords: SaleShadowDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleShadowDynamicSelectionSingleCriteriaGroup"
@@ -1302,7 +1302,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/supportAssociateFullName,person/personInterestIds,person/personExtra/x_person_shorttext_list,person/personAssociate/mrMrs,person/subscription
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=reopenDate,person/personExtra/x_person_float,contact/contactAssociate/portraitThumbnail,contact/contactExtra/x_contact_default_integer,appointment/associate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=natus
+GET /api/v1/List/DeliveryType/MDOItems?query=maxime
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Stiedemann Group",
-    "ToolTip": "Rerum et voluptatem et.",
-    "Deleted": true,
-    "Rank": 850,
-    "Type": "labore",
+    "Id": 102,
+    "Name": "Funk, Berge and Donnelly",
+    "ToolTip": "Molestias aut totam delectus assumenda deserunt in consequuntur.",
+    "Deleted": false,
+    "Rank": 98,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Braun Inc and Sons",
-        "ToolTip": "Est error.",
+        "Id": 853,
+        "Name": "McDermott, Welch and Abbott",
+        "ToolTip": "Fuga porro explicabo sed explicabo non asperiores perspiciatis.",
         "Deleted": false,
-        "Rank": 227,
-        "Type": "corrupti",
+        "Rank": 390,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nobis",
-        "ColorBlock": 253,
-        "ExtraInfo": "id",
-        "StyleHint": "laborum",
-        "FullName": "Myrtis Rohan",
+        "IconHint": "quisquam",
+        "ColorBlock": 1002,
+        "ExtraInfo": "impedit",
+        "StyleHint": "molestiae",
+        "FullName": "Mrs. Juwan Hansen Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldType": "System.Int32",
+            "FieldLength": 307
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 278,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "eius",
-    "FullName": "Eleanore Welch",
+    "IconHint": "rerum",
+    "ColorBlock": 691,
+    "ExtraInfo": "magni",
+    "StyleHint": "repellat",
+    "FullName": "Dr. Howard Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 987
       }
     }
   }

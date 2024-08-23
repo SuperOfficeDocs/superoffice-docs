@@ -2,10 +2,10 @@
 uid: aiagent-getsummarizecontactprompt
 title: AIAgent.GetSummarizeContactPrompt event method
 description: Scripting events called on the GetSummarizeContactPrompt method on the AIAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AIAgent.GetSummarizeContactPrompt
 

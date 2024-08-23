@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Ernser Inc and Sons",
-  "Tooltip": "a",
-  "Deleted": true,
-  "Rank": 281,
-  "IsCustomList": true,
+  "Id": 546,
+  "Name": "Terry Inc and Sons",
+  "Tooltip": "alias",
+  "Deleted": false,
+  "Rank": 984,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldLength": 61
     }
   },
   "_Links": {

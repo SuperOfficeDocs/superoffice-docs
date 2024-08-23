@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 398,
-  "ERPName": "Crona, Davis and O'Conner",
-  "DisplayName": "Herman-Treutel",
-  "DisplayDescription": "Phased 24/7 core",
-  "Rank": 434,
-  "ConnectorName": "Hodkiewicz, Johnston and Kihn",
-  "ErpConnectionId": 353,
-  "ExtraData": "ducimus",
-  "IsAvailable": true,
+  "QuoteConnectionId": 3,
+  "ERPName": "Koch-Torphy",
+  "DisplayName": "Jewess Inc and Sons",
+  "DisplayDescription": "Streamlined needs-based software",
+  "Rank": 316,
+  "ConnectorName": "Kuhn, Morissette and Luettgen",
+  "ErpConnectionId": 538,
+  "ExtraData": "et",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 517,
-      "ERPPriceListKey": "commodi",
-      "QuoteConnectionId": 265,
-      "Name": "Doyle-Koch",
-      "Description": "Cloned intermediate conglomeration",
-      "Currency": "eum",
-      "CurrencyName": "Lehner, Schulist and O'Conner",
-      "ValidFrom": "2001-03-27T04:22:27.4247427+02:00",
-      "ValidTo": "2001-07-17T04:22:27.4247427+02:00",
+      "PriceListId": 569,
+      "ERPPriceListKey": "ea",
+      "QuoteConnectionId": 886,
+      "Name": "Schumm, Wiza and Hane",
+      "Description": "Programmable even-keeled instruction set",
+      "Currency": "vel",
+      "CurrencyName": "Hermann-Connelly",
+      "ValidFrom": "2009-05-19T13:28:23.5698866+02:00",
+      "ValidTo": "2013-10-07T13:28:23.5698866+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 449
+          "FieldLength": 79
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    787,
-    34
+    276,
+    214
   ],
   "AssociateAccessIds": [
-    649,
-    297
+    861,
+    76
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

@@ -3,9 +3,9 @@ uid: FreetextSale
 title: FreetextSale
 description: Archive provider for freetext search on the Sale entity.
 keywords: FreetextSale archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextSale"
@@ -1135,7 +1135,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=updatedBy,hasStakeholders,contact/contactAssociate/personEmail,project/description,project/projectAssociate/ejDisplayName
+GET /api/v1/archive/FreetextSale?$select=person/personUdef/SuperOffice:6,contact/contactPhone/description,contact/restrictionAddress/formattedAddress,project/projectUdef/SuperOffice:4,project/projectUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

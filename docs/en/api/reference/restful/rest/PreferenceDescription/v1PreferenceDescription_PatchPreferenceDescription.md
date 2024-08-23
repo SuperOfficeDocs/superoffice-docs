@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 910,
-  "Section": "architecto",
-  "Key": "at",
-  "Name": "Marks-Lakin",
+  "PrefDescId": 383,
+  "Section": "dolorem",
+  "Key": "est",
+  "Name": "Murphy-Ritchie",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused web-enabled complexity",
-  "IsBuiltin": false,
-  "TableName": "Olson, Murazik and Kemmer",
-  "UserDefinedListId": 299,
-  "Rank": 479,
-  "SubGroup": "molestiae",
-  "MinLevel": 464,
-  "MaxValue": 960,
-  "MinValue": 787,
-  "RequiredLicense": "vel",
+  "Description": "Quality-focused content-based circuit",
+  "IsBuiltin": true,
+  "TableName": "Brakus Inc and Sons",
+  "UserDefinedListId": 331,
+  "Rank": 526,
+  "SubGroup": "non",
+  "MinLevel": 199,
+  "MaxValue": 141,
+  "MinValue": 445,
+  "RequiredLicense": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   },
   "_Links": {

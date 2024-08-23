@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "enable back-end e-business",
+    "Reason": "",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 915,
-        "NumberOfLicensesFree": 527,
-        "NumberOfLicensesAdded": 366,
-        "NumberOfLicensesNewTotal": 254,
-        "NumberOfLicensesNewFree": 610,
-        "NumberOfLicensesTotal": 160
+        "NumberOfLicensesInUse": 296,
+        "NumberOfLicensesFree": 166,
+        "NumberOfLicensesAdded": 586,
+        "NumberOfLicensesNewTotal": 418,
+        "NumberOfLicensesNewFree": 290,
+        "NumberOfLicensesTotal": 442
       }
     ],
-    "AccumulatedNextCheckDate": "2016-05-24T04:22:26.8911471+02:00"
+    "AccumulatedNextCheckDate": "2016-03-09T13:28:22.866653+01:00"
   },
   {
-    "Reason": "enable back-end e-business",
+    "Reason": "",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 915,
-        "NumberOfLicensesFree": 527,
-        "NumberOfLicensesAdded": 366,
-        "NumberOfLicensesNewTotal": 254,
-        "NumberOfLicensesNewFree": 610,
-        "NumberOfLicensesTotal": 160
+        "NumberOfLicensesInUse": 296,
+        "NumberOfLicensesFree": 166,
+        "NumberOfLicensesAdded": 586,
+        "NumberOfLicensesNewTotal": 418,
+        "NumberOfLicensesNewFree": 290,
+        "NumberOfLicensesTotal": 442
       }
     ],
-    "AccumulatedNextCheckDate": "2016-05-24T04:22:26.8911471+02:00"
+    "AccumulatedNextCheckDate": "2016-03-09T13:28:22.866653+01:00"
   }
 ]
 ```

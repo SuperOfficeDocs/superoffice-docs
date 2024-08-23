@@ -2,10 +2,10 @@
 uid: saleagent-offerautonextstageonapppointmentcompleted
 title: SaleAgent.OfferAutoNextStageOnApppointmentCompleted event method
 description: Scripting events called on the OfferAutoNextStageOnApppointmentCompleted method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.OfferAutoNextStageOnApppointmentCompleted
 

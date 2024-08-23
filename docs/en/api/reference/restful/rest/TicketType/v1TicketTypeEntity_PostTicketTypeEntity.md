@@ -68,6 +68,8 @@ The TicketTypeEntity to be saved.
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 | VisibleForGroups | Array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | Boolean | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | Boolean | Set external access level when replying the message |
 
 ## Response:
 
@@ -98,6 +100,8 @@ OK
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
 | VisibleForGroups | array | Array of references to the visible for groups |
+| ReplyForwardNoSignature | bool | Do not insert user signature when replying or forwarding the message |
+| ReplyExternalAsDefault | bool | Set external access level when replying the message |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -108,36 +112,38 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 878,
-  "Name": "Lesch, Rutherford and Ziemann",
-  "Rank": 556,
-  "Tooltip": "vel",
-  "Icon": "quis",
-  "DefaultTicketStatus": 365,
+  "TicketTypeId": 281,
+  "Name": "Senger, Padberg and Rutherford",
+  "Rank": 83,
+  "Tooltip": "iure",
+  "Icon": "dignissimos",
+  "DefaultTicketStatus": 923,
   "TicketStatuses": [
-    630,
-    602
+    998,
+    494
   ],
-  "DefaultTicketPriority": 592,
+  "DefaultTicketPriority": 67,
   "TicketPriorities": [
-    549,
-    177
+    567,
+    118
   ],
-  "ReplyTemplate": 259,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 51,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    231,
-    81
-  ]
+    447,
+    445
+  ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -148,38 +154,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 890,
-  "Name": "Monahan, Blanda and Satterfield",
-  "Rank": 56,
-  "Tooltip": "ab",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 905,
+  "TicketTypeId": 119,
+  "Name": "Emmerich LLC",
+  "Rank": 871,
+  "Tooltip": "sed",
+  "Icon": "dolores",
+  "DefaultTicketStatus": 267,
   "TicketStatuses": [
-    484,
-    604
+    278,
+    780
   ],
-  "DefaultTicketPriority": 72,
+  "DefaultTicketPriority": 764,
   "TicketPriorities": [
-    57,
-    82
+    618,
+    241
   ],
-  "ReplyTemplate": 301,
+  "ReplyTemplate": 281,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    314,
-    683
+    387,
+    444
   ],
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   },
   "_Links": {

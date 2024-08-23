@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 623,
-  "BlobSize": 524,
-  "Description": "Managed 6th generation process improvement",
+  "BlobId": 794,
+  "BlobSize": 878,
+  "Description": "Horizontal client-driven implementation",
   "ExtraInfo": "qui",
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "omnis",
-  "OriginalSize": 263,
-  "CreatedDate": "2018-10-20T04:22:26.0122232+02:00",
-  "UpdatedDate": "2020-06-27T04:22:26.0122232+02:00",
+  "MimeType": "et",
+  "OriginalSize": 172,
+  "CreatedDate": "1999-08-21T13:28:21.8668811+02:00",
+  "UpdatedDate": "2021-09-19T13:28:21.8668811+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "assumenda"
+  "ConceptualType": "cupiditate"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 591,
-  "BlobSize": 120,
-  "Description": "Progressive multimedia collaboration",
-  "ExtraInfo": "adipisci",
+  "BlobId": 825,
+  "BlobSize": 519,
+  "Description": "Future-proofed intangible encryption",
+  "ExtraInfo": "iure",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quos",
-  "OriginalSize": 819,
-  "CreatedDate": "2013-01-11T04:22:26.0122232+01:00",
-  "UpdatedDate": "2013-03-04T04:22:26.0122232+01:00",
+  "MimeType": "fugiat",
+  "OriginalSize": 176,
+  "CreatedDate": "2021-04-21T13:28:21.8668811+02:00",
+  "UpdatedDate": "1998-04-11T13:28:21.8668811+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "impedit",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

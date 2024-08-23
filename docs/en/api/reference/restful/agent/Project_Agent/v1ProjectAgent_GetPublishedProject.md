@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 50
+  "ProjectId": 16
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 814,
-  "Name": "Lehner, Romaguera and Blick",
-  "Description": "Digitized incremental utilisation",
+  "ProjectId": 492,
+  "Name": "McClure-Hammes",
+  "Description": "Synergistic motivating implementation",
   "URL": "http://www.example.com/",
-  "Type": "mollitia",
-  "AssociateId": 835,
-  "AssociateFullName": "Evalyn Hilpert DDS",
-  "TypeId": 302,
-  "Updated": "2014-09-28T04:22:27.3466141+02:00",
-  "StatusId": 488,
-  "Status": "quisquam",
-  "TextId": 147,
-  "PublishTo": "2023-04-10T04:22:27.3466141+02:00",
-  "PublishFrom": "2008-06-03T04:22:27.3466141+02:00",
-  "IsPublished": true,
+  "Type": "laboriosam",
+  "AssociateId": 68,
+  "AssociateFullName": "Delaney Dietrich",
+  "TypeId": 881,
+  "Updated": "2016-07-31T13:28:23.491777+02:00",
+  "StatusId": 998,
+  "Status": "quis",
+  "TextId": 506,
+  "PublishTo": "2015-12-24T13:28:23.491777+01:00",
+  "PublishFrom": "2019-12-13T13:28:23.491777+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1066317",
-  "ActiveErpLinks": 880,
+  "ProjectNumber": "653970",
+  "ActiveErpLinks": 278,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

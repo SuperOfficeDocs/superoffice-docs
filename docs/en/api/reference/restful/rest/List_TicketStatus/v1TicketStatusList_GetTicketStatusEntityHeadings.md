@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 71,
-    "Name": "Batz-Haley",
-    "Tooltip": "magnam",
-    "Deleted": false,
-    "Rank": 181,
-    "UdListDefinitionId": 942,
+    "HeadingId": 939,
+    "Name": "Treutel, Rowe and Sporer",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 421,
+    "UdListDefinitionId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 730
       }
     }
   }

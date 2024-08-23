@@ -2,10 +2,10 @@
 uid: listagent-getticketcategorylist
 title: ListAgent.GetTicketCategoryList event method
 description: Scripting events called on the GetTicketCategoryList method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetTicketCategoryList
 

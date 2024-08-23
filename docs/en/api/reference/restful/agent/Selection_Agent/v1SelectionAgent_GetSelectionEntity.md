@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=577
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=124
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots optimizing installation",
-  "Postit": "molestiae",
+  "Description": "Right-sized system-worthy moratorium",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 126,
-  "IncludePerson": 417,
+  "GroupIdx": 88,
+  "IncludePerson": 247,
   "MemberCount": 99.99,
-  "Name": "Dach, Pfeffer and Muller",
-  "PostitTextId": 366,
-  "CreatedDate": "2009-11-20T04:22:27.5961507+01:00",
-  "SelectionId": 253,
-  "SoundEx": "vero",
-  "Source": 318,
-  "TextId": 245,
-  "UpdatedDate": "2021-06-08T04:22:27.5961507+02:00",
-  "UpdatedCount": 239,
-  "Visibility": 816,
+  "Name": "Greenholt, Gleichner and Hermann",
+  "PostitTextId": 801,
+  "CreatedDate": "2011-03-02T13:28:23.7260971+01:00",
+  "SelectionId": 622,
+  "SoundEx": "asperiores",
+  "Source": 237,
+  "TextId": 217,
+  "UpdatedDate": "1998-08-03T13:28:23.7260971+02:00",
+  "UpdatedCount": 908,
+  "Visibility": 713,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 556,
-  "TargetTableName": "Lehner LLC",
+  "TargetTableNumber": 308,
+  "TargetTableName": "Tromp LLC",
   "Completed": false,
-  "LeftSelectionId": 232,
-  "RightSelectionId": 327,
+  "LeftSelectionId": 196,
+  "RightSelectionId": 346,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Terry, Welch and Herzog",
-  "ShadowProviderName": "Christiansen-Hudson",
-  "ChartKey": "est",
-  "LastLoaded": "2021-04-03T04:22:27.5961507+02:00",
-  "LastLoadedBy": 102,
+  "MainProviderName": "Kertzmann-DuBuque",
+  "ShadowProviderName": "Bogan-Hudson",
+  "ChartKey": "iste",
+  "LastLoaded": "2019-05-25T13:28:23.7260971+02:00",
+  "LastLoadedBy": 340,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-10-18T04:22:27.5961507+02:00",
-  "LastMembershipChangeBy": 17,
+  "LastMembershipChange": "1999-07-16T13:28:23.7260971+02:00",
+  "LastMembershipChangeBy": 939,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "enim",
-  "MemberTabHeading": "expedita",
-  "MailingsProviderName": "Ryan-Ruecker",
-  "DashboardTileDefinitionId": 517,
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Little-Rogahn",
+  "DashboardTileDefinitionId": 345,
   "VisibleFor": [
     {
-      "VisibleId": 227,
+      "VisibleId": 225,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 564
         }
       }
     },
     {
-      "VisibleId": 227,
+      "VisibleId": 225,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 564
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 418
     }
   }
 }

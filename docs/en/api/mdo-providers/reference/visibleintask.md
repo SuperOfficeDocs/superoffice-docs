@@ -3,9 +3,9 @@ uid: visibleintask
 title: visibleintask
 keywords: mdoprovider mdo provider visibleintask
 description: Visible in list for tasks - places where task button can appear.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "visibleintask" MDO List

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 109
+  "ErpSyncConnectionId": 951
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "O'Conner, Lubowitz and Marvin",
-  "DisplayDescription": "Function-based homogeneous focus group",
+  "DisplayName": "Morissette-Kunze",
+  "DisplayDescription": "Front-line optimizing moratorium",
   "Active": false,
-  "Deleted": true,
-  "LastSync": "2005-05-18T04:22:26.7973501+02:00",
+  "Deleted": false,
+  "LastSync": "2022-06-02T13:28:22.7885448+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "sit",
-      "Mappings": "officiis",
+      "Defaults": "a",
+      "Mappings": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldLength": 979
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "sit",
-      "Mappings": "officiis",
+      "Defaults": "a",
+      "Mappings": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldLength": 979
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

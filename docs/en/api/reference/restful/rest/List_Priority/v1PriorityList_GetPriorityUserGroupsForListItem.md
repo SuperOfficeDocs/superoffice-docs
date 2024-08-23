@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Weissnat, Graham and Lind",
-    "ToolTip": "Aut libero omnis error aut.",
-    "Deleted": true,
-    "Rank": 848,
-    "Type": "dignissimos",
-    "ColorBlock": 623,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2016-10-06T04:22:36.0340897+02:00",
+    "Id": 982,
+    "Name": "Anderson, Strosin and Feeney",
+    "ToolTip": "Dolores tenetur magni excepturi.",
+    "Deleted": false,
+    "Rank": 593,
+    "Type": "commodi",
+    "ColorBlock": 694,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2006-07-31T13:28:32.9447127+02:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Wuckert, Moore and Murray",
-        "ToolTip": "Vel voluptas.",
+        "Id": 403,
+        "Name": "Stoltenberg Inc and Sons",
+        "ToolTip": "Sit enim laborum non itaque.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "ratione",
-        "ColorBlock": 686,
-        "IconHint": "et",
+        "Rank": 693,
+        "Type": "odit",
+        "ColorBlock": 287,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "1997-07-31T04:22:36.0340897+02:00",
+        "LastChanged": "2010-02-02T13:28:32.9447127+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "dolores",
+        "ExtraInfo": "in",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Prof. Frederik Weber Jr.",
+        "FullName": "Gerry Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Elliot O'Conner",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Cara VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldLength": 502
       }
     }
   }

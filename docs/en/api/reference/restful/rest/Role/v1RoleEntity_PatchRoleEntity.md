@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "impedit",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "impedit",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 594,
-  "Name": "Stamm, Ryan and Paucek",
-  "Tooltip": "ut",
+  "RoleId": 353,
+  "Name": "Jakubowski, Carroll and Mitchell",
+  "Tooltip": "natus",
   "RoleType": "Anonymous",
-  "Deleted": 379,
-  "Rank": 599,
-  "Created": "2023-06-06T04:22:35.2053915+02:00",
-  "UseCategories": 489,
+  "Deleted": 948,
+  "Rank": 879,
+  "Created": "2023-12-12T13:28:31.9135636+01:00",
+  "UseCategories": 716,
   "CreatedBy": null,
-  "Updated": "2020-06-23T04:22:35.2053915+02:00",
+  "Updated": "2021-05-23T13:28:31.9135636+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldLength": 599
     }
   },
   "_Links": {

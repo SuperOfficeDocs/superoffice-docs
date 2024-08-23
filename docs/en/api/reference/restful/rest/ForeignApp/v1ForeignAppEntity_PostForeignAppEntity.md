@@ -92,23 +92,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 648,
-  "Name": "Robel-Watsica",
-  "CreatedDate": "2003-10-22T04:22:34.9854602+02:00",
-  "UpdatedDate": "2011-10-31T04:22:34.9854602+01:00",
+  "ForeignAppId": 416,
+  "Name": "Hyatt-Raynor",
+  "CreatedDate": "2000-09-16T13:28:31.6792414+02:00",
+  "UpdatedDate": "2000-08-17T13:28:31.6792414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 354,
-      "Name": "Rice, Beier and Watsica",
-      "CreatedDate": "2009-09-22T04:22:34.9854602+02:00",
-      "UpdatedDate": "2010-11-17T04:22:34.9854602+01:00",
-      "AssociateFullName": "Otilia Harrison Prosacco II",
-      "CreatedBy": "nostrum",
-      "UpdatedBy": "reprehenderit",
-      "DeviceIdentifier": "facere",
-      "ForeignAppId": 915
+      "ForeignDeviceId": 485,
+      "Name": "Ferry, Schmeler and Thompson",
+      "CreatedDate": "2009-05-29T13:28:31.6792414+02:00",
+      "UpdatedDate": "2017-02-07T13:28:31.6792414+01:00",
+      "AssociateFullName": "Mrs. Addison Parisian",
+      "CreatedBy": "facere",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "quidem",
+      "ForeignAppId": 99
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 619,
-  "Name": "Davis Inc and Sons",
-  "CreatedDate": "1998-06-09T04:22:34.9854602+02:00",
-  "UpdatedDate": "2002-08-03T04:22:34.9854602+02:00",
+  "ForeignAppId": 674,
+  "Name": "Bogisich-Padberg",
+  "CreatedDate": "2000-05-17T13:28:31.6792414+02:00",
+  "UpdatedDate": "2016-12-24T13:28:31.6792414+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 876,
-      "Name": "Johnston, Hagenes and Bahringer",
-      "CreatedDate": "2012-03-13T04:22:34.9854602+01:00",
-      "UpdatedDate": "2006-08-05T04:22:34.9854602+02:00",
-      "AssociateFullName": "Demond Gottlieb",
-      "CreatedBy": "repellendus",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 389,
+      "ForeignDeviceId": 766,
+      "Name": "Pfeffer Inc and Sons",
+      "CreatedDate": "2019-04-23T13:28:31.6792414+02:00",
+      "UpdatedDate": "2000-08-10T13:28:31.6792414+02:00",
+      "AssociateFullName": "Adelbert Jast",
+      "CreatedBy": "fugiat",
+      "UpdatedBy": "quidem",
+      "DeviceIdentifier": "eos",
+      "ForeignAppId": 155,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldLength": 714
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 991
     }
   },
   "_Links": {

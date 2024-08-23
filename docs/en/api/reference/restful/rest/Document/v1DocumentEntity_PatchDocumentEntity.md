@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 151,
+  "DocumentId": 743,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sequi",
-  "Header": "esse",
-  "Name": "Leannon Group",
-  "OurRef": "quam",
-  "YourRef": "perspiciatis",
-  "CreatedDate": "1997-09-01T04:22:34.9214972+02:00",
-  "UpdatedDate": "2001-12-31T04:22:34.9214972+01:00",
-  "Description": "Exclusive asynchronous installation",
+  "Attention": "tenetur",
+  "Header": "magni",
+  "Name": "Smitham Group",
+  "OurRef": "sint",
+  "YourRef": "totam",
+  "CreatedDate": "2015-03-13T13:28:31.6167569+01:00",
+  "UpdatedDate": "2011-02-11T13:28:31.6167569+01:00",
+  "Description": "Self-enabling exuding initiative",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-10-18T04:22:34.9214972+02:00",
-  "ExternalRef": "voluptatem",
+  "Date": "2023-11-16T13:28:31.6167569+01:00",
+  "ExternalRef": "numquam",
   "Completed": "Completed",
-  "ActiveLinks": 594,
+  "ActiveLinks": 629,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Herzog-Nicolas",
-      "Id": 204,
-      "Description": "Horizontal actuating array",
-      "ExtraInfo": "nihil",
-      "LinkId": 973,
+      "EntityName": "Doyle Inc and Sons",
+      "Id": 274,
+      "Description": "Multi-layered bi-directional attitude",
+      "ExtraInfo": "dolorem",
+      "LinkId": 567,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 562
+          "FieldType": "System.Int32",
+          "FieldLength": 129
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 140,
-  "Snum": 452,
+  "SuggestedDocumentId": 901,
+  "Snum": 797,
   "UserDefinedFields": {
-    "SuperOffice:1": "Russel Hansen",
-    "SuperOffice:2": "Brenda Koepp"
+    "SuperOffice:1": "Ardith Icie O'Conner I",
+    "SuperOffice:2": "Madilyn Kertzmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "nam"
+    "CustomFields1": "sunt",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2003-11-13T04:22:34.9214972+01:00",
-  "PublishTo": "2012-11-20T04:22:34.9214972+01:00",
-  "PublishFrom": "2022-09-25T04:22:34.9214972+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-11-05T13:28:31.6167569+01:00",
+  "PublishTo": "2017-09-03T13:28:31.6167569+02:00",
+  "PublishFrom": "1998-04-19T13:28:31.6167569+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 371,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 644
         }
       }
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 371,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 644
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   },
   "_Links": {

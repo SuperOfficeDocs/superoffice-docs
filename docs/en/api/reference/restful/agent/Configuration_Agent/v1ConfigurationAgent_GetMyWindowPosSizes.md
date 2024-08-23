@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "vel",
-    "PersonId": 957,
-    "AssociateId": 105,
-    "ExtraId": 693,
-    "ExtraInfo": "sunt",
-    "Height": 104,
-    "LeftX": 130,
+    "OwnerWindow": "et",
+    "PersonId": 489,
+    "AssociateId": 50,
+    "ExtraId": 1001,
+    "ExtraInfo": "iste",
+    "Height": 54,
+    "LeftX": 1000,
     "State": "Maximized",
-    "UpperY": 917,
-    "Width": 59,
-    "WindowPosSizeId": 311,
+    "UpperY": 874,
+    "Width": 964,
+    "WindowPosSizeId": 964,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 691
       }
     }
   }

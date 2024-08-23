@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 193,
-  "TargetDocumentPluginId": 96
+  "DocumentTemplateId": 218,
+  "TargetDocumentPluginId": 727
 }
 ```
 

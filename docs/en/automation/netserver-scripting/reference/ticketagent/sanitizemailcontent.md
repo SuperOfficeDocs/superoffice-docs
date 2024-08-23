@@ -2,10 +2,10 @@
 uid: ticketagent-sanitizemailcontent
 title: TicketAgent.SanitizeMailContent event method
 description: Scripting events called on the SanitizeMailContent method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.SanitizeMailContent
 

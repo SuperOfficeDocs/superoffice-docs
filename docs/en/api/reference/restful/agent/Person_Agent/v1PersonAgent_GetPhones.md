@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 218
+  "PersonId": 164
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "molestiae",
-    "StrippedValue": "quis",
-    "Description": "Multi-lateral well-modulated service-desk",
+    "Value": "velit",
+    "StrippedValue": "velit",
+    "Description": "Multi-tiered even-keeled functionalities",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   },
   {
-    "Value": "molestiae",
-    "StrippedValue": "quis",
-    "Description": "Multi-lateral well-modulated service-desk",
+    "Value": "velit",
+    "StrippedValue": "velit",
+    "Description": "Multi-tiered even-keeled functionalities",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

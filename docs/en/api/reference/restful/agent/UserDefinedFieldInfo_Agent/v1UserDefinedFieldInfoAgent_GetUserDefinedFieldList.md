@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 345,
-    "ColumnId": 747,
-    "FieldDefault": "praesentium",
-    "FieldHeight": 335,
-    "FieldLabel": "rerum",
-    "FieldLeft": 567,
-    "FieldTop": 508,
+    "UDefFieldId": 390,
+    "ColumnId": 677,
+    "FieldDefault": "fugiat",
+    "FieldHeight": 773,
+    "FieldLabel": "autem",
+    "FieldLeft": 452,
+    "FieldTop": 775,
     "FieldType": "Checkbox",
-    "FieldWidth": 680,
-    "FormatMask": "voluptas",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 234,
-    "LabelLeft": 439,
-    "LabelTop": 502,
-    "LabelWidth": 703,
-    "LastVersionId": 722,
-    "ListTableId": 674,
-    "IsMandatory": true,
+    "FieldWidth": 203,
+    "FormatMask": "dolore",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 719,
+    "LabelLeft": 310,
+    "LabelTop": 400,
+    "LabelWidth": 911,
+    "LastVersionId": 551,
+    "ListTableId": 840,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 272,
-    "ProgId": "occaecati",
+    "Page1LineNo": 274,
+    "ProgId": "libero",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 867,
-    "TextLength": 88,
-    "Tooltip": "magni",
-    "UdefIdentity": 967,
-    "UDListDefinitionId": 630,
+    "ShortLabel": "iste",
+    "TabOrder": 639,
+    "TextLength": 544,
+    "Tooltip": "est",
+    "UdefIdentity": 387,
+    "UDListDefinitionId": 948,
     "Justification": "Center",
-    "Version": 875,
-    "TemplateVariableName": "Tromp-Lehner",
+    "Version": 458,
+    "TemplateVariableName": "Flatley Group",
     "HasBeenPublished": false,
-    "MdoListName": "Schinner, Stark and Schoen",
+    "MdoListName": "O'Hara-Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

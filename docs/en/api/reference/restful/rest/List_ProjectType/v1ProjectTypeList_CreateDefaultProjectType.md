@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Prosacco, Frami and Rosenbaum",
-  "Tooltip": "in",
+  "Id": 858,
+  "Name": "Orn Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 5,
-  "Rank": 816,
+  "UdListDefinitionId": 358,
+  "Rank": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

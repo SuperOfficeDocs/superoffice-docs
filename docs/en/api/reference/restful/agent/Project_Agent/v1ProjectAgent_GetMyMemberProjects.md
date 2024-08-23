@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 269,
-    "Name": "Blick-Wuckert",
-    "Description": "Fundamental attitude-oriented collaboration",
+    "ProjectId": 14,
+    "Name": "Smith, Schmidt and Waelchi",
+    "Description": "Function-based transitional open architecture",
     "URL": "http://www.example.com/",
-    "Type": "quae",
-    "AssociateId": 33,
-    "AssociateFullName": "Cindy America Kohler PhD",
-    "TypeId": 263,
-    "Updated": "2012-05-03T04:22:27.3466141+02:00",
-    "StatusId": 934,
+    "Type": "ipsa",
+    "AssociateId": 868,
+    "AssociateFullName": "Ulises Brakus",
+    "TypeId": 171,
+    "Updated": "2005-12-16T13:28:23.491777+01:00",
+    "StatusId": 450,
     "Status": "quo",
-    "TextId": 565,
-    "PublishTo": "2008-10-07T04:22:27.3466141+02:00",
-    "PublishFrom": "2015-07-26T04:22:27.3466141+02:00",
-    "IsPublished": false,
+    "TextId": 698,
+    "PublishTo": "1999-04-28T13:28:23.491777+02:00",
+    "PublishFrom": "1998-08-14T13:28:23.491777+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1401742",
-    "ActiveErpLinks": 277,
+    "ProjectNumber": "1080911",
+    "ActiveErpLinks": 624,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 780
       }
     }
   }

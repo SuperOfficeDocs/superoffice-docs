@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 711,
-  "TargetDimensionId": 174
+  "Year": 71,
+  "TargetDimensionId": 841
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 917,
+    "TargetAssignmentInfoId": 409,
     "Values": [
-      515,
-      491
+      787,
+      305
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 498,
-    "DimensionListItemDisplayName": "Eichmann, Frami and Barrows",
+    "DimensionListItem": 402,
+    "DimensionListItemDisplayName": "Russel-Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 19
       }
     }
   }

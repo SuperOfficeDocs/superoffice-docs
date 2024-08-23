@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Bartell LLC",
-    "ToolTip": "Occaecati in voluptatibus pariatur.",
-    "Deleted": true,
-    "Rank": 643,
-    "Type": "id",
-    "ColorBlock": 179,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2023-01-04T04:22:36.1747132+01:00",
+    "Id": 381,
+    "Name": "Kuhn Inc and Sons",
+    "ToolTip": "Magni voluptatem.",
+    "Deleted": false,
+    "Rank": 600,
+    "Type": "doloribus",
+    "ColorBlock": 447,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2005-03-01T13:28:33.1165466+01:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Toy Group",
-        "ToolTip": "Est est earum ratione illum sequi consequatur exercitationem.",
-        "Deleted": true,
-        "Rank": 289,
-        "Type": "corrupti",
-        "ColorBlock": 232,
-        "IconHint": "itaque",
+        "Id": 248,
+        "Name": "Wilderman, Witting and Harris",
+        "ToolTip": "Ipsum nobis culpa qui ducimus in accusantium vitae.",
+        "Deleted": false,
+        "Rank": 655,
+        "Type": "cumque",
+        "ColorBlock": 410,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2017-06-27T04:22:36.1747132+02:00",
+        "LastChanged": "2001-12-15T13:28:33.1165466+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "eum",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Prof. Garrison Lynch IV"
+        "FullName": "Ted Bahringer"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "ut",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Mr. Sadie Barton"
+    "FullName": "Jessy Wilderman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "McDermott, Doyle and Lakin",
-    "ToolTip": "Id animi.",
-    "Deleted": true,
-    "Rank": 794,
-    "Type": "cumque",
-    "ColorBlock": 143,
-    "IconHint": "ut",
+    "Id": 585,
+    "Name": "Green-Leannon",
+    "ToolTip": "Aut ab alias qui tempora.",
+    "Deleted": false,
+    "Rank": 560,
+    "Type": "tempora",
+    "ColorBlock": 417,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2002-03-09T04:22:36.1747132+01:00",
+    "LastChanged": "2015-04-26T13:28:33.1165466+02:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Heaney Inc and Sons",
-        "ToolTip": "Dicta laborum.",
-        "Deleted": false,
-        "Rank": 921,
-        "Type": "fuga",
-        "ColorBlock": 159,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2004-07-27T04:22:36.1747132+02:00",
+        "Id": 818,
+        "Name": "Schmitt, Pfeffer and Lindgren",
+        "ToolTip": "Deserunt quam.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "dolor",
+        "ColorBlock": 581,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2000-10-30T13:28:33.1165466+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "modi",
+        "ExtraInfo": "qui",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Lillie Veum",
+        "FullName": "Adele Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "velit",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Brooklyn Mills",
+    "FullName": "Miss Marshall Alexys Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 165
       }
     }
   }

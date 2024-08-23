@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Connell Group",
-  "DeviceName": "Maggio, Waelchi and Willms",
-  "DeviceIdentifier": "est",
+  "ApplicationName": "Hermiston Inc and Sons",
+  "DeviceName": "Cole-Sporer",
+  "DeviceIdentifier": "atque",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 563,
-  "Name": "Cummerata-Upton",
-  "CreatedDate": "2011-11-15T04:22:26.8755249+01:00",
-  "UpdatedDate": "2016-07-17T04:22:26.8755249+02:00",
-  "AssociateFullName": "Dr. Monroe Lindgren",
-  "CreatedBy": "ex",
-  "UpdatedBy": "architecto",
-  "DeviceIdentifier": "numquam",
-  "ForeignAppId": 220,
+  "ForeignDeviceId": 977,
+  "Name": "Jenkins Group",
+  "CreatedDate": "2011-10-19T13:28:22.8510314+02:00",
+  "UpdatedDate": "2000-07-05T13:28:22.8510314+02:00",
+  "AssociateFullName": "Ebony Block III",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 684,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

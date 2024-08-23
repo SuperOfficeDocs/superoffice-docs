@@ -3,9 +3,9 @@ uid: CategoryMembers
 title: CategoryMembers
 description: Archive of CategoryMember - used by the web api.
 keywords: CategoryMembers archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "CategoryMembers"
@@ -69,7 +69,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=getAllRows,personId,contactFullName
+GET /api/v1/archive/CategoryMembers?$select=personId,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

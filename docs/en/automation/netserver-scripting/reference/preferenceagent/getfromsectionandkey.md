@@ -2,10 +2,10 @@
 uid: preferenceagent-getfromsectionandkey
 title: PreferenceAgent.GetFromSectionAndKey event method
 description: Scripting events called on the GetFromSectionAndKey method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.GetFromSectionAndKey
 

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Sawayn LLC",
-    "ToolTip": "Velit itaque eos.",
+    "Id": 239,
+    "Name": "Kautzer, Haley and Stoltenberg",
+    "ToolTip": "Ut est voluptas quisquam voluptatem soluta.",
     "Deleted": true,
-    "Rank": 128,
-    "Type": "eveniet",
-    "ColorBlock": 401,
-    "IconHint": "vero",
+    "Rank": 291,
+    "Type": "ut",
+    "ColorBlock": 602,
+    "IconHint": "quidem",
     "Selected": true,
-    "LastChanged": "2018-12-17T04:22:36.0497173+01:00",
+    "LastChanged": "2014-11-16T13:28:32.9603316+01:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Schumm Inc and Sons",
-        "ToolTip": "Et veritatis reprehenderit quaerat quisquam eos eius corrupti.",
+        "Id": 182,
+        "Name": "Olson-Fahey",
+        "ToolTip": "Debitis expedita fugiat vitae qui.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "quia",
-        "ColorBlock": 95,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2014-01-29T04:22:36.0497173+01:00",
+        "Rank": 137,
+        "Type": "voluptatem",
+        "ColorBlock": 152,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2015-08-14T13:28:32.9603316+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "earum",
+        "ExtraInfo": "tempore",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Prof. Hilario Pacocha",
+        "FullName": "Dr. Jackeline Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 533
+            "FieldType": "System.Int32",
+            "FieldLength": 156
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "quia",
+    "ExtraInfo": "vitae",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Arthur Ella Stoltenberg DVM",
+    "FullName": "Valerie Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 845
       }
     }
   }

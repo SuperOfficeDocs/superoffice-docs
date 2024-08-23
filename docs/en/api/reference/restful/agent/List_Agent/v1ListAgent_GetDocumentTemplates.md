@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 184,
-    "Name": "Walsh LLC",
-    "Tooltip": "ut",
-    "SaveInDb": 792,
-    "Filename": "omnis",
-    "DefaultOref": "reprehenderit",
+    "DocumentTemplateId": 88,
+    "Name": "Lemke, Rippin and Pagac",
+    "Tooltip": "rerum",
+    "SaveInDb": 849,
+    "Filename": "amet",
+    "DefaultOref": "animi",
     "RecordType": "Appointment",
-    "Deleted": 684,
+    "Deleted": 419,
     "Direction": "Incoming",
-    "AutoeventId": 512,
+    "AutoeventId": 826,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

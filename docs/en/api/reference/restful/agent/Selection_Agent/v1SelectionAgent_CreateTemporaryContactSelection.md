@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive web-enabled complexity",
-  "Postit": "voluptatibus",
+  "Description": "Configurable object-oriented open system",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 415,
-  "IncludePerson": 779,
+  "GroupIdx": 465,
+  "IncludePerson": 961,
   "MemberCount": 99.99,
-  "Name": "Lebsack LLC",
-  "PostitTextId": 186,
-  "CreatedDate": "2004-06-04T04:22:27.6273988+02:00",
-  "SelectionId": 258,
-  "SoundEx": "praesentium",
-  "Source": 426,
-  "TextId": 302,
-  "UpdatedDate": "2015-12-28T04:22:27.6273988+01:00",
-  "UpdatedCount": 222,
-  "Visibility": 558,
+  "Name": "Gibson-Bahringer",
+  "PostitTextId": 58,
+  "CreatedDate": "2011-05-19T13:28:23.7573404+02:00",
+  "SelectionId": 753,
+  "SoundEx": "laborum",
+  "Source": 3,
+  "TextId": 832,
+  "UpdatedDate": "2004-11-15T13:28:23.7573404+01:00",
+  "UpdatedCount": 490,
+  "Visibility": 780,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 798,
-  "TargetTableName": "Crona, Russel and Wilderman",
-  "Completed": false,
-  "LeftSelectionId": 697,
-  "RightSelectionId": 689,
+  "TargetTableNumber": 360,
+  "TargetTableName": "Haag-Swaniawski",
+  "Completed": true,
+  "LeftSelectionId": 303,
+  "RightSelectionId": 773,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hand-Corwin",
-  "ShadowProviderName": "Keebler Group",
-  "ChartKey": "vel",
-  "LastLoaded": "2020-07-16T04:22:27.6273988+02:00",
-  "LastLoadedBy": 174,
+  "MainProviderName": "Kihn-Collier",
+  "ShadowProviderName": "Hyatt-Jacobi",
+  "ChartKey": "cumque",
+  "LastLoaded": "2001-08-01T13:28:23.7573404+02:00",
+  "LastLoadedBy": 709,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-01-03T04:22:27.6273988+01:00",
-  "LastMembershipChangeBy": 160,
+  "LastMembershipChange": "2009-05-25T13:28:23.7573404+02:00",
+  "LastMembershipChangeBy": 982,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "repellat",
-  "MemberTabHeading": "veritatis",
-  "MailingsProviderName": "Reichel, Schmitt and Farrell",
-  "DashboardTileDefinitionId": 872,
+  "MainHeading": "quibusdam",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Balistreri, Hilll and Christiansen",
+  "DashboardTileDefinitionId": 369,
   "VisibleFor": [
     {
-      "VisibleId": 108,
+      "VisibleId": 99,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldType": "System.Int32",
+          "FieldLength": 772
         }
       }
     },
     {
-      "VisibleId": 108,
+      "VisibleId": 99,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldType": "System.Int32",
+          "FieldLength": 772
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

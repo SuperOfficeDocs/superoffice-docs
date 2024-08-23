@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 707,
-    "AssociateId": 321,
-    "Block": "in",
-    "Registered": "2010-04-01T04:22:35.4553554+02:00",
-    "RegisteredAssociateId": 645,
-    "Updated": "1997-03-06T04:22:35.4553554+01:00",
-    "UpdatedAssociateId": 925,
-    "UpdatedCount": 737,
+    "ShipmentMessageBlockId": 602,
+    "AssociateId": 306,
+    "Block": "velit",
+    "Registered": "2016-03-26T13:28:32.2573673+01:00",
+    "RegisteredAssociateId": 197,
+    "Updated": "2011-01-12T13:28:32.2573673+01:00",
+    "UpdatedAssociateId": 590,
+    "UpdatedCount": 279,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 768
       }
     }
   }

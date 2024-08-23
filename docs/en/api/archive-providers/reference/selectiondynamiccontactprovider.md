@@ -3,9 +3,9 @@ uid: SelectionDynamicContactProvider
 title: SelectionDynamicContactProvider
 description: 
 keywords: SelectionDynamicContactProvider archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SelectionDynamicContactProvider"
@@ -1196,7 +1196,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=saintActivityType,sale/currency,appointment/personId,personUdef/SuperOffice:4,personSourceRelation/personDeletedDate
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=targetRelation/hasInterests,targetRelation/country,appointment/date,appointment/appointmentId,appointment/duration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

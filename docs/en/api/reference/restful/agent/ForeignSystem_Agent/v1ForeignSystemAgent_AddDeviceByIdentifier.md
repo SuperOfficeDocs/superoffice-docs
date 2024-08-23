@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feil Inc and Sons",
-  "DeviceName": "Gerlach LLC",
-  "DeviceIdentifier": "dolorem"
+  "ApplicationName": "Klocko-Bruen",
+  "DeviceName": "Franecki-Haag",
+  "DeviceIdentifier": "nihil"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 967,
-  "Name": "Grant-Hickle",
-  "CreatedDate": "2021-03-20T04:22:26.8598968+01:00",
-  "UpdatedDate": "2018-12-18T04:22:26.8598968+01:00",
-  "AssociateFullName": "Yoshiko Ransom Deckow PhD",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "autem",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 273,
+  "ForeignDeviceId": 745,
+  "Name": "Schuppe-White",
+  "CreatedDate": "2023-03-15T13:28:22.8510314+01:00",
+  "UpdatedDate": "1997-10-20T13:28:22.8510314+02:00",
+  "AssociateFullName": "Lafayette Tillman Sr.",
+  "CreatedBy": "incidunt",
+  "UpdatedBy": "nam",
+  "DeviceIdentifier": "qui",
+  "ForeignAppId": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 146
     }
   }
 }

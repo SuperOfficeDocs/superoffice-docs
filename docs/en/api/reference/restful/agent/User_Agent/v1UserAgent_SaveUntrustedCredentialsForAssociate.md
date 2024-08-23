@@ -68,12 +68,12 @@ No Content
 POST /api/v1/Agents/User/SaveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 933,
-  "Type": "ut",
+  "AssociateId": 283,
+  "Type": "aut",
   "Credentials": null
 }
 ```

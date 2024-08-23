@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Murray Inc and Sons",
-    "ToolTip": "Eveniet eveniet ad aut ullam ea dolorem.",
-    "Deleted": true,
-    "Rank": 840,
-    "Type": "porro",
-    "ColorBlock": 119,
-    "IconHint": "sed",
+    "Id": 576,
+    "Name": "Johns, Leannon and Kuhic",
+    "ToolTip": "Inventore et quia temporibus ab dolores.",
+    "Deleted": false,
+    "Rank": 241,
+    "Type": "voluptas",
+    "ColorBlock": 996,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2018-09-18T04:22:35.9403427+02:00",
+    "LastChanged": "2012-04-12T13:28:32.8353602+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Schumm Inc and Sons",
-        "ToolTip": "Perspiciatis nulla id sed tempore ratione ut.",
-        "Deleted": true,
-        "Rank": 407,
-        "Type": "officiis",
-        "ColorBlock": 728,
-        "IconHint": "voluptates",
+        "Id": 915,
+        "Name": "Dickens, Prohaska and Dooley",
+        "ToolTip": "Quo at aut qui eum eum perspiciatis voluptas.",
+        "Deleted": false,
+        "Rank": 533,
+        "Type": "in",
+        "ColorBlock": 278,
+        "IconHint": "impedit",
         "Selected": true,
-        "LastChanged": "1999-01-09T04:22:35.9403427+01:00",
+        "LastChanged": "2003-05-03T13:28:32.8353602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "vel",
+        "ExtraInfo": "sed",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Ms. Tressa Paucek MD",
+        "FullName": "Prof. Morris Arlene Raynor PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 23
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Montana Parker",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Carley Yundt I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

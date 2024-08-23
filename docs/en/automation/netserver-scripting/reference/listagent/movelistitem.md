@@ -2,10 +2,10 @@
 uid: listagent-movelistitem
 title: ListAgent.MoveListItem event method
 description: Scripting events called on the MoveListItem method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.MoveListItem
 

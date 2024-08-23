@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    467,
-    759
+    978,
+    453
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 814,
-    "Name": "Lubowitz, Gibson and Hills",
-    "Description": "Persistent modular success",
+    "ProjectId": 518,
+    "Name": "Gerlach Inc and Sons",
+    "Description": "Integrated composite function",
     "URL": "http://www.example.com/",
-    "Type": "non",
-    "AssociateId": 284,
-    "AssociateFullName": "Lois Torphy",
-    "TypeId": 514,
-    "Updated": "1997-01-19T04:22:27.3466141+01:00",
-    "StatusId": 360,
-    "Status": "neque",
-    "TextId": 366,
-    "PublishTo": "2005-09-03T04:22:27.3466141+02:00",
-    "PublishFrom": "1997-09-30T04:22:27.3466141+02:00",
+    "Type": "quia",
+    "AssociateId": 759,
+    "AssociateFullName": "Prof. Devan Koelpin",
+    "TypeId": 848,
+    "Updated": "2001-01-16T13:28:23.491777+01:00",
+    "StatusId": 485,
+    "Status": "sunt",
+    "TextId": 92,
+    "PublishTo": "2003-07-13T13:28:23.491777+02:00",
+    "PublishFrom": "2006-01-12T13:28:23.491777+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1306833",
-    "ActiveErpLinks": 139,
+    "ProjectNumber": "1657978",
+    "ActiveErpLinks": 920,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 33
       }
     }
   }

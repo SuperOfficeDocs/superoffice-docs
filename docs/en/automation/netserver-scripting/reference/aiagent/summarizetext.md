@@ -2,10 +2,10 @@
 uid: aiagent-summarizetext
 title: AIAgent.SummarizeText event method
 description: Scripting events called on the SummarizeText method on the AIAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AIAgent.SummarizeText
 

@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "vel",
-    "ValueType": "eaque",
-    "Mandatory": true,
-    "EncodedDisplayName": "Harris-Waters",
-    "EncodedDisplayDescription": "Diverse uniform flexibility",
-    "IconHint": "at",
+    "IsActive": false,
+    "Key": "quos",
+    "ValueType": "consequuntur",
+    "Mandatory": false,
+    "EncodedDisplayName": "Buckridge Inc and Sons",
+    "EncodedDisplayDescription": "Organic 4th generation local area network",
+    "IconHint": "nostrum",
     "ControlInfos": [
       {
-        "Type": "animi",
-        "Label": "numquam",
-        "Dimension": 703,
-        "ListProviderName": "Beer, Hintz and Rau",
-        "ListProviderExtraInfo": "omnis",
-        "ListProviderPrimaryKeyName": "Torphy Group",
-        "ListLeadText": "inventore",
+        "Type": "maiores",
+        "Label": "hic",
+        "Dimension": 936,
+        "ListProviderName": "Parisian, Huel and Smitham",
+        "ListProviderExtraInfo": "aut",
+        "ListProviderPrimaryKeyName": "Schuster-Boyer",
+        "ListLeadText": "in",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 157
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "enim",
+    "EncodedDataCaptionDescription": "Extended 24/7 infrastructure",
+    "CurrentOperationType": "omnis",
+    "Values": [
+      "perferendis",
+      "numquam"
+    ],
+    "DisplayValues": [
+      "vel",
+      "porro"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "sit",
+        "EncodedDisplayName": "Smitham LLC",
+        "EncodedLeadTexts": [
+          "sint",
+          "et"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 863
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "nulla",
-    "EncodedDataCaptionDescription": "Decentralized multi-state matrix",
-    "CurrentOperationType": "est",
-    "Values": [
-      "ipsum",
-      "consequatur"
-    ],
-    "DisplayValues": [
-      "temporibus",
-      "sed"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "fuga",
-        "EncodedDisplayName": "Becker Group",
-        "EncodedLeadTexts": [
-          "cum",
-          "ratione"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 421
+            "FieldLength": 704
           }
         }
       },
       {
-        "Key": "fuga",
-        "EncodedDisplayName": "Becker Group",
+        "Key": "sit",
+        "EncodedDisplayName": "Smitham LLC",
         "EncodedLeadTexts": [
-          "cum",
-          "ratione"
+          "sint",
+          "et"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 421
+            "FieldType": "System.String",
+            "FieldLength": 704
           }
         }
       }

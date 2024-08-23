@@ -3,9 +3,9 @@ uid: Invitation
 title: Invitation
 description: Invitation provider multichannel combiner, consisting of simple, cancelled, rejected, repeating and response invitations. You can also
 keywords: Invitation archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Invitation"
@@ -734,7 +734,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=contact/restrictionAddress/addressId,contact/contactExtra/x_contact_datetime,contact/saintTicketCategory,person/title,person/personRegisteredByFullName
+GET /api/v1/archive/Invitation?$select=recordTypeText,contact/postAddress/line3,contact/contactInterestIds,person/subscription,appointmentUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

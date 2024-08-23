@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "praesentium"
+  "MessageId": "molestiae"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 602,
-      "ContactName": "Mills-O'Conner",
-      "PersonId": 185,
-      "PersonName": "Baumbach-Moen",
-      "AssociateId": 951,
-      "Address": "cupiditate",
-      "EmailId": 923,
+      "ContactId": 683,
+      "ContactName": "Welch Group",
+      "PersonId": 540,
+      "PersonName": "Rolfson-Wehner",
+      "AssociateId": 663,
+      "Address": "sed",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        26,
-        399
+        746,
+        784
       ],
-      "Name": "Batz LLC",
+      "Name": "Jakubowski LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldLength": 16
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 396,
-      "ContactName": "Boyer Inc and Sons",
-      "PersonId": 514,
-      "PersonName": "Heathcote-O'Reilly",
-      "AssociateId": 389,
-      "Address": "aliquam",
-      "EmailId": 761,
+      "ContactId": 172,
+      "ContactName": "Mohr-Klocko",
+      "PersonId": 110,
+      "PersonName": "Stoltenberg, Bashirian and Lesch",
+      "AssociateId": 24,
+      "Address": "velit",
+      "EmailId": 83,
       "DuplicatePersonIds": [
-        427,
-        961
+        787,
+        713
       ],
-      "Name": "Stiedemann, Ferry and Wyman",
+      "Name": "Lindgren, Harber and King",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 657
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 696,
-      "ContactName": "Hegmann-Beier",
-      "PersonId": 739,
-      "PersonName": "Mann-Heaney",
-      "AssociateId": 610,
-      "Address": "omnis",
-      "EmailId": 430,
+      "ContactId": 823,
+      "ContactName": "Koepp LLC",
+      "PersonId": 131,
+      "PersonName": "Bogisich Inc and Sons",
+      "AssociateId": 201,
+      "Address": "iste",
+      "EmailId": 158,
       "DuplicatePersonIds": [
-        352,
-        353
+        303,
+        960
       ],
-      "Name": "Pollich LLC",
+      "Name": "Braun LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 103
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "sed",
+  "Subject": "id",
+  "HTMLBody": "dolorem",
   "From": null,
-  "Sent": "2019-05-10T04:22:26.686607+02:00",
-  "Size": 53,
+  "Sent": "2011-12-06T13:28:22.6479526+01:00",
+  "Size": 367,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sunt",
-  "PlainBody": "omnis",
-  "IsSent": false,
+  "MessageID": "praesentium",
+  "PlainBody": "tenetur",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 517,
+  "ServerId": 979,
   "Attachments": [
     {
-      "Description": "User-friendly cohesive definition",
-      "Filename": "porro",
-      "Size": 263,
-      "Type": "nobis",
-      "Encoding": "ut",
-      "Id": "maxime",
-      "Disposition": "sunt",
-      "IsSafeFileExtension": false,
+      "Description": "Diverse modular instruction set",
+      "Filename": "dolores",
+      "Size": 895,
+      "Type": "corporis",
+      "Encoding": "et",
+      "Id": "iure",
+      "Disposition": "officia",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 857
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hudson-Ritchie",
+      "Name": "Dietrich-Torp",
       "Values": [
-        "est",
-        "explicabo"
+        "magni",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 168
         }
       }
     },
     {
-      "Name": "Hudson-Ritchie",
+      "Name": "Dietrich-Torp",
       "Values": [
-        "est",
-        "explicabo"
+        "magni",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 168
         }
       }
     }
   ],
-  "FolderName": "Kutch-Mills",
-  "EmailItemId": 503,
-  "AccountId": 225,
-  "ReceivedAt": "2023-03-24T04:22:26.686607+01:00",
+  "FolderName": "Cartwright-Dach",
+  "EmailItemId": 883,
+  "AccountId": 199,
+  "ReceivedAt": "2023-07-17T13:28:22.6479526+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-01-08T04:22:26.686607+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2023-12-09T13:28:22.6479526+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

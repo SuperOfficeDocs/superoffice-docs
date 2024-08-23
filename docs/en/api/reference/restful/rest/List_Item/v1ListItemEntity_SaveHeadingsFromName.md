@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 57,
-    "Name": "Leffler, Reichert and Padberg",
-    "Tooltip": "repellendus",
+    "HeadingId": 315,
+    "Name": "Grimes-Cruickshank",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 574,
-    "UdListDefinitionId": 223
+    "Rank": 924,
+    "UdListDefinitionId": 127
   },
   {
-    "HeadingId": 57,
-    "Name": "Leffler, Reichert and Padberg",
-    "Tooltip": "repellendus",
+    "HeadingId": 315,
+    "Name": "Grimes-Cruickshank",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 574,
-    "UdListDefinitionId": 223
+    "Rank": 924,
+    "UdListDefinitionId": 127
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 512,
-    "Name": "Johns, Pouros and Graham",
-    "Tooltip": "hic",
+    "HeadingId": 47,
+    "Name": "Welch LLC",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 437,
+    "Rank": 357,
+    "UdListDefinitionId": 39,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

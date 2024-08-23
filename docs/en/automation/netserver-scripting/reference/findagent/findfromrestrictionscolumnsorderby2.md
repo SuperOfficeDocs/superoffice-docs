@@ -2,10 +2,10 @@
 uid: findagent-findfromrestrictionscolumnsorderby2
 title: FindAgent.FindFromRestrictionsColumnsOrderBy2 event method
 description: Scripting events called on the FindFromRestrictionsColumnsOrderBy2 method on the FindAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FindAgent.FindFromRestrictionsColumnsOrderBy2
 

@@ -2,10 +2,10 @@
 uid: useragent-getuserfromname
 title: UserAgent.GetUserFromName event method
 description: Scripting events called on the GetUserFromName method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.GetUserFromName
 

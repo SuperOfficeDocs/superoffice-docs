@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 248,
-  "Name": "Donnelly Group",
-  "Tooltip": "earum",
-  "Rank": 899,
+  "SaleTypeId": 336,
+  "Name": "Gibson Inc and Sons",
+  "Tooltip": "labore",
+  "Rank": 564,
   "DurationUnit": "Century",
-  "SaleDuration": 677,
-  "SaleTypeCatId": 69,
+  "SaleDuration": 255,
+  "SaleTypeCatId": 341,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 945,
-  "QuoteLinesTemplate": 368,
-  "ConfirmationLinesTemplate": 290,
-  "MaxDiscountPercentSet": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 39,
+  "QuoteLinesTemplate": 72,
+  "ConfirmationLinesTemplate": 126,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 850,
-  "MinEarningPercent": 225,
-  "GroupQuoteLinesBy": 943,
-  "SortGroupLinesBy": 179,
+  "MaxDiscountPercent": 296,
+  "MinEarningPercent": 601,
+  "GroupQuoteLinesBy": 854,
+  "SortGroupLinesBy": 498,
   "Stages": [
     {
-      "Id": 488,
-      "Name": "Walter, Nader and Schulist",
-      "ToolTip": "Quo aut in debitis.",
-      "Deleted": true,
-      "Rank": 385,
-      "Type": "maiores",
-      "ColorBlock": 400,
-      "IconHint": "est",
-      "Selected": true,
-      "LastChanged": "2012-12-06T04:22:36.1903389+01:00",
+      "Id": 907,
+      "Name": "Pfannerstill, Kohler and Collier",
+      "ToolTip": "Quis omnis repudiandae.",
+      "Deleted": false,
+      "Rank": 999,
+      "Type": "mollitia",
+      "ColorBlock": 114,
+      "IconHint": "quia",
+      "Selected": false,
+      "LastChanged": "2002-07-12T13:28:33.1482054+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quasi",
-      "StyleHint": "et",
+      "ExtraInfo": "aut",
+      "StyleHint": "aliquam",
       "Hidden": true,
-      "FullName": "Dr. Sunny Gloria Stark",
+      "FullName": "Carmella Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 361
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

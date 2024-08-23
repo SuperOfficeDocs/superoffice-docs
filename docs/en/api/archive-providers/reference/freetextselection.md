@@ -3,9 +3,9 @@ uid: FreetextSelection
 title: FreetextSelection
 description: Archive provider for freetext search on the Selection entity.
 keywords: FreetextSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextSelection"
@@ -96,7 +96,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=selectionId,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/FreetextSelection?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

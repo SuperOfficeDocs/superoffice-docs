@@ -3,9 +3,9 @@ uid: ForeignKeys
 title: ForeignKeys
 description: Archive of Foreign Keys - used by the web api and partners.
 keywords: ForeignKeys archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ForeignKeys"
@@ -46,7 +46,7 @@ Lists all foreign apps, and outer joins any devices + keys associated with the a
 ## Sample
 
 ```http!
-GET /api/v1/archive/ForeignKeys?$select=deviceIdentifier,deviceLastSyncTrans
+GET /api/v1/archive/ForeignKeys?$select=appId,deviceIdentifier,deviceLastSyncTrans
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

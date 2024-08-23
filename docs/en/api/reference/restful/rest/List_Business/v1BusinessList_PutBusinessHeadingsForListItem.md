@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Schowalter, Walsh and Johnston",
-    "ToolTip": "Doloremque repellendus et.",
+    "Id": 719,
+    "Name": "Koelpin-Howe",
+    "ToolTip": "Eaque repellat.",
     "Deleted": false,
-    "Rank": 961,
-    "Type": "recusandae",
-    "ColorBlock": 328,
-    "IconHint": "est",
+    "Rank": 359,
+    "Type": "suscipit",
+    "ColorBlock": 994,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2017-08-14T04:22:35.8153337+02:00",
+    "LastChanged": "2013-07-08T13:28:32.679146+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Nolan-Stanton",
-        "ToolTip": "Ratione minima et consequuntur officiis.",
+        "Id": 125,
+        "Name": "Spencer Inc and Sons",
+        "ToolTip": "Earum voluptatem dicta dignissimos iusto ex.",
         "Deleted": false,
-        "Rank": 313,
-        "Type": "quisquam",
-        "ColorBlock": 134,
-        "IconHint": "corrupti",
+        "Rank": 142,
+        "Type": "fuga",
+        "ColorBlock": 867,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2016-03-29T04:22:35.8153337+02:00",
+        "LastChanged": "2019-02-01T13:28:32.679146+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "ex",
+        "ExtraInfo": "veniam",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Miss Afton Orlo Fadel"
+        "FullName": "Gwendolyn Aiden O'Reilly Sr."
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "aut",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Betsy Gaylord"
+    "FullName": "Janis Yesenia Herman MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Cummerata LLC",
-    "ToolTip": "Non autem laborum assumenda rerum.",
+    "Id": 950,
+    "Name": "Huels, Morar and Langworth",
+    "ToolTip": "A quia molestiae ut.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "ipsum",
-    "ColorBlock": 807,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2021-08-27T04:22:35.8153337+02:00",
+    "Rank": 920,
+    "Type": "quae",
+    "ColorBlock": 182,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2019-08-28T13:28:32.679146+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Hagenes Inc and Sons",
-        "ToolTip": "Aspernatur quod quis aut earum.",
-        "Deleted": true,
-        "Rank": 115,
-        "Type": "aut",
-        "ColorBlock": 439,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2009-06-28T04:22:35.8153337+02:00",
+        "Id": 846,
+        "Name": "Grimes-Dooley",
+        "ToolTip": "Tenetur labore qui.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "cum",
+        "ColorBlock": 868,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2013-07-17T13:28:32.679146+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "unde",
+        "ExtraInfo": "nobis",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Edwin Bogan",
+        "FullName": "Emerald Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "rem",
+    "ExtraInfo": "ad",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Niko Mante",
+    "FullName": "Miss Armand Mayer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

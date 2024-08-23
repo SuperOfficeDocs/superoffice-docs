@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 373,
-  "Section": "et",
-  "Key": "corrupti",
-  "Name": "Jones, Collier and Torphy",
+  "PrefDescId": 633,
+  "Section": "magnam",
+  "Key": "veritatis",
+  "Name": "Durgan Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned impactful standardization",
+  "Description": "Balanced national secured line",
   "IsBuiltin": false,
-  "TableName": "McLaughlin, Rutherford and Walter",
-  "UserDefinedListId": 923,
-  "Rank": 205,
-  "SubGroup": "sed",
-  "MinLevel": 164,
-  "MaxValue": 708,
-  "MinValue": 38,
-  "RequiredLicense": "iusto"
+  "TableName": "Parisian-Considine",
+  "UserDefinedListId": 495,
+  "Rank": 601,
+  "SubGroup": "magni",
+  "MinLevel": 820,
+  "MaxValue": 537,
+  "MinValue": 15,
+  "RequiredLicense": "qui"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 294,
-  "Section": "vel",
-  "Key": "et",
-  "Name": "Watsica-Donnelly",
+  "PrefDescId": 727,
+  "Section": "ipsum",
+  "Key": "aut",
+  "Name": "Huels Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Monitored static definition",
-  "IsBuiltin": false,
-  "TableName": "Dare Group",
-  "UserDefinedListId": 606,
-  "Rank": 88,
-  "SubGroup": "laboriosam",
-  "MinLevel": 206,
-  "MaxValue": 242,
-  "MinValue": 316,
-  "RequiredLicense": "et",
+  "Description": "Ergonomic system-worthy policy",
+  "IsBuiltin": true,
+  "TableName": "Deckow LLC",
+  "UserDefinedListId": 59,
+  "Rank": 73,
+  "SubGroup": "inventore",
+  "MinLevel": 275,
+  "MaxValue": 493,
+  "MinValue": 474,
+  "RequiredLicense": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   },
   "_Links": {

@@ -3,9 +3,9 @@ uid: MailingsSelectionCombinedV2
 title: MailingsSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: MailingsSelectionCombinedV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "MailingsSelectionCombinedV2"
@@ -596,7 +596,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/person/restrictionAddress/wgs84latitude,mailingAddr/person/personUdef/SuperOffice:10,mailingAddr/person/personAssociate/middleName
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingSelectionId,mailingAddr/contact/category,mailingAddr/contact/contactAssociate/mrMrs,mailingAddr/contact/NumberOfActivities,mailingAddr/contact/LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

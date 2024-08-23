@@ -2,10 +2,10 @@
 uid: sentryagent-hasfunctionright
 title: SentryAgent.HasFunctionRight event method
 description: Scripting events called on the HasFunctionRight method on the SentryAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SentryAgent.HasFunctionRight
 

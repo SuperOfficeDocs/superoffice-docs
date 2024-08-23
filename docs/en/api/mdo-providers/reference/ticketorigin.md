@@ -3,9 +3,9 @@ uid: ticketorigin
 title: ticketorigin
 keywords: mdoprovider mdo provider ticketorigin
 description: Ticket Origin
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ticketorigin" MDO List

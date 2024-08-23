@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Klocko-Jacobi",
-    "ToolTip": "Inventore veniam voluptatibus modi qui.",
-    "Deleted": false,
-    "Rank": 766,
-    "Type": "placeat",
-    "ColorBlock": 322,
-    "IconHint": "dolor",
+    "Id": 731,
+    "Name": "Lesch LLC",
+    "ToolTip": "Quis libero quo totam animi consequuntur.",
+    "Deleted": true,
+    "Rank": 151,
+    "Type": "expedita",
+    "ColorBlock": 182,
+    "IconHint": "excepturi",
     "Selected": true,
-    "LastChanged": "2023-08-05T04:22:36.0497173+02:00",
+    "LastChanged": "2012-11-29T13:28:32.9603316+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Dietrich Group",
-        "ToolTip": "Est commodi et iste.",
+        "Id": 447,
+        "Name": "Larson-Kozey",
+        "ToolTip": "Dolores dicta ducimus.",
         "Deleted": false,
-        "Rank": 867,
-        "Type": "tempora",
-        "ColorBlock": 324,
-        "IconHint": "qui",
+        "Rank": 281,
+        "Type": "maxime",
+        "ColorBlock": 419,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2005-09-15T04:22:36.0497173+02:00",
+        "LastChanged": "2014-12-11T13:28:32.9603316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
+        "ExtraInfo": "voluptatem",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Raegan Cecelia O'Conner"
+        "Hidden": false,
+        "FullName": "Lavinia Barrows"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Carolyn Willms"
+    "ExtraInfo": "ut",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Armani Beahan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Kunze-Spencer",
-    "ToolTip": "Deleniti dolore aliquam amet.",
+    "Id": 340,
+    "Name": "Hermiston LLC",
+    "ToolTip": "Odio aliquid officiis.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "optio",
-    "ColorBlock": 316,
-    "IconHint": "rem",
+    "Rank": 367,
+    "Type": "nostrum",
+    "ColorBlock": 180,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2016-01-16T04:22:36.0497173+01:00",
+    "LastChanged": "2001-12-06T13:28:32.9603316+01:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Bergnaum LLC",
-        "ToolTip": "Est voluptatem aut ut ad saepe.",
-        "Deleted": false,
-        "Rank": 930,
-        "Type": "molestiae",
-        "ColorBlock": 915,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2018-11-05T04:22:36.0497173+01:00",
+        "Id": 218,
+        "Name": "Harris-Mraz",
+        "ToolTip": "Maxime quos consequatur.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "nemo",
+        "ColorBlock": 507,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "1999-03-10T13:28:32.9603316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Mellie Graham IV",
+        "ExtraInfo": "rerum",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Carson Jarod Collins III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "magnam",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Savannah Nikolaus",
+    "FullName": "King Casper IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 109
       }
     }
   }

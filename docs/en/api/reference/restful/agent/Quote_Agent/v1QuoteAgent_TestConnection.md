@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Mayer-Walker",
+  "ConnectorName": "Hand, Stokes and Kuhn",
   "ConnectionData": {
-    "ConnectionData1": "omnis",
-    "ConnectionData2": "repudiandae"
+    "ConnectionData1": "officiis",
+    "ConnectionData2": "quaerat"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "est",
-  "TechExplanation": "autem",
-  "ErrorCode": "iure",
+  "UserExplanation": "maxime",
+  "TechExplanation": "consectetur",
+  "ErrorCode": "itaque",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 923
     }
   }
 }

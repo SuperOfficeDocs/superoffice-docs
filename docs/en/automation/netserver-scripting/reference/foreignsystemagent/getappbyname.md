@@ -2,10 +2,10 @@
 uid: foreignsystemagent-getappbyname
 title: ForeignSystemAgent.GetAppByName event method
 description: Scripting events called on the GetAppByName method on the ForeignSystemAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ForeignSystemAgent.GetAppByName
 

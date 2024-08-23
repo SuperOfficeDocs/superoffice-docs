@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=575
+GET /api/v1/Contact/{contactId}/Summary?limit=808
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 92,
-      "TicketStatus": 711,
-      "Title": "quae",
-      "Registered": "2001-07-31T04:22:34.8433753+02:00",
-      "IconHint": "ea"
+      "TicketId": 491,
+      "TicketStatus": 228,
+      "Title": "magni",
+      "Registered": "2003-09-07T13:28:31.5074055+02:00",
+      "IconHint": "dolorem"
     },
     {
-      "TicketId": 92,
-      "TicketStatus": 711,
-      "Title": "quae",
-      "Registered": "2001-07-31T04:22:34.8433753+02:00",
-      "IconHint": "ea"
+      "TicketId": 491,
+      "TicketStatus": 228,
+      "Title": "magni",
+      "Registered": "2003-09-07T13:28:31.5074055+02:00",
+      "IconHint": "dolorem"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 280,
-      "DocumentId": 492,
-      "Date": "2024-01-16T04:22:34.8433753+01:00",
-      "Description": "Multi-lateral value-added interface",
+      "AppointmentId": 627,
+      "DocumentId": 502,
+      "Date": "2003-11-22T13:28:31.5074055+01:00",
+      "Description": "Total composite database",
       "Completed": "Completed",
-      "Registered": "2007-10-09T04:22:34.8433753+02:00"
+      "Registered": "2007-07-03T13:28:31.5074055+02:00"
     },
     {
-      "AppointmentId": 280,
-      "DocumentId": 492,
-      "Date": "2024-01-16T04:22:34.8433753+01:00",
-      "Description": "Multi-lateral value-added interface",
+      "AppointmentId": 627,
+      "DocumentId": 502,
+      "Date": "2003-11-22T13:28:31.5074055+01:00",
+      "Description": "Total composite database",
       "Completed": "Completed",
-      "Registered": "2007-10-09T04:22:34.8433753+02:00"
+      "Registered": "2007-07-03T13:28:31.5074055+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 912,
-      "DocumentId": 6,
-      "Date": "2002-06-08T04:22:34.8433753+02:00",
-      "Description": "Diverse secondary instruction set",
+      "AppointmentId": 534,
+      "DocumentId": 229,
+      "Date": "2001-11-06T13:28:31.5074055+01:00",
+      "Description": "User-friendly exuding success",
       "Completed": "Completed",
-      "Registered": "1999-03-14T04:22:34.8433753+01:00"
+      "Registered": "2015-03-01T13:28:31.5074055+01:00"
     },
     {
-      "AppointmentId": 912,
-      "DocumentId": 6,
-      "Date": "2002-06-08T04:22:34.8433753+02:00",
-      "Description": "Diverse secondary instruction set",
+      "AppointmentId": 534,
+      "DocumentId": 229,
+      "Date": "2001-11-06T13:28:31.5074055+01:00",
+      "Description": "User-friendly exuding success",
       "Completed": "Completed",
-      "Registered": "1999-03-14T04:22:34.8433753+01:00"
+      "Registered": "2015-03-01T13:28:31.5074055+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 450,
-      "SaleDate": "2000-10-02T04:22:34.8433753+02:00",
-      "Probability": 342,
-      "Heading": "voluptatem",
-      "Amount": 10163.562,
-      "Currency": "possimus",
-      "AmountInBaseCurrency": 26980.606,
+      "SaleId": 103,
+      "SaleDate": "2000-02-19T13:28:31.5074055+01:00",
+      "Probability": 357,
+      "Heading": "qui",
+      "Amount": 23937.492,
+      "Currency": "quo",
+      "AmountInBaseCurrency": 28795.192,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2003-11-29T04:22:34.8433753+01:00"
+      "Registered": "2008-11-17T13:28:31.5074055+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 14,
-      "Name": "Bergnaum LLC",
-      "CompanyName": "Smith Group",
-      "FirstMessage": "dolorem",
-      "LastMessage": "dolores",
-      "WhenRequested": "2012-07-04T04:22:34.8433753+02:00",
-      "WhenEnded": "2019-11-29T04:22:34.8433753+01:00"
+      "ChatSessionId": 438,
+      "Name": "Zemlak LLC",
+      "CompanyName": "Wilderman, Senger and Bahringer",
+      "FirstMessage": "accusamus",
+      "LastMessage": "et",
+      "WhenRequested": "2017-06-06T13:28:31.5074055+02:00",
+      "WhenEnded": "2021-04-12T13:28:31.5074055+02:00"
     }
   ]
 }

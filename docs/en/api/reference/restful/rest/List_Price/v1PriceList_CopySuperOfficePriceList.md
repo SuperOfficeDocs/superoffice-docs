@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=10/27/2018 04:22:38
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/21/2000 04:22:38
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=897
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=01/17/2000 13:28:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/07/2010 13:28:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=357
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 592,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 399,
-  "Name": "Hermiston LLC",
-  "Description": "Extended intangible time-frame",
-  "Currency": "nihil",
-  "CurrencyName": "Rath-D'Amore",
-  "ValidFrom": "2014-01-18T04:22:36.0340897+01:00",
-  "ValidTo": "2000-10-19T04:22:36.0340897+02:00",
+  "PriceListId": 115,
+  "ERPPriceListKey": "quod",
+  "QuoteConnectionId": 987,
+  "Name": "Emard-Baumbach",
+  "Description": "Down-sized mobile parallelism",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Anderson LLC",
+  "ValidFrom": "2014-06-09T13:28:32.9447127+02:00",
+  "ValidTo": "2010-07-02T13:28:32.9447127+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 517
     }
   }
 }

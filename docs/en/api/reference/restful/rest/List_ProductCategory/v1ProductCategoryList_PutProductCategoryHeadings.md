@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 209,
-    "Name": "Torp Group",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 310,
-    "UdListDefinitionId": 510
+    "HeadingId": 523,
+    "Name": "O'Conner, Kirlin and Kihn",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 575,
+    "UdListDefinitionId": 858
   },
   {
-    "HeadingId": 209,
-    "Name": "Torp Group",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 310,
-    "UdListDefinitionId": 510
+    "HeadingId": 523,
+    "Name": "O'Conner, Kirlin and Kihn",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 575,
+    "UdListDefinitionId": 858
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 756,
-    "Name": "DuBuque Inc and Sons",
-    "Tooltip": "distinctio",
+    "HeadingId": 795,
+    "Name": "Pouros LLC",
+    "Tooltip": "error",
     "Deleted": true,
-    "Rank": 128,
-    "UdListDefinitionId": 535,
+    "Rank": 153,
+    "UdListDefinitionId": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldType": "System.Int32",
+        "FieldLength": 47
       }
     }
   }

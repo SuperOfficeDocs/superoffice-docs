@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Nolan, Hahn and Powlowski"
+  "LayoutName": "Pfannerstill-Greenfelder"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 299,
-    "Name": "Brown Inc and Sons",
-    "Value": "officia",
-    "CreatedDate": "2009-04-19T04:22:25.9965968+02:00",
-    "UpdatedDate": "2021-05-20T04:22:25.9965968+02:00",
-    "CreatedBy": "dolorem",
-    "UpdatedBy": "placeat",
+    "AudienceLayoutId": 230,
+    "Name": "Pfannerstill-McDermott",
+    "Value": "velit",
+    "CreatedDate": "2014-10-14T13:28:21.8356378+02:00",
+    "UpdatedDate": "2002-07-27T13:28:21.8356378+02:00",
+    "CreatedBy": "quia",
+    "UpdatedBy": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 290
       }
     }
   }

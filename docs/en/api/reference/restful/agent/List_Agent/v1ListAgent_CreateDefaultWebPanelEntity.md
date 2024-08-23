@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 509,
-  "Name": "Roob LLC",
-  "Tooltip": "non",
+  "WebPanelId": 572,
+  "Name": "Reichert Inc and Sons",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 559,
+  "Rank": 692,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Vandervort, Tillman and Adams",
+  "WindowName": "Rolfson LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "quae",
-  "Icon": 464,
+  "ProgId": "eius",
+  "Icon": 772,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

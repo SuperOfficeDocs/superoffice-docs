@@ -3,9 +3,9 @@ uid: contint
 title: contint
 keywords: mdoprovider mdo provider contint
 description: GenericMDOProvider reads MDO lists with default settings
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "contint" MDO List

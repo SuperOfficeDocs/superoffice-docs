@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Apr 2008 04:22:34 G4T
+Last-Modified: Sun, 15 Oct 2017 13:28:31 G10T
 
 {
-  "DocumentId": 814,
+  "DocumentId": 199,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quisquam",
-  "Header": "aut",
-  "Name": "Kuhn LLC",
-  "OurRef": "aut",
-  "YourRef": "eveniet",
-  "CreatedDate": "2018-04-26T04:22:34.874625+02:00",
-  "UpdatedDate": "2008-04-05T04:22:34.874625+02:00",
-  "Description": "Integrated object-oriented infrastructure",
+  "Attention": "aliquid",
+  "Header": "fugiat",
+  "Name": "Hodkiewicz, McKenzie and Crona",
+  "OurRef": "voluptatem",
+  "YourRef": "sapiente",
+  "CreatedDate": "2014-02-04T13:28:31.5542696+01:00",
+  "UpdatedDate": "2017-10-15T13:28:31.5542696+02:00",
+  "Description": "Reverse-engineered stable structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-08-21T04:22:34.8902526+02:00",
-  "ExternalRef": "aut",
+  "Date": "2020-01-15T13:28:31.5698925+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 145,
+  "ActiveLinks": 143,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bode-Bayer",
-      "Id": 742,
-      "Description": "Advanced methodical utilisation",
-      "ExtraInfo": "officia",
-      "LinkId": 827,
+      "EntityName": "Mitchell, Williamson and Metz",
+      "Id": 63,
+      "Description": "Up-sized contextually-based open architecture",
+      "ExtraInfo": "dolorum",
+      "LinkId": 255,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldType": "System.String",
+          "FieldLength": 795
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 408,
-  "Snum": 318,
+  "SuggestedDocumentId": 317,
+  "Snum": 270,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Enid Louvenia Kunze DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "453250102",
+    "SuperOffice:2": "1208356814"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "ad"
+    "CustomFields1": "minima",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2008-04-21T04:22:34.8902526+02:00",
-  "PublishTo": "2010-11-10T04:22:34.8902526+01:00",
-  "PublishFrom": "2011-10-14T04:22:34.8902526+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-02-25T13:28:31.5698925+01:00",
+  "PublishTo": "2011-12-06T13:28:31.5698925+01:00",
+  "PublishFrom": "2008-04-09T13:28:31.5698925+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 561,
+      "VisibleId": 828,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 720
         }
       }
     },
     {
-      "VisibleId": 561,
+      "VisibleId": 828,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 720
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sat, 05 Apr 2008 04:22:34 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 992
     }
   }
 }

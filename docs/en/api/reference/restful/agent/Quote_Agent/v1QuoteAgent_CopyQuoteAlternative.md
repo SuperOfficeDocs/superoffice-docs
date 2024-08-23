@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 352,
-  "QuoteAlternativeId": 544,
-  "QuoteAlternativeName": "Ondricka-Welch"
+  "QuoteVersionId": 88,
+  "QuoteAlternativeId": 607,
+  "QuoteAlternativeName": "Bergstrom-Lesch"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 197,
-  "ERPQuoteAlternativeKey": "autem",
-  "QuoteVersionId": 25,
-  "Name": "Yundt-Collier",
-  "Description": "Pre-emptive full-range paradigm",
+  "QuoteAlternativeId": 704,
+  "ERPQuoteAlternativeKey": "natus",
+  "QuoteVersionId": 791,
+  "Name": "Becker Inc and Sons",
+  "Description": "Managed eco-centric middleware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11138.235999999999,
-  "ERPDiscountAmount": 24156.872,
-  "DiscountPercent": 3137.134,
-  "DiscountAmount": 5895.054,
+  "ERPDiscountPercent": 11940.539999999999,
+  "ERPDiscountAmount": 23580.216,
+  "DiscountPercent": 26237.847999999998,
+  "DiscountAmount": 5193.038,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "vero",
-  "VAT": 14413.266,
-  "EarningPercent": 4365.662,
-  "EarningAmount": 26476.032,
-  "SubTotal": 20631.122,
-  "TotalPrice": 7123.5819999999994,
-  "ExtraField1": "accusamus",
-  "ExtraField2": "non",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "est",
-  "ExtraField5": "consectetur",
+  "VATInfo": "eveniet",
+  "VAT": 11313.74,
+  "EarningPercent": 19399.46,
+  "EarningAmount": 6734.9659999999994,
+  "SubTotal": 24836.95,
+  "TotalPrice": 25394.802,
+  "ExtraField1": "perferendis",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "a",
+  "ExtraField4": "vel",
+  "ExtraField5": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

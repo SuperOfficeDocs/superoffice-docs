@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Graham-Grady",
-  "Tooltip": "pariatur",
+  "Id": 702,
+  "Name": "Gutmann Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 996,
+  "Rank": 426,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
-  "InUseByUserDefinedFields": false
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 994,
-  "Name": "Crist Group",
-  "Tooltip": "culpa",
+  "Id": 880,
+  "Name": "Hermiston Group",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 112,
-  "IsCustomList": false,
+  "Rank": 305,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

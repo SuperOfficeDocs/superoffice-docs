@@ -3,9 +3,9 @@ uid: shipmenttype
 title: shipmenttype
 keywords: mdoprovider mdo provider shipmenttype
 description: MDO list provider for ConsentPurpose
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "shipmenttype" MDO List

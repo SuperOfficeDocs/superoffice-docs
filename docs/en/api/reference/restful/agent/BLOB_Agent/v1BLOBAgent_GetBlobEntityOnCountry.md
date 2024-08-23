@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 136
+  "CountryId": 756
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 221,
-  "BlobSize": 624,
-  "Description": "Persevering empowering model",
-  "ExtraInfo": "fuga",
+  "BlobId": 76,
+  "BlobSize": 276,
+  "Description": "Robust holistic infrastructure",
+  "ExtraInfo": "repudiandae",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "distinctio",
-  "OriginalSize": 376,
-  "CreatedDate": "2010-03-16T04:22:26.0278466+01:00",
-  "UpdatedDate": "2012-01-07T04:22:26.0278466+01:00",
+  "MimeType": "quis",
+  "OriginalSize": 544,
+  "CreatedDate": "2008-04-12T13:28:21.8668811+02:00",
+  "UpdatedDate": "2004-01-06T13:28:21.8668811+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

@@ -139,26 +139,26 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 576,
-  "Name": "Cummerata Inc and Sons",
-  "Description": "Function-based modular Graphic Interface",
-  "WelcomeMessage": "a",
+  "ChatTopicId": 597,
+  "Name": "Berge, Borer and Senger",
+  "Description": "Robust attitude-oriented conglomeration",
+  "WelcomeMessage": "quibusdam",
   "Language": null,
-  "LastAccept": "2018-04-18T04:22:34.7183767+02:00",
-  "SecondsPrAccept": 203,
-  "AlertRecipient": "odit",
+  "LastAccept": "2018-06-25T13:28:31.3668129+02:00",
+  "SecondsPrAccept": 474,
+  "AlertRecipient": "eum",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "ut",
+  "BadgeHeader": "in",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "veniam",
-  "WarnNewChatMinutes": 826,
-  "WarnManagerNewChatMinutes": 765,
-  "TicketEnabled": true,
+  "CustomQueueText": "molestias",
+  "WarnNewChatMinutes": 708,
+  "WarnManagerNewChatMinutes": 596,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 658,
-  "WarnManagerChatMessageMinutes": 371,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 150,
-  "OfflineFormQueueLength": 764,
+  "WarnChatMessageMinutes": 296,
+  "WarnManagerChatMessageMinutes": 704,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 656,
+  "OfflineFormQueueLength": 541,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "voluptate"
+  "WidgetRatingText": "et"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 409,
-  "Name": "Turcotte, Upton and Gottlieb",
-  "Description": "Compatible executive service-desk",
-  "WelcomeMessage": "doloribus",
+  "ChatTopicId": 643,
+  "Name": "Jenkins-Kessler",
+  "Description": "Devolved leading edge algorithm",
+  "WelcomeMessage": "itaque",
   "Language": null,
-  "LastAccept": "2005-06-15T04:22:34.7183767+02:00",
-  "SecondsPrAccept": 127,
-  "AlertRecipient": "iure",
+  "LastAccept": "2015-03-21T13:28:31.3668129+01:00",
+  "SecondsPrAccept": 323,
+  "AlertRecipient": "mollitia",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "perspiciatis",
-  "WarnNewChatMinutes": 82,
-  "WarnManagerNewChatMinutes": 562,
+  "BadgeHeader": "suscipit",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "maiores",
+  "WarnNewChatMinutes": 815,
+  "WarnManagerNewChatMinutes": 47,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 556,
-  "WarnManagerChatMessageMinutes": 460,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 984,
-  "OfflineFormQueueLength": 443,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 9,
+  "WarnManagerChatMessageMinutes": 206,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 477,
+  "OfflineFormQueueLength": 376,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "odio",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 299
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -3,9 +3,9 @@ uid: SaleSelectionCombined
 title: SaleSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: SaleSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleSelectionCombined"
@@ -1307,7 +1307,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombined?$select=contact/country,contact/stop,contact/updatedBy,contact/contactAssociate/contactId,contact/contactAssociate/contactDepartment
+GET /api/v1/archive/SaleSelectionCombined?$select=person/personAssociate/userName,person/correspondingAssociate/associateDbId,person/correspondingAssociate/credentialDisplayValue,contact/associateId,contact/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,10 +2,10 @@
 uid: selectionagent-deletecontacts
 title: SelectionAgent.DeleteContacts event method
 description: Scripting events called on the DeleteContacts method on the SelectionAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SelectionAgent.DeleteContacts
 

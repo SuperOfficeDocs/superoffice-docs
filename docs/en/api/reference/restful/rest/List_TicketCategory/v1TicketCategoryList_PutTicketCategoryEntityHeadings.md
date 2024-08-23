@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Wehner Group",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 453,
-    "UdListDefinitionId": 538
+    "HeadingId": 458,
+    "Name": "O'Hara LLC",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 973,
+    "UdListDefinitionId": 717
   },
   {
-    "HeadingId": 126,
-    "Name": "Wehner Group",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 453,
-    "UdListDefinitionId": 538
+    "HeadingId": 458,
+    "Name": "O'Hara LLC",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 973,
+    "UdListDefinitionId": 717
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 293,
-    "Name": "Johnson Inc and Sons",
-    "Tooltip": "consequuntur",
+    "HeadingId": 782,
+    "Name": "Pollich-Hartmann",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 699,
-    "UdListDefinitionId": 245,
+    "Rank": 500,
+    "UdListDefinitionId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldLength": 89
       }
     }
   }

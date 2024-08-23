@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 747,
-  "PrefDescId": 845,
-  "PrefValue": "voluptas",
-  "PrefShowValue": "vel",
-  "Description": "Total stable workforce",
-  "IsBuiltin": false
+  "PrefDescLineId": 603,
+  "PrefDescId": 820,
+  "PrefValue": "doloremque",
+  "PrefShowValue": "incidunt",
+  "Description": "Customizable fresh-thinking implementation",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 761,
-  "PrefDescId": 251,
-  "PrefValue": "exercitationem",
-  "PrefShowValue": "exercitationem",
-  "Description": "Object-based neutral open system",
-  "IsBuiltin": false,
+  "PrefDescLineId": 988,
+  "PrefDescId": 761,
+  "PrefValue": "vel",
+  "PrefShowValue": "quo",
+  "Description": "Polarised zero tolerance success",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

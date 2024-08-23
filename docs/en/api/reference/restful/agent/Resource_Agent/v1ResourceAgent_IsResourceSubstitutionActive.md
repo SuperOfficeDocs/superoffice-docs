@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Herman Inc and Sons",
-    "Stoltenberg, Treutel and Weber"
+    "Pouros, Mills and Anderson",
+    "Larkin, Gutmann and Rath"
   ],
-  "Culture": "consequatur"
+  "Culture": "officia"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Hahn, Bailey and Predovic",
-    "ResourceValue": "culpa",
-    "Culture": "et",
+    "ResourceName": "Mante, Hartmann and Orn",
+    "ResourceValue": "non",
+    "Culture": "reiciendis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 299
       }
     }
   },
   {
-    "ResourceName": "Hahn, Bailey and Predovic",
-    "ResourceValue": "culpa",
-    "Culture": "et",
+    "ResourceName": "Mante, Hartmann and Orn",
+    "ResourceValue": "non",
+    "Culture": "reiciendis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 299
       }
     }
   }

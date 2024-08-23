@@ -2,10 +2,10 @@
 uid: bulkupdateagent-removestoredfields
 title: BulkUpdateAgent.RemoveStoredFields event method
 description: Scripting events called on the RemoveStoredFields method on the BulkUpdateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BulkUpdateAgent.RemoveStoredFields
 

@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    996,
-    511
+    497,
+    996
   ]
 }
 ```
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 279,
+    "AttachmentId": 137,
     "IsValid": true,
-    "ErrorMessage": "ut"
+    "ErrorMessage": "sequi"
   },
   {
-    "AttachmentId": 279,
+    "AttachmentId": 137,
     "IsValid": true,
-    "ErrorMessage": "ut"
+    "ErrorMessage": "sequi"
   }
 ]
 ```

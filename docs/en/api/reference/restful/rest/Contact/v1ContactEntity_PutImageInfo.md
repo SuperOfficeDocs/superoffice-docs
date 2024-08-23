@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 848,
-  "BlobSize": 771,
-  "Description": "Robust secondary benchmark",
-  "ExtraInfo": "nemo",
-  "IsEncrypted": false,
+  "BlobId": 620,
+  "BlobSize": 471,
+  "Description": "Phased web-enabled groupware",
+  "ExtraInfo": "quae",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "provident",
-  "OriginalSize": 910,
-  "CreatedDate": "1998-07-20T04:22:34.7496337+02:00",
-  "UpdatedDate": "2020-11-07T04:22:34.7496337+01:00",
+  "MimeType": "unde",
+  "OriginalSize": 458,
+  "CreatedDate": "2024-02-23T13:28:31.3980564+01:00",
+  "UpdatedDate": "2013-05-13T13:28:31.3980564+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit"
+  "ConceptualType": "officia"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 286,
-  "BlobSize": 703,
-  "Description": "Open-source even-keeled internet solution",
-  "ExtraInfo": "quisquam",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quisquam",
-  "OriginalSize": 209,
-  "CreatedDate": "2015-08-18T04:22:34.7496337+02:00",
-  "UpdatedDate": "2017-02-16T04:22:34.7496337+01:00",
+  "BlobId": 847,
+  "BlobSize": 628,
+  "Description": "Enhanced bandwidth-monitored secured line",
+  "ExtraInfo": "quod",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 538,
+  "CreatedDate": "2009-07-26T13:28:31.3980564+02:00",
+  "UpdatedDate": "2023-10-04T13:28:31.3980564+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

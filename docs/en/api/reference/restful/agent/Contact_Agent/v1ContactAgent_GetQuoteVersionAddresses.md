@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 942
+  "QuoteVersionId": 43
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 25153.484,
-    "Wgs84Longitude": 9536.7619999999988,
+    "Wgs84Latitude": 5572.2519999999995,
+    "Wgs84Longitude": 3187.278,
     "LocalizedAddress": [
       [
         {
-          "Name": "Jacobs-Hayes",
-          "Value": "qui",
-          "Tooltip": "nisi",
-          "Label": "et",
-          "ValueLength": 859,
-          "AddressType": "sed",
+          "Name": "Zemlak, Stamm and Sauer",
+          "Value": "alias",
+          "Tooltip": "voluptates",
+          "Label": "non",
+          "ValueLength": 914,
+          "AddressType": "adipisci",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 291
+              "FieldType": "System.Int32",
+              "FieldLength": 652
             }
           }
         }
       ],
       [
         {
-          "Name": "Hills, Nader and Ruecker",
-          "Value": "itaque",
-          "Tooltip": "sed",
-          "Label": "amet",
-          "ValueLength": 992,
-          "AddressType": "aspernatur",
+          "Name": "Fadel, Kris and Leannon",
+          "Value": "aut",
+          "Tooltip": "sit",
+          "Label": "beatae",
+          "ValueLength": 109,
+          "AddressType": "pariatur",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 425
+              "FieldType": "System.Int32",
+              "FieldLength": 698
             }
           }
         }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 475
       }
     }
   }

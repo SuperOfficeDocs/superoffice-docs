@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 299,
+  "QuoteConnectionId": 317,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "omnis",
-    "ConnectionConfigFields2": "occaecati"
+    "ConnectionConfigFields1": "ut",
+    "ConnectionConfigFields2": "vel"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "veniam",
-  "2": "itaque"
+  "1": "est",
+  "2": "sint"
 }
 ```

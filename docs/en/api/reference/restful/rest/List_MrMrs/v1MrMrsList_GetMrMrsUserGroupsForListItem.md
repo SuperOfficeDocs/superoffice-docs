@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Berge-Tromp",
-    "ToolTip": "Natus eos dolor mollitia.",
+    "Id": 36,
+    "Name": "Bruen Group",
+    "ToolTip": "Minus sunt et optio.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "aperiam",
-    "ColorBlock": 787,
-    "IconHint": "sit",
+    "Rank": 19,
+    "Type": "excepturi",
+    "ColorBlock": 437,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2021-08-20T04:22:35.9872165+02:00",
+    "LastChanged": "2022-10-08T13:28:32.8822233+02:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Lockman-Bruen",
-        "ToolTip": "Et rerum dolorum et iure numquam ut et.",
+        "Id": 333,
+        "Name": "Stamm-Sauer",
+        "ToolTip": "Explicabo sit voluptates earum rem aperiam et aut.",
         "Deleted": false,
-        "Rank": 294,
-        "Type": "est",
-        "ColorBlock": 196,
-        "IconHint": "impedit",
+        "Rank": 560,
+        "Type": "hic",
+        "ColorBlock": 214,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2020-05-26T04:22:35.9872165+02:00",
+        "LastChanged": "2011-03-21T13:28:32.8822233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Mr. Aiyana Larson DVM",
+        "FullName": "Ms. Nina Mark Spencer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldType": "System.String",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Ms. Arjun Lueilwitz",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Prof. Bell Jonas Cassin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldLength": 438
       }
     }
   }

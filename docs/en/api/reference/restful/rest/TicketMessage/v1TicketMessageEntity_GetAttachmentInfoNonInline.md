@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 378,
-    "Name": "Hyatt-Langworth",
-    "ContentType": "quidem",
-    "AttSize": 99,
+    "AttachmentId": 34,
+    "Name": "Bins-Tromp",
+    "ContentType": "excepturi",
+    "AttSize": 876,
     "InlineImage": false,
-    "ContentId": "eum",
-    "AuthKey": "nesciunt",
+    "ContentId": "quas",
+    "AuthKey": "deserunt",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

@@ -3,9 +3,9 @@ uid: customerlanguage
 title: customerlanguage
 keywords: mdoprovider mdo provider customerlanguage
 description: Customer Languages list. From the CustLang table.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "customerlanguage" MDO List

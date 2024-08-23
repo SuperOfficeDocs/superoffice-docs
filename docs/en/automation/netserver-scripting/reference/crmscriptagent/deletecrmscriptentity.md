@@ -2,10 +2,10 @@
 uid: crmscriptagent-deletecrmscriptentity
 title: CRMScriptAgent.DeleteCRMScriptEntity event method
 description: Scripting events called on the DeleteCRMScriptEntity method on the CRMScriptAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CRMScriptAgent.DeleteCRMScriptEntity
 

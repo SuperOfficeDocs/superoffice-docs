@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "praesentium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "praesentium",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 797,
-  "Name": "Boehm-Cassin",
-  "Config": "quisquam",
-  "Rank": 855,
-  "Client": "sapiente",
-  "Style": "et",
+  "DashboardThemeId": 957,
+  "Name": "McCullough Group",
+  "Config": "aut",
+  "Rank": 58,
+  "Client": "non",
+  "Style": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 328
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

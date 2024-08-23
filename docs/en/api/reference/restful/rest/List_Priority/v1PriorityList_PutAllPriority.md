@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Nienow, Lang and Kunde",
-    "Tooltip": "cum",
+    "Id": 584,
+    "Name": "Gerlach Group",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 607,
-    "Rank": 503
+    "UdListDefinitionId": 930,
+    "Rank": 1001
   },
   {
-    "Id": 380,
-    "Name": "Nienow, Lang and Kunde",
-    "Tooltip": "cum",
+    "Id": 584,
+    "Name": "Gerlach Group",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 607,
-    "Rank": 503
+    "UdListDefinitionId": 930,
+    "Rank": 1001
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Howe, Dooley and Thiel",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "UdListDefinitionId": 560,
-    "Rank": 456,
+    "Id": 453,
+    "Name": "Brown-Quitzon",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "UdListDefinitionId": 943,
+    "Rank": 822,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 578
       }
     }
   }

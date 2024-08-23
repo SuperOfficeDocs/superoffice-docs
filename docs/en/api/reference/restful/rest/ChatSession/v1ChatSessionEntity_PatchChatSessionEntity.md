@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 7,
-  "TopicId": 343,
+  "ChatSessionId": 244,
+  "TopicId": 994,
   "User": null,
   "Person": null,
-  "CustomerAlias": "earum",
-  "CustomerHost": "corrupti",
-  "CustomerName": "Morissette Group",
-  "CustomerEmail": "axel@cassinherzog.info",
-  "CustomerPhone": "1-766-873-9083 x960",
+  "CustomerAlias": "animi",
+  "CustomerHost": "et",
+  "CustomerName": "Bins-McDermott",
+  "CustomerEmail": "jimmie@durgan.us",
+  "CustomerPhone": "927.769.5509 x65997",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Thompson-Romaguera",
+  "CustomerCompanyName": "Kris-Gutkowski",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "dignissimos",
-  "WhenRequested": "2008-07-11T04:22:34.6402549+02:00",
-  "WhenStarted": "2019-04-04T04:22:34.6402549+02:00",
-  "WhenEnded": "2004-02-09T04:22:34.6402549+01:00",
-  "WhenIdle": "2006-11-24T04:22:34.6402549+01:00",
-  "WhenFetched": "2020-06-23T04:22:34.6402549+02:00",
-  "SessionKey": "expedita",
-  "InitialQueuePos": 838,
-  "AlertLevel": 12,
-  "Rank": 14,
+  "FirstMessage": "perferendis",
+  "LastMessage": "quaerat",
+  "WhenRequested": "2024-06-24T13:28:31.2730847+02:00",
+  "WhenStarted": "2008-08-27T13:28:31.2730847+02:00",
+  "WhenEnded": "2018-05-02T13:28:31.2730847+02:00",
+  "WhenIdle": "2016-12-16T13:28:31.2730847+01:00",
+  "WhenFetched": "2004-08-04T13:28:31.2730847+02:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 800,
+  "AlertLevel": 244,
+  "Rank": 318,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 43,
+  "ChatbotIsActive": true,
+  "Rating": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldLength": 781
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

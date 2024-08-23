@@ -2,10 +2,10 @@
 uid: appointmentagent-rejectwithsmtpemailconfirmation
 title: AppointmentAgent.RejectWithSmtpEmailConfirmation event method
 description: Scripting events called on the RejectWithSmtpEmailConfirmation method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.RejectWithSmtpEmailConfirmation
 

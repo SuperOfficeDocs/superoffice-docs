@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Bernhard, Larkin and Reinger",
-    "ToolTip": "Consectetur aut aliquam.",
+    "Id": 432,
+    "Name": "Yundt Inc and Sons",
+    "ToolTip": "Enim magnam autem ipsa quas et voluptas adipisci.",
     "Deleted": false,
-    "Rank": 684,
-    "Type": "aut",
-    "ColorBlock": 400,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2018-02-16T04:22:36.0965902+01:00",
+    "Rank": 681,
+    "Type": "velit",
+    "ColorBlock": 358,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2001-12-15T13:28:33.0228222+01:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Lemke LLC",
-        "ToolTip": "Fuga laboriosam occaecati in.",
+        "Id": 358,
+        "Name": "Gorczany, Fadel and McCullough",
+        "ToolTip": "Rerum ratione quidem qui aut vel sed.",
         "Deleted": true,
-        "Rank": 749,
-        "Type": "tempore",
-        "ColorBlock": 356,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2022-06-08T04:22:36.0965902+02:00",
+        "Rank": 521,
+        "Type": "nesciunt",
+        "ColorBlock": 941,
+        "IconHint": "error",
+        "Selected": true,
+        "LastChanged": "2020-12-16T13:28:33.0228222+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "accusantium",
-        "Hidden": false,
-        "FullName": "Zoe Hegmann",
+        "ExtraInfo": "fuga",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Mervin Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 608
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "modi",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Precious Blick",
+    "FullName": "Lauren Wiley Botsford Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldLength": 68
       }
     }
   }

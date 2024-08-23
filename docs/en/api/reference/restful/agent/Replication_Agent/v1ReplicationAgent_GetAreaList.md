@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 598,
-    "Name": "Bednar, Metz and Wintheiser",
-    "MaxDataAge": 503,
-    "NumberOfUsers": 435,
-    "NumberOfLogins": 76,
-    "FreetextEnabeled": false,
+    "AreaId": 349,
+    "Name": "Greenfelder-Gerhold",
+    "MaxDataAge": 468,
+    "NumberOfUsers": 930,
+    "NumberOfLogins": 495,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 745
       }
     }
   }

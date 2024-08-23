@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Lesch, Bernhard and Kunde",
-  "DeviceName": "Moore, Hudson and D'Amore",
-  "DeviceIdentifier": "beatae"
+  "ApplicationName": "Ferry LLC",
+  "DeviceName": "Hilpert, Breitenberg and Eichmann",
+  "DeviceIdentifier": "dolor"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "cupiditate",
-  "Value": "incidunt",
-  "RecordId": 533,
-  "CreatedDate": "1997-07-04T04:22:26.8755249+02:00",
-  "UpdatedDate": "2010-01-02T04:22:26.8755249+01:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "ad",
-  "TableName": "Dietrich LLC",
+  "Key": "fugit",
+  "Value": "nostrum",
+  "RecordId": 315,
+  "CreatedDate": "2021-01-26T13:28:22.8510314+01:00",
+  "UpdatedDate": "2014-09-13T13:28:22.8510314+02:00",
+  "UpdatedBy": "sapiente",
+  "CreatedBy": "dicta",
+  "TableName": "Upton Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

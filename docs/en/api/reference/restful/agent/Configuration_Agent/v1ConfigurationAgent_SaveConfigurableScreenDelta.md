@@ -91,22 +91,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 92,
-  "Name": "Bergstrom-Lowe",
-  "Description": "Multi-lateral even-keeled installation",
-  "DeltaJson": "laudantium",
+  "ConfigurableScreenDeltaId": 49,
+  "Name": "Feeney-Kertzmann",
+  "Description": "Intuitive 24 hour framework",
+  "DeltaJson": "excepturi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "excepturi",
-  "UpdatedDate": "2005-10-18T04:22:26.1528443+02:00",
-  "CreatedDate": "2024-05-14T04:22:26.1528443+02:00",
+  "RecipeId": "ex",
+  "UpdatedDate": "2012-03-15T13:28:22.1636887+01:00",
+  "CreatedDate": "1999-12-25T13:28:22.1636887+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    164,
-    144
+    934,
+    469
   ],
-  "AppliesToKey": "excepturi"
+  "AppliesToKey": "et"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 490,
-  "Name": "Muller Inc and Sons",
-  "Description": "Re-engineered bottom-line hierarchy",
-  "DeltaJson": "maiores",
+  "ConfigurableScreenDeltaId": 871,
+  "Name": "Pollich-Kshlerin",
+  "Description": "Profound web-enabled framework",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2021-06-08T04:22:26.1528443+02:00",
-  "CreatedDate": "2020-06-30T04:22:26.1528443+02:00",
+  "RecipeId": "iure",
+  "UpdatedDate": "2003-05-03T13:28:22.1636887+02:00",
+  "CreatedDate": "2023-07-06T13:28:22.1636887+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    787,
-    640
+    548,
+    892
   ],
-  "AppliesToKey": "mollitia",
+  "AppliesToKey": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

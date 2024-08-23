@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2005-01-20T04:22:25.94972+01:00",
-  "ToDate": "2004-02-23T04:22:25.94972+01:00",
+  "FromDate": "2017-08-29T13:28:21.7887743+02:00",
+  "ToDate": "2020-05-28T13:28:21.7887743+02:00",
   "AssociateList": [
     {
-      "Id": 69,
-      "Name": "Hoppe-Rippin",
-      "ToolTip": "Incidunt enim non perspiciatis molestiae sequi.",
-      "Deleted": false,
-      "Rank": 290,
-      "Type": "dicta",
-      "ColorBlock": 713,
-      "IconHint": "sequi",
-      "Selected": true,
-      "LastChanged": "2005-05-29T04:22:25.94972+02:00",
+      "Id": 447,
+      "Name": "Paucek-West",
+      "ToolTip": "Voluptas maxime cum dignissimos sed quia veritatis explicabo.",
+      "Deleted": true,
+      "Rank": 343,
+      "Type": "tempora",
+      "ColorBlock": 451,
+      "IconHint": "repellat",
+      "Selected": false,
+      "LastChanged": "1997-06-13T13:28:21.7887743+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perferendis",
-      "StyleHint": "tempore",
+      "ExtraInfo": "odit",
+      "StyleHint": "illum",
       "Hidden": false,
-      "FullName": "Mark Keaton Dickens DDS",
+      "FullName": "Maude Murray",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 521
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 943,
-      "Name": "Prohaska-Cormier",
-      "ToolTip": "Vitae nobis aperiam maxime ducimus quia aut omnis.",
-      "Deleted": true,
-      "Rank": 221,
-      "Type": "culpa",
-      "ColorBlock": 497,
-      "IconHint": "atque",
-      "Selected": true,
-      "LastChanged": "2014-08-29T04:22:25.94972+02:00",
+      "Id": 855,
+      "Name": "Rice-Nicolas",
+      "ToolTip": "Quis molestias fuga perspiciatis.",
+      "Deleted": false,
+      "Rank": 832,
+      "Type": "rem",
+      "ColorBlock": 393,
+      "IconHint": "facere",
+      "Selected": false,
+      "LastChanged": "2010-10-12T13:28:21.7887743+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "eligendi",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "sequi",
       "Hidden": false,
-      "FullName": "Hilton Stroman",
+      "FullName": "Telly Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 529,
-      "Name": "Kilback Inc and Sons",
-      "ToolTip": "Sed ut.",
+      "Id": 359,
+      "Name": "Roberts-Hettinger",
+      "ToolTip": "Quia aut quam doloribus earum sint laboriosam eveniet.",
       "Deleted": false,
-      "Rank": 705,
-      "Type": "est",
+      "Rank": 980,
+      "Type": "tempore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "labore",
-      "ColorBlock": 401,
-      "ExtraInfo": "a",
-      "StyleHint": "illo",
-      "FullName": "Consuelo Chaim Botsford V",
+      "IconHint": "eaque",
+      "ColorBlock": 550,
+      "ExtraInfo": "dolores",
+      "StyleHint": "ex",
+      "FullName": "Mr. Carmela Hagenes I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 526
+          "FieldType": "System.Int32",
+          "FieldLength": 911
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 807
     }
   }
 }

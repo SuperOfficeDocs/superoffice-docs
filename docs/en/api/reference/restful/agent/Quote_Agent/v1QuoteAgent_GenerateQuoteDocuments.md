@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 859,
-  "EmailBodyTemplateId": 220,
+  "QuoteVersionId": 559,
+  "EmailBodyTemplateId": 831,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 722,
+  "QuotedProductsTemplateId": 338,
   "IncludeAttachments": true,
-  "RawMailSubject": "magnam"
+  "RawMailSubject": "quaerat"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 203,
-  "QuotedProductsId": 777,
+  "QuoteDocumentId": 442,
+  "QuotedProductsId": 175,
   "QuoteAttachmentIds": [
-    13,
-    218
+    37,
+    120
   ],
-  "MailBody": "voluptas",
-  "MailSubject": "quisquam",
-  "ToEmail": "retha_keeling@hickle.ca",
-  "ToFullName": "Orie Medhurst",
-  "ErrorMessage": "voluptas",
+  "MailBody": "dolor",
+  "MailSubject": "molestiae",
+  "ToEmail": "antonia@nadergislason.uk",
+  "ToFullName": "Armand Prohaska",
+  "ErrorMessage": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 416
     }
   }
 }

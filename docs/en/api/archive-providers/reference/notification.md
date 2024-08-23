@@ -3,9 +3,9 @@ uid: Notification
 title: Notification
 description: 
 keywords: Notification archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Notification"

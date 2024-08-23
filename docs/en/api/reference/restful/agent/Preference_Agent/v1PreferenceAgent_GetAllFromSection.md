@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "fugiat"
+  "Section": "at"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 489,
-    "Section": "minus",
-    "Key": "dignissimos",
-    "Name": "Gerhold-Pacocha",
+    "PrefDescId": 780,
+    "Section": "aliquam",
+    "Key": "id",
+    "Name": "Lang-Reynolds",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Streamlined asynchronous capacity",
+    "Description": "Function-based real-time forecast",
     "IsBuiltin": true,
-    "TableName": "Schinner Inc and Sons",
-    "UserDefinedListId": 694,
-    "Rank": 153,
-    "SubGroup": "et",
-    "MinLevel": 608,
-    "MaxValue": 446,
-    "MinValue": 763,
-    "RequiredLicense": "dolorem",
+    "TableName": "Wisoky-Flatley",
+    "UserDefinedListId": 569,
+    "Rank": 967,
+    "SubGroup": "facilis",
+    "MinLevel": 648,
+    "MaxValue": 869,
+    "MinValue": 770,
+    "RequiredLicense": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

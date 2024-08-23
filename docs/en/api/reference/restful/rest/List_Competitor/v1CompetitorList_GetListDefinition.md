@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Ondricka LLC",
-  "Tooltip": "similique",
+  "Id": 331,
+  "Name": "Schaden-Bernier",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 594,
-  "IsCustomList": false,
+  "Rank": 542,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldLength": 490
     }
   },
   "_Links": {

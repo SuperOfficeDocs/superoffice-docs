@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 243,
-      "PrefDescId": 184,
-      "PrefValue": "assumenda",
-      "PrefShowValue": "tempore",
-      "Description": "Re-engineered holistic frame",
-      "IsBuiltin": true
+      "PrefDescLineId": 899,
+      "PrefDescId": 17,
+      "PrefValue": "quo",
+      "PrefShowValue": "et",
+      "Description": "Reverse-engineered fault-tolerant infrastructure",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 243,
-      "PrefDescId": 184,
-      "PrefValue": "assumenda",
-      "PrefShowValue": "tempore",
-      "Description": "Re-engineered holistic frame",
-      "IsBuiltin": true
+      "PrefDescLineId": 899,
+      "PrefDescId": 17,
+      "PrefValue": "quo",
+      "PrefShowValue": "et",
+      "Description": "Reverse-engineered fault-tolerant infrastructure",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 928,
-    "PrefDescId": 488,
-    "PrefValue": "dicta",
-    "PrefShowValue": "dolore",
-    "Description": "Face to face value-added portal",
-    "IsBuiltin": false,
+    "PrefDescLineId": 146,
+    "PrefDescId": 713,
+    "PrefValue": "maxime",
+    "PrefShowValue": "qui",
+    "Description": "Multi-tiered needs-based help-desk",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldLength": 255
       }
     }
   }

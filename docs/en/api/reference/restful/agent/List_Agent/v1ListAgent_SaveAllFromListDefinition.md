@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 732,
+  "UdListDefinitionId": 789,
   "Items": [
     {
-      "Id": 903,
-      "Name": "Hansen LLC",
-      "Tooltip": "ipsum",
+      "Id": 373,
+      "Name": "Stark-Paucek",
+      "Tooltip": "ut",
       "Deleted": true,
-      "UdListDefinitionId": 368,
-      "Rank": 328
+      "UdListDefinitionId": 841,
+      "Rank": 963
     },
     {
-      "Id": 903,
-      "Name": "Hansen LLC",
-      "Tooltip": "ipsum",
+      "Id": 373,
+      "Name": "Stark-Paucek",
+      "Tooltip": "ut",
       "Deleted": true,
-      "UdListDefinitionId": 368,
-      "Rank": 328
+      "UdListDefinitionId": 841,
+      "Rank": 963
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Windler, Vandervort and Fisher",
-    "Tooltip": "recusandae",
+    "Id": 453,
+    "Name": "Kulas-Reichel",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 768,
-    "Rank": 463,
+    "UdListDefinitionId": 969,
+    "Rank": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldType": "System.String",
+        "FieldLength": 953
       }
     }
   }

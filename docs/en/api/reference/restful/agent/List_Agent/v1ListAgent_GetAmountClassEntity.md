@@ -26,7 +26,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=917
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=525
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 700,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "commodi",
-  "Rank": 790,
-  "AmountFrom": 22975.354,
-  "AmountTo": 23420.381999999998,
+  "AmountClassId": 298,
+  "Name": "Raynor LLC",
+  "Tooltip": "exercitationem",
+  "Rank": 431,
+  "AmountFrom": 24984.248,
+  "AmountTo": 5797.9,
   "Deleted": false,
-  "CurrencyId": 431,
+  "CurrencyId": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 66
     }
   }
 }

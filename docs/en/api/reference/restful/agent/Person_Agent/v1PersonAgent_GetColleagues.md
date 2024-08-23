@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolor",
-    "PersonId": 1000,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Caesar",
-    "Lastname": "Yundt",
-    "MiddleName": "Champlin-Franecki",
-    "Title": "veniam",
-    "Description": "Ergonomic background software",
-    "Email": "curt@kirlinbruen.us",
-    "FullName": "Jacinthe Hermiston",
-    "DirectPhone": "690-656-5372 x4650",
-    "FormalName": "Sawayn-Jakubowski",
-    "CountryId": 743,
-    "ContactId": 985,
-    "ContactName": "Little-Bergstrom",
-    "Retired": 25,
-    "Rank": 163,
-    "ActiveInterests": 677,
+    "Position": "ullam",
+    "PersonId": 321,
+    "Mrmrs": "incidunt",
+    "Firstname": "Pearline",
+    "Lastname": "Quigley",
+    "MiddleName": "Mills, Boehm and Considine",
+    "Title": "aut",
+    "Description": "Stand-alone content-based hierarchy",
+    "Email": "jarred.lind@mosciskiberge.com",
+    "FullName": "Annamarie Boyle",
+    "DirectPhone": "1-031-088-1341",
+    "FormalName": "Rempel Group",
+    "CountryId": 69,
+    "ContactId": 701,
+    "ContactName": "Rutherford, Kulas and Stehr",
+    "Retired": 678,
+    "Rank": 745,
+    "ActiveInterests": 22,
     "ContactDepartment": "",
-    "ContactCountryId": 15,
-    "ContactOrgNr": "561751",
-    "FaxPhone": "211.356.5038",
-    "MobilePhone": "1-134-818-4786 x81541",
-    "ContactPhone": "289-654-2142 x00581",
-    "AssociateName": "Hane Group",
-    "AssociateId": 920,
+    "ContactCountryId": 10,
+    "ContactOrgNr": "664738",
+    "FaxPhone": "1-451-492-0904 x177",
+    "MobilePhone": "218-269-9148",
+    "ContactPhone": "1-240-350-4285 x41751",
+    "AssociateName": "Littel-Waelchi",
+    "AssociateId": 790,
     "UsePersonAddress": true,
-    "ContactFax": "tempora",
-    "Kanafname": "quod",
-    "Kanalname": "assumenda",
-    "Post1": "quis",
-    "Post2": "ratione",
-    "Post3": "alias",
-    "EmailName": "jaime_klein@prosacco.info",
-    "ContactFullName": "Mrs. Lurline Mariela Howell",
-    "ActiveErpLinks": 456,
-    "TicketPriorityId": 441,
-    "SupportLanguageId": 238,
-    "SupportAssociateId": 77,
+    "ContactFax": "quaerat",
+    "Kanafname": "id",
+    "Kanalname": "commodi",
+    "Post1": "rem",
+    "Post2": "distinctio",
+    "Post3": "neque",
+    "EmailName": "flavie@macejkovicmarquardt.ca",
+    "ContactFullName": "Ashlee Parker",
+    "ActiveErpLinks": 779,
+    "TicketPriorityId": 631,
+    "SupportLanguageId": 403,
+    "SupportAssociateId": 187,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

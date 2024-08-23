@@ -3,9 +3,9 @@ uid: DummySelectionContact
 title: DummySelectionContact
 description: 
 keywords: DummySelectionContact archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DummySelectionContact"
@@ -549,7 +549,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=activeErpLinks,searchPhone/description,contactAssociate/credentialType
+GET /api/v1/archive/DummySelectionContact?$select=deletedDate,targetRelation/nameDepartment,targetRelation/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 414,
+  "AppointmentId": 131,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-07-19T04:22:25.8403138+02:00",
-  "AppointmentId": 394,
-  "Description": "Reduced homogeneous info-mediaries",
-  "Title": "dolore",
-  "Agenda": "est",
-  "InternalNotes": "aut",
-  "StartDate": "2007-09-26T04:22:25.8403138+02:00",
-  "EndDate": "2007-06-10T04:22:25.8403138+02:00",
+  "CreatedDate": "2019-02-27T13:28:21.6638038+01:00",
+  "AppointmentId": 112,
+  "Description": "Self-enabling intangible system engine",
+  "Title": "molestiae",
+  "Agenda": "recusandae",
+  "InternalNotes": "adipisci",
+  "StartDate": "2012-12-20T13:28:21.6638038+01:00",
+  "EndDate": "2020-10-02T13:28:21.6638038+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 291,
+  "MotherId": 594,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-01-08T04:22:25.8559745+01:00",
+  "UpdatedDate": "1998-07-21T13:28:21.6638038+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 582,
+  "ActiveLinks": 946,
   "Links": [
     {
-      "EntityName": "Gerlach, Bechtelar and Morissette",
-      "Id": 931,
-      "Description": "Open-source web-enabled application",
-      "ExtraInfo": "placeat",
-      "LinkId": 650,
+      "EntityName": "Mueller, Haag and Hilll",
+      "Id": 85,
+      "Description": "Managed zero defect process improvement",
+      "ExtraInfo": "assumenda",
+      "LinkId": 754,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 193
+          "FieldLength": 546
         }
       }
     }
   ],
-  "AlarmLeadTime": "occaecati",
+  "AlarmLeadTime": "autem",
   "HasAlarm": true,
-  "ColorIndex": 443,
+  "ColorIndex": 708,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "consequatur",
-  "LeadTime": "ut",
-  "Location": "eius",
-  "RejectCounter": 367,
+  "IsAlldayEvent": true,
+  "LagTime": "ut",
+  "LeadTime": "ipsa",
+  "Location": "magni",
+  "RejectCounter": 232,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 911,
-      "PersonId": 764,
-      "ContactId": 22,
-      "EmailId": 998,
+      "AssociateId": 120,
+      "PersonId": 645,
+      "ContactId": 820,
+      "EmailId": 524,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "augustine.carter@herzogwalter.biz",
-      "Description": "Fully-configurable holistic emulation"
+      "EmailAddress": "tom.rodriguez@schimmel.name",
+      "Description": "Digitized responsive alliance"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-08-08T04:22:25.8559745+02:00",
+  "ActiveDate": "2019-09-24T13:28:21.6638038+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 502,
+  "PreferredTZLocation": 824,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 552,
+  "SuggestedAppointmentId": 824,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "maiores",
+  "CentralserviceVideomeetId": "impedit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jennyfer Collins Jr.",
-    "SuperOffice:2": "Jeanne Beer"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Gudrun Bayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "et"
+    "CustomFields1": "autem",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "2015-05-22T04:22:25.8559745+02:00",
-  "PublishTo": "2000-03-11T04:22:25.8559745+01:00",
-  "PublishFrom": "2014-11-14T04:22:25.8559745+01:00",
+  "PublishEventDate": "2019-01-15T13:28:21.6638038+01:00",
+  "PublishTo": "2013-03-09T13:28:21.6638038+01:00",
+  "PublishFrom": "2011-06-21T13:28:21.6638038+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 931,
+      "VisibleId": 94,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 295
         }
       }
     },
     {
-      "VisibleId": 931,
+      "VisibleId": 94,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 295
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   }
 }

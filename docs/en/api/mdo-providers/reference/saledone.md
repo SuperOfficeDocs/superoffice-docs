@@ -3,9 +3,9 @@ uid: saledone
 title: saledone
 keywords: mdoprovider mdo provider saledone
 description: Sale Done status - SaleDone.Done or NotDone.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "saledone" MDO List

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Moore, McLaughlin and Blick",
-    "ToolTip": "Et eos architecto qui.",
-    "Deleted": true,
-    "Rank": 436,
-    "Type": "quos",
-    "ColorBlock": 349,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2015-09-28T04:22:36.0340897+02:00",
+    "Id": 521,
+    "Name": "Nienow Inc and Sons",
+    "ToolTip": "Doloribus dolores voluptatem perferendis.",
+    "Deleted": false,
+    "Rank": 260,
+    "Type": "fuga",
+    "ColorBlock": 789,
+    "IconHint": "veniam",
+    "Selected": false,
+    "LastChanged": "2010-01-06T13:28:32.9447127+01:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Deckow Inc and Sons",
-        "ToolTip": "Voluptas rerum sint.",
-        "Deleted": true,
-        "Rank": 782,
-        "Type": "laboriosam",
-        "ColorBlock": 39,
-        "IconHint": "et",
+        "Id": 355,
+        "Name": "Heaney Inc and Sons",
+        "ToolTip": "Asperiores ut.",
+        "Deleted": false,
+        "Rank": 333,
+        "Type": "perferendis",
+        "ColorBlock": 381,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2023-10-14T04:22:36.0340897+02:00",
+        "LastChanged": "1997-07-31T13:28:32.9447127+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Julius Torp",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "numquam",
+        "Hidden": true,
+        "FullName": "Loy Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldType": "System.String",
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "natus",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Miss Raphael Kertzmann",
+    "FullName": "Prof. Jett Tressa Steuber PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 181
       }
     }
   }

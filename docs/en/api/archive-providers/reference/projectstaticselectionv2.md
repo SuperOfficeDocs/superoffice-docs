@@ -3,9 +3,9 @@ uid: ProjectStaticSelectionV2
 title: ProjectStaticSelectionV2
 description: 
 keywords: ProjectStaticSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectStaticSelectionV2"
@@ -788,7 +788,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelectionV2?$select=updatedBy,projectAssociate/simultaneousEjUser,LastCompletedActivity,sale/associate/contactDepartment,appointment/cautionWarning
+GET /api/v1/archive/ProjectStaticSelectionV2?$select=registeredBy,endDate,appointment/appointment/isConverted,document/associate/associateDbId,document/associate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

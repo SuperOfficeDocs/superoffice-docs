@@ -2,10 +2,10 @@
 uid: emailagent-getemailappointmentrecurrence
 title: EMailAgent.GetEmailAppointmentRecurrence event method
 description: Scripting events called on the GetEmailAppointmentRecurrence method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.GetEmailAppointmentRecurrence
 

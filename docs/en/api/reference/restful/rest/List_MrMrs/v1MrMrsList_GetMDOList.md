@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=necessitatibus
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=soluta
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "O'Connell Inc and Sons",
-    "ToolTip": "Rerum eos fugiat exercitationem iusto omnis sit.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "est",
+    "Id": 281,
+    "Name": "Bergnaum, Blanda and Price",
+    "ToolTip": "Sed minus id voluptates voluptates sed harum dolorum.",
+    "Deleted": true,
+    "Rank": 648,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 798,
-        "Name": "Kirlin-Von",
-        "ToolTip": "Corrupti vel mollitia numquam.",
-        "Deleted": false,
-        "Rank": 861,
-        "Type": "eius",
+        "Id": 405,
+        "Name": "Herzog, Beatty and Schaden",
+        "ToolTip": "Labore aut nesciunt quibusdam saepe voluptatem numquam.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 262,
-        "ExtraInfo": "eum",
-        "StyleHint": "facilis",
-        "FullName": "Jayden Brekke",
+        "IconHint": "adipisci",
+        "ColorBlock": 76,
+        "ExtraInfo": "quo",
+        "StyleHint": "animi",
+        "FullName": "Easton Alia Gutkowski V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldType": "System.Int32",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 451,
-    "ExtraInfo": "totam",
-    "StyleHint": "autem",
-    "FullName": "Miss Bonita Strosin",
+    "IconHint": "quaerat",
+    "ColorBlock": 830,
+    "ExtraInfo": "et",
+    "StyleHint": "non",
+    "FullName": "Mr. Elaina Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 850
       }
     }
   }

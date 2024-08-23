@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 393,
+  "DashboardTileId": 88,
   "Caption": "ratione",
-  "Description": "Robust leading edge application",
-  "ChartName": "Schmitt-Spencer",
-  "ChartId": "a",
-  "IsDefault": true,
-  "AssociateId": 667,
-  "GroupId": 819,
-  "SelectionId": 673,
-  "Config": "qui",
+  "Description": "Enterprise-wide holistic moratorium",
+  "ChartName": "Flatley, Pollich and Hilpert",
+  "ChartId": "autem",
+  "IsDefault": false,
+  "AssociateId": 351,
+  "GroupId": 190,
+  "SelectionId": 321,
+  "Config": "dolor",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Konopelski Inc and Sons",
-      "Description": "Digitized even-keeled circuit",
+      "Name": "Bogisich, McLaughlin and Swaniawski",
+      "Description": "Mandatory homogeneous extranet",
       "Type": "Boolean",
-      "ListName": "Labadie, Kertzmann and Witting",
+      "ListName": "Ferry, Gottlieb and Frami",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "laudantium",
-      "DefaultDataOption": false,
+      "Value": "dolore",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldLength": 931
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 183,
+      "VisibleId": 239,
       "Visibility": "All",
       "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     },
     {
-      "VisibleId": 183,
+      "VisibleId": 239,
       "Visibility": "All",
       "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     }
@@ -212,12 +212,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 981
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

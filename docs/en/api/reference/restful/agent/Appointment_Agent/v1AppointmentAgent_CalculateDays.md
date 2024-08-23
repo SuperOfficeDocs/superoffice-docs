@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 802,
-  "StartDate": "2002-06-17T04:22:25.809066+02:00",
-  "EndDate": "2009-09-04T04:22:25.809066+02:00",
-  "RecurrenceCounter": 707,
+  "RecurrenceId": 987,
+  "StartDate": "2000-08-06T13:28:21.6169386+02:00",
+  "EndDate": "2012-11-15T13:28:21.6169386+01:00",
+  "RecurrenceCounter": 494,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-05-19T04:22:25.809066+02:00",
+      "Date": "2022-02-24T13:28:21.6169386+01:00",
       "IsConflict": false,
-      "Description": "Optimized maximized encryption",
-      "DescriptionStyleHint": "Inverse systemic secured line",
-      "Tooltip": "animi"
+      "Description": "Exclusive upward-trending definition",
+      "DescriptionStyleHint": "Adaptive real-time model",
+      "Tooltip": "sed"
     },
     {
-      "Date": "1999-05-19T04:22:25.809066+02:00",
+      "Date": "2022-02-24T13:28:21.6169386+01:00",
       "IsConflict": false,
-      "Description": "Optimized maximized encryption",
-      "DescriptionStyleHint": "Inverse systemic secured line",
-      "Tooltip": "animi"
+      "Description": "Exclusive upward-trending definition",
+      "DescriptionStyleHint": "Adaptive real-time model",
+      "Tooltip": "sed"
     }
   ],
   "IsRecurrence": false

@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Adams, Grimes and Jacobs",
-      "DisplayName": "Vandervort, Renner and Kunze",
-      "DisplayTooltip": "enim",
+      "Name": "Ritchie-Towne",
+      "DisplayName": "Corwin-Senger",
+      "DisplayTooltip": "cupiditate",
       "IsActive": false
     },
     {
-      "Name": "Adams, Grimes and Jacobs",
-      "DisplayName": "Vandervort, Renner and Kunze",
-      "DisplayTooltip": "enim",
+      "Name": "Ritchie-Towne",
+      "DisplayName": "Corwin-Senger",
+      "DisplayTooltip": "cupiditate",
       "IsActive": false
     }
   ]

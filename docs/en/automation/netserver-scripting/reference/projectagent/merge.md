@@ -2,10 +2,10 @@
 uid: projectagent-merge
 title: ProjectAgent.Merge event method
 description: Scripting events called on the Merge method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.Merge
 

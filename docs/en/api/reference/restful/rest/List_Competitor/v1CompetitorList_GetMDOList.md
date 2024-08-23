@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=fuga
+GET /api/v1/List/Competitor/MDOItems?query=fugiat
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Crooks LLC",
-    "ToolTip": "Maxime eum sunt ipsam ab fugiat sint.",
-    "Deleted": true,
-    "Rank": 626,
-    "Type": "iusto",
+    "Id": 416,
+    "Name": "Emard Group",
+    "ToolTip": "Officia aut.",
+    "Deleted": false,
+    "Rank": 886,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Harris, Wyman and Wiza",
-        "ToolTip": "Quisquam asperiores aliquam nihil.",
+        "Id": 214,
+        "Name": "Marvin-Osinski",
+        "ToolTip": "Porro sunt rerum repudiandae velit excepturi et maxime.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "similique",
+        "Rank": 177,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 705,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "ut",
-        "FullName": "Natalia Tillman",
+        "IconHint": "rerum",
+        "ColorBlock": 408,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "totam",
+        "FullName": "Prof. Ford Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 415
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 397,
-    "ExtraInfo": "corporis",
-    "StyleHint": "delectus",
-    "FullName": "Damon Reilly",
+    "IconHint": "qui",
+    "ColorBlock": 978,
+    "ExtraInfo": "non",
+    "StyleHint": "omnis",
+    "FullName": "Miss Albert Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 80
       }
     }
   }

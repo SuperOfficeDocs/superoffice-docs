@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turcotte LLC",
-    "Description": "Organized discrete adapter",
+    "Name": "Denesik Group",
+    "Description": "Realigned national conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 826,
-        "Tooltip": "consequatur",
-        "CanAssign": false,
-        "Free": 780,
-        "InUse": 417,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 846,
-        "Name": "Wiza-Brown",
-        "Description": "Cross-platform mission-critical moderator",
-        "PrerequisiteModuleName": "Olson-Huels",
-        "SortOrder": 681,
-        "ExtraFlags": 273,
+        "Unrestricted": false,
+        "Total": 984,
+        "Tooltip": "pariatur",
+        "CanAssign": true,
+        "Free": 348,
+        "InUse": 750,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 922,
+        "Name": "Hyatt, Leffler and Cruickshank",
+        "Description": "Optional fault-tolerant matrices",
+        "PrerequisiteModuleName": "Veum, Hoppe and Rolfson",
+        "SortOrder": 279,
+        "ExtraFlags": 956,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 861
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 672,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 607,
-        "InUse": 36,
+        "Total": 484,
+        "Tooltip": "dolores",
+        "CanAssign": true,
+        "Free": 300,
+        "InUse": 932,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 651,
-        "Name": "Block Group",
-        "Description": "Synergized reciprocal ability",
-        "PrerequisiteModuleName": "Bogan-Murphy",
-        "SortOrder": 279,
-        "ExtraFlags": 110,
+        "ModuleLicenseId": 866,
+        "Name": "Champlin-Zieme",
+        "Description": "Function-based directional standardization",
+        "PrerequisiteModuleName": "Witting Inc and Sons",
+        "SortOrder": 96,
+        "ExtraFlags": 731,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 644
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 711
       }
     }
   },
   {
-    "Name": "Turcotte LLC",
-    "Description": "Organized discrete adapter",
+    "Name": "Denesik Group",
+    "Description": "Realigned national conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 826,
-        "Tooltip": "consequatur",
-        "CanAssign": false,
-        "Free": 780,
-        "InUse": 417,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 846,
-        "Name": "Wiza-Brown",
-        "Description": "Cross-platform mission-critical moderator",
-        "PrerequisiteModuleName": "Olson-Huels",
-        "SortOrder": 681,
-        "ExtraFlags": 273,
+        "Unrestricted": false,
+        "Total": 984,
+        "Tooltip": "pariatur",
+        "CanAssign": true,
+        "Free": 348,
+        "InUse": 750,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 922,
+        "Name": "Hyatt, Leffler and Cruickshank",
+        "Description": "Optional fault-tolerant matrices",
+        "PrerequisiteModuleName": "Veum, Hoppe and Rolfson",
+        "SortOrder": 279,
+        "ExtraFlags": 956,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 861
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 672,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 607,
-        "InUse": 36,
+        "Total": 484,
+        "Tooltip": "dolores",
+        "CanAssign": true,
+        "Free": 300,
+        "InUse": 932,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 651,
-        "Name": "Block Group",
-        "Description": "Synergized reciprocal ability",
-        "PrerequisiteModuleName": "Bogan-Murphy",
-        "SortOrder": 279,
-        "ExtraFlags": 110,
+        "ModuleLicenseId": 866,
+        "Name": "Champlin-Zieme",
+        "Description": "Function-based directional standardization",
+        "PrerequisiteModuleName": "Witting Inc and Sons",
+        "SortOrder": 96,
+        "ExtraFlags": 731,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 644
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 711
       }
     }
   }

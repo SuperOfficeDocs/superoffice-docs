@@ -2,10 +2,10 @@
 uid: quoteagent-getproductfromdbid
 title: QuoteAgent.GetProductFromDbId event method
 description: Scripting events called on the GetProductFromDbId method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.GetProductFromDbId
 

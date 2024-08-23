@@ -2,10 +2,10 @@
 uid: emailagent-getcurrentaccount
 title: EMailAgent.GetCurrentAccount event method
 description: Scripting events called on the GetCurrentAccount method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.GetCurrentAccount
 

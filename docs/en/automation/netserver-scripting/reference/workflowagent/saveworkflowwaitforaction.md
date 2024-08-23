@@ -2,10 +2,10 @@
 uid: workflowagent-saveworkflowwaitforaction
 title: WorkflowAgent.SaveWorkflowWaitForAction event method
 description: Scripting events called on the SaveWorkflowWaitForAction method on the WorkflowAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WorkflowAgent.SaveWorkflowWaitForAction
 

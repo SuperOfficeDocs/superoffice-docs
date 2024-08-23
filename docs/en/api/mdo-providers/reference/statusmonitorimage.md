@@ -3,9 +3,9 @@ uid: statusmonitorimage
 title: statusmonitorimage
 keywords: mdoprovider mdo provider statusmonitorimage
 description: List of images for status monitors in the blob table.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "statusmonitorimage" MDO List

@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=486
+POST /api/v1/Agents/Person/GetPerson?personId=799
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "commodi",
-  "PersonId": 199,
-  "Mrmrs": "consequatur",
-  "Firstname": "Kristian",
-  "Lastname": "Russel",
-  "MiddleName": "Weimann, Medhurst and Wisozk",
-  "Title": "nulla",
-  "Description": "Synchronised solution-oriented workforce",
-  "Email": "gussie@mueller.uk",
-  "FullName": "Lisa Borer",
-  "DirectPhone": "(801)367-3276 x0163",
-  "FormalName": "Dibbert-Boyle",
-  "CountryId": 657,
-  "ContactId": 341,
-  "ContactName": "Casper Group",
-  "Retired": 263,
-  "Rank": 704,
-  "ActiveInterests": 889,
+  "Position": "unde",
+  "PersonId": 831,
+  "Mrmrs": "cum",
+  "Firstname": "Harley",
+  "Lastname": "Eichmann",
+  "MiddleName": "Okuneva, Wehner and Adams",
+  "Title": "ut",
+  "Description": "Enhanced web-enabled interface",
+  "Email": "rhett_kuvalis@wolff.ca",
+  "FullName": "Maximillia Witting",
+  "DirectPhone": "210.290.1207 x5567",
+  "FormalName": "Dach-Huel",
+  "CountryId": 749,
+  "ContactId": 78,
+  "ContactName": "Upton Inc and Sons",
+  "Retired": 699,
+  "Rank": 332,
+  "ActiveInterests": 64,
   "ContactDepartment": "",
-  "ContactCountryId": 396,
-  "ContactOrgNr": "1197857",
-  "FaxPhone": "885-044-4780 x417",
-  "MobilePhone": "1-625-795-7473 x7385",
-  "ContactPhone": "1-847-402-2959",
-  "AssociateName": "Beahan-Metz",
-  "AssociateId": 997,
-  "UsePersonAddress": false,
-  "ContactFax": "ex",
-  "Kanafname": "sunt",
-  "Kanalname": "exercitationem",
-  "Post1": "quo",
-  "Post2": "rerum",
-  "Post3": "iure",
-  "EmailName": "shane@spencer.co.uk",
-  "ContactFullName": "Marlin Hagenes",
-  "ActiveErpLinks": 332,
-  "TicketPriorityId": 203,
-  "SupportLanguageId": 576,
-  "SupportAssociateId": 240,
+  "ContactCountryId": 819,
+  "ContactOrgNr": "1016808",
+  "FaxPhone": "661.318.0297 x519",
+  "MobilePhone": "(018)740-1644 x15022",
+  "ContactPhone": "1-116-549-1341",
+  "AssociateName": "Herman Group",
+  "AssociateId": 922,
+  "UsePersonAddress": true,
+  "ContactFax": "temporibus",
+  "Kanafname": "officiis",
+  "Kanalname": "fugit",
+  "Post1": "sit",
+  "Post2": "omnis",
+  "Post3": "dolorem",
+  "EmailName": "gardner.auer@mueller.com",
+  "ContactFullName": "Mrs. Elna D'Amore Jr.",
+  "ActiveErpLinks": 675,
+  "TicketPriorityId": 16,
+  "SupportLanguageId": 623,
+  "SupportAssociateId": 573,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 286
     }
   }
 }

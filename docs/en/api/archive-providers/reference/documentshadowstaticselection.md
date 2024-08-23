@@ -3,9 +3,9 @@ uid: DocumentShadowStaticSelection
 title: DocumentShadowStaticSelection
 description: Shadow contact provider for the static Document provider.
 keywords: DocumentShadowStaticSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentShadowStaticSelection"
@@ -712,7 +712,7 @@ Shadow contact provider for the static Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowStaticSelection?$select=updatedByFullName,person/personAddress/county,person/personAddress/state,person/personUdef/SuperOffice:6,person/correspondingAssociate/isLocation
+GET /api/v1/archive/DocumentShadowStaticSelection?$select=person/personPager/description,person/correspondingAssociate/isActive,project/completed,project/projectPublish/publishedTo,project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

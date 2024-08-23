@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gleason Inc and Sons",
+  "TableName": "Stokes LLC",
   "Columns": [
-    "quisquam",
-    "non"
+    "unde",
+    "dolor"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "laborum",
-  "Inserts": 33,
-  "Updates": 658,
-  "Deletes": 618,
+  "Success": false,
+  "Message": "et",
+  "Inserts": 783,
+  "Updates": 351,
+  "Deletes": 98,
   "RowStatus": [
     {
-      "PrimaryKey": 899,
+      "PrimaryKey": 606,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "possimus",
-        "iure"
+        "eos",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldType": "System.Int32",
+          "FieldLength": 436
         }
       }
     },
     {
-      "PrimaryKey": 899,
+      "PrimaryKey": 606,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "possimus",
-        "iure"
+        "eos",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldType": "System.Int32",
+          "FieldLength": 436
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

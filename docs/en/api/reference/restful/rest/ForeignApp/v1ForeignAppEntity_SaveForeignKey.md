@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "dolor",
-  "RecordId": 704,
-  "CreatedDate": "2024-02-23T04:22:35.0010854+01:00",
-  "UpdatedDate": "2007-12-31T04:22:35.0010854+01:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "assumenda",
-  "TableName": "Parisian, Ankunding and Wuckert"
+  "Key": "qui",
+  "Value": "doloribus",
+  "RecordId": 61,
+  "CreatedDate": "2005-07-20T13:28:31.6948645+02:00",
+  "UpdatedDate": "2024-06-18T13:28:31.6948645+02:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "vel",
+  "TableName": "Hermiston, Hermiston and Torp"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quis",
-  "Value": "quia",
-  "RecordId": 610,
-  "CreatedDate": "2004-11-23T04:22:35.0010854+01:00",
-  "UpdatedDate": "2005-11-08T04:22:35.0010854+01:00",
-  "UpdatedBy": "amet",
-  "CreatedBy": "autem",
-  "TableName": "McClure, Parisian and Christiansen",
+  "Key": "qui",
+  "Value": "exercitationem",
+  "RecordId": 942,
+  "CreatedDate": "2005-03-12T13:28:31.6948645+01:00",
+  "UpdatedDate": "2002-02-01T13:28:31.6948645+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "excepturi",
+  "TableName": "Zieme Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

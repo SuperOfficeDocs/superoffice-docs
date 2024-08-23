@@ -3,9 +3,9 @@ uid: mailingfavourite
 title: mailingfavourite
 keywords: mdoprovider mdo provider mailingfavourite
 description: MDO list provider for Favourites
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "mailingfavourite" MDO List

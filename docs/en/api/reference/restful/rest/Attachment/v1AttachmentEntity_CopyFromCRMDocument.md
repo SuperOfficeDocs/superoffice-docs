@@ -66,7 +66,7 @@ OK
 POST /api/v1/Attachment/CopyFromCRMDocument/{documentId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 423,
-  "Name": "Medhurst-Bosco",
-  "ContentType": "cum",
-  "AttSize": 937,
+  "AttachmentId": 168,
+  "Name": "Farrell Group",
+  "ContentType": "inventore",
+  "AttSize": 680,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "incidunt",
+  "ContentId": "sed",
+  "AuthKey": "sit",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 470
     }
   }
 }

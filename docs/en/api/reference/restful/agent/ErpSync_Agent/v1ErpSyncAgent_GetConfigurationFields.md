@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 482
+  "ErpConnectorId": 707
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "corrupti",
-    "Rank": 987,
-    "DisplayName": "Goodwin, Walker and Harvey",
-    "DisplayDescription": "Face to face bottom-line hub",
+    "FieldKey": "in",
+    "Rank": 735,
+    "DisplayName": "Jast LLC",
+    "DisplayDescription": "Multi-layered neutral projection",
     "FieldType": "Checkbox",
-    "ListName": "Bruen-Waelchi",
-    "DefaultValue": "aliquid",
-    "MaxLength": 413,
+    "ListName": "Wintheiser, Medhurst and Kemmer",
+    "DefaultValue": "autem",
+    "MaxLength": 49,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

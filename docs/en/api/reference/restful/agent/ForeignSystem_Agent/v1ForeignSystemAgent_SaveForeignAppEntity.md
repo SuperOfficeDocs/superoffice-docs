@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 771,
-  "Name": "Ondricka-Reichert",
-  "CreatedDate": "2004-07-01T04:22:26.8598968+02:00",
-  "UpdatedDate": "1997-05-18T04:22:26.8598968+02:00",
+  "ForeignAppId": 904,
+  "Name": "Lindgren, Prohaska and Tromp",
+  "CreatedDate": "2023-09-13T13:28:22.8354083+02:00",
+  "UpdatedDate": "2024-06-29T13:28:22.8354083+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 337,
-      "Name": "Weimann LLC",
-      "CreatedDate": "2013-10-15T04:22:26.8598968+02:00",
-      "UpdatedDate": "1998-01-05T04:22:26.8598968+01:00",
-      "AssociateFullName": "Julie Yost",
-      "CreatedBy": "ut",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 377
+      "ForeignDeviceId": 405,
+      "Name": "Ritchie, Frami and Mitchell",
+      "CreatedDate": "2003-05-21T13:28:22.8354083+02:00",
+      "UpdatedDate": "2023-07-15T13:28:22.8354083+02:00",
+      "AssociateFullName": "Ibrahim Emil Boehm PhD",
+      "CreatedBy": "labore",
+      "UpdatedBy": "fugit",
+      "DeviceIdentifier": "repellendus",
+      "ForeignAppId": 214
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 793,
-  "Name": "Heathcote, Sipes and Mraz",
-  "CreatedDate": "2024-02-25T04:22:26.8598968+01:00",
-  "UpdatedDate": "2022-12-09T04:22:26.8598968+01:00",
+  "ForeignAppId": 214,
+  "Name": "Hand-Marks",
+  "CreatedDate": "2014-06-08T13:28:22.8354083+02:00",
+  "UpdatedDate": "2023-04-04T13:28:22.8354083+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 699,
-      "Name": "Littel, Rodriguez and Jewess",
-      "CreatedDate": "2018-03-21T04:22:26.8598968+01:00",
-      "UpdatedDate": "2016-05-24T04:22:26.8598968+02:00",
-      "AssociateFullName": "Sunny Littel",
-      "CreatedBy": "impedit",
-      "UpdatedBy": "consequatur",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 76,
+      "ForeignDeviceId": 637,
+      "Name": "Collier-Goldner",
+      "CreatedDate": "2011-03-03T13:28:22.8354083+01:00",
+      "UpdatedDate": "2012-08-12T13:28:22.8354083+02:00",
+      "AssociateFullName": "Dr. Hector Towne Sr.",
+      "CreatedBy": "similique",
+      "UpdatedBy": "culpa",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 697,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 522
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

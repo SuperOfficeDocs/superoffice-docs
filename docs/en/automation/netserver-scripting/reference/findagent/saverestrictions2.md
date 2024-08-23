@@ -2,10 +2,10 @@
 uid: findagent-saverestrictions2
 title: FindAgent.SaveRestrictions2 event method
 description: Scripting events called on the SaveRestrictions2 method on the FindAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FindAgent.SaveRestrictions2
 

@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 284,
+  "MessageServerId": 931,
   "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 496,
-      "ContactName": "Stehr-Haley",
-      "PersonId": 55,
-      "PersonName": "Goldner-Torphy",
-      "AssociateId": 111,
-      "Address": "ipsa",
-      "EmailId": 835,
+      "ContactId": 383,
+      "ContactName": "Turcotte Group",
+      "PersonId": 757,
+      "PersonName": "Haag-Christiansen",
+      "AssociateId": 863,
+      "Address": "ab",
+      "EmailId": 956,
       "DuplicatePersonIds": [
-        285,
-        183
+        831,
+        849
       ],
-      "Name": "Heathcote Group",
+      "Name": "Gutmann-Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 419
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 170,
-      "ContactName": "Reichel, Hane and Collins",
-      "PersonId": 977,
-      "PersonName": "Smitham-Lueilwitz",
-      "AssociateId": 565,
-      "Address": "eos",
-      "EmailId": 330,
+      "ContactId": 89,
+      "ContactName": "Sipes-Johns",
+      "PersonId": 286,
+      "PersonName": "Kulas, Senger and Volkman",
+      "AssociateId": 851,
+      "Address": "corporis",
+      "EmailId": 78,
       "DuplicatePersonIds": [
-        994,
-        98
+        571,
+        213
       ],
-      "Name": "Keeling-Stamm",
+      "Name": "Sauer-Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 264
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 854,
-      "ContactName": "Gulgowski, Runte and Grady",
-      "PersonId": 520,
-      "PersonName": "Rutherford, Macejkovic and Upton",
-      "AssociateId": 255,
-      "Address": "est",
-      "EmailId": 596,
+      "ContactId": 758,
+      "ContactName": "Runte Group",
+      "PersonId": 582,
+      "PersonName": "White-Mosciski",
+      "AssociateId": 367,
+      "Address": "veritatis",
+      "EmailId": 304,
       "DuplicatePersonIds": [
-        329,
-        950
+        932,
+        841
       ],
-      "Name": "Littel Group",
+      "Name": "Volkman-Barrows",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 57
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "facere",
+  "Subject": "est",
+  "HTMLBody": "quo",
   "From": null,
-  "Sent": "2023-12-21T04:22:26.7491153+01:00",
-  "Size": 587,
+  "Sent": "2012-01-06T13:28:22.7104392+01:00",
+  "Size": 498,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "hic",
-  "PlainBody": "et",
+  "MessageID": "corporis",
+  "PlainBody": "est",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 372,
+  "ServerId": 30,
   "Attachments": [
     {
-      "Description": "Ergonomic 4th generation help-desk",
-      "Filename": "omnis",
-      "Size": 265,
-      "Type": "est",
-      "Encoding": "accusantium",
-      "Id": "harum",
-      "Disposition": "aliquid",
+      "Description": "Re-contextualized full-range productivity",
+      "Filename": "quaerat",
+      "Size": 95,
+      "Type": "praesentium",
+      "Encoding": "tempore",
+      "Id": "nostrum",
+      "Disposition": "voluptate",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,50 +223,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 676
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hackett LLC",
+      "Name": "Boyle, Bosco and Cassin",
       "Values": [
-        "quas",
-        "rerum"
+        "voluptatem",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldType": "System.String",
+          "FieldLength": 533
         }
       }
     },
     {
-      "Name": "Hackett LLC",
+      "Name": "Boyle, Bosco and Cassin",
       "Values": [
-        "quas",
-        "rerum"
+        "voluptatem",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldType": "System.String",
+          "FieldLength": 533
         }
       }
     }
   ],
-  "FolderName": "Paucek, White and Macejkovic",
-  "EmailItemId": 298,
-  "AccountId": 891,
-  "ReceivedAt": "2015-09-11T04:22:26.7491153+02:00",
+  "FolderName": "Rosenbaum, Spinka and Kilback",
+  "EmailItemId": 726,
+  "AccountId": 899,
+  "ReceivedAt": "2019-03-30T13:28:22.7104392+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-07-27T04:22:26.7491153+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2021-09-26T13:28:22.7104392+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 975
     }
   }
 }

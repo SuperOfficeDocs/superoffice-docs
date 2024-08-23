@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 262,
-    "ParentId": 795,
-    "Name": "O'Connell, Pfannerstill and Mitchell",
-    "Fullname": "expedita",
-    "CategoryMaster": 459,
+    "TicketCategoryId": 929,
+    "ParentId": 914,
+    "Name": "Sauer, Borer and Hermiston",
+    "Fullname": "sit",
+    "CategoryMaster": 483,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Littel, McGlynn and Gutkowski",
+    "ExternalName": "Jerde Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 205,
-    "ReplyTemplate": 626,
-    "NotificationEmail": "angeline.witting@breitenbergrau.ca",
+    "AssignmentLag": 379,
+    "ReplyTemplate": 466,
+    "NotificationEmail": "callie.boehm@bartoletti.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 760,
+    "EffectiveReplyTemplateId": 59,
     "ExtraFields": {
-      "ExtraFields1": "eum",
-      "ExtraFields2": "ut"
+      "ExtraFields1": "facilis",
+      "ExtraFields2": "quam"
     },
     "CustomFields": {
-      "CustomFields1": "voluptas",
-      "CustomFields2": "tempore"
+      "CustomFields1": "reprehenderit",
+      "CustomFields2": "repudiandae"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 491
       }
     }
   }

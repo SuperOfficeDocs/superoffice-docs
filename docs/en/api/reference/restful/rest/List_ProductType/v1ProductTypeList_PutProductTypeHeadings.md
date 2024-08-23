@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 475,
-    "Name": "Boyle Group",
-    "Tooltip": "aut",
+    "HeadingId": 307,
+    "Name": "Schiller-McKenzie",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 742
+    "Rank": 721,
+    "UdListDefinitionId": 986
   },
   {
-    "HeadingId": 475,
-    "Name": "Boyle Group",
-    "Tooltip": "aut",
+    "HeadingId": 307,
+    "Name": "Schiller-McKenzie",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 742
+    "Rank": 721,
+    "UdListDefinitionId": 986
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 62,
-    "Name": "Connelly LLC",
-    "Tooltip": "ullam",
+    "HeadingId": 178,
+    "Name": "Douglas, Homenick and Padberg",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 365,
+    "Rank": 55,
+    "UdListDefinitionId": 561,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

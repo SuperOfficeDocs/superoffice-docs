@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 856,
+  "DocumentTemplateId": 827,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 571
+  "LanguageCode": "quasi",
+  "PluginId": 609
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Murray Group",
-  "Description": "Pre-emptive modular leverage",
-  "ExternalReference": "asperiores",
-  "MimeType": "cupiditate",
-  "PluginId": 90
+  "Name": "Walter, Kozey and Nicolas",
+  "Description": "Realigned intermediate instruction set",
+  "ExternalReference": "sit",
+  "MimeType": "qui",
+  "PluginId": 611
 }
 ```

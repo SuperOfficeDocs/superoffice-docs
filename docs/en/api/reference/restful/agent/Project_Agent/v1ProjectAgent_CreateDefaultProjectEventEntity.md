@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ut",
-  "SignOffText": "at",
-  "SignOnConfirmationText": "ex",
-  "SignOnText": "est",
-  "EventDate": "2017-09-29T04:22:27.3153732+02:00",
-  "Enabled": false,
-  "CreatedDate": "2000-07-09T04:22:27.3153732+02:00",
+  "SignOffConfirmationText": "quod",
+  "SignOffText": "veniam",
+  "SignOnConfirmationText": "nihil",
+  "SignOnText": "debitis",
+  "EventDate": "1998-09-04T13:28:23.3199391+02:00",
+  "Enabled": true,
+  "CreatedDate": "2002-05-03T13:28:23.3199391+02:00",
   "SignOff": true,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 281,
+  "SignOffTaskId": 837,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 29,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 783,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2001-07-17T04:22:27.3153732+02:00",
+  "UpdatedDate": "2009-09-16T13:28:23.3199391+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 623,
-  "Id": 948,
-  "PublishFrom": "2001-12-15T04:22:27.3153732+01:00",
+  "ProjectId": 175,
+  "Id": 334,
+  "PublishFrom": "2023-04-21T13:28:23.3199391+02:00",
   "PublishType": "External",
-  "PublishTo": "2004-07-01T04:22:27.3153732+02:00",
+  "PublishTo": "1997-05-03T13:28:23.3199391+02:00",
   "VisibleForCategories": [
     {
-      "Id": 599,
-      "Name": "Klein-Steuber",
-      "ToolTip": "Alias dolores est.",
-      "Deleted": false,
-      "Rank": 69,
-      "Type": "saepe",
+      "Id": 252,
+      "Name": "Kertzmann Inc and Sons",
+      "ToolTip": "Quos beatae.",
+      "Deleted": true,
+      "Rank": 528,
+      "Type": "distinctio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "alias",
-      "ColorBlock": 395,
-      "ExtraInfo": "ratione",
-      "StyleHint": "recusandae",
-      "FullName": "Chanel Tillman",
+      "IconHint": "est",
+      "ColorBlock": 353,
+      "ExtraInfo": "temporibus",
+      "StyleHint": "aut",
+      "FullName": "Earl Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 666
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 263,
-      "Name": "Yundt, Fritsch and Bahringer",
-      "ToolTip": "Quia sit placeat ea modi unde et maiores.",
+      "Id": 427,
+      "Name": "Brown-Murphy",
+      "ToolTip": "Unde deserunt minima consequuntur qui mollitia qui.",
       "Deleted": true,
-      "Rank": 331,
-      "Type": "ut",
+      "Rank": 879,
+      "Type": "placeat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 37,
-      "ExtraInfo": "velit",
-      "StyleHint": "voluptatibus",
-      "FullName": "Brandt McClure",
+      "IconHint": "nemo",
+      "ColorBlock": 162,
+      "ExtraInfo": "aut",
+      "StyleHint": "quae",
+      "FullName": "Arely Hartmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldType": "System.Int32",
+          "FieldLength": 213
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 912,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

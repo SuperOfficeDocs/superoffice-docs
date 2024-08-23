@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stiedemann-Macejkovic",
+  "TableName": "Emmerich-Witting",
   "RecordIds": [
-    355,
-    197
+    1002,
+    428
   ],
-  "AssociateId": 315,
-  "ExtraInfo": "repellat"
+  "AssociateId": 905,
+  "ExtraInfo": "voluptatibus"
 }
 ```
 

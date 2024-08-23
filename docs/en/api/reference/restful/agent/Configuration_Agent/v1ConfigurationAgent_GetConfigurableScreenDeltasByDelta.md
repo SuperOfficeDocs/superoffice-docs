@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 914,
-    "Name": "Cummings Inc and Sons",
-    "Description": "Horizontal global ability",
-    "DeltaJson": "nulla",
+    "ConfigurableScreenDeltaId": 74,
+    "Name": "Wintheiser-Baumbach",
+    "Description": "Implemented interactive synergy",
+    "DeltaJson": "quo",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "incidunt",
-    "UpdatedDate": "1999-09-21T04:22:26.1684694+02:00",
-    "CreatedDate": "2017-04-04T04:22:26.1684694+02:00",
+    "RecipeId": "nihil",
+    "UpdatedDate": "2003-06-23T13:28:22.17931+02:00",
+    "CreatedDate": "2017-10-02T13:28:22.17931+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      589,
-      378
+      59,
+      889
     ],
-    "AppliesToKey": "delectus",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 305
       }
     }
   }

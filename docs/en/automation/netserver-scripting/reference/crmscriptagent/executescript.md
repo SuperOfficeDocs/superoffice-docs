@@ -2,10 +2,10 @@
 uid: crmscriptagent-executescript
 title: CRMScriptAgent.ExecuteScript event method
 description: Scripting events called on the ExecuteScript method on the CRMScriptAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # CRMScriptAgent.ExecuteScript
 

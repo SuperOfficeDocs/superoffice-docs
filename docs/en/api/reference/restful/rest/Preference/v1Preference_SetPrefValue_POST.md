@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "repellendus",
+  "RawValue": "in",
   "Specification": null,
-  "DisplayValue": "accusamus",
-  "DisplayTooltip": "dolorem",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "rem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 34,
-  "PrefDescId": 53,
-  "TableName": "Will-Lockman",
-  "UserPreferenceId": 577
+  "TargetId": 296,
+  "PrefDescId": 124,
+  "TableName": "Shanahan, Reichel and Schumm",
+  "UserPreferenceId": 895
 }
 ```
 

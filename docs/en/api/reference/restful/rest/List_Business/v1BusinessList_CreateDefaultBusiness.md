@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Will, Mraz and Waters",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "UdListDefinitionId": 478,
-  "Rank": 300,
+  "Id": 108,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 903,
+  "Rank": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 151
     }
   }
 }

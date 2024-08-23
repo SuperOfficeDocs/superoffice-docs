@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Batz, Treutel and Spencer",
-    "ToolTip": "Dolorum aliquam modi maiores est qui autem.",
+    "Id": 810,
+    "Name": "Boyer-Toy",
+    "ToolTip": "Nemo dolor maiores aut voluptas in ea.",
     "Deleted": false,
-    "Rank": 772,
-    "Type": "quia",
-    "ColorBlock": 482,
-    "IconHint": "odit",
+    "Rank": 499,
+    "Type": "vel",
+    "ColorBlock": 738,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2017-07-01T04:22:36.1590905+02:00",
+    "LastChanged": "2018-03-22T13:28:33.1009254+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Emard, Dare and Cruickshank",
-        "ToolTip": "Veritatis commodi nam quo dolorem est.",
+        "Id": 634,
+        "Name": "Stanton, Turcotte and Hickle",
+        "ToolTip": "Voluptates est eum asperiores voluptatum ipsum.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "nesciunt",
-        "ColorBlock": 561,
-        "IconHint": "eos",
+        "Rank": 476,
+        "Type": "sunt",
+        "ColorBlock": 902,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-09-08T04:22:36.1590905+02:00",
+        "LastChanged": "2020-04-28T13:28:33.1009254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Christop Smith",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Judah Junius Powlowski III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Alexandra Pagac",
+    "ExtraInfo": "et",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Mrs. Jonathon Oscar Schultz PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldType": "System.Int32",
+        "FieldLength": 927
       }
     }
   }

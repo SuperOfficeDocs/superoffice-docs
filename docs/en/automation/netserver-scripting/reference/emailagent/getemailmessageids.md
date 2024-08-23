@@ -2,10 +2,10 @@
 uid: emailagent-getemailmessageids
 title: EMailAgent.GetEmailMessageIds event method
 description: Scripting events called on the GetEmailMessageIds method on the EMailAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # EMailAgent.GetEmailMessageIds
 

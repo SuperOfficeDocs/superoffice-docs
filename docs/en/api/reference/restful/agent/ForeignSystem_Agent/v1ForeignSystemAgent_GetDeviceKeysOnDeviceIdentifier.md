@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kilback Inc and Sons",
-  "DeviceName": "Hand-Heller",
-  "DeviceIdentifier": "nesciunt"
+  "ApplicationName": "Armstrong, Wisoky and Thiel",
+  "DeviceName": "Connelly-Baumbach",
+  "DeviceIdentifier": "est"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quos",
-    "Value": "velit",
-    "RecordId": 929,
-    "CreatedDate": "2024-03-18T04:22:26.8755249+01:00",
-    "UpdatedDate": "1998-09-26T04:22:26.8755249+02:00",
-    "UpdatedBy": "consequuntur",
-    "CreatedBy": "sint",
-    "TableName": "Leffler LLC",
+    "Key": "error",
+    "Value": "qui",
+    "RecordId": 438,
+    "CreatedDate": "2000-11-25T13:28:22.866653+01:00",
+    "UpdatedDate": "2018-11-06T13:28:22.866653+01:00",
+    "UpdatedBy": "ipsam",
+    "CreatedBy": "id",
+    "TableName": "Carroll Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 495
       }
     }
   }

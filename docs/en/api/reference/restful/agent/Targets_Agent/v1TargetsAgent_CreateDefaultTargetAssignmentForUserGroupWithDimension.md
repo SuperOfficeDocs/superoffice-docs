@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 964,
-  "TargetDimensionId": 930
+  "UserGroupId": 810,
+  "TargetDimensionId": 342
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 181,
+    "TargetAssignmentInfoId": 468,
     "Values": [
-      989,
-      896
+      836,
+      144
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 478,
-    "DimensionListItemDisplayName": "Barrows, Hagenes and Effertz",
+    "DimensionListItem": 691,
+    "DimensionListItemDisplayName": "Ferry-Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 71
       }
     }
   }

@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 907,
-    "Name": "Cummerata, Schiller and Walsh",
+    "TicketStatusId": 132,
+    "Name": "Brown LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
     "IsDefault": true,
-    "UsedInQueue": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 864
       }
     }
   }

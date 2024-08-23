@@ -3,9 +3,9 @@ uid: ProjectShadowStaticSelection
 title: ProjectShadowStaticSelection
 description: Shadow contact provider for the static Project provider.
 keywords: ProjectShadowStaticSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectShadowStaticSelection"
@@ -790,7 +790,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=SaintStatus3,saintDirection,sale/associate/mrMrs,sale/associate/credentialDisplayValue,appointment/isMilestone
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=statusRank,document/associate/ejDisplayName,projectMember/personExtra/x_person_timespan,projectMember/correspondingAssociate/contactName,projectMember/contactUdef/SuperOffice:11
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

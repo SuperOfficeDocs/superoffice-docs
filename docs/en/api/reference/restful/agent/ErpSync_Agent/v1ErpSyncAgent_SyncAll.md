@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "illo",
-  "TechExplanation": "fugit",
-  "ErrorCode": "in",
+  "UserExplanation": "minus",
+  "TechExplanation": "qui",
+  "ErrorCode": "rerum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: ticketagent-getnextinqueue
 title: TicketAgent.GetNextInQueue event method
 description: Scripting events called on the GetNextInQueue method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.GetNextInQueue
 

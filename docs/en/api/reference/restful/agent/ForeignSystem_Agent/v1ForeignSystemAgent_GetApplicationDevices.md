@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Conroy Inc and Sons"
+  "ApplicationName": "Hirthe Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 334,
-    "Name": "Kunde Inc and Sons",
-    "CreatedDate": "1997-04-10T04:22:26.8598968+02:00",
-    "UpdatedDate": "2016-02-07T04:22:26.8598968+01:00",
-    "AssociateFullName": "Waino Luettgen",
-    "CreatedBy": "nobis",
-    "UpdatedBy": "omnis",
-    "DeviceIdentifier": "omnis",
-    "ForeignAppId": 318,
+    "ForeignDeviceId": 492,
+    "Name": "Mohr LLC",
+    "CreatedDate": "2012-07-03T13:28:22.8510314+02:00",
+    "UpdatedDate": "2009-09-12T13:28:22.8510314+02:00",
+    "AssociateFullName": "Simeon Turcotte",
+    "CreatedBy": "officia",
+    "UpdatedBy": "et",
+    "DeviceIdentifier": "voluptas",
+    "ForeignAppId": 601,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 994
       }
     }
   }

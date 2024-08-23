@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Bernhard, Douglas and Raynor",
-    "ToolTip": "Dolorem consequatur.",
-    "Deleted": true,
-    "Rank": 136,
-    "Type": "voluptatem",
-    "ColorBlock": 360,
-    "IconHint": "ducimus",
+    "Id": 567,
+    "Name": "Zboncak LLC",
+    "ToolTip": "Voluptatem dolor illum qui ratione.",
+    "Deleted": false,
+    "Rank": 644,
+    "Type": "ducimus",
+    "ColorBlock": 794,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2023-10-31T04:22:36.0184671+01:00",
+    "LastChanged": "2009-04-12T13:28:32.9290905+02:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Herman-Paucek",
-        "ToolTip": "Numquam enim.",
-        "Deleted": false,
-        "Rank": 264,
-        "Type": "autem",
-        "ColorBlock": 494,
-        "IconHint": "quo",
+        "Id": 290,
+        "Name": "Simonis-Schoen",
+        "ToolTip": "Doloremque quas voluptas corrupti commodi est.",
+        "Deleted": true,
+        "Rank": 8,
+        "Type": "ex",
+        "ColorBlock": 562,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2001-08-23T04:22:36.0184671+02:00",
+        "LastChanged": "2005-04-12T13:28:32.9290905+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "eum",
+        "ExtraInfo": "beatae",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Dr. Evelyn Jules Murray"
+        "FullName": "Hipolito Price"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Dominique Macejkovic"
+    "ExtraInfo": "beatae",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Shanny Mante"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Bosco-Stamm",
-    "ToolTip": "Vel iusto non et inventore.",
-    "Deleted": false,
-    "Rank": 49,
-    "Type": "hic",
-    "ColorBlock": 819,
-    "IconHint": "qui",
+    "Id": 372,
+    "Name": "Jewess-Koss",
+    "ToolTip": "Quia magnam ea quibusdam et ullam harum fugit.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "sunt",
+    "ColorBlock": 989,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "1998-07-22T04:22:36.0184671+02:00",
+    "LastChanged": "1998-08-31T13:28:32.9290905+02:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Aufderhar-Lakin",
-        "ToolTip": "Perferendis repudiandae aut consectetur qui atque.",
+        "Id": 810,
+        "Name": "Johnson, Daniel and O'Hara",
+        "ToolTip": "Nobis libero illo enim sed dolorem quasi.",
         "Deleted": false,
-        "Rank": 78,
-        "Type": "sed",
-        "ColorBlock": 690,
-        "IconHint": "et",
+        "Rank": 879,
+        "Type": "libero",
+        "ColorBlock": 952,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2008-07-09T04:22:36.0184671+02:00",
+        "LastChanged": "2019-04-02T13:28:32.9290905+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Nellie Rippin",
+        "ExtraInfo": "sed",
+        "StyleHint": "labore",
+        "Hidden": true,
+        "FullName": "Hilma Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Mr. Adelbert Wolff III",
+    "ExtraInfo": "vitae",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Ana Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldLength": 581
       }
     }
   }

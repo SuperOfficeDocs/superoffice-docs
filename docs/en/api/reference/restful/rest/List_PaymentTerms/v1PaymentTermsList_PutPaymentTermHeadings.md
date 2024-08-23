@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 101,
-    "Name": "Fadel, Hudson and Strosin",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 491,
-    "UdListDefinitionId": 141
+    "HeadingId": 932,
+    "Name": "Hegmann-Moen",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 736,
+    "UdListDefinitionId": 107
   },
   {
-    "HeadingId": 101,
-    "Name": "Fadel, Hudson and Strosin",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 491,
-    "UdListDefinitionId": 141
+    "HeadingId": 932,
+    "Name": "Hegmann-Moen",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 736,
+    "UdListDefinitionId": 107
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 289,
-    "Name": "Vandervort, McKenzie and Watsica",
-    "Tooltip": "perferendis",
-    "Deleted": true,
-    "Rank": 654,
-    "UdListDefinitionId": 324,
+    "HeadingId": 601,
+    "Name": "Towne-Marvin",
+    "Tooltip": "cupiditate",
+    "Deleted": false,
+    "Rank": 935,
+    "UdListDefinitionId": 592,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldType": "System.String",
+        "FieldLength": 999
       }
     }
   }

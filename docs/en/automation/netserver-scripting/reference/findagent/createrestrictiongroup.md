@@ -2,10 +2,10 @@
 uid: findagent-createrestrictiongroup
 title: FindAgent.CreateRestrictionGroup event method
 description: Scripting events called on the CreateRestrictionGroup method on the FindAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FindAgent.CreateRestrictionGroup
 

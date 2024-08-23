@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Schuster, McDermott and Roberts",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 929,
+  "Id": 563,
+  "Name": "Beer Group",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 880,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Pagac-Gutkowski",
-  "Tooltip": "et",
+  "Id": 745,
+  "Name": "Nikolaus, Leannon and Wilkinson",
+  "Tooltip": "consequuntur",
   "Deleted": true,
-  "Rank": 559,
-  "IsCustomList": true,
+  "Rank": 414,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "magni",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 386
     }
   }
 }

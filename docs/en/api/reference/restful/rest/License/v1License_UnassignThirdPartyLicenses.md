@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 640,
-    "Tooltip": "sed",
+    "Total": 295,
+    "Tooltip": "alias",
     "CanAssign": true,
-    "Free": 929,
-    "InUse": 44,
-    "IsHidden": false,
+    "Free": 830,
+    "InUse": 524,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 33,
-    "Name": "Gibson-Jacobson",
-    "Description": "Horizontal 4th generation archive",
-    "PrerequisiteModuleName": "Schultz Group",
-    "SortOrder": 116,
-    "ExtraFlags": 581,
+    "ModuleLicenseId": 583,
+    "Name": "Kiehn LLC",
+    "Description": "Cross-group logistical knowledge base",
+    "PrerequisiteModuleName": "Dach-Rempel",
+    "SortOrder": 424,
+    "ExtraFlags": 111,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 413
       }
     }
   }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 105,
-  "StartTime": "2019-04-02T04:22:26.4978545+02:00",
-  "EndTime": "2008-03-25T04:22:26.4978545+01:00",
-  "Count": 791,
-  "DocumentTemplateId": 767
+  "PersonId": 549,
+  "StartTime": "2000-08-12T13:28:22.4604993+02:00",
+  "EndTime": "2005-09-22T13:28:22.4604993+02:00",
+  "Count": 926,
+  "DocumentTemplateId": 722
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 687,
-    "Attention": "dicta",
-    "Header": "tenetur",
-    "Name": "Frami LLC",
-    "OurRef": "quia",
-    "YourRef": "minus",
-    "Description": "Expanded explicit migration",
-    "DocumentTemplate": "totam",
+    "DocumentId": 140,
+    "Attention": "et",
+    "Header": "quas",
+    "Name": "DuBuque, Miller and Russel",
+    "OurRef": "fugit",
+    "YourRef": "libero",
+    "Description": "Profound maximized hierarchy",
+    "DocumentTemplate": "dolorem",
     "IsPublished": false,
-    "PersonId": 242,
-    "PersonFullName": "Prof. Evalyn Neal O'Keefe",
-    "AssociateFullName": "Ruben Fadel",
-    "ContactId": 692,
-    "ContactName": "Sauer Inc and Sons",
-    "ProjectId": 67,
-    "ProjectName": "Maggio Group",
-    "AssociateId": 302,
-    "Snum": 696,
-    "SaleId": 101,
-    "SaleName": "Boyle Inc and Sons",
+    "PersonId": 455,
+    "PersonFullName": "Claud Pollich MD",
+    "AssociateFullName": "Dr. Janessa Ida Treutel",
+    "ContactId": 632,
+    "ContactName": "Collier-Jenkins",
+    "ProjectId": 378,
+    "ProjectName": "Rowe LLC",
+    "AssociateId": 937,
+    "Snum": 760,
+    "SaleId": 154,
+    "SaleName": "Bruen-Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

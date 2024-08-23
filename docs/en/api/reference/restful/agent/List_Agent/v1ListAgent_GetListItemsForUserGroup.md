@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 648,
-  "GroupId": 53
+  "UdListDefinitionId": 347,
+  "GroupId": 538
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Kirlin, Roberts and Berge",
-    "ToolTip": "Voluptates ut consectetur odio qui sed.",
-    "Deleted": true,
-    "Rank": 654,
-    "Type": "corrupti",
-    "ColorBlock": 5,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2003-01-08T04:22:26.969259+01:00",
+    "Id": 142,
+    "Name": "Friesen-Hamill",
+    "ToolTip": "Non laboriosam.",
+    "Deleted": false,
+    "Rank": 771,
+    "Type": "officia",
+    "ColorBlock": 819,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "1998-04-22T13:28:22.9449983+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Zboncak-Blick",
-        "ToolTip": "Expedita dolores voluptatibus non rerum pariatur ex ut.",
-        "Deleted": false,
-        "Rank": 437,
-        "Type": "minima",
-        "ColorBlock": 966,
-        "IconHint": "sapiente",
+        "Id": 518,
+        "Name": "Gutmann, McLaughlin and Wolf",
+        "ToolTip": "Ducimus autem dolorum excepturi sint.",
+        "Deleted": true,
+        "Rank": 493,
+        "Type": "facere",
+        "ColorBlock": 849,
+        "IconHint": "dolores",
         "Selected": true,
-        "LastChanged": "2002-02-19T04:22:26.969259+01:00",
+        "LastChanged": "2024-04-15T13:28:22.9449983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "optio",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Mrs. Cayla Kuvalis",
+        "FullName": "Agustina O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 681
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "culpa",
+    "ExtraInfo": "harum",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Isaias Damaris Monahan I",
+    "FullName": "Sven Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Douglas",
-    "DisplayName": "Yost, Greenholt and Aufderhar",
-    "DisplayTooltip": "odit",
-    "IsActive": true
+    "Name": "Kohler-Hane",
+    "DisplayName": "Erdman, Dietrich and Hills",
+    "DisplayTooltip": "vitae",
+    "IsActive": false
   },
   {
-    "Name": "Gusikowski-Douglas",
-    "DisplayName": "Yost, Greenholt and Aufderhar",
-    "DisplayTooltip": "odit",
-    "IsActive": true
+    "Name": "Kohler-Hane",
+    "DisplayName": "Erdman, Dietrich and Hills",
+    "DisplayTooltip": "vitae",
+    "IsActive": false
   }
 ]
 ```

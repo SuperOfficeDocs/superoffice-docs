@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 132,
-  "Name": "Blanda-Kunze",
-  "ConsentText": "recusandae",
-  "FormText": "ab",
-  "Key": "harum",
-  "Tooltip": "aut",
-  "Active": 839,
-  "UpdatedDate": "2023-09-14T04:22:35.8465939+02:00",
+  "ConsentPurposeId": 731,
+  "Name": "Jewess Group",
+  "ConsentText": "voluptates",
+  "FormText": "ipsam",
+  "Key": "quo",
+  "Tooltip": "ratione",
+  "Active": 200,
+  "UpdatedDate": "2011-08-15T13:28:32.7260108+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 713,
-  "PrivacyStatementDesc": "quis",
+  "Deleted": true,
+  "Rank": 829,
+  "PrivacyStatementDesc": "cumque",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 64,
-  "Name": "Langosh-Kiehn",
-  "ConsentText": "consequatur",
-  "FormText": "harum",
-  "Key": "sit",
-  "Tooltip": "aut",
-  "Active": 761,
-  "UpdatedDate": "1997-12-09T04:22:35.8465939+01:00",
+  "ConsentPurposeId": 900,
+  "Name": "Sauer, Schowalter and Cummings",
+  "ConsentText": "id",
+  "FormText": "voluptas",
+  "Key": "expedita",
+  "Tooltip": "aliquid",
+  "Active": 67,
+  "UpdatedDate": "2002-02-08T13:28:32.7260108+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 148,
-  "PrivacyStatementDesc": "voluptatem",
+  "Rank": 239,
+  "PrivacyStatementDesc": "quia",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

@@ -3,9 +3,9 @@ uid: LastTickets
 title: LastTickets
 description: 
 keywords: LastTickets archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "LastTickets"
@@ -757,7 +757,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LastTickets?$select=person/personNoMail,person/correspondingAssociate/isActive,contact/registeredDate,contact/contactUdef/SuperOffice:6,contact/contactUdef/SuperOffice:9
+GET /api/v1/archive/LastTickets?$select=ownedBy/firstName,person/personExtra/x_person_priority_relation,person/personExtra/y_rental/x_start,person/personAssociate/personId,contact/contactPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

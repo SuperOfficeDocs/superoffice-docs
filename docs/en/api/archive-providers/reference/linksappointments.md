@@ -3,9 +3,9 @@ uid: LinksAppointments
 title: LinksAppointments
 description: Link data provider for appointments, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksAppointments archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "LinksAppointments"
@@ -730,7 +730,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/updatedByFullName,person/email/emailLastBounce,person/personAssociate/lastName,project/projectPublish/isPublished
+GET /api/v1/archive/LinksAppointments?$select=contact/NumberOfNotCompletedSales,project/registeredByFullName,sale/stageRank,destinationAppointmentRestrictionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

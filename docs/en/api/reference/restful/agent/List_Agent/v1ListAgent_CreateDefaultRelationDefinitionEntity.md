@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 165,
-  "Name": "Wolff Inc and Sons",
-  "Tooltip": "tempore",
-  "PassiveText": "et",
+  "ReldefId": 661,
+  "Name": "Sporer, Metz and Mitchell",
+  "Tooltip": "enim",
+  "PassiveText": "asperiores",
   "Deleted": true,
-  "Rank": 236,
+  "Rank": 405,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 988
     }
   }
 }

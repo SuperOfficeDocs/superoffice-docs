@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "cum",
-  "PluginId": 775
+  "LanguageCode": "non",
+  "PluginId": 759
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 310,
-  "Name": "Fisher Inc and Sons",
-  "Tooltip": "et",
-  "SaveInDb": 18,
-  "Filename": "tenetur",
-  "DefaultOref": "architecto",
+  "DocumentTemplateId": 29,
+  "Name": "Keeling Group",
+  "Tooltip": "sit",
+  "SaveInDb": 47,
+  "Filename": "assumenda",
+  "DefaultOref": "veniam",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 81,
-  "IntentId": 721,
+  "AutoeventId": 308,
+  "IntentId": 586,
   "IsDefaultPublished": false,
-  "Rank": 924,
-  "LoadTemplateFromPlugin": 747,
-  "MimeType": "harum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 991,
+  "Rank": 746,
+  "LoadTemplateFromPlugin": 875,
+  "MimeType": "amet",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 299,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "shane@douglas.com",
-  "IncludeSignature": true,
+  "EmailSubject": "christ_jacobs@mayer.co.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lurline_corwin@mcclure.biz",
+  "SenderEmailAddress": "juliet_dicki@ziemefeest.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 43
     }
   }
 }

@@ -105,8 +105,15 @@ CRMScriptEntity  updated.
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -121,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "reiciendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "reiciendis",
     "value": {}
   }
 ]
@@ -145,23 +152,52 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 976,
-  "UniqueIdentifier": "dolorem",
-  "Name": "Mills, Bauch and Vandervort",
-  "Description": "User-friendly dynamic collaboration",
-  "IncludeId": "deleniti",
-  "HierarchyId": 115,
-  "Source": "quo",
-  "Registered": "2007-03-02T04:22:34.8589991+01:00",
-  "RegisteredAssociateId": 686,
-  "Updated": "2005-05-22T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 699,
+  "EjscriptId": 665,
+  "UniqueIdentifier": "aut",
+  "Name": "Reichert, Bartell and Haley",
+  "Description": "Cross-platform non-volatile solution",
+  "IncludeId": "quae",
+  "AccessKey": "consectetur",
+  "HierarchyId": 867,
+  "Source": "aut",
+  "SourceCode": "nihil",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 409,
+  "Includes": [
+    360,
+    92
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 918,
+      "LineNumberTo": 948,
+      "Delta": 857,
+      "IncludeId": "commodi",
+      "IncludedFrom": [
+        "mollitia",
+        "eum"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 194
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2022-08-07T13:28:31.5542696+02:00",
+  "RegisteredAssociateId": 582,
+  "Updated": "2003-12-31T13:28:31.5542696+01:00",
+  "UpdatedAssociateId": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   },
   "_Links": {

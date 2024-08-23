@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "animi",
-  "ProviderName": "Stanton, Kub and Dach",
-  "StorageKey": "laborum",
+  "StorageType": "quia",
+  "ProviderName": "Kemmer, Kohler and Reichert",
+  "StorageKey": "sit",
   "Restrictions": [
     {
-      "Name": "Auer-Brekke",
-      "Operator": "adipisci",
+      "Name": "Hilpert, Johnson and Heaney",
+      "Operator": "aut",
       "Values": [
-        "et",
-        "perspiciatis"
+        "rerum",
+        "ut"
       ],
       "DisplayValues": [
-        "impedit",
-        "voluptas"
+        "nostrum",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 620,
+      "InterParenthesis": 989,
       "InterOperator": "And",
-      "UniqueHash": 214
+      "UniqueHash": 811
     }
   ],
   "StaticColumns": [
-    "ut",
-    "quae"
+    "ex",
+    "perspiciatis"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Streich Group",
-      "Operator": "repellat",
+      "Name": "Daugherty, Gaylord and Greenfelder",
+      "Operator": "non",
       "Values": [
-        "non",
-        "repudiandae"
+        "laborum",
+        "sequi"
       ],
       "DisplayValues": [
-        "in",
-        "consequatur"
+        "eum",
+        "eos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 326,
+      "InterParenthesis": 621,
       "InterOperator": "And",
-      "UniqueHash": 770
+      "UniqueHash": 146
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ernser, Hintz and Herzog",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "aut",
-      "CanOrderBy": true,
-      "Name": "Schumm-Berge",
+      "DisplayName": "Altenwerth-Schmitt",
+      "DisplayTooltip": "nemo",
+      "DisplayType": "tempora",
+      "CanOrderBy": false,
+      "Name": "Hettinger-Barrows",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Smitham Group",
-      "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "error",
-      "IconHint": "in",
-      "HeadingIconHint": "voluptatem"
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Batz Group",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "autem",
+      "IconHint": "quia",
+      "HeadingIconHint": "praesentium"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Powlowski, Wiegand and Kohler",
-      "PrimaryKey": 21,
+      "EntityName": "Zboncak-Baumbach",
+      "PrimaryKey": 368,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "molestiae",
-          "LinkHint": "amet"
+          "DisplayValue": "voluptates",
+          "TooltipHint": "nisi",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "aut",
+      "LinkHint": "quam",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hilpert Inc and Sons",
-      "Description": "Exclusive reciprocal time-frame",
-      "Rank": 690,
+      "Name": "Haag, Swift and Schinner",
+      "Description": "Customizable well-modulated archive",
+      "Rank": 621,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hilpert Inc and Sons",
-      "Description": "Exclusive reciprocal time-frame",
-      "Rank": 690,
+      "Name": "Haag, Swift and Schinner",
+      "Description": "Customizable well-modulated archive",
+      "Rank": 621,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 354
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 400,
-    "ColumnId": 276,
-    "FieldDefault": "aut",
-    "FieldHeight": 905,
-    "FieldLabel": "nobis",
-    "FieldLeft": 529,
-    "FieldTop": 257,
+    "UDefFieldId": 68,
+    "ColumnId": 352,
+    "FieldDefault": "veritatis",
+    "FieldHeight": 63,
+    "FieldLabel": "totam",
+    "FieldLeft": 143,
+    "FieldTop": 334,
     "FieldType": "Checkbox",
-    "FieldWidth": 277,
-    "FormatMask": "vitae",
+    "FieldWidth": 475,
+    "FormatMask": "veritatis",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 578,
-    "LabelLeft": 321,
-    "LabelTop": 382,
-    "LabelWidth": 335,
-    "LastVersionId": 693,
-    "ListTableId": 588,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 457,
+    "LabelLeft": 604,
+    "LabelTop": 687,
+    "LabelWidth": 381,
+    "LastVersionId": 578,
+    "ListTableId": 513,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 841,
-    "ProgId": "sunt",
-    "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 571,
-    "TextLength": 833,
-    "Tooltip": "ipsa",
-    "UdefIdentity": 805,
-    "UDListDefinitionId": 899,
+    "Page1LineNo": 887,
+    "ProgId": "ad",
+    "IsReadOnly": true,
+    "ShortLabel": "minus",
+    "TabOrder": 487,
+    "TextLength": 274,
+    "Tooltip": "enim",
+    "UdefIdentity": 747,
+    "UDListDefinitionId": 11,
     "Justification": "Center",
-    "Version": 371,
-    "TemplateVariableName": "Harris Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Beer-Dooley",
+    "Version": 294,
+    "TemplateVariableName": "Adams-Heaney",
+    "HasBeenPublished": false,
+    "MdoListName": "Fadel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 202
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

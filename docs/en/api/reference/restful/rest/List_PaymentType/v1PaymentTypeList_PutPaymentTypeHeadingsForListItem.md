@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Et quia qui eius veritatis omnis ut quo.",
+    "Id": 247,
+    "Name": "Labadie-Maggio",
+    "ToolTip": "Eum ipsam qui.",
     "Deleted": false,
-    "Rank": 630,
-    "Type": "est",
-    "ColorBlock": 148,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2006-07-04T04:22:36.0028417+02:00",
+    "Rank": 653,
+    "Type": "et",
+    "ColorBlock": 293,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2005-11-13T13:28:32.9134667+01:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Balistreri Inc and Sons",
-        "ToolTip": "Repellendus officiis corrupti pariatur aut.",
+        "Id": 876,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Reiciendis et accusamus.",
         "Deleted": false,
-        "Rank": 744,
-        "Type": "ab",
-        "ColorBlock": 730,
-        "IconHint": "impedit",
+        "Rank": 235,
+        "Type": "molestiae",
+        "ColorBlock": 211,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2015-01-09T04:22:36.0028417+01:00",
+        "LastChanged": "2020-12-23T13:28:32.9134667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "id",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Kenton Maggio"
+        "FullName": "Jude Bashirian"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Izabella Quigley"
+    "ExtraInfo": "accusantium",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Kathryn Dibbert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Smitham-Kris",
-    "ToolTip": "Incidunt et.",
-    "Deleted": false,
-    "Rank": 761,
-    "Type": "corrupti",
-    "ColorBlock": 576,
-    "IconHint": "dolorem",
+    "Id": 554,
+    "Name": "Johns, Lind and Jenkins",
+    "ToolTip": "Esse quae.",
+    "Deleted": true,
+    "Rank": 31,
+    "Type": "reprehenderit",
+    "ColorBlock": 470,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2013-02-22T04:22:36.0184671+01:00",
+    "LastChanged": "2022-09-23T13:28:32.9134667+02:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Herzog Inc and Sons",
-        "ToolTip": "Quia dignissimos ipsa sint mollitia.",
+        "Id": 170,
+        "Name": "Lind LLC",
+        "ToolTip": "Quas autem eos quas aut.",
         "Deleted": false,
-        "Rank": 705,
-        "Type": "reiciendis",
-        "ColorBlock": 597,
-        "IconHint": "alias",
+        "Rank": 318,
+        "Type": "et",
+        "ColorBlock": 952,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2011-07-15T04:22:36.0184671+02:00",
+        "LastChanged": "2003-06-07T13:28:32.9134667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "quae",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Aylin Cronin",
+        "FullName": "Mrs. Johanna Prince Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 244
+            "FieldType": "System.String",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Jaren Daugherty II",
+    "ExtraInfo": "sint",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Dorthy Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 244
       }
     }
   }

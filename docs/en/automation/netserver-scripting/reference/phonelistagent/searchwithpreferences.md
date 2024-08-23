@@ -2,10 +2,10 @@
 uid: phonelistagent-searchwithpreferences
 title: PhoneListAgent.SearchWithPreferences event method
 description: Scripting events called on the SearchWithPreferences method on the PhoneListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PhoneListAgent.SearchWithPreferences
 

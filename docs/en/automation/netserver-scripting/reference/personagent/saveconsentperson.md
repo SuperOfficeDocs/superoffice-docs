@@ -2,10 +2,10 @@
 uid: personagent-saveconsentperson
 title: PersonAgent.SaveConsentPerson event method
 description: Scripting events called on the SaveConsentPerson method on the PersonAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PersonAgent.SaveConsentPerson
 

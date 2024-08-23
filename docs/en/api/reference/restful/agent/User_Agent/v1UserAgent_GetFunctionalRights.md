@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 968
+  "RoleId": 261
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Robel-King",
-    "ToolTip": "Libero vero.",
+    "Id": 51,
+    "Name": "Hauck, Yost and Aufderhar",
+    "ToolTip": "Amet sed laudantium.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "enim",
-    "ColorBlock": 664,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "2012-01-13T04:22:28.0850044+01:00",
+    "Rank": 667,
+    "Type": "placeat",
+    "ColorBlock": 683,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "1997-12-27T13:28:24.1635033+01:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Marquardt-Hills",
-        "ToolTip": "Quo labore quia itaque non est ut.",
+        "Id": 734,
+        "Name": "Bradtke-Howell",
+        "ToolTip": "Alias dolor omnis quod qui optio dicta velit.",
         "Deleted": false,
-        "Rank": 565,
-        "Type": "in",
-        "ColorBlock": 681,
-        "IconHint": "cupiditate",
+        "Rank": 117,
+        "Type": "totam",
+        "ColorBlock": 236,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2012-01-03T04:22:28.0850044+01:00",
+        "LastChanged": "2018-09-07T13:28:24.1635033+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Giuseppe Turner",
+        "ExtraInfo": "unde",
+        "StyleHint": "dolorum",
+        "Hidden": true,
+        "FullName": "Crystel Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "facilis",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Simone Walsh",
+    "FullName": "Madison Considine V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

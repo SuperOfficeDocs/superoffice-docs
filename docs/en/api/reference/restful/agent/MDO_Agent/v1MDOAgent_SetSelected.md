@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walsh, Raynor and Rolfson",
-  "AdditionalInfo": "molestiae",
+  "Name": "Nicolas-Swift",
+  "AdditionalInfo": "atque",
   "SelectableMDOList": [
     {
-      "Id": 743,
-      "Name": "Ferry, Sanford and Hauck",
-      "ToolTip": "Qui eaque occaecati aspernatur ut.",
+      "Id": 312,
+      "Name": "Johns-Huels",
+      "ToolTip": "Maiores ab.",
       "Deleted": false,
-      "Rank": 704,
-      "Type": "laboriosam",
-      "ColorBlock": 987,
-      "IconHint": "unde",
-      "Selected": true,
-      "LastChanged": "2006-01-29T04:22:27.0810055+01:00",
+      "Rank": 987,
+      "Type": "impedit",
+      "ColorBlock": 619,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2005-10-14T13:28:23.0699949+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "eaque",
-      "Hidden": false,
-      "FullName": "Mrs. Angeline Stiedemann III"
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "perferendis",
+      "Hidden": true,
+      "FullName": "Miss Pattie Neil Pollich"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Murray, Wiegand and O'Kon",
-    "ToolTip": "Quidem expedita et.",
-    "Deleted": false,
-    "Rank": 629,
-    "Type": "esse",
-    "ColorBlock": 590,
-    "IconHint": "voluptate",
+    "Id": 782,
+    "Name": "Turcotte Group",
+    "ToolTip": "Dolor voluptatibus nihil.",
+    "Deleted": true,
+    "Rank": 959,
+    "Type": "omnis",
+    "ColorBlock": 775,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "1999-07-14T04:22:27.0966232+02:00",
+    "LastChanged": "2016-01-15T13:28:23.0699949+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Kunde-Weimann",
-        "ToolTip": "Ut voluptate enim qui quasi est.",
+        "Id": 407,
+        "Name": "Lang Inc and Sons",
+        "ToolTip": "Aut rerum nesciunt adipisci iure.",
         "Deleted": false,
-        "Rank": 729,
-        "Type": "placeat",
-        "ColorBlock": 985,
-        "IconHint": "blanditiis",
+        "Rank": 601,
+        "Type": "dolorem",
+        "ColorBlock": 91,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2006-06-25T04:22:27.0966232+02:00",
+        "LastChanged": "2012-07-22T13:28:23.0699949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolores",
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Miss Kayden Wyatt Aufderhar",
+        "FullName": "Daniela Mia Sawayn IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldLength": 798
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "autem",
+    "ExtraInfo": "dolore",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Mrs. Claude Hilpert Jr.",
+    "FullName": "Mireille Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 357
       }
     }
   }

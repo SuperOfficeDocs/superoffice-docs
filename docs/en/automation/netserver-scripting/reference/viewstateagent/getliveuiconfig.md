@@ -2,10 +2,10 @@
 uid: viewstateagent-getliveuiconfig
 title: ViewStateAgent.GetLiveUiConfig event method
 description: Scripting events called on the GetLiveUiConfig method on the ViewStateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ViewStateAgent.GetLiveUiConfig
 

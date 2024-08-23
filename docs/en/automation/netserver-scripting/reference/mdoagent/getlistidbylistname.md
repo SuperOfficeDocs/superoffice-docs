@@ -2,10 +2,10 @@
 uid: mdoagent-getlistidbylistname
 title: MDOAgent.GetListIdByListName event method
 description: Scripting events called on the GetListIdByListName method on the MDOAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MDOAgent.GetListIdByListName
 

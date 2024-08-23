@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 288,
-  "AppointmentId": 529,
-  "ProjectId": 493,
-  "SaleId": 956,
+  "DocumentId": 190,
+  "AppointmentId": 799,
+  "ProjectId": 965,
+  "SaleId": 773,
   "Archived": true,
-  "ArchivedAt": "2023-03-19T04:22:26.7178597+01:00",
-  "ArchivedBy": 953,
-  "ArchivedDisplayName": "Jewess, Reinger and Trantow",
+  "ArchivedAt": "2019-01-31T13:28:22.6791961+01:00",
+  "ArchivedBy": 253,
+  "ArchivedDisplayName": "Bartoletti LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 506
     }
   }
 }

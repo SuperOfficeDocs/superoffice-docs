@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Vandervort, Rohan and Tremblay",
-    "Description": "Distributed static orchestration",
+    "Name": "Runolfsdottir-Waelchi",
+    "Description": "Cross-platform reciprocal info-mediaries",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 202,
-        "Tooltip": "perspiciatis",
+        "Total": 889,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 787,
-        "InUse": 788,
-        "IsHidden": false,
+        "Free": 36,
+        "InUse": 820,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 529,
-        "Name": "Willms-Boehm",
-        "Description": "Re-contextualized background architecture",
-        "PrerequisiteModuleName": "Dach Group",
-        "SortOrder": 607,
-        "ExtraFlags": 405,
+        "ModuleLicenseId": 150,
+        "Name": "Schumm, Swift and Heidenreich",
+        "Description": "Future-proofed stable data-warehouse",
+        "PrerequisiteModuleName": "Bechtelar-Okuneva",
+        "SortOrder": 580,
+        "ExtraFlags": 713,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldLength": 223
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 919,
-        "Tooltip": "perferendis",
+        "Unrestricted": true,
+        "Total": 170,
+        "Tooltip": "voluptate",
         "CanAssign": true,
-        "Free": 578,
-        "InUse": 460,
+        "Free": 190,
+        "InUse": 54,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 657,
-        "Name": "Kreiger, Hills and Watsica",
-        "Description": "Multi-channelled foreground groupware",
-        "PrerequisiteModuleName": "Reichert LLC",
-        "SortOrder": 870,
-        "ExtraFlags": 405,
+        "Assigned": true,
+        "ModuleLicenseId": 816,
+        "Name": "Deckow-Torphy",
+        "Description": "Integrated intangible approach",
+        "PrerequisiteModuleName": "Bechtelar, Greenfelder and Wilderman",
+        "SortOrder": 774,
+        "ExtraFlags": 965,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldType": "System.String",
+            "FieldLength": 97
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 190
       }
     }
   },
   {
-    "Name": "Vandervort, Rohan and Tremblay",
-    "Description": "Distributed static orchestration",
+    "Name": "Runolfsdottir-Waelchi",
+    "Description": "Cross-platform reciprocal info-mediaries",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 202,
-        "Tooltip": "perspiciatis",
+        "Total": 889,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 787,
-        "InUse": 788,
-        "IsHidden": false,
+        "Free": 36,
+        "InUse": 820,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 529,
-        "Name": "Willms-Boehm",
-        "Description": "Re-contextualized background architecture",
-        "PrerequisiteModuleName": "Dach Group",
-        "SortOrder": 607,
-        "ExtraFlags": 405,
+        "ModuleLicenseId": 150,
+        "Name": "Schumm, Swift and Heidenreich",
+        "Description": "Future-proofed stable data-warehouse",
+        "PrerequisiteModuleName": "Bechtelar-Okuneva",
+        "SortOrder": 580,
+        "ExtraFlags": 713,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldLength": 223
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 919,
-        "Tooltip": "perferendis",
+        "Unrestricted": true,
+        "Total": 170,
+        "Tooltip": "voluptate",
         "CanAssign": true,
-        "Free": 578,
-        "InUse": 460,
+        "Free": 190,
+        "InUse": 54,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 657,
-        "Name": "Kreiger, Hills and Watsica",
-        "Description": "Multi-channelled foreground groupware",
-        "PrerequisiteModuleName": "Reichert LLC",
-        "SortOrder": 870,
-        "ExtraFlags": 405,
+        "Assigned": true,
+        "ModuleLicenseId": 816,
+        "Name": "Deckow-Torphy",
+        "Description": "Integrated intangible approach",
+        "PrerequisiteModuleName": "Bechtelar, Greenfelder and Wilderman",
+        "SortOrder": 774,
+        "ExtraFlags": 965,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldType": "System.String",
+            "FieldLength": 97
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 190
       }
     }
   }

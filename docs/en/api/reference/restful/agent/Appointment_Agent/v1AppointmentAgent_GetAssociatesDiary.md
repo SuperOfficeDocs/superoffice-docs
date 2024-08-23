@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    413,
-    148
+    73,
+    460
   ],
-  "StartTime": "2019-05-19T04:22:25.6834441+02:00",
-  "EndTime": "2004-05-27T04:22:25.6834441+02:00"
+  "StartTime": "2021-10-15T13:28:21.4605072+02:00",
+  "EndTime": "2006-11-24T13:28:21.4605072+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 264,
-    "StartDate": "2008-01-06T04:22:25.6834441+01:00",
-    "EndDate": "2013-01-07T04:22:25.6834441+01:00",
+    "AppointmentId": 66,
+    "StartDate": "2012-02-17T13:28:21.4605072+01:00",
+    "EndDate": "2004-08-15T13:28:21.4605072+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Shirley Waelchi",
-    "ContactName": "Nader-Spinka",
-    "Description": "Streamlined heuristic info-mediaries",
-    "PersonFullName": "Leon Kris",
-    "PersonId": 701,
-    "ContactId": 102,
-    "ProjectId": 314,
-    "ProjectName": "Ryan LLC",
+    "Task": "in",
+    "AssociateFullName": "Ms. Cheyanne Friedrich Bednar II",
+    "ContactName": "Morissette Inc and Sons",
+    "Description": "Multi-lateral bi-directional methodology",
+    "PersonFullName": "Prof. Isobel King",
+    "PersonId": 744,
+    "ContactId": 306,
+    "ProjectId": 549,
+    "ProjectName": "Bednar Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 220,
-    "ColorIndex": 564,
+    "AssociateId": 930,
+    "ColorIndex": 143,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 629,
-    "PriorityName": "Balistreri LLC",
+    "PriorityId": 770,
+    "PriorityName": "Harvey Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-09-06T04:22:25.6834441+02:00",
+    "ActiveDate": "1997-04-17T13:28:21.4605072+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-07-12T04:22:25.6834441+02:00",
-    "RecurringEndDate": "1999-05-14T04:22:25.6834441+02:00",
-    "MotherId": 810,
-    "AssignedBy": 142,
-    "AssignedByFullName": "Nyah Gleichner DVM",
+    "RecurringStartDate": "2011-12-10T13:28:21.4605072+01:00",
+    "RecurringEndDate": "2013-12-21T13:28:21.4605072+01:00",
+    "MotherId": 872,
+    "AssignedBy": 972,
+    "AssignedByFullName": "Mrs. Connie Rath III",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "quia",
-    "SaleId": 794,
-    "SaleName": "Thompson Inc and Sons",
-    "AssociateName": "Murray, Sauer and Kuhlman",
-    "CreatedDate": "2001-03-31T04:22:25.6834441+02:00",
-    "CreatedBy": "nobis",
-    "CreatedByFullName": "Miracle Hand",
-    "CreatedByAssociateId": 38,
+    "Location": "soluta",
+    "AlarmLeadTime": "quis",
+    "SaleId": 901,
+    "SaleName": "Funk-King",
+    "AssociateName": "Gleason, Trantow and Jast",
+    "CreatedDate": "2024-05-14T13:28:21.4605072+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Mr. Kaya Rippin Sr.",
+    "CreatedByAssociateId": 761,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 177,
-    "Title": "vero",
-    "Agenda": "enim",
-    "InternalNotes": "autem",
+    "PreferredTZLocation": 682,
+    "Title": "maiores",
+    "Agenda": "sed",
+    "InternalNotes": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 191
       }
     }
   }

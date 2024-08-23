@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Robel Group",
-  "Tooltip": "quibusdam",
+  "Id": 53,
+  "Name": "Hauck LLC",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 229,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eius",
+  "Rank": 518,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 531
     }
   },
   "_Links": {

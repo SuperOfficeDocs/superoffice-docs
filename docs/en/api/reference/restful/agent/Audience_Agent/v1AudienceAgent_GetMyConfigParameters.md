@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 792,
-    "Name": "Gleichner-Wyman",
-    "Value": "magnam",
-    "CreatedDate": "2019-08-31T04:22:25.9965968+02:00",
-    "UpdatedDate": "2018-02-10T04:22:25.9965968+01:00",
-    "CreatedBy": "culpa",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 897,
+    "Name": "Maggio, Keebler and Lowe",
+    "Value": "incidunt",
+    "CreatedDate": "2021-07-07T13:28:21.8356378+02:00",
+    "UpdatedDate": "2022-04-30T13:28:21.8356378+02:00",
+    "CreatedBy": "autem",
+    "UpdatedBy": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 318
       }
     }
   }

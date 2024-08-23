@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=at
-GET /api/v1/Script?$top=875
-GET /api/v1/Script?$skip=691
+GET /api/v1/Script?$entities=quas
+GET /api/v1/Script?$top=545
+GET /api/v1/Script?$skip=632
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=est
+GET /api/v1/Script?$context=necessitatibus
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "veritatis",
+  "odata.nextLink": "eum",
   "value": [
     {
-      "PrimaryKey": 3619,
+      "PrimaryKey": 7144,
       "EntityName": "sale",
-      "saleId": 3619,
-      "contactId": 3543,
-      "name": "Schamberger Inc and Sons"
+      "saleId": 7144,
+      "contactId": 2840,
+      "name": "Macejkovic LLC"
     },
     {
-      "PrimaryKey": 1721,
+      "PrimaryKey": 2656,
       "EntityName": "sale",
-      "saleId": 1721,
-      "contactId": 4559,
-      "name": "Padberg Inc and Sons"
+      "saleId": 2656,
+      "contactId": 1872,
+      "name": "Blanda-McGlynn"
     }
   ]
 }

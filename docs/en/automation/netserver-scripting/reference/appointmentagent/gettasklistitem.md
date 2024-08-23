@@ -2,10 +2,10 @@
 uid: appointmentagent-gettasklistitem
 title: AppointmentAgent.GetTaskListItem event method
 description: Scripting events called on the GetTaskListItem method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.GetTaskListItem
 

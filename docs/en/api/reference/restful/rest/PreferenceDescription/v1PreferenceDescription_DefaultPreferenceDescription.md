@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 790,
-  "Section": "eos",
-  "Key": "officia",
-  "Name": "Breitenberg, Witting and White",
+  "PrefDescId": 283,
+  "Section": "est",
+  "Key": "porro",
+  "Name": "Boyer Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face content-based Graphic Interface",
-  "IsBuiltin": true,
-  "TableName": "Lueilwitz, Goldner and Rutherford",
-  "UserDefinedListId": 36,
-  "Rank": 692,
-  "SubGroup": "delectus",
-  "MinLevel": 238,
-  "MaxValue": 848,
-  "MinValue": 146,
-  "RequiredLicense": "officia",
+  "Description": "Decentralized zero tolerance approach",
+  "IsBuiltin": false,
+  "TableName": "Fisher-Champlin",
+  "UserDefinedListId": 875,
+  "Rank": 233,
+  "SubGroup": "et",
+  "MinLevel": 199,
+  "MaxValue": 694,
+  "MinValue": 862,
+  "RequiredLicense": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldLength": 961
     }
   }
 }

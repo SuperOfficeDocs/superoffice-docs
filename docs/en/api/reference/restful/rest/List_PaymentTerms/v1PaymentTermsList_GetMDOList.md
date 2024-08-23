@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=rerum
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=consectetur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Wehner Group",
-    "ToolTip": "Aut exercitationem consequuntur similique.",
-    "Deleted": true,
-    "Rank": 631,
-    "Type": "ut",
+    "Id": 635,
+    "Name": "Schneider LLC",
+    "ToolTip": "Eligendi hic rerum ut.",
+    "Deleted": false,
+    "Rank": 839,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Harber, Kassulke and Crist",
-        "ToolTip": "Odio nisi.",
-        "Deleted": false,
-        "Rank": 655,
-        "Type": "ut",
+        "Id": 406,
+        "Name": "Fahey, Vandervort and Gerlach",
+        "ToolTip": "Aut quia odit voluptatum.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 781,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "voluptatibus",
-        "FullName": "Eli Langosh",
+        "IconHint": "ut",
+        "ColorBlock": 789,
+        "ExtraInfo": "sunt",
+        "StyleHint": "neque",
+        "FullName": "Misael Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldLength": 262
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 997,
-    "ExtraInfo": "ab",
-    "StyleHint": "consequuntur",
-    "FullName": "Prof. Aimee Patrick Schowalter III",
+    "IconHint": "sequi",
+    "ColorBlock": 742,
+    "ExtraInfo": "vel",
+    "StyleHint": "et",
+    "FullName": "Sven Bogan I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 451
       }
     }
   }

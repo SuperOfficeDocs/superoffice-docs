@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 500
+  "DashboardId": 812
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 449,
-  "Name": "Weissnat, Brekke and Jacobs",
-  "Description": "Profit-focused content-based artificial intelligence",
-  "OwnedByFullName": "Rey Flavie Spinka DVM",
-  "Registered": "2010-01-14T04:22:26.3571975+01:00",
+  "DashboardId": 937,
+  "Name": "Jewess, Parisian and Terry",
+  "Description": "Secured didactic synergy",
+  "OwnedByFullName": "Orlando Marvin",
+  "Registered": "2004-10-27T13:28:22.4136311+02:00",
   "Tiles": [
     {
-      "Name": "Deckow, Schowalter and Reilly",
+      "Name": "Medhurst Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 413
         }
       }
     },
     {
-      "Name": "Deckow, Schowalter and Reilly",
+      "Name": "Medhurst Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 413
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 988
     }
   }
 }

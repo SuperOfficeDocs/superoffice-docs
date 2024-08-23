@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 3,
-  "Name": "Morar, Wiegand and Flatley",
-  "Description": "Innovative discrete info-mediaries",
-  "DefaultHeight": 24,
-  "DefaultWidth": 573,
+  "DashboardTileDefinitionId": 527,
+  "Name": "Turner, Blick and Welch",
+  "Description": "Progressive encompassing database",
+  "DefaultHeight": 326,
+  "DefaultWidth": 289,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Abbott, Wintheiser and Jenkins",
-  "SelectionId": 339,
+  "EntityName": "Johns-Emmerich",
+  "SelectionId": 174,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "facilis",
   "Measure": "Average",
-  "MeasureField": "suscipit",
-  "SortBy": "dolores",
-  "LayoutConfig": "inventore",
-  "SecondarySelectionId": 482,
-  "MeasureByField": "qui",
+  "MeasureField": "quia",
+  "SortBy": "molestias",
+  "LayoutConfig": "maxime",
+  "SecondarySelectionId": 804,
+  "MeasureByField": "dolor",
   "Usage": "Dashboard",
-  "ProviderName": "Jerde LLC",
+  "ProviderName": "Kris-Price",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

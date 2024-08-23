@@ -2,10 +2,10 @@
 uid: listagent-getquoteapprovereasons
 title: ListAgent.GetQuoteApproveReasons event method
 description: Scripting events called on the GetQuoteApproveReasons method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetQuoteApproveReasons
 

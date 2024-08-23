@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 825
+  "ErpConnectionId": 926
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 733,
-  "ErpConnectorId": 126,
-  "DisplayName": "Rau Group",
-  "DisplayDescription": "Synergistic multimedia system engine",
-  "Active": true,
-  "ConnectionId": "et",
-  "MostRecentTimestamp": "occaecati",
+  "ErpConnectionId": 700,
+  "ErpConnectorId": 168,
+  "DisplayName": "Goyette Group",
+  "DisplayDescription": "Virtual bi-directional secured line",
+  "Active": false,
+  "ConnectionId": "eaque",
+  "MostRecentTimestamp": "non",
   "ConfigFields": {
-    "ConfigFields1": "quasi",
-    "ConfigFields2": "et"
+    "ConfigFields1": "a",
+    "ConfigFields2": "quaerat"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    50,
-    810
+    480,
+    139
   ],
   "AssociateAccessIds": [
-    273,
-    102
+    975,
+    337
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 792
     }
   }
 }

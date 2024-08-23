@@ -3,9 +3,9 @@ uid: timezone
 title: timezone
 keywords: mdoprovider mdo provider timezone
 description: Provides the timezone list. If no search value is passed in the list is restricted to 'available' timezones
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "timezone" MDO List

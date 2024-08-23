@@ -2,10 +2,10 @@
 uid: viewstateagent-savecurrent
 title: ViewStateAgent.SaveCurrent event method
 description: Scripting events called on the SaveCurrent method on the ViewStateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ViewStateAgent.SaveCurrent
 

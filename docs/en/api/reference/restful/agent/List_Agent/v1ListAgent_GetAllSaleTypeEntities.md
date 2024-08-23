@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 522,
-    "Name": "O'Conner LLC",
-    "Tooltip": "beatae",
-    "Rank": 489,
+    "SaleTypeId": 927,
+    "Name": "Haag, Mann and Volkman",
+    "Tooltip": "assumenda",
+    "Rank": 295,
     "DurationUnit": "Century",
-    "SaleDuration": 479,
-    "SaleTypeCatId": 279,
-    "Deleted": false,
+    "SaleDuration": 471,
+    "SaleTypeCatId": 109,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 673,
-    "QuoteLinesTemplate": 433,
-    "ConfirmationLinesTemplate": 458,
-    "MaxDiscountPercentSet": false,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 353,
+    "QuoteLinesTemplate": 2,
+    "ConfirmationLinesTemplate": 997,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 522,
-    "MinEarningPercent": 884,
-    "GroupQuoteLinesBy": 608,
-    "SortGroupLinesBy": 131,
+    "MaxDiscountPercent": 831,
+    "MinEarningPercent": 738,
+    "GroupQuoteLinesBy": 85,
+    "SortGroupLinesBy": 106,
     "Stages": [
       {
-        "Id": 362,
-        "Name": "Brown-Cole",
-        "ToolTip": "Natus tempora.",
-        "Deleted": false,
-        "Rank": 412,
-        "Type": "at",
-        "ColorBlock": 851,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2024-04-29T04:22:26.9536139+02:00",
+        "Id": 786,
+        "Name": "Rodriguez LLC",
+        "ToolTip": "In aut.",
+        "Deleted": true,
+        "Rank": 17,
+        "Type": "ut",
+        "ColorBlock": 871,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2019-05-07T13:28:22.9294051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Mrs. Mable Wintheiser IV",
+        "ExtraInfo": "quis",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Etha Konopelski DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 4
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 869
       }
     }
   }

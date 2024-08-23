@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=earum
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=fugiat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "White-Swift",
-    "ToolTip": "Explicabo voluptatem.",
-    "Deleted": true,
-    "Rank": 129,
-    "Type": "aut",
+    "Id": 914,
+    "Name": "Botsford-Kozey",
+    "ToolTip": "Nam adipisci velit explicabo aut id.",
+    "Deleted": false,
+    "Rank": 615,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 880,
-        "Name": "Strosin-Rodriguez",
-        "ToolTip": "Nam voluptate est provident dolores labore odio delectus.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "sint",
+        "Id": 691,
+        "Name": "Hahn, Botsford and Wolff",
+        "ToolTip": "Eveniet aliquam voluptas suscipit dolorem perspiciatis eius.",
+        "Deleted": false,
+        "Rank": 719,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 674,
-        "ExtraInfo": "nihil",
-        "StyleHint": "sequi",
-        "FullName": "Virginie Wuckert",
+        "IconHint": "commodi",
+        "ColorBlock": 341,
+        "ExtraInfo": "vitae",
+        "StyleHint": "iste",
+        "FullName": "Tiffany Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 97
+            "FieldLength": 316
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 851,
-    "ExtraInfo": "saepe",
-    "StyleHint": "veniam",
-    "FullName": "Dameon Stark",
+    "IconHint": "nulla",
+    "ColorBlock": 524,
+    "ExtraInfo": "qui",
+    "StyleHint": "molestiae",
+    "FullName": "Mr. Raegan Sterling Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 753
       }
     }
   }

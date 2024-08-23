@@ -3,9 +3,9 @@ uid: FormSubmissionShadowDynamicSelectionSingleCriteriaGroup
 title: FormSubmissionShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic appointmnet provider.
 keywords: FormSubmissionShadowDynamicSelectionSingleCriteriaGroup archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FormSubmissionShadowDynamicSelectionSingleCriteriaGroup"
@@ -474,7 +474,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=formSubmissionStatus,person/personExtra/x_person_datetime,person/correspondingAssociate/contactName,person/isMailingRecipient,contact/contactUdef/SuperOffice:6
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/email/emailProtocol,person/personAddress/line3,person/personExtra/x_person_integer,person/consentSourceEmarketing,contact/email/emailId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

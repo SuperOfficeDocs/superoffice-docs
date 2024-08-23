@@ -3,9 +3,9 @@ uid: SimpleProject
 title: SimpleProject
 description: 
 keywords: SimpleProject archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SimpleProject"
@@ -129,7 +129,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleProject?$select=projectAssociate/personId,projectUrl/URLAddress,projectAssociate/assocName
+GET /api/v1/archive/SimpleProject?$select=projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 39,
-  "Name": "Roob Group",
-  "Tooltip": "dolorum",
+  "RoleId": 344,
+  "Name": "Donnelly-Schaefer",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 571,
-  "Rank": 510,
-  "Created": "2012-12-08T04:22:28.0537538+01:00",
-  "UseCategories": 13,
+  "Deleted": 168,
+  "Rank": 538,
+  "Created": "2013-09-08T13:28:24.1166042+02:00",
+  "UseCategories": 964,
   "CreatedBy": null,
-  "Updated": "2016-10-27T04:22:28.0537538+02:00",
+  "Updated": "2010-03-16T13:28:24.1166042+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

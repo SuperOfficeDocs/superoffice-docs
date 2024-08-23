@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 218,
-    "Name": "Larkin Group",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "Rank": 280,
-    "UdListDefinitionId": 606,
+    "HeadingId": 630,
+    "Name": "Trantow, Huels and West",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 788,
+    "UdListDefinitionId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 915
       }
     }
   }

@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=334
-POST /api/v1/Document/{documentId}/Content?personId=516
-POST /api/v1/Document/{documentId}/Content?appointmentId=685
-POST /api/v1/Document/{documentId}/Content?saleId=517
-POST /api/v1/Document/{documentId}/Content?selectionId=685
-POST /api/v1/Document/{documentId}/Content?projectId=311
-POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
+POST /api/v1/Document/{documentId}/Content?contactId=958
+POST /api/v1/Document/{documentId}/Content?personId=468
+POST /api/v1/Document/{documentId}/Content?appointmentId=211
+POST /api/v1/Document/{documentId}/Content?saleId=540
+POST /api/v1/Document/{documentId}/Content?selectionId=534
+POST /api/v1/Document/{documentId}/Content?projectId=946
+POST /api/v1/Document/{documentId}/Content?uiCulture=commodi
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 185,
+  "DocumentId": 659,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "at",
-  "Header": "quibusdam",
-  "Name": "Hermann-Stiedemann",
-  "OurRef": "aut",
-  "YourRef": "officia",
-  "CreatedDate": "2015-02-11T04:22:34.9541759+01:00",
-  "UpdatedDate": "2020-03-07T04:22:34.9541759+01:00",
-  "Description": "Customizable dynamic array",
+  "Attention": "blanditiis",
+  "Header": "vitae",
+  "Name": "Zulauf-McClure",
+  "OurRef": "at",
+  "YourRef": "est",
+  "CreatedDate": "2003-08-01T13:28:31.6479995+02:00",
+  "UpdatedDate": "2016-01-16T13:28:31.6479995+01:00",
+  "Description": "Inverse multi-state artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-02-26T04:22:34.9541759+01:00",
-  "ExternalRef": "sapiente",
+  "Date": "2000-06-17T13:28:31.6479995+02:00",
+  "ExternalRef": "molestiae",
   "Completed": "Completed",
-  "ActiveLinks": 611,
+  "ActiveLinks": 275,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "O'Keefe Group",
-      "Id": 578,
-      "Description": "Re-contextualized actuating algorithm",
-      "ExtraInfo": "aut",
-      "LinkId": 37,
+      "EntityName": "Collier LLC",
+      "Id": 630,
+      "Description": "Ameliorated zero administration website",
+      "ExtraInfo": "non",
+      "LinkId": 802,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 41
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 856,
-  "Snum": 827,
+  "SuggestedDocumentId": 846,
+  "Snum": 559,
   "UserDefinedFields": {
-    "SuperOffice:1": "2006709662",
-    "SuperOffice:2": "Marcellus Dietrich DDS"
+    "SuperOffice:1": "Camryn Witting",
+    "SuperOffice:2": "2049814646"
   },
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "est",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "rerum"
+    "CustomFields1": "esse",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2001-05-10T04:22:34.9541759+02:00",
-  "PublishTo": "2009-09-16T04:22:34.9541759+02:00",
-  "PublishFrom": "2018-12-03T04:22:34.9541759+01:00",
+  "PublishEventDate": "2003-07-13T13:28:31.6479995+02:00",
+  "PublishTo": "2005-05-01T13:28:31.6479995+02:00",
+  "PublishFrom": "1999-04-25T13:28:31.6479995+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 358,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldType": "System.String",
+          "FieldLength": 409
         }
       }
     },
     {
-      "VisibleId": 358,
+      "VisibleId": 2,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldType": "System.String",
+          "FieldLength": 409
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 367
     }
   }
 }

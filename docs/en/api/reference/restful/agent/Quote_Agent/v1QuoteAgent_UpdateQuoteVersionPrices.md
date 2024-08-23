@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 794
+  "QuoteVersionId": 443
 }
 ```
 
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "consequatur",
-  "TechExplanation": "ad",
+  "UserExplanation": "autem",
+  "TechExplanation": "qui",
   "ErrorCode": "et",
   "ChangedSale": null,
   "ChangedQuote": null,
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 157
         }
       }
     },
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 157
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 669
     }
   }
 }

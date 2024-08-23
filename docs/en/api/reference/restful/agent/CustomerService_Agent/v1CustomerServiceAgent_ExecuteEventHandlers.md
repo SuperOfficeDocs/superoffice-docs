@@ -76,6 +76,7 @@ OK
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
 | Headers | object | Incoming headers if sent by the context which the script is executed from |
+| TraceExecution | bool | If true, then the execution will be traced |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,40 +104,41 @@ Content-Type: application/json; charset=utf-8
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
     "InputValues1": "in",
-    "InputValues2": "incidunt"
+    "InputValues2": "sequi"
   },
-  "BlockExecution": false,
-  "NavigateTo": "vel",
-  "Message": "enim",
-  "ShowDialog": "quidem",
+  "BlockExecution": true,
+  "NavigateTo": "culpa",
+  "Message": "sit",
+  "ShowDialog": "molestias",
   "OutputValues": {
-    "OutputValues1": "laudantium",
-    "OutputValues2": "nam"
+    "OutputValues1": "quo",
+    "OutputValues2": "est"
   },
   "StateValues": {
-    "StateValues1": "ea",
-    "StateValues2": "dicta"
+    "StateValues1": "neque",
+    "StateValues2": "voluptas"
   },
-  "Exception": "qui",
+  "Exception": "vel",
   "ParserValues": {
-    "ParserValues1": "et",
-    "ParserValues2": "impedit"
+    "ParserValues1": "harum",
+    "ParserValues2": "labore"
   },
   "CgiVariables": {
-    "CgiVariables1": "atque",
-    "CgiVariables2": "illo"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "dolor"
   },
-  "CgiContent": "similique",
+  "CgiContent": "nostrum",
   "Headers": {
-    "Headers1": "ratione",
-    "Headers2": "placeat"
+    "Headers1": "eum",
+    "Headers2": "repellendus"
   },
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 184
     }
   }
 }

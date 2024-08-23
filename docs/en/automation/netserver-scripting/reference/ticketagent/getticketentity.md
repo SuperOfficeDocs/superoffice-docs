@@ -2,10 +2,10 @@
 uid: ticketagent-getticketentity
 title: TicketAgent.GetTicketEntity event method
 description: Scripting events called on the GetTicketEntity method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.GetTicketEntity
 

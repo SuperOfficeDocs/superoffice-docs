@@ -858,6 +858,21 @@ title: Services88.PersonAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Person" nillable="true" type="tns:Person" />
+      <xs:element name="TryAddPersonsToEmailFlow">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="TryAddPersonsToEmailFlowResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q4:ArrayOfboolean" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPersonEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1154,8 +1169,8 @@ title: Services88.PersonAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ContactId" type="xs:int" />
             <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="PhoneNumbers" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Emails" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PhoneNumbers" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Emails" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1476,7 +1491,7 @@ title: Services88.PersonAgent WSDL
       <xs:element name="GetPersonImages">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="ScaledWidth" type="xs:int" />
             <xs:element minOccurs="0" name="ScaledHeight" type="xs:int" />
           </xs:sequence>
@@ -1597,7 +1612,7 @@ title: Services88.PersonAgent WSDL
             <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="PlainBody" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1614,7 +1629,7 @@ title: Services88.PersonAgent WSDL
             <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="PlainBody" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="EventName" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -1627,7 +1642,7 @@ title: Services88.PersonAgent WSDL
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1851,6 +1866,12 @@ title: Services88.PersonAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfboolean">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="boolean" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfboolean" nillable="true" type="tns:ArrayOfboolean" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="CreateDefaultConsentPersonRequest">
@@ -2001,6 +2022,23 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="parameters" element="tns:GetPersonResponse" />
   </wsdl:message>
   <wsdl:message name="GetPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="TryAddPersonsToEmailFlowRequest">
+    <wsdl:part name="parameters" element="tns:TryAddPersonsToEmailFlow" />
+  </wsdl:message>
+  <wsdl:message name="TryAddPersonsToEmailFlowRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="TryAddPersonsToEmailFlowResponse">
+    <wsdl:part name="parameters" element="tns:TryAddPersonsToEmailFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="TryAddPersonsToEmailFlowResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2876,6 +2914,10 @@ title: Services88.PersonAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPerson" name="GetPersonRequest" message="tns:GetPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonResponse" name="GetPersonResponse" message="tns:GetPersonResponse" />
     </wsdl:operation>
+    <wsdl:operation name="TryAddPersonsToEmailFlow">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/TryAddPersonsToEmailFlow" name="TryAddPersonsToEmailFlowRequest" message="tns:TryAddPersonsToEmailFlowRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/TryAddPersonsToEmailFlowResponse" name="TryAddPersonsToEmailFlowResponse" message="tns:TryAddPersonsToEmailFlowResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPersonEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonEntity" name="GetPersonEntityRequest" message="tns:GetPersonEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonEntityResponse" name="GetPersonEntityResponse" message="tns:GetPersonEntityResponse" />
@@ -3216,6 +3258,22 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:GetPersonResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPersonResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPersonResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TryAddPersonsToEmailFlow">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/TryAddPersonsToEmailFlow" style="document" />
+      <wsdl:input name="TryAddPersonsToEmailFlowRequest">
+        <soap:header message="tns:TryAddPersonsToEmailFlowRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:TryAddPersonsToEmailFlowRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:TryAddPersonsToEmailFlowRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="TryAddPersonsToEmailFlowResponse">
+        <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:TryAddPersonsToEmailFlowResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

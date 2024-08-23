@@ -73,10 +73,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 440,
+  "DocumentTemplateId": 764,
   "RequestedProperties": [
-    "autem",
-    "quo"
+    "enim",
+    "et"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "libero"
+  "1": "voluptate",
+  "2": "culpa"
 }
 ```

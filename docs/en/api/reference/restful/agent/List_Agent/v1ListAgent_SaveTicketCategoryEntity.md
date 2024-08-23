@@ -101,29 +101,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 235,
-  "ParentId": 242,
-  "Name": "Witting-McDermott",
-  "Fullname": "dolores",
-  "CategoryMaster": 127,
+  "TicketCategoryId": 318,
+  "ParentId": 65,
+  "Name": "O'Kon-Bins",
+  "Fullname": "dolor",
+  "CategoryMaster": 739,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Pouros, Littel and Mills",
+  "ExternalName": "Jerde LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 606,
-  "ReplyTemplate": 42,
-  "NotificationEmail": "jazlyn.dickens@windler.name",
+  "AssignmentLag": 871,
+  "ReplyTemplate": 438,
+  "NotificationEmail": "keshawn@kozey.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 57,
+  "EffectiveReplyTemplateId": 52,
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "quam"
+    "CustomFields1": "et",
+    "CustomFields2": "maiores"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 543,
-  "ParentId": 60,
-  "Name": "Hartmann, Wuckert and Crooks",
-  "Fullname": "non",
-  "CategoryMaster": 857,
+  "TicketCategoryId": 731,
+  "ParentId": 893,
+  "Name": "Johnston, Bode and Tromp",
+  "Fullname": "quod",
+  "CategoryMaster": 62,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Grant, Feeney and Hegmann",
+  "ExternalName": "Dibbert-Batz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 659,
-  "ReplyTemplate": 390,
-  "NotificationEmail": "ozella@goldnerdoyle.name",
+  "AssignmentLag": 46,
+  "ReplyTemplate": 458,
+  "NotificationEmail": "kamren.becker@heaneyhomenick.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 547,
+  "EffectiveReplyTemplateId": 293,
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "similique",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 193
     }
   }
 }

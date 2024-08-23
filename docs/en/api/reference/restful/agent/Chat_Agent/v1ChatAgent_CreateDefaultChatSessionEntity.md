@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 652,
-  "TopicId": 535,
+  "ChatSessionId": 467,
+  "TopicId": 151,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fugit",
-  "CustomerHost": "quos",
-  "CustomerName": "Flatley, Hand and Franecki",
-  "CustomerEmail": "akeem_wisoky@goldner.name",
-  "CustomerPhone": "695.697.6936",
+  "CustomerAlias": "atque",
+  "CustomerHost": "ut",
+  "CustomerName": "Stiedemann Group",
+  "CustomerEmail": "sydnee_mitchell@hodkiewicz.uk",
+  "CustomerPhone": "803.517.3342",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Senger, Bartell and Fisher",
+  "CustomerCompanyName": "Johns LLC",
   "Status": "Closed",
-  "FirstMessage": "mollitia",
-  "LastMessage": "totam",
-  "WhenRequested": "2017-11-11T04:22:26.0434701+01:00",
-  "WhenStarted": "2016-05-02T04:22:26.0434701+02:00",
-  "WhenEnded": "2006-06-10T04:22:26.0434701+02:00",
-  "WhenIdle": "2000-08-10T04:22:26.0434701+02:00",
-  "WhenFetched": "2017-09-09T04:22:26.0434701+02:00",
-  "SessionKey": "deleniti",
-  "InitialQueuePos": 340,
-  "AlertLevel": 304,
-  "Rank": 997,
+  "FirstMessage": "cupiditate",
+  "LastMessage": "et",
+  "WhenRequested": "2017-04-20T13:28:21.8981266+02:00",
+  "WhenStarted": "2020-05-01T13:28:21.8981266+02:00",
+  "WhenEnded": "2000-06-22T13:28:21.8981266+02:00",
+  "WhenIdle": "2010-02-27T13:28:21.8981266+01:00",
+  "WhenFetched": "2007-09-22T13:28:21.8981266+02:00",
+  "SessionKey": "fugit",
+  "InitialQueuePos": 153,
+  "AlertLevel": 896,
+  "Rank": 882,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 652,
+  "Rating": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 194
     }
   }
 }

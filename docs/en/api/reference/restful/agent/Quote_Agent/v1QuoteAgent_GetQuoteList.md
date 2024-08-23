@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "et"
+  "QuoteListType": "dolorem"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "omnis",
-    "DisplayValue": "repellat",
-    "DisplayDescription": "Pre-emptive leading edge moratorium",
+    "ERPQuoteListItemKey": "rerum",
+    "DisplayValue": "cumque",
+    "DisplayDescription": "Ergonomic multi-tasking extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "omnis",
-    "DisplayValue": "repellat",
-    "DisplayDescription": "Pre-emptive leading edge moratorium",
+    "ERPQuoteListItemKey": "rerum",
+    "DisplayValue": "cumque",
+    "DisplayDescription": "Ergonomic multi-tasking extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

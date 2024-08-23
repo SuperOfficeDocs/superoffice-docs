@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Wilkinson, Schmidt and Murray",
-    "Tooltip": "quia",
+    "Id": 355,
+    "Name": "Runolfsdottir-Barrows",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 913,
-    "Rank": 910
+    "UdListDefinitionId": 541,
+    "Rank": 567
   },
   {
-    "Id": 839,
-    "Name": "Wilkinson, Schmidt and Murray",
-    "Tooltip": "quia",
+    "Id": 355,
+    "Name": "Runolfsdottir-Barrows",
+    "Tooltip": "sed",
     "Deleted": true,
-    "UdListDefinitionId": 913,
-    "Rank": 910
+    "UdListDefinitionId": 541,
+    "Rank": 567
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Schinner-Bernhard",
-    "Tooltip": "rerum",
+    "Id": 133,
+    "Name": "Hills LLC",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 668,
-    "Rank": 535,
+    "UdListDefinitionId": 216,
+    "Rank": 74,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldLength": 547
       }
     }
   }

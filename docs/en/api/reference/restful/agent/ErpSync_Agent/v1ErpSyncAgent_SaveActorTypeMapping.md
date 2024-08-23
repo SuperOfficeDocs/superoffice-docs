@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 964,
-  "IsActive": true,
+  "ErpConnectionId": 714,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 220,
-      "CrmFieldKey": "nemo",
-      "CrmDisplayName": "Cormier-Brown",
-      "CrmDisplayTooltip": "consequatur",
-      "ErpFieldKey": "illo",
+      "ErpFieldId": 3,
+      "CrmFieldKey": "omnis",
+      "CrmDisplayName": "Heller Inc and Sons",
+      "CrmDisplayTooltip": "optio",
+      "ErpFieldKey": "architecto",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Greenfelder Group",
-      "ErpDisplayTooltip": "eos",
-      "SyncToCrm": true,
-      "SyncToErp": true,
+      "ErpDisplayName": "Williamson-Gaylord",
+      "ErpDisplayTooltip": "et",
+      "SyncToCrm": false,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "error",
+      "ListReference": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 735
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 20
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 610,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "quia",
-  "Rank": 467,
-  "Key": "consequatur",
-  "Deleted": true,
+  "LegalBaseId": 913,
+  "Name": "Schmidt, Huels and Aufderhar",
+  "Tooltip": "animi",
+  "Rank": 697,
+  "Key": "laudantium",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 22
     }
   }
 }

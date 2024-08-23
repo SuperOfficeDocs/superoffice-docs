@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Powlowski-Dibbert",
-  "Tooltip": "dolor",
+  "Id": 130,
+  "Name": "Gibson, Gaylord and Bogisich",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 824,
-  "IsCustomList": true,
+  "Rank": 230,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 49
     }
   },
   "_Links": {

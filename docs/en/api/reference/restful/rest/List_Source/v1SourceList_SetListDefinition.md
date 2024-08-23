@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Lindgren, Casper and Ullrich",
-  "Tooltip": "ipsum",
+  "Id": 391,
+  "Name": "Larson-Greenholt",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 618,
-  "IsCustomList": true,
+  "Rank": 649,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 451,
-  "Name": "Carter Inc and Sons",
-  "Tooltip": "quidem",
+  "Id": 990,
+  "Name": "Keebler, Sanford and Effertz",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 192,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 997,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 246
     }
   }
 }

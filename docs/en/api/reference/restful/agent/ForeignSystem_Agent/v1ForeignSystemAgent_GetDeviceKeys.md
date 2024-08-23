@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wolff-Schroeder",
-  "DeviceName": "Brakus LLC"
+  "ApplicationName": "Effertz Group",
+  "DeviceName": "McKenzie Inc and Sons"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aut",
-    "Value": "doloribus",
-    "RecordId": 660,
-    "CreatedDate": "2009-01-25T04:22:26.8755249+01:00",
-    "UpdatedDate": "2003-04-08T04:22:26.8755249+02:00",
-    "UpdatedBy": "molestiae",
-    "CreatedBy": "saepe",
-    "TableName": "Bahringer, Torp and Goodwin",
+    "Key": "quia",
+    "Value": "esse",
+    "RecordId": 276,
+    "CreatedDate": "1997-09-21T13:28:22.866653+02:00",
+    "UpdatedDate": "2006-04-19T13:28:22.866653+02:00",
+    "UpdatedBy": "similique",
+    "CreatedBy": "velit",
+    "TableName": "Nader, Jones and Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldType": "System.String",
+        "FieldLength": 378
       }
     }
   }

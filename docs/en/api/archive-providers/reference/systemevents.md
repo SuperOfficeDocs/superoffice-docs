@@ -3,9 +3,9 @@ uid: SystemEvents
 title: SystemEvents
 description: Archive provider
 keywords: SystemEvents archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SystemEvents"

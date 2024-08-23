@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Stehr Inc and Sons",
-    "DisplayName": "Goldner-Aufderhar",
-    "Description": "Ergonomic bandwidth-monitored capability",
-    "ShortLabel": "neque",
+    "FieldName": "McLaughlin-Lesch",
+    "DisplayName": "Jerde Group",
+    "Description": "Future-proofed uniform capability",
+    "ShortLabel": "qui",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 540,
-    "TemplateVariableName": "Spinka-Christiansen"
+    "Rank": 118,
+    "TemplateVariableName": "Rohan-Bartoletti"
   }
 ]
 ```

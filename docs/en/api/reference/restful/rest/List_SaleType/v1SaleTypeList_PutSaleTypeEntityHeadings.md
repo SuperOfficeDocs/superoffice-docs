@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 64,
-    "Name": "Lynch-Gerlach",
-    "Tooltip": "qui",
+    "HeadingId": 963,
+    "Name": "Boyle, VonRueden and Conn",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 226,
-    "UdListDefinitionId": 803
+    "Rank": 488,
+    "UdListDefinitionId": 703
   },
   {
-    "HeadingId": 64,
-    "Name": "Lynch-Gerlach",
-    "Tooltip": "qui",
+    "HeadingId": 963,
+    "Name": "Boyle, VonRueden and Conn",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 226,
-    "UdListDefinitionId": 803
+    "Rank": 488,
+    "UdListDefinitionId": 703
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 893,
-    "Name": "Monahan Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 167,
-    "UdListDefinitionId": 332,
+    "HeadingId": 53,
+    "Name": "Wiza, Lemke and Koch",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 403,
+    "UdListDefinitionId": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 567
       }
     }
   }

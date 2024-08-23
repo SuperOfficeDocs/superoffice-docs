@@ -3,9 +3,9 @@ uid: ContactProjects
 title: ContactProjects
 description: 
 keywords: ContactProjects archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ContactProjects"
@@ -130,7 +130,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactProjects?$select=saintActivityType,projectUrl/URLAddress,projectAssociate/assocName
+GET /api/v1/archive/ContactProjects?$select=associateId,projectAssociate/assocName,projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

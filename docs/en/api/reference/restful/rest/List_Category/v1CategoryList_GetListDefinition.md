@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Schroeder, Schmeler and Corkery",
-  "Tooltip": "impedit",
-  "Deleted": true,
-  "Rank": 9,
+  "Id": 348,
+  "Name": "Swift-Cruickshank",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 823,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 883
     }
   },
   "_Links": {

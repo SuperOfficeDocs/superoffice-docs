@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 466,
-  "Name": "Deckow, Lueilwitz and Ortiz",
-  "Tooltip": "ut",
-  "Rank": 923,
-  "AmountFrom": 20214.3,
-  "AmountTo": 14993.055999999999,
-  "Deleted": true,
-  "CurrencyId": 35
+  "AmountClassId": 967,
+  "Name": "Russel-Collier",
+  "Tooltip": "suscipit",
+  "Rank": 559,
+  "AmountFrom": 30061.327999999998,
+  "AmountTo": 9787.482,
+  "Deleted": false,
+  "CurrencyId": 566
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 784,
-  "Name": "Kuhn-Kreiger",
-  "Tooltip": "perspiciatis",
-  "Rank": 930,
-  "AmountFrom": 8831.612,
-  "AmountTo": 5258.852,
+  "AmountClassId": 203,
+  "Name": "Donnelly LLC",
+  "Tooltip": "ratione",
+  "Rank": 729,
+  "AmountFrom": 441.894,
+  "AmountTo": 19524.82,
   "Deleted": false,
-  "CurrencyId": 280,
+  "CurrencyId": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   }
 }

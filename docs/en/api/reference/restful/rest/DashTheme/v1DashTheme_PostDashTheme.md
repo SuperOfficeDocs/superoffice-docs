@@ -86,16 +86,16 @@ OK
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 751,
-  "Name": "Feest-Tillman",
-  "Config": "officiis",
-  "Rank": 437,
-  "Client": "ullam",
-  "Style": "quasi"
+  "DashboardThemeId": 106,
+  "Name": "Marquardt LLC",
+  "Config": "quo",
+  "Rank": 643,
+  "Client": "nemo",
+  "Style": "blanditiis"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 91,
-  "Name": "Sawayn-Runolfsdottir",
-  "Config": "ea",
-  "Rank": 987,
-  "Client": "distinctio",
-  "Style": "alias",
+  "DashboardThemeId": 256,
+  "Name": "Ondricka Inc and Sons",
+  "Config": "autem",
+  "Rank": 984,
+  "Client": "a",
+  "Style": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

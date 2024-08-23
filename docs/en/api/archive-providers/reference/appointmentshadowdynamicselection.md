@@ -3,9 +3,9 @@ uid: AppointmentShadowDynamicSelection
 title: AppointmentShadowDynamicSelection
 description: Shadow contact provider for the dynamic appointmnet provider.
 keywords: AppointmentShadowDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "AppointmentShadowDynamicSelection"
@@ -723,7 +723,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=alarm,person/correspondingAssociate/firstName,sale/associate/lastName,associate/lastName
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/contactAssociate/personEmail,person/email/emailDescription,person/personAssociate/contactDepartment,person/correspondingAssociate/role,appointmentUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

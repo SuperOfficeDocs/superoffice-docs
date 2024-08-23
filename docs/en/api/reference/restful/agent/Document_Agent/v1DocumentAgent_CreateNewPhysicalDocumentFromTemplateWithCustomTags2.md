@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 316,
-  "PersonId": 381,
-  "AppointmentId": 106,
-  "DocumentId": 487,
-  "SaleId": 252,
-  "SelectionId": 710,
-  "ProjectId": 998,
+  "ContactId": 901,
+  "PersonId": 975,
+  "AppointmentId": 608,
+  "DocumentId": 388,
+  "SaleId": 410,
+  "SelectionId": 182,
+  "ProjectId": 726,
   "CustomTags": {
-    "CustomTags1": "dolore",
-    "CustomTags2": "ipsam"
+    "CustomTags1": "ab",
+    "CustomTags2": "esse"
   },
-  "UiCulture": "veniam"
+  "UiCulture": "libero"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 572,
+  "DocumentId": 842,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "dolorem",
-  "Name": "Hayes, Wehner and Thompson",
-  "OurRef": "eligendi",
-  "YourRef": "incidunt",
-  "CreatedDate": "2018-12-13T04:22:26.608488+01:00",
-  "UpdatedDate": "2011-04-17T04:22:26.608488+02:00",
-  "Description": "Advanced global challenge",
+  "Attention": "quo",
+  "Header": "distinctio",
+  "Name": "Hoeger-Rice",
+  "OurRef": "ex",
+  "YourRef": "officia",
+  "CreatedDate": "2021-07-12T13:28:22.5698454+02:00",
+  "UpdatedDate": "2018-01-14T13:28:22.5698454+01:00",
+  "Description": "Pre-emptive global neural-net",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-03-12T04:22:26.6241113+01:00",
-  "ExternalRef": "quod",
+  "Date": "2006-03-04T13:28:22.5698454+01:00",
+  "ExternalRef": "commodi",
   "Completed": "Completed",
-  "ActiveLinks": 576,
+  "ActiveLinks": 423,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Murphy, Mertz and Williamson",
-      "Id": 846,
-      "Description": "Seamless bi-directional protocol",
-      "ExtraInfo": "cupiditate",
-      "LinkId": 919,
+      "EntityName": "Borer LLC",
+      "Id": 794,
+      "Description": "Versatile responsive array",
+      "ExtraInfo": "et",
+      "LinkId": 975,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 420
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 83,
-  "Snum": 483,
+  "SuggestedDocumentId": 408,
+  "Snum": 9,
   "UserDefinedFields": {
-    "SuperOffice:1": "90655908",
-    "SuperOffice:2": "Mathias Hilll"
+    "SuperOffice:1": "Vickie Stracke",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2015-11-19T04:22:26.6241113+01:00",
-  "PublishTo": "2017-05-06T04:22:26.6241113+02:00",
-  "PublishFrom": "2022-07-11T04:22:26.6241113+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2024-02-04T13:28:22.5698454+01:00",
+  "PublishTo": "1997-12-15T13:28:22.5698454+01:00",
+  "PublishFrom": "2012-10-01T13:28:22.5698454+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 862,
+      "VisibleId": 777,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 688
         }
       }
     },
     {
-      "VisibleId": 862,
+      "VisibleId": 777,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 688
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 359
     }
   }
 }

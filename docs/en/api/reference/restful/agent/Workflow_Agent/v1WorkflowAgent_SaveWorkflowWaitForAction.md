@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 62,
-  "WorkflowStepId": 493,
-  "WorkflowId": 439,
-  "Rank": 30,
+  "WorkflowWaitForActionId": 509,
+  "WorkflowStepId": 220,
+  "WorkflowId": 926,
+  "Rank": 20,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Bayer, Grant and Jones",
-      "Description": "Total multi-state attitude",
-      "Rank": 865,
+      "Name": "Wilkinson Group",
+      "Description": "Upgradable national concept",
+      "Rank": 420,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bayer, Grant and Jones",
-      "Description": "Total multi-state attitude",
-      "Rank": 865,
+      "Name": "Wilkinson Group",
+      "Description": "Upgradable national concept",
+      "Rank": 420,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 613,
-  "WorkflowStepId": 928,
-  "WorkflowId": 63,
-  "Rank": 196,
+  "WorkflowWaitForActionId": 907,
+  "WorkflowStepId": 695,
+  "WorkflowId": 314,
+  "Rank": 808,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Dicki-Wuckert",
-      "Description": "Diverse systemic capability",
-      "Rank": 584,
+      "Name": "Ullrich, Stiedemann and Abernathy",
+      "Description": "Customizable secondary success",
+      "Rank": 602,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dicki-Wuckert",
-      "Description": "Diverse systemic capability",
-      "Rank": 584,
+      "Name": "Ullrich, Stiedemann and Abernathy",
+      "Description": "Customizable secondary success",
+      "Rank": 602,
       "Restrictions": [
         {},
         {}
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 742
     }
   }
 }

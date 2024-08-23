@@ -2,10 +2,10 @@
 uid: erpsyncagent-getfieldsfornewerpactor
 title: ErpSyncAgent.GetFieldsForNewErpActor event method
 description: Scripting events called on the GetFieldsForNewErpActor method on the ErpSyncAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ErpSyncAgent.GetFieldsForNewErpActor
 

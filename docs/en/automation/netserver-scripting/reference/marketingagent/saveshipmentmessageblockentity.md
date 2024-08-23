@@ -2,10 +2,10 @@
 uid: marketingagent-saveshipmentmessageblockentity
 title: MarketingAgent.SaveShipmentMessageBlockEntity event method
 description: Scripting events called on the SaveShipmentMessageBlockEntity method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.SaveShipmentMessageBlockEntity
 

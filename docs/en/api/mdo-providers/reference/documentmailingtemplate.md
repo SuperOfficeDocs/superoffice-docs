@@ -3,9 +3,9 @@ uid: documentmailingtemplate
 title: documentmailingtemplate
 keywords: mdoprovider mdo provider documentmailingtemplate
 description: Document mailing templates
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "documentmailingtemplate" MDO List

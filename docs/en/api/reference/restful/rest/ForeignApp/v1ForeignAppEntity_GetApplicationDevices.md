@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Mar 2018 04:22:35 G3T
+Last-Modified: Fri, 14 Sep 2012 13:28:31 G9T
 
 [
   {
-    "ForeignDeviceId": 666,
-    "Name": "Botsford-Romaguera",
-    "CreatedDate": "2019-07-11T04:22:35.0010854+02:00",
-    "UpdatedDate": "2018-03-28T04:22:35.0010854+02:00",
-    "AssociateFullName": "Abdullah Rose Nolan PhD",
-    "CreatedBy": "dolores",
-    "UpdatedBy": "voluptatem",
-    "DeviceIdentifier": "velit",
-    "ForeignAppId": 30,
+    "ForeignDeviceId": 197,
+    "Name": "Sporer LLC",
+    "CreatedDate": "2004-11-09T13:28:31.6948645+01:00",
+    "UpdatedDate": "2012-09-14T13:28:31.6948645+02:00",
+    "AssociateFullName": "Jon Batz",
+    "CreatedBy": "ad",
+    "UpdatedBy": "totam",
+    "DeviceIdentifier": "quos",
+    "ForeignAppId": 816,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldLength": 752
       }
     }
   }

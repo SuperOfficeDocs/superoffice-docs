@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Daniel Group",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "UdListDefinitionId": 959,
-    "Rank": 299
+    "Id": 271,
+    "Name": "Pouros Group",
+    "Tooltip": "aspernatur",
+    "Deleted": false,
+    "UdListDefinitionId": 721,
+    "Rank": 119
   },
   {
-    "Id": 340,
-    "Name": "Daniel Group",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "UdListDefinitionId": 959,
-    "Rank": 299
+    "Id": 271,
+    "Name": "Pouros Group",
+    "Tooltip": "aspernatur",
+    "Deleted": false,
+    "UdListDefinitionId": 721,
+    "Rank": 119
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Jacobi-Hermann",
-    "Tooltip": "qui",
+    "Id": 863,
+    "Name": "Aufderhar-Casper",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 892,
-    "Rank": 412,
+    "UdListDefinitionId": 944,
+    "Rank": 153,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldLength": 239
       }
     }
   }

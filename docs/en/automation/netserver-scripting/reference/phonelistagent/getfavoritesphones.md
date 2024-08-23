@@ -2,10 +2,10 @@
 uid: phonelistagent-getfavoritesphones
 title: PhoneListAgent.GetFavoritesPhones event method
 description: Scripting events called on the GetFavoritesPhones method on the PhoneListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PhoneListAgent.GetFavoritesPhones
 

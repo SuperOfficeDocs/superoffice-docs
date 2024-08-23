@@ -2,10 +2,10 @@
 uid: listagent-saveextappentity
 title: ListAgent.SaveExtAppEntity event method
 description: Scripting events called on the SaveExtAppEntity method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.SaveExtAppEntity
 

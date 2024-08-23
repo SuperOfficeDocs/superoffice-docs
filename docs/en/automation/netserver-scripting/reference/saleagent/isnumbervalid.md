@@ -2,10 +2,10 @@
 uid: saleagent-isnumbervalid
 title: SaleAgent.IsNumberValid event method
 description: Scripting events called on the IsNumberValid method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.IsNumberValid
 

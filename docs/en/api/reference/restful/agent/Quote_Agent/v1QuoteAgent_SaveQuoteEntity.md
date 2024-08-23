@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 663,
-  "SaleId": 33,
-  "QuoteConnectionId": 112,
-  "ERPQuoteKey": "numquam",
-  "ERPOrderKey": "nobis",
-  "ActiveQuoteVersionId": 211,
-  "AcceptedQuoteAlternativeId": 63,
-  "UseValuesFromQuote": 347,
-  "DocumentId": 264,
-  "PoNumber": "1508775",
-  "OrderComment": "cumque",
-  "PreferredEmailCulture": "thora@heaney.ca",
+  "QuoteId": 361,
+  "SaleId": 27,
+  "QuoteConnectionId": 518,
+  "ERPQuoteKey": "id",
+  "ERPOrderKey": "culpa",
+  "ActiveQuoteVersionId": 37,
+  "AcceptedQuoteAlternativeId": 618,
+  "UseValuesFromQuote": 166,
+  "DocumentId": 873,
+  "PoNumber": "1406491",
+  "OrderComment": "dolore",
+  "PreferredEmailCulture": "jannie_pollich@mclaughlin.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 451,
-      "ERPQuoteVersionKey": "doloremque",
-      "QuoteId": 298,
-      "Description": "Centralized bottom-line protocol",
-      "Number": "1617897",
+      "QuoteVersionId": 24,
+      "ERPQuoteVersionKey": "debitis",
+      "QuoteId": 963,
+      "Description": "Switchable zero defect matrices",
+      "Number": "887278",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 699,
-      "SentDate": "2001-02-27T04:22:27.4247427+01:00",
-      "FollowupId": 826,
-      "ExpirationDate": "2022-01-11T04:22:27.4247427+01:00",
-      "DeliveryCountryId": 1002,
+      "LikelyQuoteAlternativeId": 607,
+      "SentDate": "2004-10-06T13:28:23.5855044+02:00",
+      "FollowupId": 872,
+      "ExpirationDate": "2011-09-06T13:28:23.5855044+02:00",
+      "DeliveryCountryId": 703,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 462,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "laborum",
-      "ERPPaymentTypeKey": "voluptatibus",
-      "ERPDeliveryTermsKey": "unde",
-      "ERPDeliveryTypeKey": "doloribus",
-      "Rank": 934,
-      "ApprovedBy": 704,
-      "ApprovedText": "tempore",
-      "ApprovedRegisteredBy": 934,
-      "ApprovedRegisteredDate": "2008-12-15T04:22:27.4247427+01:00",
-      "ExtraField1": "et",
-      "ExtraField2": "nostrum",
-      "ExtraField3": "assumenda",
-      "ExtraField4": "placeat",
-      "ExtraField5": "ipsa",
-      "LastRecalculated": "2013-05-30T04:22:27.4247427+02:00",
-      "Updated": "2005-12-02T04:22:27.4247427+01:00",
-      "UpdatedAssociateId": 854,
-      "Registered": "2014-02-10T04:22:27.4247427+01:00",
-      "RegisteredAssociateId": 283,
-      "RequestAssociateId": 127,
-      "RequestComment": "est",
+      "InvoiceCountryId": 528,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "quis",
+      "ERPPaymentTypeKey": "culpa",
+      "ERPDeliveryTermsKey": "possimus",
+      "ERPDeliveryTypeKey": "dolores",
+      "Rank": 742,
+      "ApprovedBy": 873,
+      "ApprovedText": "vero",
+      "ApprovedRegisteredBy": 626,
+      "ApprovedRegisteredDate": "2010-10-08T13:28:23.5855044+02:00",
+      "ExtraField1": "distinctio",
+      "ExtraField2": "voluptates",
+      "ExtraField3": "repellendus",
+      "ExtraField4": "eligendi",
+      "ExtraField5": "sed",
+      "LastRecalculated": "2020-12-19T13:28:23.5855044+01:00",
+      "Updated": "2006-06-19T13:28:23.5855044+02:00",
+      "UpdatedAssociateId": 224,
+      "Registered": "2002-04-01T13:28:23.5855044+02:00",
+      "RegisteredAssociateId": 346,
+      "RequestAssociateId": 746,
+      "RequestComment": "cumque",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldLength": 948
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

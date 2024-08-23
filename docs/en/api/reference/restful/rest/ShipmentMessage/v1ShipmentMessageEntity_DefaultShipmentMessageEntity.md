@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 385,
-  "PlainMessage": "architecto",
-  "HtmlMessage": "temporibus",
-  "SmsMessage": "velit",
-  "Description": "Vision-oriented client-driven structure",
-  "Subject": "esse",
-  "FolderId": 818,
-  "HeaderField": "repudiandae",
-  "Design": "cum",
+  "ShipmentMessageId": 610,
+  "PlainMessage": "tenetur",
+  "HtmlMessage": "et",
+  "SmsMessage": "totam",
+  "Description": "Adaptive global benchmark",
+  "Subject": "saepe",
+  "FolderId": 881,
+  "HeaderField": "eveniet",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Expanded mission-critical database",
-  "AccessKey": "quae",
-  "DocumentMessage": 354,
-  "Registered": "2019-06-22T04:22:35.4553554+02:00",
-  "RegisteredAssociateId": 220,
-  "Updated": "2013-09-26T04:22:35.4553554+02:00",
-  "UpdatedAssociateId": 764,
-  "UpdatedCount": 295,
+  "LongDescription": "Polarised web-enabled customer loyalty",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 476,
+  "Registered": "2001-07-14T13:28:32.2573673+02:00",
+  "RegisteredAssociateId": 921,
+  "Updated": "2007-12-08T13:28:32.2573673+01:00",
+  "UpdatedAssociateId": 156,
+  "UpdatedCount": 942,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 564
     }
   }
 }

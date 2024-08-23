@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 537,
-  "Name": "Beatty Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 844,
-  "UdListDefinitionId": 127
+  "HeadingId": 110,
+  "Name": "Bernhard LLC",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 718,
+  "UdListDefinitionId": 294
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 247,
-  "Name": "Grimes, Jacobs and Lowe",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 431,
-  "UdListDefinitionId": 423,
+  "HeadingId": 222,
+  "Name": "Daugherty, Jenkins and Fisher",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 76,
+  "UdListDefinitionId": 955,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldLength": 363
     }
   }
 }

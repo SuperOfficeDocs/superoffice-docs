@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=421
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=542
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 352,
-  "Name": "Fay-Borer",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 173,
-  "Filename": "rerum",
-  "DefaultOref": "sit",
+  "DocumentTemplateId": 611,
+  "Name": "Jacobs LLC",
+  "Tooltip": "voluptas",
+  "SaveInDb": 395,
+  "Filename": "doloribus",
+  "DefaultOref": "perferendis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 480,
-  "IntentId": 884,
+  "AutoeventId": 982,
+  "IntentId": 784,
   "IsDefaultPublished": false,
-  "Rank": 148,
-  "LoadTemplateFromPlugin": 153,
-  "MimeType": "cumque",
+  "Rank": 17,
+  "LoadTemplateFromPlugin": 685,
+  "MimeType": "qui",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 177,
+  "DocumentTypeKey": 161,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rachael@feeneylehner.us",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "guillermo_goodwin@wiegandbahringer.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maude@mayerblick.name",
+  "SenderEmailAddress": "dallas@gaylord.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldLength": 262
     }
   }
 }

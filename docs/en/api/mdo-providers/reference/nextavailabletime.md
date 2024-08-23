@@ -3,9 +3,9 @@ uid: nextavailabletime
 title: nextavailabletime
 keywords: mdoprovider mdo provider nextavailabletime
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "nextavailabletime" MDO List

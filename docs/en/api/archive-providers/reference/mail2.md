@@ -3,9 +3,9 @@ uid: Mail2
 title: Mail2
 description: Provides populated mail envelope rows as an archive
 keywords: Mail2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Mail2"
@@ -484,7 +484,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=from,person/personUpdatedByFullName,person/personExtra/y_rental/id,person/personAssociate/otherGroups,contact/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/Mail2?$select=person/personUpdatedByFullName,person/searchPhone/formattedNumber,person/email/emailDescription,person/personAssociate/role,person/personAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

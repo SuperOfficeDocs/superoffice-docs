@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    201,
-    86
+    642,
+    473
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 107,
-    "MessageId": "aut",
-    "Subject": "atque",
+    "ServerId": 814,
+    "MessageId": "adipisci",
+    "Subject": "officia",
     "From": null,
     "To": [
       {
-        "ContactId": 869,
-        "ContactName": "Paucek, Batz and Schulist",
-        "PersonId": 470,
-        "PersonName": "Corwin Inc and Sons",
-        "AssociateId": 661,
-        "Address": "impedit",
-        "EmailId": 31,
+        "ContactId": 978,
+        "ContactName": "Parker-Herzog",
+        "PersonId": 515,
+        "PersonName": "Bode-Shields",
+        "AssociateId": 851,
+        "Address": "laudantium",
+        "EmailId": 692,
         "DuplicatePersonIds": [
-          737,
-          615
+          540,
+          780
         ],
-        "Name": "Heaney, Mayer and Pacocha",
+        "Name": "Kuvalis, Schaden and Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 499
+            "FieldLength": 511
           }
         }
       }
     ],
-    "Sent": "2015-08-07T04:22:26.686607+02:00",
+    "Sent": "2022-08-22T13:28:22.6479526+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 836,
+    "Size": 65,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 834
       }
     }
   }

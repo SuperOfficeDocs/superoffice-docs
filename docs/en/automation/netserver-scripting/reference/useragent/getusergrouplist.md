@@ -2,10 +2,10 @@
 uid: useragent-getusergrouplist
 title: UserAgent.GetUserGroupList event method
 description: Scripting events called on the GetUserGroupList method on the UserAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserAgent.GetUserGroupList
 

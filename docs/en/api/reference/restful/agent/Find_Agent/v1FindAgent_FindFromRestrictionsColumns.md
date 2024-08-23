@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Bayer Group",
-      "Operator": "ea",
+      "Name": "Sanford, Gorczany and Dickens",
+      "Operator": "aperiam",
       "Values": [
-        "eos",
-        "ipsum"
+        "quia",
+        "sint"
       ],
       "DisplayValues": [
-        "ipsum",
-        "quis"
+        "rerum",
+        "eos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 396,
+      "InterParenthesis": 172,
       "InterOperator": "And",
-      "UniqueHash": 792
+      "UniqueHash": 533
     }
   ],
-  "ProviderName": "Labadie Group",
+  "ProviderName": "Shanahan Inc and Sons",
   "DesiredColumns": [
-    "modi",
-    "beatae"
+    "et",
+    "quia"
   ],
-  "PageSize": 840,
-  "PageNumber": 994
+  "PageSize": 952,
+  "PageNumber": 916
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Nikolaus Inc and Sons",
-      "DisplayTooltip": "recusandae",
-      "DisplayType": "nostrum",
-      "CanOrderBy": false,
-      "Name": "Gleichner, Crooks and Terry",
+      "DisplayName": "Lang LLC",
+      "DisplayTooltip": "laboriosam",
+      "DisplayType": "sit",
+      "CanOrderBy": true,
+      "Name": "Lynch Group",
       "CanRestrictBy": false,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Ziemann-Mraz",
+      "RestrictionType": "ad",
+      "RestrictionListName": "Smith-Hodkiewicz",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "et",
-      "IconHint": "aut",
-      "HeadingIconHint": "occaecati"
+      "ExtraInfo": "ab",
+      "Width": "vel",
+      "IconHint": "eos",
+      "HeadingIconHint": "deleniti"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Towne, Swift and Cronin",
-      "PrimaryKey": 162,
+      "EntityName": "Hilpert-Goyette",
+      "PrimaryKey": 439,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "amet",
-          "TooltipHint": "nihil",
-          "LinkHint": "occaecati"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "corrupti",
+          "LinkHint": "distinctio"
         }
       },
-      "LinkHint": "perspiciatis",
-      "StyleHint": "illum",
+      "LinkHint": "corporis",
+      "StyleHint": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 484
         }
       }
     }
   ],
-  "RowCount": 59,
+  "RowCount": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

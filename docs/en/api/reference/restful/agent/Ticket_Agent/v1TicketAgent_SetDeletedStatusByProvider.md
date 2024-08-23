@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Barrows, Renner and Zieme",
+  "ProviderName": "Rolfson LLC",
   "Restrictions": [
     {
-      "Name": "Kihn, Hilll and Schumm",
-      "Operator": "recusandae",
+      "Name": "Dickinson, McCullough and Maggio",
+      "Operator": "tempora",
       "Values": [
-        "dicta",
-        "quod"
+        "eligendi",
+        "alias"
       ],
       "DisplayValues": [
-        "adipisci",
-        "illo"
+        "deserunt",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 877,
+      "InterParenthesis": 298,
       "InterOperator": "And",
-      "UniqueHash": 552
+      "UniqueHash": 260
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  49,
-  215
+  805,
+  590
 ]
 ```

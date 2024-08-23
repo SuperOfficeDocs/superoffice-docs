@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 468,
-  "Name": "Swift-Bruen",
-  "Tooltip": "et",
-  "Rank": 52,
-  "DoctmplId": 994,
-  "Header": "qui",
-  "OurRef": "cupiditate",
-  "Deleted": true,
+  "SuggestedDocumentId": 30,
+  "Name": "Ernser, Nicolas and Rowe",
+  "Tooltip": "laudantium",
+  "Rank": 85,
+  "DoctmplId": 672,
+  "Header": "ea",
+  "OurRef": "laborum",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 17,
-  "Name": "Boehm-Shields",
-  "Tooltip": "molestiae",
-  "Rank": 163,
-  "DoctmplId": 848,
-  "Header": "ullam",
-  "OurRef": "omnis",
+  "SuggestedDocumentId": 513,
+  "Name": "Gerlach Group",
+  "Tooltip": "iure",
+  "Rank": 852,
+  "DoctmplId": 891,
+  "Header": "at",
+  "OurRef": "cupiditate",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 4
     }
   }
 }

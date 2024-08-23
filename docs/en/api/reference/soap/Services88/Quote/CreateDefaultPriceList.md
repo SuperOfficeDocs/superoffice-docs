@@ -69,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2024-06-05T02:21:32Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2024-06-05T02:21:32Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2024-08-22T11:27:32Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2024-08-22T11:27:32Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CreateDefaultPriceListResponse>

@@ -2,10 +2,10 @@
 uid: personagent-deleteconsentperson
 title: PersonAgent.DeleteConsentPerson event method
 description: Scripting events called on the DeleteConsentPerson method on the PersonAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PersonAgent.DeleteConsentPerson
 

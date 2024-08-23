@@ -3,9 +3,9 @@ uid: archiveproviderslist
 title: Archive Provider List
 description: This is a list of all the valid provider names, and the associated column names and types.
 keywords: archive providers
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Archive Providers
@@ -13,6 +13,7 @@ envir: onsite, online
 This is a list of all the valid provider names, and the associated column names and types.
 
 * [Activity](Activity.md)
+* [AggregationWrapper2](AggregationWrapper2.md)
 * [AllUsers](AllUsers.md)
 * [Appointment](Appointment.md)
 * [AppointmentAcceptedNotification](AppointmentAcceptedNotification.md)
@@ -51,6 +52,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [AssociateProjectStaticSelectionV2](AssociateProjectStaticSelectionV2.md)
 * [BatchTasks](BatchTasks.md)
 * [BookingResponseInvitation](BookingResponseInvitation.md)
+* [BulkUpdateResults](BulkUpdateResults.md)
 * [CancelledInvitation](CancelledInvitation.md)
 * [CategoryMembers](CategoryMembers.md)
 * [ChatConversationDynamicSelectionSingleCriteriaGroup](ChatConversationDynamicSelectionSingleCriteriaGroup.md)
@@ -65,6 +67,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [ChatConversationStaticSelectionV2](ChatConversationStaticSelectionV2.md)
 * [ChatSession](ChatSession.md)
 * [ChecklistAppointment](ChecklistAppointment.md)
+* [ConfigurableArchive](ConfigurableArchive.md)
 * [ConfigurableArchiveAppointment](ConfigurableArchiveAppointment.md)
 * [ConfigurableArchiveProject](ConfigurableArchiveProject.md)
 * [ConfigurableArchiveQuoteLine](ConfigurableArchiveQuoteLine.md)
@@ -72,7 +75,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [Contact](Contact.md)
 * [ContactActivity](ContactActivity.md)
 * [ContactDynamicSelection](ContactDynamicSelection.md)
-* [ContactFavourites](contactfavourites.md)
+* [contactfavourites](contactfavourites.md)
 * [ContactPersonDynamicSelectionSingleCriteriaGroup](ContactPersonDynamicSelectionSingleCriteriaGroup.md)
 * [ContactPersonDynamicSelectionV2](ContactPersonDynamicSelectionV2.md)
 * [ContactPersonSelectionCombinedV2](ContactPersonSelectionCombinedV2.md)
@@ -85,6 +88,12 @@ This is a list of all the valid provider names, and the associated column names 
 * [CredentialUser](CredentialUser.md)
 * [Criteria](Criteria.md)
 * [CRMScripts](CRMScripts.md)
+* [CustomObject](CustomObject.md)
+* [CustomObjectDynamicSelectionSingleCriteriaGroup](CustomObjectDynamicSelectionSingleCriteriaGroup.md)
+* [CustomObjectDynamicSelectionV2](CustomObjectDynamicSelectionV2.md)
+* [CustomObjectSelectionCombinedV2](CustomObjectSelectionCombinedV2.md)
+* [CustomObjectSelectionV2](CustomObjectSelectionV2.md)
+* [CustomObjectStaticSelectionV2](CustomObjectStaticSelectionV2.md)
 * [DiaryActivity](DiaryActivity.md)
 * [DiaryAppointment](DiaryAppointment.md)
 * [Document](Document.md)
@@ -142,6 +151,8 @@ This is a list of all the valid provider names, and the associated column names 
 * [FindContactWithoutPhoneAddressEmail](FindContactWithoutPhoneAddressEmail.md)
 * [FindDocument](FindDocument.md)
 * [FindErpEntity](FindErpEntity.md)
+* [FindErpProduct](FindErpProduct.md)
+* [FindProductViaConnectorProvider](FindProductViaConnectorProvider.md)
 * [FindProject](FindProject.md)
 * [FindQuoteLine](FindQuoteLine.md)
 * [FindSale](FindSale.md)
@@ -268,6 +279,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [RejectedInvitation](RejectedInvitation.md)
 * [Relation](Relation.md)
 * [ReportLabelLayout](ReportLabelLayout.md)
+* [ReportProvider](ReportProvider.md)
 * [Reports](Reports.md)
 * [RequestNotification](RequestNotification.md)
 * [Role](Role.md)

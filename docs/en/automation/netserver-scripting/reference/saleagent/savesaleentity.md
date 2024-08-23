@@ -2,10 +2,10 @@
 uid: saleagent-savesaleentity
 title: SaleAgent.SaveSaleEntity event method
 description: Scripting events called on the SaveSaleEntity method on the SaleAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SaleAgent.SaveSaleEntity
 

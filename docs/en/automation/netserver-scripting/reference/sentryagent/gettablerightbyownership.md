@@ -2,10 +2,10 @@
 uid: sentryagent-gettablerightbyownership
 title: SentryAgent.GetTableRightByOwnership event method
 description: Scripting events called on the GetTableRightByOwnership method on the SentryAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # SentryAgent.GetTableRightByOwnership
 

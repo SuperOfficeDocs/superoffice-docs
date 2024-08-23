@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Moore LLC",
-  "Tooltip": "ipsum",
+  "Id": 831,
+  "Name": "Mills-Reichel",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 501,
-  "Rank": 958,
+  "UdListDefinitionId": 388,
+  "Rank": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldLength": 696
     }
   }
 }

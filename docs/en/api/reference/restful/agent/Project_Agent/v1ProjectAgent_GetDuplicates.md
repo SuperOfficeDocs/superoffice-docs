@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Auer Inc and Sons"
+  "Name": "Dach, Murazik and Cassin"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Pfannerstill, Pfeffer and Schuster",
-    "SoPrimaryKey": 299,
-    "EntryName": "Friesen-Lockman",
-    "EntryIdentifier": "debitis",
-    "RuleDisplayName": "Hane Group",
+    "RuleName": "Hilpert-Cremin",
+    "SoPrimaryKey": 342,
+    "EntryName": "Ernser-Tromp",
+    "EntryIdentifier": "repudiandae",
+    "RuleDisplayName": "Upton-Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 19,
-  "Section": "rerum",
-  "Key": "dicta",
-  "Name": "Cassin Inc and Sons",
+  "PrefDescId": 630,
+  "Section": "qui",
+  "Key": "officiis",
+  "Name": "Kuphal-Hilpert",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal motivating process improvement",
-  "IsBuiltin": true,
-  "TableName": "Quitzon Inc and Sons",
-  "UserDefinedListId": 668,
-  "Rank": 203,
-  "SubGroup": "atque",
-  "MinLevel": 256,
-  "MaxValue": 380,
-  "MinValue": 662,
-  "RequiredLicense": "optio",
+  "Description": "Seamless stable alliance",
+  "IsBuiltin": false,
+  "TableName": "McLaughlin Inc and Sons",
+  "UserDefinedListId": 499,
+  "Rank": 284,
+  "SubGroup": "quas",
+  "MinLevel": 89,
+  "MaxValue": 449,
+  "MinValue": 223,
+  "RequiredLicense": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Kuphal-Harris",
-    "Tooltip": "tempore",
+    "Id": 199,
+    "Name": "Hahn, Christiansen and Corkery",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 204,
-    "Rank": 366
+    "UdListDefinitionId": 769,
+    "Rank": 683
   },
   {
-    "Id": 582,
-    "Name": "Kuphal-Harris",
-    "Tooltip": "tempore",
+    "Id": 199,
+    "Name": "Hahn, Christiansen and Corkery",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 204,
-    "Rank": 366
+    "UdListDefinitionId": 769,
+    "Rank": 683
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "O'Connell, Cole and Ankunding",
-    "Tooltip": "et",
+    "Id": 900,
+    "Name": "Will, Koch and Lind",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 511,
-    "Rank": 600,
+    "UdListDefinitionId": 835,
+    "Rank": 929,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldLength": 397
       }
     }
   }

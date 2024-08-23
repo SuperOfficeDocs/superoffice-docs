@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 586,
-  "Name": "Wintheiser Inc and Sons",
+  "ScreenChooserId": 229,
+  "Name": "Cronin, Baumbach and Mraz",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "voluptates",
-  "Registered": "2010-04-05T04:22:26.3090583+02:00",
-  "RegisteredAssociateId": 549,
-  "Updated": "2018-02-05T04:22:26.3090583+01:00",
-  "UpdatedAssociateId": 777
+  "UniqueIdentifier": "consectetur",
+  "Source": "amet",
+  "Registered": "2022-12-10T13:28:22.3511449+01:00",
+  "RegisteredAssociateId": 374,
+  "Updated": "2022-01-04T13:28:22.3511449+01:00",
+  "UpdatedAssociateId": 328
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 698,
-  "Name": "Shields-Mohr",
+  "ScreenChooserId": 158,
+  "Name": "Turner, O'Keefe and Stamm",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sint",
-  "Source": "numquam",
-  "Registered": "2000-09-22T04:22:26.3090583+02:00",
-  "RegisteredAssociateId": 329,
-  "Updated": "1997-10-27T04:22:26.3090583+01:00",
-  "UpdatedAssociateId": 897,
+  "UniqueIdentifier": "molestiae",
+  "Source": "magnam",
+  "Registered": "1998-04-14T13:28:22.3511449+02:00",
+  "RegisteredAssociateId": 165,
+  "Updated": "2016-07-29T13:28:22.3511449+02:00",
+  "UpdatedAssociateId": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 239
     }
   }
 }

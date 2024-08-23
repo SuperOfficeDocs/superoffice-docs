@@ -3,9 +3,9 @@ uid: FormSubmissionShadowDynamicSelectionV2
 title: FormSubmissionShadowDynamicSelectionV2
 description: FormSubmission shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: FormSubmissionShadowDynamicSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FormSubmissionShadowDynamicSelectionV2"
@@ -476,7 +476,7 @@ FormSubmission shadow selection archive with OR-able selection groups. Each grou
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=person/whenUpdatedByWorkflow,person/email/emailId,contact/restrictionAddress/city
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=associate/contactDepartment,associate/credentialType,person/correspondingAssociate/isActiveText,contact/email/emailHasBounced,contact/contactUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -3,9 +3,9 @@ uid: customobjectrelation
 title: customobjectrelation
 keywords: mdoprovider mdo provider customobjectrelation
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "customobjectrelation" MDO List

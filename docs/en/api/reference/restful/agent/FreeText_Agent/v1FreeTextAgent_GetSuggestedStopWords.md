@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 903
+  "CountWords": 688
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Steuber-Kuhic",
-    "ToolTip": "Rem voluptas pariatur veritatis tempora modi dolores.",
+    "Id": 925,
+    "Name": "Schulist-Beier",
+    "ToolTip": "Eligendi unde beatae.",
     "Deleted": false,
-    "Rank": 528,
-    "Type": "in",
+    "Rank": 637,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Olson-Wuckert",
-        "ToolTip": "Quis nesciunt ut.",
-        "Deleted": true,
-        "Rank": 665,
-        "Type": "distinctio",
+        "Id": 584,
+        "Name": "Kiehn-Johns",
+        "ToolTip": "Minima temporibus fuga culpa ipsa nesciunt veritatis in.",
+        "Deleted": false,
+        "Rank": 712,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 329,
-        "ExtraInfo": "eum",
-        "StyleHint": "molestiae",
-        "FullName": "Junior Sawayn",
+        "IconHint": "perferendis",
+        "ColorBlock": 63,
+        "ExtraInfo": "saepe",
+        "StyleHint": "praesentium",
+        "FullName": "Magali Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 68
           }
         }
       }
     ],
-    "IconHint": "error",
-    "ColorBlock": 850,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "deleniti",
-    "FullName": "Caden Bradtke",
+    "IconHint": "similique",
+    "ColorBlock": 450,
+    "ExtraInfo": "qui",
+    "StyleHint": "qui",
+    "FullName": "Mavis Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 473
       }
     }
   }

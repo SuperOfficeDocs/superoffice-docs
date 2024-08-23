@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Metz, Frami and Roberts",
-    "Tooltip": "officia",
-    "Deleted": true,
-    "UdListDefinitionId": 492,
-    "Rank": 166
+    "Id": 244,
+    "Name": "Collins, Abshire and Donnelly",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "UdListDefinitionId": 529,
+    "Rank": 29
   },
   {
-    "Id": 825,
-    "Name": "Metz, Frami and Roberts",
-    "Tooltip": "officia",
-    "Deleted": true,
-    "UdListDefinitionId": 492,
-    "Rank": 166
+    "Id": 244,
+    "Name": "Collins, Abshire and Donnelly",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "UdListDefinitionId": 529,
+    "Rank": 29
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Ernser, Stokes and Roob",
-    "Tooltip": "tempora",
+    "Id": 870,
+    "Name": "Gorczany LLC",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 154,
-    "Rank": 986,
+    "UdListDefinitionId": 664,
+    "Rank": 600,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 183
       }
     }
   }

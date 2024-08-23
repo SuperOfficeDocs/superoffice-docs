@@ -2,10 +2,10 @@
 uid: numberallocationagent-createdefaultrefcountentity
 title: NumberAllocationAgent.CreateDefaultRefCountEntity event method
 description: Scripting events called on the CreateDefaultRefCountEntity method on the NumberAllocationAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # NumberAllocationAgent.CreateDefaultRefCountEntity
 

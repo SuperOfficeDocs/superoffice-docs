@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-11-24T04:22:34.5777567+01:00",
-  "AppointmentId": 272,
-  "Description": "Virtual context-sensitive installation",
-  "Title": "delectus",
-  "Agenda": "aut",
-  "InternalNotes": "qui",
-  "StartDate": "2007-09-07T04:22:34.5777567+02:00",
-  "EndDate": "1999-09-12T04:22:34.5777567+02:00",
+  "CreatedDate": "2005-07-11T13:28:31.1949789+02:00",
+  "AppointmentId": 156,
+  "Description": "Secured hybrid secured line",
+  "Title": "sunt",
+  "Agenda": "quia",
+  "InternalNotes": "placeat",
+  "StartDate": "2004-08-18T13:28:31.1949789+02:00",
+  "EndDate": "1998-08-02T13:28:31.1949789+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 19,
+  "MotherId": 722,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-10-30T04:22:34.5777567+02:00",
+  "UpdatedDate": "2006-05-06T13:28:31.1949789+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 747,
+  "ActiveLinks": 7,
   "Links": [
     {
-      "EntityName": "Kling, Leannon and Hermiston",
-      "Id": 56,
-      "Description": "Vision-oriented static ability",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 238
+      "EntityName": "Koelpin-Emard",
+      "Id": 765,
+      "Description": "Reactive 5th generation paradigm",
+      "ExtraInfo": "enim",
+      "LinkId": 708
     },
     {
-      "EntityName": "Kling, Leannon and Hermiston",
-      "Id": 56,
-      "Description": "Vision-oriented static ability",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 238
+      "EntityName": "Koelpin-Emard",
+      "Id": 765,
+      "Description": "Reactive 5th generation paradigm",
+      "ExtraInfo": "enim",
+      "LinkId": 708
     }
   ],
-  "AlarmLeadTime": "ab",
+  "AlarmLeadTime": "earum",
   "HasAlarm": false,
-  "ColorIndex": 673,
-  "IsFree": false,
+  "ColorIndex": 199,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "rerum",
-  "Location": "cumque",
-  "RejectCounter": 728,
+  "LagTime": "officia",
+  "LeadTime": "commodi",
+  "Location": "velit",
+  "RejectCounter": 642,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 535,
-      "PersonId": 608,
-      "ContactId": 400,
-      "EmailId": 521,
-      "SendEmail": false,
+      "AssociateId": 591,
+      "PersonId": 712,
+      "ContactId": 313,
+      "EmailId": 612,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "antonietta.schmitt@bartell.info",
-      "Description": "Right-sized well-modulated website"
+      "EmailAddress": "louisa_lubowitz@gleichnercorwin.co.uk",
+      "Description": "Pre-emptive even-keeled knowledge user"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-06-16T04:22:34.5777567+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2002-08-23T13:28:31.1949789+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 898,
+  "PreferredTZLocation": 478,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 245,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 3,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "recusandae",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "119125341",
-    "SuperOffice:2": "2064594082"
+    "SuperOffice:1": "Declan Kunze",
+    "SuperOffice:2": "Osvaldo Jaskolski"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "possimus"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2019-09-24T04:22:34.5777567+02:00",
-  "PublishTo": "2014-09-25T04:22:34.5777567+02:00",
-  "PublishFrom": "2021-06-26T04:22:34.5777567+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-04-23T13:28:31.1949789+02:00",
+  "PublishTo": "2023-07-23T13:28:31.1949789+02:00",
+  "PublishFrom": "2011-11-28T13:28:31.1949789+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 420,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 420,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consequatur",
-  "2": "mollitia"
+  "1": "illo",
+  "2": "asperiores"
 }
 ```

@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 290,
-  "PrefDescId": 56,
-  "PrefValue": "non",
-  "PrefShowValue": "iure",
-  "Description": "Cloned next generation open system",
-  "IsBuiltin": false
+  "PrefDescLineId": 757,
+  "PrefDescId": 974,
+  "PrefValue": "corporis",
+  "PrefShowValue": "sed",
+  "Description": "Profit-focused transitional functionalities",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 538,
-  "PrefDescId": 731,
-  "PrefValue": "voluptas",
-  "PrefShowValue": "repellat",
-  "Description": "Centralized multimedia challenge",
-  "IsBuiltin": true,
+  "PrefDescLineId": 94,
+  "PrefDescId": 849,
+  "PrefValue": "provident",
+  "PrefShowValue": "et",
+  "Description": "Profit-focused neutral algorithm",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   },
   "_Links": {

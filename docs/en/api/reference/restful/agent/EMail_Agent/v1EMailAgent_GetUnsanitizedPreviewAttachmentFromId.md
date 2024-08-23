@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 626,
-  "AttachmentId": "rerum",
-  "AttachmentType": "ipsa",
-  "AttachmentFilename": "magni"
+  "MailItemId": 313,
+  "AttachmentId": "enim",
+  "AttachmentType": "cupiditate",
+  "AttachmentFilename": "libero"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic optimal portal",
-  "Filename": "est",
-  "Size": 929,
-  "Type": "dolor",
+  "Description": "Open-source multi-state installation",
+  "Filename": "dolor",
+  "Size": 588,
+  "Type": "delectus",
   "Encoding": "et",
-  "Id": "voluptas",
-  "Disposition": "debitis",
-  "IsSafeFileExtension": true,
+  "Id": "et",
+  "Disposition": "qui",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 233
     }
   }
 }

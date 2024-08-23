@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Howe, Bode and Rodriguez",
-  "Tooltip": "reprehenderit",
+  "Id": 257,
+  "Name": "Johns Inc and Sons",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "UdListDefinitionId": 137,
-  "Rank": 803
+  "UdListDefinitionId": 13,
+  "Rank": 891
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Bednar, Koch and Mitchell",
-  "Tooltip": "unde",
+  "Id": 32,
+  "Name": "Koss, Kohler and Roberts",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 942,
-  "Rank": 474,
+  "UdListDefinitionId": 691,
+  "Rank": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 755
     }
   }
 }

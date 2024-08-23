@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 605,
-    "Name": "Waelchi Group",
-    "Tooltip": "in",
+    "HeadingId": 550,
+    "Name": "Little-Langworth",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 826
+    "Rank": 977,
+    "UdListDefinitionId": 76
   },
   {
-    "HeadingId": 605,
-    "Name": "Waelchi Group",
-    "Tooltip": "in",
+    "HeadingId": 550,
+    "Name": "Little-Langworth",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 826
+    "Rank": 977,
+    "UdListDefinitionId": 76
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 246,
-    "Name": "Cruickshank-Mertz",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 174,
+    "Name": "Kling-Stracke",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 311,
-    "UdListDefinitionId": 650,
+    "Rank": 861,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 117
       }
     }
   }

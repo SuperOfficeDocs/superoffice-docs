@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "modi",
+  "FieldLabel": "alias",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 816,
-  "ColumnId": 844,
-  "FieldDefault": "ea",
-  "FieldHeight": 638,
-  "FieldLabel": "eos",
-  "FieldLeft": 307,
-  "FieldTop": 644,
+  "UDefFieldId": 856,
+  "ColumnId": 361,
+  "FieldDefault": "deserunt",
+  "FieldHeight": 869,
+  "FieldLabel": "tenetur",
+  "FieldLeft": 378,
+  "FieldTop": 869,
   "FieldType": "Checkbox",
-  "FieldWidth": 226,
-  "FormatMask": "aliquam",
+  "FieldWidth": 232,
+  "FormatMask": "consectetur",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 682,
-  "LabelLeft": 266,
-  "LabelTop": 977,
-  "LabelWidth": 503,
-  "LastVersionId": 675,
-  "ListTableId": 235,
+  "IsIndexed": false,
+  "LabelHeight": 222,
+  "LabelLeft": 301,
+  "LabelTop": 261,
+  "LabelWidth": 417,
+  "LastVersionId": 456,
+  "ListTableId": 99,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 983,
-  "ProgId": "laboriosam",
+  "Page1LineNo": 615,
+  "ProgId": "ad",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 142,
-  "TextLength": 921,
-  "Tooltip": "quod",
-  "UdefIdentity": 910,
-  "UDListDefinitionId": 245,
+  "ShortLabel": "ut",
+  "TabOrder": 209,
+  "TextLength": 451,
+  "Tooltip": "atque",
+  "UdefIdentity": 499,
+  "UDListDefinitionId": 355,
   "Justification": "Center",
-  "Version": 434,
-  "TemplateVariableName": "Moen Inc and Sons",
+  "Version": 512,
+  "TemplateVariableName": "Vandervort, Feeney and Heathcote",
   "HasBeenPublished": false,
-  "MdoListName": "Schaden-Hauck",
+  "MdoListName": "Leuschke, Hintz and Erdman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 589
     }
   }
 }

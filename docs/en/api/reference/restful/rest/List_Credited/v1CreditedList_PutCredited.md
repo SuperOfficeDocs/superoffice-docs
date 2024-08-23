@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Durgan LLC",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "UdListDefinitionId": 981,
-  "Rank": 333
+  "Id": 691,
+  "Name": "Cruickshank-Kautzer",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "UdListDefinitionId": 166,
+  "Rank": 722
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 983,
-  "Name": "Schiller Group",
-  "Tooltip": "excepturi",
+  "Id": 303,
+  "Name": "O'Reilly-Cormier",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 555,
-  "Rank": 754,
+  "UdListDefinitionId": 976,
+  "Rank": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   }
 }

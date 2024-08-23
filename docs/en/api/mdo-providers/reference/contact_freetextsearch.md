@@ -3,9 +3,9 @@ uid: contact_freetextsearch
 title: contact_freetextsearch
 keywords: mdoprovider mdo provider contact_freetextsearch
 description: Provider for selecting a Contact - without person search. Does keyword matching and scoring across multiple string fields. Checks name, department, soundex fields.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "contact_freetextsearch" MDO List

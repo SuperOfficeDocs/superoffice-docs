@@ -2,10 +2,10 @@
 uid: marketingagent-createdefaultshipmentmessageentity
 title: MarketingAgent.CreateDefaultShipmentMessageEntity event method
 description: Scripting events called on the CreateDefaultShipmentMessageEntity method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.CreateDefaultShipmentMessageEntity
 

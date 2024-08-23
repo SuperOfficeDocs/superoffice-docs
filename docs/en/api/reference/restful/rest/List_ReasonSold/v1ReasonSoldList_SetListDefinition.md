@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Bashirian-Murray",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 888,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false
+  "Id": 540,
+  "Name": "Greenholt, Gleichner and Cremin",
+  "Tooltip": "laborum",
+  "Deleted": true,
+  "Rank": 918,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Hoeger-Parker",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "Rank": 349,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 209,
+  "Name": "Zemlak-Jenkins",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 112,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   }
 }

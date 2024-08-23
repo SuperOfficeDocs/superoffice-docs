@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Keeling Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 878,
-  "UdListDefinitionId": 447
+  "HeadingId": 99,
+  "Name": "Jast-Runolfsson",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 739,
+  "UdListDefinitionId": 71
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 432,
-  "Name": "Pacocha-Rempel",
-  "Tooltip": "enim",
+  "HeadingId": 655,
+  "Name": "Eichmann-O'Hara",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 801,
-  "UdListDefinitionId": 551,
+  "Rank": 585,
+  "UdListDefinitionId": 172,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 799
     }
   }
 }

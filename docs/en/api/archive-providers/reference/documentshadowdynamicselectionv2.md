@@ -3,9 +3,9 @@ uid: DocumentShadowDynamicSelectionV2
 title: DocumentShadowDynamicSelectionV2
 description: Document shadow selection archive with OR-able selection groups. Each group is represented with the <see cref="T -SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionDynamicProviderSingleCriteriaGroup" />.
 keywords: DocumentShadowDynamicSelectionV2 archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "DocumentShadowDynamicSelectionV2"
@@ -709,7 +709,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=isMail,person/personExtra/x_person_date,person/personExtra/x_person_request_relation,person/correspondingAssociate/ejUserId,contact/contactAssociate/mrMrs
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/correspondingAssociate/fullName,contact/searchPhone/formattedNumber,contact/contactExtra/x_contact_contact_relation,contact/saintActivityType,project/NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

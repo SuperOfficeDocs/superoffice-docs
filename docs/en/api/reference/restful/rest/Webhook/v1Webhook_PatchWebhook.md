@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "temporibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "temporibus",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 550,
-  "Name": "Veum-Osinski",
+  "WebhookId": 989,
+  "Name": "Wolff, Davis and Cummerata",
   "Events": [
-    "et",
-    "cum"
+    "veritatis",
+    "neque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "minus",
+  "Secret": "veritatis",
   "State": "Active",
-  "Type": "minima",
+  "Type": "consequatur",
   "Headers": {
-    "Headers1": "placeat",
-    "Headers2": "quisquam"
+    "Headers1": "qui",
+    "Headers2": "sit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-12-19T04:22:35.7678517+01:00",
+  "Registered": "2018-01-24T13:28:32.6322813+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-08-15T04:22:35.7678517+02:00",
+  "Updated": "2007-04-10T13:28:32.6322813+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "shanna@berge.co.uk",
+  "ErrorsEmail": "luna.crooks@wehner.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

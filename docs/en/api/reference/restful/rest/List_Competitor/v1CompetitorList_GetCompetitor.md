@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Rosenbaum, Okuneva and Schaden",
-  "Tooltip": "tenetur",
+  "Id": 683,
+  "Name": "Turner, Hintz and Brakus",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 528,
-  "Rank": 145,
+  "UdListDefinitionId": 990,
+  "Rank": 139,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

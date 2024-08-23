@@ -3,9 +3,9 @@ uid: salefavourites
 title: salefavourites
 description: 
 keywords: salefavourites archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "salefavourites"
@@ -1121,7 +1121,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=salePublish/isPublished,person/personInfo/textId,person/personUdef/SuperOffice:8,contact/postAddress/zip,contact/restrictionAddress/line3
+GET /api/v1/archive/salefavourites?$select=person/correspondingAssociate/simultaneousEjUser,contact/contactSource,contact/phone/formattedNumber,contact/email/emailDescription,contact/streetAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

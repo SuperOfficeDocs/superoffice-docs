@@ -2,10 +2,10 @@
 uid: quoteagent-createquoteline
 title: QuoteAgent.CreateQuoteLine event method
 description: Scripting events called on the CreateQuoteLine method on the QuoteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # QuoteAgent.CreateQuoteLine
 

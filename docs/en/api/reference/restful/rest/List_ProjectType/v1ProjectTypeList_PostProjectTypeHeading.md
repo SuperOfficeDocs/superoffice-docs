@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 913,
-  "Name": "McLaughlin-Conroy",
-  "Tooltip": "ratione",
+  "HeadingId": 840,
+  "Name": "Anderson Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 464,
-  "UdListDefinitionId": 40
+  "Rank": 348,
+  "UdListDefinitionId": 245
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 743,
-  "Name": "Bergnaum Inc and Sons",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "Rank": 70,
-  "UdListDefinitionId": 437,
+  "HeadingId": 614,
+  "Name": "Considine LLC",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 189,
+  "UdListDefinitionId": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 934
     }
   }
 }

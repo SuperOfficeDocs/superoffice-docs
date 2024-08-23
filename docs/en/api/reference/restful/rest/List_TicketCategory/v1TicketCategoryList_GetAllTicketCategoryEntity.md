@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 450,
-    "ParentId": 976,
-    "Name": "Labadie-Rogahn",
-    "Fullname": "ullam",
-    "CategoryMaster": 10,
+    "TicketCategoryId": 984,
+    "ParentId": 119,
+    "Name": "Bechtelar, Ledner and Heidenreich",
+    "Fullname": "nam",
+    "CategoryMaster": 984,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Littel-Harris",
+    "ExternalName": "Emard LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 369,
-    "ReplyTemplate": 376,
-    "NotificationEmail": "maureen@gutkowski.name",
+    "AssignmentLag": 208,
+    "ReplyTemplate": 99,
+    "NotificationEmail": "isai@hayesdickens.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 102,
+    "EffectiveReplyTemplateId": 394,
     "ExtraFields": {
-      "ExtraFields1": "consequatur",
-      "ExtraFields2": "voluptate"
+      "ExtraFields1": "voluptate",
+      "ExtraFields2": "totam"
     },
     "CustomFields": {
-      "CustomFields1": "deserunt",
-      "CustomFields2": "velit"
+      "CustomFields1": "id",
+      "CustomFields2": "dolor"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 540
       }
     }
   }

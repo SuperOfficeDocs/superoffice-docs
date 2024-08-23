@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ex",
+  "ProgId": "sit",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 491,
-  "ColumnId": 867,
-  "FieldDefault": "optio",
-  "FieldHeight": 731,
-  "FieldLabel": "nihil",
-  "FieldLeft": 389,
-  "FieldTop": 234,
+  "UDefFieldId": 702,
+  "ColumnId": 263,
+  "FieldDefault": "quasi",
+  "FieldHeight": 475,
+  "FieldLabel": "recusandae",
+  "FieldLeft": 192,
+  "FieldTop": 850,
   "FieldType": "Checkbox",
-  "FieldWidth": 514,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 507,
+  "FormatMask": "labore",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 689,
-  "LabelLeft": 939,
-  "LabelTop": 923,
-  "LabelWidth": 88,
-  "LastVersionId": 120,
-  "ListTableId": 15,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 545,
+  "LabelLeft": 486,
+  "LabelTop": 439,
+  "LabelWidth": 527,
+  "LastVersionId": 463,
+  "ListTableId": 570,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 563,
-  "ProgId": "repudiandae",
+  "Page1LineNo": 434,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 208,
-  "TextLength": 14,
-  "Tooltip": "a",
-  "UdefIdentity": 201,
-  "UDListDefinitionId": 267,
+  "ShortLabel": "doloremque",
+  "TabOrder": 890,
+  "TextLength": 342,
+  "Tooltip": "quis",
+  "UdefIdentity": 1002,
+  "UDListDefinitionId": 27,
   "Justification": "Center",
-  "Version": 343,
-  "TemplateVariableName": "Kilback Group",
+  "Version": 922,
+  "TemplateVariableName": "O'Connell Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Wolff Inc and Sons",
+  "MdoListName": "Leffler LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

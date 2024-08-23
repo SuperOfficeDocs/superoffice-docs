@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "UdListDefinitionName": "Dicki Group"
+  "Id": 334,
+  "UdListDefinitionName": "Hand Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Ondricka Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 79,
+  "Name": "Hilll LLC",
+  "Tooltip": "quis",
   "Deleted": true,
-  "UdListDefinitionId": 815,
-  "Rank": 393,
+  "UdListDefinitionId": 486,
+  "Rank": 498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldLength": 824
     }
   }
 }

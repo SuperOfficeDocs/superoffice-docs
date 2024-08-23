@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 200,
-  "ParentId": 349,
-  "Name": "Hirthe, Mayert and O'Conner",
-  "Fullname": "eligendi",
-  "CategoryMaster": 248,
+  "TicketCategoryId": 950,
+  "ParentId": 92,
+  "Name": "Roberts Group",
+  "Fullname": "omnis",
+  "CategoryMaster": 11,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Moore LLC",
+  "ExternalName": "Auer, Schowalter and Schinner",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 587,
-  "ReplyTemplate": 512,
-  "NotificationEmail": "donny.mueller@kertzmannwatsica.name",
+  "AssignmentLag": 567,
+  "ReplyTemplate": 771,
+  "NotificationEmail": "annabell@bruen.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 871,
+  "EffectiveReplyTemplateId": 325,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "ea"
+    "CustomFields1": "velit",
+    "CustomFields2": "incidunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 123
     }
   }
 }

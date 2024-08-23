@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 580
+  "DepartmentId": 69
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "869.392.8574 x775",
-    "PersonCellPhone": "1-996-203-1273",
-    "PersonPrivatePhone": "381-631-9511",
-    "PersonFaxNumber": "1151631",
-    "PersonPagerNumber": "994389",
-    "PersonEmail": "luther@bechtelarswaniawski.info",
-    "Id": 70,
-    "Name": "Buckridge-Konopelski",
-    "Tooltip": "quis",
-    "UniqueId": "eum",
+    "PersonDirectPhone": "297.347.8888 x45425",
+    "PersonCellPhone": "390.654.3677 x081",
+    "PersonPrivatePhone": "(442)935-6915 x6530",
+    "PersonFaxNumber": "819627",
+    "PersonPagerNumber": "1416158",
+    "PersonEmail": "paolo@effertz.name",
+    "Id": 574,
+    "Name": "Lueilwitz Inc and Sons",
+    "Tooltip": "nesciunt",
+    "UniqueId": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 55
       }
     }
   }

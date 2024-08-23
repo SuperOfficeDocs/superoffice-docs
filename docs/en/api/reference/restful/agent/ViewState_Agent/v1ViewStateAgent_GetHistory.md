@@ -26,7 +26,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=676
+POST /api/v1/Agents/ViewState/GetHistory?historyId=454
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 681,
-  "Id": 596,
-  "HistoryName": "Mitchell, Witting and Paucek",
-  "HistoryId": 3,
-  "AssociateId": 819,
-  "Name": "Schowalter Group",
-  "ItemInfo": "laborum",
+  "Rank": 909,
+  "Id": 379,
+  "HistoryName": "Collier, Sauer and Runte",
+  "HistoryId": 484,
+  "AssociateId": 767,
+  "Name": "Bashirian LLC",
+  "ItemInfo": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 206
     }
   }
 }

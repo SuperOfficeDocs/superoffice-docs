@@ -60,8 +60,15 @@ The CRMScriptEntity to be saved.
 | Name | String | A description of this script |
 | Description | String | Optional description of what this script is used for. |
 | IncludeId | String | A unique name used for including this script in another |
+| AccessKey | String | Access key used to run this script on the customer pages |
 | HierarchyId | Integer | The script is inside this hierarchy folder |
 | Source | String | The script |
+| SourceCode | String | Contains the source code of the script |
+| ScriptType | String | The type/language of this script |
+| HtmlOutput | Integer | True if this script will return HTML output |
+| Includes | Array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | Array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | String | Registered when  in UTC. |
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
@@ -85,8 +92,15 @@ CRMScriptEntity updated.
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -101,21 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 989,
-  "UniqueIdentifier": "quasi",
-  "Name": "Reichel, Grant and Ortiz",
-  "Description": "Mandatory 24 hour workforce",
-  "IncludeId": "aperiam",
-  "HierarchyId": 957,
-  "Source": "veniam",
-  "Registered": "2013-03-31T04:22:34.8589991+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2020-05-19T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 549
+  "EjscriptId": 830,
+  "UniqueIdentifier": "repellat",
+  "Name": "Treutel-Gorczany",
+  "Description": "Inverse full-range functionalities",
+  "IncludeId": "deserunt",
+  "AccessKey": "sint",
+  "HierarchyId": 711,
+  "Source": "omnis",
+  "SourceCode": "voluptas",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 745,
+  "Includes": [
+    126,
+    365
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 157,
+      "LineNumberTo": 234,
+      "Delta": 46,
+      "IncludeId": "cumque",
+      "IncludedFrom": [
+        "maiores",
+        "asperiores"
+      ]
+    },
+    {
+      "LineNumberFrom": 157,
+      "LineNumberTo": 234,
+      "Delta": 46,
+      "IncludeId": "cumque",
+      "IncludedFrom": [
+        "maiores",
+        "asperiores"
+      ]
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "1997-06-06T13:28:31.53865+02:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "2002-12-05T13:28:31.53865+01:00",
+  "UpdatedAssociateId": 507
 }
 ```
 
@@ -126,28 +171,57 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 59,
-  "UniqueIdentifier": "facere",
-  "Name": "Lemke Inc and Sons",
-  "Description": "Balanced 6th generation implementation",
-  "IncludeId": "ducimus",
-  "HierarchyId": 793,
-  "Source": "dolorum",
-  "Registered": "2006-11-19T04:22:34.8589991+01:00",
-  "RegisteredAssociateId": 35,
-  "Updated": "2004-10-23T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 788,
+  "EjscriptId": 502,
+  "UniqueIdentifier": "laboriosam",
+  "Name": "Jerde-Hansen",
+  "Description": "Adaptive mobile attitude",
+  "IncludeId": "esse",
+  "AccessKey": "rem",
+  "HierarchyId": 376,
+  "Source": "ut",
+  "SourceCode": "modi",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 727,
+  "Includes": [
+    751,
+    59
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 518,
+      "LineNumberTo": 884,
+      "Delta": 804,
+      "IncludeId": "quisquam",
+      "IncludedFrom": [
+        "eum",
+        "doloribus"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 115
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2011-05-20T13:28:31.5542696+02:00",
+  "RegisteredAssociateId": 3,
+  "Updated": "2003-10-05T13:28:31.5542696+02:00",
+  "UpdatedAssociateId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 545
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

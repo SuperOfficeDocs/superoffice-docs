@@ -3,9 +3,9 @@ uid: Ejscripts
 title: Ejscripts
 description: Archive of CRM Scripts - used by the web api and partners.
 keywords: Ejscripts archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Ejscripts"

@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 894,
-  "CopyToSaleId": 746
+  "CopyFromSaleId": 261,
+  "CopyToSaleId": 107
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 658,
-  "SaleId": 954,
-  "QuoteConnectionId": 867,
-  "ERPQuoteKey": "eum",
-  "ERPOrderKey": "ut",
-  "ActiveQuoteVersionId": 819,
-  "AcceptedQuoteAlternativeId": 408,
-  "UseValuesFromQuote": 461,
-  "DocumentId": 406,
-  "PoNumber": "1298712",
-  "OrderComment": "omnis",
-  "PreferredEmailCulture": "luciano@wardsawayn.biz",
+  "QuoteId": 541,
+  "SaleId": 466,
+  "QuoteConnectionId": 847,
+  "ERPQuoteKey": "assumenda",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 541,
+  "AcceptedQuoteAlternativeId": 725,
+  "UseValuesFromQuote": 95,
+  "DocumentId": 863,
+  "PoNumber": "450610",
+  "OrderComment": "nam",
+  "PreferredEmailCulture": "telly.reichert@robelgreenholt.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 357,
-      "ERPQuoteVersionKey": "modi",
-      "QuoteId": 679,
-      "Description": "Profound zero administration frame",
-      "Number": "382453",
+      "QuoteVersionId": 815,
+      "ERPQuoteVersionKey": "optio",
+      "QuoteId": 59,
+      "Description": "Compatible 4th generation policy",
+      "Number": "1264582",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "transform revolutionary communities",
-      "LikelyQuoteAlternativeId": 629,
-      "SentDate": "2016-02-14T04:22:27.4247427+01:00",
-      "FollowupId": 739,
-      "ExpirationDate": "2004-03-12T04:22:27.4247427+01:00",
-      "DeliveryCountryId": 922,
+      "Reason": "",
+      "LikelyQuoteAlternativeId": 223,
+      "SentDate": "2009-11-12T13:28:23.5855044+01:00",
+      "FollowupId": 460,
+      "ExpirationDate": "2016-11-23T13:28:23.5855044+01:00",
+      "DeliveryCountryId": 292,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 173,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "dolores",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "id",
-      "ERPDeliveryTypeKey": "et",
-      "Rank": 470,
-      "ApprovedBy": 665,
-      "ApprovedText": "non",
-      "ApprovedRegisteredBy": 787,
-      "ApprovedRegisteredDate": "2009-08-29T04:22:27.4247427+02:00",
-      "ExtraField1": "et",
-      "ExtraField2": "vel",
-      "ExtraField3": "ratione",
-      "ExtraField4": "quasi",
-      "ExtraField5": "eius",
-      "LastRecalculated": "2021-02-08T04:22:27.4247427+01:00",
-      "Updated": "2016-08-06T04:22:27.4247427+02:00",
-      "UpdatedAssociateId": 881,
-      "Registered": "1997-11-24T04:22:27.4247427+01:00",
-      "RegisteredAssociateId": 429,
-      "RequestAssociateId": 974,
-      "RequestComment": "consequatur",
+      "InvoiceCountryId": 547,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "soluta",
+      "ERPPaymentTypeKey": "sit",
+      "ERPDeliveryTermsKey": "omnis",
+      "ERPDeliveryTypeKey": "perspiciatis",
+      "Rank": 682,
+      "ApprovedBy": 76,
+      "ApprovedText": "libero",
+      "ApprovedRegisteredBy": 899,
+      "ApprovedRegisteredDate": "2000-08-15T13:28:23.5855044+02:00",
+      "ExtraField1": "nulla",
+      "ExtraField2": "possimus",
+      "ExtraField3": "dolorem",
+      "ExtraField4": "possimus",
+      "ExtraField5": "odio",
+      "LastRecalculated": "2022-11-02T13:28:23.5855044+01:00",
+      "Updated": "2020-09-20T13:28:23.5855044+02:00",
+      "UpdatedAssociateId": 56,
+      "Registered": "2006-03-28T13:28:23.5855044+02:00",
+      "RegisteredAssociateId": 922,
+      "RequestAssociateId": 114,
+      "RequestComment": "sint",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

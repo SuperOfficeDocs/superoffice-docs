@@ -2,10 +2,10 @@
 uid: webhookagent-savewebhook
 title: WebhookAgent.SaveWebhook event method
 description: Scripting events called on the SaveWebhook method on the WebhookAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WebhookAgent.SaveWebhook
 

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "ut"
+  "Domain": "optio"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Fadel Inc and Sons",
-    "SoPrimaryKey": 528,
-    "EntryName": "Kreiger-Schmidt",
-    "EntryIdentifier": "sint",
-    "RuleDisplayName": "Crooks, Glover and Marvin",
+    "RuleName": "Bruen-Fisher",
+    "SoPrimaryKey": 65,
+    "EntryName": "Weimann LLC",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Veum LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

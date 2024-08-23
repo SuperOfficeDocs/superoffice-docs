@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=sequi
+GET /api/v1/List/Source/MDOItems?query=nisi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Schultz, Zemlak and Jacobson",
-    "ToolTip": "Rerum error.",
-    "Deleted": true,
-    "Rank": 501,
-    "Type": "pariatur",
+    "Id": 668,
+    "Name": "Lynch-Feeney",
+    "ToolTip": "Sint maiores in.",
+    "Deleted": false,
+    "Rank": 585,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Kovacek LLC",
-        "ToolTip": "Dolorem id illo.",
-        "Deleted": true,
-        "Rank": 913,
-        "Type": "quo",
+        "Id": 378,
+        "Name": "Wilkinson Group",
+        "ToolTip": "Cupiditate harum recusandae soluta qui sit.",
+        "Deleted": false,
+        "Rank": 661,
+        "Type": "culpa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 984,
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "FullName": "Miss Alyce Lydia Hartmann V",
+        "IconHint": "tenetur",
+        "ColorBlock": 297,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "ipsum",
+        "FullName": "Trisha Collier PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldType": "System.String",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 462,
-    "ExtraInfo": "vel",
-    "StyleHint": "incidunt",
-    "FullName": "Claudine Thompson",
+    "IconHint": "officia",
+    "ColorBlock": 908,
+    "ExtraInfo": "qui",
+    "StyleHint": "necessitatibus",
+    "FullName": "Miss Lou Aliza Block V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 493
       }
     }
   }

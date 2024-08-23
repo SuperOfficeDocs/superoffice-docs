@@ -83,6 +83,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
       </CustomerService:StringKeyValuePair>
      </CustomerService:Headers>
+     <CustomerService:TraceExecution xsi:type="xsd:boolean">false</CustomerService:TraceExecution>
     </CustomerService:EventData>
    </CustomerService:ExecuteEventHandlers>
 
@@ -150,6 +151,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
      </CustomerService:StringKeyValuePair>
     </CustomerService:Headers>
+    <CustomerService:TraceExecution xsi:type="xsd:boolean">false</CustomerService:TraceExecution>
    </CustomerService:Response>
   </CustomerService:ExecuteEventHandlersResponse>
  </SOAP-ENV:Body>

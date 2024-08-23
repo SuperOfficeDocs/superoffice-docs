@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Steuber, Wisozk and O'Keefe",
-    "ToolTip": "Rerum laudantium enim doloremque quis.",
+    "Id": 532,
+    "Name": "D'Amore, Hand and Lesch",
+    "ToolTip": "Eligendi molestiae non aperiam ea.",
     "Deleted": false,
-    "Rank": 959,
-    "Type": "ea",
-    "ColorBlock": 509,
-    "IconHint": "rem",
-    "Selected": true,
-    "LastChanged": "2009-04-10T04:22:35.830971+02:00",
+    "Rank": 36,
+    "Type": "dolores",
+    "ColorBlock": 527,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "2013-04-12T13:28:32.694768+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Mitchell, Kulas and Satterfield",
-        "ToolTip": "Totam magni illum animi reiciendis a.",
+        "Id": 218,
+        "Name": "Schaefer-Leuschke",
+        "ToolTip": "Laborum ipsa minima ut corporis harum ut.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "ut",
-        "ColorBlock": 783,
-        "IconHint": "cumque",
-        "Selected": false,
-        "LastChanged": "2002-09-25T04:22:35.830971+02:00",
+        "Rank": 581,
+        "Type": "in",
+        "ColorBlock": 302,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2015-02-22T13:28:32.694768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
+        "ExtraInfo": "sit",
         "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Dr. Nathanael Carolina Strosin",
+        "FullName": "Reggie Rosie Bednar V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 919
+            "FieldType": "System.Int32",
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "repellat",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Gracie Deckow",
+    "FullName": "Gunner Schmidt II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldLength": 122
       }
     }
   }

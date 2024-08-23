@@ -3,9 +3,9 @@ uid: targetmeasurementunit
 title: targetmeasurementunit
 keywords: mdoprovider mdo provider targetmeasurementunit
 description: MeasurementUnits
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "targetmeasurementunit" MDO List

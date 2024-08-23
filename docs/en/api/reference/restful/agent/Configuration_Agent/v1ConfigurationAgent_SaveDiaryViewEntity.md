@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 220,
-  "Name": "Schamberger, Lang and Keeling",
-  "Tooltip": "impedit",
-  "VisibleColumns": 257,
-  "Rank": 728,
-  "AssocId": 957,
+  "DiaryViewId": 887,
+  "Name": "Krajcik-Beahan",
+  "Tooltip": "est",
+  "VisibleColumns": 410,
+  "Rank": 734,
+  "AssocId": 828,
   "AssociateList": [
     {
-      "Id": 64,
-      "Name": "Borer, Balistreri and Stanton",
-      "ToolTip": "Qui aut suscipit.",
+      "Id": 750,
+      "Name": "Terry LLC",
+      "ToolTip": "Velit voluptatibus optio quidem.",
       "Deleted": false,
-      "Rank": 572,
-      "Type": "tempora",
-      "ColorBlock": 890,
-      "IconHint": "animi",
-      "Selected": false,
-      "LastChanged": "1997-11-18T04:22:26.1528443+01:00",
+      "Rank": 146,
+      "Type": "ab",
+      "ColorBlock": 831,
+      "IconHint": "quis",
+      "Selected": true,
+      "LastChanged": "2023-07-02T13:28:22.1636887+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolore",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Melyna Strosin"
+      "ExtraInfo": "neque",
+      "StyleHint": "aliquid",
+      "Hidden": false,
+      "FullName": "Gail Kling"
     }
   ],
-  "TzLocationId": 336
+  "TzLocationId": 889
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 133,
-  "Name": "Koss Inc and Sons",
-  "Tooltip": "tempore",
-  "VisibleColumns": 503,
-  "Rank": 802,
-  "AssocId": 312,
+  "DiaryViewId": 917,
+  "Name": "Senger-Cruickshank",
+  "Tooltip": "commodi",
+  "VisibleColumns": 62,
+  "Rank": 48,
+  "AssocId": 458,
   "AssociateList": [
     {
-      "Id": 882,
-      "Name": "Jacobs, Jones and Jakubowski",
-      "ToolTip": "Aut dignissimos quis est ullam.",
+      "Id": 800,
+      "Name": "Sawayn, Mosciski and Beatty",
+      "ToolTip": "Assumenda modi accusantium aut.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "voluptatem",
-      "ColorBlock": 672,
-      "IconHint": "placeat",
-      "Selected": true,
-      "LastChanged": "1998-10-11T04:22:26.1528443+02:00",
+      "Rank": 702,
+      "Type": "et",
+      "ColorBlock": 553,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "1998-11-26T13:28:22.1636887+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deserunt",
-      "StyleHint": "sed",
+      "ExtraInfo": "ad",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Adela Kunde",
+      "FullName": "Miss Josefa Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldLength": 25
         }
       }
     }
   ],
-  "TzLocationId": 686,
+  "TzLocationId": 357,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 699
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   }
 }

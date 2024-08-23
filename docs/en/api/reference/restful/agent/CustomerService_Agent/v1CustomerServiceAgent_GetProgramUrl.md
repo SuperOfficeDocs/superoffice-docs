@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Stoltenberg-Nitzsche",
-  "External": false
+  "ProgramName": "Ritchie, Fritsch and Dietrich",
+  "External": true
 }
 ```
 

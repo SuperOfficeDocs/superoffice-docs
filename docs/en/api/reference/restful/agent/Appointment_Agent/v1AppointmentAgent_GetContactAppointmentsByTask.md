@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 543,
-  "StartTime": "2003-10-31T04:22:25.558472+01:00",
-  "EndTime": "2020-12-19T04:22:25.558472+01:00",
-  "Count": 493,
-  "TaskId": 282
+  "ContactId": 174,
+  "StartTime": "2013-12-24T13:28:21.4292674+01:00",
+  "EndTime": "2008-12-17T13:28:21.4292674+01:00",
+  "Count": 766,
+  "TaskId": 327
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 231,
-    "StartDate": "1999-01-25T04:22:25.558472+01:00",
-    "EndDate": "2014-07-01T04:22:25.558472+02:00",
+    "AppointmentId": 677,
+    "StartDate": "2014-01-09T13:28:21.4292674+01:00",
+    "EndDate": "2001-09-20T13:28:21.4292674+02:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Linnie Connelly",
-    "ContactName": "Corkery LLC",
-    "Description": "Monitored bifurcated product",
-    "PersonFullName": "Jabari Elias Kassulke IV",
-    "PersonId": 945,
-    "ContactId": 430,
-    "ProjectId": 397,
-    "ProjectName": "Christiansen, Lesch and Morissette",
+    "Task": "omnis",
+    "AssociateFullName": "Prof. Henri Gaylord III",
+    "ContactName": "Heller-Schinner",
+    "Description": "Persistent composite migration",
+    "PersonFullName": "Dorothea Pacocha",
+    "PersonId": 322,
+    "ContactId": 447,
+    "ProjectId": 921,
+    "ProjectName": "Rowe LLC",
     "IsPublished": false,
-    "AssociateId": 682,
-    "ColorIndex": 727,
+    "AssociateId": 551,
+    "ColorIndex": 938,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 211,
-    "PriorityName": "Lubowitz Group",
+    "PriorityId": 340,
+    "PriorityName": "Feeney-Durgan",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2002-11-07T04:22:25.558472+01:00",
+    "IsBooking": false,
+    "ActiveDate": "1999-11-07T13:28:21.4292674+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-05-18T04:22:25.558472+02:00",
-    "RecurringEndDate": "2001-08-24T04:22:25.558472+02:00",
-    "MotherId": 930,
-    "AssignedBy": 338,
-    "AssignedByFullName": "Alexis Sporer",
-    "RejectReason": "integrate web-enabled vortals",
-    "Location": "aut",
-    "AlarmLeadTime": "adipisci",
-    "SaleId": 456,
-    "SaleName": "Kreiger LLC",
-    "AssociateName": "Orn, Ullrich and Adams",
-    "CreatedDate": "2020-11-23T04:22:25.558472+01:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Mr. Johann Roberts",
-    "CreatedByAssociateId": 681,
+    "RecurringStartDate": "2024-08-14T13:28:21.4292674+02:00",
+    "RecurringEndDate": "2009-06-05T13:28:21.4292674+02:00",
+    "MotherId": 624,
+    "AssignedBy": 476,
+    "AssignedByFullName": "Terence Keanu Smitham DDS",
+    "RejectReason": "",
+    "Location": "inventore",
+    "AlarmLeadTime": "sit",
+    "SaleId": 713,
+    "SaleName": "Moore-Steuber",
+    "AssociateName": "Senger, Stanton and Towne",
+    "CreatedDate": "1997-05-01T13:28:21.4292674+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Lorenzo Murray",
+    "CreatedByAssociateId": 972,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 402,
-    "Title": "eius",
-    "Agenda": "accusamus",
-    "InternalNotes": "voluptatum",
+    "PreferredTZLocation": 76,
+    "Title": "sed",
+    "Agenda": "nobis",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldLength": 689
       }
     }
   }

@@ -3,9 +3,9 @@ uid: UnassignedTickets
 title: UnassignedTickets
 description: 
 keywords: UnassignedTickets archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "UnassignedTickets"
@@ -756,7 +756,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/UnassignedTickets?$select=createdBy/middleName,createdBy/assocType,person/useAsMailingAddress,person/personExtra/y_rental/x_end,contact/name
+GET /api/v1/archive/UnassignedTickets?$select=realTimeSpentExternally,contact/streetAddress/formattedAddress,contact/contactAssociate/ejDisplayName,sale/earningPercent,sale/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

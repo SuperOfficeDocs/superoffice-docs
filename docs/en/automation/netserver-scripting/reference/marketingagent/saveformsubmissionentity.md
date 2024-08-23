@@ -2,10 +2,10 @@
 uid: marketingagent-saveformsubmissionentity
 title: MarketingAgent.SaveFormSubmissionEntity event method
 description: Scripting events called on the SaveFormSubmissionEntity method on the MarketingAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # MarketingAgent.SaveFormSubmissionEntity
 

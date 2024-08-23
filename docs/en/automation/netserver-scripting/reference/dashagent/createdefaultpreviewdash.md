@@ -2,10 +2,10 @@
 uid: dashagent-createdefaultpreviewdash
 title: DashAgent.CreateDefaultPreviewDash event method
 description: Scripting events called on the CreateDefaultPreviewDash method on the DashAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DashAgent.CreateDefaultPreviewDash
 

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 192,
-  "ColumnId": 147,
-  "FieldDefault": "a",
-  "FieldHeight": 161,
-  "FieldLabel": "aut",
-  "FieldLeft": 126,
-  "FieldTop": 90,
+  "UDefFieldId": 865,
+  "ColumnId": 325,
+  "FieldDefault": "eaque",
+  "FieldHeight": 389,
+  "FieldLabel": "eius",
+  "FieldLeft": 363,
+  "FieldTop": 720,
   "FieldType": "Checkbox",
-  "FieldWidth": 216,
-  "FormatMask": "rerum",
+  "FieldWidth": 303,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 684,
-  "LabelLeft": 296,
-  "LabelTop": 646,
-  "LabelWidth": 738,
-  "LastVersionId": 62,
-  "ListTableId": 556,
-  "IsMandatory": true,
+  "LabelHeight": 706,
+  "LabelLeft": 431,
+  "LabelTop": 960,
+  "LabelWidth": 222,
+  "LastVersionId": 977,
+  "ListTableId": 584,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 826,
-  "ProgId": "cumque",
-  "IsReadOnly": true,
-  "ShortLabel": "minima",
-  "TabOrder": 975,
-  "TextLength": 683,
-  "Tooltip": "corporis",
-  "UdefIdentity": 280,
-  "UDListDefinitionId": 386,
+  "Page1LineNo": 773,
+  "ProgId": "ipsam",
+  "IsReadOnly": false,
+  "ShortLabel": "quae",
+  "TabOrder": 515,
+  "TextLength": 525,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 700,
+  "UDListDefinitionId": 905,
   "Justification": "Center",
-  "Version": 705,
-  "TemplateVariableName": "Koelpin-Prosacco",
+  "Version": 967,
+  "TemplateVariableName": "Ruecker Group",
   "HasBeenPublished": false,
-  "MdoListName": "Hintz-Stoltenberg",
+  "MdoListName": "Gottlieb, Connelly and Nicolas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 569
     }
   }
 }

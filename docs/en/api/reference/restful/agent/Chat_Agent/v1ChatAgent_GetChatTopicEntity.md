@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=752
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=227
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 125,
-  "Name": "Walter, Boyle and Sanford",
-  "Description": "Public-key contextually-based open architecture",
-  "WelcomeMessage": "qui",
+  "ChatTopicId": 937,
+  "Name": "Wilderman-Prosacco",
+  "Description": "Phased leading edge hardware",
+  "WelcomeMessage": "ea",
   "Language": null,
-  "LastAccept": "2015-04-17T04:22:26.1372179+02:00",
-  "SecondsPrAccept": 51,
-  "AlertRecipient": "perferendis",
+  "LastAccept": "2001-11-17T13:28:22.1324447+01:00",
+  "SecondsPrAccept": 923,
+  "AlertRecipient": "nam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dolorum",
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "atque",
-  "WarnNewChatMinutes": 413,
-  "WarnManagerNewChatMinutes": 313,
-  "TicketEnabled": false,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 457,
+  "WarnManagerNewChatMinutes": 512,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 629,
-  "WarnManagerChatMessageMinutes": 34,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 910,
+  "WarnManagerChatMessageMinutes": 63,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 808,
-  "OfflineFormQueueLength": 160,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "excepturi",
+  "OfflineFormTimeLimit": 950,
+  "OfflineFormQueueLength": 987,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   }
 }

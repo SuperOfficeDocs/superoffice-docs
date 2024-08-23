@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 880,
-  "Type": "non",
-  "PublicValue": "blanditiis"
+  "AssociateId": 845,
+  "Type": "fuga",
+  "PublicValue": "ea"
 }
 ```
 

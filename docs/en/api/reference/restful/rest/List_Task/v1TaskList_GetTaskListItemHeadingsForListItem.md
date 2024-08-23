@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Bradtke, White and Aufderhar",
-    "ToolTip": "Ipsam est quo.",
+    "Id": 865,
+    "Name": "Hagenes, Hilll and Olson",
+    "ToolTip": "Commodi corporis.",
     "Deleted": false,
-    "Rank": 52,
-    "Type": "numquam",
-    "ColorBlock": 129,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2014-05-01T04:22:36.2372126+02:00",
+    "Rank": 814,
+    "Type": "mollitia",
+    "ColorBlock": 568,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "2023-11-04T13:28:33.2107264+01:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Mueller-Schmitt",
-        "ToolTip": "Quos nam fuga reprehenderit vero doloribus.",
+        "Id": 628,
+        "Name": "Luettgen, Kohler and Mraz",
+        "ToolTip": "Quo rerum voluptatem id.",
         "Deleted": false,
-        "Rank": 29,
-        "Type": "sunt",
-        "ColorBlock": 596,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2008-04-08T04:22:36.2372126+02:00",
+        "Rank": 622,
+        "Type": "quidem",
+        "ColorBlock": 792,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2013-05-07T13:28:33.2107264+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "qui",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Mollie Huel",
+        "FullName": "Cornelius Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Dr. Raina Ritchie III",
+    "FullName": "Melany Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldLength": 506
       }
     }
   }

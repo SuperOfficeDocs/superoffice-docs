@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 859
+  "ProjectId": 953
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless well-modulated analyzer",
-  "Postit": "in",
+  "Description": "Self-enabling systematic open system",
+  "Postit": "quas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 971,
-  "IncludePerson": 186,
+  "GroupIdx": 420,
+  "IncludePerson": 932,
   "MemberCount": 99.99,
-  "Name": "Johns Inc and Sons",
-  "PostitTextId": 607,
-  "CreatedDate": "1997-09-22T04:22:27.6117762+02:00",
-  "SelectionId": 429,
-  "SoundEx": "quo",
-  "Source": 634,
-  "TextId": 134,
-  "UpdatedDate": "2019-11-06T04:22:27.6117762+01:00",
-  "UpdatedCount": 11,
-  "Visibility": 367,
+  "Name": "Corkery, Yost and Kassulke",
+  "PostitTextId": 667,
+  "CreatedDate": "2006-12-24T13:28:23.7573404+01:00",
+  "SelectionId": 610,
+  "SoundEx": "in",
+  "Source": 757,
+  "TextId": 602,
+  "UpdatedDate": "2001-04-08T13:28:23.7573404+02:00",
+  "UpdatedCount": 538,
+  "Visibility": 471,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 75,
-  "TargetTableName": "Mosciski Group",
-  "Completed": false,
-  "LeftSelectionId": 257,
-  "RightSelectionId": 320,
+  "TargetTableNumber": 537,
+  "TargetTableName": "Leffler Group",
+  "Completed": true,
+  "LeftSelectionId": 228,
+  "RightSelectionId": 162,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reichert, Hand and Bednar",
-  "ShadowProviderName": "Koch-Wisoky",
-  "ChartKey": "est",
-  "LastLoaded": "2023-05-27T04:22:27.6117762+02:00",
-  "LastLoadedBy": 4,
+  "MainProviderName": "Rosenbaum-Nader",
+  "ShadowProviderName": "Labadie, Gorczany and Hahn",
+  "ChartKey": "natus",
+  "LastLoaded": "2024-08-01T13:28:23.7573404+02:00",
+  "LastLoadedBy": 87,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-09-27T04:22:27.6117762+02:00",
-  "LastMembershipChangeBy": 881,
+  "LastMembershipChange": "1998-08-07T13:28:23.7573404+02:00",
+  "LastMembershipChangeBy": 738,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "ad",
-  "MailingsProviderName": "Hamill-Torp",
-  "DashboardTileDefinitionId": 168,
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Zemlak-Stracke",
+  "DashboardTileDefinitionId": 874,
   "VisibleFor": [
     {
-      "VisibleId": 958,
+      "VisibleId": 487,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 895
         }
       }
     },
     {
-      "VisibleId": 958,
+      "VisibleId": 487,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 895
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 298
     }
   }
 }

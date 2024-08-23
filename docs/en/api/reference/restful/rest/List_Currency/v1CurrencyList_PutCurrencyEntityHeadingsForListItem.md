@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Konopelski LLC",
-    "ToolTip": "Voluptas assumenda.",
-    "Deleted": true,
-    "Rank": 786,
-    "Type": "odio",
-    "ColorBlock": 914,
-    "IconHint": "incidunt",
+    "Id": 733,
+    "Name": "Runolfsdottir, Leffler and Kunde",
+    "ToolTip": "Aspernatur repudiandae in temporibus dolores esse.",
+    "Deleted": false,
+    "Rank": 321,
+    "Type": "perferendis",
+    "ColorBlock": 238,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2000-08-15T04:22:35.9090937+02:00",
+    "LastChanged": "2023-10-08T13:28:32.8041174+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Torp Inc and Sons",
-        "ToolTip": "Maxime velit consectetur neque doloremque repellendus distinctio voluptatem.",
+        "Id": 977,
+        "Name": "Mosciski Group",
+        "ToolTip": "Accusantium inventore sint facere expedita quia.",
         "Deleted": false,
-        "Rank": 412,
-        "Type": "consequatur",
-        "ColorBlock": 905,
-        "IconHint": "ipsum",
+        "Rank": 517,
+        "Type": "sed",
+        "ColorBlock": 701,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-07-18T04:22:35.9090937+02:00",
+        "LastChanged": "2010-06-05T13:28:32.8041174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Madyson Ines Rippin PhD"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Werner O'Conner"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "et",
+    "ExtraInfo": "soluta",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Miss Brandon Torphy IV"
+    "FullName": "Waylon Reichert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "White Inc and Sons",
-    "ToolTip": "Nam ratione consequatur.",
-    "Deleted": true,
-    "Rank": 91,
-    "Type": "distinctio",
-    "ColorBlock": 911,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2024-01-13T04:22:35.9090937+01:00",
+    "Id": 888,
+    "Name": "Kilback, Rogahn and Pacocha",
+    "ToolTip": "Eum dolor.",
+    "Deleted": false,
+    "Rank": 633,
+    "Type": "sapiente",
+    "ColorBlock": 110,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2021-12-23T13:28:32.8041174+01:00",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "McDermott Inc and Sons",
-        "ToolTip": "Odit architecto dolor qui commodi.",
-        "Deleted": true,
-        "Rank": 745,
-        "Type": "corporis",
-        "ColorBlock": 722,
-        "IconHint": "necessitatibus",
+        "Id": 746,
+        "Name": "Homenick-Mayert",
+        "ToolTip": "Et et et nulla corporis quos.",
+        "Deleted": false,
+        "Rank": 921,
+        "Type": "laborum",
+        "ColorBlock": 757,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2015-02-12T04:22:35.9090937+01:00",
+        "LastChanged": "2018-10-01T13:28:32.8041174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "enim",
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ms. Thora Lennie Heaney DDS",
+        "FullName": "Gregoria Laurence Kozey II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "beatae",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Diamond Wiza",
+    "FullName": "Yolanda Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 520
       }
     }
   }

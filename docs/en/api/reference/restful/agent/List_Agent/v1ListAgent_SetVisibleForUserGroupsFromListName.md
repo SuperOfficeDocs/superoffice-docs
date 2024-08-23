@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Paucek-O'Conner",
-  "ListItemId": 478,
+  "UdListDefinitionName": "Cruickshank-Moen",
+  "ListItemId": 85,
   "UserGroups": [
     {
-      "Id": 128,
-      "Name": "Batz LLC",
-      "ToolTip": "Aut voluptates qui suscipit quia.",
-      "Deleted": false,
-      "Rank": 817,
-      "Type": "reiciendis",
-      "ColorBlock": 539,
-      "IconHint": "sit",
+      "Id": 610,
+      "Name": "McGlynn, Tillman and Upton",
+      "ToolTip": "Sit sunt.",
+      "Deleted": true,
+      "Rank": 507,
+      "Type": "optio",
+      "ColorBlock": 127,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "2009-12-01T04:22:26.969259+01:00",
+      "LastChanged": "2003-07-20T13:28:22.9449983+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Ms. Destany Cassin V"
+      "ExtraInfo": "sed",
+      "StyleHint": "eligendi",
+      "Hidden": false,
+      "FullName": "Cordell Bogan"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Cole Inc and Sons",
-    "ToolTip": "Iure a dicta odio ut vitae aspernatur.",
+    "Id": 902,
+    "Name": "Schuppe, Pfeffer and Zieme",
+    "ToolTip": "Ut non quidem nemo sunt ad.",
     "Deleted": true,
-    "Rank": 333,
-    "Type": "veniam",
-    "ColorBlock": 993,
-    "IconHint": "quasi",
+    "Rank": 177,
+    "Type": "rerum",
+    "ColorBlock": 931,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1998-05-12T04:22:26.969259+02:00",
+    "LastChanged": "2014-11-29T13:28:22.9449983+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Glover LLC",
-        "ToolTip": "Cupiditate non sed impedit sed velit.",
-        "Deleted": false,
-        "Rank": 511,
-        "Type": "dolorem",
-        "ColorBlock": 103,
-        "IconHint": "qui",
+        "Id": 191,
+        "Name": "Schulist-O'Keefe",
+        "ToolTip": "Aliquam esse qui explicabo itaque.",
+        "Deleted": true,
+        "Rank": 213,
+        "Type": "dolores",
+        "ColorBlock": 19,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2011-12-20T04:22:26.969259+01:00",
+        "LastChanged": "2020-04-26T13:28:22.9449983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Ms. Jaron Lowe I",
+        "ExtraInfo": "et",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Zora Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Prof. General Gianni Tromp",
+    "ExtraInfo": "ad",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Hyman Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 640
       }
     }
   }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 928
+  "ChatSessionId": 649
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 275,
-  "TopicId": 732,
+  "ChatSessionId": 251,
+  "TopicId": 255,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quasi",
-  "CustomerHost": "nam",
-  "CustomerName": "Graham LLC",
-  "CustomerEmail": "esperanza.will@denesikjohnston.name",
-  "CustomerPhone": "079-542-2278",
+  "CustomerAlias": "et",
+  "CustomerHost": "perspiciatis",
+  "CustomerName": "Conroy Group",
+  "CustomerEmail": "vivian.mohr@rogahn.name",
+  "CustomerPhone": "732-503-2708 x7584",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Ledner LLC",
+  "CustomerCompanyName": "Bosco Group",
   "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "non",
-  "WhenRequested": "2006-09-22T04:22:26.1372179+02:00",
-  "WhenStarted": "2003-09-19T04:22:26.1372179+02:00",
-  "WhenEnded": "2000-05-06T04:22:26.1372179+02:00",
-  "WhenIdle": "2019-02-26T04:22:26.1372179+01:00",
-  "WhenFetched": "2023-09-09T04:22:26.1372179+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 135,
-  "AlertLevel": 144,
-  "Rank": 383,
+  "FirstMessage": "velit",
+  "LastMessage": "autem",
+  "WhenRequested": "2014-06-14T13:28:22.1324447+02:00",
+  "WhenStarted": "2015-09-15T13:28:22.1324447+02:00",
+  "WhenEnded": "2001-10-10T13:28:22.1324447+02:00",
+  "WhenIdle": "2010-06-15T13:28:22.1324447+02:00",
+  "WhenFetched": "1998-06-30T13:28:22.1324447+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 654,
+  "AlertLevel": 508,
+  "Rank": 976,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 398,
+  "ChatbotIsActive": false,
+  "Rating": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 86
     }
   }
 }

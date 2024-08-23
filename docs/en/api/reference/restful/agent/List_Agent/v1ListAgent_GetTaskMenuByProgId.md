@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quam"
+  "ProgId": "eligendi"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 1000,
-  "Name": "Aufderhar LLC",
-  "Tooltip": "nesciunt",
-  "TableName": "O'Kon Inc and Sons",
-  "Area": "repellendus",
+  "TaskMenuId": 9,
+  "Name": "Harber Group",
+  "Tooltip": "impedit",
+  "TableName": "Stokes Group",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 427,
+  "CrmScriptId": 923,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 715,
+  "Rank": 62,
   "Encoding": "ANSI",
-  "ProgId": "expedita",
+  "ProgId": "non",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 961
     }
   }
 }

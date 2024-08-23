@@ -998,6 +998,8 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
               <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ReplyForwardNoSignature" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ReplyExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

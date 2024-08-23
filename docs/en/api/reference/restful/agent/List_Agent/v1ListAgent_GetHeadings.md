@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 778,
-  "ListItemId": 536,
+  "UdListDefinitionId": 302,
+  "ListItemId": 911,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Windler-Funk",
-    "ToolTip": "Porro exercitationem laborum a rerum laudantium vero veritatis.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "incidunt",
-    "ColorBlock": 762,
-    "IconHint": "ad",
+    "Id": 300,
+    "Name": "Thiel Inc and Sons",
+    "ToolTip": "Voluptas dignissimos voluptate.",
+    "Deleted": false,
+    "Rank": 810,
+    "Type": "cum",
+    "ColorBlock": 407,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2006-07-21T04:22:26.969259+02:00",
+    "LastChanged": "2019-12-18T13:28:22.9449983+01:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Durgan, Kemmer and Okuneva",
-        "ToolTip": "Ullam et et.",
-        "Deleted": true,
-        "Rank": 624,
-        "Type": "quisquam",
-        "ColorBlock": 590,
-        "IconHint": "deserunt",
+        "Id": 983,
+        "Name": "Stiedemann-Jones",
+        "ToolTip": "Eaque dolores accusantium sint eos iste.",
+        "Deleted": false,
+        "Rank": 10,
+        "Type": "eaque",
+        "ColorBlock": 231,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2015-07-31T04:22:26.969259+02:00",
+        "LastChanged": "2021-01-05T13:28:22.9449983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "culpa",
+        "ExtraInfo": "et",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Hailey Bernier",
+        "FullName": "Mr. Clark Elenor Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 289
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Felicita Abbott",
+    "ExtraInfo": "ut",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Rickey Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Baumbach, Hickle and Nikolaus",
-      "Operator": "libero",
+      "Name": "Predovic, Bartoletti and Klocko",
+      "Operator": "quae",
       "Values": [
-        "reiciendis",
-        "sapiente"
+        "incidunt",
+        "quas"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "perspiciatis"
+        "doloribus",
+        "maxime"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 701,
+      "InterParenthesis": 14,
       "InterOperator": "And",
-      "UniqueHash": 964
+      "UniqueHash": 748
     }
   ],
   "Columns": [
-    "maxime",
-    "ea"
+    "ea",
+    "enim"
   ],
-  "ConnectionId": 429,
+  "ConnectionId": 142,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "qui",
-        "ut"
+        "voluptate",
+        "et"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "enim",
+      "ExternalKey": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Dickens LLC",
-      "DisplayName": "Crooks-Grady",
+      "Name": "Koepp, Rolfson and Toy",
+      "DisplayName": "Steuber Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 490
         }
       }
     },
     {
-      "Name": "Dickens LLC",
-      "DisplayName": "Crooks-Grady",
+      "Name": "Koepp, Rolfson and Toy",
+      "DisplayName": "Steuber Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 490
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 985
     }
   }
 }

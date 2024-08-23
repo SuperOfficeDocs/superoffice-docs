@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Howe-Baumbach",
-    "ToolTip": "Nam ut.",
+    "Id": 315,
+    "Name": "Schmidt Inc and Sons",
+    "ToolTip": "Consequatur earum aut est cupiditate et esse ea.",
     "Deleted": false,
-    "Rank": 607,
-    "Type": "aspernatur",
-    "ColorBlock": 267,
-    "IconHint": "aut",
+    "Rank": 59,
+    "Type": "libero",
+    "ColorBlock": 643,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2024-02-09T04:22:36.06534+01:00",
+    "LastChanged": "2011-03-30T13:28:32.9759535+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Kshlerin, Bartell and Lueilwitz",
-        "ToolTip": "Eveniet temporibus asperiores deserunt.",
+        "Id": 663,
+        "Name": "Kovacek, Kulas and Bernier",
+        "ToolTip": "Architecto quia aut quidem.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "iusto",
-        "ColorBlock": 215,
-        "IconHint": "atque",
+        "Rank": 80,
+        "Type": "perspiciatis",
+        "ColorBlock": 87,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2010-12-27T04:22:36.06534+01:00",
+        "LastChanged": "2021-03-01T13:28:32.9759535+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "vero",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Jessica Keebler"
+        "FullName": "Marcel O'Connell"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "libero",
+    "ExtraInfo": "dicta",
+    "StyleHint": "consequuntur",
     "Hidden": true,
-    "FullName": "Ms. Muriel Adolph Vandervort"
+    "FullName": "Katelin Leffler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "O'Connell, Legros and Donnelly",
-    "ToolTip": "Quaerat ad officia illo sit debitis.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "eaque",
-    "ColorBlock": 966,
-    "IconHint": "sed",
+    "Id": 365,
+    "Name": "Veum LLC",
+    "ToolTip": "Fugiat quo deserunt nihil tenetur quidem.",
+    "Deleted": true,
+    "Rank": 292,
+    "Type": "consequatur",
+    "ColorBlock": 427,
+    "IconHint": "hic",
     "Selected": true,
-    "LastChanged": "2007-09-15T04:22:36.06534+02:00",
+    "LastChanged": "2013-06-21T13:28:32.9759535+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Wiza, Conn and Klocko",
-        "ToolTip": "Est rerum.",
-        "Deleted": true,
-        "Rank": 726,
+        "Id": 689,
+        "Name": "Steuber, Murphy and Deckow",
+        "ToolTip": "Ea velit dolore vel quasi.",
+        "Deleted": false,
+        "Rank": 155,
         "Type": "quia",
-        "ColorBlock": 427,
-        "IconHint": "perferendis",
+        "ColorBlock": 788,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2012-02-24T04:22:36.06534+01:00",
+        "LastChanged": "1999-08-23T13:28:32.9759535+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Hailey Schneider",
+        "ExtraInfo": "ullam",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Dr. Lyda Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 668
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "porro",
+    "ExtraInfo": "et",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Amie Hackett",
+    "FullName": "Prof. Guido Kirsten Ferry V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummerata, Jones and Erdman"
+  "Name": "Lueilwitz LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hauck Group",
-    "SoPrimaryKey": 738,
-    "EntryName": "Roberts, Orn and Blick",
-    "EntryIdentifier": "saepe",
-    "RuleDisplayName": "Muller-Weimann",
+    "RuleName": "Casper, Corwin and Konopelski",
+    "SoPrimaryKey": 584,
+    "EntryName": "McKenzie-Reichert",
+    "EntryIdentifier": "cupiditate",
+    "RuleDisplayName": "Farrell Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

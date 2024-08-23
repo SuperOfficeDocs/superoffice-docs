@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Johnston LLC",
-  "Tooltip": "ipsa",
+  "Id": 888,
+  "Name": "Yost-Hettinger",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "UdListDefinitionId": 859,
-  "Rank": 306,
+  "UdListDefinitionId": 206,
+  "Rank": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

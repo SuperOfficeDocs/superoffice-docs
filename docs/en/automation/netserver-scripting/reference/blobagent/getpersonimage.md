@@ -2,10 +2,10 @@
 uid: blobagent-getpersonimage
 title: BLOBAgent.GetPersonImage event method
 description: Scripting events called on the GetPersonImage method on the BLOBAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BLOBAgent.GetPersonImage
 

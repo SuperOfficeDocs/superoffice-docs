@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Cartwright-Hackett",
-    "ToolTip": "Ut mollitia id amet ut ex.",
-    "Deleted": true,
-    "Rank": 868,
+    "Id": 928,
+    "Name": "Boyle, Stroman and Crona",
+    "ToolTip": "Neque facilis.",
+    "Deleted": false,
+    "Rank": 878,
     "Type": "qui",
-    "ColorBlock": 186,
-    "IconHint": "corporis",
+    "ColorBlock": 279,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2012-05-05T04:22:36.2059631+02:00",
+    "LastChanged": "1999-12-25T13:28:33.1794796+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Ut quia maiores molestias provident.",
+        "Id": 377,
+        "Name": "Murphy Group",
+        "ToolTip": "Sunt deserunt nihil perspiciatis dolorum velit rerum possimus.",
         "Deleted": false,
-        "Rank": 413,
-        "Type": "aspernatur",
-        "ColorBlock": 264,
-        "IconHint": "et",
+        "Rank": 40,
+        "Type": "et",
+        "ColorBlock": 429,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2015-10-19T04:22:36.2059631+02:00",
+        "LastChanged": "2005-04-17T13:28:33.1794796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Terry Mraz",
+        "ExtraInfo": "dolores",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Lenora Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "quas",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Mr. Frieda Reilly Sr.",
+    "FullName": "Imani Colton Padberg DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 722
       }
     }
   }

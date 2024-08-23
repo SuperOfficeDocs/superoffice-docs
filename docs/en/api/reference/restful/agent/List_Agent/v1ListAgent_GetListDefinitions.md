@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "McLaughlin, Bashirian and Davis",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "Rank": 18,
-    "IsCustomList": false,
+    "Id": 644,
+    "Name": "Pagac LLC",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "Rank": 535,
+    "IsCustomList": true,
     "IsMDOList": false,
     "UseGroupsAndHeadings": true,
-    "ListType": "aliquam",
+    "ListType": "et",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 730
       }
     }
   }

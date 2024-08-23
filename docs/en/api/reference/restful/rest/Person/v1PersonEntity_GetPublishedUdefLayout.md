@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 148,
-    "ColumnId": 851,
-    "FieldDefault": "amet",
-    "FieldHeight": 541,
-    "FieldLabel": "quaerat",
-    "FieldLeft": 814,
-    "FieldTop": 64,
+    "UDefFieldId": 74,
+    "ColumnId": 740,
+    "FieldDefault": "dolores",
+    "FieldHeight": 991,
+    "FieldLabel": "enim",
+    "FieldLeft": 125,
+    "FieldTop": 550,
     "FieldType": "Checkbox",
-    "FieldWidth": 481,
-    "FormatMask": "enim",
+    "FieldWidth": 775,
+    "FormatMask": "repudiandae",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 189,
-    "LabelLeft": 852,
+    "LabelHeight": 680,
+    "LabelLeft": 657,
     "LabelTop": 103,
-    "LabelWidth": 685,
-    "LastVersionId": 809,
-    "ListTableId": 645,
+    "LabelWidth": 884,
+    "LastVersionId": 47,
+    "ListTableId": 334,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 970,
-    "ProgId": "earum",
+    "Page1LineNo": 239,
+    "ProgId": "quo",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 24,
-    "TextLength": 9,
-    "Tooltip": "reiciendis",
-    "UdefIdentity": 761,
-    "UDListDefinitionId": 47,
+    "ShortLabel": "molestias",
+    "TabOrder": 626,
+    "TextLength": 448,
+    "Tooltip": "doloremque",
+    "UdefIdentity": 541,
+    "UDListDefinitionId": 100,
     "Justification": "Center",
-    "Version": 264,
-    "TemplateVariableName": "Kassulke LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Lindgren Inc and Sons",
+    "Version": 330,
+    "TemplateVariableName": "Kertzmann, Von and Witting",
+    "HasBeenPublished": false,
+    "MdoListName": "Braun, Breitenberg and Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldLength": 378
       }
     }
   }

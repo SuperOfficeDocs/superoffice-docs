@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 355,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "dolorem",
-    "Rank": 958,
-    "Key": "dignissimos",
-    "Deleted": true,
+    "LegalBaseId": 275,
+    "Name": "Kohler, Daugherty and Kertzmann",
+    "Tooltip": "nihil",
+    "Rank": 344,
+    "Key": "soluta",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 347
       }
     }
   }

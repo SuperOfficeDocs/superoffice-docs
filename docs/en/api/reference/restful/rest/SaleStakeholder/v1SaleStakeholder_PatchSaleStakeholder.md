@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "corporis",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corporis",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Farrell Inc and Sons",
-  "Comment": "minus",
-  "StakeholderRoleId": 997,
-  "CountryId": 954,
-  "PersonId": 588,
-  "EmailDescription": "toy@mertz.uk",
-  "EmailId": 842,
-  "EmailAddress": "otho.adams@dare.com",
-  "PhoneId": 670,
-  "ContactName": "Strosin, Braun and Windler",
-  "ContactId": 140,
-  "SaleId": 310,
-  "Mrmrs": "excepturi",
-  "Firstname": "Margaret",
-  "MiddleName": "Baumbach Inc and Sons",
-  "Lastname": "Stamm",
-  "SaleStakeholderId": 406,
-  "Rank": 788,
-  "Phone": "1-388-148-2708",
+  "StakeholderRoleName": "Leuschke Group",
+  "Comment": "tempore",
+  "StakeholderRoleId": 1000,
+  "CountryId": 657,
+  "PersonId": 408,
+  "EmailDescription": "elinor.sanford@kulasmarks.name",
+  "EmailId": 84,
+  "EmailAddress": "nathan@hagenes.biz",
+  "PhoneId": 859,
+  "ContactName": "Luettgen LLC",
+  "ContactId": 142,
+  "SaleId": 679,
+  "Mrmrs": "numquam",
+  "Firstname": "Shanny",
+  "MiddleName": "Lakin, Johns and Lubowitz",
+  "Lastname": "Bins",
+  "SaleStakeholderId": 580,
+  "Rank": 1002,
+  "Phone": "130-060-3379",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldLength": 983
     }
   },
   "_Links": {

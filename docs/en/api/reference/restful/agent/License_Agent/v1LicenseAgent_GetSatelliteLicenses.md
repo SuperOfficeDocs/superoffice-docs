@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 781
+  "SatelliteId": 557
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Waelchi, Ebert and Dare",
-    "Description": "Reverse-engineered scalable moderator",
+    "Name": "Goodwin-McClure",
+    "Description": "Progressive methodical adapter",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 230,
-        "Tooltip": "fugiat",
+        "Unrestricted": true,
+        "Total": 854,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 387,
-        "InUse": 130,
-        "IsHidden": false,
+        "Free": 246,
+        "InUse": 259,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 978,
-        "Name": "Nolan-Pfeffer",
-        "Description": "Implemented leading edge local area network",
-        "PrerequisiteModuleName": "Schowalter-Conn",
-        "SortOrder": 786,
-        "ExtraFlags": 514,
+        "ModuleLicenseId": 780,
+        "Name": "Moen LLC",
+        "Description": "Organized modular hardware",
+        "PrerequisiteModuleName": "Bayer-McCullough",
+        "SortOrder": 150,
+        "ExtraFlags": 238,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 588
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 200,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 459,
-        "InUse": 652,
+        "Unrestricted": false,
+        "Total": 528,
+        "Tooltip": "vero",
+        "CanAssign": true,
+        "Free": 859,
+        "InUse": 595,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 211,
-        "Name": "Stark-Halvorson",
-        "Description": "Realigned 24/7 conglomeration",
-        "PrerequisiteModuleName": "Hand Group",
-        "SortOrder": 301,
-        "ExtraFlags": 962,
+        "Assigned": true,
+        "ModuleLicenseId": 488,
+        "Name": "Ebert-Cronin",
+        "Description": "Persistent coherent challenge",
+        "PrerequisiteModuleName": "Bogan, Brekke and Roberts",
+        "SortOrder": 196,
+        "ExtraFlags": 101,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 443
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   },
   {
-    "Name": "Waelchi, Ebert and Dare",
-    "Description": "Reverse-engineered scalable moderator",
+    "Name": "Goodwin-McClure",
+    "Description": "Progressive methodical adapter",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 230,
-        "Tooltip": "fugiat",
+        "Unrestricted": true,
+        "Total": 854,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 387,
-        "InUse": 130,
-        "IsHidden": false,
+        "Free": 246,
+        "InUse": 259,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 978,
-        "Name": "Nolan-Pfeffer",
-        "Description": "Implemented leading edge local area network",
-        "PrerequisiteModuleName": "Schowalter-Conn",
-        "SortOrder": 786,
-        "ExtraFlags": 514,
+        "ModuleLicenseId": 780,
+        "Name": "Moen LLC",
+        "Description": "Organized modular hardware",
+        "PrerequisiteModuleName": "Bayer-McCullough",
+        "SortOrder": 150,
+        "ExtraFlags": 238,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 588
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 200,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 459,
-        "InUse": 652,
+        "Unrestricted": false,
+        "Total": 528,
+        "Tooltip": "vero",
+        "CanAssign": true,
+        "Free": 859,
+        "InUse": 595,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 211,
-        "Name": "Stark-Halvorson",
-        "Description": "Realigned 24/7 conglomeration",
-        "PrerequisiteModuleName": "Hand Group",
-        "SortOrder": 301,
-        "ExtraFlags": 962,
+        "Assigned": true,
+        "ModuleLicenseId": 488,
+        "Name": "Ebert-Cronin",
+        "Description": "Persistent coherent challenge",
+        "PrerequisiteModuleName": "Bogan, Brekke and Roberts",
+        "SortOrder": 196,
+        "ExtraFlags": 101,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 443
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

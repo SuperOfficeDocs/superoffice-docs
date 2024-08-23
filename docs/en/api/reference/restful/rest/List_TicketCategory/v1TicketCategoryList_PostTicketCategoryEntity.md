@@ -103,29 +103,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 613,
-  "ParentId": 237,
-  "Name": "Bartell-Barrows",
-  "Fullname": "quisquam",
-  "CategoryMaster": 829,
+  "TicketCategoryId": 376,
+  "ParentId": 366,
+  "Name": "Rohan, Moen and Lehner",
+  "Fullname": "voluptatem",
+  "CategoryMaster": 1000,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schaden, Kerluke and Herzog",
+  "ExternalName": "Durgan-Krajcik",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 702,
-  "ReplyTemplate": 3,
-  "NotificationEmail": "oswaldo.marquardt@nicolas.uk",
+  "AssignmentLag": 928,
+  "ReplyTemplate": 905,
+  "NotificationEmail": "laron@starkmuller.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 560,
+  "EffectiveReplyTemplateId": 294,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "error"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "esse"
+    "CustomFields1": "a",
+    "CustomFields2": "enim"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 659,
-  "ParentId": 488,
-  "Name": "Swaniawski-Roob",
-  "Fullname": "quasi",
-  "CategoryMaster": 916,
+  "TicketCategoryId": 192,
+  "ParentId": 977,
+  "Name": "Stroman-Schumm",
+  "Fullname": "delectus",
+  "CategoryMaster": 773,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "D'Amore-Sporer",
+  "ExternalName": "Jast LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 444,
-  "ReplyTemplate": 622,
-  "NotificationEmail": "vesta@mohrlegros.co.uk",
+  "AssignmentLag": 247,
+  "ReplyTemplate": 894,
+  "NotificationEmail": "dylan_haag@donnelly.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 999,
+  "EffectiveReplyTemplateId": 932,
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "unde"
+    "CustomFields1": "quia",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 135
     }
   }
 }

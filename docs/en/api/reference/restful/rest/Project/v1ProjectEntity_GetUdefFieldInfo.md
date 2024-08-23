@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 266,
-  "ColumnId": 773,
-  "FieldDefault": "debitis",
-  "FieldHeight": 993,
-  "FieldLabel": "expedita",
-  "FieldLeft": 788,
-  "FieldTop": 308,
+  "UDefFieldId": 16,
+  "ColumnId": 215,
+  "FieldDefault": "amet",
+  "FieldHeight": 940,
+  "FieldLabel": "alias",
+  "FieldLeft": 970,
+  "FieldTop": 559,
   "FieldType": "Checkbox",
-  "FieldWidth": 297,
-  "FormatMask": "eum",
-  "HideLabel": true,
+  "FieldWidth": 59,
+  "FormatMask": "quo",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 766,
-  "LabelLeft": 800,
-  "LabelTop": 810,
-  "LabelWidth": 290,
-  "LastVersionId": 625,
-  "ListTableId": 650,
+  "LabelHeight": 290,
+  "LabelLeft": 513,
+  "LabelTop": 314,
+  "LabelWidth": 413,
+  "LastVersionId": 560,
+  "ListTableId": 828,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 229,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "tenetur",
-  "TabOrder": 61,
-  "TextLength": 95,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 775,
-  "UDListDefinitionId": 482,
+  "Page1LineNo": 113,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "eos",
+  "TabOrder": 823,
+  "TextLength": 781,
+  "Tooltip": "dolores",
+  "UdefIdentity": 849,
+  "UDListDefinitionId": 667,
   "Justification": "Center",
-  "Version": 144,
-  "TemplateVariableName": "Stark-Leannon",
-  "HasBeenPublished": true,
-  "MdoListName": "Hickle-Dibbert",
+  "Version": 239,
+  "TemplateVariableName": "Haley, Corkery and Windler",
+  "HasBeenPublished": false,
+  "MdoListName": "Schuster, Breitenberg and Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 67
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 839
+  "ErpFieldId": 202
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 176,
-  "DefaultValue": "dicta",
+  "ErpFieldId": 962,
+  "DefaultValue": "quas",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ut",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "reiciendis",
+  "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "voluptatem",
+  "ErpFieldKey": "iusto",
   "FieldType": "Checkbox",
-  "ListName": "Feest, Williamson and Kiehn",
+  "ListName": "Rau-Koch",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   }
 }

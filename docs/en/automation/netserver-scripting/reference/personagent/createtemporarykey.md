@@ -2,10 +2,10 @@
 uid: personagent-createtemporarykey
 title: PersonAgent.CreateTemporaryKey event method
 description: Scripting events called on the CreateTemporaryKey method on the PersonAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PersonAgent.CreateTemporaryKey
 

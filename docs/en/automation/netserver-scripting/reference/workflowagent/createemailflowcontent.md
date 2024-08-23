@@ -2,10 +2,10 @@
 uid: workflowagent-createemailflowcontent
 title: WorkflowAgent.CreateEmailFlowContent event method
 description: Scripting events called on the CreateEmailFlowContent method on the WorkflowAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WorkflowAgent.CreateEmailFlowContent
 

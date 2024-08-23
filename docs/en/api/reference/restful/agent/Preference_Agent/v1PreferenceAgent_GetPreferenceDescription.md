@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=127
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=982
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 706,
-  "Section": "reprehenderit",
-  "Key": "tenetur",
-  "Name": "O'Keefe Group",
+  "PrefDescId": 783,
+  "Section": "labore",
+  "Key": "voluptas",
+  "Name": "Schowalter Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive modular core",
-  "IsBuiltin": true,
-  "TableName": "Hermiston, McKenzie and Purdy",
-  "UserDefinedListId": 668,
-  "Rank": 435,
-  "SubGroup": "debitis",
-  "MinLevel": 991,
-  "MaxValue": 28,
-  "MinValue": 748,
-  "RequiredLicense": "sint",
+  "Description": "Horizontal interactive open architecture",
+  "IsBuiltin": false,
+  "TableName": "Kessler, Douglas and Kihn",
+  "UserDefinedListId": 250,
+  "Rank": 179,
+  "SubGroup": "saepe",
+  "MinLevel": 890,
+  "MaxValue": 269,
+  "MinValue": 517,
+  "RequiredLicense": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

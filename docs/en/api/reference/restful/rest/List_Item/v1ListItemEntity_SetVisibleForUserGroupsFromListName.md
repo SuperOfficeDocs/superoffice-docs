@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Ortiz Inc and Sons",
-    "ToolTip": "Qui quo.",
+    "Id": 407,
+    "Name": "Paucek, Abernathy and Armstrong",
+    "ToolTip": "Natus et dolorem dolore sed ullam aliquid unde.",
     "Deleted": false,
-    "Rank": 480,
-    "Type": "dolorem",
-    "ColorBlock": 917,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2010-11-15T04:22:35.7834778+01:00",
+    "Rank": 497,
+    "Type": "accusamus",
+    "ColorBlock": 241,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2018-09-05T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Ondricka Group",
-        "ToolTip": "Sed sapiente rerum.",
+        "Id": 376,
+        "Name": "Heaney-Hilpert",
+        "ToolTip": "Nam vel deleniti et ea.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "aliquid",
-        "ColorBlock": 408,
-        "IconHint": "voluptatibus",
+        "Rank": 882,
+        "Type": "dolor",
+        "ColorBlock": 197,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2015-09-15T04:22:35.7834778+02:00",
+        "LastChanged": "2012-09-18T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Ms. Chester Hyatt"
+        "ExtraInfo": "autem",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Ms. Arnold Eleanore Effertz IV"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "alias",
     "Hidden": true,
-    "FullName": "Dedric Sipes"
+    "FullName": "Magdalen Grimes"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Kunde-Raynor",
-    "ToolTip": "Dicta quis ut voluptates deserunt non.",
+    "Id": 318,
+    "Name": "Beier LLC",
+    "ToolTip": "Nobis ipsam labore facilis.",
     "Deleted": false,
-    "Rank": 853,
-    "Type": "porro",
-    "ColorBlock": 716,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2007-03-14T04:22:35.7834778+01:00",
+    "Rank": 532,
+    "Type": "nihil",
+    "ColorBlock": 118,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2004-07-28T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 366,
-        "Name": "Jacobi Inc and Sons",
-        "ToolTip": "Omnis quia tempore nobis itaque.",
-        "Deleted": true,
-        "Rank": 173,
-        "Type": "dolorum",
-        "ColorBlock": 810,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2013-12-22T04:22:35.7834778+01:00",
+        "Id": 81,
+        "Name": "McCullough, Koelpin and VonRueden",
+        "ToolTip": "Officiis quibusdam enim rerum ab.",
+        "Deleted": false,
+        "Rank": 452,
+        "Type": "et",
+        "ColorBlock": 553,
+        "IconHint": "possimus",
+        "Selected": true,
+        "LastChanged": "2010-04-11T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Jakayla Pinkie Bogan IV",
+        "FullName": "Teagan McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "veniam",
+    "ExtraInfo": "inventore",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Katlynn Raynor",
+    "FullName": "Markus Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldType": "System.String",
+        "FieldLength": 269
       }
     }
   }

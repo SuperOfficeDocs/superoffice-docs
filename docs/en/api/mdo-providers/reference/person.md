@@ -3,9 +3,9 @@ uid: person
 title: person
 keywords: mdoprovider mdo provider person
 description: List of persons from the Archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "person" MDO List

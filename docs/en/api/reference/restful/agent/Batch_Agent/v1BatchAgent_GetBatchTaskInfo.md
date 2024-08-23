@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906
+  "Id": 353
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Turner-Torp",
-  "AssociateId": 57,
-  "DetailsTable": 683,
-  "DetailsRecord": 867,
+  "Id": 642,
+  "Name": "Hegmann, Larkin and Howe",
+  "AssociateId": 64,
+  "DetailsTable": 191,
+  "DetailsRecord": 92,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "et"
+    "ParameterObject1": "saepe",
+    "ParameterObject2": "ratione"
   },
-  "LastStarted": "2010-04-30T04:22:25.9965968+02:00",
-  "Created": "1998-03-24T04:22:25.9965968+01:00",
-  "StartCount": 217,
-  "DatabaseSerialNumber": "1351535",
-  "Context": "sapiente",
-  "Result": "aut",
+  "LastStarted": "2019-12-02T13:28:21.8512599+01:00",
+  "Created": "2018-09-10T13:28:21.8512599+02:00",
+  "StartCount": 87,
+  "DatabaseSerialNumber": "894087",
+  "Context": "exercitationem",
+  "Result": "inventore",
   "State": "All",
-  "Description": "Fully-configurable executive definition",
-  "Response": "provident",
-  "Request": "sint",
-  "ProgressDescription": "Proactive full-range monitoring",
-  "ProgressPercent": 819,
-  "FileName": "O'Kon LLC",
+  "Description": "Up-sized uniform extranet",
+  "Response": "nemo",
+  "Request": "labore",
+  "ProgressDescription": "Networked 5th generation core",
+  "ProgressPercent": 41,
+  "FileName": "Mayert Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 382
     }
   }
 }

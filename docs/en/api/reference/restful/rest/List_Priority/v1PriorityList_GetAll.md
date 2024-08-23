@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Sporer Group",
-    "Tooltip": "placeat",
+    "Id": 576,
+    "Name": "Bruen LLC",
+    "Tooltip": "enim",
     "Deleted": false,
-    "UdListDefinitionId": 59,
-    "Rank": 894,
+    "UdListDefinitionId": 610,
+    "Rank": 258,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 668
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: listagent-getlocalizedtexts
 title: ListAgent.GetLocalizedTexts event method
 description: Scripting events called on the GetLocalizedTexts method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.GetLocalizedTexts
 

@@ -2,10 +2,10 @@
 uid: dashagent-createdefaulttileforentity
 title: DashAgent.CreateDefaultTileForEntity event method
 description: Scripting events called on the CreateDefaultTileForEntity method on the DashAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DashAgent.CreateDefaultTileForEntity
 

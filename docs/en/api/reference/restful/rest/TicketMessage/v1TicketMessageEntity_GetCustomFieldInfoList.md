@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Abshire-Wisozk",
-    "DisplayName": "Cronin Group",
-    "Description": "Multi-lateral impactful encoding",
-    "ShortLabel": "animi",
+    "FieldName": "Bins, Bergnaum and Kihn",
+    "DisplayName": "Anderson-Legros",
+    "Description": "Multi-channelled intangible archive",
+    "ShortLabel": "temporibus",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 217,
-    "TemplateVariableName": "Kassulke Group"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 276,
+    "TemplateVariableName": "Hoppe Inc and Sons"
   }
 ]
 ```

@@ -2,10 +2,10 @@
 uid: documentagent-createdocumentstream
 title: DocumentAgent.CreateDocumentStream event method
 description: Scripting events called on the CreateDocumentStream method on the DocumentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DocumentAgent.CreateDocumentStream
 

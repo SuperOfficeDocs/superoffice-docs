@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Heathcote, Lowe and Feil",
-  "Tooltip": "enim",
+  "Id": 849,
+  "Name": "Paucek-Green",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "UdListDefinitionId": 971,
-  "Rank": 161,
+  "UdListDefinitionId": 388,
+  "Rank": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldLength": 717
     }
   }
 }

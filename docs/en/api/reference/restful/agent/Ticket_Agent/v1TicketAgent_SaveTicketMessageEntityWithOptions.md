@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    17,
-    634
+    701,
+    781
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 923,
+  "EjMessageId": 553,
   "Ticket": null,
-  "CreatedAt": "2009-09-16T04:22:28.0225046+02:00",
+  "CreatedAt": "2024-02-21T13:28:24.08539+01:00",
   "CreatedBy": null,
-  "Author": "dolore",
+  "Author": "sequi",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "corrupti",
-  "TimeSpent": 208,
-  "Body": "suscipit",
-  "HtmlBody": "nemo",
-  "EmailHeader": "carlotta_mertz@dareupton.ca",
-  "DebugInfo": "voluptas",
-  "MailSorter": "dolore",
+  "TimeSpent": 216,
+  "Body": "est",
+  "HtmlBody": "enim",
+  "EmailHeader": "boris.aufderhar@gulgowski.ca",
+  "DebugInfo": "quia",
+  "MailSorter": "quis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "soluta",
+  "SearchTitle": "dolorem",
   "MessageHeaders": [
     {
-      "Id": 18,
-      "Name": "Braun, Zieme and Stamm",
-      "Value": "quis",
+      "Id": 282,
+      "Name": "Borer LLC",
+      "Value": "debitis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 55
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nemo",
-  "Sentiment": 218,
-  "SentimentConfidence": 443,
+  "Language": "atque",
+  "Sentiment": 444,
+  "SentimentConfidence": 504,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 189,
-      "Name": "Murphy-Ortiz",
-      "ContentType": "sed",
-      "AttSize": 813,
-      "InlineImage": true,
-      "ContentId": "minus",
-      "AuthKey": "repudiandae",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 371,
+      "Name": "Doyle-Morissette",
+      "ContentType": "necessitatibus",
+      "AttSize": 677,
+      "InlineImage": false,
+      "ContentId": "voluptas",
+      "AuthKey": "eveniet",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 621
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "id"
+    "CustomFields1": "ea",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   }
 }

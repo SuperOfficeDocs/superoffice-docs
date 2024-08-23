@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=eaque
+GET /api/v1/List/Country/MDOItems?query=eum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Dickinson, Mitchell and Watsica",
-    "ToolTip": "Perspiciatis voluptatibus commodi voluptatibus iusto vitae.",
+    "Id": 916,
+    "Name": "Ebert LLC",
+    "ToolTip": "Minus qui totam accusamus ipsam et.",
     "Deleted": true,
-    "Rank": 114,
-    "Type": "voluptates",
+    "Rank": 680,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Murray, Vandervort and Krajcik",
-        "ToolTip": "Debitis eius tempora.",
-        "Deleted": false,
-        "Rank": 374,
-        "Type": "perspiciatis",
+        "Id": 855,
+        "Name": "Bogisich-O'Hara",
+        "ToolTip": "Accusamus nobis.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 956,
-        "ExtraInfo": "animi",
-        "StyleHint": "et",
-        "FullName": "Dr. Herminio Gutmann MD",
+        "IconHint": "ut",
+        "ColorBlock": 459,
+        "ExtraInfo": "rerum",
+        "StyleHint": "nihil",
+        "FullName": "Manuela Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldLength": 558
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 451,
-    "ExtraInfo": "illo",
-    "StyleHint": "qui",
-    "FullName": "Holly Feest",
+    "IconHint": "omnis",
+    "ColorBlock": 162,
+    "ExtraInfo": "veniam",
+    "StyleHint": "ducimus",
+    "FullName": "Norberto Ashtyn Schultz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

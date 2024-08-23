@@ -2,10 +2,10 @@
 uid: blobagent-deleteblobentity
 title: BLOBAgent.DeleteBlobEntity event method
 description: Scripting events called on the DeleteBlobEntity method on the BLOBAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BLOBAgent.DeleteBlobEntity
 

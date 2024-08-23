@@ -2,10 +2,10 @@
 uid: userdefinedfieldinfoagent-getpublisheduserdefinedfieldfromprogid
 title: UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId event method
 description: Scripting events called on the GetPublishedUserDefinedFieldFromProgId method on the UserDefinedFieldInfoAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
 

@@ -2,10 +2,10 @@
 uid: dashboardagent-getdatawithselection
 title: DashboardAgent.GetDataWithSelection event method
 description: Scripting events called on the GetDataWithSelection method on the DashboardAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DashboardAgent.GetDataWithSelection
 

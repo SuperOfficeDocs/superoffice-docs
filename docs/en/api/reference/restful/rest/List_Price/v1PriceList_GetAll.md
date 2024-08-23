@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=deleniti
-GET /api/v1/Pricelist?$top=516
-GET /api/v1/Pricelist?$skip=936
+GET /api/v1/Pricelist?$entities=dicta
+GET /api/v1/Pricelist?$top=399
+GET /api/v1/Pricelist?$skip=527
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=voluptas
+GET /api/v1/Pricelist?$context=dolorem
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "soluta",
   "value": [
     {
-      "PrimaryKey": 4440,
+      "PrimaryKey": 2135,
       "EntityName": "sale",
-      "saleId": 4440,
-      "contactId": 8448,
-      "name": "Quitzon, Wiza and Schoen"
+      "saleId": 2135,
+      "contactId": 1934,
+      "name": "Bernhard-Frami"
     },
     {
-      "PrimaryKey": 5793,
+      "PrimaryKey": 7829,
       "EntityName": "sale",
-      "saleId": 5793,
-      "contactId": 2616,
-      "name": "Wisoky LLC"
+      "saleId": 7829,
+      "contactId": 9593,
+      "name": "Schinner-Lynch"
     }
   ]
 }

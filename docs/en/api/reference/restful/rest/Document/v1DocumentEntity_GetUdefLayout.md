@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 335,
-    "ColumnId": 739,
-    "FieldDefault": "deleniti",
-    "FieldHeight": 283,
-    "FieldLabel": "quas",
-    "FieldLeft": 140,
-    "FieldTop": 915,
+    "UDefFieldId": 556,
+    "ColumnId": 815,
+    "FieldDefault": "eaque",
+    "FieldHeight": 641,
+    "FieldLabel": "nam",
+    "FieldLeft": 829,
+    "FieldTop": 486,
     "FieldType": "Checkbox",
-    "FieldWidth": 882,
-    "FormatMask": "delectus",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 311,
-    "LabelLeft": 112,
-    "LabelTop": 959,
-    "LabelWidth": 242,
-    "LastVersionId": 254,
-    "ListTableId": 446,
-    "IsMandatory": true,
+    "FieldWidth": 626,
+    "FormatMask": "porro",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 722,
+    "LabelLeft": 461,
+    "LabelTop": 943,
+    "LabelWidth": 875,
+    "LastVersionId": 735,
+    "ListTableId": 339,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 581,
-    "ProgId": "commodi",
-    "IsReadOnly": true,
-    "ShortLabel": "quo",
-    "TabOrder": 126,
-    "TextLength": 641,
-    "Tooltip": "et",
-    "UdefIdentity": 176,
-    "UDListDefinitionId": 548,
+    "Page1LineNo": 119,
+    "ProgId": "perferendis",
+    "IsReadOnly": false,
+    "ShortLabel": "aperiam",
+    "TabOrder": 548,
+    "TextLength": 534,
+    "Tooltip": "ipsam",
+    "UdefIdentity": 885,
+    "UDListDefinitionId": 630,
     "Justification": "Center",
-    "Version": 925,
-    "TemplateVariableName": "Bogan, Howe and Kirlin",
+    "Version": 971,
+    "TemplateVariableName": "Hickle Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Conn, Cartwright and Reilly",
+    "MdoListName": "Senger, Johnston and Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 230
       }
     }
   }

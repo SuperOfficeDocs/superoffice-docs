@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 916,
-  "UniqueId": "autem",
-  "Name": "Altenwerth LLC",
-  "Description": "Virtual didactic array",
-  "AssociateId": 774,
-  "Columns": 638,
+  "DashboardId": 545,
+  "UniqueId": "animi",
+  "Name": "Treutel Inc and Sons",
+  "Description": "Virtual contextually-based system engine",
+  "AssociateId": 958,
+  "Columns": 376,
   "Theme": null,
-  "VisibleForAll": 647,
+  "VisibleForAll": 347,
   "VisibleForAssociates": [
-    732,
-    146
+    240,
+    107
   ],
   "VisibleForGroups": [
-    288,
-    411
+    197,
+    1002
   ],
-  "PinForAll": 624,
+  "PinForAll": 954,
   "PinForAssociates": [
-    286,
-    958
+    85,
+    547
   ],
   "PinForGroups": [
-    43,
-    772
+    605,
+    947
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

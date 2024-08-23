@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 10 Nov 2003 04:22:34 G11T
+Last-Modified: Wed, 15 Aug 2001 13:28:31 G8T
 
 {
-  "ForeignAppId": 583,
-  "Name": "Streich-Kunze",
-  "CreatedDate": "2006-12-30T04:22:34.9854602+01:00",
-  "UpdatedDate": "2003-11-10T04:22:34.9854602+01:00",
+  "ForeignAppId": 301,
+  "Name": "Swift LLC",
+  "CreatedDate": "2003-06-10T13:28:31.6792414+02:00",
+  "UpdatedDate": "2001-08-15T13:28:31.6792414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 694,
-      "Name": "Dickens-Runte",
-      "CreatedDate": "2015-10-16T04:22:34.9854602+02:00",
-      "UpdatedDate": "2008-02-14T04:22:34.9854602+01:00",
-      "AssociateFullName": "Kyle Hayes",
-      "CreatedBy": "quasi",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 894,
+      "ForeignDeviceId": 244,
+      "Name": "Block, Cremin and Hahn",
+      "CreatedDate": "2000-06-23T13:28:31.6792414+02:00",
+      "UpdatedDate": "2008-06-18T13:28:31.6792414+02:00",
+      "AssociateFullName": "Jovan Goldner",
+      "CreatedBy": "excepturi",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "consequuntur",
+      "ForeignAppId": 318,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldLength": 668
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Mon, 10 Nov 2003 04:22:34 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 292
     }
   }
 }

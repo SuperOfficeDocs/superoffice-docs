@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "aut",
+  "Provider": "quis",
   "Restrictions": [
     {
-      "Name": "Dickinson, Williamson and Crooks",
-      "Operator": "tenetur",
+      "Name": "Mueller-Goodwin",
+      "Operator": "sunt",
       "Values": [
-        "natus",
-        "asperiores"
+        "vitae",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "ea"
+        "quis",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 420,
+      "InterParenthesis": 488,
       "InterOperator": "And",
-      "UniqueHash": 785
+      "UniqueHash": 528
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  256,
-  487
+  897,
+  443
 ]
 ```

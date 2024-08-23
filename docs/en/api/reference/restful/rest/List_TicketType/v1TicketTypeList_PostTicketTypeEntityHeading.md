@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 328,
-  "Name": "Reilly, Kohler and Kreiger",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 927,
-  "UdListDefinitionId": 108
+  "HeadingId": 488,
+  "Name": "O'Conner, Smith and O'Kon",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 895,
+  "UdListDefinitionId": 883
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 548,
-  "Name": "Quitzon-Mohr",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "Rank": 36,
-  "UdListDefinitionId": 948,
+  "HeadingId": 997,
+  "Name": "Schuster, Kemmer and Haag",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "Rank": 42,
+  "UdListDefinitionId": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 216
     }
   }
 }

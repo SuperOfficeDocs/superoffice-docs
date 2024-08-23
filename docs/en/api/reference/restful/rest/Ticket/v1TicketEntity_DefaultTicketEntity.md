@@ -114,7 +114,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 844,
-  "Title": "officiis",
-  "CreatedAt": "1999-12-02T04:22:35.4709806+01:00",
-  "LastChanged": "2021-01-26T04:22:35.4709806+01:00",
-  "ReadByOwner": "2013-08-10T04:22:35.4709806+02:00",
-  "ReadByCustomer": "2008-02-12T04:22:35.4709806+01:00",
-  "FirstReadByOwner": "2002-05-07T04:22:35.4709806+02:00",
-  "FirstReadByUser": "2017-03-19T04:22:35.4709806+01:00",
-  "Activate": "1998-08-10T04:22:35.4709806+02:00",
-  "ClosedAt": "1998-08-17T04:22:35.4709806+02:00",
-  "RepliedAt": "2012-08-17T04:22:35.4709806+02:00",
-  "AlertTimeout": "2012-03-20T04:22:35.4709806+01:00",
-  "Deadline": "1997-12-22T04:22:35.4709806+01:00",
+  "TicketId": 806,
+  "Title": "eos",
+  "CreatedAt": "2022-05-02T13:28:32.2729888+02:00",
+  "LastChanged": "2024-05-04T13:28:32.2729888+02:00",
+  "ReadByOwner": "2004-07-12T13:28:32.2729888+02:00",
+  "ReadByCustomer": "1997-11-14T13:28:32.2729888+01:00",
+  "FirstReadByOwner": "2006-01-12T13:28:32.2729888+01:00",
+  "FirstReadByUser": "1998-12-29T13:28:32.2729888+01:00",
+  "Activate": "2021-06-06T13:28:32.2729888+02:00",
+  "ClosedAt": "2024-07-04T13:28:32.2729888+02:00",
+  "RepliedAt": "2004-11-08T13:28:32.2729888+01:00",
+  "AlertTimeout": "2011-07-13T13:28:32.2729888+02:00",
+  "Deadline": "2002-12-27T13:28:32.2729888+01:00",
   "CreatedBy": null,
-  "Author": "officiis",
+  "Author": "dolore",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "animi",
-      "PersonId": 766,
-      "Mrmrs": "qui",
-      "Firstname": "Aracely",
-      "Lastname": "Rutherford",
-      "MiddleName": "Kohler, Beatty and Stokes",
-      "Title": "quidem",
-      "Description": "Multi-lateral dedicated artificial intelligence",
-      "Email": "jamey_luettgen@fritsch.biz",
-      "FullName": "Lauren Effertz",
-      "DirectPhone": "(251)594-1447 x39473",
-      "FormalName": "Gottlieb, Hamill and Torp",
-      "CountryId": 670,
-      "ContactId": 124,
-      "ContactName": "Hirthe-Bruen",
-      "Retired": 959,
-      "Rank": 139,
-      "ActiveInterests": 697,
+      "Position": "id",
+      "PersonId": 857,
+      "Mrmrs": "perferendis",
+      "Firstname": "Amir",
+      "Lastname": "Carter",
+      "MiddleName": "Gutmann, Effertz and Runolfsdottir",
+      "Title": "sunt",
+      "Description": "Managed tangible synergy",
+      "Email": "monte@greenborer.com",
+      "FullName": "Dr. Felicia Russ Morar Jr.",
+      "DirectPhone": "1-951-472-2238",
+      "FormalName": "Keeling LLC",
+      "CountryId": 137,
+      "ContactId": 862,
+      "ContactName": "Pfannerstill, Gottlieb and Wyman",
+      "Retired": 110,
+      "Rank": 103,
+      "ActiveInterests": 995,
       "ContactDepartment": "",
-      "ContactCountryId": 76,
-      "ContactOrgNr": "973089",
-      "FaxPhone": "1-479-524-9442",
-      "MobilePhone": "847.508.8860 x58376",
-      "ContactPhone": "1-070-592-1554",
-      "AssociateName": "Macejkovic-Labadie",
-      "AssociateId": 890,
+      "ContactCountryId": 398,
+      "ContactOrgNr": "814209",
+      "FaxPhone": "022-910-7261 x55730",
+      "MobilePhone": "628.719.4222",
+      "ContactPhone": "000-364-3284",
+      "AssociateName": "Klein-Ernser",
+      "AssociateId": 407,
       "UsePersonAddress": false,
-      "ContactFax": "dolore",
-      "Kanafname": "architecto",
-      "Kanalname": "repellat",
-      "Post1": "et",
-      "Post2": "sit",
-      "Post3": "rem",
-      "EmailName": "josiane@boyerhudson.us",
-      "ContactFullName": "Nels Hamill",
-      "ActiveErpLinks": 377,
-      "TicketPriorityId": 265,
-      "SupportLanguageId": 285,
-      "SupportAssociateId": 455,
+      "ContactFax": "voluptatibus",
+      "Kanafname": "nam",
+      "Kanalname": "eos",
+      "Post1": "vitae",
+      "Post2": "eos",
+      "Post3": "distinctio",
+      "EmailName": "kianna@schroeder.uk",
+      "ContactFullName": "Ms. Jeramie Leonora Ortiz II",
+      "ActiveErpLinks": 415,
+      "TicketPriorityId": 759,
+      "SupportLanguageId": 859,
+      "SupportAssociateId": 297,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 826
         }
       }
     }
   ],
-  "AlertLevel": 240,
-  "ConnectId": 140,
+  "AlertLevel": 586,
+  "ConnectId": 79,
   "ReadStatus": "Green",
-  "TimeToReply": 400,
-  "RealTimeToReply": 517,
-  "TimeToClose": 363,
-  "RealTimeToClose": 70,
-  "TimeSpentInternally": 36,
-  "TimeSpentExternally": 460,
-  "TimeSpentQueue": 933,
-  "RealTimeSpentInternally": 549,
-  "RealTimeSpentExternally": 764,
-  "RealTimeSpentQueue": 82,
-  "TimeSpent": 877,
-  "HasAttachment": true,
-  "NumReplies": 451,
-  "NumMessages": 834,
-  "FromAddress": "ex",
+  "TimeToReply": 374,
+  "RealTimeToReply": 889,
+  "TimeToClose": 693,
+  "RealTimeToClose": 357,
+  "TimeSpentInternally": 6,
+  "TimeSpentExternally": 303,
+  "TimeSpentQueue": 768,
+  "RealTimeSpentInternally": 222,
+  "RealTimeSpentExternally": 222,
+  "RealTimeSpentQueue": 797,
+  "TimeSpent": 282,
+  "HasAttachment": false,
+  "NumReplies": 866,
+  "NumMessages": 405,
+  "FromAddress": "rerum",
   "Messages": [
     {
-      "TicketMessageId": 933,
-      "CreatedAt": "2016-05-22T04:22:35.4709806+02:00",
+      "TicketMessageId": 583,
+      "CreatedAt": "2022-09-03T13:28:32.2729888+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "quia",
-      "PersonId": 812,
-      "PersonFullName": "Jean Franecki",
-      "ContactId": 634,
-      "ContactName": "Schiller LLC",
+      "Important": true,
+      "Author": "natus",
+      "PersonId": 728,
+      "PersonFullName": "Prof. Tyson Frederique Hudson DDS",
+      "ContactId": 552,
+      "ContactName": "Anderson LLC",
       "ContactDepartment": "",
-      "NumAttachments": 159,
-      "EmailHeader": "demarco@kshlerin.us",
+      "NumAttachments": 510,
+      "EmailHeader": "christine@bogisich.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "aut",
-      "Sentiment": 318,
-      "SentimentConfidence": 464,
-      "CreatedBy": 924,
-      "ChangedAt": "2021-08-13T04:22:35.4709806+02:00",
+      "Language": "facilis",
+      "Sentiment": 986,
+      "SentimentConfidence": 748,
+      "CreatedBy": 296,
+      "ChangedAt": "2018-06-01T13:28:32.2729888+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 411
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 179,
-      "Name": "DuBuque, Wilkinson and Schultz",
-      "ToolTip": "Quia et quo est vero.",
+      "Id": 587,
+      "Name": "Blanda, Boehm and Abshire",
+      "ToolTip": "Qui dolor qui quaerat aspernatur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 206
         }
       }
     },
     {
-      "Id": 179,
-      "Name": "DuBuque, Wilkinson and Schultz",
-      "ToolTip": "Quia et quo est vero.",
+      "Id": 587,
+      "Name": "Blanda, Boehm and Abshire",
+      "ToolTip": "Qui dolor qui quaerat aspernatur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 206
         }
       }
     }
   ],
-  "Language": "non",
-  "Sentiment": 878,
-  "SentimentConfidence": 211,
-  "SuggestedCategoryId": 407,
+  "Language": "dolores",
+  "Sentiment": 880,
+  "SentimentConfidence": 300,
+  "SuggestedCategoryId": 261,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 611,
-  "IconHint": "dolorem",
+  "OrigHumanCategoryId": 862,
+  "IconHint": "non",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 278,
+  "ActiveStatusMonitorId": 328,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "nulla"
+    "CustomFields1": "enim",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 544
     }
   }
 }

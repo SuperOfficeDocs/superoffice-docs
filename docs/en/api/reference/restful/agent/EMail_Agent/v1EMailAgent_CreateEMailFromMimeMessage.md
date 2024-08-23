@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quas"
+  "MimeMessage": "aut"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 865,
-      "ContactName": "Kuvalis Group",
-      "PersonId": 287,
-      "PersonName": "Schultz, McCullough and Boyer",
-      "AssociateId": 403,
-      "Address": "laborum",
-      "EmailId": 150,
+      "ContactId": 528,
+      "ContactName": "Zboncak, Kozey and Kuphal",
+      "PersonId": 476,
+      "PersonName": "Reichel-Spencer",
+      "AssociateId": 570,
+      "Address": "ipsum",
+      "EmailId": 753,
       "DuplicatePersonIds": [
-        915,
-        799
+        403,
+        602
       ],
-      "Name": "Ritchie Group",
+      "Name": "O'Connell, Koelpin and Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 316
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 602,
-      "ContactName": "Baumbach, Wisozk and Rohan",
-      "PersonId": 534,
-      "PersonName": "Durgan, Boyer and Erdman",
-      "AssociateId": 537,
-      "Address": "nihil",
-      "EmailId": 488,
+      "ContactId": 284,
+      "ContactName": "Torphy-Kertzmann",
+      "PersonId": 673,
+      "PersonName": "Lynch-Reilly",
+      "AssociateId": 873,
+      "Address": "ipsa",
+      "EmailId": 16,
       "DuplicatePersonIds": [
-        377,
-        286
+        756,
+        175
       ],
-      "Name": "O'Kon-Kuhlman",
+      "Name": "Bradtke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 734,
-      "ContactName": "Oberbrunner, Keeling and Fritsch",
-      "PersonId": 699,
-      "PersonName": "Witting-Swift",
-      "AssociateId": 189,
-      "Address": "possimus",
-      "EmailId": 839,
+      "ContactId": 160,
+      "ContactName": "Bartell-Yundt",
+      "PersonId": 571,
+      "PersonName": "Cole, Keebler and Hansen",
+      "AssociateId": 260,
+      "Address": "quia",
+      "EmailId": 935,
       "DuplicatePersonIds": [
-        910,
-        229
+        208,
+        834
       ],
-      "Name": "O'Reilly LLC",
+      "Name": "Predovic, Rath and Deckow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Subject": "doloremque",
-  "HTMLBody": "alias",
+  "Subject": "ut",
+  "HTMLBody": "cum",
   "From": null,
-  "Sent": "2018-06-03T04:22:26.7647342+02:00",
-  "Size": 173,
+  "Sent": "2018-12-28T13:28:22.7573023+01:00",
+  "Size": 93,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "suscipit",
+  "MessageID": "voluptas",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 538,
+  "ServerId": 106,
   "Attachments": [
     {
-      "Description": "Phased leading edge functionalities",
-      "Filename": "perspiciatis",
-      "Size": 483,
-      "Type": "laboriosam",
-      "Encoding": "et",
-      "Id": "aut",
-      "Disposition": "et",
+      "Description": "Pre-emptive next generation workforce",
+      "Filename": "ab",
+      "Size": 36,
+      "Type": "incidunt",
+      "Encoding": "nobis",
+      "Id": "iure",
+      "Disposition": "voluptate",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldLength": 567
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cassin, Maggio and Bogisich",
+      "Name": "Tromp-Hermiston",
       "Values": [
-        "dignissimos",
-        "ut"
+        "voluptates",
+        "repellat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     },
     {
-      "Name": "Cassin, Maggio and Bogisich",
+      "Name": "Tromp-Hermiston",
       "Values": [
-        "dignissimos",
-        "ut"
+        "voluptates",
+        "repellat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
   ],
-  "FolderName": "Miller-Spencer",
-  "EmailItemId": 340,
-  "AccountId": 539,
-  "ReceivedAt": "2018-11-05T04:22:26.7647342+01:00",
+  "FolderName": "Kirlin-Morissette",
+  "EmailItemId": 959,
+  "AccountId": 169,
+  "ReceivedAt": "2007-11-09T13:28:22.7573023+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-07-14T04:22:26.7803595+02:00",
+  "RepliedAt": "2012-05-03T13:28:22.7573023+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 6
     }
   }
 }

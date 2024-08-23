@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "McClure Inc and Sons",
-    "ToolTip": "Qui quasi expedita eum nisi.",
+    "Id": 605,
+    "Name": "Ebert LLC",
+    "ToolTip": "Numquam harum voluptatem et quis.",
     "Deleted": false,
-    "Rank": 493,
-    "Type": "eum",
-    "ColorBlock": 248,
-    "IconHint": "explicabo",
+    "Rank": 366,
+    "Type": "id",
+    "ColorBlock": 361,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2019-07-06T04:22:35.8622202+02:00",
+    "LastChanged": "2005-06-27T13:28:32.7416326+02:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "McClure, Farrell and Thiel",
-        "ToolTip": "Eveniet consequuntur maiores.",
+        "Id": 159,
+        "Name": "Hilll, Grimes and Willms",
+        "ToolTip": "Consequatur et ipsa dolor corrupti velit quo.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "enim",
-        "ColorBlock": 745,
-        "IconHint": "voluptas",
+        "Rank": 100,
+        "Type": "fugit",
+        "ColorBlock": 493,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-03-21T04:22:35.8622202+01:00",
+        "LastChanged": "2018-05-14T13:28:32.7416326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Mr. Okey Greenholt",
+        "ExtraInfo": "illum",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Mrs. Audrey Irwin Gleason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "modi",
-    "Hidden": false,
-    "FullName": "Mercedes Marks",
+    "ExtraInfo": "harum",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Toby Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

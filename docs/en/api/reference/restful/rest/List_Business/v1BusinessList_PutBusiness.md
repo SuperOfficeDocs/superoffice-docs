@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Hyatt, Bechtelar and Zieme",
-  "Tooltip": "eius",
+  "Id": 381,
+  "Name": "Carroll-Ankunding",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "UdListDefinitionId": 103,
-  "Rank": 661
+  "UdListDefinitionId": 819,
+  "Rank": 875
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Corkery Inc and Sons",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "UdListDefinitionId": 904,
-  "Rank": 837,
+  "Id": 381,
+  "Name": "Kessler-Beahan",
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "UdListDefinitionId": 686,
+  "Rank": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 445
     }
   }
 }

@@ -3,9 +3,9 @@ uid: shipmentlinks
 title: shipmentlinks
 keywords: mdoprovider mdo provider shipmentlinks
 description: Create a list of specified mailings (flow, form, regular mailing/shipment...), hierarchy optional
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "shipmentlinks" MDO List

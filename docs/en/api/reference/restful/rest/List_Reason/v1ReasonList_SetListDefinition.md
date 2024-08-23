@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "McKenzie-Heidenreich",
-  "Tooltip": "neque",
+  "Id": 630,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 297,
+  "Rank": 206,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "McLaughlin Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 593,
-  "IsCustomList": false,
+  "Id": 323,
+  "Name": "White, Leannon and Mertz",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 142,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 140
     }
   }
 }

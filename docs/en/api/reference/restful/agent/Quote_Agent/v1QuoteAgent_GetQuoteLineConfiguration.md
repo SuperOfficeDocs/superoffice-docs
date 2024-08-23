@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 683
+  "QuoteLineConfigurationId": 726
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 340,
-  "FieldName": "Mills, Larson and White",
-  "Label": "quos",
-  "Tooltip": "voluptatem",
+  "QuoteLineConfigurationId": 978,
+  "FieldName": "Keeling-Walsh",
+  "Label": "expedita",
+  "Tooltip": "sit",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 886,
+  "Rank": 341,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldLength": 44
     }
   }
 }

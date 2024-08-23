@@ -95,14 +95,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy, Moen and Moen",
+  "Name": "Kautzer, Effertz and Dicki",
   "ForceFlatList": false,
-  "AdditionalInfo": "sit",
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    992,
-    622
+    355,
+    170
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Schmitt LLC",
-    "ToolTip": "Provident et est dolorum dolores molestiae.",
+    "Id": 689,
+    "Name": "Johns Group",
+    "ToolTip": "Corrupti officia rem fugiat non.",
     "Deleted": true,
-    "Rank": 176,
-    "Type": "aliquid",
-    "ColorBlock": 313,
-    "IconHint": "laboriosam",
+    "Rank": 727,
+    "Type": "a",
+    "ColorBlock": 741,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2017-08-27T04:22:27.0810055+02:00",
+    "LastChanged": "2010-02-15T13:28:23.0543771+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Prosacco-Rippin",
-        "ToolTip": "Earum molestiae quas tempore cupiditate.",
+        "Id": 518,
+        "Name": "Hayes LLC",
+        "ToolTip": "Beatae quibusdam quae ut qui sint.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "expedita",
-        "ColorBlock": 785,
-        "IconHint": "atque",
+        "Rank": 831,
+        "Type": "aut",
+        "ColorBlock": 38,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2009-08-29T04:22:27.0810055+02:00",
+        "LastChanged": "2004-10-25T13:28:23.0699949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Shawna Konopelski PhD",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Roderick Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 812
+            "FieldLength": 171
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Marina Douglas",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Sienna Tiffany Littel PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 27
       }
     }
   }

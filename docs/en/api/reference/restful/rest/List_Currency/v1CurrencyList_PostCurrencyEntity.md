@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 446,
-  "Name": "Tromp Group",
-  "Tooltip": "minus",
-  "Rank": 847,
-  "Rate": 1372.692,
-  "Units": 22276.471999999998,
-  "Deleted": true
+  "CurrencyId": 560,
+  "Name": "Tremblay Inc and Sons",
+  "Tooltip": "laboriosam",
+  "Rank": 374,
+  "Rate": 2967.8979999999997,
+  "Units": 16776.302,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 917,
-  "Name": "Ondricka-Lindgren",
-  "Tooltip": "sint",
-  "Rank": 468,
-  "Rate": 19267.832,
-  "Units": 539.048,
-  "Deleted": false,
+  "CurrencyId": 296,
+  "Name": "Jenkins-Gibson",
+  "Tooltip": "dolorem",
+  "Rank": 828,
+  "Rate": 11457.904,
+  "Units": 4262.24,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 925
     }
   }
 }

@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stoltenberg-Gaylord",
+  "ProviderName": "Johnston, Bradtke and Harber",
   "Columns": [
-    "quia",
-    "omnis"
+    "dolor",
+    "dolorem"
   ],
   "SortOrder": [
     {
-      "Name": "Bashirian-Bosco",
+      "Name": "O'Keefe Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Bashirian-Bosco",
+      "Name": "O'Keefe Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Blick-Quigley",
-      "Operator": "iure",
+      "Name": "Lueilwitz-Grady",
+      "Operator": "et",
       "Values": [
-        "quibusdam",
-        "corporis"
+        "dolores",
+        "non"
       ],
       "DisplayValues": [
-        "enim",
-        "qui"
+        "reprehenderit",
+        "assumenda"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 392,
+      "InterParenthesis": 397,
       "InterOperator": "And",
-      "UniqueHash": 880
+      "UniqueHash": 176
     }
   ],
   "Entities": [
-    "deserunt",
-    "ab"
+    "in",
+    "aut"
   ],
-  "Page": 750,
-  "PageSize": 551
+  "Page": 648,
+  "PageSize": 521
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hintz-Hammes",
-    "PrimaryKey": 464,
+    "EntityName": "Hintz-Bahringer",
+    "PrimaryKey": 829,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "praesentium",
-        "LinkHint": "fugiat"
+        "DisplayValue": "repellat",
+        "TooltipHint": "earum",
+        "LinkHint": "doloribus"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "ducimus",
+    "LinkHint": "voluptatem",
+    "StyleHint": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 65
       }
     }
   }

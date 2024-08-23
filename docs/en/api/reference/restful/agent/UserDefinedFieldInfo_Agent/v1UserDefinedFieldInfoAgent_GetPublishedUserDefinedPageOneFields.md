@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 861
+  "UserGroupId": 633
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 472,
-    "ColumnId": 513,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 874,
-    "FieldLabel": "sit",
-    "FieldLeft": 557,
-    "FieldTop": 32,
+    "UDefFieldId": 252,
+    "ColumnId": 839,
+    "FieldDefault": "assumenda",
+    "FieldHeight": 908,
+    "FieldLabel": "cumque",
+    "FieldLeft": 168,
+    "FieldTop": 500,
     "FieldType": "Checkbox",
-    "FieldWidth": 110,
-    "FormatMask": "occaecati",
+    "FieldWidth": 347,
+    "FormatMask": "eum",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 607,
-    "LabelLeft": 893,
-    "LabelTop": 78,
-    "LabelWidth": 41,
-    "LastVersionId": 129,
-    "ListTableId": 562,
-    "IsMandatory": true,
+    "LabelHeight": 950,
+    "LabelLeft": 995,
+    "LabelTop": 716,
+    "LabelWidth": 167,
+    "LastVersionId": 845,
+    "ListTableId": 561,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 337,
-    "ProgId": "quo",
-    "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 673,
-    "TextLength": 359,
-    "Tooltip": "quibusdam",
-    "UdefIdentity": 416,
-    "UDListDefinitionId": 554,
+    "Page1LineNo": 263,
+    "ProgId": "aut",
+    "IsReadOnly": true,
+    "ShortLabel": "quod",
+    "TabOrder": 5,
+    "TextLength": 217,
+    "Tooltip": "mollitia",
+    "UdefIdentity": 91,
+    "UDListDefinitionId": 45,
     "Justification": "Center",
-    "Version": 146,
-    "TemplateVariableName": "Predovic Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Zulauf, Krajcik and Shanahan",
+    "Version": 680,
+    "TemplateVariableName": "Kirlin, Lebsack and Nolan",
+    "HasBeenPublished": false,
+    "MdoListName": "Cronin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldType": "System.Int32",
+        "FieldLength": 322
       }
     }
   }

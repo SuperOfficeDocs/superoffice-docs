@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 437,
+  "RecordId": 385,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Erdman, Weissnat and Rau",
-    "CrmFieldKey": "nam",
-    "Value": "aut",
-    "DisplayValue": "ipsam",
+    "DisplayName": "Borer, Wolf and Bins",
+    "CrmFieldKey": "aut",
+    "Value": "totam",
+    "DisplayValue": "possimus",
     "SyncToCrm": false,
-    "SyncToErp": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 268
       }
     }
   }

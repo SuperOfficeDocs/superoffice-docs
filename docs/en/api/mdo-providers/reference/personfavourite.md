@@ -3,9 +3,9 @@ uid: personfavourite
 title: personfavourite
 keywords: mdoprovider mdo provider personfavourite
 description: MDO list provider for Favourites
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "personfavourite" MDO List

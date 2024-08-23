@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 977,
-  "ERPQuoteLineKey": "est",
-  "QuoteAlternativeId": 707,
-  "ERPProductKey": "autem",
+  "QuoteLineId": 707,
+  "ERPQuoteLineKey": "laboriosam",
+  "QuoteAlternativeId": 489,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13319.5,
-  "DeliveredQuantity": 23693.04,
-  "Rank": 15,
-  "Name": "Hilll LLC",
-  "Description": "Secured global task-force",
-  "Code": "dolorum",
-  "QuantityUnit": "illo",
-  "PriceUnit": "qui",
-  "ItemNumber": "1199584",
+  "Quantity": 112.824,
+  "DeliveredQuantity": 30230.564,
+  "Rank": 207,
+  "Name": "Lebsack, Spencer and Beier",
+  "Description": "Robust eco-centric paradigm",
+  "Code": "itaque",
+  "QuantityUnit": "totam",
+  "PriceUnit": "perspiciatis",
+  "ItemNumber": "1584587",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tempora",
-  "ProductTypeKey": "maiores",
-  "Supplier": "quia",
-  "SupplierCode": "quia",
-  "Thumbnail": "sequi",
-  "VATInfo": "incidunt",
-  "VAT": 7618.754,
-  "UnitCost": 2955.362,
-  "UnitMinimumPrice": 29114.86,
-  "UnitListPrice": 17785.45,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "vel",
+  "Supplier": "ex",
+  "SupplierCode": "ullam",
+  "Thumbnail": "dolor",
+  "VATInfo": "eum",
+  "VAT": 12724.039999999999,
+  "UnitCost": 8668.644,
+  "UnitMinimumPrice": 21489.838,
+  "UnitListPrice": 27134.172,
   "ExtraInfo": [
     {
-      "Name": "Jewess, Runolfsson and Kohler",
-      "Value": "asperiores",
+      "Name": "Ondricka LLC",
+      "Value": "sapiente",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 885
         }
       }
     },
     {
-      "Name": "Jewess, Runolfsson and Kohler",
-      "Value": "asperiores",
+      "Name": "Ondricka LLC",
+      "Value": "sapiente",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 885
         }
       }
     }
   ],
-  "RawExtraInfo": "eum",
+  "RawExtraInfo": "ea",
   "IsSubscription": false,
-  "SubscriptionUnit": "amet",
-  "SubscriptionQuantity": 30590.974,
-  "SubscriptionStart": "2011-02-08T04:22:27.4403662+01:00",
-  "ERPDiscountPercent": 10552.178,
-  "ERPDiscountAmount": 1281.806,
-  "DiscountPercent": 3651.1099999999997,
-  "DiscountAmount": 27378.624,
+  "SubscriptionUnit": "sint",
+  "SubscriptionQuantity": 12401.238,
+  "SubscriptionStart": "2012-12-03T13:28:23.5855044+01:00",
+  "ERPDiscountPercent": 9561.8339999999989,
+  "ERPDiscountAmount": 12940.286,
+  "DiscountPercent": 13128.326,
+  "DiscountAmount": 6086.228,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5932.6619999999994,
-  "EarningAmount": 1410.3,
-  "SubTotal": 8305.1,
-  "TotalPrice": 16315.604,
-  "Rights": "nihil",
-  "Rule": "dolor",
-  "ExtraField1": "qui",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "dolorum",
-  "ExtraField5": "dicta",
+  "EarningPercent": 3137.134,
+  "EarningAmount": 28854.737999999998,
+  "SubTotal": 13726.92,
+  "TotalPrice": 11912.333999999999,
+  "Rights": "itaque",
+  "Rule": "eaque",
+  "ExtraField1": "illo",
+  "ExtraField2": "fugit",
+  "ExtraField3": "quo",
+  "ExtraField4": "veniam",
+  "ExtraField5": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 753
     }
   }
 }

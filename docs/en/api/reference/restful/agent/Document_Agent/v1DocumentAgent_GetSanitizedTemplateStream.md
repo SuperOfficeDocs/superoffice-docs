@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Mraz, Hackett and Predovic",
-  "AllowPersonal": false,
-  "UiCulture": "voluptas"
+  "TemplateName": "O'Keefe-Blick",
+  "AllowPersonal": true,
+  "UiCulture": "pariatur"
 }
 ```
 

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Kemmer-Hills",
-    "ToolTip": "Laborum architecto nesciunt quam qui architecto incidunt quia.",
-    "Deleted": false,
-    "Rank": 566,
-    "Type": "reiciendis",
-    "ColorBlock": 479,
-    "IconHint": "eos",
+    "Id": 667,
+    "Name": "Ankunding, Padberg and Brekke",
+    "ToolTip": "Quo animi quo voluptatum.",
+    "Deleted": true,
+    "Rank": 726,
+    "Type": "necessitatibus",
+    "ColorBlock": 160,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2012-11-16T04:22:36.2059631+01:00",
+    "LastChanged": "1998-07-04T13:28:33.1638597+02:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Pacocha-Hudson",
-        "ToolTip": "Ea asperiores exercitationem maiores assumenda.",
+        "Id": 662,
+        "Name": "Kreiger, Davis and Lebsack",
+        "ToolTip": "Nemo dolor est similique ea molestiae.",
         "Deleted": false,
-        "Rank": 554,
-        "Type": "consequatur",
-        "ColorBlock": 353,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2019-10-27T04:22:36.2059631+01:00",
+        "Rank": 937,
+        "Type": "assumenda",
+        "ColorBlock": 299,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2019-04-02T13:28:33.1638597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Noe Schowalter"
+        "ExtraInfo": "sint",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Mr. Sean Klein IV"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "ex",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Furman Eunice Koch Sr."
+    "FullName": "Lyla Armstrong"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Thiel-Miller",
-    "ToolTip": "Laborum eaque nesciunt quis corrupti similique.",
-    "Deleted": true,
-    "Rank": 90,
-    "Type": "omnis",
-    "ColorBlock": 105,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2019-08-12T04:22:36.2059631+02:00",
+    "Id": 880,
+    "Name": "Gerhold-Sauer",
+    "ToolTip": "Vero quos veniam.",
+    "Deleted": false,
+    "Rank": 981,
+    "Type": "et",
+    "ColorBlock": 287,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2005-11-05T13:28:33.1794796+01:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Murray-McDermott",
-        "ToolTip": "Voluptatem harum neque error.",
-        "Deleted": false,
-        "Rank": 634,
-        "Type": "ad",
-        "ColorBlock": 533,
-        "IconHint": "ipsa",
+        "Id": 264,
+        "Name": "Greenholt-Hermann",
+        "ToolTip": "Quia ipsam consequatur autem.",
+        "Deleted": true,
+        "Rank": 878,
+        "Type": "vel",
+        "ColorBlock": 744,
+        "IconHint": "eligendi",
         "Selected": true,
-        "LastChanged": "2023-01-28T04:22:36.2059631+01:00",
+        "LastChanged": "2020-10-31T13:28:33.1794796+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Ms. Vilma Maci Auer III",
+        "ExtraInfo": "enim",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Dr. Annamae Yadira Luettgen Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 403
+            "FieldLength": 802
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "dolores",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Theresia McGlynn",
+    "FullName": "Mrs. Reba Rossie Schmidt V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 567
       }
     }
   }

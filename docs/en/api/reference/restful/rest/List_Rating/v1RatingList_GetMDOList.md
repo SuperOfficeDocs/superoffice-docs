@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=in
+GET /api/v1/List/Rating/MDOItems?query=quos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Spinka, West and Greenholt",
-    "ToolTip": "Voluptas aut.",
+    "Id": 774,
+    "Name": "Oberbrunner Inc and Sons",
+    "ToolTip": "Dolorem debitis iste.",
     "Deleted": false,
-    "Rank": 988,
-    "Type": "cumque",
+    "Rank": 739,
+    "Type": "deleniti",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Hammes, Kreiger and Kunde",
-        "ToolTip": "Omnis adipisci qui accusantium.",
+        "Id": 359,
+        "Name": "Kovacek Inc and Sons",
+        "ToolTip": "Ut omnis blanditiis voluptas a dolor quibusdam.",
         "Deleted": false,
-        "Rank": 215,
-        "Type": "consectetur",
+        "Rank": 706,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 657,
-        "ExtraInfo": "dolore",
-        "StyleHint": "laboriosam",
-        "FullName": "Antonio Willms",
+        "IconHint": "architecto",
+        "ColorBlock": 814,
+        "ExtraInfo": "inventore",
+        "StyleHint": "nulla",
+        "FullName": "Cecilia Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldLength": 591
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 277,
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
-    "FullName": "Dr. Geoffrey Grace Stoltenberg",
+    "IconHint": "dolore",
+    "ColorBlock": 481,
+    "ExtraInfo": "fugit",
+    "StyleHint": "architecto",
+    "FullName": "Myah White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 49
       }
     }
   }

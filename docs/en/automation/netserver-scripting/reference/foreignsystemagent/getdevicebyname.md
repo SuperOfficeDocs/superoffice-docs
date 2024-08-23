@@ -2,10 +2,10 @@
 uid: foreignsystemagent-getdevicebyname
 title: ForeignSystemAgent.GetDeviceByName event method
 description: Scripting events called on the GetDeviceByName method on the ForeignSystemAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ForeignSystemAgent.GetDeviceByName
 

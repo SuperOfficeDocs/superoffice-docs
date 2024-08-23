@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=542
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=792
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 264,
-  "ColumnId": 129,
-  "FieldDefault": "illum",
-  "FieldHeight": 843,
-  "FieldLabel": "aut",
-  "FieldLeft": 4,
-  "FieldTop": 582,
+  "UDefFieldId": 444,
+  "ColumnId": 1000,
+  "FieldDefault": "fugit",
+  "FieldHeight": 391,
+  "FieldLabel": "eum",
+  "FieldLeft": 406,
+  "FieldTop": 543,
   "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "culpa",
+  "FieldWidth": 490,
+  "FormatMask": "recusandae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 663,
-  "LabelLeft": 146,
-  "LabelTop": 940,
-  "LabelWidth": 854,
-  "LastVersionId": 44,
-  "ListTableId": 654,
+  "IsIndexed": true,
+  "LabelHeight": 144,
+  "LabelLeft": 623,
+  "LabelTop": 333,
+  "LabelWidth": 691,
+  "LastVersionId": 343,
+  "ListTableId": 370,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 96,
-  "ProgId": "enim",
+  "Page1LineNo": 326,
+  "ProgId": "sed",
   "IsReadOnly": true,
-  "ShortLabel": "eum",
-  "TabOrder": 663,
-  "TextLength": 535,
-  "Tooltip": "officia",
-  "UdefIdentity": 290,
-  "UDListDefinitionId": 958,
+  "ShortLabel": "officia",
+  "TabOrder": 120,
+  "TextLength": 156,
+  "Tooltip": "aut",
+  "UdefIdentity": 882,
+  "UDListDefinitionId": 563,
   "Justification": "Center",
-  "Version": 380,
-  "TemplateVariableName": "Hintz Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Graham-Johnson",
+  "Version": 372,
+  "TemplateVariableName": "Gaylord LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Keeling Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }

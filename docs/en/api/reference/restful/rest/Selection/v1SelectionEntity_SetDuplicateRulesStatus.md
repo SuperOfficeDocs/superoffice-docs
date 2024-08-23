@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heathcote-Cormier",
-    "DisplayName": "Muller Group",
-    "DisplayTooltip": "libero",
+    "Name": "Weissnat-Roberts",
+    "DisplayName": "Gerhold, Collins and Champlin",
+    "DisplayTooltip": "qui",
     "IsActive": true
   },
   {
-    "Name": "Heathcote-Cormier",
-    "DisplayName": "Muller Group",
-    "DisplayTooltip": "libero",
+    "Name": "Weissnat-Roberts",
+    "DisplayName": "Gerhold, Collins and Champlin",
+    "DisplayTooltip": "qui",
     "IsActive": true
   }
 ]

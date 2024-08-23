@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Beer-Gleichner",
-    "ToolTip": "Quia velit reiciendis.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "modi",
-    "ColorBlock": 748,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "1997-07-29T04:22:36.1434668+02:00",
+    "Id": 500,
+    "Name": "Barton, Ritchie and Lubowitz",
+    "ToolTip": "Harum debitis non suscipit velit quidem ut consequatur.",
+    "Deleted": false,
+    "Rank": 212,
+    "Type": "possimus",
+    "ColorBlock": 503,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2000-01-25T13:28:33.0696831+01:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Volkman-Wisoky",
-        "ToolTip": "Fuga aperiam voluptatem.",
+        "Id": 668,
+        "Name": "Stehr-Schroeder",
+        "ToolTip": "Ab cumque deserunt harum repellat provident enim aut.",
         "Deleted": true,
-        "Rank": 724,
-        "Type": "itaque",
-        "ColorBlock": 195,
-        "IconHint": "tempora",
+        "Rank": 592,
+        "Type": "sed",
+        "ColorBlock": 864,
+        "IconHint": "inventore",
         "Selected": true,
-        "LastChanged": "2007-12-15T04:22:36.1434668+01:00",
+        "LastChanged": "2008-05-29T13:28:33.0696831+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "inventore",
+        "ExtraInfo": "qui",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Dee Goyette"
+        "FullName": "Rocky Witting"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "saepe",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Berneice Jaskolski"
+    "FullName": "Ms. Jeffrey Kunde"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Kirlin Group",
-    "ToolTip": "Voluptatem a quos.",
-    "Deleted": false,
-    "Rank": 958,
-    "Type": "unde",
-    "ColorBlock": 977,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "1999-06-21T04:22:36.1434668+02:00",
+    "Id": 119,
+    "Name": "Bartoletti-Farrell",
+    "ToolTip": "Omnis hic cum.",
+    "Deleted": true,
+    "Rank": 64,
+    "Type": "excepturi",
+    "ColorBlock": 268,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2000-02-21T13:28:33.0696831+01:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Beahan Inc and Sons",
-        "ToolTip": "Nostrum ea sequi sit vel enim molestias iure.",
+        "Id": 988,
+        "Name": "Mraz, Graham and Hilpert",
+        "ToolTip": "Amet et quo natus labore ea aliquid.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "repellendus",
-        "ColorBlock": 430,
-        "IconHint": "omnis",
+        "Rank": 874,
+        "Type": "ipsa",
+        "ColorBlock": 953,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2023-01-06T04:22:36.1434668+01:00",
+        "LastChanged": "2002-02-28T13:28:33.0696831+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "id",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Will Mueller",
+        "FullName": "Dr. Demond Jovany Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "iusto",
+    "ExtraInfo": "quia",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Carrie Reichel II",
+    "FullName": "Daren Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldType": "System.String",
+        "FieldLength": 130
       }
     }
   }

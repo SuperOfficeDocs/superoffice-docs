@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dibbert, Kulas and Rutherford"
+  "TableName": "O'Kon, Kulas and Larson"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "voluptatibus",
-  "Inserts": 330,
-  "Updates": 360,
-  "Deletes": 295,
+  "Message": "ipsa",
+  "Inserts": 42,
+  "Updates": 890,
+  "Deletes": 224,
   "RowStatus": [
     {
-      "PrimaryKey": 525,
+      "PrimaryKey": 574,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ullam",
-        "distinctio"
+        "asperiores",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 460
         }
       }
     },
     {
-      "PrimaryKey": 525,
+      "PrimaryKey": 574,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ullam",
-        "distinctio"
+        "asperiores",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 460
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

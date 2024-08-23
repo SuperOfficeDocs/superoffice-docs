@@ -3,9 +3,9 @@ uid: importphoneurlsemail
 title: importphoneurlsemail
 keywords: mdoprovider mdo provider importphoneurlsemail
 description: Import phone/url/email values - Add, Replace, Skip
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "importphoneurlsemail" MDO List

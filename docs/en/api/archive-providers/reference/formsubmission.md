@@ -3,9 +3,9 @@ uid: FormSubmission
 title: FormSubmission
 description: Archive provider for listing form submissions
 keywords: FormSubmission archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FormSubmission"
@@ -474,7 +474,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/personBusiness,person/personUdef/SuperOffice:2,contact/postAddress/wgs84longitude
+GET /api/v1/archive/FormSubmission?$select=person/personExtra/x_person_shorttext_list,contact/LastCompletedTicket,person/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

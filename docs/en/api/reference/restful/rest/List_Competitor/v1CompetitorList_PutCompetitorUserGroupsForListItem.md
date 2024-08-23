@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Kuvalis, Koepp and Grant",
-    "ToolTip": "Porro veniam deleniti veritatis asperiores magni provident.",
-    "Deleted": false,
-    "Rank": 222,
-    "Type": "et",
-    "ColorBlock": 433,
-    "IconHint": "quo",
+    "Id": 188,
+    "Name": "McDermott-McCullough",
+    "ToolTip": "Placeat asperiores blanditiis aut et.",
+    "Deleted": true,
+    "Rank": 555,
+    "Type": "nihil",
+    "ColorBlock": 517,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2006-07-24T04:22:35.8465939+02:00",
+    "LastChanged": "2016-12-12T13:28:32.7103906+01:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Russel Group",
-        "ToolTip": "Provident libero iste molestiae id commodi et quo.",
+        "Id": 975,
+        "Name": "Miller-Oberbrunner",
+        "ToolTip": "Quasi et ducimus.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "hic",
-        "ColorBlock": 68,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2003-01-19T04:22:35.8465939+01:00",
+        "Rank": 892,
+        "Type": "aut",
+        "ColorBlock": 301,
+        "IconHint": "eaque",
+        "Selected": false,
+        "LastChanged": "2011-01-22T13:28:32.7103906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "beatae",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Caroline Grimes"
+        "FullName": "Miss Westley Champlin II"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Miss Jordy Marquardt"
+    "ExtraInfo": "est",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Sister Reichel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Goyette-Turcotte",
-    "ToolTip": "Nam et.",
-    "Deleted": false,
-    "Rank": 12,
-    "Type": "odit",
-    "ColorBlock": 900,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2014-07-23T04:22:35.8465939+02:00",
+    "Id": 441,
+    "Name": "Zemlak LLC",
+    "ToolTip": "Et iste aspernatur nesciunt quia illum optio corporis.",
+    "Deleted": true,
+    "Rank": 370,
+    "Type": "dolor",
+    "ColorBlock": 224,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "1998-01-29T13:28:32.7103906+01:00",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Hickle LLC",
-        "ToolTip": "Earum at ratione.",
+        "Id": 574,
+        "Name": "Carroll, Jast and Eichmann",
+        "ToolTip": "Aut molestias.",
         "Deleted": false,
-        "Rank": 540,
-        "Type": "non",
-        "ColorBlock": 307,
-        "IconHint": "error",
-        "Selected": true,
-        "LastChanged": "2020-01-21T04:22:35.8465939+01:00",
+        "Rank": 301,
+        "Type": "dolor",
+        "ColorBlock": 157,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2008-01-11T13:28:32.7103906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "culpa",
-        "Hidden": false,
-        "FullName": "Miss Prudence Tania D'Amore",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Andreane Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldType": "System.String",
+            "FieldLength": 138
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Ms. Vanessa McClure DVM",
+    "ExtraInfo": "nemo",
+    "StyleHint": "doloremque",
+    "Hidden": true,
+    "FullName": "Dr. Hoyt Bernie Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 70
       }
     }
   }

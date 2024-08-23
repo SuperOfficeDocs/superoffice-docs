@@ -2,10 +2,10 @@
 uid: listagent-savefromlistdefinition
 title: ListAgent.SaveFromListDefinition event method
 description: Scripting events called on the SaveFromListDefinition method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.SaveFromListDefinition
 

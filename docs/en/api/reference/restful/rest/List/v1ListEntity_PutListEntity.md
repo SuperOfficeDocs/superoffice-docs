@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Little LLC",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 90,
+  "Id": 823,
+  "Name": "Wehner LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 453,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "in",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Heidenreich LLC",
-  "Tooltip": "exercitationem",
+  "Id": 289,
+  "Name": "Emmerich-Eichmann",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 933,
+  "Rank": 687,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   },
   "_Links": {

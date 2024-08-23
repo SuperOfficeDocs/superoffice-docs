@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 675,
-  "CurrencyId": 648
+  "QuoteConnectionId": 555,
+  "CurrencyId": 2
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 21,
-    "ERPPriceListKey": "voluptatibus",
-    "QuoteConnectionId": 998,
-    "Name": "Huel Inc and Sons",
-    "Description": "Function-based non-volatile frame",
-    "Currency": "autem",
-    "CurrencyName": "Dare-Walter",
-    "ValidFrom": "2024-01-08T04:22:27.4247427+01:00",
-    "ValidTo": "2021-03-16T04:22:27.4247427+01:00",
+    "PriceListId": 241,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 587,
+    "Name": "Keeling, Glover and Kling",
+    "Description": "Diverse holistic interface",
+    "Currency": "cupiditate",
+    "CurrencyName": "Ondricka LLC",
+    "ValidFrom": "2017-11-03T13:28:23.5698866+01:00",
+    "ValidTo": "2004-02-22T13:28:23.5698866+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 471
       }
     }
   }

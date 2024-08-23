@@ -2,10 +2,10 @@
 uid: favouriteagent-isfavourite
 title: FavouriteAgent.IsFavourite event method
 description: Scripting events called on the IsFavourite method on the FavouriteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FavouriteAgent.IsFavourite
 

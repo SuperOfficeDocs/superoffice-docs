@@ -2,10 +2,10 @@
 uid: viewstateagent-deletehistory
 title: ViewStateAgent.DeleteHistory event method
 description: Scripting events called on the DeleteHistory method on the ViewStateAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ViewStateAgent.DeleteHistory
 

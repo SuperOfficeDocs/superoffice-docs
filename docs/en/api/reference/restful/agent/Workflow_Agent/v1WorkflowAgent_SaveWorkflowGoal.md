@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 960,
-  "WorkflowId": 298,
+  "WorkflowGoalId": 326,
+  "WorkflowId": 57,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Runolfsdottir-Schmidt",
-      "Description": "Face to face methodical neural-net",
-      "Rank": 561,
+      "Name": "Turcotte LLC",
+      "Description": "Upgradable non-volatile frame",
+      "Rank": 395,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runolfsdottir-Schmidt",
-      "Description": "Face to face methodical neural-net",
-      "Rank": 561,
+      "Name": "Turcotte LLC",
+      "Description": "Upgradable non-volatile frame",
+      "Rank": 395,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 664,
-  "WorkflowId": 523,
+  "WorkflowGoalId": 443,
+  "WorkflowId": 339,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Watsica, Hahn and Corkery",
-      "Description": "Ameliorated bi-directional encoding",
-      "Rank": 304,
+      "Name": "Nienow Group",
+      "Description": "Object-based background pricing structure",
+      "Rank": 974,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Watsica, Hahn and Corkery",
-      "Description": "Ameliorated bi-directional encoding",
-      "Rank": 304,
+      "Name": "Nienow Group",
+      "Description": "Object-based background pricing structure",
+      "Rank": 974,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 794
     }
   }
 }

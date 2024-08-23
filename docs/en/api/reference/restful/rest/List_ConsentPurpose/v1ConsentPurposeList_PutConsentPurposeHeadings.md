@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 759,
-    "Name": "Tromp-Parisian",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 685,
-    "UdListDefinitionId": 563
+    "HeadingId": 237,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "Rank": 543,
+    "UdListDefinitionId": 782
   },
   {
-    "HeadingId": 759,
-    "Name": "Tromp-Parisian",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 685,
-    "UdListDefinitionId": 563
+    "HeadingId": 237,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "Rank": 543,
+    "UdListDefinitionId": 782
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 149,
-    "Name": "Wiza LLC",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 688,
-    "UdListDefinitionId": 680,
+    "HeadingId": 135,
+    "Name": "Goodwin Group",
+    "Tooltip": "ducimus",
+    "Deleted": true,
+    "Rank": 778,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 199,
-  "TemplateName": "Jenkins-Hilll",
+  "SelectionId": 163,
+  "TemplateName": "Lehner, Roberts and Langworth",
   "UseContacts": false,
-  "OrderBy": "est"
+  "OrderBy": "minus"
 }
 ```
 

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 237,
-  "Name": "Abbott Inc and Sons",
-  "Tooltip": "accusantium",
+  "HeadingId": 672,
+  "Name": "O'Connell, Shanahan and Skiles",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "Rank": 762,
-  "UdListDefinitionId": 593
+  "Rank": 796,
+  "UdListDefinitionId": 837
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Muller, Blick and Denesik",
-  "Tooltip": "tempora",
+  "HeadingId": 411,
+  "Name": "Schowalter, Cummerata and Auer",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 573,
-  "UdListDefinitionId": 218,
+  "Rank": 415,
+  "UdListDefinitionId": 333,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 775
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 569,
-    "Section": "perferendis",
-    "Key": "eveniet",
-    "Name": "Hahn Group",
+    "PrefDescId": 423,
+    "Section": "dolores",
+    "Key": "voluptate",
+    "Name": "Dickinson Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse holistic Graphic Interface",
-    "IsBuiltin": true,
-    "TableName": "Wilderman, Pacocha and Emmerich",
-    "UserDefinedListId": 854,
-    "Rank": 962,
-    "SubGroup": "temporibus",
-    "MinLevel": 891,
-    "MaxValue": 862,
-    "MinValue": 474,
-    "RequiredLicense": "aliquid",
+    "Description": "Customer-focused static Graphical User Interface",
+    "IsBuiltin": false,
+    "TableName": "Orn LLC",
+    "UserDefinedListId": 310,
+    "Rank": 345,
+    "SubGroup": "numquam",
+    "MinLevel": 106,
+    "MaxValue": 844,
+    "MinValue": 300,
+    "RequiredLicense": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 499
       }
     }
   }

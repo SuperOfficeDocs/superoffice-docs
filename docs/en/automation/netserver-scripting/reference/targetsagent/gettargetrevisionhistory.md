@@ -2,10 +2,10 @@
 uid: targetsagent-gettargetrevisionhistory
 title: TargetsAgent.GetTargetRevisionHistory event method
 description: Scripting events called on the GetTargetRevisionHistory method on the TargetsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TargetsAgent.GetTargetRevisionHistory
 

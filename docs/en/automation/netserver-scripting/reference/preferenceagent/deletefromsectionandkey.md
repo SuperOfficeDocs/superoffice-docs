@@ -2,10 +2,10 @@
 uid: preferenceagent-deletefromsectionandkey
 title: PreferenceAgent.DeleteFromSectionAndKey event method
 description: Scripting events called on the DeleteFromSectionAndKey method on the PreferenceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # PreferenceAgent.DeleteFromSectionAndKey
 

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 190,
-  "PrefDescId": 515,
-  "PrefValue": "sit",
-  "PrefShowValue": "nisi",
-  "Description": "Reverse-engineered directional projection",
+  "PrefDescLineId": 668,
+  "PrefDescId": 502,
+  "PrefValue": "amet",
+  "PrefShowValue": "dolor",
+  "Description": "Synergized uniform process improvement",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 737
     }
   }
 }

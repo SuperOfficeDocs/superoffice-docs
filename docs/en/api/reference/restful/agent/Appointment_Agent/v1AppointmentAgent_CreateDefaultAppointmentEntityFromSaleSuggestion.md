@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 765,
-  "SaleId": 961,
+  "SuggestedAppointmentId": 127,
+  "SaleId": 579,
   "CreateNow": false,
-  "OwnerId": 793
+  "OwnerId": 825
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-01-17T04:22:25.8715965+01:00",
-  "AppointmentId": 344,
-  "Description": "Visionary 5th generation installation",
-  "Title": "et",
-  "Agenda": "et",
-  "InternalNotes": "rem",
-  "StartDate": "2018-11-04T04:22:25.8715965+01:00",
-  "EndDate": "2009-01-21T04:22:25.8715965+01:00",
+  "CreatedDate": "2012-09-25T13:28:21.6950416+02:00",
+  "AppointmentId": 791,
+  "Description": "Pre-emptive real-time solution",
+  "Title": "neque",
+  "Agenda": "laborum",
+  "InternalNotes": "eveniet",
+  "StartDate": "2015-04-15T13:28:21.6950416+02:00",
+  "EndDate": "2019-03-22T13:28:21.6950416+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 301,
+  "MotherId": 119,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-02-15T04:22:25.8715965+01:00",
+  "UpdatedDate": "1998-05-12T13:28:21.6950416+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 39,
+  "ActiveLinks": 202,
   "Links": [
     {
-      "EntityName": "Purdy-Howe",
-      "Id": 29,
-      "Description": "Intuitive explicit orchestration",
-      "ExtraInfo": "recusandae",
-      "LinkId": 466,
+      "EntityName": "Stark LLC",
+      "Id": 380,
+      "Description": "User-friendly reciprocal task-force",
+      "ExtraInfo": "error",
+      "LinkId": 171,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 30
+          "FieldLength": 546
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolor",
+  "AlarmLeadTime": "quod",
   "HasAlarm": false,
-  "ColorIndex": 761,
+  "ColorIndex": 488,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "et",
-  "Location": "eos",
-  "RejectCounter": 543,
+  "IsAlldayEvent": true,
+  "LagTime": "est",
+  "LeadTime": "officiis",
+  "Location": "aliquam",
+  "RejectCounter": 506,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 861,
-      "PersonId": 538,
-      "ContactId": 529,
-      "EmailId": 946,
-      "SendEmail": false,
+      "AssociateId": 184,
+      "PersonId": 121,
+      "ContactId": 879,
+      "EmailId": 866,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sonny_ondricka@thompson.biz",
-      "Description": "Versatile maximized superstructure"
+      "EmailAddress": "sofia@boganbogisich.info",
+      "Description": "Centralized analyzing implementation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-02-13T04:22:25.8715965+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2020-02-21T13:28:21.6950416+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 516,
+  "PreferredTZLocation": 9,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 708,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 547,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "quibusdam",
   "UserDefinedFields": {
-    "SuperOffice:1": "155163874",
-    "SuperOffice:2": "1731366385"
+    "SuperOffice:1": "33440794",
+    "SuperOffice:2": "Camille Dooley"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "est"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "qui"
+    "CustomFields1": "dolores",
+    "CustomFields2": "odio"
   },
-  "PublishEventDate": "2008-10-25T04:22:25.8715965+02:00",
-  "PublishTo": "2009-01-06T04:22:25.8715965+01:00",
-  "PublishFrom": "2013-02-22T04:22:25.8715965+01:00",
+  "PublishEventDate": "1997-05-08T13:28:21.7106646+02:00",
+  "PublishTo": "1999-09-27T13:28:21.7106646+02:00",
+  "PublishFrom": "2009-11-16T13:28:21.7106646+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 355,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 154
         }
       }
     },
     {
-      "VisibleId": 355,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 154
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldLength": 53
     }
   }
 }

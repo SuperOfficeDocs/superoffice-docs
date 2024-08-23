@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 87,
-      "Id": 520,
-      "HistoryName": "Kuhlman-Kunde",
-      "HistoryId": 129,
-      "AssociateId": 594,
-      "Name": "Klein, Reichert and Bartell",
-      "ItemInfo": "ad"
+      "Rank": 67,
+      "Id": 408,
+      "HistoryName": "Spencer LLC",
+      "HistoryId": 108,
+      "AssociateId": 287,
+      "Name": "Deckow, Fadel and Thompson",
+      "ItemInfo": "laboriosam"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 754,
-    "Id": 458,
-    "HistoryName": "Towne-Sawayn",
-    "HistoryId": 550,
-    "AssociateId": 249,
-    "Name": "Lynch, Mertz and Gleason",
-    "ItemInfo": "rerum",
+    "Rank": 481,
+    "Id": 962,
+    "HistoryName": "Green, Stracke and Jacobs",
+    "HistoryId": 851,
+    "AssociateId": 811,
+    "Name": "Shields Inc and Sons",
+    "ItemInfo": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

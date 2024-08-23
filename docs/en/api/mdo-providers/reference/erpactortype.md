@@ -3,9 +3,9 @@ uid: erpactortype
 title: erpactortype
 keywords: mdoprovider mdo provider erpactortype
 description: 
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "erpactortype" MDO List

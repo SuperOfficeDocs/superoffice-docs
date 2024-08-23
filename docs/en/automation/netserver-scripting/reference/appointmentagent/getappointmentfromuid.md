@@ -2,10 +2,10 @@
 uid: appointmentagent-getappointmentfromuid
 title: AppointmentAgent.GetAppointmentFromUID event method
 description: Scripting events called on the GetAppointmentFromUID method on the AppointmentAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AppointmentAgent.GetAppointmentFromUID
 

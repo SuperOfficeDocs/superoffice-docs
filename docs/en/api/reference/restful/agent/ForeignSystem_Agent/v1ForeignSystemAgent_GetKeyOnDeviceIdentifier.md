@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "DuBuque-Borer",
-  "DeviceName": "Emard Group",
-  "DeviceIdentifier": "repudiandae",
-  "KeyName": "Parisian Inc and Sons",
-  "TableName": "Torphy-Lindgren",
-  "RecordId": 615
+  "ApplicationName": "Willms Inc and Sons",
+  "DeviceName": "Stokes Group",
+  "DeviceIdentifier": "nobis",
+  "KeyName": "Cole Inc and Sons",
+  "TableName": "Mayer LLC",
+  "RecordId": 901
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "officiis",
-  "Value": "minima",
-  "RecordId": 172,
-  "CreatedDate": "1997-09-30T04:22:26.8755249+02:00",
-  "UpdatedDate": "2000-06-20T04:22:26.8755249+02:00",
-  "UpdatedBy": "exercitationem",
-  "CreatedBy": "doloribus",
-  "TableName": "Kessler-Collins",
+  "Key": "et",
+  "Value": "voluptates",
+  "RecordId": 848,
+  "CreatedDate": "2002-03-22T13:28:22.8510314+01:00",
+  "UpdatedDate": "2002-01-17T13:28:22.8510314+01:00",
+  "UpdatedBy": "asperiores",
+  "CreatedBy": "eius",
+  "TableName": "Hoeger, Lueilwitz and Oberbrunner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 39
     }
   }
 }

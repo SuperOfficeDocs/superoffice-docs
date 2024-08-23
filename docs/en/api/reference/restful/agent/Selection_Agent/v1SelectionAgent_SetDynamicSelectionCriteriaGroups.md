@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 496,
+  "SelectionId": 264,
   "Criteria": [
     {
-      "Name": "Baumbach, Cruickshank and Wolff",
-      "Description": "Horizontal solution-oriented focus group",
-      "Rank": 116,
+      "Name": "Farrell, Kuphal and Bernhard",
+      "Description": "Right-sized clear-thinking time-frame",
+      "Rank": 606,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Baumbach, Cruickshank and Wolff",
-      "Description": "Horizontal solution-oriented focus group",
-      "Rank": 116,
+      "Name": "Farrell, Kuphal and Bernhard",
+      "Description": "Right-sized clear-thinking time-frame",
+      "Rank": 606,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West, Wintheiser and Olson",
-    "Description": "Decentralized cohesive secured line",
-    "Rank": 78,
+    "Name": "Stamm-Herzog",
+    "Description": "Face to face user-facing data-warehouse",
+    "Rank": 682,
     "Restrictions": [
       {
-        "Name": "Witting-Murazik",
-        "Operator": "exercitationem",
+        "Name": "Pouros, Casper and Kertzmann",
+        "Operator": "sed",
         "Values": [
-          "labore",
-          "ipsa"
+          "amet",
+          "mollitia"
         ],
         "DisplayValues": [
-          "nam",
-          "iusto"
+          "facilis",
+          "iste"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 798,
+        "InterParenthesis": 735,
         "InterOperator": "And",
-        "UniqueHash": 607
+        "UniqueHash": 652
       }
     ]
   },
   {
-    "Name": "West, Wintheiser and Olson",
-    "Description": "Decentralized cohesive secured line",
-    "Rank": 78,
+    "Name": "Stamm-Herzog",
+    "Description": "Face to face user-facing data-warehouse",
+    "Rank": 682,
     "Restrictions": [
       {
-        "Name": "Witting-Murazik",
-        "Operator": "exercitationem",
+        "Name": "Pouros, Casper and Kertzmann",
+        "Operator": "sed",
         "Values": [
-          "labore",
-          "ipsa"
+          "amet",
+          "mollitia"
         ],
         "DisplayValues": [
-          "nam",
-          "iusto"
+          "facilis",
+          "iste"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 798,
+        "InterParenthesis": 735,
         "InterOperator": "And",
-        "UniqueHash": 607
+        "UniqueHash": 652
       }
     ]
   }

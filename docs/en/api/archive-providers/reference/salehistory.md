@@ -3,9 +3,9 @@ uid: SaleHistory
 title: SaleHistory
 description: Sale histories. Contains all changes to the sale records over time.
 keywords: SaleHistory archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleHistory"
@@ -207,7 +207,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=amountWeighted,associate/contactId,person/birthYear
+GET /api/v1/archive/SaleHistory?$select=person/birthDay,contact/country,contact/updatedDate,contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

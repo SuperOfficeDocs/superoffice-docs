@@ -2,10 +2,10 @@
 uid: audienceagent-saveaudiencelayoutentity
 title: AudienceAgent.SaveAudienceLayoutEntity event method
 description: Scripting events called on the SaveAudienceLayoutEntity method on the AudienceAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # AudienceAgent.SaveAudienceLayoutEntity
 

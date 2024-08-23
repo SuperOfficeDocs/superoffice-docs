@@ -2,10 +2,10 @@
 uid: listagent-deleteticketstatusentity
 title: ListAgent.DeleteTicketStatusEntity event method
 description: Scripting events called on the DeleteTicketStatusEntity method on the ListAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ListAgent.DeleteTicketStatusEntity
 

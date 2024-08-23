@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 469,
-    "ColumnId": 883,
-    "FieldDefault": "nam",
-    "FieldHeight": 681,
-    "FieldLabel": "fuga",
-    "FieldLeft": 317,
-    "FieldTop": 628,
+    "UDefFieldId": 378,
+    "ColumnId": 30,
+    "FieldDefault": "et",
+    "FieldHeight": 2,
+    "FieldLabel": "harum",
+    "FieldLeft": 22,
+    "FieldTop": 416,
     "FieldType": "Checkbox",
-    "FieldWidth": 685,
-    "FormatMask": "repudiandae",
-    "HideLabel": false,
+    "FieldWidth": 474,
+    "FormatMask": "provident",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 949,
-    "LabelLeft": 365,
-    "LabelTop": 474,
-    "LabelWidth": 494,
-    "LastVersionId": 947,
-    "ListTableId": 511,
-    "IsMandatory": true,
+    "LabelHeight": 387,
+    "LabelLeft": 924,
+    "LabelTop": 700,
+    "LabelWidth": 211,
+    "LastVersionId": 378,
+    "ListTableId": 348,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 824,
-    "ProgId": "facere",
-    "IsReadOnly": true,
-    "ShortLabel": "nisi",
-    "TabOrder": 544,
-    "TextLength": 662,
-    "Tooltip": "autem",
-    "UdefIdentity": 4,
-    "UDListDefinitionId": 344,
+    "Page1LineNo": 658,
+    "ProgId": "aspernatur",
+    "IsReadOnly": false,
+    "ShortLabel": "minus",
+    "TabOrder": 355,
+    "TextLength": 647,
+    "Tooltip": "nulla",
+    "UdefIdentity": 62,
+    "UDListDefinitionId": 919,
     "Justification": "Center",
-    "Version": 39,
-    "TemplateVariableName": "Eichmann, Mills and Altenwerth",
-    "HasBeenPublished": false,
-    "MdoListName": "O'Reilly LLC",
+    "Version": 570,
+    "TemplateVariableName": "Fadel LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Glover-Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 628
       }
     }
   }

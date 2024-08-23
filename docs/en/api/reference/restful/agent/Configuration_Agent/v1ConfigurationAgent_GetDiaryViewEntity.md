@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=407
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=772
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 705,
-  "Name": "Larson-Leffler",
-  "Tooltip": "provident",
-  "VisibleColumns": 290,
-  "Rank": 27,
-  "AssocId": 414,
+  "DiaryViewId": 673,
+  "Name": "Larson, Dooley and Nolan",
+  "Tooltip": "harum",
+  "VisibleColumns": 173,
+  "Rank": 285,
+  "AssocId": 107,
   "AssociateList": [
     {
-      "Id": 342,
-      "Name": "Marvin, O'Keefe and Walsh",
-      "ToolTip": "Maxime aut quisquam.",
-      "Deleted": true,
-      "Rank": 380,
-      "Type": "eos",
-      "ColorBlock": 20,
-      "IconHint": "culpa",
+      "Id": 162,
+      "Name": "Buckridge-Harber",
+      "ToolTip": "Soluta pariatur inventore sit ullam eaque iusto.",
+      "Deleted": false,
+      "Rank": 621,
+      "Type": "provident",
+      "ColorBlock": 868,
+      "IconHint": "quod",
       "Selected": false,
-      "LastChanged": "2010-05-22T04:22:26.1684694+02:00",
+      "LastChanged": "2000-08-30T13:28:22.17931+02:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "et",
-      "StyleHint": "eos",
+      "StyleHint": "soluta",
       "Hidden": true,
-      "FullName": "Pearline Bogan",
+      "FullName": "Brook Lessie Turcotte DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 987
+          "FieldLength": 235
         }
       }
     }
   ],
-  "TzLocationId": 568,
+  "TzLocationId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

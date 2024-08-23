@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 851
+  "DocumentId": 345
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 28,
-      "ContactName": "Jones, Purdy and Fritsch",
-      "PersonId": 549,
-      "PersonName": "Oberbrunner Group",
-      "AssociateId": 729,
-      "Address": "officia",
-      "EmailId": 725,
+      "ContactId": 205,
+      "ContactName": "Douglas Inc and Sons",
+      "PersonId": 895,
+      "PersonName": "Littel-Mayert",
+      "AssociateId": 692,
+      "Address": "qui",
+      "EmailId": 472,
       "DuplicatePersonIds": [
-        555,
-        63
+        880,
+        896
       ],
-      "Name": "Wolff Inc and Sons",
+      "Name": "Schinner, Crona and Turcotte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 187
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 199,
-      "ContactName": "Fahey LLC",
-      "PersonId": 74,
-      "PersonName": "Lesch-Daugherty",
-      "AssociateId": 49,
-      "Address": "quo",
-      "EmailId": 863,
+      "ContactId": 55,
+      "ContactName": "Simonis Inc and Sons",
+      "PersonId": 451,
+      "PersonName": "Ondricka, Conroy and Marquardt",
+      "AssociateId": 437,
+      "Address": "voluptate",
+      "EmailId": 775,
       "DuplicatePersonIds": [
-        831,
-        473
+        583,
+        565
       ],
-      "Name": "Nikolaus, O'Connell and Rippin",
+      "Name": "Bailey Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 587
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 606,
-      "ContactName": "Hahn LLC",
-      "PersonId": 633,
-      "PersonName": "Pagac-Hayes",
-      "AssociateId": 546,
-      "Address": "maiores",
-      "EmailId": 627,
+      "ContactId": 508,
+      "ContactName": "Hodkiewicz-Haag",
+      "PersonId": 462,
+      "PersonName": "Tillman, Labadie and McKenzie",
+      "AssociateId": 18,
+      "Address": "numquam",
+      "EmailId": 940,
       "DuplicatePersonIds": [
-        581,
-        992
+        940,
+        519
       ],
-      "Name": "Roob, Davis and Jewess",
+      "Name": "Friesen Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 194
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "quia",
+  "Subject": "veritatis",
+  "HTMLBody": "distinctio",
   "From": null,
-  "Sent": "2018-07-27T04:22:26.7022333+02:00",
-  "Size": 9,
+  "Sent": "2006-08-28T13:28:22.6479526+02:00",
+  "Size": 305,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "inventore",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "consequatur",
+  "PlainBody": "tenetur",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 99,
+  "ServerId": 411,
   "Attachments": [
     {
-      "Description": "Multi-channelled uniform concept",
-      "Filename": "asperiores",
-      "Size": 29,
-      "Type": "perferendis",
-      "Encoding": "blanditiis",
-      "Id": "vero",
-      "Disposition": "sed",
+      "Description": "Organic transitional intranet",
+      "Filename": "labore",
+      "Size": 930,
+      "Type": "hic",
+      "Encoding": "in",
+      "Id": "similique",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ferry-O'Keefe",
+      "Name": "Fisher-Medhurst",
       "Values": [
-        "porro",
-        "illum"
+        "nemo",
+        "nemo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 750
         }
       }
     },
     {
-      "Name": "Ferry-O'Keefe",
+      "Name": "Fisher-Medhurst",
       "Values": [
-        "porro",
-        "illum"
+        "nemo",
+        "nemo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 750
         }
       }
     }
   ],
-  "FolderName": "Windler-Tremblay",
-  "EmailItemId": 322,
-  "AccountId": 403,
-  "ReceivedAt": "1998-01-14T04:22:26.7022333+01:00",
+  "FolderName": "Hyatt-Johnston",
+  "EmailItemId": 516,
+  "AccountId": 505,
+  "ReceivedAt": "2016-09-17T13:28:22.6479526+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-05-25T04:22:26.7022333+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2018-01-18T13:28:22.6479526+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

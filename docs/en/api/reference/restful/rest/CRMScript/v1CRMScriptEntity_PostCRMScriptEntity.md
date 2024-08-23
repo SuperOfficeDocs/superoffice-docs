@@ -59,8 +59,15 @@ The CRMScriptEntity to be saved.
 | Name | String | A description of this script |
 | Description | String | Optional description of what this script is used for. |
 | IncludeId | String | A unique name used for including this script in another |
+| AccessKey | String | Access key used to run this script on the customer pages |
 | HierarchyId | Integer | The script is inside this hierarchy folder |
 | Source | String | The script |
+| SourceCode | String | Contains the source code of the script |
+| ScriptType | String | The type/language of this script |
+| HtmlOutput | Integer | True if this script will return HTML output |
+| Includes | Array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | Array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | String | Registered when  in UTC. |
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
@@ -83,8 +90,15 @@ OK
 | Name | string | A description of this script |
 | Description | string | Optional description of what this script is used for. |
 | IncludeId | string | A unique name used for including this script in another |
+| AccessKey | string | Access key used to run this script on the customer pages |
 | HierarchyId | int32 | The script is inside this hierarchy folder |
 | Source | string | The script |
+| SourceCode | string | Contains the source code of the script |
+| ScriptType | string | The type/language of this script |
+| HtmlOutput | int32 | True if this script will return HTML output |
+| Includes | array | The unique ids of all depencies of this script (all resolved includes) |
+| SourceMaps | array | The source maps for this script |
+| ValidationResult | CRMScriptResult | The result of a validation of a TypeScript when saving |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -99,21 +113,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 909,
-  "UniqueIdentifier": "magnam",
-  "Name": "Schinner LLC",
-  "Description": "Expanded client-driven encryption",
-  "IncludeId": "labore",
-  "HierarchyId": 530,
-  "Source": "recusandae",
-  "Registered": "2001-01-28T04:22:34.8589991+01:00",
-  "RegisteredAssociateId": 851,
-  "Updated": "1997-04-02T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 964
+  "EjscriptId": 189,
+  "UniqueIdentifier": "tenetur",
+  "Name": "Schmitt-Spinka",
+  "Description": "Pre-emptive upward-trending support",
+  "IncludeId": "et",
+  "AccessKey": "aut",
+  "HierarchyId": 31,
+  "Source": "nesciunt",
+  "SourceCode": "maiores",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 631,
+  "Includes": [
+    246,
+    635
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 555,
+      "LineNumberTo": 67,
+      "Delta": 60,
+      "IncludeId": "nesciunt",
+      "IncludedFrom": [
+        "fugiat",
+        "pariatur"
+      ]
+    },
+    {
+      "LineNumberFrom": 555,
+      "LineNumberTo": 67,
+      "Delta": 60,
+      "IncludeId": "nesciunt",
+      "IncludedFrom": [
+        "fugiat",
+        "pariatur"
+      ]
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2015-01-24T13:28:31.53865+01:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2016-01-01T13:28:31.53865+01:00",
+  "UpdatedAssociateId": 215
 }
 ```
 
@@ -124,28 +169,57 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 728,
-  "UniqueIdentifier": "numquam",
-  "Name": "O'Connell Group",
-  "Description": "Proactive full-range local area network",
-  "IncludeId": "quo",
-  "HierarchyId": 423,
-  "Source": "a",
-  "Registered": "1997-03-19T04:22:34.8589991+01:00",
-  "RegisteredAssociateId": 920,
-  "Updated": "2002-04-03T04:22:34.8589991+02:00",
-  "UpdatedAssociateId": 231,
+  "EjscriptId": 176,
+  "UniqueIdentifier": "debitis",
+  "Name": "Kemmer LLC",
+  "Description": "Exclusive multi-state contingency",
+  "IncludeId": "dolorum",
+  "AccessKey": "ipsum",
+  "HierarchyId": 140,
+  "Source": "tempora",
+  "SourceCode": "est",
+  "ScriptType": "CRMScript",
+  "HtmlOutput": 712,
+  "Includes": [
+    653,
+    294
+  ],
+  "SourceMaps": [
+    {
+      "LineNumberFrom": 61,
+      "LineNumberTo": 682,
+      "Delta": 954,
+      "IncludeId": "non",
+      "IncludedFrom": [
+        "consequatur",
+        "accusamus"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 348
+        }
+      }
+    }
+  ],
+  "ValidationResult": null,
+  "Registered": "2013-07-13T13:28:31.53865+02:00",
+  "RegisteredAssociateId": 90,
+  "Updated": "1999-01-14T13:28:31.53865+01:00",
+  "UpdatedAssociateId": 619,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

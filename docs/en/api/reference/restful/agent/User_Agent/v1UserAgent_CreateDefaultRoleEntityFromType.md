@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 788,
-  "Name": "Gutmann Group",
-  "Tooltip": "occaecati",
+  "RoleId": 330,
+  "Name": "Hilpert, Bins and Ratke",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 671,
-  "Rank": 71,
-  "Created": "1999-08-24T04:22:28.0850044+02:00",
-  "UseCategories": 626,
+  "Deleted": 961,
+  "Rank": 501,
+  "Created": "2002-01-16T13:28:24.1635033+01:00",
+  "UseCategories": 736,
   "CreatedBy": null,
-  "Updated": "1998-12-18T04:22:28.0850044+01:00",
+  "Updated": "2017-08-13T13:28:24.1635033+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

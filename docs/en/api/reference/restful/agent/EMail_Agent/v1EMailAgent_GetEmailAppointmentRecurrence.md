@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 392
+  "MailItemId": 695
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 821,
-  "StartDate": "2014-10-06T04:22:26.7022333+02:00",
-  "EndDate": "2002-07-10T04:22:26.7022333+02:00",
-  "RecurrenceCounter": 505,
+  "RecurrenceId": 934,
+  "StartDate": "2019-01-10T13:28:22.6635746+01:00",
+  "EndDate": "2014-03-12T13:28:22.6635746+01:00",
+  "RecurrenceCounter": 131,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-01-08T04:22:26.7022333+01:00",
-      "IsConflict": false,
-      "Description": "Virtual client-driven productivity",
-      "DescriptionStyleHint": "Seamless logistical process improvement",
-      "Tooltip": "id"
+      "Date": "2020-06-11T13:28:22.6635746+02:00",
+      "IsConflict": true,
+      "Description": "Ergonomic optimal circuit",
+      "DescriptionStyleHint": "Stand-alone bottom-line circuit",
+      "Tooltip": "voluptatum"
     },
     {
-      "Date": "2004-01-08T04:22:26.7022333+01:00",
-      "IsConflict": false,
-      "Description": "Virtual client-driven productivity",
-      "DescriptionStyleHint": "Seamless logistical process improvement",
-      "Tooltip": "id"
+      "Date": "2020-06-11T13:28:22.6635746+02:00",
+      "IsConflict": true,
+      "Description": "Ergonomic optimal circuit",
+      "DescriptionStyleHint": "Stand-alone bottom-line circuit",
+      "Tooltip": "voluptatum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

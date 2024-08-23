@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Aug 1997 04:22:35 G8T
+Last-Modified: Sun, 28 Dec 1997 13:28:32 G12T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Tue, 05 Aug 1997 04:22:35 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "voluptas",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Tue, 05 Aug 1997 04:22:35 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-12-20T04:22:35.3772322+01:00",
-  "Amount": 3795.274,
-  "SaleId": 908,
-  "Earning": 29174.406,
-  "EarningPercent": 8602.83,
-  "Heading": "facilis",
-  "Number": "1212145",
-  "Probability": 457,
-  "CreatedDate": "2000-02-07T04:22:35.3772322+01:00",
-  "UpdatedDate": "1997-08-05T04:22:35.3772322+02:00",
+  "Saledate": "2023-04-15T13:28:32.1480184+02:00",
+  "Amount": 1416.568,
+  "SaleId": 172,
+  "Earning": 17923.345999999998,
+  "EarningPercent": 9878.368,
+  "Heading": "dolorum",
+  "Number": "591224",
+  "Probability": 151,
+  "CreatedDate": "2009-03-11T13:28:32.1480184+01:00",
+  "UpdatedDate": "1997-12-28T13:28:32.1480184+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 650,
+  "ActiveLinks": 507,
   "Links": [
     {
-      "EntityName": "Graham, Quigley and Farrell",
-      "Id": 982,
-      "Description": "Cloned multimedia infrastructure",
-      "ExtraInfo": "et",
-      "LinkId": 487,
+      "EntityName": "Wisozk Group",
+      "Id": 919,
+      "Description": "Visionary static info-mediaries",
+      "ExtraInfo": "fuga",
+      "LinkId": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 675
         }
       }
     }
   ],
-  "NextDueDate": "2023-05-25T04:22:35.3772322+02:00",
-  "Postit": "voluptates",
+  "NextDueDate": "2005-08-12T13:28:32.1480184+02:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-06-07T04:22:35.3772322+02:00",
+  "ReopenDate": "2002-01-13T13:28:32.1480184+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wintheiser LLC",
-      "Comment": "eos",
-      "StakeholderRoleId": 27,
-      "CountryId": 773,
-      "PersonId": 618,
-      "EmailDescription": "ceasar.jenkins@gradylittel.name",
-      "EmailId": 733,
-      "EmailAddress": "maybelle_hyatt@oberbrunner.ca",
-      "PhoneId": 594,
-      "ContactName": "Crist, Parisian and Bartell",
-      "ContactId": 674,
-      "SaleId": 630,
-      "Mrmrs": "quia",
-      "Firstname": "Deon",
-      "MiddleName": "Upton-Strosin",
-      "Lastname": "Runolfsson",
-      "SaleStakeholderId": 289,
-      "Rank": 391,
-      "Phone": "(965)891-2334 x23707",
+      "StakeholderRoleName": "Aufderhar, Boyle and Collins",
+      "Comment": "sit",
+      "StakeholderRoleId": 869,
+      "CountryId": 678,
+      "PersonId": 312,
+      "EmailDescription": "lysanne.kris@bosco.biz",
+      "EmailId": 290,
+      "EmailAddress": "thelma@cronin.uk",
+      "PhoneId": 124,
+      "ContactName": "Kohler Inc and Sons",
+      "ContactId": 703,
+      "SaleId": 961,
+      "Mrmrs": "sit",
+      "Firstname": "Phyllis",
+      "MiddleName": "Roberts-Fahey",
+      "Lastname": "Volkman",
+      "SaleStakeholderId": 867,
+      "Rank": 815,
+      "Phone": "1-665-907-1182 x6328",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 747
         }
       }
     }
   ],
-  "ActiveErpLinks": 584,
+  "ActiveErpLinks": 777,
   "UserDefinedFields": {
-    "SuperOffice:1": "Katrine Bashirian",
-    "SuperOffice:2": "Prof. Jedidiah Delilah Corkery I"
+    "SuperOffice:1": "Luis Rath",
+    "SuperOffice:2": "267549742"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "cumque",
+    "CustomFields2": "recusandae"
   },
-  "PublishEventDate": "2001-03-19T04:22:35.3772322+01:00",
-  "PublishTo": "2002-01-29T04:22:35.3772322+01:00",
-  "PublishFrom": "2010-07-10T04:22:35.3772322+02:00",
+  "PublishEventDate": "2009-03-09T13:28:32.1480184+01:00",
+  "PublishTo": "2024-06-10T13:28:32.1480184+02:00",
+  "PublishFrom": "2017-01-10T13:28:32.1480184+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 486,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 61
         }
       }
     },
     {
-      "VisibleId": 486,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 61
         }
       }
     }
@@ -261,12 +261,12 @@ Last-Modified: Tue, 05 Aug 1997 04:22:35 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldLength": 570
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -3,9 +3,9 @@ uid: erpproductfamily
 title: erpproductfamily
 keywords: mdoprovider mdo provider erpproductfamily
 description: Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;. Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "erpproductfamily" MDO List

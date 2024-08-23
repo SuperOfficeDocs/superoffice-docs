@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Walsh Group",
-  "StorageKey": "explicabo",
-  "Context": "soluta"
+  "StorageType": "et",
+  "ProviderName": "Schroeder Group",
+  "StorageKey": "harum",
+  "Context": "consequatur"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyle, Runolfsson and Crooks",
-  "Description": "Optimized tertiary approach",
-  "Rank": 571,
+  "Name": "Oberbrunner-Dare",
+  "Description": "Expanded multi-state definition",
+  "Rank": 274,
   "Restrictions": [
     {
-      "Name": "Beatty, Gutmann and Koelpin",
-      "Operator": "amet",
+      "Name": "Cole, Stamm and Okuneva",
+      "Operator": "aut",
       "Values": [
-        "unde",
-        "et"
+        "corrupti",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "voluptate"
+        "sit",
+        "neque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 140,
+      "InterParenthesis": 722,
       "InterOperator": "And",
-      "UniqueHash": 414
+      "UniqueHash": 363
     }
   ]
 }

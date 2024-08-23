@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "doloremque",
-  "PrefKey": "doloremque",
+  "PrefSection": "et",
+  "PrefKey": "nulla",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "enim",
+  "RawValue": "ullam",
   "Specification": null,
-  "DisplayValue": "ea",
-  "DisplayTooltip": "in",
+  "DisplayValue": "fuga",
+  "DisplayTooltip": "possimus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 422,
-  "PrefDescId": 327,
-  "TableName": "Walsh, Franecki and Fay",
-  "UserPreferenceId": 136,
+  "TargetId": 771,
+  "PrefDescId": 318,
+  "TableName": "Sauer Inc and Sons",
+  "UserPreferenceId": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

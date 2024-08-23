@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 836,
-  "ColumnId": 803,
-  "FieldDefault": "sunt",
-  "FieldHeight": 320,
-  "FieldLabel": "eligendi",
-  "FieldLeft": 138,
-  "FieldTop": 290,
+  "UDefFieldId": 612,
+  "ColumnId": 113,
+  "FieldDefault": "sapiente",
+  "FieldHeight": 218,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 707,
+  "FieldTop": 148,
   "FieldType": "Checkbox",
-  "FieldWidth": 920,
-  "FormatMask": "eveniet",
+  "FieldWidth": 699,
+  "FormatMask": "ut",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 574,
-  "LabelLeft": 828,
-  "LabelTop": 942,
-  "LabelWidth": 695,
-  "LastVersionId": 303,
-  "ListTableId": 476,
+  "IsIndexed": true,
+  "LabelHeight": 921,
+  "LabelLeft": 714,
+  "LabelTop": 275,
+  "LabelWidth": 855,
+  "LastVersionId": 636,
+  "ListTableId": 834,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 772,
-  "ProgId": "sint",
+  "Page1LineNo": 398,
+  "ProgId": "repudiandae",
   "IsReadOnly": true,
-  "ShortLabel": "perspiciatis",
-  "TabOrder": 794,
-  "TextLength": 614,
-  "Tooltip": "quisquam",
-  "UdefIdentity": 708,
-  "UDListDefinitionId": 820,
+  "ShortLabel": "rem",
+  "TabOrder": 340,
+  "TextLength": 903,
+  "Tooltip": "totam",
+  "UdefIdentity": 777,
+  "UDListDefinitionId": 127,
   "Justification": "Center",
-  "Version": 345,
-  "TemplateVariableName": "Mitchell Group",
+  "Version": 350,
+  "TemplateVariableName": "Huels-Hintz",
   "HasBeenPublished": false,
-  "MdoListName": "Lebsack-McGlynn",
+  "MdoListName": "Pfannerstill, Hahn and Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

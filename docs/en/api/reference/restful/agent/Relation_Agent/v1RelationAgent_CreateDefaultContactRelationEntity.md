@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 788,
-  "SourcePersonId": 827,
-  "DestinationContactId": 15,
-  "DestinationPersonId": 540,
-  "RelationId": 107,
-  "Comment": "est",
-  "RelationDefinitionId": 698,
-  "Reversed": 785,
-  "UpdatedDate": "2006-05-28T04:22:27.4403662+02:00",
-  "CreatedDate": "2009-12-26T04:22:27.4403662+01:00",
+  "SourceContactId": 696,
+  "SourcePersonId": 22,
+  "DestinationContactId": 666,
+  "DestinationPersonId": 474,
+  "RelationId": 445,
+  "Comment": "voluptates",
+  "RelationDefinitionId": 439,
+  "Reversed": 774,
+  "UpdatedDate": "1998-05-27T13:28:23.5855044+02:00",
+  "CreatedDate": "2024-01-30T13:28:23.5855044+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stamm, O'Conner and Hartmann",
-  "SourcePersonName": "Nikolaus-Leuschke",
-  "DestinationContactName": "Mitchell LLC",
-  "DestinationPersonName": "Swaniawski Group",
-  "ActiveText": "dolores",
-  "PassiveText": "rerum",
+  "SourceContactName": "Frami-Erdman",
+  "SourcePersonName": "Dach LLC",
+  "DestinationContactName": "Bechtelar LLC",
+  "DestinationPersonName": "Hirthe-Moore",
+  "ActiveText": "provident",
+  "PassiveText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

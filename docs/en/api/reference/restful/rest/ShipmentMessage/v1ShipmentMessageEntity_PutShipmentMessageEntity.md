@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 629,
-  "PlainMessage": "incidunt",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "mollitia",
-  "Description": "Fully-configurable optimal Graphic Interface",
-  "Subject": "molestiae",
-  "FolderId": 250,
-  "HeaderField": "ea",
-  "Design": "enim",
+  "ShipmentMessageId": 236,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "placeat",
+  "SmsMessage": "dolor",
+  "Description": "Intuitive logistical time-frame",
+  "Subject": "veniam",
+  "FolderId": 804,
+  "HeaderField": "minus",
+  "Design": "cum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide content-based algorithm",
-  "AccessKey": "ullam",
-  "DocumentMessage": 721,
-  "Registered": "2021-12-16T04:22:35.4553554+01:00",
-  "RegisteredAssociateId": 786,
-  "Updated": "2000-11-11T04:22:35.4553554+01:00",
-  "UpdatedAssociateId": 468,
-  "UpdatedCount": 327
+  "LongDescription": "Up-sized zero administration success",
+  "AccessKey": "fuga",
+  "DocumentMessage": 417,
+  "Registered": "2014-12-27T13:28:32.2573673+01:00",
+  "RegisteredAssociateId": 41,
+  "Updated": "2012-09-17T13:28:32.2573673+02:00",
+  "UpdatedAssociateId": 463,
+  "UpdatedCount": 356
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 901,
-  "PlainMessage": "perspiciatis",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "sapiente",
-  "Description": "Multi-lateral context-sensitive matrix",
-  "Subject": "et",
-  "FolderId": 883,
-  "HeaderField": "repellat",
-  "Design": "temporibus",
+  "ShipmentMessageId": 382,
+  "PlainMessage": "deserunt",
+  "HtmlMessage": "earum",
+  "SmsMessage": "omnis",
+  "Description": "Configurable secondary strategy",
+  "Subject": "quis",
+  "FolderId": 605,
+  "HeaderField": "similique",
+  "Design": "animi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Ameliorated modular solution",
-  "AccessKey": "ea",
-  "DocumentMessage": 574,
-  "Registered": "2013-08-13T04:22:35.4553554+02:00",
-  "RegisteredAssociateId": 238,
-  "Updated": "2003-06-09T04:22:35.4553554+02:00",
-  "UpdatedAssociateId": 16,
-  "UpdatedCount": 352,
+  "InlineImages": false,
+  "LongDescription": "Down-sized maximized function",
+  "AccessKey": "quam",
+  "DocumentMessage": 992,
+  "Registered": "2018-05-14T13:28:32.2573673+02:00",
+  "RegisteredAssociateId": 355,
+  "Updated": "2007-12-26T13:28:32.2573673+01:00",
+  "UpdatedAssociateId": 558,
+  "UpdatedCount": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 463
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

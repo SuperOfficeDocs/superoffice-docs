@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 135
+  "TicketMessageEntityId": 622
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 562,
-    "Name": "Rippin-Jast",
-    "ContentType": "enim",
-    "AttSize": 280,
+    "AttachmentId": 73,
+    "Name": "Hamill LLC",
+    "ContentType": "facilis",
+    "AttSize": 412,
     "InlineImage": true,
-    "ContentId": "totam",
-    "AuthKey": "atque",
-    "IsSafeFileExtension": true,
+    "ContentId": "eligendi",
+    "AuthKey": "veritatis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

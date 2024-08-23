@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Blanda LLC",
+  "UdListDefinitionName": "Howell, Upton and Smith",
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Reilly-Smitham",
+    "Id": 929,
+    "Name": "Champlin-Spinka",
     "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 172,
-    "Rank": 978,
+    "UdListDefinitionId": 617,
+    "Rank": 184,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Value": "mollitia",
-    "Tooltip": "repellendus",
+    "Id": 976,
+    "Value": "tenetur",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 402
       }
     }
   },
   {
-    "Id": 224,
-    "Value": "mollitia",
-    "Tooltip": "repellendus",
+    "Id": 976,
+    "Value": "tenetur",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 402
       }
     }
   }

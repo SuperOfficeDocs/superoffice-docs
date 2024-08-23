@@ -26,7 +26,7 @@ Gets a SelectionCategory object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSelectionCategory?selectionCategoryId=388
+POST /api/v1/Agents/List/GetSelectionCategory?selectionCategoryId=733
 POST /api/v1/Agents/List/GetSelectionCategory?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetSelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Value": "deserunt",
-  "Tooltip": "quisquam",
+  "Id": 916,
+  "Value": "sequi",
+  "Tooltip": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

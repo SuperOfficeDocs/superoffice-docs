@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "eum",
-  "ProviderName": "Nienow-Murray",
-  "PageSize": 336,
-  "PageNumber": 470
+  "Restrictions": "harum",
+  "ProviderName": "DuBuque, Bashirian and Schultz",
+  "PageSize": 761,
+  "PageNumber": 541
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "McKenzie-Zieme",
-      "DisplayTooltip": "nam",
-      "DisplayType": "corporis",
-      "CanOrderBy": false,
-      "Name": "Kling-Waelchi",
+      "DisplayName": "Mohr Group",
+      "DisplayTooltip": "delectus",
+      "DisplayType": "aut",
+      "CanOrderBy": true,
+      "Name": "VonRueden, Corwin and Rice",
       "CanRestrictBy": false,
-      "RestrictionType": "repudiandae",
-      "RestrictionListName": "Kulas Group",
-      "IsVisible": false,
-      "ExtraInfo": "impedit",
-      "Width": "qui",
-      "IconHint": "saepe",
-      "HeadingIconHint": "fugiat"
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Schinner, Daugherty and Torp",
+      "IsVisible": true,
+      "ExtraInfo": "ea",
+      "Width": "occaecati",
+      "IconHint": "tempora",
+      "HeadingIconHint": "impedit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hoeger Group",
-      "PrimaryKey": 631,
+      "EntityName": "Bauch, Pfannerstill and Stoltenberg",
+      "PrimaryKey": 353,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "aliquam",
-          "LinkHint": "et"
+          "DisplayValue": "error",
+          "TooltipHint": "exercitationem",
+          "LinkHint": "asperiores"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "necessitatibus",
+      "LinkHint": "ut",
+      "StyleHint": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 308
         }
       }
     }
   ],
-  "RowCount": 919,
+  "RowCount": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 342
     }
   }
 }

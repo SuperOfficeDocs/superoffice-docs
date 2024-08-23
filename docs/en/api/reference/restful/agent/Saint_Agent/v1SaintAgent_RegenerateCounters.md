@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Rath Inc and Sons",
-  "AssociateId": 111,
-  "DetailsTable": 375,
-  "DetailsRecord": 227,
-  "IsSystemTask": true,
+  "Id": 705,
+  "Name": "Luettgen, Streich and Jewess",
+  "AssociateId": 408,
+  "DetailsTable": 8,
+  "DetailsRecord": 785,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "facere",
-    "ParameterObject2": "ullam"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "nihil"
   },
-  "LastStarted": "2013-01-26T04:22:27.4822532+01:00",
-  "Created": "2011-11-11T04:22:27.4822532+01:00",
-  "StartCount": 201,
-  "DatabaseSerialNumber": "1114908",
-  "Context": "voluptas",
-  "Result": "eaque",
+  "LastStarted": "2008-01-20T13:28:23.6323677+01:00",
+  "Created": "2014-03-31T13:28:23.6323677+02:00",
+  "StartCount": 863,
+  "DatabaseSerialNumber": "1047093",
+  "Context": "culpa",
+  "Result": "quos",
   "State": "All",
-  "Description": "Proactive heuristic leverage",
-  "Response": "nobis",
-  "Request": "ratione",
-  "ProgressDescription": "Extended analyzing alliance",
-  "ProgressPercent": 560,
-  "FileName": "Crooks, Luettgen and Schowalter",
+  "Description": "Optimized tangible process improvement",
+  "Response": "non",
+  "Request": "reprehenderit",
+  "ProgressDescription": "Business-focused modular Graphical User Interface",
+  "ProgressPercent": 996,
+  "FileName": "Zemlak LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 42
     }
   }
 }

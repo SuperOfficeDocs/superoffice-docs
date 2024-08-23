@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 43,
-  "Restrictions": "qui"
+  "DashboardTileId": 1001,
+  "Restrictions": "nam"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Dibbert Group",
-        "DisplayTooltip": "quisquam",
-        "DisplayType": "dolore",
+        "DisplayName": "Kirlin, Padberg and Hills",
+        "DisplayTooltip": "minus",
+        "DisplayType": "inventore",
         "CanOrderBy": false,
-        "Name": "Hackett LLC",
+        "Name": "Conroy LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "id",
-        "RestrictionListName": "Haley-Smith",
-        "IsVisible": true,
-        "ExtraInfo": "veniam",
-        "Width": "sit",
-        "IconHint": "libero",
-        "HeadingIconHint": "quos"
+        "RestrictionType": "veritatis",
+        "RestrictionListName": "Moen, Lemke and Steuber",
+        "IsVisible": false,
+        "ExtraInfo": "repellendus",
+        "Width": "a",
+        "IconHint": "aut",
+        "HeadingIconHint": "repellendus"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Dibbert Group",
-        "DisplayTooltip": "quisquam",
-        "DisplayType": "dolore",
+        "DisplayName": "Kirlin, Padberg and Hills",
+        "DisplayTooltip": "minus",
+        "DisplayType": "inventore",
         "CanOrderBy": false,
-        "Name": "Hackett LLC",
+        "Name": "Conroy LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "id",
-        "RestrictionListName": "Haley-Smith",
-        "IsVisible": true,
-        "ExtraInfo": "veniam",
-        "Width": "sit",
-        "IconHint": "libero",
-        "HeadingIconHint": "quos"
+        "RestrictionType": "veritatis",
+        "RestrictionListName": "Moen, Lemke and Steuber",
+        "IsVisible": false,
+        "ExtraInfo": "repellendus",
+        "Width": "a",
+        "IconHint": "aut",
+        "HeadingIconHint": "repellendus"
       }
     ],
     "Result": null

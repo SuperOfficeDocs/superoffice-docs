@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 18,
+  "QuoteVersionId": 913,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 735
+  "CountryId": 944
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 7001.356,
-  "Wgs84Longitude": 13996.444,
+  "Wgs84Latitude": 20850.502,
+  "Wgs84Longitude": 22354.822,
   "LocalizedAddress": [
     [
       {
-        "Name": "Franecki LLC",
-        "Value": "dolor",
-        "Tooltip": "aliquam",
-        "Label": "dolor",
-        "ValueLength": 129,
-        "AddressType": "officiis",
+        "Name": "Hackett-Ritchie",
+        "Value": "a",
+        "Tooltip": "quod",
+        "Label": "architecto",
+        "ValueLength": 380,
+        "AddressType": "esse",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 830
+            "FieldType": "System.String",
+            "FieldLength": 868
           }
         }
       }
     ],
     [
       {
-        "Name": "Stracke, Baumbach and Kulas",
-        "Value": "et",
-        "Tooltip": "voluptatem",
-        "Label": "velit",
-        "ValueLength": 741,
-        "AddressType": "eius",
+        "Name": "Kreiger LLC",
+        "Value": "est",
+        "Tooltip": "occaecati",
+        "Label": "et",
+        "ValueLength": 872,
+        "AddressType": "nobis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 377
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "impedit",
+  "Formatted": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

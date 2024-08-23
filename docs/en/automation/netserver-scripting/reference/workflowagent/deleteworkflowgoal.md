@@ -2,10 +2,10 @@
 uid: workflowagent-deleteworkflowgoal
 title: WorkflowAgent.DeleteWorkflowGoal event method
 description: Scripting events called on the DeleteWorkflowGoal method on the WorkflowAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WorkflowAgent.DeleteWorkflowGoal
 

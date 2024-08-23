@@ -3,9 +3,9 @@ uid: Appointment
 title: Appointment
 description: Activity archive provider which handles appointments
 keywords: Appointment archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "Appointment"
@@ -724,7 +724,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=updatedDate,contact/streetAddress/line1,contact/restrictionAddress/wgs84latitude,contact/contactAssociate/assocType,contact/saintIntention
+GET /api/v1/archive/Appointment?$select=registeredByFullName,contact/contactAssociate/personEmail,contact/NumberOfSalesInPeriod,project/projectAssociate/isLocation,sale/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 525,
-    "Name": "Kuhic-Morissette",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "Rank": 129,
-    "UdListDefinitionId": 665
+    "HeadingId": 496,
+    "Name": "Jakubowski-Hessel",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 195,
+    "UdListDefinitionId": 692
   },
   {
-    "HeadingId": 525,
-    "Name": "Kuhic-Morissette",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "Rank": 129,
-    "UdListDefinitionId": 665
+    "HeadingId": 496,
+    "Name": "Jakubowski-Hessel",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 195,
+    "UdListDefinitionId": 692
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 951,
-    "Name": "Gislason, Ankunding and Marquardt",
-    "Tooltip": "aut",
+    "HeadingId": 229,
+    "Name": "Rodriguez LLC",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 180,
-    "UdListDefinitionId": 634,
+    "Rank": 613,
+    "UdListDefinitionId": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

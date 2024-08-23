@@ -2,10 +2,10 @@
 uid: blobagent-setblobstream
 title: BLOBAgent.SetBlobStream event method
 description: Scripting events called on the SetBlobStream method on the BLOBAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # BLOBAgent.SetBlobStream
 

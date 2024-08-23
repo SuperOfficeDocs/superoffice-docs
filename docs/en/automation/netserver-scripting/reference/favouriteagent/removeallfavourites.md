@@ -2,10 +2,10 @@
 uid: favouriteagent-removeallfavourites
 title: FavouriteAgent.RemoveAllFavourites event method
 description: Scripting events called on the RemoveAllFavourites method on the FavouriteAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FavouriteAgent.RemoveAllFavourites
 

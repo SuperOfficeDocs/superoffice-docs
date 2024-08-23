@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Rau, Bayer and Lehner",
-  "StorageKey": "debitis",
+  "StorageType": "ea",
+  "ProviderName": "Harvey-Wisoky",
+  "StorageKey": "perspiciatis",
   "StaticColumns": [
-    "adipisci",
-    "molestias"
+    "repellat",
+    "corrupti"
   ],
-  "Context": "doloremque"
+  "Context": "voluptas"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cremin, Hodkiewicz and Carter",
-      "Operator": "perferendis",
+      "Name": "Ratke, Leannon and Glover",
+      "Operator": "maiores",
       "Values": [
-        "ut",
-        "exercitationem"
+        "beatae",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "ut",
-        "aperiam"
+        "ratione",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 469,
+      "InterParenthesis": 852,
       "InterOperator": "And",
-      "UniqueHash": 389
+      "UniqueHash": 795
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Haley-Schmidt",
-      "DisplayTooltip": "veniam",
-      "DisplayType": "ducimus",
-      "CanOrderBy": false,
-      "Name": "Dickinson-Huels",
-      "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Marquardt LLC",
+      "DisplayName": "Lindgren, Baumbach and Frami",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "consequatur",
+      "CanOrderBy": true,
+      "Name": "Homenick Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "autem",
+      "RestrictionListName": "Mayert, Murray and Hintz",
       "IsVisible": false,
-      "ExtraInfo": "magnam",
-      "Width": "quo",
-      "IconHint": "est",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "omnis",
+      "Width": "inventore",
+      "IconHint": "eos",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Purdy-Heathcote",
-      "PrimaryKey": 805,
+      "EntityName": "Kuhlman, Ruecker and Jacobson",
+      "PrimaryKey": 386,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "distinctio",
-          "TooltipHint": "aut",
-          "LinkHint": "sit"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "dolore",
+          "LinkHint": "facilis"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "dolorum",
+      "LinkHint": "quod",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 253
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kemmer-Boyer",
-      "Description": "Advanced directional complexity",
-      "Rank": 928,
+      "Name": "Wilderman-Koch",
+      "Description": "Business-focused holistic infrastructure",
+      "Rank": 430,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kemmer-Boyer",
-      "Description": "Advanced directional complexity",
-      "Rank": 928,
+      "Name": "Wilderman-Koch",
+      "Description": "Business-focused holistic infrastructure",
+      "Rank": 430,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldLength": 607
     }
   }
 }

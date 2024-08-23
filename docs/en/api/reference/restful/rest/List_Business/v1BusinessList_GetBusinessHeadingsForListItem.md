@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Schiller-Watsica",
-    "ToolTip": "Perferendis possimus quaerat temporibus praesentium molestiae distinctio.",
-    "Deleted": true,
-    "Rank": 455,
-    "Type": "assumenda",
-    "ColorBlock": 914,
-    "IconHint": "eos",
+    "Id": 660,
+    "Name": "Botsford Inc and Sons",
+    "ToolTip": "Sit velit perferendis sunt.",
+    "Deleted": false,
+    "Rank": 481,
+    "Type": "culpa",
+    "ColorBlock": 710,
+    "IconHint": "soluta",
     "Selected": true,
-    "LastChanged": "1997-03-05T04:22:35.8153337+01:00",
+    "LastChanged": "1997-12-15T13:28:32.679146+01:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Ernser LLC",
-        "ToolTip": "Cum aut soluta.",
+        "Id": 156,
+        "Name": "Monahan, Veum and Towne",
+        "ToolTip": "Et sequi non adipisci.",
         "Deleted": false,
-        "Rank": 466,
-        "Type": "velit",
-        "ColorBlock": 952,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2022-01-22T04:22:35.8153337+01:00",
+        "Rank": 841,
+        "Type": "accusantium",
+        "ColorBlock": 220,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2008-05-18T13:28:32.679146+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "non",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "veniam",
         "Hidden": true,
-        "FullName": "Miss Alexie Brakus",
+        "FullName": "Dr. Millie Weldon Cole V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 553
+            "FieldType": "System.Int32",
+            "FieldLength": 284
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Mrs. Reyna Lind DVM",
+    "ExtraInfo": "maxime",
+    "StyleHint": "possimus",
+    "Hidden": false,
+    "FullName": "Prof. Aaliyah Hollie Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 113
       }
     }
   }

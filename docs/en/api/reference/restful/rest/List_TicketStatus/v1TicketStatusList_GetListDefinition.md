@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Jacobs-Mraz",
-  "Tooltip": "omnis",
+  "Id": 103,
+  "Name": "Walsh LLC",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 527,
+  "Rank": 240,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   },
   "_Links": {

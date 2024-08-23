@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nolan-Lueilwitz",
+  "Name": "Thiel, Blanda and Ryan",
   "AssociateIds": [
-    17,
-    678
+    711,
+    278
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Pfannerstill, Sipes and Breitenberg",
-    "AssociateId": 29,
-    "DetailsTable": 8,
-    "DetailsRecord": 577,
+    "Id": 125,
+    "Name": "Langworth-Price",
+    "AssociateId": 781,
+    "DetailsTable": 576,
+    "DetailsRecord": 180,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "vel",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "est",
+      "ParameterObject2": "omnis"
     },
-    "LastStarted": "2012-05-20T04:22:26.0122232+02:00",
-    "Created": "2007-01-23T04:22:26.0122232+01:00",
-    "StartCount": 426,
-    "DatabaseSerialNumber": "475030",
-    "Context": "beatae",
-    "Result": "molestiae",
+    "LastStarted": "2012-07-21T13:28:21.8512599+02:00",
+    "Created": "2001-03-10T13:28:21.8512599+01:00",
+    "StartCount": 184,
+    "DatabaseSerialNumber": "745546",
+    "Context": "aut",
+    "Result": "pariatur",
     "State": "All",
-    "Description": "Diverse background flexibility",
-    "Response": "debitis",
-    "Request": "alias",
-    "ProgressDescription": "Versatile even-keeled alliance",
-    "ProgressPercent": 567,
-    "FileName": "Streich Group",
+    "Description": "Fully-configurable solution-oriented productivity",
+    "Response": "non",
+    "Request": "sint",
+    "ProgressDescription": "Multi-layered fresh-thinking access",
+    "ProgressPercent": 403,
+    "FileName": "Medhurst Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 727
       }
     }
   }

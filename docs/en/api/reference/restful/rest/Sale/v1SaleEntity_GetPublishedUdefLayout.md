@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 9,
-    "ColumnId": 402,
-    "FieldDefault": "maiores",
-    "FieldHeight": 184,
-    "FieldLabel": "quis",
-    "FieldLeft": 440,
-    "FieldTop": 268,
+    "UDefFieldId": 560,
+    "ColumnId": 844,
+    "FieldDefault": "velit",
+    "FieldHeight": 32,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 152,
+    "FieldTop": 256,
     "FieldType": "Checkbox",
-    "FieldWidth": 808,
-    "FormatMask": "ut",
+    "FieldWidth": 776,
+    "FormatMask": "omnis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 532,
-    "LabelLeft": 67,
-    "LabelTop": 971,
-    "LabelWidth": 63,
-    "LastVersionId": 927,
-    "ListTableId": 129,
-    "IsMandatory": false,
+    "LabelHeight": 958,
+    "LabelLeft": 555,
+    "LabelTop": 43,
+    "LabelWidth": 367,
+    "LastVersionId": 738,
+    "ListTableId": 543,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 476,
-    "ProgId": "itaque",
+    "Page1LineNo": 839,
+    "ProgId": "nemo",
     "IsReadOnly": false,
     "ShortLabel": "molestiae",
-    "TabOrder": 230,
-    "TextLength": 776,
-    "Tooltip": "illum",
-    "UdefIdentity": 41,
-    "UDListDefinitionId": 711,
+    "TabOrder": 759,
+    "TextLength": 131,
+    "Tooltip": "quaerat",
+    "UdefIdentity": 769,
+    "UDListDefinitionId": 637,
     "Justification": "Center",
-    "Version": 190,
-    "TemplateVariableName": "Johnston-Anderson",
+    "Version": 817,
+    "TemplateVariableName": "Schmeler LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Schuster-Corwin",
+    "MdoListName": "Feil, Denesik and O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

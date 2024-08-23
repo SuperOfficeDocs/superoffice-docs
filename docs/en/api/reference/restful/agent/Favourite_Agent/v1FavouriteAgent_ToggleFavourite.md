@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Krajcik Inc and Sons",
-  "RecordId": 179,
-  "AssociateId": 631,
-  "ExtraInfo": "consequuntur"
+  "TableName": "Tromp, Bergnaum and Haag",
+  "RecordId": 57,
+  "AssociateId": 713,
+  "ExtraInfo": "excepturi"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

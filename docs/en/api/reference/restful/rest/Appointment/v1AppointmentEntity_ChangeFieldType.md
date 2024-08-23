@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 507,
-  "ColumnId": 976,
-  "FieldDefault": "qui",
-  "FieldHeight": 449,
-  "FieldLabel": "delectus",
-  "FieldLeft": 99,
-  "FieldTop": 656,
+  "UDefFieldId": 251,
+  "ColumnId": 841,
+  "FieldDefault": "officia",
+  "FieldHeight": 265,
+  "FieldLabel": "sit",
+  "FieldLeft": 920,
+  "FieldTop": 823,
   "FieldType": "Checkbox",
-  "FieldWidth": 758,
-  "FormatMask": "harum",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 46,
-  "LabelLeft": 308,
-  "LabelTop": 524,
-  "LabelWidth": 75,
-  "LastVersionId": 930,
-  "ListTableId": 47,
+  "FieldWidth": 765,
+  "FormatMask": "maxime",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 21,
+  "LabelLeft": 251,
+  "LabelTop": 751,
+  "LabelWidth": 899,
+  "LastVersionId": 831,
+  "ListTableId": 726,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 693,
-  "ProgId": "neque",
-  "IsReadOnly": false,
-  "ShortLabel": "id",
-  "TabOrder": 110,
-  "TextLength": 254,
-  "Tooltip": "tempora",
-  "UdefIdentity": 591,
-  "UDListDefinitionId": 975,
+  "Page1LineNo": 676,
+  "ProgId": "cumque",
+  "IsReadOnly": true,
+  "ShortLabel": "molestiae",
+  "TabOrder": 980,
+  "TextLength": 830,
+  "Tooltip": "natus",
+  "UdefIdentity": 951,
+  "UDListDefinitionId": 115,
   "Justification": "Center",
-  "Version": 890,
-  "TemplateVariableName": "Ryan, Quitzon and McGlynn",
+  "Version": 327,
+  "TemplateVariableName": "Kuhn, Mann and Hudson",
   "HasBeenPublished": true,
-  "MdoListName": "Medhurst Inc and Sons",
+  "MdoListName": "Keeling-Kreiger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

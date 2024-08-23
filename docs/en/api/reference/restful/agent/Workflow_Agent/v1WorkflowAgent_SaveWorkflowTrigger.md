@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 538,
-  "WorkflowId": 44,
+  "WorkflowTriggerId": 662,
+  "WorkflowId": 899,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Stroman-Dach",
-      "Description": "Polarised cohesive forecast",
-      "Rank": 59,
+      "Name": "Ryan Group",
+      "Description": "Monitored modular initiative",
+      "Rank": 404,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stroman-Dach",
-      "Description": "Polarised cohesive forecast",
-      "Rank": 59,
+      "Name": "Ryan Group",
+      "Description": "Monitored modular initiative",
+      "Rank": 404,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 92,
-  "WorkflowId": 267,
+  "WorkflowTriggerId": 716,
+  "WorkflowId": 700,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Leuschke, Franecki and Boyle",
-      "Description": "Cross-group dedicated middleware",
-      "Rank": 530,
+      "Name": "Waters-Bailey",
+      "Description": "Distributed optimizing open architecture",
+      "Rank": 759,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Leuschke, Franecki and Boyle",
-      "Description": "Cross-group dedicated middleware",
-      "Rank": 530,
+      "Name": "Waters-Bailey",
+      "Description": "Distributed optimizing open architecture",
+      "Rank": 759,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

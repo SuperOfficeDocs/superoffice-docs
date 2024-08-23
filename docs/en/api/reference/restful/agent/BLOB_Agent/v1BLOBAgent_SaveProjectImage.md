@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible zero defect productivity",
+  "Description": "Expanded multi-tasking info-mediaries",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

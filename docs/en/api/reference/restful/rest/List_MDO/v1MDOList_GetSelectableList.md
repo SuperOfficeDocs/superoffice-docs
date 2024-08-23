@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=debitis
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=dolor
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Rosenbaum, Trantow and Considine",
-    "ToolTip": "Autem impedit in porro.",
-    "Deleted": true,
-    "Rank": 716,
-    "Type": "consequatur",
-    "ColorBlock": 350,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2020-03-27T04:22:35.9715928+01:00",
+    "Id": 219,
+    "Name": "Kling, Trantow and Ondricka",
+    "ToolTip": "Fugiat harum sint rerum optio eligendi.",
+    "Deleted": false,
+    "Rank": 608,
+    "Type": "repellat",
+    "ColorBlock": 215,
+    "IconHint": "at",
+    "Selected": true,
+    "LastChanged": "2010-11-09T13:28:32.8666025+01:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Senger-Bartell",
-        "ToolTip": "Non possimus asperiores consequatur nobis qui est.",
-        "Deleted": true,
-        "Rank": 829,
-        "Type": "explicabo",
-        "ColorBlock": 75,
-        "IconHint": "saepe",
+        "Id": 392,
+        "Name": "Moen, O'Kon and Pfannerstill",
+        "ToolTip": "Facere incidunt inventore ab nesciunt temporibus nulla.",
+        "Deleted": false,
+        "Rank": 134,
+        "Type": "harum",
+        "ColorBlock": 731,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2020-07-26T04:22:35.9715928+02:00",
+        "LastChanged": "2010-11-12T13:28:32.8822233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Mr. Alessia Greenfelder MD",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Rachel Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 865
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Laverne Turcotte",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Mitchell Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

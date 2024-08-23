@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 885,
-  "Name": "Kreiger-Hoeger",
-  "Description": "Expanded interactive model",
+  "ProjectId": 1002,
+  "Name": "Stracke, Orn and Welch",
+  "Description": "Vision-oriented cohesive access",
   "URL": "http://www.example.com/",
-  "Type": "expedita",
-  "AssociateId": 82,
-  "AssociateFullName": "Diego Monahan",
-  "TypeId": 923,
-  "Updated": "2007-09-26T04:22:35.174142+02:00",
-  "StatusId": 320,
-  "Status": "ut",
-  "TextId": 32,
-  "PublishTo": "2009-03-05T04:22:35.174142+01:00",
-  "PublishFrom": "2020-03-24T04:22:35.174142+01:00",
+  "Type": "hic",
+  "AssociateId": 937,
+  "AssociateFullName": "Allene Walker",
+  "TypeId": 957,
+  "Updated": "2000-09-04T13:28:31.8823198+02:00",
+  "StatusId": 816,
+  "Status": "et",
+  "TextId": 870,
+  "PublishTo": "2017-11-04T13:28:31.8823198+01:00",
+  "PublishFrom": "2022-12-22T13:28:31.8823198+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1054177",
-  "ActiveErpLinks": 954,
+  "ProjectNumber": "610827",
+  "ActiveErpLinks": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 363
     }
   }
 }

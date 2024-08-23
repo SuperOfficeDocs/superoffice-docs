@@ -10,8 +10,10 @@ generated: true
 POST /api/v1/Agents/Workflow/TryAddPersonsToEmailFlow
 ```
 
-Try to add a participant to the EmailFlow
+Try to add a participant to the EmailFlow.
 
+
+Same function available in PersonAgent
 
 
 
@@ -73,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 783,
+  "EmailFlowId": 275,
   "PersonIds": [
-    350,
-    540
+    361,
+    798
   ]
 }
 ```
@@ -89,6 +91,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   false,
-  true
+  false
 ]
 ```

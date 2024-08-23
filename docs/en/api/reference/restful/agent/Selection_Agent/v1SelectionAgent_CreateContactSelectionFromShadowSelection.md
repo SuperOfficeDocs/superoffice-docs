@@ -120,8 +120,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 609,
-  "Name": "Rath, Wunsch and Glover"
+  "SelectionId": 971,
+  "Name": "Crona-Goldner"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed high-level protocol",
-  "Postit": "possimus",
+  "Description": "Devolved client-server time-frame",
+  "Postit": "earum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 705,
-  "IncludePerson": 959,
+  "GroupIdx": 640,
+  "IncludePerson": 164,
   "MemberCount": 99.99,
-  "Name": "Ankunding Group",
-  "PostitTextId": 415,
-  "CreatedDate": "2011-08-13T04:22:27.6430234+02:00",
-  "SelectionId": 772,
-  "SoundEx": "consectetur",
-  "Source": 147,
-  "TextId": 979,
-  "UpdatedDate": "2008-09-21T04:22:27.6430234+02:00",
-  "UpdatedCount": 547,
-  "Visibility": 692,
+  "Name": "Kuhn LLC",
+  "PostitTextId": 146,
+  "CreatedDate": "2001-10-23T13:28:23.7885837+02:00",
+  "SelectionId": 617,
+  "SoundEx": "totam",
+  "Source": 671,
+  "TextId": 773,
+  "UpdatedDate": "2013-02-21T13:28:23.7885837+01:00",
+  "UpdatedCount": 308,
+  "Visibility": 124,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 730,
-  "TargetTableName": "Ziemann, Boyer and Pfeffer",
-  "Completed": true,
-  "LeftSelectionId": 983,
-  "RightSelectionId": 759,
+  "CompanyUnique": true,
+  "TargetTableNumber": 908,
+  "TargetTableName": "Brown-Robel",
+  "Completed": false,
+  "LeftSelectionId": 813,
+  "RightSelectionId": 589,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhn LLC",
-  "ShadowProviderName": "Sanford, Deckow and Champlin",
-  "ChartKey": "occaecati",
-  "LastLoaded": "2016-04-19T04:22:27.6430234+02:00",
-  "LastLoadedBy": 399,
+  "MainProviderName": "Gutkowski Inc and Sons",
+  "ShadowProviderName": "Ortiz-Weissnat",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2006-09-16T13:28:23.7885837+02:00",
+  "LastLoadedBy": 782,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-08-04T04:22:27.6430234+02:00",
-  "LastMembershipChangeBy": 787,
+  "LastMembershipChange": "2019-03-11T13:28:23.7885837+01:00",
+  "LastMembershipChangeBy": 48,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "placeat",
-  "MemberTabHeading": "quaerat",
-  "MailingsProviderName": "Heaney, Watsica and Harvey",
-  "DashboardTileDefinitionId": 403,
+  "MainHeading": "atque",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Douglas LLC",
+  "DashboardTileDefinitionId": 475,
   "VisibleFor": [
     {
-      "VisibleId": 757,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     },
     {
-      "VisibleId": 757,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 268
     }
   }
 }

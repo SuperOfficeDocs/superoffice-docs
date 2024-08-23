@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Beahan LLC",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 103,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true
+  "Id": 960,
+  "Name": "Reichert-Breitenberg",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 577,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "Bashirian, Thompson and Brakus",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 571,
+  "Id": 11,
+  "Name": "Baumbach Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 630,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 362
     }
   }
 }

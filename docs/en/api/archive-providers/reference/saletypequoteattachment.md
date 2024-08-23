@@ -3,9 +3,9 @@ uid: SaleTypeQuoteAttachment
 title: SaleTypeQuoteAttachment
 description: This is the archive Provider for the Product Archive is SoAdmin.
 keywords: SaleTypeQuoteAttachment archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SaleTypeQuoteAttachment"
@@ -111,7 +111,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/yourref,document/documentPublish/publishedBy
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/documentUdef/SuperOffice:1,document/yourref,document/documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

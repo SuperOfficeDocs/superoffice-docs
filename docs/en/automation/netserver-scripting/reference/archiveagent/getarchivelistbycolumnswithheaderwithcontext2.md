@@ -2,10 +2,10 @@
 uid: archiveagent-getarchivelistbycolumnswithheaderwithcontext2
 title: ArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2 event method
 description: Scripting events called on the GetArchiveListByColumnsWithHeaderWithContext2 method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
 

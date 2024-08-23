@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 642,
-    "Comment": "nihil",
-    "Registered": "2016-10-27T04:22:35.1104546+02:00",
-    "RegisteredAssociateId": 802,
-    "Updated": "2004-07-18T04:22:35.1104546+02:00",
-    "UpdatedAssociateId": 125,
-    "LegalBaseId": 196,
-    "LegalBaseKey": "totam",
-    "LegalBaseName": "Conn-Bergnaum",
-    "ConsentPurposeId": 754,
-    "ConsentPurposeKey": "inventore",
-    "ConsentPurposeName": "Bauch, Huel and Gutmann",
-    "ConsentSourceId": 697,
-    "ConsentSourceKey": "id",
-    "ConsentSourceName": "Haag-Baumbach",
+    "ConsentPersonId": 900,
+    "Comment": "non",
+    "Registered": "2013-02-28T13:28:31.8042094+01:00",
+    "RegisteredAssociateId": 652,
+    "Updated": "2013-09-22T13:28:31.8042094+02:00",
+    "UpdatedAssociateId": 989,
+    "LegalBaseId": 283,
+    "LegalBaseKey": "voluptates",
+    "LegalBaseName": "Hudson Group",
+    "ConsentPurposeId": 616,
+    "ConsentPurposeKey": "eveniet",
+    "ConsentPurposeName": "Greenfelder, Hickle and Tremblay",
+    "ConsentSourceId": 855,
+    "ConsentSourceKey": "qui",
+    "ConsentSourceName": "Langworth-Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

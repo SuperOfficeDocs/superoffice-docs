@@ -3,9 +3,9 @@ uid: LinksURL
 title: LinksURL
 description: 
 keywords: LinksURL archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "LinksURL"

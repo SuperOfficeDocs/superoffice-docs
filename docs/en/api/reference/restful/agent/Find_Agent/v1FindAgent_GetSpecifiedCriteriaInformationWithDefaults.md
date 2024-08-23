@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "McGlynn Inc and Sons",
-  "StorageKey": "eos",
+  "StorageType": "voluptas",
+  "ProviderName": "Kris-Hudson",
+  "StorageKey": "recusandae",
   "DesiredColumnNames": [
-    "Bednar Inc and Sons",
-    "Russel LLC"
+    "Adams, Jast and Klein",
+    "Bayer-Rosenbaum"
   ],
   "StaticColumns": [
-    "similique",
-    "dicta"
+    "illum",
+    "sed"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Morissette Group",
-      "Operator": "culpa",
+      "Name": "Rau-Smitham",
+      "Operator": "eaque",
       "Values": [
-        "cum",
-        "ipsum"
+        "earum",
+        "et"
       ],
       "DisplayValues": [
-        "dolore",
-        "omnis"
+        "et",
+        "soluta"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 552,
+      "InterParenthesis": 776,
       "InterOperator": "And",
-      "UniqueHash": 760
+      "UniqueHash": 216
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gottlieb Inc and Sons",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "cum",
-      "CanOrderBy": false,
-      "Name": "Volkman, Wolff and Smith",
-      "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Grimes-Champlin",
+      "DisplayName": "Breitenberg LLC",
+      "DisplayTooltip": "ut",
+      "DisplayType": "a",
+      "CanOrderBy": true,
+      "Name": "Legros LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "harum",
+      "RestrictionListName": "Brown LLC",
       "IsVisible": true,
-      "ExtraInfo": "autem",
-      "Width": "voluptatem",
-      "IconHint": "sunt",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "maiores",
+      "Width": "iusto",
+      "IconHint": "earum",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Mitchell Inc and Sons",
-      "PrimaryKey": 392,
+      "EntityName": "Welch-Crooks",
+      "PrimaryKey": 823,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "suscipit",
-          "TooltipHint": "et",
-          "LinkHint": "qui"
+          "DisplayValue": "similique",
+          "TooltipHint": "eaque",
+          "LinkHint": "eos"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "architecto",
+      "LinkHint": "et",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 557
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Huel Group",
-      "Description": "User-centric intangible circuit",
-      "Rank": 446,
+      "Name": "Howe, Crist and Pagac",
+      "Description": "Enhanced contextually-based interface",
+      "Rank": 384,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Huel Group",
-      "Description": "User-centric intangible circuit",
-      "Rank": 446,
+      "Name": "Howe, Crist and Pagac",
+      "Description": "Enhanced contextually-based interface",
+      "Rank": 384,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 823
     }
   }
 }

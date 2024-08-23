@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "praesentium",
-      "Key": "pariatur"
+      "Section": "quia",
+      "Key": "quia"
     },
     {
-      "Section": "praesentium",
-      "Key": "pariatur"
+      "Section": "quia",
+      "Key": "quia"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "voluptatibus",
+    "RawValue": "consequuntur",
     "Specification": null,
-    "DisplayValue": "suscipit",
-    "DisplayTooltip": "dicta",
+    "DisplayValue": "cumque",
+    "DisplayTooltip": "sunt",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 214,
-    "PrefDescId": 94,
-    "TableName": "Jacobi, Rolfson and Spinka",
-    "UserPreferenceId": 898,
+    "TargetId": 833,
+    "PrefDescId": 24,
+    "TableName": "Koelpin, Schoen and Halvorson",
+    "UserPreferenceId": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 463
       }
     }
   }

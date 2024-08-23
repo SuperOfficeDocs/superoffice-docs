@@ -2,10 +2,10 @@
 uid: contactagent-isnumbervalid
 title: ContactAgent.IsNumberValid event method
 description: Scripting events called on the IsNumberValid method on the ContactAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ContactAgent.IsNumberValid
 

@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 948,
-  "BlobSize": 242,
-  "Description": "Seamless modular parallelism",
-  "ExtraInfo": "facilis",
+  "BlobId": 135,
+  "BlobSize": 958,
+  "Description": "Intuitive 24 hour functionalities",
+  "ExtraInfo": "sed",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolor",
-  "OriginalSize": 531,
-  "CreatedDate": "2004-03-05T04:22:26.0122232+01:00",
-  "UpdatedDate": "2011-01-18T04:22:26.0122232+01:00",
+  "MimeType": "error",
+  "OriginalSize": 421,
+  "CreatedDate": "2013-03-14T13:28:21.8668811+01:00",
+  "UpdatedDate": "2006-12-05T13:28:21.8668811+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dicta",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

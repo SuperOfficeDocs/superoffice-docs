@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 226,
-  "ERPQuoteAlternativeKey": "explicabo",
-  "QuoteVersionId": 886,
-  "Name": "Yundt Inc and Sons",
-  "Description": "Profound stable application",
+  "QuoteAlternativeId": 304,
+  "ERPQuoteAlternativeKey": "vel",
+  "QuoteVersionId": 922,
+  "Name": "Altenwerth, Cummings and Bailey",
+  "Description": "Exclusive coherent capacity",
   "Status": "Error",
-  "Reason": "integrate turn-key e-markets",
-  "ERPDiscountPercent": 8446.13,
-  "ERPDiscountAmount": 16625.87,
-  "DiscountPercent": 26441.558,
-  "DiscountAmount": 30211.76,
+  "Reason": "",
+  "ERPDiscountPercent": 28895.48,
+  "ERPDiscountAmount": 18612.826,
+  "DiscountPercent": 2269.016,
+  "DiscountAmount": 26369.476,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quia",
-  "VAT": 2992.97,
-  "EarningPercent": 9549.2979999999989,
-  "EarningAmount": 28980.097999999998,
-  "SubTotal": 12539.134,
-  "TotalPrice": 20045.064,
-  "ExtraField1": "quo",
-  "ExtraField2": "magnam",
-  "ExtraField3": "est",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "quae"
+  "VATInfo": "laudantium",
+  "VAT": 16459.768,
+  "EarningPercent": 774.098,
+  "EarningAmount": 28093.176,
+  "SubTotal": 26626.464,
+  "TotalPrice": 22154.246,
+  "ExtraField1": "quis",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "atque",
+  "ExtraField4": "officia",
+  "ExtraField5": "explicabo"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 406,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 949,
-  "Name": "Mraz, Kunze and Hudson",
-  "Description": "Upgradable attitude-oriented budgetary management",
+  "QuoteAlternativeId": 912,
+  "ERPQuoteAlternativeKey": "quo",
+  "QuoteVersionId": 563,
+  "Name": "Schneider, Hessel and Turner",
+  "Description": "Multi-layered value-added firmware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 26974.338,
-  "ERPDiscountAmount": 27510.252,
-  "DiscountPercent": 22420.636,
-  "DiscountAmount": 13773.93,
+  "ERPDiscountPercent": 78.35,
+  "ERPDiscountAmount": 1507.454,
+  "DiscountPercent": 30453.077999999998,
+  "DiscountAmount": 16456.634,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quia",
-  "VAT": 6318.144,
-  "EarningPercent": 13968.238,
-  "EarningAmount": 8198.544,
-  "SubTotal": 12711.503999999999,
-  "TotalPrice": 23034.899999999998,
-  "ExtraField1": "eveniet",
-  "ExtraField2": "exercitationem",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "non",
+  "VATInfo": "ex",
+  "VAT": 24576.827999999998,
+  "EarningPercent": 25087.67,
+  "EarningAmount": 14836.356,
+  "SubTotal": 15607.32,
+  "TotalPrice": 4281.044,
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "ut",
+  "ExtraField5": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: archiveagent-getavailableentities
 title: ArchiveAgent.GetAvailableEntities event method
 description: Scripting events called on the GetAvailableEntities method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.GetAvailableEntities
 

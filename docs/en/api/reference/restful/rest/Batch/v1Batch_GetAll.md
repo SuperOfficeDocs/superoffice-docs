@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=voluptatem
-GET /api/v1/BatchTask?$top=707
-GET /api/v1/BatchTask?$skip=57
+GET /api/v1/BatchTask?$entities=non
+GET /api/v1/BatchTask?$top=395
+GET /api/v1/BatchTask?$skip=577
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=voluptas
+GET /api/v1/BatchTask?$context=exercitationem
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=True
+GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "saepe",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 628,
+      "PrimaryKey": 2407,
       "EntityName": "sale",
-      "saleId": 628,
-      "contactId": 218,
-      "name": "Glover LLC"
+      "saleId": 2407,
+      "contactId": 7232,
+      "name": "Blick-Tremblay"
     },
     {
-      "PrimaryKey": 957,
+      "PrimaryKey": 4494,
       "EntityName": "sale",
-      "saleId": 957,
-      "contactId": 6052,
-      "name": "Howell-Morissette"
+      "saleId": 4494,
+      "contactId": 755,
+      "name": "Hackett Group"
     }
   ]
 }

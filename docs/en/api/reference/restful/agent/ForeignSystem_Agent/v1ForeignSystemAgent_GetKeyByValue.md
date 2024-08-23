@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Upton, O'Kon and Dickens",
-  "DeviceName": "Wilderman Inc and Sons",
-  "KeyName": "McKenzie-Jacobs",
-  "KeyValue": "nostrum",
-  "TableName": "Hane Inc and Sons"
+  "ApplicationName": "Stiedemann, Becker and Schmidt",
+  "DeviceName": "Langworth-Kilback",
+  "KeyName": "Mueller Group",
+  "KeyValue": "eos",
+  "TableName": "Dickinson, Sawayn and Hagenes"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "neque",
-  "RecordId": 305,
-  "CreatedDate": "2007-02-12T04:22:26.8755249+01:00",
-  "UpdatedDate": "2010-03-01T04:22:26.8755249+01:00",
-  "UpdatedBy": "cumque",
-  "CreatedBy": "sit",
-  "TableName": "Walsh, Mueller and Jones",
+  "Key": "laboriosam",
+  "Value": "expedita",
+  "RecordId": 418,
+  "CreatedDate": "2015-03-26T13:28:22.8510314+01:00",
+  "UpdatedDate": "2019-04-02T13:28:22.8510314+02:00",
+  "UpdatedBy": "eum",
+  "CreatedBy": "laborum",
+  "TableName": "Schoen, McClure and Windler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 912
     }
   }
 }

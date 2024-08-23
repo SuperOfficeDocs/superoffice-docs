@@ -3,9 +3,9 @@ uid: TicketShadowSelectionCombined
 title: TicketShadowSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: TicketShadowSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "TicketShadowSelectionCombined"
@@ -763,7 +763,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionCombined?$select=person/personExtra/x_person_user_relation,person/correspondingAssociate/lastName,contact/associateId,contact/contactAssociate/userName,contact/contactExtra/x_contact_dropdown
+GET /api/v1/archive/TicketShadowSelectionCombined?$select=projectId,person/personExtra/y_rental/x_amount,contact/name,contact/contactAssociate/role,sale/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

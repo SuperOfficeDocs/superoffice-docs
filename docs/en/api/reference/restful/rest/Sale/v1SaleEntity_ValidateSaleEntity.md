@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "inventore",
+  "SaleText": "expedita",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-12-01T04:22:35.424107+01:00",
-  "Amount": 15914.452,
-  "SaleId": 183,
-  "Earning": 30923.178,
-  "EarningPercent": 23486.196,
-  "Heading": "explicabo",
-  "Number": "1283795",
-  "Probability": 377,
-  "CreatedDate": "2007-10-10T04:22:35.424107+02:00",
-  "UpdatedDate": "2012-03-13T04:22:35.424107+01:00",
+  "Saledate": "2003-11-12T13:28:32.1948816+01:00",
+  "Amount": 5998.476,
+  "SaleId": 999,
+  "Earning": 30644.252,
+  "EarningPercent": 6622.142,
+  "Heading": "eum",
+  "Number": "1387608",
+  "Probability": 658,
+  "CreatedDate": "2013-05-29T13:28:32.1948816+02:00",
+  "UpdatedDate": "2002-08-05T13:28:32.1948816+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 342,
+  "ActiveLinks": 846,
   "Links": [
     {
-      "EntityName": "Pagac Inc and Sons",
-      "Id": 960,
-      "Description": "Team-oriented grid-enabled open system",
-      "ExtraInfo": "laudantium",
-      "LinkId": 679
+      "EntityName": "Price-Rowe",
+      "Id": 100,
+      "Description": "Secured directional artificial intelligence",
+      "ExtraInfo": "minus",
+      "LinkId": 328
     },
     {
-      "EntityName": "Pagac Inc and Sons",
-      "Id": 960,
-      "Description": "Team-oriented grid-enabled open system",
-      "ExtraInfo": "laudantium",
-      "LinkId": 679
+      "EntityName": "Price-Rowe",
+      "Id": 100,
+      "Description": "Secured directional artificial intelligence",
+      "ExtraInfo": "minus",
+      "LinkId": 328
     }
   ],
-  "NextDueDate": "2021-03-29T04:22:35.424107+02:00",
-  "Postit": "et",
+  "NextDueDate": "2015-02-16T13:28:32.1948816+01:00",
+  "Postit": "autem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2023-10-14T04:22:35.424107+02:00",
+  "ReopenDate": "2018-10-13T13:28:32.1948816+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Casper-McDermott",
-      "Comment": "dolor",
-      "StakeholderRoleId": 61,
-      "CountryId": 547,
-      "PersonId": 394,
-      "EmailDescription": "antonietta@jacobi.com",
-      "EmailId": 442,
-      "EmailAddress": "melvin@considine.ca",
-      "PhoneId": 693,
-      "ContactName": "Farrell-Volkman",
-      "ContactId": 331,
-      "SaleId": 813,
-      "Mrmrs": "nihil",
-      "Firstname": "Nash",
-      "MiddleName": "Cruickshank, Koch and Adams",
-      "Lastname": "Hudson",
-      "SaleStakeholderId": 625,
-      "Rank": 751,
-      "Phone": "746-496-5323"
+      "StakeholderRoleName": "Jacobs-Harvey",
+      "Comment": "quis",
+      "StakeholderRoleId": 173,
+      "CountryId": 120,
+      "PersonId": 79,
+      "EmailDescription": "jackson@schaefer.uk",
+      "EmailId": 986,
+      "EmailAddress": "jasmin.lubowitz@west.ca",
+      "PhoneId": 534,
+      "ContactName": "Bahringer LLC",
+      "ContactId": 561,
+      "SaleId": 447,
+      "Mrmrs": "consectetur",
+      "Firstname": "Hardy",
+      "MiddleName": "Schamberger, Jerde and Rolfson",
+      "Lastname": "White",
+      "SaleStakeholderId": 579,
+      "Rank": 376,
+      "Phone": "(088)294-8154 x143"
     }
   ],
-  "ActiveErpLinks": 320,
+  "ActiveErpLinks": 449,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "468926873"
+    "SuperOffice:1": "1932535010",
+    "SuperOffice:2": "412260799"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "non",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "atque",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "2022-07-23T04:22:35.424107+02:00",
-  "PublishTo": "2016-01-17T04:22:35.424107+01:00",
-  "PublishFrom": "2016-02-21T04:22:35.424107+01:00",
+  "PublishEventDate": "2011-11-23T13:28:32.1948816+01:00",
+  "PublishTo": "2021-12-31T13:28:32.1948816+01:00",
+  "PublishFrom": "2000-11-05T13:28:32.1948816+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "consequatur"
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "consequatur"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "vero",
-  "2": "pariatur"
+  "1": "sunt",
+  "2": "sequi"
 }
 ```

@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 587,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 170,
-  "UdListDefinitionId": 29
+  "HeadingId": 433,
+  "Name": "Mosciski LLC",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "Rank": 451,
+  "UdListDefinitionId": 470
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 538,
-  "Name": "Koch, Herman and Gusikowski",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "Rank": 919,
-  "UdListDefinitionId": 623,
+  "HeadingId": 621,
+  "Name": "Wehner, Huels and Hirthe",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 995,
+  "UdListDefinitionId": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

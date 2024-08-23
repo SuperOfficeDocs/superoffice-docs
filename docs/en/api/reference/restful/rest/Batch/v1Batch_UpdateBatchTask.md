@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Wyman, Nolan and Johnson",
-  "AssociateId": 777,
-  "DetailsTable": 287,
-  "DetailsRecord": 470,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 823,
+  "Name": "Robel-Swaniawski",
+  "AssociateId": 4,
+  "DetailsTable": 897,
+  "DetailsRecord": 430,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "omnis",
-    "ParameterObject2": "et"
+    "ParameterObject1": "possimus",
+    "ParameterObject2": "aspernatur"
   },
-  "LastStarted": "2008-03-12T04:22:35.6116053+01:00",
-  "Created": "2011-06-05T04:22:35.6116053+02:00",
-  "StartCount": 44,
-  "DatabaseSerialNumber": "870422",
-  "Context": "error",
-  "Result": "illum",
+  "LastStarted": "2005-02-24T13:28:32.4292054+01:00",
+  "Created": "2003-12-20T13:28:32.4292054+01:00",
+  "StartCount": 232,
+  "DatabaseSerialNumber": "1467962",
+  "Context": "voluptatem",
+  "Result": "repudiandae",
   "State": "All",
-  "Description": "Realigned real-time support",
-  "Response": "vero",
-  "Request": "non",
-  "ProgressDescription": "Re-engineered maximized benchmark",
-  "ProgressPercent": 371,
-  "FileName": "Sauer, Bednar and Parisian",
+  "Description": "Switchable dynamic initiative",
+  "Response": "eum",
+  "Request": "ut",
+  "ProgressDescription": "Streamlined impactful capacity",
+  "ProgressPercent": 792,
+  "FileName": "Schuster, Emard and Harvey",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Kunze-Spencer",
-  "AssociateId": 762,
-  "DetailsTable": 74,
-  "DetailsRecord": 943,
+  "Id": 400,
+  "Name": "Dicki, Gerhold and Kozey",
+  "AssociateId": 930,
+  "DetailsTable": 322,
+  "DetailsRecord": 474,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "blanditiis",
-    "ParameterObject2": "sunt"
+    "ParameterObject1": "molestiae",
+    "ParameterObject2": "est"
   },
-  "LastStarted": "2016-06-19T04:22:35.6116053+02:00",
-  "Created": "2006-11-19T04:22:35.6116053+01:00",
-  "StartCount": 690,
-  "DatabaseSerialNumber": "1596428",
-  "Context": "dicta",
-  "Result": "consequuntur",
+  "LastStarted": "1999-12-13T13:28:32.4292054+01:00",
+  "Created": "2013-10-27T13:28:32.4292054+01:00",
+  "StartCount": 538,
+  "DatabaseSerialNumber": "1045704",
+  "Context": "velit",
+  "Result": "velit",
   "State": "All",
-  "Description": "Object-based fault-tolerant synergy",
-  "Response": "cupiditate",
-  "Request": "omnis",
-  "ProgressDescription": "Object-based object-oriented frame",
-  "ProgressPercent": 420,
-  "FileName": "Langworth-Friesen",
+  "Description": "Quality-focused even-keeled hub",
+  "Response": "corrupti",
+  "Request": "et",
+  "ProgressDescription": "Balanced attitude-oriented productivity",
+  "ProgressPercent": 948,
+  "FileName": "Hirthe-Spinka",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 337
     }
   }
 }

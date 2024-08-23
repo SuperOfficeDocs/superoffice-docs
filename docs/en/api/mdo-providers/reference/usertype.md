@@ -3,9 +3,9 @@ uid: usertype
 title: usertype
 keywords: mdoprovider mdo provider usertype
 description: Simple, hard-coded provider for the associate type - Employee, ExternalPerson, Resource, Anonymous, System, Invalid User Type
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "usertype" MDO List

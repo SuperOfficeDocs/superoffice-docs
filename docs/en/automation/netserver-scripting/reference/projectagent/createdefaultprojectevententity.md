@@ -2,10 +2,10 @@
 uid: projectagent-createdefaultprojectevententity
 title: ProjectAgent.CreateDefaultProjectEventEntity event method
 description: Scripting events called on the CreateDefaultProjectEventEntity method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.CreateDefaultProjectEventEntity
 

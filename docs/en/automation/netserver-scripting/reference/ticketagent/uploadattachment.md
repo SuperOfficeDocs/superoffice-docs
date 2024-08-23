@@ -2,10 +2,10 @@
 uid: ticketagent-uploadattachment
 title: TicketAgent.UploadAttachment event method
 description: Scripting events called on the UploadAttachment method on the TicketAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # TicketAgent.UploadAttachment
 

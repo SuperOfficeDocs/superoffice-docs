@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 993
+  "AppointmentId": 427
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 671,
-  "StartDate": "2010-09-03T04:22:25.558472+02:00",
-  "EndDate": "2005-10-27T04:22:25.558472+02:00",
+  "AppointmentId": 165,
+  "StartDate": "2007-03-14T13:28:21.4448873+01:00",
+  "EndDate": "2012-12-17T13:28:21.4448873+01:00",
   "Type": "BookingForChecklist",
-  "Task": "beatae",
-  "AssociateFullName": "Miller Ziemann",
-  "ContactName": "Mraz, Mitchell and Klein",
-  "Description": "Upgradable dynamic orchestration",
-  "PersonFullName": "Ms. Elna Carley Lehner IV",
-  "PersonId": 216,
-  "ContactId": 737,
-  "ProjectId": 520,
-  "ProjectName": "Okuneva-Hegmann",
+  "Task": "sed",
+  "AssociateFullName": "Kathryne Eveline Hartmann IV",
+  "ContactName": "Tromp Group",
+  "Description": "Down-sized zero tolerance capacity",
+  "PersonFullName": "Barbara McDermott",
+  "PersonId": 796,
+  "ContactId": 188,
+  "ProjectId": 930,
+  "ProjectName": "Bartell-Trantow",
   "IsPublished": false,
-  "AssociateId": 151,
-  "ColorIndex": 324,
+  "AssociateId": 163,
+  "ColorIndex": 938,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 920,
-  "PriorityName": "Swaniawski-Stamm",
+  "PriorityId": 441,
+  "PriorityName": "Senger-Stark",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2017-05-29T04:22:25.558472+02:00",
+  "ActiveDate": "2002-09-09T13:28:21.4448873+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2001-06-05T04:22:25.558472+02:00",
-  "RecurringEndDate": "2018-02-02T04:22:25.558472+01:00",
-  "MotherId": 871,
-  "AssignedBy": 808,
-  "AssignedByFullName": "Royal Hermann",
+  "RecurringStartDate": "2020-12-08T13:28:21.4448873+01:00",
+  "RecurringEndDate": "2007-12-25T13:28:21.4448873+01:00",
+  "MotherId": 380,
+  "AssignedBy": 624,
+  "AssignedByFullName": "D'angelo Crooks",
   "RejectReason": "",
-  "Location": "nobis",
-  "AlarmLeadTime": "atque",
-  "SaleId": 685,
-  "SaleName": "Cole-Kreiger",
-  "AssociateName": "Heller, Veum and Rolfson",
-  "CreatedDate": "2013-05-10T04:22:25.558472+02:00",
-  "CreatedBy": "aperiam",
-  "CreatedByFullName": "Jacinto Toy",
-  "CreatedByAssociateId": 110,
+  "Location": "aut",
+  "AlarmLeadTime": "error",
+  "SaleId": 421,
+  "SaleName": "Nader, Pfeffer and Schamberger",
+  "AssociateName": "O'Connell-Gulgowski",
+  "CreatedDate": "2001-03-30T13:28:21.4448873+02:00",
+  "CreatedBy": "et",
+  "CreatedByFullName": "Jake Bosco",
+  "CreatedByAssociateId": 178,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 926,
-  "Title": "recusandae",
-  "Agenda": "saepe",
-  "InternalNotes": "adipisci",
+  "PreferredTZLocation": 547,
+  "Title": "odio",
+  "Agenda": "animi",
+  "InternalNotes": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 741
     }
   }
 }

@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 45,
-  "Name": "Koepp, Fahey and Corkery",
+  "TicketStatusId": 809,
+  "Name": "Leffler Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 767,
-  "Name": "Von-Jones",
+  "TicketStatusId": 495,
+  "Name": "Marquardt-Wunsch",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   }
 }

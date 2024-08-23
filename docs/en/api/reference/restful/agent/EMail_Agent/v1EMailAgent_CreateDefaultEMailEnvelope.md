@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 693,
-  "MessageId": "et",
-  "Subject": "sit",
+  "ServerId": 697,
+  "MessageId": "sed",
+  "Subject": "dolore",
   "From": null,
   "To": [
     {
-      "ContactId": 309,
-      "ContactName": "Stehr-Ankunding",
-      "PersonId": 319,
-      "PersonName": "Zulauf Inc and Sons",
-      "AssociateId": 714,
-      "Address": "ut",
-      "EmailId": 882,
+      "ContactId": 868,
+      "ContactName": "Wyman Group",
+      "PersonId": 783,
+      "PersonName": "Sanford, Hammes and Kshlerin",
+      "AssociateId": 565,
+      "Address": "facilis",
+      "EmailId": 408,
       "DuplicatePersonIds": [
-        96,
-        690
+        908,
+        551
       ],
-      "Name": "Davis, Nader and Conroy",
+      "Name": "Russel-Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldLength": 651
         }
       }
     }
   ],
-  "Sent": "2016-11-10T04:22:26.7178597+01:00",
+  "Sent": "2005-03-14T13:28:22.6791961+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 815,
+  "Size": 645,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldLength": 97
     }
   }
 }

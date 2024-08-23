@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "pariatur",
+      "RawValue": "voluptatem",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "nobis",
+      "DisplayValue": "labore",
+      "DisplayTooltip": "blanditiis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 642,
-      "PrefDescId": 993,
-      "TableName": "Graham Inc and Sons",
-      "UserPreferenceId": 256
+      "TargetId": 455,
+      "PrefDescId": 614,
+      "TableName": "Heathcote, Nicolas and Doyle",
+      "UserPreferenceId": 530
     }
   ]
 }

@@ -3,9 +3,9 @@ uid: EmailFlows
 title: EmailFlows
 description: Archive of Email flows.
 keywords: EmailFlows archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "EmailFlows"
@@ -28,19 +28,19 @@ Lists all email flows
 |emailFlowId|int|Email flow Id: The database Id of the email flow| x |
 |emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
-|overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this workflow?| x |
+|overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
 |thumbnail| *None* |Thumbnail|  |
 |mediumThumbnail| *None* |Thumbnail|  |
-|workflowId|int|Workflow id: Id of a worflow definition| x |
-|workflowName|string|Name: Name of the workflow definition| x |
-|workflowDescription|string|Description: Description of the workflow definition| x |
-|workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
+|workflowId|int|Flow id: Id of a flow definition| x |
+|workflowName|string|Name: Name of the flow definition| x |
+|workflowDescription|string|Description: Description of flow definition| x |
+|workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
 |jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
-|startOnlyOnce|bool|Start only once: Should the participant enter the workflow only once?| x |
-|workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
+|startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
 |workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
 |workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|workflowSucceededCount| *None* |Succeeded: How many participants has successfully finished the workflow (goals criteria met)|  |
+|workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
 |workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -87,7 +87,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=updatedDate,workflowAssociate/title
+GET /api/v1/archive/EmailFlows?$select=workflowDefinitionStatus,updatedDate,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

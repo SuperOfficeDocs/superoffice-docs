@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Mosciski Inc and Sons",
-  "Tooltip": "recusandae",
+  "Id": 265,
+  "Name": "Nicolas-Durgan",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 889,
+  "Rank": 810,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "Rutherford-Stracke",
-  "Tooltip": "perspiciatis",
+  "Id": 133,
+  "Name": "Hane LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 4,
+  "Rank": 8,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "ListType": "atque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

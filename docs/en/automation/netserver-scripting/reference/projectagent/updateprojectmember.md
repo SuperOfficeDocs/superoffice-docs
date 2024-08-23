@@ -2,10 +2,10 @@
 uid: projectagent-updateprojectmember
 title: ProjectAgent.UpdateProjectMember event method
 description: Scripting events called on the UpdateProjectMember method on the ProjectAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ProjectAgent.UpdateProjectMember
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 49,
-    "Name": "Christiansen, Collier and Corwin",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 140,
-    "UdListDefinitionId": 337,
+    "HeadingId": 793,
+    "Name": "Herman-Leuschke",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 958,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

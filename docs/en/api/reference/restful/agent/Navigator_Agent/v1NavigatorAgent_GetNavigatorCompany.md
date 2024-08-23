@@ -26,7 +26,7 @@ Gets a NavigatorCompany object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=668
+POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=146
 POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 96,
-  "Value": "ea",
-  "Tooltip": "ut",
+  "Id": 414,
+  "Value": "doloribus",
+  "Tooltip": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldLength": 606
     }
   }
 }

@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 421,
-  "RecurrenceRuleId": 449
+  "MotherId": 927,
+  "RecurrenceRuleId": 905
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 666,
-    "StartDate": "2001-04-15T04:22:25.6834441+02:00",
-    "EndDate": "2015-07-11T04:22:25.6834441+02:00",
+    "AppointmentId": 244,
+    "StartDate": "2018-06-27T13:28:21.4605072+02:00",
+    "EndDate": "2011-01-26T13:28:21.4605072+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Abdiel Alessia Monahan DVM",
-    "ContactName": "Cole-Reichert",
-    "Description": "Profound mobile database",
-    "PersonFullName": "Brandy Pouros",
-    "PersonId": 769,
-    "ContactId": 294,
-    "ProjectId": 412,
-    "ProjectName": "Hamill-Beer",
-    "IsPublished": true,
-    "AssociateId": 477,
-    "ColorIndex": 40,
+    "Task": "facilis",
+    "AssociateFullName": "Madyson Paucek",
+    "ContactName": "Waelchi Group",
+    "Description": "Focused attitude-oriented interface",
+    "PersonFullName": "Dr. Carolina O'Hara Sr.",
+    "PersonId": 992,
+    "ContactId": 575,
+    "ProjectId": 42,
+    "ProjectName": "Gulgowski, Emard and Blanda",
+    "IsPublished": false,
+    "AssociateId": 525,
+    "ColorIndex": 454,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 575,
-    "PriorityName": "Runolfsdottir Group",
+    "PriorityId": 709,
+    "PriorityName": "Stracke Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2010-08-04T04:22:25.6834441+02:00",
+    "ActiveDate": "2022-05-08T13:28:21.4605072+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-02-10T04:22:25.6834441+01:00",
-    "RecurringEndDate": "2022-12-06T04:22:25.6834441+01:00",
-    "MotherId": 249,
-    "AssignedBy": 234,
-    "AssignedByFullName": "Ms. Francesco Elmer Block",
-    "RejectReason": "expedite transparent applications",
-    "Location": "dolore",
-    "AlarmLeadTime": "et",
-    "SaleId": 890,
-    "SaleName": "Thiel, Glover and Stanton",
-    "AssociateName": "Kuhic LLC",
-    "CreatedDate": "2016-03-09T04:22:25.6834441+01:00",
-    "CreatedBy": "exercitationem",
-    "CreatedByFullName": "Roberta Schuppe",
-    "CreatedByAssociateId": 718,
+    "RecurringStartDate": "2006-08-01T13:28:21.4605072+02:00",
+    "RecurringEndDate": "2003-09-10T13:28:21.4605072+02:00",
+    "MotherId": 645,
+    "AssignedBy": 895,
+    "AssignedByFullName": "Jordyn Bailey",
+    "RejectReason": "",
+    "Location": "voluptas",
+    "AlarmLeadTime": "sapiente",
+    "SaleId": 194,
+    "SaleName": "Wolf, Schneider and Jerde",
+    "AssociateName": "Rohan-Metz",
+    "CreatedDate": "2005-11-21T13:28:21.4605072+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Ferne Wiza",
+    "CreatedByAssociateId": 222,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 484,
-    "Title": "et",
-    "Agenda": "ut",
-    "InternalNotes": "inventore",
+    "PreferredTZLocation": 572,
+    "Title": "dolore",
+    "Agenda": "et",
+    "InternalNotes": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 779
       }
     }
   }

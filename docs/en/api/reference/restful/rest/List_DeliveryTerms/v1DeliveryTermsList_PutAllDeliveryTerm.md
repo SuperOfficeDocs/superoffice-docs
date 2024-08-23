@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Rosenbaum-Sipes",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 58,
-    "Rank": 604
+    "Id": 705,
+    "Name": "Heaney, Conroy and Wilkinson",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 104,
+    "Rank": 669
   },
   {
-    "Id": 201,
-    "Name": "Rosenbaum-Sipes",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "UdListDefinitionId": 58,
-    "Rank": 604
+    "Id": 705,
+    "Name": "Heaney, Conroy and Wilkinson",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 104,
+    "Rank": 669
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Hermiston, Sawayn and Marks",
-    "Tooltip": "sed",
+    "Id": 596,
+    "Name": "Bode, Brakus and Altenwerth",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 861,
-    "Rank": 338,
+    "UdListDefinitionId": 681,
+    "Rank": 281,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 459
       }
     }
   }

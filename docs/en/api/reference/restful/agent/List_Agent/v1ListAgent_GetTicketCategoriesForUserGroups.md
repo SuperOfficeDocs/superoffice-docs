@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    696,
-    716
+    589,
+    294
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "O'Conner Inc and Sons",
-    "ToolTip": "Ad quam exercitationem.",
+    "Id": 919,
+    "Name": "Batz, Metz and Cormier",
+    "ToolTip": "Possimus pariatur recusandae dolorem vitae et ullam sit.",
     "Deleted": false,
-    "Rank": 907,
-    "Type": "repudiandae",
+    "Rank": 581,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Torp-Sanford",
-        "ToolTip": "Nemo quo quisquam blanditiis et.",
+        "Id": 180,
+        "Name": "Kuphal Group",
+        "ToolTip": "Dolores fugit vel occaecati.",
         "Deleted": false,
-        "Rank": 405,
-        "Type": "voluptatem",
+        "Rank": 780,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 669,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "quis",
-        "FullName": "Mrs. Iva Zion Crist",
+        "IconHint": "aut",
+        "ColorBlock": 959,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "laudantium",
+        "FullName": "Mrs. Darren Gottlieb PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 984
+            "FieldType": "System.Int32",
+            "FieldLength": 787
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 325,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "blanditiis",
-    "FullName": "Ida Herbert Shanahan PhD",
+    "IconHint": "cumque",
+    "ColorBlock": 89,
+    "ExtraInfo": "et",
+    "StyleHint": "officia",
+    "FullName": "Shyann Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 384
       }
     }
   }

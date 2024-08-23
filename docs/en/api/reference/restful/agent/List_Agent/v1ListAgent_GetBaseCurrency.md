@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 206,
-  "Name": "Miller, Spinka and Upton",
-  "Tooltip": "reiciendis",
-  "Rank": 728,
-  "Rate": 9790.616,
-  "Units": 24269.696,
+  "CurrencyId": 478,
+  "Name": "Jerde LLC",
+  "Tooltip": "nesciunt",
+  "Rank": 678,
+  "Rate": 15638.66,
+  "Units": 22138.576,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 629
     }
   }
 }

@@ -3,9 +3,9 @@ uid: SimpleSale
 title: SimpleSale
 description: 
 keywords: SimpleSale archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "SimpleSale"
@@ -621,7 +621,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=getNoRows,person/personUdef/SuperOffice:7,person/personAssociate/credentialDisplayValue
+GET /api/v1/archive/SimpleSale?$select=person/personNoMail,person/whenUpdatedByWorkflow,person/personMobilePhone/description,person/email/emailId,person/personExtra/x_person_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

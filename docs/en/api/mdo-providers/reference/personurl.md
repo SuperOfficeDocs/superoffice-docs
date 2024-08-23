@@ -3,9 +3,9 @@ uid: personurl
 title: personurl
 keywords: mdoprovider mdo provider personurl
 description: List of urls (web pages) matching the search value, possibly restricted to a given company or person.
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "personurl" MDO List

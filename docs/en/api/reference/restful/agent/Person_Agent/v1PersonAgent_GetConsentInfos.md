@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 106
+  "PersonId": 829
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 1002,
-    "Comment": "quam",
-    "Registered": "2023-11-21T04:22:27.2216178+01:00",
-    "RegisteredAssociateId": 59,
-    "Updated": "2008-05-29T04:22:27.2216178+02:00",
-    "UpdatedAssociateId": 242,
-    "LegalBaseId": 917,
-    "LegalBaseKey": "aut",
-    "LegalBaseName": "Shields LLC",
-    "ConsentPurposeId": 362,
-    "ConsentPurposeKey": "hic",
-    "ConsentPurposeName": "Willms, Luettgen and Langosh",
-    "ConsentSourceId": 243,
-    "ConsentSourceKey": "accusantium",
-    "ConsentSourceName": "VonRueden LLC",
+    "ConsentPersonId": 89,
+    "Comment": "magni",
+    "Registered": "2007-04-30T13:28:23.2105886+02:00",
+    "RegisteredAssociateId": 205,
+    "Updated": "2024-03-25T13:28:23.2105886+01:00",
+    "UpdatedAssociateId": 386,
+    "LegalBaseId": 578,
+    "LegalBaseKey": "fugit",
+    "LegalBaseName": "Kautzer, Beahan and Flatley",
+    "ConsentPurposeId": 958,
+    "ConsentPurposeKey": "cupiditate",
+    "ConsentPurposeName": "Schneider-Boyer",
+    "ConsentSourceId": 148,
+    "ConsentSourceKey": "vero",
+    "ConsentSourceName": "Weimann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldType": "System.Int32",
+        "FieldLength": 576
       }
     }
   }

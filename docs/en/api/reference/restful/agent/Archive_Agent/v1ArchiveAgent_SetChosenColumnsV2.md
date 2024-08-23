@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schaefer-Waters",
-  "ProviderName": "Fritsch-Champlin",
-  "Context": "nemo",
-  "OwnerKeys": "soluta",
+  "GuiName": "Murazik Group",
+  "ProviderName": "Swaniawski Group",
+  "Context": "iure",
+  "OwnerKeys": "dolorum",
   "ChosenColumns": [
-    "cumque",
-    "iusto"
+    "molestiae",
+    "quis"
   ]
 }
 ```

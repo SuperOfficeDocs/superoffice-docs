@@ -25,7 +25,7 @@ Gets all the Reason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Reason/Items?includeDeleted=True
+GET /api/v1/List/Reason/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Weimann, Schoen and Maggio",
-    "Tooltip": "ullam",
+    "Id": 170,
+    "Name": "Hammes, Gulgowski and Hamill",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 777,
-    "Rank": 405,
+    "UdListDefinitionId": 329,
+    "Rank": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldLength": 282
       }
     }
   }

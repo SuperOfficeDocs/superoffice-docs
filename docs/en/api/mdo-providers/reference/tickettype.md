@@ -3,9 +3,9 @@ uid: tickettype
 title: tickettype
 keywords: mdoprovider mdo provider tickettype
 description: TicketTypeProvider creates a flat list based on the table - TICKET_TYPE
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "tickettype" MDO List
@@ -50,7 +50,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Request||isDefault=1&description=&defaultStatus=0&defaultPriority=0&showInNew=0&excludeSignature=0&excludeEmailRecipients=0&externalAsDefault=0|
+|1|Request||isDefault=1&description=&defaultStatus=0&defaultPriority=0&showInNew=0&excludeSignature=0&excludeEmailRecipients=0&externalAsDefault=0&replyForwardNoSignature=0&replyExternalAsDefault=0|
 
 
 ## Related MDO Lists

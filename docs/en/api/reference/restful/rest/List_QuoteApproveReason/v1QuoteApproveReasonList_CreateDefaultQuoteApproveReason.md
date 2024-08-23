@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Dicki-Leuschke",
-  "Tooltip": "mollitia",
+  "Id": 400,
+  "Name": "Jacobi Group",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 379,
-  "Rank": 119,
+  "UdListDefinitionId": 584,
+  "Rank": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 278
     }
   }
 }

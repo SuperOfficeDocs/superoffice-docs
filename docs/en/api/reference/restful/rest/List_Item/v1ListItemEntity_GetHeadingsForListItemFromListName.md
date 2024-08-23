@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Harris, Toy and Sanford",
-    "ToolTip": "Dolorem quae nobis eos facilis.",
+    "Id": 233,
+    "Name": "Pfannerstill LLC",
+    "ToolTip": "Ex consectetur earum qui.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "atque",
-    "ColorBlock": 354,
-    "IconHint": "occaecati",
+    "Rank": 129,
+    "Type": "quo",
+    "ColorBlock": 131,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2007-07-26T04:22:35.7834778+02:00",
+    "LastChanged": "1999-04-02T13:28:32.6479022+02:00",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Gerhold-Howe",
-        "ToolTip": "Id quisquam odit aspernatur voluptatem sed magni sit.",
+        "Id": 183,
+        "Name": "Collier, Reinger and Jones",
+        "ToolTip": "Voluptatum voluptas occaecati velit nobis voluptatem.",
         "Deleted": false,
-        "Rank": 983,
-        "Type": "praesentium",
-        "ColorBlock": 71,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2024-03-09T04:22:35.7834778+01:00",
+        "Rank": 263,
+        "Type": "possimus",
+        "ColorBlock": 706,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-07-12T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "est",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Mr. Maggie Oscar Kozey",
+        "FullName": "Prof. Haskell Alysson Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldType": "System.String",
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Prof. Kamren Stuart West V",
+    "ExtraInfo": "sit",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Elliot Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldLength": 620
       }
     }
   }

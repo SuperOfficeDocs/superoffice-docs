@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Sale/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 619
+  "SaleId": 405
 }
 ```
 

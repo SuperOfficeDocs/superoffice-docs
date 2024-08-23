@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 677
+  "QuoteId": 281
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 721,
-  "SaleId": 479,
-  "QuoteConnectionId": 641,
-  "ERPQuoteKey": "soluta",
-  "ERPOrderKey": "nisi",
-  "ActiveQuoteVersionId": 783,
-  "AcceptedQuoteAlternativeId": 111,
-  "UseValuesFromQuote": 473,
-  "DocumentId": 997,
-  "PoNumber": "619288",
-  "OrderComment": "nulla",
-  "PreferredEmailCulture": "martin_reilly@kutch.uk",
+  "QuoteId": 539,
+  "SaleId": 396,
+  "QuoteConnectionId": 345,
+  "ERPQuoteKey": "placeat",
+  "ERPOrderKey": "nostrum",
+  "ActiveQuoteVersionId": 793,
+  "AcceptedQuoteAlternativeId": 565,
+  "UseValuesFromQuote": 992,
+  "DocumentId": 745,
+  "PoNumber": "1075421",
+  "OrderComment": "debitis",
+  "PreferredEmailCulture": "andrew_fisher@nicolaserdman.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 175,
-      "ERPQuoteVersionKey": "blanditiis",
-      "QuoteId": 405,
-      "Description": "Fully-configurable 6th generation moderator",
-      "Number": "1864402",
+      "QuoteVersionId": 573,
+      "ERPQuoteVersionKey": "adipisci",
+      "QuoteId": 53,
+      "Description": "Programmable multi-tasking data-warehouse",
+      "Number": "1014511",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 340,
-      "SentDate": "2013-09-24T04:22:27.4247427+02:00",
-      "FollowupId": 388,
-      "ExpirationDate": "2011-11-13T04:22:27.4247427+01:00",
-      "DeliveryCountryId": 345,
+      "LikelyQuoteAlternativeId": 38,
+      "SentDate": "2015-08-28T13:28:23.5698866+02:00",
+      "FollowupId": 988,
+      "ExpirationDate": "2022-07-27T13:28:23.5698866+02:00",
+      "DeliveryCountryId": 363,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 49,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "rerum",
-      "ERPPaymentTypeKey": "est",
-      "ERPDeliveryTermsKey": "eligendi",
-      "ERPDeliveryTypeKey": "enim",
-      "Rank": 351,
-      "ApprovedBy": 425,
-      "ApprovedText": "provident",
-      "ApprovedRegisteredBy": 192,
-      "ApprovedRegisteredDate": "2011-06-18T04:22:27.4247427+02:00",
-      "ExtraField1": "qui",
-      "ExtraField2": "ut",
-      "ExtraField3": "non",
-      "ExtraField4": "sapiente",
-      "ExtraField5": "quibusdam",
-      "LastRecalculated": "1997-12-23T04:22:27.4247427+01:00",
-      "Updated": "1999-07-19T04:22:27.4247427+02:00",
-      "UpdatedAssociateId": 845,
-      "Registered": "2018-10-17T04:22:27.4247427+02:00",
-      "RegisteredAssociateId": 917,
-      "RequestAssociateId": 609,
-      "RequestComment": "quae",
+      "InvoiceCountryId": 81,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "asperiores",
+      "ERPPaymentTypeKey": "voluptas",
+      "ERPDeliveryTermsKey": "eum",
+      "ERPDeliveryTypeKey": "sed",
+      "Rank": 305,
+      "ApprovedBy": 995,
+      "ApprovedText": "reprehenderit",
+      "ApprovedRegisteredBy": 65,
+      "ApprovedRegisteredDate": "2006-02-13T13:28:23.5698866+01:00",
+      "ExtraField1": "exercitationem",
+      "ExtraField2": "quia",
+      "ExtraField3": "porro",
+      "ExtraField4": "blanditiis",
+      "ExtraField5": "optio",
+      "LastRecalculated": "2007-08-07T13:28:23.5698866+02:00",
+      "Updated": "2009-02-23T13:28:23.5698866+01:00",
+      "UpdatedAssociateId": 38,
+      "Registered": "1997-08-11T13:28:23.5698866+02:00",
+      "RegisteredAssociateId": 20,
+      "RequestAssociateId": 52,
+      "RequestComment": "dolorem",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 221
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

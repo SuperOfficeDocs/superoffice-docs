@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 999,
-  "Name": "Mante Group",
-  "Tooltip": "placeat",
-  "Rank": 523,
-  "Rate": 5167.9659999999994,
-  "Units": 2557.344,
+  "CurrencyId": 452,
+  "Name": "Koss, Dickens and Watsica",
+  "Tooltip": "aperiam",
+  "Rank": 391,
+  "Rate": 11934.271999999999,
+  "Units": 21298.664,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 364,
-  "Name": "Bailey LLC",
-  "Tooltip": "eum",
-  "Rank": 64,
-  "Rate": 9514.824,
-  "Units": 25410.471999999998,
-  "Deleted": true,
+  "CurrencyId": 470,
+  "Name": "Pouros, Feest and Conn",
+  "Tooltip": "qui",
+  "Rank": 89,
+  "Rate": 29879.556,
+  "Units": 26717.35,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 963
     }
   }
 }

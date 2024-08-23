@@ -879,6 +879,7 @@ title: Services88.DocumentAgent WSDL
           <xs:enumeration value="Mime" />
           <xs:enumeration value="OpenDocument" />
           <xs:enumeration value="OpenDocumentXml" />
+          <xs:enumeration value="MsWord2007" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="GeneratorEncoding" nillable="true" type="tns:GeneratorEncoding" />

@@ -2,10 +2,10 @@
 uid: webhookagent-deletewebhook
 title: WebhookAgent.DeleteWebhook event method
 description: Scripting events called on the DeleteWebhook method on the WebhookAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # WebhookAgent.DeleteWebhook
 

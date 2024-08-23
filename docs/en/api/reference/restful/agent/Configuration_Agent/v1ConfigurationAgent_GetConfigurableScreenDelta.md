@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=133
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=225
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 947,
-  "Name": "Schimmel-Cummings",
-  "Description": "Quality-focused mobile toolset",
-  "DeltaJson": "ab",
+  "ConfigurableScreenDeltaId": 356,
+  "Name": "Conroy Group",
+  "Description": "Future-proofed motivating neural-net",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2014-03-09T04:22:26.1684694+01:00",
-  "CreatedDate": "2006-07-10T04:22:26.1684694+02:00",
+  "RecipeId": "autem",
+  "UpdatedDate": "2012-06-15T13:28:22.17931+02:00",
+  "CreatedDate": "2012-06-20T13:28:22.17931+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    270,
-    777
+    197,
+    256
   ],
-  "AppliesToKey": "laborum",
+  "AppliesToKey": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 172
     }
   }
 }

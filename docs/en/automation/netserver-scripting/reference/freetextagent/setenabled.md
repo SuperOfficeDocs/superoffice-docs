@@ -2,10 +2,10 @@
 uid: freetextagent-setenabled
 title: FreeTextAgent.SetEnabled event method
 description: Scripting events called on the SetEnabled method on the FreeTextAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # FreeTextAgent.SetEnabled
 

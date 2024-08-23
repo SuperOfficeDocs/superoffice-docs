@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tempora",
+    "path": "ipsam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempora",
+    "path": "ipsam",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 620,
-  "ERPPriceListKey": "ullam",
-  "QuoteConnectionId": 599,
-  "Name": "Brown, Mueller and Smitham",
-  "Description": "Enhanced maximized product",
-  "Currency": "itaque",
-  "CurrencyName": "Hickle, Conroy and Larkin",
-  "ValidFrom": "2000-05-18T04:22:36.0340897+02:00",
-  "ValidTo": "2022-01-23T04:22:36.0340897+01:00",
+  "PriceListId": 61,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 260,
+  "Name": "Corwin-Donnelly",
+  "Description": "Automated regional hardware",
+  "Currency": "quisquam",
+  "CurrencyName": "Bogan LLC",
+  "ValidFrom": "2012-07-15T13:28:32.9447127+02:00",
+  "ValidTo": "2024-02-28T13:28:32.9447127+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

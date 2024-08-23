@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 957,
-  "PrefDescId": 49,
-  "PrefValue": "omnis",
-  "PrefShowValue": "veniam",
-  "Description": "Robust explicit archive",
-  "IsBuiltin": false
+  "PrefDescLineId": 348,
+  "PrefDescId": 871,
+  "PrefValue": "quia",
+  "PrefShowValue": "temporibus",
+  "Description": "Enhanced solution-oriented task-force",
+  "IsBuiltin": true
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 848,
-  "PrefDescId": 94,
-  "PrefValue": "quia",
-  "PrefShowValue": "distinctio",
-  "Description": "Mandatory fresh-thinking neural-net",
+  "PrefDescLineId": 280,
+  "PrefDescId": 109,
+  "PrefValue": "et",
+  "PrefShowValue": "fuga",
+  "Description": "Open-architected exuding data-warehouse",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 866
     }
   }
 }

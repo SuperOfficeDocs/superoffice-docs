@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 983,
-  "Filter": "a"
+  "SelectionId": 671,
+  "Filter": "est"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nikolaus, Jaskolski and Kuphal",
-    "Operator": "aut",
+    "Name": "Rohan Group",
+    "Operator": "et",
     "Values": [
-      "error",
-      "reiciendis"
+      "voluptatem",
+      "accusamus"
     ],
     "DisplayValues": [
-      "velit",
-      "cumque"
+      "rerum",
+      "minima"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "White Inc and Sons",
-        "Operator": "repudiandae",
+        "Name": "Ullrich, Ondricka and Murray",
+        "Operator": "et",
         "Values": [
-          "quas",
-          "sit"
+          "natus",
+          "sed"
         ],
         "DisplayValues": [
-          "iusto",
-          "sint"
+          "eum",
+          "ducimus"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 657,
+        "InterParenthesis": 27,
         "InterOperator": "And",
-        "UniqueHash": 117
+        "UniqueHash": 122
       }
     ],
-    "InterParenthesis": 937,
+    "InterParenthesis": 963,
     "InterOperator": "And",
-    "UniqueHash": 16
+    "UniqueHash": 449
   }
 ]
 ```

@@ -3,9 +3,9 @@ uid: culturesolanguage
 title: culturesolanguage
 keywords: mdoprovider mdo provider culturesolanguage
 description: List of SuperOffice cultures with old-style SO Culture name in ExtraInfo. ( 1031, "German","GE" )
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "culturesolanguage" MDO List

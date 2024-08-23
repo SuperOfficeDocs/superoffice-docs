@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Gutkowski, O'Connell and Gibson",
-    "Tooltip": "nostrum",
+    "HeadingId": 160,
+    "Name": "Ruecker-Auer",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 21,
-    "UdListDefinitionId": 810
+    "Rank": 289,
+    "UdListDefinitionId": 748
   },
   {
-    "HeadingId": 230,
-    "Name": "Gutkowski, O'Connell and Gibson",
-    "Tooltip": "nostrum",
+    "HeadingId": 160,
+    "Name": "Ruecker-Auer",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 21,
-    "UdListDefinitionId": 810
+    "Rank": 289,
+    "UdListDefinitionId": 748
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 484,
-    "Name": "Douglas-Bergstrom",
-    "Tooltip": "commodi",
+    "HeadingId": 129,
+    "Name": "Botsford, Little and Fahey",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 607,
-    "UdListDefinitionId": 4,
+    "Rank": 33,
+    "UdListDefinitionId": 562,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

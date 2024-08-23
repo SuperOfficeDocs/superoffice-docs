@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=482
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=685
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 723,
-  "Name": "Cummerata, Hessel and Hahn",
-  "Description": "Enterprise-wide foreground Graphic Interface",
+  "ReportLabelLayoutId": 270,
+  "Name": "Beer, Gorczany and Paucek",
+  "Description": "Versatile zero tolerance capability",
   "Orientation": "Landscape",
-  "PaperWidth": 965,
-  "PaperHeight": 890,
-  "LeftMargin": 832,
-  "RightMargin": 355,
-  "TopMargin": 711,
-  "BottomMargin": 354,
-  "CountColumns": 574,
-  "CountRows": 102,
+  "PaperWidth": 247,
+  "PaperHeight": 516,
+  "LeftMargin": 648,
+  "RightMargin": 299,
+  "TopMargin": 345,
+  "BottomMargin": 20,
+  "CountColumns": 20,
+  "CountRows": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

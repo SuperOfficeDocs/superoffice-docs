@@ -3,9 +3,9 @@ uid: FreetextTicket
 title: FreetextTicket
 description: Combined multi-query ticket search provider supporting freetext and finding ticket by ID.
 keywords: FreetextTicket archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "FreetextTicket"
@@ -759,7 +759,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=searchwords,createdBy/assocName,person/title,person/associateType,person/isProjectMember
+GET /api/v1/archive/FreetextTicket?$select=person/ticketPriority,person/supportAssociate,person/personAssociate/contactDepartment,person/personAssociate/ejDisplayName,contact/contactExtra/x_contact_short_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -3,9 +3,9 @@ uid: UserOpenTickets
 title: UserOpenTickets
 description: 
 keywords: UserOpenTickets archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "UserOpenTickets"
@@ -756,7 +756,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserOpenTickets?$select=categoryFullName,person/isStakeholder,person/personAssociate/contactFullName,person/personAssociate/ejUserId,person/correspondingAssociate/personId
+GET /api/v1/archive/UserOpenTickets?$select=timeToClose,person/restrictionAddress/wgs84latitude,person/personExtra/y_car/id,contact/postAddress/zip,contact/contactExtra/x_contact_datetime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

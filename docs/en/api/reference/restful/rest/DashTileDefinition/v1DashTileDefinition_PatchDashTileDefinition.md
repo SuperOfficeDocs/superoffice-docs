@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "et",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 134,
-  "Name": "Ebert, Wilderman and Zulauf",
-  "Description": "Customizable methodical collaboration",
-  "DefaultHeight": 764,
-  "DefaultWidth": 648,
+  "DashboardTileDefinitionId": 517,
+  "Name": "Hickle LLC",
+  "Description": "Realigned system-worthy monitoring",
+  "DefaultHeight": 541,
+  "DefaultWidth": 606,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mraz, Hilll and Monahan",
-  "SelectionId": 384,
+  "EntityName": "Mante Group",
+  "SelectionId": 554,
   "CurrencyMode": "Base",
-  "CurrencyCode": "minus",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "dolores",
-  "SortBy": "molestiae",
-  "LayoutConfig": "neque",
-  "SecondarySelectionId": 658,
-  "MeasureByField": "saepe",
+  "MeasureField": "beatae",
+  "SortBy": "voluptatibus",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 1001,
+  "MeasureByField": "maxime",
   "Usage": "Dashboard",
-  "ProviderName": "Klein-Kassulke",
+  "ProviderName": "Nader-Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 937
     }
   },
   "_Links": {

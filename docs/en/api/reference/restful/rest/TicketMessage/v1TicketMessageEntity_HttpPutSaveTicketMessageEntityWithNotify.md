@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 736,
+  "EjMessageId": 696,
   "Ticket": null,
-  "CreatedAt": "2016-08-18T04:22:35.5803553+02:00",
+  "CreatedAt": "2020-04-23T13:28:32.3979624+02:00",
   "CreatedBy": null,
-  "Author": "corporis",
+  "Author": "fugit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consectetur",
-  "TimeSpent": 475,
-  "Body": "harum",
-  "HtmlBody": "non",
-  "EmailHeader": "aiyana_abshire@renner.name",
-  "DebugInfo": "ut",
-  "MailSorter": "commodi",
+  "MessageId": "ipsa",
+  "TimeSpent": 320,
+  "Body": "adipisci",
+  "HtmlBody": "tempore",
+  "EmailHeader": "kip_mills@walsh.us",
+  "DebugInfo": "quo",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "provident",
   "MessageHeaders": [
     {
-      "Id": 687,
-      "Name": "Gottlieb-Watsica",
-      "Value": "sequi",
+      "Id": 492,
+      "Name": "Turner-Padberg",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 687,
-      "Name": "Gottlieb-Watsica",
-      "Value": "sequi",
+      "Id": 492,
+      "Name": "Turner-Padberg",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "est",
-  "Sentiment": 189,
-  "SentimentConfidence": 455,
+  "Important": true,
+  "Language": "similique",
+  "Sentiment": 889,
+  "SentimentConfidence": 332,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 164,
-      "Name": "Kohler, Huel and Dach",
-      "ContentType": "omnis",
-      "AttSize": 308,
+      "AttachmentId": 982,
+      "Name": "Ratke, Collier and Ullrich",
+      "ContentType": "vel",
+      "AttSize": 323,
       "InlineImage": false,
-      "ContentId": "voluptatem",
-      "AuthKey": "sint",
-      "IsSafeFileExtension": true
+      "ContentId": "ea",
+      "AuthKey": "a",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "maiores"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "dignissimos"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 521,
+  "EjMessageId": 515,
   "Ticket": null,
-  "CreatedAt": "2001-11-28T04:22:35.5803553+01:00",
+  "CreatedAt": "2007-04-09T13:28:32.3979624+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "non",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 931,
-  "Body": "quibusdam",
+  "MessageId": "atque",
+  "TimeSpent": 847,
+  "Body": "culpa",
   "HtmlBody": "et",
-  "EmailHeader": "rylee.strosin@sauer.us",
-  "DebugInfo": "vitae",
-  "MailSorter": "quis",
+  "EmailHeader": "london_reynolds@stiedemann.name",
+  "DebugInfo": "ut",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "itaque",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 840,
-      "Name": "Medhurst, Dare and Walsh",
-      "Value": "aut",
+      "Id": 779,
+      "Name": "Murazik Inc and Sons",
+      "Value": "praesentium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldType": "System.String",
+          "FieldLength": 109
         }
       }
     }
   ],
   "Important": false,
-  "Language": "est",
-  "Sentiment": 214,
-  "SentimentConfidence": 889,
+  "Language": "nemo",
+  "Sentiment": 565,
+  "SentimentConfidence": 877,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 762,
-      "Name": "Krajcik-Senger",
-      "ContentType": "quia",
-      "AttSize": 113,
+      "AttachmentId": 179,
+      "Name": "Ruecker, Miller and Kirlin",
+      "ContentType": "est",
+      "AttSize": 722,
       "InlineImage": false,
-      "ContentId": "neque",
-      "AuthKey": "blanditiis",
+      "ContentId": "nemo",
+      "AuthKey": "et",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 361
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "non"
+    "ExtraFields1": "et",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "dolor"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

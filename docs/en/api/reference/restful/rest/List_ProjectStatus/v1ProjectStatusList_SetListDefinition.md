@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Bogan LLC",
-  "Tooltip": "laudantium",
+  "Id": 58,
+  "Name": "Stiedemann, Heaney and Corkery",
+  "Tooltip": "incidunt",
   "Deleted": true,
-  "Rank": 265,
-  "IsCustomList": true,
+  "Rank": 697,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Larkin, Wuckert and Predovic",
-  "Tooltip": "molestias",
+  "Id": 860,
+  "Name": "Ullrich-Schinner",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 629,
-  "IsCustomList": true,
+  "Rank": 955,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 489
     }
   }
 }

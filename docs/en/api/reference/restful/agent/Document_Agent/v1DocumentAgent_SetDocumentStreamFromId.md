@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 785,
+  "DocumentId": 396,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 189,
+  "DocumentId": 894,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repellat",
-  "Header": "rem",
-  "Name": "Sipes LLC",
-  "OurRef": "quam",
-  "YourRef": "magni",
-  "CreatedDate": "2018-04-12T04:22:26.6553604+02:00",
-  "UpdatedDate": "2009-12-25T04:22:26.6553604+01:00",
-  "Description": "Devolved clear-thinking system engine",
+  "Attention": "ratione",
+  "Header": "nihil",
+  "Name": "Mohr, Steuber and Mraz",
+  "OurRef": "velit",
+  "YourRef": "ipsa",
+  "CreatedDate": "2020-07-08T13:28:22.6010881+02:00",
+  "UpdatedDate": "2023-07-06T13:28:22.6010881+02:00",
+  "Description": "Inverse leading edge frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-09-12T04:22:26.6553604+02:00",
-  "ExternalRef": "accusantium",
+  "Date": "2015-03-15T13:28:22.6010881+01:00",
+  "ExternalRef": "aspernatur",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 436,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn-Lemke",
-      "Id": 873,
-      "Description": "Advanced multi-tasking framework",
-      "ExtraInfo": "officiis",
-      "LinkId": 1002,
+      "EntityName": "Lueilwitz LLC",
+      "Id": 972,
+      "Description": "Reactive high-level forecast",
+      "ExtraInfo": "ea",
+      "LinkId": 942,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldType": "System.Int32",
+          "FieldLength": 761
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 6,
-  "Snum": 272,
+  "SuggestedDocumentId": 404,
+  "Snum": 655,
   "UserDefinedFields": {
-    "SuperOffice:1": "Willy Pfannerstill V",
-    "SuperOffice:2": "Madalyn Goyette"
+    "SuperOffice:1": "Haley Bernhard",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "est",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2019-07-06T04:22:26.6553604+02:00",
-  "PublishTo": "2014-12-13T04:22:26.6553604+01:00",
-  "PublishFrom": "2010-08-10T04:22:26.6553604+02:00",
+  "PublishEventDate": "2017-06-08T13:28:22.6010881+02:00",
+  "PublishTo": "2011-05-29T13:28:22.6010881+02:00",
+  "PublishFrom": "2020-12-14T13:28:22.6010881+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 17,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 131
         }
       }
     },
     {
-      "VisibleId": 17,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 131
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 866
     }
   }
 }

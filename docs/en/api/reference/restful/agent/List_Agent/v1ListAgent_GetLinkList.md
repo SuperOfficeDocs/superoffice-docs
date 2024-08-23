@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Welch, Fahey and Stark",
-    "Id": 658,
-    "Description": "Robust 4th generation groupware",
-    "ExtraInfo": "quisquam",
-    "LinkId": 968,
+    "EntityName": "Becker, Ziemann and Jaskolski",
+    "Id": 339,
+    "Description": "Quality-focused maximized infrastructure",
+    "ExtraInfo": "sit",
+    "LinkId": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 510
       }
     }
   }

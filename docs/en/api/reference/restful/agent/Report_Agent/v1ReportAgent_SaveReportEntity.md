@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 703,
+  "ReportId": 887,
   "ReportCategory": "All",
-  "Description": "Total fault-tolerant model",
+  "Description": "Organized scalable project",
   "ReportLayout": "CalendarMonth",
-  "Name": "Mayer-Wintheiser",
-  "AssociateId": 567,
-  "TemplateId": 736,
-  "Published": true
+  "Name": "Labadie-Bogan",
+  "AssociateId": 110,
+  "TemplateId": 49,
+  "Published": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 961,
+  "ReportId": 743,
   "ReportCategory": "All",
-  "Description": "Inverse dynamic capability",
+  "Description": "Cross-platform mobile info-mediaries",
   "ReportLayout": "CalendarMonth",
-  "Name": "Emmerich Inc and Sons",
-  "AssociateId": 627,
-  "TemplateId": 921,
-  "Published": false,
+  "Name": "Balistreri LLC",
+  "AssociateId": 309,
+  "TemplateId": 818,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

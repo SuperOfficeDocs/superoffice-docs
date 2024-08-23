@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    958,
-    913
+    878,
+    898
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 773,
-    "ColumnId": 301,
-    "FieldDefault": "et",
-    "FieldHeight": 575,
+    "UDefFieldId": 576,
+    "ColumnId": 725,
+    "FieldDefault": "quam",
+    "FieldHeight": 59,
     "FieldLabel": "consequatur",
-    "FieldLeft": 381,
-    "FieldTop": 64,
+    "FieldLeft": 445,
+    "FieldTop": 566,
     "FieldType": "Checkbox",
-    "FieldWidth": 605,
-    "FormatMask": "harum",
-    "HideLabel": true,
+    "FieldWidth": 523,
+    "FormatMask": "maxime",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 765,
-    "LabelLeft": 395,
-    "LabelTop": 130,
-    "LabelWidth": 367,
-    "LastVersionId": 736,
-    "ListTableId": 695,
-    "IsMandatory": false,
+    "LabelHeight": 142,
+    "LabelLeft": 992,
+    "LabelTop": 360,
+    "LabelWidth": 643,
+    "LastVersionId": 530,
+    "ListTableId": 376,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 197,
-    "ProgId": "ab",
+    "Page1LineNo": 665,
+    "ProgId": "voluptate",
     "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 479,
-    "TextLength": 846,
-    "Tooltip": "optio",
-    "UdefIdentity": 51,
-    "UDListDefinitionId": 974,
+    "ShortLabel": "labore",
+    "TabOrder": 715,
+    "TextLength": 221,
+    "Tooltip": "eum",
+    "UdefIdentity": 392,
+    "UDListDefinitionId": 818,
     "Justification": "Center",
-    "Version": 524,
-    "TemplateVariableName": "Torphy-Klocko",
+    "Version": 992,
+    "TemplateVariableName": "Kuhn-Kreiger",
     "HasBeenPublished": false,
-    "MdoListName": "Bins-Lang",
+    "MdoListName": "Gleichner, Feeney and Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 555
       }
     }
   }

@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Breitenberg-Spinka"
+  "ApplicationName": "Kertzmann Group"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 966,
-  "Name": "Mueller Group",
-  "CreatedDate": "2004-02-12T04:22:26.8755249+01:00",
-  "UpdatedDate": "2021-09-23T04:22:26.8755249+02:00",
-  "AssociateFullName": "Miss Ramon O'Conner IV",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "tempora",
-  "DeviceIdentifier": "soluta",
-  "ForeignAppId": 827,
+  "ForeignDeviceId": 387,
+  "Name": "Langosh-Spinka",
+  "CreatedDate": "2002-11-19T13:28:22.8510314+01:00",
+  "UpdatedDate": "2005-05-07T13:28:22.8510314+02:00",
+  "AssociateFullName": "Luther Donnelly",
+  "CreatedBy": "aspernatur",
+  "UpdatedBy": "distinctio",
+  "DeviceIdentifier": "eveniet",
+  "ForeignAppId": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 183
     }
   }
 }

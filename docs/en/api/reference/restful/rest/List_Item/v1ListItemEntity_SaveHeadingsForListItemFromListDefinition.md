@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Little Inc and Sons",
-    "ToolTip": "Distinctio rem magnam dolore reiciendis est laudantium.",
-    "Deleted": false,
-    "Rank": 537,
-    "Type": "consequuntur",
-    "ColorBlock": 880,
-    "IconHint": "mollitia",
+    "Id": 933,
+    "Name": "Beier Group",
+    "ToolTip": "Sapiente autem minima consequatur.",
+    "Deleted": true,
+    "Rank": 19,
+    "Type": "corporis",
+    "ColorBlock": 720,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1999-10-19T04:22:35.7834778+02:00",
+    "LastChanged": "2019-12-23T13:28:32.6479022+01:00",
     "ChildItems": [
       {
-        "Id": 689,
-        "Name": "Rolfson-Kiehn",
-        "ToolTip": "Aut voluptas.",
+        "Id": 542,
+        "Name": "Green-Glover",
+        "ToolTip": "Commodi sequi.",
         "Deleted": false,
-        "Rank": 475,
-        "Type": "error",
-        "ColorBlock": 606,
-        "IconHint": "natus",
+        "Rank": 667,
+        "Type": "et",
+        "ColorBlock": 172,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2020-04-07T04:22:35.7834778+02:00",
+        "LastChanged": "2016-05-26T13:28:32.6479022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "cum",
+        "ExtraInfo": "labore",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Mrs. Zion Foster Crona IV"
+        "FullName": "Melvina Smith"
       }
     ],
     "ExtraInfo": "asperiores",
-    "StyleHint": "inventore",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Charley Reinger"
+    "FullName": "Mossie Fritsch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Lesch-Robel",
-    "ToolTip": "Dolor ducimus voluptates possimus ut.",
-    "Deleted": false,
-    "Rank": 325,
-    "Type": "illum",
-    "ColorBlock": 671,
-    "IconHint": "sint",
+    "Id": 545,
+    "Name": "Walker, Baumbach and Gislason",
+    "ToolTip": "Voluptatem voluptatem reiciendis officia in quidem quos non.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "facilis",
+    "ColorBlock": 843,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2000-10-06T04:22:35.7834778+02:00",
+    "LastChanged": "2024-03-16T13:28:32.6479022+01:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Hauck, Schaefer and Gutmann",
-        "ToolTip": "Voluptatem rerum natus.",
+        "Id": 660,
+        "Name": "Rowe-Harber",
+        "ToolTip": "Iusto quaerat.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "fugiat",
-        "ColorBlock": 912,
-        "IconHint": "incidunt",
+        "Rank": 292,
+        "Type": "incidunt",
+        "ColorBlock": 62,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2017-07-07T04:22:35.7834778+02:00",
+        "LastChanged": "2022-03-14T13:28:32.6479022+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quo",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Zaria Marks",
+        "FullName": "Mr. Bethany Purdy I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 59
+            "FieldType": "System.String",
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "ut",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Prof. Josue Rowe Jr.",
+    "FullName": "Bria Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 37
       }
     }
   }

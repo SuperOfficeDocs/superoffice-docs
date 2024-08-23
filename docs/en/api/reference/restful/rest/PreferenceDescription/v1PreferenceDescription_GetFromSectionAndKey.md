@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 513,
-  "Section": "magnam",
-  "Key": "quae",
-  "Name": "Schmitt, Paucek and Heaney",
+  "PrefDescId": 278,
+  "Section": "vitae",
+  "Key": "sit",
+  "Name": "Gaylord Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental systemic moratorium",
+  "Description": "Intuitive hybrid firmware",
   "IsBuiltin": true,
-  "TableName": "Braun, Mraz and Jast",
-  "UserDefinedListId": 174,
-  "Rank": 843,
-  "SubGroup": "aut",
-  "MinLevel": 520,
-  "MaxValue": 519,
-  "MinValue": 799,
-  "RequiredLicense": "unde",
+  "TableName": "Spinka-Wiza",
+  "UserDefinedListId": 639,
+  "Rank": 452,
+  "SubGroup": "non",
+  "MinLevel": 205,
+  "MaxValue": 92,
+  "MinValue": 412,
+  "RequiredLicense": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 136
     }
   }
 }

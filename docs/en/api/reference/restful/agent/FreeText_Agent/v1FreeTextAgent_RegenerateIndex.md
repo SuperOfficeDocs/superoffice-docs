@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Name": "Howell, Abshire and Nolan",
-  "AssociateId": 394,
-  "DetailsTable": 613,
-  "DetailsRecord": 233,
+  "Id": 105,
+  "Name": "Frami-Cruickshank",
+  "AssociateId": 538,
+  "DetailsTable": 411,
+  "DetailsRecord": 149,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "itaque",
-    "ParameterObject2": "commodi"
+    "ParameterObject1": "et",
+    "ParameterObject2": "odio"
   },
-  "LastStarted": "1998-06-22T04:22:26.8911471+02:00",
-  "Created": "2015-02-24T04:22:26.8911471+01:00",
-  "StartCount": 72,
-  "DatabaseSerialNumber": "1161329",
-  "Context": "amet",
-  "Result": "et",
+  "LastStarted": "2015-06-06T13:28:22.866653+02:00",
+  "Created": "2002-06-16T13:28:22.866653+02:00",
+  "StartCount": 832,
+  "DatabaseSerialNumber": "221748",
+  "Context": "voluptatem",
+  "Result": "quia",
   "State": "All",
-  "Description": "Robust object-oriented hierarchy",
-  "Response": "suscipit",
-  "Request": "ut",
-  "ProgressDescription": "Organic secondary process improvement",
-  "ProgressPercent": 163,
-  "FileName": "Smitham, Ondricka and Wilderman",
+  "Description": "Monitored attitude-oriented Graphical User Interface",
+  "Response": "quidem",
+  "Request": "ratione",
+  "ProgressDescription": "Optional optimizing process improvement",
+  "ProgressPercent": 505,
+  "FileName": "Davis-Rowe",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 316
     }
   }
 }

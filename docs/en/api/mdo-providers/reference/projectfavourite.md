@@ -3,9 +3,9 @@ uid: projectfavourite
 title: projectfavourite
 keywords: mdoprovider mdo provider projectfavourite
 description: MDO list provider for Favourites
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "projectfavourite" MDO List

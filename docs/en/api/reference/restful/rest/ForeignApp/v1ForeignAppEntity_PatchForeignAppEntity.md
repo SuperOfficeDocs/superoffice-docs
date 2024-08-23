@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ratione",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ratione",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 216,
-  "Name": "Hudson-Howell",
-  "CreatedDate": "2014-07-17T04:22:35.0010854+02:00",
-  "UpdatedDate": "2002-06-02T04:22:35.0010854+02:00",
+  "ForeignAppId": 387,
+  "Name": "Hahn Inc and Sons",
+  "CreatedDate": "2007-05-12T13:28:31.6792414+02:00",
+  "UpdatedDate": "2003-08-21T13:28:31.6792414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 842,
-      "Name": "Baumbach, Trantow and Larson",
-      "CreatedDate": "2013-01-06T04:22:35.0010854+01:00",
-      "UpdatedDate": "2022-06-11T04:22:35.0010854+02:00",
-      "AssociateFullName": "Lavern Harris",
-      "CreatedBy": "est",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "cumque",
-      "ForeignAppId": 170,
+      "ForeignDeviceId": 662,
+      "Name": "Crist-Zemlak",
+      "CreatedDate": "2023-08-04T13:28:31.6792414+02:00",
+      "UpdatedDate": "2014-03-08T13:28:31.6792414+01:00",
+      "AssociateFullName": "Prof. Dan Buckridge Jr.",
+      "CreatedBy": "esse",
+      "UpdatedBy": "saepe",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 141,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 138
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 836
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

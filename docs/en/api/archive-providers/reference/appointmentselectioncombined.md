@@ -3,9 +3,9 @@ uid: AppointmentSelectionCombined
 title: AppointmentSelectionCombined
 description: Implementation of the provider for the combined selection
 keywords: AppointmentSelectionCombined archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "AppointmentSelectionCombined"
@@ -725,7 +725,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=contact/postAddress/formattedAddress,contact/contactUdef/SuperOffice:2,contact/contactUdef/SuperOffice:7,person/birthMonth,person/personAddress/addressId
+GET /api/v1/archive/AppointmentSelectionCombined?$select=appointmentPublish/isPublished,contact/NumberOfNotCompletedSales,person/birthYear,person/personAddress/county,project/projectAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

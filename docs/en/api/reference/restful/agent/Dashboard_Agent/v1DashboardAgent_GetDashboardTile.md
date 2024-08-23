@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=675
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=959
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 990,
-  "Caption": "alias",
-  "Description": "Re-contextualized context-sensitive time-frame",
-  "ChartName": "Schmidt-O'Conner",
-  "ChartId": "repudiandae",
+  "DashboardTileId": 967,
+  "Caption": "qui",
+  "Description": "Phased value-added parallelism",
+  "ChartName": "Denesik, O'Connell and Schultz",
+  "ChartId": "pariatur",
   "IsDefault": false,
-  "AssociateId": 377,
-  "GroupId": 834,
-  "SelectionId": 640,
-  "Config": "veniam",
+  "AssociateId": 935,
+  "GroupId": 959,
+  "SelectionId": 137,
+  "Config": "ex",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Gaylord, Bruen and Nader",
-      "Description": "Pre-emptive human-resource archive",
+      "Name": "D'Amore, Wilkinson and O'Kon",
+      "Description": "Cross-group attitude-oriented migration",
       "Type": "Boolean",
-      "ListName": "Lowe-Rippin",
+      "ListName": "Collier-Wolf",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iusto",
-      "DefaultDataOption": true,
+      "Value": "exercitationem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldLength": 48
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 860,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 596
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 860,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 596
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 445
     }
   }
 }

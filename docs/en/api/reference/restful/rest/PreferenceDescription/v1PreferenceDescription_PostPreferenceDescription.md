@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 147,
-  "Section": "in",
-  "Key": "maiores",
-  "Name": "Kautzer, Kunze and Kuphal",
+  "PrefDescId": 581,
+  "Section": "est",
+  "Key": "dolor",
+  "Name": "Kuhic, Kiehn and Stiedemann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synchronised non-volatile hardware",
+  "Description": "Phased value-added core",
   "IsBuiltin": false,
-  "TableName": "Stokes-Nikolaus",
-  "UserDefinedListId": 750,
-  "Rank": 915,
-  "SubGroup": "molestiae",
-  "MinLevel": 196,
-  "MaxValue": 599,
-  "MinValue": 961,
-  "RequiredLicense": "sed"
+  "TableName": "Nolan-Johnston",
+  "UserDefinedListId": 550,
+  "Rank": 1002,
+  "SubGroup": "ea",
+  "MinLevel": 729,
+  "MaxValue": 104,
+  "MinValue": 44,
+  "RequiredLicense": "soluta"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 660,
-  "Section": "qui",
-  "Key": "in",
-  "Name": "Jacobs, Lynch and Feeney",
+  "PrefDescId": 668,
+  "Section": "dolores",
+  "Key": "vel",
+  "Name": "Schinner Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive multi-state migration",
-  "IsBuiltin": false,
-  "TableName": "Pfannerstill-Oberbrunner",
-  "UserDefinedListId": 876,
-  "Rank": 326,
-  "SubGroup": "facilis",
-  "MinLevel": 820,
-  "MaxValue": 379,
-  "MinValue": 367,
-  "RequiredLicense": "ullam",
+  "Description": "Universal neutral leverage",
+  "IsBuiltin": true,
+  "TableName": "Rogahn-Schinner",
+  "UserDefinedListId": 929,
+  "Rank": 960,
+  "SubGroup": "autem",
+  "MinLevel": 360,
+  "MaxValue": 748,
+  "MinValue": 937,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 874
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 671,
-  "Name": "Fay Inc and Sons",
+  "ScreenChooserId": 423,
+  "Name": "Lang, Halvorson and Lueilwitz",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ex",
-  "Source": "iusto",
-  "Registered": "2002-03-06T04:22:35.595979+01:00",
-  "RegisteredAssociateId": 276,
-  "Updated": "2008-03-03T04:22:35.595979+01:00",
-  "UpdatedAssociateId": 905
+  "UniqueIdentifier": "sunt",
+  "Source": "ea",
+  "Registered": "2010-01-19T13:28:32.4292054+01:00",
+  "RegisteredAssociateId": 661,
+  "Updated": "2018-07-11T13:28:32.4292054+02:00",
+  "UpdatedAssociateId": 584
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 77,
-  "Name": "Hane-Olson",
+  "ScreenChooserId": 363,
+  "Name": "Kozey Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "voluptatibus",
-  "Registered": "2010-08-17T04:22:35.595979+02:00",
-  "RegisteredAssociateId": 258,
-  "Updated": "2019-04-26T04:22:35.595979+02:00",
-  "UpdatedAssociateId": 413,
+  "UniqueIdentifier": "animi",
+  "Source": "qui",
+  "Registered": "2003-04-19T13:28:32.4292054+02:00",
+  "RegisteredAssociateId": 820,
+  "Updated": "2006-01-15T13:28:32.4292054+01:00",
+  "UpdatedAssociateId": 296,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

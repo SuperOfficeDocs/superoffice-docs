@@ -2,10 +2,10 @@
 uid: diagnosticsagent-addwebappusage
 title: DiagnosticsAgent.AddWebAppUsage event method
 description: Scripting events called on the AddWebAppUsage method on the DiagnosticsAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # DiagnosticsAgent.AddWebAppUsage
 

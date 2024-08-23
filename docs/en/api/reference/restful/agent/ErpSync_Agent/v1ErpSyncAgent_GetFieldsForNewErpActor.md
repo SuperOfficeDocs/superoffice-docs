@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 760,
+  "ErpConnectionId": 144,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "unde",
-    "Rank": 166,
-    "DisplayName": "Block-Armstrong",
-    "DisplayDescription": "Inverse maximized moderator",
+    "FieldKey": "hic",
+    "Rank": 800,
+    "DisplayName": "Heller, Heaney and Graham",
+    "DisplayDescription": "Public-key analyzing help-desk",
     "FieldType": "Checkbox",
-    "ListName": "McGlynn, Cremin and Schuppe",
-    "DefaultValue": "quia",
-    "MaxLength": 17,
+    "ListName": "Legros Group",
+    "DefaultValue": "facere",
+    "MaxLength": 329,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 22
       }
     }
   }

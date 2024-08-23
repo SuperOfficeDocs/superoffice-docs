@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Mann-Walsh",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 55,
-  "Rank": 451
+  "Id": 835,
+  "Name": "Stoltenberg-Boyer",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 771,
+  "Rank": 753
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Walter-Feest",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 451,
-  "Rank": 308,
+  "Id": 544,
+  "Name": "Yundt LLC",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "UdListDefinitionId": 212,
+  "Rank": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

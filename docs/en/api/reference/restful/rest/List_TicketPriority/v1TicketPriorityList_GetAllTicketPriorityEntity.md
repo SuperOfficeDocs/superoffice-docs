@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 661,
-    "Name": "Hettinger Inc and Sons",
+    "TicketPriorityId": 422,
+    "Name": "Mraz Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 265,
+    "SortOrder": 400,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 364,
-    "MonStart": "2000-09-24T04:22:36.2528386+02:00",
-    "MonStop": "2004-12-14T04:22:36.2528386+01:00",
-    "TueStart": "2023-06-09T04:22:36.2528386+02:00",
-    "TueStop": "2012-09-18T04:22:36.2528386+02:00",
-    "WedStart": "2021-03-03T04:22:36.2528386+01:00",
-    "WedStop": "2015-04-21T04:22:36.2528386+02:00",
-    "ThuStart": "2012-11-28T04:22:36.2528386+01:00",
-    "ThuStop": "2014-10-23T04:22:36.2528386+02:00",
-    "FriStart": "2017-10-13T04:22:36.2528386+02:00",
-    "FriStop": "2011-01-07T04:22:36.2528386+01:00",
-    "SatStart": "2002-06-14T04:22:36.2528386+02:00",
-    "SatStop": "2015-12-11T04:22:36.2528386+01:00",
-    "SunStart": "2001-11-16T04:22:36.2528386+01:00",
-    "SunStop": "2012-06-20T04:22:36.2528386+02:00",
+    "Deadline": 686,
+    "MonStart": "2019-08-31T13:28:33.2263448+02:00",
+    "MonStop": "2000-11-11T13:28:33.2263448+01:00",
+    "TueStart": "2016-06-15T13:28:33.2263448+02:00",
+    "TueStop": "2007-01-21T13:28:33.2263448+01:00",
+    "WedStart": "2010-10-28T13:28:33.2263448+02:00",
+    "WedStop": "2023-12-22T13:28:33.2263448+01:00",
+    "ThuStart": "2012-11-02T13:28:33.2263448+01:00",
+    "ThuStop": "2008-08-13T13:28:33.2263448+02:00",
+    "FriStart": "2010-10-27T13:28:33.2263448+02:00",
+    "FriStop": "2005-06-13T13:28:33.2263448+02:00",
+    "SatStart": "1998-07-15T13:28:33.2263448+02:00",
+    "SatStop": "2010-06-21T13:28:33.2263448+02:00",
+    "SunStart": "2017-03-06T13:28:33.2263448+01:00",
+    "SunStop": "1998-11-14T13:28:33.2263448+01:00",
     "NonDates": [
-      "voluptatem",
-      "perspiciatis"
+      "ut",
+      "dolorem"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 177,
-        "AlertLevel": 9,
-        "AlertTimeout": 158,
-        "Action": 61,
-        "DelegateTo": 115,
-        "ScriptId": 74,
-        "EmailTo": "taurean_russel@yundt.co.uk",
-        "SmsTo": "omnis",
-        "ReplyTemplateIdCustomer": 404,
-        "ReplyTemplateIdUser": 767,
-        "ReplyTemplateIdCatmast": 849,
-        "ReplyTemplateIdEmail": 800,
-        "RtiCustomerSms": 845,
-        "ReplyTemplateIdUserSms": 978,
-        "ReplyTemplateIdCatmastSms": 209,
-        "ReplyTemplateIdSms": 845,
+        "TicketAlertId": 860,
+        "AlertLevel": 991,
+        "AlertTimeout": 690,
+        "Action": 323,
+        "DelegateTo": 527,
+        "ScriptId": 685,
+        "EmailTo": "ceasar@denesikzemlak.biz",
+        "SmsTo": "alias",
+        "ReplyTemplateIdCustomer": 489,
+        "ReplyTemplateIdUser": 367,
+        "ReplyTemplateIdCatmast": 705,
+        "ReplyTemplateIdEmail": 798,
+        "RtiCustomerSms": 420,
+        "ReplyTemplateIdUserSms": 938,
+        "ReplyTemplateIdCatmastSms": 498,
+        "ReplyTemplateIdSms": 167,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldLength": 388
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 957
       }
     }
   }

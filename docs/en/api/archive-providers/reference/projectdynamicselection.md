@@ -3,9 +3,9 @@ uid: ProjectDynamicSelection
 title: ProjectDynamicSelection
 description: Project selection archive using the selectionId as criterionmapping.
 keywords: ProjectDynamicSelection archive provider
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "ProjectDynamicSelection"
@@ -793,7 +793,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/otherGroups,sale/associate/fullName,appointment/text,appointment/recurrenceRuleId,appointment/associate/credentialType
+GET /api/v1/archive/ProjectDynamicSelection?$select=sale/salePublish/isPublished,sale/associate/fullName,sale/associate/locationAddress,appointment/endDate,document/subject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Fritsch, Waelchi and Ruecker",
-    "SaleDate": "2020-10-27T04:22:27.5492747+01:00",
-    "SaleId": 963,
-    "Probability": 542,
-    "Title": "possimus",
-    "Amount": 11041.082,
-    "Currency": "est",
-    "ProjectName": "Muller, Gorczany and Schinner",
-    "AssociateFullName": "Marcelino Beatty",
-    "Description": "Intuitive user-facing open architecture",
+    "ContactName": "Spinka, Becker and Von",
+    "SaleDate": "2012-07-28T13:28:23.6948543+02:00",
+    "SaleId": 182,
+    "Probability": 364,
+    "Title": "aliquid",
+    "Amount": 12062.766,
+    "Currency": "ipsa",
+    "ProjectName": "Hauck-Williamson",
+    "AssociateFullName": "Mrs. Darrel Aurelie Kuhlman",
+    "Description": "Focused optimal moderator",
     "Status": "Lost",
-    "WeightedAmount": 25730.14,
-    "ProjectId": 639,
-    "EarningPercent": 18440.456,
-    "Earning": 31305.525999999998,
-    "ContactId": 578,
-    "AssociateId": 344,
-    "PersonId": 299,
-    "SaleTypeId": 900,
-    "SaleTypeName": "Rolfson-Little",
-    "PersonFullName": "Ida Bednar",
+    "WeightedAmount": 15641.794,
+    "ProjectId": 559,
+    "EarningPercent": 22821.788,
+    "Earning": 16541.252,
+    "ContactId": 772,
+    "AssociateId": 377,
+    "PersonId": 351,
+    "SaleTypeId": 385,
+    "SaleTypeName": "Kihn LLC",
+    "PersonFullName": "Russel Lehner",
     "Completed": "Completed",
-    "ActiveErpLinks": 155,
-    "NextDueDate": "2024-03-19T04:22:27.5492747+01:00",
-    "Number": "332025",
+    "ActiveErpLinks": 981,
+    "NextDueDate": "1997-11-09T13:28:23.6948543+01:00",
+    "Number": "681644",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 145
       }
     }
   }

@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "hic",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "hic",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 827,
-  "Name": "Towne-Treutel",
-  "ContentType": "voluptatibus",
-  "AttSize": 125,
-  "InlineImage": false,
-  "ContentId": "inventore",
-  "AuthKey": "sapiente",
+  "AttachmentId": 819,
+  "Name": "O'Connell-Renner",
+  "ContentType": "quia",
+  "AttSize": 645,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "harum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 702
     }
   },
   "_Links": {

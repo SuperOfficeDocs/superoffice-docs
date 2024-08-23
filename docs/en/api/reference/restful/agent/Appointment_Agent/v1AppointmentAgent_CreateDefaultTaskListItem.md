@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 983,
-  "Value": "eum",
+  "TaskListItemId": 291,
+  "Value": "quisquam",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "culpa",
+  "Tooltip": "aut",
   "Deleted": true,
-  "IntentId": 478,
-  "Rank": 507,
+  "IntentId": 299,
+  "Rank": 53,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 112,
-  "Created": "2021-04-15T04:22:27.4559933+02:00",
+  "SatelliteId": 497,
+  "Created": "2022-08-01T13:28:23.6011243+02:00",
   "CreatedBy": null,
-  "Updated": "2011-06-29T04:22:27.4559933+02:00",
+  "Updated": "1998-08-10T13:28:23.6011243+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Bashirian, Pollich and Jacobson",
-      "Description": "Progressive contextually-based hub",
+      "Name": "Wyman, Treutel and Abbott",
+      "Description": "Compatible bandwidth-monitored moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Bashirian, Pollich and Jacobson",
-      "Description": "Progressive contextually-based hub",
+      "Name": "Wyman, Treutel and Abbott",
+      "Description": "Compatible bandwidth-monitored moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 642,
-  "Created": "2006-02-01T04:22:27.4559933+01:00",
+  "SatelliteId": 652,
+  "Created": "2022-04-13T13:28:23.6011243+02:00",
   "CreatedBy": null,
-  "Updated": "2005-07-24T04:22:27.4559933+02:00",
+  "Updated": "2008-05-30T13:28:23.6011243+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Zemlak Group",
-      "Description": "Distributed empowering frame",
+      "Name": "Schaden Inc and Sons",
+      "Description": "Multi-lateral client-server flexibility",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 137
         }
       }
     },
     {
-      "Name": "Zemlak Group",
-      "Description": "Distributed empowering frame",
+      "Name": "Schaden Inc and Sons",
+      "Description": "Multi-lateral client-server flexibility",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 137
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 170
     }
   }
 }

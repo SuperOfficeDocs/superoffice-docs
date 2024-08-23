@@ -2,10 +2,10 @@
 uid: archiveagent-getarchivelist2
 title: ArchiveAgent.GetArchiveList2 event method
 description: Scripting events called on the GetArchiveList2 method on the ArchiveAgent service agent.
-generated: true
+so.generated: true
 keywords: netserver scripting
-topic: reference
-envir: onsite
+so.topic: reference
+so.envir: onsite
 ---
 # ArchiveAgent.GetArchiveList2
 

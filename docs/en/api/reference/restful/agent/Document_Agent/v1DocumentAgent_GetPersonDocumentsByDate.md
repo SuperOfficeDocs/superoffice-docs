@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 37,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2008-08-21T04:22:26.5135324+02:00",
-  "EndTime": "2005-02-26T04:22:26.5135324+01:00",
-  "Count": 407
+  "PersonId": 343,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2005-11-09T13:28:22.4761174+01:00",
+  "EndTime": "2015-07-31T13:28:22.4761174+02:00",
+  "Count": 273
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 776,
-    "Attention": "accusantium",
-    "Header": "id",
-    "Name": "Cronin-Dare",
-    "OurRef": "sed",
-    "YourRef": "aut",
-    "Description": "Front-line full-range installation",
-    "DocumentTemplate": "delectus",
+    "DocumentId": 44,
+    "Attention": "rerum",
+    "Header": "aut",
+    "Name": "Dare, Kemmer and Pfeffer",
+    "OurRef": "veritatis",
+    "YourRef": "et",
+    "Description": "Self-enabling directional Graphic Interface",
+    "DocumentTemplate": "sunt",
     "IsPublished": false,
-    "PersonId": 212,
-    "PersonFullName": "Ms. Vicente Torrey Weimann IV",
-    "AssociateFullName": "Kendall Kertzmann",
-    "ContactId": 200,
-    "ContactName": "Wisoky, Bruen and Nolan",
-    "ProjectId": 705,
-    "ProjectName": "Witting-Yundt",
-    "AssociateId": 475,
-    "Snum": 197,
-    "SaleId": 699,
-    "SaleName": "Swaniawski Inc and Sons",
+    "PersonId": 937,
+    "PersonFullName": "Beaulah Earl Nikolaus II",
+    "AssociateFullName": "Ms. Faustino Miller",
+    "ContactId": 101,
+    "ContactName": "Breitenberg-Steuber",
+    "ProjectId": 302,
+    "ProjectName": "Morissette, Walsh and Predovic",
+    "AssociateId": 54,
+    "Snum": 836,
+    "SaleId": 116,
+    "SaleName": "Upton Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 952
       }
     }
   }

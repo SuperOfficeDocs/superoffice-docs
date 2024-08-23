@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 443,
-  "SelectionId": 306,
+  "DocumentPluginId": 706,
+  "SelectionId": 383,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 455,
-  "NumDocumentsAlreadyMigrated": 261,
+  "NumDocumentsOmitted": 229,
+  "NumDocumentsAlreadyMigrated": 271,
   "Documents": [
     {
-      "DocumentId": 428,
-      "ContactId": 158,
-      "PersonId": 100,
-      "SaleId": 726,
-      "ProjectId": 485,
-      "DocTmplId": 698,
-      "AssociateId": 961,
-      "UserGroupId": 628,
-      "VisibleForId": 20
+      "DocumentId": 505,
+      "ContactId": 859,
+      "PersonId": 709,
+      "SaleId": 937,
+      "ProjectId": 148,
+      "DocTmplId": 929,
+      "AssociateId": 189,
+      "UserGroupId": 106,
+      "VisibleForId": 653
     }
   ],
   "Associates": [
     {
-      "AssociateId": 375,
-      "EmailAddress": "frederique@hirthe.info"
+      "AssociateId": 634,
+      "EmailAddress": "kacie@okuneva.us"
     },
     {
-      "AssociateId": 375,
-      "EmailAddress": "frederique@hirthe.info"
+      "AssociateId": 634,
+      "EmailAddress": "kacie@okuneva.us"
     }
   ]
 }

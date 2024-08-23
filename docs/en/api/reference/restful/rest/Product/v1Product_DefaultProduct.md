@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 373,
-  "ERPProductKey": "nemo",
-  "ERPPriceListKey": "omnis",
-  "Name": "Kohler Group",
-  "Description": "Decentralized systematic process improvement",
-  "Code": "rem",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "suscipit",
+  "ProductId": 481,
+  "ERPProductKey": "odio",
+  "ERPPriceListKey": "quo",
+  "Name": "Cremin-DuBuque",
+  "Description": "Down-sized 6th generation intranet",
+  "Code": "et",
+  "PriceUnit": "sunt",
+  "QuantityUnit": "qui",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 29669.577999999998,
-  "ItemNumber": "920757",
+  "SubscriptionUnit": "totam",
+  "DefaultSubscriptionQuantity": 4632.052,
+  "ItemNumber": "968406",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "eius",
-  "VAT": 8806.5399999999991,
-  "VATInfo": "doloribus",
-  "UnitCost": 11605.202,
-  "UnitMinimumPrice": 9511.69,
-  "UnitListPrice": 16262.326,
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "possimus",
+  "VAT": 9376.928,
+  "VATInfo": "dolores",
+  "UnitCost": 30177.286,
+  "UnitMinimumPrice": 19712.86,
+  "UnitListPrice": 20117.146,
   "InAssortment": false,
-  "Supplier": "quaerat",
-  "SupplierCode": "modi",
-  "Rights": "sint",
-  "Rule": "veritatis",
+  "Supplier": "quis",
+  "SupplierCode": "eos",
+  "Rights": "id",
+  "Rule": "nisi",
   "ExtraInfo": [
     {
-      "Name": "Greenholt-O'Conner",
-      "Value": "labore",
+      "Name": "Rice-Turcotte",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 818
         }
       }
     },
     {
-      "Name": "Greenholt-O'Conner",
-      "Value": "labore",
+      "Name": "Rice-Turcotte",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 818
         }
       }
     }
   ],
-  "RawExtraInfo": "ex",
-  "ExtraField1": "earum",
-  "ExtraField2": "officiis",
-  "ExtraField3": "fuga",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "et",
-  "InStock": 7678.3,
+  "RawExtraInfo": "amet",
+  "ExtraField1": "autem",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "ut",
+  "ExtraField4": "dolor",
+  "ExtraField5": "dolorum",
+  "InStock": 1792.648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

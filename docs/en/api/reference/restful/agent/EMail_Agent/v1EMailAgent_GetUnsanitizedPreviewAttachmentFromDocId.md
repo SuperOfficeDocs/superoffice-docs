@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 853,
-  "AttachmentId": "et"
+  "DocId": 490,
+  "AttachmentId": "voluptatum"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive client-driven software",
-  "Filename": "debitis",
-  "Size": 163,
-  "Type": "repellendus",
-  "Encoding": "explicabo",
-  "Id": "eveniet",
-  "Disposition": "illum",
+  "Description": "Horizontal actuating definition",
+  "Filename": "sint",
+  "Size": 359,
+  "Type": "cumque",
+  "Encoding": "facere",
+  "Id": "molestiae",
+  "Disposition": "illo",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 220
     }
   }
 }

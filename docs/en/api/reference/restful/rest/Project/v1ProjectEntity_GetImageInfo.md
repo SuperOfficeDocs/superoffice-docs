@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Oct 2013 04:22:35 G10T
+Last-Modified: Wed, 16 Feb 2000 13:28:31 G2T
 
 {
-  "BlobId": 286,
-  "BlobSize": 162,
-  "Description": "Versatile logistical ability",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": true,
+  "BlobId": 416,
+  "BlobSize": 964,
+  "Description": "Ergonomic full-range function",
+  "ExtraInfo": "autem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 881,
-  "CreatedDate": "2012-12-05T04:22:35.1897687+01:00",
-  "UpdatedDate": "2013-10-19T04:22:35.1897687+02:00",
+  "MimeType": "iusto",
+  "OriginalSize": 393,
+  "CreatedDate": "2014-01-14T13:28:31.8979432+01:00",
+  "UpdatedDate": "2000-02-16T13:28:31.8979432+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatum",
+  "ConceptualType": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldLength": 719
     }
   }
 }

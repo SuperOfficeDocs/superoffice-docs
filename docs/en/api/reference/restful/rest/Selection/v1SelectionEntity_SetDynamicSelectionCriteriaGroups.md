@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir, Kreiger and Paucek",
-    "Description": "Organic bifurcated budgetary management",
-    "Rank": 823,
+    "Name": "Mayer-Stoltenberg",
+    "Description": "Managed contextually-based portal",
+    "Rank": 370,
     "Restrictions": [
       {
-        "Name": "Crooks-Erdman",
-        "Operator": "dignissimos",
+        "Name": "Price Inc and Sons",
+        "Operator": "ipsam",
         "Values": [
-          "corrupti",
-          "odit"
+          "tenetur",
+          "qui"
         ],
         "DisplayValues": [
-          "omnis",
-          "autem"
+          "earum",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 1001,
+        "InterParenthesis": 470,
         "InterOperator": "And",
-        "UniqueHash": 384
+        "UniqueHash": 461
       }
     ]
   },
   {
-    "Name": "Runolfsdottir, Kreiger and Paucek",
-    "Description": "Organic bifurcated budgetary management",
-    "Rank": 823,
+    "Name": "Mayer-Stoltenberg",
+    "Description": "Managed contextually-based portal",
+    "Rank": 370,
     "Restrictions": [
       {
-        "Name": "Crooks-Erdman",
-        "Operator": "dignissimos",
+        "Name": "Price Inc and Sons",
+        "Operator": "ipsam",
         "Values": [
-          "corrupti",
-          "odit"
+          "tenetur",
+          "qui"
         ],
         "DisplayValues": [
-          "omnis",
-          "autem"
+          "earum",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 1001,
+        "InterParenthesis": 470,
         "InterOperator": "And",
-        "UniqueHash": 384
+        "UniqueHash": 461
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser-Ebert",
-    "Description": "Mandatory grid-enabled application",
-    "Rank": 72,
+    "Name": "Keeling, Kirlin and Brown",
+    "Description": "Seamless solution-oriented alliance",
+    "Rank": 227,
     "Restrictions": [
       {
-        "Name": "Stark-Durgan",
-        "Operator": "cupiditate",
+        "Name": "Welch-Monahan",
+        "Operator": "odit",
         "Values": [
-          "ipsa",
-          "dolor"
+          "perspiciatis",
+          "quasi"
         ],
         "DisplayValues": [
-          "asperiores",
-          "explicabo"
+          "illum",
+          "vitae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 471,
+        "InterParenthesis": 395,
         "InterOperator": "And",
-        "UniqueHash": 407
+        "UniqueHash": 217
       }
     ]
   },
   {
-    "Name": "Wintheiser-Ebert",
-    "Description": "Mandatory grid-enabled application",
-    "Rank": 72,
+    "Name": "Keeling, Kirlin and Brown",
+    "Description": "Seamless solution-oriented alliance",
+    "Rank": 227,
     "Restrictions": [
       {
-        "Name": "Stark-Durgan",
-        "Operator": "cupiditate",
+        "Name": "Welch-Monahan",
+        "Operator": "odit",
         "Values": [
-          "ipsa",
-          "dolor"
+          "perspiciatis",
+          "quasi"
         ],
         "DisplayValues": [
-          "asperiores",
-          "explicabo"
+          "illum",
+          "vitae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 471,
+        "InterParenthesis": 395,
         "InterOperator": "And",
-        "UniqueHash": 407
+        "UniqueHash": 217
       }
     ]
   }

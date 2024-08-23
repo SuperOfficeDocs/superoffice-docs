@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 02 Sep 2020 04:22:35 G9T
+Last-Modified: Sun, 23 Mar 2003 13:28:32 G3T
 
 {
-  "Description": "Expanded optimizing productivity",
-  "Postit": "in",
+  "Description": "Open-source empowering parallelism",
+  "Postit": "sint",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 835,
-  "IncludePerson": 714,
+  "GroupIdx": 383,
+  "IncludePerson": 604,
   "MemberCount": 99.99,
-  "Name": "Emard-Glover",
-  "PostitTextId": 302,
-  "CreatedDate": "2007-05-18T04:22:35.4397315+02:00",
-  "SelectionId": 796,
-  "SoundEx": "nobis",
-  "Source": 442,
-  "TextId": 713,
-  "UpdatedDate": "2020-09-02T04:22:35.4397315+02:00",
-  "UpdatedCount": 184,
-  "Visibility": 249,
+  "Name": "Tremblay, Schmidt and Kshlerin",
+  "PostitTextId": 823,
+  "CreatedDate": "2024-04-12T13:28:32.2261252+02:00",
+  "SelectionId": 870,
+  "SoundEx": "aut",
+  "Source": 564,
+  "TextId": 397,
+  "UpdatedDate": "2003-03-23T13:28:32.2261252+01:00",
+  "UpdatedCount": 287,
+  "Visibility": 636,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 584,
-  "TargetTableName": "Zulauf, Kshlerin and Spinka",
-  "Completed": true,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 103,
+  "CompanyUnique": true,
+  "TargetTableNumber": 403,
+  "TargetTableName": "Altenwerth-Gleason",
+  "Completed": false,
+  "LeftSelectionId": 44,
+  "RightSelectionId": 196,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crona LLC",
-  "ShadowProviderName": "O'Conner LLC",
-  "ChartKey": "eum",
-  "LastLoaded": "2013-07-07T04:22:35.4397315+02:00",
-  "LastLoadedBy": 823,
+  "MainProviderName": "Trantow-Bechtelar",
+  "ShadowProviderName": "Buckridge-Crona",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2005-02-13T13:28:32.2261252+01:00",
+  "LastLoadedBy": 212,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-08-06T04:22:35.4397315+02:00",
-  "LastMembershipChangeBy": 566,
+  "LastMembershipChange": "2023-07-28T13:28:32.2261252+02:00",
+  "LastMembershipChangeBy": 803,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quam",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Mohr Inc and Sons",
-  "DashboardTileDefinitionId": 918,
+  "MainHeading": "praesentium",
+  "MemberTabHeading": "accusantium",
+  "MailingsProviderName": "Will, Dickinson and Pagac",
+  "DashboardTileDefinitionId": 722,
   "VisibleFor": [
     {
-      "VisibleId": 679,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 455
         }
       }
     },
     {
-      "VisibleId": 679,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 455
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Wed, 02 Sep 2020 04:22:35 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 201
     }
   },
   "_Links": {

@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Nienow, Schinner and Huels",
-  "AssociateId": 868,
-  "DetailsTable": 564,
-  "DetailsRecord": 21,
-  "IsSystemTask": true,
+  "Id": 51,
+  "Name": "Macejkovic LLC",
+  "AssociateId": 472,
+  "DetailsTable": 965,
+  "DetailsRecord": 414,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "mollitia",
-    "ParameterObject2": "praesentium"
+    "ParameterObject1": "ratione",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2014-04-06T04:22:35.6116053+02:00",
-  "Created": "1999-03-01T04:22:35.6116053+01:00",
-  "StartCount": 701,
-  "DatabaseSerialNumber": "189224",
-  "Context": "eos",
-  "Result": "ex",
+  "LastStarted": "2020-03-22T13:28:32.4292054+01:00",
+  "Created": "2009-07-09T13:28:32.4292054+02:00",
+  "StartCount": 396,
+  "DatabaseSerialNumber": "1412338",
+  "Context": "laborum",
+  "Result": "soluta",
   "State": "All",
-  "Description": "Exclusive exuding synergy",
-  "Response": "tenetur",
-  "Request": "repudiandae",
-  "ProgressDescription": "Assimilated neutral local area network",
-  "ProgressPercent": 450,
-  "FileName": "Stark-Schiller",
+  "Description": "Ameliorated zero defect projection",
+  "Response": "ea",
+  "Request": "saepe",
+  "ProgressDescription": "Balanced responsive circuit",
+  "ProgressPercent": 485,
+  "FileName": "Ferry-Hyatt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 312
     }
   }
 }

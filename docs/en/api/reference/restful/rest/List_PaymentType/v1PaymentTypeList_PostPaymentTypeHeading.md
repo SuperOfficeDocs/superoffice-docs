@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 160,
-  "Name": "Stark LLC",
-  "Tooltip": "quaerat",
-  "Deleted": false,
-  "Rank": 220,
-  "UdListDefinitionId": 426
+  "HeadingId": 961,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "Rank": 380,
+  "UdListDefinitionId": 333
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 88,
-  "Name": "Farrell-Schaefer",
-  "Tooltip": "debitis",
+  "HeadingId": 922,
+  "Name": "Schuster-Mueller",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 605,
-  "UdListDefinitionId": 203,
+  "Rank": 828,
+  "UdListDefinitionId": 189,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 540
     }
   }
 }

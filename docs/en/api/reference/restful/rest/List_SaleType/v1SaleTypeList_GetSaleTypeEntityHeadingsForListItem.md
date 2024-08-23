@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Schroeder-Bogan",
-    "ToolTip": "Ad dolore nesciunt quas exercitationem saepe.",
-    "Deleted": false,
-    "Rank": 626,
-    "Type": "non",
-    "ColorBlock": 425,
-    "IconHint": "et",
+    "Id": 415,
+    "Name": "Armstrong-Okuneva",
+    "ToolTip": "Sunt quisquam.",
+    "Deleted": true,
+    "Rank": 522,
+    "Type": "a",
+    "ColorBlock": 41,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2008-07-22T04:22:36.1903389+02:00",
+    "LastChanged": "2009-02-17T13:28:33.1638597+01:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Senger-Robel",
-        "ToolTip": "Consequatur enim aut quas.",
+        "Id": 49,
+        "Name": "Wehner-Gorczany",
+        "ToolTip": "Numquam quidem iusto odio perferendis explicabo.",
         "Deleted": false,
-        "Rank": 796,
-        "Type": "officiis",
-        "ColorBlock": 622,
-        "IconHint": "cumque",
-        "Selected": false,
-        "LastChanged": "2008-02-12T04:22:36.1903389+01:00",
+        "Rank": 446,
+        "Type": "et",
+        "ColorBlock": 326,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2009-04-30T13:28:33.1638597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Genesis Grant",
+        "ExtraInfo": "impedit",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Trevion Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldType": "System.Int32",
+            "FieldLength": 702
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "culpa",
+    "ExtraInfo": "impedit",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Dr. Don Haven Zboncak IV",
+    "FullName": "Dr. Jamil Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 438
       }
     }
   }

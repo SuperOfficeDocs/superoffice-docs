@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Smith, Padberg and Stehr",
-    "ToolTip": "Aut minus et cum maxime ut dignissimos.",
+    "Id": 412,
+    "Name": "Hauck-McLaughlin",
+    "ToolTip": "Consequatur aut dignissimos soluta voluptatem eum non in.",
     "Deleted": true,
-    "Rank": 803,
-    "Type": "aut",
-    "ColorBlock": 706,
-    "IconHint": "possimus",
+    "Rank": 590,
+    "Type": "voluptatibus",
+    "ColorBlock": 994,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "1998-06-25T04:22:35.9715928+02:00",
+    "LastChanged": "2006-12-15T13:28:32.8666025+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Shanahan Inc and Sons",
-        "ToolTip": "Quos reiciendis accusantium quasi et sit.",
-        "Deleted": false,
-        "Rank": 103,
-        "Type": "eos",
-        "ColorBlock": 652,
-        "IconHint": "nobis",
+        "Id": 747,
+        "Name": "Kreiger Group",
+        "ToolTip": "Aliquid quas repellat voluptatem nesciunt perspiciatis aut molestiae.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "voluptatem",
+        "ColorBlock": 859,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2010-05-13T04:22:35.9715928+02:00",
+        "LastChanged": "2003-08-16T13:28:32.8666025+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "et",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Sedrick Veum"
+        "FullName": "Janae Kovacek"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "et",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Brenda Rippin"
+    "FullName": "Irving Towne PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Cummings Inc and Sons",
-    "ToolTip": "Est aspernatur qui.",
+    "Id": 914,
+    "Name": "Hickle-Nienow",
+    "ToolTip": "Sed quas ullam dolor.",
     "Deleted": false,
-    "Rank": 896,
-    "Type": "omnis",
-    "ColorBlock": 974,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "1998-11-07T04:22:35.9715928+01:00",
+    "Rank": 655,
+    "Type": "aspernatur",
+    "ColorBlock": 87,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2010-09-24T13:28:32.8666025+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Batz-Block",
-        "ToolTip": "Aut ex inventore quaerat.",
+        "Id": 885,
+        "Name": "Legros-Lehner",
+        "ToolTip": "Quis ipsa amet aut quis animi.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "quia",
-        "ColorBlock": 460,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2013-09-28T04:22:35.9715928+02:00",
+        "Rank": 80,
+        "Type": "velit",
+        "ColorBlock": 366,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2002-04-23T13:28:32.8666025+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Ryan Berniece Harber DDS",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Lillie Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Hollie Brekke",
+    "ExtraInfo": "ratione",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Dwight Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 824
       }
     }
   }

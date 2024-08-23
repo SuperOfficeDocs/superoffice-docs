@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Bailey LLC",
-    "Tooltip": "quae",
+    "Id": 89,
+    "Name": "Keebler-Baumbach",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 892,
-    "Rank": 12,
+    "UdListDefinitionId": 409,
+    "Rank": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

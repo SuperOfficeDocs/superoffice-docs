@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    272,
-    899
+    293,
+    549
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Sawayn Inc and Sons",
-    "AssociateId": 104,
-    "DetailsTable": 352,
-    "DetailsRecord": 47,
-    "IsSystemTask": false,
+    "Id": 768,
+    "Name": "Nitzsche-Wisoky",
+    "AssociateId": 943,
+    "DetailsTable": 779,
+    "DetailsRecord": 154,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "consectetur"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "commodi"
     },
-    "LastStarted": "2002-11-12T04:22:25.9965968+01:00",
-    "Created": "2001-12-01T04:22:25.9965968+01:00",
-    "StartCount": 179,
-    "DatabaseSerialNumber": "709193",
-    "Context": "qui",
-    "Result": "aspernatur",
+    "LastStarted": "2005-11-18T13:28:21.8512599+01:00",
+    "Created": "2024-03-23T13:28:21.8512599+01:00",
+    "StartCount": 517,
+    "DatabaseSerialNumber": "555250",
+    "Context": "voluptatibus",
+    "Result": "corporis",
     "State": "All",
-    "Description": "Robust systematic collaboration",
-    "Response": "voluptatum",
-    "Request": "laborum",
-    "ProgressDescription": "Business-focused multimedia access",
-    "ProgressPercent": 319,
-    "FileName": "Yost-Nolan",
+    "Description": "Fully-configurable human-resource ability",
+    "Response": "ut",
+    "Request": "asperiores",
+    "ProgressDescription": "Centralized didactic open architecture",
+    "ProgressPercent": 245,
+    "FileName": "Runolfsson, Botsford and Mitchell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 926
       }
     }
   }

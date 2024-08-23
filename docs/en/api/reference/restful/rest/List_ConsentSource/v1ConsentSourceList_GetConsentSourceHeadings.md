@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 239,
-    "Name": "Hickle, Waelchi and Monahan",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 415,
-    "UdListDefinitionId": 556,
+    "HeadingId": 710,
+    "Name": "Roberts-Hodkiewicz",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 24,
+    "UdListDefinitionId": 859,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 939
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

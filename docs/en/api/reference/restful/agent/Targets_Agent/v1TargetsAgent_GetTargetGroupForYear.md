@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 967,
+  "TargetYear": 897,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 772,
-  "Year": 794,
+  "TargetGroupId": 82,
+  "Year": 901,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 723,
+      "TargetAssignmentInfoId": 376,
       "Values": [
-        523,
-        741
+        63,
+        457
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 438,
-      "DimensionListItemDisplayName": "Gulgowski-Doyle",
+      "DimensionListItem": 802,
+      "DimensionListItemDisplayName": "Sipes, Shanahan and Wisozk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 400
+          "FieldType": "System.Int32",
+          "FieldLength": 823
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 90
     }
   }
 }

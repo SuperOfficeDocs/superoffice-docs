@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
-  "Name": "Haag, Prohaska and Sipes",
-  "Tooltip": "qui",
+  "Id": 105,
+  "Name": "Gulgowski, Blick and Hettinger",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 803,
-  "Rank": 988,
+  "UdListDefinitionId": 908,
+  "Rank": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

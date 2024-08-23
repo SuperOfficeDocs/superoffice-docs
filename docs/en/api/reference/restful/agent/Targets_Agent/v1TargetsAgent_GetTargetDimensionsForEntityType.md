@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 58,
+    "TargetDimensionId": 709,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "pariatur",
-    "DimensionListName": "Grimes Inc and Sons",
-    "DimensionListId": 512,
-    "DimensionListLabel": "voluptatum",
+    "DimensionListField": "mollitia",
+    "DimensionListName": "Kulas Group",
+    "DimensionListId": 561,
+    "DimensionListLabel": "tenetur",
     "SelectedDimensions": [
-      469,
-      258
+      680,
+      670
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 177
       }
     }
   }

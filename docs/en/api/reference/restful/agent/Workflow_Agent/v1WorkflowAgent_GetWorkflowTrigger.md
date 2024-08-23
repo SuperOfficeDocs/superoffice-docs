@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=42
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=558
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 774,
-  "WorkflowId": 152,
+  "WorkflowTriggerId": 223,
+  "WorkflowId": 412,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Bergstrom-Herman",
-      "Description": "Quality-focused tangible leverage",
-      "Rank": 82,
+      "Name": "Mayert, Kautzer and Prohaska",
+      "Description": "Visionary object-oriented time-frame",
+      "Rank": 53,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bergstrom-Herman",
-      "Description": "Quality-focused tangible leverage",
-      "Rank": 82,
+      "Name": "Mayert, Kautzer and Prohaska",
+      "Description": "Visionary object-oriented time-frame",
+      "Rank": 53,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 616
     }
   }
 }

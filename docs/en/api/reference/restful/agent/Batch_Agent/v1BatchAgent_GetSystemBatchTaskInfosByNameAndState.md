@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Breitenberg, Satterfield and Sanford",
+  "TaskName": "Ledner, Boyle and Wisozk",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Roob, Altenwerth and Maggio",
-    "AssociateId": 350,
-    "DetailsTable": 1001,
-    "DetailsRecord": 430,
-    "IsSystemTask": true,
+    "Id": 268,
+    "Name": "Ferry, Feil and Howe",
+    "AssociateId": 2,
+    "DetailsTable": 397,
+    "DetailsRecord": 507,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "beatae"
+      "ParameterObject1": "distinctio",
+      "ParameterObject2": "saepe"
     },
-    "LastStarted": "2014-12-12T04:22:26.0122232+01:00",
-    "Created": "2010-07-20T04:22:26.0122232+02:00",
-    "StartCount": 301,
-    "DatabaseSerialNumber": "463197",
-    "Context": "iure",
-    "Result": "doloremque",
+    "LastStarted": "2011-09-04T13:28:21.8512599+02:00",
+    "Created": "2002-05-27T13:28:21.8512599+02:00",
+    "StartCount": 89,
+    "DatabaseSerialNumber": "1346105",
+    "Context": "illo",
+    "Result": "voluptas",
     "State": "All",
-    "Description": "Reduced tertiary extranet",
-    "Response": "blanditiis",
-    "Request": "similique",
-    "ProgressDescription": "Customizable background budgetary management",
-    "ProgressPercent": 827,
-    "FileName": "Farrell, Becker and Bergstrom",
+    "Description": "Cross-group multimedia service-desk",
+    "Response": "nisi",
+    "Request": "delectus",
+    "ProgressDescription": "Realigned responsive initiative",
+    "ProgressPercent": 643,
+    "FileName": "Marvin-Smith",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 742
       }
     }
   }

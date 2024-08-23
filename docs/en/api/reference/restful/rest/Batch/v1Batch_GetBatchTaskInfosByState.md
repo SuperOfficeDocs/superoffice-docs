@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Spencer-Tromp",
-    "AssociateId": 56,
-    "DetailsTable": 287,
-    "DetailsRecord": 268,
+    "Id": 290,
+    "Name": "Legros-Hagenes",
+    "AssociateId": 515,
+    "DetailsTable": 44,
+    "DetailsRecord": 311,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "recusandae",
-      "ParameterObject2": "omnis"
+      "ParameterObject1": "aliquid",
+      "ParameterObject2": "quae"
     },
-    "LastStarted": "2015-05-06T04:22:35.6116053+02:00",
-    "Created": "2021-01-14T04:22:35.6116053+01:00",
-    "StartCount": 8,
-    "DatabaseSerialNumber": "1844834",
-    "Context": "aut",
-    "Result": "atque",
+    "LastStarted": "2007-10-21T13:28:32.4292054+02:00",
+    "Created": "2002-05-12T13:28:32.4292054+02:00",
+    "StartCount": 219,
+    "DatabaseSerialNumber": "516248",
+    "Context": "mollitia",
+    "Result": "provident",
     "State": "All",
-    "Description": "Reverse-engineered foreground benchmark",
-    "Response": "minus",
-    "Request": "sed",
-    "ProgressDescription": "Organized bandwidth-monitored encoding",
-    "ProgressPercent": 715,
-    "FileName": "West, Keeling and Raynor",
+    "Description": "Reverse-engineered logistical budgetary management",
+    "Response": "dolorem",
+    "Request": "facere",
+    "ProgressDescription": "Reduced interactive open system",
+    "ProgressPercent": 980,
+    "FileName": "Roob LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldLength": 17
       }
     }
   }

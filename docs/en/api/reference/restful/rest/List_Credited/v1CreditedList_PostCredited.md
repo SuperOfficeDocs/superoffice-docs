@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Swaniawski, Ebert and Klein",
-  "Tooltip": "nobis",
+  "Id": 565,
+  "Name": "Spinka LLC",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "UdListDefinitionId": 728,
-  "Rank": 155
+  "UdListDefinitionId": 653,
+  "Rank": 244
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "Name": "Kling Group",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 36,
-  "Rank": 240,
+  "Id": 268,
+  "Name": "Roberts, Eichmann and Turner",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "UdListDefinitionId": 897,
+  "Rank": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 133
     }
   }
 }

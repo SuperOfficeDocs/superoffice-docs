@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 417,
+  "EjMessageId": 308,
   "Ticket": null,
-  "CreatedAt": "1999-09-01T04:22:28.00688+02:00",
+  "CreatedAt": "2000-11-04T13:28:24.08539+01:00",
   "CreatedBy": null,
-  "Author": "velit",
+  "Author": "tenetur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "minima",
-  "TimeSpent": 58,
-  "Body": "asperiores",
-  "HtmlBody": "incidunt",
-  "EmailHeader": "joannie@kuhlman.us",
-  "DebugInfo": "amet",
-  "MailSorter": "veritatis",
+  "MessageId": "rerum",
+  "TimeSpent": 364,
+  "Body": "voluptas",
+  "HtmlBody": "aut",
+  "EmailHeader": "celia@stehr.us",
+  "DebugInfo": "quia",
+  "MailSorter": "omnis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequatur",
+  "SearchTitle": "quidem",
   "MessageHeaders": [
     {
-      "Id": 565,
-      "Name": "Lindgren-McGlynn",
-      "Value": "cumque",
+      "Id": 289,
+      "Name": "Schowalter-Gerhold",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldLength": 547
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "maxime",
-  "Sentiment": 216,
-  "SentimentConfidence": 48,
+  "Important": false,
+  "Language": "ipsa",
+  "Sentiment": 951,
+  "SentimentConfidence": 869,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 99,
-      "Name": "Wyman, Heaney and Rolfson",
-      "ContentType": "possimus",
-      "AttSize": 483,
-      "InlineImage": true,
-      "ContentId": "est",
-      "AuthKey": "est",
+      "AttachmentId": 153,
+      "Name": "Pagac, Crist and Walker",
+      "ContentType": "omnis",
+      "AttSize": 543,
+      "InlineImage": false,
+      "ContentId": "labore",
+      "AuthKey": "recusandae",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 937
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "expedita"
+    "CustomFields1": "quo",
+    "CustomFields2": "aperiam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 669
     }
   }
 }

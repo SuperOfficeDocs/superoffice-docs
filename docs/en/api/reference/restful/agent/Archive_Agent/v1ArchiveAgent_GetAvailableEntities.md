@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Breitenberg LLC",
-  "Context": "ea"
+  "ProviderName": "Heaney Group",
+  "Context": "quis"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Frami-Lakin",
-    "ToolTip": "Est ut id.",
-    "Deleted": false,
-    "Rank": 329,
-    "Type": "facere",
+    "Id": 386,
+    "Name": "O'Hara-Purdy",
+    "ToolTip": "Qui ipsa ducimus porro blanditiis est dolor et.",
+    "Deleted": true,
+    "Rank": 27,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Leffler, McDermott and Macejkovic",
-        "ToolTip": "Repellat dolore reiciendis eveniet.",
+        "Id": 363,
+        "Name": "Crooks-Champlin",
+        "ToolTip": "Quo veritatis quia quas id repellendus.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "animi",
+        "Rank": 465,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 666,
-        "ExtraInfo": "omnis",
-        "StyleHint": "neque",
-        "FullName": "Jaylon Simonis",
+        "IconHint": "laboriosam",
+        "ColorBlock": 758,
+        "ExtraInfo": "et",
+        "StyleHint": "sint",
+        "FullName": "Holden Hettinger DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldType": "System.String",
+            "FieldLength": 261
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 276,
-    "ExtraInfo": "nihil",
-    "StyleHint": "laudantium",
-    "FullName": "Reese Welch",
+    "IconHint": "quae",
+    "ColorBlock": 296,
+    "ExtraInfo": "rem",
+    "StyleHint": "dolore",
+    "FullName": "Mr. Dianna Hartmann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 496
       }
     }
   }

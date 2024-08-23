@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 367,
-      "ContactName": "Terry, Little and Kihn",
-      "PersonId": 855,
-      "PersonName": "Kiehn-Jones",
-      "AssociateId": 173,
-      "Address": "qui",
-      "EmailId": 877,
+      "ContactId": 660,
+      "ContactName": "Mohr-Casper",
+      "PersonId": 738,
+      "PersonName": "Larkin-Marks",
+      "AssociateId": 54,
+      "Address": "dolores",
+      "EmailId": 451,
       "DuplicatePersonIds": [
-        543,
-        228
+        701,
+        949
       ],
-      "Name": "Homenick, Quitzon and Hand",
+      "Name": "Cremin, Lakin and Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 566,
-      "ContactName": "DuBuque-Greenholt",
-      "PersonId": 300,
-      "PersonName": "Douglas, Daugherty and Ritchie",
-      "AssociateId": 298,
-      "Address": "facilis",
-      "EmailId": 359,
+      "ContactId": 730,
+      "ContactName": "Weber-Hintz",
+      "PersonId": 324,
+      "PersonName": "Kuhic, Orn and Jaskolski",
+      "AssociateId": 875,
+      "Address": "quae",
+      "EmailId": 328,
       "DuplicatePersonIds": [
-        448,
-        113
+        242,
+        153
       ],
-      "Name": "Labadie-Hackett",
+      "Name": "Reynolds Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldType": "System.String",
+          "FieldLength": 882
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 109,
-      "ContactName": "Larson-Kerluke",
-      "PersonId": 496,
-      "PersonName": "Breitenberg Inc and Sons",
-      "AssociateId": 666,
-      "Address": "quidem",
-      "EmailId": 2,
+      "ContactId": 620,
+      "ContactName": "Schimmel-Turner",
+      "PersonId": 607,
+      "PersonName": "Sipes-Lind",
+      "AssociateId": 29,
+      "Address": "quasi",
+      "EmailId": 120,
       "DuplicatePersonIds": [
-        193,
-        896
+        914,
+        458
       ],
-      "Name": "Braun-Kling",
+      "Name": "Bednar Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 615
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "nam",
+  "Subject": "omnis",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2023-07-27T04:22:26.6709828+02:00",
-  "Size": 284,
+  "Sent": "2009-06-08T13:28:22.6323326+02:00",
+  "Size": 703,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "itaque",
-  "PlainBody": "doloribus",
+  "MessageID": "dolorem",
+  "PlainBody": "voluptate",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 416,
+  "ServerId": 932,
   "Attachments": [
     {
-      "Description": "Profit-focused mission-critical adapter",
-      "Filename": "dolorem",
-      "Size": 826,
-      "Type": "asperiores",
-      "Encoding": "labore",
-      "Id": "sint",
-      "Disposition": "nostrum",
+      "Description": "Polarised tangible orchestration",
+      "Filename": "dignissimos",
+      "Size": 160,
+      "Type": "hic",
+      "Encoding": "voluptatum",
+      "Id": "nihil",
+      "Disposition": "ut",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 549
+          "FieldLength": 267
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schultz-Willms",
+      "Name": "Schamberger Group",
       "Values": [
-        "consequatur",
-        "aut"
+        "autem",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     },
     {
-      "Name": "Schultz-Willms",
+      "Name": "Schamberger Group",
       "Values": [
-        "consequatur",
-        "aut"
+        "autem",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     }
   ],
-  "FolderName": "Wiza-Lemke",
-  "EmailItemId": 356,
-  "AccountId": 50,
-  "ReceivedAt": "2002-07-16T04:22:26.6709828+02:00",
+  "FolderName": "Kohler, Bernier and Keebler",
+  "EmailItemId": 462,
+  "AccountId": 231,
+  "ReceivedAt": "2022-06-27T13:28:22.6323326+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-30T04:22:26.6709828+02:00",
+  "RepliedAt": "2012-04-15T13:28:22.6323326+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 210
     }
   }
 }

@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Reilly LLC",
-  "Tooltip": "at",
+  "Id": 297,
+  "Name": "Weber Inc and Sons",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 413,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false
+  "Rank": 174,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Dickinson, Kiehn and Zieme",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 831,
+  "Id": 398,
+  "Name": "Thiel-Streich",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "Rank": 674,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "odit",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   },
   "_Links": {

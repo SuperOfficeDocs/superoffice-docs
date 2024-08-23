@@ -3,9 +3,9 @@ uid: userplan
 title: userplan
 keywords: mdoprovider mdo provider userplan
 description: List provider for the UserPlan in the module license table. Returns all user plans except the one specified by additional-info "exclude_id"
-generated: true
-topic: reference
-envir: onsite, online
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # "userplan" MDO List

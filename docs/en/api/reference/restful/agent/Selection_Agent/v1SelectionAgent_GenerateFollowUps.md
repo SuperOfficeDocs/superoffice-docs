@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 143,
+  "SelectionId": 81,
   "AppointmentEntity": null,
-  "AssociateId": 852,
-  "SaveOnContactOwner": true,
+  "AssociateId": 824,
+  "SaveOnContactOwner": false,
   "UniqueContact": false
 }
 ```

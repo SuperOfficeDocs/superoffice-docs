@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 496,
-    "Value": "et",
+    "TaskListItemId": 831,
+    "Value": "fugit",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "quis",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "IntentId": 275,
-    "Rank": 601,
-    "IsDefaultAlldayEvent": true,
+    "IntentId": 467,
+    "Rank": 30,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": true,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 139
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 38
+  "ContactId": 941
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 14,
-  "BlobSize": 518,
-  "Description": "Horizontal high-level knowledge base",
-  "ExtraInfo": "nam",
+  "BlobId": 23,
+  "BlobSize": 253,
+  "Description": "Robust client-server toolset",
+  "ExtraInfo": "esse",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "doloribus",
-  "OriginalSize": 353,
-  "CreatedDate": "2000-04-24T04:22:26.0278466+02:00",
-  "UpdatedDate": "2000-06-13T04:22:26.0278466+02:00",
+  "IsZipped": false,
+  "MimeType": "dignissimos",
+  "OriginalSize": 320,
+  "CreatedDate": "1997-10-17T13:28:21.8825025+02:00",
+  "UpdatedDate": "2023-10-20T13:28:21.8825025+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 74
     }
   }
 }

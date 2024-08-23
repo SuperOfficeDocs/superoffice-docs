@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kunde, Kerluke and McClure",
-    "Description": "Future-proofed reciprocal open architecture",
+    "Name": "Heidenreich-Moen",
+    "Description": "Team-oriented methodical workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 585,
-        "Tooltip": "eligendi",
-        "CanAssign": false,
-        "Free": 231,
-        "InUse": 536,
+        "Total": 576,
+        "Tooltip": "inventore",
+        "CanAssign": true,
+        "Free": 752,
+        "InUse": 7,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 504,
-        "Name": "Barrows, Bergstrom and Mohr",
-        "Description": "Reduced disintermediate pricing structure",
-        "PrerequisiteModuleName": "Cremin Inc and Sons",
-        "SortOrder": 875,
-        "ExtraFlags": 767,
+        "ModuleLicenseId": 203,
+        "Name": "Veum Group",
+        "Description": "Enhanced 6th generation flexibility",
+        "PrerequisiteModuleName": "Howell, Bednar and Hand",
+        "SortOrder": 457,
+        "ExtraFlags": 609,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldType": "System.String",
+            "FieldLength": 259
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 25,
-        "Tooltip": "id",
+        "Total": 8,
+        "Tooltip": "eaque",
         "CanAssign": false,
-        "Free": 14,
-        "InUse": 846,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 567,
-        "Name": "Kuhn, Watsica and Waters",
-        "Description": "Switchable didactic architecture",
-        "PrerequisiteModuleName": "VonRueden LLC",
-        "SortOrder": 644,
-        "ExtraFlags": 433,
+        "Free": 611,
+        "InUse": 522,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 991,
+        "Name": "Lind Group",
+        "Description": "User-friendly eco-centric encryption",
+        "PrerequisiteModuleName": "Ondricka-Huels",
+        "SortOrder": 863,
+        "ExtraFlags": 50,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 56
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   },
   {
-    "Name": "Kunde, Kerluke and McClure",
-    "Description": "Future-proofed reciprocal open architecture",
+    "Name": "Heidenreich-Moen",
+    "Description": "Team-oriented methodical workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 585,
-        "Tooltip": "eligendi",
-        "CanAssign": false,
-        "Free": 231,
-        "InUse": 536,
+        "Total": 576,
+        "Tooltip": "inventore",
+        "CanAssign": true,
+        "Free": 752,
+        "InUse": 7,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 504,
-        "Name": "Barrows, Bergstrom and Mohr",
-        "Description": "Reduced disintermediate pricing structure",
-        "PrerequisiteModuleName": "Cremin Inc and Sons",
-        "SortOrder": 875,
-        "ExtraFlags": 767,
+        "ModuleLicenseId": 203,
+        "Name": "Veum Group",
+        "Description": "Enhanced 6th generation flexibility",
+        "PrerequisiteModuleName": "Howell, Bednar and Hand",
+        "SortOrder": 457,
+        "ExtraFlags": 609,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldType": "System.String",
+            "FieldLength": 259
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 25,
-        "Tooltip": "id",
+        "Total": 8,
+        "Tooltip": "eaque",
         "CanAssign": false,
-        "Free": 14,
-        "InUse": 846,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 567,
-        "Name": "Kuhn, Watsica and Waters",
-        "Description": "Switchable didactic architecture",
-        "PrerequisiteModuleName": "VonRueden LLC",
-        "SortOrder": 644,
-        "ExtraFlags": 433,
+        "Free": 611,
+        "InUse": 522,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 991,
+        "Name": "Lind Group",
+        "Description": "User-friendly eco-centric encryption",
+        "PrerequisiteModuleName": "Ondricka-Huels",
+        "SortOrder": 863,
+        "ExtraFlags": 50,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 56
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

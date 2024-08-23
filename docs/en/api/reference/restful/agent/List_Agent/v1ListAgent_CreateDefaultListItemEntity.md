@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Connelly-Buckridge",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 280,
+  "Id": 158,
+  "Name": "Upton, Tillman and Klein",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "UdListDefinitionId": 480,
+  "Rank": 161,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

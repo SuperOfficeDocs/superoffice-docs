@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 672
+  "ContactId": 870
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aut",
-    "PersonId": 543,
-    "Mrmrs": "amet",
-    "Firstname": "Matilda",
-    "Lastname": "Mann",
-    "MiddleName": "Reichel-Runte",
-    "Title": "voluptatibus",
-    "Description": "Focused fresh-thinking product",
-    "Email": "curtis.towne@dach.info",
-    "FullName": "Mrs. Garnet Ledner II",
-    "DirectPhone": "(521)112-5423 x491",
-    "FormalName": "Hane Inc and Sons",
-    "CountryId": 115,
-    "ContactId": 88,
-    "ContactName": "Goldner-Prosacco",
-    "Retired": 43,
-    "Rank": 84,
-    "ActiveInterests": 9,
+    "Position": "consequatur",
+    "PersonId": 623,
+    "Mrmrs": "in",
+    "Firstname": "Maryse",
+    "Lastname": "Little",
+    "MiddleName": "Howell Group",
+    "Title": "nostrum",
+    "Description": "User-centric composite emulation",
+    "Email": "enoch_mcdermott@conroywhite.info",
+    "FullName": "Miss Lura Niko Bartell V",
+    "DirectPhone": "179-001-1415",
+    "FormalName": "Wiza, Harvey and Morissette",
+    "CountryId": 890,
+    "ContactId": 499,
+    "ContactName": "Toy, Lemke and White",
+    "Retired": 253,
+    "Rank": 626,
+    "ActiveInterests": 599,
     "ContactDepartment": "",
-    "ContactCountryId": 132,
-    "ContactOrgNr": "1666780",
-    "FaxPhone": "(192)994-0524",
-    "MobilePhone": "1-246-210-5740",
-    "ContactPhone": "(942)993-0489 x240",
-    "AssociateName": "Conn, Bartell and Lemke",
-    "AssociateId": 755,
-    "UsePersonAddress": false,
-    "ContactFax": "rerum",
-    "Kanafname": "sed",
-    "Kanalname": "tempore",
-    "Post1": "beatae",
-    "Post2": "aliquid",
-    "Post3": "voluptatum",
-    "EmailName": "lina_bins@baumbach.us",
-    "ContactFullName": "Sage Walter",
-    "ActiveErpLinks": 706,
-    "TicketPriorityId": 816,
-    "SupportLanguageId": 14,
-    "SupportAssociateId": 661,
+    "ContactCountryId": 788,
+    "ContactOrgNr": "823261",
+    "FaxPhone": "(427)259-9052 x654",
+    "MobilePhone": "579.822.7254 x234",
+    "ContactPhone": "767.026.5186",
+    "AssociateName": "Johns-Robel",
+    "AssociateId": 865,
+    "UsePersonAddress": true,
+    "ContactFax": "quod",
+    "Kanafname": "temporibus",
+    "Kanalname": "totam",
+    "Post1": "numquam",
+    "Post2": "deserunt",
+    "Post3": "ducimus",
+    "EmailName": "amelia@lesch.name",
+    "ContactFullName": "Jeffry Hayley Leannon DDS",
+    "ActiveErpLinks": 475,
+    "TicketPriorityId": 598,
+    "SupportLanguageId": 147,
+    "SupportAssociateId": 219,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 507
       }
     }
   }

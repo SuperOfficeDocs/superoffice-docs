@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Will Group",
-  "EntityId": 523,
-  "TargetLanguage": "sapiente"
+  "EntityName": "Koepp-Braun",
+  "EntityId": 354,
+  "TargetLanguage": "et"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"perferendis"
+"voluptate"
 ```

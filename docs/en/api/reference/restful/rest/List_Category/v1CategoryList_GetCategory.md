@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Schaden, McGlynn and Collier",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 862,
-  "Rank": 158,
+  "Id": 726,
+  "Name": "Windler, Ferry and Stehr",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 583,
+  "Rank": 995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 689
     }
   }
 }

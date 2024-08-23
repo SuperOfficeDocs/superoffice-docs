@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger LLC"
+  "Name": "Watsica, McClure and Gaylord"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Conn Group",
-    "SoPrimaryKey": 617,
-    "EntryName": "Cremin-Wehner",
-    "EntryIdentifier": "minima",
-    "RuleDisplayName": "Okuneva LLC",
+    "RuleName": "Bode LLC",
+    "SoPrimaryKey": 610,
+    "EntryName": "Crist-Bartell",
+    "EntryIdentifier": "magni",
+    "RuleDisplayName": "Sawayn Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldType": "System.String",
+        "FieldLength": 71
       }
     }
   }

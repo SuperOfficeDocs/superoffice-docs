@@ -70,6 +70,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SetConsent](SetConsent.md)
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)
+* [TryAddPersonsToEmailFlow](TryAddPersonsToEmailFlow.md)
 * [Undelete](Undelete.md)
 * [ValidatePersonEntity](ValidatePersonEntity.md)
 

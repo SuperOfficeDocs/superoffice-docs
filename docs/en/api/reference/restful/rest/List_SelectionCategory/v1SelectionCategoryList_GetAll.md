@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Ernser, Balistreri and West",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "UdListDefinitionId": 391,
-    "Rank": 174,
+    "Id": 999,
+    "Name": "Schuppe-Beatty",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 297,
+    "Rank": 270,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 127,
-      "ContactName": "Shields Inc and Sons",
-      "PersonId": 175,
-      "PersonName": "King LLC",
-      "AssociateId": 61,
-      "Address": "dolorum",
-      "EmailId": 957,
+      "ContactId": 29,
+      "ContactName": "Brekke, Kulas and O'Conner",
+      "PersonId": 434,
+      "PersonName": "Schroeder, Gusikowski and Zulauf",
+      "AssociateId": 905,
+      "Address": "sit",
+      "EmailId": 217,
       "DuplicatePersonIds": [
-        484,
-        330
+        243,
+        549
       ],
-      "Name": "McKenzie Inc and Sons",
+      "Name": "Monahan-Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 336
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 232,
-      "ContactName": "Hilll-Pollich",
-      "PersonId": 660,
-      "PersonName": "Jones Group",
-      "AssociateId": 302,
-      "Address": "qui",
-      "EmailId": 323,
+      "ContactId": 677,
+      "ContactName": "Roob-Terry",
+      "PersonId": 753,
+      "PersonName": "Feil, Nikolaus and Lindgren",
+      "AssociateId": 964,
+      "Address": "praesentium",
+      "EmailId": 259,
       "DuplicatePersonIds": [
-        913,
-        805
+        619,
+        533
       ],
-      "Name": "Reinger Group",
+      "Name": "Connelly-Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldLength": 900
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 335,
-      "ContactName": "Von Inc and Sons",
-      "PersonId": 559,
-      "PersonName": "Towne-Leffler",
-      "AssociateId": 835,
-      "Address": "qui",
-      "EmailId": 416,
+      "ContactId": 206,
+      "ContactName": "Carroll LLC",
+      "PersonId": 147,
+      "PersonName": "Morar, Kreiger and Rogahn",
+      "AssociateId": 202,
+      "Address": "voluptas",
+      "EmailId": 444,
       "DuplicatePersonIds": [
-        538,
-        91
+        791,
+        882
       ],
-      "Name": "Legros, Harber and Green",
+      "Name": "Nienow-Larson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "voluptatum",
+  "Subject": "numquam",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "1999-04-20T04:22:26.6709828+02:00",
-  "Size": 270,
+  "Sent": "2018-09-23T13:28:22.6323326+02:00",
+  "Size": 615,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eaque",
-  "PlainBody": "voluptatum",
+  "MessageID": "temporibus",
+  "PlainBody": "amet",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 755,
+  "ServerId": 693,
   "Attachments": [
     {
-      "Description": "Monitored methodical encryption",
-      "Filename": "quod",
-      "Size": 235,
-      "Type": "atque",
-      "Encoding": "illum",
-      "Id": "non",
-      "Disposition": "amet",
+      "Description": "Distributed holistic paradigm",
+      "Filename": "odio",
+      "Size": 164,
+      "Type": "optio",
+      "Encoding": "itaque",
+      "Id": "porro",
+      "Disposition": "velit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 810
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kerluke, Stamm and Ankunding",
+      "Name": "Ernser LLC",
       "Values": [
-        "aut",
-        "rerum"
+        "perspiciatis",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 779
         }
       }
     },
     {
-      "Name": "Kerluke, Stamm and Ankunding",
+      "Name": "Ernser LLC",
       "Values": [
-        "aut",
-        "rerum"
+        "perspiciatis",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 779
         }
       }
     }
   ],
-  "FolderName": "Koelpin-Gutmann",
-  "EmailItemId": 261,
-  "AccountId": 567,
-  "ReceivedAt": "2003-04-05T04:22:26.6709828+02:00",
+  "FolderName": "Kertzmann-Tremblay",
+  "EmailItemId": 670,
+  "AccountId": 470,
+  "ReceivedAt": "2015-02-28T13:28:22.6323326+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-02-10T04:22:26.6709828+01:00",
+  "RepliedAt": "2004-01-06T13:28:22.6323326+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 647
     }
   }
 }
