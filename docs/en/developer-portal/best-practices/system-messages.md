@@ -85,5 +85,5 @@ The [DiagnosticsAgent_GetSystemMessages][5] method retrieves system messages for
 
 <!-- Reference links -->
 [2]: ../../api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_SendSystemMessage.md
-[4]: ../../api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_DeleteSystemMessage.md
-[5]: ../../api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_GetSystemMessage.md
+[4]: ../../api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_RemoveSystemMessage.md
+[5]: ../../api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_GetSystemMessages.md
