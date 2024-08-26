@@ -1,11 +1,11 @@
 ---
 uid: help-en-extra-table
 title: Third-party tables
-descripotion: Introduction to SuperOffice extra tables
+description: Introduction to SuperOffice extra tables
 keywords: database, extra table, custom object, 3rd-party table
 author: Bergfrid Dias
-date: 01.16.2024
-version: 10
+date: 06.11.2024
+version: 10.3.7
 topic: concept
 language: en
 audience: user
@@ -16,9 +16,57 @@ audience_tooltip: SuperOffice CRM
 
 [!include[License requirement](../../learn/includes/req-expander-services.md)]
 
-SuperOffice Development Tools license gives you the possibility to create extra tables in the database. Instantly, these third-party tables will be available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
+SuperOffice Development Tools license gives you the possibility to create extra tables (custom objects) in the database.
 
 The **Tables** screen is your tool for customizing the database schema.
+
+## How to access
+
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/extra-table-old)
+
+Third-party tables are instantly available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
+
+### [New (from version 10.3.4 pilot)](#tab/extra-table-new)
+
+No longer confined to SuperOffice Service, you can effortlessly explore and maintain data in extra tables from SuperOffice CRM.
+
+#### Build dashboards using custom objects
+
+![Dashboard with custom objects -screenshot][img1]
+
+#### Find and selection
+
+**Custom object as search criteria for company, contact, sale, project, request, activity:**
+
+![Custom object as search criteria -screenshot][img2]
+
+**Create selection of custom objects (10.3.7):**
+
+![Find screen with custom objects -screenshot][img3]
+
+![Selection of custom objects -screenshot][img4]
+
+#### Maintaining data (10.3.7)
+
+**Open Custom Objects overview:**
+
+![Custom Objects overview -screenshot][img5]
+
+**Search:**
+
+![Custom Objects overview, search -screenshot][img6]
+
+**Preview:**
+
+![Custom Objects overview, preview -screenshot][img7]
+
+**Add/remove items:**
+
+When viewing the results for a specific item in the **Custom Objects** overview, click the **Task** button and select **New** or **Delete**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Tables screen
 
@@ -65,3 +113,10 @@ Prefixes ensure that what you create do not conflict with future SuperOffice tab
 [4]: ../admin/add-udef.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
+[img2]: ../../../media/loc/en/automation/find-custom-object-relation.png
+[img3]: ../../../media/loc/en/automation/find-screen-with-custom-objects.png
+[img4]: ../../../media/loc/en/automation/custom-object-selection.png
+[img5]: ../../../media/loc/en/automation/go-to-custom-objects.png
+[img6]: ../../../media/loc/en/automation/search-inventory.png
+[img7]: ../../../media/loc/en/automation/preview-inventory-results.png
