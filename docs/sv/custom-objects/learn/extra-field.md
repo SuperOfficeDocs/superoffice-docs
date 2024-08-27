@@ -5,7 +5,8 @@ description: Extrafält
 keywords: extrafält, anpassead fält, Service
 author: Bergfrid Dias
 date: 06.11.2024
-version: 10.3.7topic: concept
+version: 10.3.7
+topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
 language: sv
