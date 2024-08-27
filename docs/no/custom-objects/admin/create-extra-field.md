@@ -4,8 +4,8 @@ title: Legge til ekstrafelt
 description: Legge til ekstrafelt
 keywords: ekstrafelt, tilpasset felt, databasefelt, feltegenskaper
 author: Bergfrid Dias
-date: 01.29.2024
-version: 10
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -83,6 +83,10 @@ Når du har opprettet en [ekstratabell][1], må du definere felt i tabellen, sli
 1. Klikk på **Nytt felt**.
 1. Velg relasjonstypen for enheten du vil koble til og klikk på **OK**.
 1. Sett feltegenskaper som beskrevet ovenfor.
+
+    > [!NOTE]
+    > Tilgjengelig fra versjon 10.3.4 i pilot: Valg av **Vis én-til-mange-relasjoner** legger til et detalkort (arkiv) til relaterte standardenheter.
+
 1. Klikk på **OK** for å lagre relasjonen.
 1. Klikk på **Start NetServer om igjen** for å anvende endringene.
 

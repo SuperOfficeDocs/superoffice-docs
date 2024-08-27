@@ -2,10 +2,13 @@
 uid: help-da-section-tabs
 title: Detaljekortene
 description: Detaljekortene
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: detaljekort, arkiv
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -51,6 +54,7 @@ Du kan også justere indstillingerne for detaljekortene i [dine præferencer][1]
 * [Detaljekortene i skærmbilledet Projekt][13]
 * [Detaljekortene i skærmbilledet Udvalg][14]
 * [Arbejde med dynamiske og statiske markeringer][15]
+* [Detaljekort med ekstrafeltrelation][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ Du kan også justere indstillingerne for detaljekortene i [dine præferencer][1]
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

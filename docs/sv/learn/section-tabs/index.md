@@ -2,10 +2,13 @@
 uid: help-sv-section-tabs
 title: Detaljkorten
 description: Detaljkorten
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: detaljkort, arkiv
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -51,6 +54,7 @@ För att minska inläsningstiden visas endast ett angivet antal poster när ett 
 * [Detaljkorten i fönstret Projekt][13]
 * [Detaljkorten i fönstret Urval][14]
 * [Arbeta med dynamiska och statiska urval][15]
+* [Detaljkorten med extrafältrelation][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ För att minska inläsningstiden visas endast ett angivet antal poster när ett 
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

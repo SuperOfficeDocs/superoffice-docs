@@ -2,10 +2,10 @@
 uid: help-da-extra-field
 title: Ekstrafelt
 description: Et ekstrafelt er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell i Service.
-author: Bergfrid Dias
-date: 01.26.2024
-version: 10
 keywords: ekstrafelt, tilpasset felt, Service
+author: Bergfrid Dias
+date: 06.11.2024
+version: 10.3.7
 topic: concept
 language: da
 audience: user
@@ -50,7 +50,7 @@ Desuden har hver enhed en relations type. For eksempel *kontaktrelationen*.
 
 I modsætning til brugerdefinerede felter tilføjes ekstra felter som faktiske felter til databasetabellerne. Der er ingen foruddefinerede pladser, du skal tage hensyn til, og i princippet ingen begrænsninger.
 
-### Relationer (fremmednøgler, FK)
+### <a id="relation"></a>Relationer (fremmednøgler, FK)
 
 Databasetabeller er forbundet med *fremmednøgler* (FK). Disse er felttyper, der slutter på *relation*.
 
@@ -66,6 +66,24 @@ Databasetabeller er forbundet med *fremmednøgler* (FK). Disse er felttyper, der
 * Aftalerelation
 * Relation til Ekstratabel
 
+#### Tilgængelig i pilot fra version 10.3.4
+
+Når et relationsfelt er sat til at vise én-til-mange relationer, tilføjer systemet automatisk et detaljekort i relaterede standardenheder. Dette er ikke det samme som fanen **Relationer** på Firma- og Person-skærmene.
+
+![Detaljekort med ekstrafeltrelation -screenshot][img1]
+
+#### Tilgængelig i pilot fra version 10.3.7
+
+For at se detaljerne for elementerne på denne liste uden at åbne hver enkelt enhed:
+
+1. Gå til sidepanelet, og vælg **Forhåndsvisning**.
+2. Klik på et element i det relationsbaserede detaljekort. Sidepanelet viser en forhåndsvisning af den valgte enhed. I forhåndsvisningen kan du:
+
+    * Klikke på en standardenhed for at gå til den.
+    * Klikke på et brugerdefineret objekt for at åbne en dialog til visning eller redigering af yderligere oplysninger.
+
+![Forhåndsvisning af ekstrafeltrelation -screenshot][img2]
+
 ## Brug
 
 Ekstra felter kan for eksempel bruges som søgekriterier og kolonner i salg i SuperOffice CRM.
@@ -79,3 +97,7 @@ Ekstra felter kan for eksempel bruges som søgekriterier og kolonner i salg i Su
 [1]: ../admin/show-extra-field-on-request-details.md
 [2]: ../admin/create-extra-field.md
 [6]: extra-table.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/section-tab-for-relation.png
+[img2]: ../../../media/loc/en/automation/preview-custom-object-from-side-panel.png

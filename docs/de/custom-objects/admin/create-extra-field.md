@@ -4,8 +4,8 @@ title: Zusatzfelder hinzufügen
 description: Zusatzfelder hinzufügen
 keywords: Zusatzfeld, Zusatztabelle, Datenbankfeld
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -82,6 +82,10 @@ Nachdem Sie eine [Zusatztabelle][1] erstellt haben, müssen Sie Felder in der Ta
 
 1. Klicken Sie auf **Neues Feld**.
 1. Wählen Sie den Beziehungstyp für die Entität aus, mit der Sie verbinden möchten, und klicken Sie auf **OK**.
+
+    > [!NOTE]
+    > Verfügbar ab Version 10.3.4 im Pilot: Die Auswahl von **Ein-zu-viele-Beziehungen anzeigen** fügt einen Bereichsreiter (Archiv) zu den zugehörigen Standardentitäten hinzu.
+
 1. Stellen Sie die Feldeigenschaften wie oben beschrieben ein.
 1. Klicken Sie auf **OK**, um die Beziehung zu speichern.
 1. Klicken Sie auf **NetServer neu starten**, um die Änderungen anzuwenden.
