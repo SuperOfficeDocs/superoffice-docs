@@ -4,8 +4,8 @@ title: Third-party tables
 description: Introduction to SuperOffice extra tables
 keywords: database, extra table, custom object, 3rd-party table
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 08.27.2024
+version: 10.3.8
 topic: concept
 language: en
 audience: user
@@ -65,6 +65,10 @@ No longer confined to SuperOffice Service, you can effortlessly explore and main
 
 When viewing the results for a specific item in the **Custom Objects** overview, click the **Task** button and select **New** or **Delete**.
 
+**Pre-fill fields when loading custom object (10.3.8):**
+
+The new [SalesLoadCustomObject][6] trigger is called before a custom object screen is loaded. Use it to set default values in fields and define business rules.
+
 ***
 <!-- markdownlint-restore -->
 
@@ -105,12 +109,15 @@ Prefixes ensure that what you create do not conflict with future SuperOffice tab
 * [Add extra fields][3]
 * [Add user-defined fields][4]
 * [Custom screens][1]
+* [Create trigger][5]
 
 <!-- Referenced links -->
 [1]: ../../ui/blogic/learn/index.md
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
+[5]: ../../../en/automation/trigger/create-trigger-script.md
+[6]: <xref:href="CRMScript.Event.Trigger.SalesLoadCustomObject">
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
