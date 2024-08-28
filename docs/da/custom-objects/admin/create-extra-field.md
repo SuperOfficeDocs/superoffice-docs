@@ -85,7 +85,7 @@ Når du har oprettet en [ekstratabel][1], skal du konfigurere felter i tabellen,
 1. Indstil feltegenskaber som beskrevet ovenfor.
 
     > [!NOTE]
-    > Tilgængelig fra version 10.3.4 i pilot: Valg af **Vis én-til-mange-relationer** tilføjer en sektionfaneblad (arkiv) til relaterede standardenheder.
+    > Tilgængelig fra version 10.3.4 i pilot: Valg af **Vis én-til-mange-relationer** tilføjer et detaljekort (arkiv) til relaterede standardenheder.
 
 1. Klik på **OK** for at gemme relationen.
 1. Klik på **Genstart NetServer** for at anvende ændringerne.

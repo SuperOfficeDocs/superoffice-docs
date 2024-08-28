@@ -54,7 +54,7 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 * [Detaljkortene i Prosjekt-bildet][13]
 * [Detaljkortene i Utvalg-skjermbildet][14]
 * [Arbeide med dynamiske og statiske utvalg][15]
-* [Detaljkort med ekstrafeltrelations][16]
+* [Detaljkort med ekstrafeltrelasjon][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
