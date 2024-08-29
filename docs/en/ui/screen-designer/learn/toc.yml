@@ -9,3 +9,7 @@ items:
   href: edit-layout-archives.md
 - name: Elements
   href: elements.md
+- name: Element reference
+  href: element-reference.md
+- name: Tutorial - place country before address
+  href: tutorial-move-country.yml
