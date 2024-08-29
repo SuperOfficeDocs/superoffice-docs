@@ -40,20 +40,24 @@ Integrasjonene du trenger avhenger av operativsystemet, e-postklienten og dokume
 
 ## Eksempler
 
+<!-- markdownlint-disable-file MD036 -->
 ### Kalender med innkommende invitasjoner
 
 ![Varsler med innkommende invitasjoner via Inbox SuperOffice -screenshot][img1]
+
 *Varsler med innkommende invitasjoner via SuperOffice Inbox*
 
 ### Inbox med innkommende invitasjoner
 
 ![SuperOffice Inbox er satt opp og vil motta innkommende invitasjoner med Aksepter/Avslå knapper -screenshot][img2]
+
 *SuperOffice Inbox er satt opp og vil motta innkommende invitasjoner med Aksepter/Avslå knapper*
 
 ### SuperOffice for Outlook-applikasjon
 
 ![Bruk applikasjonen **SuperOffice for Outlook** til å arkivere e-poster til SuperOffice -screenshot][img3]
-*Bruk applikasjonen **SuperOffice for Outlook** til å arkivere e-poster til SuperOffice*
+
+*Bruk applikasjonen SuperOffice for Outlook til å arkivere e-poster til SuperOffice*
 
 <!-- Referenced links -->
 [1]: default-win.md

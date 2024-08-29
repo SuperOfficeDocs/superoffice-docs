@@ -38,20 +38,24 @@ The integrations you need depend on your operating system, your email client, an
 
 ## Examples
 
+<!-- markdownlint-disable-file MD036 -->
 ### Diary with incoming invitations
 
 ![Notifications with incoming invitations via Inbox SuperOffice -screenshot][img1]
+
 *Notifications with incoming invitations via SuperOffice Inbox*
 
 ### Inbox with incoming invitations
 
 ![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
+
 *SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
 
 ### SuperOffice for Outlook application
 
 ![Use the application **SuperOffice for Outlook** to archive emails to SuperOffice -screenshot][img3]
-*Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
+
+*Use the application SuperOffice for Outlook to archive emails to SuperOffice*
 
 <!-- Referenced links -->
 [1]: default-win.md

@@ -40,20 +40,24 @@ Die benötigten Integrationen hängen von Ihrem Betriebssystem, Ihrem E-Mail-Cli
 
 ## Beispiele
 
+<!-- markdownlint-disable-file MD036 -->
 ### Kalender mit eingehenden Einladungen
 
 ![Benachrichtigungen mit eingehenden Einladungen über Inbox SuperOffice -screenshot][img1]
+
 *Benachrichtigungen mit eingehenden Einladungen über SuperOffice Inbox*
 
 ### Inbox mit eingehenden Einladungen
 
 ![SuperOffice Inbox ist eingerichtet und erhält eingehende Einladungen mit Akzeptieren/Ablehnen-Schaltflächen -screenshot][img2]
+
 *SuperOffice Inbox ist eingerichtet und erhält eingehende Einladungen mit Akzeptieren/Ablehnen-Schaltflächen*
 
 ### SuperOffice für Outlook Anwendung
 
 ![Verwenden Sie die Anwendung **SuperOffice für Outlook**, um E-Mails in SuperOffice zu archivieren -screenshot][img3]
-*Verwenden Sie die Anwendung **SuperOffice für Outlook**, um E-Mails in SuperOffice zu archivieren*
+
+*Verwenden Sie die Anwendung SuperOffice für Outlook, um E-Mails in SuperOffice zu archivieren*
 
 <!-- Referenced links -->
 [1]: default-win.md

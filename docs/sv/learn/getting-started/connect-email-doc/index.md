@@ -38,20 +38,24 @@ De integrationer du behöver beror på ditt operativsystem, din e-postklient och
 
 ## Exempel
 
+<!-- markdownlint-disable-file MD036 -->
 ### Kalender med inkommande inbjudningar
 
 ![Meddelanden med inkommande inbjudningar via SuperOffice Inbox -screenshot][img1]
+
 *Meddelanden med inkommande inbjudningar via SuperOffice Inbox*
 
 ### Inkorg med inkommande inbjudningar
 
 ![SuperOffice Inbox är inställt och kommer att ta emot inkommande inbjudningar med Acceptera/Neka knappar -screenshot][img2]
+
 *SuperOffice Inbox är inställt och kommer att ta emot inkommande inbjudningar med Acceptera/Neka knappar*
 
 ### SuperOffice för Outlook-applikation
 
 ![Använd applikationen **SuperOffice för Outlook** för att arkivera e-post till SuperOffice -screenshot][img3]
-*Använd applikationen **SuperOffice för Outlook** för att arkivera e-post till SuperOffice*
+
+*Använd applikationen SuperOffice för Outlook för att arkivera e-post till SuperOffice*
 
 <!-- Referenced links -->
 [1]: default-win.md

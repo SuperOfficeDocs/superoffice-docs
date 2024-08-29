@@ -40,20 +40,24 @@ De integraties die je nodig hebt, hangen af van je besturingssysteem, je e-mailc
 
 ## Voorbeelden
 
+<!-- markdownlint-disable-file MD036 -->
 ### Agenda met inkomende uitnodigingen
 
 ![Meldingen met inkomende uitnodigingen via Inbox SuperOffice -screenshot][img1]
+
 *Meldingen met inkomende uitnodigingen via SuperOffice Inbox*
 
 ### Inbox met inkomende uitnodigingen
 
 ![SuperOffice Inbox is ingesteld en zal inkomende uitnodigingen ontvangen met Accepteren/Weigeren knoppen -screenshot][img2]
+
 *SuperOffice Inbox is ingesteld en zal inkomende uitnodigingen ontvangen met Accepteren/Weigeren knoppen*
 
 ### SuperOffice voor Outlook applicatie
 
 ![Gebruik de applicatie **SuperOffice voor Outlook** om e-mails naar SuperOffice te archiveren -screenshot][img3]
-*Gebruik de applicatie **SuperOffice voor Outlook** om e-mails naar SuperOffice te archiveren*
+
+*Gebruik de applicatie SuperOffice voor Outlook om e-mails naar SuperOffice te archiveren*
 
 <!-- Referenced links -->
 [1]: default-win.md

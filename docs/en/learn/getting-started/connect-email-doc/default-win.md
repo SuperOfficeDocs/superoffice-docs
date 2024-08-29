@@ -35,10 +35,7 @@ Choose one of the following options:
 
 ## <a id="step-3"></a>Document
 
-The default document integration is **SuperOffice document library** with [WebTools][2].
-
-> [!NOTE]
-> If you chose WebTools for email in the previous step, you are already done.
+The default document integration is **SuperOffice document library** with [WebTools][2]. If you chose WebTools for email in the previous step, you are already done.
 
 ## <a id="step-4"></a>Calendar
 

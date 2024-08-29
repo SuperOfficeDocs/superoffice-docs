@@ -33,10 +33,7 @@ Vælg en af følgende muligheder:
 
 ## <a id="step-3"></a>Dokument
 
-Den standardmæssige dokumentintegration er **SuperOffice dokumentbibliotek** med [WebTools][2].
-
-> [!NOTE]
-> Hvis du valgte WebTools til e-mail i det forrige trin, er du allerede færdig.
+Den standardmæssige dokumentintegration er **SuperOffice dokumentbibliotek** med [WebTools][2]. Hvis du valgte WebTools til e-mail i det forrige trin, er du allerede færdig.
 
 ## <a id="step-4"></a>Kalender
 

@@ -40,20 +40,24 @@ De integrationer, du har brug for, afhænger af dit operativsystem, din e-mailkl
 
 ## Eksempler
 
+<!-- markdownlint-disable-file MD036 -->
 ### Kalender med indgående invitationer
 
 ![Notifikationer med indgående invitationer via Inbox SuperOffice -screenshot][img1]
+
 *Notifikationer med indgående invitationer via SuperOffice Inbox*
 
 ### Inbox med indgående invitationer
 
 ![SuperOffice Inbox er opsat og modtager indgående invitationer med Accepter/Afslå knapper -screenshot][img2]
+
 *SuperOffice Inbox er opsat og modtager indgående invitationer med Accepter/Afslå knapper*
 
 ### SuperOffice til Outlook applikation
 
 ![Brug applikationen **SuperOffice til Outlook** til at arkivere e-mails til SuperOffice -screenshot][img3]
-*Brug applikationen **SuperOffice til Outlook** til at arkivere e-mails til SuperOffice*
+
+*Brug applikationen SuperOffice til Outlook til at arkivere e-mails til SuperOffice*
 
 <!-- Referenced links -->
 [1]: default-win.md

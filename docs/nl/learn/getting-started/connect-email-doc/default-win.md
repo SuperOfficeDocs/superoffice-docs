@@ -33,10 +33,7 @@ Kies een van de volgende opties:
 
 ## <a id="step-3"></a>Document
 
-De standaard documentintegratie is de **SuperOffice documentbibliotheek** met [WebTools][2].
-
-> [!NOTE]
-> Als je in de vorige stap WebTools voor e-mail hebt gekozen, ben je al klaar.
+De standaard documentintegratie is de **SuperOffice documentbibliotheek** met [WebTools][2]. Als je in de vorige stap WebTools voor e-mail hebt gekozen, ben je al klaar.
 
 ## <a id="step-4"></a>Agenda
 

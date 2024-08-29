@@ -33,10 +33,7 @@ Wählen Sie eine der folgenden Optionen:
 
 ## <a id="step-3"></a>Dokument
 
-Die Standarddokumentintegration ist die **SuperOffice Dokumentbibliothek** mit [WebTools][2].
-
-> [!NOTE]
-> Wenn Sie im vorherigen Schritt WebTools für E-Mails gewählt haben, sind Sie bereits fertig.
+Die Standarddokumentintegration ist die **SuperOffice Dokumentbibliothek** mit [WebTools][2]. Wenn Sie im vorherigen Schritt WebTools für E-Mails gewählt haben, sind Sie bereits fertig.
 
 ## <a id="step-4"></a>Kalender
 
