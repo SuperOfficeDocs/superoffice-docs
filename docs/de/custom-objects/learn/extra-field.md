@@ -4,8 +4,8 @@ title: Zusatzfeld
 description: Zusatzfeld
 keywords: Zusatzfeld
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 06.11.2024
+version: 10.3.7
 topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -50,7 +50,7 @@ Darüber hinaus hat jede Entität einen Beziehungstyp. Zum Beispiel die *Beziehu
 
 Im Gegensatz zu benutzerdefinierten Feldern werden Zusatzfelder als tatsächliche Felder zu den Datenbanktabellen hinzugefügt. Es gibt keine vordefinierten Slots, die Sie berücksichtigen müssen, und im Wesentlichen keine Einschränkungen.
 
-### Beziehungen (Fremdschlüssel, FK)
+### <a id="relation"></a>Beziehungen (Fremdschlüssel, FK)
 
 Datenbanktabellen sind mit *Fremdschlüssel* (FK) verbunden. Diese sind Feldtypen, die auf *Beziehung* anfangen.
 
@@ -66,6 +66,24 @@ Datenbanktabellen sind mit *Fremdschlüssel* (FK) verbunden. Diese sind Feldtype
 * Beziehung zu Termin
 * Beziehung zu Zusatztabelle
 
+#### Im Pilot verfügbar ab Version 10.3.4
+
+Wenn ein Zusatzfeld so eingestellt ist, dass es Ein-zu-viele-Beziehungen anzeigt, fügt das System automatisch eine Bereichsregisterkarte in den zugehörigen Standardentitäten hinzu. Dies ist nicht dasselbe wie der **Beziehungen**-Reiter auf den Firmen- und Personbildschirmen.
+
+![Bereichsregisterkarte mit zusätzlicher Feldrelation -screenshot][img1]
+
+#### Im Pilot verfügbar ab Version 10.3.7
+
+Um die Details der Elemente in dieser Liste anzuzeigen, ohne jedes einzelne Objekt öffnen zu müssen:
+
+1. Gehen Sie zum Seitenbereich und wählen Sie die **Vorschau**-Ansicht.
+2. Klicken Sie auf ein Element im relationsbasierten Bereichsregisterkarte. Der Seitenbereich zeigt eine Vorschau des ausgewählten Objekts an. In der Vorschau können Sie:
+
+    * Auf eine Standardentität klicken, um zu ihr zu wechseln.
+    * Auf ein Zusatzobjekt klicken, um ein Dialogfeld zu öffnen, in dem Sie zusätzliche Informationen anzeigen oder bearbeiten können.
+
+![Vorschau zusätzliche Feldrelation -screenshot][img2]
+
 ## Verwendung
 
 Zusatzfelder können beispielsweise als Suchkriterien und Spalten im Verkauf in SuperOffice CRM verwendet werden.
@@ -79,3 +97,7 @@ Zusatzfelder können beispielsweise als Suchkriterien und Spalten im Verkauf in 
 [1]: ../admin/show-extra-field-on-request-details.md
 [2]: ../admin/create-extra-field.md
 [6]: extra-table.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/section-tab-for-relation.png
+[img2]: ../../../media/loc/en/automation/preview-custom-object-from-side-panel.png

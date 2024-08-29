@@ -13,7 +13,7 @@ language: en
 
 In dialogs, your objective is to find and select a specific item as the value of a field. The type of item is already determined by the context. For example, when booking a meeting you want to link it to a project.
 
-![FastSearcher in dialog - screenshot][img3]
+![FastSearcher in dialog -screenshot][img3]
 
 ## Steps
 

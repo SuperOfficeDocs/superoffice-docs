@@ -4,8 +4,8 @@ title: Zusatztabellen
 description: Zusatztabellen
 keywords: Zusatztabelle
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -16,9 +16,61 @@ language: de
 
 [!include[License requirement](../../learn/includes/req-expander-services.md)]
 
-Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen in der Datenbank zu erstellen. Sofort stehen diese Tabellen von Drittanbietern für Standard-CRUD-Operationen in SuperOffice Service zur Verfügung. Sie müssen ein Webpanel einrichten, um von der Verkaufs-App darauf zuzugreifen.
+Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
 
 Die Ansicht Tabellen ist Ihr Werkzeug zur Anpassung des Datenbankschemas.
+
+## So greifen Sie darauf zu
+
+<!-- markdownlint-disable MD051 -->
+### [Klassisch](#tab/extra-table-old)
+
+Drittanbietertabellen stehen sofort für Standard-CRUD-Operationen in SuperOffice Service zur Verfügung. Sie müssen ein Webpanel einrichten, um von der Verkaufs-App darauf zugreifen zu können.
+
+### [Neu (ab Version 10.3.4 Pilot)](#tab/extra-table-new)
+
+Nicht mehr auf SuperOffice Service beschränkt, können Sie Daten in Zusatztabellen jetzt mühelos über SuperOffice CRM erkunden und verwalten.
+
+#### Dashboards mit Zusatzobjekten erstellen
+
+![Dashboard mit Zusatzobjekten -screenshot][img1]
+
+#### Finden und Auswahl
+
+**Zusatzobjekt als Suchkriterium für Firma, Person, Verkauf, Projekt, Anfrage, Aktivität:**
+
+![Zusatzobjekt als Suchkriterium -screenshot][img2]
+
+**Erstellen Sie eine Auswahl von Zusatzobjekten (10.3.7):**
+
+![Suchbildschirm mit Zusatzobjekten -screenshot][img3]
+
+![Auswahl von Zusatzobjekten -screenshot][img4]
+
+#### Datenverwaltung (10.3.7)
+
+**Übersicht über Zusatzobjekte öffnen:**
+
+![Übersicht über Zusatzobjekte -screenshot][img5]
+
+**Suche:**
+
+![Übersicht über Zusatzobjekte, Suche -screenshot][img6]
+
+**Vorschau:**
+
+![Übersicht über Zusatzobjekte, Vorschau -screenshot][img7]
+
+**Elemente hinzufügen/entfernen:**
+
+Wenn Sie die Ergebnisse für ein bestimmtes Element in der Übersicht über **Zusatzobjekte** anzeigen, klicken Sie auf die Schaltfläche **Aufgabe** und wählen **Neu** oder **Löschen**.
+
+**Felder automatisch ausfüllen, wenn Zusatzobjekte geladen wird (10.3.8):**
+
+Der neue [SalesLoadCustomObject][6] Auslöser wird aufgerufen, bevor ein Bildschirm für Zusatzobjekte geladen wird. Verwenden Sie ihn, um Standardwerte in Feldern festzulegen und Geschäftsregeln zu definieren.
+
+***
+<!-- markdownlint-restore -->
 
 ## Ansicht Tabellen
 
@@ -57,11 +109,23 @@ Präfixe stellen sicher, dass das, was Sie erstellen, nicht mit zukünftigen Sup
 * [Zusatzfelder hinzufügen][3]
 * [Benutzerdefinierte Felder][4]
 * [Benutzerdefinierte Anziege][1]
+* [Auslöser hinzufügen][5]
 
 <!-- Referenced links -->
 [1]: ../../ui/blogic/learn/index.md
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
+[5]: ../../../en/automation/trigger/create-trigger-script.md
+[6]: <xref:href="CRMScript.Event.Trigger.SalesLoadCustomObject">
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
+[img2]: ../../../media/loc/en/automation/find-custom-object-relation.png
+[img3]: ../../../media/loc/en/automation/find-screen-with-custom-objects.png
+[img4]: ../../../media/loc/en/automation/custom-object-selection.png
+[img5]: ../../../media/loc/en/automation/go-to-custom-objects.png
+[img6]: ../../../media/loc/en/automation/search-inventory.png
+[img7]: ../../../media/loc/en/automation/preview-inventory-results.png
 
 <!-- Referenced images -->

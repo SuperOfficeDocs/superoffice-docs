@@ -2,10 +2,13 @@
 uid: help-no-section-tabs
 title: Detaljkortene
 description: Detaljkortene
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: detaljkort, arkiv
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -51,6 +54,7 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 * [Detaljkortene i Prosjekt-bildet][13]
 * [Detaljkortene i Utvalg-skjermbildet][14]
 * [Arbeide med dynamiske og statiske utvalg][15]
+* [Detaljkort med ekstrafeltrelasjon][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

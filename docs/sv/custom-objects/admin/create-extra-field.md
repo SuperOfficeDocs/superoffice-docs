@@ -2,10 +2,10 @@
 uid: help-sv-extra-fields-create
 title: Lägg till extrafält
 description: Lägg till extrafält
-author: Bergfrid Dias
-date: 01.29.2024
-version: 10
 keywords: extrafält, anpassa fält
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -83,6 +83,10 @@ När du har skapat en [extratabell][1] måste du skapa fält i tabellen så att 
 1. Klicka på **Nytt fält**.
 1. Välj relationstypen för den enhet du vill ansluta till och klicka på **OK**.
 1. Ställ in fältegenskaper som beskrivs ovan.
+
+    > [!NOTE]
+    > Tillgänglig från version 10.3.4 i pilot: Att välja **Visa en-till-flera-relationer** lägger till ett detaljkort (arkiv) till relaterade standardenheter.
+
 1. Klicka på **OK** för att spara relationen.
 1. Klicka på **Starta om NetServer** för att tillämpa ändringarna.
 

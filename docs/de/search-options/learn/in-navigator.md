@@ -31,7 +31,7 @@ The Navigator FastSearcher runs two parallel searches:
 
 * Sie können nach einem Verkauf suchen, indem Sie den Namen des Verkaufs oder den Namen einer Firma, die mit dem Verkauf verknüpft ist, in das Schnellsuchfeld für **Verkäufe** im Navigator eingeben.
 
-    ![Schnellsuche - screenshot][img2]
+    ![Schnellsuche -screenshot][img2]
 
 * Sie können im Schnellsuchfeld für **Firmen** im Navigator nach einer Person suchen.
 

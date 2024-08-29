@@ -2,10 +2,10 @@
 uid: help-da-extra-fields-create
 title:  Definere ekstrafelter
 description: Definere ekstrafelter
-author: Bergfrid Dias
-date: 01.26.2024
-version: 10
 keywords: ekstrafelt, tilpasset felt
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -83,6 +83,10 @@ Når du har oprettet en [ekstratabel][1], skal du konfigurere felter i tabellen,
 1. Klik på **Nyt felt**.
 1. Vælg relationstypen for den enhed, du vil forbinde til, og klik på **OK**.
 1. Indstil feltegenskaber som beskrevet ovenfor.
+
+    > [!NOTE]
+    > Tilgængelig fra version 10.3.4 i pilot: Valg af **Vis én-til-mange-relationer** tilføjer et detaljekort (arkiv) til relaterede standardenheder.
+
 1. Klik på **OK** for at gemme relationen.
 1. Klik på **Genstart NetServer** for at anvende ændringerne.
 

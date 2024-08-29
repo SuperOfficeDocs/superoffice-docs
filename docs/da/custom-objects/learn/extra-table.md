@@ -1,11 +1,11 @@
 ---
 uid: help-da-extra-table
-title:  Ekstra tabeller
-description:  Ekstra tabeller
+title: Ekstra tabeller
+description: Ekstra tabeller
+keywords: ekstra tabel, brugerdefinerede objekter
 author: Bergfrid Dias
-date: 01.26.2024
-version: 10
-keywords: ekstra tabel
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,9 +16,61 @@ language: da
 
 [!include[Requirement](../../learn/includes/req-expander-services.md)]
 
-SuperOffice Development Tools-licensen giver dig mulighed for at oprette ekstra tabeller i databasen. Øjeblikkeligt vil disse tredjepartstabeller være tilgængelige for standard CRUD-operationer i SuperOffice Service. Du skal opsætte en webpanel for at få adgang til dem fra Salgsklienten.
+SuperOffice Development Tools-licensen giver dig mulighed for at oprette ekstra tabeller (brugerdefinerede objekter) i databasen.
 
 **Tabeller**-skærmen er dit værktøj til tilpasning af databaseskemaet.
+
+## Sådan får du adgang
+
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/extra-table-old)
+
+Ekstra tabeller er straks tilgængelige til standard CRUD-operationer i SuperOffice Service. Du skal opsætte et webpanel for at få adgang til dem fra Salgsklienten.
+
+### [Ny (fra version 10.3.4 pilot)](#tab/extra-table-new)
+
+Ikke længere begrænset til SuperOffice Service, kan du nemt udforske og vedligeholde data i ekstra tabeller fra SuperOffice CRM.
+
+#### Byg dashboards ved hjælp af brugerdefinerede objekter
+
+![Dashboard med brugerdefinerede objekter -screenshot][img1]
+
+#### Find og udvælgelse
+
+**Brugerdefineret objekt som søgekriterium for firma, person, salg, projekt, sag, aktivitet:**
+
+![Brugerdefineret objekt som søgekriterium -screenshot][img2]
+
+**Opret udvælgelse af brugerdefinerede objekter (10.3.7):**
+
+![Find-skærm med brugerdefinerede objekter -screenshot][img3]
+
+![Udvælgelse af brugerdefinerede objekter -screenshot][img4]
+
+#### Vedligeholdelse af data (10.3.7)
+
+**Åbn oversigt over brugerdefinerede objekter:**
+
+![Oversigt over brugerdefinerede objekter -screenshot][img5]
+
+**Søg:**
+
+![Oversigt over brugerdefinerede objekter, søgning -screenshot][img6]
+
+**Forhåndsvisning:**
+
+![Oversigt over brugerdefinerede objekter, forhåndsvisning -screenshot][img7]
+
+**Tilføj/fjern elementer:**
+
+Når du ser resultaterne for et bestemt element i oversigten over **Brugerdefinerede objekter**, klik på knappen **Opgave**, og vælg **Ny** eller **Slet**.
+
+**Forudfyld felter ved indlæsning af brugerdefineret objekt (10.3.8):**
+
+Den nye [SalesLoadCustomObject][6] trigger kaldes, før en brugerdefineret objekt-skærm indlæses. Brug den til at angive standardværdier i felter og definere forretningsregler.
+
+***
+<!-- markdownlint-restore -->
 
 ## Tabeller-skærm
 
@@ -57,11 +109,23 @@ Præfikser sikrer, at det du opretter, ikke konflikter med fremtidige SuperOffic
 * [Tilføj ekstra felter][3]
 * [Brugerdefinerede felter][4]
 * [Custom screens][1]
+* [Tilføj trigger][5]
 
 <!-- Referenced links -->
 [1]: ../../ui/blogic/learn/index.md
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
+[5]: ../../../en/automation/trigger/create-trigger-script.md
+[6]: <xref:href="CRMScript.Event.Trigger.SalesLoadCustomObject">
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
+[img2]: ../../../media/loc/en/automation/find-custom-object-relation.png
+[img3]: ../../../media/loc/en/automation/find-screen-with-custom-objects.png
+[img4]: ../../../media/loc/en/automation/custom-object-selection.png
+[img5]: ../../../media/loc/en/automation/go-to-custom-objects.png
+[img6]: ../../../media/loc/en/automation/search-inventory.png
+[img7]: ../../../media/loc/en/automation/preview-inventory-results.png
 
 <!-- Referenced images -->

@@ -4,8 +4,8 @@ title: Extra velden toevoegen
 description: Extra velden toevoegen
 keywords: extra veld, aangepast veld
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -82,6 +82,10 @@ Nadat u een [extra tabel][1] hebt gemaakt, moet u velden in de tabel instellen, 
 
 1. Klik op **Nieuw veld**.
 1. Selecteer het relatie type voor de entiteit waarmee u wilt verbinden en klik op **OK**.
+
+    > [!NOTE]
+    > Beschikbaar vanaf versie 10.3.4 in pilot: Het selecteren van **Eén-op-veel-relaties weergeven** voegt een sectietabblad (archief) toe aan gerelateerde standaardentiteiten.
+
 1. Stel veld eigenschappen in zoals hierboven beschreven.
 1. Klik op **OK** om de relatie op te slaan.
 1. Klik op **NetServer opnieuw starten** om de wijzigingen toe te passen.

@@ -4,8 +4,8 @@ title: Add extra fields
 description: How to define extra fields in SuperOffice
 keywords: extra field, custom field, field properties
 author: Bergfrid Dias
-date: 01.18.2024
-version: 10
+date: 04.09.2024
+version: 10.3.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -83,6 +83,10 @@ After you create an [extra table][1], you must set up fields in the table, to al
 1. Click **New field**.
 1. Select the relation type for the entity you want to connect to and click **OK**.
 1. Set field properties as described above.
+
+    > [!NOTE]
+    > Available from version 10.3.4 in pilot: Selecting **Show one-to-many relations** adds a section tab (archive) to related standard entities.
+
 1. Click **OK** to save the relation.
 1. Click **Restart NetServer** to apply the changes.
 

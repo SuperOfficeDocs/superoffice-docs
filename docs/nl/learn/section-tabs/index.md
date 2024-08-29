@@ -2,10 +2,13 @@
 uid: help-nl-section-tabs
 title: De sectietabbladen
 description: De sectietabbladen
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: sectietabblad, archief
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -51,6 +54,7 @@ Om de laadtijd te verkorten, wordt alleen een opgegeven aantal records weergegev
 * [Sectietabbladen in het scherm Project][13]
 * [Sectietabbladen in het scherm Selectie][14]
 * [Werken met dynamische en statische selecties][15]
+* [Sectietabbladen met extra veld relaties][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ Om de laadtijd te verkorten, wordt alleen een opgegeven aantal records weergegev
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

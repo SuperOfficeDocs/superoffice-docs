@@ -4,8 +4,8 @@ title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
 keywords: extra field, custom field, field types
 author: Bergfrid Dias
-date: 01.16.2024
-version: 10
+date: 06.11.2024
+version: 10.3.7
 topic: concept
 language: en
 audience: user
@@ -50,7 +50,7 @@ In addition, each entity has a relation type. For example, the *contact relation
 
 Unlike user-defined fields, extra fields are added as actual fields to the database tables. There are no pre-defined slots you need to take into consideration, and essentially no limitations.
 
-### Relations (foreign keys)
+### <a id="relation"></a>Relations (foreign keys)
 
 Database tables are connected with *foreign keys* (FK). These are the field types ending in *relation*.
 
@@ -66,6 +66,24 @@ Database tables are connected with *foreign keys* (FK). These are the field type
 * Appointment relation
 * Extra table relation
 
+#### Available in pilot from version 10.3.4
+
+When a relational field is set to display one-to-many relations, the system automatically adds a section tab in related standard entities. This is not the same as the **Relations** tab in the Company and Contact screens.
+
+![Section tab with extra field relation -screenshot][img1]
+
+#### Available in pilot from version 10.3.7
+
+To view the details of items in this list, without having to open each individual entity:
+
+1. Go to the side panel and select the **Preview** view.
+2. Click an item in the relation-based section tab. The side panel displays a preview of the selected entity. In the preview, you can:
+
+    * Click a standard entity to go to go to it.
+    * Click a custom objet to open a dialog for viewing or editing additional information.
+
+![Preview extra field relation -screenshot][img2]
+
 ## Usage
 
 Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.
@@ -79,3 +97,7 @@ Extra fields can for instance be used as search criteria and columns in sales in
 [1]: ../admin/show-extra-field-on-request-details.md
 [2]: ../admin/create-extra-field.md
 [6]: extra-table.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/section-tab-for-relation.png
+[img2]: ../../../media/loc/en/automation/preview-custom-object-from-side-panel.png

@@ -2,10 +2,13 @@
 uid: help-de-section-tabs
 title: Bereichsregisterkarten
 description: Bereichsregisterkarten
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -51,6 +54,7 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 * [Bereichsregisterkarten in der Ansicht Projekt][13]
 * [Bereichsregisterkarten in der Ansicht Selektion][14]
 * [Arbeiten mit dynamischen und statischen Selektionen][15]
+* [Bereichsregisterkarten mit extra-field relations][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

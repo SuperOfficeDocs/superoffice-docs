@@ -13,7 +13,7 @@ language: en
 
 1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Request**, or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a [list of records you have previously worked with][1].
 
-    ![FastSearcher - screenshot][img1]
+    ![FastSearcher -screenshot][img1]
 
 2. In the box, enter the name of the record to search for. While you type, the list below displays all matching records.
 
@@ -31,7 +31,7 @@ The Navigator FastSearcher runs two parallel searches:
 
 * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
 
-    ![FastSearcher - screenshot][img2]
+    ![FastSearcher -screenshot][img2]
 
 * You can search for a contact in the FastSearcher field for **Companies** in the Navigator.
 

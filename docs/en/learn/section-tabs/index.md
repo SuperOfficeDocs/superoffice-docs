@@ -2,11 +2,14 @@
 uid: help-en-section-tabs
 title: The Section tabs
 description: The Section tabs
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: section tab, archive
+author: Bergfrid Dias
+date: 04.09.2024
+version: 10.3.4
 topic: concept
 language: en
+audience: user
+audience_tooltip: SuperOffice CRM
 ---
 
 # The section tabs (archives)
@@ -51,6 +54,7 @@ To reduce the loading time, only a specified number of records are displayed whe
 * [Section tabs in the Project screen][13]
 * [Section tabs in the Selection screen][14]
 * [Work with dynamic and static selections][15]
+* [Section tabs based on extra-field relations][16]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -65,6 +69,7 @@ To reduce the loading time, only a specified number of records are displayed whe
 [13]: ../../project/learn/screen/index.md
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
+[16]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

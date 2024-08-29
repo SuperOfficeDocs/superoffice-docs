@@ -4,8 +4,8 @@ title: Extra tabellen
 description: Extra tabellen
 keywords: extra tabel, Scherm Tabellen
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 08.27.2024
+version: 10.3.8
 topic: howto
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -16,9 +16,61 @@ language: nl
 
 [!include[Requirement](../../learn/includes/req-expander-services.md)]
 
-De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken. Direct zullen deze tabellen van derden beschikbaar zijn voor standaard CRUD-bewerkingen in SuperOffice Service. Je moet een webpaneel instellen om er vanuit de Verkoop-client toegang toe te krijgen.
+De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken.
 
 Het **Tabellen**-scherm is jouw tool voor het aanpassen van het databaseschema.
+
+## Toegang krijgen
+
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/extra-table-old)
+
+Tabellen van derden zijn direct beschikbaar voor standaard CRUD-operaties in SuperOffice Service. Je moet een webpaneel instellen om er vanuit de Verkoop-client toegang toe te krijgen.
+
+### [Nieuw (vanaf versie 10.3.4 pilot)](#tab/extra-table-new)
+
+Niet langer beperkt tot SuperOffice Service, kunt u nu eenvoudig gegevens in extra tabellen verkennen en beheren vanuit SuperOffice CRM.
+
+#### Dashboards bouwen met aangepaste objecten
+
+![Dashboard met aangepaste objecten -screenshot][img1]
+
+#### Zoeken en selectie
+
+**Aangepast object als zoekcriterium voor bedrijf, contact, verkoop, project, verzoek, activiteit:**
+
+![Aangepast object als zoekcriterium -screenshot][img2]
+
+**Maak een selectie van aangepaste objecten (10.3.7):**
+
+![Zoekscherm met aangepaste objecten -screenshot][img3]
+
+![Selectie van aangepaste objecten -screenshot][img4]
+
+#### Gegevens beheren (10.3.7)
+
+**Open het overzicht van aangepaste objecten:**
+
+![Overzicht van aangepaste objecten -screenshot][img5]
+
+**Zoeken:**
+
+![Overzicht van aangepaste objecten, zoekopdracht -screenshot][img6]
+
+**Voorbeeld:**
+
+![Overzicht van aangepaste objecten, voorbeeld -screenshot][img7]
+
+**Items toevoegen/verwijderen:**
+
+Wanneer u de resultaten bekijkt voor een specifiek item in het overzicht **Aangepaste objecten**, klikt u op de knop **Taak** en selecteert u **Nieuw** of **Verwijderen**.
+
+**Velden vooraf invullen bij het laden van aangepast object (10.3.8):**
+
+De nieuwe [SalesLoadCustomObject][6] trigger wordt aangeroepen voordat een aangepast objectscherm wordt geladen. Gebruik het om standaardwaarden in te stellen in velden en bedrijfsregels te definiëren.
+
+***
+<!-- markdownlint-restore -->
 
 ## Scherm Tabellen
 
@@ -57,11 +109,23 @@ Prefixen zorgen ervoor dat wat u maakt niet in conflict komt met toekomstige Sup
 * [Extra velden toevoegen][3]
 * [Door gebruiker gedefinieerde velden][4]
 * [Gebruiker gedefinieerde chermen][1]
+* [Triggers toevoegen][5]
 
 <!-- Referenced links -->
 [1]: ../../ui/blogic/learn/index.md
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
+[5]: ../../../en/automation/trigger/create-trigger-script.md
+[6]: <xref:href="CRMScript.Event.Trigger.SalesLoadCustomObject">
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/automation/custom-object-dashboard.png
+[img2]: ../../../media/loc/en/automation/find-custom-object-relation.png
+[img3]: ../../../media/loc/en/automation/find-screen-with-custom-objects.png
+[img4]: ../../../media/loc/en/automation/custom-object-selection.png
+[img5]: ../../../media/loc/en/automation/go-to-custom-objects.png
+[img6]: ../../../media/loc/en/automation/search-inventory.png
+[img7]: ../../../media/loc/en/automation/preview-inventory-results.png
 
 <!-- Referenced images -->
