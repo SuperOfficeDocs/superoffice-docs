@@ -17,7 +17,7 @@ items:
     To encourage users to select country first, we're going to move that field to the top of the **Company** screen.
     When you're done, it should look something like this:
 
-    ![Company card -screenshot](media/tutorial-country-result.png)
+    ![Company card -screenshot](../../../../media/loc/en/ui/tutorial-country-result.png)
 
     [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 - title: Open the Screen Designer
@@ -27,7 +27,7 @@ items:
     1. Go to **Settings and maintenance**.
     1. Select **Screen Designer** from the navigator.
 
-    ![Screen designer -screenshot](media/open-screen-designer.png)
+    ![Screen designer -screenshot](../../../../media/loc/en/ui/open-screen-designer.png)
 - title: Open the layout in edit mode
   durationInMinutes: 3
   stepNumber: 3
@@ -37,7 +37,7 @@ items:
     1. Select the default layout from the list.
     1. Click **Edit layout** at the bottom of the screen.
 
-    ![Company layout in edit mode -screenshot](media/tutorial-country-layout-before.png)
+    ![Company layout in edit mode -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-before.png)
 - title: Update the fields
   durationInMinutes: 1
   stepNumber: 4
@@ -46,7 +46,7 @@ items:
     1. Click to select the **Country** field.
     1. Grab the **=** to the left of the field label, drag it to the top of the list, and drop it into the new position.
 
-        ![Company layout in edit mode -screenshot](media/tutorial-country-layout-after.png)
+        ![Company layout in edit mode -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-after.png)
 - title: Save, publish, and test results
   durationInMinutes: 1
   stepNumber: 5

@@ -62,5 +62,5 @@ The **More** tab contains all [custom fields][3] ordered by rank. These fields a
 [5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
-[img1]: media/status-draft.png
-[img2]: media/status-published.png
+[img1]: ../../../../media/loc/en/ui/status-draft.png
+[img2]: ../../../../media/loc/en/ui/status-published.png

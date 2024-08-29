@@ -98,4 +98,4 @@ With four columns, the visibility of some fields can be impaired. Consider hidin
 [2]: edit-card-layout.md
 
 <!-- Referenced images -->
-[img2]: media/field-settings.png
+[img2]: ../../../../media/loc/en/ui/field-settings.png

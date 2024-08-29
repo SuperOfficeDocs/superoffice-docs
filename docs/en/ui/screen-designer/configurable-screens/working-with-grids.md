@@ -96,7 +96,7 @@ To restore a grid:
 [4]: add-button.md
 
 <!-- Referenced images -->
-[img1]: media/new-grid.png
-[img2]: media/grid-settings.png
-[img3]: media/hover-grid.png
-[img4]: media/edit-grid.png
+[img1]: ../../../../media/loc/en/ui/new-grid.png
+[img2]: ../../../../media/loc/en/ui/grid-settings.png
+[img3]: ../../../../media/loc/en/ui/hover-grid.png
+[img4]: ../../../../media/loc/en/ui/edit-grid.png
