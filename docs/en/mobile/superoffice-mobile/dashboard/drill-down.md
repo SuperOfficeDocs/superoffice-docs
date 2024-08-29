@@ -59,7 +59,7 @@ A drill-down screen is a list showing items of one type of entity. Selecting an 
 * [Chart types][1]
 
 <!-- Referenced links -->
-[1]: ../../../dashboard/learn/index.md#chart-types
+[1]: ../../../dashboard/learn/index.md#charts
 
 <!-- Referenced images -->
 [img1]: media/dashboard-drill-down.png

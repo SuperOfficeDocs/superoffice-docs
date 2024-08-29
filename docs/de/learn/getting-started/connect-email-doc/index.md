@@ -1,69 +1,75 @@
 ---
 uid: help-de-connect-email-doc-cal
-title: Connect email, document, and calendar
-description: Learn which integration options you need based on your operating system, email client, and the document programs you use in this how-to guide.
-keywords: email, document, diary, invitation
-author: Kirsti Aakerholt
-date: 06.20.2024
+title: E-Mail, Dokumente und Kalender verbinden
+description: Erfahren Sie in diesem Leitfaden, welche Integrationsoptionen Sie basierend auf Ihrem Betriebssystem, E-Mail-Client und den von Ihnen verwendeten Dokumentprogrammen benötigen.
+keywords: E-Mail, Dokument, Kalender, Einladung
+author: Bergfrid Dias
+date: 08.28.2023
 version: 10
 topic: concept
 language: de
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
-# Connect email, document, and calendar
+# E-Mail, Dokumente und Kalender verbinden
 
-Connecting your emails, documents, and calendar to SuperOffice will help you work more efficiently and make it easier to collaborate with your colleagues. It lets you:
+Das Verbinden Ihrer E-Mails, Dokumente und Ihres Kalenders mit SuperOffice hilft Ihnen, effizienter zu arbeiten und erleichtert die Zusammenarbeit mit Ihren Kollegen. Es ermöglicht Ihnen:
 
-* Share all communication you have with your customers and contacts, including emails and files, internally.
-* Have all your follow-ups in SuperOffice linked to the correct contact.
-* Handle incoming and outgoing invitations.
-* Get your iCal events to show up in your SuperOffice diary.
+* Teilen Sie alle Kommunikationen, die Sie mit Ihren Kunden und Kontakten haben, einschließlich E-Mails und Dateien, intern.
+* Verknüpfen Sie alle Ihre Nachverfolgungen in SuperOffice mit dem richtigen Person.
+* Bearbeiten Sie eingehende und ausgehende Einladungen.
+* Lassen Sie Ihre iCal-Ereignisse in Ihrem SuperOffice-Kalender anzeigen.
 
-## What to connect?
+## Was soll verbunden werden?
 
-| | Application | Description | Options |
+| | Anwendung | Beschreibung | Optionen |
 |-|---|---|---|
-| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4])<br /> SuperOffice document library ([WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows)<br /> [WebTools for Mac][5]|
+| ![icon][img4] | **E-Mail** | Archivieren Sie eingehende und ausgehende E-Mails.| [WebTools][4] (nur Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice für Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| ![icon][img5] | **Dokumente** | Archivieren Sie Dateien aus der Kommunikation mit Kunden und Kontakten. | SuperOffice-Dokumentenbibliothek ([WebTools][4] (Windows) / [WebTools für Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| ![icon][img6] | **Kalender** | Einladungen senden und empfangen. | [SuperOffice Inbox][6]<br/> [Synchronizer für SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools für Mac][5]|
 
-## What solution does your company use?
+## Welche Lösung verwendet Ihr Unternehmen?
 
-The integrations you need depend on your operating system, your email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
+Die benötigten Integrationen hängen von Ihrem Betriebssystem, Ihrem E-Mail-Client und den Dokumentenprogrammen ab, die Sie verwenden. Welche Lösung verwenden Sie, um E-Mails zu senden und Dokumente zu erstellen/speichern?
 
-* [SuperOffice with Windows (default)][1]
-* [SuperOffice with MacOS][10]
-* [Microsoft 365 (Outlook and SharePoint)][2]
+* [SuperOffice mit Windows (Standard)][1]
+* [SuperOffice mit macOS][10]
+* [Microsoft 365 (Outlook und SharePoint)][2]
 * [Google Workspace (Gmail)][3]
 
-## Examples
+## Beispiele
 
-### Diary with incoming invitations
+<!-- markdownlint-disable-file MD036 -->
+### Kalender mit eingehenden Einladungen
 
-![Notifications with incoming invitations via Inbox SuperOffice -screenshot][img1]
-*Notifications with incoming invitations via SuperOffice Inbox*
+![Benachrichtigungen mit eingehenden Einladungen über Inbox SuperOffice -screenshot][img1]
 
-### Inbox with incoming invitations
+*Benachrichtigungen mit eingehenden Einladungen über SuperOffice Inbox*
 
-![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
-*SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
+### Inbox mit eingehenden Einladungen
 
-### SuperOffice for Outlook application
+![SuperOffice Inbox ist eingerichtet und erhält eingehende Einladungen mit Akzeptieren/Ablehnen-Schaltflächen -screenshot][img2]
 
-![Use the application **SuperOffice for Outlook** to archive emails to SuperOffice -screenshot][img3]
-*Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
+*SuperOffice Inbox ist eingerichtet und erhält eingehende Einladungen mit Akzeptieren/Ablehnen-Schaltflächen*
+
+### SuperOffice für Outlook Anwendung
+
+![Verwenden Sie die Anwendung **SuperOffice für Outlook**, um E-Mails in SuperOffice zu archivieren -screenshot][img3]
+
+*Verwenden Sie die Anwendung SuperOffice für Outlook, um E-Mails in SuperOffice zu archivieren*
 
 <!-- Referenced links -->
-[1]: default-win.yml
-[2]: microsoft-365.yml
-[3]: google-workspace.yml
+[1]: default-win.md
+[2]: microsoft-365.md
+[3]: google-workspace.md
 [4]: ../../../webtools/learn/install.md
 [5]: ../../../webtools/learn/install-mac.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../email/superoffice-for-outlook/learn/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 [9]: ../../../email/gmail-link/learn/index.md
-[10]: default-mac.yml
+[10]: default-mac.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/learn/diary-notification.png

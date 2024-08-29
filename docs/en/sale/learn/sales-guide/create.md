@@ -55,11 +55,11 @@ After you have created stages and specified a sale type for the sales guide, you
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 
-5. [Add one or more follow-ups](#add-a-follow-up-for-a-stage) for the selected stage.
+5. [Add one or more follow-ups](#add-doc-stage) for the selected stage.
 
     You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
 
-6. [Add one or more documents](#add-a-document-for-a-stage) for the selected stage.
+6. [Add one or more documents](#add-doc-stage) for the selected stage.
 
 7. Repeat steps 4-6 for each stage you want to add follow-ups and documents for.
 
