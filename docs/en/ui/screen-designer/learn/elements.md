@@ -83,22 +83,6 @@ Buttons work similarly to links. You can add links for looking up information in
 
 8. In the **Style** list, select the style of the button. The preview on the right will update with the selected button style.
 
-## Add grid (table)
-
-Grids give you more control over the position of fields. It can be useful if you have many user-defined fields.
-
-1. Select the tab you want to edit.
-
-2. Click and drag the **Grid** element to the layout.
-
-3. Click to select the grid in the preview.
-
-4. In the **Settings** sections, adjust the number of rows and columns.
-
-5. Choose a grid style: lines (default), none, or header.
-
-6. Add fields, labels, links, and buttons to the grid to populate it.
-
 <!-- Referenced links -->
 [1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md

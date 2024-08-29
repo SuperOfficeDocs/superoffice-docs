@@ -7,6 +7,8 @@ items:
   href: edit-layout.md
 - name: Edit layout - Archives (section tabs)
   href: edit-layout-archives.md
+- name: Working with grids
+  href: working-with-grids.md
 - name: Elements
   href: elements.md
 - name: Element reference

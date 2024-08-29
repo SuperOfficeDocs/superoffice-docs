@@ -14,13 +14,13 @@ language: en
 
 # Add new screen layout
 
-If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the company, contact, sale, project, and request cards, the archive/section tabs, and the **Follow-up** dialog lets your teams and organization work more efficient.
+If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the **Company**, **Contact**, **Sale**, **Project**, and **Request** cards, the archive/section tabs, and the **Follow-up** dialog lets your teams and organization work more efficient.
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
 ## Main card layout
 
-A customized layout for the Contact and Company screens lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
+A customized layout lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
 
 For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). Move it by clicking on the bars on the left side of the field and drag it over to the **More** tab.
 
@@ -38,8 +38,11 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
 4. If relevant, click the text next to **Assign layouts to**.
 
-    By default, the layouts can be assigned to user groups.
-    If, however, you are adding main card layouts for the Sale, Project, or Request screens, you can assign the layouts to sale types, project types, or request types.
+    All layouts can be assigned to user groups. In addition, you can:
+    * Assign sale layouts to sale types
+    * Assign project layouts to project types
+    * Assign request layouts to request types
+    * Assign follow-up layouts to follow-up types
 
 5. Click **Add** under **Layouts**.
 

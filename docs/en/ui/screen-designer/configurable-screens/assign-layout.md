@@ -18,7 +18,7 @@ audience_tooltip: Settings and maintenance
 ## Steps
 
 1. Open the Screen Designer.
-1. At the top, select a screen: Company, Contact, Sale, Project, Request, or Follow-up.
+1. At the top, select a screen or dialog to customize.
 1. Select assignment method (if not set): click the text next to **Assign layouts to**, and choose group or type.
 
     * Company and contact: user group only

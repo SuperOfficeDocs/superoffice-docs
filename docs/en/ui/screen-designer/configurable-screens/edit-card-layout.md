@@ -30,7 +30,7 @@ Before customizing a layout, determine who the intended users are.
 ## Edit card layout
 
 1. Open the Screen Designer.
-2. Select a card at the top: Company, Contact, Sale, Project, Request, or Follow-up.
+2. At the top, select a screen or dialog to customize.
 3. Select a layout in the list on the left side.
 4. Click **Edit layout** below the preview.
 5. In the **Edit card layout** window, work your way through the tabs of the screen.

@@ -15,7 +15,7 @@ audience_tooltip: Settings and maintenance
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
-Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request types, start by adding a new layout for a screen in the Screen Designer.
+Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request, and follow-up types, start by adding a new layout for a screen in the Screen Designer.
 
 ## Create new layout
 
@@ -23,7 +23,7 @@ To create a new screen layout:
 
 1. Open the Screen Designer.
 
-1. At the top, select a screen: Company, Contact, Sale, Project, Request, or Follow-up.
+1. At the top, select a screen or dialog to customize.
 
 1. [Select assignment method][4] (if not set): click the text next to **Assign layouts to**, and choose group or type.
 
