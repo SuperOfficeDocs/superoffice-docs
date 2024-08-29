@@ -7,6 +7,8 @@ date: 07.04.2023
 keywords: email
 topic: concept
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # SuperOffice for Outlook
@@ -19,7 +21,7 @@ After connecting SuperOffice for Outlook you can save new contacts, emails, sale
 
 ## How to install SuperOffice for Outlook
 
-[!include[Go to App Store](includes/install.md)]
+To connect SuperOffice for Outlook, go to our [App Store][1] and follow the instructions in the **How to install** tab. There are no installation required, you can simply enable it from your browser.
 
 > [!NOTE]
 > You need to have an active Microsoft 365 subscription to connect the add-in to Outlook.
@@ -30,8 +32,9 @@ After connecting SuperOffice for Outlook you can save new contacts, emails, sale
 * [Overview of the SharePoint integration][3]
 
 <!-- Referenced links -->
+[1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [2]: ../../../document/library/learn/index.md
-[3]: ../../../learn/getting-started/connect-email-doc/microsoft-365.yml
+[3]: ../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

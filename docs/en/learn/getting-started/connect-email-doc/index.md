@@ -32,7 +32,7 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 The integrations you need depend on your operating system, your email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
 
 * [SuperOffice with Windows (default)][1]
-* [SuperOffice with MacOS][10]
+* [SuperOffice with macOS][10]
 * [Microsoft 365 (Outlook and SharePoint)][2]
 * [Google Workspace (Gmail)][3]
 
@@ -54,16 +54,16 @@ The integrations you need depend on your operating system, your email client, an
 *Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
 
 <!-- Referenced links -->
-[1]: default-win.yml
-[2]: microsoft-365.yml
-[3]: google-workspace.yml
+[1]: default-win.md
+[2]: microsoft-365.md
+[3]: google-workspace.md
 [4]: ../../../webtools/learn/install.md
 [5]: ../../../webtools/learn/install-mac.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../email/superoffice-for-outlook/learn/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 [9]: ../../../email/gmail-link/learn/index.md
-[10]: default-mac.yml
+[10]: default-mac.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
