@@ -24,8 +24,8 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 | | Application | Description | Options |
 |-|---|---|---|
 | ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4])<br /> SuperOffice document library ([WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows)<br /> [WebTools for Mac][5]|
+| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
 
 ## What solution does your company use?
 

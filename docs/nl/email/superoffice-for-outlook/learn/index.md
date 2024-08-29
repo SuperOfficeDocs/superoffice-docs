@@ -2,11 +2,13 @@
 uid: help-nl-email-outlook
 title: SuperOffice voor Outlook
 description: "Met de invoegtoepassing SuperOffice voor Outlook kunt u moeiteloos werken tussen uw Microsoft 365- en SuperOffice CRM-oplossing, door u rechtstreeks in uw e-mail toegang te geven tot belangrijke informatie en functies van SuperOffice."
-author: Bergfrid Dias
-date: 07.04.2023
 keywords: e-mail
+author: Bergfrid Dias
+date: 08.28.2024
 topic: concept
 language: nl
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # SuperOffice voor Outlook
@@ -26,12 +28,13 @@ Als u SuperOffice voor Outlook wilt verbinden, gaat u naar onze [App Store][1] e
 
 ## Gerelateerde inhoud
 
-* [SuperOffice voor Outlook installeren vanuit de AppStore][1]
 * [SharePoint-documentbibliotheek][2]
+* [Overzicht van de SharePoint-integratie][3]
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [2]: ../../../document/library/learn/index.md
+[3]: ../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

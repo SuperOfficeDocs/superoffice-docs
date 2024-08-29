@@ -2,11 +2,13 @@
 uid: help-sv-email-outlook
 title: SuperOffice for Outlook
 description: Med SuperOffice för Outlook-tillägget kan du enkelt arbeta med både Microsoft 365 och din SuperOffice CRM-lösning genom att du får tillgång till viktiga uppgifter och funktioner från SuperOffice direkt i din e-post.
-author: Bergfrid Dias
-date: 07.04.2023
 keywords: e-post
+author: Bergfrid Dias
+date: 08.28.2024
 topic: concept
 language: sv
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # SuperOffice for Outlook
@@ -26,12 +28,13 @@ Om du vill ansluta SuperOffice för Outlook går du till vår [App Store][1] och
 
 ## Relaterat innehåll
 
-* [Installera SuperOffice for Outlook från AppStore][1]
-* [SharePoint dokumentbibliotek][2]
+* [SharePoint-dokumentbibliotek][2]
+* [Översikt över SharePoint-integrationen][3]
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [2]: ../../../document/library/learn/index.md
+[3]: ../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

@@ -1,2 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-To be able to archive incoming and outgoing emails in SuperOffice, you need to connect SuperOffice and your email client.
+Um eingehende und ausgehende E-Mails in SuperOffice archivieren zu können, müssen Sie SuperOffice mit Ihrem E-Mail-Client verbinden.

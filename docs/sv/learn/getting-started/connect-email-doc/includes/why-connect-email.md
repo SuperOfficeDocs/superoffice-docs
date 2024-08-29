@@ -1,2 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-To be able to archive incoming and outgoing emails in SuperOffice, you need to connect SuperOffice and your email client.
+För att kunna arkivera inkommande och utgående e-post i SuperOffice måste du koppla SuperOffice till din e-postklient.

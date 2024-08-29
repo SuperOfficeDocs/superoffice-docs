@@ -1,69 +1,71 @@
 ---
 uid: help-da-connect-email-doc-cal
-title: Connect email, document, and calendar
-description: Learn which integration options you need based on your operating system, email client, and the document programs you use in this how-to guide.
-keywords: email, document, diary, invitation
-author: Kirsti Aakerholt
-date: 06.20.2024
+title: Tilslut e-mail, dokumenter og kalender
+description: Lær hvilke integrationsmuligheder du har brug for, baseret på dit operativsystem, din e-mailklient og de dokumentprogrammer, du bruger, i denne vejledning.
+keywords: e-mail, document, kalender, invitation
+author: Bergfrid Dias
+date: 08.28.2023
 version: 10
 topic: concept
 language: da
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
-# Connect email, document, and calendar
+# Tilslut e-mail, dokumenter og kalender
 
-Connecting your emails, documents, and calendar to SuperOffice will help you work more efficiently and make it easier to collaborate with your colleagues. It lets you:
+Tilslutning af dine e-mails, dokumenter og kalender til SuperOffice vil hjælpe dig med at arbejde mere effektivt og gøre det nemmere at samarbejde med dine kolleger. Det giver dig mulighed for at:
 
-* Share all communication you have with your customers and contacts, including emails and files, internally.
-* Have all your follow-ups in SuperOffice linked to the correct contact.
-* Handle incoming and outgoing invitations.
-* Get your iCal events to show up in your SuperOffice diary.
+* Dele al kommunikation, du har med dine kunder og kontakter, inklusive e-mails og filer, internt.
+* Have alle dine opfølgningsopgaver i SuperOffice knyttet til den korrekte kontakt.
+* Håndtere indgående og udgående invitationer.
+* Få dine iCal-begivenheder til at blive vist i din SuperOffice-kalender.
 
-## What to connect?
+## Hvad skal tilsluttes?
 
-| | Application | Description | Options |
+| | Applikation | Beskrivelse | Muligheder |
 |-|---|---|---|
-| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4])<br /> SuperOffice document library ([WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows)<br /> [WebTools for Mac][5]|
+| ![icon][img4] | **E-mail** | Arkiver indgående og udgående e-mails.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice til Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| ![icon][img5] | **Dokumenter** | Arkiver filer fra kommunikation med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools til Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| ![icon][img6] | **Kalender** | Send og modtag invitationer. | [SuperOffice Inbox][6]<br/> [Synchronizer til SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools til Mac][5]|
 
-## What solution does your company use?
+## Hvilken løsning bruger din virksomhed?
 
-The integrations you need depend on your operating system, your email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
+De integrationer, du har brug for, afhænger af dit operativsystem, din e-mailklient og de dokumentprogrammer, du bruger. Hvilken løsning bruger du til at sende e-mails og oprette/gemme dokumenter?
 
-* [SuperOffice with Windows (default)][1]
-* [SuperOffice with MacOS][10]
-* [Microsoft 365 (Outlook and SharePoint)][2]
+* [SuperOffice med Windows (standard)][1]
+* [SuperOffice med macOS][10]
+* [Microsoft 365 (Outlook og SharePoint)][2]
 * [Google Workspace (Gmail)][3]
 
-## Examples
+## Eksempler
 
-### Diary with incoming invitations
+### Kalender med indgående invitationer
 
-![Notifications with incoming invitations via Inbox SuperOffice -screenshot][img1]
-*Notifications with incoming invitations via SuperOffice Inbox*
+![Notifikationer med indgående invitationer via Inbox SuperOffice -screenshot][img1]
+*Notifikationer med indgående invitationer via SuperOffice Inbox*
 
-### Inbox with incoming invitations
+### Inbox med indgående invitationer
 
-![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
-*SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
+![SuperOffice Inbox er opsat og modtager indgående invitationer med Accepter/Afslå knapper -screenshot][img2]
+*SuperOffice Inbox er opsat og modtager indgående invitationer med Accepter/Afslå knapper*
 
-### SuperOffice for Outlook application
+### SuperOffice til Outlook applikation
 
-![Use the application **SuperOffice for Outlook** to archive emails to SuperOffice -screenshot][img3]
-*Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
+![Brug applikationen **SuperOffice til Outlook** til at arkivere e-mails til SuperOffice -screenshot][img3]
+*Brug applikationen **SuperOffice til Outlook** til at arkivere e-mails til SuperOffice*
 
 <!-- Referenced links -->
-[1]: default-win.yml
-[2]: microsoft-365.yml
-[3]: google-workspace.yml
+[1]: default-win.md
+[2]: microsoft-365.md
+[3]: google-workspace.md
 [4]: ../../../webtools/learn/install.md
 [5]: ../../../webtools/learn/install-mac.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../email/superoffice-for-outlook/learn/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 [9]: ../../../email/gmail-link/learn/index.md
-[10]: default-mac.yml
+[10]: default-mac.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
