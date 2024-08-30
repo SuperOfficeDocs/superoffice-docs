@@ -103,7 +103,7 @@ Users with wide screens may prefer more columns, to view and sort more data. How
 * [Working with fields][1]
 
 <!-- Referenced links -->
-[1]: ../configurable-screens/working-with-fields.md
+[1]: working-with-fields.md
 [2]: ../configurable-screens/edit-card-layout.md
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 

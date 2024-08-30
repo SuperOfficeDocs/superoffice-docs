@@ -282,7 +282,7 @@ For details about the value of each field, see the [Appointment database table][
 * [Learn more about follow-ups][16]
 
 <!-- Referenced links -->
-[1]: ../configurable-screens/working-with-fields.md
+[1]: working-with-fields.md
 [2]: ../../../database/tables/contact.md
 [3]: ../../../database/tables/person.md
 [4]: ../../../database/tables/sale.md

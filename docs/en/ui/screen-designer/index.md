@@ -57,7 +57,7 @@ Without the Development Tools license, the **More** tab shows all custom fields,
 <!-- When a customer publishes their first layout from the Screen Designer, page1 admin is gone. However, this ability is preserved if you don't use the designer. -->
 
 <!-- Referenced links -->
-[1]: configurable-screens/working-with-fields.md
+[1]: learn/working-with-fields.md
 [2]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
