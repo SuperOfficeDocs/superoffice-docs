@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Add new layout
   href: add-layout.md
-- name: Edit layout - Main cards
+- name: Edit layout
   href: edit-layout.md
 - name: Working with fields
   href: working-with-fields.md

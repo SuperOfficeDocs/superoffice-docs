@@ -40,6 +40,8 @@ To add a new field:
 
 4. Drag the field from the list to a stapled area in the selected tab.
 
+    ![Boxes with stapled lines -screenshot][img6]
+
     To make a field visible on all tabs, place the field in the header or footer of the main card.
 
 ## <a id="settings"></a>Edit field settings
@@ -86,3 +88,4 @@ To reduce clutter, hide fields that are never used. Removed fields affect only w
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

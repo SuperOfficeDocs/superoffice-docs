@@ -1,10 +1,10 @@
 ---
 uid: help-en-screen-designer-edit-layout
-title: Edit main cards layout
-description: In this how-to guide, you will learn how to edit a layout.
-keywords: screen designer, layout, field
+title: Edit the layout of a card
+description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
+keywords: ui, screen, customization, screen designer, layout, field
 author: Bergfrid Dias
-date: 06.11.2024
+date: 09.04.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -12,88 +12,54 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Edit layout - Main cards
+# Edit the layout of a card
 
-When you have [created a new layout][5], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
+[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
-Personalize the layout for the main cards and archives to match your organization's information needs. When you edit the layout on a main card, you can add and remove fields, or rearrange the order to fit your team's needs. First, you need to know what information is most important for the team.
+When you have [created a new layout][6], it is time to customize it. Personalize the layout for the main cards and archives to match your organization's information needs.
+
+## Considerations
+
+Before customizing a layout, determine who the intended users are.
+
+* What do they need at their fingertips?
+* Do they need all default fields and tabs, or should you remove something?
+* Do they require additional tabs?
+* What is the logical order of fields?
+
+> [!NOTE]
+> You can edit the **default layout**, however, you cannot edit the default control settings and you cannot re-assign the layout to a user group.
 
 Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
 
-## Steps
+## Edit card layout
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
-3. Click **Main cards**.
+1. Open the Screen Designer.
+2. At the top, select a screen or dialog to customize.
+3. Select a layout in the list on the left side.
+4. Click **Edit layout** below the preview.
+5. In the **Edit card layout** window, work your way through the tabs of the screen.
 
-4. Select a layout in the list on the left side.
-
-5. Click **Edit layout** below the preview.
-
-6. In the **Edit card layout** window, edit the layout as described below.
-
-7. After customizing the screen layout, select **Save draft**, **Save + Publish**, or **Cancel**.
-<!-- markdownlint-restore -->
-
-## Edit existing fields in the layout (working with fields)
-
-1. Select the tab you want to edit.
-
-1. Edit existing fields and add new ones. See [working with fields][3].
-
-1. [Change the number of columns in a tab][2] from the **Tab layout** section.
-
-1. Save the changes as described above.
+    * [Add, edit, move, or remove a field][1]<a id="fields"></a><a id="settings"></a>
+    * [Add link or button][2]
+    * [Organize information into logical groups][4]
+    * [Add, remove, or restore a tab][3]<a id="tabs"></a>
+    * [Change the number of columns in a tab][5]<a id="columns"></a>
 
 ![Remove, add and move the different fields in the layout -screenshot][img3]
 
-## Add new content to a layout
+## Save, publish, or cancel
 
-1. Select the tab you want to edit, or click **Add** to [add a new tab][1].
+After editing a layout, click one of the following buttons:
 
-2. Edit the layout by selecting one of the following sections:
-
-    * **Fields**: Drag [fields][3] from the list to the layout. Fields can be placed in the columns and in the header and footer.
-
-    * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
-
-    * **Settings**: Click a field or element in the layout to [edit the relevant settings][4]. The available settings may vary according to the selected object.
-
-    * **Tab layout**: [Select how many columns you want to display in a tab][2].
-
-3. After customizing the screen layout, select **Save draft**, **Save + Publish**, or **Cancel**.
-
-Boxes with stapled lines in the layout, indicate where you can place a field:
-
-![Boxes with stapled lines -screenshot][img6]
-
-Below you can find more detailed descriptions of the various sections and functions.
-
-## <a id="fields"></a>Fields
-
-In the **Fields** section you can find all available data fields for the selected screen layout. Use the filter function to find specific fields. For details, see [working with fields][3].
-
-## Elements
-
-In the **Elements** section you can add various non-data elements such as labels, dividers, links and buttons.
-
-## <a id="settings"></a>Settings
-
-Make fields more visible by changing the font to bold and large text. Make room for more fields by using a smaller font. Save screen space by hiding labels.
-
-Click a field or element in the layout to [edit its settings][4]. The available setting will vary according to the type of field or element.
-
-## <a id="columns"></a>Tab layout
-
-By default a tab has two columns, but you can [rearrange fields into 1-4 columns][2] depending on you needs.
-
-## <a id="tabs"></a>Tabs
-
-Add more tabs for additional fields, or remove irrelevant tabs. For details, see [working with tabs][1].
+| Button | Description |
+|---|---|
+| Save draft | Saves an unpublished version of the layout, which you can resume editing later or ask someone to review. |
+| Save + Publish | Applies the layout to the selected user groups. |
+| Cancel | Discards all changes. |
 
 ## <a id="undo-changes"></a>Undo changes
 
@@ -115,12 +81,12 @@ To delete a layout:
 1. Click **Delete**.
 
 <!-- Referenced links -->
-[1]: working-with-tabs.md
-[2]: working-with-tabs.md#columns
-[3]: working-with-fields.md
-[4]: working-with-fields.md#settings
-[5]: add-layout.md
+[1]: working-with-fields.md
+[2]: add-button.md
+[3]: working-with-tabs.md
+[4]: working-with-tabs.md#add-heading-or-divider
+[5]: working-with-tabs.md#columns
+[6]: add-layout.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
