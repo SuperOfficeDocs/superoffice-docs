@@ -8,7 +8,5 @@ items:
     href: configurable-screens/add-layout.md
   - name: Edit the layout of a card
     href: configurable-screens/edit-card-layout.md
-  - name: Add link or button
-    href: configurable-screens/add-button.md
   - name: Assign layout to group or sale/project type
     href: configurable-screens/assign-layout.md

@@ -96,7 +96,7 @@ To restore a grid:
 [1]: ../configurable-screens/edit-card-layout.md
 [2]: working-with-fields.md
 [3]: working-with-tabs.md#add-heading-or-divider
-[4]: ../configurable-screens/add-button.md
+[4]: add-button.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/new-grid.png

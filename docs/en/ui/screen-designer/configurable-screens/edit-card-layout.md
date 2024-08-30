@@ -52,7 +52,7 @@ After editing a layout, click one of the following buttons:
 
 <!-- Referenced links -->
 [1]: ../learn/working-with-fields.md
-[2]: add-button.md
+[2]: ../learn/add-button.md
 [3]: ../learn/working-with-tabs.md
 [4]: ../learn/working-with-tabs.md#add-heading-or-divider
 

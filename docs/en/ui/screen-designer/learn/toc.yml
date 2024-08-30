@@ -13,8 +13,8 @@ items:
   href: working-with-grids.md
 - name: Working with tabs
   href: working-with-tabs.md
-- name: Elements
-  href: elements.md
+- name: Add link or button
+  href: add-button.md
 - name: Element reference
   href: element-reference.md
 - name: Tutorial - place country before address

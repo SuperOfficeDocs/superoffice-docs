@@ -70,7 +70,7 @@ conceptualContent:
         - text: Add a link or button
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/add-button.md
+          url: screen-designer/learn/add-button.md
         - text: Working with tabs
           itemType: list
           typeDesc: how-to-guide
