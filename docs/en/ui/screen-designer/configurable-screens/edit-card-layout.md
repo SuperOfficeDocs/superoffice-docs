@@ -25,7 +25,7 @@ Before customizing a layout, determine who the intended users are.
 * What is the logical order of fields?
 
 > [!NOTE]
-> You can edit the **default layout**, however, you can't edit the default control settings and you can't re-assign the layout to a user group.
+> You can edit the **default layout**, however, you can't edit the default control settings and you cannot re-assign the layout to a user group.
 
 ## Edit card layout
 

@@ -36,13 +36,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 <!-- List starts in the include. Next line MUST be 3. -->
 3. Select **Main cards** or **Archives** (also known as section tabs).
 
-4. If relevant, click the text next to **Assign layouts to**.
-
-    All layouts can be assigned to user groups. In addition, you can:
-    * Assign sale layouts to sale types
-    * Assign project layouts to project types
-    * Assign request layouts to request types
-    * Assign follow-up layouts to follow-up types
+4. If relevant, click the text next to **Assign layouts to** and  select assignment method (user group or type).
 
 5. Click **Add** under **Layouts**.
 
@@ -56,9 +50,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
     ![Set correct name and the user groups to use this layout -screenshot][img2]
 
-8. Click the **Assign to** field and select the user group(s) that will use this new layout.
-
-    The list will display only user groups that are using the default layout. A user group can only be assigned to one layout. Sale types, project types, and request types will be available here, if you selected these options in step 3.
+8. Click **Used by** and [Assign layout to group or sale/project/request type][6].
 
 9. Enter a description of the layout in the **Description** field.
 
@@ -95,6 +87,7 @@ Create a new layout for a specific user group by setting up section tabs with co
 [3]: ../../../admin/user-management/learn/role/index.md
 [4]: ../../../admin/user-management/learn/user-groups.md
 [5]: ../../../admin/user-management/learn/index.md
+[6]: assign-layout.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/add-button-for-new-screen-layout.png
