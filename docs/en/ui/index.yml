@@ -74,7 +74,7 @@ conceptualContent:
         - text: Working with tabs
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/working-with-tabs.md
+          url: screen-designer/learn/working-with-tabs.md
         - text: Assign layout to group or sale/project type
           itemType: list
           typeDesc: how-to-guide

@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 09.04.2024
 version: 10
 topic: howto
+language: en
 audience: settings
 audience_tooltip: Settings and maintenance
 ---
@@ -17,7 +18,7 @@ audience_tooltip: Settings and maintenance
 
 If you have many fields, you can use a grid element to position them with more finesse. This is an alternative to positioning based on sort order and columns.
 
-The instructions below assume you're already [editing the layout][1].
+The instructions below assume you are already [editing the layout][1].
 
 ## Add a grid
 
@@ -66,11 +67,11 @@ The instructions below assume you're already [editing the layout][1].
 ## Edit grid appearance
 
 1. Select the tab containing the grid.
-1. Click the grid in the preview. Make sure the grid itself isn't in edit mode. Click the green checkmark if you see it.
+1. Click the grid in the preview. Make sure the grid itself is not in edit mode. Click the green checkmark if you see it.
 1. In the **Settings** section, adjust the grid's dimensions and style.
 
 > [!NOTE]
-> You can't remove specific rows or columns, however, you can reduce the number of rows and columns. When you decrease the number of rows, the **last row** disappears from the user interface along with its contents. When you decrease the number of column, the **last column** disappears. Rearrange your fields first to avoid surprises.
+> You cannot remove specific rows or columns, however, you can reduce the number of rows and columns. When you decrease the number of rows, the **last row** disappears from the user interface along with its contents. When you decrease the number of column, the **last column** disappears. Rearrange your fields first to avoid surprises.
 
 ## Move grid
 
@@ -80,7 +81,7 @@ To move a grid, click **=** to the left of the grid and drag the field to a new 
 
 When you remove a grid, its contents (fields and so on) is removed too.
 
-This action affects only what is shown in the user interface, and doesn't change the database or table values in any way.
+This action affects only what is shown in the user interface, and does not change the database or table values in any way.
 
 To remove a grid:
 
@@ -94,7 +95,7 @@ To restore a grid:
 <!-- Referenced links -->
 [1]: ../configurable-screens/edit-card-layout.md
 [2]: ../configurable-screens/working-with-fields.md
-[3]: ../configurable-screens/working-with-tabs.md#add-heading-or-divider
+[3]: working-with-tabs.md#add-heading-or-divider
 [4]: ../configurable-screens/add-button.md
 
 <!-- Referenced images -->

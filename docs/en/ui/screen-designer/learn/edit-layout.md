@@ -43,7 +43,7 @@ Watch this video and find out how to use the screen designer to configure your s
     * **Cancel**: Click this button to [discard all changes](#undo-changes).
 <!-- markdownlint-restore -->
 
-## Edit existing fields in the layout
+## Edit existing fields in the layout (working with fields)
 
 1. Select the tab you want to edit.
 
@@ -87,7 +87,7 @@ Boxes with stapled lines in the layout, indicate where you can place a field:
 
 Below you can find more detailed descriptions of the various sections and functions.
 
-## <a id="fields"></a>Fields
+## <a id="fields"></a>Fields (working with fields)
 
 In the **Fields** section you can find all available data fields for the selected screen layout. Use the filter function to find specific fields.
 
@@ -114,39 +114,11 @@ Click a field or element in the layout to edit its settings. The available setti
 
 ## <a id="columns"></a>Tab layout
 
-By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to view and sort more data.
-
-**Limitations:**
-
-* Changing from 2-4 columns to 1 column will move all fields into 1 column.
-* Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](#settings)).
-* Some tabs, such as **ERP** and **Note**, do not have a column setup, because they have specific functions.
-* If a user does not have the screen size to fit all columns, they are stacked on top of each other.
+By default a tab has two columns, but you can [rearrange fields into 1-4 columns][2] depending on you needs.
 
 ## <a id="tabs"></a>Tabs
 
-Add more tabs for additional fields, or remove irrelevant tabs.
-
-**To remove a tab:**
-
-1. Select the tab and click **Task** > **Remove tab**.
-2. Click **OK** in the dialog that is displayed.
-
-**To add a new tab:**
-
-1. Click ![icon][img5] **Add**. The **Tab layout** section opens to the left.
-2. Under **Tab title**, replace the text **New tab** with the new tab name.
-3. You can also [add the tab name in other languages][2] by clicking ![icon][img1].
-4. Select the number of columns you want to use in the new tab.
-
-> [!TIP]
-> If you later want to rename the tab, select the tab and select **Tab layout**.
-
-**Limitations:**
-
-* You cannot rename any of the default tabs.
-* You cannot remove a tab that contains mandatory fields. Mandatory fields must be moved to another tab first.
-* If only one tab remains, you cannot delete it.
+Add more tabs for additional fields, or remove irrelevant tabs. For details, see [working with tabs][1].
 
 ## <a id="undo-changes"></a>Undo changes
 
@@ -156,12 +128,12 @@ If you need to revert to an earlier version of the screen, you can access the fo
 * **Discard draft**: Discards all changes and resets to the published version of the screen layout.
 
 <!-- Referenced links -->
-[2]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: working-with-tabs.md
+[2]: working-with-tabs.md#columns
 [3]: ../../../custom-objects/admin/create-extra-field.md
 [4]: add-new-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png

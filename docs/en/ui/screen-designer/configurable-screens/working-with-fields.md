@@ -82,8 +82,8 @@ To restore the field, simply [re-add the field](#add-field).
 
 <!-- Referenced links -->
 [1]: edit-card-layout.md
-[2]: working-with-tabs.md
-[3]: working-with-tabs.md#add-heading-or-divider
+[2]: ../learn/working-with-tabs.md
+[3]: ../learn/working-with-tabs.md#add-heading-or-divider
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

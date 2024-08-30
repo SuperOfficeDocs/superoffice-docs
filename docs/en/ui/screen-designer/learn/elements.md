@@ -11,26 +11,6 @@ language: en
 
 # Elements
 
-## Add labels
-
-Labels can be used to create headings for specific groups of fields or a column.
-
-1. Select the tab you want to edit.
-2. Click and drag the **Label** element to the layout.
-3. Click the label.
-4. In the **Settings** sections, replace the text **New label** with the new label name.
-5. You can also [add the label in other languages][2] by clicking ![icon][img1].
-6. Change the font formatting as necessary.
-
-## Add dividers
-
-Use dividers to create sections within columns. Useful for grouping various types of information.
-
-1. Select the tab you want to edit.
-2. Click and drag the **Divider** element to the layout.
-3. Click the divider.
-4. If relevant, change the spacer type.
-
 ## Add links
 
 Add links for looking up information in other websites, allow users to run CRM scripts from the company and contact cards, and add navigation to other parts of SuperOffice using soprotocol. You can also use buttons to add links.

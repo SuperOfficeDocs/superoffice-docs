@@ -66,7 +66,7 @@ To delete a layout:
 <!-- Referenced links -->
 [1]: working-with-fields.md
 [2]: add-button.md
-[3]: working-with-tabs.md
+[3]: ../learn/working-with-tabs.md
 [4]: assign-layout.md
 
 <!-- Referenced images -->

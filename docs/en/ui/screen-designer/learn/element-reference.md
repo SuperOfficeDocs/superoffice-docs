@@ -260,7 +260,7 @@ For details about the value of each field, see the [Ticket database table][6].
 | Visible for | Drop-down | Has no options |
 | Custom fields | | Both user-defined and extra |
 
-* Mandatory fields can't be moved or removed. This applies to: title, type, time, company/contact, attendees, locations, and resources.
+* Mandatory fields cannot be moved or removed. This applies to: title, type, time, company/contact, attendees, locations, and resources.
 
 * The right column is hidden if no attendees.
 
