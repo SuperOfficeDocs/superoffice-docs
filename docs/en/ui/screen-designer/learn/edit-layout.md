@@ -14,7 +14,7 @@ audience_tooltip: Settings and maintenance
 
 # Edit layout - Main cards
 
-When you have [created a new layout][14], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
+When you have [created a new layout][5], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
 Personalize the layout for the main cards and archives to match your organization's information needs. When you edit the layout on a main card, you can add and remove fields, or rearrange the order to fit your team's needs. First, you need to know what information is most important for the team.
 
@@ -36,11 +36,7 @@ Watch this video and find out how to use the screen designer to configure your s
 
 6. In the **Edit card layout** window, edit the layout as described below.
 
-7. After finishing, click one of the following buttons:
-
-    * **Save draft**: Click this button if the layout is not finished yet.
-    * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-    * **Cancel**: Click this button to [discard all changes](#undo-changes).
+7. After customizing the screen layout, select **Save draft**, **Save + Publish**, or **Cancel**.
 <!-- markdownlint-restore -->
 
 ## Edit existing fields in the layout (working with fields)
@@ -69,11 +65,7 @@ Watch this video and find out how to use the screen designer to configure your s
 
     * **Tab layout**: [Select how many columns you want to display in a tab][2].
 
-3. After customizing the screen layout, click one of the following buttons:
-
-    * **Save draft**: Click this button if the layout is not finished yet.
-    * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-    * **Cancel**: Click this button to discard all changes.
+3. After customizing the screen layout, select **Save draft**, **Save + Publish**, or **Cancel**.
 
 Boxes with stapled lines in the layout, indicate where you can place a field:
 
@@ -107,15 +99,27 @@ Add more tabs for additional fields, or remove irrelevant tabs. For details, see
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 
-* **Reset to factory settings**: This option discards all changes and resets the screen layout to the standard layout delivered by SuperOffice.
-* **Discard draft**: Discards all changes and resets to the published version of the screen layout.
+* **Reset to factory settings**: This option discards all changes and resets the layout to the standard layout delivered by SuperOffice.
+
+* **Restore tabs**: This option restores all tabs that have been removed.
+
+* **Discard draft**: Discards all changes and resets to the published version of the layout.
+
+## <a id="delete"></a>Delete a layout
+
+When a user-group-based layout is deleted, users in that group see the default (system) layout.
+
+To delete a layout:
+
+1. Select the layout in the **Layouts** list.
+1. Click **Delete**.
 
 <!-- Referenced links -->
 [1]: working-with-tabs.md
 [2]: working-with-tabs.md#columns
 [3]: working-with-fields.md
 [4]: working-with-fields.md#settings
-[14]: add-new-layout.md
+[5]: add-layout.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png

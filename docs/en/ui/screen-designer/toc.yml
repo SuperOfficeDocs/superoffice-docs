@@ -4,7 +4,5 @@ items:
 - name: Configurable screens
   href: configurable-screens/index.md
   items:
-  - name: Add a layout
-    href: configurable-screens/add-layout.md
   - name: Edit the layout of a card
     href: configurable-screens/edit-card-layout.md

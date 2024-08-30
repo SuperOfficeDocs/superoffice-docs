@@ -42,14 +42,6 @@ Learn more about [working with fields][1]
 > [!NOTE]
 > After you publish a layout, users in groups assigned to it must sign out of SuperOffice and back in to see the changes.
 
-### Undo changes
-
-Use the **Task** button to revert to an earlier version of the screen.
-
-* **Reset to factory settings:** This option discards all changes and resets the screen layout to the default (system) layout delivered by SuperOffice.
-
-* **Discard draft:** Discards all changes and resets to the published version of the screen layout.
-
 ## What if I don't use the Screen Designer?
 
 Without the Development Tools license, the **More** tab shows all custom fields, organized in two columns.

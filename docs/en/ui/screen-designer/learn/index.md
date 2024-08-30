@@ -39,16 +39,22 @@ You can create custom screen layouts for the **Company**, **Contact**, **Sale**,
 
 The layouts are marked with status (published or draft) and the assigned user groups.
 
+*TBD:*
+
+A customized layout lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
+
+For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). Move it by clicking on the bars on the left side of the field and drag it over to the **More** tab.
+
 ## What do you want to do now?
 
 * [Add new layout][2]
 * [Edit layout - Main cards][1]
-* [Edit layout - Archives (section tabs)][3]
+* [Working with archives (section tabs)][3]
 
 <!-- Referenced links -->
 [1]: edit-layout.md
-[2]: add-new-layout.md
-[3]: edit-layout-archives.md
+[2]: add-layout.md
+[3]: working-with-archives.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
