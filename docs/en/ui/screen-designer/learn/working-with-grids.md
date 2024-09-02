@@ -93,9 +93,9 @@ To restore a grid:
 * If you have published the layout after removal, you need to recreate the table.
 
 <!-- Referenced links -->
-[1]: ../configurable-screens/edit-card-layout.md
+[1]: edit-layout.md
 [2]: working-with-fields.md
-[3]: working-with-tabs.md#add-heading-or-divider
+[3]: working-with-tabs.md#label
 [4]: add-button.md
 
 <!-- Referenced images -->

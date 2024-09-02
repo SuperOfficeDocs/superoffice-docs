@@ -2,10 +2,10 @@
 uid: help-en-screen-designer
 title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
-author: SuperOffice RnD
-date: 01.02.2024
-version: 10.2.11
-keywords: screen designer
+keywords: screen designer, UI, screen, customization, configurable screen, layout
+author: Bergfrid Dias
+date: 09.04.2024
+version: 10.3.7
 topic: concept
 language: en
 audience: settings
@@ -14,47 +14,112 @@ audience_tooltip: Settings and maintenance
 
 # Screen designer ![icon][img1]
 
-The Screen designer feature allows you to configure your main screens in SuperOffice CRM. You can create different screen layouts for different user groups, depending on their information needs and workflows. This will help your organization to be more effective and focus on what matters most.
+The **Screen Designer** in SuperOffice CRM allows you to customize the layout of key screens within the application, ensuring that the interface meets the specific needs of different user groups in your organization. This feature replaces the old [PageBuilder][9] tool, offering a more streamlined and flexible way to configure screens - without coding.
+
+![Screen designer, company card, default field layout -screenshot][img5]
 
 > [!NOTE]
-> Screen designer (configurable screens) requires the Developer Tools licence. Using this function requires functional right "Field administrator".
+> This feature requires the Development Tools license and the "Field administrator" functional right.
 
-The Contact and Company cards/screens in SuperOffice CRM come with a default layout, but you can edit them or create your own layouts. Because different user groups often use the Contact and Company cards differently, it could be a good idea to create different layouts for each user group.
+## Why use the Screen Designer?
 
-Screen designer allows you to remove the unnecessary fields and/or create new, more relevant fields. You can also group the fields in tabs or columns and add your own headings (called "labels"). If you find some of the tabs unnecessary, you can easily remove them or replace them with the tabs that are more suitable for your organization.
+SuperOffice CRM comes with default layouts for the Contact, Company, Sale, Project, and Request screens and the Follow-up dialog However, different teams often have different information needs. By using the Screen Designer, you can:
 
-Your sales team, support team and management team do not necessarily have the same focus and requirements concerning the data they need to access most frequently in SuperOffice. The solution is to create custom screens for each team. Your organization will save time by allowing your teams to find relevant information more quickly. Configure the layout of your main screens and archives (section tabs), and define which types of information each team (user group) can access and see (not the same as Visible for).
+* Create custom layouts tailored to the workflows and priorities of specific user groups (such as sales, support, management).
 
-* Move the most important fields to the first tab.
-* Use columns, labels/titles and dividers to organize information into logical groups.
-* Format fields to emphasize key data (for example, bold and large font) for better visibility.
-* Move less important fields to secondary tabs.
-* Remove fields that are never used.
-* Add links/buttons for looking up information in other websites or to manually trigger an automated process based on CRMScript.
+* Improve efficiency by enabling your teams to quickly access the information that matters most to them.
 
-> [!NOTE]
-> When this feature is activated, the fields in your current **More** tab for the Company, Contact, Sale, Project, and Request screens will change to form two columns. You can [edit these tabs][1] in the screen designer.
+* Remove unnecessary fields, add new ones, and reorganize information into logical groups using tabs, columns, and labels.
 
-You can create custom screen layouts for the **Company**, **Contact**, **Sale**, **Project**, and **Request** cards and the **Follow-up** dialog. The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
+For example, if your sales team focuses on client interactions, you can ensure that contact details are prominently displayed, while less relevant fields are moved to secondary tabs.
 
-The layouts are marked with status (published or draft) and the assigned user groups.
+## What can i customize?
 
-*TBD:*
+With the Screen Designer, you can:
 
-A customized layout lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
+* Modify the default layout of screens for all users or create custom layouts for specific user groups.
+* Design layouts optimized for specific project types, sale types, and request types.
+* Hide fields that are never used.
+* Emphasize key data by formatting fields (for example, bold or large font).
+* Add custom buttons and links to trigger automated processes (CRMScript) or external lookups.
+* Organize custom fields within the **More** tab or other custom tabs.
+* Add, rearrange, or remove tabs as needed.
 
-For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). Move it by clicking on the bars on the left side of the field and drag it over to the **More** tab.
+## Which screens can i configure?
 
-## What do you want to do now?
+You can customize the following screens and dialogs:
 
-* [Add new layout][2]
+* Company
+* Contact
+* Sale
+* Project
+* Request
+* Follow-up dialog
+
+## How do layouts work?
+
+Layouts in SuperOffice CRM control how information is displayed to users. The default (system) layouts are applied to all users unless a custom layout is created and assigned to a specific user group.
+
+* **Custom layouts**: Create layouts specific to user groups to meet their unique needs.
+
+* **Layout assignment**: Layouts for the Sales, Project, and Request screens can be further refined by assigning them to specific sale types, project types, and request types, respectively.
+
+* **Layout status**: Layouts can be in a *draft* or *published* state. Published layouts are marked with the assigned user groups.
+
+![Screen Designer draft layout -screenshot][img3]
+
+![Screen Designer published layout -screenshot][img4]
+
+The **Layouts** list displays all existing layouts, including a preview screen.
+
+## Working with the Screen Designer
+
+To start customizing screens:
+
+1. Open the Screen Designer by clicking ![icon][img2], selecting **Settings and maintenance**, and then choosing **Screen Designer** from the navigator.
+2. Drag and drop fields into the editor to add them to your layout.
+3. Click on a field to move it or update its settings. The available settings will depend on the type of field selected.
+
+### Layout components
+
+* **Fields**: Lists all data fields available for the selected screen layout. Use filters to find specific fields quickly.
+
+* **Elements**: Contains non-data elements such as labels, dividers, links, and buttons.
+
+* **Settings**: Allows customization of the appearance and behavior of the selected field.
+
+* **Tab layout**: Provides options to arrange fields and elements in columns.
+
+* **Tabs**: Can be added, rearranged, or deleted to organize information logically.
+
+> [!Note]
+> After publishing a layout, users in the assigned groups must sign out and back in to see the changes.
+
+## What if I do not use the Screen Designer?
+
+If you do not have the Development Tools license, the **More** tab will automatically organize all custom fields into two columns. This default setup still provides a functional interface but without the advanced customization options available through the Screen Designer.
+
+## Summary
+
+By customizing the screen layouts with the Screen Designer, you can eliminate unnecessary information, making the interface cleaner and more efficient for your teams. For example, if your Support team does not need the company address prominently displayed, you can move it to a secondary tab, freeing up space for more relevant fields.
+
+## Related content
+
+* [Add a layout][2]
 * [Edit layout - Main cards][1]
+* [Working with fields][4]
 * [Working with archives (section tabs)][3]
 
 <!-- Referenced links -->
 [1]: edit-layout.md
 [2]: add-layout.md
 [3]: working-with-archives.md
+[4]: learn/working-with-fields.md
+[9]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
+[img2]: ../../../../media/icons/btn-menu.png
+[img3]: ../../../../media/loc/en/ui/status-draft.png
+[img4]: ../../../../media/loc/en/ui/status-published.png
+[img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

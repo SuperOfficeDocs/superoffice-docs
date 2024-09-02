@@ -4,7 +4,7 @@ title: Assign a layout
 description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, layout, used by
 author: Bergfrid Dias
-date: 01.03.2024
+date: 09.04.2024
 version: 10.2.11
 topic: howto
 language: en

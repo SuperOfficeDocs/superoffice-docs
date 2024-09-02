@@ -29,8 +29,6 @@ The list of fields on any screen contains all standard SuperOffice fields for th
 
 Any field can appear in multiple locations, if relevant.
 
-To add a new field:
-
 1. Select the tab where you want to add the field.
 2. Make sure the **Fields** section is selected.
 3. Locate the desired field in the **Fields** list.
@@ -82,9 +80,9 @@ To reduce clutter, hide fields that are never used. Removed fields affect only w
 > Mandatory fields cannot be deleted. However, you can move a mandatory field to another tab.
 
 <!-- Referenced links -->
-[1]: ../configurable-screens/edit-card-layout.md
+[1]: edit-layout.md
 [2]: working-with-tabs.md
-[3]: working-with-tabs.md#add-heading-or-divider
+[3]: working-with-tabs.md#label
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

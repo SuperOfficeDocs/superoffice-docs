@@ -4,7 +4,7 @@ title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization
 author: Bergfrid Dias
-date: 06.11.2024
+date: 09.04.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -133,7 +133,7 @@ Some settings depend on the selected action.
 [1]: ../../../document/templates/variables/from-company-card.md
 [2]: ../../../automation/crmscript/overview/index.md
 [3]: ../../soprotocol/index.md
-[4]: ../configurable-screens/edit-card-layout.md
+[4]: edit-layout.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/new-button.png

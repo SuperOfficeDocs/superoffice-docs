@@ -35,23 +35,23 @@ Watch this video and find out how to use the screen designer to configure your s
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
 
-## Edit card layout
+## <a id="edit"></a>Edit card layout
 
 1. Open the Screen Designer.
 2. At the top, select a screen or dialog to customize.
 3. Select a layout in the list on the left side.
 4. Click **Edit layout** below the preview.
-5. In the **Edit card layout** window, work your way through the tabs of the screen.
+5. In the **Edit card layout** screen, work your way through the tabs of the screen.
 
-    * [Add, edit, move, or remove a field][1]<a id="fields"></a><a id="settings"></a>
+    * [Add, edit, move, or remove a field][1]
     * [Add link or button][2]
     * [Organize information into logical groups][4]
-    * [Add, remove, or restore a tab][3]<a id="tabs"></a>
+    * [Add, remove, or restore a tab][3]
     * [Change the number of columns in a tab][5]<a id="columns"></a>
 
 ![Remove, add and move the different fields in the layout -screenshot][img3]
 
-## Save, publish, or cancel
+## <a id="save"></a>Save, publish, or cancel
 
 After editing a layout, click one of the following buttons:
 
@@ -65,13 +65,13 @@ After editing a layout, click one of the following buttons:
 
 If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
 
-* **Reset to factory settings**: This option discards all changes and resets the layout to the standard layout delivered by SuperOffice.
+* **Reset to factory settings**: This option discards all changes and resets the layout to the default version provided by SuperOffice.
 
-* **Restore tabs**: This option restores all tabs that have been removed.
+* **Restore tabs**: This option reinstates any tabs that have been previously removed.
 
-* **Discard draft**: Discards all changes and resets to the published version of the layout.
+* **Discard draft**: This option discards all unsaved changes and reverts the layout to the most recently published version.
 
-## <a id="delete"></a>Delete a layout
+## <a id="delete"></a>Delete layout
 
 When a user-group-based layout is deleted, users in that group see the default (system) layout.
 
@@ -80,13 +80,18 @@ To delete a layout:
 1. Select the layout in the **Layouts** list.
 1. Click **Delete**.
 
+## Related content
+
+* [Working with section tabs (archives)][7]
+
 <!-- Referenced links -->
 [1]: working-with-fields.md
 [2]: add-button.md
 [3]: working-with-tabs.md
-[4]: working-with-tabs.md#add-heading-or-divider
+[4]: working-with-tabs.md#label
 [5]: working-with-tabs.md#columns
 [6]: add-layout.md
+[7]: working-with-archives.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png

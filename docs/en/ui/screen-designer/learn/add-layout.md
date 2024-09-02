@@ -27,26 +27,30 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
 ## Create new layout
 
-1. Open the Screen Designer.
+1. Open the Screen Designer (in **Settings and maintenance**).
 
-2. At the top, select a screen or dialog to customize.
+1. At the top, select a screen or dialog to customize.
 
-3. Under **Layouts**, click **Add**.
+1. Select **Main cards**.
+
+    To create a layout for an archive, see [Working with section tabs][2].
+
+1. Under **Layouts**, click **Add**.
 
     ![Click Add to create a new layout -screenshot][img1]
 
-4. In the **Add new layout** dialog, select a layout from the **Create new based on** list.
+1. In the **Add new layout** dialog, select a layout from the **Create new based on** list.
 
-5. Enter a name and description for the new layout.
+1. Enter a name and description for the new layout.
 
     ![Set correct name and the user groups to use this layout -screenshot][img2]
 
-6. Click the **Used by** field and [assign the new layout][6] to one or more user groups **or** sale/project/request type.
+1. Click the **Used by** field and [assign the new layout][6] to one or more user groups **or** sale/project/request type.
 
     > [!NOTE]
     > Only groups currently using the default layout are shown.
 
-7. Click **OK**.
+1. Click **OK**.
 
     The new layout is added to the **Layouts** list with status Draft, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
 

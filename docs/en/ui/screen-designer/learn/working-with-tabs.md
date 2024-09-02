@@ -4,7 +4,7 @@ title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider
 author: Bergfrid Dias
-date: 06.11.2024
+date: 09.04.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -16,87 +16,91 @@ audience_tooltip: Settings and maintenance
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
-The instructions below assume you are already [editing the layout][2].
+This guide assumes you are already [editing the layout][2]. The following sections explain how to organize and customize tabs in SuperOffice CRM, helping you tailor the interface to meet your organization's needs.
 
-## Add a tab
+## Add tab
 
-You can add custom tabs, for example, for fields related to a specific area.
+Creating custom tabs allows you to group related fields in a way that makes sense for your organization. For instance, you can create tabs dedicated to specific business areas, making information easier to find.
 
-To add a new tab:
+**Steps:**
 
 1. Click **Add**. The **Tab layout** section opens to the left.
 
 2. Under Tab title, replace the text "New tab" with the new tab name.
 
-    > [!NOTE]
-    > You can also click ![icon][img1] to [add the tab name in other languages][3].
+    You can also click ![icon][img1] to [add the tab name in other languages][3].
 
 3. Select the number of columns you want to use in the new tab.
 
-> [!TIP]
-> To rename the tab, select the tab and select **Tab layout**. You **cannot rename any of the default tabs**.
+## Rename tab
 
-## Remove a tab
+If you need to rename the tab later, select the tab and go to **Tab layout**. You **cannot rename any of the default tabs**.
 
-To reduce clutter, remove irrelevant and no longer useful tabs.
+## Remove tab
 
-Layouts must have at least one tab. If there is only one tab remaining, you cannot remove it.
+To streamline the interface, you may want to remove tabs that are no longer necessary. A layout must have at least one tab. If only one tab remains, it cannot be removed.
 
 > [!NOTE]
-> If the tab contains any mandatory fields, you must move those to another tab before deleting the current tab.
+> If the tab contains mandatory fields, you must move those fields to another tab before deleting the current one.
 
-To remove a tab:
+**Steps:**
 
 1. Select the tab.
-1. Click **Task** and select **Remove tab**.
+1. Click **Task** and choose **Remove tab**.
 1. Click **OK** to confirm and close the dialog.
 
-## Restore a tab
+## Restore tab
 
-If you remove a tab and later want it back, you can restore it.
+If you remove a tab and later decide you need it, you can easily restore it.
 
 1. Open the layout in edit mode.
 1. Click **Task** and select **Restore tabs**.
 
 > [!NOTE]
-> This action restores **all** tabs that you have removed.
+> This action restores **all** previously removed tabs.
 
-## Add heading or divider
+## <a id="label"></a>Add heading or divider
 
-Labels can be used to create headings for specific groups of fields or a column. Use dividers to create sections within columns. Useful for grouping various types of information.
+Labels and dividers help to organize fields within a tab, making the information more readable and accessible. Use labels to create headings and dividers to separate sections within a column.
 
-1. Select the tab you want to add the element to.
+1. Select the tab where you want to add the element.
 2. Click to select the **Elements** section.
-3. To add a header, click and drag the **Label** element to the layout.
+3. To add a header, drag the **Label** element into the layout.
 
-    * In the **Settings** sections, replace the text "New tab" with the new label name. Optionally, click ![icon][img1] to [add the tab name in other languages][3].
-    * Change the font formatting as necessary.
+    * In the **Settings** sections, replace "New tab" with the new label name. Optionally, click ![icon][img1] to [add the tab name in other languages][9].
+    * Adjust the font as needed.
 
-4. To add a horizontal dotted line, click and drag the **Divider** element to the layout. If relevant, change the spacer type.
+4. To add a horizontal divider, drag the **Divider** element into the layout. Change the spacer type if necessary.
 
 ![Screen Designer fields and elements -screenshot][img2]
 
 ## <a id="columns"></a>Group fields in columns
 
-By default, tabs have two columns. You can customize each tab individually and choose 1, 2, 3, or 4 columns depending on your needs.
+By default, tabs have two columns, but you can adjust this to meet your needs. Each tab can have 1, 2, 3, or 4 columns, depending on the amount of information you want to display.
 
 > [!NOTE]
-> Tabs with specific functions, such as **ERP** and **Note**, do not have a column setup. Go to **Settings and maintenance** > **ERP** to configure the contents of the ERP tab.
+> Tabs with specific functions, such as **ERP** and **Note**, do not support column customization. Go to **Settings and maintenance** > **ERP** to configure the contents of the ERP tab.
 
 **Steps:**
 
-1. Select the tab you want to adjust columns for.
-1. Select the **Tab layout** section.
+1. Select the tab where you want to adjust columns.
+1. Go to the **Tab layout** section.
 1. Choose one of the four layout options.
 
-If you reduce the number of columns, the fields are moved to the new last column. For example, when reducing the number of columns from three to two, all fields in the third column move to the bottom of column 2. When reduced to one column, all fields move to the first column.
+When reducing the number of columns, fields from the removed columns will move to the last remaining column. For example, if you reduce from three columns to two, fields in the third column will move to the bottom of the second column.
 
-The columns are vertically stacked when the screen size is too small to show them all horizontally.
+Columns will stack vertically when the screen is too small to display them horizontally.
 
-Users with wide screens may prefer more columns, to view and sort more data. However, with four columns, the visibility of some fields can be impaired. Consider hiding the field label to gain more space.
+If you have a wide screen, using more columns allows you to view more data simultaneously. However, be cautious. Using four columns might reduce the visibility of some fields. Hiding field labels can help create more space.
 
 > [!TIP]
-> You can also add tabs if things get crowded.
+> If a tab becomes too crowded, consider adding additional tabs to better organize the information.
+
+## <a id="more"></a>The More tab
+
+The **More** tab automatically contains all [custom fields][3], arranged by rank. You can configure these fields within this tab and optionally add them to other screens.
+
+[User-defined fields][5] (udef) and [extra fields][4] are created the same way as before.
 
 ## Related content
 
@@ -104,8 +108,11 @@ Users with wide screens may prefer more columns, to view and sort more data. How
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
-[2]: ../configurable-screens/edit-card-layout.md
-[3]: ../../../globalization-and-localization/learn/translate-fields.md
+[2]: edit-layout.md
+[3]: ../../../custom-objects/learn/index.md
+[4]: ../../../custom-objects/admin/create-extra-field.md
+[5]: ../../../custom-objects/admin/add-udef.md
+[9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/az.png

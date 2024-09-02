@@ -4,7 +4,7 @@ title: Reference
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 keywords: UI, screen, customization, Screen Designer, field
 author: Bergfrid Dias
-date: 05.21.2024
+date: 09.04.2024
 version: 10.3.6
 topic: reference
 audience: settings
