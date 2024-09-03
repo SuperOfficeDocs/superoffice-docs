@@ -3,7 +3,7 @@ title: Create a Microsoft Entra enterprise application
 uid: create_azure_enterprise_app
 description: Create a Microsoft Entra enterprise application
 author: {github-id}
-date: 01.15.2024
+date: 09.04.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 topic: howto
 envir: cloud
@@ -76,7 +76,7 @@ The Microsoft Entra portal allows mapping to the `id` attribute. However, this 
 
     1. Select the group attribute set.
     2. Select the **`displayName`** attribute, change **Matching precedence** value to `2`, and click **OK**.
-    3. Select the `**objectId**` attribute, enable the **Match objects using this attribute** option, set **Matching precedence** value to `1`, and click **OK**.
+    3. Select the **`objectId`** attribute, enable the **Match objects using this attribute** option, set **Matching precedence** value to `1`, and click **OK**.
 
     ![Mapping groups -screenshot][img4]
 
@@ -85,8 +85,8 @@ The Microsoft Entra portal allows mapping to the `id` attribute. However, this 
 ## Start 1st synchronization and verify the result
 
 1. Scroll down to **Settings.**
-2. Select scope - do you want to sync all or only assigned users and groups?
-3. Set **Provisioning status** to `**On**`.
+2. Select **scope** - do you want to sync all or only assigned users and groups?
+3. Set **Provisioning status** to **`On`**.
 4. Click **Save** to start the synchronization.
 5. Wait for the incremental cycle to complete.
 6. You can now [preview the users][5] in the SuperOffice Identity Manager.
@@ -108,8 +108,8 @@ The Microsoft Entra portal allows mapping to the `id` attribute. However, this 
 [7]: get-sync-error-messages.md
 
 <!-- Referenced images -->
-[img1]: media/image3jfz4q.png
-[img2]: media/image44zrl.png
+[img1]: media/scim-provisioning-automatic.png
+[img2]: media/scim-admin-credentials.png
 [img3]: media/scim-aad-mapping-externalid.png
-[img4]: media/imageq74vv.png
-[img5]: media/imagexnbgj.png
+[img4]: media/scim-mapping-objectid-precedence.png
+[img5]: media/scim-incremental-cycle-completed.png
