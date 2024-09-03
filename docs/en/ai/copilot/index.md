@@ -4,8 +4,8 @@ title: SuperOffice AI Services - Copilot
 description: SuperOffice AI Services - Copilot
 author: Bergfrid Dias, Filip Norman
 keywords: AI, ChatGPT, OpenAI, Bing, Copilot
-date: 03.21.2024
-version: 10.3.2
+date: 09.03.2024
+version: 10.3.8
 pilot: yes
 topic: concept
 envir: cloud
@@ -74,7 +74,7 @@ Prompts are subject to change without prior notice during the pilot!
 
 ### Diary
 
-* **Today:** AI summarizes a few news articles about what is happening today.
+* **Today:** AI lists all your scheduled diary entries for the current date.
 
 ### Sale
 
