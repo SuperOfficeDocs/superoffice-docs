@@ -3,7 +3,7 @@ uid: help-nl-follow-ups
 title: Vervolgactiviteit
 description: Vervolgactiviteit - Vergadering, taak, gesprekken
 author: Bergfrid Dias
-date: 05.21.2024
+date: 09.03.2024
 version: 10.3.6
 keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprekken
 topic: concept
@@ -54,7 +54,7 @@ Het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Proj
 
 ## <a id="meeting"></a>Vergadering (afspraak)
 
-Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Sie werden im Kalender des Besitzers angezeigt.
+Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Dit wordt weergegeven in de kalender.
 
 Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugkerende reeks. Vergaderingen met een hulpmiddel en/of extra deelnemers worden [uitnodigingen][5] (of groepsreserveringen) genoemd.
 
