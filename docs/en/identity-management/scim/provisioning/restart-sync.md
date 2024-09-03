@@ -3,7 +3,7 @@ title: Restart synchronization
 uid: restart_scim_sync
 description: Restart SCIM synchronization
 author: {github-id}
-date: 01.15.2024
+date: 09.04.2024
 keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 topic: howto
 envir: cloud
@@ -31,11 +31,9 @@ If you suspect Microsoft Entra ID and SuperOffice are out of sync, you might nee
 
 ## In Microsoft Entra provisioning configuration
 
-1. Select **Clear current state and start resynchronization** and then click **Save**.
+1. At the top, select **Restart provisioning**. The **Current Status** changes to *Initial cycle not run*.
 
     ![Reset SCIM sync in Microsoft Entra ID -screenshot][img2]
-
-    The **Current Status** changes to *Initial cycle not run*. ![scim user sync started -screenshot][img3]
 
 2. Refresh the **Current Status**, and when it changes to *Initial cycle completed* verify that the SuperOffice Identity Manager has received the expected users and groups.
 
@@ -43,6 +41,5 @@ If you suspect Microsoft Entra ID and SuperOffice are out of sync, you might nee
 
 <!-- Referenced images -->
 [img1]: media/imagew9x2g.png
-[img2]: media/scim-clear-synced-aad.png
-[img3]: media/b01f4cd8-a2c8-4f62-b7ad-f51f26c2ca3f.png
-[img4]: media/ca58bf0e-5854-4728-9928-297aab9c9f7a.png
+[img2]: media/scim-restart-provisioning.png
+[img4]: media/scim-initial-cycle-completed.png
