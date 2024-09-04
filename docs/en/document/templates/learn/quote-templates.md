@@ -150,7 +150,7 @@ By following these guidelines, you can effectively use merge fields to create de
 [3]: ../merge-fields/index.md
 [4]: ../variables/for-quote-line.md
 [5]: ../admin/update-template.md
-[6]: ../admin/update-template.md
+[6]: ../admin/tutorial.md
 [7]: ../../../quote/learn/create.md
 [11]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo?view=net-5.0
 [12]: https://docs.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)
