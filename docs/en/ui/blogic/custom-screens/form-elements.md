@@ -1,11 +1,11 @@
 ---
-title: Form elements
 uid: blogic_form_elements
+title: Form elements
 description: Form elements
+keywords: blogic, form
 author:
-date:
-keywords:
-topic:
+date: 09.05.2024
+topic: concept
 ---
 
 # Form elements
@@ -131,7 +131,7 @@ label = Crazy
 suffixLabel = I agree to use this experimental stuff
 ```
 
-![Screen capture of checkbox][img1]
+![Screen capture of checkbox -screenshot][img1]
 
 ### Mark a checkbox
 
@@ -163,7 +163,7 @@ buttons.2.label = Large
 buttons.length = 3
 ```
 
-![Screen capture of radio buttons][img2]
+![Screen capture of radio buttons -screenshot][img2]
 
 Next, we're adding another option and changing which option is selected in the creation script:
 
@@ -204,7 +204,7 @@ options.2.name = Large
 options.length = 3
 ```
 
-![Screen capture of list box][img3]
+![Screen capture of list box -screenshot][img3]
 
 Next, we're replacing an option in the creation script:
 
@@ -229,7 +229,7 @@ label = Project type
 list = projecttype
 ```
 
-![Screen capture of MDO list][img4]
+![Screen capture of MDO list -screenshot][img4]
 
 > [!TIP]
 > Use **NSMDOAgent** to get an overview of all available MDO lists. If you want it alphabetical, use a Map. If not, simply print the *name* in the `foreach` loop.
@@ -259,11 +259,11 @@ Adds a [custom drop-down menu][9] where the options depend on the value selected
 
 In **tree mode**, you get 1 drop-down with a multi-level list.
 
-![Screen capture of related drop-down, tree-mode][img5]
+![Screen capture of related drop-down, tree-mode -screenshot][img5]
 
 In **list-mode**, you get n drop-downs, either side-by-side or in a vertical list. Each level has its own label.
 
-![Screen capture of related drop-down, list-mode][img6]
+![Screen capture of related drop-down, list-mode -screenshot][img6]
 
 #### Example
 
@@ -408,7 +408,7 @@ m.insert("pruneEmptyFolders", "true");
 folder.setFieldValue("set", m);
 ```
 
-![Screen capture of folder explorer][img7]
+![Screen capture of folder explorer -screenshot][img7]
 
 ## Text
 
@@ -433,7 +433,7 @@ maxValue = 9 999 999
 noRangeCheck = false
 ```
 
-![Screen capture of text field][img8]
+![Screen capture of text field -screenshot][img8]
 
 ### Text area element
 
@@ -448,16 +448,13 @@ notEmpty = false
 
 ### Language menu element
 
-Displays a [drop-down with different languages]813]. Used by the spell-checker for input fields.
+Displays a [drop-down with different languages][13]. Used by the spell-checker for input fields.
 
-![Screen capture of text field][img9]
+![Screen capture of text field -screenshot][img9]
 
-### CK editor and FCK editor
+### CK editor
 
-These editor elements let users create HTML-formatted messages. They can insert images, tables, paragraphs, and so on.
-
-> [!NOTE]
-> The [CK editor][14] is newer and what you should aim to use.
+The [CK editor][14] lets users create HTML-formatted messages. They can insert images, tables, paragraphs, and so on.
 
 The editor must be inside an `Element table`. It is often placed directly before a `ContactAndRecipient` element, but it doesn't have to be.
 
@@ -470,7 +467,7 @@ valueId = true
 verticalSpace = rest
 ```
 
-![Screen capture of CK editor][img10]
+![Screen capture of CK editor -screenshot][img10]
 
 <!-- Referenced links -->
 [1]: ../reference/form-page.md
@@ -485,6 +482,7 @@ verticalSpace = rest
 [10]: ../reference/tree-explorer.md
 [11]: ../reference/text.md
 [12]: ../reference/textarea.md
+[13]: ../reference/language-menu.md
 [14]: ../reference/ck-editor.md
 
 <!-- Referenced images -->
