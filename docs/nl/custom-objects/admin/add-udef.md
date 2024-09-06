@@ -4,7 +4,7 @@ title: Door gebruiker gedefinieerd veld toevoegen
 description: Door gebruiker gedefinieerd veld toevoegen
 keywords: udef, door gebruikers gedefinieerd, aangepast veld
 author: Bergfrid Dias
-date: 01.30.2024
+date: 09.06.2024
 version: 10
 topic: howto
 audience: settings
@@ -26,6 +26,10 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 1. Klik op de knop **Toevoegen** onder de lijst **Velden**.
 
 1. Voer een **Naam** in en selecteer een [**Type**][2] (bijvoorbeeld nummer, tekst of datum).
+
+    Gebruik een [taalprefix](#language) om de naam in meerdere talen op te geven zoals dit: `US:"Language";NO:"Språk"`
+
+    ![UDEF-veldnaam in meerdere talen -screenshot][img3]
 
 1. Stel eventueel andere [veld eigenschappen](#properties) in, zoals of het veld verplicht is of geïndexeerd moet worden.
 
@@ -49,6 +53,10 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 > [!NOTE]
 > U kunt **Alleen lezen** niet aanvinken als u **Verplicht** hebt aangevinkt. Deze opties sluiten elkaar uit.
+
+## <a id="language"></a>Taalcodes
+
+[!include[Taalcodes](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Waar worden de velden die ik maak, weergegeven?
 
@@ -93,3 +101,4 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

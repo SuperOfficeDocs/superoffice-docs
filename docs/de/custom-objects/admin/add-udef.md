@@ -4,7 +4,7 @@ title: Felder hinzufügen
 description: Felder hinzufügen
 keywords: udef, benutzerdefiniertes Feld, Feld-Eigenschaften
 author: Bergfrid Dias
-date: 01.30.2024
+date: 09.06.2024
 version: 10
 topic: howto
 audience: settings
@@ -26,6 +26,10 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 1. Klicken Sie unter der Liste **Felder** auf die Schaltfläche **Hinzufügen**.
 
 1. Geben Sie einen **Namen** ein und wählen Sie einen [**Typ**][2] (zum Beispiel Zahl, Text oder Datum).
+
+    Verwenden Sie ein [Sprachpräfix](#language), um den Namen in mehreren Sprachen anzugeben, wie folgt: `US:"Language";NO:"Språk"`
+
+    ![UDEF-Feldname in mehreren Sprachen -screenshot][img3]
 
 1. Setzen Sie optional andere [Feld-Eigenschaften](#properties), wie zum Beispiel, ob das Feld obligatorisch ist oder indiziert werden soll.
 
@@ -49,6 +53,10 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 
 > [!NOTE]
 > Sie können das Kontrollkästchen **Schreibgeschützt** nicht aktivieren, wenn Sie **Obligatorisch** aktiviert haben. Diese beiden Optionen schließen sich gegenseitig aus.
+
+## <a id="language"></a>Sprachcodes
+
+[!include[Sprachcodes](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Wo werden die von mir erstellten Felder angezeigt?
 
@@ -93,3 +101,4 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

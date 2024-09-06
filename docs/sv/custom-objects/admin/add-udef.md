@@ -2,10 +2,10 @@
 uid: help-sv-udef-add
 title: Lägg till användardefinierat fält
 description: Lägg till användardefinierat fält
-author: Bergfrid Dias
-date: 01.29.2024
-version: 10
 keywords: udef, användardefinierade, anpassa fält
+author: Bergfrid Dias
+date: 09.06.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -26,6 +26,10 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 1. Klicka på knappen **Lägg till** under listan **Fält**.
 
 1. Ange ett **Namn** och välj en [**Typ**][2] (till exempel nummer, text eller datum).
+
+    Använd ett [språkprefix](#language) för att ange namnet på flera språk som detta: `US:"Language";NO:"Språk"`
+
+    ![UDEF-fältnamn på flera språk -screenshot][img3]
 
 1. Ställ in eventuella andra [fältegenskaper](#properties), som om fältet är obligatoriskt eller ska indexeras.
 
@@ -49,6 +53,10 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 > [!NOTE]
 > Du kan inte markera **Endast läsbart** om du har markerat alternativet **Obligatorisk**. Dessa alternativ utesluter varandra.
+
+## <a id="language"></a>Språkkoder
+
+[!include[Språkkoder](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Var visas fälten jag skapar?
 
@@ -93,3 +101,4 @@ Fyra fält av varje typ (Kort text, Lång text, Nummer och Decimal) är sökbara
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

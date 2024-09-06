@@ -4,7 +4,7 @@ title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
 keywords: udef, user-defined field, custom field, field properties
 author: Bergfrid Dias
-date: 01.18.2024
+date: 09.06.2024
 version: 10
 topic: howto
 audience: settings
@@ -26,6 +26,10 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 1. Click the **Add** button below the **Fields** list.
 
 1. Enter a **Name** and select a [**Type**][2] (for example number, text, or date).
+
+    Use a [language prefix](#language) to specify the name in multiple languages like this: `US:"Language";NO:"Språk"`
+
+    ![UDEF field name in multiple languages -screenshot][img3]
 
 1. Optionally set other [field properties](#properties), such as whether the field is mandatory or should be indexed.
 
@@ -49,6 +53,10 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 > [!NOTE]
 > You cannot check **Read only** if you checked **Mandatory**. These options are mutually exclusive.
+
+## <a id="language"></a>Language codes
+
+[!include[Language codes](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Where will the fields I create be displayed?
 
@@ -93,3 +101,4 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

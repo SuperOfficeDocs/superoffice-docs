@@ -26,23 +26,7 @@ Hvis dit firma har afdelinger i flere lande, kan det være nyttigt at have dokum
 
 ### Mappenavne for de forskellige sprog
 
-| Mappenavn | Sprog |
-|---|---|
-| NR | Norsk |
-| SP | Spansk |
-| USA | Engelsk |
-| CZ | Tjekkisk |
-| SW | Svensk |
-| CN | Kinesisk |
-| DA | Dansk |
-| JP | Japansk |
-| GE | Tysk |
-| FI | Finsk |
-| NL | Hollandsk |
-| RU | Russisk |
-| FR | Fransk |
-| PL | Polsk |
-| It | Italiensk |
+[!include[Sprogkoder](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Angiv dokumentsprog for brugere
 

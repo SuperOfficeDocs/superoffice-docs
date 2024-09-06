@@ -26,23 +26,7 @@ Om ditt företag har avdelningar i flera länder, kan det vara bra att ha dokume
 
 ### Mappnamn för de olika språken
 
-| Mappnamn | Språk |
-|---|---|
-| NR | Norsk |
-| SP | Spanska |
-| USA | Engelska |
-| CZ | Tjeckiska |
-| SW | Svensk |
-| CN | Kinesiska |
-| DA | Dansk |
-| JP | Japanska |
-| GE | Tysk |
-| FI | Finska |
-| NL | Nederländsk |
-| RU | Ryska |
-| FR | Franska |
-| PL | Polska |
-| IT | Italienska |
+[!include[Språkkoder](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Ange dokumentspråk för användare
 
