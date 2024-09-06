@@ -5,4 +5,5 @@ public class NotificationMessage
   public string VersionName { get; set; } 
   public string FileVersion { get; set; } 
   public string Token { get; set; } 
+  public string PublicEndpoint { get; set; }
 }

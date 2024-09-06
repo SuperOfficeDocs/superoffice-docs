@@ -4,5 +4,6 @@ public enum CustomerStateChangeNotificationType
   BackupRestored = 1,
   Suspend = 2,
   Resume = 3,
-  Delete = 4
+  Delete = 4,
+  Move = 5
 }

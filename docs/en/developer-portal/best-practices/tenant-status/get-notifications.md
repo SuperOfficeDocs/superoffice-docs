@@ -4,7 +4,7 @@ title: Tenant status webhook
 description: Get notifications when tenant status changes
 keywords: state, tenant
 author: Eivind Fasting, Bergfrid Dias
-date: 08.21.2024
+date: 09.06.2024
 version_devportal: 1.25
 topic: howto
 envir: cloud
@@ -56,14 +56,30 @@ The JSON payload contains the following information:
 * A text representation of the installation version
 * The version of the file set
 * A JWT to verify it was sent by SuperOffice
+* The current public endpoint
 
-```javascript
+**Upgrade:**
+
+```json
 {
   "ChangeType": 0,
   "ContextIdentifier": "Cust12345",
   "VersionName": "Release 8.4 R08",
   "FileVersion": "8.4.12.1234",
-  "Token": "ejy234ASD...1234#"
+  "Token": "eyJ234ASD...1234#"
+}
+```
+
+**Move endpoint:**
+
+```json
+{
+  "ChangeType":5,
+  "ContextIdentifier":"Cust12345",
+  "VersionName":"Release_10.3.8_2024.08.30-01",
+  "FileVersion":"10.3.8.2024",
+  "Token":"eyJ....",
+  "PublicEndpoint":"sod3.superoffice.com"
 }
 ```
 
@@ -90,6 +106,7 @@ The **change type** is a number value that corresponds to the operation performe
 | 2 | Suspend | Occurs when a tenant installation is placed in suspension. |
 | 3 | Resume | Occurs when a tenant installation is resumed from another operation. |
 | 4 | Delete | Occurs when a tenant installation is deleted. |
+| 5 | Move | Occurs when a tenant is moved to another public endpoint. Check the `PublicEndpoint` value. |
 
 <!-- Referenced links -->
 [1]: ../../create-app/request-to-publish.md
