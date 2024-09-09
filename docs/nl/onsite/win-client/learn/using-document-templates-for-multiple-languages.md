@@ -26,23 +26,7 @@ Wanneer uw bedrijf branches heeft in verschillende landen, kan het nuttig zijn d
 
 ### Mapnamen voor de verschillende talen
 
-| Mapnaam | Taal |
-|---|---|
-| NO | Noors |
-| SP | Spaans |
-| US | Engels |
-| CZ | Tsjechisch |
-| SW | Zweeds |
-| CN | Chinees |
-| DA | Deens |
-| JP | Japans |
-| GE | Duits |
-| FI | Fins |
-| NL | Nederlands |
-| RU | Russisch |
-| FR | Frans |
-| PL | Pools |
-| IT | Italiaans |
+[!include[Taalcodes](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Documenttalen voor gebruikers opgeven
 

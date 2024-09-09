@@ -4,7 +4,7 @@ title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
 keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
-date: 01.25.2024
+date: 09.06.2024
 version: 10
 topic: howto
 audience: settings
@@ -26,6 +26,10 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 1. Klikk på **Legg til** under listen **Felt**.
 
 1. Skriv inn et **Navn** og velg en [**Type**][2] (for eksempel nummer, tekst eller dato).
+
+    Bruk et [språkprefiks](#language) for å spesifisere navnet på flere språk som dette: `US:"Language";NO:"Språk"`
+
+    ![UDEF-feltnavn på flere språk -screendshot][img3]
 
 1. Sett eventuelt andre [feltegenskaper](#properties), som om feltet er obligatorisk eller skal indekseres.
 
@@ -49,6 +53,10 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 > [!NOTE]
 > Du kan ikke krysse av for **Kun lesbart** hvis du har krysset av for **Obligatorisk**. Disse alternativene er gjensidig utelukkende.
+
+## <a id="language"></a>Språkkoder
+
+[!include[Språkkoder](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Hvor vises feltene jeg oppretter?
 
@@ -93,3 +101,4 @@ Fire av hver felttype (Kort tekst, Lang tekst, Nummer, Desimaltall) er søkbare.
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

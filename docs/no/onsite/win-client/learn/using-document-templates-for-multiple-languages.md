@@ -26,23 +26,7 @@ Hvis bedriften din har avdelinger i flere land, kan det være nyttig å ha dokum
 
 ### Mappenavn for de ulike språkene
 
-| Mappenavn | Språk |
-|---|---|
-| NO | Norsk |
-| SP | Spansk |
-| US | Engelsk |
-| CZ | Tsjekkisk |
-| SW | Svensk |
-| CN | Kinesisk |
-| DA | Dansk |
-| JP | Japansk |
-| GE | Tysk |
-| FI | Finsk |
-| NL | Nederlandsk |
-| RU | Russisk |
-| FR | Fransk |
-| PL | Polsk |
-| IT | Italiensk |
+[!include[Språkkoder](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Angi dokumentspråk for brukere
 

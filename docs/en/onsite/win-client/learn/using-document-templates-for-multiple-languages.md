@@ -28,23 +28,7 @@ If your company has divisions in several countries, it may be useful to have the
 
 ### Folder names for the different languages
 
-| Folder name | Language |
-|-|---|
-| NO | Norwegian |
-| SP | Spanish |
-| US | English |
-| CZ | Czech |
-| SW | Swedish |
-| CN | Chinese |
-| DA | Danish |
-| JP | Japanese |
-| GE | German |
-| FI | Finnish |
-| NL | Dutch |
-| RU | Russian |
-| FR | French |
-| PL | Polish |
-| IT | Italian |
+[!include[Language codes](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Specify document languages for users
 

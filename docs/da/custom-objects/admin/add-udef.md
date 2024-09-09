@@ -3,7 +3,7 @@ uid: help-da-udef-add
 title: Tilføj brugerdefinerede felter
 description: Tilføj brugerdefinerede felter
 author: Bergfrid Dias
-date: 01.25.2024
+date: 09.06.2024
 version: 10
 keywords: udef, brugerdefineret, tilpasset felt
 topic: howto
@@ -27,6 +27,10 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 1. Indtast et **Navn** og vælg en [**Type**][2] (for eksempel nummer, tekst eller dato).
 
+    Brug et [sprogpræfiks](#language) til at specificere navnet på flere sprog som dette: `US:"Language";NO:"Språk"`
+
+    ![UDEF felt navn på flere sprog -screenshot][img3]
+
 1. Indstil eventuelt andre [feltegenskaber](#properties), såsom om feltet er obligatorisk eller skal indekseres.
 
 1. Når du er færdig, klik på **Gem**. Dialogboksen lukkes, og det nye felt vises i **Felt**-listen og i gitteret.
@@ -49,6 +53,10 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 > [!NOTE]
 > Du kan ikke vælge **Skrivebeskyttet**, hvis du har valgt **Obligatorisk**. Disse muligheder udelukker hinanden.
+
+## <a id="language"></a>Sprogkoder
+
+[!include[Sprogkoder](../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Hvor vises de felter, jeg opretter?
 
@@ -93,3 +101,4 @@ Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis d
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
 [img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

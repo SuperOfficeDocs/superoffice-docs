@@ -26,23 +26,7 @@ Wenn Ihre Firma Geschäftsbereiche in verschiedenen Ländern aufweist, kann es h
 
 ### Ordnername für die verschiedenen Sprachen
 
-| Ordnername | Sprache |
-|---|---|
-| NO | Norwegisch |
-| SP | Spanisch |
-| US | Englisch |
-| CZ | Tschechisch |
-| SW | Schwedisch |
-| CN | Chinesisch |
-| DA | Dänisch |
-| JP | Japanisch |
-| GE | Deutsch |
-| FI | Finnisch |
-| NL | Niederländisch |
-| RU | Russisch |
-| FR | Französisch |
-| PL | Polnisch |
-| IT | Italienisch |
+[!include[Sprachcodes](../../../globalization-and-localization/includes/table-legacy-language-codes.md)]
 
 ## Dokumentsprachen für Benutzer festlegen
 
