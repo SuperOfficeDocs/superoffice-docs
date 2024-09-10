@@ -39,9 +39,11 @@ You can choose to use our NPM/NuGet package or your own HTTP client to directly 
 
 Our REST API documentation covers two variants of REST APIs. You have the freedom to choose which REST API suits your needs, and you're not limited to using only one; they can be used interchangeably.
 
-The [RESTful AGENT API][2] reflects what the underlying NetServer exposes, making it familiar to SuperOffice veterans but potentially confusing for newcomers. It includes agent methods, such as `CreateDefaultAppointmentEntity`.
+The [RESTful REST API][3] operates as a standard REST API, allowing you to POST/GET/PATCH entities based on the request body.
 
-On the other hand, the [RESTful REST API][3] operates as a standard REST API, allowing you to POST/GET/PATCH entities based on the request body.
+On the other hand, the [RESTful AGENT API][2] is based on HTTP RPC, and reflects what the underlying NetServer exposes, making it familiar to SuperOffice veterans but potentially confusing for newcomers. It includes agent methods, such as `CreateDefaultAppointmentEntity`.
+
+Read more about the differences between [REST and HTTP RPC APIs][10].
 
 ## I have my ticket, how do i use it?
 
@@ -360,3 +362,5 @@ If you encounter difficulties in communicating with our API, we highly value you
 [7]: ../../developer-portal/getting-started/get-access-to-sod.md
 [8]: ../../developer-portal/create-app/index.md
 [9]: https://github.com/SuperOffice
+[10]: https://www.geeksforgeeks.org/difference-between-rest-api-and-rpc-api/
+[10
