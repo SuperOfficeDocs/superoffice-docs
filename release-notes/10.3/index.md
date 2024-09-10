@@ -22,7 +22,7 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.9 (17.09.2024):
-  * [Section tabs - Field/column calculations (10.3.9)][38] in Core CRM
+  * [Section tabs and lists - Field/column calculations (10.3.9)][38] in Core CRM
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
