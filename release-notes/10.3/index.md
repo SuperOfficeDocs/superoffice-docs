@@ -21,6 +21,9 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### SuperOffice CRM
 
+* 10.3.9 (17.09.2024):
+  * [Section tabs - Field/column calculations (10.3.9)][38] in Core CRM
+
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
   * [Requests - Get next in queue including own open requests (10.3.8)][36] in Service
@@ -142,5 +145,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
 [36]: service/10.3.8-update.md
 [37]: admin/10.3.8-update.md
+[38]: core-crm/10.3.9-update.md
 
 <!-- Referenced images -->
