@@ -13,7 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
-* [Section tabs and lists - Field/column calculations (10.3.9)][9]
+* [Column calculations on section tabs and selections (10.3.9)][9]
 * [Columns/fields - Base currency and currency options (10.3.9)][9]
 * [Follow-up - New and improved Follow-up dialog (10.3.6)][6]
 * [Notifications - Show invitations I have declined (10.3.2)][2]

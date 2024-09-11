@@ -22,7 +22,7 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.9 (17.09.2024):
-  * [Section tabs and lists - Field/column calculations (10.3.9)][38] in Core CRM
+  * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
   * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
 
 * 10.3.8 (27.08.2024):
