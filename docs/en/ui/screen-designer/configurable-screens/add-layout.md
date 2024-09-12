@@ -1,9 +1,9 @@
 ---
 uid: screen-add-layout
-title:  Add a layout
+title: Add a layout
 description: How to add a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-date: 01.03.2024
+date: 09.12.2024
 version: 10.2.11
 keywords: ui, screen, customization
 topic: howto
@@ -23,20 +23,22 @@ To create a new screen layout:
 
 1. Open the Screen Designer.
 
-2. At the top, select a screen: Company, Contact, Sale, Project, Request, or Follow-up.
+1. At the top, select a screen: Company, Contact, Sale, Project, Request, or Follow-up.
 
-3. Under **Layouts**, click **Add**.
+1. [Select assignment method][4] (if not set): click the text next to **Assign layouts to**, and choose group or type.
 
-4. In the **Add new layout** dialog, select a layout from the **Create new based on** list.
+1. Under **Layouts**, click **Add**.
 
-5. Enter a name and description for the new layout.
+1. In the **Add new layout** dialog, select a layout from the **Create new based on** list.
 
-6. Click the **Used by** field and assign the new layout to one or more user groups **or** sale/project/request type.
+1. Enter a name and description for the new layout.
+
+1. Click the **Assign to** field and assign the new layout to one or more user groups **or** sale/project/request/follow-up type.
 
     > [!NOTE]
-    > Only groups currently using the default layout are shown.
+    > Only groups/types currently using the default layout are shown.
 
-7. Click **OK**.
+1. Click **OK**.
 
     The new layout is added to the **Layouts** list with status Draft, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
 
@@ -65,5 +67,6 @@ To delete a layout:
 [1]: working-with-fields.md
 [2]: add-button.md
 [3]: working-with-tabs.md
+[4]: assign-layout.md
 
 <!-- Referenced images -->
