@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-date: 08.27.2024
+date: 09.17.2024
 version: 10.3
 topic: reference
 ---
@@ -20,6 +20,10 @@ topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.9 (17.09.2024):
+  * [Column calculations on section tabs and selections (10.3.9)][38] in Core CRM
+  * [Columns/fields - Base currency and currency options (10.3.9)][38] in Core CRM
 
 * 10.3.8 (27.08.2024):
   * [Request type - Reply/forwarding settings (10.3.8)][36] in Service
@@ -142,5 +146,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
 [36]: service/10.3.8-update.md
 [37]: admin/10.3.8-update.md
+[38]: core-crm/10.3.9-update.md
 
 <!-- Referenced images -->
