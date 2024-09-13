@@ -2,11 +2,13 @@
 uid: help-en-project-screen-sale
 title: Sales tab
 description: Sales tab in the Project screen
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project, sale
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Sales tab
@@ -34,11 +36,13 @@ Double-click a sale in the list to open the Sale which contains information abou
 ## Related topics
 
 * [Filter activities and sales][3]
+* [Group columns and summarize amounts][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

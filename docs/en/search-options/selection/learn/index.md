@@ -2,11 +2,14 @@
 uid: help-en-selection
 title: Selection
 description: Selection
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Selection
@@ -59,6 +62,11 @@ You can create a selection that contains
 
 * A list of all your own sales with the status **Lost** or **Sold**
 * All sales for the sales department in the current quarter
+
+> [!TIP]
+> [Group columns and summarize amounts][10] to spot trends and get a clear overview of your data.
+
+![Selection of sales - grouping and sum of amount -screenshot][img3]
 
 ### Project
 
@@ -139,5 +147,7 @@ You can create a selection that contains
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

@@ -2,11 +2,14 @@
 uid: help-en-section-tabs-configure
 title: Changing the column view
 description: Changing the column view
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: section tab, archive, column
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Configure columns
@@ -30,6 +33,29 @@ To change the order of the columns in a section tab, click and drag a column hea
 4. Click **OK**.
 
 To reset the columns to the default view, click **Reset**.
+
+## <a id="calculate"></a>Column calculations
+
+You can perform calculations such as sum, average, or min/max on date and number fields.
+
+1. On the section tab, click the cogwheel symbol to open settings.
+
+1. In the dialog, go to the **∑ Sum** tab.
+
+1. Select the columns you want to include in the calculation. Optionally, **enable grouping** to organize the data.
+
+    ![Section tabs settings - sum of amount and enable grouping -screenshot][img2]
+
+1. Choose which calculation to perform on each column. The available options will depend on the field type.
+
+**Result:**
+
+![Sales section tab - sum and grouping on amount -screenshot][img3]
+
+> [!NOTE]
+> If your organization uses multiple currencies, ensure you are working with consistent values in sales calculations. Use the **base currency** versions of the **Amount** and **Weighted Amount** fields to maintain accuracy.
+
+![Sales section tab - sum of amount for base currency -screenshot][img5]
 
 ## Manually adjust column widths
 
@@ -62,3 +88,6 @@ You can set columns widths to be adjusted automatically according to the content
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
+[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

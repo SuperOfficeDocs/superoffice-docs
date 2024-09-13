@@ -2,11 +2,14 @@
 uid: help-en-selection-screen
 title: Section tabs in the Selection screen
 description: Section tabs in the Selection screen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # The Selection screen
@@ -30,7 +33,7 @@ The appearance of the list of members varies slightly depending on what the sele
 | Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that are archived on this selection. |
 
 > [!TIP]
-> Click ![icon][img3] to the right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
+> Click ![icon][img3] to the right of the column headers in a selection to group and filter records, add/remove columns, and specify calculations. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9] for additional functions.
 
 To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the upper right of the screen.
 
