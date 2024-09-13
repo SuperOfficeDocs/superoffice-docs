@@ -2,10 +2,13 @@
 uid: help-no-company-screen-sale
 title: Salg-fane
 description: Salg-fane
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: firma
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -27,10 +30,15 @@ Klikk på **Filter**-knappen (![ikon][img2]) for å [filtrere listen][4] etter d
 
 Hvis du merker av for **Ta med interessenter** nederst i detaljkortet, vises også salg der firmaet er involvert som [interessent][3].
 
+## Aktuelle emner
+
+* [Gruppér kolonner og summer beløp][5]
+
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
 [4]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/sale-detail.png

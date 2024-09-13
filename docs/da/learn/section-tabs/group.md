@@ -2,10 +2,13 @@
 uid: help-da-sections-tabs-group
 title: Gruppering af lister
 description: Du kan gruppere en liste på en eller flere datatyper for at få et bedre overblik over posterne under et detaljekort (arkiv).
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: detaljekort, arkiv
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

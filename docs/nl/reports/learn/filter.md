@@ -38,7 +38,7 @@ language: nl
 
 ## Verwante onderwerpen
 
-* [Filteractiviteiten en verkoop][1]
+* [Filter activiteiten en verkoop][1]
 
 <!-- Referenced links -->
 [1]: ../../learn/section-tabs/filter.md

@@ -2,11 +2,14 @@
 uid: help-da-selection
 title: Udvalg
 description: Udvalg
+keywords: selection, udvalg
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: da
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Udvalg
@@ -59,6 +62,11 @@ Du kan oprette et udvalg, som indeholder
 
 * En liste over alle dine egne salg med statussen **Tabt** eller **Solgt**
 * Alle salg for hele salgsafdelingen i det gældende kvartal
+
+> [!TIP]
+> [Gruppér kolonner og summer beløb][10] for at opdage trends og få et klart overblik over dine data.
+
+![Udvalg af salg - gruppering og sum af beløb -screenshot][img3]
 
 ### Projekt
 
@@ -139,5 +147,7 @@ Du kan oprette et udvalg, som indeholder
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

@@ -2,10 +2,13 @@
 uid: help-nl-selection-screen
 title: Sectietabbladen in het scherm Selectie
 description: Sectietabbladen in het scherm Selectie
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selectie
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -30,7 +33,7 @@ Het uiterlijk van de lijst met leden varieert iets, afhankelijk van de inhoud va
 | Mailings | Een mailing maken voor personen in een selectie. [Bekijk de mailings](#mailing) die op deze selectie zijn gearchiveerd. |
 
 > [!TIP]
-> Klik op het ![pictogram][img3] rechts van de kolomkoppen in een selectie om records te groeperen en te filteren en kolommen toe te voegen/te verwijderen. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][9 ] voor extra functies.
+> Klik op het ![pictogram][img3] rechts van de kolomkoppen in een selectie om records te groeperen en te filteren, kolommen toe te voegen/te verwijderen, en berekeningen te specificeren. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][9] voor extra functies.
 
 Om tussen selecties te schakelen, klikt u op de knoppen vorige/volgende (![pictogram][img2] ![pictogram][img1]) rechtsboven op het scherm.
 

@@ -2,10 +2,13 @@
 uid: help-no-selection-screen
 title: Detaljkortene i Utvalg-skjermbildet
 description: Detaljkortene i Utvalg-skjermbildet
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -30,7 +33,7 @@ Medlemslisten ser litt ulik ut avhengig av hva utvalget inneholder. Alle utvalgs
 | Utsendelser | Opprett en utsendelse til personer i et utvalg. [Vis masseutsendelsene](#mailing) som er arkivert på dette utvalget. |
 
 > [!TIP]
-> Klikk på ![ikonet][img3] til høyre for kolonneoverskriftene i et utvalg for å gruppere og filtrere poster og legge til/fjerne kolonner. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortfanene][9 ] for flere funksjoner.
+> Klikk på ![ikonet][img3] til høyre for kolonneoverskriftene i et utvalg for å gruppere og filtrere poster, legge til/fjerne kolonner, og spesifisere beregninger. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortfanene][9] for flere funksjoner.
 
 Hvis du vil flytte mellom utvalg, klikker du på forrige/neste-knappene ( ![ikon][img2] ![ikon][img1] ) øverst til høyre på skjermbildet.
 

@@ -2,10 +2,13 @@
 uid: help-de-project-screen-sale
 title: Registerkarte Verkäufe
 description: Registerkarte Verkäufe in der Ansicht Projekt
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: Projekt, Verkauf
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -34,11 +37,13 @@ Wenn Sie auf einen Verkauf in der Liste doppelklicken, wird der Verkauf geöffne
 ## Verwandte Themen
 
 * [Aktivitäten und Verkäufe filtern][3]
+* [Spalten gruppieren und Beträge summieren][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

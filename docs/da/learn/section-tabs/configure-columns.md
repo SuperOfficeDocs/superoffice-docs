@@ -2,11 +2,14 @@
 uid: help-da-section-tabs-configure
 title: Ændre kolonnevisningen
 description: Ændre kolonnevisningen
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: detaljekort, arkiv, kolonne
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
-language: da
+audience: person
+audience_tooltip: SuperOffice CRM
+language: da 
 ---
 
 # Konfiguration af kolonner
@@ -30,6 +33,29 @@ Hvis du vil ændre rækkefølgen af kolonnerne under et detaljekort, skal du kli
 4. Klik på **OK**.
 
 Hvis du vil nulstille kolonnerne til standardvisningen, skal du klikke på **Nulstil**.
+
+## <a id="calculate"></a>Kolonneberegninger
+
+Du kan udføre beregninger som sum, gennemsnit eller min/max på dato- og talfelter.
+
+1. På detaljekortet skal du klikke på tandhjulssymbolet for at åbne indstillingerne.
+
+2. I dialogen skal du gå til fanen **∑ Sum**.
+
+3. Vælg de kolonner, du vil inkludere i beregningen. Du kan eventuelt **aktivere gruppering** for at organisere dataene.
+
+    ![Detaljekort indstillinger - sum af beløb og aktiver gruppering -screenshot][img2]
+
+4. Vælg den beregning, der skal udføres på hver kolonne. Tilgængelige muligheder afhænger af felttypen.
+
+**Resultat:**
+
+![Salg detaljekort - sum og gruppering af beløb -screenshot][img3]
+
+> [!NOTE]
+> Hvis din organisation bruger flere valutaer, skal du sikre dig, at du arbejder med sammenlignelige værdier i salgsberegningerne. Brug **basisvaluta** versionerne af felterne **Beløb** og **Vægtet beløb** for at sikre nøjagtighed.
+
+![Salg detaljekort - sum af beløb for basisvaluta -screenshot][img5]
 
 ## Manuel justering af kolonnebredder
 
@@ -62,3 +88,6 @@ Du kan angive kolonnernes bredder, så de skal justeres automatisk i henhold til
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
+[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

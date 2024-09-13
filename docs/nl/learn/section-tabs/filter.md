@@ -2,10 +2,13 @@
 uid: help-nl-section-tabs-filter
 title: De sectietabbladen filteren
 description: Filters gebruiken op de sectietabbladen.
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: sectietabblad, filter
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -37,7 +40,7 @@ Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte
 > [!NOTE]
 > Het kolomfilter is niet in alle sectietabbladen beschikbaar. Niet alle kolommen kunnen worden gefilterd.
 
-## Filteractiviteiten en verkoop
+## Filter activiteiten en verkoop
 
 1. Ga naar het scherm Bedrijf, Persoon, Verkoop of Project.
 

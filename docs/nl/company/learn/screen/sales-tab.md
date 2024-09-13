@@ -2,10 +2,13 @@
 uid: help-nl-company-screen-sale
 title: Tabblad Verkoop
 description: Tabblad Verkoop
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: bedrijf
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -27,10 +30,15 @@ Klik op de **pictogram** knop ![Filter][img2] om [de lijst te filteren][4] op da
 
 Wanneer u **Belanghebbenden opnemen** onder aan het sectietabblad selecteert, worden verkopen waarbij het bedrijf als [belanghebbende][3] is betrokken ook weergegeven.
 
+## Verwante onderwerpen
+
+* [Kolommen groeperen en bedragen sommeren][5]
+
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
 [4]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/requests-detail.png

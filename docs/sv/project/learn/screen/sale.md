@@ -2,10 +2,13 @@
 uid: help-sv-project-screen-sale
 title: Fliken Försäljning
 description: Fliken Försäljning i fönstret Projekt
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, försäljning
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -34,11 +37,13 @@ Om du dubbelklickar på en försäljning i listan öppnas fönstret Försäljnin
 ## Relaterade ämnen
 
 * [Filtrera aktiviteter och försäljningar][3]
+* [Gruppera kolumner och summera belopp][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

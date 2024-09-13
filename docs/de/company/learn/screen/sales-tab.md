@@ -2,10 +2,13 @@
 uid: help-de-company-screen-sale
 title: Registerkarte Verkauf
 description: Registerkarte Verkauf
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Firma
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -27,10 +30,15 @@ Klicken Sie auf das ![Symbol][img2] der Schaltfläche **Filter**, damit Sie nach
 
 Wenn Sie unten auf der Bereichsregisterkarte die Option **Beteiligte einschließen** aktivieren, werden auch Verkäufe angezeigt, an denen die Firma als [Beteiligter][3] beteiligt ist.
 
+## Verwandte Themen
+
+* [Spalten gruppieren und Beträge summieren][5]
+
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
 [4]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/sale-detail.png

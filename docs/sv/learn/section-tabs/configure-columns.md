@@ -2,10 +2,13 @@
 uid: help-sv-section-tabs-configure
 title: Ändrar kolumnvisningen
 description: Ändrar kolumnvisningen
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: detaljkort, arkiv, kolumn
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -30,6 +33,29 @@ Om du vill ändra ordningen på kolumnerna på ett detaljkort klickar du och dra
 4. Klicka på **OK**.
 
 För att återställa kolumnerna till standard klickar du på **Återställ**.
+
+## <a id="calculate"></a>Kolumnberäkningar
+
+Du kan utföra beräkningar som summa, genomsnitt eller min/max på datum- och talfält.
+
+1. Klicka på kugghjulssymbolen i detaljkortet för att öppna inställningarna.
+
+2. Gå till fliken **∑ Summa** i dialogrutan.
+
+3. Välj de kolumner du vill inkludera i beräkningen. Du kan också **aktivera gruppering** för att organisera data.
+
+    ![Detaljkortets inställningar - summa av belopp och aktivera gruppering -screenshot][img2]
+
+4. Välj vilken beräkning som ska utföras på varje kolumn. De tillgängliga alternativen beror på fälttypen.
+
+**Resultat:**
+
+![Detaljkort för försäljning - summa och gruppering på belopp -screenshot][img3]
+
+> [!NOTE]
+> Om din organisation använder flera valutor, se till att du arbetar med konsekventa värden i försäljningsberäkningar. Använd **basvaluta**-versionerna av fälten **Belopp** och **Viktat belopp** för att säkerställa noggrannhet.
+
+![Detaljkort för försäljning - summa av belopp för basvaluta -screenshot][img5]
 
 ## Justera kolumnbredder manuellt
 
@@ -62,3 +88,6 @@ Du kan ställa in att kolumnernas bredd ska anpassas automatiskt efter innehåll
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
+[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

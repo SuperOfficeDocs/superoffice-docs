@@ -2,11 +2,14 @@
 uid: help-en-section-tabs-filter
 title: Filter the section tabs
 description: How to use filters in the section tabs.
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: section tab, filter
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: en
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Filter the section tabs

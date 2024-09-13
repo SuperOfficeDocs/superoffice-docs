@@ -2,10 +2,13 @@
 uid: help-no-project-screen-sale
 title: Salg-fanen
 description: Fanen Salg i Prosjekt-bildet
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: prosjekt, salg
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -34,11 +37,13 @@ Når du dobbeltklikker på et salg på listen, kommer du til Salg, som inneholde
 ## Aktuelle emner
 
 * [Filtrere aktiviteter og salg][3]
+* [Gruppér kolonner og summer beløp][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

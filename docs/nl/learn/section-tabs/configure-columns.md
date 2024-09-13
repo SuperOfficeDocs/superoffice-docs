@@ -2,10 +2,13 @@
 uid: help-nl-section-tabs-configure
 title: De kolomweergave wijzigen
 description: De kolomweergave wijzigen
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: sectietabblad, archief, kolom
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -30,6 +33,29 @@ Als u de volgorde van de kolommen op een sectietabblad wilt wijzigen, klikt u op
 4. Klik op **OK**.
 
 Om de kolommen opnieuw in te stellen op de standaardweergave, klikt u op **Opnieuw instellen**.
+
+## <a id="calculate"></a>Kolomberekeningen
+
+Je kunt berekeningen uitvoeren zoals som, gemiddelde of min/max op datum- en getallenvelden.
+
+1. Klik op het tandwielpictogram op het sectietabblad om de instellingen te openen.
+
+2. Ga in het dialoogvenster naar het tabblad **∑ Som**.
+
+3. Selecteer de kolommen die je in de berekening wilt opnemen. Optioneel kun je **groeperen** inschakelen om de gegevens te organiseren.
+
+    ![Sectietabblad instellingen - som van bedrag en groepering inschakelen -screenshot][img2]
+
+4. Kies welke berekening op elke kolom moet worden uitgevoerd. De beschikbare opties zijn afhankelijk van het veldtype.
+
+**Resultaat:**
+
+![Verkoopsectietabblad - som en groepering op bedrag -screenshot][img3]
+
+> [!NOTE]
+> Als je organisatie meerdere valuta's gebruikt, zorg er dan voor dat je werkt met consistente waarden in verkoopberekeningen. Gebruik de **basisvaluta**-versies van de velden **Bedrag** en **Gewogen bedrag** voor nauwkeurigheid.
+
+![Verkoopsectietabblad - som van bedrag voor basisvaluta -screenshot][img5]
 
 ## Kolombreedte handmatig aanpassen
 
@@ -62,3 +88,6 @@ U kunt instellen dat de kolombreedte automatisch wordt aangepast aan de inhoud v
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
+[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

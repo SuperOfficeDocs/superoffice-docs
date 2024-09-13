@@ -2,10 +2,13 @@
 uid: help-nl-project-screen-sale
 title: Tabblad Verkoop
 description: Tabblad Verkoop in het scherm Project
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project, verkoop
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -33,12 +36,14 @@ Als u dubbelklikt op een verkoop in de lijst, wordt de Verkoop geopend. Hierin w
 
 ## Verwante onderwerpen
 
-* [Filteractiviteiten en verkoop][3]
+* [Filter activiteiten en verkoop][3]
+* [Kolommen groeperen en bedragen sommeren][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

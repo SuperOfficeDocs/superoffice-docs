@@ -2,10 +2,13 @@
 uid: help-de-contact-screen-sales
 title: Registerkarte Verkäufe
 description: Registerkarte Verkäufe
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: person, Person
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -25,10 +28,15 @@ Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Filter**, damit Sie nach
 
 Wenn Sie **Beteiligte einschließen** unten auf der Bereichsregisterkarte aktivieren, werden auch die Verkäufe angezeigt, an denen die [Person als Beteiligter mitwirkt][2].
 
+## Verwandte Themen
+
+* [Spalten gruppieren und Beträge summieren][4]
+
 <!-- Referenced links -->
 [1]: ../../../sale/learn/index.md
 [2]: ../../../sale/learn/stakeholders/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/filter-icon.png
