@@ -2,10 +2,13 @@
 uid: help-de-sections-tabs-group
 title: Listen gruppieren
 description: "Sie können eine Liste nach einem oder mehreren Datentypen gruppieren, um einen besseren Überblick über die Datensätze in einer Bereichsregisterkarte (Archiv) zu erhalten."
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: Bereichsregisterkarte, Archiv
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

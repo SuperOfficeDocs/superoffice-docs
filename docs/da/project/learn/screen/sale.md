@@ -2,11 +2,14 @@
 uid: help-da-project-screen-sale
 title: Fanen Salg
 description: Fanen Projekt på skærmbilledet Salg
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, salg
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: da
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Fanen Salg
@@ -34,11 +37,13 @@ Dobbeltklik på et salg på listen for at åbne Salg, som indeholder oplysninger
 ## Relaterede emner
 
 * [Filtrering af aktiviteter og salg][3]
+* [Gruppér kolonner og summer beløb][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

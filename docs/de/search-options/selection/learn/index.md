@@ -2,10 +2,13 @@
 uid: help-de-selection
 title: Selektion
 description: Selektion
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -59,6 +62,11 @@ Sie können eine Selektion mit folgenden Elementen erstellen:
 
 * Eine Liste aller eigenen Verkäufe mit dem Status **Verloren** oder **Verkauft**
 * Alle Verkäufe der Vertriebsabteilung im aktuellen Quartal
+
+> [!TIP]
+> [Gruppieren Sie Spalten und summieren Sie Beträge][10], um Trends zu erkennen und einen klaren Überblick über Ihre Daten zu erhalten.
+
+![Selektion der Verkäufe - Gruppierung und Summe der Beträge -screenshot][img3]
 
 ### Projekt
 
@@ -139,5 +147,7 @@ Sie können eine Selektion mit folgenden Elementen erstellen:
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

@@ -2,10 +2,13 @@
 uid: help-sv-selection-screen
 title: Detaljkorten i fönstret Urval
 description: Detaljkorten i fönstret Urval
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -30,7 +33,7 @@ Medlemslistan ser lite olika ut beroende på vad urvalet innehåller. Alla urval
 | Utskick | Skapa ett utskick till kontakter i ett urval. [Visa de utskick](#mailing) som är arkiverade för detta urval. |
 
 > [!TIP]
-> Klicka på ![ikon][img3] till höger om kolumnrubrikerna i ett urval för att gruppera och filtrera poster, samt för att ta bort/lägga till kolumner. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**. Se även [Detaljkorten][9 ] för fler funktioner.
+> Klicka på ![ikon][img3] till höger om kolumnrubrikerna i ett urval för att gruppera och filtrera poster, för att ta bort/lägga till kolumner, samt för att specificera beräkningar. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**. Se även [Detaljkorten][9] för fler funktioner.
 
 Om du vill flytta mellan olika urval, klickar du på knapparna föregående/nästa ( ![ikon][img2] ![ikon][img1] ) längst upp till höger på skärmen.
 

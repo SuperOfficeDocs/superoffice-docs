@@ -2,11 +2,14 @@
 uid: help-da-company-screen-sale
 title: Fanen Salg
 description: Fanen Salg
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: firma
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: da
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Fanen Salg
@@ -27,10 +30,15 @@ Klik på knappen **Filtrer** ![ikon][img2] for at [filtrere listen][4] efter dat
 
 Hvis du markerer **Medtag interessenter** nederst på detaljekortet, vises også salg, hvor firmaet er involveret som [interessent][3].
 
+## Relaterede emner
+
+* [Gruppér kolonner og summer beløb][5]
+
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
 [4]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/requests-detail.png

@@ -2,10 +2,13 @@
 uid: help-da-section-tabs-filter
 title: Filtrer detaljekortene
 description: Sådan bruger du filtre i detaljekortene.
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: detaljekort, filtrere
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

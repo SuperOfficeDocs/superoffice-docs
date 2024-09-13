@@ -27,10 +27,15 @@ Klik op de **pictogram** knop ![Filter][img2] om [de lijst te filteren][4] op da
 
 Wanneer u **Belanghebbenden opnemen** onder aan het sectietabblad selecteert, worden verkopen waarbij het bedrijf als [belanghebbende][3] is betrokken ook weergegeven.
 
+## Verwante onderwerpen
+
+* [Kolommen groeperen en bedragen sommeren][5]
+
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
 [4]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/requests-detail.png

@@ -2,10 +2,13 @@
 uid: help-nl-selection
 title: Selectie
 description: Selectie
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selectie
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -59,6 +62,11 @@ U kunt een selectie maken met
 
 * Een lijst met al uw eigen verkopen met de status **Verloren** of **Verkocht**
 * Alle verkopen van de verkoopafdeling in het huidige kwartaal
+
+> [!TIP]
+> [Groepeer kolommen en som bedragen][10] om trends te ontdekken en een duidelijk overzicht van je gegevens te krijgen.
+
+![Selectie van verkopen - groeperen en som van bedragen -screenshot][img3]
 
 ### Project
 
@@ -139,5 +147,7 @@ U kunt een selectie maken met
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

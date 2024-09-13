@@ -33,12 +33,14 @@ Als u dubbelklikt op een verkoop in de lijst, wordt de Verkoop geopend. Hierin w
 
 ## Verwante onderwerpen
 
-* [Filteractiviteiten en verkoop][3]
+* [Filter activiteiten en verkoop][3]
+* [Kolommen groeperen en bedragen sommeren][4]
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/stages.md
 [2]: ../../../sale/learn/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/sale-sold-details.png

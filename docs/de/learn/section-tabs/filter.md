@@ -2,10 +2,13 @@
 uid: help-de-section-tabs-filter
 title: Bereichsregisterkarten filtern
 description: Wie man Filter in den Bereichsregisterkarten verwendet.
-author: Bergfrid Dias
-date: 03.06.2023
 keywords: Bereichsregisterkarte, Filtern
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

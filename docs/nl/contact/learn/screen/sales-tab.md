@@ -25,10 +25,15 @@ Klik op de **pictogram** knop ![Filter][img1] om [de lijst te filteren][3] op da
 
 Wanneer u **Belanghebbenden opnemen** onder aan het sectietabblad selecteert, worden ook verkopen weergegeven waarbij de [persoon als belanghebbende is betrokken][2].
 
+## Verwante onderwerpen
+
+* [Kolommen groeperen en bedragen sommeren][4]
+
 <!-- Referenced links -->
 [1]: ../../../sale/learn/index.md
 [2]: ../../../sale/learn/stakeholders/index.md
 [3]: ../../../learn/section-tabs/filter.md
+[4]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/filter-icon.png

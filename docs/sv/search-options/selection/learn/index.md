@@ -2,10 +2,13 @@
 uid: help-sv-selection
 title: Urval
 description: Urval
+keywords: selection, urval
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -59,6 +62,11 @@ Du kan skapa ett urval som innehåller
 
 * Alla dina försäljningar med status **Förlorad** eller **Sålt**
 * Alla försäljningar för säljavdelningar under det aktuella kvartalet
+
+> [!TIP]
+> [Gruppera kolumner och summera belopp][10] för att identifiera trender och få en tydlig överblick över dina data.
+
+![Urval av försäljning - gruppering och summan av belopp -screenshot][img3]
 
 ### Projekt
 
@@ -139,5 +147,7 @@ Du kan skapa ett urval som innehåller
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

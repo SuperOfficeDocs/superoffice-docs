@@ -2,10 +2,13 @@
 uid: help-de-section-tabs-configure
 title: Spaltenansicht ändern
 description: Spaltenansicht ändern
-author: Bergfrid Dias
-date: 05.24.2023
 keywords: Bereichsregisterkarte, Archiv, Spalte
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -30,6 +33,29 @@ Um die Reihenfolge der Spalten in einer Bereichsregisterkarte zu ändern, klicke
 4. Klicken Sie auf **OK**.
 
 Klicken Sie auf **Zurücksetzen**, wenn Sie die Spalten auf die Standardansicht zurücksetzen möchten.
+
+## <a id="calculate"></a>Spaltenberechnungen
+
+Sie können Berechnungen wie Summe, Durchschnitt oder Min/Max für Datums- und Zahlenfelder durchführen.
+
+1. Klicken Sie auf das Zahnradsymbol in der Bereichsregisterkarte, um die Einstellungen zu öffnen.
+
+2. Gehen Sie im Dialogfeld auf den Reiter **∑ Summe**.
+
+3. Wählen Sie die Spalten aus, die in die Berechnung einbezogen werden sollen. Optional können Sie **Gruppierung aktivieren**, um die Daten zu organisieren.
+
+    ![Bereichsregisterkarte-Einstellungen - Summe der Beträge und Gruppierung aktivieren -screenshot][img2]
+
+4. Wählen Sie die Berechnung aus, die auf jede Spalte angewendet werden soll. Die verfügbaren Optionen hängen vom Feldtyp ab.
+
+**Ergebnis:**
+
+![Verkaufsbereichsregisterkarte - Summe und Gruppierung von Beträgen -screenshot][img3]
+
+> [!NOTE]
+> Wenn Ihre Organisation mehrere Währungen verwendet, stellen Sie sicher, dass Sie mit konsistenten Werten in den Verkaufsberechnungen arbeiten. Verwenden Sie die **Basiswährungs**-Versionen der Felder **Betrag** und **Gewichteter Betrag**, um Genauigkeit zu gewährleisten.
+
+![Verkaufsbereichsregisterkarte - Summe der Beträge für Basiswährung -screenshot][img5]
 
 ## Spaltenbreiten manuell anpassen
 
@@ -62,3 +88,6 @@ Sie können festlegen, dass die Spaltenbreiten automatisch an den Inhalt der Spa
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
+[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

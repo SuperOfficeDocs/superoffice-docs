@@ -2,10 +2,13 @@
 uid: help-no-selection
 title: Utvalg
 description: Utvalg
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -59,6 +62,11 @@ Du kan opprette et utvalg som inneholder
 
 * En liste over alle dine egne salg med statusen **Tapt** eller **Solgt**
 * Alle salg for salgsavdelingen i inneværende kvartal
+
+> [!TIP]
+> [Gruppér kolonner og summer beløp][10] for å oppdage trender og få en tydelig oversikt over dataene dine.
+
+![Utvalg av salg - gruppering og sum av beløp -screenshot][img3]
 
 ### Prosjekt
 
@@ -139,5 +147,7 @@ Du kan opprette et utvalg som inneholder
 [7]: static-selections.md
 [8]: dynamic-selections.md
 [9]: combined-selections.md
+[10]: ../../../learn/section-tabs/configure-columns.md#calculate
 
 <!-- Referenced images -->
+[img3]: ../../../../media/loc/en/sale/selection-sales-column-calculation-grouping.png

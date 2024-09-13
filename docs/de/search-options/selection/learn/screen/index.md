@@ -2,10 +2,13 @@
 uid: help-de-selection-screen
 title: Bereichsregisterkarten in der Ansicht Selektion
 description: Bereichsregisterkarten in der Ansicht Selektion
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -30,7 +33,7 @@ Das Erscheinungsbild der Mitgliederliste variiert ein wenig, je nachdem, welche 
 | Kampagnen | Eine Kampagne erstellen, die an Personen in einer Selektion gesendet werden soll. [Kampagnen anzeigen](#mailing), die in dieser Selektion archiviert sind. |
 
 > [!TIP]
-> Klicken Sie auf ![Symbol][img3] rechts neben den Spaltenkopfzeilen in einer Selektion, um Datensätze zu gruppieren und zu filtern und Spalten hinzuzufügen/zu entfernen. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][9 ] für zusätzliche Funktionen.
+> Klicken Sie auf ![Symbol][img3] rechts neben den Spaltenkopfzeilen in einer Selektion, um Datensätze zu gruppieren und zu filtern, Spalten hinzuzufügen/zu entfernen, und Berechnungen angeben. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][9] für zusätzliche Funktionen.
 
 Um zwischen Selektionen zu wechseln, klicken Sie auf die Schaltflächen Zurück/Weiter (![Symbol][img2] ![Symbol][img1]) weiter oben rechts in der Ansicht.
 

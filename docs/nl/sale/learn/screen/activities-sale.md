@@ -37,7 +37,7 @@ De volgende kolommen worden weergegeven op het sectietabblad **Activiteiten**:
 * [Activiteiten][3]
 * [De voltooide status van de verkoop wijzigen][1]
 * [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][5]
-* [Filteractiviteiten en verkoop][7]
+* [Filter activiteiten en verkoop][7]
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/change-completed-status.md
