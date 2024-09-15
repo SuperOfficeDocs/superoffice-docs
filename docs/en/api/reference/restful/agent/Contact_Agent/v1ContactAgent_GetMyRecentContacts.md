@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 497,
-    "Name": "Schuster LLC",
-    "OrgNr": "1934876",
+    "ContactId": 739,
+    "Name": "Leuschke LLC",
+    "OrgNr": "629102",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "in",
-    "DirectPhone": "626-919-9149 x6364",
-    "AssociateId": 330,
-    "CountryId": 983,
-    "EmailAddress": "keaton.russel@rolfson.co.uk",
-    "Kananame": "veniam",
-    "EmailAddressName": "laverne@rice.com",
+    "City": "placeat",
+    "DirectPhone": "039.301.9446 x98032",
+    "AssociateId": 377,
+    "CountryId": 340,
+    "EmailAddress": "linwood@lindgren.biz",
+    "Kananame": "reprehenderit",
+    "EmailAddressName": "yasmine@bergstromlind.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Leonora Corkery",
+    "AssociateFullName": "Kaia Medhurst",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "aut",
-    "FullName": "Jillian Schamberger",
+    "FormattedAddress": "rerum",
+    "FullName": "Marcellus Legros",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 879,
-    "Number1": "1545843",
-    "Number2": "1629912",
+    "ActiveErpLinks": 572,
+    "Number1": "1252659",
+    "Number2": "910184",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 811
       }
     }
   }

@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=True
+GET /api/v1/List/Competitor/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Littel Group",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "UdListDefinitionId": 628,
-    "Rank": 93,
+    "Id": 122,
+    "Name": "Berge, Tillman and Grimes",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "UdListDefinitionId": 688,
+    "Rank": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldLength": 468
       }
     }
   }

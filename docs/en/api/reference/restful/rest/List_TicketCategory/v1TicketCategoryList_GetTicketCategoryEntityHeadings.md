@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 612,
-    "Name": "Moore, Wehner and Turcotte",
-    "Tooltip": "dignissimos",
+    "HeadingId": 783,
+    "Name": "Romaguera LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 118,
-    "UdListDefinitionId": 340,
+    "Rank": 207,
+    "UdListDefinitionId": 640,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 495
       }
     }
   }

@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 752,
-  "Name": "Wiza, Kirlin and Rogahn",
-  "Tooltip": "iusto",
-  "Rank": 231,
+  "SaleTypeId": 59,
+  "Name": "Hamill-Russel",
+  "Tooltip": "sed",
+  "Rank": 894,
   "DurationUnit": "Century",
-  "SaleDuration": 81,
-  "SaleTypeCatId": 983,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "SaleDuration": 460,
+  "SaleTypeCatId": 290,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 209,
-  "QuoteLinesTemplate": 28,
-  "ConfirmationLinesTemplate": 995,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 14,
-  "MinEarningPercent": 399,
-  "GroupQuoteLinesBy": 518,
-  "SortGroupLinesBy": 395,
+  "DefaultQuoteValidity": 55,
+  "QuoteLinesTemplate": 448,
+  "ConfirmationLinesTemplate": 387,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 477,
+  "MinEarningPercent": 948,
+  "GroupQuoteLinesBy": 351,
+  "SortGroupLinesBy": 434,
   "Stages": [
     {
-      "Id": 791,
-      "Name": "Kovacek Group",
-      "ToolTip": "Nemo dicta quod earum nemo.",
+      "Id": 140,
+      "Name": "Kemmer, Murazik and Stoltenberg",
+      "ToolTip": "Temporibus fugit aut.",
       "Deleted": false,
-      "Rank": 123,
-      "Type": "maxime",
-      "ColorBlock": 169,
-      "IconHint": "adipisci",
+      "Rank": 225,
+      "Type": "cum",
+      "ColorBlock": 477,
+      "IconHint": "illo",
       "Selected": false,
-      "LastChanged": "2006-12-12T13:28:33.1482054+01:00",
+      "LastChanged": "2019-04-24T04:02:07.4003498+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "sint",
-      "Hidden": true,
-      "FullName": "Marcelo Conroy"
+      "ExtraInfo": "id",
+      "StyleHint": "necessitatibus",
+      "Hidden": false,
+      "FullName": "Mrs. Llewellyn Rhianna Krajcik"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 687,
-  "Name": "O'Connell, Spinka and Ziemann",
-  "Tooltip": "aut",
-  "Rank": 896,
+  "SaleTypeId": 295,
+  "Name": "Fahey, Kessler and Metz",
+  "Tooltip": "excepturi",
+  "Rank": 284,
   "DurationUnit": "Century",
-  "SaleDuration": 695,
-  "SaleTypeCatId": 234,
+  "SaleDuration": 61,
+  "SaleTypeCatId": 361,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 391,
-  "QuoteLinesTemplate": 313,
-  "ConfirmationLinesTemplate": 259,
+  "DefaultQuoteValidity": 916,
+  "QuoteLinesTemplate": 190,
+  "ConfirmationLinesTemplate": 759,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 28,
-  "MinEarningPercent": 745,
-  "GroupQuoteLinesBy": 254,
-  "SortGroupLinesBy": 881,
+  "MaxDiscountPercent": 731,
+  "MinEarningPercent": 368,
+  "GroupQuoteLinesBy": 599,
+  "SortGroupLinesBy": 850,
   "Stages": [
     {
-      "Id": 485,
-      "Name": "Sanford-Pouros",
-      "ToolTip": "Officiis error ut sit cupiditate voluptas.",
+      "Id": 791,
+      "Name": "Lebsack, Deckow and Wolf",
+      "ToolTip": "Fugit autem explicabo reiciendis et id illo fugiat.",
       "Deleted": false,
-      "Rank": 405,
-      "Type": "eius",
-      "ColorBlock": 122,
-      "IconHint": "fugiat",
+      "Rank": 160,
+      "Type": "voluptate",
+      "ColorBlock": 713,
+      "IconHint": "ut",
       "Selected": true,
-      "LastChanged": "2006-10-27T13:28:33.1482054+02:00",
+      "LastChanged": "2005-06-08T04:02:07.4003498+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "rerum",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "totam",
       "Hidden": false,
-      "FullName": "Keenan Yost I",
+      "FullName": "Aniya Gerhold",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 306
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   }
 }

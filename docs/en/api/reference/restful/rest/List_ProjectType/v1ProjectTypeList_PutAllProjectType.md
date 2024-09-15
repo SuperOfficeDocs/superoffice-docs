@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Walker-Jerde",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 628,
-    "Rank": 898
+    "Id": 578,
+    "Name": "Jakubowski-Denesik",
+    "Tooltip": "repudiandae",
+    "Deleted": true,
+    "UdListDefinitionId": 551,
+    "Rank": 123
   },
   {
-    "Id": 361,
-    "Name": "Walker-Jerde",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 628,
-    "Rank": 898
+    "Id": 578,
+    "Name": "Jakubowski-Denesik",
+    "Tooltip": "repudiandae",
+    "Deleted": true,
+    "UdListDefinitionId": 551,
+    "Rank": 123
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Simonis-Prohaska",
-    "Tooltip": "corrupti",
+    "Id": 113,
+    "Name": "Becker Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 281,
+    "UdListDefinitionId": 280,
+    "Rank": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 785
       }
     }
   }

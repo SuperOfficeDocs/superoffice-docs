@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Hilpert Inc and Sons",
-  "Tooltip": "autem",
+  "Id": 640,
+  "Name": "Kub-Hills",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 943,
-  "Rank": 928,
+  "UdListDefinitionId": 783,
+  "Rank": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

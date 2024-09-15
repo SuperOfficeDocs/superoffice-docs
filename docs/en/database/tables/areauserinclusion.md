@@ -2,10 +2,10 @@
 uid: table-areauserinclusion
 title: areauserinclusion table
 description: Link table incidated whose data should be included in this area. If Include all data in Area (no filtering) is ticket then there will be no rows for this area in this table.
-generated: true
+so.generated: true
 keywords: database table areauserinclusion
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # areauserinclusion Table (41)

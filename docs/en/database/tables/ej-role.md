@@ -2,10 +2,10 @@
 uid: table-ej_role
 title: ej_role table
 description: Define access rights, memberships and other properties for role user members
-generated: true
+so.generated: true
 keywords: database table ej_role
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ej\_role Table (323)

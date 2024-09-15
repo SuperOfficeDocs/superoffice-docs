@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 660,
-      "ContactName": "Mohr-Casper",
-      "PersonId": 738,
-      "PersonName": "Larkin-Marks",
-      "AssociateId": 54,
-      "Address": "dolores",
-      "EmailId": 451,
+      "ContactId": 844,
+      "ContactName": "Hoppe Group",
+      "PersonId": 717,
+      "PersonName": "Dicki, Boehm and Bernhard",
+      "AssociateId": 123,
+      "Address": "sed",
+      "EmailId": 329,
       "DuplicatePersonIds": [
-        701,
-        949
+        570,
+        465
       ],
-      "Name": "Cremin, Lakin and Shanahan",
+      "Name": "Bergnaum-Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 730,
-      "ContactName": "Weber-Hintz",
-      "PersonId": 324,
-      "PersonName": "Kuhic, Orn and Jaskolski",
-      "AssociateId": 875,
-      "Address": "quae",
-      "EmailId": 328,
+      "ContactId": 663,
+      "ContactName": "Murazik, Schimmel and Ebert",
+      "PersonId": 532,
+      "PersonName": "D'Amore-Stoltenberg",
+      "AssociateId": 96,
+      "Address": "excepturi",
+      "EmailId": 45,
       "DuplicatePersonIds": [
-        242,
-        153
+        529,
+        267
       ],
-      "Name": "Reynolds Inc and Sons",
+      "Name": "Dibbert Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 620,
-      "ContactName": "Schimmel-Turner",
-      "PersonId": 607,
-      "PersonName": "Sipes-Lind",
-      "AssociateId": 29,
-      "Address": "quasi",
-      "EmailId": 120,
+      "ContactId": 971,
+      "ContactName": "Brekke-Corwin",
+      "PersonId": 361,
+      "PersonName": "Greenholt, Schinner and Wisoky",
+      "AssociateId": 609,
+      "Address": "animi",
+      "EmailId": 108,
       "DuplicatePersonIds": [
-        914,
-        458
+        574,
+        17
       ],
-      "Name": "Bednar Group",
+      "Name": "Streich, Heller and Hermann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 433
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "et",
+  "Subject": "qui",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "2009-06-08T13:28:22.6323326+02:00",
-  "Size": 703,
+  "Sent": "2022-11-02T04:02:01.6748777+01:00",
+  "Size": 439,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorem",
-  "PlainBody": "voluptate",
-  "IsSent": false,
+  "MessageID": "et",
+  "PlainBody": "repellendus",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 932,
+  "ServerId": 374,
   "Attachments": [
     {
-      "Description": "Polarised tangible orchestration",
-      "Filename": "dignissimos",
-      "Size": 160,
-      "Type": "hic",
-      "Encoding": "voluptatum",
-      "Id": "nihil",
-      "Disposition": "ut",
+      "Description": "Visionary bi-directional matrices",
+      "Filename": "est",
+      "Size": 492,
+      "Type": "nihil",
+      "Encoding": "aperiam",
+      "Id": "non",
+      "Disposition": "ratione",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 267
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schamberger Group",
+      "Name": "Hermann, Koepp and Kessler",
       "Values": [
-        "autem",
-        "voluptatem"
+        "repellat",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 137
         }
       }
     },
     {
-      "Name": "Schamberger Group",
+      "Name": "Hermann, Koepp and Kessler",
       "Values": [
-        "autem",
-        "voluptatem"
+        "repellat",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 137
         }
       }
     }
   ],
-  "FolderName": "Kohler, Bernier and Keebler",
-  "EmailItemId": 462,
-  "AccountId": 231,
-  "ReceivedAt": "2022-06-27T13:28:22.6323326+02:00",
+  "FolderName": "Schaden LLC",
+  "EmailItemId": 475,
+  "AccountId": 802,
+  "ReceivedAt": "2023-09-13T04:02:01.6748777+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-04-15T13:28:22.6323326+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2000-11-26T04:02:01.6748777+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 194
     }
   }
 }

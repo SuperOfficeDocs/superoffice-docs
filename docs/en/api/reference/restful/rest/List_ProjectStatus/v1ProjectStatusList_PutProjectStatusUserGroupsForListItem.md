@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Greenfelder-Waelchi",
-    "ToolTip": "Sapiente repellendus libero.",
+    "Id": 54,
+    "Name": "Hettinger, Lubowitz and Grady",
+    "ToolTip": "Adipisci dignissimos harum in beatae molestias magnam est.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "nisi",
-    "ColorBlock": 638,
-    "IconHint": "sit",
+    "Rank": 960,
+    "Type": "incidunt",
+    "ColorBlock": 782,
+    "IconHint": "error",
     "Selected": true,
-    "LastChanged": "2010-09-07T13:28:33.0071964+02:00",
+    "LastChanged": "1998-02-28T04:02:07.337823+01:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Stamm, Lemke and Kutch",
-        "ToolTip": "Quia laboriosam.",
+        "Id": 92,
+        "Name": "Berge-Heidenreich",
+        "ToolTip": "Sit laboriosam occaecati possimus dolores.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "nihil",
-        "ColorBlock": 87,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2010-07-03T13:28:33.0071964+02:00",
+        "Rank": 269,
+        "Type": "nemo",
+        "ColorBlock": 292,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2014-03-22T04:02:07.337823+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "iusto",
+        "ExtraInfo": "architecto",
+        "StyleHint": "consectetur",
         "Hidden": true,
-        "FullName": "Mr. August Kub"
+        "FullName": "Mrs. Junius Taurean Halvorson I"
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Dixie Powlowski"
+    "ExtraInfo": "quaerat",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Adolphus Spencer MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Hartmann Inc and Sons",
-    "ToolTip": "Voluptatem sapiente distinctio.",
+    "Id": 735,
+    "Name": "Rath, Schneider and Donnelly",
+    "ToolTip": "Sit odit ut et.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "quo",
-    "ColorBlock": 466,
-    "IconHint": "quia",
+    "Rank": 384,
+    "Type": "repudiandae",
+    "ColorBlock": 720,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2000-08-23T13:28:33.0071964+02:00",
+    "LastChanged": "2006-09-18T04:02:07.337823+02:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Herman-Kilback",
-        "ToolTip": "Enim illum voluptatum nulla quis consectetur.",
-        "Deleted": false,
-        "Rank": 452,
-        "Type": "aut",
-        "ColorBlock": 858,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2002-08-21T13:28:33.0071964+02:00",
+        "Id": 874,
+        "Name": "Quitzon, Herman and Stark",
+        "ToolTip": "Nisi rerum qui incidunt officiis et.",
+        "Deleted": true,
+        "Rank": 124,
+        "Type": "et",
+        "ColorBlock": 233,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "1999-08-31T04:02:07.337823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "quis",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Gaetano Parker",
+        "FullName": "Noah Rogahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 948
+            "FieldType": "System.Int32",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "amet",
+    "ExtraInfo": "error",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Summer Weber",
+    "FullName": "Miss Angelina Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 525
       }
     }
   }

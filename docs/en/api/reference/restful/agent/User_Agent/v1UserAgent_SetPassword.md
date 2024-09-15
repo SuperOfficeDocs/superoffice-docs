@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/SetPassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 436,
-  "Password": "nemo"
+  "AssociateId": 933,
+  "Password": "voluptatem"
 }
 ```
 

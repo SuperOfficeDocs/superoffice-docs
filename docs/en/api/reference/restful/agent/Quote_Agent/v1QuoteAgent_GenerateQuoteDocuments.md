@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 559,
-  "EmailBodyTemplateId": 831,
+  "QuoteVersionId": 20,
+  "EmailBodyTemplateId": 475,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 338,
-  "IncludeAttachments": true,
-  "RawMailSubject": "quaerat"
+  "QuotedProductsTemplateId": 498,
+  "IncludeAttachments": false,
+  "RawMailSubject": "et"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 442,
-  "QuotedProductsId": 175,
+  "QuoteDocumentId": 615,
+  "QuotedProductsId": 151,
   "QuoteAttachmentIds": [
-    37,
-    120
+    870,
+    892
   ],
-  "MailBody": "dolor",
-  "MailSubject": "molestiae",
-  "ToEmail": "antonia@nadergislason.uk",
-  "ToFullName": "Armand Prohaska",
-  "ErrorMessage": "repudiandae",
+  "MailBody": "minima",
+  "MailSubject": "architecto",
+  "ToEmail": "colt.wehner@gaylord.name",
+  "ToFullName": "Mr. Kaya Emelia Morissette",
+  "ErrorMessage": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 5
     }
   }
 }

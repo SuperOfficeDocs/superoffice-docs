@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 709
+  "QuickReplyId": 772
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marks, Price and Blanda",
-  "UpdatedByFullName": "Miss Wallace Rohan",
-  "Updated": "2019-02-28T13:28:22.3823876+01:00",
-  "HtmlBody": "ut",
+  "Name": "Corkery-Langosh",
+  "UpdatedByFullName": "Harrison Alex Green Sr.",
+  "Updated": "2007-12-14T04:02:01.5342579+01:00",
+  "HtmlBody": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 878
     }
   }
 }

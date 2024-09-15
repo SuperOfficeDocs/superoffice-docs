@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=ex
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=veritatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,49 +90,49 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 453,
-    "Name": "Jerde-Cummerata",
-    "ToolTip": "Voluptas inventore vel ex doloremque est eius.",
-    "Deleted": false,
-    "Rank": 498,
+    "Name": "Schaden-Romaguera",
+    "ToolTip": "In dolor dolorum aut est fugit.",
+    "Deleted": true,
+    "Rank": 248,
     "Type": "sed",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Gusikowski, Block and Adams",
-        "ToolTip": "Ratione perferendis eum qui officia saepe nihil consectetur.",
-        "Deleted": true,
-        "Rank": 354,
-        "Type": "aperiam",
+        "Id": 209,
+        "Name": "Leffler-Dooley",
+        "ToolTip": "Repellat et quam quos qui.",
+        "Deleted": false,
+        "Rank": 964,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 682,
-        "ExtraInfo": "enim",
-        "StyleHint": "quis",
-        "FullName": "Prof. Alejandra Susan Grady DVM",
+        "IconHint": "autem",
+        "ColorBlock": 724,
+        "ExtraInfo": "sit",
+        "StyleHint": "dolores",
+        "FullName": "Jane Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 769
+            "FieldType": "System.Int32",
+            "FieldLength": 364
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 157,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "quidem",
-    "FullName": "Fleta Marlee Monahan IV",
+    "IconHint": "laboriosam",
+    "ColorBlock": 719,
+    "ExtraInfo": "ab",
+    "StyleHint": "sit",
+    "FullName": "Laury Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 6
       }
     }
   }

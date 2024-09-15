@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Feil-Kunze"
+  "ParameterName": "Osinski, McClure and Bergstrom"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 115,
-  "Name": "Waters, Veum and O'Kon",
-  "Value": "rerum",
-  "CreatedDate": "2015-07-24T13:28:21.8356378+02:00",
-  "UpdatedDate": "2012-02-17T13:28:21.8356378+01:00",
-  "CreatedBy": "sit",
-  "UpdatedBy": "non",
+  "AudienceLayoutId": 902,
+  "Name": "Haley, Stokes and Windler",
+  "Value": "excepturi",
+  "CreatedDate": "2002-08-04T04:02:01.221786+02:00",
+  "UpdatedDate": "2000-12-18T04:02:01.221786+01:00",
+  "CreatedBy": "fugiat",
+  "UpdatedBy": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldLength": 146
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 707
+  "ErpConnectorId": 49
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "in",
-    "Rank": 735,
-    "DisplayName": "Jast LLC",
-    "DisplayDescription": "Multi-layered neutral projection",
+    "FieldKey": "numquam",
+    "Rank": 669,
+    "DisplayName": "Hermiston Inc and Sons",
+    "DisplayDescription": "Persistent neutral application",
     "FieldType": "Checkbox",
-    "ListName": "Wintheiser, Medhurst and Kemmer",
-    "DefaultValue": "autem",
-    "MaxLength": 49,
+    "ListName": "Beier, Treutel and Reynolds",
+    "DefaultValue": "modi",
+    "MaxLength": 881,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 960
       }
     }
   }

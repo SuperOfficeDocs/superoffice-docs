@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SetConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 603,
-  "Purpose": "voluptatum",
-  "Source": "similique",
-  "LegalBase": "ab",
-  "Comment": "eum"
+  "PersonId": 646,
+  "Purpose": "voluptate",
+  "Source": "repellat",
+  "LegalBase": "animi",
+  "Comment": "in"
 }
 ```
 

@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 237,
-  "Section": "ab",
-  "Key": "provident",
-  "Name": "West Group",
+  "PrefDescId": 52,
+  "Section": "non",
+  "Key": "aperiam",
+  "Name": "Weber-Parker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary asynchronous time-frame",
-  "IsBuiltin": false,
-  "TableName": "Kuhn LLC",
-  "UserDefinedListId": 545,
-  "Rank": 383,
-  "SubGroup": "et",
-  "MinLevel": 623,
-  "MaxValue": 393,
-  "MinValue": 699,
-  "RequiredLicense": "ut"
+  "Description": "User-centric optimizing capacity",
+  "IsBuiltin": true,
+  "TableName": "Jerde-Parker",
+  "UserDefinedListId": 745,
+  "Rank": 958,
+  "SubGroup": "qui",
+  "MinLevel": 847,
+  "MaxValue": 253,
+  "MinValue": 222,
+  "RequiredLicense": "voluptas"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 731,
-  "Section": "tenetur",
-  "Key": "omnis",
-  "Name": "Stokes, Yundt and Sipes",
+  "PrefDescId": 928,
+  "Section": "quos",
+  "Key": "laborum",
+  "Name": "Wilkinson, Braun and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling encompassing adapter",
-  "IsBuiltin": false,
-  "TableName": "Thiel, Cartwright and Schulist",
-  "UserDefinedListId": 761,
-  "Rank": 130,
-  "SubGroup": "doloremque",
-  "MinLevel": 128,
-  "MaxValue": 545,
-  "MinValue": 542,
-  "RequiredLicense": "odit",
+  "Description": "Customizable 4th generation throughput",
+  "IsBuiltin": true,
+  "TableName": "Cole, Morar and Jerde",
+  "UserDefinedListId": 212,
+  "Rank": 895,
+  "SubGroup": "reprehenderit",
+  "MinLevel": 927,
+  "MaxValue": 960,
+  "MinValue": 956,
+  "RequiredLicense": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

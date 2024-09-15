@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Weissnat LLC",
-  "EventFilter": "culpa",
+  "NameFilter": "Reichel Group",
+  "EventFilter": "adipisci",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 904,
-    "Name": "Goyette-Weissnat",
+    "WebhookId": 420,
+    "Name": "Hackett-Keebler",
     "Events": [
-      "recusandae",
-      "reiciendis"
+      "amet",
+      "dicta"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "dolor",
+    "Secret": "quam",
     "State": "Active",
-    "Type": "iste",
+    "Type": "aut",
     "Headers": {
-      "Headers1": "provident",
-      "Headers2": "accusamus"
+      "Headers1": "fuga",
+      "Headers2": "accusantium"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-08-11T13:28:24.2429064+02:00",
+    "Registered": "2003-12-28T04:02:02.5978454+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-04-16T13:28:24.2574417+02:00",
+    "Updated": "2000-12-11T04:02:02.5978454+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "dashawn@wolfbartoletti.ca"
+    "ErrorsEmail": "herta.metz@donnellyauer.info"
   }
 ]
 ```

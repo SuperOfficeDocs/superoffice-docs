@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=dolor
+GET /api/v1/MDOList/{listname}/selectable?additional=aspernatur
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Kling, Trantow and Ondricka",
-    "ToolTip": "Fugiat harum sint rerum optio eligendi.",
+    "Id": 152,
+    "Name": "Runolfsson LLC",
+    "ToolTip": "Et eaque.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "repellat",
-    "ColorBlock": 215,
-    "IconHint": "at",
+    "Rank": 920,
+    "Type": "fuga",
+    "ColorBlock": 951,
+    "IconHint": "laboriosam",
     "Selected": true,
-    "LastChanged": "2010-11-09T13:28:32.8666025+01:00",
+    "LastChanged": "2004-07-22T04:02:07.2597065+02:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "Moen, O'Kon and Pfannerstill",
-        "ToolTip": "Facere incidunt inventore ab nesciunt temporibus nulla.",
+        "Id": 250,
+        "Name": "Abernathy, Jast and Renner",
+        "ToolTip": "Maxime odio qui cumque officia ex asperiores dolorem.",
         "Deleted": false,
-        "Rank": 134,
-        "Type": "harum",
-        "ColorBlock": 731,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2010-11-12T13:28:32.8822233+01:00",
+        "Rank": 807,
+        "Type": "qui",
+        "ColorBlock": 603,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2012-04-20T04:02:07.2597065+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "nemo",
+        "ExtraInfo": "et",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Rachel Wuckert",
+        "FullName": "Keenan Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldType": "System.String",
+            "FieldLength": 293
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "aliquam",
-    "Hidden": false,
-    "FullName": "Mitchell Moore",
+    "ExtraInfo": "rerum",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Kaylin Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldLength": 875
       }
     }
   }

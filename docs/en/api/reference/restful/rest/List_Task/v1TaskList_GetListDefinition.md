@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "D'Amore, Bergnaum and McLaughlin",
-  "Tooltip": "molestiae",
+  "Id": 795,
+  "Name": "Aufderhar Group",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 996,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 921,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   },
   "_Links": {

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Casper, Hayes and DuBuque",
-    "DisplayName": "Rath-Jaskolski",
-    "Description": "Stand-alone non-volatile help-desk",
-    "ShortLabel": "nesciunt",
+    "FieldName": "Grimes, Zieme and Hansen",
+    "DisplayName": "Hagenes Group",
+    "Description": "Focused discrete frame",
+    "ShortLabel": "id",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 280,
-    "TemplateVariableName": "White-Sanford"
+    "IsDisplayField": true,
+    "Rank": 220,
+    "TemplateVariableName": "Rippin-Zboncak"
   }
 ]
 ```

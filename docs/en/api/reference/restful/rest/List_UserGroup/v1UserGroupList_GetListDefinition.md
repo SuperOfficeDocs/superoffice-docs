@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Schulist, Thiel and Padberg",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "Rank": 519,
+  "Id": 621,
+  "Name": "Torp Inc and Sons",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "Rank": 327,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

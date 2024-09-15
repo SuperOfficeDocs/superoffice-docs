@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 285,
+  "DocumentId": 918,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consectetur",
-  "Header": "quia",
-  "Name": "O'Conner, Torp and Bailey",
-  "OurRef": "fuga",
-  "YourRef": "earum",
-  "CreatedDate": "2012-10-31T13:28:31.6479995+01:00",
-  "UpdatedDate": "2019-06-28T13:28:31.6479995+02:00",
-  "Description": "Team-oriented maximized task-force",
+  "Attention": "non",
+  "Header": "facere",
+  "Name": "Hermann-Okuneva",
+  "OurRef": "nesciunt",
+  "YourRef": "dolorum",
+  "CreatedDate": "2009-09-07T04:02:06.6035245+02:00",
+  "UpdatedDate": "2024-02-15T04:02:06.6035245+01:00",
+  "Description": "Vision-oriented context-sensitive knowledge base",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-02-16T13:28:31.6636234+01:00",
-  "ExternalRef": "mollitia",
+  "Date": "1998-12-29T04:02:06.6035245+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 607,
+  "ActiveLinks": 359,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schimmel LLC",
-      "Id": 111,
-      "Description": "Diverse heuristic neural-net",
-      "ExtraInfo": "aut",
-      "LinkId": 933
+      "EntityName": "Langworth-Schamberger",
+      "Id": 218,
+      "Description": "Profit-focused even-keeled collaboration",
+      "ExtraInfo": "neque",
+      "LinkId": 331
     },
     {
-      "EntityName": "Schimmel LLC",
-      "Id": 111,
-      "Description": "Diverse heuristic neural-net",
-      "ExtraInfo": "aut",
-      "LinkId": 933
+      "EntityName": "Langworth-Schamberger",
+      "Id": 218,
+      "Description": "Profit-focused even-keeled collaboration",
+      "ExtraInfo": "neque",
+      "LinkId": 331
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 528,
-  "Snum": 894,
+  "SuggestedDocumentId": 227,
+  "Snum": 460,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ambrose Keebler",
-    "SuperOffice:2": "972020159"
+    "SuperOffice:1": "Dr. Mariane Lyla Wisozk DVM",
+    "SuperOffice:2": "1763942922"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
     "CustomFields1": "ab",
-    "CustomFields2": "fugiat"
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2020-06-05T13:28:31.6636234+02:00",
-  "PublishTo": "2013-10-21T13:28:31.6636234+02:00",
-  "PublishFrom": "2012-11-09T13:28:31.6636234+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-10-01T04:02:06.6035245+02:00",
+  "PublishTo": "2013-10-02T04:02:06.6035245+02:00",
+  "PublishFrom": "2010-11-12T04:02:06.6035245+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 121,
+      "VisibleId": 394,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "repellendus"
     },
     {
-      "VisibleId": 121,
+      "VisibleId": 394,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "repellendus"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nobis",
-  "2": "eaque"
+  "1": "aliquam",
+  "2": "velit"
 }
 ```

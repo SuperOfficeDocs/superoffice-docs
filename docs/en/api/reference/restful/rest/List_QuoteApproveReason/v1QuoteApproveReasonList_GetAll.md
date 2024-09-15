@@ -25,7 +25,7 @@ Gets all the QuoteApproveReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Weber-Zulauf",
-    "Tooltip": "rerum",
+    "Id": 506,
+    "Name": "Marks-Nolan",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "UdListDefinitionId": 89,
-    "Rank": 326,
+    "UdListDefinitionId": 891,
+    "Rank": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 989
       }
     }
   }

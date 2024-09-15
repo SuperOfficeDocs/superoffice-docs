@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "alias",
-  "SearchString": "laudantium"
+  "Type": "eaque",
+  "SearchString": "minima"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "natus",
-    "consectetur"
+    "doloremque",
+    "dolor"
   ],
   "Users": [
     {
-      "Value": "sed",
-      "DisplayValue": "maiores",
+      "Value": "et",
+      "DisplayValue": "voluptatibus",
       "Columns": [
-        "aspernatur",
-        "velit"
+        "eum",
+        "id"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 355
         }
       }
     },
     {
-      "Value": "sed",
-      "DisplayValue": "maiores",
+      "Value": "et",
+      "DisplayValue": "voluptatibus",
       "Columns": [
-        "aspernatur",
-        "velit"
+        "eum",
+        "id"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 355
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 295
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Denesik Group",
-    "Description": "Realigned national conglomeration",
+    "Name": "Collier-Wintheiser",
+    "Description": "Stand-alone explicit implementation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 984,
-        "Tooltip": "pariatur",
-        "CanAssign": true,
-        "Free": 348,
-        "InUse": 750,
-        "IsHidden": true,
+        "Total": 6,
+        "Tooltip": "nisi",
+        "CanAssign": false,
+        "Free": 257,
+        "InUse": 887,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 922,
-        "Name": "Hyatt, Leffler and Cruickshank",
-        "Description": "Optional fault-tolerant matrices",
-        "PrerequisiteModuleName": "Veum, Hoppe and Rolfson",
-        "SortOrder": 279,
-        "ExtraFlags": 956,
+        "ModuleLicenseId": 786,
+        "Name": "Rohan, Kertzmann and Blick",
+        "Description": "Front-line multi-tasking policy",
+        "PrerequisiteModuleName": "Schmidt Inc and Sons",
+        "SortOrder": 342,
+        "ExtraFlags": 873,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 484,
-        "Tooltip": "dolores",
-        "CanAssign": true,
-        "Free": 300,
-        "InUse": 932,
+        "Total": 527,
+        "Tooltip": "iusto",
+        "CanAssign": false,
+        "Free": 656,
+        "InUse": 400,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 866,
-        "Name": "Champlin-Zieme",
-        "Description": "Function-based directional standardization",
-        "PrerequisiteModuleName": "Witting Inc and Sons",
-        "SortOrder": 96,
-        "ExtraFlags": 731,
+        "Assigned": true,
+        "ModuleLicenseId": 644,
+        "Name": "Hammes-Fahey",
+        "Description": "Fully-configurable intangible neural-net",
+        "PrerequisiteModuleName": "Pfannerstill, Jacobs and Abbott",
+        "SortOrder": 20,
+        "ExtraFlags": 746,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 644
+            "FieldLength": 673
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 385
       }
     }
   },
   {
-    "Name": "Denesik Group",
-    "Description": "Realigned national conglomeration",
+    "Name": "Collier-Wintheiser",
+    "Description": "Stand-alone explicit implementation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 984,
-        "Tooltip": "pariatur",
-        "CanAssign": true,
-        "Free": 348,
-        "InUse": 750,
-        "IsHidden": true,
+        "Total": 6,
+        "Tooltip": "nisi",
+        "CanAssign": false,
+        "Free": 257,
+        "InUse": 887,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 922,
-        "Name": "Hyatt, Leffler and Cruickshank",
-        "Description": "Optional fault-tolerant matrices",
-        "PrerequisiteModuleName": "Veum, Hoppe and Rolfson",
-        "SortOrder": 279,
-        "ExtraFlags": 956,
+        "ModuleLicenseId": 786,
+        "Name": "Rohan, Kertzmann and Blick",
+        "Description": "Front-line multi-tasking policy",
+        "PrerequisiteModuleName": "Schmidt Inc and Sons",
+        "SortOrder": 342,
+        "ExtraFlags": 873,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 484,
-        "Tooltip": "dolores",
-        "CanAssign": true,
-        "Free": 300,
-        "InUse": 932,
+        "Total": 527,
+        "Tooltip": "iusto",
+        "CanAssign": false,
+        "Free": 656,
+        "InUse": 400,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 866,
-        "Name": "Champlin-Zieme",
-        "Description": "Function-based directional standardization",
-        "PrerequisiteModuleName": "Witting Inc and Sons",
-        "SortOrder": 96,
-        "ExtraFlags": 731,
+        "Assigned": true,
+        "ModuleLicenseId": 644,
+        "Name": "Hammes-Fahey",
+        "Description": "Fully-configurable intangible neural-net",
+        "PrerequisiteModuleName": "Pfannerstill, Jacobs and Abbott",
+        "SortOrder": 20,
+        "ExtraFlags": 746,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 644
+            "FieldLength": 673
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 385
       }
     }
   }

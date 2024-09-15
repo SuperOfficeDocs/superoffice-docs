@@ -87,24 +87,24 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 49,
-  "Name": "Feeney-Kertzmann",
-  "Description": "Intuitive 24 hour framework",
-  "DeltaJson": "excepturi",
+  "ConfigurableScreenDeltaId": 316,
+  "Name": "O'Hara, McClure and Rodriguez",
+  "Description": "Multi-layered transitional data-warehouse",
+  "DeltaJson": "consequatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ex",
-  "UpdatedDate": "2012-03-15T13:28:22.1636887+01:00",
-  "CreatedDate": "1999-12-25T13:28:22.1636887+01:00",
+  "RecipeId": "laborum",
+  "UpdatedDate": "2002-10-24T04:02:01.4092709+02:00",
+  "CreatedDate": "1999-11-11T04:02:01.4092709+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    934,
-    469
+    790,
+    715
   ],
   "AppliesToKey": "et"
 }
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 871,
-  "Name": "Pollich-Kshlerin",
-  "Description": "Profound web-enabled framework",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 635,
+  "Name": "O'Connell, Stiedemann and Simonis",
+  "Description": "Synergistic bifurcated installation",
+  "DeltaJson": "iure",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "iure",
-  "UpdatedDate": "2003-05-03T13:28:22.1636887+02:00",
-  "CreatedDate": "2023-07-06T13:28:22.1636887+02:00",
+  "RecipeId": "hic",
+  "UpdatedDate": "2013-02-15T04:02:01.4092709+01:00",
+  "CreatedDate": "2017-04-29T04:02:01.4092709+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    548,
-    892
+    832,
+    302
   ],
-  "AppliesToKey": "amet",
+  "AppliesToKey": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 558
     }
   }
 }

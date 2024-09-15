@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=fugiat
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Emard Group",
-    "ToolTip": "Officia aut.",
+    "Id": 315,
+    "Name": "Rau Group",
+    "ToolTip": "Quo delectus iste consequatur eius amet nobis.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "omnis",
+    "Rank": 976,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Marvin-Osinski",
-        "ToolTip": "Porro sunt rerum repudiandae velit excepturi et maxime.",
-        "Deleted": false,
-        "Rank": 177,
-        "Type": "qui",
+        "Id": 666,
+        "Name": "Abernathy Inc and Sons",
+        "ToolTip": "Aut aliquam aut id fuga.",
+        "Deleted": true,
+        "Rank": 989,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 408,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "totam",
-        "FullName": "Prof. Ford Upton",
+        "IconHint": "ex",
+        "ColorBlock": 456,
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
+        "FullName": "Verna Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldType": "System.String",
+            "FieldLength": 840
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 978,
-    "ExtraInfo": "non",
-    "StyleHint": "omnis",
-    "FullName": "Miss Albert Berge",
+    "IconHint": "aut",
+    "ColorBlock": 781,
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "FullName": "Dr. Casimer Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldType": "System.String",
+        "FieldLength": 629
       }
     }
   }

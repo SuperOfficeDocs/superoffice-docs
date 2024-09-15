@@ -2,10 +2,10 @@
 uid: table-LicenseSatlLink
 title: LicenseSatlLink table
 description: Link between License and Satellite, for per-database licenses
-generated: true
+so.generated: true
 keywords: database table LicenseSatlLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # LicenseSatlLink Table (239)

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 326,
-  "WorkflowId": 57,
+  "WorkflowGoalId": 826,
+  "WorkflowId": 464,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Turcotte LLC",
-      "Description": "Upgradable non-volatile frame",
-      "Rank": 395,
+      "Name": "Lueilwitz-Kihn",
+      "Description": "Programmable radical focus group",
+      "Rank": 101,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Turcotte LLC",
-      "Description": "Upgradable non-volatile frame",
-      "Rank": 395,
+      "Name": "Lueilwitz-Kihn",
+      "Description": "Programmable radical focus group",
+      "Rank": 101,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 443,
-  "WorkflowId": 339,
+  "WorkflowGoalId": 614,
+  "WorkflowId": 366,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Nienow Group",
-      "Description": "Object-based background pricing structure",
-      "Rank": 974,
+      "Name": "Farrell LLC",
+      "Description": "Diverse 4th generation attitude",
+      "Rank": 14,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nienow Group",
-      "Description": "Object-based background pricing structure",
-      "Rank": 974,
+      "Name": "Farrell LLC",
+      "Description": "Diverse 4th generation attitude",
+      "Rank": 14,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 251
     }
   }
 }

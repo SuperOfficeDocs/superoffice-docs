@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Heaney Group",
-    "ToolTip": "Dignissimos quas omnis.",
+    "Id": 932,
+    "Name": "Balistreri-Collier",
+    "ToolTip": "Ipsam vero.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "saepe",
-    "ColorBlock": 357,
-    "IconHint": "repellendus",
+    "Rank": 965,
+    "Type": "neque",
+    "ColorBlock": 365,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2013-04-10T13:28:33.0853045+02:00",
+    "LastChanged": "2001-11-30T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Ryan-Powlowski",
-        "ToolTip": "Unde unde.",
+        "Id": 259,
+        "Name": "Hickle, Kihn and Kiehn",
+        "ToolTip": "Possimus corporis quo omnis dolorem.",
         "Deleted": false,
-        "Rank": 2,
-        "Type": "nobis",
-        "ColorBlock": 796,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2022-05-07T13:28:33.0853045+02:00",
+        "Rank": 594,
+        "Type": "optio",
+        "ColorBlock": 439,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "1997-08-07T04:02:07.3847052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "beatae",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Dr. Magdalen Michael Roob",
+        "FullName": "Miss Kathlyn Carli Robel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "fugit",
+    "ExtraInfo": "eius",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Dr. Gus Aufderhar V",
+    "FullName": "Marilou Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

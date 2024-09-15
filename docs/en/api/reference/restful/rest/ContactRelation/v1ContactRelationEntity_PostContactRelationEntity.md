@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 212,
-  "SourcePersonId": 973,
-  "DestinationContactId": 664,
-  "DestinationPersonId": 595,
-  "RelationId": 46,
-  "Comment": "repudiandae",
-  "RelationDefinitionId": 681,
-  "Reversed": 281,
-  "UpdatedDate": "2018-11-07T13:28:31.53865+01:00",
-  "CreatedDate": "2004-06-05T13:28:31.53865+02:00",
+  "SourceContactId": 915,
+  "SourcePersonId": 757,
+  "DestinationContactId": 452,
+  "DestinationPersonId": 878,
+  "RelationId": 38,
+  "Comment": "nobis",
+  "RelationDefinitionId": 342,
+  "Reversed": 618,
+  "UpdatedDate": "2007-11-29T04:02:06.4472912+01:00",
+  "CreatedDate": "2002-07-10T04:02:06.4472912+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bins LLC",
-  "SourcePersonName": "Mayert-Kub",
-  "DestinationContactName": "Connelly, Koss and Watsica",
-  "DestinationPersonName": "Gottlieb, Senger and Kling",
-  "ActiveText": "tenetur",
-  "PassiveText": "quae"
+  "SourceContactName": "Metz-Schaden",
+  "SourcePersonName": "Swaniawski-Prohaska",
+  "DestinationContactName": "Watsica, Kemmer and McCullough",
+  "DestinationPersonName": "Towne, Mitchell and Wyman",
+  "ActiveText": "id",
+  "PassiveText": "qui"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 991,
-  "SourcePersonId": 199,
-  "DestinationContactId": 191,
-  "DestinationPersonId": 569,
-  "RelationId": 150,
-  "Comment": "iusto",
-  "RelationDefinitionId": 364,
-  "Reversed": 332,
-  "UpdatedDate": "2012-10-25T13:28:31.53865+02:00",
-  "CreatedDate": "1998-05-31T13:28:31.53865+02:00",
+  "SourceContactId": 856,
+  "SourcePersonId": 383,
+  "DestinationContactId": 236,
+  "DestinationPersonId": 584,
+  "RelationId": 821,
+  "Comment": "quod",
+  "RelationDefinitionId": 898,
+  "Reversed": 644,
+  "UpdatedDate": "2020-08-28T04:02:06.4472912+02:00",
+  "CreatedDate": "2002-01-17T04:02:06.4472912+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "VonRueden LLC",
-  "SourcePersonName": "Von, Hilpert and Hahn",
-  "DestinationContactName": "Bechtelar, Reynolds and Gerlach",
-  "DestinationPersonName": "Breitenberg-Weber",
-  "ActiveText": "voluptate",
-  "PassiveText": "nisi",
+  "SourceContactName": "Kautzer-Kovacek",
+  "SourcePersonName": "Berge-Olson",
+  "DestinationContactName": "Koepp Inc and Sons",
+  "DestinationPersonName": "Reichert-Hermiston",
+  "ActiveText": "ullam",
+  "PassiveText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   },
   "_Links": {

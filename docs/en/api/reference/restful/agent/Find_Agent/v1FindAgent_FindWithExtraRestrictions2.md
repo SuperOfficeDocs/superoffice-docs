@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Cremin, Thompson and Grant",
-  "StorageKey": "dolores",
-  "ExtraRestrictions": "vero",
-  "OrderBy": "libero",
-  "DesiredColumns": "voluptate",
-  "PageSize": 968,
-  "PageNumber": 480
+  "StorageType": "magni",
+  "ProviderName": "Kessler, Gerhold and Kilback",
+  "StorageKey": "minima",
+  "ExtraRestrictions": "natus",
+  "OrderBy": "nostrum",
+  "DesiredColumns": "ad",
+  "PageSize": 223,
+  "PageNumber": 528
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Renner Group",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "enim",
+      "DisplayName": "Yost, Boyle and Watsica",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "recusandae",
       "CanOrderBy": false,
-      "Name": "Runolfsdottir, Nolan and Wehner",
+      "Name": "Larson LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "nam",
-      "RestrictionListName": "Davis-Marvin",
-      "IsVisible": false,
-      "ExtraInfo": "ratione",
-      "Width": "illum",
-      "IconHint": "quis",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "sint",
+      "RestrictionListName": "Herman, Schinner and Braun",
+      "IsVisible": true,
+      "ExtraInfo": "voluptas",
+      "Width": "magni",
+      "IconHint": "officia",
+      "HeadingIconHint": "corrupti"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hermann Group",
-      "PrimaryKey": 129,
+      "EntityName": "Lubowitz, Kshlerin and Dickens",
+      "PrimaryKey": 966,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rem",
-          "TooltipHint": "deserunt",
-          "LinkHint": "voluptatibus"
+          "DisplayValue": "et",
+          "TooltipHint": "corporis",
+          "LinkHint": "nihil"
         }
       },
-      "LinkHint": "pariatur",
-      "StyleHint": "totam",
+      "LinkHint": "dignissimos",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 731
         }
       }
     }
   ],
-  "RowCount": 607,
+  "RowCount": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 472
     }
   }
 }

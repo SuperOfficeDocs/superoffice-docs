@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 422,
-    "Name": "Mraz Inc and Sons",
+    "TicketPriorityId": 622,
+    "Name": "Senger, Price and Hintz",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 400,
+    "SortOrder": 965,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 686,
-    "MonStart": "2019-08-31T13:28:33.2263448+02:00",
-    "MonStop": "2000-11-11T13:28:33.2263448+01:00",
-    "TueStart": "2016-06-15T13:28:33.2263448+02:00",
-    "TueStop": "2007-01-21T13:28:33.2263448+01:00",
-    "WedStart": "2010-10-28T13:28:33.2263448+02:00",
-    "WedStop": "2023-12-22T13:28:33.2263448+01:00",
-    "ThuStart": "2012-11-02T13:28:33.2263448+01:00",
-    "ThuStop": "2008-08-13T13:28:33.2263448+02:00",
-    "FriStart": "2010-10-27T13:28:33.2263448+02:00",
-    "FriStop": "2005-06-13T13:28:33.2263448+02:00",
-    "SatStart": "1998-07-15T13:28:33.2263448+02:00",
-    "SatStop": "2010-06-21T13:28:33.2263448+02:00",
-    "SunStart": "2017-03-06T13:28:33.2263448+01:00",
-    "SunStop": "1998-11-14T13:28:33.2263448+01:00",
+    "Deadline": 959,
+    "MonStart": "2001-01-15T04:02:07.447468+01:00",
+    "MonStop": "2016-01-07T04:02:07.447468+01:00",
+    "TueStart": "2022-01-05T04:02:07.447468+01:00",
+    "TueStop": "2013-04-06T04:02:07.447468+02:00",
+    "WedStart": "2019-01-01T04:02:07.447468+01:00",
+    "WedStop": "2002-05-06T04:02:07.447468+02:00",
+    "ThuStart": "2002-01-16T04:02:07.447468+01:00",
+    "ThuStop": "2017-04-18T04:02:07.447468+02:00",
+    "FriStart": "2012-10-07T04:02:07.447468+02:00",
+    "FriStop": "2023-05-04T04:02:07.447468+02:00",
+    "SatStart": "2023-03-31T04:02:07.447468+02:00",
+    "SatStop": "2010-02-21T04:02:07.447468+01:00",
+    "SunStart": "2024-03-10T04:02:07.447468+01:00",
+    "SunStop": "2000-01-31T04:02:07.447468+01:00",
     "NonDates": [
-      "ut",
-      "dolorem"
+      "quas",
+      "sint"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 860,
-        "AlertLevel": 991,
-        "AlertTimeout": 690,
-        "Action": 323,
-        "DelegateTo": 527,
-        "ScriptId": 685,
-        "EmailTo": "ceasar@denesikzemlak.biz",
-        "SmsTo": "alias",
-        "ReplyTemplateIdCustomer": 489,
-        "ReplyTemplateIdUser": 367,
-        "ReplyTemplateIdCatmast": 705,
-        "ReplyTemplateIdEmail": 798,
-        "RtiCustomerSms": 420,
-        "ReplyTemplateIdUserSms": 938,
-        "ReplyTemplateIdCatmastSms": 498,
-        "ReplyTemplateIdSms": 167,
+        "TicketAlertId": 789,
+        "AlertLevel": 703,
+        "AlertTimeout": 783,
+        "Action": 529,
+        "DelegateTo": 983,
+        "ScriptId": 770,
+        "EmailTo": "buck_roberts@greenholt.co.uk",
+        "SmsTo": "molestias",
+        "ReplyTemplateIdCustomer": 509,
+        "ReplyTemplateIdUser": 778,
+        "ReplyTemplateIdCatmast": 21,
+        "ReplyTemplateIdEmail": 687,
+        "RtiCustomerSms": 112,
+        "ReplyTemplateIdUserSms": 207,
+        "ReplyTemplateIdCatmastSms": 628,
+        "ReplyTemplateIdSms": 934,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldType": "System.String",
+            "FieldLength": 309
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 637
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 732,
-  "DocumentId": 390,
+  "SelectionId": 10,
+  "DocumentId": 606,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "quisquam",
-  "AlwaysUseCustomAttention": true,
-  "SaveDocument": true,
-  "CustomMailBody": "et",
+  "CustomAttention": "tempore",
+  "AlwaysUseCustomAttention": false,
+  "SaveDocument": false,
+  "CustomMailBody": "ut",
   "TaskEntity": null,
-  "AddCompanyInterest": 489,
-  "AddPersonInterest": 438,
-  "RemoveCompanyInterest": 545,
-  "RemovePersonInterest": 703,
-  "IncludeNoMailingsRecipient": false,
+  "AddCompanyInterest": 995,
+  "AddPersonInterest": 724,
+  "RemoveCompanyInterest": 7,
+  "RemovePersonInterest": 352,
+  "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 45,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "doloribus",
-  "ExtraInfo": "quasi",
+  "ProjectId": 88,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "dicta",
+  "ExtraInfo": "at",
   "Synchronous": true,
   "IsTemporarySelection": true,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 820
     }
   }
 }

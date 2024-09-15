@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 469
+  "ContactId": 191
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Fisher, Osinski and Lockman",
-    "SaleDate": "2008-04-25T13:28:23.6948543+02:00",
-    "SaleId": 30,
-    "Probability": 97,
-    "Title": "magnam",
-    "Amount": 6412.164,
-    "Currency": "beatae",
-    "ProjectName": "Blick Inc and Sons",
-    "AssociateFullName": "Carlos Reichert",
-    "Description": "Front-line 5th generation matrices",
+    "ContactName": "Ankunding-Moore",
+    "SaleDate": "2014-07-17T04:02:02.28488+02:00",
+    "SaleId": 254,
+    "Probability": 494,
+    "Title": "et",
+    "Amount": 25253.772,
+    "Currency": "omnis",
+    "ProjectName": "Yundt, O'Kon and Conn",
+    "AssociateFullName": "Ms. Erin Christina Cole Jr.",
+    "Description": "Customizable web-enabled workforce",
     "Status": "Lost",
-    "WeightedAmount": 23153.992,
-    "ProjectId": 151,
-    "EarningPercent": 29760.464,
-    "Earning": 14253.431999999999,
-    "ContactId": 789,
-    "AssociateId": 424,
-    "PersonId": 621,
-    "SaleTypeId": 67,
-    "SaleTypeName": "Legros, Bradtke and Hyatt",
-    "PersonFullName": "Madalyn Jake Sanford DDS",
+    "WeightedAmount": 8217.348,
+    "ProjectId": 546,
+    "EarningPercent": 6336.9479999999994,
+    "Earning": 30475.016,
+    "ContactId": 495,
+    "AssociateId": 170,
+    "PersonId": 99,
+    "SaleTypeId": 243,
+    "SaleTypeName": "Yundt, Moore and Paucek",
+    "PersonFullName": "Shirley Crist",
     "Completed": "Completed",
-    "ActiveErpLinks": 606,
-    "NextDueDate": "2003-04-25T13:28:23.6948543+02:00",
-    "Number": "938839",
+    "ActiveErpLinks": 582,
+    "NextDueDate": "2007-05-03T04:02:02.28488+02:00",
+    "Number": "453977",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 881
       }
     }
   }

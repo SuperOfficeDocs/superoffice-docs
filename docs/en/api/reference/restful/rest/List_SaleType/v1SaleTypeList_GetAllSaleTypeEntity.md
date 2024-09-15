@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 562,
-    "Name": "Bosco Inc and Sons",
-    "Tooltip": "sint",
-    "Rank": 887,
+    "SaleTypeId": 259,
+    "Name": "Haag, Treutel and Farrell",
+    "Tooltip": "provident",
+    "Rank": 876,
     "DurationUnit": "Century",
-    "SaleDuration": 573,
-    "SaleTypeCatId": 590,
+    "SaleDuration": 121,
+    "SaleTypeCatId": 548,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 695,
-    "QuoteLinesTemplate": 694,
-    "ConfirmationLinesTemplate": 338,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 990,
+    "QuoteLinesTemplate": 585,
+    "ConfirmationLinesTemplate": 166,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 607,
-    "MinEarningPercent": 783,
-    "GroupQuoteLinesBy": 340,
-    "SortGroupLinesBy": 12,
+    "MaxDiscountPercent": 672,
+    "MinEarningPercent": 725,
+    "GroupQuoteLinesBy": 550,
+    "SortGroupLinesBy": 55,
     "Stages": [
       {
-        "Id": 1002,
-        "Name": "Denesik-Heaney",
-        "ToolTip": "Porro vero aut.",
-        "Deleted": false,
-        "Rank": 155,
-        "Type": "dolorem",
-        "ColorBlock": 871,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2018-06-25T13:28:33.1436654+02:00",
+        "Id": 917,
+        "Name": "Wilderman-Leuschke",
+        "ToolTip": "Provident enim modi in provident non omnis.",
+        "Deleted": true,
+        "Rank": 15,
+        "Type": "quis",
+        "ColorBlock": 562,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2016-04-09T04:02:07.4003498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "itaque",
+        "ExtraInfo": "magnam",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Cesar Lindgren",
+        "FullName": "Charlene Emily Gaylord III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 428
+            "FieldType": "System.Int32",
+            "FieldLength": 748
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 449
       }
     }
   }

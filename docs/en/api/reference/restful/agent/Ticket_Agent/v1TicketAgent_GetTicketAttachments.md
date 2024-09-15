@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 623
+  "TicketEntityId": 676
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 710,
-    "Name": "Hettinger-Gaylord",
-    "ContentType": "perferendis",
-    "AttSize": 111,
-    "InlineImage": false,
-    "ContentId": "est",
-    "AuthKey": "ut",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 295,
+    "Name": "Nitzsche-Halvorson",
+    "ContentType": "aut",
+    "AttSize": 775,
+    "InlineImage": true,
+    "ContentId": "atque",
+    "AuthKey": "nobis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 222
       }
     }
   }

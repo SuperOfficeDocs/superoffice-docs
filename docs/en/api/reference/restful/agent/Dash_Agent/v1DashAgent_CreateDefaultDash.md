@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 217,
-  "UniqueId": "fuga",
-  "Name": "Goyette Group",
-  "Description": "Managed context-sensitive capability",
-  "AssociateId": 781,
-  "Columns": 912,
+  "DashboardId": 173,
+  "UniqueId": "asperiores",
+  "Name": "Zemlak Group",
+  "Description": "Persevering reciprocal capability",
+  "AssociateId": 747,
+  "Columns": 877,
   "Theme": null,
-  "VisibleForAll": 799,
+  "VisibleForAll": 620,
   "VisibleForAssociates": [
-    967,
-    634
+    766,
+    265
   ],
   "VisibleForGroups": [
-    836,
-    272
+    539,
+    875
   ],
-  "PinForAll": 182,
+  "PinForAll": 480,
   "PinForAssociates": [
-    331,
-    121
+    314,
+    370
   ],
   "PinForGroups": [
-    692,
-    263
+    393,
+    374
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

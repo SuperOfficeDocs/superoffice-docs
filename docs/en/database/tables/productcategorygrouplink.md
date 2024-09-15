@@ -2,10 +2,10 @@
 uid: table-ProductCategoryGroupLink
 title: ProductCategoryGroupLink table
 description: User group link table for ProductCategory, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table ProductCategoryGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProductCategoryGroupLink Table (409)

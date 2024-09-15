@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=vel
-GET /api/v1/Archive/{archiveProviderName}?$top=215
-GET /api/v1/Archive/{archiveProviderName}?$skip=809
+GET /api/v1/Archive/{archiveProviderName}?$entities=ut
+GET /api/v1/Archive/{archiveProviderName}?$top=66
+GET /api/v1/Archive/{archiveProviderName}?$skip=857
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=dolorem
+GET /api/v1/Archive/{archiveProviderName}?$context=doloribus
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=et
+GET /api/v1/Archive/{archiveProviderName}?$metadata=ut
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -201,21 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 3117,
+      "PrimaryKey": 5062,
       "EntityName": "sale",
-      "saleId": 3117,
-      "contactId": 3229,
-      "name": "Osinski Group"
+      "saleId": 5062,
+      "contactId": 8568,
+      "name": "Dare-D'Amore"
     },
     {
-      "PrimaryKey": 6372,
+      "PrimaryKey": 2595,
       "EntityName": "sale",
-      "saleId": 6372,
-      "contactId": 6562,
-      "name": "Schmidt, Weissnat and Trantow"
+      "saleId": 2595,
+      "contactId": 5718,
+      "name": "Kihn-Paucek"
     }
   ]
 }

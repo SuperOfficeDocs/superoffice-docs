@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 897,
-    "Name": "Maggio, Keebler and Lowe",
-    "Value": "incidunt",
-    "CreatedDate": "2021-07-07T13:28:21.8356378+02:00",
-    "UpdatedDate": "2022-04-30T13:28:21.8356378+02:00",
-    "CreatedBy": "autem",
-    "UpdatedBy": "ab",
+    "AudienceLayoutId": 56,
+    "Name": "Heaney LLC",
+    "Value": "et",
+    "CreatedDate": "1997-11-02T04:02:01.221786+01:00",
+    "UpdatedDate": "1997-09-29T04:02:01.221786+02:00",
+    "CreatedBy": "itaque",
+    "UpdatedBy": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

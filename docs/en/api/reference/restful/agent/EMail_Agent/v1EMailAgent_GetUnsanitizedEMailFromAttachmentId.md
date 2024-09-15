@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 201,
+  "EmailId": 900,
   "AttachmentIds": [
-    "nihil",
-    "fuga"
+    "accusamus",
+    "autem"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 667,
-      "ContactName": "McLaughlin, Kunze and Will",
-      "PersonId": 747,
-      "PersonName": "Ziemann-Grady",
-      "AssociateId": 877,
-      "Address": "temporibus",
-      "EmailId": 499,
+      "ContactId": 339,
+      "ContactName": "Halvorson-Spinka",
+      "PersonId": 218,
+      "PersonName": "Gibson-Kovacek",
+      "AssociateId": 654,
+      "Address": "vel",
+      "EmailId": 79,
       "DuplicatePersonIds": [
-        493,
-        559
+        300,
+        517
       ],
-      "Name": "Schowalter LLC",
+      "Name": "Collins Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 683
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 434,
-      "ContactName": "Funk, Muller and White",
-      "PersonId": 316,
-      "PersonName": "Rippin, Walker and Feest",
-      "AssociateId": 258,
-      "Address": "iste",
-      "EmailId": 384,
+      "ContactId": 203,
+      "ContactName": "Pfeffer, Corkery and Stroman",
+      "PersonId": 887,
+      "PersonName": "Rath, Luettgen and Medhurst",
+      "AssociateId": 639,
+      "Address": "blanditiis",
+      "EmailId": 693,
       "DuplicatePersonIds": [
-        914,
-        881
+        378,
+        510
       ],
-      "Name": "Williamson-Lesch",
+      "Name": "Witting, Swift and Mosciski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 910
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 132,
-      "ContactName": "Nicolas-Rogahn",
-      "PersonId": 379,
-      "PersonName": "Thiel, Kiehn and Treutel",
-      "AssociateId": 537,
-      "Address": "et",
-      "EmailId": 600,
+      "ContactId": 381,
+      "ContactName": "Mraz LLC",
+      "PersonId": 484,
+      "PersonName": "Deckow-Harris",
+      "AssociateId": 429,
+      "Address": "non",
+      "EmailId": 538,
       "DuplicatePersonIds": [
-        203,
-        713
+        87,
+        146
       ],
-      "Name": "Breitenberg, Donnelly and Schinner",
+      "Name": "Lindgren, Little and Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 399
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "fuga",
+  "Subject": "modi",
+  "HTMLBody": "quo",
   "From": null,
-  "Sent": "2014-12-26T13:28:22.7416819+01:00",
-  "Size": 739,
+  "Sent": "2006-09-06T04:02:01.7217471+02:00",
+  "Size": 626,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facere",
-  "PlainBody": "cupiditate",
-  "IsSent": false,
+  "MessageID": "asperiores",
+  "PlainBody": "ex",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 455,
+  "ServerId": 756,
   "Attachments": [
     {
-      "Description": "Inverse transitional emulation",
-      "Filename": "repudiandae",
-      "Size": 881,
-      "Type": "odit",
-      "Encoding": "unde",
-      "Id": "similique",
-      "Disposition": "et",
+      "Description": "Multi-layered value-added neural-net",
+      "Filename": "eos",
+      "Size": 803,
+      "Type": "adipisci",
+      "Encoding": "aut",
+      "Id": "omnis",
+      "Disposition": "ut",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 195
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hettinger, Stiedemann and Flatley",
+      "Name": "Rowe, Cassin and Ruecker",
       "Values": [
-        "qui",
-        "aperiam"
+        "magnam",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 780
         }
       }
     },
     {
-      "Name": "Hettinger, Stiedemann and Flatley",
+      "Name": "Rowe, Cassin and Ruecker",
       "Values": [
-        "qui",
-        "aperiam"
+        "magnam",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 780
         }
       }
     }
   ],
-  "FolderName": "O'Connell-Fadel",
-  "EmailItemId": 89,
-  "AccountId": 632,
-  "ReceivedAt": "2020-06-26T13:28:22.7416819+02:00",
+  "FolderName": "Dach, Schiller and Terry",
+  "EmailItemId": 432,
+  "AccountId": 501,
+  "ReceivedAt": "2009-07-03T04:02:01.7217471+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-03-18T13:28:22.7416819+01:00",
+  "RepliedAt": "2021-12-07T04:02:01.7217471+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

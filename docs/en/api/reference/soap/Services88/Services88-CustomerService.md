@@ -1057,6 +1057,13 @@ title: Services88.CustomerServiceAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesBeforeSaveCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1018</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -1166,6 +1173,13 @@ title: Services88.CustomerServiceAgent WSDL
             <xs:annotation>
               <xs:appinfo>
                 <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1116</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesAfterSaveCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1117</EnumerationValue>
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>

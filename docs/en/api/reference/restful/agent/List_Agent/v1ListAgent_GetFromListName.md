@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "UdListDefinitionName": "Hand Group"
+  "Id": 529,
+  "UdListDefinitionName": "Dickinson-Welch"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Hilll LLC",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 486,
-  "Rank": 498,
+  "Id": 715,
+  "Name": "Beer-Dickens",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 623,
+  "Rank": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

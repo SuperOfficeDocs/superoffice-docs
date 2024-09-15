@@ -2,10 +2,10 @@
 uid: table-ImportRelation
 title: ImportRelation table
 description: Relations between import objects
-generated: true
+so.generated: true
 keywords: database table ImportRelation
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ImportRelation Table (188)

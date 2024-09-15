@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Altenwerth-Tillman",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 959,
-  "IsCustomList": true,
+  "Id": 257,
+  "Name": "Carroll-Swift",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 955,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "UseGroupsAndHeadings": true,
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 61
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

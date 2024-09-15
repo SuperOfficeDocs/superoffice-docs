@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Moore-Goodwin",
-    "ToolTip": "Ducimus facilis odit.",
-    "Deleted": false,
-    "Rank": 241,
-    "Type": "ipsa",
-    "ColorBlock": 581,
-    "IconHint": "molestias",
+    "Id": 947,
+    "Name": "Morar, Doyle and Morar",
+    "ToolTip": "Asperiores architecto ducimus.",
+    "Deleted": true,
+    "Rank": 151,
+    "Type": "numquam",
+    "ColorBlock": 576,
+    "IconHint": "libero",
     "Selected": true,
-    "LastChanged": "2016-12-08T13:28:32.7728753+01:00",
+    "LastChanged": "2009-09-02T04:02:07.119095+02:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Blanda-Wunsch",
-        "ToolTip": "Dolores ut.",
+        "Id": 703,
+        "Name": "Bernier, Hickle and Bernhard",
+        "ToolTip": "Amet tenetur corrupti ratione quae odio.",
         "Deleted": true,
-        "Rank": 981,
-        "Type": "eos",
-        "ColorBlock": 183,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2014-08-24T13:28:32.7728753+02:00",
+        "Rank": 549,
+        "Type": "facilis",
+        "ColorBlock": 408,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2010-06-28T04:02:07.119095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "odio",
+        "ExtraInfo": "quia",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Elva Jast",
+        "FullName": "Curt Schinner Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 768
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Kailyn Stephon Blanda PhD",
+    "FullName": "Mr. Martina Kaylin Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldLength": 645
       }
     }
   }

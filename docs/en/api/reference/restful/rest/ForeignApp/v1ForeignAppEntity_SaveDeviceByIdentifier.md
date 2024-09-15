@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 897,
-  "Name": "Treutel, Zieme and Quitzon",
-  "CreatedDate": "2000-07-15T13:28:31.6948645+02:00",
-  "UpdatedDate": "2023-03-18T13:28:31.6948645+01:00",
-  "AssociateFullName": "Afton Anais Boehm IV",
-  "CreatedBy": "atque",
-  "UpdatedBy": "voluptatibus",
-  "DeviceIdentifier": "quis",
-  "ForeignAppId": 765
+  "ForeignDeviceId": 178,
+  "Name": "Breitenberg-Rippin",
+  "CreatedDate": "2012-12-23T04:02:06.6191478+01:00",
+  "UpdatedDate": "2023-02-15T04:02:06.6191478+01:00",
+  "AssociateFullName": "Dr. Rollin Rodriguez",
+  "CreatedBy": "nulla",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "facilis",
+  "ForeignAppId": 742
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 706,
-  "Name": "Gerhold-Cormier",
-  "CreatedDate": "2012-12-10T13:28:31.6948645+01:00",
-  "UpdatedDate": "2016-12-11T13:28:31.6948645+01:00",
-  "AssociateFullName": "Friedrich Paucek",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "eaque",
-  "DeviceIdentifier": "ipsam",
-  "ForeignAppId": 859,
+  "ForeignDeviceId": 929,
+  "Name": "Gislason-Considine",
+  "CreatedDate": "2001-10-06T04:02:06.6191478+02:00",
+  "UpdatedDate": "2020-05-17T04:02:06.6191478+02:00",
+  "AssociateFullName": "Miss Jerad Hugh Keeling",
+  "CreatedBy": "quia",
+  "UpdatedBy": "nihil",
+  "DeviceIdentifier": "eum",
+  "ForeignAppId": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 375
     }
   }
 }

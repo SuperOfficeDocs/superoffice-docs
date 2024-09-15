@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    645,
-    225
+    732,
+    753
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 228,
-    "StartDate": "1998-05-24T13:28:21.4448873+02:00",
-    "EndDate": "2015-01-05T13:28:21.4448873+01:00",
+    "AppointmentId": 807,
+    "StartDate": "2005-05-23T04:02:01.0025647+02:00",
+    "EndDate": "2022-05-20T04:02:01.0025647+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vel",
-    "AssociateFullName": "Vivianne Lehner",
-    "ContactName": "Yundt LLC",
-    "Description": "Diverse multimedia help-desk",
-    "PersonFullName": "Camden Harber",
-    "PersonId": 277,
-    "ContactId": 123,
-    "ProjectId": 919,
-    "ProjectName": "Bosco-Kuphal",
-    "IsPublished": true,
-    "AssociateId": 476,
-    "ColorIndex": 374,
-    "IsFree": true,
+    "Task": "aliquam",
+    "AssociateFullName": "Loy Fisher Sr.",
+    "ContactName": "Nikolaus-Kihn",
+    "Description": "Horizontal web-enabled conglomeration",
+    "PersonFullName": "Sally Gusikowski",
+    "PersonId": 621,
+    "ContactId": 798,
+    "ProjectId": 516,
+    "ProjectName": "Labadie Group",
+    "IsPublished": false,
+    "AssociateId": 727,
+    "ColorIndex": 288,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 153,
-    "PriorityName": "Keeling, Legros and Tromp",
+    "PriorityId": 667,
+    "PriorityName": "Hartmann LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1997-11-18T13:28:21.4448873+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2004-06-25T04:02:01.0025647+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-12-06T13:28:21.4448873+01:00",
-    "RecurringEndDate": "2016-08-30T13:28:21.4448873+02:00",
-    "MotherId": 271,
-    "AssignedBy": 56,
-    "AssignedByFullName": "Laurianne Borer",
+    "RecurringStartDate": "2003-04-27T04:02:01.0025647+02:00",
+    "RecurringEndDate": "2014-08-15T04:02:01.0025647+02:00",
+    "MotherId": 464,
+    "AssignedBy": 493,
+    "AssignedByFullName": "Prof. Florencio Adams",
     "RejectReason": "",
-    "Location": "veritatis",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 551,
-    "SaleName": "Windler Inc and Sons",
-    "AssociateName": "Mraz, Leuschke and Wilderman",
-    "CreatedDate": "2002-04-08T13:28:21.4448873+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Arnulfo Rodriguez",
-    "CreatedByAssociateId": 698,
+    "Location": "sed",
+    "AlarmLeadTime": "nisi",
+    "SaleId": 888,
+    "SaleName": "Terry, Kulas and D'Amore",
+    "AssociateName": "Kub-Tillman",
+    "CreatedDate": "1998-08-30T04:02:01.0025647+02:00",
+    "CreatedBy": "natus",
+    "CreatedByFullName": "Jeramy Schowalter",
+    "CreatedByAssociateId": 653,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 831,
-    "Title": "velit",
-    "Agenda": "facere",
-    "InternalNotes": "amet",
+    "PreferredTZLocation": 583,
+    "Title": "corrupti",
+    "Agenda": "fuga",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 913
       }
     }
   }

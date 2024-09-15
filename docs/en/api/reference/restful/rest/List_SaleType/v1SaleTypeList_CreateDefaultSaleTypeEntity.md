@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 514,
-  "Name": "Konopelski Group",
-  "Tooltip": "hic",
-  "Rank": 992,
+  "SaleTypeId": 368,
+  "Name": "Sauer, Douglas and Bechtelar",
+  "Tooltip": "illo",
+  "Rank": 968,
   "DurationUnit": "Century",
-  "SaleDuration": 511,
-  "SaleTypeCatId": 553,
-  "Deleted": true,
+  "SaleDuration": 458,
+  "SaleTypeCatId": 744,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 904,
-  "QuoteLinesTemplate": 307,
-  "ConfirmationLinesTemplate": 730,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 237,
+  "QuoteLinesTemplate": 956,
+  "ConfirmationLinesTemplate": 757,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 885,
-  "MinEarningPercent": 480,
-  "GroupQuoteLinesBy": 42,
-  "SortGroupLinesBy": 645,
+  "MaxDiscountPercent": 428,
+  "MinEarningPercent": 677,
+  "GroupQuoteLinesBy": 963,
+  "SortGroupLinesBy": 301,
   "Stages": [
     {
-      "Id": 629,
-      "Name": "Langosh-Doyle",
-      "ToolTip": "Dolor itaque rerum facilis iste enim aut repellat.",
+      "Id": 626,
+      "Name": "Kessler Group",
+      "ToolTip": "Vel autem culpa consequatur.",
       "Deleted": false,
-      "Rank": 931,
-      "Type": "veritatis",
-      "ColorBlock": 417,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2018-08-10T13:28:33.1482054+02:00",
+      "Rank": 487,
+      "Type": "voluptatem",
+      "ColorBlock": 914,
+      "IconHint": "reiciendis",
+      "Selected": false,
+      "LastChanged": "2008-05-06T04:02:07.4003498+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nesciunt",
-      "Hidden": true,
-      "FullName": "Dr. Shawn Bayer",
+      "ExtraInfo": "eum",
+      "StyleHint": "ea",
+      "Hidden": false,
+      "FullName": "Rocio Mills",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 428
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 469
     }
   }
 }

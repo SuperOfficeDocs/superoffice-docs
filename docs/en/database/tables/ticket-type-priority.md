@@ -2,10 +2,10 @@
 uid: table-ticket_type_priority
 title: ticket_type_priority table
 description: Link table defining what Priorities are relevant to a particular Ticket type
-generated: true
+so.generated: true
 keywords: database table ticket_type_priority
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_type\_priority Table (533)

@@ -2,10 +2,10 @@
 uid: table-TagsGroupLink
 title: TagsGroupLink table
 description: User group link table for Tags, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table TagsGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TagsGroupLink Table (460)

@@ -2,10 +2,10 @@
 uid: table-s_shipment
 title: s_shipment table
 description: Contains info about one shipment. The addresses are stored in s_shipment_addr
-generated: true
+so.generated: true
 keywords: database table s_shipment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_shipment Table (334)

@@ -2,10 +2,10 @@
 uid: enum-sendermailmode
 title: Enum values for SenderMailMode
 description: Lists the enum values for SenderMailMode.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SenderMailMode Enum

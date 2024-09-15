@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 112,
-  "Name": "Zemlak Inc and Sons",
-  "Tooltip": "aut",
-  "SaveInDb": 293,
-  "Filename": "incidunt",
-  "DefaultOref": "dignissimos",
+  "DocumentTemplateId": 447,
+  "Name": "McDermott, Wiza and O'Hara",
+  "Tooltip": "et",
+  "SaveInDb": 542,
+  "Filename": "dolorem",
+  "DefaultOref": "beatae",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 700,
-  "IntentId": 141,
-  "IsDefaultPublished": false,
-  "Rank": 654,
-  "LoadTemplateFromPlugin": 202,
-  "MimeType": "placeat",
+  "AutoeventId": 833,
+  "IntentId": 975,
+  "IsDefaultPublished": true,
+  "Rank": 388,
+  "LoadTemplateFromPlugin": 630,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 969,
+  "DocumentTypeKey": 58,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "neil.luettgen@jewessgislason.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "andreanne@kirlin.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "melyna@powlowski.name",
+  "SenderEmailAddress": "cleo@kuhlman.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 734,
-  "Name": "Stiedemann-Upton",
-  "Tooltip": "et",
-  "SaveInDb": 747,
-  "Filename": "incidunt",
-  "DefaultOref": "voluptas",
+  "DocumentTemplateId": 207,
+  "Name": "Considine LLC",
+  "Tooltip": "totam",
+  "SaveInDb": 210,
+  "Filename": "fuga",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 572,
-  "IntentId": 483,
+  "AutoeventId": 244,
+  "IntentId": 428,
   "IsDefaultPublished": false,
-  "Rank": 181,
-  "LoadTemplateFromPlugin": 636,
-  "MimeType": "temporibus",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 286,
+  "Rank": 400,
+  "LoadTemplateFromPlugin": 183,
+  "MimeType": "est",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 336,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "americo@turner.us",
-  "IncludeSignature": true,
+  "EmailSubject": "mack.koepp@collins.biz",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ashton.jewess@jones.us",
+  "SenderEmailAddress": "danny@mcclure.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

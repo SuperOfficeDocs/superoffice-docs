@@ -89,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 144,
+  "ErpConnectionId": 381,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "hic",
-    "Rank": 800,
-    "DisplayName": "Heller, Heaney and Graham",
-    "DisplayDescription": "Public-key analyzing help-desk",
+    "FieldKey": "minima",
+    "Rank": 185,
+    "DisplayName": "Huels Inc and Sons",
+    "DisplayDescription": "Integrated 6th generation structure",
     "FieldType": "Checkbox",
-    "ListName": "Legros Group",
-    "DefaultValue": "facere",
-    "MaxLength": 329,
+    "ListName": "Haag, Herzog and Schimmel",
+    "DefaultValue": "quis",
+    "MaxLength": 818,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Sanford LLC",
-    "ToolTip": "Vero at culpa enim.",
-    "Deleted": true,
-    "Rank": 466,
-    "Type": "consequatur",
-    "ColorBlock": 840,
-    "IconHint": "quis",
+    "Id": 825,
+    "Name": "Durgan, Glover and Dickinson",
+    "ToolTip": "Nihil consectetur.",
+    "Deleted": false,
+    "Rank": 114,
+    "Type": "fugiat",
+    "ColorBlock": 106,
+    "IconHint": "optio",
     "Selected": true,
-    "LastChanged": "2006-12-19T13:28:32.7884933+01:00",
+    "LastChanged": "1999-08-20T04:02:07.1347182+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Kreiger LLC",
-        "ToolTip": "Nobis dolorum.",
+        "Id": 207,
+        "Name": "Marquardt Inc and Sons",
+        "ToolTip": "Repellendus aut beatae qui repellat iure nihil.",
         "Deleted": true,
-        "Rank": 699,
-        "Type": "numquam",
-        "ColorBlock": 433,
-        "IconHint": "sint",
+        "Rank": 459,
+        "Type": "aut",
+        "ColorBlock": 110,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2004-10-07T13:28:32.7884933+02:00",
+        "LastChanged": "2024-07-26T04:02:07.1347182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Ali McDermott"
+        "ExtraInfo": "officiis",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Miss Barton Baumbach DDS"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "eaque",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Harvey Dietrich"
+    "FullName": "Shawna Abshire"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Wintheiser-Marvin",
-    "ToolTip": "Et neque.",
-    "Deleted": true,
-    "Rank": 51,
-    "Type": "architecto",
-    "ColorBlock": 716,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2023-11-02T13:28:32.8041174+01:00",
+    "Id": 910,
+    "Name": "Veum, Vandervort and Kautzer",
+    "ToolTip": "Cumque ducimus et.",
+    "Deleted": false,
+    "Rank": 627,
+    "Type": "ipsam",
+    "ColorBlock": 771,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2023-01-03T04:02:07.1347182+01:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Hirthe, Hackett and O'Reilly",
-        "ToolTip": "Voluptates et et.",
+        "Id": 3,
+        "Name": "Kutch, Terry and Stroman",
+        "ToolTip": "Sint veniam a molestiae et autem.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "alias",
-        "ColorBlock": 511,
-        "IconHint": "est",
+        "Rank": 230,
+        "Type": "illo",
+        "ColorBlock": 586,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2015-12-03T13:28:32.8041174+01:00",
+        "LastChanged": "1998-02-23T04:02:07.1347182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dolor",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Miss Chyna Sporer I",
+        "FullName": "Garnett Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 440
+            "FieldLength": 306
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Junior Gutkowski",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Turner Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 743
       }
     }
   }

@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "nostrum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "nostrum",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 989,
-  "Name": "Wolff, Davis and Cummerata",
+  "WebhookId": 454,
+  "Name": "Cummerata Group",
   "Events": [
-    "veritatis",
-    "neque"
+    "neque",
+    "mollitia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "veritatis",
+  "Secret": "cumque",
   "State": "Active",
-  "Type": "consequatur",
+  "Type": "harum",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "sit"
+    "Headers1": "corrupti",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-01-24T13:28:32.6322813+01:00",
+  "Registered": "2001-03-29T04:02:07.0566019+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-04-10T13:28:32.6322813+02:00",
+  "Updated": "2005-02-23T04:02:07.0566019+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "luna.crooks@wehner.com",
+  "ErrorsEmail": "jerrod_emmerich@schulistleffler.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

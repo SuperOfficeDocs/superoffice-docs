@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 190,
-  "AppointmentId": 799,
-  "ProjectId": 965,
-  "SaleId": 773,
-  "Archived": true,
-  "ArchivedAt": "2019-01-31T13:28:22.6791961+01:00",
-  "ArchivedBy": 253,
-  "ArchivedDisplayName": "Bartoletti LLC",
+  "DocumentId": 631,
+  "AppointmentId": 737,
+  "ProjectId": 133,
+  "SaleId": 723,
+  "Archived": false,
+  "ArchivedAt": "2019-05-15T04:02:01.706124+02:00",
+  "ArchivedBy": 178,
+  "ArchivedDisplayName": "Marquardt Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

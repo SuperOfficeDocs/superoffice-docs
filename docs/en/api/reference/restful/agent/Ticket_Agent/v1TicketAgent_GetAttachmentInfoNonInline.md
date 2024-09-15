@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 622
+  "TicketMessageEntityId": 770
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 73,
-    "Name": "Hamill LLC",
-    "ContentType": "facilis",
-    "AttSize": 412,
+    "AttachmentId": 733,
+    "Name": "Prosacco, Dickens and Nienow",
+    "ContentType": "quibusdam",
+    "AttSize": 50,
     "InlineImage": true,
-    "ContentId": "eligendi",
-    "AuthKey": "veritatis",
+    "ContentId": "et",
+    "AuthKey": "voluptatem",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldLength": 271
       }
     }
   }

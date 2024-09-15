@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 1002,
-  "Name": "Stracke, Orn and Welch",
-  "Description": "Vision-oriented cohesive access",
+  "ProjectId": 570,
+  "Name": "Strosin, Treutel and Christiansen",
+  "Description": "Fully-configurable holistic access",
   "URL": "http://www.example.com/",
-  "Type": "hic",
-  "AssociateId": 937,
-  "AssociateFullName": "Allene Walker",
-  "TypeId": 957,
-  "Updated": "2000-09-04T13:28:31.8823198+02:00",
-  "StatusId": 816,
-  "Status": "et",
-  "TextId": 870,
-  "PublishTo": "2017-11-04T13:28:31.8823198+01:00",
-  "PublishFrom": "2022-12-22T13:28:31.8823198+01:00",
+  "Type": "totam",
+  "AssociateId": 96,
+  "AssociateFullName": "Sarina Gutkowski",
+  "TypeId": 533,
+  "Updated": "2007-01-23T04:02:06.7285135+01:00",
+  "StatusId": 304,
+  "Status": "doloribus",
+  "TextId": 411,
+  "PublishTo": "2008-03-27T04:02:06.7285135+01:00",
+  "PublishFrom": "2010-04-15T04:02:06.7285135+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "610827",
-  "ActiveErpLinks": 547,
+  "ProjectNumber": "1104044",
+  "ActiveErpLinks": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 421
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-ejsel_meta_result
 title: ejsel_meta_result table
 description: This table stores result meta data
-generated: true
+so.generated: true
 keywords: database table ejsel_meta_result
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejsel\_meta\_result Table (397)

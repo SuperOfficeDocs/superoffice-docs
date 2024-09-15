@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 710,
-  "Name": "Huel, Jaskolski and Bartell",
-  "Tooltip": "eos",
-  "Rank": 918,
-  "Rate": 14748.604,
-  "Units": 1081.23,
+  "CurrencyId": 382,
+  "Name": "Koss, Oberbrunner and Sauer",
+  "Tooltip": "dolore",
+  "Rank": 862,
+  "Rate": 15676.268,
+  "Units": 3390.988,
   "Deleted": true
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 585,
-  "Name": "Halvorson Group",
-  "Tooltip": "sit",
-  "Rank": 59,
-  "Rate": 9652.72,
-  "Units": 17744.708,
+  "CurrencyId": 19,
+  "Name": "Wolff Group",
+  "Tooltip": "ullam",
+  "Rank": 721,
+  "Rate": 19308.574,
+  "Units": 18236.746,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 68
     }
   }
 }

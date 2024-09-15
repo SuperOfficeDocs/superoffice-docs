@@ -2,10 +2,10 @@
 uid: enum-fieldmetadatatype
 title: Enum values for FieldMetadataType
 description: Lists the enum values for FieldMetadataType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # FieldMetadataType Enum

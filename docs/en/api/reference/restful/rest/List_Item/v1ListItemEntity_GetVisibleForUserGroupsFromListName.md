@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Fahey-VonRueden",
-    "ToolTip": "Labore veniam aperiam esse qui qui repellendus voluptatem.",
-    "Deleted": false,
-    "Rank": 905,
-    "Type": "deleniti",
-    "ColorBlock": 912,
-    "IconHint": "nulla",
+    "Id": 785,
+    "Name": "McCullough-Stamm",
+    "ToolTip": "Minus qui assumenda voluptas.",
+    "Deleted": true,
+    "Rank": 406,
+    "Type": "consequatur",
+    "ColorBlock": 146,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2022-06-13T13:28:32.6479022+02:00",
+    "LastChanged": "2013-03-11T04:02:07.0566019+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Effertz, Haley and Yost",
-        "ToolTip": "Enim id voluptas dolores quo ad cumque.",
-        "Deleted": true,
-        "Rank": 30,
-        "Type": "ex",
-        "ColorBlock": 476,
-        "IconHint": "officia",
-        "Selected": true,
-        "LastChanged": "2016-09-09T13:28:32.6479022+02:00",
+        "Id": 503,
+        "Name": "Hudson-Bartoletti",
+        "ToolTip": "Voluptatem esse eos eligendi.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "assumenda",
+        "ColorBlock": 12,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2001-02-21T04:02:07.0566019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ratione",
-        "Hidden": true,
-        "FullName": "Skye Smith",
+        "ExtraInfo": "rerum",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Chet Adah Conn II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 255
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "sint",
+    "ExtraInfo": "sed",
+    "StyleHint": "accusantium",
     "Hidden": true,
-    "FullName": "Kyler Harris",
+    "FullName": "Constance Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 572
+        "FieldType": "System.Int32",
+        "FieldLength": 627
       }
     }
   }

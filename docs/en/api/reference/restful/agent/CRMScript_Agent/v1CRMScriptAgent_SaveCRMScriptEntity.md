@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 577,
-  "UniqueIdentifier": "distinctio",
-  "Name": "Nikolaus Group",
-  "Description": "Re-engineered homogeneous website",
-  "IncludeId": "est",
-  "AccessKey": "natus",
-  "HierarchyId": 48,
-  "Source": "repellendus",
-  "SourceCode": "fugit",
+  "EjscriptId": 324,
+  "UniqueIdentifier": "libero",
+  "Name": "O'Conner, Dicki and Franecki",
+  "Description": "Assimilated composite moderator",
+  "IncludeId": "ad",
+  "AccessKey": "consequatur",
+  "HierarchyId": 977,
+  "Source": "dignissimos",
+  "SourceCode": "molestiae",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 990,
+  "HtmlOutput": 230,
   "Includes": [
-    9,
-    339
+    467,
+    196
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 734,
-      "LineNumberTo": 946,
-      "Delta": 924,
-      "IncludeId": "dicta",
+      "LineNumberFrom": 900,
+      "LineNumberTo": 397,
+      "Delta": 214,
+      "IncludeId": "dolorem",
       "IncludedFrom": [
-        "culpa",
-        "placeat"
+        "doloremque",
+        "consectetur"
       ]
     },
     {
-      "LineNumberFrom": 734,
-      "LineNumberTo": 946,
-      "Delta": 924,
-      "IncludeId": "dicta",
+      "LineNumberFrom": 900,
+      "LineNumberTo": 397,
+      "Delta": 214,
+      "IncludeId": "dolorem",
       "IncludedFrom": [
-        "culpa",
-        "placeat"
+        "doloremque",
+        "consectetur"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2008-09-12T13:28:22.3511449+02:00",
-  "RegisteredAssociateId": 288,
-  "Updated": "2014-06-12T13:28:22.3511449+02:00",
-  "UpdatedAssociateId": 552
+  "Registered": "2015-09-05T04:02:01.5186345+02:00",
+  "RegisteredAssociateId": 796,
+  "Updated": "2018-02-09T04:02:01.5186345+01:00",
+  "UpdatedAssociateId": 933
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 398,
-  "UniqueIdentifier": "sint",
-  "Name": "Stiedemann, Bogan and Bernhard",
-  "Description": "User-centric fault-tolerant open system",
-  "IncludeId": "magni",
-  "AccessKey": "aut",
-  "HierarchyId": 378,
-  "Source": "voluptas",
-  "SourceCode": "assumenda",
+  "EjscriptId": 305,
+  "UniqueIdentifier": "ullam",
+  "Name": "Wintheiser, Gerhold and Champlin",
+  "Description": "Persistent foreground model",
+  "IncludeId": "cumque",
+  "AccessKey": "sequi",
+  "HierarchyId": 49,
+  "Source": "repellat",
+  "SourceCode": "consequatur",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 440,
+  "HtmlOutput": 412,
   "Includes": [
-    697,
-    995
+    679,
+    636
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 427,
-      "LineNumberTo": 194,
-      "Delta": 659,
-      "IncludeId": "velit",
+      "LineNumberFrom": 958,
+      "LineNumberTo": 244,
+      "Delta": 961,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "et",
-        "quo"
+        "qui",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldType": "System.Int32",
+          "FieldLength": 850
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-12-29T13:28:22.3511449+01:00",
-  "RegisteredAssociateId": 271,
-  "Updated": "2020-04-17T13:28:22.3511449+02:00",
-  "UpdatedAssociateId": 752,
+  "Registered": "2002-05-26T04:02:01.5186345+02:00",
+  "RegisteredAssociateId": 688,
+  "Updated": "2021-07-15T04:02:01.5186345+02:00",
+  "UpdatedAssociateId": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 819,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "iure",
+  "ExtAppId": 1002,
+  "Name": "Simonis, Klein and Hickle",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 183,
-  "Filename": "ducimus",
-  "Parameters": "sed",
-  "Workdir": "nulla",
+  "Rank": 787,
+  "Filename": "voluptate",
+  "Parameters": "ipsum",
+  "Workdir": "adipisci",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 287,
-  "WaitToFinish": false,
+  "Icon": 197,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "facere",
+  "Path": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   }
 }

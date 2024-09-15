@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 99,
-  "ListItemId": 861,
+  "UdListDefinitionId": 309,
+  "ListItemId": 860,
   "UserGroups": [
     {
-      "Id": 845,
-      "Name": "Thompson, Mraz and Bruen",
-      "ToolTip": "Cum cum deleniti quas.",
+      "Id": 524,
+      "Name": "Watsica, Lindgren and Durgan",
+      "ToolTip": "Ut expedita et voluptate quis.",
       "Deleted": false,
-      "Rank": 804,
-      "Type": "mollitia",
-      "ColorBlock": 350,
-      "IconHint": "qui",
+      "Rank": 183,
+      "Type": "officia",
+      "ColorBlock": 440,
+      "IconHint": "magni",
       "Selected": false,
-      "LastChanged": "2002-11-13T13:28:22.9449983+01:00",
+      "LastChanged": "1998-09-07T04:02:01.8316108+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nulla",
-      "StyleHint": "aut",
+      "ExtraInfo": "minus",
+      "StyleHint": "dolorum",
       "Hidden": true,
-      "FullName": "Coby Reilly"
+      "FullName": "Miss Casper Richmond O'Connell III"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Weissnat Inc and Sons",
-    "ToolTip": "Laudantium magni.",
-    "Deleted": true,
-    "Rank": 816,
-    "Type": "nostrum",
-    "ColorBlock": 918,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "1998-09-18T13:28:22.9449983+02:00",
+    "Id": 870,
+    "Name": "Jacobson, Walsh and Harvey",
+    "ToolTip": "In corporis error corrupti.",
+    "Deleted": false,
+    "Rank": 984,
+    "Type": "sit",
+    "ColorBlock": 801,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2007-02-23T04:02:01.8316108+01:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "McClure, Tillman and Davis",
-        "ToolTip": "Quia aliquid et aut maiores ea.",
+        "Id": 447,
+        "Name": "Corwin Inc and Sons",
+        "ToolTip": "Eaque quia error qui culpa.",
         "Deleted": true,
-        "Rank": 482,
-        "Type": "omnis",
-        "ColorBlock": 293,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2011-01-27T13:28:22.9449983+01:00",
+        "Rank": 854,
+        "Type": "deleniti",
+        "ColorBlock": 927,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2010-08-20T04:02:01.8316108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "possimus",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Kody Goyette",
+        "FullName": "Ulises Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldType": "System.String",
+            "FieldLength": 583
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "sed",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Xander Beer",
+    "FullName": "Ethel Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

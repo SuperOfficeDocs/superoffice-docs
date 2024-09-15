@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 979,
-    "Name": "Rempel LLC",
-    "Tooltip": "autem",
-    "Rank": 130,
-    "Key": "nam",
-    "MailTemplateId": 29,
-    "Deleted": true,
+    "ConsentSourceId": 765,
+    "Name": "Huel LLC",
+    "Tooltip": "et",
+    "Rank": 58,
+    "Key": "nisi",
+    "MailTemplateId": 401,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 456
       }
     }
   }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Weber LLC"
+  "HistoryName": "Ondricka, Harvey and Cole"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 502,
-  "Id": 810,
-  "HistoryName": "Bogisich, Doyle and Buckridge",
-  "HistoryId": 14,
-  "AssociateId": 540,
-  "Name": "Kutch, Kuvalis and Auer",
-  "ItemInfo": "aspernatur",
+  "Rank": 737,
+  "Id": 518,
+  "HistoryName": "Hane Inc and Sons",
+  "HistoryId": 831,
+  "AssociateId": 957,
+  "Name": "Tremblay-Conroy",
+  "ItemInfo": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

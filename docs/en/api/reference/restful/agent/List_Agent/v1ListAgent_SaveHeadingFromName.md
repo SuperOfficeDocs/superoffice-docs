@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rau-Becker",
+  "Name": "Schamberger, Schroeder and Larkin",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 804,
-  "Name": "Howell Group",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 85,
-  "UdListDefinitionId": 365,
+  "HeadingId": 837,
+  "Name": "Tremblay-Gutkowski",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "Rank": 50,
+  "UdListDefinitionId": 893,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

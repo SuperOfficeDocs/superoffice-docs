@@ -84,16 +84,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 880,
-  "VersionId": "impedit",
+  "DocumentId": 987,
+  "VersionId": "eum",
   "AllowedReturnTypes": [
-    "quis",
-    "delectus"
+    "architecto",
+    "labore"
   ],
-  "Command": "rerum",
+  "Command": "fugit",
   "AdditionalData": [
-    "quia",
-    "nemo"
+    "possimus",
+    "et"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "incidunt",
-  "VersionId": "incidunt",
+  "ExternalReference": "rerum",
+  "VersionId": "ea",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "quia",
-  "AdditionalInfo": "et"
+  "Value": "ducimus",
+  "AdditionalInfo": "veniam"
 }
 ```

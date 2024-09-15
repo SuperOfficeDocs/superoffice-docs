@@ -2,10 +2,10 @@
 uid: table-element_profile
 title: element_profile table
 description: The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link
-generated: true
+so.generated: true
 keywords: database table element_profile
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # element\_profile Table (328)

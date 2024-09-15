@@ -2,10 +2,10 @@
 uid: enum-recurrencepattern
 title: Enum values for RecurrencePattern
 description: Lists the enum values for RecurrencePattern.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # RecurrencePattern Enum

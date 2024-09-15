@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 11 Oct 1999 13:28:31 G10T
+Last-Modified: Tue, 17 Jul 2012 04:02:06 G7T
 
 {
-  "DocumentId": 874,
+  "DocumentId": 531,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laudantium",
-  "Header": "et",
-  "Name": "Harber Inc and Sons",
-  "OurRef": "perspiciatis",
-  "YourRef": "aut",
-  "CreatedDate": "2018-08-25T13:28:31.5855121+02:00",
-  "UpdatedDate": "1999-10-11T13:28:31.5855121+02:00",
-  "Description": "Synergized modular portal",
+  "Attention": "a",
+  "Header": "harum",
+  "Name": "Kshlerin, Gulgowski and Medhurst",
+  "OurRef": "est",
+  "YourRef": "et",
+  "CreatedDate": "2012-10-13T04:02:06.5722784+02:00",
+  "UpdatedDate": "2012-07-17T04:02:06.5722784+02:00",
+  "Description": "Mandatory grid-enabled Graphical User Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-07-26T13:28:31.5855121+02:00",
-  "ExternalRef": "sapiente",
+  "Date": "2013-07-27T04:02:06.5722784+02:00",
+  "ExternalRef": "aliquid",
   "Completed": "Completed",
-  "ActiveLinks": 616,
+  "ActiveLinks": 853,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Metz LLC",
-      "Id": 672,
-      "Description": "Customizable intangible support",
-      "ExtraInfo": "illo",
-      "LinkId": 383,
+      "EntityName": "West-Ondricka",
+      "Id": 591,
+      "Description": "Digitized high-level alliance",
+      "ExtraInfo": "consectetur",
+      "LinkId": 434,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 916
+          "FieldType": "System.Int32",
+          "FieldLength": 95
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 310,
-  "Snum": 880,
+  "SuggestedDocumentId": 709,
+  "Snum": 362,
   "UserDefinedFields": {
-    "SuperOffice:1": "1965013151",
-    "SuperOffice:2": "1855361413"
+    "SuperOffice:1": "Ms. Augusta Zieme DVM",
+    "SuperOffice:2": "125209835"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "et"
+    "CustomFields1": "id",
+    "CustomFields2": "modi"
   },
-  "PublishEventDate": "2004-12-16T13:28:31.5855121+01:00",
-  "PublishTo": "2008-09-21T13:28:31.5855121+02:00",
-  "PublishFrom": "2001-02-24T13:28:31.5855121+01:00",
+  "PublishEventDate": "2011-05-15T04:02:06.5722784+02:00",
+  "PublishTo": "2002-08-31T04:02:06.5722784+02:00",
+  "PublishFrom": "2018-03-09T04:02:06.5722784+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 387,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldType": "System.String",
+          "FieldLength": 32
         }
       }
     },
     {
-      "VisibleId": 387,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldType": "System.String",
+          "FieldLength": 32
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Mon, 11 Oct 1999 13:28:31 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 922
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

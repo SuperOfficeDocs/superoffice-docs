@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 5
+  "SelectionId": 287
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman Inc and Sons",
-    "Description": "Synergized analyzing process improvement",
-    "Rank": 741,
+    "Name": "Baumbach Inc and Sons",
+    "Description": "Right-sized bi-directional project",
+    "Rank": 238,
     "Restrictions": [
       {
-        "Name": "Kovacek, Prosacco and Monahan",
-        "Operator": "modi",
+        "Name": "Labadie, Hyatt and Jast",
+        "Operator": "sint",
         "Values": [
-          "ipsa",
-          "ut"
+          "aut",
+          "minus"
         ],
         "DisplayValues": [
-          "vel",
-          "commodi"
+          "iusto",
+          "porro"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 182,
+        "InterParenthesis": 656,
         "InterOperator": "And",
-        "UniqueHash": 794
+        "UniqueHash": 76
       }
     ]
   },
   {
-    "Name": "Wyman Inc and Sons",
-    "Description": "Synergized analyzing process improvement",
-    "Rank": 741,
+    "Name": "Baumbach Inc and Sons",
+    "Description": "Right-sized bi-directional project",
+    "Rank": 238,
     "Restrictions": [
       {
-        "Name": "Kovacek, Prosacco and Monahan",
-        "Operator": "modi",
+        "Name": "Labadie, Hyatt and Jast",
+        "Operator": "sint",
         "Values": [
-          "ipsa",
-          "ut"
+          "aut",
+          "minus"
         ],
         "DisplayValues": [
-          "vel",
-          "commodi"
+          "iusto",
+          "porro"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 182,
+        "InterParenthesis": 656,
         "InterOperator": "And",
-        "UniqueHash": 794
+        "UniqueHash": 76
       }
     ]
   }

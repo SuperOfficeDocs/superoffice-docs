@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketCategoryId": 882,
-  "ToTicketCategoryId": 669
+  "FromTicketCategoryId": 762,
+  "ToTicketCategoryId": 98
 }
 ```
 

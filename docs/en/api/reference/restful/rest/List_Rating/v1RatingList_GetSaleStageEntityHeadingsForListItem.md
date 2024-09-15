@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Powlowski Inc and Sons",
-    "ToolTip": "Sit placeat.",
+    "Id": 902,
+    "Name": "Tremblay Inc and Sons",
+    "ToolTip": "Dignissimos odio reiciendis est officia.",
     "Deleted": false,
-    "Rank": 69,
-    "Type": "rem",
-    "ColorBlock": 872,
-    "IconHint": "aut",
+    "Rank": 898,
+    "Type": "neque",
+    "ColorBlock": 318,
+    "IconHint": "minima",
     "Selected": true,
-    "LastChanged": "2005-10-19T13:28:33.0696831+02:00",
+    "LastChanged": "2013-08-25T04:02:07.3690701+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Gibson LLC",
-        "ToolTip": "Distinctio asperiores aut blanditiis ex et id.",
+        "Id": 685,
+        "Name": "Cassin-Lakin",
+        "ToolTip": "Dolor laudantium necessitatibus delectus architecto vel repellat est.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "laborum",
-        "ColorBlock": 198,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2020-04-17T13:28:33.0696831+02:00",
+        "Rank": 226,
+        "Type": "eius",
+        "ColorBlock": 993,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2013-01-12T04:02:07.3690701+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "saepe",
+        "ExtraInfo": "eos",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Mrs. Ayden Marianna Schoen",
+        "FullName": "Mr. Briana Rippin PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 64
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "illum",
+    "ExtraInfo": "et",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Wiley Rodriguez V",
+    "FullName": "Jamarcus Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 501
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

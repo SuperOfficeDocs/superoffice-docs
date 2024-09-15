@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 6,
-  "Name": "Blanda LLC",
+  "SelectionId": 485,
+  "Name": "Gleichner, Hodkiewicz and Baumbach",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless value-added model",
-  "Postit": "eum",
+  "Description": "Multi-lateral encompassing groupware",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 719,
-  "IncludePerson": 546,
+  "GroupIdx": 76,
+  "IncludePerson": 980,
   "MemberCount": 99.99,
-  "Name": "Kreiger-Windler",
-  "PostitTextId": 173,
-  "CreatedDate": "2009-08-13T13:28:23.772965+02:00",
-  "SelectionId": 306,
-  "SoundEx": "illo",
-  "Source": 343,
-  "TextId": 691,
-  "UpdatedDate": "2022-10-12T13:28:23.772965+02:00",
-  "UpdatedCount": 30,
-  "Visibility": 656,
+  "Name": "Schuppe, Jenkins and Bayer",
+  "PostitTextId": 489,
+  "CreatedDate": "2006-12-28T04:02:02.3317533+01:00",
+  "SelectionId": 901,
+  "SoundEx": "corporis",
+  "Source": 511,
+  "TextId": 433,
+  "UpdatedDate": "2014-05-08T04:02:02.3317533+02:00",
+  "UpdatedCount": 454,
+  "Visibility": 678,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 480,
-  "TargetTableName": "Gibson, Robel and Deckow",
+  "TargetTableNumber": 971,
+  "TargetTableName": "Muller-Howell",
   "Completed": false,
-  "LeftSelectionId": 663,
-  "RightSelectionId": 913,
+  "LeftSelectionId": 788,
+  "RightSelectionId": 636,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ryan-Schinner",
-  "ShadowProviderName": "Pagac, Hudson and Olson",
-  "ChartKey": "vitae",
-  "LastLoaded": "2006-09-08T13:28:23.772965+02:00",
-  "LastLoadedBy": 407,
+  "MainProviderName": "Champlin, Schmidt and D'Amore",
+  "ShadowProviderName": "Homenick Inc and Sons",
+  "ChartKey": "sit",
+  "LastLoaded": "1997-06-18T04:02:02.3317533+02:00",
+  "LastLoadedBy": 861,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-27T13:28:23.772965+02:00",
-  "LastMembershipChangeBy": 909,
+  "LastMembershipChange": "2004-04-23T04:02:02.3317533+02:00",
+  "LastMembershipChangeBy": 846,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Lueilwitz, Casper and Lehner",
-  "DashboardTileDefinitionId": 602,
+  "MainHeading": "voluptatibus",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Walsh LLC",
+  "DashboardTileDefinitionId": 614,
   "VisibleFor": [
     {
-      "VisibleId": 506,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 467
         }
       }
     },
     {
-      "VisibleId": 506,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 467
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

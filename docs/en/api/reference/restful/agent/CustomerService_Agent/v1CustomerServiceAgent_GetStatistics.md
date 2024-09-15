@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "eos",
-    "aut"
+    "id",
+    "ut"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "quidem",
+    "Label": "qui",
     "Values": [
       {
-        "Label": "accusantium",
-        "Value": 29794.938,
-        "Description": "Programmable homogeneous support",
+        "Label": "sit",
+        "Value": 4547.434,
+        "Description": "Decentralized zero tolerance frame",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       },
       {
-        "Label": "accusantium",
-        "Value": 29794.938,
-        "Description": "Programmable homogeneous support",
+        "Label": "sit",
+        "Value": 4547.434,
+        "Description": "Decentralized zero tolerance frame",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "Description": "Robust full-range projection",
+    "Description": "Face to face upward-trending benchmark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldLength": 709
       }
     }
   },
   {
-    "Label": "quidem",
+    "Label": "qui",
     "Values": [
       {
-        "Label": "accusantium",
-        "Value": 29794.938,
-        "Description": "Programmable homogeneous support",
+        "Label": "sit",
+        "Value": 4547.434,
+        "Description": "Decentralized zero tolerance frame",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       },
       {
-        "Label": "accusantium",
-        "Value": 29794.938,
-        "Description": "Programmable homogeneous support",
+        "Label": "sit",
+        "Value": 4547.434,
+        "Description": "Decentralized zero tolerance frame",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "Description": "Robust full-range projection",
+    "Description": "Face to face upward-trending benchmark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldLength": 709
       }
     }
   }

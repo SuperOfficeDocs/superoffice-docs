@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "corporis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "corporis",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 819,
-  "Name": "O'Connell-Renner",
-  "ContentType": "quia",
-  "AttSize": 645,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "harum",
+  "AttachmentId": 676,
+  "Name": "Green, Fahey and Weimann",
+  "ContentType": "voluptas",
+  "AttSize": 55,
+  "InlineImage": false,
+  "ContentId": "enim",
+  "AuthKey": "doloremque",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

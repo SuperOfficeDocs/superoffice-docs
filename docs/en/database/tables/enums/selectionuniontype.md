@@ -2,10 +2,10 @@
 uid: enum-selectionuniontype
 title: Enum values for SelectionUnionType
 description: Lists the enum values for SelectionUnionType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SelectionUnionType Enum

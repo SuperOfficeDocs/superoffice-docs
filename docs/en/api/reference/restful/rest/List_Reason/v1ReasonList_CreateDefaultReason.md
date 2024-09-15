@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Kemmer, Gerlach and Runolfsdottir",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "UdListDefinitionId": 625,
-  "Rank": 876,
+  "Id": 662,
+  "Name": "Little, Bins and Jaskolski",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "UdListDefinitionId": 114,
+  "Rank": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldLength": 803
     }
   }
 }

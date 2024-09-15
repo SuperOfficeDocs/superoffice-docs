@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "oma@windler.biz",
-  "Counts": 807,
-  "Code": 408,
+  "EmailAddress": "austin_crist@ziemedach.com",
+  "Counts": 389,
+  "Code": 126,
   "Reason": ""
 }
 ```

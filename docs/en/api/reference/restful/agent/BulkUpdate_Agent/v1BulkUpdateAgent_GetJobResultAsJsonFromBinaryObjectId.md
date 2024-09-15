@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harris, Bode and D'Amore",
-  "BinaryObjectId": 632
+  "TableName": "Adams Inc and Sons",
+  "BinaryObjectId": 344
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"omnis"
 ```

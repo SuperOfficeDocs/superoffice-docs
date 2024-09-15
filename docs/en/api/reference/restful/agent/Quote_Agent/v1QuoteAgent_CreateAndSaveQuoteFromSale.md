@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 261,
-  "CopyToSaleId": 107
+  "CopyFromSaleId": 738,
+  "CopyToSaleId": 246
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 541,
-  "SaleId": 466,
-  "QuoteConnectionId": 847,
-  "ERPQuoteKey": "assumenda",
-  "ERPOrderKey": "est",
-  "ActiveQuoteVersionId": 541,
-  "AcceptedQuoteAlternativeId": 725,
-  "UseValuesFromQuote": 95,
-  "DocumentId": 863,
-  "PoNumber": "450610",
-  "OrderComment": "nam",
-  "PreferredEmailCulture": "telly.reichert@robelgreenholt.us",
+  "QuoteId": 684,
+  "SaleId": 629,
+  "QuoteConnectionId": 731,
+  "ERPQuoteKey": "blanditiis",
+  "ERPOrderKey": "voluptates",
+  "ActiveQuoteVersionId": 290,
+  "AcceptedQuoteAlternativeId": 971,
+  "UseValuesFromQuote": 783,
+  "DocumentId": 904,
+  "PoNumber": "990294",
+  "OrderComment": "amet",
+  "PreferredEmailCulture": "jena@balistreribrakus.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 815,
-      "ERPQuoteVersionKey": "optio",
-      "QuoteId": 59,
-      "Description": "Compatible 4th generation policy",
-      "Number": "1264582",
+      "QuoteVersionId": 907,
+      "ERPQuoteVersionKey": "voluptates",
+      "QuoteId": 372,
+      "Description": "Function-based national ability",
+      "Number": "1245306",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 223,
-      "SentDate": "2009-11-12T13:28:23.5855044+01:00",
-      "FollowupId": 460,
-      "ExpirationDate": "2016-11-23T13:28:23.5855044+01:00",
-      "DeliveryCountryId": 292,
+      "LikelyQuoteAlternativeId": 896,
+      "SentDate": "2011-03-21T04:02:02.2065837+01:00",
+      "FollowupId": 198,
+      "ExpirationDate": "2010-04-24T04:02:02.2065837+02:00",
+      "DeliveryCountryId": 710,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 547,
+      "InvoiceCountryId": 531,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "soluta",
-      "ERPPaymentTypeKey": "sit",
-      "ERPDeliveryTermsKey": "omnis",
-      "ERPDeliveryTypeKey": "perspiciatis",
-      "Rank": 682,
-      "ApprovedBy": 76,
-      "ApprovedText": "libero",
-      "ApprovedRegisteredBy": 899,
-      "ApprovedRegisteredDate": "2000-08-15T13:28:23.5855044+02:00",
-      "ExtraField1": "nulla",
-      "ExtraField2": "possimus",
-      "ExtraField3": "dolorem",
-      "ExtraField4": "possimus",
-      "ExtraField5": "odio",
-      "LastRecalculated": "2022-11-02T13:28:23.5855044+01:00",
-      "Updated": "2020-09-20T13:28:23.5855044+02:00",
-      "UpdatedAssociateId": 56,
-      "Registered": "2006-03-28T13:28:23.5855044+02:00",
-      "RegisteredAssociateId": 922,
-      "RequestAssociateId": 114,
-      "RequestComment": "sint",
+      "ERPPaymentTermsKey": "nihil",
+      "ERPPaymentTypeKey": "est",
+      "ERPDeliveryTermsKey": "modi",
+      "ERPDeliveryTypeKey": "totam",
+      "Rank": 796,
+      "ApprovedBy": 987,
+      "ApprovedText": "eos",
+      "ApprovedRegisteredBy": 462,
+      "ApprovedRegisteredDate": "2007-12-08T04:02:02.2065837+01:00",
+      "ExtraField1": "molestias",
+      "ExtraField2": "aut",
+      "ExtraField3": "impedit",
+      "ExtraField4": "aspernatur",
+      "ExtraField5": "nobis",
+      "LastRecalculated": "2005-08-20T04:02:02.2065837+02:00",
+      "Updated": "1997-11-13T04:02:02.2065837+01:00",
+      "UpdatedAssociateId": 274,
+      "Registered": "2008-09-06T04:02:02.2065837+02:00",
+      "RegisteredAssociateId": 31,
+      "RequestAssociateId": 842,
+      "RequestComment": "atque",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 45
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 764
     }
   }
 }

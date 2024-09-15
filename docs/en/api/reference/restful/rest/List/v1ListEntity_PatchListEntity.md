@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Jewess Group",
-  "Tooltip": "odio",
+  "Id": 383,
+  "Name": "Konopelski-Mraz",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 830,
+  "Rank": 870,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "assumenda",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   },
   "_Links": {

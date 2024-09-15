@@ -2,10 +2,10 @@
 uid: table-PhoneFormat
 title: PhoneFormat table
 description: Formatting information for telephone numbers
-generated: true
+so.generated: true
 keywords: database table PhoneFormat
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PhoneFormat Table (251)

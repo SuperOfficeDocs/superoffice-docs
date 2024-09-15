@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 117,
-    "Name": "Padberg-Nienow",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 588,
-    "UdListDefinitionId": 502,
+    "HeadingId": 342,
+    "Name": "Homenick-Shields",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 55,
+    "UdListDefinitionId": 291,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 594
       }
     }
   }

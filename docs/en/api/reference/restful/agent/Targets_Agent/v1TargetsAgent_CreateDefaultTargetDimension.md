@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 224,
+  "TargetDimensionId": 795,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "soluta",
-  "DimensionListName": "D'Amore-Brown",
-  "DimensionListId": 646,
-  "DimensionListLabel": "numquam",
+  "DimensionListField": "laborum",
+  "DimensionListName": "Lakin, Medhurst and Senger",
+  "DimensionListId": 381,
+  "DimensionListLabel": "sint",
   "SelectedDimensions": [
-    585,
-    437
+    220,
+    209
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 803
     }
   }
 }

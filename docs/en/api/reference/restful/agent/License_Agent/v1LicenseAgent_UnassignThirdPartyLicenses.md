@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 591,
-  "ModuleOwner": "quo",
+  "AssociateId": 766,
+  "ModuleOwner": "repellendus",
   "ModuleLicenseNames": [
-    "Luettgen, Fay and Blick",
-    "Hammes-Herzog"
+    "Fisher Inc and Sons",
+    "Feest-Koepp"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 961,
-    "Tooltip": "necessitatibus",
-    "CanAssign": true,
-    "Free": 176,
-    "InUse": 645,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 562,
-    "Name": "Conn Inc and Sons",
-    "Description": "Synchronised scalable help-desk",
-    "PrerequisiteModuleName": "Blick-Reilly",
-    "SortOrder": 328,
-    "ExtraFlags": 697,
+    "Total": 699,
+    "Tooltip": "voluptatibus",
+    "CanAssign": false,
+    "Free": 423,
+    "InUse": 415,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 662,
+    "Name": "Labadie-Rolfson",
+    "Description": "Switchable intangible capability",
+    "PrerequisiteModuleName": "Feest, Boyer and Friesen",
+    "SortOrder": 119,
+    "ExtraFlags": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

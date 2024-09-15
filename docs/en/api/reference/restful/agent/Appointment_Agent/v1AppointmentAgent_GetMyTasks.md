@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 857
+  "Count": 544
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 714,
-    "StartDate": "2003-08-01T13:28:21.7887743+02:00",
-    "EndDate": "2020-04-23T13:28:21.7887743+02:00",
+    "AppointmentId": 343,
+    "StartDate": "2001-08-23T04:02:01.1900442+02:00",
+    "EndDate": "2002-10-19T04:02:01.1900442+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Mrs. Tania Cole V",
-    "ContactName": "Wyman-Maggio",
-    "Description": "Phased fresh-thinking service-desk",
-    "PersonFullName": "Kirk Volkman",
-    "PersonId": 96,
-    "ContactId": 941,
-    "ProjectId": 380,
-    "ProjectName": "Von Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 583,
-    "ColorIndex": 920,
+    "Task": "illo",
+    "AssociateFullName": "Briana Mante",
+    "ContactName": "Kub Group",
+    "Description": "Reactive multi-state access",
+    "PersonFullName": "Miss Lupe Giovanny Funk PhD",
+    "PersonId": 620,
+    "ContactId": 379,
+    "ProjectId": 24,
+    "ProjectName": "Homenick, Hartmann and Kuhlman",
+    "IsPublished": false,
+    "AssociateId": 679,
+    "ColorIndex": 33,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 619,
-    "PriorityName": "Zboncak LLC",
+    "PriorityId": 598,
+    "PriorityName": "Strosin, Russel and Roob",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2001-01-04T13:28:21.7887743+01:00",
+    "ActiveDate": "1998-04-10T04:02:01.1900442+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-08-10T13:28:21.7887743+02:00",
-    "RecurringEndDate": "2011-07-09T13:28:21.7887743+02:00",
-    "MotherId": 559,
-    "AssignedBy": 347,
-    "AssignedByFullName": "Charlotte Botsford",
+    "RecurringStartDate": "2023-01-04T04:02:01.1900442+01:00",
+    "RecurringEndDate": "2020-09-17T04:02:01.1900442+02:00",
+    "MotherId": 140,
+    "AssignedBy": 669,
+    "AssignedByFullName": "Clementine Bailey",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "quo",
-    "SaleId": 557,
-    "SaleName": "Stiedemann-Hilpert",
-    "AssociateName": "Beier, Pagac and Crona",
-    "CreatedDate": "2005-03-11T13:28:21.7887743+01:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Abbie Ernser",
-    "CreatedByAssociateId": 509,
+    "Location": "blanditiis",
+    "AlarmLeadTime": "hic",
+    "SaleId": 473,
+    "SaleName": "Ratke-Boyle",
+    "AssociateName": "Cronin Inc and Sons",
+    "CreatedDate": "2001-12-03T04:02:01.1900442+01:00",
+    "CreatedBy": "commodi",
+    "CreatedByFullName": "Iliana Aufderhar",
+    "CreatedByAssociateId": 392,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 732,
-    "Title": "ut",
-    "Agenda": "temporibus",
-    "InternalNotes": "facilis",
+    "PreferredTZLocation": 277,
+    "Title": "velit",
+    "Agenda": "unde",
+    "InternalNotes": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 982
       }
     }
   }

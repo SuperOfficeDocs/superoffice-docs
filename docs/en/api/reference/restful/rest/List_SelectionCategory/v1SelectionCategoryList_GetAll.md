@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Schuppe-Beatty",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "UdListDefinitionId": 297,
-    "Rank": 270,
+    "Id": 776,
+    "Name": "Mueller Group",
+    "Tooltip": "vero",
+    "Deleted": false,
+    "UdListDefinitionId": 399,
+    "Rank": 827,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

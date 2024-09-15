@@ -2,10 +2,10 @@
 uid: table-dashboard_tile
 title: dashboard_tile table
 description: Represents one tile in the dashboard
-generated: true
+so.generated: true
 keywords: database table dashboard_tile
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # dashboard\_tile Table (482)

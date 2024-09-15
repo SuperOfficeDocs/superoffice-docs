@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 116,
-  "Name": "Metz Inc and Sons",
-  "Rank": 340,
-  "Tooltip": "est",
+  "AssociateId": 732,
+  "Name": "McCullough Inc and Sons",
+  "Rank": 829,
+  "Tooltip": "dolore",
   "LicenseOwners": [
     {
-      "Name": "Schuppe, Stoltenberg and Davis",
-      "Description": "Stand-alone methodical instruction set",
+      "Name": "Hoppe Group",
+      "Description": "Right-sized bi-directional project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 711
         }
       }
     },
     {
-      "Name": "Schuppe, Stoltenberg and Davis",
-      "Description": "Stand-alone methodical instruction set",
+      "Name": "Hoppe Group",
+      "Description": "Right-sized bi-directional project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 711
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eligendi",
-      "Tooltip": "eos",
-      "Id": 850,
-      "Rank": 757,
+      "Value": "pariatur",
+      "Tooltip": "et",
+      "Id": 41,
+      "Rank": 486,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 825
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-05-18T13:28:32.6166592+02:00",
-  "Lastlogout": "2003-05-02T13:28:32.6166592+02:00",
-  "EjUserId": 115,
-  "RequestSignature": "vel",
+  "Lastlogin": "2021-06-21T04:02:07.0409789+02:00",
+  "Lastlogout": "2012-05-08T04:02:07.0409789+02:00",
+  "EjUserId": 829,
+  "RequestSignature": "deleniti",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nam",
-      "DisplayValue": "dolor",
+      "Value": "dolor",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     },
     {
       "Type": null,
-      "Value": "nam",
-      "DisplayValue": "dolor",
+      "Value": "dolor",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     }
   ],
-  "UserName": "Monahan, Kautzer and Beahan",
+  "UserName": "Kunde, Erdman and Tromp",
   "TicketCategories": [
     {
-      "Id": 458,
-      "Name": "Ullrich, Kovacek and Hermiston",
-      "ToolTip": "Sunt quisquam voluptas natus est quod laudantium.",
-      "Deleted": false,
-      "Rank": 997,
-      "Type": "magnam",
+      "Id": 574,
+      "Name": "Schumm Inc and Sons",
+      "ToolTip": "Sunt tempora aspernatur a soluta et atque dolorem.",
+      "Deleted": true,
+      "Rank": 996,
+      "Type": "architecto",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perferendis",
-      "ColorBlock": 458,
-      "ExtraInfo": "quidem",
-      "StyleHint": "quae",
-      "FullName": "Cristobal Wisoky",
+      "IconHint": "voluptatem",
+      "ColorBlock": 310,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "at",
+      "FullName": "Gloria Hickle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
-  "NickName": "Jaskolski-Ward",
+  "NickName": "Kub-Grant",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "non"
+    "CustomFields1": "est",
+    "CustomFields2": "praesentium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schumm, Kub and Bradtke",
-      "DisplayName": "Fay, Hyatt and Zemlak",
-      "Description": "Assimilated content-based paradigm",
-      "ToolTip": "Qui et dolores et incidunt ut.",
+      "Name": "Goyette, McKenzie and Cruickshank",
+      "DisplayName": "Jerde-Ward",
+      "Description": "Fully-configurable next generation methodology",
+      "ToolTip": "Consequuntur nihil.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem",
+      "ActionData": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 691
+          "FieldType": "System.Int32",
+          "FieldLength": 176
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

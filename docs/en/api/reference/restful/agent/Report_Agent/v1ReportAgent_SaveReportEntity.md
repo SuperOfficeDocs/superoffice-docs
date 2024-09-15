@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 887,
+  "ReportId": 634,
   "ReportCategory": "All",
-  "Description": "Organized scalable project",
+  "Description": "Streamlined 4th generation policy",
   "ReportLayout": "CalendarMonth",
-  "Name": "Labadie-Bogan",
-  "AssociateId": 110,
-  "TemplateId": 49,
+  "Name": "Weissnat-Kihn",
+  "AssociateId": 917,
+  "TemplateId": 66,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 743,
+  "ReportId": 259,
   "ReportCategory": "All",
-  "Description": "Cross-platform mobile info-mediaries",
+  "Description": "Down-sized bifurcated productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Balistreri LLC",
-  "AssociateId": 309,
-  "TemplateId": 818,
-  "Published": true,
+  "Name": "Reynolds, Dooley and Mayer",
+  "AssociateId": 727,
+  "TemplateId": 49,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldLength": 979
     }
   }
 }

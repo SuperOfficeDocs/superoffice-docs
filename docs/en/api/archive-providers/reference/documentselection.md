@@ -654,6 +654,8 @@ This is the archive Provider for the Selection document archive.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -712,7 +714,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelection?$select=person/personAssociate/contactId,person/correspondingAssociate/ejUserId,contact/contactAssociate/ejStatus,contact/contactAssociate/personEmail,project/projectUrl/URLAddress
+GET /api/v1/archive/DocumentSelection?$select=person/supportAssociate,person/personExtra/x_person_user_relation,person/correspondingAssociate/userName,contact/contactAssociate/isActive,sale/earning
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

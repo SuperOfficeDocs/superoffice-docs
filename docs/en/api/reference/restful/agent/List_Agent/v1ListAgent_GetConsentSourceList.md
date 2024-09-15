@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 303,
-    "Name": "Friesen Group",
-    "Tooltip": "iusto",
-    "Rank": 178,
-    "Key": "ipsa",
-    "MailTemplateId": 548,
+    "ConsentSourceId": 369,
+    "Name": "Johnson, Waelchi and Toy",
+    "Tooltip": "consequatur",
+    "Rank": 794,
+    "Key": "voluptatem",
+    "MailTemplateId": 97,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 427
       }
     }
   }

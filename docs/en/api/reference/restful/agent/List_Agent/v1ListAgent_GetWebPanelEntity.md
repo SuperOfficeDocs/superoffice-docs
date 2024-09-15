@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=980
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=387
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 910,
-  "Name": "Boyle LLC",
-  "Tooltip": "rerum",
+  "WebPanelId": 390,
+  "Name": "Koepp-Nicolas",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 273,
+  "Rank": 321,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Fritsch-Davis",
+  "WindowName": "Mosciski, Altenwerth and Mohr",
   "Url": "http://www.example.com/",
-  "ProgId": "labore",
-  "Icon": 470,
+  "ProgId": "distinctio",
+  "Icon": 61,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 182
     }
   }
 }

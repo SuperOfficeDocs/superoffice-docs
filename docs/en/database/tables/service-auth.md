@@ -2,10 +2,10 @@
 uid: table-service_auth
 title: service_auth table
 description: Authentication for a service (imap, smtp...)
-generated: true
+so.generated: true
 keywords: database table service_auth
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # service\_auth Table (488)

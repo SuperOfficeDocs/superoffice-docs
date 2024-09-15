@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Labadie-Maggio",
-    "ToolTip": "Eum ipsam qui.",
+    "Id": 418,
+    "Name": "Wilkinson, Kozey and Tremblay",
+    "ToolTip": "Est odit ducimus.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "et",
-    "ColorBlock": 293,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2005-11-13T13:28:32.9134667+01:00",
+    "Rank": 194,
+    "Type": "minima",
+    "ColorBlock": 512,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2017-01-11T04:02:07.2909529+01:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Hoeger Inc and Sons",
-        "ToolTip": "Reiciendis et accusamus.",
+        "Id": 347,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Deleniti illo maxime esse nostrum quis ad.",
         "Deleted": false,
-        "Rank": 235,
-        "Type": "molestiae",
-        "ColorBlock": 211,
-        "IconHint": "praesentium",
-        "Selected": false,
-        "LastChanged": "2020-12-23T13:28:32.9134667+01:00",
+        "Rank": 62,
+        "Type": "et",
+        "ColorBlock": 337,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2005-06-10T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Jude Bashirian"
+        "ExtraInfo": "nihil",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Dr. Cristobal Linda Brown"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "in",
+    "ExtraInfo": "et",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Kathryn Dibbert"
+    "FullName": "Dr. Elmer Homenick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Johns, Lind and Jenkins",
-    "ToolTip": "Esse quae.",
-    "Deleted": true,
-    "Rank": 31,
-    "Type": "reprehenderit",
-    "ColorBlock": 470,
-    "IconHint": "voluptate",
+    "Id": 149,
+    "Name": "Eichmann, Hartmann and Lockman",
+    "ToolTip": "Eius possimus ea quas et neque inventore et.",
+    "Deleted": false,
+    "Rank": 602,
+    "Type": "velit",
+    "ColorBlock": 658,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2022-09-23T13:28:32.9134667+02:00",
+    "LastChanged": "2016-01-06T04:02:07.2909529+01:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Lind LLC",
-        "ToolTip": "Quas autem eos quas aut.",
-        "Deleted": false,
-        "Rank": 318,
-        "Type": "et",
-        "ColorBlock": 952,
-        "IconHint": "aliquid",
+        "Id": 267,
+        "Name": "Barrows-Zieme",
+        "ToolTip": "Porro delectus qui voluptas pariatur illum incidunt nam.",
+        "Deleted": true,
+        "Rank": 474,
+        "Type": "eos",
+        "ColorBlock": 120,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2003-06-07T13:28:32.9134667+02:00",
+        "LastChanged": "2010-02-28T04:02:07.2909529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "animi",
+        "StyleHint": "similique",
         "Hidden": true,
-        "FullName": "Mrs. Johanna Prince Mayert",
+        "FullName": "Dawn Lonnie Rogahn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldType": "System.Int32",
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Dorthy Johnson",
+    "ExtraInfo": "repellat",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Gregory Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 399
       }
     }
   }

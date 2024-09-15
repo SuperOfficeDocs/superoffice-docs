@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    199,
-    818
+    462,
+    515
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 375,
-    "UniqueId": "ipsam",
-    "Name": "Pfannerstill-Goldner",
-    "Description": "Public-key zero administration benchmark",
-    "AssociateId": 57,
-    "Columns": 10,
+    "DashboardId": 602,
+    "UniqueId": "accusamus",
+    "Name": "Roberts, Trantow and Jaskolski",
+    "Description": "Robust client-server forecast",
+    "AssociateId": 795,
+    "Columns": 181,
     "Theme": null,
-    "VisibleForAll": 735,
+    "VisibleForAll": 183,
     "VisibleForAssociates": [
-      941,
-      881
+      456,
+      956
     ],
     "VisibleForGroups": [
-      639,
-      419
+      467,
+      944
     ],
-    "PinForAll": 603,
+    "PinForAll": 750,
     "PinForAssociates": [
-      313,
-      813
+      975,
+      788
     ],
     "PinForGroups": [
-      760,
-      472
+      248,
+      720
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

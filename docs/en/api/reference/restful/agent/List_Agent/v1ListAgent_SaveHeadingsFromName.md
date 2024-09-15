@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany-Haag",
+  "Name": "Bauch Group",
   "Entities": [
     {
-      "HeadingId": 494,
-      "Name": "Oberbrunner, Roob and Connelly",
-      "Tooltip": "doloribus",
-      "Deleted": true,
-      "Rank": 471,
-      "UdListDefinitionId": 242
+      "HeadingId": 345,
+      "Name": "Fadel, Ferry and Muller",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "Rank": 154,
+      "UdListDefinitionId": 424
     },
     {
-      "HeadingId": 494,
-      "Name": "Oberbrunner, Roob and Connelly",
-      "Tooltip": "doloribus",
-      "Deleted": true,
-      "Rank": 471,
-      "UdListDefinitionId": 242
+      "HeadingId": 345,
+      "Name": "Fadel, Ferry and Muller",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "Rank": 154,
+      "UdListDefinitionId": 424
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 778,
-    "Name": "Schultz Group",
-    "Tooltip": "sint",
+    "HeadingId": 737,
+    "Name": "Bergstrom Inc and Sons",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 238,
-    "UdListDefinitionId": 567,
+    "Rank": 341,
+    "UdListDefinitionId": 826,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 741
       }
     }
   }

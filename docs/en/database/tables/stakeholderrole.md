@@ -2,10 +2,10 @@
 uid: table-StakeholderRole
 title: StakeholderRole table
 description: Role a stakeholder has in a sale
-generated: true
+so.generated: true
 keywords: database table StakeholderRole
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # StakeholderRole Table (122)

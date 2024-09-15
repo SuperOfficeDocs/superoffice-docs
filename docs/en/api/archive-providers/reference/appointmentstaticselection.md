@@ -625,6 +625,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -723,7 +725,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelection?$select=rawType,contact/restrictionAddress/county,person/associateType,person/personCategory,person/personDirectFax/description
+GET /api/v1/archive/AppointmentStaticSelection?$select=contact/contactSource,contact/email/emailBounceCount,person/personAddress/line1,person/personAddress/county,person/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

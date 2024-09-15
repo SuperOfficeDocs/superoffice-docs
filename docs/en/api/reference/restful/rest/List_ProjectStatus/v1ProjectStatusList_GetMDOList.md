@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=beatae
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Braun-Doyle",
-    "ToolTip": "Possimus provident amet culpa.",
+    "Id": 291,
+    "Name": "Dach-Prosacco",
+    "ToolTip": "Ducimus repellendus aut nihil in.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "ad",
+    "Rank": 638,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Parisian-Skiles",
-        "ToolTip": "Et nesciunt.",
-        "Deleted": true,
-        "Rank": 763,
-        "Type": "quasi",
+        "Id": 253,
+        "Name": "Mann, Mraz and Bayer",
+        "ToolTip": "Sed et unde.",
+        "Deleted": false,
+        "Rank": 384,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 496,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "similique",
-        "FullName": "Prof. Eunice Kuphal MD",
+        "IconHint": "sit",
+        "ColorBlock": 521,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "ut",
+        "FullName": "Laury Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 599
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 365,
-    "ExtraInfo": "eos",
-    "StyleHint": "id",
-    "FullName": "Misty Boyle II",
+    "IconHint": "repellendus",
+    "ColorBlock": 584,
+    "ExtraInfo": "saepe",
+    "StyleHint": "rerum",
+    "FullName": "Hillard Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 594
       }
     }
   }

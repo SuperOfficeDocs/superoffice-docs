@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerhold, Connelly and Kerluke",
-  "AdditionalInfo": "et",
-  "SearchValue": "sed"
+  "Name": "Purdy Group",
+  "AdditionalInfo": "ab",
+  "SearchValue": "non"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Flatley Group",
-    "ToolTip": "Id recusandae perferendis veritatis.",
-    "Deleted": true,
-    "Rank": 973,
-    "Type": "deserunt",
+    "Id": 69,
+    "Name": "Hahn-Ruecker",
+    "ToolTip": "Repellendus voluptatum sint culpa eum aliquam modi maxime.",
+    "Deleted": false,
+    "Rank": 526,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Wuckert-Hickle",
-        "ToolTip": "Dolorem recusandae.",
-        "Deleted": true,
-        "Rank": 854,
+        "Id": 915,
+        "Name": "Rice-Kohler",
+        "ToolTip": "Amet eos id facere.",
+        "Deleted": false,
+        "Rank": 859,
         "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 670,
-        "ExtraInfo": "eaque",
-        "StyleHint": "minus",
-        "FullName": "Blake Beer IV",
+        "IconHint": "nobis",
+        "ColorBlock": 978,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "ipsa",
+        "FullName": "Kaci Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 197
+            "FieldLength": 575
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 641,
-    "ExtraInfo": "et",
-    "StyleHint": "soluta",
-    "FullName": "Kristina Kuhlman DDS",
+    "IconHint": "rem",
+    "ColorBlock": 81,
+    "ExtraInfo": "ipsam",
+    "StyleHint": "et",
+    "FullName": "Hermann Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldType": "System.String",
+        "FieldLength": 284
       }
     }
   }

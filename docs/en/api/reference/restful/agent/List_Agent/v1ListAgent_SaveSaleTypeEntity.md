@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 988,
-  "Name": "Nolan-Mraz",
-  "Tooltip": "corrupti",
-  "Rank": 55,
+  "SaleTypeId": 491,
+  "Name": "Hessel, Gutmann and Ward",
+  "Tooltip": "quasi",
+  "Rank": 784,
   "DurationUnit": "Century",
-  "SaleDuration": 248,
-  "SaleTypeCatId": 19,
+  "SaleDuration": 401,
+  "SaleTypeCatId": 276,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 189,
-  "QuoteLinesTemplate": 840,
-  "ConfirmationLinesTemplate": 541,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 24,
+  "QuoteLinesTemplate": 842,
+  "ConfirmationLinesTemplate": 901,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 986,
-  "MinEarningPercent": 354,
-  "GroupQuoteLinesBy": 104,
-  "SortGroupLinesBy": 229,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 212,
+  "MinEarningPercent": 445,
+  "GroupQuoteLinesBy": 80,
+  "SortGroupLinesBy": 255,
   "Stages": [
     {
-      "Id": 889,
-      "Name": "Skiles-Kihn",
-      "ToolTip": "Pariatur nam consequatur odit libero placeat ut.",
+      "Id": 769,
+      "Name": "Cremin, Mertz and Hodkiewicz",
+      "ToolTip": "Sed dolor nisi nihil neque rerum eos.",
       "Deleted": true,
-      "Rank": 424,
+      "Rank": 864,
       "Type": "ipsum",
-      "ColorBlock": 852,
+      "ColorBlock": 270,
       "IconHint": "quas",
       "Selected": false,
-      "LastChanged": "2015-02-17T13:28:23.0231319+01:00",
+      "LastChanged": "2021-08-19T04:02:01.8784808+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "repellat",
+      "ExtraInfo": "quia",
+      "StyleHint": "eos",
       "Hidden": false,
-      "FullName": "Kane Kozey"
+      "FullName": "Prof. Kale Maybell Ritchie"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 636,
-  "Name": "Cummings LLC",
-  "Tooltip": "et",
-  "Rank": 302,
+  "SaleTypeId": 905,
+  "Name": "Kuphal LLC",
+  "Tooltip": "sunt",
+  "Rank": 417,
   "DurationUnit": "Century",
-  "SaleDuration": 908,
-  "SaleTypeCatId": 387,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 220,
+  "SaleTypeCatId": 887,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 72,
-  "QuoteLinesTemplate": 288,
-  "ConfirmationLinesTemplate": 914,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 345,
+  "QuoteLinesTemplate": 910,
+  "ConfirmationLinesTemplate": 600,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 306,
-  "MinEarningPercent": 524,
-  "GroupQuoteLinesBy": 509,
-  "SortGroupLinesBy": 640,
+  "MaxDiscountPercent": 887,
+  "MinEarningPercent": 29,
+  "GroupQuoteLinesBy": 870,
+  "SortGroupLinesBy": 20,
   "Stages": [
     {
-      "Id": 636,
-      "Name": "Rodriguez-Hansen",
-      "ToolTip": "Tenetur sequi neque soluta ipsa itaque.",
+      "Id": 1002,
+      "Name": "Blanda, Nolan and O'Reilly",
+      "ToolTip": "Vel exercitationem quo illo laborum amet voluptatem placeat.",
       "Deleted": false,
-      "Rank": 599,
-      "Type": "dignissimos",
-      "ColorBlock": 910,
-      "IconHint": "expedita",
-      "Selected": true,
-      "LastChanged": "2024-03-27T13:28:23.0231319+01:00",
+      "Rank": 727,
+      "Type": "omnis",
+      "ColorBlock": 952,
+      "IconHint": "cumque",
+      "Selected": false,
+      "LastChanged": "2001-01-20T04:02:01.8784808+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reiciendis",
+      "ExtraInfo": "error",
       "StyleHint": "molestiae",
-      "Hidden": false,
-      "FullName": "Ms. Rashawn Christiansen",
+      "Hidden": true,
+      "FullName": "Nils Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 992
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

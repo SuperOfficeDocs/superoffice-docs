@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 307,
-  "InstanceLayout": "possimus",
-  "InstanceName": "Lesch Inc and Sons",
-  "CreatedDate": "2005-03-05T13:28:21.8356378+01:00",
-  "UpdatedDate": "2007-07-08T13:28:21.8356378+02:00",
+  "AudienceLayoutId": 933,
+  "InstanceLayout": "ipsum",
+  "InstanceName": "Cole, Gaylord and Renner",
+  "CreatedDate": "2023-11-10T04:02:01.221786+01:00",
+  "UpdatedDate": "1999-05-27T04:02:01.221786+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 250,
-  "InstanceLayout": "et",
-  "InstanceName": "Little-Wilkinson",
-  "CreatedDate": "2011-04-15T13:28:21.8356378+02:00",
-  "UpdatedDate": "2002-02-28T13:28:21.8356378+01:00",
+  "AudienceLayoutId": 227,
+  "InstanceLayout": "perspiciatis",
+  "InstanceName": "Schneider LLC",
+  "CreatedDate": "2014-03-09T04:02:01.221786+01:00",
+  "UpdatedDate": "2012-08-13T04:02:01.221786+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 129
     }
   }
 }

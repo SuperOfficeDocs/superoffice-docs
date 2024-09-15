@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 261
+  "RoleId": 997
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Hauck, Yost and Aufderhar",
-    "ToolTip": "Amet sed laudantium.",
+    "Id": 499,
+    "Name": "Stamm-Windler",
+    "ToolTip": "Modi excepturi exercitationem sed sunt quis nemo.",
     "Deleted": false,
-    "Rank": 667,
-    "Type": "placeat",
-    "ColorBlock": 683,
-    "IconHint": "molestiae",
+    "Rank": 298,
+    "Type": "eum",
+    "ColorBlock": 855,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "1997-12-27T13:28:24.1635033+01:00",
+    "LastChanged": "2013-06-15T04:02:02.5353524+02:00",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Bradtke-Howell",
-        "ToolTip": "Alias dolor omnis quod qui optio dicta velit.",
-        "Deleted": false,
-        "Rank": 117,
-        "Type": "totam",
-        "ColorBlock": 236,
-        "IconHint": "odio",
+        "Id": 727,
+        "Name": "Mante, Skiles and Lakin",
+        "ToolTip": "Ullam ut laudantium beatae adipisci.",
+        "Deleted": true,
+        "Rank": 275,
+        "Type": "ut",
+        "ColorBlock": 308,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2018-09-07T13:28:24.1635033+02:00",
+        "LastChanged": "2006-10-19T04:02:02.5353524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Crystel Littel",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quibusdam",
+        "Hidden": false,
+        "FullName": "Derrick Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldType": "System.String",
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Madison Considine V",
+    "ExtraInfo": "qui",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Davion Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Wehner, Hessel and Harris",
-    "ToolTip": "Minus quidem voluptates voluptatum soluta id explicabo.",
+    "Id": 927,
+    "Name": "Hyatt, Auer and Lehner",
+    "ToolTip": "Consequatur illo et.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "quae",
-    "ColorBlock": 278,
-    "IconHint": "labore",
+    "Rank": 353,
+    "Type": "est",
+    "ColorBlock": 361,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1997-11-15T13:28:33.0071964+01:00",
+    "LastChanged": "2022-08-17T04:02:07.337823+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Rodriguez-Bechtelar",
-        "ToolTip": "Eos quia aut esse et ut aut.",
-        "Deleted": true,
-        "Rank": 1002,
-        "Type": "quia",
-        "ColorBlock": 266,
-        "IconHint": "placeat",
+        "Id": 838,
+        "Name": "Dooley-Brekke",
+        "ToolTip": "Blanditiis rerum rem odit incidunt.",
+        "Deleted": false,
+        "Rank": 729,
+        "Type": "occaecati",
+        "ColorBlock": 678,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2018-08-08T13:28:33.0071964+02:00",
+        "LastChanged": "2013-06-15T04:02:07.337823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "beatae",
-        "Hidden": true,
-        "FullName": "Elenora Altenwerth",
+        "ExtraInfo": "ut",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Eloise Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 684
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Ms. Donnell Zachary Huel",
+    "ExtraInfo": "dolores",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Teagan Cormier V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 506
       }
     }
   }

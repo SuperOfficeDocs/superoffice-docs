@@ -2,10 +2,10 @@
 uid: table-kb_workflow
 title: kb_workflow table
 description: Knowledge base workflow steps
-generated: true
+so.generated: true
 keywords: database table kb_workflow
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_workflow Table (292)

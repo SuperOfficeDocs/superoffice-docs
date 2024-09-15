@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 25
+  "UserGroupId": 379
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 655,
+    "TargetAssignmentInfoId": 408,
     "Values": [
-      864,
-      220
+      417,
+      408
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 693,
-    "DimensionListItemDisplayName": "O'Kon-Hegmann",
+    "DimensionListItem": 175,
+    "DimensionListItemDisplayName": "Hartmann-Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 830
       }
     }
   }

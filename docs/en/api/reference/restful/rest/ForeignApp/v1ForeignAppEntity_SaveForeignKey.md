@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "doloribus",
-  "RecordId": 61,
-  "CreatedDate": "2005-07-20T13:28:31.6948645+02:00",
-  "UpdatedDate": "2024-06-18T13:28:31.6948645+02:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "vel",
-  "TableName": "Hermiston, Hermiston and Torp"
+  "Key": "esse",
+  "Value": "sed",
+  "RecordId": 77,
+  "CreatedDate": "2021-09-20T04:02:06.6191478+02:00",
+  "UpdatedDate": "2005-03-19T04:02:06.6191478+01:00",
+  "UpdatedBy": "incidunt",
+  "CreatedBy": "expedita",
+  "TableName": "Lesch Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "exercitationem",
-  "RecordId": 942,
-  "CreatedDate": "2005-03-12T13:28:31.6948645+01:00",
-  "UpdatedDate": "2002-02-01T13:28:31.6948645+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "excepturi",
-  "TableName": "Zieme Inc and Sons",
+  "Key": "esse",
+  "Value": "enim",
+  "RecordId": 546,
+  "CreatedDate": "2019-02-09T04:02:06.6191478+01:00",
+  "UpdatedDate": "2014-08-08T04:02:06.6191478+02:00",
+  "UpdatedBy": "cum",
+  "CreatedBy": "et",
+  "TableName": "Hauck Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

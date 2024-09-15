@@ -2,10 +2,10 @@
 uid: enum-configtype
 title: Enum values for ConfigType
 description: Lists the enum values for ConfigType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ConfigType Enum

@@ -26,7 +26,7 @@ Gets a LocalizedText object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=472
+POST /api/v1/Agents/List/GetLocalizedText?localizedTextId=728
 POST /api/v1/Agents/List/GetLocalizedText?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 320,
-  "ResourceId": 504,
-  "Text": "soluta",
+  "LanguageId": 996,
+  "ResourceId": 138,
+  "Text": "nulla",
   "Type": "Column",
-  "LocalizedTextId": 978,
+  "LocalizedTextId": 912,
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

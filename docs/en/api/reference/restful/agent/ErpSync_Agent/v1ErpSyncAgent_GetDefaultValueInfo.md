@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 202
+  "ErpFieldId": 13
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 962,
-  "DefaultValue": "quas",
+  "ErpFieldId": 216,
+  "DefaultValue": "quaerat",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "reiciendis",
-  "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "iusto",
+  "FirstSyncDefaultValue": "dolorem",
+  "PromptUser": false,
+  "Mandatory": true,
+  "ErpFieldKey": "nobis",
   "FieldType": "Checkbox",
-  "ListName": "Rau-Koch",
+  "ListName": "Sipes-Eichmann",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

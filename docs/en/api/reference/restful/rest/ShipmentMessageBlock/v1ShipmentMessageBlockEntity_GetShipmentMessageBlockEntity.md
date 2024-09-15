@@ -80,7 +80,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 350,
-  "AssociateId": 371,
-  "Block": "voluptatem",
-  "Registered": "2022-11-16T13:28:32.2573673+01:00",
-  "RegisteredAssociateId": 995,
-  "Updated": "2008-05-22T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 879,
-  "UpdatedCount": 589,
+  "ShipmentMessageBlockId": 596,
+  "AssociateId": 359,
+  "Block": "est",
+  "Registered": "2014-01-22T04:02:06.837875+01:00",
+  "RegisteredAssociateId": 523,
+  "Updated": "2013-05-04T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 112,
+  "UpdatedCount": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldLength": 96
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

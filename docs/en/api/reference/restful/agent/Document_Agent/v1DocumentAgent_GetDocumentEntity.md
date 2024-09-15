@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=817
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=278
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 3,
+  "DocumentId": 541,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aperiam",
-  "Header": "iusto",
-  "Name": "Mosciski Inc and Sons",
-  "OurRef": "animi",
-  "YourRef": "doloribus",
-  "CreatedDate": "2017-01-07T13:28:22.5229801+01:00",
-  "UpdatedDate": "2009-05-30T13:28:22.5229801+02:00",
-  "Description": "Synergistic systemic local area network",
+  "Attention": "quae",
+  "Header": "repudiandae",
+  "Name": "Harber Group",
+  "OurRef": "amet",
+  "YourRef": "enim",
+  "CreatedDate": "2017-11-02T04:02:01.6123809+01:00",
+  "UpdatedDate": "2010-06-13T04:02:01.6123809+02:00",
+  "Description": "Proactive reciprocal Graphic Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-07-27T13:28:22.5229801+02:00",
-  "ExternalRef": "ipsam",
+  "Date": "2008-09-15T04:02:01.6123809+02:00",
+  "ExternalRef": "aliquid",
   "Completed": "Completed",
-  "ActiveLinks": 388,
+  "ActiveLinks": 101,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rath Inc and Sons",
-      "Id": 831,
-      "Description": "Centralized explicit firmware",
-      "ExtraInfo": "distinctio",
-      "LinkId": 86,
+      "EntityName": "Moore LLC",
+      "Id": 695,
+      "Description": "Configurable radical installation",
+      "ExtraInfo": "libero",
+      "LinkId": 385,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 744
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 833,
-  "Snum": 687,
+  "SuggestedDocumentId": 622,
+  "Snum": 48,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Quentin Anderson Huel",
-    "SuperOffice:2": "Mr. Gregorio Considine"
+    "SuperOffice:1": "1768755682",
+    "SuperOffice:2": "Prudence Goyette"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "velit",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "2010-04-19T13:28:22.5229801+02:00",
-  "PublishTo": "2018-01-14T13:28:22.5229801+01:00",
-  "PublishFrom": "2003-12-10T13:28:22.5229801+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-04-06T04:02:01.6123809+02:00",
+  "PublishTo": "2015-07-18T04:02:01.6123809+02:00",
+  "PublishFrom": "2004-10-01T04:02:01.6123809+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 365,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 781
         }
       }
     },
     {
-      "VisibleId": 365,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldLength": 781
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

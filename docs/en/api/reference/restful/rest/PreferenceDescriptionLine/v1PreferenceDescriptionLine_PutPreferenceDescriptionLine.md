@@ -93,12 +93,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 603,
-  "PrefDescId": 820,
-  "PrefValue": "doloremque",
-  "PrefShowValue": "incidunt",
-  "Description": "Customizable fresh-thinking implementation",
-  "IsBuiltin": true
+  "PrefDescLineId": 421,
+  "PrefDescId": 287,
+  "PrefValue": "nostrum",
+  "PrefShowValue": "quia",
+  "Description": "Triple-buffered high-level hierarchy",
+  "IsBuiltin": false
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 988,
-  "PrefDescId": 761,
-  "PrefValue": "vel",
-  "PrefShowValue": "quo",
-  "Description": "Polarised zero tolerance success",
-  "IsBuiltin": true,
+  "PrefDescLineId": 356,
+  "PrefDescId": 664,
+  "PrefValue": "eum",
+  "PrefShowValue": "facere",
+  "Description": "Polarised bandwidth-monitored portal",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 453
     }
   },
   "_Links": {

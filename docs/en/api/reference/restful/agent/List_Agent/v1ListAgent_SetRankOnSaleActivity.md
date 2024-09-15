@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnSaleActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 917,
+  "SaleTypeStageLinkId": 318,
   "ItemsIds": [
-    661,
-    558
+    731,
+    608
   ]
 }
 ```

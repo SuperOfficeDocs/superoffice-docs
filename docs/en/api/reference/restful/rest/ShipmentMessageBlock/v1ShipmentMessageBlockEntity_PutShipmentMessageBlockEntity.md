@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 639,
-  "AssociateId": 677,
-  "Block": "perspiciatis",
-  "Registered": "2007-08-26T13:28:32.2573673+02:00",
-  "RegisteredAssociateId": 74,
-  "Updated": "2011-05-10T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 419,
-  "UpdatedCount": 534
+  "ShipmentMessageBlockId": 245,
+  "AssociateId": 313,
+  "Block": "suscipit",
+  "Registered": "2011-11-21T04:02:06.837875+01:00",
+  "RegisteredAssociateId": 706,
+  "Updated": "2022-10-12T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 794,
+  "UpdatedCount": 782
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 359,
-  "AssociateId": 486,
-  "Block": "ex",
-  "Registered": "2017-02-17T13:28:32.2573673+01:00",
-  "RegisteredAssociateId": 605,
-  "Updated": "2004-08-13T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 88,
-  "UpdatedCount": 72,
+  "ShipmentMessageBlockId": 630,
+  "AssociateId": 586,
+  "Block": "commodi",
+  "Registered": "2015-06-19T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 997,
+  "Updated": "1997-06-18T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 592,
+  "UpdatedCount": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 673
     }
   },
   "_Links": {

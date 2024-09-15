@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 41,
-  "OnlyOpenSales": false
+  "PersonId": 228,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Durgan Inc and Sons",
-    "SaleDate": "2013-11-22T13:28:23.6948543+01:00",
-    "SaleId": 872,
-    "Probability": 374,
-    "Title": "beatae",
-    "Amount": 27760.971999999998,
-    "Currency": "ut",
-    "ProjectName": "Feil Group",
-    "AssociateFullName": "Deja Leuschke",
-    "Description": "Compatible reciprocal system engine",
+    "ContactName": "Bergnaum, Thiel and Feil",
+    "SaleDate": "2008-02-07T04:02:02.28488+01:00",
+    "SaleId": 583,
+    "Probability": 693,
+    "Title": "ab",
+    "Amount": 282.06,
+    "Currency": "voluptates",
+    "ProjectName": "Boehm-Grant",
+    "AssociateFullName": "Kale D'Amore",
+    "Description": "Realigned 5th generation customer loyalty",
     "Status": "Lost",
-    "WeightedAmount": 23041.167999999998,
-    "ProjectId": 637,
-    "EarningPercent": 14162.546,
-    "Earning": 1206.59,
-    "ContactId": 72,
-    "AssociateId": 968,
-    "PersonId": 863,
-    "SaleTypeId": 937,
-    "SaleTypeName": "Zieme LLC",
-    "PersonFullName": "Issac Mraz",
+    "WeightedAmount": 29434.528,
+    "ProjectId": 424,
+    "EarningPercent": 7408.776,
+    "Earning": 6418.432,
+    "ContactId": 299,
+    "AssociateId": 992,
+    "PersonId": 441,
+    "SaleTypeId": 394,
+    "SaleTypeName": "Moen Inc and Sons",
+    "PersonFullName": "Kavon Krista Kozey PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 318,
-    "NextDueDate": "2011-12-22T13:28:23.6948543+01:00",
-    "Number": "1220177",
+    "ActiveErpLinks": 98,
+    "NextDueDate": "2019-02-17T04:02:02.28488+01:00",
+    "Number": "970290",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldType": "System.String",
+        "FieldLength": 120
       }
     }
   }

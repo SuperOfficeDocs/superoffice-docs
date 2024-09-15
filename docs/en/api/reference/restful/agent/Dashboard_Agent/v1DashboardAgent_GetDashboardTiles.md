@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    384,
-    590
+    803,
+    826
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 124,
-    "Caption": "quaerat",
-    "Description": "Monitored fresh-thinking instruction set",
-    "ChartName": "Bauch-Predovic",
-    "ChartId": "eaque",
+    "DashboardTileId": 816,
+    "Caption": "dolor",
+    "Description": "Robust zero tolerance info-mediaries",
+    "ChartName": "Herzog, Larson and Lind",
+    "ChartId": "reprehenderit",
     "IsDefault": false,
-    "AssociateId": 749,
-    "GroupId": 661,
-    "SelectionId": 195,
-    "Config": "quam",
+    "AssociateId": 9,
+    "GroupId": 313,
+    "SelectionId": 564,
+    "Config": "quasi",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Marvin-Hahn",
-        "Description": "Customer-focused zero defect help-desk",
+        "Name": "Rempel, Grant and Schmeler",
+        "Description": "Customer-focused responsive interface",
         "Type": "Boolean",
-        "ListName": "Olson-Connelly",
+        "ListName": "Zboncak Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "et",
-        "DefaultDataOption": true,
+        "Value": "omnis",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 880,
+        "VisibleId": 649,
         "Visibility": "All",
-        "DisplayValue": "maxime",
+        "DisplayValue": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 323
           }
         }
       },
       {
-        "VisibleId": 880,
+        "VisibleId": 649,
         "Visibility": "All",
-        "DisplayValue": "maxime",
+        "DisplayValue": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 323
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

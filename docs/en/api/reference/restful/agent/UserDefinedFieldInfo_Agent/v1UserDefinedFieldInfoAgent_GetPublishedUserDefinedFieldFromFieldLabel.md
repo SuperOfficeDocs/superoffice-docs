@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "alias",
+  "FieldLabel": "qui",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 856,
-  "ColumnId": 361,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 869,
-  "FieldLabel": "tenetur",
-  "FieldLeft": 378,
-  "FieldTop": 869,
+  "UDefFieldId": 771,
+  "ColumnId": 235,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 573,
+  "FieldLabel": "temporibus",
+  "FieldLeft": 274,
+  "FieldTop": 649,
   "FieldType": "Checkbox",
-  "FieldWidth": 232,
-  "FormatMask": "consectetur",
+  "FieldWidth": 47,
+  "FormatMask": "cum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 222,
-  "LabelLeft": 301,
-  "LabelTop": 261,
-  "LabelWidth": 417,
-  "LastVersionId": 456,
-  "ListTableId": 99,
+  "LabelHeight": 195,
+  "LabelLeft": 115,
+  "LabelTop": 432,
+  "LabelWidth": 78,
+  "LastVersionId": 935,
+  "ListTableId": 224,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 615,
-  "ProgId": "ad",
+  "Page1LineNo": 480,
+  "ProgId": "non",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 209,
-  "TextLength": 451,
-  "Tooltip": "atque",
-  "UdefIdentity": 499,
-  "UDListDefinitionId": 355,
+  "ShortLabel": "facilis",
+  "TabOrder": 506,
+  "TextLength": 159,
+  "Tooltip": "doloribus",
+  "UdefIdentity": 1001,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 512,
-  "TemplateVariableName": "Vandervort, Feeney and Heathcote",
+  "Version": 137,
+  "TemplateVariableName": "Cassin, Konopelski and Adams",
   "HasBeenPublished": false,
-  "MdoListName": "Leuschke, Hintz and Erdman",
+  "MdoListName": "Paucek, Reichel and Roberts",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 715
     }
   }
 }

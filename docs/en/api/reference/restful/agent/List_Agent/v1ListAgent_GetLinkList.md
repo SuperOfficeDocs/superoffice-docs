@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Becker, Ziemann and Jaskolski",
-    "Id": 339,
-    "Description": "Quality-focused maximized infrastructure",
-    "ExtraInfo": "sit",
-    "LinkId": 479,
+    "EntityName": "Emmerich-Gaylord",
+    "Id": 379,
+    "Description": "Diverse solution-oriented framework",
+    "ExtraInfo": "vero",
+    "LinkId": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 614
       }
     }
   }

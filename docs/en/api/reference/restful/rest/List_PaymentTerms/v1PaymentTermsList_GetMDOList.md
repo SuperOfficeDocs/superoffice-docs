@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=consectetur
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=id
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Schneider LLC",
-    "ToolTip": "Eligendi hic rerum ut.",
-    "Deleted": false,
-    "Rank": 839,
-    "Type": "quod",
+    "Id": 378,
+    "Name": "Schmeler-McClure",
+    "ToolTip": "Dolor qui voluptas vel.",
+    "Deleted": true,
+    "Rank": 446,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Fahey, Vandervort and Gerlach",
-        "ToolTip": "Aut quia odit voluptatum.",
-        "Deleted": true,
-        "Rank": 751,
-        "Type": "sed",
+        "Id": 434,
+        "Name": "Gleichner, Botsford and Willms",
+        "ToolTip": "Sit velit dolores aut nostrum omnis.",
+        "Deleted": false,
+        "Rank": 917,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 789,
-        "ExtraInfo": "sunt",
-        "StyleHint": "neque",
-        "FullName": "Misael Skiles",
+        "IconHint": "excepturi",
+        "ColorBlock": 129,
+        "ExtraInfo": "labore",
+        "StyleHint": "modi",
+        "FullName": "Mr. Jeffrey Hauck III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 262
+            "FieldType": "System.Int32",
+            "FieldLength": 112
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 742,
-    "ExtraInfo": "vel",
-    "StyleHint": "et",
-    "FullName": "Sven Bogan I",
+    "IconHint": "voluptatem",
+    "ColorBlock": 949,
+    "ExtraInfo": "atque",
+    "StyleHint": "impedit",
+    "FullName": "Camylle Feest IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 998
       }
     }
   }

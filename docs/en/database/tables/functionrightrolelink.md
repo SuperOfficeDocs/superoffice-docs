@@ -2,10 +2,10 @@
 uid: table-FunctionRightRoleLink
 title: FunctionRightRoleLink table
 description: Functional right definition
-generated: true
+so.generated: true
 keywords: database table FunctionRightRoleLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # FunctionRightRoleLink Table (194)

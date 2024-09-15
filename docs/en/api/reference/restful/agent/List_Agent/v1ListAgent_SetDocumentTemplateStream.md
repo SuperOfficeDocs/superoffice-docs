@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "non",
-  "PluginId": 759
+  "LanguageCode": "voluptas",
+  "PluginId": 157
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 29,
-  "Name": "Keeling Group",
-  "Tooltip": "sit",
-  "SaveInDb": 47,
-  "Filename": "assumenda",
-  "DefaultOref": "veniam",
+  "DocumentTemplateId": 75,
+  "Name": "Kutch, Considine and Adams",
+  "Tooltip": "deleniti",
+  "SaveInDb": 399,
+  "Filename": "quae",
+  "DefaultOref": "sequi",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 308,
-  "IntentId": 586,
+  "AutoeventId": 905,
+  "IntentId": 671,
   "IsDefaultPublished": false,
-  "Rank": 746,
-  "LoadTemplateFromPlugin": 875,
-  "MimeType": "amet",
+  "Rank": 654,
+  "LoadTemplateFromPlugin": 385,
+  "MimeType": "recusandae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 299,
+  "DocumentTypeKey": 61,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "christ_jacobs@mayer.co.uk",
+  "EmailSubject": "bailey@lang.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "juliet_dicki@ziemefeest.uk",
+  "SenderEmailAddress": "lacy.adams@schroeder.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 787
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-satellite
 title: satellite table
 description: Definition of Satellites
-generated: true
+so.generated: true
 keywords: database table satellite
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # satellite Table (42)

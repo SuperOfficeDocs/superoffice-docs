@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 873,
-    "Name": "Altenwerth Inc and Sons",
-    "CurrencyId": 955,
-    "EnglishName": "Abshire LLC",
+    "CountryId": 287,
+    "Name": "Walker, Lind and Swaniawski",
+    "CurrencyId": 896,
+    "EnglishName": "Boyer Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Devolved multi-state access",
-    "OrgNrText": "1145360",
-    "InterAreaPrefix": "quia",
-    "DialInPrefix": "eum",
-    "ZipPrefix": "praesentium",
-    "DomainName": "Lehner, Bruen and Graham",
-    "AddressLayoutId": 689,
-    "DomesticAddressLayoutId": 533,
-    "ForeignAddressLayoutId": 614,
-    "Rank": 548,
-    "Tooltip": "est",
+    "ImageDescription": "Inverse global pricing structure",
+    "OrgNrText": "955972",
+    "InterAreaPrefix": "dolorum",
+    "DialInPrefix": "fugit",
+    "ZipPrefix": "sunt",
+    "DomainName": "Adams, Yundt and Green",
+    "AddressLayoutId": 939,
+    "DomesticAddressLayoutId": 67,
+    "ForeignAddressLayoutId": 636,
+    "Rank": 955,
+    "Tooltip": "possimus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

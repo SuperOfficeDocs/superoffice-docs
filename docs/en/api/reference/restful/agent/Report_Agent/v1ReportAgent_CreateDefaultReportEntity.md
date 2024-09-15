@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 818,
+  "ReportId": 803,
   "ReportCategory": "All",
-  "Description": "Streamlined contextually-based archive",
+  "Description": "Switchable national process improvement",
   "ReportLayout": "CalendarMonth",
-  "Name": "Jacobi, Douglas and Koepp",
-  "AssociateId": 681,
-  "TemplateId": 29,
+  "Name": "Waters-Trantow",
+  "AssociateId": 822,
+  "TemplateId": 443,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 797
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: enum-preferencelevel
 title: Enum values for PreferenceLevel
 description: Lists the enum values for PreferenceLevel.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PreferenceLevel Enum

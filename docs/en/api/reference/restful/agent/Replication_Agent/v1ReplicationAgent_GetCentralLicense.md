@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir-Waelchi",
-    "Description": "Cross-platform reciprocal info-mediaries",
+    "Name": "Murray, Bahringer and Schultz",
+    "Description": "Universal zero administration attitude",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 889,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 468,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 36,
-        "InUse": 820,
-        "IsHidden": true,
+        "Free": 533,
+        "InUse": 230,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 150,
-        "Name": "Schumm, Swift and Heidenreich",
-        "Description": "Future-proofed stable data-warehouse",
-        "PrerequisiteModuleName": "Bechtelar-Okuneva",
-        "SortOrder": 580,
-        "ExtraFlags": 713,
+        "ModuleLicenseId": 598,
+        "Name": "Kirlin, Kuphal and O'Kon",
+        "Description": "Automated interactive structure",
+        "PrerequisiteModuleName": "Schaefer LLC",
+        "SortOrder": 683,
+        "ExtraFlags": 632,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 223
+            "FieldType": "System.Int32",
+            "FieldLength": 541
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 170,
-        "Tooltip": "voluptate",
-        "CanAssign": true,
-        "Free": 190,
-        "InUse": 54,
+        "Unrestricted": false,
+        "Total": 773,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 621,
+        "InUse": 175,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 816,
-        "Name": "Deckow-Torphy",
-        "Description": "Integrated intangible approach",
-        "PrerequisiteModuleName": "Bechtelar, Greenfelder and Wilderman",
-        "SortOrder": 774,
-        "ExtraFlags": 965,
+        "Assigned": false,
+        "ModuleLicenseId": 24,
+        "Name": "Fisher, Lemke and Dare",
+        "Description": "Customizable systemic help-desk",
+        "PrerequisiteModuleName": "Ritchie, Becker and Raynor",
+        "SortOrder": 68,
+        "ExtraFlags": 787,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 97
+            "FieldLength": 809
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 170
       }
     }
   },
   {
-    "Name": "Runolfsdottir-Waelchi",
-    "Description": "Cross-platform reciprocal info-mediaries",
+    "Name": "Murray, Bahringer and Schultz",
+    "Description": "Universal zero administration attitude",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 889,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 468,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 36,
-        "InUse": 820,
-        "IsHidden": true,
+        "Free": 533,
+        "InUse": 230,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 150,
-        "Name": "Schumm, Swift and Heidenreich",
-        "Description": "Future-proofed stable data-warehouse",
-        "PrerequisiteModuleName": "Bechtelar-Okuneva",
-        "SortOrder": 580,
-        "ExtraFlags": 713,
+        "ModuleLicenseId": 598,
+        "Name": "Kirlin, Kuphal and O'Kon",
+        "Description": "Automated interactive structure",
+        "PrerequisiteModuleName": "Schaefer LLC",
+        "SortOrder": 683,
+        "ExtraFlags": 632,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 223
+            "FieldType": "System.Int32",
+            "FieldLength": 541
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 170,
-        "Tooltip": "voluptate",
-        "CanAssign": true,
-        "Free": 190,
-        "InUse": 54,
+        "Unrestricted": false,
+        "Total": 773,
+        "Tooltip": "a",
+        "CanAssign": false,
+        "Free": 621,
+        "InUse": 175,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 816,
-        "Name": "Deckow-Torphy",
-        "Description": "Integrated intangible approach",
-        "PrerequisiteModuleName": "Bechtelar, Greenfelder and Wilderman",
-        "SortOrder": 774,
-        "ExtraFlags": 965,
+        "Assigned": false,
+        "ModuleLicenseId": 24,
+        "Name": "Fisher, Lemke and Dare",
+        "Description": "Customizable systemic help-desk",
+        "PrerequisiteModuleName": "Ritchie, Becker and Raynor",
+        "SortOrder": 68,
+        "ExtraFlags": 787,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 97
+            "FieldLength": 809
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 170
       }
     }
   }

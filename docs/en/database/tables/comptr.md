@@ -2,10 +2,10 @@
 uid: table-Comptr
 title: Comptr table
 description: Comptr list table. List of all possible competitors (sale).
-generated: true
+so.generated: true
 keywords: database table Comptr
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Comptr Table (109)

@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "O'Kon, Cummerata and Welch",
-  "ListItemId": 348
+  "UdListDefinitionName": "Emard Inc and Sons",
+  "ListItemId": 184
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Deckow, Wilkinson and Crona",
-    "ToolTip": "Aut sed excepturi eum magni rerum quasi.",
+    "Id": 828,
+    "Name": "Bartell, Macejkovic and Vandervort",
+    "ToolTip": "Deserunt ut fugit accusamus voluptatibus tenetur.",
     "Deleted": true,
-    "Rank": 542,
-    "Type": "eos",
-    "ColorBlock": 658,
-    "IconHint": "architecto",
+    "Rank": 90,
+    "Type": "quis",
+    "ColorBlock": 169,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "1997-04-18T13:28:22.9294051+02:00",
+    "LastChanged": "2005-05-05T04:02:01.8316108+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Aufderhar, Schiller and Morar",
-        "ToolTip": "Natus quia illo recusandae.",
-        "Deleted": true,
-        "Rank": 1002,
-        "Type": "at",
-        "ColorBlock": 963,
-        "IconHint": "facilis",
-        "Selected": true,
-        "LastChanged": "2009-05-17T13:28:22.9294051+02:00",
+        "Id": 986,
+        "Name": "Lockman-Zboncak",
+        "ToolTip": "Magni debitis aliquid aut.",
+        "Deleted": false,
+        "Rank": 854,
+        "Type": "ab",
+        "ColorBlock": 227,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2019-08-02T04:02:01.8316108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Ms. Aurelio Leatha Crooks",
+        "ExtraInfo": "nisi",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Mr. Demarco Joshua Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldLength": 441
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "suscipit",
-    "Hidden": false,
-    "FullName": "Vito Linwood Heathcote Sr.",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Thurman Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 979
       }
     }
   }

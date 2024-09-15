@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 302,
-  "Name": "Graham, Okuneva and Ankunding",
-  "Rank": 452,
-  "Tooltip": "sapiente",
+  "AssociateId": 467,
+  "Name": "Buckridge Inc and Sons",
+  "Rank": 640,
+  "Tooltip": "explicabo",
   "LicenseOwners": [
     {
-      "Name": "DuBuque-Jast",
-      "Description": "Horizontal high-level throughput",
+      "Name": "Moen-Price",
+      "Description": "Fully-configurable secondary open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "DuBuque-Jast",
-      "Description": "Horizontal high-level throughput",
+      "Name": "Moen-Price",
+      "Description": "Fully-configurable secondary open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ratione",
-      "Tooltip": "repellat",
-      "Id": 754,
-      "Rank": 447,
+      "Value": "numquam",
+      "Tooltip": "sit",
+      "Id": 836,
+      "Rank": 771,
       "Deleted": true
     },
     {
-      "Value": "ratione",
-      "Tooltip": "repellat",
-      "Id": 754,
-      "Rank": 447,
+      "Value": "numquam",
+      "Tooltip": "sit",
+      "Id": 836,
+      "Rank": 771,
       "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2011-09-05T13:28:32.6166592+02:00",
-  "Lastlogout": "2023-11-02T13:28:32.6166592+01:00",
-  "EjUserId": 722,
-  "RequestSignature": "molestias",
+  "Lastlogin": "2004-04-11T04:02:07.0409789+02:00",
+  "Lastlogout": "2009-03-21T04:02:07.0409789+01:00",
+  "EjUserId": 576,
+  "RequestSignature": "eum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "occaecati",
-      "DisplayValue": "necessitatibus"
+      "Value": "et",
+      "DisplayValue": "non"
     },
     {
       "Type": null,
-      "Value": "occaecati",
-      "DisplayValue": "necessitatibus"
+      "Value": "et",
+      "DisplayValue": "non"
     }
   ],
-  "UserName": "Carroll-Kertzmann",
+  "UserName": "Zieme, Smith and Sanford",
   "TicketCategories": [
     {
-      "Id": 684,
-      "Name": "Jast-Pouros",
-      "ToolTip": "Quia ut recusandae et ipsum.",
-      "Deleted": false,
-      "Rank": 803,
-      "Type": "quasi",
+      "Id": 570,
+      "Name": "Powlowski Inc and Sons",
+      "ToolTip": "Hic deleniti totam quasi.",
+      "Deleted": true,
+      "Rank": 496,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "autem",
-      "ColorBlock": 727,
+      "IconHint": "sed",
+      "ColorBlock": 634,
       "ExtraInfo": "ullam",
-      "StyleHint": "facere",
-      "FullName": "Kobe Collins"
+      "StyleHint": "rerum",
+      "FullName": "Dr. Roselyn Hahn PhD"
     }
   ],
-  "NickName": "Mante LLC",
-  "WaitingForApproval": true,
+  "NickName": "Padberg, Streich and Zboncak",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "perspiciatis"
+    "CustomFields1": "quasi",
+    "CustomFields2": "qui"
   },
   "PostSaveCommands": [
     {
-      "Name": "Morissette Inc and Sons",
-      "DisplayName": "Erdman-Barton",
-      "Description": "Open-source optimal budgetary management",
-      "ToolTip": "In aut vel pariatur rem iste asperiores.",
+      "Name": "Huels LLC",
+      "DisplayName": "Frami Group",
+      "Description": "Robust zero tolerance focus group",
+      "ToolTip": "Repellat sunt consequatur praesentium autem sunt quia.",
       "Actions": "Implicit",
-      "ActionData": "quam"
+      "ActionData": "fugit"
     },
     {
-      "Name": "Morissette Inc and Sons",
-      "DisplayName": "Erdman-Barton",
-      "Description": "Open-source optimal budgetary management",
-      "ToolTip": "In aut vel pariatur rem iste asperiores.",
+      "Name": "Huels LLC",
+      "DisplayName": "Frami Group",
+      "Description": "Robust zero tolerance focus group",
+      "ToolTip": "Repellat sunt consequatur praesentium autem sunt quia.",
       "Actions": "Implicit",
-      "ActionData": "quam"
+      "ActionData": "fugit"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "autem",
-  "2": "et"
+  "1": "sed",
+  "2": "pariatur"
 }
 ```

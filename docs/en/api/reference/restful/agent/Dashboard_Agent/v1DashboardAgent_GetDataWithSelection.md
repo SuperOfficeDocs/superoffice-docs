@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 617,
-  "SelectionId": 319,
-  "Restrictions": "est"
+  "DashboardTileId": 116,
+  "SelectionId": 103,
+  "Restrictions": "dolorem"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Halvorson, Thompson and Bartell",
-        "DisplayTooltip": "esse",
-        "DisplayType": "quia",
+        "DisplayName": "O'Kon, Rippin and O'Keefe",
+        "DisplayTooltip": "quae",
+        "DisplayType": "dolorum",
         "CanOrderBy": false,
-        "Name": "Kozey, Nolan and Koelpin",
+        "Name": "Mitchell, Pouros and Muller",
         "CanRestrictBy": false,
-        "RestrictionType": "fugiat",
-        "RestrictionListName": "Robel-Dickens",
+        "RestrictionType": "illum",
+        "RestrictionListName": "Schowalter Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "odit",
-        "Width": "sequi",
-        "IconHint": "incidunt",
-        "HeadingIconHint": "nesciunt"
+        "ExtraInfo": "consequatur",
+        "Width": "est",
+        "IconHint": "corporis",
+        "HeadingIconHint": "aut"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Halvorson, Thompson and Bartell",
-        "DisplayTooltip": "esse",
-        "DisplayType": "quia",
+        "DisplayName": "O'Kon, Rippin and O'Keefe",
+        "DisplayTooltip": "quae",
+        "DisplayType": "dolorum",
         "CanOrderBy": false,
-        "Name": "Kozey, Nolan and Koelpin",
+        "Name": "Mitchell, Pouros and Muller",
         "CanRestrictBy": false,
-        "RestrictionType": "fugiat",
-        "RestrictionListName": "Robel-Dickens",
+        "RestrictionType": "illum",
+        "RestrictionListName": "Schowalter Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "odit",
-        "Width": "sequi",
-        "IconHint": "incidunt",
-        "HeadingIconHint": "nesciunt"
+        "ExtraInfo": "consequatur",
+        "Width": "est",
+        "IconHint": "corporis",
+        "HeadingIconHint": "aut"
       }
     ],
     "Result": null

@@ -2,10 +2,10 @@
 uid: table-chat_session
 title: chat_session table
 description: This table contains chat sessions.
-generated: true
+so.generated: true
 keywords: database table chat_session
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # chat\_session Table (332)

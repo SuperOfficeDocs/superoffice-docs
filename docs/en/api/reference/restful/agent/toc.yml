@@ -6,6 +6,8 @@ items:
   items:
   - name: ClearChatbotTurns
     href: AI_Agent/v1AIAgent_ClearChatbotTurns.md
+  - name: CreateTextForAppointment
+    href: AI_Agent/v1AIAgent_CreateTextForAppointment.md
   - name: DetectLanguage
     href: AI_Agent/v1AIAgent_DetectLanguage.md
   - name: DetectSentiment
@@ -3932,6 +3934,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_AddAfterWorkflowStep.md
   - name: ConnectEmailFlowContent
     href: Workflow_Agent/v1WorkflowAgent_ConnectEmailFlowContent.md
+  - name: CopyEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_CopyEmailFlow.md
   - name: CopyEmailFlowContent
     href: Workflow_Agent/v1WorkflowAgent_CopyEmailFlowContent.md
   - name: CreateDefaultEmailFlow

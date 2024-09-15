@@ -2,10 +2,10 @@
 uid: table-selectionmember
 title: selectionmember table
 description: Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id.
-generated: true
+so.generated: true
 keywords: database table selectionmember
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # selectionmember Table (24)

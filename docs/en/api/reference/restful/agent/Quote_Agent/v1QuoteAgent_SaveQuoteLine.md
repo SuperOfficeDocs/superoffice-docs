@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 707,
-  "ERPQuoteLineKey": "laboriosam",
-  "QuoteAlternativeId": 489,
-  "ERPProductKey": "et",
+  "QuoteLineId": 987,
+  "ERPQuoteLineKey": "nihil",
+  "QuoteAlternativeId": 334,
+  "ERPProductKey": "nesciunt",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 112.824,
-  "DeliveredQuantity": 30230.564,
-  "Rank": 207,
-  "Name": "Lebsack, Spencer and Beier",
-  "Description": "Robust eco-centric paradigm",
-  "Code": "itaque",
-  "QuantityUnit": "totam",
-  "PriceUnit": "perspiciatis",
-  "ItemNumber": "1584587",
+  "Quantity": 9878.368,
+  "DeliveredQuantity": 27463.242,
+  "Rank": 889,
+  "Name": "Zboncak Inc and Sons",
+  "Description": "Realigned composite open system",
+  "Code": "nesciunt",
+  "QuantityUnit": "aut",
+  "PriceUnit": "ea",
+  "ItemNumber": "1143428",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "vel",
-  "Supplier": "ex",
-  "SupplierCode": "ullam",
-  "Thumbnail": "dolor",
-  "VATInfo": "eum",
-  "VAT": 12724.039999999999,
-  "UnitCost": 8668.644,
-  "UnitMinimumPrice": 21489.838,
-  "UnitListPrice": 27134.172,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "aliquam",
+  "Supplier": "earum",
+  "SupplierCode": "in",
+  "Thumbnail": "a",
+  "VATInfo": "temporibus",
+  "VAT": 17387.432,
+  "UnitCost": 13673.642,
+  "UnitMinimumPrice": 16205.913999999999,
+  "UnitListPrice": 24128.665999999997,
   "ExtraInfo": [
     {
-      "Name": "Ondricka LLC",
-      "Value": "sapiente",
+      "Name": "Hettinger Inc and Sons",
+      "Value": "veritatis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 154
         }
       }
     },
     {
-      "Name": "Ondricka LLC",
-      "Value": "sapiente",
+      "Name": "Hettinger Inc and Sons",
+      "Value": "veritatis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 154
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sint",
-  "SubscriptionQuantity": 12401.238,
-  "SubscriptionStart": "2012-12-03T13:28:23.5855044+01:00",
-  "ERPDiscountPercent": 9561.8339999999989,
-  "ERPDiscountAmount": 12940.286,
-  "DiscountPercent": 13128.326,
-  "DiscountAmount": 6086.228,
+  "RawExtraInfo": "soluta",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quos",
+  "SubscriptionQuantity": 23721.246,
+  "SubscriptionStart": "2000-09-26T04:02:02.2222071+02:00",
+  "ERPDiscountPercent": 6474.844,
+  "ERPDiscountAmount": 27641.879999999997,
+  "DiscountPercent": 19549.892,
+  "DiscountAmount": 19860.158,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3137.134,
-  "EarningAmount": 28854.737999999998,
-  "SubTotal": 13726.92,
-  "TotalPrice": 11912.333999999999,
-  "Rights": "itaque",
-  "Rule": "eaque",
-  "ExtraField1": "illo",
-  "ExtraField2": "fugit",
-  "ExtraField3": "quo",
-  "ExtraField4": "veniam",
-  "ExtraField5": "sunt",
+  "EarningPercent": 20477.556,
+  "EarningAmount": 26523.041999999998,
+  "SubTotal": 24692.786,
+  "TotalPrice": 11714.892,
+  "Rights": "necessitatibus",
+  "Rule": "repellendus",
+  "ExtraField1": "culpa",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "asperiores",
+  "ExtraField4": "nulla",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 63
     }
   }
 }

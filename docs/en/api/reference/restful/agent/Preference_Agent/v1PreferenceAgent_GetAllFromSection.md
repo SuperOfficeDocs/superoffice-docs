@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "at"
+  "Section": "soluta"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 780,
-    "Section": "aliquam",
-    "Key": "id",
-    "Name": "Lang-Reynolds",
+    "PrefDescId": 899,
+    "Section": "blanditiis",
+    "Key": "aut",
+    "Name": "Tillman LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Function-based real-time forecast",
-    "IsBuiltin": true,
-    "TableName": "Wisoky-Flatley",
-    "UserDefinedListId": 569,
-    "Rank": 967,
-    "SubGroup": "facilis",
-    "MinLevel": 648,
-    "MaxValue": 869,
-    "MinValue": 770,
-    "RequiredLicense": "ipsum",
+    "Description": "Reverse-engineered well-modulated model",
+    "IsBuiltin": false,
+    "TableName": "Hettinger, Dach and Cummings",
+    "UserDefinedListId": 747,
+    "Rank": 189,
+    "SubGroup": "rerum",
+    "MinLevel": 488,
+    "MaxValue": 492,
+    "MinValue": 176,
+    "RequiredLicense": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 356
       }
     }
   }

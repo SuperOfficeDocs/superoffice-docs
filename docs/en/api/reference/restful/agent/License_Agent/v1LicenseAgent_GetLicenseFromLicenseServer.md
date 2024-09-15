@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ritchie Inc and Sons"
+  "OwnerName": "Tillman-Marquardt"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 947,
-      "NumberOfLicensesFree": 285,
-      "NumberOfLicensesAdded": 195,
-      "NumberOfLicensesNewTotal": 347,
-      "NumberOfLicensesNewFree": 848,
-      "NumberOfLicensesTotal": 145
+      "NumberOfLicensesInUse": 859,
+      "NumberOfLicensesFree": 661,
+      "NumberOfLicensesAdded": 801,
+      "NumberOfLicensesNewTotal": 115,
+      "NumberOfLicensesNewFree": 525,
+      "NumberOfLicensesTotal": 241
     }
   ],
-  "AccumulatedNextCheckDate": "2013-03-21T13:28:22.866653+01:00"
+  "AccumulatedNextCheckDate": "2014-12-07T04:02:01.8003604+01:00"
 }
 ```

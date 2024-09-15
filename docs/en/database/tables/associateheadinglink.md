@@ -2,10 +2,10 @@
 uid: table-AssociateHeadingLink
 title: AssociateHeadingLink table
 description: Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. 
-generated: true
+so.generated: true
 keywords: database table AssociateHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AssociateHeadingLink Table (4)

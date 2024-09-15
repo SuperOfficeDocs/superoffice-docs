@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Green, VonRueden and Pagac",
-    "ToolTip": "Placeat inventore non officiis voluptas.",
+    "Id": 706,
+    "Name": "Heller-Gislason",
+    "ToolTip": "Ut et dolorum sit laborum quaerat cum.",
     "Deleted": false,
-    "Rank": 14,
-    "Type": "quo",
-    "ColorBlock": 692,
-    "IconHint": "earum",
+    "Rank": 88,
+    "Type": "sit",
+    "ColorBlock": 699,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2016-05-09T13:28:32.6479022+02:00",
+    "LastChanged": "2018-06-11T04:02:07.0566019+02:00",
     "ChildItems": [
       {
-        "Id": 756,
-        "Name": "Nader Group",
-        "ToolTip": "Facilis sit suscipit aliquam.",
+        "Id": 801,
+        "Name": "Windler, Schultz and Smitham",
+        "ToolTip": "Id molestiae.",
         "Deleted": true,
-        "Rank": 865,
-        "Type": "tempora",
-        "ColorBlock": 159,
-        "IconHint": "eum",
+        "Rank": 693,
+        "Type": "consequuntur",
+        "ColorBlock": 577,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2021-06-18T13:28:32.6479022+02:00",
+        "LastChanged": "2011-12-07T04:02:07.0566019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "nisi",
+        "ExtraInfo": "odit",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Jeffry Sipes",
+        "FullName": "Mrs. Robert Stanton Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 307
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "est",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Vena Ella Zieme Sr.",
+    "FullName": "Dr. Clarabelle Rohan PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 44
       }
     }
   }

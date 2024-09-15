@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "autem",
-  "SoProtocol": "dicta",
-  "CurrentId": 204
+  "IsoLangCode": "deleniti",
+  "SoProtocol": "saepe",
+  "CurrentId": 20
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1997-11-18T13:28:21.3667801+01:00",
-  "UserPrompt": "consectetur",
-  "UserDisplayText": "natus",
-  "BotResponse": "soluta",
+  "Timestamp": "2012-04-17T04:02:00.9556944+02:00",
+  "UserPrompt": "non",
+  "UserDisplayText": "rem",
+  "BotResponse": "adipisci",
   "BotActions": {
-    "BotActions1": "voluptatem",
-    "BotActions2": "quae"
+    "BotActions1": "consequatur",
+    "BotActions2": "aperiam"
   },
   "Attachments": [
-    "itaque",
-    "ratione"
+    "odio",
+    "consequatur"
   ]
 }
 ```

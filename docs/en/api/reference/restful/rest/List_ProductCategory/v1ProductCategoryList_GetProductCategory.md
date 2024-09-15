@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 727,
-  "Name": "Monahan-Gislason",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "UdListDefinitionId": 83,
-  "Rank": 573,
+  "Id": 383,
+  "Name": "Feeney-Labadie",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "UdListDefinitionId": 917,
+  "Rank": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

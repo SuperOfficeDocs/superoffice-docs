@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wisoky Group",
-  "Comment": "aut",
-  "StakeholderRoleId": 732,
-  "CountryId": 445,
-  "PersonId": 322,
-  "EmailDescription": "dedric@rau.info",
-  "EmailId": 921,
-  "EmailAddress": "carmel@oreillyhuels.co.uk",
-  "PhoneId": 603,
-  "ContactName": "Upton, Adams and Hilpert",
-  "ContactId": 14,
-  "SaleId": 693,
-  "Mrmrs": "qui",
-  "Firstname": "Rhiannon",
-  "MiddleName": "Monahan-Toy",
-  "Lastname": "Lind",
-  "SaleStakeholderId": 408,
-  "Rank": 513,
-  "Phone": "212.663.3581 x442",
+  "StakeholderRoleName": "Jerde, Emmerich and Reynolds",
+  "Comment": "placeat",
+  "StakeholderRoleId": 901,
+  "CountryId": 332,
+  "PersonId": 253,
+  "EmailDescription": "braeden@reynolds.info",
+  "EmailId": 488,
+  "EmailAddress": "elissa_crooks@goyette.ca",
+  "PhoneId": 809,
+  "ContactName": "Wolff Group",
+  "ContactId": 106,
+  "SaleId": 626,
+  "Mrmrs": "sed",
+  "Firstname": "Candida",
+  "MiddleName": "Wisoky-Jewess",
+  "Lastname": "Marks",
+  "SaleStakeholderId": 275,
+  "Rank": 407,
+  "Phone": "139.941.6635",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 515
     }
   }
 }

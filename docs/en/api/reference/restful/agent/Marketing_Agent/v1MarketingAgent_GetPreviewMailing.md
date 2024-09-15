@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 741
+  "ShipmentAddrId": 359
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2002-12-25T13:28:23.0543771+01:00",
+  "SendingTime": "2007-10-17T04:02:01.8941042+02:00",
   "Status": "Blocked",
-  "ShipmentId": 703,
-  "ShipmentDescription": "Mandatory multi-tasking application",
-  "FromAddress": "soluta",
-  "Configuration": 756,
-  "ContactId": 771,
-  "ContactName": "Ortiz, Lubowitz and Mueller",
-  "PersonId": 307,
-  "PersonFullName": "Blaise Stiedemann",
-  "ShipmentType": "est",
-  "MessageId": 754,
-  "MessageSubject": "accusantium",
-  "DocumentMessageId": 219,
-  "Opened": "2019-04-06T13:28:23.0543771+02:00",
-  "LinkClicks": 93,
+  "ShipmentId": 719,
+  "ShipmentDescription": "Enterprise-wide mission-critical Graphical User Interface",
+  "FromAddress": "impedit",
+  "Configuration": 89,
+  "ContactId": 19,
+  "ContactName": "Collins-Bradtke",
+  "PersonId": 668,
+  "PersonFullName": "Leilani Leuschke",
+  "ShipmentType": "dolores",
+  "MessageId": 100,
+  "MessageSubject": "doloribus",
+  "DocumentMessageId": 334,
+  "Opened": "2013-06-23T04:02:01.8941042+02:00",
+  "LinkClicks": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

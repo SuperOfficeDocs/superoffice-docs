@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 991,
-  "Name": "Cartwright, Hamill and Wiza",
-  "Description": "Balanced uniform collaboration",
+  "ReportLabelLayoutId": 579,
+  "Name": "Stanton Inc and Sons",
+  "Description": "Persevering 6th generation hardware",
   "Orientation": "Landscape",
-  "PaperWidth": 498,
-  "PaperHeight": 624,
-  "LeftMargin": 383,
-  "RightMargin": 707,
-  "TopMargin": 188,
-  "BottomMargin": 496,
-  "CountColumns": 4,
-  "CountRows": 280,
+  "PaperWidth": 582,
+  "PaperHeight": 470,
+  "LeftMargin": 851,
+  "RightMargin": 342,
+  "TopMargin": 605,
+  "BottomMargin": 255,
+  "CountColumns": 250,
+  "CountRows": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 78
     }
   }
 }

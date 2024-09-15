@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Effertz Group",
-  "DeviceName": "McKenzie Inc and Sons"
+  "ApplicationName": "Huels-Osinski",
+  "DeviceName": "Rolfson-Walker"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quia",
-    "Value": "esse",
-    "RecordId": 276,
-    "CreatedDate": "1997-09-21T13:28:22.866653+02:00",
-    "UpdatedDate": "2006-04-19T13:28:22.866653+02:00",
-    "UpdatedBy": "similique",
-    "CreatedBy": "velit",
-    "TableName": "Nader, Jones and Kerluke",
+    "Key": "at",
+    "Value": "ea",
+    "RecordId": 383,
+    "CreatedDate": "2021-12-28T04:02:01.8003604+01:00",
+    "UpdatedDate": "2014-07-31T04:02:01.8003604+02:00",
+    "UpdatedBy": "architecto",
+    "CreatedBy": "impedit",
+    "TableName": "Hamill LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldLength": 447
       }
     }
   }

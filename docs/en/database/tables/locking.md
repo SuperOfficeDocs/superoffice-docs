@@ -2,10 +2,10 @@
 uid: table-locking
 title: locking table
 description: Generic locking and error messages
-generated: true
+so.generated: true
 keywords: database table locking
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # locking Table (380)

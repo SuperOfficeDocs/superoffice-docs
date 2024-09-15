@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Value": "distinctio",
-    "Tooltip": "enim",
+    "Id": 229,
+    "Value": "sit",
+    "Tooltip": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   },
   {
-    "Id": 152,
-    "Value": "distinctio",
-    "Tooltip": "enim",
+    "Id": 229,
+    "Value": "sit",
+    "Tooltip": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Douglas, Runolfsson and Greenfelder",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 276,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
+  "Id": 879,
+  "Name": "Witting-Boyer",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 837,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tempore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 195
     }
   },
   "_Links": {

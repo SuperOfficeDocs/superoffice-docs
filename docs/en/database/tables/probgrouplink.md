@@ -2,10 +2,10 @@
 uid: table-ProbGroupLink
 title: ProbGroupLink table
 description: User group link table for Prob, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table ProbGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProbGroupLink Table (83)

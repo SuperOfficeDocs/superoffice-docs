@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 726
+  "QuoteLineConfigurationId": 868
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 978,
-  "FieldName": "Keeling-Walsh",
-  "Label": "expedita",
-  "Tooltip": "sit",
+  "QuoteLineConfigurationId": 299,
+  "FieldName": "Auer-Crona",
+  "Label": "ipsa",
+  "Tooltip": "ipsam",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 341,
+  "Mandatory": true,
+  "Rank": 466,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

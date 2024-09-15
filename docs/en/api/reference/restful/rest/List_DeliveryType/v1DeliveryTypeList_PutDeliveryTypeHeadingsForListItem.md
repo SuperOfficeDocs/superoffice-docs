@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Toy-Moen",
-    "ToolTip": "Ullam totam quaerat dolor rerum.",
+    "Id": 87,
+    "Name": "Gerlach LLC",
+    "ToolTip": "Quas libero sit nam quaerat temporibus praesentium laudantium.",
     "Deleted": false,
-    "Rank": 627,
-    "Type": "praesentium",
-    "ColorBlock": 643,
-    "IconHint": "nihil",
+    "Rank": 431,
+    "Type": "dolorem",
+    "ColorBlock": 978,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2006-01-17T13:28:32.8353602+01:00",
+    "LastChanged": "2022-11-03T04:02:07.2440841+01:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Bashirian, Volkman and Towne",
-        "ToolTip": "Dolores repellendus assumenda culpa impedit dolore maiores.",
-        "Deleted": true,
-        "Rank": 652,
-        "Type": "rem",
-        "ColorBlock": 285,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2006-07-13T13:28:32.8353602+02:00",
+        "Id": 736,
+        "Name": "Koch-Tromp",
+        "ToolTip": "Qui repudiandae corrupti itaque maxime iste labore.",
+        "Deleted": false,
+        "Rank": 859,
+        "Type": "consequuntur",
+        "ColorBlock": 873,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2003-10-09T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "facere",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Alysa Frami"
+        "FullName": "Tina Kertzmann"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "ut",
+    "ExtraInfo": "at",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Desiree Herman"
+    "FullName": "Brittany Murphy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Kuhic, Walter and Brown",
-    "ToolTip": "Et iste.",
+    "Id": 575,
+    "Name": "Kautzer Inc and Sons",
+    "ToolTip": "Enim repellendus asperiores sit.",
     "Deleted": true,
-    "Rank": 531,
-    "Type": "placeat",
-    "ColorBlock": 319,
-    "IconHint": "dolores",
+    "Rank": 451,
+    "Type": "sed",
+    "ColorBlock": 325,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2000-04-27T13:28:32.8353602+02:00",
+    "LastChanged": "2009-05-14T04:02:07.2440841+02:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Turcotte, Schulist and Pollich",
-        "ToolTip": "Consequatur doloremque ut voluptas amet fugit.",
-        "Deleted": false,
-        "Rank": 124,
-        "Type": "laudantium",
-        "ColorBlock": 525,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "1997-11-13T13:28:32.8353602+01:00",
+        "Id": 322,
+        "Name": "Lueilwitz, Parisian and Kautzer",
+        "ToolTip": "Dignissimos eaque eligendi.",
+        "Deleted": true,
+        "Rank": 725,
+        "Type": "et",
+        "ColorBlock": 23,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2005-03-31T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Prof. Rene Cassin",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Lula Koelpin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Mr. Nettie Hickle I",
+    "FullName": "Miss Margarita Hyatt IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 178
       }
     }
   }

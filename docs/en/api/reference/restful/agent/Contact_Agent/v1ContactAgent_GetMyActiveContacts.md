@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "1997-07-06T13:28:22.2417946+02:00",
+  "ActivityStartTime": "2005-05-19T04:02:01.4405177+02:00",
   "ContactCategories": [
-    775,
-    226
+    627,
+    876
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 450,
-    "Department": "",
-    "OrgNr": "729131",
-    "Name": "Pagac Group",
+    "ContactId": 435,
+    "Department": "envisioneer holistic platforms",
+    "OrgNr": "1085426",
+    "Name": "Ruecker-Steuber",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Scotty Freddy Hand",
+    "AssociateFullName": "Imani Fay V",
     "Action": "ActivityCompleted",
-    "ActionTime": "2024-05-19T13:28:22.2417946+02:00",
+    "ActionTime": "2021-09-26T04:02:01.4405177+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Hartmann LLC",
-    "ActionId": 517,
-    "PersonId": 314,
-    "ActivityPersonId": 637,
-    "AssociateId": 316,
+    "ActivityPersonName": "Schowalter-Jacobs",
+    "ActionId": 511,
+    "PersonId": 351,
+    "ActivityPersonId": 295,
+    "AssociateId": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldType": "System.String",
+        "FieldLength": 922
       }
     }
   }

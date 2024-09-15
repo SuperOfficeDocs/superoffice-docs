@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Hudson, Ruecker and Schuster",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "UdListDefinitionId": 356,
-  "Rank": 677
+  "Id": 660,
+  "Name": "Friesen Inc and Sons",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 729,
+  "Rank": 251
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Bernhard-Mann",
-  "Tooltip": "nesciunt",
+  "Id": 467,
+  "Name": "Zemlak-Funk",
+  "Tooltip": "provident",
   "Deleted": false,
-  "UdListDefinitionId": 667,
-  "Rank": 305,
+  "UdListDefinitionId": 655,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 195
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=quis
+GET /api/v1/List/Reason/MDOItems?query=quisquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Rosenbaum-Gerlach",
-    "ToolTip": "Nam vel et aut vitae voluptate nihil.",
-    "Deleted": false,
-    "Rank": 449,
-    "Type": "aut",
+    "Id": 120,
+    "Name": "Bayer Inc and Sons",
+    "ToolTip": "Reprehenderit animi nobis et cumque et voluptas.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Wunsch, Kovacek and Hagenes",
-        "ToolTip": "Accusantium ad impedit quaerat quia.",
+        "Id": 810,
+        "Name": "Dickens LLC",
+        "ToolTip": "Ratione non exercitationem optio error maxime.",
         "Deleted": false,
-        "Rank": 412,
-        "Type": "ut",
+        "Rank": 520,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 419,
-        "ExtraInfo": "in",
-        "StyleHint": "incidunt",
-        "FullName": "Kristian Padberg",
+        "IconHint": "aut",
+        "ColorBlock": 346,
+        "ExtraInfo": "autem",
+        "StyleHint": "nihil",
+        "FullName": "Brando Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 644
           }
         }
       }
     ],
-    "IconHint": "tempore",
-    "ColorBlock": 931,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "ab",
-    "FullName": "Kellie Auer",
+    "IconHint": "odit",
+    "ColorBlock": 687,
+    "ExtraInfo": "eos",
+    "StyleHint": "dignissimos",
+    "FullName": "Kirsten Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 679
       }
     }
   }

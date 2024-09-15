@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 868,
-  "Name": "Lesch, Waelchi and Nicolas",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 457,
-  "UdListDefinitionId": 327
+  "Name": "Oberbrunner LLC",
+  "Tooltip": "esse",
+  "Deleted": false,
+  "Rank": 885,
+  "UdListDefinitionId": 547
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 828,
-  "Name": "Reichert-Wehner",
-  "Tooltip": "animi",
+  "HeadingId": 573,
+  "Name": "Huels Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 295,
-  "UdListDefinitionId": 354,
+  "Rank": 312,
+  "UdListDefinitionId": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

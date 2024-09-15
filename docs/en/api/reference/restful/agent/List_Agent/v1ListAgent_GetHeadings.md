@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 302,
-  "ListItemId": 911,
+  "UdListDefinitionId": 771,
+  "ListItemId": 598,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Thiel Inc and Sons",
-    "ToolTip": "Voluptas dignissimos voluptate.",
-    "Deleted": false,
-    "Rank": 810,
-    "Type": "cum",
-    "ColorBlock": 407,
-    "IconHint": "facilis",
+    "Id": 548,
+    "Name": "Walter, Schmeler and Ondricka",
+    "ToolTip": "Nihil dolorem.",
+    "Deleted": true,
+    "Rank": 255,
+    "Type": "animi",
+    "ColorBlock": 369,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2019-12-18T13:28:22.9449983+01:00",
+    "LastChanged": "2023-09-15T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Stiedemann-Jones",
-        "ToolTip": "Eaque dolores accusantium sint eos iste.",
+        "Id": 314,
+        "Name": "Zieme-Murazik",
+        "ToolTip": "Sit modi.",
         "Deleted": false,
-        "Rank": 10,
-        "Type": "eaque",
-        "ColorBlock": 231,
-        "IconHint": "repudiandae",
+        "Rank": 243,
+        "Type": "voluptate",
+        "ColorBlock": 304,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2021-01-05T13:28:22.9449983+01:00",
+        "LastChanged": "2015-09-01T04:02:01.847234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "illo",
+        "ExtraInfo": "minima",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Mr. Clark Elenor Harris",
+        "FullName": "Dexter Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Rickey Pacocha",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Delta Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

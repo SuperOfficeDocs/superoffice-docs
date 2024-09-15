@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=868
+PUT /api/v1/Project/{id}/ImageInfo?projectId=640
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 935,
-  "BlobSize": 177,
-  "Description": "Inverse maximized portal",
-  "ExtraInfo": "et",
+  "BlobId": 139,
+  "BlobSize": 630,
+  "Description": "Enterprise-wide reciprocal flexibility",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "magni",
-  "OriginalSize": 878,
-  "CreatedDate": "2014-12-12T13:28:31.8979432+01:00",
-  "UpdatedDate": "2006-03-07T13:28:31.8979432+01:00",
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 207,
+  "CreatedDate": "2015-05-26T04:02:06.7441349+02:00",
+  "UpdatedDate": "2003-06-08T04:02:06.7441349+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloremque"
+  "ConceptualType": "iure"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 316,
-  "BlobSize": 731,
-  "Description": "Optimized scalable hardware",
-  "ExtraInfo": "et",
+  "BlobId": 17,
+  "BlobSize": 627,
+  "Description": "Team-oriented eco-centric functionalities",
+  "ExtraInfo": "dignissimos",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sequi",
-  "OriginalSize": 480,
-  "CreatedDate": "2006-03-21T13:28:31.8979432+01:00",
-  "UpdatedDate": "2006-10-13T13:28:31.8979432+02:00",
+  "MimeType": "quis",
+  "OriginalSize": 956,
+  "CreatedDate": "2008-06-16T04:02:06.7441349+02:00",
+  "UpdatedDate": "2020-07-02T04:02:06.7441349+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint",
+  "ConceptualType": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldLength": 57
     }
   }
 }

@@ -68,8 +68,6 @@ The content area is where you view and update information. Some pages have one o
 
 Other pages have subsections with their own navigator.
 
-![SuperOffice Developer Portal App Store info versioning page -screenshot][img6]
-
 > [!NOTE]
 > When you click **Save Settings** it applies to all changes on the page, across all subsections. The scope is determined by the left-most Navigator.
 
@@ -159,5 +157,4 @@ Watch the walk-through on YouTube:
 [img3]: media/nav-partner.png
 [img4]: media/nav-app.png
 [img5]: media/app-settings.png
-[img6]: media/versioning-page.png
 [img7]: media/nav-expand-collapse.png

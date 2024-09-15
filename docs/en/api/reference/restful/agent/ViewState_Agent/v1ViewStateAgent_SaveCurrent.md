@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 662,
-  "Id": 874,
-  "HistoryName": "Bogisich-King",
-  "HistoryId": 445,
-  "AssociateId": 757,
-  "Name": "Block-Ernser",
-  "ItemInfo": "molestiae",
+  "Rank": 690,
+  "Id": 987,
+  "HistoryName": "Armstrong-Ryan",
+  "HistoryId": 278,
+  "AssociateId": 887,
+  "Name": "Reichel-Nitzsche",
+  "ItemInfo": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 649
     }
   }
 }

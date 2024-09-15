@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "fugit",
-    "vero"
+    "sit",
+    "possimus"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 822,
-  "ERPQuoteLineKey": "quisquam",
-  "QuoteAlternativeId": 386,
-  "ERPProductKey": "non",
+  "QuoteLineId": 103,
+  "ERPQuoteLineKey": "provident",
+  "QuoteAlternativeId": 599,
+  "ERPProductKey": "nobis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 27024.482,
-  "DeliveredQuantity": 8411.655999999999,
-  "Rank": 757,
-  "Name": "Predovic-Runolfsdottir",
-  "Description": "Devolved zero defect orchestration",
-  "Code": "corrupti",
-  "QuantityUnit": "sit",
-  "PriceUnit": "labore",
-  "ItemNumber": "1101930",
+  "Quantity": 13730.054,
+  "DeliveredQuantity": 23461.124,
+  "Rank": 39,
+  "Name": "Daniel, Frami and Hilpert",
+  "Description": "Extended cohesive adapter",
+  "Code": "rerum",
+  "QuantityUnit": "libero",
+  "PriceUnit": "nulla",
+  "ItemNumber": "717499",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aliquid",
-  "ProductTypeKey": "fuga",
-  "Supplier": "possimus",
-  "SupplierCode": "provident",
-  "Thumbnail": "dolores",
-  "VATInfo": "aspernatur",
-  "VAT": 1031.086,
-  "UnitCost": 24711.59,
-  "UnitMinimumPrice": 12341.692,
-  "UnitListPrice": 19559.293999999998,
+  "ProductFamilyKey": "maxime",
+  "ProductTypeKey": "dolore",
+  "Supplier": "quia",
+  "SupplierCode": "doloribus",
+  "Thumbnail": "sunt",
+  "VATInfo": "est",
+  "VAT": 25789.685999999998,
+  "UnitCost": 16387.685999999998,
+  "UnitMinimumPrice": 3669.9139999999998,
+  "UnitListPrice": 17794.852,
   "ExtraInfo": [
     {
-      "Name": "Bahringer-DuBuque",
-      "Value": "nihil",
+      "Name": "Thiel-Stroman",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldLength": 98
         }
       }
     },
     {
-      "Name": "Bahringer-DuBuque",
-      "Value": "nihil",
+      "Name": "Thiel-Stroman",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldLength": 98
         }
       }
     }
   ],
-  "RawExtraInfo": "hic",
+  "RawExtraInfo": "excepturi",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 996.612,
-  "SubscriptionStart": "1999-08-05T13:28:23.507397+02:00",
-  "ERPDiscountPercent": 7173.726,
-  "ERPDiscountAmount": 5587.922,
-  "DiscountPercent": 8731.324,
-  "DiscountAmount": 13238.016,
+  "SubscriptionUnit": "enim",
+  "SubscriptionQuantity": 9781.214,
+  "SubscriptionStart": "2008-09-04T04:02:02.1753367+02:00",
+  "ERPDiscountPercent": 9890.904,
+  "ERPDiscountAmount": 17810.522,
+  "DiscountPercent": 636.202,
+  "DiscountAmount": 16152.635999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 611.13,
-  "EarningAmount": 24163.14,
-  "SubTotal": 14171.948,
-  "TotalPrice": 2457.056,
-  "Rights": "quis",
-  "Rule": "aut",
-  "ExtraField1": "iste",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "explicabo",
-  "ExtraField4": "sint",
-  "ExtraField5": "sapiente",
+  "EarningPercent": 7161.19,
+  "EarningAmount": 23558.278,
+  "SubTotal": 24457.736,
+  "TotalPrice": 1708.03,
+  "Rights": "rerum",
+  "Rule": "earum",
+  "ExtraField1": "id",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "cumque",
+  "ExtraField4": "officia",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

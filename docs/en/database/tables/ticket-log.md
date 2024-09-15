@@ -2,10 +2,10 @@
 uid: table-ticket_log
 title: ticket_log table
 description: This table contains log entries for the tickets.
-generated: true
+so.generated: true
 keywords: database table ticket_log
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_log Table (267)

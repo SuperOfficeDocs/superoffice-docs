@@ -2,10 +2,10 @@
 uid: enum-elementstatus
 title: Enum values for ElementStatus
 description: Lists the enum values for ElementStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ElementStatus Enum

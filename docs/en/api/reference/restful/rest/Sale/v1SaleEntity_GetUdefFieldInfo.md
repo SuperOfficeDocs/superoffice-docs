@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 505,
-  "ColumnId": 598,
-  "FieldDefault": "est",
-  "FieldHeight": 451,
-  "FieldLabel": "tempora",
-  "FieldLeft": 696,
-  "FieldTop": 788,
+  "UDefFieldId": 812,
+  "ColumnId": 570,
+  "FieldDefault": "sit",
+  "FieldHeight": 423,
+  "FieldLabel": "assumenda",
+  "FieldLeft": 524,
+  "FieldTop": 757,
   "FieldType": "Checkbox",
-  "FieldWidth": 657,
-  "FormatMask": "incidunt",
+  "FieldWidth": 43,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 758,
-  "LabelLeft": 623,
-  "LabelTop": 598,
-  "LabelWidth": 734,
-  "LastVersionId": 153,
-  "ListTableId": 336,
-  "IsMandatory": true,
+  "LabelHeight": 57,
+  "LabelLeft": 552,
+  "LabelTop": 993,
+  "LabelWidth": 603,
+  "LastVersionId": 764,
+  "ListTableId": 507,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 781,
-  "ProgId": "incidunt",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 439,
-  "TextLength": 789,
-  "Tooltip": "aut",
-  "UdefIdentity": 884,
-  "UDListDefinitionId": 61,
+  "Page1LineNo": 469,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "omnis",
+  "TabOrder": 32,
+  "TextLength": 208,
+  "Tooltip": "pariatur",
+  "UdefIdentity": 870,
+  "UDListDefinitionId": 608,
   "Justification": "Center",
-  "Version": 994,
-  "TemplateVariableName": "Cassin, McDermott and Kreiger",
+  "Version": 892,
+  "TemplateVariableName": "Emmerich-Lang",
   "HasBeenPublished": false,
-  "MdoListName": "Hansen, Harvey and Sauer",
+  "MdoListName": "Ratke-Rutherford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 665
     }
   }
 }

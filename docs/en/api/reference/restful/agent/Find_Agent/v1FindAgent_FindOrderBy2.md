@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "incidunt",
-  "ProviderName": "Hahn, Lesch and Ritchie",
-  "StorageKey": "molestiae",
-  "PageSize": 231,
-  "PageNumber": 971,
-  "OrderBy": "saepe"
+  "StorageType": "repellendus",
+  "ProviderName": "Reynolds Inc and Sons",
+  "StorageKey": "voluptatum",
+  "PageSize": 424,
+  "PageNumber": 724,
+  "OrderBy": "quo"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lubowitz Inc and Sons",
-      "DisplayTooltip": "aut",
-      "DisplayType": "nobis",
+      "DisplayName": "Gutkowski, Corkery and Gerhold",
+      "DisplayTooltip": "optio",
+      "DisplayType": "eum",
       "CanOrderBy": false,
-      "Name": "Stanton-Upton",
+      "Name": "Hand, Casper and Gusikowski",
       "CanRestrictBy": false,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Lindgren, Graham and Hoeger",
-      "IsVisible": true,
-      "ExtraInfo": "incidunt",
-      "Width": "laboriosam",
-      "IconHint": "delectus",
-      "HeadingIconHint": "provident"
+      "RestrictionType": "animi",
+      "RestrictionListName": "Mayert Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "ipsum",
+      "Width": "quia",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "accusamus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gusikowski, Lemke and Larkin",
-      "PrimaryKey": 549,
+      "EntityName": "Cruickshank Group",
+      "PrimaryKey": 792,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "rerum",
-          "LinkHint": "harum"
+          "DisplayValue": "autem",
+          "TooltipHint": "quod",
+          "LinkHint": "excepturi"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "possimus",
+      "LinkHint": "corporis",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 852
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     }
   ],
-  "RowCount": 227,
+  "RowCount": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

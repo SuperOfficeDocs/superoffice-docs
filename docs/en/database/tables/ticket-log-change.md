@@ -2,10 +2,10 @@
 uid: table-ticket_log_change
 title: ticket_log_change table
 description: This table contains log entries for the tickets.
-generated: true
+so.generated: true
 keywords: database table ticket_log_change
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_log\_change Table (268)

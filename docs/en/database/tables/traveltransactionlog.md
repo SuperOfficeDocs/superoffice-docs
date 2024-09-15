@@ -2,10 +2,10 @@
 uid: table-traveltransactionlog
 title: traveltransactionlog table
 description: Log of all updates made to the database, that need to be replicated.
-generated: true
+so.generated: true
 keywords: database table traveltransactionlog
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # traveltransactionlog Table (29)

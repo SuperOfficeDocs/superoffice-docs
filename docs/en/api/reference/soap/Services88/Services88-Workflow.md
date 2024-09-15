@@ -1568,6 +1568,21 @@ title: Services88.WorkflowAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CopyEmailFlow">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
+            <xs:element minOccurs="0" name="NewName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CopyEmailFlowResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="Run">
         <xs:complexType>
           <xs:sequence />
@@ -2161,6 +2176,23 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CopyEmailFlowRequest">
+    <wsdl:part name="parameters" element="tns:CopyEmailFlow" />
+  </wsdl:message>
+  <wsdl:message name="CopyEmailFlowRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CopyEmailFlowResponse">
+    <wsdl:part name="parameters" element="tns:CopyEmailFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="CopyEmailFlowResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="RunRequest">
     <wsdl:part name="parameters" element="tns:Run" />
   </wsdl:message>
@@ -2423,6 +2455,10 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="SetStatusOnWorkflow">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SetStatusOnWorkflow" name="SetStatusOnWorkflowRequest" message="tns:SetStatusOnWorkflowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SetStatusOnWorkflowResponse" name="SetStatusOnWorkflowResponse" message="tns:SetStatusOnWorkflowResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CopyEmailFlow">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlow" name="CopyEmailFlowRequest" message="tns:CopyEmailFlowRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlowResponse" name="CopyEmailFlowResponse" message="tns:CopyEmailFlowResponse" />
     </wsdl:operation>
     <wsdl:operation name="Run">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/Run" name="RunRequest" message="tns:RunRequest" />
@@ -2832,6 +2868,22 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CopyEmailFlow">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlow" style="document" />
+      <wsdl:input name="CopyEmailFlowRequest">
+        <soap:header message="tns:CopyEmailFlowRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CopyEmailFlowRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CopyEmailFlowRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CopyEmailFlowResponse">
+        <soap:header message="tns:CopyEmailFlowResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CopyEmailFlowResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CopyEmailFlowResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CopyEmailFlowResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

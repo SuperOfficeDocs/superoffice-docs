@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Balistreri, Schoen and Brakus",
-    "ToolTip": "Recusandae mollitia accusamus.",
+    "Id": 826,
+    "Name": "Price LLC",
+    "ToolTip": "Enim et sit voluptas in delectus suscipit atque.",
     "Deleted": false,
-    "Rank": 35,
-    "Type": "quo",
-    "ColorBlock": 383,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2019-07-21T13:28:32.7416326+02:00",
+    "Rank": 486,
+    "Type": "aut",
+    "ColorBlock": 904,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2008-07-19T04:02:07.119095+02:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Schoen-Kirlin",
-        "ToolTip": "Soluta fugiat officia.",
-        "Deleted": false,
-        "Rank": 419,
-        "Type": "dolorem",
-        "ColorBlock": 703,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2013-01-04T13:28:32.7416326+01:00",
+        "Id": 859,
+        "Name": "Walsh LLC",
+        "ToolTip": "Autem culpa quaerat.",
+        "Deleted": true,
+        "Rank": 994,
+        "Type": "temporibus",
+        "ColorBlock": 581,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2005-06-10T04:02:07.119095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "dicta",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Mrs. Aglae Kemmer III",
+        "FullName": "Anika Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Deion Spinka",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Louisa Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 260
       }
     }
   }

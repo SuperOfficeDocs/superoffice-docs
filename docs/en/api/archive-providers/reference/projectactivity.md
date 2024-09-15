@@ -486,6 +486,68 @@ Activity archive provider for the Project card
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
+|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
+|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
+|emailFlow/thumbnail| *None* |Thumbnail|  |
+|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
+|emailFlow/workflowName|string|Name: Name of the flow definition| x |
+|emailFlow/workflowDescription|string|Description: Description of flow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
+|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
+|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
+|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|emailFlow/workflowAssociate/firstName|string|Owner - First name: Displays the contact's first name| x |
+|emailFlow/workflowAssociate/lastName|string|Owner - Last name: Displays the contact's last name| x |
+|emailFlow/workflowAssociate/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
+|emailFlow/workflowAssociate/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|emailFlow/workflowAssociate/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
+|emailFlow/workflowAssociate/personId|int|Owner - Contact ID: Database ID of the contact row|  |
+|emailFlow/workflowAssociate/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
+|emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
+|emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
+|emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
+|emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
+|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
+|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
+|emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
+|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
+|emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
+|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
@@ -539,10 +601,6 @@ Activity archive provider for the Project card
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -585,6 +643,10 @@ Activity archive provider for the Project card
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
@@ -643,10 +705,6 @@ Activity archive provider for the Project card
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
 |person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -689,6 +747,10 @@ Activity archive provider for the Project card
 |person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
@@ -747,10 +809,6 @@ Activity archive provider for the Project card
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personExtra/y\_rental/x\_end|date|Rental - End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
@@ -793,6 +851,10 @@ Activity archive provider for the Project card
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -851,10 +913,6 @@ Activity archive provider for the Project card
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -897,6 +955,10 @@ Activity archive provider for the Project card
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
@@ -955,10 +1017,6 @@ Activity archive provider for the Project card
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 |contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
@@ -1001,6 +1059,10 @@ Activity archive provider for the Project card
 |contact/LastTicket|date|Date of last request|  |
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |contact/saintSaleStatus|listAny|With status|  |
@@ -1059,10 +1121,6 @@ Activity archive provider for the Project card
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -1071,6 +1129,8 @@ Activity archive provider for the Project card
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1103,6 +1163,10 @@ Activity archive provider for the Project card
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -1164,7 +1228,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingBounceRate,mailingAddr/person/personExtra/y_rental/x_start,project/hasInfoText,project/projectAssociate/otherGroups,person/personCountryId
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/contactInterestIds,mailingAddr/person/email/emailAddress,mailingAddr/person/personAssociate/associateDbId,emailFlow/emailFlowHierarchyId,emailFlow/workflowDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

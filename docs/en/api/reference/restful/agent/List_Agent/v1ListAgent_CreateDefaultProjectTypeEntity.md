@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 521,
-  "Name": "Veum, Wiza and Barton",
-  "Tooltip": "ut",
-  "Rank": 264,
+  "ProjTypeId": 216,
+  "Name": "Conroy Group",
+  "Tooltip": "voluptates",
+  "Rank": 584,
   "DurationUnit": "Century",
-  "ProjectDuration": 982,
+  "ProjectDuration": 844,
   "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 916,
-      "Name": "Goldner, Goyette and Brakus",
-      "ToolTip": "Facere aut alias reiciendis autem molestiae enim.",
-      "Deleted": true,
-      "Rank": 408,
-      "Type": "corrupti",
-      "ColorBlock": 615,
-      "IconHint": "exercitationem",
+      "Id": 233,
+      "Name": "Bashirian LLC",
+      "ToolTip": "Perspiciatis itaque accusamus repellat numquam ut qui dolor.",
+      "Deleted": false,
+      "Rank": 727,
+      "Type": "aut",
+      "ColorBlock": 65,
+      "IconHint": "illum",
       "Selected": false,
-      "LastChanged": "2023-10-25T13:28:23.007483+02:00",
+      "LastChanged": "2006-08-30T04:02:01.8784808+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "enim",
+      "ExtraInfo": "harum",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Doug Collier",
+      "FullName": "Waldo Dicki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 275
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   }
 }

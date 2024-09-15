@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 951
+  "ErpSyncConnectionId": 248
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Morissette-Kunze",
-  "DisplayDescription": "Front-line optimizing moratorium",
+  "DisplayName": "Wyman, Corwin and McKenzie",
+  "DisplayDescription": "Business-focused client-server solution",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2022-06-02T13:28:22.7885448+02:00",
+  "LastSync": "2003-07-26T04:02:01.7529942+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "sit",
+      "Defaults": "aperiam",
+      "Mappings": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "sit",
+      "Defaults": "aperiam",
+      "Mappings": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

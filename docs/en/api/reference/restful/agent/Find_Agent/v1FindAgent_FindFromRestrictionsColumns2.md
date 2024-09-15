@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "totam",
-  "ProviderName": "Grady LLC",
-  "DesiredColumns": "similique",
-  "PageSize": 576,
-  "PageNumber": 832
+  "Restrictions": "quaerat",
+  "ProviderName": "Goyette, Dickinson and Schuster",
+  "DesiredColumns": "quod",
+  "PageSize": 88,
+  "PageNumber": 860
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Metz, Donnelly and Franecki",
-      "DisplayTooltip": "est",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Nolan Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Steuber, Feest and Hettinger",
+      "DisplayName": "Konopelski LLC",
+      "DisplayTooltip": "cupiditate",
+      "DisplayType": "at",
+      "CanOrderBy": false,
+      "Name": "Koelpin LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "vel",
+      "RestrictionListName": "Hettinger, Considine and Lockman",
       "IsVisible": true,
-      "ExtraInfo": "sint",
-      "Width": "dignissimos",
-      "IconHint": "rerum",
-      "HeadingIconHint": "id"
+      "ExtraInfo": "eaque",
+      "Width": "et",
+      "IconHint": "omnis",
+      "HeadingIconHint": "laboriosam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Terry-Daugherty",
-      "PrimaryKey": 669,
+      "EntityName": "Turcotte Group",
+      "PrimaryKey": 747,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolore",
-          "TooltipHint": "nemo",
-          "LinkHint": "incidunt"
+          "DisplayValue": "sit",
+          "TooltipHint": "temporibus",
+          "LinkHint": "voluptate"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "dolores",
+      "LinkHint": "magni",
+      "StyleHint": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 272
         }
       }
     }
   ],
-  "RowCount": 178,
+  "RowCount": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 727
     }
   }
 }

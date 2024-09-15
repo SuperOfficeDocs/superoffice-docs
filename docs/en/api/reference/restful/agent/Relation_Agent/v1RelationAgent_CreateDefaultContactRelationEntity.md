@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 696,
-  "SourcePersonId": 22,
-  "DestinationContactId": 666,
-  "DestinationPersonId": 474,
-  "RelationId": 445,
-  "Comment": "voluptates",
-  "RelationDefinitionId": 439,
-  "Reversed": 774,
-  "UpdatedDate": "1998-05-27T13:28:23.5855044+02:00",
-  "CreatedDate": "2024-01-30T13:28:23.5855044+01:00",
+  "SourceContactId": 137,
+  "SourcePersonId": 604,
+  "DestinationContactId": 189,
+  "DestinationPersonId": 631,
+  "RelationId": 753,
+  "Comment": "sed",
+  "RelationDefinitionId": 954,
+  "Reversed": 611,
+  "UpdatedDate": "2019-06-22T04:02:02.2222071+02:00",
+  "CreatedDate": "2005-05-17T04:02:02.2222071+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Frami-Erdman",
-  "SourcePersonName": "Dach LLC",
-  "DestinationContactName": "Bechtelar LLC",
-  "DestinationPersonName": "Hirthe-Moore",
-  "ActiveText": "provident",
-  "PassiveText": "quo",
+  "SourceContactName": "Quigley Group",
+  "SourcePersonName": "Lehner-Kessler",
+  "DestinationContactName": "Parisian Inc and Sons",
+  "DestinationPersonName": "Torp, McCullough and Larson",
+  "ActiveText": "perspiciatis",
+  "PassiveText": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

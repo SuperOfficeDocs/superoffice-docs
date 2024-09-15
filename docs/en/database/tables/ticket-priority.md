@@ -2,10 +2,10 @@
 uid: table-ticket_priority
 title: ticket_priority table
 description: This table contains the ticket priorities.
-generated: true
+so.generated: true
 keywords: database table ticket_priority
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_priority Table (275)

@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 671,
-  "Filter": "est"
+  "SelectionId": 414,
+  "Filter": "culpa"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan Group",
-    "Operator": "et",
+    "Name": "Lehner Group",
+    "Operator": "est",
     "Values": [
-      "voluptatem",
-      "accusamus"
+      "mollitia",
+      "iure"
     ],
     "DisplayValues": [
-      "rerum",
-      "minima"
+      "sapiente",
+      "repellendus"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ullrich, Ondricka and Murray",
-        "Operator": "et",
+        "Name": "White-Bayer",
+        "Operator": "ut",
         "Values": [
-          "natus",
-          "sed"
+          "commodi",
+          "quod"
         ],
         "DisplayValues": [
-          "eum",
-          "ducimus"
+          "est",
+          "temporibus"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 27,
+        "InterParenthesis": 695,
         "InterOperator": "And",
-        "UniqueHash": 122
+        "UniqueHash": 362
       }
     ],
-    "InterParenthesis": 963,
+    "InterParenthesis": 671,
     "InterOperator": "And",
-    "UniqueHash": 449
+    "UniqueHash": 598
   }
 ]
 ```

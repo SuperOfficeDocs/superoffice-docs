@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "necessitatibus",
+  "ProgId": "accusamus",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 274,
-  "ColumnId": 58,
-  "FieldDefault": "dolor",
-  "FieldHeight": 774,
-  "FieldLabel": "doloremque",
-  "FieldLeft": 637,
-  "FieldTop": 10,
+  "UDefFieldId": 731,
+  "ColumnId": 970,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 513,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 302,
+  "FieldTop": 202,
   "FieldType": "Checkbox",
-  "FieldWidth": 226,
-  "FormatMask": "ad",
-  "HideLabel": false,
+  "FieldWidth": 490,
+  "FormatMask": "dolorem",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 785,
-  "LabelLeft": 642,
-  "LabelTop": 446,
-  "LabelWidth": 91,
-  "LastVersionId": 296,
-  "ListTableId": 792,
-  "IsMandatory": true,
+  "LabelHeight": 892,
+  "LabelLeft": 225,
+  "LabelTop": 778,
+  "LabelWidth": 273,
+  "LastVersionId": 322,
+  "ListTableId": 541,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 431,
-  "ProgId": "laboriosam",
-  "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 753,
-  "TextLength": 48,
-  "Tooltip": "velit",
-  "UdefIdentity": 589,
-  "UDListDefinitionId": 357,
+  "Page1LineNo": 815,
+  "ProgId": "id",
+  "IsReadOnly": false,
+  "ShortLabel": "expedita",
+  "TabOrder": 622,
+  "TextLength": 656,
+  "Tooltip": "sint",
+  "UdefIdentity": 277,
+  "UDListDefinitionId": 190,
   "Justification": "Center",
-  "Version": 118,
-  "TemplateVariableName": "Dibbert-Little",
+  "Version": 455,
+  "TemplateVariableName": "Lynch Group",
   "HasBeenPublished": false,
-  "MdoListName": "Schmitt-Rogahn",
+  "MdoListName": "Smith Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

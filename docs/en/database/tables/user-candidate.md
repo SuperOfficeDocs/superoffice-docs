@@ -2,10 +2,10 @@
 uid: table-user_candidate
 title: user_candidate table
 description: This table will hold user candidate secrets
-generated: true
+so.generated: true
 keywords: database table user_candidate
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # user\_candidate Table (389)

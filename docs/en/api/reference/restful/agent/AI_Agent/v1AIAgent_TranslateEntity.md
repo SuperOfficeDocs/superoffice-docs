@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Koepp-Braun",
-  "EntityId": 354,
-  "TargetLanguage": "et"
+  "EntityName": "Wisoky Inc and Sons",
+  "EntityId": 997,
+  "TargetLanguage": "sapiente"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptate"
+"officiis"
 ```

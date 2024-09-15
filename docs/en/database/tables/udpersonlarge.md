@@ -2,10 +2,10 @@
 uid: table-udpersonLarge
 title: udpersonLarge table
 description: User-defined fields
-generated: true
+so.generated: true
 keywords: database table udpersonLarge
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # udpersonLarge Table (141)

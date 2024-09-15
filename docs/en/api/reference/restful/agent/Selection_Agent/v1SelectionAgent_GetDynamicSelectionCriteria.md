@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 6
+  "SelectionId": 843
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom, Halvorson and Parisian",
-    "Operator": "repellendus",
+    "Name": "Nicolas, Bednar and Cremin",
+    "Operator": "neque",
     "Values": [
-      "placeat",
-      "est"
+      "pariatur",
+      "maxime"
     ],
     "DisplayValues": [
-      "et",
-      "inventore"
+      "aut",
+      "sed"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Swift, King and Emard",
-        "Operator": "maiores",
+        "Name": "Hilll LLC",
+        "Operator": "nemo",
         "Values": [
-          "asperiores",
-          "voluptatem"
-        ],
-        "DisplayValues": [
-          "dolore",
+          "et",
           "ad"
         ],
+        "DisplayValues": [
+          "accusantium",
+          "ex"
+        ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 428,
+        "InterParenthesis": 541,
         "InterOperator": "And",
-        "UniqueHash": 726
+        "UniqueHash": 719
       }
     ],
-    "InterParenthesis": 443,
+    "InterParenthesis": 965,
     "InterOperator": "And",
-    "UniqueHash": 349
+    "UniqueHash": 586
   }
 ]
 ```

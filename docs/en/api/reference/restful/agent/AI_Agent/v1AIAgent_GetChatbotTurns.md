@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "consectetur"
+  "ChatId": "et"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2003-08-21T13:28:21.3667801+02:00",
-    "UserPrompt": "cumque",
-    "UserDisplayText": "neque",
-    "BotResponse": "perferendis",
+    "Timestamp": "2016-03-27T04:02:00.9713176+02:00",
+    "UserPrompt": "nesciunt",
+    "UserDisplayText": "quaerat",
+    "BotResponse": "labore",
     "BotActions": {
-      "BotActions1": "ullam",
-      "BotActions2": "impedit"
+      "BotActions1": "optio",
+      "BotActions2": "ab"
     },
     "Attachments": [
-      "veritatis",
-      "quasi"
+      "voluptas",
+      "nesciunt"
     ]
   },
   {
-    "Timestamp": "2003-08-21T13:28:21.3667801+02:00",
-    "UserPrompt": "cumque",
-    "UserDisplayText": "neque",
-    "BotResponse": "perferendis",
+    "Timestamp": "2016-03-27T04:02:00.9713176+02:00",
+    "UserPrompt": "nesciunt",
+    "UserDisplayText": "quaerat",
+    "BotResponse": "labore",
     "BotActions": {
-      "BotActions1": "ullam",
-      "BotActions2": "impedit"
+      "BotActions1": "optio",
+      "BotActions2": "ab"
     },
     "Attachments": [
-      "veritatis",
-      "quasi"
+      "voluptas",
+      "nesciunt"
     ]
   }
 ]

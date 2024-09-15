@@ -2,10 +2,10 @@
 uid: table-TaskMenuHeadingLink
 title: TaskMenuHeadingLink table
 description: Heading link table for TaskMenu, for MDO headers
-generated: true
+so.generated: true
 keywords: database table TaskMenuHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskMenuHeadingLink Table (468)

@@ -629,6 +629,8 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -640,12 +642,12 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
@@ -722,7 +724,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=project/LastSale,sale/associate/personId,person/firstName
+GET /api/v1/archive/DiaryAppointment?$select=contact/registeredBy,contact/contactExtra/x_contact_time,contact/LastActivity,person/correspondingAssociate/isActiveText,person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 363
+  "EntityId": 305
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 674,
-    "ConnectionName": "Gorczany-Sipes",
-    "Connected": true,
+    "ErpConnectionId": 639,
+    "ConnectionName": "Schneider, Kiehn and Ferry",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "repellendus",
-        "Rank": 194,
-        "DisplayName": "Deckow-Tremblay",
-        "DisplayDescription": "Innovative leading edge installation",
+        "FieldKey": "aliquid",
+        "Rank": 967,
+        "DisplayName": "Goyette, Hessel and Graham",
+        "DisplayDescription": "Front-line systemic portal",
         "FieldType": "Checkbox",
-        "ListName": "Towne LLC",
-        "DefaultValue": "cupiditate",
-        "MaxLength": 636,
+        "ListName": "Hand LLC",
+        "DefaultValue": "magnam",
+        "MaxLength": 91,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldType": "System.String",
+            "FieldLength": 686
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "a",
-      "fugiat"
+      "similique",
+      "nihil"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

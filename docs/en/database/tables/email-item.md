@@ -2,10 +2,10 @@
 uid: table-email_item
 title: email_item table
 description: Email data
-generated: true
+so.generated: true
 keywords: database table email_item
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # email\_item Table (489)

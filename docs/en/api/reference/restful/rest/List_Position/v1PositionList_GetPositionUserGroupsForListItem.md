@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Kovacek, Zboncak and Douglas",
-    "ToolTip": "Iste voluptates voluptatibus.",
+    "Id": 1000,
+    "Name": "Corwin LLC",
+    "ToolTip": "Impedit consequuntur.",
     "Deleted": false,
-    "Rank": 432,
-    "Type": "consequatur",
-    "ColorBlock": 683,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2014-10-05T13:28:32.9290905+02:00",
+    "Rank": 308,
+    "Type": "occaecati",
+    "ColorBlock": 564,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2010-07-17T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Eichmann Group",
-        "ToolTip": "Voluptatem id ut dolores.",
+        "Id": 241,
+        "Name": "Pfeffer, Hintz and Christiansen",
+        "ToolTip": "Sed qui nobis quis exercitationem unde tempore.",
         "Deleted": false,
-        "Rank": 599,
-        "Type": "cupiditate",
-        "ColorBlock": 188,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2007-04-12T13:28:32.9290905+02:00",
+        "Rank": 28,
+        "Type": "temporibus",
+        "ColorBlock": 723,
+        "IconHint": "aliquid",
+        "Selected": true,
+        "LastChanged": "2007-06-07T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Casimir Balistreri",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Alexandria Frederik Bayer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldType": "System.String",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Edwardo Wilderman",
+    "FullName": "Zaria Cummings Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 609
       }
     }
   }

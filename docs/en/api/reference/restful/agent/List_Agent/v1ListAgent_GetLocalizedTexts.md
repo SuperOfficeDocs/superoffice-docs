@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 359,
-    "ResourceId": 104,
-    "Text": "nisi",
+    "LanguageId": 581,
+    "ResourceId": 747,
+    "Text": "tenetur",
     "Type": "Column",
-    "LocalizedTextId": 972,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 849,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 259
       }
     }
   }

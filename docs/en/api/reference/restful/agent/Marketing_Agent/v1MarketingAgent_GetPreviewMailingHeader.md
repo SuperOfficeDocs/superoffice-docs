@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 589
+  "ShipmentId": 7
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-02-07T13:28:23.0543771+01:00",
+  "StartDate": "2015-03-17T04:02:01.8941042+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 454,
-  "ShipmentDescription": "Vision-oriented asynchronous pricing structure",
-  "FromAddress": "beatae",
-  "Configuration": 656,
-  "PersonId": 839,
-  "PersonFullName": "Dr. Coleman Johnson Kozey",
-  "ShipmentType": "laborum",
-  "MessageId": 462,
-  "MessageSubject": "autem",
-  "DocumentMessageId": 256,
-  "NumSent": 540,
-  "NumOpened": 851,
-  "NumBounced": 47,
-  "NumClicks": 859,
+  "ShipmentId": 538,
+  "ShipmentDescription": "Customizable reciprocal flexibility",
+  "FromAddress": "sit",
+  "Configuration": 613,
+  "PersonId": 508,
+  "PersonFullName": "Noemie Hilll",
+  "ShipmentType": "dolores",
+  "MessageId": 198,
+  "MessageSubject": "laudantium",
+  "DocumentMessageId": 791,
+  "NumSent": 769,
+  "NumOpened": 300,
+  "NumBounced": 563,
+  "NumClicks": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

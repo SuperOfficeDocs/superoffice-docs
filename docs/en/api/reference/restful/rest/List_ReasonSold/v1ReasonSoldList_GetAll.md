@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Gerlach, Reynolds and Kris",
-    "Tooltip": "aperiam",
+    "Id": 533,
+    "Name": "DuBuque, Lesch and Botsford",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 174,
-    "Rank": 531,
+    "UdListDefinitionId": 389,
+    "Rank": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

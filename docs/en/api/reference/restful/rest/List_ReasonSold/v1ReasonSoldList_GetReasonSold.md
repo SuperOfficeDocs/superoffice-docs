@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "sit",
+  "Id": 152,
+  "Name": "Hessel-Wiza",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "UdListDefinitionId": 879,
-  "Rank": 222,
+  "UdListDefinitionId": 508,
+  "Rank": 828,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 236
     }
   }
 }

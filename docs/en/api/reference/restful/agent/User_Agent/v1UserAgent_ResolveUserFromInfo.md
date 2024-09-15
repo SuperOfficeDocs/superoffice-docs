@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 655,
-  "PersonName": "Bailey LLC",
+  "ContactId": 291,
+  "PersonName": "Homenick-Moen",
   "PhoneNumbers": [
-    "270428",
-    "1121491"
+    "501728",
+    "1308910"
   ],
   "Emails": [
-    "leila.paucek@barton.info",
-    "luis@huels.ca"
+    "emilio.lakin@king.name",
+    "linnie.beatty@mitchell.ca"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

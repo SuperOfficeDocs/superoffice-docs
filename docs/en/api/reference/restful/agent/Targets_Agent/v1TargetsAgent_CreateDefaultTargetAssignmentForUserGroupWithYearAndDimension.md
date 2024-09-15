@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 168,
-  "Year": 604,
-  "TargetDimensionId": 181
+  "UserGroupId": 734,
+  "Year": 1000,
+  "TargetDimensionId": 348
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 537,
+    "TargetAssignmentInfoId": 452,
     "Values": [
-      24,
-      886
+      83,
+      638
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 806,
-    "DimensionListItemDisplayName": "O'Reilly, Rutherford and Sawayn",
+    "DimensionListItem": 2,
+    "DimensionListItemDisplayName": "Hermiston Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

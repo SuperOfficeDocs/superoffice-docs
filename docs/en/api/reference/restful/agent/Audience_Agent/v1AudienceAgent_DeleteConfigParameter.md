@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Veum LLC",
-  "ParameterName": "Conroy, Lowe and Prohaska"
+  "LayoutName": "Gislason LLC",
+  "ParameterName": "Feeney Group"
 }
 ```
 

@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=hic
+GET /api/v1/List/Currency/MDOItems?query=facere
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Weimann Inc and Sons",
-    "ToolTip": "Et repudiandae maxime molestiae ea laboriosam.",
-    "Deleted": true,
-    "Rank": 519,
-    "Type": "aut",
+    "Id": 340,
+    "Name": "Hettinger-Collins",
+    "ToolTip": "Qui voluptatem perferendis vel.",
+    "Deleted": false,
+    "Rank": 274,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Toy-Reichert",
-        "ToolTip": "Tempora ut.",
+        "Id": 190,
+        "Name": "Volkman Inc and Sons",
+        "ToolTip": "Est sunt rem cupiditate tempora voluptas.",
         "Deleted": true,
-        "Rank": 770,
-        "Type": "esse",
+        "Rank": 18,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 771,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptas",
-        "FullName": "Jany Fadel V",
+        "IconHint": "libero",
+        "ColorBlock": 861,
+        "ExtraInfo": "in",
+        "StyleHint": "laborum",
+        "FullName": "Prof. Sid Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "minus",
-    "ColorBlock": 922,
-    "ExtraInfo": "omnis",
-    "StyleHint": "nesciunt",
-    "FullName": "Dr. Elnora Hazel Ferry",
+    "IconHint": "mollitia",
+    "ColorBlock": 223,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "libero",
+    "FullName": "Prof. Nakia Florida Eichmann IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

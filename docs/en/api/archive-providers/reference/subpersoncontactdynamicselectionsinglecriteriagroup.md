@@ -470,6 +470,92 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|linkClicked/linkId|int|Link ID: Link ID|  |
+|linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
+|formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmission/formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmission/formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmission/formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmission/formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
+|formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
+|formSubmission/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|formSubmission/time| *None* |Time: Time|  |
+|formSubmission/type|listAny|Type: Displays the type of an activity| x |
+|formSubmission/text|positiveString|Text: Displays a descriptive text for the item| x |
+|formSubmission/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|formSubmission/contactId|listAny|Company ID: Database ID of company| x |
+|formSubmission/personId|listAny|Contact ID: Database ID of the contact row| x |
+|formSubmission/updatedBy|associate|Updated by: The user who last updated the data| x |
+|formSubmission/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|formSubmission/registeredBy|associate|Registered by: The user who registered the data| x |
+|formSubmission/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|formSubmission/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|workflowInstance/workflowInstanceId|int|Instance id: Id of the running flow instance| x |
+|workflowInstance/workflowInstanceStatus|listAny|Participant status: Status of the running flow instance| x |
+|workflowInstance/workflowInstanceWaitUntil|date|Wait until: Wait until| x |
+|workflowInstance/workflowInstanceStepStarted|date|Step started: Step started at this time| x |
+|workflowInstance/workflowInstanceCurrentStepDescription| *None* |Current step: Current step description|  |
+|workflowInstance/workflowInstanceCurrentStepId| *None* |!!workflowInstanceCurrentStepId: !!workflowInstanceCurrentStepId\_TOOLTIP|  |
+|workflowInstance/workflowInstanceLastCommunicationStepDescription| *None* |Last communication: Last communication step description|  |
+|workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
+|workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
+|workflowInstance/workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
+|workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last email status: Status of mailing recipient| x |
+|workflowInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
+|workflowInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|workflowInstance/registeredBy|associate|Registered by: The user who registered the data| x |
+|workflowInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|workflowInstance/emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|workflowInstance/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|workflowInstance/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
+|workflowInstance/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
+|workflowInstance/emailFlow/thumbnail| *None* |Thumbnail|  |
+|workflowInstance/emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|workflowInstance/emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
+|workflowInstance/emailFlow/workflowName|string|Name: Name of the flow definition| x |
+|workflowInstance/emailFlow/workflowDescription|string|Description: Description of flow definition| x |
+|workflowInstance/emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|workflowInstance/emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
+|workflowInstance/emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|workflowInstance/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|workflowInstance/emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|workflowInstance/emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|workflowInstance/emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|workflowInstance/emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|workflowInstance/emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
+|workflowInstance/emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|workflowInstance/emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
+|workflowInstance/emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|chatSession/chatSessionId|int|Chat session ID: Database ID of the chat session| x |
+|chatSession/firstMessage|string|First message: The first message submitted in the chat| x |
+|chatSession/lastMessage|string|Last message: The last message submitted in the chat| x |
+|chatSession/whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
+|chatSession/whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+|chatSession/whenEnded|datetime|Chat ended: When did this chat end?| x |
+|chatSession/duration|timeSpan|Duration: The duration of the chat session|  |
+|chatSession/timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
+|chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
+|chatSession/rating|int|Rating: Rating of chat session| x |
+|chatSession/agent|ejUser|Agent: The agent of the chat| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|chatSession/status|listAny|Status: Status for the chat session| x |
+|chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
+|chatSession/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|chatSession/type|listAny|Type: Displays the type of an activity| x |
+|chatSession/text|positiveString|Text: Displays a descriptive text for the item| x |
+|chatSession/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|chatSession/contactId|listAny|Company ID: Database ID of company| x |
+|chatSession/personId|listAny|Contact ID: Database ID of the contact row| x |
+|chatSession/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|chatSession/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|chatSession/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|chatSession/chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
+|chatSession/chatTopic/name|string|Name: Name| x |
+|chatSession/chatTopic/description|string|Description: The description of the chat channel| x |
+|chatSession/chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -537,10 +623,6 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/associateDbId|associate|Created by - ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
@@ -559,6 +641,10 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
@@ -641,10 +727,6 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
@@ -663,6 +745,10 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
 |projectMembers/projectAssociate/assocName|associate|User ID : User ID| x |
 |projectMembers/projectAssociate/assocTooltip|string|Description : Description|  |
@@ -745,10 +831,6 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
@@ -767,6 +849,10 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |personAppointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |personAppointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
@@ -812,11 +898,210 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
+|sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|sale/time| *None* |Time: Time|  |
+|sale/type|listAny|Type: Displays the type of an activity| x |
+|sale/recordType|string|Record type : Shows the record type| x |
+|sale/text|positiveString|Text: Displays a descriptive text for the item| x |
+|sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|sale/contactId|listAny|Company ID: Database ID of company| x |
+|sale/personId|listAny|Contact ID: Database ID of the contact row| x |
+|sale/projectId|listAny|Project ID: Database ID of project record| x |
+|sale/saleId|int|Sale ID: The database ID of the sale record| x |
+|sale/userGroup|userGroup|User group : The user group that owns the record| x |
+|sale/who| *None* |Who: Contact and/or company|  |
+|sale/updatedBy|associate|Updated by: The user who last updated the data| x |
+|sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|sale/registeredBy|associate|Registered by: The user who registered the data| x |
+|sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|sale/currencyId|int|Currency ID: The currency list item ID| x |
+|sale/currency|listAny|Currency: The currency of the sale| x |
+|sale/credited|listAny|Credited: The user to be credited with the sale| x |
+|sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
+|sale/source|listAny|Source: The source (lead) of the sale| x |
+|sale/competitor|listAny|Competitor: The competitor who won the sale| x |
+|sale/heading|stringorPK|Sale: The name of the sale| x |
+|sale/amount|decimal|Amount: The gross sales total| x |
+|sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
+|sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
+|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|sale/probPercent|int|Probability as %: Probability as %| x |
+|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
+|sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
+|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+|sale/saleNumber|string|Number: Number| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
+|sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
+|sale/description|string|Description: The long description field on Sale|  |
+|sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/visibleFor|listAny|Visible for|  |
+|sale/sale/textId|int|Text ID| x |
+|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
+|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
+|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|sale/associate/associateDbId|associate|ID| x |
+|sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|sale/associate/contactCategory|listAny|Category: Category| x |
+|sale/associate/role|listAny|Role : Role| x |
+|sale/associate/assocName|associate|User ID : User ID| x |
+|sale/associate/assocTooltip|string|Description : Description|  |
+|sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
+|sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
+|sale/associate/userName|string|User name: User name| x |
+|sale/associate/personEmail|string|E-mail| x |
+|sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
+|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
+|sale/saleUdef/SuperOffice:3|int|salenumber| x |
+|sale/saleUdef/SuperOffice:4|date|saledate| x |
+|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
+|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
+|sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
+|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
+|sale/quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
+|sale/quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
+|sale/quote/orderComment|string|Comment: Customer's comment| x |
+|sale/quote/connectionId|int|DB-ID: Database ID| x |
+|sale/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
+|sale/quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
+|sale/quote/version/description|string|Description: Description of the quote version| x |
+|sale/quote/version/number|string|Number: Reference number for the quote version| x |
+|sale/quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
+|sale/quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
+|sale/quote/version/state|listAny|State: The current state the quote is in| x |
+|sale/quote/version/status|listAny|Quote status: Status field showing the status of each line.| x |
+|sale/quote/version/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
+|sale/quote/version/paymentTerms|listExternal|Payment terms: Payment terms|  |
+|sale/quote/version/paymentType|listExternal|Payment type: Payment type|  |
+|sale/quote/version/deliveryTerms|listExternal|Delivery terms: Delivery terms|  |
+|sale/quote/version/deliveryType|listExternal|Delivery type: Delivery type|  |
+|sale/quote/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
+|sale/quote/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
+|sale/quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
+|sale/quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
+|sale/quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
+|sale/quote/version/alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
+|sale/quote/version/alternative/name|string|Name: Name of the quote alternative| x |
+|sale/quote/version/alternative/description|string|Description: Description of the quote alternative| x |
+|sale/quote/version/alternative/status|listAny|Quote status: Status field showing the status of each line.| x |
+|sale/quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
+|sale/quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
+|sale/quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
+|sale/quote/version/alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
+|sale/quote/version/alternative/discountAmount|decimal|Discount: Enter total discount for entire alternative| x |
+|sale/quote/version/alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
+|sale/quote/version/alternative/vat|decimal|VAT: Value-added and other taxes, total amount| x |
+|sale/quote/version/alternative/earningPercent|decimal|Earnings %: Total Earnings as a percentage of the total price, of all lines in the quote alternative, including all discounts| x |
+|sale/quote/version/alternative/earningAmount|decimal|Earnings: Total Earnings for all lines in the quote alternative, including all discounts| x |
+|sale/quote/version/alternative/totalPrice|decimal|Total: Total price of all items in the quote alternative, including all discounts| x |
+|sale/quote/version/alternative/extraField1|string|Extra 1: Extra field 1 on the quote alternative| x |
+|sale/quote/version/alternative/extraField2|string|Extra 2: Extra field 2 on the quote alternative| x |
+|sale/quote/version/alternative/extraField3|string|Extra 3: Extra field 3on the quote alternative| x |
+|sale/quote/version/alternative/extraField4|string|Extra 4: Extra field 4 on the quote alternative| x |
+|sale/quote/version/alternative/extraField5|string|Extra 5: Extra field 5 on the quote alternative| x |
+|sale/quote/version/alternative/alternativeOrdering|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
+|sale/quote/version/alternative/subTotal|decimal|Total before discount: Total of all lines, before applying the Alternative discount| x |
+|sale/quote/version/alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
+|sale/quote/version/alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
+|sale/quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
+|sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
+|sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
+|sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
+|sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
+|sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
+|sale/quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
+|sale/quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
+|sale/quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in| x |
+|sale/quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.| x |
+|sale/quote/version/alternative/quoteline/subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
+|sale/quote/version/alternative/quoteline/subscriptionQuantity|decimal|Subscription quantity: Number of subscription units offered| x |
+|sale/quote/version/alternative/quoteline/UnitListPriceSubscriptionQuantity| *None* |Subscription list price: Unit price * subscription quantity|  |
+|sale/quote/version/alternative/quoteline/PriceUnitSubscriptionUnit| *None* |P/S Unit: Price unit/subscription unit|  |
+|sale/quote/version/alternative/quoteline/PriceUnitSubscriptionQuantityUnit| *None* |Expanded unit: Price unit @ subscription quantity + unit|  |
+|sale/quote/version/alternative/quoteline/vatInfo|string|VAT info: | x |
+|sale/quote/version/alternative/quoteline/vat|decimal|VAT: May be filled out by the ERP system| x |
+|sale/quote/version/alternative/quoteline/unitCost|decimal|Cost: Cost per item.| x |
+|sale/quote/version/alternative/quoteline/unitMinimumPrice|decimal|Unit minimum price: Minimum price per item. Users are not allowed to send quotes with prices lower than the minimum price.| x |
+|sale/quote/version/alternative/quoteline/unitListPrice|decimal|List price: List price of a unit| x |
+|sale/quote/version/alternative/quoteline/totalPrice|decimal|Total: List price * Quantity - Discount Amount| x |
+|sale/quote/version/alternative/quoteline/totalCost|decimal|Total cost|  |
+|sale/quote/version/alternative/quoteline/quoteLineThumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
+|sale/quote/version/alternative/quoteline/quoteLineThumbnailLarge| *None* |Thumbnail: A miniature version of the product picture|  |
+|sale/quote/version/alternative/quoteline/discountAmount|decimal|Discount: Discount amount given by salesperson| x |
+|sale/quote/version/alternative/quoteline/discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
+|sale/quote/version/alternative/quoteline/earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
+|sale/quote/version/alternative/quoteline/earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
+|sale/quote/version/alternative/quoteline/updatedBy|associate|Updated by: The user who last updated the data| x |
+|sale/quote/version/alternative/quoteline/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|sale/quote/version/alternative/quoteline/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|sale/quote/version/alternative/quoteline/registeredBy|associate|Registered by: The user who registered the data| x |
+|sale/quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|sale/quote/version/alternative/quoteline/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|sale/quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
+|sale/quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
+|sale/quote/version/alternative/quoteline/productTypeKey|listExternal|Product type: The type of product|  |
+|sale/quote/version/alternative/quoteline/status|listAny|Quote status: Status field showing the status of each line.| x |
+|sale/quote/version/alternative/quoteline/subTotal|decimal|Sum: Sum of Quantity * Unit list price| x |
+|sale/quote/version/alternative/quoteline/vatAmount|decimal|VAT (amount: The calculated VAT amount| x |
+|sale/quote/version/alternative/quoteline/totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT| x |
+|sale/quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personExtra/x_person_shorttext_list,personSourceRelation/personAssociateFullName,personTargetRelation/position,postAddress/formattedAddress,contactAssociate/isActive
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=fullName,contactId,hasInfoText,countryId,personExtra/x_person_appointment_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

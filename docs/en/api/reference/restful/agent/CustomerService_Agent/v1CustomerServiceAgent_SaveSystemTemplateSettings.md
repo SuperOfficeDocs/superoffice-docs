@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 772,
-  "CustomerCustomerReplyTemplateId": 757,
-  "CustomerPasswordTemplateId": 50,
-  "CustomerConfirmEmailTemplateId": 545,
-  "CustomerChatLogTemplateId": 547,
-  "NewLinkTemplateId": 770,
-  "HotlistNewMessageTemplateId": 5,
-  "HotlistTicketActivatedTemplateId": 264,
-  "UserTicketAlarmTemplateId": 247,
-  "HotlistTicketTakenOverTemplateId": 961,
-  "UserActiveTicketsTemplateId": 681,
-  "UserNewMessageTemplateId": 172,
-  "UserTicketActivatedTemplateId": 642,
-  "UserNewTicketTemplateId": 42,
-  "PublishKbQuestionTemplateId": 499,
-  "PublishKbAnswerTemplateId": 363,
-  "UserTicketTakenOverTemplateId": 734,
-  "PrintTicketTemplateId": 410,
-  "WeekStatTemplateId": 811,
-  "TicketAlarmHotlistTemplateId": 108,
-  "EmailAddresses": "martine@feil.com",
+  "CustomerNewCustomerTemplateId": 137,
+  "CustomerCustomerReplyTemplateId": 748,
+  "CustomerPasswordTemplateId": 799,
+  "CustomerConfirmEmailTemplateId": 517,
+  "CustomerChatLogTemplateId": 113,
+  "NewLinkTemplateId": 845,
+  "HotlistNewMessageTemplateId": 858,
+  "HotlistTicketActivatedTemplateId": 84,
+  "UserTicketAlarmTemplateId": 517,
+  "HotlistTicketTakenOverTemplateId": 19,
+  "UserActiveTicketsTemplateId": 448,
+  "UserNewMessageTemplateId": 586,
+  "UserTicketActivatedTemplateId": 907,
+  "UserNewTicketTemplateId": 448,
+  "PublishKbQuestionTemplateId": 18,
+  "PublishKbAnswerTemplateId": 65,
+  "UserTicketTakenOverTemplateId": 895,
+  "PrintTicketTemplateId": 714,
+  "WeekStatTemplateId": 171,
+  "TicketAlarmHotlistTemplateId": 272,
+  "EmailAddresses": "arlie@lesch.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 478
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "quae"
+  "Context": "voluptas"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "itaque",
-    "ValueType": "dolorum",
-    "Mandatory": false,
-    "EncodedDisplayName": "Kunde, Gusikowski and Erdman",
-    "EncodedDisplayDescription": "Robust 24 hour knowledge base",
-    "IconHint": "est",
+    "Key": "nisi",
+    "ValueType": "ex",
+    "Mandatory": true,
+    "EncodedDisplayName": "Walker Inc and Sons",
+    "EncodedDisplayDescription": "Decentralized uniform Graphical User Interface",
+    "IconHint": "consequatur",
     "ControlInfos": [
       {
-        "Type": "debitis",
-        "Label": "repudiandae",
-        "Dimension": 329,
-        "ListProviderName": "Runolfsson-Schmidt",
-        "ListProviderExtraInfo": "sit",
-        "ListProviderPrimaryKeyName": "Kemmer-Gottlieb",
-        "ListLeadText": "eos",
+        "Type": "deserunt",
+        "Label": "omnis",
+        "Dimension": 15,
+        "ListProviderName": "Collier-Schowalter",
+        "ListProviderExtraInfo": "a",
+        "ListProviderPrimaryKeyName": "Stiedemann-Collier",
+        "ListLeadText": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 937
           }
         }
       }
     ],
-    "EncodedDataCaption": "assumenda",
-    "EncodedDataCaptionDescription": "Self-enabling background array",
-    "CurrentOperationType": "rem",
+    "EncodedDataCaption": "cum",
+    "EncodedDataCaptionDescription": "Progressive hybrid hub",
+    "CurrentOperationType": "ipsam",
     "Values": [
-      "veniam",
-      "quia"
+      "consequatur",
+      "voluptas"
     ],
     "DisplayValues": [
-      "accusamus",
-      "rerum"
+      "non",
+      "non"
     ],
     "OperationInfos": [
       {
-        "Key": "provident",
-        "EncodedDisplayName": "Bailey Inc and Sons",
+        "Key": "rerum",
+        "EncodedDisplayName": "Bechtelar LLC",
         "EncodedLeadTexts": [
-          "dolores",
-          "temporibus"
+          "autem",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldType": "System.Int32",
+            "FieldLength": 103
           }
         }
       },
       {
-        "Key": "provident",
-        "EncodedDisplayName": "Bailey Inc and Sons",
+        "Key": "rerum",
+        "EncodedDisplayName": "Bechtelar LLC",
         "EncodedLeadTexts": [
-          "dolores",
-          "temporibus"
+          "autem",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldType": "System.Int32",
+            "FieldLength": 103
           }
         }
       }

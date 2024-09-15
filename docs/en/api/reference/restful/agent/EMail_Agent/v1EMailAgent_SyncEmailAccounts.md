@@ -72,14 +72,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 149,
-      "AssociateName": "Strosin, Simonis and Sipes",
-      "AssociateId": 687
+      "AccountId": 779,
+      "AssociateName": "Steuber-Corkery",
+      "AssociateId": 935
     },
     {
-      "AccountId": 149,
-      "AssociateName": "Strosin, Simonis and Sipes",
-      "AssociateId": 687
+      "AccountId": 779,
+      "AssociateName": "Steuber-Corkery",
+      "AssociateId": 935
     }
   ]
 }

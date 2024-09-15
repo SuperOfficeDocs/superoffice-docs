@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 983,
-    "DisplayName": "Miller, Monahan and Grant",
-    "OngoingChats": 336,
-    "Present": true,
+    "UserId": 973,
+    "DisplayName": "Bayer LLC",
+    "OngoingChats": 232,
+    "Present": false,
     "ChatTopics": [
-      141,
-      463
+      696,
+      75
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

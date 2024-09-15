@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Jacobi Group",
-  "Tooltip": "sint",
+  "Id": 719,
+  "Name": "Walker Group",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 584,
-  "Rank": 164,
+  "UdListDefinitionId": 648,
+  "Rank": 636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 903
     }
   }
 }

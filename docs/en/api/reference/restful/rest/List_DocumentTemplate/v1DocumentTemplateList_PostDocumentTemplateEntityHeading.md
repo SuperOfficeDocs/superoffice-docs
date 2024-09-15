@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 728,
-  "Name": "Abernathy, Bartoletti and Batz",
-  "Tooltip": "est",
+  "HeadingId": 859,
+  "Name": "Wolf-Jast",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 250,
-  "UdListDefinitionId": 616
+  "Rank": 340,
+  "UdListDefinitionId": 126
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 456,
-  "Name": "Stokes LLC",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 177,
-  "UdListDefinitionId": 521,
+  "HeadingId": 107,
+  "Name": "Kemmer LLC",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 40,
+  "UdListDefinitionId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 352
     }
   }
 }

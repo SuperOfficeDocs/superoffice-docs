@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 608,
-  "CrmRecordId": 450,
+  "ErpConnectionId": 774,
+  "CrmRecordId": 821,
   "CrmActorType": "Contact",
-  "ErpKey": "similique",
+  "ErpKey": "minus",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Lind-Smith",
-      "CrmFieldKey": "doloribus",
-      "Value": "eveniet",
-      "DisplayValue": "ipsa",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Ankunding Group",
+      "CrmFieldKey": "beatae",
+      "Value": "suscipit",
+      "DisplayValue": "dolor",
+      "SyncToCrm": false,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Lind-Smith",
-      "CrmFieldKey": "doloribus",
-      "Value": "eveniet",
-      "DisplayValue": "ipsa",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Ankunding Group",
+      "CrmFieldKey": "beatae",
+      "Value": "suscipit",
+      "DisplayValue": "dolor",
+      "SyncToCrm": false,
+      "SyncToErp": true
     }
   ]
 }

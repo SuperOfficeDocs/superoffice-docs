@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 264,
+  "TargetYear": 431,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 128,
-  "DimensionId": 965
+  "Id": 192,
+  "DimensionId": 72
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 407,
+  "TargetAssignmentInfoId": 451,
   "Values": [
-    315,
-    133
+    815,
+    790
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 317,
-  "DimensionListItemDisplayName": "Hauck Inc and Sons",
+  "DimensionListItem": 903,
+  "DimensionListItemDisplayName": "Dach, Robel and Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 657
     }
   }
 }

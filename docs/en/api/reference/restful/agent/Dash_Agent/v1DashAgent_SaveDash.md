@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 511,
-  "UniqueId": "voluptates",
-  "Name": "Reichel-Sporer",
-  "Description": "Implemented web-enabled knowledge base",
-  "AssociateId": 553,
-  "Columns": 824,
+  "DashboardId": 914,
+  "UniqueId": "repudiandae",
+  "Name": "Hickle Group",
+  "Description": "Synergized encompassing task-force",
+  "AssociateId": 412,
+  "Columns": 284,
   "Theme": null,
-  "VisibleForAll": 85,
+  "VisibleForAll": 403,
   "VisibleForAssociates": [
-    132,
-    482
+    637,
+    391
   ],
   "VisibleForGroups": [
-    247,
-    435
+    230,
+    374
   ],
-  "PinForAll": 594,
+  "PinForAll": 283,
   "PinForAssociates": [
-    494,
-    387
+    268,
+    904
   ],
   "PinForGroups": [
-    705,
-    482
+    1000,
+    555
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 506,
-  "UniqueId": "quia",
-  "Name": "Quitzon, Berge and Flatley",
-  "Description": "Centralized full-range analyzer",
-  "AssociateId": 107,
-  "Columns": 120,
+  "DashboardId": 15,
+  "UniqueId": "facilis",
+  "Name": "Wilderman-Gerlach",
+  "Description": "Optional methodical neural-net",
+  "AssociateId": 577,
+  "Columns": 680,
   "Theme": null,
-  "VisibleForAll": 502,
+  "VisibleForAll": 647,
   "VisibleForAssociates": [
-    626,
-    68
+    87,
+    577
   ],
   "VisibleForGroups": [
-    469,
-    988
+    133,
+    604
   ],
-  "PinForAll": 111,
+  "PinForAll": 815,
   "PinForAssociates": [
-    461,
-    104
+    625,
+    82
   ],
   "PinForGroups": [
-    615,
-    619
+    734,
+    68
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 113
     }
   }
 }

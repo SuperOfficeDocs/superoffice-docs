@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ullam",
-  "ProviderName": "Reilly Inc and Sons",
-  "StorageKey": "sit",
-  "Rank": 276,
-  "Context": "consequuntur"
+  "StorageType": "itaque",
+  "ProviderName": "Boyle Inc and Sons",
+  "StorageKey": "consequatur",
+  "Rank": 636,
+  "Context": "atque"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mayert, Glover and McKenzie",
-  "Description": "Fully-configurable tertiary array",
-  "Rank": 556,
+  "Name": "Heathcote-Koch",
+  "Description": "User-friendly object-oriented attitude",
+  "Rank": 1000,
   "Restrictions": [
     {
-      "Name": "Bednar, Conroy and Hyatt",
-      "Operator": "et",
+      "Name": "Jerde, Marvin and Koepp",
+      "Operator": "voluptatem",
       "Values": [
-        "in",
-        "sunt"
+        "cupiditate",
+        "minima"
       ],
       "DisplayValues": [
-        "molestiae",
-        "fuga"
+        "cupiditate",
+        "fugiat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 618,
+      "InterParenthesis": 977,
       "InterOperator": "And",
-      "UniqueHash": 113
+      "UniqueHash": 938
     }
   ]
 }

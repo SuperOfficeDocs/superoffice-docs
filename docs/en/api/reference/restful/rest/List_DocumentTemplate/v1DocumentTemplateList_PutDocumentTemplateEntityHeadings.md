@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 238,
-    "Name": "Keeling-Jaskolski",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 417,
-    "UdListDefinitionId": 784
+    "HeadingId": 493,
+    "Name": "Dicki LLC",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 744,
+    "UdListDefinitionId": 387
   },
   {
-    "HeadingId": 238,
-    "Name": "Keeling-Jaskolski",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 417,
-    "UdListDefinitionId": 784
+    "HeadingId": 493,
+    "Name": "Dicki LLC",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 744,
+    "UdListDefinitionId": 387
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 500,
-    "Name": "Koch LLC",
-    "Tooltip": "et",
+    "HeadingId": 31,
+    "Name": "Baumbach, Padberg and Harber",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 121,
+    "Rank": 496,
+    "UdListDefinitionId": 291,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

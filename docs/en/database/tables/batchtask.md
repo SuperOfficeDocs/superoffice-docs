@@ -2,10 +2,10 @@
 uid: table-BatchTask
 title: BatchTask table
 description: Batch task request details, corresponding to the message body of a batch request message
-generated: true
+so.generated: true
 keywords: database table BatchTask
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # BatchTask Table (243)

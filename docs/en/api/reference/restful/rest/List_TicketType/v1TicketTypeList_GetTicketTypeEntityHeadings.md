@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 256,
-    "Name": "Gorczany-Conroy",
-    "Tooltip": "est",
+    "HeadingId": 6,
+    "Name": "Frami-Toy",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 699,
-    "UdListDefinitionId": 32,
+    "Rank": 356,
+    "UdListDefinitionId": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldLength": 282
       }
     }
   }

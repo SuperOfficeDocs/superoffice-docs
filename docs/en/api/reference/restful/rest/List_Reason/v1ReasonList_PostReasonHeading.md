@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 99,
-  "Name": "Frami, Bergnaum and Smitham",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 601,
-  "UdListDefinitionId": 270
+  "HeadingId": 583,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 111,
+  "UdListDefinitionId": 79
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 64,
-  "Name": "Powlowski, Pfeffer and Shields",
-  "Tooltip": "aut",
+  "HeadingId": 22,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "nam",
   "Deleted": false,
-  "Rank": 979,
-  "UdListDefinitionId": 671,
+  "Rank": 678,
+  "UdListDefinitionId": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 34,
-    "Name": "Bins-Tromp",
-    "ContentType": "excepturi",
-    "AttSize": 876,
+    "AttachmentId": 803,
+    "Name": "Huel-Trantow",
+    "ContentType": "officia",
+    "AttSize": 838,
     "InlineImage": false,
-    "ContentId": "quas",
-    "AuthKey": "deserunt",
+    "ContentId": "est",
+    "AuthKey": "aut",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

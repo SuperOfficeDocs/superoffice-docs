@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 300,
-  "ModuleOwner": "similique"
+  "AssociateId": 649,
+  "ModuleOwner": "aut"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 376,
-    "Tooltip": "autem",
+    "Unrestricted": false,
+    "Total": 711,
+    "Tooltip": "unde",
     "CanAssign": false,
-    "Free": 444,
-    "InUse": 990,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 808,
-    "Name": "Hegmann, Renner and Effertz",
-    "Description": "Innovative web-enabled frame",
-    "PrerequisiteModuleName": "Heidenreich-Runolfsdottir",
-    "SortOrder": 173,
-    "ExtraFlags": 771,
+    "Free": 237,
+    "InUse": 316,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 85,
+    "Name": "Kessler, Barrows and Baumbach",
+    "Description": "Centralized static monitoring",
+    "PrerequisiteModuleName": "O'Connell-Dickens",
+    "SortOrder": 236,
+    "ExtraFlags": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 571
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=363
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=398
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Boehm Inc and Sons",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 754,
-  "CountryId": 64,
-  "PersonId": 483,
-  "EmailDescription": "isabell@vandervort.biz",
-  "EmailId": 823,
-  "EmailAddress": "ross@hansen.com",
-  "PhoneId": 850,
-  "ContactName": "Ernser, Carter and Harvey",
-  "ContactId": 934,
-  "SaleId": 93,
-  "Mrmrs": "qui",
-  "Firstname": "Ewell",
-  "MiddleName": "Graham-Fadel",
-  "Lastname": "Weissnat",
-  "SaleStakeholderId": 40,
-  "Rank": 665,
-  "Phone": "1-443-656-9792 x0759",
+  "StakeholderRoleName": "Welch, Gaylord and McGlynn",
+  "Comment": "et",
+  "StakeholderRoleId": 946,
+  "CountryId": 771,
+  "PersonId": 606,
+  "EmailDescription": "buddy_volkman@hermistonschmitt.uk",
+  "EmailId": 412,
+  "EmailAddress": "estel@boganwest.uk",
+  "PhoneId": 952,
+  "ContactName": "Treutel-Kovacek",
+  "ContactId": 472,
+  "SaleId": 314,
+  "Mrmrs": "rem",
+  "Firstname": "Delphia",
+  "MiddleName": "Brakus Inc and Sons",
+  "Lastname": "Von",
+  "SaleStakeholderId": 147,
+  "Rank": 702,
+  "Phone": "1-781-943-5409",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

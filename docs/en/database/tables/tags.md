@@ -2,10 +2,10 @@
 uid: table-Tags
 title: Tags table
 description: MDO List of tags for Service entities
-generated: true
+so.generated: true
 keywords: database table Tags
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Tags Table (459)

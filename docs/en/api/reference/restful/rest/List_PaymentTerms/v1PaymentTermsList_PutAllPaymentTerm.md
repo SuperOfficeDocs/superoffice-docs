@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "McGlynn Group",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 226,
-    "Rank": 359
+    "Id": 657,
+    "Name": "Stroman Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": false,
+    "UdListDefinitionId": 637,
+    "Rank": 670
   },
   {
-    "Id": 519,
-    "Name": "McGlynn Group",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 226,
-    "Rank": 359
+    "Id": 657,
+    "Name": "Stroman Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": false,
+    "UdListDefinitionId": 637,
+    "Rank": 670
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "saepe",
+    "Id": 566,
+    "Name": "Wehner, Willms and Schinner",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "UdListDefinitionId": 845,
-    "Rank": 293,
+    "UdListDefinitionId": 896,
+    "Rank": 161,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

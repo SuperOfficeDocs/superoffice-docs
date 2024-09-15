@@ -2,10 +2,10 @@
 uid: table-ConnectionConfigField
 title: ConnectionConfigField table
 description: Configuration data for Erp and Quote Connections
-generated: true
+so.generated: true
 keywords: database table ConnectionConfigField
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ConnectionConfigField Table (421)

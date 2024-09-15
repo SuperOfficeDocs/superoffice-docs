@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hahn, Cremin and Bechtelar",
+  "TaskName": "O'Conner Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Johns, Luettgen and Kassulke",
-    "AssociateId": 413,
-    "DetailsTable": 198,
-    "DetailsRecord": 560,
+    "Id": 586,
+    "Name": "Medhurst Inc and Sons",
+    "AssociateId": 359,
+    "DetailsTable": 258,
+    "DetailsRecord": 171,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolores",
-      "ParameterObject2": "error"
+      "ParameterObject1": "assumenda",
+      "ParameterObject2": "hic"
     },
-    "LastStarted": "2009-02-24T13:28:21.8512599+01:00",
-    "Created": "2004-11-11T13:28:21.8512599+01:00",
-    "StartCount": 351,
-    "DatabaseSerialNumber": "460739",
-    "Context": "voluptas",
-    "Result": "sit",
+    "LastStarted": "2008-03-26T04:02:01.2374146+01:00",
+    "Created": "1999-07-13T04:02:01.2374146+02:00",
+    "StartCount": 107,
+    "DatabaseSerialNumber": "1104618",
+    "Context": "sit",
+    "Result": "dolor",
     "State": "All",
-    "Description": "Function-based cohesive local area network",
-    "Response": "qui",
-    "Request": "non",
-    "ProgressDescription": "Balanced regional encryption",
-    "ProgressPercent": 403,
-    "FileName": "Sauer LLC",
+    "Description": "Managed upward-trending adapter",
+    "Response": "autem",
+    "Request": "et",
+    "ProgressDescription": "Fundamental needs-based moratorium",
+    "ProgressPercent": 269,
+    "FileName": "Roob LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 513
       }
     }
   }

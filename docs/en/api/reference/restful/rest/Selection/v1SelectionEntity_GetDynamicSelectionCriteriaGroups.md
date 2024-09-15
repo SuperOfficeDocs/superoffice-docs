@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray-Heller",
-    "Description": "Assimilated eco-centric middleware",
-    "Rank": 388,
+    "Name": "Schamberger, Turner and Kutch",
+    "Description": "Re-engineered stable synergy",
+    "Rank": 556,
     "Restrictions": [
       {
-        "Name": "Lockman, Goldner and Kassulke",
-        "Operator": "et",
+        "Name": "Weissnat Group",
+        "Operator": "rerum",
         "Values": [
-          "non",
-          "vero"
+          "dignissimos",
+          "eius"
         ],
         "DisplayValues": [
-          "odit",
-          "minima"
+          "inventore",
+          "deleniti"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 689,
+        "InterParenthesis": 229,
         "InterOperator": "And",
-        "UniqueHash": 88
+        "UniqueHash": 783
       }
     ]
   },
   {
-    "Name": "Murray-Heller",
-    "Description": "Assimilated eco-centric middleware",
-    "Rank": 388,
+    "Name": "Schamberger, Turner and Kutch",
+    "Description": "Re-engineered stable synergy",
+    "Rank": 556,
     "Restrictions": [
       {
-        "Name": "Lockman, Goldner and Kassulke",
-        "Operator": "et",
+        "Name": "Weissnat Group",
+        "Operator": "rerum",
         "Values": [
-          "non",
-          "vero"
+          "dignissimos",
+          "eius"
         ],
         "DisplayValues": [
-          "odit",
-          "minima"
+          "inventore",
+          "deleniti"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 689,
+        "InterParenthesis": 229,
         "InterOperator": "And",
-        "UniqueHash": 88
+        "UniqueHash": 783
       }
     ]
   }

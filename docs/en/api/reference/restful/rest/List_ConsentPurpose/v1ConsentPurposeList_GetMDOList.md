@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=nobis
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=in
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Becker Group",
-    "ToolTip": "Dolorum exercitationem hic qui nisi.",
-    "Deleted": false,
-    "Rank": 569,
-    "Type": "quis",
+    "Id": 604,
+    "Name": "Boyer, Ward and Treutel",
+    "ToolTip": "Voluptatum quo inventore inventore quia adipisci.",
+    "Deleted": true,
+    "Rank": 468,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Dickinson Inc and Sons",
-        "ToolTip": "Eum maxime.",
-        "Deleted": false,
-        "Rank": 689,
-        "Type": "et",
+        "Id": 540,
+        "Name": "Kutch-Morar",
+        "ToolTip": "Ea et qui.",
+        "Deleted": true,
+        "Rank": 742,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 133,
-        "ExtraInfo": "neque",
-        "StyleHint": "aperiam",
-        "FullName": "Eleazar Armstrong",
+        "IconHint": "sint",
+        "ColorBlock": 722,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "tempora",
+        "FullName": "Kiana Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 860
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 19,
-    "ExtraInfo": "ullam",
-    "StyleHint": "et",
-    "FullName": "Rocky Trantow",
+    "IconHint": "quis",
+    "ColorBlock": 733,
+    "ExtraInfo": "porro",
+    "StyleHint": "maiores",
+    "FullName": "Estelle Schuppe I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 996
       }
     }
   }

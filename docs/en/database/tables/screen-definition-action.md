@@ -2,10 +2,10 @@
 uid: table-screen_definition_action
 title: screen_definition_action table
 description: An action to perform for a certain button in an screen
-generated: true
+so.generated: true
 keywords: database table screen_definition_action
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # screen\_definition\_action Table (371)

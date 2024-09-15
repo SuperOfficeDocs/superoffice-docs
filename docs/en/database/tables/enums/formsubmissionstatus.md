@@ -2,10 +2,10 @@
 uid: enum-formsubmissionstatus
 title: Enum values for FormSubmissionStatus
 description: Lists the enum values for FormSubmissionStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # FormSubmissionStatus Enum

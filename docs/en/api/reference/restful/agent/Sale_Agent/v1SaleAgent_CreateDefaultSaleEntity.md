@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "numquam",
+  "SaleText": "omnis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-11-24T13:28:23.6323677+01:00",
-  "Amount": 12952.822,
-  "SaleId": 639,
-  "Earning": 17271.474,
-  "EarningPercent": 21098.088,
-  "Heading": "impedit",
-  "Number": "517981",
-  "Probability": 168,
-  "CreatedDate": "2008-04-25T13:28:23.6323677+02:00",
-  "UpdatedDate": "2005-11-15T13:28:23.6323677+01:00",
+  "Saledate": "2013-03-25T04:02:02.2534538+01:00",
+  "Amount": 1598.34,
+  "SaleId": 429,
+  "Earning": 112.824,
+  "EarningPercent": 21330.004,
+  "Heading": "doloribus",
+  "Number": "897765",
+  "Probability": 445,
+  "CreatedDate": "1999-10-26T04:02:02.2534538+02:00",
+  "UpdatedDate": "2006-12-10T04:02:02.2534538+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 287,
+  "ActiveLinks": 963,
   "Links": [
     {
-      "EntityName": "Steuber Group",
-      "Id": 918,
-      "Description": "Diverse explicit encoding",
-      "ExtraInfo": "non",
-      "LinkId": 751,
+      "EntityName": "McGlynn Inc and Sons",
+      "Id": 634,
+      "Description": "Sharable content-based neural-net",
+      "ExtraInfo": "molestias",
+      "LinkId": 574,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldType": "System.Int32",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "NextDueDate": "2015-03-26T13:28:23.6323677+01:00",
-  "Postit": "quasi",
+  "NextDueDate": "2002-08-22T04:02:02.2534538+02:00",
+  "Postit": "cum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-03-13T13:28:23.6323677+01:00",
+  "ReopenDate": "2019-01-18T04:02:02.2534538+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dibbert LLC",
-      "Comment": "ullam",
-      "StakeholderRoleId": 26,
-      "CountryId": 190,
-      "PersonId": 924,
-      "EmailDescription": "maxwell.goyette@greenfelder.us",
-      "EmailId": 132,
-      "EmailAddress": "rick.marks@bogan.us",
-      "PhoneId": 195,
-      "ContactName": "Stroman-Turner",
-      "ContactId": 236,
-      "SaleId": 803,
-      "Mrmrs": "velit",
-      "Firstname": "Keira",
-      "MiddleName": "Vandervort-Effertz",
-      "Lastname": "Metz",
-      "SaleStakeholderId": 551,
-      "Rank": 74,
-      "Phone": "(756)129-1094 x352",
+      "StakeholderRoleName": "Kling, Wilkinson and Stamm",
+      "Comment": "dolor",
+      "StakeholderRoleId": 770,
+      "CountryId": 335,
+      "PersonId": 210,
+      "EmailDescription": "aimee.ziemann@botsfordstreich.co.uk",
+      "EmailId": 614,
+      "EmailAddress": "alessandro@yostlockman.com",
+      "PhoneId": 181,
+      "ContactName": "Lubowitz-Barrows",
+      "ContactId": 578,
+      "SaleId": 23,
+      "Mrmrs": "hic",
+      "Firstname": "Arianna",
+      "MiddleName": "Cormier-Swaniawski",
+      "Lastname": "Rowe",
+      "SaleStakeholderId": 1000,
+      "Rank": 486,
+      "Phone": "713-460-2850 x4000",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 265
         }
       }
     }
   ],
-  "ActiveErpLinks": 215,
+  "ActiveErpLinks": 916,
   "UserDefinedFields": {
-    "SuperOffice:1": "Brennon Braun",
-    "SuperOffice:2": "257185662"
+    "SuperOffice:1": "1174949196",
+    "SuperOffice:2": "Ahmad Pollich"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "aut"
+    "CustomFields1": "molestias",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2024-03-26T13:28:23.6323677+01:00",
-  "PublishTo": "2019-07-06T13:28:23.6323677+02:00",
-  "PublishFrom": "2022-10-28T13:28:23.6323677+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-05-04T04:02:02.2534538+02:00",
+  "PublishTo": "1997-09-15T04:02:02.2534538+02:00",
+  "PublishFrom": "2020-10-13T04:02:02.2534538+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 869,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 676
         }
       }
     },
     {
-      "VisibleId": 869,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 676
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 206
     }
   }
 }

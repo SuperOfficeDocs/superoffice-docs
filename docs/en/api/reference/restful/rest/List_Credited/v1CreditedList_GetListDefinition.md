@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Lehner-Halvorson",
-  "Tooltip": "eaque",
+  "Id": 610,
+  "Name": "Wolf-Murphy",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 316,
-  "IsCustomList": false,
+  "Rank": 351,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 161
     }
   },
   "_Links": {

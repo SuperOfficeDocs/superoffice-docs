@@ -2,10 +2,10 @@
 uid: table-email_folder
 title: email_folder table
 description: Corresponds to an email folder on a mail server
-generated: true
+so.generated: true
 keywords: database table email_folder
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # email\_folder Table (487)

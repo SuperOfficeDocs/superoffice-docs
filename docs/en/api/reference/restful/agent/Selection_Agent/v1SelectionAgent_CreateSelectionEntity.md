@@ -117,7 +117,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Kuhn Group"
+  "TargetTableName": "Marvin-Abbott"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent holistic algorithm",
-  "Postit": "et",
+  "Description": "Customizable client-driven complexity",
+  "Postit": "culpa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 729,
-  "IncludePerson": 509,
+  "GroupIdx": 312,
+  "IncludePerson": 185,
   "MemberCount": 99.99,
-  "Name": "Stroman-Murray",
-  "PostitTextId": 577,
-  "CreatedDate": "2002-11-06T13:28:23.7417186+01:00",
-  "SelectionId": 780,
-  "SoundEx": "aut",
-  "Source": 591,
-  "TextId": 934,
-  "UpdatedDate": "2004-11-21T13:28:23.7417186+01:00",
-  "UpdatedCount": 116,
-  "Visibility": 306,
+  "Name": "Beahan-Wolff",
+  "PostitTextId": 950,
+  "CreatedDate": "2000-02-04T04:02:02.3005065+01:00",
+  "SelectionId": 471,
+  "SoundEx": "hic",
+  "Source": 403,
+  "TextId": 751,
+  "UpdatedDate": "2019-04-23T04:02:02.3005065+02:00",
+  "UpdatedCount": 436,
+  "Visibility": 29,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 900,
-  "TargetTableName": "Marks LLC",
-  "Completed": true,
-  "LeftSelectionId": 273,
-  "RightSelectionId": 403,
+  "CompanyUnique": false,
+  "TargetTableNumber": 273,
+  "TargetTableName": "Mann Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 218,
+  "RightSelectionId": 183,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Marks-Prosacco",
-  "ShadowProviderName": "Conn LLC",
-  "ChartKey": "maxime",
-  "LastLoaded": "2018-09-26T13:28:23.7417186+02:00",
-  "LastLoadedBy": 159,
+  "MainProviderName": "Christiansen, Sawayn and Larkin",
+  "ShadowProviderName": "Morar, Romaguera and O'Conner",
+  "ChartKey": "voluptates",
+  "LastLoaded": "2015-12-15T04:02:02.3005065+01:00",
+  "LastLoadedBy": 527,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-02-19T13:28:23.7417186+01:00",
-  "LastMembershipChangeBy": 331,
+  "LastMembershipChange": "2012-05-20T04:02:02.3005065+02:00",
+  "LastMembershipChangeBy": 778,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolores",
-  "MemberTabHeading": "esse",
-  "MailingsProviderName": "Crist-Witting",
-  "DashboardTileDefinitionId": 507,
+  "MainHeading": "labore",
+  "MemberTabHeading": "itaque",
+  "MailingsProviderName": "Baumbach, Murphy and Purdy",
+  "DashboardTileDefinitionId": 882,
   "VisibleFor": [
     {
-      "VisibleId": 417,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 750
         }
       }
     },
     {
-      "VisibleId": 417,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 750
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 389
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rolfson Inc and Sons",
-  "DeviceName": "Terry, Zulauf and Murphy",
-  "DeviceIdentifier": "voluptatem"
+  "ApplicationName": "Corwin Group",
+  "DeviceName": "Volkman-Medhurst",
+  "DeviceIdentifier": "sed"
 }
 ```
 

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel LLC",
+  "Name": "Shields Inc and Sons",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741,
-  "Name": "Langosh Group",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 32,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 934,
+  "Name": "Boehm, Schimmel and Bode",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 436,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 669
     }
   }
 }

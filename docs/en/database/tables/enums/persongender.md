@@ -2,10 +2,10 @@
 uid: enum-persongender
 title: Enum values for PersonGender
 description: Lists the enum values for PersonGender.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PersonGender Enum

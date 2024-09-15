@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 355,
-  "Name": "Gulgowski, Goldner and Beatty",
-  "Tooltip": "ullam",
+  "RoleId": 366,
+  "Name": "Gaylord Group",
+  "Tooltip": "itaque",
   "RoleType": "Anonymous",
-  "Deleted": 187,
-  "Rank": 851,
-  "Created": "2014-05-03T13:28:24.1166042+02:00",
-  "UseCategories": 817,
+  "Deleted": 691,
+  "Rank": 859,
+  "Created": "2012-09-03T04:02:02.5197286+02:00",
+  "UseCategories": 232,
   "CreatedBy": null,
-  "Updated": "2009-10-27T13:28:24.132253+01:00",
+  "Updated": "2002-06-18T04:02:02.5197286+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 878,
-  "Name": "Bernier, Wolff and Flatley",
-  "Tooltip": "fuga",
+  "RoleId": 639,
+  "Name": "Lueilwitz Group",
+  "Tooltip": "saepe",
   "RoleType": "Anonymous",
-  "Deleted": 943,
-  "Rank": 223,
-  "Created": "2021-04-23T13:28:24.132253+02:00",
-  "UseCategories": 305,
+  "Deleted": 596,
+  "Rank": 791,
+  "Created": "2007-08-05T04:02:02.5197286+02:00",
+  "UseCategories": 264,
   "CreatedBy": null,
-  "Updated": "2018-10-10T13:28:24.132253+02:00",
+  "Updated": "2021-02-03T04:02:02.5197286+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

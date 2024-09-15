@@ -2,10 +2,10 @@
 uid: enum-prefdescvaluetype
 title: Enum values for PrefDescValueType
 description: Lists the enum values for PrefDescValueType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PrefDescValueType Enum

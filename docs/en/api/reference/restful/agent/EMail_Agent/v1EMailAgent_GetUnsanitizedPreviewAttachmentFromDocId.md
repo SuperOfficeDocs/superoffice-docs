@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 490,
-  "AttachmentId": "voluptatum"
+  "DocId": 480,
+  "AttachmentId": "fugit"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Horizontal actuating definition",
+  "Description": "Switchable client-driven customer loyalty",
   "Filename": "sint",
-  "Size": 359,
-  "Type": "cumque",
-  "Encoding": "facere",
-  "Id": "molestiae",
-  "Disposition": "illo",
+  "Size": 631,
+  "Type": "quia",
+  "Encoding": "ipsam",
+  "Id": "perspiciatis",
+  "Disposition": "ut",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 942
     }
   }
 }

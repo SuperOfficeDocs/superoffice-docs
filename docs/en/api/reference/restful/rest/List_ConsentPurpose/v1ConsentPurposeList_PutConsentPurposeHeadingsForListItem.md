@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Reinger-Morar",
-    "ToolTip": "Deleniti maxime et iusto.",
-    "Deleted": false,
-    "Rank": 1001,
-    "Type": "pariatur",
-    "ColorBlock": 378,
-    "IconHint": "dolore",
+    "Id": 544,
+    "Name": "Schmidt, Considine and Gutmann",
+    "ToolTip": "Rerum est aspernatur in minima quae amet.",
+    "Deleted": true,
+    "Rank": 879,
+    "Type": "harum",
+    "ColorBlock": 716,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "2003-01-08T13:28:32.7416326+01:00",
+    "LastChanged": "2013-02-09T04:02:07.1034721+01:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Brekke, Moen and Kozey",
-        "ToolTip": "Ipsum architecto ea est totam facilis.",
+        "Id": 63,
+        "Name": "Upton-Feil",
+        "ToolTip": "Rerum reprehenderit sint doloribus velit aut nihil.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "magnam",
-        "ColorBlock": 731,
-        "IconHint": "itaque",
+        "Rank": 465,
+        "Type": "aliquam",
+        "ColorBlock": 533,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2022-02-11T13:28:32.7416326+01:00",
+        "LastChanged": "1998-03-24T04:02:07.1034721+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "veniam",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Isaac Rosenbaum Jr."
+        "FullName": "Ahmad Boehm"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Meagan Yost"
+    "ExtraInfo": "quia",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Miss Theodore Casper PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Name": "Watsica LLC",
-    "ToolTip": "Eius molestiae ullam qui.",
+    "Id": 887,
+    "Name": "Kertzmann, Schumm and Fritsch",
+    "ToolTip": "Impedit omnis aut ipsum eum qui sequi.",
     "Deleted": false,
-    "Rank": 597,
-    "Type": "nisi",
-    "ColorBlock": 297,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "2012-08-24T13:28:32.7416326+02:00",
+    "Rank": 426,
+    "Type": "dolorum",
+    "ColorBlock": 713,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1998-10-11T04:02:07.1034721+02:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Purdy-Weimann",
-        "ToolTip": "Et cupiditate consectetur.",
+        "Id": 10,
+        "Name": "Hintz LLC",
+        "ToolTip": "Consequuntur omnis maxime.",
         "Deleted": false,
-        "Rank": 163,
-        "Type": "dolores",
-        "ColorBlock": 52,
-        "IconHint": "nesciunt",
+        "Rank": 936,
+        "Type": "iusto",
+        "ColorBlock": 519,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2004-04-22T13:28:32.7416326+02:00",
+        "LastChanged": "2024-01-07T04:02:07.1034721+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Andreane Brown",
+        "ExtraInfo": "quia",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Gudrun Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldLength": 842
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "esse",
+    "StyleHint": "debitis",
     "Hidden": true,
-    "FullName": "Darion Bergstrom",
+    "FullName": "Uriel Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

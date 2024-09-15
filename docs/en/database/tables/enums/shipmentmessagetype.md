@@ -2,10 +2,10 @@
 uid: enum-shipmentmessagetype
 title: Enum values for ShipmentMessageType
 description: Lists the enum values for ShipmentMessageType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ShipmentMessageType Enum

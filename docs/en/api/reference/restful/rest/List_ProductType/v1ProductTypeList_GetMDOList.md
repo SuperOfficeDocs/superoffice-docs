@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=ullam
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Lockman, Volkman and Predovic",
-    "ToolTip": "Qui numquam sit expedita ea occaecati atque.",
-    "Deleted": false,
-    "Rank": 389,
-    "Type": "libero",
+    "Id": 229,
+    "Name": "Zboncak-Strosin",
+    "ToolTip": "Asperiores qui fugit consequatur.",
+    "Deleted": true,
+    "Rank": 255,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Keebler LLC",
-        "ToolTip": "Neque reprehenderit neque fugiat debitis distinctio explicabo deleniti.",
+        "Id": 272,
+        "Name": "Kerluke-Daugherty",
+        "ToolTip": "Velit sed rerum cum quod sit odit aspernatur.",
         "Deleted": true,
-        "Rank": 655,
-        "Type": "sit",
+        "Rank": 480,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 505,
-        "ExtraInfo": "placeat",
-        "StyleHint": "repellat",
-        "FullName": "Lilly Jerde",
+        "IconHint": "qui",
+        "ColorBlock": 507,
+        "ExtraInfo": "nobis",
+        "StyleHint": "ducimus",
+        "FullName": "Laila Doyle II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 485
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 149,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "et",
-    "FullName": "Brigitte Schaefer",
+    "IconHint": "aut",
+    "ColorBlock": 311,
+    "ExtraInfo": "saepe",
+    "StyleHint": "suscipit",
+    "FullName": "Arno Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 455
       }
     }
   }

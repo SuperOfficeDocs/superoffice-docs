@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Luettgen-Grant",
-    "Tooltip": "harum",
+    "Id": 68,
+    "Name": "Schroeder, Stark and Eichmann",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 115,
-    "Rank": 333,
+    "UdListDefinitionId": 709,
+    "Rank": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

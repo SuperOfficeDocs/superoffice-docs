@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 356
+  "QuoteAlternativeId": 874
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 970,
-    "ERPQuoteLineKey": "doloremque",
-    "QuoteAlternativeId": 985,
-    "ERPProductKey": "possimus",
+    "QuoteLineId": 289,
+    "ERPQuoteLineKey": "tempore",
+    "QuoteAlternativeId": 110,
+    "ERPProductKey": "ipsam",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 21768.764,
-    "DeliveredQuantity": 11429.698,
-    "Rank": 927,
-    "Name": "Blanda-Murphy",
-    "Description": "De-engineered human-resource emulation",
-    "Code": "voluptate",
-    "QuantityUnit": "ut",
-    "PriceUnit": "tempora",
-    "ItemNumber": "1170507",
+    "Quantity": 29826.278,
+    "DeliveredQuantity": 17713.368,
+    "Rank": 104,
+    "Name": "Rau-Kohler",
+    "Description": "Open-architected neutral moderator",
+    "Code": "porro",
+    "QuantityUnit": "modi",
+    "PriceUnit": "quam",
+    "ItemNumber": "675106",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "commodi",
-    "ProductTypeKey": "id",
-    "Supplier": "et",
-    "SupplierCode": "officia",
-    "Thumbnail": "amet",
-    "VATInfo": "nisi",
-    "VAT": 25632.986,
-    "UnitCost": 2754.786,
-    "UnitMinimumPrice": 21934.865999999998,
-    "UnitListPrice": 30641.118,
+    "ProductFamilyKey": "placeat",
+    "ProductTypeKey": "sed",
+    "Supplier": "quaerat",
+    "SupplierCode": "corporis",
+    "Thumbnail": "sint",
+    "VATInfo": "et",
+    "VAT": 24504.746,
+    "UnitCost": 18249.282,
+    "UnitMinimumPrice": 15052.601999999999,
+    "UnitListPrice": 1128.24,
     "ExtraInfo": [
       {
-        "Name": "Heidenreich, Luettgen and Hegmann",
-        "Value": "rerum",
+        "Name": "Hayes-Parker",
+        "Value": "vel",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 948
+            "FieldType": "System.Int32",
+            "FieldLength": 60
           }
         }
       },
       {
-        "Name": "Heidenreich, Luettgen and Hegmann",
-        "Value": "rerum",
+        "Name": "Hayes-Parker",
+        "Value": "vel",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 948
+            "FieldType": "System.Int32",
+            "FieldLength": 60
           }
         }
       }
     ],
-    "RawExtraInfo": "qui",
-    "IsSubscription": false,
-    "SubscriptionUnit": "est",
-    "SubscriptionQuantity": 8734.458,
-    "SubscriptionStart": "2009-01-20T13:28:23.5855044+01:00",
-    "ERPDiscountPercent": 3829.748,
-    "ERPDiscountAmount": 29287.23,
-    "DiscountPercent": 29584.96,
-    "DiscountAmount": 6565.73,
+    "RawExtraInfo": "illo",
+    "IsSubscription": true,
+    "SubscriptionUnit": "optio",
+    "SubscriptionQuantity": 13598.426,
+    "SubscriptionStart": "2017-06-13T04:02:02.2222071+02:00",
+    "ERPDiscountPercent": 6418.432,
+    "ERPDiscountAmount": 2209.47,
+    "DiscountPercent": 29130.53,
+    "DiscountAmount": 17127.309999999998,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 3789.006,
-    "EarningAmount": 11398.358,
-    "SubTotal": 26711.082,
-    "TotalPrice": 5873.116,
-    "Rights": "voluptas",
-    "Rule": "in",
-    "ExtraField1": "sed",
-    "ExtraField2": "cumque",
-    "ExtraField3": "voluptatum",
-    "ExtraField4": "non",
-    "ExtraField5": "est",
+    "EarningPercent": 13554.55,
+    "EarningAmount": 6697.358,
+    "SubTotal": 22721.5,
+    "TotalPrice": 15140.354,
+    "Rights": "quia",
+    "Rule": "ut",
+    "ExtraField1": "excepturi",
+    "ExtraField2": "incidunt",
+    "ExtraField3": "enim",
+    "ExtraField4": "quo",
+    "ExtraField5": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

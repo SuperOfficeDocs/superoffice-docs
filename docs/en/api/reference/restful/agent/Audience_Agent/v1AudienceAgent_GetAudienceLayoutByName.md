@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Witting, Hauck and Rice"
+  "LayoutName": "McLaughlin-Gleason"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 260,
-  "InstanceLayout": "cupiditate",
-  "InstanceName": "Watsica Inc and Sons",
-  "CreatedDate": "1998-01-10T13:28:21.8356378+01:00",
-  "UpdatedDate": "2005-06-04T13:28:21.8356378+02:00",
+  "AudienceLayoutId": 427,
+  "InstanceLayout": "dolorum",
+  "InstanceName": "Ward Group",
+  "CreatedDate": "2021-05-09T04:02:01.221786+02:00",
+  "UpdatedDate": "2007-08-26T04:02:01.221786+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 79
     }
   }
 }

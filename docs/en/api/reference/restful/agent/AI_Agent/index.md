@@ -16,6 +16,8 @@ generated: true
 
 * [POST Agents/AI/RephraseText](v1AIAgent_RephraseText.md)
 
+* [POST Agents/AI/CreateTextForAppointment](v1AIAgent_CreateTextForAppointment.md)
+
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 
 * [POST Agents/AI/GuessCategory](v1AIAgent_GuessCategory.md)

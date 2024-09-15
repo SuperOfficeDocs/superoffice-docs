@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Wuckert Group",
-  "Tooltip": "quod",
+  "Id": 692,
+  "Name": "Skiles Group",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 624,
-  "Rank": 532,
+  "UdListDefinitionId": 114,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldLength": 842
     }
   }
 }

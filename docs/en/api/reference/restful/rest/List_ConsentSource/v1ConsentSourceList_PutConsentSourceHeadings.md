@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 699,
-    "Name": "Greenholt-Reinger",
-    "Tooltip": "optio",
+    "HeadingId": 780,
+    "Name": "Price Inc and Sons",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 889
+    "Rank": 158,
+    "UdListDefinitionId": 594
   },
   {
-    "HeadingId": 699,
-    "Name": "Greenholt-Reinger",
-    "Tooltip": "optio",
+    "HeadingId": 780,
+    "Name": "Price Inc and Sons",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 889
+    "Rank": 158,
+    "UdListDefinitionId": 594
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Rath, Nader and Herzog",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 298,
+    "HeadingId": 694,
+    "Name": "Reinger-Greenfelder",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 542,
+    "UdListDefinitionId": 524,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 418
       }
     }
   }

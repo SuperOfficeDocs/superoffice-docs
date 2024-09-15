@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "McDermott-McCullough",
-    "ToolTip": "Placeat asperiores blanditiis aut et.",
+    "Id": 644,
+    "Name": "Lockman LLC",
+    "ToolTip": "Aspernatur nobis odio facere provident fugit soluta reiciendis.",
     "Deleted": true,
-    "Rank": 555,
-    "Type": "nihil",
-    "ColorBlock": 517,
-    "IconHint": "tempora",
+    "Rank": 468,
+    "Type": "dicta",
+    "ColorBlock": 728,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2016-12-12T13:28:32.7103906+01:00",
+    "LastChanged": "2019-02-08T04:02:07.1034721+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Miller-Oberbrunner",
-        "ToolTip": "Quasi et ducimus.",
+        "Id": 693,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "Alias quod rem.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "aut",
-        "ColorBlock": 301,
-        "IconHint": "eaque",
+        "Rank": 966,
+        "Type": "odit",
+        "ColorBlock": 498,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2011-01-22T13:28:32.7103906+01:00",
+        "LastChanged": "2009-09-22T04:02:07.1034721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "non",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Miss Westley Champlin II"
+        "FullName": "Prof. Edna Harvey"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Sister Reichel"
+    "ExtraInfo": "neque",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Salvador Ruecker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Zemlak LLC",
-    "ToolTip": "Et iste aspernatur nesciunt quia illum optio corporis.",
+    "Id": 86,
+    "Name": "Breitenberg-Sipes",
+    "ToolTip": "Ipsa aut quo nulla modi.",
     "Deleted": true,
-    "Rank": 370,
-    "Type": "dolor",
-    "ColorBlock": 224,
-    "IconHint": "quisquam",
+    "Rank": 418,
+    "Type": "deserunt",
+    "ColorBlock": 343,
+    "IconHint": "error",
     "Selected": true,
-    "LastChanged": "1998-01-29T13:28:32.7103906+01:00",
+    "LastChanged": "2011-01-12T04:02:07.1034721+01:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Carroll, Jast and Eichmann",
-        "ToolTip": "Aut molestias.",
+        "Id": 664,
+        "Name": "Ferry Group",
+        "ToolTip": "Est quasi magni atque facere minus.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "dolor",
-        "ColorBlock": 157,
-        "IconHint": "ex",
+        "Rank": 510,
+        "Type": "ab",
+        "ColorBlock": 595,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2008-01-11T13:28:32.7103906+01:00",
+        "LastChanged": "1999-02-18T04:02:07.1034721+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Andreane Marks",
+        "ExtraInfo": "sed",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Mikayla Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Dr. Hoyt Bernie Littel",
+    "ExtraInfo": "in",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Remington Moore MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

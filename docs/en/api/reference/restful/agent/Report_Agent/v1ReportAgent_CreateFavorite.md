@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 793,
-  "Name": "King, Sporer and Davis",
-  "Description": "Up-sized web-enabled access"
+  "SourceId": 577,
+  "Name": "Dach LLC",
+  "Description": "Intuitive 4th generation standardization"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 141,
+  "ReportId": 200,
   "ReportCategory": "All",
-  "Description": "Reverse-engineered 24 hour leverage",
+  "Description": "User-friendly incremental concept",
   "ReportLayout": "CalendarMonth",
-  "Name": "Jaskolski LLC",
-  "AssociateId": 282,
-  "TemplateId": 920,
+  "Name": "Will-Hartmann",
+  "AssociateId": 960,
+  "TemplateId": 399,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 640
     }
   }
 }

@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "optio"
+  "Domain": "soluta"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bruen-Fisher",
-    "SoPrimaryKey": 65,
-    "EntryName": "Weimann LLC",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Veum LLC",
+    "RuleName": "McKenzie-Flatley",
+    "SoPrimaryKey": 531,
+    "EntryName": "DuBuque-Metz",
+    "EntryIdentifier": "autem",
+    "RuleDisplayName": "Wilderman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 368
       }
     }
   }

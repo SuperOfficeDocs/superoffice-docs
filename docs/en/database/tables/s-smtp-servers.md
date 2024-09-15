@@ -2,10 +2,10 @@
 uid: table-s_smtp_servers
 title: s_smtp_servers table
 description: Contains the smtp server for a shipment
-generated: true
+so.generated: true
 keywords: database table s_smtp_servers
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_smtp\_servers Table (390)

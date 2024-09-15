@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 345
+  "DocumentId": 670
 }
 ```
 
@@ -117,99 +117,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 205,
-      "ContactName": "Douglas Inc and Sons",
-      "PersonId": 895,
-      "PersonName": "Littel-Mayert",
-      "AssociateId": 692,
-      "Address": "qui",
-      "EmailId": 472,
+      "ContactId": 677,
+      "ContactName": "Johns-Medhurst",
+      "PersonId": 652,
+      "PersonName": "Lueilwitz, Kuphal and Rippin",
+      "AssociateId": 26,
+      "Address": "non",
+      "EmailId": 154,
       "DuplicatePersonIds": [
-        880,
-        896
+        294,
+        50
       ],
-      "Name": "Schinner, Crona and Turcotte",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 187
-        }
-      }
-    }
-  ],
-  "Cc": [
-    {
-      "ContactId": 55,
-      "ContactName": "Simonis Inc and Sons",
-      "PersonId": 451,
-      "PersonName": "Ondricka, Conroy and Marquardt",
-      "AssociateId": 437,
-      "Address": "voluptate",
-      "EmailId": 775,
-      "DuplicatePersonIds": [
-        583,
-        565
-      ],
-      "Name": "Bailey Inc and Sons",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 587
-        }
-      }
-    }
-  ],
-  "Bcc": [
-    {
-      "ContactId": 508,
-      "ContactName": "Hodkiewicz-Haag",
-      "PersonId": 462,
-      "PersonName": "Tillman, Labadie and McKenzie",
-      "AssociateId": 18,
-      "Address": "numquam",
-      "EmailId": 940,
-      "DuplicatePersonIds": [
-        940,
-        519
-      ],
-      "Name": "Friesen Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
-        }
-      }
-    }
-  ],
-  "Subject": "veritatis",
-  "HTMLBody": "distinctio",
-  "From": null,
-  "Sent": "2006-08-28T13:28:22.6479526+02:00",
-  "Size": 305,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "tenetur",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 411,
-  "Attachments": [
-    {
-      "Description": "Organic transitional intranet",
-      "Filename": "labore",
-      "Size": 930,
-      "Type": "hic",
-      "Encoding": "in",
-      "Id": "similique",
-      "Disposition": "et",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Hermann Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -220,44 +139,125 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "CustomHeaderList": [
+  "Cc": [
     {
-      "Name": "Fisher-Medhurst",
-      "Values": [
-        "nemo",
-        "nemo"
+      "ContactId": 547,
+      "ContactName": "Cassin, Bergnaum and Green",
+      "PersonId": 487,
+      "PersonName": "Lang-Robel",
+      "AssociateId": 369,
+      "Address": "natus",
+      "EmailId": 516,
+      "DuplicatePersonIds": [
+        916,
+        330
       ],
+      "Name": "Kozey-Schneider",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
-        }
-      }
-    },
-    {
-      "Name": "Fisher-Medhurst",
-      "Values": [
-        "nemo",
-        "nemo"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     }
   ],
-  "FolderName": "Hyatt-Johnston",
-  "EmailItemId": 516,
-  "AccountId": 505,
-  "ReceivedAt": "2016-09-17T13:28:22.6479526+02:00",
+  "Bcc": [
+    {
+      "ContactId": 376,
+      "ContactName": "Auer-Gutkowski",
+      "PersonId": 410,
+      "PersonName": "Ratke, Reichert and Mohr",
+      "AssociateId": 853,
+      "Address": "fugiat",
+      "EmailId": 972,
+      "DuplicatePersonIds": [
+        582,
+        947
+      ],
+      "Name": "Trantow, Kohler and Gorczany",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 429
+        }
+      }
+    }
+  ],
+  "Subject": "in",
+  "HTMLBody": "quod",
+  "From": null,
+  "Sent": "2001-02-26T04:02:01.6905011+01:00",
+  "Size": 940,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ab",
+  "PlainBody": "itaque",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 752,
+  "Attachments": [
+    {
+      "Description": "Universal transitional knowledge user",
+      "Filename": "animi",
+      "Size": 847,
+      "Type": "et",
+      "Encoding": "quisquam",
+      "Id": "debitis",
+      "Disposition": "alias",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 865
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Ullrich LLC",
+      "Values": [
+        "sapiente",
+        "quia"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 348
+        }
+      }
+    },
+    {
+      "Name": "Ullrich LLC",
+      "Values": [
+        "sapiente",
+        "quia"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 348
+        }
+      }
+    }
+  ],
+  "FolderName": "Goyette-Brakus",
+  "EmailItemId": 864,
+  "AccountId": 974,
+  "ReceivedAt": "2022-06-23T04:02:01.6905011+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-01-18T13:28:22.6479526+01:00",
+  "RepliedAt": "2011-12-17T04:02:01.6905011+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

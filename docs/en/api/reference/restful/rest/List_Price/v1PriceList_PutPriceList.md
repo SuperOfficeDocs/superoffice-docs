@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 975,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 652,
-  "Name": "West, Fisher and Schneider",
-  "Description": "Proactive analyzing core",
-  "Currency": "corporis",
-  "CurrencyName": "Flatley-DuBuque",
-  "ValidFrom": "2008-02-28T13:28:32.9447127+01:00",
-  "ValidTo": "2021-11-19T13:28:32.9447127+01:00",
-  "IsActive": false
+  "PriceListId": 895,
+  "ERPPriceListKey": "quis",
+  "QuoteConnectionId": 713,
+  "Name": "Bednar Group",
+  "Description": "Customer-focused uniform alliance",
+  "Currency": "non",
+  "CurrencyName": "Steuber Inc and Sons",
+  "ValidFrom": "2020-02-04T04:02:07.3065765+01:00",
+  "ValidTo": "2014-05-10T04:02:07.3065765+02:00",
+  "IsActive": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 363,
-  "ERPPriceListKey": "saepe",
-  "QuoteConnectionId": 235,
-  "Name": "Runte Group",
-  "Description": "Down-sized real-time neural-net",
-  "Currency": "eveniet",
-  "CurrencyName": "Hahn, Swaniawski and Marks",
-  "ValidFrom": "2005-06-09T13:28:32.9447127+02:00",
-  "ValidTo": "2016-12-29T13:28:32.9447127+01:00",
+  "PriceListId": 237,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 258,
+  "Name": "O'Connell Group",
+  "Description": "Assimilated stable frame",
+  "Currency": "magnam",
+  "CurrencyName": "Mertz Inc and Sons",
+  "ValidFrom": "2003-09-20T04:02:07.3065765+02:00",
+  "ValidTo": "1997-09-20T04:02:07.3065765+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 759
     }
   },
   "_Links": {

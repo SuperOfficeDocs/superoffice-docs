@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 124
+  "ContactId": 779
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 704,
-    "Name": "Haag, Goodwin and Johnston",
-    "Description": "Public-key well-modulated architecture",
+    "ProjectId": 2,
+    "Name": "Tremblay, Kozey and Glover",
+    "Description": "Public-key analyzing software",
     "URL": "http://www.example.com/",
-    "Type": "sunt",
-    "AssociateId": 842,
-    "AssociateFullName": "Mrs. Emil Mollie Gorczany II",
-    "TypeId": 145,
-    "Updated": "2005-12-22T13:28:23.491777+01:00",
-    "StatusId": 333,
-    "Status": "enim",
-    "TextId": 239,
-    "PublishTo": "2016-02-22T13:28:23.491777+01:00",
-    "PublishFrom": "1998-07-05T13:28:23.491777+02:00",
+    "Type": "veniam",
+    "AssociateId": 115,
+    "AssociateFullName": "Kaitlyn Runolfsdottir",
+    "TypeId": 438,
+    "Updated": "2005-04-20T04:02:02.1597135+02:00",
+    "StatusId": 192,
+    "Status": "sapiente",
+    "TextId": 141,
+    "PublishTo": "2009-05-24T04:02:02.1597135+02:00",
+    "PublishFrom": "2022-12-25T04:02:02.1597135+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "457863",
-    "ActiveErpLinks": 546,
+    "ProjectNumber": "286469",
+    "ActiveErpLinks": 168,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 134
       }
     }
   }

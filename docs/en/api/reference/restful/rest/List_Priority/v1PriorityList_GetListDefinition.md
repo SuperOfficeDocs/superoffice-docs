@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Hoeger LLC",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "Rank": 690,
+  "Id": 94,
+  "Name": "Lowe, Roob and Lakin",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 425,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldLength": 757
     }
   },
   "_Links": {

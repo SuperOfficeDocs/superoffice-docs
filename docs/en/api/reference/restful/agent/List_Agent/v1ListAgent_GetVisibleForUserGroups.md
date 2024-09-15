@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 122,
-  "ListItemId": 107
+  "UdListDefinitionId": 650,
+  "ListItemId": 973
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Boyer Group",
-    "ToolTip": "Facilis nihil cupiditate.",
-    "Deleted": true,
-    "Rank": 303,
-    "Type": "tenetur",
-    "ColorBlock": 537,
-    "IconHint": "similique",
+    "Id": 983,
+    "Name": "Thiel-Orn",
+    "ToolTip": "Aperiam quidem id consequuntur illo.",
+    "Deleted": false,
+    "Rank": 128,
+    "Type": "voluptatibus",
+    "ColorBlock": 551,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2010-02-19T13:28:22.9294051+01:00",
+    "LastChanged": "2002-09-28T04:02:01.8316108+02:00",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "O'Conner, Murazik and Leannon",
-        "ToolTip": "Sapiente magnam est magni sunt nulla.",
+        "Id": 205,
+        "Name": "Gutkowski-Ferry",
+        "ToolTip": "Ut sit et alias.",
         "Deleted": false,
-        "Rank": 866,
-        "Type": "doloremque",
-        "ColorBlock": 705,
-        "IconHint": "doloremque",
-        "Selected": true,
-        "LastChanged": "2015-08-31T13:28:22.9294051+02:00",
+        "Rank": 42,
+        "Type": "atque",
+        "ColorBlock": 90,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2011-04-05T04:02:01.8316108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Dr. Luz Ziemann",
+        "ExtraInfo": "vero",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Miss Mervin Ally Wintheiser Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 633
+            "FieldType": "System.Int32",
+            "FieldLength": 523
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Eduardo Lakin III",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Mrs. Salvatore Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

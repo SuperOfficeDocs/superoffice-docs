@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Boyle-Beahan",
-  "TypicalSearchId": 832
+  "EntityName": "Tillman, Lakin and Klocko",
+  "TypicalSearchId": 391
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schmidt LLC",
-  "SelectionId": 411,
+  "ProviderName": "Boyle, Senger and Wintheiser",
+  "SelectionId": 38,
   "CanSaveAsSelection": false,
-  "MainHeading": "neque",
-  "FilterScreenHeading": "aliquam",
-  "SelectionEntityHeading": "ab",
+  "MainHeading": "occaecati",
+  "FilterScreenHeading": "itaque",
+  "SelectionEntityHeading": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 164
     }
   }
 }

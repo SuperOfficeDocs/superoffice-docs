@@ -170,14 +170,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fisher, Walsh and Schultz",
-  "Columns": "sunt",
-  "SortOrder": "illo",
-  "Restriction": "assumenda",
-  "Entities": "et",
-  "Page": 588,
-  "PageSize": 931,
-  "Options": "eos"
+  "ProviderName": "O'Connell Inc and Sons",
+  "Columns": "eligendi",
+  "SortOrder": "necessitatibus",
+  "Restriction": "est",
+  "Entities": "consequatur",
+  "Page": 405,
+  "PageSize": 96,
+  "Options": "rem"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 403,
+  "RowCount": 57,
   "Rows": [
     {
-      "EntityName": "Weissnat Group",
-      "PrimaryKey": 223,
+      "EntityName": "Kunze, Jacobi and Runolfsson",
+      "PrimaryKey": 768,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "ipsum",
-          "LinkHint": "fugit"
+          "DisplayValue": "recusandae",
+          "TooltipHint": "dignissimos",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "ut",
+      "LinkHint": "error",
+      "StyleHint": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 179
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

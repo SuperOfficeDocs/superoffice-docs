@@ -2,10 +2,10 @@
 uid: enum-apptype
 title: Enum values for AppType
 description: Lists the enum values for AppType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AppType Enum

@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 515,
-  "Year": 675,
+  "TargetGroupId": 587,
+  "Year": 4,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 912,
+      "TargetAssignmentInfoId": 941,
       "Values": [
-        257,
-        556
+        156,
+        891
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 537,
-      "DimensionListItemDisplayName": "Ebert, Howell and Gutmann",
+      "DimensionListItem": 117,
+      "DimensionListItemDisplayName": "Konopelski-Nikolaus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 510
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

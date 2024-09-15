@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 404,
-    "Name": "Graham-Kreiger",
-    "Tooltip": "in",
+    "HeadingId": 243,
+    "Name": "Gutmann-Douglas",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 499
+    "Rank": 557,
+    "UdListDefinitionId": 851
   },
   {
-    "HeadingId": 404,
-    "Name": "Graham-Kreiger",
-    "Tooltip": "in",
+    "HeadingId": 243,
+    "Name": "Gutmann-Douglas",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 499
+    "Rank": 557,
+    "UdListDefinitionId": 851
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 262,
-    "Name": "Green Group",
-    "Tooltip": "fuga",
-    "Deleted": false,
-    "Rank": 853,
-    "UdListDefinitionId": 464,
+    "HeadingId": 929,
+    "Name": "Casper, Hayes and Morissette",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 655,
+    "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 729
       }
     }
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Friesen Inc and Sons",
-  "ListItemId": 103,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Jewess, Hauck and Runte",
+  "ListItemId": 777,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Schuster, Koch and Upton",
-    "ToolTip": "Repellat voluptatum.",
+    "Id": 813,
+    "Name": "Boyle-Bernier",
+    "ToolTip": "Et doloribus aut possimus consequatur.",
     "Deleted": false,
-    "Rank": 836,
-    "Type": "reiciendis",
-    "ColorBlock": 555,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2005-01-18T13:28:22.9449983+01:00",
+    "Rank": 709,
+    "Type": "magni",
+    "ColorBlock": 69,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2009-12-31T04:02:01.847234+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Ullrich Group",
-        "ToolTip": "Sint itaque ad numquam praesentium qui.",
-        "Deleted": true,
-        "Rank": 969,
-        "Type": "ipsam",
-        "ColorBlock": 57,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2013-12-29T13:28:22.9449983+01:00",
+        "Id": 506,
+        "Name": "Wiegand, Gibson and Hodkiewicz",
+        "ToolTip": "Voluptates facere voluptas omnis rem deleniti praesentium.",
+        "Deleted": false,
+        "Rank": 329,
+        "Type": "laudantium",
+        "ColorBlock": 605,
+        "IconHint": "similique",
+        "Selected": true,
+        "LastChanged": "2007-04-24T04:02:01.847234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "quia",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Dr. Ubaldo Eric Beer IV",
+        "FullName": "Melody Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 558
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "quam",
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Amos Monahan",
+    "FullName": "Jayson Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 187
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

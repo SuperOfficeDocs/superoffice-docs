@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "est",
-  "VersionId": "neque",
-  "Success": false,
+  "ExternalReference": "illum",
+  "VersionId": "optio",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "libero",
-  "AdditionalInfo": "id"
+  "Value": "veritatis",
+  "AdditionalInfo": "reiciendis"
 }
 ```

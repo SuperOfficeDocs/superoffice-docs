@@ -14,6 +14,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'
 
 * [AddAfterWorkflowStep](addafterworkflowstep.md)
 * [ConnectEmailFlowContent](connectemailflowcontent.md)
+* [CopyEmailFlow](copyemailflow.md)
 * [CopyEmailFlowContent](copyemailflowcontent.md)
 * [CreateDefaultEmailFlow](createdefaultemailflow.md)
 * [CreateDefaultWorkflowEvent](createdefaultworkflowevent.md)

@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Abbott Group",
-  "HeadingId": 195,
+  "UdListDefinitionName": "Brakus Inc and Sons",
+  "HeadingId": 611,
   "ListItemIds": [
-    263,
-    422
+    187,
+    875
   ],
   "Enable": true
 }

@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 550,
-  "ERPProductKey": "atque"
+  "QuoteConnectionId": 569,
+  "ERPProductKey": "modi"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 968,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "earum",
-  "Name": "Kunze-Botsford",
-  "Description": "Team-oriented solution-oriented analyzer",
-  "Code": "consequatur",
-  "PriceUnit": "sit",
-  "QuantityUnit": "culpa",
+  "ProductId": 875,
+  "ERPProductKey": "explicabo",
+  "ERPPriceListKey": "quis",
+  "Name": "Moore Group",
+  "Description": "Open-source high-level superstructure",
+  "Code": "maxime",
+  "PriceUnit": "et",
+  "QuantityUnit": "voluptatibus",
   "IsSubscription": true,
-  "SubscriptionUnit": "nisi",
-  "DefaultSubscriptionQuantity": 24771.136,
-  "ItemNumber": "1848231",
+  "SubscriptionUnit": "neque",
+  "DefaultSubscriptionQuantity": 28575.811999999998,
+  "ItemNumber": "1263118",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "facilis",
-  "VAT": 2002.626,
-  "VATInfo": "rerum",
-  "UnitCost": 21869.052,
-  "UnitMinimumPrice": 30421.737999999998,
-  "UnitListPrice": 14569.966,
-  "InAssortment": false,
-  "Supplier": "vitae",
-  "SupplierCode": "voluptatum",
-  "Rights": "harum",
-  "Rule": "ut",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "ut",
+  "VAT": 206.844,
+  "VATInfo": "harum",
+  "UnitCost": 29553.62,
+  "UnitMinimumPrice": 16773.167999999998,
+  "UnitListPrice": 28362.7,
+  "InAssortment": true,
+  "Supplier": "tempore",
+  "SupplierCode": "sit",
+  "Rights": "est",
+  "Rule": "architecto",
   "ExtraInfo": [
     {
-      "Name": "Hirthe LLC",
-      "Value": "qui",
+      "Name": "Kshlerin Group",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 275
         }
       }
     },
     {
-      "Name": "Hirthe LLC",
-      "Value": "qui",
+      "Name": "Kshlerin Group",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 275
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "sunt",
-  "ExtraField2": "ratione",
-  "ExtraField3": "asperiores",
-  "ExtraField4": "commodi",
-  "ExtraField5": "quam",
-  "InStock": 8640.438,
+  "RawExtraInfo": "at",
+  "ExtraField1": "facere",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "nisi",
+  "ExtraField5": "qui",
+  "InStock": 376.08,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 481
     }
   }
 }

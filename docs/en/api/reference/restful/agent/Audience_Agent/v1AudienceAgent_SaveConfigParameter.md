@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lockman, Cummings and Kovacek",
+  "LayoutName": "Stehr Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 733,
-  "Name": "Klein-Rohan",
-  "Value": "ipsa",
-  "CreatedDate": "2006-10-16T13:28:21.8356378+02:00",
-  "UpdatedDate": "2006-07-05T13:28:21.8356378+02:00",
-  "CreatedBy": "quis",
-  "UpdatedBy": "amet",
+  "AudienceLayoutId": 67,
+  "Name": "Mills-Carroll",
+  "Value": "exercitationem",
+  "CreatedDate": "2010-02-03T04:02:01.221786+01:00",
+  "UpdatedDate": "2008-10-27T04:02:01.221786+01:00",
+  "CreatedBy": "recusandae",
+  "UpdatedBy": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 33
     }
   }
 }

@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 692,
+  "DocumentTemplateId": 724,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "necessitatibus",
-  "PluginId": 674
+  "LanguageCode": "ipsum",
+  "PluginId": 308
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mertz LLC",
-  "Description": "Distributed analyzing encoding",
-  "ExternalReference": "accusamus",
-  "MimeType": "dignissimos",
-  "PluginId": 110
+  "Name": "Schowalter, Nader and Will",
+  "Description": "User-friendly bi-directional policy",
+  "ExternalReference": "nisi",
+  "MimeType": "qui",
+  "PluginId": 685
 }
 ```

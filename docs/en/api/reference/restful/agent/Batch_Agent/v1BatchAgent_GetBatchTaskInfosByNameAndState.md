@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfeffer-Erdman",
+  "Name": "Hand-Schmidt",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Ritchie, Prosacco and Mertz",
-    "AssociateId": 911,
-    "DetailsTable": 406,
-    "DetailsRecord": 796,
+    "Id": 98,
+    "Name": "Vandervort-Hoppe",
+    "AssociateId": 813,
+    "DetailsTable": 157,
+    "DetailsRecord": 884,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "rerum",
-      "ParameterObject2": "asperiores"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2015-05-06T13:28:21.8512599+02:00",
-    "Created": "2023-10-02T13:28:21.8512599+02:00",
-    "StartCount": 865,
-    "DatabaseSerialNumber": "944990",
-    "Context": "molestiae",
-    "Result": "dignissimos",
+    "LastStarted": "1999-01-25T04:02:01.2374146+01:00",
+    "Created": "2021-05-26T04:02:01.2374146+02:00",
+    "StartCount": 486,
+    "DatabaseSerialNumber": "1153569",
+    "Context": "voluptatem",
+    "Result": "aperiam",
     "State": "All",
-    "Description": "Synergized 4th generation framework",
-    "Response": "et",
-    "Request": "quam",
-    "ProgressDescription": "Profit-focused 24/7 workforce",
-    "ProgressPercent": 250,
-    "FileName": "Goyette, Rutherford and Paucek",
+    "Description": "Operative tangible model",
+    "Response": "adipisci",
+    "Request": "beatae",
+    "ProgressDescription": "Distributed secondary collaboration",
+    "ProgressPercent": 13,
+    "FileName": "Brown, Fahey and Larkin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 223
       }
     }
   }

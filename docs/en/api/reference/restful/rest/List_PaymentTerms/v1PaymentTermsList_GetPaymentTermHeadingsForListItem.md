@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Kuphal, Keeling and Ullrich",
-    "ToolTip": "Molestiae similique autem blanditiis iure.",
+    "Id": 677,
+    "Name": "West Group",
+    "ToolTip": "Quis aut.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "quam",
-    "ColorBlock": 204,
-    "IconHint": "magnam",
-    "Selected": false,
-    "LastChanged": "2022-03-07T13:28:32.8978487+01:00",
+    "Rank": 595,
+    "Type": "nisi",
+    "ColorBlock": 238,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "1998-05-11T04:02:07.2753298+02:00",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Harvey Group",
-        "ToolTip": "Atque nisi cum ipsam voluptatibus.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "voluptatum",
-        "ColorBlock": 804,
-        "IconHint": "quaerat",
+        "Id": 177,
+        "Name": "Larkin-Fisher",
+        "ToolTip": "Voluptatem enim minima omnis ea.",
+        "Deleted": true,
+        "Rank": 23,
+        "Type": "et",
+        "ColorBlock": 940,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2014-08-16T13:28:32.8978487+02:00",
+        "LastChanged": "2018-02-25T04:02:07.2753298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "cum",
+        "ExtraInfo": "placeat",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mrs. Lucy Adaline Stamm",
+        "FullName": "Miss Kimberly Kip Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 408
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "magnam",
+    "ExtraInfo": "iure",
+    "StyleHint": "cum",
     "Hidden": true,
-    "FullName": "Rhoda Sawayn",
+    "FullName": "Dora Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 384
       }
     }
   }

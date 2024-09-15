@@ -2,10 +2,10 @@
 uid: table-sms
 title: sms table
 description: This table will hold outgoing sms messages when transmitted with WebServices
-generated: true
+so.generated: true
 keywords: database table sms
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # sms Table (388)

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 144,
-  "StartTime": "2008-03-10T13:28:22.4604993+01:00",
-  "EndTime": "2006-01-30T13:28:22.4604993+01:00",
-  "Count": 140,
+  "PersonId": 760,
+  "StartTime": "2021-09-19T04:02:01.5811276+02:00",
+  "EndTime": "2023-05-12T04:02:01.5811276+02:00",
+  "Count": 856,
   "DocumentTemplateIds": [
-    465,
-    750
+    656,
+    849
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 245,
-    "Attention": "at",
-    "Header": "rerum",
-    "Name": "Kuhic Inc and Sons",
-    "OurRef": "eum",
-    "YourRef": "quia",
-    "Description": "Open-architected static archive",
-    "DocumentTemplate": "pariatur",
+    "DocumentId": 981,
+    "Attention": "qui",
+    "Header": "dolorem",
+    "Name": "Ruecker-Zemlak",
+    "OurRef": "facilis",
+    "YourRef": "harum",
+    "Description": "Phased static capacity",
+    "DocumentTemplate": "totam",
     "IsPublished": false,
-    "PersonId": 474,
-    "PersonFullName": "Mr. Jordane Cora Kerluke",
-    "AssociateFullName": "Stella Strosin MD",
-    "ContactId": 48,
-    "ContactName": "Prosacco, Ullrich and Mills",
-    "ProjectId": 405,
-    "ProjectName": "Reilly Group",
-    "AssociateId": 891,
-    "Snum": 788,
-    "SaleId": 700,
-    "SaleName": "Zulauf, Marvin and West",
+    "PersonId": 217,
+    "PersonFullName": "Aaliyah Nolan I",
+    "AssociateFullName": "Mrs. Colton Hackett IV",
+    "ContactId": 925,
+    "ContactName": "Predovic-Jast",
+    "ProjectId": 278,
+    "ProjectName": "Schultz, Feest and Fay",
+    "AssociateId": 753,
+    "Snum": 593,
+    "SaleId": 421,
+    "SaleName": "Russel, Douglas and Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldLength": 28
       }
     }
   }

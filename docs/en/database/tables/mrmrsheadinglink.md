@@ -2,10 +2,10 @@
 uid: table-MrMrsHeadingLink
 title: MrMrsHeadingLink table
 description: Heading link table for MrMrs, for MDO headers
-generated: true
+so.generated: true
 keywords: database table MrMrsHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # MrMrsHeadingLink Table (96)

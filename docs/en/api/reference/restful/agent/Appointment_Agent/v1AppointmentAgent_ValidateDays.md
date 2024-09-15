@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "saepe",
-    "nisi"
+    "sunt",
+    "et"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2004-02-08T13:28:21.6169386+01:00",
-    "IsConflict": true,
-    "Description": "Streamlined upward-trending system engine",
-    "DescriptionStyleHint": "Pre-emptive multimedia throughput",
-    "Tooltip": "totam"
+    "Date": "2004-11-12T04:02:01.096304+01:00",
+    "IsConflict": false,
+    "Description": "Expanded executive help-desk",
+    "DescriptionStyleHint": "Stand-alone 24/7 throughput",
+    "Tooltip": "veniam"
   },
   {
-    "Date": "2004-02-08T13:28:21.6169386+01:00",
-    "IsConflict": true,
-    "Description": "Streamlined upward-trending system engine",
-    "DescriptionStyleHint": "Pre-emptive multimedia throughput",
-    "Tooltip": "totam"
+    "Date": "2004-11-12T04:02:01.096304+01:00",
+    "IsConflict": false,
+    "Description": "Expanded executive help-desk",
+    "DescriptionStyleHint": "Stand-alone 24/7 throughput",
+    "Tooltip": "veniam"
   }
 ]
 ```

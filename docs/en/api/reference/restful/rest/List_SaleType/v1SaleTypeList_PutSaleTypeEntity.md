@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 961,
-  "Name": "Williamson, Konopelski and Watsica",
-  "Tooltip": "ea",
-  "Rank": 186,
+  "SaleTypeId": 89,
+  "Name": "Murphy, Stroman and Paucek",
+  "Tooltip": "architecto",
+  "Rank": 554,
   "DurationUnit": "Century",
-  "SaleDuration": 156,
-  "SaleTypeCatId": 414,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 421,
+  "SaleTypeCatId": 111,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 35,
-  "QuoteLinesTemplate": 261,
-  "ConfirmationLinesTemplate": 59,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 945,
+  "QuoteLinesTemplate": 507,
+  "ConfirmationLinesTemplate": 226,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 613,
-  "MinEarningPercent": 74,
-  "GroupQuoteLinesBy": 585,
-  "SortGroupLinesBy": 89,
+  "MaxDiscountPercent": 378,
+  "MinEarningPercent": 235,
+  "GroupQuoteLinesBy": 788,
+  "SortGroupLinesBy": 414,
   "Stages": [
     {
-      "Id": 801,
-      "Name": "Harber, Roob and Effertz",
-      "ToolTip": "Doloribus harum.",
-      "Deleted": false,
-      "Rank": 382,
-      "Type": "qui",
-      "ColorBlock": 112,
-      "IconHint": "minus",
+      "Id": 440,
+      "Name": "Morar Inc and Sons",
+      "ToolTip": "Pariatur nulla eius ut error asperiores eum molestiae.",
+      "Deleted": true,
+      "Rank": 479,
+      "Type": "facilis",
+      "ColorBlock": 982,
+      "IconHint": "cumque",
       "Selected": false,
-      "LastChanged": "2011-05-15T13:28:33.1482054+02:00",
+      "LastChanged": "2005-04-01T04:02:07.4003498+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "occaecati",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Chauncey Dibbert III"
+      "ExtraInfo": "nobis",
+      "StyleHint": "beatae",
+      "Hidden": true,
+      "FullName": "Scarlett Schaefer"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 916,
-  "Name": "Hegmann Group",
-  "Tooltip": "et",
-  "Rank": 180,
+  "SaleTypeId": 274,
+  "Name": "Abshire-Klocko",
+  "Tooltip": "perferendis",
+  "Rank": 876,
   "DurationUnit": "Century",
-  "SaleDuration": 930,
-  "SaleTypeCatId": 507,
+  "SaleDuration": 805,
+  "SaleTypeCatId": 222,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 423,
-  "QuoteLinesTemplate": 433,
-  "ConfirmationLinesTemplate": 789,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 220,
+  "QuoteLinesTemplate": 349,
+  "ConfirmationLinesTemplate": 632,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 875,
-  "MinEarningPercent": 451,
-  "GroupQuoteLinesBy": 789,
-  "SortGroupLinesBy": 297,
+  "MaxDiscountPercent": 987,
+  "MinEarningPercent": 243,
+  "GroupQuoteLinesBy": 746,
+  "SortGroupLinesBy": 78,
   "Stages": [
     {
-      "Id": 438,
-      "Name": "Schroeder-Jacobi",
-      "ToolTip": "Quia nihil voluptatem.",
-      "Deleted": true,
-      "Rank": 184,
-      "Type": "nulla",
-      "ColorBlock": 185,
-      "IconHint": "exercitationem",
+      "Id": 275,
+      "Name": "Robel Group",
+      "ToolTip": "Exercitationem ut voluptatibus voluptas ut.",
+      "Deleted": false,
+      "Rank": 662,
+      "Type": "ipsa",
+      "ColorBlock": 565,
+      "IconHint": "dolores",
       "Selected": true,
-      "LastChanged": "2008-09-22T13:28:33.1482054+02:00",
+      "LastChanged": "2007-08-07T04:02:07.4003498+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "impedit",
-      "Hidden": false,
-      "FullName": "Dr. Marques Pagac Jr.",
+      "ExtraInfo": "vel",
+      "StyleHint": "nobis",
+      "Hidden": true,
+      "FullName": "Marcelo Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 100
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldLength": 974
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Howell, Upton and Smith",
+  "UdListDefinitionName": "Tromp Group",
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Champlin-Spinka",
-    "Tooltip": "eos",
+    "Id": 775,
+    "Name": "Monahan, Cruickshank and Satterfield",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 184,
+    "UdListDefinitionId": 698,
+    "Rank": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldLength": 2
       }
     }
   }

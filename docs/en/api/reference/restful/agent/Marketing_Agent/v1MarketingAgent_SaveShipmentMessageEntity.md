@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 819,
-  "PlainMessage": "reiciendis",
-  "HtmlMessage": "qui",
-  "SmsMessage": "dolorum",
-  "Description": "Implemented 24/7 local area network",
-  "Subject": "eius",
-  "FolderId": 427,
-  "HeaderField": "nihil",
-  "Design": "non",
+  "ShipmentMessageId": 827,
+  "PlainMessage": "repellat",
+  "HtmlMessage": "illo",
+  "SmsMessage": "dolore",
+  "Description": "Reverse-engineered intermediate parallelism",
+  "Subject": "et",
+  "FolderId": 58,
+  "HeaderField": "placeat",
+  "Design": "veritatis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Digitized directional pricing structure",
-  "AccessKey": "ex",
-  "DocumentMessage": 708,
-  "Registered": "2012-05-21T13:28:23.038756+02:00",
-  "RegisteredAssociateId": 280,
-  "Updated": "2009-09-04T13:28:23.038756+02:00",
-  "UpdatedAssociateId": 656,
-  "UpdatedCount": 853
+  "LongDescription": "Diverse system-worthy definition",
+  "AccessKey": "et",
+  "DocumentMessage": 378,
+  "Registered": "1999-10-24T04:02:01.8941042+02:00",
+  "RegisteredAssociateId": 132,
+  "Updated": "2008-09-20T04:02:01.8941042+02:00",
+  "UpdatedAssociateId": 776,
+  "UpdatedCount": 683
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 788,
-  "PlainMessage": "rem",
-  "HtmlMessage": "consequatur",
-  "SmsMessage": "a",
-  "Description": "Persistent mobile algorithm",
-  "Subject": "sed",
-  "FolderId": 759,
-  "HeaderField": "atque",
-  "Design": "nostrum",
+  "ShipmentMessageId": 775,
+  "PlainMessage": "impedit",
+  "HtmlMessage": "non",
+  "SmsMessage": "sint",
+  "Description": "Automated responsive utilisation",
+  "Subject": "veniam",
+  "FolderId": 395,
+  "HeaderField": "accusantium",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Phased eco-centric installation",
-  "AccessKey": "tempore",
-  "DocumentMessage": 884,
-  "Registered": "2007-11-13T13:28:23.038756+01:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "2004-05-24T13:28:23.038756+02:00",
-  "UpdatedAssociateId": 494,
-  "UpdatedCount": 354,
+  "LongDescription": "De-engineered discrete access",
+  "AccessKey": "eligendi",
+  "DocumentMessage": 980,
+  "Registered": "2003-09-20T04:02:01.8941042+02:00",
+  "RegisteredAssociateId": 809,
+  "Updated": "2018-09-11T04:02:01.8941042+02:00",
+  "UpdatedAssociateId": 680,
+  "UpdatedCount": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldType": "System.String",
+      "FieldLength": 686
     }
   }
 }

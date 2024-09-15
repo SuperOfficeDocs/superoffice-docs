@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 913,
+  "QuoteVersionId": 598,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 944
+  "CountryId": 765
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20850.502,
-  "Wgs84Longitude": 22354.822,
+  "Wgs84Latitude": 22762.242,
+  "Wgs84Longitude": 18095.716,
   "LocalizedAddress": [
     [
       {
-        "Name": "Hackett-Ritchie",
-        "Value": "a",
-        "Tooltip": "quod",
-        "Label": "architecto",
-        "ValueLength": 380,
-        "AddressType": "esse",
+        "Name": "Herman-Walsh",
+        "Value": "ut",
+        "Tooltip": "accusamus",
+        "Label": "consequatur",
+        "ValueLength": 430,
+        "AddressType": "non",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldLength": 27
           }
         }
       }
     ],
     [
       {
-        "Name": "Kreiger LLC",
-        "Value": "est",
-        "Tooltip": "occaecati",
-        "Label": "et",
-        "ValueLength": 872,
-        "AddressType": "nobis",
+        "Name": "Waelchi-Barton",
+        "Value": "voluptatem",
+        "Tooltip": "incidunt",
+        "Label": "repudiandae",
+        "ValueLength": 427,
+        "AddressType": "incidunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldLength": 816
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "pariatur",
+  "Formatted": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

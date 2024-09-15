@@ -12093,6 +12093,8 @@
     items:
     - name: ClearChatbotTurns
       href: Services88/AI/ClearChatbotTurns.md
+    - name: CreateTextForAppointment
+      href: Services88/AI/CreateTextForAppointment.md
     - name: DetectLanguage
       href: Services88/AI/DetectLanguage.md
     - name: DetectSentiment
@@ -16097,6 +16099,8 @@
       href: Services88/Workflow/AddAfterWorkflowStep.md
     - name: ConnectEmailFlowContent
       href: Services88/Workflow/ConnectEmailFlowContent.md
+    - name: CopyEmailFlow
+      href: Services88/Workflow/CopyEmailFlow.md
     - name: CopyEmailFlowContent
       href: Services88/Workflow/CopyEmailFlowContent.md
     - name: CreateDefaultEmailFlow

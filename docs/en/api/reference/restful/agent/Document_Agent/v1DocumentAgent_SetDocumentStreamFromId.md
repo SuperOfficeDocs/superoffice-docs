@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 396,
+  "DocumentId": 227,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 894,
+  "DocumentId": 836,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ratione",
-  "Header": "nihil",
-  "Name": "Mohr, Steuber and Mraz",
-  "OurRef": "velit",
-  "YourRef": "ipsa",
-  "CreatedDate": "2020-07-08T13:28:22.6010881+02:00",
-  "UpdatedDate": "2023-07-06T13:28:22.6010881+02:00",
-  "Description": "Inverse leading edge frame",
+  "Attention": "ut",
+  "Header": "inventore",
+  "Name": "Jerde-Bauch",
+  "OurRef": "unde",
+  "YourRef": "voluptates",
+  "CreatedDate": "2006-06-24T04:02:01.6592538+02:00",
+  "UpdatedDate": "2020-04-20T04:02:01.6592538+02:00",
+  "Description": "Customer-focused radical solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-03-15T13:28:22.6010881+01:00",
-  "ExternalRef": "aspernatur",
+  "Date": "2019-12-04T04:02:01.6592538+01:00",
+  "ExternalRef": "mollitia",
   "Completed": "Completed",
-  "ActiveLinks": 436,
+  "ActiveLinks": 280,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz LLC",
-      "Id": 972,
-      "Description": "Reactive high-level forecast",
-      "ExtraInfo": "ea",
-      "LinkId": 942,
+      "EntityName": "Bergnaum, Feeney and Vandervort",
+      "Id": 237,
+      "Description": "Synergistic contextually-based encoding",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 654,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 961
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 404,
-  "Snum": 655,
+  "SuggestedDocumentId": 8,
+  "Snum": 376,
   "UserDefinedFields": {
-    "SuperOffice:1": "Haley Bernhard",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Faustino Herman",
+    "SuperOffice:2": "Joseph Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "est"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "corrupti"
   },
-  "PublishEventDate": "2017-06-08T13:28:22.6010881+02:00",
-  "PublishTo": "2011-05-29T13:28:22.6010881+02:00",
-  "PublishFrom": "2020-12-14T13:28:22.6010881+01:00",
+  "PublishEventDate": "2022-03-07T04:02:01.6592538+01:00",
+  "PublishTo": "2020-01-09T04:02:01.6592538+01:00",
+  "PublishFrom": "2016-12-17T04:02:01.6592538+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 803,
+      "VisibleId": 567,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     },
     {
-      "VisibleId": 803,
+      "VisibleId": 567,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 297
     }
   }
 }

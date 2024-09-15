@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Lindgren-Pagac",
-    "ToolTip": "Sunt voluptatem.",
+    "Id": 963,
+    "Name": "Osinski, Sipes and Hansen",
+    "ToolTip": "Quasi molestias consequatur quia placeat ut.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "fuga",
-    "ColorBlock": 526,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2003-10-10T13:28:33.0228222+02:00",
+    "Rank": 512,
+    "Type": "libero",
+    "ColorBlock": 823,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2023-04-06T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Feeney, Bailey and Conroy",
-        "ToolTip": "Vero consequuntur at.",
-        "Deleted": true,
-        "Rank": 82,
-        "Type": "vel",
-        "ColorBlock": 223,
+        "Id": 950,
+        "Name": "Waelchi Inc and Sons",
+        "ToolTip": "Id et debitis tenetur et sunt.",
+        "Deleted": false,
+        "Rank": 888,
+        "Type": "ipsam",
+        "ColorBlock": 364,
         "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2019-05-25T13:28:33.0228222+02:00",
+        "Selected": true,
+        "LastChanged": "2000-02-03T04:02:07.3534465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "id",
+        "ExtraInfo": "qui",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Ms. Laron Hills"
+        "FullName": "Johnnie Hermiston"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Jaiden Reichel"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Marlene Lowe DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Wilkinson Group",
-    "ToolTip": "Voluptatum sint ab.",
+    "Id": 983,
+    "Name": "Tillman LLC",
+    "ToolTip": "Modi non officiis quibusdam quis minima voluptatem nemo.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "voluptatem",
-    "ColorBlock": 805,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2003-07-10T13:28:33.0228222+02:00",
+    "Rank": 11,
+    "Type": "quae",
+    "ColorBlock": 806,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2016-04-10T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Reilly-Medhurst",
-        "ToolTip": "Cumque eos aspernatur.",
+        "Id": 564,
+        "Name": "Rath LLC",
+        "ToolTip": "Impedit fuga maxime voluptatum quia.",
         "Deleted": false,
-        "Rank": 893,
-        "Type": "eius",
-        "ColorBlock": 972,
-        "IconHint": "tempora",
+        "Rank": 560,
+        "Type": "nisi",
+        "ColorBlock": 426,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2013-11-19T13:28:33.0228222+01:00",
+        "LastChanged": "2014-05-09T04:02:07.3534465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "suscipit",
-        "Hidden": true,
-        "FullName": "Mr. Meaghan Hand",
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Casimir Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 83
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Arlene Macie Larkin III",
+    "ExtraInfo": "illum",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Buster Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldType": "System.String",
+        "FieldLength": 342
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 712,
-  "Name": "Auer Group"
+  "DashboardId": 719,
+  "Name": "Fisher, Marquardt and Koch"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 570,
-  "UniqueId": "sapiente",
-  "Name": "Mayer-Rippin",
-  "Description": "Distributed zero administration software",
-  "AssociateId": 23,
-  "Columns": 970,
+  "DashboardId": 680,
+  "UniqueId": "enim",
+  "Name": "Schiller Group",
+  "Description": "Enhanced asynchronous groupware",
+  "AssociateId": 233,
+  "Columns": 742,
   "Theme": null,
-  "VisibleForAll": 8,
+  "VisibleForAll": 689,
   "VisibleForAssociates": [
-    889,
-    662
+    571,
+    521
   ],
   "VisibleForGroups": [
-    738,
-    601
+    319,
+    384
   ],
-  "PinForAll": 853,
+  "PinForAll": 298,
   "PinForAssociates": [
-    995,
-    254
+    370,
+    666
   ],
   "PinForGroups": [
-    79,
-    716
+    640,
+    400
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

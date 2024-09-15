@@ -2,10 +2,10 @@
 uid: table-LanguageInfo
 title: LanguageInfo table
 description: Information about languages, from ISO standards and related information
-generated: true
+so.generated: true
 keywords: database table LanguageInfo
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # LanguageInfo Table (210)

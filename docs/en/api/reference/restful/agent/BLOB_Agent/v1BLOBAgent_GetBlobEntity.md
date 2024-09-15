@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=237
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=599
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 156,
-  "BlobSize": 541,
-  "Description": "Cloned didactic solution",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": true,
+  "BlobId": 615,
+  "BlobSize": 902,
+  "Description": "Polarised human-resource data-warehouse",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "suscipit",
-  "OriginalSize": 309,
-  "CreatedDate": "2002-04-05T13:28:21.8668811+02:00",
-  "UpdatedDate": "2003-05-26T13:28:21.8668811+02:00",
+  "MimeType": "error",
+  "OriginalSize": 611,
+  "CreatedDate": "2005-08-09T04:02:01.2374146+02:00",
+  "UpdatedDate": "2016-02-13T04:02:01.2374146+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "beatae",
+  "ConceptualType": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 80
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 336,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "labore",
-  "Rank": 564,
+  "SaleTypeId": 858,
+  "Name": "Cummerata, Bradtke and Fadel",
+  "Tooltip": "omnis",
+  "Rank": 336,
   "DurationUnit": "Century",
-  "SaleDuration": 255,
-  "SaleTypeCatId": 341,
+  "SaleDuration": 54,
+  "SaleTypeCatId": 860,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 39,
-  "QuoteLinesTemplate": 72,
-  "ConfirmationLinesTemplate": 126,
+  "DefaultQuoteValidity": 173,
+  "QuoteLinesTemplate": 494,
+  "ConfirmationLinesTemplate": 351,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 296,
-  "MinEarningPercent": 601,
-  "GroupQuoteLinesBy": 854,
-  "SortGroupLinesBy": 498,
+  "MaxDiscountPercent": 571,
+  "MinEarningPercent": 445,
+  "GroupQuoteLinesBy": 338,
+  "SortGroupLinesBy": 728,
   "Stages": [
     {
-      "Id": 907,
-      "Name": "Pfannerstill, Kohler and Collier",
-      "ToolTip": "Quis omnis repudiandae.",
+      "Id": 913,
+      "Name": "Kertzmann, Luettgen and Jerde",
+      "ToolTip": "Similique quaerat cumque.",
       "Deleted": false,
-      "Rank": 999,
-      "Type": "mollitia",
-      "ColorBlock": 114,
-      "IconHint": "quia",
+      "Rank": 496,
+      "Type": "eos",
+      "ColorBlock": 14,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "2002-07-12T13:28:33.1482054+02:00",
+      "LastChanged": "2008-03-04T04:02:07.4003498+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "aliquam",
-      "Hidden": true,
-      "FullName": "Carmella Sipes",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "est",
+      "Hidden": false,
+      "FullName": "Mrs. Reed Jenkins Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 870
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 634
     }
   }
 }

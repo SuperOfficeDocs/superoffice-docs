@@ -2,10 +2,10 @@
 uid: table-DatabaseModel
 title: DatabaseModel table
 description: New DatabaseModel used by Continuous Database
-generated: true
+so.generated: true
 keywords: database table DatabaseModel
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DatabaseModel Table (456)

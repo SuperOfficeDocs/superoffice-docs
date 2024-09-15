@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 650,
-  "StartTime": "2022-01-09T13:28:22.4604993+01:00",
-  "EndTime": "2021-09-10T13:28:22.4604993+02:00",
-  "Count": 113,
+  "ProjectId": 556,
+  "StartTime": "2022-08-07T04:02:01.5811276+02:00",
+  "EndTime": "2001-03-05T04:02:01.5811276+01:00",
+  "Count": 436,
   "DocumentTemplateIds": [
-    122,
-    566
+    88,
+    726
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 742,
-    "Attention": "veritatis",
-    "Header": "fugiat",
-    "Name": "Beer LLC",
-    "OurRef": "impedit",
-    "YourRef": "iste",
-    "Description": "Polarised tangible parallelism",
-    "DocumentTemplate": "perspiciatis",
-    "IsPublished": false,
-    "PersonId": 551,
-    "PersonFullName": "Emmie Leffler",
-    "AssociateFullName": "Bennett Weimann",
-    "ContactId": 523,
-    "ContactName": "Carter, Emard and Wyman",
-    "ProjectId": 637,
-    "ProjectName": "Carter-Strosin",
-    "AssociateId": 831,
-    "Snum": 115,
-    "SaleId": 221,
-    "SaleName": "Klein-Hamill",
+    "DocumentId": 538,
+    "Attention": "dignissimos",
+    "Header": "minus",
+    "Name": "Doyle-Parker",
+    "OurRef": "cumque",
+    "YourRef": "impedit",
+    "Description": "Persevering 5th generation definition",
+    "DocumentTemplate": "et",
+    "IsPublished": true,
+    "PersonId": 216,
+    "PersonFullName": "Delilah Gerlach",
+    "AssociateFullName": "Earnestine Earl Crist Jr.",
+    "ContactId": 744,
+    "ContactName": "Pouros-Zieme",
+    "ProjectId": 951,
+    "ProjectName": "Denesik, Rath and Gorczany",
+    "AssociateId": 731,
+    "Snum": 897,
+    "SaleId": 79,
+    "SaleName": "Buckridge, Haag and Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 759
       }
     }
   }

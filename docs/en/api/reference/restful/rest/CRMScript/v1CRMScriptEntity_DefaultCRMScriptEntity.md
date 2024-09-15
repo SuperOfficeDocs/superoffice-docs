@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 282,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Kulas, Hagenes and Hamill",
-  "Description": "Devolved object-oriented matrices",
-  "IncludeId": "molestiae",
-  "AccessKey": "voluptatum",
-  "HierarchyId": 66,
-  "Source": "et",
-  "SourceCode": "illo",
+  "EjscriptId": 456,
+  "UniqueIdentifier": "dolorem",
+  "Name": "Jacobi, O'Reilly and Hackett",
+  "Description": "Open-source interactive frame",
+  "IncludeId": "inventore",
+  "AccessKey": "omnis",
+  "HierarchyId": 857,
+  "Source": "voluptatem",
+  "SourceCode": "excepturi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 799,
+  "HtmlOutput": 364,
   "Includes": [
-    627,
-    815
+    906,
+    897
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 2,
-      "LineNumberTo": 776,
-      "Delta": 690,
-      "IncludeId": "debitis",
+      "LineNumberFrom": 930,
+      "LineNumberTo": 604,
+      "Delta": 850,
+      "IncludeId": "quas",
       "IncludedFrom": [
-        "odio",
-        "asperiores"
+        "dolores",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 697
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2009-12-24T13:28:31.53865+01:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2005-04-12T13:28:31.53865+02:00",
-  "UpdatedAssociateId": 854,
+  "Registered": "2015-10-02T04:02:06.4472912+02:00",
+  "RegisteredAssociateId": 833,
+  "Updated": "2007-11-22T04:02:06.4472912+01:00",
+  "UpdatedAssociateId": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 837
     }
   }
 }

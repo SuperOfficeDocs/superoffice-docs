@@ -76,7 +76,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Smith, Lueilwitz and Nikolaus"
+  "TableName": "Kuhn LLC"
 }
 ```
 

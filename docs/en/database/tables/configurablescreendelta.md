@@ -2,10 +2,10 @@
 uid: table-ConfigurableScreenDelta
 title: ConfigurableScreenDelta table
 description: Parts of recipes in SCIL to insert or remove in given recipes
-generated: true
+so.generated: true
 keywords: database table ConfigurableScreenDelta
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ConfigurableScreenDelta Table (464)

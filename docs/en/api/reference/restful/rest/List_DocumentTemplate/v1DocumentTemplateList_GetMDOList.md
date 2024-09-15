@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=quia
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=odio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Rodriguez, Conn and O'Connell",
-    "ToolTip": "Velit ipsum ab velit omnis.",
-    "Deleted": true,
-    "Rank": 282,
-    "Type": "magnam",
+    "Id": 580,
+    "Name": "Gleichner, Altenwerth and Howe",
+    "ToolTip": "Possimus occaecati aut deleniti omnis est.",
+    "Deleted": false,
+    "Rank": 767,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Kshlerin, Hettinger and Jacobson",
-        "ToolTip": "Animi voluptatem.",
+        "Id": 651,
+        "Name": "Parisian Inc and Sons",
+        "ToolTip": "Incidunt eos eos eveniet accusamus nihil est ullam.",
         "Deleted": false,
-        "Rank": 974,
-        "Type": "aut",
+        "Rank": 986,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 341,
-        "ExtraInfo": "rerum",
-        "StyleHint": "ipsum",
-        "FullName": "Gabe Mohr",
+        "IconHint": "suscipit",
+        "ColorBlock": 561,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "explicabo",
+        "FullName": "Chadrick Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 212
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 918,
-    "ExtraInfo": "aut",
-    "StyleHint": "quo",
-    "FullName": "Brendon Leuschke",
+    "IconHint": "quibusdam",
+    "ColorBlock": 246,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "facere",
+    "FullName": "Walker Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 929
       }
     }
   }

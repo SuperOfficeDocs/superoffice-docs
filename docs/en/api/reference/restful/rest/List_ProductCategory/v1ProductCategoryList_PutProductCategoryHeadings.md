@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 523,
-    "Name": "O'Conner, Kirlin and Kihn",
-    "Tooltip": "at",
-    "Deleted": true,
-    "Rank": 575,
-    "UdListDefinitionId": 858
+    "HeadingId": 592,
+    "Name": "McClure-Dicki",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 401,
+    "UdListDefinitionId": 750
   },
   {
-    "HeadingId": 523,
-    "Name": "O'Conner, Kirlin and Kihn",
-    "Tooltip": "at",
-    "Deleted": true,
-    "Rank": 575,
-    "UdListDefinitionId": 858
+    "HeadingId": 592,
+    "Name": "McClure-Dicki",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 401,
+    "UdListDefinitionId": 750
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 795,
-    "Name": "Pouros LLC",
-    "Tooltip": "error",
-    "Deleted": true,
-    "Rank": 153,
-    "UdListDefinitionId": 27,
+    "HeadingId": 749,
+    "Name": "Rolfson, Cole and Mraz",
+    "Tooltip": "cum",
+    "Deleted": false,
+    "Rank": 433,
+    "UdListDefinitionId": 698,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 523
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 565,
-  "Name": "Deckow Group",
-  "Description": "Total explicit knowledge base",
-  "WelcomeMessage": "quis",
+  "ChatTopicId": 573,
+  "Name": "D'Amore, Heathcote and Nikolaus",
+  "Description": "Sharable full-range focus group",
+  "WelcomeMessage": "ad",
   "Language": null,
-  "LastAccept": "2016-06-02T13:28:21.9293697+02:00",
-  "SecondsPrAccept": 230,
+  "LastAccept": "2003-11-02T04:02:01.3467779+01:00",
+  "SecondsPrAccept": 708,
   "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quaerat",
+  "CollectConsent": false,
+  "BadgeHeader": "sit",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 407,
-  "WarnManagerNewChatMinutes": 829,
+  "CustomQueueText": "recusandae",
+  "WarnNewChatMinutes": 852,
+  "WarnManagerNewChatMinutes": 490,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 510,
-  "WarnManagerChatMessageMinutes": 238,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 94,
-  "OfflineFormQueueLength": 904,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptatum",
+  "WarnChatMessageMinutes": 835,
+  "WarnManagerChatMessageMinutes": 472,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 170,
+  "OfflineFormQueueLength": 626,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 203
     }
   }
 }

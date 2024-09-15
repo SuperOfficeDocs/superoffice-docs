@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ledner, Boyle and Wisozk",
+  "TaskName": "Sanford Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Ferry, Feil and Howe",
-    "AssociateId": 2,
-    "DetailsTable": 397,
-    "DetailsRecord": 507,
+    "Id": 848,
+    "Name": "Gerlach-Gibson",
+    "AssociateId": 607,
+    "DetailsTable": 359,
+    "DetailsRecord": 796,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "distinctio",
-      "ParameterObject2": "saepe"
+      "ParameterObject1": "rerum",
+      "ParameterObject2": "in"
     },
-    "LastStarted": "2011-09-04T13:28:21.8512599+02:00",
-    "Created": "2002-05-27T13:28:21.8512599+02:00",
-    "StartCount": 89,
-    "DatabaseSerialNumber": "1346105",
-    "Context": "illo",
-    "Result": "voluptas",
+    "LastStarted": "2020-11-01T04:02:01.2374146+01:00",
+    "Created": "2021-03-13T04:02:01.2374146+01:00",
+    "StartCount": 4,
+    "DatabaseSerialNumber": "969114",
+    "Context": "eum",
+    "Result": "libero",
     "State": "All",
-    "Description": "Cross-group multimedia service-desk",
-    "Response": "nisi",
-    "Request": "delectus",
-    "ProgressDescription": "Realigned responsive initiative",
-    "ProgressPercent": 643,
-    "FileName": "Marvin-Smith",
+    "Description": "Exclusive bottom-line intranet",
+    "Response": "molestiae",
+    "Request": "quod",
+    "ProgressDescription": "Operative national hub",
+    "ProgressPercent": 741,
+    "FileName": "O'Hara LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 423
       }
     }
   }

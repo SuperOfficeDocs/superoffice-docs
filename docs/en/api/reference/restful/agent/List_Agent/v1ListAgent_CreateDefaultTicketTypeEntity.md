@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 480,
-  "Name": "Zboncak, Windler and Stark",
-  "Rank": 198,
-  "Tooltip": "consectetur",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 559,
+  "TicketTypeId": 56,
+  "Name": "Mertz Group",
+  "Rank": 447,
+  "Tooltip": "ducimus",
+  "Icon": "ut",
+  "DefaultTicketStatus": 641,
   "TicketStatuses": [
-    430,
-    192
+    178,
+    195
   ],
-  "DefaultTicketPriority": 640,
+  "DefaultTicketPriority": 935,
   "TicketPriorities": [
-    717,
-    433
+    79,
+    925
   ],
-  "ReplyTemplate": 990,
+  "ReplyTemplate": 429,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    993,
-    556
+    639,
+    216
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

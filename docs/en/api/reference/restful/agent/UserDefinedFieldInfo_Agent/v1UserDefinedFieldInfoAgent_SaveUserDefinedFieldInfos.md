@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 257,
-      "ColumnId": 113,
-      "FieldDefault": "quae",
-      "FieldHeight": 903,
-      "FieldLabel": "qui",
-      "FieldLeft": 981,
-      "FieldTop": 747,
+      "UDefFieldId": 199,
+      "ColumnId": 5,
+      "FieldDefault": "magnam",
+      "FieldHeight": 63,
+      "FieldLabel": "et",
+      "FieldLeft": 974,
+      "FieldTop": 436,
       "FieldType": "Checkbox",
-      "FieldWidth": 741,
-      "FormatMask": "dolores",
+      "FieldWidth": 76,
+      "FormatMask": "officia",
       "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 579,
-      "LabelLeft": 79,
-      "LabelTop": 651,
-      "LabelWidth": 358,
-      "LastVersionId": 125,
-      "ListTableId": 463,
-      "IsMandatory": true,
+      "LabelHeight": 804,
+      "LabelLeft": 412,
+      "LabelTop": 373,
+      "LabelWidth": 289,
+      "LastVersionId": 29,
+      "ListTableId": 381,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 790,
-      "ProgId": "quia",
+      "Page1LineNo": 431,
+      "ProgId": "cum",
       "IsReadOnly": false,
-      "ShortLabel": "est",
-      "TabOrder": 497,
-      "TextLength": 955,
-      "Tooltip": "autem",
-      "UdefIdentity": 652,
-      "UDListDefinitionId": 874,
+      "ShortLabel": "nesciunt",
+      "TabOrder": 504,
+      "TextLength": 994,
+      "Tooltip": "perferendis",
+      "UdefIdentity": 371,
+      "UDListDefinitionId": 172,
       "Justification": "Center",
-      "Version": 68,
-      "TemplateVariableName": "Lakin-Doyle",
+      "Version": 390,
+      "TemplateVariableName": "Keeling Group",
       "HasBeenPublished": false,
-      "MdoListName": "Becker Inc and Sons"
+      "MdoListName": "Skiles-Quigley"
     }
   ]
 }

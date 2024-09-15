@@ -2,10 +2,10 @@
 uid: table-QuoteDenyReason
 title: QuoteDenyReason table
 description: Predefined reasons for quote denial
-generated: true
+so.generated: true
 keywords: database table QuoteDenyReason
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteDenyReason Table (528)

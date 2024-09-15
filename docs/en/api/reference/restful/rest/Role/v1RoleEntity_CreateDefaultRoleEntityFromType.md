@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 1001,
-  "Name": "Mayer-Rodriguez",
-  "Tooltip": "esse",
+  "RoleId": 198,
+  "Name": "Botsford, Nader and Hahn",
+  "Tooltip": "sed",
   "RoleType": "Anonymous",
-  "Deleted": 826,
-  "Rank": 487,
-  "Created": "2008-07-18T13:28:31.9291866+02:00",
-  "UseCategories": 519,
+  "Deleted": 638,
+  "Rank": 210,
+  "Created": "2010-07-24T04:02:06.7597584+02:00",
+  "UseCategories": 828,
   "CreatedBy": null,
-  "Updated": "2009-11-19T13:28:31.9291866+01:00",
+  "Updated": "2015-07-18T04:02:06.7597584+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 274
     }
   }
 }

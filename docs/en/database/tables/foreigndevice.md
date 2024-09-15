@@ -2,10 +2,10 @@
 uid: table-foreigndevice
 title: foreigndevice table
 description: Middle level of Foreign Key system
-generated: true
+so.generated: true
 keywords: database table foreigndevice
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # foreigndevice Table (182)

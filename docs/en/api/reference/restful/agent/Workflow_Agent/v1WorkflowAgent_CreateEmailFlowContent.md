@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Workflow/CreateEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 220,
-  "ContentName": "Weimann, Stracke and Bogisich"
+  "EmailFlowId": 97,
+  "ContentName": "Glover-Gorczany"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-514
+852
 ```

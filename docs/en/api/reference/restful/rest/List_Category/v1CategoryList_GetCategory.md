@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 726,
-  "Name": "Windler, Ferry and Stehr",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 583,
-  "Rank": 995,
+  "Id": 370,
+  "Name": "Wehner LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 577,
+  "Rank": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   }
 }

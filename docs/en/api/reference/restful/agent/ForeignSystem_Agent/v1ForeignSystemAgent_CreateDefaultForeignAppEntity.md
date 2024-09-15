@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 705,
-  "Name": "Doyle-Prosacco",
-  "CreatedDate": "2016-10-22T13:28:22.8354083+02:00",
-  "UpdatedDate": "2009-12-12T13:28:22.8354083+01:00",
+  "ForeignAppId": 390,
+  "Name": "Klocko Inc and Sons",
+  "CreatedDate": "1999-03-14T04:02:01.7888547+01:00",
+  "UpdatedDate": "1998-02-08T04:02:01.7888547+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 902,
-      "Name": "Lueilwitz-Howell",
-      "CreatedDate": "2003-09-29T13:28:22.8354083+02:00",
-      "UpdatedDate": "2016-10-24T13:28:22.8354083+02:00",
-      "AssociateFullName": "Cara Wilma Yost I",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 990,
+      "ForeignDeviceId": 767,
+      "Name": "Kuhlman-Bahringer",
+      "CreatedDate": "2003-10-06T04:02:01.7888547+02:00",
+      "UpdatedDate": "2000-09-04T04:02:01.7888547+02:00",
+      "AssociateFullName": "Dallas Oda Rodriguez Sr.",
+      "CreatedBy": "maiores",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "harum",
+      "ForeignAppId": 876,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 614
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "modi"
+  "QuoteLineExtraData": "ut"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Block Inc and Sons",
-    "Value": "dolores",
+    "Name": "Cassin LLC",
+    "Value": "nisi",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   },
   {
-    "Name": "Block Inc and Sons",
-    "Value": "dolores",
+    "Name": "Cassin LLC",
+    "Value": "nisi",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

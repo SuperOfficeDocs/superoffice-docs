@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "consequatur",
-  "Tooltip": "neque",
-  "Id": 922,
-  "Rank": 459,
+  "Value": "ut",
+  "Tooltip": "est",
+  "Id": 894,
+  "Rank": 320,
   "Deleted": false
 }
 ```
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "similique",
-  "Tooltip": "amet",
-  "Id": 190,
-  "Rank": 746,
-  "Deleted": true,
+  "Value": "eos",
+  "Tooltip": "in",
+  "Id": 757,
+  "Rank": 254,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 378
     }
   }
 }

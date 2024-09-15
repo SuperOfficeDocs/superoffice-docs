@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Thiel, Goodwin and Hane",
-  "GroupId": 51
+  "UdListDefinitionName": "Medhurst LLC",
+  "GroupId": 829
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Lemke LLC",
-    "ToolTip": "Cupiditate deleniti dolor.",
-    "Deleted": false,
-    "Rank": 617,
-    "Type": "ducimus",
-    "ColorBlock": 766,
-    "IconHint": "similique",
+    "Id": 525,
+    "Name": "Labadie Group",
+    "ToolTip": "Incidunt ea placeat harum ipsam a aliquam voluptate.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "nihil",
+    "ColorBlock": 900,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2009-03-18T13:28:22.9449983+01:00",
+    "LastChanged": "2000-01-16T04:02:01.847234+01:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Buckridge Inc and Sons",
-        "ToolTip": "Molestiae rem.",
+        "Id": 708,
+        "Name": "Skiles Inc and Sons",
+        "ToolTip": "Quia quae.",
         "Deleted": false,
-        "Rank": 816,
-        "Type": "est",
-        "ColorBlock": 650,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2005-12-16T13:28:22.9449983+01:00",
+        "Rank": 471,
+        "Type": "natus",
+        "ColorBlock": 523,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2010-01-03T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Jailyn Brakus IV",
+        "ExtraInfo": "et",
+        "StyleHint": "deserunt",
+        "Hidden": true,
+        "FullName": "Izabella Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 197
+            "FieldType": "System.Int32",
+            "FieldLength": 406
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "eaque",
+    "StyleHint": "quasi",
     "Hidden": true,
-    "FullName": "Laurine Murphy",
+    "FullName": "Ms. Mireille Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

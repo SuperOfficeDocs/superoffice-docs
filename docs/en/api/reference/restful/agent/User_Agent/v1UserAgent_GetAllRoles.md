@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Waelchi Inc and Sons",
-    "ToolTip": "Est molestias quo eaque pariatur vel.",
+    "Id": 685,
+    "Name": "Cummings, Donnelly and DuBuque",
+    "ToolTip": "Soluta harum error eum.",
     "Deleted": false,
-    "Rank": 338,
-    "Type": "omnis",
-    "ColorBlock": 764,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2011-01-19T13:28:24.1478781+01:00",
+    "Rank": 844,
+    "Type": "impedit",
+    "ColorBlock": 296,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2008-07-21T04:02:02.5353524+02:00",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Bechtelar-Beatty",
-        "ToolTip": "Quasi repellendus iusto aliquid voluptatum modi voluptatem.",
+        "Id": 720,
+        "Name": "Rodriguez Group",
+        "ToolTip": "Ullam et exercitationem et natus doloremque quae velit.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "explicabo",
-        "ColorBlock": 318,
-        "IconHint": "quia",
+        "Rank": 788,
+        "Type": "odio",
+        "ColorBlock": 700,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2024-04-07T13:28:24.1478781+02:00",
+        "LastChanged": "2000-05-27T04:02:02.5353524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Delmer Bradtke Jr.",
+        "ExtraInfo": "non",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Dariana Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldType": "System.String",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Serena Koch",
+    "ExtraInfo": "sit",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Jordane Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

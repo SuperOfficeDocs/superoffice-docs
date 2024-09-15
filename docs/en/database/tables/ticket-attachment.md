@@ -2,10 +2,10 @@
 uid: table-ticket_attachment
 title: ticket_attachment table
 description: This table connects an attachment to a message. It references the entry in the attachment table, and the message.
-generated: true
+so.generated: true
 keywords: database table ticket_attachment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_attachment Table (256)

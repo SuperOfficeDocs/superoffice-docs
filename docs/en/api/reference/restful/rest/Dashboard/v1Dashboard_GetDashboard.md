@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 226,
-  "AssociateId": 156,
-  "Caption": "dolor",
+  "DashboardId": 153,
+  "AssociateId": 768,
+  "Caption": "enim",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 419,
-      "Caption": "eos",
-      "Description": "Multi-lateral tangible encryption",
-      "ChartName": "Lueilwitz-Bruen",
-      "ChartId": "quidem",
-      "IsDefault": false,
-      "AssociateId": 856,
-      "GroupId": 339,
-      "SelectionId": 649,
-      "Config": "ad",
+      "DashboardTileId": 209,
+      "Caption": "sint",
+      "Description": "Total 24 hour firmware",
+      "ChartName": "Wolff Inc and Sons",
+      "ChartId": "sunt",
+      "IsDefault": true,
+      "AssociateId": 671,
+      "GroupId": 241,
+      "SelectionId": 822,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 770
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 604
     }
   },
   "_Links": {

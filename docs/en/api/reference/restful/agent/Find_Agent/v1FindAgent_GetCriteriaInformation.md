@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quasi",
-  "ProviderName": "O'Reilly-Nitzsche",
-  "StorageKey": "iste",
+  "StorageType": "nemo",
+  "ProviderName": "Koepp LLC",
+  "StorageKey": "adipisci",
   "StaticColumns": [
-    "et",
-    "repellat"
+    "corrupti",
+    "accusantium"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lebsack Group",
-      "Operator": "accusantium",
+      "Name": "Nitzsche-Leannon",
+      "Operator": "qui",
       "Values": [
-        "possimus",
-        "itaque"
+        "ad",
+        "modi"
       ],
       "DisplayValues": [
-        "omnis",
-        "a"
+        "eum",
+        "odio"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 777,
+      "InterParenthesis": 335,
       "InterOperator": "And",
-      "UniqueHash": 383
+      "UniqueHash": 594
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Cassin, Ledner and Orn",
-      "DisplayTooltip": "totam",
-      "DisplayType": "officia",
+      "DisplayName": "Watsica, Hand and Wehner",
+      "DisplayTooltip": "voluptatum",
+      "DisplayType": "eos",
       "CanOrderBy": false,
-      "Name": "Wiegand, Kutch and Hessel",
+      "Name": "Friesen Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "quod",
-      "RestrictionListName": "Bartell, Satterfield and Ondricka",
-      "IsVisible": true,
+      "RestrictionType": "ad",
+      "RestrictionListName": "Ledner-Legros",
+      "IsVisible": false,
       "ExtraInfo": "doloremque",
-      "Width": "omnis",
-      "IconHint": "est",
-      "HeadingIconHint": "sed"
+      "Width": "sit",
+      "IconHint": "qui",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kautzer, Labadie and Mayert",
-      "PrimaryKey": 803,
+      "EntityName": "Treutel-Mann",
+      "PrimaryKey": 253,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "provident",
-          "TooltipHint": "in",
-          "LinkHint": "ex"
+          "DisplayValue": "ex",
+          "TooltipHint": "et",
+          "LinkHint": "voluptates"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "odio",
+      "LinkHint": "dolore",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 557
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koch-Kilback",
-      "Description": "Multi-channelled 6th generation installation",
-      "Rank": 326,
+      "Name": "Connelly Inc and Sons",
+      "Description": "Focused directional circuit",
+      "Rank": 256,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koch-Kilback",
-      "Description": "Multi-channelled 6th generation installation",
-      "Rank": 326,
+      "Name": "Connelly Inc and Sons",
+      "Description": "Focused directional circuit",
+      "Rank": 256,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 539
     }
   }
 }

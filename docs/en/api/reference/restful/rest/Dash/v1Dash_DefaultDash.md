@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 545,
-  "UniqueId": "animi",
-  "Name": "Treutel Inc and Sons",
-  "Description": "Virtual contextually-based system engine",
-  "AssociateId": 958,
-  "Columns": 376,
+  "DashboardId": 988,
+  "UniqueId": "optio",
+  "Name": "Balistreri, Gleason and Stroman",
+  "Description": "Expanded value-added benchmark",
+  "AssociateId": 830,
+  "Columns": 78,
   "Theme": null,
-  "VisibleForAll": 347,
+  "VisibleForAll": 101,
   "VisibleForAssociates": [
-    240,
-    107
+    539,
+    933
   ],
   "VisibleForGroups": [
-    197,
-    1002
+    246,
+    567
   ],
-  "PinForAll": 954,
+  "PinForAll": 456,
   "PinForAssociates": [
-    85,
-    547
+    993,
+    850
   ],
   "PinForGroups": [
-    605,
-    947
+    623,
+    744
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   }
 }

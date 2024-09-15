@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 610,
-  "PlainMessage": "tenetur",
-  "HtmlMessage": "et",
-  "SmsMessage": "totam",
-  "Description": "Adaptive global benchmark",
-  "Subject": "saepe",
-  "FolderId": 881,
-  "HeaderField": "eveniet",
-  "Design": "aut",
+  "ShipmentMessageId": 571,
+  "PlainMessage": "qui",
+  "HtmlMessage": "iste",
+  "SmsMessage": "inventore",
+  "Description": "Decentralized mission-critical collaboration",
+  "Subject": "eligendi",
+  "FolderId": 901,
+  "HeaderField": "illo",
+  "Design": "aspernatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Polarised web-enabled customer loyalty",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 476,
-  "Registered": "2001-07-14T13:28:32.2573673+02:00",
-  "RegisteredAssociateId": 921,
-  "Updated": "2007-12-08T13:28:32.2573673+01:00",
-  "UpdatedAssociateId": 156,
-  "UpdatedCount": 942,
+  "LongDescription": "Seamless scalable methodology",
+  "AccessKey": "sit",
+  "DocumentMessage": 761,
+  "Registered": "2017-12-21T04:02:06.837875+01:00",
+  "RegisteredAssociateId": 59,
+  "Updated": "2021-10-26T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 295,
+  "UpdatedCount": 489,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 115
     }
   }
 }

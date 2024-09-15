@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 931,
+  "SaleId": 292,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Blick, Kuhlman and Lebsack",
-      "Comment": "nihil",
-      "StakeholderRoleId": 958,
-      "CountryId": 335,
-      "PersonId": 833,
-      "EmailDescription": "curtis.johnston@hand.us",
-      "EmailId": 779,
-      "EmailAddress": "laurel@pacocha.ca",
-      "PhoneId": 808,
-      "ContactName": "Lind Inc and Sons",
-      "ContactId": 984,
-      "SaleId": 557,
-      "Mrmrs": "sunt",
-      "Firstname": "Raquel",
-      "MiddleName": "Konopelski-Shields",
-      "Lastname": "Erdman",
-      "SaleStakeholderId": 513,
-      "Rank": 747,
-      "Phone": "(663)758-7935"
+      "StakeholderRoleName": "Prohaska Group",
+      "Comment": "iste",
+      "StakeholderRoleId": 137,
+      "CountryId": 137,
+      "PersonId": 972,
+      "EmailDescription": "zora@gutkowskiharber.co.uk",
+      "EmailId": 522,
+      "EmailAddress": "garret_strosin@howellboyer.co.uk",
+      "PhoneId": 49,
+      "ContactName": "McKenzie, Padberg and Ortiz",
+      "ContactId": 31,
+      "SaleId": 664,
+      "Mrmrs": "neque",
+      "Firstname": "Floy",
+      "MiddleName": "Kshlerin-Boyer",
+      "Lastname": "Witting",
+      "SaleStakeholderId": 611,
+      "Rank": 428,
+      "Phone": "1-697-169-6384 x13124"
     }
   ]
 }

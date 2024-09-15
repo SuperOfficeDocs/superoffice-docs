@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Leuschke Group",
-  "Comment": "tempore",
-  "StakeholderRoleId": 1000,
-  "CountryId": 657,
-  "PersonId": 408,
-  "EmailDescription": "elinor.sanford@kulasmarks.name",
-  "EmailId": 84,
-  "EmailAddress": "nathan@hagenes.biz",
-  "PhoneId": 859,
-  "ContactName": "Luettgen LLC",
-  "ContactId": 142,
-  "SaleId": 679,
-  "Mrmrs": "numquam",
-  "Firstname": "Shanny",
-  "MiddleName": "Lakin, Johns and Lubowitz",
-  "Lastname": "Bins",
-  "SaleStakeholderId": 580,
-  "Rank": 1002,
-  "Phone": "130-060-3379",
+  "StakeholderRoleName": "Frami Group",
+  "Comment": "voluptatum",
+  "StakeholderRoleId": 169,
+  "CountryId": 867,
+  "PersonId": 420,
+  "EmailDescription": "nicolas.douglas@feil.uk",
+  "EmailId": 711,
+  "EmailAddress": "cortney@baumbach.co.uk",
+  "PhoneId": 914,
+  "ContactName": "Kuhlman, Connelly and Becker",
+  "ContactId": 837,
+  "SaleId": 517,
+  "Mrmrs": "nemo",
+  "Firstname": "Sophia",
+  "MiddleName": "Kuvalis, Ward and Hilpert",
+  "Lastname": "Rohan",
+  "SaleStakeholderId": 765,
+  "Rank": 435,
+  "Phone": "645.503.4946",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 706
     }
   },
   "_Links": {

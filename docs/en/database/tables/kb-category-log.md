@@ -2,10 +2,10 @@
 uid: table-kb_category_log
 title: kb_category_log table
 description: Who and when, if somebody edits a knowledge base folder
-generated: true
+so.generated: true
 keywords: database table kb_category_log
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_category\_log Table (291)

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ut"
+  "MessageId": "natus"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 917,
-      "ContactName": "Murray-White",
-      "PersonId": 221,
-      "PersonName": "Mayer Group",
-      "AssociateId": 507,
-      "Address": "et",
-      "EmailId": 296,
+      "ContactId": 989,
+      "ContactName": "Gleichner-Denesik",
+      "PersonId": 118,
+      "PersonName": "Goldner LLC",
+      "AssociateId": 739,
+      "Address": "fuga",
+      "EmailId": 549,
       "DuplicatePersonIds": [
-        963,
-        597
+        913,
+        519
       ],
-      "Name": "Gleichner, Stark and Hickle",
+      "Name": "Lehner-Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 567,
-      "ContactName": "Kutch Inc and Sons",
-      "PersonId": 749,
-      "PersonName": "Langworth-Braun",
-      "AssociateId": 596,
-      "Address": "sit",
-      "EmailId": 845,
+      "ContactId": 556,
+      "ContactName": "Torp-Rohan",
+      "PersonId": 253,
+      "PersonName": "Auer Group",
+      "AssociateId": 374,
+      "Address": "illo",
+      "EmailId": 255,
       "DuplicatePersonIds": [
-        857,
-        947
+        339,
+        117
       ],
-      "Name": "Will, Lind and Jast",
+      "Name": "Hettinger-Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 671
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 407,
-      "ContactName": "Rau LLC",
-      "PersonId": 91,
-      "PersonName": "Hammes, Russel and Kirlin",
-      "AssociateId": 349,
-      "Address": "debitis",
-      "EmailId": 838,
+      "ContactId": 299,
+      "ContactName": "Rath, McClure and Medhurst",
+      "PersonId": 316,
+      "PersonName": "Marvin, Predovic and Ondricka",
+      "AssociateId": 607,
+      "Address": "at",
+      "EmailId": 651,
       "DuplicatePersonIds": [
-        40,
-        364
+        191,
+        993
       ],
-      "Name": "Anderson LLC",
+      "Name": "Casper, Ritchie and Herman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldLength": 633
         }
       }
     }
   ],
-  "Subject": "tempora",
-  "HTMLBody": "ullam",
+  "Subject": "dolores",
+  "HTMLBody": "ducimus",
   "From": null,
-  "Sent": "2000-07-20T13:28:22.6479526+02:00",
-  "Size": 244,
+  "Sent": "2005-03-09T04:02:01.6748777+01:00",
+  "Size": 816,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "maiores",
-  "PlainBody": "sit",
+  "MessageID": "quia",
+  "PlainBody": "quia",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 740,
+  "ServerId": 379,
   "Attachments": [
     {
-      "Description": "Organic reciprocal hierarchy",
-      "Filename": "consequatur",
-      "Size": 374,
-      "Type": "sint",
-      "Encoding": "magni",
-      "Id": "assumenda",
-      "Disposition": "excepturi",
-      "IsSafeFileExtension": false,
+      "Description": "Streamlined modular adapter",
+      "Filename": "vero",
+      "Size": 545,
+      "Type": "facere",
+      "Encoding": "hic",
+      "Id": "autem",
+      "Disposition": "ad",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Berge Group",
+      "Name": "Wunsch-Quitzon",
       "Values": [
-        "dolores",
-        "excepturi"
+        "voluptate",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 501
         }
       }
     },
     {
-      "Name": "Berge Group",
+      "Name": "Wunsch-Quitzon",
       "Values": [
-        "dolores",
-        "excepturi"
+        "voluptate",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 501
         }
       }
     }
   ],
-  "FolderName": "Kub, Kohler and Metz",
-  "EmailItemId": 442,
-  "AccountId": 425,
-  "ReceivedAt": "2012-08-04T13:28:22.6479526+02:00",
+  "FolderName": "Russel-Moen",
+  "EmailItemId": 835,
+  "AccountId": 408,
+  "ReceivedAt": "1998-12-31T04:02:01.6748777+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-04-03T13:28:22.6479526+02:00",
+  "RepliedAt": "2003-05-10T04:02:01.6905011+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

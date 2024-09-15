@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 278,
-  "Name": "Watsica-Jaskolski",
-  "Tooltip": "quis",
+  "RoleId": 306,
+  "Name": "Hettinger LLC",
+  "Tooltip": "laudantium",
   "RoleType": "Anonymous",
-  "Deleted": 830,
-  "Rank": 859,
-  "Created": "2014-02-06T13:28:31.9135636+01:00",
-  "UseCategories": 456,
+  "Deleted": 336,
+  "Rank": 610,
+  "Created": "2007-09-19T04:02:06.7441349+02:00",
+  "UseCategories": 261,
   "CreatedBy": null,
-  "Updated": "2017-04-09T13:28:31.9135636+02:00",
+  "Updated": "2020-05-24T04:02:06.7441349+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 176
     }
   },
   "_Links": {

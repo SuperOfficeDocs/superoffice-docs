@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 280,
-    "Name": "McClure LLC",
-    "Tooltip": "eveniet",
-    "Rank": 326,
-    "Key": "dolore",
-    "Deleted": true,
+    "LegalBaseId": 826,
+    "Name": "Olson Inc and Sons",
+    "Tooltip": "ut",
+    "Rank": 124,
+    "Key": "quis",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldLength": 282
       }
     }
   }

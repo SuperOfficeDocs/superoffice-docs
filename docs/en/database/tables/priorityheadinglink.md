@@ -2,10 +2,10 @@
 uid: table-PriorityHeadingLink
 title: PriorityHeadingLink table
 description: Heading link table for Priority, for MDO headers
-generated: true
+so.generated: true
 keywords: database table PriorityHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PriorityHeadingLink Table (81)

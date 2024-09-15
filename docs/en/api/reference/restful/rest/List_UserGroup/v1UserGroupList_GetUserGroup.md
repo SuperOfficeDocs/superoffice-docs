@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ab",
-  "Tooltip": "veniam",
-  "Id": 884,
-  "Rank": 939,
+  "Value": "qui",
+  "Tooltip": "fuga",
+  "Id": 601,
+  "Rank": 283,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

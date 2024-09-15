@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=298
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=240
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "doloremque",
+  "SaleText": "repellendus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-11-10T13:28:23.6792365+01:00",
-  "Amount": 8649.84,
-  "SaleId": 876,
-  "Earning": 12000.086,
-  "EarningPercent": 4751.144,
-  "Heading": "quo",
-  "Number": "944158",
-  "Probability": 525,
-  "CreatedDate": "2008-11-12T13:28:23.6792365+01:00",
-  "UpdatedDate": "2013-07-10T13:28:23.6792365+02:00",
+  "Saledate": "2007-02-23T04:02:02.2690772+01:00",
+  "Amount": 25231.834,
+  "SaleId": 398,
+  "Earning": 1598.34,
+  "EarningPercent": 18894.886,
+  "Heading": "reiciendis",
+  "Number": "1546347",
+  "Probability": 91,
+  "CreatedDate": "1998-09-07T04:02:02.2690772+02:00",
+  "UpdatedDate": "2010-01-07T04:02:02.2690772+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 904,
+  "ActiveLinks": 957,
   "Links": [
     {
-      "EntityName": "Homenick-Vandervort",
-      "Id": 134,
-      "Description": "Triple-buffered optimizing moderator",
-      "ExtraInfo": "consequatur",
-      "LinkId": 255,
+      "EntityName": "O'Keefe Inc and Sons",
+      "Id": 798,
+      "Description": "Balanced logistical core",
+      "ExtraInfo": "nostrum",
+      "LinkId": 951,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 957
         }
       }
     }
   ],
-  "NextDueDate": "2012-01-05T13:28:23.6792365+01:00",
-  "Postit": "asperiores",
+  "NextDueDate": "2012-08-31T04:02:02.2690772+02:00",
+  "Postit": "non",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-01-19T13:28:23.6792365+01:00",
+  "ReopenDate": "2022-12-28T04:02:02.2690772+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Ebert-Skiles",
-      "Comment": "velit",
-      "StakeholderRoleId": 636,
-      "CountryId": 973,
-      "PersonId": 162,
-      "EmailDescription": "sophie_gusikowski@kirlin.name",
-      "EmailId": 394,
-      "EmailAddress": "brendan@mante.ca",
-      "PhoneId": 281,
-      "ContactName": "Kreiger, O'Kon and Daugherty",
-      "ContactId": 44,
-      "SaleId": 541,
-      "Mrmrs": "perferendis",
-      "Firstname": "Spencer",
-      "MiddleName": "Collins, Borer and Bins",
-      "Lastname": "West",
-      "SaleStakeholderId": 454,
-      "Rank": 570,
-      "Phone": "352-778-7524",
+      "StakeholderRoleName": "Simonis-Lemke",
+      "Comment": "quia",
+      "StakeholderRoleId": 760,
+      "CountryId": 409,
+      "PersonId": 715,
+      "EmailDescription": "esperanza@luettgenpagac.uk",
+      "EmailId": 762,
+      "EmailAddress": "vladimir@bashirianmoore.uk",
+      "PhoneId": 790,
+      "ContactName": "Senger, Koepp and Schamberger",
+      "ContactId": 329,
+      "SaleId": 323,
+      "Mrmrs": "quas",
+      "Firstname": "Karley",
+      "MiddleName": "Ernser LLC",
+      "Lastname": "Bartell",
+      "SaleStakeholderId": 157,
+      "Rank": 79,
+      "Phone": "577-325-4674 x62311",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 287
         }
       }
     }
   ],
-  "ActiveErpLinks": 40,
+  "ActiveErpLinks": 587,
   "UserDefinedFields": {
-    "SuperOffice:1": "Brendan Haag DVM",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Rossie Murazik PhD",
+    "SuperOffice:2": "Antonio Ondricka"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "dolor"
+    "CustomFields1": "provident",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2003-12-14T13:28:23.6792365+01:00",
-  "PublishTo": "2017-03-21T13:28:23.6792365+01:00",
-  "PublishFrom": "2014-02-19T13:28:23.6792365+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-02-13T04:02:02.2690772+01:00",
+  "PublishTo": "2015-09-06T04:02:02.2690772+02:00",
+  "PublishFrom": "2009-07-18T04:02:02.2690772+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 779,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldLength": 638
         }
       }
     },
     {
-      "VisibleId": 779,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldLength": 638
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

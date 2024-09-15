@@ -2,10 +2,10 @@
 uid: table-udappntsmall
 title: udappntsmall table
 description: User-defined fields
-generated: true
+so.generated: true
 keywords: database table udappntsmall
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # udappntsmall Table (228)

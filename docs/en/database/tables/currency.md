@@ -2,10 +2,10 @@
 uid: table-Currency
 title: Currency table
 description: Currency list table
-generated: true
+so.generated: true
 keywords: database table Currency
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Currency Table (112)

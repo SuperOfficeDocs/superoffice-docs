@@ -2,10 +2,10 @@
 uid: table-ErpSyncLog
 title: ErpSyncLog table
 description: Record all field changes done by the Erp Sync
-generated: true
+so.generated: true
 keywords: database table ErpSyncLog
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ErpSyncLog Table (426)

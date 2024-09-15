@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Hammes-Glover",
-    "ToolTip": "Voluptatibus rerum illum ex hic dolores minus.",
-    "Deleted": true,
-    "Rank": 30,
-    "Type": "ut",
-    "ColorBlock": 49,
-    "IconHint": "rerum",
+    "Id": 736,
+    "Name": "Hilpert-Romaguera",
+    "ToolTip": "Ipsam nobis eos.",
+    "Deleted": false,
+    "Rank": 530,
+    "Type": "minus",
+    "ColorBlock": 105,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2021-04-20T13:28:33.0853045+02:00",
+    "LastChanged": "2014-09-12T04:02:07.3847052+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Von, Dicki and Larkin",
-        "ToolTip": "Sed beatae alias.",
-        "Deleted": false,
-        "Rank": 276,
-        "Type": "at",
-        "ColorBlock": 787,
-        "IconHint": "distinctio",
+        "Id": 256,
+        "Name": "Robel-Skiles",
+        "ToolTip": "Fugit illo fugit quis voluptatem odio laborum.",
+        "Deleted": true,
+        "Rank": 248,
+        "Type": "rerum",
+        "ColorBlock": 680,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2003-08-29T13:28:33.0853045+02:00",
+        "LastChanged": "1997-12-29T04:02:07.3847052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "dolor",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Orpha Dickinson I"
+        "FullName": "Valerie Bernhard"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Keegan Schneider Jr."
+    "ExtraInfo": "ratione",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Gardner Gaylord"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Wuckert Inc and Sons",
-    "ToolTip": "Et qui velit nam qui recusandae.",
+    "Id": 944,
+    "Name": "Swaniawski, Stamm and Boehm",
+    "ToolTip": "Nulla nobis illo omnis eum eaque quia tempora.",
     "Deleted": false,
-    "Rank": 984,
-    "Type": "quis",
-    "ColorBlock": 767,
-    "IconHint": "sed",
+    "Rank": 716,
+    "Type": "qui",
+    "ColorBlock": 621,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "1999-01-23T13:28:33.0853045+01:00",
+    "LastChanged": "2018-12-27T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Wiegand, Luettgen and Reilly",
-        "ToolTip": "Rerum quia nemo voluptatem iure quam ad.",
+        "Id": 355,
+        "Name": "Hickle, Blick and Schulist",
+        "ToolTip": "Quia quis.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "harum",
-        "ColorBlock": 763,
-        "IconHint": "impedit",
+        "Rank": 976,
+        "Type": "ipsa",
+        "ColorBlock": 306,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2015-07-22T13:28:33.0853045+02:00",
+        "LastChanged": "2023-07-20T04:02:07.3847052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Kasey Wintheiser",
+        "ExtraInfo": "sit",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Eliza Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 98
+            "FieldType": "System.Int32",
+            "FieldLength": 757
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Bridie Wisozk",
+    "ExtraInfo": "provident",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Janick Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 691
       }
     }
   }

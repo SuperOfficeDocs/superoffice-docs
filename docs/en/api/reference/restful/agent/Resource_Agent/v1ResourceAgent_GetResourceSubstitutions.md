@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Von Inc and Sons",
-    "Harber Group"
+    "Maggio-Funk",
+    "Hermiston Inc and Sons"
   ],
-  "Culture": "qui",
+  "Culture": "odio",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Hettinger-Yost",
-    "ResourceValue": "consequuntur",
-    "Culture": "delectus",
+    "ResourceName": "Dicki-Halvorson",
+    "ResourceValue": "quibusdam",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 811
       }
     }
   },
   {
-    "ResourceName": "Hettinger-Yost",
-    "ResourceValue": "consequuntur",
-    "Culture": "delectus",
+    "ResourceName": "Dicki-Halvorson",
+    "ResourceValue": "quibusdam",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 811
       }
     }
   }

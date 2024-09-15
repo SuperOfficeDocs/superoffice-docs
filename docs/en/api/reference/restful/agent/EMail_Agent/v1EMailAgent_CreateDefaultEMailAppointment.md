@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "atque",
-    "mollitia"
+    "ad",
+    "accusantium"
   ],
-  "Comment": "sit",
-  "Sequence": 815,
-  "DtStart": "2021-01-12T13:28:22.6791961+01:00",
-  "DtEnd": "2009-09-01T13:28:22.6791961+02:00",
+  "Comment": "ea",
+  "Sequence": 469,
+  "DtStart": "2010-10-12T04:02:01.706124+02:00",
+  "DtEnd": "2005-05-21T04:02:01.706124+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 974
     }
   }
 }

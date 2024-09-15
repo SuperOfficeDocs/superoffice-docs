@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 773,
+  "DocumentPluginId": 70,
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 501,
-  "NumDocumentsAlreadyMigrated": 89,
+  "NumDocumentsOmitted": 604,
+  "NumDocumentsAlreadyMigrated": 452,
   "Documents": [
     {
-      "DocumentId": 952,
-      "ContactId": 4,
-      "PersonId": 170,
-      "SaleId": 549,
-      "ProjectId": 275,
-      "DocTmplId": 454,
-      "AssociateId": 448,
-      "UserGroupId": 223,
-      "VisibleForId": 11
+      "DocumentId": 672,
+      "ContactId": 656,
+      "PersonId": 265,
+      "SaleId": 976,
+      "ProjectId": 821,
+      "DocTmplId": 707,
+      "AssociateId": 570,
+      "UserGroupId": 521,
+      "VisibleForId": 85
     }
   ],
   "Associates": [
     {
-      "AssociateId": 928,
-      "EmailAddress": "lonie@quitzon.us"
+      "AssociateId": 870,
+      "EmailAddress": "leora@kling.name"
     },
     {
-      "AssociateId": 928,
-      "EmailAddress": "lonie@quitzon.us"
+      "AssociateId": 870,
+      "EmailAddress": "leora@kling.name"
     }
   ]
 }

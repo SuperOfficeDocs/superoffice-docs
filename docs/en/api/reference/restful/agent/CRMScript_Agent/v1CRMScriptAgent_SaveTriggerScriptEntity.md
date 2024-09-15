@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 229,
-  "Name": "Cronin, Baumbach and Mraz",
+  "ScreenChooserId": 843,
+  "Name": "D'Amore Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consectetur",
-  "Source": "amet",
-  "Registered": "2022-12-10T13:28:22.3511449+01:00",
-  "RegisteredAssociateId": 374,
-  "Updated": "2022-01-04T13:28:22.3511449+01:00",
-  "UpdatedAssociateId": 328
+  "UniqueIdentifier": "aperiam",
+  "Source": "qui",
+  "Registered": "2023-09-24T04:02:01.5186345+02:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2005-06-30T04:02:01.5186345+02:00",
+  "UpdatedAssociateId": 845
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 158,
-  "Name": "Turner, O'Keefe and Stamm",
+  "ScreenChooserId": 628,
+  "Name": "Bailey-Hills",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "molestiae",
-  "Source": "magnam",
-  "Registered": "1998-04-14T13:28:22.3511449+02:00",
-  "RegisteredAssociateId": 165,
-  "Updated": "2016-07-29T13:28:22.3511449+02:00",
-  "UpdatedAssociateId": 757,
+  "UniqueIdentifier": "ut",
+  "Source": "consequuntur",
+  "Registered": "2010-07-07T04:02:01.5186345+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "1997-10-03T04:02:01.5186345+02:00",
+  "UpdatedAssociateId": 425,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

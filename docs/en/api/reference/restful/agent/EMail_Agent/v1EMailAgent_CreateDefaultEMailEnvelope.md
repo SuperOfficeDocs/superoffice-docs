@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 697,
-  "MessageId": "sed",
-  "Subject": "dolore",
+  "ServerId": 354,
+  "MessageId": "voluptas",
+  "Subject": "et",
   "From": null,
   "To": [
     {
-      "ContactId": 868,
-      "ContactName": "Wyman Group",
-      "PersonId": 783,
-      "PersonName": "Sanford, Hammes and Kshlerin",
-      "AssociateId": 565,
-      "Address": "facilis",
-      "EmailId": 408,
+      "ContactId": 313,
+      "ContactName": "Connelly, Kshlerin and Cronin",
+      "PersonId": 833,
+      "PersonName": "Schimmel, Wehner and Fritsch",
+      "AssociateId": 201,
+      "Address": "placeat",
+      "EmailId": 588,
       "DuplicatePersonIds": [
-        908,
-        551
+        721,
+        353
       ],
-      "Name": "Russel-Bogisich",
+      "Name": "Gaylord, McGlynn and Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 651
+          "FieldType": "System.Int32",
+          "FieldLength": 762
         }
       }
     }
   ],
-  "Sent": "2005-03-14T13:28:22.6791961+01:00",
+  "Sent": "2007-09-29T04:02:01.706124+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 645,
+  "Size": 852,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

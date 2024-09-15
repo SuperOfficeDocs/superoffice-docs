@@ -1263,6 +1263,8 @@ items:
     href: enums/showtaskiteminclient.md
   - name: ShowWindowState
     href: enums/showwindowstate.md
+  - name: SystemMessageType
+    href: enums/systemmessagetype.md
   - name: TargetAssignementLevel
     href: enums/targetassignementlevel.md
   - name: TargetEntityType

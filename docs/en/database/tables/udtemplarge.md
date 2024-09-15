@@ -2,10 +2,10 @@
 uid: table-udtempLarge
 title: udtempLarge table
 description: User-defined fields
-generated: true
+so.generated: true
 keywords: database table udtempLarge
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # udtempLarge Table (145)

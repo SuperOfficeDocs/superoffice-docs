@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Greenfelder, Jakubowski and Moen",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 634,
-    "Rank": 473
+    "Id": 642,
+    "Name": "Maggio-Rempel",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "UdListDefinitionId": 679,
+    "Rank": 666
   },
   {
-    "Id": 493,
-    "Name": "Greenfelder, Jakubowski and Moen",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 634,
-    "Rank": 473
+    "Id": 642,
+    "Name": "Maggio-Rempel",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "UdListDefinitionId": 679,
+    "Rank": 666
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Hudson Group",
-    "Tooltip": "odit",
+    "Id": 584,
+    "Name": "Pfeffer-Skiles",
+    "Tooltip": "occaecati",
     "Deleted": true,
-    "UdListDefinitionId": 413,
-    "Rank": 91,
+    "UdListDefinitionId": 784,
+    "Rank": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 166
       }
     }
   }

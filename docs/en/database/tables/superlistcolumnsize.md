@@ -2,10 +2,10 @@
 uid: table-SuperListColumnSize
 title: SuperListColumnSize table
 description: Stores the relative size (in percent) or in characters of a column in a SuperList
-generated: true
+so.generated: true
 keywords: database table SuperListColumnSize
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SuperListColumnSize Table (209)

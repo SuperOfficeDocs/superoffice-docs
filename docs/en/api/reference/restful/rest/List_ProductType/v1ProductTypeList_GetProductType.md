@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "O'Reilly-Leannon",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 826,
+  "Id": 149,
+  "Name": "Nader LLC",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 182,
+  "Rank": 626,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 460
     }
   }
 }

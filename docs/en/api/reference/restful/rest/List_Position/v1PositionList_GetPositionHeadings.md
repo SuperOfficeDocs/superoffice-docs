@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 258,
-    "Name": "Satterfield Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 618,
+    "Name": "Wehner LLC",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 681,
-    "UdListDefinitionId": 251,
+    "Rank": 25,
+    "UdListDefinitionId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

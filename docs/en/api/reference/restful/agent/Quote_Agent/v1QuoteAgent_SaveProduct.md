@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 481,
-  "ERPProductKey": "in",
-  "ERPPriceListKey": "dolor",
-  "Name": "Ernser Inc and Sons",
-  "Description": "Enterprise-wide demand-driven emulation",
-  "Code": "rerum",
-  "PriceUnit": "voluptatibus",
-  "QuantityUnit": "sit",
+  "ProductId": 194,
+  "ERPProductKey": "aperiam",
+  "ERPPriceListKey": "eum",
+  "Name": "O'Conner-Bailey",
+  "Description": "Multi-channelled system-worthy open architecture",
+  "Code": "qui",
+  "PriceUnit": "dolores",
+  "QuantityUnit": "temporibus",
   "IsSubscription": false,
-  "SubscriptionUnit": "laboriosam",
-  "DefaultSubscriptionQuantity": 15096.478,
-  "ItemNumber": "500942",
+  "SubscriptionUnit": "assumenda",
+  "DefaultSubscriptionQuantity": 18816.536,
+  "ItemNumber": "1014591",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "inventore",
-  "ProductTypeKey": "corrupti",
-  "VAT": 16409.624,
-  "VATInfo": "nihil",
-  "UnitCost": 26682.876,
-  "UnitMinimumPrice": 20208.032,
-  "UnitListPrice": 6227.258,
-  "InAssortment": false,
-  "Supplier": "quos",
-  "SupplierCode": "ut",
-  "Rights": "est",
-  "Rule": "ratione",
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "tempora",
+  "VAT": 17453.246,
+  "VATInfo": "alias",
+  "UnitCost": 6807.048,
+  "UnitMinimumPrice": 24241.489999999998,
+  "UnitListPrice": 7850.67,
+  "InAssortment": true,
+  "Supplier": "ratione",
+  "SupplierCode": "fuga",
+  "Rights": "nam",
+  "Rule": "hic",
   "ExtraInfo": [
     {
-      "Name": "Casper-Lakin",
-      "Value": "repellat",
+      "Name": "Ward-Sawayn",
+      "Value": "pariatur",
       "Type": "Image"
     },
     {
-      "Name": "Casper-Lakin",
-      "Value": "repellat",
+      "Name": "Ward-Sawayn",
+      "Value": "pariatur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "reprehenderit",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "soluta",
-  "ExtraField3": "id",
-  "ExtraField4": "et",
-  "ExtraField5": "et",
-  "InStock": 7590.548
+  "RawExtraInfo": "voluptatum",
+  "ExtraField1": "eum",
+  "ExtraField2": "nihil",
+  "ExtraField3": "sit",
+  "ExtraField4": "magnam",
+  "ExtraField5": "qui",
+  "InStock": 25538.966
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 949,
-  "ERPProductKey": "neque",
-  "ERPPriceListKey": "non",
-  "Name": "Fahey, Willms and O'Keefe",
-  "Description": "Front-line empowering budgetary management",
-  "Code": "maiores",
-  "PriceUnit": "ex",
-  "QuantityUnit": "beatae",
-  "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "DefaultSubscriptionQuantity": 26065.478,
-  "ItemNumber": "1014342",
+  "ProductId": 866,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "modi",
+  "Name": "Purdy-Kub",
+  "Description": "Horizontal reciprocal attitude",
+  "Code": "in",
+  "PriceUnit": "architecto",
+  "QuantityUnit": "corporis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 8358.378,
+  "ItemNumber": "1065305",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "corrupti",
-  "VAT": 5741.4879999999994,
-  "VATInfo": "consequatur",
-  "UnitCost": 23106.982,
-  "UnitMinimumPrice": 19976.115999999998,
-  "UnitListPrice": 8888.024,
-  "InAssortment": false,
-  "Supplier": "ipsa",
-  "SupplierCode": "ut",
-  "Rights": "doloribus",
-  "Rule": "nam",
+  "ProductFamilyKey": "veniam",
+  "ProductTypeKey": "hic",
+  "VAT": 21345.674,
+  "VATInfo": "nostrum",
+  "UnitCost": 319.668,
+  "UnitMinimumPrice": 13733.188,
+  "UnitListPrice": 3701.254,
+  "InAssortment": true,
+  "Supplier": "minima",
+  "SupplierCode": "repudiandae",
+  "Rights": "provident",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Schuster LLC",
-      "Value": "nostrum",
+      "Name": "Jacobi, Bins and Conn",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldLength": 584
         }
       }
     },
     {
-      "Name": "Schuster LLC",
-      "Value": "nostrum",
+      "Name": "Jacobi, Bins and Conn",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldLength": 584
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "non",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "non",
-  "ExtraField4": "quia",
-  "ExtraField5": "ea",
-  "InStock": 13031.172,
+  "RawExtraInfo": "pariatur",
+  "ExtraField1": "expedita",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "fugit",
+  "ExtraField5": "eligendi",
+  "InStock": 3516.348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

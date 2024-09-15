@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 502,
-  "Name": "Reichel Group",
-  "Tooltip": "eius",
+  "HeadingId": 17,
+  "Name": "Feest-Langworth",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 853,
-  "UdListDefinitionId": 545
+  "Rank": 751,
+  "UdListDefinitionId": 868
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 285,
-  "Name": "Mann-Kihn",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 384,
-  "UdListDefinitionId": 800,
+  "HeadingId": 274,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 484,
+  "UdListDefinitionId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

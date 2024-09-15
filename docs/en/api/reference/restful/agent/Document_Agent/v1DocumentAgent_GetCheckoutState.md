@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 677
+  "DocumentId": 578
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 41,
-  "Name": "Quitzon, Cole and Berge"
+  "AssociateId": 569,
+  "Name": "Kihn-Breitenberg"
 }
 ```

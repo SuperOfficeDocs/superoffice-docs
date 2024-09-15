@@ -2,10 +2,10 @@
 uid: enum-officiallanguage
 title: Enum values for OfficialLanguage
 description: Lists the enum values for OfficialLanguage.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # OfficialLanguage Enum

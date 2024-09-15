@@ -170,6 +170,8 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
 |alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
 |alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
-|alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
-|alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
+|alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/description|string|Sale - Direct - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personMobilePhone/formattedNumber|string|Sale - Mobile - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personMobilePhone/description|string|Sale - Mobile - Description: Phone number description| x |
@@ -327,12 +329,12 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
 |alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
-|alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
-|alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
+|alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
@@ -431,12 +433,12 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
-|alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
+|alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line3|string|Sale - Postal address - Address 3: Third line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/county|string|Sale - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -535,12 +537,12 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
-|alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
-|alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
+|alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod|int|Sale - Number of non-completed activities in last 90 days|  |
 |alternative/version/quote/sale/contact/LastActivity|date|Sale - Date of last activity|  |
@@ -639,12 +641,12 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/project/projectEvent/isExternalEvent|bool|Sale - Project - Event: Is this an external event| x |
 |alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
-|alternative/version/quote/sale/project/projectEvent/hasSignOff|bool|Sale - Project - Sign Off: Does this event have the Sign Off function enabled| x |
-|alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/projectEvent/hasSignOff|bool|Sale - Project - Sign Off: Does this event have the Sign Off function enabled| x |
+|alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
 |alternative/version/quote/sale/project/projectUrl/URLDescription|string|Sale - Project - Description| x |
 |alternative/version/quote/sale/project/projectAssociate/firstName|string|Sale - Project - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/project/projectAssociate/lastName|string|Sale - Project - Last name: Displays the contact's last name| x |
@@ -747,7 +749,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=quoteLineThumbnailLarge,alternative/discountPercent,alternative/earningAmount,alternative/version/paymentType,alternative/version/quote/sale/person/correspondingAssociate/isActive
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=name,alternative/erpDiscountAmount,alternative/version/quote/sale/person/associateType,alternative/version/quote/sale/person/personUpdatedBy,alternative/version/quote/sale/person/personRegisteredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

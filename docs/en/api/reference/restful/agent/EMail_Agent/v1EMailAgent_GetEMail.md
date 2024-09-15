@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
+  "Id": 47,
   "IncludeAttachments": false
 }
 ```
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 233,
-      "ContactName": "Mueller LLC",
-      "PersonId": 954,
-      "PersonName": "Hermann Inc and Sons",
-      "AssociateId": 953,
-      "Address": "nostrum",
-      "EmailId": 315,
+      "ContactId": 40,
+      "ContactName": "Jerde-Padberg",
+      "PersonId": 625,
+      "PersonName": "Watsica-Moen",
+      "AssociateId": 926,
+      "Address": "illo",
+      "EmailId": 114,
       "DuplicatePersonIds": [
-        662,
-        217
+        360,
+        416
       ],
-      "Name": "Jast-Cummings",
+      "Name": "Towne LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 399,
-      "ContactName": "McLaughlin, Bruen and Spinka",
-      "PersonId": 381,
-      "PersonName": "Kuphal-O'Hara",
-      "AssociateId": 438,
-      "Address": "qui",
-      "EmailId": 131,
+      "ContactId": 648,
+      "ContactName": "Schinner Group",
+      "PersonId": 819,
+      "PersonName": "Ward Group",
+      "AssociateId": 548,
+      "Address": "et",
+      "EmailId": 378,
       "DuplicatePersonIds": [
-        125,
-        667
+        496,
+        709
       ],
-      "Name": "Kohler Inc and Sons",
+      "Name": "Hintz Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 137
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Kautzer-Davis",
-      "PersonId": 698,
-      "PersonName": "Boyer-Kautzer",
-      "AssociateId": 890,
-      "Address": "quia",
-      "EmailId": 533,
+      "ContactId": 98,
+      "ContactName": "Haag Group",
+      "PersonId": 655,
+      "PersonName": "Corkery-Ullrich",
+      "AssociateId": 60,
+      "Address": "nemo",
+      "EmailId": 841,
       "DuplicatePersonIds": [
-        715,
-        62
+        554,
+        531
       ],
-      "Name": "Hudson, Mohr and Weissnat",
+      "Name": "Barrows LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 232
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "iure",
+  "Subject": "et",
+  "HTMLBody": "placeat",
   "From": null,
-  "Sent": "2002-09-04T13:28:22.7573023+02:00",
-  "Size": 496,
+  "Sent": "1997-05-06T04:02:01.7373708+02:00",
+  "Size": 615,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "odio",
-  "PlainBody": "quas",
+  "MessageID": "culpa",
+  "PlainBody": "nihil",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 593,
+  "ServerId": 308,
   "Attachments": [
     {
-      "Description": "Open-source radical initiative",
-      "Filename": "expedita",
-      "Size": 242,
-      "Type": "enim",
-      "Encoding": "quidem",
-      "Id": "cumque",
-      "Disposition": "quas",
-      "IsSafeFileExtension": true,
+      "Description": "Reduced stable productivity",
+      "Filename": "eum",
+      "Size": 532,
+      "Type": "dolores",
+      "Encoding": "repudiandae",
+      "Id": "pariatur",
+      "Disposition": "totam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldLength": 615
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Koss Group",
+      "Name": "Simonis-Harvey",
       "Values": [
-        "rem",
-        "aspernatur"
+        "rerum",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 735
         }
       }
     },
     {
-      "Name": "Koss Group",
+      "Name": "Simonis-Harvey",
       "Values": [
-        "rem",
-        "aspernatur"
+        "rerum",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 735
         }
       }
     }
   ],
-  "FolderName": "Prosacco Inc and Sons",
-  "EmailItemId": 120,
-  "AccountId": 46,
-  "ReceivedAt": "2024-02-25T13:28:22.7729236+01:00",
+  "FolderName": "Marks-Gulgowski",
+  "EmailItemId": 29,
+  "AccountId": 483,
+  "ReceivedAt": "2014-02-26T04:02:01.7373708+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-06-10T13:28:22.7729236+02:00",
+  "RepliedAt": "2017-07-12T04:02:01.7373708+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 308
     }
   }
 }

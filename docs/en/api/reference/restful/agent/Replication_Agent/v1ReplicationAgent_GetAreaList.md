@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 349,
-    "Name": "Greenfelder-Gerhold",
-    "MaxDataAge": 468,
-    "NumberOfUsers": 930,
-    "NumberOfLogins": 495,
-    "FreetextEnabeled": true,
+    "AreaId": 946,
+    "Name": "Watsica Group",
+    "MaxDataAge": 101,
+    "NumberOfUsers": 344,
+    "NumberOfLogins": 41,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

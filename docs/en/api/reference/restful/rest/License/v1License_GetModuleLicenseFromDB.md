@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Breitenberg-Mertz",
-  "ModuleName": "Raynor, Stokes and Bosco",
-  "ModuleDescription": "Object-based eco-centric matrices",
-  "ModuleTooltip": "dolorem",
-  "ModuleVersion": "repellat",
+  "OwnerName": "Veum-Hane",
+  "ModuleName": "Mraz-Streich",
+  "ModuleDescription": "Distributed 3rd generation access",
+  "ModuleTooltip": "qui",
+  "ModuleVersion": "tempore",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 238,
-  "ExtraFlags": 74,
-  "ExtraInfo": "alias",
-  "SortOrder": 224,
+  "NumberOfLicenses": 714,
+  "ExtraFlags": 798,
+  "ExtraInfo": "eum",
+  "SortOrder": 79,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Tromp-Rippin",
-  "Signature": "harum"
+  "PrerequisiteModuleName": "Sporer-Rice",
+  "Signature": "magnam"
 }
 ```

@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 633,
-  "Section": "magnam",
-  "Key": "veritatis",
-  "Name": "Durgan Group",
+  "PrefDescId": 992,
+  "Section": "veritatis",
+  "Key": "et",
+  "Name": "Wintheiser-Witting",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced national secured line",
+  "Description": "Networked upward-trending superstructure",
   "IsBuiltin": false,
-  "TableName": "Parisian-Considine",
-  "UserDefinedListId": 495,
-  "Rank": 601,
-  "SubGroup": "magni",
-  "MinLevel": 820,
-  "MaxValue": 537,
-  "MinValue": 15,
-  "RequiredLicense": "qui"
+  "TableName": "Walsh, Crooks and Senger",
+  "UserDefinedListId": 909,
+  "Rank": 860,
+  "SubGroup": "quis",
+  "MinLevel": 85,
+  "MaxValue": 908,
+  "MinValue": 406,
+  "RequiredLicense": "omnis"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 727,
-  "Section": "ipsum",
-  "Key": "aut",
-  "Name": "Huels Inc and Sons",
+  "PrefDescId": 539,
+  "Section": "quibusdam",
+  "Key": "molestiae",
+  "Name": "Steuber Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic system-worthy policy",
-  "IsBuiltin": true,
-  "TableName": "Deckow LLC",
-  "UserDefinedListId": 59,
-  "Rank": 73,
-  "SubGroup": "inventore",
-  "MinLevel": 275,
-  "MaxValue": 493,
-  "MinValue": 474,
-  "RequiredLicense": "repudiandae",
+  "Description": "Vision-oriented background standardization",
+  "IsBuiltin": false,
+  "TableName": "Becker, Champlin and Bergstrom",
+  "UserDefinedListId": 601,
+  "Rank": 15,
+  "SubGroup": "vitae",
+  "MinLevel": 259,
+  "MaxValue": 214,
+  "MinValue": 687,
+  "RequiredLicense": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   },
   "_Links": {

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 252,
-  "Name": "Reilly Inc and Sons",
-  "CurrencyId": 553,
-  "EnglishName": "Sanford Inc and Sons",
+  "CountryId": 45,
+  "Name": "Abernathy, Schiller and Ziemann",
+  "CurrencyId": 440,
+  "EnglishName": "Collins, Nader and Larkin",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-channelled actuating local area network",
-  "OrgNrText": "1007642",
-  "InterAreaPrefix": "ea",
-  "DialInPrefix": "consequatur",
-  "ZipPrefix": "provident",
-  "DomainName": "Gislason Group",
-  "AddressLayoutId": 763,
-  "DomesticAddressLayoutId": 162,
-  "ForeignAddressLayoutId": 467,
-  "Rank": 85,
-  "Tooltip": "a",
+  "ImageDescription": "Front-line global hardware",
+  "OrgNrText": "1715597",
+  "InterAreaPrefix": "distinctio",
+  "DialInPrefix": "autem",
+  "ZipPrefix": "velit",
+  "DomainName": "Herman-Runolfsson",
+  "AddressLayoutId": 371,
+  "DomesticAddressLayoutId": 413,
+  "ForeignAddressLayoutId": 166,
+  "Rank": 68,
+  "Tooltip": "illo",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 521
     }
   }
 }

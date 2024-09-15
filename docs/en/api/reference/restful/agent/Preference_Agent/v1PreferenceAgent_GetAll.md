@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 159,
-    "Section": "aut",
-    "Key": "et",
-    "Name": "Reinger-Streich",
+    "PrefDescId": 246,
+    "Section": "vel",
+    "Key": "sapiente",
+    "Name": "Okuneva Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Universal reciprocal alliance",
-    "IsBuiltin": false,
-    "TableName": "Torphy Inc and Sons",
-    "UserDefinedListId": 229,
-    "Rank": 811,
-    "SubGroup": "ducimus",
-    "MinLevel": 843,
-    "MaxValue": 415,
-    "MinValue": 241,
-    "RequiredLicense": "ipsa",
+    "Description": "Implemented mission-critical hub",
+    "IsBuiltin": true,
+    "TableName": "Mann, D'Amore and Price",
+    "UserDefinedListId": 192,
+    "Rank": 151,
+    "SubGroup": "et",
+    "MinLevel": 918,
+    "MaxValue": 692,
+    "MinValue": 312,
+    "RequiredLicense": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldLength": 944
       }
     }
   }

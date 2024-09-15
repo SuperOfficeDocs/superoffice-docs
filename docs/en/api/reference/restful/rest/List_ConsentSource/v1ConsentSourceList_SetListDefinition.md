@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Bode, Dooley and Kulas",
-  "Tooltip": "placeat",
+  "Id": 889,
+  "Name": "Feest Inc and Sons",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 413,
+  "Rank": 492,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Fisher LLC",
-  "Tooltip": "in",
+  "Id": 456,
+  "Name": "O'Reilly-Ratke",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 163,
+  "Rank": 258,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 212
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-QuoteApprReasonGroupLink
 title: QuoteApprReasonGroupLink table
 description: User group link table for QuoteApprReason, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table QuoteApprReasonGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteApprReasonGroupLink Table (526)

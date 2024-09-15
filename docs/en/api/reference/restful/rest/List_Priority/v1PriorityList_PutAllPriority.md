@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Gerlach Group",
+    "Id": 442,
+    "Name": "Kilback-Homenick",
     "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 930,
-    "Rank": 1001
+    "UdListDefinitionId": 569,
+    "Rank": 72
   },
   {
-    "Id": 584,
-    "Name": "Gerlach Group",
+    "Id": 442,
+    "Name": "Kilback-Homenick",
     "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 930,
-    "Rank": 1001
+    "UdListDefinitionId": 569,
+    "Rank": 72
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Brown-Quitzon",
-    "Tooltip": "repellendus",
+    "Id": 711,
+    "Name": "O'Reilly, Gerlach and Dickinson",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 943,
-    "Rank": 822,
+    "UdListDefinitionId": 977,
+    "Rank": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=ratione
+GET /api/v1/List/PaymentType/MDOItems?query=accusamus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Yundt, Johnson and Boyer",
-    "ToolTip": "Quidem aut debitis molestiae quam repellendus omnis soluta.",
+    "Id": 639,
+    "Name": "Weissnat LLC",
+    "ToolTip": "Et voluptas consectetur placeat consectetur.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "rerum",
+    "Rank": 203,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Harris-Turner",
-        "ToolTip": "Laborum quidem.",
+        "Id": 22,
+        "Name": "Eichmann-Thiel",
+        "ToolTip": "Et quia.",
         "Deleted": false,
-        "Rank": 30,
-        "Type": "placeat",
+        "Rank": 530,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 940,
-        "ExtraInfo": "neque",
-        "StyleHint": "placeat",
-        "FullName": "Ewald Keeling I",
+        "IconHint": "aliquam",
+        "ColorBlock": 421,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolores",
+        "FullName": "Stella Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 706
           }
         }
       }
     ],
-    "IconHint": "sapiente",
-    "ColorBlock": 979,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "id",
-    "FullName": "Dr. Coby Braden Schuster MD",
+    "IconHint": "aperiam",
+    "ColorBlock": 387,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "odit",
+    "FullName": "Donavon Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldLength": 447
       }
     }
   }

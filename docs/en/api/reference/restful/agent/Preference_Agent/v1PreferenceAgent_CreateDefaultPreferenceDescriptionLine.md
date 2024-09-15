@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 668,
-  "PrefDescId": 502,
-  "PrefValue": "amet",
-  "PrefShowValue": "dolor",
-  "Description": "Synergized uniform process improvement",
+  "PrefDescLineId": 838,
+  "PrefDescId": 928,
+  "PrefValue": "sed",
+  "PrefShowValue": "eum",
+  "Description": "Mandatory homogeneous parallelism",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldLength": 508
     }
   }
 }

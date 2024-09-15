@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Hyatt LLC",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "UdListDefinitionId": 517,
-    "Rank": 392
+    "Id": 960,
+    "Name": "Kling, Lindgren and Wisozk",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "UdListDefinitionId": 407,
+    "Rank": 960
   },
   {
-    "Id": 368,
-    "Name": "Hyatt LLC",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "UdListDefinitionId": 517,
-    "Rank": 392
+    "Id": 960,
+    "Name": "Kling, Lindgren and Wisozk",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "UdListDefinitionId": 407,
+    "Rank": 960
   }
 ]
 ```
@@ -104,17 +104,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Kuphal-Huel",
-    "Tooltip": "voluptas",
+    "Id": 732,
+    "Name": "Beier Group",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 86,
-    "Rank": 62,
+    "UdListDefinitionId": 1001,
+    "Rank": 562,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
+        "FieldType": "System.Int32",
         "FieldLength": 488
       }
     }

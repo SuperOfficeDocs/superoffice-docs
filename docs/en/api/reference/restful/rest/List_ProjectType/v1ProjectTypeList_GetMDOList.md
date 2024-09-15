@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=sequi
+GET /api/v1/List/ProjectType/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Hilll, Renner and Weimann",
-    "ToolTip": "Voluptatum quasi maiores.",
+    "Id": 743,
+    "Name": "Schmeler, Windler and Gutkowski",
+    "ToolTip": "Qui dolor debitis perspiciatis.",
     "Deleted": false,
-    "Rank": 582,
-    "Type": "consequatur",
+    "Rank": 885,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Mayert-Miller",
-        "ToolTip": "Laboriosam distinctio et et quod.",
-        "Deleted": false,
-        "Rank": 504,
-        "Type": "esse",
+        "Id": 784,
+        "Name": "Lehner, McDermott and Pacocha",
+        "ToolTip": "Expedita inventore voluptatem.",
+        "Deleted": true,
+        "Rank": 127,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 970,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "non",
-        "FullName": "Mrs. Efrain Schumm",
+        "IconHint": "non",
+        "ColorBlock": 836,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "debitis",
+        "FullName": "Tania Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldType": "System.String",
+            "FieldLength": 344
           }
         }
       }
     ],
-    "IconHint": "consequuntur",
-    "ColorBlock": 23,
-    "ExtraInfo": "vero",
-    "StyleHint": "officiis",
-    "FullName": "Rebeca Vickie Kutch PhD",
+    "IconHint": "vitae",
+    "ColorBlock": 961,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "repellendus",
+    "FullName": "Lexus Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 828
       }
     }
   }

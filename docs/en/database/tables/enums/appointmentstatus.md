@@ -2,10 +2,10 @@
 uid: enum-appointmentstatus
 title: Enum values for AppointmentStatus
 description: Lists the enum values for AppointmentStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AppointmentStatus Enum

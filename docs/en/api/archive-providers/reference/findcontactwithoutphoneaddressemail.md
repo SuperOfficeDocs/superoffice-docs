@@ -314,6 +314,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
@@ -429,12 +431,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/associateDbId|associate|ID| x |
-|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/locationAddress|string|Location: Location| x |
 |document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
-|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
-|document/documentUdef/SuperOffice:3|int|documentnumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
+|document/documentUdef/SuperOffice:3|int|documentnumber| x |
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
 |document/documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
 |document/documentUdef/SuperOffice:6|bool|documentcheckbox| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |personUdef/SuperOffice:9|string|page1saleonly| x |
-|personUdef/SuperOffice:10|string|page1marketingonly| x |
-|personUdef/SuperOffice:11|string|page1adminonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:10|string|page1marketingonly| x |
+|personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
@@ -744,7 +746,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=sourceRelation/updatedByFullName,appointment/contactId,appointment/associate/lastName,document/icon,document/subject
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=streetAddress/addressId,contactExtra/x_contact_default_integer,LastDoByTicket,sale/activeErpLinks,appointment/associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

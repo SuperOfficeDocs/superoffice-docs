@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=815
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=780
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 173,
-  "ERPQuoteAlternativeKey": "ea",
-  "QuoteVersionId": 951,
-  "Name": "Hilll-Sporer",
-  "Description": "Versatile leading edge algorithm",
+  "QuoteAlternativeId": 864,
+  "ERPQuoteAlternativeKey": "delectus",
+  "QuoteVersionId": 536,
+  "Name": "Douglas-Schinner",
+  "Description": "Organic motivating projection",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 27902.002,
-  "ERPDiscountAmount": 7954.092,
-  "DiscountPercent": 10633.662,
-  "DiscountAmount": 30105.203999999998,
+  "ERPDiscountPercent": 18756.989999999998,
+  "ERPDiscountAmount": 26902.255999999998,
+  "DiscountPercent": 21123.16,
+  "DiscountAmount": 29070.984,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "esse",
-  "VAT": 16318.738,
-  "EarningPercent": 20430.546,
-  "EarningAmount": 8333.306,
-  "SubTotal": 4221.498,
-  "TotalPrice": 16842.115999999998,
-  "ExtraField1": "voluptate",
-  "ExtraField2": "numquam",
-  "ExtraField3": "aliquid",
-  "ExtraField4": "autem",
-  "ExtraField5": "omnis",
+  "VATInfo": "totam",
+  "VAT": 2391.2419999999997,
+  "EarningPercent": 24401.324,
+  "EarningAmount": 354.142,
+  "SubTotal": 23805.863999999998,
+  "TotalPrice": 4653.99,
+  "ExtraField1": "repellat",
+  "ExtraField2": "aut",
+  "ExtraField3": "deleniti",
+  "ExtraField4": "vel",
+  "ExtraField5": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

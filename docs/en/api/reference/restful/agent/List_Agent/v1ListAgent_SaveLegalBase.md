@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 913,
-  "Name": "Schmidt, Huels and Aufderhar",
-  "Tooltip": "animi",
-  "Rank": 697,
-  "Key": "laudantium",
+  "LegalBaseId": 547,
+  "Name": "Towne-Williamson",
+  "Tooltip": "explicabo",
+  "Rank": 597,
+  "Key": "occaecati",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 369
     }
   }
 }

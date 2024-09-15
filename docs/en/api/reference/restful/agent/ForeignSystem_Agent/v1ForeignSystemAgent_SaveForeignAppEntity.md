@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 904,
-  "Name": "Lindgren, Prohaska and Tromp",
-  "CreatedDate": "2023-09-13T13:28:22.8354083+02:00",
-  "UpdatedDate": "2024-06-29T13:28:22.8354083+02:00",
+  "ForeignAppId": 305,
+  "Name": "Mueller-Hyatt",
+  "CreatedDate": "2006-04-25T04:02:01.7888547+02:00",
+  "UpdatedDate": "2005-01-13T04:02:01.7888547+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 405,
-      "Name": "Ritchie, Frami and Mitchell",
-      "CreatedDate": "2003-05-21T13:28:22.8354083+02:00",
-      "UpdatedDate": "2023-07-15T13:28:22.8354083+02:00",
-      "AssociateFullName": "Ibrahim Emil Boehm PhD",
-      "CreatedBy": "labore",
-      "UpdatedBy": "fugit",
-      "DeviceIdentifier": "repellendus",
-      "ForeignAppId": 214
+      "ForeignDeviceId": 498,
+      "Name": "Pfeffer-Harvey",
+      "CreatedDate": "2010-07-30T04:02:01.7888547+02:00",
+      "UpdatedDate": "2011-02-07T04:02:01.7888547+01:00",
+      "AssociateFullName": "Ms. Mollie Caterina Ritchie",
+      "CreatedBy": "sed",
+      "UpdatedBy": "sed",
+      "DeviceIdentifier": "maxime",
+      "ForeignAppId": 989
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 214,
-  "Name": "Hand-Marks",
-  "CreatedDate": "2014-06-08T13:28:22.8354083+02:00",
-  "UpdatedDate": "2023-04-04T13:28:22.8354083+02:00",
+  "ForeignAppId": 860,
+  "Name": "Fadel, Franecki and Romaguera",
+  "CreatedDate": "1998-10-27T04:02:01.7888547+01:00",
+  "UpdatedDate": "2006-12-12T04:02:01.7888547+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 637,
-      "Name": "Collier-Goldner",
-      "CreatedDate": "2011-03-03T13:28:22.8354083+01:00",
-      "UpdatedDate": "2012-08-12T13:28:22.8354083+02:00",
-      "AssociateFullName": "Dr. Hector Towne Sr.",
-      "CreatedBy": "similique",
-      "UpdatedBy": "culpa",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 697,
+      "ForeignDeviceId": 629,
+      "Name": "Klein, Pollich and Hammes",
+      "CreatedDate": "2005-02-21T04:02:01.7888547+01:00",
+      "UpdatedDate": "2008-04-19T04:02:01.7888547+02:00",
+      "AssociateFullName": "Dave Bartoletti",
+      "CreatedBy": "maiores",
+      "UpdatedBy": "rem",
+      "DeviceIdentifier": "magnam",
+      "ForeignAppId": 774,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldType": "System.Int32",
+          "FieldLength": 590
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   }
 }

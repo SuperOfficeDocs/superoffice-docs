@@ -2,10 +2,10 @@
 uid: table-ejselection
 title: ejselection table
 description: This table stores selections, dynamic groups.
-generated: true
+so.generated: true
 keywords: database table ejselection
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejselection Table (391)

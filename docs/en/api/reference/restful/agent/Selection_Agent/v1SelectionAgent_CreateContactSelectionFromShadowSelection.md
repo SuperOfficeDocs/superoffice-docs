@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 971,
-  "Name": "Crona-Goldner"
+  "SelectionId": 900,
+  "Name": "Breitenberg-Witting"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved client-server time-frame",
-  "Postit": "earum",
+  "Description": "Phased high-level structure",
+  "Postit": "nulla",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 640,
-  "IncludePerson": 164,
+  "GroupIdx": 12,
+  "IncludePerson": 489,
   "MemberCount": 99.99,
-  "Name": "Kuhn LLC",
-  "PostitTextId": 146,
-  "CreatedDate": "2001-10-23T13:28:23.7885837+02:00",
-  "SelectionId": 617,
-  "SoundEx": "totam",
-  "Source": 671,
-  "TextId": 773,
-  "UpdatedDate": "2013-02-21T13:28:23.7885837+01:00",
-  "UpdatedCount": 308,
-  "Visibility": 124,
+  "Name": "Senger, Bashirian and Willms",
+  "PostitTextId": 309,
+  "CreatedDate": "2008-08-04T04:02:02.3317533+02:00",
+  "SelectionId": 77,
+  "SoundEx": "ut",
+  "Source": 69,
+  "TextId": 842,
+  "UpdatedDate": "2009-05-23T04:02:02.3317533+02:00",
+  "UpdatedCount": 934,
+  "Visibility": 45,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 908,
-  "TargetTableName": "Brown-Robel",
-  "Completed": false,
-  "LeftSelectionId": 813,
-  "RightSelectionId": 589,
+  "TargetTableNumber": 199,
+  "TargetTableName": "Jakubowski Group",
+  "Completed": true,
+  "LeftSelectionId": 772,
+  "RightSelectionId": 656,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gutkowski Inc and Sons",
-  "ShadowProviderName": "Ortiz-Weissnat",
-  "ChartKey": "accusantium",
-  "LastLoaded": "2006-09-16T13:28:23.7885837+02:00",
-  "LastLoadedBy": 782,
+  "MainProviderName": "Bashirian-Volkman",
+  "ShadowProviderName": "Beatty, Bashirian and Swaniawski",
+  "ChartKey": "reiciendis",
+  "LastLoaded": "1997-06-05T04:02:02.3317533+02:00",
+  "LastLoadedBy": 116,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-03-11T13:28:23.7885837+01:00",
-  "LastMembershipChangeBy": 48,
+  "LastMembershipChange": "1997-09-24T04:02:02.3317533+02:00",
+  "LastMembershipChangeBy": 929,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Douglas LLC",
-  "DashboardTileDefinitionId": 475,
+  "MainHeading": "omnis",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "VonRueden, Runte and Lockman",
+  "DashboardTileDefinitionId": 253,
   "VisibleFor": [
     {
-      "VisibleId": 261,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldLength": 619
         }
       }
     },
     {
-      "VisibleId": 261,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldLength": 619
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 696
     }
   }
 }

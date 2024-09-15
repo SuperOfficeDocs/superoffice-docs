@@ -2,10 +2,10 @@
 uid: table-IntentGroupLink
 title: IntentGroupLink table
 description: User group link table for Intent, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table IntentGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # IntentGroupLink Table (217)

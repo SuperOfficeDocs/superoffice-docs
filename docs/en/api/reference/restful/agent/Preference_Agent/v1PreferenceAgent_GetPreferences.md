@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "et",
-      "Key": "vel"
+      "Section": "quidem",
+      "Key": "facilis"
     },
     {
-      "Section": "et",
-      "Key": "vel"
+      "Section": "quidem",
+      "Key": "facilis"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "libero",
+    "RawValue": "ut",
     "Specification": null,
-    "DisplayValue": "tenetur",
-    "DisplayTooltip": "non",
+    "DisplayValue": "voluptas",
+    "DisplayTooltip": "sit",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 988,
-    "PrefDescId": 973,
-    "TableName": "Rogahn Inc and Sons",
-    "UserPreferenceId": 709,
+    "TargetId": 376,
+    "PrefDescId": 552,
+    "TableName": "Torphy, Crooks and Mills",
+    "UserPreferenceId": 612,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 859
       }
     }
   }

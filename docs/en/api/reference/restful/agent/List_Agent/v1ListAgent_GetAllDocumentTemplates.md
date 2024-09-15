@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 712,
-    "Name": "Mann, Jones and Christiansen",
-    "Tooltip": "sunt",
-    "SaveInDb": 127,
-    "Filename": "harum",
-    "DefaultOref": "ipsa",
+    "DocumentTemplateId": 897,
+    "Name": "Armstrong, Ruecker and Zemlak",
+    "Tooltip": "libero",
+    "SaveInDb": 360,
+    "Filename": "voluptas",
+    "DefaultOref": "corrupti",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 912,
-    "IntentId": 188,
-    "IsDefaultPublished": false,
-    "Rank": 794,
-    "LoadTemplateFromPlugin": 333,
-    "MimeType": "debitis",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 837,
+    "AutoeventId": 202,
+    "IntentId": 22,
+    "IsDefaultPublished": true,
+    "Rank": 187,
+    "LoadTemplateFromPlugin": 426,
+    "MimeType": "eos",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 933,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "rylee_orn@leffler.info",
+    "EmailSubject": "blaise@hackett.com",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "tressie@corkery.biz",
+    "SenderEmailAddress": "pearlie_dibbert@casperwisozk.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 245
       }
     }
   }

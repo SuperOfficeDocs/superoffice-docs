@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Jerde Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 701,
-  "Rank": 352,
+  "Id": 63,
+  "Name": "Abshire, Shanahan and Fisher",
+  "Tooltip": "ullam",
+  "Deleted": true,
+  "UdListDefinitionId": 413,
+  "Rank": 484,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 460
     }
   }
 }

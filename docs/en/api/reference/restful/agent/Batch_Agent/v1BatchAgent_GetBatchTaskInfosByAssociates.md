@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    293,
-    549
+    437,
+    207
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Nitzsche-Wisoky",
-    "AssociateId": 943,
-    "DetailsTable": 779,
-    "DetailsRecord": 154,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 640,
+    "Name": "Bogan, Hyatt and Mayer",
+    "AssociateId": 399,
+    "DetailsTable": 274,
+    "DetailsRecord": 752,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "commodi"
+      "ParameterObject1": "commodi",
+      "ParameterObject2": "repudiandae"
     },
-    "LastStarted": "2005-11-18T13:28:21.8512599+01:00",
-    "Created": "2024-03-23T13:28:21.8512599+01:00",
-    "StartCount": 517,
-    "DatabaseSerialNumber": "555250",
-    "Context": "voluptatibus",
-    "Result": "corporis",
+    "LastStarted": "2005-04-03T04:02:01.221786+02:00",
+    "Created": "2016-04-14T04:02:01.221786+02:00",
+    "StartCount": 513,
+    "DatabaseSerialNumber": "984820",
+    "Context": "quos",
+    "Result": "ut",
     "State": "All",
-    "Description": "Fully-configurable human-resource ability",
-    "Response": "ut",
-    "Request": "asperiores",
-    "ProgressDescription": "Centralized didactic open architecture",
-    "ProgressPercent": 245,
-    "FileName": "Runolfsson, Botsford and Mitchell",
+    "Description": "Persevering impactful support",
+    "Response": "aut",
+    "Request": "harum",
+    "ProgressDescription": "Sharable incremental productivity",
+    "ProgressPercent": 586,
+    "FileName": "Cummings-Dach",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 967
       }
     }
   }

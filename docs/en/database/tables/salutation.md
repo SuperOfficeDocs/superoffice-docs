@@ -2,10 +2,10 @@
 uid: table-Salutation
 title: Salutation table
 description: Academic title for Person
-generated: true
+so.generated: true
 keywords: database table Salutation
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Salutation Table (219)

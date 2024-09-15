@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bechtelar-Friesen"
+  "ApplicationName": "Streich-Denesik"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aliquam",
-    "Value": "iste",
-    "RecordId": 904,
-    "CreatedDate": "2009-12-16T13:28:22.866653+01:00",
-    "UpdatedDate": "2000-05-27T13:28:22.866653+02:00",
-    "UpdatedBy": "quae",
-    "CreatedBy": "deleniti",
-    "TableName": "Schimmel-Ledner",
+    "Key": "totam",
+    "Value": "quos",
+    "RecordId": 28,
+    "CreatedDate": "2008-10-22T04:02:01.8003604+02:00",
+    "UpdatedDate": "2007-07-13T04:02:01.8003604+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "similique",
+    "TableName": "McDermott-Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 132
       }
     }
   }

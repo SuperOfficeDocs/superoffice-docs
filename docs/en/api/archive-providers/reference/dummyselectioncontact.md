@@ -313,6 +313,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -429,12 +431,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/associateDbId|associate|ID| x |
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
-|document/documentUdef/SuperOffice:3|int|documentnumber| x |
-|document/documentUdef/SuperOffice:4|date|documentdate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/documentUdef/SuperOffice:3|int|documentnumber| x |
+|document/documentUdef/SuperOffice:4|date|documentdate| x |
 |document/documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
 |document/documentUdef/SuperOffice:6|bool|documentcheckbox| x |
 |document/documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
@@ -549,7 +551,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=deletedDate,targetRelation/nameDepartment,targetRelation/updatedDate
+GET /api/v1/archive/DummySelectionContact?$select=contactExtra/x_contact_default_integer,contactExtra/x_contact_datetime,sale/activeErpLinks,sale/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

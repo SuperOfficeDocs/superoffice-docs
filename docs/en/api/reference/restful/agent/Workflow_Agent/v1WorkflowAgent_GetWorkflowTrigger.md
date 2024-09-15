@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=558
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=165
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 223,
-  "WorkflowId": 412,
+  "WorkflowTriggerId": 879,
+  "WorkflowId": 565,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Mayert, Kautzer and Prohaska",
-      "Description": "Visionary object-oriented time-frame",
-      "Rank": 53,
+      "Name": "West-Durgan",
+      "Description": "Enterprise-wide tertiary budgetary management",
+      "Rank": 802,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mayert, Kautzer and Prohaska",
-      "Description": "Visionary object-oriented time-frame",
-      "Rank": 53,
+      "Name": "West-Durgan",
+      "Description": "Enterprise-wide tertiary budgetary management",
+      "Rank": 802,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 160
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-SORTemplate
 title: SORTemplate table
 description: SuperOffice reporter data
-generated: true
+so.generated: true
 keywords: database table SORTemplate
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SORTemplate Table (173)

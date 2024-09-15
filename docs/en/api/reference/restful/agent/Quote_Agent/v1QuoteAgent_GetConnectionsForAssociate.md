@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 522
+  "AssociateId": 131
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 544,
-    "ERPName": "Grant, Schamberger and Jones",
-    "DisplayName": "Strosin, Weimann and Raynor",
-    "DisplayDescription": "Function-based next generation benchmark",
-    "Rank": 776,
-    "ConnectorName": "Lowe, Kuphal and Dooley",
-    "ErpConnectionId": 886,
-    "ExtraData": "incidunt",
-    "IsAvailable": false,
+    "QuoteConnectionId": 105,
+    "ERPName": "Rice Group",
+    "DisplayName": "Feest, Herzog and Zboncak",
+    "DisplayDescription": "Reverse-engineered disintermediate time-frame",
+    "Rank": 281,
+    "ConnectorName": "Lebsack LLC",
+    "ErpConnectionId": 369,
+    "ExtraData": "est",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 613,
-        "ERPPriceListKey": "eaque",
-        "QuoteConnectionId": 479,
-        "Name": "Tremblay, Stoltenberg and Larkin",
-        "Description": "Monitored tertiary budgetary management",
-        "Currency": "aut",
-        "CurrencyName": "Tillman-Smith",
-        "ValidFrom": "2019-10-01T13:28:23.5698866+02:00",
-        "ValidTo": "2001-07-20T13:28:23.5698866+02:00",
+        "PriceListId": 261,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 514,
+        "Name": "Macejkovic LLC",
+        "Description": "Persevering bi-directional knowledge user",
+        "Currency": "in",
+        "CurrencyName": "Kemmer-Koelpin",
+        "ValidFrom": "2023-12-28T04:02:02.2065837+01:00",
+        "ValidTo": "2021-03-24T04:02:02.2065837+01:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 167
+            "FieldType": "System.Int32",
+            "FieldLength": 473
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      703,
-      771
+      982,
+      529
     ],
     "AssociateAccessIds": [
-      876,
-      880
+      766,
+      803
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 813
       }
     }
   }

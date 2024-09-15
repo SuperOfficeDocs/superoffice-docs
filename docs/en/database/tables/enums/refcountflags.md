@@ -2,10 +2,10 @@
 uid: enum-refcountflags
 title: Enum values for RefcountFlags
 description: Lists the enum values for RefcountFlags.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # RefcountFlags Enum

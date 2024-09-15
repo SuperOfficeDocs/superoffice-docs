@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 840
+  "DocumentId": 67
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Spencer Group",
-  "Type": "est",
-  "Size": 156,
+  "Name": "Hahn-Rodriguez",
+  "Type": "repellendus",
+  "Size": 690,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 499
     }
   }
 }

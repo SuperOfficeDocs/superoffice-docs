@@ -2,10 +2,10 @@
 uid: table-reply_template_body
 title: reply_template_body table
 description: Contains the body of the reply templates in different languages
-generated: true
+so.generated: true
 keywords: database table reply_template_body
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # reply\_template\_body Table (279)

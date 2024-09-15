@@ -2,10 +2,10 @@
 uid: table-selection
 title: selection table
 description: Selections
-generated: true
+so.generated: true
 keywords: database table selection
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # selection Table (23)

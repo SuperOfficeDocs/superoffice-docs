@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "eius"
+  "FileContent": "quidem"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 875,
-      "NumberOfLicensesFree": 429,
-      "NumberOfLicensesAdded": 660,
-      "NumberOfLicensesNewTotal": 571,
-      "NumberOfLicensesNewFree": 678,
-      "NumberOfLicensesTotal": 851
+      "NumberOfLicensesInUse": 730,
+      "NumberOfLicensesFree": 32,
+      "NumberOfLicensesAdded": 773,
+      "NumberOfLicensesNewTotal": 611,
+      "NumberOfLicensesNewFree": 120,
+      "NumberOfLicensesTotal": 46
     }
   ],
-  "AccumulatedNextCheckDate": "2024-04-01T13:28:22.8835934+02:00"
+  "AccumulatedNextCheckDate": "2017-09-15T04:02:01.8003604+02:00"
 }
 ```

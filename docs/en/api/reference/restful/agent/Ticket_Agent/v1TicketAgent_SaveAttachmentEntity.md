@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 207,
-  "Name": "Kris-Cruickshank",
-  "ContentType": "eos",
-  "AttSize": 641,
-  "InlineImage": false,
-  "ContentId": "iste",
-  "AuthKey": "ea",
-  "IsSafeFileExtension": true
+  "AttachmentId": 938,
+  "Name": "Renner LLC",
+  "ContentType": "ut",
+  "AttSize": 974,
+  "InlineImage": true,
+  "ContentId": "perferendis",
+  "AuthKey": "et",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 91,
-  "Name": "Harvey Group",
-  "ContentType": "sit",
-  "AttSize": 86,
+  "AttachmentId": 845,
+  "Name": "Prosacco-Rodriguez",
+  "ContentType": "nobis",
+  "AttSize": 393,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "laudantium",
+  "ContentId": "nihil",
+  "AuthKey": "tempora",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 388
     }
   }
 }

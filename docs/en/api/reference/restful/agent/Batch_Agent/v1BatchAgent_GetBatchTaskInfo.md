@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353
+  "Id": 188
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Name": "Hegmann, Larkin and Howe",
-  "AssociateId": 64,
-  "DetailsTable": 191,
-  "DetailsRecord": 92,
+  "Id": 245,
+  "Name": "Hermiston Inc and Sons",
+  "AssociateId": 559,
+  "DetailsTable": 112,
+  "DetailsRecord": 36,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "saepe",
-    "ParameterObject2": "ratione"
+    "ParameterObject1": "deleniti",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2019-12-02T13:28:21.8512599+01:00",
-  "Created": "2018-09-10T13:28:21.8512599+02:00",
-  "StartCount": 87,
-  "DatabaseSerialNumber": "894087",
-  "Context": "exercitationem",
-  "Result": "inventore",
+  "LastStarted": "2005-10-07T04:02:01.221786+02:00",
+  "Created": "2011-06-28T04:02:01.221786+02:00",
+  "StartCount": 910,
+  "DatabaseSerialNumber": "962776",
+  "Context": "expedita",
+  "Result": "vel",
   "State": "All",
-  "Description": "Up-sized uniform extranet",
-  "Response": "nemo",
-  "Request": "labore",
-  "ProgressDescription": "Networked 5th generation core",
-  "ProgressPercent": 41,
-  "FileName": "Mayert Group",
+  "Description": "Open-architected human-resource model",
+  "Response": "ipsum",
+  "Request": "porro",
+  "ProgressDescription": "Synergized coherent installation",
+  "ProgressPercent": 693,
+  "FileName": "Spencer LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 392
     }
   }
 }

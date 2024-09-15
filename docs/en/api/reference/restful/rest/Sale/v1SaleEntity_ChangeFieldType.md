@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 318,
-  "ColumnId": 57,
-  "FieldDefault": "quidem",
-  "FieldHeight": 128,
-  "FieldLabel": "aut",
-  "FieldLeft": 796,
-  "FieldTop": 511,
+  "UDefFieldId": 995,
+  "ColumnId": 127,
+  "FieldDefault": "quia",
+  "FieldHeight": 792,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 543,
+  "FieldTop": 161,
   "FieldType": "Checkbox",
-  "FieldWidth": 815,
-  "FormatMask": "aspernatur",
+  "FieldWidth": 53,
+  "FormatMask": "odit",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 876,
-  "LabelLeft": 334,
-  "LabelTop": 58,
-  "LabelWidth": 261,
-  "LastVersionId": 843,
-  "ListTableId": 221,
+  "IsIndexed": true,
+  "LabelHeight": 804,
+  "LabelLeft": 128,
+  "LabelTop": 357,
+  "LabelWidth": 776,
+  "LastVersionId": 532,
+  "ListTableId": 283,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 489,
-  "ProgId": "aperiam",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 754,
-  "TextLength": 425,
-  "Tooltip": "nostrum",
-  "UdefIdentity": 582,
-  "UDListDefinitionId": 793,
+  "Page1LineNo": 582,
+  "ProgId": "culpa",
+  "IsReadOnly": false,
+  "ShortLabel": "explicabo",
+  "TabOrder": 172,
+  "TextLength": 207,
+  "Tooltip": "rem",
+  "UdefIdentity": 201,
+  "UDListDefinitionId": 10,
   "Justification": "Center",
-  "Version": 328,
-  "TemplateVariableName": "Hermiston, Padberg and Beier",
-  "HasBeenPublished": true,
-  "MdoListName": "Green-Anderson",
+  "Version": 585,
+  "TemplateVariableName": "Gusikowski, Smitham and Stanton",
+  "HasBeenPublished": false,
+  "MdoListName": "Hermann, Watsica and Hoeger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 664
     }
   }
 }

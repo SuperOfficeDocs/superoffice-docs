@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 787,
-  "Name": "Spencer Inc and Sons",
-  "Description": "Monitored zero administration utilisation",
-  "WelcomeMessage": "incidunt",
+  "ChatTopicId": 115,
+  "Name": "Kreiger Group",
+  "Description": "Enterprise-wide upward-trending circuit",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2005-09-18T13:28:21.9293697+02:00",
-  "SecondsPrAccept": 444,
-  "AlertRecipient": "et",
+  "LastAccept": "2023-05-01T04:02:01.3467779+02:00",
+  "SecondsPrAccept": 963,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "non",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 993,
-  "WarnManagerNewChatMinutes": 687,
+  "CollectConsent": false,
+  "BadgeHeader": "occaecati",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "error",
+  "WarnNewChatMinutes": 905,
+  "WarnManagerNewChatMinutes": 294,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 255,
-  "WarnManagerChatMessageMinutes": 957,
+  "WarnChatMessageMinutes": 178,
+  "WarnManagerChatMessageMinutes": 502,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 15,
-  "OfflineFormQueueLength": 662,
+  "OfflineFormTimeLimit": 803,
+  "OfflineFormQueueLength": 81,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nihil"
+  "WidgetRatingText": "sit"
 }
 ```
 
@@ -168,21 +168,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 842,
-  "Name": "Reilly-Roberts",
-  "Description": "Reverse-engineered client-driven emulation",
-  "WelcomeMessage": "soluta",
+  "ChatTopicId": 473,
+  "Name": "Hirthe-Wolff",
+  "Description": "Realigned well-modulated instruction set",
+  "WelcomeMessage": "enim",
   "Language": null,
-  "LastAccept": "2006-08-01T13:28:21.9293697+02:00",
-  "SecondsPrAccept": 404,
-  "AlertRecipient": "tenetur",
+  "LastAccept": "2021-09-18T04:02:01.3467779+02:00",
+  "SecondsPrAccept": 102,
+  "AlertRecipient": "nulla",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "eum",
+  "BadgeHeader": "dolores",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ex",
-  "WarnNewChatMinutes": 373,
-  "WarnManagerNewChatMinutes": 455,
+  "CustomQueueText": "sed",
+  "WarnNewChatMinutes": 353,
+  "WarnManagerNewChatMinutes": 239,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -192,19 +192,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 621,
-  "WarnManagerChatMessageMinutes": 887,
+  "WarnChatMessageMinutes": 860,
+  "WarnManagerChatMessageMinutes": 233,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 891,
-  "OfflineFormQueueLength": 517,
+  "OfflineFormTimeLimit": 674,
+  "OfflineFormQueueLength": 928,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "deserunt",
+  "WidgetRatingText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "laborum",
-  "Children": true
+  "Path": "omnis",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 64,
+  "HierarchyId": 586,
   "Domain": "Dashboards",
-  "Name": "Lynch Inc and Sons",
-  "Fullname": "distinctio",
+  "Name": "Emard-Dooley",
+  "Fullname": "officia",
   "ParentId": 881,
   "Children": [
     {
-      "HierarchyId": 335,
+      "HierarchyId": 870,
       "Domain": "Dashboards",
-      "Name": "Collier Inc and Sons",
-      "Fullname": "consequuntur",
-      "ParentId": 899,
+      "Name": "Wilderman-Wiza",
+      "Fullname": "ut",
+      "ParentId": 245,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-09-21T13:28:22.9918891+02:00",
-      "RegisteredAssociateId": 618,
-      "Updated": "2015-11-24T13:28:22.9918891+01:00",
-      "UpdatedAssociateId": 282,
+      "Registered": "2009-02-01T04:02:01.8628574+01:00",
+      "RegisteredAssociateId": 594,
+      "Updated": "2004-02-16T04:02:01.8628574+01:00",
+      "UpdatedAssociateId": 683,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 404
         }
       }
     }
   ],
-  "Registered": "2009-06-17T13:28:22.9918891+02:00",
-  "RegisteredAssociateId": 911,
-  "Updated": "2017-11-05T13:28:22.9918891+01:00",
-  "UpdatedAssociateId": 498,
+  "Registered": "2018-01-23T04:02:01.8628574+01:00",
+  "RegisteredAssociateId": 856,
+  "Updated": "2019-12-28T04:02:01.8628574+01:00",
+  "UpdatedAssociateId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldLength": 354
     }
   }
 }

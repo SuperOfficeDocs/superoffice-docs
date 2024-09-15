@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "est"
+  "RedirectUri": "praesentium"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "deserunt",
-  "RedirectUri": "minus",
+  "ClientId": "sunt",
+  "RedirectUri": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 96
     }
   }
 }

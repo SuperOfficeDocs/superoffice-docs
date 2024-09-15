@@ -2,10 +2,10 @@
 uid: enum-designtype
 title: Enum values for DesignType
 description: Lists the enum values for DesignType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DesignType Enum

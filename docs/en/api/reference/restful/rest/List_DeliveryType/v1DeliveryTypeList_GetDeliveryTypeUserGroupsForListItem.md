@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Auer Group",
-    "ToolTip": "Consequuntur unde.",
+    "Id": 846,
+    "Name": "Crona Inc and Sons",
+    "ToolTip": "Aut harum.",
     "Deleted": false,
-    "Rank": 143,
-    "Type": "sequi",
-    "ColorBlock": 80,
-    "IconHint": "sed",
+    "Rank": 479,
+    "Type": "molestiae",
+    "ColorBlock": 156,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2011-12-14T13:28:32.8197387+01:00",
+    "LastChanged": "2004-11-06T04:02:07.2440841+01:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Bins, Weimann and Heathcote",
-        "ToolTip": "Dicta eaque autem dignissimos et et voluptatem natus.",
-        "Deleted": false,
-        "Rank": 309,
-        "Type": "praesentium",
-        "ColorBlock": 327,
-        "IconHint": "dolore",
-        "Selected": true,
-        "LastChanged": "2003-06-22T13:28:32.8197387+02:00",
+        "Id": 571,
+        "Name": "Hoppe-Buckridge",
+        "ToolTip": "Adipisci est perspiciatis molestias.",
+        "Deleted": true,
+        "Rank": 568,
+        "Type": "dicta",
+        "ColorBlock": 873,
+        "IconHint": "perspiciatis",
+        "Selected": false,
+        "LastChanged": "2021-04-26T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Kenya Metz",
+        "ExtraInfo": "rem",
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Susan Marcel Roob DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 177
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "ullam",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Ms. Lolita Kub",
+    "FullName": "Nikita Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 519
       }
     }
   }

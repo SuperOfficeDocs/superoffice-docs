@@ -2,10 +2,10 @@
 uid: table-invoice_type
 title: invoice_type table
 description: A invoiceable item category (a product or service) that provides default invoice line values
-generated: true
+so.generated: true
 keywords: database table invoice_type
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # invoice\_type Table (361)

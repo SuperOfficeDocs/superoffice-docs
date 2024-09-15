@@ -107,32 +107,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Johnston, Bradtke and Harber",
+  "ProviderName": "Lubowitz LLC",
   "Columns": [
-    "dolor",
-    "dolorem"
+    "non",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "O'Keefe Group",
+      "Name": "Bechtelar, Armstrong and Haag",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Keefe Group",
+      "Name": "Bechtelar, Armstrong and Haag",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lueilwitz-Grady",
-      "Operator": "et",
+      "Name": "Koelpin Group",
+      "Operator": "earum",
       "Values": [
-        "dolores",
-        "non"
+        "sit",
+        "nulla"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "assumenda"
+        "accusamus",
+        "a"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 397,
+      "InterParenthesis": 386,
       "InterOperator": "And",
-      "UniqueHash": 176
+      "UniqueHash": 684
     }
   ],
   "Entities": [
-    "in",
-    "aut"
+    "repellendus",
+    "qui"
   ],
-  "Page": 648,
-  "PageSize": 521
+  "Page": 316,
+  "PageSize": 14
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hintz-Bahringer",
-    "PrimaryKey": 829,
+    "EntityName": "Grady-Waelchi",
+    "PrimaryKey": 229,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repellat",
-        "TooltipHint": "earum",
-        "LinkHint": "doloribus"
+        "DisplayValue": "ut",
+        "TooltipHint": "voluptatem",
+        "LinkHint": "fuga"
       }
     },
-    "LinkHint": "voluptatem",
-    "StyleHint": "nisi",
+    "LinkHint": "voluptas",
+    "StyleHint": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 536
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: enum-alldayevent
 title: Enum values for AllDayEvent
 description: Lists the enum values for AllDayEvent.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AllDayEvent Enum

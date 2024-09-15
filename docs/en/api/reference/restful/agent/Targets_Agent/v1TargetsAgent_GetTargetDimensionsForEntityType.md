@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 709,
+    "TargetDimensionId": 434,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "mollitia",
-    "DimensionListName": "Kulas Group",
-    "DimensionListId": 561,
-    "DimensionListLabel": "tenetur",
+    "DimensionListField": "voluptatem",
+    "DimensionListName": "Miller, Carroll and Parker",
+    "DimensionListId": 466,
+    "DimensionListLabel": "voluptatem",
     "SelectedDimensions": [
-      680,
-      670
+      823,
+      859
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 924
       }
     }
   }

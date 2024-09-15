@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?flat=False
 GET /api/v1/List/Business/MDOItems?query=incidunt
 ```
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Beatty Inc and Sons",
-    "ToolTip": "Neque accusantium.",
+    "Id": 34,
+    "Name": "Wilderman-Keebler",
+    "ToolTip": "Occaecati ducimus.",
     "Deleted": false,
-    "Rank": 226,
-    "Type": "et",
+    "Rank": 192,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Murazik, Gerhold and O'Connell",
-        "ToolTip": "Sint pariatur et magnam tempore.",
-        "Deleted": true,
-        "Rank": 230,
+        "Id": 31,
+        "Name": "Bednar, Dickens and Dooley",
+        "ToolTip": "Doloremque consequatur harum qui sit dolore.",
+        "Deleted": false,
+        "Rank": 394,
         "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 326,
+        "IconHint": "ut",
+        "ColorBlock": 884,
         "ExtraInfo": "est",
-        "StyleHint": "omnis",
-        "FullName": "Terence Ortiz",
+        "StyleHint": "ab",
+        "FullName": "Velva Schimmel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 626
+            "FieldType": "System.Int32",
+            "FieldLength": 185
           }
         }
       }
     ],
-    "IconHint": "error",
-    "ColorBlock": 29,
-    "ExtraInfo": "fugit",
-    "StyleHint": "qui",
-    "FullName": "Erica Effertz",
+    "IconHint": "repellat",
+    "ColorBlock": 598,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "doloribus",
+    "FullName": "Michaela O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

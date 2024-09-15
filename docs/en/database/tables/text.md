@@ -2,10 +2,10 @@
 uid: table-text
 title: text table
 description: Long text fields from all over the system
-generated: true
+so.generated: true
 keywords: database table text
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # text Table (18)

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Purdy-Grant",
-    "ToolTip": "Provident explicabo sint consequatur et assumenda.",
+    "Id": 735,
+    "Name": "Kuhn-Becker",
+    "ToolTip": "Quia vero.",
     "Deleted": true,
-    "Rank": 675,
-    "Type": "alias",
-    "ColorBlock": 813,
-    "IconHint": "perferendis",
-    "Selected": false,
-    "LastChanged": "2008-03-25T13:28:32.9915768+01:00",
+    "Rank": 20,
+    "Type": "est",
+    "ColorBlock": 395,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2009-12-27T04:02:07.337823+01:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Lang LLC",
-        "ToolTip": "Quo vero nemo tempore quasi.",
-        "Deleted": true,
-        "Rank": 386,
-        "Type": "maxime",
-        "ColorBlock": 63,
-        "IconHint": "alias",
+        "Id": 941,
+        "Name": "Krajcik, Schmitt and Macejkovic",
+        "ToolTip": "Tempora quo consequuntur distinctio quam.",
+        "Deleted": false,
+        "Rank": 473,
+        "Type": "similique",
+        "ColorBlock": 364,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2017-03-17T13:28:32.9915768+01:00",
+        "LastChanged": "2013-11-17T04:02:07.337823+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Chloe Grady",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Adolphus Carter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldType": "System.String",
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Dayna Treutel",
+    "ExtraInfo": "neque",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Stacey Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 693
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 997,
-  "CurrencyId": 157
+  "QuoteConnectionId": 240,
+  "CurrencyId": 644
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 784,
-    "ERPPriceListKey": "sint",
-    "QuoteConnectionId": 168,
-    "Name": "Trantow, Legros and Leannon",
-    "Description": "Triple-buffered optimal initiative",
-    "Currency": "sunt",
-    "CurrencyName": "Rosenbaum Group",
-    "ValidFrom": "2024-05-21T13:28:23.5698866+02:00",
-    "ValidTo": "2017-06-03T13:28:23.5698866+02:00",
+    "PriceListId": 418,
+    "ERPPriceListKey": "maxime",
+    "QuoteConnectionId": 381,
+    "Name": "Reichel LLC",
+    "Description": "Re-contextualized bifurcated focus group",
+    "Currency": "eum",
+    "CurrencyName": "Rice Inc and Sons",
+    "ValidFrom": "2008-04-28T04:02:02.2065837+02:00",
+    "ValidTo": "2021-05-02T04:02:02.2065837+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 248
       }
     }
   }

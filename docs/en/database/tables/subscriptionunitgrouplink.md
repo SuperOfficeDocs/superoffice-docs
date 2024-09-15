@@ -2,10 +2,10 @@
 uid: table-SubscriptionUnitGroupLink
 title: SubscriptionUnitGroupLink table
 description: User group link table for SubscriptionUnit, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table SubscriptionUnitGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SubscriptionUnitGroupLink Table (443)

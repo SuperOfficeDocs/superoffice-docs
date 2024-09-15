@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 997,
-  "Name": "Koepp LLC",
+  "ScreenChooserId": 755,
+  "Name": "Parisian, Marquardt and Oberbrunner",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "atque",
-  "Registered": "2011-10-18T13:28:22.3511449+02:00",
-  "RegisteredAssociateId": 825,
-  "Updated": "2001-04-18T13:28:22.3511449+02:00",
-  "UpdatedAssociateId": 626,
+  "Enabled": true,
+  "UniqueIdentifier": "atque",
+  "Source": "corrupti",
+  "Registered": "2009-06-12T04:02:01.5186345+02:00",
+  "RegisteredAssociateId": 378,
+  "Updated": "2013-06-02T04:02:01.5186345+02:00",
+  "UpdatedAssociateId": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 853
     }
   }
 }

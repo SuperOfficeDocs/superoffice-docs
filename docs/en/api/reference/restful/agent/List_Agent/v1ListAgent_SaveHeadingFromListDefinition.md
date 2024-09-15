@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
+  "Id": 3,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 807,
-  "Name": "Treutel-Beatty",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 561,
-  "UdListDefinitionId": 665,
+  "HeadingId": 478,
+  "Name": "Ledner, Homenick and Bernhard",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 383,
+  "UdListDefinitionId": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

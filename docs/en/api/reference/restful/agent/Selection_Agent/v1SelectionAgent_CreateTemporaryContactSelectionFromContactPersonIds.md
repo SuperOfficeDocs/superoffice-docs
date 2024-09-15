@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 996,
-      "ContactId": 80
+      "PersonId": 272,
+      "ContactId": 503
     },
     {
-      "PersonId": 996,
-      "ContactId": 80
+      "PersonId": 272,
+      "ContactId": 503
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots executive focus group",
-  "Postit": "repellendus",
+  "Description": "Devolved well-modulated structure",
+  "Postit": "sequi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 834,
-  "IncludePerson": 934,
+  "GroupIdx": 464,
+  "IncludePerson": 747,
   "MemberCount": 99.99,
-  "Name": "Breitenberg-Macejkovic",
-  "PostitTextId": 795,
-  "CreatedDate": "2023-02-03T13:28:23.7417186+01:00",
-  "SelectionId": 688,
-  "SoundEx": "omnis",
-  "Source": 298,
-  "TextId": 825,
-  "UpdatedDate": "2018-08-12T13:28:23.7417186+02:00",
-  "UpdatedCount": 218,
-  "Visibility": 455,
+  "Name": "Fay, Jacobs and Shanahan",
+  "PostitTextId": 740,
+  "CreatedDate": "2002-08-26T04:02:02.31613+02:00",
+  "SelectionId": 205,
+  "SoundEx": "nisi",
+  "Source": 305,
+  "TextId": 53,
+  "UpdatedDate": "2000-08-18T04:02:02.31613+02:00",
+  "UpdatedCount": 921,
+  "Visibility": 688,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 809,
-  "TargetTableName": "Mertz-Ritchie",
-  "Completed": true,
-  "LeftSelectionId": 483,
-  "RightSelectionId": 844,
+  "CompanyUnique": true,
+  "TargetTableNumber": 951,
+  "TargetTableName": "Abernathy, Altenwerth and Goldner",
+  "Completed": false,
+  "LeftSelectionId": 622,
+  "RightSelectionId": 290,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haley LLC",
-  "ShadowProviderName": "Terry-Marquardt",
-  "ChartKey": "fugiat",
-  "LastLoaded": "1997-12-17T13:28:23.7417186+01:00",
-  "LastLoadedBy": 34,
+  "MainProviderName": "Thiel-Franecki",
+  "ShadowProviderName": "Kozey-O'Hara",
+  "ChartKey": "qui",
+  "LastLoaded": "2015-12-13T04:02:02.31613+01:00",
+  "LastLoadedBy": 559,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-03-09T13:28:23.7417186+01:00",
-  "LastMembershipChangeBy": 124,
+  "LastMembershipChange": "2017-04-29T04:02:02.31613+02:00",
+  "LastMembershipChangeBy": 236,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eveniet",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Brown, Hane and Zieme",
-  "DashboardTileDefinitionId": 111,
+  "MainHeading": "ratione",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Waters Inc and Sons",
+  "DashboardTileDefinitionId": 231,
   "VisibleFor": [
     {
-      "VisibleId": 833,
+      "VisibleId": 701,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 964
         }
       }
     },
     {
-      "VisibleId": 833,
+      "VisibleId": 701,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 964
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

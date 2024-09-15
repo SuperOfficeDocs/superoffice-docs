@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 625,
-  "Name": "Kreiger Group",
-  "Tooltip": "consectetur",
-  "Deleted": false,
-  "UdListDefinitionId": 8,
-  "Rank": 450,
+  "Id": 945,
+  "Name": "Spinka, Lebsack and Braun",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 961,
+  "Rank": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 939
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-doc_folder
 title: doc_folder table
 description: A document folder.
-generated: true
+so.generated: true
 keywords: database table doc_folder
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # doc\_folder Table (281)

@@ -2,10 +2,10 @@
 uid: table-profile
 title: profile table
 description: Deprecated. This table contains entries for the user profiles.
-generated: true
+so.generated: true
 keywords: database table profile
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # profile Table (329)

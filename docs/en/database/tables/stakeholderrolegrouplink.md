@@ -2,10 +2,10 @@
 uid: table-StakeholderRoleGroupLink
 title: StakeholderRoleGroupLink table
 description: User group link table for StakeholderRole, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table StakeholderRoleGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # StakeholderRoleGroupLink Table (123)

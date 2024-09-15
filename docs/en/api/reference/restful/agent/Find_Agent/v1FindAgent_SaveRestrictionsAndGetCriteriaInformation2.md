@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Marks Group",
-  "StorageKey": "delectus",
-  "Restrictions": "rerum",
-  "StaticColumns": "mollitia"
+  "StorageType": "quis",
+  "ProviderName": "Grimes, Dietrich and Maggio",
+  "StorageKey": "commodi",
+  "Restrictions": "maxime",
+  "StaticColumns": "minima"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Koss-Hilll",
-      "Operator": "rem",
+      "Name": "Sawayn-Wilkinson",
+      "Operator": "magni",
       "Values": [
-        "dignissimos",
-        "dolorem"
+        "blanditiis",
+        "ut"
       ],
       "DisplayValues": [
-        "sunt",
-        "sed"
+        "praesentium",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 368,
+      "InterParenthesis": 948,
       "InterOperator": "And",
-      "UniqueHash": 848
+      "UniqueHash": 688
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Zemlak, Bosco and Sanford",
-      "DisplayTooltip": "est",
-      "DisplayType": "odit",
+      "DisplayName": "Spinka, Buckridge and Schoen",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "officia",
       "CanOrderBy": false,
-      "Name": "Vandervort-Ortiz",
+      "Name": "Gerhold-Dare",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Herzog, Pfeffer and Hills",
+      "RestrictionType": "quibusdam",
+      "RestrictionListName": "Mante, Weissnat and Stehr",
       "IsVisible": false,
-      "ExtraInfo": "ab",
-      "Width": "qui",
-      "IconHint": "qui",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "molestiae",
+      "Width": "aliquid",
+      "IconHint": "ab",
+      "HeadingIconHint": "vel"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Steuber-Block",
-      "PrimaryKey": 13,
+      "EntityName": "Heaney LLC",
+      "PrimaryKey": 857,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "consequatur",
-          "LinkHint": "ullam"
+          "DisplayValue": "sit",
+          "TooltipHint": "et",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "veniam",
+      "LinkHint": "nisi",
+      "StyleHint": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldLength": 110
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Veum Group",
-      "Description": "Focused transitional monitoring",
-      "Rank": 122,
+      "Name": "Smitham Group",
+      "Description": "Pre-emptive assymetric core",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Veum Group",
-      "Description": "Focused transitional monitoring",
-      "Rank": 122,
+      "Name": "Smitham Group",
+      "Description": "Pre-emptive assymetric core",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 929
     }
   }
 }

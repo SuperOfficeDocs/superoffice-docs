@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Erdman Group",
-  "DeviceName": "Kirlin-Rodriguez",
-  "DeviceIdentifier": "dolores"
+  "ApplicationName": "Barton, Koepp and Connelly",
+  "DeviceName": "Nicolas Inc and Sons",
+  "DeviceIdentifier": "sed"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "facere",
-  "Value": "quae",
-  "RecordId": 552,
-  "CreatedDate": "1997-11-18T13:28:22.8510314+01:00",
-  "UpdatedDate": "2010-07-19T13:28:22.8510314+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "nihil",
-  "TableName": "Hammes, Cassin and Yost",
+  "Key": "iste",
+  "Value": "qui",
+  "RecordId": 445,
+  "CreatedDate": "2010-03-26T04:02:01.8003604+01:00",
+  "UpdatedDate": "2008-11-21T04:02:01.8003604+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "fuga",
+  "TableName": "Fahey, Abshire and Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 939,
-  "StripAttachments": false
+  "FolderId": 873,
+  "StripAttachments": true
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"alejandrin_labadie@zboncak.info"
+"jerald@abbott.com"
 ```

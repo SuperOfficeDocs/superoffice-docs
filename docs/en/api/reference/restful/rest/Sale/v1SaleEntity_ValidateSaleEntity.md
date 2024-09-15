@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "expedita",
+  "SaleText": "consectetur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-11-12T13:28:32.1948816+01:00",
-  "Amount": 5998.476,
-  "SaleId": 999,
-  "Earning": 30644.252,
-  "EarningPercent": 6622.142,
-  "Heading": "eum",
-  "Number": "1387608",
-  "Probability": 658,
-  "CreatedDate": "2013-05-29T13:28:32.1948816+02:00",
-  "UpdatedDate": "2002-08-05T13:28:32.1948816+02:00",
+  "Saledate": "2019-10-25T04:02:06.806628+02:00",
+  "Amount": 23724.38,
+  "SaleId": 563,
+  "Earning": 4860.834,
+  "EarningPercent": 23417.248,
+  "Heading": "consequuntur",
+  "Number": "579942",
+  "Probability": 760,
+  "CreatedDate": "2004-04-13T04:02:06.806628+02:00",
+  "UpdatedDate": "2018-05-01T04:02:06.806628+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 846,
+  "ActiveLinks": 673,
   "Links": [
     {
-      "EntityName": "Price-Rowe",
-      "Id": 100,
-      "Description": "Secured directional artificial intelligence",
-      "ExtraInfo": "minus",
-      "LinkId": 328
+      "EntityName": "Hessel-Bradtke",
+      "Id": 243,
+      "Description": "Total hybrid benchmark",
+      "ExtraInfo": "numquam",
+      "LinkId": 407
     },
     {
-      "EntityName": "Price-Rowe",
-      "Id": 100,
-      "Description": "Secured directional artificial intelligence",
-      "ExtraInfo": "minus",
-      "LinkId": 328
+      "EntityName": "Hessel-Bradtke",
+      "Id": 243,
+      "Description": "Total hybrid benchmark",
+      "ExtraInfo": "numquam",
+      "LinkId": 407
     }
   ],
-  "NextDueDate": "2015-02-16T13:28:32.1948816+01:00",
-  "Postit": "autem",
+  "NextDueDate": "2008-02-05T04:02:06.806628+01:00",
+  "Postit": "rerum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-10-13T13:28:32.1948816+02:00",
+  "ReopenDate": "2018-02-12T04:02:06.806628+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jacobs-Harvey",
-      "Comment": "quis",
-      "StakeholderRoleId": 173,
-      "CountryId": 120,
-      "PersonId": 79,
-      "EmailDescription": "jackson@schaefer.uk",
-      "EmailId": 986,
-      "EmailAddress": "jasmin.lubowitz@west.ca",
-      "PhoneId": 534,
-      "ContactName": "Bahringer LLC",
-      "ContactId": 561,
-      "SaleId": 447,
-      "Mrmrs": "consectetur",
-      "Firstname": "Hardy",
-      "MiddleName": "Schamberger, Jerde and Rolfson",
-      "Lastname": "White",
-      "SaleStakeholderId": 579,
-      "Rank": 376,
-      "Phone": "(088)294-8154 x143"
+      "StakeholderRoleName": "Olson-Herman",
+      "Comment": "quia",
+      "StakeholderRoleId": 196,
+      "CountryId": 138,
+      "PersonId": 742,
+      "EmailDescription": "caden@graham.name",
+      "EmailId": 687,
+      "EmailAddress": "nathanael_douglas@flatley.biz",
+      "PhoneId": 716,
+      "ContactName": "Koelpin-Dooley",
+      "ContactId": 998,
+      "SaleId": 489,
+      "Mrmrs": "accusantium",
+      "Firstname": "Rosie",
+      "MiddleName": "Murazik, Dibbert and Champlin",
+      "Lastname": "Dach",
+      "SaleStakeholderId": 186,
+      "Rank": 781,
+      "Phone": "1-883-401-6787 x08199"
     }
   ],
-  "ActiveErpLinks": 449,
+  "ActiveErpLinks": 759,
   "UserDefinedFields": {
-    "SuperOffice:1": "1932535010",
-    "SuperOffice:2": "412260799"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "est"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "iure"
+    "CustomFields1": "quas",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2011-11-23T13:28:32.1948816+01:00",
-  "PublishTo": "2021-12-31T13:28:32.1948816+01:00",
-  "PublishFrom": "2000-11-05T13:28:32.1948816+01:00",
+  "PublishEventDate": "2016-11-01T04:02:06.806628+01:00",
+  "PublishTo": "2020-02-18T04:02:06.806628+01:00",
+  "PublishFrom": "2012-07-08T04:02:06.806628+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 660,
+      "VisibleId": 738,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "expedita"
     },
     {
-      "VisibleId": 660,
+      "VisibleId": 738,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "expedita"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sunt",
-  "2": "sequi"
+  "1": "et",
+  "2": "necessitatibus"
 }
 ```

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schultz Inc and Sons",
+  "TableName": "Green-Hartmann",
   "Columns": [
-    "est",
+    "voluptatem",
     "et"
   ],
   "Keys": [
-    "quo",
-    "id"
+    "nemo",
+    "possimus"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "saepe",
-  "Inserts": 102,
-  "Updates": 899,
-  "Deletes": 668,
+  "Message": "voluptatem",
+  "Inserts": 502,
+  "Updates": 254,
+  "Deletes": 524,
   "RowStatus": [
     {
-      "PrimaryKey": 219,
+      "PrimaryKey": 910,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "accusantium",
-        "vel"
+        "autem",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 800
         }
       }
     },
     {
-      "PrimaryKey": 219,
+      "PrimaryKey": 910,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "accusantium",
-        "vel"
+        "autem",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 800
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldLength": 662
     }
   }
 }

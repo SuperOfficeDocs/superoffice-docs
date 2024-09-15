@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Stehr-Purdy",
-  "Tooltip": "iusto",
+  "Id": 326,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 486,
-  "IsCustomList": false,
+  "Rank": 582,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Ratke-Conroy",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 880,
+  "Id": 449,
+  "Name": "Johnston-Lakin",
+  "Tooltip": "soluta",
+  "Deleted": false,
+  "Rank": 285,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

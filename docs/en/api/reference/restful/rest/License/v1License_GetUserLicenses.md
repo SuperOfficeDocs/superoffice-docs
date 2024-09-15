@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heidenreich-Moen",
-    "Description": "Team-oriented methodical workforce",
+    "Name": "Schmitt LLC",
+    "Description": "Persevering exuding hub",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 576,
-        "Tooltip": "inventore",
-        "CanAssign": true,
-        "Free": 752,
-        "InUse": 7,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 203,
-        "Name": "Veum Group",
-        "Description": "Enhanced 6th generation flexibility",
-        "PrerequisiteModuleName": "Howell, Bednar and Hand",
-        "SortOrder": 457,
-        "ExtraFlags": 609,
+        "Unrestricted": false,
+        "Total": 671,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 118,
+        "InUse": 630,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 886,
+        "Name": "Halvorson LLC",
+        "Description": "Profound eco-centric migration",
+        "PrerequisiteModuleName": "Hand-Lang",
+        "SortOrder": 399,
+        "ExtraFlags": 180,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldLength": 219
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 8,
-        "Tooltip": "eaque",
+        "Total": 118,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 611,
-        "InUse": 522,
+        "Free": 890,
+        "InUse": 324,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 991,
-        "Name": "Lind Group",
-        "Description": "User-friendly eco-centric encryption",
-        "PrerequisiteModuleName": "Ondricka-Huels",
-        "SortOrder": 863,
-        "ExtraFlags": 50,
+        "Assigned": true,
+        "ModuleLicenseId": 559,
+        "Name": "Heller-Denesik",
+        "Description": "User-friendly optimizing monitoring",
+        "PrerequisiteModuleName": "White Group",
+        "SortOrder": 57,
+        "ExtraFlags": 30,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldType": "System.String",
+            "FieldLength": 531
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   },
   {
-    "Name": "Heidenreich-Moen",
-    "Description": "Team-oriented methodical workforce",
+    "Name": "Schmitt LLC",
+    "Description": "Persevering exuding hub",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 576,
-        "Tooltip": "inventore",
-        "CanAssign": true,
-        "Free": 752,
-        "InUse": 7,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 203,
-        "Name": "Veum Group",
-        "Description": "Enhanced 6th generation flexibility",
-        "PrerequisiteModuleName": "Howell, Bednar and Hand",
-        "SortOrder": 457,
-        "ExtraFlags": 609,
+        "Unrestricted": false,
+        "Total": 671,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 118,
+        "InUse": 630,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 886,
+        "Name": "Halvorson LLC",
+        "Description": "Profound eco-centric migration",
+        "PrerequisiteModuleName": "Hand-Lang",
+        "SortOrder": 399,
+        "ExtraFlags": 180,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldLength": 219
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 8,
-        "Tooltip": "eaque",
+        "Total": 118,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 611,
-        "InUse": 522,
+        "Free": 890,
+        "InUse": 324,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 991,
-        "Name": "Lind Group",
-        "Description": "User-friendly eco-centric encryption",
-        "PrerequisiteModuleName": "Ondricka-Huels",
-        "SortOrder": 863,
-        "ExtraFlags": 50,
+        "Assigned": true,
+        "ModuleLicenseId": 559,
+        "Name": "Heller-Denesik",
+        "Description": "User-friendly optimizing monitoring",
+        "PrerequisiteModuleName": "White Group",
+        "SortOrder": 57,
+        "ExtraFlags": 30,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldType": "System.String",
+            "FieldLength": 531
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   }

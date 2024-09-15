@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Monahan LLC"
+  "HistoryName": "Fadel-Osinski"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 17,
-    "Id": 771,
-    "HistoryName": "Ullrich, Trantow and Bosco",
-    "HistoryId": 612,
-    "AssociateId": 770,
-    "Name": "Will-Padberg",
-    "ItemInfo": "quos",
+    "Rank": 738,
+    "Id": 34,
+    "HistoryName": "Ankunding, Hauck and Predovic",
+    "HistoryId": 965,
+    "AssociateId": 820,
+    "Name": "Conroy, Rempel and Moen",
+    "ItemInfo": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 570
       }
     }
   }

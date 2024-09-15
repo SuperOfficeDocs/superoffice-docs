@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=01/17/2000 13:28:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/07/2010 13:28:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=357
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=06/15/2022 04:02:08
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/26/2002 04:02:08
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=824
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 115,
-  "ERPPriceListKey": "quod",
-  "QuoteConnectionId": 987,
-  "Name": "Emard-Baumbach",
-  "Description": "Down-sized mobile parallelism",
-  "Currency": "perspiciatis",
-  "CurrencyName": "Anderson LLC",
-  "ValidFrom": "2014-06-09T13:28:32.9447127+02:00",
-  "ValidTo": "2010-07-02T13:28:32.9447127+02:00",
+  "PriceListId": 908,
+  "ERPPriceListKey": "adipisci",
+  "QuoteConnectionId": 832,
+  "Name": "Kiehn Inc and Sons",
+  "Description": "Function-based exuding help-desk",
+  "Currency": "nesciunt",
+  "CurrencyName": "Ondricka, Padberg and Rolfson",
+  "ValidFrom": "2011-10-12T04:02:07.3065765+02:00",
+  "ValidTo": "1997-08-10T04:02:07.3065765+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

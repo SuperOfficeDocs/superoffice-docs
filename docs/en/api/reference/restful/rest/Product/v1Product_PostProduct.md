@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 338,
-  "ERPProductKey": "saepe",
+  "ProductId": 723,
+  "ERPProductKey": "voluptate",
   "ERPPriceListKey": "aut",
-  "Name": "Smitham-Ferry",
-  "Description": "Reduced upward-trending complexity",
-  "Code": "sunt",
-  "PriceUnit": "officia",
+  "Name": "Hammes, Tromp and Stehr",
+  "Description": "Mandatory systematic core",
+  "Code": "iste",
+  "PriceUnit": "est",
   "QuantityUnit": "a",
   "IsSubscription": true,
-  "SubscriptionUnit": "perspiciatis",
-  "DefaultSubscriptionQuantity": 796.036,
-  "ItemNumber": "1540707",
+  "SubscriptionUnit": "dolorum",
+  "DefaultSubscriptionQuantity": 17675.76,
+  "ItemNumber": "297851",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "et",
-  "VAT": 19562.428,
-  "VATInfo": "ut",
-  "UnitCost": 391.75,
-  "UnitMinimumPrice": 8549.552,
-  "UnitListPrice": 13795.868,
-  "InAssortment": false,
-  "Supplier": "sunt",
-  "SupplierCode": "sequi",
-  "Rights": "et",
-  "Rule": "assumenda",
+  "ProductFamilyKey": "exercitationem",
+  "ProductTypeKey": "iure",
+  "VAT": 10630.528,
+  "VATInfo": "illum",
+  "UnitCost": 18763.257999999998,
+  "UnitMinimumPrice": 25698.8,
+  "UnitListPrice": 11921.735999999999,
+  "InAssortment": true,
+  "Supplier": "consequuntur",
+  "SupplierCode": "architecto",
+  "Rights": "sed",
+  "Rule": "corrupti",
   "ExtraInfo": [
     {
-      "Name": "Johns Group",
-      "Value": "mollitia",
+      "Name": "Koch-Schroeder",
+      "Value": "quae",
       "Type": "Image"
     },
     {
-      "Name": "Johns Group",
-      "Value": "mollitia",
+      "Name": "Koch-Schroeder",
+      "Value": "quae",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quos",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "et",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "eos",
-  "ExtraField5": "itaque",
-  "InStock": 20941.388
+  "RawExtraInfo": "dolor",
+  "ExtraField1": "quod",
+  "ExtraField2": "vel",
+  "ExtraField3": "qui",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "deserunt",
+  "InStock": 31173.897999999997
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 107,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "saepe",
-  "Name": "Emmerich, Fahey and Morar",
-  "Description": "Optimized grid-enabled workforce",
-  "Code": "eaque",
-  "PriceUnit": "maiores",
-  "QuantityUnit": "non",
+  "ProductId": 85,
+  "ERPProductKey": "quidem",
+  "ERPPriceListKey": "sit",
+  "Name": "Dickens-Yost",
+  "Description": "Phased impactful access",
+  "Code": "quaerat",
+  "PriceUnit": "at",
+  "QuantityUnit": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolorum",
-  "DefaultSubscriptionQuantity": 21762.496,
-  "ItemNumber": "1007368",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 26670.34,
+  "ItemNumber": "963045",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "eos",
-  "VAT": 29503.476,
-  "VATInfo": "nobis",
-  "UnitCost": 30697.53,
-  "UnitMinimumPrice": 8007.37,
-  "UnitListPrice": 17077.166,
-  "InAssortment": true,
-  "Supplier": "labore",
-  "SupplierCode": "vitae",
-  "Rights": "possimus",
-  "Rule": "in",
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "qui",
+  "VAT": 26604.525999999998,
+  "VATInfo": "et",
+  "UnitCost": 16437.829999999998,
+  "UnitMinimumPrice": 21615.198,
+  "UnitListPrice": 30907.507999999998,
+  "InAssortment": false,
+  "Supplier": "debitis",
+  "SupplierCode": "eos",
+  "Rights": "delectus",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Hartmann-Boyle",
-      "Value": "incidunt",
+      "Name": "Stiedemann Group",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     },
     {
-      "Name": "Hartmann-Boyle",
-      "Value": "incidunt",
+      "Name": "Stiedemann Group",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     }
   ],
-  "RawExtraInfo": "veniam",
-  "ExtraField1": "pariatur",
-  "ExtraField2": "quia",
-  "ExtraField3": "dolor",
-  "ExtraField4": "unde",
-  "ExtraField5": "minima",
-  "InStock": 25745.809999999998,
+  "RawExtraInfo": "error",
+  "ExtraField1": "hic",
+  "ExtraField2": "perspiciatis",
+  "ExtraField3": "voluptatum",
+  "ExtraField4": "sit",
+  "ExtraField5": "necessitatibus",
+  "InStock": 27563.53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

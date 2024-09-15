@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 391,
-  "TopicId": 101,
+  "ChatSessionId": 331,
+  "TopicId": 133,
   "User": null,
   "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "facilis",
-  "CustomerName": "Hills, Moen and Fritsch",
-  "CustomerEmail": "verner.smith@blicklynch.info",
-  "CustomerPhone": "(704)095-6490 x00131",
+  "CustomerAlias": "dolores",
+  "CustomerHost": "mollitia",
+  "CustomerName": "Prosacco-Corkery",
+  "CustomerEmail": "flavie@turner.biz",
+  "CustomerPhone": "272.434.0307 x999",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Heller-Schuppe",
+  "CustomerCompanyName": "Bechtelar, Hoppe and Walter",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "a",
-  "WhenRequested": "2007-02-14T13:28:31.351192+01:00",
-  "WhenStarted": "2022-01-26T13:28:31.351192+01:00",
-  "WhenEnded": "2009-11-02T13:28:31.351192+01:00",
-  "WhenIdle": "2004-12-05T13:28:31.351192+01:00",
-  "WhenFetched": "1997-12-17T13:28:31.351192+01:00",
-  "SessionKey": "velit",
-  "InitialQueuePos": 218,
-  "AlertLevel": 918,
-  "Rank": 617,
+  "FirstMessage": "itaque",
+  "LastMessage": "et",
+  "WhenRequested": "2007-03-03T04:02:06.337423+01:00",
+  "WhenStarted": "2014-10-27T04:02:06.337423+01:00",
+  "WhenEnded": "2015-06-25T04:02:06.337423+02:00",
+  "WhenIdle": "2015-05-26T04:02:06.337423+02:00",
+  "WhenFetched": "2016-07-21T04:02:06.337423+02:00",
+  "SessionKey": "laudantium",
+  "InitialQueuePos": 953,
+  "AlertLevel": 994,
+  "Rank": 989,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 201,
+  "ChatbotIsActive": false,
+  "Rating": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 943
     }
   }
 }

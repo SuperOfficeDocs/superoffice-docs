@@ -2,10 +2,10 @@
 uid: table-ticket_type
 title: ticket_type table
 description: A ticket (request) type
-generated: true
+so.generated: true
 keywords: database table ticket_type
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_type Table (532)
@@ -36,6 +36,8 @@ A ticket (request) type
 |exclude\_email\_recipients|Create request without initially having to send outbound e-mail|Bool| |
 |external\_as\_default|Ability to set external access level for this request type|Bool| |
 |visible\_for\_groups|Array of references to the visible for groups|FKArray|&#x25CF;|
+|reply\_forward\_no\_signature|Do not insert user signature when replying or forwarding the message|Bool| |
+|reply\_external\_as\_default|Set external access level when replying the message|Bool| |
 
 
 ![ticket_type table relationship diagram](./media/ticket_type.png)

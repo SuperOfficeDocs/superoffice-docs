@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 29 May 2007 13:28:32 G5T
+Last-Modified: Wed, 24 Nov 2010 04:02:06 G11T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Tue, 29 May 2007 13:28:32 G5T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "fugiat",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Tue, 29 May 2007 13:28:32 G5T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-12-22T13:28:32.1011664+01:00",
-  "Amount": 4616.382,
-  "SaleId": 279,
-  "Earning": 22708.964,
-  "EarningPercent": 1648.484,
-  "Heading": "iste",
-  "Number": "1252631",
-  "Probability": 925,
-  "CreatedDate": "2012-07-14T13:28:32.1011664+02:00",
-  "UpdatedDate": "2007-05-29T13:28:32.1011664+02:00",
+  "Saledate": "2010-05-15T04:02:06.7597584+02:00",
+  "Amount": 10160.428,
+  "SaleId": 658,
+  "Earning": 4550.568,
+  "EarningPercent": 7471.456,
+  "Heading": "dolorem",
+  "Number": "672157",
+  "Probability": 57,
+  "CreatedDate": "2002-11-04T04:02:06.7597584+01:00",
+  "UpdatedDate": "2010-11-24T04:02:06.7597584+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 663,
+  "ActiveLinks": 956,
   "Links": [
     {
-      "EntityName": "Swift Inc and Sons",
-      "Id": 113,
-      "Description": "Optimized mission-critical intranet",
-      "ExtraInfo": "dolorem",
-      "LinkId": 183,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 970
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2007-03-28T13:28:32.1011664+02:00",
-  "Postit": "delectus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2014-05-27T13:28:32.1011664+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Daugherty-Hand",
-      "Comment": "odit",
-      "StakeholderRoleId": 635,
-      "CountryId": 340,
-      "PersonId": 709,
-      "EmailDescription": "marshall.kautzer@haag.biz",
-      "EmailId": 388,
-      "EmailAddress": "breanne.steuber@watsica.uk",
-      "PhoneId": 420,
-      "ContactName": "Schoen, Huels and Sipes",
-      "ContactId": 867,
-      "SaleId": 540,
-      "Mrmrs": "numquam",
-      "Firstname": "Della",
-      "MiddleName": "Corwin-Gutmann",
-      "Lastname": "Boehm",
-      "SaleStakeholderId": 197,
-      "Rank": 364,
-      "Phone": "1-944-177-2977 x1080",
+      "EntityName": "Carroll-Jacobson",
+      "Id": 304,
+      "Description": "Decentralized leading edge monitoring",
+      "ExtraInfo": "et",
+      "LinkId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 96
         }
       }
     }
   ],
-  "ActiveErpLinks": 385,
+  "NextDueDate": "2022-04-22T04:02:06.7597584+02:00",
+  "Postit": "aut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2014-02-28T04:02:06.7597584+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Brakus Inc and Sons",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 961,
+      "CountryId": 579,
+      "PersonId": 919,
+      "EmailDescription": "valentine_hartmann@wiegandtreutel.ca",
+      "EmailId": 338,
+      "EmailAddress": "caleb_abshire@heaney.ca",
+      "PhoneId": 914,
+      "ContactName": "Wintheiser, McLaughlin and Armstrong",
+      "ContactId": 81,
+      "SaleId": 644,
+      "Mrmrs": "ad",
+      "Firstname": "Armand",
+      "MiddleName": "Rosenbaum-Cassin",
+      "Lastname": "Will",
+      "SaleStakeholderId": 16,
+      "Rank": 263,
+      "Phone": "555-761-7177 x13254",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 7
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 472,
   "UserDefinedFields": {
-    "SuperOffice:1": "861005686",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Marjory Merle Mayer PhD",
+    "SuperOffice:2": "Elias Gleichner"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2015-12-08T13:28:32.1011664+01:00",
-  "PublishTo": "2004-10-23T13:28:32.1011664+02:00",
-  "PublishFrom": "2012-12-18T13:28:32.1011664+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-04-22T04:02:06.7753818+02:00",
+  "PublishTo": "2009-01-20T04:02:06.7753818+01:00",
+  "PublishFrom": "2016-03-01T04:02:06.7753818+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 758,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 315
         }
       }
     },
     {
-      "VisibleId": 758,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 315
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Tue, 29 May 2007 13:28:32 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 103
     }
   }
 }

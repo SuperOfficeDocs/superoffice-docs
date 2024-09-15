@@ -2,10 +2,10 @@
 uid: table-CurrencyGroupLink
 title: CurrencyGroupLink table
 description: User group link table for Currency, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table CurrencyGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CurrencyGroupLink Table (113)

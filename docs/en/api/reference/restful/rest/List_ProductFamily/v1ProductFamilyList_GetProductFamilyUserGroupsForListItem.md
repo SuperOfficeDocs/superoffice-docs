@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Gleason, Huel and Kuvalis",
-    "ToolTip": "Et ut et iste odio.",
-    "Deleted": false,
-    "Rank": 956,
-    "Type": "vitae",
-    "ColorBlock": 511,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2019-12-06T13:28:32.9759535+01:00",
+    "Id": 156,
+    "Name": "Mueller, Leannon and Botsford",
+    "ToolTip": "Non odio omnis qui tempora sint.",
+    "Deleted": true,
+    "Rank": 861,
+    "Type": "esse",
+    "ColorBlock": 563,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "1999-05-18T04:02:07.3221997+02:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Rath, Hauck and O'Hara",
-        "ToolTip": "Rem provident at.",
-        "Deleted": true,
-        "Rank": 626,
-        "Type": "officiis",
-        "ColorBlock": 448,
-        "IconHint": "expedita",
+        "Id": 668,
+        "Name": "Kuhn, Schiller and Rau",
+        "ToolTip": "Praesentium debitis atque et ut est et.",
+        "Deleted": false,
+        "Rank": 597,
+        "Type": "at",
+        "ColorBlock": 150,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "1999-08-14T13:28:32.9759535+02:00",
+        "LastChanged": "2013-06-24T04:02:07.3221997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Miss Demario Rory Watsica",
+        "ExtraInfo": "aut",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Dannie Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldType": "System.Int32",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Adah Strosin",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Miss Elza Jonatan Ankunding V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 379
       }
     }
   }

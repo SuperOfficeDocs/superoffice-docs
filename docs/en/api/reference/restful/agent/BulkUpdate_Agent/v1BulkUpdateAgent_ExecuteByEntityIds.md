@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "ullam",
-      "ValueType": "eligendi",
+      "Key": "aut",
+      "ValueType": "ratione",
       "Mandatory": false,
-      "EncodedDisplayName": "Bosco Group",
-      "EncodedDisplayDescription": "Self-enabling context-sensitive time-frame",
-      "IconHint": "hic",
+      "EncodedDisplayName": "O'Hara-Swift",
+      "EncodedDisplayDescription": "Innovative disintermediate matrices",
+      "IconHint": "pariatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "fuga",
-      "EncodedDataCaptionDescription": "User-friendly mission-critical moderator",
-      "CurrentOperationType": "cum",
+      "EncodedDataCaption": "sapiente",
+      "EncodedDataCaptionDescription": "Reverse-engineered scalable product",
+      "CurrentOperationType": "autem",
       "Values": [
-        "unde",
-        "odit"
+        "distinctio",
+        "et"
       ],
       "DisplayValues": [
-        "magni",
-        "ea"
+        "id",
+        "perspiciatis"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kub Inc and Sons",
-  "Context": "nesciunt",
-  "Ids": "quia"
+  "TableName": "Fritsch LLC",
+  "Context": "sapiente",
+  "Ids": "natus"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-635
+294
 ```

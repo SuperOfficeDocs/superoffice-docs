@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 185,
-    "Name": "Hammes-Langworth",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 989,
+    "Name": "Romaguera, Weber and Shanahan",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "Rank": 720,
-    "UdListDefinitionId": 85,
+    "Rank": 554,
+    "UdListDefinitionId": 874,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

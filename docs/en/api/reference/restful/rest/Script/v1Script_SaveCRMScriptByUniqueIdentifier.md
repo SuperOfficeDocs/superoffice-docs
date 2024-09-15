@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "provident",
-  "Name": "Purdy LLC",
-  "Description": "Expanded even-keeled monitoring",
-  "IncludeId": "molestias",
-  "Source": "aut",
-  "Registered": "2017-08-20T13:28:32.5385534+02:00",
-  "RegisteredBy": "velit",
-  "Updated": "2015-09-04T13:28:32.5385534+02:00",
-  "UpdatedBy": "nihil",
-  "Path": "non"
+  "UniqueIdentifier": "rerum",
+  "Name": "Sauer-Jewess",
+  "Description": "Right-sized client-server model",
+  "IncludeId": "officia",
+  "Source": "in",
+  "Registered": "2003-12-02T04:02:06.9941086+01:00",
+  "RegisteredBy": "explicabo",
+  "Updated": "2011-05-01T04:02:06.9941086+02:00",
+  "UpdatedBy": "sunt",
+  "Path": "quidem"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eos",
-  "Name": "Donnelly LLC",
-  "Description": "Future-proofed mission-critical data-warehouse",
-  "IncludeId": "molestias",
-  "Source": "id",
-  "Registered": "2003-11-13T13:28:32.5385534+01:00",
-  "RegisteredBy": "ut",
-  "Updated": "2018-07-17T13:28:32.5385534+02:00",
-  "UpdatedBy": "rem",
-  "Path": "culpa",
+  "UniqueIdentifier": "quibusdam",
+  "Name": "Hoppe, Gislason and Koss",
+  "Description": "Optimized motivating policy",
+  "IncludeId": "qui",
+  "Source": "possimus",
+  "Registered": "2016-02-11T04:02:06.9941086+01:00",
+  "RegisteredBy": "sequi",
+  "Updated": "2020-09-30T04:02:06.9941086+02:00",
+  "UpdatedBy": "voluptatibus",
+  "Path": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 334
     }
   }
 }

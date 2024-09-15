@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 712
+  "ChatSessionId": 586
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 374,
-  "TopicId": 917,
+  "ChatSessionId": 257,
+  "TopicId": 932,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iusto",
-  "CustomerHost": "hic",
-  "CustomerName": "Kilback-Barton",
-  "CustomerEmail": "neva.shields@boyle.ca",
-  "CustomerPhone": "(455)788-4311 x53670",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Torp-Windler",
+  "CustomerAlias": "et",
+  "CustomerHost": "blanditiis",
+  "CustomerName": "Lockman-Block",
+  "CustomerEmail": "tabitha@jaskolski.info",
+  "CustomerPhone": "990.397.7360 x607",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Casper LLC",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "et",
-  "WhenRequested": "2011-10-14T13:28:21.976202+02:00",
-  "WhenStarted": "2000-05-11T13:28:21.976202+02:00",
-  "WhenEnded": "1999-11-08T13:28:21.976202+01:00",
-  "WhenIdle": "2004-05-08T13:28:21.976202+02:00",
-  "WhenFetched": "1999-10-12T13:28:21.976202+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 986,
-  "AlertLevel": 273,
-  "Rank": 15,
+  "FirstMessage": "sunt",
+  "LastMessage": "dolorem",
+  "WhenRequested": "2014-02-09T04:02:01.3780242+01:00",
+  "WhenStarted": "2016-05-19T04:02:01.3780242+02:00",
+  "WhenEnded": "2001-09-13T04:02:01.3780242+02:00",
+  "WhenIdle": "2009-03-09T04:02:01.3780242+01:00",
+  "WhenFetched": "2010-11-25T04:02:01.3780242+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 945,
+  "AlertLevel": 163,
+  "Rank": 497,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 989,
+  "ChatbotIsActive": false,
+  "Rating": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldLength": 426
     }
   }
 }

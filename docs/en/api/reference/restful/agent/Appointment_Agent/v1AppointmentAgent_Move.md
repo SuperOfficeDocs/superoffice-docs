@@ -133,12 +133,12 @@ OK
 POST /api/v1/Agents/Appointment/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 860,
-  "NewStartTime": "2024-07-20T13:28:21.6325591+02:00",
+  "AppointmentId": 859,
+  "NewStartTime": "2005-11-24T04:02:01.1119275+01:00",
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-08-27T13:28:21.6481812+02:00",
-  "AppointmentId": 645,
-  "Description": "Function-based cohesive policy",
-  "Title": "hic",
-  "Agenda": "hic",
-  "InternalNotes": "repudiandae",
-  "StartDate": "2001-01-10T13:28:21.6481812+01:00",
-  "EndDate": "2007-08-05T13:28:21.6481812+02:00",
+  "CreatedDate": "2001-05-04T04:02:01.1119275+02:00",
+  "AppointmentId": 850,
+  "Description": "Optimized leading edge customer loyalty",
+  "Title": "ipsum",
+  "Agenda": "libero",
+  "InternalNotes": "perferendis",
+  "StartDate": "2012-12-13T04:02:01.1119275+01:00",
+  "EndDate": "2015-08-09T04:02:01.1119275+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 421,
+  "MotherId": 30,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-05-23T13:28:21.6481812+02:00",
+  "UpdatedDate": "2022-11-14T04:02:01.1119275+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 751,
+  "ActiveLinks": 92,
   "Links": [
     {
-      "EntityName": "Lockman Group",
-      "Id": 79,
-      "Description": "Vision-oriented discrete model",
-      "ExtraInfo": "quia",
-      "LinkId": 520,
+      "EntityName": "Effertz, Emard and Schowalter",
+      "Id": 874,
+      "Description": "Extended client-server local area network",
+      "ExtraInfo": "ut",
+      "LinkId": 673,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 58
         }
       }
     }
   ],
-  "AlarmLeadTime": "vel",
-  "HasAlarm": false,
-  "ColorIndex": 578,
+  "AlarmLeadTime": "veritatis",
+  "HasAlarm": true,
+  "ColorIndex": 328,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "et",
-  "Location": "saepe",
-  "RejectCounter": 942,
+  "LagTime": "eius",
+  "LeadTime": "molestiae",
+  "Location": "veniam",
+  "RejectCounter": 498,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 213,
-      "PersonId": 312,
-      "ContactId": 511,
-      "EmailId": 645,
+      "AssociateId": 266,
+      "PersonId": 240,
+      "ContactId": 439,
+      "EmailId": 541,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clint_torphy@abshire.name",
-      "Description": "Advanced multimedia initiative"
+      "EmailAddress": "angus_ohara@lesch.co.uk",
+      "Description": "User-friendly zero tolerance synergy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-08-18T13:28:21.6481812+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2010-02-07T04:02:01.1119275+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 720,
+  "PreferredTZLocation": 927,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 811,
+  "SuggestedAppointmentId": 770,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "hic",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "158379789",
-    "SuperOffice:2": "Mr. Leopold Hoeger"
+    "SuperOffice:1": "Alfreda Marks",
+    "SuperOffice:2": "Jayda Schiller"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "est"
+    "CustomFields1": "corporis",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2010-05-17T13:28:21.6481812+02:00",
-  "PublishTo": "1997-08-08T13:28:21.6481812+02:00",
-  "PublishFrom": "2015-05-05T13:28:21.6481812+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-06-29T04:02:01.1119275+02:00",
+  "PublishTo": "2010-10-29T04:02:01.1119275+02:00",
+  "PublishFrom": "2014-01-11T04:02:01.1119275+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 332,
+      "VisibleId": 174,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldLength": 82
         }
       }
     },
     {
-      "VisibleId": 332,
+      "VisibleId": 174,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldLength": 82
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

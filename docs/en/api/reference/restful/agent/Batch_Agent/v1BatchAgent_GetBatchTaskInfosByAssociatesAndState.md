@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    650,
-    58
+    435,
+    223
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Ryan LLC",
-    "AssociateId": 759,
-    "DetailsTable": 524,
-    "DetailsRecord": 29,
+    "Id": 383,
+    "Name": "Hessel-Frami",
+    "AssociateId": 592,
+    "DetailsTable": 46,
+    "DetailsRecord": 81,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sit",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "eaque"
     },
-    "LastStarted": "2024-02-16T13:28:21.8512599+01:00",
-    "Created": "2007-08-10T13:28:21.8512599+02:00",
-    "StartCount": 333,
-    "DatabaseSerialNumber": "545056",
-    "Context": "laborum",
-    "Result": "velit",
+    "LastStarted": "2000-06-11T04:02:01.2374146+02:00",
+    "Created": "2014-12-08T04:02:01.2374146+01:00",
+    "StartCount": 281,
+    "DatabaseSerialNumber": "1240607",
+    "Context": "nam",
+    "Result": "repudiandae",
     "State": "All",
-    "Description": "Right-sized high-level circuit",
-    "Response": "molestias",
-    "Request": "maiores",
-    "ProgressDescription": "Customer-focused disintermediate toolset",
-    "ProgressPercent": 764,
-    "FileName": "Rowe, Wyman and Kunde",
+    "Description": "Distributed heuristic budgetary management",
+    "Response": "eos",
+    "Request": "ea",
+    "ProgressDescription": "Balanced zero tolerance infrastructure",
+    "ProgressPercent": 418,
+    "FileName": "Hermann LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: enum-saledone
 title: Enum values for SaleDone
 description: Lists the enum values for SaleDone.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleDone Enum

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 16
+  "ProjectId": 210
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 492,
-  "Name": "McClure-Hammes",
-  "Description": "Synergistic motivating implementation",
+  "ProjectId": 825,
+  "Name": "Nitzsche, Yundt and Schaefer",
+  "Description": "Fundamental stable encoding",
   "URL": "http://www.example.com/",
-  "Type": "laboriosam",
-  "AssociateId": 68,
-  "AssociateFullName": "Delaney Dietrich",
-  "TypeId": 881,
-  "Updated": "2016-07-31T13:28:23.491777+02:00",
-  "StatusId": 998,
-  "Status": "quis",
-  "TextId": 506,
-  "PublishTo": "2015-12-24T13:28:23.491777+01:00",
-  "PublishFrom": "2019-12-13T13:28:23.491777+01:00",
+  "Type": "eos",
+  "AssociateId": 179,
+  "AssociateFullName": "Branson Lincoln Bednar I",
+  "TypeId": 134,
+  "Updated": "1998-05-26T04:02:02.1597135+02:00",
+  "StatusId": 778,
+  "Status": "aut",
+  "TextId": 946,
+  "PublishTo": "2016-06-18T04:02:02.1597135+02:00",
+  "PublishFrom": "2014-06-02T04:02:02.1597135+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "653970",
-  "ActiveErpLinks": 278,
+  "ProjectNumber": "1381434",
+  "ActiveErpLinks": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldLength": 811
     }
   }
 }

@@ -106,12 +106,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    701,
-    781
+    870,
+    58
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 553,
+  "EjMessageId": 256,
   "Ticket": null,
-  "CreatedAt": "2024-02-21T13:28:24.08539+01:00",
+  "CreatedAt": "2018-10-23T04:02:02.5041008+02:00",
   "CreatedBy": null,
-  "Author": "sequi",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "corrupti",
-  "TimeSpent": 216,
-  "Body": "est",
-  "HtmlBody": "enim",
-  "EmailHeader": "boris.aufderhar@gulgowski.ca",
-  "DebugInfo": "quia",
-  "MailSorter": "quis",
+  "MessageId": "explicabo",
+  "TimeSpent": 323,
+  "Body": "temporibus",
+  "HtmlBody": "porro",
+  "EmailHeader": "maryam.kuhn@pourosabbott.us",
+  "DebugInfo": "provident",
+  "MailSorter": "tempora",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolorem",
+  "SearchTitle": "facilis",
   "MessageHeaders": [
     {
-      "Id": 282,
-      "Name": "Borer LLC",
-      "Value": "debitis",
+      "Id": 441,
+      "Name": "Torp Inc and Sons",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 42
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "atque",
-  "Sentiment": 444,
-  "SentimentConfidence": 504,
+  "Important": true,
+  "Language": "est",
+  "Sentiment": 371,
+  "SentimentConfidence": 42,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 371,
-      "Name": "Doyle-Morissette",
-      "ContentType": "necessitatibus",
-      "AttSize": 677,
+      "AttachmentId": 148,
+      "Name": "Marvin Group",
+      "ContentType": "sint",
+      "AttSize": 205,
       "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "eveniet",
+      "ContentId": "sit",
+      "AuthKey": "aperiam",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 49
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "et"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "deleniti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 333
     }
   }
 }

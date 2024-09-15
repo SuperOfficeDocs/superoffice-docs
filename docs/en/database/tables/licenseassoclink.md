@@ -2,10 +2,10 @@
 uid: table-LicenseAssocLink
 title: LicenseAssocLink table
 description: Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed
-generated: true
+so.generated: true
 keywords: database table LicenseAssocLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # LicenseAssocLink Table (238)

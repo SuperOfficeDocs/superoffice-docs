@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 369,
-  "UniqueIdentifier": "autem",
-  "Name": "Bahringer-Weissnat",
-  "Description": "Versatile zero defect archive",
-  "IncludeId": "tempore",
-  "AccessKey": "nesciunt",
-  "HierarchyId": 301,
-  "Source": "a",
-  "SourceCode": "vero",
+  "EjscriptId": 105,
+  "UniqueIdentifier": "repudiandae",
+  "Name": "Carroll-Ziemann",
+  "Description": "Compatible disintermediate info-mediaries",
+  "IncludeId": "suscipit",
+  "AccessKey": "eos",
+  "HierarchyId": 661,
+  "Source": "ut",
+  "SourceCode": "suscipit",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 267,
+  "HtmlOutput": 417,
   "Includes": [
-    628,
-    280
+    482,
+    686
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 909,
-      "LineNumberTo": 28,
-      "Delta": 399,
-      "IncludeId": "qui",
+      "LineNumberFrom": 202,
+      "LineNumberTo": 317,
+      "Delta": 749,
+      "IncludeId": "sequi",
       "IncludedFrom": [
-        "natus",
-        "et"
+        "libero",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldLength": 49
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-03-18T13:28:22.3667682+01:00",
-  "RegisteredAssociateId": 952,
-  "Updated": "2016-04-04T13:28:22.3667682+02:00",
-  "UpdatedAssociateId": 720,
+  "Registered": "2009-11-05T04:02:01.5186345+01:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "2021-09-30T04:02:01.5186345+02:00",
+  "UpdatedAssociateId": 534,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 318
     }
   }
 }

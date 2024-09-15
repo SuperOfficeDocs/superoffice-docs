@@ -2,10 +2,10 @@
 uid: table-TZDstRule
 title: TZDstRule table
 description: Time zone rule for daylight saving time
-generated: true
+so.generated: true
 keywords: database table TZDstRule
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TZDstRule Table (247)

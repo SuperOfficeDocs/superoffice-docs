@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888,
-  "Name": "Rowe-Farrell",
-  "Tooltip": "quibusdam",
+  "Id": 738,
+  "Name": "Hyatt, Wiegand and Sanford",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "UdListDefinitionId": 960,
-  "Rank": 121,
+  "UdListDefinitionId": 934,
+  "Rank": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 215
     }
   }
 }

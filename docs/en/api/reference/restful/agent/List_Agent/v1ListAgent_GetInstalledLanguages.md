@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 641,
-    "LCID": 623,
-    "EnglishName": "Treutel Inc and Sons",
-    "NativeName": "Feil, Abernathy and Adams",
-    "ThreeLetterISOLanguageName": "Waters Group",
-    "TwoLetterISOLanguageName": "Donnelly-Ruecker",
+    "LanguageInfoId": 915,
+    "LCID": 170,
+    "EnglishName": "Mohr Group",
+    "NativeName": "Greenfelder, White and Reichel",
+    "ThreeLetterISOLanguageName": "Gutkowski, Bruen and Konopelski",
+    "TwoLetterISOLanguageName": "Willms LLC",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldLength": 537
       }
     }
   }

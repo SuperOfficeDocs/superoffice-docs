@@ -2,10 +2,10 @@
 uid: table-PersIntHeadingLink
 title: PersIntHeadingLink table
 description: Heading link table for PersInt, for MDO headers
-generated: true
+so.generated: true
 keywords: database table PersIntHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PersIntHeadingLink Table (75)

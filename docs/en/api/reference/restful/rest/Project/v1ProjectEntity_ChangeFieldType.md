@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 514,
-  "ColumnId": 941,
-  "FieldDefault": "esse",
-  "FieldHeight": 597,
-  "FieldLabel": "soluta",
-  "FieldLeft": 744,
-  "FieldTop": 446,
+  "UDefFieldId": 953,
+  "ColumnId": 377,
+  "FieldDefault": "beatae",
+  "FieldHeight": 452,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 782,
+  "FieldTop": 653,
   "FieldType": "Checkbox",
-  "FieldWidth": 125,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 55,
+  "FormatMask": "et",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 56,
-  "LabelLeft": 552,
-  "LabelTop": 3,
-  "LabelWidth": 417,
-  "LastVersionId": 708,
-  "ListTableId": 940,
+  "LabelHeight": 805,
+  "LabelLeft": 216,
+  "LabelTop": 796,
+  "LabelWidth": 405,
+  "LastVersionId": 712,
+  "ListTableId": 684,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 810,
-  "ProgId": "ducimus",
+  "Page1LineNo": 80,
+  "ProgId": "delectus",
   "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 499,
-  "TextLength": 189,
-  "Tooltip": "quia",
-  "UdefIdentity": 810,
-  "UDListDefinitionId": 740,
+  "ShortLabel": "ratione",
+  "TabOrder": 959,
+  "TextLength": 46,
+  "Tooltip": "quibusdam",
+  "UdefIdentity": 85,
+  "UDListDefinitionId": 537,
   "Justification": "Center",
-  "Version": 82,
-  "TemplateVariableName": "Cummings LLC",
+  "Version": 568,
+  "TemplateVariableName": "Will, Mohr and Becker",
   "HasBeenPublished": false,
-  "MdoListName": "Kuhlman-Beier",
+  "MdoListName": "Conroy, Abernathy and Kohler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 395
     }
   }
 }

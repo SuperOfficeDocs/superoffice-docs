@@ -2,10 +2,10 @@
 uid: table-notice_frame
 title: notice_frame table
 description: PID controller for automatic adjustment of pop up message check rate
-generated: true
+so.generated: true
 keywords: database table notice_frame
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # notice\_frame Table (404)

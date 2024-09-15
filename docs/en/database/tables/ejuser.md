@@ -2,10 +2,10 @@
 uid: table-ejuser
 title: ejuser table
 description: This table contains entries for the users of the system.
-generated: true
+so.generated: true
 keywords: database table ejuser
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejuser Table (299)

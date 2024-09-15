@@ -2,10 +2,10 @@
 uid: table-workflow_trigger
 title: workflow_trigger table
 description: A set of triggers related to a workflow.
-generated: true
+so.generated: true
 keywords: database table workflow_trigger
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # workflow\_trigger Table (515)

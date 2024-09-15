@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Gottlieb, Adams and Cole",
-    "ToolTip": "Minus voluptate commodi.",
+    "Id": 484,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Sit vero nihil.",
     "Deleted": false,
-    "Rank": 916,
-    "Type": "culpa",
-    "ColorBlock": 785,
-    "IconHint": "nostrum",
+    "Rank": 351,
+    "Type": "voluptatem",
+    "ColorBlock": 767,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2001-09-30T13:28:32.8197387+02:00",
+    "LastChanged": "2010-12-19T04:02:07.2284604+01:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Bartell, Reinger and Renner",
-        "ToolTip": "Voluptatum nostrum et.",
-        "Deleted": false,
-        "Rank": 501,
-        "Type": "omnis",
-        "ColorBlock": 164,
-        "IconHint": "eos",
+        "Id": 867,
+        "Name": "Ullrich-Hoeger",
+        "ToolTip": "Rem maxime est distinctio dolorem.",
+        "Deleted": true,
+        "Rank": 508,
+        "Type": "et",
+        "ColorBlock": 703,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2018-04-17T13:28:32.8197387+02:00",
+        "LastChanged": "2005-11-24T04:02:07.2284604+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "et",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Alek Hand"
+        "FullName": "Antonetta Rogahn"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "eos",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Abdiel Rosenbaum"
+    "FullName": "Elna Stehr"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Mante-Wunsch",
-    "ToolTip": "Quos laborum quasi explicabo ut et.",
+    "Id": 672,
+    "Name": "Nader, Witting and Hauck",
+    "ToolTip": "Ullam eum officia animi.",
     "Deleted": false,
-    "Rank": 976,
-    "Type": "dolor",
-    "ColorBlock": 63,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2011-10-27T13:28:32.8197387+02:00",
+    "Rank": 886,
+    "Type": "voluptatum",
+    "ColorBlock": 390,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2002-11-20T04:02:07.2284604+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Walter Group",
-        "ToolTip": "Ea iusto in numquam corrupti ullam qui.",
+        "Id": 375,
+        "Name": "Kohler Group",
+        "ToolTip": "Ab qui harum voluptates minus assumenda omnis et.",
         "Deleted": true,
-        "Rank": 882,
-        "Type": "amet",
-        "ColorBlock": 473,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "2016-10-22T13:28:32.8197387+02:00",
+        "Rank": 770,
+        "Type": "qui",
+        "ColorBlock": 584,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2020-03-22T04:02:07.2284604+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "quae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Savannah Romaguera",
+        "FullName": "Bennett Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "eos",
+    "ExtraInfo": "placeat",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Ms. Ali Javon Monahan",
+    "FullName": "Morgan Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 846
       }
     }
   }

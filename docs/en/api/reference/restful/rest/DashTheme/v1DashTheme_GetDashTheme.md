@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 667,
-  "Name": "Towne, Wuckert and Huel",
-  "Config": "aut",
-  "Rank": 518,
-  "Client": "eius",
-  "Style": "modi",
+  "DashboardThemeId": 842,
+  "Name": "Treutel Group",
+  "Config": "maiores",
+  "Rank": 626,
+  "Client": "dolor",
+  "Style": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 87
     }
   },
   "_Links": {

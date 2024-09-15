@@ -2,10 +2,10 @@
 uid: table-session_object
 title: session_object table
 description: Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big
-generated: true
+so.generated: true
 keywords: database table session_object
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # session\_object Table (254)

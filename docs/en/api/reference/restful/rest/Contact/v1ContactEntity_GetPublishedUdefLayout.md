@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 68,
-    "ColumnId": 352,
-    "FieldDefault": "veritatis",
-    "FieldHeight": 63,
-    "FieldLabel": "totam",
-    "FieldLeft": 143,
-    "FieldTop": 334,
+    "UDefFieldId": 110,
+    "ColumnId": 220,
+    "FieldDefault": "ut",
+    "FieldHeight": 73,
+    "FieldLabel": "repudiandae",
+    "FieldLeft": 797,
+    "FieldTop": 242,
     "FieldType": "Checkbox",
-    "FieldWidth": 475,
-    "FormatMask": "veritatis",
-    "HideLabel": false,
+    "FieldWidth": 618,
+    "FormatMask": "in",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 457,
-    "LabelLeft": 604,
-    "LabelTop": 687,
-    "LabelWidth": 381,
-    "LastVersionId": 578,
-    "ListTableId": 513,
+    "LabelHeight": 538,
+    "LabelLeft": 471,
+    "LabelTop": 856,
+    "LabelWidth": 905,
+    "LastVersionId": 341,
+    "ListTableId": 380,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 887,
-    "ProgId": "ad",
-    "IsReadOnly": true,
-    "ShortLabel": "minus",
-    "TabOrder": 487,
-    "TextLength": 274,
-    "Tooltip": "enim",
-    "UdefIdentity": 747,
-    "UDListDefinitionId": 11,
+    "Page1LineNo": 873,
+    "ProgId": "aliquam",
+    "IsReadOnly": false,
+    "ShortLabel": "sapiente",
+    "TabOrder": 916,
+    "TextLength": 302,
+    "Tooltip": "sunt",
+    "UdefIdentity": 959,
+    "UDListDefinitionId": 1000,
     "Justification": "Center",
-    "Version": 294,
-    "TemplateVariableName": "Adams-Heaney",
-    "HasBeenPublished": false,
-    "MdoListName": "Fadel Group",
+    "Version": 127,
+    "TemplateVariableName": "Buckridge-Bauch",
+    "HasBeenPublished": true,
+    "MdoListName": "McDermott, Emard and Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 248
       }
     }
   }

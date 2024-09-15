@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 960
+  "SaleId": 980
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-06-29T13:28:21.7106646+02:00",
-  "AppointmentId": 341,
-  "Description": "Cross-platform solution-oriented collaboration",
-  "Title": "blanditiis",
-  "Agenda": "dolorem",
-  "InternalNotes": "doloremque",
-  "StartDate": "2011-11-24T13:28:21.7106646+01:00",
-  "EndDate": "1999-01-31T13:28:21.7106646+01:00",
+  "CreatedDate": "2005-09-26T04:02:01.1431741+02:00",
+  "AppointmentId": 638,
+  "Description": "Up-sized responsive conglomeration",
+  "Title": "eum",
+  "Agenda": "vitae",
+  "InternalNotes": "corporis",
+  "StartDate": "2024-08-03T04:02:01.1431741+02:00",
+  "EndDate": "2023-07-25T04:02:01.1431741+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 178,
+  "MotherId": 579,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-09-27T13:28:21.7106646+02:00",
+  "UpdatedDate": "2011-09-16T04:02:01.1587977+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 55,
+  "ActiveLinks": 113,
   "Links": [
     {
-      "EntityName": "Purdy-Johnson",
-      "Id": 41,
-      "Description": "Adaptive composite local area network",
-      "ExtraInfo": "error",
-      "LinkId": 17,
+      "EntityName": "Harber, Friesen and Keeling",
+      "Id": 652,
+      "Description": "Optional tertiary open architecture",
+      "ExtraInfo": "commodi",
+      "LinkId": 725,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 613
         }
       }
     }
   ],
-  "AlarmLeadTime": "debitis",
+  "AlarmLeadTime": "quia",
   "HasAlarm": false,
-  "ColorIndex": 246,
+  "ColorIndex": 648,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "pariatur",
-  "LeadTime": "nihil",
-  "Location": "deserunt",
-  "RejectCounter": 652,
-  "RejectReason": "architect 24/365 functionalities",
+  "IsAlldayEvent": false,
+  "LagTime": "corrupti",
+  "LeadTime": "quod",
+  "Location": "incidunt",
+  "RejectCounter": 142,
+  "RejectReason": "evolve synergistic partnerships",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 406,
-      "PersonId": 181,
-      "ContactId": 412,
-      "EmailId": 808,
-      "SendEmail": false,
+      "AssociateId": 453,
+      "PersonId": 774,
+      "ContactId": 213,
+      "EmailId": 167,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "alexa.murray@schmitt.co.uk",
-      "Description": "Distributed 5th generation architecture"
+      "EmailAddress": "brenda_cole@willmsconroy.name",
+      "Description": "Synergized multimedia functionalities"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-01-17T13:28:21.7106646+01:00",
+  "ActiveDate": "2022-05-18T04:02:01.1587977+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 789,
+  "PreferredTZLocation": 508,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 625,
+  "SuggestedAppointmentId": 422,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nesciunt",
+  "CentralserviceVideomeetId": "laborum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Shea McCullough",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Carlos Oberbrunner Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "ut",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2005-01-17T13:28:21.7106646+01:00",
-  "PublishTo": "2018-03-21T13:28:21.7106646+01:00",
-  "PublishFrom": "2000-03-01T13:28:21.7106646+01:00",
+  "PublishEventDate": "2002-08-24T04:02:01.1587977+02:00",
+  "PublishTo": "1998-08-14T04:02:01.1587977+02:00",
+  "PublishFrom": "2000-09-23T04:02:01.1587977+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 752,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 684
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 752,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 684
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 11
     }
   }
 }

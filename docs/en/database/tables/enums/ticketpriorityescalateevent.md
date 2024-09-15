@@ -2,10 +2,10 @@
 uid: enum-ticketpriorityescalateevent
 title: Enum values for TicketPriorityEscalateEvent
 description: Lists the enum values for TicketPriorityEscalateEvent.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TicketPriorityEscalateEvent Enum

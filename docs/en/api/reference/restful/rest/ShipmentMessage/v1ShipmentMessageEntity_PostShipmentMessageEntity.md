@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 898,
-  "PlainMessage": "nam",
-  "HtmlMessage": "consectetur",
-  "SmsMessage": "cupiditate",
-  "Description": "Implemented interactive middleware",
-  "Subject": "est",
-  "FolderId": 871,
-  "HeaderField": "est",
-  "Design": "eos",
+  "ShipmentMessageId": 789,
+  "PlainMessage": "qui",
+  "HtmlMessage": "quo",
+  "SmsMessage": "velit",
+  "Description": "Exclusive logistical success",
+  "Subject": "error",
+  "FolderId": 340,
+  "HeaderField": "omnis",
+  "Design": "distinctio",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Inverse tertiary matrices",
-  "AccessKey": "id",
-  "DocumentMessage": 566,
-  "Registered": "2013-10-04T13:28:32.2573673+02:00",
-  "RegisteredAssociateId": 567,
-  "Updated": "2018-11-10T13:28:32.2573673+01:00",
-  "UpdatedAssociateId": 522,
-  "UpdatedCount": 501
+  "LongDescription": "Cross-group explicit monitoring",
+  "AccessKey": "delectus",
+  "DocumentMessage": 761,
+  "Registered": "2011-05-02T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 680,
+  "Updated": "2014-06-18T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 881,
+  "UpdatedCount": 416
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 622,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "delectus",
-  "SmsMessage": "cupiditate",
-  "Description": "Vision-oriented asynchronous open system",
-  "Subject": "corrupti",
-  "FolderId": 509,
-  "HeaderField": "consectetur",
-  "Design": "corrupti",
+  "ShipmentMessageId": 708,
+  "PlainMessage": "alias",
+  "HtmlMessage": "quas",
+  "SmsMessage": "quos",
+  "Description": "Organized real-time Graphic Interface",
+  "Subject": "aperiam",
+  "FolderId": 343,
+  "HeaderField": "numquam",
+  "Design": "quo",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Enterprise-wide scalable service-desk",
-  "AccessKey": "quam",
-  "DocumentMessage": 192,
-  "Registered": "2008-02-26T13:28:32.2573673+01:00",
-  "RegisteredAssociateId": 870,
-  "Updated": "2006-09-30T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 1002,
-  "UpdatedCount": 800,
+  "InlineImages": true,
+  "LongDescription": "Front-line empowering functionalities",
+  "AccessKey": "fugiat",
+  "DocumentMessage": 351,
+  "Registered": "2014-07-11T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 820,
+  "Updated": "2013-08-25T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 740,
+  "UpdatedCount": 16,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 168
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

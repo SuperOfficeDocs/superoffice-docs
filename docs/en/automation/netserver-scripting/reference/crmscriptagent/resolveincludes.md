@@ -15,6 +15,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptA
 ```cs
     static void BeforeResolveIncludes(
        String  script,
+       Boolean  ignoreErrors,
        ref object  eventState
       );
 ```
@@ -26,6 +27,7 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterResolveIncludes(
        String  script,
+       Boolean  ignoreErrors,
        ref Int32[]  returnValue,
        ref object  eventState
       );
@@ -37,6 +39,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterResolveIncludesAsync(
        String  script,
+       Boolean  ignoreErrors,
        ref Int32[]  returnValue,
        ref object  eventState
       );

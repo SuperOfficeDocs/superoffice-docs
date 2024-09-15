@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=qui
-GET /api/v1/Role?$top=954
-GET /api/v1/Role?$skip=543
+GET /api/v1/Role?$entities=nam
+GET /api/v1/Role?$top=644
+GET /api/v1/Role?$skip=913
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=cumque
+GET /api/v1/Role?$context=error
 GET /api/v1/Role?$format=JSON
-GET /api/v1/Role?$jsonSafe=False
+GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quisquam",
+  "odata.nextLink": "occaecati",
   "value": [
     {
-      "PrimaryKey": 9579,
+      "PrimaryKey": 9461,
       "EntityName": "sale",
-      "saleId": 9579,
-      "contactId": 1728,
-      "name": "Hodkiewicz LLC"
+      "saleId": 9461,
+      "contactId": 2902,
+      "name": "Bins Inc and Sons"
     },
     {
-      "PrimaryKey": 9386,
+      "PrimaryKey": 4703,
       "EntityName": "sale",
-      "saleId": 9386,
-      "contactId": 9854,
-      "name": "Christiansen Group"
+      "saleId": 4703,
+      "contactId": 1428,
+      "name": "Bartoletti, Pouros and Johns"
     }
   ]
 }

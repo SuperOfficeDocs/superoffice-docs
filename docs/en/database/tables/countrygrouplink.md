@@ -2,10 +2,10 @@
 uid: table-CountryGroupLink
 title: CountryGroupLink table
 description: User group link table for Country, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table CountryGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CountryGroupLink Table (20)

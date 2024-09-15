@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Armstrong-Okuneva",
-    "ToolTip": "Sunt quisquam.",
-    "Deleted": true,
-    "Rank": 522,
-    "Type": "a",
-    "ColorBlock": 41,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2009-02-17T13:28:33.1638597+01:00",
+    "Id": 350,
+    "Name": "Schmidt-Bauch",
+    "ToolTip": "In sed a voluptas quaerat.",
+    "Deleted": false,
+    "Rank": 608,
+    "Type": "dolores",
+    "ColorBlock": 88,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "2006-04-01T04:02:07.4167631+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Wehner-Gorczany",
-        "ToolTip": "Numquam quidem iusto odio perferendis explicabo.",
+        "Id": 647,
+        "Name": "Ferry, O'Connell and Hilpert",
+        "ToolTip": "Eos voluptates quo harum tenetur maxime.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "et",
-        "ColorBlock": 326,
-        "IconHint": "doloribus",
+        "Rank": 42,
+        "Type": "nihil",
+        "ColorBlock": 393,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2009-04-30T13:28:33.1638597+02:00",
+        "LastChanged": "2023-11-07T04:02:07.4167631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Trevion Kris",
+        "ExtraInfo": "sint",
+        "StyleHint": "eius",
+        "Hidden": true,
+        "FullName": "Vada Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 702
+            "FieldType": "System.String",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Dr. Jamil Parisian",
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Johnathan Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldType": "System.Int32",
+        "FieldLength": 981
       }
     }
   }

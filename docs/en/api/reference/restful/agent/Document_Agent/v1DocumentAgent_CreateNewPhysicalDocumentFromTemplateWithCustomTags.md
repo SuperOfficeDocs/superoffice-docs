@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 388,
-  "PersonId": 702,
-  "AppointmentId": 741,
-  "DocumentId": 664,
-  "SaleId": 944,
-  "SelectionId": 858,
-  "ProjectId": 837,
+  "ContactId": 517,
+  "PersonId": 663,
+  "AppointmentId": 941,
+  "DocumentId": 422,
+  "SaleId": 215,
+  "SelectionId": 468,
+  "ProjectId": 294,
   "CustomTags": [
-    "vel",
-    "nihil"
+    "aut",
+    "quam"
   ],
   "CustomValues": [
-    "voluptas",
-    "quia"
+    "quisquam",
+    "odio"
   ],
-  "UiCulture": "optio"
+  "UiCulture": "earum"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 933,
+  "DocumentId": 856,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "perferendis",
-  "Name": "Mitchell, Von and Schultz",
-  "OurRef": "ut",
-  "YourRef": "aut",
-  "CreatedDate": "2022-02-01T13:28:22.5542256+01:00",
-  "UpdatedDate": "2014-04-25T13:28:22.5542256+02:00",
-  "Description": "Extended mission-critical process improvement",
+  "Attention": "dolorum",
+  "Header": "fugit",
+  "Name": "Maggio, O'Conner and Gutkowski",
+  "OurRef": "laudantium",
+  "YourRef": "tempora",
+  "CreatedDate": "2001-07-02T04:02:01.6280068+02:00",
+  "UpdatedDate": "2024-03-08T04:02:01.6280068+01:00",
+  "Description": "Synergized didactic leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-04-30T13:28:22.5542256+02:00",
-  "ExternalRef": "facere",
+  "Date": "2018-12-24T04:02:01.6280068+01:00",
+  "ExternalRef": "ullam",
   "Completed": "Completed",
-  "ActiveLinks": 688,
+  "ActiveLinks": 516,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kihn-Dickinson",
-      "Id": 348,
-      "Description": "Integrated disintermediate artificial intelligence",
-      "ExtraInfo": "architecto",
-      "LinkId": 532,
+      "EntityName": "Steuber, Wisoky and Ebert",
+      "Id": 974,
+      "Description": "Fully-configurable 24/7 product",
+      "ExtraInfo": "et",
+      "LinkId": 59,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 780
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 514,
-  "Snum": 32,
+  "SuggestedDocumentId": 964,
+  "Snum": 898,
   "UserDefinedFields": {
-    "SuperOffice:1": "Emilia Rutherford",
-    "SuperOffice:2": "Alverta Kirk Gorczany MD"
+    "SuperOffice:1": "Germaine Macejkovic",
+    "SuperOffice:2": "Prof. Nya Tyrese Reinger MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "id",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2023-02-05T13:28:22.5542256+01:00",
-  "PublishTo": "2017-09-17T13:28:22.5542256+02:00",
-  "PublishFrom": "2011-08-05T13:28:22.5542256+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-11-24T04:02:01.6280068+01:00",
+  "PublishTo": "1997-09-07T04:02:01.6280068+02:00",
+  "PublishFrom": "2013-05-15T04:02:01.6280068+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 429
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 429
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

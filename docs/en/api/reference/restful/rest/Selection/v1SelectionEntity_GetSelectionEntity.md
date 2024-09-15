@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Mar 2003 13:28:32 G3T
+Last-Modified: Wed, 14 Dec 2022 04:02:06 G12T
 
 {
-  "Description": "Open-source empowering parallelism",
-  "Postit": "sint",
+  "Description": "Up-sized 24 hour frame",
+  "Postit": "adipisci",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 383,
-  "IncludePerson": 604,
+  "GroupIdx": 724,
+  "IncludePerson": 250,
   "MemberCount": 99.99,
-  "Name": "Tremblay, Schmidt and Kshlerin",
-  "PostitTextId": 823,
-  "CreatedDate": "2024-04-12T13:28:32.2261252+02:00",
-  "SelectionId": 870,
-  "SoundEx": "aut",
-  "Source": 564,
-  "TextId": 397,
-  "UpdatedDate": "2003-03-23T13:28:32.2261252+01:00",
-  "UpdatedCount": 287,
-  "Visibility": 636,
+  "Name": "Hansen, Hudson and Lind",
+  "PostitTextId": 679,
+  "CreatedDate": "2014-08-19T04:02:06.8222516+02:00",
+  "SelectionId": 95,
+  "SoundEx": "libero",
+  "Source": 68,
+  "TextId": 696,
+  "UpdatedDate": "2022-12-14T04:02:06.8222516+01:00",
+  "UpdatedCount": 920,
+  "Visibility": 175,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 403,
-  "TargetTableName": "Altenwerth-Gleason",
+  "TargetTableNumber": 693,
+  "TargetTableName": "Kerluke Group",
   "Completed": false,
-  "LeftSelectionId": 44,
-  "RightSelectionId": 196,
+  "LeftSelectionId": 967,
+  "RightSelectionId": 855,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow-Bechtelar",
-  "ShadowProviderName": "Buckridge-Crona",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "2005-02-13T13:28:32.2261252+01:00",
-  "LastLoadedBy": 212,
+  "MainProviderName": "Steuber, Renner and Rutherford",
+  "ShadowProviderName": "Crooks, Crooks and Medhurst",
+  "ChartKey": "libero",
+  "LastLoaded": "2009-02-01T04:02:06.8222516+01:00",
+  "LastLoadedBy": 352,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-07-28T13:28:32.2261252+02:00",
-  "LastMembershipChangeBy": 803,
+  "LastMembershipChange": "1999-12-19T04:02:06.8222516+01:00",
+  "LastMembershipChangeBy": 30,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "praesentium",
-  "MemberTabHeading": "accusantium",
-  "MailingsProviderName": "Will, Dickinson and Pagac",
-  "DashboardTileDefinitionId": 722,
+  "MainHeading": "qui",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Rice, Heidenreich and Smith",
+  "DashboardTileDefinitionId": 310,
   "VisibleFor": [
     {
-      "VisibleId": 626,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 748
         }
       }
     },
     {
-      "VisibleId": 626,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 748
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Sun, 23 Mar 2003 13:28:32 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 593
     }
   },
   "_Links": {

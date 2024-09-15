@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequuntur",
-  "ProviderName": "Kihn LLC",
-  "StorageKey": "dignissimos",
+  "StorageType": "qui",
+  "ProviderName": "Schaefer Group",
+  "StorageKey": "earum",
   "DesiredColumns": [
-    "voluptas",
-    "necessitatibus"
+    "accusantium",
+    "quo"
   ],
-  "PageSize": 625,
-  "PageNumber": 962,
+  "PageSize": 289,
+  "PageNumber": 797,
   "OrderBy": [
     {
-      "Name": "Ferry-Daugherty",
+      "Name": "Cartwright LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Ferry-Daugherty",
+      "Name": "Cartwright LLC",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Harber, Blick and Jaskolski",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "nisi",
-      "CanOrderBy": false,
-      "Name": "Robel, Moore and Lowe",
-      "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Rempel, Wolf and Wehner",
-      "IsVisible": false,
-      "ExtraInfo": "exercitationem",
-      "Width": "quis",
-      "IconHint": "debitis",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Funk, Hessel and Roberts",
+      "DisplayTooltip": "deserunt",
+      "DisplayType": "ab",
+      "CanOrderBy": true,
+      "Name": "Macejkovic LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "corporis",
+      "RestrictionListName": "Wyman, Reinger and Reichel",
+      "IsVisible": true,
+      "ExtraInfo": "sed",
+      "Width": "occaecati",
+      "IconHint": "soluta",
+      "HeadingIconHint": "labore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Roberts-Lang",
-      "PrimaryKey": 631,
+      "EntityName": "Bashirian, Emmerich and Hodkiewicz",
+      "PrimaryKey": 493,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "dolores",
-          "LinkHint": "voluptatum"
+          "DisplayValue": "nostrum",
+          "TooltipHint": "dignissimos",
+          "LinkHint": "aut"
         }
       },
       "LinkHint": "quo",
-      "StyleHint": "quis",
+      "StyleHint": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 926
         }
       }
     }
   ],
-  "RowCount": 665,
+  "RowCount": 374,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

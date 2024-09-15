@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Farrell LLC",
-    "DisplayName": "Larson Inc and Sons",
-    "Description": "Ergonomic high-level extranet",
-    "ShortLabel": "perspiciatis",
-    "HideLabel": true,
+    "FieldName": "Ward, Ernser and Rath",
+    "DisplayName": "Gerlach-Doyle",
+    "Description": "Reverse-engineered multi-state info-mediaries",
+    "ShortLabel": "excepturi",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 412,
-    "TemplateVariableName": "Rowe-Fritsch"
+    "IsDisplayField": true,
+    "Rank": 620,
+    "TemplateVariableName": "Shields, Hane and Nienow"
   }
 ]
 ```

@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Predovic, Bartoletti and Klocko",
-      "Operator": "quae",
+      "Name": "Medhurst, Bosco and Batz",
+      "Operator": "sed",
       "Values": [
-        "incidunt",
-        "quas"
+        "quas",
+        "odit"
       ],
       "DisplayValues": [
-        "doloribus",
-        "maxime"
+        "animi",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 14,
+      "InterParenthesis": 206,
       "InterOperator": "And",
-      "UniqueHash": 748
+      "UniqueHash": 283
     }
   ],
   "Columns": [
-    "ea",
-    "enim"
+    "adipisci",
+    "ipsa"
   ],
-  "ConnectionId": 142,
+  "ConnectionId": 527,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "voluptate",
-        "et"
+        "quas",
+        "qui"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "debitis",
+      "ExternalKey": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldLength": 120
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Koepp, Rolfson and Toy",
-      "DisplayName": "Steuber Group",
+      "Name": "Barton Inc and Sons",
+      "DisplayName": "Kihn-Hills",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 192
         }
       }
     },
     {
-      "Name": "Koepp, Rolfson and Toy",
-      "DisplayName": "Steuber Group",
+      "Name": "Barton Inc and Sons",
+      "DisplayName": "Kihn-Hills",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 192
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   }
 }

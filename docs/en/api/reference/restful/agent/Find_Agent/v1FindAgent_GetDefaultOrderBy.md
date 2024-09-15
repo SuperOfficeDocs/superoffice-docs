@@ -80,9 +80,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Gleason-Tromp",
-  "StorageKey": "eligendi"
+  "StorageType": "et",
+  "ProviderName": "Gleason, Kiehn and Bednar",
+  "StorageKey": "eos"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan-Will",
+    "Name": "Smitham, Wiza and DuBuque",
     "Direction": "ASC"
   },
   {
-    "Name": "Bogan-Will",
+    "Name": "Smitham, Wiza and DuBuque",
     "Direction": "ASC"
   }
 ]

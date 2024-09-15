@@ -79,29 +79,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "quia",
-      "ValueType": "odio",
+      "Key": "tenetur",
+      "ValueType": "omnis",
       "Mandatory": false,
-      "EncodedDisplayName": "Langosh, Kuphal and Romaguera",
-      "EncodedDisplayDescription": "Automated local contingency",
-      "IconHint": "aut",
+      "EncodedDisplayName": "Prosacco, Bradtke and Lakin",
+      "EncodedDisplayDescription": "Cross-platform tertiary application",
+      "IconHint": "consequuntur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "Proactive intermediate knowledge user",
-      "CurrentOperationType": "maxime",
+      "EncodedDataCaption": "ut",
+      "EncodedDataCaptionDescription": "Organized context-sensitive hub",
+      "CurrentOperationType": "mollitia",
       "Values": [
-        "eligendi",
-        "mollitia"
+        "eum",
+        "saepe"
       ],
       "DisplayValues": [
-        "similique",
-        "voluptas"
+        "hic",
+        "et"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Greenholt Inc and Sons",
-  "Context": "dolor",
-  "SelectionId": 962,
-  "IsShadow": true
+  "TableName": "Christiansen-Quigley",
+  "Context": "porro",
+  "SelectionId": 703,
+  "IsShadow": false
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-982
+445
 ```

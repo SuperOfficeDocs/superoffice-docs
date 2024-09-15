@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=sunt
-GET /api/v1/SystemEvent?$top=689
-GET /api/v1/SystemEvent?$skip=97
+GET /api/v1/SystemEvent?$entities=labore
+GET /api/v1/SystemEvent?$top=637
+GET /api/v1/SystemEvent?$skip=733
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=esse
+GET /api/v1/SystemEvent?$context=eum
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laboriosam",
+  "odata.nextLink": "quasi",
   "value": [
     {
-      "PrimaryKey": 8869,
+      "PrimaryKey": 4955,
       "EntityName": "sale",
-      "saleId": 8869,
-      "contactId": 3929,
-      "name": "Walker-Koepp"
+      "saleId": 4955,
+      "contactId": 9935,
+      "name": "Hauck, Reynolds and Kirlin"
     },
     {
-      "PrimaryKey": 8955,
+      "PrimaryKey": 6282,
       "EntityName": "sale",
-      "saleId": 8955,
-      "contactId": 4154,
-      "name": "Batz-Bernier"
+      "saleId": 6282,
+      "contactId": 8369,
+      "name": "Kunze-Conroy"
     }
   ]
 }

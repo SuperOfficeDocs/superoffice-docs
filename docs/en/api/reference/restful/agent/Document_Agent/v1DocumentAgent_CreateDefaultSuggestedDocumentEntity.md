@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,13 +77,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 507,
-  "Name": "Herzog Group",
-  "Tooltip": "incidunt",
-  "Rank": 887,
-  "DoctmplId": 417,
-  "Header": "aut",
-  "OurRef": "ad",
+  "SuggestedDocumentId": 419,
+  "Name": "Hintz-Dach",
+  "Tooltip": "sit",
+  "Rank": 232,
+  "DoctmplId": 134,
+  "Header": "officiis",
+  "OurRef": "possimus",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

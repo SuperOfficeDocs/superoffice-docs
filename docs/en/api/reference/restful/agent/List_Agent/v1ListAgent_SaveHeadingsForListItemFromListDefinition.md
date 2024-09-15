@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 966,
-  "ListItemId": 724,
+  "UdListDefinitionId": 564,
+  "ListItemId": 993,
   "Headings": [
     {
-      "Id": 895,
-      "Name": "Borer, Bauch and Waelchi",
-      "ToolTip": "Voluptatum non a.",
-      "Deleted": true,
-      "Rank": 649,
-      "Type": "at",
-      "ColorBlock": 209,
-      "IconHint": "mollitia",
+      "Id": 33,
+      "Name": "Jacobi-Altenwerth",
+      "ToolTip": "Vel repellat in.",
+      "Deleted": false,
+      "Rank": 521,
+      "Type": "est",
+      "ColorBlock": 323,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2014-03-27T13:28:22.9449983+01:00",
+      "LastChanged": "2009-09-24T04:02:01.847234+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "ea",
+      "ExtraInfo": "tempore",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Ralph Ullrich"
+      "FullName": "Juvenal Sporer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 930,
-    "Name": "Sawayn-Hauck",
-    "ToolTip": "Omnis ipsam est sunt quibusdam id voluptas nisi.",
+    "Id": 111,
+    "Name": "Hackett Inc and Sons",
+    "ToolTip": "Sunt beatae ut minus aut dolorum est alias.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "itaque",
-    "ColorBlock": 892,
-    "IconHint": "dicta",
+    "Rank": 499,
+    "Type": "dolorem",
+    "ColorBlock": 213,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2017-07-31T13:28:22.9449983+02:00",
+    "LastChanged": "2003-05-31T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "VonRueden Group",
-        "ToolTip": "Distinctio enim dolorem pariatur blanditiis.",
+        "Id": 313,
+        "Name": "Collins LLC",
+        "ToolTip": "Ratione architecto.",
         "Deleted": false,
-        "Rank": 631,
-        "Type": "facere",
-        "ColorBlock": 973,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2019-12-16T13:28:22.9449983+01:00",
+        "Rank": 139,
+        "Type": "cupiditate",
+        "ColorBlock": 132,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "2017-01-02T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Arianna Reinger",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Mr. Jaylen Augusta Klocko DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldType": "System.String",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Charles Wilderman",
+    "FullName": "Mr. Jan Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldLength": 452
       }
     }
   }

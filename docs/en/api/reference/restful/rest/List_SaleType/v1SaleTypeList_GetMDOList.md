@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=eveniet
+GET /api/v1/List/SaleType/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Gerlach LLC",
-    "ToolTip": "Aliquid necessitatibus ducimus odio voluptate sapiente impedit fugit.",
-    "Deleted": false,
-    "Rank": 536,
-    "Type": "reiciendis",
+    "Id": 338,
+    "Name": "Reinger-Davis",
+    "ToolTip": "Veritatis in repudiandae.",
+    "Deleted": true,
+    "Rank": 339,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Torphy-Borer",
-        "ToolTip": "Soluta aliquam dolorum.",
+        "Id": 495,
+        "Name": "Turcotte, Osinski and Vandervort",
+        "ToolTip": "Asperiores laborum earum hic voluptatem non.",
         "Deleted": false,
-        "Rank": 266,
-        "Type": "et",
+        "Rank": 291,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 774,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "a",
-        "FullName": "Miss Aubree Travis Bahringer",
+        "IconHint": "modi",
+        "ColorBlock": 376,
+        "ExtraInfo": "placeat",
+        "StyleHint": "in",
+        "FullName": "Mr. Libby O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 826
+            "FieldLength": 626
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 193,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "non",
-    "FullName": "Suzanne Botsford DVM",
+    "IconHint": "quibusdam",
+    "ColorBlock": 760,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "est",
+    "FullName": "Miss Hollis Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldLength": 899
       }
     }
   }

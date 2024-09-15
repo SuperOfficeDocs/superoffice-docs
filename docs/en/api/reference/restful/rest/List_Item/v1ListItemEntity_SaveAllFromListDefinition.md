@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Brown-Anderson",
-    "Tooltip": "libero",
+    "Id": 113,
+    "Name": "Parisian-Boyle",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 872,
-    "Rank": 557
+    "UdListDefinitionId": 420,
+    "Rank": 360
   },
   {
-    "Id": 634,
-    "Name": "Brown-Anderson",
-    "Tooltip": "libero",
+    "Id": 113,
+    "Name": "Parisian-Boyle",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 872,
-    "Rank": 557
+    "UdListDefinitionId": 420,
+    "Rank": 360
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Maggio-Senger",
-    "Tooltip": "commodi",
+    "Id": 454,
+    "Name": "Trantow, Heaney and Christiansen",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "UdListDefinitionId": 387,
-    "Rank": 367,
+    "UdListDefinitionId": 789,
+    "Rank": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldLength": 461
       }
     }
   }

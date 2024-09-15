@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 462,
-  "Name": "Lemke-Heidenreich",
+  "ScreenChooserId": 315,
+  "Name": "Wilkinson, King and Hagenes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "assumenda",
-  "Source": "occaecati",
-  "Registered": "2004-04-23T13:28:32.4135814+02:00",
-  "RegisteredAssociateId": 631,
-  "Updated": "2023-07-28T13:28:32.4135814+02:00",
-  "UpdatedAssociateId": 176
+  "UniqueIdentifier": "ut",
+  "Source": "pariatur",
+  "Registered": "2016-12-11T04:02:06.9316148+01:00",
+  "RegisteredAssociateId": 824,
+  "Updated": "2002-11-07T04:02:06.9316148+01:00",
+  "UpdatedAssociateId": 62
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 72,
-  "Name": "Kuvalis-Lebsack",
+  "ScreenChooserId": 676,
+  "Name": "Pfeffer, Braun and Dickinson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptas",
-  "Source": "neque",
-  "Registered": "2010-03-28T13:28:32.4135814+02:00",
-  "RegisteredAssociateId": 107,
-  "Updated": "2014-08-23T13:28:32.4135814+02:00",
-  "UpdatedAssociateId": 238,
+  "Enabled": false,
+  "UniqueIdentifier": "debitis",
+  "Source": "quae",
+  "Registered": "1997-12-23T04:02:06.9316148+01:00",
+  "RegisteredAssociateId": 371,
+  "Updated": "2004-12-24T04:02:06.9316148+01:00",
+  "UpdatedAssociateId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

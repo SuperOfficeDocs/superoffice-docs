@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 750
+  "TargetDimensionId": 677
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 664,
+    "TargetAssignmentInfoId": 338,
     "Values": [
-      870,
-      742
+      259,
+      739
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 920,
-    "DimensionListItemDisplayName": "Baumbach, Barton and Hickle",
+    "DimensionListItem": 693,
+    "DimensionListItemDisplayName": "Friesen-Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 698
       }
     }
   }

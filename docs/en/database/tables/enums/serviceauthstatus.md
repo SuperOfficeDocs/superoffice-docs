@@ -2,10 +2,10 @@
 uid: enum-serviceauthstatus
 title: Enum values for ServiceAuthStatus
 description: Lists the enum values for ServiceAuthStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ServiceAuthStatus Enum

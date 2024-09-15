@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=646
+POST /api/v1/Agents/User/GetUser?userId=615
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 259,
-  "Name": "Wolf, Haley and Walter",
-  "Rank": 344,
-  "Tooltip": "quia",
+  "AssociateId": 809,
+  "Name": "Hirthe Inc and Sons",
+  "Rank": 393,
+  "Tooltip": "aspernatur",
   "LicenseOwners": [
     {
-      "Name": "Kling-Durgan",
-      "Description": "Re-engineered attitude-oriented implementation",
+      "Name": "Powlowski-Altenwerth",
+      "Description": "Stand-alone optimal open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 308
         }
       }
     },
     {
-      "Name": "Kling-Durgan",
-      "Description": "Re-engineered attitude-oriented implementation",
+      "Name": "Powlowski-Altenwerth",
+      "Description": "Stand-alone optimal open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 308
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptas",
-      "Tooltip": "commodi",
-      "Id": 590,
-      "Rank": 807,
+      "Value": "similique",
+      "Tooltip": "est",
+      "Id": 740,
+      "Rank": 306,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 269
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2018-08-02T13:28:24.1635033+02:00",
-  "Lastlogout": "2011-12-05T13:28:24.1635033+01:00",
-  "EjUserId": 519,
-  "RequestSignature": "excepturi",
+  "Lastlogin": "2008-08-24T04:02:02.5509753+02:00",
+  "Lastlogout": "2019-10-29T04:02:02.5509753+01:00",
+  "EjUserId": 980,
+  "RequestSignature": "omnis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "molestias",
-      "DisplayValue": "quia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "molestias",
-      "DisplayValue": "quia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
-        }
-      }
-    }
-  ],
-  "UserName": "Wunsch Group",
-  "TicketCategories": [
-    {
-      "Id": 68,
-      "Name": "Crooks, Wilkinson and Baumbach",
-      "ToolTip": "Dignissimos accusamus beatae ipsum vel perferendis dolore.",
-      "Deleted": false,
-      "Rank": 268,
-      "Type": "tempore",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 968,
-      "ExtraInfo": "nam",
-      "StyleHint": "tenetur",
-      "FullName": "Trey Walsh",
+      "Value": "ab",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldLength": 694
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ab",
+      "DisplayValue": "id",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     }
   ],
-  "NickName": "Bartell, Willms and Padberg",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "ipsam"
-  },
-  "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "repellendus"
-  },
-  "PostSaveCommands": [
+  "UserName": "McClure-Mraz",
+  "TicketCategories": [
     {
-      "Name": "Lueilwitz, Cole and Muller",
-      "DisplayName": "Prohaska, Flatley and Padberg",
-      "Description": "Open-source object-oriented methodology",
-      "ToolTip": "Expedita sint commodi.",
-      "Actions": "Implicit",
-      "ActionData": "id",
+      "Id": 49,
+      "Name": "Kirlin Inc and Sons",
+      "ToolTip": "Est dolor.",
+      "Deleted": false,
+      "Rank": 647,
+      "Type": "aspernatur",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolorem",
+      "ColorBlock": 727,
+      "ExtraInfo": "cumque",
+      "StyleHint": "sed",
+      "FullName": "Wilma Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 445
+        }
+      }
+    }
+  ],
+  "NickName": "Swaniawski, Metz and Kertzmann",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "dolorem"
+  },
+  "CustomFields": {
+    "CustomFields1": "cum",
+    "CustomFields2": "iusto"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Aufderhar Group",
+      "DisplayName": "Hills, Schulist and Sporer",
+      "Description": "Managed bottom-line framework",
+      "ToolTip": "Non ipsum accusamus commodi rerum.",
+      "Actions": "Implicit",
+      "ActionData": "atque",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 830
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 938
     }
   }
 }

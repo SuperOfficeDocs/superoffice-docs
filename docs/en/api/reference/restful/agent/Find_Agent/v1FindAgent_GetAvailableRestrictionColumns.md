@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Murphy, Wyman and Ortiz"
+  "StorageType": "aut",
+  "ProviderName": "Kling, Bogan and Breitenberg"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aliquam",
-  "laborum"
+  "quasi",
+  "voluptatem"
 ]
 ```

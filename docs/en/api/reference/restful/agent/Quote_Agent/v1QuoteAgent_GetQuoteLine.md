@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 216
+  "QuoteLineId": 273
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 307,
-  "ERPQuoteLineKey": "nisi",
-  "QuoteAlternativeId": 111,
-  "ERPProductKey": "dolor",
+  "QuoteLineId": 934,
+  "ERPQuoteLineKey": "dicta",
+  "QuoteAlternativeId": 269,
+  "ERPProductKey": "veniam",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 4400.1359999999995,
-  "DeliveredQuantity": 23705.576,
-  "Rank": 427,
-  "Name": "Jakubowski-Pfeffer",
-  "Description": "Re-contextualized solution-oriented firmware",
-  "Code": "voluptas",
-  "QuantityUnit": "molestias",
-  "PriceUnit": "doloribus",
-  "ItemNumber": "1093738",
+  "Reason": "disintermediate B2B technologies",
+  "Quantity": 11279.266,
+  "DeliveredQuantity": 24896.496,
+  "Rank": 624,
+  "Name": "Maggio-Hermann",
+  "Description": "Fully-configurable discrete toolset",
+  "Code": "optio",
+  "QuantityUnit": "blanditiis",
+  "PriceUnit": "voluptatibus",
+  "ItemNumber": "1236617",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "ut",
-  "Supplier": "doloremque",
-  "SupplierCode": "harum",
-  "Thumbnail": "aut",
-  "VATInfo": "deleniti",
-  "VAT": 21602.662,
-  "UnitCost": 6590.802,
-  "UnitMinimumPrice": 7013.892,
-  "UnitListPrice": 18775.793999999998,
+  "ProductFamilyKey": "numquam",
+  "ProductTypeKey": "vero",
+  "Supplier": "saepe",
+  "SupplierCode": "praesentium",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "cumque",
+  "VAT": 219.38,
+  "UnitCost": 16967.476,
+  "UnitMinimumPrice": 12341.692,
+  "UnitListPrice": 8233.018,
   "ExtraInfo": [
     {
-      "Name": "Jerde-Corkery",
-      "Value": "aliquam",
+      "Name": "Swaniawski-Kiehn",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 516
         }
       }
     },
     {
-      "Name": "Jerde-Corkery",
-      "Value": "aliquam",
+      "Name": "Swaniawski-Kiehn",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 516
         }
       }
     }
   ],
-  "RawExtraInfo": "quidem",
+  "RawExtraInfo": "harum",
   "IsSubscription": false,
-  "SubscriptionUnit": "earum",
-  "SubscriptionQuantity": 15983.4,
-  "SubscriptionStart": "2000-09-18T13:28:23.5855044+02:00",
-  "ERPDiscountPercent": 8211.08,
-  "ERPDiscountAmount": 18239.88,
-  "DiscountPercent": 15105.88,
-  "DiscountAmount": 10044.47,
+  "SubscriptionUnit": "est",
+  "SubscriptionQuantity": 28406.575999999997,
+  "SubscriptionStart": "2010-10-03T04:02:02.2222071+02:00",
+  "ERPDiscountPercent": 9210.826,
+  "ERPDiscountAmount": 19380.656,
+  "DiscountPercent": 2613.756,
+  "DiscountAmount": 1404.032,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3883.026,
-  "EarningAmount": 6816.45,
-  "SubTotal": 27751.57,
-  "TotalPrice": 9962.985999999999,
-  "Rights": "cupiditate",
-  "Rule": "sed",
-  "ExtraField1": "explicabo",
-  "ExtraField2": "incidunt",
-  "ExtraField3": "voluptatibus",
-  "ExtraField4": "minus",
-  "ExtraField5": "voluptas",
+  "EarningPercent": 25770.881999999998,
+  "EarningAmount": 2118.584,
+  "SubTotal": 23573.948,
+  "TotalPrice": 21621.466,
+  "Rights": "sequi",
+  "Rule": "maxime",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "esse",
+  "ExtraField3": "sunt",
+  "ExtraField4": "qui",
+  "ExtraField5": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldLength": 995
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Schulist Inc and Sons",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 932,
+  "Id": 292,
+  "Name": "Fay Group",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 460,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
+  "ListType": "esse",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "Name": "O'Hara-McDermott",
-  "Tooltip": "necessitatibus",
+  "Id": 526,
+  "Name": "Beatty, Lueilwitz and Volkman",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 661,
+  "Rank": 15,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minima",
+  "UseGroupsAndHeadings": true,
+  "ListType": "unde",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

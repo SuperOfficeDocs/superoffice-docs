@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 896,
-    "Name": "Hermiston LLC",
-    "Tooltip": "voluptatum",
+    "HeadingId": 694,
+    "Name": "Bednar Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 828,
-    "UdListDefinitionId": 625,
+    "Rank": 673,
+    "UdListDefinitionId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

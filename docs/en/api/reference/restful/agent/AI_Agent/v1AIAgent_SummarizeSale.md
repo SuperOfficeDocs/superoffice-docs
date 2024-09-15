@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 846,
-  "NumSentences": 992,
-  "IsoLangCode": "assumenda"
+  "SaleId": 285,
+  "NumSentences": 464,
+  "IsoLangCode": "alias"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nisi"
+"labore"
 ```

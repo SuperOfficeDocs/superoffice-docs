@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 478,
-  "Name": "Jerde LLC",
-  "Tooltip": "nesciunt",
-  "Rank": 678,
-  "Rate": 15638.66,
-  "Units": 22138.576,
+  "CurrencyId": 957,
+  "Name": "Rath LLC",
+  "Tooltip": "sit",
+  "Rank": 425,
+  "Rate": 23407.845999999998,
+  "Units": 19255.296,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 840
     }
   }
 }

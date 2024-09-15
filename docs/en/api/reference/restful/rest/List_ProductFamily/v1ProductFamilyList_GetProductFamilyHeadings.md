@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 913,
-    "Name": "Kozey, Howe and Huel",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 311,
-    "UdListDefinitionId": 10,
+    "HeadingId": 479,
+    "Name": "Bahringer-Collins",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 561,
+    "UdListDefinitionId": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 944
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Lind LLC",
-    "ToolTip": "Ut libero eos repellat debitis ducimus et et.",
+    "Id": 29,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Autem et explicabo aut quas et.",
     "Deleted": true,
-    "Rank": 285,
-    "Type": "voluptates",
-    "ColorBlock": 352,
-    "IconHint": "dolores",
+    "Rank": 916,
+    "Type": "non",
+    "ColorBlock": 903,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2023-06-10T13:28:32.7572536+02:00",
+    "LastChanged": "2006-12-09T04:02:07.119095+01:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Herman Group",
-        "ToolTip": "Voluptatem laborum quos velit odio aut.",
-        "Deleted": true,
-        "Rank": 862,
-        "Type": "eos",
-        "ColorBlock": 341,
-        "IconHint": "occaecati",
+        "Id": 939,
+        "Name": "Pfeffer, Robel and Daugherty",
+        "ToolTip": "Doloribus optio a.",
+        "Deleted": false,
+        "Rank": 950,
+        "Type": "ut",
+        "ColorBlock": 453,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2011-05-28T13:28:32.7572536+02:00",
+        "LastChanged": "2005-06-09T04:02:07.119095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "eum",
+        "ExtraInfo": "beatae",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Tom Donny Schaden II",
+        "FullName": "Arjun Isaias Mraz MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Leonor Brekke",
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptatum",
+    "Hidden": true,
+    "FullName": "Jefferey Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldLength": 28
       }
     }
   }

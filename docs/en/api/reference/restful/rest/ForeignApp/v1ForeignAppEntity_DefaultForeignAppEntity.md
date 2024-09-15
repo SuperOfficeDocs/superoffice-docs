@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 15 Aug 2001 13:28:31 G8T
+Last-Modified: Sun, 02 Oct 2016 04:02:06 G10T
 
 {
-  "ForeignAppId": 301,
-  "Name": "Swift LLC",
-  "CreatedDate": "2003-06-10T13:28:31.6792414+02:00",
-  "UpdatedDate": "2001-08-15T13:28:31.6792414+02:00",
+  "ForeignAppId": 599,
+  "Name": "Bergstrom Inc and Sons",
+  "CreatedDate": "2004-03-26T04:02:06.6035245+01:00",
+  "UpdatedDate": "2016-10-02T04:02:06.6035245+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 244,
-      "Name": "Block, Cremin and Hahn",
-      "CreatedDate": "2000-06-23T13:28:31.6792414+02:00",
-      "UpdatedDate": "2008-06-18T13:28:31.6792414+02:00",
-      "AssociateFullName": "Jovan Goldner",
-      "CreatedBy": "excepturi",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "consequuntur",
-      "ForeignAppId": 318,
+      "ForeignDeviceId": 498,
+      "Name": "Luettgen, Wunsch and Upton",
+      "CreatedDate": "2006-04-03T04:02:06.6035245+02:00",
+      "UpdatedDate": "2010-11-12T04:02:06.6035245+01:00",
+      "AssociateFullName": "Devan Sherwood Bode II",
+      "CreatedBy": "eum",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 379,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldType": "System.Int32",
+          "FieldLength": 465
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Wed, 15 Aug 2001 13:28:31 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldType": "System.String",
+      "FieldLength": 991
     }
   }
 }

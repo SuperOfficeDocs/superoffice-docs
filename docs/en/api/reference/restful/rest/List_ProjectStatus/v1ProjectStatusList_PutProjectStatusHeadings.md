@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Schroeder, King and Klein",
-    "Tooltip": "cupiditate",
+    "HeadingId": 431,
+    "Name": "Stanton Group",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 150,
-    "UdListDefinitionId": 522
+    "Rank": 631,
+    "UdListDefinitionId": 738
   },
   {
-    "HeadingId": 264,
-    "Name": "Schroeder, King and Klein",
-    "Tooltip": "cupiditate",
+    "HeadingId": 431,
+    "Name": "Stanton Group",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 150,
-    "UdListDefinitionId": 522
+    "Rank": 631,
+    "UdListDefinitionId": 738
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 90,
-    "Name": "Maggio-Rempel",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 571,
-    "UdListDefinitionId": 927,
+    "HeadingId": 718,
+    "Name": "Ziemann-Stark",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 224,
+    "UdListDefinitionId": 523,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 66
       }
     }
   }

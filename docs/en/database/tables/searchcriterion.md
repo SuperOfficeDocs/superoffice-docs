@@ -2,10 +2,10 @@
 uid: table-SearchCriterion
 title: SearchCriterion table
 description: Criteria storage for Selection and other Find mechanisms
-generated: true
+so.generated: true
 keywords: database table SearchCriterion
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SearchCriterion Table (203)

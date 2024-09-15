@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Roob, Prohaska and Ortiz",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 664,
-  "Rank": 994,
+  "Id": 758,
+  "Name": "Schumm Group",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 705,
+  "Rank": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldLength": 798
     }
   }
 }

@@ -319,6 +319,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description| *None* |Description: The long description field on Sale|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow| *None* |Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID| x |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field| x |
@@ -327,12 +329,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName| *None* |First name: Displays the contact's first name| x |
-|sale/associate/lastName| *None* |Last name: Displays the contact's last name| x |
-|sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/lastName| *None* |Last name: Displays the contact's last name| x |
+|sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
@@ -431,12 +433,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |appointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|appointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/associateDbId| *None* |ID| x |
 |appointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to| x |
@@ -535,12 +537,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/otherGroups| *None* |Other groups: Other groups|  |
 |document/associate/userName| *None* |User name: User name| x |
 |document/associate/personEmail| *None* |E-mail| x |
-|document/associate/locationAddress| *None* |Location: Location| x |
-|document/associate/isLocation| *None* |Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/locationAddress| *None* |Location: Location| x |
+|document/associate/isLocation| *None* |Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1| *None* |documentshorttext| x |
 |document/documentUdef/SuperOffice:2| *None* |documentlongtext| x |
 |document/documentUdef/SuperOffice:3| *None* |documentnumber| x |
@@ -639,12 +641,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|subscription|listAny|Subscription: Subscription for marketing| x |
-|legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|subscription|listAny|Subscription: Subscription for marketing| x |
+|legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -743,12 +745,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personTargetRelation/fullName| *None* |Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId| *None* |Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personTargetRelation/position| *None* |Target - Position| x |
 |personTargetRelation/personNumber| *None* |Target - Number: Displays the contact's number| x |
@@ -847,12 +849,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/assocTooltip| *None* |Description : Description|  |
 |correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service| x |
 |correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -951,12 +953,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
 |request/ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
 |request/ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/associateDbId| *None* |Owner - ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|request/ownedBy/associateDbId| *None* |Owner - ID| x |
 |request/ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group| x |
@@ -1055,12 +1057,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMembers/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?| x |
-|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMembers/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|projectMembers/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName| *None* |User name: User name| x |
 |projectMembers/projectAssociate/personEmail| *None* |E-mail| x |
 |projectMembers/projectAssociate/locationAddress| *None* |Location: Location| x |
@@ -1159,12 +1161,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |personAppointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|personAppointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|personAppointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|personAppointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/associateDbId| *None* |ID| x |
 |personAppointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
@@ -1202,7 +1204,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=postAddress/formattedAddress,NumberOfSales,sourceRelation/who,sale/saleId,sale/registeredByFullName
+GET /api/v1/archive/ContactSelection?$select=activeErpLinks,sale/amount,sale/saleUdef/SuperOffice:4,position,consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

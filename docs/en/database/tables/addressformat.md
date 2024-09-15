@@ -2,10 +2,10 @@
 uid: table-AddressFormat
 title: AddressFormat table
 description: Address formats for GUI and labels. See more information; Addressformat on http;//techdoc.superoffice.com
-generated: true
+so.generated: true
 keywords: database table AddressFormat
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AddressFormat Table (57)

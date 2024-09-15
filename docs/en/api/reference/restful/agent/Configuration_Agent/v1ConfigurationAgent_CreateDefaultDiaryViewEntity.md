@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 743,
-  "Name": "Ortiz Inc and Sons",
-  "Tooltip": "saepe",
-  "VisibleColumns": 255,
-  "Rank": 915,
-  "AssocId": 30,
+  "DiaryViewId": 637,
+  "Name": "Batz-Stoltenberg",
+  "Tooltip": "et",
+  "VisibleColumns": 103,
+  "Rank": 281,
+  "AssocId": 374,
   "AssociateList": [
     {
-      "Id": 321,
-      "Name": "Corwin Inc and Sons",
-      "ToolTip": "Vitae et voluptatibus dolorum qui eum deserunt aut.",
+      "Id": 484,
+      "Name": "Terry-McCullough",
+      "ToolTip": "Officiis ut sunt consequatur.",
       "Deleted": false,
-      "Rank": 79,
-      "Type": "ut",
-      "ColorBlock": 275,
-      "IconHint": "ipsum",
+      "Rank": 603,
+      "Type": "enim",
+      "ColorBlock": 548,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2009-12-19T13:28:22.1636887+01:00",
+      "LastChanged": "2011-09-06T04:02:01.4092709+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deserunt",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Gideon Johnathon Considine Jr.",
+      "ExtraInfo": "animi",
+      "StyleHint": "odit",
+      "Hidden": true,
+      "FullName": "Miss Zachery Abernathy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 839
         }
       }
     }
   ],
-  "TzLocationId": 454,
+  "TzLocationId": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldLength": 697
     }
   }
 }

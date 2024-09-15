@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 278,
-  "StartTime": "2009-04-09T13:28:22.4448744+02:00",
-  "EndTime": "1998-04-08T13:28:22.4448744+02:00",
-  "Count": 605,
-  "DocumentTemplateId": 145
+  "ContactId": 591,
+  "StartTime": "2022-12-12T04:02:01.5655043+01:00",
+  "EndTime": "2007-03-04T04:02:01.5655043+01:00",
+  "Count": 895,
+  "DocumentTemplateId": 492
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 632,
-    "Attention": "et",
-    "Header": "voluptates",
-    "Name": "Buckridge, Schuppe and Bernhard",
-    "OurRef": "quibusdam",
-    "YourRef": "similique",
-    "Description": "Streamlined value-added algorithm",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": true,
-    "PersonId": 908,
-    "PersonFullName": "Ms. Marilie Kaleb Kuhlman MD",
-    "AssociateFullName": "Mustafa Schowalter MD",
-    "ContactId": 725,
-    "ContactName": "Sanford Inc and Sons",
-    "ProjectId": 844,
-    "ProjectName": "Rice-Sauer",
-    "AssociateId": 20,
-    "Snum": 989,
-    "SaleId": 816,
-    "SaleName": "Luettgen, Schuppe and Jacobs",
+    "DocumentId": 976,
+    "Attention": "praesentium",
+    "Header": "dicta",
+    "Name": "Littel Group",
+    "OurRef": "a",
+    "YourRef": "qui",
+    "Description": "Cross-group dynamic superstructure",
+    "DocumentTemplate": "suscipit",
+    "IsPublished": false,
+    "PersonId": 289,
+    "PersonFullName": "Miss Savannah Oberbrunner",
+    "AssociateFullName": "Miss Jaylon Larson PhD",
+    "ContactId": 63,
+    "ContactName": "Corwin LLC",
+    "ProjectId": 415,
+    "ProjectName": "Schmidt LLC",
+    "AssociateId": 858,
+    "Snum": 969,
+    "SaleId": 982,
+    "SaleName": "Berge-Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

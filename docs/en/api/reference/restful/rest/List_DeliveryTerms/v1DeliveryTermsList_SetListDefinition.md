@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Beer Group",
-  "Tooltip": "veritatis",
+  "Id": 118,
+  "Name": "Pfannerstill, Klein and Zieme",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 880,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 168,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": false
+  "ListType": "quae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "Nikolaus, Leannon and Wilkinson",
-  "Tooltip": "consequuntur",
+  "Id": 946,
+  "Name": "Anderson, O'Conner and Gorczany",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 414,
-  "IsCustomList": false,
+  "Rank": 565,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

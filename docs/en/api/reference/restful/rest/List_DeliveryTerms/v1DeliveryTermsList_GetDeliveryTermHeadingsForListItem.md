@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Franecki Inc and Sons",
-    "ToolTip": "Molestiae quasi tempora.",
+    "Id": 517,
+    "Name": "Wilkinson Inc and Sons",
+    "ToolTip": "Sunt minus.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "expedita",
-    "ColorBlock": 231,
-    "IconHint": "et",
+    "Rank": 784,
+    "Type": "aliquid",
+    "ColorBlock": 993,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1999-05-19T13:28:32.8197387+02:00",
+    "LastChanged": "2018-02-13T04:02:07.2284604+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Schuppe LLC",
-        "ToolTip": "Id aspernatur quisquam.",
+        "Id": 769,
+        "Name": "Homenick LLC",
+        "ToolTip": "Enim consectetur itaque illum quisquam saepe.",
         "Deleted": true,
-        "Rank": 352,
-        "Type": "numquam",
-        "ColorBlock": 257,
-        "IconHint": "omnis",
+        "Rank": 856,
+        "Type": "fuga",
+        "ColorBlock": 337,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1997-12-08T13:28:32.8197387+01:00",
+        "LastChanged": "2007-02-01T04:02:07.2284604+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "officiis",
+        "ExtraInfo": "ut",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Cristian O'Connell MD",
+        "FullName": "Kianna Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Elza Bartell",
+    "ExtraInfo": "illum",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Ernestine Krajcik II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldType": "System.String",
+        "FieldLength": 824
       }
     }
   }

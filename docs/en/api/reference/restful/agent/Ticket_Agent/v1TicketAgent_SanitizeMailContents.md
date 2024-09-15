@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "et",
-    "eum"
+    "ducimus",
+    "aut"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolore",
-  "et"
+  "fuga",
+  "voluptas"
 ]
 ```

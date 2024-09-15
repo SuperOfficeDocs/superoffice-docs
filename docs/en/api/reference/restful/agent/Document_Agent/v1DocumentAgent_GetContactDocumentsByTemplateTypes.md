@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 477,
-  "StartTime": "1998-08-10T13:28:22.4448744+02:00",
-  "EndTime": "2000-08-28T13:28:22.4448744+02:00",
-  "Count": 645,
+  "ContactId": 431,
+  "StartTime": "2013-09-14T04:02:01.5655043+02:00",
+  "EndTime": "2021-02-21T04:02:01.5655043+01:00",
+  "Count": 104,
   "DocumentTemplateIds": [
-    971,
-    861
+    512,
+    477
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 504,
-    "Attention": "ab",
-    "Header": "voluptatibus",
-    "Name": "Marquardt, Ferry and Morar",
-    "OurRef": "omnis",
-    "YourRef": "qui",
-    "Description": "Future-proofed static workforce",
-    "DocumentTemplate": "sit",
-    "IsPublished": true,
-    "PersonId": 738,
-    "PersonFullName": "Tessie Beer",
-    "AssociateFullName": "Leanna Predovic I",
-    "ContactId": 901,
-    "ContactName": "Bradtke, Senger and Simonis",
-    "ProjectId": 542,
-    "ProjectName": "Bernhard-Kunze",
-    "AssociateId": 317,
-    "Snum": 735,
-    "SaleId": 229,
-    "SaleName": "Rogahn-Wiza",
+    "DocumentId": 781,
+    "Attention": "nobis",
+    "Header": "mollitia",
+    "Name": "Kihn-Donnelly",
+    "OurRef": "qui",
+    "YourRef": "inventore",
+    "Description": "Customer-focused systematic capability",
+    "DocumentTemplate": "consequuntur",
+    "IsPublished": false,
+    "PersonId": 668,
+    "PersonFullName": "Elizabeth Boyer",
+    "AssociateFullName": "Reilly Goyette",
+    "ContactId": 499,
+    "ContactName": "Jakubowski-Ritchie",
+    "ProjectId": 460,
+    "ProjectName": "Hessel-Torphy",
+    "AssociateId": 141,
+    "Snum": 608,
+    "SaleId": 566,
+    "SaleName": "Cummings, Shanahan and Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 171
       }
     }
   }

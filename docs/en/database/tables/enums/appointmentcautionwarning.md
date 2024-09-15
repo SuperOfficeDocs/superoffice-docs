@@ -2,10 +2,10 @@
 uid: enum-appointmentcautionwarning
 title: Enum values for AppointmentCautionWarning
 description: Lists the enum values for AppointmentCautionWarning.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AppointmentCautionWarning Enum

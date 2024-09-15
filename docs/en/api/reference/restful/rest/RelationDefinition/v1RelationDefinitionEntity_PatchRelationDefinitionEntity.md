@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "at",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "at",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 290,
-  "Name": "Waelchi-Funk",
-  "Tooltip": "facilis",
-  "PassiveText": "architecto",
-  "Deleted": false,
-  "Rank": 488,
+  "ReldefId": 389,
+  "Name": "Reichel Inc and Sons",
+  "Tooltip": "veniam",
+  "PassiveText": "id",
+  "Deleted": true,
+  "Rank": 859,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 31
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 365,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 80,
-  "UdListDefinitionId": 757
+  "HeadingId": 933,
+  "Name": "Schaden Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 368,
+  "UdListDefinitionId": 260
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 137,
-  "Name": "Nikolaus-Lind",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 613,
-  "UdListDefinitionId": 71,
+  "HeadingId": 512,
+  "Name": "Kohler, McKenzie and Rogahn",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "Rank": 829,
+  "UdListDefinitionId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 584
     }
   }
 }

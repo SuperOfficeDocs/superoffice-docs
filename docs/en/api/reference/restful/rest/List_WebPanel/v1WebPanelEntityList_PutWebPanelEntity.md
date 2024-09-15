@@ -112,31 +112,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 194,
-  "Name": "Barrows, Lind and Fritsch",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 263,
+  "WebPanelId": 548,
+  "Name": "Ward-Lueilwitz",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "Rank": 379,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Powlowski-Rosenbaum",
+  "ShowInStatusBar": true,
+  "WindowName": "Muller, Friesen and Casper",
   "Url": "http://www.example.com/",
-  "ProgId": "iusto",
-  "Icon": 745,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "eum",
+  "Icon": 133,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 792,
-  "Name": "Hermann, Brekke and Kreiger",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "Rank": 92,
+  "WebPanelId": 637,
+  "Name": "Hintz, Carter and Kuhic",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 409,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Conroy LLC",
+  "WindowName": "Cummerata, Howell and Ritchie",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 617,
+  "ProgId": "totam",
+  "Icon": 393,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 280
     }
   }
 }

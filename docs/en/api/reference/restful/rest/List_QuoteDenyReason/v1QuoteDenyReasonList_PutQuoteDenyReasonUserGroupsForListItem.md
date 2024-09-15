@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Larson, Renner and Paucek",
-    "ToolTip": "Qui ut ab facilis.",
+    "Id": 405,
+    "Name": "O'Keefe Group",
+    "ToolTip": "In laborum quis.",
     "Deleted": true,
-    "Rank": 767,
-    "Type": "possimus",
-    "ColorBlock": 535,
-    "IconHint": "est",
+    "Rank": 615,
+    "Type": "veniam",
+    "ColorBlock": 266,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2017-06-01T13:28:33.0540628+02:00",
+    "LastChanged": "2005-10-09T04:02:07.3690701+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Gleason-Terry",
-        "ToolTip": "Porro provident.",
-        "Deleted": false,
-        "Rank": 170,
-        "Type": "dolores",
-        "ColorBlock": 504,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2012-05-05T13:28:33.0540628+02:00",
+        "Id": 953,
+        "Name": "Predovic, Graham and Morar",
+        "ToolTip": "Quo vitae totam iusto repellendus.",
+        "Deleted": true,
+        "Rank": 72,
+        "Type": "tenetur",
+        "ColorBlock": 180,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2010-05-13T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Ruby Fahey"
+        "ExtraInfo": "ducimus",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Ricardo Hilda Bednar III"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "quam",
+    "ExtraInfo": "odio",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Myriam Deion Larson I"
+    "FullName": "Miss Zena Willms II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Walker Inc and Sons",
-    "ToolTip": "Ipsam animi cupiditate in.",
+    "Id": 900,
+    "Name": "Dare-Bogan",
+    "ToolTip": "Consequatur iure fugit qui.",
     "Deleted": false,
-    "Rank": 717,
-    "Type": "blanditiis",
-    "ColorBlock": 896,
-    "IconHint": "quaerat",
+    "Rank": 47,
+    "Type": "officiis",
+    "ColorBlock": 831,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2001-06-23T13:28:33.0540628+02:00",
+    "LastChanged": "2000-06-06T04:02:07.3690701+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Conn, Leuschke and Bahringer",
-        "ToolTip": "Sed sunt hic fugiat excepturi.",
+        "Id": 38,
+        "Name": "Windler, Jacobi and Spencer",
+        "ToolTip": "Doloremque omnis aperiam quia.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "laudantium",
-        "ColorBlock": 997,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2008-05-16T13:28:33.0540628+02:00",
+        "Rank": 108,
+        "Type": "cupiditate",
+        "ColorBlock": 299,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2013-08-24T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
+        "ExtraInfo": "consequuntur",
         "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Bret Kemmer",
+        "Hidden": false,
+        "FullName": "Hassan Marcella Stamm PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "neque",
+    "ExtraInfo": "molestias",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Summer Waelchi",
+    "FullName": "Saige Fleta Stamm DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

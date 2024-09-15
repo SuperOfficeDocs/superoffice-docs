@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Fadel-Strosin",
-  "Tooltip": "repellat",
+  "Id": 734,
+  "Name": "White LLC",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 579,
+  "Rank": 46,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 196
     }
   },
   "_Links": {

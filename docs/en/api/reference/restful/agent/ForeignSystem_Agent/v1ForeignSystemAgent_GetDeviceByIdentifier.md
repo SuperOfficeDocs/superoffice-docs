@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feest LLC",
-  "DeviceName": "Rempel Group",
-  "DeviceIdentifier": "dolorem"
+  "ApplicationName": "Kirlin-Cronin",
+  "DeviceName": "Borer, Bartoletti and Friesen",
+  "DeviceIdentifier": "natus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 445,
-  "Name": "Hudson Group",
-  "CreatedDate": "2003-09-08T13:28:22.8510314+02:00",
-  "UpdatedDate": "2000-11-24T13:28:22.8510314+01:00",
-  "AssociateFullName": "Katlynn Mayert",
-  "CreatedBy": "blanditiis",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 420,
+  "ForeignDeviceId": 109,
+  "Name": "Lockman-Pfeffer",
+  "CreatedDate": "1997-07-03T04:02:01.7888547+02:00",
+  "UpdatedDate": "2013-02-10T04:02:01.7888547+01:00",
+  "AssociateFullName": "Jarvis Jakubowski",
+  "CreatedBy": "maiores",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "ullam",
+  "ForeignAppId": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

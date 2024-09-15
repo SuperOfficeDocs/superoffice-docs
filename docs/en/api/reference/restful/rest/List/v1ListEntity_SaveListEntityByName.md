@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Gutmann Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 306,
+  "Name": "Quigley, McLaughlin and Kuhic",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 426,
-  "IsCustomList": true,
+  "Rank": 731,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "magnam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880,
-  "Name": "Hermiston Group",
-  "Tooltip": "quas",
+  "Id": 716,
+  "Name": "Sipes, Effertz and Pfannerstill",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 305,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 779,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 480
     }
   }
 }

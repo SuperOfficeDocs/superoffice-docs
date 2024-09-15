@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=143
+POST /api/v1/Agents/Associate/GetAssociate?associateId=209
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 742,
-  "Name": "Rutherford-Ruecker",
-  "PersonId": 958,
-  "Rank": 405,
-  "Tooltip": "velit",
+  "AssociateId": 211,
+  "Name": "Schneider, Ziemann and Kuhlman",
+  "PersonId": 175,
+  "Rank": 741,
+  "Tooltip": "nulla",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 122,
-  "FullName": "Margie Farrell PhD",
-  "FormalName": "Moore, King and Crooks",
-  "Deleted": false,
-  "EjUserId": 50,
-  "UserName": "Koch Group",
+  "GroupIdx": 972,
+  "FullName": "Jordyn Wilfred Kirlin III",
+  "FormalName": "Jacobson, Runolfsdottir and Keeling",
+  "Deleted": true,
+  "EjUserId": 683,
+  "UserName": "Strosin-Schowalter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 264
     }
   }
 }

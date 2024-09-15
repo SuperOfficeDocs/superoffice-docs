@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "in",
-    "InputValues2": "sequi"
+    "InputValues1": "praesentium",
+    "InputValues2": "enim"
   },
   "BlockExecution": true,
-  "NavigateTo": "culpa",
-  "Message": "sit",
-  "ShowDialog": "molestias",
+  "NavigateTo": "repellat",
+  "Message": "aut",
+  "ShowDialog": "exercitationem",
   "OutputValues": {
-    "OutputValues1": "quo",
-    "OutputValues2": "est"
+    "OutputValues1": "sapiente",
+    "OutputValues2": "velit"
   },
   "StateValues": {
-    "StateValues1": "neque",
-    "StateValues2": "voluptas"
+    "StateValues1": "iure",
+    "StateValues2": "sapiente"
   },
-  "Exception": "vel",
+  "Exception": "distinctio",
   "ParserValues": {
-    "ParserValues1": "harum",
-    "ParserValues2": "labore"
+    "ParserValues1": "maxime",
+    "ParserValues2": "dolorem"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "dolor"
+    "CgiVariables1": "saepe",
+    "CgiVariables2": "est"
   },
-  "CgiContent": "nostrum",
+  "CgiContent": "in",
   "Headers": {
-    "Headers1": "eum",
-    "Headers2": "repellendus"
+    "Headers1": "accusamus",
+    "Headers2": "est"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 294
     }
   }
 }

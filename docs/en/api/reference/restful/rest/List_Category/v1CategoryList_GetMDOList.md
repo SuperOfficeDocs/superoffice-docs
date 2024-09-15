@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=voluptatem
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=distinctio
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Hessel Inc and Sons",
-    "ToolTip": "Itaque aut nostrum voluptas laudantium hic.",
+    "Id": 301,
+    "Name": "Bailey, Kilback and Shanahan",
+    "ToolTip": "Nobis maiores aut non facilis nihil sapiente.",
     "Deleted": true,
-    "Rank": 637,
-    "Type": "laboriosam",
+    "Rank": 638,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "D'Amore Group",
-        "ToolTip": "Cum veniam modi ipsum.",
-        "Deleted": true,
-        "Rank": 187,
-        "Type": "autem",
+        "Id": 162,
+        "Name": "Waters Group",
+        "ToolTip": "Maiores enim deserunt esse reprehenderit consequatur.",
+        "Deleted": false,
+        "Rank": 496,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 553,
-        "ExtraInfo": "sed",
-        "StyleHint": "corporis",
-        "FullName": "Ms. Christine Kreiger Sr.",
+        "IconHint": "illo",
+        "ColorBlock": 705,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "voluptatem",
+        "FullName": "Leonel Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 841
+            "FieldLength": 455
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 76,
-    "ExtraInfo": "aut",
-    "StyleHint": "maiores",
-    "FullName": "Dr. Fredrick Brown",
+    "IconHint": "excepturi",
+    "ColorBlock": 737,
+    "ExtraInfo": "animi",
+    "StyleHint": "quia",
+    "FullName": "Clara Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 79
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

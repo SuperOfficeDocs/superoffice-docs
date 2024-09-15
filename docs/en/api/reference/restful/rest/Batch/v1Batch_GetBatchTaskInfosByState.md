@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Legros-Hagenes",
-    "AssociateId": 515,
-    "DetailsTable": 44,
-    "DetailsRecord": 311,
+    "Id": 855,
+    "Name": "O'Conner, Greenholt and Tillman",
+    "AssociateId": 14,
+    "DetailsTable": 330,
+    "DetailsRecord": 746,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aliquid",
-      "ParameterObject2": "quae"
+      "ParameterObject1": "quae",
+      "ParameterObject2": "asperiores"
     },
-    "LastStarted": "2007-10-21T13:28:32.4292054+02:00",
-    "Created": "2002-05-12T13:28:32.4292054+02:00",
-    "StartCount": 219,
-    "DatabaseSerialNumber": "516248",
-    "Context": "mollitia",
-    "Result": "provident",
+    "LastStarted": "2008-12-25T04:02:06.9472381+01:00",
+    "Created": "2021-08-17T04:02:06.9472381+02:00",
+    "StartCount": 931,
+    "DatabaseSerialNumber": "1506286",
+    "Context": "aut",
+    "Result": "illum",
     "State": "All",
-    "Description": "Reverse-engineered logistical budgetary management",
-    "Response": "dolorem",
-    "Request": "facere",
-    "ProgressDescription": "Reduced interactive open system",
-    "ProgressPercent": 980,
-    "FileName": "Roob LLC",
+    "Description": "Self-enabling composite hub",
+    "Response": "quia",
+    "Request": "vero",
+    "ProgressDescription": "Programmable 6th generation portal",
+    "ProgressPercent": 817,
+    "FileName": "Predovic LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

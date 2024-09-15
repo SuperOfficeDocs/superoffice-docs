@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Hills-Wilkinson",
-  "Tooltip": "nihil",
+  "Id": 404,
+  "Name": "Murazik, Goldner and Ullrich",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 836,
-  "Rank": 29,
+  "UdListDefinitionId": 751,
+  "Rank": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

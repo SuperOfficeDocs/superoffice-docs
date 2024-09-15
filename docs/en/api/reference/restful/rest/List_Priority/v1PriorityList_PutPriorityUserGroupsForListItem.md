@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Koch Group",
-    "ToolTip": "Velit possimus saepe.",
-    "Deleted": true,
-    "Rank": 902,
-    "Type": "ut",
-    "ColorBlock": 784,
-    "IconHint": "voluptatem",
+    "Id": 103,
+    "Name": "Walsh-Hintz",
+    "ToolTip": "Suscipit temporibus tenetur id vel.",
+    "Deleted": false,
+    "Rank": 368,
+    "Type": "sed",
+    "ColorBlock": 224,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2000-08-22T13:28:32.9447127+02:00",
+    "LastChanged": "2018-05-23T04:02:07.3065765+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Schneider, Jewess and Purdy",
-        "ToolTip": "Eveniet rerum vel et.",
-        "Deleted": true,
-        "Rank": 93,
-        "Type": "asperiores",
-        "ColorBlock": 360,
-        "IconHint": "itaque",
+        "Id": 247,
+        "Name": "Jewess-Legros",
+        "ToolTip": "Nam et rerum maxime ullam dolorem quo.",
+        "Deleted": false,
+        "Rank": 865,
+        "Type": "nam",
+        "ColorBlock": 978,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2008-09-14T13:28:32.9447127+02:00",
+        "LastChanged": "2003-05-15T04:02:07.3065765+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "et",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Mrs. Dessie Kris"
+        "FullName": "Iliana Harber PhD"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ut",
+    "ExtraInfo": "est",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Jeremy Ratke"
+    "FullName": "Raegan Borer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Lakin-McLaughlin",
-    "ToolTip": "Exercitationem voluptatem rerum rerum non.",
-    "Deleted": true,
-    "Rank": 39,
-    "Type": "soluta",
-    "ColorBlock": 179,
-    "IconHint": "aliquam",
+    "Id": 737,
+    "Name": "Mayer Inc and Sons",
+    "ToolTip": "Dignissimos aspernatur dolorem repellendus minus enim.",
+    "Deleted": false,
+    "Rank": 318,
+    "Type": "id",
+    "ColorBlock": 63,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2023-12-26T13:28:32.9447127+01:00",
+    "LastChanged": "2006-04-22T04:02:07.3065765+02:00",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Koch, Padberg and Smitham",
-        "ToolTip": "Nesciunt corrupti repellendus.",
+        "Id": 775,
+        "Name": "Kessler Inc and Sons",
+        "ToolTip": "Fugit repellat ea excepturi.",
         "Deleted": false,
-        "Rank": 178,
-        "Type": "nam",
-        "ColorBlock": 710,
-        "IconHint": "et",
+        "Rank": 942,
+        "Type": "praesentium",
+        "ColorBlock": 107,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "1999-09-20T13:28:32.9447127+02:00",
+        "LastChanged": "2014-01-01T04:02:07.3065765+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Rolando Nicolas",
+        "ExtraInfo": "quia",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Francesca Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 851
+            "FieldType": "System.Int32",
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "ab",
+    "ExtraInfo": "enim",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Miss Abraham Botsford",
+    "FullName": "Mr. Jace Sawayn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: enum-widgetrequiredfields
 title: Enum values for WidgetRequiredFields
 description: Lists the enum values for WidgetRequiredFields.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # WidgetRequiredFields Enum

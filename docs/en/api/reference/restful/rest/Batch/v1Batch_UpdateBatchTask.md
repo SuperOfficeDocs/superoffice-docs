@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Robel-Swaniawski",
-  "AssociateId": 4,
-  "DetailsTable": 897,
-  "DetailsRecord": 430,
+  "Id": 222,
+  "Name": "Beatty LLC",
+  "AssociateId": 372,
+  "DetailsTable": 910,
+  "DetailsRecord": 781,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "possimus",
-    "ParameterObject2": "aspernatur"
+    "ParameterObject1": "neque",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2005-02-24T13:28:32.4292054+01:00",
-  "Created": "2003-12-20T13:28:32.4292054+01:00",
-  "StartCount": 232,
-  "DatabaseSerialNumber": "1467962",
-  "Context": "voluptatem",
-  "Result": "repudiandae",
+  "LastStarted": "1999-01-02T04:02:06.9472381+01:00",
+  "Created": "2004-04-22T04:02:06.9472381+02:00",
+  "StartCount": 977,
+  "DatabaseSerialNumber": "1465602",
+  "Context": "sit",
+  "Result": "maiores",
   "State": "All",
-  "Description": "Switchable dynamic initiative",
-  "Response": "eum",
-  "Request": "ut",
-  "ProgressDescription": "Streamlined impactful capacity",
-  "ProgressPercent": 792,
-  "FileName": "Schuster, Emard and Harvey",
+  "Description": "Switchable impactful superstructure",
+  "Response": "aut",
+  "Request": "totam",
+  "ProgressDescription": "Versatile high-level firmware",
+  "ProgressPercent": 381,
+  "FileName": "Fahey-Douglas",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Dicki, Gerhold and Kozey",
-  "AssociateId": 930,
-  "DetailsTable": 322,
-  "DetailsRecord": 474,
+  "Id": 510,
+  "Name": "Bins-Purdy",
+  "AssociateId": 532,
+  "DetailsTable": 772,
+  "DetailsRecord": 803,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "molestiae",
-    "ParameterObject2": "est"
+    "ParameterObject1": "culpa",
+    "ParameterObject2": "sed"
   },
-  "LastStarted": "1999-12-13T13:28:32.4292054+01:00",
-  "Created": "2013-10-27T13:28:32.4292054+01:00",
-  "StartCount": 538,
-  "DatabaseSerialNumber": "1045704",
-  "Context": "velit",
-  "Result": "velit",
+  "LastStarted": "2017-05-08T04:02:06.9472381+02:00",
+  "Created": "2009-11-15T04:02:06.9472381+01:00",
+  "StartCount": 4,
+  "DatabaseSerialNumber": "1056442",
+  "Context": "expedita",
+  "Result": "minus",
   "State": "All",
-  "Description": "Quality-focused even-keeled hub",
-  "Response": "corrupti",
-  "Request": "et",
-  "ProgressDescription": "Balanced attitude-oriented productivity",
-  "ProgressPercent": 948,
-  "FileName": "Hirthe-Spinka",
+  "Description": "User-friendly user-facing encryption",
+  "Response": "commodi",
+  "Request": "ipsa",
+  "ProgressDescription": "Assimilated needs-based conglomeration",
+  "ProgressPercent": 670,
+  "FileName": "Jacobson Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 11
     }
   }
 }

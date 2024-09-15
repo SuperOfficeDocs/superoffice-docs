@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 962,
-  "Name": "Aufderhar Group",
+  "ScreenChooserId": 270,
+  "Name": "Heidenreich, Greenholt and Baumbach",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "repellendus",
-  "Source": "error",
-  "Registered": "2018-08-27T13:28:32.4135814+02:00",
-  "RegisteredAssociateId": 759,
-  "Updated": "2008-05-08T13:28:32.4135814+02:00",
-  "UpdatedAssociateId": 576,
+  "Enabled": true,
+  "UniqueIdentifier": "id",
+  "Source": "et",
+  "Registered": "2024-04-12T04:02:06.9316148+02:00",
+  "RegisteredAssociateId": 400,
+  "Updated": "1999-09-25T04:02:06.9316148+02:00",
+  "UpdatedAssociateId": 841,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 503
     }
   }
 }

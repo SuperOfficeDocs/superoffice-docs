@@ -2,10 +2,10 @@
 uid: enum-quoteversionstate
 title: Enum values for QuoteVersionState
 description: Lists the enum values for QuoteVersionState.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteVersionState Enum

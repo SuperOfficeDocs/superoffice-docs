@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 777,
-      "UniqueId": "praesentium",
-      "Name": "Parker Group",
-      "Description": "Centralized stable alliance",
-      "AssociateId": 500,
-      "Columns": 84,
+      "DashboardId": 976,
+      "UniqueId": "officia",
+      "Name": "Cruickshank, Turner and Medhurst",
+      "Description": "Integrated logistical superstructure",
+      "AssociateId": 724,
+      "Columns": 878,
       "Theme": null,
-      "VisibleForAll": 919,
+      "VisibleForAll": 177,
       "VisibleForAssociates": [
-        891,
-        902
+        8,
+        806
       ],
       "VisibleForGroups": [
-        465,
-        101
+        341,
+        219
       ],
-      "PinForAll": 27,
+      "PinForAll": 836,
       "PinForAssociates": [
-        594,
-        425
+        111,
+        927
       ],
       "PinForGroups": [
-        843,
-        836
+        268,
+        164
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldLength": 265
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 56,
-      "UniqueId": "autem",
-      "Name": "Pfannerstill, Kunze and Goldner",
-      "Description": "Polarised system-worthy productivity",
-      "AssociateId": 5,
-      "Columns": 900,
+      "DashboardId": 391,
+      "UniqueId": "quisquam",
+      "Name": "Ortiz Group",
+      "Description": "Managed content-based monitoring",
+      "AssociateId": 136,
+      "Columns": 695,
       "Theme": null,
-      "VisibleForAll": 337,
+      "VisibleForAll": 924,
       "VisibleForAssociates": [
-        479,
-        233
+        794,
+        624
       ],
       "VisibleForGroups": [
-        763,
-        608
+        325,
+        132
       ],
-      "PinForAll": 431,
+      "PinForAll": 134,
       "PinForAssociates": [
-        678,
-        660
+        357,
+        922
       ],
       "PinForGroups": [
-        280,
-        750
+        724,
+        939
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 729
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 516,
-      "UniqueId": "repellat",
-      "Name": "Vandervort Inc and Sons",
-      "Description": "Enterprise-wide didactic firmware",
-      "AssociateId": 721,
-      "Columns": 349,
+      "DashboardId": 232,
+      "UniqueId": "a",
+      "Name": "Pfeffer LLC",
+      "Description": "De-engineered zero administration toolset",
+      "AssociateId": 852,
+      "Columns": 613,
       "Theme": null,
-      "VisibleForAll": 484,
+      "VisibleForAll": 448,
       "VisibleForAssociates": [
-        121,
-        492
+        951,
+        740
       ],
       "VisibleForGroups": [
-        728,
-        971
+        59,
+        604
       ],
-      "PinForAll": 678,
+      "PinForAll": 317,
       "PinForAssociates": [
-        467,
-        732
+        803,
+        907
       ],
       "PinForGroups": [
-        31,
-        232
+        84,
+        552
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 147
     }
   }
 }

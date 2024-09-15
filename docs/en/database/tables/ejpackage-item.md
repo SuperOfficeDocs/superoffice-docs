@@ -2,10 +2,10 @@
 uid: table-ejpackage_item
 title: ejpackage_item table
 description: This table stores info on installed packages in the system
-generated: true
+so.generated: true
 keywords: database table ejpackage_item
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejpackage\_item Table (385)

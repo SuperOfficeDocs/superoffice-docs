@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 990,
-    "ParentId": 541,
-    "Name": "Hintz Inc and Sons",
-    "Fullname": "cupiditate",
-    "CategoryMaster": 978,
+    "TicketCategoryId": 410,
+    "ParentId": 845,
+    "Name": "Hermann-Lubowitz",
+    "Fullname": "distinctio",
+    "CategoryMaster": 700,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Blick, Steuber and Sawayn",
+    "ExternalName": "Funk Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 466,
-    "ReplyTemplate": 725,
-    "NotificationEmail": "ebony.muller@pollichbeatty.com",
+    "AssignmentLag": 375,
+    "ReplyTemplate": 53,
+    "NotificationEmail": "jermaine_kuhic@botsfordward.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 362,
+    "EffectiveReplyTemplateId": 844,
     "ExtraFields": {
-      "ExtraFields1": "omnis",
-      "ExtraFields2": "vero"
+      "ExtraFields1": "voluptas",
+      "ExtraFields2": "qui"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "rerum"
+      "CustomFields1": "maxime",
+      "CustomFields2": "nobis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

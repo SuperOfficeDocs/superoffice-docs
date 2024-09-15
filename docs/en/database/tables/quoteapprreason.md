@@ -2,10 +2,10 @@
 uid: table-QuoteApprReason
 title: QuoteApprReason table
 description: Predefined reasons for quote approval
-generated: true
+so.generated: true
 keywords: database table QuoteApprReason
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteApprReason Table (525)

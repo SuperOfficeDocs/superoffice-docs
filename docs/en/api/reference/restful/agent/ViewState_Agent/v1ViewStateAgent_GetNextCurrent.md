@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ondricka-Russel",
-  "Id": 539
+  "HistoryName": "McDermott Group",
+  "Id": 103
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 412,
-  "Id": 721,
-  "HistoryName": "Bednar-Fadel",
-  "HistoryId": 185,
-  "AssociateId": 160,
-  "Name": "Heaney, Stark and Hyatt",
-  "ItemInfo": "nihil",
+  "Rank": 307,
+  "Id": 201,
+  "HistoryName": "Gleason LLC",
+  "HistoryId": 777,
+  "AssociateId": 114,
+  "Name": "Hayes Inc and Sons",
+  "ItemInfo": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   }
 }

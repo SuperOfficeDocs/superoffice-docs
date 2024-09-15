@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 573,
+  "DocumentId": 351,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ratione",
-  "Header": "nihil",
-  "Name": "Ward, Runte and Morar",
-  "OurRef": "expedita",
-  "YourRef": "iusto",
-  "CreatedDate": "2018-01-09T13:28:22.5229801+01:00",
-  "UpdatedDate": "2015-10-10T13:28:22.5229801+02:00",
-  "Description": "Realigned impactful algorithm",
+  "Attention": "ipsam",
+  "Header": "eligendi",
+  "Name": "Marvin LLC",
+  "OurRef": "excepturi",
+  "YourRef": "debitis",
+  "CreatedDate": "2005-05-10T04:02:01.6123809+02:00",
+  "UpdatedDate": "2020-02-20T04:02:01.6123809+01:00",
+  "Description": "Integrated reciprocal analyzer",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-11-03T13:28:22.5386025+01:00",
-  "ExternalRef": "natus",
+  "Date": "2023-10-10T04:02:01.6123809+02:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 69,
+  "ActiveLinks": 632,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hilpert-Huels",
-      "Id": 674,
-      "Description": "Extended dynamic orchestration",
-      "ExtraInfo": "quisquam",
-      "LinkId": 599,
+      "EntityName": "Becker-Wuckert",
+      "Id": 825,
+      "Description": "Integrated homogeneous middleware",
+      "ExtraInfo": "sit",
+      "LinkId": 110,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 560
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 497,
-  "Snum": 637,
+  "SuggestedDocumentId": 425,
+  "Snum": 227,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1037751581"
+    "SuperOffice:1": "Dr. Johann Wisoky I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "at",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2020-11-29T13:28:22.5386025+01:00",
-  "PublishTo": "2009-02-05T13:28:22.5386025+01:00",
-  "PublishFrom": "2000-06-08T13:28:22.5386025+02:00",
+  "PublishEventDate": "2009-12-19T04:02:01.6123809+01:00",
+  "PublishTo": "2012-02-13T04:02:01.6123809+01:00",
+  "PublishFrom": "2011-09-08T04:02:01.6123809+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 695,
+      "VisibleId": 340,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     },
     {
-      "VisibleId": 695,
+      "VisibleId": 340,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 774
     }
   }
 }

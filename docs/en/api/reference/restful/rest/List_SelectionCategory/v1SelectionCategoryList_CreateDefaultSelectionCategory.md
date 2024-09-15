@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Dickens Inc and Sons",
-  "Tooltip": "aliquid",
+  "Id": 383,
+  "Name": "Stoltenberg-Trantow",
+  "Tooltip": "illo",
   "Deleted": false,
-  "UdListDefinitionId": 432,
-  "Rank": 862,
+  "UdListDefinitionId": 508,
+  "Rank": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldLength": 400
     }
   }
 }

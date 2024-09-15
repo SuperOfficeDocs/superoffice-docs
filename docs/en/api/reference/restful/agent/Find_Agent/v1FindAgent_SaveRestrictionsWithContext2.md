@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nulla",
-  "ProviderName": "Kling Group",
-  "StorageKey": "nihil",
-  "Restrictions": "animi",
-  "Context": "et"
+  "StorageType": "corporis",
+  "ProviderName": "Hilll, Murray and Jaskolski",
+  "StorageKey": "earum",
+  "Restrictions": "omnis",
+  "Context": "qui"
 }
 ```
 

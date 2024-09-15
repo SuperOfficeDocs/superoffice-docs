@@ -2,10 +2,10 @@
 uid: table-ticket
 title: ticket table
 description: This table contains the tickets (requests) of the system. Its purpose should be evident.
-generated: true
+so.generated: true
 keywords: database table ticket
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket Table (262)

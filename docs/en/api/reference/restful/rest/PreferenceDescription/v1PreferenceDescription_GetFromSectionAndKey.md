@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 278,
-  "Section": "vitae",
-  "Key": "sit",
-  "Name": "Gaylord Inc and Sons",
+  "PrefDescId": 412,
+  "Section": "et",
+  "Key": "quibusdam",
+  "Name": "Heidenreich Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive hybrid firmware",
-  "IsBuiltin": true,
-  "TableName": "Spinka-Wiza",
-  "UserDefinedListId": 639,
-  "Rank": 452,
-  "SubGroup": "non",
-  "MinLevel": 205,
-  "MaxValue": 92,
-  "MinValue": 412,
-  "RequiredLicense": "repellendus",
+  "Description": "Implemented logistical attitude",
+  "IsBuiltin": false,
+  "TableName": "Johnson, McKenzie and Romaguera",
+  "UserDefinedListId": 836,
+  "Rank": 453,
+  "SubGroup": "ipsam",
+  "MinLevel": 925,
+  "MaxValue": 88,
+  "MinValue": 847,
+  "RequiredLicense": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 922
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 470,
-    "Name": "Altenwerth LLC",
-    "OrgNr": "1053629",
+    "ContactId": 684,
+    "Name": "McDermott, Jacobson and Gleason",
+    "OrgNr": "770483",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "314-161-7780",
-    "AssociateId": 516,
-    "CountryId": 176,
-    "EmailAddress": "victor@kuphalkoelpin.uk",
-    "Kananame": "repellendus",
-    "EmailAddressName": "alexandrea@bernierrohan.biz",
+    "City": "adipisci",
+    "DirectPhone": "532-945-6310 x9900",
+    "AssociateId": 776,
+    "CountryId": 469,
+    "EmailAddress": "ludie.streich@torphy.name",
+    "Kananame": "ut",
+    "EmailAddressName": "ariel_treutel@rempelmarvin.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Emely Ritchie",
+    "AssociateFullName": "Bernita Clotilde Glover PhD",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "sed",
-    "FullName": "Shaun Schroeder",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 26,
-    "Number1": "1518391",
-    "Number2": "892317",
+    "FormattedAddress": "dolores",
+    "FullName": "Glenda Raphaelle Bergstrom DDS",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 920,
+    "Number1": "846970",
+    "Number2": "575347",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 732
       }
     }
   }

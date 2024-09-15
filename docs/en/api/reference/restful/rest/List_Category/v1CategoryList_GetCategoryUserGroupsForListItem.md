@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "D'Amore, Hand and Lesch",
-    "ToolTip": "Eligendi molestiae non aperiam ea.",
+    "Id": 376,
+    "Name": "Monahan-Johnson",
+    "ToolTip": "Perspiciatis et iste delectus quo.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "dolores",
-    "ColorBlock": 527,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2013-04-12T13:28:32.694768+02:00",
+    "Rank": 543,
+    "Type": "eos",
+    "ColorBlock": 34,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2023-06-07T04:02:07.0878487+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Schaefer-Leuschke",
-        "ToolTip": "Laborum ipsa minima ut corporis harum ut.",
+        "Id": 435,
+        "Name": "Hand, Braun and Terry",
+        "ToolTip": "Quasi sit non dolores sit pariatur non.",
         "Deleted": false,
-        "Rank": 581,
-        "Type": "in",
-        "ColorBlock": 302,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2015-02-22T13:28:32.694768+01:00",
+        "Rank": 652,
+        "Type": "quasi",
+        "ColorBlock": 335,
+        "IconHint": "saepe",
+        "Selected": false,
+        "LastChanged": "1998-07-17T04:02:07.0878487+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "omnis",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Reggie Rosie Bednar V",
+        "FullName": "Ms. Jennifer Helene Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quia",
+    "ExtraInfo": "odio",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Gunner Schmidt II",
+    "FullName": "Dr. Maximillian Dave Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 836,
-  "EmailAddress": "lon.mayert@sauer.co.uk",
-  "EmailTemplateId": 85,
-  "CultureLcidId": 697,
-  "Subject": "quam"
+  "PersonId": 478,
+  "EmailAddress": "arnulfo@quitzon.co.uk",
+  "EmailTemplateId": 778,
+  "CultureLcidId": 644,
+  "Subject": "ab"
 }
 ```
 

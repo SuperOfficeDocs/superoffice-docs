@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Frami Group",
+  "ProviderName": "Beatty Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Gleichner, Hansen and O'Reilly",
-      "Operator": "perferendis",
+      "Name": "Rempel, O'Keefe and Will",
+      "Operator": "occaecati",
       "Values": [
-        "quis",
-        "sint"
+        "quos",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "dolore",
-        "est"
+        "et",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 286,
+      "InterParenthesis": 322,
       "InterOperator": "And",
-      "UniqueHash": 715
+      "UniqueHash": 154
     }
   ],
-  "AssociateId": 780
+  "AssociateId": 108
 }
 ```
 

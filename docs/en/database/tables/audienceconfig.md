@@ -2,10 +2,10 @@
 uid: table-AudienceConfig
 title: AudienceConfig table
 description: Configuration data for Audience core and webparts
-generated: true
+so.generated: true
 keywords: database table AudienceConfig
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AudienceConfig Table (236)

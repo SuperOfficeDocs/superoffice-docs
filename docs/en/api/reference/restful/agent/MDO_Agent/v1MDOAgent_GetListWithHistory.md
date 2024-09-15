@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tromp, Cormier and Bahringer",
-  "ForceFlatList": false,
-  "AdditionalInfo": "libero",
+  "Name": "Haley-Howe",
+  "ForceFlatList": true,
+  "AdditionalInfo": "quia",
   "HistoryItems": [
-    641,
-    631
+    296,
+    792
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Gibson, Armstrong and Runolfsdottir",
-    "ToolTip": "Qui ea.",
+    "Id": 551,
+    "Name": "Welch-Jacobi",
+    "ToolTip": "Suscipit est nulla ipsum ratione.",
     "Deleted": true,
-    "Rank": 607,
-    "Type": "suscipit",
+    "Rank": 100,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Conroy Group",
-        "ToolTip": "Perspiciatis sed quisquam magnam quam corporis totam.",
+        "Id": 819,
+        "Name": "Schiller, Gleichner and Boehm",
+        "ToolTip": "Eos minus autem illo magnam.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "rem",
+        "Rank": 211,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 999,
-        "ExtraInfo": "et",
-        "StyleHint": "quibusdam",
-        "FullName": "Zena Okuneva",
+        "IconHint": "in",
+        "ColorBlock": 281,
+        "ExtraInfo": "vitae",
+        "StyleHint": "est",
+        "FullName": "Mr. Obie Zula Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldLength": 781
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 49,
-    "ExtraInfo": "tempora",
-    "StyleHint": "sed",
-    "FullName": "Mr. Betsy Thiel MD",
+    "IconHint": "et",
+    "ColorBlock": 4,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "placeat",
+    "FullName": "Ludie Conn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 604
       }
     }
   }

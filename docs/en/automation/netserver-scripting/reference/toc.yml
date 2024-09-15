@@ -6,6 +6,8 @@ items:
   items:
   - name: ClearChatbotTurns
     href: aiagent/clearchatbotturns.md
+  - name: CreateTextForAppointment
+    href: aiagent/createtextforappointment.md
   - name: DetectLanguage
     href: aiagent/detectlanguage.md
   - name: DetectSentiment
@@ -3837,6 +3839,8 @@ items:
     href: workflowagent/addafterworkflowstep.md
   - name: ConnectEmailFlowContent
     href: workflowagent/connectemailflowcontent.md
+  - name: CopyEmailFlow
+    href: workflowagent/copyemailflow.md
   - name: CopyEmailFlowContent
     href: workflowagent/copyemailflowcontent.md
   - name: CreateDefaultEmailFlow

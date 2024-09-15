@@ -2,10 +2,10 @@
 uid: table-SORField
 title: SORField table
 description: SuperOffice reporter data
-generated: true
+so.generated: true
 keywords: database table SORField
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SORField Table (179)

@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 3,
-  "ERPName": "Koch-Torphy",
-  "DisplayName": "Jewess Inc and Sons",
-  "DisplayDescription": "Streamlined needs-based software",
-  "Rank": 316,
-  "ConnectorName": "Kuhn, Morissette and Luettgen",
-  "ErpConnectionId": 538,
-  "ExtraData": "et",
-  "IsAvailable": false,
+  "QuoteConnectionId": 325,
+  "ERPName": "Pollich-Grimes",
+  "DisplayName": "Schultz, Romaguera and Gibson",
+  "DisplayDescription": "Synchronised logistical hub",
+  "Rank": 646,
+  "ConnectorName": "Altenwerth Inc and Sons",
+  "ErpConnectionId": 82,
+  "ExtraData": "omnis",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 569,
-      "ERPPriceListKey": "ea",
-      "QuoteConnectionId": 886,
-      "Name": "Schumm, Wiza and Hane",
-      "Description": "Programmable even-keeled instruction set",
-      "Currency": "vel",
-      "CurrencyName": "Hermann-Connelly",
-      "ValidFrom": "2009-05-19T13:28:23.5698866+02:00",
-      "ValidTo": "2013-10-07T13:28:23.5698866+02:00",
-      "IsActive": false,
+      "PriceListId": 647,
+      "ERPPriceListKey": "maxime",
+      "QuoteConnectionId": 50,
+      "Name": "Hilpert, VonRueden and Wiegand",
+      "Description": "Adaptive fresh-thinking product",
+      "Currency": "culpa",
+      "CurrencyName": "Macejkovic Group",
+      "ValidFrom": "2015-11-14T04:02:02.2065837+01:00",
+      "ValidTo": "2017-05-12T04:02:02.2065837+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldLength": 149
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    276,
-    214
+    816,
+    306
   ],
   "AssociateAccessIds": [
-    861,
-    76
+    380,
+    486
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldLength": 987
     }
   }
 }

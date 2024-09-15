@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 270
+  "SuggestedDocumentId": 89
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 265,
+  "DocumentId": 192,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "provident",
-  "Header": "delectus",
-  "Name": "Hilll, Klein and Leuschke",
-  "OurRef": "sint",
-  "YourRef": "nisi",
-  "CreatedDate": "2016-07-03T13:28:22.585469+02:00",
-  "UpdatedDate": "2021-04-06T13:28:22.585469+02:00",
-  "Description": "Robust systematic projection",
+  "Attention": "rem",
+  "Header": "ratione",
+  "Name": "Stroman-Shanahan",
+  "OurRef": "quia",
+  "YourRef": "nobis",
+  "CreatedDate": "2011-02-12T04:02:01.6436305+01:00",
+  "UpdatedDate": "2015-10-19T04:02:01.6436305+02:00",
+  "Description": "Cloned content-based functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-03-30T13:28:22.6010881+02:00",
-  "ExternalRef": "eos",
+  "Date": "2013-03-01T04:02:01.6592538+01:00",
+  "ExternalRef": "possimus",
   "Completed": "Completed",
-  "ActiveLinks": 919,
+  "ActiveLinks": 914,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hahn Group",
-      "Id": 897,
-      "Description": "Re-contextualized 24 hour open architecture",
-      "ExtraInfo": "illo",
-      "LinkId": 903,
+      "EntityName": "Doyle Group",
+      "Id": 132,
+      "Description": "Synergistic reciprocal Graphical User Interface",
+      "ExtraInfo": "totam",
+      "LinkId": 530,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 219
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 545,
-  "Snum": 218,
+  "SuggestedDocumentId": 771,
+  "Snum": 682,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Yasmin Luettgen Sr.",
-    "SuperOffice:2": "Mr. Claud Stroman"
+    "SuperOffice:1": "961219023",
+    "SuperOffice:2": "Ms. Earnest Hettinger V"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "enim"
+    "CustomFields1": "odio",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2007-04-04T13:28:22.6010881+02:00",
-  "PublishTo": "2010-10-31T13:28:22.6010881+01:00",
-  "PublishFrom": "1998-06-27T13:28:22.6010881+02:00",
+  "PublishEventDate": "2005-12-16T04:02:01.6592538+01:00",
+  "PublishTo": "2010-12-12T04:02:01.6592538+01:00",
+  "PublishFrom": "2011-05-07T04:02:01.6592538+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 919,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 919,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 131
     }
   }
 }

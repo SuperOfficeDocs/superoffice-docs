@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 980,
-  "Name": "O'Conner, Reichel and Ledner",
-  "CurrencyId": 143,
-  "EnglishName": "Rodriguez-Blanda",
+  "CountryId": 688,
+  "Name": "Douglas, Braun and Cruickshank",
+  "CurrencyId": 590,
+  "EnglishName": "Olson, Stamm and Thiel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Fundamental uniform software",
-  "OrgNrText": "509720",
-  "InterAreaPrefix": "incidunt",
-  "DialInPrefix": "magni",
-  "ZipPrefix": "molestiae",
-  "DomainName": "Lind Group",
-  "AddressLayoutId": 392,
-  "DomesticAddressLayoutId": 852,
-  "ForeignAddressLayoutId": 44,
-  "Rank": 812,
-  "Tooltip": "sint",
-  "Deleted": false,
+  "ImageDescription": "Phased homogeneous database",
+  "OrgNrText": "1757008",
+  "InterAreaPrefix": "maiores",
+  "DialInPrefix": "et",
+  "ZipPrefix": "aut",
+  "DomainName": "Lindgren, Leuschke and Windler",
+  "AddressLayoutId": 697,
+  "DomesticAddressLayoutId": 452,
+  "ForeignAddressLayoutId": 937,
+  "Rank": 33,
+  "Tooltip": "voluptas",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 275,
-    "Name": "Kohler, Daugherty and Kertzmann",
-    "Tooltip": "nihil",
-    "Rank": 344,
-    "Key": "soluta",
+    "LegalBaseId": 918,
+    "Name": "Littel, Collins and Lindgren",
+    "Tooltip": "omnis",
+    "Rank": 253,
+    "Key": "voluptatibus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 347
+        "FieldType": "System.String",
+        "FieldLength": 730
       }
     }
   }

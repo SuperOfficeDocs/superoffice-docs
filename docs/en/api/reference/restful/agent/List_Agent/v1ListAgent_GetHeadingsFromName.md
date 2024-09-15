@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Emard, Hartmann and Lockman"
+  "Name": "Champlin LLC"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 24,
-    "Name": "Volkman LLC",
-    "Tooltip": "quaerat",
+    "HeadingId": 472,
+    "Name": "Heller, Bayer and Graham",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 438,
-    "UdListDefinitionId": 90,
+    "Rank": 761,
+    "UdListDefinitionId": 1001,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 658
       }
     }
   }

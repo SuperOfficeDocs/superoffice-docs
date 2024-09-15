@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "ad"
+  "ChartId": "labore"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 431,
-  "Caption": "blanditiis",
-  "Description": "Re-contextualized client-driven monitoring",
-  "ChartName": "Feil-Murphy",
-  "ChartId": "tenetur",
-  "IsDefault": false,
-  "AssociateId": 883,
-  "GroupId": 487,
-  "SelectionId": 329,
-  "Config": "eos",
+  "DashboardTileId": 975,
+  "Caption": "placeat",
+  "Description": "Fully-configurable encompassing emulation",
+  "ChartName": "Funk, Turcotte and Hayes",
+  "ChartId": "impedit",
+  "IsDefault": true,
+  "AssociateId": 284,
+  "GroupId": 200,
+  "SelectionId": 971,
+  "Config": "deserunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wilderman-Pollich",
-      "Description": "Multi-channelled static conglomeration",
+      "Name": "Rau-Borer",
+      "Description": "Persistent homogeneous focus group",
       "Type": "Boolean",
-      "ListName": "Wiegand Group",
+      "ListName": "Vandervort LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "tenetur",
+      "Value": "nesciunt",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldType": "System.String",
+          "FieldLength": 992
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 750,
+      "VisibleId": 718,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldType": "System.String",
+          "FieldLength": 37
         }
       }
     },
     {
-      "VisibleId": 750,
+      "VisibleId": 718,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldType": "System.String",
+          "FieldLength": 37
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

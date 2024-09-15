@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 378,
-    "ColumnId": 30,
-    "FieldDefault": "et",
-    "FieldHeight": 2,
-    "FieldLabel": "harum",
-    "FieldLeft": 22,
-    "FieldTop": 416,
+    "UDefFieldId": 525,
+    "ColumnId": 559,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 665,
+    "FieldLabel": "nulla",
+    "FieldLeft": 729,
+    "FieldTop": 584,
     "FieldType": "Checkbox",
-    "FieldWidth": 474,
-    "FormatMask": "provident",
-    "HideLabel": true,
+    "FieldWidth": 249,
+    "FormatMask": "pariatur",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 387,
-    "LabelLeft": 924,
-    "LabelTop": 700,
-    "LabelWidth": 211,
-    "LastVersionId": 378,
-    "ListTableId": 348,
+    "LabelHeight": 811,
+    "LabelLeft": 54,
+    "LabelTop": 755,
+    "LabelWidth": 669,
+    "LastVersionId": 314,
+    "ListTableId": 711,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 658,
-    "ProgId": "aspernatur",
-    "IsReadOnly": false,
-    "ShortLabel": "minus",
-    "TabOrder": 355,
-    "TextLength": 647,
-    "Tooltip": "nulla",
-    "UdefIdentity": 62,
-    "UDListDefinitionId": 919,
+    "Page1LineNo": 378,
+    "ProgId": "adipisci",
+    "IsReadOnly": true,
+    "ShortLabel": "adipisci",
+    "TabOrder": 906,
+    "TextLength": 546,
+    "Tooltip": "cumque",
+    "UdefIdentity": 916,
+    "UDListDefinitionId": 26,
     "Justification": "Center",
-    "Version": 570,
-    "TemplateVariableName": "Fadel LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Glover-Fay",
+    "Version": 319,
+    "TemplateVariableName": "Ebert, Torp and Becker",
+    "HasBeenPublished": false,
+    "MdoListName": "Dickens, Balistreri and Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 572
       }
     }
   }

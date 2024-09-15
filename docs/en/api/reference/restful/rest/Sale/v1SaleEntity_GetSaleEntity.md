@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Dec 1997 13:28:32 G12T
+Last-Modified: Tue, 08 Jan 2008 04:02:06 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sun, 28 Dec 1997 13:28:32 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "ab",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sun, 28 Dec 1997 13:28:32 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-04-15T13:28:32.1480184+02:00",
-  "Amount": 1416.568,
-  "SaleId": 172,
-  "Earning": 17923.345999999998,
-  "EarningPercent": 9878.368,
-  "Heading": "dolorum",
-  "Number": "591224",
-  "Probability": 151,
-  "CreatedDate": "2009-03-11T13:28:32.1480184+01:00",
-  "UpdatedDate": "1997-12-28T13:28:32.1480184+01:00",
+  "Saledate": "2006-01-13T04:02:06.791005+01:00",
+  "Amount": 557.852,
+  "SaleId": 567,
+  "Earning": 3312.638,
+  "EarningPercent": 16892.26,
+  "Heading": "quia",
+  "Number": "841950",
+  "Probability": 701,
+  "CreatedDate": "2012-07-15T04:02:06.791005+02:00",
+  "UpdatedDate": "2008-01-08T04:02:06.791005+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 507,
+  "ActiveLinks": 148,
   "Links": [
     {
-      "EntityName": "Wisozk Group",
-      "Id": 919,
-      "Description": "Visionary static info-mediaries",
-      "ExtraInfo": "fuga",
-      "LinkId": 408,
+      "EntityName": "Cole Group",
+      "Id": 303,
+      "Description": "Operative value-added Graphic Interface",
+      "ExtraInfo": "quod",
+      "LinkId": 901,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldLength": 346
         }
       }
     }
   ],
-  "NextDueDate": "2005-08-12T13:28:32.1480184+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2012-02-23T04:02:06.791005+01:00",
+  "Postit": "id",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-01-13T13:28:32.1480184+01:00",
+  "ReopenDate": "2000-12-21T04:02:06.791005+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Aufderhar, Boyle and Collins",
-      "Comment": "sit",
-      "StakeholderRoleId": 869,
+      "StakeholderRoleName": "Heidenreich, Witting and Schmidt",
+      "Comment": "deserunt",
+      "StakeholderRoleId": 621,
       "CountryId": 678,
-      "PersonId": 312,
-      "EmailDescription": "lysanne.kris@bosco.biz",
-      "EmailId": 290,
-      "EmailAddress": "thelma@cronin.uk",
-      "PhoneId": 124,
-      "ContactName": "Kohler Inc and Sons",
-      "ContactId": 703,
-      "SaleId": 961,
-      "Mrmrs": "sit",
-      "Firstname": "Phyllis",
-      "MiddleName": "Roberts-Fahey",
-      "Lastname": "Volkman",
-      "SaleStakeholderId": 867,
-      "Rank": 815,
-      "Phone": "1-665-907-1182 x6328",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 747
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 777,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Luis Rath",
-    "SuperOffice:2": "267549742"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "omnis"
-  },
-  "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "recusandae"
-  },
-  "PublishEventDate": "2009-03-09T13:28:32.1480184+01:00",
-  "PublishTo": "2024-06-10T13:28:32.1480184+02:00",
-  "PublishFrom": "2017-01-10T13:28:32.1480184+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 191,
-      "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "PersonId": 796,
+      "EmailDescription": "alayna@kassulkerippin.biz",
+      "EmailId": 668,
+      "EmailAddress": "bria@bins.name",
+      "PhoneId": 546,
+      "ContactName": "Weissnat LLC",
+      "ContactId": 433,
+      "SaleId": 411,
+      "Mrmrs": "incidunt",
+      "Firstname": "Gerson",
+      "MiddleName": "Stamm Inc and Sons",
+      "Lastname": "Ortiz",
+      "SaleStakeholderId": 637,
+      "Rank": 292,
+      "Phone": "(279)964-3918 x45643",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 167
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 227,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Dr. Dan Anastacio Quitzon"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "est",
+    "ExtraFields2": "rerum"
+  },
+  "CustomFields": {
+    "CustomFields1": "in",
+    "CustomFields2": "molestias"
+  },
+  "PublishEventDate": "2005-10-06T04:02:06.791005+02:00",
+  "PublishTo": "2005-01-19T04:02:06.791005+01:00",
+  "PublishFrom": "1998-02-21T04:02:06.791005+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 308,
+      "Visibility": "All",
+      "DisplayValue": "ipsa",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 753
         }
       }
     },
     {
-      "VisibleId": 191,
+      "VisibleId": 308,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 753
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Sun, 28 Dec 1997 13:28:32 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   },
   "_Links": {

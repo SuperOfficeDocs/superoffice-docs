@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Bruen Group",
-    "ToolTip": "Minus sunt et optio.",
+    "Id": 618,
+    "Name": "Ondricka LLC",
+    "ToolTip": "Debitis ut consequuntur dolore.",
     "Deleted": false,
-    "Rank": 19,
-    "Type": "excepturi",
-    "ColorBlock": 437,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2022-10-08T13:28:32.8822233+02:00",
+    "Rank": 152,
+    "Type": "voluptate",
+    "ColorBlock": 278,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2011-09-21T04:02:07.2753298+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Stamm-Sauer",
-        "ToolTip": "Explicabo sit voluptates earum rem aperiam et aut.",
+        "Id": 818,
+        "Name": "Konopelski Inc and Sons",
+        "ToolTip": "Perspiciatis est explicabo ducimus reiciendis.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "hic",
-        "ColorBlock": 214,
-        "IconHint": "delectus",
+        "Rank": 999,
+        "Type": "in",
+        "ColorBlock": 216,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2011-03-21T13:28:32.8822233+01:00",
+        "LastChanged": "2010-10-24T04:02:07.2753298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "iure",
-        "Hidden": false,
-        "FullName": "Ms. Nina Mark Spencer II",
+        "ExtraInfo": "aut",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Dr. Juvenal Stroman DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldType": "System.Int32",
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Prof. Bell Jonas Cassin MD",
+    "ExtraInfo": "ad",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Germaine Mueller I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldLength": 472
       }
     }
   }

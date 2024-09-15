@@ -2,10 +2,10 @@
 uid: table-SearchCatHeadingLink
 title: SearchCatHeadingLink table
 description: Heading link table for SearchCat, for MDO headers
-generated: true
+so.generated: true
 keywords: database table SearchCatHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SearchCatHeadingLink Table (108)

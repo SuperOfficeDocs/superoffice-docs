@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/ErpSync/CreateActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 907,
-  "CrmRecordId": 5,
+  "ErpConnectionId": 995,
+  "CrmRecordId": 571,
   "CrmActorType": "Contact",
-  "ErpKey": "ipsam",
+  "ErpKey": "facilis",
   "ErpActorType": "Customer"
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

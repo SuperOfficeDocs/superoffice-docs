@@ -2,10 +2,10 @@
 uid: enum-tasklistitemtype
 title: Enum values for TaskListItemType
 description: Lists the enum values for TaskListItemType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskListItemType Enum

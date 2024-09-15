@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Kuhn Inc and Sons",
-    "ToolTip": "Magni voluptatem.",
+    "Id": 76,
+    "Name": "Williamson-Langosh",
+    "ToolTip": "Id ratione et vel.",
     "Deleted": false,
-    "Rank": 600,
-    "Type": "doloribus",
-    "ColorBlock": 447,
-    "IconHint": "a",
+    "Rank": 131,
+    "Type": "rerum",
+    "ColorBlock": 664,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2005-03-01T13:28:33.1165466+01:00",
+    "LastChanged": "2019-05-16T04:02:07.4003498+02:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Wilderman, Witting and Harris",
-        "ToolTip": "Ipsum nobis culpa qui ducimus in accusantium vitae.",
-        "Deleted": false,
-        "Rank": 655,
-        "Type": "cumque",
-        "ColorBlock": 410,
-        "IconHint": "molestias",
-        "Selected": false,
-        "LastChanged": "2001-12-15T13:28:33.1165466+01:00",
+        "Id": 854,
+        "Name": "Stiedemann-Kuhlman",
+        "ToolTip": "Aut assumenda numquam accusantium assumenda rerum quae.",
+        "Deleted": true,
+        "Rank": 191,
+        "Type": "molestiae",
+        "ColorBlock": 847,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2007-11-16T04:02:07.4003498+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "quos",
+        "ExtraInfo": "quod",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Ted Bahringer"
+        "FullName": "Gust Green"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "facilis",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Jessy Wilderman"
+    "FullName": "Norene Lynch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Name": "Green-Leannon",
-    "ToolTip": "Aut ab alias qui tempora.",
-    "Deleted": false,
-    "Rank": 560,
-    "Type": "tempora",
-    "ColorBlock": 417,
-    "IconHint": "at",
+    "Id": 372,
+    "Name": "Hegmann-Sipes",
+    "ToolTip": "Aperiam consequatur excepturi qui qui facere.",
+    "Deleted": true,
+    "Rank": 755,
+    "Type": "aut",
+    "ColorBlock": 638,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2015-04-26T13:28:33.1165466+02:00",
+    "LastChanged": "2012-09-28T04:02:07.4003498+02:00",
     "ChildItems": [
       {
-        "Id": 818,
-        "Name": "Schmitt, Pfeffer and Lindgren",
-        "ToolTip": "Deserunt quam.",
+        "Id": 904,
+        "Name": "Rowe Inc and Sons",
+        "ToolTip": "Quos voluptatem iure.",
         "Deleted": true,
-        "Rank": 84,
-        "Type": "dolor",
-        "ColorBlock": 581,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2000-10-30T13:28:33.1165466+01:00",
+        "Rank": 659,
+        "Type": "atque",
+        "ColorBlock": 411,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2016-08-12T04:02:07.4003498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "in",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Adele Deckow",
+        "FullName": "Ted Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 784
+            "FieldLength": 763
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Miss Marshall Alexys Bins",
+    "FullName": "Antoinette Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 564
       }
     }
   }

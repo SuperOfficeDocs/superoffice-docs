@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 950,
-  "ParentId": 92,
-  "Name": "Roberts Group",
-  "Fullname": "omnis",
-  "CategoryMaster": 11,
+  "TicketCategoryId": 164,
+  "ParentId": 955,
+  "Name": "Dicki, Goyette and Powlowski",
+  "Fullname": "numquam",
+  "CategoryMaster": 669,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Auer, Schowalter and Schinner",
+  "ExternalName": "Johnston-Willms",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 567,
-  "ReplyTemplate": 771,
-  "NotificationEmail": "annabell@bruen.uk",
+  "AssignmentLag": 286,
+  "ReplyTemplate": 214,
+  "NotificationEmail": "dawn@hessel.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 325,
+  "EffectiveReplyTemplateId": 479,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "illum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldLength": 913
     }
   }
 }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 840,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 685,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Kunze-Ziemann",
-    "Tooltip": "quisquam",
+    "Id": 306,
+    "Name": "Goldner Group",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 234,
-    "Rank": 744,
+    "UdListDefinitionId": 986,
+    "Rank": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 759
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

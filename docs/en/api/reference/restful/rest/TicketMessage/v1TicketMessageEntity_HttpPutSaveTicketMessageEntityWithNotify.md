@@ -132,63 +132,63 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 696,
+  "EjMessageId": 354,
   "Ticket": null,
-  "CreatedAt": "2020-04-23T13:28:32.3979624+02:00",
+  "CreatedAt": "1999-08-20T04:02:06.9159914+02:00",
   "CreatedBy": null,
-  "Author": "fugit",
+  "Author": "velit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ipsa",
-  "TimeSpent": 320,
-  "Body": "adipisci",
-  "HtmlBody": "tempore",
-  "EmailHeader": "kip_mills@walsh.us",
-  "DebugInfo": "quo",
-  "MailSorter": "non",
+  "MessageId": "modi",
+  "TimeSpent": 212,
+  "Body": "temporibus",
+  "HtmlBody": "et",
+  "EmailHeader": "sister.hermiston@harber.us",
+  "DebugInfo": "error",
+  "MailSorter": "odit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "provident",
+  "SearchTitle": "maiores",
   "MessageHeaders": [
     {
-      "Id": 492,
-      "Name": "Turner-Padberg",
-      "Value": "et",
+      "Id": 814,
+      "Name": "Kulas Inc and Sons",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 492,
-      "Name": "Turner-Padberg",
-      "Value": "et",
+      "Id": 814,
+      "Name": "Kulas Inc and Sons",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "similique",
-  "Sentiment": 889,
-  "SentimentConfidence": 332,
+  "Important": false,
+  "Language": "accusamus",
+  "Sentiment": 198,
+  "SentimentConfidence": 764,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 982,
-      "Name": "Ratke, Collier and Ullrich",
-      "ContentType": "vel",
-      "AttSize": 323,
+      "AttachmentId": 362,
+      "Name": "Cronin Group",
+      "ContentType": "saepe",
+      "AttSize": 406,
       "InlineImage": false,
-      "ContentId": "ea",
-      "AuthKey": "a",
+      "ContentId": "consequatur",
+      "AuthKey": "tempore",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "dolores",
+    "CustomFields2": "adipisci"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 515,
+  "EjMessageId": 67,
   "Ticket": null,
-  "CreatedAt": "2007-04-09T13:28:32.3979624+02:00",
+  "CreatedAt": "2018-01-27T04:02:06.9316148+01:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "illo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "atque",
-  "TimeSpent": 847,
-  "Body": "culpa",
-  "HtmlBody": "et",
-  "EmailHeader": "london_reynolds@stiedemann.name",
-  "DebugInfo": "ut",
+  "MessageId": "voluptas",
+  "TimeSpent": 617,
+  "Body": "ut",
+  "HtmlBody": "quasi",
+  "EmailHeader": "fleta_sporer@ritchie.info",
+  "DebugInfo": "quia",
   "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "dolorum",
   "MessageHeaders": [
     {
-      "Id": 779,
-      "Name": "Murazik Inc and Sons",
-      "Value": "praesentium",
+      "Id": 647,
+      "Name": "Nienow Inc and Sons",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldLength": 112
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nemo",
-  "Sentiment": 565,
-  "SentimentConfidence": 877,
+  "Language": "consequuntur",
+  "Sentiment": 543,
+  "SentimentConfidence": 503,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 179,
-      "Name": "Ruecker, Miller and Kirlin",
-      "ContentType": "est",
-      "AttSize": 722,
-      "InlineImage": false,
-      "ContentId": "nemo",
-      "AuthKey": "et",
+      "AttachmentId": 248,
+      "Name": "Armstrong-Wyman",
+      "ContentType": "eius",
+      "AttSize": 596,
+      "InlineImage": true,
+      "ContentId": "aut",
+      "AuthKey": "quia",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 512
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "nihil"
+    "CustomFields1": "sed",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 536
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=765
+POST /api/v1/Agents/Document/GetDocument?documentId=416
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 296,
-  "Attention": "consequatur",
-  "Header": "quaerat",
-  "Name": "Auer Group",
-  "OurRef": "quo",
-  "YourRef": "voluptates",
-  "Description": "Quality-focused multimedia installation",
-  "DocumentTemplate": "qui",
-  "IsPublished": true,
-  "PersonId": 881,
-  "PersonFullName": "Mrs. Emile Don Purdy",
-  "AssociateFullName": "Mrs. Hilario Pietro Connelly",
-  "ContactId": 187,
-  "ContactName": "Collins-Lueilwitz",
-  "ProjectId": 881,
-  "ProjectName": "Hoeger Group",
-  "AssociateId": 648,
-  "Snum": 463,
-  "SaleId": 82,
-  "SaleName": "Spinka-Stracke",
+  "DocumentId": 485,
+  "Attention": "rerum",
+  "Header": "ipsa",
+  "Name": "Klocko, Yundt and Christiansen",
+  "OurRef": "autem",
+  "YourRef": "omnis",
+  "Description": "Organic systematic artificial intelligence",
+  "DocumentTemplate": "quis",
+  "IsPublished": false,
+  "PersonId": 584,
+  "PersonFullName": "Griffin Kozey",
+  "AssociateFullName": "Mr. Chase Kuvalis Jr.",
+  "ContactId": 749,
+  "ContactName": "Schinner, Cronin and Collier",
+  "ProjectId": 528,
+  "ProjectName": "Schmidt Inc and Sons",
+  "AssociateId": 380,
+  "Snum": 286,
+  "SaleId": 529,
+  "SaleName": "Smitham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 415
     }
   }
 }

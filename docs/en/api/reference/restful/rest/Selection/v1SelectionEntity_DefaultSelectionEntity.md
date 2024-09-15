@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 07 Feb 2021 13:28:32 G2T
+Last-Modified: Sat, 25 May 2019 04:02:06 G5T
 
 {
-  "Description": "Ameliorated client-server leverage",
-  "Postit": "quia",
+  "Description": "Implemented bi-directional policy",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 470,
-  "IncludePerson": 290,
+  "GroupIdx": 259,
+  "IncludePerson": 903,
   "MemberCount": 99.99,
-  "Name": "Lang, Brekke and Corwin",
-  "PostitTextId": 57,
-  "CreatedDate": "2017-06-21T13:28:32.2105026+02:00",
-  "SelectionId": 794,
-  "SoundEx": "omnis",
-  "Source": 15,
-  "TextId": 607,
-  "UpdatedDate": "2021-02-07T13:28:32.2105026+01:00",
-  "UpdatedCount": 834,
-  "Visibility": 506,
+  "Name": "Hartmann, Koelpin and Cartwright",
+  "PostitTextId": 870,
+  "CreatedDate": "2015-02-21T04:02:06.8222516+01:00",
+  "SelectionId": 55,
+  "SoundEx": "sapiente",
+  "Source": 816,
+  "TextId": 402,
+  "UpdatedDate": "2019-05-25T04:02:06.8222516+02:00",
+  "UpdatedCount": 278,
+  "Visibility": 159,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Lind, Beier and Brakus",
-  "Completed": true,
-  "LeftSelectionId": 620,
-  "RightSelectionId": 448,
+  "CompanyUnique": true,
+  "TargetTableNumber": 499,
+  "TargetTableName": "Welch Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 464,
+  "RightSelectionId": 812,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lehner-Kunde",
-  "ShadowProviderName": "McCullough-Runte",
-  "ChartKey": "excepturi",
-  "LastLoaded": "2006-06-09T13:28:32.2105026+02:00",
-  "LastLoadedBy": 180,
+  "MainProviderName": "Greenfelder, Gislason and Wintheiser",
+  "ShadowProviderName": "Okuneva, Sipes and Schaden",
+  "ChartKey": "qui",
+  "LastLoaded": "2004-02-23T04:02:06.8222516+01:00",
+  "LastLoadedBy": 986,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-04-24T13:28:32.2105026+02:00",
-  "LastMembershipChangeBy": 107,
+  "LastMembershipChange": "2002-06-05T04:02:06.8222516+02:00",
+  "LastMembershipChangeBy": 847,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Watsica Group",
-  "DashboardTileDefinitionId": 702,
+  "MainHeading": "nostrum",
+  "MemberTabHeading": "vel",
+  "MailingsProviderName": "Rice LLC",
+  "DashboardTileDefinitionId": 255,
   "VisibleFor": [
     {
-      "VisibleId": 936,
+      "VisibleId": 545,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldType": "System.String",
+          "FieldLength": 492
         }
       }
     },
     {
-      "VisibleId": 936,
+      "VisibleId": 545,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldType": "System.String",
+          "FieldLength": 492
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Sun, 07 Feb 2021 13:28:32 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

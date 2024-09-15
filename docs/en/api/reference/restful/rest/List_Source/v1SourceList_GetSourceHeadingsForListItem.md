@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Boyle-Ferry",
-    "ToolTip": "Ut asperiores est tempore.",
-    "Deleted": true,
-    "Rank": 120,
-    "Type": "aut",
-    "ColorBlock": 257,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "1997-07-17T13:28:33.1951017+02:00",
+    "Id": 610,
+    "Name": "Abshire-Feeney",
+    "ToolTip": "Dolorum suscipit assumenda.",
+    "Deleted": false,
+    "Rank": 392,
+    "Type": "nam",
+    "ColorBlock": 273,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2006-07-30T04:02:07.4318023+02:00",
     "ChildItems": [
       {
-        "Id": 473,
-        "Name": "Schiller Group",
-        "ToolTip": "Quisquam veniam accusamus voluptas quod quam odio commodi.",
-        "Deleted": true,
-        "Rank": 724,
-        "Type": "a",
-        "ColorBlock": 433,
-        "IconHint": "et",
+        "Id": 637,
+        "Name": "Gislason-Homenick",
+        "ToolTip": "Optio fugiat quaerat illo rerum soluta eveniet.",
+        "Deleted": false,
+        "Rank": 661,
+        "Type": "et",
+        "ColorBlock": 290,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "1998-05-28T13:28:33.1951017+02:00",
+        "LastChanged": "2001-04-03T04:02:07.4318023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "itaque",
+        "StyleHint": "necessitatibus",
         "Hidden": true,
-        "FullName": "Mose Swaniawski",
+        "FullName": "Kylee Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldLength": 597
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Stacy Huel",
+    "ExtraInfo": "dicta",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Miss Zakary Tyrell Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

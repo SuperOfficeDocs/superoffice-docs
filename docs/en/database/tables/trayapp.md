@@ -2,10 +2,10 @@
 uid: table-TrayApp
 title: TrayApp table
 description: Tray application presence. SuperOffice CRM web extensions.
-generated: true
+so.generated: true
 keywords: database table TrayApp
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TrayApp Table (252)

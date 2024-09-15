@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Yost, Kemmer and Sauer",
-  "DeviceName": "Dickinson-Schamberger",
-  "KeyName": "Lehner Inc and Sons",
-  "TableName": "Schaden, Kuphal and Bartell",
-  "RecordId": 358
+  "ApplicationName": "Schneider, Muller and Doyle",
+  "DeviceName": "Lesch-Wiza",
+  "KeyName": "Abbott, McDermott and Ziemann",
+  "TableName": "Murray, Renner and Kirlin",
+  "RecordId": 765
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dignissimos",
-  "Value": "ad",
-  "RecordId": 288,
-  "CreatedDate": "2006-09-26T13:28:22.8510314+02:00",
-  "UpdatedDate": "1997-11-05T13:28:22.8510314+01:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "fuga",
-  "TableName": "Adams-Stroman",
+  "Key": "labore",
+  "Value": "aut",
+  "RecordId": 740,
+  "CreatedDate": "2002-06-14T04:02:01.7888547+02:00",
+  "UpdatedDate": "2000-02-28T04:02:01.7888547+01:00",
+  "UpdatedBy": "numquam",
+  "CreatedBy": "quaerat",
+  "TableName": "Davis-Hoppe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 548
     }
   }
 }

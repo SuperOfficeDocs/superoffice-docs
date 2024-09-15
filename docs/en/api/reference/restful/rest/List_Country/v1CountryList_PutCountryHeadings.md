@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 723,
-    "Name": "Satterfield, Nicolas and Heathcote",
-    "Tooltip": "fuga",
-    "Deleted": true,
-    "Rank": 525,
-    "UdListDefinitionId": 755
+    "HeadingId": 563,
+    "Name": "Hoppe-Labadie",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 635,
+    "UdListDefinitionId": 505
   },
   {
-    "HeadingId": 723,
-    "Name": "Satterfield, Nicolas and Heathcote",
-    "Tooltip": "fuga",
-    "Deleted": true,
-    "Rank": 525,
-    "UdListDefinitionId": 755
+    "HeadingId": 563,
+    "Name": "Hoppe-Labadie",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 635,
+    "UdListDefinitionId": 505
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Wintheiser Group",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 621,
-    "UdListDefinitionId": 601,
+    "HeadingId": 344,
+    "Name": "Dietrich Group",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 690,
+    "UdListDefinitionId": 139,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 774
       }
     }
   }

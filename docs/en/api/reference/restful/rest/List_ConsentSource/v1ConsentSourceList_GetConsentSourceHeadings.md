@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Roberts-Hodkiewicz",
-    "Tooltip": "consequatur",
+    "HeadingId": 540,
+    "Name": "VonRueden Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "Rank": 24,
-    "UdListDefinitionId": 859,
+    "Rank": 951,
+    "UdListDefinitionId": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 898
       }
     }
   }

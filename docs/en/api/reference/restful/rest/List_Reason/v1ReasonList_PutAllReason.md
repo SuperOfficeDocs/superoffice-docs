@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Ledner, Homenick and Maggio",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "UdListDefinitionId": 159,
-    "Rank": 232
+    "Id": 751,
+    "Name": "Grant-Tremblay",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "UdListDefinitionId": 367,
+    "Rank": 53
   },
   {
-    "Id": 349,
-    "Name": "Ledner, Homenick and Maggio",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "UdListDefinitionId": 159,
-    "Rank": 232
+    "Id": 751,
+    "Name": "Grant-Tremblay",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "UdListDefinitionId": 367,
+    "Rank": 53
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Batz, Crooks and Baumbach",
-    "Tooltip": "saepe",
+    "Id": 402,
+    "Name": "Barton Group",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "UdListDefinitionId": 572,
-    "Rank": 638,
+    "UdListDefinitionId": 750,
+    "Rank": 976,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 791
       }
     }
   }

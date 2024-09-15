@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 901,
-  "PersonId": 975,
-  "AppointmentId": 608,
-  "DocumentId": 388,
-  "SaleId": 410,
-  "SelectionId": 182,
-  "ProjectId": 726,
+  "ContactId": 943,
+  "PersonId": 198,
+  "AppointmentId": 400,
+  "DocumentId": 766,
+  "SaleId": 494,
+  "SelectionId": 257,
+  "ProjectId": 117,
   "CustomTags": {
-    "CustomTags1": "ab",
-    "CustomTags2": "esse"
+    "CustomTags1": "qui",
+    "CustomTags2": "dicta"
   },
-  "UiCulture": "libero"
+  "UiCulture": "illo"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 842,
+  "DocumentId": 150,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "distinctio",
-  "Name": "Hoeger-Rice",
-  "OurRef": "ex",
-  "YourRef": "officia",
-  "CreatedDate": "2021-07-12T13:28:22.5698454+02:00",
-  "UpdatedDate": "2018-01-14T13:28:22.5698454+01:00",
-  "Description": "Pre-emptive global neural-net",
+  "Attention": "qui",
+  "Header": "non",
+  "Name": "Funk LLC",
+  "OurRef": "quod",
+  "YourRef": "asperiores",
+  "CreatedDate": "2003-08-18T04:02:01.6280068+02:00",
+  "UpdatedDate": "2003-05-13T04:02:01.6280068+02:00",
+  "Description": "Reactive value-added database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-03-04T13:28:22.5698454+01:00",
-  "ExternalRef": "commodi",
+  "Date": "1998-08-29T04:02:01.6436305+02:00",
+  "ExternalRef": "quis",
   "Completed": "Completed",
-  "ActiveLinks": 423,
+  "ActiveLinks": 759,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Borer LLC",
-      "Id": 794,
-      "Description": "Versatile responsive array",
-      "ExtraInfo": "et",
-      "LinkId": 975,
+      "EntityName": "Romaguera-Shields",
+      "Id": 441,
+      "Description": "Progressive intermediate collaboration",
+      "ExtraInfo": "labore",
+      "LinkId": 391,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldLength": 890
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 408,
-  "Snum": 9,
+  "SuggestedDocumentId": 318,
+  "Snum": 495,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vickie Stracke",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Prof. Dovie Hans Konopelski",
+    "SuperOffice:2": "2019814808"
   },
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "cum"
+    "CustomFields1": "laborum",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2024-02-04T13:28:22.5698454+01:00",
-  "PublishTo": "1997-12-15T13:28:22.5698454+01:00",
-  "PublishFrom": "2012-10-01T13:28:22.5698454+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-04-28T04:02:01.6436305+02:00",
+  "PublishTo": "2002-10-26T04:02:01.6436305+02:00",
+  "PublishFrom": "2017-04-16T04:02:01.6436305+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 777,
+      "VisibleId": 829,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 69
         }
       }
     },
     {
-      "VisibleId": 777,
+      "VisibleId": 829,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 69
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 979
     }
   }
 }

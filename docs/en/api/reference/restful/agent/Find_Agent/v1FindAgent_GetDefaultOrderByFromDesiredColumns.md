@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hartmann-Reilly",
+  "ProviderName": "Feest, Aufderhar and Terry",
   "DesiredColumns": [
-    "quas",
-    "quos"
+    "quia",
+    "sint"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nitzsche, Kertzmann and Champlin",
+    "Name": "Fay, Kemmer and Pagac",
     "Direction": "ASC"
   },
   {
-    "Name": "Nitzsche, Kertzmann and Champlin",
+    "Name": "Fay, Kemmer and Pagac",
     "Direction": "ASC"
   }
 ]

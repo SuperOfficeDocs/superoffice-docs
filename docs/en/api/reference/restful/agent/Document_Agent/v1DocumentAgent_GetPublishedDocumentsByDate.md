@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 236,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2006-04-07T13:28:22.4448744+02:00",
-  "EndTime": "2007-11-23T13:28:22.4448744+01:00",
-  "Count": 36
+  "PersonId": 137,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2009-03-01T04:02:01.5655043+01:00",
+  "EndTime": "2003-11-09T04:02:01.5655043+01:00",
+  "Count": 475
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 26,
-    "Attention": "qui",
-    "Header": "labore",
-    "Name": "Botsford-Brown",
-    "OurRef": "eos",
-    "YourRef": "facere",
-    "Description": "Triple-buffered 5th generation project",
-    "DocumentTemplate": "repellendus",
-    "IsPublished": true,
-    "PersonId": 769,
-    "PersonFullName": "Garett Terry",
-    "AssociateFullName": "Abner Wiza",
-    "ContactId": 936,
-    "ContactName": "Douglas-Abernathy",
-    "ProjectId": 139,
-    "ProjectName": "Dare Inc and Sons",
-    "AssociateId": 401,
-    "Snum": 399,
-    "SaleId": 138,
-    "SaleName": "Luettgen LLC",
+    "DocumentId": 810,
+    "Attention": "nam",
+    "Header": "autem",
+    "Name": "Kassulke, Spinka and Kuhic",
+    "OurRef": "sunt",
+    "YourRef": "hic",
+    "Description": "User-centric 6th generation framework",
+    "DocumentTemplate": "debitis",
+    "IsPublished": false,
+    "PersonId": 144,
+    "PersonFullName": "Miller Smitham",
+    "AssociateFullName": "Ms. Ophelia Santina Zulauf Jr.",
+    "ContactId": 608,
+    "ContactName": "Torphy-Quigley",
+    "ProjectId": 866,
+    "ProjectName": "Hintz-Cassin",
+    "AssociateId": 605,
+    "Snum": 209,
+    "SaleId": 932,
+    "SaleName": "Ullrich, Williamson and Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 58
       }
     }
   }

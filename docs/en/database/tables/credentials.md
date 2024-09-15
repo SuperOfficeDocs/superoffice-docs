@@ -2,10 +2,10 @@
 uid: table-Credentials
 title: Credentials table
 description: Alternative credentials
-generated: true
+so.generated: true
 keywords: database table Credentials
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Credentials Table (250)

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 192,
-    "Name": "Lindgren-Stracke",
-    "Tooltip": "culpa",
-    "Deleted": false,
-    "Rank": 788,
-    "UdListDefinitionId": 735
+    "HeadingId": 763,
+    "Name": "Kulas-Schaden",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 548,
+    "UdListDefinitionId": 324
   },
   {
-    "HeadingId": 192,
-    "Name": "Lindgren-Stracke",
-    "Tooltip": "culpa",
-    "Deleted": false,
-    "Rank": 788,
-    "UdListDefinitionId": 735
+    "HeadingId": 763,
+    "Name": "Kulas-Schaden",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 548,
+    "UdListDefinitionId": 324
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 754,
-    "Name": "Wehner Inc and Sons",
-    "Tooltip": "dolor",
+    "HeadingId": 320,
+    "Name": "Padberg-Murazik",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 716,
-    "UdListDefinitionId": 834,
+    "Rank": 883,
+    "UdListDefinitionId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldLength": 881
       }
     }
   }

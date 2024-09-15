@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705,
-  "Name": "Luettgen, Streich and Jewess",
-  "AssociateId": 408,
-  "DetailsTable": 8,
-  "DetailsRecord": 785,
+  "Id": 353,
+  "Name": "Terry, Fisher and Emard",
+  "AssociateId": 274,
+  "DetailsTable": 36,
+  "DetailsRecord": 215,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "nihil"
+    "ParameterObject1": "odio",
+    "ParameterObject2": "omnis"
   },
-  "LastStarted": "2008-01-20T13:28:23.6323677+01:00",
-  "Created": "2014-03-31T13:28:23.6323677+02:00",
-  "StartCount": 863,
-  "DatabaseSerialNumber": "1047093",
-  "Context": "culpa",
-  "Result": "quos",
+  "LastStarted": "2013-08-09T04:02:02.2378308+02:00",
+  "Created": "2017-04-03T04:02:02.2378308+02:00",
+  "StartCount": 522,
+  "DatabaseSerialNumber": "1203623",
+  "Context": "doloribus",
+  "Result": "temporibus",
   "State": "All",
-  "Description": "Optimized tangible process improvement",
-  "Response": "non",
-  "Request": "reprehenderit",
-  "ProgressDescription": "Business-focused modular Graphical User Interface",
-  "ProgressPercent": 996,
-  "FileName": "Zemlak LLC",
+  "Description": "User-centric mobile protocol",
+  "Response": "inventore",
+  "Request": "itaque",
+  "ProgressDescription": "Centralized systematic Graphical User Interface",
+  "ProgressPercent": 5,
+  "FileName": "Waelchi-Kemmer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 111
     }
   }
 }

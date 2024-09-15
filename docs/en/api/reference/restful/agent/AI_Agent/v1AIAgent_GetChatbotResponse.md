@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "temporibus",
-  "IsoLangCode": "sapiente",
-  "UserPrompt": "doloribus",
-  "DisplayValue": "nesciunt",
+  "ChatId": "rerum",
+  "IsoLangCode": "quidem",
+  "UserPrompt": "illum",
+  "DisplayValue": "qui",
   "PreviousTurns": [
     {
-      "Timestamp": "2001-09-28T13:28:21.3667801+02:00",
-      "UserPrompt": "consectetur",
-      "UserDisplayText": "impedit",
-      "BotResponse": "quidem",
+      "Timestamp": "2015-12-09T04:02:00.9556944+01:00",
+      "UserPrompt": "reprehenderit",
+      "UserDisplayText": "accusantium",
+      "BotResponse": "repellendus",
       "BotActions": {
-        "BotActions1": "inventore",
-        "BotActions2": "eos"
+        "BotActions1": "rerum",
+        "BotActions2": "temporibus"
       },
       "Attachments": [
-        "id",
-        "amet"
+        "possimus",
+        "necessitatibus"
       ]
     },
     {
-      "Timestamp": "2001-09-28T13:28:21.3667801+02:00",
-      "UserPrompt": "consectetur",
-      "UserDisplayText": "impedit",
-      "BotResponse": "quidem",
+      "Timestamp": "2015-12-09T04:02:00.9556944+01:00",
+      "UserPrompt": "reprehenderit",
+      "UserDisplayText": "accusantium",
+      "BotResponse": "repellendus",
       "BotActions": {
-        "BotActions1": "inventore",
-        "BotActions2": "eos"
+        "BotActions1": "rerum",
+        "BotActions2": "temporibus"
       },
       "Attachments": [
-        "id",
-        "amet"
+        "possimus",
+        "necessitatibus"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2004-09-09T13:28:21.3667801+02:00",
-  "UserPrompt": "in",
-  "UserDisplayText": "repudiandae",
-  "BotResponse": "voluptates",
+  "Timestamp": "2015-05-22T04:02:00.9556944+02:00",
+  "UserPrompt": "beatae",
+  "UserDisplayText": "rerum",
+  "BotResponse": "at",
   "BotActions": {
-    "BotActions1": "vitae",
-    "BotActions2": "temporibus"
+    "BotActions1": "temporibus",
+    "BotActions2": "sequi"
   },
   "Attachments": [
-    "aut",
-    "voluptatem"
+    "ex",
+    "delectus"
   ]
 }
 ```

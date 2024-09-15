@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 196,
-  "Name": "Blanda Inc and Sons",
+  "ScreenChooserId": 380,
+  "Name": "Keebler-Wisoky",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quibusdam",
-  "Source": "iste",
-  "Registered": "2006-04-12T13:28:32.4292054+02:00",
-  "RegisteredAssociateId": 676,
-  "Updated": "2013-03-21T13:28:32.4292054+01:00",
-  "UpdatedAssociateId": 440,
+  "UniqueIdentifier": "nam",
+  "Source": "eos",
+  "Registered": "2008-04-08T04:02:06.9316148+02:00",
+  "RegisteredAssociateId": 16,
+  "Updated": "2007-06-16T04:02:06.9316148+02:00",
+  "UpdatedAssociateId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 198
     }
   }
 }

@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 435,
-  "Name": "Jones-Haag",
+  "TicketPriorityId": 396,
+  "Name": "Gutkowski, Bradtke and Runte",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 538,
+  "SortOrder": 391,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 452,
-  "MonStart": "2001-07-02T13:28:23.0231319+02:00",
-  "MonStop": "1997-10-07T13:28:23.0231319+02:00",
-  "TueStart": "2008-02-24T13:28:23.0231319+01:00",
-  "TueStop": "2014-07-09T13:28:23.0231319+02:00",
-  "WedStart": "2007-06-01T13:28:23.0231319+02:00",
-  "WedStop": "2000-08-06T13:28:23.0231319+02:00",
-  "ThuStart": "2020-01-20T13:28:23.0231319+01:00",
-  "ThuStop": "2001-09-24T13:28:23.0231319+02:00",
-  "FriStart": "2011-07-10T13:28:23.0231319+02:00",
-  "FriStop": "2015-09-06T13:28:23.0231319+02:00",
-  "SatStart": "2002-04-02T13:28:23.0231319+02:00",
-  "SatStop": "2005-04-03T13:28:23.0231319+02:00",
-  "SunStart": "2021-03-28T13:28:23.0231319+02:00",
-  "SunStop": "2016-01-03T13:28:23.0231319+01:00",
+  "Deadline": 415,
+  "MonStart": "2000-10-06T04:02:01.8784808+02:00",
+  "MonStop": "2016-02-06T04:02:01.8784808+01:00",
+  "TueStart": "2017-06-05T04:02:01.8784808+02:00",
+  "TueStop": "2020-11-26T04:02:01.8784808+01:00",
+  "WedStart": "2003-04-16T04:02:01.8784808+02:00",
+  "WedStop": "2018-07-20T04:02:01.8784808+02:00",
+  "ThuStart": "2008-08-15T04:02:01.8784808+02:00",
+  "ThuStop": "2008-06-29T04:02:01.8784808+02:00",
+  "FriStart": "2020-02-04T04:02:01.8784808+01:00",
+  "FriStop": "2020-10-02T04:02:01.8784808+02:00",
+  "SatStart": "2009-04-27T04:02:01.8784808+02:00",
+  "SatStop": "2023-12-31T04:02:01.8784808+01:00",
+  "SunStart": "2018-07-27T04:02:01.8784808+02:00",
+  "SunStop": "2011-10-17T04:02:01.8784808+02:00",
   "NonDates": [
-    "quasi",
-    "qui"
+    "eos",
+    "officia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 77,
-      "AlertLevel": 902,
-      "AlertTimeout": 336,
-      "Action": 230,
-      "DelegateTo": 537,
-      "ScriptId": 994,
-      "EmailTo": "walton.hermann@boyer.com",
-      "SmsTo": "voluptate",
-      "ReplyTemplateIdCustomer": 936,
-      "ReplyTemplateIdUser": 314,
-      "ReplyTemplateIdCatmast": 498,
-      "ReplyTemplateIdEmail": 439,
-      "RtiCustomerSms": 107,
-      "ReplyTemplateIdUserSms": 93,
-      "ReplyTemplateIdCatmastSms": 710,
-      "ReplyTemplateIdSms": 748,
+      "TicketAlertId": 202,
+      "AlertLevel": 633,
+      "AlertTimeout": 790,
+      "Action": 618,
+      "DelegateTo": 986,
+      "ScriptId": 315,
+      "EmailTo": "nathanial_streich@fritschflatley.name",
+      "SmsTo": "possimus",
+      "ReplyTemplateIdCustomer": 922,
+      "ReplyTemplateIdUser": 176,
+      "ReplyTemplateIdCatmast": 380,
+      "ReplyTemplateIdEmail": 513,
+      "RtiCustomerSms": 615,
+      "ReplyTemplateIdUserSms": 56,
+      "ReplyTemplateIdCatmastSms": 760,
+      "ReplyTemplateIdSms": 210,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldType": "System.Int32",
+          "FieldLength": 363
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 636
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: enum-phonetype
 title: Enum values for PhoneType
 description: Lists the enum values for PhoneType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PhoneType Enum

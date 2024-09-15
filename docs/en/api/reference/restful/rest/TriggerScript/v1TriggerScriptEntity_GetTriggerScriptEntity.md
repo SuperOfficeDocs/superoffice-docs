@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 562,
-  "Name": "Reinger-Zboncak",
+  "ScreenChooserId": 93,
+  "Name": "Prohaska, Rowe and Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "saepe",
-  "Source": "est",
-  "Registered": "2023-11-10T13:28:32.4135814+01:00",
-  "RegisteredAssociateId": 250,
-  "Updated": "2023-06-19T13:28:32.4135814+02:00",
-  "UpdatedAssociateId": 37,
+  "UniqueIdentifier": "voluptatum",
+  "Source": "sint",
+  "Registered": "2013-01-27T04:02:06.9316148+01:00",
+  "RegisteredAssociateId": 666,
+  "Updated": "2003-05-10T04:02:06.9316148+02:00",
+  "UpdatedAssociateId": 587,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 203
     }
   },
   "_Links": {

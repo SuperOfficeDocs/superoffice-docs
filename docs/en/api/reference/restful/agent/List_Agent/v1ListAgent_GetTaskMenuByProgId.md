@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eligendi"
+  "ProgId": "porro"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 9,
-  "Name": "Harber Group",
-  "Tooltip": "impedit",
-  "TableName": "Stokes Group",
-  "Area": "ut",
+  "TaskMenuId": 774,
+  "Name": "Beer, Bartoletti and Keebler",
+  "Tooltip": "quas",
+  "TableName": "Donnelly, Eichmann and Brakus",
+  "Area": "molestias",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 923,
+  "CrmScriptId": 815,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 62,
+  "Rank": 350,
   "Encoding": "ANSI",
-  "ProgId": "non",
+  "ProgId": "ea",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

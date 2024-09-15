@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 269,
-  "Name": "McCullough LLC",
+  "WebhookId": 579,
+  "Name": "Hegmann, Schowalter and Murray",
   "Events": [
-    "et",
-    "repellendus"
+    "sed",
+    "recusandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatibus",
+  "Secret": "sapiente",
   "State": "Active",
-  "Type": "deserunt",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "amet",
-    "Headers2": "eos"
+    "Headers1": "modi",
+    "Headers2": "molestiae"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-11-30T13:28:24.2429064+01:00",
+  "Registered": "2023-07-30T04:02:02.5822222+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-06-30T13:28:24.2429064+02:00",
+  "Updated": "2011-04-10T04:02:02.5822222+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "alberto.heathcote@swaniawski.co.uk"
+  "ErrorsEmail": "lucy.monahan@kuvalis.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 932,
-  "Name": "Bartell Group",
+  "WebhookId": 43,
+  "Name": "Lindgren Group",
   "Events": [
-    "eum",
-    "rem"
+    "modi",
+    "totam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
+  "Secret": "veniam",
   "State": "Active",
-  "Type": "est",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "nobis"
+    "Headers1": "ut",
+    "Headers2": "ipsam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-12-25T13:28:24.2429064+01:00",
+  "Registered": "2009-08-27T04:02:02.5978454+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-03-19T13:28:24.2429064+01:00",
+  "Updated": "2009-07-12T04:02:02.5978454+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jesus_kilback@welch.biz"
+  "ErrorsEmail": "caesar.skiles@stark.name"
 }
 ```

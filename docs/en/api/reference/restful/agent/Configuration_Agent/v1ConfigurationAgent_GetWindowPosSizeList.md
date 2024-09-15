@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "quo",
-    "PersonId": 341,
-    "AssociateId": 380,
-    "ExtraId": 215,
-    "ExtraInfo": "libero",
-    "Height": 269,
-    "LeftX": 304,
+    "OwnerWindow": "nesciunt",
+    "PersonId": 976,
+    "AssociateId": 650,
+    "ExtraId": 10,
+    "ExtraInfo": "voluptatum",
+    "Height": 839,
+    "LeftX": 295,
     "State": "Maximized",
-    "UpperY": 571,
-    "Width": 263,
-    "WindowPosSizeId": 435,
+    "UpperY": 925,
+    "Width": 690,
+    "WindowPosSizeId": 44,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

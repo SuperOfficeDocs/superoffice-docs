@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 581,
-  "Section": "est",
-  "Key": "dolor",
-  "Name": "Kuhic, Kiehn and Stiedemann",
+  "PrefDescId": 688,
+  "Section": "explicabo",
+  "Key": "consequatur",
+  "Name": "Greenholt-Windler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased value-added core",
-  "IsBuiltin": false,
-  "TableName": "Nolan-Johnston",
-  "UserDefinedListId": 550,
-  "Rank": 1002,
-  "SubGroup": "ea",
-  "MinLevel": 729,
-  "MaxValue": 104,
-  "MinValue": 44,
-  "RequiredLicense": "soluta"
+  "Description": "Enhanced modular collaboration",
+  "IsBuiltin": true,
+  "TableName": "Reichert Group",
+  "UserDefinedListId": 480,
+  "Rank": 756,
+  "SubGroup": "quia",
+  "MinLevel": 654,
+  "MaxValue": 344,
+  "MinValue": 86,
+  "RequiredLicense": "porro"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 668,
-  "Section": "dolores",
-  "Key": "vel",
-  "Name": "Schinner Inc and Sons",
+  "PrefDescId": 323,
+  "Section": "dolor",
+  "Key": "eos",
+  "Name": "Fay Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal neutral leverage",
-  "IsBuiltin": true,
-  "TableName": "Rogahn-Schinner",
-  "UserDefinedListId": 929,
-  "Rank": 960,
-  "SubGroup": "autem",
-  "MinLevel": 360,
-  "MaxValue": 748,
-  "MinValue": 937,
-  "RequiredLicense": "qui",
+  "Description": "Stand-alone disintermediate firmware",
+  "IsBuiltin": false,
+  "TableName": "Schmidt, Stoltenberg and Howell",
+  "UserDefinedListId": 864,
+  "Rank": 456,
+  "SubGroup": "quo",
+  "MinLevel": 588,
+  "MaxValue": 901,
+  "MinValue": 269,
+  "RequiredLicense": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 164
     }
   },
   "_Links": {

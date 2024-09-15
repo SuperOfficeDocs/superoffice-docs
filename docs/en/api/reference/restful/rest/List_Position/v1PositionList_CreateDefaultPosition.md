@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Wunsch-Franecki",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 687,
-  "Rank": 109,
+  "Id": 408,
+  "Name": "Schmeler LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 718,
+  "Rank": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 852
     }
   }
 }

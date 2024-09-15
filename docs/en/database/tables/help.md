@@ -2,10 +2,10 @@
 uid: table-help
 title: help table
 description: This table contains the help pages.
-generated: true
+so.generated: true
 keywords: database table help
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # help Table (302)

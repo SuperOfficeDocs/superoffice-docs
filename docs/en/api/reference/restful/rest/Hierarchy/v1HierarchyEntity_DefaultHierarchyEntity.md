@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 971,
+  "HierarchyId": 449,
   "Domain": "Dashboards",
-  "Name": "Aufderhar-Ondricka",
-  "Fullname": "qui",
-  "ParentId": 290,
+  "Name": "Maggio LLC",
+  "Fullname": "odit",
+  "ParentId": 765,
   "Children": [
     {
-      "HierarchyId": 962,
+      "HierarchyId": 818,
       "Domain": "Dashboards",
-      "Name": "Prosacco, Casper and Abbott",
-      "Fullname": "beatae",
-      "ParentId": 937,
+      "Name": "Jones, Von and Oberbrunner",
+      "Fullname": "sit",
+      "ParentId": 61,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-10-09T13:28:31.6948645+02:00",
-      "RegisteredAssociateId": 916,
-      "Updated": "1999-04-28T13:28:31.6948645+02:00",
-      "UpdatedAssociateId": 389,
+      "Registered": "2014-05-14T04:02:06.6191478+02:00",
+      "RegisteredAssociateId": 813,
+      "Updated": "2023-08-20T04:02:06.6191478+02:00",
+      "UpdatedAssociateId": 761,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldLength": 580
         }
       }
     }
   ],
-  "Registered": "2010-04-29T13:28:31.6948645+02:00",
-  "RegisteredAssociateId": 225,
-  "Updated": "2010-01-29T13:28:31.6948645+01:00",
-  "UpdatedAssociateId": 277,
+  "Registered": "2013-11-09T04:02:06.6191478+01:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2014-05-09T04:02:06.6191478+02:00",
+  "UpdatedAssociateId": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

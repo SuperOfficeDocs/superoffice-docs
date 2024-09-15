@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 332
+  "ProductId": 542
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 625,
-  "BlobSize": 841,
-  "Description": "Synchronised grid-enabled support",
-  "ExtraInfo": "ea",
+  "BlobId": 631,
+  "BlobSize": 373,
+  "Description": "Business-focused assymetric open system",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "alias",
-  "OriginalSize": 726,
-  "CreatedDate": "2005-02-13T13:28:21.8668811+01:00",
-  "UpdatedDate": "1998-11-06T13:28:21.8668811+01:00",
+  "MimeType": "expedita",
+  "OriginalSize": 41,
+  "CreatedDate": "2013-12-24T04:02:01.2374146+01:00",
+  "UpdatedDate": "2007-05-13T04:02:01.2374146+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quod",
+  "ConceptualType": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldLength": 482
     }
   }
 }

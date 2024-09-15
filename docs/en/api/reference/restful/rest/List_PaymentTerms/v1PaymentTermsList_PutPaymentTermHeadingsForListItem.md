@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Moen, Farrell and Renner",
-    "ToolTip": "Laborum incidunt quia quia rerum.",
-    "Deleted": false,
-    "Rank": 233,
-    "Type": "sunt",
-    "ColorBlock": 222,
-    "IconHint": "nobis",
+    "Id": 244,
+    "Name": "Hamill-Bednar",
+    "ToolTip": "Dolore tempora earum.",
+    "Deleted": true,
+    "Rank": 622,
+    "Type": "voluptas",
+    "ColorBlock": 694,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2002-03-02T13:28:32.8978487+01:00",
+    "LastChanged": "2015-12-21T04:02:07.2753298+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Leuschke Inc and Sons",
-        "ToolTip": "Quibusdam cupiditate pariatur a cumque aut.",
-        "Deleted": true,
-        "Rank": 762,
-        "Type": "sequi",
-        "ColorBlock": 113,
-        "IconHint": "accusamus",
+        "Id": 936,
+        "Name": "Lueilwitz-Howell",
+        "ToolTip": "Ullam et hic explicabo aperiam a.",
+        "Deleted": false,
+        "Rank": 294,
+        "Type": "consectetur",
+        "ColorBlock": 686,
+        "IconHint": "dolorum",
         "Selected": true,
-        "LastChanged": "2018-08-15T13:28:32.8978487+02:00",
+        "LastChanged": "2024-08-05T04:02:07.2753298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "dicta",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Shaun Yost"
+        "FullName": "Miss Afton Cronin II"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Prof. Raphaelle Garret Gleichner"
+    "FullName": "Etha Yost"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Mills, West and Mante",
-    "ToolTip": "Tenetur illo.",
+    "Id": 4,
+    "Name": "Gleichner-Durgan",
+    "ToolTip": "Temporibus ipsa nulla et earum vitae repudiandae occaecati.",
     "Deleted": false,
-    "Rank": 805,
-    "Type": "eaque",
-    "ColorBlock": 677,
-    "IconHint": "cupiditate",
+    "Rank": 255,
+    "Type": "sint",
+    "ColorBlock": 1000,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2011-03-09T13:28:32.8978487+01:00",
+    "LastChanged": "2001-02-24T04:02:07.2753298+01:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Batz-Schmidt",
-        "ToolTip": "Voluptatem cumque suscipit molestiae et fugiat aspernatur voluptatem.",
-        "Deleted": false,
-        "Rank": 292,
-        "Type": "deleniti",
-        "ColorBlock": 190,
-        "IconHint": "eaque",
+        "Id": 805,
+        "Name": "Schmeler Inc and Sons",
+        "ToolTip": "Corrupti provident ipsam alias laboriosam ad quos.",
+        "Deleted": true,
+        "Rank": 480,
+        "Type": "ducimus",
+        "ColorBlock": 507,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2023-06-27T13:28:32.8978487+02:00",
+        "LastChanged": "2017-01-04T04:02:07.2753298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "impedit",
+        "ExtraInfo": "libero",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Luis Predovic",
+        "FullName": "Margarete Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Ms. Madie Alba Nader DVM",
+    "ExtraInfo": "porro",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Prof. Roger Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

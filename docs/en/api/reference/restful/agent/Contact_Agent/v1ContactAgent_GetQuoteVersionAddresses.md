@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 43
+  "QuoteVersionId": 326
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 5572.2519999999995,
-    "Wgs84Longitude": 3187.278,
+    "Wgs84Latitude": 16400.221999999998,
+    "Wgs84Longitude": 7505.9299999999994,
     "LocalizedAddress": [
       [
         {
-          "Name": "Zemlak, Stamm and Sauer",
-          "Value": "alias",
-          "Tooltip": "voluptates",
-          "Label": "non",
-          "ValueLength": 914,
-          "AddressType": "adipisci",
+          "Name": "Herzog, Gibson and Sporer",
+          "Value": "in",
+          "Tooltip": "aperiam",
+          "Label": "illo",
+          "ValueLength": 156,
+          "AddressType": "vel",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 652
+              "FieldType": "System.String",
+              "FieldLength": 685
             }
           }
         }
       ],
       [
         {
-          "Name": "Fadel, Kris and Leannon",
-          "Value": "aut",
-          "Tooltip": "sit",
-          "Label": "beatae",
-          "ValueLength": 109,
-          "AddressType": "pariatur",
+          "Name": "Zemlak Group",
+          "Value": "consequatur",
+          "Tooltip": "officia",
+          "Label": "provident",
+          "ValueLength": 371,
+          "AddressType": "perferendis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 698
+              "FieldLength": 479
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "voluptatum",
+    "Formatted": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 895
       }
     }
   }

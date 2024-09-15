@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 610,
-  "ERPProductKey": "iusto"
+  "QuoteAlternativeId": 789,
+  "ERPProductKey": "voluptates"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 975,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 113,
-  "ERPProductKey": "voluptas",
+  "QuoteLineId": 158,
+  "ERPQuoteLineKey": "nisi",
+  "QuoteAlternativeId": 264,
+  "ERPProductKey": "accusamus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 8289.43,
-  "DeliveredQuantity": 23630.36,
-  "Rank": 825,
-  "Name": "Balistreri-Beatty",
-  "Description": "Focused static project",
-  "Code": "quis",
-  "QuantityUnit": "minima",
-  "PriceUnit": "sequi",
-  "ItemNumber": "1559130",
+  "Quantity": 22263.935999999998,
+  "DeliveredQuantity": 15720.144,
+  "Rank": 716,
+  "Name": "Wunsch-Christiansen",
+  "Description": "Synchronised intangible complexity",
+  "Code": "in",
+  "QuantityUnit": "ab",
+  "PriceUnit": "repellendus",
+  "ItemNumber": "966465",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "soluta",
-  "ProductTypeKey": "aut",
-  "Supplier": "quia",
-  "SupplierCode": "dolorem",
-  "Thumbnail": "id",
-  "VATInfo": "unde",
-  "VAT": 22088.432,
-  "UnitCost": 27174.914,
-  "UnitMinimumPrice": 6785.11,
-  "UnitListPrice": 28522.534,
+  "ProductFamilyKey": "quibusdam",
+  "ProductTypeKey": "ullam",
+  "Supplier": "odit",
+  "SupplierCode": "assumenda",
+  "Thumbnail": "odio",
+  "VATInfo": "voluptatem",
+  "VAT": 14331.782,
+  "UnitCost": 27742.167999999998,
+  "UnitMinimumPrice": 9784.348,
+  "UnitListPrice": 25711.336,
   "ExtraInfo": [
     {
-      "Name": "Romaguera-Mitchell",
-      "Value": "in",
+      "Name": "Little, Hagenes and Hirthe",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     },
     {
-      "Name": "Romaguera-Mitchell",
-      "Value": "in",
+      "Name": "Little, Hagenes and Hirthe",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     }
   ],
-  "RawExtraInfo": "nulla",
-  "IsSubscription": true,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 4274.776,
-  "SubscriptionStart": "2023-03-27T13:28:23.5855044+02:00",
-  "ERPDiscountPercent": 8524.48,
-  "ERPDiscountAmount": 24727.26,
-  "DiscountPercent": 22035.154,
-  "DiscountAmount": 21355.076,
+  "RawExtraInfo": "aperiam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "accusantium",
+  "SubscriptionQuantity": 13610.962,
+  "SubscriptionStart": "2024-07-29T04:02:02.2222071+02:00",
+  "ERPDiscountPercent": 22141.71,
+  "ERPDiscountAmount": 20888.11,
+  "DiscountPercent": 16271.728,
+  "DiscountAmount": 30659.922,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24357.448,
-  "EarningAmount": 5691.344,
-  "SubTotal": 9947.3159999999989,
-  "TotalPrice": 16459.768,
-  "Rights": "labore",
-  "Rule": "eos",
-  "ExtraField1": "et",
-  "ExtraField2": "autem",
-  "ExtraField3": "dolores",
-  "ExtraField4": "et",
-  "ExtraField5": "sit",
+  "EarningPercent": 8834.746,
+  "EarningAmount": 15870.576,
+  "SubTotal": 18164.664,
+  "TotalPrice": 16171.439999999999,
+  "Rights": "ut",
+  "Rule": "dolorem",
+  "ExtraField1": "unde",
+  "ExtraField2": "quam",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "quis",
+  "ExtraField5": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 303
     }
   }
 }

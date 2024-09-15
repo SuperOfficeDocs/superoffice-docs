@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 544,
-    "ColumnId": 855,
-    "FieldDefault": "harum",
-    "FieldHeight": 356,
-    "FieldLabel": "quia",
-    "FieldLeft": 479,
-    "FieldTop": 326,
+    "UDefFieldId": 76,
+    "ColumnId": 431,
+    "FieldDefault": "omnis",
+    "FieldHeight": 698,
+    "FieldLabel": "quam",
+    "FieldLeft": 453,
+    "FieldTop": 431,
     "FieldType": "Checkbox",
-    "FieldWidth": 719,
-    "FormatMask": "autem",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 363,
-    "LabelLeft": 2,
-    "LabelTop": 534,
-    "LabelWidth": 647,
-    "LastVersionId": 286,
-    "ListTableId": 421,
+    "FieldWidth": 162,
+    "FormatMask": "rerum",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 830,
+    "LabelLeft": 125,
+    "LabelTop": 12,
+    "LabelWidth": 990,
+    "LastVersionId": 996,
+    "ListTableId": 566,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 87,
-    "ProgId": "unde",
-    "IsReadOnly": true,
-    "ShortLabel": "vel",
-    "TabOrder": 143,
-    "TextLength": 846,
-    "Tooltip": "placeat",
-    "UdefIdentity": 891,
-    "UDListDefinitionId": 331,
+    "Page1LineNo": 847,
+    "ProgId": "dolorum",
+    "IsReadOnly": false,
+    "ShortLabel": "corrupti",
+    "TabOrder": 986,
+    "TextLength": 971,
+    "Tooltip": "ut",
+    "UdefIdentity": 18,
+    "UDListDefinitionId": 602,
     "Justification": "Center",
-    "Version": 658,
-    "TemplateVariableName": "Turner Group",
+    "Version": 626,
+    "TemplateVariableName": "Pollich, Stiedemann and Brakus",
     "HasBeenPublished": false,
-    "MdoListName": "Jakubowski LLC",
+    "MdoListName": "Runolfsdottir Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 855
       }
     }
   }

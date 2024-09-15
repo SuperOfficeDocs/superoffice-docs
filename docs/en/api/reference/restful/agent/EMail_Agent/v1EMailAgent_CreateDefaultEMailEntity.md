@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,156 +97,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 202,
-      "ContactName": "Metz, Hayes and Green",
-      "PersonId": 274,
-      "PersonName": "Murazik, Greenfelder and Huel",
-      "AssociateId": 294,
-      "Address": "voluptatibus",
-      "EmailId": 801,
+      "ContactId": 833,
+      "ContactName": "Ernser, Jacobson and Mann",
+      "PersonId": 417,
+      "PersonName": "Bergnaum-Nader",
+      "AssociateId": 635,
+      "Address": "sed",
+      "EmailId": 324,
       "DuplicatePersonIds": [
-        213,
-        852
+        181,
+        636
       ],
-      "Name": "Jakubowski-Wehner",
+      "Name": "Kilback LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 465
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 110,
-      "ContactName": "McDermott-Luettgen",
-      "PersonId": 866,
-      "PersonName": "Hand-Davis",
-      "AssociateId": 322,
-      "Address": "molestiae",
-      "EmailId": 188,
+      "ContactId": 199,
+      "ContactName": "Robel, Thompson and Farrell",
+      "PersonId": 268,
+      "PersonName": "Heller Group",
+      "AssociateId": 504,
+      "Address": "facilis",
+      "EmailId": 873,
       "DuplicatePersonIds": [
-        967,
-        926
+        784,
+        418
       ],
-      "Name": "Bradtke, Ryan and Cassin",
+      "Name": "Pacocha, Schultz and Fadel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldLength": 217
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 54,
-      "ContactName": "Miller, Metz and Grady",
-      "PersonId": 509,
-      "PersonName": "Marquardt, Gibson and Littel",
-      "AssociateId": 471,
-      "Address": "dolorum",
-      "EmailId": 180,
+      "ContactId": 247,
+      "ContactName": "Kling, Hamill and Murazik",
+      "PersonId": 762,
+      "PersonName": "Johnson, Strosin and Crooks",
+      "AssociateId": 571,
+      "Address": "debitis",
+      "EmailId": 23,
       "DuplicatePersonIds": [
-        322,
-        890
+        171,
+        190
       ],
-      "Name": "Hagenes, Mann and Rau",
+      "Name": "Sipes LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldType": "System.String",
+          "FieldLength": 868
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "ullam",
+  "Subject": "aliquam",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2003-10-03T13:28:22.6791961+02:00",
-  "Size": 44,
+  "Sent": "1999-12-25T04:02:01.706124+01:00",
+  "Size": 613,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quidem",
-  "PlainBody": "pariatur",
+  "MessageID": "et",
+  "PlainBody": "rem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 860,
+  "ServerId": 919,
   "Attachments": [
     {
-      "Description": "Organic responsive benchmark",
-      "Filename": "architecto",
-      "Size": 509,
-      "Type": "exercitationem",
-      "Encoding": "voluptas",
-      "Id": "sint",
-      "Disposition": "veniam",
-      "IsSafeFileExtension": false,
+      "Description": "Reduced reciprocal time-frame",
+      "Filename": "voluptas",
+      "Size": 423,
+      "Type": "autem",
+      "Encoding": "est",
+      "Id": "hic",
+      "Disposition": "eaque",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 396
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Friesen-Braun",
+      "Name": "Hegmann Inc and Sons",
       "Values": [
-        "aut",
-        "non"
+        "ipsum",
+        "dignissimos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 123
         }
       }
     },
     {
-      "Name": "Friesen-Braun",
+      "Name": "Hegmann Inc and Sons",
       "Values": [
-        "aut",
-        "non"
+        "ipsum",
+        "dignissimos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 123
         }
       }
     }
   ],
-  "FolderName": "Hayes, Waelchi and Erdman",
-  "EmailItemId": 914,
-  "AccountId": 801,
-  "ReceivedAt": "2022-10-18T13:28:22.6791961+02:00",
+  "FolderName": "Gleichner Group",
+  "EmailItemId": 318,
+  "AccountId": 103,
+  "ReceivedAt": "2017-10-02T04:02:01.706124+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-04-10T13:28:22.6791961+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-05-10T04:02:01.706124+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

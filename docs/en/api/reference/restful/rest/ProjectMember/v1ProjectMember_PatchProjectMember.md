@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "delectus",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "delectus",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 835,
-  "ContactId": 912,
-  "ProjectId": 902,
-  "ContactName": "Veum Group",
+  "ProjectmemberId": 405,
+  "ContactId": 890,
+  "ProjectId": 942,
+  "ContactName": "Haag, Stanton and Lehner",
   "ContactDepartment": "",
-  "ProjectName": "Mitchell-Rice",
-  "EmailId": 998,
-  "EmailAddress": "alexanne.nikolaus@stehrjakubowski.uk",
-  "CountryId": 571,
-  "Firstname": "Emerson",
-  "MiddleName": "Kuhlman, Boyle and Hickle",
-  "Lastname": "Walker",
-  "PersonId": 647,
-  "Mrmrs": "molestiae",
-  "ProjectMemberTypeName": "Raynor-Gislason",
-  "Phone": "336-805-7453",
-  "PhoneId": 439,
-  "ProjectMemberTypeId": 336,
-  "EmailAddressName": "viviane.langosh@durgan.name",
-  "Comment": "sint",
-  "FullName": "Aletha Mertz",
+  "ProjectName": "Franecki, Grant and Legros",
+  "EmailId": 651,
+  "EmailAddress": "brent@hoppemayert.info",
+  "CountryId": 98,
+  "Firstname": "Landen",
+  "MiddleName": "Doyle Inc and Sons",
+  "Lastname": "Lakin",
+  "PersonId": 180,
+  "Mrmrs": "quibusdam",
+  "ProjectMemberTypeName": "Kassulke, Grimes and Fahey",
+  "Phone": "974-487-3294 x774",
+  "PhoneId": 518,
+  "ProjectMemberTypeId": 216,
+  "EmailAddressName": "jayson_hettinger@stehrgraham.biz",
+  "Comment": "consectetur",
+  "FullName": "Watson Murazik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

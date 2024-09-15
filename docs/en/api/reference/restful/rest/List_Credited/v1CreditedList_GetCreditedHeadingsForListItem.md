@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Ullrich-Moen",
-    "ToolTip": "Dolore quae quo ut quo eum natus.",
+    "Id": 586,
+    "Name": "Rolfson Inc and Sons",
+    "ToolTip": "Ut quia eos.",
     "Deleted": true,
-    "Rank": 606,
-    "Type": "nostrum",
-    "ColorBlock": 208,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2009-10-26T13:28:32.7884933+01:00",
+    "Rank": 600,
+    "Type": "illum",
+    "ColorBlock": 848,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2023-01-23T04:02:07.1347182+01:00",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "Hilpert-Bartell",
-        "ToolTip": "Odit reiciendis nobis vitae quas harum.",
+        "Id": 774,
+        "Name": "West-Connelly",
+        "ToolTip": "Quidem aut aut.",
         "Deleted": false,
-        "Rank": 245,
-        "Type": "ipsam",
-        "ColorBlock": 514,
-        "IconHint": "adipisci",
+        "Rank": 581,
+        "Type": "corrupti",
+        "ColorBlock": 220,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2012-05-26T13:28:32.7884933+02:00",
+        "LastChanged": "1998-09-07T04:02:07.1347182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Dorothy Treutel",
+        "FullName": "Kaylie Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 794
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "natus",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Mr. Mable Funk",
+    "FullName": "Abel Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

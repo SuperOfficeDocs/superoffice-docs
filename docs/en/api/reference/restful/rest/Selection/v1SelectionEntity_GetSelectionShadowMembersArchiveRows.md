@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "praesentium",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 1900,
+      "PrimaryKey": 7600,
       "EntityName": "sale",
-      "saleId": 1900,
-      "contactId": 4035,
-      "name": "Stiedemann, Littel and Sawayn"
+      "saleId": 7600,
+      "contactId": 3621,
+      "name": "King Inc and Sons"
     },
     {
-      "PrimaryKey": 6524,
+      "PrimaryKey": 5456,
       "EntityName": "sale",
-      "saleId": 6524,
-      "contactId": 7887,
-      "name": "Cremin-Reichert"
+      "saleId": 5456,
+      "contactId": 970,
+      "name": "Schimmel-Hackett"
     }
   ]
 }

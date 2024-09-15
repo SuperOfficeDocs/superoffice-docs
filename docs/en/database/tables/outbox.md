@@ -2,10 +2,10 @@
 uid: table-outbox
 title: outbox table
 description: Outgoing emails with sending status and other info
-generated: true
+so.generated: true
 keywords: database table outbox
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # outbox Table (351)

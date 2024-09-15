@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 496,
-    "Name": "Jakubowski-Hessel",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 195,
-    "UdListDefinitionId": 692
+    "HeadingId": 93,
+    "Name": "Gutmann, Daniel and Upton",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 458
   },
   {
-    "HeadingId": 496,
-    "Name": "Jakubowski-Hessel",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 195,
-    "UdListDefinitionId": 692
+    "HeadingId": 93,
+    "Name": "Gutmann, Daniel and Upton",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 458
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Rodriguez LLC",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 613,
-    "UdListDefinitionId": 31,
+    "HeadingId": 96,
+    "Name": "Dibbert-Green",
+    "Tooltip": "ad",
+    "Deleted": false,
+    "Rank": 181,
+    "UdListDefinitionId": 462,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 561
       }
     }
   }

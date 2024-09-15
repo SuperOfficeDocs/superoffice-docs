@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 423,
-  "Name": "Lang, Halvorson and Lueilwitz",
+  "ScreenChooserId": 64,
+  "Name": "Feil LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "ea",
-  "Registered": "2010-01-19T13:28:32.4292054+01:00",
-  "RegisteredAssociateId": 661,
-  "Updated": "2018-07-11T13:28:32.4292054+02:00",
-  "UpdatedAssociateId": 584
+  "UniqueIdentifier": "aperiam",
+  "Source": "perferendis",
+  "Registered": "1998-06-21T04:02:06.9316148+02:00",
+  "RegisteredAssociateId": 742,
+  "Updated": "2013-09-22T04:02:06.9316148+02:00",
+  "UpdatedAssociateId": 923
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 363,
-  "Name": "Kozey Inc and Sons",
+  "ScreenChooserId": 11,
+  "Name": "Gusikowski, Gleason and Koepp",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "animi",
-  "Source": "qui",
-  "Registered": "2003-04-19T13:28:32.4292054+02:00",
-  "RegisteredAssociateId": 820,
-  "Updated": "2006-01-15T13:28:32.4292054+01:00",
-  "UpdatedAssociateId": 296,
+  "UniqueIdentifier": "occaecati",
+  "Source": "voluptate",
+  "Registered": "2019-07-22T04:02:06.9316148+02:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "2006-12-26T04:02:06.9316148+01:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

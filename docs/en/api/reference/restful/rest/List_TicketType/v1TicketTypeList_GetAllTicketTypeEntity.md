@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,31 +86,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 962,
-    "Name": "Rodriguez Inc and Sons",
-    "Rank": 580,
-    "Tooltip": "commodi",
-    "Icon": "iste",
-    "DefaultTicketStatus": 445,
+    "TicketTypeId": 689,
+    "Name": "Homenick LLC",
+    "Rank": 213,
+    "Tooltip": "est",
+    "Icon": "quo",
+    "DefaultTicketStatus": 150,
     "TicketStatuses": [
-      464,
-      829
+      818,
+      115
     ],
-    "DefaultTicketPriority": 663,
+    "DefaultTicketPriority": 167,
     "TicketPriorities": [
-      496,
-      469
+      356,
+      790
     ],
-    "ReplyTemplate": 153,
-    "IsExternalVisible": false,
-    "IsDefault": false,
+    "ReplyTemplate": 598,
+    "IsExternalVisible": true,
+    "IsDefault": true,
     "ShowInNew": false,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      555,
-      890
+      942,
+      82
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 963
       }
     }
   }

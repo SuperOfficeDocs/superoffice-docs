@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488
+  "Id": 337
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "alias",
   "Specification": null,
-  "DisplayValue": "vel",
-  "DisplayTooltip": "sit",
+  "DisplayValue": "eum",
+  "DisplayTooltip": "voluptates",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 716,
-  "PrefDescId": 690,
-  "TableName": "Herman Inc and Sons",
-  "UserPreferenceId": 46,
+  "TargetId": 900,
+  "PrefDescId": 561,
+  "TableName": "Waters Inc and Sons",
+  "UserPreferenceId": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   }
 }

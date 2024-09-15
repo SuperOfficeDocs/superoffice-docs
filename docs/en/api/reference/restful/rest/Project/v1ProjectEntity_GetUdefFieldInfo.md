@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 16,
-  "ColumnId": 215,
-  "FieldDefault": "amet",
-  "FieldHeight": 940,
-  "FieldLabel": "alias",
-  "FieldLeft": 970,
-  "FieldTop": 559,
+  "UDefFieldId": 590,
+  "ColumnId": 547,
+  "FieldDefault": "cum",
+  "FieldHeight": 534,
+  "FieldLabel": "sunt",
+  "FieldLeft": 960,
+  "FieldTop": 53,
   "FieldType": "Checkbox",
-  "FieldWidth": 59,
+  "FieldWidth": 212,
   "FormatMask": "quo",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 290,
-  "LabelLeft": 513,
-  "LabelTop": 314,
-  "LabelWidth": 413,
-  "LastVersionId": 560,
-  "ListTableId": 828,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 880,
+  "LabelLeft": 685,
+  "LabelTop": 768,
+  "LabelWidth": 849,
+  "LastVersionId": 338,
+  "ListTableId": 168,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 113,
-  "ProgId": "et",
+  "Page1LineNo": 565,
+  "ProgId": "odit",
   "IsReadOnly": false,
-  "ShortLabel": "eos",
-  "TabOrder": 823,
-  "TextLength": 781,
-  "Tooltip": "dolores",
-  "UdefIdentity": 849,
-  "UDListDefinitionId": 667,
+  "ShortLabel": "eveniet",
+  "TabOrder": 895,
+  "TextLength": 892,
+  "Tooltip": "recusandae",
+  "UdefIdentity": 22,
+  "UDListDefinitionId": 925,
   "Justification": "Center",
-  "Version": 239,
-  "TemplateVariableName": "Haley, Corkery and Windler",
+  "Version": 83,
+  "TemplateVariableName": "Douglas-Schaefer",
   "HasBeenPublished": false,
-  "MdoListName": "Schuster, Breitenberg and Berge",
+  "MdoListName": "Wiza, Howell and Baumbach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 45
     }
   }
 }

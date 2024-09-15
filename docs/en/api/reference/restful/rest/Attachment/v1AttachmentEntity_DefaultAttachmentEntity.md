@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 879,
-  "Name": "Kohler-Armstrong",
-  "ContentType": "ab",
-  "AttSize": 129,
+  "AttachmentId": 82,
+  "Name": "Maggio-Stanton",
+  "ContentType": "sit",
+  "AttSize": 180,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "deleniti",
-  "IsSafeFileExtension": false,
+  "ContentId": "non",
+  "AuthKey": "molestiae",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 651
     }
   }
 }

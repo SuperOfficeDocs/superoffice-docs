@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Lynch Group",
-    "ToolTip": "Dolores est reprehenderit nobis tenetur sint.",
-    "Deleted": false,
-    "Rank": 893,
-    "Type": "vel",
-    "ColorBlock": 611,
-    "IconHint": "aliquam",
+    "Id": 778,
+    "Name": "Conroy LLC",
+    "ToolTip": "Voluptatem omnis deserunt nobis natus.",
+    "Deleted": true,
+    "Rank": 411,
+    "Type": "consequatur",
+    "ColorBlock": 464,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2015-11-26T13:28:32.8041174+01:00",
+    "LastChanged": "2011-12-04T04:02:07.1503415+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Franecki-Cassin",
-        "ToolTip": "Maiores consectetur enim atque similique modi.",
+        "Id": 109,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Optio enim nam quis quaerat.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "quaerat",
-        "ColorBlock": 628,
-        "IconHint": "eaque",
+        "Rank": 457,
+        "Type": "ab",
+        "ColorBlock": 763,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2019-01-31T13:28:32.8041174+01:00",
+        "LastChanged": "2008-01-15T04:02:07.1503415+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "vero",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Jamal Treutel",
+        "FullName": "Miss Golden Gorczany Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 271
+            "FieldType": "System.Int32",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "quam",
+    "ExtraInfo": "totam",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Mr. Sonya Genoveva Lynch",
+    "FullName": "Lourdes Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Towne Inc and Sons",
-  "DeviceName": "Nader Group",
-  "DeviceIdentifier": "alias",
-  "TableName": "Harvey LLC",
-  "RecordId": 384
+  "ApplicationName": "Romaguera-Wyman",
+  "DeviceName": "Armstrong LLC",
+  "DeviceIdentifier": "corrupti",
+  "TableName": "Wisozk-Orn",
+  "RecordId": 309
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "rem",
-    "Value": "laboriosam",
-    "RecordId": 665,
-    "CreatedDate": "2009-03-26T13:28:22.866653+01:00",
-    "UpdatedDate": "2012-10-01T13:28:22.866653+02:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "et",
-    "TableName": "Haley LLC",
+    "Key": "eos",
+    "Value": "vero",
+    "RecordId": 144,
+    "CreatedDate": "2017-09-06T04:02:01.8003604+02:00",
+    "UpdatedDate": "2009-08-28T04:02:01.8003604+02:00",
+    "UpdatedBy": "tempora",
+    "CreatedBy": "eum",
+    "TableName": "Emmerich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

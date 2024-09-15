@@ -2,10 +2,10 @@
 uid: table-s_link
 title: s_link table
 description: Links in messages to measure success rate of a campaign.
-generated: true
+so.generated: true
 keywords: database table s_link
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_link Table (336)

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dibbert, Carroll and Conn",
-  "ModuleName": "Jast-Olson"
+  "OwnerName": "Kling Inc and Sons",
+  "ModuleName": "Hoeger, Oberbrunner and Jast"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Howell, Littel and Reynolds",
-  "ModuleName": "Fisher, West and Rodriguez",
-  "ModuleDescription": "Pre-emptive bi-directional task-force",
-  "ModuleTooltip": "veritatis",
-  "ModuleVersion": "quidem",
+  "OwnerName": "Schultz-Vandervort",
+  "ModuleName": "Kutch Group",
+  "ModuleDescription": "Networked mission-critical strategy",
+  "ModuleTooltip": "sapiente",
+  "ModuleVersion": "ipsum",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 107,
-  "ExtraFlags": 333,
-  "ExtraInfo": "consectetur",
-  "SortOrder": 914,
+  "NumberOfLicenses": 295,
+  "ExtraFlags": 263,
+  "ExtraInfo": "temporibus",
+  "SortOrder": 247,
   "IsHidden": false,
-  "PrerequisiteModuleName": "West-Aufderhar",
-  "Signature": "rerum"
+  "PrerequisiteModuleName": "Ferry Inc and Sons",
+  "Signature": "et"
 }
 ```

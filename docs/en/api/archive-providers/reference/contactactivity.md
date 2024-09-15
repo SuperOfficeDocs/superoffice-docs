@@ -19,8 +19,8 @@ Activity archive provider for the Company card
 | ---- | ----- |
 |"chat"|Chat session|
 |"document"|Documents|
-|"formSubmission"|Form submissions|
 |"appointment"|Follow-ups|
+|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
 
 ## Supported Columns
@@ -674,6 +674,8 @@ Activity archive provider for the Company card
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -723,11 +725,6 @@ Activity archive provider for the Company card
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |document/textId|int|Text ID| x |
 |document/description|positiveString|Text: Displays the text entered in the description field| x |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -749,13 +746,13 @@ Activity archive provider for the Company card
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointmentUdef/SuperOffice:2|string|followuplongtext| x |
@@ -771,6 +768,11 @@ Activity archive provider for the Company card
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -851,12 +853,12 @@ Activity archive provider for the Company card
 |mailingAddr/contact/streetAddress/county|string|Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 |mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
@@ -955,12 +957,12 @@ Activity archive provider for the Company card
 |mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
 |mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
-|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
-|mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
+|mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |mailingAddr/contact/SaintStatus2|saintStatus|Company - C-company: Kundens navn starter med bokstaven C|  |
 |mailingAddr/contact/saintSaleStatus|listAny|Company - With status|  |
@@ -1059,12 +1061,12 @@ Activity archive provider for the Company card
 |mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
 |mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
-|mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
-|mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
+|mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 |mailingAddr/person/restrictionAddress/county|string|Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/person/restrictionAddress/city|string|Contact - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/person/restrictionAddress/zip|string|Contact - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -1163,12 +1165,12 @@ Activity archive provider for the Company card
 |mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
-|mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|mailingAddr/person/correspondingAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|mailingAddr/person/correspondingAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/correspondingAssociate/isActiveText|bool|Contact - Active status: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/correspondingAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |mailingAddr/person/correspondingAssociate/otherGroups|userGroup|Contact - Other groups: Other groups|  |
@@ -1186,11 +1188,69 @@ Activity archive provider for the Company card
 |mailingAddr/person/legalBaseEmarketing|listAny|Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |mailingAddr/person/consentSourceStore|listAny|Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |mailingAddr/person/consentSourceEmarketing|listAny|Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
+|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
+|emailFlow/thumbnail| *None* |Thumbnail|  |
+|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
+|emailFlow/workflowName|string|Name: Name of the flow definition| x |
+|emailFlow/workflowDescription|string|Description: Description of flow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
+|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
+|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
+|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|emailFlow/workflowAssociate/firstName|string|Owner - First name: Displays the contact's first name| x |
+|emailFlow/workflowAssociate/lastName|string|Owner - Last name: Displays the contact's last name| x |
+|emailFlow/workflowAssociate/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
+|emailFlow/workflowAssociate/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|emailFlow/workflowAssociate/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
+|emailFlow/workflowAssociate/personId|int|Owner - Contact ID: Database ID of the contact row|  |
+|emailFlow/workflowAssociate/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
+|emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
+|emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
+|emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
+|emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
+|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
+|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
+|emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
+|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
+|emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
+|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
+|emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=whenRequested,person/hasInterests,person/personAddress/addressId,person/personUdef/SuperOffice:1,person/personExtra/x_person_request_relation
+GET /api/v1/archive/ContactActivity?$select=associate/isActiveText,person/personRegisteredDate,contact/LastTicket,yourref,project/projectAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

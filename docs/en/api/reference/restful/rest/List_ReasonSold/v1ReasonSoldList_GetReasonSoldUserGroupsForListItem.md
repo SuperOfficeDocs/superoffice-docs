@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Yost LLC",
-    "ToolTip": "Voluptatum enim quidem eligendi alias.",
-    "Deleted": true,
-    "Rank": 76,
-    "Type": "veniam",
-    "ColorBlock": 682,
-    "IconHint": "ut",
+    "Id": 491,
+    "Name": "Hoppe LLC",
+    "ToolTip": "Soluta natus sequi voluptas pariatur.",
+    "Deleted": false,
+    "Rank": 908,
+    "Type": "quidem",
+    "ColorBlock": 213,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2011-10-09T13:28:33.1009254+02:00",
+    "LastChanged": "2016-01-04T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Medhurst-Wiza",
-        "ToolTip": "Sit sed.",
+        "Id": 809,
+        "Name": "Emmerich LLC",
+        "ToolTip": "Sunt vero voluptatem possimus.",
         "Deleted": false,
-        "Rank": 476,
-        "Type": "quis",
-        "ColorBlock": 409,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2021-12-26T13:28:33.1009254+01:00",
+        "Rank": 687,
+        "Type": "est",
+        "ColorBlock": 795,
+        "IconHint": "tempore",
+        "Selected": true,
+        "LastChanged": "2019-10-23T04:02:07.3847052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "vero",
-        "Hidden": false,
-        "FullName": "Zion Kuvalis PhD",
+        "ExtraInfo": "quas",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Travon Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 323
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "aut",
+    "ExtraInfo": "aut",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Kaden Goldner",
+    "FullName": "Katlyn Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 106
+        "FieldType": "System.Int32",
+        "FieldLength": 706
       }
     }
   }

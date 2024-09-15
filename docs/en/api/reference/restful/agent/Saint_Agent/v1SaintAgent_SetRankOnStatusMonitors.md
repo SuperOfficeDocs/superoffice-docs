@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "minima",
+  "Type": "laudantium",
   "ItemsIds": [
-    55,
-    677
+    485,
+    915
   ]
 }
 ```

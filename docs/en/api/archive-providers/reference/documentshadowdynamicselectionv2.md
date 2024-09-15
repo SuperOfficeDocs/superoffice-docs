@@ -656,6 +656,8 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -709,7 +711,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/correspondingAssociate/fullName,contact/searchPhone/formattedNumber,contact/contactExtra/x_contact_contact_relation,contact/saintActivityType,project/NumberOfSales
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=icon,registeredDate,mailMergeDraft,documentPublish/publishedBy,person/personCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

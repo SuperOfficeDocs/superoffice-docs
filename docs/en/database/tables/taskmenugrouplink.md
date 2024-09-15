@@ -2,10 +2,10 @@
 uid: table-TaskMenuGroupLink
 title: TaskMenuGroupLink table
 description: User group link table for TaskMenu, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table TaskMenuGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskMenuGroupLink Table (467)

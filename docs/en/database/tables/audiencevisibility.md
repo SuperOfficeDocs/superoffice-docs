@@ -2,10 +2,10 @@
 uid: table-AudienceVisibility
 title: AudienceVisibility table
 description: How projects (or whatever) should be made visible in audience
-generated: true
+so.generated: true
 keywords: database table AudienceVisibility
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AudienceVisibility Table (232)

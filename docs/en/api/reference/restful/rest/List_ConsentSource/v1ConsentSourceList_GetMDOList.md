@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=maxime
+GET /api/v1/List/ConsentSource/MDOItems?query=temporibus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Witting-Armstrong",
-    "ToolTip": "Dolorem deleniti architecto et.",
-    "Deleted": true,
-    "Rank": 912,
-    "Type": "magni",
+    "Id": 163,
+    "Name": "Shanahan Group",
+    "ToolTip": "Illo ut sit.",
+    "Deleted": false,
+    "Rank": 525,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Mohr Group",
-        "ToolTip": "Et ea libero modi rerum id officia.",
-        "Deleted": false,
-        "Rank": 557,
-        "Type": "odit",
+        "Id": 807,
+        "Name": "Langosh Inc and Sons",
+        "ToolTip": "Velit ab enim asperiores quidem sunt harum.",
+        "Deleted": true,
+        "Rank": 287,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 501,
-        "ExtraInfo": "nulla",
-        "StyleHint": "ut",
-        "FullName": "Miss Celestine Haylie Hand",
+        "IconHint": "delectus",
+        "ColorBlock": 76,
+        "ExtraInfo": "maxime",
+        "StyleHint": "culpa",
+        "FullName": "Phyllis Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 911
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 461,
-    "ExtraInfo": "omnis",
-    "StyleHint": "autem",
-    "FullName": "Jovany Kuhn",
+    "IconHint": "molestias",
+    "ColorBlock": 347,
+    "ExtraInfo": "vel",
+    "StyleHint": "et",
+    "FullName": "Katrina Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 516
       }
     }
   }

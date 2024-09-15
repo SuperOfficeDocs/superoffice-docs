@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "soluta",
-  "ProviderName": "Barton-Wilderman",
-  "StorageKey": "quis",
+  "StorageType": "tempore",
+  "ProviderName": "Hermann Inc and Sons",
+  "StorageKey": "excepturi",
   "Restrictions": [
     {
-      "Name": "Blanda-Olson",
-      "Operator": "a",
+      "Name": "Little-Casper",
+      "Operator": "at",
       "Values": [
-        "quia",
-        "rem"
+        "eos",
+        "est"
       ],
       "DisplayValues": [
-        "unde",
-        "mollitia"
+        "recusandae",
+        "repellendus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 386,
+      "InterParenthesis": 320,
       "InterOperator": "And",
-      "UniqueHash": 451
+      "UniqueHash": 53
     }
   ],
-  "Context": "nisi"
+  "Context": "rem"
 }
 ```
 

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 100,
-    "Name": "Boehm LLC",
+    "TicketPriorityId": 840,
+    "Name": "Durgan Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 708,
+    "SortOrder": 60,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 462,
-    "MonStart": "2022-09-27T13:28:22.8981275+02:00",
-    "MonStop": "2011-10-10T13:28:22.8981275+02:00",
-    "TueStart": "2021-12-20T13:28:22.8981275+01:00",
-    "TueStop": "2016-07-20T13:28:22.8981275+02:00",
-    "WedStart": "2016-06-06T13:28:22.8981275+02:00",
-    "WedStop": "2007-05-13T13:28:22.8981275+02:00",
-    "ThuStart": "2002-12-02T13:28:22.8981275+01:00",
-    "ThuStop": "2002-05-19T13:28:22.8981275+02:00",
-    "FriStart": "2017-02-25T13:28:22.8981275+01:00",
-    "FriStop": "2017-12-18T13:28:22.8981275+01:00",
-    "SatStart": "2018-05-29T13:28:22.8981275+02:00",
-    "SatStop": "2002-12-04T13:28:22.8981275+01:00",
-    "SunStart": "2021-07-22T13:28:22.8981275+02:00",
-    "SunStop": "2005-08-29T13:28:22.8981275+02:00",
+    "Deadline": 160,
+    "MonStart": "2023-01-05T04:02:01.8159876+01:00",
+    "MonStop": "2006-07-25T04:02:01.8159876+02:00",
+    "TueStart": "1998-10-02T04:02:01.8159876+02:00",
+    "TueStop": "2022-04-13T04:02:01.8159876+02:00",
+    "WedStart": "2008-07-31T04:02:01.8159876+02:00",
+    "WedStop": "2017-12-11T04:02:01.8159876+01:00",
+    "ThuStart": "2020-06-11T04:02:01.8159876+02:00",
+    "ThuStop": "2019-09-16T04:02:01.8159876+02:00",
+    "FriStart": "1998-09-25T04:02:01.8159876+02:00",
+    "FriStop": "2001-12-27T04:02:01.8159876+01:00",
+    "SatStart": "2021-08-02T04:02:01.8159876+02:00",
+    "SatStop": "2019-12-04T04:02:01.8159876+01:00",
+    "SunStart": "2014-08-23T04:02:01.8159876+02:00",
+    "SunStop": "2022-06-04T04:02:01.8159876+02:00",
     "NonDates": [
-      "quaerat",
-      "quasi"
+      "beatae",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 450,
-        "AlertLevel": 108,
-        "AlertTimeout": 559,
-        "Action": 21,
-        "DelegateTo": 878,
-        "ScriptId": 611,
-        "EmailTo": "karlee@gleichner.uk",
-        "SmsTo": "et",
-        "ReplyTemplateIdCustomer": 6,
-        "ReplyTemplateIdUser": 502,
-        "ReplyTemplateIdCatmast": 445,
-        "ReplyTemplateIdEmail": 713,
-        "RtiCustomerSms": 254,
-        "ReplyTemplateIdUserSms": 988,
-        "ReplyTemplateIdCatmastSms": 241,
-        "ReplyTemplateIdSms": 953,
+        "TicketAlertId": 832,
+        "AlertLevel": 291,
+        "AlertTimeout": 315,
+        "Action": 303,
+        "DelegateTo": 880,
+        "ScriptId": 890,
+        "EmailTo": "damion.dickinson@ratke.name",
+        "SmsTo": "doloribus",
+        "ReplyTemplateIdCustomer": 883,
+        "ReplyTemplateIdUser": 418,
+        "ReplyTemplateIdCatmast": 621,
+        "ReplyTemplateIdEmail": 393,
+        "RtiCustomerSms": 588,
+        "ReplyTemplateIdUserSms": 85,
+        "ReplyTemplateIdCatmastSms": 643,
+        "ReplyTemplateIdSms": 282,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 809
+            "FieldLength": 455
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldLength": 150
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eum"
+  "Key": "autem"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "molestiae",
-  "AccessToken": "fugiat",
-  "RefreshToken": "debitis",
+  "Provider": "minima",
+  "AccessToken": "id",
+  "RefreshToken": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldLength": 99
     }
   }
 }

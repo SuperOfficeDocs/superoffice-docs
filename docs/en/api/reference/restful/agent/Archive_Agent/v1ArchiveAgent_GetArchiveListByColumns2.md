@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sporer-Mills",
-  "Columns": "non",
-  "SortOrder": "aut",
-  "Restrictions": "laborum",
-  "Entities": "esse",
-  "Page": 852,
-  "PageSize": 432
+  "ProviderName": "McLaughlin-Hermann",
+  "Columns": "voluptatem",
+  "SortOrder": "animi",
+  "Restrictions": "laudantium",
+  "Entities": "eum",
+  "Page": 773,
+  "PageSize": 418
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dare-Jewess",
-    "PrimaryKey": 237,
+    "EntityName": "Will, Grady and Leannon",
+    "PrimaryKey": 130,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "laudantium",
-        "TooltipHint": "temporibus",
-        "LinkHint": "voluptates"
+        "DisplayValue": "consequatur",
+        "TooltipHint": "nihil",
+        "LinkHint": "omnis"
       }
     },
-    "LinkHint": "repellendus",
-    "StyleHint": "recusandae",
+    "LinkHint": "hic",
+    "StyleHint": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

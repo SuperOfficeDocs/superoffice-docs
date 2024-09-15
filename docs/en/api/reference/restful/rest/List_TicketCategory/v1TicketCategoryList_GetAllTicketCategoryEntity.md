@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 984,
-    "ParentId": 119,
-    "Name": "Bechtelar, Ledner and Heidenreich",
-    "Fullname": "nam",
-    "CategoryMaster": 984,
+    "TicketCategoryId": 535,
+    "ParentId": 92,
+    "Name": "Steuber LLC",
+    "Fullname": "similique",
+    "CategoryMaster": 34,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Emard LLC",
+    "ExternalName": "Hintz-Zieme",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 208,
-    "ReplyTemplate": 99,
-    "NotificationEmail": "isai@hayesdickens.info",
+    "AssignmentLag": 65,
+    "ReplyTemplate": 669,
+    "NotificationEmail": "emely@rolfsonrosenbaum.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 394,
+    "EffectiveReplyTemplateId": 146,
     "ExtraFields": {
-      "ExtraFields1": "voluptate",
-      "ExtraFields2": "totam"
+      "ExtraFields1": "blanditiis",
+      "ExtraFields2": "quam"
     },
     "CustomFields": {
-      "CustomFields1": "id",
-      "CustomFields2": "dolor"
+      "CustomFields1": "mollitia",
+      "CustomFields2": "fugit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 963
       }
     }
   }

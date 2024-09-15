@@ -2,10 +2,10 @@
 uid: table-VisibleFor
 title: VisibleFor table
 description: Visible for rights, who may see this appointment/document, sale,  salehist or selection
-generated: true
+so.generated: true
 keywords: database table VisibleFor
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # VisibleFor Table (196)

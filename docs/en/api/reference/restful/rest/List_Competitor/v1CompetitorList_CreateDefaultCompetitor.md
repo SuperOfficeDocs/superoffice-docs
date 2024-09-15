@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Mann, Zieme and Jacobson",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 969,
-  "Rank": 375,
+  "Id": 259,
+  "Name": "Schulist-Carter",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "UdListDefinitionId": 307,
+  "Rank": 537,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 280
     }
   }
 }

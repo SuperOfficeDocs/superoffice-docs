@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Bartoletti Inc and Sons",
-    "ToolTip": "Qui debitis ut fugit officiis.",
-    "Deleted": false,
-    "Rank": 803,
-    "Type": "qui",
-    "ColorBlock": 638,
-    "IconHint": "aliquid",
+    "Id": 421,
+    "Name": "Kerluke LLC",
+    "ToolTip": "Qui officiis omnis sunt.",
+    "Deleted": true,
+    "Rank": 502,
+    "Type": "suscipit",
+    "ColorBlock": 690,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2003-08-05T13:28:33.0384399+02:00",
+    "LastChanged": "2004-06-24T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 840,
-        "Name": "Collier, Bednar and Friesen",
-        "ToolTip": "Suscipit nam cupiditate.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "qui",
-        "ColorBlock": 575,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2012-02-19T13:28:33.0384399+01:00",
+        "Id": 156,
+        "Name": "Hayes-Spinka",
+        "ToolTip": "Est odio voluptates illum ut temporibus.",
+        "Deleted": true,
+        "Rank": 966,
+        "Type": "ipsum",
+        "ColorBlock": 975,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "2016-09-20T04:02:07.3534465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "nemo",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Dianna Goldner",
+        "FullName": "Chyna Mueller Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldType": "System.Int32",
+            "FieldLength": 689
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Ludie Mante",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Prof. Mikel Maida Torphy IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 700
       }
     }
   }

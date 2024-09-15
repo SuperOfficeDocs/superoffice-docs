@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Bernier, Bailey and Hoeger",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 900,
+  "Id": 339,
+  "Name": "Heller LLC",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 602,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "unde",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Waters-Collier",
-  "Tooltip": "saepe",
+  "Id": 773,
+  "Name": "Turcotte-Bednar",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 168,
+  "Rank": 469,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 330
     }
   }
 }

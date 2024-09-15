@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kohler-Hane",
-    "DisplayName": "Erdman, Dietrich and Hills",
-    "DisplayTooltip": "vitae",
+    "Name": "Cummings-Streich",
+    "DisplayName": "Lesch-Bergnaum",
+    "DisplayTooltip": "quia",
     "IsActive": false
   },
   {
-    "Name": "Kohler-Hane",
-    "DisplayName": "Erdman, Dietrich and Hills",
-    "DisplayTooltip": "vitae",
+    "Name": "Cummings-Streich",
+    "DisplayName": "Lesch-Bergnaum",
+    "DisplayTooltip": "quia",
     "IsActive": false
   }
 ]

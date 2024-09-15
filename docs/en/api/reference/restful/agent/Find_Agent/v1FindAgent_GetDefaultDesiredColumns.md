@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Terry, O'Reilly and Blanda",
-  "StorageKey": "ut"
+  "StorageType": "excepturi",
+  "ProviderName": "Waelchi-Renner",
+  "StorageKey": "natus"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Leannon-Kuphal",
-    "DisplayTooltip": "sed",
-    "DisplayType": "aut",
-    "CanOrderBy": false,
-    "Name": "Schulist-Parker",
-    "CanRestrictBy": true,
-    "RestrictionType": "voluptate",
-    "RestrictionListName": "Harvey, Heidenreich and Gislason",
-    "IsVisible": true,
-    "ExtraInfo": "sunt",
-    "Width": "qui",
-    "IconHint": "ex",
-    "HeadingIconHint": "exercitationem"
+    "DisplayName": "Jacobi Group",
+    "DisplayTooltip": "et",
+    "DisplayType": "eveniet",
+    "CanOrderBy": true,
+    "Name": "Blick-Tromp",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptatum",
+    "RestrictionListName": "Hyatt-Ward",
+    "IsVisible": false,
+    "ExtraInfo": "eum",
+    "Width": "excepturi",
+    "IconHint": "et",
+    "HeadingIconHint": "odit"
   }
 ]
 ```

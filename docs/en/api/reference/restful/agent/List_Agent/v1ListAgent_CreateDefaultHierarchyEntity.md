@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 634,
+  "HierarchyId": 241,
   "Domain": "Dashboards",
-  "Name": "Tromp-Morissette",
-  "Fullname": "nihil",
-  "ParentId": 523,
+  "Name": "Boehm, Lesch and Goyette",
+  "Fullname": "quas",
+  "ParentId": 362,
   "Children": [
     {
-      "HierarchyId": 192,
+      "HierarchyId": 514,
       "Domain": "Dashboards",
-      "Name": "Volkman-Zboncak",
-      "Fullname": "vel",
-      "ParentId": 823,
+      "Name": "Bayer-Lehner",
+      "Fullname": "quidem",
+      "ParentId": 943,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-01-19T13:28:23.007483+01:00",
-      "RegisteredAssociateId": 267,
-      "Updated": "2012-07-15T13:28:23.007483+02:00",
-      "UpdatedAssociateId": 924,
+      "Registered": "2004-02-10T04:02:01.8784808+01:00",
+      "RegisteredAssociateId": 92,
+      "Updated": "2010-12-24T04:02:01.8784808+01:00",
+      "UpdatedAssociateId": 172,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 203
+          "FieldLength": 285
         }
       }
     }
   ],
-  "Registered": "2004-01-17T13:28:23.007483+01:00",
-  "RegisteredAssociateId": 6,
-  "Updated": "2005-11-21T13:28:23.007483+01:00",
-  "UpdatedAssociateId": 600,
+  "Registered": "2000-10-17T04:02:01.8784808+02:00",
+  "RegisteredAssociateId": 941,
+  "Updated": "2000-02-13T04:02:01.8784808+01:00",
+  "UpdatedAssociateId": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 683
     }
   }
 }

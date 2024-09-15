@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Herman-Torp",
-  "Language": "quis"
+  "TemplateName": "Kemmer-Morissette",
+  "Language": "nesciunt"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 740,
-      "ContactName": "Raynor, Brekke and Harvey",
-      "PersonId": 954,
-      "PersonName": "Harber Group",
-      "AssociateId": 93,
-      "Address": "accusamus",
-      "EmailId": 453,
+      "ContactId": 67,
+      "ContactName": "Dietrich-Breitenberg",
+      "PersonId": 915,
+      "PersonName": "Strosin Inc and Sons",
+      "AssociateId": 542,
+      "Address": "corporis",
+      "EmailId": 774,
       "DuplicatePersonIds": [
-        457,
-        380
+        564,
+        495
       ],
-      "Name": "Williamson-Quigley",
+      "Name": "Douglas-Dickens",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldLength": 557
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 784,
-      "ContactName": "Franecki LLC",
-      "PersonId": 842,
-      "PersonName": "Jones, O'Kon and Hackett",
-      "AssociateId": 809,
-      "Address": "eius",
-      "EmailId": 295,
+      "ContactId": 397,
+      "ContactName": "Dickens Inc and Sons",
+      "PersonId": 550,
+      "PersonName": "Huel, Rosenbaum and Bailey",
+      "AssociateId": 550,
+      "Address": "consequatur",
+      "EmailId": 123,
       "DuplicatePersonIds": [
-        830,
-        386
+        547,
+        198
       ],
-      "Name": "Ernser Inc and Sons",
+      "Name": "Stanton, Gutmann and Bradtke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 243
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 713,
-      "ContactName": "Bartell, Dach and Jenkins",
-      "PersonId": 544,
-      "PersonName": "Murazik, Rempel and Barrows",
-      "AssociateId": 604,
-      "Address": "unde",
-      "EmailId": 719,
+      "ContactId": 535,
+      "ContactName": "Bruen, Bahringer and Braun",
+      "PersonId": 455,
+      "PersonName": "Ritchie, O'Keefe and Hand",
+      "AssociateId": 880,
+      "Address": "nisi",
+      "EmailId": 78,
       "DuplicatePersonIds": [
-        829,
-        327
+        253,
+        414
       ],
-      "Name": "Fritsch, Erdman and Beahan",
+      "Name": "Kunde-Paucek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldType": "System.String",
+          "FieldLength": 503
         }
       }
     }
   ],
-  "Subject": "molestiae",
-  "HTMLBody": "iusto",
+  "Subject": "doloribus",
+  "HTMLBody": "mollitia",
   "From": null,
-  "Sent": "2019-12-31T13:28:21.7731516+01:00",
-  "Size": 97,
+  "Sent": "2007-11-12T04:02:01.1900442+01:00",
+  "Size": 549,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "esse",
-  "PlainBody": "id",
+  "MessageID": "voluptatem",
+  "PlainBody": "quae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 947,
+  "ServerId": 477,
   "Attachments": [
     {
-      "Description": "Mandatory analyzing migration",
-      "Filename": "eius",
-      "Size": 565,
-      "Type": "et",
-      "Encoding": "quidem",
+      "Description": "Intuitive upward-trending model",
+      "Filename": "qui",
+      "Size": 423,
+      "Type": "fuga",
+      "Encoding": "quia",
       "Id": "voluptatem",
-      "Disposition": "alias",
-      "IsSafeFileExtension": true,
+      "Disposition": "dolor",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 239
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Flatley-Herzog",
+      "Name": "Cole LLC",
       "Values": [
-        "laudantium",
-        "qui"
+        "et",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 955
         }
       }
     },
     {
-      "Name": "Flatley-Herzog",
+      "Name": "Cole LLC",
       "Values": [
-        "laudantium",
-        "qui"
+        "et",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 955
         }
       }
     }
   ],
-  "FolderName": "Hessel Inc and Sons",
-  "EmailItemId": 978,
-  "AccountId": 372,
-  "ReceivedAt": "2010-01-06T13:28:21.7731516+01:00",
+  "FolderName": "Nitzsche-Lynch",
+  "EmailItemId": 50,
+  "AccountId": 917,
+  "ReceivedAt": "2023-09-06T04:02:01.1900442+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-06-20T13:28:21.7731516+02:00",
+  "RepliedAt": "2005-01-23T04:02:01.1900442+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 716
     }
   }
 }

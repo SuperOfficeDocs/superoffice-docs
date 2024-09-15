@@ -2,10 +2,10 @@
 uid: table-SaleTypeCatHeadingLink
 title: SaleTypeCatHeadingLink table
 description: Heading link table for SaleTypeCat, for MDO headers
-generated: true
+so.generated: true
 keywords: database table SaleTypeCatHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleTypeCatHeadingLink Table (120)

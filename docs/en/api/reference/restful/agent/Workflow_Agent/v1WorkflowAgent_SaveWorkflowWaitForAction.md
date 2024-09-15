@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 509,
-  "WorkflowStepId": 220,
-  "WorkflowId": 926,
-  "Rank": 20,
+  "WorkflowWaitForActionId": 891,
+  "WorkflowStepId": 587,
+  "WorkflowId": 702,
+  "Rank": 305,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Wilkinson Group",
-      "Description": "Upgradable national concept",
-      "Rank": 420,
+      "Name": "Jacobi-Kuhn",
+      "Description": "Re-engineered attitude-oriented open architecture",
+      "Rank": 871,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wilkinson Group",
-      "Description": "Upgradable national concept",
-      "Rank": 420,
+      "Name": "Jacobi-Kuhn",
+      "Description": "Re-engineered attitude-oriented open architecture",
+      "Rank": 871,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 907,
-  "WorkflowStepId": 695,
-  "WorkflowId": 314,
-  "Rank": 808,
+  "WorkflowWaitForActionId": 375,
+  "WorkflowStepId": 978,
+  "WorkflowId": 778,
+  "Rank": 127,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Ullrich, Stiedemann and Abernathy",
-      "Description": "Customizable secondary success",
-      "Rank": 602,
+      "Name": "VonRueden-Rempel",
+      "Description": "Reduced client-server monitoring",
+      "Rank": 399,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ullrich, Stiedemann and Abernathy",
-      "Description": "Customizable secondary success",
-      "Rank": 602,
+      "Name": "VonRueden-Rempel",
+      "Description": "Reduced client-server monitoring",
+      "Rank": 399,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

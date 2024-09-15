@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 446,
+  "SystemEventId": 641,
   "Scope": "Database",
-  "Eta": "2011-06-27T13:28:32.2573673+02:00",
-  "Eventkey": "quos",
-  "Eventmess": "hic",
-  "ExtraInfo": 736,
-  "Owner": 70,
-  "UpdatedCount": 60,
-  "Registered": "2023-07-08T13:28:32.2573673+02:00",
+  "Eta": "2020-12-23T04:02:06.8534981+01:00",
+  "Eventkey": "est",
+  "Eventmess": "rerum",
+  "ExtraInfo": 300,
+  "Owner": 303,
+  "UpdatedCount": 748,
+  "Registered": "2011-03-07T04:02:06.8534981+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 350
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

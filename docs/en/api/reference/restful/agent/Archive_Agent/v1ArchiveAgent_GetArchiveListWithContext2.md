@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Beer Group",
-  "ProviderName": "Cummerata, Ritchie and Howe",
-  "SortOrder": "est",
-  "Restriction": "ut",
-  "Entities": "fugit",
-  "Page": 870,
-  "PageSize": 877,
-  "Context": "ut"
+  "GuiName": "Berge, Dare and Abbott",
+  "ProviderName": "Romaguera Group",
+  "SortOrder": "neque",
+  "Restriction": "quod",
+  "Entities": "natus",
+  "Page": 351,
+  "PageSize": 858,
+  "Context": "optio"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jast-Hahn",
-    "PrimaryKey": 445,
+    "EntityName": "Schultz, Romaguera and Ortiz",
+    "PrimaryKey": 38,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "omnis",
-        "TooltipHint": "temporibus",
-        "LinkHint": "expedita"
+        "DisplayValue": "impedit",
+        "TooltipHint": "adipisci",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "quisquam",
-    "StyleHint": "magnam",
+    "LinkHint": "soluta",
+    "StyleHint": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

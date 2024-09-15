@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hackett-Hoppe",
-  "AdditionalInfo": "alias",
-  "SearchValue": "minima"
+  "Name": "Reilly Group",
+  "AdditionalInfo": "tempore",
+  "SearchValue": "necessitatibus"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Cruickshank LLC",
-    "ToolTip": "Quia expedita aut tempore cumque est omnis.",
+    "Id": 27,
+    "Name": "Deckow-Bashirian",
+    "ToolTip": "Dolores autem nostrum corporis et.",
     "Deleted": false,
-    "Rank": 171,
-    "Type": "suscipit",
-    "ColorBlock": 402,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2001-03-29T13:28:23.0543771+02:00",
+    "Rank": 405,
+    "Type": "eius",
+    "ColorBlock": 34,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2015-09-20T04:02:01.909728+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Bauch-Vandervort",
-        "ToolTip": "Qui eum ut quia.",
+        "Id": 860,
+        "Name": "Huels-Blanda",
+        "ToolTip": "Vel velit eveniet consequatur quidem quia nostrum architecto.",
         "Deleted": false,
-        "Rank": 5,
-        "Type": "possimus",
-        "ColorBlock": 168,
-        "IconHint": "ut",
+        "Rank": 380,
+        "Type": "doloribus",
+        "ColorBlock": 215,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2017-02-24T13:28:23.0543771+01:00",
+        "LastChanged": "2023-08-24T04:02:01.909728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "eius",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Lauren Langosh",
+        "FullName": "Kellen Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 65
+            "FieldType": "System.Int32",
+            "FieldLength": 308
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "modi",
-    "Hidden": false,
-    "FullName": "Carlie Hills",
+    "ExtraInfo": "sunt",
+    "StyleHint": "odio",
+    "Hidden": true,
+    "FullName": "Max Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 718
       }
     }
   }

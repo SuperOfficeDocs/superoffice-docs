@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Collins, Abshire and Donnelly",
-    "Tooltip": "ab",
+    "Id": 753,
+    "Name": "Mayer-Kunze",
+    "Tooltip": "libero",
     "Deleted": false,
-    "UdListDefinitionId": 529,
-    "Rank": 29
+    "UdListDefinitionId": 268,
+    "Rank": 595
   },
   {
-    "Id": 244,
-    "Name": "Collins, Abshire and Donnelly",
-    "Tooltip": "ab",
+    "Id": 753,
+    "Name": "Mayer-Kunze",
+    "Tooltip": "libero",
     "Deleted": false,
-    "UdListDefinitionId": 529,
-    "Rank": 29
+    "UdListDefinitionId": 268,
+    "Rank": 595
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Gorczany LLC",
-    "Tooltip": "dolorem",
+    "Id": 587,
+    "Name": "Reichel-Leffler",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "UdListDefinitionId": 664,
-    "Rank": 600,
+    "UdListDefinitionId": 551,
+    "Rank": 591,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 570
       }
     }
   }

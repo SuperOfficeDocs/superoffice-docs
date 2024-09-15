@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 740,
-    "Name": "Hilpert, Dibbert and Johnson",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 789,
+    "Name": "Greenfelder Group",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 906,
-    "UdListDefinitionId": 853
+    "Rank": 870,
+    "UdListDefinitionId": 174
   },
   {
-    "HeadingId": 740,
-    "Name": "Hilpert, Dibbert and Johnson",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 789,
+    "Name": "Greenfelder Group",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 906,
-    "UdListDefinitionId": 853
+    "Rank": 870,
+    "UdListDefinitionId": 174
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 364,
-    "Name": "Reilly Group",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "Rank": 586,
-    "UdListDefinitionId": 184,
+    "HeadingId": 553,
+    "Name": "Torp-Bode",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 45,
+    "UdListDefinitionId": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 569
       }
     }
   }

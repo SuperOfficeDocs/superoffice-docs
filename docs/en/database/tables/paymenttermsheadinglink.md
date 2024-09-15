@@ -2,10 +2,10 @@
 uid: table-PaymentTermsHeadingLink
 title: PaymentTermsHeadingLink table
 description: Heading link table for PaymentTerms, for MDO item headings
-generated: true
+so.generated: true
 keywords: database table PaymentTermsHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PaymentTermsHeadingLink Table (429)

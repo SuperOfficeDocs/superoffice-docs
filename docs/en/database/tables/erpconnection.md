@@ -2,10 +2,10 @@
 uid: table-ErpConnection
 title: ErpConnection table
 description: One connection to an ERP connector, specifying Client and other required information
-generated: true
+so.generated: true
 keywords: database table ErpConnection
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ErpConnection Table (418)

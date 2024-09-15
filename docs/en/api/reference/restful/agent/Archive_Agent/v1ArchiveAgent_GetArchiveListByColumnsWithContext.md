@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Crona-Harber",
+  "ProviderName": "Johnson, Rohan and Pacocha",
   "Columns": [
-    "impedit",
-    "fugiat"
+    "tenetur",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Von-Collier",
+      "Name": "Braun Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Von-Collier",
+      "Name": "Braun Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Emard LLC",
-      "Operator": "beatae",
+      "Name": "Marvin, Kilback and Stoltenberg",
+      "Operator": "est",
       "Values": [
-        "sapiente",
-        "distinctio"
+        "delectus",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "ut",
-        "hic"
+        "eveniet",
+        "quam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 567,
+      "InterParenthesis": 919,
       "InterOperator": "And",
-      "UniqueHash": 830
+      "UniqueHash": 870
     }
   ],
   "Entities": [
-    "non",
-    "voluptatem"
+    "accusantium",
+    "vero"
   ],
-  "Page": 132,
-  "PageSize": 737,
-  "Context": "repellat"
+  "Page": 88,
+  "PageSize": 591,
+  "Context": "et"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gorczany-McDermott",
-    "PrimaryKey": 419,
+    "EntityName": "Mann, Runolfsdottir and O'Conner",
+    "PrimaryKey": 546,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nihil",
-        "TooltipHint": "ipsa",
-        "LinkHint": "est"
+        "DisplayValue": "doloribus",
+        "TooltipHint": "iste",
+        "LinkHint": "voluptate"
       }
     },
-    "LinkHint": "mollitia",
-    "StyleHint": "et",
+    "LinkHint": "pariatur",
+    "StyleHint": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

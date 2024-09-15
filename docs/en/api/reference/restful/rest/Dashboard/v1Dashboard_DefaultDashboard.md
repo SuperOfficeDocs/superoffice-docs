@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 164,
-  "AssociateId": 907,
-  "Caption": "qui",
+  "DashboardId": 442,
+  "AssociateId": 765,
+  "Caption": "sed",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 542,
-      "Caption": "rem",
-      "Description": "Polarised needs-based ability",
-      "ChartName": "Rippin-Stark",
-      "ChartId": "aut",
-      "IsDefault": false,
-      "AssociateId": 701,
-      "GroupId": 767,
-      "SelectionId": 968,
-      "Config": "deserunt",
+      "DashboardTileId": 499,
+      "Caption": "hic",
+      "Description": "Enhanced logistical policy",
+      "ChartName": "Cronin-Collier",
+      "ChartId": "et",
+      "IsDefault": true,
+      "AssociateId": 50,
+      "GroupId": 3,
+      "SelectionId": 929,
+      "Config": "quo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 161
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "West-Ratke",
-    "ToolTip": "Atque sed officiis dolor debitis nemo quos saepe.",
+    "Id": 67,
+    "Name": "Stracke Group",
+    "ToolTip": "Reiciendis numquam neque.",
     "Deleted": true,
-    "Rank": 970,
-    "Type": "eveniet",
-    "ColorBlock": 14,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2010-02-13T13:28:32.8666025+01:00",
+    "Rank": 398,
+    "Type": "fugiat",
+    "ColorBlock": 666,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2014-09-12T04:02:07.2597065+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Hegmann Group",
-        "ToolTip": "Ipsum incidunt commodi rerum vitae exercitationem non.",
+        "Id": 875,
+        "Name": "Douglas LLC",
+        "ToolTip": "Porro in saepe.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "eos",
-        "ColorBlock": 994,
-        "IconHint": "autem",
+        "Rank": 98,
+        "Type": "vel",
+        "ColorBlock": 912,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "1997-11-09T13:28:32.8666025+01:00",
+        "LastChanged": "2023-06-10T04:02:07.2597065+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
+        "ExtraInfo": "non",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Crawford Pollich",
+        "FullName": "Jermaine Jones",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldLength": 487
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "vitae",
+    "ExtraInfo": "officia",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Miss Jamil Anjali Goyette MD",
+    "FullName": "Miss Emerson Arjun Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 340
       }
     }
   }

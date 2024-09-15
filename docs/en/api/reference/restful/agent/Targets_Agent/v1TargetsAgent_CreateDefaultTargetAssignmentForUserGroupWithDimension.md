@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 810,
-  "TargetDimensionId": 342
+  "UserGroupId": 35,
+  "TargetDimensionId": 356
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 468,
+    "TargetAssignmentInfoId": 587,
     "Values": [
-      836,
-      144
+      293,
+      852
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 691,
-    "DimensionListItemDisplayName": "Ferry-Hyatt",
+    "DimensionListItem": 489,
+    "DimensionListItemDisplayName": "Trantow-Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

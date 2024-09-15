@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel, Blanda and Ryan",
+  "Name": "Glover Group",
   "AssociateIds": [
-    711,
-    278
+    919,
+    470
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Langworth-Price",
-    "AssociateId": 781,
-    "DetailsTable": 576,
-    "DetailsRecord": 180,
-    "IsSystemTask": false,
+    "Id": 985,
+    "Name": "Kozey Inc and Sons",
+    "AssociateId": 255,
+    "DetailsTable": 846,
+    "DetailsRecord": 489,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
       "ParameterObject1": "est",
-      "ParameterObject2": "omnis"
+      "ParameterObject2": "illo"
     },
-    "LastStarted": "2012-07-21T13:28:21.8512599+02:00",
-    "Created": "2001-03-10T13:28:21.8512599+01:00",
-    "StartCount": 184,
-    "DatabaseSerialNumber": "745546",
-    "Context": "aut",
-    "Result": "pariatur",
+    "LastStarted": "2019-11-10T04:02:01.2374146+01:00",
+    "Created": "2014-08-18T04:02:01.2374146+02:00",
+    "StartCount": 917,
+    "DatabaseSerialNumber": "1521303",
+    "Context": "harum",
+    "Result": "dignissimos",
     "State": "All",
-    "Description": "Fully-configurable solution-oriented productivity",
-    "Response": "non",
-    "Request": "sint",
-    "ProgressDescription": "Multi-layered fresh-thinking access",
-    "ProgressPercent": 403,
-    "FileName": "Medhurst Inc and Sons",
+    "Description": "Multi-channelled clear-thinking projection",
+    "Response": "nemo",
+    "Request": "et",
+    "ProgressDescription": "Streamlined content-based initiative",
+    "ProgressPercent": 551,
+    "FileName": "Hodkiewicz, Franecki and Welch",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 187
       }
     }
   }

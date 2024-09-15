@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lueilwitz LLC"
+  "Name": "Wyman, Kuphal and Lynch"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Casper, Corwin and Konopelski",
-    "SoPrimaryKey": 584,
-    "EntryName": "McKenzie-Reichert",
-    "EntryIdentifier": "cupiditate",
-    "RuleDisplayName": "Farrell Inc and Sons",
+    "RuleName": "Wilderman, Kub and O'Hara",
+    "SoPrimaryKey": 468,
+    "EntryName": "Ruecker-Tremblay",
+    "EntryIdentifier": "magni",
+    "RuleDisplayName": "Dicki-Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 164
       }
     }
   }

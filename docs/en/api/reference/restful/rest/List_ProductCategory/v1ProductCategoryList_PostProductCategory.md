@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Ledner-Treutel",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 375,
-  "Rank": 217
+  "Id": 877,
+  "Name": "Durgan, Strosin and Fahey",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 575,
+  "Rank": 107
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Gutkowski, Predovic and Reinger",
-  "Tooltip": "est",
+  "Id": 577,
+  "Name": "Marks LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 224,
-  "Rank": 941,
+  "UdListDefinitionId": 416,
+  "Rank": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 760
     }
   }
 }

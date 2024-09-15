@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Keebler Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 495,
-  "Rank": 375,
+  "Id": 218,
+  "Name": "Hahn-Green",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "UdListDefinitionId": 713,
+  "Rank": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 393
     }
   }
 }

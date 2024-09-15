@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuvalis LLC",
-    "DisplayName": "King-Kassulke",
-    "Description": "Vision-oriented global implementation",
-    "ShortLabel": "consequatur",
+    "FieldName": "Marks, Wiegand and Cremin",
+    "DisplayName": "Crooks Inc and Sons",
+    "Description": "Universal optimizing complexity",
+    "ShortLabel": "quaerat",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 954,
-    "TemplateVariableName": "Langosh LLC"
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 386,
+    "TemplateVariableName": "Mills, Zemlak and Olson"
   }
 ]
 ```

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "et",
-  "PrefKey": "nulla",
+  "PrefSection": "expedita",
+  "PrefKey": "doloribus",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ullam",
+  "RawValue": "quae",
   "Specification": null,
-  "DisplayValue": "fuga",
-  "DisplayTooltip": "possimus",
+  "DisplayValue": "sunt",
+  "DisplayTooltip": "quod",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 771,
-  "PrefDescId": 318,
-  "TableName": "Sauer Inc and Sons",
-  "UserPreferenceId": 896,
+  "TargetId": 335,
+  "PrefDescId": 8,
+  "TableName": "Ullrich Group",
+  "UserPreferenceId": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

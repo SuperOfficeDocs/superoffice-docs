@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 245,
-  "Name": "Crooks-Osinski",
-  "OrgNr": "233361",
+  "ContactId": 343,
+  "Name": "Paucek Inc and Sons",
+  "OrgNr": "1510151",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "voluptas",
-  "DirectPhone": "(585)018-9362 x0869",
-  "AssociateId": 855,
-  "CountryId": 479,
-  "EmailAddress": "lane@altenwerth.us",
-  "Kananame": "in",
-  "EmailAddressName": "alfonso_waters@conroy.ca",
+  "City": "rerum",
+  "DirectPhone": "321.827.7731",
+  "AssociateId": 58,
+  "CountryId": 519,
+  "EmailAddress": "audra@kilbackframi.ca",
+  "Kananame": "voluptas",
+  "EmailAddressName": "jack@walshhartmann.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Prof. Dayna Elisa Heidenreich Jr.",
+  "AssociateFullName": "Mateo Reichert",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "esse",
-  "FullName": "Hudson Howe",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 791,
-  "Number1": "463353",
-  "Number2": "1469390",
+  "FormattedAddress": "ut",
+  "FullName": "Kay Kuhic",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 768,
+  "Number1": "589455",
+  "Number2": "247144",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 351
     }
   }
 }

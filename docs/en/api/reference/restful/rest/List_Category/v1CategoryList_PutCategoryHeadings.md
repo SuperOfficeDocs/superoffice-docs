@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 105,
-    "Name": "Roob-DuBuque",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 910,
-    "UdListDefinitionId": 672
+    "HeadingId": 714,
+    "Name": "Sauer-McKenzie",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 217,
+    "UdListDefinitionId": 9
   },
   {
-    "HeadingId": 105,
-    "Name": "Roob-DuBuque",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 910,
-    "UdListDefinitionId": 672
+    "HeadingId": 714,
+    "Name": "Sauer-McKenzie",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 217,
+    "UdListDefinitionId": 9
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Cronin, Harris and Daniel",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 895,
-    "UdListDefinitionId": 518,
+    "HeadingId": 717,
+    "Name": "Sanford-Mann",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "Rank": 355,
+    "UdListDefinitionId": 488,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 343
       }
     }
   }

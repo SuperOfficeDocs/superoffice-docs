@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ondricka Inc and Sons",
-    "DisplayName": "Thiel LLC",
-    "Description": "Secured intangible open system",
-    "ShortLabel": "cumque",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Thompson LLC",
+    "DisplayName": "Ratke, Barton and Russel",
+    "Description": "Distributed 4th generation framework",
+    "ShortLabel": "qui",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 644,
-    "TemplateVariableName": "Denesik, Watsica and Spencer"
+    "Rank": 712,
+    "TemplateVariableName": "Parker-Leuschke"
   }
 ]
 ```

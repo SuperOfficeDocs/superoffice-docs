@@ -2,10 +2,10 @@
 uid: table-password_rules
 title: password_rules table
 description: This table may contain one entry specifying rules for passwords.
-generated: true
+so.generated: true
 keywords: database table password_rules
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # password\_rules Table (322)

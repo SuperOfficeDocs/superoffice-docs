@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "est",
+      "RawValue": "quam",
       "Specification": null,
-      "DisplayValue": "magni",
+      "DisplayValue": "quia",
       "DisplayTooltip": "minus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 250,
-      "PrefDescId": 890,
-      "TableName": "Moore LLC",
-      "UserPreferenceId": 679
+      "TargetId": 762,
+      "PrefDescId": 537,
+      "TableName": "Denesik LLC",
+      "UserPreferenceId": 795
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

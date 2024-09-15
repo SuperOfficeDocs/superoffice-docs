@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Corkery-Stiedemann",
-    "ToolTip": "Voluptas enim sint nostrum.",
-    "Deleted": true,
-    "Rank": 173,
-    "Type": "harum",
-    "ColorBlock": 852,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2014-11-02T13:28:33.0696831+01:00",
+    "Id": 186,
+    "Name": "Bechtelar-Douglas",
+    "ToolTip": "Aut dolor quas rerum voluptatibus rerum enim velit.",
+    "Deleted": false,
+    "Rank": 530,
+    "Type": "perspiciatis",
+    "ColorBlock": 495,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2015-01-16T04:02:07.3690701+01:00",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Green Group",
-        "ToolTip": "Doloremque rem qui dicta tempore illo autem.",
+        "Id": 672,
+        "Name": "O'Keefe Group",
+        "ToolTip": "Laudantium excepturi et ex veritatis quo nam dolor.",
         "Deleted": true,
-        "Rank": 668,
-        "Type": "et",
-        "ColorBlock": 90,
-        "IconHint": "doloribus",
-        "Selected": false,
-        "LastChanged": "2021-11-02T13:28:33.0696831+01:00",
+        "Rank": 766,
+        "Type": "expedita",
+        "ColorBlock": 46,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2006-04-16T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ut",
+        "ExtraInfo": "minus",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Antonietta Hilll",
+        "FullName": "Modesta Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 967
+            "FieldType": "System.Int32",
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "nemo",
-    "Hidden": false,
-    "FullName": "Mrs. Karianne Heaven Bayer",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Priscilla Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldLength": 149
       }
     }
   }

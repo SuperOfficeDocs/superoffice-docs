@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 643
+  "KbEntryId": 950
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "consequatur",
-  "RegisteredByFullName": "Dakota Wilderman",
-  "Updated": "2013-01-28T13:28:22.3823876+01:00",
-  "Question": "aut",
-  "Answer": "reiciendis",
+  "Title": "distinctio",
+  "RegisteredByFullName": "Mr. Gracie Makayla Feeney IV",
+  "Updated": "2017-05-17T04:02:01.5342579+02:00",
+  "Question": "iusto",
+  "Answer": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 960
     }
   }
 }

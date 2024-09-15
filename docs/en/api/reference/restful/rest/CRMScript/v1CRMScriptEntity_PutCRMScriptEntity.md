@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 830,
-  "UniqueIdentifier": "repellat",
-  "Name": "Treutel-Gorczany",
-  "Description": "Inverse full-range functionalities",
-  "IncludeId": "deserunt",
-  "AccessKey": "sint",
-  "HierarchyId": 711,
-  "Source": "omnis",
-  "SourceCode": "voluptas",
+  "EjscriptId": 35,
+  "UniqueIdentifier": "qui",
+  "Name": "Larson, Spinka and Bogisich",
+  "Description": "Programmable didactic toolset",
+  "IncludeId": "et",
+  "AccessKey": "velit",
+  "HierarchyId": 968,
+  "Source": "debitis",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 745,
+  "HtmlOutput": 771,
   "Includes": [
-    126,
-    365
+    850,
+    515
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 157,
-      "LineNumberTo": 234,
-      "Delta": 46,
-      "IncludeId": "cumque",
+      "LineNumberFrom": 80,
+      "LineNumberTo": 661,
+      "Delta": 164,
+      "IncludeId": "reprehenderit",
       "IncludedFrom": [
-        "maiores",
-        "asperiores"
+        "modi",
+        "et"
       ]
     },
     {
-      "LineNumberFrom": 157,
-      "LineNumberTo": 234,
-      "Delta": 46,
-      "IncludeId": "cumque",
+      "LineNumberFrom": 80,
+      "LineNumberTo": 661,
+      "Delta": 164,
+      "IncludeId": "reprehenderit",
       "IncludedFrom": [
-        "maiores",
-        "asperiores"
+        "modi",
+        "et"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1997-06-06T13:28:31.53865+02:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2002-12-05T13:28:31.53865+01:00",
-  "UpdatedAssociateId": 507
+  "Registered": "2002-01-06T04:02:06.4472912+01:00",
+  "RegisteredAssociateId": 910,
+  "Updated": "2006-10-30T04:02:06.4472912+01:00",
+  "UpdatedAssociateId": 849
 }
 ```
 
@@ -171,52 +171,52 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 502,
-  "UniqueIdentifier": "laboriosam",
-  "Name": "Jerde-Hansen",
-  "Description": "Adaptive mobile attitude",
-  "IncludeId": "esse",
-  "AccessKey": "rem",
-  "HierarchyId": 376,
-  "Source": "ut",
-  "SourceCode": "modi",
+  "EjscriptId": 246,
+  "UniqueIdentifier": "consectetur",
+  "Name": "Purdy-Schroeder",
+  "Description": "De-engineered directional superstructure",
+  "IncludeId": "quia",
+  "AccessKey": "quis",
+  "HierarchyId": 752,
+  "Source": "qui",
+  "SourceCode": "quidem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 727,
+  "HtmlOutput": 579,
   "Includes": [
-    751,
-    59
+    913,
+    227
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 518,
-      "LineNumberTo": 884,
-      "Delta": 804,
-      "IncludeId": "quisquam",
+      "LineNumberFrom": 734,
+      "LineNumberTo": 572,
+      "Delta": 917,
+      "IncludeId": "pariatur",
       "IncludedFrom": [
-        "eum",
-        "doloribus"
+        "eaque",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 115
+          "FieldLength": 309
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-05-20T13:28:31.5542696+02:00",
-  "RegisteredAssociateId": 3,
-  "Updated": "2003-10-05T13:28:31.5542696+02:00",
-  "UpdatedAssociateId": 507,
+  "Registered": "2024-07-21T04:02:06.4472912+02:00",
+  "RegisteredAssociateId": 456,
+  "Updated": "2006-12-18T04:02:06.4472912+01:00",
+  "UpdatedAssociateId": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 545
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   },
   "_Links": {

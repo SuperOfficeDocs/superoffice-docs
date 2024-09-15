@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Grant-Douglas",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 500
+    "Id": 546,
+    "Name": "Nolan, Legros and O'Conner",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "UdListDefinitionId": 732,
+    "Rank": 551
   },
   {
-    "Id": 589,
-    "Name": "Grant-Douglas",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 500
+    "Id": 546,
+    "Name": "Nolan, Legros and O'Conner",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "UdListDefinitionId": 732,
+    "Rank": 551
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Boyle-Erdman",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "UdListDefinitionId": 307,
-    "Rank": 677,
+    "Id": 305,
+    "Name": "Krajcik, Mante and Mitchell",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 77,
+    "Rank": 577,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 334
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Rempel LLC",
-    "Tooltip": "maxime",
-    "Deleted": false,
-    "UdListDefinitionId": 132,
-    "Rank": 342,
+    "Id": 954,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "alias",
+    "Deleted": true,
+    "UdListDefinitionId": 706,
+    "Rank": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldLength": 701
       }
     }
   }

@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 97
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 891
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 641,
-      "StartTime": "2003-10-20T13:28:21.4761283+02:00",
-      "EndDate": "2022-02-22T13:28:21.4761283+01:00",
-      "AlarmTime": "2012-11-02T13:28:21.4761283+01:00",
-      "PersonId": 313,
-      "PersonFullName": "Ulises Rolfson",
-      "ContactName": "Barton, Kuhic and Robel",
-      "ProjectId": 277,
-      "ProjectName": "Funk, Stamm and Dickens",
-      "AppointmentText": "et",
-      "SaleId": 766,
-      "SaleName": "McDermott, Boyle and Klocko",
-      "Location": "sed",
+      "AppointmentId": 592,
+      "StartTime": "2005-06-11T04:02:01.0181873+02:00",
+      "EndDate": "2000-06-05T04:02:01.0181873+02:00",
+      "AlarmTime": "2019-06-21T04:02:01.0181873+02:00",
+      "PersonId": 70,
+      "PersonFullName": "Keith Greenholt",
+      "ContactName": "Schmeler, Franecki and Kuvalis",
+      "ProjectId": 736,
+      "ProjectName": "McDermott Inc and Sons",
+      "AppointmentText": "veritatis",
+      "SaleId": 429,
+      "SaleName": "Gleason LLC",
+      "Location": "in",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 557,
+      "ContactId": 102,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Sanford Inc and Sons",
-      "TaskName": "Hilpert-Streich",
+      "FormalName": "Cummerata-Steuber",
+      "TaskName": "Murray-Moen",
       "ContactDepartment": "",
-      "ContactFullName": "Alfredo Barton",
+      "ContactFullName": "Kenneth Lubowitz",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
   ],
-  "PollingInterval": 648,
-  "SilentAfter": 275,
+  "PollingInterval": 259,
+  "SilentAfter": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

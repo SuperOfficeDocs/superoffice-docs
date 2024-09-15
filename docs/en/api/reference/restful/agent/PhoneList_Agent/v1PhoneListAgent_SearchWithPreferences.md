@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "aut",
+  "SearchString": "ex",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "232-160-6118",
-    "PersonCellPhone": "1-290-259-0951",
-    "PersonPrivatePhone": "474-582-3200 x6751",
-    "PersonFaxNumber": "1378725",
-    "PersonPagerNumber": "1485050",
-    "PersonEmail": "taurean@kunze.com",
-    "Id": 342,
-    "Name": "Beatty-Baumbach",
-    "Tooltip": "assumenda",
-    "UniqueId": "vero",
+    "PersonDirectPhone": "847-433-1310 x677",
+    "PersonCellPhone": "533-753-7511 x4348",
+    "PersonPrivatePhone": "1-390-962-3910",
+    "PersonFaxNumber": "1366732",
+    "PersonPagerNumber": "1134143",
+    "PersonEmail": "eusebio.walker@barrows.biz",
+    "Id": 123,
+    "Name": "Goodwin-Rowe",
+    "Tooltip": "laudantium",
+    "UniqueId": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldLength": 820
       }
     }
   }

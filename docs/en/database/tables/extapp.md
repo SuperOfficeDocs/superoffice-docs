@@ -2,10 +2,10 @@
 uid: table-ExtApp
 title: ExtApp table
 description: ExtApp list table. Applications startable from SuperOffice
-generated: true
+so.generated: true
 keywords: database table ExtApp
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ExtApp Table (133)

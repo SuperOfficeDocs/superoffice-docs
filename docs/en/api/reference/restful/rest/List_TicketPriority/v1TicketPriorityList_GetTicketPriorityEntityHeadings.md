@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "D'Amore Inc and Sons",
-    "Tooltip": "sunt",
+    "HeadingId": 422,
+    "Name": "Beahan, Conn and Koelpin",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 106,
+    "Rank": 224,
+    "UdListDefinitionId": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 262
       }
     }
   }

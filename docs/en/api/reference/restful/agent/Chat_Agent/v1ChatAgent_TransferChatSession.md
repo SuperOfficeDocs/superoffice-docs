@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 618,
-  "ToAssociate": "inventore"
+  "ChatSessionId": 624,
+  "ToAssociate": "et"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 436,
-  "TopicId": 856,
+  "ChatSessionId": 574,
+  "TopicId": 391,
   "User": null,
   "Person": null,
-  "CustomerAlias": "veniam",
-  "CustomerHost": "et",
-  "CustomerName": "Thiel, Crooks and Volkman",
-  "CustomerEmail": "gerardo.kemmer@hudson.com",
-  "CustomerPhone": "1-645-065-9097",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hackett-Kessler",
+  "CustomerAlias": "sit",
+  "CustomerHost": "sed",
+  "CustomerName": "Leuschke-Hauck",
+  "CustomerEmail": "norene@mohrlehner.us",
+  "CustomerPhone": "(337)594-5804",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bartoletti-Parker",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "aut",
-  "WhenRequested": "2006-11-21T13:28:21.960611+01:00",
-  "WhenStarted": "2007-08-26T13:28:21.960611+02:00",
-  "WhenEnded": "2014-12-24T13:28:21.960611+01:00",
-  "WhenIdle": "2017-04-10T13:28:21.960611+02:00",
-  "WhenFetched": "2014-10-20T13:28:21.960611+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 854,
-  "AlertLevel": 705,
-  "Rank": 60,
+  "FirstMessage": "eos",
+  "LastMessage": "quisquam",
+  "WhenRequested": "2000-08-03T04:02:01.3624008+02:00",
+  "WhenStarted": "2010-10-09T04:02:01.3624008+02:00",
+  "WhenEnded": "2023-01-29T04:02:01.3624008+01:00",
+  "WhenIdle": "2015-03-07T04:02:01.3624008+01:00",
+  "WhenFetched": "1999-04-23T04:02:01.3624008+02:00",
+  "SessionKey": "dicta",
+  "InitialQueuePos": 267,
+  "AlertLevel": 137,
+  "Rank": 959,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 324,
+  "ChatbotIsActive": true,
+  "Rating": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 838
     }
   }
 }

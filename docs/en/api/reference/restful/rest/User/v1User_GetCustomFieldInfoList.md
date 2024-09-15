@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Buckridge-Mayert",
-    "DisplayName": "Mueller, Cassin and Wolf",
-    "Description": "Cross-group optimizing monitoring",
-    "ShortLabel": "praesentium",
+    "FieldName": "Hudson Inc and Sons",
+    "DisplayName": "Kemmer Group",
+    "Description": "Polarised intangible protocol",
+    "ShortLabel": "mollitia",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 321,
-    "TemplateVariableName": "Jones-Gleichner"
+    "IsDisplayField": false,
+    "Rank": 726,
+    "TemplateVariableName": "Bergnaum, Wiza and Walker"
   }
 ]
 ```

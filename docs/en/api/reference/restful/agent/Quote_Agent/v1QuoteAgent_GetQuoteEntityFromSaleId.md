@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 328
+  "SaleId": 398
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 610,
-  "SaleId": 367,
-  "QuoteConnectionId": 541,
-  "ERPQuoteKey": "incidunt",
-  "ERPOrderKey": "totam",
-  "ActiveQuoteVersionId": 502,
-  "AcceptedQuoteAlternativeId": 160,
-  "UseValuesFromQuote": 560,
-  "DocumentId": 562,
-  "PoNumber": "648509",
-  "OrderComment": "saepe",
-  "PreferredEmailCulture": "franz.greenfelder@kleindouglas.co.uk",
+  "QuoteId": 834,
+  "SaleId": 488,
+  "QuoteConnectionId": 820,
+  "ERPQuoteKey": "quis",
+  "ERPOrderKey": "sunt",
+  "ActiveQuoteVersionId": 390,
+  "AcceptedQuoteAlternativeId": 905,
+  "UseValuesFromQuote": 3,
+  "DocumentId": 109,
+  "PoNumber": "1258020",
+  "OrderComment": "culpa",
+  "PreferredEmailCulture": "elyse_effertz@dach.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 136,
-      "ERPQuoteVersionKey": "consequatur",
-      "QuoteId": 583,
-      "Description": "Operative well-modulated info-mediaries",
-      "Number": "370509",
+      "QuoteVersionId": 752,
+      "ERPQuoteVersionKey": "accusantium",
+      "QuoteId": 609,
+      "Description": "Ameliorated leading edge array",
+      "Number": "428210",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 249,
-      "SentDate": "2016-03-27T13:28:23.5698866+02:00",
-      "FollowupId": 778,
-      "ExpirationDate": "2009-05-10T13:28:23.5698866+02:00",
-      "DeliveryCountryId": 326,
+      "LikelyQuoteAlternativeId": 255,
+      "SentDate": "2003-04-03T04:02:02.2065837+02:00",
+      "FollowupId": 984,
+      "ExpirationDate": "2023-08-05T04:02:02.2065837+02:00",
+      "DeliveryCountryId": 458,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 161,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "aut",
-      "ERPPaymentTypeKey": "repellat",
-      "ERPDeliveryTermsKey": "porro",
-      "ERPDeliveryTypeKey": "error",
-      "Rank": 328,
-      "ApprovedBy": 135,
-      "ApprovedText": "voluptate",
-      "ApprovedRegisteredBy": 131,
-      "ApprovedRegisteredDate": "2007-11-28T13:28:23.5698866+01:00",
-      "ExtraField1": "iure",
-      "ExtraField2": "voluptas",
-      "ExtraField3": "aliquid",
-      "ExtraField4": "nesciunt",
-      "ExtraField5": "enim",
-      "LastRecalculated": "2023-06-30T13:28:23.5698866+02:00",
-      "Updated": "2023-06-08T13:28:23.5698866+02:00",
-      "UpdatedAssociateId": 426,
-      "Registered": "2012-03-21T13:28:23.5698866+01:00",
-      "RegisteredAssociateId": 490,
-      "RequestAssociateId": 381,
-      "RequestComment": "a",
+      "InvoiceCountryId": 724,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "omnis",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "similique",
+      "ERPDeliveryTypeKey": "aut",
+      "Rank": 244,
+      "ApprovedBy": 397,
+      "ApprovedText": "officia",
+      "ApprovedRegisteredBy": 228,
+      "ApprovedRegisteredDate": "2000-12-11T04:02:02.2065837+01:00",
+      "ExtraField1": "rerum",
+      "ExtraField2": "delectus",
+      "ExtraField3": "tenetur",
+      "ExtraField4": "ut",
+      "ExtraField5": "corrupti",
+      "LastRecalculated": "2012-09-10T04:02:02.2065837+02:00",
+      "Updated": "2019-04-21T04:02:02.2065837+02:00",
+      "UpdatedAssociateId": 411,
+      "Registered": "2020-12-19T04:02:02.2065837+01:00",
+      "RegisteredAssociateId": 460,
+      "RequestAssociateId": 441,
+      "RequestComment": "mollitia",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

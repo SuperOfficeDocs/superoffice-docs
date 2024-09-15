@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 963,
-  "UniqueId": "recusandae",
-  "Name": "Blanda Inc and Sons",
-  "Description": "Vision-oriented national capacity",
-  "AssociateId": 895,
-  "Columns": 812,
+  "DashboardId": 181,
+  "UniqueId": "et",
+  "Name": "Lindgren, Mueller and Schulist",
+  "Description": "Pre-emptive maximized support",
+  "AssociateId": 682,
+  "Columns": 284,
   "Theme": null,
-  "VisibleForAll": 636,
+  "VisibleForAll": 161,
   "VisibleForAssociates": [
-    905,
-    96
+    876,
+    809
   ],
   "VisibleForGroups": [
-    228,
-    184
+    904,
+    167
   ],
-  "PinForAll": 170,
+  "PinForAll": 272,
   "PinForAssociates": [
-    573,
-    227
+    77,
+    852
   ],
   "PinForGroups": [
-    557,
-    537
+    214,
+    249
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 757,
-  "UniqueId": "non",
-  "Name": "Grant Group",
-  "Description": "Visionary eco-centric info-mediaries",
-  "AssociateId": 149,
-  "Columns": 192,
+  "DashboardId": 493,
+  "UniqueId": "eveniet",
+  "Name": "Turcotte Inc and Sons",
+  "Description": "Fully-configurable regional moratorium",
+  "AssociateId": 545,
+  "Columns": 4,
   "Theme": null,
-  "VisibleForAll": 520,
+  "VisibleForAll": 68,
   "VisibleForAssociates": [
-    883,
-    348
+    672,
+    39
   ],
   "VisibleForGroups": [
-    884,
-    618
+    926,
+    20
   ],
-  "PinForAll": 438,
+  "PinForAll": 85,
   "PinForAssociates": [
-    7,
-    426
+    367,
+    990
   ],
   "PinForGroups": [
-    633,
-    931
+    684,
+    523
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldLength": 911
     }
   },
   "_Links": {

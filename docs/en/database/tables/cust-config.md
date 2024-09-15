@@ -2,10 +2,10 @@
 uid: table-cust_config
 title: cust_config table
 description: This table contains JSON structures used for customizing the customer center
-generated: true
+so.generated: true
 keywords: database table cust_config
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # cust\_config Table (477)

@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 246,
-    "DisplayName": "Pacocha, Osinski and Beier",
-    "OngoingChats": 820,
+    "UserId": 124,
+    "DisplayName": "Sipes-Wunsch",
+    "OngoingChats": 667,
     "Present": false,
     "ChatTopics": [
-      565,
-      416
+      902,
+      591
     ]
   },
   {
-    "UserId": 246,
-    "DisplayName": "Pacocha, Osinski and Beier",
-    "OngoingChats": 820,
+    "UserId": 124,
+    "DisplayName": "Sipes-Wunsch",
+    "OngoingChats": 667,
     "Present": false,
     "ChatTopics": [
-      565,
-      416
+      902,
+      591
     ]
   }
 ]

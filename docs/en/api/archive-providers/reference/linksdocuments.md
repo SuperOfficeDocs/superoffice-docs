@@ -663,6 +663,8 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -717,7 +719,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/withdrawnStoreConsent,contact/restrictionAddress/line1,contact/LastDoBySale,project/projectAssociate/credentialDisplayValue,project/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/LinksDocuments?$select=person/correspondingAssociate/mrMrs,person/correspondingAssociate/role,contact/LastSale,associate/firstName,sale/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

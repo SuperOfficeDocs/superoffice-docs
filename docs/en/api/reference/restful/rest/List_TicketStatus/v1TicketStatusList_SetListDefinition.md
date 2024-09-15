@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 960,
-  "Name": "Reichert-Breitenberg",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 577,
+  "Id": 492,
+  "Name": "Green Group",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 108,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 267,
+  "Name": "Wilkinson-Mertz",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 630,
-  "IsCustomList": false,
+  "Rank": 613,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 773
     }
   }
 }

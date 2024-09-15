@@ -16,6 +16,7 @@ Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you n
 
 * [AddAfterWorkflowStep](AddAfterWorkflowStep.md)
 * [ConnectEmailFlowContent](ConnectEmailFlowContent.md)
+* [CopyEmailFlow](CopyEmailFlow.md)
 * [CopyEmailFlowContent](CopyEmailFlowContent.md)
 * [CreateDefaultEmailFlow](CreateDefaultEmailFlow.md)
 * [CreateDefaultWorkflowEvent](CreateDefaultWorkflowEvent.md)

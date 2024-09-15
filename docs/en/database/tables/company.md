@@ -2,10 +2,10 @@
 uid: table-company
 title: company table
 description: Information on license and owner of this SuperOffice database. This table should only have 1 row. This table contains encrypted license information. Changing it will disable login for all users and require you to restore the database from backup.
-generated: true
+so.generated: true
 keywords: database table company
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # company Table (1)

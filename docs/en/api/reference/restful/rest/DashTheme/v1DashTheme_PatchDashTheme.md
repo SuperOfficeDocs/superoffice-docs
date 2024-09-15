@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "eaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "eaque",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 957,
-  "Name": "McCullough Group",
-  "Config": "aut",
-  "Rank": 58,
-  "Client": "non",
-  "Style": "magni",
+  "DashboardThemeId": 764,
+  "Name": "Fadel-Hermiston",
+  "Config": "asperiores",
+  "Rank": 732,
+  "Client": "in",
+  "Style": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 478
     }
   },
   "_Links": {

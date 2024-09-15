@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 651,
-  "ColumnId": 538,
-  "FieldDefault": "consequuntur",
-  "FieldHeight": 925,
-  "FieldLabel": "magnam",
-  "FieldLeft": 211,
-  "FieldTop": 724,
+  "UDefFieldId": 570,
+  "ColumnId": 874,
+  "FieldDefault": "illo",
+  "FieldHeight": 335,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 26,
+  "FieldTop": 805,
   "FieldType": "Checkbox",
-  "FieldWidth": 792,
-  "FormatMask": "eos",
+  "FieldWidth": 500,
+  "FormatMask": "sed",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 822,
-  "LabelLeft": 62,
-  "LabelTop": 103,
-  "LabelWidth": 125,
-  "LastVersionId": 803,
-  "ListTableId": 473,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 980,
+  "LabelLeft": 866,
+  "LabelTop": 892,
+  "LabelWidth": 68,
+  "LastVersionId": 939,
+  "ListTableId": 241,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 279,
-  "ProgId": "maiores",
-  "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 877,
-  "TextLength": 37,
-  "Tooltip": "quia",
-  "UdefIdentity": 94,
-  "UDListDefinitionId": 575,
+  "Page1LineNo": 731,
+  "ProgId": "tempora",
+  "IsReadOnly": true,
+  "ShortLabel": "veritatis",
+  "TabOrder": 409,
+  "TextLength": 660,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 460,
+  "UDListDefinitionId": 166,
   "Justification": "Center",
-  "Version": 303,
-  "TemplateVariableName": "Cummings LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Osinski Inc and Sons",
+  "Version": 689,
+  "TemplateVariableName": "Boyer, Baumbach and Hahn",
+  "HasBeenPublished": true,
+  "MdoListName": "Murray-Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

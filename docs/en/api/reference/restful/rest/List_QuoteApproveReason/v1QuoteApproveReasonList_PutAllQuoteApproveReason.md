@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Little-Gerhold",
-    "Tooltip": "veritatis",
+    "Id": 21,
+    "Name": "Berge-McCullough",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "UdListDefinitionId": 925,
-    "Rank": 205
+    "UdListDefinitionId": 316,
+    "Rank": 810
   },
   {
-    "Id": 961,
-    "Name": "Little-Gerhold",
-    "Tooltip": "veritatis",
+    "Id": 21,
+    "Name": "Berge-McCullough",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "UdListDefinitionId": 925,
-    "Rank": 205
+    "UdListDefinitionId": 316,
+    "Rank": 810
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Sporer Inc and Sons",
-    "Tooltip": "optio",
-    "Deleted": false,
-    "UdListDefinitionId": 342,
-    "Rank": 809,
+    "Id": 936,
+    "Name": "Kilback Inc and Sons",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "UdListDefinitionId": 607,
+    "Rank": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

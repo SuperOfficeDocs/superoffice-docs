@@ -2,10 +2,10 @@
 uid: enum-quotestatus
 title: Enum values for QuoteStatus
 description: Lists the enum values for QuoteStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteStatus Enum

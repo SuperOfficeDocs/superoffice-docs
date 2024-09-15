@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Connell-VonRueden",
-  "DeviceName": "Kling-Konopelski",
-  "DeviceIdentifier": "sequi",
-  "KeyName": "Rohan-Towne",
-  "KeyValue": "sunt",
-  "TableName": "Cummerata Group"
+  "ApplicationName": "Olson-Yundt",
+  "DeviceName": "Leuschke LLC",
+  "DeviceIdentifier": "quibusdam",
+  "KeyName": "Kuhic LLC",
+  "KeyValue": "cupiditate",
+  "TableName": "Collier-Skiles"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "harum",
-  "RecordId": 288,
-  "CreatedDate": "2001-01-25T13:28:22.8510314+01:00",
-  "UpdatedDate": "2001-04-23T13:28:22.8510314+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "dolorem",
-  "TableName": "Langosh, Botsford and Collier",
+  "Key": "non",
+  "Value": "deserunt",
+  "RecordId": 293,
+  "CreatedDate": "2001-11-16T04:02:01.8003604+01:00",
+  "UpdatedDate": "1997-06-02T04:02:01.8003604+02:00",
+  "UpdatedBy": "unde",
+  "CreatedBy": "atque",
+  "TableName": "Ankunding-Spinka",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldType": "System.String",
+      "FieldLength": 186
     }
   }
 }

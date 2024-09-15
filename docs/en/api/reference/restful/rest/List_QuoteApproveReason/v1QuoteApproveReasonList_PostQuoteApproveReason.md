@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Zieme LLC",
-  "Tooltip": "vel",
+  "Id": 451,
+  "Name": "Ziemann, Senger and Boehm",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 391
+  "UdListDefinitionId": 470,
+  "Rank": 153
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Schowalter-Brown",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "UdListDefinitionId": 204,
-  "Rank": 339,
+  "Id": 431,
+  "Name": "Mraz Inc and Sons",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "UdListDefinitionId": 747,
+  "Rank": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

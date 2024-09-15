@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 929,
-    "ParentId": 914,
-    "Name": "Sauer, Borer and Hermiston",
-    "Fullname": "sit",
-    "CategoryMaster": 483,
+    "TicketCategoryId": 145,
+    "ParentId": 908,
+    "Name": "Rogahn-Reinger",
+    "Fullname": "in",
+    "CategoryMaster": 890,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Jerde Inc and Sons",
+    "ExternalName": "O'Conner, Lowe and Dicki",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 379,
-    "ReplyTemplate": 466,
-    "NotificationEmail": "callie.boehm@bartoletti.co.uk",
+    "AssignmentLag": 177,
+    "ReplyTemplate": 159,
+    "NotificationEmail": "lorenz@russel.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 59,
+    "EffectiveReplyTemplateId": 232,
     "ExtraFields": {
-      "ExtraFields1": "facilis",
-      "ExtraFields2": "quam"
+      "ExtraFields1": "dolores",
+      "ExtraFields2": "dolore"
     },
     "CustomFields": {
-      "CustomFields1": "reprehenderit",
-      "CustomFields2": "repudiandae"
+      "CustomFields1": "accusamus",
+      "CustomFields2": "atque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldLength": 849
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ruecker-Luettgen",
-    "DisplayName": "Sipes-Morar",
-    "Description": "Compatible radical initiative",
-    "ToolTip": "Natus ratione nulla sint.",
+    "Name": "Daugherty, Blick and Monahan",
+    "DisplayName": "Nienow-Mosciski",
+    "Description": "Digitized high-level capability",
+    "ToolTip": "Doloribus iste exercitationem est optio eaque.",
     "Actions": "Implicit",
-    "ActionData": "et",
+    "ActionData": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

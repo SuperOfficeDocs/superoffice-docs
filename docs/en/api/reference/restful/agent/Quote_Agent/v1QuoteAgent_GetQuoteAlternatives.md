@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 18
+  "QuoteVersionId": 875
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 514,
-    "ERPQuoteAlternativeKey": "aspernatur",
-    "QuoteVersionId": 781,
-    "Name": "Towne Group",
-    "Description": "Synergistic high-level forecast",
+    "QuoteAlternativeId": 193,
+    "ERPQuoteAlternativeKey": "et",
+    "QuoteVersionId": 800,
+    "Name": "Schaefer-DuBuque",
+    "Description": "Cross-group analyzing data-warehouse",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 22223.194,
-    "ERPDiscountAmount": 12498.392,
-    "DiscountPercent": 6976.284,
-    "DiscountAmount": 28011.692,
+    "ERPDiscountPercent": 2977.2999999999997,
+    "ERPDiscountAmount": 14758.006,
+    "DiscountPercent": 11298.07,
+    "DiscountAmount": 4563.104,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "occaecati",
-    "VAT": 4779.3499999999995,
-    "EarningPercent": 13366.51,
-    "EarningAmount": 12661.359999999999,
-    "SubTotal": 24818.146,
-    "TotalPrice": 28848.469999999998,
-    "ExtraField1": "necessitatibus",
-    "ExtraField2": "rerum",
-    "ExtraField3": "aut",
-    "ExtraField4": "consequatur",
-    "ExtraField5": "fugiat",
+    "VATInfo": "vel",
+    "VAT": 12470.186,
+    "EarningPercent": 27190.584,
+    "EarningAmount": 890.05599999999993,
+    "SubTotal": 5167.9659999999994,
+    "TotalPrice": 8988.312,
+    "ExtraField1": "ea",
+    "ExtraField2": "qui",
+    "ExtraField3": "impedit",
+    "ExtraField4": "qui",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldLength": 443
       }
     }
   }

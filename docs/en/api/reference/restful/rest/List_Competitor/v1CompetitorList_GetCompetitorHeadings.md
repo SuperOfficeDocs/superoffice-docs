@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "McLaughlin, Padberg and Fahey",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 485,
-    "UdListDefinitionId": 300,
+    "HeadingId": 271,
+    "Name": "Swaniawski LLC",
+    "Tooltip": "placeat",
+    "Deleted": false,
+    "Rank": 732,
+    "UdListDefinitionId": 39,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 400
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

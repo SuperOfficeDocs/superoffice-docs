@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=821
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=327
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 1002,
-  "Name": "Brown Inc and Sons",
+  "ScreenChooserId": 586,
+  "Name": "Keebler Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptas",
-  "Source": "architecto",
-  "Registered": "2000-02-22T13:28:22.3667682+01:00",
-  "RegisteredAssociateId": 395,
-  "Updated": "1997-10-02T13:28:22.3667682+02:00",
-  "UpdatedAssociateId": 476,
+  "UniqueIdentifier": "quo",
+  "Source": "reprehenderit",
+  "Registered": "2018-06-20T04:02:01.5342579+02:00",
+  "RegisteredAssociateId": 106,
+  "Updated": "2011-08-03T04:02:01.5342579+02:00",
+  "UpdatedAssociateId": 477,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

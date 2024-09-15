@@ -2,10 +2,10 @@
 uid: table-soap_access
 title: soap_access table
 description: Table that contains constraints on the access to the soap interface
-generated: true
+so.generated: true
 keywords: database table soap_access
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # soap\_access Table (362)

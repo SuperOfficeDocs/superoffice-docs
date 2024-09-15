@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Wilderman-Flatley",
-  "Id": 144
+  "ListName": "Spinka Group",
+  "Id": 802
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Konopelski, Jenkins and Hamill",
-  "ToolTip": "Beatae cum ratione modi velit natus inventore illo.",
+  "Id": 198,
+  "Name": "Rutherford-McDermott",
+  "ToolTip": "Qui eius et.",
   "Deleted": false,
-  "Rank": 10,
-  "Type": "ut",
+  "Rank": 700,
+  "Type": "quos",
   "ChildItems": [
     {
-      "Id": 183,
-      "Name": "Kuhic-Parker",
-      "ToolTip": "Qui aut repellendus est ex.",
+      "Id": 915,
+      "Name": "Mayer, Bauch and Morar",
+      "ToolTip": "Voluptas velit enim.",
       "Deleted": false,
-      "Rank": 29,
-      "Type": "odio",
+      "Rank": 687,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 928,
-      "ExtraInfo": "dolor",
-      "StyleHint": "voluptatum",
-      "FullName": "Mrs. Elliot Oberbrunner",
+      "IconHint": "placeat",
+      "ColorBlock": 655,
+      "ExtraInfo": "sit",
+      "StyleHint": "non",
+      "FullName": "Marianna Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 101
+          "FieldLength": 646
         }
       }
     }
   ],
-  "IconHint": "libero",
-  "ColorBlock": 190,
-  "ExtraInfo": "ad",
-  "StyleHint": "quam",
-  "FullName": "Dangelo Fisher",
+  "IconHint": "aspernatur",
+  "ColorBlock": 359,
+  "ExtraInfo": "similique",
+  "StyleHint": "repudiandae",
+  "FullName": "Mr. Jordon Jayda Zboncak I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 104
     }
   }
 }

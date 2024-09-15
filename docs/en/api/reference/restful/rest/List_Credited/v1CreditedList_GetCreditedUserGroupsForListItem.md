@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Hermiston LLC",
-    "ToolTip": "Eligendi praesentium esse mollitia id qui veritatis magni.",
+    "Id": 970,
+    "Name": "Tremblay LLC",
+    "ToolTip": "Eum consequatur nam qui.",
     "Deleted": false,
-    "Rank": 862,
-    "Type": "dignissimos",
-    "ColorBlock": 895,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2013-10-18T13:28:32.7728753+02:00",
+    "Rank": 750,
+    "Type": "rerum",
+    "ColorBlock": 170,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2014-10-13T04:02:07.1347182+02:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Buckridge, Walsh and Parisian",
-        "ToolTip": "Quia odit nihil autem.",
+        "Id": 134,
+        "Name": "Gusikowski-Stokes",
+        "ToolTip": "Labore consequatur.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "impedit",
-        "ColorBlock": 526,
-        "IconHint": "in",
+        "Rank": 285,
+        "Type": "minus",
+        "ColorBlock": 20,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2007-11-05T13:28:32.7728753+01:00",
+        "LastChanged": "2011-05-19T04:02:07.1347182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "eaque",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Jackson Lueilwitz MD",
+        "FullName": "Malvina Bradtke Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldType": "System.Int32",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Sydni Runolfsdottir",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Miss Wilber Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

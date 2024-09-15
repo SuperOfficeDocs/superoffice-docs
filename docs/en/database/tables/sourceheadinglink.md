@@ -2,10 +2,10 @@
 uid: table-SourceHeadingLink
 title: SourceHeadingLink table
 description: Heading link table for Source, for MDO headers
-generated: true
+so.generated: true
 keywords: database table SourceHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SourceHeadingLink Table (102)

@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "repellendus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "repellendus",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 465,
-  "SourcePersonId": 890,
-  "DestinationContactId": 458,
-  "DestinationPersonId": 278,
-  "RelationId": 837,
-  "Comment": "eius",
-  "RelationDefinitionId": 291,
-  "Reversed": 308,
-  "UpdatedDate": "2021-05-13T13:28:31.53865+02:00",
-  "CreatedDate": "2006-03-24T13:28:31.53865+01:00",
+  "SourceContactId": 844,
+  "SourcePersonId": 952,
+  "DestinationContactId": 906,
+  "DestinationPersonId": 886,
+  "RelationId": 463,
+  "Comment": "dignissimos",
+  "RelationDefinitionId": 212,
+  "Reversed": 300,
+  "UpdatedDate": "2006-03-13T04:02:06.4472912+01:00",
+  "CreatedDate": "2017-11-15T04:02:06.4472912+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schuster, Schneider and Sauer",
-  "SourcePersonName": "Sauer-Mayert",
-  "DestinationContactName": "Schmeler-Hane",
-  "DestinationPersonName": "Klein, McGlynn and Kautzer",
-  "ActiveText": "vero",
-  "PassiveText": "necessitatibus",
+  "SourceContactName": "Jakubowski LLC",
+  "SourcePersonName": "Schmitt, Lind and Yost",
+  "DestinationContactName": "Marvin, Rodriguez and Beahan",
+  "DestinationPersonName": "Herman Inc and Sons",
+  "ActiveText": "qui",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

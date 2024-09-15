@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Configurable composite hub
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=tempore,deleniti
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Versatile heuristic pricing structure
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=inventore,reprehenderit
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "aut",
-  "VersionId": "rerum",
+  "ExternalReference": "quibusdam",
+  "VersionId": "repudiandae",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "error",
-  "AdditionalInfo": "accusamus"
+  "Value": "expedita",
+  "AdditionalInfo": "rerum"
 }
 ```

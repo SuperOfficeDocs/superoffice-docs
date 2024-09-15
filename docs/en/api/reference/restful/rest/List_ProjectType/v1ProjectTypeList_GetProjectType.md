@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Cronin, Kub and Gusikowski",
-  "Tooltip": "animi",
+  "Id": 209,
+  "Name": "Rolfson, Rolfson and Muller",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 393,
-  "Rank": 479,
+  "UdListDefinitionId": 738,
+  "Rank": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 879
     }
   }
 }

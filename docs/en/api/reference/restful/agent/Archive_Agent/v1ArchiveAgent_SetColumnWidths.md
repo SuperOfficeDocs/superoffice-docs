@@ -69,10 +69,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bashirian Inc and Sons",
+  "GuiName": "Zemlak Group",
   "ColumnWidths": [
-    "aperiam",
-    "quam"
+    "modi",
+    "perspiciatis"
   ]
 }
 ```

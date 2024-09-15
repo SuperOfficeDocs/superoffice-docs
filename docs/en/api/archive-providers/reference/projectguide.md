@@ -655,6 +655,8 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |appointmentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |appointmentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
+|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |appointmentInstance/sale/visibleFor| *None* |Visible for|  |
 |appointmentInstance/sale/sale/textId| *None* |Text ID|  |
 |appointmentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -750,12 +752,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
 |documentInstance/contactId| *None* |Company ID: Database ID of company|  |
 |documentInstance/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/projectId| *None* |Project ID: Database ID of project record|  |
-|documentInstance/saleId| *None* |Sale ID: The database ID of the sale record|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/projectId| *None* |Project ID: Database ID of project record|  |
+|documentInstance/saleId| *None* |Sale ID: The database ID of the sale record|  |
 |documentInstance/userGroup| *None* |User group : The user group that owns the record|  |
 |documentInstance/who| *None* |Who: Contact and/or company|  |
 |documentInstance/updatedBy| *None* |Updated by: The user who last updated the data|  |
@@ -854,12 +856,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
 |documentInstance/person/email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
 |documentInstance/person/email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
-|documentInstance/person/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|documentInstance/person/personUrl/URLAddress| *None* |URL|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
+|documentInstance/person/personUrl/URLAddress| *None* |URL|  |
 |documentInstance/person/personUrl/URLDescription| *None* |Description|  |
 |documentInstance/person/personAddress/addressId| *None* |Contact address - Address ID: Database ID for the address record|  |
 |documentInstance/person/personAddress/line1| *None* |Contact address - Address 1: First line of the address|  |
@@ -958,12 +960,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |documentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |documentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |documentInstance/person/correspondingAssociate/associateDbId| *None* |ID|  |
 |documentInstance/person/correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |documentInstance/person/correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
@@ -1062,12 +1064,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/streetAddress/state| *None* |Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |documentInstance/contact/streetAddress/wgs84latitude| *None* |Street address - Latitude: Latitude|  |
 |documentInstance/contact/streetAddress/wgs84longitude| *None* |Street address - Longitude: Longitude|  |
-|documentInstance/contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |documentInstance/contact/restrictionAddress/addressId| *None* |Search address - Address ID: Database ID for the address record|  |
 |documentInstance/contact/restrictionAddress/line1| *None* |Search address - Address 1: First line of the address|  |
 |documentInstance/contact/restrictionAddress/line2| *None* |Search address - Address 2: Second line of the address|  |
@@ -1166,12 +1168,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/LastCompletedTicket| *None* |Date of last completed request|  |
 |documentInstance/contact/LastDoByTicket| *None* |Date of last non-completed request|  |
 |documentInstance/contact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|documentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
-|documentInstance/contact/saintSaleStatus| *None* |With status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
+|documentInstance/contact/saintSaleStatus| *None* |With status|  |
 |documentInstance/contact/saintAmountClass| *None* |Amount class|  |
 |documentInstance/contact/saintActivityType| *None* |SAINT type|  |
 |documentInstance/contact/saintDirection| *None* |Direction|  |
@@ -1270,12 +1272,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |documentInstance/project/saintSaleStatus| *None* |With status|  |
 |documentInstance/project/saintAmountClass| *None* |Amount class|  |
-|documentInstance/project/saintActivityType| *None* |SAINT type|  |
-|documentInstance/project/saintDirection| *None* |Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/saintActivityType| *None* |SAINT type|  |
+|documentInstance/project/saintDirection| *None* |Direction|  |
 |documentInstance/project/saintIntention| *None* |Intention|  |
 |documentInstance/project/saintTicketStatus| *None* |Status|  |
 |documentInstance/project/saintTicketCategory| *None* |Category|  |
@@ -1370,16 +1372,18 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |documentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
+|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |documentInstance/sale/visibleFor| *None* |Visible for|  |
 |documentInstance/sale/sale/textId| *None* |Text ID|  |
-|documentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
-|documentInstance/sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|documentInstance/sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|documentInstance/sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
+|documentInstance/sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
+|documentInstance/sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
+|documentInstance/sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |documentInstance/sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |documentInstance/sale/associate/firstName| *None* |First name: Displays the contact's first name|  |
 |documentInstance/sale/associate/lastName| *None* |Last name: Displays the contact's last name|  |
@@ -1427,7 +1431,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/registeredByFullName,appointmentInstance/contact/contactPhone/description,appointmentInstance/person/createdByForm,appointmentInstance/person/personAddress/zip,appointmentInstance/person/personUdef/SuperOffice:9
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contactId,appointmentInstance/person/correspondingAssociate/portraitThumbnail,appointmentInstance/sale/amountWeightedInBaseCurrency,documentInstance/saleId,documentInstance/person/personUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

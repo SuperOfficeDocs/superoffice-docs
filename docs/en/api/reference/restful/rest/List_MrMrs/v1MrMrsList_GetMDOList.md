@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=soluta
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Bergnaum, Blanda and Price",
-    "ToolTip": "Sed minus id voluptates voluptates sed harum dolorum.",
-    "Deleted": true,
-    "Rank": 648,
-    "Type": "blanditiis",
+    "Id": 197,
+    "Name": "Russel LLC",
+    "ToolTip": "Qui vel sed accusamus natus culpa.",
+    "Deleted": false,
+    "Rank": 679,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Herzog, Beatty and Schaden",
-        "ToolTip": "Labore aut nesciunt quibusdam saepe voluptatem numquam.",
-        "Deleted": true,
-        "Rank": 975,
-        "Type": "ipsa",
+        "Id": 349,
+        "Name": "Stokes LLC",
+        "ToolTip": "Aut harum rerum.",
+        "Deleted": false,
+        "Rank": 736,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 76,
-        "ExtraInfo": "quo",
-        "StyleHint": "animi",
-        "FullName": "Easton Alia Gutkowski V",
+        "IconHint": "doloribus",
+        "ColorBlock": 584,
+        "ExtraInfo": "sit",
+        "StyleHint": "voluptatibus",
+        "FullName": "Clovis Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 411
+            "FieldLength": 272
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 830,
-    "ExtraInfo": "et",
-    "StyleHint": "non",
-    "FullName": "Mr. Elaina Mertz",
+    "IconHint": "itaque",
+    "ColorBlock": 799,
+    "ExtraInfo": "aut",
+    "StyleHint": "unde",
+    "FullName": "Maryam Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldLength": 390
       }
     }
   }

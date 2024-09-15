@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Schiller Group",
-  "OldPassword": "id",
-  "NewPassword": "neque"
+  "AssociateName": "Berge, Collier and Hessel",
+  "OldPassword": "assumenda",
+  "NewPassword": "omnis"
 }
 ```
 

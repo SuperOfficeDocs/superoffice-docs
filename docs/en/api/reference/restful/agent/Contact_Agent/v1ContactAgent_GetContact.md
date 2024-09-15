@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=882
+POST /api/v1/Agents/Contact/GetContact?contactId=136
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 219,
-  "Name": "Streich LLC",
-  "OrgNr": "976309",
+  "ContactId": 94,
+  "Name": "Prosacco-Kling",
+  "OrgNr": "1267317",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "distinctio",
-  "DirectPhone": "634.350.5041",
-  "AssociateId": 851,
-  "CountryId": 390,
-  "EmailAddress": "tillman@thompson.uk",
-  "Kananame": "velit",
-  "EmailAddressName": "stephany.yost@kshlerin.ca",
+  "City": "molestiae",
+  "DirectPhone": "(861)339-4919 x2684",
+  "AssociateId": 644,
+  "CountryId": 279,
+  "EmailAddress": "vivian.konopelski@pouros.us",
+  "Kananame": "et",
+  "EmailAddressName": "grace@christiansen.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Prof. Laurie Lesch DVM",
+  "AssociateFullName": "Prof. Olen Suzanne Pagac",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sapiente",
-  "FullName": "Mrs. Wilfred Cecelia Mayer Jr.",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 629,
-  "Number1": "1664641",
-  "Number2": "1059236",
+  "FormattedAddress": "dolor",
+  "FullName": "Prof. Kaelyn Nelson Wisozk Sr.",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 937,
+  "Number1": "1245919",
+  "Number2": "652723",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

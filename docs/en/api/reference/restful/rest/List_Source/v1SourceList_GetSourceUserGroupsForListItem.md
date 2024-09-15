@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Reynolds Group",
-    "ToolTip": "Cum maiores.",
+    "Id": 141,
+    "Name": "McGlynn Group",
+    "ToolTip": "Illo molestiae numquam porro.",
     "Deleted": true,
-    "Rank": 244,
-    "Type": "aliquid",
-    "ColorBlock": 404,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2015-08-07T13:28:33.1794796+02:00",
+    "Rank": 969,
+    "Type": "aliquam",
+    "ColorBlock": 886,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2007-03-23T04:02:07.4167631+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Orn Group",
-        "ToolTip": "Qui sequi voluptatem corrupti facere cum.",
-        "Deleted": false,
-        "Rank": 603,
-        "Type": "qui",
-        "ColorBlock": 580,
-        "IconHint": "ipsa",
-        "Selected": false,
-        "LastChanged": "2000-08-30T13:28:33.1794796+02:00",
+        "Id": 48,
+        "Name": "Sauer-Daugherty",
+        "ToolTip": "Est animi similique vel.",
+        "Deleted": true,
+        "Rank": 982,
+        "Type": "quisquam",
+        "ColorBlock": 218,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2020-03-03T04:02:07.4318023+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "iure",
+        "ExtraInfo": "saepe",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Gerry Aufderhar",
+        "FullName": "Maegan Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "amet",
+    "ExtraInfo": "nam",
+    "StyleHint": "iusto",
     "Hidden": true,
-    "FullName": "Elwyn Emmerich",
+    "FullName": "Mozelle Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldLength": 736
       }
     }
   }

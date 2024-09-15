@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magnam",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magnam",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ducimus",
+  "SaleText": "eum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-08-09T13:28:32.1792668+02:00",
-  "Amount": 13043.707999999999,
-  "SaleId": 783,
-  "Earning": 1482.382,
-  "EarningPercent": 15507.032,
-  "Heading": "eius",
-  "Number": "676435",
-  "Probability": 95,
-  "CreatedDate": "2021-08-04T13:28:32.1792668+02:00",
-  "UpdatedDate": "2007-08-18T13:28:32.1792668+02:00",
+  "Saledate": "2011-09-24T04:02:06.806628+02:00",
+  "Amount": 24811.878,
+  "SaleId": 789,
+  "Earning": 23639.762,
+  "EarningPercent": 476.368,
+  "Heading": "totam",
+  "Number": "1116685",
+  "Probability": 581,
+  "CreatedDate": "2022-12-29T04:02:06.806628+01:00",
+  "UpdatedDate": "2000-10-27T04:02:06.806628+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 656,
+  "ActiveLinks": 736,
   "Links": [
     {
-      "EntityName": "Barrows, Moen and O'Kon",
-      "Id": 117,
-      "Description": "Universal grid-enabled archive",
-      "ExtraInfo": "libero",
-      "LinkId": 457,
+      "EntityName": "Waters, Tromp and Marquardt",
+      "Id": 15,
+      "Description": "User-friendly heuristic focus group",
+      "ExtraInfo": "est",
+      "LinkId": 808,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldLength": 912
         }
       }
     }
   ],
-  "NextDueDate": "2012-05-05T13:28:32.1948816+02:00",
-  "Postit": "dolorum",
+  "NextDueDate": "2022-03-30T04:02:06.806628+02:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-09-17T13:28:32.1948816+02:00",
+  "ReopenDate": "1997-05-23T04:02:06.806628+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Durgan LLC",
-      "Comment": "minus",
-      "StakeholderRoleId": 563,
-      "CountryId": 265,
-      "PersonId": 715,
-      "EmailDescription": "hillard@beatty.biz",
-      "EmailId": 209,
-      "EmailAddress": "schuyler@jenkins.us",
-      "PhoneId": 420,
-      "ContactName": "Hagenes, Kautzer and Kassulke",
-      "ContactId": 623,
-      "SaleId": 154,
-      "Mrmrs": "sequi",
-      "Firstname": "Kyler",
-      "MiddleName": "Douglas, Schimmel and Wilkinson",
-      "Lastname": "Barton",
-      "SaleStakeholderId": 4,
-      "Rank": 143,
-      "Phone": "346.753.7993 x72671",
+      "StakeholderRoleName": "Jewess, Pagac and O'Keefe",
+      "Comment": "modi",
+      "StakeholderRoleId": 137,
+      "CountryId": 199,
+      "PersonId": 583,
+      "EmailDescription": "vernice@mcdermott.uk",
+      "EmailId": 675,
+      "EmailAddress": "myrna.jaskolski@yundt.info",
+      "PhoneId": 777,
+      "ContactName": "Donnelly LLC",
+      "ContactId": 719,
+      "SaleId": 431,
+      "Mrmrs": "autem",
+      "Firstname": "Gennaro",
+      "MiddleName": "Connelly, Kovacek and Emard",
+      "Lastname": "Rosenbaum",
+      "SaleStakeholderId": 767,
+      "Rank": 649,
+      "Phone": "751.535.2662",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldLength": 635
         }
       }
     }
   ],
-  "ActiveErpLinks": 931,
+  "ActiveErpLinks": 255,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Anjali Urban Bergnaum",
-    "SuperOffice:2": "Mr. Retha Sipes II"
+    "SuperOffice:1": "76720169",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "harum",
+    "CustomFields2": "ipsum"
   },
-  "PublishEventDate": "2019-01-27T13:28:32.1948816+01:00",
-  "PublishTo": "2001-03-19T13:28:32.1948816+01:00",
-  "PublishFrom": "2002-07-08T13:28:32.1948816+02:00",
+  "PublishEventDate": "2007-05-16T04:02:06.806628+02:00",
+  "PublishTo": "2000-11-06T04:02:06.806628+01:00",
+  "PublishFrom": "2009-04-03T04:02:06.806628+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 148,
+      "VisibleId": 372,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     },
     {
-      "VisibleId": 148,
+      "VisibleId": 372,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldLength": 16
     }
   },
   "_Links": {

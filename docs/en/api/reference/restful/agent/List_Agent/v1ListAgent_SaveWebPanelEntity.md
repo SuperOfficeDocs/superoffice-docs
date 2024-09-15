@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 329,
-  "Name": "Waelchi, Hudson and Walsh",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 896,
+  "WebPanelId": 883,
+  "Name": "Feest, Emard and McKenzie",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 581,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Schuppe Inc and Sons",
+  "WindowName": "Bashirian-McClure",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 114,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "doloribus",
+  "Icon": 997,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 690,
-  "Name": "Kohler, Kemmer and Hills",
-  "Tooltip": "sint",
+  "WebPanelId": 988,
+  "Name": "Lesch, Harber and Hagenes",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 280,
+  "Rank": 747,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Rath LLC",
+  "ShowInStatusBar": false,
+  "WindowName": "Ullrich, Fritsch and Bahringer",
   "Url": "http://www.example.com/",
-  "ProgId": "porro",
-  "Icon": 378,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "quo",
+  "Icon": 151,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

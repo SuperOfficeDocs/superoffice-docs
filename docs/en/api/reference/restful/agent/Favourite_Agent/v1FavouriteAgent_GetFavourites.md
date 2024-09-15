@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abernathy Group",
-  "AssociateId": 750
+  "TableName": "Roberts Group",
+  "AssociateId": 406
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Brekke, West and Hansen",
-    "RecordId": 822,
-    "AssociateId": 64,
-    "ExtraInfo": "odio",
-    "Rank": 202,
+    "TableName": "Wunsch, Zieme and Ernser",
+    "RecordId": 492,
+    "AssociateId": 688,
+    "ExtraInfo": "nulla",
+    "Rank": 455,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 966
       }
     }
   }

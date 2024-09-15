@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Langworth Group",
-    "SoPrimaryKey": 548,
-    "EntryName": "Spinka-Hand",
-    "EntryIdentifier": "omnis",
-    "RuleDisplayName": "Murray-Cassin",
+    "RuleName": "Hoppe-Kunze",
+    "SoPrimaryKey": 328,
+    "EntryName": "Hermiston-Wintheiser",
+    "EntryIdentifier": "sunt",
+    "RuleDisplayName": "Beatty, Kuhlman and Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldLength": 762
       }
     }
   }

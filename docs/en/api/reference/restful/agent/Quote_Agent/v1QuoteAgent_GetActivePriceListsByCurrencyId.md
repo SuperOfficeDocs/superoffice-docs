@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 555,
-  "CurrencyId": 2
+  "QuoteConnectionId": 227,
+  "CurrencyId": 804
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 241,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 587,
-    "Name": "Keeling, Glover and Kling",
-    "Description": "Diverse holistic interface",
-    "Currency": "cupiditate",
-    "CurrencyName": "Ondricka LLC",
-    "ValidFrom": "2017-11-03T13:28:23.5698866+01:00",
-    "ValidTo": "2004-02-22T13:28:23.5698866+01:00",
+    "PriceListId": 50,
+    "ERPPriceListKey": "maxime",
+    "QuoteConnectionId": 352,
+    "Name": "Kerluke, Schoen and Christiansen",
+    "Description": "Upgradable cohesive info-mediaries",
+    "Currency": "et",
+    "CurrencyName": "Mann Group",
+    "ValidFrom": "2004-08-16T04:02:02.2065837+02:00",
+    "ValidTo": "2023-06-16T04:02:02.2065837+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 828
       }
     }
   }

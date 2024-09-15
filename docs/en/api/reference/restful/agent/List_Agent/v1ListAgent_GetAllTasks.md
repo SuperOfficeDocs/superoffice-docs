@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,16 +101,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 321,
-    "Value": "unde",
+    "TaskListItemId": 556,
+    "Value": "atque",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "dolor",
+    "Tooltip": "minus",
     "Deleted": false,
-    "IntentId": 725,
-    "Rank": 846,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
+    "IntentId": 917,
+    "Rank": 172,
+    "IsDefaultAlldayEvent": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 363
       }
     }
   }

@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 597,
-    "Name": "Cronin Group",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 654,
+    "WebPanelId": 345,
+    "Name": "Bins LLC",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 678,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Schulist-Blick",
+    "WindowName": "Reichert-Wisozk",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 614,
+    "ProgId": "officia",
+    "Icon": 555,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

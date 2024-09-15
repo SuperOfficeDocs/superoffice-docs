@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ex"
+  "SearchString": "nostrum"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "418-167-4195",
-    "PersonCellPhone": "(632)120-9794 x53055",
-    "PersonPrivatePhone": "(721)045-1649 x29958",
-    "PersonFaxNumber": "575727",
-    "PersonPagerNumber": "1383461",
-    "PersonEmail": "rosalyn@torp.us",
-    "Id": 391,
-    "Name": "Bartell, Kuhn and Jenkins",
-    "Tooltip": "velit",
-    "UniqueId": "est",
+    "PersonDirectPhone": "753-767-0716 x48354",
+    "PersonCellPhone": "1-500-250-6921 x8850",
+    "PersonPrivatePhone": "184.913.7017",
+    "PersonFaxNumber": "1083508",
+    "PersonPagerNumber": "1553720",
+    "PersonEmail": "dock.torp@feest.com",
+    "Id": 500,
+    "Name": "Miller Inc and Sons",
+    "Tooltip": "expedita",
+    "UniqueId": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldLength": 357
       }
     }
   }

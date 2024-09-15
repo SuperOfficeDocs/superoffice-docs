@@ -611,6 +611,8 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
 |ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
 |ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
+|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency): The gross sales total| x |
+|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -639,12 +641,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/associate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/sale/associate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |ticket/sale/associate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
-|ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
 |ticket/sale/associate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |ticket/sale/associate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
 |ticket/sale/associate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
@@ -743,12 +745,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
 |ticket/project/LastActivity|date|Request - Date of last activity|  |
 |ticket/project/LastCompletedActivity|date|Request - Date of last completed activity|  |
-|ticket/project/LastDoByActivity|date|Request - Date of last non-completed activity|  |
-|ticket/project/NumberOfSales|int|Request - Number of sales|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/project/LastDoByActivity|date|Request - Date of last non-completed activity|  |
+|ticket/project/NumberOfSales|int|Request - Number of sales|  |
 |ticket/project/NumberOfSalesInPeriod|int|Request - Number of sales in last 90 days|  |
 |ticket/project/NumberOfNotCompletedSales|int|Request - Number of non-completed sales|  |
 |ticket/project/NumberOfNotCompletedSalesInPeriod|int|Request - Number of non-completed sales in last 90 days|  |
@@ -819,7 +821,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/person/associateType,ticket/person/personUpdatedDate,ticket/person/personAssociate/fullName,ticket/contact/url/URLDescription,ticket/sale/visibleFor
+GET /api/v1/archive/TicketMessage?$select=ticket/content,ticket/person/personAddress/line2,ticket/person/personUdef/SuperOffice:10,ticket/contact/contactNoMail,ticket/contact/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

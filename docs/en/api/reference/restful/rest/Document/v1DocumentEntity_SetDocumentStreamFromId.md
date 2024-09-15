@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 553,
+  "DocumentId": 20,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "alias",
-  "Header": "repudiandae",
-  "Name": "Kassulke Group",
-  "OurRef": "dolor",
-  "YourRef": "repudiandae",
-  "CreatedDate": "2005-09-22T13:28:31.6323769+02:00",
-  "UpdatedDate": "2002-07-29T13:28:31.6323769+02:00",
-  "Description": "Expanded neutral hierarchy",
+  "Attention": "et",
+  "Header": "enim",
+  "Name": "Heidenreich, Marquardt and West",
+  "OurRef": "quia",
+  "YourRef": "eligendi",
+  "CreatedDate": "2012-04-11T04:02:06.5879017+02:00",
+  "UpdatedDate": "2013-07-27T04:02:06.5879017+02:00",
+  "Description": "Mandatory actuating time-frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-05-14T13:28:31.6323769+02:00",
-  "ExternalRef": "sint",
+  "Date": "2021-09-20T04:02:06.5879017+02:00",
+  "ExternalRef": "optio",
   "Completed": "Completed",
-  "ActiveLinks": 749,
+  "ActiveLinks": 45,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rohan, Gusikowski and Rath",
-      "Id": 473,
-      "Description": "Grass-roots multi-state projection",
-      "ExtraInfo": "sit",
-      "LinkId": 367,
+      "EntityName": "Bergnaum LLC",
+      "Id": 500,
+      "Description": "Operative homogeneous solution",
+      "ExtraInfo": "voluptates",
+      "LinkId": 702,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 549
+          "FieldType": "System.Int32",
+          "FieldLength": 310
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 427,
-  "Snum": 250,
+  "SuggestedDocumentId": 488,
+  "Snum": 62,
   "UserDefinedFields": {
-    "SuperOffice:1": "1098887382",
-    "SuperOffice:2": "Ms. Trace Juanita Heller PhD"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Bernadette Justyn O'Kon PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quas"
+    "CustomFields1": "dolores",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "2011-11-10T13:28:31.6323769+01:00",
-  "PublishTo": "1997-06-04T13:28:31.6323769+02:00",
-  "PublishFrom": "2018-08-02T13:28:31.6323769+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-04-08T04:02:06.5879017+02:00",
+  "PublishTo": "2017-05-22T04:02:06.5879017+02:00",
+  "PublishFrom": "2020-04-23T04:02:06.5879017+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 518,
+      "VisibleId": 897,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 279
         }
       }
     },
     {
-      "VisibleId": 518,
+      "VisibleId": 897,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 279
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

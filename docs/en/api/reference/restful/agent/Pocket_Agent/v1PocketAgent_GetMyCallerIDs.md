@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "minima",
-  "MinDate": "2014-05-18T13:28:23.2730777+02:00",
-  "MaxDate": "2009-06-07T13:28:23.2730777+02:00"
+  "LastHash": "magnam",
+  "MinDate": "2020-07-22T04:02:02.1128434+02:00",
+  "MaxDate": "2007-12-04T04:02:02.1128434+01:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "quae",
+  "CallerIDHash": "impedit",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 113,
-      "PersonId": 656,
-      "PersonName": "Koepp, Hand and Bednar",
-      "Mrmrs": "excepturi",
-      "ContactId": 418,
-      "ContactName": "Wilkinson, Wolf and Shanahan"
+      "DialInPrefix": 645,
+      "PersonId": 981,
+      "PersonName": "Abshire, Marks and Harber",
+      "Mrmrs": "illum",
+      "ContactId": 403,
+      "ContactName": "Skiles, Doyle and Effertz"
     }
   ]
 }

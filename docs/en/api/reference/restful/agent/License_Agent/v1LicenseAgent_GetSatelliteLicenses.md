@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 557
+  "SatelliteId": 567
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goodwin-McClure",
-    "Description": "Progressive methodical adapter",
+    "Name": "Ritchie Group",
+    "Description": "Diverse well-modulated budgetary management",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 854,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 246,
-        "InUse": 259,
+        "Total": 364,
+        "Tooltip": "suscipit",
+        "CanAssign": true,
+        "Free": 814,
+        "InUse": 170,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 780,
-        "Name": "Moen LLC",
-        "Description": "Organized modular hardware",
-        "PrerequisiteModuleName": "Bayer-McCullough",
-        "SortOrder": 150,
-        "ExtraFlags": 238,
+        "ModuleLicenseId": 366,
+        "Name": "Waelchi, Hills and Hilll",
+        "Description": "Switchable disintermediate secured line",
+        "PrerequisiteModuleName": "Schulist LLC",
+        "SortOrder": 580,
+        "ExtraFlags": 514,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 123
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 528,
-        "Tooltip": "vero",
+        "Unrestricted": true,
+        "Total": 362,
+        "Tooltip": "praesentium",
         "CanAssign": true,
-        "Free": 859,
-        "InUse": 595,
+        "Free": 459,
+        "InUse": 588,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 488,
-        "Name": "Ebert-Cronin",
-        "Description": "Persistent coherent challenge",
-        "PrerequisiteModuleName": "Bogan, Brekke and Roberts",
-        "SortOrder": 196,
-        "ExtraFlags": 101,
+        "ModuleLicenseId": 795,
+        "Name": "Lynch Inc and Sons",
+        "Description": "Enhanced methodical challenge",
+        "PrerequisiteModuleName": "Hirthe-Schoen",
+        "SortOrder": 577,
+        "ExtraFlags": 430,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldType": "System.String",
+            "FieldLength": 14
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   },
   {
-    "Name": "Goodwin-McClure",
-    "Description": "Progressive methodical adapter",
+    "Name": "Ritchie Group",
+    "Description": "Diverse well-modulated budgetary management",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 854,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 246,
-        "InUse": 259,
+        "Total": 364,
+        "Tooltip": "suscipit",
+        "CanAssign": true,
+        "Free": 814,
+        "InUse": 170,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 780,
-        "Name": "Moen LLC",
-        "Description": "Organized modular hardware",
-        "PrerequisiteModuleName": "Bayer-McCullough",
-        "SortOrder": 150,
-        "ExtraFlags": 238,
+        "ModuleLicenseId": 366,
+        "Name": "Waelchi, Hills and Hilll",
+        "Description": "Switchable disintermediate secured line",
+        "PrerequisiteModuleName": "Schulist LLC",
+        "SortOrder": 580,
+        "ExtraFlags": 514,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 123
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 528,
-        "Tooltip": "vero",
+        "Unrestricted": true,
+        "Total": 362,
+        "Tooltip": "praesentium",
         "CanAssign": true,
-        "Free": 859,
-        "InUse": 595,
+        "Free": 459,
+        "InUse": 588,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 488,
-        "Name": "Ebert-Cronin",
-        "Description": "Persistent coherent challenge",
-        "PrerequisiteModuleName": "Bogan, Brekke and Roberts",
-        "SortOrder": 196,
-        "ExtraFlags": 101,
+        "ModuleLicenseId": 795,
+        "Name": "Lynch Inc and Sons",
+        "Description": "Enhanced methodical challenge",
+        "PrerequisiteModuleName": "Hirthe-Schoen",
+        "SortOrder": 577,
+        "ExtraFlags": 430,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldType": "System.String",
+            "FieldLength": 14
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

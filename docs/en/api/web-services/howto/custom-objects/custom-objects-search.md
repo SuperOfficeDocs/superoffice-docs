@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice APIs and database
 
 While the other sections show examples of how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section focuses on how to search for companies with existing relations connected to them.
 
-The first example uses the [Contact archive][8], while the other uses the [CustomObjectDynamicSelectionV2][11] and [Dynamic][6] archives to fetch information from extra tables.
+The first example uses the [Contact archive][8], while the other uses the `CustomObjectDynamicSelectionV2` and [Dynamic][6] archives to fetch information from extra tables.
 
 ## Get available fields for the Contact archive
 
@@ -117,4 +117,3 @@ Using the Dynamic archive is often the preferred approach compared to leveraging
 [7]: ../../../search/odata/dynamic-provider.md#right-join-category-to-contact
 [8]: ../../../archive-providers/reference/contact.md
 [9]: ../../../../automation/crmscript/searchengine/index.md
-[11]: ../../../archive-providers/reference/CustomObjectDynamicSelectionV2.md

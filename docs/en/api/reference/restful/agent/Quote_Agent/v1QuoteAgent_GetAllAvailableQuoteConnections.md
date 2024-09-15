@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 956,
-    "ERPName": "McKenzie-Abbott",
-    "DisplayName": "Hammes LLC",
-    "DisplayDescription": "De-engineered background extranet",
-    "Rank": 390,
-    "ConnectorName": "Hudson Group",
-    "ErpConnectionId": 734,
-    "ExtraData": "aperiam",
-    "IsAvailable": false,
+    "QuoteConnectionId": 586,
+    "ERPName": "Green, Runolfsdottir and Collier",
+    "DisplayName": "Erdman, King and Hand",
+    "DisplayDescription": "Sharable upward-trending extranet",
+    "Rank": 44,
+    "ConnectorName": "Anderson-Reinger",
+    "ErpConnectionId": 346,
+    "ExtraData": "eum",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 32,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 991,
-        "Name": "Rowe-Kovacek",
-        "Description": "Synchronised attitude-oriented standardization",
-        "Currency": "corrupti",
-        "CurrencyName": "Kunde LLC",
-        "ValidFrom": "1998-05-08T13:28:23.5542604+02:00",
-        "ValidTo": "2019-05-12T13:28:23.5542604+02:00",
+        "PriceListId": 436,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 343,
+        "Name": "Buckridge-Paucek",
+        "Description": "Persistent intangible budgetary management",
+        "Currency": "voluptatibus",
+        "CurrencyName": "Gibson, Rutherford and Jones",
+        "ValidFrom": "2003-06-09T04:02:02.2065837+02:00",
+        "ValidTo": "2000-02-27T04:02:02.2065837+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 228
+            "FieldLength": 328
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      664,
-      328
+      941,
+      840
     ],
     "AssociateAccessIds": [
-      954,
-      991
+      719,
+      465
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 197
       }
     }
   }

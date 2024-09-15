@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 262,
-  "StartTime": "2007-12-14T13:28:22.4604993+01:00",
-  "EndTime": "2010-03-08T13:28:22.4604993+01:00",
-  "Count": 778
+  "ContactId": 661,
+  "StartTime": "2005-12-17T04:02:01.5655043+01:00",
+  "EndTime": "2017-04-14T04:02:01.5655043+02:00",
+  "Count": 748
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 870,
-    "Attention": "dicta",
-    "Header": "tempora",
-    "Name": "Hayes-Mills",
-    "OurRef": "quia",
-    "YourRef": "excepturi",
-    "Description": "Mandatory multi-tasking knowledge base",
-    "DocumentTemplate": "commodi",
+    "DocumentId": 2,
+    "Attention": "asperiores",
+    "Header": "vel",
+    "Name": "Heaney Group",
+    "OurRef": "et",
+    "YourRef": "at",
+    "Description": "Total optimal encryption",
+    "DocumentTemplate": "ut",
     "IsPublished": false,
-    "PersonId": 971,
-    "PersonFullName": "Maxine Hane",
-    "AssociateFullName": "Julian Brekke",
-    "ContactId": 828,
-    "ContactName": "Green Group",
-    "ProjectId": 477,
-    "ProjectName": "Roob Group",
-    "AssociateId": 420,
-    "Snum": 148,
-    "SaleId": 720,
-    "SaleName": "Conroy, Goldner and Block",
+    "PersonId": 963,
+    "PersonFullName": "Dr. Maxime Alyson Sauer",
+    "AssociateFullName": "Mr. Thomas Stroman DVM",
+    "ContactId": 861,
+    "ContactName": "Luettgen Inc and Sons",
+    "ProjectId": 114,
+    "ProjectName": "Wyman, Sanford and Hartmann",
+    "AssociateId": 932,
+    "Snum": 324,
+    "SaleId": 416,
+    "SaleName": "Kassulke, Mosciski and Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldLength": 823
       }
     }
   }

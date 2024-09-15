@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Raynor, Cummings and Armstrong",
-    "ToolTip": "Aut ut ab.",
+    "Id": 901,
+    "Name": "Cummings, Feil and Tremblay",
+    "ToolTip": "Quia et eos molestiae voluptatem quidem alias.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "quod",
-    "ColorBlock": 180,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2019-06-21T13:28:33.1009254+02:00",
+    "Rank": 445,
+    "Type": "eius",
+    "ColorBlock": 378,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2004-11-14T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Sipes-Jerde",
-        "ToolTip": "Sed doloremque aut modi ut aut natus possimus.",
+        "Id": 78,
+        "Name": "Boyer, Grimes and Russel",
+        "ToolTip": "Molestiae eos qui quia est sit.",
         "Deleted": false,
-        "Rank": 135,
-        "Type": "pariatur",
-        "ColorBlock": 888,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2001-10-15T13:28:33.1009254+02:00",
+        "Rank": 243,
+        "Type": "possimus",
+        "ColorBlock": 955,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2004-07-08T04:02:07.3847052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Hailee Reilly"
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Devin Wilderman"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "nisi",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Liam Eichmann"
+    "FullName": "Marisol Reinger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Halvorson Inc and Sons",
-    "ToolTip": "Quia autem molestias qui optio.",
+    "Id": 196,
+    "Name": "Dicki-Friesen",
+    "ToolTip": "Reiciendis voluptatum quaerat commodi laboriosam.",
     "Deleted": false,
-    "Rank": 992,
-    "Type": "voluptatum",
-    "ColorBlock": 177,
-    "IconHint": "recusandae",
+    "Rank": 91,
+    "Type": "molestiae",
+    "ColorBlock": 414,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2018-12-30T13:28:33.1009254+01:00",
+    "LastChanged": "2003-01-24T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Funk Group",
-        "ToolTip": "Ut veritatis iure placeat aut ab.",
+        "Id": 715,
+        "Name": "Cassin-Carter",
+        "ToolTip": "Ut eaque facere voluptatum et.",
         "Deleted": true,
-        "Rank": 262,
-        "Type": "impedit",
-        "ColorBlock": 765,
-        "IconHint": "explicabo",
+        "Rank": 69,
+        "Type": "sed",
+        "ColorBlock": 133,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2003-04-19T13:28:33.1009254+02:00",
+        "LastChanged": "2021-12-26T04:02:07.3847052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Estel Blick",
+        "ExtraInfo": "fuga",
+        "StyleHint": "cumque",
+        "Hidden": true,
+        "FullName": "Prof. Herta Kamren Denesik V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldType": "System.String",
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "et",
+    "ExtraInfo": "magni",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Prof. Emmy Dock Mosciski",
+    "FullName": "Bernadette Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

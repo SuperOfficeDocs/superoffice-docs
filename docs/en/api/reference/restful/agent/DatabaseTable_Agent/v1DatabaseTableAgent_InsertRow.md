@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bernier-Hessel",
+  "TableName": "Wintheiser-Cummerata",
   "Values": {
-    "Values1": "molestiae",
-    "Values2": "possimus"
+    "Values1": "sit",
+    "Values2": "nesciunt"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-207
+6
 ```

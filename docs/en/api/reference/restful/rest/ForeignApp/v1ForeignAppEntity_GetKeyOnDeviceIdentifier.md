@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 18 Mar 1998 13:28:31 G3T
+Last-Modified: Tue, 18 Oct 2011 04:02:06 G10T
 
 {
-  "Key": "explicabo",
-  "Value": "repellendus",
-  "RecordId": 379,
-  "CreatedDate": "2020-09-23T13:28:31.6948645+02:00",
-  "UpdatedDate": "1998-03-18T13:28:31.6948645+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "mollitia",
-  "TableName": "Gottlieb, Macejkovic and Hauck",
+  "Key": "dignissimos",
+  "Value": "molestias",
+  "RecordId": 571,
+  "CreatedDate": "2017-04-24T04:02:06.6191478+02:00",
+  "UpdatedDate": "2011-10-18T04:02:06.6191478+02:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "voluptatum",
+  "TableName": "O'Reilly, Bosco and Haag",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

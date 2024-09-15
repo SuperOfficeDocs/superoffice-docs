@@ -2,10 +2,10 @@
 uid: table-CategoryHeadingLink
 title: CategoryHeadingLink table
 description: Heading link table for Category, for MDO headers
-generated: true
+so.generated: true
 keywords: database table CategoryHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CategoryHeadingLink Table (66)

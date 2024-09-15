@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 166,
-  "Name": "Bradtke-Satterfield",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 31,
-  "UdListDefinitionId": 957
+  "HeadingId": 946,
+  "Name": "Beier-Hansen",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 355,
+  "UdListDefinitionId": 130
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 237,
-  "Name": "Heller LLC",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 577,
-  "UdListDefinitionId": 825,
+  "HeadingId": 437,
+  "Name": "Huels LLC",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 299,
+  "UdListDefinitionId": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

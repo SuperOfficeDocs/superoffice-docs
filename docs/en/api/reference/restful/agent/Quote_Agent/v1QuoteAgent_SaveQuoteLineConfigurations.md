@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 509,
-      "FieldName": "King Group",
-      "Label": "veniam",
-      "Tooltip": "officiis",
-      "Editable": false,
-      "InUse": false,
-      "Mandatory": false,
-      "Rank": 653,
-      "RestrictEdit": true
+      "QuoteLineConfigurationId": 908,
+      "FieldName": "Ryan Inc and Sons",
+      "Label": "veritatis",
+      "Tooltip": "sapiente",
+      "Editable": true,
+      "InUse": true,
+      "Mandatory": true,
+      "Rank": 523,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 431,
-    "FieldName": "Hayes-McLaughlin",
-    "Label": "magni",
-    "Tooltip": "soluta",
+    "QuoteLineConfigurationId": 294,
+    "FieldName": "Bergstrom Group",
+    "Label": "voluptatem",
+    "Tooltip": "eaque",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": true,
-    "Rank": 746,
+    "InUse": false,
+    "Mandatory": false,
+    "Rank": 795,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

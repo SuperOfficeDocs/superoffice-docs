@@ -78,7 +78,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Inverse homogeneous project"
+  "Description": "Decentralized uniform collaboration"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-556
+976
 ```

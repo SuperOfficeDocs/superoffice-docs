@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 794,
-  "BlobSize": 878,
-  "Description": "Horizontal client-driven implementation",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
+  "BlobId": 563,
+  "BlobSize": 550,
+  "Description": "Organic 6th generation moderator",
+  "ExtraInfo": "veniam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 172,
-  "CreatedDate": "1999-08-21T13:28:21.8668811+02:00",
-  "UpdatedDate": "2021-09-19T13:28:21.8668811+02:00",
+  "MimeType": "eum",
+  "OriginalSize": 677,
+  "CreatedDate": "2018-06-22T04:02:01.2374146+02:00",
+  "UpdatedDate": "2022-05-31T04:02:01.2374146+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cupiditate"
+  "ConceptualType": "officiis"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 825,
-  "BlobSize": 519,
-  "Description": "Future-proofed intangible encryption",
-  "ExtraInfo": "iure",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "fugiat",
-  "OriginalSize": 176,
-  "CreatedDate": "2021-04-21T13:28:21.8668811+02:00",
-  "UpdatedDate": "1998-04-11T13:28:21.8668811+02:00",
+  "BlobId": 38,
+  "BlobSize": 87,
+  "Description": "Expanded fresh-thinking encoding",
+  "ExtraInfo": "soluta",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "quis",
+  "OriginalSize": 938,
+  "CreatedDate": "2001-11-04T04:02:01.2374146+01:00",
+  "UpdatedDate": "2015-03-09T04:02:01.2374146+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 135
     }
   }
 }

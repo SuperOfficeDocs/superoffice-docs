@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 899,
-      "PrefDescId": 17,
-      "PrefValue": "quo",
-      "PrefShowValue": "et",
-      "Description": "Reverse-engineered fault-tolerant infrastructure",
+      "PrefDescLineId": 399,
+      "PrefDescId": 832,
+      "PrefValue": "sed",
+      "PrefShowValue": "nostrum",
+      "Description": "Open-source zero administration workforce",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 899,
-      "PrefDescId": 17,
-      "PrefValue": "quo",
-      "PrefShowValue": "et",
-      "Description": "Reverse-engineered fault-tolerant infrastructure",
+      "PrefDescLineId": 399,
+      "PrefDescId": 832,
+      "PrefValue": "sed",
+      "PrefShowValue": "nostrum",
+      "Description": "Open-source zero administration workforce",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 146,
-    "PrefDescId": 713,
-    "PrefValue": "maxime",
-    "PrefShowValue": "qui",
-    "Description": "Multi-tiered needs-based help-desk",
-    "IsBuiltin": true,
+    "PrefDescLineId": 183,
+    "PrefDescId": 854,
+    "PrefValue": "dolorum",
+    "PrefShowValue": "et",
+    "Description": "Business-focused uniform project",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldLength": 314
       }
     }
   }

@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 544,
-    "AssociateName": "Sipes, Kessler and Ratke",
-    "AssociateId": 246,
+    "AccountId": 720,
+    "AssociateName": "Roob LLC",
+    "AssociateId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   },
   {
-    "AccountId": 544,
-    "AssociateName": "Sipes, Kessler and Ratke",
-    "AssociateId": 246,
+    "AccountId": 720,
+    "AssociateName": "Roob LLC",
+    "AssociateId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

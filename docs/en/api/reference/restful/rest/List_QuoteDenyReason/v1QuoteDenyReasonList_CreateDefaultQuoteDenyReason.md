@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Bashirian, Kassulke and Weber",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "UdListDefinitionId": 508,
-  "Rank": 131,
+  "Id": 732,
+  "Name": "Hilll LLC",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 301,
+  "Rank": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

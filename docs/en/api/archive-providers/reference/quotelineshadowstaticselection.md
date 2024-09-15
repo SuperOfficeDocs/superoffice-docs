@@ -177,6 +177,8 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/person/personAssociateFullName|associate|Sale - Our contact - Full name: Displays our contact| x |
 |alternative/version/quote/sale/person/personCategory|listAny|Sale - Category| x |
 |alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
-|alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
-|alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
+|alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
@@ -327,12 +329,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
-|alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
-|alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
+|alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
 |alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
@@ -431,12 +433,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/contact/searchPhone/formattedNumber|string|Sale - Searchphone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/searchPhone/description|string|Sale - Searchphone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/email/emailProtocol|string|Sale - Protocol: E-mail protocol, such as SMTP| x |
-|alternative/version/quote/sale/contact/email/emailAddress|string|Sale - E-mail| x |
-|alternative/version/quote/sale/contact/email/emailDescription|string|Sale - Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/email/emailAddress|string|Sale - E-mail| x |
+|alternative/version/quote/sale/contact/email/emailDescription|string|Sale - Description| x |
 |alternative/version/quote/sale/contact/email/emailId|int|Sale - ID| x |
 |alternative/version/quote/sale/contact/email/emailLastSent|datetime|Sale - Last sent: The date and time an e-mail was last sent to this address| x |
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
@@ -535,12 +537,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_datetime|datetime|Sale - Extra DateTime: Custom Date Time field. No default value. External| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_time| *None* |Sale - Extra time: Custom time field.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_boolean|bool|Sale - Extra boolean: Custom boolean field.| x |
-|alternative/version/quote/sale/contact/contactExtra/x\_contact\_timespan|timeSpan|Sale - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|alternative/version/quote/sale/contact/contactExtra/x\_contact\_shorttext|string|Sale - Extra short text: Custom short text field. Keep HTML tags.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_timespan|timeSpan|Sale - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_shorttext|string|Sale - Extra short text: Custom short text field. Keep HTML tags.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Sale - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
@@ -639,12 +641,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
-|alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
+|alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedTo|date|Sale - Project - To date: End date for publishing. The record will not be visible after this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedBy| *None* |Sale - Project - Published by: Published by|  |
 |alternative/version/quote/sale/project/projectEvent/isExternalEvent|bool|Sale - Project - Event: Is this an external event| x |
@@ -743,12 +745,12 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/connection/erpConnection/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/erpConnection/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/erpConnection/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/connection/erpConnection/connector/id|stringorPK|ERP connection - ERP connections - Connection ID: Database key for an ERP connection| x |
-|alternative/version/quote/connection/erpConnection/connector/url|string|ERP connection - ERP connections - URL of Sync Connector: The URL to the location where the Sync Connector is installed| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/erpConnection/connector/id|stringorPK|ERP connection - ERP connections - Connection ID: Database key for an ERP connection| x |
+|alternative/version/quote/connection/erpConnection/connector/url|string|ERP connection - ERP connections - URL of Sync Connector: The URL to the location where the Sync Connector is installed| x |
 |alternative/version/quote/connection/erpConnection/connector/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system| x |
 |alternative/version/quote/connection/erpConnection/connector/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/erpConnection/connector/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
@@ -758,7 +760,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/quote/sale/saleTypeCategory,alternative/version/quote/sale/person/rank,alternative/version/quote/sale/person/personUdef/SuperOffice:10,alternative/version/quote/sale/contact/number
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=PriceUnitSubscriptionUnit,vatInfo,alternative/version/approvalRegisteredBy,alternative/version/quote/sale/person/personBusiness,alternative/version/quote/sale/person/personAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

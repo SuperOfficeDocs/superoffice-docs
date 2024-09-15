@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hirthe Inc and Sons"
+  "ApplicationName": "Wyman-Okuneva"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 492,
-    "Name": "Mohr LLC",
-    "CreatedDate": "2012-07-03T13:28:22.8510314+02:00",
-    "UpdatedDate": "2009-09-12T13:28:22.8510314+02:00",
-    "AssociateFullName": "Simeon Turcotte",
-    "CreatedBy": "officia",
-    "UpdatedBy": "et",
-    "DeviceIdentifier": "voluptas",
-    "ForeignAppId": 601,
+    "ForeignDeviceId": 439,
+    "Name": "Runte Inc and Sons",
+    "CreatedDate": "2019-08-29T04:02:01.7888547+02:00",
+    "UpdatedDate": "1999-01-14T04:02:01.7888547+01:00",
+    "AssociateFullName": "Bobby Mertz",
+    "CreatedBy": "nesciunt",
+    "UpdatedBy": "reiciendis",
+    "DeviceIdentifier": "natus",
+    "ForeignAppId": 339,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

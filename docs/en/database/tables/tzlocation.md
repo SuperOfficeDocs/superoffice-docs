@@ -2,10 +2,10 @@
 uid: table-TZLocation
 title: TZLocation table
 description: Time zone location
-generated: true
+so.generated: true
 keywords: database table TZLocation
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TZLocation Table (245)

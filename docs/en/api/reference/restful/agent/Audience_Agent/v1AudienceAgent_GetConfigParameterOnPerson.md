@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schiller, Weissnat and Torphy",
-  "PersonId": 131
+  "ParameterName": "Eichmann Group",
+  "PersonId": 954
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 588,
-  "Name": "Cole LLC",
-  "Value": "incidunt",
-  "CreatedDate": "2018-02-09T13:28:21.8356378+01:00",
-  "UpdatedDate": "2015-10-26T13:28:21.8356378+01:00",
-  "CreatedBy": "magnam",
-  "UpdatedBy": "totam",
+  "AudienceLayoutId": 1000,
+  "Name": "Berge-Collins",
+  "Value": "odio",
+  "CreatedDate": "2000-05-22T04:02:01.221786+02:00",
+  "UpdatedDate": "2004-10-21T04:02:01.221786+02:00",
+  "CreatedBy": "aut",
+  "UpdatedBy": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 493,
-  "StartTime": "2012-06-20T13:28:21.4292674+02:00",
-  "EndTime": "2015-11-07T13:28:21.4292674+01:00",
-  "Count": 276,
+  "ContactId": 552,
+  "StartTime": "2023-04-10T04:02:00.986941+02:00",
+  "EndTime": "2003-12-01T04:02:00.986941+01:00",
+  "Count": 71,
   "TaskIds": [
-    855,
-    939
+    503,
+    497
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 556,
-    "StartDate": "2011-03-08T13:28:21.4448873+01:00",
-    "EndDate": "2001-01-27T13:28:21.4448873+01:00",
+    "AppointmentId": 276,
+    "StartDate": "2004-11-05T04:02:00.986941+01:00",
+    "EndDate": "2004-08-24T04:02:00.986941+02:00",
     "Type": "BookingForChecklist",
-    "Task": "debitis",
-    "AssociateFullName": "Oscar VonRueden",
-    "ContactName": "Rolfson, Barrows and Hauck",
-    "Description": "Robust multimedia moderator",
-    "PersonFullName": "Jeffrey Hahn III",
-    "PersonId": 521,
-    "ContactId": 913,
-    "ProjectId": 452,
-    "ProjectName": "Murazik Inc and Sons",
+    "Task": "quis",
+    "AssociateFullName": "Vilma Jacobi",
+    "ContactName": "Kuvalis, Stoltenberg and Huel",
+    "Description": "Sharable fault-tolerant system engine",
+    "PersonFullName": "Rahsaan Dare",
+    "PersonId": 621,
+    "ContactId": 474,
+    "ProjectId": 478,
+    "ProjectName": "Goldner, Hyatt and Mueller",
     "IsPublished": false,
-    "AssociateId": 590,
-    "ColorIndex": 432,
+    "AssociateId": 458,
+    "ColorIndex": 302,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 643,
-    "PriorityName": "McClure LLC",
+    "PriorityId": 829,
+    "PriorityName": "Sporer, Eichmann and Mann",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2003-06-03T13:28:21.4448873+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2013-11-09T04:02:01.0025647+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-03-06T13:28:21.4448873+01:00",
-    "RecurringEndDate": "2010-10-28T13:28:21.4448873+02:00",
-    "MotherId": 252,
-    "AssignedBy": 221,
-    "AssignedByFullName": "Prof. Sylvester Koelpin",
+    "RecurringStartDate": "2018-06-23T04:02:01.0025647+02:00",
+    "RecurringEndDate": "2011-03-06T04:02:01.0025647+01:00",
+    "MotherId": 977,
+    "AssignedBy": 472,
+    "AssignedByFullName": "Ada Fahey",
     "RejectReason": "",
-    "Location": "sint",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 450,
-    "SaleName": "Okuneva, Beahan and Jerde",
-    "AssociateName": "Sporer-Stroman",
-    "CreatedDate": "2000-05-08T13:28:21.4448873+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Ms. Jesse Cartwright",
-    "CreatedByAssociateId": 184,
+    "Location": "quod",
+    "AlarmLeadTime": "odit",
+    "SaleId": 967,
+    "SaleName": "Hand Group",
+    "AssociateName": "Schmeler-Erdman",
+    "CreatedDate": "2008-11-17T04:02:01.0025647+01:00",
+    "CreatedBy": "neque",
+    "CreatedByFullName": "Mr. Lon Lance Wuckert Sr.",
+    "CreatedByAssociateId": 176,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 152,
-    "Title": "aut",
-    "Agenda": "est",
-    "InternalNotes": "eum",
+    "PreferredTZLocation": 554,
+    "Title": "nam",
+    "Agenda": "corporis",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

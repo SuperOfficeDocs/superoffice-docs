@@ -101,7 +101,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -111,52 +111,52 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "adipisci",
-  "PersonId": 525,
-  "Mrmrs": "voluptas",
-  "Firstname": "Jamir",
-  "Lastname": "Breitenberg",
-  "MiddleName": "Bartoletti Group",
-  "Title": "veritatis",
-  "Description": "Exclusive real-time structure",
-  "Email": "kathleen@hammes.us",
-  "FullName": "Charlie Emanuel Hettinger III",
-  "DirectPhone": "184-296-6319 x512",
-  "FormalName": "Mayert LLC",
-  "CountryId": 467,
-  "ContactId": 212,
-  "ContactName": "Hodkiewicz Inc and Sons",
-  "Retired": 904,
-  "Rank": 42,
-  "ActiveInterests": 303,
+  "Position": "aperiam",
+  "PersonId": 664,
+  "Mrmrs": "consequatur",
+  "Firstname": "Wilburn",
+  "Lastname": "Little",
+  "MiddleName": "Schneider Inc and Sons",
+  "Title": "reprehenderit",
+  "Description": "Synergized heuristic monitoring",
+  "Email": "nils@lakin.ca",
+  "FullName": "Immanuel Robel",
+  "DirectPhone": "416-551-2278 x00994",
+  "FormalName": "Veum Group",
+  "CountryId": 9,
+  "ContactId": 4,
+  "ContactName": "Marquardt, Gulgowski and Kuhn",
+  "Retired": 332,
+  "Rank": 860,
+  "ActiveInterests": 289,
   "ContactDepartment": "",
-  "ContactCountryId": 320,
-  "ContactOrgNr": "1205324",
-  "FaxPhone": "918-294-2611",
-  "MobilePhone": "1-951-273-3600 x094",
-  "ContactPhone": "1-197-065-5066 x9101",
-  "AssociateName": "Jewess LLC",
-  "AssociateId": 543,
+  "ContactCountryId": 378,
+  "ContactOrgNr": "1608746",
+  "FaxPhone": "161.510.0120 x947",
+  "MobilePhone": "476.776.9664 x8849",
+  "ContactPhone": "556-094-0305 x9655",
+  "AssociateName": "Konopelski Group",
+  "AssociateId": 95,
   "UsePersonAddress": false,
-  "ContactFax": "officia",
-  "Kanafname": "quia",
-  "Kanalname": "odit",
-  "Post1": "officia",
-  "Post2": "nam",
-  "Post3": "optio",
-  "EmailName": "david.kunze@swaniawski.ca",
-  "ContactFullName": "Augustine Runolfsson",
-  "ActiveErpLinks": 818,
-  "TicketPriorityId": 290,
-  "SupportLanguageId": 634,
-  "SupportAssociateId": 847,
+  "ContactFax": "dolore",
+  "Kanafname": "cum",
+  "Kanalname": "dolorem",
+  "Post1": "a",
+  "Post2": "est",
+  "Post3": "aspernatur",
+  "EmailName": "katrine.huel@halvorson.info",
+  "ContactFullName": "Dr. Diamond Santos Bednar",
+  "ActiveErpLinks": 511,
+  "TicketPriorityId": 83,
+  "SupportLanguageId": 398,
+  "SupportAssociateId": 991,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   }
 }

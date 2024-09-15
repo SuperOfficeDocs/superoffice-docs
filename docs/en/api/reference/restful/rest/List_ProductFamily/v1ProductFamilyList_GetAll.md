@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Keebler-Baumbach",
-    "Tooltip": "deleniti",
+    "Id": 869,
+    "Name": "Leannon, Hayes and Schuster",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 409,
-    "Rank": 683,
+    "UdListDefinitionId": 691,
+    "Rank": 119,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldType": "System.Int32",
+        "FieldLength": 210
       }
     }
   }

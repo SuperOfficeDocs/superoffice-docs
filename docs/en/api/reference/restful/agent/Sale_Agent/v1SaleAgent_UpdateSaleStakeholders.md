@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Murazik, Heller and Dare",
-      "Comment": "qui",
-      "StakeholderRoleId": 971,
-      "CountryId": 338,
-      "PersonId": 528,
-      "EmailDescription": "diamond_corkery@gleason.co.uk",
-      "EmailId": 31,
-      "EmailAddress": "devante@treutel.co.uk",
-      "PhoneId": 954,
-      "ContactName": "Windler LLC",
-      "ContactId": 742,
-      "SaleId": 590,
-      "Mrmrs": "est",
-      "Firstname": "Hillary",
-      "MiddleName": "Leannon-Bruen",
-      "Lastname": "Okuneva",
-      "SaleStakeholderId": 214,
-      "Rank": 483,
-      "Phone": "162-246-0640"
+      "StakeholderRoleName": "Sipes LLC",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 600,
+      "CountryId": 908,
+      "PersonId": 2,
+      "EmailDescription": "sally@hintzlowe.com",
+      "EmailId": 277,
+      "EmailAddress": "jacinto_goyette@johnsmuller.name",
+      "PhoneId": 340,
+      "ContactName": "Kuvalis, Casper and Shields",
+      "ContactId": 236,
+      "SaleId": 856,
+      "Mrmrs": "omnis",
+      "Firstname": "Claudia",
+      "MiddleName": "Beatty-Hodkiewicz",
+      "Lastname": "Smith",
+      "SaleStakeholderId": 767,
+      "Rank": 379,
+      "Phone": "(846)224-9516"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Fay-Casper",
-    "Comment": "sapiente",
-    "StakeholderRoleId": 128,
-    "CountryId": 910,
-    "PersonId": 519,
-    "EmailDescription": "jordy_stanton@connelly.us",
-    "EmailId": 703,
-    "EmailAddress": "elise_cummerata@cummerataosinski.name",
-    "PhoneId": 721,
-    "ContactName": "Purdy Inc and Sons",
-    "ContactId": 685,
-    "SaleId": 811,
-    "Mrmrs": "nemo",
-    "Firstname": "Maxwell",
-    "MiddleName": "Thompson LLC",
-    "Lastname": "Gislason",
-    "SaleStakeholderId": 211,
-    "Rank": 657,
-    "Phone": "1-012-057-9510",
+    "StakeholderRoleName": "Keebler-Langosh",
+    "Comment": "sit",
+    "StakeholderRoleId": 646,
+    "CountryId": 471,
+    "PersonId": 378,
+    "EmailDescription": "ruthie@cronin.uk",
+    "EmailId": 158,
+    "EmailAddress": "elmore@rath.us",
+    "PhoneId": 349,
+    "ContactName": "Orn-Dietrich",
+    "ContactId": 154,
+    "SaleId": 612,
+    "Mrmrs": "autem",
+    "Firstname": "Arden",
+    "MiddleName": "Harris-Anderson",
+    "Lastname": "Dietrich",
+    "SaleStakeholderId": 806,
+    "Rank": 378,
+    "Phone": "1-341-570-3111",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldLength": 759
       }
     }
   }

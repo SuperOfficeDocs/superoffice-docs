@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 57,
-  "Currency": "sed"
+  "QuoteConnectionId": 713,
+  "Currency": "quia"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 450,
-    "ERPPriceListKey": "recusandae",
-    "QuoteConnectionId": 479,
-    "Name": "Walsh-Champlin",
-    "Description": "Front-line 6th generation moderator",
-    "Currency": "est",
-    "CurrencyName": "Ullrich LLC",
-    "ValidFrom": "2011-06-29T13:28:23.5698866+02:00",
-    "ValidTo": "2023-04-29T13:28:23.5698866+02:00",
+    "PriceListId": 156,
+    "ERPPriceListKey": "doloremque",
+    "QuoteConnectionId": 380,
+    "Name": "Batz LLC",
+    "Description": "Managed heuristic utilisation",
+    "Currency": "earum",
+    "CurrencyName": "Schmitt LLC",
+    "ValidFrom": "2017-03-10T04:02:02.2065837+01:00",
+    "ValidTo": "2019-01-17T04:02:02.2065837+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 463
       }
     }
   }

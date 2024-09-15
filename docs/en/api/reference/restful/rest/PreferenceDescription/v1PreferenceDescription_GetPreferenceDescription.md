@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 630,
-  "Section": "qui",
-  "Key": "officiis",
-  "Name": "Kuphal-Hilpert",
+  "PrefDescId": 591,
+  "Section": "aut",
+  "Key": "tempore",
+  "Name": "Abshire LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless stable alliance",
+  "Description": "Robust 24/7 portal",
   "IsBuiltin": false,
-  "TableName": "McLaughlin Inc and Sons",
-  "UserDefinedListId": 499,
-  "Rank": 284,
-  "SubGroup": "quas",
-  "MinLevel": 89,
-  "MaxValue": 449,
-  "MinValue": 223,
+  "TableName": "Schmidt, Cronin and Williamson",
+  "UserDefinedListId": 968,
+  "Rank": 106,
+  "SubGroup": "sunt",
+  "MinLevel": 220,
+  "MaxValue": 796,
+  "MinValue": 284,
   "RequiredLicense": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 52
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

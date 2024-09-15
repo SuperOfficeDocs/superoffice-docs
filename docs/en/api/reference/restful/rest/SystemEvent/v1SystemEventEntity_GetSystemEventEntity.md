@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 466,
+  "SystemEventId": 785,
   "Scope": "Database",
-  "Eta": "1999-03-07T13:28:32.2573673+01:00",
-  "Eventkey": "omnis",
-  "Eventmess": "qui",
-  "ExtraInfo": 860,
-  "Owner": 706,
-  "UpdatedCount": 635,
-  "Registered": "2009-01-20T13:28:32.2573673+01:00",
+  "Eta": "2009-09-07T04:02:06.837875+02:00",
+  "Eventkey": "nobis",
+  "Eventmess": "itaque",
+  "ExtraInfo": 296,
+  "Owner": 11,
+  "UpdatedCount": 632,
+  "Registered": "2008-05-19T04:02:06.837875+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 703
     }
   },
   "_Links": {

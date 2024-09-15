@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 733,
+  "QuoteAlternativeId": 503,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 150,
-  "ERPQuoteLineKey": "molestiae",
-  "QuoteAlternativeId": 141,
-  "ERPProductKey": "quo",
+  "QuoteLineId": 127,
+  "ERPQuoteLineKey": "ullam",
+  "QuoteAlternativeId": 809,
+  "ERPProductKey": "consequuntur",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11122.565999999999,
-  "DeliveredQuantity": 17017.62,
-  "Rank": 264,
-  "Name": "Carter Inc and Sons",
-  "Description": "Synergized multi-tasking definition",
-  "Code": "et",
-  "QuantityUnit": "natus",
-  "PriceUnit": "nesciunt",
-  "ItemNumber": "1320902",
+  "Quantity": 18847.876,
+  "DeliveredQuantity": 12269.609999999999,
+  "Rank": 44,
+  "Name": "Balistreri, Breitenberg and Johnston",
+  "Description": "Realigned executive strategy",
+  "Code": "perferendis",
+  "QuantityUnit": "recusandae",
+  "PriceUnit": "aliquid",
+  "ItemNumber": "698919",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "suscipit",
-  "Supplier": "culpa",
-  "SupplierCode": "nihil",
-  "Thumbnail": "inventore",
-  "VATInfo": "iure",
-  "VAT": 7023.294,
-  "UnitCost": 5813.57,
-  "UnitMinimumPrice": 10777.826,
-  "UnitListPrice": 13200.408,
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "et",
+  "Supplier": "est",
+  "SupplierCode": "aperiam",
+  "Thumbnail": "voluptate",
+  "VATInfo": "delectus",
+  "VAT": 19170.678,
+  "UnitCost": 13187.872,
+  "UnitMinimumPrice": 14297.307999999999,
+  "UnitListPrice": 29961.039999999997,
   "ExtraInfo": [
     {
-      "Name": "Baumbach LLC",
-      "Value": "similique",
+      "Name": "Hayes, Vandervort and Greenfelder",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     },
     {
-      "Name": "Baumbach LLC",
-      "Value": "similique",
+      "Name": "Hayes, Vandervort and Greenfelder",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 722
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
+  "RawExtraInfo": "deleniti",
   "IsSubscription": false,
-  "SubscriptionUnit": "debitis",
-  "SubscriptionQuantity": 9743.606,
-  "SubscriptionStart": "2010-10-08T13:28:23.5855044+02:00",
-  "ERPDiscountPercent": 13040.573999999999,
-  "ERPDiscountAmount": 26168.899999999998,
-  "DiscountPercent": 23172.796,
-  "DiscountAmount": 28832.8,
+  "SubscriptionUnit": "placeat",
+  "SubscriptionQuantity": 25748.944,
+  "SubscriptionStart": "1999-06-28T04:02:02.2222071+02:00",
+  "ERPDiscountPercent": 26209.642,
+  "ERPDiscountAmount": 8085.7199999999993,
+  "DiscountPercent": 13538.88,
+  "DiscountAmount": 962.13799999999992,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4857.7,
-  "EarningAmount": 18512.538,
-  "SubTotal": 20599.782,
-  "TotalPrice": 18954.432,
-  "Rights": "dolorem",
-  "Rule": "fugiat",
-  "ExtraField1": "quibusdam",
-  "ExtraField2": "esse",
-  "ExtraField3": "accusantium",
-  "ExtraField4": "saepe",
-  "ExtraField5": "ducimus",
+  "EarningPercent": 11752.5,
+  "EarningAmount": 20816.028,
+  "SubTotal": 3735.728,
+  "TotalPrice": 6336.9479999999994,
+  "Rights": "repudiandae",
+  "Rule": "a",
+  "ExtraField1": "dolore",
+  "ExtraField2": "autem",
+  "ExtraField3": "in",
+  "ExtraField4": "exercitationem",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldLength": 845
     }
   }
 }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 810,
-  "LanguageId": 12
+  "ReplyTemplateId": 829,
+  "LanguageId": 103
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 331,
-  "PlainParsed": "et",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 892,
+  "PlainParsed": "est",
+  "HtmlParsed": "nihil",
   "Attachments": [
     {
-      "AttachmentId": 500,
-      "Name": "Waelchi-Bernhard",
-      "ContentType": "quam",
-      "AttSize": 715,
+      "AttachmentId": 916,
+      "Name": "Okuneva-Krajcik",
+      "ContentType": "veniam",
+      "AttSize": 211,
       "InlineImage": false,
-      "ContentId": "commodi",
-      "AuthKey": "quis",
-      "IsSafeFileExtension": true,
+      "ContentId": "natus",
+      "AuthKey": "impedit",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldLength": 69
         }
       }
     }
   ],
-  "Subject": "laudantium",
+  "Subject": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldType": "System.String",
+      "FieldLength": 473
     }
   }
 }

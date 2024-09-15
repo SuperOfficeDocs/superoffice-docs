@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Aufderhar-Huel",
-    "Tooltip": "et",
+    "Id": 885,
+    "Name": "Goyette, Volkman and Ullrich",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 171,
+    "Rank": 965,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "iusto",
+    "ListType": "ut",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

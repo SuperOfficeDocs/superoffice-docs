@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,22 +113,22 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 387,
-  "Name": "Greenholt-Ryan",
-  "Description": "Synergized global local area network",
-  "WelcomeMessage": "eaque",
+  "ChatTopicId": 786,
+  "Name": "Feeney, Gutmann and Bahringer",
+  "Description": "Right-sized impactful access",
+  "WelcomeMessage": "sunt",
   "Language": null,
-  "LastAccept": "2009-03-29T13:28:31.3668129+02:00",
-  "SecondsPrAccept": 688,
-  "AlertRecipient": "tempora",
+  "LastAccept": "2009-11-10T04:02:06.3530464+01:00",
+  "SecondsPrAccept": 760,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "repellendus",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "facere",
-  "WarnNewChatMinutes": 235,
-  "WarnManagerNewChatMinutes": 776,
-  "TicketEnabled": true,
+  "BadgeHeader": "dolorem",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "occaecati",
+  "WarnNewChatMinutes": 332,
+  "WarnManagerNewChatMinutes": 438,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -136,20 +136,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 318,
-  "WarnManagerChatMessageMinutes": 253,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 215,
-  "OfflineFormQueueLength": 668,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 265,
+  "WarnManagerChatMessageMinutes": 732,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 709,
+  "OfflineFormQueueLength": 763,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "odio",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   },
   "_Links": {

@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=officia
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=quae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Reichel LLC",
-    "ToolTip": "Molestiae provident expedita eveniet quod.",
-    "Deleted": true,
-    "Rank": 260,
-    "Type": "quos",
+    "Id": 745,
+    "Name": "Feest, Rolfson and Hyatt",
+    "ToolTip": "Distinctio architecto non porro dolor.",
+    "Deleted": false,
+    "Rank": 872,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Bayer, O'Reilly and Klein",
-        "ToolTip": "Provident neque.",
+        "Id": 810,
+        "Name": "Deckow-Bradtke",
+        "ToolTip": "Repudiandae repellat repudiandae.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "iste",
+        "Rank": 780,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 962,
-        "ExtraInfo": "ea",
-        "StyleHint": "iste",
-        "FullName": "Maia Steuber Sr.",
+        "IconHint": "iure",
+        "ColorBlock": 833,
+        "ExtraInfo": "sint",
+        "StyleHint": "eos",
+        "FullName": "Miss Sammy Predovic DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 847
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 366,
-    "ExtraInfo": "et",
-    "StyleHint": "dolorum",
-    "FullName": "Eusebio Walsh",
+    "IconHint": "sed",
+    "ColorBlock": 958,
+    "ExtraInfo": "enim",
+    "StyleHint": "doloribus",
+    "FullName": "Dr. Lydia Nicolas V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

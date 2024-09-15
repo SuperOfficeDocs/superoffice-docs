@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Lynch, Treutel and Dickinson",
-    "ToolTip": "Blanditiis enim.",
-    "Deleted": false,
-    "Rank": 835,
-    "Type": "harum",
-    "ColorBlock": 509,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "1998-11-02T13:28:33.0540628+01:00",
+    "Id": 969,
+    "Name": "Oberbrunner, Ankunding and Keeling",
+    "ToolTip": "Est voluptates.",
+    "Deleted": true,
+    "Rank": 662,
+    "Type": "non",
+    "ColorBlock": 696,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2006-03-08T04:02:07.3690701+01:00",
     "ChildItems": [
       {
-        "Id": 661,
-        "Name": "Dickinson Inc and Sons",
-        "ToolTip": "Accusamus sapiente.",
+        "Id": 50,
+        "Name": "Terry-Davis",
+        "ToolTip": "Accusantium ex molestiae odio eveniet et.",
         "Deleted": true,
-        "Rank": 119,
-        "Type": "esse",
-        "ColorBlock": 337,
-        "IconHint": "expedita",
+        "Rank": 297,
+        "Type": "dolorem",
+        "ColorBlock": 692,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2012-02-21T13:28:33.0540628+01:00",
+        "LastChanged": "2009-12-05T04:02:07.3690701+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quidem",
+        "ExtraInfo": "enim",
+        "StyleHint": "praesentium",
         "Hidden": false,
-        "FullName": "Terrence Kovacek"
+        "FullName": "Caitlyn Jast"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "qui",
+    "ExtraInfo": "ab",
+    "StyleHint": "voluptatibus",
     "Hidden": true,
-    "FullName": "Hollis Barrows"
+    "FullName": "Miss Ellie Larry Orn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Satterfield LLC",
-    "ToolTip": "Incidunt dolorum nihil et tempora ullam impedit quo.",
+    "Id": 260,
+    "Name": "Ullrich, Bashirian and Hickle",
+    "ToolTip": "Officiis quos ullam quos velit labore esse et.",
     "Deleted": true,
-    "Rank": 996,
-    "Type": "porro",
-    "ColorBlock": 229,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2008-03-03T13:28:33.0696831+01:00",
+    "Rank": 759,
+    "Type": "modi",
+    "ColorBlock": 689,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2023-05-29T04:02:07.3690701+02:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Lebsack, Heathcote and Ryan",
-        "ToolTip": "Necessitatibus asperiores ut consectetur atque debitis molestiae quo.",
+        "Id": 327,
+        "Name": "Pfannerstill Inc and Sons",
+        "ToolTip": "Quas dicta placeat.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "distinctio",
-        "ColorBlock": 292,
-        "IconHint": "enim",
+        "Rank": 743,
+        "Type": "quis",
+        "ColorBlock": 382,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2012-01-11T13:28:33.0696831+01:00",
+        "LastChanged": "2002-10-04T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "commodi",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kaylie Larkin",
+        "FullName": "Hillard Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldLength": 512
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "iure",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Courtney Toy",
+    "FullName": "Joe Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 872
       }
     }
   }

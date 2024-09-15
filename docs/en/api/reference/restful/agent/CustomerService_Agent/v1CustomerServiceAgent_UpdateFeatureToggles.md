@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Hessel, Beer and Effertz",
-      "State": true
+      "Name": "Becker, Robel and Hammes",
+      "State": false
     },
     {
-      "Name": "Hessel, Beer and Effertz",
-      "State": true
+      "Name": "Becker, Robel and Hammes",
+      "State": false
     }
   ]
 }

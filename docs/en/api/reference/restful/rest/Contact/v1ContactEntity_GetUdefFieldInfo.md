@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 302,
-  "ColumnId": 397,
-  "FieldDefault": "id",
-  "FieldHeight": 559,
-  "FieldLabel": "fugit",
-  "FieldLeft": 211,
-  "FieldTop": 397,
+  "UDefFieldId": 805,
+  "ColumnId": 625,
+  "FieldDefault": "rem",
+  "FieldHeight": 67,
+  "FieldLabel": "et",
+  "FieldLeft": 334,
+  "FieldTop": 327,
   "FieldType": "Checkbox",
-  "FieldWidth": 348,
-  "FormatMask": "pariatur",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 43,
-  "LabelLeft": 13,
-  "LabelTop": 389,
-  "LabelWidth": 132,
-  "LastVersionId": 632,
-  "ListTableId": 489,
+  "FieldWidth": 845,
+  "FormatMask": "et",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 109,
+  "LabelLeft": 113,
+  "LabelTop": 855,
+  "LabelWidth": 96,
+  "LastVersionId": 793,
+  "ListTableId": 527,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 661,
-  "ProgId": "eos",
-  "IsReadOnly": false,
-  "ShortLabel": "commodi",
-  "TabOrder": 586,
-  "TextLength": 474,
-  "Tooltip": "sunt",
-  "UdefIdentity": 197,
-  "UDListDefinitionId": 47,
+  "Page1LineNo": 92,
+  "ProgId": "doloribus",
+  "IsReadOnly": true,
+  "ShortLabel": "sunt",
+  "TabOrder": 616,
+  "TextLength": 377,
+  "Tooltip": "deleniti",
+  "UdefIdentity": 438,
+  "UDListDefinitionId": 781,
   "Justification": "Center",
-  "Version": 787,
-  "TemplateVariableName": "Hodkiewicz Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Orn, Borer and Hodkiewicz",
+  "Version": 613,
+  "TemplateVariableName": "Ruecker-Halvorson",
+  "HasBeenPublished": true,
+  "MdoListName": "Reynolds, Schaden and Jones",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 282
     }
   }
 }

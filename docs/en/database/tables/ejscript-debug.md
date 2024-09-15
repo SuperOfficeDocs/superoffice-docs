@@ -2,10 +2,10 @@
 uid: table-ejscript_debug
 title: ejscript_debug table
 description: This table contains information when debugging an ejscript
-generated: true
+so.generated: true
 keywords: database table ejscript_debug
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejscript\_debug Table (387)

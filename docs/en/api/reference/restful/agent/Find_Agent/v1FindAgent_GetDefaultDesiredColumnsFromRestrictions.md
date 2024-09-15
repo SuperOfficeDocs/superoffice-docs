@@ -90,18 +90,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Collins, Bogan and Stiedemann",
+  "ProviderName": "Hammes, Lowe and Luettgen",
   "Restrictions": [
     {
-      "Name": "Hills-Hauck",
-      "Operator": "qui",
+      "Name": "Trantow, Franecki and Franecki",
+      "Operator": "soluta",
       "Values": [
-        "consequatur",
-        "maiores"
+        "nihil",
+        "at"
       ],
       "DisplayValues": [
-        "mollitia",
-        "tempora"
+        "omnis",
+        "ipsam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 635,
+      "InterParenthesis": 58,
       "InterOperator": "And",
-      "UniqueHash": 940
+      "UniqueHash": 462
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Fritsch Group",
-    "DisplayTooltip": "est",
-    "DisplayType": "tempore",
+    "DisplayName": "Hyatt-Strosin",
+    "DisplayTooltip": "quibusdam",
+    "DisplayType": "ullam",
     "CanOrderBy": false,
-    "Name": "Wyman-Murphy",
-    "CanRestrictBy": true,
-    "RestrictionType": "ab",
-    "RestrictionListName": "Fahey, Schultz and Streich",
+    "Name": "Bogisich Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "ut",
+    "RestrictionListName": "Ferry-Gleason",
     "IsVisible": false,
-    "ExtraInfo": "omnis",
-    "Width": "non",
-    "IconHint": "dignissimos",
-    "HeadingIconHint": "dolore"
+    "ExtraInfo": "ab",
+    "Width": "maiores",
+    "IconHint": "possimus",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

@@ -2,10 +2,10 @@
 uid: table-Publish
 title: Publish table
 description: Publishing system for external users
-generated: true
+so.generated: true
 keywords: database table Publish
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Publish Table (200)

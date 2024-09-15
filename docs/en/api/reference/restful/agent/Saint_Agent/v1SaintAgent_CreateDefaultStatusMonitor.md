@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 577,
-  "Rank": 470,
-  "DefaultTask": 596,
-  "DefaultTaskText": "suscipit",
-  "IsVisual": false,
-  "LastGenerated": "2010-06-06T13:28:23.6167457+02:00",
-  "Description": "Distributed neutral help-desk",
-  "Name": "Grady Group",
-  "StatusMonitorId": 273,
-  "PictureId": 775,
+  "OwnerTable": 78,
+  "Rank": 885,
+  "DefaultTask": 202,
+  "DefaultTaskText": "asperiores",
+  "IsVisual": true,
+  "LastGenerated": "2008-08-04T04:02:02.2378308+02:00",
+  "Description": "Ergonomic regional project",
+  "Name": "Fisher Group",
+  "StatusMonitorId": 708,
+  "PictureId": 530,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 187,
-  "NumNeedUpdate": 156,
-  "GenerationStart": "2022-04-19T13:28:23.6167457+02:00",
+  "NumMatches": 222,
+  "NumNeedUpdate": 678,
+  "GenerationStart": "2021-11-07T04:02:02.2378308+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 630
     }
   }
 }

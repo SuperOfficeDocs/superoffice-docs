@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 941
+  "PersonId": 88
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 405,
-    "Name": "Gerlach, O'Kon and Gutkowski",
-    "Description": "Front-line optimizing algorithm",
+    "ProjectId": 731,
+    "Name": "Kerluke, Kshlerin and Grady",
+    "Description": "Public-key multimedia alliance",
     "URL": "http://www.example.com/",
-    "Type": "voluptatibus",
-    "AssociateId": 537,
-    "AssociateFullName": "Amber Beatty",
-    "TypeId": 880,
-    "Updated": "2023-02-04T13:28:23.491777+01:00",
-    "StatusId": 143,
-    "Status": "at",
-    "TextId": 429,
-    "PublishTo": "2021-08-16T13:28:23.491777+02:00",
-    "PublishFrom": "2017-11-07T13:28:23.491777+01:00",
-    "IsPublished": false,
+    "Type": "atque",
+    "AssociateId": 662,
+    "AssociateFullName": "Ms. Lura Dalton Nolan",
+    "TypeId": 954,
+    "Updated": "1998-03-08T04:02:02.1597135+01:00",
+    "StatusId": 299,
+    "Status": "exercitationem",
+    "TextId": 866,
+    "PublishTo": "2004-03-10T04:02:02.1597135+01:00",
+    "PublishFrom": "2011-07-10T04:02:02.1597135+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "938932",
-    "ActiveErpLinks": 612,
+    "ProjectNumber": "1194584",
+    "ActiveErpLinks": 610,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 486
+        "FieldType": "System.String",
+        "FieldLength": 990
       }
     }
   }

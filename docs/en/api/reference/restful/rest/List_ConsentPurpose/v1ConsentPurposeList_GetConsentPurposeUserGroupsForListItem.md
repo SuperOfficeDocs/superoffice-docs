@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Mills Group",
-    "ToolTip": "Perferendis occaecati incidunt doloribus.",
+    "Id": 37,
+    "Name": "Ziemann LLC",
+    "ToolTip": "Molestiae voluptates harum accusantium nobis sit qui esse.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "magni",
-    "ColorBlock": 754,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2001-03-18T13:28:32.7260108+01:00",
+    "Rank": 410,
+    "Type": "et",
+    "ColorBlock": 639,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "2017-07-27T04:02:07.1034721+02:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Parker-Tromp",
-        "ToolTip": "Eum dolores suscipit natus qui doloremque sint ipsa.",
+        "Id": 757,
+        "Name": "Stiedemann Group",
+        "ToolTip": "Deserunt minus adipisci temporibus.",
         "Deleted": false,
-        "Rank": 136,
-        "Type": "quia",
-        "ColorBlock": 128,
-        "IconHint": "ut",
+        "Rank": 859,
+        "Type": "accusantium",
+        "ColorBlock": 81,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "1997-11-23T13:28:32.7416326+01:00",
+        "LastChanged": "1999-07-24T04:02:07.1034721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Dr. Imelda Mia Schmitt",
+        "ExtraInfo": "error",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Clement Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldType": "System.String",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Noble Parisian",
+    "ExtraInfo": "facere",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Ms. Rose Xavier Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 779
       }
     }
   }

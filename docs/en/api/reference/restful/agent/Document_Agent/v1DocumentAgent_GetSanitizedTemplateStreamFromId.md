@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 370,
-  "UiCulture": "unde"
+  "TemplateId": 32,
+  "UiCulture": "inventore"
 }
 ```
 

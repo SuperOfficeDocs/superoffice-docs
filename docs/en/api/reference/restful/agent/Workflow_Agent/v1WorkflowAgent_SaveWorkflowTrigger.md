@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 662,
-  "WorkflowId": 899,
+  "WorkflowTriggerId": 994,
+  "WorkflowId": 176,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Ryan Group",
-      "Description": "Monitored modular initiative",
-      "Rank": 404,
+      "Name": "Osinski-West",
+      "Description": "Centralized regional database",
+      "Rank": 705,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ryan Group",
-      "Description": "Monitored modular initiative",
-      "Rank": 404,
+      "Name": "Osinski-West",
+      "Description": "Centralized regional database",
+      "Rank": 705,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 716,
-  "WorkflowId": 700,
+  "WorkflowTriggerId": 911,
+  "WorkflowId": 143,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Waters-Bailey",
-      "Description": "Distributed optimizing open architecture",
-      "Rank": 759,
+      "Name": "Koss-Murphy",
+      "Description": "Polarised fault-tolerant orchestration",
+      "Rank": 828,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waters-Bailey",
-      "Description": "Distributed optimizing open architecture",
-      "Rank": 759,
+      "Name": "Koss-Murphy",
+      "Description": "Polarised fault-tolerant orchestration",
+      "Rank": 828,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

@@ -601,6 +601,8 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -639,12 +641,12 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
-|sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
@@ -743,12 +745,12 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
-|project/saintAmountClass|listAny|Amount class|  |
-|project/saintActivityType|listAny|SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintAmountClass|listAny|Amount class|  |
+|project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
@@ -759,7 +761,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=person/ticketPriority,person/supportAssociate,person/personAssociate/contactDepartment,person/personAssociate/ejDisplayName,contact/contactExtra/x_contact_short_dropdown
+GET /api/v1/archive/FreetextTicket?$select=searchwords,person/personId,person/personInfo/textId,person/personAddress/city,person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

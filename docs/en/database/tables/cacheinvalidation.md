@@ -2,10 +2,10 @@
 uid: table-CacheInvalidation
 title: CacheInvalidation table
 description: Names and generation numbers for distributed invalidation of caches
-generated: true
+so.generated: true
 keywords: database table CacheInvalidation
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CacheInvalidation Table (524)

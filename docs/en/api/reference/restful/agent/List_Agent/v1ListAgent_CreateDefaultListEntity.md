@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Bayer, Kilback and Dicki",
-  "Tooltip": "praesentium",
+  "Id": 682,
+  "Name": "Okuneva LLC",
+  "Tooltip": "quis",
   "Deleted": true,
-  "Rank": 545,
-  "IsCustomList": false,
+  "Rank": 912,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 120
     }
   }
 }

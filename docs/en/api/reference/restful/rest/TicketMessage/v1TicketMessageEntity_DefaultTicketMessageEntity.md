@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 848,
+  "EjMessageId": 418,
   "Ticket": null,
-  "CreatedAt": "1999-09-06T13:28:32.3667168+02:00",
+  "CreatedAt": "2000-08-13T04:02:06.9003681+02:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "blanditiis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 242,
-  "Body": "qui",
-  "HtmlBody": "alias",
-  "EmailHeader": "macey_satterfield@blockwindler.uk",
-  "DebugInfo": "culpa",
-  "MailSorter": "doloribus",
+  "MessageId": "quam",
+  "TimeSpent": 253,
+  "Body": "non",
+  "HtmlBody": "animi",
+  "EmailHeader": "murl.jones@schuppe.name",
+  "DebugInfo": "et",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquid",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 618,
-      "Name": "Casper, Leuschke and Fay",
-      "Value": "doloribus",
+      "Id": 49,
+      "Name": "Tillman Group",
+      "Value": "ipsum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eos",
-  "Sentiment": 749,
-  "SentimentConfidence": 205,
+  "Language": "optio",
+  "Sentiment": 448,
+  "SentimentConfidence": 622,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 882,
-      "Name": "Abbott-Treutel",
-      "ContentType": "corporis",
-      "AttSize": 775,
-      "InlineImage": false,
-      "ContentId": "suscipit",
-      "AuthKey": "suscipit",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 83,
+      "Name": "Wintheiser-Gerlach",
+      "ContentType": "ad",
+      "AttSize": 974,
+      "InlineImage": true,
+      "ContentId": "recusandae",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldType": "System.Int32",
+          "FieldLength": 798
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "est"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 433
     }
   }
 }

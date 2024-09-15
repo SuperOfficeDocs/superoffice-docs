@@ -2,10 +2,10 @@
 uid: table-target_change
 title: target_change table
 description: A single field change.
-generated: true
+so.generated: true
 keywords: database table target_change
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # target\_change Table (506)

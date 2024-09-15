@@ -2,10 +2,10 @@
 uid: table-DocTmpl
 title: DocTmpl table
 description: DocTmpl list table. Describes templates available for writing new documents.
-generated: true
+so.generated: true
 keywords: database table DocTmpl
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DocTmpl Table (130)

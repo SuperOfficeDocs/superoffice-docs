@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 327,
-  "AttachmentId": "consequatur"
+  "MessageServerId": 447,
+  "AttachmentId": "laudantium"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform clear-thinking portal",
-  "Filename": "voluptas",
-  "Size": 51,
-  "Type": "rerum",
-  "Encoding": "deserunt",
-  "Id": "necessitatibus",
-  "Disposition": "accusantium",
+  "Description": "Operative fresh-thinking Graphic Interface",
+  "Filename": "eius",
+  "Size": 152,
+  "Type": "accusamus",
+  "Encoding": "rerum",
+  "Id": "dolorem",
+  "Disposition": "maiores",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

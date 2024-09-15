@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 793
+  "ChatSessionId": 963
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 475,
-  "TopicId": 438,
+  "ChatSessionId": 878,
+  "TopicId": 494,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "unde",
-  "CustomerName": "Vandervort, Trantow and Toy",
-  "CustomerEmail": "enoch@pfeffer.uk",
-  "CustomerPhone": "684-492-8524 x0788",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "quod",
+  "CustomerName": "Beatty Group",
+  "CustomerEmail": "gust@bartolettidurgan.uk",
+  "CustomerPhone": "528.251.9627 x475",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Moen Inc and Sons",
+  "CustomerCompanyName": "Anderson LLC",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "dolor",
-  "WhenRequested": "2002-08-08T13:28:21.976202+02:00",
-  "WhenStarted": "2001-06-26T13:28:21.976202+02:00",
-  "WhenEnded": "2019-03-06T13:28:21.976202+01:00",
-  "WhenIdle": "2006-08-26T13:28:21.976202+02:00",
-  "WhenFetched": "2014-11-18T13:28:21.976202+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 104,
-  "AlertLevel": 768,
-  "Rank": 509,
+  "FirstMessage": "ullam",
+  "LastMessage": "iusto",
+  "WhenRequested": "2004-12-23T04:02:01.3624008+01:00",
+  "WhenStarted": "2020-01-25T04:02:01.3624008+01:00",
+  "WhenEnded": "2023-11-30T04:02:01.3624008+01:00",
+  "WhenIdle": "2006-12-20T04:02:01.3624008+01:00",
+  "WhenFetched": "2009-05-13T04:02:01.3624008+02:00",
+  "SessionKey": "mollitia",
+  "InitialQueuePos": 310,
+  "AlertLevel": 553,
+  "Rank": 845,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 304,
+  "Rating": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 869
     }
   }
 }

@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "mollitia",
-  "To": "voluptas",
-  "Subject": "recusandae",
-  "PlainBody": "inventore",
-  "HtmlBody": "at",
+  "From": "autem",
+  "To": "sit",
+  "Subject": "suscipit",
+  "PlainBody": "ea",
+  "HtmlBody": "voluptatem",
   "AttachmentIds": [
-    554,
-    510
+    900,
+    205
   ],
-  "EventName": "Deckow, Bartell and Harber"
+  "EventName": "Walsh LLC"
 }
 ```
 

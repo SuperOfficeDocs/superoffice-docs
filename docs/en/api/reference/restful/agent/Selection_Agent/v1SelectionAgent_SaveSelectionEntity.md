@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised assymetric portal",
-  "Postit": "autem",
+  "Description": "Implemented user-facing budgetary management",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 94,
-  "IncludePerson": 264,
+  "GroupIdx": 302,
+  "IncludePerson": 580,
   "MemberCount": 99.99,
-  "Name": "Ullrich-D'Amore",
-  "PostitTextId": 219,
-  "CreatedDate": "2003-06-12T13:28:23.7260971+02:00",
-  "SelectionId": 812,
-  "SoundEx": "enim",
-  "Source": 385,
-  "TextId": 894,
-  "UpdatedDate": "2007-10-25T13:28:23.7260971+02:00",
-  "UpdatedCount": 371,
-  "Visibility": 180,
+  "Name": "Schneider, Flatley and Kautzer",
+  "PostitTextId": 423,
+  "CreatedDate": "2019-05-15T04:02:02.3005065+02:00",
+  "SelectionId": 415,
+  "SoundEx": "corporis",
+  "Source": 35,
+  "TextId": 840,
+  "UpdatedDate": "2014-11-19T04:02:02.3005065+01:00",
+  "UpdatedCount": 855,
+  "Visibility": 955,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 697,
-  "TargetTableName": "Douglas LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 347,
+  "TargetTableName": "Leannon, Runolfsdottir and Will",
   "Completed": false,
-  "LeftSelectionId": 793,
-  "RightSelectionId": 56,
+  "LeftSelectionId": 599,
+  "RightSelectionId": 295,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolf, Deckow and Greenfelder",
-  "ShadowProviderName": "Wyman LLC",
-  "ChartKey": "praesentium",
-  "LastLoaded": "2006-06-07T13:28:23.7260971+02:00",
-  "LastLoadedBy": 669,
+  "MainProviderName": "Rohan, Green and Stehr",
+  "ShadowProviderName": "Senger-Hegmann",
+  "ChartKey": "hic",
+  "LastLoaded": "2022-10-07T04:02:02.3005065+02:00",
+  "LastLoadedBy": 869,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-03-17T13:28:23.7260971+01:00",
-  "LastMembershipChangeBy": 927,
+  "LastMembershipChange": "2019-06-05T04:02:02.3005065+02:00",
+  "LastMembershipChangeBy": 775,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatum",
-  "MemberTabHeading": "quaerat",
-  "MailingsProviderName": "Huel-Towne",
-  "DashboardTileDefinitionId": 955,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Pagac Group",
+  "DashboardTileDefinitionId": 842,
   "VisibleFor": [
     {
-      "VisibleId": 870,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "ab"
     },
     {
-      "VisibleId": 870,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "ab"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible attitude-oriented complexity",
-  "Postit": "animi",
+  "Description": "Monitored multi-state productivity",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 438,
-  "IncludePerson": 340,
+  "GroupIdx": 421,
+  "IncludePerson": 866,
   "MemberCount": 99.99,
-  "Name": "Stiedemann Inc and Sons",
-  "PostitTextId": 206,
-  "CreatedDate": "2005-03-12T13:28:23.7260971+01:00",
-  "SelectionId": 541,
-  "SoundEx": "ut",
-  "Source": 830,
-  "TextId": 965,
-  "UpdatedDate": "2009-10-11T13:28:23.7260971+02:00",
-  "UpdatedCount": 925,
-  "Visibility": 677,
+  "Name": "Hills LLC",
+  "PostitTextId": 918,
+  "CreatedDate": "2018-02-02T04:02:02.3005065+01:00",
+  "SelectionId": 357,
+  "SoundEx": "tempora",
+  "Source": 117,
+  "TextId": 768,
+  "UpdatedDate": "1997-12-28T04:02:02.3005065+01:00",
+  "UpdatedCount": 708,
+  "Visibility": 71,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 439,
-  "TargetTableName": "Von, Prohaska and Homenick",
+  "TargetTableNumber": 345,
+  "TargetTableName": "Weissnat-Carter",
   "Completed": false,
-  "LeftSelectionId": 221,
-  "RightSelectionId": 740,
+  "LeftSelectionId": 59,
+  "RightSelectionId": 688,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Upton, Bauch and Marvin",
-  "ShadowProviderName": "Schaefer, Gottlieb and Kutch",
-  "ChartKey": "architecto",
-  "LastLoaded": "2013-09-05T13:28:23.7260971+02:00",
-  "LastLoadedBy": 147,
+  "MainProviderName": "Feest, Thiel and Schumm",
+  "ShadowProviderName": "Fadel, Frami and Hartmann",
+  "ChartKey": "alias",
+  "LastLoaded": "2002-09-04T04:02:02.3005065+02:00",
+  "LastLoadedBy": 670,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-03-20T13:28:23.7260971+01:00",
-  "LastMembershipChangeBy": 548,
+  "LastMembershipChange": "2014-07-26T04:02:02.3005065+02:00",
+  "LastMembershipChangeBy": 882,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eveniet",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Yost Inc and Sons",
-  "DashboardTileDefinitionId": 92,
+  "MainHeading": "neque",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Auer LLC",
+  "DashboardTileDefinitionId": 4,
   "VisibleFor": [
     {
-      "VisibleId": 293,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     },
     {
-      "VisibleId": 293,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

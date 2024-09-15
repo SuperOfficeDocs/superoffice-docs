@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 708,
-  "AssociateId": 385
+  "AppointmentId": 212,
+  "AssociateId": 554
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-05-16T13:28:21.5856977+02:00",
-  "AppointmentId": 276,
-  "Description": "Implemented analyzing help-desk",
-  "Title": "enim",
-  "Agenda": "animi",
-  "InternalNotes": "et",
-  "StartDate": "2014-07-31T13:28:21.5856977+02:00",
-  "EndDate": "1998-11-06T13:28:21.5856977+01:00",
+  "CreatedDate": "2010-09-06T04:02:01.0806807+02:00",
+  "AppointmentId": 205,
+  "Description": "Ergonomic high-level structure",
+  "Title": "rerum",
+  "Agenda": "suscipit",
+  "InternalNotes": "at",
+  "StartDate": "2021-11-17T04:02:01.0806807+01:00",
+  "EndDate": "2008-01-02T04:02:01.0806807+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 655,
+  "MotherId": 322,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-01-27T13:28:21.5856977+01:00",
+  "UpdatedDate": "2019-10-31T04:02:01.0806807+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 569,
+  "ActiveLinks": 231,
   "Links": [
     {
-      "EntityName": "Ledner, Schaefer and Dickens",
-      "Id": 892,
-      "Description": "Ameliorated logistical concept",
-      "ExtraInfo": "eius",
-      "LinkId": 555,
+      "EntityName": "Heathcote LLC",
+      "Id": 673,
+      "Description": "Profound homogeneous access",
+      "ExtraInfo": "quia",
+      "LinkId": 879,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 649
         }
       }
     }
   ],
-  "AlarmLeadTime": "quisquam",
+  "AlarmLeadTime": "nisi",
   "HasAlarm": false,
-  "ColorIndex": 443,
+  "ColorIndex": 967,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "perspiciatis",
-  "Location": "maiores",
-  "RejectCounter": 617,
+  "LagTime": "incidunt",
+  "LeadTime": "nesciunt",
+  "Location": "consequuntur",
+  "RejectCounter": 461,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 40,
-      "PersonId": 723,
-      "ContactId": 376,
-      "EmailId": 768,
-      "SendEmail": true,
+      "AssociateId": 59,
+      "PersonId": 172,
+      "ContactId": 364,
+      "EmailId": 759,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "maurice_corkery@sipes.co.uk",
-      "Description": "Diverse real-time strategy"
+      "EmailAddress": "rashad@lemkeluettgen.name",
+      "Description": "Public-key high-level capacity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-02-27T13:28:21.5856977+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2015-07-21T04:02:01.0806807+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 295,
+  "PreferredTZLocation": 531,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 267,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 170,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "cupiditate",
   "UserDefinedFields": {
-    "SuperOffice:1": "Johan Hane",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Onie Runolfsson Sr.",
+    "SuperOffice:2": "1467969213"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "non"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "1999-05-13T13:28:21.5856977+02:00",
-  "PublishTo": "2022-05-12T13:28:21.5856977+02:00",
-  "PublishFrom": "2018-11-18T13:28:21.5856977+01:00",
+  "PublishEventDate": "2005-04-03T04:02:01.0806807+02:00",
+  "PublishTo": "2012-07-30T04:02:01.0806807+02:00",
+  "PublishFrom": "2017-05-18T04:02:01.0806807+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 415,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 658
         }
       }
     },
     {
-      "VisibleId": 415,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 658
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 787
     }
   }
 }

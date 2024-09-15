@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Kertzmann, Friesen and Fadel",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 275,
+  "Id": 342,
+  "Name": "Luettgen, Hodkiewicz and Shanahan",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 756,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aperiam",
-  "InUseByUserDefinedFields": true
+  "ListType": "modi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,21 +109,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 724,
-  "Name": "Bailey, Lemke and Kuhn",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 112,
+  "Name": "Lesch Inc and Sons",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 980,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "expedita",
+  "UseGroupsAndHeadings": false,
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 343
     }
   }
 }

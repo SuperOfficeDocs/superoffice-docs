@@ -2,10 +2,10 @@
 uid: table-DiaryViewRow
 title: DiaryViewRow table
 description: Configuration of a multi-user diary view
-generated: true
+so.generated: true
 keywords: database table DiaryViewRow
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DiaryViewRow Table (215)

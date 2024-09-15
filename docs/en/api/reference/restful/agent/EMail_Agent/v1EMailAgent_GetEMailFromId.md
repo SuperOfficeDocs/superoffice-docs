@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 931,
-  "LookupAddresses": true,
+  "MessageServerId": 939,
+  "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 383,
-      "ContactName": "Turcotte Group",
-      "PersonId": 757,
-      "PersonName": "Haag-Christiansen",
-      "AssociateId": 863,
-      "Address": "ab",
-      "EmailId": 956,
+      "ContactId": 161,
+      "ContactName": "Conn Inc and Sons",
+      "PersonId": 56,
+      "PersonName": "Barrows-Keebler",
+      "AssociateId": 892,
+      "Address": "et",
+      "EmailId": 423,
       "DuplicatePersonIds": [
-        831,
-        849
+        445,
+        49
       ],
-      "Name": "Gutmann-Hayes",
+      "Name": "Bernier-Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 89,
-      "ContactName": "Sipes-Johns",
-      "PersonId": 286,
-      "PersonName": "Kulas, Senger and Volkman",
-      "AssociateId": 851,
-      "Address": "corporis",
-      "EmailId": 78,
+      "ContactId": 201,
+      "ContactName": "Weissnat LLC",
+      "PersonId": 891,
+      "PersonName": "Gerhold, Schultz and Boyle",
+      "AssociateId": 291,
+      "Address": "quo",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        571,
-        213
+        858,
+        342
       ],
-      "Name": "Sauer-Sipes",
+      "Name": "Kertzmann, Schaefer and Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 576
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 758,
-      "ContactName": "Runte Group",
-      "PersonId": 582,
-      "PersonName": "White-Mosciski",
-      "AssociateId": 367,
-      "Address": "veritatis",
-      "EmailId": 304,
+      "ContactId": 216,
+      "ContactName": "Hilpert-Langworth",
+      "PersonId": 633,
+      "PersonName": "Boehm, Lind and Botsford",
+      "AssociateId": 449,
+      "Address": "dolor",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        932,
-        841
+        534,
+        295
       ],
-      "Name": "Volkman-Barrows",
+      "Name": "Reynolds Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 539
         }
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "quo",
+  "Subject": "aspernatur",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2012-01-06T13:28:22.7104392+01:00",
-  "Size": 498,
+  "Sent": "2008-01-11T04:02:01.7217471+01:00",
+  "Size": 812,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "corporis",
-  "PlainBody": "est",
-  "IsSent": true,
+  "MessageID": "voluptate",
+  "PlainBody": "vitae",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 30,
+  "ServerId": 453,
   "Attachments": [
     {
-      "Description": "Re-contextualized full-range productivity",
-      "Filename": "quaerat",
-      "Size": 95,
-      "Type": "praesentium",
-      "Encoding": "tempore",
-      "Id": "nostrum",
-      "Disposition": "voluptate",
+      "Description": "Team-oriented context-sensitive neural-net",
+      "Filename": "odio",
+      "Size": 546,
+      "Type": "voluptas",
+      "Encoding": "officiis",
+      "Id": "et",
+      "Disposition": "voluptatum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,58 +223,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 55
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyle, Bosco and Cassin",
+      "Name": "Daniel Group",
       "Values": [
-        "voluptatem",
-        "reiciendis"
+        "enim",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Boyle, Bosco and Cassin",
+      "Name": "Daniel Group",
       "Values": [
-        "voluptatem",
-        "reiciendis"
+        "enim",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldLength": 539
         }
       }
     }
   ],
-  "FolderName": "Rosenbaum, Spinka and Kilback",
-  "EmailItemId": 726,
-  "AccountId": 899,
-  "ReceivedAt": "2019-03-30T13:28:22.7104392+01:00",
+  "FolderName": "Gerhold-Parker",
+  "EmailItemId": 830,
+  "AccountId": 811,
+  "ReceivedAt": "2012-09-06T04:02:01.7217471+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-09-26T13:28:22.7104392+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1997-12-20T04:02:01.7217471+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

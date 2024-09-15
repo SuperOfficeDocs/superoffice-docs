@@ -2,10 +2,10 @@
 uid: table-AssociateHistory
 title: AssociateHistory table
 description: Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database
-generated: true
+so.generated: true
 keywords: database table AssociateHistory
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AssociateHistory Table (523)

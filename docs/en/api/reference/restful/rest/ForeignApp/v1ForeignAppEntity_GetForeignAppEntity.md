@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 Mar 2019 13:28:31 G3T
+Last-Modified: Sat, 19 May 2007 04:02:06 G5T
 
 {
-  "ForeignAppId": 75,
-  "Name": "Hauck, Gleichner and Hettinger",
-  "CreatedDate": "1998-03-02T13:28:31.6792414+01:00",
-  "UpdatedDate": "2019-03-08T13:28:31.6792414+01:00",
+  "ForeignAppId": 802,
+  "Name": "Wintheiser Group",
+  "CreatedDate": "2016-05-09T04:02:06.6191478+02:00",
+  "UpdatedDate": "2007-05-19T04:02:06.6191478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 566,
-      "Name": "Reynolds-Schulist",
-      "CreatedDate": "2018-11-07T13:28:31.6792414+01:00",
-      "UpdatedDate": "2010-02-13T13:28:31.6792414+01:00",
-      "AssociateFullName": "Mrs. Xavier Ortiz",
-      "CreatedBy": "sit",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 68,
+      "ForeignDeviceId": 464,
+      "Name": "Ernser-Boyer",
+      "CreatedDate": "2013-06-09T04:02:06.6191478+02:00",
+      "UpdatedDate": "2014-11-03T04:02:06.6191478+01:00",
+      "AssociateFullName": "Stuart Gretchen Cummerata Sr.",
+      "CreatedBy": "culpa",
+      "UpdatedBy": "eius",
+      "DeviceIdentifier": "repellat",
+      "ForeignAppId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 164
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Fri, 08 Mar 2019 13:28:31 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 935
     }
   },
   "_Links": {

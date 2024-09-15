@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Goodwin Group",
-    "ToolTip": "Consequuntur eligendi hic.",
+    "Id": 875,
+    "Name": "Cassin-Kessler",
+    "ToolTip": "Veniam id earum ipsa voluptatem voluptates voluptatum impedit.",
     "Deleted": false,
-    "Rank": 214,
-    "Type": "facilis",
-    "ColorBlock": 724,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "1998-01-11T13:28:31.9291866+01:00",
+    "Rank": 153,
+    "Type": "dolor",
+    "ColorBlock": 787,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "1998-07-23T04:02:06.7597584+02:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Fadel-Stehr",
-        "ToolTip": "Quia aut.",
-        "Deleted": false,
-        "Rank": 734,
-        "Type": "consequatur",
-        "ColorBlock": 620,
-        "IconHint": "velit",
+        "Id": 920,
+        "Name": "Metz Group",
+        "ToolTip": "Suscipit non praesentium est sed itaque excepturi.",
+        "Deleted": true,
+        "Rank": 609,
+        "Type": "velit",
+        "ColorBlock": 5,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2009-01-10T13:28:31.9291866+01:00",
+        "LastChanged": "2020-12-15T04:02:06.7597584+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nam",
-        "Hidden": true,
-        "FullName": "Jeramy Runte",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Theresa Renee Howe DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Ethel Walsh",
+    "ExtraInfo": "nulla",
+    "StyleHint": "natus",
+    "Hidden": false,
+    "FullName": "Dr. Giovanni Kshlerin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 239
       }
     }
   }

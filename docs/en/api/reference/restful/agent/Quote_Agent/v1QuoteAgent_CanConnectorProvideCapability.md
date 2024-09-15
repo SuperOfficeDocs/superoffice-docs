@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 547,
-  "CapabilityName": "Lemke Inc and Sons"
+  "QuoteConnectionId": 49,
+  "CapabilityName": "Blick LLC"
 }
 ```
 

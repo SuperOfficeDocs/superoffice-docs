@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 82,
-    "Name": "Friesen-Kreiger",
-    "Tooltip": "dolores",
-    "Rank": 406,
-    "Key": "repellat",
-    "MailTemplateId": 824,
+    "ConsentSourceId": 177,
+    "Name": "Goodwin-Hudson",
+    "Tooltip": "officia",
+    "Rank": 32,
+    "Key": "non",
+    "MailTemplateId": 766,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 985
       }
     }
   }

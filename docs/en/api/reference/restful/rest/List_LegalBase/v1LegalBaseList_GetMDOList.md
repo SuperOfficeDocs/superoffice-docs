@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=a
+GET /api/v1/List/LegalBase/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,49 +90,49 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 373,
-    "Name": "Hoppe-Luettgen",
-    "ToolTip": "Voluptate voluptatem itaque nam.",
-    "Deleted": false,
-    "Rank": 422,
-    "Type": "enim",
+    "Name": "Beahan-Stark",
+    "ToolTip": "Aliquid voluptas ut consequatur necessitatibus.",
+    "Deleted": true,
+    "Rank": 244,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Nader LLC",
-        "ToolTip": "Non minus quas vel nihil quia eaque.",
+        "Id": 379,
+        "Name": "O'Keefe Inc and Sons",
+        "ToolTip": "Ducimus quisquam corrupti est reprehenderit.",
         "Deleted": false,
-        "Rank": 469,
-        "Type": "vel",
+        "Rank": 22,
+        "Type": "reprehenderit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 618,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "velit",
-        "FullName": "Miss Brandon Lucious Brakus",
+        "IconHint": "impedit",
+        "ColorBlock": 761,
+        "ExtraInfo": "vel",
+        "StyleHint": "nihil",
+        "FullName": "Zula Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 319
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 279,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "expedita",
-    "FullName": "Jaunita Schulist",
+    "IconHint": "aut",
+    "ColorBlock": 443,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "sint",
+    "FullName": "Sherwood Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldType": "System.String",
+        "FieldLength": 675
       }
     }
   }

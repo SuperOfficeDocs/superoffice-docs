@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 14,
-    "Name": "Smith, Schmidt and Waelchi",
-    "Description": "Function-based transitional open architecture",
+    "ProjectId": 368,
+    "Name": "Ankunding, Kirlin and Hahn",
+    "Description": "Public-key 4th generation protocol",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 868,
-    "AssociateFullName": "Ulises Brakus",
-    "TypeId": 171,
-    "Updated": "2005-12-16T13:28:23.491777+01:00",
-    "StatusId": 450,
-    "Status": "quo",
-    "TextId": 698,
-    "PublishTo": "1999-04-28T13:28:23.491777+02:00",
-    "PublishFrom": "1998-08-14T13:28:23.491777+02:00",
-    "IsPublished": true,
+    "Type": "eaque",
+    "AssociateId": 936,
+    "AssociateFullName": "Gaetano Runolfsdottir",
+    "TypeId": 173,
+    "Updated": "2006-09-13T04:02:02.1597135+02:00",
+    "StatusId": 581,
+    "Status": "soluta",
+    "TextId": 728,
+    "PublishTo": "2014-06-25T04:02:02.1597135+02:00",
+    "PublishFrom": "2008-04-12T04:02:02.1597135+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1080911",
-    "ActiveErpLinks": 624,
+    "ProjectNumber": "1489266",
+    "ActiveErpLinks": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

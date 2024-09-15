@@ -101,37 +101,37 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 601,
-  "Name": "Wilderman Group",
-  "Rank": 732,
-  "Tooltip": "quae",
-  "Icon": "dignissimos",
-  "DefaultTicketStatus": 735,
+  "TicketTypeId": 76,
+  "Name": "Casper, Gerhold and Rosenbaum",
+  "Rank": 178,
+  "Tooltip": "illo",
+  "Icon": "non",
+  "DefaultTicketStatus": 683,
   "TicketStatuses": [
-    680,
-    124
+    3,
+    165
   ],
-  "DefaultTicketPriority": 22,
+  "DefaultTicketPriority": 463,
   "TicketPriorities": [
-    166,
-    976
+    852,
+    716
   ],
-  "ReplyTemplate": 683,
+  "ReplyTemplate": 106,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    376,
-    921
+    811,
+    947
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 571,
-  "Name": "Hudson Group",
-  "Rank": 512,
-  "Tooltip": "deleniti",
-  "Icon": "ab",
-  "DefaultTicketStatus": 514,
+  "TicketTypeId": 441,
+  "Name": "Howell Group",
+  "Rank": 908,
+  "Tooltip": "assumenda",
+  "Icon": "quia",
+  "DefaultTicketStatus": 35,
   "TicketStatuses": [
-    509,
-    992
+    64,
+    354
   ],
-  "DefaultTicketPriority": 907,
+  "DefaultTicketPriority": 263,
   "TicketPriorities": [
-    129,
-    219
+    451,
+    389
   ],
-  "ReplyTemplate": 176,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 319,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    11,
-    141
+    842,
+    99
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldLength": 426
     }
   }
 }

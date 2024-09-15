@@ -2,10 +2,10 @@
 uid: table-SalutationHeadingLink
 title: SalutationHeadingLink table
 description: Heading link table for Salutation, for MDO headers
-generated: true
+so.generated: true
 keywords: database table SalutationHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SalutationHeadingLink Table (221)

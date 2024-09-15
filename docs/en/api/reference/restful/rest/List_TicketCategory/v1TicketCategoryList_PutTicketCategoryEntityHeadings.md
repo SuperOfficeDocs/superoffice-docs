@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "O'Hara LLC",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 717
+    "HeadingId": 298,
+    "Name": "Weber-O'Conner",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 259,
+    "UdListDefinitionId": 406
   },
   {
-    "HeadingId": 458,
-    "Name": "O'Hara LLC",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 717
+    "HeadingId": 298,
+    "Name": "Weber-O'Conner",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 259,
+    "UdListDefinitionId": 406
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 782,
-    "Name": "Pollich-Hartmann",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 500,
-    "UdListDefinitionId": 622,
+    "HeadingId": 766,
+    "Name": "Langosh, Nolan and Sporer",
+    "Tooltip": "repellat",
+    "Deleted": true,
+    "Rank": 965,
+    "UdListDefinitionId": 786,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

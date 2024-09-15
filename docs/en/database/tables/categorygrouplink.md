@@ -2,10 +2,10 @@
 uid: table-CategoryGroupLink
 title: CategoryGroupLink table
 description: User group link table for Category, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table CategoryGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CategoryGroupLink Table (65)

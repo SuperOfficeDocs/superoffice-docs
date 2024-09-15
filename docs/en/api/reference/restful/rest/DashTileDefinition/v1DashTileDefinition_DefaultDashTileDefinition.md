@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 527,
-  "Name": "Turner, Blick and Welch",
-  "Description": "Progressive encompassing database",
-  "DefaultHeight": 326,
-  "DefaultWidth": 289,
+  "DashboardTileDefinitionId": 303,
+  "Name": "King, Moore and Tremblay",
+  "Description": "Cloned intangible encoding",
+  "DefaultHeight": 754,
+  "DefaultWidth": 372,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Johns-Emmerich",
-  "SelectionId": 174,
+  "EntityName": "Koch Inc and Sons",
+  "SelectionId": 111,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "quasi",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "molestias",
-  "LayoutConfig": "maxime",
-  "SecondarySelectionId": 804,
-  "MeasureByField": "dolor",
+  "MeasureField": "officia",
+  "SortBy": "officia",
+  "LayoutConfig": "facilis",
+  "SecondarySelectionId": 444,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Kris-Price",
+  "ProviderName": "Hansen-Vandervort",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 835
     }
   }
 }

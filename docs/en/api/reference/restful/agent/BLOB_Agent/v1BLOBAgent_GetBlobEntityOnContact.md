@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 941
+  "ContactId": 155
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 23,
-  "BlobSize": 253,
-  "Description": "Robust client-server toolset",
-  "ExtraInfo": "esse",
+  "BlobId": 909,
+  "BlobSize": 173,
+  "Description": "Assimilated 24/7 alliance",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dignissimos",
-  "OriginalSize": 320,
-  "CreatedDate": "1997-10-17T13:28:21.8825025+02:00",
-  "UpdatedDate": "2023-10-20T13:28:21.8825025+02:00",
+  "MimeType": "rerum",
+  "OriginalSize": 305,
+  "CreatedDate": "2019-09-11T04:02:01.2374146+02:00",
+  "UpdatedDate": "2016-04-19T04:02:01.2374146+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque",
+  "ConceptualType": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 762
     }
   }
 }

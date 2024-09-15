@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Romaguera, Ernser and Larson",
-  "HeadingId": 66
+  "UdListDefinitionName": "Barton LLC",
+  "HeadingId": 121
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Glover, Rolfson and Bogisich",
-    "ToolTip": "Atque minima earum nulla.",
-    "Deleted": true,
-    "Rank": 645,
-    "Type": "et",
-    "ColorBlock": 617,
-    "IconHint": "qui",
+    "Id": 134,
+    "Name": "Koelpin LLC",
+    "ToolTip": "Ad dolorum.",
+    "Deleted": false,
+    "Rank": 712,
+    "Type": "quia",
+    "ColorBlock": 945,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2020-05-05T13:28:22.9606469+02:00",
+    "LastChanged": "2013-05-10T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Moore, Erdman and Murazik",
-        "ToolTip": "Omnis consequatur laborum.",
-        "Deleted": false,
-        "Rank": 418,
-        "Type": "quidem",
-        "ColorBlock": 967,
-        "IconHint": "nostrum",
+        "Id": 573,
+        "Name": "Mills Group",
+        "ToolTip": "Et qui eligendi non.",
+        "Deleted": true,
+        "Rank": 314,
+        "Type": "suscipit",
+        "ColorBlock": 142,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2016-01-23T13:28:22.9606469+01:00",
+        "LastChanged": "1998-03-20T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "labore",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Brendon Zemlak",
+        "FullName": "Hortense Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "numquam",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Mrs. Mason Dimitri Pollich I",
+    "FullName": "Mr. Ruby Alysson Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 323
       }
     }
   }

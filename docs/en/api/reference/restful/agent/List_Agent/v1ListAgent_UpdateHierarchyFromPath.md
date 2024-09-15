@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "autem",
+  "Path": "qui",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 505,
+  "HierarchyId": 313,
   "Domain": "Dashboards",
-  "Name": "McCullough Inc and Sons",
-  "Fullname": "ratione",
-  "ParentId": 436,
+  "Name": "Koepp, Abbott and Hansen",
+  "Fullname": "quidem",
+  "ParentId": 97,
   "Children": [
     {
-      "HierarchyId": 264,
+      "HierarchyId": 992,
       "Domain": "Dashboards",
-      "Name": "Muller, Luettgen and Hudson",
-      "Fullname": "non",
-      "ParentId": 403,
+      "Name": "Mann, Hegmann and Treutel",
+      "Fullname": "velit",
+      "ParentId": 586,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-03-27T13:28:23.007483+01:00",
-      "RegisteredAssociateId": 483,
-      "Updated": "1999-01-28T13:28:23.007483+01:00",
-      "UpdatedAssociateId": 154,
+      "Registered": "2012-09-19T04:02:01.8628574+02:00",
+      "RegisteredAssociateId": 514,
+      "Updated": "2002-10-10T04:02:01.8628574+02:00",
+      "UpdatedAssociateId": 404,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 80
         }
       }
     }
   ],
-  "Registered": "2009-07-28T13:28:23.007483+02:00",
-  "RegisteredAssociateId": 194,
-  "Updated": "2008-10-22T13:28:23.007483+02:00",
-  "UpdatedAssociateId": 341,
+  "Registered": "2014-09-02T04:02:01.8628574+02:00",
+  "RegisteredAssociateId": 44,
+  "Updated": "2019-07-14T04:02:01.8628574+02:00",
+  "UpdatedAssociateId": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 48
     }
   }
 }

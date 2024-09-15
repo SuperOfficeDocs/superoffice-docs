@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Gulgowski, Blick and Hettinger",
-  "Tooltip": "id",
+  "Id": 199,
+  "Name": "Deckow-Kerluke",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 908,
-  "Rank": 820,
+  "UdListDefinitionId": 251,
+  "Rank": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

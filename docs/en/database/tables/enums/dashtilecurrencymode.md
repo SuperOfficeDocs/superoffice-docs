@@ -2,10 +2,10 @@
 uid: enum-dashtilecurrencymode
 title: Enum values for DashTileCurrencyMode
 description: Lists the enum values for DashTileCurrencyMode.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DashTileCurrencyMode Enum

@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "deleniti",
-  "ProviderName": "Ryan LLC",
-  "DesiredColumns": "expedita",
-  "OrderBy": "eum",
-  "PageSize": 894,
-  "PageNumber": 184
+  "Restrictions": "ab",
+  "ProviderName": "Boehm, Bechtelar and Metz",
+  "DesiredColumns": "voluptates",
+  "OrderBy": "quas",
+  "PageSize": 246,
+  "PageNumber": 877
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Murazik, Feeney and Mills",
-      "DisplayTooltip": "aperiam",
-      "DisplayType": "animi",
+      "DisplayName": "Harvey, Reynolds and Schoen",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "aperiam",
       "CanOrderBy": false,
-      "Name": "Walter, Cummings and Wolf",
-      "CanRestrictBy": true,
-      "RestrictionType": "corrupti",
-      "RestrictionListName": "Cummings-McDermott",
+      "Name": "Bayer-Boehm",
+      "CanRestrictBy": false,
+      "RestrictionType": "in",
+      "RestrictionListName": "Willms, Sawayn and Connelly",
       "IsVisible": true,
-      "ExtraInfo": "placeat",
-      "Width": "nihil",
-      "IconHint": "praesentium",
-      "HeadingIconHint": "eveniet"
+      "ExtraInfo": "vel",
+      "Width": "sapiente",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Sanford Inc and Sons",
-      "PrimaryKey": 855,
+      "EntityName": "Stanton-Kohler",
+      "PrimaryKey": 951,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "aperiam",
-          "LinkHint": "dolor"
+          "DisplayValue": "rerum",
+          "TooltipHint": "voluptas",
+          "LinkHint": "non"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "reprehenderit",
+      "LinkHint": "adipisci",
+      "StyleHint": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 31
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     }
   ],
-  "RowCount": 989,
+  "RowCount": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

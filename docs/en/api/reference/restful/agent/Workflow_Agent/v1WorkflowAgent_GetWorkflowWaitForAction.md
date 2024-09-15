@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=52
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=106
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 704,
-  "WorkflowStepId": 544,
-  "WorkflowId": 191,
-  "Rank": 901,
+  "WorkflowWaitForActionId": 846,
+  "WorkflowStepId": 721,
+  "WorkflowId": 471,
+  "Rank": 39,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Baumbach-Hirthe",
-      "Description": "Operative stable hub",
-      "Rank": 43,
+      "Name": "Dare Group",
+      "Description": "Multi-lateral bottom-line structure",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Baumbach-Hirthe",
-      "Description": "Operative stable hub",
-      "Rank": 43,
+      "Name": "Dare Group",
+      "Description": "Multi-lateral bottom-line structure",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

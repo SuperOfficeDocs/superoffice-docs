@@ -2,10 +2,10 @@
 uid: table-MrMrs
 title: MrMrs table
 description: MrMrs list table. List of salutations.
-generated: true
+so.generated: true
 keywords: database table MrMrs
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # MrMrs Table (94)

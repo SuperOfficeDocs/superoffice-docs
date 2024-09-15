@@ -71,6 +71,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
-|person/personAssociateId|associate|Our contact: Displays our contact| x |
-|person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociateId|associate|Our contact: Displays our contact| x |
+|person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|contact/contactFax/description|string|Fax - Description: Phone number description| x |
-|contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactFax/description|string|Fax - Description: Phone number description| x |
+|contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
@@ -429,12 +431,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
-|contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
-|contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
-|project/endDate|date|End date: End date of project| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
+|project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -621,7 +623,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=person/personNoMail,person/whenUpdatedByWorkflow,person/personMobilePhone/description,person/email/emailId,person/personExtra/x_person_timespan
+GET /api/v1/archive/SimpleSale?$select=person/email/emailProtocol,person/personAddress/line1,person/personAssociate/associateDbId,person/correspondingAssociate/credentialType,contact/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

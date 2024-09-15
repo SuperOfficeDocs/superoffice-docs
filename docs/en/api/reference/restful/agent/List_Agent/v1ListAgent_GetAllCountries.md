@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 611,
-    "Name": "Kiehn, Watsica and Cummerata",
-    "CurrencyId": 291,
-    "EnglishName": "Kovacek LLC",
+    "CountryId": 711,
+    "Name": "Dooley-Treutel",
+    "CurrencyId": 517,
+    "EnglishName": "Bailey-Pfeffer",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Ergonomic radical model",
-    "OrgNrText": "870388",
-    "InterAreaPrefix": "odio",
-    "DialInPrefix": "et",
-    "ZipPrefix": "reprehenderit",
-    "DomainName": "Wunsch, Nolan and Lindgren",
-    "AddressLayoutId": 293,
-    "DomesticAddressLayoutId": 67,
-    "ForeignAddressLayoutId": 514,
-    "Rank": 10,
-    "Tooltip": "sequi",
-    "Deleted": false,
+    "ImageDescription": "Multi-channelled global challenge",
+    "OrgNrText": "586974",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "aut",
+    "ZipPrefix": "eaque",
+    "DomainName": "Ryan-Mraz",
+    "AddressLayoutId": 602,
+    "DomesticAddressLayoutId": 508,
+    "ForeignAddressLayoutId": 398,
+    "Rank": 749,
+    "Tooltip": "dicta",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 485
       }
     }
   }

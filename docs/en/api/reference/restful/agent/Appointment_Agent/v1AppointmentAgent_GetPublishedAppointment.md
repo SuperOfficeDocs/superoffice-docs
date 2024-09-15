@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 427
+  "AppointmentId": 555
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 165,
-  "StartDate": "2007-03-14T13:28:21.4448873+01:00",
-  "EndDate": "2012-12-17T13:28:21.4448873+01:00",
+  "AppointmentId": 963,
+  "StartDate": "2023-02-24T04:02:01.0025647+01:00",
+  "EndDate": "2019-07-26T04:02:01.0025647+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sed",
-  "AssociateFullName": "Kathryne Eveline Hartmann IV",
-  "ContactName": "Tromp Group",
-  "Description": "Down-sized zero tolerance capacity",
-  "PersonFullName": "Barbara McDermott",
-  "PersonId": 796,
-  "ContactId": 188,
-  "ProjectId": 930,
-  "ProjectName": "Bartell-Trantow",
+  "Task": "dolor",
+  "AssociateFullName": "Jody Wiza",
+  "ContactName": "Kovacek-Daniel",
+  "Description": "Upgradable scalable local area network",
+  "PersonFullName": "Suzanne Upton",
+  "PersonId": 298,
+  "ContactId": 374,
+  "ProjectId": 986,
+  "ProjectName": "Aufderhar LLC",
   "IsPublished": false,
-  "AssociateId": 163,
-  "ColorIndex": 938,
+  "AssociateId": 889,
+  "ColorIndex": 645,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 441,
-  "PriorityName": "Senger-Stark",
+  "PriorityId": 380,
+  "PriorityName": "Ebert-Braun",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2002-09-09T13:28:21.4448873+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2024-04-10T04:02:01.0025647+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-12-08T13:28:21.4448873+01:00",
-  "RecurringEndDate": "2007-12-25T13:28:21.4448873+01:00",
-  "MotherId": 380,
-  "AssignedBy": 624,
-  "AssignedByFullName": "D'angelo Crooks",
+  "RecurringStartDate": "2021-12-06T04:02:01.0025647+01:00",
+  "RecurringEndDate": "2001-05-16T04:02:01.0025647+02:00",
+  "MotherId": 678,
+  "AssignedBy": 902,
+  "AssignedByFullName": "Dr. Carissa Cathrine Satterfield Jr.",
   "RejectReason": "",
-  "Location": "aut",
-  "AlarmLeadTime": "error",
-  "SaleId": 421,
-  "SaleName": "Nader, Pfeffer and Schamberger",
-  "AssociateName": "O'Connell-Gulgowski",
-  "CreatedDate": "2001-03-30T13:28:21.4448873+02:00",
+  "Location": "tempore",
+  "AlarmLeadTime": "et",
+  "SaleId": 513,
+  "SaleName": "Hilpert, Kuhn and McDermott",
+  "AssociateName": "Erdman, Beatty and Homenick",
+  "CreatedDate": "2020-02-27T04:02:01.0025647+01:00",
   "CreatedBy": "et",
-  "CreatedByFullName": "Jake Bosco",
-  "CreatedByAssociateId": 178,
+  "CreatedByFullName": "Jasmin Durgan",
+  "CreatedByAssociateId": 416,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 547,
-  "Title": "odio",
-  "Agenda": "animi",
-  "InternalNotes": "doloremque",
+  "PreferredTZLocation": 562,
+  "Title": "unde",
+  "Agenda": "maiores",
+  "InternalNotes": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 547
     }
   }
 }

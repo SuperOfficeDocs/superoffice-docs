@@ -98,16 +98,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 700,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 899,
-  "Name": "Beer, Ruecker and Weimann",
-  "Description": "Digitized tangible encoding",
-  "Currency": "modi",
-  "CurrencyName": "Wuckert Inc and Sons",
-  "ValidFrom": "2004-05-02T13:28:32.9447127+02:00",
-  "ValidTo": "2011-04-03T13:28:32.9447127+02:00",
-  "IsActive": true
+  "PriceListId": 435,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 502,
+  "Name": "Rowe-Adams",
+  "Description": "Profound even-keeled service-desk",
+  "Currency": "ullam",
+  "CurrencyName": "Jerde Inc and Sons",
+  "ValidFrom": "2021-09-06T04:02:07.3065765+02:00",
+  "ValidTo": "2000-08-27T04:02:07.3065765+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 620,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 627,
-  "Name": "Breitenberg, Windler and Muller",
-  "Description": "Ameliorated intermediate alliance",
-  "Currency": "ea",
-  "CurrencyName": "Batz, Dach and Raynor",
-  "ValidFrom": "2008-04-03T13:28:32.9447127+02:00",
-  "ValidTo": "2017-01-07T13:28:32.9447127+01:00",
-  "IsActive": false,
+  "PriceListId": 588,
+  "ERPPriceListKey": "minima",
+  "QuoteConnectionId": 783,
+  "Name": "Goyette-Kuphal",
+  "Description": "Adaptive attitude-oriented workforce",
+  "Currency": "est",
+  "CurrencyName": "Hilll-Berge",
+  "ValidFrom": "2016-09-05T04:02:07.3065765+02:00",
+  "ValidTo": "2007-07-10T04:02:07.3065765+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 919
     }
   },
   "_Links": {

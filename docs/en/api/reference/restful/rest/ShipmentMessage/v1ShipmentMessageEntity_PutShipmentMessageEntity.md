@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 236,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "placeat",
-  "SmsMessage": "dolor",
-  "Description": "Intuitive logistical time-frame",
-  "Subject": "veniam",
-  "FolderId": 804,
-  "HeaderField": "minus",
-  "Design": "cum",
+  "ShipmentMessageId": 1000,
+  "PlainMessage": "et",
+  "HtmlMessage": "recusandae",
+  "SmsMessage": "nisi",
+  "Description": "Open-source assymetric task-force",
+  "Subject": "consectetur",
+  "FolderId": 228,
+  "HeaderField": "quam",
+  "Design": "perferendis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Up-sized zero administration success",
-  "AccessKey": "fuga",
-  "DocumentMessage": 417,
-  "Registered": "2014-12-27T13:28:32.2573673+01:00",
-  "RegisteredAssociateId": 41,
-  "Updated": "2012-09-17T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 463,
-  "UpdatedCount": 356
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Reverse-engineered eco-centric process improvement",
+  "AccessKey": "consequuntur",
+  "DocumentMessage": 8,
+  "Registered": "2018-08-09T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 371,
+  "Updated": "2013-07-24T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 700,
+  "UpdatedCount": 788
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 382,
-  "PlainMessage": "deserunt",
-  "HtmlMessage": "earum",
-  "SmsMessage": "omnis",
-  "Description": "Configurable secondary strategy",
-  "Subject": "quis",
-  "FolderId": 605,
-  "HeaderField": "similique",
-  "Design": "animi",
+  "ShipmentMessageId": 131,
+  "PlainMessage": "sit",
+  "HtmlMessage": "harum",
+  "SmsMessage": "modi",
+  "Description": "Operative 24/7 benchmark",
+  "Subject": "aut",
+  "FolderId": 725,
+  "HeaderField": "quaerat",
+  "Design": "excepturi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Down-sized maximized function",
-  "AccessKey": "quam",
-  "DocumentMessage": 992,
-  "Registered": "2018-05-14T13:28:32.2573673+02:00",
-  "RegisteredAssociateId": 355,
-  "Updated": "2007-12-26T13:28:32.2573673+01:00",
-  "UpdatedAssociateId": 558,
-  "UpdatedCount": 928,
+  "LongDescription": "Multi-lateral mission-critical circuit",
+  "AccessKey": "cupiditate",
+  "DocumentMessage": 845,
+  "Registered": "1998-05-27T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 461,
+  "Updated": "2001-01-30T04:02:06.837875+01:00",
+  "UpdatedAssociateId": 888,
+  "UpdatedCount": 188,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   },
   "_Links": {

@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -105,74 +105,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "quos",
-    "ValueType": "consequuntur",
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "asperiores",
+    "ValueType": "veniam",
     "Mandatory": false,
-    "EncodedDisplayName": "Buckridge Inc and Sons",
-    "EncodedDisplayDescription": "Organic 4th generation local area network",
-    "IconHint": "nostrum",
+    "EncodedDisplayName": "Frami Group",
+    "EncodedDisplayDescription": "Up-sized context-sensitive open system",
+    "IconHint": "sed",
     "ControlInfos": [
       {
-        "Type": "maiores",
-        "Label": "hic",
-        "Dimension": 936,
-        "ListProviderName": "Parisian, Huel and Smitham",
-        "ListProviderExtraInfo": "aut",
-        "ListProviderPrimaryKeyName": "Schuster-Boyer",
-        "ListLeadText": "in",
+        "Type": "numquam",
+        "Label": "quo",
+        "Dimension": 160,
+        "ListProviderName": "Hegmann, Aufderhar and Swift",
+        "ListProviderExtraInfo": "sequi",
+        "ListProviderPrimaryKeyName": "Marvin-Rice",
+        "ListLeadText": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldLength": 797
           }
         }
       }
     ],
-    "EncodedDataCaption": "enim",
-    "EncodedDataCaptionDescription": "Extended 24/7 infrastructure",
-    "CurrentOperationType": "omnis",
+    "EncodedDataCaption": "quo",
+    "EncodedDataCaptionDescription": "Cloned impactful Graphic Interface",
+    "CurrentOperationType": "quia",
     "Values": [
-      "perferendis",
-      "numquam"
+      "ab",
+      "dicta"
     ],
     "DisplayValues": [
-      "vel",
-      "porro"
+      "soluta",
+      "voluptatibus"
     ],
     "OperationInfos": [
       {
-        "Key": "sit",
-        "EncodedDisplayName": "Smitham LLC",
+        "Key": "consectetur",
+        "EncodedDisplayName": "Ward, Morar and O'Hara",
         "EncodedLeadTexts": [
-          "sint",
-          "et"
+          "quas",
+          "quaerat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 704
+            "FieldType": "System.Int32",
+            "FieldLength": 264
           }
         }
       },
       {
-        "Key": "sit",
-        "EncodedDisplayName": "Smitham LLC",
+        "Key": "consectetur",
+        "EncodedDisplayName": "Ward, Morar and O'Hara",
         "EncodedLeadTexts": [
-          "sint",
-          "et"
+          "quas",
+          "quaerat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 704
+            "FieldType": "System.Int32",
+            "FieldLength": 264
           }
         }
       }

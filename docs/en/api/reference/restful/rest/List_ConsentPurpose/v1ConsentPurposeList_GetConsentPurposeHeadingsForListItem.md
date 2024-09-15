@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Ebert LLC",
-    "ToolTip": "Numquam harum voluptatem et quis.",
+    "Id": 547,
+    "Name": "Bins-Walsh",
+    "ToolTip": "Eos perferendis quis repudiandae voluptatem.",
     "Deleted": false,
-    "Rank": 366,
-    "Type": "id",
-    "ColorBlock": 361,
-    "IconHint": "atque",
+    "Rank": 973,
+    "Type": "eum",
+    "ColorBlock": 178,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2005-06-27T13:28:32.7416326+02:00",
+    "LastChanged": "2012-10-22T04:02:07.1034721+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Hilll, Grimes and Willms",
-        "ToolTip": "Consequatur et ipsa dolor corrupti velit quo.",
+        "Id": 14,
+        "Name": "Heaney-Brekke",
+        "ToolTip": "Dignissimos a.",
         "Deleted": false,
-        "Rank": 100,
-        "Type": "fugit",
-        "ColorBlock": 493,
-        "IconHint": "et",
+        "Rank": 246,
+        "Type": "dicta",
+        "ColorBlock": 774,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2018-05-14T13:28:32.7416326+02:00",
+        "LastChanged": "2022-05-26T04:02:07.1034721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Mrs. Audrey Irwin Gleason",
+        "FullName": "Mr. Andreane Watson Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Toby Konopelski",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Alex Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldLength": 600
       }
     }
   }

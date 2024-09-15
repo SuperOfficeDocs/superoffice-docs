@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 939,
-    "Name": "Treutel, Rowe and Sporer",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 421,
-    "UdListDefinitionId": 504,
+    "HeadingId": 344,
+    "Name": "Rutherford, Schneider and Gerlach",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 156,
+    "UdListDefinitionId": 475,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 305
       }
     }
   }

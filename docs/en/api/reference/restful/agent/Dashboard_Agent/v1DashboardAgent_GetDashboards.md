@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 826
+  "AssociateId": 838
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 76,
-    "AssociateId": 621,
-    "Caption": "voluptatum",
+    "DashboardId": 601,
+    "AssociateId": 123,
+    "Caption": "rem",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 772,
-        "Caption": "totam",
-        "Description": "Robust logistical success",
-        "ChartName": "Metz, Collier and Hills",
-        "ChartId": "cupiditate",
+        "DashboardTileId": 258,
+        "Caption": "maiores",
+        "Description": "Centralized scalable parallelism",
+        "ChartName": "Murray-O'Hara",
+        "ChartId": "et",
         "IsDefault": true,
-        "AssociateId": 883,
-        "GroupId": 310,
-        "SelectionId": 738,
-        "Config": "omnis",
+        "AssociateId": 515,
+        "GroupId": 151,
+        "SelectionId": 293,
+        "Config": "et",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldLength": 99
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

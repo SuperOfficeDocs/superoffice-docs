@@ -2,10 +2,10 @@
 uid: table-form_submission
 title: form_submission table
 description: A form submission
-generated: true
+so.generated: true
 keywords: database table form_submission
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # form\_submission Table (485)

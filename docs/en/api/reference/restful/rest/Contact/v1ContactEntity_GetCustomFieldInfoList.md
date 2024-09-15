@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sawayn Inc and Sons",
-    "DisplayName": "Herman, Connelly and Block",
-    "Description": "Open-architected empowering function",
-    "ShortLabel": "fugit",
-    "HideLabel": true,
+    "FieldName": "Ferry-Bergstrom",
+    "DisplayName": "Erdman-Bins",
+    "Description": "Advanced needs-based framework",
+    "ShortLabel": "eum",
+    "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 695,
-    "TemplateVariableName": "Romaguera, Strosin and Upton"
+    "Rank": 18,
+    "TemplateVariableName": "Sanford-Luettgen"
   }
 ]
 ```

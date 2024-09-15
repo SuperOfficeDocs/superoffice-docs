@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 572,
+  "HierarchyId": 946,
   "Domain": "Dashboards",
-  "Name": "Franecki Group",
-  "Fullname": "suscipit",
-  "ParentId": 465,
+  "Name": "Bednar-Mante",
+  "Fullname": "maxime",
+  "ParentId": 70,
   "Children": [
     {
-      "HierarchyId": 909,
+      "HierarchyId": 530,
       "Domain": "Dashboards",
-      "Name": "Pfannerstill Inc and Sons",
-      "Fullname": "vel",
-      "ParentId": 345,
+      "Name": "Dickens-Brown",
+      "Fullname": "voluptatibus",
+      "ParentId": 817,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-04-28T13:28:31.7104853+02:00",
-      "RegisteredAssociateId": 967,
-      "Updated": "2002-02-10T13:28:31.7104853+01:00",
-      "UpdatedAssociateId": 551,
+      "Registered": "1999-03-01T04:02:06.6191478+01:00",
+      "RegisteredAssociateId": 463,
+      "Updated": "2013-08-31T04:02:06.6191478+02:00",
+      "UpdatedAssociateId": 902,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldType": "System.String",
+          "FieldLength": 784
         }
       }
     }
   ],
-  "Registered": "2007-06-12T13:28:31.7104853+02:00",
-  "RegisteredAssociateId": 775,
-  "Updated": "2023-05-27T13:28:31.7104853+02:00",
-  "UpdatedAssociateId": 489,
+  "Registered": "2016-06-10T04:02:06.6191478+02:00",
+  "RegisteredAssociateId": 588,
+  "Updated": "2022-05-19T04:02:06.6191478+02:00",
+  "UpdatedAssociateId": 926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

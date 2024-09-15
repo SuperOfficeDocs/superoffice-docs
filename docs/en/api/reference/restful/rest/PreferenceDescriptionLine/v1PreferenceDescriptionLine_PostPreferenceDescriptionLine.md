@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 757,
-  "PrefDescId": 974,
-  "PrefValue": "corporis",
-  "PrefShowValue": "sed",
-  "Description": "Profit-focused transitional functionalities",
-  "IsBuiltin": true
+  "PrefDescLineId": 487,
+  "PrefDescId": 967,
+  "PrefValue": "magni",
+  "PrefShowValue": "vel",
+  "Description": "Progressive high-level policy",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 94,
-  "PrefDescId": 849,
-  "PrefValue": "provident",
-  "PrefShowValue": "et",
-  "Description": "Profit-focused neutral algorithm",
-  "IsBuiltin": false,
+  "PrefDescLineId": 291,
+  "PrefDescId": 180,
+  "PrefValue": "laboriosam",
+  "PrefShowValue": "autem",
+  "Description": "Stand-alone tertiary groupware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldLength": 747
     }
   },
   "_Links": {

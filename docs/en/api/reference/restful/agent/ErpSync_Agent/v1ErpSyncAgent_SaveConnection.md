@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 511,
-  "ErpConnectorId": 668,
-  "DisplayName": "Koch-Jast",
-  "DisplayDescription": "Streamlined human-resource capability",
-  "Active": true,
-  "ConnectionId": "quod",
-  "MostRecentTimestamp": "dolorum",
+  "ErpConnectionId": 947,
+  "ErpConnectorId": 327,
+  "DisplayName": "Zieme, Paucek and Nitzsche",
+  "DisplayDescription": "Assimilated transitional portal",
+  "Active": false,
+  "ConnectionId": "voluptas",
+  "MostRecentTimestamp": "voluptate",
   "ConfigFields": {
-    "ConfigFields1": "non",
-    "ConfigFields2": "ducimus"
+    "ConfigFields1": "excepturi",
+    "ConfigFields2": "laudantium"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    962,
-    645
+    907,
+    832
   ],
   "AssociateAccessIds": [
-    797,
-    917
+    664,
+    840
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    589,
-    294
+    129,
+    473
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Batz, Metz and Cormier",
-    "ToolTip": "Possimus pariatur recusandae dolorem vitae et ullam sit.",
+    "Id": 88,
+    "Name": "Fadel LLC",
+    "ToolTip": "Sit magni fugiat.",
     "Deleted": false,
-    "Rank": 581,
-    "Type": "maxime",
+    "Rank": 178,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "Kuphal Group",
-        "ToolTip": "Dolores fugit vel occaecati.",
+        "Id": 918,
+        "Name": "Hettinger-Johnston",
+        "ToolTip": "Ipsam ut commodi.",
         "Deleted": false,
-        "Rank": 780,
-        "Type": "et",
+        "Rank": 663,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 959,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "laudantium",
-        "FullName": "Mrs. Darren Gottlieb PhD",
+        "IconHint": "cumque",
+        "ColorBlock": 70,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "corporis",
+        "FullName": "Birdie Goodwin IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldLength": 783
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 89,
-    "ExtraInfo": "et",
-    "StyleHint": "officia",
-    "FullName": "Shyann Cronin",
+    "IconHint": "voluptatem",
+    "ColorBlock": 405,
+    "ExtraInfo": "molestias",
+    "StyleHint": "hic",
+    "FullName": "Trenton Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 836
       }
     }
   }

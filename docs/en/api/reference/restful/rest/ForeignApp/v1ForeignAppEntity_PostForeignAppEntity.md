@@ -92,23 +92,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 416,
-  "Name": "Hyatt-Raynor",
-  "CreatedDate": "2000-09-16T13:28:31.6792414+02:00",
-  "UpdatedDate": "2000-08-17T13:28:31.6792414+02:00",
+  "ForeignAppId": 258,
+  "Name": "Huel-Halvorson",
+  "CreatedDate": "2019-11-13T04:02:06.6035245+01:00",
+  "UpdatedDate": "2015-02-22T04:02:06.6035245+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 485,
-      "Name": "Ferry, Schmeler and Thompson",
-      "CreatedDate": "2009-05-29T13:28:31.6792414+02:00",
-      "UpdatedDate": "2017-02-07T13:28:31.6792414+01:00",
-      "AssociateFullName": "Mrs. Addison Parisian",
-      "CreatedBy": "facere",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "quidem",
-      "ForeignAppId": 99
+      "ForeignDeviceId": 977,
+      "Name": "Kemmer, Nolan and Herzog",
+      "CreatedDate": "2000-01-28T04:02:06.6035245+01:00",
+      "UpdatedDate": "2016-10-10T04:02:06.6035245+02:00",
+      "AssociateFullName": "Mrs. Rebeca Kreiger",
+      "CreatedBy": "non",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 329
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 674,
-  "Name": "Bogisich-Padberg",
-  "CreatedDate": "2000-05-17T13:28:31.6792414+02:00",
-  "UpdatedDate": "2016-12-24T13:28:31.6792414+01:00",
+  "ForeignAppId": 324,
+  "Name": "Ernser Group",
+  "CreatedDate": "2021-02-01T04:02:06.6191478+01:00",
+  "UpdatedDate": "1999-06-11T04:02:06.6191478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 766,
-      "Name": "Pfeffer Inc and Sons",
-      "CreatedDate": "2019-04-23T13:28:31.6792414+02:00",
-      "UpdatedDate": "2000-08-10T13:28:31.6792414+02:00",
-      "AssociateFullName": "Adelbert Jast",
-      "CreatedBy": "fugiat",
-      "UpdatedBy": "quidem",
-      "DeviceIdentifier": "eos",
-      "ForeignAppId": 155,
+      "ForeignDeviceId": 686,
+      "Name": "Conn, Nienow and Ledner",
+      "CreatedDate": "2018-04-19T04:02:06.6191478+02:00",
+      "UpdatedDate": "2001-05-31T04:02:06.6191478+02:00",
+      "AssociateFullName": "Prof. Bart Larkin Sr.",
+      "CreatedBy": "voluptate",
+      "UpdatedBy": "incidunt",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 292,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldLength": 983
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 259
     }
   },
   "_Links": {

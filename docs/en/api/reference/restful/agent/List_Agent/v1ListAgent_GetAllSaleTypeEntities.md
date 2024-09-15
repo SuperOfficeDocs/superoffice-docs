@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 927,
-    "Name": "Haag, Mann and Volkman",
-    "Tooltip": "assumenda",
-    "Rank": 295,
+    "SaleTypeId": 942,
+    "Name": "Moen, Jast and Tillman",
+    "Tooltip": "ut",
+    "Rank": 878,
     "DurationUnit": "Century",
-    "SaleDuration": 471,
-    "SaleTypeCatId": 109,
-    "Deleted": true,
-    "HasGuide": false,
+    "SaleDuration": 630,
+    "SaleTypeCatId": 253,
+    "Deleted": false,
+    "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 353,
-    "QuoteLinesTemplate": 2,
-    "ConfirmationLinesTemplate": 997,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 831,
-    "MinEarningPercent": 738,
-    "GroupQuoteLinesBy": 85,
-    "SortGroupLinesBy": 106,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 564,
+    "QuoteLinesTemplate": 731,
+    "ConfirmationLinesTemplate": 387,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 752,
+    "MinEarningPercent": 688,
+    "GroupQuoteLinesBy": 77,
+    "SortGroupLinesBy": 422,
     "Stages": [
       {
-        "Id": 786,
-        "Name": "Rodriguez LLC",
-        "ToolTip": "In aut.",
-        "Deleted": true,
-        "Rank": 17,
-        "Type": "ut",
-        "ColorBlock": 871,
-        "IconHint": "voluptatem",
+        "Id": 191,
+        "Name": "Reinger-Ziemann",
+        "ToolTip": "Culpa delectus eveniet molestias ducimus sed magni earum.",
+        "Deleted": false,
+        "Rank": 247,
+        "Type": "sit",
+        "ColorBlock": 110,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2019-05-07T13:28:22.9294051+02:00",
+        "LastChanged": "2006-03-23T04:02:01.8316108+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Etha Konopelski DVM",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Iva Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldLength": 903
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 751
       }
     }
   }

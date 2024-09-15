@@ -2,10 +2,10 @@
 uid: enum-taskdirection
 title: Enum values for TaskDirection
 description: Lists the enum values for TaskDirection.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskDirection Enum

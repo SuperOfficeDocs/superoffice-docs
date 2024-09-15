@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Name": "Bailey-Turner",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 435,
+  "Id": 686,
+  "Name": "Johnston, Huel and Rau",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 194,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   },
   "_Links": {

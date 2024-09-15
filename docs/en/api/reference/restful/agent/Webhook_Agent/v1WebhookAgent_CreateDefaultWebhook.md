@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 956,
-  "Name": "Boyle, Ernser and Witting",
+  "WebhookId": 229,
+  "Name": "D'Amore, Johnston and Wehner",
   "Events": [
-    "asperiores",
-    "cupiditate"
+    "voluptatem",
+    "at"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "enim",
+  "Secret": "temporibus",
   "State": "Active",
-  "Type": "et",
+  "Type": "distinctio",
   "Headers": {
-    "Headers1": "architecto",
-    "Headers2": "odit"
+    "Headers1": "repellat",
+    "Headers2": "minus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-01-28T13:28:24.2429064+01:00",
+  "Registered": "2000-05-18T04:02:02.5822222+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-01-21T13:28:24.2429064+01:00",
+  "Updated": "2001-02-26T04:02:02.5822222+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "eleonore@anderson.name"
+  "ErrorsEmail": "kolby@bogisich.info"
 }
 ```

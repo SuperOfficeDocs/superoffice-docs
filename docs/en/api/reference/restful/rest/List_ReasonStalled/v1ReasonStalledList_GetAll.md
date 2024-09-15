@@ -25,7 +25,7 @@ Gets all the ReasonStalled items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items?includeDeleted=True
+GET /api/v1/List/ReasonStalled/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Sporer Inc and Sons",
-    "Tooltip": "placeat",
+    "Id": 221,
+    "Name": "Wyman-Boyle",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 830,
-    "Rank": 905,
+    "UdListDefinitionId": 110,
+    "Rank": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 938
       }
     }
   }

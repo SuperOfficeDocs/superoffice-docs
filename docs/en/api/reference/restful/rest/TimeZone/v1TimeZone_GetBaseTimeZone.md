@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 495,
-  "Name": "Howell LLC",
-  "TZLocationCode": "minus",
-  "TZLocationCities": "eos",
-  "IsoNumber": 93,
+  "TZLocationID": 976,
+  "Name": "Reynolds Inc and Sons",
+  "TZLocationCode": "et",
+  "TZLocationCities": "dolores",
+  "IsoNumber": 454,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 242,
-      "StartMonth": 812,
-      "EndDay": 195,
-      "EndMonth": 691,
-      "TZOffset": 630,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "necessitatibus"
+      "StartDay": 417,
+      "StartMonth": 441,
+      "EndDay": 544,
+      "EndMonth": 32,
+      "TZOffset": 655,
+      "StartRulePattern": "eum",
+      "EndRulePattern": "vitae"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 427,
-      "StartMonth": 436,
-      "EndDay": 491,
-      "EndMonth": 793,
-      "TZOffset": 220,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "a"
+      "StartDay": 54,
+      "StartMonth": 6,
+      "EndDay": 742,
+      "EndMonth": 528,
+      "TZOffset": 9,
+      "StartRulePattern": "necessitatibus",
+      "EndRulePattern": "quo"
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-SourceGroupLink
 title: SourceGroupLink table
 description: User group link table for Source, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table SourceGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SourceGroupLink Table (101)

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Daniel Inc and Sons",
-    "ToolTip": "Nam libero ducimus debitis est.",
-    "Deleted": true,
-    "Rank": 629,
-    "Type": "soluta",
-    "ColorBlock": 891,
-    "IconHint": "voluptatem",
+    "Id": 76,
+    "Name": "Rowe-Marquardt",
+    "ToolTip": "Ut veritatis consequatur quo quasi.",
+    "Deleted": false,
+    "Rank": 701,
+    "Type": "ut",
+    "ColorBlock": 475,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2024-01-09T13:28:32.9603316+01:00",
+    "LastChanged": "2005-03-30T04:02:07.3221997+02:00",
     "ChildItems": [
       {
-        "Id": 286,
-        "Name": "Tillman-Barton",
-        "ToolTip": "Ut perferendis iusto ducimus omnis molestiae fugit optio.",
+        "Id": 218,
+        "Name": "Beatty Inc and Sons",
+        "ToolTip": "Velit odit non enim.",
         "Deleted": false,
-        "Rank": 686,
-        "Type": "eum",
-        "ColorBlock": 238,
-        "IconHint": "sit",
+        "Rank": 802,
+        "Type": "quis",
+        "ColorBlock": 477,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2008-01-22T13:28:32.9603316+01:00",
+        "LastChanged": "2022-12-08T04:02:07.3221997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Willis Ally Ryan V"
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Amanda Bednar"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quod",
+    "ExtraInfo": "quam",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Ms. Marisol Effertz"
+    "FullName": "Vella Witting"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Adams-Kub",
-    "ToolTip": "Iste repudiandae perspiciatis impedit dignissimos cum est quia.",
-    "Deleted": false,
-    "Rank": 134,
-    "Type": "dicta",
-    "ColorBlock": 563,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "2006-11-07T13:28:32.9603316+01:00",
+    "Id": 822,
+    "Name": "Schmeler-Jacobi",
+    "ToolTip": "Autem voluptatem necessitatibus nihil nihil.",
+    "Deleted": true,
+    "Rank": 31,
+    "Type": "officia",
+    "ColorBlock": 979,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2007-12-12T04:02:07.3221997+01:00",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Wolf-Dickens",
-        "ToolTip": "Iusto quae dolore nisi molestias aut voluptatem ex.",
-        "Deleted": true,
-        "Rank": 74,
-        "Type": "eum",
-        "ColorBlock": 626,
-        "IconHint": "quaerat",
+        "Id": 745,
+        "Name": "Gusikowski-Hilpert",
+        "ToolTip": "Enim dicta dolores fuga a aliquam.",
+        "Deleted": false,
+        "Rank": 776,
+        "Type": "facilis",
+        "ColorBlock": 845,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2020-02-18T13:28:32.9603316+01:00",
+        "LastChanged": "2020-11-07T04:02:07.3221997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "ut",
+        "ExtraInfo": "rerum",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Marcelino Willms",
+        "FullName": "Mrs. Emmett Edison Rohan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 643
+            "FieldType": "System.String",
+            "FieldLength": 503
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Mr. Eulah Haley",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Amara Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 807
       }
     }
   }

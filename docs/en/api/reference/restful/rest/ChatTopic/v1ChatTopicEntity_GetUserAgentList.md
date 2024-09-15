@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Davis LLC",
-    "ToolTip": "Repudiandae cupiditate quidem praesentium necessitatibus blanditiis necessitatibus consequuntur.",
+    "Id": 362,
+    "Name": "Cormier Group",
+    "ToolTip": "Deserunt voluptates explicabo non.",
     "Deleted": false,
-    "Rank": 22,
-    "Type": "odit",
+    "Rank": 667,
+    "Type": "optio",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Kilback, Parker and Johnson",
-        "ToolTip": "Beatae numquam qui consequatur in.",
-        "Deleted": true,
-        "Rank": 241,
-        "Type": "at",
+        "Id": 373,
+        "Name": "Hintz-Torp",
+        "ToolTip": "Omnis sapiente enim in dolorum.",
+        "Deleted": false,
+        "Rank": 598,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 445,
-        "ExtraInfo": "accusantium",
-        "StyleHint": "nihil",
-        "FullName": "Dario Schaden PhD",
+        "IconHint": "itaque",
+        "ColorBlock": 399,
+        "ExtraInfo": "qui",
+        "StyleHint": "commodi",
+        "FullName": "Mr. Mariana Fadel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldLength": 246
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 991,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "nulla",
-    "FullName": "Dr. Delilah Emilio Reynolds Sr.",
+    "IconHint": "occaecati",
+    "ColorBlock": 438,
+    "ExtraInfo": "id",
+    "StyleHint": "voluptas",
+    "FullName": "Mr. Bailey Gutmann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldType": "System.String",
+        "FieldLength": 531
       }
     }
   }

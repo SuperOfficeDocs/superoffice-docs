@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 550,
-    "Name": "Little-Langworth",
-    "Tooltip": "enim",
+    "HeadingId": 855,
+    "Name": "Oberbrunner Group",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 76
+    "Rank": 501,
+    "UdListDefinitionId": 702
   },
   {
-    "HeadingId": 550,
-    "Name": "Little-Langworth",
-    "Tooltip": "enim",
+    "HeadingId": 855,
+    "Name": "Oberbrunner Group",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 977,
-    "UdListDefinitionId": 76
+    "Rank": 501,
+    "UdListDefinitionId": 702
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Kling-Stracke",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 495,
+    "HeadingId": 863,
+    "Name": "Cole, Hahn and Considine",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "Rank": 781,
+    "UdListDefinitionId": 487,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 517
       }
     }
   }

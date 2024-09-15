@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": true
+  "Flat": true,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Reichel Inc and Sons",
-    "ToolTip": "Dolorum nesciunt sint sit reprehenderit.",
+    "Id": 658,
+    "Name": "Zieme LLC",
+    "ToolTip": "Iste sed pariatur quis exercitationem.",
     "Deleted": false,
-    "Rank": 623,
-    "Type": "aut",
+    "Rank": 267,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Sauer Group",
-        "ToolTip": "Enim dolorem quia voluptas sit.",
-        "Deleted": false,
-        "Rank": 603,
-        "Type": "et",
+        "Id": 901,
+        "Name": "Conn-Pollich",
+        "ToolTip": "Ratione ex neque provident non consequatur tempora inventore.",
+        "Deleted": true,
+        "Rank": 872,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 78,
-        "ExtraInfo": "repellat",
-        "StyleHint": "minima",
-        "FullName": "Yesenia Johnston",
+        "IconHint": "aperiam",
+        "ColorBlock": 836,
+        "ExtraInfo": "sed",
+        "StyleHint": "beatae",
+        "FullName": "Dimitri Jalyn Shanahan Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 997
+            "FieldType": "System.Int32",
+            "FieldLength": 929
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 189,
-    "ExtraInfo": "soluta",
-    "StyleHint": "adipisci",
-    "FullName": "Craig Koch",
+    "IconHint": "nostrum",
+    "ColorBlock": 98,
+    "ExtraInfo": "vitae",
+    "StyleHint": "aspernatur",
+    "FullName": "Fay Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 48
       }
     }
   }

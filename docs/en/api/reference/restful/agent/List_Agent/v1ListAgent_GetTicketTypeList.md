@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 964,
-    "Name": "Ortiz Inc and Sons",
-    "Rank": 781,
-    "Tooltip": "et",
-    "Icon": "inventore",
-    "DefaultTicketStatus": 27,
+    "TicketTypeId": 181,
+    "Name": "Bashirian-Hills",
+    "Rank": 605,
+    "Tooltip": "non",
+    "Icon": "similique",
+    "DefaultTicketStatus": 711,
     "TicketStatuses": [
-      298,
-      103
+      52,
+      85
     ],
-    "DefaultTicketPriority": 977,
+    "DefaultTicketPriority": 402,
     "TicketPriorities": [
-      123,
-      545
+      300,
+      155
     ],
-    "ReplyTemplate": 661,
+    "ReplyTemplate": 785,
     "IsExternalVisible": false,
     "IsDefault": false,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": false,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      422,
-      503
+      554,
+      869
     ],
-    "ReplyForwardNoSignature": true,
+    "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldLength": 645
       }
     }
   }

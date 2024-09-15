@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 706,
-  "SelectionId": 383,
+  "DocumentPluginId": 113,
+  "SelectionId": 314,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 229,
-  "NumDocumentsAlreadyMigrated": 271,
+  "NumDocumentsOmitted": 179,
+  "NumDocumentsAlreadyMigrated": 351,
   "Documents": [
     {
-      "DocumentId": 505,
-      "ContactId": 859,
-      "PersonId": 709,
-      "SaleId": 937,
-      "ProjectId": 148,
-      "DocTmplId": 929,
-      "AssociateId": 189,
-      "UserGroupId": 106,
-      "VisibleForId": 653
+      "DocumentId": 135,
+      "ContactId": 600,
+      "PersonId": 92,
+      "SaleId": 698,
+      "ProjectId": 710,
+      "DocTmplId": 557,
+      "AssociateId": 382,
+      "UserGroupId": 711,
+      "VisibleForId": 960
     }
   ],
   "Associates": [
     {
-      "AssociateId": 634,
-      "EmailAddress": "kacie@okuneva.us"
+      "AssociateId": 362,
+      "EmailAddress": "elvis.huel@prohaska.uk"
     },
     {
-      "AssociateId": 634,
-      "EmailAddress": "kacie@okuneva.us"
+      "AssociateId": 362,
+      "EmailAddress": "elvis.huel@prohaska.uk"
     }
   ]
 }

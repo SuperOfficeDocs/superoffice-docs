@@ -2,10 +2,10 @@
 uid: table-ProjType
 title: ProjType table
 description: ProjType list table. List of valid Project types.
-generated: true
+so.generated: true
 keywords: database table ProjType
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProjType Table (85)

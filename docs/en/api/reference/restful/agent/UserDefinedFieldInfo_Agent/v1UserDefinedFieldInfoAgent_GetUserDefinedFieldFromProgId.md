@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "sit",
+  "ProgId": "deleniti",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 702,
-  "ColumnId": 263,
-  "FieldDefault": "quasi",
-  "FieldHeight": 475,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 192,
-  "FieldTop": 850,
+  "UDefFieldId": 43,
+  "ColumnId": 600,
+  "FieldDefault": "ut",
+  "FieldHeight": 123,
+  "FieldLabel": "saepe",
+  "FieldLeft": 864,
+  "FieldTop": 21,
   "FieldType": "Checkbox",
-  "FieldWidth": 507,
-  "FormatMask": "labore",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 545,
-  "LabelLeft": 486,
-  "LabelTop": 439,
-  "LabelWidth": 527,
-  "LastVersionId": 463,
-  "ListTableId": 570,
+  "FieldWidth": 81,
+  "FormatMask": "modi",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 538,
+  "LabelLeft": 615,
+  "LabelTop": 993,
+  "LabelWidth": 342,
+  "LastVersionId": 432,
+  "ListTableId": 480,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 434,
-  "ProgId": "molestiae",
+  "Page1LineNo": 278,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "doloremque",
-  "TabOrder": 890,
-  "TextLength": 342,
-  "Tooltip": "quis",
-  "UdefIdentity": 1002,
-  "UDListDefinitionId": 27,
+  "ShortLabel": "ut",
+  "TabOrder": 406,
+  "TextLength": 123,
+  "Tooltip": "esse",
+  "UdefIdentity": 791,
+  "UDListDefinitionId": 9,
   "Justification": "Center",
-  "Version": 922,
-  "TemplateVariableName": "O'Connell Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Leffler LLC",
+  "Version": 37,
+  "TemplateVariableName": "Conn-Sawayn",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuhlman-Blick",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 349
     }
   }
 }

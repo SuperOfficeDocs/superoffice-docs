@@ -2,10 +2,10 @@
 uid: enum-ownertype
 title: Enum values for OwnerType
 description: Lists the enum values for OwnerType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # OwnerType Enum

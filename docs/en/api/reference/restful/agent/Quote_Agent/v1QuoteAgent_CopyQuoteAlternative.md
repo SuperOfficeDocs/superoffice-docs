@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 88,
-  "QuoteAlternativeId": 607,
-  "QuoteAlternativeName": "Bergstrom-Lesch"
+  "QuoteVersionId": 730,
+  "QuoteAlternativeId": 560,
+  "QuoteAlternativeName": "Jenkins LLC"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 704,
-  "ERPQuoteAlternativeKey": "natus",
-  "QuoteVersionId": 791,
-  "Name": "Becker Inc and Sons",
-  "Description": "Managed eco-centric middleware",
+  "QuoteAlternativeId": 342,
+  "ERPQuoteAlternativeKey": "esse",
+  "QuoteVersionId": 613,
+  "Name": "Kub-Schowalter",
+  "Description": "Synergized systematic policy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11940.539999999999,
-  "ERPDiscountAmount": 23580.216,
-  "DiscountPercent": 26237.847999999998,
-  "DiscountAmount": 5193.038,
+  "ERPDiscountPercent": 2359.902,
+  "ERPDiscountAmount": 868.11799999999994,
+  "DiscountPercent": 29340.507999999998,
+  "DiscountAmount": 9076.064,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "eveniet",
-  "VAT": 11313.74,
-  "EarningPercent": 19399.46,
-  "EarningAmount": 6734.9659999999994,
-  "SubTotal": 24836.95,
-  "TotalPrice": 25394.802,
-  "ExtraField1": "perferendis",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "a",
-  "ExtraField4": "vel",
-  "ExtraField5": "nesciunt",
+  "VATInfo": "aut",
+  "VAT": 21073.016,
+  "EarningPercent": 8023.04,
+  "EarningAmount": 21342.54,
+  "SubTotal": 7126.7159999999994,
+  "TotalPrice": 24623.838,
+  "ExtraField1": "quaerat",
+  "ExtraField2": "placeat",
+  "ExtraField3": "reiciendis",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

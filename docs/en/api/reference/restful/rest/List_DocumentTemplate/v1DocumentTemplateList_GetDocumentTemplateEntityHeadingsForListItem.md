@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Heaney-West",
-    "ToolTip": "Officia recusandae exercitationem alias.",
+    "Id": 187,
+    "Name": "Bogan Group",
+    "ToolTip": "Minima est iste laudantium delectus.",
     "Deleted": true,
-    "Rank": 231,
-    "Type": "possimus",
-    "ColorBlock": 536,
-    "IconHint": "laboriosam",
+    "Rank": 940,
+    "Type": "repellat",
+    "ColorBlock": 845,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2020-07-06T13:28:32.8509815+02:00",
+    "LastChanged": "2000-05-07T04:02:07.2440841+02:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Cummerata, Murphy and Kilback",
-        "ToolTip": "Natus accusamus corporis voluptas pariatur sunt illum corrupti.",
-        "Deleted": false,
-        "Rank": 536,
-        "Type": "sequi",
-        "ColorBlock": 168,
-        "IconHint": "illum",
+        "Id": 237,
+        "Name": "Nikolaus Inc and Sons",
+        "ToolTip": "Debitis recusandae harum quas voluptates est sit.",
+        "Deleted": true,
+        "Rank": 903,
+        "Type": "beatae",
+        "ColorBlock": 841,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2021-01-18T13:28:32.8509815+01:00",
+        "LastChanged": "2006-05-23T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Sammy Kautzer",
+        "ExtraInfo": "dolor",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Daisha Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldType": "System.Int32",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "eos",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Kayley Ken Eichmann Sr.",
+    "FullName": "Miss Mark Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

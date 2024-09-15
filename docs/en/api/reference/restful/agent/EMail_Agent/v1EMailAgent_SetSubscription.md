@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Pouros, Rath and Torp",
-      "Delimiter": "reiciendis",
-      "Flags": "nam",
-      "TotalItems": 622,
-      "UnreadItems": 966,
+      "Name": "Armstrong-Langosh",
+      "Delimiter": "quis",
+      "Flags": "est",
+      "TotalItems": 906,
+      "UnreadItems": 494,
       "Subscribed": false,
-      "EmailFolderId": 314
+      "EmailFolderId": 658
     }
   ]
 }

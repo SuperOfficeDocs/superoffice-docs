@@ -2,10 +2,10 @@
 uid: table-RejectReason
 title: RejectReason table
 description: Rejection reason (suggested) for bookings
-generated: true
+so.generated: true
 keywords: database table RejectReason
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # RejectReason Table (222)

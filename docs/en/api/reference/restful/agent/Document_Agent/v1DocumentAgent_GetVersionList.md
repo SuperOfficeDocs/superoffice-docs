@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 373
+  "DocumentId": 236
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "praesentium",
-    "DocumentId": 696,
-    "VersionId": "quos",
-    "CheckedInDate": "2007-10-16T13:28:22.585469+02:00",
-    "CheckedInByName": "Gottlieb, Kuhlman and Cremin",
-    "CheckedInByAssociateId": 111,
-    "Description": "Reverse-engineered even-keeled initiative",
-    "DisplayText": "pariatur",
+    "ExternalReference": "dolorem",
+    "DocumentId": 335,
+    "VersionId": "qui",
+    "CheckedInDate": "2010-12-08T04:02:01.6436305+01:00",
+    "CheckedInByName": "Labadie-Huel",
+    "CheckedInByAssociateId": 517,
+    "Description": "Cross-platform reciprocal protocol",
+    "DisplayText": "id",
     "ExtraFields": [
-      "doloribus",
-      "iusto"
+      "ut",
+      "minus"
     ]
   }
 ]

@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Mills-Schumm",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "UdListDefinitionId": 998,
-  "Rank": 552,
+  "Id": 13,
+  "Name": "Jacobi Group",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "UdListDefinitionId": 833,
+  "Rank": 202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 584
     }
   }
 }

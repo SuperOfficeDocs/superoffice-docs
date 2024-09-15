@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Borer Inc and Sons",
+  "UdListDefinitionName": "Gottlieb, Pouros and Morissette",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Waters-Hettinger",
-  "Tooltip": "nesciunt",
+  "Id": 182,
+  "Name": "Cartwright-Sanford",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 578,
-  "Rank": 256,
+  "UdListDefinitionId": 18,
+  "Rank": 743,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

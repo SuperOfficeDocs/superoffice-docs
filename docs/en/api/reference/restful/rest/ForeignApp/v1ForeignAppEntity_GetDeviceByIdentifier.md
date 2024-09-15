@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 21 Oct 2014 13:28:31 G10T
+Last-Modified: Tue, 13 Mar 2007 04:02:06 G3T
 
 {
-  "ForeignDeviceId": 714,
-  "Name": "Jerde LLC",
-  "CreatedDate": "2014-08-21T13:28:31.6948645+02:00",
-  "UpdatedDate": "2014-10-21T13:28:31.6948645+02:00",
-  "AssociateFullName": "Dr. Mable Floyd Schimmel",
-  "CreatedBy": "modi",
-  "UpdatedBy": "minima",
-  "DeviceIdentifier": "perspiciatis",
-  "ForeignAppId": 105,
+  "ForeignDeviceId": 411,
+  "Name": "Metz, Bruen and Connelly",
+  "CreatedDate": "2013-03-11T04:02:06.6191478+01:00",
+  "UpdatedDate": "2007-03-13T04:02:06.6191478+01:00",
+  "AssociateFullName": "Carole Bayer",
+  "CreatedBy": "dolorem",
+  "UpdatedBy": "labore",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 607
     }
   }
 }

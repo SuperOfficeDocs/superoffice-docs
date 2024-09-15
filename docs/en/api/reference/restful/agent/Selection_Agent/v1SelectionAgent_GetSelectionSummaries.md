@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    51,
-    34
+    712,
+    555
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 499,
-    "Name": "Windler, Zulauf and Boyle",
-    "TargetTable": "consequuntur",
-    "Registered": "2024-07-23T13:28:23.7885837+02:00",
-    "ProviderName": "Davis-Koss"
+    "SelectionId": 600,
+    "Name": "Steuber-Bartoletti",
+    "TargetTable": "aut",
+    "Registered": "2006-12-22T04:02:02.3317533+01:00",
+    "ProviderName": "Pfannerstill-Hills"
   },
   {
-    "SelectionId": 499,
-    "Name": "Windler, Zulauf and Boyle",
-    "TargetTable": "consequuntur",
-    "Registered": "2024-07-23T13:28:23.7885837+02:00",
-    "ProviderName": "Davis-Koss"
+    "SelectionId": 600,
+    "Name": "Steuber-Bartoletti",
+    "TargetTable": "aut",
+    "Registered": "2006-12-22T04:02:02.3317533+01:00",
+    "ProviderName": "Pfannerstill-Hills"
   }
 ]
 ```

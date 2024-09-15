@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 18
+  "ProductId": 848
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "tempore",
-  "ERPPriceListKey": "nulla",
-  "Name": "Johnston Inc and Sons",
-  "Description": "Profound client-server model",
-  "Code": "possimus",
-  "PriceUnit": "doloribus",
-  "QuantityUnit": "et",
+  "ProductId": 31,
+  "ERPProductKey": "accusantium",
+  "ERPPriceListKey": "iusto",
+  "Name": "Huel LLC",
+  "Description": "Progressive homogeneous moratorium",
+  "Code": "perferendis",
+  "PriceUnit": "ipsum",
+  "QuantityUnit": "repellat",
   "IsSubscription": false,
-  "SubscriptionUnit": "unde",
-  "DefaultSubscriptionQuantity": 27695.158,
-  "ItemNumber": "1376772",
+  "SubscriptionUnit": "odio",
+  "DefaultSubscriptionQuantity": 9226.496,
+  "ItemNumber": "936773",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "rerum",
-  "VAT": 30449.944,
-  "VATInfo": "temporibus",
-  "UnitCost": 17443.844,
-  "UnitMinimumPrice": 7408.776,
-  "UnitListPrice": 3660.5119999999997,
-  "InAssortment": false,
-  "Supplier": "beatae",
-  "SupplierCode": "sunt",
-  "Rights": "labore",
-  "Rule": "dolorem",
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "laboriosam",
+  "VAT": 17415.638,
+  "VATInfo": "numquam",
+  "UnitCost": 14739.202,
+  "UnitMinimumPrice": 23599.02,
+  "UnitListPrice": 18484.332,
+  "InAssortment": true,
+  "Supplier": "sequi",
+  "SupplierCode": "est",
+  "Rights": "laudantium",
+  "Rule": "dignissimos",
   "ExtraInfo": [
     {
-      "Name": "Block LLC",
-      "Value": "iste",
+      "Name": "Robel-Tillman",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 537
+          "FieldType": "System.Int32",
+          "FieldLength": 807
         }
       }
     },
     {
-      "Name": "Block LLC",
-      "Value": "iste",
+      "Name": "Robel-Tillman",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 537
+          "FieldType": "System.Int32",
+          "FieldLength": 807
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "dolorum",
-  "ExtraField2": "sunt",
-  "ExtraField3": "omnis",
-  "ExtraField4": "incidunt",
-  "ExtraField5": "occaecati",
-  "InStock": 22100.968,
+  "RawExtraInfo": "iure",
+  "ExtraField1": "quisquam",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "voluptate",
+  "ExtraField4": "dolores",
+  "ExtraField5": "consequuntur",
+  "InStock": 21850.248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

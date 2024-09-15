@@ -2,10 +2,10 @@
 uid: table-SaleTypeGroupLink
 title: SaleTypeGroupLink table
 description: User group link table for SaleType, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table SaleTypeGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleTypeGroupLink Table (150)

@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 694,
-    "Name": "Moen, Waelchi and Schuppe",
-    "Tooltip": "illum",
-    "Rank": 931,
-    "Rate": 22984.755999999998,
-    "Units": 15604.186,
+    "CurrencyId": 868,
+    "Name": "Kerluke, Schmitt and Metz",
+    "Tooltip": "saepe",
+    "Rank": 993,
+    "Rate": 24081.656,
+    "Units": 15654.33,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 307
       }
     }
   }

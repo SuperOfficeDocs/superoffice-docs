@@ -2,10 +2,10 @@
 uid: table-ejscript
 title: ejscript table
 description: ejscript
-generated: true
+so.generated: true
 keywords: database table ejscript
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejscript Table (377)
@@ -34,6 +34,10 @@ ejscript
 |type|The type/language of this script|Enum [ScriptType](enums/scripttype.md)| |
 |last\_exec\_http|The last time this script was executed by a HTTP call as a authenticated user|UtcDateTime|&#x25CF;|
 |last\_exec\_anon\_http|The last time this script was executed by a HTTP call anonomously|UtcDateTime|&#x25CF;|
+|source\_code|Contains the source code of the script|Clob|&#x25CF;|
+|includes|Contains a comma separated list of ids of all nested includes used by this script|String(4000)|&#x25CF;|
+|last\_compiled|When this script was last compiled (UTC).|DateTime|&#x25CF;|
+|source\_maps|Source maps in JSON format|Clob|&#x25CF;|
 
 
 ![ejscript table relationship diagram](./media/ejscript.png)

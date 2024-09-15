@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 281,
+  "TicketId": 555,
   "MessageIds": [
-    371,
-    27
+    885,
+    66
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 393,
+    "EjMessageId": 402,
     "Ticket": null,
-    "CreatedAt": "1998-06-15T13:28:24.0385348+02:00",
+    "CreatedAt": "2008-12-31T04:02:02.4723634+01:00",
     "CreatedBy": null,
     "Author": "non",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "iusto",
-    "TimeSpent": 471,
-    "Body": "minus",
-    "HtmlBody": "doloribus",
-    "EmailHeader": "una@blickjones.com",
-    "DebugInfo": "est",
-    "MailSorter": "esse",
+    "MessageId": "modi",
+    "TimeSpent": 562,
+    "Body": "inventore",
+    "HtmlBody": "repellendus",
+    "EmailHeader": "preston@schaden.co.uk",
+    "DebugInfo": "labore",
+    "MailSorter": "facere",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "veritatis",
+    "SearchTitle": "eos",
     "MessageHeaders": [
       {
-        "Id": 496,
-        "Name": "Mosciski Inc and Sons",
-        "Value": "aut",
+        "Id": 35,
+        "Name": "Rodriguez LLC",
+        "Value": "ducimus",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 964
           }
         }
       }
     ],
     "Important": false,
-    "Language": "quis",
-    "Sentiment": 785,
-    "SentimentConfidence": 503,
+    "Language": "in",
+    "Sentiment": 99,
+    "SentimentConfidence": 370,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 389,
-        "Name": "Wintheiser-Gusikowski",
-        "ContentType": "sint",
-        "AttSize": 711,
+        "AttachmentId": 537,
+        "Name": "Wilderman, Satterfield and Schowalter",
+        "ContentType": "reiciendis",
+        "AttSize": 789,
         "InlineImage": false,
-        "ContentId": "eaque",
-        "AuthKey": "recusandae",
-        "IsSafeFileExtension": true,
+        "ContentId": "quod",
+        "AuthKey": "aliquam",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldType": "System.String",
+            "FieldLength": 484
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "velit",
-      "ExtraFields2": "praesentium"
+      "ExtraFields1": "recusandae",
+      "ExtraFields2": "voluptatem"
     },
     "CustomFields": {
-      "CustomFields1": "velit",
-      "CustomFields2": "delectus"
+      "CustomFields1": "molestias",
+      "CustomFields2": "est"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldType": "System.Int32",
+        "FieldLength": 802
       }
     }
   }

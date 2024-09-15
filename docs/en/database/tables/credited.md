@@ -2,10 +2,10 @@
 uid: table-Credited
 title: Credited table
 description: Credited list table. List of who is to be credited for the sale.
-generated: true
+so.generated: true
 keywords: database table Credited
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Credited Table (97)

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 38,
-    "Name": "Rohan-Dickens",
-    "Tooltip": "velit",
+    "HeadingId": 974,
+    "Name": "Mayer, Rolfson and Koelpin",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 605,
-    "UdListDefinitionId": 327,
+    "Rank": 480,
+    "UdListDefinitionId": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 557
       }
     }
   }

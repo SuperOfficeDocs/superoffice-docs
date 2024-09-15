@@ -2,10 +2,10 @@
 uid: table-dashboard_tile_field
 title: dashboard_tile_field table
 description: Describes the contents of a tile field
-generated: true
+so.generated: true
 keywords: database table dashboard_tile_field
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # dashboard\_tile\_field Table (483)

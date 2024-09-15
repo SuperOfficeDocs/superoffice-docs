@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 28 Feb 2000 13:28:31 G2T
+Last-Modified: Wed, 19 Feb 2014 04:02:06 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-12-16T13:28:31.0856326+01:00",
-  "AppointmentId": 358,
-  "Description": "Centralized high-level projection",
-  "Title": "necessitatibus",
-  "Agenda": "fuga",
-  "InternalNotes": "non",
-  "StartDate": "2011-11-18T13:28:31.0856326+01:00",
-  "EndDate": "2018-08-03T13:28:31.0856326+02:00",
+  "CreatedDate": "2014-03-26T04:02:06.1987274+01:00",
+  "AppointmentId": 749,
+  "Description": "Cross-group content-based middleware",
+  "Title": "ut",
+  "Agenda": "qui",
+  "InternalNotes": "sapiente",
+  "StartDate": "2013-05-01T04:02:06.1987274+02:00",
+  "EndDate": "2020-08-18T04:02:06.1987274+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 184,
+  "MotherId": 113,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-02-28T13:28:31.0856326+01:00",
+  "UpdatedDate": "2014-02-19T04:02:06.2003784+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 731,
+  "ActiveLinks": 763,
   "Links": [
     {
-      "EntityName": "Lakin LLC",
-      "Id": 962,
-      "Description": "Function-based systemic projection",
-      "ExtraInfo": "itaque",
-      "LinkId": 188,
+      "EntityName": "Quitzon-Douglas",
+      "Id": 811,
+      "Description": "Persevering 4th generation portal",
+      "ExtraInfo": "labore",
+      "LinkId": 185,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 856
+          "FieldLength": 949
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 731,
+  "AlarmLeadTime": "aperiam",
+  "HasAlarm": true,
+  "ColorIndex": 247,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "quis",
-  "LeadTime": "iure",
-  "Location": "sit",
-  "RejectCounter": 606,
-  "RejectReason": "",
+  "LagTime": "architecto",
+  "LeadTime": "et",
+  "Location": "praesentium",
+  "RejectCounter": 110,
+  "RejectReason": "facilitate e-business functionalities",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 964,
-      "PersonId": 911,
-      "ContactId": 672,
-      "EmailId": 243,
+      "AssociateId": 391,
+      "PersonId": 741,
+      "ContactId": 676,
+      "EmailId": 66,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "bertha@beahan.name",
-      "Description": "Open-architected radical architecture"
+      "EmailAddress": "oscar.gibson@gusikowski.com",
+      "Description": "Sharable human-resource matrices"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-11-26T13:28:31.0856326+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2011-09-29T04:02:06.2009224+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 256,
+  "PreferredTZLocation": 201,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 165,
+  "SuggestedAppointmentId": 192,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "praesentium",
   "UserDefinedFields": {
-    "SuperOffice:1": "210352842",
-    "SuperOffice:2": "Murl Stark"
+    "SuperOffice:1": "1207042905",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "quam"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "sit"
+    "CustomFields1": "sed",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "1998-08-16T13:28:31.0856326+02:00",
-  "PublishTo": "2010-10-12T13:28:31.0856326+02:00",
-  "PublishFrom": "1999-03-10T13:28:31.0856326+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-02-04T04:02:06.201427+01:00",
+  "PublishTo": "2022-09-04T04:02:06.201427+02:00",
+  "PublishFrom": "2005-07-24T04:02:06.201427+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 575,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 277
         }
       }
     },
     {
-      "VisibleId": 575,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 277
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Mon, 28 Feb 2000 13:28:31 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 441
     }
   }
 }

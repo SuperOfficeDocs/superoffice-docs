@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "Stiedemann, Heaney and Corkery",
-  "Tooltip": "incidunt",
+  "Id": 336,
+  "Name": "Huel LLC",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 697,
+  "Rank": 408,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Ullrich-Schinner",
-  "Tooltip": "maxime",
+  "Id": 557,
+  "Name": "Schoen, Stokes and Powlowski",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 955,
+  "Rank": 70,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

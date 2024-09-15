@@ -2,10 +2,10 @@
 uid: table-ejsel_result_set
 title: ejsel_result_set table
 description: This table stores result set reference data, result sets for selections
-generated: true
+so.generated: true
 keywords: database table ejsel_result_set
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejsel\_result\_set Table (398)

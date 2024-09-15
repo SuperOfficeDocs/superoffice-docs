@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 872,
-  "Name": "Rutherford-Mitchell",
+  "TicketStatusId": 436,
+  "Name": "Quitzon, Grimes and Johnson",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 649
     }
   }
 }

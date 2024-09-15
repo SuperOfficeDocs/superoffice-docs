@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 586,
-    "Name": "Brown-Conn",
-    "CurrencyId": 696,
-    "EnglishName": "Ryan-Dickens",
+    "CountryId": 975,
+    "Name": "Botsford-Braun",
+    "CurrencyId": 246,
+    "EnglishName": "Luettgen LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Customizable scalable model",
-    "OrgNrText": "1182676",
-    "InterAreaPrefix": "eum",
-    "DialInPrefix": "fuga",
-    "ZipPrefix": "omnis",
-    "DomainName": "Funk LLC",
-    "AddressLayoutId": 341,
-    "DomesticAddressLayoutId": 471,
-    "ForeignAddressLayoutId": 932,
-    "Rank": 562,
-    "Tooltip": "dolorem",
+    "ImageDescription": "Function-based transitional hardware",
+    "OrgNrText": "1171674",
+    "InterAreaPrefix": "quidem",
+    "DialInPrefix": "vero",
+    "ZipPrefix": "laborum",
+    "DomainName": "Klein, Boyer and Lesch",
+    "AddressLayoutId": 210,
+    "DomesticAddressLayoutId": 872,
+    "ForeignAddressLayoutId": 311,
+    "Rank": 321,
+    "Tooltip": "consequatur",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

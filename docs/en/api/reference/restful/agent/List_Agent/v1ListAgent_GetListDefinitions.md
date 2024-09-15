@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Pagac LLC",
-    "Tooltip": "recusandae",
+    "Id": 952,
+    "Name": "Hirthe LLC",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 535,
-    "IsCustomList": true,
+    "Rank": 834,
+    "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "et",
-    "InUseByUserDefinedFields": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "ut",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 20
       }
     }
   }

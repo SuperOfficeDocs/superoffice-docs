@@ -2,10 +2,10 @@
 uid: table-TypicalSearch
 title: TypicalSearch table
 description: Owner of a set of predefined selection criteria
-generated: true
+so.generated: true
 keywords: database table TypicalSearch
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TypicalSearch Table (494)

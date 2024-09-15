@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Kunde, Jast and Tromp",
-    "ToolTip": "Doloremque dolores alias necessitatibus quasi.",
-    "Deleted": true,
-    "Rank": 431,
-    "Type": "dolorem",
+    "Id": 721,
+    "Name": "Schowalter, Jerde and Johnston",
+    "ToolTip": "Ducimus accusamus quos dolorum deserunt eveniet ad.",
+    "Deleted": false,
+    "Rank": 985,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Rohan, Schulist and Stracke",
-        "ToolTip": "Consequatur blanditiis odit.",
-        "Deleted": true,
-        "Rank": 378,
-        "Type": "earum",
+        "Id": 346,
+        "Name": "Kiehn, Jenkins and Thompson",
+        "ToolTip": "Id sit eos et id voluptatem.",
+        "Deleted": false,
+        "Rank": 748,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 453,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "fuga",
-        "FullName": "Cleo Lowe",
+        "IconHint": "quasi",
+        "ColorBlock": 14,
+        "ExtraInfo": "hic",
+        "StyleHint": "voluptatem",
+        "FullName": "Olen Annetta Lindgren MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldType": "System.String",
+            "FieldLength": 97
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 255,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "a",
-    "FullName": "Ms. Conor Jordane Leffler PhD",
+    "IconHint": "quia",
+    "ColorBlock": 282,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "eum",
+    "FullName": "Prof. Lexi Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldLength": 1001
       }
     }
   }

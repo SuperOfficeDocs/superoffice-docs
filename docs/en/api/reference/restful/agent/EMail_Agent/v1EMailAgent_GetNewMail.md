@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    642,
-    473
+    123,
+    47
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 814,
-    "MessageId": "adipisci",
-    "Subject": "officia",
+    "ServerId": 318,
+    "MessageId": "laudantium",
+    "Subject": "suscipit",
     "From": null,
     "To": [
       {
-        "ContactId": 978,
-        "ContactName": "Parker-Herzog",
-        "PersonId": 515,
-        "PersonName": "Bode-Shields",
-        "AssociateId": 851,
-        "Address": "laudantium",
-        "EmailId": 692,
+        "ContactId": 435,
+        "ContactName": "Dicki Group",
+        "PersonId": 323,
+        "PersonName": "Lakin Group",
+        "AssociateId": 557,
+        "Address": "animi",
+        "EmailId": 916,
         "DuplicatePersonIds": [
-          540,
-          780
+          355,
+          762
         ],
-        "Name": "Kuvalis, Schaden and Gusikowski",
+        "Name": "Rogahn, Corkery and White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 511
+            "FieldType": "System.Int32",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "Sent": "2022-08-22T13:28:22.6479526+02:00",
+    "Sent": "2020-10-26T04:02:01.6748777+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 65,
+    "Size": 437,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 907
       }
     }
   }

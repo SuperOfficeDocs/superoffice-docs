@@ -2,10 +2,10 @@
 uid: table-reply_template_attachment
 title: reply_template_attachment table
 description: This table is used to connect attachments to reply templates (many-to-many).
-generated: true
+so.generated: true
 keywords: database table reply_template_attachment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # reply\_template\_attachment Table (278)

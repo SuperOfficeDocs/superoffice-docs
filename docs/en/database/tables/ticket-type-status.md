@@ -2,10 +2,10 @@
 uid: table-ticket_type_status
 title: ticket_type_status table
 description: Link table defining what Statuses are relevant to a particular Ticket type
-generated: true
+so.generated: true
 keywords: database table ticket_type_status
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_type\_status Table (534)

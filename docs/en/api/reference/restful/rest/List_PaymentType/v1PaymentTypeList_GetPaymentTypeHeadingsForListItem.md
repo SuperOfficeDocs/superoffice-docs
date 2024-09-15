@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Turcotte Inc and Sons",
-    "ToolTip": "Exercitationem illo sit omnis et.",
-    "Deleted": false,
-    "Rank": 804,
-    "Type": "inventore",
-    "ColorBlock": 253,
-    "IconHint": "quibusdam",
+    "Id": 122,
+    "Name": "Collier, Stamm and Nolan",
+    "ToolTip": "Odio magnam ad.",
+    "Deleted": true,
+    "Rank": 684,
+    "Type": "quia",
+    "ColorBlock": 783,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2014-04-20T13:28:32.9134667+02:00",
+    "LastChanged": "2001-06-07T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Hamill-Stark",
-        "ToolTip": "Quasi sint officia et eos voluptatem.",
-        "Deleted": false,
-        "Rank": 114,
-        "Type": "sit",
-        "ColorBlock": 455,
-        "IconHint": "sed",
+        "Id": 20,
+        "Name": "Reynolds Inc and Sons",
+        "ToolTip": "Incidunt inventore dolores praesentium.",
+        "Deleted": true,
+        "Rank": 612,
+        "Type": "quae",
+        "ColorBlock": 855,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2022-08-11T13:28:32.9134667+02:00",
+        "LastChanged": "2017-09-07T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "culpa",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Keyon Goldner",
+        "FullName": "Jules Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldLength": 896
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Josue Kub",
+    "ExtraInfo": "rerum",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Immanuel Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldLength": 109
       }
     }
   }

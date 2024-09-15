@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=et
-GET /api/v1/ForeignApp?$top=834
-GET /api/v1/ForeignApp?$skip=669
+GET /api/v1/ForeignApp?$entities=alias
+GET /api/v1/ForeignApp?$top=185
+GET /api/v1/ForeignApp?$skip=820
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=iste
+GET /api/v1/ForeignApp?$context=et
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,18 +132,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "soluta",
   "value": [
     {
-      "PrimaryKey": 9954,
+      "PrimaryKey": 4206,
       "EntityName": "sale",
-      "saleId": 9954,
-      "contactId": 958,
-      "name": "Larson, Roob and Halvorson"
+      "saleId": 4206,
+      "contactId": 8710,
+      "name": "Gerhold-Johnston"
     },
     {
-      "PrimaryKey": 4375,
+      "PrimaryKey": 1922,
       "EntityName": "sale",
-      "saleId": 4375,
-      "contactId": 6568,
-      "name": "Leuschke Inc and Sons"
+      "saleId": 1922,
+      "contactId": 3039,
+      "name": "Cummings LLC"
     }
   ]
 }

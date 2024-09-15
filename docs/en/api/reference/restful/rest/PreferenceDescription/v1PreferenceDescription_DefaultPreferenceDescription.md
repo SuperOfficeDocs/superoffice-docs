@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 283,
-  "Section": "est",
-  "Key": "porro",
-  "Name": "Boyer Group",
+  "PrefDescId": 570,
+  "Section": "quia",
+  "Key": "dolorem",
+  "Name": "Mante-Pfeffer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized zero tolerance approach",
+  "Description": "Total object-oriented superstructure",
   "IsBuiltin": false,
-  "TableName": "Fisher-Champlin",
-  "UserDefinedListId": 875,
-  "Rank": 233,
-  "SubGroup": "et",
-  "MinLevel": 199,
-  "MaxValue": 694,
-  "MinValue": 862,
-  "RequiredLicense": "neque",
+  "TableName": "Lindgren-Daugherty",
+  "UserDefinedListId": 959,
+  "Rank": 353,
+  "SubGroup": "ducimus",
+  "MinLevel": 356,
+  "MaxValue": 788,
+  "MinValue": 489,
+  "RequiredLicense": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

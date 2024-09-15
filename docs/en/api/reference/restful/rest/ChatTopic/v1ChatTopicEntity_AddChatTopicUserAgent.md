@@ -75,11 +75,11 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 454,
+  "TopicId": 191,
   "User": null,
   "CanListen": true,
   "CanRespond": false,
@@ -95,7 +95,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 157,
+  "TopicId": 564,
   "User": null,
   "CanListen": false,
   "CanRespond": true,

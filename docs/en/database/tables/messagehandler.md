@@ -2,10 +2,10 @@
 uid: table-MessageHandler
 title: MessageHandler table
 description: Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale
-generated: true
+so.generated: true
 keywords: database table MessageHandler
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # MessageHandler Table (241)
@@ -47,7 +47,6 @@ Presence and heartbeat of a message handler, should be updated once a minute. Ol
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 
 
 ## Replication Flags

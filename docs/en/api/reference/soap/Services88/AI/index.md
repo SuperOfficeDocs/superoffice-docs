@@ -15,6 +15,7 @@ Handled by the <see cref="T:SuperOffice.Services88.IAIAgent">SuperOffice.Service
 Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to generate your own proxy code.
 
 * [ClearChatbotTurns](ClearChatbotTurns.md)
+* [CreateTextForAppointment](CreateTextForAppointment.md)
 * [DetectLanguage](DetectLanguage.md)
 * [DetectSentiment](DetectSentiment.md)
 * [ExpandText](ExpandText.md)

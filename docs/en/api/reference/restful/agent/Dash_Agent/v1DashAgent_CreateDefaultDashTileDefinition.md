@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 463,
-  "Name": "Miller Inc and Sons",
-  "Description": "Profit-focused asynchronous synergy",
-  "DefaultHeight": 565,
-  "DefaultWidth": 328,
+  "DashboardTileDefinitionId": 706,
+  "Name": "Ziemann-Raynor",
+  "Description": "Balanced stable frame",
+  "DefaultHeight": 906,
+  "DefaultWidth": 53,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gutkowski Inc and Sons",
-  "SelectionId": 567,
+  "EntityName": "Jones Group",
+  "SelectionId": 584,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "architecto",
   "Measure": "Average",
-  "MeasureField": "minus",
-  "SortBy": "quis",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 590,
-  "MeasureByField": "rerum",
+  "MeasureField": "quae",
+  "SortBy": "quidem",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 224,
+  "MeasureByField": "eaque",
   "Usage": "Dashboard",
-  "ProviderName": "Steuber Group",
+  "ProviderName": "Hickle, Beer and Balistreri",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 855
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-WinPosSize
 title: WinPosSize table
 description: Stores the position and size of each window, so they can be shown in the same place again
-generated: true
+so.generated: true
 keywords: database table WinPosSize
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # WinPosSize Table (208)

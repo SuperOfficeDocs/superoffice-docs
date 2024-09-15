@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Muller, Smitham and Yost",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 32,
-  "IsCustomList": true,
+  "Id": 557,
+  "Name": "Okuneva, Hettinger and Blanda",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 764,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Schulist LLC",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 505,
+  "Id": 473,
+  "Name": "Jast Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 150,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 9
     }
   }
 }

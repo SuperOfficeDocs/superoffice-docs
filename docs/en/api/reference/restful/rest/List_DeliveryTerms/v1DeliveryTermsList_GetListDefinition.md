@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Name": "Terry Inc and Sons",
-  "Tooltip": "alias",
+  "Id": 886,
+  "Name": "Mueller-Weimann",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 984,
-  "IsCustomList": false,
+  "Rank": 466,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 328
     }
   },
   "_Links": {

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 639,
+  "ReportId": 443,
   "ReportCategory": "All",
-  "Description": "Centralized foreground archive",
+  "Description": "Open-source systematic database",
   "ReportLayout": "CalendarMonth",
-  "Name": "Considine-Prosacco",
-  "AssociateId": 230,
-  "TemplateId": 451,
-  "Published": true,
+  "Name": "Hettinger, Lesch and Hills",
+  "AssociateId": 130,
+  "TemplateId": 203,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

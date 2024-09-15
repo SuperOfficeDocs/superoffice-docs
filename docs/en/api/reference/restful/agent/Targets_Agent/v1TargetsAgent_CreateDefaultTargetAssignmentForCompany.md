@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 620,
+  "TargetAssignmentInfoId": 496,
   "Values": [
-    515,
-    755
+    177,
+    227
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 191,
-  "DimensionListItemDisplayName": "Leffler, Welch and Brekke",
+  "DimensionListItem": 970,
+  "DimensionListItemDisplayName": "Ledner, Von and O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 60
     }
   }
 }

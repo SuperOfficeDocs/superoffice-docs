@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 870,
-  "Select": "aliquid"
+  "SelectionId": 823,
+  "Select": "totam"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ondricka-Lehner",
-    "PrimaryKey": 598,
+    "EntityName": "Heidenreich Inc and Sons",
+    "PrimaryKey": 142,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "a",
-        "TooltipHint": "deserunt",
-        "LinkHint": "et"
+        "DisplayValue": "et",
+        "TooltipHint": "expedita",
+        "LinkHint": "ipsa"
       }
     },
-    "LinkHint": "libero",
-    "StyleHint": "ea",
+    "LinkHint": "quisquam",
+    "StyleHint": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 497,
-  "Created": "2022-08-01T13:28:23.6011243+02:00",
+  "SatelliteId": 507,
+  "Created": "2016-07-12T04:02:02.2222071+02:00",
   "CreatedBy": null,
-  "Updated": "1998-08-10T13:28:23.6011243+02:00",
+  "Updated": "1998-10-11T04:02:02.2222071+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Wyman, Treutel and Abbott",
-      "Description": "Compatible bandwidth-monitored moratorium",
+      "Name": "Koss-Schowalter",
+      "Description": "Triple-buffered transitional Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Wyman, Treutel and Abbott",
-      "Description": "Compatible bandwidth-monitored moratorium",
+      "Name": "Koss-Schowalter",
+      "Description": "Triple-buffered transitional Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 652,
-  "Created": "2022-04-13T13:28:23.6011243+02:00",
+  "SatelliteId": 811,
+  "Created": "1999-01-20T04:02:02.2222071+01:00",
   "CreatedBy": null,
-  "Updated": "2008-05-30T13:28:23.6011243+02:00",
+  "Updated": "2019-07-13T04:02:02.2222071+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Schaden Inc and Sons",
-      "Description": "Multi-lateral client-server flexibility",
+      "Name": "Huels Group",
+      "Description": "Mandatory transitional budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 554
         }
       }
     },
     {
-      "Name": "Schaden Inc and Sons",
-      "Description": "Multi-lateral client-server flexibility",
+      "Name": "Huels Group",
+      "Description": "Mandatory transitional budgetary management",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 554
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

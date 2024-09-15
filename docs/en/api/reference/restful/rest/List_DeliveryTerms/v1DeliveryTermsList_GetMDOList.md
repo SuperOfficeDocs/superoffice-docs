@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=cupiditate
+GET /api/v1/List/DeliveryTerm/MDOItems?query=alias
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Pouros Group",
-    "ToolTip": "Aperiam quasi odit harum temporibus fugiat.",
+    "Id": 174,
+    "Name": "Jakubowski-Rosenbaum",
+    "ToolTip": "Aut consequatur inventore laborum molestiae.",
     "Deleted": false,
-    "Rank": 90,
-    "Type": "nihil",
+    "Rank": 122,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Halvorson-Christiansen",
-        "ToolTip": "Porro tempore.",
+        "Id": 159,
+        "Name": "Jerde, Mraz and Hansen",
+        "ToolTip": "Eos consequatur maxime ad optio reiciendis voluptates.",
         "Deleted": false,
-        "Rank": 246,
-        "Type": "hic",
+        "Rank": 685,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repudiandae",
-        "ColorBlock": 247,
-        "ExtraInfo": "aut",
-        "StyleHint": "sequi",
-        "FullName": "Cruz Zieme",
+        "IconHint": "aut",
+        "ColorBlock": 792,
+        "ExtraInfo": "sint",
+        "StyleHint": "inventore",
+        "FullName": "Abby Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldLength": 486
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 170,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nulla",
-    "FullName": "Izabella Kris",
+    "IconHint": "et",
+    "ColorBlock": 827,
+    "ExtraInfo": "earum",
+    "StyleHint": "id",
+    "FullName": "Piper Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 977
       }
     }
   }

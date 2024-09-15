@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 784,
-  "Name": "Koelpin Inc and Sons",
-  "Tooltip": "non",
-  "Rank": 143,
-  "Rate": 22962.818,
-  "Units": 8894.292,
+  "CurrencyId": 618,
+  "Name": "Roberts-Corkery",
+  "Tooltip": "aut",
+  "Rank": 314,
+  "Rate": 15961.462,
+  "Units": 6725.5639999999994,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 185
     }
   }
 }

@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 361,
-    "Name": "Daugherty-Reichel",
-    "Tooltip": "aliquid",
-    "Rank": 404,
-    "Rate": 13096.985999999999,
-    "Units": 711.418,
-    "Deleted": true,
+    "CurrencyId": 421,
+    "Name": "Jerde, White and Howell",
+    "Tooltip": "tempore",
+    "Rank": 860,
+    "Rate": 10028.8,
+    "Units": 2692.1059999999998,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 444
       }
     }
   }

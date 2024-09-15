@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 408,
-  "Name": "Kuvalis LLC",
-  "TZLocationCode": "et",
-  "TZLocationCities": "eos",
-  "IsoNumber": 327,
+  "TZLocationID": 509,
+  "Name": "Schmeler-Mraz",
+  "TZLocationCode": "molestias",
+  "TZLocationCities": "saepe",
+  "IsoNumber": 105,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 422,
-      "StartMonth": 402,
-      "EndDay": 58,
-      "EndMonth": 809,
-      "TZOffset": 259,
-      "StartRulePattern": "cum",
-      "EndRulePattern": "et"
+      "StartDay": 957,
+      "StartMonth": 123,
+      "EndDay": 562,
+      "EndMonth": 650,
+      "TZOffset": 962,
+      "StartRulePattern": "et",
+      "EndRulePattern": "nostrum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 812,
-      "StartMonth": 592,
-      "EndDay": 69,
-      "EndMonth": 73,
-      "TZOffset": 620,
-      "StartRulePattern": "necessitatibus",
-      "EndRulePattern": "molestias"
+      "StartDay": 228,
+      "StartMonth": 553,
+      "EndDay": 924,
+      "EndMonth": 679,
+      "TZOffset": 227,
+      "StartRulePattern": "voluptatem",
+      "EndRulePattern": "et"
     }
   }
 }

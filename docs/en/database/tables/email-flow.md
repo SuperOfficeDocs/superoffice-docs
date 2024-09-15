@@ -2,10 +2,10 @@
 uid: table-email_flow
 title: email_flow table
 description: A set of properties related to the email workflow.
-generated: true
+so.generated: true
 keywords: database table email_flow
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # email\_flow Table (511)

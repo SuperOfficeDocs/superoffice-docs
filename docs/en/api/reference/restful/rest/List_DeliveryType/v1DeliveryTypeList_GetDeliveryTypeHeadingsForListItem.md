@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Johns, Leannon and Kuhic",
-    "ToolTip": "Inventore et quia temporibus ab dolores.",
-    "Deleted": false,
-    "Rank": 241,
-    "Type": "voluptas",
-    "ColorBlock": 996,
-    "IconHint": "voluptatem",
+    "Id": 992,
+    "Name": "Gislason LLC",
+    "ToolTip": "Voluptatem maiores aut minus.",
+    "Deleted": true,
+    "Rank": 2,
+    "Type": "expedita",
+    "ColorBlock": 466,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2012-04-12T13:28:32.8353602+02:00",
+    "LastChanged": "2009-05-26T04:02:07.2440841+02:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Dickens, Prohaska and Dooley",
-        "ToolTip": "Quo at aut qui eum eum perspiciatis voluptas.",
+        "Id": 1002,
+        "Name": "Hegmann, Johnson and Labadie",
+        "ToolTip": "Sint vel est quod similique quaerat.",
         "Deleted": false,
-        "Rank": 533,
-        "Type": "in",
-        "ColorBlock": 278,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2003-05-03T13:28:32.8353602+02:00",
+        "Rank": 719,
+        "Type": "quisquam",
+        "ColorBlock": 259,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "1998-11-07T04:02:07.2440841+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quia",
+        "ExtraInfo": "iste",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Prof. Morris Arlene Raynor PhD",
+        "FullName": "Dorian Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldType": "System.String",
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "dolor",
+    "ExtraInfo": "nulla",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Carley Yundt I",
+    "FullName": "Ms. Bettie West IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

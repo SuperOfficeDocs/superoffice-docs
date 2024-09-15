@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=rerum
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=distinctio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Schowalter Group",
-    "ToolTip": "Numquam repellendus.",
-    "Deleted": true,
-    "Rank": 429,
-    "Type": "ut",
+    "Id": 329,
+    "Name": "Powlowski, Casper and Wilkinson",
+    "ToolTip": "Aperiam distinctio placeat veniam velit.",
+    "Deleted": false,
+    "Rank": 403,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Cartwright, Luettgen and Medhurst",
-        "ToolTip": "Qui iusto.",
-        "Deleted": false,
-        "Rank": 762,
-        "Type": "sint",
+        "Id": 997,
+        "Name": "Dickinson-Hansen",
+        "ToolTip": "Ut neque illum autem error qui quod.",
+        "Deleted": true,
+        "Rank": 895,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 337,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
-        "FullName": "Christian Gulgowski",
+        "IconHint": "minus",
+        "ColorBlock": 120,
+        "ExtraInfo": "neque",
+        "StyleHint": "doloremque",
+        "FullName": "Ms. Hudson Langosh II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 322
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 306,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "et",
-    "FullName": "Keegan Bergnaum",
+    "IconHint": "laudantium",
+    "ColorBlock": 767,
+    "ExtraInfo": "sit",
+    "StyleHint": "culpa",
+    "FullName": "Mrs. Brooke Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

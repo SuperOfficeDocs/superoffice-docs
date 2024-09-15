@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 929,
-  "Name": "Nicolas LLC",
-  "AssociateId": 56,
-  "DetailsTable": 971,
-  "DetailsRecord": 653,
-  "IsSystemTask": false,
+  "Id": 651,
+  "Name": "Goyette-Ruecker",
+  "AssociateId": 909,
+  "DetailsTable": 715,
+  "DetailsRecord": 30,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "enim",
-    "ParameterObject2": "at"
+    "ParameterObject1": "fugiat",
+    "ParameterObject2": "voluptatem"
   },
-  "LastStarted": "2006-07-27T13:28:21.8512599+02:00",
-  "Created": "2006-08-03T13:28:21.8512599+02:00",
-  "StartCount": 198,
-  "DatabaseSerialNumber": "1824661",
-  "Context": "aut",
-  "Result": "quasi",
+  "LastStarted": "2014-08-06T04:02:01.2374146+02:00",
+  "Created": "2015-07-29T04:02:01.2374146+02:00",
+  "StartCount": 755,
+  "DatabaseSerialNumber": "1568113",
+  "Context": "voluptates",
+  "Result": "nostrum",
   "State": "All",
-  "Description": "Multi-channelled fresh-thinking leverage",
-  "Response": "alias",
-  "Request": "sit",
-  "ProgressDescription": "Reduced full-range monitoring",
-  "ProgressPercent": 645,
-  "FileName": "Carter-Greenfelder",
+  "Description": "Polarised client-server interface",
+  "Response": "omnis",
+  "Request": "ex",
+  "ProgressDescription": "Advanced value-added emulation",
+  "ProgressPercent": 736,
+  "FileName": "Dicki, D'Amore and Howell",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   }
 }

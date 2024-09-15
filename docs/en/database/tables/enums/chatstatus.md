@@ -2,10 +2,10 @@
 uid: enum-chatstatus
 title: Enum values for ChatStatus
 description: Lists the enum values for ChatStatus.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ChatStatus Enum

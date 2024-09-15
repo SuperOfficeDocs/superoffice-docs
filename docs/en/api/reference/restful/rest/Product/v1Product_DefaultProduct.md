@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 481,
-  "ERPProductKey": "odio",
-  "ERPPriceListKey": "quo",
-  "Name": "Cremin-DuBuque",
-  "Description": "Down-sized 6th generation intranet",
-  "Code": "et",
-  "PriceUnit": "sunt",
-  "QuantityUnit": "qui",
+  "ProductId": 374,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "fugit",
+  "Name": "Boehm Inc and Sons",
+  "Description": "Inverse motivating budgetary management",
+  "Code": "perspiciatis",
+  "PriceUnit": "animi",
+  "QuantityUnit": "modi",
   "IsSubscription": false,
-  "SubscriptionUnit": "totam",
-  "DefaultSubscriptionQuantity": 4632.052,
-  "ItemNumber": "968406",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 24984.248,
+  "ItemNumber": "675690",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "possimus",
-  "VAT": 9376.928,
-  "VATInfo": "dolores",
-  "UnitCost": 30177.286,
-  "UnitMinimumPrice": 19712.86,
-  "UnitListPrice": 20117.146,
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "et",
+  "VAT": 10868.712,
+  "VATInfo": "possimus",
+  "UnitCost": 4967.3899999999994,
+  "UnitMinimumPrice": 26845.843999999997,
+  "UnitListPrice": 28437.915999999997,
   "InAssortment": false,
-  "Supplier": "quis",
-  "SupplierCode": "eos",
-  "Rights": "id",
-  "Rule": "nisi",
+  "Supplier": "aut",
+  "SupplierCode": "et",
+  "Rights": "quam",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Rice-Turcotte",
-      "Value": "quia",
+      "Name": "Schowalter-Swaniawski",
+      "Value": "occaecati",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 27
         }
       }
     },
     {
-      "Name": "Rice-Turcotte",
-      "Value": "quia",
+      "Name": "Schowalter-Swaniawski",
+      "Value": "occaecati",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 27
         }
       }
     }
   ],
-  "RawExtraInfo": "amet",
-  "ExtraField1": "autem",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "ut",
-  "ExtraField4": "dolor",
-  "ExtraField5": "dolorum",
-  "InStock": 1792.648,
+  "RawExtraInfo": "nisi",
+  "ExtraField1": "doloremque",
+  "ExtraField2": "eius",
+  "ExtraField3": "et",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "consequatur",
+  "InStock": 19415.13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 55
     }
   }
 }

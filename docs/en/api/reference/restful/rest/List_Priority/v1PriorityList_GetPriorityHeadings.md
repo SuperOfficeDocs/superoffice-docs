@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Graham-Schmitt",
-    "Tooltip": "autem",
+    "HeadingId": 635,
+    "Name": "Fadel-Walsh",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 365,
-    "UdListDefinitionId": 473,
+    "Rank": 786,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldLength": 894
       }
     }
   }

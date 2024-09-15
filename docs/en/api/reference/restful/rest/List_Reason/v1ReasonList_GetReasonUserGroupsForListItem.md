@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Nikolaus, Gerhold and Wisozk",
-    "ToolTip": "Cumque voluptas animi voluptates.",
+    "Id": 593,
+    "Name": "Wintheiser, Goyette and Kessler",
+    "ToolTip": "Autem porro voluptates reprehenderit quia.",
     "Deleted": false,
-    "Rank": 579,
-    "Type": "eos",
-    "ColorBlock": 590,
-    "IconHint": "soluta",
+    "Rank": 364,
+    "Type": "eum",
+    "ColorBlock": 194,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2006-10-09T13:28:33.0853045+02:00",
+    "LastChanged": "2004-11-08T04:02:07.3847052+01:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Jewess LLC",
-        "ToolTip": "Quae praesentium voluptas consequatur incidunt nisi facere.",
-        "Deleted": true,
-        "Rank": 977,
-        "Type": "tempora",
-        "ColorBlock": 653,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2001-12-03T13:28:33.0853045+01:00",
+        "Id": 351,
+        "Name": "Walter Inc and Sons",
+        "ToolTip": "Aut est alias id cumque.",
+        "Deleted": false,
+        "Rank": 121,
+        "Type": "aut",
+        "ColorBlock": 921,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2006-11-25T04:02:07.3847052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "ut",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Fausto Bins",
+        "FullName": "Bethany Kane Reinger II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "et",
+    "ExtraInfo": "voluptatem",
     "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Otis Schmidt",
+    "FullName": "Janiya Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

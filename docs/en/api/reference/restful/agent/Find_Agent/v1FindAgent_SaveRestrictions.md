@@ -71,20 +71,20 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellendus",
-  "ProviderName": "Runolfsdottir-Fritsch",
-  "StorageKey": "cupiditate",
+  "StorageType": "aut",
+  "ProviderName": "Haley Inc and Sons",
+  "StorageKey": "consectetur",
   "Restrictions": [
     {
-      "Name": "Pfeffer-Harris",
-      "Operator": "illo",
+      "Name": "Durgan-Corkery",
+      "Operator": "mollitia",
       "Values": [
-        "earum",
-        "in"
+        "nulla",
+        "unde"
       ],
       "DisplayValues": [
-        "at",
-        "error"
+        "voluptas",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 66,
+      "InterParenthesis": 731,
       "InterOperator": "And",
-      "UniqueHash": 282
+      "UniqueHash": 819
     }
   ]
 }

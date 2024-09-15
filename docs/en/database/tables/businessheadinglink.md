@@ -2,10 +2,10 @@
 uid: table-BusinessHeadingLink
 title: BusinessHeadingLink table
 description: Heading link table for Business, for MDO headers
-generated: true
+so.generated: true
 keywords: database table BusinessHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # BusinessHeadingLink Table (63)

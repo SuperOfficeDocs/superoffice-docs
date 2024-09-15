@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "quis",
-  "EntityId": 491
+  "EntityType": "nihil",
+  "EntityId": 227
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quis",
-  "2": "est"
+  "1": "illo",
+  "2": "rerum"
 }
 ```

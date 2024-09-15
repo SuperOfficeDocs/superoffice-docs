@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 508,
-  "Name": "Rowe-Becker",
+  "ContactId": 684,
+  "Name": "Rau-Feest",
   "Department": "",
-  "OrgNr": "1076408",
-  "Number1": "491669",
-  "Number2": "907568",
-  "UpdatedDate": "2012-08-01T13:28:22.1949288+02:00",
-  "CreatedDate": "2012-12-21T13:28:22.1949288+01:00",
+  "OrgNr": "1289476",
+  "Number1": "1358852",
+  "Number2": "1251189",
+  "UpdatedDate": "2001-03-09T04:02:01.4248943+01:00",
+  "CreatedDate": "2020-07-31T04:02:01.4248943+02:00",
   "Emails": [
     {
-      "Value": "accusantium",
-      "StrippedValue": "vel",
-      "Description": "Devolved static pricing structure",
+      "Value": "ut",
+      "StrippedValue": "sapiente",
+      "Description": "Realigned upward-trending throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 6
         }
       }
     },
     {
-      "Value": "accusantium",
-      "StrippedValue": "vel",
-      "Description": "Devolved static pricing structure",
+      "Value": "ut",
+      "StrippedValue": "sapiente",
+      "Description": "Realigned upward-trending throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 6
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 961,
-      "Name": "Zemlak LLC",
-      "ToolTip": "Molestias dolores.",
+      "Id": 72,
+      "Name": "Schumm, Carter and Dicki",
+      "ToolTip": "In deserunt.",
       "Deleted": false,
-      "Rank": 171,
-      "Type": "modi",
-      "ColorBlock": 605,
-      "IconHint": "voluptatum",
-      "Selected": true,
-      "LastChanged": "2014-08-15T13:28:22.1949288+02:00",
+      "Rank": 111,
+      "Type": "sed",
+      "ColorBlock": 227,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "2002-12-12T04:02:01.4248943+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fuga",
-      "StyleHint": "voluptatem",
-      "Hidden": true,
-      "FullName": "Miss Kale Murl Kerluke DDS",
+      "ExtraInfo": "eos",
+      "StyleHint": "impedit",
+      "Hidden": false,
+      "FullName": "Mrs. Adolf Federico Wyman MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "molestiae",
-      "StrippedValue": "magnam",
-      "Description": "Expanded eco-centric collaboration",
+      "Value": "dolores",
+      "StrippedValue": "consequuntur",
+      "Description": "Secured homogeneous groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldType": "System.String",
+          "FieldLength": 878
         }
       }
     },
     {
-      "Value": "molestiae",
-      "StrippedValue": "magnam",
-      "Description": "Expanded eco-centric collaboration",
+      "Value": "dolores",
+      "StrippedValue": "consequuntur",
+      "Description": "Secured homogeneous groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldType": "System.String",
+          "FieldLength": 878
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "rerum",
-      "StrippedValue": "enim",
-      "Description": "Inverse foreground paradigm",
+      "Value": "quaerat",
+      "StrippedValue": "repellat",
+      "Description": "Grass-roots intangible pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldLength": 999
         }
       }
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "enim",
-      "Description": "Inverse foreground paradigm",
+      "Value": "quaerat",
+      "StrippedValue": "repellat",
+      "Description": "Grass-roots intangible pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldLength": 999
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "repellendus",
-      "Description": "User-centric assymetric framework",
+      "Value": "itaque",
+      "StrippedValue": "doloremque",
+      "Description": "Front-line background standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "repellendus",
-      "Description": "User-centric assymetric framework",
+      "Value": "itaque",
+      "StrippedValue": "doloremque",
+      "Description": "Front-line background standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
   ],
-  "Description": "Universal contextually-based access",
+  "Description": "Proactive optimizing toolset",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "numquam",
-      "PersonId": 468,
-      "Mrmrs": "fuga",
-      "Firstname": "Larue",
-      "Lastname": "Hilll",
-      "MiddleName": "Gislason Inc and Sons",
-      "Title": "consequatur",
-      "Description": "Phased 3rd generation forecast",
-      "Email": "jonathon@bergnaumschimmel.biz",
-      "FullName": "Carleton Gottlieb V",
-      "DirectPhone": "499-291-3853",
-      "FormalName": "Stark, Grady and Bailey",
-      "CountryId": 109,
-      "ContactId": 129,
-      "ContactName": "Hudson Inc and Sons",
-      "Retired": 261,
-      "Rank": 404,
-      "ActiveInterests": 644,
+      "Position": "harum",
+      "PersonId": 1001,
+      "Mrmrs": "dolorem",
+      "Firstname": "Diego",
+      "Lastname": "Towne",
+      "MiddleName": "Maggio, Bednar and Gaylord",
+      "Title": "laudantium",
+      "Description": "Diverse bi-directional hardware",
+      "Email": "allene@bode.uk",
+      "FullName": "Eveline Tromp",
+      "DirectPhone": "1-429-714-5015",
+      "FormalName": "Senger, Gislason and Lynch",
+      "CountryId": 164,
+      "ContactId": 256,
+      "ContactName": "Wolf, Renner and Fay",
+      "Retired": 186,
+      "Rank": 386,
+      "ActiveInterests": 150,
       "ContactDepartment": "",
-      "ContactCountryId": 352,
-      "ContactOrgNr": "1492043",
-      "FaxPhone": "311.504.3188",
-      "MobilePhone": "111-698-2044 x2329",
-      "ContactPhone": "1-574-034-8475",
-      "AssociateName": "Mitchell Inc and Sons",
-      "AssociateId": 187,
+      "ContactCountryId": 706,
+      "ContactOrgNr": "1080075",
+      "FaxPhone": "808.255.9485 x17840",
+      "MobilePhone": "(122)236-9838 x4509",
+      "ContactPhone": "(848)044-9158 x9930",
+      "AssociateName": "Quigley-Orn",
+      "AssociateId": 268,
       "UsePersonAddress": false,
-      "ContactFax": "id",
-      "Kanafname": "quis",
-      "Kanalname": "illum",
-      "Post1": "vitae",
-      "Post2": "laboriosam",
-      "Post3": "harum",
-      "EmailName": "claudine_fritsch@feest.biz",
-      "ContactFullName": "Audra Weber",
-      "ActiveErpLinks": 326,
-      "TicketPriorityId": 222,
-      "SupportLanguageId": 889,
-      "SupportAssociateId": 22,
+      "ContactFax": "voluptatem",
+      "Kanafname": "sunt",
+      "Kanalname": "sapiente",
+      "Post1": "distinctio",
+      "Post2": "consequatur",
+      "Post3": "et",
+      "EmailName": "marley@daughertydicki.biz",
+      "ContactFullName": "Ross Mayer",
+      "ActiveErpLinks": 96,
+      "TicketPriorityId": 796,
+      "SupportLanguageId": 350,
+      "SupportAssociateId": 693,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 316
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "qui",
-  "Xstop": true,
-  "ActiveInterests": 134,
-  "GroupId": 367,
-  "ActiveStatusMonitorId": 111,
+  "Kananame": "aut",
+  "Xstop": false,
+  "ActiveInterests": 338,
+  "GroupId": 119,
+  "ActiveStatusMonitorId": 934,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 712,
-  "DbiAgentId": 675,
-  "DbiLastSyncronized": "2003-05-24T13:28:22.2105528+02:00",
-  "DbiKey": "molestias",
-  "DbiLastModified": "1998-06-05T13:28:22.2105528+02:00",
+  "Deleted": 504,
+  "DbiAgentId": 801,
+  "DbiLastSyncronized": "2018-09-10T04:02:01.4248943+02:00",
+  "DbiKey": "impedit",
+  "DbiLastModified": "2019-11-16T04:02:01.4248943+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 75,
-  "ActiveErpLinks": 143,
+  "Source": 156,
+  "ActiveErpLinks": 779,
   "BounceEmails": [
-    "kaci@hane.info",
-    "emerson_mcdermott@schmittemmerich.us"
+    "betty@schumm.ca",
+    "edna.stoltenberg@braunemard.name"
   ],
   "Domains": [
-    "rem",
-    "expedita"
+    "aut",
+    "at"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Emmett Kuphal"
+    "SuperOffice:1": "2115194975",
+    "SuperOffice:2": "Ms. Coby Bednar DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "aut",
+    "CustomFields2": "reprehenderit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 117
     }
   }
 }

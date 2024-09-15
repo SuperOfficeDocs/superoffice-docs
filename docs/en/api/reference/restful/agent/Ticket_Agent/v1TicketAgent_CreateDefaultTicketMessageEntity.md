@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 663,
+  "EjMessageId": 248,
   "Ticket": null,
-  "CreatedAt": "2011-06-18T13:28:23.8823119+02:00",
+  "CreatedAt": "2013-09-23T04:02:02.3942465+02:00",
   "CreatedBy": null,
-  "Author": "modi",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "distinctio",
-  "TimeSpent": 699,
-  "Body": "totam",
+  "MessageId": "blanditiis",
+  "TimeSpent": 981,
+  "Body": "dolorem",
   "HtmlBody": "ut",
-  "EmailHeader": "bennie.price@kuhicgoldner.ca",
-  "DebugInfo": "aliquam",
-  "MailSorter": "error",
+  "EmailHeader": "kirk_weissnat@kris.name",
+  "DebugInfo": "nisi",
+  "MailSorter": "eius",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ea",
+  "SearchTitle": "adipisci",
   "MessageHeaders": [
     {
-      "Id": 388,
-      "Name": "Hagenes-Padberg",
-      "Value": "sequi",
+      "Id": 880,
+      "Name": "Beier LLC",
+      "Value": "iste",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "qui",
-  "Sentiment": 308,
-  "SentimentConfidence": 152,
+  "Important": false,
+  "Language": "in",
+  "Sentiment": 489,
+  "SentimentConfidence": 659,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 907,
-      "Name": "Swaniawski Group",
-      "ContentType": "tenetur",
-      "AttSize": 539,
-      "InlineImage": false,
-      "ContentId": "tempore",
-      "AuthKey": "dolor",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 982,
+      "Name": "Aufderhar, Beer and Maggio",
+      "ContentType": "occaecati",
+      "AttSize": 508,
+      "InlineImage": true,
+      "ContentId": "excepturi",
+      "AuthKey": "a",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "et",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "tempore"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "vitae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 943
     }
   }
 }

@@ -93,42 +93,42 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 322,
-  "Caption": "sed",
-  "Description": "Programmable cohesive hub",
-  "ChartName": "Sporer, Kub and Larkin",
-  "ChartId": "et",
-  "IsDefault": false,
-  "AssociateId": 429,
-  "GroupId": 650,
-  "SelectionId": 851,
-  "Config": "necessitatibus",
+  "DashboardTileId": 767,
+  "Caption": "rerum",
+  "Description": "Optimized regional knowledge user",
+  "ChartName": "McLaughlin, Dietrich and Gusikowski",
+  "ChartId": "magnam",
+  "IsDefault": true,
+  "AssociateId": 15,
+  "GroupId": 895,
+  "SelectionId": 865,
+  "Config": "minima",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kub-Friesen",
-      "Description": "Public-key global groupware",
+      "Name": "Larkin-Balistreri",
+      "Description": "Business-focused user-facing throughput",
       "Type": "Boolean",
-      "ListName": "Aufderhar Group",
+      "ListName": "Wiegand-Prosacco",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quisquam",
+      "Value": "sed",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "recusandae"
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "recusandae"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 891,
-  "Caption": "aliquid",
-  "Description": "Assimilated didactic contingency",
-  "ChartName": "Schroeder, Boehm and Douglas",
-  "ChartId": "praesentium",
-  "IsDefault": false,
-  "AssociateId": 112,
-  "GroupId": 29,
-  "SelectionId": 780,
-  "Config": "est",
+  "DashboardTileId": 493,
+  "Caption": "maiores",
+  "Description": "Compatible analyzing definition",
+  "ChartName": "Lind, Strosin and Parker",
+  "ChartId": "corrupti",
+  "IsDefault": true,
+  "AssociateId": 663,
+  "GroupId": 419,
+  "SelectionId": 5,
+  "Config": "magnam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Erdman, Cummings and Kertzmann",
-      "Description": "Operative zero administration array",
+      "Name": "Mertz, Halvorson and Prosacco",
+      "Description": "Inverse grid-enabled installation",
       "Type": "Boolean",
-      "ListName": "Fadel, Dietrich and Jacobs",
+      "ListName": "O'Keefe, Franecki and Terry",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quia",
+      "Value": "molestiae",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 39
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 702,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 702,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 605
     }
   }
 }

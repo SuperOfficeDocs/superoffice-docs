@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 463,
-    "Name": "Trantow, Gulgowski and Kutch",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 542,
-    "UdListDefinitionId": 178
+    "HeadingId": 248,
+    "Name": "Maggio Group",
+    "Tooltip": "libero",
+    "Deleted": false,
+    "Rank": 887,
+    "UdListDefinitionId": 61
   },
   {
-    "HeadingId": 463,
-    "Name": "Trantow, Gulgowski and Kutch",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 542,
-    "UdListDefinitionId": 178
+    "HeadingId": 248,
+    "Name": "Maggio Group",
+    "Tooltip": "libero",
+    "Deleted": false,
+    "Rank": 887,
+    "UdListDefinitionId": 61
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Hartmann Group",
-    "Tooltip": "ut",
+    "HeadingId": 525,
+    "Name": "Fay, Runte and Osinski",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 803,
+    "Rank": 877,
+    "UdListDefinitionId": 394,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 7
+        "FieldType": "System.Int32",
+        "FieldLength": 433
       }
     }
   }

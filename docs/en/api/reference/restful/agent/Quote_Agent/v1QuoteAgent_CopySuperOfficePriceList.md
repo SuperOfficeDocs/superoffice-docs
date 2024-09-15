@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 382,
-  "NewName": "Huel Inc and Sons",
-  "ValidFrom": "1999-10-19T13:28:23.5386436+02:00",
-  "ValidTo": "2017-10-26T13:28:23.5386436+02:00",
-  "NewCurrencyId": 158,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 775,
+  "NewName": "Reichert LLC",
+  "ValidFrom": "2018-06-26T04:02:02.1909603+02:00",
+  "ValidTo": "2013-10-22T04:02:02.1909603+02:00",
+  "NewCurrencyId": 640,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 110,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 886,
-  "Name": "Haley Group",
-  "Description": "Reactive didactic emulation",
-  "Currency": "aut",
-  "CurrencyName": "Funk, Miller and Bergnaum",
-  "ValidFrom": "2017-06-07T13:28:23.5386436+02:00",
-  "ValidTo": "2006-10-21T13:28:23.5386436+02:00",
+  "PriceListId": 315,
+  "ERPPriceListKey": "consequatur",
+  "QuoteConnectionId": 959,
+  "Name": "Homenick-Schaefer",
+  "Description": "Versatile optimizing hierarchy",
+  "Currency": "numquam",
+  "CurrencyName": "Koss Inc and Sons",
+  "ValidFrom": "2016-08-26T04:02:02.1909603+02:00",
+  "ValidTo": "2013-12-03T04:02:02.1909603+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Hahn, Christiansen and Corkery",
-    "Tooltip": "non",
+    "Id": 237,
+    "Name": "Rodriguez, Stokes and Wintheiser",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "UdListDefinitionId": 769,
-    "Rank": 683
+    "UdListDefinitionId": 945,
+    "Rank": 713
   },
   {
-    "Id": 199,
-    "Name": "Hahn, Christiansen and Corkery",
-    "Tooltip": "non",
+    "Id": 237,
+    "Name": "Rodriguez, Stokes and Wintheiser",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "UdListDefinitionId": 769,
-    "Rank": 683
+    "UdListDefinitionId": 945,
+    "Rank": 713
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Will, Koch and Lind",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 835,
-    "Rank": 929,
+    "Id": 406,
+    "Name": "Wolff LLC",
+    "Tooltip": "perspiciatis",
+    "Deleted": false,
+    "UdListDefinitionId": 26,
+    "Rank": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldType": "System.Int32",
+        "FieldLength": 883
       }
     }
   }

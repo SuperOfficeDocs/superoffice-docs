@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 67,
-  "Name": "Okuneva, Schuppe and Barton",
-  "CreatedDate": "2010-07-08T13:28:31.6636234+02:00",
-  "UpdatedDate": "2018-06-28T13:28:31.6636234+02:00",
+  "ForeignAppId": 540,
+  "Name": "Brekke-Koss",
+  "CreatedDate": "2004-09-14T04:02:06.6035245+02:00",
+  "UpdatedDate": "2022-11-11T04:02:06.6035245+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 989,
-      "Name": "Ritchie LLC",
-      "CreatedDate": "2017-05-27T13:28:31.6636234+02:00",
-      "UpdatedDate": "2012-08-25T13:28:31.6636234+02:00",
-      "AssociateFullName": "Vickie Padberg",
-      "CreatedBy": "enim",
-      "UpdatedBy": "ea",
-      "DeviceIdentifier": "dolor",
-      "ForeignAppId": 67,
+      "ForeignDeviceId": 487,
+      "Name": "Medhurst-Predovic",
+      "CreatedDate": "2003-12-12T04:02:06.6035245+01:00",
+      "UpdatedDate": "2011-03-09T04:02:06.6035245+01:00",
+      "AssociateFullName": "Miss Ulises Luettgen",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "modi",
+      "DeviceIdentifier": "maxime",
+      "ForeignAppId": 236,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 217
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldLength": 826
     }
   }
 }

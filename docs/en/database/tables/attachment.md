@@ -2,10 +2,10 @@
 uid: table-attachment
 title: attachment table
 description: This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table.
-generated: true
+so.generated: true
 keywords: database table attachment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # attachment Table (296)

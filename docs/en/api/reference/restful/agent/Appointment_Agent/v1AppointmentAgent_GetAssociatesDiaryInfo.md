@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    171,
-    476
+    946,
+    261
   ],
-  "StartTime": "2015-02-05T13:28:21.4605072+01:00",
-  "EndTime": "2011-05-04T13:28:21.4605072+02:00"
+  "StartTime": "2006-06-11T04:02:01.0025647+02:00",
+  "EndTime": "2018-06-29T04:02:01.0025647+02:00"
 }
 ```
 
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 864,
-    "AssociateId": 331,
-    "MotherId": 94,
-    "StartDate": "2007-03-25T13:28:21.4605072+02:00",
-    "EndDate": "1998-01-10T13:28:21.4605072+01:00",
+    "AppointmentId": 208,
+    "AssociateId": 989,
+    "MotherId": 805,
+    "StartDate": "1999-08-06T04:02:01.0025647+02:00",
+    "EndDate": "2006-08-12T04:02:01.0025647+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Bode, Mosciski and Rath",
-    "ContactName": "Orn Inc and Sons",
-    "Title": "ipsa",
-    "Agenda": "quisquam",
-    "IsAllDay": true,
+    "TaskName": "Schumm, Treutel and Kreiger",
+    "ContactName": "Ritchie, Labadie and Bode",
+    "Title": "quasi",
+    "Agenda": "laborum",
+    "IsAllDay": false,
     "IsBusy": false,
-    "IsRecurring": true,
+    "IsRecurring": false,
     "IsVideoMeeting": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 694
       }
     }
   }

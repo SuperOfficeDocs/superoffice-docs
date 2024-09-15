@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 850,
-  "CountryId": 263
+  "ContactId": 232,
+  "CountryId": 65
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 3857.9539999999997,
-  "Wgs84Longitude": 1432.238,
+  "Wgs84Latitude": 19195.75,
+  "Wgs84Longitude": 12181.858,
   "LocalizedAddress": [
     [
       {
-        "Name": "Koelpin, Schowalter and Lang",
-        "Value": "rerum",
-        "Tooltip": "est",
-        "Label": "inventore",
-        "ValueLength": 67,
-        "AddressType": "suscipit",
+        "Name": "Denesik-Armstrong",
+        "Value": "maxime",
+        "Tooltip": "aut",
+        "Label": "repellat",
+        "ValueLength": 792,
+        "AddressType": "in",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 317
+            "FieldLength": 354
           }
         }
       }
     ],
     [
       {
-        "Name": "Keebler, Eichmann and Satterfield",
-        "Value": "eum",
-        "Tooltip": "sit",
-        "Label": "corrupti",
-        "ValueLength": 667,
-        "AddressType": "nesciunt",
+        "Name": "Turcotte Group",
+        "Value": "consequatur",
+        "Tooltip": "tempore",
+        "Label": "aut",
+        "ValueLength": 813,
+        "AddressType": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldType": "System.String",
+            "FieldLength": 65
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "occaecati",
+  "Formatted": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 434
     }
   }
 }

@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Carroll-Parker",
-      "Operator": "quo",
+      "Name": "Daniel-Stracke",
+      "Operator": "odio",
       "Values": [
-        "facilis",
-        "autem"
+        "architecto",
+        "sint"
       ],
       "DisplayValues": [
-        "hic",
-        "dolorum"
+        "beatae",
+        "aliquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 893,
+      "InterParenthesis": 437,
       "InterOperator": "And",
-      "UniqueHash": 226
+      "UniqueHash": 637
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heaney LLC",
-    "Operator": "dolorum",
+    "Name": "Schumm-Schneider",
+    "Operator": "et",
     "Values": [
-      "et",
-      "aut"
+      "delectus",
+      "vel"
     ],
     "DisplayValues": [
-      "nesciunt",
-      "accusamus"
+      "eligendi",
+      "voluptatem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Gorczany Group",
-        "Operator": "dicta",
+        "Name": "Dooley, Boyle and Hickle",
+        "Operator": "enim",
         "Values": [
-          "quos",
-          "officia"
+          "nihil",
+          "consequatur"
         ],
         "DisplayValues": [
-          "velit",
-          "velit"
+          "mollitia",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 588,
+        "InterParenthesis": 426,
         "InterOperator": "And",
-        "UniqueHash": 670
+        "UniqueHash": 601
       }
     ],
-    "InterParenthesis": 421,
+    "InterParenthesis": 550,
     "InterOperator": "And",
-    "UniqueHash": 823
+    "UniqueHash": 235
   }
 ]
 ```

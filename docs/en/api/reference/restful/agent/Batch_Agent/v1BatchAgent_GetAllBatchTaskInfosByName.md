@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schaefer, Roob and Dicki"
+  "TaskName": "Keebler-Kuphal"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Oberbrunner, Barrows and Parker",
-    "AssociateId": 513,
-    "DetailsTable": 455,
-    "DetailsRecord": 654,
+    "Id": 708,
+    "Name": "Hodkiewicz, Hammes and Volkman",
+    "AssociateId": 898,
+    "DetailsTable": 383,
+    "DetailsRecord": 458,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "voluptas",
-      "ParameterObject2": "eum"
+      "ParameterObject1": "deleniti",
+      "ParameterObject2": "omnis"
     },
-    "LastStarted": "1997-07-19T13:28:21.8512599+02:00",
-    "Created": "2023-03-31T13:28:21.8512599+02:00",
-    "StartCount": 951,
-    "DatabaseSerialNumber": "579797",
-    "Context": "saepe",
-    "Result": "dolorem",
+    "LastStarted": "2000-09-06T04:02:01.2374146+02:00",
+    "Created": "2009-10-24T04:02:01.2374146+02:00",
+    "StartCount": 525,
+    "DatabaseSerialNumber": "1468039",
+    "Context": "qui",
+    "Result": "quibusdam",
     "State": "All",
-    "Description": "Digitized solution-oriented task-force",
-    "Response": "aperiam",
-    "Request": "harum",
-    "ProgressDescription": "Programmable system-worthy installation",
-    "ProgressPercent": 631,
-    "FileName": "Hettinger Inc and Sons",
+    "Description": "Multi-tiered incremental superstructure",
+    "Response": "eius",
+    "Request": "corrupti",
+    "ProgressDescription": "Decentralized hybrid policy",
+    "ProgressPercent": 101,
+    "FileName": "Sporer-Halvorson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Section": "qui",
-  "Key": "error",
+  "Key": "similique",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 416,
-  "Section": "occaecati",
-  "Key": "perferendis",
-  "Name": "Bruen-Thiel",
+  "PrefDescId": 111,
+  "Section": "perferendis",
+  "Key": "excepturi",
+  "Name": "Leannon-Reynolds",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented well-modulated knowledge user",
+  "Description": "Enterprise-wide fresh-thinking array",
   "IsBuiltin": true,
-  "TableName": "Rolfson, Green and Moen",
-  "UserDefinedListId": 420,
-  "Rank": 683,
-  "SubGroup": "qui",
-  "MinLevel": 248,
-  "MaxValue": 30,
-  "MinValue": 536,
-  "RequiredLicense": "officia",
+  "TableName": "Reichel-Hartmann",
+  "UserDefinedListId": 901,
+  "Rank": 123,
+  "SubGroup": "aliquid",
+  "MinLevel": 736,
+  "MaxValue": 2,
+  "MinValue": 190,
+  "RequiredLicense": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 825
     }
   }
 }

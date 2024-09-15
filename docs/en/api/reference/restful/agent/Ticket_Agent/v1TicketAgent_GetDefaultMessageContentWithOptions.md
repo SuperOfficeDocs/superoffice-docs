@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 520,
+  "TicketId": 215,
   "MessageActionType": "Forward",
-  "TicketMessageId": 572,
-  "TicketTypeId": 92,
+  "TicketMessageId": 853,
+  "TicketTypeId": 45,
   "ExcludeSignature": true
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "facere",
+  "Body": "tempore",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 61,
-      "Name": "Rohan-Moen",
-      "ContentType": "facilis",
-      "AttSize": 902,
-      "InlineImage": false,
-      "ContentId": "tempore",
-      "AuthKey": "nemo",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 787,
+      "Name": "Leannon Inc and Sons",
+      "ContentType": "maxime",
+      "AttSize": 505,
+      "InlineImage": true,
+      "ContentId": "perspiciatis",
+      "AuthKey": "fuga",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldType": "System.String",
+          "FieldLength": 315
         }
       }
     }

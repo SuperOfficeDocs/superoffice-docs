@@ -2,10 +2,10 @@
 uid: table-system_script
 title: system_script table
 description: A table containing the system script
-generated: true
+so.generated: true
 keywords: database table system_script
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # system\_script Table (378)

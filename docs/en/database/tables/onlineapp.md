@@ -2,10 +2,10 @@
 uid: table-OnlineApp
 title: OnlineApp table
 description: Echo and track information about Online Apps and their usage
-generated: true
+so.generated: true
 keywords: database table OnlineApp
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # OnlineApp Table (495)
@@ -45,6 +45,7 @@ Echo and track information about Online Apps and their usage
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 
 
 ## Replication Flags

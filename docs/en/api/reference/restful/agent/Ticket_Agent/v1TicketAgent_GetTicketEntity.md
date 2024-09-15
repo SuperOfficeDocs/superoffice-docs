@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=369
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=311
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 708,
-  "Title": "et",
-  "CreatedAt": "2006-01-02T13:28:23.9135515+01:00",
-  "LastChanged": "2003-12-28T13:28:23.9135515+01:00",
-  "ReadByOwner": "2007-02-07T13:28:23.9135515+01:00",
-  "ReadByCustomer": "2008-03-26T13:28:23.9135515+01:00",
-  "FirstReadByOwner": "2024-06-12T13:28:23.9135515+02:00",
-  "FirstReadByUser": "2018-11-25T13:28:23.9135515+01:00",
-  "Activate": "2021-10-29T13:28:23.9135515+02:00",
-  "ClosedAt": "2021-09-15T13:28:23.9135515+02:00",
-  "RepliedAt": "2009-02-18T13:28:23.9135515+01:00",
-  "AlertTimeout": "2005-10-25T13:28:23.9135515+02:00",
-  "Deadline": "2023-02-13T13:28:23.9135515+01:00",
+  "TicketId": 24,
+  "Title": "delectus",
+  "CreatedAt": "2010-04-22T04:02:02.4098698+02:00",
+  "LastChanged": "2017-07-30T04:02:02.4098698+02:00",
+  "ReadByOwner": "2012-01-06T04:02:02.4098698+01:00",
+  "ReadByCustomer": "2009-11-23T04:02:02.4098698+01:00",
+  "FirstReadByOwner": "2001-12-25T04:02:02.4098698+01:00",
+  "FirstReadByUser": "2022-01-26T04:02:02.4098698+01:00",
+  "Activate": "2011-12-02T04:02:02.4098698+01:00",
+  "ClosedAt": "2013-09-27T04:02:02.4098698+02:00",
+  "RepliedAt": "2016-05-09T04:02:02.4098698+02:00",
+  "AlertTimeout": "2000-02-25T04:02:02.4098698+01:00",
+  "Deadline": "2018-10-27T04:02:02.4098698+02:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "natus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -159,162 +159,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "tempora",
-      "PersonId": 982,
-      "Mrmrs": "itaque",
-      "Firstname": "Beau",
-      "Lastname": "Marquardt",
-      "MiddleName": "McClure Inc and Sons",
-      "Title": "adipisci",
-      "Description": "Pre-emptive 24 hour utilisation",
-      "Email": "willie_gaylord@renner.info",
-      "FullName": "Mr. Laurence Emmanuel Runolfsson PhD",
-      "DirectPhone": "406.096.7000 x73033",
-      "FormalName": "Zboncak-Cruickshank",
-      "CountryId": 510,
-      "ContactId": 383,
-      "ContactName": "Glover-Walsh",
-      "Retired": 730,
-      "Rank": 162,
-      "ActiveInterests": 36,
+      "Position": "vel",
+      "PersonId": 172,
+      "Mrmrs": "possimus",
+      "Firstname": "Alexandria",
+      "Lastname": "Gleason",
+      "MiddleName": "Leffler-Gibson",
+      "Title": "eos",
+      "Description": "Universal global database",
+      "Email": "sofia@hermiston.us",
+      "FullName": "Miss Johathan Celia Davis",
+      "DirectPhone": "242.894.3900",
+      "FormalName": "Windler Inc and Sons",
+      "CountryId": 657,
+      "ContactId": 682,
+      "ContactName": "Skiles Inc and Sons",
+      "Retired": 854,
+      "Rank": 445,
+      "ActiveInterests": 942,
       "ContactDepartment": "",
-      "ContactCountryId": 537,
-      "ContactOrgNr": "539924",
-      "FaxPhone": "583.809.4909",
-      "MobilePhone": "818-096-3989 x147",
-      "ContactPhone": "(259)527-0412",
-      "AssociateName": "Upton-Schmitt",
-      "AssociateId": 883,
+      "ContactCountryId": 978,
+      "ContactOrgNr": "1146099",
+      "FaxPhone": "1-321-098-3949 x211",
+      "MobilePhone": "(848)628-6631 x888",
+      "ContactPhone": "(162)607-3239 x188",
+      "AssociateName": "Cremin-Emmerich",
+      "AssociateId": 468,
       "UsePersonAddress": true,
-      "ContactFax": "numquam",
-      "Kanafname": "similique",
-      "Kanalname": "quos",
-      "Post1": "assumenda",
-      "Post2": "odit",
-      "Post3": "in",
-      "EmailName": "cielo.bednar@jewessschaefer.co.uk",
-      "ContactFullName": "Jovanny Mosciski",
-      "ActiveErpLinks": 989,
-      "TicketPriorityId": 361,
-      "SupportLanguageId": 830,
-      "SupportAssociateId": 660,
+      "ContactFax": "sapiente",
+      "Kanafname": "qui",
+      "Kanalname": "voluptates",
+      "Post1": "est",
+      "Post2": "necessitatibus",
+      "Post3": "inventore",
+      "EmailName": "ryleigh@emmerich.us",
+      "ContactFullName": "Ms. Ulises Rippin",
+      "ActiveErpLinks": 334,
+      "TicketPriorityId": 850,
+      "SupportLanguageId": 903,
+      "SupportAssociateId": 984,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 157
         }
       }
     }
   ],
-  "AlertLevel": 533,
-  "ConnectId": 624,
+  "AlertLevel": 699,
+  "ConnectId": 487,
   "ReadStatus": "Green",
-  "TimeToReply": 370,
-  "RealTimeToReply": 297,
-  "TimeToClose": 135,
-  "RealTimeToClose": 21,
-  "TimeSpentInternally": 568,
-  "TimeSpentExternally": 151,
-  "TimeSpentQueue": 125,
-  "RealTimeSpentInternally": 854,
-  "RealTimeSpentExternally": 541,
-  "RealTimeSpentQueue": 226,
-  "TimeSpent": 728,
+  "TimeToReply": 620,
+  "RealTimeToReply": 242,
+  "TimeToClose": 328,
+  "RealTimeToClose": 645,
+  "TimeSpentInternally": 638,
+  "TimeSpentExternally": 269,
+  "TimeSpentQueue": 377,
+  "RealTimeSpentInternally": 936,
+  "RealTimeSpentExternally": 47,
+  "RealTimeSpentQueue": 213,
+  "TimeSpent": 176,
   "HasAttachment": false,
-  "NumReplies": 291,
-  "NumMessages": 259,
-  "FromAddress": "voluptatem",
+  "NumReplies": 38,
+  "NumMessages": 382,
+  "FromAddress": "assumenda",
   "Messages": [
     {
-      "TicketMessageId": 931,
-      "CreatedAt": "2009-03-03T13:28:23.9135515+01:00",
+      "TicketMessageId": 815,
+      "CreatedAt": "1999-03-12T04:02:02.4098698+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quo",
-      "PersonId": 787,
-      "PersonFullName": "Hilbert Labadie",
-      "ContactId": 677,
-      "ContactName": "Beier, Lemke and Nitzsche",
+      "Author": "id",
+      "PersonId": 7,
+      "PersonFullName": "Prof. Keeley Margarete Eichmann I",
+      "ContactId": 864,
+      "ContactName": "Kuphal-Olson",
       "ContactDepartment": "",
-      "NumAttachments": 385,
-      "EmailHeader": "dianna.doyle@reingerjenkins.name",
+      "NumAttachments": 71,
+      "EmailHeader": "petra@johnstonrath.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sint",
-      "Sentiment": 735,
-      "SentimentConfidence": 146,
-      "CreatedBy": 9,
-      "ChangedAt": "2012-10-17T13:28:23.9135515+02:00",
+      "Language": "quod",
+      "Sentiment": 613,
+      "SentimentConfidence": 697,
+      "CreatedBy": 494,
+      "ChangedAt": "2002-06-30T04:02:02.4098698+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 568
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 292,
-      "Name": "Huels-Berge",
-      "ToolTip": "Cum a sit velit dolore fugit dolorum.",
+      "Id": 690,
+      "Name": "Braun LLC",
+      "ToolTip": "Impedit et officiis deleniti reiciendis incidunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldLength": 463
         }
       }
     },
     {
-      "Id": 292,
-      "Name": "Huels-Berge",
-      "ToolTip": "Cum a sit velit dolore fugit dolorum.",
+      "Id": 690,
+      "Name": "Braun LLC",
+      "ToolTip": "Impedit et officiis deleniti reiciendis incidunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 9
+          "FieldLength": 463
         }
       }
     }
   ],
-  "Language": "animi",
-  "Sentiment": 475,
-  "SentimentConfidence": 86,
-  "SuggestedCategoryId": 294,
+  "Language": "voluptates",
+  "Sentiment": 256,
+  "SentimentConfidence": 958,
+  "SuggestedCategoryId": 301,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 563,
-  "IconHint": "tenetur",
+  "OrigHumanCategoryId": 657,
+  "IconHint": "repellat",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 789,
+  "ActiveStatusMonitorId": 530,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "quis"
+    "CustomFields1": "quam",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 662
     }
   }
 }

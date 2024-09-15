@@ -2,10 +2,10 @@
 uid: table-ejpackage
 title: ejpackage table
 description: This table stores packages on the system.
-generated: true
+so.generated: true
 keywords: database table ejpackage
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejpackage Table (384)

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "McCullough LLC",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "Rank": 984,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 455,
+  "Name": "Berge Group",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 885,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": false,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 607
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

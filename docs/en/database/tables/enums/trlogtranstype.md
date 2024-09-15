@@ -2,10 +2,10 @@
 uid: enum-trlogtranstype
 title: Enum values for TrlogTransType
 description: Lists the enum values for TrlogTransType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TrlogTransType Enum

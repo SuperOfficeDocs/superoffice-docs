@@ -85,6 +85,68 @@ Lists all email flow content
 |shipment/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |shipment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
+|shipment/emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
+|shipment/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|shipment/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
+|shipment/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
+|shipment/emailFlow/thumbnail| *None* |Thumbnail|  |
+|shipment/emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|shipment/emailFlow/workflowId| *None* |Flow id: Id of a flow definition|  |
+|shipment/emailFlow/workflowName| *None* |Name: Name of the flow definition|  |
+|shipment/emailFlow/workflowDescription| *None* |Description: Description of flow definition|  |
+|shipment/emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
+|shipment/emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
+|shipment/emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
+|shipment/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|shipment/emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|shipment/emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|shipment/emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|shipment/emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|shipment/emailFlow/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|shipment/emailFlow/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
+|shipment/emailFlow/registeredBy| *None* |Registered by: The user who registered the data|  |
+|shipment/emailFlow/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
+|shipment/emailFlow/workflowAssociate/firstName| *None* |Owner - First name: Displays the contact's first name|  |
+|shipment/emailFlow/workflowAssociate/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
+|shipment/emailFlow/workflowAssociate/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
+|shipment/emailFlow/workflowAssociate/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|shipment/emailFlow/workflowAssociate/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
+|shipment/emailFlow/workflowAssociate/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
+|shipment/emailFlow/workflowAssociate/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|shipment/emailFlow/workflowAssociate/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
+|shipment/emailFlow/workflowAssociate/associateDbId| *None* |Owner - ID|  |
+|shipment/emailFlow/workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
+|shipment/emailFlow/workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
+|shipment/emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
+|shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
+|shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
+|shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
+|shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
+|shipment/emailFlow/workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
+|shipment/emailFlow/workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|shipment/emailFlow/workflowAssociate/ejDisplayName| *None* |Owner - Nick name: User's nick name in Service|  |
+|shipment/emailFlow/workflowAssociate/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|shipment/emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
+|shipment/emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|shipment/emailFlow/workflowAssociate/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?|  |
+|shipment/emailFlow/workflowAssociate/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
+|shipment/emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|shipment/emailFlow/workflowAssociate/otherGroups| *None* |Owner - Other groups: Other groups|  |
+|shipment/emailFlow/workflowAssociate/userName| *None* |Owner - User name: User name|  |
+|shipment/emailFlow/workflowAssociate/personEmail| *None* |Owner - E-mail|  |
+|shipment/emailFlow/workflowAssociate/locationAddress| *None* |Owner - Location: Location|  |
+|shipment/emailFlow/workflowAssociate/isLocation| *None* |Owner - Is a location: Is a location|  |
+|shipment/emailFlow/hierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|shipment/emailFlow/hierarchyFullname| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|shipment/emailFlow/hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|shipment/emailFlow/hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|shipment/emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |shipment/project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
 |shipment/project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
 |shipment/project/name| *None* |Project name: Displays the Project's name|  |
@@ -123,10 +185,6 @@ Lists all email flow content
 |shipment/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |shipment/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |shipment/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |shipment/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -169,6 +227,10 @@ Lists all email flow content
 |shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
 |shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
 |shipment/project/LastActivity| *None* |Date of last activity|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |shipment/project/LastCompletedActivity| *None* |Date of last completed activity|  |
 |shipment/project/LastDoByActivity| *None* |Date of last non-completed activity|  |
 |shipment/project/NumberOfSales| *None* |Number of sales|  |
@@ -195,7 +257,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/saintActivityType,shipment/associateId,shipment/project/endDate
+GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingEndDate,shipment/emailFlow/workflowAssociate/assocTooltip,shipment/emailFlow/workflowEnrolledCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

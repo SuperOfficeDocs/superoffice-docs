@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Treutel, Bartell and Watsica",
-    "ToolTip": "Corporis qui hic sunt.",
-    "Deleted": false,
-    "Rank": 523,
-    "Type": "hic",
-    "ColorBlock": 951,
-    "IconHint": "fugiat",
+    "Id": 594,
+    "Name": "Schultz Inc and Sons",
+    "ToolTip": "Aperiam molestias.",
+    "Deleted": true,
+    "Rank": 909,
+    "Type": "nam",
+    "ColorBlock": 858,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2005-11-23T13:28:32.9290905+01:00",
+    "LastChanged": "2014-04-25T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "McKenzie Inc and Sons",
-        "ToolTip": "Quos consectetur velit eum odit corrupti repellendus.",
+        "Id": 576,
+        "Name": "Hegmann-Runolfsdottir",
+        "ToolTip": "Vero cupiditate sed consequuntur.",
         "Deleted": false,
-        "Rank": 883,
-        "Type": "autem",
-        "ColorBlock": 86,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "1998-12-28T13:28:32.9290905+01:00",
+        "Rank": 303,
+        "Type": "rerum",
+        "ColorBlock": 438,
+        "IconHint": "molestias",
+        "Selected": true,
+        "LastChanged": "2018-12-22T04:02:07.2909529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Stephany Volkman"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Miss Kitty Breana Cormier"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "cumque",
+    "ExtraInfo": "officiis",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Ms. Ramiro Maegan Davis Sr."
+    "FullName": "Mrs. Sarai Krystel Champlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Shields Inc and Sons",
-    "ToolTip": "Et quod ex quod.",
-    "Deleted": true,
-    "Rank": 892,
-    "Type": "sapiente",
-    "ColorBlock": 674,
-    "IconHint": "nihil",
+    "Id": 475,
+    "Name": "Sanford, Beatty and Nienow",
+    "ToolTip": "Repellat et molestiae neque accusamus in.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "dolor",
+    "ColorBlock": 840,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2005-09-04T13:28:32.9290905+02:00",
+    "LastChanged": "2021-10-30T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Herzog Group",
-        "ToolTip": "Quae dolores reprehenderit quia.",
+        "Id": 705,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Quidem voluptatem natus quo minima quia.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "amet",
-        "ColorBlock": 706,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2020-07-28T13:28:32.9290905+02:00",
+        "Rank": 649,
+        "Type": "sapiente",
+        "ColorBlock": 922,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2014-03-22T04:02:07.2909529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Dr. General Carmine Parker DDS",
+        "ExtraInfo": "et",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Georgianna Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldType": "System.String",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Maryam Devan Franecki DDS",
+    "ExtraInfo": "facere",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Mr. Yazmin Justina Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 937
       }
     }
   }

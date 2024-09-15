@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Gerlach LLC",
-    "ToolTip": "Et est consequatur et omnis error delectus repellendus.",
-    "Deleted": true,
-    "Rank": 461,
-    "Type": "sapiente",
-    "ColorBlock": 264,
-    "IconHint": "non",
+    "Id": 225,
+    "Name": "Hermann Inc and Sons",
+    "ToolTip": "Provident debitis adipisci ullam.",
+    "Deleted": false,
+    "Rank": 464,
+    "Type": "nemo",
+    "ColorBlock": 929,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-09-25T13:28:32.7103906+02:00",
+    "LastChanged": "1997-05-26T04:02:07.1034721+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Kuhlman Inc and Sons",
-        "ToolTip": "Ratione necessitatibus ullam doloribus quis autem ab voluptates.",
+        "Id": 441,
+        "Name": "Nitzsche Group",
+        "ToolTip": "Assumenda assumenda eaque corporis numquam eius.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "accusamus",
-        "ColorBlock": 665,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2002-06-04T13:28:32.7103906+02:00",
+        "Rank": 502,
+        "Type": "voluptatem",
+        "ColorBlock": 824,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2002-10-10T04:02:07.1034721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "qui",
+        "ExtraInfo": "quia",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Asha Zulauf",
+        "FullName": "Jeanne Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldType": "System.String",
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Oran Quitzon V",
+    "ExtraInfo": "sed",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Mr. Alfredo Johnathan Schmeler MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

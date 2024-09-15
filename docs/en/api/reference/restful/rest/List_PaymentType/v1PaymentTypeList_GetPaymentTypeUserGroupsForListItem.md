@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Skiles LLC",
-    "ToolTip": "Voluptate tempore.",
-    "Deleted": false,
-    "Rank": 59,
-    "Type": "accusantium",
-    "ColorBlock": 880,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-10-30T13:28:32.9134667+01:00",
+    "Id": 477,
+    "Name": "Turcotte LLC",
+    "ToolTip": "Molestiae consectetur nam incidunt eos et illum.",
+    "Deleted": true,
+    "Rank": 86,
+    "Type": "est",
+    "ColorBlock": 68,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "1999-08-22T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Herzog-Feeney",
-        "ToolTip": "Temporibus pariatur architecto inventore tenetur aut ipsa autem.",
+        "Id": 469,
+        "Name": "Green-Walker",
+        "ToolTip": "Fugit aspernatur sequi sunt.",
         "Deleted": false,
-        "Rank": 437,
-        "Type": "veniam",
-        "ColorBlock": 751,
-        "IconHint": "doloribus",
+        "Rank": 103,
+        "Type": "enim",
+        "ColorBlock": 998,
+        "IconHint": "occaecati",
         "Selected": true,
-        "LastChanged": "2018-02-10T13:28:32.9134667+01:00",
+        "LastChanged": "2016-09-30T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "in",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Nyasia O'Hara",
+        "FullName": "Mrs. Makenna Borer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 112
+            "FieldType": "System.Int32",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "repellat",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Aliya Stoltenberg",
+    "FullName": "Verla Davis I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldLength": 37
       }
     }
   }

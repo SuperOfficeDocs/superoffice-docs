@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Zboncak LLC",
-    "ToolTip": "Voluptatem dolor illum qui ratione.",
+    "Id": 98,
+    "Name": "Wiegand Inc and Sons",
+    "ToolTip": "Quos aut minima voluptas ea in nostrum.",
     "Deleted": false,
-    "Rank": 644,
-    "Type": "ducimus",
-    "ColorBlock": 794,
-    "IconHint": "eligendi",
+    "Rank": 918,
+    "Type": "id",
+    "ColorBlock": 502,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2009-04-12T13:28:32.9290905+02:00",
+    "LastChanged": "2023-02-14T04:02:07.2909529+01:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Simonis-Schoen",
-        "ToolTip": "Doloremque quas voluptas corrupti commodi est.",
+        "Id": 98,
+        "Name": "Hilpert Group",
+        "ToolTip": "Quaerat omnis tempore enim eius recusandae iusto.",
         "Deleted": true,
-        "Rank": 8,
-        "Type": "ex",
-        "ColorBlock": 562,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2005-04-12T13:28:32.9290905+02:00",
+        "Rank": 157,
+        "Type": "tempore",
+        "ColorBlock": 266,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2012-10-08T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Hipolito Price"
+        "FullName": "Mrs. Ezekiel Stehr"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "sed",
+    "ExtraInfo": "dolores",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Shanny Mante"
+    "FullName": "Daphnee Stoltenberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Jewess-Koss",
-    "ToolTip": "Quia magnam ea quibusdam et ullam harum fugit.",
-    "Deleted": true,
-    "Rank": 821,
-    "Type": "sunt",
-    "ColorBlock": 989,
-    "IconHint": "tempora",
+    "Id": 38,
+    "Name": "Rowe-Pfannerstill",
+    "ToolTip": "Ea voluptatem perspiciatis est et asperiores iure ut.",
+    "Deleted": false,
+    "Rank": 694,
+    "Type": "voluptatem",
+    "ColorBlock": 732,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1998-08-31T13:28:32.9290905+02:00",
+    "LastChanged": "2012-04-15T04:02:07.2909529+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Johnson, Daniel and O'Hara",
-        "ToolTip": "Nobis libero illo enim sed dolorem quasi.",
+        "Id": 614,
+        "Name": "Bednar Inc and Sons",
+        "ToolTip": "Saepe rerum magnam.",
         "Deleted": false,
-        "Rank": 879,
-        "Type": "libero",
-        "ColorBlock": 952,
-        "IconHint": "voluptate",
-        "Selected": false,
-        "LastChanged": "2019-04-02T13:28:32.9290905+02:00",
+        "Rank": 334,
+        "Type": "debitis",
+        "ColorBlock": 788,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2018-10-24T04:02:07.2909529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Hilma Durgan",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Dr. Anya Christiansen IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldType": "System.String",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Ana Marvin",
+    "ExtraInfo": "qui",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Tillman Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldLength": 412
       }
     }
   }

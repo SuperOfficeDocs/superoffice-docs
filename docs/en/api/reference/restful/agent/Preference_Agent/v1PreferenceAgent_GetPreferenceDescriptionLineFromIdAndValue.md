@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 970,
-  "PrefValue": "qui"
+  "PrefDescId": 201,
+  "PrefValue": "cumque"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 849,
-  "PrefDescId": 725,
-  "PrefValue": "ut",
-  "PrefShowValue": "voluptas",
-  "Description": "Distributed fault-tolerant orchestration",
+  "PrefDescLineId": 435,
+  "PrefDescId": 608,
+  "PrefValue": "nostrum",
+  "PrefShowValue": "fuga",
+  "Description": "Right-sized grid-enabled info-mediaries",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 595
     }
   }
 }

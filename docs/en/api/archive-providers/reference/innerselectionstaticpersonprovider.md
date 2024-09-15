@@ -816,7 +816,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personSourceRelation/portraitThumbnail,personAssociate/ejUserId,restrictionAddress/zip,contactAssociate/usergroup,request/realTimeSpentQueue
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=streetAddress/line1,restrictionAddress/formattedAddress,contactAssociate/fullName,contactAssociate/title,request/readByCustomer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

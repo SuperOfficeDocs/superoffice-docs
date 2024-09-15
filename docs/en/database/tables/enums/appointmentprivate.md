@@ -2,10 +2,10 @@
 uid: enum-appointmentprivate
 title: Enum values for AppointmentPrivate
 description: Lists the enum values for AppointmentPrivate.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AppointmentPrivate Enum

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quos"
+  "UniqueIdentifier": "voluptates"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
-  "Name": "Stroman Group",
-  "Description": "Cross-group national utilisation",
-  "IncludeId": "dolores",
-  "Source": "nam",
-  "Registered": "2016-06-26T13:28:22.3511449+02:00",
-  "RegisteredBy": "quos",
-  "Updated": "2024-07-12T13:28:22.3511449+02:00",
-  "UpdatedBy": "doloribus",
-  "Path": "enim",
+  "UniqueIdentifier": "inventore",
+  "Name": "Aufderhar-McGlynn",
+  "Description": "Business-focused well-modulated secured line",
+  "IncludeId": "voluptates",
+  "Source": "beatae",
+  "Registered": "2008-05-26T04:02:01.5186345+02:00",
+  "RegisteredBy": "amet",
+  "Updated": "2001-12-14T04:02:01.5186345+01:00",
+  "UpdatedBy": "voluptates",
+  "Path": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

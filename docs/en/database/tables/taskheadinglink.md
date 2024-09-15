@@ -2,10 +2,10 @@
 uid: table-TaskHeadingLink
 title: TaskHeadingLink table
 description: Heading link table for Task, for MDO headers
-generated: true
+so.generated: true
 keywords: database table TaskHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskHeadingLink Table (69)

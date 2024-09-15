@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 131,
+  "AppointmentId": 602,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-02-27T13:28:21.6638038+01:00",
-  "AppointmentId": 112,
-  "Description": "Self-enabling intangible system engine",
-  "Title": "molestiae",
-  "Agenda": "recusandae",
-  "InternalNotes": "adipisci",
-  "StartDate": "2012-12-20T13:28:21.6638038+01:00",
-  "EndDate": "2020-10-02T13:28:21.6638038+02:00",
+  "CreatedDate": "2020-02-23T04:02:01.1275509+01:00",
+  "AppointmentId": 515,
+  "Description": "Innovative holistic throughput",
+  "Title": "voluptas",
+  "Agenda": "aliquid",
+  "InternalNotes": "fugit",
+  "StartDate": "2002-12-27T04:02:01.1275509+01:00",
+  "EndDate": "2018-03-02T04:02:01.1275509+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 594,
+  "MotherId": 127,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-07-21T13:28:21.6638038+02:00",
+  "UpdatedDate": "2003-06-19T04:02:01.1275509+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 946,
+  "ActiveLinks": 671,
   "Links": [
     {
-      "EntityName": "Mueller, Haag and Hilll",
-      "Id": 85,
-      "Description": "Managed zero defect process improvement",
-      "ExtraInfo": "assumenda",
-      "LinkId": 754,
+      "EntityName": "Reynolds Inc and Sons",
+      "Id": 627,
+      "Description": "Robust responsive pricing structure",
+      "ExtraInfo": "ab",
+      "LinkId": 100,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldLength": 322
         }
       }
     }
   ],
-  "AlarmLeadTime": "autem",
-  "HasAlarm": true,
-  "ColorIndex": 708,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "ut",
-  "LeadTime": "ipsa",
-  "Location": "magni",
-  "RejectCounter": 232,
-  "RejectReason": "",
+  "AlarmLeadTime": "voluptatem",
+  "HasAlarm": false,
+  "ColorIndex": 914,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "natus",
+  "LeadTime": "aliquid",
+  "Location": "aut",
+  "RejectCounter": 992,
+  "RejectReason": "monetize customized convergence",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 120,
-      "PersonId": 645,
-      "ContactId": 820,
-      "EmailId": 524,
+      "AssociateId": 809,
+      "PersonId": 616,
+      "ContactId": 45,
+      "EmailId": 630,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "tom.rodriguez@schimmel.name",
-      "Description": "Digitized responsive alliance"
+      "EmailAddress": "kurt_beahan@mcdermott.biz",
+      "Description": "Future-proofed intangible info-mediaries"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-09-24T13:28:21.6638038+02:00",
+  "ActiveDate": "2010-07-07T04:02:01.1275509+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 824,
+  "PreferredTZLocation": 370,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 824,
+  "SuggestedAppointmentId": 759,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "impedit",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Gudrun Bayer"
+    "SuperOffice:2": "Clay Greenfelder"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "non"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "aliquam"
   },
-  "PublishEventDate": "2019-01-15T13:28:21.6638038+01:00",
-  "PublishTo": "2013-03-09T13:28:21.6638038+01:00",
-  "PublishFrom": "2011-06-21T13:28:21.6638038+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-07-04T04:02:01.1275509+02:00",
+  "PublishTo": "2006-05-14T04:02:01.1275509+02:00",
+  "PublishFrom": "2001-11-13T04:02:01.1275509+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 94,
+      "VisibleId": 733,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 158
         }
       }
     },
     {
-      "VisibleId": 94,
+      "VisibleId": 733,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 158
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

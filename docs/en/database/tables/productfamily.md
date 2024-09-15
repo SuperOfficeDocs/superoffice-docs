@@ -2,10 +2,10 @@
 uid: table-ProductFamily
 title: ProductFamily table
 description: List for the ProductFamily field of the Product table (Quote Management)
-generated: true
+so.generated: true
 keywords: database table ProductFamily
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProductFamily Table (411)

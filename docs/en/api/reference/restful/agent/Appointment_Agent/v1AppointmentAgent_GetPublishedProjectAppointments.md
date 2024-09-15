@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 339
+  "ProjectId": 431
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 844,
-    "StartDate": "2021-05-21T13:28:21.4448873+02:00",
-    "EndDate": "2015-05-20T13:28:21.4448873+02:00",
+    "AppointmentId": 274,
+    "StartDate": "2015-04-26T04:02:01.0025647+02:00",
+    "EndDate": "2005-10-19T04:02:01.0025647+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eveniet",
-    "AssociateFullName": "Willie Funk",
-    "ContactName": "Vandervort-Heathcote",
-    "Description": "Configurable upward-trending moratorium",
-    "PersonFullName": "Mrs. Johann Mireya Quigley",
-    "PersonId": 377,
-    "ContactId": 556,
-    "ProjectId": 447,
-    "ProjectName": "Kihn-Gorczany",
-    "IsPublished": false,
-    "AssociateId": 12,
-    "ColorIndex": 102,
+    "Task": "quia",
+    "AssociateFullName": "Bernhard Kulas",
+    "ContactName": "Goyette-Spinka",
+    "Description": "Open-source hybrid emulation",
+    "PersonFullName": "Jimmie Effertz",
+    "PersonId": 268,
+    "ContactId": 820,
+    "ProjectId": 68,
+    "ProjectName": "Ullrich-Ratke",
+    "IsPublished": true,
+    "AssociateId": 155,
+    "ColorIndex": 696,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 101,
-    "PriorityName": "Corwin Group",
+    "PriorityId": 141,
+    "PriorityName": "Aufderhar, Stracke and Friesen",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-12-19T13:28:21.4448873+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2000-07-20T04:02:01.0025647+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-03-22T13:28:21.4448873+01:00",
-    "RecurringEndDate": "2010-11-08T13:28:21.4448873+01:00",
-    "MotherId": 713,
-    "AssignedBy": 210,
-    "AssignedByFullName": "Marta Boyer",
+    "RecurringStartDate": "2005-06-13T04:02:01.0025647+02:00",
+    "RecurringEndDate": "1999-11-19T04:02:01.0025647+01:00",
+    "MotherId": 76,
+    "AssignedBy": 518,
+    "AssignedByFullName": "Jeffry Schmidt",
     "RejectReason": "",
-    "Location": "quaerat",
-    "AlarmLeadTime": "deleniti",
-    "SaleId": 240,
-    "SaleName": "Simonis LLC",
-    "AssociateName": "Frami-Collier",
-    "CreatedDate": "2016-11-22T13:28:21.4448873+01:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Cierra Reynolds",
-    "CreatedByAssociateId": 652,
+    "Location": "corporis",
+    "AlarmLeadTime": "id",
+    "SaleId": 234,
+    "SaleName": "Heathcote Group",
+    "AssociateName": "Rolfson Inc and Sons",
+    "CreatedDate": "1997-08-19T04:02:01.0025647+02:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Arielle Corkery",
+    "CreatedByAssociateId": 392,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 374,
-    "Title": "occaecati",
-    "Agenda": "rerum",
-    "InternalNotes": "perspiciatis",
+    "PreferredTZLocation": 212,
+    "Title": "quis",
+    "Agenda": "fugiat",
+    "InternalNotes": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 165
       }
     }
   }

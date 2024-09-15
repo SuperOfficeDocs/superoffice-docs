@@ -484,6 +484,68 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
+|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
+|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
+|emailFlow/thumbnail| *None* |Thumbnail|  |
+|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
+|emailFlow/workflowName|string|Name: Name of the flow definition| x |
+|emailFlow/workflowDescription|string|Description: Description of flow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
+|emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
+|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
+|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
+|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
+|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|emailFlow/workflowAssociate/firstName|string|Owner - First name: Displays the contact's first name| x |
+|emailFlow/workflowAssociate/lastName|string|Owner - Last name: Displays the contact's last name| x |
+|emailFlow/workflowAssociate/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
+|emailFlow/workflowAssociate/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|emailFlow/workflowAssociate/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
+|emailFlow/workflowAssociate/personId|int|Owner - Contact ID: Database ID of the contact row|  |
+|emailFlow/workflowAssociate/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
+|emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
+|emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
+|emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
+|emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
+|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
+|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
+|emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
+|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
+|emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
+|emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
+|emailFlow/hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
+|emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
@@ -535,10 +597,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
 |project/projectAssociate/assocTooltip|string|Description : Description|  |
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
@@ -581,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
@@ -591,7 +653,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/contactExtra/x_contact_dropdown,mailingAddr/person/email/emailHasBounced,project/hasGuide
+GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/streetAddress/formattedAddress,mailingAddr/contact/contactAssociate/middleName,mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/contact/saintSaleStatus,mailingAddr/person/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

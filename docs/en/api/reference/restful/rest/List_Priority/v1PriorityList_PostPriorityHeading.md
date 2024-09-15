@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 388,
-  "Name": "Howe Group",
-  "Tooltip": "quasi",
+  "HeadingId": 835,
+  "Name": "Gulgowski LLC",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 11,
-  "UdListDefinitionId": 526
+  "Rank": 676,
+  "UdListDefinitionId": 457
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 16,
-  "Name": "Schmitt-Lebsack",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 366,
-  "UdListDefinitionId": 838,
+  "HeadingId": 609,
+  "Name": "Gutmann, Kertzmann and Jones",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 975,
+  "UdListDefinitionId": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   }
 }

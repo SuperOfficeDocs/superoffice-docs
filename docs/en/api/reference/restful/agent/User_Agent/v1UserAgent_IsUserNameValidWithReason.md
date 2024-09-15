@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 326,
+  "AssociateId": 647,
   "Type": "AnonymousAssociate",
-  "PersonId": 620,
-  "UserName": "Boyer-Hirthe"
+  "PersonId": 718,
+  "UserName": "Nolan LLC"
 }
 ```
 
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

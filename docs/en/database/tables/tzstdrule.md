@@ -2,10 +2,10 @@
 uid: table-TZStdRule
 title: TZStdRule table
 description: Time zone rule for standard time
-generated: true
+so.generated: true
 keywords: database table TZStdRule
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TZStdRule Table (246)

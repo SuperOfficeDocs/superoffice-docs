@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=sunt
-GET /api/v1/MDOList/{listname}?query=labore
+GET /api/v1/MDOList/{listname}?additional=voluptatem
+GET /api/v1/MDOList/{listname}?query=voluptates
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Zulauf-O'Keefe",
-    "ToolTip": "Beatae qui ipsum eius odio ullam id.",
+    "Id": 39,
+    "Name": "Keeling-Collier",
+    "ToolTip": "Ex quisquam possimus numquam voluptatem.",
     "Deleted": true,
-    "Rank": 349,
-    "Type": "odio",
+    "Rank": 709,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Dickinson Inc and Sons",
-        "ToolTip": "Sit et ipsam.",
+        "Id": 808,
+        "Name": "Kutch Inc and Sons",
+        "ToolTip": "Ut et.",
         "Deleted": false,
-        "Rank": 469,
-        "Type": "expedita",
+        "Rank": 76,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 845,
-        "ExtraInfo": "vitae",
-        "StyleHint": "sed",
-        "FullName": "Mrs. Gabe Schmidt I",
+        "IconHint": "voluptas",
+        "ColorBlock": 145,
+        "ExtraInfo": "sit",
+        "StyleHint": "quia",
+        "FullName": "Nathen Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldType": "System.String",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 278,
-    "ExtraInfo": "numquam",
-    "StyleHint": "non",
-    "FullName": "Oleta German Rohan III",
+    "IconHint": "enim",
+    "ColorBlock": 110,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "consequuntur",
+    "FullName": "Miss Raina Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 228
       }
     }
   }

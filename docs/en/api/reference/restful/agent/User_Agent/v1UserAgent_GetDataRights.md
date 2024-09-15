@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 692,
-  "TableName": "Stark, Smith and Hessel"
+  "RoleId": 218,
+  "TableName": "Stroman, Stamm and McGlynn"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quis",
-  "2": "ea"
+  "1": "nulla",
+  "2": "occaecati"
 }
 ```

@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "deserunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "deserunt",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized neutral success",
-  "Postit": "quis",
+  "Description": "Optimized motivating hub",
+  "Postit": "earum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 74,
-  "IncludePerson": 364,
+  "GroupIdx": 631,
+  "IncludePerson": 762,
   "MemberCount": 99.99,
-  "Name": "Jones-Considine",
-  "PostitTextId": 247,
-  "CreatedDate": "1999-10-18T13:28:32.2417505+02:00",
-  "SelectionId": 445,
-  "SoundEx": "et",
-  "Source": 885,
-  "TextId": 839,
-  "UpdatedDate": "2022-04-23T13:28:32.2417505+02:00",
-  "UpdatedCount": 654,
-  "Visibility": 496,
+  "Name": "Casper LLC",
+  "PostitTextId": 184,
+  "CreatedDate": "2009-02-13T04:02:06.837875+01:00",
+  "SelectionId": 277,
+  "SoundEx": "aut",
+  "Source": 641,
+  "TextId": 755,
+  "UpdatedDate": "2021-06-16T04:02:06.837875+02:00",
+  "UpdatedCount": 209,
+  "Visibility": 307,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 444,
-  "TargetTableName": "Huels Group",
+  "TargetTableNumber": 787,
+  "TargetTableName": "Rippin, Kub and Hauck",
   "Completed": false,
-  "LeftSelectionId": 148,
-  "RightSelectionId": 787,
+  "LeftSelectionId": 149,
+  "RightSelectionId": 687,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feest, Johnston and Adams",
-  "ShadowProviderName": "Rodriguez, Klocko and Zemlak",
-  "ChartKey": "amet",
-  "LastLoaded": "2010-06-13T13:28:32.2417505+02:00",
-  "LastLoadedBy": 512,
+  "MainProviderName": "Kohler-Kuhic",
+  "ShadowProviderName": "Ullrich LLC",
+  "ChartKey": "incidunt",
+  "LastLoaded": "2019-12-01T04:02:06.837875+01:00",
+  "LastLoadedBy": 240,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-03-01T13:28:32.2417505+01:00",
-  "LastMembershipChangeBy": 328,
+  "LastMembershipChange": "2022-01-06T04:02:06.837875+01:00",
+  "LastMembershipChangeBy": 292,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "expedita",
-  "MemberTabHeading": "totam",
-  "MailingsProviderName": "Oberbrunner, Heller and Veum",
-  "DashboardTileDefinitionId": 763,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Balistreri Inc and Sons",
+  "DashboardTileDefinitionId": 579,
   "VisibleFor": [
     {
-      "VisibleId": 786,
+      "VisibleId": 474,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     },
     {
-      "VisibleId": 786,
+      "VisibleId": 474,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 289
     }
   },
   "_Links": {

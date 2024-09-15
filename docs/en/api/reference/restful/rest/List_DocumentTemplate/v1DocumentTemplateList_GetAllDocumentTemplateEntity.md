@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 733,
-    "Name": "Raynor Group",
-    "Tooltip": "rerum",
-    "SaveInDb": 475,
-    "Filename": "tenetur",
-    "DefaultOref": "tenetur",
+    "DocumentTemplateId": 806,
+    "Name": "Haag-Hilll",
+    "Tooltip": "molestiae",
+    "SaveInDb": 633,
+    "Filename": "minus",
+    "DefaultOref": "blanditiis",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 862,
-    "IntentId": 825,
-    "IsDefaultPublished": false,
-    "Rank": 426,
-    "LoadTemplateFromPlugin": 215,
-    "MimeType": "et",
+    "AutoeventId": 311,
+    "IntentId": 707,
+    "IsDefaultPublished": true,
+    "Rank": 740,
+    "LoadTemplateFromPlugin": 820,
+    "MimeType": "possimus",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 595,
+    "DocumentTypeKey": 566,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "noel@cruickshank.uk",
+    "EmailSubject": "karson_okon@bergstrom.ca",
     "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "cleveland.miller@mannemard.name",
+    "SenderEmailAddress": "pierre@nitzsche.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 81
       }
     }
   }

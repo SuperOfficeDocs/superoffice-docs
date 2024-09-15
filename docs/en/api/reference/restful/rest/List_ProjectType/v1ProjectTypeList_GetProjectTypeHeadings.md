@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 537,
-    "Name": "Nitzsche LLC",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 795,
-    "UdListDefinitionId": 891,
+    "HeadingId": 643,
+    "Name": "Breitenberg, Osinski and Fay",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 699,
+    "UdListDefinitionId": 447,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 164
       }
     }
   }

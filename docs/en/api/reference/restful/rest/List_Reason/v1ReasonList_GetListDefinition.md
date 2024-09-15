@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Gislason Group",
-  "Tooltip": "atque",
+  "Id": 953,
+  "Name": "Deckow-Hahn",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 144,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 109,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldLength": 150
     }
   },
   "_Links": {

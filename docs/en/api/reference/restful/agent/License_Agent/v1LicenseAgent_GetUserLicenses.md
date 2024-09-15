@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 387
+  "AssociateId": 385
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir, Schimmel and Schuppe",
-    "Description": "Phased uniform hierarchy",
+    "Name": "Bosco, Heaney and Wilkinson",
+    "Description": "Intuitive human-resource neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 77,
-        "Tooltip": "earum",
-        "CanAssign": true,
-        "Free": 244,
-        "InUse": 750,
-        "IsHidden": true,
+        "Total": 714,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 203,
+        "InUse": 208,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 575,
-        "Name": "Rau Inc and Sons",
-        "Description": "Vision-oriented fresh-thinking encryption",
-        "PrerequisiteModuleName": "Green, Mohr and Kling",
-        "SortOrder": 183,
-        "ExtraFlags": 160,
+        "ModuleLicenseId": 708,
+        "Name": "Hayes-Stanton",
+        "Description": "Realigned holistic paradigm",
+        "PrerequisiteModuleName": "Dooley, Kohler and Huels",
+        "SortOrder": 865,
+        "ExtraFlags": 775,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldLength": 474
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 619,
-        "Tooltip": "nisi",
+        "Total": 718,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 968,
-        "InUse": 244,
+        "Free": 517,
+        "InUse": 273,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 572,
-        "Name": "Rogahn, Adams and Heller",
-        "Description": "Cross-group hybrid approach",
-        "PrerequisiteModuleName": "Lemke-Pacocha",
-        "SortOrder": 653,
-        "ExtraFlags": 410,
+        "ModuleLicenseId": 187,
+        "Name": "Tremblay-Sawayn",
+        "Description": "Innovative full-range hardware",
+        "PrerequisiteModuleName": "Renner, Luettgen and Rolfson",
+        "SortOrder": 768,
+        "ExtraFlags": 572,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 304
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 43
       }
     }
   },
   {
-    "Name": "Runolfsdottir, Schimmel and Schuppe",
-    "Description": "Phased uniform hierarchy",
+    "Name": "Bosco, Heaney and Wilkinson",
+    "Description": "Intuitive human-resource neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 77,
-        "Tooltip": "earum",
-        "CanAssign": true,
-        "Free": 244,
-        "InUse": 750,
-        "IsHidden": true,
+        "Total": 714,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 203,
+        "InUse": 208,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 575,
-        "Name": "Rau Inc and Sons",
-        "Description": "Vision-oriented fresh-thinking encryption",
-        "PrerequisiteModuleName": "Green, Mohr and Kling",
-        "SortOrder": 183,
-        "ExtraFlags": 160,
+        "ModuleLicenseId": 708,
+        "Name": "Hayes-Stanton",
+        "Description": "Realigned holistic paradigm",
+        "PrerequisiteModuleName": "Dooley, Kohler and Huels",
+        "SortOrder": 865,
+        "ExtraFlags": 775,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldLength": 474
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 619,
-        "Tooltip": "nisi",
+        "Total": 718,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 968,
-        "InUse": 244,
+        "Free": 517,
+        "InUse": 273,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 572,
-        "Name": "Rogahn, Adams and Heller",
-        "Description": "Cross-group hybrid approach",
-        "PrerequisiteModuleName": "Lemke-Pacocha",
-        "SortOrder": 653,
-        "ExtraFlags": 410,
+        "ModuleLicenseId": 187,
+        "Name": "Tremblay-Sawayn",
+        "Description": "Innovative full-range hardware",
+        "PrerequisiteModuleName": "Renner, Luettgen and Rolfson",
+        "SortOrder": 768,
+        "ExtraFlags": 572,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 304
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 43
       }
     }
   }

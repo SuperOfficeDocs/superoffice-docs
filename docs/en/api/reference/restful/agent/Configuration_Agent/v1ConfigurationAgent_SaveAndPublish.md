@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 892,
-  "Name": "Cole Group",
-  "Description": "Exclusive dedicated parallelism",
-  "DeltaJson": "unde",
+  "ConfigurableScreenDeltaId": 990,
+  "Name": "Wintheiser, Lockman and Parker",
+  "Description": "Enterprise-wide motivating moratorium",
+  "DeltaJson": "tempore",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "vero",
-  "UpdatedDate": "2012-08-31T13:28:22.17931+02:00",
-  "CreatedDate": "2022-11-30T13:28:22.17931+01:00",
+  "RecipeId": "quisquam",
+  "UpdatedDate": "2022-05-13T04:02:01.4092709+02:00",
+  "CreatedDate": "2010-05-04T04:02:01.4092709+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    555,
-    36
+    714,
+    267
   ],
-  "AppliesToKey": "minima",
+  "AppliesToKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 277
     }
   }
 }

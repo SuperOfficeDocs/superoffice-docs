@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Turcotte Inc and Sons",
-  "StorageKey": "architecto",
-  "Restrictions": "soluta"
+  "StorageType": "dolores",
+  "ProviderName": "Powlowski, Williamson and Langworth",
+  "StorageKey": "explicabo",
+  "Restrictions": "fugiat"
 }
 ```
 

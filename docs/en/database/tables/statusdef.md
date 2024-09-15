@@ -2,10 +2,10 @@
 uid: table-StatusDef
 title: StatusDef table
 description: Status definitions. Name and description are in LocaleText for internationalization
-generated: true
+so.generated: true
 keywords: database table StatusDef
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # StatusDef Table (198)

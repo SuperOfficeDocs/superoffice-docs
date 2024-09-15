@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    99,
-    832
+    744,
+    465
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 847,
-    "MessageId": "sit",
-    "Subject": "molestiae",
+    "ServerId": 192,
+    "MessageId": "a",
+    "Subject": "repellat",
     "From": null,
     "To": [
       {
-        "ContactId": 271,
-        "ContactName": "Greenholt, Pollich and Schuster",
-        "PersonId": 946,
-        "PersonName": "Towne, Langworth and Runolfsson",
-        "AssociateId": 101,
-        "Address": "inventore",
-        "EmailId": 385,
+        "ContactId": 923,
+        "ContactName": "Reichert-Orn",
+        "PersonId": 879,
+        "PersonName": "Prohaska-Homenick",
+        "AssociateId": 9,
+        "Address": "minima",
+        "EmailId": 979,
         "DuplicatePersonIds": [
-          86,
-          446
+          572,
+          389
         ],
-        "Name": "Jerde-Hermann",
+        "Name": "Hand, Heidenreich and Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 307
           }
         }
       }
     ],
-    "Sent": "2024-07-22T13:28:22.7416819+02:00",
+    "Sent": "2018-12-22T04:02:01.7373708+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 335,
+    "Size": 45,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

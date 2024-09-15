@@ -2,10 +2,10 @@
 uid: table-Message
 title: Message table
 description: Definition of a message, corresponding to the header of a protocol
-generated: true
+so.generated: true
 keywords: database table Message
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Message Table (242)
@@ -17,18 +17,17 @@ Definition of a message, corresponding to the header of a protocol
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |Message\_id|Primary key|PK| |
-|sourceHandler|Originating message handler|FK [MessageHandler](messagehandler.md)| |
-|targetHandler|Target message handler|FK [MessageHandler](messagehandler.md)| |
-|motherId|ID of message that this message is correlated to; 0 if this is the first message of a conversation|FK [Message](message.md)|&#x25CF;|
-|messageType|Application-specific message type|UInt| |
-|detailsTable|Table containing message body (BatchTask, or some thing else)|TableNumber| |
-|detailsRecord|Record containing message body|RecordId| |
-|description|Message description, to aid in debugging and monitoring|String(254)| |
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|associateId|The associate that is the target of this message|FK [associate](associate.md)| |
+|onlineapp\_id|The online app that owns this message|FK [OnlineApp](onlineapp.md)| |
+|systemMessageId|Message identifier, used for message update or removal|String(255)| |
+|markdownMessage|Markdown message to be displayed to user|String(4000)| |
+|expire|The date and time the message expires|UtcDateTime| |
+|type|Type of message, example: info, warning, error|Enum [SystemMessageType](enums/systemmessagetype.md)| |
 
 
 ![Message table relationship diagram](./media/Message.png)
@@ -40,17 +39,14 @@ Definition of a message, corresponding to the header of a protocol
 | Fields | Types | Description |
 |--------|-------|-------------|
 |Message\_id |PK |Clustered, Unique |
-|sourceHandler |FK |Index |
-|targetHandler |FK |Index |
-|motherId |FK |Index |
+|associateId, systemMessageId, onlineapp\_id |FK, String(255), FK |Unique |
 
 ## Relationships
 
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
-|[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
+|[OnlineApp](onlineapp.md)  |Echo and track information about Online Apps and their usage |
 
 
 ## Replication Flags

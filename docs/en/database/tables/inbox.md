@@ -2,10 +2,10 @@
 uid: table-inbox
 title: inbox table
 description: Info and status for safe email import
-generated: true
+so.generated: true
 keywords: database table inbox
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # inbox Table (352)

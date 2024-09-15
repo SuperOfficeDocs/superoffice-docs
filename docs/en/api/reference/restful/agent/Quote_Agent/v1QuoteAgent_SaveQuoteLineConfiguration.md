@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 464,
-  "FieldName": "Lockman, Mills and Bartell",
-  "Label": "corporis",
-  "Tooltip": "officiis",
-  "Editable": true,
+  "QuoteLineConfigurationId": 807,
+  "FieldName": "Kuphal, McCullough and Price",
+  "Label": "quia",
+  "Tooltip": "laboriosam",
+  "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 642,
+  "Rank": 798,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 1002
     }
   }
 }

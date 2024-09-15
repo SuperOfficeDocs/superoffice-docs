@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 558
+  "DocumentId": 754
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 494,
-      "ContactName": "Rodriguez-Labadie",
-      "PersonId": 623,
-      "PersonName": "Blanda Group",
-      "AssociateId": 174,
-      "Address": "fugit",
-      "EmailId": 861,
+      "ContactId": 221,
+      "ContactName": "Ernser Group",
+      "PersonId": 31,
+      "PersonName": "Monahan Inc and Sons",
+      "AssociateId": 493,
+      "Address": "et",
+      "EmailId": 827,
       "DuplicatePersonIds": [
-        174,
-        583
+        738,
+        895
       ],
-      "Name": "Herzog Group",
+      "Name": "Schmeler, Abbott and Fay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 155,
-      "ContactName": "Hoeger, Leannon and Kirlin",
-      "PersonId": 748,
-      "PersonName": "Toy Inc and Sons",
-      "AssociateId": 338,
-      "Address": "temporibus",
-      "EmailId": 643,
+      "ContactId": 326,
+      "ContactName": "Wilkinson Group",
+      "PersonId": 881,
+      "PersonName": "Mann LLC",
+      "AssociateId": 506,
+      "Address": "iste",
+      "EmailId": 677,
       "DuplicatePersonIds": [
-        54,
-        420
+        414,
+        986
       ],
-      "Name": "Grant-Crooks",
+      "Name": "Grimes, Kuvalis and Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 467,
-      "ContactName": "Kautzer-Wintheiser",
-      "PersonId": 643,
-      "PersonName": "Cremin, Casper and Jakubowski",
-      "AssociateId": 571,
-      "Address": "qui",
-      "EmailId": 492,
+      "ContactId": 575,
+      "ContactName": "Bernhard, Hirthe and Muller",
+      "PersonId": 79,
+      "PersonName": "Lubowitz-Swaniawski",
+      "AssociateId": 555,
+      "Address": "fugiat",
+      "EmailId": 654,
       "DuplicatePersonIds": [
-        441,
-        278
+        56,
+        311
       ],
-      "Name": "Gleason Inc and Sons",
+      "Name": "Yundt Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldLength": 656
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "qui",
+  "Subject": "quis",
+  "HTMLBody": "error",
   "From": null,
-  "Sent": "2014-10-25T13:28:22.7260597+02:00",
-  "Size": 432,
+  "Sent": "2013-09-27T04:02:01.7217471+02:00",
+  "Size": 412,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "dolor",
-  "IsSent": false,
+  "MessageID": "excepturi",
+  "PlainBody": "vero",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 718,
+  "ServerId": 978,
   "Attachments": [
     {
-      "Description": "Universal global data-warehouse",
-      "Filename": "velit",
-      "Size": 86,
-      "Type": "in",
-      "Encoding": "eveniet",
-      "Id": "saepe",
-      "Disposition": "corrupti",
-      "IsSafeFileExtension": true,
+      "Description": "Future-proofed tangible customer loyalty",
+      "Filename": "nesciunt",
+      "Size": 12,
+      "Type": "ipsum",
+      "Encoding": "eius",
+      "Id": "aliquid",
+      "Disposition": "eum",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldLength": 515
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Kon Inc and Sons",
+      "Name": "Reilly-Gusikowski",
       "Values": [
-        "officiis",
-        "ipsam"
+        "voluptatem",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 364
         }
       }
     },
     {
-      "Name": "O'Kon Inc and Sons",
+      "Name": "Reilly-Gusikowski",
       "Values": [
-        "officiis",
-        "ipsam"
+        "voluptatem",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 364
         }
       }
     }
   ],
-  "FolderName": "Connelly Group",
-  "EmailItemId": 127,
-  "AccountId": 488,
-  "ReceivedAt": "2008-08-24T13:28:22.7260597+02:00",
+  "FolderName": "Schoen-Bergnaum",
+  "EmailItemId": 128,
+  "AccountId": 903,
+  "ReceivedAt": "2004-08-30T04:02:01.7217471+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-11-26T13:28:22.7260597+01:00",
+  "RepliedAt": "2019-04-14T04:02:01.7217471+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 919
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Orn Group",
-  "Tooltip": "et",
+  "Id": 830,
+  "Name": "Senger-Schulist",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "UdListDefinitionId": 358,
-  "Rank": 393,
+  "UdListDefinitionId": 135,
+  "Rank": 790,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

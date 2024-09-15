@@ -2,10 +2,10 @@
 uid: enum-workflowtriggertype
 title: Enum values for WorkflowTriggerType
 description: Lists the enum values for WorkflowTriggerType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # WorkflowTriggerType Enum

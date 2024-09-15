@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 347,
-  "GroupId": 538
+  "UdListDefinitionId": 551,
+  "GroupId": 931
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Friesen-Hamill",
-    "ToolTip": "Non laboriosam.",
+    "Id": 609,
+    "Name": "Reynolds LLC",
+    "ToolTip": "Aut incidunt eligendi animi voluptatem reiciendis.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "officia",
-    "ColorBlock": 819,
-    "IconHint": "exercitationem",
+    "Rank": 671,
+    "Type": "consequuntur",
+    "ColorBlock": 190,
+    "IconHint": "esse",
     "Selected": true,
-    "LastChanged": "1998-04-22T13:28:22.9449983+02:00",
+    "LastChanged": "2002-10-26T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Gutmann, McLaughlin and Wolf",
-        "ToolTip": "Ducimus autem dolorum excepturi sint.",
-        "Deleted": true,
-        "Rank": 493,
-        "Type": "facere",
-        "ColorBlock": 849,
-        "IconHint": "dolores",
+        "Id": 185,
+        "Name": "Gislason Group",
+        "ToolTip": "Ipsum unde quasi et eos.",
+        "Deleted": false,
+        "Rank": 329,
+        "Type": "molestiae",
+        "ColorBlock": 956,
+        "IconHint": "accusantium",
         "Selected": true,
-        "LastChanged": "2024-04-15T13:28:22.9449983+02:00",
+        "LastChanged": "2016-02-23T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "cum",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Agustina O'Reilly",
+        "FullName": "Dr. Vernon Lois Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 991
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "debitis",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Sven Kerluke",
+    "FullName": "Theresa Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 818
       }
     }
   }

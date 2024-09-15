@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Qui odio labore amet pariatur maxime dignissimos et.",
+    "Id": 639,
+    "Name": "Roberts-Schulist",
+    "ToolTip": "Vitae est.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "consequuntur",
-    "ColorBlock": 609,
-    "IconHint": "dolore",
-    "Selected": false,
-    "LastChanged": "2004-04-14T13:28:32.694768+02:00",
+    "Rank": 889,
+    "Type": "consequatur",
+    "ColorBlock": 638,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2016-07-05T04:02:07.0878487+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Olson-Kunze",
-        "ToolTip": "Et temporibus at ducimus sed voluptatum sequi.",
-        "Deleted": false,
-        "Rank": 475,
-        "Type": "corporis",
-        "ColorBlock": 728,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2017-08-29T13:28:32.694768+02:00",
+        "Id": 145,
+        "Name": "Wiegand-Ledner",
+        "ToolTip": "Cum omnis ratione explicabo quo quae voluptas.",
+        "Deleted": true,
+        "Rank": 36,
+        "Type": "mollitia",
+        "ColorBlock": 762,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2021-09-26T04:02:07.0878487+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Prof. Jolie Leonor O'Kon V",
+        "ExtraInfo": "possimus",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Kobe Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Miss Veronica Tavares Bosco",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Mrs. Greta Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 351
       }
     }
   }

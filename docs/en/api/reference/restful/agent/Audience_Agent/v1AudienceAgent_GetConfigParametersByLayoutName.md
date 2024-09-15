@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Pfannerstill-Greenfelder"
+  "LayoutName": "Bauch-Walter"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 230,
-    "Name": "Pfannerstill-McDermott",
-    "Value": "velit",
-    "CreatedDate": "2014-10-14T13:28:21.8356378+02:00",
-    "UpdatedDate": "2002-07-27T13:28:21.8356378+02:00",
+    "AudienceLayoutId": 763,
+    "Name": "Schmitt, Wisozk and Gorczany",
+    "Value": "laborum",
+    "CreatedDate": "2013-06-18T04:02:01.221786+02:00",
+    "UpdatedDate": "2010-07-14T04:02:01.221786+02:00",
     "CreatedBy": "quia",
-    "UpdatedBy": "odit",
+    "UpdatedBy": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 15
       }
     }
   }

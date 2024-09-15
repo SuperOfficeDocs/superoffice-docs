@@ -2,10 +2,10 @@
 uid: table-StakeholderRoleHeadingLink
 title: StakeholderRoleHeadingLink table
 description: Heading link table for StakeholderRole, for MDO headers
-generated: true
+so.generated: true
 keywords: database table StakeholderRoleHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # StakeholderRoleHeadingLink Table (124)

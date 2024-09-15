@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lehner, Bartoletti and Marks",
-  "Comment": "esse",
-  "StakeholderRoleId": 716,
-  "CountryId": 321,
-  "PersonId": 142,
-  "EmailDescription": "lamont_vonrueden@robelkrajcik.uk",
-  "EmailId": 446,
-  "EmailAddress": "emmie@ratkeswift.co.uk",
-  "PhoneId": 312,
-  "ContactName": "Zieme, McDermott and Heathcote",
-  "ContactId": 229,
-  "SaleId": 124,
-  "Mrmrs": "error",
-  "Firstname": "Maxime",
-  "MiddleName": "Schowalter, Ritchie and Toy",
-  "Lastname": "Reynolds",
-  "SaleStakeholderId": 273,
-  "Rank": 598,
-  "Phone": "1-764-077-2583 x22862",
+  "StakeholderRoleName": "Champlin, Grady and Terry",
+  "Comment": "soluta",
+  "StakeholderRoleId": 916,
+  "CountryId": 360,
+  "PersonId": 550,
+  "EmailDescription": "hellen@hirthe.name",
+  "EmailId": 961,
+  "EmailAddress": "alvera@monahan.name",
+  "PhoneId": 594,
+  "ContactName": "Auer Inc and Sons",
+  "ContactId": 715,
+  "SaleId": 692,
+  "Mrmrs": "sint",
+  "Firstname": "Janice",
+  "MiddleName": "Rowe-Brekke",
+  "Lastname": "Wilderman",
+  "SaleStakeholderId": 563,
+  "Rank": 2,
+  "Phone": "1-589-877-0294 x2424",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   },
   "_Links": {

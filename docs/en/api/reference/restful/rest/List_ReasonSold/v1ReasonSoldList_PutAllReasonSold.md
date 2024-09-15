@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "Beahan, Senger and Lubowitz",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "UdListDefinitionId": 154,
-    "Rank": 591
+    "Id": 989,
+    "Name": "Koss, Ziemann and Wiegand",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 977,
+    "Rank": 737
   },
   {
-    "Id": 640,
-    "Name": "Beahan, Senger and Lubowitz",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "UdListDefinitionId": 154,
-    "Rank": 591
+    "Id": 989,
+    "Name": "Koss, Ziemann and Wiegand",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 977,
+    "Rank": 737
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Hansen, Corwin and Fadel",
-    "Tooltip": "commodi",
+    "Id": 325,
+    "Name": "Bahringer Group",
+    "Tooltip": "tempora",
     "Deleted": true,
-    "UdListDefinitionId": 99,
-    "Rank": 781,
+    "UdListDefinitionId": 179,
+    "Rank": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 370
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

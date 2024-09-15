@@ -2,10 +2,10 @@
 uid: table-workflow
 title: workflow table
 description: SuperOffice specific info about a workflow
-generated: true
+so.generated: true
 keywords: database table workflow
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # workflow Table (510)

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Ziemann-Pacocha",
-    "ToolTip": "Alias et et blanditiis repudiandae.",
+    "Id": 538,
+    "Name": "Corkery Inc and Sons",
+    "ToolTip": "Sit accusantium voluptatibus est nesciunt.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "ullam",
-    "ColorBlock": 444,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2017-02-07T13:28:32.679146+01:00",
+    "Rank": 567,
+    "Type": "voluptas",
+    "ColorBlock": 354,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2002-02-11T04:02:07.0722253+01:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Abbott-Jacobi",
-        "ToolTip": "Dolorum aperiam.",
+        "Id": 631,
+        "Name": "Harber-Reilly",
+        "ToolTip": "Dolores excepturi voluptatem aut excepturi vel ipsa.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "porro",
-        "ColorBlock": 819,
-        "IconHint": "nulla",
+        "Rank": 991,
+        "Type": "sit",
+        "ColorBlock": 810,
+        "IconHint": "delectus",
         "Selected": true,
-        "LastChanged": "2006-04-15T13:28:32.679146+02:00",
+        "LastChanged": "2001-12-01T04:02:07.0722253+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "beatae",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Coty Friesen"
+        "FullName": "Miss Edythe Lillian Prohaska"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "expedita",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Precious Marisol Grady III"
+    "FullName": "Jeanne Runolfsdottir"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Reichel Group",
-    "ToolTip": "Est voluptas est qui quas sit.",
+    "Id": 694,
+    "Name": "Borer LLC",
+    "ToolTip": "Dicta aliquid earum omnis temporibus molestiae dolorem officiis.",
     "Deleted": true,
-    "Rank": 541,
-    "Type": "error",
-    "ColorBlock": 411,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2007-02-22T13:28:32.679146+01:00",
+    "Rank": 572,
+    "Type": "harum",
+    "ColorBlock": 289,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2008-10-09T04:02:07.0878487+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Sanford, Runolfsdottir and Mohr",
-        "ToolTip": "Quia dicta quasi quod repellendus et.",
-        "Deleted": true,
-        "Rank": 163,
-        "Type": "quia",
-        "ColorBlock": 155,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2016-02-09T13:28:32.679146+01:00",
+        "Id": 269,
+        "Name": "Denesik Group",
+        "ToolTip": "Rerum officia.",
+        "Deleted": false,
+        "Rank": 140,
+        "Type": "non",
+        "ColorBlock": 117,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2018-03-03T04:02:07.0878487+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "nulla",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Miss Alexandrea Nitzsche",
+        "FullName": "Miss Buford Oleta Ernser IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldType": "System.Int32",
+            "FieldLength": 288
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "laboriosam",
-    "Hidden": true,
-    "FullName": "Mrs. Timmy Rempel",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Otha Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 21
       }
     }
   }

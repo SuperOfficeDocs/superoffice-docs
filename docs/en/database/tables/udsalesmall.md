@@ -2,10 +2,10 @@
 uid: table-udsalesmall
 title: udsalesmall table
 description: User-defined fields
-generated: true
+so.generated: true
 keywords: database table udsalesmall
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # udsalesmall Table (158)

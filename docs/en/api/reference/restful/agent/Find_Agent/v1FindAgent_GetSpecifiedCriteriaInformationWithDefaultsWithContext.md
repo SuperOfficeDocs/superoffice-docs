@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquam",
-  "ProviderName": "Blanda LLC",
-  "StorageKey": "tenetur",
+  "StorageType": "omnis",
+  "ProviderName": "O'Connell, Marvin and Kling",
+  "StorageKey": "quam",
   "DesiredColumnNames": [
-    "Witting, Schroeder and Grant",
-    "Hodkiewicz, Keeling and Treutel"
+    "Kunze-Lemke",
+    "Mraz, Harvey and Hansen"
   ],
   "StaticColumns": [
-    "porro",
-    "voluptatem"
+    "fugit",
+    "sequi"
   ],
-  "Context": "temporibus"
+  "Context": "saepe"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cole Inc and Sons",
-      "Operator": "qui",
+      "Name": "Bailey, Lehner and Klein",
+      "Operator": "nihil",
       "Values": [
-        "facere",
-        "distinctio"
+        "suscipit",
+        "minus"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "soluta"
+        "quam",
+        "modi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 318,
+      "InterParenthesis": 73,
       "InterOperator": "And",
-      "UniqueHash": 612
+      "UniqueHash": 956
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Johnson-Runolfsdottir",
-      "DisplayTooltip": "incidunt",
-      "DisplayType": "voluptate",
+      "DisplayName": "Bashirian Group",
+      "DisplayTooltip": "sed",
+      "DisplayType": "corrupti",
       "CanOrderBy": false,
-      "Name": "Treutel LLC",
+      "Name": "Rippin LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Mante LLC",
-      "IsVisible": false,
-      "ExtraInfo": "magnam",
-      "Width": "qui",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "explicabo"
+      "RestrictionType": "et",
+      "RestrictionListName": "Price-Halvorson",
+      "IsVisible": true,
+      "ExtraInfo": "eveniet",
+      "Width": "alias",
+      "IconHint": "distinctio",
+      "HeadingIconHint": "nemo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Tromp-Mueller",
-      "PrimaryKey": 635,
+      "EntityName": "Yundt, Kreiger and Bruen",
+      "PrimaryKey": 880,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "quasi",
-          "LinkHint": "modi"
+          "DisplayValue": "quidem",
+          "TooltipHint": "minus",
+          "LinkHint": "minima"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "ipsum",
+      "LinkHint": "asperiores",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 89
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Langworth-Casper",
-      "Description": "Inverse zero tolerance definition",
-      "Rank": 555,
+      "Name": "Nicolas Inc and Sons",
+      "Description": "Switchable impactful instruction set",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langworth-Casper",
-      "Description": "Inverse zero tolerance definition",
-      "Rank": 555,
+      "Name": "Nicolas Inc and Sons",
+      "Description": "Switchable impactful instruction set",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 476
     }
   }
 }

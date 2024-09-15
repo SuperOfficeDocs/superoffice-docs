@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 158,
+  "TargetYear": 549,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 446
+  "Id": 906
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 114,
+  "TargetAssignmentInfoId": 978,
   "Values": [
-    752,
-    945
+    639,
+    361
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 293,
-  "DimensionListItemDisplayName": "Crooks LLC",
+  "DimensionListItem": 985,
+  "DimensionListItemDisplayName": "Herman Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldLength": 171
     }
   }
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 197,
-    "Name": "Carroll-Wiegand",
-    "Tooltip": "rerum",
+    "HeadingId": 371,
+    "Name": "Fritsch-Kshlerin",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 679,
+    "Rank": 201,
+    "UdListDefinitionId": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldType": "System.String",
+        "FieldLength": 533
       }
     }
   }

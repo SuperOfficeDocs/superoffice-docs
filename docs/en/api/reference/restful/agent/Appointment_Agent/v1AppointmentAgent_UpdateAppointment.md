@@ -130,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "StartTime": "2017-01-05T13:28:21.4605072+01:00",
-  "EndTime": "2000-09-01T13:28:21.4605072+02:00",
-  "Status": 58,
-  "Type": 567,
-  "AssociateId": 455
+  "Id": 868,
+  "StartTime": "2016-04-18T04:02:01.0025647+02:00",
+  "EndTime": "2012-11-27T04:02:01.0025647+01:00",
+  "Status": 727,
+  "Type": 880,
+  "AssociateId": 537
 }
 ```
 
@@ -150,65 +150,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 720,
-  "StartDate": "2023-06-13T13:28:21.4605072+02:00",
-  "EndDate": "1998-09-07T13:28:21.4605072+02:00",
+  "AppointmentId": 886,
+  "StartDate": "2000-02-01T04:02:01.0025647+01:00",
+  "EndDate": "2007-08-26T04:02:01.0025647+02:00",
   "Type": "BookingForChecklist",
-  "Task": "doloremque",
-  "AssociateFullName": "Chasity Lubowitz",
-  "ContactName": "Davis LLC",
-  "Description": "Synergistic bottom-line definition",
-  "PersonFullName": "Frank Kemmer",
-  "PersonId": 713,
-  "ContactId": 882,
-  "ProjectId": 842,
-  "ProjectName": "Quigley, Lind and Schmitt",
-  "IsPublished": false,
-  "AssociateId": 125,
-  "ColorIndex": 752,
+  "Task": "et",
+  "AssociateFullName": "Branson Jerde",
+  "ContactName": "Fahey, Powlowski and Deckow",
+  "Description": "Team-oriented zero administration groupware",
+  "PersonFullName": "Mr. Talon Meredith Bednar III",
+  "PersonId": 789,
+  "ContactId": 12,
+  "ProjectId": 792,
+  "ProjectName": "DuBuque, O'Kon and Hills",
+  "IsPublished": true,
+  "AssociateId": 799,
+  "ColorIndex": 745,
   "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 683,
-  "PriorityName": "Jerde-Wiegand",
+  "PriorityId": 940,
+  "PriorityName": "O'Connell, Dare and Robel",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2007-06-10T13:28:21.4605072+02:00",
+  "ActiveDate": "2023-03-15T04:02:01.0025647+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2017-05-27T13:28:21.4605072+02:00",
-  "RecurringEndDate": "2003-04-25T13:28:21.4605072+02:00",
-  "MotherId": 627,
-  "AssignedBy": 6,
-  "AssignedByFullName": "Ms. Patricia Flatley II",
+  "RecurringStartDate": "2024-04-22T04:02:01.0025647+02:00",
+  "RecurringEndDate": "2004-11-09T04:02:01.0025647+01:00",
+  "MotherId": 628,
+  "AssignedBy": 979,
+  "AssignedByFullName": "Liana Jast MD",
   "RejectReason": "",
-  "Location": "sed",
-  "AlarmLeadTime": "voluptatem",
-  "SaleId": 147,
-  "SaleName": "Wilkinson Inc and Sons",
-  "AssociateName": "Stracke, Gislason and Hickle",
-  "CreatedDate": "2015-11-08T13:28:21.4605072+01:00",
-  "CreatedBy": "dolorum",
-  "CreatedByFullName": "Andy Jacobi",
-  "CreatedByAssociateId": 808,
+  "Location": "ut",
+  "AlarmLeadTime": "ea",
+  "SaleId": 634,
+  "SaleName": "Lowe, Bradtke and Kunze",
+  "AssociateName": "Fadel, Gutkowski and Morar",
+  "CreatedDate": "2012-03-18T04:02:01.0025647+01:00",
+  "CreatedBy": "tempore",
+  "CreatedByFullName": "Adelia Jacobson",
+  "CreatedByAssociateId": 233,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 599,
-  "Title": "voluptatum",
-  "Agenda": "consequatur",
-  "InternalNotes": "sequi",
+  "PreferredTZLocation": 625,
+  "Title": "repellendus",
+  "Agenda": "et",
+  "InternalNotes": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 61
     }
   }
 }

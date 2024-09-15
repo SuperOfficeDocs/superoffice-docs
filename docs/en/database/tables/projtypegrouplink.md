@@ -2,10 +2,10 @@
 uid: table-ProjTypeGroupLink
 title: ProjTypeGroupLink table
 description: User group link table for ProjType, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table ProjTypeGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProjTypeGroupLink Table (86)

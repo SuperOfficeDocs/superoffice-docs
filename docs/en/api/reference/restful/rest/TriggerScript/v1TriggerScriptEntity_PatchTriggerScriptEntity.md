@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 417,
-  "Name": "O'Conner, Gerhold and Predovic",
+  "ScreenChooserId": 253,
+  "Name": "Howell Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "odit",
-  "Source": "blanditiis",
-  "Registered": "2022-10-09T13:28:32.4292054+02:00",
-  "RegisteredAssociateId": 431,
-  "Updated": "2008-10-02T13:28:32.4292054+02:00",
-  "UpdatedAssociateId": 715,
+  "UniqueIdentifier": "cupiditate",
+  "Source": "ipsum",
+  "Registered": "2017-12-26T04:02:06.9316148+01:00",
+  "RegisteredAssociateId": 720,
+  "Updated": "2010-12-15T04:02:06.9316148+01:00",
+  "UpdatedAssociateId": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

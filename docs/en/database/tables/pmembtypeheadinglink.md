@@ -2,10 +2,10 @@
 uid: table-PMembTypeHeadingLink
 title: PMembTypeHeadingLink table
 description: Heading link table for PMembType, for MDO headers
-generated: true
+so.generated: true
 keywords: database table PMembTypeHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PMembTypeHeadingLink Table (93)

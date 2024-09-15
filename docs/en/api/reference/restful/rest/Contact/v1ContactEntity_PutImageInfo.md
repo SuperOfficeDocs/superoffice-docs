@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 620,
-  "BlobSize": 471,
-  "Description": "Phased web-enabled groupware",
-  "ExtraInfo": "quae",
+  "BlobId": 726,
+  "BlobSize": 697,
+  "Description": "Synergized eco-centric info-mediaries",
+  "ExtraInfo": "a",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "unde",
-  "OriginalSize": 458,
-  "CreatedDate": "2024-02-23T13:28:31.3980564+01:00",
-  "UpdatedDate": "2013-05-13T13:28:31.3980564+02:00",
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 773,
+  "CreatedDate": "2001-07-21T04:02:06.3686697+02:00",
+  "UpdatedDate": "2018-03-02T04:02:06.3686697+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "officia"
+  "ConceptualType": "eum"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 847,
-  "BlobSize": 628,
-  "Description": "Enhanced bandwidth-monitored secured line",
-  "ExtraInfo": "quod",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 538,
-  "CreatedDate": "2009-07-26T13:28:31.3980564+02:00",
-  "UpdatedDate": "2023-10-04T13:28:31.3980564+02:00",
+  "BlobId": 108,
+  "BlobSize": 635,
+  "Description": "Fully-configurable multimedia standardization",
+  "ExtraInfo": "atque",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 435,
+  "CreatedDate": "2005-06-15T04:02:06.3686697+02:00",
+  "UpdatedDate": "2008-04-25T04:02:06.3686697+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deleniti",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

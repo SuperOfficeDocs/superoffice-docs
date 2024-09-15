@@ -2,10 +2,10 @@
 uid: table-s_dyn_criteria
 title: s_dyn_criteria table
 description: Contains criterias for a dynamic list.
-generated: true
+so.generated: true
 keywords: database table s_dyn_criteria
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_dyn\_criteria Table (350)

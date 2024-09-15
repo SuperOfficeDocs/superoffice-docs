@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 469,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "non",
+  "HeadingId": 615,
+  "Name": "Moen, Lueilwitz and Herzog",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 733,
-  "UdListDefinitionId": 160
+  "Rank": 742,
+  "UdListDefinitionId": 898
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 660,
-  "Name": "Flatley-Ortiz",
-  "Tooltip": "fuga",
+  "HeadingId": 994,
+  "Name": "Klein Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 732,
-  "UdListDefinitionId": 244,
+  "Rank": 142,
+  "UdListDefinitionId": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

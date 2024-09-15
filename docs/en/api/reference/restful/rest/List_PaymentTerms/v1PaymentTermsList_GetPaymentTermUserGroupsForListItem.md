@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 664,
-    "Name": "McLaughlin-O'Kon",
-    "ToolTip": "Aspernatur commodi ea in velit molestiae.",
+    "Id": 225,
+    "Name": "Bahringer Inc and Sons",
+    "ToolTip": "Eos dolorem.",
     "Deleted": false,
-    "Rank": 232,
-    "Type": "est",
-    "ColorBlock": 445,
+    "Rank": 607,
+    "Type": "ullam",
+    "ColorBlock": 996,
     "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2001-10-26T13:28:32.8978487+02:00",
+    "LastChanged": "2006-09-29T04:02:07.2753298+02:00",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Boyle-Kuhn",
-        "ToolTip": "Itaque iure ut non sed.",
-        "Deleted": false,
-        "Rank": 106,
-        "Type": "atque",
-        "ColorBlock": 137,
-        "IconHint": "maiores",
+        "Id": 800,
+        "Name": "Altenwerth LLC",
+        "ToolTip": "Eum voluptatem ut qui rerum sit rem occaecati.",
+        "Deleted": true,
+        "Rank": 372,
+        "Type": "beatae",
+        "ColorBlock": 351,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2023-06-05T13:28:32.8978487+02:00",
+        "LastChanged": "2004-01-23T04:02:07.2753298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Mrs. Kylie Kertzmann",
+        "ExtraInfo": "iusto",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Miss Anahi Laurie Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "minima",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Duane Schaden",
+    "FullName": "Jaqueline Addie Waelchi I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 663
       }
     }
   }

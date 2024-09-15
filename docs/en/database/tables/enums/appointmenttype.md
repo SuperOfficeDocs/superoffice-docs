@@ -2,10 +2,10 @@
 uid: enum-appointmenttype
 title: Enum values for AppointmentType
 description: Lists the enum values for AppointmentType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AppointmentType Enum

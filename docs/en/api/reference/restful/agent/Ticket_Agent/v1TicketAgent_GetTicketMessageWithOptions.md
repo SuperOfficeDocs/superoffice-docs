@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 418,
+  "TicketMessageEntityId": 651,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 562,
+  "EjMessageId": 882,
   "Ticket": null,
-  "CreatedAt": "2010-01-23T13:28:23.8510673+01:00",
+  "CreatedAt": "2004-09-18T04:02:02.3629998+02:00",
   "CreatedBy": null,
-  "Author": "architecto",
+  "Author": "neque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptate",
-  "TimeSpent": 974,
-  "Body": "nobis",
-  "HtmlBody": "asperiores",
-  "EmailHeader": "terrill@lowelangosh.biz",
-  "DebugInfo": "et",
-  "MailSorter": "veniam",
+  "MessageId": "quos",
+  "TimeSpent": 494,
+  "Body": "alias",
+  "HtmlBody": "nesciunt",
+  "EmailHeader": "mariah.murphy@luettgenemard.name",
+  "DebugInfo": "aliquam",
+  "MailSorter": "alias",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 536,
-      "Name": "Krajcik LLC",
-      "Value": "ut",
+      "Id": 868,
+      "Name": "Murray, Lind and Collier",
+      "Value": "rem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "modi",
-  "Sentiment": 97,
-  "SentimentConfidence": 651,
+  "Important": false,
+  "Language": "ea",
+  "Sentiment": 332,
+  "SentimentConfidence": 770,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 201,
-      "Name": "Weimann Inc and Sons",
-      "ContentType": "nesciunt",
-      "AttSize": 520,
-      "InlineImage": false,
-      "ContentId": "non",
-      "AuthKey": "vero",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 954,
+      "Name": "Smith LLC",
+      "ContentType": "eos",
+      "AttSize": 557,
+      "InlineImage": true,
+      "ContentId": "quas",
+      "AuthKey": "inventore",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 533
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "non"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "saepe"
+    "CustomFields1": "animi",
+    "CustomFields2": "laudantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

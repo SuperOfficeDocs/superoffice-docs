@@ -2,10 +2,10 @@
 uid: table-SuggestedAppointment
 title: SuggestedAppointment table
 description: Defines a suggested appointment for use in a Sale Guide or Project Guide
-generated: true
+so.generated: true
 keywords: database table SuggestedAppointment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SuggestedAppointment Table (125)

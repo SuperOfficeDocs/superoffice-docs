@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=sequi
-GET /api/v1/Selection?$top=9
-GET /api/v1/Selection?$skip=531
+GET /api/v1/Selection?$entities=tenetur
+GET /api/v1/Selection?$top=511
+GET /api/v1/Selection?$skip=828
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=veritatis
+GET /api/v1/Selection?$context=magnam
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "recusandae",
+  "odata.nextLink": "temporibus",
   "value": [
     {
-      "PrimaryKey": 1652,
+      "PrimaryKey": 289,
       "EntityName": "sale",
-      "saleId": 1652,
-      "contactId": 6759,
-      "name": "Williamson Inc and Sons"
+      "saleId": 289,
+      "contactId": 8754,
+      "name": "Batz, Glover and Goldner"
     },
     {
-      "PrimaryKey": 7413,
+      "PrimaryKey": 1231,
       "EntityName": "sale",
-      "saleId": 7413,
-      "contactId": 4664,
-      "name": "Konopelski-Kshlerin"
+      "saleId": 1231,
+      "contactId": 9713,
+      "name": "Anderson-Cormier"
     }
   ]
 }

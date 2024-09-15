@@ -2,10 +2,10 @@
 uid: table-Webhook_usage
 title: Webhook_usage table
 description: Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.
-generated: true
+so.generated: true
 keywords: database table Webhook_usage
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Webhook\_usage Table (509)

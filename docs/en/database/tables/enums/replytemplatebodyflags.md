@@ -2,10 +2,10 @@
 uid: enum-replytemplatebodyflags
 title: Enum values for ReplyTemplateBodyFlags
 description: Lists the enum values for ReplyTemplateBodyFlags.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ReplyTemplateBodyFlags Enum

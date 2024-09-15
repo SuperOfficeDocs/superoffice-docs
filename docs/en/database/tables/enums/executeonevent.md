@@ -2,10 +2,10 @@
 uid: enum-executeonevent
 title: Enum values for ExecuteOnEvent
 description: Lists the enum values for ExecuteOnEvent.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ExecuteOnEvent Enum

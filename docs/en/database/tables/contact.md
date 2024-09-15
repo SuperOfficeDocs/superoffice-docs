@@ -2,10 +2,10 @@
 uid: table-contact
 title: contact table
 description: Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
-generated: true
+so.generated: true
 keywords: database table contact
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # contact Table (5)

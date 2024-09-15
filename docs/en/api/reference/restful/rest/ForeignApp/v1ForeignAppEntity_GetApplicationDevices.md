@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Sep 2012 13:28:31 G9T
+Last-Modified: Mon, 26 Dec 2005 04:02:06 G12T
 
 [
   {
-    "ForeignDeviceId": 197,
-    "Name": "Sporer LLC",
-    "CreatedDate": "2004-11-09T13:28:31.6948645+01:00",
-    "UpdatedDate": "2012-09-14T13:28:31.6948645+02:00",
-    "AssociateFullName": "Jon Batz",
-    "CreatedBy": "ad",
-    "UpdatedBy": "totam",
-    "DeviceIdentifier": "quos",
-    "ForeignAppId": 816,
+    "ForeignDeviceId": 256,
+    "Name": "Lockman-Hilpert",
+    "CreatedDate": "2018-05-21T04:02:06.6191478+02:00",
+    "UpdatedDate": "2005-12-26T04:02:06.6191478+01:00",
+    "AssociateFullName": "Enos Simonis",
+    "CreatedBy": "aut",
+    "UpdatedBy": "cumque",
+    "DeviceIdentifier": "accusantium",
+    "ForeignAppId": 964,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

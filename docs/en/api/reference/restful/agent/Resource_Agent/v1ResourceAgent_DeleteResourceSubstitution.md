@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Kozey-Rice",
-  "Culture": "recusandae"
+  "ResourceName": "Bins LLC",
+  "Culture": "non"
 }
 ```
 

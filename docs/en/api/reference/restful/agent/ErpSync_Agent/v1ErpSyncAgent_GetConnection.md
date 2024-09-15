@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 926
+  "ErpConnectionId": 251
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 700,
-  "ErpConnectorId": 168,
-  "DisplayName": "Goyette Group",
-  "DisplayDescription": "Virtual bi-directional secured line",
+  "ErpConnectionId": 412,
+  "ErpConnectorId": 99,
+  "DisplayName": "Okuneva-Lehner",
+  "DisplayDescription": "Automated bandwidth-monitored ability",
   "Active": false,
-  "ConnectionId": "eaque",
-  "MostRecentTimestamp": "non",
+  "ConnectionId": "quidem",
+  "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "a",
-    "ConfigFields2": "quaerat"
+    "ConfigFields1": "dignissimos",
+    "ConfigFields2": "quis"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    480,
-    139
+    62,
+    48
   ],
   "AssociateAccessIds": [
-    975,
-    337
+    306,
+    569
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 242
     }
   }
 }

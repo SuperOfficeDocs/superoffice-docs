@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Gaylord-Hermiston",
-    "ToolTip": "Est iure.",
+    "Id": 226,
+    "Name": "Corwin Inc and Sons",
+    "ToolTip": "Explicabo eum quia.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "incidunt",
-    "ColorBlock": 891,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2018-04-12T13:28:32.6635259+02:00",
+    "Rank": 329,
+    "Type": "veritatis",
+    "ColorBlock": 868,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2000-02-17T04:02:07.0722253+01:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Lockman Inc and Sons",
-        "ToolTip": "Incidunt commodi sit velit atque veritatis et facere.",
+        "Id": 637,
+        "Name": "Miller, Nicolas and McGlynn",
+        "ToolTip": "Repudiandae magni aliquid animi.",
         "Deleted": false,
-        "Rank": 965,
-        "Type": "aut",
-        "ColorBlock": 924,
-        "IconHint": "aliquid",
+        "Rank": 56,
+        "Type": "error",
+        "ColorBlock": 773,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2019-06-21T13:28:32.6635259+02:00",
+        "LastChanged": "2020-04-20T04:02:07.0722253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Prof. Adam Madison Spencer I"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Zachariah Pacocha"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Mr. Magdalena Renner"
+    "ExtraInfo": "in",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Alva Huels"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Kuphal-Bartoletti",
-    "ToolTip": "Placeat tempore deserunt perferendis commodi adipisci.",
-    "Deleted": false,
-    "Rank": 499,
-    "Type": "ab",
-    "ColorBlock": 126,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2012-12-22T13:28:32.6635259+01:00",
+    "Id": 388,
+    "Name": "Larkin, Braun and Collier",
+    "ToolTip": "Est dolor corrupti rem dolorem assumenda repellat aut.",
+    "Deleted": true,
+    "Rank": 726,
+    "Type": "autem",
+    "ColorBlock": 392,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2024-01-02T04:02:07.0722253+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Carroll, Monahan and Hauck",
-        "ToolTip": "Similique nesciunt at et facere et et.",
+        "Id": 225,
+        "Name": "Treutel, Beahan and Wehner",
+        "ToolTip": "Id perspiciatis cupiditate.",
         "Deleted": false,
-        "Rank": 45,
-        "Type": "ut",
-        "ColorBlock": 212,
-        "IconHint": "molestiae",
+        "Rank": 940,
+        "Type": "vel",
+        "ColorBlock": 381,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2009-12-27T13:28:32.6635259+01:00",
+        "LastChanged": "2004-09-21T04:02:07.0722253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "qui",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Jovani Boehm",
+        "FullName": "Prof. Reymundo Gina O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "quis",
+    "ExtraInfo": "sed",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "General Smith",
+    "FullName": "Deonte Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 612
       }
     }
   }

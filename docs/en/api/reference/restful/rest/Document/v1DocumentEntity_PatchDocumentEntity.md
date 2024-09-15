@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 743,
+  "DocumentId": 865,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tenetur",
-  "Header": "magni",
-  "Name": "Smitham Group",
-  "OurRef": "sint",
-  "YourRef": "totam",
-  "CreatedDate": "2015-03-13T13:28:31.6167569+01:00",
-  "UpdatedDate": "2011-02-11T13:28:31.6167569+01:00",
-  "Description": "Self-enabling exuding initiative",
+  "Attention": "impedit",
+  "Header": "ratione",
+  "Name": "Renner-Gerlach",
+  "OurRef": "ea",
+  "YourRef": "veritatis",
+  "CreatedDate": "2009-07-05T04:02:06.5879017+02:00",
+  "UpdatedDate": "1998-08-21T04:02:06.5879017+02:00",
+  "Description": "Multi-channelled needs-based circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-11-16T13:28:31.6167569+01:00",
-  "ExternalRef": "numquam",
+  "Date": "2020-09-21T04:02:06.5879017+02:00",
+  "ExternalRef": "nisi",
   "Completed": "Completed",
-  "ActiveLinks": 629,
+  "ActiveLinks": 930,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Doyle Inc and Sons",
-      "Id": 274,
-      "Description": "Multi-layered bi-directional attitude",
-      "ExtraInfo": "dolorem",
-      "LinkId": 567,
+      "EntityName": "Daniel-Toy",
+      "Id": 652,
+      "Description": "Fully-configurable cohesive leverage",
+      "ExtraInfo": "praesentium",
+      "LinkId": 455,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 826
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 901,
-  "Snum": 797,
+  "SuggestedDocumentId": 25,
+  "Snum": 481,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ardith Icie O'Conner I",
-    "SuperOffice:2": "Madilyn Kertzmann"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Gretchen Gaylord"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "corporis"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2017-11-05T13:28:31.6167569+01:00",
-  "PublishTo": "2017-09-03T13:28:31.6167569+02:00",
-  "PublishFrom": "1998-04-19T13:28:31.6167569+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-11-15T04:02:06.5879017+01:00",
+  "PublishTo": "2006-10-15T04:02:06.5879017+02:00",
+  "PublishFrom": "2009-09-03T04:02:06.5879017+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 371,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 475
         }
       }
     },
     {
-      "VisibleId": 371,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 475
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldLength": 794
     }
   },
   "_Links": {

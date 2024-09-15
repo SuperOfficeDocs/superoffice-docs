@@ -345,6 +345,8 @@ a non-null value for those contacts or persons that exist in the given static se
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -354,12 +356,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
-|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -458,12 +460,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|appointment/associate/associateDbId|associate|ID| x |
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -562,12 +564,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
-|document/associate/isLocation|bool|Is a location: Is a location| x |
-|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
+|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
@@ -666,12 +668,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |personUdef/SuperOffice:3|int|contactnumber| x |
 |personUdef/SuperOffice:4|date|contactdate| x |
 |personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
-|personUdef/SuperOffice:6|bool|contactcheckbox| x |
-|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:6|bool|contactcheckbox| x |
+|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
@@ -770,12 +772,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
 |personTargetRelation/personNoMail|bool|Target - No Mailings: Displays the contact's No Mailings checkbox| x |
 |personTargetRelation/rank|int|Target - Rank: Displays a contact's current rank| x |
-|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
-|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
+|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 |personTargetRelation/useAsMailingAddress|bool|Target - Use as postal address: Use as postal address| x |
 |personTargetRelation/personSource|listAny|Target - Source: Source (Contact)| x |
 |personTargetRelation/retired|bool|Target - Former employee: Indicates whether the contact has retired/left the company| x |
@@ -874,12 +876,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |correspondingAssociate/userName|string|User name: User name| x |
-|correspondingAssociate/personEmail|string|E-mail| x |
-|correspondingAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/personEmail|string|E-mail| x |
+|correspondingAssociate/locationAddress|string|Location: Location| x |
 |correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -978,12 +980,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
 |request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/associateDbId|associate|Owner - ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|request/ownedBy/associateDbId|associate|Owner - ID| x |
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
@@ -1082,12 +1084,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMembers/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName|string|User name: User name| x |
 |projectMembers/projectAssociate/personEmail|string|E-mail| x |
 |projectMembers/projectAssociate/locationAddress|string|Location: Location| x |
@@ -1186,12 +1188,12 @@ a non-null value for those contacts or persons that exist in the given static se
 |personAppointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/associateDbId|associate|ID| x |
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -1227,7 +1229,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=phone/formattedNumber,contactExtra/x_contact_default_integer,sourceRelation/code,document/registeredByFullName,document/keywords
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=includeContactWithStopRestriction,streetAddress/line3,appointment/rawType,appointment/appointmentUdef/SuperOffice:5,personAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -479,7 +479,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=associate/ejStatus,person/hasCompany,person/personPager/formattedNumber,contact/streetAddress/zip,contact/LastDoByActivity
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=registeredDate,associate/personEmail,person/personAssociate/associateDbId,contact/postAddress/wgs84longitude,contact/contactAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

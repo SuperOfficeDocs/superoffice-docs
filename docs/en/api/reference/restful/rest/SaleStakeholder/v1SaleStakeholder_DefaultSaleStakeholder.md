@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wunsch Inc and Sons",
-  "Comment": "exercitationem",
-  "StakeholderRoleId": 537,
-  "CountryId": 573,
-  "PersonId": 77,
-  "EmailDescription": "frankie.runte@nikolaus.ca",
-  "EmailId": 810,
-  "EmailAddress": "greg_anderson@kilbackabbott.us",
-  "PhoneId": 711,
-  "ContactName": "Carroll, Sporer and Hammes",
-  "ContactId": 327,
-  "SaleId": 51,
-  "Mrmrs": "sit",
-  "Firstname": "Lavada",
-  "MiddleName": "Stanton LLC",
-  "Lastname": "Kris",
-  "SaleStakeholderId": 136,
-  "Rank": 984,
-  "Phone": "(876)997-6948 x89410",
+  "StakeholderRoleName": "Greenfelder, Morar and Jacobs",
+  "Comment": "quos",
+  "StakeholderRoleId": 549,
+  "CountryId": 545,
+  "PersonId": 290,
+  "EmailDescription": "mitchel@schuster.ca",
+  "EmailId": 130,
+  "EmailAddress": "kamryn@lang.us",
+  "PhoneId": 134,
+  "ContactName": "Lesch-Bruen",
+  "ContactId": 68,
+  "SaleId": 968,
+  "Mrmrs": "exercitationem",
+  "Firstname": "Maureen",
+  "MiddleName": "Gibson, Sauer and Zulauf",
+  "Lastname": "Cruickshank",
+  "SaleStakeholderId": 725,
+  "Rank": 135,
+  "Phone": "1-257-138-1246 x7936",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 199
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-activeuser
 title: activeuser table
 description: Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use; for determining who is logged on, at what location, etc.
-generated: true
+so.generated: true
 keywords: database table activeuser
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # activeuser Table (28)

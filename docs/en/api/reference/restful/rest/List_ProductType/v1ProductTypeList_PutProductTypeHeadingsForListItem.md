@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 777,
-    "Name": "Bechtelar LLC",
-    "ToolTip": "Delectus id id nulla recusandae sit mollitia nesciunt.",
+    "Id": 698,
+    "Name": "Rippin LLC",
+    "ToolTip": "Autem quae ullam tempore.",
     "Deleted": false,
-    "Rank": 208,
-    "Type": "quam",
-    "ColorBlock": 230,
-    "IconHint": "quam",
+    "Rank": 141,
+    "Type": "sint",
+    "ColorBlock": 616,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2017-03-25T13:28:32.9915768+01:00",
+    "LastChanged": "1997-12-03T04:02:07.337823+01:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Bernhard-Bernhard",
-        "ToolTip": "Nesciunt vel cupiditate fugit possimus eos nemo cum.",
-        "Deleted": true,
-        "Rank": 873,
-        "Type": "officiis",
-        "ColorBlock": 932,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2004-10-10T13:28:32.9915768+02:00",
+        "Id": 811,
+        "Name": "Hauck-Schuster",
+        "ToolTip": "Sint eligendi debitis accusamus eum quae nostrum perspiciatis.",
+        "Deleted": false,
+        "Rank": 675,
+        "Type": "tempore",
+        "ColorBlock": 91,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2012-05-15T04:02:07.337823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Destiny Stamm"
+        "ExtraInfo": "quis",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Jamel Abshire II"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "quis",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Loy Christiansen"
+    "FullName": "Joesph Casper"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Boyer, Koepp and McGlynn",
-    "ToolTip": "Dicta ut sunt doloremque aut.",
-    "Deleted": false,
-    "Rank": 134,
-    "Type": "est",
-    "ColorBlock": 840,
-    "IconHint": "accusamus",
+    "Id": 3,
+    "Name": "Wiegand, Hessel and Kulas",
+    "ToolTip": "Eum eos.",
+    "Deleted": true,
+    "Rank": 194,
+    "Type": "excepturi",
+    "ColorBlock": 304,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2017-02-09T13:28:33.0071964+01:00",
+    "LastChanged": "2005-05-10T04:02:07.337823+02:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Roob-Dooley",
-        "ToolTip": "Molestias adipisci non aspernatur.",
+        "Id": 529,
+        "Name": "Mueller-Paucek",
+        "ToolTip": "Atque temporibus quia praesentium possimus iure et molestiae.",
         "Deleted": true,
-        "Rank": 236,
-        "Type": "dolores",
-        "ColorBlock": 928,
-        "IconHint": "ut",
+        "Rank": 733,
+        "Type": "doloremque",
+        "ColorBlock": 37,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2012-09-14T13:28:33.0071964+02:00",
+        "LastChanged": "1999-08-30T04:02:07.337823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
+        "ExtraInfo": "deserunt",
         "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Mrs. Katlyn Isabella Kreiger V",
+        "FullName": "Lexi Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 692
+            "FieldType": "System.Int32",
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Elisha Wiza",
+    "ExtraInfo": "sed",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Devante Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

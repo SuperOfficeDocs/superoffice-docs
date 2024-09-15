@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "nostrum",
-  "Name": "DuBuque, Eichmann and Batz"
+  "Path": "dolores",
+  "Name": "Russel-Dare"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 248,
+  "HierarchyId": 228,
   "Domain": "Dashboards",
-  "Name": "Cummings, Quigley and Osinski",
-  "Fullname": "minima",
-  "ParentId": 813,
+  "Name": "O'Keefe-Schumm",
+  "Fullname": "voluptatibus",
+  "ParentId": 740,
   "Children": [
     {
-      "HierarchyId": 282,
+      "HierarchyId": 899,
       "Domain": "Dashboards",
-      "Name": "Tromp-Russel",
-      "Fullname": "quae",
-      "ParentId": 218,
+      "Name": "Lang Group",
+      "Fullname": "natus",
+      "ParentId": 394,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-09-05T13:28:22.9918891+02:00",
-      "RegisteredAssociateId": 531,
-      "Updated": "2005-11-20T13:28:22.9918891+01:00",
-      "UpdatedAssociateId": 608,
+      "Registered": "1998-03-09T04:02:01.8628574+01:00",
+      "RegisteredAssociateId": 451,
+      "Updated": "2015-12-29T04:02:01.8628574+01:00",
+      "UpdatedAssociateId": 997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldType": "System.String",
+          "FieldLength": 971
         }
       }
     }
   ],
-  "Registered": "2011-01-16T13:28:22.9918891+01:00",
-  "RegisteredAssociateId": 265,
-  "Updated": "2009-06-21T13:28:22.9918891+02:00",
-  "UpdatedAssociateId": 691,
+  "Registered": "2019-03-28T04:02:01.8628574+01:00",
+  "RegisteredAssociateId": 111,
+  "Updated": "2001-01-09T04:02:01.8628574+01:00",
+  "UpdatedAssociateId": 221,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

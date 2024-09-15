@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 953
+  "ProjectId": 781
 }
 ```
 
@@ -128,49 +128,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling systematic open system",
-  "Postit": "quas",
+  "Description": "Optimized human-resource utilisation",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 420,
-  "IncludePerson": 932,
+  "GroupIdx": 386,
+  "IncludePerson": 749,
   "MemberCount": 99.99,
-  "Name": "Corkery, Yost and Kassulke",
-  "PostitTextId": 667,
-  "CreatedDate": "2006-12-24T13:28:23.7573404+01:00",
-  "SelectionId": 610,
-  "SoundEx": "in",
-  "Source": 757,
-  "TextId": 602,
-  "UpdatedDate": "2001-04-08T13:28:23.7573404+02:00",
-  "UpdatedCount": 538,
-  "Visibility": 471,
+  "Name": "Kilback-Schuppe",
+  "PostitTextId": 32,
+  "CreatedDate": "2007-04-12T04:02:02.31613+02:00",
+  "SelectionId": 191,
+  "SoundEx": "iste",
+  "Source": 214,
+  "TextId": 546,
+  "UpdatedDate": "1998-07-03T04:02:02.31613+02:00",
+  "UpdatedCount": 62,
+  "Visibility": 305,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 537,
-  "TargetTableName": "Leffler Group",
-  "Completed": true,
-  "LeftSelectionId": 228,
-  "RightSelectionId": 162,
+  "CompanyUnique": true,
+  "TargetTableNumber": 649,
+  "TargetTableName": "Wilderman-Fritsch",
+  "Completed": false,
+  "LeftSelectionId": 821,
+  "RightSelectionId": 345,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rosenbaum-Nader",
-  "ShadowProviderName": "Labadie, Gorczany and Hahn",
-  "ChartKey": "natus",
-  "LastLoaded": "2024-08-01T13:28:23.7573404+02:00",
-  "LastLoadedBy": 87,
+  "MainProviderName": "Simonis-Kub",
+  "ShadowProviderName": "Huels-Jewess",
+  "ChartKey": "beatae",
+  "LastLoaded": "2009-02-14T04:02:02.31613+01:00",
+  "LastLoadedBy": 708,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-07T13:28:23.7573404+02:00",
-  "LastMembershipChangeBy": 738,
+  "LastMembershipChange": "2017-10-15T04:02:02.31613+02:00",
+  "LastMembershipChangeBy": 997,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "occaecati",
-  "MemberTabHeading": "corporis",
-  "MailingsProviderName": "Zemlak-Stracke",
-  "DashboardTileDefinitionId": 874,
+  "MainHeading": "mollitia",
+  "MemberTabHeading": "ducimus",
+  "MailingsProviderName": "Beatty-Pfeffer",
+  "DashboardTileDefinitionId": 143,
   "VisibleFor": [
     {
-      "VisibleId": 487,
+      "VisibleId": 492,
       "Visibility": "All",
       "DisplayValue": "ut",
       "TableRight": null,
@@ -178,12 +178,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 982
         }
       }
     },
     {
-      "VisibleId": 487,
+      "VisibleId": 492,
       "Visibility": "All",
       "DisplayValue": "ut",
       "TableRight": null,
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 982
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

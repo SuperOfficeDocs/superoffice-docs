@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 677,
-  "Name": "Fahey, Schaefer and Wyman",
+  "ScreenChooserId": 380,
+  "Name": "Hermann-Satterfield",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "culpa",
-  "Source": "ea",
-  "Registered": "2007-05-26T13:28:32.4292054+02:00",
-  "RegisteredAssociateId": 482,
-  "Updated": "2000-04-13T13:28:32.4292054+02:00",
-  "UpdatedAssociateId": 535
+  "UniqueIdentifier": "reiciendis",
+  "Source": "similique",
+  "Registered": "2009-02-24T04:02:06.9316148+01:00",
+  "RegisteredAssociateId": 294,
+  "Updated": "2012-11-12T04:02:06.9316148+01:00",
+  "UpdatedAssociateId": 656
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 42,
-  "Name": "Stracke-Hermann",
+  "ScreenChooserId": 830,
+  "Name": "Fay Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nobis",
-  "Source": "et",
-  "Registered": "2001-03-20T13:28:32.4292054+01:00",
-  "RegisteredAssociateId": 698,
-  "Updated": "2009-05-07T13:28:32.4292054+02:00",
-  "UpdatedAssociateId": 633,
+  "Enabled": true,
+  "UniqueIdentifier": "corrupti",
+  "Source": "dolores",
+  "Registered": "2001-09-16T04:02:06.9316148+02:00",
+  "RegisteredAssociateId": 983,
+  "Updated": "2010-07-17T04:02:06.9316148+02:00",
+  "UpdatedAssociateId": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 49
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

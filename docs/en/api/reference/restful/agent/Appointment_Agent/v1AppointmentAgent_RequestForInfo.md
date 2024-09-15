@@ -88,14 +88,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 343,
-  "Channel": "placeat",
-  "Regarding": "perspiciatis",
-  "ContactName": "Aufderhar, Bayer and Vandervort",
-  "PersonFirstname": "Cleta",
-  "PersonLastname": "Waters",
-  "EmailAddress": "blanche_terry@rice.co.uk",
-  "PhoneNumber": "101487"
+  "AssociateIdForNewContact": 105,
+  "Channel": "atque",
+  "Regarding": "cum",
+  "ContactName": "Dickens-Dietrich",
+  "PersonFirstname": "Asha",
+  "PersonLastname": "Bode",
+  "EmailAddress": "carleton@robelhodkiewicz.co.uk",
+  "PhoneNumber": "1285431"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 296,
-      "Name": "Hansen, Stark and Tremblay",
-      "OrgNr": "681701",
+      "ContactId": 752,
+      "Name": "Dare-Miller",
+      "OrgNr": "391618",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "repudiandae",
-      "DirectPhone": "848-938-3646",
-      "AssociateId": 826,
-      "CountryId": 51,
-      "EmailAddress": "valentina@mueller.biz",
-      "Kananame": "ratione",
-      "EmailAddressName": "mitchell@raynor.info",
+      "City": "et",
+      "DirectPhone": "705.175.1721",
+      "AssociateId": 729,
+      "CountryId": 195,
+      "EmailAddress": "chelsea_schneider@lesch.info",
+      "Kananame": "voluptatibus",
+      "EmailAddressName": "rosa@hauck.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Laney Bruen",
+      "AssociateFullName": "Miss Nico Leora Wisozk",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "et",
-      "FullName": "Ms. Elenora Aufderhar III",
+      "FormattedAddress": "perspiciatis",
+      "FullName": "Prof. Earnestine Brent Treutel",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 480,
-      "Number1": "1604797",
-      "Number2": "574538",
+      "ActiveErpLinks": 817,
+      "Number1": "1331754",
+      "Number2": "1691455",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldType": "System.String",
+          "FieldLength": 444
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 929
     }
   }
 }

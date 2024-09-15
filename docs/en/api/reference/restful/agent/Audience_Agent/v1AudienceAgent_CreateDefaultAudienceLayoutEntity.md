@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 955,
-  "InstanceLayout": "est",
-  "InstanceName": "Prosacco Inc and Sons",
-  "CreatedDate": "2023-05-03T13:28:21.8356378+02:00",
-  "UpdatedDate": "2007-02-03T13:28:21.8356378+01:00",
+  "AudienceLayoutId": 933,
+  "InstanceLayout": "consequatur",
+  "InstanceName": "McLaughlin Group",
+  "CreatedDate": "2006-06-18T04:02:01.221786+02:00",
+  "UpdatedDate": "2016-01-20T04:02:01.221786+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

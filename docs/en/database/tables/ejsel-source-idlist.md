@@ -2,10 +2,10 @@
 uid: table-ejsel_source_idlist
 title: ejsel_source_idlist table
 description: This table stores id list source for selections
-generated: true
+so.generated: true
 keywords: database table ejsel_source_idlist
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejsel\_source\_idlist Table (393)

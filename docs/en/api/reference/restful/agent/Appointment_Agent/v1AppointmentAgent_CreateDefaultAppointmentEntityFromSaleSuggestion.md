@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 127,
-  "SaleId": 579,
-  "CreateNow": false,
-  "OwnerId": 825
+  "SuggestedAppointmentId": 83,
+  "SaleId": 598,
+  "CreateNow": true,
+  "OwnerId": 779
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-09-25T13:28:21.6950416+02:00",
-  "AppointmentId": 791,
-  "Description": "Pre-emptive real-time solution",
-  "Title": "neque",
-  "Agenda": "laborum",
-  "InternalNotes": "eveniet",
-  "StartDate": "2015-04-15T13:28:21.6950416+02:00",
-  "EndDate": "2019-03-22T13:28:21.6950416+01:00",
+  "CreatedDate": "1997-09-08T04:02:01.1431741+02:00",
+  "AppointmentId": 85,
+  "Description": "Public-key web-enabled knowledge base",
+  "Title": "magnam",
+  "Agenda": "odit",
+  "InternalNotes": "culpa",
+  "StartDate": "2001-02-03T04:02:01.1431741+01:00",
+  "EndDate": "2021-10-21T04:02:01.1431741+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 119,
+  "MotherId": 680,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-05-12T13:28:21.6950416+02:00",
+  "UpdatedDate": "1998-10-18T04:02:01.1431741+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 202,
+  "ActiveLinks": 294,
   "Links": [
     {
-      "EntityName": "Stark LLC",
-      "Id": 380,
-      "Description": "User-friendly reciprocal task-force",
-      "ExtraInfo": "error",
-      "LinkId": 171,
+      "EntityName": "Mohr-Ziemann",
+      "Id": 69,
+      "Description": "Phased neutral hub",
+      "ExtraInfo": "fuga",
+      "LinkId": 93,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldLength": 424
         }
       }
     }
   ],
-  "AlarmLeadTime": "quod",
-  "HasAlarm": false,
-  "ColorIndex": 488,
+  "AlarmLeadTime": "blanditiis",
+  "HasAlarm": true,
+  "ColorIndex": 765,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "est",
-  "LeadTime": "officiis",
-  "Location": "aliquam",
-  "RejectCounter": 506,
+  "IsAlldayEvent": false,
+  "LagTime": "ipsum",
+  "LeadTime": "nam",
+  "Location": "quam",
+  "RejectCounter": 199,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 184,
-      "PersonId": 121,
-      "ContactId": 879,
-      "EmailId": 866,
-      "SendEmail": true,
+      "AssociateId": 113,
+      "PersonId": 911,
+      "ContactId": 850,
+      "EmailId": 832,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sofia@boganbogisich.info",
-      "Description": "Centralized analyzing implementation"
+      "EmailAddress": "abdiel_rowe@ondricka.ca",
+      "Description": "Customer-focused eco-centric access"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-02-21T13:28:21.6950416+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2010-11-19T04:02:01.1431741+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 9,
+  "PreferredTZLocation": 856,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 547,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 667,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quibusdam",
+  "CentralserviceVideomeetId": "velit",
   "UserDefinedFields": {
-    "SuperOffice:1": "33440794",
-    "SuperOffice:2": "Camille Dooley"
+    "SuperOffice:1": "Mrs. Cindy Noel Zemlak",
+    "SuperOffice:2": "Mrs. Alison Hills"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "et",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "odio"
+    "CustomFields1": "quis",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "1997-05-08T13:28:21.7106646+02:00",
-  "PublishTo": "1999-09-27T13:28:21.7106646+02:00",
-  "PublishFrom": "2009-11-16T13:28:21.7106646+01:00",
+  "PublishEventDate": "2024-06-26T04:02:01.1431741+02:00",
+  "PublishTo": "2011-03-20T04:02:01.1431741+01:00",
+  "PublishFrom": "2011-03-10T04:02:01.1431741+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 61,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     },
     {
-      "VisibleId": 61,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

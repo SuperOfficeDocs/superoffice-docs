@@ -2,10 +2,10 @@
 uid: table-area
 title: area table
 description: Definition of an Area (database subset for satellite and travel)
-generated: true
+so.generated: true
 keywords: database table area
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # area Table (38)

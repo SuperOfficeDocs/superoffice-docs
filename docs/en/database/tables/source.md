@@ -2,10 +2,10 @@
 uid: table-Source
 title: Source table
 description: Source list table. Source for sale (list)
-generated: true
+so.generated: true
 keywords: database table Source
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Source Table (100)

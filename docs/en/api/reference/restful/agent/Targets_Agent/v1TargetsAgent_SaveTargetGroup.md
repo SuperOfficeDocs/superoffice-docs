@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 576,
-  "Year": 839,
+  "TargetGroupId": 639,
+  "Year": 888,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 37,
+      "TargetAssignmentInfoId": 918,
       "Values": [
-        641,
-        300
+        71,
+        839
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 679,
-      "DimensionListItemDisplayName": "Medhurst-Haley"
+      "DimensionListItem": 674,
+      "DimensionListItemDisplayName": "Miller, Carroll and Prohaska"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 366,
-  "Year": 721,
+  "TargetGroupId": 456,
+  "Year": 735,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 874,
+      "TargetAssignmentInfoId": 374,
       "Values": [
-        654,
-        1001
+        728,
+        550
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 901,
-      "DimensionListItemDisplayName": "Gulgowski, McClure and Sauer",
+      "DimensionListItem": 221,
+      "DimensionListItemDisplayName": "Hilll-Stroman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 568
+          "FieldLength": 414
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 794
     }
   }
 }

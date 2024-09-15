@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Greenholt Group",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "UdListDefinitionId": 826,
-  "Rank": 85,
+  "Id": 265,
+  "Name": "Emmerich-Kozey",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "UdListDefinitionId": 106,
+  "Rank": 537,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 36
     }
   }
 }

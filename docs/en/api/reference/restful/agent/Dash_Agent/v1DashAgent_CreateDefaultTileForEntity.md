@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "McDermott-Lemke"
+  "EntityName": "Bernhard-Kuhlman"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 740,
-  "DashboardId": 587,
-  "Height": 756,
-  "Width": 610,
-  "Rank": 480,
+  "DashboardTileId": 472,
+  "DashboardId": 132,
+  "Height": 863,
+  "Width": 620,
+  "Rank": 523,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 511
     }
   }
 }

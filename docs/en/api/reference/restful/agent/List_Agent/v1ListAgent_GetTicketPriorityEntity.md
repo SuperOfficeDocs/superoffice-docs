@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=476
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=717
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 487,
-  "Name": "Maggio, Klocko and Rosenbaum",
+  "TicketPriorityId": 77,
+  "Name": "Lubowitz, Hammes and Blick",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 834,
+  "SortOrder": 713,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 676,
-  "MonStart": "2011-11-01T13:28:22.8981275+01:00",
-  "MonStop": "2005-09-14T13:28:22.8981275+02:00",
-  "TueStart": "2015-09-16T13:28:22.8981275+02:00",
-  "TueStop": "2006-12-02T13:28:22.8981275+01:00",
-  "WedStart": "2003-09-30T13:28:22.8981275+02:00",
-  "WedStop": "2004-10-19T13:28:22.8981275+02:00",
-  "ThuStart": "2000-02-06T13:28:22.8981275+01:00",
-  "ThuStop": "2000-03-20T13:28:22.8981275+01:00",
-  "FriStart": "2014-08-09T13:28:22.8981275+02:00",
-  "FriStop": "2005-01-17T13:28:22.8981275+01:00",
-  "SatStart": "2001-12-22T13:28:22.8981275+01:00",
-  "SatStop": "2022-11-02T13:28:22.8981275+01:00",
-  "SunStart": "2013-09-25T13:28:22.8981275+02:00",
-  "SunStop": "2022-10-24T13:28:22.8981275+02:00",
+  "Deadline": 612,
+  "MonStart": "2000-10-08T04:02:01.8159876+02:00",
+  "MonStop": "2016-12-12T04:02:01.8159876+01:00",
+  "TueStart": "2000-05-25T04:02:01.8159876+02:00",
+  "TueStop": "2006-05-07T04:02:01.8159876+02:00",
+  "WedStart": "2011-02-08T04:02:01.8159876+01:00",
+  "WedStop": "2002-02-04T04:02:01.8159876+01:00",
+  "ThuStart": "2010-11-07T04:02:01.8159876+01:00",
+  "ThuStop": "2007-02-19T04:02:01.8159876+01:00",
+  "FriStart": "2015-04-23T04:02:01.8159876+02:00",
+  "FriStop": "1998-12-02T04:02:01.8159876+01:00",
+  "SatStart": "2011-03-22T04:02:01.8159876+01:00",
+  "SatStop": "2016-01-08T04:02:01.8159876+01:00",
+  "SunStart": "2017-05-09T04:02:01.8159876+02:00",
+  "SunStop": "2018-04-17T04:02:01.8159876+02:00",
   "NonDates": [
-    "rem",
-    "consequuntur"
+    "veritatis",
+    "quis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 965,
-      "AlertLevel": 187,
-      "AlertTimeout": 261,
-      "Action": 196,
-      "DelegateTo": 429,
-      "ScriptId": 411,
-      "EmailTo": "ethyl@sauer.co.uk",
-      "SmsTo": "tempora",
-      "ReplyTemplateIdCustomer": 754,
-      "ReplyTemplateIdUser": 910,
-      "ReplyTemplateIdCatmast": 22,
-      "ReplyTemplateIdEmail": 476,
-      "RtiCustomerSms": 687,
-      "ReplyTemplateIdUserSms": 112,
-      "ReplyTemplateIdCatmastSms": 455,
-      "ReplyTemplateIdSms": 660,
+      "TicketAlertId": 370,
+      "AlertLevel": 812,
+      "AlertTimeout": 608,
+      "Action": 609,
+      "DelegateTo": 362,
+      "ScriptId": 689,
+      "EmailTo": "laney.weber@nikolaus.info",
+      "SmsTo": "ducimus",
+      "ReplyTemplateIdCustomer": 654,
+      "ReplyTemplateIdUser": 721,
+      "ReplyTemplateIdCatmast": 704,
+      "ReplyTemplateIdEmail": 457,
+      "RtiCustomerSms": 955,
+      "ReplyTemplateIdUserSms": 959,
+      "ReplyTemplateIdCatmastSms": 77,
+      "ReplyTemplateIdSms": 209,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 425
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 690
     }
   }
 }

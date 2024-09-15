@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Gleichner, Mayert and King",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 293,
-    "Rank": 576
+    "Id": 851,
+    "Name": "Walker-Cummerata",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 832,
+    "Rank": 216
   },
   {
-    "Id": 652,
-    "Name": "Gleichner, Mayert and King",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 293,
-    "Rank": 576
+    "Id": 851,
+    "Name": "Walker-Cummerata",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 832,
+    "Rank": 216
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Ruecker Inc and Sons",
-    "Tooltip": "id",
+    "Id": 697,
+    "Name": "Lemke-Ondricka",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 423,
-    "Rank": 629,
+    "UdListDefinitionId": 688,
+    "Rank": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 795
       }
     }
   }

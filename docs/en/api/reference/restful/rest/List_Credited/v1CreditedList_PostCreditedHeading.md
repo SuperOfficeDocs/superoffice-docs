@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 744,
-  "Name": "Klocko Group",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 229,
-  "UdListDefinitionId": 397
+  "HeadingId": 594,
+  "Name": "Yundt LLC",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 150,
+  "UdListDefinitionId": 859
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 619,
-  "Name": "Windler Group",
-  "Tooltip": "id",
+  "HeadingId": 574,
+  "Name": "Fadel-King",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 34,
-  "UdListDefinitionId": 93,
+  "Rank": 975,
+  "UdListDefinitionId": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 242
     }
   }
 }

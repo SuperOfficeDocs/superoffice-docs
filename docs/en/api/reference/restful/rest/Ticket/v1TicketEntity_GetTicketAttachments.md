@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 593,
-    "Name": "Parker-Ruecker",
-    "ContentType": "veniam",
-    "AttSize": 748,
-    "InlineImage": true,
-    "ContentId": "perspiciatis",
-    "AuthKey": "sequi",
+    "AttachmentId": 625,
+    "Name": "Streich Group",
+    "ContentType": "saepe",
+    "AttSize": 507,
+    "InlineImage": false,
+    "ContentId": "perferendis",
+    "AuthKey": "et",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 999
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "Nolan, Klocko and Kuhn",
-  "Tooltip": "officiis",
+  "Id": 804,
+  "Name": "Nitzsche Inc and Sons",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 990,
-  "Rank": 643,
+  "UdListDefinitionId": 329,
+  "Rank": 71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 298
     }
   }
 }

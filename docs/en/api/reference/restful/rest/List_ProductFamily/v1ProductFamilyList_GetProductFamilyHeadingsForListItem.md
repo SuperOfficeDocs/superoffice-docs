@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "O'Keefe Inc and Sons",
-    "ToolTip": "Autem eum modi id eligendi enim in harum.",
-    "Deleted": true,
-    "Rank": 559,
-    "Type": "minus",
-    "ColorBlock": 850,
-    "IconHint": "ullam",
+    "Id": 2,
+    "Name": "Durgan LLC",
+    "ToolTip": "Accusamus ut.",
+    "Deleted": false,
+    "Rank": 921,
+    "Type": "voluptate",
+    "ColorBlock": 746,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2006-05-21T13:28:32.9759535+02:00",
+    "LastChanged": "1998-06-05T04:02:07.3221997+02:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "O'Kon LLC",
-        "ToolTip": "Aut voluptas.",
+        "Id": 528,
+        "Name": "Schroeder, Schuppe and Zulauf",
+        "ToolTip": "Atque modi consequuntur minus possimus iste laboriosam.",
         "Deleted": false,
-        "Rank": 147,
-        "Type": "dicta",
-        "ColorBlock": 814,
-        "IconHint": "eius",
+        "Rank": 419,
+        "Type": "eius",
+        "ColorBlock": 597,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2016-07-22T13:28:32.9759535+02:00",
+        "LastChanged": "2008-04-03T04:02:07.3221997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "laborum",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Tristian Willms",
+        "FullName": "Miss Ora Alvera Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Prof. Clark Zola Gerhold",
+    "ExtraInfo": "maxime",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Elise Kuphal IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

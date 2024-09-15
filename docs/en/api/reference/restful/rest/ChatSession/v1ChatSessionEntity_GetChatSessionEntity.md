@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 429,
-  "TopicId": 582,
+  "ChatSessionId": 854,
+  "TopicId": 198,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fuga",
-  "CustomerHost": "harum",
-  "CustomerName": "Smitham LLC",
-  "CustomerEmail": "laurine.hoeger@mitchell.us",
-  "CustomerPhone": "1-011-715-7437",
+  "CustomerAlias": "deleniti",
+  "CustomerHost": "qui",
+  "CustomerName": "Hyatt, Haley and Smith",
+  "CustomerEmail": "kory_prohaska@ward.co.uk",
+  "CustomerPhone": "154.936.4579",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kessler-Koelpin",
+  "CustomerCompanyName": "Block, O'Connell and Pfannerstill",
   "Status": "Closed",
-  "FirstMessage": "blanditiis",
-  "LastMessage": "est",
-  "WhenRequested": "2013-07-19T13:28:31.2574623+02:00",
-  "WhenStarted": "2000-10-11T13:28:31.2574623+02:00",
-  "WhenEnded": "2014-06-05T13:28:31.2574623+02:00",
-  "WhenIdle": "2000-01-10T13:28:31.2574623+01:00",
-  "WhenFetched": "2018-01-04T13:28:31.2574623+01:00",
-  "SessionKey": "minus",
-  "InitialQueuePos": 252,
-  "AlertLevel": 649,
-  "Rank": 911,
+  "FirstMessage": "ut",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2017-01-28T04:02:06.2905532+01:00",
+  "WhenStarted": "2007-04-26T04:02:06.2905532+02:00",
+  "WhenEnded": "2024-03-03T04:02:06.2905532+01:00",
+  "WhenIdle": "1998-12-19T04:02:06.2905532+01:00",
+  "WhenFetched": "2023-08-06T04:02:06.2905532+02:00",
+  "SessionKey": "magnam",
+  "InitialQueuePos": 855,
+  "AlertLevel": 183,
+  "Rank": 757,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 557,
+  "ChatbotIsActive": true,
+  "Rating": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   },
   "_Links": {

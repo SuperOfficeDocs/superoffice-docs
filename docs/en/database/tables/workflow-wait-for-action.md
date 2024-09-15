@@ -2,10 +2,10 @@
 uid: table-workflow_wait_for_action
 title: workflow_wait_for_action table
 description: Some steps wait for actions, this is info about those actions
-generated: true
+so.generated: true
 keywords: database table workflow_wait_for_action
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # workflow\_wait\_for\_action Table (520)

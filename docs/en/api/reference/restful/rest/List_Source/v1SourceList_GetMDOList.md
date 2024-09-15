@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=nisi
+GET /api/v1/List/Source/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Lynch-Feeney",
-    "ToolTip": "Sint maiores in.",
+    "Id": 77,
+    "Name": "McKenzie-Trantow",
+    "ToolTip": "Quidem numquam qui ratione blanditiis ad.",
     "Deleted": false,
-    "Rank": 585,
-    "Type": "voluptatem",
+    "Rank": 110,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 378,
-        "Name": "Wilkinson Group",
-        "ToolTip": "Cupiditate harum recusandae soluta qui sit.",
+        "Id": 870,
+        "Name": "Gulgowski, Abshire and Schowalter",
+        "ToolTip": "Necessitatibus ab nostrum officia.",
         "Deleted": false,
-        "Rank": 661,
-        "Type": "culpa",
+        "Rank": 403,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 297,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "ipsum",
-        "FullName": "Trisha Collier PhD",
+        "IconHint": "vero",
+        "ColorBlock": 459,
+        "ExtraInfo": "quidem",
+        "StyleHint": "quia",
+        "FullName": "Aurore Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 879
+            "FieldType": "System.Int32",
+            "FieldLength": 778
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 908,
-    "ExtraInfo": "qui",
-    "StyleHint": "necessitatibus",
-    "FullName": "Miss Lou Aliza Block V",
+    "IconHint": "iusto",
+    "ColorBlock": 697,
+    "ExtraInfo": "a",
+    "StyleHint": "magni",
+    "FullName": "Toy Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 931
       }
     }
   }

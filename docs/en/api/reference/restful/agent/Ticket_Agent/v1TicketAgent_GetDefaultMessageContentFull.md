@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 902,
+  "TicketId": 771,
   "MessageActionType": "Forward",
-  "TicketMessageId": 670,
-  "TicketTypeId": 859
+  "TicketMessageId": 125,
+  "TicketTypeId": 733
 }
 ```
 
@@ -93,22 +93,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "dignissimos",
+  "Body": "sint",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 180,
-      "Name": "Hagenes Group",
-      "ContentType": "optio",
-      "AttSize": 959,
+      "AttachmentId": 846,
+      "Name": "Stiedemann, Bradtke and Osinski",
+      "ContentType": "veniam",
+      "AttSize": 700,
       "InlineImage": true,
-      "ContentId": "sed",
-      "AuthKey": "repellendus",
-      "IsSafeFileExtension": false,
+      "ContentId": "dolorem",
+      "AuthKey": "facilis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
+          "FieldType": "System.String",
           "FieldLength": 56
         }
       }

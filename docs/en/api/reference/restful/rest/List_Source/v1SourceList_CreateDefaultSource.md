@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Auer Group",
-  "Tooltip": "quod",
+  "Id": 39,
+  "Name": "Gaylord LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 900,
-  "Rank": 124,
+  "UdListDefinitionId": 572,
+  "Rank": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 215
     }
   }
 }

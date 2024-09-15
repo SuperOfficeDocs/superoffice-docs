@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "debitis",
-    "enim"
+    "molestias",
+    "doloribus"
   ],
-  "CurrentClientTime": "2010-01-16T13:28:23.2730777+01:00"
+  "CurrentClientTime": "2012-02-18T04:02:02.1128434+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "pariatur",
-    "et"
+    "nulla",
+    "ut"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 798,
-  "NotificationsCount": 40,
+  "OverdueSalesCount": 870,
+  "NotificationsCount": 723,
   "SystemWebPanels": [
     {
-      "WebPanelId": 772,
-      "Name": "Yundt Group",
-      "Tooltip": "minus",
-      "Deleted": true,
-      "Rank": 248,
+      "WebPanelId": 243,
+      "Name": "West-Cormier",
+      "Tooltip": "laborum",
+      "Deleted": false,
+      "Rank": 660,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": false,
-      "OnTravel": true,
+      "OnSatellite": true,
+      "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": true,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Ortiz Group",
+      "WindowName": "Greenfelder-Batz",
       "Url": "http://www.example.com/",
-      "ProgId": "amet",
-      "Icon": 233,
-      "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": true,
+      "ProgId": "quos",
+      "Icon": 680,
+      "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 289
+          "FieldLength": 722
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "repudiandae",
+      "RawValue": "nihil",
       "Specification": null,
-      "DisplayValue": "ut",
-      "DisplayTooltip": "ut",
+      "DisplayValue": "laborum",
+      "DisplayTooltip": "et",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 199,
-      "PrefDescId": 722,
-      "TableName": "Wehner, Sporer and Krajcik",
-      "UserPreferenceId": 571,
+      "TargetId": 367,
+      "PrefDescId": 144,
+      "TableName": "Roberts, Beer and Beatty",
+      "UserPreferenceId": 307,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 855
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "quod",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 788,
-  "Section": "alias",
-  "Key": "voluptatem",
-  "Name": "Lynch, Spencer and Rolfson",
+  "PrefDescId": 183,
+  "Section": "laborum",
+  "Key": "quam",
+  "Name": "Hilpert LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased executive groupware",
-  "IsBuiltin": false,
-  "TableName": "Douglas Inc and Sons",
-  "UserDefinedListId": 730,
-  "Rank": 134,
-  "SubGroup": "accusantium",
-  "MinLevel": 765,
-  "MaxValue": 951,
-  "MinValue": 877,
-  "RequiredLicense": "eaque"
+  "Description": "Compatible client-driven installation",
+  "IsBuiltin": true,
+  "TableName": "Koss-Bode",
+  "UserDefinedListId": 345,
+  "Rank": 944,
+  "SubGroup": "odio",
+  "MinLevel": 451,
+  "MaxValue": 766,
+  "MinValue": 839,
+  "RequiredLicense": "est"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 671,
-  "Section": "sed",
-  "Key": "perspiciatis",
-  "Name": "Will, Rippin and Lubowitz",
+  "PrefDescId": 172,
+  "Section": "qui",
+  "Key": "id",
+  "Name": "Langworth-Jacobi",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected 24 hour strategy",
+  "Description": "Optimized cohesive middleware",
   "IsBuiltin": false,
-  "TableName": "Towne-Corwin",
-  "UserDefinedListId": 214,
-  "Rank": 141,
-  "SubGroup": "quas",
-  "MinLevel": 732,
-  "MaxValue": 12,
-  "MinValue": 529,
-  "RequiredLicense": "animi",
+  "TableName": "Torphy, Harris and Ondricka",
+  "UserDefinedListId": 630,
+  "Rank": 145,
+  "SubGroup": "velit",
+  "MinLevel": 241,
+  "MaxValue": 651,
+  "MinValue": 501,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 164
     }
   }
 }

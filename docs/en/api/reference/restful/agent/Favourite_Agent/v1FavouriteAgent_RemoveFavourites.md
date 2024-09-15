@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Satterfield-McDermott",
+  "TableName": "Quitzon-Rosenbaum",
   "RecordIds": [
-    506,
-    684
+    176,
+    249
   ],
-  "AssociateId": 557
+  "AssociateId": 442
 }
 ```
 

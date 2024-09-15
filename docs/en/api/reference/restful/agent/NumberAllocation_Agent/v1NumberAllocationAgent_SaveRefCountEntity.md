@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 287,
-  "Field": "eligendi",
-  "RecordId": 771,
+  "RefCountsId": 441,
+  "Field": "aut",
+  "RecordId": 467,
   "SuggestedRecords": [
     {
-      "Id": 494,
-      "Name": "Lockman LLC",
-      "ToolTip": "Mollitia sit.",
-      "Deleted": false,
-      "Rank": 926,
-      "Type": "eius",
+      "Id": 297,
+      "Name": "McGlynn-Pfeffer",
+      "ToolTip": "Illo omnis itaque quisquam quia possimus.",
+      "Deleted": true,
+      "Rank": 497,
+      "Type": "culpa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 201,
-      "ExtraInfo": "et",
-      "StyleHint": "quis",
-      "FullName": "Shirley Rowe"
+      "IconHint": "quia",
+      "ColorBlock": 223,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "culpa",
+      "FullName": "Ms. Carmel Paige Stamm"
     }
   ],
-  "CurrentValue": 260,
-  "TravelPrefix": 911,
-  "SatPrefix": 377,
+  "CurrentValue": 296,
+  "TravelPrefix": 186,
+  "SatPrefix": 348,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
-  "AllowBlank": false
+  "Unique": false,
+  "ReadOnly": true,
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 572,
-  "Field": "ut",
-  "RecordId": 422,
+  "RefCountsId": 79,
+  "Field": "similique",
+  "RecordId": 50,
   "SuggestedRecords": [
     {
-      "Id": 966,
-      "Name": "Ward Inc and Sons",
-      "ToolTip": "Sequi praesentium non aut iusto.",
+      "Id": 745,
+      "Name": "Kulas, Denesik and Dicki",
+      "ToolTip": "Omnis nam aut tenetur et.",
       "Deleted": false,
-      "Rank": 220,
-      "Type": "omnis",
+      "Rank": 721,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "occaecati",
-      "ColorBlock": 132,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "beatae",
-      "FullName": "Freddy Hessel",
+      "IconHint": "optio",
+      "ColorBlock": 812,
+      "ExtraInfo": "esse",
+      "StyleHint": "est",
+      "FullName": "Jakayla Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 831
         }
       }
     }
   ],
-  "CurrentValue": 239,
-  "TravelPrefix": 544,
-  "SatPrefix": 576,
+  "CurrentValue": 532,
+  "TravelPrefix": 933,
+  "SatPrefix": 983,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

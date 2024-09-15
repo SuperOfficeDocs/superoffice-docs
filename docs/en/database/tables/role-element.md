@@ -2,10 +2,10 @@
 uid: table-role_element
 title: role_element table
 description: Profiles associated with a role
-generated: true
+so.generated: true
 keywords: database table role_element
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # role\_element Table (326)

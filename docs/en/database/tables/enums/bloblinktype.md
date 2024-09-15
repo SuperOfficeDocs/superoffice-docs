@@ -2,10 +2,10 @@
 uid: enum-bloblinktype
 title: Enum values for BlobLinkType
 description: Lists the enum values for BlobLinkType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # BlobLinkType Enum

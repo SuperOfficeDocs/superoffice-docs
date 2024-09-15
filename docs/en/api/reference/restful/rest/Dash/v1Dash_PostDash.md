@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 356,
-  "UniqueId": "nemo",
-  "Name": "Cummerata LLC",
-  "Description": "Cross-group incremental approach",
-  "AssociateId": 541,
-  "Columns": 621,
+  "DashboardId": 874,
+  "UniqueId": "ratione",
+  "Name": "White Inc and Sons",
+  "Description": "Open-source discrete algorithm",
+  "AssociateId": 666,
+  "Columns": 789,
   "Theme": null,
-  "VisibleForAll": 496,
+  "VisibleForAll": 898,
   "VisibleForAssociates": [
-    424,
-    898
+    206,
+    968
   ],
   "VisibleForGroups": [
-    453,
-    328
+    576,
+    615
   ],
-  "PinForAll": 844,
+  "PinForAll": 585,
   "PinForAssociates": [
-    761,
-    939
+    61,
+    364
   ],
   "PinForGroups": [
-    225,
-    201
+    623,
+    635
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 769,
-  "UniqueId": "quia",
-  "Name": "Brakus, Wiza and Lebsack",
-  "Description": "Upgradable needs-based architecture",
-  "AssociateId": 78,
-  "Columns": 340,
+  "DashboardId": 708,
+  "UniqueId": "sunt",
+  "Name": "Sporer-Hyatt",
+  "Description": "Innovative directional firmware",
+  "AssociateId": 378,
+  "Columns": 910,
   "Theme": null,
-  "VisibleForAll": 998,
+  "VisibleForAll": 884,
   "VisibleForAssociates": [
-    851,
-    526
+    472,
+    19
   ],
   "VisibleForGroups": [
-    169,
-    164
+    986,
+    357
   ],
-  "PinForAll": 822,
+  "PinForAll": 279,
   "PinForAssociates": [
-    664,
-    657
+    606,
+    213
   ],
   "PinForGroups": [
-    322,
-    760
+    316,
+    759
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 625
     }
   },
   "_Links": {

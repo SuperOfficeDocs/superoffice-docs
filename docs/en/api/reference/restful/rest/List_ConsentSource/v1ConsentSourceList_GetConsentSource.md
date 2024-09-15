@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 680,
-  "Name": "Wisozk LLC",
-  "Tooltip": "ut",
-  "Rank": 718,
-  "Key": "non",
-  "MailTemplateId": 827,
+  "ConsentSourceId": 438,
+  "Name": "Predovic, Gleichner and Bode",
+  "Tooltip": "reprehenderit",
+  "Rank": 668,
+  "Key": "id",
+  "MailTemplateId": 124,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 809
     }
   }
 }

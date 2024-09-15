@@ -86,20 +86,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Kemmer, Kohler and Reichert",
-  "StorageKey": "sit",
+  "StorageType": "ipsam",
+  "ProviderName": "Ebert-Walker",
+  "StorageKey": "est",
   "Restrictions": [
     {
-      "Name": "Hilpert, Johnson and Heaney",
-      "Operator": "aut",
+      "Name": "Parker, Heidenreich and Homenick",
+      "Operator": "blanditiis",
       "Values": [
-        "rerum",
-        "ut"
+        "recusandae",
+        "qui"
       ],
       "DisplayValues": [
-        "nostrum",
-        "qui"
+        "voluptatibus",
+        "harum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 989,
+      "InterParenthesis": 17,
       "InterOperator": "And",
-      "UniqueHash": 811
+      "UniqueHash": 540
     }
   ],
   "StaticColumns": [
-    "ex",
-    "perspiciatis"
+    "enim",
+    "sed"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Daugherty, Gaylord and Greenfelder",
-      "Operator": "non",
+      "Name": "Lubowitz-Watsica",
+      "Operator": "temporibus",
       "Values": [
-        "laborum",
-        "sequi"
+        "et",
+        "est"
       ],
       "DisplayValues": [
-        "eum",
-        "eos"
+        "eligendi",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 621,
+      "InterParenthesis": 137,
       "InterOperator": "And",
-      "UniqueHash": 146
+      "UniqueHash": 395
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Altenwerth-Schmitt",
-      "DisplayTooltip": "nemo",
-      "DisplayType": "tempora",
-      "CanOrderBy": false,
-      "Name": "Hettinger-Barrows",
-      "CanRestrictBy": false,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Batz Group",
+      "DisplayName": "Goldner, Grant and Herman",
+      "DisplayTooltip": "necessitatibus",
+      "DisplayType": "non",
+      "CanOrderBy": true,
+      "Name": "O'Kon, Kohler and Abernathy",
+      "CanRestrictBy": true,
+      "RestrictionType": "omnis",
+      "RestrictionListName": "Kutch LLC",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "autem",
-      "IconHint": "quia",
-      "HeadingIconHint": "praesentium"
+      "ExtraInfo": "voluptatem",
+      "Width": "non",
+      "IconHint": "sunt",
+      "HeadingIconHint": "quis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Zboncak-Baumbach",
-      "PrimaryKey": 368,
+      "EntityName": "Langosh Group",
+      "PrimaryKey": 180,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptates",
-          "TooltipHint": "nisi",
-          "LinkHint": "deserunt"
+          "DisplayValue": "minima",
+          "TooltipHint": "maiores",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "non",
+      "LinkHint": "ea",
+      "StyleHint": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldLength": 124
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Haag, Swift and Schinner",
-      "Description": "Customizable well-modulated archive",
-      "Rank": 621,
+      "Name": "Schaden LLC",
+      "Description": "Ameliorated impactful groupware",
+      "Rank": 221,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Haag, Swift and Schinner",
-      "Description": "Customizable well-modulated archive",
-      "Rank": 621,
+      "Name": "Schaden LLC",
+      "Description": "Ameliorated impactful groupware",
+      "Rank": 221,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 327
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 756
+  "CountryId": 991
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 76,
-  "BlobSize": 276,
-  "Description": "Robust holistic infrastructure",
-  "ExtraInfo": "repudiandae",
-  "IsEncrypted": false,
+  "BlobId": 932,
+  "BlobSize": 55,
+  "Description": "Future-proofed zero administration process improvement",
+  "ExtraInfo": "ipsum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quis",
-  "OriginalSize": 544,
-  "CreatedDate": "2008-04-12T13:28:21.8668811+02:00",
-  "UpdatedDate": "2004-01-06T13:28:21.8668811+01:00",
+  "MimeType": "exercitationem",
+  "OriginalSize": 738,
+  "CreatedDate": "2006-11-26T04:02:01.2374146+01:00",
+  "UpdatedDate": "2016-12-17T04:02:01.2374146+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "animi",
+  "ConceptualType": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

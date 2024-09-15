@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Heidenreich-Kuhn",
-    "ToolTip": "Ut porro omnis soluta.",
-    "Deleted": true,
-    "Rank": 66,
-    "Type": "odit",
-    "ColorBlock": 26,
-    "IconHint": "rerum",
+    "Id": 110,
+    "Name": "Reichert-Hayes",
+    "ToolTip": "Est ut architecto nulla iure reprehenderit debitis.",
+    "Deleted": false,
+    "Rank": 564,
+    "Type": "molestiae",
+    "ColorBlock": 15,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2005-06-24T13:28:32.9603316+02:00",
+    "LastChanged": "1997-05-22T04:02:07.3221997+02:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Fritsch-Pacocha",
-        "ToolTip": "Molestiae quo et fugiat magni accusantium reprehenderit dicta.",
+        "Id": 148,
+        "Name": "Lubowitz, Gusikowski and Wunsch",
+        "ToolTip": "Aperiam est.",
         "Deleted": false,
-        "Rank": 223,
-        "Type": "velit",
-        "ColorBlock": 215,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2019-08-25T13:28:32.9603316+02:00",
+        "Rank": 513,
+        "Type": "porro",
+        "ColorBlock": 503,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2000-11-09T04:02:07.3221997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "rerum",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Bessie Satterfield",
+        "FullName": "Emilio Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 570
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Dr. Obie Hirthe III",
+    "ExtraInfo": "dolore",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Bernard Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 799
       }
     }
   }

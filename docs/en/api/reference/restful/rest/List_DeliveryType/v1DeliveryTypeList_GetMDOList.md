@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=maxime
+GET /api/v1/List/DeliveryType/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Funk, Berge and Donnelly",
-    "ToolTip": "Molestias aut totam delectus assumenda deserunt in consequuntur.",
+    "Id": 939,
+    "Name": "Weimann, Hackett and Beer",
+    "ToolTip": "Sed recusandae.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "et",
+    "Rank": 82,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "McDermott, Welch and Abbott",
-        "ToolTip": "Fuga porro explicabo sed explicabo non asperiores perspiciatis.",
+        "Id": 449,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Non maiores cupiditate ut.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "animi",
+        "Rank": 975,
+        "Type": "at",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 1002,
-        "ExtraInfo": "impedit",
-        "StyleHint": "molestiae",
-        "FullName": "Mrs. Juwan Hansen Sr.",
+        "IconHint": "quidem",
+        "ColorBlock": 24,
+        "ExtraInfo": "nihil",
+        "StyleHint": "inventore",
+        "FullName": "Danyka Patrick Blick I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldType": "System.String",
+            "FieldLength": 946
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 691,
-    "ExtraInfo": "magni",
-    "StyleHint": "repellat",
-    "FullName": "Dr. Howard Zulauf",
+    "IconHint": "a",
+    "ColorBlock": 49,
+    "ExtraInfo": "aut",
+    "StyleHint": "quod",
+    "FullName": "Ms. Elenora Bailey IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "175.348.5649 x18056",
-    "PersonCellPhone": "188.060.2245 x529",
-    "PersonPrivatePhone": "256-181-1356",
-    "PersonFaxNumber": "1078660",
-    "PersonPagerNumber": "1505872",
-    "PersonEmail": "earl@moenschuppe.uk",
-    "Id": 483,
-    "Name": "Mills Group",
-    "Tooltip": "repellat",
-    "UniqueId": "omnis",
+    "PersonDirectPhone": "1-309-639-3747",
+    "PersonCellPhone": "1-103-227-7272 x1645",
+    "PersonPrivatePhone": "374-453-6125",
+    "PersonFaxNumber": "1257376",
+    "PersonPagerNumber": "972575",
+    "PersonEmail": "brandi@murrayoreilly.uk",
+    "Id": 143,
+    "Name": "Kub, Walter and Tillman",
+    "Tooltip": "consequatur",
+    "UniqueId": "temporibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 232
       }
     }
   }

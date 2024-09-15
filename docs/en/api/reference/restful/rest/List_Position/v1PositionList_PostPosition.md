@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Goodwin-Harris",
-  "Tooltip": "possimus",
-  "Deleted": true,
-  "UdListDefinitionId": 355,
-  "Rank": 572
+  "Id": 672,
+  "Name": "Hickle LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 497,
+  "Rank": 273
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Haley-Breitenberg",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "UdListDefinitionId": 28,
-  "Rank": 910,
+  "Id": 894,
+  "Name": "Aufderhar, Goldner and Nader",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 369,
+  "Rank": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 107
     }
   }
 }

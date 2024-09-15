@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    1000,
-    54
+    417,
+    341
   ],
-  "TargetTableNumber": 385
+  "TargetTableNumber": 22
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic content-based data-warehouse",
-  "Postit": "quia",
+  "Description": "Digitized secondary ability",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 233,
-  "IncludePerson": 209,
+  "GroupIdx": 863,
+  "IncludePerson": 632,
   "MemberCount": 99.99,
-  "Name": "Emmerich-Miller",
-  "PostitTextId": 226,
-  "CreatedDate": "2010-02-21T13:28:23.772965+01:00",
-  "SelectionId": 651,
-  "SoundEx": "veritatis",
-  "Source": 464,
-  "TextId": 774,
-  "UpdatedDate": "2014-12-26T13:28:23.772965+01:00",
-  "UpdatedCount": 110,
-  "Visibility": 15,
+  "Name": "Hahn Inc and Sons",
+  "PostitTextId": 889,
+  "CreatedDate": "2008-05-25T04:02:02.3317533+02:00",
+  "SelectionId": 305,
+  "SoundEx": "repellendus",
+  "Source": 962,
+  "TextId": 715,
+  "UpdatedDate": "2018-01-15T04:02:02.3317533+01:00",
+  "UpdatedCount": 925,
+  "Visibility": 489,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 918,
-  "TargetTableName": "Emmerich-Tromp",
-  "Completed": false,
-  "LeftSelectionId": 871,
-  "RightSelectionId": 304,
+  "CompanyUnique": false,
+  "TargetTableNumber": 345,
+  "TargetTableName": "McKenzie-Beatty",
+  "Completed": true,
+  "LeftSelectionId": 277,
+  "RightSelectionId": 91,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Larkin, Gorczany and Ward",
-  "ShadowProviderName": "Christiansen-Labadie",
-  "ChartKey": "necessitatibus",
-  "LastLoaded": "2015-02-10T13:28:23.772965+01:00",
-  "LastLoadedBy": 206,
+  "MainProviderName": "McDermott LLC",
+  "ShadowProviderName": "Rohan, Schaefer and Williamson",
+  "ChartKey": "distinctio",
+  "LastLoaded": "2013-03-11T04:02:02.3317533+01:00",
+  "LastLoadedBy": 55,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-08-26T13:28:23.772965+02:00",
-  "LastMembershipChangeBy": 567,
+  "LastMembershipChange": "2002-03-15T04:02:02.3317533+01:00",
+  "LastMembershipChangeBy": 647,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "necessitatibus",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Keebler, Schinner and Nader",
-  "DashboardTileDefinitionId": 695,
+  "MainHeading": "porro",
+  "MemberTabHeading": "repudiandae",
+  "MailingsProviderName": "Wyman-Gutmann",
+  "DashboardTileDefinitionId": 325,
   "VisibleFor": [
     {
-      "VisibleId": 941,
+      "VisibleId": 213,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldLength": 240
         }
       }
     },
     {
-      "VisibleId": 941,
+      "VisibleId": 213,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldLength": 240
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 942
     }
   }
 }

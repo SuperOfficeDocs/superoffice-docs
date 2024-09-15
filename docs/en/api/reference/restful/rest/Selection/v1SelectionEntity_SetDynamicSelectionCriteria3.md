@@ -95,49 +95,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stamm, Rolfson and Ankunding",
-    "Operator": "quia",
+    "Name": "Powlowski-Veum",
+    "Operator": "aliquid",
     "Values": [
-      "recusandae",
-      "non"
+      "fuga",
+      "placeat"
     ],
     "DisplayValues": [
-      "qui",
-      "quas"
+      "fugiat",
+      "omnis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Casper, Haag and Hudson",
-        "Operator": "est",
+        "Name": "Ebert, Sipes and Kuvalis",
+        "Operator": "ut",
         "Values": [
-          "nobis",
-          "labore"
+          "ea",
+          "error"
         ],
         "DisplayValues": [
-          "facere",
-          "et"
+          "est",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 105,
+        "InterParenthesis": 790,
         "InterOperator": "And",
-        "UniqueHash": 40
+        "UniqueHash": 198
       }
     ],
-    "InterParenthesis": 671,
+    "InterParenthesis": 179,
     "InterOperator": "And",
-    "UniqueHash": 4
+    "UniqueHash": 395
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stark LLC",
-    "Operator": "error",
+    "Name": "Larkin Inc and Sons",
+    "Operator": "numquam",
     "Values": [
-      "et",
-      "dignissimos"
+      "officia",
+      "quis"
     ],
     "DisplayValues": [
-      "mollitia",
-      "non"
+      "rem",
+      "et"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hyatt-Lemke",
-        "Operator": "quam",
+        "Name": "Rippin Inc and Sons",
+        "Operator": "quaerat",
         "Values": [
-          "at",
-          "alias"
+          "dicta",
+          "eius"
         ],
         "DisplayValues": [
-          "nemo",
-          "itaque"
+          "asperiores",
+          "temporibus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 652,
+        "InterParenthesis": 38,
         "InterOperator": "And",
-        "UniqueHash": 40
+        "UniqueHash": 123
       }
     ],
-    "InterParenthesis": 223,
+    "InterParenthesis": 366,
     "InterOperator": "And",
-    "UniqueHash": 680
+    "UniqueHash": 420
   }
 ]
 ```

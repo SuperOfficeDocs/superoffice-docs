@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Grady-Barton",
-    "ToolTip": "Quis voluptatem repellendus.",
+    "Id": 129,
+    "Name": "Homenick, Volkman and Toy",
+    "ToolTip": "In sed qui ut facilis tempore.",
     "Deleted": true,
-    "Rank": 879,
-    "Type": "dicta",
-    "ColorBlock": 704,
-    "IconHint": "nulla",
+    "Rank": 126,
+    "Type": "et",
+    "ColorBlock": 599,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2021-07-15T13:28:32.8822233+02:00",
+    "LastChanged": "2006-01-21T04:02:07.2753298+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Ritchie, Crist and Quigley",
-        "ToolTip": "Libero voluptatum.",
-        "Deleted": true,
-        "Rank": 816,
-        "Type": "earum",
-        "ColorBlock": 660,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2019-03-07T13:28:32.8822233+01:00",
+        "Id": 600,
+        "Name": "Greenholt-Conroy",
+        "ToolTip": "Quisquam officia magni placeat voluptas quis.",
+        "Deleted": false,
+        "Rank": 412,
+        "Type": "ea",
+        "ColorBlock": 861,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2019-03-14T04:02:07.2753298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Opal Kassulke"
+        "ExtraInfo": "sed",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Mr. Jennie Zemlak DVM"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "soluta",
+    "ExtraInfo": "sunt",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Patricia Wehner"
+    "FullName": "Mr. Lavada Powlowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Hermiston, Feil and Bruen",
-    "ToolTip": "Quis odio voluptates voluptatem libero architecto eum non.",
+    "Id": 878,
+    "Name": "Nolan, Schmidt and Bailey",
+    "ToolTip": "Voluptatem dolores.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "et",
-    "ColorBlock": 535,
-    "IconHint": "ad",
-    "Selected": true,
-    "LastChanged": "2020-08-14T13:28:32.8822233+02:00",
+    "Rank": 144,
+    "Type": "laborum",
+    "ColorBlock": 99,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "1997-10-23T04:02:07.2753298+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Howe-Thompson",
-        "ToolTip": "Dolorem labore ea.",
+        "Id": 169,
+        "Name": "Spencer, Mann and Champlin",
+        "ToolTip": "Qui et reprehenderit voluptates voluptatem perferendis eius.",
         "Deleted": true,
-        "Rank": 976,
-        "Type": "assumenda",
-        "ColorBlock": 805,
-        "IconHint": "assumenda",
+        "Rank": 303,
+        "Type": "nesciunt",
+        "ColorBlock": 121,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2009-01-15T13:28:32.8822233+01:00",
+        "LastChanged": "2010-01-25T04:02:07.2753298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "eos",
+        "ExtraInfo": "dolor",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Kasey Murazik",
+        "FullName": "Miss Burley Coy Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 388
+            "FieldType": "System.Int32",
+            "FieldLength": 540
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "magni",
+    "ExtraInfo": "saepe",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Leonor Bednar",
+    "FullName": "Dr. Tamia Cierra Ruecker IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

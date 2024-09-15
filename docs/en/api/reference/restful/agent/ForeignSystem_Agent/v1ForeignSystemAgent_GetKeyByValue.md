@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stiedemann, Becker and Schmidt",
-  "DeviceName": "Langworth-Kilback",
-  "KeyName": "Mueller Group",
-  "KeyValue": "eos",
-  "TableName": "Dickinson, Sawayn and Hagenes"
+  "ApplicationName": "Veum, Morar and Vandervort",
+  "DeviceName": "Swaniawski Inc and Sons",
+  "KeyName": "Schmitt-Morissette",
+  "KeyValue": "veniam",
+  "TableName": "O'Hara, Hahn and Rempel"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laboriosam",
-  "Value": "expedita",
-  "RecordId": 418,
-  "CreatedDate": "2015-03-26T13:28:22.8510314+01:00",
-  "UpdatedDate": "2019-04-02T13:28:22.8510314+02:00",
-  "UpdatedBy": "eum",
-  "CreatedBy": "laborum",
-  "TableName": "Schoen, McClure and Windler",
+  "Key": "eos",
+  "Value": "commodi",
+  "RecordId": 742,
+  "CreatedDate": "2011-04-25T04:02:01.8003604+02:00",
+  "UpdatedDate": "2008-09-16T04:02:01.8003604+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "unde",
+  "TableName": "Bechtelar, Ratke and Gaylord",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 490
     }
   }
 }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "molestiae"
+  "MessageId": "debitis"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 683,
-      "ContactName": "Welch Group",
-      "PersonId": 540,
-      "PersonName": "Rolfson-Wehner",
-      "AssociateId": 663,
-      "Address": "sed",
-      "EmailId": 284,
+      "ContactId": 917,
+      "ContactName": "Hermiston Inc and Sons",
+      "PersonId": 70,
+      "PersonName": "Moore-Beatty",
+      "AssociateId": 324,
+      "Address": "in",
+      "EmailId": 10,
       "DuplicatePersonIds": [
-        746,
-        784
+        420,
+        988
       ],
-      "Name": "Jakubowski LLC",
+      "Name": "Ankunding LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 939
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 172,
-      "ContactName": "Mohr-Klocko",
-      "PersonId": 110,
-      "PersonName": "Stoltenberg, Bashirian and Lesch",
-      "AssociateId": 24,
-      "Address": "velit",
-      "EmailId": 83,
+      "ContactId": 754,
+      "ContactName": "Zieme, McKenzie and Runte",
+      "PersonId": 401,
+      "PersonName": "Legros Group",
+      "AssociateId": 562,
+      "Address": "incidunt",
+      "EmailId": 232,
       "DuplicatePersonIds": [
-        787,
-        713
+        770,
+        506
       ],
-      "Name": "Lindgren, Harber and King",
+      "Name": "Miller-Borer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldLength": 350
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 823,
-      "ContactName": "Koepp LLC",
-      "PersonId": 131,
-      "PersonName": "Bogisich Inc and Sons",
-      "AssociateId": 201,
-      "Address": "iste",
-      "EmailId": 158,
+      "ContactId": 483,
+      "ContactName": "Ortiz Inc and Sons",
+      "PersonId": 453,
+      "PersonName": "Parisian-Dicki",
+      "AssociateId": 988,
+      "Address": "quis",
+      "EmailId": 608,
       "DuplicatePersonIds": [
-        303,
-        960
+        568,
+        682
       ],
-      "Name": "Braun LLC",
+      "Name": "Becker-Tromp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldLength": 294
         }
       }
     }
   ],
-  "Subject": "id",
-  "HTMLBody": "dolorem",
+  "Subject": "sed",
+  "HTMLBody": "quis",
   "From": null,
-  "Sent": "2011-12-06T13:28:22.6479526+01:00",
-  "Size": 367,
+  "Sent": "2003-01-03T04:02:01.6748777+01:00",
+  "Size": 246,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "praesentium",
-  "PlainBody": "tenetur",
-  "IsSent": true,
+  "MessageID": "voluptas",
+  "PlainBody": "sed",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 979,
+  "ServerId": 451,
   "Attachments": [
     {
-      "Description": "Diverse modular instruction set",
-      "Filename": "dolores",
-      "Size": 895,
-      "Type": "corporis",
-      "Encoding": "et",
-      "Id": "iure",
-      "Disposition": "officia",
-      "IsSafeFileExtension": true,
+      "Description": "Organic reciprocal challenge",
+      "Filename": "rerum",
+      "Size": 447,
+      "Type": "est",
+      "Encoding": "ipsam",
+      "Id": "itaque",
+      "Disposition": "quibusdam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 294
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dietrich-Torp",
+      "Name": "D'Amore, Keebler and Gorczany",
       "Values": [
-        "magni",
-        "deserunt"
+        "et",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Dietrich-Torp",
+      "Name": "D'Amore, Keebler and Gorczany",
       "Values": [
-        "magni",
-        "deserunt"
+        "et",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 35
         }
       }
     }
   ],
-  "FolderName": "Cartwright-Dach",
-  "EmailItemId": 883,
-  "AccountId": 199,
-  "ReceivedAt": "2023-07-17T13:28:22.6479526+02:00",
+  "FolderName": "Schneider-Grant",
+  "EmailItemId": 492,
+  "AccountId": 779,
+  "ReceivedAt": "2005-04-10T04:02:01.6748777+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-12-09T13:28:22.6479526+01:00",
+  "RepliedAt": "2007-06-26T04:02:01.6748777+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 250
     }
   }
 }

@@ -655,6 +655,8 @@ Activity archive provider for the Sale card
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -748,7 +750,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personAssociate/contactDepartment,contact/contactNoMail,contact/contactUdef/SuperOffice:12,contact/contactExtra/x_contact_shorttext,associate/credentialType
+GET /api/v1/archive/SaleActivity?$select=person/personAssociate/firstName,person/personAssociate/contactCategory,person/correspondingAssociate/mrMrs,contact/contactSource,contact/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

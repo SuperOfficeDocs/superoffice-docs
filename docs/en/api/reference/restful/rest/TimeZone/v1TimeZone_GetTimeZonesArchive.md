@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=excepturi
-GET /api/v1/TimeZone?$top=673
-GET /api/v1/TimeZone?$skip=989
+GET /api/v1/TimeZone?$entities=qui
+GET /api/v1/TimeZone?$top=17
+GET /api/v1/TimeZone?$skip=777
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=ut
+GET /api/v1/TimeZone?$context=est
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "earum",
+  "odata.nextLink": "inventore",
   "value": [
     {
-      "PrimaryKey": 6507,
+      "PrimaryKey": 7401,
       "EntityName": "sale",
-      "saleId": 6507,
-      "contactId": 8699,
-      "name": "Hand LLC"
+      "saleId": 7401,
+      "contactId": 1388,
+      "name": "Zboncak-Kshlerin"
     },
     {
-      "PrimaryKey": 8854,
+      "PrimaryKey": 836,
       "EntityName": "sale",
-      "saleId": 8854,
-      "contactId": 5231,
-      "name": "Schultz, Kuhn and Ebert"
+      "saleId": 836,
+      "contactId": 9719,
+      "name": "Fay, Leannon and Franecki"
     }
   ]
 }

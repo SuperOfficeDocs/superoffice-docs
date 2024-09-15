@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Breitenberg LLC",
-    "ToolTip": "Qui et sed provident at velit.",
+    "Id": 88,
+    "Name": "Robel-Langosh",
+    "ToolTip": "Est optio.",
     "Deleted": false,
-    "Rank": 758,
-    "Type": "inventore",
-    "ColorBlock": 694,
-    "IconHint": "porro",
+    "Rank": 336,
+    "Type": "sed",
+    "ColorBlock": 592,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2011-10-05T13:28:32.8822233+02:00",
+    "LastChanged": "1999-06-18T04:02:07.2753298+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Feest LLC",
-        "ToolTip": "Animi impedit esse est consequuntur impedit sit voluptate.",
+        "Id": 153,
+        "Name": "Fritsch, Leuschke and Jacobs",
+        "ToolTip": "Ratione unde error.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "vitae",
-        "ColorBlock": 511,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2018-04-25T13:28:32.8822233+02:00",
+        "Rank": 922,
+        "Type": "vel",
+        "ColorBlock": 460,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2020-07-14T04:02:07.2753298+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quasi",
+        "ExtraInfo": "et",
+        "StyleHint": "totam",
         "Hidden": true,
-        "FullName": "Liam Parker",
+        "FullName": "Alden Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 11
+            "FieldType": "System.Int32",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Moises Homenick",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Prof. Alysson Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 364
       }
     }
   }

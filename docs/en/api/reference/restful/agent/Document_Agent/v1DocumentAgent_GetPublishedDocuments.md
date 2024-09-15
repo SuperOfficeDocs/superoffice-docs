@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    268,
-    140
+    820,
+    681
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 827,
-    "Attention": "dolor",
-    "Header": "eos",
-    "Name": "Hyatt Group",
-    "OurRef": "sapiente",
-    "YourRef": "totam",
-    "Description": "Advanced cohesive productivity",
-    "DocumentTemplate": "numquam",
-    "IsPublished": true,
-    "PersonId": 750,
-    "PersonFullName": "Mr. Lemuel Dibbert MD",
-    "AssociateFullName": "Patience Kihn",
-    "ContactId": 997,
-    "ContactName": "Barton, Wolf and Fay",
-    "ProjectId": 655,
-    "ProjectName": "Considine, Schmeler and Reinger",
-    "AssociateId": 315,
-    "Snum": 148,
-    "SaleId": 658,
-    "SaleName": "Corkery-Ruecker",
+    "DocumentId": 64,
+    "Attention": "omnis",
+    "Header": "architecto",
+    "Name": "Senger-Ruecker",
+    "OurRef": "et",
+    "YourRef": "molestiae",
+    "Description": "Versatile zero defect productivity",
+    "DocumentTemplate": "veritatis",
+    "IsPublished": false,
+    "PersonId": 146,
+    "PersonFullName": "Johnnie Brekke",
+    "AssociateFullName": "Mrs. Tianna Windler",
+    "ContactId": 575,
+    "ContactName": "Bayer, Littel and Hane",
+    "ProjectId": 188,
+    "ProjectName": "Cummerata Inc and Sons",
+    "AssociateId": 763,
+    "Snum": 986,
+    "SaleId": 302,
+    "SaleName": "Hoppe, Buckridge and Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 445
       }
     }
   }

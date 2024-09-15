@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 100
+  "PersonId": 234
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 371,
-  "BlobSize": 581,
-  "Description": "Sharable attitude-oriented project",
-  "ExtraInfo": "aut",
+  "BlobId": 804,
+  "BlobSize": 79,
+  "Description": "Cross-group context-sensitive matrices",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 903,
-  "CreatedDate": "1999-01-15T13:28:21.8668811+01:00",
-  "UpdatedDate": "2024-07-26T13:28:21.8668811+02:00",
+  "IsZipped": true,
+  "MimeType": "ex",
+  "OriginalSize": 1002,
+  "CreatedDate": "2016-04-27T04:02:01.2374146+02:00",
+  "UpdatedDate": "2011-11-06T04:02:01.2374146+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 848,
-    "Name": "Larkin LLC",
-    "Tooltip": "dolorum",
-    "Deleted": false,
-    "Rank": 69,
-    "UdListDefinitionId": 537,
+    "HeadingId": 9,
+    "Name": "Bednar, Gaylord and Wilderman",
+    "Tooltip": "veritatis",
+    "Deleted": true,
+    "Rank": 279,
+    "UdListDefinitionId": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 737
       }
     }
   }

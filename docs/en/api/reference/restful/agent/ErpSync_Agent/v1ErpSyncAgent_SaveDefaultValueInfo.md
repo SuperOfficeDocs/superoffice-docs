@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 166,
-  "DefaultValue": "vitae",
+  "ErpFieldId": 311,
+  "DefaultValue": "laboriosam",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "non",
+  "FirstSyncDefaultValue": "aliquam",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "consequuntur",
+  "Mandatory": true,
+  "ErpFieldKey": "harum",
   "FieldType": "Checkbox",
-  "ListName": "Christiansen-Schiller",
+  "ListName": "Hessel, Kuhlman and Frami",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 764
     }
   }
 }

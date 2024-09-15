@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 454,
-  "Name": "Kreiger Group",
-  "Rank": 224,
-  "Tooltip": "enim",
+  "AssociateId": 953,
+  "Name": "Jones-Herman",
+  "Rank": 209,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "Hoeger, Wintheiser and Feeney",
-      "Description": "Organized actuating success",
+      "Name": "Blanda-Johns",
+      "Description": "Centralized bi-directional superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 755
         }
       }
     },
     {
-      "Name": "Hoeger, Wintheiser and Feeney",
-      "Description": "Organized actuating success",
+      "Name": "Blanda-Johns",
+      "Description": "Centralized bi-directional superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 755
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ex",
-      "Tooltip": "a",
-      "Id": 121,
-      "Rank": 465,
+      "Value": "cum",
+      "Tooltip": "quia",
+      "Id": 697,
+      "Rank": 125,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldType": "System.String",
+          "FieldLength": 593
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2007-11-24T13:28:24.2103618+01:00",
-  "Lastlogout": "2004-11-12T13:28:24.2103618+01:00",
-  "EjUserId": 936,
-  "RequestSignature": "dolor",
+  "Deleted": true,
+  "Lastlogin": "2010-10-13T04:02:02.5665989+02:00",
+  "Lastlogout": "2023-01-25T04:02:02.5665989+01:00",
+  "EjUserId": 791,
+  "RequestSignature": "veritatis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "aliquam",
+      "Value": "delectus",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 459
         }
       }
     },
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "aliquam",
+      "Value": "delectus",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 459
         }
       }
     }
   ],
-  "UserName": "Schumm-Jaskolski",
+  "UserName": "Cummerata LLC",
   "TicketCategories": [
     {
-      "Id": 551,
-      "Name": "Strosin Inc and Sons",
-      "ToolTip": "Aut vero non sequi.",
+      "Id": 293,
+      "Name": "Mayert Group",
+      "ToolTip": "Est autem doloribus nihil et at.",
       "Deleted": false,
-      "Rank": 255,
-      "Type": "aperiam",
+      "Rank": 271,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "a",
-      "ColorBlock": 262,
-      "ExtraInfo": "nemo",
-      "StyleHint": "recusandae",
-      "FullName": "Giuseppe Renner",
+      "IconHint": "ab",
+      "ColorBlock": 720,
+      "ExtraInfo": "asperiores",
+      "StyleHint": "dignissimos",
+      "FullName": "Forest Gorczany",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 421
         }
       }
     }
   ],
-  "NickName": "Mann Inc and Sons",
+  "NickName": "Wehner-Heaney",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "ea"
+    "CustomFields1": "nihil",
+    "CustomFields2": "dignissimos"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bergnaum-Quitzon",
-      "DisplayName": "Klocko-Mohr",
-      "Description": "Reduced incremental policy",
-      "ToolTip": "Nobis quo dolore sit quis veniam.",
+      "Name": "Cummings-Grant",
+      "DisplayName": "Smith, Turner and Kozey",
+      "Description": "Monitored neutral service-desk",
+      "ToolTip": "Sequi molestias.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 572
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 740
     }
   }
 }

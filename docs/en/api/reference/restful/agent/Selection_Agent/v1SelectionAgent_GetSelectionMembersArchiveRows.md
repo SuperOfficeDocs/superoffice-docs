@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 562,
-  "Select": "nesciunt"
+  "SelectionId": 481,
+  "Select": "quaerat"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kshlerin-Schaefer",
-    "PrimaryKey": 220,
+    "EntityName": "Nolan-Stiedemann",
+    "PrimaryKey": 904,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "similique",
-        "TooltipHint": "harum",
-        "LinkHint": "qui"
+        "DisplayValue": "sed",
+        "TooltipHint": "repellendus",
+        "LinkHint": "alias"
       }
     },
-    "LinkHint": "voluptatem",
-    "StyleHint": "laborum",
+    "LinkHint": "tempora",
+    "StyleHint": "repellendus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 29,
-      "ContactName": "Brekke, Kulas and O'Conner",
-      "PersonId": 434,
-      "PersonName": "Schroeder, Gusikowski and Zulauf",
-      "AssociateId": 905,
-      "Address": "sit",
-      "EmailId": 217,
+      "ContactId": 563,
+      "ContactName": "Pagac, Robel and Hackett",
+      "PersonId": 137,
+      "PersonName": "Kunze, Davis and Willms",
+      "AssociateId": 279,
+      "Address": "eos",
+      "EmailId": 518,
       "DuplicatePersonIds": [
-        243,
-        549
+        760,
+        577
       ],
-      "Name": "Monahan-Greenfelder",
+      "Name": "Raynor-Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 287
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 677,
-      "ContactName": "Roob-Terry",
-      "PersonId": 753,
-      "PersonName": "Feil, Nikolaus and Lindgren",
-      "AssociateId": 964,
-      "Address": "praesentium",
-      "EmailId": 259,
+      "ContactId": 433,
+      "ContactName": "Jakubowski, Dietrich and Berge",
+      "PersonId": 114,
+      "PersonName": "Prohaska-Reynolds",
+      "AssociateId": 170,
+      "Address": "molestiae",
+      "EmailId": 364,
       "DuplicatePersonIds": [
-        619,
-        533
+        392,
+        623
       ],
-      "Name": "Connelly-Lindgren",
+      "Name": "Lind, Fritsch and McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 206,
-      "ContactName": "Carroll LLC",
-      "PersonId": 147,
-      "PersonName": "Morar, Kreiger and Rogahn",
-      "AssociateId": 202,
-      "Address": "voluptas",
-      "EmailId": 444,
+      "ContactId": 342,
+      "ContactName": "Kautzer-Klocko",
+      "PersonId": 640,
+      "PersonName": "Langosh-Ankunding",
+      "AssociateId": 906,
+      "Address": "quasi",
+      "EmailId": 793,
       "DuplicatePersonIds": [
-        791,
-        882
+        505,
+        860
       ],
-      "Name": "Nienow-Larson",
+      "Name": "Hermiston Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 257
         }
       }
     }
   ],
-  "Subject": "numquam",
-  "HTMLBody": "voluptatem",
+  "Subject": "voluptas",
+  "HTMLBody": "quo",
   "From": null,
-  "Sent": "2018-09-23T13:28:22.6323326+02:00",
-  "Size": 615,
+  "Sent": "2012-01-22T04:02:01.6748777+01:00",
+  "Size": 349,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "temporibus",
-  "PlainBody": "amet",
+  "MessageID": "possimus",
+  "PlainBody": "quis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 693,
+  "ServerId": 547,
   "Attachments": [
     {
-      "Description": "Distributed holistic paradigm",
-      "Filename": "odio",
-      "Size": 164,
-      "Type": "optio",
-      "Encoding": "itaque",
-      "Id": "porro",
-      "Disposition": "velit",
-      "IsSafeFileExtension": false,
+      "Description": "Visionary object-oriented leverage",
+      "Filename": "omnis",
+      "Size": 226,
+      "Type": "consectetur",
+      "Encoding": "aut",
+      "Id": "suscipit",
+      "Disposition": "nisi",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 70
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ernser LLC",
+      "Name": "Cormier-Pouros",
       "Values": [
-        "perspiciatis",
-        "et"
+        "enim",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 446
         }
       }
     },
     {
-      "Name": "Ernser LLC",
+      "Name": "Cormier-Pouros",
       "Values": [
-        "perspiciatis",
-        "et"
+        "enim",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 446
         }
       }
     }
   ],
-  "FolderName": "Kertzmann-Tremblay",
-  "EmailItemId": 670,
-  "AccountId": 470,
-  "ReceivedAt": "2015-02-28T13:28:22.6323326+01:00",
+  "FolderName": "Goodwin, Spinka and Schultz",
+  "EmailItemId": 971,
+  "AccountId": 60,
+  "ReceivedAt": "1999-07-28T04:02:01.6748777+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-01-06T13:28:22.6323326+01:00",
+  "RepliedAt": "2014-12-01T04:02:01.6748777+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 628
     }
   }
 }

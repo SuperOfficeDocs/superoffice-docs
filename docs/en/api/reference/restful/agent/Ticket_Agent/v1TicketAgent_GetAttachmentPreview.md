@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 825
+  "AttachmentId": 9
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Watsica-Gusikowski",
-  "MimeType": "non",
-  "Size": 535,
+  "Name": "Nikolaus Group",
+  "MimeType": "odio",
+  "Size": 821,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "gaston_runte@terry.ca",
-  "EmailFrom": "alejandrin.swift@boyle.info",
-  "EmailTo": "ottilie@grady.ca",
-  "EmailCc": "sigmund_borer@runolfsson.name",
-  "EmailDate": "2015-04-28T13:28:24.0697414+02:00",
+  "EmailSubject": "lizeth_heaney@langoshkoepp.name",
+  "EmailFrom": "albert@johnsdoyle.name",
+  "EmailTo": "jaquelin.grady@townecole.co.uk",
+  "EmailCc": "hattie@jakubowski.co.uk",
+  "EmailDate": "2002-04-25T04:02:02.4885951+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 328,
-      "Name": "Mosciski, Rutherford and Quitzon",
-      "ContentType": "est",
-      "AttSize": 870,
-      "InlineImage": true,
-      "ContentId": "velit",
-      "AuthKey": "eos",
+      "AttachmentId": 12,
+      "Name": "Orn-Balistreri",
+      "ContentType": "possimus",
+      "AttSize": 146,
+      "InlineImage": false,
+      "ContentId": "voluptas",
+      "AuthKey": "dolorum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 744
     }
   }
 }

@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 899,
-  "OnlyOpenSales": true
+  "ContactId": 92,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "D'Amore LLC",
-    "SaleDate": "2012-01-10T13:28:23.6948543+01:00",
-    "SaleId": 321,
-    "Probability": 627,
-    "Title": "harum",
-    "Amount": 16654.076,
-    "Currency": "aut",
-    "ProjectName": "Towne, Littel and Macejkovic",
-    "AssociateFullName": "Palma Boehm",
-    "Description": "Operative bandwidth-monitored core",
+    "ContactName": "Vandervort Inc and Sons",
+    "SaleDate": "2016-10-21T04:02:02.28488+02:00",
+    "SaleId": 146,
+    "Probability": 689,
+    "Title": "consequatur",
+    "Amount": 25131.546,
+    "Currency": "sit",
+    "ProjectName": "Hilll-Kassulke",
+    "AssociateFullName": "Ms. Darlene Stroman Jr.",
+    "Description": "Down-sized hybrid archive",
     "Status": "Lost",
-    "WeightedAmount": 26532.444,
-    "ProjectId": 417,
-    "EarningPercent": 24946.64,
-    "Earning": 629.934,
-    "ContactId": 25,
-    "AssociateId": 120,
-    "PersonId": 571,
-    "SaleTypeId": 680,
-    "SaleTypeName": "Stoltenberg-Berge",
-    "PersonFullName": "Ibrahim Smith",
+    "WeightedAmount": 26648.402,
+    "ProjectId": 255,
+    "EarningPercent": 17544.131999999998,
+    "Earning": 19180.079999999998,
+    "ContactId": 789,
+    "AssociateId": 931,
+    "PersonId": 813,
+    "SaleTypeId": 375,
+    "SaleTypeName": "Kunze, Harber and Fadel",
+    "PersonFullName": "Baby Willms",
     "Completed": "Completed",
-    "ActiveErpLinks": 330,
-    "NextDueDate": "1998-12-05T13:28:23.6948543+01:00",
-    "Number": "1433973",
+    "ActiveErpLinks": 76,
+    "NextDueDate": "2007-10-02T04:02:02.28488+02:00",
+    "Number": "1100794",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldType": "System.Int32",
+        "FieldLength": 2
       }
     }
   }

@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    73,
-    460
+    649,
+    793
   ],
-  "StartTime": "2021-10-15T13:28:21.4605072+02:00",
-  "EndTime": "2006-11-24T13:28:21.4605072+01:00"
+  "StartTime": "2017-11-18T04:02:01.0025647+01:00",
+  "EndTime": "2009-08-06T04:02:01.0025647+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 66,
-    "StartDate": "2012-02-17T13:28:21.4605072+01:00",
-    "EndDate": "2004-08-15T13:28:21.4605072+02:00",
+    "AppointmentId": 253,
+    "StartDate": "2001-08-20T04:02:01.0025647+02:00",
+    "EndDate": "2008-09-27T04:02:01.0025647+02:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Ms. Cheyanne Friedrich Bednar II",
-    "ContactName": "Morissette Inc and Sons",
-    "Description": "Multi-lateral bi-directional methodology",
-    "PersonFullName": "Prof. Isobel King",
-    "PersonId": 744,
-    "ContactId": 306,
-    "ProjectId": 549,
-    "ProjectName": "Bednar Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 930,
-    "ColorIndex": 143,
+    "Task": "non",
+    "AssociateFullName": "Mrs. Sabryna Favian King DVM",
+    "ContactName": "Schaefer-Schmitt",
+    "Description": "Reverse-engineered solution-oriented help-desk",
+    "PersonFullName": "Sister Waters III",
+    "PersonId": 395,
+    "ContactId": 455,
+    "ProjectId": 389,
+    "ProjectName": "Collins LLC",
+    "IsPublished": true,
+    "AssociateId": 30,
+    "ColorIndex": 468,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 770,
-    "PriorityName": "Harvey Inc and Sons",
+    "PriorityId": 441,
+    "PriorityName": "Heathcote Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1997-04-17T13:28:21.4605072+02:00",
+    "ActiveDate": "2019-12-05T04:02:01.0025647+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-12-10T13:28:21.4605072+01:00",
-    "RecurringEndDate": "2013-12-21T13:28:21.4605072+01:00",
-    "MotherId": 872,
-    "AssignedBy": 972,
-    "AssignedByFullName": "Mrs. Connie Rath III",
+    "RecurringStartDate": "2000-08-01T04:02:01.0025647+02:00",
+    "RecurringEndDate": "1998-04-24T04:02:01.0025647+02:00",
+    "MotherId": 873,
+    "AssignedBy": 536,
+    "AssignedByFullName": "Dr. Piper Toy",
     "RejectReason": "",
-    "Location": "soluta",
-    "AlarmLeadTime": "quis",
-    "SaleId": 901,
-    "SaleName": "Funk-King",
-    "AssociateName": "Gleason, Trantow and Jast",
-    "CreatedDate": "2024-05-14T13:28:21.4605072+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Mr. Kaya Rippin Sr.",
-    "CreatedByAssociateId": 761,
+    "Location": "laborum",
+    "AlarmLeadTime": "suscipit",
+    "SaleId": 741,
+    "SaleName": "Schowalter, Johnson and Bosco",
+    "AssociateName": "Torp Inc and Sons",
+    "CreatedDate": "2023-12-08T04:02:01.0025647+01:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Jayce Rodriguez",
+    "CreatedByAssociateId": 960,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 682,
-    "Title": "maiores",
-    "Agenda": "sed",
-    "InternalNotes": "veniam",
+    "PreferredTZLocation": 761,
+    "Title": "assumenda",
+    "Agenda": "natus",
+    "InternalNotes": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 11
       }
     }
   }

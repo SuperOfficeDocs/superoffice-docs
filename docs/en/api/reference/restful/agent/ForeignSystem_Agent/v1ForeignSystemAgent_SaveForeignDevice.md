@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Kertzmann Group"
+  "ApplicationName": "Jones-Keebler"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 387,
-  "Name": "Langosh-Spinka",
-  "CreatedDate": "2002-11-19T13:28:22.8510314+01:00",
-  "UpdatedDate": "2005-05-07T13:28:22.8510314+02:00",
-  "AssociateFullName": "Luther Donnelly",
-  "CreatedBy": "aspernatur",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "eveniet",
-  "ForeignAppId": 358,
+  "ForeignDeviceId": 533,
+  "Name": "Bednar-Gutmann",
+  "CreatedDate": "2017-04-09T04:02:01.8003604+02:00",
+  "UpdatedDate": "2013-04-19T04:02:01.8003604+02:00",
+  "AssociateFullName": "Melany Molly Flatley PhD",
+  "CreatedBy": "cum",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "repellendus",
+  "ForeignAppId": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

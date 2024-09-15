@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669,
-  "Name": "Kirlin, Kilback and Hodkiewicz",
-  "Tooltip": "repudiandae",
+  "Id": 212,
+  "Name": "Huels LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 649,
+  "Rank": 254,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "explicabo",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Wiza-Upton",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 518,
+  "Id": 230,
+  "Name": "Zboncak-Ritchie",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 353,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "ListType": "facilis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldLength": 937
     }
   }
 }

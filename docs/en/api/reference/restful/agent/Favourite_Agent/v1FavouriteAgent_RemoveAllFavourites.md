@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kreiger Group",
-  "AssociateId": 236
+  "TableName": "Schulist-Nolan",
+  "AssociateId": 425
 }
 ```
 

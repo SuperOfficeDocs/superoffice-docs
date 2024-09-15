@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 874
+  "ReplyTemplateId": 575
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fritsch, Herman and Baumbach",
-  "Description": "Mandatory real-time encoding",
-  "OwnedByFullName": "Javonte Rutherford",
-  "Updated": "2002-02-03T13:28:22.3823876+01:00",
-  "Body": "et",
-  "IsHtml": true,
+  "Name": "Hoeger-Spencer",
+  "Description": "Innovative transitional moratorium",
+  "OwnedByFullName": "Dr. Manuel Legros",
+  "Updated": "2004-03-14T04:02:01.5342579+01:00",
+  "Body": "est",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 629
     }
   }
 }

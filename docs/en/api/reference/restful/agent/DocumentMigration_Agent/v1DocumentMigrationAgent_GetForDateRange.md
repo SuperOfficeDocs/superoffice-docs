@@ -83,10 +83,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 710,
-  "MinDate": "2004-02-08T13:28:22.6167096+01:00",
-  "MaxDate": "2009-08-31T13:28:22.6167096+02:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 802,
+  "MinDate": "2007-07-04T04:02:01.6748777+02:00",
+  "MaxDate": "2020-11-21T04:02:01.6748777+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 881,
-  "NumDocumentsAlreadyMigrated": 605,
+  "NumDocumentsOmitted": 43,
+  "NumDocumentsAlreadyMigrated": 859,
   "Documents": [
     {
-      "DocumentId": 440,
-      "ContactId": 301,
-      "PersonId": 436,
-      "SaleId": 229,
-      "ProjectId": 114,
-      "DocTmplId": 195,
-      "AssociateId": 859,
-      "UserGroupId": 503,
-      "VisibleForId": 961
+      "DocumentId": 765,
+      "ContactId": 928,
+      "PersonId": 301,
+      "SaleId": 464,
+      "ProjectId": 710,
+      "DocTmplId": 832,
+      "AssociateId": 379,
+      "UserGroupId": 374,
+      "VisibleForId": 311
     }
   ],
   "Associates": [
     {
-      "AssociateId": 773,
-      "EmailAddress": "ricky.medhurst@reinger.biz"
+      "AssociateId": 464,
+      "EmailAddress": "zack@hills.ca"
     },
     {
-      "AssociateId": 773,
-      "EmailAddress": "ricky.medhurst@reinger.biz"
+      "AssociateId": 464,
+      "EmailAddress": "zack@hills.ca"
     }
   ]
 }

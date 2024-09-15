@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 895,
-  "Name": "Ferry, Frami and Ward",
-  "Tooltip": "ipsam",
+  "HeadingId": 212,
+  "Name": "Beatty-Kirlin",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 76,
-  "UdListDefinitionId": 786
+  "Rank": 462,
+  "UdListDefinitionId": 648
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 988,
-  "Name": "Torphy Inc and Sons",
-  "Tooltip": "id",
+  "HeadingId": 425,
+  "Name": "Bernier LLC",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 51,
-  "UdListDefinitionId": 329,
+  "Rank": 867,
+  "UdListDefinitionId": 882,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

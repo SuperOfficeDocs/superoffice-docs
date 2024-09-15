@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Hills-Sporer",
-    "Tooltip": "ea",
+    "Id": 716,
+    "Name": "Boehm-Dooley",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 799,
-    "Rank": 448
+    "UdListDefinitionId": 981,
+    "Rank": 778
   },
   {
-    "Id": 872,
-    "Name": "Hills-Sporer",
-    "Tooltip": "ea",
+    "Id": 716,
+    "Name": "Boehm-Dooley",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 799,
-    "Rank": 448
+    "UdListDefinitionId": 981,
+    "Rank": 778
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Dibbert-Grimes",
-    "Tooltip": "et",
+    "Id": 149,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 663,
-    "Rank": 339,
+    "UdListDefinitionId": 373,
+    "Rank": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldLength": 286
       }
     }
   }

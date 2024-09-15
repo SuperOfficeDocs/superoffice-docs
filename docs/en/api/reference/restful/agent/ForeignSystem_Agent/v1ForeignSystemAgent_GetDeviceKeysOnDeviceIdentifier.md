@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Armstrong, Wisoky and Thiel",
-  "DeviceName": "Connelly-Baumbach",
-  "DeviceIdentifier": "est"
+  "ApplicationName": "Kuvalis-Blanda",
+  "DeviceName": "Reichert-Koss",
+  "DeviceIdentifier": "corporis"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "error",
-    "Value": "qui",
-    "RecordId": 438,
-    "CreatedDate": "2000-11-25T13:28:22.866653+01:00",
-    "UpdatedDate": "2018-11-06T13:28:22.866653+01:00",
-    "UpdatedBy": "ipsam",
-    "CreatedBy": "id",
-    "TableName": "Carroll Inc and Sons",
+    "Key": "repudiandae",
+    "Value": "itaque",
+    "RecordId": 241,
+    "CreatedDate": "1998-03-01T04:02:01.8003604+01:00",
+    "UpdatedDate": "2006-08-30T04:02:01.8003604+02:00",
+    "UpdatedBy": "quidem",
+    "CreatedBy": "eos",
+    "TableName": "Powlowski Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 873
       }
     }
   }

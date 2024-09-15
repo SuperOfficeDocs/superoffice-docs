@@ -2,10 +2,10 @@
 uid: enum-ticketmessagecategory
 title: Enum values for TicketMessageCategory
 description: Lists the enum values for TicketMessageCategory.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TicketMessageCategory Enum

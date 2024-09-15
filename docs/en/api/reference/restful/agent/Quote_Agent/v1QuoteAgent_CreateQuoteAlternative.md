@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 226,
-  "QuoteAlternativeName": "Deckow, Stroman and Feest",
-  "QuoteAlternativeDescription": "Pre-emptive actuating superstructure"
+  "QuoteVersionId": 532,
+  "QuoteAlternativeName": "Wyman Group",
+  "QuoteAlternativeDescription": "Object-based scalable focus group"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 658,
-  "ERPQuoteAlternativeKey": "autem",
-  "QuoteVersionId": 214,
-  "Name": "Kautzer-Cummings",
-  "Description": "Phased national ability",
+  "QuoteAlternativeId": 903,
+  "ERPQuoteAlternativeKey": "veritatis",
+  "QuoteVersionId": 648,
+  "Name": "Turcotte, Hills and Schmitt",
+  "Description": "Organic real-time process improvement",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2851.94,
-  "ERPDiscountAmount": 9151.2799999999988,
-  "DiscountPercent": 2090.378,
-  "DiscountAmount": 15134.086,
+  "ERPDiscountPercent": 11138.235999999999,
+  "ERPDiscountAmount": 18735.052,
+  "DiscountPercent": 2322.294,
+  "DiscountAmount": 661.274,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 29870.154,
-  "EarningPercent": 29146.2,
-  "EarningAmount": 3115.196,
-  "SubTotal": 28604.018,
-  "TotalPrice": 16459.768,
-  "ExtraField1": "esse",
-  "ExtraField2": "in",
-  "ExtraField3": "laudantium",
-  "ExtraField4": "non",
-  "ExtraField5": "numquam",
+  "VATInfo": "quia",
+  "VAT": 15760.885999999999,
+  "EarningPercent": 642.47,
+  "EarningAmount": 27670.086,
+  "SubTotal": 266.39,
+  "TotalPrice": 20236.237999999998,
+  "ExtraField1": "dolor",
+  "ExtraField2": "explicabo",
+  "ExtraField3": "nihil",
+  "ExtraField4": "laboriosam",
+  "ExtraField5": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 808
     }
   }
 }

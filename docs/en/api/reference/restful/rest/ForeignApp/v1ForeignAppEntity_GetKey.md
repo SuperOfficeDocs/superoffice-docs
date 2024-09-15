@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 24 Jun 2024 13:28:31 G6T
+Last-Modified: Fri, 17 Jun 2005 04:02:06 G6T
 
 {
-  "Key": "ut",
-  "Value": "id",
-  "RecordId": 375,
-  "CreatedDate": "2022-04-14T13:28:31.6948645+02:00",
-  "UpdatedDate": "2024-06-24T13:28:31.6948645+02:00",
-  "UpdatedBy": "officia",
-  "CreatedBy": "consectetur",
-  "TableName": "Gulgowski, Klocko and Waters",
+  "Key": "sint",
+  "Value": "at",
+  "RecordId": 685,
+  "CreatedDate": "2017-12-11T04:02:06.6191478+01:00",
+  "UpdatedDate": "2005-06-17T04:02:06.6191478+02:00",
+  "UpdatedBy": "laudantium",
+  "CreatedBy": "velit",
+  "TableName": "Fritsch, Wiegand and Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

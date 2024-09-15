@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nicolas-Swift",
-  "AdditionalInfo": "atque",
+  "Name": "Satterfield Inc and Sons",
+  "AdditionalInfo": "consectetur",
   "SelectableMDOList": [
     {
-      "Id": 312,
-      "Name": "Johns-Huels",
-      "ToolTip": "Maiores ab.",
+      "Id": 283,
+      "Name": "Price Inc and Sons",
+      "ToolTip": "Reprehenderit animi nobis id rerum numquam delectus totam.",
       "Deleted": false,
-      "Rank": 987,
-      "Type": "impedit",
-      "ColorBlock": 619,
-      "IconHint": "et",
+      "Rank": 261,
+      "Type": "voluptatem",
+      "ColorBlock": 380,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2005-10-14T13:28:23.0699949+02:00",
+      "LastChanged": "2005-06-01T04:02:01.909728+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "perferendis",
-      "Hidden": true,
-      "FullName": "Miss Pattie Neil Pollich"
+      "ExtraInfo": "odit",
+      "StyleHint": "aspernatur",
+      "Hidden": false,
+      "FullName": "Miss Rafael Crist"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Turcotte Group",
-    "ToolTip": "Dolor voluptatibus nihil.",
-    "Deleted": true,
-    "Rank": 959,
-    "Type": "omnis",
-    "ColorBlock": 775,
-    "IconHint": "recusandae",
+    "Id": 171,
+    "Name": "Cormier-Barton",
+    "ToolTip": "At ut explicabo quos mollitia a et pariatur.",
+    "Deleted": false,
+    "Rank": 456,
+    "Type": "accusamus",
+    "ColorBlock": 317,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2016-01-15T13:28:23.0699949+01:00",
+    "LastChanged": "2008-12-22T04:02:01.909728+01:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Lang Inc and Sons",
-        "ToolTip": "Aut rerum nesciunt adipisci iure.",
-        "Deleted": false,
-        "Rank": 601,
-        "Type": "dolorem",
-        "ColorBlock": 91,
-        "IconHint": "doloribus",
-        "Selected": false,
-        "LastChanged": "2012-07-22T13:28:23.0699949+02:00",
+        "Id": 38,
+        "Name": "Wolff-Cormier",
+        "ToolTip": "Culpa consequatur possimus accusantium.",
+        "Deleted": true,
+        "Rank": 517,
+        "Type": "ea",
+        "ColorBlock": 844,
+        "IconHint": "architecto",
+        "Selected": true,
+        "LastChanged": "2015-05-01T04:02:01.909728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "qui",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "totam",
         "Hidden": true,
-        "FullName": "Daniela Mia Sawayn IV",
+        "FullName": "Reva Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldType": "System.String",
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "nisi",
     "Hidden": true,
-    "FullName": "Mireille Schimmel",
+    "FullName": "Keaton Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

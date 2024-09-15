@@ -92,9 +92,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 825,
-  "CurrentAppointmentId": 927,
-  "SkipCompleteCheck": false
+  "SaleId": 888,
+  "CurrentAppointmentId": 669,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 999,
-  "Deleted": 65,
-  "DaysFuture": 994,
-  "Tooltip": "rerum",
-  "Text": "ut",
-  "TaskId": 389,
-  "SuggestedAppointmentId": 59,
-  "SaleTypeStageLinkId": 1002,
-  "RegisteredAssociateId": 706,
-  "Rank": 77,
-  "ProjectTypeStatusLinkId": 356,
-  "Name": "Hackett LLC",
-  "Duration": 586,
+  "AutoSuggest": 826,
+  "Deleted": 533,
+  "DaysFuture": 556,
+  "Tooltip": "vel",
+  "Text": "consectetur",
+  "TaskId": 285,
+  "SuggestedAppointmentId": 553,
+  "SaleTypeStageLinkId": 866,
+  "RegisteredAssociateId": 125,
+  "Rank": 965,
+  "ProjectTypeStatusLinkId": 763,
+  "Name": "Murazik-Romaguera",
+  "Duration": 890,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   }
 }

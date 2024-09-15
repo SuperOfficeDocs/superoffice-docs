@@ -2,10 +2,10 @@
 uid: table-s_bounce_shipment
 title: s_bounce_shipment table
 description: Email bounces from customers
-generated: true
+so.generated: true
 keywords: database table s_bounce_shipment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_bounce\_shipment Table (342)

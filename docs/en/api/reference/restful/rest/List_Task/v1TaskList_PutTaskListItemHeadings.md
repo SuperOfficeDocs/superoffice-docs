@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 550,
-    "Name": "Cartwright-Bartoletti",
-    "Tooltip": "exercitationem",
+    "HeadingId": 904,
+    "Name": "Krajcik Inc and Sons",
+    "Tooltip": "reprehenderit",
     "Deleted": true,
-    "Rank": 266,
-    "UdListDefinitionId": 876
+    "Rank": 187,
+    "UdListDefinitionId": 239
   },
   {
-    "HeadingId": 550,
-    "Name": "Cartwright-Bartoletti",
-    "Tooltip": "exercitationem",
+    "HeadingId": 904,
+    "Name": "Krajcik Inc and Sons",
+    "Tooltip": "reprehenderit",
     "Deleted": true,
-    "Rank": 266,
-    "UdListDefinitionId": 876
+    "Rank": 187,
+    "UdListDefinitionId": 239
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Fahey, Kovacek and Emard",
+    "HeadingId": 756,
+    "Name": "Dietrich LLC",
     "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 310,
-    "UdListDefinitionId": 7,
+    "Rank": 659,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

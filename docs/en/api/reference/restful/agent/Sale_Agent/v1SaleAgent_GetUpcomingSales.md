@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 792,
-  "Count": 393
+  "WeightedAmountLimit": 398,
+  "Count": 160
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Oberbrunner Group",
-    "SaleDate": "2011-05-20T13:28:23.6948543+02:00",
-    "SaleId": 100,
-    "Probability": 381,
-    "Title": "ratione",
-    "Amount": 28093.176,
-    "Currency": "reiciendis",
-    "ProjectName": "Zboncak Group",
-    "AssociateFullName": "Wilma Lang",
-    "Description": "Mandatory background model",
+    "ContactName": "Bartoletti-Gulgowski",
+    "SaleDate": "1998-09-30T04:02:02.28488+02:00",
+    "SaleId": 375,
+    "Probability": 137,
+    "Title": "quod",
+    "Amount": 19440.202,
+    "Currency": "velit",
+    "ProjectName": "Hodkiewicz Inc and Sons",
+    "AssociateFullName": "Emmitt Gerhard Haley II",
+    "Description": "Reduced actuating interface",
     "Status": "Lost",
-    "WeightedAmount": 4224.632,
-    "ProjectId": 303,
-    "EarningPercent": 16516.18,
-    "Earning": 28616.554,
-    "ContactId": 67,
-    "AssociateId": 882,
-    "PersonId": 709,
-    "SaleTypeId": 163,
-    "SaleTypeName": "Senger-Little",
-    "PersonFullName": "Joel Leuschke",
+    "WeightedAmount": 24018.976,
+    "ProjectId": 964,
+    "EarningPercent": 28011.692,
+    "Earning": 25360.327999999998,
+    "ContactId": 81,
+    "AssociateId": 268,
+    "PersonId": 520,
+    "SaleTypeId": 893,
+    "SaleTypeName": "Treutel-Johns",
+    "PersonFullName": "Mr. Kaela Cali Hills",
     "Completed": "Completed",
-    "ActiveErpLinks": 876,
-    "NextDueDate": "2007-05-09T13:28:23.6948543+02:00",
-    "Number": "418918",
+    "ActiveErpLinks": 497,
+    "NextDueDate": "2017-05-12T04:02:02.28488+02:00",
+    "Number": "199430",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 4
       }
     }
   }

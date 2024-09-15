@@ -2,10 +2,10 @@
 uid: enum-temporarykeydomain
 title: Enum values for TemporaryKeyDomain
 description: Lists the enum values for TemporaryKeyDomain.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TemporaryKeyDomain Enum

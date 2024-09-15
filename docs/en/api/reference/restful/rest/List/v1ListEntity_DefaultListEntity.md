@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Lebsack, Fahey and Effertz",
-  "Tooltip": "facere",
+  "Id": 485,
+  "Name": "Pagac LLC",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 305,
+  "Rank": 800,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "ListType": "at",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

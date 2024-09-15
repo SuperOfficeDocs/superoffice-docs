@@ -2,10 +2,10 @@
 uid: table-cc_template
 title: cc_template table
 description: This table contains templates for the customer center
-generated: true
+so.generated: true
 keywords: database table cc_template
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # cc\_template Table (478)

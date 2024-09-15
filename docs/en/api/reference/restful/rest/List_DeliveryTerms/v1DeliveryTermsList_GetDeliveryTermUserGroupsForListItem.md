@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Zboncak LLC",
-    "ToolTip": "Voluptatem quia velit amet.",
+    "Id": 648,
+    "Name": "Hintz Group",
+    "ToolTip": "Facilis consectetur repudiandae temporibus ducimus.",
     "Deleted": false,
-    "Rank": 228,
-    "Type": "veniam",
-    "ColorBlock": 353,
-    "IconHint": "consequatur",
+    "Rank": 957,
+    "Type": "cum",
+    "ColorBlock": 117,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2014-07-17T13:28:32.8041174+02:00",
+    "LastChanged": "2010-07-05T04:02:07.2284604+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Ziemann-Bogan",
-        "ToolTip": "Ut in et expedita quia aliquid.",
+        "Id": 101,
+        "Name": "Metz, Goldner and Hirthe",
+        "ToolTip": "Autem nihil magni laudantium et et.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "illo",
-        "ColorBlock": 652,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2014-02-15T13:28:32.8041174+01:00",
+        "Rank": 734,
+        "Type": "possimus",
+        "ColorBlock": 322,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2020-02-29T04:02:07.2284604+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Mr. Lurline Jacobs",
+        "FullName": "Ms. Buford Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 265
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "minima",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Ova Stroman",
+    "FullName": "Frank Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 367
       }
     }
   }

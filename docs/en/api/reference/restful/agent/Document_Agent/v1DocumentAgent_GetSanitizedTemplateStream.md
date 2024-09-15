@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "O'Keefe-Blick",
-  "AllowPersonal": true,
-  "UiCulture": "pariatur"
+  "TemplateName": "Morar Inc and Sons",
+  "AllowPersonal": false,
+  "UiCulture": "velit"
 }
 ```
 

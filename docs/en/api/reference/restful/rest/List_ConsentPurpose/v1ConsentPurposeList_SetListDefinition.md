@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Strosin, Smith and Runte",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 822,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": false
+  "Id": 529,
+  "Name": "Erdman-Anderson",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 146,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "magnam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884,
-  "Name": "Hamill, Williamson and Schaefer",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 446,
-  "IsCustomList": true,
+  "Id": 945,
+  "Name": "Crist LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 715,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 73
     }
   }
 }

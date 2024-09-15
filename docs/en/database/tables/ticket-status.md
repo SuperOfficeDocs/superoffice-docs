@@ -2,10 +2,10 @@
 uid: table-ticket_status
 title: ticket_status table
 description: This table user defined ticket status values.
-generated: true
+so.generated: true
 keywords: database table ticket_status
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ticket\_status Table (263)

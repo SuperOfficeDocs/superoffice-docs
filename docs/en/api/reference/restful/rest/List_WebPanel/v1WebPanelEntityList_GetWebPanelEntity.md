@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 507,
-  "Name": "Harris Group",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "Rank": 719,
+  "WebPanelId": 391,
+  "Name": "Lemke-Zboncak",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 114,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Nicolas-Brakus",
+  "WindowName": "Raynor, Carter and Lynch",
   "Url": "http://www.example.com/",
-  "ProgId": "tempora",
-  "Icon": 196,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "pariatur",
+  "Icon": 799,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 871
     }
   }
 }

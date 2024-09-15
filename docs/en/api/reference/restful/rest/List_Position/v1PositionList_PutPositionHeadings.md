@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 606,
-    "Name": "Mraz Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 384,
+    "Name": "Goodwin, Witting and Langworth",
+    "Tooltip": "velit",
     "Deleted": true,
-    "Rank": 721,
-    "UdListDefinitionId": 350
+    "Rank": 947,
+    "UdListDefinitionId": 958
   },
   {
-    "HeadingId": 606,
-    "Name": "Mraz Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 384,
+    "Name": "Goodwin, Witting and Langworth",
+    "Tooltip": "velit",
     "Deleted": true,
-    "Rank": 721,
-    "UdListDefinitionId": 350
+    "Rank": 947,
+    "UdListDefinitionId": 958
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Sporer Group",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "Rank": 980,
-    "UdListDefinitionId": 249,
+    "HeadingId": 802,
+    "Name": "McKenzie LLC",
+    "Tooltip": "ducimus",
+    "Deleted": true,
+    "Rank": 656,
+    "UdListDefinitionId": 957,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 176
       }
     }
   }

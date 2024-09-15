@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Paucek, Abernathy and Armstrong",
-    "ToolTip": "Natus et dolorem dolore sed ullam aliquid unde.",
-    "Deleted": false,
-    "Rank": 497,
-    "Type": "accusamus",
-    "ColorBlock": 241,
-    "IconHint": "qui",
+    "Id": 405,
+    "Name": "Renner Group",
+    "ToolTip": "Aliquid sunt dolores qui quia.",
+    "Deleted": true,
+    "Rank": 257,
+    "Type": "enim",
+    "ColorBlock": 89,
+    "IconHint": "quae",
     "Selected": true,
-    "LastChanged": "2018-09-05T13:28:32.6479022+02:00",
+    "LastChanged": "2023-11-22T04:02:07.0566019+01:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Heaney-Hilpert",
-        "ToolTip": "Nam vel deleniti et ea.",
+        "Id": 535,
+        "Name": "Farrell Inc and Sons",
+        "ToolTip": "Labore ipsam velit blanditiis ut consequatur et aliquam.",
         "Deleted": false,
-        "Rank": 882,
-        "Type": "dolor",
-        "ColorBlock": 197,
-        "IconHint": "inventore",
+        "Rank": 156,
+        "Type": "sunt",
+        "ColorBlock": 456,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2012-09-18T13:28:32.6479022+02:00",
+        "LastChanged": "2012-10-18T04:02:07.0566019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Ms. Arnold Eleanore Effertz IV"
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Abner Gleason"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "alias",
-    "Hidden": true,
-    "FullName": "Magdalen Grimes"
+    "ExtraInfo": "aut",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Jeramie Wiza"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Beier LLC",
-    "ToolTip": "Nobis ipsam labore facilis.",
+    "Id": 705,
+    "Name": "Wilderman Group",
+    "ToolTip": "Aperiam laborum id qui.",
     "Deleted": false,
-    "Rank": 532,
-    "Type": "nihil",
-    "ColorBlock": 118,
-    "IconHint": "aspernatur",
+    "Rank": 565,
+    "Type": "est",
+    "ColorBlock": 478,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-07-28T13:28:32.6479022+02:00",
+    "LastChanged": "2011-08-11T04:02:07.0566019+02:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "McCullough, Koelpin and VonRueden",
-        "ToolTip": "Officiis quibusdam enim rerum ab.",
+        "Id": 388,
+        "Name": "Wisoky-Bins",
+        "ToolTip": "Sit eligendi error hic ipsum voluptatum.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "et",
-        "ColorBlock": 553,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2010-04-11T13:28:32.6479022+02:00",
+        "Rank": 904,
+        "Type": "a",
+        "ColorBlock": 999,
+        "IconHint": "at",
+        "Selected": false,
+        "LastChanged": "1998-04-22T04:02:07.0566019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "fuga",
+        "ExtraInfo": "sunt",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Teagan McDermott",
+        "FullName": "Dr. Torrance Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldLength": 349
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Markus Erdman",
+    "ExtraInfo": "omnis",
+    "StyleHint": "unde",
+    "Hidden": true,
+    "FullName": "Mr. Julian Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

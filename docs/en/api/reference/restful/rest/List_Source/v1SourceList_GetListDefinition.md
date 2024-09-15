@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Conn, Klein and Smith",
-  "Tooltip": "eligendi",
+  "Id": 441,
+  "Name": "Stokes, Homenick and Spencer",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 953,
+  "Rank": 97,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "ListType": "quod",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

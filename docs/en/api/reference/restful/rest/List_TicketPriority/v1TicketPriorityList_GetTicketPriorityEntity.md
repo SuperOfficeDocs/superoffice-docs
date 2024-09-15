@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 987,
-  "Name": "Metz-Dietrich",
+  "TicketPriorityId": 999,
+  "Name": "Bergstrom Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 605,
+  "SortOrder": 165,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 898,
-  "MonStart": "2000-10-26T13:28:33.2263448+02:00",
-  "MonStop": "2004-10-23T13:28:33.2263448+02:00",
-  "TueStart": "2006-06-05T13:28:33.2263448+02:00",
-  "TueStop": "2016-12-31T13:28:33.2263448+01:00",
-  "WedStart": "2011-02-01T13:28:33.2263448+01:00",
-  "WedStop": "2019-12-24T13:28:33.2263448+01:00",
-  "ThuStart": "2010-11-06T13:28:33.2263448+01:00",
-  "ThuStop": "2011-11-15T13:28:33.2263448+01:00",
-  "FriStart": "2006-01-21T13:28:33.2263448+01:00",
-  "FriStop": "2017-02-02T13:28:33.2263448+01:00",
-  "SatStart": "2012-08-11T13:28:33.2263448+02:00",
-  "SatStop": "2001-04-01T13:28:33.2263448+02:00",
-  "SunStart": "2019-07-07T13:28:33.2263448+02:00",
-  "SunStop": "2011-02-06T13:28:33.2263448+01:00",
+  "Deadline": 127,
+  "MonStart": "1997-05-06T04:02:07.447468+02:00",
+  "MonStop": "2008-05-02T04:02:07.447468+02:00",
+  "TueStart": "2004-02-10T04:02:07.447468+01:00",
+  "TueStop": "2013-08-31T04:02:07.447468+02:00",
+  "WedStart": "2001-12-25T04:02:07.447468+01:00",
+  "WedStop": "2005-03-18T04:02:07.447468+01:00",
+  "ThuStart": "2013-12-28T04:02:07.447468+01:00",
+  "ThuStop": "2017-10-24T04:02:07.447468+02:00",
+  "FriStart": "2003-06-27T04:02:07.447468+02:00",
+  "FriStop": "2016-08-28T04:02:07.447468+02:00",
+  "SatStart": "2002-12-16T04:02:07.447468+01:00",
+  "SatStop": "2014-11-29T04:02:07.447468+01:00",
+  "SunStart": "2001-12-01T04:02:07.447468+01:00",
+  "SunStop": "1998-08-07T04:02:07.447468+02:00",
   "NonDates": [
-    "laboriosam",
-    "in"
+    "sint",
+    "atque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 782,
-      "AlertLevel": 924,
-      "AlertTimeout": 473,
-      "Action": 171,
-      "DelegateTo": 772,
-      "ScriptId": 229,
-      "EmailTo": "judd@mcclure.info",
-      "SmsTo": "omnis",
-      "ReplyTemplateIdCustomer": 255,
-      "ReplyTemplateIdUser": 714,
-      "ReplyTemplateIdCatmast": 665,
-      "ReplyTemplateIdEmail": 638,
-      "RtiCustomerSms": 325,
-      "ReplyTemplateIdUserSms": 421,
-      "ReplyTemplateIdCatmastSms": 165,
-      "ReplyTemplateIdSms": 66,
+      "TicketAlertId": 407,
+      "AlertLevel": 209,
+      "AlertTimeout": 466,
+      "Action": 708,
+      "DelegateTo": 561,
+      "ScriptId": 172,
+      "EmailTo": "marcelo@olsondurgan.us",
+      "SmsTo": "quo",
+      "ReplyTemplateIdCustomer": 878,
+      "ReplyTemplateIdUser": 384,
+      "ReplyTemplateIdCatmast": 30,
+      "ReplyTemplateIdEmail": 120,
+      "RtiCustomerSms": 798,
+      "ReplyTemplateIdUserSms": 919,
+      "ReplyTemplateIdCatmastSms": 342,
+      "ReplyTemplateIdSms": 111,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 806
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 378
     }
   }
 }

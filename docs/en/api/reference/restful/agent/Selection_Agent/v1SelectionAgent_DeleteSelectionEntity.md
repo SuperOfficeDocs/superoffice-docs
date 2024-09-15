@@ -25,7 +25,7 @@ Deletes the SelectionEntity
 | SelectionEntityId | int32 | **Required** The id of the SelectionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=365
+POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=362
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Selection/DeleteSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

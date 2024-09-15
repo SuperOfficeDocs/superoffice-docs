@@ -2,10 +2,10 @@
 uid: table-kb_entry_log
 title: kb_entry_log table
 description: Who and when, if somebody edits a knowledge base entry
-generated: true
+so.generated: true
 keywords: database table kb_entry_log
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_entry\_log Table (290)

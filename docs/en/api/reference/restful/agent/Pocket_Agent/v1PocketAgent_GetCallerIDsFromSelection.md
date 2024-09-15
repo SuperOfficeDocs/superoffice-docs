@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 160,
-  "LastHash": "ut"
+  "SelectionId": 74,
+  "LastHash": "et"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "ab",
+  "CallerIDHash": "et",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 635,
-      "PersonId": 927,
-      "PersonName": "Krajcik Inc and Sons",
-      "Mrmrs": "velit",
-      "ContactId": 735,
-      "ContactName": "Considine LLC"
+      "DialInPrefix": 68,
+      "PersonId": 517,
+      "PersonName": "Corwin, Heaney and Littel",
+      "Mrmrs": "dolores",
+      "ContactId": 155,
+      "ContactName": "Ryan, Ebert and Reilly"
     }
   ]
 }

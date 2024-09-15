@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 845,
-    "Name": "Johnson-Friesen",
-    "Tooltip": "ea",
+    "WebPanelId": 40,
+    "Name": "Roberts-Nicolas",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 925,
+    "Rank": 797,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Morissette Inc and Sons",
+    "ShowInStatusBar": false,
+    "WindowName": "Wiegand, Nader and Swift",
     "Url": "http://www.example.com/",
-    "ProgId": "eos",
-    "Icon": 906,
+    "ProgId": "aspernatur",
+    "Icon": 392,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 71
       }
     }
   }

@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 918,
-  "Name": "Sporer-Kertzmann",
-  "Tooltip": "quia",
-  "Rank": 256,
-  "Rate": 5923.26,
-  "Units": 7769.186,
-  "Deleted": false,
+  "CurrencyId": 907,
+  "Name": "Torphy Inc and Sons",
+  "Tooltip": "distinctio",
+  "Rank": 452,
+  "Rate": 22395.564,
+  "Units": 14958.582,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

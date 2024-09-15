@@ -2,10 +2,10 @@
 uid: table-user_attribute
 title: user_attribute table
 description: This table is used for storing various attributes for users.
-generated: true
+so.generated: true
 keywords: database table user_attribute
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # user\_attribute Table (403)

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 698,
-    "Name": "Roberts, Kohler and Schmeler",
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "Rank": 684,
-    "UdListDefinitionId": 489,
+    "HeadingId": 19,
+    "Name": "Powlowski, Parisian and Purdy",
+    "Tooltip": "magnam",
+    "Deleted": true,
+    "Rank": 690,
+    "UdListDefinitionId": 103,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 560
       }
     }
   }

@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 174,
-  "CrmRecordId": 597,
+  "ErpConnectionId": 82,
+  "CrmRecordId": 323,
   "CrmActorType": "Contact",
-  "ErpKey": "fugiat",
+  "ErpKey": "labore",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Gaylord Inc and Sons",
-      "CrmFieldKey": "et",
-      "Value": "ut",
-      "DisplayValue": "et",
+      "DisplayName": "Bahringer-Jacobi",
+      "CrmFieldKey": "ducimus",
+      "Value": "ullam",
+      "DisplayValue": "debitis",
       "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Gaylord Inc and Sons",
-      "CrmFieldKey": "et",
-      "Value": "ut",
-      "DisplayValue": "et",
+      "DisplayName": "Bahringer-Jacobi",
+      "CrmFieldKey": "ducimus",
+      "Value": "ullam",
+      "DisplayValue": "debitis",
       "SyncToCrm": true,
       "SyncToErp": false
     }

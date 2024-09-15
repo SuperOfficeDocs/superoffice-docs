@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Mayert Group",
-    "ToolTip": "Sunt natus autem ab laborum unde.",
-    "Deleted": false,
-    "Rank": 167,
-    "Type": "ullam",
-    "ColorBlock": 746,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2005-01-24T13:28:33.0228222+01:00",
+    "Id": 743,
+    "Name": "Aufderhar, Goldner and D'Amore",
+    "ToolTip": "Nihil omnis sapiente iure dolorem laboriosam.",
+    "Deleted": true,
+    "Rank": 482,
+    "Type": "nisi",
+    "ColorBlock": 195,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2012-03-25T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Sanford LLC",
-        "ToolTip": "Quis temporibus unde.",
-        "Deleted": false,
-        "Rank": 510,
-        "Type": "animi",
-        "ColorBlock": 669,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2005-04-04T13:28:33.0228222+02:00",
+        "Id": 425,
+        "Name": "Hahn Inc and Sons",
+        "ToolTip": "Architecto autem.",
+        "Deleted": true,
+        "Rank": 610,
+        "Type": "qui",
+        "ColorBlock": 642,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2000-11-24T04:02:07.3534465+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "a",
-        "StyleHint": "cum",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Heather Williamson"
+        "FullName": "Marcel Sienna Heidenreich Jr."
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Carrie Ebert"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Prof. Kenyatta Gerhold MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Runolfsdottir, Ziemann and Lowe",
-    "ToolTip": "Est quasi aut.",
-    "Deleted": false,
-    "Rank": 615,
-    "Type": "vitae",
-    "ColorBlock": 272,
-    "IconHint": "vel",
+    "Id": 853,
+    "Name": "Kreiger, Bailey and Macejkovic",
+    "ToolTip": "Autem cum id optio rerum qui.",
+    "Deleted": true,
+    "Rank": 639,
+    "Type": "facere",
+    "ColorBlock": 771,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2002-11-05T13:28:33.0384399+01:00",
+    "LastChanged": "2024-07-11T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Hettinger, Kirlin and Wolf",
-        "ToolTip": "Excepturi consequatur cupiditate.",
+        "Id": 833,
+        "Name": "Oberbrunner Inc and Sons",
+        "ToolTip": "Velit nesciunt consequatur.",
         "Deleted": false,
-        "Rank": 822,
-        "Type": "et",
-        "ColorBlock": 144,
-        "IconHint": "asperiores",
+        "Rank": 415,
+        "Type": "deleniti",
+        "ColorBlock": 206,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2023-08-24T13:28:33.0384399+02:00",
+        "LastChanged": "2007-03-02T04:02:07.3534465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
+        "ExtraInfo": "in",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Lewis Kilback",
+        "FullName": "Mr. Sonia Ara Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Mr. Agustina Wolf",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Flo Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

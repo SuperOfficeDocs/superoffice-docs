@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 891,
-  "Name": "Schulist-McCullough",
-  "Tooltip": "consequuntur",
-  "Rank": 79,
-  "Key": "itaque",
-  "Deleted": true,
+  "LegalBaseId": 307,
+  "Name": "Goodwin-Mayert",
+  "Tooltip": "accusamus",
+  "Rank": 442,
+  "Key": "dolorem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 587,
-  "ERPPriceListKey": "explicabo",
-  "QuoteConnectionId": 670,
-  "Name": "Carroll Group",
-  "Description": "Right-sized intermediate help-desk",
-  "Currency": "voluptatem",
-  "CurrencyName": "Runolfsdottir LLC",
-  "ValidFrom": "2010-01-26T13:28:23.5386436+01:00",
-  "ValidTo": "2003-01-08T13:28:23.5386436+01:00",
-  "IsActive": true
+  "PriceListId": 695,
+  "ERPPriceListKey": "maiores",
+  "QuoteConnectionId": 993,
+  "Name": "Boyle-Friesen",
+  "Description": "Devolved zero administration challenge",
+  "Currency": "id",
+  "CurrencyName": "Schulist, Kohler and Morar",
+  "ValidFrom": "2008-08-22T04:02:02.1909603+02:00",
+  "ValidTo": "1997-12-12T04:02:02.1909603+01:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 451,
-  "ERPPriceListKey": "voluptatibus",
-  "QuoteConnectionId": 674,
-  "Name": "Bogan, Bogisich and Schulist",
-  "Description": "Organic motivating solution",
-  "Currency": "eius",
-  "CurrencyName": "Greenfelder, Cummerata and Johnson",
-  "ValidFrom": "2009-02-25T13:28:23.5386436+01:00",
-  "ValidTo": "2015-10-05T13:28:23.5386436+02:00",
-  "IsActive": false,
+  "PriceListId": 304,
+  "ERPPriceListKey": "saepe",
+  "QuoteConnectionId": 434,
+  "Name": "Armstrong, Pacocha and Jewess",
+  "Description": "Visionary tangible instruction set",
+  "Currency": "tempore",
+  "CurrencyName": "Paucek, Bauch and Waters",
+  "ValidFrom": "2009-12-05T04:02:02.1909603+01:00",
+  "ValidTo": "2016-02-10T04:02:02.1909603+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 389
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   }
 }

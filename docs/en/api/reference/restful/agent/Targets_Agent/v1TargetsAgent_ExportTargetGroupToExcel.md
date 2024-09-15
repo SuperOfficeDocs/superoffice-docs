@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 142
+  "TargetGroupId": 473
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 782,
-  "FileName": "Murray, Barrows and Ratke",
-  "Message": "ea",
+  "BatchTaskId": 991,
+  "FileName": "Koss Inc and Sons",
+  "Message": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

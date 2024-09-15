@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "UdListDefinitionId": 390
+  "Id": 415,
+  "UdListDefinitionId": 259
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "UdListDefinitionId": 929,
-  "Rank": 325,
+  "Id": 825,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 989,
+  "Rank": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 634
     }
   }
 }

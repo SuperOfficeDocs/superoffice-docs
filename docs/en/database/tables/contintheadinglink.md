@@ -2,10 +2,10 @@
 uid: table-ContIntHeadingLink
 title: ContIntHeadingLink table
 description: Heading link table for ContInt, for MDO headers
-generated: true
+so.generated: true
 keywords: database table ContIntHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ContIntHeadingLink Table (72)

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 237,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "excepturi",
+    "HeadingId": 207,
+    "Name": "Heaney Group",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 543,
-    "UdListDefinitionId": 782
+    "Rank": 901,
+    "UdListDefinitionId": 50
   },
   {
-    "HeadingId": 237,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "excepturi",
+    "HeadingId": 207,
+    "Name": "Heaney Group",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 543,
-    "UdListDefinitionId": 782
+    "Rank": 901,
+    "UdListDefinitionId": 50
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 135,
-    "Name": "Goodwin Group",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 778,
-    "UdListDefinitionId": 1002,
+    "HeadingId": 457,
+    "Name": "Berge Inc and Sons",
+    "Tooltip": "alias",
+    "Deleted": false,
+    "Rank": 848,
+    "UdListDefinitionId": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

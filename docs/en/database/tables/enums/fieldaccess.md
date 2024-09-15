@@ -2,10 +2,10 @@
 uid: enum-fieldaccess
 title: Enum values for FieldAccess
 description: Lists the enum values for FieldAccess.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # FieldAccess Enum

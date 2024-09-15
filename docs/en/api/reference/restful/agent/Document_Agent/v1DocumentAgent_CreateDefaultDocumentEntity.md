@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 815,
+  "DocumentId": 229,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eius",
-  "Header": "assumenda",
-  "Name": "Rempel-Stokes",
-  "OurRef": "adipisci",
-  "YourRef": "nesciunt",
-  "CreatedDate": "2002-05-24T13:28:22.4917393+02:00",
-  "UpdatedDate": "2000-06-03T13:28:22.4917393+02:00",
-  "Description": "Decentralized value-added workforce",
+  "Attention": "unde",
+  "Header": "dolores",
+  "Name": "Schulist, Orn and Deckow",
+  "OurRef": "fugiat",
+  "YourRef": "sint",
+  "CreatedDate": "2020-01-20T04:02:01.5968663+01:00",
+  "UpdatedDate": "2000-10-03T04:02:01.5968663+02:00",
+  "Description": "Business-focused client-driven task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-10-05T13:28:22.4917393+02:00",
-  "ExternalRef": "eveniet",
+  "Date": "2001-02-11T04:02:01.5973757+01:00",
+  "ExternalRef": "esse",
   "Completed": "Completed",
-  "ActiveLinks": 771,
+  "ActiveLinks": 439,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Buckridge, Schimmel and Mayert",
-      "Id": 660,
-      "Description": "Implemented contextually-based info-mediaries",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 229,
+      "EntityName": "Thiel-Thiel",
+      "Id": 581,
+      "Description": "Intuitive methodical ability",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 497,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 906
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 397,
-  "Snum": 973,
+  "SuggestedDocumentId": 906,
+  "Snum": 114,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dustin Ortiz"
+    "SuperOffice:1": "Bernhard Littel I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "est",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2008-03-15T13:28:22.4917393+01:00",
-  "PublishTo": "2012-05-05T13:28:22.4917393+02:00",
-  "PublishFrom": "1997-05-17T13:28:22.4917393+02:00",
+  "PublishEventDate": "1999-01-16T04:02:01.5973757+01:00",
+  "PublishTo": "2006-06-20T04:02:01.5973757+02:00",
+  "PublishFrom": "2015-08-18T04:02:01.5973757+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 617,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     },
     {
-      "VisibleId": 617,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldType": "System.Int32",
+      "FieldLength": 736
     }
   }
 }

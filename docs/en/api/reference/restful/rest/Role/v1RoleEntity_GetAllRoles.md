@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Collier, Emard and Bahringer",
-    "ToolTip": "Eos voluptates minus.",
-    "Deleted": true,
-    "Rank": 531,
-    "Type": "labore",
-    "ColorBlock": 401,
-    "IconHint": "est",
+    "Id": 665,
+    "Name": "Hintz, Sawayn and Johnston",
+    "ToolTip": "Et aut dolores ipsam.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "numquam",
+    "ColorBlock": 264,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2016-12-22T13:28:31.9135636+01:00",
+    "LastChanged": "2021-06-24T04:02:06.7441349+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Farrell, Bauch and King",
-        "ToolTip": "Voluptatem fugiat corporis sunt et enim consequatur.",
-        "Deleted": false,
-        "Rank": 18,
-        "Type": "consequatur",
-        "ColorBlock": 132,
-        "IconHint": "ipsum",
+        "Id": 602,
+        "Name": "Roberts Group",
+        "ToolTip": "Dolore optio.",
+        "Deleted": true,
+        "Rank": 17,
+        "Type": "omnis",
+        "ColorBlock": 624,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2016-05-21T13:28:31.9135636+02:00",
+        "LastChanged": "2003-04-10T04:02:06.7441349+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "rerum",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Triston Fritsch",
+        "FullName": "Malinda Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldType": "System.String",
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "est",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Claire Raynor",
+    "FullName": "Mr. Earnest Oral Krajcik II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldLength": 857
       }
     }
   }

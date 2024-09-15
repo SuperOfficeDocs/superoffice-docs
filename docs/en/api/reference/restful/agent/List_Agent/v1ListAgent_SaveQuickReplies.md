@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/List/SaveQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 35,
-      "Name": "Beer Group",
-      "HtmlBody": "culpa"
+      "QuickReplyId": 651,
+      "Name": "Halvorson Group",
+      "HtmlBody": "cumque"
     },
     {
-      "QuickReplyId": 35,
-      "Name": "Beer Group",
-      "HtmlBody": "culpa"
+      "QuickReplyId": 651,
+      "Name": "Halvorson Group",
+      "HtmlBody": "cumque"
     }
   ]
 }

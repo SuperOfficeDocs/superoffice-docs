@@ -673,6 +673,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/description|string|Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -726,7 +728,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/associateId,documentInstance/person/restrictionAddress/line2,documentInstance/person/personExtra/x_person_boolean,documentInstance/person/correspondingAssociate/ejUserId,documentInstance/contact/contactUdef/SuperOffice:10
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/birthdate,documentInstance/sale/associate/ejDisplayName,documentInstance/person/correspondingAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

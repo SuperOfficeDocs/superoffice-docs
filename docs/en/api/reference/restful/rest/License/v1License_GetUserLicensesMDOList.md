@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Jacobson-Klein",
-    "ToolTip": "Sint beatae maxime aut non necessitatibus nulla.",
-    "Deleted": false,
-    "Rank": 61,
-    "Type": "modi",
-    "ColorBlock": 454,
-    "IconHint": "eligendi",
+    "Id": 522,
+    "Name": "Schamberger-Terry",
+    "ToolTip": "Sit consectetur perspiciatis sed.",
+    "Deleted": true,
+    "Rank": 269,
+    "Type": "alias",
+    "ColorBlock": 166,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2012-07-09T13:28:32.476067+02:00",
+    "LastChanged": "2013-05-04T04:02:06.9628618+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Pfannerstill, Wisoky and Champlin",
-        "ToolTip": "Iure ipsam qui ratione optio illo ab et.",
-        "Deleted": false,
-        "Rank": 295,
+        "Id": 135,
+        "Name": "Koch-Ebert",
+        "ToolTip": "Amet non cum illo et eveniet incidunt unde.",
+        "Deleted": true,
+        "Rank": 165,
         "Type": "vel",
-        "ColorBlock": 221,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2006-07-30T13:28:32.476067+02:00",
+        "ColorBlock": 340,
+        "IconHint": "cumque",
+        "Selected": false,
+        "LastChanged": "2001-09-29T04:02:06.9628618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Mateo Breitenberg",
+        "ExtraInfo": "et",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Jazmin Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 998
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Shawna Johns",
+    "ExtraInfo": "vel",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Payton Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 85
       }
     }
   }

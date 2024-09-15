@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66
+  "Id": 275
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 936,
-  "Rank": 790,
-  "DefaultTask": 470,
-  "DefaultTaskText": "rerum",
+  "OwnerTable": 756,
+  "Rank": 639,
+  "DefaultTask": 898,
+  "DefaultTaskText": "qui",
   "IsVisual": true,
-  "LastGenerated": "2009-03-22T13:28:23.6167457+01:00",
-  "Description": "Cross-platform systematic help-desk",
-  "Name": "Wintheiser-Satterfield",
-  "StatusMonitorId": 808,
-  "PictureId": 905,
+  "LastGenerated": "2013-08-22T04:02:02.2378308+02:00",
+  "Description": "Face to face holistic standardization",
+  "Name": "Gutmann Inc and Sons",
+  "StatusMonitorId": 311,
+  "PictureId": 570,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 255,
-  "NumNeedUpdate": 654,
-  "GenerationStart": "2009-06-19T13:28:23.6167457+02:00",
+  "Deleted": false,
+  "NumMatches": 655,
+  "NumNeedUpdate": 157,
+  "GenerationStart": "2010-04-06T04:02:02.2378308+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

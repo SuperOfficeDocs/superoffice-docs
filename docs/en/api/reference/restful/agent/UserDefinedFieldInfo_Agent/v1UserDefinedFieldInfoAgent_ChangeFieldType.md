@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 567,
-  "ColumnId": 366,
-  "FieldDefault": "mollitia",
-  "FieldHeight": 241,
-  "FieldLabel": "optio",
-  "FieldLeft": 573,
-  "FieldTop": 438,
+  "UDefFieldId": 753,
+  "ColumnId": 220,
+  "FieldDefault": "optio",
+  "FieldHeight": 858,
+  "FieldLabel": "ducimus",
+  "FieldLeft": 384,
+  "FieldTop": 23,
   "FieldType": "Checkbox",
-  "FieldWidth": 900,
-  "FormatMask": "est",
-  "HideLabel": false,
+  "FieldWidth": 812,
+  "FormatMask": "illo",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 871,
-  "LabelLeft": 111,
-  "LabelTop": 525,
-  "LabelWidth": 465,
-  "LastVersionId": 261,
-  "ListTableId": 931,
+  "LabelHeight": 542,
+  "LabelLeft": 98,
+  "LabelTop": 798,
+  "LabelWidth": 983,
+  "LastVersionId": 461,
+  "ListTableId": 67,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 702,
-  "ProgId": "eveniet",
+  "Page1LineNo": 969,
+  "ProgId": "nemo",
   "IsReadOnly": false,
-  "ShortLabel": "enim",
-  "TabOrder": 20,
-  "TextLength": 274,
-  "Tooltip": "quo",
-  "UdefIdentity": 680,
-  "UDListDefinitionId": 979,
+  "ShortLabel": "occaecati",
+  "TabOrder": 698,
+  "TextLength": 629,
+  "Tooltip": "eum",
+  "UdefIdentity": 2,
+  "UDListDefinitionId": 133,
   "Justification": "Center",
-  "Version": 724,
-  "TemplateVariableName": "Von Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Hoeger, Swift and Huels",
+  "Version": 986,
+  "TemplateVariableName": "Heidenreich Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Gorczany, Trantow and Mraz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

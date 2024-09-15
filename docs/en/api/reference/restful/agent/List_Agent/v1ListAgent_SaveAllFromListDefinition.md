@@ -83,23 +83,23 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 789,
+  "UdListDefinitionId": 255,
   "Items": [
     {
-      "Id": 373,
-      "Name": "Stark-Paucek",
-      "Tooltip": "ut",
-      "Deleted": true,
-      "UdListDefinitionId": 841,
-      "Rank": 963
+      "Id": 142,
+      "Name": "Pfannerstill, Baumbach and Heaney",
+      "Tooltip": "sed",
+      "Deleted": false,
+      "UdListDefinitionId": 68,
+      "Rank": 791
     },
     {
-      "Id": 373,
-      "Name": "Stark-Paucek",
-      "Tooltip": "ut",
-      "Deleted": true,
-      "UdListDefinitionId": 841,
-      "Rank": 963
+      "Id": 142,
+      "Name": "Pfannerstill, Baumbach and Heaney",
+      "Tooltip": "sed",
+      "Deleted": false,
+      "UdListDefinitionId": 68,
+      "Rank": 791
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Kulas-Reichel",
-    "Tooltip": "eaque",
-    "Deleted": false,
-    "UdListDefinitionId": 969,
-    "Rank": 970,
+    "Id": 386,
+    "Name": "Huel Group",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "UdListDefinitionId": 595,
+    "Rank": 760,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

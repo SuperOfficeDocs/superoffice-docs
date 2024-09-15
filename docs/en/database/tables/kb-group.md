@@ -2,10 +2,10 @@
 uid: table-kb_group
 title: kb_group table
 description: This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category.
-generated: true
+so.generated: true
 keywords: database table kb_group
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_group Table (286)

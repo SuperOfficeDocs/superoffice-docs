@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 296,
-  "Name": "Rath Inc and Sons",
+  "TicketStatusId": 919,
+  "Name": "Erdman, Effertz and Oberbrunner",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

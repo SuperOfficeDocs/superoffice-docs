@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "eius",
+  "Hostname": "numquam",
   "Paths": [
-    "error",
-    "perferendis"
+    "ad",
+    "quo"
   ]
 }
 ```

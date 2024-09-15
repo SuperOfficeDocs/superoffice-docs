@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=dicta
-GET /api/v1/Pricelist?$top=399
-GET /api/v1/Pricelist?$skip=527
+GET /api/v1/Pricelist?$entities=atque
+GET /api/v1/Pricelist?$top=448
+GET /api/v1/Pricelist?$skip=73
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=dolorem
+GET /api/v1/Pricelist?$context=velit
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=False
+GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "voluptas",
   "value": [
     {
-      "PrimaryKey": 2135,
+      "PrimaryKey": 3572,
       "EntityName": "sale",
-      "saleId": 2135,
-      "contactId": 1934,
-      "name": "Bernhard-Frami"
+      "saleId": 3572,
+      "contactId": 6430,
+      "name": "Hirthe-Rolfson"
     },
     {
-      "PrimaryKey": 7829,
+      "PrimaryKey": 6507,
       "EntityName": "sale",
-      "saleId": 7829,
-      "contactId": 9593,
-      "name": "Schinner-Lynch"
+      "saleId": 6507,
+      "contactId": 1911,
+      "name": "Schmitt LLC"
     }
   ]
 }

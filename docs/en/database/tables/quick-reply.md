@@ -2,10 +2,10 @@
 uid: table-quick_reply
 title: quick_reply table
 description: Personal quick reply text fragments
-generated: true
+so.generated: true
 keywords: database table quick_reply
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # quick\_reply Table (463)

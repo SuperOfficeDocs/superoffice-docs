@@ -74,18 +74,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "quis",
+  "Provider": "eaque",
   "Restrictions": [
     {
-      "Name": "Mueller-Goodwin",
-      "Operator": "sunt",
+      "Name": "Oberbrunner, Murray and Romaguera",
+      "Operator": "repellat",
       "Values": [
-        "vitae",
-        "repudiandae"
+        "quo",
+        "molestiae"
       ],
       "DisplayValues": [
-        "quis",
-        "voluptatem"
+        "incidunt",
+        "alias"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 488,
+      "InterParenthesis": 334,
       "InterOperator": "And",
-      "UniqueHash": 528
+      "UniqueHash": 329
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  897,
-  443
+  795,
+  329
 ]
 ```

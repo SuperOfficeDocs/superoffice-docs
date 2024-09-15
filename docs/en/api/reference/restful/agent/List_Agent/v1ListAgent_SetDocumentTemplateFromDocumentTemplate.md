@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 16,
+  "SourceDocumentTemplateId": 996,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 378,
-  "Name": "Mosciski LLC",
-  "Tooltip": "occaecati",
-  "SaveInDb": 213,
-  "Filename": "animi",
-  "DefaultOref": "mollitia",
+  "DocumentTemplateId": 205,
+  "Name": "Langworth, Bergstrom and Renner",
+  "Tooltip": "et",
+  "SaveInDb": 629,
+  "Filename": "et",
+  "DefaultOref": "reprehenderit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 555,
-  "IntentId": 221,
-  "IsDefaultPublished": true,
-  "Rank": 225,
-  "LoadTemplateFromPlugin": 977,
-  "MimeType": "qui",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 473,
+  "AutoeventId": 944,
+  "IntentId": 243,
+  "IsDefaultPublished": false,
+  "Rank": 290,
+  "LoadTemplateFromPlugin": 4,
+  "MimeType": "facere",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 723,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "adelia_morissette@bashirian.name",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "sophie@ryan.name",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "trevion@faybaumbach.ca",
+  "SenderEmailAddress": "beryl_turcotte@rice.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

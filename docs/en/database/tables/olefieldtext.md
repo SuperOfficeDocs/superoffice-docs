@@ -2,10 +2,10 @@
 uid: table-OLEFieldText
 title: OLEFieldText table
 description: Control data table for the OLE DB Provider
-generated: true
+so.generated: true
 keywords: database table OLEFieldText
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # OLEFieldText Table (166)

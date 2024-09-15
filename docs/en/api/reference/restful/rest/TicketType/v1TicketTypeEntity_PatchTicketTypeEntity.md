@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "impedit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "impedit",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 147,
-  "Name": "Simonis-Schroeder",
-  "Rank": 259,
-  "Tooltip": "veniam",
-  "Icon": "ut",
-  "DefaultTicketStatus": 847,
+  "TicketTypeId": 763,
+  "Name": "Collins-Gibson",
+  "Rank": 395,
+  "Tooltip": "quia",
+  "Icon": "necessitatibus",
+  "DefaultTicketStatus": 986,
   "TicketStatuses": [
-    970,
-    510
+    424,
+    302
   ],
-  "DefaultTicketPriority": 344,
+  "DefaultTicketPriority": 865,
   "TicketPriorities": [
-    73,
-    417
+    920,
+    399
   ],
-  "ReplyTemplate": 407,
+  "ReplyTemplate": 984,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    273,
-    816
+    210,
+    762
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldLength": 857
     }
   },
   "_Links": {

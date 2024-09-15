@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 896,
-  "SourcePersonId": 586,
-  "DestinationContactId": 125,
-  "DestinationPersonId": 602,
-  "RelationId": 274,
-  "Comment": "distinctio",
-  "RelationDefinitionId": 294,
-  "Reversed": 305,
-  "UpdatedDate": "2006-01-27T13:28:31.53865+01:00",
-  "CreatedDate": "2022-09-14T13:28:31.53865+02:00",
+  "SourceContactId": 538,
+  "SourcePersonId": 898,
+  "DestinationContactId": 899,
+  "DestinationPersonId": 385,
+  "RelationId": 762,
+  "Comment": "esse",
+  "RelationDefinitionId": 19,
+  "Reversed": 358,
+  "UpdatedDate": "1997-09-12T04:02:06.4472912+02:00",
+  "CreatedDate": "2000-03-08T04:02:06.4472912+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Blanda Inc and Sons",
-  "SourcePersonName": "Turcotte, Mayert and Larkin",
-  "DestinationContactName": "Glover Inc and Sons",
-  "DestinationPersonName": "Fahey-Buckridge",
-  "ActiveText": "sit",
-  "PassiveText": "et"
+  "SourceContactName": "Hamill Group",
+  "SourcePersonName": "Strosin, Zulauf and Quigley",
+  "DestinationContactName": "Wuckert LLC",
+  "DestinationPersonName": "Blick-Connelly",
+  "ActiveText": "quia",
+  "PassiveText": "quo"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 531,
-  "SourcePersonId": 350,
-  "DestinationContactId": 595,
-  "DestinationPersonId": 605,
-  "RelationId": 815,
-  "Comment": "nihil",
-  "RelationDefinitionId": 562,
-  "Reversed": 468,
-  "UpdatedDate": "2005-08-17T13:28:31.53865+02:00",
-  "CreatedDate": "2019-07-19T13:28:31.53865+02:00",
+  "SourceContactId": 885,
+  "SourcePersonId": 214,
+  "DestinationContactId": 257,
+  "DestinationPersonId": 893,
+  "RelationId": 653,
+  "Comment": "tempore",
+  "RelationDefinitionId": 440,
+  "Reversed": 238,
+  "UpdatedDate": "1997-10-28T04:02:06.4472912+01:00",
+  "CreatedDate": "2005-10-18T04:02:06.4472912+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Skiles Group",
-  "SourcePersonName": "Stanton Inc and Sons",
-  "DestinationContactName": "Gusikowski-Stehr",
-  "DestinationPersonName": "Hegmann LLC",
-  "ActiveText": "dolorum",
-  "PassiveText": "rerum",
+  "SourceContactName": "Cremin LLC",
+  "SourcePersonName": "Goodwin Inc and Sons",
+  "DestinationContactName": "Zboncak Inc and Sons",
+  "DestinationPersonName": "Rolfson, Mueller and Kunze",
+  "ActiveText": "laborum",
+  "PassiveText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -2,10 +2,10 @@
 uid: table-reply_template
 title: reply_template table
 description: Templates for automatic and manual replies to emails/sms organized hierachically
-generated: true
+so.generated: true
 keywords: database table reply_template
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # reply\_template Table (277)

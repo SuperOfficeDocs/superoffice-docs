@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 504,
-  "Name": "Dickens, Kautzer and Wilderman",
-  "Description": "Versatile object-oriented infrastructure",
-  "DeltaJson": "sint",
+  "ConfigurableScreenDeltaId": 560,
+  "Name": "Runolfsdottir Group",
+  "Description": "Multi-channelled upward-trending leverage",
+  "DeltaJson": "itaque",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quae",
-  "UpdatedDate": "2004-11-13T13:28:22.1636887+01:00",
-  "CreatedDate": "2017-04-05T13:28:22.1636887+02:00",
+  "RecipeId": "quidem",
+  "UpdatedDate": "2012-01-31T04:02:01.4092709+01:00",
+  "CreatedDate": "2018-06-08T04:02:01.4092709+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    963,
-    121
+    706,
+    595
   ],
-  "AppliesToKey": "exercitationem",
+  "AppliesToKey": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

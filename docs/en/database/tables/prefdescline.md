@@ -2,10 +2,10 @@
 uid: table-PrefDescLine
 title: PrefDescLine table
 description: Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
-generated: true
+so.generated: true
 keywords: database table PrefDescLine
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PrefDescLine Table (185)

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Buckridge, Runte and Murphy",
-    "StepNumber": 486,
+    "Name": "Mraz, Prohaska and DuBuque",
+    "StepNumber": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   },
   {
-    "Name": "Buckridge, Runte and Murphy",
-    "StepNumber": 486,
+    "Name": "Mraz, Prohaska and DuBuque",
+    "StepNumber": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

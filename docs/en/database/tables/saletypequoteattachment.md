@@ -2,10 +2,10 @@
 uid: table-SaleTypeQuoteAttachment
 title: SaleTypeQuoteAttachment table
 description: Default attachments to quotes linked to sales of this type
-generated: true
+so.generated: true
 keywords: database table SaleTypeQuoteAttachment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleTypeQuoteAttachment Table (446)

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Stoltenberg, Schmitt and O'Hara",
-  "Tooltip": "saepe",
+  "Id": 280,
+  "Name": "Reynolds-Schiller",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 884,
+  "Rank": 138,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   },
   "_Links": {

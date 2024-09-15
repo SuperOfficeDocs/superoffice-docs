@@ -2,10 +2,10 @@
 uid: table-s_sent_message
 title: s_sent_message table
 description: Emarketeer message control
-generated: true
+so.generated: true
 keywords: database table s_sent_message
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_sent\_message Table (405)

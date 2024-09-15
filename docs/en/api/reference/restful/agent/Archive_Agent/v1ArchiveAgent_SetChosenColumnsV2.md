@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Murazik Group",
-  "ProviderName": "Swaniawski Group",
-  "Context": "iure",
-  "OwnerKeys": "dolorum",
+  "GuiName": "Champlin, Moore and Murazik",
+  "ProviderName": "Pollich-Beier",
+  "Context": "quis",
+  "OwnerKeys": "amet",
   "ChosenColumns": [
-    "molestiae",
-    "quis"
+    "ab",
+    "dicta"
   ]
 }
 ```

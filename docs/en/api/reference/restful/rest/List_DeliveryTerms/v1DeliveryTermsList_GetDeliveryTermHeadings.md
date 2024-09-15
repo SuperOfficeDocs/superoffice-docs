@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 832,
-    "Name": "Collier Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 30,
+    "Name": "Gusikowski Group",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 263,
-    "UdListDefinitionId": 473,
+    "Rank": 729,
+    "UdListDefinitionId": 105,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

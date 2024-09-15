@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 244,
-  "TopicId": 994,
+  "ChatSessionId": 425,
+  "TopicId": 330,
   "User": null,
   "Person": null,
-  "CustomerAlias": "animi",
-  "CustomerHost": "et",
-  "CustomerName": "Bins-McDermott",
-  "CustomerEmail": "jimmie@durgan.us",
-  "CustomerPhone": "927.769.5509 x65997",
+  "CustomerAlias": "sapiente",
+  "CustomerHost": "omnis",
+  "CustomerName": "Konopelski LLC",
+  "CustomerEmail": "annalise@rice.name",
+  "CustomerPhone": "1-025-103-4596",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kris-Gutkowski",
+  "CustomerCompanyName": "Reilly, Kilback and Johnson",
   "Status": "Closed",
-  "FirstMessage": "perferendis",
-  "LastMessage": "quaerat",
-  "WhenRequested": "2024-06-24T13:28:31.2730847+02:00",
-  "WhenStarted": "2008-08-27T13:28:31.2730847+02:00",
-  "WhenEnded": "2018-05-02T13:28:31.2730847+02:00",
-  "WhenIdle": "2016-12-16T13:28:31.2730847+01:00",
-  "WhenFetched": "2004-08-04T13:28:31.2730847+02:00",
-  "SessionKey": "vel",
-  "InitialQueuePos": 800,
-  "AlertLevel": 244,
-  "Rank": 318,
+  "FirstMessage": "culpa",
+  "LastMessage": "praesentium",
+  "WhenRequested": "2003-10-04T04:02:06.3061763+02:00",
+  "WhenStarted": "2002-08-09T04:02:06.3061763+02:00",
+  "WhenEnded": "2023-07-26T04:02:06.3061763+02:00",
+  "WhenIdle": "2010-05-14T04:02:06.3061763+02:00",
+  "WhenFetched": "2010-04-12T04:02:06.3061763+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 383,
+  "AlertLevel": 332,
+  "Rank": 16,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,18 +192,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 442,
+  "Rating": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

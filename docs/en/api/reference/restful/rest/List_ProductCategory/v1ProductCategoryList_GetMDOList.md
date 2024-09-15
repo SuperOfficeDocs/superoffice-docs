@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=ut
+GET /api/v1/List/ProductCategory/MDOItems?query=nemo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Assumenda velit libero maiores unde quod.",
+    "Id": 4,
+    "Name": "Beatty-Becker",
+    "ToolTip": "Cumque sit rerum.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "laboriosam",
+    "Rank": 215,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "DuBuque LLC",
-        "ToolTip": "Labore molestiae sint quo modi quo aut.",
-        "Deleted": false,
-        "Rank": 144,
-        "Type": "consequatur",
+        "Id": 479,
+        "Name": "Schmitt-Towne",
+        "ToolTip": "Sunt tempore nesciunt.",
+        "Deleted": true,
+        "Rank": 766,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 136,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "non",
-        "FullName": "Ms. Lexus Marguerite Legros",
+        "IconHint": "nesciunt",
+        "ColorBlock": 434,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "ipsam",
+        "FullName": "Aida Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldLength": 39
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 438,
-    "ExtraInfo": "vel",
-    "StyleHint": "dolor",
-    "FullName": "Piper Smitham",
+    "IconHint": "voluptates",
+    "ColorBlock": 332,
+    "ExtraInfo": "tenetur",
+    "StyleHint": "qui",
+    "FullName": "Dr. Thalia Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 901
       }
     }
   }

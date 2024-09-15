@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Bayer LLC",
-  "Tooltip": "explicabo",
+  "Id": 127,
+  "Name": "Rau-Gutmann",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 410,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": true
+  "Rank": 319,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Kozey-Bernier",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 674,
+  "Id": 410,
+  "Name": "Breitenberg-Gusikowski",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 82,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "atque",
-  "InUseByUserDefinedFields": false,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=tempora
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=hic
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Schultz-Hauck",
-    "ToolTip": "Enim facere veritatis magnam et autem.",
+    "Id": 825,
+    "Name": "Rau, Flatley and Boyle",
+    "ToolTip": "Iusto culpa esse est perferendis.",
     "Deleted": true,
-    "Rank": 351,
-    "Type": "ullam",
+    "Rank": 642,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Hilll, Boyer and Carroll",
-        "ToolTip": "Est incidunt et voluptatum rerum voluptate voluptas.",
+        "Id": 331,
+        "Name": "Huels Group",
+        "ToolTip": "Perspiciatis voluptatem.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "magni",
+        "Rank": 641,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quod",
-        "ColorBlock": 635,
-        "ExtraInfo": "unde",
-        "StyleHint": "illo",
-        "FullName": "Lionel Gleichner",
+        "IconHint": "consequatur",
+        "ColorBlock": 389,
+        "ExtraInfo": "facilis",
+        "StyleHint": "nihil",
+        "FullName": "Jed Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 350
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 600,
-    "ExtraInfo": "sit",
-    "StyleHint": "voluptas",
-    "FullName": "Alphonso Huel V",
+    "IconHint": "aut",
+    "ColorBlock": 253,
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "quia",
+    "FullName": "Libby Kaley Russel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 578
       }
     }
   }

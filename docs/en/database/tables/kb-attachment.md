@@ -2,10 +2,10 @@
 uid: table-kb_attachment
 title: kb_attachment table
 description: This table connects FAQ entries to attachments.
-generated: true
+so.generated: true
 keywords: database table kb_attachment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_attachment Table (284)

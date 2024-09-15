@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Connell-Aufderhar"
+  "OwnerName": "Bogan Group"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 930,
-      "NumberOfLicensesFree": 971,
-      "NumberOfLicensesAdded": 242,
-      "NumberOfLicensesNewTotal": 106,
-      "NumberOfLicensesNewFree": 786,
-      "NumberOfLicensesTotal": 968
+      "NumberOfLicensesInUse": 212,
+      "NumberOfLicensesFree": 334,
+      "NumberOfLicensesAdded": 286,
+      "NumberOfLicensesNewTotal": 631,
+      "NumberOfLicensesNewFree": 319,
+      "NumberOfLicensesTotal": 537
     }
   ],
-  "AccumulatedNextCheckDate": "2017-01-27T13:28:22.866653+01:00"
+  "AccumulatedNextCheckDate": "2006-02-13T04:02:01.8003604+01:00"
 }
 ```

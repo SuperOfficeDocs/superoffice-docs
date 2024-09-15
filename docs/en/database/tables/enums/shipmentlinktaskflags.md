@@ -2,10 +2,10 @@
 uid: enum-shipmentlinktaskflags
 title: Enum values for ShipmentLinkTaskFlags
 description: Lists the enum values for ShipmentLinkTaskFlags.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ShipmentLinkTaskFlags Enum

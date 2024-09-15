@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 672,
-  "DestinationContactName": "Schmidt, Douglas and Walker",
+  "SourceContactId": 613,
+  "DestinationContactName": "Schulist LLC",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-117
+720
 ```

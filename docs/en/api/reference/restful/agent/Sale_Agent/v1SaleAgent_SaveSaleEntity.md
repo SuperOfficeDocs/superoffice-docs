@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rerum",
+  "SaleText": "nihil",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-12-25T13:28:23.6479929+01:00",
-  "Amount": 20574.71,
-  "SaleId": 711,
-  "Earning": 23000.426,
-  "EarningPercent": 9019.652,
-  "Heading": "quisquam",
-  "Number": "460260",
-  "Probability": 331,
-  "CreatedDate": "2016-03-11T13:28:23.6479929+01:00",
-  "UpdatedDate": "2009-07-26T13:28:23.6479929+02:00",
+  "Saledate": "2024-03-24T04:02:02.2534538+01:00",
+  "Amount": 1977.5539999999999,
+  "SaleId": 235,
+  "Earning": 21192.108,
+  "EarningPercent": 2585.5499999999997,
+  "Heading": "minus",
+  "Number": "1180495",
+  "Probability": 778,
+  "CreatedDate": "2015-04-24T04:02:02.2534538+02:00",
+  "UpdatedDate": "2018-06-22T04:02:02.2534538+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 772,
+  "ActiveLinks": 422,
   "Links": [
     {
-      "EntityName": "Kuhlman-Anderson",
-      "Id": 104,
-      "Description": "Right-sized grid-enabled attitude",
-      "ExtraInfo": "et",
-      "LinkId": 554
+      "EntityName": "Nikolaus-Leuschke",
+      "Id": 856,
+      "Description": "Reduced foreground groupware",
+      "ExtraInfo": "deserunt",
+      "LinkId": 314
     },
     {
-      "EntityName": "Kuhlman-Anderson",
-      "Id": 104,
-      "Description": "Right-sized grid-enabled attitude",
-      "ExtraInfo": "et",
-      "LinkId": 554
+      "EntityName": "Nikolaus-Leuschke",
+      "Id": 856,
+      "Description": "Reduced foreground groupware",
+      "ExtraInfo": "deserunt",
+      "LinkId": 314
     }
   ],
-  "NextDueDate": "2006-12-02T13:28:23.6479929+01:00",
-  "Postit": "nihil",
+  "NextDueDate": "2019-11-26T04:02:02.2534538+01:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-09-06T13:28:23.6479929+02:00",
+  "ReopenDate": "2017-01-01T04:02:02.2534538+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schaden Group",
-      "Comment": "suscipit",
-      "StakeholderRoleId": 146,
-      "CountryId": 280,
-      "PersonId": 667,
-      "EmailDescription": "romaine.nader@funk.ca",
-      "EmailId": 650,
-      "EmailAddress": "leola.huels@rolfsonjacobson.co.uk",
-      "PhoneId": 496,
-      "ContactName": "Hyatt LLC",
-      "ContactId": 867,
-      "SaleId": 911,
-      "Mrmrs": "omnis",
-      "Firstname": "Danny",
-      "MiddleName": "Weimann, Hessel and Jewess",
-      "Lastname": "Kihn",
-      "SaleStakeholderId": 964,
-      "Rank": 394,
-      "Phone": "289.997.5923 x96318"
+      "StakeholderRoleName": "Wiza-Gutkowski",
+      "Comment": "alias",
+      "StakeholderRoleId": 92,
+      "CountryId": 207,
+      "PersonId": 277,
+      "EmailDescription": "gavin.deckow@purdy.com",
+      "EmailId": 12,
+      "EmailAddress": "lazaro@luettgen.com",
+      "PhoneId": 135,
+      "ContactName": "Gerhold Inc and Sons",
+      "ContactId": 738,
+      "SaleId": 811,
+      "Mrmrs": "dolores",
+      "Firstname": "Jed",
+      "MiddleName": "Pouros, Homenick and Runte",
+      "Lastname": "Aufderhar",
+      "SaleStakeholderId": 94,
+      "Rank": 269,
+      "Phone": "330-232-4984"
     }
   ],
-  "ActiveErpLinks": 726,
+  "ActiveErpLinks": 824,
   "UserDefinedFields": {
-    "SuperOffice:1": "Nathanael Dibbert",
-    "SuperOffice:2": "159891015"
+    "SuperOffice:1": "1405327644",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "rerum",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2017-12-15T13:28:23.6479929+01:00",
-  "PublishTo": "2011-12-02T13:28:23.6479929+01:00",
-  "PublishFrom": "2003-01-15T13:28:23.6479929+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-06-22T04:02:02.2534538+02:00",
+  "PublishTo": "2019-04-30T04:02:02.2534538+02:00",
+  "PublishFrom": "2008-01-13T04:02:02.2534538+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 322,
+      "VisibleId": 986,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "sit"
     },
     {
-      "VisibleId": 322,
+      "VisibleId": 986,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "sit"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "suscipit",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-03-13T13:28:23.6636125+01:00",
-  "Amount": 4948.586,
-  "SaleId": 772,
-  "Earning": 21825.176,
-  "EarningPercent": 26657.804,
-  "Heading": "rerum",
-  "Number": "772632",
-  "Probability": 264,
-  "CreatedDate": "2018-07-14T13:28:23.6636125+02:00",
-  "UpdatedDate": "2017-10-17T13:28:23.6636125+02:00",
+  "Saledate": "2021-08-14T04:02:02.2534538+02:00",
+  "Amount": 29964.174,
+  "SaleId": 19,
+  "Earning": 27510.252,
+  "EarningPercent": 21796.969999999998,
+  "Heading": "quas",
+  "Number": "1880236",
+  "Probability": 530,
+  "CreatedDate": "2003-04-21T04:02:02.2534538+02:00",
+  "UpdatedDate": "2011-08-25T04:02:02.2534538+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 994,
+  "ActiveLinks": 908,
   "Links": [
     {
-      "EntityName": "Dibbert-Balistreri",
-      "Id": 573,
-      "Description": "Public-key foreground circuit",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 229,
+      "EntityName": "Wiza-Murray",
+      "Id": 474,
+      "Description": "Optimized optimizing core",
+      "ExtraInfo": "iste",
+      "LinkId": 62,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "NextDueDate": "2016-09-06T13:28:23.6636125+02:00",
-  "Postit": "sit",
+  "NextDueDate": "1999-12-28T04:02:02.2534538+01:00",
+  "Postit": "exercitationem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-09-06T13:28:23.6636125+02:00",
+  "ReopenDate": "2016-01-25T04:02:02.2534538+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Rutherford-Ritchie",
-      "Comment": "non",
-      "StakeholderRoleId": 381,
-      "CountryId": 777,
-      "PersonId": 32,
-      "EmailDescription": "autumn@parisian.name",
-      "EmailId": 838,
-      "EmailAddress": "abigayle.gottlieb@franeckikris.name",
-      "PhoneId": 61,
-      "ContactName": "Tromp, West and Parker",
-      "ContactId": 739,
-      "SaleId": 524,
-      "Mrmrs": "nihil",
-      "Firstname": "Emanuel",
-      "MiddleName": "Block Inc and Sons",
-      "Lastname": "Thiel",
-      "SaleStakeholderId": 213,
-      "Rank": 45,
-      "Phone": "(653)288-8620",
+      "StakeholderRoleName": "Fisher-DuBuque",
+      "Comment": "dolorem",
+      "StakeholderRoleId": 829,
+      "CountryId": 346,
+      "PersonId": 744,
+      "EmailDescription": "addison.zboncak@conn.name",
+      "EmailId": 94,
+      "EmailAddress": "odessa@schimmelgusikowski.ca",
+      "PhoneId": 13,
+      "ContactName": "Bartell-Yundt",
+      "ContactId": 637,
+      "SaleId": 171,
+      "Mrmrs": "ut",
+      "Firstname": "Shanny",
+      "MiddleName": "Veum, Baumbach and Schamberger",
+      "Lastname": "Jones",
+      "SaleStakeholderId": 704,
+      "Rank": 584,
+      "Phone": "954-103-6486 x908",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 909
         }
       }
     }
   ],
-  "ActiveErpLinks": 226,
+  "ActiveErpLinks": 75,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1699965845"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "similique"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "1997-11-12T13:28:23.6636125+01:00",
-  "PublishTo": "2010-11-14T13:28:23.6636125+01:00",
-  "PublishFrom": "2016-10-25T13:28:23.6636125+02:00",
+  "PublishEventDate": "2019-09-08T04:02:02.2534538+02:00",
+  "PublishTo": "1998-10-30T04:02:02.2534538+01:00",
+  "PublishFrom": "2003-07-19T04:02:02.2534538+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 278,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 79
         }
       }
     },
     {
-      "VisibleId": 278,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 79
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-RefCountRange
 title: RefCountRange table
 description: Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases
-generated: true
+so.generated: true
 keywords: database table RefCountRange
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # RefCountRange Table (172)

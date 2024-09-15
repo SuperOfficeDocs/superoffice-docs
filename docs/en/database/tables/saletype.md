@@ -2,10 +2,10 @@
 uid: table-SaleType
 title: SaleType table
 description: Type of sale - large solution, incremental, whatever fits the organization
-generated: true
+so.generated: true
 keywords: database table SaleType
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleType Table (149)

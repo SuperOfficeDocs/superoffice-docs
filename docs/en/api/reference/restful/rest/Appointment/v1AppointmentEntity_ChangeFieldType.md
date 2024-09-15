@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 251,
-  "ColumnId": 841,
-  "FieldDefault": "officia",
-  "FieldHeight": 265,
-  "FieldLabel": "sit",
-  "FieldLeft": 920,
-  "FieldTop": 823,
+  "UDefFieldId": 621,
+  "ColumnId": 770,
+  "FieldDefault": "voluptatum",
+  "FieldHeight": 91,
+  "FieldLabel": "aut",
+  "FieldLeft": 327,
+  "FieldTop": 432,
   "FieldType": "Checkbox",
-  "FieldWidth": 765,
-  "FormatMask": "maxime",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 21,
-  "LabelLeft": 251,
-  "LabelTop": 751,
-  "LabelWidth": 899,
-  "LastVersionId": 831,
-  "ListTableId": 726,
+  "FieldWidth": 163,
+  "FormatMask": "omnis",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 875,
+  "LabelLeft": 795,
+  "LabelTop": 647,
+  "LabelWidth": 170,
+  "LastVersionId": 973,
+  "ListTableId": 356,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 676,
-  "ProgId": "cumque",
-  "IsReadOnly": true,
-  "ShortLabel": "molestiae",
-  "TabOrder": 980,
-  "TextLength": 830,
-  "Tooltip": "natus",
-  "UdefIdentity": 951,
-  "UDListDefinitionId": 115,
+  "Page1LineNo": 853,
+  "ProgId": "impedit",
+  "IsReadOnly": false,
+  "ShortLabel": "aut",
+  "TabOrder": 44,
+  "TextLength": 555,
+  "Tooltip": "inventore",
+  "UdefIdentity": 313,
+  "UDListDefinitionId": 971,
   "Justification": "Center",
-  "Version": 327,
-  "TemplateVariableName": "Kuhn, Mann and Hudson",
-  "HasBeenPublished": true,
-  "MdoListName": "Keeling-Kreiger",
+  "Version": 437,
+  "TemplateVariableName": "Shields-Becker",
+  "HasBeenPublished": false,
+  "MdoListName": "Rowe, Kulas and Toy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 657
     }
   }
 }

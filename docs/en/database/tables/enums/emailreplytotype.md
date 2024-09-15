@@ -2,10 +2,10 @@
 uid: enum-emailreplytotype
 title: Enum values for EmailReplyToType
 description: Lists the enum values for EmailReplyToType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # EmailReplyToType Enum

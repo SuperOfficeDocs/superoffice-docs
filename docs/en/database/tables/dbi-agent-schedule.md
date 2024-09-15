@@ -2,10 +2,10 @@
 uid: table-dbi_agent_schedule
 title: dbi_agent_schedule table
 description: DBI agent schedule settings
-generated: true
+so.generated: true
 keywords: database table dbi_agent_schedule
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # dbi\_agent\_schedule Table (383)

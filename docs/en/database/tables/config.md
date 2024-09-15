@@ -2,10 +2,10 @@
 uid: table-config
 title: config table
 description: This table contains certain system-wide configuration values.
-generated: true
+so.generated: true
 keywords: database table config
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # config Table (255)

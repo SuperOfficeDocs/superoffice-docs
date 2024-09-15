@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/User/ChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 858,
-  "OldPassword": "occaecati",
-  "NewPassword": "consequatur"
+  "AssociateId": 442,
+  "OldPassword": "ipsum",
+  "NewPassword": "voluptate"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Schinner, Price and Larkin",
-  "Tooltip": "earum",
+  "Id": 15,
+  "Name": "Becker-Barrows",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 67,
-  "IsCustomList": true,
+  "Rank": 151,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": false
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Kuphal LLC",
-  "Tooltip": "dolorem",
+  "Id": 990,
+  "Name": "Gulgowski, Schmitt and Mayer",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 533,
+  "Rank": 113,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "alias",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

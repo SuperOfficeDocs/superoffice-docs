@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 308,
+  "EjMessageId": 285,
   "Ticket": null,
-  "CreatedAt": "2000-11-04T13:28:24.08539+01:00",
+  "CreatedAt": "1997-05-28T04:02:02.4885951+02:00",
   "CreatedBy": null,
-  "Author": "tenetur",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 364,
-  "Body": "voluptas",
-  "HtmlBody": "aut",
-  "EmailHeader": "celia@stehr.us",
-  "DebugInfo": "quia",
-  "MailSorter": "omnis",
+  "MessageId": "eum",
+  "TimeSpent": 732,
+  "Body": "itaque",
+  "HtmlBody": "numquam",
+  "EmailHeader": "arthur@wiegand.info",
+  "DebugInfo": "incidunt",
+  "MailSorter": "assumenda",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quidem",
+  "SearchTitle": "aliquid",
   "MessageHeaders": [
     {
-      "Id": 289,
-      "Name": "Schowalter-Gerhold",
-      "Value": "earum",
+      "Id": 88,
+      "Name": "Shields-Breitenberg",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 1001
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ipsa",
-  "Sentiment": 951,
-  "SentimentConfidence": 869,
+  "Language": "sed",
+  "Sentiment": 425,
+  "SentimentConfidence": 761,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Pagac, Crist and Walker",
-      "ContentType": "omnis",
-      "AttSize": 543,
+      "AttachmentId": 67,
+      "Name": "Hermiston, Mosciski and Schamberger",
+      "ContentType": "enim",
+      "AttSize": 481,
       "InlineImage": false,
-      "ContentId": "labore",
-      "AuthKey": "recusandae",
-      "IsSafeFileExtension": false,
+      "ContentId": "eligendi",
+      "AuthKey": "pariatur",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 58
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "quidem",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 480
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=124
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=292
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized system-worthy moratorium",
-  "Postit": "iure",
+  "Description": "User-friendly multimedia focus group",
+  "Postit": "veritatis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 88,
-  "IncludePerson": 247,
+  "GroupIdx": 985,
+  "IncludePerson": 150,
   "MemberCount": 99.99,
-  "Name": "Greenholt, Gleichner and Hermann",
-  "PostitTextId": 801,
-  "CreatedDate": "2011-03-02T13:28:23.7260971+01:00",
-  "SelectionId": 622,
-  "SoundEx": "asperiores",
-  "Source": 237,
-  "TextId": 217,
-  "UpdatedDate": "1998-08-03T13:28:23.7260971+02:00",
-  "UpdatedCount": 908,
-  "Visibility": 713,
+  "Name": "Friesen-Zboncak",
+  "PostitTextId": 28,
+  "CreatedDate": "2005-08-15T04:02:02.3005065+02:00",
+  "SelectionId": 162,
+  "SoundEx": "atque",
+  "Source": 794,
+  "TextId": 320,
+  "UpdatedDate": "1999-07-03T04:02:02.3005065+02:00",
+  "UpdatedCount": 128,
+  "Visibility": 67,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 308,
-  "TargetTableName": "Tromp LLC",
+  "TargetTableNumber": 381,
+  "TargetTableName": "Frami LLC",
   "Completed": false,
-  "LeftSelectionId": 196,
-  "RightSelectionId": 346,
+  "LeftSelectionId": 646,
+  "RightSelectionId": 283,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kertzmann-DuBuque",
-  "ShadowProviderName": "Bogan-Hudson",
-  "ChartKey": "iste",
-  "LastLoaded": "2019-05-25T13:28:23.7260971+02:00",
-  "LastLoadedBy": 340,
+  "MainProviderName": "Runte-Bergstrom",
+  "ShadowProviderName": "Langworth-Strosin",
+  "ChartKey": "ratione",
+  "LastLoaded": "2016-11-09T04:02:02.3005065+01:00",
+  "LastLoadedBy": 936,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-07-16T13:28:23.7260971+02:00",
-  "LastMembershipChangeBy": 939,
+  "LastMembershipChange": "2001-10-16T04:02:02.3005065+02:00",
+  "LastMembershipChangeBy": 688,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Little-Rogahn",
-  "DashboardTileDefinitionId": 345,
+  "MainHeading": "autem",
+  "MemberTabHeading": "commodi",
+  "MailingsProviderName": "D'Amore-Sauer",
+  "DashboardTileDefinitionId": 621,
   "VisibleFor": [
     {
-      "VisibleId": 225,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 789
         }
       }
     },
     {
-      "VisibleId": 225,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 789
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

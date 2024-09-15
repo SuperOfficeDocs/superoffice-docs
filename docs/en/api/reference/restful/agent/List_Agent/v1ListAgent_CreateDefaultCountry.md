@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 826,
-  "Name": "Cronin LLC",
-  "CurrencyId": 501,
-  "EnglishName": "Kautzer, Barton and Cole",
+  "CountryId": 916,
+  "Name": "Davis Inc and Sons",
+  "CurrencyId": 57,
+  "EnglishName": "Murazik, Mohr and Bins",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Phased real-time flexibility",
-  "OrgNrText": "1322578",
-  "InterAreaPrefix": "eveniet",
-  "DialInPrefix": "id",
-  "ZipPrefix": "beatae",
-  "DomainName": "Kub-Kuphal",
-  "AddressLayoutId": 533,
-  "DomesticAddressLayoutId": 470,
-  "ForeignAddressLayoutId": 995,
-  "Rank": 96,
-  "Tooltip": "est",
-  "Deleted": false,
+  "ImageDescription": "Quality-focused hybrid strategy",
+  "OrgNrText": "1278827",
+  "InterAreaPrefix": "eum",
+  "DialInPrefix": "amet",
+  "ZipPrefix": "esse",
+  "DomainName": "Runolfsson, Grimes and Will",
+  "AddressLayoutId": 501,
+  "DomesticAddressLayoutId": 998,
+  "ForeignAddressLayoutId": 243,
+  "Rank": 721,
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

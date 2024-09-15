@@ -2,10 +2,10 @@
 uid: table-chat_message
 title: chat_message table
 description: This table contains messages in a chat session.
-generated: true
+so.generated: true
 keywords: database table chat_message
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # chat\_message Table (333)

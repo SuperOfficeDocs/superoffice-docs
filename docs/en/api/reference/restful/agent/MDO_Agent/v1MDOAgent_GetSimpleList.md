@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cronin Inc and Sons"
+  "Name": "Turcotte Group"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Jacobi Group",
-    "ToolTip": "Cupiditate voluptatem voluptatum itaque.",
+    "Id": 27,
+    "Name": "Sipes-Ledner",
+    "ToolTip": "Impedit doloremque at sed eaque est.",
     "Deleted": false,
-    "Rank": 293,
-    "Type": "quos",
+    "Rank": 323,
+    "Type": "neque",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Satterfield, Bashirian and Borer",
-        "ToolTip": "Itaque sint.",
-        "Deleted": false,
-        "Rank": 997,
-        "Type": "eveniet",
+        "Id": 427,
+        "Name": "Bergstrom, Bartell and McClure",
+        "ToolTip": "Rerum est error ea qui.",
+        "Deleted": true,
+        "Rank": 846,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 198,
-        "ExtraInfo": "aut",
-        "StyleHint": "consequatur",
-        "FullName": "Prof. Myrna Lauriane Schultz PhD",
+        "IconHint": "pariatur",
+        "ColorBlock": 381,
+        "ExtraInfo": "ut",
+        "StyleHint": "est",
+        "FullName": "Esther Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 996
+            "FieldLength": 977
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 596,
-    "ExtraInfo": "ut",
-    "StyleHint": "facere",
-    "FullName": "Ricardo Schimmel",
+    "IconHint": "quis",
+    "ColorBlock": 188,
+    "ExtraInfo": "harum",
+    "StyleHint": "ratione",
+    "FullName": "Sunny McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 891
       }
     }
   }

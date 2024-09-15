@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 556,
-    "FieldName": "Hintz, Lebsack and Schroeder",
-    "Label": "reiciendis",
-    "Tooltip": "molestiae",
+    "QuoteLineConfigurationId": 716,
+    "FieldName": "Yost Group",
+    "Label": "enim",
+    "Tooltip": "veniam",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 549,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 434,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 1001
       }
     }
   }

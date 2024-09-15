@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 343,
+  "PersonId": 10,
   "IncludeProjectDocuments": false,
-  "StartTime": "2005-11-09T13:28:22.4761174+01:00",
-  "EndTime": "2015-07-31T13:28:22.4761174+02:00",
-  "Count": 273
+  "StartTime": "2014-02-11T04:02:01.5811276+01:00",
+  "EndTime": "2008-05-09T04:02:01.5811276+02:00",
+  "Count": 490
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 44,
-    "Attention": "rerum",
-    "Header": "aut",
-    "Name": "Dare, Kemmer and Pfeffer",
-    "OurRef": "veritatis",
+    "DocumentId": 956,
+    "Attention": "ratione",
+    "Header": "atque",
+    "Name": "Littel Group",
+    "OurRef": "minima",
     "YourRef": "et",
-    "Description": "Self-enabling directional Graphic Interface",
-    "DocumentTemplate": "sunt",
+    "Description": "Object-based global extranet",
+    "DocumentTemplate": "ducimus",
     "IsPublished": false,
-    "PersonId": 937,
-    "PersonFullName": "Beaulah Earl Nikolaus II",
-    "AssociateFullName": "Ms. Faustino Miller",
-    "ContactId": 101,
-    "ContactName": "Breitenberg-Steuber",
-    "ProjectId": 302,
-    "ProjectName": "Morissette, Walsh and Predovic",
-    "AssociateId": 54,
-    "Snum": 836,
-    "SaleId": 116,
-    "SaleName": "Upton Group",
+    "PersonId": 2,
+    "PersonFullName": "Dr. Dimitri Langosh PhD",
+    "AssociateFullName": "Tremayne Mya Wisoky PhD",
+    "ContactId": 247,
+    "ContactName": "Predovic, Purdy and Eichmann",
+    "ProjectId": 800,
+    "ProjectName": "Maggio Inc and Sons",
+    "AssociateId": 703,
+    "Snum": 768,
+    "SaleId": 366,
+    "SaleName": "Armstrong Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 986
       }
     }
   }

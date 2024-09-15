@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Borer Group",
+  "CommandName": "Orn-Kassulke",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,15 +86,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "iure",
+  "Success": true,
+  "Message": "voluptates",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Zboncak Inc and Sons",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 232,
-  "Rank": 890,
+  "Id": 108,
+  "Name": "Rau, Murray and Greenholt",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 459,
+  "Rank": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 542
     }
   }
 }

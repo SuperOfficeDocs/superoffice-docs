@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 135,
-  "BlobSize": 958,
-  "Description": "Intuitive 24 hour functionalities",
-  "ExtraInfo": "sed",
+  "BlobId": 767,
+  "BlobSize": 928,
+  "Description": "Sharable analyzing migration",
+  "ExtraInfo": "quibusdam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "error",
-  "OriginalSize": 421,
-  "CreatedDate": "2013-03-14T13:28:21.8668811+01:00",
-  "UpdatedDate": "2006-12-05T13:28:21.8668811+01:00",
+  "MimeType": "et",
+  "OriginalSize": 906,
+  "CreatedDate": "2003-07-04T04:02:01.2374146+02:00",
+  "UpdatedDate": "2002-11-21T04:02:01.2374146+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

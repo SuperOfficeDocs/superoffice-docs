@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 144,
-  "StartTime": "2011-05-09T13:28:22.4604993+02:00",
-  "EndTime": "2001-10-27T13:28:22.4604993+02:00",
-  "Count": 780,
-  "TemplateHeadingId": 103
+  "ProjectId": 276,
+  "StartTime": "2016-10-23T04:02:01.5811276+02:00",
+  "EndTime": "2005-08-16T04:02:01.5811276+02:00",
+  "Count": 856,
+  "TemplateHeadingId": 836
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 708,
-    "Attention": "quae",
-    "Header": "et",
-    "Name": "Krajcik Inc and Sons",
-    "OurRef": "aperiam",
-    "YourRef": "et",
-    "Description": "Focused background moderator",
-    "DocumentTemplate": "debitis",
-    "IsPublished": true,
-    "PersonId": 417,
-    "PersonFullName": "Coy Mayer",
-    "AssociateFullName": "Elenora Zemlak",
-    "ContactId": 610,
-    "ContactName": "Koch-Yundt",
-    "ProjectId": 96,
-    "ProjectName": "Anderson Group",
-    "AssociateId": 864,
-    "Snum": 149,
-    "SaleId": 299,
-    "SaleName": "Jacobson, Ritchie and Lind",
+    "DocumentId": 473,
+    "Attention": "aliquid",
+    "Header": "molestiae",
+    "Name": "Kreiger-Olson",
+    "OurRef": "qui",
+    "YourRef": "architecto",
+    "Description": "Persistent reciprocal projection",
+    "DocumentTemplate": "ea",
+    "IsPublished": false,
+    "PersonId": 150,
+    "PersonFullName": "Reyna Stark",
+    "AssociateFullName": "Gerhard D'Amore",
+    "ContactId": 373,
+    "ContactName": "Schultz Group",
+    "ProjectId": 208,
+    "ProjectName": "Gerhold-Sanford",
+    "AssociateId": 534,
+    "Snum": 81,
+    "SaleId": 800,
+    "SaleName": "Dicki Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 641
       }
     }
   }

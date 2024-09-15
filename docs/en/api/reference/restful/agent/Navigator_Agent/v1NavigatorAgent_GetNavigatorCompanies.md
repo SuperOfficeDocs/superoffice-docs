@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Murphy Inc and Sons"
+  "Name": "Weber-Farrell"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Value": "at",
-    "Tooltip": "ut",
+    "Id": 772,
+    "Value": "voluptatibus",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 293
       }
     }
   },
   {
-    "Id": 757,
-    "Value": "at",
-    "Tooltip": "ut",
+    "Id": 772,
+    "Value": "voluptatibus",
+    "Tooltip": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 293
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 719,
-  "ConnectorName": "Kemmer, Armstrong and Lebsack"
+  "ConnectionId": 906,
+  "ConnectorName": "Emard-Kozey"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "rem",
-    "Rank": 316,
-    "DisplayName": "Lueilwitz-Sipes",
-    "DisplayDescription": "Operative value-added standardization",
+    "FieldKey": "dolorum",
+    "Rank": 787,
+    "DisplayName": "Lesch LLC",
+    "DisplayDescription": "Realigned non-volatile data-warehouse",
     "FieldType": "Checkbox",
-    "ListName": "O'Connell LLC",
-    "DefaultValue": "unde",
-    "MaxLength": 50,
+    "ListName": "Bechtelar-Jast",
+    "DefaultValue": "recusandae",
+    "MaxLength": 1000,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldLength": 688
       }
     }
   }

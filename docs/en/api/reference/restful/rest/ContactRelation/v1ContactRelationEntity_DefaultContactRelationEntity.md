@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Oct 2021 13:28:31 G10T
+Last-Modified: Wed, 30 Aug 2017 04:02:06 G8T
 
 {
-  "SourceContactId": 270,
-  "SourcePersonId": 274,
-  "DestinationContactId": 127,
-  "DestinationPersonId": 611,
-  "RelationId": 506,
-  "Comment": "delectus",
-  "RelationDefinitionId": 366,
-  "Reversed": 6,
-  "UpdatedDate": "2021-10-29T13:28:31.5230271+02:00",
-  "CreatedDate": "2020-12-23T13:28:31.5230271+01:00",
+  "SourceContactId": 492,
+  "SourcePersonId": 961,
+  "DestinationContactId": 847,
+  "DestinationPersonId": 723,
+  "RelationId": 972,
+  "Comment": "consequatur",
+  "RelationDefinitionId": 62,
+  "Reversed": 187,
+  "UpdatedDate": "2017-08-30T04:02:06.4316632+02:00",
+  "CreatedDate": "2004-01-31T04:02:06.4316632+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Balistreri-Mraz",
-  "SourcePersonName": "Streich Inc and Sons",
-  "DestinationContactName": "Treutel, Trantow and Bosco",
-  "DestinationPersonName": "Gaylord-Walker",
-  "ActiveText": "autem",
-  "PassiveText": "voluptate",
+  "SourceContactName": "Kohler-Ernser",
+  "SourcePersonName": "Lemke-Connelly",
+  "DestinationContactName": "Hoppe-Kertzmann",
+  "DestinationPersonName": "Hagenes-Mann",
+  "ActiveText": "sit",
+  "PassiveText": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 569
     }
   }
 }

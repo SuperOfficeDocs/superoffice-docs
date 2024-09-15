@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "accusamus",
-  "ProviderName": "Morar, Cormier and Lubowitz",
-  "StorageKey": "sed",
+  "StorageType": "provident",
+  "ProviderName": "Kihn, Hodkiewicz and Breitenberg",
+  "StorageKey": "accusamus",
   "ExtraRestrictions": [
     {
-      "Name": "Robel-Nienow",
-      "Operator": "a",
+      "Name": "Gleason, Kovacek and Koepp",
+      "Operator": "aspernatur",
       "Values": [
-        "delectus",
-        "et"
+        "et",
+        "veritatis"
       ],
       "DisplayValues": [
-        "eos",
-        "totam"
+        "eum",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 615,
+      "InterParenthesis": 932,
       "InterOperator": "And",
-      "UniqueHash": 608
+      "UniqueHash": 882
     }
   ],
   "OrderBy": [
     {
-      "Name": "Kshlerin Group",
+      "Name": "Waelchi-Dietrich",
       "Direction": "ASC"
     },
     {
-      "Name": "Kshlerin Group",
+      "Name": "Waelchi-Dietrich",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "consequatur",
-    "similique"
+    "eos",
+    "nulla"
   ],
-  "PageSize": 160,
-  "PageNumber": 673
+  "PageSize": 862,
+  "PageNumber": 164
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Goodwin Inc and Sons",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "architecto",
+      "DisplayName": "Herzog Inc and Sons",
+      "DisplayTooltip": "officia",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Conroy Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Smith-Grimes",
+      "Name": "Block, Abshire and Von",
+      "CanRestrictBy": true,
+      "RestrictionType": "quos",
+      "RestrictionListName": "Maggio LLC",
       "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "expedita",
-      "IconHint": "ut",
-      "HeadingIconHint": "quis"
+      "ExtraInfo": "repellat",
+      "Width": "iste",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "vero"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Parker, Emmerich and Lynch",
-      "PrimaryKey": 352,
+      "EntityName": "Wintheiser-Daugherty",
+      "PrimaryKey": 214,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "architecto",
-          "TooltipHint": "maiores",
-          "LinkHint": "enim"
+          "DisplayValue": "rerum",
+          "TooltipHint": "est",
+          "LinkHint": "saepe"
         }
       },
-      "LinkHint": "et",
+      "LinkHint": "voluptas",
       "StyleHint": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 727
         }
       }
     }
   ],
-  "RowCount": 673,
+  "RowCount": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 757
     }
   }
 }

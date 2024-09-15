@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 842,
-  "Name": "Barrows LLC",
-  "CurrencyId": 286,
-  "EnglishName": "Hyatt-Kunze",
+  "CountryId": 268,
+  "Name": "Dare, Nicolas and Doyle",
+  "CurrencyId": 774,
+  "EnglishName": "Kessler-Wintheiser",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused uniform collaboration",
-  "OrgNrText": "593731",
-  "InterAreaPrefix": "sapiente",
-  "DialInPrefix": "quidem",
-  "ZipPrefix": "corrupti",
-  "DomainName": "Russel, Feest and Trantow",
-  "AddressLayoutId": 128,
-  "DomesticAddressLayoutId": 26,
-  "ForeignAddressLayoutId": 889,
-  "Rank": 519,
-  "Tooltip": "dignissimos",
-  "Deleted": true
+  "ImageDescription": "Diverse dedicated workforce",
+  "OrgNrText": "1668979",
+  "InterAreaPrefix": "sit",
+  "DialInPrefix": "fugit",
+  "ZipPrefix": "occaecati",
+  "DomainName": "Runolfsson-Kerluke",
+  "AddressLayoutId": 221,
+  "DomesticAddressLayoutId": 134,
+  "ForeignAddressLayoutId": 640,
+  "Rank": 228,
+  "Tooltip": "minus",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 102,
-  "Name": "Carroll-Jacobs",
-  "CurrencyId": 337,
-  "EnglishName": "Kulas-Bernhard",
+  "CountryId": 179,
+  "Name": "Mayer Inc and Sons",
+  "CurrencyId": 819,
+  "EnglishName": "Crona, Kessler and O'Hara",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Versatile interactive frame",
-  "OrgNrText": "1060162",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "maxime",
-  "ZipPrefix": "aut",
-  "DomainName": "Murray Inc and Sons",
-  "AddressLayoutId": 886,
-  "DomesticAddressLayoutId": 96,
-  "ForeignAddressLayoutId": 796,
-  "Rank": 163,
-  "Tooltip": "placeat",
+  "ImageDescription": "Stand-alone encompassing attitude",
+  "OrgNrText": "1244724",
+  "InterAreaPrefix": "eligendi",
+  "DialInPrefix": "provident",
+  "ZipPrefix": "dolor",
+  "DomainName": "Gottlieb, Renner and Heidenreich",
+  "AddressLayoutId": 448,
+  "DomesticAddressLayoutId": 139,
+  "ForeignAddressLayoutId": 794,
+  "Rank": 101,
+  "Tooltip": "aut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 460
     }
   }
 }

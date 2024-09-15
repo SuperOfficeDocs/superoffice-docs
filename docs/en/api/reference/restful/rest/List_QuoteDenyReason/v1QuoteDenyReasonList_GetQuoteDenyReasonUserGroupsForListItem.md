@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Skiles LLC",
-    "ToolTip": "Est occaecati ipsum.",
+    "Id": 79,
+    "Name": "Marquardt, Rutherford and Lockman",
+    "ToolTip": "Non eum veritatis et sit.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "id",
-    "ColorBlock": 751,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2001-05-01T13:28:33.0540628+02:00",
+    "Rank": 331,
+    "Type": "quo",
+    "ColorBlock": 736,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2018-12-07T04:02:07.3690701+01:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Hills, Aufderhar and Daugherty",
-        "ToolTip": "Tenetur facilis quo tenetur.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "perferendis",
-        "ColorBlock": 682,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2002-03-13T13:28:33.0540628+01:00",
+        "Id": 894,
+        "Name": "Bailey LLC",
+        "ToolTip": "Similique rerum aut odit impedit necessitatibus beatae voluptas.",
+        "Deleted": false,
+        "Rank": 570,
+        "Type": "omnis",
+        "ColorBlock": 571,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1997-09-17T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Skylar Bogisich",
+        "ExtraInfo": "unde",
+        "StyleHint": "excepturi",
+        "Hidden": false,
+        "FullName": "Savannah Gleason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 170
+            "FieldLength": 317
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Nicolas Beahan",
+    "ExtraInfo": "eos",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Ulices Blanca Cartwright PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

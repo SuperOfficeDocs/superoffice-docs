@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ipsam",
-  "Key": "at"
+  "Section": "nihil",
+  "Key": "iure"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 113,
-  "Section": "quasi",
-  "Key": "fuga",
-  "Name": "Baumbach-Grant",
+  "PrefDescId": 259,
+  "Section": "deleniti",
+  "Key": "rerum",
+  "Name": "Bergnaum, Murazik and Homenick",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered context-sensitive leverage",
-  "IsBuiltin": false,
-  "TableName": "Jakubowski Inc and Sons",
-  "UserDefinedListId": 570,
-  "Rank": 324,
-  "SubGroup": "deleniti",
-  "MinLevel": 343,
-  "MaxValue": 966,
-  "MinValue": 17,
-  "RequiredLicense": "autem",
+  "Description": "Customizable web-enabled concept",
+  "IsBuiltin": true,
+  "TableName": "Kulas-Harvey",
+  "UserDefinedListId": 980,
+  "Rank": 491,
+  "SubGroup": "consequatur",
+  "MinLevel": 511,
+  "MaxValue": 551,
+  "MinValue": 401,
+  "RequiredLicense": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 380
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-ExtAppHeadingLink
 title: ExtAppHeadingLink table
 description: Heading link table for ExtApp, for MDO headers
-generated: true
+so.generated: true
 keywords: database table ExtAppHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ExtAppHeadingLink Table (135)

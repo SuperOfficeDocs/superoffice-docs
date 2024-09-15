@@ -81,35 +81,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 887,
-  "Name": "Krajcik-Beahan",
-  "Tooltip": "est",
-  "VisibleColumns": 410,
-  "Rank": 734,
-  "AssocId": 828,
+  "DiaryViewId": 35,
+  "Name": "Hyatt, Cummerata and Bogan",
+  "Tooltip": "ea",
+  "VisibleColumns": 736,
+  "Rank": 608,
+  "AssocId": 3,
   "AssociateList": [
     {
-      "Id": 750,
-      "Name": "Terry LLC",
-      "ToolTip": "Velit voluptatibus optio quidem.",
+      "Id": 425,
+      "Name": "Champlin-Quigley",
+      "ToolTip": "Ipsam sit et quam quia et aut.",
       "Deleted": false,
-      "Rank": 146,
-      "Type": "ab",
-      "ColorBlock": 831,
-      "IconHint": "quis",
-      "Selected": true,
-      "LastChanged": "2023-07-02T13:28:22.1636887+02:00",
+      "Rank": 384,
+      "Type": "in",
+      "ColorBlock": 290,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2011-03-20T04:02:01.4092709+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "aliquid",
-      "Hidden": false,
-      "FullName": "Gail Kling"
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "excepturi",
+      "Hidden": true,
+      "FullName": "Meggie Sauer"
     }
   ],
-  "TzLocationId": 889
+  "TzLocationId": 831
 }
 ```
 
@@ -120,48 +120,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 917,
-  "Name": "Senger-Cruickshank",
-  "Tooltip": "commodi",
-  "VisibleColumns": 62,
-  "Rank": 48,
-  "AssocId": 458,
+  "DiaryViewId": 882,
+  "Name": "Reynolds, Kuvalis and Schuppe",
+  "Tooltip": "cum",
+  "VisibleColumns": 481,
+  "Rank": 133,
+  "AssocId": 809,
   "AssociateList": [
     {
-      "Id": 800,
-      "Name": "Sawayn, Mosciski and Beatty",
-      "ToolTip": "Assumenda modi accusantium aut.",
+      "Id": 894,
+      "Name": "Olson Inc and Sons",
+      "ToolTip": "Adipisci officia ipsa consequatur.",
       "Deleted": false,
-      "Rank": 702,
-      "Type": "et",
-      "ColorBlock": 553,
-      "IconHint": "et",
+      "Rank": 204,
+      "Type": "omnis",
+      "ColorBlock": 715,
+      "IconHint": "nemo",
       "Selected": false,
-      "LastChanged": "1998-11-26T13:28:22.1636887+01:00",
+      "LastChanged": "2016-06-12T04:02:01.4092709+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Miss Josefa Vandervort",
+      "ExtraInfo": "sed",
+      "StyleHint": "quo",
+      "Hidden": true,
+      "FullName": "Harmon Jammie Funk V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldLength": 437
         }
       }
     }
   ],
-  "TzLocationId": 357,
+  "TzLocationId": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 453
     }
   }

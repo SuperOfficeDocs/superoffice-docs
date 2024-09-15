@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 916,
-  "BlobSize": 830,
-  "Description": "Managed system-worthy capability",
-  "ExtraInfo": "eaque",
+  "BlobId": 472,
+  "BlobSize": 87,
+  "Description": "Devolved responsive circuit",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 633,
-  "CreatedDate": "1999-11-02T13:28:31.8354545+01:00",
-  "UpdatedDate": "2019-05-11T13:28:31.8354545+02:00",
+  "IsZipped": true,
+  "MimeType": "fugit",
+  "OriginalSize": 962,
+  "CreatedDate": "2017-02-03T04:02:06.6972649+01:00",
+  "UpdatedDate": "2014-01-30T04:02:06.6972649+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquid"
+  "ConceptualType": "molestiae"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 751,
-  "BlobSize": 621,
-  "Description": "Mandatory discrete time-frame",
-  "ExtraInfo": "expedita",
-  "IsEncrypted": true,
+  "BlobId": 771,
+  "BlobSize": 453,
+  "Description": "Re-contextualized cohesive Graphical User Interface",
+  "ExtraInfo": "minima",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "suscipit",
-  "OriginalSize": 900,
-  "CreatedDate": "2015-10-24T13:28:31.8354545+02:00",
-  "UpdatedDate": "2021-05-06T13:28:31.8354545+02:00",
+  "MimeType": "in",
+  "OriginalSize": 748,
+  "CreatedDate": "2002-03-18T04:02:06.6972649+01:00",
+  "UpdatedDate": "2000-12-06T04:02:06.6972649+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste",
+  "ConceptualType": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

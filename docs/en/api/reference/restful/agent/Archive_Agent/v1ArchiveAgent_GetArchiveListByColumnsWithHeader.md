@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kirlin-Ward",
+  "ProviderName": "Medhurst, Morissette and Shields",
   "Columns": [
-    "blanditiis",
-    "aliquid"
+    "illum",
+    "nihil"
   ],
   "SortOrder": [
     {
-      "Name": "Weimann-Will",
+      "Name": "Schuppe-Wisozk",
       "Direction": "ASC"
     },
     {
-      "Name": "Weimann-Will",
+      "Name": "Schuppe-Wisozk",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mitchell Group",
-      "Operator": "dolor",
+      "Name": "Boyle Inc and Sons",
+      "Operator": "minima",
       "Values": [
-        "autem",
-        "et"
+        "doloribus",
+        "velit"
       ],
       "DisplayValues": [
-        "quo",
-        "aut"
+        "asperiores",
+        "occaecati"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 91,
+      "InterParenthesis": 758,
       "InterOperator": "And",
-      "UniqueHash": 709
+      "UniqueHash": 958
     }
   ],
   "Entities": [
-    "quod",
-    "error"
+    "iusto",
+    "eius"
   ],
-  "Page": 468,
-  "PageSize": 838,
-  "Options": "non"
+  "Page": 572,
+  "PageSize": 586,
+  "Options": "et"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 156,
+  "RowCount": 216,
   "Rows": [
     {
-      "EntityName": "Ryan-Torp",
-      "PrimaryKey": 735,
+      "EntityName": "Hudson, Sanford and McLaughlin",
+      "PrimaryKey": 994,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "nulla",
-          "LinkHint": "et"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "beatae",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "eum",
+      "LinkHint": "cupiditate",
+      "StyleHint": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldLength": 480
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 804
     }
   }
 }

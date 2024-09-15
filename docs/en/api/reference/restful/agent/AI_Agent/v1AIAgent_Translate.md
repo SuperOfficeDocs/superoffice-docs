@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "perferendis",
-  "TargetLanguage": "aut"
+  "Text": "maxime",
+  "TargetLanguage": "perferendis"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cumque"
+"ab"
 ```

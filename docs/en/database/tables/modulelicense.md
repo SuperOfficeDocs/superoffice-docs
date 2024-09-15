@@ -2,10 +2,10 @@
 uid: table-ModuleLicense
 title: ModuleLicense table
 description: Module licenses, belonging to one single owner
-generated: true
+so.generated: true
 keywords: database table ModuleLicense
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ModuleLicense Table (237)

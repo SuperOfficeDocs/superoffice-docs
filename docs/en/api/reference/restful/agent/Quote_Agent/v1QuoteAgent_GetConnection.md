@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 263
+  "QuoteConnectionId": 542
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 95,
-  "ERPName": "Mraz-Emmerich",
-  "DisplayName": "Streich Inc and Sons",
-  "DisplayDescription": "Proactive non-volatile migration",
-  "Rank": 893,
-  "ConnectorName": "Roberts, Goldner and Pfannerstill",
-  "ErpConnectionId": 700,
-  "ExtraData": "quidem",
+  "QuoteConnectionId": 265,
+  "ERPName": "Connelly, Conroy and Considine",
+  "DisplayName": "Carroll LLC",
+  "DisplayDescription": "Phased bi-directional process improvement",
+  "Rank": 855,
+  "ConnectorName": "Jerde Inc and Sons",
+  "ErpConnectionId": 877,
+  "ExtraData": "aut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 344,
-      "ERPPriceListKey": "voluptate",
-      "QuoteConnectionId": 730,
-      "Name": "Larson-Sporer",
-      "Description": "Balanced neutral budgetary management",
-      "Currency": "totam",
-      "CurrencyName": "Daugherty Group",
-      "ValidFrom": "1999-01-31T13:28:23.5698866+01:00",
-      "ValidTo": "2010-05-26T13:28:23.5698866+02:00",
-      "IsActive": false,
+      "PriceListId": 925,
+      "ERPPriceListKey": "quaerat",
+      "QuoteConnectionId": 840,
+      "Name": "Rath, Grimes and Moen",
+      "Description": "Balanced asynchronous flexibility",
+      "Currency": "ea",
+      "CurrencyName": "Robel-Wyman",
+      "ValidFrom": "2002-07-08T04:02:02.2065837+02:00",
+      "ValidTo": "2021-06-21T04:02:02.2065837+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 472
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    866,
-    282
+    521,
+    527
   ],
   "AssociateAccessIds": [
-    885,
-    578
+    468,
+    85
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

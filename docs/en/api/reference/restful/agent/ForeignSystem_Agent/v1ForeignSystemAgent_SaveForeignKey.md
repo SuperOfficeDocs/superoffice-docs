@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Ferry LLC",
-  "DeviceName": "Hilpert, Breitenberg and Eichmann",
-  "DeviceIdentifier": "dolor"
+  "ApplicationName": "Gibson-Ernser",
+  "DeviceName": "Morissette-Thompson",
+  "DeviceIdentifier": "assumenda"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fugit",
-  "Value": "nostrum",
-  "RecordId": 315,
-  "CreatedDate": "2021-01-26T13:28:22.8510314+01:00",
-  "UpdatedDate": "2014-09-13T13:28:22.8510314+02:00",
-  "UpdatedBy": "sapiente",
-  "CreatedBy": "dicta",
-  "TableName": "Upton Inc and Sons",
+  "Key": "deserunt",
+  "Value": "iusto",
+  "RecordId": 272,
+  "CreatedDate": "1999-01-12T04:02:01.8003604+01:00",
+  "UpdatedDate": "1997-05-09T04:02:01.8003604+02:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "est",
+  "TableName": "Windler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 686
     }
   }
 }

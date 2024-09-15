@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 851,
-  "LanguageCode": "rem"
+  "DocumentTemplateId": 84,
+  "LanguageCode": "magnam"
 }
 ```
 

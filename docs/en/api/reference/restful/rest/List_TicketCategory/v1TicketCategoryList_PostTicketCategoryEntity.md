@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 376,
-  "ParentId": 366,
-  "Name": "Rohan, Moen and Lehner",
-  "Fullname": "voluptatem",
-  "CategoryMaster": 1000,
+  "TicketCategoryId": 590,
+  "ParentId": 472,
+  "Name": "Johns, Trantow and Wisozk",
+  "Fullname": "nesciunt",
+  "CategoryMaster": 445,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Durgan-Krajcik",
+  "ExternalName": "Jacobi Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 928,
-  "ReplyTemplate": 905,
-  "NotificationEmail": "laron@starkmuller.com",
+  "AssignmentLag": 644,
+  "ReplyTemplate": 246,
+  "NotificationEmail": "prince@beatty.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 294,
+  "EffectiveReplyTemplateId": 81,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "non"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "enim"
+    "CustomFields1": "omnis",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 192,
-  "ParentId": 977,
-  "Name": "Stroman-Schumm",
-  "Fullname": "delectus",
-  "CategoryMaster": 773,
+  "TicketCategoryId": 629,
+  "ParentId": 203,
+  "Name": "Reilly LLC",
+  "Fullname": "deleniti",
+  "CategoryMaster": 147,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jast LLC",
+  "ExternalName": "Armstrong, Mante and Gorczany",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 247,
-  "ReplyTemplate": 894,
-  "NotificationEmail": "dylan_haag@donnelly.info",
+  "AssignmentLag": 457,
+  "ReplyTemplate": 869,
+  "NotificationEmail": "arno@hodkiewiczkihn.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 932,
+  "EffectiveReplyTemplateId": 525,
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "et",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "quo"
+    "CustomFields1": "veniam",
+    "CustomFields2": "facilis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 780
     }
   }
 }

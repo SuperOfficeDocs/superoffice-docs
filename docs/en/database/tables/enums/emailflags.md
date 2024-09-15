@@ -2,10 +2,10 @@
 uid: enum-emailflags
 title: Enum values for EMailFlags
 description: Lists the enum values for EMailFlags.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # EMailFlags Enum

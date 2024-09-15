@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 886,
-    "Name": "Jaskolski Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "Rank": 161,
-    "UdListDefinitionId": 189,
+    "HeadingId": 657,
+    "Name": "Smitham Group",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 102,
+    "UdListDefinitionId": 250,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

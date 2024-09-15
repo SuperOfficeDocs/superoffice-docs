@@ -2,10 +2,10 @@
 uid: table-outgoing_message
 title: outgoing_message table
 description: Delivery of outgoing messages to messageplugins, updated with status asynchroneously
-generated: true
+so.generated: true
 keywords: database table outgoing_message
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # outgoing\_message Table (407)

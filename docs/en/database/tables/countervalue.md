@@ -2,10 +2,10 @@
 uid: table-CounterValue
 title: CounterValue table
 description: Visible for rights
-generated: true
+so.generated: true
 keywords: database table CounterValue
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CounterValue Table (197)

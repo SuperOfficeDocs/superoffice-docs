@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 730,
-  "PersonId": 460,
-  "AppointmentId": 648,
-  "DocumentId": 91,
-  "SaleId": 60,
-  "SelectionId": 6,
-  "ProjectId": 872,
-  "UiCulture": "sunt"
+  "ContactId": 437,
+  "PersonId": 905,
+  "AppointmentId": 226,
+  "DocumentId": 897,
+  "SaleId": 786,
+  "SelectionId": 423,
+  "ProjectId": 337,
+  "UiCulture": "velit"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 384,
+  "DocumentId": 215,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laudantium",
-  "Header": "quisquam",
-  "Name": "Bogisich LLC",
-  "OurRef": "et",
-  "YourRef": "similique",
-  "CreatedDate": "2009-10-06T13:28:22.5698454+02:00",
-  "UpdatedDate": "1997-11-03T13:28:22.5698454+01:00",
-  "Description": "Open-architected systematic strategy",
+  "Attention": "necessitatibus",
+  "Header": "ratione",
+  "Name": "Volkman, Ratke and Hermiston",
+  "OurRef": "quis",
+  "YourRef": "est",
+  "CreatedDate": "1997-05-30T04:02:01.6436305+02:00",
+  "UpdatedDate": "1998-02-16T04:02:01.6436305+01:00",
+  "Description": "Optional 4th generation methodology",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-04-15T13:28:22.5698454+02:00",
-  "ExternalRef": "quasi",
+  "Date": "2016-03-25T04:02:01.6436305+01:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 846,
+  "ActiveLinks": 898,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leffler Group",
-      "Id": 679,
-      "Description": "Switchable system-worthy paradigm",
-      "ExtraInfo": "nihil",
-      "LinkId": 111,
+      "EntityName": "Goyette-Gerhold",
+      "Id": 199,
+      "Description": "Distributed fresh-thinking middleware",
+      "ExtraInfo": "asperiores",
+      "LinkId": 552,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 916
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 740,
-  "Snum": 540,
+  "SuggestedDocumentId": 215,
+  "Snum": 885,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Halle Bode"
+    "SuperOffice:1": "725809722",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "quam"
+    "CustomFields1": "maxime",
+    "CustomFields2": "ullam"
   },
-  "PublishEventDate": "2019-07-05T13:28:22.585469+02:00",
-  "PublishTo": "2000-12-01T13:28:22.585469+01:00",
-  "PublishFrom": "2020-04-25T13:28:22.585469+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-04-08T04:02:01.6436305+02:00",
+  "PublishTo": "2005-12-14T04:02:01.6436305+01:00",
+  "PublishFrom": "1997-08-24T04:02:01.6436305+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 955,
+      "VisibleId": 670,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     },
     {
-      "VisibleId": 955,
+      "VisibleId": 670,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 396
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 359,
-  "Created": "2014-08-13T13:28:23.6011243+02:00",
+  "SatelliteId": 613,
+  "Created": "1999-01-07T04:02:02.2222071+01:00",
   "CreatedBy": null,
-  "Updated": "2010-04-18T13:28:23.6011243+02:00",
+  "Updated": "2005-08-18T04:02:02.2222071+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kozey-Frami",
-      "Description": "Profit-focused incremental matrices",
+      "Name": "Kessler-Mann",
+      "Description": "Business-focused attitude-oriented installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldType": "System.String",
+          "FieldLength": 479
         }
       }
     },
     {
-      "Name": "Kozey-Frami",
-      "Description": "Profit-focused incremental matrices",
+      "Name": "Kessler-Mann",
+      "Description": "Business-focused attitude-oriented installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldType": "System.String",
+          "FieldLength": 479
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 907
     }
   }
 }

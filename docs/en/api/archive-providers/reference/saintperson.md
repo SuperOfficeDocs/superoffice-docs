@@ -317,6 +317,8 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -327,12 +329,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -431,12 +433,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/associateDbId|associate|ID| x |
-|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/associateDbId|associate|ID| x |
+|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -535,12 +537,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
 |document/associate/isLocation|bool|Is a location: Is a location| x |
-|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
-|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
+|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
 |document/documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
@@ -639,12 +641,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personUdef/SuperOffice:6|bool|contactcheckbox| x |
 |personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |personUdef/SuperOffice:8|decimal|contactdecimal| x |
-|personUdef/SuperOffice:9|string|page1saleonly| x |
-|personUdef/SuperOffice:10|string|page1marketingonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:9|string|page1saleonly| x |
+|personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
@@ -747,7 +749,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=mainContact,sale/saleUdef/SuperOffice:2,targetRelation/mainContact
+GET /api/v1/archive/SaintPerson?$select=postAddress/zip,postAddress/state,streetAddress/zip,contactAssociate/personEmail,saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 348,
-  "PrefDescId": 871,
-  "PrefValue": "quia",
-  "PrefShowValue": "temporibus",
-  "Description": "Enhanced solution-oriented task-force",
-  "IsBuiltin": true
+  "PrefDescLineId": 613,
+  "PrefDescId": 488,
+  "PrefValue": "labore",
+  "PrefShowValue": "ab",
+  "Description": "Decentralized tertiary architecture",
+  "IsBuiltin": false
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 280,
-  "PrefDescId": 109,
-  "PrefValue": "et",
-  "PrefShowValue": "fuga",
-  "Description": "Open-architected exuding data-warehouse",
+  "PrefDescLineId": 945,
+  "PrefDescId": 243,
+  "PrefValue": "beatae",
+  "PrefShowValue": "omnis",
+  "Description": "Quality-focused multi-tasking methodology",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 424
     }
   }
 }

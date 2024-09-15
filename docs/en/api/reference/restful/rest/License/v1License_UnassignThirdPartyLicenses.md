@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 295,
-    "Tooltip": "alias",
-    "CanAssign": true,
-    "Free": 830,
-    "InUse": 524,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 583,
-    "Name": "Kiehn LLC",
-    "Description": "Cross-group logistical knowledge base",
-    "PrerequisiteModuleName": "Dach-Rempel",
-    "SortOrder": 424,
-    "ExtraFlags": 111,
+    "Unrestricted": true,
+    "Total": 26,
+    "Tooltip": "et",
+    "CanAssign": false,
+    "Free": 817,
+    "InUse": 449,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 341,
+    "Name": "Watsica LLC",
+    "Description": "Re-contextualized dynamic function",
+    "PrerequisiteModuleName": "Brekke-Hyatt",
+    "SortOrder": 334,
+    "ExtraFlags": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   }

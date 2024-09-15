@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 698,
-    "Name": "Quigley, O'Kon and Quigley",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 722,
-    "UdListDefinitionId": 578,
+    "HeadingId": 890,
+    "Name": "Lynch-Dach",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 735,
+    "UdListDefinitionId": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 909
+        "FieldLength": 930
       }
     }
   }

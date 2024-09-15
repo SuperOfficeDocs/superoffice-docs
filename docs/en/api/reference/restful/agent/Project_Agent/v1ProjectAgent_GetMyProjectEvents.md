@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Dwight Leffler",
-    "Description": "Distributed real-time encryption",
-    "ProjectId": 763,
-    "EventName": "Trantow-Graham",
-    "AssociateId": 550,
+    "AssociateFullName": "Jason Willa Ernser Jr.",
+    "Description": "Centralized contextually-based parallelism",
+    "ProjectId": 958,
+    "EventName": "Huel-Barrows",
+    "AssociateId": 179,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "modi",
-    "SignOffText": "iusto",
-    "SignOnConfirmationText": "dolorum",
-    "SignOnText": "pariatur",
-    "EventDate": "2007-04-07T13:28:23.476154+02:00",
+    "SignOffConfirmationText": "omnis",
+    "SignOffText": "quo",
+    "SignOnConfirmationText": "minus",
+    "SignOnText": "qui",
+    "EventDate": "2000-09-18T04:02:02.1597135+02:00",
     "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOff": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 393,
-    "SignOnTaskId": 871,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 166,
-    "SignOffPersonId": 101,
+    "SignOffTaskId": 33,
+    "SignOnTaskId": 277,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 678,
+    "SignOffPersonId": 430,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 836
       }
     }
   }

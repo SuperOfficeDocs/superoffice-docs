@@ -2,10 +2,10 @@
 uid: table-login
 title: login table
 description: This table contains entries for the user sessions. 
-generated: true
+so.generated: true
 keywords: database table login
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # login Table (297)

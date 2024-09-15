@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 906,
-  "ParentId": 222,
-  "Name": "Shanahan, Treutel and Hilll",
-  "Fullname": "in",
-  "CategoryMaster": 721,
+  "TicketCategoryId": 116,
+  "ParentId": 227,
+  "Name": "Waelchi Group",
+  "Fullname": "possimus",
+  "CategoryMaster": 835,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cronin Group",
+  "ExternalName": "Terry-Spinka",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 315,
-  "ReplyTemplate": 736,
-  "NotificationEmail": "davon@crist.uk",
+  "AssignmentLag": 749,
+  "ReplyTemplate": 902,
+  "NotificationEmail": "adolfo_hammes@larkin.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 662,
+  "EffectiveReplyTemplateId": 892,
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "fuga",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 191
     }
   }
 }

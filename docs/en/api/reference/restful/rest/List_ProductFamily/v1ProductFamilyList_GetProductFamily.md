@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Robel, Wolff and Keeling",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "UdListDefinitionId": 54,
-  "Rank": 629,
+  "Id": 830,
+  "Name": "Willms Inc and Sons",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "UdListDefinitionId": 461,
+  "Rank": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 295
     }
   }
 }

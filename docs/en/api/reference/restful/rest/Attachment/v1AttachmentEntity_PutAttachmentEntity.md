@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 148,
-  "Name": "Crooks-Fisher",
-  "ContentType": "commodi",
-  "AttSize": 767,
+  "AttachmentId": 344,
+  "Name": "Murazik-Sauer",
+  "ContentType": "eum",
+  "AttSize": 609,
   "InlineImage": false,
-  "ContentId": "deleniti",
-  "AuthKey": "provident",
+  "ContentId": "deserunt",
+  "AuthKey": "placeat",
   "IsSafeFileExtension": true
 }
 ```
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 547,
-  "Name": "Frami LLC",
-  "ContentType": "inventore",
-  "AttSize": 538,
+  "AttachmentId": 822,
+  "Name": "Jacobs-Yost",
+  "ContentType": "voluptas",
+  "AttSize": 973,
   "InlineImage": false,
-  "ContentId": "qui",
-  "AuthKey": "quae",
+  "ContentId": "ea",
+  "AuthKey": "tempora",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   },
   "_Links": {

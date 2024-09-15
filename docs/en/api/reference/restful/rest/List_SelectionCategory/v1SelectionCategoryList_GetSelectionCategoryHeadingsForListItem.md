@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Boyle, Stroman and Crona",
-    "ToolTip": "Neque facilis.",
-    "Deleted": false,
-    "Rank": 878,
-    "Type": "qui",
-    "ColorBlock": 279,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "1999-12-25T13:28:33.1794796+01:00",
+    "Id": 899,
+    "Name": "Koepp, Strosin and Kulas",
+    "ToolTip": "Ipsum dolores cum quia facere ex vel.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "dolores",
+    "ColorBlock": 378,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2014-06-13T04:02:07.4167631+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Murphy Group",
-        "ToolTip": "Sunt deserunt nihil perspiciatis dolorum velit rerum possimus.",
+        "Id": 698,
+        "Name": "Johnston, Auer and Hartmann",
+        "ToolTip": "Possimus necessitatibus optio quis autem.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "et",
-        "ColorBlock": 429,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2005-04-17T13:28:33.1794796+02:00",
+        "Rank": 849,
+        "Type": "quae",
+        "ColorBlock": 49,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2017-07-26T04:02:07.4167631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "est",
+        "ExtraInfo": "dolor",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Lenora Champlin",
+        "FullName": "Kasey Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldLength": 561
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "veniam",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Imani Colton Padberg DVM",
+    "FullName": "Dora Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 749
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Watsica-Cummerata",
-  "ParameterName": "Gerlach, Howe and Fay"
+  "LayoutName": "Walker-Crona",
+  "ParameterName": "Schamberger, Klein and Bernhard"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 333,
-  "Name": "Gutkowski Group",
-  "Value": "dolor",
-  "CreatedDate": "2014-03-27T13:28:21.8356378+01:00",
-  "UpdatedDate": "2018-12-06T13:28:21.8356378+01:00",
-  "CreatedBy": "ea",
-  "UpdatedBy": "doloremque",
+  "AudienceLayoutId": 326,
+  "Name": "Schroeder Inc and Sons",
+  "Value": "sit",
+  "CreatedDate": "1999-10-18T04:02:01.221786+02:00",
+  "UpdatedDate": "2017-03-28T04:02:01.221786+02:00",
+  "CreatedBy": "laudantium",
+  "UpdatedBy": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 841
     }
   }
 }

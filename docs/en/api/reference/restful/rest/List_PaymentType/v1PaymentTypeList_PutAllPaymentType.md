@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Schroeder, Rice and Hartmann",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 431,
-    "Rank": 965
+    "Id": 787,
+    "Name": "Spinka-Heathcote",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "UdListDefinitionId": 333,
+    "Rank": 140
   },
   {
-    "Id": 912,
-    "Name": "Schroeder, Rice and Hartmann",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 431,
-    "Rank": 965
+    "Id": 787,
+    "Name": "Spinka-Heathcote",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "UdListDefinitionId": 333,
+    "Rank": 140
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Kulas Group",
-    "Tooltip": "quos",
+    "Id": 941,
+    "Name": "Russel-Little",
+    "Tooltip": "at",
     "Deleted": false,
-    "UdListDefinitionId": 279,
-    "Rank": 702,
+    "UdListDefinitionId": 925,
+    "Rank": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 207
       }
     }
   }

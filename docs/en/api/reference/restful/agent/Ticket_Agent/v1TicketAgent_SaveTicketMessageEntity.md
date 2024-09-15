@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 518,
+  "EjMessageId": 265,
   "Ticket": null,
-  "CreatedAt": "2003-01-01T13:28:23.8979323+01:00",
+  "CreatedAt": "2015-01-08T04:02:02.3942465+01:00",
   "CreatedBy": null,
-  "Author": "animi",
+  "Author": "odio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "error",
-  "TimeSpent": 793,
-  "Body": "alias",
-  "HtmlBody": "beatae",
-  "EmailHeader": "katelynn.schroeder@lakin.name",
-  "DebugInfo": "voluptates",
-  "MailSorter": "soluta",
+  "MessageId": "ut",
+  "TimeSpent": 874,
+  "Body": "animi",
+  "HtmlBody": "inventore",
+  "EmailHeader": "berenice@balistreri.us",
+  "DebugInfo": "quae",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 815,
-      "Name": "White-McGlynn",
-      "Value": "perspiciatis",
+      "Id": 136,
+      "Name": "Kuvalis Inc and Sons",
+      "Value": "eligendi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 815,
-      "Name": "White-McGlynn",
-      "Value": "perspiciatis",
+      "Id": 136,
+      "Name": "Kuvalis Inc and Sons",
+      "Value": "eligendi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "consequuntur",
-  "Sentiment": 265,
-  "SentimentConfidence": 881,
+  "Language": "rem",
+  "Sentiment": 768,
+  "SentimentConfidence": 531,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 838,
-      "Name": "Conroy-Padberg",
-      "ContentType": "impedit",
-      "AttSize": 515,
+      "AttachmentId": 539,
+      "Name": "Willms Group",
+      "ContentType": "non",
+      "AttSize": 852,
       "InlineImage": false,
-      "ContentId": "quia",
-      "AuthKey": "nostrum",
+      "ContentId": "voluptatem",
+      "AuthKey": "et",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "odio"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "fugit",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 275,
+  "EjMessageId": 22,
   "Ticket": null,
-  "CreatedAt": "2008-07-29T13:28:23.8979323+02:00",
+  "CreatedAt": "2013-07-19T04:02:02.3942465+02:00",
   "CreatedBy": null,
-  "Author": "adipisci",
+  "Author": "quibusdam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 909,
-  "Body": "eius",
-  "HtmlBody": "voluptate",
-  "EmailHeader": "herbert_ritchie@gibson.info",
-  "DebugInfo": "libero",
-  "MailSorter": "est",
+  "MessageId": "a",
+  "TimeSpent": 419,
+  "Body": "numquam",
+  "HtmlBody": "possimus",
+  "EmailHeader": "lilliana.hane@heaneygrant.co.uk",
+  "DebugInfo": "optio",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nihil",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 915,
-      "Name": "Parker-Sauer",
-      "Value": "asperiores",
+      "Id": 584,
+      "Name": "Wuckert-Herzog",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 378
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ex",
-  "Sentiment": 246,
-  "SentimentConfidence": 197,
+  "Language": "excepturi",
+  "Sentiment": 436,
+  "SentimentConfidence": 177,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 387,
-      "Name": "Ernser-Tromp",
-      "ContentType": "quisquam",
-      "AttSize": 30,
+      "AttachmentId": 379,
+      "Name": "Harber Inc and Sons",
+      "ContentType": "iste",
+      "AttSize": 446,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "nemo",
-      "IsSafeFileExtension": true,
+      "ContentId": "dolores",
+      "AuthKey": "a",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldLength": 85
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "est"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 835
     }
   }
 }

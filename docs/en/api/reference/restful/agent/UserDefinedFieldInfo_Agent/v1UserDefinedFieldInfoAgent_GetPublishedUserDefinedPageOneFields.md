@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 633
+  "UserGroupId": 728
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 252,
-    "ColumnId": 839,
-    "FieldDefault": "assumenda",
-    "FieldHeight": 908,
-    "FieldLabel": "cumque",
-    "FieldLeft": 168,
-    "FieldTop": 500,
+    "UDefFieldId": 588,
+    "ColumnId": 284,
+    "FieldDefault": "sint",
+    "FieldHeight": 945,
+    "FieldLabel": "eum",
+    "FieldLeft": 12,
+    "FieldTop": 744,
     "FieldType": "Checkbox",
-    "FieldWidth": 347,
-    "FormatMask": "eum",
-    "HideLabel": true,
+    "FieldWidth": 131,
+    "FormatMask": "explicabo",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 950,
-    "LabelLeft": 995,
-    "LabelTop": 716,
-    "LabelWidth": 167,
-    "LastVersionId": 845,
-    "ListTableId": 561,
-    "IsMandatory": false,
+    "LabelHeight": 85,
+    "LabelLeft": 111,
+    "LabelTop": 568,
+    "LabelWidth": 512,
+    "LastVersionId": 516,
+    "ListTableId": 492,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 263,
-    "ProgId": "aut",
-    "IsReadOnly": true,
-    "ShortLabel": "quod",
-    "TabOrder": 5,
-    "TextLength": 217,
-    "Tooltip": "mollitia",
-    "UdefIdentity": 91,
-    "UDListDefinitionId": 45,
+    "Page1LineNo": 181,
+    "ProgId": "rerum",
+    "IsReadOnly": false,
+    "ShortLabel": "veniam",
+    "TabOrder": 206,
+    "TextLength": 573,
+    "Tooltip": "enim",
+    "UdefIdentity": 223,
+    "UDListDefinitionId": 637,
     "Justification": "Center",
-    "Version": 680,
-    "TemplateVariableName": "Kirlin, Lebsack and Nolan",
+    "Version": 533,
+    "TemplateVariableName": "Nader LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Cronin LLC",
+    "MdoListName": "Miller, Simonis and Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 326
       }
     }
   }

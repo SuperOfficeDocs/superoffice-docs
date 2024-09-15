@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 124,
-  "Field": "et",
-  "RecordId": 123,
+  "RefCountsId": 103,
+  "Field": "natus",
+  "RecordId": 539,
   "SuggestedRecords": [
     {
-      "Id": 49,
-      "Name": "Franecki, Kovacek and Powlowski",
-      "ToolTip": "Voluptas mollitia ut voluptatem voluptates voluptate in.",
+      "Id": 89,
+      "Name": "Abernathy-McCullough",
+      "ToolTip": "Laudantium totam eius qui sunt.",
       "Deleted": false,
-      "Rank": 712,
-      "Type": "quis",
+      "Rank": 626,
+      "Type": "velit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 501,
-      "ExtraInfo": "ut",
-      "StyleHint": "rerum",
-      "FullName": "Edythe Koss",
+      "IconHint": "aliquid",
+      "ColorBlock": 762,
+      "ExtraInfo": "incidunt",
+      "StyleHint": "nisi",
+      "FullName": "Prof. Krystel Jerde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 913
         }
       }
     }
   ],
-  "CurrentValue": 231,
-  "TravelPrefix": 429,
-  "SatPrefix": 758,
-  "Allocate": false,
+  "CurrentValue": 5,
+  "TravelPrefix": 897,
+  "SatPrefix": 584,
+  "Allocate": true,
   "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

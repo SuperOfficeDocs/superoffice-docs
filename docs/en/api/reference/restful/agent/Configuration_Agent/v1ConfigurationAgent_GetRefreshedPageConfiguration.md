@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sunt",
-  "Instance": "minima",
-  "Page": "voluptatum"
+  "Application": "dicta",
+  "Instance": "assumenda",
+  "Page": "dolores"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"animi"
+"sunt"
 ```

@@ -2,10 +2,10 @@
 uid: table-BaseTZLocation
 title: BaseTZLocation table
 description: Time zone location for the database (how tz-related datetimes should be stored in the database)
-generated: true
+so.generated: true
 keywords: database table BaseTZLocation
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # BaseTZLocation Table (248)

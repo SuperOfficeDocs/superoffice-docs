@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 447,
-    "ColumnId": 531,
-    "FieldDefault": "saepe",
-    "FieldHeight": 449,
-    "FieldLabel": "vero",
-    "FieldLeft": 655,
-    "FieldTop": 471,
+    "UDefFieldId": 460,
+    "ColumnId": 529,
+    "FieldDefault": "neque",
+    "FieldHeight": 297,
+    "FieldLabel": "impedit",
+    "FieldLeft": 607,
+    "FieldTop": 845,
     "FieldType": "Checkbox",
-    "FieldWidth": 460,
-    "FormatMask": "aliquam",
-    "HideLabel": true,
+    "FieldWidth": 265,
+    "FormatMask": "autem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 708,
-    "LabelLeft": 462,
-    "LabelTop": 336,
-    "LabelWidth": 552,
-    "LastVersionId": 699,
-    "ListTableId": 45,
+    "LabelHeight": 598,
+    "LabelLeft": 487,
+    "LabelTop": 688,
+    "LabelWidth": 757,
+    "LastVersionId": 248,
+    "ListTableId": 671,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 419,
-    "ProgId": "atque",
+    "Page1LineNo": 583,
+    "ProgId": "eum",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 315,
-    "TextLength": 153,
-    "Tooltip": "et",
-    "UdefIdentity": 100,
-    "UDListDefinitionId": 422,
+    "ShortLabel": "ab",
+    "TabOrder": 841,
+    "TextLength": 66,
+    "Tooltip": "praesentium",
+    "UdefIdentity": 858,
+    "UDListDefinitionId": 178,
     "Justification": "Center",
-    "Version": 179,
-    "TemplateVariableName": "Donnelly, Leannon and Lemke",
-    "HasBeenPublished": false,
-    "MdoListName": "Mosciski, Weber and Collins",
+    "Version": 784,
+    "TemplateVariableName": "Bergstrom Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Stracke, Altenwerth and Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

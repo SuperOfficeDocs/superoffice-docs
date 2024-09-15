@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 129,
-    "Name": "Mohr, Daniel and Spencer",
-    "ConsentText": "ipsa",
-    "FormText": "qui",
-    "Key": "minus",
-    "Tooltip": "omnis",
-    "Active": 664,
-    "UpdatedDate": "2006-12-06T13:28:32.7260108+01:00",
+    "ConsentPurposeId": 290,
+    "Name": "Hahn, Hills and Gleason",
+    "ConsentText": "mollitia",
+    "FormText": "minima",
+    "Key": "ex",
+    "Tooltip": "commodi",
+    "Active": 709,
+    "UpdatedDate": "2000-01-19T04:02:07.1034721+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 883,
-    "PrivacyStatementDesc": "aut",
+    "Deleted": true,
+    "Rank": 461,
+    "PrivacyStatementDesc": "quaerat",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 607
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 867
+  "SaleId": 145
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 162,
-  "SaleId": 335,
-  "QuoteConnectionId": 341,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "tenetur",
-  "ActiveQuoteVersionId": 376,
-  "AcceptedQuoteAlternativeId": 954,
-  "UseValuesFromQuote": 25,
-  "DocumentId": 156,
-  "PoNumber": "518118",
-  "OrderComment": "dolores",
-  "PreferredEmailCulture": "jarod@steuber.us",
+  "QuoteId": 414,
+  "SaleId": 132,
+  "QuoteConnectionId": 682,
+  "ERPQuoteKey": "voluptatem",
+  "ERPOrderKey": "ut",
+  "ActiveQuoteVersionId": 303,
+  "AcceptedQuoteAlternativeId": 980,
+  "UseValuesFromQuote": 93,
+  "DocumentId": 675,
+  "PoNumber": "942703",
+  "OrderComment": "impedit",
+  "PreferredEmailCulture": "tamara@hirthe.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   }
 }

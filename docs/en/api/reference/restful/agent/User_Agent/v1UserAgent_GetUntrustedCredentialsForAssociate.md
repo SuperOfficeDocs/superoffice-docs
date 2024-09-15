@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 722,
-  "Type": "aspernatur"
+  "AssociateId": 187,
+  "Type": "aut"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2008-03-30T13:28:24.1791219+02:00",
-    "ValidTo": "2008-05-06T13:28:24.1791219+02:00",
-    "Comment": "maxime",
-    "SecretValue": "error",
-    "PublicValue": "eveniet",
-    "IsActive": false,
+    "ValidFrom": "2009-10-04T04:02:02.5509753+02:00",
+    "ValidTo": "2018-10-14T04:02:02.5509753+02:00",
+    "Comment": "aut",
+    "SecretValue": "minima",
+    "PublicValue": "suscipit",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 68
       }
     }
   }

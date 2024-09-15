@@ -48,7 +48,7 @@ Lists all batch tasks
 ## Sample
 
 ```http!
-GET /api/v1/archive/BatchTasks?$select=DefinitionId,Response,DbTag
+GET /api/v1/archive/BatchTasks?$select=ProgressPercent,DbTag,DetailsRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

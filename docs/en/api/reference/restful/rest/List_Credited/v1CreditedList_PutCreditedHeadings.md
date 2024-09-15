@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Quigley, Marks and Homenick",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 543,
-    "UdListDefinitionId": 602
+    "HeadingId": 276,
+    "Name": "Schumm, Gaylord and Ortiz",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 695,
+    "UdListDefinitionId": 660
   },
   {
-    "HeadingId": 870,
-    "Name": "Quigley, Marks and Homenick",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 543,
-    "UdListDefinitionId": 602
+    "HeadingId": 276,
+    "Name": "Schumm, Gaylord and Ortiz",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 695,
+    "UdListDefinitionId": 660
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 474,
-    "Name": "Lemke Group",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 982,
+    "Name": "Jones, Mraz and Kemmer",
+    "Tooltip": "occaecati",
     "Deleted": true,
-    "Rank": 168,
-    "UdListDefinitionId": 214,
+    "Rank": 697,
+    "UdListDefinitionId": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

@@ -2,10 +2,10 @@
 uid: table-log_events
 title: log_events table
 description: System log
-generated: true
+so.generated: true
 keywords: database table log_events
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # log\_events Table (364)

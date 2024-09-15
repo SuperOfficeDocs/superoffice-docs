@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 741,
-  "PlainMessage": "minima",
-  "HtmlMessage": "id",
-  "SmsMessage": "porro",
-  "Description": "Integrated neutral superstructure",
-  "Subject": "in",
-  "FolderId": 99,
-  "HeaderField": "ut",
-  "Design": "in",
+  "ShipmentMessageId": 965,
+  "PlainMessage": "quos",
+  "HtmlMessage": "facere",
+  "SmsMessage": "doloribus",
+  "Description": "Inverse fresh-thinking complexity",
+  "Subject": "ut",
+  "FolderId": 343,
+  "HeaderField": "dolorem",
+  "Design": "perferendis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Polarised transitional challenge",
-  "AccessKey": "aut",
-  "DocumentMessage": 529,
-  "Registered": "2013-04-05T13:28:32.2573673+02:00",
-  "RegisteredAssociateId": 504,
-  "Updated": "2002-07-09T13:28:32.2573673+02:00",
-  "UpdatedAssociateId": 669,
-  "UpdatedCount": 351,
+  "LongDescription": "Horizontal scalable matrices",
+  "AccessKey": "dolorum",
+  "DocumentMessage": 18,
+  "Registered": "2000-03-28T04:02:06.837875+02:00",
+  "RegisteredAssociateId": 545,
+  "Updated": "2002-09-01T04:02:06.837875+02:00",
+  "UpdatedAssociateId": 453,
+  "UpdatedCount": 61,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 27
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

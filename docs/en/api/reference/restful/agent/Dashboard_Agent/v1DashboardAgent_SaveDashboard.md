@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 874,
-  "AssociateId": 925,
-  "Caption": "doloribus",
+  "DashboardId": 949,
+  "AssociateId": 344,
+  "Caption": "omnis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 513,
-      "Caption": "dolore",
-      "Description": "Front-line bottom-line access",
-      "ChartName": "Batz LLC",
-      "ChartId": "nostrum",
-      "IsDefault": false,
-      "AssociateId": 587,
-      "GroupId": 171,
-      "SelectionId": 693,
-      "Config": "expedita",
+      "DashboardTileId": 785,
+      "Caption": "similique",
+      "Description": "Function-based analyzing hierarchy",
+      "ChartName": "Wisoky, Mosciski and Stehr",
+      "ChartId": "voluptatem",
+      "IsDefault": true,
+      "AssociateId": 852,
+      "GroupId": 511,
+      "SelectionId": 388,
+      "Config": "ut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 959,
-  "AssociateId": 584,
-  "Caption": "ut",
+  "DashboardId": 325,
+  "AssociateId": 389,
+  "Caption": "ipsum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 160,
-      "Caption": "dolorem",
-      "Description": "Programmable bifurcated infrastructure",
-      "ChartName": "Daugherty, King and Wilderman",
-      "ChartId": "autem",
-      "IsDefault": true,
-      "AssociateId": 550,
-      "GroupId": 629,
-      "SelectionId": 733,
-      "Config": "nihil",
+      "DashboardTileId": 895,
+      "Caption": "et",
+      "Description": "Universal high-level toolset",
+      "ChartName": "Wisozk LLC",
+      "ChartId": "doloremque",
+      "IsDefault": false,
+      "AssociateId": 195,
+      "GroupId": 116,
+      "SelectionId": 840,
+      "Config": "ipsam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldType": "System.String",
+          "FieldLength": 407
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 323
     }
   }
 }

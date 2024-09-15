@@ -656,6 +656,8 @@ Document selection archive using the selectionId as criterionmapping.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -709,7 +711,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=person/hasInfoText,contact/streetAddress/line3,contact/contactAssociate/associateDbId,contact/contactExtra/y_organization/x_name,contact/NumberOfActivitiesInPeriod
+GET /api/v1/archive/DocumentDynamicSelection?$select=contact/contactAssociate/assocType,contact/contactExtra/x_contact_time,associate/personId,sale/updatedDate,sale/associate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

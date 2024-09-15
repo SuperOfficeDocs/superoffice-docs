@@ -655,6 +655,8 @@ Archive provider for Document type activities. This provider can be used on its 
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -708,7 +710,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/birthDay,person/personUrl/URLAddress,person/personExtra/y_rental/x_start,contact/restrictionAddress/zip,contact/LastTicket
+GET /api/v1/archive/Document?$select=person/birthYear,person/personInfo/infoText,person/restrictionAddress/formattedMultiLineAddress,contact/contactAssociate/firstName,contact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

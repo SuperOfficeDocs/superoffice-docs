@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Littel LLC",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "UdListDefinitionId": 276,
-  "Rank": 941,
+  "Id": 91,
+  "Name": "Mills Inc and Sons",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "UdListDefinitionId": 543,
+  "Rank": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 443
     }
   }
 }

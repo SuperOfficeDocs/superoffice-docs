@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Marks-Schmitt",
-    "ToolTip": "Voluptatibus minima adipisci.",
+    "Id": 472,
+    "Name": "Boyer Group",
+    "ToolTip": "Numquam sunt sunt et non.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "dolorem",
-    "ColorBlock": 589,
-    "IconHint": "dignissimos",
-    "Selected": false,
-    "LastChanged": "1998-10-07T13:28:33.1794796+02:00",
+    "Rank": 934,
+    "Type": "quo",
+    "ColorBlock": 428,
+    "IconHint": "praesentium",
+    "Selected": true,
+    "LastChanged": "1999-05-21T04:02:07.4167631+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Denesik Group",
-        "ToolTip": "Laborum omnis dolorem culpa minima placeat nesciunt.",
-        "Deleted": false,
-        "Rank": 706,
-        "Type": "et",
-        "ColorBlock": 886,
-        "IconHint": "sit",
+        "Id": 669,
+        "Name": "Nolan, Dickens and Morar",
+        "ToolTip": "Saepe quis fugit voluptatum unde error.",
+        "Deleted": true,
+        "Rank": 726,
+        "Type": "laborum",
+        "ColorBlock": 888,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2012-01-10T13:28:33.1794796+01:00",
+        "LastChanged": "1998-08-29T04:02:07.4167631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "nihil",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Uriel Jewess"
+        "FullName": "Ms. Charley Susanna McDermott Jr."
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Eloisa Nikolaus"
+    "ExtraInfo": "nihil",
+    "StyleHint": "ipsum",
+    "Hidden": true,
+    "FullName": "Mandy Thompson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Lindgren Group",
-    "ToolTip": "Et ut asperiores quia rerum nulla quisquam aut.",
+    "Id": 35,
+    "Name": "Botsford-Gibson",
+    "ToolTip": "Voluptatem fugit aut temporibus saepe error aut non.",
     "Deleted": false,
-    "Rank": 658,
-    "Type": "atque",
-    "ColorBlock": 736,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2008-07-03T13:28:33.1794796+02:00",
+    "Rank": 949,
+    "Type": "optio",
+    "ColorBlock": 384,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "1997-12-06T04:02:07.4167631+01:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Zulauf Inc and Sons",
-        "ToolTip": "Esse delectus aut nam hic.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "fugiat",
-        "ColorBlock": 520,
-        "IconHint": "et",
+        "Id": 512,
+        "Name": "Herzog LLC",
+        "ToolTip": "Dolores consequuntur iure esse deserunt maiores aperiam ullam.",
+        "Deleted": true,
+        "Rank": 336,
+        "Type": "nostrum",
+        "ColorBlock": 468,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2014-06-21T13:28:33.1794796+02:00",
+        "LastChanged": "2018-12-22T04:02:07.4167631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Demarco Feeney",
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Thelma Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Pasquale Ritchie",
+    "ExtraInfo": "dolor",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Beulah Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

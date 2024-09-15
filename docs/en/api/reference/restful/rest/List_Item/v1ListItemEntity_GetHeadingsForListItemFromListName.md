@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Pfannerstill LLC",
-    "ToolTip": "Ex consectetur earum qui.",
+    "Id": 926,
+    "Name": "Kreiger-Swift",
+    "ToolTip": "Ex libero sequi labore voluptatem eaque est molestiae.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "quo",
-    "ColorBlock": 131,
-    "IconHint": "dolorem",
+    "Rank": 964,
+    "Type": "tempora",
+    "ColorBlock": 652,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "1999-04-02T13:28:32.6479022+02:00",
+    "LastChanged": "2011-10-13T04:02:07.0722253+02:00",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Collier, Reinger and Jones",
-        "ToolTip": "Voluptatum voluptas occaecati velit nobis voluptatem.",
-        "Deleted": false,
-        "Rank": 263,
-        "Type": "possimus",
-        "ColorBlock": 706,
-        "IconHint": "est",
+        "Id": 251,
+        "Name": "Aufderhar Inc and Sons",
+        "ToolTip": "Dolor at inventore rerum provident assumenda libero dolores.",
+        "Deleted": true,
+        "Rank": 938,
+        "Type": "velit",
+        "ColorBlock": 921,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2005-07-12T13:28:32.6479022+02:00",
+        "LastChanged": "2001-03-20T04:02:07.0722253+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "inventore",
+        "ExtraInfo": "modi",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Prof. Haskell Alysson Jewess",
+        "FullName": "Elroy Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 245
+            "FieldLength": 468
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Elliot Thompson",
+    "ExtraInfo": "unde",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Doris O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 620
+        "FieldLength": 833
       }
     }
   }

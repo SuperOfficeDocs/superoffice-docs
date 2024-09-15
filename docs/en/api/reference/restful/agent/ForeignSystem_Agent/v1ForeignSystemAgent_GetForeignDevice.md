@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=407
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=272
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 187,
-  "Name": "Purdy LLC",
-  "CreatedDate": "1997-11-02T13:28:22.8510314+01:00",
-  "UpdatedDate": "2020-01-24T13:28:22.8510314+01:00",
-  "AssociateFullName": "Prof. Trenton Aufderhar MD",
-  "CreatedBy": "autem",
-  "UpdatedBy": "nam",
-  "DeviceIdentifier": "impedit",
-  "ForeignAppId": 709,
+  "ForeignDeviceId": 15,
+  "Name": "Kunde, Hane and Wolf",
+  "CreatedDate": "2020-05-20T04:02:01.8003604+02:00",
+  "UpdatedDate": "2024-08-26T04:02:01.8003604+02:00",
+  "AssociateFullName": "Miss Arielle Ken Anderson IV",
+  "CreatedBy": "animi",
+  "UpdatedBy": "laudantium",
+  "DeviceIdentifier": "qui",
+  "ForeignAppId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 308
     }
   }
 }

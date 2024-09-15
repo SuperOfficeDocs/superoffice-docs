@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 423,
-    "Section": "dolores",
-    "Key": "voluptate",
-    "Name": "Dickinson Group",
+    "PrefDescId": 908,
+    "Section": "quam",
+    "Key": "ut",
+    "Name": "Sawayn Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Customer-focused static Graphical User Interface",
+    "Description": "Open-source human-resource database",
     "IsBuiltin": false,
-    "TableName": "Orn LLC",
-    "UserDefinedListId": 310,
-    "Rank": 345,
-    "SubGroup": "numquam",
-    "MinLevel": 106,
-    "MaxValue": 844,
-    "MinValue": 300,
-    "RequiredLicense": "nobis",
+    "TableName": "Beatty LLC",
+    "UserDefinedListId": 753,
+    "Rank": 730,
+    "SubGroup": "earum",
+    "MinLevel": 36,
+    "MaxValue": 692,
+    "MinValue": 291,
+    "RequiredLicense": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 619
       }
     }
   }

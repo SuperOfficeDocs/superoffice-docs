@@ -2,10 +2,10 @@
 uid: table-Task
 title: Task table
 description: Task list table, activity types, like Phone, Meeting
-generated: true
+so.generated: true
 keywords: database table Task
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Task Table (67)

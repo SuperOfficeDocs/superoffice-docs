@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Hartmann, Ernser and Bechtelar",
-      "EntityOrParentId": 728,
+      "EntityName": "Jenkins Group",
+      "EntityOrParentId": 97,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Hartmann, Ernser and Bechtelar",
-      "EntityOrParentId": 728,
+      "EntityName": "Jenkins Group",
+      "EntityOrParentId": 97,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 322,
-    "Id": 214,
-    "HistoryName": "Luettgen Group",
-    "HistoryId": 389,
-    "AssociateId": 429,
-    "Name": "Parker Inc and Sons",
-    "ItemInfo": "amet",
+    "Rank": 733,
+    "Id": 269,
+    "HistoryName": "Schimmel-Weissnat",
+    "HistoryId": 412,
+    "AssociateId": 242,
+    "Name": "Stanton LLC",
+    "ItemInfo": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 974
       }
     }
   }

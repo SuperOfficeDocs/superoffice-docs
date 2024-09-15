@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Bosco Inc and Sons",
-  "Id": 314
+  "HistoryName": "Bogisich-Stamm",
+  "Id": 511
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 534,
-  "Id": 710,
-  "HistoryName": "Will, Pfannerstill and Shanahan",
-  "HistoryId": 199,
-  "AssociateId": 952,
-  "Name": "Rutherford LLC",
-  "ItemInfo": "facere",
+  "Rank": 862,
+  "Id": 257,
+  "HistoryName": "Gutmann-Rowe",
+  "HistoryId": 710,
+  "AssociateId": 470,
+  "Name": "Funk Group",
+  "ItemInfo": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

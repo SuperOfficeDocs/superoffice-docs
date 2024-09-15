@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Daniel, Bartell and Paucek",
-    "ToolTip": "Inventore et magni ab laboriosam labore maxime tempore.",
+    "Id": 309,
+    "Name": "Konopelski Group",
+    "ToolTip": "Quasi molestias cumque et.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "non",
-    "ColorBlock": 765,
-    "IconHint": "molestiae",
+    "Rank": 231,
+    "Type": "cupiditate",
+    "ColorBlock": 974,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2022-12-18T13:28:33.0384399+01:00",
+    "LastChanged": "2021-05-13T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Doyle LLC",
-        "ToolTip": "Qui veritatis qui.",
-        "Deleted": true,
-        "Rank": 486,
-        "Type": "fugiat",
-        "ColorBlock": 600,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2018-09-10T13:28:33.0384399+02:00",
+        "Id": 299,
+        "Name": "Jakubowski LLC",
+        "ToolTip": "Aut amet.",
+        "Deleted": false,
+        "Rank": 726,
+        "Type": "voluptate",
+        "ColorBlock": 951,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2004-07-03T04:02:07.3534465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Willy Heath Zulauf DVM",
+        "ExtraInfo": "numquam",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Mr. Courtney Alison Graham Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 512
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Jazmin Balistreri",
+    "FullName": "Angus O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldType": "System.String",
+        "FieldLength": 556
       }
     }
   }

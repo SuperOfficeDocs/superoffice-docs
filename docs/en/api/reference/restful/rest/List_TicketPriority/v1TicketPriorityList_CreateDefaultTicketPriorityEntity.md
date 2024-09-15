@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 926,
-  "Name": "Hoppe Inc and Sons",
+  "TicketPriorityId": 776,
+  "Name": "Purdy Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 889,
+  "SortOrder": 426,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 386,
-  "MonStart": "2014-08-02T13:28:33.2263448+02:00",
-  "MonStop": "2013-10-29T13:28:33.2263448+01:00",
-  "TueStart": "2006-05-02T13:28:33.2263448+02:00",
-  "TueStop": "1999-10-26T13:28:33.2263448+02:00",
-  "WedStart": "1997-08-13T13:28:33.2263448+02:00",
-  "WedStop": "1998-10-31T13:28:33.2263448+01:00",
-  "ThuStart": "2007-08-06T13:28:33.2263448+02:00",
-  "ThuStop": "2010-05-03T13:28:33.2263448+02:00",
-  "FriStart": "2007-06-03T13:28:33.2263448+02:00",
-  "FriStop": "2004-01-24T13:28:33.2263448+01:00",
-  "SatStart": "2010-05-30T13:28:33.2263448+02:00",
-  "SatStop": "2015-06-05T13:28:33.2263448+02:00",
-  "SunStart": "2015-11-06T13:28:33.2263448+01:00",
-  "SunStop": "1998-04-25T13:28:33.2263448+02:00",
+  "Deadline": 101,
+  "MonStart": "2009-06-16T04:02:07.447468+02:00",
+  "MonStop": "2021-11-01T04:02:07.447468+01:00",
+  "TueStart": "2013-11-13T04:02:07.447468+01:00",
+  "TueStop": "2007-03-25T04:02:07.447468+02:00",
+  "WedStart": "1998-10-28T04:02:07.447468+01:00",
+  "WedStop": "2017-05-24T04:02:07.447468+02:00",
+  "ThuStart": "2007-02-14T04:02:07.447468+01:00",
+  "ThuStop": "2006-04-30T04:02:07.447468+02:00",
+  "FriStart": "1997-05-09T04:02:07.447468+02:00",
+  "FriStop": "2007-10-21T04:02:07.447468+02:00",
+  "SatStart": "2020-12-11T04:02:07.447468+01:00",
+  "SatStop": "2013-07-27T04:02:07.447468+02:00",
+  "SunStart": "2005-06-16T04:02:07.447468+02:00",
+  "SunStop": "2021-04-22T04:02:07.447468+02:00",
   "NonDates": [
-    "modi",
-    "omnis"
+    "molestiae",
+    "a"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 147,
-      "AlertLevel": 485,
-      "AlertTimeout": 816,
-      "Action": 678,
-      "DelegateTo": 662,
-      "ScriptId": 207,
-      "EmailTo": "buster_yost@leffler.biz",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 177,
-      "ReplyTemplateIdUser": 665,
-      "ReplyTemplateIdCatmast": 307,
-      "ReplyTemplateIdEmail": 534,
-      "RtiCustomerSms": 40,
-      "ReplyTemplateIdUserSms": 536,
-      "ReplyTemplateIdCatmastSms": 372,
-      "ReplyTemplateIdSms": 686,
+      "TicketAlertId": 902,
+      "AlertLevel": 593,
+      "AlertTimeout": 407,
+      "Action": 351,
+      "DelegateTo": 724,
+      "ScriptId": 597,
+      "EmailTo": "bridget.strosin@hahnlittel.co.uk",
+      "SmsTo": "delectus",
+      "ReplyTemplateIdCustomer": 589,
+      "ReplyTemplateIdUser": 76,
+      "ReplyTemplateIdCatmast": 603,
+      "ReplyTemplateIdEmail": 970,
+      "RtiCustomerSms": 982,
+      "ReplyTemplateIdUserSms": 387,
+      "ReplyTemplateIdCatmastSms": 195,
+      "ReplyTemplateIdSms": 596,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

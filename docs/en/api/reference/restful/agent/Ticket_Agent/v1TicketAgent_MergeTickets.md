@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    437,
-    826
+    243,
+    903
   ]
 }
 ```
@@ -150,21 +150,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 875,
-  "Title": "rerum",
-  "CreatedAt": "2021-01-24T13:28:24.0229116+01:00",
-  "LastChanged": "2024-02-04T13:28:24.0229116+01:00",
-  "ReadByOwner": "2020-05-25T13:28:24.0229116+02:00",
-  "ReadByCustomer": "2000-12-22T13:28:24.0229116+01:00",
-  "FirstReadByOwner": "2022-03-29T13:28:24.0229116+02:00",
-  "FirstReadByUser": "2001-08-21T13:28:24.0229116+02:00",
-  "Activate": "2005-12-15T13:28:24.0229116+01:00",
-  "ClosedAt": "2001-07-17T13:28:24.0229116+02:00",
-  "RepliedAt": "2014-07-19T13:28:24.0229116+02:00",
-  "AlertTimeout": "2012-03-25T13:28:24.0229116+02:00",
-  "Deadline": "2004-11-24T13:28:24.0229116+01:00",
+  "TicketId": 67,
+  "Title": "et",
+  "CreatedAt": "2008-11-14T04:02:02.4723634+01:00",
+  "LastChanged": "1997-11-30T04:02:02.4723634+01:00",
+  "ReadByOwner": "2017-01-27T04:02:02.4723634+01:00",
+  "ReadByCustomer": "2014-07-13T04:02:02.4723634+02:00",
+  "FirstReadByOwner": "2024-03-29T04:02:02.4723634+01:00",
+  "FirstReadByUser": "2023-02-21T04:02:02.4723634+01:00",
+  "Activate": "2007-03-29T04:02:02.4723634+02:00",
+  "ClosedAt": "2006-06-15T04:02:02.4723634+02:00",
+  "RepliedAt": "2023-11-04T04:02:02.4723634+01:00",
+  "AlertTimeout": "2024-08-15T04:02:02.4723634+02:00",
+  "Deadline": "2018-10-11T04:02:02.4723634+02:00",
   "CreatedBy": null,
-  "Author": "delectus",
+  "Author": "sed",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -175,162 +175,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "neque",
-      "PersonId": 891,
-      "Mrmrs": "exercitationem",
-      "Firstname": "Maximillia",
-      "Lastname": "Christiansen",
-      "MiddleName": "Purdy, Gerhold and Huels",
-      "Title": "commodi",
-      "Description": "Multi-lateral systemic definition",
-      "Email": "kimberly_hoppe@king.us",
-      "FullName": "Dr. Leta Dach Jr.",
-      "DirectPhone": "(175)478-1093",
-      "FormalName": "Boyer-Kulas",
-      "CountryId": 33,
-      "ContactId": 510,
-      "ContactName": "McLaughlin-Schuppe",
-      "Retired": 901,
-      "Rank": 434,
-      "ActiveInterests": 541,
+      "Position": "veritatis",
+      "PersonId": 907,
+      "Mrmrs": "eaque",
+      "Firstname": "Lesley",
+      "Lastname": "Hackett",
+      "MiddleName": "Hammes Group",
+      "Title": "odit",
+      "Description": "Cross-platform intermediate data-warehouse",
+      "Email": "fanny@spencer.co.uk",
+      "FullName": "Felicity McDermott IV",
+      "DirectPhone": "(969)424-6838 x402",
+      "FormalName": "Stamm-Gaylord",
+      "CountryId": 162,
+      "ContactId": 339,
+      "ContactName": "Mertz-Rau",
+      "Retired": 608,
+      "Rank": 241,
+      "ActiveInterests": 276,
       "ContactDepartment": "",
-      "ContactCountryId": 854,
-      "ContactOrgNr": "1169965",
-      "FaxPhone": "(237)083-7625 x3363",
-      "MobilePhone": "608.411.0523 x444",
-      "ContactPhone": "1-851-772-2615 x389",
-      "AssociateName": "Dickinson LLC",
-      "AssociateId": 814,
+      "ContactCountryId": 986,
+      "ContactOrgNr": "1419120",
+      "FaxPhone": "1-369-000-4397",
+      "MobilePhone": "234.318.6867 x93373",
+      "ContactPhone": "1-718-970-5361 x093",
+      "AssociateName": "Grady Inc and Sons",
+      "AssociateId": 492,
       "UsePersonAddress": false,
-      "ContactFax": "omnis",
-      "Kanafname": "aliquid",
-      "Kanalname": "quas",
-      "Post1": "et",
-      "Post2": "voluptatem",
-      "Post3": "eligendi",
-      "EmailName": "elliott_bergnaum@murazikjohnston.info",
-      "ContactFullName": "Prof. Eldon Fleta Ebert",
-      "ActiveErpLinks": 214,
-      "TicketPriorityId": 966,
-      "SupportLanguageId": 497,
-      "SupportAssociateId": 924,
+      "ContactFax": "ut",
+      "Kanafname": "quae",
+      "Kanalname": "in",
+      "Post1": "veniam",
+      "Post2": "blanditiis",
+      "Post3": "cumque",
+      "EmailName": "joe_parker@jenkins.com",
+      "ContactFullName": "Mrs. Solon Kulas",
+      "ActiveErpLinks": 568,
+      "TicketPriorityId": 471,
+      "SupportLanguageId": 251,
+      "SupportAssociateId": 410,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 142
+          "FieldType": "System.Int32",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "AlertLevel": 211,
-  "ConnectId": 957,
+  "AlertLevel": 476,
+  "ConnectId": 737,
   "ReadStatus": "Green",
-  "TimeToReply": 817,
-  "RealTimeToReply": 163,
-  "TimeToClose": 972,
-  "RealTimeToClose": 994,
-  "TimeSpentInternally": 19,
-  "TimeSpentExternally": 309,
-  "TimeSpentQueue": 330,
-  "RealTimeSpentInternally": 943,
-  "RealTimeSpentExternally": 772,
-  "RealTimeSpentQueue": 976,
-  "TimeSpent": 440,
+  "TimeToReply": 163,
+  "RealTimeToReply": 105,
+  "TimeToClose": 990,
+  "RealTimeToClose": 127,
+  "TimeSpentInternally": 161,
+  "TimeSpentExternally": 718,
+  "TimeSpentQueue": 917,
+  "RealTimeSpentInternally": 790,
+  "RealTimeSpentExternally": 323,
+  "RealTimeSpentQueue": 232,
+  "TimeSpent": 887,
   "HasAttachment": false,
-  "NumReplies": 618,
-  "NumMessages": 167,
-  "FromAddress": "aperiam",
+  "NumReplies": 149,
+  "NumMessages": 782,
+  "FromAddress": "soluta",
   "Messages": [
     {
-      "TicketMessageId": 891,
-      "CreatedAt": "2018-10-25T13:28:24.0385348+02:00",
+      "TicketMessageId": 479,
+      "CreatedAt": "2021-08-04T04:02:02.4723634+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "necessitatibus",
-      "PersonId": 438,
-      "PersonFullName": "Keaton Kihn",
-      "ContactId": 328,
-      "ContactName": "Upton Group",
+      "Author": "sit",
+      "PersonId": 989,
+      "PersonFullName": "Mr. Earl Hulda Legros Jr.",
+      "ContactId": 19,
+      "ContactName": "Ernser, Nader and Hills",
       "ContactDepartment": "",
-      "NumAttachments": 143,
-      "EmailHeader": "savanah_swaniawski@bashirian.name",
+      "NumAttachments": 89,
+      "EmailHeader": "bud.wilkinson@welch.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "vitae",
-      "Sentiment": 214,
-      "SentimentConfidence": 934,
-      "CreatedBy": 861,
-      "ChangedAt": "2022-01-31T13:28:24.0385348+01:00",
+      "Language": "ratione",
+      "Sentiment": 276,
+      "SentimentConfidence": 849,
+      "CreatedBy": 572,
+      "ChangedAt": "2016-05-30T04:02:02.4723634+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 516
+          "FieldType": "System.Int32",
+          "FieldLength": 387
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 59,
-      "Name": "Trantow-Cormier",
-      "ToolTip": "Aut cupiditate id exercitationem aliquam tempora.",
+      "Id": 915,
+      "Name": "Runolfsson LLC",
+      "ToolTip": "Et vero et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     },
     {
-      "Id": 59,
-      "Name": "Trantow-Cormier",
-      "ToolTip": "Aut cupiditate id exercitationem aliquam tempora.",
+      "Id": 915,
+      "Name": "Runolfsson LLC",
+      "ToolTip": "Et vero et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
   ],
-  "Language": "amet",
-  "Sentiment": 887,
-  "SentimentConfidence": 368,
-  "SuggestedCategoryId": 821,
+  "Language": "libero",
+  "Sentiment": 147,
+  "SentimentConfidence": 792,
+  "SuggestedCategoryId": 65,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 774,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 780,
+  "IconHint": "placeat",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 519,
+  "ActiveStatusMonitorId": 161,
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "accusamus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 640
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 12,
-    "Name": "Larkin, Daniel and Jaskolski",
-    "Tooltip": "voluptas",
+    "Name": "Trantow, Waelchi and Wunsch",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 94,
-    "UdListDefinitionId": 271,
+    "Rank": 546,
+    "UdListDefinitionId": 71,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

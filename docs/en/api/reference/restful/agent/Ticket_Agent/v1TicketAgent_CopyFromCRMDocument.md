@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 431
+  "DocumentId": 478
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 736,
-  "Name": "Jones-Mayer",
-  "ContentType": "et",
-  "AttSize": 251,
-  "InlineImage": false,
-  "ContentId": "velit",
-  "AuthKey": "officiis",
+  "AttachmentId": 264,
+  "Name": "Lakin Inc and Sons",
+  "ContentType": "eum",
+  "AttSize": 991,
+  "InlineImage": true,
+  "ContentId": "sit",
+  "AuthKey": "veniam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

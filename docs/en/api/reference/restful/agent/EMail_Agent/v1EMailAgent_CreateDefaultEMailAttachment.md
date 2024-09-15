@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized secondary structure",
-  "Filename": "laudantium",
-  "Size": 988,
-  "Type": "repellat",
-  "Encoding": "temporibus",
-  "Id": "delectus",
-  "Disposition": "rerum",
-  "IsSafeFileExtension": false,
+  "Description": "Open-source didactic definition",
+  "Filename": "nemo",
+  "Size": 825,
+  "Type": "excepturi",
+  "Encoding": "fugiat",
+  "Id": "quo",
+  "Disposition": "aperiam",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

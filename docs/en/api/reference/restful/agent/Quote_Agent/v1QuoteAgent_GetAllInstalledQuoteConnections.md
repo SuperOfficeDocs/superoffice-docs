@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 503,
-    "ERPName": "Quitzon Inc and Sons",
-    "DisplayName": "Wuckert, Smitham and Berge",
-    "DisplayDescription": "Grass-roots optimal system engine",
-    "Rank": 182,
-    "ConnectorName": "Ruecker, Yost and Ortiz",
-    "ErpConnectionId": 806,
-    "ExtraData": "minima",
+    "QuoteConnectionId": 757,
+    "ERPName": "Hills-McClure",
+    "DisplayName": "Stroman LLC",
+    "DisplayDescription": "Networked fault-tolerant utilisation",
+    "Rank": 768,
+    "ConnectorName": "Terry Group",
+    "ErpConnectionId": 56,
+    "ExtraData": "aperiam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 944,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 178,
-        "Name": "Schuster Group",
-        "Description": "Secured system-worthy toolset",
-        "Currency": "voluptatum",
-        "CurrencyName": "Corwin Inc and Sons",
-        "ValidFrom": "2022-02-18T13:28:23.5542604+01:00",
-        "ValidTo": "1999-11-23T13:28:23.5542604+01:00",
+        "PriceListId": 811,
+        "ERPPriceListKey": "in",
+        "QuoteConnectionId": 425,
+        "Name": "Runolfsdottir-Lindgren",
+        "Description": "Centralized 24 hour projection",
+        "Currency": "deleniti",
+        "CurrencyName": "Doyle, Schuppe and Russel",
+        "ValidFrom": "2023-10-11T04:02:02.2065837+02:00",
+        "ValidTo": "2022-01-04T04:02:02.2065837+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 258
+            "FieldLength": 82
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      91,
-      406
+      193,
+      990
     ],
     "AssociateAccessIds": [
-      327,
-      867
+      977,
+      350
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 651
       }
     }
   }

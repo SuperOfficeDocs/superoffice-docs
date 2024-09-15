@@ -88,8 +88,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 67,
-  "AttachmentId": "sit"
+  "MailItemId": 882,
+  "AttachmentId": "tenetur"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless attitude-oriented projection",
-  "Filename": "aut",
-  "Size": 416,
-  "Type": "culpa",
-  "Encoding": "ducimus",
-  "Id": "aliquid",
-  "Disposition": "quia",
+  "Description": "Down-sized contextually-based Graphical User Interface",
+  "Filename": "dolore",
+  "Size": 943,
+  "Type": "numquam",
+  "Encoding": "reiciendis",
+  "Id": "ut",
+  "Disposition": "sit",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-DeliveryTerms
 title: DeliveryTerms table
 description: The list of Delivery terms, in the internal product register
-generated: true
+so.generated: true
 keywords: database table DeliveryTerms
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DeliveryTerms Table (433)

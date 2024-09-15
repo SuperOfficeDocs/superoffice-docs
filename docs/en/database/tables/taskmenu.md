@@ -2,10 +2,10 @@
 uid: table-TaskMenu
 title: TaskMenu table
 description: List items to merge into menues
-generated: true
+so.generated: true
 keywords: database table TaskMenu
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskMenu Table (466)

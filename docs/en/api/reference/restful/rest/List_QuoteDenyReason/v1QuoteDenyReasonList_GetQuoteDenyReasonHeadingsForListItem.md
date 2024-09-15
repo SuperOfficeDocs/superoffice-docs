@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Okuneva-Hoppe",
-    "ToolTip": "Magni error iure pariatur rerum repudiandae exercitationem.",
-    "Deleted": true,
-    "Rank": 988,
-    "Type": "enim",
-    "ColorBlock": 671,
-    "IconHint": "amet",
+    "Id": 493,
+    "Name": "Lemke, Braun and Erdman",
+    "ToolTip": "Libero beatae nobis voluptatibus eveniet.",
+    "Deleted": false,
+    "Rank": 55,
+    "Type": "ipsum",
+    "ColorBlock": 783,
+    "IconHint": "rem",
     "Selected": false,
-    "LastChanged": "1998-11-25T13:28:33.0540628+01:00",
+    "LastChanged": "2013-11-25T04:02:07.3690701+01:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Adams Inc and Sons",
-        "ToolTip": "Temporibus eius recusandae dignissimos.",
+        "Id": 958,
+        "Name": "Denesik LLC",
+        "ToolTip": "Minus voluptatem adipisci.",
         "Deleted": false,
-        "Rank": 76,
-        "Type": "perferendis",
-        "ColorBlock": 286,
-        "IconHint": "deleniti",
-        "Selected": false,
-        "LastChanged": "1997-10-18T13:28:33.0540628+02:00",
+        "Rank": 984,
+        "Type": "non",
+        "ColorBlock": 902,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2002-08-12T04:02:07.3690701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Muhammad Stroman",
+        "ExtraInfo": "fuga",
+        "StyleHint": "inventore",
+        "Hidden": true,
+        "FullName": "Vicenta Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 153
+            "FieldType": "System.Int32",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Ms. Asia Ebert IV",
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Miss Doug Maggio Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldLength": 172
       }
     }
   }

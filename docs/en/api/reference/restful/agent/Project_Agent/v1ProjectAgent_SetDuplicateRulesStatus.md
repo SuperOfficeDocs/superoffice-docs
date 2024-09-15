@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Ritchie-Towne",
-      "DisplayName": "Corwin-Senger",
-      "DisplayTooltip": "cupiditate",
+      "Name": "Medhurst LLC",
+      "DisplayName": "Berge, Hamill and Cole",
+      "DisplayTooltip": "praesentium",
       "IsActive": false
     },
     {
-      "Name": "Ritchie-Towne",
-      "DisplayName": "Corwin-Senger",
-      "DisplayTooltip": "cupiditate",
+      "Name": "Medhurst LLC",
+      "DisplayName": "Berge, Hamill and Cole",
+      "DisplayTooltip": "praesentium",
       "IsActive": false
     }
   ]

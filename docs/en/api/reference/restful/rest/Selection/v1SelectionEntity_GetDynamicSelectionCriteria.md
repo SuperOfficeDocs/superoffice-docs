@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stark-Mertz",
-    "Operator": "dolor",
+    "Name": "Friesen Group",
+    "Operator": "eveniet",
     "Values": [
-      "enim",
-      "qui"
+      "saepe",
+      "autem"
     ],
     "DisplayValues": [
-      "sequi",
-      "earum"
+      "voluptatibus",
+      "id"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kuhn-Brown",
-        "Operator": "non",
+        "Name": "Terry-Schamberger",
+        "Operator": "eveniet",
         "Values": [
-          "optio",
-          "consequatur"
+          "enim",
+          "provident"
         ],
         "DisplayValues": [
-          "neque",
-          "pariatur"
+          "odio",
+          "laboriosam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 672,
+        "InterParenthesis": 337,
         "InterOperator": "And",
-        "UniqueHash": 423
+        "UniqueHash": 43
       }
     ],
-    "InterParenthesis": 888,
+    "InterParenthesis": 101,
     "InterOperator": "And",
-    "UniqueHash": 391
+    "UniqueHash": 337
   }
 ]
 ```

@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 61,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 260,
-  "Name": "Corwin-Donnelly",
-  "Description": "Automated regional hardware",
-  "Currency": "quisquam",
-  "CurrencyName": "Bogan LLC",
-  "ValidFrom": "2012-07-15T13:28:32.9447127+02:00",
-  "ValidTo": "2024-02-28T13:28:32.9447127+01:00",
-  "IsActive": false,
+  "PriceListId": 344,
+  "ERPPriceListKey": "ipsa",
+  "QuoteConnectionId": 512,
+  "Name": "Brakus, Dicki and Schmidt",
+  "Description": "Quality-focused grid-enabled methodology",
+  "Currency": "est",
+  "CurrencyName": "Deckow, Upton and Ebert",
+  "ValidFrom": "1997-12-03T04:02:07.3065765+01:00",
+  "ValidTo": "2024-02-26T04:02:07.3065765+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 255
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

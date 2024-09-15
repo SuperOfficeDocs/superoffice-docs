@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateExtension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 1001
+  "DocumentTemplateId": 738
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestias"
+"quasi"
 ```

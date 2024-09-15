@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "saepe",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "saepe",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 419,
-  "UniqueId": "assumenda",
-  "Name": "Eichmann-Hackett",
-  "Description": "Distributed client-server conglomeration",
-  "AssociateId": 156,
-  "Columns": 815,
+  "DashboardId": 212,
+  "UniqueId": "non",
+  "Name": "Tromp Inc and Sons",
+  "Description": "User-friendly hybrid moratorium",
+  "AssociateId": 870,
+  "Columns": 327,
   "Theme": null,
-  "VisibleForAll": 456,
+  "VisibleForAll": 555,
   "VisibleForAssociates": [
-    990,
-    791
+    31,
+    564
   ],
   "VisibleForGroups": [
-    105,
-    571
+    575,
+    79
   ],
-  "PinForAll": 563,
+  "PinForAll": 352,
   "PinForAssociates": [
-    457,
-    698
+    89,
+    928
   ],
   "PinForGroups": [
-    132,
-    126
+    463,
+    633
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldLength": 538
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

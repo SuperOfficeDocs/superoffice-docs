@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=542
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=995
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 611,
-  "Name": "Jacobs LLC",
-  "Tooltip": "voluptas",
-  "SaveInDb": 395,
-  "Filename": "doloribus",
-  "DefaultOref": "perferendis",
+  "DocumentTemplateId": 779,
+  "Name": "Runolfsdottir, Leannon and Kerluke",
+  "Tooltip": "sed",
+  "SaveInDb": 408,
+  "Filename": "quam",
+  "DefaultOref": "illum",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 982,
-  "IntentId": 784,
+  "AutoeventId": 405,
+  "IntentId": 160,
   "IsDefaultPublished": false,
-  "Rank": 17,
-  "LoadTemplateFromPlugin": 685,
-  "MimeType": "qui",
+  "Rank": 268,
+  "LoadTemplateFromPlugin": 400,
+  "MimeType": "corporis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 161,
+  "DocumentTypeKey": 46,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "guillermo_goodwin@wiegandbahringer.biz",
+  "EmailSubject": "keely_halvorson@baumbachhickle.biz",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dallas@gaylord.ca",
+  "SenderEmailAddress": "jarret.pollich@kozey.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

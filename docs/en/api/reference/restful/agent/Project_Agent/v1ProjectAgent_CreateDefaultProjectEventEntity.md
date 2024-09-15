@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quod",
-  "SignOffText": "veniam",
-  "SignOnConfirmationText": "nihil",
-  "SignOnText": "debitis",
-  "EventDate": "1998-09-04T13:28:23.3199391+02:00",
-  "Enabled": true,
-  "CreatedDate": "2002-05-03T13:28:23.3199391+02:00",
+  "SignOffConfirmationText": "possimus",
+  "SignOffText": "vel",
+  "SignOnConfirmationText": "ut",
+  "SignOnText": "aut",
+  "EventDate": "2013-02-03T04:02:02.1440899+01:00",
+  "Enabled": false,
+  "CreatedDate": "2014-05-30T04:02:02.1440899+02:00",
   "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 837,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 110,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": true,
-  "SignOnTaskId": 783,
+  "SignOnTaskId": 369,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2009-09-16T13:28:23.3199391+02:00",
+  "UpdatedDate": "2012-11-28T04:02:02.1440899+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 175,
-  "Id": 334,
-  "PublishFrom": "2023-04-21T13:28:23.3199391+02:00",
+  "ProjectId": 4,
+  "Id": 675,
+  "PublishFrom": "2023-08-05T04:02:02.1440899+02:00",
   "PublishType": "External",
-  "PublishTo": "1997-05-03T13:28:23.3199391+02:00",
+  "PublishTo": "2016-02-12T04:02:02.1440899+01:00",
   "VisibleForCategories": [
     {
-      "Id": 252,
-      "Name": "Kertzmann Inc and Sons",
-      "ToolTip": "Quos beatae.",
-      "Deleted": true,
-      "Rank": 528,
-      "Type": "distinctio",
+      "Id": 647,
+      "Name": "Quitzon LLC",
+      "ToolTip": "Nihil quae exercitationem deserunt.",
+      "Deleted": false,
+      "Rank": 71,
+      "Type": "laborum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 353,
-      "ExtraInfo": "temporibus",
-      "StyleHint": "aut",
-      "FullName": "Earl Brown",
+      "IconHint": "adipisci",
+      "ColorBlock": 140,
+      "ExtraInfo": "fugiat",
+      "StyleHint": "omnis",
+      "FullName": "Americo Shea Swift Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldLength": 403
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 427,
-      "Name": "Brown-Murphy",
-      "ToolTip": "Unde deserunt minima consequuntur qui mollitia qui.",
-      "Deleted": true,
-      "Rank": 879,
-      "Type": "placeat",
+      "Id": 964,
+      "Name": "Kirlin Group",
+      "ToolTip": "Aliquam qui quaerat laboriosam.",
+      "Deleted": false,
+      "Rank": 867,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nemo",
-      "ColorBlock": 162,
-      "ExtraInfo": "aut",
-      "StyleHint": "quae",
-      "FullName": "Arely Hartmann",
+      "IconHint": "soluta",
+      "ColorBlock": 784,
+      "ExtraInfo": "non",
+      "StyleHint": "doloribus",
+      "FullName": "Prof. Natasha Bartoletti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 539
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 556,
+  "ProjectEventId": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldLength": 754
     }
   }
 }

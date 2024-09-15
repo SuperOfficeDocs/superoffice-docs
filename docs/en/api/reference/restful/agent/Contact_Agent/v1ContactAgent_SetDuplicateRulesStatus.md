@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Fahey LLC",
-      "DisplayName": "Hane, Dickinson and Wilderman",
-      "DisplayTooltip": "qui",
+      "Name": "Rodriguez-Dickinson",
+      "DisplayName": "Bashirian-Schultz",
+      "DisplayTooltip": "rerum",
       "IsActive": false
     },
     {
-      "Name": "Fahey LLC",
-      "DisplayName": "Hane, Dickinson and Wilderman",
-      "DisplayTooltip": "qui",
+      "Name": "Rodriguez-Dickinson",
+      "DisplayName": "Bashirian-Schultz",
+      "DisplayTooltip": "rerum",
       "IsActive": false
     }
   ]

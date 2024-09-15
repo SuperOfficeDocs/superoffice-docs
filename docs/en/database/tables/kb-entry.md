@@ -2,10 +2,10 @@
 uid: table-kb_entry
 title: kb_entry table
 description: This table contains FAQ entries.
-generated: true
+so.generated: true
 keywords: database table kb_entry
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_entry Table (282)

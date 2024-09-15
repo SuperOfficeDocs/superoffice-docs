@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stokes LLC",
+  "TableName": "Berge, Abernathy and Nolan",
   "Columns": [
-    "unde",
-    "dolor"
+    "rerum",
+    "accusantium"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "et",
-  "Inserts": 783,
-  "Updates": 351,
-  "Deletes": 98,
+  "Success": true,
+  "Message": "expedita",
+  "Inserts": 59,
+  "Updates": 119,
+  "Deletes": 874,
   "RowStatus": [
     {
-      "PrimaryKey": 606,
+      "PrimaryKey": 941,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eos",
-        "aut"
+        "est",
+        "sapiente"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 544
         }
       }
     },
     {
-      "PrimaryKey": 606,
+      "PrimaryKey": 941,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eos",
-        "aut"
+        "est",
+        "sapiente"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 544
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 592
     }
   }
 }

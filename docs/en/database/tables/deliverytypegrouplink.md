@@ -2,10 +2,10 @@
 uid: table-DeliveryTypeGroupLink
 title: DeliveryTypeGroupLink table
 description: User group link table for DeliveryType, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table DeliveryTypeGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DeliveryTypeGroupLink Table (437)

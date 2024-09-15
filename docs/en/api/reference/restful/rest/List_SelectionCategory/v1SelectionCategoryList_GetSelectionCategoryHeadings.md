@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 793,
-    "Name": "Herman-Leuschke",
-    "Tooltip": "consequuntur",
+    "HeadingId": 720,
+    "Name": "Koelpin Group",
+    "Tooltip": "velit",
     "Deleted": true,
-    "Rank": 958,
-    "UdListDefinitionId": 628,
+    "Rank": 135,
+    "UdListDefinitionId": 430,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 902
       }
     }
   }

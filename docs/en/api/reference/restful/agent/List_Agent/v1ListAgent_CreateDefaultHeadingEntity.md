@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 447,
-  "Name": "Crona, Robel and Green",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 593,
-  "UdListDefinitionId": 148,
+  "HeadingId": 779,
+  "Name": "Bartell Inc and Sons",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 958,
+  "UdListDefinitionId": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 675
     }
   }
 }

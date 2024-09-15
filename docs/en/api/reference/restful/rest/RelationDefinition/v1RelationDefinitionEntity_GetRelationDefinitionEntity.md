@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 3,
-  "Name": "Windler-Hagenes",
-  "Tooltip": "natus",
-  "PassiveText": "illo",
-  "Deleted": true,
-  "Rank": 464,
+  "ReldefId": 703,
+  "Name": "Spinka Inc and Sons",
+  "Tooltip": "accusantium",
+  "PassiveText": "aut",
+  "Deleted": false,
+  "Rank": 890,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 624
     }
   },
   "_Links": {

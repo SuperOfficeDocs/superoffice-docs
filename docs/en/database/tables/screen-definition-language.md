@@ -2,10 +2,10 @@
 uid: table-screen_definition_language
 title: screen_definition_language table
 description: Custom language variables used for screens
-generated: true
+so.generated: true
 keywords: database table screen_definition_language
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # screen\_definition\_language Table (374)

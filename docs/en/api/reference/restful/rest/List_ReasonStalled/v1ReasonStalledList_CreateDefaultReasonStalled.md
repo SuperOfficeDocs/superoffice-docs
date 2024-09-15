@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 690,
-  "Name": "Zemlak, Lubowitz and Lind",
+  "Id": 628,
+  "Name": "Kuhlman, Morissette and Dach",
   "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 774,
-  "Rank": 549,
+  "UdListDefinitionId": 575,
+  "Rank": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldLength": 349
     }
   }
 }

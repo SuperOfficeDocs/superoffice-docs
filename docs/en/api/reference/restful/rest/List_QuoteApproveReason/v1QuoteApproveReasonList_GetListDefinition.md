@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 994,
-  "Name": "Bogan-Goodwin",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 144,
+  "Id": 711,
+  "Name": "Streich-Simonis",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 359,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   },
   "_Links": {

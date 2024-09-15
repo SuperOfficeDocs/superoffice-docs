@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bauch-Hammes"
+  "ApplicationName": "Jerde Group"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 304,
-  "Name": "Medhurst-Jakubowski",
-  "CreatedDate": "2000-02-11T13:28:22.8510314+01:00",
-  "UpdatedDate": "2000-02-04T13:28:22.8510314+01:00",
+  "ForeignAppId": 475,
+  "Name": "Lubowitz LLC",
+  "CreatedDate": "2017-01-12T04:02:01.7888547+01:00",
+  "UpdatedDate": "2000-04-25T04:02:01.7888547+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 31,
-      "Name": "Tillman, Willms and Crist",
-      "CreatedDate": "1999-09-12T13:28:22.8510314+02:00",
-      "UpdatedDate": "2001-07-21T13:28:22.8510314+02:00",
-      "AssociateFullName": "Sammie Willms",
-      "CreatedBy": "est",
-      "UpdatedBy": "fugiat",
-      "DeviceIdentifier": "excepturi",
-      "ForeignAppId": 282,
+      "ForeignDeviceId": 198,
+      "Name": "Gorczany-Windler",
+      "CreatedDate": "2008-09-10T04:02:01.7888547+02:00",
+      "UpdatedDate": "2015-10-12T04:02:01.7888547+02:00",
+      "AssociateFullName": "King Smith I",
+      "CreatedBy": "cum",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 903,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 99
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 167
     }
   }
 }

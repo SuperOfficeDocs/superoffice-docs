@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "corrupti",
+  "RawValue": "eaque",
   "Specification": null,
-  "DisplayValue": "architecto",
-  "DisplayTooltip": "quasi",
+  "DisplayValue": "accusamus",
+  "DisplayTooltip": "voluptatem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 40,
-  "PrefDescId": 759,
-  "TableName": "Ebert, Bayer and Schinner",
-  "UserPreferenceId": 43
+  "TargetId": 946,
+  "PrefDescId": 312,
+  "TableName": "Durgan, Howe and Swaniawski",
+  "UserPreferenceId": 856
 }
 ```
 

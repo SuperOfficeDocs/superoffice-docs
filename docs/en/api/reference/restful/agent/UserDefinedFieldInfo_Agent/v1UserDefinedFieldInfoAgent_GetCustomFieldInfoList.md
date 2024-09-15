@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kub Group",
+  "TableName": "Feeney, Rippin and Bogan",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bogan, Gibson and Wunsch",
-    "DisplayName": "Schuster, Hansen and Zulauf",
-    "Description": "User-friendly optimizing ability",
-    "ShortLabel": "odit",
-    "HideLabel": true,
+    "FieldName": "Heller Group",
+    "DisplayName": "Shields-Lakin",
+    "Description": "Proactive context-sensitive system engine",
+    "ShortLabel": "et",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 64,
-    "TemplateVariableName": "Eichmann, Kshlerin and Hilll"
+    "IsDisplayField": false,
+    "Rank": 860,
+    "TemplateVariableName": "Johns-Pfannerstill"
   }
 ]
 ```

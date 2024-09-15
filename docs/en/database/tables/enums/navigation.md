@@ -2,10 +2,10 @@
 uid: enum-navigation
 title: Enum values for Navigation
 description: Lists the enum values for Navigation.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Navigation Enum

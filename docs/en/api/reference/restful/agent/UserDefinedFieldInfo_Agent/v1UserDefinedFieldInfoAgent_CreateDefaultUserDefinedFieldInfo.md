@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 321,
-  "FieldDefault": "numquam",
-  "FieldHeight": 822,
-  "FieldLabel": "sed",
-  "FieldLeft": 298,
-  "FieldTop": 415,
+  "UDefFieldId": 792,
+  "ColumnId": 735,
+  "FieldDefault": "id",
+  "FieldHeight": 113,
+  "FieldLabel": "hic",
+  "FieldLeft": 190,
+  "FieldTop": 450,
   "FieldType": "Checkbox",
-  "FieldWidth": 528,
-  "FormatMask": "autem",
+  "FieldWidth": 158,
+  "FormatMask": "nostrum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 212,
-  "LabelLeft": 703,
-  "LabelTop": 312,
-  "LabelWidth": 295,
-  "LastVersionId": 805,
-  "ListTableId": 31,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 325,
+  "LabelLeft": 837,
+  "LabelTop": 173,
+  "LabelWidth": 308,
+  "LastVersionId": 504,
+  "ListTableId": 368,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 612,
-  "ProgId": "molestiae",
+  "Page1LineNo": 707,
+  "ProgId": "voluptatum",
   "IsReadOnly": false,
-  "ShortLabel": "eaque",
-  "TabOrder": 233,
-  "TextLength": 928,
-  "Tooltip": "adipisci",
-  "UdefIdentity": 189,
-  "UDListDefinitionId": 427,
+  "ShortLabel": "sed",
+  "TabOrder": 583,
+  "TextLength": 346,
+  "Tooltip": "at",
+  "UdefIdentity": 655,
+  "UDListDefinitionId": 414,
   "Justification": "Center",
-  "Version": 75,
-  "TemplateVariableName": "Crooks LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "McGlynn LLC",
+  "Version": 920,
+  "TemplateVariableName": "Herman-Davis",
+  "HasBeenPublished": false,
+  "MdoListName": "McClure-Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 338
     }
   }
 }

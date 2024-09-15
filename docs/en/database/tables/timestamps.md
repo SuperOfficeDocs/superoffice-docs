@@ -2,10 +2,10 @@
 uid: table-timestamps
 title: timestamps table
 description: Timestamp information
-generated: true
+so.generated: true
 keywords: database table timestamps
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # timestamps Table (300)

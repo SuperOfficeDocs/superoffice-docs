@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 829
+  "PersonId": 403
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 89,
-    "Comment": "magni",
-    "Registered": "2007-04-30T13:28:23.2105886+02:00",
-    "RegisteredAssociateId": 205,
-    "Updated": "2024-03-25T13:28:23.2105886+01:00",
-    "UpdatedAssociateId": 386,
-    "LegalBaseId": 578,
-    "LegalBaseKey": "fugit",
-    "LegalBaseName": "Kautzer, Beahan and Flatley",
-    "ConsentPurposeId": 958,
-    "ConsentPurposeKey": "cupiditate",
-    "ConsentPurposeName": "Schneider-Boyer",
-    "ConsentSourceId": 148,
-    "ConsentSourceKey": "vero",
-    "ConsentSourceName": "Weimann LLC",
+    "ConsentPersonId": 298,
+    "Comment": "esse",
+    "Registered": "2021-08-29T04:02:01.9878446+02:00",
+    "RegisteredAssociateId": 369,
+    "Updated": "2009-11-14T04:02:01.9878446+01:00",
+    "UpdatedAssociateId": 638,
+    "LegalBaseId": 214,
+    "LegalBaseKey": "non",
+    "LegalBaseName": "Donnelly, Kuhic and Stark",
+    "ConsentPurposeId": 2,
+    "ConsentPurposeKey": "tenetur",
+    "ConsentPurposeName": "Daniel, Cartwright and Heaney",
+    "ConsentSourceId": 271,
+    "ConsentSourceKey": "ducimus",
+    "ConsentSourceName": "Windler-Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 886
       }
     }
   }

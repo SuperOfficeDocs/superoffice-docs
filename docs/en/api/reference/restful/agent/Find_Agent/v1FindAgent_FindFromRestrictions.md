@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Leuschke, Luettgen and Douglas",
-      "Operator": "iste",
+      "Name": "Howe-Larkin",
+      "Operator": "est",
       "Values": [
-        "ex",
-        "iusto"
+        "nemo",
+        "quis"
       ],
       "DisplayValues": [
-        "placeat",
-        "ut"
+        "cum",
+        "nihil"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 565,
+      "InterParenthesis": 881,
       "InterOperator": "And",
-      "UniqueHash": 348
+      "UniqueHash": 939
     }
   ],
-  "ProviderName": "Bechtelar-Aufderhar",
-  "PageSize": 656,
-  "PageNumber": 826
+  "ProviderName": "Morar LLC",
+  "PageSize": 916,
+  "PageNumber": 396
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Parker Inc and Sons",
-      "DisplayTooltip": "magni",
-      "DisplayType": "harum",
+      "DisplayName": "O'Kon, Kuhn and Mertz",
+      "DisplayTooltip": "voluptatibus",
+      "DisplayType": "corporis",
       "CanOrderBy": false,
-      "Name": "Gerhold, Green and Morissette",
+      "Name": "Shields Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "neque",
-      "RestrictionListName": "Lockman-Beier",
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Bradtke LLC",
       "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "consequatur",
-      "IconHint": "nostrum",
-      "HeadingIconHint": "a"
+      "ExtraInfo": "maiores",
+      "Width": "occaecati",
+      "IconHint": "voluptatum",
+      "HeadingIconHint": "doloremque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Miller, Cummings and Schmidt",
-      "PrimaryKey": 638,
+      "EntityName": "Roob, Halvorson and Wilderman",
+      "PrimaryKey": 989,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quasi",
-          "TooltipHint": "aut",
-          "LinkHint": "similique"
+          "DisplayValue": "porro",
+          "TooltipHint": "qui",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "odio",
-      "StyleHint": "voluptatem",
+      "LinkHint": "occaecati",
+      "StyleHint": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 120
         }
       }
     }
   ],
-  "RowCount": 953,
+  "RowCount": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 495
     }
   }
 }

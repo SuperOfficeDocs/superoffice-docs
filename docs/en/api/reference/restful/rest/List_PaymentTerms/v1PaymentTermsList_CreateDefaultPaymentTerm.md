@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Cummerata-Feest",
-  "Tooltip": "odit",
+  "Id": 905,
+  "Name": "Runolfsson Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 423,
-  "Rank": 92,
+  "UdListDefinitionId": 371,
+  "Rank": 830,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

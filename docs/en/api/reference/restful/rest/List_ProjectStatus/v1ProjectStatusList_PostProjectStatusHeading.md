@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 514,
-  "Name": "Heidenreich, Turcotte and Schmitt",
-  "Tooltip": "officia",
+  "HeadingId": 408,
+  "Name": "Feeney-Hamill",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 621,
-  "UdListDefinitionId": 88
+  "Rank": 546,
+  "UdListDefinitionId": 57
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 995,
-  "Name": "Koch Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 834,
-  "UdListDefinitionId": 940,
+  "HeadingId": 324,
+  "Name": "Effertz Group",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 889,
+  "UdListDefinitionId": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 17
     }
   }
 }

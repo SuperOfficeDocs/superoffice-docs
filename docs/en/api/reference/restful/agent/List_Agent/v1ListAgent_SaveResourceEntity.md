@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 7,
-  "Name": "McGlynn, Klein and Watsica",
-  "Rank": 584,
-  "Tooltip": "earum",
+  "ResourceId": 439,
+  "Name": "Hoeger Inc and Sons",
+  "Rank": 739,
+  "Tooltip": "voluptatibus",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "et"
+  "LocationAddress": "architecto"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 932,
-  "Name": "Fisher-Toy",
-  "Rank": 714,
-  "Tooltip": "eos",
+  "ResourceId": 640,
+  "Name": "Kuhlman-Waelchi",
+  "Rank": 896,
+  "Tooltip": "ex",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "non",
+  "LocationAddress": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 8
     }
   }
 }

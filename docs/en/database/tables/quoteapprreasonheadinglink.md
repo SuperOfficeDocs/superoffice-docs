@@ -2,10 +2,10 @@
 uid: table-QuoteApprReasonHeadingLink
 title: QuoteApprReasonHeadingLink table
 description: Heading link table for QuoteApprReason, for MDO headers
-generated: true
+so.generated: true
 keywords: database table QuoteApprReasonHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteApprReasonHeadingLink Table (527)

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 176
+  "UdListDefinitionId": 523
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 664,
-  "Name": "Stoltenberg, Hettinger and Hagenes",
+  "HeadingId": 425,
+  "Name": "Medhurst-Bahringer",
   "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 140,
-  "UdListDefinitionId": 217,
+  "Rank": 83,
+  "UdListDefinitionId": 315,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldLength": 542
     }
   }
 }

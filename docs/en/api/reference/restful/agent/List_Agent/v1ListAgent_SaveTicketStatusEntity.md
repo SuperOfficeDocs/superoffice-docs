@@ -79,13 +79,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 318,
-  "Name": "Rosenbaum-Rogahn",
+  "TicketStatusId": 616,
+  "Name": "Streich, Beatty and Langworth",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true
+  "IsDefault": false,
+  "UsedInQueue": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 486,
-  "Name": "McDermott Group",
+  "TicketStatusId": 618,
+  "Name": "Mante LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

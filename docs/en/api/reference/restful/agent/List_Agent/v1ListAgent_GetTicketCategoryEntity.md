@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=152
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=418
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 662,
-  "ParentId": 78,
-  "Name": "Ruecker, Weimann and Watsica",
-  "Fullname": "et",
-  "CategoryMaster": 580,
+  "TicketCategoryId": 830,
+  "ParentId": 365,
+  "Name": "Schoen Inc and Sons",
+  "Fullname": "quidem",
+  "CategoryMaster": 406,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hyatt, Crooks and Quigley",
+  "ExternalName": "Gislason Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 298,
-  "ReplyTemplate": 320,
-  "NotificationEmail": "tobin.miller@wiza.ca",
+  "AssignmentLag": 773,
+  "ReplyTemplate": 878,
+  "NotificationEmail": "audie_heller@mullerkerluke.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 607,
+  "EffectiveReplyTemplateId": 239,
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "rerum"
+    "CustomFields1": "ea",
+    "CustomFields2": "in"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   }
 }

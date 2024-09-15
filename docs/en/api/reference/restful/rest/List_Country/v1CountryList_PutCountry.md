@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 380,
-  "Name": "Kessler, Klein and Lang",
-  "CurrencyId": 811,
-  "EnglishName": "Weber Inc and Sons",
+  "CountryId": 271,
+  "Name": "Frami LLC",
+  "CurrencyId": 824,
+  "EnglishName": "Mohr Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Face to face modular open system",
-  "OrgNrText": "1332103",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "dolorum",
-  "DomainName": "Prohaska-Mueller",
-  "AddressLayoutId": 833,
-  "DomesticAddressLayoutId": 672,
-  "ForeignAddressLayoutId": 531,
-  "Rank": 568,
-  "Tooltip": "dolores",
+  "ImageDescription": "De-engineered eco-centric access",
+  "OrgNrText": "1274483",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "est",
+  "ZipPrefix": "voluptas",
+  "DomainName": "O'Connell, Renner and Bechtelar",
+  "AddressLayoutId": 15,
+  "DomesticAddressLayoutId": 669,
+  "ForeignAddressLayoutId": 171,
+  "Rank": 536,
+  "Tooltip": "similique",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 595,
-  "Name": "Douglas, Shields and Ullrich",
-  "CurrencyId": 619,
-  "EnglishName": "McClure Group",
+  "CountryId": 860,
+  "Name": "Klocko, Davis and Pacocha",
+  "CurrencyId": 494,
+  "EnglishName": "Kuhlman Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered explicit groupware",
-  "OrgNrText": "747122",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "est",
-  "DomainName": "Kling, Gorczany and Jewess",
-  "AddressLayoutId": 494,
-  "DomesticAddressLayoutId": 188,
-  "ForeignAddressLayoutId": 227,
-  "Rank": 123,
-  "Tooltip": "est",
-  "Deleted": false,
+  "ImageDescription": "Mandatory didactic approach",
+  "OrgNrText": "1267134",
+  "InterAreaPrefix": "velit",
+  "DialInPrefix": "sed",
+  "ZipPrefix": "ipsa",
+  "DomainName": "Bergstrom Group",
+  "AddressLayoutId": 553,
+  "DomesticAddressLayoutId": 804,
+  "ForeignAddressLayoutId": 425,
+  "Rank": 990,
+  "Tooltip": "ea",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldLength": 153
     }
   }
 }

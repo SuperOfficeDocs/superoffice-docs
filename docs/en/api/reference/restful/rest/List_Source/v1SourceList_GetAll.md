@@ -25,7 +25,7 @@ Gets all the Source items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Source/Items?includeDeleted=False
+GET /api/v1/List/Source/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Heidenreich Inc and Sons",
-    "Tooltip": "nesciunt",
-    "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 659,
+    "Id": 610,
+    "Name": "Hyatt-Hayes",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 829,
+    "Rank": 850,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldLength": 897
       }
     }
   }

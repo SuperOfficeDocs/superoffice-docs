@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "perspiciatis",
+  "Text": "distinctio",
   "Style": "Casual",
-  "IsoLangCode": "iste"
+  "IsoLangCode": "dolore"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"magni"
+"rerum"
 ```

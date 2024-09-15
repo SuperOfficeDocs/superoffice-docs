@@ -2,10 +2,10 @@
 uid: table-temp_db_lock
 title: temp_db_lock table
 description: Represents a temporary lock on a resource identified by table_id and key
-generated: true
+so.generated: true
 keywords: database table temp_db_lock
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # temp\_db\_lock Table (519)

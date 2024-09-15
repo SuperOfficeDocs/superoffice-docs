@@ -600,6 +600,8 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -639,12 +641,12 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
 |sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
-|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
+|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
@@ -743,12 +745,12 @@ Shadow contact provider for the dynamic ticket provider.
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-|project/saintActivityType|listAny|SAINT type|  |
-|project/saintDirection|listAny|Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintActivityType|listAny|SAINT type|  |
+|project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
@@ -758,7 +760,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=timeToClose,person/personAssociate/credentialType,contact/streetAddress/state,sale/stage,project/projectAssociate/ejStatus
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=ticketStatusName,ownedBy/lastName,person/middleName,person/personAssociate/portraitThumbnail,contact/LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

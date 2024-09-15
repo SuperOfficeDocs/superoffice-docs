@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 482,
-  "Name": "Williamson-Kovacek",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "Rank": 758,
-  "UdListDefinitionId": 394
+  "HeadingId": 265,
+  "Name": "Gibson-Schulist",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 580,
+  "UdListDefinitionId": 21
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 885,
-  "Name": "Altenwerth Inc and Sons",
-  "Tooltip": "ratione",
-  "Deleted": false,
-  "Rank": 856,
-  "UdListDefinitionId": 627,
+  "HeadingId": 385,
+  "Name": "Gutkowski, Dicki and Corkery",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 434,
+  "UdListDefinitionId": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

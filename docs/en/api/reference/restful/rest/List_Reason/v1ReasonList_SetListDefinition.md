@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Hettinger Inc and Sons",
-  "Tooltip": "ad",
+  "Id": 180,
+  "Name": "Hudson, Sauer and Beahan",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 206,
+  "Rank": 336,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "voluptate",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "White, Leannon and Mertz",
-  "Tooltip": "aut",
+  "Id": 183,
+  "Name": "Kuhic-Borer",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 142,
-  "IsCustomList": true,
+  "Rank": 472,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 548
     }
   }
 }

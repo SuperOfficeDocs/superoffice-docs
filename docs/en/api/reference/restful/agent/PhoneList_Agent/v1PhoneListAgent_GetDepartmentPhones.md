@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 69
+  "DepartmentId": 850
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "297.347.8888 x45425",
-    "PersonCellPhone": "390.654.3677 x081",
-    "PersonPrivatePhone": "(442)935-6915 x6530",
-    "PersonFaxNumber": "819627",
-    "PersonPagerNumber": "1416158",
-    "PersonEmail": "paolo@effertz.name",
-    "Id": 574,
-    "Name": "Lueilwitz Inc and Sons",
-    "Tooltip": "nesciunt",
-    "UniqueId": "officiis",
+    "PersonDirectPhone": "1-761-990-9351 x641",
+    "PersonCellPhone": "613.832.0883 x72271",
+    "PersonPrivatePhone": "(946)799-4877",
+    "PersonFaxNumber": "247703",
+    "PersonPagerNumber": "1542919",
+    "PersonEmail": "tyra@stammgutmann.co.uk",
+    "Id": 978,
+    "Name": "Gleason, Bogisich and Sauer",
+    "Tooltip": "modi",
+    "UniqueId": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 531
       }
     }
   }

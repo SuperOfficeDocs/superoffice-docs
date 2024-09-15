@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ullam",
+  "RawValue": "dolorem",
   "Specification": null,
-  "DisplayValue": "suscipit",
-  "DisplayTooltip": "esse",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 375,
-  "PrefDescId": 289,
-  "TableName": "Gibson-D'Amore",
-  "UserPreferenceId": 694,
+  "TargetId": 494,
+  "PrefDescId": 873,
+  "TableName": "Goyette-Bernier",
+  "UserPreferenceId": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 524
     }
   }
 }

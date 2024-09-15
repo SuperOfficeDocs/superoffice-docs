@@ -110,33 +110,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 461,
-  "Name": "Hand-Franecki",
-  "Rank": 360,
-  "Tooltip": "consequatur",
-  "Icon": "voluptate",
-  "DefaultTicketStatus": 376,
+  "TicketTypeId": 741,
+  "Name": "Frami-Torp",
+  "Rank": 432,
+  "Tooltip": "ducimus",
+  "Icon": "numquam",
+  "DefaultTicketStatus": 100,
   "TicketStatuses": [
-    975,
-    120
+    10,
+    981
   ],
-  "DefaultTicketPriority": 558,
+  "DefaultTicketPriority": 423,
   "TicketPriorities": [
-    453,
-    515
+    532,
+    961
   ],
-  "ReplyTemplate": 90,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 829,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    982,
-    738
+    282,
+    823
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -148,31 +148,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 468,
-  "Name": "Mosciski Group",
-  "Rank": 346,
-  "Tooltip": "eveniet",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 419,
+  "TicketTypeId": 330,
+  "Name": "Dicki-Price",
+  "Rank": 995,
+  "Tooltip": "aliquam",
+  "Icon": "laborum",
+  "DefaultTicketStatus": 598,
   "TicketStatuses": [
-    781,
-    954
+    363,
+    743
   ],
-  "DefaultTicketPriority": 155,
+  "DefaultTicketPriority": 520,
   "TicketPriorities": [
-    314,
-    612
+    94,
+    947
   ],
-  "ReplyTemplate": 111,
+  "ReplyTemplate": 651,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    954,
-    222
+    256,
+    947
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 917
     }
   }
 }

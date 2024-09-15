@@ -474,7 +474,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/email/emailProtocol,person/personAddress/line3,person/personExtra/x_person_integer,person/consentSourceEmarketing,contact/email/emailId
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/personAssociate/ejUserId,person/personAssociate/isActive,person/correspondingAssociate/contactId,contact/postAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

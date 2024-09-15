@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 270,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 360,
-  "Name": "Corwin-Stokes",
-  "Description": "Self-enabling transitional throughput",
-  "Currency": "dolorem",
-  "CurrencyName": "Lowe-Gerhold",
-  "ValidFrom": "2009-01-16T13:28:23.5386436+01:00",
-  "ValidTo": "2020-08-15T13:28:23.5386436+02:00",
+  "PriceListId": 874,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 506,
+  "Name": "McGlynn Group",
+  "Description": "Enhanced multi-tasking data-warehouse",
+  "Currency": "harum",
+  "CurrencyName": "Littel Group",
+  "ValidFrom": "2020-06-14T04:02:02.1909603+02:00",
+  "ValidTo": "2019-09-25T04:02:02.1909603+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldType": "System.Int32",
+      "FieldLength": 574
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-schedule
 title: schedule table
 description: Generic scheduled tasked handling time scheduling, locking and error messages
-generated: true
+so.generated: true
 keywords: database table schedule
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # schedule Table (379)

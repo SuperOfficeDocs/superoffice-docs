@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 686,
+  "SelectionId": 644,
   "SelectionMemberIds": [
-    126,
-    308
+    497,
+    33
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced zero defect internet solution",
-  "Postit": "sapiente",
+  "Description": "Ergonomic cohesive standardization",
+  "Postit": "dicta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 878,
-  "IncludePerson": 768,
+  "GroupIdx": 443,
+  "IncludePerson": 679,
   "MemberCount": 99.99,
-  "Name": "Carter, McLaughlin and Reichert",
-  "PostitTextId": 964,
-  "CreatedDate": "2002-05-05T13:28:23.772965+02:00",
-  "SelectionId": 68,
-  "SoundEx": "nam",
-  "Source": 327,
-  "TextId": 995,
-  "UpdatedDate": "2007-12-22T13:28:23.772965+01:00",
-  "UpdatedCount": 479,
-  "Visibility": 975,
+  "Name": "Will Group",
+  "PostitTextId": 463,
+  "CreatedDate": "2008-08-22T04:02:02.31613+02:00",
+  "SelectionId": 689,
+  "SoundEx": "at",
+  "Source": 291,
+  "TextId": 371,
+  "UpdatedDate": "2010-09-28T04:02:02.31613+02:00",
+  "UpdatedCount": 278,
+  "Visibility": 708,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 546,
-  "TargetTableName": "Heathcote LLC",
-  "Completed": true,
-  "LeftSelectionId": 952,
-  "RightSelectionId": 286,
+  "TargetTableNumber": 212,
+  "TargetTableName": "Skiles-Koelpin",
+  "Completed": false,
+  "LeftSelectionId": 852,
+  "RightSelectionId": 977,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobi, Koelpin and Lynch",
-  "ShadowProviderName": "Kerluke-Hintz",
-  "ChartKey": "at",
-  "LastLoaded": "2003-06-07T13:28:23.772965+02:00",
-  "LastLoadedBy": 90,
+  "MainProviderName": "Connelly Group",
+  "ShadowProviderName": "Pollich-Balistreri",
+  "ChartKey": "odio",
+  "LastLoaded": "2002-08-31T04:02:02.31613+02:00",
+  "LastLoadedBy": 403,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-02-10T13:28:23.772965+01:00",
-  "LastMembershipChangeBy": 949,
+  "LastMembershipChange": "2014-11-08T04:02:02.31613+01:00",
+  "LastMembershipChangeBy": 286,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "quod",
-  "MailingsProviderName": "Morar Inc and Sons",
-  "DashboardTileDefinitionId": 716,
+  "MainHeading": "sit",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Hyatt-Koepp",
+  "DashboardTileDefinitionId": 922,
   "VisibleFor": [
     {
-      "VisibleId": 891,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldLength": 29
         }
       }
     },
     {
-      "VisibleId": 891,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldLength": 29
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 819
     }
   }
 }

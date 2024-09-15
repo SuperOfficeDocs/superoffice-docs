@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stanton Group",
-  "Id": 715
+  "TableName": "Rohan-Schuster",
+  "Id": 735
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "dolorem",
-    "Values2": "natus"
+    "Values1": "ea",
+    "Values2": "cupiditate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

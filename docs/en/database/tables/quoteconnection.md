@@ -2,10 +2,10 @@
 uid: table-QuoteConnection
 title: QuoteConnection table
 description: Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.
-generated: true
+so.generated: true
 keywords: database table QuoteConnection
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteConnection Table (26)

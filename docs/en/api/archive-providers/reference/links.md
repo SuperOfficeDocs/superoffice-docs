@@ -641,15 +641,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow|  |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID|  |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field|  |
-|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
-|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
+|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date|  |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name|  |
@@ -748,12 +750,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold|  |
 |stageRank| *None* |Stage rank: Rank of the sale stage in the stage list|  |
 |saleType|listAny|Sale type: Sale type, from list|  |
-|nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
-|reopenDate|date|Reopen date: Displays the reopen date for the sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
+|reopenDate|date|Reopen date: Displays the reopen date for the sale|  |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled|  |
 |saleTypeCategory|listAny|Sale type category: Sale type category|  |
 |soldReason|listAny|Reason (sold: Reason (sold)|  |
@@ -763,6 +765,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasGuide|bool|Guided: Does this sale have a Sales Guide|  |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |sale/textId|int|Text ID|  |
 |salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -850,14 +854,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail|  |
 |saleStakeholder/person/email/emailDescription|string|Stakeholder - Description|  |
 |saleStakeholder/person/email/emailId|int|Stakeholder - ID|  |
-|saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address|  |
-|saleStakeholder/person/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address|  |
-|saleStakeholder/person/email/emailLastBounce|datetime|Stakeholder - Last bounce: Date and time for last bounce to this e-mail address|  |
-|saleStakeholder/person/email/emailHasBounced|bool|Stakeholder - Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address|  |
+|saleStakeholder/person/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address|  |
+|saleStakeholder/person/email/emailLastBounce|datetime|Stakeholder - Last bounce: Date and time for last bounce to this e-mail address|  |
+|saleStakeholder/person/email/emailHasBounced|bool|Stakeholder - Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |saleStakeholder/person/personUrl/URLAddress|string|Stakeholder - URL|  |
 |saleStakeholder/person/personUrl/URLDescription|string|Stakeholder - Description|  |
 |saleStakeholder/person/personAddress/addressId|int|Stakeholder - Contact address - Address ID: Database ID for the address record|  |
@@ -954,14 +958,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name|  |
 |saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name|  |
 |saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.|  |
-|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
-|saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
-|saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
+|saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
+|saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/person/correspondingAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/person/correspondingAssociate/associateDbId|associate|Stakeholder - ID|  |
 |saleStakeholder/person/correspondingAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to|  |
@@ -1058,14 +1062,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/streetAddress/county|string|Stakeholder - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |saleStakeholder/contact/streetAddress/city|string|Stakeholder - Street address - City: This criterion corresponds to the City field on the Company card.|  |
 |saleStakeholder/contact/streetAddress/zip|string|Stakeholder - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude|  |
-|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude|  |
-|saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude|  |
+|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude|  |
+|saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/streetAddress/formattedMultiLineAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record|  |
 |saleStakeholder/contact/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address|  |
@@ -1162,14 +1166,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/NumberOfNotCompletedTickets|int|Stakeholder - Number of non-completed requests|  |
 |saleStakeholder/contact/NumberOfNotCompletedTicketsInPeriod|int|Stakeholder - Number of non-completed requests in last 90 days|  |
 |saleStakeholder/contact/LastTicket|date|Stakeholder - Date of last request|  |
-|saleStakeholder/contact/LastCompletedTicket|date|Stakeholder - Date of last completed request|  |
-|saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
-|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/LastCompletedTicket|date|Stakeholder - Date of last completed request|  |
+|saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
+|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
 |saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
 |saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
 |saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
@@ -1266,14 +1270,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
 |quote/version/alternative/quoteline/productTypeKey|listExternal|Product type: The type of product|  |
 |quote/version/alternative/quoteline/status|listAny|Quote status: Status field showing the status of each line.|  |
-|quote/version/alternative/quoteline/subTotal|decimal|Sum: Sum of Quantity * Unit list price|  |
-|quote/version/alternative/quoteline/vatAmount|decimal|VAT (amount: The calculated VAT amount|  |
-|quote/version/alternative/quoteline/totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT|  |
-|quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/quoteline/subTotal|decimal|Sum: Sum of Quantity * Unit list price|  |
+|quote/version/alternative/quoteline/vatAmount|decimal|VAT (amount: The calculated VAT amount|  |
+|quote/version/alternative/quoteline/totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT|  |
+|quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative|  |
 |destinationSaleRestrictionId|int|Destination sale ID: IDs of sales which are linked to|  |
 |name|stringorPK|Project name: Displays the Project's name|  |
 |number|string|Number: Displays the project's number|  |
@@ -1370,14 +1374,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isReport|bool|Report: Is this document a saved report run?|  |
 |suggestedDocumentId|int|Document ID (suggestion: The database ID of a document that originates in a suggestion|  |
 |isMail|bool|E-mail|  |
-|documentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
-|documentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
-|documentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date|  |
-|documentPublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
+|documentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
+|documentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date|  |
+|documentPublish/publishedBy| *None* |Published by: Published by|  |
 |documentUdef/SuperOffice:1|string|documentshorttext|  |
 |documentUdef/SuperOffice:2|string|documentlongtext|  |
 |documentUdef/SuperOffice:3|int|documentnumber|  |
@@ -1472,7 +1476,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=getAllRows,contact/category,contact/contactAssociate/associateDbId,person/personPager/description,person/email/emailLastSent
+GET /api/v1/archive/Links?$select=endDate,contact/searchPhone/formattedNumber,contact/contactAssociate/usergroup,contact/NumberOfNotCompletedActivities,contact/SaintStatus1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

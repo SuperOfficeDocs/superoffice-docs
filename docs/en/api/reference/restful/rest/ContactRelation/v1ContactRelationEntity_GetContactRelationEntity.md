@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Mar 2014 13:28:31 G3T
+Last-Modified: Sun, 08 Nov 2020 04:02:06 G11T
 
 {
-  "SourceContactId": 306,
-  "SourcePersonId": 866,
-  "DestinationContactId": 80,
-  "DestinationPersonId": 547,
-  "RelationId": 277,
-  "Comment": "eos",
-  "RelationDefinitionId": 443,
-  "Reversed": 230,
-  "UpdatedDate": "2014-03-15T13:28:31.53865+01:00",
-  "CreatedDate": "2011-05-02T13:28:31.53865+02:00",
+  "SourceContactId": 950,
+  "SourcePersonId": 384,
+  "DestinationContactId": 725,
+  "DestinationPersonId": 806,
+  "RelationId": 360,
+  "Comment": "nemo",
+  "RelationDefinitionId": 575,
+  "Reversed": 312,
+  "UpdatedDate": "2020-11-08T04:02:06.4472912+01:00",
+  "CreatedDate": "2006-09-27T04:02:06.4472912+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Watsica-Graham",
-  "SourcePersonName": "Turner, Lesch and Wisoky",
-  "DestinationContactName": "Stamm, Grimes and Flatley",
-  "DestinationPersonName": "Kovacek LLC",
-  "ActiveText": "ipsa",
-  "PassiveText": "in",
+  "SourceContactName": "Corwin-Flatley",
+  "SourcePersonName": "Johnston, Davis and Conroy",
+  "DestinationContactName": "Turner-Kohler",
+  "DestinationPersonName": "Ullrich Group",
+  "ActiveText": "illo",
+  "PassiveText": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

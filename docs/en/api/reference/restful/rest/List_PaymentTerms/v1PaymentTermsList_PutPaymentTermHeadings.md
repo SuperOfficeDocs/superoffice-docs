@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 932,
-    "Name": "Hegmann-Moen",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 736,
-    "UdListDefinitionId": 107
+    "HeadingId": 663,
+    "Name": "Mertz-Collier",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 279
   },
   {
-    "HeadingId": 932,
-    "Name": "Hegmann-Moen",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 736,
-    "UdListDefinitionId": 107
+    "HeadingId": 663,
+    "Name": "Mertz-Collier",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 279
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Towne-Marvin",
-    "Tooltip": "cupiditate",
+    "HeadingId": 461,
+    "Name": "Fadel Inc and Sons",
+    "Tooltip": "architecto",
     "Deleted": false,
-    "Rank": 935,
-    "UdListDefinitionId": 592,
+    "Rank": 258,
+    "UdListDefinitionId": 688,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldLength": 800
       }
     }
   }

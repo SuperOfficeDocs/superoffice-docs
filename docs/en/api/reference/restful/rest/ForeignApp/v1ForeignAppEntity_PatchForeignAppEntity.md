@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "recusandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "recusandae",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 387,
-  "Name": "Hahn Inc and Sons",
-  "CreatedDate": "2007-05-12T13:28:31.6792414+02:00",
-  "UpdatedDate": "2003-08-21T13:28:31.6792414+02:00",
+  "ForeignAppId": 670,
+  "Name": "Toy LLC",
+  "CreatedDate": "2016-07-12T04:02:06.6191478+02:00",
+  "UpdatedDate": "2017-10-13T04:02:06.6191478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 662,
-      "Name": "Crist-Zemlak",
-      "CreatedDate": "2023-08-04T13:28:31.6792414+02:00",
-      "UpdatedDate": "2014-03-08T13:28:31.6792414+01:00",
-      "AssociateFullName": "Prof. Dan Buckridge Jr.",
-      "CreatedBy": "esse",
-      "UpdatedBy": "saepe",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 141,
+      "ForeignDeviceId": 838,
+      "Name": "Kutch, Beahan and O'Kon",
+      "CreatedDate": "2009-02-05T04:02:06.6191478+01:00",
+      "UpdatedDate": "2008-12-21T04:02:06.6191478+01:00",
+      "AssociateFullName": "Buddy Randi Jacobs DDS",
+      "CreatedBy": "aut",
+      "UpdatedBy": "unde",
+      "DeviceIdentifier": "suscipit",
+      "ForeignAppId": 585,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldLength": 946
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 913
     }
   },
   "_Links": {

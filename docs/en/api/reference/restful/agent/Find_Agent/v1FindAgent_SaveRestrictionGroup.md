@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Maggio-Mills",
-  "StorageKey": "modi",
+  "StorageType": "minima",
+  "ProviderName": "Wiegand Group",
+  "StorageKey": "delectus",
   "RestrictionGroup": null,
-  "Context": "et"
+  "Context": "praesentium"
 }
 ```
 

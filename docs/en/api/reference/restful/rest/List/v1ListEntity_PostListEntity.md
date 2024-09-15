@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 297,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "repudiandae",
+  "Id": 435,
+  "Name": "Kunde Inc and Sons",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 174,
-  "IsCustomList": true,
+  "Rank": 573,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Thiel-Streich",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "Rank": 674,
+  "Id": 826,
+  "Name": "Mitchell-Nader",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 208,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   },
   "_Links": {

@@ -2,10 +2,10 @@
 uid: table-Intent
 title: Intent table
 description: Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
-generated: true
+so.generated: true
 keywords: database table Intent
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Intent Table (216)

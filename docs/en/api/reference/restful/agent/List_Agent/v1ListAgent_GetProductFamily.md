@@ -26,7 +26,7 @@ Gets a ProductFamily object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductFamily?productFamilyId=288
+POST /api/v1/Agents/List/GetProductFamily?productFamilyId=359
 POST /api/v1/Agents/List/GetProductFamily?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Value": "officia",
-  "Tooltip": "nesciunt",
+  "Id": 451,
+  "Value": "repellat",
+  "Tooltip": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 509
     }
   }
 }

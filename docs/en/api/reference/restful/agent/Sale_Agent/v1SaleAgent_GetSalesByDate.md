@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-06-08T13:28:23.6948543+02:00",
-  "ToDate": "2024-02-29T13:28:23.6948543+01:00",
-  "AmountLimit": 576,
+  "FromDate": "2023-01-11T04:02:02.28488+01:00",
+  "ToDate": "2009-09-04T04:02:02.28488+02:00",
+  "AmountLimit": 43,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bogan Group",
-    "SaleDate": "2008-11-07T13:28:23.6948543+01:00",
-    "SaleId": 889,
-    "Probability": 528,
-    "Title": "cum",
-    "Amount": 30844.827999999998,
-    "Currency": "eligendi",
-    "ProjectName": "Ryan, Schmidt and O'Hara",
-    "AssociateFullName": "Kailyn Goyette Sr.",
-    "Description": "Automated cohesive system engine",
+    "ContactName": "Berge-Pacocha",
+    "SaleDate": "2007-03-15T04:02:02.28488+01:00",
+    "SaleId": 31,
+    "Probability": 127,
+    "Title": "non",
+    "Amount": 18841.608,
+    "Currency": "nesciunt",
+    "ProjectName": "Bailey Inc and Sons",
+    "AssociateFullName": "Rodolfo Armstrong",
+    "Description": "User-centric 24/7 toolset",
     "Status": "Lost",
-    "WeightedAmount": 10251.314,
-    "ProjectId": 57,
-    "EarningPercent": 29074.118,
-    "Earning": 19415.13,
-    "ContactId": 691,
-    "AssociateId": 158,
-    "PersonId": 282,
-    "SaleTypeId": 438,
-    "SaleTypeName": "Littel Inc and Sons",
-    "PersonFullName": "Ms. Alec Norval Koss I",
+    "WeightedAmount": 1244.1979999999999,
+    "ProjectId": 747,
+    "EarningPercent": 4161.952,
+    "Earning": 25805.356,
+    "ContactId": 715,
+    "AssociateId": 826,
+    "PersonId": 892,
+    "SaleTypeId": 966,
+    "SaleTypeName": "Cormier-Veum",
+    "PersonFullName": "Dr. Macy Kautzer",
     "Completed": "Completed",
-    "ActiveErpLinks": 612,
-    "NextDueDate": "2008-08-10T13:28:23.6948543+02:00",
-    "Number": "1876308",
+    "ActiveErpLinks": 1002,
+    "NextDueDate": "2008-05-22T04:02:02.28488+02:00",
+    "Number": "1007662",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

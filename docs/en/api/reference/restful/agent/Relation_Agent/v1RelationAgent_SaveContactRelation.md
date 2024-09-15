@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 718,
-  "SourcePersonId": 25,
-  "DestinationContactId": 88,
-  "DestinationPersonId": 422,
-  "RelationId": 118,
-  "Comment": "facilis",
-  "RelationDefinitionId": 365,
-  "Reversed": 123,
-  "UpdatedDate": "1997-12-28T13:28:23.6011243+01:00",
-  "CreatedDate": "2003-08-27T13:28:23.6011243+02:00",
+  "SourceContactId": 838,
+  "SourcePersonId": 606,
+  "DestinationContactId": 698,
+  "DestinationPersonId": 735,
+  "RelationId": 977,
+  "Comment": "explicabo",
+  "RelationDefinitionId": 14,
+  "Reversed": 871,
+  "UpdatedDate": "2006-11-11T04:02:02.2222071+01:00",
+  "CreatedDate": "2020-03-03T04:02:02.2222071+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kautzer Group",
-  "SourcePersonName": "Kihn Group",
-  "DestinationContactName": "Balistreri, Ledner and O'Hara",
-  "DestinationPersonName": "Schaden, Blick and Schultz",
-  "ActiveText": "quisquam",
-  "PassiveText": "nisi",
+  "SourceContactName": "Wunsch, Bernier and Macejkovic",
+  "SourcePersonName": "Rowe LLC",
+  "DestinationContactName": "Maggio-Waters",
+  "DestinationPersonName": "Champlin, Little and Effertz",
+  "ActiveText": "praesentium",
+  "PassiveText": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

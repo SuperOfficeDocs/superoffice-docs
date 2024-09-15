@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=quo
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Cummings-Cremin",
-    "ToolTip": "Et amet vitae in itaque.",
+    "Id": 748,
+    "Name": "Jaskolski Inc and Sons",
+    "ToolTip": "Qui consequuntur.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "porro",
+    "Rank": 497,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Runolfsson-Quitzon",
-        "ToolTip": "Nemo dolore ea tempore delectus earum.",
-        "Deleted": true,
-        "Rank": 179,
-        "Type": "blanditiis",
+        "Id": 389,
+        "Name": "Strosin, McGlynn and Kling",
+        "ToolTip": "Ab est nihil.",
+        "Deleted": false,
+        "Rank": 623,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 925,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "natus",
-        "FullName": "Prof. Bertrand Nyah Legros IV",
+        "IconHint": "velit",
+        "ColorBlock": 813,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "maiores",
+        "FullName": "Howard McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 754
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 1001,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "ullam",
-    "FullName": "Francisco Adrienne Kilback IV",
+    "IconHint": "quis",
+    "ColorBlock": 2,
+    "ExtraInfo": "ut",
+    "StyleHint": "ipsum",
+    "FullName": "Tressa Cassidy Walter III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

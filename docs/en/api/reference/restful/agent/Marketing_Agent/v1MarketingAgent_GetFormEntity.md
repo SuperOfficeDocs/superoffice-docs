@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=786
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=338
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 974,
-  "FormKey": "dolores",
-  "Name": "Emmerich-Bernhard",
-  "Description": "Reduced incremental flexibility",
-  "Config": "quod",
-  "FolderId": 573,
-  "ScriptId": 319,
-  "ResponseShipmentId": 701,
-  "Active": false,
-  "Expires": "1997-08-11T13:28:23.038756+02:00",
-  "MaxSubmits": 897,
+  "FormId": 258,
+  "FormKey": "velit",
+  "Name": "Stark-Kub",
+  "Description": "Future-proofed incremental software",
+  "Config": "nihil",
+  "FolderId": 620,
+  "ScriptId": 309,
+  "ResponseShipmentId": 794,
+  "Active": true,
+  "Expires": "2002-07-26T04:02:01.8941042+02:00",
+  "MaxSubmits": 113,
   "Type": "Normal",
-  "Recipe": "culpa",
-  "GroupId": 559,
-  "NewTicket": false,
+  "Recipe": "amet",
+  "GroupId": 131,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-11-04T13:28:23.038756+01:00",
-  "RegisteredAssociateId": 761,
-  "Updated": "1999-08-12T13:28:23.038756+02:00",
-  "UpdatedAssociateId": 992,
-  "UpdatedCount": 85,
+  "Registered": "2024-05-08T04:02:01.8941042+02:00",
+  "RegisteredAssociateId": 514,
+  "Updated": "2003-06-19T04:02:01.8941042+02:00",
+  "UpdatedAssociateId": 993,
+  "UpdatedCount": 631,
   "EmailFlows": [
-    445,
-    531
+    732,
+    598
   ],
-  "FolderName": "Dach-Koepp",
+  "FolderName": "Reichel, Kulas and Pagac",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 435
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Daugherty, Romaguera and Murazik",
-  "DisplayName": "Jacobson Group",
-  "Description": "Function-based maximized moderator",
-  "ShortLabel": "consequatur",
+  "FieldName": "Oberbrunner, Mraz and Schaden",
+  "DisplayName": "Kling-Marvin",
+  "Description": "Fundamental national frame",
+  "ShortLabel": "neque",
   "HideLabel": false,
   "HideField": true,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": true,
-  "Rank": 85,
-  "TemplateVariableName": "Swaniawski, Beatty and Quitzon"
+  "Rank": 440,
+  "TemplateVariableName": "Bayer, D'Amore and Kautzer"
 }
 ```

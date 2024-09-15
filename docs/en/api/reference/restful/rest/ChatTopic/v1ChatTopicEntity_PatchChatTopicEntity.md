@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "laboriosam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "laboriosam",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 84,
-  "Name": "VonRueden Group",
-  "Description": "Reduced national archive",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 919,
+  "Name": "Gulgowski Inc and Sons",
+  "Description": "Reverse-engineered optimizing hierarchy",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2008-06-02T13:28:31.3668129+02:00",
-  "SecondsPrAccept": 753,
-  "AlertRecipient": "possimus",
+  "LastAccept": "2009-03-23T04:02:06.3530464+01:00",
+  "SecondsPrAccept": 861,
+  "AlertRecipient": "occaecati",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "eum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "id",
-  "WarnNewChatMinutes": 269,
-  "WarnManagerNewChatMinutes": 58,
+  "BadgeHeader": "qui",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "dolores",
+  "WarnNewChatMinutes": 581,
+  "WarnManagerNewChatMinutes": 322,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -185,25 +185,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 265,
-  "WarnManagerChatMessageMinutes": 11,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 311,
+  "WarnManagerChatMessageMinutes": 16,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 62,
-  "OfflineFormQueueLength": 354,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "fugiat",
+  "OfflineFormTimeLimit": 678,
+  "OfflineFormQueueLength": 629,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 25
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

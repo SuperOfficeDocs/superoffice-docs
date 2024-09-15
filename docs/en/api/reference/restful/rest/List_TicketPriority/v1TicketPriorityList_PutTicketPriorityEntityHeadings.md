@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 205,
-    "Name": "Marks, Waelchi and Bogisich",
-    "Tooltip": "qui",
+    "HeadingId": 726,
+    "Name": "Wyman Group",
+    "Tooltip": "eaque",
     "Deleted": true,
-    "Rank": 392,
-    "UdListDefinitionId": 697
+    "Rank": 382,
+    "UdListDefinitionId": 885
   },
   {
-    "HeadingId": 205,
-    "Name": "Marks, Waelchi and Bogisich",
-    "Tooltip": "qui",
+    "HeadingId": 726,
+    "Name": "Wyman Group",
+    "Tooltip": "eaque",
     "Deleted": true,
-    "Rank": 392,
-    "UdListDefinitionId": 697
+    "Rank": 382,
+    "UdListDefinitionId": 885
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 723,
-    "Name": "Nader, Wiegand and Langworth",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "Rank": 49,
-    "UdListDefinitionId": 496,
+    "HeadingId": 919,
+    "Name": "Hoeger, Boyle and Boehm",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 236,
+    "UdListDefinitionId": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 857
       }
     }
   }

@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Purdy, Veum and Sporer"
+  "OwnerName": "Kunde-Haley"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "nulla",
+  "Message": "adipisci",
   "Url": "http://www.example.com/"
 }
 ```

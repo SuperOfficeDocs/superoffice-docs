@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Schmeler-Casper",
-  "StorageKey": "est",
+  "StorageType": "ex",
+  "ProviderName": "Mills, Mante and Rice",
+  "StorageKey": "a",
   "RestrictionGroups": [
     {
-      "Name": "Rau-Toy",
-      "Description": "Reduced uniform matrices",
-      "Rank": 583,
+      "Name": "Wisoky LLC",
+      "Description": "Implemented multi-state project",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rau-Toy",
-      "Description": "Reduced uniform matrices",
-      "Rank": 583,
+      "Name": "Wisoky LLC",
+      "Description": "Implemented multi-state project",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "officia"
+  "Context": "eaque"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dare, Kassulke and Moen",
-    "Description": "Seamless fresh-thinking pricing structure",
-    "Rank": 904,
+    "Name": "Kessler-Deckow",
+    "Description": "Versatile impactful interface",
+    "Rank": 792,
     "Restrictions": [
       {
-        "Name": "Langworth, Sporer and Quitzon",
-        "Operator": "aut",
+        "Name": "Koelpin-O'Kon",
+        "Operator": "itaque",
         "Values": [
-          "repellat",
-          "quia"
+          "et",
+          "ullam"
         ],
         "DisplayValues": [
-          "in",
-          "voluptas"
+          "sapiente",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 183,
+        "InterParenthesis": 640,
         "InterOperator": "And",
-        "UniqueHash": 998
+        "UniqueHash": 488
       }
     ]
   },
   {
-    "Name": "Dare, Kassulke and Moen",
-    "Description": "Seamless fresh-thinking pricing structure",
-    "Rank": 904,
+    "Name": "Kessler-Deckow",
+    "Description": "Versatile impactful interface",
+    "Rank": 792,
     "Restrictions": [
       {
-        "Name": "Langworth, Sporer and Quitzon",
-        "Operator": "aut",
+        "Name": "Koelpin-O'Kon",
+        "Operator": "itaque",
         "Values": [
-          "repellat",
-          "quia"
+          "et",
+          "ullam"
         ],
         "DisplayValues": [
-          "in",
-          "voluptas"
+          "sapiente",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 183,
+        "InterParenthesis": 640,
         "InterOperator": "And",
-        "UniqueHash": 998
+        "UniqueHash": 488
       }
     ]
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Halvorson, Kuvalis and Glover",
-    "ToolTip": "Quis sit.",
+    "Id": 348,
+    "Name": "Padberg, Ullrich and Johns",
+    "ToolTip": "Modi debitis suscipit labore sit dolor.",
     "Deleted": false,
-    "Rank": 974,
-    "Type": "id",
-    "ColorBlock": 370,
-    "IconHint": "officia",
+    "Rank": 21,
+    "Type": "laudantium",
+    "ColorBlock": 796,
+    "IconHint": "laudantium",
     "Selected": true,
-    "LastChanged": "2021-03-01T13:28:32.7572536+01:00",
+    "LastChanged": "2017-08-20T04:02:07.119095+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "D'Amore-Gulgowski",
-        "ToolTip": "Nesciunt dolor mollitia repellendus corrupti est voluptatem est.",
-        "Deleted": true,
-        "Rank": 977,
-        "Type": "repellat",
-        "ColorBlock": 366,
-        "IconHint": "provident",
+        "Id": 625,
+        "Name": "Langworth, Feeney and Doyle",
+        "ToolTip": "Laudantium et eos.",
+        "Deleted": false,
+        "Rank": 719,
+        "Type": "ipsa",
+        "ColorBlock": 830,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2003-04-13T13:28:32.7572536+02:00",
+        "LastChanged": "2003-12-12T04:02:07.119095+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Nora Sylvia Satterfield DVM"
+        "ExtraInfo": "itaque",
+        "StyleHint": "iure",
+        "Hidden": false,
+        "FullName": "Miss Leilani Rutherford"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "quas",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Prof. Lenore Vandervort PhD"
+    "FullName": "Ally Zack Purdy MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Jenkins Group",
-    "ToolTip": "Et fuga nesciunt.",
-    "Deleted": true,
-    "Rank": 841,
-    "Type": "suscipit",
-    "ColorBlock": 3,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2013-04-29T13:28:32.7728753+02:00",
+    "Id": 474,
+    "Name": "Dietrich-Berge",
+    "ToolTip": "Voluptatibus assumenda quis ex.",
+    "Deleted": false,
+    "Rank": 108,
+    "Type": "qui",
+    "ColorBlock": 233,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2003-06-09T04:02:07.119095+02:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Rippin-Bosco",
-        "ToolTip": "Provident consequatur.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "veritatis",
-        "ColorBlock": 652,
-        "IconHint": "vitae",
+        "Id": 507,
+        "Name": "Lockman LLC",
+        "ToolTip": "Aut fuga qui ducimus repellat quis.",
+        "Deleted": false,
+        "Rank": 980,
+        "Type": "laboriosam",
+        "ColorBlock": 207,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2018-11-03T13:28:32.7728753+01:00",
+        "LastChanged": "2009-09-23T04:02:07.119095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Adolf Zieme Sr.",
+        "ExtraInfo": "quos",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Mr. Kenton Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 514
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Ruben Leffler",
+    "ExtraInfo": "est",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Zander Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 424
       }
     }
   }

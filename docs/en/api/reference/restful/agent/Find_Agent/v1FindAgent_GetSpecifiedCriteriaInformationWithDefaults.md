@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Kris-Hudson",
-  "StorageKey": "recusandae",
+  "StorageType": "porro",
+  "ProviderName": "Crist, Tremblay and Schinner",
+  "StorageKey": "nobis",
   "DesiredColumnNames": [
-    "Adams, Jast and Klein",
-    "Bayer-Rosenbaum"
+    "Pouros, Daniel and Olson",
+    "Feeney Group"
   ],
   "StaticColumns": [
-    "illum",
-    "sed"
+    "velit",
+    "exercitationem"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rau-Smitham",
-      "Operator": "eaque",
+      "Name": "Cruickshank-Schamberger",
+      "Operator": "est",
       "Values": [
-        "earum",
-        "et"
+        "autem",
+        "quisquam"
       ],
       "DisplayValues": [
-        "et",
-        "soluta"
+        "temporibus",
+        "ipsam"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 776,
+      "InterParenthesis": 414,
       "InterOperator": "And",
-      "UniqueHash": 216
+      "UniqueHash": 902
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Breitenberg LLC",
-      "DisplayTooltip": "ut",
-      "DisplayType": "a",
+      "DisplayName": "Spinka-Hirthe",
+      "DisplayTooltip": "in",
+      "DisplayType": "repellendus",
       "CanOrderBy": true,
-      "Name": "Legros LLC",
+      "Name": "Lehner Group",
       "CanRestrictBy": true,
-      "RestrictionType": "harum",
-      "RestrictionListName": "Brown LLC",
-      "IsVisible": true,
-      "ExtraInfo": "maiores",
-      "Width": "iusto",
-      "IconHint": "earum",
-      "HeadingIconHint": "et"
+      "RestrictionType": "perspiciatis",
+      "RestrictionListName": "Mitchell, Skiles and Reichel",
+      "IsVisible": false,
+      "ExtraInfo": "est",
+      "Width": "eos",
+      "IconHint": "incidunt",
+      "HeadingIconHint": "nihil"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Welch-Crooks",
-      "PrimaryKey": 823,
+      "EntityName": "Predovic-Weimann",
+      "PrimaryKey": 168,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "similique",
-          "TooltipHint": "eaque",
-          "LinkHint": "eos"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "porro",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "ut",
+      "LinkHint": "itaque",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 488
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Howe, Crist and Pagac",
-      "Description": "Enhanced contextually-based interface",
-      "Rank": 384,
+      "Name": "Bartell LLC",
+      "Description": "Assimilated fault-tolerant encoding",
+      "Rank": 898,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Howe, Crist and Pagac",
-      "Description": "Enhanced contextually-based interface",
-      "Rank": 384,
+      "Name": "Bartell LLC",
+      "Description": "Assimilated fault-tolerant encoding",
+      "Rank": 898,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Ankunding, Padberg and Brekke",
-    "ToolTip": "Quo animi quo voluptatum.",
-    "Deleted": true,
-    "Rank": 726,
-    "Type": "necessitatibus",
-    "ColorBlock": 160,
-    "IconHint": "aut",
+    "Id": 31,
+    "Name": "Leffler, Kunze and Schimmel",
+    "ToolTip": "Vel maxime voluptatibus voluptatem.",
+    "Deleted": false,
+    "Rank": 861,
+    "Type": "quis",
+    "ColorBlock": 882,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "1998-07-04T13:28:33.1638597+02:00",
+    "LastChanged": "2021-05-17T04:02:07.4167631+02:00",
     "ChildItems": [
       {
-        "Id": 662,
-        "Name": "Kreiger, Davis and Lebsack",
-        "ToolTip": "Nemo dolor est similique ea molestiae.",
+        "Id": 649,
+        "Name": "Reinger LLC",
+        "ToolTip": "Mollitia pariatur pariatur velit est totam dolorum.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "assumenda",
-        "ColorBlock": 299,
-        "IconHint": "ut",
+        "Rank": 772,
+        "Type": "itaque",
+        "ColorBlock": 936,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2019-04-02T13:28:33.1638597+02:00",
+        "LastChanged": "2015-11-13T04:02:07.4167631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Mr. Sean Klein IV"
+        "ExtraInfo": "ipsam",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Jesse Kaya Thompson DDS"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Lyla Armstrong"
+    "ExtraInfo": "ratione",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Dr. Brent Jonathan Dickens"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Gerhold-Sauer",
-    "ToolTip": "Vero quos veniam.",
+    "Id": 560,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Quo quia omnis iure ducimus odit distinctio voluptatibus.",
     "Deleted": false,
-    "Rank": 981,
-    "Type": "et",
-    "ColorBlock": 287,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2005-11-05T13:28:33.1794796+01:00",
+    "Rank": 242,
+    "Type": "dolor",
+    "ColorBlock": 18,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2006-02-25T04:02:07.4167631+01:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Greenholt-Hermann",
-        "ToolTip": "Quia ipsam consequatur autem.",
-        "Deleted": true,
-        "Rank": 878,
-        "Type": "vel",
-        "ColorBlock": 744,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2020-10-31T13:28:33.1794796+01:00",
+        "Id": 167,
+        "Name": "Kertzmann Inc and Sons",
+        "ToolTip": "Iure et eum aut porro.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "aliquid",
+        "ColorBlock": 219,
+        "IconHint": "at",
+        "Selected": false,
+        "LastChanged": "2024-05-10T04:02:07.4167631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Dr. Annamae Yadira Luettgen Jr.",
+        "ExtraInfo": "eius",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Dr. Rosalee Alf O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 207
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quo",
+    "StyleHint": "nihil",
     "Hidden": true,
-    "FullName": "Mrs. Reba Rossie Schmidt V",
+    "FullName": "Madelyn Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Hammes, Gulgowski and Hamill",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "UdListDefinitionId": 329,
-    "Rank": 616,
+    "Id": 211,
+    "Name": "Ledner, Schumm and Thiel",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 781,
+    "Rank": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 206
       }
     }
   }

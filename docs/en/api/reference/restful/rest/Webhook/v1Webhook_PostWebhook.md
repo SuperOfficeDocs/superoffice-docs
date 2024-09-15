@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 54,
-  "Name": "Prohaska Inc and Sons",
+  "WebhookId": 694,
+  "Name": "Aufderhar, O'Keefe and Sporer",
   "Events": [
-    "sint",
-    "incidunt"
+    "illum",
+    "id"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatem",
+  "Secret": "laudantium",
   "State": "Active",
-  "Type": "numquam",
+  "Type": "est",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "assumenda"
+    "Headers1": "ut",
+    "Headers2": "inventore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2003-02-19T13:28:32.6322813+01:00",
+  "Registered": "2009-09-01T04:02:07.0409789+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-03-20T13:28:32.6322813+01:00",
+  "Updated": "1997-08-13T04:02:07.0409789+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lucie@turnergreenfelder.us"
+  "ErrorsEmail": "jeramy@goldner.uk"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 981,
-  "Name": "O'Connell-Senger",
+  "WebhookId": 626,
+  "Name": "Koelpin, Pfeffer and Berge",
   "Events": [
-    "fugit",
-    "quo"
+    "et",
+    "provident"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "blanditiis",
+  "Secret": "qui",
   "State": "Active",
-  "Type": "et",
+  "Type": "id",
   "Headers": {
-    "Headers1": "maiores",
-    "Headers2": "ea"
+    "Headers1": "eaque",
+    "Headers2": "iusto"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-08-04T13:28:32.6322813+02:00",
+  "Registered": "2023-04-18T04:02:07.0566019+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-07-21T13:28:32.6322813+02:00",
+  "Updated": "2003-10-29T04:02:07.0566019+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "presley@gutmann.com",
+  "ErrorsEmail": "hilda_boyle@auer.us",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

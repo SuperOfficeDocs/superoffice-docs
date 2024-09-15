@@ -2,10 +2,10 @@
 uid: table-s_washing
 title: s_washing table
 description: Register of all bounced mail to enabel washing
-generated: true
+so.generated: true
 keywords: database table s_washing
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_washing Table (341)

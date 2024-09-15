@@ -2,10 +2,10 @@
 uid: table-OLESubjectText
 title: OLESubjectText table
 description: Control data table for the OLE DB Provider
-generated: true
+so.generated: true
 keywords: database table OLESubjectText
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # OLESubjectText Table (162)

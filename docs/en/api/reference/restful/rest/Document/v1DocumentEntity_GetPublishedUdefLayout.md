@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 873,
-    "ColumnId": 855,
-    "FieldDefault": "aut",
-    "FieldHeight": 901,
-    "FieldLabel": "quisquam",
-    "FieldLeft": 857,
-    "FieldTop": 5,
+    "UDefFieldId": 400,
+    "ColumnId": 495,
+    "FieldDefault": "vel",
+    "FieldHeight": 887,
+    "FieldLabel": "odit",
+    "FieldLeft": 104,
+    "FieldTop": 924,
     "FieldType": "Checkbox",
-    "FieldWidth": 78,
-    "FormatMask": "enim",
+    "FieldWidth": 459,
+    "FormatMask": "et",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 487,
-    "LabelLeft": 580,
-    "LabelTop": 808,
-    "LabelWidth": 648,
-    "LastVersionId": 233,
-    "ListTableId": 492,
-    "IsMandatory": true,
+    "LabelHeight": 985,
+    "LabelLeft": 281,
+    "LabelTop": 444,
+    "LabelWidth": 568,
+    "LastVersionId": 219,
+    "ListTableId": 139,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 66,
-    "ProgId": "commodi",
-    "IsReadOnly": true,
-    "ShortLabel": "eum",
-    "TabOrder": 388,
-    "TextLength": 233,
+    "Page1LineNo": 318,
+    "ProgId": "ut",
+    "IsReadOnly": false,
+    "ShortLabel": "blanditiis",
+    "TabOrder": 936,
+    "TextLength": 881,
     "Tooltip": "et",
-    "UdefIdentity": 530,
-    "UDListDefinitionId": 401,
+    "UdefIdentity": 901,
+    "UDListDefinitionId": 444,
     "Justification": "Center",
-    "Version": 307,
-    "TemplateVariableName": "Mann-Lynch",
-    "HasBeenPublished": false,
-    "MdoListName": "Price, Harris and Grady",
+    "Version": 852,
+    "TemplateVariableName": "Kohler LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Harber, Lemke and Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

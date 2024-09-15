@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 929,
-    "Name": "Lesch, Altenwerth and Cummerata",
-    "Description": "Digitized encompassing attitude",
-    "DeltaJson": "id",
+    "ConfigurableScreenDeltaId": 725,
+    "Name": "Lockman, Gusikowski and Skiles",
+    "Description": "Proactive dynamic encoding",
+    "DeltaJson": "velit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "ipsum",
-    "UpdatedDate": "2021-01-07T13:28:22.17931+01:00",
-    "CreatedDate": "2001-10-19T13:28:22.17931+02:00",
+    "RecipeId": "iste",
+    "UpdatedDate": "1998-08-24T04:02:01.4092709+02:00",
+    "CreatedDate": "2024-04-07T04:02:01.4092709+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      592,
-      496
+      31,
+      741
     ],
-    "AppliesToKey": "culpa",
+    "AppliesToKey": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 519
       }
     }
   }

@@ -103,56 +103,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weissnat-Keeling",
+  "ProviderName": "Bergnaum, Lind and Stehr",
   "Columns": [
-    "hic",
-    "amet"
+    "a",
+    "praesentium"
   ],
   "SortOrder": [
     {
-      "Name": "Bayer-Kuhic",
+      "Name": "Dicki-Cole",
       "Direction": "ASC"
     },
     {
-      "Name": "Bayer-Kuhic",
+      "Name": "Dicki-Cole",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mayert-Kuvalis",
-      "Operator": "amet",
+      "Name": "Davis, Zemlak and Osinski",
+      "Operator": "error",
       "Values": [
-        "ea",
-        "quam"
+        "qui",
+        "quos"
       ],
       "DisplayValues": [
-        "eligendi",
-        "harum"
+        "quidem",
+        "quidem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 317,
+      "InterParenthesis": 119,
       "InterOperator": "And",
-      "UniqueHash": 729
+      "UniqueHash": 589
     }
   ],
   "Entities": [
-    "ducimus",
-    "similique"
+    "ab",
+    "quasi"
   ],
-  "Page": 992,
-  "PageSize": 872,
-  "Options": "enim",
-  "Context": "repellat"
+  "Page": 598,
+  "PageSize": 512,
+  "Options": "ratione",
+  "Context": "error"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 301,
+  "RowCount": 910,
   "Rows": [
     {
-      "EntityName": "Emmerich, Hickle and Streich",
-      "PrimaryKey": 194,
+      "EntityName": "Olson, Hudson and Lang",
+      "PrimaryKey": 921,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "facilis",
-          "LinkHint": "porro"
+          "DisplayValue": "ad",
+          "TooltipHint": "quibusdam",
+          "LinkHint": "tempora"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "officiis",
+      "LinkHint": "dolor",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldType": "System.Int32",
+          "FieldLength": 29
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

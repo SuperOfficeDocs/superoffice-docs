@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 478,
-  "Name": "Swift Group",
+  "SelectionId": 81,
+  "Name": "Beatty, Rippin and Ullrich",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone national framework",
-  "Postit": "voluptas",
+  "Description": "Pre-emptive composite frame",
+  "Postit": "fugit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 35,
-  "IncludePerson": 361,
+  "GroupIdx": 145,
+  "IncludePerson": 272,
   "MemberCount": 99.99,
-  "Name": "Block-Toy",
-  "PostitTextId": 118,
-  "CreatedDate": "2022-12-24T13:28:23.7417186+01:00",
-  "SelectionId": 494,
-  "SoundEx": "unde",
-  "Source": 744,
-  "TextId": 745,
-  "UpdatedDate": "2021-01-24T13:28:23.7417186+01:00",
-  "UpdatedCount": 371,
-  "Visibility": 342,
+  "Name": "Daniel LLC",
+  "PostitTextId": 266,
+  "CreatedDate": "2017-10-02T04:02:02.31613+02:00",
+  "SelectionId": 268,
+  "SoundEx": "esse",
+  "Source": 988,
+  "TextId": 298,
+  "UpdatedDate": "2015-03-27T04:02:02.31613+01:00",
+  "UpdatedCount": 740,
+  "Visibility": 594,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 498,
-  "TargetTableName": "Rowe LLC",
+  "TargetTableNumber": 861,
+  "TargetTableName": "Bins, Keeling and Baumbach",
   "Completed": false,
-  "LeftSelectionId": 179,
-  "RightSelectionId": 474,
+  "LeftSelectionId": 498,
+  "RightSelectionId": 102,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Abernathy, Boehm and Maggio",
-  "ShadowProviderName": "Reynolds, Spencer and Satterfield",
-  "ChartKey": "ut",
-  "LastLoaded": "2010-07-16T13:28:23.7417186+02:00",
-  "LastLoadedBy": 442,
+  "MainProviderName": "Nicolas, Fahey and Luettgen",
+  "ShadowProviderName": "Rath-Bernier",
+  "ChartKey": "aut",
+  "LastLoaded": "2014-07-25T04:02:02.31613+02:00",
+  "LastLoadedBy": 422,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-10-22T13:28:23.7417186+02:00",
-  "LastMembershipChangeBy": 733,
+  "LastMembershipChange": "2022-04-12T04:02:02.31613+02:00",
+  "LastMembershipChangeBy": 713,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "ex",
-  "MailingsProviderName": "Satterfield, Nikolaus and Denesik",
-  "DashboardTileDefinitionId": 655,
+  "MainHeading": "quis",
+  "MemberTabHeading": "modi",
+  "MailingsProviderName": "Murazik, Lueilwitz and Bergnaum",
+  "DashboardTileDefinitionId": 821,
   "VisibleFor": [
     {
-      "VisibleId": 330,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldLength": 926
         }
       }
     },
     {
-      "VisibleId": 330,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldLength": 926
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldLength": 788
     }
   }
 }

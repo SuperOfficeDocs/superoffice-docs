@@ -2,10 +2,10 @@
 uid: table-ProductCategoryHeadingLink
 title: ProductCategoryHeadingLink table
 description: Heading link table for ProductCategory, for MDO item headings
-generated: true
+so.generated: true
 keywords: database table ProductCategoryHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ProductCategoryHeadingLink Table (410)

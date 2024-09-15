@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Klocko-Bruen",
-  "DeviceName": "Franecki-Haag",
-  "DeviceIdentifier": "nihil"
+  "ApplicationName": "Kertzmann LLC",
+  "DeviceName": "Schaefer LLC",
+  "DeviceIdentifier": "quo"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 745,
-  "Name": "Schuppe-White",
-  "CreatedDate": "2023-03-15T13:28:22.8510314+01:00",
-  "UpdatedDate": "1997-10-20T13:28:22.8510314+02:00",
-  "AssociateFullName": "Lafayette Tillman Sr.",
-  "CreatedBy": "incidunt",
-  "UpdatedBy": "nam",
-  "DeviceIdentifier": "qui",
-  "ForeignAppId": 818,
+  "ForeignDeviceId": 219,
+  "Name": "Kling, Kohler and Harber",
+  "CreatedDate": "1998-07-04T04:02:01.7888547+02:00",
+  "UpdatedDate": "1999-07-09T04:02:01.7888547+02:00",
+  "AssociateFullName": "Yessenia Jaskolski",
+  "CreatedBy": "sint",
+  "UpdatedBy": "ratione",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldType": "System.String",
+      "FieldLength": 583
     }
   }
 }

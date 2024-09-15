@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 277,
-  "Name": "Little, Pagac and Hayes",
-  "Tooltip": "qui",
-  "Rank": 204,
+  "SaleTypeId": 531,
+  "Name": "Hoeger, Raynor and Cruickshank",
+  "Tooltip": "sapiente",
+  "Rank": 785,
   "DurationUnit": "Century",
-  "SaleDuration": 791,
-  "SaleTypeCatId": 749,
+  "SaleDuration": 204,
+  "SaleTypeCatId": 270,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 824,
-  "QuoteLinesTemplate": 52,
-  "ConfirmationLinesTemplate": 107,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 273,
+  "QuoteLinesTemplate": 32,
+  "ConfirmationLinesTemplate": 62,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 915,
-  "MinEarningPercent": 248,
-  "GroupQuoteLinesBy": 556,
-  "SortGroupLinesBy": 217,
+  "MaxDiscountPercent": 41,
+  "MinEarningPercent": 149,
+  "GroupQuoteLinesBy": 611,
+  "SortGroupLinesBy": 624,
   "Stages": [
     {
-      "Id": 446,
-      "Name": "Block, Funk and Watsica",
-      "ToolTip": "Tenetur quia.",
+      "Id": 837,
+      "Name": "Armstrong, Olson and Braun",
+      "ToolTip": "Est quibusdam.",
       "Deleted": true,
-      "Rank": 589,
-      "Type": "aliquid",
-      "ColorBlock": 995,
-      "IconHint": "est",
+      "Rank": 904,
+      "Type": "et",
+      "ColorBlock": 869,
+      "IconHint": "rerum",
       "Selected": true,
-      "LastChanged": "2017-02-07T13:28:23.0231319+01:00",
+      "LastChanged": "2023-09-13T04:02:01.8784808+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "dolor",
-      "Hidden": false,
-      "FullName": "Lindsey Pacocha",
+      "ExtraInfo": "culpa",
+      "StyleHint": "a",
+      "Hidden": true,
+      "FullName": "Prof. Elbert Angelina Berge Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 852
+          "FieldLength": 617
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 82
     }
   }
 }

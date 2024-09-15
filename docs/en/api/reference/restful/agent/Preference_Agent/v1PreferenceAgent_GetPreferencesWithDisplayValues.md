@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "quia"
+      "Section": "est",
+      "Key": "molestiae"
     },
     {
-      "Section": "quia",
-      "Key": "quia"
+      "Section": "est",
+      "Key": "molestiae"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "consequuntur",
+    "RawValue": "vel",
     "Specification": null,
-    "DisplayValue": "cumque",
-    "DisplayTooltip": "sunt",
+    "DisplayValue": "fugit",
+    "DisplayTooltip": "earum",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 833,
-    "PrefDescId": 24,
-    "TableName": "Koelpin, Schoen and Halvorson",
-    "UserPreferenceId": 693,
+    "TargetId": 834,
+    "PrefDescId": 985,
+    "TableName": "Funk Inc and Sons",
+    "UserPreferenceId": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 514
       }
     }
   }

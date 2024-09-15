@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Runolfsdottir, Leffler and Kunde",
-    "ToolTip": "Aspernatur repudiandae in temporibus dolores esse.",
-    "Deleted": false,
-    "Rank": 321,
-    "Type": "perferendis",
-    "ColorBlock": 238,
-    "IconHint": "sit",
+    "Id": 680,
+    "Name": "Abernathy, Skiles and Keebler",
+    "ToolTip": "Perspiciatis et.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "harum",
+    "ColorBlock": 344,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2023-10-08T13:28:32.8041174+02:00",
+    "LastChanged": "2009-01-12T04:02:07.1503415+01:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Mosciski Group",
-        "ToolTip": "Accusantium inventore sint facere expedita quia.",
+        "Id": 935,
+        "Name": "Schimmel Group",
+        "ToolTip": "Illo in nam consectetur aperiam repellendus.",
         "Deleted": false,
-        "Rank": 517,
-        "Type": "sed",
-        "ColorBlock": 701,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2010-06-05T13:28:32.8041174+02:00",
+        "Rank": 945,
+        "Type": "aliquam",
+        "ColorBlock": 453,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2016-05-13T04:02:07.1503415+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "odio",
+        "ExtraInfo": "quos",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Werner O'Conner"
+        "FullName": "Ansel Treutel"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "dolor",
+    "ExtraInfo": "dolor",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Waylon Reichert"
+    "FullName": "Jayde Pagac"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Kilback, Rogahn and Pacocha",
-    "ToolTip": "Eum dolor.",
+    "Id": 600,
+    "Name": "Torphy-Cormier",
+    "ToolTip": "Quo explicabo asperiores id et.",
     "Deleted": false,
-    "Rank": 633,
-    "Type": "sapiente",
-    "ColorBlock": 110,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2021-12-23T13:28:32.8041174+01:00",
+    "Rank": 393,
+    "Type": "necessitatibus",
+    "ColorBlock": 712,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2013-09-05T04:02:07.1503415+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Homenick-Mayert",
-        "ToolTip": "Et et et nulla corporis quos.",
+        "Id": 401,
+        "Name": "Kunde LLC",
+        "ToolTip": "Animi voluptatum sit consequatur.",
         "Deleted": false,
-        "Rank": 921,
-        "Type": "laborum",
-        "ColorBlock": 757,
-        "IconHint": "exercitationem",
+        "Rank": 721,
+        "Type": "corrupti",
+        "ColorBlock": 332,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2018-10-01T13:28:32.8041174+02:00",
+        "LastChanged": "2014-08-24T04:02:07.1503415+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
+        "ExtraInfo": "id",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Gregoria Laurence Kozey II",
+        "FullName": "Josianne Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Yolanda Skiles",
+    "ExtraInfo": "et",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Miss Velva Wehner II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldType": "System.String",
+        "FieldLength": 861
       }
     }
   }

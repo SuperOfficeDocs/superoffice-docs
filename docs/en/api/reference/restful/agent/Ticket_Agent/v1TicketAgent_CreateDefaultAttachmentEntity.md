@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 727,
-  "Name": "Orn, Will and Koss",
-  "ContentType": "possimus",
-  "AttSize": 757,
-  "InlineImage": false,
-  "ContentId": "excepturi",
-  "AuthKey": "vel",
+  "AttachmentId": 684,
+  "Name": "Maggio, Jacobs and Schimmel",
+  "ContentType": "commodi",
+  "AttSize": 808,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "labore",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 318
     }
   }
 }

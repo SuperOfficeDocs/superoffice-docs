@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Aug 2015 13:28:32 G8T
+Last-Modified: Sun, 09 Apr 2023 04:02:06 G4T
 
 {
-  "BlobId": 434,
-  "BlobSize": 891,
-  "Description": "Cross-platform optimal leverage",
-  "ExtraInfo": "impedit",
-  "IsEncrypted": false,
+  "BlobId": 816,
+  "BlobSize": 47,
+  "Description": "Managed 4th generation approach",
+  "ExtraInfo": "reiciendis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cum",
-  "OriginalSize": 828,
-  "CreatedDate": "1997-08-15T13:28:32.5073109+02:00",
-  "UpdatedDate": "2015-08-16T13:28:32.5073109+02:00",
+  "MimeType": "ad",
+  "OriginalSize": 631,
+  "CreatedDate": "2004-04-20T04:02:06.9784855+02:00",
+  "UpdatedDate": "2023-04-09T04:02:06.9784855+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

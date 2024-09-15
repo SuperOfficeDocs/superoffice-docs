@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Kon, Kulas and Larson"
+  "TableName": "McKenzie, Lubowitz and Trantow"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ipsa",
-  "Inserts": 42,
-  "Updates": 890,
-  "Deletes": 224,
+  "Message": "ut",
+  "Inserts": 950,
+  "Updates": 360,
+  "Deletes": 940,
   "RowStatus": [
     {
-      "PrimaryKey": 574,
+      "PrimaryKey": 424,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "asperiores",
-        "numquam"
+        "vel",
+        "repellendus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 267
         }
       }
     },
     {
-      "PrimaryKey": 574,
+      "PrimaryKey": 424,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "asperiores",
-        "numquam"
+        "vel",
+        "repellendus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 267
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

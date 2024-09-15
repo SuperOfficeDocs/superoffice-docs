@@ -2,10 +2,10 @@
 uid: table-target_period
 title: target_period table
 description: A set of periods linked with target amounts for users/usergroups and the target groups/years.
-generated: true
+so.generated: true
 keywords: database table target_period
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # target\_period Table (501)

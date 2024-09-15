@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 571,
-  "LabelLayoutId": 961,
-  "Filename": "quia",
-  "Language": "et",
-  "FileType": "iusto",
+  "ReportId": 844,
+  "LabelLayoutId": 530,
+  "Filename": "similique",
+  "Language": "cupiditate",
+  "FileType": "et",
   "Restrictions": [
     {
-      "Name": "Senger, Auer and Ortiz",
-      "Operator": "quia",
+      "Name": "Maggio-Dooley",
+      "Operator": "consectetur",
       "Values": [
-        "ipsum",
-        "quas"
+        "inventore",
+        "quia"
       ],
       "DisplayValues": [
-        "praesentium",
-        "et"
+        "voluptatum",
+        "consequuntur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 894,
+      "InterParenthesis": 652,
       "InterOperator": "And",
-      "UniqueHash": 434
+      "UniqueHash": 95
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptas"
+"blanditiis"
 ```

@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=fugiat
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Botsford-Kozey",
-    "ToolTip": "Nam adipisci velit explicabo aut id.",
+    "Id": 986,
+    "Name": "Gorczany, Gutkowski and Hills",
+    "ToolTip": "Et molestiae consequatur pariatur aliquam ea iure doloribus.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "consequatur",
+    "Rank": 72,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Hahn, Botsford and Wolff",
-        "ToolTip": "Eveniet aliquam voluptas suscipit dolorem perspiciatis eius.",
-        "Deleted": false,
-        "Rank": 719,
-        "Type": "distinctio",
+        "Id": 842,
+        "Name": "Gusikowski Group",
+        "ToolTip": "Dolore dolor eum modi incidunt a voluptas aspernatur.",
+        "Deleted": true,
+        "Rank": 878,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 341,
-        "ExtraInfo": "vitae",
-        "StyleHint": "iste",
-        "FullName": "Tiffany Nienow",
+        "IconHint": "quasi",
+        "ColorBlock": 634,
+        "ExtraInfo": "ut",
+        "StyleHint": "non",
+        "FullName": "Ms. Jarret Towne III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "nulla",
-    "ColorBlock": 524,
-    "ExtraInfo": "qui",
-    "StyleHint": "molestiae",
-    "FullName": "Mr. Raegan Sterling Stark",
+    "IconHint": "explicabo",
+    "ColorBlock": 854,
+    "ExtraInfo": "sed",
+    "StyleHint": "nemo",
+    "FullName": "Ciara Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 826
       }
     }
   }

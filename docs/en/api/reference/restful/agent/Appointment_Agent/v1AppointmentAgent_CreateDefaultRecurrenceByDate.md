@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2011-08-06T13:28:21.6638038+02:00"
+  "StartDate": "2019-03-24T04:02:01.1275509+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 568,
-  "StartDate": "2012-05-12T13:28:21.6638038+02:00",
-  "EndDate": "2021-01-23T13:28:21.6638038+01:00",
-  "RecurrenceCounter": 200,
+  "RecurrenceId": 14,
+  "StartDate": "2005-03-07T04:02:01.1275509+01:00",
+  "EndDate": "2014-07-20T04:02:01.1275509+02:00",
+  "RecurrenceCounter": 370,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-12-12T13:28:21.6638038+01:00",
-      "IsConflict": true,
-      "Description": "Vision-oriented value-added algorithm",
-      "DescriptionStyleHint": "Expanded mobile support",
-      "Tooltip": "odit"
+      "Date": "2023-07-27T04:02:01.1275509+02:00",
+      "IsConflict": false,
+      "Description": "Front-line real-time framework",
+      "DescriptionStyleHint": "Multi-lateral motivating process improvement",
+      "Tooltip": "tenetur"
     },
     {
-      "Date": "2020-12-12T13:28:21.6638038+01:00",
-      "IsConflict": true,
-      "Description": "Vision-oriented value-added algorithm",
-      "DescriptionStyleHint": "Expanded mobile support",
-      "Tooltip": "odit"
+      "Date": "2023-07-27T04:02:01.1275509+02:00",
+      "IsConflict": false,
+      "Description": "Front-line real-time framework",
+      "DescriptionStyleHint": "Multi-lateral motivating process improvement",
+      "Tooltip": "tenetur"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

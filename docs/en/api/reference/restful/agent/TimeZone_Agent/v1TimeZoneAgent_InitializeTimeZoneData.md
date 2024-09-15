@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 79,
-    "Name": "Weissnat-Johnston",
-    "TZLocationCode": "nihil",
-    "TZLocationCities": "sit",
-    "IsoNumber": 393,
+    "TZLocationID": 872,
+    "Name": "Harris Group",
+    "TZLocationCode": "et",
+    "TZLocationCities": "maiores",
+    "IsoNumber": 993,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 445,
-        "StartMonth": 103,
-        "EndDay": 866,
-        "EndMonth": 336,
-        "TZOffset": 226,
-        "StartRulePattern": "voluptas",
-        "EndRulePattern": "sapiente"
+        "StartDay": 208,
+        "StartMonth": 766,
+        "EndDay": 397,
+        "EndMonth": 68,
+        "TZOffset": 71,
+        "StartRulePattern": "esse",
+        "EndRulePattern": "molestiae"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 757,
-        "StartMonth": 17,
-        "EndDay": 515,
-        "EndMonth": 290,
-        "TZOffset": 50,
-        "StartRulePattern": "deserunt",
-        "EndRulePattern": "voluptatum"
+        "StartDay": 905,
+        "StartMonth": 164,
+        "EndDay": 504,
+        "EndMonth": 728,
+        "TZOffset": 709,
+        "StartRulePattern": "rem",
+        "EndRulePattern": "voluptatem"
       }
     }
   }

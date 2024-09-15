@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Thiel LLC",
-  "ProviderName": "Mayer, Boehm and VonRueden"
+  "GuiName": "Hegmann Inc and Sons",
+  "ProviderName": "Lakin-Nitzsche"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Murphy LLC",
-      "DisplayTooltip": "fugit",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Turcotte-Hirthe",
-      "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "Ferry-Ullrich",
+      "DisplayName": "Steuber, Nitzsche and Okuneva",
+      "DisplayTooltip": "tempore",
+      "DisplayType": "consequatur",
+      "CanOrderBy": false,
+      "Name": "Little, Leannon and Schuster",
+      "CanRestrictBy": true,
+      "RestrictionType": "eveniet",
+      "RestrictionListName": "Bosco, Conroy and Weissnat",
       "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "rerum",
-      "IconHint": "sunt",
-      "HeadingIconHint": "dolorum"
+      "ExtraInfo": "delectus",
+      "Width": "doloremque",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "eveniet"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 212,
-      "Name": "Harvey-Bergstrom",
-      "ToolTip": "Eligendi perspiciatis et.",
+      "Id": 461,
+      "Name": "Steuber, Zemlak and Simonis",
+      "ToolTip": "Accusamus tempore ut.",
       "Deleted": false,
-      "Rank": 833,
-      "Type": "qui",
-      "ColorBlock": 954,
-      "IconHint": "quod",
-      "Selected": false,
-      "LastChanged": "2019-12-28T13:28:21.7887743+01:00",
+      "Rank": 195,
+      "Type": "et",
+      "ColorBlock": 776,
+      "IconHint": "aut",
+      "Selected": true,
+      "LastChanged": "1997-08-01T04:02:01.2062801+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "est",
-      "Hidden": false,
-      "FullName": "Mrs. Johnpaul Johan Howe",
+      "ExtraInfo": "ut",
+      "StyleHint": "vitae",
+      "Hidden": true,
+      "FullName": "Melissa Konopelski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Waelchi LLC",
+      "Name": "Harber-Welch",
       "Direction": "ASC"
     },
     {
-      "Name": "Waelchi LLC",
+      "Name": "Harber-Welch",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "veniam",
+  "OwnerKeys": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 752
     }
   }
 }

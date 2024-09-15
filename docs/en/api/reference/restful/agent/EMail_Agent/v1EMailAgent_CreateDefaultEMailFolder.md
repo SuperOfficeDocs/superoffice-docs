@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pacocha Inc and Sons",
-  "Delimiter": "corrupti",
-  "Flags": "sed",
-  "TotalItems": 847,
-  "UnreadItems": 868,
+  "Name": "Kovacek-Mann",
+  "Delimiter": "in",
+  "Flags": "pariatur",
+  "TotalItems": 602,
+  "UnreadItems": 903,
   "Subscribed": false,
-  "EmailFolderId": 885,
+  "EmailFolderId": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 529
     }
   }
 }

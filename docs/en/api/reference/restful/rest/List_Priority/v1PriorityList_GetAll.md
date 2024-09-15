@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Bruen LLC",
-    "Tooltip": "enim",
+    "Id": 587,
+    "Name": "Grady-Halvorson",
+    "Tooltip": "id",
     "Deleted": false,
-    "UdListDefinitionId": 610,
-    "Rank": 258,
+    "UdListDefinitionId": 672,
+    "Rank": 287,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldType": "System.String",
+        "FieldLength": 560
       }
     }
   }

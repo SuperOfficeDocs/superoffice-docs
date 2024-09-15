@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 631,
-  "ERPProductKey": "quo",
-  "ERPPriceListKey": "reprehenderit",
-  "Name": "Hamill, Pfannerstill and D'Amore",
-  "Description": "Decentralized maximized hardware",
-  "Code": "incidunt",
-  "PriceUnit": "iste",
-  "QuantityUnit": "voluptatem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 13313.232,
-  "ItemNumber": "1563559",
+  "ProductId": 801,
+  "ERPProductKey": "ratione",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Kozey, Smitham and Kub",
+  "Description": "Enhanced scalable array",
+  "Code": "dolores",
+  "PriceUnit": "consectetur",
+  "QuantityUnit": "asperiores",
+  "IsSubscription": true,
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 21492.971999999998,
+  "ItemNumber": "1523312",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vero",
-  "ProductTypeKey": "nihil",
-  "VAT": 26551.248,
-  "VATInfo": "laudantium",
-  "UnitCost": 29434.528,
-  "UnitMinimumPrice": 21684.146,
-  "UnitListPrice": 16572.592,
-  "InAssortment": true,
-  "Supplier": "est",
-  "SupplierCode": "quaerat",
-  "Rights": "quo",
-  "Rule": "suscipit",
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "ut",
+  "VAT": 14701.594,
+  "VATInfo": "ullam",
+  "UnitCost": 31089.28,
+  "UnitMinimumPrice": 25955.788,
+  "UnitListPrice": 16948.672,
+  "InAssortment": false,
+  "Supplier": "aut",
+  "SupplierCode": "saepe",
+  "Rights": "aliquam",
+  "Rule": "harum",
   "ExtraInfo": [
     {
-      "Name": "Waters LLC",
-      "Value": "consectetur",
+      "Name": "Mante-Bahringer",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 910
         }
       }
     },
     {
-      "Name": "Waters LLC",
-      "Value": "consectetur",
+      "Name": "Mante-Bahringer",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 910
         }
       }
     }
   ],
-  "RawExtraInfo": "fuga",
-  "ExtraField1": "tenetur",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "magni",
-  "ExtraField4": "corrupti",
-  "ExtraField5": "mollitia",
-  "InStock": 7048.366,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "unde",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "debitis",
+  "ExtraField4": "rerum",
+  "ExtraField5": "maxime",
+  "InStock": 4613.248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 687
     }
   }
 }

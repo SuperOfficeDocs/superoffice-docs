@@ -2,10 +2,10 @@
 uid: table-redletterday
 title: redletterday table
 description: Red letter days for calendar (holidays, birthday of king etc)
-generated: true
+so.generated: true
 keywords: database table redletterday
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # redletterday Table (17)

@@ -26,7 +26,7 @@ Gets a TicketStatusEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=741
+POST /api/v1/Agents/List/GetTicketStatusEntity?ticketStatusEntityId=401
 POST /api/v1/Agents/List/GetTicketStatusEntity?$select=name,department,category/id
 ```
 
@@ -83,8 +83,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 655,
-  "Name": "Boyle, Heathcote and Jaskolski",
+  "TicketStatusId": 899,
+  "Name": "Heidenreich Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 16
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 457,
-    "Name": "Barton, Johnston and Little",
-    "Description": "Enhanced upward-trending flexibility",
+    "ProjectId": 68,
+    "Name": "Rice-Goyette",
+    "Description": "Optimized contextually-based forecast",
     "URL": "http://www.example.com/",
-    "Type": "pariatur",
-    "AssociateId": 734,
-    "AssociateFullName": "Jabari Robel",
-    "TypeId": 360,
-    "Updated": "2006-05-29T13:28:23.491777+02:00",
-    "StatusId": 176,
-    "Status": "rem",
-    "TextId": 816,
-    "PublishTo": "1999-09-10T13:28:23.491777+02:00",
-    "PublishFrom": "2001-12-23T13:28:23.491777+01:00",
-    "IsPublished": false,
+    "Type": "et",
+    "AssociateId": 951,
+    "AssociateFullName": "Alivia Terry",
+    "TypeId": 38,
+    "Updated": "2018-02-16T04:02:02.1597135+01:00",
+    "StatusId": 448,
+    "Status": "delectus",
+    "TextId": 282,
+    "PublishTo": "2011-11-14T04:02:02.1597135+01:00",
+    "PublishFrom": "2013-06-07T04:02:02.1597135+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1737546",
-    "ActiveErpLinks": 65,
+    "ProjectNumber": "1421163",
+    "ActiveErpLinks": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

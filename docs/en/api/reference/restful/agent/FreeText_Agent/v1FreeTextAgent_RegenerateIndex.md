@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Frami-Cruickshank",
-  "AssociateId": 538,
-  "DetailsTable": 411,
-  "DetailsRecord": 149,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 562,
+  "Name": "Hamill-Heller",
+  "AssociateId": 925,
+  "DetailsTable": 79,
+  "DetailsRecord": 924,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "odio"
+    "ParameterObject1": "doloribus",
+    "ParameterObject2": "blanditiis"
   },
-  "LastStarted": "2015-06-06T13:28:22.866653+02:00",
-  "Created": "2002-06-16T13:28:22.866653+02:00",
-  "StartCount": 832,
-  "DatabaseSerialNumber": "221748",
-  "Context": "voluptatem",
-  "Result": "quia",
+  "LastStarted": "2007-07-29T04:02:01.8003604+02:00",
+  "Created": "2010-05-25T04:02:01.8003604+02:00",
+  "StartCount": 11,
+  "DatabaseSerialNumber": "899861",
+  "Context": "autem",
+  "Result": "et",
   "State": "All",
-  "Description": "Monitored attitude-oriented Graphical User Interface",
-  "Response": "quidem",
-  "Request": "ratione",
-  "ProgressDescription": "Optional optimizing process improvement",
-  "ProgressPercent": 505,
-  "FileName": "Davis-Rowe",
+  "Description": "Managed encompassing productivity",
+  "Response": "nam",
+  "Request": "rerum",
+  "ProgressDescription": "Diverse next generation matrices",
+  "ProgressPercent": 325,
+  "FileName": "Harber, Abshire and Cole",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 82
     }
   }
 }

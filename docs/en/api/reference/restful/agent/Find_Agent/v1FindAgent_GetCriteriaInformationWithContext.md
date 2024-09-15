@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Harvey-Wisoky",
-  "StorageKey": "perspiciatis",
+  "StorageType": "voluptas",
+  "ProviderName": "Yundt-Rosenbaum",
+  "StorageKey": "at",
   "StaticColumns": [
-    "repellat",
-    "corrupti"
+    "aliquid",
+    "nam"
   ],
-  "Context": "voluptas"
+  "Context": "ratione"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ratke, Leannon and Glover",
-      "Operator": "maiores",
+      "Name": "Trantow-Yundt",
+      "Operator": "rerum",
       "Values": [
-        "beatae",
-        "dignissimos"
+        "nulla",
+        "recusandae"
       ],
       "DisplayValues": [
-        "ratione",
-        "numquam"
+        "in",
+        "dolorem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 852,
+      "InterParenthesis": 307,
       "InterOperator": "And",
-      "UniqueHash": 795
+      "UniqueHash": 839
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lindgren, Baumbach and Frami",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "consequatur",
+      "DisplayName": "Schroeder-Hickle",
+      "DisplayTooltip": "atque",
+      "DisplayType": "omnis",
       "CanOrderBy": true,
-      "Name": "Homenick Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Mayert, Murray and Hintz",
+      "Name": "Dibbert-Kiehn",
+      "CanRestrictBy": false,
+      "RestrictionType": "molestias",
+      "RestrictionListName": "Swaniawski-Feest",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "inventore",
-      "IconHint": "eos",
-      "HeadingIconHint": "aliquid"
+      "ExtraInfo": "sed",
+      "Width": "et",
+      "IconHint": "sed",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kuhlman, Ruecker and Jacobson",
-      "PrimaryKey": 386,
+      "EntityName": "Gutkowski-Stamm",
+      "PrimaryKey": 136,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "dolore",
-          "LinkHint": "facilis"
+          "DisplayValue": "et",
+          "TooltipHint": "eos",
+          "LinkHint": "dignissimos"
         }
       },
-      "LinkHint": "quod",
-      "StyleHint": "quia",
+      "LinkHint": "magni",
+      "StyleHint": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 611
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wilderman-Koch",
-      "Description": "Business-focused holistic infrastructure",
-      "Rank": 430,
+      "Name": "Glover, Rohan and Simonis",
+      "Description": "Total radical flexibility",
+      "Rank": 571,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wilderman-Koch",
-      "Description": "Business-focused holistic infrastructure",
-      "Rank": 430,
+      "Name": "Glover, Rohan and Simonis",
+      "Description": "Total radical flexibility",
+      "Rank": 571,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldLength": 381
     }
   }
 }

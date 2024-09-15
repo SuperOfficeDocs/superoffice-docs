@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 304,
-  "PrefDescId": 263,
-  "PrefValue": "officia",
-  "PrefShowValue": "laboriosam",
-  "Description": "Distributed methodical methodology",
-  "IsBuiltin": false,
+  "PrefDescLineId": 332,
+  "PrefDescId": 14,
+  "PrefValue": "et",
+  "PrefShowValue": "quod",
+  "Description": "Universal optimal collaboration",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 483
     }
   },
   "_Links": {

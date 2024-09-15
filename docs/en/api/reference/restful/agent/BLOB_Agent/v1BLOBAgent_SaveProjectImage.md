@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded multi-tasking info-mediaries",
+  "Description": "Future-proofed discrete secured line",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schinner, Nikolaus and Price",
-  "Context": "exercitationem"
+  "ProviderName": "Roberts-Olson",
+  "Context": "incidunt"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Howe-Keebler",
-    "DisplayTooltip": "autem",
-    "DisplayType": "similique",
+    "DisplayName": "Bode, Harris and Harvey",
+    "DisplayTooltip": "sint",
+    "DisplayType": "consequatur",
     "CanOrderBy": true,
-    "Name": "Schimmel-Kub",
-    "CanRestrictBy": true,
-    "RestrictionType": "explicabo",
-    "RestrictionListName": "Beatty LLC",
+    "Name": "Collier-Rippin",
+    "CanRestrictBy": false,
+    "RestrictionType": "natus",
+    "RestrictionListName": "Koepp, Bosco and Lubowitz",
     "IsVisible": false,
-    "ExtraInfo": "ullam",
-    "Width": "tenetur",
-    "IconHint": "rerum",
-    "HeadingIconHint": "et"
+    "ExtraInfo": "sit",
+    "Width": "cumque",
+    "IconHint": "impedit",
+    "HeadingIconHint": "iusto"
   }
 ]
 ```

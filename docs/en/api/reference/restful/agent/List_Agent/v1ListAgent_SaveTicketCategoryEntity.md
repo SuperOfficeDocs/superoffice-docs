@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 318,
-  "ParentId": 65,
-  "Name": "O'Kon-Bins",
-  "Fullname": "dolor",
-  "CategoryMaster": 739,
+  "TicketCategoryId": 790,
+  "ParentId": 268,
+  "Name": "Schmeler-Kerluke",
+  "Fullname": "alias",
+  "CategoryMaster": 551,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jerde LLC",
+  "ExternalName": "Turner Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 871,
-  "ReplyTemplate": 438,
-  "NotificationEmail": "keshawn@kozey.us",
+  "AssignmentLag": 567,
+  "ReplyTemplate": 179,
+  "NotificationEmail": "hailee_hyatt@goodwin.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 52,
+  "EffectiveReplyTemplateId": 525,
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "maiores"
+    "CustomFields1": "provident",
+    "CustomFields2": "eos"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 731,
-  "ParentId": 893,
-  "Name": "Johnston, Bode and Tromp",
-  "Fullname": "quod",
-  "CategoryMaster": 62,
+  "TicketCategoryId": 905,
+  "ParentId": 162,
+  "Name": "Ankunding Group",
+  "Fullname": "non",
+  "CategoryMaster": 603,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dibbert-Batz",
+  "ExternalName": "Walsh, Casper and Kulas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 46,
-  "ReplyTemplate": 458,
-  "NotificationEmail": "kamren.becker@heaneyhomenick.uk",
+  "AssignmentLag": 390,
+  "ReplyTemplate": 510,
+  "NotificationEmail": "alden.nader@homenick.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 293,
+  "EffectiveReplyTemplateId": 263,
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "expedita"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

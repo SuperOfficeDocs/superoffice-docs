@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "laborum",
-  "PercentBigger": 550,
-  "IsoLangCode": "aut"
+  "Text": "eveniet",
+  "PercentBigger": 680,
+  "IsoLangCode": "molestiae"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"reprehenderit"
 ```

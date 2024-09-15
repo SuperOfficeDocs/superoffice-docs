@@ -2,10 +2,10 @@
 uid: table-SORPublish
 title: SORPublish table
 description: SuperOffice reporter data
-generated: true
+so.generated: true
 keywords: database table SORPublish
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SORPublish Table (174)

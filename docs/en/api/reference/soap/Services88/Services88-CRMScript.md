@@ -953,6 +953,13 @@ title: Services88.CRMScriptAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesBeforeSaveCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1018</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -1062,6 +1069,13 @@ title: Services88.CRMScriptAgent WSDL
             <xs:annotation>
               <xs:appinfo>
                 <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1116</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesAfterSaveCustomObject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1117</EnumerationValue>
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
@@ -1409,6 +1423,7 @@ title: Services88.CRMScriptAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Script" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="IgnoreErrors" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

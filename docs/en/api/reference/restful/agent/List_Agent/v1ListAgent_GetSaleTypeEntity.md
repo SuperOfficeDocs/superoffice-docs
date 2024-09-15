@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=278
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=456
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 259,
-  "Name": "Casper-Kautzer",
-  "Tooltip": "culpa",
-  "Rank": 719,
+  "SaleTypeId": 298,
+  "Name": "Hackett Group",
+  "Tooltip": "aperiam",
+  "Rank": 88,
   "DurationUnit": "Century",
-  "SaleDuration": 494,
-  "SaleTypeCatId": 751,
-  "Deleted": true,
+  "SaleDuration": 524,
+  "SaleTypeCatId": 572,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 712,
-  "QuoteLinesTemplate": 271,
-  "ConfirmationLinesTemplate": 470,
+  "DefaultQuoteValidity": 918,
+  "QuoteLinesTemplate": 935,
+  "ConfirmationLinesTemplate": 516,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 127,
-  "MinEarningPercent": 432,
-  "GroupQuoteLinesBy": 940,
-  "SortGroupLinesBy": 128,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 988,
+  "MinEarningPercent": 687,
+  "GroupQuoteLinesBy": 106,
+  "SortGroupLinesBy": 843,
   "Stages": [
     {
-      "Id": 243,
-      "Name": "Jast LLC",
-      "ToolTip": "Vitae neque molestiae voluptate voluptatem qui dignissimos cumque.",
+      "Id": 200,
+      "Name": "Gerlach Inc and Sons",
+      "ToolTip": "Vel molestiae impedit facilis distinctio vitae a.",
       "Deleted": false,
-      "Rank": 287,
-      "Type": "eaque",
-      "ColorBlock": 302,
-      "IconHint": "ad",
+      "Rank": 815,
+      "Type": "dolores",
+      "ColorBlock": 907,
+      "IconHint": "veritatis",
       "Selected": false,
-      "LastChanged": "2022-11-12T13:28:22.9294051+01:00",
+      "LastChanged": "2008-10-18T04:02:01.8316108+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "harum",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Ashley Baumbach",
+      "ExtraInfo": "aut",
+      "StyleHint": "minima",
+      "Hidden": true,
+      "FullName": "Lynn O'Hara I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldLength": 341
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

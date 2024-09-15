@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "Kiehn Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 970,
-  "Rank": 980,
+  "Id": 761,
+  "Name": "Rempel-Jerde",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "UdListDefinitionId": 619,
+  "Rank": 762,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

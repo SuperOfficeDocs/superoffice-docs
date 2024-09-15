@@ -2,10 +2,10 @@
 uid: table-ExternalEvent
 title: ExternalEvent table
 description: The definition of projects as events in Audience (or other Collaborative apps)
-generated: true
+so.generated: true
 keywords: database table ExternalEvent
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ExternalEvent Table (233)

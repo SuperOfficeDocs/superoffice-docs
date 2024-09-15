@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 472,
+  "DocumentId": 378,
   "AllowedReturnTypes": [
-    "fuga",
-    "excepturi"
+    "pariatur",
+    "officiis"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik LLC",
-    "DisplayName": "Harvey-Mitchell",
-    "DisplayTooltip": "nihil",
-    "IconHint": "nemo",
+    "Name": "Monahan-Vandervort",
+    "DisplayName": "Kessler LLC",
+    "DisplayTooltip": "omnis",
+    "IconHint": "sit",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Murazik LLC",
-    "DisplayName": "Harvey-Mitchell",
-    "DisplayTooltip": "nihil",
-    "IconHint": "nemo",
+    "Name": "Monahan-Vandervort",
+    "DisplayName": "Kessler LLC",
+    "DisplayTooltip": "omnis",
+    "IconHint": "sit",
     "ReturnType": "CustomGui"
   }
 ]

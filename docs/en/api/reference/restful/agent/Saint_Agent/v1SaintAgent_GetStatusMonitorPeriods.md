@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 820,
-  "Period2": 480,
-  "Period3": 377,
+  "Period1": 101,
+  "Period2": 928,
+  "Period3": 626,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 769
     }
   }
 }

@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "nemo",
-  "Interval": "praesentium",
+  "IsRunning": false,
+  "StatusMessage": "doloremque",
+  "Interval": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 904
     }
   }
 }

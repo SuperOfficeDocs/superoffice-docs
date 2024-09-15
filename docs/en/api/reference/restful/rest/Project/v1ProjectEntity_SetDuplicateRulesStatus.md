@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stoltenberg Inc and Sons",
-    "DisplayName": "Balistreri, O'Keefe and Hills",
-    "DisplayTooltip": "enim",
-    "IsActive": true
+    "Name": "Nitzsche Group",
+    "DisplayName": "Bradtke Group",
+    "DisplayTooltip": "in",
+    "IsActive": false
   },
   {
-    "Name": "Stoltenberg Inc and Sons",
-    "DisplayName": "Balistreri, O'Keefe and Hills",
-    "DisplayTooltip": "enim",
-    "IsActive": true
+    "Name": "Nitzsche Group",
+    "DisplayName": "Bradtke Group",
+    "DisplayTooltip": "in",
+    "IsActive": false
   }
 ]
 ```

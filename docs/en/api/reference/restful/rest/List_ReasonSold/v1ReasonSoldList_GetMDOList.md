@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=libero
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=aspernatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Shields, Konopelski and Runolfsson",
-    "ToolTip": "Ipsum quo eum ab qui corrupti odit molestiae.",
+    "Id": 335,
+    "Name": "Brown-Hodkiewicz",
+    "ToolTip": "Quibusdam et.",
     "Deleted": true,
-    "Rank": 654,
-    "Type": "est",
+    "Rank": 136,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Eichmann, Johnson and Morissette",
-        "ToolTip": "Magni quis nihil aut distinctio.",
+        "Id": 306,
+        "Name": "Goyette, Hintz and Kuhic",
+        "ToolTip": "Voluptatem reiciendis suscipit ab iure error.",
         "Deleted": false,
-        "Rank": 925,
-        "Type": "doloremque",
+        "Rank": 541,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 272,
-        "ExtraInfo": "veniam",
-        "StyleHint": "non",
-        "FullName": "Trudie Rodriguez IV",
+        "IconHint": "voluptas",
+        "ColorBlock": 725,
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
+        "FullName": "Fredy Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldLength": 413
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 509,
-    "ExtraInfo": "aut",
-    "StyleHint": "est",
-    "FullName": "Nat Corwin",
+    "IconHint": "voluptate",
+    "ColorBlock": 397,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "et",
+    "FullName": "Mrs. Adalberto Chaz Barton V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

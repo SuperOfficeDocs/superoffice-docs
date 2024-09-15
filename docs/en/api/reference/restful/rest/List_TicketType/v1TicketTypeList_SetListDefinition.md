@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Ondricka-Swift",
-  "Tooltip": "doloremque",
+  "Id": 454,
+  "Name": "Bergnaum LLC",
+  "Tooltip": "quam",
   "Deleted": true,
-  "Rank": 758,
-  "IsCustomList": true,
+  "Rank": 449,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "unde",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 18,
-  "Name": "Klein, Willms and Beatty",
-  "Tooltip": "a",
+  "Id": 463,
+  "Name": "Larkin, Heathcote and Leffler",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 803,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": true,
+  "Rank": 692,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 939
     }
   }
 }

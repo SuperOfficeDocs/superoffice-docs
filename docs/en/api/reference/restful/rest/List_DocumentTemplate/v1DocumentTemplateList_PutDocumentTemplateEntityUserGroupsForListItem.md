@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Ernser Group",
-    "ToolTip": "Eaque quis ullam qui error repellendus odio.",
-    "Deleted": false,
-    "Rank": 51,
-    "Type": "sed",
-    "ColorBlock": 178,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "2011-11-08T13:28:32.8509815+01:00",
+    "Id": 155,
+    "Name": "Hessel-Welch",
+    "ToolTip": "Ea in assumenda.",
+    "Deleted": true,
+    "Rank": 666,
+    "Type": "sequi",
+    "ColorBlock": 794,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2004-10-31T04:02:07.2440841+01:00",
     "ChildItems": [
       {
-        "Id": 960,
-        "Name": "Reichert-Kertzmann",
-        "ToolTip": "Et unde ratione.",
-        "Deleted": true,
-        "Rank": 306,
-        "Type": "corrupti",
-        "ColorBlock": 912,
-        "IconHint": "provident",
+        "Id": 862,
+        "Name": "Mueller Group",
+        "ToolTip": "Et autem optio non totam alias eius deserunt.",
+        "Deleted": false,
+        "Rank": 546,
+        "Type": "quos",
+        "ColorBlock": 603,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2004-08-12T13:28:32.8509815+02:00",
+        "LastChanged": "2013-03-30T04:02:07.2440841+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Lydia Nolan"
+        "FullName": "Billy Grimes"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "in",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Rey Schiller Sr."
+    "FullName": "Leanna Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Casper LLC",
-    "ToolTip": "Nemo voluptas dolore est ratione.",
-    "Deleted": false,
-    "Rank": 162,
-    "Type": "molestiae",
-    "ColorBlock": 328,
-    "IconHint": "deleniti",
+    "Id": 64,
+    "Name": "Conroy-Corkery",
+    "ToolTip": "Accusamus quae sed.",
+    "Deleted": true,
+    "Rank": 937,
+    "Type": "dolore",
+    "ColorBlock": 357,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2017-04-25T13:28:32.8509815+02:00",
+    "LastChanged": "2003-08-28T04:02:07.2440841+02:00",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Altenwerth Group",
-        "ToolTip": "Mollitia cum earum vitae nisi quia.",
+        "Id": 188,
+        "Name": "Lynch-Feest",
+        "ToolTip": "Eos facilis animi est nostrum ad cupiditate porro.",
         "Deleted": false,
-        "Rank": 897,
-        "Type": "odio",
-        "ColorBlock": 548,
-        "IconHint": "necessitatibus",
+        "Rank": 933,
+        "Type": "fugit",
+        "ColorBlock": 850,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2006-04-27T13:28:32.8509815+02:00",
+        "LastChanged": "2023-04-26T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "non",
+        "ExtraInfo": "illo",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Reed Mosciski",
+        "FullName": "Jeromy Beatty Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 238
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Willis Okuneva",
+    "ExtraInfo": "eum",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Linnea Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 447
       }
     }
   }

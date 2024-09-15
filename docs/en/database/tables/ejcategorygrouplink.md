@@ -2,10 +2,10 @@
 uid: table-EjCategoryGroupLink
 title: EjCategoryGroupLink table
 description: User group link table for EjCategory, for mass handling ej_category members
-generated: true
+so.generated: true
 keywords: database table EjCategoryGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # EjCategoryGroupLink Table (450)

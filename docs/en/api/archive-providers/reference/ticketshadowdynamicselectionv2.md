@@ -602,6 +602,8 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -639,12 +641,12 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
-|sale/associate/locationAddress|string|Location: Location| x |
-|sale/associate/isLocation|bool|Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -743,12 +745,12 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|project/saintSaleStatus|listAny|With status|  |
-|project/saintAmountClass|listAny|Amount class|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintSaleStatus|listAny|With status|  |
+|project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
@@ -760,7 +762,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=timeSpentInternally,createdBy/isActiveText,person/supportAssociate,person/personAddress/city,person/correspondingAssociate/assocTooltip
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=closedAt,person/personSource,person/supportAssociateFullName,person/correspondingAssociate/ejUserId,contact/contactDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

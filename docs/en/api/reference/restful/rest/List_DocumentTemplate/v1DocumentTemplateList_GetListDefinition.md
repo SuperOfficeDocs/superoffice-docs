@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Dooley-Hagenes",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 410,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 864,
+  "Name": "Marquardt, Hintz and Stoltenberg",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 787,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 212
     }
   },
   "_Links": {

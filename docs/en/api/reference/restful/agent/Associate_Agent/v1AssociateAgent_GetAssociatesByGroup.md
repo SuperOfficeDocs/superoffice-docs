@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 483,
-  "Type": 897
+  "GroupId": 882,
+  "Type": 701
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 225,
-    "Name": "Sanford-Hessel",
-    "PersonId": 843,
-    "Rank": 968,
-    "Tooltip": "unde",
+    "AssociateId": 354,
+    "Name": "Bradtke-Schowalter",
+    "PersonId": 954,
+    "Rank": 319,
+    "Tooltip": "voluptatem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 424,
-    "FullName": "Dr. Edyth Ladarius Champlin Sr.",
-    "FormalName": "Harvey-Dickinson",
+    "GroupIdx": 389,
+    "FullName": "Cory Abernathy I",
+    "FormalName": "Greenholt-Mohr",
     "Deleted": false,
-    "EjUserId": 511,
-    "UserName": "Dicki LLC",
+    "EjUserId": 784,
+    "UserName": "Kulas Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldType": "System.String",
+        "FieldLength": 612
       }
     }
   }

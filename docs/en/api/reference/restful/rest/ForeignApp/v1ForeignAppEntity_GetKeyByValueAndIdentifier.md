@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consequatur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sequi
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 22 Jan 2001 13:28:31 G1T
+Last-Modified: Wed, 07 Jun 2017 04:02:06 G6T
 
 {
-  "Key": "in",
-  "Value": "numquam",
-  "RecordId": 949,
-  "CreatedDate": "2019-02-01T13:28:31.6948645+01:00",
-  "UpdatedDate": "2001-01-22T13:28:31.6948645+01:00",
-  "UpdatedBy": "sint",
-  "CreatedBy": "neque",
-  "TableName": "Oberbrunner Inc and Sons",
+  "Key": "nostrum",
+  "Value": "voluptas",
+  "RecordId": 95,
+  "CreatedDate": "2001-11-13T04:02:06.6191478+01:00",
+  "UpdatedDate": "2017-06-07T04:02:06.6191478+02:00",
+  "UpdatedBy": "laudantium",
+  "CreatedBy": "ullam",
+  "TableName": "Kling-Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldLength": 520
     }
   }
 }

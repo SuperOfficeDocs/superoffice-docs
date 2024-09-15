@@ -2,10 +2,10 @@
 uid: table-form
 title: form table
 description: A form which can be published on a webpage and submitted by visitors
-generated: true
+so.generated: true
 keywords: database table form
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # form Table (484)

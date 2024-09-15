@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "in",
+  "RawValue": "accusamus",
   "Specification": null,
-  "DisplayValue": "aut",
-  "DisplayTooltip": "rem",
+  "DisplayValue": "repudiandae",
+  "DisplayTooltip": "eius",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 296,
-  "PrefDescId": 124,
-  "TableName": "Shanahan, Reichel and Schumm",
-  "UserPreferenceId": 895
+  "TargetId": 774,
+  "PrefDescId": 707,
+  "TableName": "Macejkovic Inc and Sons",
+  "UserPreferenceId": 979
 }
 ```
 

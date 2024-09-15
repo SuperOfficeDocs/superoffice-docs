@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Nitzsche, Johns and Farrell",
-  "ListItemId": 739,
+  "UdListDefinitionName": "Bode LLC",
+  "ListItemId": 494,
   "Headings": [
     {
-      "Id": 339,
-      "Name": "Welch, Hirthe and O'Reilly",
-      "ToolTip": "Enim aut est id.",
+      "Id": 290,
+      "Name": "Jacobson Group",
+      "ToolTip": "Et reprehenderit ea ipsa ullam.",
       "Deleted": true,
-      "Rank": 6,
-      "Type": "et",
-      "ColorBlock": 604,
+      "Rank": 780,
+      "Type": "odit",
+      "ColorBlock": 847,
       "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2015-04-11T13:28:22.9449983+02:00",
+      "Selected": false,
+      "LastChanged": "2014-02-21T04:02:01.847234+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "blanditiis",
+      "ExtraInfo": "et",
+      "StyleHint": "repudiandae",
       "Hidden": false,
-      "FullName": "Mollie Carroll"
+      "FullName": "Hollie Kris"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Walter Inc and Sons",
-    "ToolTip": "Quas ad nemo itaque ad laboriosam tenetur.",
-    "Deleted": false,
-    "Rank": 34,
-    "Type": "id",
-    "ColorBlock": 119,
-    "IconHint": "maxime",
+    "Id": 659,
+    "Name": "Koepp, Prosacco and Doyle",
+    "ToolTip": "Occaecati atque pariatur voluptates dignissimos non.",
+    "Deleted": true,
+    "Rank": 931,
+    "Type": "nihil",
+    "ColorBlock": 684,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2022-07-20T13:28:22.9606469+02:00",
+    "LastChanged": "2013-09-18T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Gleason Group",
-        "ToolTip": "Eos aut est.",
+        "Id": 136,
+        "Name": "Glover Inc and Sons",
+        "ToolTip": "Earum non blanditiis nobis quidem.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "fugit",
-        "ColorBlock": 198,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2004-10-17T13:28:22.9606469+02:00",
+        "Rank": 291,
+        "Type": "commodi",
+        "ColorBlock": 532,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2019-03-14T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "eos",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Dr. Rebekah Gene Wisozk DVM",
+        "FullName": "Mr. Russ Haylee Wyman Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 220
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "facere",
+    "ExtraInfo": "nemo",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Mr. Reynold Witting",
+    "FullName": "Oceane Dessie Schowalter Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 65
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 325
+  "AssociateId": 68
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Smitham, Connelly and Murazik",
-    "DeviceIdentifier": "dolore",
-    "PocketVersion": "voluptas",
-    "Language": "repellendus",
-    "PNSHandle": "sint",
+    "DeviceName": "Blick-Beer",
+    "DeviceIdentifier": "repudiandae",
+    "PocketVersion": "voluptatibus",
+    "Language": "eos",
+    "PNSHandle": "et",
     "Platform": "Apple",
-    "OSVersion": "iusto",
-    "TimeZoneId": 566
+    "OSVersion": "laudantium",
+    "TimeZoneId": 506
   }
 ]
 ```

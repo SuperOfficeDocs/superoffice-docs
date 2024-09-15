@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 943,
+  "ErpConnectionId": 19,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 999,
-  "IsActive": false,
+  "ErpConnectionId": 117,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 291,
-      "CrmFieldKey": "magni",
-      "CrmDisplayName": "Johnson-Goodwin",
-      "CrmDisplayTooltip": "labore",
-      "ErpFieldKey": "doloribus",
+      "ErpFieldId": 919,
+      "CrmFieldKey": "quibusdam",
+      "CrmDisplayName": "Jacobi, Toy and Shanahan",
+      "CrmDisplayTooltip": "non",
+      "ErpFieldKey": "illum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schinner Inc and Sons",
-      "ErpDisplayTooltip": "eveniet",
+      "ErpDisplayName": "Zulauf Inc and Sons",
+      "ErpDisplayTooltip": "natus",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
+      "AlreadyMapped": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "voluptates",
+      "ListReference": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 79
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 832
     }
   }
 }

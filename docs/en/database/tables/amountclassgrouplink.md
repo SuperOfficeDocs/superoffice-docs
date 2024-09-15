@@ -2,10 +2,10 @@
 uid: table-AmountClassGroupLink
 title: AmountClassGroupLink table
 description: User group link table for AmountClass, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table AmountClassGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AmountClassGroupLink Table (226)

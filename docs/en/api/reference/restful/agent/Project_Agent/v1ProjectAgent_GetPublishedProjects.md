@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    978,
-    453
+    328,
+    539
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 518,
-    "Name": "Gerlach Inc and Sons",
-    "Description": "Integrated composite function",
+    "ProjectId": 340,
+    "Name": "Walsh-Oberbrunner",
+    "Description": "Re-contextualized content-based artificial intelligence",
     "URL": "http://www.example.com/",
-    "Type": "quia",
-    "AssociateId": 759,
-    "AssociateFullName": "Prof. Devan Koelpin",
-    "TypeId": 848,
-    "Updated": "2001-01-16T13:28:23.491777+01:00",
-    "StatusId": 485,
-    "Status": "sunt",
-    "TextId": 92,
-    "PublishTo": "2003-07-13T13:28:23.491777+02:00",
-    "PublishFrom": "2006-01-12T13:28:23.491777+01:00",
+    "Type": "quisquam",
+    "AssociateId": 990,
+    "AssociateFullName": "Miss Madisyn Kaylin Dibbert",
+    "TypeId": 146,
+    "Updated": "2022-07-11T04:02:02.1597135+02:00",
+    "StatusId": 275,
+    "Status": "in",
+    "TextId": 449,
+    "PublishTo": "2007-06-24T04:02:02.1597135+02:00",
+    "PublishFrom": "2000-07-29T04:02:02.1597135+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1657978",
-    "ActiveErpLinks": 920,
+    "ProjectNumber": "286172",
+    "ActiveErpLinks": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 969
       }
     }
   }

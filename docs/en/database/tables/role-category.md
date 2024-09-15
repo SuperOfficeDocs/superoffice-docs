@@ -2,10 +2,10 @@
 uid: table-role_category
 title: role_category table
 description: Category membership associated with a role
-generated: true
+so.generated: true
 keywords: database table role_category
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # role\_category Table (325)

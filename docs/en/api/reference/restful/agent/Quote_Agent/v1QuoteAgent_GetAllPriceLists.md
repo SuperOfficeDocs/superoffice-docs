@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 115,
-  "Currency": "exercitationem"
+  "QuoteConnectionId": 114,
+  "Currency": "autem"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 206,
-    "ERPPriceListKey": "praesentium",
-    "QuoteConnectionId": 339,
-    "Name": "Leuschke-Stanton",
-    "Description": "Switchable context-sensitive middleware",
-    "Currency": "enim",
-    "CurrencyName": "Stoltenberg-Zulauf",
-    "ValidFrom": "2019-01-14T13:28:23.5698866+01:00",
-    "ValidTo": "2014-08-04T13:28:23.5698866+02:00",
-    "IsActive": true,
+    "PriceListId": 191,
+    "ERPPriceListKey": "quo",
+    "QuoteConnectionId": 639,
+    "Name": "Morissette, Walsh and Heaney",
+    "Description": "Inverse 24 hour emulation",
+    "Currency": "sit",
+    "CurrencyName": "Schmeler LLC",
+    "ValidFrom": "2021-09-07T04:02:02.2065837+02:00",
+    "ValidTo": "2021-11-20T04:02:02.2065837+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

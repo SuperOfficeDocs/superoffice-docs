@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 464,
-  "Name": "Swift, Bergstrom and Mueller",
-  "CreatedDate": "2002-12-25T13:28:31.6792414+01:00",
-  "UpdatedDate": "2015-10-04T13:28:31.6792414+02:00",
+  "ForeignAppId": 680,
+  "Name": "Larkin-Jaskolski",
+  "CreatedDate": "2023-04-02T04:02:06.6191478+02:00",
+  "UpdatedDate": "2005-06-18T04:02:06.6191478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 941,
-      "Name": "Lueilwitz-Emmerich",
-      "CreatedDate": "2006-08-20T13:28:31.6792414+02:00",
-      "UpdatedDate": "2012-10-28T13:28:31.6792414+01:00",
-      "AssociateFullName": "Elmira Rodriguez",
-      "CreatedBy": "quibusdam",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 192
+      "ForeignDeviceId": 526,
+      "Name": "Hand, Bruen and Friesen",
+      "CreatedDate": "2021-04-06T04:02:06.6191478+02:00",
+      "UpdatedDate": "2003-06-15T04:02:06.6191478+02:00",
+      "AssociateFullName": "Dane Maida Haag DDS",
+      "CreatedBy": "ipsum",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 791
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 877,
-  "Name": "Nicolas-Steuber",
-  "CreatedDate": "2011-05-12T13:28:31.6792414+02:00",
-  "UpdatedDate": "2023-02-21T13:28:31.6792414+01:00",
+  "ForeignAppId": 482,
+  "Name": "Lind-Hansen",
+  "CreatedDate": "2006-05-25T04:02:06.6191478+02:00",
+  "UpdatedDate": "2013-03-18T04:02:06.6191478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 623,
-      "Name": "Goyette, Daniel and Bechtelar",
-      "CreatedDate": "1998-02-03T13:28:31.6792414+01:00",
-      "UpdatedDate": "2015-02-17T13:28:31.6792414+01:00",
-      "AssociateFullName": "Asia Schowalter",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "esse",
-      "ForeignAppId": 746,
+      "ForeignDeviceId": 882,
+      "Name": "Jerde, Leffler and Aufderhar",
+      "CreatedDate": "2000-07-30T04:02:06.6191478+02:00",
+      "UpdatedDate": "2019-09-21T04:02:06.6191478+02:00",
+      "AssociateFullName": "Sigrid Hane",
+      "CreatedBy": "est",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "ex",
+      "ForeignAppId": 950,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 234
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 623
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

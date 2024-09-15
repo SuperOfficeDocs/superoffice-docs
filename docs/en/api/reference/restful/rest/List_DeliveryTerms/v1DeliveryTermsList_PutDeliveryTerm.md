@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Mraz-Hagenes",
-  "Tooltip": "eos",
+  "Id": 940,
+  "Name": "Davis, Green and Blanda",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 543,
-  "Rank": 353
+  "UdListDefinitionId": 398,
+  "Rank": 445
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 109,
-  "Name": "Altenwerth-McGlynn",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "UdListDefinitionId": 5,
-  "Rank": 468,
+  "Id": 324,
+  "Name": "Keeling Group",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "UdListDefinitionId": 937,
+  "Rank": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

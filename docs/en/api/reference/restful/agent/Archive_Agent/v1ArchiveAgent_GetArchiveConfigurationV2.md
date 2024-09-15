@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bednar-Bradtke",
-  "ProviderName": "Fadel, Greenfelder and Carter",
-  "Context": "et",
-  "OwnerKeys": "commodi"
+  "GuiName": "Brakus-Johnston",
+  "ProviderName": "Runte, Bergstrom and Frami",
+  "Context": "odio",
+  "OwnerKeys": "et"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Schowalter-Shanahan",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "et",
+      "DisplayName": "Gerlach, Kuhn and Wiegand",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "praesentium",
       "CanOrderBy": false,
-      "Name": "Collins-Mayert",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptatum",
-      "RestrictionListName": "Cummings Inc and Sons",
+      "Name": "Schoen Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Runolfsdottir-Weber",
       "IsVisible": false,
-      "ExtraInfo": "odio",
-      "Width": "dignissimos",
-      "IconHint": "est",
-      "HeadingIconHint": "sed"
+      "ExtraInfo": "aut",
+      "Width": "sit",
+      "IconHint": "et",
+      "HeadingIconHint": "quasi"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 748,
-      "Name": "Robel-Koelpin",
-      "ToolTip": "Facere occaecati repudiandae in et sapiente mollitia.",
-      "Deleted": true,
-      "Rank": 287,
-      "Type": "aperiam",
-      "ColorBlock": 495,
-      "IconHint": "pariatur",
+      "Id": 787,
+      "Name": "Hauck, Lakin and Zemlak",
+      "ToolTip": "Quasi expedita laudantium pariatur.",
+      "Deleted": false,
+      "Rank": 894,
+      "Type": "est",
+      "ColorBlock": 727,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2021-10-17T13:28:21.8043665+02:00",
+      "LastChanged": "1998-10-14T04:02:01.2062801+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "sequi",
+      "ExtraInfo": "quaerat",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Jonatan Nolan II",
+      "FullName": "Ms. Abby Goldner V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 329
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bins, Miller and Wiza",
+      "Name": "Bergnaum-Lowe",
       "Direction": "ASC"
     },
     {
-      "Name": "Bins, Miller and Wiza",
+      "Name": "Bergnaum-Lowe",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ullam",
+  "OwnerKeys": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 142
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 358,
-  "InstanceLayout": "quos",
-  "InstanceName": "Tremblay LLC",
-  "CreatedDate": "2013-03-28T13:28:21.8512599+01:00",
-  "UpdatedDate": "2016-01-23T13:28:21.8512599+01:00",
+  "AudienceLayoutId": 92,
+  "InstanceLayout": "ex",
+  "InstanceName": "Beier Inc and Sons",
+  "CreatedDate": "2004-02-10T04:02:01.221786+01:00",
+  "UpdatedDate": "2022-07-17T04:02:01.221786+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 339
     }
   }
 }

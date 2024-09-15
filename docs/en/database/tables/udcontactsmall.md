@@ -2,10 +2,10 @@
 uid: table-udcontactSmall
 title: udcontactSmall table
 description: User-defined fields for contact
-generated: true
+so.generated: true
 keywords: database table udcontactSmall
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # udcontactSmall Table (35)

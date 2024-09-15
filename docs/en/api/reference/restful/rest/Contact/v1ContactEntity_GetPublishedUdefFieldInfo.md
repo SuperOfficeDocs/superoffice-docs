@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 796,
-  "ColumnId": 748,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 893,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 805,
-  "FieldTop": 818,
+  "UDefFieldId": 351,
+  "ColumnId": 675,
+  "FieldDefault": "dolorem",
+  "FieldHeight": 858,
+  "FieldLabel": "non",
+  "FieldLeft": 565,
+  "FieldTop": 670,
   "FieldType": "Checkbox",
-  "FieldWidth": 510,
-  "FormatMask": "cum",
-  "HideLabel": false,
+  "FieldWidth": 397,
+  "FormatMask": "excepturi",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 827,
-  "LabelLeft": 311,
-  "LabelTop": 91,
-  "LabelWidth": 922,
-  "LastVersionId": 477,
-  "ListTableId": 604,
-  "IsMandatory": false,
+  "LabelHeight": 670,
+  "LabelLeft": 32,
+  "LabelTop": 821,
+  "LabelWidth": 635,
+  "LastVersionId": 312,
+  "ListTableId": 678,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 953,
-  "ProgId": "possimus",
+  "Page1LineNo": 268,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "nulla",
-  "TabOrder": 640,
-  "TextLength": 528,
-  "Tooltip": "architecto",
-  "UdefIdentity": 721,
-  "UDListDefinitionId": 576,
+  "ShortLabel": "est",
+  "TabOrder": 945,
+  "TextLength": 188,
+  "Tooltip": "ut",
+  "UdefIdentity": 697,
+  "UDListDefinitionId": 762,
   "Justification": "Center",
-  "Version": 996,
-  "TemplateVariableName": "Purdy Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Kuphal Inc and Sons",
+  "Version": 431,
+  "TemplateVariableName": "Gibson, Wunsch and Nikolaus",
+  "HasBeenPublished": true,
+  "MdoListName": "Ziemann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 717
     }
   }
 }

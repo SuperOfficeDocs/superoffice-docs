@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Pouros, Mills and Anderson",
-    "Larkin, Gutmann and Rath"
+    "Reichert LLC",
+    "Huel, Block and Gulgowski"
   ],
-  "Culture": "officia"
+  "Culture": "esse"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Mante, Hartmann and Orn",
-    "ResourceValue": "non",
-    "Culture": "reiciendis",
+    "ResourceName": "Emard Group",
+    "ResourceValue": "quae",
+    "Culture": "veniam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   },
   {
-    "ResourceName": "Mante, Hartmann and Orn",
-    "ResourceValue": "non",
-    "Culture": "reiciendis",
+    "ResourceName": "Emard Group",
+    "ResourceValue": "quae",
+    "Culture": "veniam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

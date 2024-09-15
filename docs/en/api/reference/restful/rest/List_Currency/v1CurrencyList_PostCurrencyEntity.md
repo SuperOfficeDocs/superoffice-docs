@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 560,
-  "Name": "Tremblay Inc and Sons",
-  "Tooltip": "laboriosam",
-  "Rank": 374,
-  "Rate": 2967.8979999999997,
-  "Units": 16776.302,
+  "CurrencyId": 805,
+  "Name": "Green Group",
+  "Tooltip": "culpa",
+  "Rank": 407,
+  "Rate": 714.552,
+  "Units": 22602.408,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 296,
-  "Name": "Jenkins-Gibson",
-  "Tooltip": "dolorem",
-  "Rank": 828,
-  "Rate": 11457.904,
-  "Units": 4262.24,
+  "CurrencyId": 800,
+  "Name": "Prohaska Group",
+  "Tooltip": "unde",
+  "Rank": 669,
+  "Rate": 25200.494,
+  "Units": 24977.98,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   }
 }

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "VonRueden, Nikolaus and Green",
-      "Description": "Digitized leading edge process improvement",
+      "Name": "Moen-Stroman",
+      "Description": "Configurable dynamic solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "VonRueden, Nikolaus and Green",
-      "Description": "Digitized leading edge process improvement",
+      "Name": "Moen-Stroman",
+      "Description": "Configurable dynamic solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kling-Terry",
-    "Description": "Team-oriented 24 hour open system",
+    "Name": "Volkman-Hyatt",
+    "Description": "Switchable bi-directional throughput",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 941,
-        "Tooltip": "ipsam",
-        "CanAssign": false,
-        "Free": 486,
-        "InUse": 883,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 615,
-        "Name": "Baumbach-Jacobs",
-        "Description": "Adaptive 3rd generation moratorium",
-        "PrerequisiteModuleName": "Schumm Inc and Sons",
-        "SortOrder": 919,
-        "ExtraFlags": 988,
+        "Total": 762,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 920,
+        "InUse": 378,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 137,
+        "Name": "Connelly, DuBuque and Marquardt",
+        "Description": "Compatible contextually-based Graphical User Interface",
+        "PrerequisiteModuleName": "Beatty-Conn",
+        "SortOrder": 442,
+        "ExtraFlags": 298,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldLength": 998
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 149,
-        "Tooltip": "ex",
-        "CanAssign": false,
-        "Free": 80,
-        "InUse": 892,
+        "Unrestricted": true,
+        "Total": 303,
+        "Tooltip": "eveniet",
+        "CanAssign": true,
+        "Free": 499,
+        "InUse": 44,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 952,
-        "Name": "Runolfsdottir, Bode and Wisoky",
-        "Description": "Switchable 3rd generation interface",
-        "PrerequisiteModuleName": "Fadel, Block and Gleason",
-        "SortOrder": 994,
-        "ExtraFlags": 232,
+        "ModuleLicenseId": 545,
+        "Name": "Littel Group",
+        "Description": "User-friendly multi-state initiative",
+        "PrerequisiteModuleName": "Bruen-Wiza",
+        "SortOrder": 980,
+        "ExtraFlags": 325,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 830
           }
         }
       }
@@ -178,61 +178,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 655
       }
     }
   },
   {
-    "Name": "Kling-Terry",
-    "Description": "Team-oriented 24 hour open system",
+    "Name": "Volkman-Hyatt",
+    "Description": "Switchable bi-directional throughput",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 941,
-        "Tooltip": "ipsam",
-        "CanAssign": false,
-        "Free": 486,
-        "InUse": 883,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 615,
-        "Name": "Baumbach-Jacobs",
-        "Description": "Adaptive 3rd generation moratorium",
-        "PrerequisiteModuleName": "Schumm Inc and Sons",
-        "SortOrder": 919,
-        "ExtraFlags": 988,
+        "Total": 762,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 920,
+        "InUse": 378,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 137,
+        "Name": "Connelly, DuBuque and Marquardt",
+        "Description": "Compatible contextually-based Graphical User Interface",
+        "PrerequisiteModuleName": "Beatty-Conn",
+        "SortOrder": 442,
+        "ExtraFlags": 298,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldLength": 998
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 149,
-        "Tooltip": "ex",
-        "CanAssign": false,
-        "Free": 80,
-        "InUse": 892,
+        "Unrestricted": true,
+        "Total": 303,
+        "Tooltip": "eveniet",
+        "CanAssign": true,
+        "Free": 499,
+        "InUse": 44,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 952,
-        "Name": "Runolfsdottir, Bode and Wisoky",
-        "Description": "Switchable 3rd generation interface",
-        "PrerequisiteModuleName": "Fadel, Block and Gleason",
-        "SortOrder": 994,
-        "ExtraFlags": 232,
+        "ModuleLicenseId": 545,
+        "Name": "Littel Group",
+        "Description": "User-friendly multi-state initiative",
+        "PrerequisiteModuleName": "Bruen-Wiza",
+        "SortOrder": 980,
+        "ExtraFlags": 325,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 830
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 655
       }
     }
   }

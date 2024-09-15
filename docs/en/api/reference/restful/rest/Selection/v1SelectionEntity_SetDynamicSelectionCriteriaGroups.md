@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayer-Stoltenberg",
-    "Description": "Managed contextually-based portal",
-    "Rank": 370,
+    "Name": "Ullrich Inc and Sons",
+    "Description": "Reactive encompassing open architecture",
+    "Rank": 282,
     "Restrictions": [
       {
-        "Name": "Price Inc and Sons",
-        "Operator": "ipsam",
+        "Name": "Reichert-Deckow",
+        "Operator": "in",
         "Values": [
-          "tenetur",
-          "qui"
+          "ut",
+          "ex"
         ],
         "DisplayValues": [
-          "earum",
-          "neque"
+          "omnis",
+          "in"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 470,
+        "InterParenthesis": 723,
         "InterOperator": "And",
-        "UniqueHash": 461
+        "UniqueHash": 277
       }
     ]
   },
   {
-    "Name": "Mayer-Stoltenberg",
-    "Description": "Managed contextually-based portal",
-    "Rank": 370,
+    "Name": "Ullrich Inc and Sons",
+    "Description": "Reactive encompassing open architecture",
+    "Rank": 282,
     "Restrictions": [
       {
-        "Name": "Price Inc and Sons",
-        "Operator": "ipsam",
+        "Name": "Reichert-Deckow",
+        "Operator": "in",
         "Values": [
-          "tenetur",
-          "qui"
+          "ut",
+          "ex"
         ],
         "DisplayValues": [
-          "earum",
-          "neque"
+          "omnis",
+          "in"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 470,
+        "InterParenthesis": 723,
         "InterOperator": "And",
-        "UniqueHash": 461
+        "UniqueHash": 277
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keeling, Kirlin and Brown",
-    "Description": "Seamless solution-oriented alliance",
-    "Rank": 227,
+    "Name": "Watsica Inc and Sons",
+    "Description": "Visionary optimizing installation",
+    "Rank": 146,
     "Restrictions": [
       {
-        "Name": "Welch-Monahan",
-        "Operator": "odit",
+        "Name": "Becker-Sawayn",
+        "Operator": "quae",
         "Values": [
-          "perspiciatis",
-          "quasi"
+          "nihil",
+          "iusto"
         ],
         "DisplayValues": [
-          "illum",
-          "vitae"
+          "odio",
+          "recusandae"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 395,
+        "InterParenthesis": 907,
         "InterOperator": "And",
-        "UniqueHash": 217
+        "UniqueHash": 527
       }
     ]
   },
   {
-    "Name": "Keeling, Kirlin and Brown",
-    "Description": "Seamless solution-oriented alliance",
-    "Rank": 227,
+    "Name": "Watsica Inc and Sons",
+    "Description": "Visionary optimizing installation",
+    "Rank": 146,
     "Restrictions": [
       {
-        "Name": "Welch-Monahan",
-        "Operator": "odit",
+        "Name": "Becker-Sawayn",
+        "Operator": "quae",
         "Values": [
-          "perspiciatis",
-          "quasi"
+          "nihil",
+          "iusto"
         ],
         "DisplayValues": [
-          "illum",
-          "vitae"
+          "odio",
+          "recusandae"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 395,
+        "InterParenthesis": 907,
         "InterOperator": "And",
-        "UniqueHash": 217
+        "UniqueHash": 527
       }
     ]
   }

@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Emmerich-Witting",
+  "TableName": "Schuppe, Monahan and Ullrich",
   "RecordIds": [
-    1002,
-    428
+    804,
+    833
   ],
-  "AssociateId": 905,
-  "ExtraInfo": "voluptatibus"
+  "AssociateId": 182,
+  "ExtraInfo": "dignissimos"
 }
 ```
 

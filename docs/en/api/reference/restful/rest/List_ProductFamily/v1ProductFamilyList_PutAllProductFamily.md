@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Murazik-Haag",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 340,
-    "Rank": 504
+    "Id": 115,
+    "Name": "Schmeler, Harber and Mosciski",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "UdListDefinitionId": 500,
+    "Rank": 645
   },
   {
-    "Id": 176,
-    "Name": "Murazik-Haag",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 340,
-    "Rank": 504
+    "Id": 115,
+    "Name": "Schmeler, Harber and Mosciski",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "UdListDefinitionId": 500,
+    "Rank": 645
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Bernier Inc and Sons",
-    "Tooltip": "dolor",
+    "Id": 739,
+    "Name": "Kihn Inc and Sons",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 779,
-    "Rank": 845,
+    "UdListDefinitionId": 568,
+    "Rank": 989,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 83
       }
     }
   }

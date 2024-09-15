@@ -2,10 +2,10 @@
 uid: table-AssociateGroupLink
 title: AssociateGroupLink table
 description: User group link table for Associate, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table AssociateGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AssociateGroupLink Table (3)

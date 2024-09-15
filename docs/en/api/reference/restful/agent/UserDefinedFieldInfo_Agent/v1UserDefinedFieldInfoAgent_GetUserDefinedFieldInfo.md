@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=792
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=235
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 444,
-  "ColumnId": 1000,
-  "FieldDefault": "fugit",
-  "FieldHeight": 391,
-  "FieldLabel": "eum",
-  "FieldLeft": 406,
-  "FieldTop": 543,
+  "UDefFieldId": 252,
+  "ColumnId": 984,
+  "FieldDefault": "harum",
+  "FieldHeight": 449,
+  "FieldLabel": "earum",
+  "FieldLeft": 220,
+  "FieldTop": 724,
   "FieldType": "Checkbox",
-  "FieldWidth": 490,
-  "FormatMask": "recusandae",
-  "HideLabel": false,
+  "FieldWidth": 487,
+  "FormatMask": "aut",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 144,
-  "LabelLeft": 623,
-  "LabelTop": 333,
-  "LabelWidth": 691,
-  "LastVersionId": 343,
-  "ListTableId": 370,
+  "LabelHeight": 154,
+  "LabelLeft": 465,
+  "LabelTop": 957,
+  "LabelWidth": 184,
+  "LastVersionId": 654,
+  "ListTableId": 590,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 326,
-  "ProgId": "sed",
+  "Page1LineNo": 277,
+  "ProgId": "voluptatem",
   "IsReadOnly": true,
-  "ShortLabel": "officia",
-  "TabOrder": 120,
-  "TextLength": 156,
-  "Tooltip": "aut",
-  "UdefIdentity": 882,
-  "UDListDefinitionId": 563,
+  "ShortLabel": "dolorem",
+  "TabOrder": 919,
+  "TextLength": 572,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 487,
+  "UDListDefinitionId": 412,
   "Justification": "Center",
-  "Version": 372,
-  "TemplateVariableName": "Gaylord LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Keeling Inc and Sons",
+  "Version": 817,
+  "TemplateVariableName": "Hagenes LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Marvin-Weissnat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 550
     }
   }
 }

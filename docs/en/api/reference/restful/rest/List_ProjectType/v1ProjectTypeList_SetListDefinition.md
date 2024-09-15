@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "D'Amore-Schuppe",
-  "Tooltip": "ea",
+  "Id": 560,
+  "Name": "Marquardt-Muller",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 478,
-  "IsCustomList": true,
+  "Rank": 784,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Rempel, Abshire and Schmitt",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 495,
-  "IsCustomList": false,
+  "Id": 534,
+  "Name": "Greenfelder-Powlowski",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 1002,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

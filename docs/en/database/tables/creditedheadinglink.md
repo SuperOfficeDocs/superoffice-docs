@@ -2,10 +2,10 @@
 uid: table-CreditedHeadingLink
 title: CreditedHeadingLink table
 description: Heading link table for Credited, for MDO headers
-generated: true
+so.generated: true
 keywords: database table CreditedHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CreditedHeadingLink Table (99)

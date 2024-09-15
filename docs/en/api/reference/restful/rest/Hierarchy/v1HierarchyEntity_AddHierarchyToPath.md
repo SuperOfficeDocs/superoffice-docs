@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 312,
+  "HierarchyId": 21,
   "Domain": "Dashboards",
-  "Name": "Hoeger Group",
-  "Fullname": "molestiae",
-  "ParentId": 250,
+  "Name": "Reichel-Rau",
+  "Fullname": "architecto",
+  "ParentId": 362,
   "Children": [
     {
-      "HierarchyId": 900,
+      "HierarchyId": 435,
       "Domain": "Dashboards",
-      "Name": "Barton LLC",
-      "Fullname": "alias",
-      "ParentId": 365,
+      "Name": "Casper, Schaefer and Gerlach",
+      "Fullname": "quis",
+      "ParentId": 543,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-11-24T13:28:31.7104853+01:00",
-      "RegisteredAssociateId": 432,
-      "Updated": "2018-05-18T13:28:31.7104853+02:00",
-      "UpdatedAssociateId": 17,
+      "Registered": "2020-12-07T04:02:06.6347709+01:00",
+      "RegisteredAssociateId": 819,
+      "Updated": "2011-10-30T04:02:06.6347709+01:00",
+      "UpdatedAssociateId": 967,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 436
         }
       }
     }
   ],
-  "Registered": "2001-08-27T13:28:31.7104853+02:00",
-  "RegisteredAssociateId": 301,
-  "Updated": "2009-08-31T13:28:31.7104853+02:00",
-  "UpdatedAssociateId": 224,
+  "Registered": "2015-06-01T04:02:06.6347709+02:00",
+  "RegisteredAssociateId": 449,
+  "Updated": "2014-03-02T04:02:06.6347709+01:00",
+  "UpdatedAssociateId": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 685
     }
   }
 }

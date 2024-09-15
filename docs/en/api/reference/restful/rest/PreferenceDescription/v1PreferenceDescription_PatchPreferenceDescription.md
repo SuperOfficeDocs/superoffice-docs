@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "quae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "quae",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 383,
-  "Section": "dolorem",
-  "Key": "est",
-  "Name": "Murphy-Ritchie",
+  "PrefDescId": 571,
+  "Section": "voluptatem",
+  "Key": "vel",
+  "Name": "Heaney Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused content-based circuit",
-  "IsBuiltin": true,
-  "TableName": "Brakus Inc and Sons",
-  "UserDefinedListId": 331,
-  "Rank": 526,
-  "SubGroup": "non",
-  "MinLevel": 199,
-  "MaxValue": 141,
-  "MinValue": 445,
-  "RequiredLicense": "quibusdam",
+  "Description": "Customizable bandwidth-monitored productivity",
+  "IsBuiltin": false,
+  "TableName": "Weimann Group",
+  "UserDefinedListId": 512,
+  "Rank": 453,
+  "SubGroup": "dolorem",
+  "MinLevel": 605,
+  "MaxValue": 700,
+  "MinValue": 340,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 476
     }
   },
   "_Links": {

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Hodkiewicz LLC",
-    "ToolTip": "Eius optio laboriosam ex placeat.",
-    "Deleted": true,
-    "Rank": 353,
-    "Type": "delectus",
-    "ColorBlock": 17,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "1998-10-11T13:28:33.0384399+02:00",
+    "Id": 328,
+    "Name": "Ortiz, Mayert and Beatty",
+    "ToolTip": "Blanditiis dolorem qui veniam quae impedit magnam architecto.",
+    "Deleted": false,
+    "Rank": 488,
+    "Type": "ratione",
+    "ColorBlock": 538,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2002-08-15T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Dach, Robel and Ritchie",
-        "ToolTip": "Omnis suscipit illo minus quae occaecati.",
+        "Id": 266,
+        "Name": "Purdy Inc and Sons",
+        "ToolTip": "Consequatur perferendis pariatur et vero.",
         "Deleted": false,
-        "Rank": 532,
-        "Type": "repudiandae",
-        "ColorBlock": 234,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2000-06-13T13:28:33.0384399+02:00",
+        "Rank": 343,
+        "Type": "unde",
+        "ColorBlock": 825,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2003-09-01T04:02:07.3534465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Ara Emmerich"
+        "ExtraInfo": "aut",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Reid Padberg"
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Avery Jaskolski"
+    "ExtraInfo": "veniam",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Isobel Toy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Hilpert-Bruen",
-    "ToolTip": "Voluptate culpa vel.",
+    "Id": 323,
+    "Name": "Hettinger LLC",
+    "ToolTip": "Fugit illo esse cum eveniet ullam facere rerum.",
     "Deleted": false,
-    "Rank": 377,
-    "Type": "voluptatem",
-    "ColorBlock": 219,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2019-11-21T13:28:33.0384399+01:00",
+    "Rank": 106,
+    "Type": "earum",
+    "ColorBlock": 923,
+    "IconHint": "magni",
+    "Selected": true,
+    "LastChanged": "2009-04-01T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Haley LLC",
-        "ToolTip": "Inventore ipsam debitis qui dolorum consequatur molestiae id.",
-        "Deleted": false,
-        "Rank": 391,
-        "Type": "similique",
-        "ColorBlock": 9,
-        "IconHint": "occaecati",
+        "Id": 184,
+        "Name": "Reynolds LLC",
+        "ToolTip": "Voluptates suscipit sint cum qui et.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "qui",
+        "ColorBlock": 878,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2016-04-16T13:28:33.0384399+02:00",
+        "LastChanged": "2011-07-30T04:02:07.3534465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "et",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Mr. Priscilla Rozella Koch PhD",
+        "FullName": "Brett Elouise Metz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 446
+            "FieldType": "System.Int32",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Miss Sydni Johnston IV",
+    "ExtraInfo": "non",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Leonie Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 559
       }
     }
   }

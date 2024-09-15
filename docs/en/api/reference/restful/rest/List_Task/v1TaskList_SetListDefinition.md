@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Bosco Group",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "Rank": 768,
+  "Id": 592,
+  "Name": "Dare-Leffler",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 615,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": false
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Green LLC",
-  "Tooltip": "possimus",
+  "Id": 77,
+  "Name": "Leuschke LLC",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 973,
+  "Rank": 287,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldLength": 229
     }
   }
 }

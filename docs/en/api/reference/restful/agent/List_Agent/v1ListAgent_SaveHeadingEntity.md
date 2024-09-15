@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 655,
-  "Name": "Schmitt-Lang",
-  "Tooltip": "reprehenderit",
+  "HeadingId": 277,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 579,
-  "UdListDefinitionId": 732
+  "Rank": 499,
+  "UdListDefinitionId": 42
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 917,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 57,
-  "UdListDefinitionId": 260,
+  "HeadingId": 735,
+  "Name": "Daugherty, Williamson and Beahan",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 137,
+  "UdListDefinitionId": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 139
     }
   }
 }

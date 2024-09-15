@@ -2,10 +2,10 @@
 uid: table-target_group
 title: target_group table
 description: Info about a set of (sales, project, selection...) targets
-generated: true
+so.generated: true
 keywords: database table target_group
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # target\_group Table (500)

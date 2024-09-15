@@ -2,10 +2,10 @@
 uid: table-invoice_sum
 title: invoice_sum table
 description: This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies.
-generated: true
+so.generated: true
 keywords: database table invoice_sum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # invoice\_sum Table (266)

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 11
+  "SaleId": 92
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 332,
-    "Attention": "nemo",
-    "Header": "culpa",
-    "Name": "Kreiger Inc and Sons",
-    "OurRef": "qui",
-    "YourRef": "voluptatem",
-    "Description": "Monitored actuating focus group",
-    "DocumentTemplate": "non",
+    "DocumentId": 560,
+    "Attention": "iusto",
+    "Header": "qui",
+    "Name": "Kuphal-Rohan",
+    "OurRef": "accusantium",
+    "YourRef": "dolores",
+    "Description": "Progressive eco-centric budgetary management",
+    "DocumentTemplate": "voluptate",
     "IsPublished": false,
-    "PersonId": 806,
-    "PersonFullName": "Jayson Harris",
-    "AssociateFullName": "Juliana McDermott",
-    "ContactId": 961,
-    "ContactName": "Walter, Koch and Lynch",
-    "ProjectId": 798,
-    "ProjectName": "Lebsack LLC",
-    "AssociateId": 510,
-    "Snum": 11,
-    "SaleId": 637,
-    "SaleName": "Hodkiewicz Inc and Sons",
+    "PersonId": 138,
+    "PersonFullName": "Samara Langworth",
+    "AssociateFullName": "Dolly Krajcik III",
+    "ContactId": 444,
+    "ContactName": "Oberbrunner, Abernathy and Gottlieb",
+    "ProjectId": 399,
+    "ProjectName": "Schumm-Pfeffer",
+    "AssociateId": 632,
+    "Snum": 929,
+    "SaleId": 563,
+    "SaleName": "Lind LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

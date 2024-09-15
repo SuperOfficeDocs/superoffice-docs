@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Littel, Smith and Jacobson",
-    "ToolTip": "Nesciunt iure facere eos dicta fugiat exercitationem nisi.",
+    "Id": 229,
+    "Name": "Hickle-Torp",
+    "ToolTip": "Sit facilis fugiat.",
     "Deleted": false,
-    "Rank": 823,
-    "Type": "sed",
-    "ColorBlock": 295,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2006-05-20T13:28:32.7884933+02:00",
+    "Rank": 76,
+    "Type": "tenetur",
+    "ColorBlock": 199,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2022-06-11T04:02:07.1347182+02:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Rau, Welch and McClure",
-        "ToolTip": "Consectetur eius maiores cupiditate qui.",
+        "Id": 715,
+        "Name": "Zulauf-Bartell",
+        "ToolTip": "Doloremque earum ipsa.",
         "Deleted": false,
-        "Rank": 383,
-        "Type": "sed",
-        "ColorBlock": 931,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2019-12-17T13:28:32.7884933+01:00",
+        "Rank": 731,
+        "Type": "consequatur",
+        "ColorBlock": 912,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "2019-06-11T04:02:07.1347182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "molestias",
+        "ExtraInfo": "quas",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Gretchen Torphy",
+        "FullName": "Prof. Angie Dan Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 241
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Tavares Boehm",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Marjory Aufderhar Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldLength": 454
       }
     }
   }

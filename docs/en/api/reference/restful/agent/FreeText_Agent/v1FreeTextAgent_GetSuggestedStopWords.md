@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 688
+  "CountWords": 686
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Schulist-Beier",
-    "ToolTip": "Eligendi unde beatae.",
+    "Id": 818,
+    "Name": "Willms-Corwin",
+    "ToolTip": "Occaecati pariatur minus.",
     "Deleted": false,
-    "Rank": 637,
-    "Type": "sit",
+    "Rank": 429,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Kiehn-Johns",
-        "ToolTip": "Minima temporibus fuga culpa ipsa nesciunt veritatis in.",
+        "Id": 715,
+        "Name": "Spencer-Tremblay",
+        "ToolTip": "Ipsum pariatur ut est alias quia.",
         "Deleted": false,
-        "Rank": 712,
-        "Type": "magni",
+        "Rank": 630,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 63,
-        "ExtraInfo": "saepe",
-        "StyleHint": "praesentium",
-        "FullName": "Magali Bashirian",
+        "IconHint": "voluptatum",
+        "ColorBlock": 95,
+        "ExtraInfo": "nemo",
+        "StyleHint": "nihil",
+        "FullName": "Clinton Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 581
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 450,
-    "ExtraInfo": "qui",
-    "StyleHint": "qui",
-    "FullName": "Mavis Dickens",
+    "IconHint": "eos",
+    "ColorBlock": 872,
+    "ExtraInfo": "ipsam",
+    "StyleHint": "atque",
+    "FullName": "Mr. Name O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 896
       }
     }
   }

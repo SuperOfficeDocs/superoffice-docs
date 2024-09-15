@@ -2,10 +2,10 @@
 uid: table-eab_entry
 title: eab_entry table
 description: This table contains eab (email address book) entries, i.e. an alias (&amp;apos;Ola Hansen&amp;apos;) and an address (&amp;apos;ola@hansen.as&amp;apos;).
-generated: true
+so.generated: true
 keywords: database table eab_entry
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # eab\_entry Table (315)

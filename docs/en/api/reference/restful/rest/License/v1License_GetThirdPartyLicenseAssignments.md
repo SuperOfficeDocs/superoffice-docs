@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 36,
-    "Tooltip": "voluptas",
-    "CanAssign": true,
-    "Free": 74,
-    "InUse": 223,
+    "Total": 526,
+    "Tooltip": "quia",
+    "CanAssign": false,
+    "Free": 82,
+    "InUse": 996,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 483,
-    "Name": "Nitzsche, Barton and Lehner",
-    "Description": "Configurable high-level methodology",
-    "PrerequisiteModuleName": "Gerhold, Rolfson and Kunde",
-    "SortOrder": 683,
-    "ExtraFlags": 215,
+    "ModuleLicenseId": 632,
+    "Name": "Kirlin Inc and Sons",
+    "Description": "Diverse scalable data-warehouse",
+    "PrerequisiteModuleName": "Zboncak LLC",
+    "SortOrder": 202,
+    "ExtraFlags": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 147
       }
     }
   }

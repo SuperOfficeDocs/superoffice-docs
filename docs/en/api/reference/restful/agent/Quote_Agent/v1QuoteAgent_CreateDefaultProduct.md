@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 477,
-  "ERPProductKey": "eum",
-  "ERPPriceListKey": "placeat",
-  "Name": "Carroll Group",
-  "Description": "Automated uniform knowledge base",
-  "Code": "aperiam",
-  "PriceUnit": "deleniti",
-  "QuantityUnit": "reprehenderit",
+  "ProductId": 278,
+  "ERPProductKey": "temporibus",
+  "ERPPriceListKey": "quae",
+  "Name": "Braun-Hagenes",
+  "Description": "Function-based full-range encryption",
+  "Code": "eum",
+  "PriceUnit": "asperiores",
+  "QuantityUnit": "nulla",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 11661.614,
-  "ItemNumber": "1543879",
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 1002.88,
+  "ItemNumber": "1327228",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "ducimus",
-  "VAT": 22831.19,
-  "VATInfo": "tempora",
-  "UnitCost": 17008.218,
-  "UnitMinimumPrice": 21232.85,
-  "UnitListPrice": 29606.897999999997,
-  "InAssortment": false,
-  "Supplier": "unde",
-  "SupplierCode": "officiis",
-  "Rights": "voluptas",
-  "Rule": "est",
+  "ProductFamilyKey": "ex",
+  "ProductTypeKey": "voluptas",
+  "VAT": 6383.958,
+  "VATInfo": "in",
+  "UnitCost": 18293.158,
+  "UnitMinimumPrice": 25021.856,
+  "UnitListPrice": 3842.2839999999997,
+  "InAssortment": true,
+  "Supplier": "omnis",
+  "SupplierCode": "aut",
+  "Rights": "vitae",
+  "Rule": "incidunt",
   "ExtraInfo": [
     {
-      "Name": "O'Kon Inc and Sons",
-      "Value": "est",
+      "Name": "Hackett-Kris",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 846
         }
       }
     },
     {
-      "Name": "O'Kon Inc and Sons",
-      "Value": "est",
+      "Name": "Hackett-Kris",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 846
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "iusto",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "expedita",
-  "ExtraField4": "iusto",
-  "ExtraField5": "sed",
-  "InStock": 23508.134,
+  "RawExtraInfo": "est",
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "enim",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "sed",
+  "ExtraField5": "culpa",
+  "InStock": 10266.984,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 471
     }
   }
 }

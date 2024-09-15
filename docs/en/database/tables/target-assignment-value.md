@@ -2,10 +2,10 @@
 uid: table-target_assignment_value
 title: target_assignment_value table
 description: A set of values linked to assignment info and a period in a target group.
-generated: true
+so.generated: true
 keywords: database table target_assignment_value
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # target\_assignment\_value Table (503)

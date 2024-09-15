@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Kutch Inc and Sons",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 115,
-  "Rank": 947
+  "Id": 7,
+  "Name": "Kub-Borer",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 221,
+  "Rank": 217
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 458,
-  "Name": "Kassulke LLC",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "UdListDefinitionId": 910,
-  "Rank": 921,
+  "Id": 766,
+  "Name": "Christiansen Group",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "UdListDefinitionId": 799,
+  "Rank": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 980
     }
   }
 }

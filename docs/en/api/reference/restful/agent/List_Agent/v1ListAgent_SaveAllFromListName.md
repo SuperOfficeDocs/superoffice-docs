@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hayes Group",
+  "UdListDefinitionName": "Koepp, Osinski and Hilll",
   "Items": [
     {
-      "Id": 216,
-      "Name": "Marvin Group",
-      "Tooltip": "excepturi",
+      "Id": 192,
+      "Name": "Dibbert Inc and Sons",
+      "Tooltip": "quis",
       "Deleted": true,
-      "UdListDefinitionId": 192,
-      "Rank": 887
+      "UdListDefinitionId": 47,
+      "Rank": 270
     },
     {
-      "Id": 216,
-      "Name": "Marvin Group",
-      "Tooltip": "excepturi",
+      "Id": 192,
+      "Name": "Dibbert Inc and Sons",
+      "Tooltip": "quis",
       "Deleted": true,
-      "UdListDefinitionId": 192,
-      "Rank": 887
+      "UdListDefinitionId": 47,
+      "Rank": 270
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Shields, Robel and O'Connell",
-    "Tooltip": "neque",
+    "Id": 869,
+    "Name": "Kshlerin LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 196,
-    "Rank": 475,
+    "UdListDefinitionId": 617,
+    "Rank": 536,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldType": "System.String",
+        "FieldLength": 629
       }
     }
   }

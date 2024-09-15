@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Thiel LLC",
-    "ToolTip": "Occaecati possimus dolorem ea officiis laudantium.",
-    "Deleted": false,
-    "Rank": 830,
-    "Type": "distinctio",
-    "ColorBlock": 241,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2024-03-04T13:28:32.8509815+01:00",
+    "Id": 972,
+    "Name": "Rowe, Rau and Macejkovic",
+    "ToolTip": "Quisquam facilis delectus labore doloribus.",
+    "Deleted": true,
+    "Rank": 375,
+    "Type": "magnam",
+    "ColorBlock": 582,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2013-04-02T04:02:07.2440841+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Swaniawski-Schaefer",
-        "ToolTip": "Dolorem incidunt fugit.",
+        "Id": 682,
+        "Name": "Reinger, Donnelly and Raynor",
+        "ToolTip": "Pariatur odio voluptas adipisci rerum saepe.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "quia",
-        "ColorBlock": 976,
-        "IconHint": "alias",
+        "Rank": 824,
+        "Type": "vitae",
+        "ColorBlock": 93,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2007-05-05T13:28:32.8509815+02:00",
+        "LastChanged": "2009-09-23T04:02:07.2440841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ut",
+        "ExtraInfo": "quo",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Floy Janae Kling III"
+        "FullName": "Jean Crist"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "nisi",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Miss Isom Koepp"
+    "FullName": "Evert Reba Moen V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Gislason-Bartell",
-    "ToolTip": "Culpa qui assumenda maiores.",
-    "Deleted": true,
-    "Rank": 318,
-    "Type": "consequatur",
-    "ColorBlock": 256,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2013-12-13T13:28:32.8509815+01:00",
+    "Id": 635,
+    "Name": "Kshlerin Group",
+    "ToolTip": "Mollitia sit ratione nobis aperiam earum necessitatibus laudantium.",
+    "Deleted": false,
+    "Rank": 97,
+    "Type": "minus",
+    "ColorBlock": 293,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "1999-06-21T04:02:07.2597065+02:00",
     "ChildItems": [
       {
-        "Id": 689,
-        "Name": "Oberbrunner, Bernier and Olson",
-        "ToolTip": "Dolore quis.",
-        "Deleted": false,
-        "Rank": 437,
-        "Type": "omnis",
-        "ColorBlock": 975,
-        "IconHint": "fugiat",
+        "Id": 955,
+        "Name": "Mraz-Herman",
+        "ToolTip": "Quasi beatae dolor eos fugit.",
+        "Deleted": true,
+        "Rank": 41,
+        "Type": "libero",
+        "ColorBlock": 181,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2024-07-18T13:28:32.8509815+02:00",
+        "LastChanged": "2024-07-07T04:02:07.2597065+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Prof. Elouise Brayan Hartmann",
+        "ExtraInfo": "amet",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Constantin Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldType": "System.String",
+            "FieldLength": 760
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Imogene Pagac",
+    "ExtraInfo": "dolores",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Citlalli Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 840,
-  "Name": "McClure, Bahringer and Gusikowski",
-  "Tooltip": "mollitia",
+  "Id": 415,
+  "Name": "Schulist-Mitchell",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 65,
+  "Rank": 576,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 8
     }
   },
   "_Links": {

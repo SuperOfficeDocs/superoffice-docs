@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-07-11T13:28:31.1949789+02:00",
-  "AppointmentId": 156,
-  "Description": "Secured hybrid secured line",
-  "Title": "sunt",
-  "Agenda": "quia",
-  "InternalNotes": "placeat",
-  "StartDate": "2004-08-18T13:28:31.1949789+02:00",
-  "EndDate": "1998-08-02T13:28:31.1949789+02:00",
+  "CreatedDate": "2019-10-20T04:02:06.2593068+02:00",
+  "AppointmentId": 934,
+  "Description": "Advanced dedicated challenge",
+  "Title": "nemo",
+  "Agenda": "velit",
+  "InternalNotes": "similique",
+  "StartDate": "2023-09-23T04:02:06.2593068+02:00",
+  "EndDate": "2002-12-25T04:02:06.2593068+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 722,
+  "MotherId": 753,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-05-06T13:28:31.1949789+02:00",
+  "UpdatedDate": "2009-05-21T04:02:06.2593068+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 7,
+  "ActiveLinks": 313,
   "Links": [
     {
-      "EntityName": "Koelpin-Emard",
-      "Id": 765,
-      "Description": "Reactive 5th generation paradigm",
-      "ExtraInfo": "enim",
-      "LinkId": 708
+      "EntityName": "Reinger-Kling",
+      "Id": 149,
+      "Description": "Synergized dynamic website",
+      "ExtraInfo": "aut",
+      "LinkId": 941
     },
     {
-      "EntityName": "Koelpin-Emard",
-      "Id": 765,
-      "Description": "Reactive 5th generation paradigm",
-      "ExtraInfo": "enim",
-      "LinkId": 708
+      "EntityName": "Reinger-Kling",
+      "Id": 149,
+      "Description": "Synergized dynamic website",
+      "ExtraInfo": "aut",
+      "LinkId": 941
     }
   ],
-  "AlarmLeadTime": "earum",
+  "AlarmLeadTime": "debitis",
   "HasAlarm": false,
-  "ColorIndex": 199,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "officia",
-  "LeadTime": "commodi",
-  "Location": "velit",
-  "RejectCounter": 642,
+  "ColorIndex": 447,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "dolor",
+  "LeadTime": "repellendus",
+  "Location": "et",
+  "RejectCounter": 303,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 591,
-      "PersonId": 712,
-      "ContactId": 313,
-      "EmailId": 612,
-      "SendEmail": true,
+      "AssociateId": 33,
+      "PersonId": 241,
+      "ContactId": 330,
+      "EmailId": 885,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "louisa_lubowitz@gleichnercorwin.co.uk",
-      "Description": "Pre-emptive even-keeled knowledge user"
+      "EmailAddress": "anastasia@romaguera.co.uk",
+      "Description": "User-friendly maximized strategy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-08-23T13:28:31.1949789+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-12-31T04:02:06.2593068+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 478,
+  "PreferredTZLocation": 375,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 3,
+  "SuggestedAppointmentId": 561,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "id",
   "UserDefinedFields": {
-    "SuperOffice:1": "Declan Kunze",
-    "SuperOffice:2": "Osvaldo Jaskolski"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "similique",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2008-04-23T13:28:31.1949789+02:00",
-  "PublishTo": "2023-07-23T13:28:31.1949789+02:00",
-  "PublishFrom": "2011-11-28T13:28:31.1949789+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-04-29T04:02:06.2593068+02:00",
+  "PublishTo": "2020-07-07T04:02:06.2593068+02:00",
+  "PublishFrom": "2017-11-07T04:02:06.2593068+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 413,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "tempora"
     },
     {
-      "VisibleId": 413,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "tempora"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illo",
-  "2": "asperiores"
+  "1": "dolores",
+  "2": "nam"
 }
 ```

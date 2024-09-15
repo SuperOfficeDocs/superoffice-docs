@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 809,
-    "Name": "Hansen LLC",
-    "Description": "Synergized user-facing knowledge user",
+    "ProjectId": 800,
+    "Name": "Gerhold LLC",
+    "Description": "Synchronised intermediate archive",
     "URL": "http://www.example.com/",
-    "Type": "alias",
-    "AssociateId": 407,
-    "AssociateFullName": "Tressie Hoeger",
-    "TypeId": 62,
-    "Updated": "2006-11-10T13:28:23.491777+01:00",
-    "StatusId": 368,
-    "Status": "dolorem",
-    "TextId": 319,
-    "PublishTo": "2010-10-17T13:28:23.491777+02:00",
-    "PublishFrom": "2014-09-03T13:28:23.491777+02:00",
+    "Type": "voluptas",
+    "AssociateId": 368,
+    "AssociateFullName": "Clementina Armstrong",
+    "TypeId": 664,
+    "Updated": "1999-03-06T04:02:02.1597135+01:00",
+    "StatusId": 641,
+    "Status": "optio",
+    "TextId": 330,
+    "PublishTo": "2015-09-19T04:02:02.1597135+02:00",
+    "PublishFrom": "2013-03-20T04:02:02.1597135+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1260351",
-    "ActiveErpLinks": 750,
+    "ProjectNumber": "1565157",
+    "ActiveErpLinks": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 736
       }
     }
   }

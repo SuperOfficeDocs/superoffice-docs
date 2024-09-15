@@ -203,7 +203,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=postAddress/wgs84latitude,contactUdef/SuperOffice:7,streetAddress/line2
+GET /api/v1/archive/RecycleContact?$select=postAddress/line2,contactInterestIds,contactExtra/x_contact_short_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

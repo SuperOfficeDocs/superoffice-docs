@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 234,
-    "ColumnId": 457,
-    "FieldDefault": "similique",
-    "FieldHeight": 914,
-    "FieldLabel": "vel",
-    "FieldLeft": 204,
-    "FieldTop": 396,
+    "UDefFieldId": 581,
+    "ColumnId": 617,
+    "FieldDefault": "quasi",
+    "FieldHeight": 293,
+    "FieldLabel": "quasi",
+    "FieldLeft": 625,
+    "FieldTop": 560,
     "FieldType": "Checkbox",
-    "FieldWidth": 493,
-    "FormatMask": "sit",
-    "HideLabel": true,
+    "FieldWidth": 762,
+    "FormatMask": "optio",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 808,
-    "LabelLeft": 757,
-    "LabelTop": 150,
-    "LabelWidth": 314,
-    "LastVersionId": 187,
-    "ListTableId": 91,
-    "IsMandatory": false,
+    "LabelHeight": 510,
+    "LabelLeft": 532,
+    "LabelTop": 899,
+    "LabelWidth": 794,
+    "LastVersionId": 652,
+    "ListTableId": 540,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 938,
-    "ProgId": "occaecati",
-    "IsReadOnly": true,
-    "ShortLabel": "officiis",
-    "TabOrder": 67,
-    "TextLength": 648,
-    "Tooltip": "cupiditate",
-    "UdefIdentity": 852,
-    "UDListDefinitionId": 633,
+    "Page1LineNo": 323,
+    "ProgId": "eum",
+    "IsReadOnly": false,
+    "ShortLabel": "facilis",
+    "TabOrder": 516,
+    "TextLength": 841,
+    "Tooltip": "dignissimos",
+    "UdefIdentity": 838,
+    "UDListDefinitionId": 912,
     "Justification": "Center",
-    "Version": 119,
-    "TemplateVariableName": "Feeney LLC",
+    "Version": 757,
+    "TemplateVariableName": "Zboncak, Walker and Will",
     "HasBeenPublished": false,
-    "MdoListName": "Medhurst LLC",
+    "MdoListName": "Hilpert, Greenholt and Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 925
       }
     }
   }

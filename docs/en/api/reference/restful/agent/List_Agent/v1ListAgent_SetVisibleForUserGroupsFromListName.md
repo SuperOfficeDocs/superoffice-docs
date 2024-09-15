@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cruickshank-Moen",
-  "ListItemId": 85,
+  "UdListDefinitionName": "Leannon, Kunze and Beier",
+  "ListItemId": 993,
   "UserGroups": [
     {
-      "Id": 610,
-      "Name": "McGlynn, Tillman and Upton",
-      "ToolTip": "Sit sunt.",
-      "Deleted": true,
-      "Rank": 507,
-      "Type": "optio",
-      "ColorBlock": 127,
-      "IconHint": "in",
-      "Selected": false,
-      "LastChanged": "2003-07-20T13:28:22.9449983+02:00",
+      "Id": 144,
+      "Name": "Hilll Group",
+      "ToolTip": "Et molestiae mollitia.",
+      "Deleted": false,
+      "Rank": 900,
+      "Type": "et",
+      "ColorBlock": 652,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2011-05-30T04:02:01.8316108+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "eligendi",
-      "Hidden": false,
-      "FullName": "Cordell Bogan"
+      "ExtraInfo": "qui",
+      "StyleHint": "omnis",
+      "Hidden": true,
+      "FullName": "Prof. Johathan Fernando Graham DDS"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Schuppe, Pfeffer and Zieme",
-    "ToolTip": "Ut non quidem nemo sunt ad.",
-    "Deleted": true,
-    "Rank": 177,
-    "Type": "rerum",
-    "ColorBlock": 931,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2014-11-29T13:28:22.9449983+01:00",
+    "Id": 527,
+    "Name": "Jerde-Hauck",
+    "ToolTip": "Ipsum consequuntur eum.",
+    "Deleted": false,
+    "Rank": 100,
+    "Type": "quia",
+    "ColorBlock": 158,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2004-10-27T04:02:01.847234+02:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Schulist-O'Keefe",
-        "ToolTip": "Aliquam esse qui explicabo itaque.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "dolores",
-        "ColorBlock": 19,
-        "IconHint": "voluptatem",
+        "Id": 256,
+        "Name": "Reichert, Wolff and Funk",
+        "ToolTip": "Totam rem iusto temporibus vero est blanditiis.",
+        "Deleted": false,
+        "Rank": 946,
+        "Type": "accusantium",
+        "ColorBlock": 571,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "2020-04-26T13:28:22.9449983+02:00",
+        "LastChanged": "2012-01-10T04:02:01.847234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "possimus",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Zora Gerhold",
+        "FullName": "Prof. Jodie Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 737
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "sint",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Hyman Mayert",
+    "FullName": "Cielo Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 640
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

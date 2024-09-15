@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Value": "provident",
-    "Tooltip": "earum",
+    "Id": 888,
+    "Value": "labore",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 713
       }
     }
   },
   {
-    "Id": 455,
-    "Value": "provident",
-    "Tooltip": "earum",
+    "Id": 888,
+    "Value": "labore",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 713
       }
     }
   }

@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 856,
-  "StartTime": "2003-12-10T13:28:21.4605072+01:00",
-  "EndTime": "2011-02-12T13:28:21.4605072+01:00",
-  "Count": 61
+  "AssociateId": 357,
+  "StartTime": "2024-07-17T04:02:01.0025647+02:00",
+  "EndTime": "2004-11-13T04:02:01.0025647+01:00",
+  "Count": 885
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 502,
-    "StartDate": "2009-12-08T13:28:21.4605072+01:00",
-    "EndDate": "2014-01-07T13:28:21.4605072+01:00",
+    "AppointmentId": 270,
+    "StartDate": "2004-08-24T04:02:01.0025647+02:00",
+    "EndDate": "2009-07-20T04:02:01.0025647+02:00",
     "Type": "BookingForChecklist",
-    "Task": "molestiae",
-    "AssociateFullName": "Ollie O'Kon",
-    "ContactName": "Kozey Inc and Sons",
-    "Description": "Assimilated heuristic frame",
-    "PersonFullName": "Prof. Kacie Schaefer DDS",
-    "PersonId": 876,
-    "ContactId": 949,
-    "ProjectId": 317,
-    "ProjectName": "Quigley-Little",
+    "Task": "sit",
+    "AssociateFullName": "Josianne Fabiola Kutch PhD",
+    "ContactName": "Bailey-Oberbrunner",
+    "Description": "Monitored tertiary archive",
+    "PersonFullName": "Ms. Amelia Rutherford",
+    "PersonId": 519,
+    "ContactId": 644,
+    "ProjectId": 289,
+    "ProjectName": "Zboncak Group",
     "IsPublished": false,
-    "AssociateId": 799,
-    "ColorIndex": 598,
+    "AssociateId": 238,
+    "ColorIndex": 791,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 232,
-    "PriorityName": "Lueilwitz, Crooks and Becker",
+    "PriorityId": 249,
+    "PriorityName": "Heaney LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2001-10-25T13:28:21.4605072+02:00",
+    "ActiveDate": "2008-07-24T04:02:01.0025647+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-02-22T13:28:21.4605072+01:00",
-    "RecurringEndDate": "2000-04-23T13:28:21.4605072+02:00",
-    "MotherId": 613,
-    "AssignedBy": 779,
-    "AssignedByFullName": "Esperanza Turcotte",
+    "RecurringStartDate": "2013-11-01T04:02:01.0025647+01:00",
+    "RecurringEndDate": "2019-12-10T04:02:01.0025647+01:00",
+    "MotherId": 764,
+    "AssignedBy": 374,
+    "AssignedByFullName": "Mrs. Chelsea Zackary Cartwright",
     "RejectReason": "",
-    "Location": "quos",
-    "AlarmLeadTime": "et",
-    "SaleId": 977,
-    "SaleName": "Rau Group",
-    "AssociateName": "Reichert-Sporer",
-    "CreatedDate": "2020-08-31T13:28:21.4605072+02:00",
-    "CreatedBy": "nisi",
-    "CreatedByFullName": "Roy Hackett",
-    "CreatedByAssociateId": 484,
+    "Location": "soluta",
+    "AlarmLeadTime": "sequi",
+    "SaleId": 535,
+    "SaleName": "Runte Inc and Sons",
+    "AssociateName": "Hickle, Botsford and Mann",
+    "CreatedDate": "2024-04-25T04:02:01.0025647+02:00",
+    "CreatedBy": "perspiciatis",
+    "CreatedByFullName": "Marilie Dickinson",
+    "CreatedByAssociateId": 506,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 951,
-    "Title": "et",
-    "Agenda": "voluptatem",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 429,
+    "Title": "omnis",
+    "Agenda": "impedit",
+    "InternalNotes": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 94
       }
     }
   }

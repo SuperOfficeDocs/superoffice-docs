@@ -2,10 +2,10 @@
 uid: table-screen_definition_element
 title: screen_definition_element table
 description: An element in a configurable screen
-generated: true
+so.generated: true
 keywords: database table screen_definition_element
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # screen\_definition\_element Table (372)

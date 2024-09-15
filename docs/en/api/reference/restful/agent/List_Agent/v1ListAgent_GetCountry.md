@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=810
+POST /api/v1/Agents/List/GetCountry?countryId=592
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 950,
-  "Name": "Larson-Jakubowski",
-  "CurrencyId": 578,
-  "EnglishName": "Herman Inc and Sons",
+  "CountryId": 886,
+  "Name": "Konopelski-Hoppe",
+  "CurrencyId": 865,
+  "EnglishName": "Johnson Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-channelled zero administration open system",
-  "OrgNrText": "603968",
-  "InterAreaPrefix": "non",
-  "DialInPrefix": "magni",
-  "ZipPrefix": "id",
-  "DomainName": "Wiegand, Gusikowski and Rath",
-  "AddressLayoutId": 147,
-  "DomesticAddressLayoutId": 825,
-  "ForeignAddressLayoutId": 60,
-  "Rank": 267,
-  "Tooltip": "voluptas",
+  "ImageDescription": "Up-sized analyzing alliance",
+  "OrgNrText": "1135733",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "optio",
+  "ZipPrefix": "inventore",
+  "DomainName": "Gulgowski-Turner",
+  "AddressLayoutId": 31,
+  "DomesticAddressLayoutId": 874,
+  "ForeignAddressLayoutId": 273,
+  "Rank": 972,
+  "Tooltip": "nam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

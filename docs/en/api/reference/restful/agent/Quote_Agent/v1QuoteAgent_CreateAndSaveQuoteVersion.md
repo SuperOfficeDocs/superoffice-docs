@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 796
+  "QuoteVersionId": 307
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 925,
-  "ERPQuoteVersionKey": "eaque",
-  "QuoteId": 767,
-  "Description": "Realigned motivating function",
-  "Number": "926498",
+  "QuoteVersionId": 340,
+  "ERPQuoteVersionKey": "ut",
+  "QuoteId": 199,
+  "Description": "Business-focused executive orchestration",
+  "Number": "934936",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 833,
-  "SentDate": "2007-02-16T13:28:23.5230176+01:00",
-  "FollowupId": 584,
-  "ExpirationDate": "2009-04-02T13:28:23.5230176+02:00",
-  "DeliveryCountryId": 796,
+  "Reason": "aggregate B2B experiences",
+  "LikelyQuoteAlternativeId": 774,
+  "SentDate": "2016-03-11T04:02:02.1753367+01:00",
+  "FollowupId": 843,
+  "ExpirationDate": "2002-03-11T04:02:02.1753367+01:00",
+  "DeliveryCountryId": 315,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 80,
+  "InvoiceCountryId": 561,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "itaque",
-  "ERPPaymentTypeKey": "voluptates",
-  "ERPDeliveryTermsKey": "repellendus",
-  "ERPDeliveryTypeKey": "harum",
-  "Rank": 990,
-  "ApprovedBy": 429,
-  "ApprovedText": "dicta",
-  "ApprovedRegisteredBy": 917,
-  "ApprovedRegisteredDate": "2017-01-04T13:28:23.5230176+01:00",
-  "ExtraField1": "esse",
-  "ExtraField2": "magni",
-  "ExtraField3": "sint",
-  "ExtraField4": "vitae",
-  "ExtraField5": "nesciunt",
-  "LastRecalculated": "2017-11-15T13:28:23.5230176+01:00",
-  "Updated": "1997-05-18T13:28:23.5230176+02:00",
-  "UpdatedAssociateId": 692,
-  "Registered": "2019-03-27T13:28:23.5230176+01:00",
-  "RegisteredAssociateId": 292,
-  "RequestAssociateId": 814,
-  "RequestComment": "dolor",
+  "ERPPaymentTermsKey": "nihil",
+  "ERPPaymentTypeKey": "aut",
+  "ERPDeliveryTermsKey": "aut",
+  "ERPDeliveryTypeKey": "fugiat",
+  "Rank": 297,
+  "ApprovedBy": 709,
+  "ApprovedText": "unde",
+  "ApprovedRegisteredBy": 259,
+  "ApprovedRegisteredDate": "2012-11-12T04:02:02.1753367+01:00",
+  "ExtraField1": "asperiores",
+  "ExtraField2": "quis",
+  "ExtraField3": "omnis",
+  "ExtraField4": "ea",
+  "ExtraField5": "pariatur",
+  "LastRecalculated": "2013-02-14T04:02:02.1753367+01:00",
+  "Updated": "2006-05-21T04:02:02.1753367+02:00",
+  "UpdatedAssociateId": 739,
+  "Registered": "2009-05-25T04:02:02.1753367+02:00",
+  "RegisteredAssociateId": 218,
+  "RequestAssociateId": 214,
+  "RequestComment": "nam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 420,
-      "ERPQuoteAlternativeKey": "deserunt",
-      "QuoteVersionId": 428,
-      "Name": "Roob LLC",
-      "Description": "Integrated well-modulated forecast",
+      "QuoteAlternativeId": 176,
+      "ERPQuoteAlternativeKey": "minima",
+      "QuoteVersionId": 849,
+      "Name": "Weissnat, Kiehn and Fritsch",
+      "Description": "Optimized web-enabled frame",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 25958.922,
-      "ERPDiscountAmount": 15983.4,
-      "DiscountPercent": 10849.908,
-      "DiscountAmount": 19625.108,
+      "ERPDiscountPercent": 16196.511999999999,
+      "ERPDiscountAmount": 16180.841999999999,
+      "DiscountPercent": 7305.3539999999994,
+      "DiscountAmount": 16318.738,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "atque",
-      "VAT": 2134.254,
-      "EarningPercent": 23081.91,
-      "EarningAmount": 14237.761999999999,
-      "SubTotal": 413.688,
-      "TotalPrice": 29926.566,
-      "ExtraField1": "porro",
-      "ExtraField2": "voluptatem",
-      "ExtraField3": "aut",
-      "ExtraField4": "earum",
-      "ExtraField5": "iure",
+      "VATInfo": "tempore",
+      "VAT": 22176.183999999997,
+      "EarningPercent": 10686.94,
+      "EarningAmount": 8427.326,
+      "SubTotal": 30910.642,
+      "TotalPrice": 7778.588,
+      "ExtraField1": "aliquam",
+      "ExtraField2": "sit",
+      "ExtraField3": "et",
+      "ExtraField4": "non",
+      "ExtraField5": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldLength": 593
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

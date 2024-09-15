@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "id",
-  "Instance": "et",
+  "Application": "non",
+  "Instance": "ex",
   "ForAllAssociates": true
 }
 ```

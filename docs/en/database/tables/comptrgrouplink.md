@@ -2,10 +2,10 @@
 uid: table-ComptrGroupLink
 title: ComptrGroupLink table
 description: User group link table for Comptr, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table ComptrGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ComptrGroupLink Table (110)

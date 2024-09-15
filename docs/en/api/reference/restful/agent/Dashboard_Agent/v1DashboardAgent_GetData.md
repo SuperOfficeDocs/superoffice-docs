@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 1001,
-  "Restrictions": "nam"
+  "DashboardTileId": 389,
+  "Restrictions": "nisi"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kirlin, Padberg and Hills",
-        "DisplayTooltip": "minus",
-        "DisplayType": "inventore",
+        "DisplayName": "Ziemann LLC",
+        "DisplayTooltip": "nulla",
+        "DisplayType": "reiciendis",
         "CanOrderBy": false,
-        "Name": "Conroy LLC",
+        "Name": "Reichel Group",
         "CanRestrictBy": true,
-        "RestrictionType": "veritatis",
-        "RestrictionListName": "Moen, Lemke and Steuber",
+        "RestrictionType": "ab",
+        "RestrictionListName": "Rippin Group",
         "IsVisible": false,
-        "ExtraInfo": "repellendus",
-        "Width": "a",
-        "IconHint": "aut",
-        "HeadingIconHint": "repellendus"
+        "ExtraInfo": "et",
+        "Width": "reprehenderit",
+        "IconHint": "suscipit",
+        "HeadingIconHint": "repudiandae"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kirlin, Padberg and Hills",
-        "DisplayTooltip": "minus",
-        "DisplayType": "inventore",
+        "DisplayName": "Ziemann LLC",
+        "DisplayTooltip": "nulla",
+        "DisplayType": "reiciendis",
         "CanOrderBy": false,
-        "Name": "Conroy LLC",
+        "Name": "Reichel Group",
         "CanRestrictBy": true,
-        "RestrictionType": "veritatis",
-        "RestrictionListName": "Moen, Lemke and Steuber",
+        "RestrictionType": "ab",
+        "RestrictionListName": "Rippin Group",
         "IsVisible": false,
-        "ExtraInfo": "repellendus",
-        "Width": "a",
-        "IconHint": "aut",
-        "HeadingIconHint": "repellendus"
+        "ExtraInfo": "et",
+        "Width": "reprehenderit",
+        "IconHint": "suscipit",
+        "HeadingIconHint": "repudiandae"
       }
     ],
     "Result": null

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 190,
-  "FormKey": "consequatur",
-  "Name": "Langosh-Mueller",
-  "Description": "Reverse-engineered tertiary implementation",
-  "Config": "numquam",
-  "FolderId": 775,
-  "ScriptId": 832,
-  "ResponseShipmentId": 182,
+  "FormId": 109,
+  "FormKey": "tempora",
+  "Name": "Berge, Howe and Terry",
+  "Description": "Optimized coherent standardization",
+  "Config": "saepe",
+  "FolderId": 1000,
+  "ScriptId": 553,
+  "ResponseShipmentId": 121,
   "Active": false,
-  "Expires": "2018-07-07T13:28:23.038756+02:00",
-  "MaxSubmits": 377,
+  "Expires": "2001-10-15T04:02:01.8941042+02:00",
+  "MaxSubmits": 977,
   "Type": "Normal",
-  "Recipe": "aut",
-  "GroupId": 735,
-  "NewTicket": false,
+  "Recipe": "quo",
+  "GroupId": 777,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-03-21T13:28:23.038756+01:00",
-  "RegisteredAssociateId": 90,
-  "Updated": "2010-11-30T13:28:23.038756+01:00",
-  "UpdatedAssociateId": 904,
-  "UpdatedCount": 300,
+  "Registered": "1998-09-14T04:02:01.8941042+02:00",
+  "RegisteredAssociateId": 457,
+  "Updated": "2003-06-08T04:02:01.8941042+02:00",
+  "UpdatedAssociateId": 437,
+  "UpdatedCount": 163,
   "EmailFlows": [
-    80,
-    654
+    357,
+    356
   ],
-  "FolderName": "Keeling-Barrows",
+  "FolderName": "Stracke, Corkery and Stanton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldType": "System.String",
+      "FieldLength": 596
     }
   }
 }

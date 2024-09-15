@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Value": "eius",
-    "Tooltip": "temporibus",
+    "Id": 844,
+    "Value": "minima",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 477
       }
     }
   },
   {
-    "Id": 620,
-    "Value": "eius",
-    "Tooltip": "temporibus",
+    "Id": 844,
+    "Value": "minima",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 477
       }
     }
   }

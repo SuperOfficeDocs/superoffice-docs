@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -152,52 +152,52 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 665,
-  "UniqueIdentifier": "aut",
-  "Name": "Reichert, Bartell and Haley",
-  "Description": "Cross-platform non-volatile solution",
-  "IncludeId": "quae",
-  "AccessKey": "consectetur",
-  "HierarchyId": 867,
-  "Source": "aut",
-  "SourceCode": "nihil",
+  "EjscriptId": 845,
+  "UniqueIdentifier": "officiis",
+  "Name": "Bruen, Corkery and Christiansen",
+  "Description": "Business-focused assymetric hardware",
+  "IncludeId": "quis",
+  "AccessKey": "enim",
+  "HierarchyId": 554,
+  "Source": "odit",
+  "SourceCode": "ratione",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 409,
+  "HtmlOutput": 61,
   "Includes": [
-    360,
-    92
+    407,
+    726
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 918,
-      "LineNumberTo": 948,
-      "Delta": 857,
-      "IncludeId": "commodi",
+      "LineNumberFrom": 127,
+      "LineNumberTo": 150,
+      "Delta": 335,
+      "IncludeId": "doloribus",
       "IncludedFrom": [
-        "mollitia",
-        "eum"
+        "dignissimos",
+        "odio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-08-07T13:28:31.5542696+02:00",
-  "RegisteredAssociateId": 582,
-  "Updated": "2003-12-31T13:28:31.5542696+01:00",
-  "UpdatedAssociateId": 273,
+  "Registered": "2004-09-11T04:02:06.4472912+02:00",
+  "RegisteredAssociateId": 54,
+  "Updated": "1998-07-18T04:02:06.4472912+02:00",
+  "UpdatedAssociateId": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 362
     }
   },
   "_Links": {

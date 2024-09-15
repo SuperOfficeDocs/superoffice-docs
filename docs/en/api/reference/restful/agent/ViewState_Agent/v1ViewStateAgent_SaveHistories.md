@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Auer-Weissnat",
+  "HistoryName": "Schulist Group",
   "History": [
     {
-      "Rank": 877,
-      "Id": 931,
-      "HistoryName": "Towne, Breitenberg and Bauch",
-      "HistoryId": 820,
-      "AssociateId": 297,
-      "Name": "Koepp Inc and Sons",
-      "ItemInfo": "exercitationem"
+      "Rank": 976,
+      "Id": 800,
+      "HistoryName": "Becker LLC",
+      "HistoryId": 123,
+      "AssociateId": 476,
+      "Name": "Schmitt Inc and Sons",
+      "ItemInfo": "cupiditate"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 801,
-    "Id": 796,
-    "HistoryName": "Schowalter, Kihn and Weber",
-    "HistoryId": 866,
-    "AssociateId": 120,
-    "Name": "Quigley-Murray",
-    "ItemInfo": "animi",
+    "Rank": 337,
+    "Id": 40,
+    "HistoryName": "Pfannerstill-Abshire",
+    "HistoryId": 944,
+    "AssociateId": 726,
+    "Name": "Yost, Parker and Funk",
+    "ItemInfo": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldType": "System.Int32",
+        "FieldLength": 160
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=quos
+GET /api/v1/List/Rating/MDOItems?query=architecto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Oberbrunner Inc and Sons",
-    "ToolTip": "Dolorem debitis iste.",
-    "Deleted": false,
-    "Rank": 739,
-    "Type": "deleniti",
+    "Id": 53,
+    "Name": "Greenholt, Schinner and Robel",
+    "ToolTip": "Omnis sit velit omnis ut nihil corrupti et.",
+    "Deleted": true,
+    "Rank": 802,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Kovacek Inc and Sons",
-        "ToolTip": "Ut omnis blanditiis voluptas a dolor quibusdam.",
+        "Id": 225,
+        "Name": "Hoppe-Kohler",
+        "ToolTip": "Illo quidem molestias corrupti ea repudiandae.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "ut",
+        "Rank": 708,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 814,
-        "ExtraInfo": "inventore",
-        "StyleHint": "nulla",
-        "FullName": "Cecilia Walker",
+        "IconHint": "quas",
+        "ColorBlock": 407,
+        "ExtraInfo": "alias",
+        "StyleHint": "beatae",
+        "FullName": "Ellie Monte Parker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 591
+            "FieldLength": 670
           }
         }
       }
     ],
-    "IconHint": "dolore",
-    "ColorBlock": 481,
-    "ExtraInfo": "fugit",
-    "StyleHint": "architecto",
-    "FullName": "Myah White",
+    "IconHint": "hic",
+    "ColorBlock": 837,
+    "ExtraInfo": "quis",
+    "StyleHint": "pariatur",
+    "FullName": "Neha Kristina Schaden Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 306
       }
     }
   }

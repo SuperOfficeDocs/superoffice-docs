@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 530,
-  "ServerName": "Deckow, Nolan and Okuneva",
-  "Protocol": "nostrum",
-  "UserName": "Breitenberg Group",
-  "Password": "sint",
-  "UseSSL": false,
-  "Folder": "velit",
+  "Port": 753,
+  "ServerName": "Abshire-Schowalter",
+  "Protocol": "et",
+  "UserName": "Kris-Rohan",
+  "Password": "porro",
+  "UseSSL": true,
+  "Folder": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 322
     }
   }
 }

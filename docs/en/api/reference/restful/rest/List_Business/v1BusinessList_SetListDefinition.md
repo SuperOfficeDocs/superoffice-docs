@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Considine-Bruen",
-  "Tooltip": "id",
+  "Id": 248,
+  "Name": "Kautzer, Ward and Nicolas",
+  "Tooltip": "velit",
   "Deleted": true,
-  "Rank": 796,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": true
+  "Rank": 487,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Skiles Inc and Sons",
-  "Tooltip": "beatae",
+  "Id": 446,
+  "Name": "Bergnaum Group",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 57,
+  "Rank": 988,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "animi",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "excepturi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 518
     }
   }
 }

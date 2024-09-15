@@ -2,10 +2,10 @@
 uid: table-ImportField
 title: ImportField table
 description: Import object types - see localetext for names
-generated: true
+so.generated: true
 keywords: database table ImportField
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ImportField Table (187)

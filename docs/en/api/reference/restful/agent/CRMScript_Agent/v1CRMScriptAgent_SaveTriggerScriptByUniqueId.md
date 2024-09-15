@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et",
+  "TriggerScriptUniqueId": "est",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 758,
-  "Name": "Jones LLC",
+  "ScreenChooserId": 132,
+  "Name": "West Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "necessitatibus",
-  "Source": "commodi",
-  "Registered": "2012-02-07T13:28:22.3823876+01:00",
-  "RegisteredAssociateId": 421,
-  "Updated": "2023-03-27T13:28:22.3823876+02:00",
-  "UpdatedAssociateId": 14,
+  "UniqueIdentifier": "vitae",
+  "Source": "ut",
+  "Registered": "2020-07-13T04:02:01.5342579+02:00",
+  "RegisteredAssociateId": 587,
+  "Updated": "2016-09-22T04:02:01.5342579+02:00",
+  "UpdatedAssociateId": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

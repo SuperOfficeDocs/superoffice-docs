@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Armstrong LLC",
-    "AssociateId": 252,
-    "DetailsTable": 468,
-    "DetailsRecord": 952,
+    "Id": 520,
+    "Name": "Dare Group",
+    "AssociateId": 532,
+    "DetailsTable": 42,
+    "DetailsRecord": 210,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nulla",
-      "ParameterObject2": "magni"
+      "ParameterObject1": "vel",
+      "ParameterObject2": "expedita"
     },
-    "LastStarted": "2001-03-13T13:28:21.8512599+01:00",
-    "Created": "2013-01-08T13:28:21.8512599+01:00",
-    "StartCount": 40,
-    "DatabaseSerialNumber": "1486852",
-    "Context": "rerum",
-    "Result": "reiciendis",
+    "LastStarted": "2017-01-02T04:02:01.221786+01:00",
+    "Created": "2003-08-16T04:02:01.221786+02:00",
+    "StartCount": 952,
+    "DatabaseSerialNumber": "999591",
+    "Context": "voluptas",
+    "Result": "enim",
     "State": "All",
-    "Description": "Reduced client-server Graphical User Interface",
-    "Response": "unde",
-    "Request": "commodi",
-    "ProgressDescription": "Mandatory 5th generation initiative",
-    "ProgressPercent": 506,
-    "FileName": "Prosacco-Roob",
+    "Description": "Multi-layered tertiary focus group",
+    "Response": "voluptas",
+    "Request": "velit",
+    "ProgressDescription": "Compatible upward-trending time-frame",
+    "ProgressPercent": 405,
+    "FileName": "Okuneva LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 231
       }
     }
   }

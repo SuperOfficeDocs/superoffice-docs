@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hermiston Inc and Sons",
-  "DeviceName": "Cole-Sporer",
-  "DeviceIdentifier": "atque",
+  "ApplicationName": "Stroman Group",
+  "DeviceName": "Schamberger, Walter and Hermiston",
+  "DeviceIdentifier": "et",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 977,
-  "Name": "Jenkins Group",
-  "CreatedDate": "2011-10-19T13:28:22.8510314+02:00",
-  "UpdatedDate": "2000-07-05T13:28:22.8510314+02:00",
-  "AssociateFullName": "Ebony Block III",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "omnis",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 684,
+  "ForeignDeviceId": 496,
+  "Name": "O'Connell LLC",
+  "CreatedDate": "2002-07-23T04:02:01.7888547+02:00",
+  "UpdatedDate": "2010-05-05T04:02:01.7888547+02:00",
+  "AssociateFullName": "Letha Sheila Breitenberg MD",
+  "CreatedBy": "ut",
+  "UpdatedBy": "consequuntur",
+  "DeviceIdentifier": "aliquam",
+  "ForeignAppId": 315,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 894
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "modi",
+  "Id": 758,
+  "Name": "Pacocha Group",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 465,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 774,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "minima",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 620
     }
   },
   "_Links": {

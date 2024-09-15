@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 307,
-  "Count": 618
+  "AmountLimit": 331,
+  "Count": 92
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Huels, Aufderhar and Klocko",
-    "SaleDate": "2014-10-30T13:28:23.6948543+01:00",
-    "SaleId": 381,
-    "Probability": 452,
-    "Title": "dicta",
-    "Amount": 24050.316,
-    "Currency": "velit",
-    "ProjectName": "Schulist, Wolf and Sanford",
-    "AssociateFullName": "Miss Frieda Dare",
-    "Description": "Persistent 6th generation archive",
+    "ContactName": "Runolfsdottir-Hagenes",
+    "SaleDate": "2022-05-24T04:02:02.28488+02:00",
+    "SaleId": 139,
+    "Probability": 643,
+    "Title": "voluptas",
+    "Amount": 11191.514,
+    "Currency": "enim",
+    "ProjectName": "Jewess Inc and Sons",
+    "AssociateFullName": "Romaine Carter",
+    "Description": "Centralized static success",
     "Status": "Lost",
-    "WeightedAmount": 12438.846,
-    "ProjectId": 897,
-    "EarningPercent": 6299.34,
-    "Earning": 11169.576,
-    "ContactId": 980,
-    "AssociateId": 224,
-    "PersonId": 895,
-    "SaleTypeId": 460,
-    "SaleTypeName": "Cummerata, Runolfsson and Hayes",
-    "PersonFullName": "Miss Keegan Gregorio Gerlach",
+    "WeightedAmount": 18923.092,
+    "ProjectId": 646,
+    "EarningPercent": 1711.164,
+    "Earning": 6847.79,
+    "ContactId": 529,
+    "AssociateId": 274,
+    "PersonId": 843,
+    "SaleTypeId": 412,
+    "SaleTypeName": "Weimann Inc and Sons",
+    "PersonFullName": "Allene Anderson",
     "Completed": "Completed",
-    "ActiveErpLinks": 642,
-    "NextDueDate": "2001-05-12T13:28:23.6948543+02:00",
-    "Number": "1354972",
+    "ActiveErpLinks": 937,
+    "NextDueDate": "2000-03-30T04:02:02.28488+02:00",
+    "Number": "365531",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

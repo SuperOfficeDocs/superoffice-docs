@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Schroeder Group",
-  "StorageKey": "harum",
-  "Context": "consequatur"
+  "StorageType": "ut",
+  "ProviderName": "Hoeger-D'Amore",
+  "StorageKey": "tenetur",
+  "Context": "ullam"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Oberbrunner-Dare",
-  "Description": "Expanded multi-state definition",
-  "Rank": 274,
+  "Name": "Brown-Skiles",
+  "Description": "Optional zero tolerance internet solution",
+  "Rank": 940,
   "Restrictions": [
     {
-      "Name": "Cole, Stamm and Okuneva",
-      "Operator": "aut",
+      "Name": "Baumbach-Ebert",
+      "Operator": "maiores",
       "Values": [
-        "corrupti",
-        "voluptatem"
+        "totam",
+        "molestiae"
       ],
       "DisplayValues": [
-        "sit",
-        "neque"
+        "ad",
+        "eveniet"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 722,
+      "InterParenthesis": 200,
       "InterOperator": "And",
-      "UniqueHash": 363
+      "UniqueHash": 119
     }
   ]
 }

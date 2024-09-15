@@ -2,10 +2,10 @@
 uid: table-UserRoleLink
 title: UserRoleLink table
 description: Link between user role and user
-generated: true
+so.generated: true
 keywords: database table UserRoleLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # UserRoleLink Table (192)

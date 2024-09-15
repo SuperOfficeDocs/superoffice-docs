@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Koepp, Hilpert and Kuhlman",
-  "ProviderName": "Leuschke Group",
-  "SortOrder": "consequatur",
-  "Restriction": "eum",
-  "Entities": "deleniti",
-  "Page": 489,
-  "PageSize": 388
+  "GuiName": "Kuvalis, Leffler and Friesen",
+  "ProviderName": "Collins, Kohler and Kuhic",
+  "SortOrder": "dolor",
+  "Restriction": "deserunt",
+  "Entities": "dolores",
+  "Page": 528,
+  "PageSize": 801
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Shanahan-Dooley",
-    "PrimaryKey": 791,
+    "EntityName": "Carter Group",
+    "PrimaryKey": 489,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cumque",
-        "TooltipHint": "nesciunt",
-        "LinkHint": "voluptas"
+        "DisplayValue": "sequi",
+        "TooltipHint": "voluptates",
+        "LinkHint": "non"
       }
     },
-    "LinkHint": "labore",
-    "StyleHint": "sit",
+    "LinkHint": "omnis",
+    "StyleHint": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 342
       }
     }
   }

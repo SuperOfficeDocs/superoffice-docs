@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 175,
-    "Name": "Crist, Maggio and Purdy",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "Rank": 59,
-    "UdListDefinitionId": 393,
+    "HeadingId": 474,
+    "Name": "Halvorson-Schoen",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 668,
+    "UdListDefinitionId": 290,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

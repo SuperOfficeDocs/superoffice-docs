@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Sanford, Gorczany and Dickens",
-      "Operator": "aperiam",
+      "Name": "Schroeder, Thiel and Little",
+      "Operator": "labore",
       "Values": [
-        "quia",
-        "sint"
+        "non",
+        "pariatur"
       ],
       "DisplayValues": [
-        "rerum",
-        "eos"
+        "vitae",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 172,
+      "InterParenthesis": 436,
       "InterOperator": "And",
-      "UniqueHash": 533
+      "UniqueHash": 327
     }
   ],
-  "ProviderName": "Shanahan Inc and Sons",
+  "ProviderName": "Goodwin-Streich",
   "DesiredColumns": [
-    "et",
-    "quia"
+    "consequuntur",
+    "expedita"
   ],
-  "PageSize": 952,
-  "PageNumber": 916
+  "PageSize": 81,
+  "PageNumber": 819
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lang LLC",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "sit",
-      "CanOrderBy": true,
-      "Name": "Lynch Group",
+      "DisplayName": "Kihn, Leannon and Bogisich",
+      "DisplayTooltip": "qui",
+      "DisplayType": "laborum",
+      "CanOrderBy": false,
+      "Name": "Morissette Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Smith-Hodkiewicz",
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Fahey LLC",
       "IsVisible": false,
-      "ExtraInfo": "ab",
-      "Width": "vel",
-      "IconHint": "eos",
-      "HeadingIconHint": "deleniti"
+      "ExtraInfo": "architecto",
+      "Width": "tempore",
+      "IconHint": "enim",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hilpert-Goyette",
-      "PrimaryKey": 439,
+      "EntityName": "Shields-Trantow",
+      "PrimaryKey": 564,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "corrupti",
-          "LinkHint": "distinctio"
+          "DisplayValue": "illum",
+          "TooltipHint": "iste",
+          "LinkHint": "minima"
         }
       },
-      "LinkHint": "corporis",
-      "StyleHint": "vel",
+      "LinkHint": "cumque",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 484
+          "FieldType": "System.Int32",
+          "FieldLength": 288
         }
       }
     }
   ],
-  "RowCount": 497,
+  "RowCount": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 82
     }
   }
 }

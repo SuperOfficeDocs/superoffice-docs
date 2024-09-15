@@ -78,14 +78,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 836,
-  "RecaptchaSiteKey": "labore",
+  "TZOffset": 561,
+  "RecaptchaSiteKey": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 606
     }
   }
 }

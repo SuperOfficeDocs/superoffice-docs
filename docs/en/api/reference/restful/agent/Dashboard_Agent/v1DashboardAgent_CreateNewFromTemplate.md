@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 336,
-  "Caption": "aut",
-  "Description": "Customizable 5th generation workforce",
-  "SelectionId": 648,
+  "DashboardTileId": 965,
+  "Caption": "labore",
+  "Description": "Programmable clear-thinking moratorium",
+  "SelectionId": 587,
   "VisibleFor": [
     {
-      "VisibleId": 92,
+      "VisibleId": 405,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 92,
+      "VisibleId": 405,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 474,
-  "Caption": "aut",
-  "Description": "Cross-platform tangible firmware",
-  "ChartName": "Cormier-Dicki",
-  "ChartId": "non",
-  "IsDefault": false,
-  "AssociateId": 535,
-  "GroupId": 250,
-  "SelectionId": 545,
-  "Config": "officia",
+  "DashboardTileId": 238,
+  "Caption": "sequi",
+  "Description": "Sharable well-modulated complexity",
+  "ChartName": "Weber-DuBuque",
+  "ChartId": "culpa",
+  "IsDefault": true,
+  "AssociateId": 935,
+  "GroupId": 447,
+  "SelectionId": 968,
+  "Config": "aliquid",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Cummings, Kreiger and Graham",
-      "Description": "Inverse bi-directional neural-net",
+      "Name": "Yost Group",
+      "Description": "Extended needs-based info-mediaries",
       "Type": "Boolean",
-      "ListName": "Ebert-Wisoky",
+      "ListName": "O'Kon, Beer and Champlin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aut",
-      "DefaultDataOption": false,
+      "Value": "nulla",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldLength": 873
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 555,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 761
+          "FieldLength": 689
         }
       }
     },
     {
-      "VisibleId": 555,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 761
+          "FieldLength": 689
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 65
     }
   }
 }

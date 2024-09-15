@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 956,
-  "AttachmentId": "ipsa"
+  "DocId": 49,
+  "AttachmentId": "reiciendis"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated multi-state methodology",
-  "Filename": "optio",
-  "Size": 338,
-  "Type": "qui",
-  "Encoding": "ullam",
-  "Id": "sed",
-  "Disposition": "nesciunt",
-  "IsSafeFileExtension": true,
+  "Description": "Integrated leading edge extranet",
+  "Filename": "ea",
+  "Size": 75,
+  "Type": "esse",
+  "Encoding": "autem",
+  "Id": "quia",
+  "Disposition": "blanditiis",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 261
     }
   }
 }

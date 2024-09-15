@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Beer Inc and Sons",
-    "ToolTip": "Magnam aut.",
-    "Deleted": true,
-    "Rank": 357,
-    "Type": "ea",
-    "ColorBlock": 861,
-    "IconHint": "dicta",
+    "Id": 778,
+    "Name": "Glover-Boyle",
+    "ToolTip": "Maiores voluptas magnam cupiditate deleniti aut.",
+    "Deleted": false,
+    "Rank": 655,
+    "Type": "aliquid",
+    "ColorBlock": 808,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2023-06-09T13:28:32.7103906+02:00",
+    "LastChanged": "2008-08-09T04:02:07.1034721+02:00",
     "ChildItems": [
       {
-        "Id": 662,
-        "Name": "Orn-Bode",
-        "ToolTip": "Et aperiam dolores soluta labore quos ratione vel.",
-        "Deleted": false,
-        "Rank": 492,
-        "Type": "repellat",
-        "ColorBlock": 865,
-        "IconHint": "molestiae",
+        "Id": 609,
+        "Name": "Kihn LLC",
+        "ToolTip": "Omnis facere voluptas vel necessitatibus.",
+        "Deleted": true,
+        "Rank": 972,
+        "Type": "non",
+        "ColorBlock": 225,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2020-11-13T13:28:32.7103906+01:00",
+        "LastChanged": "2017-09-14T04:02:07.1034721+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Dr. Yazmin Conn II",
+        "ExtraInfo": "quod",
+        "StyleHint": "repellendus",
+        "Hidden": true,
+        "FullName": "Mr. Mavis Madalyn Heaney MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 285
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Miss Magdalen Daugherty PhD",
+    "ExtraInfo": "quae",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Ms. Laurence Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 172
       }
     }
   }

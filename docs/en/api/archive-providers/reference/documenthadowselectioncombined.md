@@ -654,6 +654,8 @@ Implementation of the provider for the combined selection
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -712,7 +714,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombined?$select=person/personAssociateId,person/personInfo/textId,person/correspondingAssociate/contactId,contact/contactAssociate/simultaneousEjUser,contact/contactExtra/x_contact_contact_relation
+GET /api/v1/archive/DocumenthadowSelectionCombined?$select=getAllRows,contact/streetAddress/line2,contact/contactExtra/x_contact_integer,project/name,project/projectAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

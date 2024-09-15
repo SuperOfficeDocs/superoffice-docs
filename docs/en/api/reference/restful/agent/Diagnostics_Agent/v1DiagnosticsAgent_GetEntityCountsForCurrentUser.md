@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stoltenberg, O'Conner and Koelpin",
-    "Records": 206,
+    "EntityName": "Considine, Littel and Pouros",
+    "Records": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 444
       }
     }
   },
   {
-    "EntityName": "Stoltenberg, O'Conner and Koelpin",
-    "Records": 206,
+    "EntityName": "Considine, Littel and Pouros",
+    "Records": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 444
       }
     }
   }

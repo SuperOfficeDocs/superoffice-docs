@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 10,
-  "UserInput": "molestiae",
-  "PriceListKey": "qui"
+  "QuoteAlternativeId": 651,
+  "UserInput": "vero",
+  "PriceListKey": "ex"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 468,
-    "ERPProductKey": "minus",
-    "ERPPriceListKey": "excepturi",
-    "Name": "Predovic Group",
-    "Description": "Cross-group dynamic functionalities",
-    "Code": "sed",
-    "PriceUnit": "officia",
-    "QuantityUnit": "asperiores",
-    "IsSubscription": false,
-    "SubscriptionUnit": "molestiae",
-    "DefaultSubscriptionQuantity": 13219.212,
-    "ItemNumber": "705891",
+    "ProductId": 83,
+    "ERPProductKey": "eveniet",
+    "ERPPriceListKey": "sequi",
+    "Name": "Hayes-Schiller",
+    "Description": "Multi-channelled actuating synergy",
+    "Code": "sint",
+    "PriceUnit": "et",
+    "QuantityUnit": "dignissimos",
+    "IsSubscription": true,
+    "SubscriptionUnit": "aut",
+    "DefaultSubscriptionQuantity": 6456.04,
+    "ItemNumber": "1185242",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ut",
-    "ProductTypeKey": "quae",
-    "VAT": 2729.714,
-    "VATInfo": "est",
-    "UnitCost": 6227.258,
-    "UnitMinimumPrice": 14055.99,
-    "UnitListPrice": 9966.119999999999,
-    "InAssortment": false,
-    "Supplier": "fuga",
-    "SupplierCode": "ratione",
-    "Rights": "voluptate",
-    "Rule": "in",
+    "ProductFamilyKey": "similique",
+    "ProductTypeKey": "ut",
+    "VAT": 30124.007999999998,
+    "VATInfo": "similique",
+    "UnitCost": 20555.906,
+    "UnitMinimumPrice": 1598.34,
+    "UnitListPrice": 19195.75,
+    "InAssortment": true,
+    "Supplier": "dicta",
+    "SupplierCode": "inventore",
+    "Rights": "ut",
+    "Rule": "architecto",
     "ExtraInfo": [
       {
-        "Name": "Lakin, Davis and McCullough",
-        "Value": "voluptas",
+        "Name": "Abshire-Gislason",
+        "Value": "doloribus",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 536
           }
         }
       },
       {
-        "Name": "Lakin, Davis and McCullough",
-        "Value": "voluptas",
+        "Name": "Abshire-Gislason",
+        "Value": "doloribus",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 536
           }
         }
       }
     ],
-    "RawExtraInfo": "magni",
-    "ExtraField1": "mollitia",
-    "ExtraField2": "reprehenderit",
-    "ExtraField3": "maiores",
-    "ExtraField4": "nostrum",
-    "ExtraField5": "rerum",
-    "InStock": 28604.018,
+    "RawExtraInfo": "voluptatibus",
+    "ExtraField1": "tempore",
+    "ExtraField2": "quod",
+    "ExtraField3": "sed",
+    "ExtraField4": "aut",
+    "ExtraField5": "aut",
+    "InStock": 8574.624,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 589
       }
     }
   }

@@ -78,10 +78,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 429,
-  "UserName": "Gutmann, Hegmann and Schultz",
-  "Password": "recusandae",
-  "RoleId": 268,
+  "PersonId": 952,
+  "UserName": "Gottlieb, Heathcote and Gulgowski",
+  "Password": "mollitia",
+  "RoleId": 916,
   "IsActive": false
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-215
+687
 ```

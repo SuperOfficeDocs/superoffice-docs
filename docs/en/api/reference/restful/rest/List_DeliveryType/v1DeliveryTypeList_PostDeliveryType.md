@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705,
-  "Name": "Auer, Reichert and Sawayn",
-  "Tooltip": "est",
+  "Id": 80,
+  "Name": "Cummings, Gusikowski and Rath",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "UdListDefinitionId": 949,
-  "Rank": 129
+  "UdListDefinitionId": 500,
+  "Rank": 516
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Bauch, Kuphal and Batz",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 939,
-  "Rank": 338,
+  "Id": 987,
+  "Name": "Gerhold Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 74,
+  "Rank": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 128
     }
   }
 }

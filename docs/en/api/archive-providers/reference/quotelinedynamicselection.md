@@ -172,6 +172,8 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
-|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
-|alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
+|alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 |alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/description|string|Sale - Direct - Description: Phone number description| x |
@@ -327,12 +329,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
 |alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
-|alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
-|alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
+|alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
 |alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
@@ -431,12 +433,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/email/emailId|int|Sale - ID| x |
 |alternative/version/quote/sale/contact/email/emailLastSent|datetime|Sale - Last sent: The date and time an e-mail was last sent to this address| x |
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
-|alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
-|alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
+|alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
 |alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
@@ -535,12 +537,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Sale - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
-|alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
-|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
+|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
@@ -639,12 +641,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/projectPublish/publishedTo|date|Sale - Project - To date: End date for publishing. The record will not be visible after this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedBy| *None* |Sale - Project - Published by: Published by|  |
 |alternative/version/quote/sale/project/projectEvent/isExternalEvent|bool|Sale - Project - Event: Is this an external event| x |
-|alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
-|alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
+|alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOff|bool|Sale - Project - Sign Off: Does this event have the Sign Off function enabled| x |
 |alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
 |alternative/version/quote/sale/project/projectUrl/URLDescription|string|Sale - Project - Description| x |
@@ -743,13 +745,17 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/connection/erpConnection/connector/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system| x |
 |alternative/version/quote/connection/erpConnection/connector/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/erpConnection/connector/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/connector/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/erpConnection/connector/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/number,alternative/version/quote/sale/person/personCountryId,alternative/version/quote/sale/person/correspondingAssociate/title,alternative/version/quote/sale/person/correspondingAssociate/isLocation,alternative/version/quote/sale/contact/streetAddress/city
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/currencyId,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/person/hasEmarketingConsent,alternative/version/quote/sale/contact/contactExtra/x_contact_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

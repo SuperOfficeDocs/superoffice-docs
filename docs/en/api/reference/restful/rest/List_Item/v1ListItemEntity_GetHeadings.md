@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Hahn-Rempel",
-    "ToolTip": "Ut consequuntur molestiae ratione quis.",
+    "Id": 905,
+    "Name": "Hane, Adams and Quigley",
+    "ToolTip": "Quis qui amet voluptas tempore.",
     "Deleted": false,
-    "Rank": 550,
-    "Type": "sint",
-    "ColorBlock": 310,
-    "IconHint": "dolore",
+    "Rank": 110,
+    "Type": "laborum",
+    "ColorBlock": 973,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2009-06-15T13:28:32.6479022+02:00",
+    "LastChanged": "2007-03-21T04:02:07.0566019+01:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Kuhic Group",
-        "ToolTip": "Vitae adipisci rerum consequatur voluptatem aperiam ex.",
+        "Id": 959,
+        "Name": "Reichel, Cassin and Maggio",
+        "ToolTip": "Aut qui.",
         "Deleted": true,
-        "Rank": 561,
-        "Type": "est",
-        "ColorBlock": 539,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1998-12-13T13:28:32.6479022+01:00",
+        "Rank": 336,
+        "Type": "rerum",
+        "ColorBlock": 437,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2015-07-15T04:02:07.0566019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "non",
+        "ExtraInfo": "sint",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Edwardo Collier",
+        "FullName": "Prof. Marty Trever White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldType": "System.Int32",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Alford Ilene Zulauf DDS",
+    "ExtraInfo": "alias",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Gage Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 846
       }
     }
   }

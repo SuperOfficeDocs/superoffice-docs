@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerTable": 644,
-  "Rank": 507,
-  "DefaultTask": 219,
-  "DefaultTaskText": "nulla",
-  "IsVisual": true,
-  "LastGenerated": "2008-05-01T13:28:23.6167457+02:00",
-  "Description": "Future-proofed impactful support",
-  "Name": "Fahey, Schroeder and Lindgren",
-  "StatusMonitorId": 115,
-  "PictureId": 825,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 327,
-  "NumNeedUpdate": 578,
-  "GenerationStart": "2018-09-18T13:28:23.6167457+02:00"
+  "Rank": 59,
+  "DefaultTask": 530,
+  "DefaultTaskText": "quia",
+  "IsVisual": false,
+  "LastGenerated": "2015-03-09T04:02:02.2378308+01:00",
+  "Description": "Right-sized radical function",
+  "Name": "Reinger-Wyman",
+  "StatusMonitorId": 857,
+  "PictureId": 771,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 651,
+  "NumNeedUpdate": 564,
+  "GenerationStart": "2004-10-12T04:02:02.2378308+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 414,
-  "Rank": 315,
-  "DefaultTask": 150,
-  "DefaultTaskText": "optio",
+  "OwnerTable": 517,
+  "Rank": 888,
+  "DefaultTask": 725,
+  "DefaultTaskText": "sapiente",
   "IsVisual": false,
-  "LastGenerated": "2024-04-28T13:28:23.6167457+02:00",
-  "Description": "Focused intermediate success",
-  "Name": "Gottlieb, Crooks and Jacobs",
-  "StatusMonitorId": 529,
-  "PictureId": 854,
-  "NeedsUpdate": true,
+  "LastGenerated": "2008-12-12T04:02:02.2378308+01:00",
+  "Description": "Multi-layered cohesive definition",
+  "Name": "Boyle-Turcotte",
+  "StatusMonitorId": 763,
+  "PictureId": 919,
+  "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 715,
-  "NumNeedUpdate": 137,
-  "GenerationStart": "2011-02-20T13:28:23.6167457+01:00",
+  "NumMatches": 895,
+  "NumNeedUpdate": 372,
+  "GenerationStart": "2006-01-18T04:02:02.2378308+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-screen_definition_hidden
 title: screen_definition_hidden table
 description: The name of a hidden variable to keep for this screen
-generated: true
+so.generated: true
 keywords: database table screen_definition_hidden
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # screen\_definition\_hidden Table (373)

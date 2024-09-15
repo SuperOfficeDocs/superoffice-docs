@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=799
+POST /api/v1/Agents/Person/GetPerson?personId=992
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "unde",
-  "PersonId": 831,
-  "Mrmrs": "cum",
-  "Firstname": "Harley",
-  "Lastname": "Eichmann",
-  "MiddleName": "Okuneva, Wehner and Adams",
+  "Position": "aut",
+  "PersonId": 680,
+  "Mrmrs": "vitae",
+  "Firstname": "Lenna",
+  "Lastname": "Hane",
+  "MiddleName": "Kirlin, Stark and Beatty",
   "Title": "ut",
-  "Description": "Enhanced web-enabled interface",
-  "Email": "rhett_kuvalis@wolff.ca",
-  "FullName": "Maximillia Witting",
-  "DirectPhone": "210.290.1207 x5567",
-  "FormalName": "Dach-Huel",
-  "CountryId": 749,
-  "ContactId": 78,
-  "ContactName": "Upton Inc and Sons",
-  "Retired": 699,
-  "Rank": 332,
-  "ActiveInterests": 64,
+  "Description": "Open-source bottom-line orchestration",
+  "Email": "enos_mclaughlin@metzankunding.com",
+  "FullName": "Seamus Stamm",
+  "DirectPhone": "1-462-883-0474 x52151",
+  "FormalName": "Sauer-Ernser",
+  "CountryId": 887,
+  "ContactId": 936,
+  "ContactName": "Bednar Group",
+  "Retired": 880,
+  "Rank": 433,
+  "ActiveInterests": 306,
   "ContactDepartment": "",
-  "ContactCountryId": 819,
-  "ContactOrgNr": "1016808",
-  "FaxPhone": "661.318.0297 x519",
-  "MobilePhone": "(018)740-1644 x15022",
-  "ContactPhone": "1-116-549-1341",
-  "AssociateName": "Herman Group",
-  "AssociateId": 922,
-  "UsePersonAddress": true,
-  "ContactFax": "temporibus",
-  "Kanafname": "officiis",
-  "Kanalname": "fugit",
-  "Post1": "sit",
-  "Post2": "omnis",
-  "Post3": "dolorem",
-  "EmailName": "gardner.auer@mueller.com",
-  "ContactFullName": "Mrs. Elna D'Amore Jr.",
-  "ActiveErpLinks": 675,
-  "TicketPriorityId": 16,
-  "SupportLanguageId": 623,
-  "SupportAssociateId": 573,
+  "ContactCountryId": 924,
+  "ContactOrgNr": "572625",
+  "FaxPhone": "239.176.4166",
+  "MobilePhone": "1-219-250-4498",
+  "ContactPhone": "495-888-2025",
+  "AssociateName": "Heidenreich, Wisozk and Luettgen",
+  "AssociateId": 226,
+  "UsePersonAddress": false,
+  "ContactFax": "optio",
+  "Kanafname": "amet",
+  "Kanalname": "ipsa",
+  "Post1": "magnam",
+  "Post2": "quia",
+  "Post3": "corrupti",
+  "EmailName": "alexandrine@schultzromaguera.ca",
+  "ContactFullName": "Ms. Rico Bernier II",
+  "ActiveErpLinks": 308,
+  "TicketPriorityId": 739,
+  "SupportLanguageId": 845,
+  "SupportAssociateId": 912,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 29
     }
   }
 }

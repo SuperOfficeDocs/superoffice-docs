@@ -2,10 +2,10 @@
 uid: table-travelgenerateddatabase
 title: travelgenerateddatabase table
 description: Information about all databases generated from this database
-generated: true
+so.generated: true
 keywords: database table travelgenerateddatabase
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # travelgenerateddatabase Table (33)

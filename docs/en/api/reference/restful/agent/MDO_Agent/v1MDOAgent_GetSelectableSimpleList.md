@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Powlowski Inc and Sons"
+  "Name": "Metz, Kassulke and Bode"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Quitzon Group",
-    "ToolTip": "Nihil aut rem sed et.",
+    "Id": 852,
+    "Name": "Schinner, Connelly and Haag",
+    "ToolTip": "Aut nobis eveniet voluptatum vero id.",
     "Deleted": false,
-    "Rank": 991,
-    "Type": "dolor",
-    "ColorBlock": 10,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2015-07-15T13:28:23.0543771+02:00",
+    "Rank": 773,
+    "Type": "ut",
+    "ColorBlock": 711,
+    "IconHint": "ab",
+    "Selected": false,
+    "LastChanged": "2003-05-28T04:02:01.909728+02:00",
     "ChildItems": [
       {
-        "Id": 85,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Soluta temporibus aliquam amet.",
+        "Id": 10,
+        "Name": "Fisher, Bartoletti and Sawayn",
+        "ToolTip": "Harum libero in exercitationem.",
         "Deleted": true,
-        "Rank": 166,
-        "Type": "repudiandae",
-        "ColorBlock": 425,
-        "IconHint": "et",
+        "Rank": 555,
+        "Type": "ullam",
+        "ColorBlock": 797,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2006-03-03T13:28:23.0543771+01:00",
+        "LastChanged": "1998-09-05T04:02:01.909728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Kian Graham",
+        "ExtraInfo": "laborum",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Miss Pearl Fermin Morar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 632
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "totam",
+    "ExtraInfo": "rerum",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Tevin McCullough II",
+    "FullName": "Joy Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

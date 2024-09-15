@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 174,
-  "StartTime": "2013-12-24T13:28:21.4292674+01:00",
-  "EndTime": "2008-12-17T13:28:21.4292674+01:00",
-  "Count": 766,
-  "TaskId": 327
+  "ContactId": 986,
+  "StartTime": "2016-06-13T04:02:00.986941+02:00",
+  "EndTime": "2004-09-30T04:02:00.986941+02:00",
+  "Count": 98,
+  "TaskId": 249
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 677,
-    "StartDate": "2014-01-09T13:28:21.4292674+01:00",
-    "EndDate": "2001-09-20T13:28:21.4292674+02:00",
+    "AppointmentId": 325,
+    "StartDate": "2008-12-18T04:02:00.986941+01:00",
+    "EndDate": "2023-04-04T04:02:00.986941+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Prof. Henri Gaylord III",
-    "ContactName": "Heller-Schinner",
-    "Description": "Persistent composite migration",
-    "PersonFullName": "Dorothea Pacocha",
-    "PersonId": 322,
-    "ContactId": 447,
-    "ProjectId": 921,
-    "ProjectName": "Rowe LLC",
+    "Task": "non",
+    "AssociateFullName": "Karina Itzel Hartmann DVM",
+    "ContactName": "Predovic-Jerde",
+    "Description": "Innovative directional ability",
+    "PersonFullName": "Clement Cruickshank",
+    "PersonId": 795,
+    "ContactId": 503,
+    "ProjectId": 165,
+    "ProjectName": "Haley, Cummerata and Waters",
     "IsPublished": false,
-    "AssociateId": 551,
-    "ColorIndex": 938,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 323,
+    "ColorIndex": 736,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 340,
-    "PriorityName": "Feeney-Durgan",
+    "PriorityId": 383,
+    "PriorityName": "Kutch, McLaughlin and Hamill",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1999-11-07T13:28:21.4292674+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2023-07-23T04:02:00.986941+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2024-08-14T13:28:21.4292674+02:00",
-    "RecurringEndDate": "2009-06-05T13:28:21.4292674+02:00",
-    "MotherId": 624,
-    "AssignedBy": 476,
-    "AssignedByFullName": "Terence Keanu Smitham DDS",
+    "RecurringStartDate": "2003-11-10T04:02:00.986941+01:00",
+    "RecurringEndDate": "2014-01-28T04:02:00.986941+01:00",
+    "MotherId": 801,
+    "AssignedBy": 122,
+    "AssignedByFullName": "Harmony Lind",
     "RejectReason": "",
-    "Location": "inventore",
-    "AlarmLeadTime": "sit",
-    "SaleId": 713,
-    "SaleName": "Moore-Steuber",
-    "AssociateName": "Senger, Stanton and Towne",
-    "CreatedDate": "1997-05-01T13:28:21.4292674+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Lorenzo Murray",
-    "CreatedByAssociateId": 972,
+    "Location": "tempora",
+    "AlarmLeadTime": "error",
+    "SaleId": 252,
+    "SaleName": "Kunde-Kunze",
+    "AssociateName": "Mills-Langosh",
+    "CreatedDate": "2019-08-25T04:02:00.986941+02:00",
+    "CreatedBy": "veritatis",
+    "CreatedByFullName": "Mrs. Jeffery Vena Schowalter",
+    "CreatedByAssociateId": 978,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 76,
-    "Title": "sed",
-    "Agenda": "nobis",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 972,
+    "Title": "et",
+    "Agenda": "ut",
+    "InternalNotes": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldLength": 420
       }
     }
   }

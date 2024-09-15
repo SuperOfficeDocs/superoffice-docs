@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 572,
-  "Name": "Reichert Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 692,
+  "WebPanelId": 585,
+  "Name": "Weber, Reichert and Mraz",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 523,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Rolfson LLC",
+  "WindowName": "Effertz Group",
   "Url": "http://www.example.com/",
-  "ProgId": "eius",
-  "Icon": 772,
+  "ProgId": "vel",
+  "Icon": 449,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   }
 }

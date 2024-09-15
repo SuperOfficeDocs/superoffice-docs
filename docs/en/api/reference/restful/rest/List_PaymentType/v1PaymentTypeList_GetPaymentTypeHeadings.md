@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 990,
-    "Name": "Tremblay-Ratke",
-    "Tooltip": "quis",
+    "HeadingId": 736,
+    "Name": "Hartmann-Murazik",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 193,
-    "UdListDefinitionId": 140,
+    "Rank": 556,
+    "UdListDefinitionId": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldLength": 994
       }
     }
   }

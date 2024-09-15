@@ -2,10 +2,10 @@
 uid: table-EntityCounts
 title: EntityCounts table
 description: Number of different entities an associate has created for usage statistics
-generated: true
+so.generated: true
 keywords: database table EntityCounts
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # EntityCounts Table (531)

@@ -106,12 +106,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 782,
+  "DocId": 281,
   "AttachmentIds": [
-    "autem",
-    "minima"
+    "provident",
+    "ut"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 498,
-      "ContactName": "Howe, Hickle and Brekke",
-      "PersonId": 519,
-      "PersonName": "Roob, Marvin and Bayer",
-      "AssociateId": 715,
-      "Address": "tempore",
-      "EmailId": 298,
+      "ContactId": 438,
+      "ContactName": "Lakin, Armstrong and McDermott",
+      "PersonId": 765,
+      "PersonName": "Rodriguez-Kiehn",
+      "AssociateId": 458,
+      "Address": "natus",
+      "EmailId": 703,
       "DuplicatePersonIds": [
-        886,
-        944
+        270,
+        294
       ],
-      "Name": "Reinger-Gleason",
+      "Name": "Bins LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 13,
-      "ContactName": "Legros Group",
-      "PersonId": 81,
-      "PersonName": "Green, Collier and Walsh",
-      "AssociateId": 28,
-      "Address": "qui",
-      "EmailId": 352,
+      "ContactId": 275,
+      "ContactName": "Kub-Batz",
+      "PersonId": 895,
+      "PersonName": "Hickle Inc and Sons",
+      "AssociateId": 836,
+      "Address": "debitis",
+      "EmailId": 180,
       "DuplicatePersonIds": [
-        292,
-        978
+        500,
+        707
       ],
-      "Name": "Haag, Conn and Dibbert",
+      "Name": "O'Conner, Stracke and Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 909,
-      "ContactName": "Wintheiser, Purdy and Mertz",
-      "PersonId": 690,
-      "PersonName": "Rowe-Barrows",
-      "AssociateId": 898,
-      "Address": "et",
-      "EmailId": 1001,
+      "ContactId": 110,
+      "ContactName": "Lesch, Gulgowski and Schimmel",
+      "PersonId": 985,
+      "PersonName": "O'Kon Inc and Sons",
+      "AssociateId": 425,
+      "Address": "velit",
+      "EmailId": 331,
       "DuplicatePersonIds": [
-        743,
-        853
+        362,
+        762
       ],
-      "Name": "Becker, Rutherford and Gerhold",
+      "Name": "Walsh, Bahringer and Lebsack",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldType": "System.String",
+          "FieldLength": 765
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "id",
+  "Subject": "magnam",
+  "HTMLBody": "repudiandae",
   "From": null,
-  "Sent": "2018-06-22T13:28:22.7416819+02:00",
-  "Size": 885,
+  "Sent": "2004-12-14T04:02:01.7373708+01:00",
+  "Size": 264,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "aut",
-  "IsSent": true,
+  "MessageID": "voluptatibus",
+  "PlainBody": "error",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 379,
+  "ServerId": 961,
   "Attachments": [
     {
-      "Description": "Reactive exuding structure",
-      "Filename": "possimus",
-      "Size": 150,
-      "Type": "aliquam",
-      "Encoding": "est",
-      "Id": "qui",
-      "Disposition": "voluptate",
-      "IsSafeFileExtension": true,
+      "Description": "Sharable 3rd generation open architecture",
+      "Filename": "et",
+      "Size": 915,
+      "Type": "vel",
+      "Encoding": "numquam",
+      "Id": "quo",
+      "Disposition": "nesciunt",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 996
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Goldner-Shanahan",
+      "Name": "Bruen LLC",
       "Values": [
-        "aliquid",
-        "accusamus"
+        "praesentium",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 328
         }
       }
     },
     {
-      "Name": "Goldner-Shanahan",
+      "Name": "Bruen LLC",
       "Values": [
-        "aliquid",
-        "accusamus"
+        "praesentium",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 328
         }
       }
     }
   ],
-  "FolderName": "Hackett-Schamberger",
-  "EmailItemId": 811,
-  "AccountId": 62,
-  "ReceivedAt": "2019-05-20T13:28:22.7416819+02:00",
+  "FolderName": "Dickens, Hessel and Hickle",
+  "EmailItemId": 988,
+  "AccountId": 340,
+  "ReceivedAt": "2005-08-28T04:02:01.7373708+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-02-23T13:28:22.7416819+01:00",
+  "RepliedAt": "2017-03-20T04:02:01.7373708+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 781
     }
   }
 }

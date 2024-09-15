@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=808
+GET /api/v1/Contact/{contactId}/Summary?limit=993
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 491,
-      "TicketStatus": 228,
-      "Title": "magni",
-      "Registered": "2003-09-07T13:28:31.5074055+02:00",
-      "IconHint": "dolorem"
+      "TicketId": 176,
+      "TicketStatus": 520,
+      "Title": "omnis",
+      "Registered": "2017-11-10T04:02:06.4316632+01:00",
+      "IconHint": "molestiae"
     },
     {
-      "TicketId": 491,
-      "TicketStatus": 228,
-      "Title": "magni",
-      "Registered": "2003-09-07T13:28:31.5074055+02:00",
-      "IconHint": "dolorem"
+      "TicketId": 176,
+      "TicketStatus": 520,
+      "Title": "omnis",
+      "Registered": "2017-11-10T04:02:06.4316632+01:00",
+      "IconHint": "molestiae"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 627,
-      "DocumentId": 502,
-      "Date": "2003-11-22T13:28:31.5074055+01:00",
-      "Description": "Total composite database",
+      "AppointmentId": 641,
+      "DocumentId": 560,
+      "Date": "2002-11-08T04:02:06.4316632+01:00",
+      "Description": "Progressive asynchronous installation",
       "Completed": "Completed",
-      "Registered": "2007-07-03T13:28:31.5074055+02:00"
+      "Registered": "1997-08-20T04:02:06.4316632+02:00"
     },
     {
-      "AppointmentId": 627,
-      "DocumentId": 502,
-      "Date": "2003-11-22T13:28:31.5074055+01:00",
-      "Description": "Total composite database",
+      "AppointmentId": 641,
+      "DocumentId": 560,
+      "Date": "2002-11-08T04:02:06.4316632+01:00",
+      "Description": "Progressive asynchronous installation",
       "Completed": "Completed",
-      "Registered": "2007-07-03T13:28:31.5074055+02:00"
+      "Registered": "1997-08-20T04:02:06.4316632+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 534,
-      "DocumentId": 229,
-      "Date": "2001-11-06T13:28:31.5074055+01:00",
-      "Description": "User-friendly exuding success",
+      "AppointmentId": 69,
+      "DocumentId": 464,
+      "Date": "1998-12-02T04:02:06.4316632+01:00",
+      "Description": "Reactive attitude-oriented installation",
       "Completed": "Completed",
-      "Registered": "2015-03-01T13:28:31.5074055+01:00"
+      "Registered": "2002-06-30T04:02:06.4316632+02:00"
     },
     {
-      "AppointmentId": 534,
-      "DocumentId": 229,
-      "Date": "2001-11-06T13:28:31.5074055+01:00",
-      "Description": "User-friendly exuding success",
+      "AppointmentId": 69,
+      "DocumentId": 464,
+      "Date": "1998-12-02T04:02:06.4316632+01:00",
+      "Description": "Reactive attitude-oriented installation",
       "Completed": "Completed",
-      "Registered": "2015-03-01T13:28:31.5074055+01:00"
+      "Registered": "2002-06-30T04:02:06.4316632+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 103,
-      "SaleDate": "2000-02-19T13:28:31.5074055+01:00",
-      "Probability": 357,
-      "Heading": "qui",
-      "Amount": 23937.492,
-      "Currency": "quo",
-      "AmountInBaseCurrency": 28795.192,
+      "SaleId": 584,
+      "SaleDate": "2015-06-07T04:02:06.4316632+02:00",
+      "Probability": 984,
+      "Heading": "sit",
+      "Amount": 10476.962,
+      "Currency": "cumque",
+      "AmountInBaseCurrency": 22715.232,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2008-11-17T13:28:31.5074055+01:00"
+      "Registered": "2019-05-05T04:02:06.4316632+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 438,
-      "Name": "Zemlak LLC",
-      "CompanyName": "Wilderman, Senger and Bahringer",
-      "FirstMessage": "accusamus",
-      "LastMessage": "et",
-      "WhenRequested": "2017-06-06T13:28:31.5074055+02:00",
-      "WhenEnded": "2021-04-12T13:28:31.5074055+02:00"
+      "ChatSessionId": 433,
+      "Name": "Bailey LLC",
+      "CompanyName": "Hahn Group",
+      "FirstMessage": "et",
+      "LastMessage": "voluptatum",
+      "WhenRequested": "2003-06-10T04:02:06.4316632+02:00",
+      "WhenEnded": "2005-08-18T04:02:06.4316632+02:00"
     }
   ]
 }

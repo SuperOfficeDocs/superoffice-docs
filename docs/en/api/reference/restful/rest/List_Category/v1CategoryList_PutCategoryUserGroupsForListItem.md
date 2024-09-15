@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Boehm LLC",
-    "ToolTip": "Impedit molestiae porro modi voluptatibus laborum id.",
+    "Id": 753,
+    "Name": "Harvey, Legros and Turcotte",
+    "ToolTip": "Sit numquam.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "ratione",
-    "ColorBlock": 349,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2010-03-31T13:28:32.694768+02:00",
+    "Rank": 72,
+    "Type": "ut",
+    "ColorBlock": 412,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2001-01-02T04:02:07.0878487+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Baumbach, Feil and Kirlin",
-        "ToolTip": "Et veniam dolores odit nostrum et eligendi et.",
-        "Deleted": false,
-        "Rank": 636,
-        "Type": "cum",
-        "ColorBlock": 372,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2014-03-30T13:28:32.694768+02:00",
+        "Id": 803,
+        "Name": "Mitchell-Crist",
+        "ToolTip": "Maiores facilis.",
+        "Deleted": true,
+        "Rank": 502,
+        "Type": "qui",
+        "ColorBlock": 110,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "1999-03-15T04:02:07.0878487+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "et",
+        "ExtraInfo": "expedita",
+        "StyleHint": "culpa",
         "Hidden": true,
-        "FullName": "Prof. Serenity Wolf"
+        "FullName": "Lesley Wilkinson"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Helena Thompson"
+    "ExtraInfo": "vitae",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Kendra Bartoletti"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Hermiston-Bogisich",
-    "ToolTip": "Dolor itaque voluptatum sint velit et incidunt.",
-    "Deleted": false,
-    "Rank": 567,
-    "Type": "minus",
-    "ColorBlock": 157,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2013-09-08T13:28:32.694768+02:00",
+    "Id": 997,
+    "Name": "Gleichner, Larkin and Kerluke",
+    "ToolTip": "Cumque corrupti.",
+    "Deleted": true,
+    "Rank": 895,
+    "Type": "aliquam",
+    "ColorBlock": 655,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2018-08-01T04:02:07.0878487+02:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Blanda, Dicki and Hermiston",
-        "ToolTip": "Repudiandae vel dicta dolores.",
-        "Deleted": true,
-        "Rank": 229,
-        "Type": "tempora",
-        "ColorBlock": 701,
-        "IconHint": "sequi",
+        "Id": 790,
+        "Name": "Daniel LLC",
+        "ToolTip": "Magni animi autem quisquam optio.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "odio",
+        "ColorBlock": 809,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "1997-07-25T13:28:32.694768+02:00",
+        "LastChanged": "2018-02-03T04:02:07.0878487+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Lincoln Rau",
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Ewell Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldType": "System.String",
+            "FieldLength": 462
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Mr. Denis Kub",
+    "FullName": "Mrs. Fannie Feil MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 902
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

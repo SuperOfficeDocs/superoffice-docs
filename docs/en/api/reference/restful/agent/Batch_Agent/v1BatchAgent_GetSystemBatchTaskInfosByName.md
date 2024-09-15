@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Lebsack, Okuneva and Beahan"
+  "TaskName": "Erdman, Heathcote and Rempel"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Wyman-Olson",
-    "AssociateId": 660,
-    "DetailsTable": 38,
-    "DetailsRecord": 600,
+    "Id": 587,
+    "Name": "Rolfson Inc and Sons",
+    "AssociateId": 962,
+    "DetailsTable": 860,
+    "DetailsRecord": 365,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ipsa",
-      "ParameterObject2": "itaque"
+      "ParameterObject1": "rem",
+      "ParameterObject2": "laborum"
     },
-    "LastStarted": "2008-01-06T13:28:21.8512599+01:00",
-    "Created": "1997-11-25T13:28:21.8512599+01:00",
-    "StartCount": 75,
-    "DatabaseSerialNumber": "919999",
-    "Context": "et",
-    "Result": "autem",
+    "LastStarted": "2024-04-20T04:02:01.2374146+02:00",
+    "Created": "2021-08-24T04:02:01.2374146+02:00",
+    "StartCount": 385,
+    "DatabaseSerialNumber": "478354",
+    "Context": "quia",
+    "Result": "harum",
     "State": "All",
-    "Description": "Synchronised didactic approach",
-    "Response": "inventore",
-    "Request": "aliquam",
-    "ProgressDescription": "Centralized zero tolerance contingency",
-    "ProgressPercent": 26,
-    "FileName": "Mueller Group",
+    "Description": "Function-based upward-trending concept",
+    "Response": "quis",
+    "Request": "perferendis",
+    "ProgressDescription": "Operative reciprocal interface",
+    "ProgressPercent": 498,
+    "FileName": "Feest, Leffler and Frami",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 65
       }
     }
   }

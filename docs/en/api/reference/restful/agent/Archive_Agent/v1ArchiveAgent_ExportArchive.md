@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kunze Group",
-  "Context": "autem",
+  "ProviderName": "Blick-Wiza",
+  "Context": "quibusdam",
   "DesiredEntities": [
-    "quam",
-    "et"
+    "voluptas",
+    "quia"
   ],
   "Columns": [
-    "sed",
-    "voluptates"
+    "aut",
+    "distinctio"
   ],
   "SortOrder": [
     {
-      "Name": "Crona LLC",
+      "Name": "Sipes Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Crona LLC",
+      "Name": "Sipes Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Dooley, Schultz and Stamm",
-      "Operator": "quam",
+      "Name": "Anderson, Monahan and McClure",
+      "Operator": "sed",
       "Values": [
-        "ratione",
-        "molestiae"
+        "labore",
+        "qui"
       ],
       "DisplayValues": [
-        "excepturi",
-        "vero"
+        "vero",
+        "incidunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 702,
+      "InterParenthesis": 780,
       "InterOperator": "And",
-      "UniqueHash": 213
+      "UniqueHash": 192
     }
   ],
-  "ExportType": "at",
+  "ExportType": "voluptas",
   "SelectedRowIds": [
-    "harum",
-    "quam"
+    "quia",
+    "aspernatur"
   ],
-  "EstimatedRowCount": 178
+  "EstimatedRowCount": 726
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 349,
-  "FileName": "Abernathy LLC",
-  "Message": "suscipit",
+  "BatchTaskId": 463,
+  "FileName": "Dooley, Kulas and O'Hara",
+  "Message": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 868
     }
   }
 }

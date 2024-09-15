@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 482,
+  "Id": 811,
+  "Name": "Grant, Gottlieb and Lakin",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 203,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   },
   "_Links": {

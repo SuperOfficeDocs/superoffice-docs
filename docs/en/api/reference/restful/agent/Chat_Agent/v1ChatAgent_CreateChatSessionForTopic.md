@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 55
+  "ChatTopicId": 535
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 981,
-  "TopicId": 93,
+  "ChatSessionId": 650,
+  "TopicId": 706,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Yost, Wilderman and Botsford",
-  "CustomerEmail": "josefina@sawaynschumm.ca",
-  "CustomerPhone": "487-621-0900",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Eichmann Group",
+  "CustomerAlias": "adipisci",
+  "CustomerHost": "a",
+  "CustomerName": "Romaguera Inc and Sons",
+  "CustomerEmail": "alfredo.rempel@gusikowski.ca",
+  "CustomerPhone": "(997)987-7533 x77407",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Dare LLC",
   "Status": "Closed",
-  "FirstMessage": "reprehenderit",
-  "LastMessage": "et",
-  "WhenRequested": "1998-08-21T13:28:22.1636887+02:00",
-  "WhenStarted": "2014-04-19T13:28:22.1636887+02:00",
-  "WhenEnded": "2015-05-06T13:28:22.1636887+02:00",
-  "WhenIdle": "2018-10-04T13:28:22.1636887+02:00",
-  "WhenFetched": "2020-03-07T13:28:22.1636887+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 82,
-  "AlertLevel": 852,
-  "Rank": 667,
+  "FirstMessage": "dolores",
+  "LastMessage": "sunt",
+  "WhenRequested": "2016-12-15T04:02:01.4092709+01:00",
+  "WhenStarted": "2011-06-29T04:02:01.4092709+02:00",
+  "WhenEnded": "2003-02-22T04:02:01.4092709+01:00",
+  "WhenIdle": "2024-07-04T04:02:01.4092709+02:00",
+  "WhenFetched": "2009-11-18T04:02:01.4092709+01:00",
+  "SessionKey": "quae",
+  "InitialQueuePos": 372,
+  "AlertLevel": 546,
+  "Rank": 722,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 181,
+  "Rating": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 469
     }
   }
 }

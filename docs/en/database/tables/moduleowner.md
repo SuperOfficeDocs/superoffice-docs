@@ -2,10 +2,10 @@
 uid: table-ModuleOwner
 title: ModuleOwner table
 description: Unique owner of a set of licensed modules
-generated: true
+so.generated: true
 keywords: database table ModuleOwner
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ModuleOwner Table (212)

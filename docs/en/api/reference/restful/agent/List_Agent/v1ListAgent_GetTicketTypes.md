@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 673,
-    "Name": "DuBuque-Huels",
-    "Rank": 455,
-    "Tooltip": "dolorum",
-    "Icon": "impedit",
-    "DefaultTicketStatus": 766,
+    "TicketTypeId": 94,
+    "Name": "Deckow, Olson and Fisher",
+    "Rank": 150,
+    "Tooltip": "odio",
+    "Icon": "aliquam",
+    "DefaultTicketStatus": 262,
     "TicketStatuses": [
-      809,
-      551
+      435,
+      433
     ],
-    "DefaultTicketPriority": 866,
+    "DefaultTicketPriority": 905,
     "TicketPriorities": [
-      803,
-      710
+      511,
+      336
     ],
-    "ReplyTemplate": 734,
-    "IsExternalVisible": true,
+    "ReplyTemplate": 923,
+    "IsExternalVisible": false,
     "IsDefault": false,
     "ShowInNew": false,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": true,
     "VisibleForGroups": [
-      153,
-      519
+      116,
+      695
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 204
       }
     }
   }

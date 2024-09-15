@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 944,
-  "Caption": "consequatur",
-  "Description": "Polarised neutral throughput",
-  "ChartName": "Balistreri-Labadie",
-  "ChartId": "ut",
-  "IsDefault": false,
-  "AssociateId": 272,
-  "GroupId": 759,
-  "SelectionId": 568,
-  "Config": "quos",
+  "DashboardTileId": 166,
+  "Caption": "tempore",
+  "Description": "Visionary intangible infrastructure",
+  "ChartName": "Stamm LLC",
+  "ChartId": "velit",
+  "IsDefault": true,
+  "AssociateId": 360,
+  "GroupId": 112,
+  "SelectionId": 76,
+  "Config": "eum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Carroll, McClure and Macejkovic",
-      "Description": "De-engineered attitude-oriented internet solution",
+      "Name": "Greenholt, Schuster and Gerlach",
+      "Description": "Synchronised human-resource task-force",
       "Type": "Boolean",
-      "ListName": "Nienow-Runte",
+      "ListName": "Bailey-Donnelly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "consequatur",
-      "DefaultDataOption": false,
+      "Value": "est",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 318
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 574,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 538
         }
       }
     },
     {
-      "VisibleId": 574,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 538
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Greenholt, Gleichner and Cremin",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "Rank": 918,
+  "Id": 488,
+  "Name": "Hahn Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 74,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "ListType": "at",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Zemlak-Jenkins",
-  "Tooltip": "iure",
+  "Id": 867,
+  "Name": "Murazik, Carroll and Prohaska",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "Rank": 112,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "Rank": 909,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "alias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldLength": 582
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Spinka, Becker and Von",
-    "SaleDate": "2012-07-28T13:28:23.6948543+02:00",
-    "SaleId": 182,
-    "Probability": 364,
-    "Title": "aliquid",
-    "Amount": 12062.766,
-    "Currency": "ipsa",
-    "ProjectName": "Hauck-Williamson",
-    "AssociateFullName": "Mrs. Darrel Aurelie Kuhlman",
-    "Description": "Focused optimal moderator",
+    "ContactName": "Pouros Inc and Sons",
+    "SaleDate": "2003-05-20T04:02:02.28488+02:00",
+    "SaleId": 219,
+    "Probability": 432,
+    "Title": "vitae",
+    "Amount": 21254.788,
+    "Currency": "non",
+    "ProjectName": "Zieme LLC",
+    "AssociateFullName": "Celestine Bradtke",
+    "Description": "Re-engineered executive installation",
     "Status": "Lost",
-    "WeightedAmount": 15641.794,
-    "ProjectId": 559,
-    "EarningPercent": 22821.788,
-    "Earning": 16541.252,
-    "ContactId": 772,
-    "AssociateId": 377,
-    "PersonId": 351,
-    "SaleTypeId": 385,
-    "SaleTypeName": "Kihn LLC",
-    "PersonFullName": "Russel Lehner",
+    "WeightedAmount": 1310.012,
+    "ProjectId": 604,
+    "EarningPercent": 7631.29,
+    "Earning": 28955.025999999998,
+    "ContactId": 810,
+    "AssociateId": 20,
+    "PersonId": 678,
+    "SaleTypeId": 805,
+    "SaleTypeName": "Reynolds LLC",
+    "PersonFullName": "Hugh Schuster",
     "Completed": "Completed",
-    "ActiveErpLinks": 981,
-    "NextDueDate": "1997-11-09T13:28:23.6948543+01:00",
-    "Number": "681644",
+    "ActiveErpLinks": 293,
+    "NextDueDate": "2022-04-03T04:02:02.28488+02:00",
+    "Number": "829615",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 954
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 96,
-  "Section": "dolores",
-  "Key": "qui",
-  "Name": "Pacocha-Will",
+  "PrefDescId": 556,
+  "Section": "quidem",
+  "Key": "commodi",
+  "Name": "Windler, Lockman and Lindgren",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced actuating open architecture",
-  "IsBuiltin": false,
-  "TableName": "McLaughlin-Ankunding",
-  "UserDefinedListId": 312,
-  "Rank": 67,
-  "SubGroup": "molestiae",
-  "MinLevel": 477,
-  "MaxValue": 78,
-  "MinValue": 581,
-  "RequiredLicense": "quia",
+  "Description": "Optimized secondary model",
+  "IsBuiltin": true,
+  "TableName": "Leannon-Bauch",
+  "UserDefinedListId": 151,
+  "Rank": 913,
+  "SubGroup": "quam",
+  "MinLevel": 144,
+  "MaxValue": 919,
+  "MinValue": 815,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 938
     }
   }
 }

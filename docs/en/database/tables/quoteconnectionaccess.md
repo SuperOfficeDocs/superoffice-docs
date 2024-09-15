@@ -2,10 +2,10 @@
 uid: table-QuoteConnectionAccess
 title: QuoteConnectionAccess table
 description: Access control for Quote Connections
-generated: true
+so.generated: true
 keywords: database table QuoteConnectionAccess
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # QuoteConnectionAccess Table (27)

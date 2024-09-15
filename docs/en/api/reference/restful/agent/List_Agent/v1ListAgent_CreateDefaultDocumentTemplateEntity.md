@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 884,
-  "Name": "Rolfson-Kovacek",
-  "Tooltip": "perferendis",
-  "SaveInDb": 419,
-  "Filename": "sapiente",
-  "DefaultOref": "ipsam",
+  "DocumentTemplateId": 828,
+  "Name": "Daniel LLC",
+  "Tooltip": "ut",
+  "SaveInDb": 258,
+  "Filename": "nisi",
+  "DefaultOref": "dolorum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 713,
-  "IntentId": 849,
+  "AutoeventId": 159,
+  "IntentId": 777,
   "IsDefaultPublished": false,
-  "Rank": 669,
-  "LoadTemplateFromPlugin": 813,
-  "MimeType": "accusamus",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 138,
+  "Rank": 218,
+  "LoadTemplateFromPlugin": 443,
+  "MimeType": "voluptatem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 89,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elza_emmerich@croninrunolfsson.info",
+  "EmailSubject": "cheyanne@schmitt.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jackie@gleichnerkohler.biz",
+  "SenderEmailAddress": "louvenia@croninheidenreich.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 210
     }
   }
 }

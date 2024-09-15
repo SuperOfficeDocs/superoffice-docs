@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 237
+  "ChatSessionId": 458
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 282,
-  "TopicId": 157,
+  "ChatSessionId": 385,
+  "TopicId": 667,
   "User": null,
   "Person": null,
   "CustomerAlias": "nihil",
-  "CustomerHost": "optio",
-  "CustomerName": "Kub-Kozey",
-  "CustomerEmail": "angela@schuppe.co.uk",
-  "CustomerPhone": "(758)578-6305 x6360",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Jerde-Torp",
+  "CustomerHost": "sed",
+  "CustomerName": "Rutherford Inc and Sons",
+  "CustomerEmail": "janie_lueilwitz@quigleystoltenberg.name",
+  "CustomerPhone": "535.890.4037 x071",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Homenick Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "nam",
-  "WhenRequested": "2011-06-27T13:28:21.9918508+02:00",
-  "WhenStarted": "1998-12-11T13:28:21.9918508+01:00",
-  "WhenEnded": "1998-12-10T13:28:21.9918508+01:00",
-  "WhenIdle": "2014-07-09T13:28:21.9918508+02:00",
-  "WhenFetched": "2007-02-10T13:28:21.9918508+01:00",
-  "SessionKey": "molestiae",
-  "InitialQueuePos": 365,
-  "AlertLevel": 721,
-  "Rank": 639,
+  "FirstMessage": "esse",
+  "LastMessage": "et",
+  "WhenRequested": "2023-09-01T04:02:01.3780242+02:00",
+  "WhenStarted": "2021-05-21T04:02:01.3780242+02:00",
+  "WhenEnded": "1998-09-14T04:02:01.3780242+02:00",
+  "WhenIdle": "2013-04-03T04:02:01.3780242+02:00",
+  "WhenFetched": "1998-10-26T04:02:01.3780242+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 745,
+  "AlertLevel": 412,
+  "Rank": 651,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 729,
+  "Rating": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

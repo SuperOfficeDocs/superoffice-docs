@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 496,
-  "ModuleOwner": "minima",
+  "AssociateId": 337,
+  "ModuleOwner": "debitis",
   "ModuleLicenseNames": [
-    "Dooley-Friesen",
-    "Kuphal-Olson"
+    "Swift Group",
+    "West Inc and Sons"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 841,
-    "Tooltip": "totam",
+    "Total": 665,
+    "Tooltip": "ullam",
     "CanAssign": false,
-    "Free": 506,
-    "InUse": 642,
+    "Free": 532,
+    "InUse": 805,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 858,
-    "Name": "Luettgen Inc and Sons",
-    "Description": "Seamless cohesive portal",
-    "PrerequisiteModuleName": "Hodkiewicz Group",
-    "SortOrder": 117,
-    "ExtraFlags": 596,
+    "ModuleLicenseId": 740,
+    "Name": "Beer, Lind and Murazik",
+    "Description": "Reactive holistic moderator",
+    "PrerequisiteModuleName": "Watsica-Rohan",
+    "SortOrder": 558,
+    "ExtraFlags": 911,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 971
       }
     }
   }

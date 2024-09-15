@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Bosco Group",
-  "UserName": "Hessel-Kub",
-  "Password": "voluptatem",
-  "Folder": "labore",
+  "ServerName": "Kuphal Inc and Sons",
+  "UserName": "Senger Group",
+  "Password": "eaque",
+  "Folder": "sed",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldLength": 66
     }
   }
 }

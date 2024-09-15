@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 540
+  "PersonId": 984
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 611,
-  "Name": "Denesik Group",
-  "PersonId": 220,
-  "Rank": 757,
-  "Tooltip": "error",
+  "AssociateId": 1001,
+  "Name": "Schuster Inc and Sons",
+  "PersonId": 243,
+  "Rank": 127,
+  "Tooltip": "rerum",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 569,
-  "FullName": "Prof. Jerod Justus Wiegand",
-  "FormalName": "Schneider LLC",
+  "GroupIdx": 41,
+  "FullName": "Dayton Rau",
+  "FormalName": "Hodkiewicz-Schultz",
   "Deleted": true,
-  "EjUserId": 155,
-  "UserName": "Orn-Fritsch",
+  "EjUserId": 935,
+  "UserName": "Paucek Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

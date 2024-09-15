@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 592,
-    "Section": "neque",
-    "Key": "voluptas",
-    "Name": "Gibson Group",
+    "PrefDescId": 772,
+    "Section": "voluptatem",
+    "Key": "qui",
+    "Name": "Huel-Leuschke",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Up-sized stable initiative",
+    "Description": "Pre-emptive full-range synergy",
     "IsBuiltin": false,
-    "TableName": "Roob-Howell",
-    "UserDefinedListId": 351,
-    "Rank": 54,
-    "SubGroup": "distinctio",
-    "MinLevel": 930,
-    "MaxValue": 558,
-    "MinValue": 45,
-    "RequiredLicense": "porro",
+    "TableName": "Hackett LLC",
+    "UserDefinedListId": 199,
+    "Rank": 244,
+    "SubGroup": "nihil",
+    "MinLevel": 492,
+    "MaxValue": 846,
+    "MinValue": 483,
+    "RequiredLicense": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 150
       }
     }
   }

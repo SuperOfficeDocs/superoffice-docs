@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "tempore",
+  "FieldLabel": "qui",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 549,
-  "ColumnId": 536,
-  "FieldDefault": "rerum",
-  "FieldHeight": 718,
-  "FieldLabel": "est",
-  "FieldLeft": 196,
-  "FieldTop": 69,
+  "UDefFieldId": 146,
+  "ColumnId": 724,
+  "FieldDefault": "repellat",
+  "FieldHeight": 432,
+  "FieldLabel": "molestiae",
+  "FieldLeft": 608,
+  "FieldTop": 111,
   "FieldType": "Checkbox",
-  "FieldWidth": 614,
-  "FormatMask": "corporis",
+  "FieldWidth": 425,
+  "FormatMask": "sed",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 49,
-  "LabelLeft": 949,
-  "LabelTop": 66,
-  "LabelWidth": 622,
-  "LastVersionId": 93,
-  "ListTableId": 35,
-  "IsMandatory": true,
+  "LabelHeight": 515,
+  "LabelLeft": 956,
+  "LabelTop": 639,
+  "LabelWidth": 263,
+  "LastVersionId": 62,
+  "ListTableId": 184,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 648,
-  "ProgId": "quia",
-  "IsReadOnly": true,
-  "ShortLabel": "incidunt",
-  "TabOrder": 369,
-  "TextLength": 232,
-  "Tooltip": "velit",
-  "UdefIdentity": 581,
-  "UDListDefinitionId": 524,
+  "Page1LineNo": 682,
+  "ProgId": "perferendis",
+  "IsReadOnly": false,
+  "ShortLabel": "quis",
+  "TabOrder": 532,
+  "TextLength": 743,
+  "Tooltip": "est",
+  "UdefIdentity": 263,
+  "UDListDefinitionId": 61,
   "Justification": "Center",
-  "Version": 536,
-  "TemplateVariableName": "King, Kohler and Keeling",
-  "HasBeenPublished": true,
-  "MdoListName": "Wintheiser, Kemmer and Welch",
+  "Version": 771,
+  "TemplateVariableName": "Satterfield, Marks and McDermott",
+  "HasBeenPublished": false,
+  "MdoListName": "Murazik-Simonis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 674
     }
   }
 }

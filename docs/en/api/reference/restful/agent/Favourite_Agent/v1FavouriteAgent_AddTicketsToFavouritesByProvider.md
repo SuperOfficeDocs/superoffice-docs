@@ -71,32 +71,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Carter LLC",
+  "ProviderName": "Ruecker, Swift and Lang",
   "Restrictions": [
     {
-      "Name": "Wunsch Group",
-      "Operator": "fugiat",
+      "Name": "Hyatt Inc and Sons",
+      "Operator": "voluptatem",
       "Values": [
-        "sed",
-        "cumque"
+        "quasi",
+        "cupiditate"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "iure"
+        "quas",
+        "impedit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 206,
+      "InterParenthesis": 539,
       "InterOperator": "And",
-      "UniqueHash": 595
+      "UniqueHash": 120
     }
   ],
-  "AssociateId": 493,
-  "ExtraInfo": "amet"
+  "AssociateId": 821,
+  "ExtraInfo": "assumenda"
 }
 ```
 

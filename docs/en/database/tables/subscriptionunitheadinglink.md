@@ -2,10 +2,10 @@
 uid: table-SubscriptionUnitHeadingLink
 title: SubscriptionUnitHeadingLink table
 description: Heading link table for SubscriptionUnit, for MDO item headings
-generated: true
+so.generated: true
 keywords: database table SubscriptionUnitHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SubscriptionUnitHeadingLink Table (444)

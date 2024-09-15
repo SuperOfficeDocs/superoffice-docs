@@ -2,10 +2,10 @@
 uid: table-ResourceOverride
 title: ResourceOverride table
 description: Generic mechanism for overriding (or even defining new) text resources, in multiple languages
-generated: true
+so.generated: true
 keywords: database table ResourceOverride
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ResourceOverride Table (448)

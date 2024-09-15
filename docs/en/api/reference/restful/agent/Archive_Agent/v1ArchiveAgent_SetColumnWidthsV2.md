@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rice, Kirlin and O'Conner",
-  "ProviderName": "Weissnat-Will",
-  "Context": "dolores",
-  "OwnerKeys": "sunt",
+  "GuiName": "Torp LLC",
+  "ProviderName": "Larson-Jerde",
+  "Context": "aperiam",
+  "OwnerKeys": "non",
   "ColumnWidths": [
-    "quam",
-    "aperiam"
+    "ab",
+    "commodi"
   ]
 }
 ```

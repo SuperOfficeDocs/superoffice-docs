@@ -27,7 +27,7 @@ Calls the User agent service GetAllUserGroup.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/UserGroup/Items?includeDeleted=False
+GET /api/v1/List/UserGroup/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quo",
-    "Tooltip": "velit",
-    "Id": 330,
-    "Rank": 404,
-    "Deleted": true,
+    "Value": "laborum",
+    "Tooltip": "eos",
+    "Id": 634,
+    "Rank": 234,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 918
       }
     }
   }

@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Feeney-Spinka",
-      "DisplayName": "Cummerata LLC",
-      "DisplayTooltip": "sit",
+      "Name": "Bartoletti-Rutherford",
+      "DisplayName": "Pagac, Von and Fahey",
+      "DisplayTooltip": "quia",
       "IsActive": false
     },
     {
-      "Name": "Feeney-Spinka",
-      "DisplayName": "Cummerata LLC",
-      "DisplayTooltip": "sit",
+      "Name": "Bartoletti-Rutherford",
+      "DisplayName": "Pagac, Von and Fahey",
+      "DisplayTooltip": "quia",
       "IsActive": false
     }
   ]

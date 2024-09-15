@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 881,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "aperiam",
-  "SmsMessage": "soluta",
-  "Description": "Robust exuding knowledge user",
-  "Subject": "porro",
-  "FolderId": 570,
-  "HeaderField": "nostrum",
-  "Design": "asperiores",
+  "ShipmentMessageId": 908,
+  "PlainMessage": "at",
+  "HtmlMessage": "ea",
+  "SmsMessage": "et",
+  "Description": "Centralized content-based collaboration",
+  "Subject": "est",
+  "FolderId": 266,
+  "HeaderField": "a",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Open-architected foreground conglomeration",
-  "AccessKey": "distinctio",
-  "DocumentMessage": 916,
-  "Registered": "2011-11-05T13:28:23.038756+01:00",
-  "RegisteredAssociateId": 463,
-  "Updated": "2004-07-30T13:28:23.038756+02:00",
-  "UpdatedAssociateId": 201,
-  "UpdatedCount": 191,
+  "LongDescription": "Cross-platform logistical paradigm",
+  "AccessKey": "qui",
+  "DocumentMessage": 666,
+  "Registered": "2003-01-09T04:02:01.8941042+01:00",
+  "RegisteredAssociateId": 916,
+  "Updated": "2017-09-27T04:02:01.8941042+02:00",
+  "UpdatedAssociateId": 615,
+  "UpdatedCount": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 916
     }
   }
 }

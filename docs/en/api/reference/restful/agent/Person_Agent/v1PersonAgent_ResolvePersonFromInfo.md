@@ -83,15 +83,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 979,
-  "PersonName": "Blick, Pouros and Nienow",
+  "ContactId": 418,
+  "PersonName": "Glover LLC",
   "PhoneNumbers": [
-    "739515",
-    "1626786"
+    "693168",
+    "1135533"
   ],
   "Emails": [
-    "vicente_kiehn@manteswaniawski.name",
-    "winona_stanton@schowalter.us"
+    "ed_gaylord@abshire.name",
+    "asha_monahan@wehner.ca"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

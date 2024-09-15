@@ -2,10 +2,10 @@
 uid: table-chat_topic
 title: chat_topic table
 description: This table contains chat topics.
-generated: true
+so.generated: true
 keywords: database table chat_topic
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # chat\_topic Table (330)

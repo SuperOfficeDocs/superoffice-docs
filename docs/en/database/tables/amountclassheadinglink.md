@@ -2,10 +2,10 @@
 uid: table-AmountClassHeadingLink
 title: AmountClassHeadingLink table
 description: Heading link table for AmountClass, for MDO headers
-generated: true
+so.generated: true
 keywords: database table AmountClassHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AmountClassHeadingLink Table (227)

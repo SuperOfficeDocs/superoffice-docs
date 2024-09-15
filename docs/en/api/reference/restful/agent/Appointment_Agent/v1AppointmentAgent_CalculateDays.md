@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 987,
-  "StartDate": "2000-08-06T13:28:21.6169386+02:00",
-  "EndDate": "2012-11-15T13:28:21.6169386+01:00",
-  "RecurrenceCounter": 494,
+  "RecurrenceId": 615,
+  "StartDate": "2013-07-17T04:02:01.096304+02:00",
+  "EndDate": "2020-04-02T04:02:01.096304+02:00",
+  "RecurrenceCounter": 223,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2022-02-24T13:28:21.6169386+01:00",
+      "Date": "2006-04-03T04:02:01.096304+02:00",
       "IsConflict": false,
-      "Description": "Exclusive upward-trending definition",
-      "DescriptionStyleHint": "Adaptive real-time model",
-      "Tooltip": "sed"
+      "Description": "Polarised real-time projection",
+      "DescriptionStyleHint": "Expanded tertiary open architecture",
+      "Tooltip": "reprehenderit"
     },
     {
-      "Date": "2022-02-24T13:28:21.6169386+01:00",
+      "Date": "2006-04-03T04:02:01.096304+02:00",
       "IsConflict": false,
-      "Description": "Exclusive upward-trending definition",
-      "DescriptionStyleHint": "Adaptive real-time model",
-      "Tooltip": "sed"
+      "Description": "Polarised real-time projection",
+      "DescriptionStyleHint": "Expanded tertiary open architecture",
+      "Tooltip": "reprehenderit"
     }
   ],
   "IsRecurrence": false

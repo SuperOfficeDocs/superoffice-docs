@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Upton-Pagac",
-  "DeviceName": "Koch LLC"
+  "ApplicationName": "Langworth LLC",
+  "DeviceName": "Veum-Braun"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 298,
-  "Name": "Lehner, Haag and Johns",
-  "CreatedDate": "2020-08-21T13:28:22.8510314+02:00",
-  "UpdatedDate": "2008-03-19T13:28:22.8510314+01:00",
-  "AssociateFullName": "Kenneth Maggio Jr.",
-  "CreatedBy": "delectus",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "iure",
-  "ForeignAppId": 19,
+  "ForeignDeviceId": 750,
+  "Name": "Cormier-Wisozk",
+  "CreatedDate": "1999-12-26T04:02:01.7888547+01:00",
+  "UpdatedDate": "2006-01-14T04:02:01.7888547+01:00",
+  "AssociateFullName": "Libby Kris",
+  "CreatedBy": "molestias",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "veritatis",
+  "ForeignAppId": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 223
     }
   }
 }

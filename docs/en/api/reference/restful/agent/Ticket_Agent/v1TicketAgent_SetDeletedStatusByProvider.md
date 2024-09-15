@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rolfson LLC",
+  "ProviderName": "Hansen LLC",
   "Restrictions": [
     {
-      "Name": "Dickinson, McCullough and Maggio",
-      "Operator": "tempora",
+      "Name": "Dooley LLC",
+      "Operator": "minus",
       "Values": [
-        "eligendi",
-        "alias"
+        "vero",
+        "error"
       ],
       "DisplayValues": [
-        "deserunt",
-        "qui"
+        "aut",
+        "consectetur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 298,
+      "InterParenthesis": 995,
       "InterOperator": "And",
-      "UniqueHash": 260
+      "UniqueHash": 481
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  805,
-  590
+  294,
+  189
 ]
 ```

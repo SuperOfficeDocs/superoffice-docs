@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 75,
-  "Name": "Doyle, Murphy and Rippin",
-  "Tooltip": "sed",
-  "Rank": 649,
+  "ProjTypeId": 44,
+  "Name": "Stoltenberg, Mante and Kuphal",
+  "Tooltip": "aspernatur",
+  "Rank": 887,
   "DurationUnit": "Century",
-  "ProjectDuration": 683,
+  "ProjectDuration": 21,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 894,
-      "Name": "Sauer-Marks",
-      "ToolTip": "Voluptas repudiandae odio odit.",
-      "Deleted": false,
-      "Rank": 328,
-      "Type": "nesciunt",
-      "ColorBlock": 49,
-      "IconHint": "earum",
-      "Selected": true,
-      "LastChanged": "2017-07-25T13:28:23.007483+02:00",
+      "Id": 288,
+      "Name": "Bednar-Schamberger",
+      "ToolTip": "Itaque magnam reiciendis qui quo voluptas aspernatur ducimus.",
+      "Deleted": true,
+      "Rank": 892,
+      "Type": "sed",
+      "ColorBlock": 710,
+      "IconHint": "quibusdam",
+      "Selected": false,
+      "LastChanged": "2000-08-26T04:02:01.8784808+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "qui",
-      "Hidden": true,
-      "FullName": "Walter Keebler Sr."
+      "ExtraInfo": "beatae",
+      "StyleHint": "quas",
+      "Hidden": false,
+      "FullName": "Kaylah Goyette"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 837,
-  "Name": "Stanton Inc and Sons",
-  "Tooltip": "debitis",
-  "Rank": 157,
+  "ProjTypeId": 37,
+  "Name": "Zieme LLC",
+  "Tooltip": "eligendi",
+  "Rank": 344,
   "DurationUnit": "Century",
-  "ProjectDuration": 365,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 818,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 660,
-      "Name": "Upton, Goodwin and Feeney",
-      "ToolTip": "Incidunt omnis voluptatem.",
-      "Deleted": true,
-      "Rank": 954,
-      "Type": "fugit",
-      "ColorBlock": 206,
-      "IconHint": "commodi",
-      "Selected": true,
-      "LastChanged": "2005-10-04T13:28:23.0231319+02:00",
+      "Id": 910,
+      "Name": "Runte Inc and Sons",
+      "ToolTip": "Eum in sed saepe.",
+      "Deleted": false,
+      "Rank": 113,
+      "Type": "quis",
+      "ColorBlock": 939,
+      "IconHint": "consequuntur",
+      "Selected": false,
+      "LastChanged": "2013-01-27T04:02:01.8784808+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "quis",
-      "Hidden": false,
-      "FullName": "Alaina Kihn",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "nobis",
+      "Hidden": true,
+      "FullName": "Miss Hershel Aliya Schiller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 400
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   }
 }

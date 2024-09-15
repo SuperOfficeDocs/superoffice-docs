@@ -2,10 +2,10 @@
 uid: table-s_message
 title: s_message table
 description: A message used in a shipment. Can be html and/or plain text
-generated: true
+so.generated: true
 keywords: database table s_message
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # s\_message Table (335)

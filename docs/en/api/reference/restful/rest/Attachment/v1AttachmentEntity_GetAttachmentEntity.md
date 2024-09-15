@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 197,
-  "Name": "Smitham, Schneider and Aufderhar",
-  "ContentType": "reiciendis",
-  "AttSize": 212,
+  "AttachmentId": 359,
+  "Name": "Cole, Crist and Grimes",
+  "ContentType": "natus",
+  "AttSize": 942,
   "InlineImage": false,
-  "ContentId": "maxime",
-  "AuthKey": "nobis",
+  "ContentId": "magnam",
+  "AuthKey": "enim",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 393
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

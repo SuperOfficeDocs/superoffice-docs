@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=673
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=454
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 791,
-  "Name": "Oberbrunner, Langworth and Ankunding",
-  "Description": "Cross-group heuristic emulation",
-  "DefaultHeight": 730,
-  "DefaultWidth": 40,
+  "DashboardTileDefinitionId": 828,
+  "Name": "Howe LLC",
+  "Description": "Synchronised regional system engine",
+  "DefaultHeight": 774,
+  "DefaultWidth": 8,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Fisher, Mraz and Casper",
-  "SelectionId": 261,
+  "EntityName": "Dibbert Inc and Sons",
+  "SelectionId": 256,
   "CurrencyMode": "Base",
-  "CurrencyCode": "officiis",
+  "CurrencyCode": "non",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "veniam",
-  "LayoutConfig": "rerum",
-  "SecondarySelectionId": 448,
-  "MeasureByField": "dolor",
+  "MeasureField": "quia",
+  "SortBy": "voluptas",
+  "LayoutConfig": "vel",
+  "SecondarySelectionId": 137,
+  "MeasureByField": "temporibus",
   "Usage": "Dashboard",
-  "ProviderName": "Haley, Muller and Bednar",
+  "ProviderName": "O'Conner, Medhurst and Auer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 11
     }
   }
 }

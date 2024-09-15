@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 777,
-    "ErpConnectorId": 951,
-    "DisplayName": "Weber, Hudson and Sanford",
-    "DisplayDescription": "Synergized leading edge Graphical User Interface",
-    "Active": true,
-    "ConnectionId": "omnis",
-    "MostRecentTimestamp": "facere",
+    "ErpConnectionId": 31,
+    "ErpConnectorId": 971,
+    "DisplayName": "Pfannerstill, Hilpert and Schuppe",
+    "DisplayDescription": "Assimilated reciprocal methodology",
+    "Active": false,
+    "ConnectionId": "nulla",
+    "MostRecentTimestamp": "sed",
     "ConfigFields": {
-      "ConfigFields1": "saepe",
-      "ConfigFields2": "dolore"
+      "ConfigFields1": "dicta",
+      "ConfigFields2": "tempora"
     },
-    "Deleted": true,
-    "AllAccess": false,
+    "Deleted": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      982,
-      166
+      139,
+      960
     ],
     "AssociateAccessIds": [
-      921,
-      155
+      158,
+      714
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

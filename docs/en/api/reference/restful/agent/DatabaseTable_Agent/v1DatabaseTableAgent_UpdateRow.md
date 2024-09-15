@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kozey-Lebsack",
-  "Id": 625,
+  "TableName": "Blanda, McDermott and Dickinson",
+  "Id": 911,
   "Values": {
-    "Values1": "suscipit",
-    "Values2": "quisquam"
+    "Values1": "sed",
+    "Values2": "ipsum"
   }
 }
 ```

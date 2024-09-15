@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 762
+  "QuoteId": 533
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 187,
-  "SaleId": 523,
-  "QuoteConnectionId": 293,
-  "ERPQuoteKey": "eligendi",
-  "ERPOrderKey": "hic",
-  "ActiveQuoteVersionId": 146,
-  "AcceptedQuoteAlternativeId": 834,
-  "UseValuesFromQuote": 608,
-  "DocumentId": 746,
-  "PoNumber": "592791",
-  "OrderComment": "ipsum",
-  "PreferredEmailCulture": "arnold@turcotte.us",
+  "QuoteId": 767,
+  "SaleId": 243,
+  "QuoteConnectionId": 524,
+  "ERPQuoteKey": "qui",
+  "ERPOrderKey": "nesciunt",
+  "ActiveQuoteVersionId": 260,
+  "AcceptedQuoteAlternativeId": 748,
+  "UseValuesFromQuote": 978,
+  "DocumentId": 212,
+  "PoNumber": "1235500",
+  "OrderComment": "aliquid",
+  "PreferredEmailCulture": "darrion.effertz@lebsack.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

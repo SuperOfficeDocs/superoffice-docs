@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 525,
-  "Name": "Raynor, Greenfelder and Breitenberg",
-  "Rank": 583,
-  "Tooltip": "quisquam",
-  "Icon": "ut",
-  "DefaultTicketStatus": 27,
+  "TicketTypeId": 197,
+  "Name": "Berge, Ziemann and Windler",
+  "Rank": 657,
+  "Tooltip": "rem",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 550,
   "TicketStatuses": [
-    407,
-    425
+    831,
+    586
   ],
-  "DefaultTicketPriority": 612,
+  "DefaultTicketPriority": 119,
   "TicketPriorities": [
-    514,
-    81
+    900,
+    385
   ],
-  "ReplyTemplate": 747,
-  "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ReplyTemplate": 818,
+  "IsExternalVisible": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    239,
-    462
+    230,
+    521
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 172
     }
   },
   "_Links": {

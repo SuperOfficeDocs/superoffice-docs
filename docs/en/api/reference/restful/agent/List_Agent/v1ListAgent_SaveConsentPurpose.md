@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 181,
-  "Name": "Smith-Marks",
-  "ConsentText": "ducimus",
-  "FormText": "enim",
-  "Key": "ut",
-  "Tooltip": "a",
-  "Active": 858,
-  "UpdatedDate": "2014-01-25T13:28:23.038756+01:00",
+  "ConsentPurposeId": 468,
+  "Name": "Rosenbaum, Balistreri and Lindgren",
+  "ConsentText": "et",
+  "FormText": "doloribus",
+  "Key": "odio",
+  "Tooltip": "aut",
+  "Active": 491,
+  "UpdatedDate": "2024-01-24T04:02:01.8941042+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 355,
-  "PrivacyStatementDesc": "molestiae",
+  "Deleted": true,
+  "Rank": 697,
+  "PrivacyStatementDesc": "dolores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-PersIntGroupLink
 title: PersIntGroupLink table
 description: User group link table for PersInt, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table PersIntGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PersIntGroupLink Table (74)

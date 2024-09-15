@@ -2,10 +2,10 @@
 uid: table-kb_solution_finder
 title: kb_solution_finder table
 description: Knowledge base problem solving wizard, categories and subcategories for drilling down
-generated: true
+so.generated: true
 keywords: database table kb_solution_finder
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # kb\_solution\_finder Table (294)

@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 900,
-    "Comment": "non",
-    "Registered": "2013-02-28T13:28:31.8042094+01:00",
-    "RegisteredAssociateId": 652,
-    "Updated": "2013-09-22T13:28:31.8042094+02:00",
-    "UpdatedAssociateId": 989,
-    "LegalBaseId": 283,
-    "LegalBaseKey": "voluptates",
-    "LegalBaseName": "Hudson Group",
-    "ConsentPurposeId": 616,
-    "ConsentPurposeKey": "eveniet",
-    "ConsentPurposeName": "Greenfelder, Hickle and Tremblay",
-    "ConsentSourceId": 855,
-    "ConsentSourceKey": "qui",
-    "ConsentSourceName": "Langworth-Rodriguez",
+    "ConsentPersonId": 711,
+    "Comment": "quia",
+    "Registered": "2006-11-27T04:02:06.6816417+01:00",
+    "RegisteredAssociateId": 181,
+    "Updated": "2017-10-06T04:02:06.6816417+02:00",
+    "UpdatedAssociateId": 301,
+    "LegalBaseId": 295,
+    "LegalBaseKey": "quaerat",
+    "LegalBaseName": "Beer-Hartmann",
+    "ConsentPurposeId": 258,
+    "ConsentPurposeKey": "nemo",
+    "ConsentPurposeName": "Gutkowski, Schultz and Osinski",
+    "ConsentSourceId": 7,
+    "ConsentSourceKey": "repellendus",
+    "ConsentSourceName": "Muller, Ledner and Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 966
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 230,
-  "ERPProductKey": "quisquam",
-  "ERPPriceListKey": "placeat",
-  "Name": "Farrell Inc and Sons",
-  "Description": "Future-proofed context-sensitive leverage",
-  "Code": "modi",
-  "PriceUnit": "vel",
-  "QuantityUnit": "saepe",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nesciunt",
-  "DefaultSubscriptionQuantity": 21580.724,
-  "ItemNumber": "165088",
+  "ProductId": 808,
+  "ERPProductKey": "quis",
+  "ERPPriceListKey": "maxime",
+  "Name": "Koelpin-Vandervort",
+  "Description": "User-centric multi-tasking hierarchy",
+  "Code": "velit",
+  "PriceUnit": "ipsa",
+  "QuantityUnit": "assumenda",
+  "IsSubscription": true,
+  "SubscriptionUnit": "tenetur",
+  "DefaultSubscriptionQuantity": 20186.094,
+  "ItemNumber": "1122904",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laborum",
-  "ProductTypeKey": "suscipit",
-  "VAT": 26378.878,
-  "VATInfo": "iste",
-  "UnitCost": 9593.1739999999991,
-  "UnitMinimumPrice": 29465.868,
-  "UnitListPrice": 14030.918,
+  "ProductFamilyKey": "minus",
+  "ProductTypeKey": "cumque",
+  "VAT": 8699.984,
+  "VATInfo": "similique",
+  "UnitCost": 19161.275999999998,
+  "UnitMinimumPrice": 9991.192,
+  "UnitListPrice": 25629.852,
   "InAssortment": true,
-  "Supplier": "fugit",
-  "SupplierCode": "eos",
-  "Rights": "quia",
-  "Rule": "iure",
+  "Supplier": "voluptatem",
+  "SupplierCode": "voluptatem",
+  "Rights": "sunt",
+  "Rule": "vitae",
   "ExtraInfo": [
     {
-      "Name": "Kutch, Blanda and Considine",
-      "Value": "unde",
+      "Name": "Zieme, Mitchell and Oberbrunner",
+      "Value": "autem",
       "Type": "Image"
     },
     {
-      "Name": "Kutch, Blanda and Considine",
-      "Value": "unde",
+      "Name": "Zieme, Mitchell and Oberbrunner",
+      "Value": "autem",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "unde",
-  "ExtraField1": "enim",
-  "ExtraField2": "eum",
-  "ExtraField3": "consequuntur",
-  "ExtraField4": "itaque",
-  "ExtraField5": "tenetur",
-  "InStock": 1595.206
+  "RawExtraInfo": "repudiandae",
+  "ExtraField1": "aut",
+  "ExtraField2": "non",
+  "ExtraField3": "deleniti",
+  "ExtraField4": "id",
+  "ExtraField5": "placeat",
+  "InStock": 12749.112
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 774,
-  "ERPProductKey": "minus",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Treutel, Farrell and Barrows",
-  "Description": "Multi-layered systematic archive",
-  "Code": "pariatur",
-  "PriceUnit": "quaerat",
-  "QuantityUnit": "minima",
+  "ProductId": 575,
+  "ERPProductKey": "iusto",
+  "ERPPriceListKey": "beatae",
+  "Name": "Mohr-Kuhic",
+  "Description": "Cross-platform 24/7 adapter",
+  "Code": "et",
+  "PriceUnit": "odit",
+  "QuantityUnit": "dolorum",
   "IsSubscription": false,
-  "SubscriptionUnit": "incidunt",
-  "DefaultSubscriptionQuantity": 11743.098,
-  "ItemNumber": "473062",
+  "SubscriptionUnit": "quis",
+  "DefaultSubscriptionQuantity": 2347.366,
+  "ItemNumber": "907635",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 8806.5399999999991,
-  "VATInfo": "numquam",
-  "UnitCost": 27776.642,
-  "UnitMinimumPrice": 3582.162,
-  "UnitListPrice": 11573.862,
+  "ProductFamilyKey": "itaque",
+  "ProductTypeKey": "aut",
+  "VAT": 9054.126,
+  "VATInfo": "est",
+  "UnitCost": 16591.396,
+  "UnitMinimumPrice": 8091.9879999999994,
+  "UnitListPrice": 899.458,
   "InAssortment": false,
-  "Supplier": "sed",
-  "SupplierCode": "voluptatum",
-  "Rights": "consectetur",
-  "Rule": "optio",
+  "Supplier": "voluptatem",
+  "SupplierCode": "libero",
+  "Rights": "aut",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Kuhn, Anderson and Metz",
-      "Value": "nulla",
+      "Name": "Jones, Olson and Jakubowski",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 306
         }
       }
     },
     {
-      "Name": "Kuhn, Anderson and Metz",
-      "Value": "nulla",
+      "Name": "Jones, Olson and Jakubowski",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 306
         }
       }
     }
   ],
   "RawExtraInfo": "atque",
-  "ExtraField1": "vel",
-  "ExtraField2": "sunt",
-  "ExtraField3": "numquam",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "odit",
-  "InStock": 17710.234,
+  "ExtraField1": "quia",
+  "ExtraField2": "porro",
+  "ExtraField3": "totam",
+  "ExtraField4": "maiores",
+  "ExtraField5": "sit",
+  "InStock": 16466.036,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 659
     }
   }
 }

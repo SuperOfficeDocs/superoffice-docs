@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Willms Inc and Sons",
-  "DeviceName": "Stokes Group",
-  "DeviceIdentifier": "nobis",
-  "KeyName": "Cole Inc and Sons",
-  "TableName": "Mayer LLC",
-  "RecordId": 901
+  "ApplicationName": "Doyle LLC",
+  "DeviceName": "Quitzon, Roob and Connelly",
+  "DeviceIdentifier": "enim",
+  "KeyName": "Sporer Inc and Sons",
+  "TableName": "Kautzer LLC",
+  "RecordId": 323
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "voluptates",
-  "RecordId": 848,
-  "CreatedDate": "2002-03-22T13:28:22.8510314+01:00",
-  "UpdatedDate": "2002-01-17T13:28:22.8510314+01:00",
-  "UpdatedBy": "asperiores",
-  "CreatedBy": "eius",
-  "TableName": "Hoeger, Lueilwitz and Oberbrunner",
+  "Key": "voluptas",
+  "Value": "qui",
+  "RecordId": 594,
+  "CreatedDate": "2014-09-11T04:02:01.8003604+02:00",
+  "UpdatedDate": "2011-11-07T04:02:01.8003604+01:00",
+  "UpdatedBy": "nemo",
+  "CreatedBy": "placeat",
+  "TableName": "Funk LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 747
     }
   }
 }

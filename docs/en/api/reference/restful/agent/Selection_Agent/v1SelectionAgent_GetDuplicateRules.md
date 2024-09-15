@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Casper-Metz",
-    "DisplayName": "Dicki-Stroman",
-    "DisplayTooltip": "quam",
+    "Name": "Farrell-Waters",
+    "DisplayName": "Streich Inc and Sons",
+    "DisplayTooltip": "quo",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   },
   {
-    "Name": "Casper-Metz",
-    "DisplayName": "Dicki-Stroman",
-    "DisplayTooltip": "quam",
+    "Name": "Farrell-Waters",
+    "DisplayName": "Streich Inc and Sons",
+    "DisplayTooltip": "quo",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   }

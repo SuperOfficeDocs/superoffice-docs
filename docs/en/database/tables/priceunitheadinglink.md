@@ -2,10 +2,10 @@
 uid: table-PriceUnitHeadingLink
 title: PriceUnitHeadingLink table
 description: Heading link table for PriceUnit, for MDO item headings
-generated: true
+so.generated: true
 keywords: database table PriceUnitHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PriceUnitHeadingLink Table (441)

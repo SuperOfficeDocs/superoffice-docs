@@ -2,10 +2,10 @@
 uid: table-ReasonStalledGroupLink
 title: ReasonStalledGroupLink table
 description: Link table for ReasonStalled, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table ReasonStalledGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ReasonStalledGroupLink Table (155)

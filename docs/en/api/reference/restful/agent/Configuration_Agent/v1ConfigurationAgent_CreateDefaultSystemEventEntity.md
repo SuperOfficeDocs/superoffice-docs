@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 572,
+  "SystemEventId": 887,
   "Scope": "Database",
-  "Eta": "2000-03-27T13:28:22.1636887+02:00",
-  "Eventkey": "doloremque",
-  "Eventmess": "vel",
-  "ExtraInfo": 445,
-  "Owner": 732,
-  "UpdatedCount": 966,
-  "Registered": "2014-12-16T13:28:22.1636887+01:00",
+  "Eta": "2013-07-02T04:02:01.4092709+02:00",
+  "Eventkey": "voluptatem",
+  "Eventmess": "necessitatibus",
+  "ExtraInfo": 178,
+  "Owner": 365,
+  "UpdatedCount": 806,
+  "Registered": "2020-11-10T04:02:01.4092709+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

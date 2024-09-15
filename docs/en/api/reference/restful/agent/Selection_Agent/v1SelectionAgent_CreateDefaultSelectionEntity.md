@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face radical attitude",
-  "Postit": "asperiores",
+  "Description": "Universal transitional toolset",
+  "Postit": "saepe",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 202,
-  "IncludePerson": 116,
+  "GroupIdx": 437,
+  "IncludePerson": 528,
   "MemberCount": 99.99,
-  "Name": "Gusikowski, Bosco and Kertzmann",
-  "PostitTextId": 772,
-  "CreatedDate": "2013-10-30T13:28:23.7260971+01:00",
-  "SelectionId": 780,
-  "SoundEx": "nobis",
-  "Source": 487,
-  "TextId": 15,
-  "UpdatedDate": "2023-07-21T13:28:23.7260971+02:00",
-  "UpdatedCount": 670,
-  "Visibility": 62,
+  "Name": "Walter-Dibbert",
+  "PostitTextId": 914,
+  "CreatedDate": "2007-05-17T04:02:02.3005065+02:00",
+  "SelectionId": 625,
+  "SoundEx": "sed",
+  "Source": 949,
+  "TextId": 255,
+  "UpdatedDate": "2014-03-04T04:02:02.3005065+01:00",
+  "UpdatedCount": 236,
+  "Visibility": 546,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 139,
-  "TargetTableName": "Kris-Ankunding",
+  "TargetTableNumber": 695,
+  "TargetTableName": "Baumbach Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 694,
-  "RightSelectionId": 512,
+  "LeftSelectionId": 827,
+  "RightSelectionId": 660,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koch LLC",
-  "ShadowProviderName": "Johnson LLC",
-  "ChartKey": "et",
-  "LastLoaded": "2023-09-20T13:28:23.7260971+02:00",
-  "LastLoadedBy": 230,
+  "MainProviderName": "Bergnaum Group",
+  "ShadowProviderName": "Ortiz-Mosciski",
+  "ChartKey": "optio",
+  "LastLoaded": "2014-06-06T04:02:02.3005065+02:00",
+  "LastLoadedBy": 919,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-01-31T13:28:23.7260971+01:00",
-  "LastMembershipChangeBy": 78,
+  "LastMembershipChange": "2019-04-11T04:02:02.3005065+02:00",
+  "LastMembershipChangeBy": 966,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iusto",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Stehr, Waters and Pagac",
-  "DashboardTileDefinitionId": 852,
+  "MainHeading": "asperiores",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Quigley Inc and Sons",
+  "DashboardTileDefinitionId": 937,
   "VisibleFor": [
     {
-      "VisibleId": 17,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     },
     {
-      "VisibleId": 17,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

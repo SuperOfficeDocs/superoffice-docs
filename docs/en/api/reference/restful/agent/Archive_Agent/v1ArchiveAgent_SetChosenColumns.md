@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mayer, Willms and Hagenes",
-  "ProviderName": "Shanahan Group",
+  "GuiName": "Bernier-Koch",
+  "ProviderName": "Bechtelar, Brown and Hickle",
   "ChosenColumns": [
-    "rerum",
-    "optio"
+    "ut",
+    "doloribus"
   ]
 }
 ```

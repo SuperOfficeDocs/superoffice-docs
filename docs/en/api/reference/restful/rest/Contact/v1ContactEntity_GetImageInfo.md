@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 Jul 2016 13:28:31 G7T
+Last-Modified: Mon, 11 Sep 2017 04:02:06 G9T
 
 {
-  "BlobId": 936,
-  "BlobSize": 682,
-  "Description": "Programmable 5th generation structure",
-  "ExtraInfo": "quis",
+  "BlobId": 820,
+  "BlobSize": 22,
+  "Description": "Universal uniform flexibility",
+  "ExtraInfo": "modi",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "ipsa",
-  "OriginalSize": 414,
-  "CreatedDate": "2007-10-01T13:28:31.3980564+02:00",
-  "UpdatedDate": "2016-07-08T13:28:31.3980564+02:00",
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 880,
+  "CreatedDate": "1999-03-27T04:02:06.3686697+01:00",
+  "UpdatedDate": "2017-09-11T04:02:06.3686697+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deserunt",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 291
     }
   }
 }

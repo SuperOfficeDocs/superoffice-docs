@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "Name": "Ondricka Group",
-  "Tooltip": "excepturi",
+  "Id": 168,
+  "Name": "Turcotte, Sipes and Quigley",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 152,
-  "Rank": 881
+  "UdListDefinitionId": 353,
+  "Rank": 66
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Armstrong-Kshlerin",
-  "Tooltip": "et",
+  "Id": 99,
+  "Name": "Effertz, McKenzie and Reilly",
+  "Tooltip": "officia",
   "Deleted": false,
-  "UdListDefinitionId": 381,
-  "Rank": 413,
+  "UdListDefinitionId": 408,
+  "Rank": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 999
     }
   }
 }

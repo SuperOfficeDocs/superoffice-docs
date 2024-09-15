@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequatur",
-  "Value": "est",
-  "RecordId": 846,
-  "CreatedDate": "2011-07-20T13:28:31.6948645+02:00",
-  "UpdatedDate": "2003-04-04T13:28:31.6948645+02:00",
-  "UpdatedBy": "officiis",
-  "CreatedBy": "cupiditate",
-  "TableName": "Douglas-Price"
+  "Key": "rem",
+  "Value": "voluptas",
+  "RecordId": 861,
+  "CreatedDate": "2004-10-20T04:02:06.6191478+02:00",
+  "UpdatedDate": "2006-06-06T04:02:06.6191478+02:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "deserunt",
+  "TableName": "Walsh LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vel",
-  "Value": "omnis",
-  "RecordId": 747,
-  "CreatedDate": "2011-07-13T13:28:31.6948645+02:00",
-  "UpdatedDate": "2011-11-17T13:28:31.6948645+01:00",
-  "UpdatedBy": "maiores",
-  "CreatedBy": "molestiae",
-  "TableName": "Casper Inc and Sons",
+  "Key": "ea",
+  "Value": "ratione",
+  "RecordId": 422,
+  "CreatedDate": "2006-03-11T04:02:06.6191478+01:00",
+  "UpdatedDate": "2005-01-28T04:02:06.6191478+01:00",
+  "UpdatedBy": "id",
+  "CreatedBy": "aut",
+  "TableName": "Mayer, Schinner and Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldLength": 73
     }
   }
 }

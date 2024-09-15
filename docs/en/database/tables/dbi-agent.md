@@ -2,10 +2,10 @@
 uid: table-dbi_agent
 title: dbi_agent table
 description: DBI agent settings
-generated: true
+so.generated: true
 keywords: database table dbi_agent
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # dbi\_agent Table (381)

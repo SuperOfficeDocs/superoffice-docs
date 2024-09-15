@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Brakus Inc and Sons",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "UdListDefinitionId": 813,
-  "Rank": 194,
+  "Id": 847,
+  "Name": "Welch-Auer",
+  "Tooltip": "dolore",
+  "Deleted": false,
+  "UdListDefinitionId": 994,
+  "Rank": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

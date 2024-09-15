@@ -95,14 +95,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kautzer, Effertz and Dicki",
+  "Name": "Schaefer Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "et",
+  "AdditionalInfo": "non",
   "HistoryItems": [
-    355,
-    170
+    23,
+    476
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Johns Group",
-    "ToolTip": "Corrupti officia rem fugiat non.",
-    "Deleted": true,
-    "Rank": 727,
-    "Type": "a",
-    "ColorBlock": 741,
-    "IconHint": "nobis",
-    "Selected": false,
-    "LastChanged": "2010-02-15T13:28:23.0543771+01:00",
+    "Id": 955,
+    "Name": "Gleichner-Willms",
+    "ToolTip": "Debitis ut reprehenderit eius.",
+    "Deleted": false,
+    "Rank": 644,
+    "Type": "suscipit",
+    "ColorBlock": 886,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2003-08-25T04:02:01.909728+02:00",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Hayes LLC",
-        "ToolTip": "Beatae quibusdam quae ut qui sint.",
+        "Id": 463,
+        "Name": "Barrows-Larson",
+        "ToolTip": "Quis optio veniam.",
         "Deleted": false,
-        "Rank": 831,
-        "Type": "aut",
-        "ColorBlock": 38,
-        "IconHint": "adipisci",
+        "Rank": 392,
+        "Type": "nesciunt",
+        "ColorBlock": 295,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2004-10-25T13:28:23.0699949+02:00",
+        "LastChanged": "2020-06-15T04:02:01.909728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "qui",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "vitae",
         "Hidden": true,
-        "FullName": "Roderick Waelchi",
+        "FullName": "Bryce Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "quia",
+    "ExtraInfo": "tempore",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sienna Tiffany Littel PhD",
+    "FullName": "Mr. Pietro Johns III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldType": "System.String",
+        "FieldLength": 826
       }
     }
   }

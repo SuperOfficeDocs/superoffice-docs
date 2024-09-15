@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Brown, Raynor and McCullough",
-  "Tooltip": "dolores",
+  "Id": 939,
+  "Name": "Bradtke, Prosacco and Conroy",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 507,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 734,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 977
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

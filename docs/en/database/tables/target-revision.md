@@ -2,10 +2,10 @@
 uid: table-target_revision
 title: target_revision table
 description: One batch of changes made to targets
-generated: true
+so.generated: true
 keywords: database table target_revision
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # target\_revision Table (505)

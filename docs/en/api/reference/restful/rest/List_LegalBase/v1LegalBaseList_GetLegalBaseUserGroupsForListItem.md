@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Vandervort, Nitzsche and O'Reilly",
-    "ToolTip": "Ex voluptatem rerum.",
+    "Id": 228,
+    "Name": "Veum, Stoltenberg and Hegmann",
+    "ToolTip": "Voluptas atque.",
     "Deleted": false,
-    "Rank": 1000,
-    "Type": "non",
-    "ColorBlock": 518,
-    "IconHint": "consequatur",
+    "Rank": 165,
+    "Type": "inventore",
+    "ColorBlock": 212,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2018-09-17T13:28:32.8666025+02:00",
+    "LastChanged": "2002-02-03T04:02:07.2597065+01:00",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "Kub-Hammes",
-        "ToolTip": "Fugiat est voluptatem architecto quia soluta.",
-        "Deleted": false,
-        "Rank": 679,
-        "Type": "illo",
-        "ColorBlock": 199,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2006-04-22T13:28:32.8666025+02:00",
+        "Id": 183,
+        "Name": "Cremin-Smitham",
+        "ToolTip": "Alias explicabo et minus labore nihil et illum.",
+        "Deleted": true,
+        "Rank": 840,
+        "Type": "qui",
+        "ColorBlock": 4,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2003-12-16T04:02:07.2597065+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Cierra Chelsea DuBuque MD",
+        "FullName": "Mrs. Mae Kilback MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "illum",
+    "ExtraInfo": "quo",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Tillman Hettinger",
+    "FullName": "Aaliyah Godfrey Kuhlman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

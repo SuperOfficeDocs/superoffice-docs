@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 513,
-  "ConnectionId": 903,
-  "FirstAlternativeName": "Effertz, Abshire and Armstrong"
+  "SaleId": 934,
+  "ConnectionId": 275,
+  "FirstAlternativeName": "Russel-Schaden"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 49,
-  "SaleId": 565,
-  "QuoteConnectionId": 706,
-  "ERPQuoteKey": "dolores",
-  "ERPOrderKey": "qui",
-  "ActiveQuoteVersionId": 239,
-  "AcceptedQuoteAlternativeId": 758,
-  "UseValuesFromQuote": 631,
-  "DocumentId": 90,
-  "PoNumber": "962264",
-  "OrderComment": "nemo",
-  "PreferredEmailCulture": "dane@kulas.co.uk",
+  "QuoteId": 811,
+  "SaleId": 22,
+  "QuoteConnectionId": 402,
+  "ERPQuoteKey": "voluptatum",
+  "ERPOrderKey": "vel",
+  "ActiveQuoteVersionId": 307,
+  "AcceptedQuoteAlternativeId": 76,
+  "UseValuesFromQuote": 220,
+  "DocumentId": 645,
+  "PoNumber": "682685",
+  "OrderComment": "incidunt",
+  "PreferredEmailCulture": "alysson@mertz.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 99,
-      "ERPQuoteVersionKey": "voluptatem",
-      "QuoteId": 5,
-      "Description": "Upgradable disintermediate parallelism",
-      "Number": "968185",
+      "QuoteVersionId": 835,
+      "ERPQuoteVersionKey": "dolorem",
+      "QuoteId": 768,
+      "Description": "Centralized responsive model",
+      "Number": "824800",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 400,
-      "SentDate": "1999-11-26T13:28:23.5698866+01:00",
-      "FollowupId": 250,
-      "ExpirationDate": "2024-05-22T13:28:23.5698866+02:00",
-      "DeliveryCountryId": 444,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 536,
+      "LikelyQuoteAlternativeId": 28,
+      "SentDate": "2021-07-01T04:02:02.2065837+02:00",
+      "FollowupId": 628,
+      "ExpirationDate": "2004-11-25T04:02:02.2065837+01:00",
+      "DeliveryCountryId": 748,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 948,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "consequatur",
-      "ERPPaymentTypeKey": "aliquid",
-      "ERPDeliveryTermsKey": "dolorum",
-      "ERPDeliveryTypeKey": "maxime",
-      "Rank": 995,
-      "ApprovedBy": 190,
-      "ApprovedText": "mollitia",
-      "ApprovedRegisteredBy": 849,
-      "ApprovedRegisteredDate": "2002-09-22T13:28:23.5698866+02:00",
-      "ExtraField1": "quis",
-      "ExtraField2": "non",
-      "ExtraField3": "ad",
-      "ExtraField4": "qui",
-      "ExtraField5": "quae",
-      "LastRecalculated": "2006-03-20T13:28:23.5698866+01:00",
-      "Updated": "2008-02-18T13:28:23.5698866+01:00",
-      "UpdatedAssociateId": 518,
-      "Registered": "2009-08-15T13:28:23.5698866+02:00",
-      "RegisteredAssociateId": 917,
-      "RequestAssociateId": 370,
-      "RequestComment": "doloremque",
+      "ERPPaymentTermsKey": "eaque",
+      "ERPPaymentTypeKey": "et",
+      "ERPDeliveryTermsKey": "veniam",
+      "ERPDeliveryTypeKey": "labore",
+      "Rank": 523,
+      "ApprovedBy": 133,
+      "ApprovedText": "modi",
+      "ApprovedRegisteredBy": 908,
+      "ApprovedRegisteredDate": "2008-05-08T04:02:02.2065837+02:00",
+      "ExtraField1": "iste",
+      "ExtraField2": "ab",
+      "ExtraField3": "doloribus",
+      "ExtraField4": "nulla",
+      "ExtraField5": "expedita",
+      "LastRecalculated": "2003-02-10T04:02:02.2065837+01:00",
+      "Updated": "2013-02-09T04:02:02.2065837+01:00",
+      "UpdatedAssociateId": 142,
+      "Registered": "2005-10-12T04:02:02.2065837+02:00",
+      "RegisteredAssociateId": 537,
+      "RequestAssociateId": 825,
+      "RequestComment": "dicta",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 247
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 694
     }
   }
 }

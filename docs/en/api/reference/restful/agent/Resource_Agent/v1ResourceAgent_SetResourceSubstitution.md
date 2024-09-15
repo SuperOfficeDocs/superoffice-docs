@@ -71,9 +71,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Tremblay Group",
-  "ResourceValues": "veniam",
-  "Culture": "expedita",
+  "ResourceName": "Morar-Gerhold",
+  "ResourceValues": "illum",
+  "Culture": "aut",
   "IsActive": false
 }
 ```

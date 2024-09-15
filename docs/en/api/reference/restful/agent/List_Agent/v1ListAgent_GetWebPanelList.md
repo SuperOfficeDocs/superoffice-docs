@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 740,
-    "Name": "Ebert Inc and Sons",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 12,
+    "WebPanelId": 153,
+    "Name": "Abernathy Group",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "Rank": 596,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
+    "OnCentral": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Nikolaus, Beahan and Wunsch",
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Mills, Hayes and Flatley",
     "Url": "http://www.example.com/",
-    "ProgId": "eum",
-    "Icon": 1002,
+    "ProgId": "maiores",
+    "Icon": 790,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

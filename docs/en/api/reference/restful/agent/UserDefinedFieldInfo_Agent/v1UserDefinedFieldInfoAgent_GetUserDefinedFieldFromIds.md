@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    878,
-    898
+    247,
+    770
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 576,
-    "ColumnId": 725,
-    "FieldDefault": "quam",
-    "FieldHeight": 59,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 445,
-    "FieldTop": 566,
+    "UDefFieldId": 93,
+    "ColumnId": 205,
+    "FieldDefault": "unde",
+    "FieldHeight": 115,
+    "FieldLabel": "non",
+    "FieldLeft": 152,
+    "FieldTop": 270,
     "FieldType": "Checkbox",
-    "FieldWidth": 523,
-    "FormatMask": "maxime",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 142,
-    "LabelLeft": 992,
-    "LabelTop": 360,
-    "LabelWidth": 643,
-    "LastVersionId": 530,
-    "ListTableId": 376,
-    "IsMandatory": true,
+    "FieldWidth": 308,
+    "FormatMask": "molestiae",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 985,
+    "LabelLeft": 859,
+    "LabelTop": 214,
+    "LabelWidth": 799,
+    "LastVersionId": 707,
+    "ListTableId": 371,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 665,
-    "ProgId": "voluptate",
+    "Page1LineNo": 264,
+    "ProgId": "sed",
     "IsReadOnly": true,
-    "ShortLabel": "labore",
-    "TabOrder": 715,
-    "TextLength": 221,
-    "Tooltip": "eum",
-    "UdefIdentity": 392,
-    "UDListDefinitionId": 818,
+    "ShortLabel": "adipisci",
+    "TabOrder": 238,
+    "TextLength": 730,
+    "Tooltip": "maiores",
+    "UdefIdentity": 932,
+    "UDListDefinitionId": 366,
     "Justification": "Center",
-    "Version": 992,
-    "TemplateVariableName": "Kuhn-Kreiger",
-    "HasBeenPublished": false,
-    "MdoListName": "Gleichner, Feeney and Hills",
+    "Version": 242,
+    "TemplateVariableName": "Mills-Harber",
+    "HasBeenPublished": true,
+    "MdoListName": "Dibbert-Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 998
       }
     }
   }

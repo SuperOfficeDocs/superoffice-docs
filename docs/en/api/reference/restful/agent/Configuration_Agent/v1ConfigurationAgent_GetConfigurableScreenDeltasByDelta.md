@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 74,
-    "Name": "Wintheiser-Baumbach",
-    "Description": "Implemented interactive synergy",
-    "DeltaJson": "quo",
+    "ConfigurableScreenDeltaId": 600,
+    "Name": "Bednar, Hand and Welch",
+    "Description": "Intuitive optimal open architecture",
+    "DeltaJson": "odit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nihil",
-    "UpdatedDate": "2003-06-23T13:28:22.17931+02:00",
-    "CreatedDate": "2017-10-02T13:28:22.17931+02:00",
+    "RecipeId": "aliquam",
+    "UpdatedDate": "2014-08-16T04:02:01.4092709+02:00",
+    "CreatedDate": "2015-01-12T04:02:01.4092709+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      59,
-      889
+      379,
+      321
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 155
       }
     }
   }

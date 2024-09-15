@@ -2,10 +2,10 @@
 uid: table-TaskGroupLink
 title: TaskGroupLink table
 description: User group link table for Task, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table TaskGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TaskGroupLink Table (68)

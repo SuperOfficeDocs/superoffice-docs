@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 666,
-  "Name": "Kreiger, Hyatt and Bernhard",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 980,
-  "UdListDefinitionId": 487
+  "HeadingId": 993,
+  "Name": "Morissette Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 991,
+  "UdListDefinitionId": 321
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 811,
-  "Name": "Friesen Inc and Sons",
-  "Tooltip": "explicabo",
+  "HeadingId": 18,
+  "Name": "Kuvalis-Price",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 529,
-  "UdListDefinitionId": 568,
+  "Rank": 914,
+  "UdListDefinitionId": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

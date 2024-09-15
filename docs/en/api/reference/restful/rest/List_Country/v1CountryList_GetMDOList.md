@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=eum
+GET /api/v1/List/Country/MDOItems?query=neque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Ebert LLC",
-    "ToolTip": "Minus qui totam accusamus ipsam et.",
+    "Id": 30,
+    "Name": "Lockman Group",
+    "ToolTip": "Quas aut et aut.",
     "Deleted": true,
-    "Rank": 680,
-    "Type": "autem",
+    "Rank": 982,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Bogisich-O'Hara",
-        "ToolTip": "Accusamus nobis.",
-        "Deleted": true,
-        "Rank": 181,
-        "Type": "numquam",
+        "Id": 830,
+        "Name": "Vandervort Group",
+        "ToolTip": "Sint ipsam nobis voluptas tenetur et.",
+        "Deleted": false,
+        "Rank": 699,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 459,
-        "ExtraInfo": "rerum",
-        "StyleHint": "nihil",
-        "FullName": "Manuela Jacobi",
+        "IconHint": "deleniti",
+        "ColorBlock": 41,
+        "ExtraInfo": "quo",
+        "StyleHint": "sequi",
+        "FullName": "Dr. Curtis Daisha Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 162,
-    "ExtraInfo": "veniam",
-    "StyleHint": "ducimus",
-    "FullName": "Norberto Ashtyn Schultz III",
+    "IconHint": "et",
+    "ColorBlock": 593,
+    "ExtraInfo": "amet",
+    "StyleHint": "enim",
+    "FullName": "Antone Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

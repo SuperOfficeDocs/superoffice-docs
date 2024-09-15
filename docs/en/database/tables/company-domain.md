@@ -2,10 +2,10 @@
 uid: table-company_domain
 title: company_domain table
 description: This table contains web-domains associated with a certain cust_company entry.
-generated: true
+so.generated: true
 keywords: database table company_domain
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # company\_domain Table (303)

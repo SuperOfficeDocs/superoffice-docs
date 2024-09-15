@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 264,
+  "SelectionId": 886,
   "Criteria": [
     {
-      "Name": "Farrell, Kuphal and Bernhard",
-      "Description": "Right-sized clear-thinking time-frame",
-      "Rank": 606,
+      "Name": "Welch Inc and Sons",
+      "Description": "Monitored holistic paradigm",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Farrell, Kuphal and Bernhard",
-      "Description": "Right-sized clear-thinking time-frame",
-      "Rank": 606,
+      "Name": "Welch Inc and Sons",
+      "Description": "Monitored holistic paradigm",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stamm-Herzog",
-    "Description": "Face to face user-facing data-warehouse",
-    "Rank": 682,
+    "Name": "Lindgren-Dooley",
+    "Description": "Extended motivating open architecture",
+    "Rank": 440,
     "Restrictions": [
       {
-        "Name": "Pouros, Casper and Kertzmann",
-        "Operator": "sed",
+        "Name": "Gibson, Pouros and Romaguera",
+        "Operator": "et",
         "Values": [
-          "amet",
-          "mollitia"
+          "aperiam",
+          "iusto"
         ],
         "DisplayValues": [
-          "facilis",
-          "iste"
+          "voluptate",
+          "consequuntur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 735,
+        "InterParenthesis": 561,
         "InterOperator": "And",
-        "UniqueHash": 652
+        "UniqueHash": 541
       }
     ]
   },
   {
-    "Name": "Stamm-Herzog",
-    "Description": "Face to face user-facing data-warehouse",
-    "Rank": 682,
+    "Name": "Lindgren-Dooley",
+    "Description": "Extended motivating open architecture",
+    "Rank": 440,
     "Restrictions": [
       {
-        "Name": "Pouros, Casper and Kertzmann",
-        "Operator": "sed",
+        "Name": "Gibson, Pouros and Romaguera",
+        "Operator": "et",
         "Values": [
-          "amet",
-          "mollitia"
+          "aperiam",
+          "iusto"
         ],
         "DisplayValues": [
-          "facilis",
-          "iste"
+          "voluptate",
+          "consequuntur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 735,
+        "InterParenthesis": 561,
         "InterOperator": "And",
-        "UniqueHash": 652
+        "UniqueHash": 541
       }
     ]
   }

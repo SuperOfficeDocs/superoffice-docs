@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Spinka, Prosacco and Hoeger",
-  "Context": "provident"
+  "TableName": "Johnston Inc and Sons",
+  "Context": "quasi"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "incidunt",
-    "ValueType": "iure",
+    "Key": "quis",
+    "ValueType": "eum",
     "Mandatory": false,
-    "EncodedDisplayName": "Blick, Strosin and Bogisich",
-    "EncodedDisplayDescription": "Managed regional projection",
-    "IconHint": "eius",
+    "EncodedDisplayName": "Auer-Frami",
+    "EncodedDisplayDescription": "Public-key regional help-desk",
+    "IconHint": "pariatur",
     "ControlInfos": [
       {
-        "Type": "quia",
-        "Label": "quas",
-        "Dimension": 97,
-        "ListProviderName": "Hoppe Inc and Sons",
-        "ListProviderExtraInfo": "distinctio",
-        "ListProviderPrimaryKeyName": "Ernser-Schmeler",
-        "ListLeadText": "odit",
+        "Type": "aliquam",
+        "Label": "perferendis",
+        "Dimension": 403,
+        "ListProviderName": "Larson, Predovic and Bergnaum",
+        "ListProviderExtraInfo": "aut",
+        "ListProviderPrimaryKeyName": "Mohr-Hackett",
+        "ListLeadText": "explicabo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 490
           }
         }
       }
     ],
-    "EncodedDataCaption": "ut",
-    "EncodedDataCaptionDescription": "Public-key transitional capacity",
-    "CurrentOperationType": "temporibus",
+    "EncodedDataCaption": "consequuntur",
+    "EncodedDataCaptionDescription": "Persevering motivating definition",
+    "CurrentOperationType": "culpa",
     "Values": [
-      "deleniti",
-      "quia"
+      "ratione",
+      "voluptatum"
     ],
     "DisplayValues": [
-      "iusto",
-      "ducimus"
+      "cumque",
+      "eius"
     ],
     "OperationInfos": [
       {
-        "Key": "molestias",
-        "EncodedDisplayName": "Gulgowski Inc and Sons",
+        "Key": "in",
+        "EncodedDisplayName": "Bahringer-Dibbert",
         "EncodedLeadTexts": [
-          "nihil",
-          "voluptatem"
+          "hic",
+          "dolorum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldType": "System.String",
+            "FieldLength": 271
           }
         }
       },
       {
-        "Key": "molestias",
-        "EncodedDisplayName": "Gulgowski Inc and Sons",
+        "Key": "in",
+        "EncodedDisplayName": "Bahringer-Dibbert",
         "EncodedLeadTexts": [
-          "nihil",
-          "voluptatem"
+          "hic",
+          "dolorum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldType": "System.String",
+            "FieldLength": 271
           }
         }
       }

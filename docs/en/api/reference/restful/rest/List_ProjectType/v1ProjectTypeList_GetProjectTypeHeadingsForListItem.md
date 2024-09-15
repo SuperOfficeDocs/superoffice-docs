@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Yundt Inc and Sons",
-    "ToolTip": "Enim magnam autem ipsa quas et voluptas adipisci.",
-    "Deleted": false,
-    "Rank": 681,
-    "Type": "velit",
-    "ColorBlock": 358,
-    "IconHint": "veritatis",
+    "Id": 211,
+    "Name": "Hoeger LLC",
+    "ToolTip": "Veniam sint iusto corrupti veniam.",
+    "Deleted": true,
+    "Rank": 828,
+    "Type": "et",
+    "ColorBlock": 526,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2001-12-15T13:28:33.0228222+01:00",
+    "LastChanged": "2014-08-24T04:02:07.3534465+02:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Gorczany, Fadel and McCullough",
-        "ToolTip": "Rerum ratione quidem qui aut vel sed.",
-        "Deleted": true,
-        "Rank": 521,
-        "Type": "nesciunt",
-        "ColorBlock": 941,
-        "IconHint": "error",
-        "Selected": true,
-        "LastChanged": "2020-12-16T13:28:33.0228222+01:00",
+        "Id": 704,
+        "Name": "White, Rutherford and Shanahan",
+        "ToolTip": "Ut sapiente sed non velit iure ab in.",
+        "Deleted": false,
+        "Rank": 100,
+        "Type": "fugit",
+        "ColorBlock": 211,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2018-01-09T04:02:07.3534465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "provident",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "aliquam",
         "Hidden": true,
-        "FullName": "Mervin Kuhn",
+        "FullName": "Keshaun Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldType": "System.Int32",
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "placeat",
+    "ExtraInfo": "et",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Lauren Wiley Botsford Sr.",
+    "FullName": "Josephine Issac Franecki Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldType": "System.String",
+        "FieldLength": 94
       }
     }
   }

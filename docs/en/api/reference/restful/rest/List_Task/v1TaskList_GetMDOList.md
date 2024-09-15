@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=ut
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Fahey LLC",
-    "ToolTip": "Eveniet veritatis quo assumenda ipsum et dolor.",
-    "Deleted": true,
-    "Rank": 182,
-    "Type": "quia",
+    "Id": 707,
+    "Name": "Mohr, Ortiz and Lebsack",
+    "ToolTip": "Error tenetur ullam ipsa voluptatem quibusdam omnis sed.",
+    "Deleted": false,
+    "Rank": 707,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Nader, Gibson and Towne",
-        "ToolTip": "Quia debitis consequatur et fuga voluptatibus.",
-        "Deleted": true,
-        "Rank": 726,
-        "Type": "quo",
+        "Id": 161,
+        "Name": "Hamill, McDermott and Hilll",
+        "ToolTip": "Consequuntur consequatur eius id omnis dolorem.",
+        "Deleted": false,
+        "Rank": 847,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 402,
-        "ExtraInfo": "natus",
-        "StyleHint": "nesciunt",
-        "FullName": "Beatrice Wilderman",
+        "IconHint": "dolorem",
+        "ColorBlock": 839,
+        "ExtraInfo": "quo",
+        "StyleHint": "nihil",
+        "FullName": "Anya Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 831
+            "FieldLength": 160
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 580,
-    "ExtraInfo": "ea",
-    "StyleHint": "modi",
-    "FullName": "Frederic Schuppe",
+    "IconHint": "fugit",
+    "ColorBlock": 493,
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptas",
+    "FullName": "Miss Madeline Estel Goldner DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

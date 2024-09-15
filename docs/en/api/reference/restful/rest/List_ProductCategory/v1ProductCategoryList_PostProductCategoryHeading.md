@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 99,
-  "Name": "Jast-Runolfsson",
-  "Tooltip": "ex",
+  "HeadingId": 743,
+  "Name": "Sanford-Russel",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 739,
-  "UdListDefinitionId": 71
+  "Rank": 295,
+  "UdListDefinitionId": 886
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 655,
-  "Name": "Eichmann-O'Hara",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "Rank": 585,
-  "UdListDefinitionId": 172,
+  "HeadingId": 434,
+  "Name": "Ward, McCullough and Raynor",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 65,
+  "UdListDefinitionId": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

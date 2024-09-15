@@ -92,6 +92,8 @@ blah....
 |description| *None* |Description: The long description field on Sale|  |
 |activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |createdByWorkflow| *None* |Created by flow: Created by flow|  |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor| *None* |Visible for|  |
@@ -138,12 +140,12 @@ blah....
 |person/personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |person/ticketPriority| *None* |Service priority: Default service priority for this contact|  |
 |person/supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
-|person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
-|person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
+|person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 |person/personAssociateId| *None* |Our contact: Displays our contact|  |
 |person/personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |person/personCategory| *None* |Category|  |
@@ -242,12 +244,12 @@ blah....
 |person/personAssociate/firstName| *None* |First name: Displays the contact's first name|  |
 |person/personAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |person/personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -346,12 +348,12 @@ blah....
 |contact/deletedDate| *None* |Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company|  |
 |contact/contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
-|contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
+|contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
 |contact/contactFax/description| *None* |Fax - Description: Phone number description|  |
 |contact/searchPhone/formattedNumber| *None* |Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description| *None* |Searchphone - Description: Phone number description|  |
@@ -450,12 +452,12 @@ blah....
 |contact/contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
 |contact/contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
 |contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
-|contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
-|contact/contactExtra/x\_contact\_dropdown| *None* |Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|contact/contactExtra/x\_contact\_dropdown| *None* |Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
 |contact/contactExtra/x\_contact\_date| *None* |Extra date: Custom date field. User current as default.|  |
 |contact/contactExtra/x\_contact\_datetime| *None* |Extra DateTime: Custom Date Time field. No default value. External|  |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.|  |
@@ -554,12 +556,12 @@ blah....
 |project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |project/registeredBy| *None* |Registered by: The user who registered the data|  |
 |project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
+|project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
 |project/endDate| *None* |End date: End date of project|  |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
@@ -658,12 +660,12 @@ blah....
 |saleStakeholder/person/position| *None* |Stakeholder - Position|  |
 |saleStakeholder/person/personNumber| *None* |Stakeholder - Number: Displays the contact's number|  |
 |saleStakeholder/person/title| *None* |Stakeholder - Title: Displays the contact's job title|  |
-|saleStakeholder/person/personCountry| *None* |Stakeholder - Country: Country|  |
-|saleStakeholder/person/personCountryId| *None* |Stakeholder - Country ID: Country ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personCountry| *None* |Stakeholder - Country: Country|  |
+|saleStakeholder/person/personCountryId| *None* |Stakeholder - Country ID: Country ID|  |
 |saleStakeholder/person/personNoMail| *None* |Stakeholder - No Mailings: Displays the contact's No Mailings checkbox|  |
 |saleStakeholder/person/rank| *None* |Stakeholder - Rank: Displays a contact's current rank|  |
 |saleStakeholder/person/birthdate| *None* |Stakeholder - Birthdate: Displays the contact's date of birth|  |
@@ -762,12 +764,12 @@ blah....
 |saleStakeholder/person/personUdef/SuperOffice:11| *None* |Stakeholder - page1adminonly|  |
 |saleStakeholder/person/personExtra/x\_person\_integer| *None* |Stakeholder - Extra Integer: Custom person integer|  |
 |saleStakeholder/person/personExtra/x\_person\_float| *None* |Stakeholder - Extra float: Custom float field|  |
-|saleStakeholder/person/personExtra/x\_person\_longtext| *None* |Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
-|saleStakeholder/person/personExtra/x\_person\_date| *None* |Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personExtra/x\_person\_longtext| *None* |Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
+|saleStakeholder/person/personExtra/x\_person\_date| *None* |Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019|  |
 |saleStakeholder/person/personExtra/x\_person\_datetime| *None* |Stakeholder - Extra DateTime: Custom person date and time field. No default|  |
 |saleStakeholder/person/personExtra/x\_person\_time| *None* |Stakeholder - Extra time: Custom time field on person. Current time as default|  |
 |saleStakeholder/person/personExtra/x\_person\_boolean| *None* |Stakeholder - Extra Boolean: Custom boolean field on person. Default checked|  |
@@ -866,12 +868,12 @@ blah....
 |saleStakeholder/contact/department| *None* |Stakeholder - Department|  |
 |saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to|  |
 |saleStakeholder/contact/hasInfoText| *None* |Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|saleStakeholder/contact/hasInterests| *None* |Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests|  |
-|saleStakeholder/contact/associateId| *None* |Stakeholder - Our contact: Displays our contact|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/hasInterests| *None* |Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests|  |
+|saleStakeholder/contact/associateId| *None* |Stakeholder - Our contact: Displays our contact|  |
 |saleStakeholder/contact/category| *None* |Stakeholder - Category|  |
 |saleStakeholder/contact/business| *None* |Stakeholder - Business|  |
 |saleStakeholder/contact/country| *None* |Stakeholder - Country: This criterion corresponds to the Country field on the Company card.|  |
@@ -970,12 +972,12 @@ blah....
 |saleStakeholder/contact/contactAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in|  |
 |saleStakeholder/contact/contactAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |saleStakeholder/contact/contactAssociate/isActive| *None* |Stakeholder - Active: Is this user active, and should be able to log in?|  |
-|saleStakeholder/contact/contactAssociate/isActiveText| *None* |Stakeholder - Active status: Is this user active, and should be able to log in?|  |
-|saleStakeholder/contact/contactAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactAssociate/isActiveText| *None* |Stakeholder - Active status: Is this user active, and should be able to log in?|  |
+|saleStakeholder/contact/contactAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/contact/contactAssociate/otherGroups| *None* |Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/contact/contactAssociate/userName| *None* |Stakeholder - User name: User name|  |
 |saleStakeholder/contact/contactAssociate/personEmail| *None* |Stakeholder - E-mail|  |
@@ -1074,12 +1076,12 @@ blah....
 |quote/version/alternative/status| *None* |Quote status: Status field showing the status of each line.|  |
 |quote/version/alternative/reason| *None* |Quote reason: The reason or explanation for any status other than 'OK'.|  |
 |quote/version/alternative/erpDiscountPercent| *None* |ERP Discount %: Discount percentage suggested by ERP system|  |
-|quote/version/alternative/erpDiscountAmount| *None* |ERP Discount: Discount amount suggested by ERP system|  |
-|quote/version/alternative/discountPercent| *None* |Discount %: Enter discount in percent for entire alternative|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/erpDiscountAmount| *None* |ERP Discount: Discount amount suggested by ERP system|  |
+|quote/version/alternative/discountPercent| *None* |Discount %: Enter discount in percent for entire alternative|  |
 |quote/version/alternative/discountAmount| *None* |Discount: Enter total discount for entire alternative|  |
 |quote/version/alternative/vatInfo| *None* |VAT Info: Information about value-added and other taxes|  |
 |quote/version/alternative/vat| *None* |VAT: Value-added and other taxes, total amount|  |
@@ -1178,12 +1180,12 @@ blah....
 |postAddress/county| *None* |Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
 |postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
 |postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
 |postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -1282,12 +1284,12 @@ blah....
 |contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in|  |
 |contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
-|contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
-|contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
+|contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 |contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
 |contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
@@ -1386,12 +1388,12 @@ blah....
 |contactSupportPerson/hasEmarketingConsent| *None* |User support contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/withdrawnEmarketingConsent| *None* |User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
-|contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/consentSourceStore| *None* |User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/consentSourceEmarketing| *None* |User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
@@ -1490,12 +1492,12 @@ blah....
 |personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |ticketPriority| *None* |Service priority: Default service priority for this contact|  |
 |supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
-|supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
-|supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
+|supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 |personAssociateId| *None* |Our contact: Displays our contact|  |
 |personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |personCategory| *None* |Category|  |
@@ -1594,12 +1596,12 @@ blah....
 |personSourceRelation/retired| *None* |Source - Former employee: Indicates whether the contact has retired/left the company|  |
 |personSourceRelation/birthYear| *None* |Source - Birth year: Displays contact's birth year|  |
 |personSourceRelation/birthMonth| *None* |Source - Birth month: Displays contact's birth month|  |
-|personSourceRelation/birthDay| *None* |Source - Birth day: Displays contact's birth day (day of month)|  |
-|personSourceRelation/kanaFirstName| *None* |Source - First name, kana: Contact's first name, in kana alphabet|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/birthDay| *None* |Source - Birth day: Displays contact's birth day (day of month)|  |
+|personSourceRelation/kanaFirstName| *None* |Source - First name, kana: Contact's first name, in kana alphabet|  |
 |personSourceRelation/kanaLastName| *None* |Source - Last name, kana: Contact's last name, in kana alphabet|  |
 |personSourceRelation/personUpdatedBy| *None* |Source - Updated by: The user who last updated the data|  |
 |personSourceRelation/personUpdatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data|  |
@@ -1698,12 +1700,12 @@ blah....
 |personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |personAssociate/contactCategory| *None* |Category: Category|  |
-|personAssociate/role| *None* |Role : Role|  |
-|personAssociate/assocName| *None* |User ID : User ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/role| *None* |Role : Role|  |
+|personAssociate/assocName| *None* |User ID : User ID|  |
 |personAssociate/assocTooltip| *None* |Description : Description|  |
 |personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
@@ -1802,12 +1804,12 @@ blah....
 |personContact/postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
 |personContact/postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |personContact/postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|personContact/postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
-|personContact/postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
+|personContact/postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
 |personContact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |personContact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |personContact/restrictionPostalAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
@@ -1906,12 +1908,12 @@ blah....
 |personContact/contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |personContact/contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
 |personContact/contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
-|personContact/contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
-|personContact/contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
+|personContact/contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
 |personContact/contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
 |personContact/contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
 |personContact/contactSupportAssociate/locationAddress| *None* |Our service contact - Location: Location|  |
@@ -2010,12 +2012,12 @@ blah....
 |personContact/contactSupportPerson/withdrawnEmarketingConsent| *None* |User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |personContact/contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
 |personContact/contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|personContact/contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|personContact/contactSupportPerson/consentSourceStore| *None* |User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|personContact/contactSupportPerson/consentSourceStore| *None* |User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |personContact/contactSupportPerson/consentSourceEmarketing| *None* |User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |personContact/contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |personContact/contactUdef/SuperOffice:1| *None* |companyshorttext: tooltipshorttext|  |
@@ -2114,12 +2116,12 @@ blah....
 |request/connectId| *None* |Merged with request: Merged with request|  |
 |request/readStatus| *None* |Read: Read|  |
 |request/realTimeSpentQueue| *None* |Real time in queue: Real time in queue|  |
-|request/realTimeSpentExternally| *None* |Real time externally: Real time externally|  |
-|request/realTimeSpentInternally| *None* |Real time internally: Real time internally|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/realTimeSpentExternally| *None* |Real time externally: Real time externally|  |
+|request/realTimeSpentInternally| *None* |Real time internally: Real time internally|  |
 |request/timeSpentQueue| *None* |Time spent in queue: Time spent in queue|  |
 |request/timeSpentExternally| *None* |Time spent externally: Time spent externally|  |
 |request/timeSpentInternally| *None* |Time spent internally: Time spent internally|  |
@@ -2218,12 +2220,12 @@ blah....
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
-|request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
-|request/extra/y\_car/id| *None* |Car - id: Displays the row's primary key (y\_car)|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+|request/extra/y\_car/id| *None* |Car - id: Displays the row's primary key (y\_car)|  |
 |projectMembers/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
 |projectMembers/projectId| *None* |DB ID: Displays the database ID for a project row|  |
 |projectMembers/name| *None* |Project name: Displays the Project's name|  |
@@ -2322,12 +2324,12 @@ blah....
 |projectMembers/saintIntention| *None* |Intention|  |
 |projectMembers/saintTicketStatus| *None* |Status|  |
 |projectMembers/saintTicketCategory| *None* |Category|  |
-|projectMembers/project/textId| *None* |Text ID|  |
-|projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/project/textId| *None* |Text ID|  |
+|projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type|  |
 |personAppointment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
@@ -2426,12 +2428,12 @@ blah....
 |nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
 |endDate| *None* |End date: End date of project|  |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
+|projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |projectPublish/publishedBy| *None* |Published by: Published by|  |
 |projectEvent/isExternalEvent| *None* |Event: Is this an external event|  |
@@ -2530,12 +2532,12 @@ blah....
 |selectionAssociate/locationAddress| *None* |Location: Location|  |
 |selectionAssociate/isLocation| *None* |Is a location: Is a location|  |
 |mailingId| *None* |ID: Displays the ID of the mailing|  |
-|mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
-|mailingDescription| *None* |Name: Displays the name of the mailing|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
+|mailingDescription| *None* |Name: Displays the name of the mailing|  |
 |mailingSent| *None* |Sent: Displays the sent status of the mailing|  |
 |mailingSimpleStatus| *None* |Status: Status|  |
 |mailingEndDate| *None* |Date sent: Displays the date when the mailing was sent (completed)|  |
@@ -2634,12 +2636,12 @@ blah....
 |mailingAddr/contact/url/URLAddress| *None* |Company - URL|  |
 |mailingAddr/contact/url/URLDescription| *None* |Company - Description|  |
 |mailingAddr/contact/contactAssociate/firstName| *None* |Company - First name: Displays the contact's first name|  |
-|mailingAddr/contact/contactAssociate/lastName| *None* |Company - Last name: Displays the contact's last name|  |
-|mailingAddr/contact/contactAssociate/middleName| *None* |Company - Middle Name: Displays the contact's middle name.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/contactAssociate/lastName| *None* |Company - Last name: Displays the contact's last name|  |
+|mailingAddr/contact/contactAssociate/middleName| *None* |Company - Middle Name: Displays the contact's middle name.|  |
 |mailingAddr/contact/contactAssociate/fullName| *None* |Company - Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |mailingAddr/contact/contactAssociate/contactId| *None* |Company - Company ID: Database ID of the company the user belongs to|  |
 |mailingAddr/contact/contactAssociate/personId| *None* |Company - Contact ID: Database ID of the contact row|  |
@@ -2738,12 +2740,12 @@ blah....
 |mailingAddr/person/hasInfoText| *None* |Contact - Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |mailingAddr/person/hasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |mailingAddr/person/personHasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
-|mailingAddr/person/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|mailingAddr/person/position| *None* |Contact - Position|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/position| *None* |Contact - Position|  |
 |mailingAddr/person/personNumber| *None* |Contact - Number: Displays the contact's number|  |
 |mailingAddr/person/title| *None* |Contact - Title: Displays the contact's job title|  |
 |mailingAddr/person/personCountry| *None* |Contact - Country: Country|  |
@@ -2842,12 +2844,12 @@ blah....
 |mailingAddr/person/personUdef/SuperOffice:7| *None* |Contact - contactdropdownlistbox|  |
 |mailingAddr/person/personUdef/SuperOffice:8| *None* |Contact - contactdecimal|  |
 |mailingAddr/person/personUdef/SuperOffice:9| *None* |Contact - page1saleonly|  |
-|mailingAddr/person/personUdef/SuperOffice:10| *None* |Contact - page1marketingonly|  |
-|mailingAddr/person/personUdef/SuperOffice:11| *None* |Contact - page1adminonly|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personUdef/SuperOffice:10| *None* |Contact - page1marketingonly|  |
+|mailingAddr/person/personUdef/SuperOffice:11| *None* |Contact - page1adminonly|  |
 |mailingAddr/person/personExtra/x\_person\_integer| *None* |Contact - Extra Integer: Custom person integer|  |
 |mailingAddr/person/personExtra/x\_person\_float| *None* |Contact - Extra float: Custom float field|  |
 |mailingAddr/person/personExtra/x\_person\_longtext| *None* |Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
@@ -2945,13 +2947,71 @@ blah....
 |mailingAddr/person/legalBaseEmarketing| *None* |Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |mailingAddr/person/consentSourceStore| *None* |Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/consentSourceEmarketing| *None* |Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|documentId| *None* |Document ID: Database ID of document record|  |
-|keywords| *None* |Keywords |  |
-|ourref| *None* |Our ref.|  |
+|emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
+|emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
+|emailFlow/thumbnail| *None* |Thumbnail|  |
+|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
+|emailFlow/workflowId| *None* |Flow id: Id of a flow definition|  |
+|emailFlow/workflowName| *None* |Name: Name of the flow definition|  |
+|emailFlow/workflowDescription| *None* |Description: Description of flow definition|  |
+|emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
+|emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
+|emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
+|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
+|emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
+|emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
+|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
+|emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
+|emailFlow/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|emailFlow/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
+|emailFlow/registeredBy| *None* |Registered by: The user who registered the data|  |
+|emailFlow/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
+|emailFlow/workflowAssociate/firstName| *None* |Owner - First name: Displays the contact's first name|  |
+|emailFlow/workflowAssociate/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
+|emailFlow/workflowAssociate/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
+|emailFlow/workflowAssociate/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|emailFlow/workflowAssociate/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
+|emailFlow/workflowAssociate/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
+|emailFlow/workflowAssociate/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|emailFlow/workflowAssociate/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
+|emailFlow/workflowAssociate/associateDbId| *None* |Owner - ID|  |
+|emailFlow/workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
+|emailFlow/workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
+|emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
+|emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
+|emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
+|emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
+|emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
+|emailFlow/workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
+|emailFlow/workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName| *None* |Owner - Nick name: User's nick name in Service|  |
+|emailFlow/workflowAssociate/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
+|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|emailFlow/workflowAssociate/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?|  |
+|emailFlow/workflowAssociate/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
+|emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|emailFlow/workflowAssociate/otherGroups| *None* |Owner - Other groups: Other groups|  |
+|emailFlow/workflowAssociate/userName| *None* |Owner - User name: User name|  |
+|emailFlow/workflowAssociate/personEmail| *None* |Owner - E-mail|  |
+|emailFlow/workflowAssociate/locationAddress| *None* |Owner - Location: Location|  |
+|emailFlow/workflowAssociate/isLocation| *None* |Owner - Is a location: Is a location|  |
+|emailFlow/hierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|emailFlow/hierarchyFullname| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|emailFlow/hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|emailFlow/hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
+|emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
+|documentId| *None* |Document ID: Database ID of document record|  |
+|keywords| *None* |Keywords |  |
+|ourref| *None* |Our ref.|  |
 |yourref| *None* |Your ref.|  |
 |attention| *None* |Salutation|  |
 |subject| *None* |Subject|  |
@@ -2992,6 +3052,10 @@ blah....
 |sale/registeredBy| *None* |Registered by: The user who registered the data|  |
 |sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/currencyId| *None* |Currency ID: The currency list item ID|  |
 |sale/currency| *None* |Currency: The currency of the sale|  |
 |sale/credited| *None* |Credited: The user to be credited with the sale|  |
@@ -3020,6 +3084,8 @@ blah....
 |sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -3052,10 +3118,6 @@ blah....
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |sale/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |sale/associate/otherGroups| *None* |Other groups: Other groups|  |
@@ -3094,6 +3156,10 @@ blah....
 |duration| *None* |Duration: The duration of the chat session|  |
 |appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentUdef/SuperOffice:1| *None* |followupshorttext|  |
@@ -3156,10 +3222,6 @@ blah....
 |createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.|  |
 |createdBy/fullName| *None* |Created by - Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |createdBy/contactId| *None* |Created by - Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |createdBy/personId| *None* |Created by - Contact ID: Database ID of the contact row|  |
 |createdBy/mrMrs| *None* |Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |createdBy/title| *None* |Created by - Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -3198,6 +3260,10 @@ blah....
 |ownedBy/associateDbId| *None* |Owner - ID|  |
 |ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
 |ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |ownedBy/contactCategory| *None* |Owner - Category: Category|  |
@@ -3238,7 +3304,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=heading,person/birthdate,person/correspondingAssociate/isActiveText,contact/countryId,project/saintAmountClass
+GET /api/v1/archive/Favourites?$select=registeredByFullName,person/personExtra/y_rental/x_end,person/personAssociate/associateDbId,person/personAssociate/personEmail,person/consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

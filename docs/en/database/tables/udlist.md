@@ -2,10 +2,10 @@
 uid: table-UDList
 title: UDList table
 description: List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.
-generated: true
+so.generated: true
 keywords: database table UDList
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # UDList Table (136)

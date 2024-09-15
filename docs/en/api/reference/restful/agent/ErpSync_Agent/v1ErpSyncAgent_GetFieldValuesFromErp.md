@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 821,
+  "ErpConnectionId": 990,
   "ActorTypeErp": "Customer",
-  "ErpKey": "modi"
+  "ErpKey": "nam"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "D'Amore LLC",
-    "CrmFieldKey": "libero",
-    "Value": "atque",
-    "DisplayValue": "accusantium",
+    "DisplayName": "Anderson-Hettinger",
+    "CrmFieldKey": "qui",
+    "Value": "quo",
+    "DisplayValue": "ut",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 159
       }
     }
   }

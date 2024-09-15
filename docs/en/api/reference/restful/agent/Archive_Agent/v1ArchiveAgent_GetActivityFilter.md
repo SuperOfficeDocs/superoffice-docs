@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-08-29T13:28:21.7887743+02:00",
-  "ToDate": "2020-05-28T13:28:21.7887743+02:00",
+  "FromDate": "2006-11-22T04:02:01.2056679+01:00",
+  "ToDate": "2014-11-03T04:02:01.2056679+01:00",
   "AssociateList": [
     {
-      "Id": 447,
-      "Name": "Paucek-West",
-      "ToolTip": "Voluptas maxime cum dignissimos sed quia veritatis explicabo.",
-      "Deleted": true,
-      "Rank": 343,
-      "Type": "tempora",
-      "ColorBlock": 451,
-      "IconHint": "repellat",
+      "Id": 989,
+      "Name": "Waters Group",
+      "ToolTip": "Numquam aut.",
+      "Deleted": false,
+      "Rank": 229,
+      "Type": "placeat",
+      "ColorBlock": 942,
+      "IconHint": "consequuntur",
       "Selected": false,
-      "LastChanged": "1997-06-13T13:28:21.7887743+02:00",
+      "LastChanged": "2019-10-30T04:02:01.2057742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "illum",
+      "ExtraInfo": "non",
+      "StyleHint": "maxime",
       "Hidden": false,
-      "FullName": "Maude Murray",
+      "FullName": "Dortha Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 521
+          "FieldType": "System.String",
+          "FieldLength": 735
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 855,
-      "Name": "Rice-Nicolas",
-      "ToolTip": "Quis molestias fuga perspiciatis.",
+      "Id": 78,
+      "Name": "Wintheiser, Muller and Pfeffer",
+      "ToolTip": "Laboriosam ut.",
       "Deleted": false,
-      "Rank": 832,
-      "Type": "rem",
-      "ColorBlock": 393,
-      "IconHint": "facere",
-      "Selected": false,
-      "LastChanged": "2010-10-12T13:28:21.7887743+02:00",
+      "Rank": 73,
+      "Type": "reprehenderit",
+      "ColorBlock": 148,
+      "IconHint": "totam",
+      "Selected": true,
+      "LastChanged": "2021-02-25T04:02:01.2057742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "sequi",
-      "Hidden": false,
-      "FullName": "Telly Moen",
+      "ExtraInfo": "dolores",
+      "StyleHint": "quos",
+      "Hidden": true,
+      "FullName": "Katelin Turcotte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 359,
-      "Name": "Roberts-Hettinger",
-      "ToolTip": "Quia aut quam doloribus earum sint laboriosam eveniet.",
+      "Id": 695,
+      "Name": "Harber Group",
+      "ToolTip": "Et molestias autem ut.",
       "Deleted": false,
-      "Rank": 980,
-      "Type": "tempore",
+      "Rank": 833,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eaque",
-      "ColorBlock": 550,
-      "ExtraInfo": "dolores",
-      "StyleHint": "ex",
-      "FullName": "Mr. Carmela Hagenes I",
+      "IconHint": "officia",
+      "ColorBlock": 795,
+      "ExtraInfo": "accusantium",
+      "StyleHint": "vitae",
+      "FullName": "Prof. Frederik Nadia Cole II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 368
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 102
     }
   }
 }

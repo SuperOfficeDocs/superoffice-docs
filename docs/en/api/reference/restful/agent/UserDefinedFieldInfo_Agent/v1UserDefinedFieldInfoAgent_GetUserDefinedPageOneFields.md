@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 419
+  "UserGroupId": 857
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 596,
-    "ColumnId": 733,
-    "FieldDefault": "est",
-    "FieldHeight": 386,
-    "FieldLabel": "enim",
-    "FieldLeft": 91,
-    "FieldTop": 810,
+    "UDefFieldId": 942,
+    "ColumnId": 606,
+    "FieldDefault": "eveniet",
+    "FieldHeight": 179,
+    "FieldLabel": "quibusdam",
+    "FieldLeft": 102,
+    "FieldTop": 937,
     "FieldType": "Checkbox",
-    "FieldWidth": 443,
-    "FormatMask": "at",
+    "FieldWidth": 833,
+    "FormatMask": "adipisci",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 213,
-    "LabelLeft": 591,
-    "LabelTop": 150,
-    "LabelWidth": 522,
-    "LastVersionId": 535,
-    "ListTableId": 265,
+    "IsIndexed": true,
+    "LabelHeight": 888,
+    "LabelLeft": 269,
+    "LabelTop": 688,
+    "LabelWidth": 262,
+    "LastVersionId": 191,
+    "ListTableId": 832,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 281,
-    "ProgId": "minus",
+    "Page1LineNo": 404,
+    "ProgId": "officiis",
     "IsReadOnly": false,
-    "ShortLabel": "voluptate",
-    "TabOrder": 962,
-    "TextLength": 178,
-    "Tooltip": "totam",
-    "UdefIdentity": 798,
-    "UDListDefinitionId": 688,
+    "ShortLabel": "accusantium",
+    "TabOrder": 623,
+    "TextLength": 906,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 105,
+    "UDListDefinitionId": 365,
     "Justification": "Center",
-    "Version": 107,
-    "TemplateVariableName": "Willms, Windler and Turcotte",
-    "HasBeenPublished": true,
-    "MdoListName": "O'Kon, Lang and Ferry",
+    "Version": 777,
+    "TemplateVariableName": "Wolff, Wiza and Mraz",
+    "HasBeenPublished": false,
+    "MdoListName": "Casper Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldLength": 34
       }
     }
   }

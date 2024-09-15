@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 816,
-  "Name": "Luettgen-Osinski",
-  "Tooltip": "qui",
+  "HeadingId": 317,
+  "Name": "Von-Crist",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 430,
-  "UdListDefinitionId": 354
+  "Rank": 14,
+  "UdListDefinitionId": 856
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 465,
-  "Name": "Borer LLC",
-  "Tooltip": "nulla",
+  "HeadingId": 375,
+  "Name": "Schuster Inc and Sons",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 244,
-  "UdListDefinitionId": 782,
+  "Rank": 321,
+  "UdListDefinitionId": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 146
     }
   }
 }

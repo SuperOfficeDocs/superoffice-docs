@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 643,
-  "Name": "Roberts-Roob",
-  "CreatedDate": "2008-03-20T13:28:31.6792414+01:00",
-  "UpdatedDate": "1997-09-25T13:28:31.6792414+02:00",
+  "ForeignAppId": 304,
+  "Name": "Stark Inc and Sons",
+  "CreatedDate": "2014-03-01T04:02:06.6035245+01:00",
+  "UpdatedDate": "2017-08-20T04:02:06.6035245+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 561,
-      "Name": "Mann LLC",
-      "CreatedDate": "2003-10-13T13:28:31.6792414+02:00",
-      "UpdatedDate": "2016-06-10T13:28:31.6792414+02:00",
-      "AssociateFullName": "Quinten Kory Cormier III",
-      "CreatedBy": "delectus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "nesciunt",
-      "ForeignAppId": 168,
+      "ForeignDeviceId": 249,
+      "Name": "Sanford Group",
+      "CreatedDate": "2010-09-24T04:02:06.6035245+02:00",
+      "UpdatedDate": "2006-05-04T04:02:06.6035245+02:00",
+      "AssociateFullName": "Karl Tillman",
+      "CreatedBy": "ut",
+      "UpdatedBy": "eius",
+      "DeviceIdentifier": "eligendi",
+      "ForeignAppId": 293,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldLength": 11
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

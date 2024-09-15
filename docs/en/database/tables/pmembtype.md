@@ -2,10 +2,10 @@
 uid: table-PMembType
 title: PMembType table
 description: PMembType list table. List text of titles (member types) for project members.
-generated: true
+so.generated: true
 keywords: database table PMembType
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # PMembType Table (91)

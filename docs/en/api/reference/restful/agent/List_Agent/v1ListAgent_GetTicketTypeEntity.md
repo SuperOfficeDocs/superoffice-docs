@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=398
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=708
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 89,
-  "Name": "Mills, Hagenes and Botsford",
-  "Rank": 27,
-  "Tooltip": "deserunt",
-  "Icon": "ex",
-  "DefaultTicketStatus": 957,
+  "TicketTypeId": 286,
+  "Name": "Volkman Inc and Sons",
+  "Rank": 250,
+  "Tooltip": "in",
+  "Icon": "quam",
+  "DefaultTicketStatus": 589,
   "TicketStatuses": [
-    911,
-    304
+    901,
+    21
   ],
-  "DefaultTicketPriority": 700,
+  "DefaultTicketPriority": 312,
   "TicketPriorities": [
-    162,
-    266
+    826,
+    602
   ],
-  "ReplyTemplate": 800,
+  "ReplyTemplate": 264,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    173,
-    789
+    249,
+    671
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 74
     }
   }
 }

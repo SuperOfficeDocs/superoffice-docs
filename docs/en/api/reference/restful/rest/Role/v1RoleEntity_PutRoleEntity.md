@@ -107,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 806,
-  "Name": "Weimann Group",
-  "Tooltip": "itaque",
+  "RoleId": 622,
+  "Name": "Little, Kozey and Dicki",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 690,
-  "Rank": 50,
-  "Created": "2022-07-04T13:28:31.9135636+02:00",
-  "UseCategories": 426,
+  "Deleted": 20,
+  "Rank": 917,
+  "Created": "2004-02-10T04:02:06.7441349+01:00",
+  "UseCategories": 593,
   "CreatedBy": null,
-  "Updated": "2016-10-16T13:28:31.9135636+02:00",
+  "Updated": "2017-09-28T04:02:06.7441349+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 739,
-  "Name": "Corwin LLC",
+  "RoleId": 327,
+  "Name": "Botsford LLC",
   "Tooltip": "maxime",
   "RoleType": "Anonymous",
-  "Deleted": 623,
-  "Rank": 552,
-  "Created": "2019-03-12T13:28:31.9135636+01:00",
-  "UseCategories": 370,
+  "Deleted": 710,
+  "Rank": 627,
+  "Created": "2024-07-05T04:02:06.7441349+02:00",
+  "UseCategories": 510,
   "CreatedBy": null,
-  "Updated": "2016-09-05T13:28:31.9135636+02:00",
+  "Updated": "2013-04-02T04:02:06.7441349+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 855
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

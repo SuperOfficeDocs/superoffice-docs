@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Crona Group",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 982,
-  "Rank": 843,
+  "Id": 549,
+  "Name": "Mayer-Nitzsche",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 516,
+  "Rank": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

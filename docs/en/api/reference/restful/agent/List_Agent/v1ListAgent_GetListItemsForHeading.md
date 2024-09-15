@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 314,
-  "HeadingId": 427
+  "UdListDefinitionId": 255,
+  "HeadingId": 86
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Gerlach, Johnston and Hettinger",
-    "ToolTip": "Dolores consequatur id non quis quod.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "voluptate",
-    "ColorBlock": 274,
-    "IconHint": "eum",
+    "Id": 685,
+    "Name": "Schaefer-Conroy",
+    "ToolTip": "Dolores voluptatum similique error dolorem molestiae.",
+    "Deleted": true,
+    "Rank": 501,
+    "Type": "illo",
+    "ColorBlock": 728,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2001-07-15T13:28:22.9606469+02:00",
+    "LastChanged": "2023-03-03T04:02:01.847234+01:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Koepp-Ritchie",
-        "ToolTip": "Quibusdam et occaecati cumque commodi nobis nisi.",
-        "Deleted": true,
-        "Rank": 960,
-        "Type": "aperiam",
-        "ColorBlock": 857,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2017-08-01T13:28:22.9606469+02:00",
+        "Id": 182,
+        "Name": "Schmidt-Bernier",
+        "ToolTip": "Ipsa dolor atque aut.",
+        "Deleted": false,
+        "Rank": 572,
+        "Type": "tempora",
+        "ColorBlock": 507,
+        "IconHint": "animi",
+        "Selected": false,
+        "LastChanged": "2022-07-06T04:02:01.847234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "porro",
-        "Hidden": false,
-        "FullName": "Agnes Howe",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Ms. Aiyana Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 565
+            "FieldType": "System.String",
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "facilis",
+    "ExtraInfo": "saepe",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Mr. Chaim Mayert",
+    "FullName": "Ms. Troy Casper Hauck I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 51
+        "FieldLength": 467
       }
     }
   }

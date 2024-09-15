@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 531,
-    "Id": 352,
-    "HistoryName": "Maggio, Herman and O'Reilly",
-    "HistoryId": 492,
-    "AssociateId": 741,
-    "Name": "Kilback-Wehner",
-    "ItemInfo": "nihil",
+    "Rank": 712,
+    "Id": 493,
+    "HistoryName": "Wehner-O'Hara",
+    "HistoryId": 357,
+    "AssociateId": 358,
+    "Name": "Rice-Walsh",
+    "ItemInfo": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

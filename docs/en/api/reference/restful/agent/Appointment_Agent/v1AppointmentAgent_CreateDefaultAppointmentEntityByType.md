@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-03-24T13:28:21.5700806+01:00",
-  "AppointmentId": 384,
-  "Description": "Persistent object-oriented hub",
-  "Title": "dolorum",
-  "Agenda": "autem",
-  "InternalNotes": "odit",
-  "StartDate": "2007-01-28T13:28:21.5700806+01:00",
-  "EndDate": "2024-02-07T13:28:21.5700806+01:00",
+  "CreatedDate": "2013-09-23T04:02:01.0650575+02:00",
+  "AppointmentId": 479,
+  "Description": "Cloned client-driven structure",
+  "Title": "magnam",
+  "Agenda": "aut",
+  "InternalNotes": "aut",
+  "StartDate": "2017-01-24T04:02:01.0650575+01:00",
+  "EndDate": "2015-10-22T04:02:01.0650575+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 510,
+  "MotherId": 877,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-05-11T13:28:21.5700806+02:00",
+  "UpdatedDate": "2002-12-11T04:02:01.0806807+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 183,
+  "ActiveLinks": 86,
   "Links": [
     {
-      "EntityName": "Fritsch, Fisher and Strosin",
-      "Id": 877,
-      "Description": "Enhanced optimizing encoding",
-      "ExtraInfo": "quod",
-      "LinkId": 89,
+      "EntityName": "Larson-Schaefer",
+      "Id": 932,
+      "Description": "Implemented actuating ability",
+      "ExtraInfo": "quia",
+      "LinkId": 311,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 259
         }
       }
     }
   ],
-  "AlarmLeadTime": "perferendis",
+  "AlarmLeadTime": "illo",
   "HasAlarm": false,
-  "ColorIndex": 838,
-  "IsFree": true,
+  "ColorIndex": 900,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quibusdam",
-  "LeadTime": "sed",
-  "Location": "dolores",
-  "RejectCounter": 223,
+  "LagTime": "ad",
+  "LeadTime": "laudantium",
+  "Location": "natus",
+  "RejectCounter": 341,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 484,
-      "PersonId": 783,
-      "ContactId": 254,
-      "EmailId": 904,
+      "AssociateId": 861,
+      "PersonId": 132,
+      "ContactId": 91,
+      "EmailId": 274,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "bianka@lubowitzbogisich.com",
-      "Description": "Organic local challenge"
+      "EmailAddress": "manuela@stroman.ca",
+      "Description": "Upgradable demand-driven attitude"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-06-03T13:28:21.5700806+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-02-08T04:02:01.0806807+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 417,
+  "PreferredTZLocation": 548,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 659,
+  "SuggestedAppointmentId": 702,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laboriosam",
+  "CentralserviceVideomeetId": "repudiandae",
   "UserDefinedFields": {
-    "SuperOffice:1": "812576245",
-    "SuperOffice:2": "1305291139"
+    "SuperOffice:1": "Dr. Haleigh Deckow DDS",
+    "SuperOffice:2": "232480235"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "et"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "dolores"
+    "CustomFields1": "quia",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2018-07-27T13:28:21.5700806+02:00",
-  "PublishTo": "2009-05-08T13:28:21.5700806+02:00",
-  "PublishFrom": "2022-11-22T13:28:21.5700806+01:00",
+  "PublishEventDate": "2024-02-26T04:02:01.0806807+01:00",
+  "PublishTo": "1999-04-29T04:02:01.0806807+02:00",
+  "PublishFrom": "2009-12-29T04:02:01.0806807+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 686,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 111
         }
       }
     },
     {
-      "VisibleId": 686,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 111
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 85
     }
   }
 }

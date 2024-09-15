@@ -2,10 +2,10 @@
 uid: table-ErpConnector
 title: ErpConnector table
 description: One ERP Connector, known by its URL
-generated: true
+so.generated: true
 keywords: database table ErpConnector
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ErpConnector Table (417)

@@ -2,10 +2,10 @@
 uid: table-ErpInternalKey
 title: ErpInternalKey table
 description: The internal (superoffice-facing) key related to a synchronized record
-generated: true
+so.generated: true
 keywords: database table ErpInternalKey
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ErpInternalKey Table (422)

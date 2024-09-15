@@ -2,10 +2,10 @@
 uid: enum-ticketcategorydelegatemethod
 title: Enum values for TicketCategoryDelegateMethod
 description: Lists the enum values for TicketCategoryDelegateMethod.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # TicketCategoryDelegateMethod Enum

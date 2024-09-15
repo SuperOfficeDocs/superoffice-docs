@@ -40,6 +40,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <CRMScript:ResolveIncludes>
     <CRMScript:Script xsi:type="xsd:string"></CRMScript:Script>
+    <CRMScript:IgnoreErrors xsi:type="xsd:boolean">false</CRMScript:IgnoreErrors>
    </CRMScript:ResolveIncludes>
 
  </SOAP-ENV:Body>

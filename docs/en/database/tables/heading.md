@@ -2,10 +2,10 @@
 uid: table-Heading
 title: Heading table
 description: Heading items for all MDO lists, lists that are grouped and filtered.
-generated: true
+so.generated: true
 keywords: database table Heading
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Heading Table (58)

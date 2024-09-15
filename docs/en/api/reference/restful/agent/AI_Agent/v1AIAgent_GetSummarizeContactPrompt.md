@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeContactPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 810,
-  "NumSentences": 493,
-  "Summary": "consequatur",
-  "IsoLangCode": "sit"
+  "ContactId": 432,
+  "NumSentences": 121,
+  "Summary": "ipsa",
+  "IsoLangCode": "dicta"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2012-03-07T13:28:21.3824006+01:00",
-  "UserPrompt": "voluptatem",
-  "UserDisplayText": "sapiente",
-  "BotResponse": "consequuntur",
+  "Timestamp": "2014-12-10T04:02:00.9713176+01:00",
+  "UserPrompt": "delectus",
+  "UserDisplayText": "rerum",
+  "BotResponse": "libero",
   "BotActions": {
-    "BotActions1": "voluptas",
-    "BotActions2": "excepturi"
+    "BotActions1": "id",
+    "BotActions2": "praesentium"
   },
   "Attachments": [
-    "consectetur",
-    "dignissimos"
+    "possimus",
+    "rerum"
   ]
 }
 ```

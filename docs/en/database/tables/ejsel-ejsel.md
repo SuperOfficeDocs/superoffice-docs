@@ -2,10 +2,10 @@
 uid: table-ejsel_ejsel
 title: ejsel_ejsel table
 description: This table defines sources for complex selections in a many/many relationship
-generated: true
+so.generated: true
 keywords: database table ejsel_ejsel
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # ejsel\_ejsel Table (392)

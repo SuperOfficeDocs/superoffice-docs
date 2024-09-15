@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 633,
-  "ERPQuoteAlternativeKey": "tenetur",
-  "QuoteVersionId": 164,
-  "Name": "Douglas Inc and Sons",
-  "Description": "Multi-channelled web-enabled encryption",
+  "QuoteAlternativeId": 467,
+  "ERPQuoteAlternativeKey": "adipisci",
+  "QuoteVersionId": 702,
+  "Name": "Rath-Shanahan",
+  "Description": "Front-line hybrid process improvement",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12015.756,
-  "ERPDiscountAmount": 21577.59,
-  "DiscountPercent": 22580.469999999998,
-  "DiscountAmount": 11968.746,
+  "ERPDiscountPercent": 20518.298,
+  "ERPDiscountAmount": 14773.676,
+  "DiscountPercent": 81.484,
+  "DiscountAmount": 2021.4299999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "id",
-  "VAT": 1435.3719999999998,
-  "EarningPercent": 10147.892,
-  "EarningAmount": 9138.744,
-  "SubTotal": 29860.752,
-  "TotalPrice": 15710.742,
-  "ExtraField1": "non",
-  "ExtraField2": "et",
-  "ExtraField3": "officiis",
-  "ExtraField4": "vero",
-  "ExtraField5": "occaecati",
+  "VATInfo": "sunt",
+  "VAT": 22151.112,
+  "EarningPercent": 23072.507999999998,
+  "EarningAmount": 13187.872,
+  "SubTotal": 2842.538,
+  "TotalPrice": 13341.438,
+  "ExtraField1": "voluptatibus",
+  "ExtraField2": "non",
+  "ExtraField3": "et",
+  "ExtraField4": "accusantium",
+  "ExtraField5": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldLength": 554
     }
   }
 }

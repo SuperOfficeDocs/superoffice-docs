@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 380
+  "LanguageId": 61
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 460,
-    "ResourceId": 832,
-    "Text": "enim",
+    "LanguageId": 721,
+    "ResourceId": 969,
+    "Text": "doloremque",
     "Type": "Column",
-    "LocalizedTextId": 785,
+    "LocalizedTextId": 532,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 32
       }
     }
   }

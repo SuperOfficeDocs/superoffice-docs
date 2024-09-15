@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Nienow-Kulas",
-  "AssociateId": 82,
-  "DetailsTable": 902,
-  "DetailsRecord": 440,
+  "Id": 250,
+  "Name": "Johns, Collins and Becker",
+  "AssociateId": 646,
+  "DetailsTable": 419,
+  "DetailsRecord": 62,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quibusdam",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "incidunt",
+    "ParameterObject2": "omnis"
   },
-  "LastStarted": "2007-08-18T13:28:23.6167457+02:00",
-  "Created": "2018-09-17T13:28:23.6167457+02:00",
-  "StartCount": 866,
-  "DatabaseSerialNumber": "728762",
-  "Context": "officia",
-  "Result": "expedita",
+  "LastStarted": "2020-11-05T04:02:02.2378308+01:00",
+  "Created": "2000-04-21T04:02:02.2378308+02:00",
+  "StartCount": 204,
+  "DatabaseSerialNumber": "991727",
+  "Context": "illo",
+  "Result": "cumque",
   "State": "All",
-  "Description": "Cross-group mobile installation",
-  "Response": "dolorum",
-  "Request": "minima",
-  "ProgressDescription": "Cloned intermediate product",
-  "ProgressPercent": 238,
-  "FileName": "Wyman-Hansen",
+  "Description": "Decentralized radical open system",
+  "Response": "nesciunt",
+  "Request": "eveniet",
+  "ProgressDescription": "Advanced content-based process improvement",
+  "ProgressPercent": 145,
+  "FileName": "Adams-Jerde",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

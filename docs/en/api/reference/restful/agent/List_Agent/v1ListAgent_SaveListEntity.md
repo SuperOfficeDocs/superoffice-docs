@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Harber Inc and Sons",
-  "Tooltip": "eius",
+  "Id": 953,
+  "Name": "Balistreri-Mayer",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 101,
+  "Rank": 42,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Robel LLC",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 409,
+  "Id": 791,
+  "Name": "Bogan Inc and Sons",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 498,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 535
     }
   }
 }

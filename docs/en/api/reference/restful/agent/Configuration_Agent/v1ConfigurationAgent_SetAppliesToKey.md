@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Configuration/SetAppliesToKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "vel",
-  "AppliesToKey": "reprehenderit"
+  "RecipeId": "et",
+  "AppliesToKey": "natus"
 }
 ```
 

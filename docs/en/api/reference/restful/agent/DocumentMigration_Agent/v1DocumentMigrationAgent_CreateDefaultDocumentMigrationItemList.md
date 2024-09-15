@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 334,
-  "NumDocumentsAlreadyMigrated": 240,
+  "NumDocumentsOmitted": 873,
+  "NumDocumentsAlreadyMigrated": 382,
   "Documents": [
     {
-      "DocumentId": 352,
-      "ContactId": 196,
-      "PersonId": 547,
-      "SaleId": 475,
-      "ProjectId": 651,
-      "DocTmplId": 182,
-      "AssociateId": 168,
-      "UserGroupId": 558,
-      "VisibleForId": 298
+      "DocumentId": 817,
+      "ContactId": 203,
+      "PersonId": 776,
+      "SaleId": 862,
+      "ProjectId": 357,
+      "DocTmplId": 243,
+      "AssociateId": 346,
+      "UserGroupId": 617,
+      "VisibleForId": 460
     }
   ],
   "Associates": [
     {
-      "AssociateId": 477,
-      "EmailAddress": "lindsay@jast.info"
+      "AssociateId": 382,
+      "EmailAddress": "monte@haagmedhurst.co.uk"
     },
     {
-      "AssociateId": 477,
-      "EmailAddress": "lindsay@jast.info"
+      "AssociateId": 382,
+      "EmailAddress": "monte@haagmedhurst.co.uk"
     }
   ]
 }

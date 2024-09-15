@@ -2,10 +2,10 @@
 uid: table-areauserassignment
 title: areauserassignment table
 description: Link table indicating which users actually reside in this area.
-generated: true
+so.generated: true
 keywords: database table areauserassignment
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # areauserassignment Table (40)

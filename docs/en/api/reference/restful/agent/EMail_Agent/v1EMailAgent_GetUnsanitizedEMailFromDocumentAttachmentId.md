@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 278,
+  "DocId": 349,
   "AttachmentIds": [
-    "qui",
-    "autem"
+    "illo",
+    "voluptas"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 923,
-      "ContactName": "Kuhlman LLC",
-      "PersonId": 908,
-      "PersonName": "Wisozk Group",
-      "AssociateId": 930,
-      "Address": "odio",
-      "EmailId": 261,
+      "ContactId": 17,
+      "ContactName": "Schneider, Heathcote and Lang",
+      "PersonId": 438,
+      "PersonName": "Dickinson-Hilpert",
+      "AssociateId": 301,
+      "Address": "nihil",
+      "EmailId": 165,
       "DuplicatePersonIds": [
-        750,
-        263
+        152,
+        229
       ],
-      "Name": "McKenzie, Trantow and Frami",
+      "Name": "Casper-Lakin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 491
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 298,
-      "ContactName": "Larkin, McCullough and O'Connell",
-      "PersonId": 141,
-      "PersonName": "Effertz-Abernathy",
-      "AssociateId": 194,
-      "Address": "nihil",
-      "EmailId": 59,
+      "ContactId": 786,
+      "ContactName": "Thompson, Gerlach and Hammes",
+      "PersonId": 559,
+      "PersonName": "Zieme-Mertz",
+      "AssociateId": 120,
+      "Address": "suscipit",
+      "EmailId": 829,
       "DuplicatePersonIds": [
-        351,
-        349
+        668,
+        271
       ],
-      "Name": "Kling-Torp",
+      "Name": "Mosciski Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 666
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 471,
-      "ContactName": "Miller Inc and Sons",
-      "PersonId": 90,
-      "PersonName": "Reilly, Pacocha and Purdy",
-      "AssociateId": 727,
-      "Address": "libero",
-      "EmailId": 664,
+      "ContactId": 410,
+      "ContactName": "Torphy, Kutch and Thiel",
+      "PersonId": 159,
+      "PersonName": "Kuvalis Inc and Sons",
+      "AssociateId": 756,
+      "Address": "dolorem",
+      "EmailId": 233,
       "DuplicatePersonIds": [
-        447,
-        651
+        868,
+        264
       ],
-      "Name": "Abshire-Wolf",
+      "Name": "Nolan-Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 741
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "maiores",
+  "Subject": "ipsa",
+  "HTMLBody": "facere",
   "From": null,
-  "Sent": "2003-07-25T13:28:22.7416819+02:00",
-  "Size": 243,
+  "Sent": "1997-11-05T04:02:01.7373708+01:00",
+  "Size": 576,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "repellendus",
-  "IsSent": true,
+  "MessageID": "aut",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 926,
+  "ServerId": 136,
   "Attachments": [
     {
-      "Description": "Function-based hybrid support",
-      "Filename": "error",
-      "Size": 204,
-      "Type": "natus",
-      "Encoding": "blanditiis",
-      "Id": "accusamus",
-      "Disposition": "sint",
-      "IsSafeFileExtension": false,
+      "Description": "Digitized static application",
+      "Filename": "nesciunt",
+      "Size": 315,
+      "Type": "aut",
+      "Encoding": "velit",
+      "Id": "minus",
+      "Disposition": "aperiam",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 526
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Casper-Robel",
+      "Name": "Kiehn, Spencer and Maggio",
       "Values": [
-        "voluptatem",
-        "omnis"
+        "qui",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 946
         }
       }
     },
     {
-      "Name": "Casper-Robel",
+      "Name": "Kiehn, Spencer and Maggio",
       "Values": [
-        "voluptatem",
-        "omnis"
+        "qui",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 946
         }
       }
     }
   ],
-  "FolderName": "Gleichner, Abernathy and Cartwright",
-  "EmailItemId": 297,
-  "AccountId": 463,
-  "ReceivedAt": "2010-11-20T13:28:22.7416819+01:00",
+  "FolderName": "Waelchi-Dickinson",
+  "EmailItemId": 581,
+  "AccountId": 289,
+  "ReceivedAt": "2014-08-17T04:02:01.7373708+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-12-04T13:28:22.7416819+01:00",
+  "RepliedAt": "2007-12-19T04:02:01.7373708+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

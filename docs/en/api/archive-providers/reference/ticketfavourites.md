@@ -602,6 +602,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|sale/associate/userName|string|User name: User name| x |
-|sale/associate/personEmail|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/userName|string|User name: User name| x |
+|sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
 |sale/associate/isLocation|bool|Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
@@ -741,12 +743,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
-|project/LastDoBySale|date|Date of last non-completed sale|  |
-|project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/LastDoBySale|date|Date of last non-completed sale|  |
+|project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
@@ -760,7 +762,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=createdBy/assocType,person/correspondingAssociate/contactName,person/isMailingRecipient,contact/registeredDate,contact/searchPhone/formattedNumber
+GET /api/v1/archive/ticketfavourites?$select=contact/restrictionAddress/wgs84longitude,sale/associate/lastName,person/personExtra/x_person_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

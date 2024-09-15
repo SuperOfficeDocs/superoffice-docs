@@ -2,10 +2,10 @@
 uid: table-doc_document
 title: doc_document table
 description: This table contains documents.
-generated: true
+so.generated: true
 keywords: database table doc_document
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # doc\_document Table (280)

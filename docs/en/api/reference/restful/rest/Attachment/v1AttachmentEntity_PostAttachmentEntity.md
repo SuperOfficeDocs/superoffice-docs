@@ -94,13 +94,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 289,
-  "Name": "Lang-Gibson",
-  "ContentType": "quaerat",
-  "AttSize": 223,
-  "InlineImage": true,
-  "ContentId": "voluptatem",
-  "AuthKey": "ipsam",
+  "AttachmentId": 828,
+  "Name": "Johnson, Luettgen and Shields",
+  "ContentType": "impedit",
+  "AttSize": 705,
+  "InlineImage": false,
+  "ContentId": "ut",
+  "AuthKey": "possimus",
   "IsSafeFileExtension": true
 }
 ```
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 863,
-  "Name": "Rolfson-Osinski",
-  "ContentType": "ex",
-  "AttSize": 554,
-  "InlineImage": false,
-  "ContentId": "quo",
-  "AuthKey": "quis",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 810,
+  "Name": "Douglas-Hagenes",
+  "ContentType": "maiores",
+  "AttSize": 649,
+  "InlineImage": true,
+  "ContentId": "velit",
+  "AuthKey": "ut",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

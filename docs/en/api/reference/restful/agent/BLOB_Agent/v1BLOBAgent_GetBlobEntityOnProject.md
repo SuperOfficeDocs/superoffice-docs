@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 481
+  "ProjectId": 870
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 172,
-  "BlobSize": 218,
-  "Description": "Quality-focused next generation support",
-  "ExtraInfo": "repellat",
+  "BlobId": 441,
+  "BlobSize": 544,
+  "Description": "Integrated empowering matrices",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 208,
-  "CreatedDate": "2016-08-23T13:28:21.8668811+02:00",
-  "UpdatedDate": "2013-01-22T13:28:21.8668811+01:00",
+  "MimeType": "hic",
+  "OriginalSize": 220,
+  "CreatedDate": "2005-12-08T04:02:01.2374146+01:00",
+  "UpdatedDate": "2003-06-13T04:02:01.2374146+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
+  "ConceptualType": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 805
     }
   }
 }

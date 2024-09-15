@@ -83,17 +83,17 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 14,
+  "TargetDimensionId": 927,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quod",
-  "DimensionListName": "Hessel LLC",
-  "DimensionListId": 16,
-  "DimensionListLabel": "aut",
+  "DimensionListField": "minus",
+  "DimensionListName": "Marvin Inc and Sons",
+  "DimensionListId": 295,
+  "DimensionListLabel": "quasi",
   "SelectedDimensions": [
-    96,
-    108
+    804,
+    213
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 863,
+  "TargetDimensionId": 811,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "voluptatem",
-  "DimensionListName": "Labadie LLC",
-  "DimensionListId": 70,
-  "DimensionListLabel": "consequuntur",
+  "DimensionListField": "inventore",
+  "DimensionListName": "Ernser, Schmidt and Streich",
+  "DimensionListId": 36,
+  "DimensionListLabel": "nemo",
   "SelectedDimensions": [
-    491,
-    356
+    644,
+    12
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 753
     }
   }
 }

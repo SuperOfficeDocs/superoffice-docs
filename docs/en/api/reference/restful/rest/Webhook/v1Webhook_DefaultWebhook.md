@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 161,
-  "Name": "Bogan-Reichert",
+  "WebhookId": 580,
+  "Name": "Botsford Inc and Sons",
   "Events": [
-    "voluptas",
-    "ea"
+    "odit",
+    "laudantium"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "omnis",
+  "Secret": "nihil",
   "State": "Active",
-  "Type": "fuga",
+  "Type": "fugiat",
   "Headers": {
-    "Headers1": "ducimus",
-    "Headers2": "qui"
+    "Headers1": "non",
+    "Headers2": "ea"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-04-25T13:28:32.6166592+02:00",
+  "Registered": "2024-02-27T04:02:07.0409789+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-02-12T13:28:32.6166592+01:00",
+  "Updated": "2015-10-02T04:02:07.0409789+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "arvid.padberg@medhurst.biz"
+  "ErrorsEmail": "dina@moen.info"
 }
 ```

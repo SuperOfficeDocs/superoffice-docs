@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "adipisci"
+  "FromAddress": "ducimus"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 94,
-  "EMailAddress": "voluptas",
-  "AssociateId": 501,
+  "EMailAccountId": 45,
+  "EMailAddress": "labore",
+  "AssociateId": 119,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 696,
-  "ErrorCount": 602,
+  "AccountStatus": 711,
+  "ErrorCount": 207,
   "ErrorReason": "",
-  "InboxFolder": "nulla",
-  "SentFolder": "dicta",
+  "InboxFolder": "reprehenderit",
+  "SentFolder": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 477
     }
   }
 }

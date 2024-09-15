@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Erdman-Larson",
-    "ToolTip": "Nulla ipsam exercitationem labore reprehenderit.",
-    "Deleted": true,
-    "Rank": 735,
-    "Type": "optio",
-    "ColorBlock": 27,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2019-09-15T13:28:32.7572536+02:00",
+    "Id": 505,
+    "Name": "Durgan LLC",
+    "ToolTip": "Id sit sequi velit voluptas.",
+    "Deleted": false,
+    "Rank": 560,
+    "Type": "ut",
+    "ColorBlock": 369,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2018-04-12T04:02:07.119095+02:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Padberg-Bashirian",
-        "ToolTip": "Mollitia qui perferendis voluptatem.",
-        "Deleted": true,
-        "Rank": 55,
-        "Type": "laborum",
-        "ColorBlock": 667,
-        "IconHint": "dolor",
+        "Id": 2,
+        "Name": "Hoppe, Hansen and West",
+        "ToolTip": "Aperiam natus sunt.",
+        "Deleted": false,
+        "Rank": 558,
+        "Type": "eum",
+        "ColorBlock": 231,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2015-09-24T13:28:32.7572536+02:00",
+        "LastChanged": "1999-08-14T04:02:07.119095+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "aut",
+        "ExtraInfo": "ratione",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Dr. Stevie Macey Hermann",
+        "FullName": "Jimmy Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 228
+            "FieldType": "System.Int32",
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sed",
+    "ExtraInfo": "ea",
+    "StyleHint": "amet",
     "Hidden": true,
-    "FullName": "Sidney Martin Murray DDS",
+    "FullName": "Cody Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

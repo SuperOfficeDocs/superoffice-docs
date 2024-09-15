@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 758
+  "QuoteVersionId": 480
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 193,
-  "ERPQuoteVersionKey": "cupiditate",
-  "QuoteId": 203,
-  "Description": "Profound 24 hour forecast",
-  "Number": "874976",
+  "QuoteVersionId": 456,
+  "ERPQuoteVersionKey": "nemo",
+  "QuoteId": 407,
+  "Description": "Synchronised actuating website",
+  "Number": "1107160",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 547,
-  "SentDate": "2007-03-12T13:28:23.5230176+01:00",
-  "FollowupId": 366,
-  "ExpirationDate": "2003-02-24T13:28:23.5230176+01:00",
-  "DeliveryCountryId": 744,
+  "LikelyQuoteAlternativeId": 965,
+  "SentDate": "2008-03-22T04:02:02.1753367+01:00",
+  "FollowupId": 392,
+  "ExpirationDate": "2007-11-12T04:02:02.1753367+01:00",
+  "DeliveryCountryId": 603,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 536,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "ut",
-  "ERPPaymentTypeKey": "amet",
-  "ERPDeliveryTermsKey": "doloribus",
-  "ERPDeliveryTypeKey": "dolore",
-  "Rank": 313,
-  "ApprovedBy": 21,
-  "ApprovedText": "fugit",
-  "ApprovedRegisteredBy": 762,
-  "ApprovedRegisteredDate": "2017-08-29T13:28:23.5230176+02:00",
-  "ExtraField1": "fuga",
-  "ExtraField2": "rerum",
-  "ExtraField3": "neque",
-  "ExtraField4": "alias",
-  "ExtraField5": "cupiditate",
-  "LastRecalculated": "2023-06-23T13:28:23.5230176+02:00",
-  "Updated": "2016-01-23T13:28:23.5230176+01:00",
-  "UpdatedAssociateId": 389,
-  "Registered": "2009-11-02T13:28:23.5230176+01:00",
-  "RegisteredAssociateId": 682,
-  "RequestAssociateId": 373,
-  "RequestComment": "adipisci",
+  "InvoiceCountryId": 997,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "omnis",
+  "ERPPaymentTypeKey": "nobis",
+  "ERPDeliveryTermsKey": "rerum",
+  "ERPDeliveryTypeKey": "non",
+  "Rank": 443,
+  "ApprovedBy": 663,
+  "ApprovedText": "quo",
+  "ApprovedRegisteredBy": 732,
+  "ApprovedRegisteredDate": "2005-06-15T04:02:02.1753367+02:00",
+  "ExtraField1": "perferendis",
+  "ExtraField2": "voluptatum",
+  "ExtraField3": "amet",
+  "ExtraField4": "distinctio",
+  "ExtraField5": "est",
+  "LastRecalculated": "2007-12-06T04:02:02.1753367+01:00",
+  "Updated": "2004-09-19T04:02:02.1753367+02:00",
+  "UpdatedAssociateId": 412,
+  "Registered": "1998-08-03T04:02:02.1753367+02:00",
+  "RegisteredAssociateId": 106,
+  "RequestAssociateId": 949,
+  "RequestComment": "deleniti",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 47,
-      "ERPQuoteAlternativeKey": "sint",
-      "QuoteVersionId": 377,
-      "Name": "Bergnaum-Quitzon",
-      "Description": "Down-sized zero administration solution",
+      "QuoteAlternativeId": 647,
+      "ERPQuoteAlternativeKey": "in",
+      "QuoteVersionId": 143,
+      "Name": "Kautzer LLC",
+      "Description": "Ameliorated radical firmware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20236.237999999998,
-      "ERPDiscountAmount": 3437.998,
-      "DiscountPercent": 10198.036,
-      "DiscountAmount": 18111.386,
+      "ERPDiscountPercent": 21135.696,
+      "ERPDiscountAmount": 7001.356,
+      "DiscountPercent": 17904.541999999998,
+      "DiscountAmount": 27854.992,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "cupiditate",
-      "VAT": 10730.815999999999,
-      "EarningPercent": 27475.778,
-      "EarningAmount": 24122.397999999997,
-      "SubTotal": 4597.5779999999995,
-      "TotalPrice": 20935.12,
-      "ExtraField1": "doloremque",
-      "ExtraField2": "nulla",
-      "ExtraField3": "accusamus",
-      "ExtraField4": "ut",
-      "ExtraField5": "sit",
+      "VATInfo": "in",
+      "VAT": 29710.32,
+      "EarningPercent": 20129.682,
+      "EarningAmount": 18058.108,
+      "SubTotal": 24824.414,
+      "TotalPrice": 27695.158,
+      "ExtraField1": "et",
+      "ExtraField2": "id",
+      "ExtraField3": "eum",
+      "ExtraField4": "architecto",
+      "ExtraField5": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 692
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   }
 }

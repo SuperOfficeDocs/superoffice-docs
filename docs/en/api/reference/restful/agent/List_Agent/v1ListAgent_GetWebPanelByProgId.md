@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "a"
+  "ProgId": "et"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 54,
-  "Name": "Koelpin Group",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 351,
+  "WebPanelId": 38,
+  "Name": "Farrell LLC",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 405,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Halvorson, Christiansen and Schroeder",
+  "ShowInStatusBar": true,
+  "WindowName": "Hagenes-Williamson",
   "Url": "http://www.example.com/",
-  "ProgId": "dolores",
-  "Icon": 590,
+  "ProgId": "modi",
+  "Icon": 593,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=725
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=748
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-05-05T13:28:21.5544547+02:00",
-  "AppointmentId": 61,
-  "Description": "Configurable fault-tolerant conglomeration",
-  "Title": "expedita",
-  "Agenda": "adipisci",
-  "InternalNotes": "libero",
-  "StartDate": "2003-11-08T13:28:21.5544547+01:00",
-  "EndDate": "2000-03-11T13:28:21.5544547+01:00",
+  "CreatedDate": "2007-09-20T04:02:01.0650575+02:00",
+  "AppointmentId": 107,
+  "Description": "Cloned explicit protocol",
+  "Title": "ab",
+  "Agenda": "incidunt",
+  "InternalNotes": "sunt",
+  "StartDate": "2011-01-29T04:02:01.0650575+01:00",
+  "EndDate": "2017-07-16T04:02:01.0650575+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 773,
+  "MotherId": 671,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-03-27T13:28:21.5544547+01:00",
+  "UpdatedDate": "1998-01-15T04:02:01.0650575+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 429,
+  "ActiveLinks": 403,
   "Links": [
     {
-      "EntityName": "Runte-Mosciski",
-      "Id": 827,
-      "Description": "Intuitive responsive forecast",
-      "ExtraInfo": "aut",
-      "LinkId": 460,
+      "EntityName": "Homenick, Conn and Sipes",
+      "Id": 461,
+      "Description": "Reactive composite archive",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 677,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     }
   ],
-  "AlarmLeadTime": "distinctio",
-  "HasAlarm": true,
-  "ColorIndex": 320,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "hic",
-  "LeadTime": "qui",
-  "Location": "ducimus",
-  "RejectCounter": 45,
+  "AlarmLeadTime": "odit",
+  "HasAlarm": false,
+  "ColorIndex": 585,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "incidunt",
+  "LeadTime": "vero",
+  "Location": "perspiciatis",
+  "RejectCounter": 947,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 347,
-      "PersonId": 296,
-      "ContactId": 953,
-      "EmailId": 164,
-      "SendEmail": false,
+      "AssociateId": 128,
+      "PersonId": 187,
+      "ContactId": 641,
+      "EmailId": 725,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kieran@davis.us",
-      "Description": "Ameliorated web-enabled data-warehouse"
+      "EmailAddress": "shayne.conroy@miller.ca",
+      "Description": "Monitored fresh-thinking success"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-01-07T13:28:21.5544547+01:00",
+  "ActiveDate": "2021-04-15T04:02:01.0650575+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 301,
+  "PreferredTZLocation": 847,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 849,
+  "SuggestedAppointmentId": 362,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "officiis",
+  "CentralserviceVideomeetId": "iure",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "1795680834"
+    "SuperOffice:2": "Ms. Rosalia Sanford Schuppe"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "commodi"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "2023-08-19T13:28:21.5544547+02:00",
-  "PublishTo": "2021-02-02T13:28:21.5544547+01:00",
-  "PublishFrom": "1999-11-12T13:28:21.5544547+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-10-08T04:02:01.0650575+02:00",
+  "PublishTo": "2024-01-18T04:02:01.0650575+01:00",
+  "PublishFrom": "2014-07-13T04:02:01.0650575+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 938,
+      "VisibleId": 391,
       "Visibility": "All",
-      "DisplayValue": "porro",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 143
         }
       }
     },
     {
-      "VisibleId": 938,
+      "VisibleId": 391,
       "Visibility": "All",
-      "DisplayValue": "porro",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 143
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldType": "System.Int32",
+      "FieldLength": 458
     }
   }
 }

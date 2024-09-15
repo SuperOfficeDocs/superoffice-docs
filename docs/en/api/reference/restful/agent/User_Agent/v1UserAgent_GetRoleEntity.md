@@ -28,7 +28,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=484
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=281
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 593,
-  "Name": "Altenwerth, Mante and Volkman",
-  "Tooltip": "at",
+  "RoleId": 190,
+  "Name": "Jenkins, Herzog and Gibson",
+  "Tooltip": "quas",
   "RoleType": "Anonymous",
-  "Deleted": 374,
-  "Rank": 143,
-  "Created": "1998-12-21T13:28:24.1478781+01:00",
-  "UseCategories": 799,
+  "Deleted": 32,
+  "Rank": 809,
+  "Created": "1999-10-13T04:02:02.5353524+02:00",
+  "UseCategories": 93,
   "CreatedBy": null,
-  "Updated": "2008-03-11T13:28:24.1478781+01:00",
+  "Updated": "2001-10-08T04:02:02.5353524+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 772
     }
   }
 }

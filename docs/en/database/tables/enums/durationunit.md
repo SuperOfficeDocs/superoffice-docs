@@ -2,10 +2,10 @@
 uid: enum-durationunit
 title: Enum values for DurationUnit
 description: Lists the enum values for DurationUnit.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DurationUnit Enum

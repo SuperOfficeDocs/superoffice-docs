@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=consequatur
+GET /api/v1/List/ProductFamily/MDOItems?query=excepturi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Armstrong Inc and Sons",
-    "ToolTip": "Voluptatem voluptatem consectetur.",
-    "Deleted": false,
-    "Rank": 493,
-    "Type": "ea",
+    "Id": 472,
+    "Name": "Oberbrunner Inc and Sons",
+    "ToolTip": "Voluptatem rerum voluptatem voluptatem aperiam.",
+    "Deleted": true,
+    "Rank": 687,
+    "Type": "eius",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Rogahn Group",
-        "ToolTip": "Iste asperiores accusantium dolores amet.",
+        "Id": 268,
+        "Name": "Ryan-Treutel",
+        "ToolTip": "Porro totam voluptatum quis neque est adipisci dolor.",
         "Deleted": false,
-        "Rank": 41,
-        "Type": "sequi",
+        "Rank": 268,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 902,
-        "ExtraInfo": "laborum",
-        "StyleHint": "rerum",
-        "FullName": "Magnolia Abigale Leannon DVM",
+        "IconHint": "non",
+        "ColorBlock": 118,
+        "ExtraInfo": "numquam",
+        "StyleHint": "iste",
+        "FullName": "Desiree Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldType": "System.String",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "IconHint": "ipsa",
-    "ColorBlock": 125,
-    "ExtraInfo": "quo",
-    "StyleHint": "veniam",
-    "FullName": "Dr. Sheldon Clint Schaefer PhD",
+    "IconHint": "earum",
+    "ColorBlock": 805,
+    "ExtraInfo": "eos",
+    "StyleHint": "expedita",
+    "FullName": "Mrs. Abagail Alvina Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 730
       }
     }
   }

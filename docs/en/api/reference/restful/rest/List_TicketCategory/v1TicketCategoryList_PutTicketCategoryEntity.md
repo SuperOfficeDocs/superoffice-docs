@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 406,
-  "ParentId": 452,
-  "Name": "Farrell, Dibbert and Metz",
-  "Fullname": "in",
-  "CategoryMaster": 663,
+  "TicketCategoryId": 395,
+  "ParentId": 598,
+  "Name": "Keebler, Nicolas and Kuhn",
+  "Fullname": "magni",
+  "CategoryMaster": 209,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mertz Inc and Sons",
+  "ExternalName": "Mohr-Cruickshank",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 470,
-  "ReplyTemplate": 294,
-  "NotificationEmail": "carli_hartmann@mertz.uk",
+  "AssignmentLag": 298,
+  "ReplyTemplate": 237,
+  "NotificationEmail": "laverne_welch@hermanschmidt.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 831,
+  "EffectiveReplyTemplateId": 324,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "libero"
+    "CustomFields1": "qui",
+    "CustomFields2": "tempora"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 296,
-  "ParentId": 506,
-  "Name": "Schmitt LLC",
-  "Fullname": "perferendis",
-  "CategoryMaster": 242,
+  "TicketCategoryId": 401,
+  "ParentId": 477,
+  "Name": "Zemlak Group",
+  "Fullname": "eum",
+  "CategoryMaster": 999,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Johnston, Hessel and Schmidt",
+  "ExternalName": "Gorczany, Hyatt and Casper",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 818,
-  "ReplyTemplate": 111,
-  "NotificationEmail": "reanna@hilll.com",
+  "AssignmentLag": 525,
+  "ReplyTemplate": 564,
+  "NotificationEmail": "ryleigh@walter.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 443,
+  "EffectiveReplyTemplateId": 914,
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "non"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "laborum"
+    "CustomFields1": "est",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 464
     }
   }
 }

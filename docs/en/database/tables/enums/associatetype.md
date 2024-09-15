@@ -2,10 +2,10 @@
 uid: enum-associatetype
 title: Enum values for AssociateType
 description: Lists the enum values for AssociateType.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # AssociateType Enum

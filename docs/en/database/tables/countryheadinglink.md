@@ -2,10 +2,10 @@
 uid: table-CountryHeadingLink
 title: CountryHeadingLink table
 description: Heading link table for Country, for MDO headers
-generated: true
+so.generated: true
 keywords: database table CountryHeadingLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CountryHeadingLink Table (21)

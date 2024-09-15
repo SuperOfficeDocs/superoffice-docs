@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wintheiser Group",
-  "Comment": "voluptatum",
-  "StakeholderRoleId": 755,
-  "CountryId": 410,
-  "PersonId": 971,
-  "EmailDescription": "scarlett_rowe@brakus.us",
-  "EmailId": 699,
-  "EmailAddress": "camren_boyer@hirthe.uk",
-  "PhoneId": 201,
-  "ContactName": "Von Inc and Sons",
-  "ContactId": 409,
-  "SaleId": 601,
-  "Mrmrs": "neque",
-  "Firstname": "Judd",
-  "MiddleName": "Konopelski Inc and Sons",
-  "Lastname": "Towne",
-  "SaleStakeholderId": 77,
-  "Rank": 813,
-  "Phone": "698-774-2725"
+  "StakeholderRoleName": "Schmeler-Spinka",
+  "Comment": "quia",
+  "StakeholderRoleId": 66,
+  "CountryId": 547,
+  "PersonId": 718,
+  "EmailDescription": "lavon.brekke@huelemard.ca",
+  "EmailId": 861,
+  "EmailAddress": "morgan_friesen@greenfelder.uk",
+  "PhoneId": 52,
+  "ContactName": "Orn Group",
+  "ContactId": 378,
+  "SaleId": 764,
+  "Mrmrs": "possimus",
+  "Firstname": "Elody",
+  "MiddleName": "Abbott LLC",
+  "Lastname": "Kautzer",
+  "SaleStakeholderId": 713,
+  "Rank": 380,
+  "Phone": "774-176-7410 x981"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jacobi Inc and Sons",
-  "Comment": "quam",
-  "StakeholderRoleId": 734,
-  "CountryId": 631,
-  "PersonId": 303,
-  "EmailDescription": "elmer@schroeder.ca",
-  "EmailId": 958,
-  "EmailAddress": "asha@bernhardbreitenberg.ca",
-  "PhoneId": 198,
-  "ContactName": "Fritsch LLC",
-  "ContactId": 574,
-  "SaleId": 322,
-  "Mrmrs": "dolores",
-  "Firstname": "Alexie",
-  "MiddleName": "Purdy Group",
-  "Lastname": "D'Amore",
-  "SaleStakeholderId": 228,
-  "Rank": 492,
-  "Phone": "508-615-6800",
+  "StakeholderRoleName": "Harvey LLC",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 658,
+  "CountryId": 781,
+  "PersonId": 344,
+  "EmailDescription": "maya.hilll@hane.uk",
+  "EmailId": 722,
+  "EmailAddress": "eulah@dachstark.us",
+  "PhoneId": 48,
+  "ContactName": "Bruen Group",
+  "ContactId": 896,
+  "SaleId": 370,
+  "Mrmrs": "minima",
+  "Firstname": "Chester",
+  "MiddleName": "Kris Group",
+  "Lastname": "Mohr",
+  "SaleStakeholderId": 921,
+  "Rank": 996,
+  "Phone": "733.764.4650 x443",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 218
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 243,
-  "BlobSize": 112,
-  "Description": "Diverse object-oriented encryption",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": true,
+  "BlobId": 153,
+  "BlobSize": 440,
+  "Description": "Multi-tiered context-sensitive alliance",
+  "ExtraInfo": "cumque",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "pariatur",
-  "OriginalSize": 12,
-  "CreatedDate": "2020-10-14T13:28:32.5073109+02:00",
-  "UpdatedDate": "2008-04-29T13:28:32.5073109+02:00",
+  "MimeType": "mollitia",
+  "OriginalSize": 954,
+  "CreatedDate": "2001-09-01T04:02:06.9784855+02:00",
+  "UpdatedDate": "1998-03-17T04:02:06.9784855+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui"
+  "ConceptualType": "consequatur"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 493,
-  "BlobSize": 284,
-  "Description": "User-friendly methodical open architecture",
-  "ExtraInfo": "optio",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "sint",
-  "OriginalSize": 862,
-  "CreatedDate": "2010-03-01T13:28:32.5073109+01:00",
-  "UpdatedDate": "2000-06-29T13:28:32.5073109+02:00",
+  "BlobId": 782,
+  "BlobSize": 159,
+  "Description": "Balanced systemic installation",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "aut",
+  "OriginalSize": 154,
+  "CreatedDate": "2014-04-24T04:02:06.9784855+02:00",
+  "UpdatedDate": "2012-07-01T04:02:06.9784855+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "similique",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 700
     }
   }
 }

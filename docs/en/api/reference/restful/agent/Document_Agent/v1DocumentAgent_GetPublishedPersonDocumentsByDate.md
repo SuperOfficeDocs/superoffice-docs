@@ -98,14 +98,14 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 114,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2013-12-31T13:28:22.4604993+01:00",
-  "EndTime": "2024-02-10T13:28:22.4604993+01:00",
+  "PersonId": 275,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2022-04-06T04:02:01.5655043+02:00",
+  "EndTime": "2017-08-06T04:02:01.5655043+02:00",
   "Count": 942
 }
 ```
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 651,
-    "Attention": "consequatur",
-    "Header": "facilis",
-    "Name": "Douglas, Kihn and Schiller",
-    "OurRef": "sed",
-    "YourRef": "deleniti",
-    "Description": "Ameliorated hybrid database",
-    "DocumentTemplate": "eaque",
-    "IsPublished": true,
-    "PersonId": 670,
-    "PersonFullName": "Timmy Ziemann",
-    "AssociateFullName": "Noble Senger",
-    "ContactId": 864,
-    "ContactName": "Halvorson LLC",
-    "ProjectId": 433,
-    "ProjectName": "Ritchie, Herzog and Spencer",
-    "AssociateId": 329,
-    "Snum": 509,
-    "SaleId": 649,
-    "SaleName": "Boehm-Hane",
+    "DocumentId": 612,
+    "Attention": "earum",
+    "Header": "expedita",
+    "Name": "Kris, Upton and Orn",
+    "OurRef": "sint",
+    "YourRef": "assumenda",
+    "Description": "Seamless holistic success",
+    "DocumentTemplate": "dolor",
+    "IsPublished": false,
+    "PersonId": 449,
+    "PersonFullName": "Prof. Elisa Baumbach PhD",
+    "AssociateFullName": "Prof. Wellington Gibson IV",
+    "ContactId": 122,
+    "ContactName": "Veum Group",
+    "ProjectId": 43,
+    "ProjectName": "Schaden Group",
+    "AssociateId": 903,
+    "Snum": 909,
+    "SaleId": 708,
+    "SaleName": "Stamm Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 449
       }
     }
   }

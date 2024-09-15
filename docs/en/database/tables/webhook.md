@@ -2,10 +2,10 @@
 uid: table-Webhook
 title: Webhook table
 description: Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
-generated: true
+so.generated: true
 keywords: database table Webhook
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # Webhook Table (508)

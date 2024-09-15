@@ -2,10 +2,10 @@
 uid: table-SaleTypeCat
 title: SaleTypeCat table
 description: Category for sale type
-generated: true
+so.generated: true
 keywords: database table SaleTypeCat
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SaleTypeCat Table (118)

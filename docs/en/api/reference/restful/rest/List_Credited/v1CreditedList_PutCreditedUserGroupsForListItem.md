@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Jacobson, Pagac and Hane",
-    "ToolTip": "Dolor sequi doloremque enim.",
-    "Deleted": true,
-    "Rank": 498,
-    "Type": "delectus",
-    "ColorBlock": 617,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2010-06-29T13:28:32.7884933+02:00",
+    "Id": 744,
+    "Name": "Bartoletti, Denesik and Crona",
+    "ToolTip": "Beatae accusantium alias.",
+    "Deleted": false,
+    "Rank": 771,
+    "Type": "facere",
+    "ColorBlock": 910,
+    "IconHint": "atque",
+    "Selected": false,
+    "LastChanged": "1999-01-05T04:02:07.1347182+01:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Boehm Group",
-        "ToolTip": "Et impedit ut provident expedita vero voluptas.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "quas",
-        "ColorBlock": 121,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2023-12-04T13:28:32.7884933+01:00",
+        "Id": 515,
+        "Name": "Satterfield LLC",
+        "ToolTip": "Ipsam repellat minus doloribus quas.",
+        "Deleted": false,
+        "Rank": 51,
+        "Type": "dolorem",
+        "ColorBlock": 956,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2014-09-16T04:02:07.1347182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Stone Hirthe"
+        "ExtraInfo": "consectetur",
+        "StyleHint": "ullam",
+        "Hidden": true,
+        "FullName": "Rickey Duncan Huel III"
       }
     ],
-    "ExtraInfo": "fugit",
+    "ExtraInfo": "autem",
     "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Clare Veum"
+    "Hidden": false,
+    "FullName": "Dr. Alford Keshawn Rohan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Gaylord, Stroman and Herzog",
-    "ToolTip": "Perferendis dolor reprehenderit sed rerum cum.",
+    "Id": 360,
+    "Name": "O'Kon Group",
+    "ToolTip": "Voluptatem accusamus consequatur dolores rem.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "officiis",
-    "ColorBlock": 749,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2023-01-26T13:28:32.7884933+01:00",
+    "Rank": 680,
+    "Type": "maiores",
+    "ColorBlock": 720,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2015-12-20T04:02:07.1347182+01:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Hansen, Heathcote and Johnston",
-        "ToolTip": "Dolore velit hic repellat quia qui eius rerum.",
+        "Id": 384,
+        "Name": "Bruen LLC",
+        "ToolTip": "Harum odit ipsum qui.",
         "Deleted": false,
-        "Rank": 971,
-        "Type": "non",
-        "ColorBlock": 583,
-        "IconHint": "voluptas",
+        "Rank": 495,
+        "Type": "illo",
+        "ColorBlock": 213,
+        "IconHint": "ad",
         "Selected": true,
-        "LastChanged": "1999-01-21T13:28:32.7884933+01:00",
+        "LastChanged": "2004-03-11T04:02:07.1347182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "est",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Mrs. Dudley Watsica III",
+        "FullName": "Ford Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 465
+            "FieldType": "System.Int32",
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Ms. Kirk Federico Sauer Jr.",
+    "ExtraInfo": "tempora",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "River Hayes V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 867
       }
     }
   }

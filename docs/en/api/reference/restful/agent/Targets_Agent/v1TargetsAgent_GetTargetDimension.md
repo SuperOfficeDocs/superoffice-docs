@@ -26,7 +26,7 @@ Gets a TargetDimension object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=210
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=883
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 335,
+  "TargetDimensionId": 904,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Hyatt, Ritchie and Wiegand",
-  "DimensionListId": 41,
-  "DimensionListLabel": "illum",
+  "DimensionListField": "quae",
+  "DimensionListName": "Marks LLC",
+  "DimensionListId": 849,
+  "DimensionListLabel": "voluptas",
   "SelectedDimensions": [
-    915,
-    793
+    650,
+    940
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 951
     }
   }
 }

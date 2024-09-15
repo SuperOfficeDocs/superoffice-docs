@@ -2,10 +2,10 @@
 uid: table-SORCriteria
 title: SORCriteria table
 description: SuperOffice reporter data
-generated: true
+so.generated: true
 keywords: database table SORCriteria
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # SORCriteria Table (175)

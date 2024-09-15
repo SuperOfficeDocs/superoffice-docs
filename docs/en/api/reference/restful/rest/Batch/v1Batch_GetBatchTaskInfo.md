@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Macejkovic LLC",
-  "AssociateId": 472,
-  "DetailsTable": 965,
-  "DetailsRecord": 414,
+  "Id": 414,
+  "Name": "Conn-Breitenberg",
+  "AssociateId": 454,
+  "DetailsTable": 35,
+  "DetailsRecord": 818,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ratione",
-    "ParameterObject2": "et"
+    "ParameterObject1": "modi",
+    "ParameterObject2": "molestias"
   },
-  "LastStarted": "2020-03-22T13:28:32.4292054+01:00",
-  "Created": "2009-07-09T13:28:32.4292054+02:00",
-  "StartCount": 396,
-  "DatabaseSerialNumber": "1412338",
-  "Context": "laborum",
-  "Result": "soluta",
+  "LastStarted": "2009-03-15T04:02:06.9472381+01:00",
+  "Created": "2017-05-21T04:02:06.9472381+02:00",
+  "StartCount": 957,
+  "DatabaseSerialNumber": "1501868",
+  "Context": "nobis",
+  "Result": "minima",
   "State": "All",
-  "Description": "Ameliorated zero defect projection",
-  "Response": "ea",
-  "Request": "saepe",
-  "ProgressDescription": "Balanced responsive circuit",
-  "ProgressPercent": 485,
-  "FileName": "Ferry-Hyatt",
+  "Description": "Function-based demand-driven monitoring",
+  "Response": "perferendis",
+  "Request": "ut",
+  "ProgressDescription": "Synergistic executive forecast",
+  "ProgressPercent": 33,
+  "FileName": "Smith, Wehner and Windler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 349
     }
   }
 }

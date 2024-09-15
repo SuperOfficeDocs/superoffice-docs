@@ -55,6 +55,7 @@ foreach (var item in listProvider.RootItems) {
 |11|Create sale|||
 |14|Run script|||
 |12|Notify by e-mail|||
+|13|Notify by SMS|||
 
 
 ## Related MDO Lists

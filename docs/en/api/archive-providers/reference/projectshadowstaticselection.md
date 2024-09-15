@@ -174,6 +174,8 @@ Shadow contact provider for the static Project provider.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ Shadow contact provider for the static Project provider.
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |appointment/icon|listAny|Category: Displays the icon for an activity type| x |
-|appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|appointment/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
 |appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
@@ -327,12 +329,12 @@ Shadow contact provider for the static Project provider.
 |document/text|positiveString|Text: Displays a descriptive text for the item| x |
 |document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |document/contactId|listAny|Company ID: Database ID of company| x |
-|document/personId|listAny|Contact ID: Database ID of the contact row| x |
-|document/projectId|listAny|Project ID: Database ID of project record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/personId|listAny|Contact ID: Database ID of the contact row| x |
+|document/projectId|listAny|Project ID: Database ID of project record| x |
 |document/saleId|int|Sale ID: The database ID of the sale record| x |
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
@@ -431,12 +433,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 |projectMember/birthYear|int|Birth year: Displays contact's birth year| x |
 |projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
-|projectMember/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
-|projectMember/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
+|projectMember/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |projectMember/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |projectMember/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMember/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
@@ -535,12 +537,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |projectMember/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
-|projectMember/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
-|projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |projectMember/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |projectMember/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -639,12 +641,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMember/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|projectMember/registeredBy|associate|Registered by: The user who registered the data| x |
-|projectMember/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/registeredBy|associate|Registered by: The user who registered the data| x |
+|projectMember/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMember/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMember/contactSource|listAny|Source: Source (Company)| x |
 |projectMember/contactDeleted|bool|Deleted: Deleted| x |
@@ -743,12 +745,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
-|projectMember/NumberOfActivities|int|Number of activities|  |
-|projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/NumberOfActivities|int|Number of activities|  |
+|projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |projectMember/LastActivity|date|Date of last activity|  |
@@ -790,7 +792,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=statusRank,document/associate/ejDisplayName,projectMember/personExtra/x_person_timespan,projectMember/correspondingAssociate/contactName,projectMember/contactUdef/SuperOffice:11
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=appointment/associate/mrMrs,document/associate/middleName,projectMember/supportAssociateFullName,projectMember/personPrivate/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 756,
-  "Name": "Gleichner-Collier"
+  "DashTileId": 515,
+  "Name": "Bruen LLC"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 610,
-  "DashboardId": 920,
-  "Height": 524,
-  "Width": 220,
-  "Rank": 923,
+  "DashboardTileId": 64,
+  "DashboardId": 10,
+  "Height": 920,
+  "Width": 571,
+  "Rank": 685,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

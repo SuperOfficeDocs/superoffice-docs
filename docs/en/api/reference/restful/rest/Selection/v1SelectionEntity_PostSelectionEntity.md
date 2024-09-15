@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised encompassing Graphical User Interface",
-  "Postit": "consequatur",
+  "Description": "Integrated regional customer loyalty",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 665,
-  "IncludePerson": 718,
+  "GroupIdx": 486,
+  "IncludePerson": 452,
   "MemberCount": 99.99,
-  "Name": "Raynor, West and Torp",
-  "PostitTextId": 900,
-  "CreatedDate": "2010-11-07T13:28:32.2105026+01:00",
-  "SelectionId": 247,
-  "SoundEx": "sunt",
-  "Source": 879,
-  "TextId": 992,
-  "UpdatedDate": "2017-08-06T13:28:32.2105026+02:00",
-  "UpdatedCount": 504,
-  "Visibility": 306,
+  "Name": "Legros, West and Ritchie",
+  "PostitTextId": 214,
+  "CreatedDate": "2020-04-26T04:02:06.8222516+02:00",
+  "SelectionId": 893,
+  "SoundEx": "tenetur",
+  "Source": 511,
+  "TextId": 35,
+  "UpdatedDate": "2003-07-24T04:02:06.8222516+02:00",
+  "UpdatedCount": 403,
+  "Visibility": 765,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 55,
-  "TargetTableName": "Larson-Hilpert",
-  "Completed": true,
-  "LeftSelectionId": 101,
-  "RightSelectionId": 955,
+  "TargetTableNumber": 22,
+  "TargetTableName": "Hackett-King",
+  "Completed": false,
+  "LeftSelectionId": 739,
+  "RightSelectionId": 1002,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Blick LLC",
-  "ShadowProviderName": "Bins-Medhurst",
-  "ChartKey": "rerum",
-  "LastLoaded": "2014-08-06T13:28:32.2105026+02:00",
-  "LastLoadedBy": 62,
+  "MainProviderName": "Hessel Inc and Sons",
+  "ShadowProviderName": "Fisher Group",
+  "ChartKey": "eos",
+  "LastLoaded": "2024-02-26T04:02:06.8222516+01:00",
+  "LastLoadedBy": 335,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-06-20T13:28:32.2105026+02:00",
-  "LastMembershipChangeBy": 16,
+  "LastMembershipChange": "2011-09-13T04:02:06.8222516+02:00",
+  "LastMembershipChangeBy": 104,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iste",
-  "MemberTabHeading": "natus",
-  "MailingsProviderName": "Cummerata, Ward and Schultz",
-  "DashboardTileDefinitionId": 373,
+  "MainHeading": "maiores",
+  "MemberTabHeading": "nostrum",
+  "MailingsProviderName": "Breitenberg LLC",
+  "DashboardTileDefinitionId": 386,
   "VisibleFor": [
     {
-      "VisibleId": 1000,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "maxime"
     },
     {
-      "VisibleId": 1000,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "maxime"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed bifurcated projection",
-  "Postit": "omnis",
+  "Description": "Self-enabling homogeneous interface",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 388,
-  "IncludePerson": 521,
+  "GroupIdx": 643,
+  "IncludePerson": 898,
   "MemberCount": 99.99,
-  "Name": "Zemlak, Rogahn and Cruickshank",
-  "PostitTextId": 453,
-  "CreatedDate": "2017-09-05T13:28:32.2261252+02:00",
-  "SelectionId": 506,
-  "SoundEx": "mollitia",
-  "Source": 256,
-  "TextId": 442,
-  "UpdatedDate": "2020-09-21T13:28:32.2261252+02:00",
-  "UpdatedCount": 333,
-  "Visibility": 871,
+  "Name": "Ernser LLC",
+  "PostitTextId": 998,
+  "CreatedDate": "2009-07-04T04:02:06.8222516+02:00",
+  "SelectionId": 659,
+  "SoundEx": "nulla",
+  "Source": 537,
+  "TextId": 159,
+  "UpdatedDate": "2024-03-10T04:02:06.8222516+01:00",
+  "UpdatedCount": 745,
+  "Visibility": 116,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 72,
-  "TargetTableName": "Robel-Becker",
+  "CompanyUnique": true,
+  "TargetTableNumber": 434,
+  "TargetTableName": "Adams Group",
   "Completed": false,
-  "LeftSelectionId": 343,
-  "RightSelectionId": 809,
+  "LeftSelectionId": 693,
+  "RightSelectionId": 520,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turcotte, Hodkiewicz and Smitham",
-  "ShadowProviderName": "Will, O'Connell and Eichmann",
-  "ChartKey": "corrupti",
-  "LastLoaded": "2020-05-17T13:28:32.2261252+02:00",
-  "LastLoadedBy": 212,
+  "MainProviderName": "Gottlieb Inc and Sons",
+  "ShadowProviderName": "Goyette, Schuster and Kassulke",
+  "ChartKey": "ab",
+  "LastLoaded": "1998-09-17T04:02:06.8222516+02:00",
+  "LastLoadedBy": 353,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-05-17T13:28:32.2261252+02:00",
-  "LastMembershipChangeBy": 473,
+  "LastMembershipChange": "2024-05-11T04:02:06.8222516+02:00",
+  "LastMembershipChangeBy": 753,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Gibson Inc and Sons",
-  "DashboardTileDefinitionId": 897,
+  "MainHeading": "minima",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "McCullough Inc and Sons",
+  "DashboardTileDefinitionId": 678,
   "VisibleFor": [
     {
-      "VisibleId": 576,
+      "VisibleId": 286,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldLength": 432
         }
       }
     },
     {
-      "VisibleId": 576,
+      "VisibleId": 286,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldLength": 432
         }
       }
     }
@@ -294,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   },
   "_Links": {

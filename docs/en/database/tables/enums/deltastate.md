@@ -2,10 +2,10 @@
 uid: enum-deltastate
 title: Enum values for DeltaState
 description: Lists the enum values for DeltaState.
-generated: true
+so.generated: true
 keywords: database enum
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # DeltaState Enum

@@ -75,6 +75,8 @@ Sale selection archive using the selectionId as criterionmapping.
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -119,12 +121,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
-|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
@@ -223,12 +225,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -327,12 +329,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
+|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
@@ -431,12 +433,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
@@ -535,12 +537,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |appointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |appointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|appointment/registeredBy|associate|Registered by: The user who registered the data| x |
-|appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -639,12 +641,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |document/keywords|string|Keywords | x |
 |document/ourref|string|Our ref.| x |
 |document/yourref|string|Your ref.| x |
-|document/attention|string|Salutation| x |
-|document/subject|string|Subject| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/attention|string|Salutation| x |
+|document/subject|string|Subject| x |
 |document/name|string|File name | x |
 |document/mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
 |document/snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
@@ -743,12 +745,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |project/projectAssociate/associateDbId|associate|ID| x |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
@@ -847,12 +849,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/supportAssociate|associate|Stakeholder - Our service contact: Default service contact for this contact| x |
 |saleStakeholder/person/supportAssociateFullName|associate|Stakeholder - Our service contact - Full name: Default service contact for this contact| x |
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
-|saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
-|saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
+|saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
@@ -951,12 +953,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/personAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |saleStakeholder/person/personAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 |saleStakeholder/person/personAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
-|saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/personAssociate/associateDbId|associate|Stakeholder - ID| x |
 |saleStakeholder/person/personAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
 |saleStakeholder/person/personAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
@@ -1055,12 +1057,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description| x |
 |saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
 |saleStakeholder/contact/contactFax/description|string|Stakeholder - Fax - Description: Phone number description| x |
-|saleStakeholder/contact/searchPhone/formattedNumber|string|Stakeholder - Searchphone - Phone: Displays phone number|  |
-|saleStakeholder/contact/searchPhone/description|string|Stakeholder - Searchphone - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/searchPhone/formattedNumber|string|Stakeholder - Searchphone - Phone: Displays phone number|  |
+|saleStakeholder/contact/searchPhone/description|string|Stakeholder - Searchphone - Description: Phone number description| x |
 |saleStakeholder/contact/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
 |saleStakeholder/contact/email/emailAddress|string|Stakeholder - E-mail| x |
 |saleStakeholder/contact/email/emailDescription|string|Stakeholder - Description| x |
@@ -1159,12 +1161,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_dropdown|listAny|Stakeholder - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_date|date|Stakeholder - Extra date: Custom date field. User current as default.| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_time| *None* |Stakeholder - Extra time: Custom time field.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_time| *None* |Stakeholder - Extra time: Custom time field.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_boolean|bool|Stakeholder - Extra boolean: Custom boolean field.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_shorttext|string|Stakeholder - Extra short text: Custom short text field. Keep HTML tags.| x |
@@ -1263,12 +1265,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
 |quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
 |quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in| x |
-|quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.| x |
-|quote/version/alternative/quoteline/subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.| x |
+|quote/version/alternative/quoteline/subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
 |quote/version/alternative/quoteline/subscriptionQuantity|decimal|Subscription quantity: Number of subscription units offered| x |
 |quote/version/alternative/quoteline/UnitListPriceSubscriptionQuantity| *None* |Subscription list price: Unit price * subscription quantity|  |
 |quote/version/alternative/quoteline/PriceUnitSubscriptionUnit| *None* |P/S Unit: Price unit/subscription unit|  |
@@ -1304,7 +1306,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=person/isStakeholder,person/personExtra/x_person_category_relation,contact/searchPhone/formattedNumber,contact/contactUdef/SuperOffice:7,associate/simultaneousEjUser
+GET /api/v1/archive/SaleDynamicSelection?$select=updatedBy,person/personExtra/x_person_timespan,contact/email/emailAddress,appointment/registeredBy,document/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

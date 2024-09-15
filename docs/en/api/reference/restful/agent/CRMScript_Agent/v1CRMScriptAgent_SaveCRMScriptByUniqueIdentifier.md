@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quod",
+  "UniqueIdentifier": "facere",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolor",
-  "Name": "Kulas-Abshire",
-  "Description": "Synergistic executive framework",
-  "IncludeId": "molestiae",
-  "Source": "assumenda",
-  "Registered": "2008-01-25T13:28:22.3511449+01:00",
-  "RegisteredBy": "repellendus",
-  "Updated": "2021-09-27T13:28:22.3511449+02:00",
-  "UpdatedBy": "labore",
-  "Path": "cum",
+  "UniqueIdentifier": "dicta",
+  "Name": "Gutkowski-Stokes",
+  "Description": "Operative full-range attitude",
+  "IncludeId": "qui",
+  "Source": "ratione",
+  "Registered": "2017-03-04T04:02:01.5186345+01:00",
+  "RegisteredBy": "ducimus",
+  "Updated": "2019-10-20T04:02:01.5186345+02:00",
+  "UpdatedBy": "repellat",
+  "Path": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 151
     }
   }
 }

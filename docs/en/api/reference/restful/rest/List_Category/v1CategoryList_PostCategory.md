@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "Name": "Dare, Homenick and Ledner",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "UdListDefinitionId": 748,
-  "Rank": 581
+  "Id": 639,
+  "Name": "Bayer, Donnelly and Leannon",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 645,
+  "Rank": 347
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Stamm, Goyette and Luettgen",
-  "Tooltip": "dolores",
+  "Id": 72,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "UdListDefinitionId": 143,
-  "Rank": 577,
+  "UdListDefinitionId": 977,
+  "Rank": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldLength": 376
     }
   }
 }

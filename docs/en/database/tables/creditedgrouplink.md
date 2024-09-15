@@ -2,10 +2,10 @@
 uid: table-CreditedGroupLink
 title: CreditedGroupLink table
 description: User group link table for Credited, for MDO item hiding
-generated: true
+so.generated: true
 keywords: database table CreditedGroupLink
-topic: reference
-envir: onsite, online
+so.topic: reference
+so.envir: onsite, online
 ---
 
 # CreditedGroupLink Table (98)

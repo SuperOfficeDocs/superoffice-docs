@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 680,
-    "ResourceId": 234,
-    "Text": "illum",
+    "LanguageId": 898,
+    "ResourceId": 189,
+    "Text": "autem",
     "Type": "Column",
-    "LocalizedTextId": 295,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 789,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 774
       }
     }
   }

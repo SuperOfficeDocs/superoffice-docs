@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 514,
+  "HierarchyId": 887,
   "Domain": "Dashboards",
-  "Name": "Hickle-Johnson",
-  "Fullname": "aliquid",
-  "ParentId": 495,
+  "Name": "Weissnat Inc and Sons",
+  "Fullname": "velit",
+  "ParentId": 279,
   "Children": [
     {
-      "HierarchyId": 511,
+      "HierarchyId": 527,
       "Domain": "Dashboards",
-      "Name": "Lesch-Gerlach",
-      "Fullname": "est",
-      "ParentId": 118,
+      "Name": "Goyette, Abernathy and Rodriguez",
+      "Fullname": "voluptas",
+      "ParentId": 202,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-10-21T13:28:31.7104853+02:00",
-      "RegisteredAssociateId": 665,
-      "Updated": "2018-02-18T13:28:31.7104853+01:00",
-      "UpdatedAssociateId": 171,
+      "Registered": "2001-09-01T04:02:06.6191478+02:00",
+      "RegisteredAssociateId": 527,
+      "Updated": "1999-06-04T04:02:06.6191478+02:00",
+      "UpdatedAssociateId": 778,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldType": "System.String",
+          "FieldLength": 983
         }
       }
     }
   ],
-  "Registered": "1999-11-20T13:28:31.7104853+01:00",
-  "RegisteredAssociateId": 764,
-  "Updated": "2003-03-11T13:28:31.7104853+01:00",
-  "UpdatedAssociateId": 602,
+  "Registered": "2010-08-06T04:02:06.6191478+02:00",
+  "RegisteredAssociateId": 755,
+  "Updated": "1998-06-30T04:02:06.6191478+02:00",
+  "UpdatedAssociateId": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }
