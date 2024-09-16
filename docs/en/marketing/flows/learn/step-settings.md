@@ -4,8 +4,8 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: en
 audience: person
@@ -88,6 +88,14 @@ Participants reaching the finish step has reached the end of the flow. Participa
 | Text | Enter the message. |
 
 You can personalize the subject and message with contact variables (same as merge tags within the mailing editor).
+
+## Notify by SMS
+
+| Setting | Description |
+|---|---|
+| To | The recipient - "our contact", "our service contact", or specific contacts. |
+| From | Defaults to flow setting "SMS sender". |
+| Text | Enter the SMS text. You can personalize the message with contact variables (same as merge tags within the mailing editor). |
 
 ## Send email
 

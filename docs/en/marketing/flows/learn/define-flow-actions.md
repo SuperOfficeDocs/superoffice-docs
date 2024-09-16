@@ -4,8 +4,8 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: en
 audience: person
@@ -176,6 +176,16 @@ Send a notification email to a specific person as part of the flow.
 1. Enter the message you wish to send.
 
 Contact variables (merge tags) are available.
+
+### Notify by SMS
+
+Send a notification email to a specific person as part of the flow.
+
+1. Drag the **Notify by SMS** box from the step menu and drop it into an available slot in the flowchart.
+1. Specify the recipient (**To:**).
+1. Enter the message you wish to send. Contact variables (merge tags) are available.
+
+If no mobile phone number is specified on the selected contacts, no SMS will be received in the other end.
 
 ## Flow action vs. form action
 
