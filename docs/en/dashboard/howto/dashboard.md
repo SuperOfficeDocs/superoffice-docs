@@ -123,12 +123,10 @@ Response:
 }
 ```
 
-
 <!-- image references-->
 [dashboard-page]: media/dashboard-page.png
 
 <!-- links -->
-
 [0]: ../../database/tables/dashboard.md
 [1]: ../../database/tables/dashboard-tile.md
 [3]: ../../database/tables/dashboard-tile-definition.md
