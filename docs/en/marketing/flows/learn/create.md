@@ -4,8 +4,8 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: en
 audience: person
@@ -39,6 +39,7 @@ pilot: yes
 | Name | A descriptive label. |
 | Description | Explain the purpose of the flow. This text is visible internally only.|
 | Timezone | Required to limit the sending timeframe. |
+| When enrolled, remove the contact from these other flows | If checked, the participant's status changes to *Drop-out* and they exit from the selected flows. Example: remove from Lead nurturing when enrolled into Onboarding flow. |
 | Owner | Associate creating the flow |
 | Visible for | Access to the flow (owner, owner's group, all). Level of access also controlled by functional rights​. |
 | Folder | The location of the flow. |

@@ -4,8 +4,8 @@ title: Markedsføringsautomatisering - flyter
 description: Introduksjon til markedsføringsautomatisering og flyter.
 keywords: flyt, arkedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: no
 audience: person
@@ -75,8 +75,8 @@ Velg **visningsmodus** i nedre høyre hjørne.
 
 | Ikon | Modus | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på menyknappen ![ikon][img3] for å åpne, redigere eller slette flyten. |
-| ![ikon][img8] | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere eller slette flyten. |
+| ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på menyknappen ![ikon][img3] for å åpne, redigere, kopiere eller slette flyten. |
+| ![ikon][img8] | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere, kopiere eller slette flyten. |
 
 ## <a id="view"></a>Skjermbildet Vis flyt
 

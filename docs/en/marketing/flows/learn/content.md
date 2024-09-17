@@ -4,8 +4,8 @@ title: Flow content
 description: Flow content
 keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.11.2024
-version: 10.3.5
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: en
 audience: person
@@ -73,7 +73,7 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 1. Open the Flow editor.
 1. Click to select the email step where you wish to add content.
 1. Choose **Select existing email for this step**. Click to select a prepared email.
-1. Optionally, click the **Edit** icon in the email preview to update the content.
+1. Optionally, select **Task** > **Edit** in the email preview to update the content.
 1. Close the email step and click **Save**.
 
 ![Send email step with content, subject, and attachment -screenshot][img2]
@@ -90,7 +90,10 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 **As a flow administrator:**
 
 1. Open the Flow editor and go to the email step.
-1. Click the **Edit** icon on the email preview.
+1. In the email preview:
+    * Select **Task** > **Edit** to modify the content.
+    * Select **Task** > **Rename** to change the email's name.
+    * Click the red X to delete the email (so you can replace it with a different one).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

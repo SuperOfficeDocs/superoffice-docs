@@ -4,8 +4,8 @@ title: Stap instellingen
 description: Overzicht van instellingen voor de verschillende flowstappen.
 keywords: Marketing, flow, stap, stap instelling, veld
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person
@@ -83,11 +83,19 @@ Deelnemers die de voltooidstap bereiken, hebben het einde van de flow bereikt. D
 
 | Instelling | Beschrijving |
 |---|---|
-| Aan | De ontvanger - "onze contactpersoon", "onze servicecontact" of een specifiek e-mailadres. |
+| Aan | De ontvanger - "onze contactpersoon", "onze servicecontactpersoon" of een specifiek e-mailadres. |
 | Onderwerp | Tekst voor het onderwerp van de e-mail. |
 | Tekst | Voer het bericht in. |
 
 U kunt het onderwerp en het bericht personaliseren met contactvariabelen (hetzelfde als samenvoegtags binnen de mailing-editor).
+
+## Melden via SMS
+
+| Instelling | Beschrijving |
+|---|---|
+| Aan | De ontvanger - "onze contactpersoon", "onze servicecontactpersoon" of specifieke contacten. |
+| Van | Standaard ingesteld op de flowinstelling "SMS-verzender". |
+| Tekst | Voer de SMS-tekst in. Je kunt het bericht personaliseren met contactvariabelen (hetzelfde als samenvoegtags binnen de mailing-editor). |
 
 ## E-mail versenden
 

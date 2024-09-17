@@ -4,8 +4,8 @@ title: Flowindhold
 description: Flowindhold
 keywords: Marketing, flow, flowindhold, indhold, e-mail
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person
@@ -73,7 +73,7 @@ Gå til **Marketing** > **Forms**. For detaljer, se [Opret formular][1].
 1. Åbn Floweditoren.
 1. Klik for at vælge det e-mail-trin, hvor du ønsker at tilføje indhold.
 1. Vælg **Vælg eksisterende e-mail til dette trin**. Klik for at vælge en forberedt e-mail.
-1. Valgfrit, klik på **Rediger**-ikonet i e-mail-forhåndsvisningen for at opdatere indholdet.
+1. Valgfrit, vælg **Opgave** > **Rediger** i e-mail-forhåndsvisningen for at opdatere indholdet.
 1. Luk e-mail-trinnet og klik **Gem**.
 
 ![Send e-mail trin med indhold, emne og vedhæftning -screenshot][img2]
@@ -90,7 +90,10 @@ Gå til **Marketing** > **Forms**. For detaljer, se [Opret formular][1].
 **Som en flow-administrator:**
 
 1. Åbn Floweditoren og gå til e-mail-trinnet.
-1. Klik på **Rediger**-ikonet i e-mail-forhåndsvisningen.
+1. I e-mail-forhåndsvisningen:
+    * Vælg **Opgave** > **Rediger** for at ændre indholdet.
+    * Vælg **Opgave** > **Omdøb** for at ændre e-mailens navn.
+    * Klik på det røde X for at slette e-mailen (så du kan erstatte den med en anden).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

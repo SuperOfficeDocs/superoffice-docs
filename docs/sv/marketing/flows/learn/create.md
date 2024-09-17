@@ -4,8 +4,8 @@ title: Skapa ett nytt flöde
 description: Hur man skapar ett nytt flöde och definierar flödesinställningar i SuperOffice Marketing
 keywords: flöde, Flödesredigerare, flödesfält, trigger, flödeskontroll, exkluderingslista, prenumerationstyp, tidsram, framgångskriterier, väntetid, vänta på åtgärd, flödesschem, kontaktfilter
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: sv
 audience: person
@@ -39,7 +39,8 @@ pilot: yes
 | Namn | En beskrivande etikett. |
 | Beskrivning | Förklara syftet med flödet. Denna text är endast synlig internt. |
 | Tidszon | Krävs för att begränsa sändningstiden. |
-| Ägare | Associerad som skapar flödet |
+| När kontakten har registrerats, ta bort denna från dessa andra flöden | Om markerat ändras deltagarens status till *Bortfall* och de lämnar de valda flödena. Exempel: ta bort från Lead nurturing när inskriven i Onboarding-flödet. |
+| Ägare | Associerad som skapar flödet. |
 | Synlig för | Åtkomst till flödet (ägare, ägarens grupp, alla). Åtkomstnivå kontrolleras också av funktionella rättigheter. |
 | Mapp | Platsen för flödet. |
 

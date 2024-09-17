@@ -4,8 +4,8 @@ title: Een nieuwe flow maken
 description: Hoe een nieuwe flow te maken en de flowinstellingen te definiëren in SuperOffice Marketing
 keywords: Marketing, flow, flow-controle, flow maken, flow-instelling
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person
@@ -39,6 +39,7 @@ pilot: yes
 | Naam | Een beschrijvend label. |
 | Beschrijving | Leg het doel van de flow uit. Deze tekst is alleen intern zichtbaar. |
 | Tijdzone | Vereist om het verzendtijdframe te beperken. |
+| Wanneer u bent ingeschreven, verwijdert u de persoon uit deze andere flows | Als aangevinkt, verandert de status van de deelnemer naar *Dropout* en verlaat hij de geselecteerde flows. Voorbeeld: verwijderen uit Lead nurturing wanneer ingeschreven in het Onboarding-flow. |
 | Eigenaar | Medewerker die de flow aanmaakt. |
 | Zichtbaar voor | Toegang tot de flow (eigenaar, groep van de eigenaar, iedereen). Het toegangs niveau wordt ook bepaald door functionele rechten. |
 | Map | De locatie van de flow. |

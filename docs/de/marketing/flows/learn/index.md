@@ -4,8 +4,8 @@ title: Marketing-Automatisierung - Flows
 description: Einführung in die Marketing-Automatisierung und Flows von SuperOffice.
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -75,8 +75,8 @@ Wählen Sie zwischen der Listen- oder Kachelansicht im unteren rechten Bereich a
 
 | Symbol | Modus | Beschreibung |
 |:-:|---|---|
-| ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf die Menütaste ![icon][img3], um den Flow zu öffnen, zu bearbeiten oder zu löschen. |
-| ![icon][img8] | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten oder zu löschen. |
+| ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf die Menütaste ![icon][img3], um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
+| ![icon][img8] | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
 
 ## <a id="view"></a>Die Ansicht Flow anzeigen
 

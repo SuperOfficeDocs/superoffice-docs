@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: concept
 language: en
 audience: person
@@ -75,8 +75,8 @@ Choose between list or tile **view mode** in the lower-right corner.
 
 | Icon | Mode | Description |
 |:-:|---|---|
-| ![icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click the menu button ![icon][img3] to open, edit, or delete the flow. |
-| ![icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, or delete the flow. |
+| ![icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click the menu button ![icon][img3] to open, edit, copy, or delete the flow. |
+| ![icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, copy, or delete the flow. |
 
 ## <a id="view"></a>The View flow screen
 

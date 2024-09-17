@@ -4,8 +4,8 @@ title: Neuen Flow erstellen
 description: Neuen Flow erstellen
 keywords: Marketing, Flow
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -39,6 +39,7 @@ pilot: yes
 | Name | Eine beschreibende Bezeichnung. |
 | Beschreibung | Erklärt den Zweck des Flows. Dieser Text ist nur intern sichtbar.|
 | Zeitzone | Erforderlich, um den Sendezeitraum zu begrenzen. |
+| Nach der Registrierung die Person aus diesen anderen Flows entfernen | Wenn aktiviert, ändert sich der Status des Teilnehmers zu *Abbruch*, und er verlässt die ausgewählten Flows. Beispiel: Entfernen aus Lead nurturing, wenn in den Onboarding-Flow aufgenommen. |
 | Eigentumer | Mitarbeiter, der den Flow erstellt |
 | Sichtbar für | Zugriff auf den Flow (Besitzer, Besitzergruppe, alle). Das Zugriffsniveau wird auch durch funktionale Rechte gesteuert. |
 | Ordner | Der Speicherort des Flows. |

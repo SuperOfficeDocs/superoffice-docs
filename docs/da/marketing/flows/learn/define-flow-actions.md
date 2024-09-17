@@ -4,8 +4,8 @@ title: Definér flow-handlinger
 description: Definér flow-handlinger
 keywords: Marketing, flow, flow-handlinger
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person
@@ -176,6 +176,16 @@ Send en underretnings-e-mail til en bestemt person som en del af flowet.
 1. Indtast den besked, du ønsker at sende.
 
 Personvariabler (merge tags) er tilgængelige.
+
+### Giv besked via SMS
+
+Send en underretnings-SMS til en bestemt person som en del af flowet.
+
+1. Træk boksen **Giv besked via SMS** fra trinmenuen, og slip den i en tilgængelig slot i flowdiagrammet.
+2. Angiv modtageren (**Til:**).
+3. Indtast den besked, du ønsker at sende. Personvariabler (merge tags) er tilgængelige.
+
+Hvis der ikke er angivet et mobiltelefonnummer på de valgte personer, modtages ingen SMS i den anden ende.
 
 ## Flowhandling vs. formularhandling
 

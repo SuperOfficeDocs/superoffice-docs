@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduktion til SuperOffice Marketing automatisering og flows.
 keywords: Marketing, flow, kundesegment, kunderejse, kommunikation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person
@@ -75,8 +75,8 @@ Vælg mellem liste eller flise **visningstilstand** i nederste højre hjørne.
 
 | Ikon | Tilstand | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9] | Flise (thumbnail) | Viser et miniaturebillede af hvert flow med essentielle data. Klik på menuknappen ![ikon][img3] for at åbne, redigere eller slette flowet. |
-| ![ikon][img8] | Liste (arkiv, gitter) | Viser en liste over alle flows med information præsenteret i kolonner. Du kan gruppere, filtrere og tilpasse kolonnerne ligesom i [sektion faner][12]. Højreklik for at åbne kontekstmenuen for at åbne, redigere eller slette flowet. |
+| ![ikon][img9] | Flise (thumbnail) | Viser et miniaturebillede af hvert flow med essentielle data. Klik på menuknappen ![ikon][img3] for at åbne, redigere, kopiere eller slette flowet. |
+| ![ikon][img8] | Liste (arkiv, gitter) | Viser en liste over alle flows med information præsenteret i kolonner. Du kan gruppere, filtrere og tilpasse kolonnerne ligesom i [sektion faner][12]. Højreklik for at åbne kontekstmenuen for at åbne, redigere, kopiere eller slette flowet. |
 
 ## <a id="view"></a>Vis flow-skærmen
 
