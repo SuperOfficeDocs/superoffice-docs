@@ -4,8 +4,8 @@ title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
 keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: reference
 language: no
 audience: person
@@ -88,6 +88,14 @@ Deltakere som når trinnet **Avsluttet** har nådd slutten av flyten. Deltakeren
 | Tekst | Skriv inn meldingen. |
 
 Du kan tilpasse emne og melding med kontaktvariabler (samme som flettefelt i e-postredigereren).
+
+## Varsling på SMS
+
+| Innstilling | Beskrivelse |
+|---|---|
+| Til | Mottakeren - "vår kontakt", "vår tjenestekontakt" eller spesifikke kontakter. |
+| Fra | Standardinnstillingen er flytinnstillingen "SMS-avsender". |
+| Tekst | Skriv inn SMS-teksten. Du kan tilpasse meldingen med malvariabler (flettefelt). |
 
 ## Send e-post
 

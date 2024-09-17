@@ -4,8 +4,8 @@ title: Opret et nyt flow
 description: Opret et nyt flow
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person
@@ -39,6 +39,7 @@ pilot: yes
 | Navn | En beskrivende etiket. |
 | Beskrivelse | Forklar formålet med flowet. Denne tekst er kun synlig internt. |
 | Tidszone | Kræves for at begrænse sendetidsrammen. |
+| Når personen er tilmeldt, skal du fjern vedkommende fra disse andre flows | Hvis markeret, ændres deltagerens status til *Frafald*, og de forlader de valgte flows. Eksempel: fjern fra Lead nurturing, når tilmeldt Onboarding-flowet. |
 | Ejer | Den medarbejder, der opretter flowet. |
 | Synlig for | Adgang til flowet (ejer, ejers gruppe, alle). Adgangsniveau kontrolleres også af funktionelle rettigheder. |
 | Mappe | Flowets placering. |

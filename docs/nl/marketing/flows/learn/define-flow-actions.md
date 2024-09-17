@@ -4,8 +4,8 @@ title: Definieer flowacties
 description: Definieer flowacties
 keywords: Marketing, flow, flowactie, script uitvoeren
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person
@@ -192,6 +192,16 @@ Stuur een melding per e-mail naar een specifieke persoon als onderdeel van de fl
 1. Voer het bericht in dat u wilt verzenden.
 
 Contactvariabelen zijn beschikbaar.
+
+### Melden via SMS
+
+Stuur een SMS naar een specifieke persoon als onderdeel van de flow.
+
+1. Sleep het vak **Melden via SMS** uit het stappenmenu en laat deze vallen in een beschikbare sleuf in het diagram.
+2. Geef de ontvanger op (**Aan:**).
+3. Voer het bericht in dat je wilt verzenden. Contactvariabelen (merge tags) zijn beschikbaar.
+
+Als er geen mobiel nummer is opgegeven bij de geselecteerde contacten, wordt er geen SMS ontvangen aan de andere kant.
 
 ## Flowactie vs. formulieractie
 

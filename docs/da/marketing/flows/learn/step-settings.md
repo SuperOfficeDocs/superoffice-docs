@@ -4,8 +4,8 @@ title: Trinindstillinger
 description: Gennemgang af indstillingerne for de forskellige flowtrin.
 keywords: Marketing, flow, trin, trinindstilling
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: da
 audience: person
@@ -88,6 +88,14 @@ Deltagere, der når afslutningstrinnet, har nået slutningen af flowet. Deltager
 | Tekst | Indtast beskeden. |
 
 Du kan tilpasse emnet med personvariabler (det samme som mergetags).
+
+## Giv besked via SMS
+
+| Indstilling | Beskrivelse |
+|---|---|
+| Til | Modtageren - "vores kontakt", "vores servicekontakt" eller specifikke kontakter. |
+| Fra | Standardindstilling til flow "SMS-afsender". |
+| Tekst | Indtast SMS-teksten. Du kan personalisere beskeden med personvariabler (det samme som sammenfletningstags inden for mailredigeringsværktøjet). |
 
 ## Send e-mail
 

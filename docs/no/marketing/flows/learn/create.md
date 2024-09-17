@@ -4,8 +4,8 @@ title: Opprette en ny flyt
 description: Hvordan opprette ny flyt og definere flytinnstillinger i SuperOffice Marketing
 keywords: flyt, markedsføringsautomatisering, ny flyt, flytinnstilling
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: no
 audience: person
@@ -39,6 +39,7 @@ pilot: yes
 | Navn | En beskrivende etikett. |
 | Beskrivelse | Forklar formålet med flyten. Denne teksten er kun synlig internt.|
 | Tidssone | Påkrevd for å begrense sendetidspunktet. |
+| Fjern kontakten fra disse flytene når kontakten er registrert | Hvis valgt, endres deltakerens status til *Dropout*, og de forlater de valgte flytene. Eksempel: fjern fra Lead nurturing når påmeldt i Onboarding-flyten. |
 | Eier | Medarbeider som oppretter flyten. |
 | Synlig for | Tilgang til flyten (eier, eiers gruppe, alle). Tilgangsnivået kontrolleres også av funksjonelle rettigheter. |
 | Mappe | Plasseringen av flyten. |

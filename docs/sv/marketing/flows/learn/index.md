@@ -4,8 +4,8 @@ title: Marknadsföringsautomatisering - flöden
 description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: sv
 audience: person
@@ -75,8 +75,8 @@ Välj mellan lista eller tiles **vy-läge** i det nedre högra hörnet.
 
 | Ikon | Läge | Beskrivning |
 |:-:|---|---|
-| ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på menynknappen ![ikon][img3] för att öppna, redigera eller radera flödet. |
-| ![ikon][img8] | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera eller radera flödet. |
+| ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på menynknappen ![ikon][img3] för att öppna, redigera, kopiera eller radera flödet. |
+| ![ikon][img8] | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera, kopiera eller radera flödet. |
 
 ## <a id="view"></a>Skärmen Flöde
 

@@ -4,8 +4,8 @@ title: Flytinnhold
 description: Hvordan opprette og administrere flytinnhold i SuperOffice Marketing
 keywords: flyt, markedsføring, flytinnhold, innholdsopprettelse, innholdsproduksjon
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.5
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: no
 audience: person
@@ -73,7 +73,7 @@ For å opprette et skjema, gå til **Markedsføring** > **Skjemaer**. For detalj
 1. Åpne dialogvindu for å redigere flyt.
 1. Klikk for å velge e-posttrinnet der du ønsker å legge til innhold.
 1. Velg **Velg eksisterende e-post for dette trinnet**. Klikk for å velge en forberedt e-post.
-1. Eventuelt, klikk **Rediger**-ikonet i e-postforhåndsvisningen for å oppdatere innholdet.
+1. Eventuelt, velg **Oppgave** > **Endre** i e-postforhåndsvisningen for å oppdatere innholdet.
 1. Lukk e-posttrinnet og klikk **Lagre**.
 
 ![Send-e-posttrinn med innhold, emne og vedlegg -screenshot][img2]
@@ -90,7 +90,10 @@ For å opprette et skjema, gå til **Markedsføring** > **Skjemaer**. For detalj
 **Som flytadministrator:**
 
 1. Åpne dialogvindu for å redigere flyt og gå til e-posttrinnet.
-1. Klikk på **Rediger**-ikonet i e-postforhåndsvisningen.
+1. I e-postforhåndsvisningen:
+    * Velg **Oppgave** > **Endre** for å oppdatere innholdet.
+    * Velg **Oppgave** > **Gi nytt navn** for å endre e-postens navn.
+    * Klikk på den røde X-en for å fjerne e-posten (slik at du kan erstatte den med en annen).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

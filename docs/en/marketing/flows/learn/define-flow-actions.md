@@ -179,7 +179,7 @@ Contact variables (merge tags) are available.
 
 ### Notify by SMS
 
-Send a notification email to a specific person as part of the flow.
+Send a notification SMS to a specific person as part of the flow.
 
 1. Drag the **Notify by SMS** box from the step menu and drop it into an available slot in the flowchart.
 1. Specify the recipient (**To:**).

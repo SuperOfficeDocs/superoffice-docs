@@ -4,8 +4,8 @@ title: Flödesinnehåll
 description: Flödesinnehåll
 keywords: flöde, flödesinnehåll, innehåll, skapa e-post, e-postmeddelande, e-poststeg
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: sv
 audience: person
@@ -73,7 +73,7 @@ Gå till **Marknadsföring** > **Formulär**. För detaljer, se [Skapa formulär
 1. Öppna flödesredigeraren.
 1. Klicka för att välja e-poststeget där du vill lägga till innehåll.
 1. Välj **Välj befintlig e-post för detta steg**. Klicka för att välja en förberedd e-post.
-1. Klicka eventuellt på **Redigera**-ikonen i e-postförhandsgranskningen för att uppdatera innehållet.
+1. Välj eventuellt **Uppgift** > **Ändra** i e-postförhandsgranskningen för att uppdatera innehållet.
 1. Stäng e-poststeget och klicka på **Spara**.
 
 ![Skicka e-poststeg med innehåll, ämne och bilaga -screenshot][img2]
@@ -90,7 +90,10 @@ Gå till **Marknadsföring** > **Formulär**. För detaljer, se [Skapa formulär
 **Som en flödesadministratör:**
 
 1. Öppna flödesredigeraren och gå till e-poststeget.
-1. Klicka på **Redigera**-ikonen på e-postförhandsgranskningen.
+1. I e-postförhandsgranskningen:
+    * Välj **Uppgift** > **Ändra** för att uppdatera innehållet.
+    * Välj **Uppgift** > **Byt namn** för att ändra e-postens namn.
+    * Klicka på den röda X:et för att ta bort e-postmeddelandet (så att du kan ersätta det med ett annat).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

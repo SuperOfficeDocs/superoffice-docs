@@ -4,8 +4,8 @@ title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
 keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: sv
 audience: person
@@ -88,6 +88,14 @@ Deltagare som når slutfördssteget har nått slutet av flödet. Deltagaren kan 
 | Text | Ange meddelandet. |
 
 Du kan anpassa ämnet med kontaktvariabler (samma som kopplingsfält inom e-postredigeraren).
+
+## Meddela via SMS
+
+| Inställning | Beskrivning |
+|---|---|
+| Till | Mottagaren – "vår kontakt", "vår servicekontakt" eller specifika kontakter. |
+| Från | Standardinställning för flödet "SMS-avsändare". |
+| Text | Ange SMS-texten. Du kan anpassa meddelandet med kontaktvariabler (samma som kopplingsfält inom e-postredigeraren). |
 
 ## Skicka e-post
 

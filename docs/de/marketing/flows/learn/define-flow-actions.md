@@ -4,8 +4,8 @@ title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
 keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -175,6 +175,16 @@ Senden Sie eine Benachrichtigungs-E-Mail an eine bestimmte Person als Teil des A
 1. Geben Sie die Nachricht ein, die Sie senden möchten.
 
 Kontaktvariablen (Merge-Tags) sind verfügbar.
+
+### Per SMS benachrichtigen
+
+Senden Sie eine Benachrichtigungs-SMS an eine bestimmte Person als Teil des Ablaufs.
+
+1. Ziehen Sie das Feld **Per SMS benachrichtigen** aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
+2. Geben Sie den Empfänger (**An:**).
+3. Geben Sie die Nachricht ein, die Sie senden möchten. Kontaktvariablen (Merge-Tags) sind verfügbar.
+
+Wenn bei den ausgewählten Kontakten keine Mobiltelefonnummer angegeben ist, wird keine SMS empfangen.
 
 ## Flow-Aktion vs. Formular-Aktion
 

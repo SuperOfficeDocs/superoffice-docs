@@ -4,8 +4,8 @@ title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: sv
 audience: person
@@ -176,6 +176,16 @@ Skicka ett meddelande via e-post till en specifik person som en del av flödet.
 1. Ange meddelandet du vill skicka.
 
 Kontaktvariabler (kopplingsfält) är tillgängliga.
+
+### Meddela via SMS
+
+Skicka ett meddelande till en specifik person som en del av flödet.
+
+1. Dra rutan **Meddela via SMS** från stegmenyn och släpp den i ett tillgängligt fält i flödesschemat.
+2. Ange mottagaren (**Till:**).
+3. Ange meddelandet du vill skicka. Kontaktvariabler (kopplingsfält) är tillgängliga.
+
+Om inget mobilnummer är angett för de valda kontakterna kommer inget SMS att tas emot i andra änden.
 
 ## Flödesåtgärd vs. formuläråtgärd
 

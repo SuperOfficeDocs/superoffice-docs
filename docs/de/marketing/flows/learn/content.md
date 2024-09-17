@@ -73,7 +73,7 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 1. Öffnen Sie den Flow-Editor.
 1. Klicken Sie, um den E-Mail-Schritt auszuwählen, zu dem Sie Inhalt hinzufügen möchten.
 1. Wählen Sie **Existierende E-Mail für diesen Schritt auswählen**. Klicken Sie, um eine vorbereitete E-Mail auszuwählen.
-1. Klicken Sie bei Bedarf auf das **Bearbeiten**-Symbol in der E-Mail-Vorschau, um den Inhalt zu aktualisieren.
+1. Wählen Sie bei Bedarf **Aufgabe** > **Bearbeiten** in der E-Mail-Vorschau, um den Inhalt zu aktualisieren.
 1. Schließen Sie den E-Mail-Schritt und klicken Sie auf **Speichern**.
 
 ![E-Mail-Schritt mit Inhalt, Betreff und Anhang senden -screenshot][img2]
@@ -90,7 +90,10 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 **Als Flow-Administrator:**
 
 1. Öffnen Sie den Flow-Editor und gehen Sie zum E-Mail-Schritt.
-1. Klicken Sie auf das **Bearbeiten**-Symbol in der E-Mail-Vorschau.
+1. In der E-Mail-Vorschau:
+    * Wählen Sie **Aufgabe** > **Bearbeiten**, um den Inhalt zu ändern.
+    * Wählen Sie **Aufgabe** > **Umbenennen**, um den Namen der E-Mail zu ändern.
+    * Klicken Sie auf das rote X, um die E-Mail zu löschen (damit Sie sie durch eine andere ersetzen können).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

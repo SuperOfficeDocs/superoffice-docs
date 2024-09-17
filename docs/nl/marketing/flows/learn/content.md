@@ -4,8 +4,8 @@ title: Flowinhoud
 description: Flowinhoud
 keywords: Marketing, flow, flowinhoud, inhoud
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.5
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: nl
 audience: person
@@ -73,7 +73,7 @@ Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 1. Open de Flow-editor.
 1. Klik om de e-mailstap te selecteren waar u inhoud wilt toevoegen.
 1. Kies **Selecteer bestaande e-mail voor deze stap**. Klik om een voorbereide e-mail te selecteren.
-1. Klik desgewenst op het **Bewerk**-pictogram in de e-mailvoorbeeld om de inhoud bij te werken.
+1. Selecteer desgewenst **Taak** > **Bewerken** in de e-mailvoorbeeld om de inhoud bij te werken.
 1. Sluit de e-mailstap en klik op **Opslaan**.
 
 ![E-mailstap verzenden met inhoud, onderwerp en bijlage -screenshot][img2]
@@ -90,7 +90,10 @@ Ga naar **Marketing** > **Formulieren**. Voor details, zie [Formulier maken][1].
 **Als een flow-administrator:**
 
 1. Open de Flow-editor en ga naar de e-mailstap.
-1. Klik op het **Bewerk**-pictogram in de e-mailvoorbeeld.
+1. In de e-mailvoorbeeld:
+    * Selecteer **Taak** > **Bewerken** om de inhoud bij te werken.
+    * Selecteer **Taak** > **Nieuwe naam geven** om de naam van de e-mail te wijzigen.
+    * Klik op de rode X om de e-mail te verwijderen (zodat je deze kunt vervangen door een andere).
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

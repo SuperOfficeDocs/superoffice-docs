@@ -4,8 +4,8 @@ title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: no
 audience: person
@@ -175,6 +175,16 @@ Send en varslingse-post til en spesifikk person som en del av flyten.
 1. Skriv inn meldingen du ønsker å sende.
 
 Malvariabler for person er tilgjengelige.
+
+### Varsling på SMS
+
+Send en varslingsSMS til en bestemt person som en del av flyten.
+
+1. Dra **Varsling på SMS**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
+2. Angi mottakeren (**Til:**).
+3. Skriv inn meldingen du ønsker å sende. Malvariabler for person er tilgjengelige.
+
+Hvis det ikke er oppgitt et mobiltelefonnummer for de valgte kontaktene, vil ingen SMS bli mottatt i andre enden.
 
 ## Flythandling vs. skjemahandling
 

@@ -4,8 +4,8 @@ title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 09.17.2024
+version: 10.3.9
 topic: howto
 language: de
 audience: person
@@ -88,6 +88,14 @@ Teilnehmer, die den Abschlussschritt erreichen, haben das Ende des Flows erreich
 | Text | Geben Sie die Nachricht ein. |
 
 Sie können den Betreff mit Kontaktvariablen personalisieren (gleich wie Zusammenführungstags innerhalb des E-Mail-Editors).
+
+## Per SMS benachrichtigen
+
+| Einstellung | Beschreibung |
+|---|---|
+| An | Der Empfänger – "unser Kontakt", "unser Servicekontakt" oder spezifische Kontakte. |
+| Von | Standardmäßig auf Flow-Einstellung "SMS-Sender" festgelegt. |
+| Text | Geben Sie den SMS-Text ein. Sie können die Nachricht mit Kontaktvariablen personalisieren (gleich wie Zusammenführungstags innerhalb des E-Mail-Editors). |
 
 ## E-Mail senden
 
