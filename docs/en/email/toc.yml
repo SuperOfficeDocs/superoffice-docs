@@ -8,12 +8,12 @@ items:
     - name: Debug
       href: mail-link/debug.md
   - name: SuperOffice for Outlook
-    href: superoffice-for-outlook/learn/index.md
+    topicHef: superoffice-for-outlook/learn/index.md
     items:
+    - name: User guide
+      topicHref: superoffice-for-outlook/learn/index.md
     - name: Requirements
-      href: superoffice-for-outlook/learn/requirements.md
-    - name: Get add-in
-      href: superoffice-for-outlook/learn/add.md
+      topicHref: superoffice-for-outlook/learn/requirements.md
     - name: Deploy centrally
       href: superoffice-for-outlook/it/deploy.md
   - name: Mailgun
