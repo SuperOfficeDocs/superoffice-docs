@@ -2,10 +2,13 @@
 uid: help-en-ui-side-panel
 title: Use side panel to work more efficiently
 description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on.
-author: Bergfrid Dias
-date: 03.02.2023
 keywords: side panel
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -80,10 +83,6 @@ Shows all your [favorites][8].
 * Click **Refresh** to update the list of favorites.
 * Right-click a favorite to open the context menu.
 
-## Notepad
-
-Opens the [Notepad][9] in the side panel.
-
 ## Preview
 
 Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [Follow-up dialog][6], where you can view and edit the contact or activity.
@@ -139,7 +138,6 @@ In Settings and maintenance, you can also define your own views for the side pan
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
-[9]: ../../basics/notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/use-side-panel.md
 

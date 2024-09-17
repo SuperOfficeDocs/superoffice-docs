@@ -2,10 +2,13 @@
 uid: help-nl-ui-top-bar
 title: Knoppen in de menubalk
 description: Knoppen in de menubalk
-author: SuperOffice RnD
-date: 03.02.2023
 keywords: bovenste balk, (knop)
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -66,7 +69,6 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 | Snelkoppeling kopiëren | [Snelkoppelingen naar items maken][15] |
 | Instellingen dupliceren | Wordt gebruikt om [dupliceringsinstellingen][8] voor bedrijven, projecten en selecties te bewerken. |
 | Filter | Wordt gebruikt om de [filterinstellingen][2] te bewerken. |
-| Kladblok weergeven | Hiermee opent u [het Kladblok][9] en maakt u een nieuwe notitie. |
 | Dialoogvenster voor bevestiging weergeven tijdens verzenden van uitnodigingen | Wordt gebruikt om het dialoogvenster voor bevestiging te activeren/deactiveren bij het verzenden van e-mails naar deelnemers aan de vergadering vanuit het dialoogvenster **Vervolgactiviteit**. |
 | Targets | Wordt gebruikt om [verkooptargets][17] toe te voegen. |
 | Systeemhandtekening bewerken | Wordt gebruikt om de standaard e-mailhandtekening te bewerken. |
@@ -83,7 +85,6 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

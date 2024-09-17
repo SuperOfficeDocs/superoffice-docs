@@ -2,10 +2,13 @@
 uid: help-de-ui-top-bar
 title: Schaltflächen in der Menüleiste
 description: Schaltflächen in der Menüleiste
-author: SuperOffice RnD
-date: 03.02.2023
 keywords: Obere Leiste, Schaltfläche
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -66,7 +69,6 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 | Shortcut kopieren | [Shortcuts zu Einträgen erstellen][15] |
 | Duplikateinstellungen | Wird verwendet, um die [Duplikateinstellungen][8] für Firmen, Projekte und Selektionen zu bearbeiten. |
 | Filter | Wird verwendet, damit Sie die [Filtereinstellungen bearbeiten][2] können. |
-| Notizblock anzeigen | Öffnet den [Notizblock][9] und erstellt eine neue Notiz. |
 | Bestätigungsdialogfeld beim Senden von Einladungen anzeigen | Wird verwendet, um das Bestätigungsdialogfeld beim Senden von E-Mails an Teilnehmer vom Dialogfeld **Folgeaufgabe** zu aktivieren/deaktivieren. |
 | Ziele | Wird verwendet, um [Vertriebsziele][17] hinzuzufügen. |
 | Systemsignatur bearbeiten | Wird verwendet, um die Standard-E-Mail-Signatur zu bearbeiten. |
@@ -83,7 +85,6 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

@@ -2,10 +2,13 @@
 uid: help-nl-ui-side-panel
 title: Het zijpaneel gebruiken om efficiënter te werken
 description: "Met het zijpaneel hebt u toegang tot informatie die is opgeslagen in andere delen van SuperOffice CRM, zonder het scherm te verlaten waarop u zich bevindt."
-author: Bergfrid Dias
-date: 03.02.2023
 keywords: zijpaneel
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -80,10 +83,6 @@ Geeft al uw [favorieten][8] weer.
 * Klik op **Vernieuwen** om de lijst met favorieten bij te werken.
 * Klik met de rechtermuisknop op een favoriet om het contextmenu te openen.
 
-## Kladblok
-
-Hiermee wordt [Kladblok][9] in het zijpaneel geopend.
-
 ## Afdrukvoorbeeld
 
 Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde project, de geselecteerde persoon, het geselecteerde projectlid of het geselecteerde selectielid in het zijpaneel weergegeven. Afhankelijk van het geselecteerde item kan het venster koppelingen naar contactpersonen en activiteiten bevatten. Als u op een van deze koppelingen klikt, wordt het [persoonskaart][2], het [dialoogvenster Document][5] of het [Dialoogvenster Vervolgactiviteiten][6] geopend, waar u de persoon of activiteit kunt weergeven en bewerken.
@@ -139,7 +138,6 @@ In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel de
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
-[9]: ../../basics/notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/use-side-panel.md
 
