@@ -2,10 +2,13 @@
 uid: help-sv-ui-top-bar
 title: Knappar i menyfältet
 description: Knappar i menyfältet
-author: SuperOffice RnD
-date: 03.02.2023
 keywords: toppraden, knapp
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -66,7 +69,6 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 | Kopiera genväg | [Skapa genvägar till poster][15] |
 | Dubblettinställningar | Används för att redigera [dubblettinställningarna][8] för företag, projekt och urval. |
 | Filter | Används för att redigera [filterinställningarna][2]. |
-| Visa anteckningsblock | Öppnar [anteckningsblocket][9] och skapar en ny anteckning. |
 | Visa bekräftelsedialogruta när du skickar förfrågningar | Används för att aktivera/inaktivera dialogrutan med bekräftelsen när du skickar e-postmeddelanden till deltagarna på mötet från dialogrutan **Händelse**. |
 | Mål | Används för att lägga till [försäljningsmål][17]. |
 | Redigera systemsignatur | används för att redigera din standardsignatur för e-post. |
@@ -83,7 +85,6 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

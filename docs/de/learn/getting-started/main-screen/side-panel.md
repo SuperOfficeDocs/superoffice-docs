@@ -2,10 +2,13 @@
 uid: help-de-ui-side-panel
 title: Seitenleiste für eine effizientere Arbeit verwenden
 description: "Über die Seitenleiste erhalten Sie Zugriff auf Informationen, die in anderen Teilen von SuperOffice CRM gespeichert sind, ohne die Ansicht zu verlassen, auf dem Sie sich befinden."
-author: Bergfrid Dias
-date: 03.02.2023
 keywords: Seitenleiste
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -80,10 +83,6 @@ Zeigt alle Ihre [Favoriten][8] an.
 * Klicken Sie auf **Aktualisieren**, um die Favoritenliste zu aktualisieren.
 * Klicken Sie mit der rechten Maustaste auf einen Favoriten, um das Kontextmenü zu öffnen.
 
-## Notizblock
-
-Öffnet den [Notizblock][9] auf der Seitenleiste.
-
 ## Vorschau
 
 Zeigt eine Vorschau einer ausgewählten Aktivität oder Person, eines Projekts, Projektmitglieds oder Selektionsmitglieds auf der Seitenleiste an. Je nach ausgewähltem Element kann das Fenster Verknüpfungen zu Personen und Aktivitäten enthalten. Wenn Sie auf eine dieser Verknüpfungen klicken, wird die [Personenkarte][2], das [Dialogfeld Dokument][5] oder das [Dialogfeld Folgeaufgaben][6] angezeigt, wo Sie die Informationen zur Person oder Aktivität anzeigen und bearbeiten können.
@@ -139,7 +138,6 @@ Sie können in Einstellungen und Verwaltung auch Ihre eigenen Anzeigen für die 
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
-[9]: ../../basics/notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/use-side-panel.md
 

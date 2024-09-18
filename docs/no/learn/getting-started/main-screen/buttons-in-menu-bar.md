@@ -2,10 +2,13 @@
 uid: help-no-ui-top-bar
 title: Knapper i menylinjen
 description: Knapper i menylinjen
-author: SuperOffice RnD
-date: 03.02.2023
 keywords: toppraden, knapp
+author: SuperOffice RnD
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -66,7 +69,6 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 | Kopier snarvei | [Opprett snarveier til oppføringer][15] |
 | Duplikatinnstillinger | Brukes til å redigere [Duplikatinnstillinger][8] for firmaer, prosjekter og utvalg. |
 | Filter | Brukes til å redigere [filterinnstillingene][2]. |
-| Vis Notisblokk | Åpner [Notisblokk][9] og oppretter et nytt notat. |
 | Vis bekreftelsesdialog ved sending av invitasjoner | Brukes til å aktivere/deaktivere bekreftelsesdialogen når du sender e-post til møtedeltakere fra dialogboksen **Oppfølging**. |
 | Mål | Brukes til å legge til [salgsmål][17]. |
 | Redigere systemsignatur | Brukes til å redigere standard e-postsignatur. |
@@ -83,7 +85,6 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

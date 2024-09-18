@@ -3,9 +3,11 @@ uid: help-da-ui-side-panel
 title: Brug sidepanel til at arbejde mere effektivt
 description: "Sidepanelet giver dig adgang til oplysninger, der er gemt i andre dele af SuperOffice CRM, uden at forlade den skærm, du er på."
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: sidepanel
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -80,10 +82,6 @@ Viser alle dine [foretrukne][8].
 * Klik på **Opdater** for at opdatere listen over foretrukne.
 * Højreklik på en foretrukken for at åbne genvejsmenuen.
 
-## Notesblok
-
-Åbner [notesblokken][9] i sidepanelet.
-
 ## Forhåndsvisning
 
 Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager eller udvalgsmedlem på sidepanelet. Afhængig af, hvilket element der er valgt, kan vinduet indeholde forbindelser til personer og aktiviteter. Hvis du klikker på et sådant link, åbnes [personkortet][2], [dialogboksen Dokument][5] eller [dialogboksen Opfølgning][6], hvor du kan åbne og redigere personen eller aktiviteten.
@@ -139,7 +137,6 @@ I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sid
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
-[9]: ../../basics/notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/use-side-panel.md
 

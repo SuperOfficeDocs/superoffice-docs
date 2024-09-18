@@ -2,10 +2,13 @@
 uid: help-en-ui-top-bar
 title: Buttons in the menu bar
 description: Buttons in the menu bar
-author: Kirsti Aakerholt
-date: 06.28.2023
 keywords: top bar, button
+author: Kirsti Aakerholt
+date: 09.17.2024
+version: 10.3.9
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -67,7 +70,6 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 | Duplicate settings | Used to edit the [duplicate settings][8] for companies, projects and selections. |
 | Filter | Used to edit the [filter settings][2]. |
 | Knowledge base | Used to access external documents (files), email addresses, FAQ and replay templates in Service. |
-| Show Notepad | Opens [the Notepad][9] and creates a new note. |
 | Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting attendees from the **Follow-up** dialog. |
 | Targets | Used to add [sales targets][17]. |
 | Edit system signature | Used to edit the default email signature. |
@@ -87,7 +89,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 | In-app Resource Centre | Opens up the Resource centre with available guided tours, help, and inspiration - ONLINE only. |
 | Community | Direct link to SuperOffice Community. |
 | Contact support | Opens up a form to register a request where you can add your issue. |
-What's new | Opens the splash screen with the latest details. |
+| What's new | Opens the splash screen with the latest details. |
 | Help files (F1) | Direct link to user guides for SuperOffice. |
 | About | Shows the details of your software such as version, company, user, customer ID. |
 
@@ -95,7 +97,6 @@ What's new | Opens the splash screen with the latest details. |
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
-[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

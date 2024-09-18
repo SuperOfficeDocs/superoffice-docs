@@ -2,10 +2,13 @@
 uid: help-sv-ui-side-panel
 title: Använd sidopanelen för att arbeta mer effektivt
 description: Med sidopanelen kan du komma åt information som lagras i andra delar av SuperOffice CRM utan att lämna skärmen du befinner dig på.
-author: Bergfrid Dias
-date: 03.02.2023
 keywords: sidopanel
+author: Bergfrid Dias
+date: 09.17.2024
+version: 10.3.9
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -80,10 +83,6 @@ Visar alla dina [favoriter][8].
 * Klicka på **Uppdatera** för att uppdatera listan med favoriter.
 * Högerklicka på en favorit för att öppna snabbmenyn.
 
-## Anteckningsblock
-
-Öppnar [Anteckningsblocket][9] på sidopanelen.
-
 ## Förhandsgranskning
 
 Visar en förhandsgranskning av aktiviteten, projektet, kontakten, projektdeltagaren eller urvalsmedlemmen som har markerats på sidopanelen. Fönstret kan visa länkar till kontakter och aktiviteter beroende på vilka poster som har markerats. När du klickar på en sådan länk öppnas [kontaktkortet][2], [dialogrutan Dokument][5] eller [dialogrutan Händelse][6] där du kan visa och redigera kontakten eller aktiviteten.
@@ -139,7 +138,6 @@ I Inställningar och underhåll kan du även definiera egna översikter för sid
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
-[9]: ../../basics/notes.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/use-side-panel.md
 
