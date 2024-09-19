@@ -4,7 +4,7 @@ title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook
 author: Bergfrid Dias
-date: 09.17.2024
+date: 09.20.2024
 version_sofo: 2024.8.12
 topic: concept
 language: en
@@ -12,82 +12,79 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# SuperOffice for Outlook (work in progress!)
+# SuperOffice for Outlook
 
 [View in the SuperOffice AppStore][1]
 
-The SuperOffice for Outlook app lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
+The **SuperOffice for Outlook** add-in helps you work effortlessly between Microsoft 365 and SuperOffice CRM. With this integration, you can manage key CRM tasks directly from your email without switching between systems, saving you time and helping you stay productive.
 
-After connecting SuperOffice for Outlook you can save new contacts, emails, sales, activities, or requests directly from Outlook. The add-in panel let you see key contact, sale, and request history information quickly. Get an overview of contacts and companies included in the mail to give you instant context on who you are interacting with.
+## Why SuperOffice for Outlook?
 
-![In the Action tab you can carry out tasks such as save to email and create activity in SuperOffice -screenshot][img1]
+With the add-in, you can quickly:
 
-The SuperOffice for Outlook add-in will help you save time and stay productive by letting you access key CRM information and features directly in your email – so you don’t have to switch between systems.
+* Save new contacts, emails, sales, activities, or requests from Outlook.
+* Access contact, sale, and request details for anyone in the email thread.
+* Get instant context on who you are interacting with through the add-in panel.
 
-Add new contacts and companies, save emails and documents, or create new sales, activities, or requests directly from Outlook. See key information related to a contact, sale or request quickly and easily through the add-in panel in real time.
+You will have key information at your fingertips, right when you need it. Plus, it is fully cloud-based, so no installation is required – simply enable it from your browser, and you are ready to go.
 
-The zero-footprint application means you don’t need to install anything - simply add and connect. No installation also means no need to carry out updates. The cloud solution will centrally and automatically update everything for you.
+![Action tab showing save to email and create activity options in SuperOffice -screenshot][img1]
 
-## Key features
+## Key Features
 
-With the SuperOffice for Outlook add-in you can:
+The SuperOffice for Outlook add-in lets you:
 
-* Save contacts​
-* Archive emails​
-* Create appointments​
-* Create tasks​
-* Create requests​
+* Save contacts and companies
+* Archive emails
+* Create appointments and tasks
+* Create sales, activities, and requests
 * Add messages to request​
-* Create sales
-* Save attachments from your e-mail client into SuperOffice CRM
-* Add SuperOffice CRM data to calendar events​
+* Save attachments to SuperOffice CRM
+* Add CRM data to calendar events
 
-Get an overview of contacts included in the mail to give you instant context on who you are interacting with.
-Add new contacts, companies, sales and requests to your SuperOffice CRM directly from Outlook.
-Save emails and attachments straight into SuperOffice CRM.
-Update an existing sale with a follow-up activity or add a message to an existing request.
-A zero footprint application - meaning there are no installation requirements. You can simply enable it on your browser.
-A cloud solution - so you don’t have to worry about updates.
-This free add-in requires you to have a subscription to SuperOffice CRM Online and Office 365.
+Everything you need is integrated into your inbox, making your workflow smoother and more efficient.
 
-## Price
+## How to install
 
-The SuperOffice for Outlook add-in is free of charge and covered under the current Terms of Service for your SuperOffice CRM Online installation.
-
-## How to install SuperOffice for Outlook
-
-To connect SuperOffice for Outlook, go to our [App Store][1] and follow the instructions in the **How to install** tab. There are no installation required, you can simply enable it from your browser.
+1. Head to our [App Store][1] and check out the **How to Install** tab.
+2. Follow the simple steps to enable the add-in – no download required.
 
 > [!NOTE]
-> You need to have an active Microsoft 365 subscription to connect the add-in to Outlook.
+> You need an active Microsoft 365 subscription and a SuperOffice CRM Online account to connect the add-in.
 
-Note: SuperOffice for Outlook is available for customers who have MS 365​
+## Deployment options
 
-## Deployment
+You can deploy the add-in in two ways:
 
-It can be deployed either [per Outlook user][5] directly, or [centrally][6].
+* [For individual Outlook users][5]
+* [Centrally managed by administrators][7]
 
-[View requirements][4]
+[View system requirements][4]
+
+## Pricing
+
+The **SuperOffice for Outlook** add-in is included free of charge with your existing SuperOffice CRM Online subscription.
 
 ## Updates
 
-Add-ins deployed from the Store will automatically receive updates as the providers continuously improve their service.
-
-You can join our pilot programs and get early access to the latest versions of our software and the newest features. [More info][1]
+Because the add-in is cloud-based, it is always up to date without any action on your part. You will automatically get the latest improvements and features. Want early access to new features? Join our pilot program for exclusive previews. [Learn more][1]
 
 ## Related content
 
+* [Save to SuperOffice][3]
+* [Add CRM data to Outlook event][6]
 * [SharePoint document library][2]
-* [Overview of the SharePoint integration][3]
+* [SuperOffice Inbox][8]
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [2]: ../../../document/library/learn/index.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/index.md
-
+[3]: save-to-superoffice.md
 [4]: requirements.md
 [5]: get.md
-[6]: ../it/deploy.md
+[6]: add-crm-data-to-event.md
+[7]: ../it/deploy.md
+[8]: ../../inbox/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png
