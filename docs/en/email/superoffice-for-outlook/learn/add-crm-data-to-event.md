@@ -4,7 +4,7 @@ title: Add CRM data to Outlook event
 description: Add CRM data to Outlook event
 keywords: SuperOffice for Outlook, Outlook, email, event, calendar, CRM data
 author: Erik Lebiko, Bergfrid Dias
-date: 09.17.2024
+date: 09.20.2024
 version_sofo: 2024.8.12
 topic: howto
 language: en
@@ -12,48 +12,49 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# Add CRM data to Outlook event work in progress!
+# Add CRM data to Outlook event
 
-## New event​
+## New event
 
-1. Select New event in Outlook​.
+1. Select **New event** in Outlook.
 
-1. Open SuperOffice for Outlook (click on the owl or click on the … dots and select the add-in in the action tab for Outlook).​
+1. [Open SuperOffice for Outlook][1] (if not pinned)​.
 
-1. Add persons to the Invite attendees in Outlook.
+1. Add persons to the **Invite attendees** field in Outlook.
 
-1. If the email / contact is stored in SuperOffice, it will show contact information and automatically fill in Company and Contact. You can hoover over the contact and click on **Open in CRM** to view information about that contact in SuperOffice CRM.
+    ![SuperOffice for Outlook, add CRM data to event -screenshot][img1]
 
-1. Make the appropriate changes to the fields to your convenience.
+    If the email or contact is stored in SuperOffice, their contact information will appear, and the **Company** and **Contact** fields will auto-fill. You can hover over the contact and click **Open in CRM** to view detailed information in SuperOffice CRM.
 
-1. Press Save.​
+    You can also **invite contacts from SuperOffice** for added convenience.
 
-You can also Invite contacts from SuperOffice for your convenience.
+1. Adjust the event details as needed.
 
-![SuperOffice for Outlook, add CRM data to event -screenshot][img1]
+1. Press **Save** to finalize the event.
 
-## Existing event​
+## Existing event
 
-1. Open an existing event in Outlook​.
+1. Open an existing event in Outlook.
 
-1. Open SuperOffice for Outlook (click on the owl or click on the … dots and select the add-in in the action tab for Outlook).​
+1. [Open SuperOffice for Outlook][1] (if not pinned)​.
 
-    * If there already exists SuperOffice CRM data, it will be shown.
-    * If not, it will try to look up the organizer in SuperOffice CRM.​
+    * If SuperOffice CRM data exists for the attendees, it will be displayed.
+    * If no data exists, the add-in will attempt to find the organizer in SuperOffice CRM.
 
-1. The same as step 4-6 above.​
+1. Follow the same steps as outlined above to modify or save the event.
 
 > [!NOTE]
-> Your need Synchronizer for SuperOffice for this functionality. Calendar events synced from SuperOffice will not be editable, but you can view the information in Outlook.
+> You need **Synchronizer for SuperOffice** for this functionality. Calendar events synced from SuperOffice CRM are view-only in Outlook, but you can still view contact information.
 
-## notes
+## Additional information
 
-To view information about a known contacts sales, projects and activities follow these steps:
+To view sales, projects, or activities related to a contact, follow these steps:
 
-1. In the SuperOffice sidebar on the Action/People tab select the name of the known contact.
-2. You will be able to see vital contact details, as well as information on their requests, Sales and Follow-ups.
+1. In the SuperOffice sidebar, navigate to the **Action** or **People** tab and select the contact's name.
+2. You will see vital details about the contact, including their requests, sales, and follow-ups.
 
 <!-- Referenced links -->
+[1]: get.md#open
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/outlook-calendar-event.png
