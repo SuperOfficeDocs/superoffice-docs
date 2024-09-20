@@ -4,7 +4,7 @@ title: Get the add-in
 description: How to install SuperOffice for Outlook for your account (1 user).
 keywords: SuperOffice for Outlook, Outlook, email, get add-in
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
-date: 09.17.2024
+date: 09.20.2024
 version_sofo: 2024.8.12
 topic: howto
 language: en
@@ -66,7 +66,7 @@ For other ways to get the add-in, see [Microsoft's AppSource documentation][1].
 
 1. Sign in to SuperOffice.
 
-## Open SuperOffice add-in
+## <a id="open"></a>Open SuperOffice add-in
 
 The location of add-ins is different in classic Outlook for Windows and the new Outlook for Windows.
 

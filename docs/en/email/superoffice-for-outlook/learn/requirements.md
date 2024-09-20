@@ -4,7 +4,7 @@ title: Requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
 keywords: SuperOffice for Outlook, Outlook, email
 author: Frode B, Martin Pavlas
-date: 09.17.2024
+date: 09.20.2024
 version_sofo: 2024.8.12
 topic: reference
 envir: cloud

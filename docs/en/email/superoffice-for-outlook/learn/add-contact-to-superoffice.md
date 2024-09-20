@@ -4,7 +4,7 @@ title: Add contact to SuperOffice
 description: Add contact to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, email, add contact
 author: Erik Lebiko, Bergfrid Dias
-date: 09.17.2024
+date: 09.20.2024
 version_sofo: 2024.8.12
 topic: howto
 language: en
@@ -14,49 +14,46 @@ audience_tooltip: SuperOffice CRM
 
 # Add contact to SuperOffice
 
-From the SuperOffice sidebar you can add new contacts if the email is unknown to SuperOffice CRM.
+You can easily add new contacts to SuperOffice CRM if the email address is unknown to the system.
 
-​1. Click to add new contact​. This opens a new dialog where you can:
+## Steps
 
-* Add email to existing contact – THIS CONTACT COULD BE​
+1. Open the email from the person you want to add as a contact.
 
-* Or add contact to existing company – ​OR ADD CONTACT TO COMPANY​
+1. [Open SuperOffice for Outlook][1] (if not pinned)​.
 
-* Or Create new company and contact
+1. In the SuperOffice sidebar, select **Click to add new contact**.
 
-You can search for existing contacts and companies in the search field.
+    ![SuperOffice for Outlook, unknown contact][img2]
 
-![SuperOffice for Outlook, save contact -screenshot][img1]
+1. Choose from the following options:
 
-## work in progress!
+    * **Add email to an existing contact**: Select from the **This contact could be** list to link the email to an existing contact in SuperOffice.
+    * **Add contact to an existing company**: From the **​Or add contact to company** list, associate the new contact with an existing company in SuperOffice.
+    * **Create a new company and contact**: If the contact's company does not exist in your database, create both the company and the contact.
 
-Add an unknown contact from e-mail Save e-mail in SuperOffice
+    ![SuperOffice for Outlook, save contact -screenshot][img1]
 
-To add a new person from a received e-mail to SuperOffice follow these steps:
+1. Fill out the required fields and click **Save**.
 
-1. Open the e-mail from the person you want to add as a contact.
-2. Select the three dots (More actions) and navigate to the bottom of the list and select SuperOffice from the list.
-3. In the SuperOffice sidebar in the space where it says Unknown e-mail address select Click to add a new contact.
-4. Search for a company, if the user does not have a company registered in your SuperOffice database, select Create new company and contact
-5. Fill out the fields and select Save.
+## Adding a contact from the People tab
 
-Add contacts mentioned in email
-To add a person a contact from SuperOffice to the local address book on your device follow these steps:
+You can also add contacts from the **People** tab in the SuperOffice sidebar.
 
-1. Navigate to the People tab
-2. Select Click to add to SuperOffice on the contact you would like to add.
-3. Select if you would like to save to contact as a contact to an already existing company or if you would like ta save a new company.
+The **People** tab displays all contacts mentioned in the email. If the sender or recipient is unknown to SuperOffice, you will be prompted to add them as a new contact.
 
-Click to add new contact​
-If the sender/recipient is unknown to SuperOffice you will get the opportunity to add this person as a new contact in SuperOffice.
+1. Open the **People** tab.
 
-People​
-The people menu will display actions related to the people mentioned in the e-mail in question.
+1. Selectg **Click to add new contact** for the contact you would like to add.
 
-Click to add to SuperOffice​
-Select click to add to SuperOffice if you would like to add the person as a contact/company in SuperOffice.
+1. Choose whether to:
+
+    * Save the contact to an existing company, or
+    * Create a new company and contact.
 
 <!-- Referenced links -->
+[1]: get.md#open
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/outlook-add-contact.png
+[img2]: ../../../../media/loc/en/email/outlook-unknown-contact.png
