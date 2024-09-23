@@ -4,7 +4,7 @@ title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, screen designer, layout, field
 author: Bergfrid Dias
-date: 09.04.2024
+date: 09.23.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -58,7 +58,7 @@ After editing a layout, click one of the following buttons:
 | Button | Description |
 |---|---|
 | Save draft | Saves an unpublished version of the layout, which you can resume editing later or ask someone to review. |
-| Save + Publish | Applies the layout to the selected user groups. |
+| Save + Publish | Applies the layout to the selected user groups **or** sale/project/request/follow-up type . |
 | Cancel | Discards all changes. |
 
 ## <a id="undo-changes"></a>Undo changes

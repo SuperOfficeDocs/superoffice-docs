@@ -1,10 +1,10 @@
 ---
 uid: help-en-screen-designer-grid
 title: Working with grids
-description: How to add and populate tables in a layout using the Screen Designer in Settings and maintenance.
+description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, grid, table
 author: Bergfrid Dias
-date: 09.04.2024
+date: 09.23.2024
 version: 10
 topic: howto
 language: en
@@ -28,7 +28,7 @@ The instructions below assume you are already [editing the layout][1].
 
     ![Screen Designer grid element -screenshot][img1]
 
-1. Click to select the new table.
+1. Click to select the new grid.
 1. In the **Settings** sections to the left, adjust the number of columns and rows to suit your needs.
 
     ![Screen Designer grid settings -screenshot][img2]
@@ -90,7 +90,7 @@ To remove a grid:
 To restore a grid:
 
 * If you are working on a draft, simply discard the draft to undo all your changes.
-* If you have published the layout after removal, you need to recreate the table.
+* If you have published the layout after removal, you need to recreate the grid.
 
 <!-- Referenced links -->
 [1]: edit-layout.md

@@ -4,7 +4,7 @@ title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider
 author: Bergfrid Dias
-date: 09.04.2024
+date: 09.23.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -67,7 +67,7 @@ Labels and dividers help to organize fields within a tab, making the information
 2. Click to select the **Elements** section.
 3. To add a header, drag the **Label** element into the layout.
 
-    * In the **Settings** sections, replace "New tab" with the new label name. Optionally, click ![icon][img1] to [add the tab name in other languages][9].
+    * In the **Settings** sections, replace "New label" with the new label name. Optionally, click ![icon][img1] to [add the tab name in other languages][9].
     * Adjust the font as needed.
 
 4. To add a horizontal divider, drag the **Divider** element into the layout. Change the spacer type if necessary.

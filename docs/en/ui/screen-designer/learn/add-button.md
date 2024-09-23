@@ -4,7 +4,7 @@ title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization
 author: Bergfrid Dias
-date: 09.04.2024
+date: 09.23.2024
 version: 10.3.7
 topic: howto
 language: en
@@ -40,7 +40,7 @@ The instructions below assume you're already [editing the layout][4].
     ![Screen Designer, settings for button element -screenshot][img1]
 
     > [!TIP]
-    > You can also add the link name in other languages.
+    > You can also add the button name in other languages.
 
 1. In the **Action** list, select the action to perform when clicking the button. For details about each action, see the reference section at the end of this page.
 
