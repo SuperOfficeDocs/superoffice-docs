@@ -49,8 +49,8 @@ De opmaken zijn gemarkeerd met de status (gepubliceerd of concept) en de toegewe
 
 <!-- Referenced links -->
 [1]: edit-layout.md
-[2]: add-new-layout.md
-[3]: edit-layout-archives.md
+[2]: add-layout.md
+[3]: working-with-archives.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png

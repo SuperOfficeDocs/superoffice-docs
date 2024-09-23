@@ -81,7 +81,7 @@ To move a grid, click **=** to the left of the grid and drag the field to a new 
 
 When you remove a grid, its contents (fields and so on) is removed too.
 
-This action affects only what is shown in the user interface, and does not change the database or table values in any way.
+This action affects only what is shown in the user interface, and does not change the database or values in any way.
 
 To remove a grid:
 

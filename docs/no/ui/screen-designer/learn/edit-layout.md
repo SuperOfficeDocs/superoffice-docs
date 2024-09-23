@@ -159,7 +159,7 @@ Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang
 <!-- Referenced links -->
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../custom-objects/learn/udef.md
-[4]: add-new-layout.md
+[4]: add-layout.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/az.png

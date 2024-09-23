@@ -2,10 +2,8 @@ items:
 - name: Überblick
   href: index.md
 - name: Neues Layout hinzufügen
-  href: add-new-layout.md
+  href: add-layout.md
 - name: Layout bearbeiten - Hauptkarten
   href: edit-layout.md
 - name: Layout bearbeiten - Archive (Bereichsregisterkarten)
-  href: edit-layout-archives.md
-- name: Elemente
-  href: elements.md
+  href: working-with-archives.md
