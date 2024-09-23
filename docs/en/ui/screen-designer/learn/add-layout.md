@@ -1,10 +1,10 @@
 ---
 uid: help-en-screen-designer-add-layout
-title: Add new screen layout
-description: How to add a layout using the Screen Designer in Settings and maintenance.
-keywords: screen designer, ui, screen, customization, layout, main card, archive
+title: Add layout
+description: How to add a screen layout using the Screen Designer in Settings and maintenance.
+keywords: screen designer, ui, screen, customization, layout, main card, archive, section tab
 author: Bergfrid Dias
-date: 09.04.2024
+date: 09.23.2024
 version: 10.2.11
 language: en
 topic: howto
@@ -12,7 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Add a layout
+# Add layout
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
@@ -35,6 +35,8 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
     To create a layout for an archive, see [Working with section tabs][2].
 
+1. [Select assignment method][6] (if not set): click the text next to **Assign layouts to**, and choose group or type.
+
 1. Under **Layouts**, click **Add**.
 
     ![Click Add to create a new layout -screenshot][img1]
@@ -45,10 +47,10 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
     ![Set correct name and the user groups to use this layout -screenshot][img2]
 
-1. Click the **Used by** field and [assign the new layout][6] to one or more user groups **or** sale/project/request type.
+1. Click the **Assign to** field and assign the new layout to one or more user groups **or** sale/project/request/follow-up type.
 
     > [!NOTE]
-    > Only groups currently using the default layout are shown.
+    > Only groups/types currently using the default layout are shown.
 
 1. Click **OK**.
 
