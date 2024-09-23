@@ -47,14 +47,12 @@ Lists all CRM Scripts in the ejScript table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=includeId,updatedDate,ejscriptId
+GET /api/v1/archive/Ejscripts?$select=updatedDate,ejscriptId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

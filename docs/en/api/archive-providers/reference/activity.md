@@ -750,14 +750,12 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personDirectFax/formattedNumber,person/email/emailDescription,contact/contactExtra/x_contact_timespan,project/saintTicketCategory,associate/ejDisplayName
+GET /api/v1/archive/Activity?$select=person/personSource,person/personAddress/zip,person/personUdef/SuperOffice:3,person/personUdef/SuperOffice:7,contact/department
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

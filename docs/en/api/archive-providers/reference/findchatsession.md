@@ -481,14 +481,12 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=whenEnded,person/personCountry,person/email/emailId,person/email/emailLastSent,contact/streetAddress/state
+GET /api/v1/archive/FindChatSession?$select=icon,person/correspondingAssociate/ejDisplayName,contact/email/emailDescription,contact/contactExtra/x_contact_integer,contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

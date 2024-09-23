@@ -1200,14 +1200,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactDynamicSelection?$select=nameDepartment,code,contactAssociate/contactName,sale/associate/isActive,rank
+GET /api/v1/archive/ContactDynamicSelection?$select=targetRelation/country,sale/recordType,sale/competitor,sale/associate/isActive,appointment/appointmentPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

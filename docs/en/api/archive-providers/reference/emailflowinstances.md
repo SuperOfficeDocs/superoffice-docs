@@ -498,14 +498,12 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=workflowInstanceId,emailFlow/overrideConsentSubscription,contact/associateId,contact/NumberOfNotCompletedSales
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowAssociate/fullName,person/personInterestIds,contact/business,contact/postAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

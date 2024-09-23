@@ -653,14 +653,12 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/contactAssociate/associateDbId,mailingAddr/contact/NumberOfTicketsInPeriod,mailingAddr/person/personId,mailingAddr/person/email/emailLastBounce,associate/userName
+GET /api/v1/archive/Mailings?$select=mailingAddr/contact/contactAssociate/isActive,mailingAddr/person/personAssociate/assocType,emailFlow/workflowAssociate/contactFullName,project/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

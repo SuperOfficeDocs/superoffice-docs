@@ -1431,14 +1431,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contactId,appointmentInstance/person/correspondingAssociate/portraitThumbnail,appointmentInstance/sale/amountWeightedInBaseCurrency,documentInstance/saleId,documentInstance/person/personUdef/SuperOffice:5
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/restrictionAddress/wgs84latitude,appointmentInstance/person/personAssociateFullName,appointmentInstance/associate/contactName,appointmentInstance/appointment/isConverted,documentInstance/person/personExtra/x_person_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -477,14 +477,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=associate/personId,person/personHasInterests,contact/stop,contact/restrictionAddress/state,contact/contactInterestIds
+GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/personAssociateId,person/personExtra/x_person_date,person/correspondingAssociate/firstName,contact/streetAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

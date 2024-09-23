@@ -709,14 +709,12 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/rank,person/restrictionAddress/city,person/personExtra/y_rental/x_amount,contact/restrictionAddress/line2,contact/contactUdef/SuperOffice:10
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/restrictionAddress/formattedMultiLineAddress,person/personAssociate/otherGroups,project/status,sale/currencyId,sale/lossReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

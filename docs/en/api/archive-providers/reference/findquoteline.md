@@ -749,14 +749,12 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=getNoRows,alternative/version/quote/sale/person/personUrl/URLAddress,alternative/version/quote/sale/person/personAssociate/credentialDisplayValue,alternative/version/quote/sale/contact/contactAssociate/contactName,alternative/version/quote/sale/contact/LastCompletedActivity
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/person/personAssociate/contactName,alternative/version/quote/sale/person/correspondingAssociate/userName,alternative/version/quote/sale/project/completed,alternative/version/quote/sale/project/updatedDate,alternative/version/quote/sale/project/projectUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

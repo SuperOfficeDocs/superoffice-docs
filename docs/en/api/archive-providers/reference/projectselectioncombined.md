@@ -792,14 +792,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombined?$select=projectAssociate/role,sale/icon,document/updatedByFullName,document/associate/assocTooltip,document/associate/otherGroups
+GET /api/v1/archive/ProjectSelectionCombined?$select=sale/text,sale/personId,sale/source,appointment/updatedByFullName,appointment/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

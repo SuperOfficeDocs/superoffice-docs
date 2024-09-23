@@ -653,14 +653,12 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactAssociate/usergroup,mailingAddr/person/title,mailingAddr/person/personCategory,project/icon,project/projectAssociate/firstName
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/streetAddress/line1,mailingAddr/contact/restrictionAddress/county,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/supportAssociate,emailFlow/workflowAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

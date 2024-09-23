@@ -256,14 +256,12 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/associateId,shipment/emailFlow/overrideConsentSubscription,shipment/project/projectAssociate/otherGroups,shipment/project/saintSaleStatus
+GET /api/v1/archive/EmailFlowEmailContent?$select=emailFlow/registeredDate,shipment/emailFlow/thumbnail,shipment/emailFlow/workflowAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

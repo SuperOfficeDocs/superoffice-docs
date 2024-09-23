@@ -111,14 +111,12 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=associate/contactName,name,documentPublish/publishedBy
+GET /api/v1/archive/QuoteVersionAttachment?$select=associate/ejStatus,name,documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

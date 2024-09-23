@@ -1229,14 +1229,12 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=includeContactWithStopRestriction,streetAddress/line3,appointment/rawType,appointment/appointmentUdef/SuperOffice:5,personAssociate/contactFullName
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=business,NumberOfActivitiesInPeriod,targetRelation/registeredDate,sale/associate/contactCategory,appointment/booking
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

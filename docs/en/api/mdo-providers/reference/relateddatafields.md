@@ -9,7 +9,20 @@ so.envir: onsite, online
 ---
 
 # "relateddatafields" MDO List
+
+
+
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.RelatedDataFieldsProvider">RelatedDataFieldsProvider</see> class.
 The name of the MDO list is 'relateddatafields'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|The name of the table to analyze for related fields| table|ticket|
+|The recursion depth, default=1| depth||
+
 
 
 

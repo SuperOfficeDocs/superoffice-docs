@@ -760,14 +760,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=person/personHasInterests,project/projectAssociate/usergroup,person/personExtra/x_person_user_relation
+GET /api/v1/archive/FavouriteTickets?$select=createdBy/contactDepartment,person/middleName,person/email/emailHasBounced,person/personExtra/x_person_user_relation,person/personAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

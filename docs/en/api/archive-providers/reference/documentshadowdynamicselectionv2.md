@@ -711,14 +711,12 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=icon,registeredDate,mailMergeDraft,documentPublish/publishedBy,person/personCountry
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/portraitThumbnail,person/personAssociate/isLocation,contact/contactDeleted,contact/contactUdef/SuperOffice:1,project/projectEvent/eventDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

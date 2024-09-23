@@ -728,14 +728,12 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionV2?$select=visibleFor,contact/contactExtra/x_contact_shorttext,person/portraitThumbnail,project/projectAssociate/assocTooltip,project/saintDirection
+GET /api/v1/archive/AppointmentShadowSelectionV2?$select=contact/contactUdef/SuperOffice:3,person/personExtra/x_person_boolean,person/personExtra/x_person_priority_relation,person/correspondingAssociate/usergroup,appointmentUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

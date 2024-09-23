@@ -709,14 +709,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/documentfavourites?$select=person/supportAssociateFullName,person/email/emailHasBounced,person/correspondingAssociate/contactDepartment,contact/registeredDate,contact/contactAssociate/middleName
+GET /api/v1/archive/documentfavourites?$select=person/personBusiness,person/personAddress/formattedAddress,contact/contactAssociate/simultaneousEjUser,contact/contactUdef/SuperOffice:5,contact/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

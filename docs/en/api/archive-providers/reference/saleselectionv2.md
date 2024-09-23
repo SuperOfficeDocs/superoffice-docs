@@ -1309,14 +1309,12 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=person/personAssociate/isActiveText,saleUdef/SuperOffice:6,project/projectAssociate/associateDbId,saleStakeholder/person/middleName,saleStakeholder/person/personUpdatedBy
+GET /api/v1/archive/SaleSelectionV2?$select=stageRank,person/restrictionAddress/wgs84latitude,person/personExtra/x_person_request_relation,contact/contactPhone/formattedNumber,document/document/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

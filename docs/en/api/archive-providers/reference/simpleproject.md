@@ -129,14 +129,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleProject?$select=projectId,projectEvent/isExternalEvent,projectAssociate/ejDisplayName,saintTicketStatus
+GET /api/v1/archive/SimpleProject?$select=projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

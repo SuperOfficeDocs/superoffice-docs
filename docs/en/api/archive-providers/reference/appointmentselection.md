@@ -728,14 +728,12 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=person/personExtra/x_person_user_relation,person/contactId,person/personExtra/x_person_timespan
+GET /api/v1/archive/AppointmentSelection?$select=recurrenceRuleId,rawStatus,contact/contactAssociate/usergroup,contact/contactExtra/y_organization/x_name,person/personPager/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

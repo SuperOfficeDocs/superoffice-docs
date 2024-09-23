@@ -714,14 +714,12 @@ Shadow contact provider for the static Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=person/middleName,person/personAssociateFullName,contact/contactExtra/x_contact_datetime,contact/NumberOfNotCompletedTickets,sale/updatedByFullName
+GET /api/v1/archive/DocumentShadowStaticSelectionV2?$select=text,person/whenUpdatedByWorkflow,person/email/emailDescription,contact/registeredByFullName,contact/LastDoByActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

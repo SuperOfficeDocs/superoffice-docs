@@ -749,14 +749,12 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/approvedText,alternative/version/quote/sale/person/personAssociate/personId,alternative/version/quote/sale/person/correspondingAssociate/locationAddress,alternative/version/quote/sale/contact/email/emailProtocol,alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/personDirectPhone/formattedNumber,alternative/version/quote/sale/person/email/emailBounceCount,alternative/version/quote/sale/person/correspondingAssociate/personId,alternative/version/quote/sale/contact/contactDeleted,alternative/version/quote/sale/contact/streetAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

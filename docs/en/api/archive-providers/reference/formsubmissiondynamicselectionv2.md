@@ -476,14 +476,12 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=associate/associateDbId,person/birthdate,person/consentSourceEmarketing,contact/postAddress/line1
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/personUdef/SuperOffice:4,person/legalBaseStore,contact/postAddress/state,contact/contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

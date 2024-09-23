@@ -2,14 +2,38 @@
 uid: udeffieldtype
 title: udeffieldtype
 keywords: mdoprovider mdo provider udeffieldtype
-description: 
+description: List of UDef field types for a given owner table, and possibly restricted based on the current field type
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "udeffieldtype" MDO List
+List of UDef field types for a given owner table, and possibly restricted based on the current field type
+
+ExtraInfo = "UDefType,UDefFieldType,hasBeenPublished"
+
+
+For example: "Contact"
+
+
+
+"Contact,Number,true"
+
+
+
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.UdefFieldTypeProvider">UdefFieldTypeProvider</see> class.
 The name of the MDO list is 'udeffieldtype'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|UDefType,UDefFieldType,hasBeenPublished| |Contact,Number,true|
+
+Separator: ,
+
 
 
 

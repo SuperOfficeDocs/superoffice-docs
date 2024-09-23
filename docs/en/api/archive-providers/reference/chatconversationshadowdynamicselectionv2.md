@@ -483,14 +483,12 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/personPrivate/description,person/personAddress/county,contact/contactExtra/x_contact_contact
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=chatSessionId,chatTopic/badgeHeader,associate/assocTooltip,person/personExtra/x_person_contact_relation,person/personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

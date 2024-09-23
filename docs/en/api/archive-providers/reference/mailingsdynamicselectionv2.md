@@ -655,14 +655,12 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingEndDate,mailingAddr/contact/countryId,mailingAddr/contact/contactUdef/SuperOffice:12,mailingAddr/contact/saintSaleStatus,associate/personEmail
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/postAddress/wgs84longitude,mailingAddr/contact/restrictionAddress/line2,mailingAddr/contact/contactAssociate/credentialDisplayValue,mailingAddr/contact/contactUdef/SuperOffice:10,mailingAddr/person/useAsMailingAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

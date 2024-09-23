@@ -1200,14 +1200,12 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactPhone/formattedNumber,contactAssociate/firstName,saintTicketCategory,sale/amountWeighted,sale/associate/locationAddress
+GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=appointment/createdByWorkflow,appointment/associate/personId,document/associate/isActive,personSourceRelation/personCountryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

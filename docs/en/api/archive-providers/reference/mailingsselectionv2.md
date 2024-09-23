@@ -658,14 +658,12 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/registeredBy,mailingAddr/contact/contactAssociate/isLocation,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/personAssociate/contactId,mailingAddr/person/personAssociate/personEmail
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/contactAssociate/userName,project/projectAssociate/contactDepartment,mailingAddr/contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

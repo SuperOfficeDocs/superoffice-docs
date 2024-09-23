@@ -1390,14 +1390,12 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=sale/nextDueDate,appointment/booking,appointment/appointmentUdef/SuperOffice:4,document/isMail,personTargetRelation/personNumber
+GET /api/v1/archive/ContactPersonSelectionV2?$select=rowKind,contactAssociate/otherGroups,contactInterestIds,NumberOfNotCompletedTicketsInPeriod,sourceRelation/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

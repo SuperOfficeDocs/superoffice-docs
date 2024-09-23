@@ -725,14 +725,12 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=updatedByFullName,person/retired,person/firstName
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/streetAddress/addressId,contact/LastTicket,person/personAddress/wgs84latitude,person/restrictionAddress/line3,project/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

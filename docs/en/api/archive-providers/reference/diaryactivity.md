@@ -751,14 +751,12 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/personExtra/x_person_timespan,person/consentSourceEmarketing,contact/contactExtra/x_contact_dropdown,contact/contactExtra/x_contact_contact_relation,project/projectEvent/hasSignOff
+GET /api/v1/archive/DiaryActivity?$select=person/ticketPriority,person/searchPhone/formattedNumber,contact/updatedBy,contact/searchPhone/formattedNumber,contact/contactAssociate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

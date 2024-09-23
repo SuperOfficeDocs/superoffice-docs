@@ -1309,14 +1309,12 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelectionV2?$select=person/personExtra/y_rental/x_amount,contact/contactAssociate/ejStatus,document/associate/portraitThumbnail,document/associate/userName,project/projectAssociate/isActive
+GET /api/v1/archive/SaleStaticSelectionV2?$select=person/personUpdatedByFullName,person/restrictionAddress/line3,person/personExtra/y_car/id,appointment/location,appointment/appointmentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

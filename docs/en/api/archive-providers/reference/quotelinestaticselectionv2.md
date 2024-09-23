@@ -760,14 +760,12 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=priceUnit,registeredByFullName,alternative/version/quote/sale/contact/postAddress/city,alternative/version/quote/sale/contact/contactExtra/x_contact_contact,alternative/version/quote/sale/associate/locationAddress
+GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=erpProductKey,alternative/version/quote/sale/person/personUdef/SuperOffice:1,alternative/version/quote/sale/person/personAssociate/isLocation,alternative/version/quote/sale/contact/restrictionAddress/line3,alternative/version/quote/sale/contact/saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -1306,14 +1306,12 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=earning,person/personExtra/x_person_appointment_relation,person/personExtra/y_rental/x_amount,contact/LastDoByActivity,associate/mrMrs
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=date,reopenDate,person/personAssociateFullName,person/searchPhone/formattedNumber,person/personExtra/x_person_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

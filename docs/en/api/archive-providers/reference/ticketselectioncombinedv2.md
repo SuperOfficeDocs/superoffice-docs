@@ -765,14 +765,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombinedV2?$select=person/restrictionAddress/wgs84latitude,sale/stalledComment,project/projectAssociate/ejDisplayName
+GET /api/v1/archive/TicketSelectionCombinedV2?$select=person/personNumber,person/personAssociate/personId,person/personAssociate/isActiveText,sale/date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

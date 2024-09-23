@@ -729,14 +729,12 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssignResponseInvitation?$select=text,contact/contactAssociate/contactDepartment,contact/contactAssociate/contactFullName,contact/contactExtra/x_contact_time,contact/NumberOfActivitiesInPeriod
+GET /api/v1/archive/AssignResponseInvitation?$select=contact/contactFax/description,person/birthMonth,person/personAssociateFullName,project/projectAssociate/fullName,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

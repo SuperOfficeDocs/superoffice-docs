@@ -2,14 +2,27 @@
 uid: customobjectrelation
 title: customobjectrelation
 keywords: mdoprovider mdo provider customobjectrelation
-description: 
+description: MDO list provider for custom object relations Custom object's name is passed as additionalInfo parameter
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "customobjectrelation" MDO List
+MDO list provider for custom object relations
+Custom object's name is passed as additionalInfo parameter
+
+
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.CustomObjectRelationProvider">CustomObjectRelationProvider</see> class.
 The name of the MDO list is 'customobjectrelation'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Custom object's name| name|y_customobject|
+
 
 
 

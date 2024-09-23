@@ -723,14 +723,12 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=saleId,contact/postAddress/wgs84longitude,contact/NumberOfActivities,contact/saintAmountClass,contact/saintActivityType
+GET /api/v1/archive/FindAppointment?$select=contact/phone/formattedNumber,contact/contactAssociate/personId,person/birthYear,person/personExtra/y_rental/x_start,person/correspondingAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

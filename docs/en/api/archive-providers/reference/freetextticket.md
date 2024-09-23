@@ -761,14 +761,12 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=searchwords,person/personId,person/personInfo/textId,person/personAddress/city,person/restrictionAddress/formattedAddress
+GET /api/v1/archive/FreetextTicket?$select=person/personCountryId,person/personPrivate/description,extra/y_car/id,project/description,project/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

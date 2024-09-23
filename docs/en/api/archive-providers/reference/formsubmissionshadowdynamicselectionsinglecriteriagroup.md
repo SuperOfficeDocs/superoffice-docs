@@ -474,14 +474,12 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/personAssociate/ejUserId,person/personAssociate/isActive,person/correspondingAssociate/contactId,contact/postAddress/line2
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=associate/lastName,associate/contactCategory,person/email/emailLastSent,person/email/emailBounceCount,contact/contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

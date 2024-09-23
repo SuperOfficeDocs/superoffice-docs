@@ -723,14 +723,12 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=date,contact/contactExtra/y_organization/x_name,person/personId,person/correspondingAssociate/ejDisplayName,person/withdrawnEmarketingConsent
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=updatedDate,contact/url/URLAddress,contact/contactUdef/SuperOffice:2,contact/LastCompletedActivity,person/personAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

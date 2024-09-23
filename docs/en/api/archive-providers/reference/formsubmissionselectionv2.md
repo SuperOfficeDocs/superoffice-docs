@@ -479,14 +479,12 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=registeredDate,associate/personEmail,person/personAssociate/associateDbId,contact/postAddress/wgs84longitude,contact/contactAssociate/lastName
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=associate/contactFullName,person/firstName,person/personRegisteredDate,person/personAssociate/personId,person/personAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

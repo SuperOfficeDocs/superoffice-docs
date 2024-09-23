@@ -760,14 +760,12 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=createdBy/isLocation,person/correspondingAssociate/locationAddress,contact/contactUdef/SuperOffice:1,contact/LastTicket,sale/updatedBy
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=sentimentScore,createdBy/portraitThumbnail,person/mrMrs,person/portraitThumbnail,person/correspondingAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

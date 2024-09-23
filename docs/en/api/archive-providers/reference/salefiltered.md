@@ -1123,14 +1123,12 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=date,person/personPager/formattedNumber,person/personExtra/x_person_time,contact/contactExtra/x_contact_date,project/associateId
+GET /api/v1/archive/SaleFiltered?$select=lossReason,contact/NumberOfActivitiesInPeriod,associate/contactName,associate/assocName,project/projectAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

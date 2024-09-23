@@ -81,14 +81,12 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=kind,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=combinationType,selectionAssociate/assocName,lastLoadedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

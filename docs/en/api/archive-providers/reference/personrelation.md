@@ -557,14 +557,12 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/personPrivate/description,source/personPager/formattedNumber,target/contactFax/formattedNumber,target/personDirectPhone/formattedNumber
+GET /api/v1/archive/PersonRelation?$select=source/hasInfoText,target/contactAssociate/fullName,target/NumberOfNotCompletedSales,target/saintDirection,isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

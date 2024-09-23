@@ -711,14 +711,12 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=contact/contactAssociate/assocType,contact/contactExtra/x_contact_time,associate/personId,sale/updatedDate,sale/associate/middleName
+GET /api/v1/archive/DocumentDynamicSelection?$select=person/personAssociate/usergroup,project/projectAssociate/lastName,sale/competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

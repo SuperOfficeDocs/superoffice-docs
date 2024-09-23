@@ -760,14 +760,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=totalPriceIncVAT,alternative/version/quote/sale/sale/description,alternative/version/quote/sale/contact/hasInterests,alternative/version/quote/sale/contact/NumberOfNotCompletedSales,alternative/version/quote/sale/contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/totalPriceIncVAT,alternative/version/quote/sale/contact/countryId,alternative/version/quote/sale/contact/deletedDate,alternative/version/quote/sale/saleUdef/SuperOffice:1,alternative/version/quote/sale/project/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

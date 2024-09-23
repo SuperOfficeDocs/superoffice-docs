@@ -711,14 +711,12 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=completed,documentPublish/isPublished,person/isStakeholder,person/personAssociate/isLocation,contact/countryId
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personSource,contact/contactInterestIds,contact/contactUdef/SuperOffice:3,contact/LastDoByActivity,project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

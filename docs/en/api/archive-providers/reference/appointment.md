@@ -726,14 +726,12 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=intention,contact/stop,contact/streetAddress/line2,person/portraitThumbnail,person/restrictionAddress/wgs84latitude
+GET /api/v1/archive/Appointment?$select=person/personExtra/x_person_shorttext_list,person/personExtra/x_person_priority_relation,person/personAssociate/associateDbId,project/projectAssociate/mrMrs,project/project/infoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

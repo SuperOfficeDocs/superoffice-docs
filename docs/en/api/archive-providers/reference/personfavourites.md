@@ -1022,14 +1022,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=personTargetRelation/kanaLastName,request/createdByWorkflow,request/createdBy/fullName,request/createdBy/assocName,request/ownedBy/assocType
+GET /api/v1/archive/personfavourites?$select=getAllRows,personContact/postAddress/line3,personContact/contactExtra/x_contact_time,request/realTimeSpentExternally,projectMembers/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

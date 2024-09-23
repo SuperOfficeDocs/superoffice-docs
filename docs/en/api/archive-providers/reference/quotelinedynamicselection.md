@@ -755,14 +755,12 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/currencyId,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/person/hasEmarketingConsent,alternative/version/quote/sale/contact/contactExtra/x_contact_dropdown
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/sale/text,alternative/version/quote/sale/person/phone/formattedNumber,alternative/version/quote/sale/person/personExtra/x_person_date,alternative/version/quote/sale/person/correspondingAssociate/lastName,alternative/version/quote/sale/project/projectUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

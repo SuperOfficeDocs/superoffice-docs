@@ -725,14 +725,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelection?$select=contact/contactSource,contact/email/emailBounceCount,person/personAddress/line1,person/personAddress/county,person/withdrawnEmarketingConsent
+GET /api/v1/archive/AppointmentStaticSelection?$select=appointmentId,appointmentPublish/isPublished,contact/postAddress/wgs84longitude,person/email/emailProtocol,sale/amountWeighted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

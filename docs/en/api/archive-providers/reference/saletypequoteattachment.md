@@ -111,14 +111,12 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/documentUdef/SuperOffice:6,document/yourref,document/documentPublish/publishedBy
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/type,document/yourref,document/documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

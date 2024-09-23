@@ -623,14 +623,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=person/email/emailProtocol,person/personAddress/line1,person/personAssociate/associateDbId,person/correspondingAssociate/credentialType,contact/restrictionAddress/city
+GET /api/v1/archive/SimpleSale?$select=registeredDate,person/correspondingAssociate/locationAddress,contact/contactNoMail,contact/contactPhone/formattedNumber,contact/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

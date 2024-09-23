@@ -537,14 +537,12 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/saintTicketStatus,person/rank,person/personExtra/x_person_contact_relation,contact/contactAssociate/role,contact/contactUdef/SuperOffice:13
+GET /api/v1/archive/ProjectMember?$select=person/phone/formattedNumber,person/personExtra/x_person_float,person/personExtra/y_rental/id,contact/searchPhone/description,contact/LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

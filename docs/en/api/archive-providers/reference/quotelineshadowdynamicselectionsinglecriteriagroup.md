@@ -749,14 +749,12 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/completed,alternative/version/quote/sale/person/personExtra/x_person_user_relation,alternative/version/quote/sale/contact/contactUdef/SuperOffice:8,alternative/version/quote/sale/contact/contactUdef/SuperOffice:12,alternative/version/quote/sale/saleUdef/SuperOffice:7
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=totalPrice,alternative/version/quote/sale/person/personAddress/line1,alternative/version/quote/sale/person/legalBaseEmarketing,alternative/version/quote/sale/project/NumberOfNotCompletedSalesInPeriod,alternative/version/quote/connection/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

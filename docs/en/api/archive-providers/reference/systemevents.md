@@ -83,14 +83,12 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=eventmess,registered_associate_id/role,registered_associate_id/lastName
+GET /api/v1/archive/SystemEvents?$select=registered_associate_id/lastName,registered_associate_id/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

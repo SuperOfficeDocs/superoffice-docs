@@ -77,14 +77,12 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Product?$select=productFamilyKey,updatedBy
+GET /api/v1/archive/Product?$select=description,productFamilyKey,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

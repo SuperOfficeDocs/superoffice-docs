@@ -724,14 +724,12 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=contact/registeredBy,contact/contactExtra/x_contact_time,contact/LastActivity,person/correspondingAssociate/isActiveText,person/withdrawnStoreConsent
+GET /api/v1/archive/DiaryAppointment?$select=saleId,contact/restrictionAddress/state,contact/contactAssociate/credentialDisplayValue,person/personExtra/x_person_timespan,project/endDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

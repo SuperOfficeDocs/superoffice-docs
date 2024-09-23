@@ -252,14 +252,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=UnitListPriceSubscriptionQuantity,alternative/version/expiration,alternative/version/quote/sale/updatedByFullName
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=unitListPrice,alternative/version/quote/sale/associate/isActiveText,alternative/version/expiration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

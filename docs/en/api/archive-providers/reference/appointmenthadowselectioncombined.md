@@ -727,14 +727,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=type,contact/contactUdef/SuperOffice:8,contact/contactExtra/x_contact_boolean,person/kanaLastName,person/supportLanguage
+GET /api/v1/archive/AppointmenthadowSelectionCombined?$select=contact/phone/formattedNumber,contact/contactExtra/x_contact_integer,person/position,person/useAsMailingAddress,project/projectUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

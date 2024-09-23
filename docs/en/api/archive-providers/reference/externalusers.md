@@ -61,14 +61,12 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=mrMrs,contactFullName
+GET /api/v1/archive/ExternalUsers?$select=personEmail,mrMrs,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

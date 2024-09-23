@@ -486,14 +486,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionCombinedV2?$select=person/restrictionAddress/city,person/personExtra/y_rental/x_amount,contact/orgnr,contact/restrictionAddress/line1
+GET /api/v1/archive/ChatConversationSelectionCombinedV2?$select=associate/assocType,person/correspondingAssociate/credentialType,person/correspondingAssociate/credentialDisplayValue,contact/countryId,contact/orgnr
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

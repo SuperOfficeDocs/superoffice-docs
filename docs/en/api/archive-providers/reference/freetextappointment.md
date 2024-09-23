@@ -739,14 +739,12 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=getAllRows,contact/number,contact/registeredBy,contact/contactUdef/SuperOffice:11,person/correspondingAssociate/contactName
+GET /api/v1/archive/FreetextAppointment?$select=getAllRows,contact/contactAssociate/fullName,sale/lossReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

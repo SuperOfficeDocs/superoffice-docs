@@ -372,14 +372,12 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=contactSupportPerson/personExtra/x_person_longtext,contactUdef/SuperOffice:6,contactExtra/x_contact_timespan,NumberOfSales
+GET /api/v1/archive/emailcontactaddress?$select=restrictionAddress/county,contactSupportPerson/title,contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

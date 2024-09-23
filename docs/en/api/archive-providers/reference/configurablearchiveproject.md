@@ -785,14 +785,12 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=activeErpLinks,projectAssociate/firstName,projectAssociate/isActiveText,NumberOfActivitiesInPeriod,appointment/registeredBy
+GET /api/v1/archive/ConfigurableArchiveProject?$select=imageThumbnail,projectEvent/isExternalEvent,sale/salePublish/publishedFrom,projectMember/personUpdatedBy,projectMember/postAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

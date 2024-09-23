@@ -760,14 +760,12 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionV2?$select=updatedBy,alternative/version/number,alternative/version/quote/sale/person/personUdef/SuperOffice:2,alternative/version/quote/sale/person/personExtra/x_person_shorttext,alternative/version/quote/sale/person/personAssociate/usergroup
+GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/quote/sale/person/personAddress/wgs84longitude,alternative/version/quote/sale/person/personAddress/formattedAddress,alternative/version/quote/sale/person/personAssociate/contactDepartment,alternative/version/quote/sale/contact/countryId,alternative/version/quote/sale/contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

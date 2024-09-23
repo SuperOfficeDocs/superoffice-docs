@@ -1304,14 +1304,12 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/rank,person/email/emailLastSent,person/personExtra/y_rental/x_end,person/personAssociate/middleName,contact/hasInfoText
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=hasStakeholders,person/personExtra/x_person_user_relation,person/personAssociate/ejStatus,contact/category,contact/contactAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

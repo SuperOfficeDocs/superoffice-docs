@@ -727,14 +727,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=person/withdrawnStoreConsent,appointmentUdef/SuperOffice:5,appointmentUdef/SuperOffice:7,project/projectAssociate/isActive
+GET /api/v1/archive/AppointmentSelectionCombined?$select=appointmentPublish/publishedBy,contact/contactExtra/x_contact_boolean,person/restrictionAddress/city,person/correspondingAssociate/role,person/correspondingAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

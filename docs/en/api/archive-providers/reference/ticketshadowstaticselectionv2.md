@@ -765,14 +765,12 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=status,slevel,person/personInfo/textId,person/personAddress/wgs84latitude,sale/recordType
+GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=person/personExtra/y_car/id,person/personAssociate/isActive,contact/postAddress/formattedAddress,sale/saleId,sale/hasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

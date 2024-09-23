@@ -1203,14 +1203,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=postAddress/zip,NumberOfActivities,targetRelation/registeredDate,appointment/cautionWarning,document/associate/associateDbId
+GET /api/v1/archive/ContactSelectionCombined?$select=url/URLDescription,contactExtra/x_contact_date,sale/saleNumber,appointment/appointmentPublish/publishedBy,document/document/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

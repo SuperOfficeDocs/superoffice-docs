@@ -728,14 +728,12 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=contact/contactUdef/SuperOffice:11,person/personUdef/SuperOffice:10,associate/assocTooltip
+GET /api/v1/archive/RejectedInvitation?$select=updatedByFullName,location,contact/contactSource,contact/NumberOfActivities,contact/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

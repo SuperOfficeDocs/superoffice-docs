@@ -369,14 +369,12 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactAssociate/usergroup,contactSupportPerson/personId
+GET /api/v1/archive/FreetextContact?$select=business,contactSupportPerson/mrMrs,contactSupportPerson/personUdef/SuperOffice:11
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

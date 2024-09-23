@@ -246,14 +246,12 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=getAllRows,assocTooltip,personUpdatedByFullName
+GET /api/v1/archive/Participants?$select=personEmailsInformation,personRegisteredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

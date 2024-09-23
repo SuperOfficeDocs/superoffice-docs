@@ -729,14 +729,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/correspondingAssociate/role,documentInstance/contact/contactAssociate/contactDepartment,documentInstance/documentUdef/SuperOffice:7,documentInstance/sale/date,documentInstance/sale/associate/title
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/saleId,documentInstance/person/personAssociateFullName,documentInstance/contact/streetAddress/line1,documentInstance/contact/contactAssociate/middleName,documentInstance/contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

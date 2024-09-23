@@ -762,14 +762,12 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=closedAt,person/personSource,person/supportAssociateFullName,person/correspondingAssociate/ejUserId,contact/contactDeleted
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=contact/registeredDate,contact/contactPhone/description,contact/postAddress/wgs84longitude,contact/restrictionAddress/formattedMultiLineAddress,contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

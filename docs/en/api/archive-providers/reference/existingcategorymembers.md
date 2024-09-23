@@ -67,14 +67,12 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=personId,contactFullName
+GET /api/v1/archive/ExistingCategoryMembers?$select=categoryMembershipId,ejUserId,personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -182,14 +182,12 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personUpdatedDate,consentPerson/person/personMobilePhone/description
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/hasCompany,consentPerson/person/personDirectPhone/formattedNumber,consentPerson/person/email/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

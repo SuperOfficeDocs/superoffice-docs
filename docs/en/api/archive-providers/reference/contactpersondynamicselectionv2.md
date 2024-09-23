@@ -1387,14 +1387,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactAssociate/title,sale/associate/ejStatus,document/documentId,personAddress/line3,personSourceRelation/retired
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=LastDoBySale,targetRelation/category,sale/type,sale/who,sale/earningPercent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -474,14 +474,12 @@ FormSubmission selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=date,person/personRegisteredBy,person/supportLanguage,person/personDeletedDate,person/correspondingAssociate/contactId
+GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=person/personPager/formattedNumber,contact/contactUdef/SuperOffice:2,person/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

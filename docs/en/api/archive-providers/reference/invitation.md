@@ -736,14 +736,12 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=contact/postAddress/line3,person/personCategory,sale/sale/textId,associate/credentialType
+GET /api/v1/archive/Invitation?$select=contact/activeErpLinks,contact/contactAssociate/middleName,contact/NumberOfTicketsInPeriod,person/personUdef/SuperOffice:10,person/personAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

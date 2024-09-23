@@ -1133,14 +1133,12 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personAssociate/middleName,contact/restrictionAddress/line1,contact/contactUdef/SuperOffice:4,saleStakeholder/person/email/emailId,quote/registeredDate
+GET /api/v1/archive/LinksSales?$select=person/correspondingAssociate/role,project/saintActivityType,saleStakeholder/person/isStakeholder,saleStakeholder/person/personUdef/SuperOffice:10,saleStakeholder/person/personExtra/y_car/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

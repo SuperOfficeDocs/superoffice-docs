@@ -1309,14 +1309,12 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelection?$select=person/personPrivate/formattedNumber,person/restrictionAddress/addressId,person/personAssociate/credentialType,person/personAssociate/personEmail,contact/contactAssociate/userName
+GET /api/v1/archive/SaleShadowSelection?$select=currencyId,description,person/personMobilePhone/formattedNumber,person/email/emailHasBounced,person/consentSourceStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

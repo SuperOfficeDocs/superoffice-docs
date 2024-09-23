@@ -749,14 +749,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=country,url/URLDescription,document/associate/contactDepartment,fullName,personUdef/SuperOffice:5
+GET /api/v1/archive/SaintContact?$select=restrictionAddress/formattedAddress,contactAssociate/firstName,contactExtra/x_contact_contact_relation,targetRelation/country,appointment/cautionWarning
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

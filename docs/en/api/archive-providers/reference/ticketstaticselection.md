@@ -765,14 +765,12 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelection?$select=projectId,author,status,ownedBy/portraitThumbnail,person/isMailingRecipient
+GET /api/v1/archive/TicketStaticSelection?$select=person/personAddress/wgs84longitude,person/restrictionAddress/line3,person/correspondingAssociate/middleName,person/correspondingAssociate/userName,contact/contactExtra/x_contact_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

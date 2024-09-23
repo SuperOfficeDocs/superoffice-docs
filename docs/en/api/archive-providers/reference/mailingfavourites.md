@@ -653,14 +653,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/streetAddress/formattedAddress,mailingAddr/contact/contactAssociate/middleName,mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/contact/saintSaleStatus,mailingAddr/person/personAddress/line3
+GET /api/v1/archive/mailingfavourites?$select=updatedBy,mailingAddr/person/personHasInterests,mailingAddr/person/ticketPriority,mailingAddr/person/email/emailId,mailingAddr/person/correspondingAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

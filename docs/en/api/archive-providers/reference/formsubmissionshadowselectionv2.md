@@ -479,14 +479,12 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=icon,associate/ejDisplayName,person/restrictionAddress/line1,contact/contactId,contact/streetAddress/line2
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=person/personAssociate/portraitThumbnail,person/correspondingAssociate/ejUserId,contact/contactNoMail,contact/contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

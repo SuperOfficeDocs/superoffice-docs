@@ -714,14 +714,12 @@ documents that represent saved reports are shown</description></item></list>
 ## Sample
 
 ```http!
-GET /api/v1/archive/SavedReports?$select=person/personUdef/SuperOffice:6,contact/email/emailAddress,associate/mrMrs,sale/visibleFor
+GET /api/v1/archive/SavedReports?$select=person/personInterestIds,person/personAssociate/ejDisplayName,contact/postAddress/county,contact/contactAssociate/personId,project/projectUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

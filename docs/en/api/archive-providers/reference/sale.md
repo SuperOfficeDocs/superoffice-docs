@@ -1124,14 +1124,12 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=stageRank,person/correspondingAssociate/contactDepartment,contact/contactAssociate/isActive,contact/contactUdef/SuperOffice:13,contact/contactExtra/x_contact_contact
+GET /api/v1/archive/Sale?$select=createdByWorkflow,contact/updatedByFullName,contact/contactAssociate/assocType,project/projectAssociate/fullName,project/projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

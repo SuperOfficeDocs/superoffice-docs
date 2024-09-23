@@ -1309,14 +1309,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombined?$select=person/personNoMail,contact/contactUdef/SuperOffice:9,saleStakeholder/person/restrictionAddress/city,saleStakeholder/contact/postAddress/line3
+GET /api/v1/archive/SaleSelectionCombined?$select=visibleFor,sale/description,contact/email/emailBounceCount,contact/contactAssociate/contactCategory,contact/contactUdef/SuperOffice:11
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

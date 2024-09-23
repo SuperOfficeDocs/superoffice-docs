@@ -732,14 +732,12 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=person/personAddress/addressId,person/personExtra/y_rental/y_equipment/x_name,sale/saleUdef/SuperOffice:5
+GET /api/v1/archive/LinksAppointments?$select=contact/contactAssociate/portraitThumbnail,person/personMobilePhone/description,project/name,project/projectPublish/publishedTo,sale/stage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

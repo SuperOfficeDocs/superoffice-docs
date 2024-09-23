@@ -658,14 +658,12 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/searchPhone/formattedNumber,mailingAddr/contact/restrictionAddress/line2,mailingAddr/contact/contactUdef/SuperOffice:2,mailingAddr/person/ticketPriority,associate/title
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/restrictionAddress/zip,mailingAddr/person/firstName,mailingAddr/person/personExtra/x_person_date,associate/assocName,emailFlow/shipmentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

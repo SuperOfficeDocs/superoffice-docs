@@ -750,14 +750,12 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personAssociate/firstName,person/personAssociate/contactCategory,person/correspondingAssociate/mrMrs,contact/contactSource,contact/NumberOfNotCompletedSales
+GET /api/v1/archive/SaleActivity?$select=person/personRegisteredDate,person/personAddress/state,person/correspondingAssociate/ejStatus,project/completed,sale/saleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

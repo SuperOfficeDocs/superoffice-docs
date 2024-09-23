@@ -484,14 +484,12 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/personUpdatedByFullName,person/supportLanguage,contact/contactAssociate/assocType,contact/contactUdef/SuperOffice:3,accountAssociate/usergroup
+GET /api/v1/archive/Mail2?$select=person/searchPhone/description,person/personAssociate/isActiveText,contact/updatedDate,contact/restrictionAddress/wgs84longitude,contact/contactUdef/SuperOffice:13
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

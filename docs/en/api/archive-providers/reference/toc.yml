@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Activity
   href: activity.md
+- name: AggregationWrapper2
+  href: aggregationwrapper2.md
 - name: AllUsers
   href: allusers.md
 - name: Appointment
@@ -79,6 +81,8 @@ items:
   href: batchtasks.md
 - name: BookingResponseInvitation
   href: bookingresponseinvitation.md
+- name: BulkUpdateResults
+  href: bulkupdateresults.md
 - name: CancelledInvitation
   href: cancelledinvitation.md
 - name: CategoryMembers
@@ -107,6 +111,8 @@ items:
   href: chatsession.md
 - name: ChecklistAppointment
   href: checklistappointment.md
+- name: ConfigurableArchive
+  href: configurablearchive.md
 - name: ConfigurableArchiveAppointment
   href: configurablearchiveappointment.md
 - name: ConfigurableArchiveProject
@@ -147,6 +153,18 @@ items:
   href: criteria.md
 - name: CRMScripts
   href: crmscripts.md
+- name: CustomObject
+  href: customobject.md
+- name: CustomObjectDynamicSelectionSingleCriteriaGroup
+  href: customobjectdynamicselectionsinglecriteriagroup.md
+- name: CustomObjectDynamicSelectionV2
+  href: customobjectdynamicselectionv2.md
+- name: CustomObjectSelectionCombinedV2
+  href: customobjectselectioncombinedv2.md
+- name: CustomObjectSelectionV2
+  href: customobjectselectionv2.md
+- name: CustomObjectStaticSelectionV2
+  href: customobjectstaticselectionv2.md
 - name: DiaryActivity
   href: diaryactivity.md
 - name: DiaryAppointment
@@ -261,6 +279,10 @@ items:
   href: finddocument.md
 - name: FindErpEntity
   href: finderpentity.md
+- name: FindErpProduct
+  href: finderpproduct.md
+- name: FindProductViaConnectorProvider
+  href: findproductviaconnectorprovider.md
 - name: FindProject
   href: findproject.md
 - name: FindQuoteLine
@@ -513,6 +535,8 @@ items:
   href: relation.md
 - name: ReportLabelLayout
   href: reportlabellayout.md
+- name: ReportProvider
+  href: reportprovider.md
 - name: Reports
   href: reports.md
 - name: RequestNotification

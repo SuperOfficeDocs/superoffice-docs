@@ -69,14 +69,12 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=weight,personId,contactFullName
+GET /api/v1/archive/CategoryMembers?$select=contactId,personId,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

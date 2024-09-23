@@ -1123,14 +1123,12 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personPrivate/formattedNumber,contact/number,contact/contactExtra/x_contact_timespan,project/associateId,saleStakeholder/person/personAddress/state
+GET /api/v1/archive/SaleDiary?$select=person/email/emailHasBounced,saleStakeholder/person/personMobilePhone/description,saleStakeholder/person/personAddress/line2,saleStakeholder/contact/contactDeleted,saleStakeholder/contact/email/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

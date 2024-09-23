@@ -145,14 +145,12 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=imageThumbnail,projectAssociate/assocType,projectUrl/URLAddress
+GET /api/v1/archive/FreetextProject?$select=projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

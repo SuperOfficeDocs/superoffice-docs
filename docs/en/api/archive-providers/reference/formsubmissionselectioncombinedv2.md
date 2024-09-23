@@ -479,14 +479,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/birthDay,person/personUpdatedDate,person/email/emailLastBounce,person/isMailingRecipient,contact/countryId
+GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/correspondingAssociate/associateDbId,contact/contactExtra/x_contact_shorttext,person/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

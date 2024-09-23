@@ -720,14 +720,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=contact/contactUdef/SuperOffice:13,person/email/emailAddress,person/personExtra/x_person_user_relation,person/personAssociate/simultaneousEjUser,person/correspondingAssociate/mrMrs
+GET /api/v1/archive/SimpleAppointment?$select=contact/contactAssociate/locationAddress,person/middleName,person/personAddress/formattedAddress,person/correspondingAssociate/contactName,sale/lossReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

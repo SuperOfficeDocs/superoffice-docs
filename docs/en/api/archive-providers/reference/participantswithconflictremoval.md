@@ -192,14 +192,12 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personEmailsInformation,personRegisteredByFullName
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=endTimeInformation,personEmailsInformation,personRegisteredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

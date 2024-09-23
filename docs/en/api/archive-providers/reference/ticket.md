@@ -763,14 +763,12 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=person/birthMonth,person/personAssociate/ejUserId,contact/searchPhone/formattedNumber,contact/email/emailLastSent,contact/contactUdef/SuperOffice:9
+GET /api/v1/archive/Ticket?$select=ownedBy/personEmail,person/personAddress/line1,person/personAssociate/contactId,contact/countryId,contact/contactAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

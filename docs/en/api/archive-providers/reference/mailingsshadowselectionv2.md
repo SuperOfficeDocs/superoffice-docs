@@ -658,14 +658,12 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/contactId,mailingAddr/contact/contactFax/formattedNumber,mailingAddr/contact/NumberOfNotCompletedActivities,mailingAddr/person/personAddress/line3,mailingAddr/person/correspondingAssociate/mrMrs
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/contactUdef/SuperOffice:3,mailingAddr/person/personNumber,mailingAddr/person/rank,mailingAddr/person/personDirectPhone/formattedNumber,emailFlow/workflowAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

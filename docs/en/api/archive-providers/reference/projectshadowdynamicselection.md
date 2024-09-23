@@ -795,14 +795,12 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/icon,sale/text,appointment/updatedByFullName,projectMember/personAssociate/ejUserId,projectMember/NumberOfNotCompletedTicketsInPeriod
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=projectPublish/publishedFrom,projectAssociate/title,projectAssociate/isActiveText,appointment/registeredBy,appointment/appointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

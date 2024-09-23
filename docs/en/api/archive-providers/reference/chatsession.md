@@ -481,14 +481,12 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/personNumber,person/personPrivate/description,person/correspondingAssociate/otherGroups,contact/LastDoByTicket
+GET /api/v1/archive/ChatSession?$select=person/email/emailProtocol,contact/postAddress/addressId,contact/postAddress/state,contact/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

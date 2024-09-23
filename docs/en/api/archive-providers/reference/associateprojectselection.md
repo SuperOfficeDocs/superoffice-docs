@@ -800,14 +800,12 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelection?$select=projectEvent/eventDate,appointment/visibleFor,appointment/appointmentUdef/SuperOffice:5,appointment/associate/associateDbId,document/documentUdef/SuperOffice:2
+GET /api/v1/archive/AssociateProjectSelection?$select=projectAssociate/ejUserId,sale/contactId,appointment/appointment/agenda,document/isMail,document/recordTypeText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

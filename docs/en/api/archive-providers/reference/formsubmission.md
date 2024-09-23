@@ -474,14 +474,12 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/personAddress/line3,person/personAssociate/contactId,contact/email/emailProtocol,contact/streetAddress/addressId
+GET /api/v1/archive/FormSubmission?$select=associate/middleName,person/birthMonth,person/isProjectMember,person/personAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

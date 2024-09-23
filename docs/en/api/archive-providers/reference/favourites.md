@@ -3304,14 +3304,12 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=registeredByFullName,person/personExtra/y_rental/x_end,person/personAssociate/associateDbId,person/personAssociate/personEmail,person/consentSourceEmarketing
+GET /api/v1/archive/Favourites?$select=reopenDate,person/birthDay,person/personExtra/x_person_float,person/personExtra/x_person_time,person/personAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

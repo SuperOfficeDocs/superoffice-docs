@@ -481,14 +481,12 @@ ChatConversation selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=timeInQueue,person/email/emailHasBounced,person/personExtra/x_person_datetime
+GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=associate/assocTooltip,associate/simultaneousEjUser,associate/otherGroups,associate/userName,person/personAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -761,14 +761,12 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=person/personAssociate/simultaneousEjUser,person/correspondingAssociate/middleName,person/correspondingAssociate/ejUserId,contact/searchPhone/description,project/projectAssociate/fullName
+GET /api/v1/archive/FindTicket?$select=person/birthMonth,person/personDirectPhone/formattedNumber,person/personDirectFax/formattedNumber,person/personExtra/x_person_timespan,contact/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

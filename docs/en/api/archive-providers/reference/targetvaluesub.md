@@ -402,14 +402,12 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=associate/title,associate/locationAddress,contact/restrictionPostalAddress/line3,contact/contactSupportAssociate/fullName,contact/contactSupportAssociate/locationAddress
+GET /api/v1/archive/TargetValueSub?$select=associate/role,contact/postAddress/city,contact/contactSupportAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

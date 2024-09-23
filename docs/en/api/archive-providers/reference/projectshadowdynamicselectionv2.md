@@ -795,14 +795,12 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectEvent/hasSignOff,appointment/visibleFor,appointment/associate/contactName,appointment/appointment/title,document/associate/title
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=registeredByFullName,projectAssociate/contactId,projectAssociate/contactFullName,sale/associate/role,appointment/associate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

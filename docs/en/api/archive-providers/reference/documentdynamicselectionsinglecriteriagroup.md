@@ -709,14 +709,12 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=completed,person/correspondingAssociate/contactCategory,contact/contactAssociate/lastName
+GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=isReport,person/personPager/description,person/correspondingAssociate/mrMrs,contact/restrictionAddress/wgs84latitude,contact/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

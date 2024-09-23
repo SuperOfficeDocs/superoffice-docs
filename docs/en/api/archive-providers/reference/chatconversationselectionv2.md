@@ -486,14 +486,12 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=contact/hasInfoText,contact/restrictionAddress/wgs84latitude,contact/contactUdef/SuperOffice:8
+GET /api/v1/archive/ChatConversationSelectionV2?$select=contact/contactExtra/x_contact_date,contact/contactExtra/x_contact_contact,contact/saintActivityType,selectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

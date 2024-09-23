@@ -758,14 +758,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/UnassignedTickets?$select=status,ownedBy/isActive,contact/contactExtra/x_contact_date,contact/NumberOfNotCompletedTicketsInPeriod,sale/associate/personId
+GET /api/v1/archive/UnassignedTickets?$select=createdBy/assocTooltip,person/personAssociate/otherGroups,contact/LastDoByTicket,extra/x_ticket_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

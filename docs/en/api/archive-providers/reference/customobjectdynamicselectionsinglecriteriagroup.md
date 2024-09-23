@@ -1,0 +1,32 @@
+---
+uid: CustomObjectDynamicSelectionSingleCriteriaGroup
+title: CustomObjectDynamicSelectionSingleCriteriaGroup
+description: CustomObject selection archive using the selectionId as criterionmapping.
+keywords: CustomObjectDynamicSelectionSingleCriteriaGroup archive provider
+so.generated: true
+so.topic: reference
+so.envir: onsite, online
+---
+
+# "CustomObjectDynamicSelectionSingleCriteriaGroup"
+
+This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup">SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionDynamicProviderSingleCriteriaGroup</see> inside NetServer's SODatabase assembly.
+
+CustomObject selection archive using the selectionId as criterionmapping.
+
+## Supported Columns
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+
+## Sample
+
+```http!
+GET /api/v1/archive/CustomObjectDynamicSelectionSingleCriteriaGroup:y_car?$select=x_name
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+
+```
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

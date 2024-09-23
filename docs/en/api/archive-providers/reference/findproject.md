@@ -793,14 +793,12 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=projectAssociate/contactDepartment,sale/hasQuote,sale/associate/fullName,projectMember/personAddress/wgs84latitude,projectMember/contactExtra/x_contact_shorttext
+GET /api/v1/archive/FindProject?$select=sale/userGroup,sale/associate/isActiveText,projectMember/personId,projectMember/legalBaseEmarketing,projectMember/contactUdef/SuperOffice:11
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

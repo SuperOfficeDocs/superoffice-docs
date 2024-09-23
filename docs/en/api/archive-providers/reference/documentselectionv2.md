@@ -714,14 +714,12 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=getNoRows,visibleFor,person/personAssociate/title,contact/department,contact/contactUdef/SuperOffice:3
+GET /api/v1/archive/DocumentSelectionV2?$select=projectId,person/correspondingAssociate/usergroup,contact/email/emailLastSent,contact/contactExtra/x_contact_shorttext,contact/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

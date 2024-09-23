@@ -714,14 +714,12 @@ Shadow contact provider for the Document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowSelectionV2?$select=projectId,person/restrictionAddress/formattedMultiLineAddress,contact/stop,project/LastCompletedSale,sale/competitor
+GET /api/v1/archive/DocumentShadowSelectionV2?$select=person/createdByForm,person/email/emailDescription,person/correspondingAssociate/contactCategory,contact/NumberOfActivitiesInPeriod,project/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

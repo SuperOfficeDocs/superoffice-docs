@@ -1201,14 +1201,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=contactAssociate/ejStatus,contactAssociate/userName,personInfo/infoText,personSourceRelation/fullName,request/realTimeSpentInternally
+GET /api/v1/archive/ContactStaticSelection?$select=appointment/appointmentId,appointment/appointmentUdef/SuperOffice:1,document/associate/fullName,birthYear,legalBaseEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

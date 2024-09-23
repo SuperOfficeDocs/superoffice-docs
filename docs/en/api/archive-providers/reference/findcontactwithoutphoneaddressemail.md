@@ -746,14 +746,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=streetAddress/addressId,contactExtra/x_contact_default_integer,LastDoByTicket,sale/activeErpLinks,appointment/associate/title
+GET /api/v1/archive/FindContactWithoutPhoneAddressEmail?$select=registeredBy,postAddress/formattedAddress,contactAssociate/credentialType,contactExtra/y_organization/x_name,sale/createdByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

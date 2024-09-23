@@ -1306,14 +1306,12 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=person/personExtra/x_person_shorttext_list,contact/contactSource,contact/restrictionAddress/wgs84latitude,document/associate/role,saleStakeholder/person/personNumber
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=icon,saleId,person/personAssociate/contactDepartment,document/recordType,project/status
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

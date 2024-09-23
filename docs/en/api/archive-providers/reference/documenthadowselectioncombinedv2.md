@@ -714,14 +714,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=person/personUpdatedByFullName,person/personInfo/infoText,person/personAssociate/title,contact/streetAddress/formattedAddress,documentUdef/SuperOffice:8
+GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=date,person/personPager/formattedNumber,person/personDirectFax/description,person/personExtra/x_person_shorttext,project/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

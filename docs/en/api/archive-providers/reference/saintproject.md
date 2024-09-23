@@ -794,14 +794,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=name,sale/recordType,sale/projectId,sale/hasGuide,sale/salePublish/publishedTo
+GET /api/v1/archive/SaintProject?$select=projectEvent/hasSignOff,projectAssociate/simultaneousEjUser,sale/currencyId,appointment/associate/otherGroups,projectMember/postAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

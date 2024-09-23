@@ -139,14 +139,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksProject?$select=projectPublish/publishedTo,projectAssociate/fullName,projectPublish/publishedBy
+GET /api/v1/archive/LinksProject?$select=projectPublish/publishedBy,projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

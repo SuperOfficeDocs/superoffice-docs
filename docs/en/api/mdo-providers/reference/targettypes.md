@@ -9,7 +9,23 @@ so.envir: onsite, online
 ---
 
 # "targettypes" MDO List
+
+
+
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.TargetTypeProvider">TargetTypeProvider</see> class.
 The name of the MDO list is 'targettypes'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|The entity type for which to return target types. (Sale, Project, Selection, etc.)| TargetEntityType||
+|Include All item.| IncludeAll|False|
+|Include invalid choices (already used for all measure types).| IncludeAll|False|
+
+Separator: &
+
 
 
 

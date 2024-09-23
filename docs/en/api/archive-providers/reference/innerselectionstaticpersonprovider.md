@@ -816,14 +816,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=streetAddress/line1,restrictionAddress/formattedAddress,contactAssociate/fullName,contactAssociate/title,request/readByCustomer
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=fullName,correspondingAssociate/portraitThumbnail,streetAddress/county,request/personId,request/saleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

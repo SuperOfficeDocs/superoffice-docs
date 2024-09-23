@@ -765,14 +765,12 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=person/personAddress/line1,contact/streetAddress/zip,contact/contactExtra/x_contact_longtext,project/imageThumbnail
+GET /api/v1/archive/TicketSelectionV2?$select=person/personInfo/textId,person/personUdef/SuperOffice:4,person/personExtra/y_rental/id,contact/contactFax/description,contact/LastCompletedTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

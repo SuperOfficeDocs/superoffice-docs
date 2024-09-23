@@ -749,14 +749,12 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=name,alternative/erpDiscountAmount,alternative/version/quote/sale/person/associateType,alternative/version/quote/sale/person/personUpdatedBy,alternative/version/quote/sale/person/personRegisteredDate
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=totalCost,status,alternative/version/quote/sale/person/ticketPriority,alternative/version/quote/sale/person/createdByForm,alternative/version/quote/sale/contact/code
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

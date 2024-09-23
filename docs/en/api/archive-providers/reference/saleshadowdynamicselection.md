@@ -1306,14 +1306,12 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/personInfo/infoText,contact/url/URLAddress,contact/contactAssociate/personEmail,contact/LastActivity,contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/isStakeholder,person/personDirectPhone/formattedNumber,person/correspondingAssociate/contactId,contact/activeErpLinks,contact/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

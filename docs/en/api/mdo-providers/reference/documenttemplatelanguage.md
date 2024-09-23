@@ -2,14 +2,26 @@
 uid: documenttemplatelanguage
 title: documenttemplatelanguage
 keywords: mdoprovider mdo provider documenttemplatelanguage
-description: 
+description: MDO Provider for Document Template langauges.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "documenttemplatelanguage" MDO List
+MDO Provider for Document Template langauges.
+
+ExtraInfo is used to decide which document template to fetch alternatives for.
+
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.DocumentTemplateLanguageProvider">DocumentTemplateLanguageProvider</see> class.
 The name of the MDO list is 'documenttemplatelanguage'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Document template id| |23|
+
 
 
 

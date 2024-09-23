@@ -35,14 +35,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketNewMessageNotification?$select=ticketId,associateId,notifyDateTime
+GET /api/v1/archive/TicketNewMessageNotification?$select=category,associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

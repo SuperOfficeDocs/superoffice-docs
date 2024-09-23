@@ -9,6 +9,11 @@ so.envir: onsite, online
 ---
 
 # "crmfields" MDO List
+
+
+
+
+Implemented by the <see cref="T:SuperOffice.ErpSync.CrmFieldMdoProvider">CrmFieldMdoProvider</see> class.
 The name of the MDO list is 'crmfields'.
 
 

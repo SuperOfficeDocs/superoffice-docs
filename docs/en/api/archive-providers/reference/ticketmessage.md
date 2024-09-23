@@ -821,14 +821,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/content,ticket/person/personAddress/line2,ticket/person/personUdef/SuperOffice:10,ticket/contact/contactNoMail,ticket/contact/restrictionAddress/addressId
+GET /api/v1/archive/TicketMessage?$select=ticket/person/correspondingAssociate/mrMrs,ticket/contact/contactAssociate/ejStatus,ticket/contact/contactAssociate/isActive,ticket/contact/contactExtra/x_contact_datetime,ticket/sale/lossReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -762,14 +762,12 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=readStatus,person/restrictionAddress/city,person/personAssociate/middleName,contact/contactSource,contact/restrictionAddress/line2
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=createdBy/assocType,person/personAssociate/usergroup,sale/hasGuide,project/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

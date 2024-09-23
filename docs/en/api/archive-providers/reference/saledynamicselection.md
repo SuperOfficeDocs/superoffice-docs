@@ -1306,14 +1306,12 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=updatedBy,person/personExtra/x_person_timespan,contact/email/emailAddress,appointment/registeredBy,document/contactId
+GET /api/v1/archive/SaleDynamicSelection?$select=icon,person/personAssociate/assocType,contact/registeredByFullName,contact/restrictionAddress/addressId,associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

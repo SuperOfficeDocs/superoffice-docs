@@ -795,14 +795,12 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=sale/stage,sale/sale/description,projectMember/personMobilePhone/description,projectMember/contactEmail/emailDescription,projectMember/contactInterestIds
+GET /api/v1/archive/ProjectDynamicSelection?$select=sale/userGroup,sale/probPercent,appointment/associate/assocName,projectMember/personMobilePhone/description,projectMember/personAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

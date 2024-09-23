@@ -723,14 +723,12 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=contact/contactAssociate/userName,contact/LastActivity,contact/LastTicket,person/personUpdatedBy,person/supportLanguage
+GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=skipTentativeAndRejectedRestriction,contact/associateId,contact/saintDirection,person/personUpdatedBy,person/personDirectFax/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

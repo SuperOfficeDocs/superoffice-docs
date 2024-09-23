@@ -257,14 +257,12 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingEndDate,shipment/emailFlow/workflowAssociate/assocTooltip,shipment/emailFlow/workflowEnrolledCount
+GET /api/v1/archive/EmailFlowContent?$select=shipment/emailFlow/emailFlowId,shipment/project/projectAssociate/firstName,shipment/project/projectAssociate/userName,shipment/project/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

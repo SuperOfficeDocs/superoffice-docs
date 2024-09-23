@@ -14,52 +14,52 @@ so.envir: onsite, online
 
 |Provider Name|Implemented by Class|
 | ---------- | ----------- |
-| [AmountClass](AmountClass.md) |MDO List for database table ID: Table id 225. amountclass.tooltip|
-| [Associate](associate.md) |MDO List for database table ID: Table id 2. associate.tooltip|
-| [Business](Business.md) |MDO List for database table ID: Table id 61. business.tooltip|
-| [Category](Category.md) |MDO List for database table ID: Table id 64. category.tooltip|
-| [Comptr](Comptr.md) |MDO List for database table ID: Table id 109. comptr.tooltip|
-| [ContInt](ContInt.md) |MDO List for database table ID: Table id 70. contint.tooltip|
-| [Country](country.md) |MDO List for database table ID: Table id 19. country.tooltip|
-| [Credited](Credited.md) |MDO List for database table ID: Table id 97. credited.tooltip|
-| [Currency](Currency.md) |MDO List for database table ID: Table id 112. currency.tooltip|
-| [DeliveryTerms](DeliveryTerms.md) |MDO List for database table ID: Table id 433. deliveryterms.tooltip|
-| [DeliveryType](DeliveryType.md) |MDO List for database table ID: Table id 436. deliverytype.tooltip|
-| [DocTmpl](DocTmpl.md) |MDO List for database table ID: Table id 130. doctmpl.tooltip|
-| [ExtApp](ExtApp.md) |MDO List for database table ID: Table id 133. extapp.tooltip|
-| [Intent](Intent.md) |MDO List for database table ID: Table id 216. intent.tooltip|
-| [MrMrs](MrMrs.md) |MDO List for database table ID: Table id 94. mrmrs.tooltip|
-| [PaymentTerms](PaymentTerms.md) |MDO List for database table ID: Table id 427. paymentterms.tooltip|
-| [PaymentType](PaymentType.md) |MDO List for database table ID: Table id 430. paymenttype.tooltip|
-| [PersInt](PersInt.md) |MDO List for database table ID: Table id 73. persint.tooltip|
-| [PersPos](PersPos.md) |MDO List for database table ID: Table id 76. perspos.tooltip|
-| [PMembType](PMembType.md) |MDO List for database table ID: Table id 91. pmembtype.tooltip|
-| [PriceUnit](PriceUnit.md) |MDO List for database table ID: Table id 439. priceunit.tooltip|
-| [Priority](Priority.md) |MDO List for database table ID: Table id 79. priority.tooltip|
-| [Prob](Prob.md) |MDO List for database table ID: Table id 82. prob.tooltip|
-| [ProductCategory](ProductCategory.md) |MDO List for database table ID: Table id 408. productcategory.tooltip|
-| [ProductFamily](ProductFamily.md) |MDO List for database table ID: Table id 411. productfamily.tooltip|
-| [ProductType](ProductType.md) |MDO List for database table ID: Table id 414. producttype.tooltip|
-| [ProjStatus](ProjStatus.md) |MDO List for database table ID: Table id 88. projstatus.tooltip|
-| [ProjType](ProjType.md) |MDO List for database table ID: Table id 85. projtype.tooltip|
-| [QuoteApprReason](QuoteApprReason.md) |MDO List for database table ID: Table id 504. quoteapprreason.tooltip|
-| [QuoteDenyReason](QuoteDenyReason.md) |MDO List for database table ID: Table id 507. quotedenyreason.tooltip|
-| [Reason](Reason.md) |MDO List for database table ID: Table id 103. reason.tooltip|
-| [ReasonSold](ReasonSold.md) |MDO List for database table ID: Table id 115. reasonsold.tooltip|
-| [ReasonStalled](ReasonStalled.md) |MDO List for database table ID: Table id 154. reasonstalled.tooltip|
-| [RejectReason](RejectReason.md) |MDO List for database table ID: Table id 222. rejectreason.tooltip|
-| [Relationdefinition](relationdefinition.md) |MDO List for database table ID: Table id 48. relationdefinition.tooltip|
-| [SaleType](SaleType.md) |MDO List for database table ID: Table id 149. saletype.tooltip|
-| [SaleTypeCat](SaleTypeCat.md) |MDO List for database table ID: Table id 118. saletypecat.tooltip|
-| [Salutation](Salutation.md) |MDO List for database table ID: Table id 219. salutation.tooltip|
-| [SearchCat](SearchCat.md) |MDO List for database table ID: Table id 106. searchcat.tooltip|
-| [Source](Source.md) |MDO List for database table ID: Table id 100. source.tooltip|
-| [StakeholderRole](StakeholderRole.md) |MDO List for database table ID: Table id 122. stakeholderrole.tooltip|
-| [SubscriptionUnit](SubscriptionUnit.md) |MDO List for database table ID: Table id 442. subscriptionunit.tooltip|
-| [Tags](Tags.md) |MDO List for database table ID: Table id 488. tags.tooltip|
-| [Task](Task.md) |MDO List for database table ID: Table id 67. task.tooltip|
-| [TaskMenu](TaskMenu.md) |MDO List for database table ID: Table id 520. taskmenu.tooltip|
-| [UDList](UDList.md) |MDO List for database table ID: Table id 136. udlist.tooltip|
+| [AmountClass](AmountClass.md) |MDO List for database table ID: Table id 225. amountclass (98).tooltip|
+| [Associate](associate.md) |MDO List for database table ID: Table id 2. associate (2).tooltip|
+| [Business](Business.md) |MDO List for database table ID: Table id 61. business (11).tooltip|
+| [Category](Category.md) |MDO List for database table ID: Table id 64. category (14).tooltip|
+| [Comptr](Comptr.md) |MDO List for database table ID: Table id 109. comptr (59).tooltip|
+| [ContInt](ContInt.md) |MDO List for database table ID: Table id 70. contint (20).tooltip|
+| [Country](country.md) |MDO List for database table ID: Table id 19. country (5).tooltip|
+| [Credited](Credited.md) |MDO List for database table ID: Table id 97. credited (47).tooltip|
+| [Currency](Currency.md) |MDO List for database table ID: Table id 112. currency (62).tooltip|
+| [DeliveryTerms](DeliveryTerms.md) |MDO List for database table ID: Table id 433. deliveryterms (116).tooltip|
+| [DeliveryType](DeliveryType.md) |MDO List for database table ID: Table id 436. deliverytype (119).tooltip|
+| [DocTmpl](DocTmpl.md) |MDO List for database table ID: Table id 130. doctmpl (74).tooltip|
+| [ExtApp](ExtApp.md) |MDO List for database table ID: Table id 133. extapp (77).tooltip|
+| [Intent](Intent.md) |MDO List for database table ID: Table id 216. intent (89).tooltip|
+| [MrMrs](MrMrs.md) |MDO List for database table ID: Table id 94. mrmrs (44).tooltip|
+| [PaymentTerms](PaymentTerms.md) |MDO List for database table ID: Table id 427. paymentterms (110).tooltip|
+| [PaymentType](PaymentType.md) |MDO List for database table ID: Table id 430. paymenttype (113).tooltip|
+| [PersInt](PersInt.md) |MDO List for database table ID: Table id 73. persint (23).tooltip|
+| [PersPos](PersPos.md) |MDO List for database table ID: Table id 76. perspos (26).tooltip|
+| [PMembType](PMembType.md) |MDO List for database table ID: Table id 91. pmembtype (41).tooltip|
+| [PriceUnit](PriceUnit.md) |MDO List for database table ID: Table id 439. priceunit (122).tooltip|
+| [Priority](Priority.md) |MDO List for database table ID: Table id 79. priority (29).tooltip|
+| [Prob](Prob.md) |MDO List for database table ID: Table id 82. prob (32).tooltip|
+| [ProductCategory](ProductCategory.md) |MDO List for database table ID: Table id 408. productcategory (101).tooltip|
+| [ProductFamily](ProductFamily.md) |MDO List for database table ID: Table id 411. productfamily (104).tooltip|
+| [ProductType](ProductType.md) |MDO List for database table ID: Table id 414. producttype (107).tooltip|
+| [ProjStatus](ProjStatus.md) |MDO List for database table ID: Table id 88. projstatus (38).tooltip|
+| [ProjType](ProjType.md) |MDO List for database table ID: Table id 85. projtype (35).tooltip|
+| [QuoteApprReason](QuoteApprReason.md) |MDO List for database table ID: Table id 504. quoteapprreason (131).tooltip|
+| [QuoteDenyReason](QuoteDenyReason.md) |MDO List for database table ID: Table id 507. quotedenyreason (134).tooltip|
+| [Reason](Reason.md) |MDO List for database table ID: Table id 103. reason (53).tooltip|
+| [ReasonSold](ReasonSold.md) |MDO List for database table ID: Table id 115. reasonsold (65).tooltip|
+| [ReasonStalled](ReasonStalled.md) |MDO List for database table ID: Table id 154. reasonstalled (86).tooltip|
+| [RejectReason](RejectReason.md) |MDO List for database table ID: Table id 222. rejectreason (95).tooltip|
+| [Relationdefinition](relationdefinition.md) |MDO List for database table ID: Table id 48. relationdefinition (8).tooltip|
+| [SaleType](SaleType.md) |MDO List for database table ID: Table id 149. saletype (83).tooltip|
+| [SaleTypeCat](SaleTypeCat.md) |MDO List for database table ID: Table id 118. saletypecat (68).tooltip|
+| [Salutation](Salutation.md) |MDO List for database table ID: Table id 219. salutation (92).tooltip|
+| [SearchCat](SearchCat.md) |MDO List for database table ID: Table id 106. searchcat (56).tooltip|
+| [Source](Source.md) |MDO List for database table ID: Table id 100. source (50).tooltip|
+| [StakeholderRole](StakeholderRole.md) |MDO List for database table ID: Table id 122. stakeholderrole (71).tooltip|
+| [SubscriptionUnit](SubscriptionUnit.md) |MDO List for database table ID: Table id 442. subscriptionunit (125).tooltip|
+| [Tags](Tags.md) |MDO List for database table ID: Table id 488. tags (128).tooltip|
+| [Task](Task.md) |MDO List for database table ID: Table id 67. task (17).tooltip|
+| [TaskMenu](TaskMenu.md) |MDO List for database table ID: Table id 520. taskmenu (137).tooltip|
+| [UDList](UDList.md) |MDO List for database table ID: Table id 136. udlist (80).tooltip|
 
 ## List of other valid MDO providers
 
@@ -125,7 +125,7 @@ so.envir: onsite, online
 | [currentudeffields](currentudeffields.md) |Get a list of udef fields for a given type. Pass the type as AdditionalInfo|
 | [customerlanguage](customerlanguage.md) |Customer Languages list. From the CustLang table.|
 | [customobjectlist](customobjectlist.md) |<see cref="T:SuperOffice.CRM.Lists.CustomObjectListProvider" /> creates tree list of the custom objects|
-| [customobjectrelation](customobjectrelation.md) ||
+| [customobjectrelation](customobjectrelation.md) |MDO list provider for custom object relation|
 | [dashboard](dashboard.md) |MDO list provider for Dashboard, can be used by Navigator.|
 | [dashboardcurrency](dashboardcurrency.md) ||
 | [dashboardentity](dashboardentity.md) ||
@@ -148,7 +148,7 @@ so.envir: onsite, online
 | [documenthandler](documenthandler.md) ||
 | [documentmailing](documentmailing.md) |Document shipments (mail merges).|
 | [documentmailingtemplate](documentmailingtemplate.md) |Document mailing templates|
-| [documenttemplatelanguage](documenttemplatelanguage.md) ||
+| [documenttemplatelanguage](documenttemplatelanguage.md) |MDO Provider for Document Template langauges.|
 | [documenttemplatesfiltered](documenttemplatesfiltered.md) |MDO Provider for Document Templates, excluding Document details and quote mail templates, which are for system use rather than end-user choosing.|
 | [documenttypes](documenttypes.md) |List of document types for the given plugin|
 | [efd_13](efd_13.md) |Extra fields dropdown lists. Contains list of string values defined on the extra_field|
@@ -241,7 +241,7 @@ so.envir: onsite, online
 | [mergetags](mergetags.md) ||
 | [month](month.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [mrmrs](mrmrs.md) |GenericMDOProvider reads MDO lists with default settings|
-| [nextavailabletime](nextavailabletime.md) ||
+| [nextavailabletime](nextavailabletime.md) |MDO Provider for identifying available times for meeting.|
 | [ofmonth](ofmonth.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [ownercontact](ownercontact.md) |MDO provider for listing owner contacts.|
 | [paymentterms](paymentterms.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -265,7 +265,7 @@ so.envir: onsite, online
 | [pmembtype](pmembtype.md) |GenericMDOProvider reads MDO lists with default settings|
 | [prefdescline](prefdescline.md) |PrefDesc creates a MDO list of prefdesclines for a given prefdesc id.|
 | [preferencekey](preferencekey.md) |MDO Provider that retrieves a list of preference keys corresponding to a given section|
-| [preferencelineitem](preferencelineitem.md) ||
+| [preferencelineitem](preferencelineitem.md) |MDO Provider for preferences that have a list of possible values in the database|
 | [preferencesection](preferencesection.md) |MDO Provider that retrieves a list of preference sections|
 | [pricelist](pricelist.md) |List of pricelists from the PriceList table|
 | [priceunit](priceunit.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -297,7 +297,7 @@ so.envir: onsite, online
 | [quotedenyreason](quotedenyreason.md) |GenericMDOProvider reads MDO lists with default settings|
 | [quotedocumentgroupfields](quotedocumentgroupfields.md) |Possible choices for fields that you can GROUP BY in quote detail documents.|
 | [quotedocumentorderbyfields](quotedocumentorderbyfields.md) |Possible choices for fields you can ORDER BY, within a group (or without grouping)|
-| [quotedocuments](quotedocuments.md) ||
+| [quotedocuments](quotedocuments.md) |MDO provider for the list of current / candidate "main document" for a given quote|
 | [quotedocumenttype](quotedocumenttype.md) |List of quote document types - assumes ExtraInfo is the name of RecordType enum value|
 | [quotelinestatus](quotelinestatus.md) |Hard-coded list of values for the QuoteLine.Status field, see <see cref="T:SuperOffice.Data.QuoteStatus" /> enum.|
 | [quotetemplate](quotetemplate.md) |This is a variant of the DocTmpl list - document templates - restricted to those that are of some quote document type|
@@ -442,7 +442,7 @@ so.envir: onsite, online
 | [typicalsearch](typicalsearch.md) |MDO provider for the TypicalSearch Title, Tooltip and I|
 | [udeffields](udeffields.md) |Get a list of udef fields for a given type|
 | [udeffieldswithchanges](udeffieldswithchanges.md) |Get a list of udef fields for a given type|
-| [udeffieldtype](udeffieldtype.md) ||
+| [udeffieldtype](udeffieldtype.md) |List of UDef field types for a given owner table, and possibly restricted based on the current field type|
 | [udlist](udlist.md) |MDO Provider for 'user-defined' lists, i.e., those that reside in the UDList table. Mandatory additionalInfo is th|
 | [udlist28](udlist28.md) |Dynamic MDO provider that will create a list with the name udlist&lt;id&gt; for each user-defined list in the UDListDefinition table|
 | [udlist30002](udlist30002.md) |MDO provider for the ChatService|

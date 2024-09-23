@@ -658,14 +658,12 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/department,mailingAddr/contact/associateId,mailingAddr/contact/restrictionAddress/city,mailingAddr/person/personAddress/wgs84longitude,mailingAddr/person/personExtra/x_person_priority_relation
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/contactAssociate/userName,mailingAddr/contact/contactUdef/SuperOffice:8,mailingAddr/person/personExtra/x_person_priority_relation,mailingAddr/person/correspondingAssociate/simultaneousEjUser,mailingAddr/person/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

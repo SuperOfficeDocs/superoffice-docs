@@ -484,14 +484,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=chatTopic/name,associate/assocName,person/personDirectFax/formattedNumber,person/personAssociate/contactId
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=person/mrMrs,person/personExtra/x_person_shorttext_list,person/personAssociate/portraitThumbnail,contact/updatedBy,contact/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

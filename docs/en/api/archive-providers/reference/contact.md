@@ -355,14 +355,12 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=hasInfoText,postAddress/zip,contactAssociate/title,contactSupportAssociate/contactDepartment,contactSupportAssociate/ejDisplayName
+GET /api/v1/archive/Contact?$select=url/URLDescription,contactSupportPerson/retired,saintTicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

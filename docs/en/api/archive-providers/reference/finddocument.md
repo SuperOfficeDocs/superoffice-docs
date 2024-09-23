@@ -709,14 +709,12 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/personExtra/x_person_contact_relation,contact/stop,contact/LastDoByActivity,contact/saintTicketCategory,project/projectPublish/isPublished
+GET /api/v1/archive/FindDocument?$select=contact/NumberOfNotCompletedActivities,project/icon,project/projectUrl/URLDescription,associate/personId,sale/hasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

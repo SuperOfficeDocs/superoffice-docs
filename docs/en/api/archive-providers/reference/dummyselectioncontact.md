@@ -551,14 +551,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=contactExtra/x_contact_default_integer,contactExtra/x_contact_datetime,sale/activeErpLinks,sale/associate/fullName
+GET /api/v1/archive/DummySelectionContact?$select=restrictionAddress/addressId,restrictionAddress/state,saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

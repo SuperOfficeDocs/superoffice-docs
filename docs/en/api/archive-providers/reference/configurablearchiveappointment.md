@@ -723,14 +723,12 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/contactNoMail,contact/contactExtra/x_contact_boolean,contact/LastTicket,person/correspondingAssociate/contactFullName,project/description
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/stop,contact/email/emailLastSent,contact/contactAssociate/contactId,contact/contactAssociate/personEmail,person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

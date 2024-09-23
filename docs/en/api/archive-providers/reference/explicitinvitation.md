@@ -724,14 +724,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExplicitInvitation?$select=person/personBusiness,person/correspondingAssociate/userName,project/projectAssociate/lastName,project/projectAssociate/usergroup,sale/saleStatus
+GET /api/v1/archive/ExplicitInvitation?$select=contact/contactAssociate/middleName,contact/saintActivityType,person/middleName,person/personDirectFax/description,person/restrictionAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

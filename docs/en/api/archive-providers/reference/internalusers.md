@@ -91,14 +91,12 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=ejUserId,firstName,associateDbId
+GET /api/v1/archive/InternalUsers?$select=firstName,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

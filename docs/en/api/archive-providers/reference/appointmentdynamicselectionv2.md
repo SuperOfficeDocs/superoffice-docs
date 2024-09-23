@@ -725,14 +725,12 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=contact/countryId,contact/restrictionAddress/city,contact/contactAssociate/userName,contact/NumberOfSalesInPeriod,contact/LastDoBySale
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=cautionWarning,contact/saintAmountClass,person/personUpdatedDate,person/isProjectMember,person/personAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

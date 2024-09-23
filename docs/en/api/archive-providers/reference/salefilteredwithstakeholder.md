@@ -1124,14 +1124,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=activeErpLinks,person/personCategory,person/personAssociate/locationAddress,contact/stop,contact/streetAddress/city
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=saleNumber,salePublish/isPublished,person/personExtra/y_rental/x_start,contact/postAddress/line2,contact/contactAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

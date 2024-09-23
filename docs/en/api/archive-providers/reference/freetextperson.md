@@ -1032,14 +1032,12 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personAssociate/assocName,correspondingAssociate/contactId,personContact/postAddress/zip,personContact/restrictionPostalAddress/line3,personContact/contactAssociate/mrMrs
+GET /api/v1/archive/FreetextPerson?$select=personExtra/x_person_datetime,personSourceRelation/useAsMailingAddress,correspondingAssociate/associateDbId,personContact/name,personContact/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

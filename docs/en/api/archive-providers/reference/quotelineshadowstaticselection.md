@@ -760,14 +760,12 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=PriceUnitSubscriptionUnit,vatInfo,alternative/version/approvalRegisteredBy,alternative/version/quote/sale/person/personBusiness,alternative/version/quote/sale/person/personAddress/wgs84longitude
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=quoteLineThumbnail,alternative/erpDiscountAmount,alternative/version/quote/sale/time,alternative/version/quote/sale/person/correspondingAssociate/personEmail,alternative/version/quote/sale/contact/email/emailProtocol
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

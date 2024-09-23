@@ -790,14 +790,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelection?$select=sale/associate/fullName,appointment/appointmentUdef/SuperOffice:3,document/document/description
+GET /api/v1/archive/ProjectStaticSelection?$select=sale/heading,appointment/text,appointment/associate/isLocation,document/associate/isActiveText,projectMember/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

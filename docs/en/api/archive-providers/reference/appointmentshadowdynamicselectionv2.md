@@ -725,14 +725,12 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/contactExtra/x_contact_shorttext,contact/contactExtra/x_contact_short_dropdown,contact/contactExtra/x_contact_request_relation,person/firstName,person/personPager/formattedNumber
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=projectId,person/hasInterests,person/personAddress/wgs84latitude,person/personExtra/x_person_priority_relation,person/personAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

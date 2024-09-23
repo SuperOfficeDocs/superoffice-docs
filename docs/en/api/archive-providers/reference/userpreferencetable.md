@@ -44,14 +44,12 @@ actually live in the Service tables.
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferenceTable?$select=maxlevel,deflevelname,maxlevelname
+GET /api/v1/archive/UserPreferenceTable?$select=deflevelname,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

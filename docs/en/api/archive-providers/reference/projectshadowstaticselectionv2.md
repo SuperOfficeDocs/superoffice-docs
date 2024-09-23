@@ -792,14 +792,12 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=hasInfoText,appointment/appointmentUdef/SuperOffice:4,appointment/appointmentUdef/SuperOffice:3
+GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=projectPublish/isPublished,sale/saleNumber,appointment/appointmentPublish/publishedTo,projectMember/mrMrs,projectMember/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

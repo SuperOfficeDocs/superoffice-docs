@@ -719,14 +719,12 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/correspondingAssociate/mrMrs,person/correspondingAssociate/role,contact/LastSale,associate/firstName,sale/completed
+GET /api/v1/archive/LinksDocuments?$select=person/personAssociate/personEmail,contact/streetAddress/formattedAddress,project/projectUrl/URLAddress,project/LastDoBySale,sale/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

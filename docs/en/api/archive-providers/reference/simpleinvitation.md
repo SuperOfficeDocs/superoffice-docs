@@ -728,14 +728,12 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=priority,recurring,contact/contactExtra/x_contact_float,contact/saintActivityType,project/projectUdef/SuperOffice:10
+GET /api/v1/archive/SimpleInvitation?$select=registeredBy,contact/department,contact/postAddress/wgs84longitude,contact/restrictionAddress/line1,person/personPrivate/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -755,14 +755,12 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=quantityUnit,alternative/version/number,alternative/version/quote/sale/lossReason,alternative/version/quote/sale/person/personAddress/line3,alternative/version/quote/sale/person/personAssociate/ejDisplayName
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/version/quote/sale/person/personCountryId,alternative/version/quote/sale/person/isProjectMember,alternative/version/quote/sale/person/personAssociate/middleName,alternative/version/quote/sale/project/projectAssociate/contactFullName,alternative/version/quote/sale/project/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

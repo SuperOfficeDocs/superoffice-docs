@@ -800,14 +800,12 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=projectUrl/URLAddress,projectMember/correspondingAssociate/ejDisplayName,projectMember/contactUdef/SuperOffice:12,projectMember/contactExtra/x_contact_shorttext,projectMember/LastActivity
+GET /api/v1/archive/ProjectShadowSelection?$select=type,appointment/associate/ejUserId,projectMember/postAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -207,14 +207,12 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=recordType,competitor,project/registeredBy
+GET /api/v1/archive/SaleHistory?$select=associate/otherGroups,person/fullName,person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

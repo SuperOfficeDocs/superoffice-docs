@@ -712,14 +712,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentStaticSelection?$select=person/personInterestIds,person/subscription,contact/email/emailAddress,documentUdef/SuperOffice:2,sale/lossReason
+GET /api/v1/archive/DocumentStaticSelection?$select=person/personBusiness,contact/country,contact/LastDoByActivity,project/NumberOfSalesInPeriod,associate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

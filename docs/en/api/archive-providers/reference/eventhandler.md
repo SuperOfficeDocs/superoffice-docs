@@ -39,14 +39,12 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EventHandler?$select=path,path,screenType
+GET /api/v1/archive/EventHandler?$select=path,screenType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

@@ -1198,14 +1198,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=NumberOfNotCompletedSales,LastCompletedSale,LastTicket,appointment/type,appointment/endDate
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactAssociate/portraitThumbnail,appointment/appointment/agenda,document/keywords,document/associate/lastName,personAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

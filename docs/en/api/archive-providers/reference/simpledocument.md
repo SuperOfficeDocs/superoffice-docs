@@ -707,14 +707,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleDocument?$select=person/restrictionAddress/wgs84latitude,person/personAssociate/associateDbId,person/correspondingAssociate/contactId,project/endDate,project/projectEvent/eventDate
+GET /api/v1/archive/SimpleDocument?$select=person/personRegisteredByFullName,person/personExtra/x_person_datetime,person/correspondingAssociate/middleName,contact/contactAssociate/usergroup,project/projectAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

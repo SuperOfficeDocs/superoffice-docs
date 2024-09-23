@@ -711,14 +711,12 @@ Document selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionV2?$select=person/correspondingAssociate/otherGroups,contact/phone/formattedNumber,contact/contactFax/formattedNumber,project/hasInfoText
+GET /api/v1/archive/DocumentDynamicSelectionV2?$select=registeredByFullName,contact/contactAssociate/credentialDisplayValue,person/correspondingAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 

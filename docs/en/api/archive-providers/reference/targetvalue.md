@@ -400,14 +400,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=contact/contactSupportAssociate/ejDisplayName,contact/contactSupportPerson/personUdef/SuperOffice:6,contact/streetAddress/zip
+GET /api/v1/archive/TargetValue?$select=contact/NumberOfTicketsInPeriod,contact/streetAddress/zip,contact/contactSupportAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
-
-
 
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
 
