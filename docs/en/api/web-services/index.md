@@ -44,10 +44,9 @@ NetServer has many service endpoints to support the entire SuperOffice platform.
 
 SuperOffice NetServer supports two distinct web services protocols:
 
-1. REST ([reference][13])
-   * Two distinct flavors:
-     * 1. RESTful ([reference][8])
-     * 2. Agent ([reference][7])
+1. REST ([reference][13]), two distinct flavors:
+    * RESTful ([reference][8])
+    * HTTP RPC Agents ([reference][7])
 2. SOAP ([reference][12])
 
 The SOAP APIs use Windows Communication Foundation service models for communication and are considered legacy.
