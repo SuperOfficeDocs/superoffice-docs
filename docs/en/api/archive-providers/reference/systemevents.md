@@ -12,18 +12,7 @@ so.envir: onsite, online
 
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.SystemEventsProviderBase">SuperOffice.CRM.ArchiveLists.SystemEventsProviderBase</see> inside NetServer's SODatabase assembly.
 
-Archive provider
-
-Blah...
-
-
-blah....
-
-
-...
-
-
-........
+Archive provider for list of active system events
 
 ## Supported Entities
 | Name | Description |

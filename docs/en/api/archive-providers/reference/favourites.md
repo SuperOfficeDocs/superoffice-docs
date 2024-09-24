@@ -14,17 +14,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 
 Archive provider for the list of favourites
 
-Blah...
-
-
-blah....
-
-
-...
-
-
-........
-
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |

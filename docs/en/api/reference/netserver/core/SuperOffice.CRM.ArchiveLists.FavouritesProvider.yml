@@ -35,20 +35,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: Archive provider for the list of favourites
-  remarks: >-
-    Blah...
-
-    <p></p>
-
-    blah....
-
-    <p></p>
-
-    ...
-
-    <p></p>
-
-    ........
+  remarks: 
   example: []
   syntax:
     content: >-
