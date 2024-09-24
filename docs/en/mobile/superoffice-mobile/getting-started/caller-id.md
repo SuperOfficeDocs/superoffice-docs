@@ -2,11 +2,11 @@
 uid: mobile-crm-caller-id
 title: Enable caller ID
 description: How to enable caller ID in SuperOffice Mobile CRM.
+keywords: mobile, caller ID, call identification, phone number
 author: Bergfrid Dias
-date: 07.24.2023
-keywords: mobile, caller ID
-topic: howto
+date: 09.24.2024
 version: 10
+topic: howto
 language: en
 client: mobile
 ---
@@ -22,6 +22,14 @@ With the Caller ID function enabled in Mobile CRM you can see the name of the pe
 * Know who is calling you​ and answer the call in a personal way
 * Notice missed calls from a registered contact
 * Avoid saving all your contacts in your local address book (GDPR related)​
+
+## Included numbers
+
+* All persons and companies from follow-ups, sales, documents, and requests created by you or colleagues in you primary group within the last 12 months, with active dates +- 12 months
+* All colleagues from all groups
+
+> [!NOTE]
+> For each included person and company, all phone numbers are added. If duplicates exist, the most recently updated number is used.
 
 ## Requirements
 
