@@ -19,7 +19,7 @@ You can create a new [custom object][1] from for instance a button or link added
 ## Add new custom object
 
 ```http
-default.aspx?customobject?customobject_name=y_car
+customobject?customobject_name=y_car
 ```
 
 ## Add new custom object with prefilled values
@@ -28,16 +28,16 @@ For new entries, we can pass any value to a field or prefill it with currents. J
 
 ```http
 // Prefilling current
-default.aspx?customobject?customobject_name=y_car?<custom_field_name>={contact_id}
+customobject?customobject_name=y_car?<custom_field_name>={contact_id}
 
 // Prefilling values in fields
-default.aspx?customobject?customobject_name=y_car?<custom_field_name>=blue
+customobject?customobject_name=y_car?<custom_field_name>=blue
 ```
 
 ## Show existing custom object based on ID
 
 ```http
-default.aspx?customobject?customobject_name=y_car&customobject_id=1520
+customobject?customobject_name=y_car&customobject_id=1520
 ```
 
 <!-- Referenced links -->
