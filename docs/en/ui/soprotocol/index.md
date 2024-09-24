@@ -3,7 +3,8 @@ title: SoProtocol
 uid: soprotocol
 description: SoProtocol
 author: Tony Yates
-date: 06.24.2016
+date: 09.24.2024
+version: 10.3
 keywords: soprotocol, deeplinking
 topic: concept
 ---
@@ -103,12 +104,13 @@ To get the SOProtocol link that reflects the current state of the application, u
 ![03][img3]
 
 > [!TIP]
-> It is possible to test an SoProtocol by running PageUpdate in the console/browsers DevTools. For instance opening a [CustomObject][3] can be achieved by running the command 'PageUpdate("soprotocol:customobject?customobject_name=y_car&customobject_id=1");'.
+> It is possible to test an SoProtocol by running PageUpdate in the console/browser's DevTools. For instance, opening a [CustomObject][3] can be achieved by running the command 'PageUpdate("soprotocol:customobject?customobject_name=y_car&customobject_id=1");'.
 
 <!-- Referenced links -->
 [1]: ../web-app/pagebuilder/superstate/index.md
 [2]: navigation-points.md
-[3]: ./custom-object.md
+[3]: custom-object.md
+
 <!-- Referenced images -->
 [img1]: media/project-udef.png
 [img2]: media/project-note-projectmembersarchive.png
