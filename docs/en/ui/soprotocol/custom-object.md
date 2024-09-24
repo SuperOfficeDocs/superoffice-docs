@@ -4,7 +4,7 @@ title: How to work with custom objects using SoProtocol
 description: How to show or create a custom object with or without prefilled values using SoProtocol.
 keywords: soprotocol, custom object
 author: Michel Krohn-Dale
-date: 09.07.2024
+date: 09.24.2024
 version: 10.3.8
 topic: howto
 client: web
