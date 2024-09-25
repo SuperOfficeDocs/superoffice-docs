@@ -1,5 +1,5 @@
 ---
-uid: help-sv-mailing-customize-for-mobile-redirct
+uid: help-sv-mailing-customize-for-mobile-redirect
 title: Anpassa meddelandet för visning på mobila enheter
 description: Anpassa meddelandet för visning på mobila enheter
 author: Bergfrid Dias
