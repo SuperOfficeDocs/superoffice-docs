@@ -1,100 +1,90 @@
 ---
 uid: help-no-screen-designer-add-layout
-title: Legg til ny skjermlayout
-description: Slik legger du til et nytt oppsett for en brukergruppe.
+title: Legg til skjermlayout
+description: Slik legger du til et nytt oppsett for en brukergruppe ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
+keywords: Skjermdesigner, format, hovedkort, arkiv, brukergrensesnitt, skjerm, layout, oppsett
 author: Bergfrid Dias
 date: 01.02.2024
 version: 10.2.11
-keywords: Skjermdesigner, format, hovedkort, arkiv
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 ---
 
-# Legg til ny skjermlayout
+# Legg til skjermlayout
 
-Hvis standard layout ikke gjenspeiler behovene til en brukergruppe, kan du opprette et nytt layout som samsvarer med brukergruppens unike informasjonsbehov. Et tilpasset layout for hovedkortene, de forskjellige arkivfanene/detaljkortene, og **Oppfølgings**-dialogen lar teamene og organisasjonen arbeide mer effektivt.
+[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Med egendefinerte skjermlayouter for hvert av teamene dine vil det være enklere enn noen gang å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbildene. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet blir et renere og mer ryddig bilde som teamene dine kan jobbe i.
+Enten du legger til en personlig visning for en valgt brukergruppe eller designer et layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper, starter du med å legge til en nytt layout for en skjerm i Skjermdesigneren.
 
-## Hovedkortlayout
+Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbilden. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
 
-En tilpasset layout for skjermbildene Person og Firma lar teamene og organisasjonen jobbe mer effektivt, fordi det eliminerer den forstyrrende "informasjonsstøyen".
-
-Hvis brukerstøtteteamet for eksempel sjelden bruker firmaadressen når de kommuniserer med firmaer og personer, bør du gjøre plass til andre felt som er viktigere på den første siden (fanen Firma). Flytt den ved å klikke på stolpene på venstre side av feltet og dra den over til **Mer**-fanen.
-
-Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg trinn-for-trinn-veiledningen nedenfor (videoen starter på 5:37):
+Se denne videoen og finn ut hvordan du legger til en nytt layout, eller følg trinn-for-trinn-guiden nedenfor (videoen starter på 5:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
-### Trinn
+## Opprett nytt layout
 
-<!-- markdownlint-disable-file MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
+1. Åpne Skjermdesigneren (i **Innstillinger og vedlikehold**).
 
-3. Velg **Hovedkort** eller **Arkiver** (også kjent som detaljkort).
+1. Velg en skjerm eller dialog øverst for å tilpasse.
 
-4. Hvis det er relevant, klikker du på teksten ved siden av **Tilordne oppsett til**.
+1. Velg **Hovedkort**.
 
-    Oppsettene kan som standard tilordnes til brukergrupper.
-    Hvis du imidlertid legger til hovedkort-layouter for bildene Salg, Prosjekt, eller Sak kan du tilordne layoutene til salgstyper, prosjekttyper, eller sakstyper.
+    For å opprette layout for et arkiv, se [Arbeide med detaljkort][2].
 
-5. Klikk på **Legg til** under **Layouter**.
+1. [Velg tildelingsmetode][6] (hvis ikke satt): klikk på teksten ved siden av **Tilordne oppsett til**, og velg gruppe eller type.
 
-    ![Klikk på Legg til for å opprette en ny layout -screenshot][img1]
+1. Under **Tilordne** klikker du på **Legg til**.
 
-6. I dialogboksen **Legg til ny layout** velger du en layout i listen **Lag ny basert på**.
+    ![Klikk på Legg til for å opprette en nytt layout -screenshot][img1]
 
-    Den nye layouten baseres på den valgte layouten.
+1. I dialogboksen **Legg til ny layout**, velg en layout fra listen **Lag ny basert på**.
 
-7. I feltet **Navn** skriver du inn et navn på den nye layouten.
+1. Skriv inn et navn og en beskrivelse for den nye layouten.
 
-    ![Angi riktig navn og brukergruppene som skal brukes i denne layouten -screenshot][img2]
+    ![Angi riktig navn og brukergruppene som skal bruke denne layouten -screenshot][img2]
 
-8. Klikk på **Tilordne**-feltet og velg brukergruppen(e) som skal bruke den nye layouten.
+1. Klikk på feltet **Tilordne**, og tilordne den nye layouten til en eller flere brukergrupper **eller** salgs-/prosjekt-/saks-/oppfølgingstyper.
 
-    Listen viser bare brukergrupper som bruker standardlayouten. En brukergruppe kan bare tilordnes til én layout. Salgs- prosjek- eller sakstyper vil være tilgjengelige her hvis du valgte disse alternativene i trinn 4.
+    > [!NOTE]
+    > Bare grupper/typer som for øyeblikket bruker standardlayouten, vises.
 
-9. Angi en beskrivelse av layouten i feltet **Beskrivelse**.
+1. Klikk på **OK**.
 
-10. Klikk på **OK** når du er ferdig. Den nye layouten legges til i **Layout** -listen. Den har statusen **Utkast**, noe som betyr at den ennå ikke er synlig for brukere. Forhåndsvisningen vises til høyre på skjermen.
+    Den nye layouten legges til i **Layouter**-listen med status utkast, noe som betyr at den ennå ikke er synlig for brukere. Forhåndsvisningen vises på høyre side av skjermen.
 
-    > [!TIP]
-    > Hvis du senere vil redigere layoutinnstillingene, dobbeltklikker du på layouten i listen for å åpne dialogboksen **Endre layoutinnstillinger**. Du kan ikke redigere innstillingene for standard layout.
+## Tilpass det nye skjermlayouten
 
-11. Når den nye layouten er valgt i **Layout**-listen, klikker du på **Rediger layout**-knappen for å tilpasse skjermens layout. Se [Redigere oppsett – Hovedkort][1] eller [Redigeringsoppsett – Arkiver (detaljkort)][2].
-<!-- markdownlint-restore -->
+1. Velg det nye layouten i **Layouter**-listen, og klikk på knappen **Rediger layout**.
 
-> [!NOTE]
-> Hvis du vil slette en layout, velger du layouten i **Layouter**-listen og klikker på **Slett**. Brukergrupper som er tilordnet den slettede layouten, går tilbake til standardlayouten.
+2. Gå gjennom fanene i layouten.
 
-## Layout for detaljkort og arkiv
+    * [Legg til, rediger, flytt eller fjern et felt][1]
+    * [Legg til kobling eller knapp][5]
+    * [Legg til, fjern eller gjenopprett en fane][3]
+    * [Legg til eller fjern et detaljkort (arkiv)][2]
 
-Tilpasning av layouten til de ulike detaljkortene/arkivene for et hovedkort gjøres normalt når det er ulike behov for de ulike brukergruppene.
+3. Når du er ferdig, lagre eller publiser layouten.
 
-Du kan opprette en ny layout for den (de) spesifikke brukergruppen(e) og konfigurere de forskjellige detaljkortene til å vises med forskjellig innhold.
+## Relatert innhold
 
-Opprett en ny layout for en bestemt brukergruppe ved å konfigurere detaljkort med innhold som er relevant for den brukergruppen. Ved å legge til og fjerne de forskjellige fanene, kan du opprette ønsket oppsett på et hovedkort for brukergruppen din.
-
-![Legg til navnet i den nye detaljkort-/arkivlayouten, og velg brukergruppen(e) den skal vises for -screenshot][img3]
-
-## Aktuelt innhold
-
-* [Hvordan konfigurerer jeg hvilken informasjon brukerne av firmaet vårt kan få tilgang til i SuperOffice CRM?][3]
-* [Hvordan oppretter jeg en ny brukergruppe i SuperOffice CRM?][4]
-* [Brukerhåndtering][5]
+* [Hvordan konfigurerer jeg hvilken informasjon brukerne i vår bedrift kan få tilgang til i SuperOffice CRM?][15]
+* [Hvordan oppretter jeg en ny brukergruppe i SuperOffice CRM?][16]
+* [Slett layout][4]
 
 <!-- Referenced links -->
-[1]: edit-layout.md
+[1]: working-with-fields.md
 [2]: working-with-archives.md
-[3]: ../../../admin/user-management/learn/role/index.md
-[4]: ../../../admin/user-management/learn/user-groups.md
-[5]: ../../../admin/user-management/learn/index.md
+[3]: working-with-tabs.md
+[4]: edit-layout.md#delete
+[5]: add-button.md
+[6]: assign-layout.md
+[15]: ../../../admin/user-management/learn/role/index.md
+[16]: ../../../admin/user-management/learn/user-groups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/add-button-for-new-screen-layout.png
 [img2]: ../../../../media/loc/en/ui/add-new-screen-layout.png
-[img3]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

@@ -1,123 +1,93 @@
 ---
-uid: help-no-archive-edit-layout
-title: Rediger layout på detaljkort/arkiver
-description: Skjermdesigner Rediger layout – Arkiver (detaljkort)
-author: SuperOffice RnD
-date: 02.23.2023
-keywords: Skjermdesigner, detaljkort, arkiv
+uid: help-no-screen-designer-archive
+title: Arbeide med detaljkort (arkiv)
+description: Hvordan tilpasse detaljkort (arkiv) i Skjermdesigneren i Innstillinger of vedlikehold.
+keywords: Skjermdesigner, detaljkort, arkiv, brukergrensesnitt, layout, oppsett
+author: Bergfrid Dias
+date: 09.04.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
 ---
 
-# Rediger layout på detaljkort/arkiver
+# Arbeide med detaljkort (arkiv)
 
-Du kan redigere layouten ved å legge til eller fjerne detaljkort/arkiver på de forskjellige hovedkortene for firma, person, salg, prosjekt, og sak.
+Du kan tilpasse layouten ved å legge til eller fjerne detaljkort (også kalt arkiv) på hovedkortene for skjermene Firma, Person, Salg, Prosjekt og Sak.
 
-## Fjerne flertydighet
+Detaljkort tilpasses vanligvis for å imøtekomme de spesifikke behovene til ulike brukergrupper. Du kan opprette en layout som er skreddersydd for en bestemt brukergruppe og sørge for at detaljkortene viser relevant innhold for den gruppen.
 
-Detaljkort er fanene som ligger nederst på de fleste SuperOffice CRM-skjermbildene. Eksempel: Firma-skjermbildet har detaljkort som inneholder personer, aktiviteter, prosjekter og salg. Disse omtales også som Arkiver. Det finnes også detaljkort som ikke regnes som arkiver, for eksempel detaljkort som inneholder salgsguider, prosjektguider og tilbud. I forbindelse med dette emnet vil vi referere til dem som arkiver eller arkivfaner (når vi refererer til selve fanen som inneholder arkivet).
+![Legg til navnet til den nye arkivlayouten, og velg brukergruppene den skal vises for -screenshot][img6]
 
-Når du har opprettet en ny layout for arkiver (detaljkort) som beskrevet i Legg til ny layout, kan du tilpasse den i henhold til behovene som den (de) tilordnede brukergruppen(e) har. Hvis du tilpasser en layout for salgsteamet, bør du ha en klar plan for hvilke behov de har med hensyn til layout, formatering og innhold i arkivene. Trenger de tilpassede arkiver med filtrerte data? Hvilken informasjon bør man kunne finne først og enklest? Trenger de alle arkivene?
+## Forstå detaljkort
 
-## Trinn
+Detaljkort, som ligger nederst på de fleste SuperOffice CRM-skjermbilder, viser relaterte data som kontakter, aktiviteter, prosjekter og salg. Selv om noen detaljkort, som Salgsguide og Tilbud, ikke er arkiv, vil vi for enkelhets skyld referere til alle som arkiv eller arkivfaner.
 
-Du kan legge til et nytt detaljkort på et hvilket som helst hovedkort. Avhengig av hovedkortet som er valgt, kan du legge til en ny fane med følgende innhold: Dokument, Avtale, Produkt, Prosjekt, Prosjektdeltaker, Salg, Salgsinteressent, Sak, Person og Relasjon.
+Når du lager en ny layout for en brukergruppe, bør du vurdere hvilke data de trenger mest. Ved å tilpasse arkiver kan du filtrere og prioritere informasjon, slik at brukerne lettere finner det de trenger.
 
-![Velg innholdstypen du vil vise i detaljkortet -screenshot][img5]
+## Legg til detaljkort
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
+Du kan legge til et nytt detaljkort på hvilken som helst skjerm som har et detaljkortområde. Avhengig av hvilken skjerm du velger, kan du legge til en ny fane med innhold av: dokument, avtale, produkt, prosjekt, prosjektdeltaker, salg, salgsinteressent, sak, person og relasjon.
 
-3. Klikk på **Arkiver**.
+![Velg hvilken type innhold du vil vise i detaljkortet -screenshot][img5]
 
-4. Velg en layout i listen til venstre.
+**Trinn:**
 
-5. Klikk på **Rediger layout** under forhåndsvisningen. Et nytt vindu åpnes.
+1. Åpne Skjermdesigneren.
 
-6. Se avsnittene nedenfor for mer informasjon om hvordan du redigerer layouten.
+1. Øverst velg en skjerm du vil tilpasse, og klikk på **Arkiv**.
 
-7. Når du er ferdig å redigere layouten, klikker du på en av de følgende knappene:
+1. Velg en layout fra listen, og klikk på **Rediger layout** under forhåndsvisningen.
 
-    * **Lagre utkast**: Klikk denne knappen hvis layouten ikke er ferdig ennå.
-    * **Lagre + Publiser**: Klikk denne knappen for å publisere layouten til de valgte brukergruppene.
-    * **Avbryt**: Klikk på denne knappen for å [forkaste alle endringer](#undo-changes).
-<!-- markdownlint-restore -->
+1. Klikk på **Legg til** for å åpne **Fane**-seksjonen.
 
-## Legg til arkivfane
+1. Erstatt "Ny fane" med arkivnavnet, og angi en beskrivelse for den nye layouten. Eventuelt klikk på ![icon][img3] for å [legge til teksten på andre språk][1].
 
-1. Klikk på ![ikon][img2] **Legg til**. **Fane**-delen åpnes til venstre.
+1. Juster **Unikt navn for fane** (soprotocol) etter behov. Dette navnet kan ikke endres senere.
 
-2. Under **Navn** erstatter du teksten **Ny fane** med navnet på arkivet. Du kan også legge til navnet på [andre språk][1] ved å klikke på ![ikon][img3].
+1. Velg i seksjonen **Innstillinger** hvilken datatype (innhold) som skal vises i arkivet.
 
-3. Dersom relevant, endre **Unikt navn for kort (soprotocol)**. Dette navnet kan ikke endres senere.
+    Data er begrenset til den gjeldende skjermen. For eksempel, hvis du legger til et arkiv på Firmaskjermen, vises kun data knyttet til **gjeldende** firma.
 
-4. Angi en beskrivelse av arkivet i feltet **Beskrivelse**. Du kan også legge til beskrivelsen på [andre språk][1] ved å klikke på ![ikon][img3].
+1. Legg til eller rediger kriterier under **Filter** for å finjustere de viste dataene. Disse kriteriene fungerer på samme måte som [søkefiltre på **Finn**-skjermen][2] og i utvalg.
 
-5. Velg **Innstillinger**-delen.
+    Klikk på **Oppdater forhåndsvisning** for å se de filtrerte dataene.
 
-6. I listen **Innhold** velger du datatypen du vil vise i arkivet. Dataene i arkivet vil være begrenset til data for gjeldende skjerm.
+1. (Valgfritt) Bruk **Avanserte alternativer** for å tilpasse handlinger for enkeltklikk og dobbeltklikk. Som standard vil et enkeltklikk velge en rad, og et dobbeltklikk vil åpne en oppføring/enhet i SuperOffice.
 
-    Eksempel: Hvis du legger til et arkiv for skjermbildet Firma, vises bare data knyttet til gjeldende firma.
+    > [!TIP]
+    > Hold musepekeren over infoikonet ![icon][img4] for eksempler.
 
-7. Legg til/rediger de relevante kriteriene på følgende måte **under Filter**:
+1. Dra arkivet til ønsket posisjon i forhåndsvisningen.
 
-    * [Rediger et kriterium][2].
+1. Velg **Lagre utkast** eller **Lagre + Publiser** for å lagre endringene dine. Klikk på **Avbryt** for å forkaste endringene dine.
 
-        Eksempel: Velg **Avtale** i **Innholdslisten** og legg til kriterier for å vise bare interne og eksterne møter for denne uken og neste uke.
+## Rediger eksisterende detaljkort
 
-    * Klikk **Legg til** for å angi flere kriterier. En ny linje legges til i kriterielisten.
-
-    * Bruk klikk og dra for å flytte kriterier.
-
-    * Klikk **Eller** for å legge til et annet sett med kriterier.
-
-8. Klikk på **Oppdater forhåndsvisning** for å vise data for gjeldende kriterier, i forhåndsvisningen på høyre side. Bruk listen **Forhåndsvisning av firma** til å velge hvilket firma du vil vise.
-
-9. Klikk på **Avanserte innstillinger** for å endre standardhandlingene for enkeltklikk og dobbeltklikk i arkivet. Du kan se eksempler på hvordan du konfigurerer dette under **Eksempel på syntaks**, og ved å holde musepekeren over ikonet (![ikon][img4]).
-
-    > [!NOTE]
-    > Som standard vil et enkeltklikk velge en rad, og et dobbeltklikk vil åpne en oppføring/enhet i SuperOffice. Hvis firmaet imidlertid bruker egendefinerte arkiver til å vise data fra andre systemer, kan du endre disse innstillingene for å åpne en oppføring i et eksternt system.
-
-10. Klikk og dra det nyopprettede arkivet inn i forhåndsvisningen, og flytt det til ønsket posisjon.
-
-11. Lagre endringene som beskrevet ovenfor.
-
-## Redigere eksisterende detaljkort
-
-Hvis du vil redigere et eksisterende arkiv, velger du dette og redigerer de tilgjengelige feltene og innstillingene i feltene **Faner** og **Innstillinger**. Du kan også klikke og dra det til en ny posisjon.
+For å endre et eksisterende arkiv, velger du det og oppdaterer feltene og innstillingene i seksjonene **Fane** og **Innstillinger**. Du kan også endre fanens plassering ved å dra den.
 
 ## Begrensninger
 
 * Standardfaner kan ikke redigeres.
 
-* Noen faner kan ikke redigeres siden de har bestemte funksjoner, slik som **Tilbud**, **Salgsguide** og **Prosjektguide**.
+* Noen faner, som **Tilbud**, **Salgsguide** og **Prosjektguide**, kan ikke redigeres fordi de har spesifikke funksjoner.
 
-## Fjerne et arkiv
+## Fjern detaljkort
 
-1. Velg arkivet (eller et annet detaljkort) og klikk på **Oppgave** > **Fjern fane**.
+1. Velg arkivet eller detaljkortfanen.
 
-1. Klikk på **OK** i dialogboksen som kommer til syne. Fanen er fjernet (skjult, men ikke slettet).
+1. Klikk på **Oppgave** > **Fjern fane**.
 
-![Klikk på Oppgave og deretter Fjern fane for å fjerne eventuelle uønskede faner i detaljkortet (arkiv) -screenshot][img1]
+1. Bekreft ved å klikke på **OK**. Fanen vil bli skjult, men ikke slettet.
 
-Du kan alltid klikke på **Gjenopprett faner** for å angre disse endringene.
+![Klikk på Oppgave og deretter Fjern fane for å fjerne uønskede faner i detaljkortet (arkiv) -screenshot][img1]
 
-## <a id="undo-changes"></a>Angre endringer
+For å angre disse endringene klikker du på **Gjenopprett faner**.
 
-Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang til følgende alternativer fra **Oppgave**-knappen:
+## Relatert innhold
 
-* **Tilbakestill til fabrikkinnstillinger**: Dette alternativet sletter alle endringer og tilbakestiller layouten til standardlayouten som er levert av SuperOffice.
-
-* **Gjenopprett faner**: Dette alternativet gjenoppretter alle faner som er fjernet.
-
-* **Slett utkast**: Sletter alle endringer og tilbakestillinger til den publiserte versjonen av layouten.
-
-## Relatert
-
-* [Hvordan omorganiserer jeg feltene i Mer-fanen i bildene Firma og Person etter oppgraderingen til SuperOffice versjon 10?][3] - FAQ
+* [Hvordan organiserer jeg feltene i Mer-fanen etter oppgraderingen til SuperOffice versjon 10?][3] - FAQ
 * [Opprett ny layout][4]
 
 <!-- Referenced links -->
@@ -127,8 +97,8 @@ Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png
