@@ -43,28 +43,156 @@ As explained above the soft-delete does not actually remove the records from the
 
 ### Hard-delete of Contact
 
-The following tables are affected by a hard-delete of a contact
+When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action)
+
+| Table                  | Field                       | Relation Action         | Notes                                                   |
+|------------------------|-----------------------------|-------------------------|---------------------------------------------------------|
+| address                | owner_id (atype_idx = 1)    | DeleteRecord            |                                                         |
+| address                | owner_id (atype_idx = 2)    | DeleteRecord            |                                                         |
+| appointment            | contact_id                  | ZeroForeignKey          |                                                         |
+| chat_session           | contact_id                  | ZeroForeignKey          |                                                         |
+| company_domain         | company_id                  | DeleteRecord            |                                                         |
+| contact                | mother_id                   | ZeroForeignKey          |                                                         |
+| contactinterest        | contact_id                  | DeleteRecord            |                                                         |
+| countervalue           | contact_id                  | Ignore                  | will be regenerated away                                |
+| email                  | contact_id                  | DeleteRecord            |                                                         |
+| email_item             | contact_id                  | ZeroForeignKey          |                                                         |
+| form_submission        | contact_id                  | ZeroForeignKey          |                                                         |
+| invoice                | company_id                  | ZeroForeignKey          |                                                         |
+| invoice_sum            | company_id                  | ZeroForeignKey          |                                                         |
+| ownercontactlink       | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
+| person                 | contact_id                  | ZeroForeignKey          | contact -> person cascade is handled elsewhere          |
+| phone                  | owner_id (ptype_idx = 1)    | DeleteRecord            |                                                         |
+| phone                  | owner_id (ptype_idx = 3)    | DeleteRecord            |                                                         |
+| projectmember          | contact_id                  | ZeroForeignKey          |                                                         |
+| s_shipment_addr        | contact_id                  | DeleteRecord            |                                                         |
+| sale                   | contact_id                  | ZeroForeignKey          |                                                         |
+| salehist               | contact_id                  | ZeroForeignKey          |                                                         |
+| salestakeholder        | contact_id                  | ZeroForeignKey          | on person delete, but contact maps to just zero         |
+| satellite              | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
+| selectionmember        | contact_id                  | ZeroForeignKey          | extra pass later to delete c=0, p=0 records             |
+| sl_vendor              | contact_id                  | Ignore                  | contact records are never deleted; deleting is a mistake |
+| statusvalue            | contact_id                  | DeleteRecord            |                                                         |
+| text                   | owner_id (type = 1)         | DeleteRecord            |                                                         |
+| text                   | owner_id (type = 10)        | DeleteRecord            |                                                         |
+| url                    | contact_id                  | DeleteRecord            |                                                         |
+| binaryobjectlink       | ownertable                  | DeleteRecord            |                                                         |
+| dataright              | tableid                     | Ignore                  |                                                         |
+| favourite              | table_id                    | DeleteRecord            |                                                         |
+| foreignkey             | table_id                    | DeleteRecord            |                                                         |
+| freetextindex          | ownertable_id               | Ignore                  |                                                         |
+| freetextindex          | table_id                    | Ignore                  |                                                         |
+| history                | table_id                    | DeleteRecord            |                                                         |
+| importobject           | tableid                     | Ignore                  |                                                         |
+| mergemovelog           | tablenumber                 | DeleteRecord            |                                                         |
+| relations              | destination_table           | DeleteRecord            |                                                         |
+| relations              | source_table                | DeleteRecord            |                                                         |
+| relationtarget         | destination_table           | Ignore                  |                                                         |
+| relationtarget         | source_table                | Ignore                  |                                                         |
+| traveltransactionlog   | tablenumber                 | Ignore                  |                                                         |
+
+>[!NOTE]
+> CustomFields and ExtraTables also gets cleaned up.
 
 ### Hard-delete of Person
 
-The following tables are affected by a hard-delete of a person
+When a hard-delete occurs there is a lot of information that gets edited based on the [Relation Action](#relation-action)
+
+| Table                  | Field                        | Notes                                     |
+|------------------------|------------------------------|-------------------------------------------|
+| address                | owner_id (atype_idx = 16387)  | person parent                             |
+| address                | owner_id (atype_idx = 1)      | contact parent                            |
+| address                | owner_id (atype_idx = 2)      | contact parent                            |
+| appointment            | invitedpersonid               |                                           |
+| appointment            | person_id                     |                                           |
+| associate              | person_id                     |                                           |
+| chat_session           | customer_id                   |                                           |
+| consentperson          | person_id                     |                                           |
+| contact                | supportpersonid               |                                           |
+| countervalue           | person_id                     |                                           |
+| credentials            | personid                      |                                           |
+| ej_message             | customer_id                   |                                           |
+| email                  | person_id                     |                                           |
+| email                  | contact_id                    | contact parent                            |
+| email_item             | person_id                     |                                           |
+| form_submission        | person_id                     |                                           |
+| invoice                | customer_id                   |                                           |
+| invoice_sum            | customer_id                   |                                           |
+| kb_entry_comment       | customer_id                   |                                           |
+| login_customer         | customer_id                   |                                           |
+| message_customers       | customer_id                   |                                           |
+| personinterest         | person_id                     |                                           |
+| phone                  | owner_id (ptype_idx = 1)      | contact parent                            |
+| phone                  | owner_id (ptype_idx = 3)      | contact parent (no value '2' exists)      |
+| phone                  | owner_id (ptype_idx = 16385)  |                                           |
+| phone                  | owner_id (ptype_idx = 16387)  |                                           |
+| phone                  | owner_id (ptype_idx = 16388)  |                                           |
+| phone                  | owner_id (ptype_idx = 16389)  |                                           |
+| phone                  | owner_id (ptype_idx = 16390)  |                                           |
+| projectmember          | person_id                     |                                           |
+| s_bounce_shipment      | customer_id                   |                                           |
+| s_link_customer        | customer_id                   |                                           |
+| s_list_customer        | customer_id                   |                                           |
+| s_sent_message         | customer_id                   |                                           |
+| s_shipment_addr        | customer_id                   |                                           |
+| sale                   | person_id                     |                                           |
+| salehist               | person_id                     |                                           |
+| salestakeholder        | person_id                     |                                           |
+| selectionmember        | person_id                     |                                           |
+| shipmenttypereservation| person_id                     |                                           |
+| sms                    | customer_id                   |                                           |
+| statusvalue            | person_id                     |                                           |
+| temporarykey           | person_id                     |                                           |
+| text                   | owner_id (type = 2)           |                                           |
+| text                   | owner_id (type = 3)           |                                           |
+| ticket                 | cust_id                       |                                           |
+| ticket_customers       | customer_id                   |                                           |
+| ticket_log_action      | customer_id                   |                                           |
+| url                    | person_id                     |                                           |
+| url                    | contact_id                    | contact parent                            |
+| user_candidate         | person_id                     |                                           |
+| binaryobjectlink       | ownertable                    |                                           |
+| dataright              | tableid                       |                                           |
+| favourite              | table_id                      |                                           |
+| foreignkey             | table_id                      |                                           |
+| freetextindex          | ownertable_id                 |                                           |
+| freetextindex          | table_id                      |                                           |
+| history                | table_id                      |                                           |
+| importobject           | tableid                       |                                           |
+| mergemovelog           | tablenumber                   |                                           |
+| relations              | destination_table             |                                           |
+| relations              | source_table                  |                                           |
+| relationtarget         | destination_table             |                                           |
+| relationtarget         | source_table                  |                                           |
+| traveltransactionlog   | tablenumber                   |                                           |
+
+>[!NOTE]
+> CustomFields and ExtraTables also gets cleaned up.
 
 ### Hard-delete Request
 
 The following tables are affected by a hard-delete of a request
 
-[TICKET][6]
-[EJ_MESSAGE][7]
-[TICKET_LOG][8]
-[TICKET_LOG_ACTION][9]
-[TICKET_LOG_CHANGE][10]
-[TICKET_CUSTOMERS][11]
-[FAVOURITE][12]
-[MESSAGE_HEADER][13]
-[TICKET_ATTACHMENT][14]
-[ATTACHMENT][15]
-[INVOICE_ENTRY][16]
-[MESSAGE_CUSTOMERS][17]
+* [TICKET][6]
+* [EJ_MESSAGE][7]
+* [TICKET_LOG][8]
+* [TICKET_LOG_ACTION][9]
+* [TICKET_LOG_CHANGE][10]
+* [TICKET_CUSTOMERS][11]
+* [FAVOURITE][12]
+* [MESSAGE_HEADER][13]
+* [TICKET_ATTACHMENT][14]
+* [ATTACHMENT][15]
+* [INVOICE_ENTRY][16]
+* [MESSAGE_CUSTOMERS][17]
+
+## Relation Action
+
+| Relation Action   | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| DeleteRecord      | Deletes the entire record from the table when the condition is met.          |
+| ZeroForeignKey    | Sets the foreign key to `0` instead of deleting the record.                  |
+| Ignore            | Takes no action on the record; it remains unaffected.                       |
 
 ## Summary
 
@@ -93,3 +221,4 @@ For users, it means that delete operations can be undone. For DBAs, the deep del
 [18]: ../../api/archive-providers/reference/recyclecontact.md
 [19]: ../../api/archive-providers/reference/recycleperson.md
 [20]: ../../api/archive-providers/reference/recycleticket.md
+[21]: .
