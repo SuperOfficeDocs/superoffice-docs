@@ -1,99 +1,89 @@
 ---
 uid: help-nl-screen-designer-add-layout
-title: Toevoegen van een nieuwe schermopmaak
+title: Opmaak toevoegen
 description: Een nieuwe lay-out toevoegen voor een gebruikersgroep.
-author: Bergfrid Dias
-date: 01.02.2024
-version: 10.2.11
 keywords: schermontwerper, opmaak, hoofdkaart, archief
+author: Bergfrid Dias
+date: 09.30.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
+# Opmaak toevoegen
 
-# Toevoegen van een nieuwe schermopmaak
+[!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
 
-Als de standaardopmaak niet overeenkomt met de behoeften van een gebruikersgroep, kunt u een nieuwe opmaak maken die voldoet aan de unieke informatiebehoeften van de gebruikersgroep. Met een aangepaste opmaak voor de hoofdkaartn, de verschillende archief/sectie tabbladen, en de **Vervolgactiviteit**-dialoog kunnen uw teams en organisatie efficiënter werken.
+Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
 
-Met aangepaste schermopmaken voor elk van uw teams, wordt het zoeken van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zijn altijd beschikbaar en zichtbaar. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen overzichtelijk te houden. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat is een schoner en opgeruimder scherm voor uw teams om in te werken.
+Met aangepaste schermopmaken voor elk van uw teams wordt het vinden van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zullen altijd beschikbaar en zichtbaar zijn. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen op te ruimen. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat zal een schoner en overzichtelijker scherm zijn voor uw teams om in te werken.
 
-## Opmaak hoofdkaart
-
-Een aangepaste opmaak voor de persoon en bedrijfsschermen laat uw teams en organisatie efficiënter werken, omdat het de afleidende "informatieruis" elimineert.
-
-Als uw ondersteuningsteam bijvoorbeeld zelden het bedrijfsadres gebruikt in hun communicatie met bedrijven en contactpersonen, wilt u ruimte vrijmaken voor andere velden die belangrijker zijn op de eerste pagina (het tabblad Bedrijf). Verplaats het door op de balken aan de linkerkant van het veld te klikken en sleep het naar het tabblad **Meer**.
-
-Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgewijze handleiding hieronder (de video begint bij 5:37):
+Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgewijze handleiding hieronder (de video begint op 5:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
-### Stappen
+## Nieuwe opmaak maken
 
-<!-- markdownlint-disable-file MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
-3. Selecteer **Hoofdkaarten** of **Archieven** (ook wel sectietabbladen genoemd).
+1. Open de Schermontwerper (in **Instellingen en onderhoud**).
 
-4. Klik, indien relevant, op de tekst naast **Opmaken toewijzen aan**.
+1. Selecteer bovenaan een scherm of dialoogvenster om aan te passen.
 
-    Standaard kunnen de opmaken worden toegewezen aan gebruikersgroepen.
-    Als u echter hoofdkaartopmaken toevoegt voor de schermen Verkoop, Project, of Verzoek kunt u de opmaken toewijzen aan verkooptypen, projecttypen, of verzoektypen.
+1. Selecteer **Hoofdkaarten**.
 
-5. Klik op **Toevoegen** onder **Opmaken**.
+    Om een opmaak voor een archief te maken, zie [Werken met sectietabbladen][2].
 
-    ![Klik op Toevoegen om een nieuwe opmaak toe te voegen -screenshot][img1]
+1. [Selecteer toewijzingsmethode][6] (indien niet ingesteld): klik op de tekst naast **Opmaken toewijzen aan**, en kies groep of type.
 
-6. Selecteer in het dialoogvenster **Nieuwe opmaak toevoegen** een opmaak in de lijst **Nieuw maken op basis van**.
+1. Klik op **Toevoegen** onder **Opmak**.
 
-    De nieuwe opmaak is gebaseerd op de geselecteerde opmaak.
+    ![Klik op Toevoegen om een nieuwe opmaak te maken -screenshot][img1]
 
-7. Typ in het veld **Naam** een naam voor de nieuwe opmaak.
+1. Selecteer in het dialoogvenster **Nieuwe opmaak toevoegen** een opmaak uit de lijst **Nieuw maken op basis van**.
 
-    ![Stel de juiste naam en de gebruikersgroepen in om deze opmaak te gebruiken -screenshot][img2]
+1. Voer een naam en beschrijving in voor de nieuwe opmaak.
 
-8. Klik op het veld **Toewijzen aan** en selecteer de gebruikersgroep(en) die deze nieuwe opmaak zullen gebruiken.
+    ![Stel de juiste naam in en de gebruikersgroepen die deze opmaak zullen gebruiken -screenshot][img2]
 
-    De lijst toont alleen gebruikersgroepen die de standaardopmaak gebruiken. Een gebruikersgroep kan aan slechts één opmaak worden toegewezen. Verkooptypen, projecttypen, of verzoektypen zijn hier beschikbaar, als u deze opties in stap 4 hebt geselecteerd.
+1. Klik op het veld **Toewijzen aan** en wijs de opmaak toe aan één of meer gebruikersgroepen **of** verkoop-/project-/verzoek-/vervolgactiviteitstypen.
 
-9. Voer een beschrijving van de opmaak in het veld **Beschrijving** in.
+    > [!NOTE]
+    > Alleen groepen/types die momenteel de standaardopmaak gebruiken, worden weergegeven.
 
-10. Klik op **OK** wanneer u klaar bent. De nieuwe opmaak wordt toegevoegd aan de lijst **Opmaken**. Deze heeft de status **Concept**, wat betekent dat de opmaak nog niet zichtbaar is voor gebruikers. Het voorbeeld wordt weergegeven aan de rechterkant van het scherm.
+1. Klik op **OK**.
 
-    > [!TIP]
-    > Als u de opmaakinstellingen later wilt bewerken, dubbelklikt u op de opmaak in de lijst om het dialoogvenster **Opmaakinstellingen bewerken** te openen. U kunt de instellingen voor de standaardopmaak niet wijzigen.
+    De nieuwe opmaak wordt toegevoegd aan de lijst **Opmak** met de status Concept, wat betekent dat deze nog niet zichtbaar is voor gebruikers. Het voorbeeld wordt weergegeven aan de rechterkant van het scherm.
 
-11. Terwijl de nieuwe opmaak is geselecteerd in de lijst **Opmaken**, klikt u op de knop **Opmaak bewerken** om de schermopmaak aan te passen. Zie [Opmaak bewerken - Hoofdkaarten][1] of [Opmaak bewerken - Archieven (sectietabbladen)][2].
-<!-- markdownlint-restore -->
+## Nieuwe schermopmaak aanpassen
 
-> [!NOTE]
-> Als u een opmaak wilt verwijderen, selecteert u de opmaak in de lijst **Opmaken** en klikt u op **Verwijderen**. Gebruikersgroepen die zijn toegewezen aan de verwijderde opmaak, gaan terug naar de standaardopmaak.
+1. Selecteer de nieuwe opmaak in de lijst **Opmak** en klik op de knop **Opmaak bewerken**.
 
-## Opmaak sectietabblad/archief
+2. Werk je door de tabbladen in de opmaak.
 
-Het aanpassen van de opmaak van de verschillende sectietabbladen/archieven voor een hoofdkaart wordt normaal gesproken gedaan wanneer er verschillende behoeften zijn voor de verschillende gebruikersgroepen.
+    * [Een veld toevoegen, bewerken, verplaatsen of verwijderen][1]
+    * [Koppeling of knop toevoegen][5]
+    * [Tabblad toevoegen, verwijderen of herstellen][3]
+    * [Sectietabblad (archief) toevoegen of verwijderen][2]
 
-U kunt een nieuwe opmaak maken voor de specifieke gebruikersgroep(en) en de verschillende sectietabbladen instellen om verschillende inhoud weer te geven.
-
-Maak een nieuwe opmaak voor een specifieke gebruikersgroep door sectietabbladen in te stellen met inhoud die relevant is voor die gebruikersgroep. Door de verschillende tabbladen toe te voegen en te verwijderen, kunt u de gewenste instellingen op een hoofdkaart maken voor uw gebruikersgroep.
-
-![Geef de nieuwe opmaak van het sectietabblad/archief een naam en selecteer de gebruikersgroep(en) waarvoor deze moet worden weergegeven -screenshot][img3]
+3. Wanneer u klaar bent, sla de opmaak op of publiceer deze.
 
 ## Gerelateerde inhoud
 
-* [Hoe configureer ik tot welke informatie de gebruikers van ons bedrijf toegang hebben in SuperOffice CRM?][3]
-* [Hoe maak ik een nieuwe gebruikersgroep aan in SuperOffice CRM?][4]
-* [Gebruikersbeheer][5]
+* [Hoe configureer ik welke informatie de gebruikers van ons bedrijf kunnen openen in SuperOffice CRM?][15]
+* [Hoe maak ik een nieuwe gebruikersgroep in SuperOffice CRM?][16]
+* [Opmaak verwijderen][4]
 
 <!-- Referenced links -->
-[1]: edit-layout.md
+[1]: working-with-fields.md
 [2]: working-with-archives.md
-[3]: ../../../admin/user-management/learn/role/index.md
-[4]: ../../../admin/user-management/learn/user-groups.md
-[5]: ../../../admin/user-management/learn/index.md
+[3]: working-with-tabs.md
+[4]: edit-layout.md#delete
+[5]: add-button.md
+[6]: assign-layout.md
+[15]: ../../../admin/user-management/learn/role/index.md
+[16]: ../../../admin/user-management/learn/user-groups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/ui/add-button-for-new-screen-layout.png
 [img2]: ../../../../media/loc/en/ui/add-new-screen-layout.png
-[img3]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

@@ -16,16 +16,16 @@ language: no
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Enten du legger til en personlig visning for en valgt brukergruppe eller designer et layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper, starter du med å legge til en nytt layout for en skjerm i Skjermdesigneren.
+Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
 
 Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbilden. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
 
-Se denne videoen og finn ut hvordan du legger til en nytt layout, eller følg trinn-for-trinn-guiden nedenfor (videoen starter på 5:37):
+Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trinn-for-trinn-guiden nedenfor (videoen starter på 5:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
-## Opprett nytt layout
+## Opprett ny layout
 
 1. Åpne Skjermdesigneren (i **Innstillinger og vedlikehold**).
 
@@ -39,7 +39,7 @@ Se denne videoen og finn ut hvordan du legger til en nytt layout, eller følg tr
 
 1. Under **Tilordne** klikker du på **Legg til**.
 
-    ![Klikk på Legg til for å opprette en nytt layout -screenshot][img1]
+    ![Klikk på Legg til for å opprette en ny layout -screenshot][img1]
 
 1. I dialogboksen **Legg til ny layout**, velg en layout fra listen **Lag ny basert på**.
 

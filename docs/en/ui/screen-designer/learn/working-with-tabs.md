@@ -1,5 +1,5 @@
 ---
-uid: elp-en-screen-designer-tabs
+uid: help-en-screen-designer-tabs
 title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider

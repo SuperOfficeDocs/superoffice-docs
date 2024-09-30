@@ -53,7 +53,7 @@ For å forenkle skjermbildet kan du fjerne faner som ikke lenger er nødvendige.
 
 Hvis du fjerner en fane og senere finner ut at du trenger den, kan du enkelt gjenopprette den.
 
-1. Åpne layoutet i redigeringsmodus.
+1. Åpne layouten i redigeringsmodus.
 1. Klikk på **Oppgave** og velg **Gjenopprett faner**.
 
 > [!NOTE]

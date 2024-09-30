@@ -12,9 +12,97 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Skärmdesigner
+# Skärmdesigner ![icon][img1]
 
-![ikon][img1]
+**Skärmdesignern** i SuperOffice CRM låter dig anpassa layouten på nyckelskärmar i applikationen, så att gränssnittet möter de specifika behoven hos olika användargrupper i din organisation. Denna funktion ersätter det gamla [PageBuilder][9]-verktyget och erbjuder ett mer strömlinjeformat och flexibelt sätt att konfigurera skärmar utan kodning.
+
+![Skärmdesigner, företagskort, standard fältlayout -screenshot][img5]
+
+> [!NOTE]
+> Denna funktion kräver utvecklingsverktygslicens och rättigheten "Fältadministratör".
+
+## Varför använda Skärmdesignern?
+
+SuperOffice CRM levereras med standardlayouter för Kontakt-, Företags-, Försäljnings-, Projekt- och Ärendeskärmarna samt Uppföljningsdialogen. Men olika team har ofta olika informationsbehov. Genom att använda Skärmdesignern kan du:
+
+* Skapa anpassade layouter som är skräddarsydda för arbetsflödena och prioriteringarna hos specifika användargrupper (som försäljning, support, ledning).
+* Förbättra effektiviteten genom att låta dina team snabbt komma åt den information som är viktigast för dem.
+* Ta bort onödiga fält, lägga till nya och organisera information i logiska grupper med hjälp av flikar, kolumner och etiketter.
+
+Om till exempel ditt försäljningsteam fokuserar på kundinteraktioner, kan du se till att kontaktuppgifter visas tydligt, medan mindre relevanta fält flyttas till sekundära flikar.
+
+## Vad kan jag anpassa?
+
+Med Skärmdesignern kan du:
+
+* Ändra standardlayouten för skärmar för alla användare eller skapa anpassade layouter för specifika användargrupper.
+* Designa layouter som är optimerade för specifika projekttyper, försäljningstyper och ärendetyper.
+* Dölja fält som aldrig används.
+* Framhäva viktiga data genom att formatera fält (t.ex. fetstil eller stor text).
+* Lägga till anpassade knappar och länkar för att trigga automatiserade processer (CRMScript) eller externa uppslag.
+* Organisera anpassade fält inom fliken **Mer** eller andra anpassade flikar.
+* Lägga till, omorganisera eller ta bort flikar efter behov.
+
+## Vilka skärmar kan jag konfigurera?
+
+Du kan anpassa följande skärmar och dialoger:
+
+* Företag
+* Kontakt
+* Försäljning
+* Projekt
+* Ärende
+* Uppföljningsdialog
+
+## Hur fungerar layouter?
+
+Layouter i SuperOffice CRM styr hur information presenteras för användarna. Standardlayouterna (system) tillämpas på alla användare, såvida inte en anpassad layout har skapats och tilldelats en specifik användargrupp.
+
+* **Anpassade layouter**: Skapa layouter som är specifikt anpassade till användargruppers unika behov.
+* **Layouttilldelning**: Layouter för försäljnings-, projekt- och ärendeskärmarna kan ytterligare anpassas genom att tilldela dem specifika försäljningstyper, projekttyper och ärendetyper.
+* **Layoutstatus**: Layouter kan vara i *utkast* eller *publicerat* tillstånd. Publicerade layouter är markerade med de tilldelade användargrupperna.
+
+![Skärmdesigner utkastlayout -screenshot][img3]
+
+![Skärmdesigner publicerad layout -screenshot][img4]
+
+Listan **Layouter** visar alla befintliga layouter, inklusive en förhandsvisning av skärmen.
+
+## Arbeta med Skärmdesignern
+
+För att börja anpassa skärmar:
+
+1. Öppna skärmdesignern genom att klicka på ![icon][img2], välja **Inställningar och underhåll** och sedan välja **Skärmdesigner** från navigatören.
+2. Dra och släpp fält i redigeraren för att lägga till dem i layouten.
+3. Klicka på ett fält för att flytta det eller uppdatera dess inställningar. Tillgängliga inställningar beror på vilken typ av fält som har valts.
+
+### Layoutkomponenter
+
+* **Fält:** Visar alla datafält som är tillgängliga för den valda skärmlayouten. Använd filter för att snabbt hitta specifika fält.
+* **Element:** Innehåller icke-databaserade element som etiketter, avdelare, länkar och knappar.
+* **Inställningar:** Låter dig anpassa utseendet och beteendet för det valda fältet.
+* **Fliklayout:** Ger alternativ för att arrangera fält och element i kolumner.
+* **Flikar:** Kan läggas till, omorganiseras eller tas bort för att logiskt organisera information.
+
+> [!NOTE]
+> Efter publicering av en layout måste användare i de tilldelade grupperna logga ut och logga in igen för att se ändringarna.
+
+## Vad händer om jag inte använder Skärmdesignern?
+
+Om du inte har en licens för utvecklingsverktyg organiserar fliken **Mer** automatiskt alla anpassade fält i två kolumner. Detta standardupplägg ger fortfarande ett funktionellt gränssnitt, men utan de avancerade anpassningsalternativ som finns tillgängliga genom Skärmdesignern.
+
+## Sammanfattning
+
+Genom att anpassa skärmlayouterna med skärmdesignern kan du eliminera onödig information, vilket gör gränssnittet renare och mer effektivt för dina team. Om till exempel ditt supportteam inte behöver visa företagets adress tydligt kan du flytta den till en sekundär flik, vilket frigör utrymme för mer relevanta fält.
+
+## Relaterat innehåll
+
+* [Lägg till layout][2]
+* [Redigera layout - Huvudkort][1]
+* [Arbeta med fält][4]
+* [Arbeta med arkiv (sektionsflikar)][3]
+
+## Original Skärmdesigner
 
 Med skärmdesignerfunktionen kan du konfigurera dina huvudskärmar i SuperOffice CRM. Du kan skapa olika skärmlayouter för olika användargrupper, beroende på deras informationsbehov och arbetsflöden. Detta hjälper din organisation att bli mer effektiv och fokusera på det som är viktigast.
 
@@ -41,6 +129,10 @@ Du kan skapa anpassade skärmlayouter för korten företag, kontakt, försäljni
 
 Layouterna är markerade med status (publicerad eller utkast) samt tilldelade användargrupper.
 
+En anpassad layout för fönstret Kontakt och Företag gör att dina team och din organisation kan arbeta mer effektivt, eftersom det eliminerar det distraherande "informationsbruset".
+
+Om ditt supportteam till exempel sällan använder företagsadressen när de kommunicerar med företag och kontakter, vill du kanske göra plats för andra fält som är viktigare på första sidan (fliken Företag). Flytta den genom att klicka på staplarna till vänster i fältet och dra den över till fliken **Mer**.
+
 ## Vad vill du göra nu?
 
 * [Lägg till ny layout][2]
@@ -51,6 +143,12 @@ Layouterna är markerade med status (publicerad eller utkast) samt tilldelade an
 [1]: edit-layout.md
 [2]: add-layout.md
 [3]: working-with-archives.md
+[4]: learn/working-with-fields.md
+[9]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
+[img2]: ../../../../media/icons/btn-menu.png
+[img3]: ../../../../media/loc/en/ui/status-draft.png
+[img4]: ../../../../media/loc/en/ui/status-published.png
+[img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
