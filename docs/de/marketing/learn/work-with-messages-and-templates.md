@@ -1,5 +1,5 @@
 ---
-uid: help-de-work-with-messages-and-templates
+uid: help-de-work-with-messages-and-templates-redirect
 title: Mit Nachrichten und Vorlagen arbeiten
 description: Mit Nachrichten und Vorlagen arbeiten
 author: Bergfrid Dias
