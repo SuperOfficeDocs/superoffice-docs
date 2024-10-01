@@ -16,7 +16,7 @@ language: no
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Når du har [opprettet en nytt layout][6], er det tid for tilpasning. Tilpass layouten for hovedkortene og arkivene slik at de dekker informasjonsbehovene i din organisasjon.
+Når du har [opprettet en ny layout][6], er det tid for tilpasning. Tilpass layouten for hovedkortene og arkivene slik at de dekker informasjonsbehovene i din organisasjon.
 
 ## Viktige hensyn
 
@@ -76,7 +76,7 @@ Hvis du trenger å gå tilbake til en tidligere versjon av skjermbildet, har du 
 
 Når en brukergruppebasert layout slettes, ser brukere i denne gruppen standard (system) layout.
 
-For å slette et layout:
+For å slette en layout:
 
 1. Velg layouten fra **Layouter**-listen.
 1. Klikk **Slett**.

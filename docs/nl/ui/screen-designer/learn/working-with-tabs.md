@@ -4,7 +4,7 @@ title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.01.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -24,17 +24,17 @@ Het maken van aangepaste tabbladen stelt u in staat om gerelateerde velden te gr
 
 **Stappen:**
 
-1. Klik op **Toevoegen**. Het secties **Tabbladlayout** opent aan de linkerkant.
+1. Klik op **Toevoegen**. Het secties **Tabbladindeling** opent aan de linkerkant.
 
-2. Vervang onder Tabbladtitel de tekst "Nieuw tabblad" door de nieuwe naam van het tabblad.
+2. Vervang onder **Titel tabblad** de tekst "Nieuw tabblad" door de nieuwe naam van het tabblad.
 
-    U kunt ook op ![icon][img1] klikken om [de naam van het tabblad in andere talen toe te voegen][3].
+    U kunt ook op de **A-Z** knop klikken om de naam van het tabblad in andere talen toe te voegen.
 
 3. Selecteer het aantal kolommen dat u in het nieuwe tabblad wilt gebruiken.
 
 ## Tabblad hernoemen
 
-Als u het tabblad later moet hernoemen, selecteert u het tabblad en gaat u naar **Tabbladopmaak**. U **kunt geen van de standaardtabbladen hernoemen**.
+Als u het tabblad later moet hernoemen, selecteert u het tabblad en gaat u naar **Tabbladindeling**. **U kunt de naam van de standaardtabbladen niet wijzigen.**
 
 ## Tabblad verwijderen
 
@@ -86,12 +86,12 @@ Standaard hebben tabbladen twee kolommen, maar u kunt dit naar behoefte aanpasse
 **Stappen:**
 
 1. Selecteer het tabblad waar u de kolommen wilt aanpassen.
-1. Ga naar het secties **Tabbladlayout**.
+1. Ga naar het secties **Tabbladindeling**.
 1. Kies een van de vier layoutopties.
 
 Als u het aantal kolommen vermindert, worden de velden uit de verwijderde kolommen naar de laatste resterende kolom verplaatst. Als u bijvoorbeeld van drie naar twee kolommen reduceert, worden de velden uit de derde kolom naar de onderkant van de tweede kolom verplaatst.
 
-Kolommen worden verticaal gestapeld wanneer het scherm te klein is om ze horizontaal weer te geven.
+Kolommen worden op elkaar gestapeld wanneer het scherm te klein is om ze horizontaal weer te geven.
 
 Als u een breed scherm heeft, kunt u meer kolommen gebruiken om meer gegevens tegelijkertijd weer te geven. Wees echter voorzichtig: het gebruik van vier kolommen kan de zichtbaarheid van sommige velden verminderen. Het verbergen van veldlabels kan helpen om meer ruimte te creëren.
 
@@ -108,20 +108,12 @@ Het **Meer**-tabblad bevat automatisch alle [aangepaste velden][3], gerangschikt
 
 * [Werken met velden][1]
 
-## Working with tabs
-
-[!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
-
-This guide assumes you are already [editing the layout][2]. The following sections explain how to organize and customize tabs in SuperOffice CRM, helping you tailor the interface to meet your organization's needs.
-
 <!-- Referenced links -->
 [1]: working-with-fields.md
 [2]: edit-layout.md
 [3]: ../../../custom-objects/learn/index.md
 [4]: ../../../custom-objects/admin/create-extra-field.md
 [5]: ../../../custom-objects/admin/add-udef.md
-[9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../media/loc/en/ui/field-settings.png

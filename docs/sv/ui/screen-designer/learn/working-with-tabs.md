@@ -4,7 +4,7 @@ title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.01.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -26,15 +26,15 @@ Genom att skapa anpassade flikar kan du gruppera relaterade fält på ett sätt 
 
 1. Klicka på **Lägg till**. Avsnittet **Fliklayout** öppnas till vänster.
 
-2. Under Fliknamn, ersätt texten "Ny flik" med det nya fliknamnet.
+2. Under **Tittel på fliken**, ersätt texten "Ny flik" med det nya fliknamnet.
 
-    Du kan också klicka på ![icon][img1] för att [lägga till fliknamnet på andra språk][3].
+    Du kan också klicka på **A-Z** knappen för att lägga till knappnamnet på andra språk.
 
 3. Välj antalet kolumner du vill använda i den nya fliken.
 
 ## Byt namn på flik
 
-Om du behöver byta namn på fliken senare, välj fliken och gå till **Fliklayout**. Du **kan inte byta namn på någon av standardflikarna**.
+Om du behöver byta namn på fliken senare, välj fliken och gå till **Fliklayout**. Du **kan inte byta namn på standardflikar**.
 
 ## Ta bort flik
 
@@ -89,9 +89,9 @@ Som standard har flikar två kolumner, men du kan justera detta efter behov. Var
 
 När du minskar antalet kolumner flyttas fälten från de borttagna kolumnerna till den sista återstående kolumnen. Om du till exempel minskar från tre till två kolumner flyttas fälten i den tredje kolumnen till botten av den andra kolumnen.
 
-Kolumner staplas vertikalt när skärmen är för liten för att visa dem horisontellt.
+Kolumner staplas ovanpå varandra när skärmen är för liten för att visa dem horisontellt.
 
-Om du har en bred skärm kan du använda fler kolumner för att visa mer data samtidigt. Var dock försiktig: användning av fyra kolumner kan minska synligheten för vissa fält. Att dölja fältetiketter kan hjälpa till att skapa mer utrymme.
+Om du har en bred skärm kan du använda fler kolumner för att visa mer data samtidigt. Var dock försiktig: användning av fyra kolumner kan minska synligheten för vissa fält. Att dölja etiketter kan hjälpa till att skapa mer utrymme.
 
 > [!TIP]
 > Om en flik blir för överbelastad bör du överväga att lägga till ytterligare flikar för att organisera informationen bättre.
@@ -114,5 +114,4 @@ Fliken **Mer** innehåller automatiskt alla [anpassade fält][3], ordnade efter 
 [5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../media/loc/en/ui/field-settings.png

@@ -4,7 +4,7 @@ title: Arbejde med faner
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: ui, screen, customization, tab layout, heading, label, divider
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.01.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -24,17 +24,17 @@ Oprettelse af brugerdefinerede faner gør det muligt for dig at gruppere relater
 
 **Trin:**
 
-1. Klik på **Tilføj**. Sektionen **Fanebladslayout** åbnes til venstre.
+1. Klik på **Tilføj**. Sektionen **Fanelayout** åbnes til venstre.
 
 2. Under Fanetitel, erstat teksten "Ny fane" med det nye fanenavn.
 
-    Du kan også klikke på ![icon][img1] for at [tilføje fanenavnet på andre sprog][3].
+    Du kan også klikke på **A-Z** knappen for at tilføje knapnavnet på andre sprog.
 
 3. Vælg det antal kolonner, du vil bruge i den nye fane.
 
 ## Omdøb fane
 
-Hvis du senere har brug for at omdøbe fanen, skal du vælge fanen og gå til **Fanebladslayout**. Du **kan ikke omdøbe nogen af standardfanerne**.
+Hvis du senere har brug for at omdøbe fanen, skal du vælge fanen og gå til **Fanelayout**. Du **kan ikke omdøbe standardfaner**.
 
 ## Fjern fane
 
@@ -79,19 +79,19 @@ Etiketter og skillelinjer hjælper med at organisere felter inden for en fane, h
 Som standard har faner to kolonner, men du kan justere dette efter behov. Hver fane kan have 1, 2, 3 eller 4 kolonner afhængigt af, hvor mange oplysninger du vil vise.
 
 > [!NOTE]
-> Faner med specifikke funktioner, såsom **ERP** og **Noter**, understøtter ikke kolonnejustering. Gå til **Indstillinger og vedligeholdelse** > **ERP** for at konfigurere indholdet af ERP-fanen.
+> Faner med specifikke funktioner, såsom **ERP** og **Bemærkning**, understøtter ikke kolonnejustering. Gå til **Indstillinger og vedligeholdelse** > **ERP** for at konfigurere indholdet af ERP-fanen.
 
 **Trin:**
 
 1. Vælg fanen, hvor du vil justere kolonnerne.
-1. Gå til sektionen **Fanebladslayout**.
+1. Gå til sektionen **Fanelayout**.
 1. Vælg en af de fire layoutmuligheder.
 
 Når antallet af kolonner reduceres, flyttes felterne fra de fjernede kolonner til den sidste tilbageværende kolonne. Hvis du f.eks. reducerer fra tre kolonner til to, flyttes felterne i den tredje kolonne til bunden af den anden kolonne.
 
 Kolonner vil blive stablet lodret, når skærmen er for lille til at vise dem vandret.
 
-Hvis du har en bred skærm, kan du bruge flere kolonner for at se flere data samtidigt. Vær dog forsigtig: Brug af fire kolonner kan reducere synligheden af nogle felter. Skjulning af feltnavne kan hjælpe med at skabe mere plads.
+Hvis du har en bred skærm, kan du bruge flere kolonner for at se flere data samtidigt. Vær dog forsigtig: Brug af fire kolonner kan reducere synligheden af nogle felter. Skjulning af etiketterne kan hjælpe med at skabe mere plads.
 
 > [!TIP]
 > Hvis en fane bliver for overfyldt, bør du overveje at tilføje ekstra faner for at organisere oplysningerne bedre.
@@ -115,5 +115,4 @@ Hvis du har en bred skærm, kan du bruge flere kolonner for at se flere data sam
 [9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../media/loc/en/ui/field-settings.png
