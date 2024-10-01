@@ -119,7 +119,7 @@ See all the [new or updated apps][5]
 * [Dealfront connect (18.09.2023)][9]
 
 > [!TIP]
-> Remember you have an **Uninstall** button in the **App store**, so you can uninstall unwanted apps to your tenant.
+> You have an **Uninstall** button in the **App store** under the **Installed Apps** tab, so you can send a request to remove unused apps to clean up your SuperOffice solution.
 
 <!-- Referenced links -->
 [1]: admin/10.3.1-update.md
