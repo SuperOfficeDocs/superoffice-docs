@@ -21,6 +21,7 @@ topic: reference
 * [Version 10.3.6][6]
 * [Version 10.3.7][7]
 * [Version 10.3.8][8]
+* [Version 10.3.9][9]
 
 <!-- Referenced links-->
 
@@ -32,3 +33,4 @@ topic: reference
 [6]: 10.3.6-update.md
 [7]: 10.3.7-update.md
 [8]: 10.3.8-update.md
+[9]: 10.3.9-update.md

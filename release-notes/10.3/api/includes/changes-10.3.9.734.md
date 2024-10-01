@@ -1,9 +1,9 @@
 ---
-uid: version_10.3.9.725_changes
-date: 9/25/2024
+uid: version_10.3.9.734_changes
+date: 01.10.2024
 ---
 
-Changes from v10.3.9.718 and v10.3.9.725
+Changes from v10.3.9.718 and v10.3.9.734
 
 ## Web Services
 
@@ -71,8 +71,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 ### Assembly: SoDatabase
 
+No Changes.
+
 ### Assembly: SoLicense
+
+No Changes.
 
 ## Continuous Database
 
-The following represent changes to SuperOffice database schema.
+No Changes.
