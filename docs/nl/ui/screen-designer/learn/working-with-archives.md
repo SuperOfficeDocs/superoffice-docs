@@ -1,133 +1,102 @@
 ---
-uid: help-nl-archive-edit-layout
-title: Opmaak bewerken op sectietabbladen/archieven
+uid: help-nl-screen-designer-archive
+title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: schermontwerper, sectietabblad, archief
+author: Bergfrid Dias
+date: 10.02.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Opmaak bewerken op sectietabbladen/archieven
+# Werken met sectietabbladen (archieven)
 
-U kunt de lay-out bewerken door sectietabbladen/archieven toe te voegen of te verwijderen op de verschillende hoofdkaarten voor bedrijf, contact, verkoop, project, en verzoeken.
+U kunt de opmaak aanpassen door sectietabbladen (ook wel archieven genoemd) toe te voegen of te verwijderen op de hoofdkaarten voor de schermen Bedrijf, Persoon, Verkoop, Project en Verzoek.
 
-## Verduidelijking
+Het aanpassen van sectietabbladen gebeurt meestal om te voldoen aan de specifieke behoeften van verschillende gebruikersgroepen. U kunt een opmaak maken die is afgestemd op een specifieke gebruikersgroep, zodat de sectietabbladen relevante inhoud voor die groep tonen.
 
-sectietabbladen zijn de tabbladen onder aan de meeste SuperOffice CRM-schermen. Bijvoorbeeld: het scherm Bedrijf heeft sectietabbladen met personen, activiteiten, projecten en verkopen. Deze worden ook wel archieven genoemd. Er zijn ook sectietabbladen die niet als archieven worden beschouwd, zoals sectietabbladen met verkoophandleidingen, projectgidsen en offerten. Voor het doel van dit onderwerp zullen we ernaar verwijzen als archieven of archieftabbladen (wanneer we verwijzen naar het eigenlijke tabblad met het archief).
+![Voeg de naam toe aan de nieuwe sectietabblad/archief lay-out en selecteer de gebruikersgroep(en) waarvoor deze moet worden weergegeven -screenshot][img6]
 
-Wanneer u een nieuwe opmaak voor archieven hebt gemaakt, zoals beschreven in Nieuwe opmaak toevoegen, wordt het tijd om deze aan te passen aan de behoeften van de toegewezen gebruikersgroep(en). Als u een opmaak aanpast voor het verkoopteam, moet u een duidelijk plan hebben en weten wat de behoeften van het team zijn met betrekking tot de opmaak, indeling en inhoud van de archieven. Hebben ze aangepaste archieven nodig met gefilterde gegevens? Welke informatie moet het eerst en gemakkelijkst te vinden zijn? Hebben ze alle archieven nodig?
+## Sectietabbladen begrijpen
 
-## Stappen
+Sectietabbladen, die zich onderaan de meeste SuperOffice CRM-schermen bevinden, tonen gerelateerde gegevens zoals personen, activiteiten, projecten en verkopen. Hoewel sommige sectietabbladen, zoals verkoopgidsen en offertes, geen archieven zijn, zullen we ze voor de eenvoud allemaal archieven of archieftabbladen noemen.
 
-U kunt een nieuw sectietabblad toevoegen aan elke hoofdkaarten die u wenst. Afhankelijk van de gekozen hoofdkaart kunt u een nieuw tabblad toevoegen met de inhoud van: Document, Afspraak, Product, Project, Projectlid, Verkoop, Verkoop stakeholder, Verzoek, Contact en Relatie.
+Bij het maken van een nieuw opmaak voor een gebruikersgroep, moet u overwegen welke gegevens zij het meest nodig hebben. Door archieven aan te passen, kunt u informatie filteren en prioriteren, waardoor gebruikers sneller kunnen vinden wat ze nodig hebben.
 
-![Selecteer het type inhoud dat u wilt weergeven op het sectietabblad -screenshot][img5]
+## Archief-tabblad toevoegen
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
-3. Klik op **Archieven**.
+U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Afhankelijk van het gekozen scherm kunt u een nieuw tabblad toevoegen met de inhoud: document, afspraak, product, project, projectlid, verkoop, belanghebbenden, verzoek, persoon en relatie.
 
-4. Selecteer een opmaak in de lijst aan de linkerkant.
+![Selecteer het type inhoud dat u in het sectietabblad wilt weergeven -screenshot][img5]
 
-5. Klik onder de voorbeeldweergave op **Opmaak bewerken**. Er wordt een nieuw venster geopend.
+**Stappen:**
 
-6. Zie de secties hieronder voor meer informatie over het bewerken van de opmaak.
+1. Open de Schermontwerper.
 
-7. Als u klaar bent met het bewerken van opmaak, klikt u op een van de volgende knoppen:
+1. Kies bovenaan een scherm om aan te passen en klik op **Archieven**.
 
-    * **Concept opslaan**: klik op deze knop als de opmaak nog niet is voltooid.
-    * **Opslaan + Publiceren**: klik op deze knop om de opmaak naar de geselecteerde gebruikersgroepen te publiceren.
-    * **Annuleren**: klik op deze knop om [alle wijzigingen te verwijderen](#undo-changes).
-<!-- markdownlint-restore -->
+1. Selecteer een opmaak uit de lijst en klik op **Opmaak bewerken** onder de voorbeeldweergave.
 
-## Tabblad Archief toevoegen
+1. Klik op **Toevoegen** om het secties **Tabblad** te openen.
 
-1. Klik op ![pictogram][img2] **Toevoegen**. De sectie **Tabblad** wordt links geopend.
+1. Vervang "Nieuw tabblad" door de naam van het archief en voer een beschrijving in voor het nieuwe tabblad. Optioneel kunt u op de **A-Z** knop klikken om de teksten in andere talen toe te voegen.
 
-2. Vervang onder **Naam** de tekst **Nieuw tabblad** door de naam van het archief. U kunt de naam ook in [andere talen][1] toevoegen door op ![pictogram][img3] te klikken.
+1. Pas de **Unieke naam voor tabblad** (soprotocol) indien nodig aan.
 
-3. Bewerk, indien relevant, **Unieke naam voor tabblad (SOProtocol)**. Deze naam kan later niet meer worden gewijzigd.
+1. Selecteer in de sectie **Instellingen** het gegevenstype (inhoud) dat in het archief moet worden weergegeven.
 
-4. Voer een beschrijving van het archief in het veld **Beschrijving** in. U kunt de beschrijving ook in [andere talen][1] toevoegen door op ![pictogram][img3] te klikken.
+    Gegevens zijn beperkt tot het huidige scherm. Als u bijvoorbeeld een archief toevoegt aan het Bedrijfsscherm, worden alleen gegevens getoond die aan het **huidige** bedrijf zijn gekoppeld.
 
-5. Selecteer de sectie **Instellingen**.
+1. Voeg criteria toe of bewerk ze onder **Filter** om de weergegeven gegevens te verfijnen. Deze criteria werken vergelijkbaar met de [zoekfilters in het **Zoeken**-scherm][2] en in selecties.
 
-6. Selecteer in de lijst **Inhoud** het type gegevens dat u in het archief wilt weergeven. De gegevens in het archief zijn beperkt tot gegevens voor het huidige scherm.
+    Klik op **Voorbeeldweergave bijwerken** om de gefilterde gegevens te zien.
 
-    Bijvoorbeeld: als u een archief toevoegt voor het scherm Bedrijf worden alleen gegevens weergegeven die zijn gekoppeld aan het huidige bedrijf.
+1. (Optioneel) Gebruik **Geavanceerde opties** om acties voor enkele klikken en dubbele klikken aan te passen. Standaard selecteert een enkele klik een rij en opent een dubbele klik een record/entiteit in SuperOffice.
 
-7. Onder **Filter** kunt u de relevante criteria als volgt toegevoegen/bewerken:
+    > [!TIP]
+    > Houd de muisaanwijzer boven het informatiepictogram ![icon][img4] voor voorbeelden.
 
-    * [Een criterium bewerken][2].
+1. Sleep het archief naar de gewenste positie in de voorbeeldweergave.
 
-        Bijvoorbeeld: selecteer **Afspraak** in de lijst **Inhoud** en voeg criteria toe om alleen interne en externe vergaderingen voor deze week en volgende week weer te geven.
+1. Selecteer **Concept opslaan** of **Opslaan + Publiceren** om uw wijzigingen op te slaan. Klik op **Annuleren** om uw wijzigingen te annuleren.
 
-    * Klik op **Toevoegen** om meer criteria op te geven. Er wordt een nieuwe regel aan de criterialijst toegevoegd.
+## Bestaand sectietabblad bewerken
 
-    * Klik en sleep als u criteria wilt verplaatsen.
+Om een bestaand archief te bewerken, selecteert u het en werkt u de velden en instellingen bij in de secties **Tabblad** en **Instellingen**. U kunt het tabblad ook verplaatsen door het naar een nieuwe positie te slepen.
 
-    * Klik op **Of** als u een andere set criteria wilt toevoegen.
-
-8. Klik op **Voorbeeldweergave bijwerken** om gegevens voor de huidige criteria weer te geven in de voorbeeldweergave aan de rechterkant. Gebruik de lijst **Voorbeeldweergave van bedrijf** om te selecteren welk bedrijf u wilt weergeven.
-
-9. Klik op **Geavanceerde opties** om de standaardacties voor één keer klikken en dubbelklikken in het archief te wijzigen. U kunt voorbeelden zien van hoe u dit instelt onder **Voorbeeld van syntaxis** en door de muisaanwijzer boven het pictogram ( ![pictogram][img4] ) te houden.
-
-    > [!NOTE]
-    > Standaard selecteert één klik een rij en een dubbelklik opent een record/entiteit in SuperOffice. Als uw bedrijf echter aangepaste archieven gebruikt om gegevens van andere systemen weer te geven, kunt u deze instellingen wijzigen om een record in een extern systeem te openen.
-
-10. Klik op het nieuw gemaakte archief in de voorbeeldweergave en verplaats het naar de gewenste positie.
-
-11. Sla de wijzigingen op zoals hierboven beschreven.
-
-## Bestaande sectietabbladen bewerken
-
-Als u een bestaand archief wilt bewerken, selecteert u het en bewerkt u de beschikbare velden en instellingen in de secties **Tabblad** en **Instellingen**. U kunt er ook op klikken en het naar een nieuwe positie slepen.
-
-## Beperkingen
+### Beperkingen
 
 * Standaardtabbladen kunnen niet worden bewerkt.
 
-* Sommige tabbladen, zoals **Offerte**, **Verkoophandleiding** en **Projectgids**, kunnen niet worden bewerkt, omdat ze specifieke functies hebben.
+* Sommige tabbladen, zoals **Offerte**, **Verkoopgids** en **Projectgids**, kunnen niet worden bewerkt, omdat ze specifieke functies hebben.
 
-## Een archief verwijderen
+## Sectietabblad verwijderen
 
-1. Selecteer het archief (of een ander sectietabblad) en klik op **Taak** > **Tabblad verwijderen**.
+1. Selecteer het archief of sectietabblad.
 
-1. Klik op **OK** in het dialoogvenster dat wordt weergegeven. Het tabblad wordt verwijderd (verborgen, maar niet gewist).
+1. Klik op **Taak** > **Tabblad verwijderen**.
 
-![Klik op Taak en vervolgens op tabblad Verwijderen om ongewenste tabbladen in het sectietabblad (archief) te verwijderen -screenshot][img1]
+1. Bevestig door op **OK** te klikken. Het tabblad wordt verborgen, maar niet verwijderd.
 
-U kunt altijd op **Tabbladen herstellen** klikken om deze wijzigingen ongedaan te maken.
+![Klik op Taak en vervolgens op Tabblad verwijderen om ongewenste tabbladen in het sectietabblad (archief) te verwijderen -screenshot][img1]
 
-## <a id="undo-changes"></a>Wijzigingen ongedaan maken
+Om deze wijzigingen ongedaan te maken, klikt u op **Tabbladen herstellen**.
 
-Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende opties openen via de knop **Taak**:
+## Gerelateerde inhoud
 
-* **Herstellen naar fabrieksinstellingen**: met deze optie worden alle wijzigingen verwijderd en wordt de opmaak teruggezet naar de standaardopmaak van SuperOffice.
-
-* **Tabbladen herstellen**: met deze optie worden alle tabbladen hersteld die zijn verwijderd.
-
-* **Concept verwijderen**: hiermee worden alle wijzigingen verwijderd en wordt de gepubliceerde versie van de opmaak teruggezet.
-
-## Aanverwant
-
-* [Hoe reorganiseer ik de velden op het tabblad Meer in de schermen Bedrijf en Persoon, na de upgrade naar SuperOffice versie 10?][3] - FAQ
-* [Nieuwe opmaak maken][4]
+* [Hoe reorganiseer ik de velden in het tabblad Meer na de upgrade naar SuperOffice versie 10?][3] - FAQ
+* [Nieuw opmaak maken][4]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../search-options/learn/search-criteria.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/add-icon.png
-[img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

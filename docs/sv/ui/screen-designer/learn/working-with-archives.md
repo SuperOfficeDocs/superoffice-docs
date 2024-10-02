@@ -1,133 +1,103 @@
 ---
-uid: help-sv-archive-edit-layout
-title: Redigera layout för detaljkort/arkiv
-description: ScreenDesigner Redigera layout - Arkiv (avsnittsflikar)
-author: SuperOffice RnD
-date: 02.23.2023
+uid: help-sv-screen-designer-archive
+title: Arbeta med detaljkort (arkiv)
+description: ScreenDesigner Arbeta med detaljkort (arkiv)
 keywords: skärmdesigner, detaljkort, arkiv
+author: Bergfrid Dias
+date: 10.02.2024
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Redigera layout för detaljkort/arkiv
+# Arbeta med detaljkort (arkiv)
 
-Du kan redigera layouten genom att lägga till eller ta bort detaljkort/arkiv på de olika huvudkorten för Företag, Kontakt, Försäljning, Projekt, och Ärenden.
+Du kan anpassa layouten genom att lägga till eller ta bort detaljkort (även kallade arkiv) på huvudkorten för företag, kontakt, försäljning, projekt och ärende.
 
-## Förtydligande
+Att anpassa detaljkort görs vanligtvis för att möta de specifika behoven hos olika användargrupper. Du kan skapa en layout som är skräddarsydd för en viss användargrupp och se till att flikarna visar relevant innehåll för den gruppen.
 
-Avsnittsflikar är flikarna längst ner på de flesta SuperOffice CRM-skärmarna. Exempel: Skärmen Företag har detaljkort som innehåller kontakter, aktiviteter, projekt och försäljning. Dessa kallas också arkiv. Det finns också avsnittsflikar som inte betraktas som arkiv, t.ex. avsnittsflikar som innehåller säljguider, projektguider och offerter. För syftet med det här ämnet kommer vi att kalla dem arkiv eller arkivflikar (när vi hänvisar till fliken som innehåller arkivet).
+![Lägg till namnet på det nya detaljkortet och välj de användargrupper som det ska visas för -screenshot][img6]
 
-När du har skapat en ny layout för arkiv (avsnittsflikar) enligt beskrivningen i Lägg till layout är det dags att anpassa den utifrån behoven hos den/de tilldelade användargruppen/-grupperna. Om du anpassar en layout för säljteamet, bör du ha en tydlig plan för vad deras behov är när det gäller layout, formatering och innehåll i arkiven. Behöver de anpassade arkiv med filtrerade data? Vilken information ska visas först och vara enklast att hitta? Behöver de alla arkiv?
+## Förstå detaljkort
 
-## Steg
+Detaljkort, som finns längst ner på de flesta SuperOffice CRM-skärmar, visar relaterade data som kontakter, aktiviteter, projekt och försäljningar. Även om vissa detaljkort, som säljguider och offerter, inte är arkiv, kommer vi för enkelhetens skull att referera till alla som arkiv eller arkivflikar.
 
-Du kan lägga till ett nytt detaljkort på valfritt huvudkort. Beroende på vilket huvudkort som valts kan du lägga till en ny flik med innehållet: Dokument, Bokning, Produkt, Projekt, Projektmedlem, Försäljning, Säljintressent, Ärende, Kontakt och Relation.
+När du skapar en ny layout för en användargrupp bör du överväga vilken data de behöver mest. Genom att anpassa arkiv kan du filtrera och prioritera information, vilket gör det lättare för användarna att hitta det de behöver.
+
+## Lägg till arkivflik
+
+Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detaljkortsområde. Beroende på vald skärm kan du lägga till en ny flik med innehåll av: dokument, bokning, produkt, projekt, projektmedlem, försäljning, säljintressent, ärende, kontakt och relation.
 
 ![Välj vilken typ av innehåll du vill visa på detaljkortet -screenshot][img5]
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
-3. Klicka på **Arkiv**.
+**Steg:**
 
-4. Välj en layout i listan till vänster.
+1. Öppna Skärmdesignern.
 
-5. Klicka på **Redigera layout** under förhandsgranskningen. Ett nytt fönster öppnas.
+1. Välj högst upp en skärm att anpassa och klicka på **Arkiv**.
 
-6. Se avsnitten nedan för mer information om hur du redigerar layouten.
+1. Välj en layout från listan och klicka på **Redigera layout** under förhandsgranskningen.
 
-7. När du är klar med att redigera layouten klickar du på någon av följande knappar:
+1. Klicka på **Lägg till** för att öppna avsnittet **Flik**.
 
-    * **Spara utkast**: Klicka på den här knappen om layouten inte är klar ännu.
-    * **Spara + publicera**: Klicka på den här knappen för att publicera layouten till de valda användargrupperna.
-    * **Avbryt**: Klicka på den här knappen för att [ta bort alla ändringar](#undo-changes).
-<!-- markdownlint-restore -->
+1. Ersätt "Ny flik" med arkivnamnet och ange en beskrivning för den nya layouten.
 
-## Lägg till detaljkort
+    Du kan också klicka på **A-Z**-knappen bredvid etiketten för att lägga till texten på andra språk.
 
-1. Klicka på ![ikon][img2] **Lägg till**. Avsnittet **Flik** öppnas till vänster.
+1. Justera **Unikt namn för kortet** (soprotocol) vid behov.
 
-2. Under **Namn** ersätter du texten **Ny flik** med arkivets namn. Du kan också lägga till namnet på [andra språk][1] genom att klicka på ![ikon][img3].
+1. Välj i avsnittet **Inställningar** vilken datatyp (innehåll) som ska visas i arkivet.
 
-3. Om det är relevant, redigera **Unikt namn för fliken (soprotocol)**. Namnet kan inte ändras senare.
+    Data är begränsade till den aktuella skärmen. Om du till exempel lägger till ett arkiv på Företagsskärmen visas endast data som är kopplade till det **aktuella** företaget.
 
-4. Ange en beskrivning av arkivet i fältet **Beskrivning**. Du kan också lägga till beskrivningen på [andra språk][1] genom att klicka på ![ikon][img3].
+1. Lägg till eller redigera kriterier under **Filter** för att förfina den visade datan. Dessa kriterier fungerar på samma sätt som [sökfiltren på **Sök**-skärmen][2] och i urval.
 
-5. Välj avsnittet **Inställningar**.
+    Klicka på **Uppdatera förhandsgranskning** för att se den filtrerade datan.
 
-6. I listan **Innehåll** väljer du vilken typ av data som du vill visa i arkivet. Data i arkivet kommer att begränsas till data för den aktuella skärmen.
+1. (Valfritt) Använd **Avancerade alternativ** för att anpassa enkel- och dubbelklicksåtgärder. Som standard kommer ett enkelklick att välja en rad och ett dubbelklick att öppna en post/entitet i SuperOffice.
 
-    Exempel: Om du lägger till ett arkiv på skärmen Företag visas endast data som är kopplade till företaget i fråga.
+    > [!TIP]
+    > Håll muspekaren över informationsikonen ![icon][img4] för exempel.
 
-7. Så gör du för att lägga till/redigera relevanta kriterier under **Filter**:
+1. Dra arkivet till önskad position i förhandsgranskningen.
 
-    * [Redigera ett kriterium][2].
+1. Välj **Spara utkast** eller **Spara + Publicera** för att spara dina ändringar. Klicka på **Avbryt** för att förkasta dina ändringar.
 
-        Exempel: Välj **Bokning** på listan **Innehåll** och lägg till kriterier för att endast visa interna och externa möten denna och nästa vecka.
+## Redigera befintligt arkiv
 
-    * Klicka på **Lägg till** för att ange fler villkor. Då läggs en ny rad till i kriterielistan.
-
-    * Om du vill flytta sökkriterier, klickar du och drar .
-
-    * Klicka på **Eller** för att lägga till en annan uppsättning kriterier.
-
-8. Klicka på **Uppdatera förhandsgranskning** för att visa data för de aktuella kriterierna i förhandsgranskningen till höger. Använd listan **Förhandsgranskning av företag** för att välja företaget som ska förhandsgranskas.
-
-9. Klicka på **Avancerade alternativ** för att ändra standardåtgärderna för enkelklick och dubbelklick i arkivet. Du kan se exempel på hur du ställer in detta under **Exempel på syntax** och genom att hålla muspekaren över ikonen( ![ikon][img4] ).
-
-    > [!NOTE]
-    > Som standard markerar du en rad med ett enkelklick, medan ett dubbelklick öppnar en post/entitet i SuperOffice. Om ditt företag däremot använder anpassade arkiv för att visa data från andra system, kan du ändra dessa inställningar för att öppna en post i ett externt system.
-
-10. Klicka och dra det nyskapade arkivet i förhandsgranskningen och flytta det till önskad position.
-
-11. Spara beskrivningarna enligt beskrivningen ovan.
-
-## Redigera befintliga avsnittsflikar
-
-Om du vill redigera ett befintligt arkiv, markerar du det och redigerar de tillgängliga fälten och inställningarna i avsnitten **Flik** och **Inställningar**. Du kan även klicka och dra det till en ny position.
+För att ändra ett befintligt detaljkort, välj det och uppdatera fälten och inställningarna i avsnitten **Flik** och **Inställningar**. Du kan även ändra flikens position genom att dra den.
 
 ## Begränsningar
 
 * Standardflikar kan inte redigeras.
 
-* Vissa flikar som **Offert**, **Säljguide** och **Projektguide**, kan inte redigeras eftersom de har specifika funktioner.
+* Vissa flikar, såsom **Offert**, **Säljguide** och **Projektguide**, kan inte redigeras eftersom de har specifika funktioner.
 
 ## Ta bort ett arkiv
 
-1. Välj arkivet (eller någon annan avsnittsflik) och klicka på **Uppgift** > **Ta bort flik**.
+1. Välj arkivet eller detaljkortet.
 
-1. Klicka på **OK** i dialogrutan som visas. Fliken tas bort (dold men inte raderad).
+1. Klicka på **Uppgift** > **Ta bort flik**.
 
-![Klicka på Uppgift och sedan på Ta bort fliken för att ta bort oönskade flikar på detaljkortet (arkiv) -screenshot][img1]
+1. Bekräfta genom att klicka på **OK**. Fliken kommer att döljas, men inte tas bort.
 
-Du kan alltid klicka på **Återställ flikar** för att ångra dessa ändringar.
+![Klicka på Uppgift och sedan Ta bort flik för att ta bort oönskade flikar i detaljkortet (arkiv) -screenshot][img1]
 
-## <a id="undo-changes"></a>Ångra ändringar
+För att ångra dessa ändringar, klicka på **Återställ flikar**.
 
-Om du behöver återgå till en tidigare version av skärmen, kommer du åt följande alternativ från **Uppgift**-knappen:
+## Relaterat innehåll
 
-* **Återställ till fabriksinställningar**: Det här alternativet tar bort alla ändringar och återställer layouten till den standardlayout som levereras av SuperOffice.
-
-* **Återställ flikar**: Detta alternativ återställer alla flikar som har tagits bort.
-
-* **Ignorera utkast**: Tar bort alla ändringar och återställer till den publicerade versionen av layouten.
-
-## Relaterat
-
-* [Hur omorganiserar jag fälten på fliken Mer in fönstret Företag och Kontakt efter uppgraderingen till SuperOffice version 10?][3] - FAQ
+* [Hur omorganiserar jag fälten i fliken Mer efter uppgraderingen till SuperOffice version 10?][3] - FAQ
 * [Skapa ny layout][4]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../search-options/learn/search-criteria.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/add-icon.png
-[img3]: ../../../../../common/icons/az.png
 [img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png
