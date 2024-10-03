@@ -1,10 +1,10 @@
 ---
 uid: help-de-screen-designer-grid
-title: Working with grids
-description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, grid, table
+title: Arbeiten mit Gittern
+description: So fügen Sie Raster in ein Layout ein und befüllen sie mit dem Ansichtsdesigner in Einstellungen und Wartung.
+keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Gitter
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings
@@ -28,13 +28,13 @@ Die folgenden Anweisungen setzen voraus, dass Sie bereits [das Layout bearbeiten
 
 1. Klicken und ziehen Sie das **Gitter**-Element in das Layout.
 
-    ![Ansichtsdesigner-Gitterelement -screenshot][img1]
+    ![Ansichtsdesigner, Gitterelement -screenshot][img1]
 
 1. Klicken Sie, um das neue Gitter auszuwählen.
 
 1. Passen Sie im Abschnitt **Einstellungen** links die Anzahl der Spalten und Zeilen an Ihre Bedürfnisse an.
 
-    ![Ansichtsdesigner-Gittereinstellungen -screenshot][img2]
+    ![Ansichtsdesigner, Gittereinstellungen -screenshot][img2]
 
 1. Wählen Sie einen Gitterstil: Linien (Standard), keine oder Kopfzeile.
 

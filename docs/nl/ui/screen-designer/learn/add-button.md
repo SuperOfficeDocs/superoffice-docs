@@ -1,10 +1,10 @@
 ---
 uid: help-nl-screen-designer-button
 title: Knop of koppeling toevoegen
-description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization
+description: Hoe u een knop of link toevoegt aan een opmaak met behulp van de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, knop, koppeling, label, A-Z
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -121,7 +121,7 @@ Sommige instellingen zijn afhankelijk van de gekozen actie.
 
 [Meer informatie over CRMScript][2]
 
-## Snelkoppeling (SoProtocol)
+### Snelkoppeling (SoProtocol)
 
 * SoProtocol: Het navigatie- en inhoudsdeel van de URL zonder het voorvoegsel `superoffice:`.
 

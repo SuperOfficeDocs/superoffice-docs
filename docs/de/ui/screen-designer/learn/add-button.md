@@ -1,10 +1,10 @@
 ---
 uid: help-de-screen-designer-button
 title: Schaltfläche oder Link hinzufügen
-description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization
+description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Wartung eine Schaltfläche oder einen Link zu einem Layout hinzu.
+keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Schaltfläche, Link
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -121,7 +121,7 @@ Einige Einstellungen hängen von der gewählten Aktion ab.
 
 [Erfahren Sie mehr über CRMScript][2]
 
-## Verknüpfung (SoProtocol)
+### Verknüpfung (SoProtocol)
 
 * SoProtocol: Der Navigations- und Inhaltsteil der URL ohne das Präfix `superoffice:`.
 

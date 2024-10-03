@@ -2,9 +2,9 @@
 uid: help-no-screen-designer-add-layout
 title: Legg til skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: Skjermdesigner, format, hovedkort, arkiv, brukergrensesnitt, skjerm, layout, oppsett
+keywords: Skjermdesigner, skjermlayout, layout, oppsett, format, hovedkort
 author: Bergfrid Dias
-date: 01.02.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

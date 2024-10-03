@@ -2,9 +2,9 @@
 uid: help-de-screen-designer
 title: Ansichtsdesigner
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren.
-keywords: Ansichtsdesigner
+keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: Bergfrid Dias
-date: 10.03.2024
+date: 10.07.2024
 version: 10.2.11
 topic: concept
 audience: settings

@@ -1,10 +1,11 @@
 ---
 uid: help-sv-screen-designer-archive
 title: Arbeta med detaljkort (arkiv)
-description: ScreenDesigner Arbeta med detaljkort (arkiv)
-keywords: skärmdesigner, detaljkort, arkiv
+description: Skärmdesigner - arbeta med detaljkort (arkiv)
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, detaljkort, arkiv, arkivflik
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +26,7 @@ Detaljkort, som finns längst ner på de flesta SuperOffice CRM-skärmar, visar 
 
 När du skapar en ny layout för en användargrupp bör du överväga vilken data de behöver mest. Genom att anpassa arkiv kan du filtrera och prioritera information, vilket gör det lättare för användarna att hitta det de behöver.
 
-## Lägg till arkivflik
+## Lägg till arkiv
 
 Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detaljkortsområde. Beroende på vald skärm kan du lägga till en ny flik med innehåll av: dokument, bokning, produkt, projekt, projektmedlem, försäljning, säljintressent, ärende, kontakt och relation.
 
@@ -68,7 +69,7 @@ Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detal
 
 För att ändra ett befintligt detaljkort, välj det och uppdatera fälten och inställningarna i avsnitten **Flik** och **Inställningar**. Du kan även ändra flikens position genom att dra den.
 
-## Begränsningar
+### Begränsningar
 
 * Standardflikar kan inte redigeras.
 

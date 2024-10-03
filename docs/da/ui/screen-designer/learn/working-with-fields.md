@@ -1,10 +1,10 @@
 ---
 uid: help-da-screen-designer-fields
-title: Working with fields
-description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, field, edit layout
+title: Arbejde med felter
+description: Sådan tilføjer, flytter og sletter du felter i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, felt, feltindstilling
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings

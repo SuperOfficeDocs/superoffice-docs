@@ -1,10 +1,10 @@
 ---
 uid: help-de-screen-designer-assign-layout
 title: Layout einer Gruppe oder einem Typ zuweisen
-description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, layout, used by
+description: So weisen Sie mit dem Ansichtsdesigner in Einstellungen und Wartung ein Layout einer Gruppe, Verkaufstyp, Projekttyp oder Anfrageart zu.
+keywords: Ansichtsdesigner, Layout, Layout zuweisen
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

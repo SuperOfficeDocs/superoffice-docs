@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: index.md
-- name: Add new layout
+- name: Add layout
   href: add-layout.md
 - name: Edit layout
   href: edit-layout.md
@@ -18,6 +18,6 @@ items:
 - name: Assign layout to group or type
   href: assign-layout.md
 - name: Element reference
-  href: element-reference.md
+  href: reference.md
 - name: Tutorial - place country before address
   href: tutorial-move-country.yml

@@ -1,10 +1,10 @@
 ---
 uid: help-nl-screen-designer-grid
-title: Working with grids
-description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, grid, table
+title: Werken met rasters
+description: Hoe u rasters toevoegt en invult in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, raster, rasteruiterlijk
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings

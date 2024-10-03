@@ -1,9 +1,23 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Legg til ny layout
+- name: Legg til skjermlayout
   href: add-layout.md
-- name: Redigere layout - Hovedkort
+- name: Rediger layout
   href: edit-layout.md
-- name: Rediger layout - Arkiver (detaljkort)
+- name: Arbeide med felt
+  href: working-with-fields.md
+- name: Arbeide med rutenett
+  href: working-with-grids.md
+- name: Arbeide med faner
+  href: working-with-tabs.md
+- name: Arbeide med detaljkort (arkiv)
   href: working-with-archives.md
+- name: Legg til knapp eller kobling
+  href: add-button.md
+- name: Tilordne layout til gruppe/type
+  href: assign-layout.md
+- name: Feltreferanse
+  href: reference.md
+- name: Tutorial - Flytt landfeltet
+  href: tutorial-move-country.yml

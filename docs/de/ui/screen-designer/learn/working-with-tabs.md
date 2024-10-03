@@ -1,10 +1,10 @@
 ---
 uid: help-de-screen-designer-tabs
 title: Arbeiten mit Registerkarten
-description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, tab layout, heading, label, divider
+description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Wartung.
+keywords: Ansichtsdesigner,Layout, Registerkarten-Layout, Überschrift, Bezeichnung, Trennlinie
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

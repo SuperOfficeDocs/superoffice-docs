@@ -1,9 +1,23 @@
 items:
 - name: Översikt
   href: index.md
-- name: Lägg till ny layout
+- name: Lägg till layout
   href: add-layout.md
-- name: Redigera layout - Huvudkort
+- name: Redigera layout
   href: edit-layout.md
-- name: Redigera layout - Arkiv (avsnittsflikar)
+- name: Arbeta med fält
+  href: working-with-fields.md
+- name: Arbeta med rutnät
+  href: working-with-grids.md
+- name: Arbeta med flikar
+  href: working-with-tabs.md
+- name: Arbeta med detaljkort (arkiv)
   href: working-with-archives.md
+- name: Lägg till knapp eller länk
+  href: add-button.md
+- name: Tilldela layout till grupp/typ
+  href: assign-layout.md
+- name: Fältreferens
+  href: reference.md
+- name: Tutorial - Flytta landfältet
+  href: tutorial-move-country.yml

@@ -4,7 +4,7 @@ title: Tilordne layout til gruppe eller type
 description: Hvordan tilordne layout til gruppe eller type ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilordne, tildel
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

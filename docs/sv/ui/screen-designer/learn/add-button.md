@@ -1,10 +1,10 @@
 ---
 uid: help-sv-screen-designer-button
 title: Lägg till en knapp eller länk
-description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization
+description: Hur du lägger till en knapp eller länk i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, knapp, länk, etikett, A-Z
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -121,7 +121,7 @@ Vissa inställningar beror på vilken åtgärd som valts.
 
 [Läs mer om CRMScript][2]
 
-## Genväg (SoProtocol)
+### Genväg (SoProtocol)
 
 * SoProtocol: Den navigations- och innehållsdelen av URL:en utan prefixet `superoffice:`.
 

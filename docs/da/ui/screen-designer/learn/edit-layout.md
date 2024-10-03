@@ -2,9 +2,9 @@
 uid: help-da-screen-designer-edit-layout
 title: Rediger layout af et kort
 description: I denne vejledning lærer du, hvordan du redigerer et layout.
-keywords: skærmdesigner, udseende, felt, fanelayout
+keywords: Skærmdesigner, layout, udseende, felt, kortlayout, hovedkort
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

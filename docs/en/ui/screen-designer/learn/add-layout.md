@@ -2,14 +2,14 @@
 uid: help-en-screen-designer-add-layout
 title: Add layout
 description: How to add a screen layout using the Screen Designer in Settings and maintenance.
-keywords: screen designer, ui, screen, customization, layout, main card, archive, section tab
+keywords: Screen designer, layout, main card
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10.2.11
-language: en
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Add layout

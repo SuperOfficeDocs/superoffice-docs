@@ -2,9 +2,9 @@
 uid: help-nl-screen-designer-edit-layout
 title: Opmaak hoofdkaarten bewerken
 description: In deze handleiding staat u hoe u een opmaak bewerkt.
-keywords: schermontwerper, opmaak, veld, tabbladindeling
+keywords: Schermontwerper, opmaak, veld, tabbladindeling, opmaak bewerken, kaartopmaak, hoofdkaart
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Lay-out van een kaart bewerken
+# Opmaak van een kaart bewerken
 
 [!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
 

@@ -1,10 +1,10 @@
 ---
 uid: help-nl-screen-designer-assign-layout
 title: Opmaak toewijzen aan groep of type
-description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, opmaak, used by
+description: Hoe u een opmaak toewijst aan een groep, verkooptype, projecttype of verzoektype met behulp van de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, opmaak toewijzen
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

@@ -1,10 +1,10 @@
 ---
 uid: help-nl-screen-designer-tabs
-title: Working with tabs
-description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, tab layout, heading, label, divider
+title: Werken met tabbladen
+description: Hoe u een tabblad in een lay-out toevoegt, organiseert, verwijdert en herstelt en hoe u de informatie organiseert in logische groepen met behulp van de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, tabblad, tabbladindeling, kop, label, scheidingslijn
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

@@ -2,9 +2,9 @@
 uid: help-no-screen-designer-fields
 title: Arbeide med felt
 description: Hvordan legge til, flytte og fjerne felt i en layout ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: Skjermdesigner, brukergrensesnitt, layout, oppsett, feltinnstilling, feltformatering, felt
+keywords: Skjermdesigner, layout, oppsett, feltinnstilling, feltformatering, felt
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings
@@ -30,7 +30,9 @@ Listen over felt på en hvilken som helst skjerm inneholder alle standardfelt fo
 Alle felt kan vises på flere steder hvis det er relevant.
 
 1. Velg fanen der du vil legge til feltet.
+
 2. Sørg for at seksjonen **Felt** er valgt.
+
 3. Finn ønsket felt i **Felt**-listen.
 
     > [!TIP]
@@ -47,7 +49,9 @@ Alle felt kan vises på flere steder hvis det er relevant.
 Rediger feltformatering (for eksempel skriftstørrelse) for å forbedre synligheten.
 
 1. Velg fanen som inneholder feltet.
+
 1. Klikk på feltet i forhåndsvisningen.
+
 1. I seksjonen **Innstillinger**, rediger feltformateringen. De tilgjengelige innstillingene avhenger av valgt felttype.
 
     * Velg **Fet** eller *Kursiv* for å endre skriftstilen
@@ -63,6 +67,7 @@ Legg til eller flytt viktige tilpassede felt til hovedfanen (den venstre fanen) 
 **Trinn:**
 
 1. Velg fanen som inneholder feltet.
+
 2. Klikk på **=** til venstre for feltets etikett, og dra feltet til en ny posisjon.
 
     > [!TIP]

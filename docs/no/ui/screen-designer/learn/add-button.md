@@ -2,9 +2,9 @@
 uid: help-no-screen-designer-button
 title: Legg til en knapp eller kobling
 description: Hvordan legge til en knapp eller kobling med Skjermdesigneren i Innstillinger og vedlikehold.
-keywords: brukergrensesnitt, layout, knapp, kobling, tilpasning, Skjermdesigner
+keywords: Skjermdesigner, layout, oppsett, knapp, kobling, etikett, A-Z
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -121,7 +121,7 @@ Noen innstillinger avhenger av valgt handling.
 
 [Lær mer om CRMScript][2]
 
-## Snarvei (SoProtocol)
+### Snarvei (SoProtocol)
 
 * SoProtocol: Navigasjons- og innholdsdelen av URL-en uten prefikset `superoffice:`.
 

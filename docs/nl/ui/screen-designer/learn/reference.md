@@ -1,14 +1,15 @@
 ---
-uid: help-nl-screen-element-reference
-title: Reference
-description: Reference of elements available in the Screen Designer in Settings and maintenance.
-keywords: UI, screen, customization, Screen Designer, field
+uid: help-nl-screen-designer-field-reference
+title: Referentie
+description: Referentie van elementen beschikbaar in de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, veld, standaardveld, tabblad, standaardtabblad
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.6
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
+language: nl
 ---
 
 # Referentie
@@ -46,7 +47,7 @@ audience_tooltip: Settings and maintenance
 | Website | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [Contact-databasetabel][2].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][2].
 
 **Standaardtabbladen:**
 
@@ -98,7 +99,7 @@ Voor meer details over de waarde van elk veld, zie de [Contact-databasetabel][2]
 | Website | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [Persoons-databasetabel][3].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][3].
 
 **Standaardtabbladen:**
 
@@ -137,7 +138,7 @@ Voor meer details over de waarde van elk veld, zie de [Persoons-databasetabel][3
 | Zichtbaar voor | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [Verkoop-databasetabel][4].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][4].
 
 **Standaardtabbladen:**
 
@@ -168,7 +169,7 @@ Voor meer details over de waarde van elk veld, zie de [Verkoop-databasetabel][4]
 | Website | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [Project-databasetabel][5].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][5].
 
 **Standaardtabbladen:**
 
@@ -231,7 +232,7 @@ Voor meer details over de waarde van elk veld, zie de [Project-databasetabel][5]
 | Titel | Tekst | |
 | Aangepaste velden | | Zowel gebruikersgedefinieerde als extra |
 
-Voor meer details over de waarde van elk veld, zie de [Ticket-databasetabel][6].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][6].
 
 **Standaardtabbladen:**
 
@@ -239,7 +240,7 @@ Voor meer details over de waarde van elk veld, zie de [Ticket-databasetabel][6].
 * Details
 * Wijzigingslog
 
-## Follow-up
+## Vervolgactiviteit
 
 **Standaardvelden:**
 
@@ -264,7 +265,7 @@ Voor meer details over de waarde van elk veld, zie de [Ticket-databasetabel][6].
 
 * De rechterkolom wordt verborgen als er geen deelnemers zijn.
 
-Voor meer details over de waarde van elk veld, zie de [Afspraak-databasetabel][7].
+Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 
 **Standaardtabbladen:**
 
@@ -279,7 +280,7 @@ Voor meer details over de waarde van elk veld, zie de [Afspraak-databasetabel][7
 * [Meer informatie over verkopen][11]
 * [Meer informatie over projecten][10]
 * [Meer informatie over verzoeken][14]
-* [Meer informatie over follow-ups][16]
+* [Meer informatie over vervolgactiviteiten][16]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md

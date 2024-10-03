@@ -2,14 +2,14 @@
 uid: help-en-screen-designer
 title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
-keywords: screen designer, UI, screen, customization, configurable screen, layout
+keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.7
 topic: concept
-language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Screen designer ![icon][img1]

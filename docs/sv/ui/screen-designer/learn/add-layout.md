@@ -2,9 +2,9 @@
 uid: help-sv-screen-designer-add-layout
 title: Lägg till layout
 description: Så här lägger du till en ny layout för en användargrupp.
-keywords: skärmdesigner, layout, huvudkort, arkiv
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, huvudkort, anpassa skärmlayout
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings
@@ -65,7 +65,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
     * [Lägg till, redigera, flytta eller ta bort ett fält][1]
     * [Lägg till kobling eller knapp][5]
     * [Lägg till, ta bort eller återställ en flik][3]
-    * [Lägg till eller ta bort entt detaljkort (arkiv)][2]
+    * [Lägg till eller ta bort ett detaljkort (arkiv)][2]
 
 3. När du är klar, spara eller publicera layouten.
 

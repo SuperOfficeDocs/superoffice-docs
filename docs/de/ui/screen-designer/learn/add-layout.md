@@ -2,9 +2,9 @@
 uid: help-de-screen-designer-add-layout
 title: Layout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
-keywords: Ansichtsdesigner, Layout, Hauptkarte, Archiv
+keywords: Ansichtsdesigner, Layout hinzufügen, Layout, Hauptkarte, Ansichtslayout
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

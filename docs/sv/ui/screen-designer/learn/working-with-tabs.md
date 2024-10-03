@@ -1,10 +1,10 @@
 ---
 uid: help-sv-screen-designer-tabs
-title: Working with tabs
-description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, tab layout, heading, label, divider
+title: Arbeta med flikar
+description: Hur du lägger till, organiserar, tar bort och återställer en flik i en layout och hur du organiserar informationen i logiska grupper med hjälp av Skärmdesignern i Inställningar och underhåll.
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, fliklayout, rubrik, etikett, avdelare, kolumn
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

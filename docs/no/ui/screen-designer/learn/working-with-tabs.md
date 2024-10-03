@@ -1,10 +1,10 @@
 ---
 uid: help-no-screen-designer-tabs
 title: Arbeide med faner
-description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: brukergrensesnitt, Skjermdesigner, skjerm, tilpasse, layout, faneoppsett, overskrift, etikett, skillelinje
+description: Slik legger du til, organiserer, sletter og gjenoppretter en fane i et oppsett, og hvordan du organiserer informasjonen i logiske grupper ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
+keywords: Skjermdesigner, layout, oppsett, faneoppsett, overskrift, etikett, skillelinje, kolonne
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

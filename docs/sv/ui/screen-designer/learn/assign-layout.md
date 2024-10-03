@@ -1,10 +1,10 @@
 ---
 uid: help-sv-screen-designer-assign-layout
 title: Tilldela layout till grupp eller typ
-description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, layout, used by
+description: Hur du tilldelar en layout till en grupp, säljtyp, projekttyp eller ärendetyp med hjälp av Skärmdesignern i Inställningar och underhåll.
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, tilldela layout
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

@@ -1,10 +1,10 @@
 ---
 uid: help-da-screen-designer-grid
-title: Working with grids
-description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, grid, table
+title: Arbejde med gittere
+description: Sådan tilføjer og udfylder du gittere i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, gitter
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings

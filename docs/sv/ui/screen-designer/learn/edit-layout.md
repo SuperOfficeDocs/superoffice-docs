@@ -1,10 +1,10 @@
 ---
 uid: help-sv-screen-designer-edit-layout
-title: Redigera layout på huvudkort
+title: Redigera layouten för ett kort
 description: I den här guiden förklarar vi hur du redigerar en layout.
-keywords: skärmdesigner, layout, fält, fliklayout
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, fliklayout, redigera kortlayout, återställ
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings

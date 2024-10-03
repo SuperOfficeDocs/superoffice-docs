@@ -1,10 +1,11 @@
 ---
 uid: help-da-screen-designer-archive
 title: Arbejde med detaljekort (arkiver)
-description: Skærmdesigner Rediger layout – Arkiver (detaljekort)
-keywords: skærmdesigner, detaljekort, arkiv
+description: Skærmdesigner - arbejde med detaljekort (arkiver)
+keywords: Skærmdesigner, layout, detaljekort, arkiv, arkivlayout, fane
 author: Bergfrid Dias
-date: 10.02.2023
+date: 10.07.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -68,7 +69,7 @@ Du kan tilføje et nyt detaljekort på enhver skærm, der har et detaljekortomr�
 
 For at ændre et eksisterende arkiv skal du vælge det og opdatere felterne og indstillingerne i sektionerne **Fane** og **Indstillinger**. Du kan også ændre fanens position ved at trække den til en ny placering.
 
-## Begrænsninger
+### Begrænsninger
 
 * Standardfaner kan ikke redigeres.
 

@@ -2,9 +2,9 @@
 uid: help-sv-screen-designer
 title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
-keywords: skärmdesigner
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält
 author: Bergfrid
-date: 01.02.2024
+date: 10.07.2024
 version: 10.2.11
 topic: concept
 audience: settings
@@ -77,15 +77,21 @@ Listan **Layouter** visar alla befintliga layouter, inklusive en förhandsgransk
 För att börja anpassa skärmar:
 
 1. Öppna skärmdesignern genom att klicka på ![icon][img2], välja **Inställningar och underhåll** och sedan välja **Skärmdesigner** från navigatören.
+
 2. Dra och släpp fält i redigeraren för att lägga till dem i layouten.
+
 3. Klicka på ett fält för att flytta det eller uppdatera dess inställningar. Tillgängliga inställningar beror på vilken typ av fält som har valts.
 
 ### Layoutkomponenter
 
 * **Fält:** Visar alla datafält som är tillgängliga för den valda skärmlayouten. Använd filter för att snabbt hitta specifika fält.
+
 * **Element:** Innehåller icke-databaserade element som etiketter, avdelare, länkar och knappar.
+
 * **Inställningar:** Låter dig anpassa utseendet och beteendet för det valda fältet.
+
 * **Fliklayout:** Ger alternativ för att arrangera fält och element i kolumner.
+
 * **Flikar:** Kan läggas till, omorganiseras eller tas bort för att logiskt organisera information.
 
 > [!NOTE]

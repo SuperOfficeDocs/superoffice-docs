@@ -1,10 +1,10 @@
 ---
 uid: help-da-screen-designer-tabs
 title: Arbejde med faner
-description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, tab layout, heading, label, divider
+description: Sådan tilføjer, organiserer, sletter og gendanner du en fane i et layout, og hvordan du organiserer informationen i logiske grupper ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, fane, fanelayout, overskrift, etiket, skillelinje, A-Z, kolonne
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -64,7 +64,9 @@ Hvis du fjerner en fane og senere beslutter, at du har brug for den, kan du nemt
 Etiketter og skillelinjer hjælper med at organisere felter inden for en fane, hvilket gør oplysningerne mere læsbare og tilgængelige. Brug etiketter til at oprette overskrifter og skillelinjer til at adskille sektioner inden for en kolonne.
 
 1. Vælg fanen, hvor du vil tilføje elementet.
+
 2. Klik på sektionen **Elementer**.
+
 3. For at tilføje en overskrift skal du trække elementet **Etiket** ind i layoutet.
 
     * I sektionen **Indstillinger**, erstat "Ny etiket" med den nye etiketnavn. Du kan eventuelt klikke på **A-Z** knappen ved siden af etiketten for at [tilføje etiketten på andre sprog][9].

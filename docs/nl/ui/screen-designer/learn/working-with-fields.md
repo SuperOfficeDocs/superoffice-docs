@@ -1,10 +1,10 @@
 ---
 uid: help-nl-screen-designer-fields
-title: Working with fields
-description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, field, edit layout
+title: Werken met velden
+description: Hoe u velden toevoegt, verplaatst en verwijdert in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
+keywords: Schermontwerper, opmaak, veld, opmaak bewerken, veldinstelling
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings

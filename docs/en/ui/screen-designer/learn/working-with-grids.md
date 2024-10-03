@@ -2,14 +2,14 @@
 uid: help-en-screen-designer-grid
 title: Working with grids
 description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, grid, table
+keywords: Screen designer, layout, grid, table
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10
 topic: howto
-language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Working with grids
@@ -23,12 +23,15 @@ The instructions below assume you are already [editing the layout][1].
 ## Add a grid
 
 1. Select the tab you want to add a grid to.
+
 1. Click to select the **Elements** section.
+
 1. Click and drag the **Grid** element to the layout.
 
     ![Screen Designer grid element -screenshot][img1]
 
 1. Click to select the new grid.
+
 1. In the **Settings** sections to the left, adjust the number of columns and rows to suit your needs.
 
     ![Screen Designer grid settings -screenshot][img2]
@@ -38,6 +41,7 @@ The instructions below assume you are already [editing the layout][1].
 ## Add field to grid
 
 1. Go to the location of the grid.
+
 1. Hold the pointer over the grid and click the blue pencil.
 
     ![Screen Designer grid enter edit mode -screenshot][img3]
@@ -47,6 +51,7 @@ The instructions below assume you are already [editing the layout][1].
     ![Screen Designer grid in edit mode -screenshot][img4]
 
 1. Make sure the **Fields** section is selected.
+
 1. [Drag fields from the list][2] to a cell in the grid. You can also add [labels][3], [links, and buttons][4].
 
     > [!TIP]

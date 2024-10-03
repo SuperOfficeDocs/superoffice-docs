@@ -1,10 +1,10 @@
 ---
 uid: help-sv-screen-designer-grid
-title: Working with grids
-description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, grid, table
+title: Arbeta med rutnät
+description: Hur du lägger till och fyller rutnät i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
+keywords: Skärmdesigner, layout, gränssnitt, flik, fält, rutnät
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10
 topic: howto
 audience: settings

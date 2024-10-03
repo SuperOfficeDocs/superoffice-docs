@@ -1,10 +1,10 @@
 ---
-uid: help-da-screen-element-reference
+uid: help-da-screen-designer-field-reference
 title: Reference
-description: Reference of elements available in the Screen Designer in Settings and maintenance.
-keywords: UI, screen, customization, Screen Designer, field
+description: Reference over elementer, der er tilgængelige i Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.6
 topic: reference
 audience: settings
@@ -47,7 +47,7 @@ language: da
 | Websted | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [Kontakt-databasefeltet][2].
+For detaljer om værdien af hvert felt, se [databasereferencen][2].
 
 **Standardfaner:**
 
@@ -99,7 +99,7 @@ For detaljer om værdien af hvert felt, se [Kontakt-databasefeltet][2].
 | Websted | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [Person-databasefeltet][3].
+For detaljer om værdien af hvert felt, se [databasereferencen][3].
 
 **Standardfaner:**
 
@@ -138,7 +138,7 @@ For detaljer om værdien af hvert felt, se [Person-databasefeltet][3].
 | Synlig for | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [Salgs-databasefeltet][4].
+For detaljer om værdien af hvert felt, se [databasereferencen][4].
 
 **Standardfaner:**
 
@@ -169,7 +169,7 @@ For detaljer om værdien af hvert felt, se [Salgs-databasefeltet][4].
 | Websted | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [Projekt-databasefeltet][5].
+For detaljer om værdien af hvert felt, se [databasereferencen][5].
 
 **Standardfaner:**
 
@@ -232,7 +232,7 @@ For detaljer om værdien af hvert felt, se [Projekt-databasefeltet][5].
 | Titel | Tekst | |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
-For detaljer om værdien af hvert felt, se [databasefeltet Request][6].
+For detaljer om værdien af hvert felt, se [databasereferencen][6].
 
 **Standardfaner:**
 
@@ -265,7 +265,7 @@ For detaljer om værdien af hvert felt, se [databasefeltet Request][6].
 
 * Den højre kolonne skjules, hvis der ikke er deltagere.
 
-For detaljer om værdien af hvert felt, se [databasetabellen Appointment][7].
+For detaljer om værdien af hvert felt, se [databasereferencen][7].
 
 **Standardfaner:**
 
@@ -280,7 +280,7 @@ For detaljer om værdien af hvert felt, se [databasetabellen Appointment][7].
 * [Læs mere om salg][11]
 * [Læs mere om projekter][10]
 * [Læs mere om sager][14]
-* [Læs mere om opfølgninger][16]
+* [Læs mere om aftaler][16]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md

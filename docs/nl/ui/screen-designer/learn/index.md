@@ -2,9 +2,9 @@
 uid: help-nl-screen-designer
 title: Schermontwerper
 description: Kom te weten hoe u uw kaarten configureert in deze gids.
-keywords: schermontwerper
+keywords: Schermontwerper, interface, opmaak, lay-out, aanpassen
 author: Bergfrid Dias
-date: 10.03.2024
+date: 10.07.2024
 version: 10.2.11
 topic: concept
 audience: settings

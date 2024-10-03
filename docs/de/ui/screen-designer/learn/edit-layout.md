@@ -4,7 +4,7 @@ title: Hauptkartenlayout bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können.
 keywords: Ansichtsdesigner, Layout, Feld, Registerkarten-Layout
 author: Bergfrid Dias
-date: 10.01.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: de
 ---
 
-# Layout einer Karte bearbeiten
+# Hauptkartenlayout bearbeiten
 
 [!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
 
@@ -38,10 +38,14 @@ Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesig
 ## <a id="edit"></a>Kartenlayout bearbeiten
 
 1. Öffnen Sie den Ansichtsdesigner.
-2. Wählen Sie oben einen Bildschirm oder Dialog aus, den Sie anpassen möchten.
-3. Wählen Sie in der Liste links ein Layout aus.
-4. Klicken Sie unter der Vorschau auf **Layout bearbeiten**.
-5. Im Bildschirm **Kartenlayout bearbeiten** arbeiten Sie sich durch die Registerkarten der Ansicht.
+
+1. Wählen Sie oben einen Bildschirm oder Dialog aus, den Sie anpassen möchten.
+
+1. Wählen Sie in der Liste links ein Layout aus.
+
+1. Klicken Sie unter der Vorschau auf **Layout bearbeiten**.
+
+1. Im Bildschirm **Kartenlayout bearbeiten** arbeiten Sie sich durch die Registerkarten der Ansicht.
 
     * [Ein Feld hinzufügen, bearbeiten, verschieben oder entfernen][1]
     * [Link oder Schaltfläche hinzufügen][2]

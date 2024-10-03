@@ -1,10 +1,10 @@
 ---
 uid: help-da-screen-designer-assign-layout
-title: Assign layout to group or type
-description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization, layout, used by
+title: Tildel layout til gruppe eller type
+description: Sådan tildeler du et layout til en gruppe, salgstype, projekttype eller sagstype ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, tildel layout
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
 audience: settings

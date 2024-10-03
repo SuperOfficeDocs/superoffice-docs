@@ -2,14 +2,14 @@
 uid: help-en-screen-designer-button
 title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
-keywords: ui, screen, customization
+keywords: Screen designer, layout, button, link, label, A-Z
 author: Bergfrid Dias
-date: 09.23.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
-language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Add a button or link
@@ -121,7 +121,7 @@ Some settings depend on the selected action.
 
 [Learn more about CRMScript][2]
 
-## Shortcut (SoProtocol)
+### Shortcut (SoProtocol)
 
 * SoProtocol: The navigation and content part of the URL without the `superoffice:` prefix.
 

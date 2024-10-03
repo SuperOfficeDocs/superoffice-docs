@@ -2,10 +2,10 @@
 uid: help-nl-screen-designer-archive
 title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
-keywords: schermontwerper, sectietabblad, archief
+keywords: Schermontwerper, opmaak, sectietabblad, archief, tabblad
 author: Bergfrid Dias
-date: 10.02.2024
-version: 10
+date: 10.07.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -18,7 +18,7 @@ U kunt de opmaak aanpassen door sectietabbladen (ook wel archieven genoemd) toe 
 
 Het aanpassen van sectietabbladen gebeurt meestal om te voldoen aan de specifieke behoeften van verschillende gebruikersgroepen. U kunt een opmaak maken die is afgestemd op een specifieke gebruikersgroep, zodat de sectietabbladen relevante inhoud voor die groep tonen.
 
-![Voeg de naam toe aan de nieuwe sectietabblad/archief lay-out en selecteer de gebruikersgroep(en) waarvoor deze moet worden weergegeven -screenshot][img6]
+![Voeg de naam toe aan de nieuwe sectietabblad/archief opmaak en selecteer de gebruikersgroep(en) waarvoor deze moet worden weergegeven -screenshot][img6]
 
 ## Sectietabbladen begrijpen
 
@@ -26,7 +26,7 @@ Sectietabbladen, die zich onderaan de meeste SuperOffice CRM-schermen bevinden, 
 
 Bij het maken van een nieuw opmaak voor een gebruikersgroep, moet u overwegen welke gegevens zij het meest nodig hebben. Door archieven aan te passen, kunt u informatie filteren en prioriteren, waardoor gebruikers sneller kunnen vinden wat ze nodig hebben.
 
-## Archief-tabblad toevoegen
+## Sectietabbladen toevoegen
 
 U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Afhankelijk van het gekozen scherm kunt u een nieuw tabblad toevoegen met de inhoud: document, afspraak, product, project, projectlid, verkoop, belanghebbenden, verzoek, persoon en relatie.
 

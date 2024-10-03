@@ -1,10 +1,10 @@
 ---
-uid: help-de-screen-element-reference
-title: Reference
-description: Reference of elements available in the Screen Designer in Settings and maintenance.
-keywords: UI, screen, customization, Screen Designer, field
+uid: help-de-screen-designer-field-reference
+title: Referenz
+description: Referenz der im Ansichtsdesigner in Einstellungen und Verwaltung verfügbaren Elemente.
+keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Feld, Standardfeld, Registerkarte, Standardregisterkarte
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.6
 topic: reference
 audience: settings
@@ -47,7 +47,7 @@ language: de
 | Webseite | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Kontakt-Datenbanktabelle][2].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][2].
 
 **Standardregisterkarten:**
 
@@ -99,7 +99,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Kontakt-Datenbankt
 | Webseite | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Personen-Datenbanktabelle][3].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][3].
 
 **Standardregisterkarten:**
 
@@ -138,7 +138,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Personen-Datenbank
 | Sichtbar für | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Verkaufs-Datenbanktabelle][4].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][4].
 
 **Standardregisterkarten:**
 
@@ -169,7 +169,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Verkaufs-Datenbank
 | Webseite | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Projekt-Datenbanktabelle][5].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][5].
 
 **Standardregisterkarten:**
 
@@ -232,7 +232,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Projekt-Datenbankt
 | Titel | Text | |
 | Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Ticket-Datenbanktabelle][6].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][6].
 
 **Standardregisterkarten:**
 
@@ -240,7 +240,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Ticket-Datenbankta
 * Details
 * Änderungsprotokoll
 
-## Nachverfolgung
+## Folgeaufgabe
 
 **Standardfelder:**
 
@@ -265,7 +265,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Ticket-Datenbankta
 
 * Die rechte Spalte wird ausgeblendet, wenn keine Teilnehmer vorhanden sind.
 
-Weitere Details zu den Werten jedes Feldes finden Sie in der [Termindatenbanktabelle][7].
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz][7].
 
 **Standardregisterkarten:**
 
@@ -280,7 +280,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Termindatenbanktab
 * [Erfahren Sie mehr über Verkäufe][11]
 * [Erfahren Sie mehr über Projekte][10]
 * [Erfahren Sie mehr über Anfragen][14]
-* [Erfahren Sie mehr über Nachverfolgungen][16]
+* [Erfahren Sie mehr über Folgeaufgaben][16]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md

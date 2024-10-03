@@ -2,14 +2,14 @@
 uid: help-en-screen-designer-archive
 title: Working with section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
-keywords: screen designer, section tab, archive
+keywords: Screen designer, layout, section tab, archive
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.2.11
 topic: howto
-language: en
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Working with section tabs (archives)
@@ -67,7 +67,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 
 To modify an existing archive tab, select it and update the fields and settings in the **Tab** and **Settings** sections. You can also reposition the tab by dragging it.
 
-## Limitations
+### Limitations
 
 * Default tabs cannot be edited.
 

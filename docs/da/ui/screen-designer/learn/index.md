@@ -2,9 +2,9 @@
 uid: help-da-screen-designer
 title: Skærmdesigner
 description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i denne vejledning.
-keywords: skærmdesigner
+keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: Bergfrid Dias
-date: 01.02.2024
+date: 10.07.2024
 version: 10.2.11
 topic: concept
 audience: settings
@@ -26,7 +26,9 @@ language: da
 SuperOffice CRM leveres med standardlayouts for person-, virksomheds-, salgs-, projekt- og sagsskærme og opfølgningsdialogen. Dog har forskellige teams ofte forskellige informationsbehov. Ved at bruge skærmdesigneren kan du:
 
 * Oprette egne layouts, der er skræddersyet til arbejdsprocesserne og prioriteterne for specifikke brugergrupper (såsom salg, support, ledelse).
+
 * Forbedre effektiviteten ved at give dine teams hurtig adgang til den information, der er vigtigst for dem.
+
 * Fjerne unødvendige felter, tilføje nye og omorganisere information i logiske grupper ved hjælp af faner, kolonner og etiketter.
 
 For eksempel, hvis dit salgsteam fokuserer på kundeinteraktioner, kan du sikre, at kontaktoplysninger vises fremtrædende, mens mindre relevante felter flyttes til sekundære faner.
@@ -58,11 +60,11 @@ Du kan tilpasse følgende skærme og dialoger:
 
 Layouts i SuperOffice CRM styrer, hvordan information præsenteres for brugerne. Standardlayouts (system) anvendes på alle brugere, medmindre et brugerdefineret layout er oprettet og tildelt en specifik brugergruppe.
 
-* **Brugerdefinerede layouts**: Opret layouts, der er specifikt skræddersyet til behovene hos brugergrupper.
+* **Egne layouts:** Opret layouts, der er specifikt skræddersyet til behovene hos brugergrupper.
 
-* **Layouttildeling**: Layouts for salgs-, projekt- og sagsskærme kan yderligere tilpasses ved at tildele dem specifikke salgstyper, projekttyper og sagstyper.
+* **Layouttildeling:** Layouts for salgs-, projekt- og sagsskærme kan yderligere tilpasses ved at tildele dem specifikke salgstyper, projekttyper og sagstyper.
 
-* **Layoutstatus**: Layouts kan være i en *kladde* eller *udgivet* tilstand. Udgivne layouts er markeret med de tildelte brugergrupper/typer.
+* **Layoutstatus:** Layouts kan være i en *kladde* eller *udgivet* tilstand. Udgivne layouts er markeret med de tildelte brugergrupper/typer.
 
 ![Skærmdesigner kladdelayout -screenshot][img3]
 
@@ -75,15 +77,21 @@ Listen **Layouts** viser alle eksisterende layouts, inklusive en forhåndsvisnin
 For at begynde at tilpasse skærme:
 
 1. Åbn skærmdesigneren ved at klikke på ![icon][img2], vælge **Indstillinger og vedligeholdelse** og derefter vælge **Skærmdesigner** fra navigatoren.
+
 2. Træk og slip felter i editoren for at tilføje dem til dit layout.
+
 3. Klik på et felt for at flytte det eller opdatere dets indstillinger. De tilgængelige indstillinger afhænger af den valgte felttype.
 
 ### Layoutkomponenter
 
 * **Felter:** Viser alle datafelter, der er tilgængelige for det valgte skærmlayout. Brug filtre til hurtigt at finde specifikke felter.
+
 * **Elementer:** Indeholder ikke-databaserede elementer som etiketter, delere, links og knapper.
+
 * **Indstillinger:** Giver mulighed for at tilpasse udseendet og opførslen af det valgte felt.
+
 * **Fanelayout:** Giver muligheder for at arrangere felter og elementer i kolonner.
+
 * **Faner:** Kan tilføjes, omarrangeres eller slettes for at organisere information logisk.
 
 > [!NOTE]

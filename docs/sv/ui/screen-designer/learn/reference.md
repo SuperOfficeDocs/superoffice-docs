@@ -1,10 +1,10 @@
 ---
-uid: help-sv-screen-element-reference
-title: Reference
-description: Reference of elements available in the Screen Designer in Settings and maintenance.
-keywords: UI, screen, customization, Screen Designer, field
+uid: help-sv-screen-designer-field-reference
+title: Referens
+description: Referens över element som finns tillgängliga i Skärmdesignern i Inställningar och underhåll.
+keywords: Skärmdesigner, fält, flik, standardfält, standardflik
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.6
 topic: reference
 audience: settings
@@ -47,7 +47,7 @@ language: sv
 | Webbplats | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [Kontaktdatabastabellen][2].
+För detaljer om värdet av varje fält, se [databasreferencen][2].
 
 **Standardflikar:**
 
@@ -99,7 +99,7 @@ För detaljer om värdet av varje fält, se [Kontaktdatabastabellen][2].
 | Webbplats | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [Persondatabastabellen][3].
+För detaljer om värdet av varje fält, se [databasreferencen][3].
 
 **Standardflikar:**
 
@@ -138,7 +138,7 @@ För detaljer om värdet av varje fält, se [Persondatabastabellen][3].
 | Synlig för | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [Försäljningsdatabastabellen][4].
+För detaljer om värdet av varje fält, se [databasreferencen][4].
 
 **Standardflikar:**
 
@@ -169,7 +169,7 @@ För detaljer om värdet av varje fält, se [Försäljningsdatabastabellen][4].
 | Webbplats | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [Projektdatabastabellen][5].
+För detaljer om värdet av varje fält, se [databasreferencen][5].
 
 **Standardflikar:**
 
@@ -232,7 +232,7 @@ För detaljer om värdet av varje fält, se [Projektdatabastabellen][5].
 | Titel | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
-För detaljer om värdet av varje fält, se [Förfrågningsdatabastabellen][6].
+För detaljer om värdet av varje fält, se [databasreferencen][6].
 
 **Standardflikar:**
 
@@ -265,7 +265,7 @@ För detaljer om värdet av varje fält, se [Förfrågningsdatabastabellen][6].
 
 * Den högra kolumnen är dold om inga deltagare är närvarande.
 
-För detaljer om värdet av varje fält, se [Mötesdatabastabellen][7].
+För detaljer om värdet av varje fält, se [databasreferencen][7].
 
 **Standardflikar:**
 

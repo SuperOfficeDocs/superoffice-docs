@@ -1,10 +1,10 @@
 ---
-uid: help-no-screen-element-reference
+uid: help-no-screen-designer-field-reference
 title: Referanse
 description: Oversikt over felt tilgjengelig i Skjermdesigneren i Innstillinger of vedlikeholde.
-keywords: Skjermdesigner, brukergrensesnitt, layout, felt, standardfelt
+keywords: Skjermdesigner, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
-date: 09.04.2024
+date: 10.07.2024
 version: 10.3.6
 topic: reference
 audience: settings
@@ -47,7 +47,7 @@ language: no
 | Nettside | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [Kontakt-databasetabellen][2].
+For detaljer om verdien av hvert felt, se [databasereferansen][2].
 
 **Standardfaner:**
 
@@ -99,7 +99,7 @@ For detaljer om verdien av hvert felt, se [Kontakt-databasetabellen][2].
 | Nettside | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [Person-databasetabellen][3].
+For detaljer om verdien av hvert felt, se [databasereferansen][3].
 
 **Standardfaner:**
 
@@ -138,7 +138,7 @@ For detaljer om verdien av hvert felt, se [Person-databasetabellen][3].
 | Synlig for | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [Salgs-databasetabellen][4].
+For detaljer om verdien av hvert felt, se [databasereferansen][4].
 
 **Standardfaner:**
 
@@ -169,7 +169,7 @@ For detaljer om verdien av hvert felt, se [Salgs-databasetabellen][4].
 | Nettside | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [Prosjekt-databasetabellen][5].
+For detaljer om verdien av hvert felt, se [databasereferansen][5].
 
 **Standardfaner:**
 
@@ -232,7 +232,7 @@ For detaljer om verdien av hvert felt, se [Prosjekt-databasetabellen][5].
 | Tittel | Tekst | |
 | Tilpassede felt | | Både brukerdefinerte og ekstra |
 
-For detaljer om verdien av hvert felt, se [Billett-databasetabellen][6].
+For detaljer om verdien av hvert felt, se [databasereferansen][6].
 
 **Standardfaner:**
 
@@ -265,7 +265,7 @@ For detaljer om verdien av hvert felt, se [Billett-databasetabellen][6].
 
 * Høyre kolonne skjules hvis det ikke er deltakere.
 
-For detaljer om verdien av hvert felt, se [Avtale-databasetabellen][7].
+For detaljer om verdien av hvert felt, se [databasereferansen][7].
 
 **Standardfaner:**
 

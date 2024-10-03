@@ -1,10 +1,11 @@
 ---
 uid: help-de-screen-designer-archive
 title: Arbeiten mit Bereichsregisterkarten (Archive)
-description: Ansichtsdesigner Layout bearbeiten – Archive (Bereichsregisterkarten)
-keywords: Ansichtsdesigner, Bereichsregisterkarte, Archiv
+description: Ansichtsdesigner - arbeiten mit Bereichsregisterkarten (Archive)
+keywords: Ansichtsdesigner, Bereichsregisterkarte, Archiv, Layout bearbeiten, Layout, Archivlayout
 author: Bergfrid Dias
-date: 10.02.2024
+date: 10.07.2024
+version: 10.2.11
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +26,7 @@ Bereichsregisterkarten, die sich am unteren Rand der meisten SuperOffice CRM-Bil
 
 Wenn Sie ein neues Layout für eine Benutzergruppe erstellen, sollten Sie überlegen, welche Daten diese am dringendsten benötigen. Das Anpassen von Archiven ermöglicht es Ihnen, Informationen zu filtern und zu priorisieren, sodass Benutzer schneller finden, was sie benötigen.
 
-## Archiv-Registerkarte hinzufügen
+## Bereichsregisterkarten hinzufügen
 
 Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine neue Registerkarte hinzufügen. Je nach gewähltem Bildschirm können Sie eine neue Registerkarte mit folgenden Inhalten hinzufügen: Dokument, Termin, Produkt, Projekt, Projektmitglied, Verkauf, Verkaufsbeteiligter, Anfrage, Person und Beziehung.
 
@@ -68,7 +69,7 @@ Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine ne
 
 Um eine vorhandene Bereichsregisterkarte zu ändern, wählen Sie sie aus und aktualisieren die Felder und Einstellungen in den Bereich **Registerkarte** und **Einstellungen**. Sie können die Registerkarte auch durch Ziehen an eine andere Position verschieben.
 
-## Einschränkungen
+### Einschränkungen
 
 * Standardregisterkarten können nicht bearbeitet werden.
 

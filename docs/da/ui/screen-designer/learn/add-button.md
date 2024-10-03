@@ -1,10 +1,10 @@
 ---
 uid: help-da-screen-designer-button
 title: Tilføj en knap eller et link
-description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
-keywords: Skærmdesigner, ui, skærm, customization
+description: Sådan tilføjer du en knap eller et link til et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
+keywords: Skærmdesigner, layout, knap, link, etiket, A-Z
 author: Bergfrid Dias
-date: 09.30.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
 audience: settings
@@ -121,7 +121,7 @@ Nogle indstillinger afhænger af den valgte handling.
 
 [Læs mere om CRMScript][2]
 
-## Genvej (SoProtocol)
+### Genvej (SoProtocol)
 
 * SoProtocol: Den navigations- og indholdsdelen af URL'en uden præfikset `superoffice:`.
 
