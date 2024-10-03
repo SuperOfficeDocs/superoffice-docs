@@ -121,11 +121,9 @@ items:
       href: ../custom-objects/learn/toc.yml
       topicHref: ../custom-objects/learn/index.md
 
-    - name: Brukergrensesnitt
+    - name: Skjermdesigner
+      href: ../ui/screen-designer/learn/toc.yml
       topicHref: ../ui/screen-designer/learn/index.md
-      items:
-      - name: Skjermdesigner
-        href: ../ui/screen-designer/learn/toc.yml
 
     - name: Systemvalg
       href: ../admin/options/learn/toc.yml

@@ -121,7 +121,7 @@ conceptualContent:
       - text: Configurable screens - archives
         itemType: explore
         typeDesc: concept
-        url: ../ui/screen-designer/learn/edit-layout-archives.md
+        url: ../ui/screen-designer/learn/working-with-archives.md
 
     # Card
     - title: Search options

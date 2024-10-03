@@ -121,11 +121,9 @@ items:
       href: ../custom-objects/learn/toc.yml
       topicHref: ../custom-objects/learn/index.md
 
-    - name: Benutzeroberfläche
+    - name: Ansichtsdesigner
+      href: ../ui/screen-designer/learn/toc.yml
       topicHref: ../ui/screen-designer/learn/index.md
-      items:
-      - name: Ansichtsdesigner
-        href: ../ui/screen-designer/learn/toc.yml
 
     - name: Optionen
       href: ../admin/options/learn/toc.yml

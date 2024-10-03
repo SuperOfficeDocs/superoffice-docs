@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.28.2021
+  so.date: 09.04.2024
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -24,7 +24,7 @@ highlightedContent:
     - title: "Configurable screens"
       itemType: map
       typeDesc: overview
-      url: screen-designer/index.md
+      url: screen-designer/learn/index.md
     # Card
     - title: "Web application API"
       itemType: library_books
@@ -51,34 +51,34 @@ conceptualContent:
     - title: Configurable screens
       summary: "Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls."
       links:
-        - url: screen-designer/index.md
+        - url: screen-designer/learn/index.md
           itemType: explore
           typeDesc: concept
           text: Intro
         - text: Add a layout
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/add-layout.md
+          url: screen-designer/learn/add-layout.md
         - text: Edit the layout of a card
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/edit-card-layout.md
+          url: screen-designer/learn/edit-layout.md
         - text: Working with fields
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/working-with-fields.md
+          url: screen-designer/learn/working-with-fields.md
         - text: Add a link or button
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/add-button.md
+          url: screen-designer/learn/add-button.md
         - text: Working with tabs
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/working-with-tabs.md
-        - text: Assign layout to group or sale/project type
+          url: screen-designer/learn/working-with-tabs.md
+        - text: Assign layout to group or type
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/configurable-screens/assign-layout.md
+          url: screen-designer/learn/assign-layout.md
     # Card
     - title: Web panels
       summary: ""

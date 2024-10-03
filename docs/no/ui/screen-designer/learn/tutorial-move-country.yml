@@ -1,0 +1,58 @@
+### YamlMime:Tutorial
+uid: help-no-tutorial-country-before-address
+title: Tutorial - Flytt landfeltet til toppen
+metadata:
+  title: Tutorial - Flytt landfeltet til toppen
+  description: I denne veiledningen vil du lære hvordan du flytter landfeltet på en firma- eller personskjerm.
+  audience: Consultant
+  so.topic: tutorial
+  so.date: 10.07.2024
+  level: Intermediate
+items:
+- title: Formål
+  durationInMinutes: 1
+  stepNumber: 1
+  content: |
+    I SuperOffice formateres adresser basert på land og region.
+    For å oppmuntre brukerne til å velge land først, skal vi flytte dette feltet til toppen av **Firma**-skjermen.
+    Når du er ferdig, bør det se slik ut:
+
+    ![Firmakort -screenshot](../../../../media/loc/en/ui/tutorial-country-result.png)
+
+    [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+- title: Åpne Skjermdesigneren
+  durationInMinutes: 2
+  stepNumber: 2
+  content: |
+    1. Gå til **Innstillinger og vedlikehold**.
+    1. Velg **Skjermdesigner** fra navigasjonsfeltet.
+
+    ![Skjermdesigner -screenshot](../../../../media/loc/en/ui/open-screen-designer.png)
+- title: Åpne layouten i redigeringsmodus
+  durationInMinutes: 3
+  stepNumber: 3
+  content: |
+    1. Velg **Firma** øverst.
+    1. Velg fanen **Hovedkort** rett under.
+    1. Velg standardlayouten fra listen.
+    1. Klikk på **Rediger layout** nederst på skjermen.
+
+    ![Firmalayout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-before.png)
+- title: Oppdater feltene
+  durationInMinutes: 1
+  stepNumber: 4
+  content: |
+    1. Velg fanen **Firma** i forhåndsvisningen.
+    1. Klikk for å velge feltet **Land**.
+    1. Ta tak i **=** til venstre for feltetiketten, dra den til toppen av listen og slipp den i den nye posisjonen.
+
+        ![Firmalayout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-after.png)
+- title: Lagre, publiser og test resultatene
+  durationInMinutes: 1
+  stepNumber: 5
+  content: |
+    1. Klikk på **Lagre + Publiser**.
+    1. Logg ut av SuperOffice i en annen nettleserfane. Logg deretter inn igjen.
+    1. Gå til **Firma**-skjermen for å se resultatet.
+
+    Du vil kanskje gjøre det samme for **Person**-skjermen.

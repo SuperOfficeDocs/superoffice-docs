@@ -1,0 +1,58 @@
+### YamlMime:Tutorial
+uid: help-da-tutorial-country-before-address
+title: Tutorial - Flyt land-feltet frem
+metadata:
+  title: Tutorial - Flyt land-feltet frem
+  description: I denne tutorial lærer du, hvordan du flytter landfeltet på firma- eller personskærmen.
+  audience: Consultant
+  so.topic: tutorial
+  so.date: 10.07.2024
+  level: Intermediate
+items:
+- title: Formål
+  durationInMinutes: 1
+  stepNumber: 1
+  content: |
+    I SuperOffice formateres adresser baseret på land og region.
+    For at opmuntre brugerne til at vælge land først, flytter vi dette felt til toppen af **Firma**-skærmen.
+    Når du er færdig, skulle det se nogenlunde sådan ud:
+
+    ![Firmakort -screenshot](../../../../media/loc/en/ui/tutorial-country-result.png)
+
+    [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
+- title: Åbn Skærmdesigneren
+  durationInMinutes: 2
+  stepNumber: 2
+  content: |
+    1. Gå til **Indstillinger og vedligeholdelse**.
+    1. Vælg **Skærmdesigner** fra navigatoren.
+
+    ![Skærmdesigner -screenshot](../../../../media/loc/en/ui/open-screen-designer.png)
+- title: Åbn layoutet i redigeringstilstand
+  durationInMinutes: 3
+  stepNumber: 3
+  content: |
+    1. Vælg **Firma** øverst.
+    1. Vælg fanen **Hovedkort** lige under.
+    1. Vælg standardlayoutet fra listen.
+    1. Klik på **Rediger layout** nederst på skærmen.
+
+    ![Firmalayout i redigeringstilstand -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-before.png)
+- title: Opdater felterne
+  durationInMinutes: 1
+  stepNumber: 4
+  content: |
+    1. Vælg fanen **Firma** i forhåndsvisningen.
+    1. Klik for at vælge feltet **Land**.
+    1. Grib fat i **=** til venstre for feltets etiket, træk det til toppen af listen, og slip det i den nye position.
+
+        ![Firmalayout i redigeringstilstand -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-after.png)
+- title: Gem, udgiv og test resultaterne
+  durationInMinutes: 1
+  stepNumber: 5
+  content: |
+    1. Klik på **Gem + Udgiv**.
+    1. Log ud af SuperOffice i en anden browserfane. Log derefter ind igen.
+    1. Gå til **Firma**-skærmen for at se resultatet.
+
+    Du vil måske også gøre det samme for **Person**-skærmen.

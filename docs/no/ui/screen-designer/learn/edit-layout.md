@@ -1,170 +1,98 @@
 ---
 uid: help-no-screen-designer-edit-layout
-title: Redigere hovedkortlayout
+title: Rediger layouten til et kort
 description: I denne veiledningen lærer du hvordan du redigerer en layout.
-keywords: Skjermdesigner, format, felt, faneoppsett
+keywords: Skjermdesigner, layout, oppsett, format, felt, faneoppsett, hovedkort, kortlayout
 author: Bergfrid Dias
-date: 06.11.2024
+date: 10.07.2024
 version: 10.3.7
 topic: howto
-language: no
 audience: settings
 audience_tooltip: Settings and maintenance
+language: no
 ---
 
-# Redigere layout – Hovedkort
+# Rediger layouten til et kort
 
-Når du har [opprettet en ny layout][4], kan du tilpasse den i henhold til behovene til de tilordnede brukergruppene. Hvis du tilpasser en layout for salgsteamet, bør du ha en klar plan for hvilke behov de har med hensyn til layout og formatering av fanene, feltene, elementene og kolonnene i hovedkortet. Hvilken informasjon bør man kunne finne først og enklest? Trenger de alle felt og faner? Hva er den logiske rekkefølgen på feltene?
+[!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Tilpass layouten for hovedkortene og arkivene slik at den samsvarer med organisasjonens informasjonsbehov. Når du redigerer layouten på et hovedkort, kan du legge til og fjerne felt, eller omorganisere rekkefølgen slik at den passer til teamets behov. Først må du vite hvilken informasjon som er viktigst for teamet.
+Når du har [opprettet en ny layout][6], er det tid for tilpasning. Tilpass layouten for hovedkortene og arkivene slik at de dekker informasjonsbehovene i din organisasjon.
 
-Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere skjermbildene i SuperOffice CRM, eller følg trinn-for-trinn-veiledningen nedenfor (videolengde – 6:41):
+## Viktige hensyn
+
+Før du tilpasser en layout, bør du fastsette hvem de tiltenkte brukerne er.
+
+* Hva trenger de lett tilgang til?
+* Trenger de alle standardfelter og faner, eller bør du fjerne noe?
+* Trenger de flere faner?
+* Hva er den logiske rekkefølgen på feltene?
+
+> [!NOTE]
+> Du kan redigere **standardlayouten**, men du kan ikke endre standardkontrollinnstillingene og du kan ikke tilordne layouten til en brukergruppe på nytt.
+
+Se denne videoen og finn ut hvordan du bruker skjermdesigneren til å konfigurere skjermbildene i SuperOffice CRM, eller følg trinn-for-trinn-guiden nedenfor (videolengde - 6:41):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
 
-## Trinn
+## <a id="edit"></a>Rediger kortlayout
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to screen designer](includes/goto-screen-designer.md)]
-<!-- List starts in the include. Next line MUST be 3. -->
+1. Åpne Skjermdesigneren (i **Innstillinger og vedlikehold**).
+1. Velg en skjerm eller dialog øverst for å tilpasse.
+1. Velg **Hovedkort**.
+1. Velg en layout fra listen til venstre.
+1. Klikk **Rediger layout** under forhåndsvisningen.
+1. I skjermbildet **Rediger kortlayout**, gå gjennom fanene på skjermen.
 
-3. Klikk på **Hovedkort**.
-
-4. Velg en layout i listen til venstre.
-
-5. Klikk på **Rediger layout** under forhåndsvisningen.
-
-6. **Rediger kortlayout** redigerer du layouten som beskrevet nedenfor.
-
-7. Når du er ferdig, klikker du på en av følgende knapper:
-
-    * **Lagre utkast**: Klikk denne knappen hvis layouten ikke er ferdig ennå.
-    * **Lagre + Publiser**: Klikk denne knappen for å publisere layouten til de valgte brukergruppene.
-    * **Avbryt**: Klikk på denne knappen for å [forkaste alle endringer](#undo-changes).
-<!-- markdownlint-restore -->
-
-## Rediger eksisterende felt i layouten
-
-1. Velg fanen du vil redigere.
-
-2. Redigere eksisterende felt:
-
-    * Flytt felt ved å klikke ![ikon][img4] til venstre for en ledetekst og dra feltet til en ny posisjon. Hvis du vil legge til et nytt felt, se [Felt](#fields).
-
-    * Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Slettede felt kan legges til på nytt fra **Felt**-området. Obligatoriske felt kan ikke slettes, og **Slett**-knappen vises ikke for slike felt. Se [Felt](#fields).
-
-    * Rediger feltformatering (for eksempel skriftformat) og andre innstillinger ved å klikke på feltet. **Innstillinger** -området åpnes i venstre del av vinduet. Se [Innstillinger](#settings).
-
-3. [Endre antall kolonner i en fane](#columns) fra **Faneoppsett**-delen.
-
-4. Lagre endringene som beskrevet ovenfor.
+    * [Legg til, rediger, flytt eller fjern et felt][1]
+    * [Legg til kobling eller knapp][2]
+    * [Organiser informasjon i logiske grupper][4]
+    * [Legg til, fjern eller gjenopprett en fane][3]
+    * [Endre antall kolonner i en fane][5]<a id="columns"></a>
 
 ![Fjern, legg til og flytt de forskjellige feltene i layouten -screenshot][img3]
 
-## Legg til nytt innhold i en layout
+## <a id="save"></a>Lagre, publiser eller avbryt
 
-1. Velg fanen du vil redigere, eller klikk på ![ikon][img5] **Legg til** for å [legge til en ny fane](#tabs).
+Etter å ha redigert en layout, klikk på en av følgende knapper:
 
-2. Rediger layouten ved å velge ett av følgende områder:
-
-    * **Felt**: Dra [felt](#fields) fra listen til layouten. Felt kan plasseres i kolonnene, og i overskriften og bunnteksten.
-
-    * **Elementer**: Dra ulike elementer slik som etiketter, skillelinjer, koblinger og knapper til layouten.
-
-    * **Innstillinger**: Klikk på et felt eller element i layouten for å redigere innstillingene. De tilgjengelige innstillingene kan variere avhengig av det valgte objektet. Se [Innstillinger](#settings).
-
-    * **Faneoppsett**: [Velg hvor mange kolonner du vil vise i en fane](#columns).
-
-3. Når du har tilpasset skjermlayouten, klikker du en av følgende knapper:
-
-    * **Lagre utkast**: Klikk denne knappen hvis layouten ikke er ferdig ennå.
-    * **Lagre + Publiser**: Klikk denne knappen for å publisere layouten til de valgte brukergruppene.
-    * **Avbryt**: Klikk på denne knappen for å forkaste alle endringer.
-
-Bokser med prikkede linjer i layouten angir hvor du kan plassere et felt:
-
-![Bokser med stiplede linjer -screenshot][img6]
-
-Nedenfor finner du mer detaljerte beskrivelser av de ulike delene og funksjonene.
-
-## <a id="fields"></a>Felt
-
-I **Felt**-delen finner du alle tilgjengelige datafelt for den valgte skjermlayouten. Bruk filterfunksjonen til å finne bestemte felt.
-
-* Dra et felt fra listen til et prikket område i den valgte fanen.
-* Hvis du vil være sikker på at et felt alltid er synlig uansett hvilken kategori som er valgt, plasserer du feltet i overskriften eller bunnteksten.
-* Du kan eventuelt plassere det samme feltet flere steder i skjermlayouten.
-* Flytt felt ved å klikke ![ikon][img4] til venstre for en ledetekst og dra feltet til en ny posisjon. Hvis du vil flytte et felt til en annen kategori, drar du feltet til faneoverskriften for å åpne fanen, og deretter plasserer du feltet i den åpne fanen.
-* Slett felt ved å holde musepekeren over et felt og klikke ![ikon][img2]. Obligatoriske felt kan ikke slettes, og **Slett**-knappen vises ikke for slike felt.
-
-**Begrensninger:**
-
-* Obligatoriske felt kan ikke slettes. Dette defineres i [Felt][3]-bildet.
-* Noen faner kan ikke redigeres siden de har bestemte funksjoner, slik som **ERP** og **Merk**.
-
-## Elementer
-
-I **Elementer**-delen kan du legge til ulike ikke-dataelementer slik som etiketter, skillelinjer, koblinger og knapper.
-
-## <a id="settings"></a>Innstillinger
-
-Gjør felt mer synlige ved å endre til fet og stor skrift. Gjør plass til flere felt med mindre skrift. Spar skjermplass ved å skjule etiketter.
-
-Klikk på et felt eller element i oppsettet for å redigere innstillingene. Den tilgjengelige innstillingen vil variere avhengig av typen felt eller element.
-
-## <a id="columns"></a>Faneoppsett
-
-En kategori har to kolonner som standard, men du kan bruke alt fra 1–4 kolonner etter behov. Brukere med brede skjermer foretrekker kanskje flere kolonner for å vise og sortere mer data.
-
-**Begrensninger:**
-
-* Hvis du endrer fra 2–4 kolonner til én kolonne, flyttes alle feltene til én kolonne.
-* Bruker du fire kolonner, kan påvirke synligheten til enkelte felt. Du kan vurdere å skjule etikettene for enkelte felt (se [Innstillinger](#settings)).
-* Noen faner, for eksempel **ERP** og **Merk**, har ikke et kolonneoppsett siden de har bestemte funksjoner.
-* Hvis en bruker ikke har en skjermstørrelse som har plass til alle kolonnene, stables de oppå hverandre.
-
-## <a id="tabs"></a>Faner
-
-Legg til flere faner for flere felt, eller fjern irrelevante faner.
-
-**Slik fjerner du en fane:**
-
-1. Velg fanen, og klikk på **Oppgave** > **Fjern fane**.
-2. Klikk på **OK** i dialogboksen som vises.
-
-**Slik legger du til en ny fane:**
-
-1. Klikk på ![ikon][img5] **Legg til**. **Faneoppsett**-delen åpnes til venstre.
-2. Under **Fanenavn**, erstatter du teksten **Ny fane** med det nye fanenavnet.
-3. Du kan også [legge til fanenavnet på andre språk][2] ved å klikke på ![ikon][img1].
-4. Velg antall kolonner du vil bruke i den nye fanen.
-
-> [!TIP]
-> Hvis du vil gi nytt navn til fanen senere, velger du fanen og deretter **Faneoppsett**.
-
-**Begrensninger:**
-
-* Du kan ikke gi nytt navn til standardfanene.
-* Du kan ikke fjerne en fane som inneholder obligatoriske felt. Obligatoriske felt må først flyttes til en annen fane.
-* Hvis bare én fane gjenstår, kan du ikke slette den.
+| Knapp | Beskrivelse |
+|---|---|
+| Lagre utkast | Lagrer en upublisert versjon av layouten, som du kan fortsette å redigere senere eller be noen om å gjennomgå. |
+| Lagre + Publiser | Bruker layouten for de valgte brukergruppene **eller** salgs-/prosjekt-/sak-/oppfølgingstype. |
+| Avbryt | Forkaster alle endringer. |
 
 ## <a id="undo-changes"></a>Angre endringer
 
-Hvis du må gå tilbake til en tidligere versjon av skjermbildet, har du tilgang til følgende alternativer fra **Oppgave**-knappen:
+Hvis du trenger å gå tilbake til en tidligere versjon av skjermbildet, har du tilgang til følgende alternativer fra **Oppgave**-knappen:
 
-* **Tilbakestill fabrikkinnstillinger**: Dette alternativet sletter alle endringer og tilbakestiller skjermlayouten til standardlayoten levert av SuperOffice.
-* **Slett utkast**: Sletter alle endringer og tilbakestillinger til den publiserte versjonen av skjermlayouten.
+* **Tilbakestill fabrikkinnstillinger**: Dette alternativet forkaster alle endringer og tilbakestiller layouten til standardversjonen levert av SuperOffice.
+
+* **Gjenopprett faner**: Dette alternativet gjenoppretter alle tidligere fjernede faner.
+
+* **Slett utkast**: Dette alternativet forkaster alle ulagrede endringer og tilbakestiller layouten til den sist publiserte versjonen.
+
+## <a id="delete"></a>Slett layout
+
+Når en brukergruppebasert layout slettes, ser brukere i denne gruppen standard (system) layout.
+
+For å slette en layout:
+
+1. Velg layouten fra **Layouter**-listen.
+1. Klikk **Slett**.
+
+## Relatert innhold
+
+* [Arbeide med detaljkort (arkiv)][7]
 
 <!-- Referenced links -->
-[2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../custom-objects/learn/udef.md
-[4]: add-new-layout.md
+[1]: working-with-fields.md
+[2]: add-button.md
+[3]: working-with-tabs.md
+[4]: working-with-tabs.md#label
+[5]: working-with-tabs.md#columns
+[6]: add-layout.md
+[7]: working-with-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../../common/icons/delete-circle-red.png
-[img4]: ../../../../media/icons/criteria-move.png
-[img5]: ../../../../../common/icons/add-icon.png
 [img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png

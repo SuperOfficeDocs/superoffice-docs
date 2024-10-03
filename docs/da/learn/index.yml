@@ -121,7 +121,7 @@ conceptualContent:
       - text: Konfigurerbare skærme - arkiver
         itemType: explore
         typeDesc: concept
-        url: ../ui/screen-designer/learn/edit-layout-archives.md
+        url: ../ui/screen-designer/learn/working-with-archives.md
 
     # Card
     - title: Søgemuligheder
