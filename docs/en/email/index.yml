@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.28.2021
+  so.date: 09.17.2024
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -29,7 +29,7 @@ highlightedContent:
     - title: "SuperOffice for Outlook"
       itemType: map
       typeDesc: overview
-      url: superoffice-for-outlook/index.md
+      url: superoffice-for-outlook/learn/index.md
     # Card
     - title: "MailLink"
       itemType: map
@@ -66,17 +66,17 @@ additionalContent:
           - url: mailgun/dkim/index.md
             text: DKIM
           - url: mailgun/spf/index.md
-            text: SPF   
+            text: SPF
       # Card
       - title: SuperOffice for Outlook
         links:
-          - url: superoffice-for-outlook/index.md
+          - url: superoffice-for-outlook/learn/index.md
             text: Deployment overview
-          - url: superoffice-for-outlook/deploy-centrally.md
+          - url: superoffice-for-outlook/it/deploy.md
             text: Deploy centrally
-          - url: superoffice-for-outlook/deploy-office-add-in.md
+          - url: superoffice-for-outlook/learn/add.md
             text: Deploy office add-in
-          - url: superoffice-for-outlook/requirements.md
+          - url: superoffice-for-outlook/learn/requirements.md
             text: Requirements
       # Card
       - title: MailLink
