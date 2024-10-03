@@ -1,18 +1,18 @@
 ---
 uid: help-en-screen-designer-assign-layout
-title: Assign layout to group or type
+title: Assign layout to group, type, or template
 description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
 keywords: Screen designer, assign layout, layout
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Assign layout to group or type
+# Assign layout to group, type, or template
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
@@ -22,17 +22,18 @@ language: en
 
 1. At the top, select a screen or dialog to customize.
 
-1. Select assignment method (if not set): click the text next to **Assign layouts to**, and choose group or type.
+1. Select assignment method (if not set): click the text next to **Assign layouts to**, and choose group, type, or template.
 
     * Company and contact: user group only
     * Sale: user group or sale type
     * Project: user group or project type
     * Request: user group or request type
     * Follow-up: user group or follow-up type
+    * Document: user group or document template (pilot)
 
 1. Select a layout in the list on the left side.
 
-Click the **Assign to** field and select a group or type. Your options depend on the selected screen.
+1. Click the **Assign to** field and select a group, type, or template. Your options depend on the selected screen.
 
 ## Restrictions
 

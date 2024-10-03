@@ -5,7 +5,7 @@ description: Learn how to configure your screens and dialogs in this how-to guid
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.8
+version: 10.3.10
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,11 +38,17 @@ For example, if your sales team focuses on client interactions, you can ensure t
 With the Screen Designer, you can:
 
 * Modify the default layout of screens for all users or create custom layouts for specific user groups.
-* Design layouts optimized for specific project types, sale types, and request types.
+
+* Design layouts optimized for specific project types, sale types, request types, follow-up types or document templates.
+
 * Hide fields that are never used.
+
 * Emphasize key data by formatting fields (for example, bold or large font).
+
 * Add custom buttons and links to trigger automated processes (CRMScript) or external lookups.
+
 * Organize custom fields within the **More** tab or other custom tabs.
+
 * Add, rearrange, or remove tabs as needed.
 
 ## Which screens can i configure?
@@ -55,6 +61,7 @@ You can customize the following screens and dialogs:
 * Project
 * Request
 * Follow-up dialog
+* Document dialog (pilot)
 
 ## How do layouts work?
 
@@ -62,7 +69,7 @@ Layouts in SuperOffice CRM control how information is displayed to users. The de
 
 * **Custom layouts**: Create layouts specific to user groups to meet their unique needs.
 
-* **Layout assignment**: Layouts for the Sales, Project, and Request screens can be further refined by assigning them to specific sale types, project types, and request types, respectively.
+* **Layout assignment**: Layouts for the Sales, Project, and Request screens can be further refined by assigning them to specific sale types, project types, and request types, respectively. Similarly, the Follow-up dialog can be assigned to follow-up types and the Document dialog can be assigned to document templates.
 
 * **Layout status**: Layouts can be in a *draft* or *published* state. Published layouts are marked with the assigned user groups.
 

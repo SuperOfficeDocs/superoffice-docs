@@ -1,18 +1,18 @@
 ---
 uid: help-nl-screen-designer-assign-layout
-title: Opmaak toewijzen aan groep of type
+title: Opmaak toewijzen aan groep, type of sjabloon
 description: Hoe u een opmaak toewijst aan een groep, verkooptype, projecttype of verzoektype met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper, opmaak, opmaak toewijzen
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Opmaak toewijzen aan groep of type
+# Opmaak toewijzen aan groep, type of sjabloon
 
 [!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
 
@@ -22,17 +22,18 @@ language: nl
 
 1. Kies bovenaan een scherm of dialoogvenster dat u wilt aanpassen.
 
-1. Selecteer de toewijzingsmethode (indien niet ingesteld): klik op de tekst naast **Opmaken toewijzen aan** en kies groep of type.
+1. Selecteer de toewijzingsmethode (indien niet ingesteld): klik op de tekst naast **Opmaken toewijzen aan** en kies groep, type of sjabloon.
 
     * Bedrijf en persoon: alleen gebruikersgroep
     * Verkoop: gebruikersgroep of verkooptype
     * Project: gebruikersgroep of projecttype
     * Verzoek: gebruikersgroep of verzoektype
     * Vervolgactiviteit: gebruikersgroep of vervolgactiviteittype
+    * Document: gebruikersgroep of documentsjabloon (pilot)
 
 1. Selecteer een opmaak in de lijst aan de linkerkant.
 
-Klik op het veld **Toewijzen aan** en selecteer een groep of type. Uw opties zijn afhankelijk van het geselecteerde scherm.
+Klik op het veld **Toewijzen aan** en selecteer een groep, type of sjabloon. Uw opties zijn afhankelijk van het geselecteerde scherm.
 
 ## Beperkingen
 

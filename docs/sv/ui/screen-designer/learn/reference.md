@@ -5,7 +5,7 @@ description: Referens över element som finns tillgängliga i Skärmdesignern i 
 keywords: Skärmdesigner, fält, flik, standardfält, standardflik
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -272,6 +272,35 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 * Agenda
 * Interna anteckningar
 * Länkar
+* Mer
+
+## Dokument (i pilot från version 10.3.10)
+
+**Standardfält:**
+
+| Fält | Typ | Kommentar |
+|---|---|---|
+| Språk | Dropdown | Låst placering |
+| Datum | Datumväljare | Låst placering |
+| Synlig för | Dropdown | Inga alternativ |
+| Redigerad av/Låst av | Text | Låst placering |
+| Ämne | Text | Titel/huvudrubrik |
+| [Dokumentmall][22] | Dropdown | Låst placering |
+| Företag/Kontakt | Dropdown | Låst placering |
+| Försäljning | Dropdown | |
+| Projekt | Dropdown | |
+| Vår ref / Din ref | Text | |
+| Flikrad | | Låst placering |
+| Dokument | | Låst placering |
+| Slutförd | Kryssruta | |
+
+För detaljer om värdet av varje fält, se [databasreferencen][23].
+
+**Standardflikar:**
+
+* Detaljer
+* Länkar
+* Mer
 
 ## Relaterat innehåll
 
@@ -281,6 +310,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 * [Läs mer om projekt][10]
 * [Läs mer om förfrågningar][14]
 * [Läs mer om händelser][16]
+* [Läs mer om dokument][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

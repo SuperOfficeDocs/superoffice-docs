@@ -5,7 +5,7 @@ description: How to add a screen layout using the Screen Designer in Settings an
 keywords: Screen designer, layout, main card
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: en
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
-Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request, and follow-up types, start by adding a new layout for a screen in the Screen Designer.
+Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request, and follow-up types or document templates, start by adding a new layout for a screen in the Screen Designer.
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
@@ -35,7 +35,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
     To create a layout for an archive, see [Working with section tabs][2].
 
-1. [Select assignment method][6] (if not set): click the text next to **Assign layouts to**, and choose group or type.
+1. [Select assignment method][6] (if not set): click the text next to **Assign layouts to**, and choose group, type, or template.
 
 1. Under **Layouts**, click **Add**.
 
@@ -47,10 +47,10 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
     ![Set correct name and the user groups to use this layout -screenshot][img2]
 
-1. Click the **Assign to** field and assign the new layout to one or more user groups **or** sale/project/request/follow-up type.
+1. Click the **Assign to** field and assign the new layout to one or more user groups **or** sale/project/request/follow-up type **or** document template.
 
     > [!NOTE]
-    > Only groups/types currently using the default layout are shown.
+    > Only groups/types/templates currently using the default layout are shown.
 
 1. Click **OK**.
 

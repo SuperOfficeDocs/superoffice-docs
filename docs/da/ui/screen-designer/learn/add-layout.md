@@ -5,19 +5,18 @@ description: Sådan tilføjes et nyt layout for en brugergruppe.
 keywords: Skærmdesigner, layout, udseende, layout, skærmlayout, hovedkort
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 ---
 
-
 # Tilføj layout
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller designer et layout optimeret til specifikke projekt-, salgs-, sag- og opfølgningstyper, skal du starte med at tilføje et nyt layout til en skærm i Skærmdesigneren.
+Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller designer et layout optimeret til specifikke projekt-, salgs-, sag- og opfølgningstyper eller dokumentskabeloner, skal du starte med at tilføje et nyt layout til en skærm i Skærmdesigneren.
 
 Med tilpassede skærmlayouts til hvert af dine teams vil det blive nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at rydde op på skærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm for dine teams at arbejde i.
 
@@ -36,7 +35,7 @@ Se denne video og find ud af, hvordan du tilføjer et nyt layout, eller følg tr
 
     For at oprette et layout til et arkiv, se [Arbejde med detaljekort][2].
 
-1. [Vælg tildelingsmetode][6] (hvis ikke indstillet): klik på teksten ved siden af **Tildel layout til**, og vælg gruppe eller type.
+1. [Vælg tildelingsmetode][6] (hvis ikke indstillet): klik på teksten ved siden af **Tildel layout til**, og vælg gruppe, type, eller skabelon.
 
 1. Klik på **Tilføj** under **Layouts**.
 
@@ -48,10 +47,10 @@ Se denne video og find ud af, hvordan du tilføjer et nyt layout, eller følg tr
 
     ![Angiv det korrekte navn og de brugergrupper, der skal bruge dette layout -screenshot][img2]
 
-1. Klik på feltet **Tildel til**, og tildel det nye layout til en eller flere brugergrupper **eller** salgs-/projekt-/sags-/opfølgningstyper.
+1. Klik på feltet **Tildel til**, og tildel det nye layout til en eller flere brugergrupper **eller** salgs-/projekt-/sags-/opfølgningstyper **eller** dokumentskabeloner.
 
     > [!NOTE]
-    > Kun grupper/typer, der i øjeblikket bruger standardlayoutet, vises.
+    > Kun grupper/typer/skabeloner, der i øjeblikket bruger standardlayoutet, vises.
 
 1. Klik på **OK**.
 

@@ -5,7 +5,7 @@ description: Så här lägger du till en ny layout för en användargrupp.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, huvudkort, anpassa skärmlayout
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: sv
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Oavsett om du lägger till en personlig vy för en utvald användargrupp eller designar en layout optimerad för specifika projekt-, försäljnings-, ärende- och händelsestyper, börjar du med att lägga till en ny layout för en skärm i Skärmdesignern.
+Oavsett om du lägger till en personlig vy för en utvald användargrupp eller designar en layout optimerad för specifika projekt-, försäljnings-, ärende- och händelsestyper eller dokumentmallar, börjar du med att lägga till en ny layout för en skärm i Skärmdesignern.
 
 Med anpassade skärmlayouter för varje av dina team kommer det att bli enklare än någonsin att hitta kunddata. De mest relevanta uppgifterna kommer alltid att vara tillgängliga och synliga. Ta bort, flytta eller dölj irrelevanta eller mindre viktiga data för att städa upp på skärmarna. Lägg till anpassade arkiv med de mest relevanta uppgifterna för dina team. Resultatet blir en renare och mer organiserad skärm för dina team att arbeta i.
 
@@ -35,7 +35,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 
     För att skapa en layout för ett arkiv, se [Arbeta med detaljkort (arkiv)][2].
 
-1. [Välj tilldelningsmetod][6] (om inte inställt): klicka på texten bredvid **Tilldela layouter till**, och välj grupp eller typ.
+1. [Välj tilldelningsmetod][6] (om inte inställt): klicka på texten bredvid **Tilldela layouter till**, och välj grupp, typ eller mall.
 
 1. Under **Layouter**, klicka på **Lägg till**.
 
@@ -47,10 +47,10 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 
     ![Ange rätt namn och de användargrupper som ska använda detta layout -screenshot][img2]
 
-1. Klicka på fältet **Tilldela till** och tilldela den nya layouten till en eller flera användargrupper **eller** försäljnings-/projekt-/ärende-/händelsestyper.
+1. Klicka på fältet **Tilldela till** och tilldela den nya layouten till en eller flera användargrupper **eller** försäljnings-/projekt-/ärende-/händelsestyper **eller** dokumentmallar.
 
     > [!NOTE]
-    > Endast grupper/typer som för närvarande använder standardlayouten visas.
+    > Endast grupper/typer/mallar som för närvarande använder standardlayouten visas.
 
 1. Klicka på **OK**.
 

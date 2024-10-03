@@ -39,7 +39,7 @@ Mit dem Ansichtsdesigner können Sie:
 
 * Das Standardlayout von Ansichten für alle Benutzer ändern oder benutzerdefinierte Layouts für bestimmte Benutzergruppen erstellen.
 
-* Layouts erstellen, die auf bestimmte Projekttypen, Verkaufstypen und Anfragetypen optimiert sind.
+* Layouts erstellen, die auf bestimmte Projekttypen, Verkaufstypen, Anfragetypen, Folgeaufgabetypen, oder Dokumentvorlagen optimiert sind.
 
 * Felder ausblenden, die nie verwendet werden.
 
@@ -61,6 +61,7 @@ Sie können die folgenden Ansichte und Dialoge anpassen:
 * Projekt
 * Anfrage
 * Folgeaufgabedialog
+* Dokumentdialog (Pilot)
 
 ## Wie funktionieren Layouts?
 
@@ -68,7 +69,7 @@ Layouts in SuperOffice CRM steuern, wie Informationen für Benutzer angezeigt we
 
 * **Eigene Layouts**: Erstellen Sie Layouts, die speziell auf die Bedürfnisse von Benutzergruppen abgestimmt sind.
 
-* **Layout-Zuweisung**: Layouts für die Verkaufs-, Projekt- und Anfrageseiten können weiter verfeinert werden, indem sie bestimmten Verkaufstypen, Projekttypen und Anfragetypen zugewiesen werden.
+* **Layout-Zuweisung**: Layouts für die Verkaufs-, Projekt- und Anfrageseiten können weiter verfeinert werden, indem sie bestimmten Verkaufstypen, Projekttypen und Anfragetypen zugewiesen werden. Ebenso kann der Folgeaufgabedialog den Folgeaufgabetypen und der Dokumentdialog den Dokumentvorlagen zugewiesen werden.
 
 * **Layout-Status**: Layouts können sich im *Entwurf* oder *veröffentlicht* Zustand befinden. Veröffentlichten Layouts sind die zugewiesenen Benutzergruppen zugeordnet.
 

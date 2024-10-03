@@ -39,7 +39,7 @@ Med Skjermdesigneren kan du:
 
 * Endre standardlayout for skjermer for alle brukere eller opprette tilpassede layouter for spesifikke brukergrupper.
 
-* Designe layouter som er optimalisert for spesifikke prosjekttyper, salgstyper og sakstyper.
+* Designe layouter som er optimalisert for spesifikke prosjekttyper, salgstyper, sakstyper, oppfølgingstyper, eller dokumentmaler.
 
 * Skjule felt som aldri brukes.
 
@@ -61,6 +61,7 @@ Du kan tilpasse følgende skjermer og dialoger:
 * Prosjekt
 * Sak
 * Oppfølgingsdialog
+* Dokumentdialog (pilot)
 
 ## Hvordan fungerer layouter?
 
@@ -68,7 +69,7 @@ Layouter i SuperOffice CRM styrer hvordan informasjon vises for brukerne. Standa
 
 * **Tilpassede layouter**: Lag layouter som er spesifikke for brukergruppenes unike behov.
 
-* **Tilordning av layouter**: Layouter for salgs-, prosjekt- og saksskjermene kan ytterligere tilpasses ved å tilordne dem til spesifikke salgstyper, prosjekttyper og sakstyper.
+* **Tilordning av layouter**: Layouter for salgs-, prosjekt- og saksskjermene kan ytterligere tilpasses ved å tilordne dem til spesifikke salgstyper, prosjekttyper og sakstyper. På samme måte kan Oppfølgingsdialogen tildeles oppfølgingstyper, og Dokumentdialogen kan tildeles dokumentmaler.
 
 * **Layoutstatus**: En layout kan være et *utkast* eller *publisert*. Publiserte layouter er merket med de tildelte brukergruppene eller type.
 

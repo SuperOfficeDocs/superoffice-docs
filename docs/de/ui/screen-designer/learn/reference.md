@@ -5,7 +5,7 @@ description: Referenz der im Ansichtsdesigner in Einstellungen und Verwaltung ve
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Feld, Standardfeld, Registerkarte, Standardregisterkarte
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -272,6 +272,35 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 * Agenda
 * Interne Notizen
 * Links
+* Mehr
+
+## Dokument (im Pilotbetrieb ab Version 10.3.10)
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Sprache | Dropdown | Platzierung gesperrt |
+| Datum | Datumsauswahl | Platzierung gesperrt |
+| Sichtbar für | Dropdown | Keine Optionen |
+| Bearbeitet von/Gesperrt von | Text | Platzierung gesperrt |
+| Betreff | Text | Der Titel/Überschrift |
+| [Dokumentvorlage][22] | Dropdown | Platzierung gesperrt |
+| Firma/Kontakt | Dropdown | Platzierung gesperrt |
+| Verkauf | Dropdown | |
+| Projekt | Dropdown | |
+| Unsere Ref / Ihre Ref | Text | |
+| Tab-Leiste | | Platzierung gesperrt |
+| Dokument | | Platzierung gesperrt |
+| Abgeschlossen | Checkbox | |
+
+Für Details zum Wert jedes Feldes siehe [Datenbankreferenz][23].
+
+**Standardregisterkarten:**
+
+* Details
+* Links
+* Mehr
 
 ## Verwandte Themen
 
@@ -281,6 +310,7 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 * [Erfahren Sie mehr über Projekte][10]
 * [Erfahren Sie mehr über Anfragen][14]
 * [Erfahren Sie mehr über Folgeaufgaben][16]
+* [Erfahren Sie mehr über Dokumente][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ Weitere Details zu den Werten jedes Feldes finden Sie in der [Datenbankreferenz]
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

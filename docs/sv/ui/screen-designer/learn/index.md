@@ -38,7 +38,7 @@ Om till exempel ditt försäljningsteam fokuserar på kundinteraktioner, kan du 
 Med Skärmdesignern kan du:
 
 * Ändra standardlayouten för skärmar för alla användare eller skapa anpassade layouter för specifika användargrupper.
-* Designa layouter som är optimerade för specifika projekttyper, försäljningstyper och ärendetyper.
+* Designa layouter som är optimerade för specifika projekttyper, försäljningstyper, ärendetyper, hëndelsestyper, eller dokumentmallar.
 * Dölja fält som aldrig används.
 * Framhäva viktiga data genom att formatera fält (t.ex. fetstil eller stor text).
 * Lägga till knappar och länkar för att trigga automatiserade processer (CRMScript) eller externa uppslag.
@@ -55,6 +55,7 @@ Du kan anpassa följande skärmar och dialoger:
 * Projekt
 * Ärende
 * Händelsesdialog
+* Dokumentdialog (pilot)
 
 ## Hur fungerar layouter?
 
@@ -62,7 +63,7 @@ Layouter i SuperOffice CRM styr hur information presenteras för användarna. St
 
 * **Anpassade layouter**: Skapa layouter som är specifikt anpassade till användargruppers unika behov.
 
-* **Layouttilldelning**: Layouter för försäljnings-, projekt- och ärendeskärmarna kan ytterligare anpassas genom att tilldela dem specifika försäljningstyper, projekttyper och ärendetyper.
+* **Layouttilldelning**: Layouter för försäljnings-, projekt- och ärendeskärmarna kan ytterligare anpassas genom att tilldela dem specifika försäljningstyper, projekttyper och ärendetyper. På samma sätt kan Händelsesdialogen tilldelas händelsestyper, och Dokumentdialogen kan tilldelas dokumentmallar.
 
 * **Layoutstatus**: Layouter kan vara i *utkast* eller *publicerat* tillstånd. Publicerade layouter är markerade med de tilldelade användargrupperna/typer.
 

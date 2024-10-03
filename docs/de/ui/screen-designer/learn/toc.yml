@@ -15,7 +15,7 @@ items:
   href: working-with-archives.md
 - name: Schaltfläche/Link hinzufügen
   href: add-button.md
-- name: Layout Gruppe/Typ zuweisen
+- name: Layout zu Gruppe/Typ/Vorlage zuweisen
   href: assign-layout.md
 - name: Feldreferenz
   href: reference.md

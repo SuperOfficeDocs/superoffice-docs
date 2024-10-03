@@ -5,7 +5,7 @@ description: Slik legger du til et nytt oppsett for en brukergruppe ved hjelp av
 keywords: Skjermdesigner, skjermlayout, layout, oppsett, format, hovedkort
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: no
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
-Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
+Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper eller dokumentmaler, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
 
 Med tilpassede skjermlayouts for hvert av teamene dine vil det bli enklere enn noensinne å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbilden. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet vil være en renere og mer ryddig skjerm for teamene dine å jobbe i.
 
@@ -35,7 +35,7 @@ Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trin
 
     For å opprette layout for et arkiv, se [Arbeide med detaljkort][2].
 
-1. [Velg tildelingsmetode][6] (hvis ikke satt): klikk på teksten ved siden av **Tilordne oppsett til**, og velg gruppe eller type.
+1. [Velg tildelingsmetode][6] (hvis ikke satt): klikk på teksten ved siden av **Tilordne oppsett til**, og velg gruppe, type eller dokumentmal.
 
 1. Under **Tilordne** klikker du på **Legg til**.
 
@@ -47,10 +47,10 @@ Se denne videoen og finn ut hvordan du legger til en ny layout, eller følg trin
 
     ![Angi riktig navn og brukergruppene som skal bruke denne layouten -screenshot][img2]
 
-1. Klikk på feltet **Tilordne**, og tilordne den nye layouten til en eller flere brukergrupper **eller** salgs-/prosjekt-/saks-/oppfølgingstyper.
+1. Klikk på feltet **Tilordne**, og tilordne den nye layouten til en eller flere brukergrupper **eller** salgs-/prosjekt-/saks-/oppfølgingstyper **eller** dokumentmaler.
 
     > [!NOTE]
-    > Bare grupper/typer som for øyeblikket bruker standardlayouten, vises.
+    > Bare grupper/typer/maler som for øyeblikket bruker standardlayouten, vises.
 
 1. Klikk på **OK**.
 

@@ -5,7 +5,7 @@ description: Referentie van elementen beschikbaar in de Schermontwerper in Inste
 keywords: Schermontwerper, opmaak, veld, standaardveld, tabblad, standaardtabblad
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -272,6 +272,35 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 * Agenda
 * Interne notities
 * Links
+* Meer
+
+## Document (in pilot vanaf versie 10.3.10)
+
+**Standaardvelden:**
+
+| Veld | Type | Opmerking |
+|---|---|---|
+| Taal | Dropdown | Vergrendelde plaatsing |
+| Datum | Datumkiezer | Vergrendelde plaatsing |
+| Zichtbaar voor | Dropdown | Geen opties |
+| Bewerkt door/Geblokkeerd door | Tekst | Vergrendelde plaatsing |
+| Onderwerp | Tekst | Titel/kop |
+| [Documentsjabloon][22] | Dropdown | Vergrendelde plaatsing |
+| Bedrijf/Contactpersoon | Dropdown | Vergrendelde plaatsing |
+| Verkoop | Dropdown | |
+| Project | Dropdown | |
+| Onze ref / Uw ref | Tekst | |
+| Tab-balk | | Vergrendelde plaatsing |
+| Document | | Vergrendelde plaatsing |
+| Voltooid | Checkbox | |
+
+Voor details over de waarde van elk veld, zie [databasereferentie][23].
+
+**Standaardtabbladen:**
+
+* Details
+* Koppelingen
+* Meer
 
 ## Gerelateerde inhoud
 
@@ -281,6 +310,7 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 * [Meer informatie over projecten][10]
 * [Meer informatie over verzoeken][14]
 * [Meer informatie over vervolgactiviteiten][16]
+* [Meer informatie over dokument][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md
