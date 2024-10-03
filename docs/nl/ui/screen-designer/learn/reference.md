@@ -284,18 +284,18 @@ Voor meer details over de waarde van elk veld, zie de [databasereferentie][7].
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
-[2]: ../../../database/tables/contact.md
-[3]: ../../../database/tables/person.md
-[4]: ../../../database/tables/sale.md
-[5]: ../../../database/tables/project.md
-[6]: ../../../database/tables/ticket.md
-[7]: ../../../database/tables/appointment.md
-[11]: ../../../sale/overview.md
-[10]: ../../../project/overview.md
+[2]: ../../../../en/database/tables/contact.md
+[3]: ../../../../en/database/tables/person.md
+[4]: ../../../../en/database/tables/sale.md
+[5]: ../../../../en/database/tables/project.md
+[6]: ../../../../en/database/tables/ticket.md
+[7]: ../../../../en/database/tables/appointment.md
+[11]: ../../../../en/sale/overview.md
+[10]: ../../../../en/project/overview.md
 [13]: ../../../request/learn/type/index.md
-[14]: ../../../request/overview.md
+[14]: ../../../../en/request/overview.md
 [15]: ../../../diary/learn/invitation/add-attendee.md#availability
 [16]: ../../../diary/learn/follow-ups.md
-[17]: ../../../company/interests.md
-[18]: ../../../company/category-list.md
-[20]: ../../../globalization-and-localization/address/index.md
+[17]: ../../../../en/company/interests.md
+[18]: ../../../../en/company/category-list.md
+[20]: ../../../../en/globalization-and-localization/address/index.md

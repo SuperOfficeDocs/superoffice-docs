@@ -114,8 +114,8 @@ By customizing the screen layouts with the Screen Designer, you can eliminate un
 [1]: edit-layout.md
 [2]: add-layout.md
 [3]: working-with-archives.md
-[4]: learn/working-with-fields.md
-[9]: ../web-app/pagebuilder/index.md
+[4]: working-with-fields.md
+[9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
