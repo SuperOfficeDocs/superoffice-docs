@@ -82,7 +82,7 @@ För att radera en layout:
 
 ## Relaterat innehåll
 
-* [Arbeta med avsnittsflikar (arkiv)][7]
+* [Arbeta med detaljkort (arkiv)][7]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md

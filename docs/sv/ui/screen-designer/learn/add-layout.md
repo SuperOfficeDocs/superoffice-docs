@@ -33,7 +33,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 
 1. Välj **Huvudkort**.
 
-    För att skapa en layout för ett arkiv, se [Arbeta med avsnittsflikar][2].
+    För att skapa en layout för ett arkiv, se [Arbeta med detaljkort (arkiv)][2].
 
 1. [Välj tilldelningsmetod][6] (om inte inställt): klicka på texten bredvid **Tilldela layouter till**, och välj grupp eller typ.
 
@@ -65,7 +65,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
     * [Lägg till, redigera, flytta eller ta bort ett fält][1]
     * [Lägg till kobling eller knapp][5]
     * [Lägg till, ta bort eller återställ en flik][3]
-    * [Lägg till eller ta bort en avsnittsflik (arkiv)][2]
+    * [Lägg till eller ta bort entt detaljkort (arkiv)][2]
 
 3. När du är klar, spara eller publicera layouten.
 

@@ -6,7 +6,7 @@ metadata:
   description: I denne veiledningen vil du lære hvordan du flytter landfeltet på en firma- eller personskjerm.
   audience: Consultant
   so.topic: tutorial
-  so.date: 10.14.2022
+  so.date: 10.02.2024
   level: Intermediate
 items:
 - title: Formål
@@ -37,7 +37,7 @@ items:
     1. Velg standardlayouten fra listen.
     1. Klikk på **Rediger layout** nederst på skjermen.
 
-    ![Firma layout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-before.png)
+    ![Firmalayout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-before.png)
 - title: Oppdater feltene
   durationInMinutes: 1
   stepNumber: 4
@@ -46,7 +46,7 @@ items:
     1. Klikk for å velge feltet **Land**.
     1. Ta tak i **=** til venstre for feltetiketten, dra den til toppen av listen og slipp den i den nye posisjonen.
 
-        ![Firma layout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-after.png)
+        ![Firmalayout i redigeringsmodus -screenshot](../../../../media/loc/en/ui/tutorial-country-layout-after.png)
 - title: Lagre, publiser og test resultatene
   durationInMinutes: 1
   stepNumber: 5

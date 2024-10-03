@@ -1,0 +1,301 @@
+---
+uid: help-de-screen-element-reference
+title: Reference
+description: Reference of elements available in the Screen Designer in Settings and maintenance.
+keywords: UI, screen, customization, Screen Designer, field
+author: Bergfrid Dias
+date: 09.04.2024
+version: 10.3.6
+topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
+language: de
+---
+
+# Referenz
+
+## Firma
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| [Adresse][20] | Adresse | Wird im erweiterten Modus angezeigt |
+| Branche | Text | |
+| [Kategorie][18] | Text | |
+| Code | Text | |
+| Firmenname | Text | |
+| Land | Text | |
+| Abteilung | Text | |
+| E-Mail | Text | |
+| ERP | ERP | Keine Optionen. Konfiguriert unter **Einstellungen und Verwaltung** > **ERP**. |
+| Fax | Text | |
+| [Interessen][17] | Interessen | Keine Optionen |
+| Letzte Änderung | Datum | |
+| Hauptkontakt | Text | |
+| Keine Mailings | Kontrollkästchen | |
+| Notiz | Textfeld | |
+| Nummer | Text | |
+| Unser Kontakt | Text | |
+| Unser Servicekontakt | Text | |
+| Telefon | Text | |
+| Priorität | Text | |
+| Registrierungsdatum | Datum | |
+| Einzelnes Interesse | Kontrollkästchen | Interesse aus der Liste auswählen |
+| Stopp | Kontrollkästchen | |
+| USt.-Nr. | Text | |
+| Webseite | Text | |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Kontakt-Datenbanktabelle][2].
+
+**Standardregisterkarten:**
+
+* Firma
+* Mehr
+* Interessen
+* Notiz
+
+## Kontakt
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Akademischer Titel | Text | |
+| [Adresse][20] | Adresse | Wird im erweiterten Modus angezeigt |
+| Geburtsdatum | Text | |
+| Branche | Text | |
+| Kategorie | Text | |
+| Chat | Text | |
+| Firma | Text | |
+| Land | Text | |
+| Durchwahl | Text | |
+| E-Mail | Text | |
+| ERP | ERP | Keine Optionen. Konfiguriert unter **Einstellungen und VerWaltung** > **ERP**. |
+| Fax | Text | |
+| Vorname | Text | |
+| Ehemaliger Mitarbeiter | Kontrollkästchen | |
+| [Interessen][17] | Interessen | Keine Optionen |
+| Internet-Telefon | Text | |
+| Letzte Änderung | Datum | |
+| Nachname | Text | |
+| Zweitname | Text | |
+| Handy | Text | |
+| Herr/Frau | Text | |
+| Notiz | Textfeld | |
+| Nummer | Text | |
+| Unser Kontakt | Text | |
+| Unser Servicekontakt | Text | |
+| Position | Text | |
+| Bevorzugte Sprache | Auswahl | |
+| Privat | Text | |
+| Registrierungsdatum | Datum | |
+| Servicepriorität | Text | |
+| Einzelnes Interesse | Kontrollkästchen | Interesse aus der Liste auswählen |
+| Abonnement | | |
+| Titel | Text | |
+| Als Postadresse verwenden | Kontrollkästchen | |
+| Webseite | Text | |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Personen-Datenbanktabelle][3].
+
+**Standardregisterkarten:**
+
+* Kontakt
+* Details
+* Mehr
+* Interessen
+* Notiz
+
+## Verkauf
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Firma | Dropdown | |
+| Konkurrent | Dropdown | |
+| Kontakt | Dropdown | |
+| Gutschrift | Dropdown | |
+| Beschreibung | Textfeld | Anzahl der Zeilen auswählen. Hat kein Label |
+| Letzte Änderung | Datum | |
+| Links | Links | Keine Optionen |
+| Nummer | Text | |
+| Besitzer | Dropdown | |
+| Wahrscheinlichkeit | Text | Rechtsbündiger Prozentwert |
+| Gewinn | Nummer | Prozent und Betrag |
+| Projekt | Dropdown | |
+| Registrierungsdatum | Datum | |
+| Verkaufsdatum | Datumsauswahl | |
+| Verkaufstyp | Dropdown | |
+| Verkäufe | Text | |
+| Quelle | Dropdown | |
+| Phase | Dropdown | |
+| Phase - Arbeitsablauf | Mehrzeiliger Text | Keine Optionen |
+| Gesamtkosten | Nummer | Rechtsbündiger Betrag |
+| Sichtbar für | Text | |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Verkaufs-Datenbanktabelle][4].
+
+**Standardregisterkarten:**
+
+* Verkauf
+* Details
+* Mehr
+* Links
+* Notiz
+
+## Projekt
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Beschreibung | Textfeld | Anzahl der Zeilen auswählen. Hat kein Label |
+| Enddatum | Datumsauswahl | |
+| ERP | ERP | Keine Optionen. Konfiguriert unter **Einstellungen und Verwaltung** > **ERP**. |
+| Letzte Änderung | Datum | |
+| Nächster Meilenstein | | |
+| Nummer | Text | |
+| Projekt | Text | |
+| Veröffentlicht | Kontrollkästchen | |
+| Registrierungsdatum | Datum | |
+| Verantwortlich | Dropdown | |
+| Status | Dropdown | |
+| Typ | Dropdown | |
+| Webseite | Text | |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Projekt-Datenbanktabelle][5].
+
+**Standardregisterkarten:**
+
+* Projekt
+* Mehr
+* Notiz
+* Bild
+* Links
+
+## Anfrage
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Zugriffslevel | Dropdown | |
+| Alarm-Timeout | Text | |
+| Autor | Text | |
+| Kategorie | Dropdown | |
+| Geschlossen am | Datum | |
+| Firma | Text | |
+| Kontakt | Text | |
+| Erstellt | Datum | |
+| Erstellt von | Text | |
+| Frist | Datum | |
+| Erst gelesen vom Besitzer | Datum | |
+| Erst gelesen vom Benutzer | Datum | |
+| Hat Anhang | Kontrollkästchen | |
+| ID | Text | |
+| Interner Status | Text | |
+| Sprache | Text | |
+| Letzte Änderung | Datum | |
+| Stufe | Text | |
+| Anzahl der Nachrichten | Zeit | |
+| Anzahl der Antworten | Zeit | |
+| Herkunft | Text | |
+| Besitzer | Dropdown | |
+| Verschoben auf | Text | |
+| Priorität | Dropdown | |
+| Projekt | Dropdown | |
+| Gelesen | Text | |
+| Gelesen vom Besitzer | Datum | |
+| Externe Echtzeit | Zeit | |
+| Interne Echtzeit | Zeit | |
+| Echtzeit in der Warteschlange | Zeit | |
+| Echtzeit zum Schließen | Zeit | |
+| Echtzeit zur Antwort | Zeit | |
+| Geantwortet am | Datum | |
+| [Anfragetyp][13] | Dropdown | |
+| Verkauf | Dropdown | |
+| Sentiment | Text | |
+| Sentiment Vertrauen | Text | |
+| Status | Dropdown | |
+| Tags | Dropdown | Keine Optionen |
+| Verbrachte Zeit | Zeit | |
+| Verbrachte Zeit extern | Zeit | |
+| Verbrachte Zeit in der Warteschlange | Zeit | |
+| Zeit zum Schließen | Zeit | |
+| Zeit zur Antwort | Zeit | |
+| Titel | Text | |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Ticket-Datenbanktabelle][6].
+
+**Standardregisterkarten:**
+
+* Nachrichten
+* Details
+* Änderungsprotokoll
+
+## Nachverfolgung
+
+**Standardfelder:**
+
+| Feld | Typ | Kommentar |
+|---|---|---|
+| Alarm | Dropdown | |
+| [Verfügbarkeit prüfen][15] | Terminassistent | |
+| Abgeschlossen | Kontrollkästchen | |
+| Links | Mehrzeiliger Text | Anzahl der Zeilen auswählen. Hat kein Label |
+| Besitzer | Dropdown | |
+| Priorität | Dropdown | |
+| Projekt | Dropdown | |
+| Verkauf | Dropdown | |
+| [Vorgeschlagene Zeitfenster][15] | | Keine Optionen |
+| Titel | Text | Position gesperrt. |
+| Typ | Dropdown | Position gesperrt |
+| Videolink | Text | Keine Optionen |
+| Sichtbar für | Dropdown | Keine Optionen |
+| Benutzerdefinierte Felder | | Sowohl benutzerdefiniert als auch extra |
+
+* Pflichtfelder können nicht verschoben oder entfernt werden. Dies gilt für: Titel, Typ, Zeit, Firma/Kontakt, Teilnehmer, Orte und Ressourcen.
+
+* Die rechte Spalte wird ausgeblendet, wenn keine Teilnehmer vorhanden sind.
+
+Weitere Details zu den Werten jedes Feldes finden Sie in der [Termindatenbanktabelle][7].
+
+**Standardregisterkarten:**
+
+* Agenda
+* Interne Notizen
+* Links
+
+## Verwandte Themen
+
+* [Arbeiten mit Feldern][1]
+* [Adressformate][20]
+* [Erfahren Sie mehr über Verkäufe][11]
+* [Erfahren Sie mehr über Projekte][10]
+* [Erfahren Sie mehr über Anfragen][14]
+* [Erfahren Sie mehr über Nachverfolgungen][16]
+
+<!-- Referenced links -->
+[1]: working-with-fields.md
+[2]: ../../../database/tables/contact.md
+[3]: ../../../database/tables/person.md
+[4]: ../../../database/tables/sale.md
+[5]: ../../../database/tables/project.md
+[6]: ../../../database/tables/ticket.md
+[7]: ../../../database/tables/appointment.md
+[11]: ../../../sale/overview.md
+[10]: ../../../project/overview.md
+[13]: ../../../request/learn/type/index.md
+[14]: ../../../request/overview.md
+[15]: ../../../diary/learn/invitation/add-attendee.md#availability
+[16]: ../../../diary/learn/follow-ups.md
+[17]: ../../../company/interests.md
+[18]: ../../../company/category-list.md
+[20]: ../../../globalization-and-localization/address/index.md

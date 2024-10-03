@@ -28,7 +28,7 @@ Oprettelse af brugerdefinerede faner gør det muligt for dig at gruppere relater
 
 2. Under Fanetitel, erstat teksten "Ny fane" med det nye fanenavn.
 
-    Du kan også klikke på **A-Z** knappen for at tilføje knapnavnet på andre sprog.
+    Du kan også klikke på **A-Z** knappen for at tilføje titel på andre sprog.
 
 3. Vælg det antal kolonner, du vil bruge i den nye fane.
 

@@ -27,7 +27,7 @@ Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzuf
 
 ## Neues Layout erstellen
 
-1. Öffnen Sie den Ansichtsdesigner (in **Einstellungen und Wartung**).
+1. Öffnen Sie den Ansichtsdesigner (in **Einstellungen und Verwaltung**).
 
 1. Wählen Sie oben eine Ansicht oder einen Dialog aus, den Sie anpassen möchten.
 

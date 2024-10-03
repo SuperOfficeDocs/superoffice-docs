@@ -16,7 +16,7 @@ language: nl
 
 [!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
 
-Aangepaste knoppen en koppelingen worden toegevoegd aan het **Voorvertoning**-venster bij het bewerken van een opmaak. De URL wordt gebruikt om een webpagina in het huidige of een nieuw tabblad te openen, een CRMScript uit te voeren vanaf het scherm of te navigeren naar andere delen van SuperOffice met behulp van [SoProtocol][3].
+Aangepaste knoppen en koppelingen worden toegevoegd aan het **Voorbeeldweergave**-venster bij het bewerken van een opmaak. De URL wordt gebruikt om een webpagina in het huidige of een nieuw tabblad te openen, een CRMScript uit te voeren vanaf het scherm of te navigeren naar andere delen van SuperOffice met behulp van [SoProtocol][3].
 
 Knoppen en koppelingen werken op vergelijkbare manier. Het verschil is dat u een knop kunt stijlen, maar een koppeling niet.
 
