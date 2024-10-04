@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up
 author: SuperOffice AS – Research and Development
-date: 10.01.2024
+date: 10.08.2024
 version: 10.3
 topic: reference
 ---
@@ -22,8 +22,8 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.10 (08.10.2024):
-  * [Mailing - Audit check on e-mail mailing (10.3.10)][41] in Marketing
-  * [Mailing - Validation of preheader text of e-mail mailing (10.3.10)][41] in Marketing
+  * [Mailing - Audit check on email mailing (10.3.10)][41] in Marketing
+  * [Mailing - Validation of preheader text in email mailing (10.3.10)][41] in Marketing
   * [Selection - Task for print labels (10.3.10)][42] in Core CRM
 
 * 10.3.9 (17.09.2024):
@@ -85,7 +85,7 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
-* [SuperOffice Marketing Premium][20] (available by invitation from version 10.3.5 until 01.10.2024 - 21.05.2024)
+* [SuperOffice Marketing Premium][20] (released 01.10.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
 * [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
@@ -95,7 +95,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 ### Other highlights
 
-#### SuperOffice App store
+#### SuperOffice App Store
 
 See all the [new or updated apps][5]
 
@@ -119,7 +119,7 @@ See all the [new or updated apps][5]
 * [Dealfront connect (18.09.2023)][9]
 
 > [!TIP]
-> You have an **Uninstall** button in the **App store** under the **Installed Apps** tab, so you can send a request to remove unused apps to clean up your SuperOffice solution.
+> You have an **Uninstall** button in the **App Store** under the **Installed Apps** tab, so you can send a request to remove unused apps to clean up your SuperOffice solution.
 
 <!-- Referenced links -->
 [1]: admin/10.3.1-update.md

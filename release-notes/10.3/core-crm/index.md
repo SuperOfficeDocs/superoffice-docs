@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: dashboard, notification, follow-up, invitation, appointment, meeting
 author: SuperOffice AS – Research and Development
-date: 09.17.2024
+date: 10.08.2024
 version: 10.3
 topic: reference
 audience: person
