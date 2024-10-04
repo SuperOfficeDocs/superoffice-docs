@@ -4,11 +4,13 @@ title: Redigering af dokumenter
 description: Redigering af dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
+pilot: yes
 ---
 
 # Redigering af dokumenter
@@ -22,6 +24,8 @@ Du kan åbne et dokument i [redigeringstilstand eller læsetilstand][1]. Når du
 
 ## Rediger dokumentegenskaber i dialogboksen Dokument
 
+**Denne funktion kræver en licens.**
+
 Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal knyttes til, skal dette gøres via dialogboksen Dokument:
 
 1. Marker det ønskede dokument.
@@ -32,6 +36,9 @@ Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal 
 
 4. Klik på knappen **Gem**.
 
+> [!NOTE]
+> Du kan ikke redigere afsluttede dokument, før du har sat deres status til **Udført**.
+
 ## Rediger dokumentindhold
 
 Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i din SuperOffice-installation.
@@ -41,15 +48,17 @@ Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i
 
 1. Dobbeltklik på det ønskede dokument.
 
-2. Hvis der åbnes en dialogboks, skal du klikke på **Rediger**.
+1. Hvis der åbnes en dialogboks, skal du klikke på **Rediger**.
 
-3. Gem dokumentet, og luk tekstbehandlingsprogrammet.
+1. Foretag de nødvendige ændringer.
 
-4. (hvis det er aktuelt) I den dialogboks, der vises, skal du klikke på **Ja**, hvis du er færdig med at redigere dokumentet. Klik på **Nej** for at beholde dokumentet udtjekket.
+1. Gem dokumentet, og luk tekstbehandlingsprogrammet.
+
+1. (hvis det er aktuelt) I den dialogboks, der vises, skal du klikke på **Ja**, hvis du er færdig med at redigere dokumentet. Klik på **Nej** for at beholde dokumentet udtjekket.
 
     Denne dialogboks vises kun, hvis denne indstilling er aktiveret i SuperOffice WebTools.
 
-5. Dokumentet tjekkes ind, og status sættes til **Udført**.
+1. Dokumentet tjekkes ind, og status sættes til **Udført**.
 
 ### [Med SharePoint](#tab/sharepoint)
 
@@ -61,7 +70,7 @@ Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i
 
 2. Rediger dokumentet.
 
-3. Luk fanen eller din computerapp. Dokumentet gemmes automatisk i SharePoint
+3. Luk fanen eller din computerapp. Dokumentet gemmes automatisk i SharePoint.
 
 ### [Uden SuperOffice Web Tools](#tab/no-webtools)
 
@@ -105,9 +114,21 @@ Dialogboksen er lidt anderledes i Chrome, Edge, Firefox og Safari.
 
 ## <a id="delete"></a>Sletning af dokumenter
 
-1. Vælg det ønskede dokument på detaljekortet **Aktiviteter** på skærmbillederne Firma, Person, Dagbog, Salg eller Projekt.
-2. Klik på knappen **Slet** nederst for listen.
-3. I dialogboksen **Slet dokument** skal du bekræfte eller annullere sletningen.
+### Fra detaljekortet Aktiviteter
+
+1. Vælg det ønskede dokument på detaljekortet **Aktiviteter** skærmbillederne Firma, Person, Dagbog, Salg eller Projekt.
+
+2. Højreklik og vælg **Slet**.
+
+3. Bekræft eller annullér sletningen i bekræftelsesdialogen.
+
+### Fra Dokumentdialogen
+
+Når du ser et specifikt dokument:
+
+1. Klik på knappen **Opgave** i **Dokument**-dialogen.
+2. Vælg **Slet**.
+3. Bekræft eller annullér sletningen i bekræftelsesdialogen.
 
 ## Fejlfinding
 
@@ -117,10 +138,15 @@ Hvis du dobbeltklikker på et dokument, og der ikke sker noget, kan du prøve at
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Relaterede emner
+
+* [Ændring af status Udført for en aktivitet][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png

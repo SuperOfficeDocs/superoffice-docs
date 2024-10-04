@@ -1,17 +1,19 @@
 ---
 uid: help-en-document
-title: Documents
+title: Document
 description: Introduction to documents and document handling in SuperOffice.
-keywords: document, activities
+keywords: document, activity, activities
 author: Bergfrid Dias
-date: 07.19.2024
+date: 10.08.2024
+version: 10.3.10
 topic: concept
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
+pilot: yes
 ---
 
-# Documents ![icon][img1]
+# Document ![icon][img1]
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
@@ -22,13 +24,27 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 You can open a document in [edit mode or in read mode][7]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode. If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
+## General information
+
+| Icon | Property | Description |
+|:-:|---|---|
+| ![icon][img11] | Language | A list of available translations of the template. "Default" if untranslated. |
+| ![icon][img4] | Date | Today's date (default). Click the arrow next to the **Date** field to open a monthly calendar where you can select the date you require. |
+| ![icon][img3]| Subject | The heading of the document (the text that is displayed in section tabs and reports where the document is listed). |
+| ![icon][img2] | Template | A list of available [document templates][11], such as Letter or Quotation. |
+| ![icon][img7], ![icon][img8] | Company / contact | Who the document concerns. |
+| ![icon][img5] | Sale | A sale linked to the document. |
+| ![icon][img6] | Project | A project linked to the document. |
+| | Our ref | Allocated document number. |
+| | Your ref | The addressee's reference from their communication. |
+
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.
+No matter where you are in SuperOffice CRM, you can create or upload a document by clicking **+New** in the top bar and then select **Document**.
 
 ## Locate your documents
 
-* The **Activities** section tab in the and Diary screen shows all uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM.
+* The **Activities** section tab in the Diary screen shows all uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM.
 
 * The **Activities** section tab in the Company, Contact, Sale, and Project screen shows all documents linked to the current record.
 
@@ -36,7 +52,7 @@ No matter where you are in SuperOffice CRM, you can create or upload a new docum
 
 ## Add record as a favorite
 
-[!include[ALT](../../learn/includes/howto-add-favorite.md)]
+To add a record to favorites, click the star icon ![icon][img13] in the corner of the relevant card, tab or dialog. The star turns yellow ![icon][img12], and the record is instantly added to favorites. You do not have to click **Save**.
 
 ## Standardize your documents
 
@@ -47,6 +63,10 @@ You can add any type of document template to SuperOffice CRM, whether it is a co
 Creating templates for frequently used documents and making them available for everyone will save your CRM users' time and ensure the unified look across your organization.
 
 In SuperOffice CRM, you can easily create document templates for Word, Email, Excel, PowerPoint and other file types.
+
+## <a id="more-tab" />The More tab
+
+The **More** tab displays user-defined fields for the document. If your organization needs more fields than the default fields for documents, you can specify in Settings and maintenance that these fields will be inserted here.
 
 ## Related topics
 
@@ -66,3 +86,14 @@ In SuperOffice CRM, you can easily create document templates for Word, Email, Ex
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png
+[img2]: ../../../../common/icons/singlecolour/document.png
+[img3]: ../../../../common/icons/title.png
+[img4]: ../../../../common/icons/diaryblack.png
+[img5]: ../../../../common/icons/sale.png
+[img6]: ../../../../common/icons/singlecolour/project.png
+[img7]: ../../../../common/icons/singlecolour/contact.png
+[img8]: ../../../../common/icons/person.png
+
+[img11]: ../../../../common/icons/az.png
+[img12]: ../../../../common/icons/favourite-yes.png
+[img13]: ../../../../common/icons/favourite-no.png

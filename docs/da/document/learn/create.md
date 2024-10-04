@@ -4,11 +4,13 @@ title: Opret nyt dokument
 description: "Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele."
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
+pilot: yes
 ---
 
 # Oprettelse af nye dokumenter
@@ -84,7 +86,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 7. Gå til dialogboksen Dokument.
 
     > [!NOTE]
-    > Hvis ![ikon][img1] **Udført** er markeret på dialogboksen Dokument, er indstillingerne for upload deaktiveret. Fjern i så fald markeringen **Udført**.
+    > Hvis **Udført** er markeret på dialogboksen Dokument, er indstillingerne for upload deaktiveret. Fjern i så fald markeringen **Udført**.
 
 8. Klik på linket for at uploade dokumentet eller trække og slippe dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 
@@ -99,7 +101,19 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 > [!NOTE]
 > Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![icon][img5] for at udvide listen. Vælg derefter en værdi for det pågældende felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, f.eks. et firmanavn.
 
-![Opret dokument fra skabelon -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/dialog-old)
+
+![Opret dokument fra skabelon (klassisk) -screenshot][img3]
+
+### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
+
+![Opret dokument fra skabelon (ny) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Trin:**
 
 1. Vælg en [dokumentskabelon][5]. Vælg et sprog for skabelonen. Denne mulighed er kun tilgængelig, hvis den valgte skabelon indeholder oversatte versioner.
 
@@ -133,7 +147,10 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 2. Træk og slip dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 
-3. (valgfrit) Klik på ![ikon][img4] i øverste højre hjørne for at angive dokumentet til **Fuldført** ![ikon][img1].
+3. (valgfrit) Marker dokumentet som udført:
+
+    * Klassisk dialog: Klik på flueben-ikonet øverst til højre i dialogboksen.
+    * Ny (fra version 10.3.10 pilot): Vælg afkrydsningsfeltet i footeren.
 
 4. [Indtast de ønskede oplysninger i felterne][2].
 
@@ -160,8 +177,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png

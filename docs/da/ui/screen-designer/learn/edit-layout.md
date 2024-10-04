@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du redigerer et layout.
 keywords: Skærmdesigner, layout, udseende, felt, kortlayout, hovedkort
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.7
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance

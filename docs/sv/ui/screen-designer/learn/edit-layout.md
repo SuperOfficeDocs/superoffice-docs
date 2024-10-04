@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du redigerar en layout.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, fliklayout, redigera kortlayout, återställ
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.7
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance

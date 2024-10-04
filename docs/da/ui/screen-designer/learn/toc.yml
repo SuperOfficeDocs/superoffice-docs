@@ -15,7 +15,7 @@ items:
   href: working-with-archives.md
 - name: Tilføj knap eller link
   href: add-button.md
-- name: Tildel layout til gruppe/type
+- name: Tildel layout til gruppe/type/skabelon
   href: assign-layout.md
 - name: Feltreference
   href: reference.md

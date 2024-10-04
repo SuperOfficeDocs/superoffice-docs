@@ -2,13 +2,15 @@
 uid: help-da-document-lock
 title: Indtjekning/udtjekning af dokumenter
 description: Indtjekning/udtjekning af dokumenter
-keywords: dokument
+keywords: dokument, indtjek, udtjek, tilbage til gemt version, redigeringstilstand, læsetilstand, spørg før redigering eller læsning
 author: Bergfrid Dias
-date: 87.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
+pilot: yes
 ---
 
 # Indtjekning/udtjekning af dokumenter
@@ -27,6 +29,9 @@ Som standard åbnes et dokument i redigeringstilstand. Hvis du foretrækker at v
 
 ## Hvordan ved jeg, hvornår et dokument er tjekket ud?
 
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/lock-old)
+
 I dialogboksen **Dokument** har et udtjekket dokument et af følgende ikoner:
 
 ![ikon][img3] Dokumentet er i øjeblikket tjekket ud til redigering af dig.
@@ -36,6 +41,17 @@ I dialogboksen **Dokument** har et udtjekket dokument et af følgende ikoner:
 Hold musemarkøren over et ikon for at vise oplysninger om den bruger, der har tjekket dokumentet ud.
 
 Hvis du prøver at åbne et udtjekket dokument, vises en dialogboks med oplysninger om, hvem der har tjekket dokumentet ud. Du kan kun åbne dokumentet i læsetilstand.
+
+### [Ny (fra version 10.3.10 pilot)](#tab/lock-new)
+
+I dialogboksen **Dokument** viser et udtjekket dokument en banner med information om, hvem der redigerer det.
+
+![ikon][img5] **Du** redigerer dette dokument.
+
+![ikon][img5] Du kan ikke redigere dette dokument, fordi det er låst af **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Tjek et dokument ud til redigering
 
@@ -57,13 +73,13 @@ Du skal have særlige rettigheder for at få adgang til dette alternativ. Du ska
 Hvis du eller en anden har tjekket et dokument ud, og du gerne vil redigere dokumentet kan du annullere udtjekningen:
 
 1. Højreklik på dokumentet, og vælg **Dokument**.
-2. På dialogboksen Dokument skal du klikke på ![ikonet][img1] og vælge **Tilbage til gemt version**.
+2. På dialogboksen Dokument skal du klikke på **Opgave** og vælge **Tilbage til gemt version**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

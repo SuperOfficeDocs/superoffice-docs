@@ -3,12 +3,13 @@ uid: help-en-document-dialog
 title: Document dialog
 description: Document dialog
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.12.2024
 keywords: document
 topic: concept
 language: en
 ---
 
+<!-- Legacy - page will be removed after pilot -->
 # The Document dialog
 
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
@@ -21,6 +22,9 @@ The dialog consists of a main section with general information about the documen
 * Details
 * Links
 * More
+
+> [!NOTE]
+> The descriptions on this page pertain to the **classic** Document dialog. If you use the pilot version of the new **Document** dialog, see the [Fields section][6] in the how-to for explanation of dialogs and fields.
 
 ## Main section
 
@@ -85,7 +89,7 @@ See [Check in/out documents][4].
 
 ### Completed
 
-By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
+By default, the document is marked as completed ![icon][img4], but you can remove this checkmark if you wish. The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
 
 > [!NOTE]
 > You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].
@@ -138,6 +142,7 @@ This tab displays any [user-defined fields][3] configured in Settings and mainte
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +151,3 @@ This tab displays any [user-defined fields][3] configured in Settings and mainte
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

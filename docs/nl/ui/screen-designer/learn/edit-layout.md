@@ -5,7 +5,7 @@ description: In deze handleiding staat u hoe u een opmaak bewerkt.
 keywords: Schermontwerper, opmaak, veld, tabbladindeling, opmaak bewerken, kaartopmaak, hoofdkaart
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.7
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -3,7 +3,7 @@ uid: help-sv-document-dialog
 title: Dialogrutan Dokument
 description: Dialogrutan Dokument
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.27.2024
 keywords: dokument
 topic: concept
 language: sv
@@ -21,6 +21,9 @@ Dialogrutan består av en huvuddel med allmän information om dokumentet samt f�
 * Specifikation
 * Länkar
 * Mer
+
+> [!NOTE]
+> Beskrivningarna på den här sidan avser den klassiska Dokumentdialogen. Om du använder pilotversionen av den nya Dokumentdialogen, se [Fältsektionen][6] i instruktionen för förklaring av dialoger och fält.
 
 ## Huvuddel
 
@@ -85,7 +88,7 @@ Se [Checka in/ut dokument][4].
 
 ### Slutförd
 
-Som standard markeras dokumentet som slutfört (![ikon][img4]), men du kan ta bort denna markering om du vill (![ikon][img5]). Dokumentet visas då på detaljkortet **Aktiviteter** i fönstret Kalender tills det markeras som slutfört.
+Som standard markeras dokumentet som slutfört ![ikon][img4], men du kan ta bort denna markering om du vill. Dokumentet visas då på detaljkortet **Aktiviteter** i fönstret Kalender tills det markeras som slutfört.
 
 > [!NOTE]
 > Du kan inte göra ändringar i slutförda dokument förrän du har inaktiverat deras **Slutfört**-status. [Så ändrar du Slutförd-status för en aktivitet][7].
@@ -138,6 +141,7 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +150,3 @@ På den här fliken visas alla [användardefinierade fält][3] som har konfigure
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

@@ -5,7 +5,7 @@ description: Referens över element som finns tillgängliga i Skärmdesignern i 
 keywords: Skärmdesigner, fält, flik, standardfält, standardflik
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -115,24 +115,24 @@ För detaljer om värdet av varje fält, se [databasreferencen][3].
 
 | Fält | Typ | Kommentar |
 |---|---|---|
-| Företag | Dropdown | |
-| Konkurrent | Dropdown | |
-| Kontakt | Dropdown | |
-| Kredit | Dropdown | |
+| Företag | Drop-down | |
+| Konkurrent | Drop-down | |
+| Kontakt | Drop-down | |
+| Kredit | Drop-down | |
 | Beskrivning | Textfält | Välj antal rader. Ingen etikett |
 | Senast ändrad | Datum | |
 | Länkar | Länkar | Inga alternativ |
 | Nummer | Text | |
-| Ägare | Dropdown | |
+| Ägare | Drop-down | |
 | Sannolikhet | Text | Högerjusterat procent |
 | Vinst | Nummer | Procent och belopp |
-| Projekt | Dropdown | |
+| Projekt | Drop-down | |
 | Registreringsdatum | Datum | |
 | Försäljningsdatum | Datumväljare | |
-| Försäljningstyp | Dropdown | |
+| Försäljningstyp | Drop-down | |
 | Försäljning | Text | |
-| Källa | Dropdown | |
-| Fas | Dropdown | |
+| Källa | Drop-down | |
+| Fas | Drop-down | |
 | Fas - arbetsflöde | Flerlinjig text | Inga alternativ |
 | Totalkostnad | Nummer | Högerjusterat belopp |
 | Synlig för | Text | |
@@ -163,9 +163,9 @@ För detaljer om värdet av varje fält, se [databasreferencen][4].
 | Projekt | Text | |
 | Publicerad | Kryssruta | |
 | Registreringsdatum | Datum | |
-| Ansvarig | Dropdown | |
-| Status | Dropdown | |
-| Typ | Dropdown | |
+| Ansvarig | Drop-down | |
+| Status | Drop-down | |
+| Typ | Drop-down | |
 | Webbplats | Text | |
 | Anpassade fält | | Både användardefinierade och extra |
 
@@ -185,10 +185,10 @@ För detaljer om värdet av varje fält, se [databasreferencen][5].
 
 | Fält | Typ | Kommentar |
 |---|---|---|
-| Åtkomstnivå | Dropdown | |
+| Åtkomstnivå | Drop-down | |
 | Larm-timeout | Text | |
 | Författare | Text | |
-| Kategori | Dropdown | |
+| Kategori | Drop-down | |
 | Stängd vid | Datum | |
 | Företag | Text | |
 | Kontakt | Text | |
@@ -206,10 +206,10 @@ För detaljer om värdet av varje fält, se [databasreferencen][5].
 | Antal meddelanden | Tid | |
 | Antal svar | Tid | |
 | Ursprung | Text | |
-| Ägare | Dropdown | |
+| Ägare | Drop-down | |
 | Uppskjuten till | Text | |
-| Prioritet | Dropdown | |
-| Projekt | Dropdown | |
+| Prioritet | Drop-down | |
+| Projekt | Drop-down | |
 | Lästs | Text | |
 | Lästs av ägare | Datum | |
 | Extern tid | Tid | |
@@ -218,12 +218,12 @@ För detaljer om värdet av varje fält, se [databasreferencen][5].
 | Tid till stängning | Tid | |
 | Tid till svar | Tid | |
 | Svarad vid | Datum | |
-| [Förfrågningstyp][13] | Dropdown | |
-| Försäljning | Dropdown | |
+| [Förfrågningstyp][13] | Drop-down | |
+| Försäljning | Drop-down | |
 | Känsla | Text | |
 | Känsloförtroende | Text | |
-| Status | Dropdown | |
-| Taggar | Dropdown | Inga alternativ |
+| Status | Drop-down | |
+| Taggar | Drop-down | Inga alternativ |
 | Tid spenderad | Tid | |
 | Tid spenderad externt | Tid | |
 | Tid spenderad i kö | Tid | |
@@ -246,19 +246,19 @@ För detaljer om värdet av varje fält, se [databasreferencen][6].
 
 | Fält | Typ | Kommentar |
 |---|---|---|
-| Larm | Dropdown | |
+| Larm | Drop-down | |
 | [Kontrollera tillgänglighet][15] | Schemaläggningsassistent | |
 | Slutförd | Kryssruta | |
 | Länkar | Flerlinjig text | Välj antal rader. Ingen etikett |
-| Ägare | Dropdown | |
-| Prioritet | Dropdown | |
-| Projekt | Dropdown | |
-| Försäljning | Dropdown | |
+| Ägare | Drop-down | |
+| Prioritet | Drop-down | |
+| Projekt | Drop-down | |
+| Försäljning | Drop-down | |
 | [Föreslagna tider][15] | | Inga alternativ |
 | Titel | Text | Låst placering. |
-| Typ | Dropdown | Låst placering |
+| Typ | Drop-down | Låst placering |
 | Videolänk | Text | Inga alternativ |
-| Synlig för | Dropdown | Inga alternativ |
+| Synlig för | Drop-down | Inga alternativ |
 | Anpassade fält | | Både användardefinierade och extra |
 
 * Obligatoriska fält kan inte flyttas eller tas bort. Detta gäller: titel, typ, tid, företag/kontakt, deltagare, platser och resurser.
@@ -272,6 +272,35 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 * Agenda
 * Interna anteckningar
 * Länkar
+* Mer
+
+## Dokument (i pilot från version 10.3.10)
+
+**Standardfält:**
+
+| Fält | Typ | Kommentar |
+|---|---|---|
+| Språk | Drop-down | Låst placering |
+| Datum | Datumväljare | Låst placering |
+| Synlig för | Drop-down | Inga alternativ |
+| Redigerad av/Låst av | Text | Låst placering |
+| Ämne | Text | Titel/huvudrubrik |
+| [Dokumentmall][22] | Drop-down | Låst placering |
+| Företag/Kontakt | Drop-down | Låst placering |
+| Försäljning | Drop-down | |
+| Projekt | Drop-down | |
+| Vår ref / Din ref | Text | |
+| Flikrad | | Låst placering |
+| Dokument | | Låst placering |
+| Slutförd | Kryssruta | |
+
+För detaljer om värdet av varje fält, se [databasreferencen][23].
+
+**Standardflikar:**
+
+* Detaljer
+* Länkar
+* Mer
 
 ## Relaterat innehåll
 
@@ -281,6 +310,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 * [Läs mer om projekt][10]
 * [Läs mer om förfrågningar][14]
 * [Läs mer om händelser][16]
+* [Läs mer om dokument][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ För detaljer om värdet av varje fält, se [databasreferencen][7].
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

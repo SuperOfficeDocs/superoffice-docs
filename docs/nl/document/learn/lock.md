@@ -4,11 +4,13 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 87.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
+pilot: yes
 ---
 
 # Documenten aan/afmelden
@@ -27,6 +29,9 @@ Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de lees
 
 ## Hoe weet ik wanneer een document is afgemeld?
 
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/lock-old)
+
 In het dialoogvenster **Document** heeft een afgemeld document een van de volgende pictogrammen:
 
 ![pictogram][img3] Het document is momenteel afgemeld voor bewerking door uzelf.
@@ -36,6 +41,17 @@ In het dialoogvenster **Document** heeft een afgemeld document een van de volgen
 Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te geven die het document heeft afgemeld.
 
 Als u probeert een afgemeld document te openen, wordt er een dialoogvenster weergegeven met informatie over de persoon die het document heeft afgemeld. U kunt het document alleen in leesmodus openen.
+
+### [Nieuw (vanaf versie 10.3.10 pilot)](#tab/lock-new)
+
+In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
+
+![pictogram][img5] **Jij** bewerkt dit document.
+
+![pictogram][img5] Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Een document afmelden voor bewerking
 
@@ -57,13 +73,13 @@ U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt 
 Als u of iemand anders een document heeft uitgecheckt en u het document wilt bewerken, kunt u het afmelden annuleren:
 
 1. Klik met de rechtermuisknop op het document en selecteer **Document**.
-2. Klik in het dialoogvenster Document op ![pictogram][img1] en selecteer **Opgeslagen versie gebruiken**.
+2. Klik in het dialoogvenster Document op **Taak** en selecteer **Opgeslagen versie gebruiken**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

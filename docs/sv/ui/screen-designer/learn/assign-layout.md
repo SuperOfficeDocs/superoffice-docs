@@ -1,18 +1,18 @@
 ---
 uid: help-sv-screen-designer-assign-layout
-title: Tilldela layout till grupp eller typ
+title: Tilldela layout till grupp, typ eller mall
 description: Hur du tilldelar en layout till en grupp, säljtyp, projekttyp eller ärendetyp med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, tilldela layout
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Tilldela layout till grupp eller typ
+# Tilldela layout till grupp, typ eller mall
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
@@ -22,17 +22,18 @@ language: sv
 
 1. Välj högst upp en skärm eller dialog som du vill anpassa.
 
-1. Välj tilldelningsmetod (om inte inställt): Klicka på texten bredvid **Tilldela layouter till**, och välj grupp eller typ.
+1. Välj tilldelningsmetod (om inte inställt): Klicka på texten bredvid **Tilldela layouter till**, och välj grupp, typ eller mall.
 
     * Företag och kontakt: endast användargrupp
     * Försäljning: användargrupp eller försäljningstyp
     * Projekt: användargrupp eller projekttyp
     * Ärende: användargrupp eller ärendetyp
     * Händelse: användargrupp eller händelsestyp
+    * Dokument: användargrupp eller dokumentmall (pilot)
 
 1. Välj en layout i listan till vänster.
 
-Klicka på fältet **Tilldela till** och välj en grupp eller typ. Dina alternativ beror på den valda skärmen.
+Klicka på fältet **Tilldela till** och välj en grupp, typ eller mall. Dina alternativ beror på den valda skärmen.
 
 ## Begränsningar
 

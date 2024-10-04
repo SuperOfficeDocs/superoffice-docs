@@ -2,13 +2,15 @@
 uid: help-en-document-update
 title: Edit documents
 description: Editing documents; Deleting documents
-keywords: document, edit mode, read mode, document properties, document content, SharePoint
+keywords: document, edit mode, read mode, completed, document properties, document content, SharePoint
 author: Bergfrid Dias
-date: 07.19.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
+pilot: yes
 ---
 
 # Edit documents
@@ -32,6 +34,9 @@ To change document properties, such the project the document is linked to, use t
 
 4. Click the **Save** button.
 
+> [!NOTE]
+> To edit a completed document, you must first uncheck the **Completed** status.
+
 ## Edit document content
 
 Follow the instructions below, depending on how documents are managed in your SuperOffice installation.
@@ -41,15 +46,17 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 1. Double-click the required document.
 
-2. If a dialog opens, click **Edit**.
+1. If a dialog opens, click **Edit**.
 
-3. Save it and close the text-editing application.
+1. Update the document as required.
 
-4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out.
+1. Save it and close the text-editing application.
+
+1. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out.
 
     This dialog appears only if this option was activated in SuperOffice WebTools.
 
-5. The document is checked in and the status is set to **Completed**.
+1. The document is checked in and the status is set to **Completed**.
 
 ### [Using SharePoint Documents](#tab/sharepoint)
 
@@ -61,7 +68,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 2. Edit the document.
 
-3. Close the tab or your desktop app. The document is automatically saved to SharePoint
+3. Close the tab or your desktop app. The document is automatically saved to SharePoint.
 
 ### [Without WebTools](#tab/no-webtools)
 
@@ -104,11 +111,21 @@ The dialog is slightly different in Chrome, Edge, Firefox, and Safari.
 
 ## <a id="delete"></a>Delete document
 
+### From the Activities section tab
+
 1. Select the required document on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screen.
 
-1. Click the **Delete** button at the lower left of the list.
+1. Right-click and choose **Delete**.
 
-1. In the **Delete Document** dialog, confirm or cancel the deletion.
+1. Confirm or cancel the deletion in the confirmation dialog.
+
+### From the Document dialog
+
+When viewing a specific document:
+
+1. Click the **Task** button in the **Document** dialog.
+2. Choose **Delete**.
+3. Confirm or cancel the deletion in the confirmation dialog.
 
 ## Troubleshooting
 
@@ -118,10 +135,15 @@ If you double-click a document and nothing happens, try to right-click it and se
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Related content
+
+* [Change Completed status of an activity][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png

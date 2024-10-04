@@ -5,7 +5,7 @@ description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 keywords: Ansichtsdesigner, Layout hinzufügen, Layout, Hauptkarte, Ansichtslayout
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: de
 
 [!include[Anforderung](../../../../../common/includes/req-dev-tools.md)]
 
-Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe hinzufügen oder ein Layout optimieren, das für bestimmte Projekte, Verkäufe, Anfragen und Folgeaufgaben ausgelegt ist – beginnen Sie damit, ein neues Layout für einen Bildschirm im Ansichtsdesigner hinzuzufügen.
+Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe hinzufügen oder ein Layout optimieren, das für bestimmte Projekte, Verkäufe, Anfragen, Folgeaufgaben oder Dokumentvorlagen ausgelegt ist – beginnen Sie damit, ein neues Layout für einen Bildschirm im Ansichtsdesigner hinzuzufügen.
 
 Mit benutzerdefinierten Ansichtslayouts für jedes Ihrer Teams wird das Auffinden von Kundendaten einfacher als je zuvor. Die relevantesten Daten sind immer verfügbar und sichtbar. Entfernen, verschieben oder verbergen Sie irrelevante oder weniger wichtige Daten, um die Ansichten zu entrümpeln. Fügen Sie benutzerdefinierte Archive mit den relevantesten Daten für Ihre Teams hinzu. Das Ergebnis ist eine übersichtlicherer und aufgeräumterer Ansicht, mit dem Ihre Teams arbeiten können.
 
@@ -35,7 +35,7 @@ Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzuf
 
     Um ein Layout für ein Archiv zu erstellen, siehe [Arbeiten mit Bereichsregisterkarten][2].
 
-1. [Wählen Sie die Zuweisungsmethode][6] (falls nicht festgelegt): Klicken Sie auf den Text neben **Layouts zuweisen zu** und wählen Sie Gruppe oder Typ.
+1. [Wählen Sie die Zuweisungsmethode][6] (falls nicht festgelegt): Klicken Sie auf den Text neben **Layouts zuweisen zu** und wählen Sie Gruppe, Typ, oder Dokumentvorlage.
 
 1. Klicken Sie auf **Hinzufügen** unter **Layouts**.
 
@@ -47,10 +47,10 @@ Sehen Sie sich dieses Video an und erfahren Sie, wie Sie ein neues Layout hinzuf
 
     ![Geben Sie den richtigen Namen und die Benutzergruppen ein, die dieses Layout verwenden -screenshot][img2]
 
-1. Klicken Sie auf das Feld **Zuweisen zu** und weisen Sie das neue Layout einer oder mehreren Benutzergruppen **oder** Verkaufs-/Projekt-/Anfrage-/Folgeaufgabentypen zu.
+1. Klicken Sie auf das Feld **Zuweisen zu** und weisen Sie das neue Layout einer oder mehreren Benutzergruppen **oder** Verkaufs-/Projekt-/Anfrage-/Folgeaufgabentypen **oder** Dokumentvorlagen zu.
 
     > [!NOTE]
-    > Es werden nur Gruppen/Typen angezeigt, die derzeit das Standardlayout verwenden.
+    > Es werden nur Gruppen/Typen/Vorlagen angezeigt, die derzeit das Standardlayout verwenden.
 
 1. Klicken Sie auf **OK**.
 

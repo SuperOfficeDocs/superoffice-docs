@@ -5,7 +5,7 @@ description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
 keywords: Schermontwerper, opmaak, hoofdkaart, schermopmaak
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -16,7 +16,7 @@ language: nl
 
 [!include[Vereiste](../../../../../common/includes/req-dev-tools.md)]
 
-Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
+Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen of documentsjablonen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
 
 Met aangepaste schermopmaken voor elk van uw teams wordt het vinden van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zullen altijd beschikbaar en zichtbaar zijn. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen op te ruimen. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat zal een schoner en overzichtelijker scherm zijn voor uw teams om in te werken.
 
@@ -35,7 +35,7 @@ Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgew
 
     Om een opmaak voor een archief te maken, zie [Werken met sectietabbladen][2].
 
-1. [Selecteer toewijzingsmethode][6] (indien niet ingesteld): klik op de tekst naast **Opmaken toewijzen aan**, en kies groep of type.
+1. [Selecteer toewijzingsmethode][6] (indien niet ingesteld): klik op de tekst naast **Opmaken toewijzen aan**, en kies groep, type, of sjabloon.
 
 1. Klik op **Toevoegen** onder **Opmak**.
 
@@ -47,10 +47,10 @@ Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgew
 
     ![Stel de juiste naam in en de gebruikersgroepen die deze opmaak zullen gebruiken -screenshot][img2]
 
-1. Klik op het veld **Toewijzen aan** en wijs de opmaak toe aan één of meer gebruikersgroepen **of** verkoop-/project-/verzoek-/vervolgactiviteitstypen.
+1. Klik op het veld **Toewijzen aan** en wijs de opmaak toe aan één of meer gebruikersgroepen **of** verkoop-/project-/verzoek-/vervolgactiviteitstypen **of** documentsjablonen.
 
     > [!NOTE]
-    > Alleen groepen/types die momenteel de standaardopmaak gebruiken, worden weergegeven.
+    > Alleen groepen/types/sjablonen die momenteel de standaardopmaak gebruiken, worden weergegeven.
 
 1. Klik op **OK**.
 

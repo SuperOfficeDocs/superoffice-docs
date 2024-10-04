@@ -4,11 +4,13 @@ title: Sjekke inn/ut dokumenter
 description: Sjekke inn/ut dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
+pilot: yes
 ---
 
 # Sjekke inn/ut dokumenter
@@ -27,6 +29,9 @@ Som standard åpnes et dokument i redigeringsmodus. Hvis du foretrekker å velge
 
 ## Hvordan vet jeg når et dokument er sjekket ut?
 
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/lock-old)
+
 I dialogboksen **Dokument** har et utsjekket dokument ett av følgende ikoner:
 
 ![icon][img3] Dokumentet er for øyeblikket sjekket ut for redigering av deg.
@@ -36,6 +41,17 @@ I dialogboksen **Dokument** har et utsjekket dokument ett av følgende ikoner:
 Hold musepekeren over et ikon for å vise informasjon om hvem som sjekket ut dokumentet.
 
 Hvis du prøver å åpne et utsjekket dokument, vises en dialogboks med informasjon om hvem som sjekket ut dokumentet. Du kan bare åpne dokumentet i lesemodus.
+
+### [Ny (fra version 10.3.10 pilot)](#tab/lock-new)
+
+I dialogboksen **Dokument** viser et utsjekket dokument en banner som viser hvem som redigerer det.
+
+![icon][img5] **Du** redigerer dette dokumentet.
+
+![icon][img5] Du kan ikke redigere dette dokumentet fordi det er låst av **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Sjekke ut et dokument for redigering
 
@@ -57,13 +73,13 @@ Du trenger spesielle privilegier for å få tilgang til dette alternativet. Du t
 Hvis du eller noen andre har sjekket ut et dokument og vil redigere dokumentet, kan du avbryte utsjekkingen:
 
 1. Høyreklikk på dokumentet og velg **Dokument**.
-2. I skjermbildet Dokument klikker du på ![icon][img1] og velger **Hent lagret versjon**.
+2. I skjermbildet Dokument klikker du på **Oppgave** og velger **Hent lagret versjon**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

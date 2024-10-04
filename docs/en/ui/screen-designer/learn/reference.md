@@ -5,7 +5,7 @@ description: Reference of elements available in the Screen Designer in Settings 
 keywords: Screen designer, layout, field, standard field, tab, standard tab
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -115,10 +115,10 @@ For details about the value of each field, see the [Person database table][3].
 
 | Field | Type | Comment |
 |---|---|---|
-| Company | Dropdown | |
-| Competitor | Dropdown | |
-| Contact | Dropdown | |
-| Credited | Dropdown | |
+| Company | Drop-down | |
+| Competitor | Drop-down | |
+| Contact | Drop-down | |
+| Credited | Drop-down | |
 | Description | Text box | Select number of rows. Has no label |
 | Last modified | Date | |
 | Links | Links | Has no options |
@@ -126,12 +126,12 @@ For details about the value of each field, see the [Person database table][3].
 | Owner | Drop-down | |
 | Probability | Text | Right-aligned percent |
 | Profit | Number | Percent and amount |
-| Project | Dropdown  | |
+| Project | Drop-down  | |
 | Registered date | Date | |
 | Sale date | Date picker | |
 | Sale type | Drop-down | |
 | Sales | Text | |
-| Source | Dropdown | |
+| Source | Drop-down | |
 | Stage | Drop-down | |
 | Stage - workflow | Multiline text | Has no options |
 | Total cost | Number | Right-aligned amount |
@@ -272,6 +272,35 @@ For details about the value of each field, see the [Appointment database table][
 * Agenda
 * Internal notes
 * Links
+* More
+
+## Document (in pilot from version 10.3.10)
+
+**Standard fields:**
+
+| Field | Type | Comment |
+|---|---|---|
+| Language | Drop-down | Placement locked |
+| Date | Date picker | Placement locked |
+| Visible for | Drop-down | Has no options |
+| Edited by/Locked by | Text | Placement locked |
+| Subject | Text | The title/heading |
+| [Document template][22] | Drop-down | Placement locked |
+| Company/Contact | Drop-down | Placement locked |
+| Sale | Drop-down | |
+| Project | Drop-down | |
+| Our ref / Your ref | Text | |
+| Tab-bar | | Placement locked |
+| Document | | Placement locked |
+| Completed | Checkbox | |
+
+For details about the value of each field, see the [Document database table][23].
+
+**Default tabs:**
+
+* Details
+* Links
+* More
 
 ## Related content
 
@@ -281,6 +310,7 @@ For details about the value of each field, see the [Appointment database table][
 * [Learn more about projects][10]
 * [Learn more about requests][14]
 * [Learn more about follow-ups][16]
+* [Learn more about documents][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ For details about the value of each field, see the [Appointment database table][
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

@@ -3,7 +3,7 @@ uid: help-no-document-dialog
 title: Dialogboks for dokument
 description: Dialogboks for dokument
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.27.2024
 keywords: dokument
 topic: concept
 language: no
@@ -21,6 +21,9 @@ Dialogboksen består av en hovedseksjon med generell informasjon om dokumentet, 
 * Detaljer
 * Koblinger
 * Mer
+
+> [!NOTE]
+> Beskrivelsene på denne siden gjelder den klassiske Dokumentdialogen. Hvis du bruker pilotversjonen av den nye Dokumentdialogen, se [seksjonen Felt][6] i veiledningen for forklaring av dialoger og felter.
 
 ## Hovedseksjon
 
@@ -85,7 +88,7 @@ Se [Sjekke inn/ut dokument][4].
 
 ### Fullført
 
-Som standard er dokumentet merket som fullført (![icon][img4]), men du kan fjerne denne avmerkingen hvis du ønsker det (![icon][img5]). Dokumentet vil da vises på detaljkortet **Aktiviteter** på dagbokskjermbildet til det er merket som fullført.
+Som standard er dokumentet merket som fullført ![icon][img4], men du kan fjerne denne avmerkingen hvis du ønsker det. Dokumentet vil da vises på detaljkortet **Aktiviteter** på dagbokskjermbildet til det er merket som fullført.
 
 > [!NOTE]
 > Du kan ikke redigere fullførte dokumenter før du har deaktivert **Utført**-statusen. [Slik endrer du Fullført-statusen for en aktivitet][7].
@@ -138,6 +141,7 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +150,3 @@ Denne fanen viser alle [brukerdefinerte felt][3] som er konfigurert i Innstillin
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

@@ -4,11 +4,13 @@ title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: sv
 audience: person
-audience_tooltip: SuperOffice CRM
+audience_tootip: SuperOffice CRM
+language: sv
+pilot: yes
 ---
 
 # Skapa nya dokument
@@ -84,7 +86,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 7. Gå till dialogrutan Dokument.
 
     > [!NOTE]
-    > Om alternativet ![ikon][img1] **Slutfört** är markerat i dialogrutan Dokument är uppladdningsalternativen inaktiverade. Ta i så fall bort markeringen för **Slutfört**.
+    > Om alternativet **Slutfört** är markerat i dialogrutan Dokument är uppladdningsalternativen inaktiverade. Ta i så fall bort markeringen för **Slutfört**.
 
 8. Klicka på länken för att ladda upp dokumentet eller dra och släpp dokumentet från Utforskaren till dialogrutan **Dokument**.
 
@@ -99,7 +101,19 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 > [!NOTE]
 > Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
 
-![Skapa dokument från mall -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/dialog-old)
+
+![Skapa dokument från mall (klassisk) -screenshot][img3]
+
+### [Ny (från version 10.3.10 pilot)](#tab/dialog-new)
+
+![Skapa dokument från mall (ny) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Steg:**
 
 1. Välj en [dokumentmall][5]. Välj ett språk för mallen. Det här fältet är endast tillgängligt om den valda mallen innehåller översatta versioner.
 
@@ -133,7 +147,10 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 2. Dra och släpp dokument från Utforskaren till dialogrutan **Dokument**.
 
-3. (valfritt) Klicka på ![ikon][img4] längst upp till höger för att ange dokumentet som **Slutfört** ![ikon][img1].
+3. (valfritt) Markera dokumentet som slutfört:
+
+    * Klassisk dialog: Klicka på bockikonen uppe till höger i dialogrutan.
+    * Ny (från version 10.3.10 pilot): Välj kryssrutan i sidfoten.
 
 4. [Ange den information som behövs i fälten](#fields).
 
@@ -159,8 +176,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png

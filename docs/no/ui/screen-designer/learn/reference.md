@@ -5,7 +5,7 @@ description: Oversikt over felt tilgjengelig i Skjermdesigneren i Innstillinger 
 keywords: Skjermdesigner, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -272,6 +272,35 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 * Agenda
 * Interne notater
 * Koblinger
+* Mer
+
+## Dokument (i pilot fra versjon 10.3.10)
+
+**Standardfelt:**
+
+| Felt | Type | Kommentar |
+|---|---|---|
+| Språk | Drop-down | Låst plassering |
+| Dato | Datovelger | Låst plassering |
+| Synlig for | Drop-down | Ingen alternativer |
+| Redigert av/Låst av | Tekst | Låst plassering |
+| Emne | Tekst | Tittel/overskrift |
+| [Dokumentmal][22] | Drop-down | Låst plassering |
+| Firma/Kontakt | Drop-down | Låst plassering |
+| Salg | Drop-down | |
+| Prosjekt | Drop-down | |
+| Vår ref / Din ref | Tekst | |
+| Fanebar | | Låst plassering |
+| Dokument | | Låst plassering |
+| Fullført | Avkrysningsboks | |
+
+For detaljer om verdien av hvert felt, se [databasereferansen][23].
+
+**Standardfaner:**
+
+* Detaljer
+* Koblinger
+* Mer
 
 ## Relatert innhold
 
@@ -281,6 +310,7 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 * [Lær mer om prosjekter][10]
 * [Lær mer om saker][14]
 * [Lær mer om avtaler][16]
+* [Lær mer om dokument][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ For detaljer om verdien av hvert felt, se [databasereferansen][7].
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

@@ -5,7 +5,7 @@ description: Reference over elementer, der er tilgængelige i Skærmdesigneren i
 keywords: Skærmdesigner, layout, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.6
+version: 10.3.10
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -115,10 +115,10 @@ For detaljer om værdien af hvert felt, se [databasereferencen][3].
 
 | Felt | Type | Kommentar |
 |---|---|---|
-| Firma | Dropdown | |
-| Konkurrent | Dropdown | |
-| Kontakt | Dropdown | |
-| Kredit | Dropdown | |
+| Firma | Drop-down | |
+| Konkurrent | Drop-down | |
+| Kontakt | Drop-down | |
+| Kredit | Drop-down | |
 | Beskrivelse | Tekstboks | Vælg antal rækker. Har ingen etiket |
 | Sidst ændret | Dato | |
 | Links | Links | Ingen muligheder |
@@ -126,12 +126,12 @@ For detaljer om værdien af hvert felt, se [databasereferencen][3].
 | Ejer | Drop-down | |
 | Sandsynlighed | Tekst | Højrejusteret procent |
 | Fortjeneste | Nummer | Procent og beløb |
-| Projekt | Dropdown | |
+| Projekt | Drop-down | |
 | Registreringsdato | Dato | |
 | Salgsdato | Datovælger | |
 | Salgstype | Drop-down | |
 | Salg | Tekst | |
-| Kilde | Dropdown | |
+| Kilde | Drop-down | |
 | Fase | Drop-down | |
 | Fase - workflow | Flerlinjet tekst | Ingen muligheder |
 | Totalomkostning | Nummer | Højrejusteret beløb |
@@ -246,19 +246,19 @@ For detaljer om værdien af hvert felt, se [databasereferencen][6].
 
 | Felt | Type | Kommentar |
 |---|---|---|
-| Alarm | Dropdown | |
+| Alarm | Drop-down | |
 | [Tjek tilgængelighed][15] | Planlægningsassistent | |
 | Færdiggjort | Afkrydsningsfelt | |
 | Links | Flerlinjet tekst | Vælg antal rækker. Ingen etiket |
-| Ejer | Dropdown | |
-| Prioritet | Dropdown | |
-| Projekt | Dropdown | |
-| Salg | Dropdown | |
+| Ejer | Drop-down | |
+| Prioritet | Drop-down | |
+| Projekt | Drop-down | |
+| Salg | Drop-down | |
 | [Foreslåede tidspunkter][15] | | Ingen muligheder |
 | Titel | Tekst | Låst placering. |
-| Type | Dropdown | Låst placering |
+| Type | Drop-down | Låst placering |
 | Videolink | Tekst | Ingen muligheder |
-| Synlig for | Dropdown | Ingen muligheder |
+| Synlig for | Drop-down | Ingen muligheder |
 | Tilpassede felter | | Både brugerdefinerede og ekstra |
 
 * Obligatoriske felter kan ikke flyttes eller fjernes. Dette gælder for: titel, type, tid, firma/kontakt, deltagere, steder og ressourcer.
@@ -272,6 +272,35 @@ For detaljer om værdien af hvert felt, se [databasereferencen][7].
 * Agenda
 * Interne notater
 * Links
+* Mere
+
+## Dokument (i pilot fra version 10.3.10)
+
+**Standardfelter:**
+
+| Felt | Type | Kommentar |
+|---|---|---|
+| Sprog | Drop-down | Låst placering |
+| Dato | Datovælger | Låst placering |
+| Synlig for | Drop-down | Ingen muligheder |
+| Redigeret af/Låst af | Tekst | Låst placering |
+| Emne | Tekst | Titlen/overskriften |
+| [Dokumentskabelon][22] | Drop-down | Låst placering |
+| Firma/Kontakt | Drop-down | Låst placering |
+| Salg | Drop-down | |
+| Projekt | Drop-down | |
+| Vores ref / Din ref | Tekst | |
+| Fanelinje | | Låst placering |
+| Dokument | | Låst placering |
+| Fuldført | Afkrydsningsfelt | |
+
+For detaljer om værdien af hvert felt, se [databasereferencen][23].
+
+**Standardfaner:**
+
+* Detaljer
+* Links
+* Mere
 
 ## Relateret indhold
 
@@ -281,6 +310,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][7].
 * [Læs mere om projekter][10]
 * [Læs mere om sager][14]
 * [Læs mere om aftaler][16]
+* [Læs mere om dokument][21]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
@@ -299,3 +329,6 @@ For detaljer om værdien af hvert felt, se [databasereferencen][7].
 [17]: ../../../../en/company/interests.md
 [18]: ../../../../en/company/category-list.md
 [20]: ../../../../en/globalization-and-localization/address/index.md
+[21]: ../../../document/learn/index.md
+[22]: ../../../document/templates/learn/index.md
+[23]: ../../../../en/database/tables/document.md

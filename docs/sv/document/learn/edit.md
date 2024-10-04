@@ -4,11 +4,13 @@ title: Redigera dokument
 description: Redigera dokument
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+language: sv
+pilot: yes
 ---
 
 # Redigera dokument
@@ -32,6 +34,9 @@ Om du vill ändra dokumentegenskaper, till exempel vilket projekt dokumentet är
 
 4. Klicka på **Spara**-knappen.
 
+> [!NOTE]
+> Du kan inte göra ändringar i slutförda dokument förrän du har inaktiverat deras **Slutfört**-status
+
 ## Redigera innehåll
 
 Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-installation.
@@ -41,15 +46,17 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 1. Dubbelklicka på dokumentet.
 
-2. Om en dialogruta öppnas klickar du på **Redigera**.
+1. Om en dialogruta öppnas klickar du på **Redigera**.
 
-3. Spara dokumentet och stäng ordbehandlingsprogrammet.
+1. Gör de ändringar som behövs.
 
-4. I dialogrutan som öppnas klickar du på **Ja** om du är klar med redigeringen av dokumentet. Klicka på **Nej** för att behålla dokumentet utcheckat.
+1. Spara dokumentet och stäng ordbehandlingsprogrammet.
+
+1. I dialogrutan som öppnas klickar du på **Ja** om du är klar med redigeringen av dokumentet. Klicka på **Nej** för att behålla dokumentet utcheckat.
 
     Den här dialogrutan visas bara om det här alternativet har aktiverats i SuperOffice WebTools.
 
-5. Dokumentet checkas in och statusen ändras till **Slutfört**.
+1. Dokumentet checkas in och statusen ändras till **Slutfört**.
 
 ### [Med SharePoint-dokument](#tab/sharepoint)
 
@@ -61,7 +68,7 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 2. Redigera dokumentet.
 
-3. Stäng fliken eller din desktop-app. Dokumentet sparas automatiskt till SharePoint
+3. Stäng fliken eller din desktop-app. Dokumentet sparas automatiskt till SharePoint.
 
 ### [Utan SuperOffice WebTools](#tab/no-webtools)
 
@@ -105,9 +112,21 @@ Dialogen ser något annorlunda ut i Chrome, Edge, Firefox och Safari.
 
 ## <a id="delete"></a>Ta bort dokument
 
+### Från detaljkortet Aktiviteter
+
 1. Välj dokumentet på detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Kalender, Försäljning eller Projekt.
-2. Klicka på knappen **Ta bort** längst ner till vänster i listan.
-3. Bekräfta eller avbryt borttagningen i dialogrutan **Ta bort dokument**.
+
+2. Högerklicka och välj **Ta bort**.
+
+3. Bekräfta eller avbryt borttagningen i bekräftelsedialogen.
+
+### Från dokumentdialogen
+
+När du visar ett specifikt dokument:
+
+1. Klicka på **Uppgift**-knappen i **Dokument**-dialogen.
+2. Välj **Ta bort**.
+3. Bekräfta eller avbryt borttagningen i bekräftelsedialogen.
 
 ## Felsökning
 
@@ -117,10 +136,15 @@ Om du dubbelklickar på ett dokument och ingenting händer, kan du testa att hö
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Relaterade ämnen
+
+* [Så ändrar du Slutförd-status för en aktivitet][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png

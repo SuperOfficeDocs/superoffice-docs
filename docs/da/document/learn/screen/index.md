@@ -3,7 +3,7 @@ uid: help-da-document-dialog
 title: Dialogboksen Dokument
 description: Dialogboksen Dokument
 author: SuperOffice RnD
-date: 06.29.2022
+date: 08.27.2024
 keywords: dokument
 topic: concept
 language: da
@@ -21,6 +21,9 @@ Dialogboksen består af en hoveddel med generelle oplysninger om dokumentet samt
 * Detaljer
 * Links
 * Mere
+
+> [!NOTE]
+> Beskrivelserne på denne side vedrører den klassiske Dokumentdialog. Hvis du bruger pilotversionen af den nye Dokumentdialog, se [Feltafdelingen][6] i vejledningen for forklaring af dialoger og felter.
 
 ## Hovedafsnit
 
@@ -85,7 +88,7 @@ Se [Tjek dokument ind/ud][4].
 
 ### Afsluttet
 
-Standardindstillingen er, at dokumentet er markeret som udført (![ikon][img4]), men du kan fjerne markeringen, hvis du vil (![ikon][img5]). I så fald vises dokumentet i detaljekortet **Aktiviteter** i skærmbilledet Dagbog, indtil det bliver markeret som udført.
+Standardindstillingen er, at dokumentet er markeret som udført ![ikon][img4], men du kan fjerne markeringen, hvis du vil. I så fald vises dokumentet i detaljekortet **Aktiviteter** i skærmbilledet Dagbog, indtil det bliver markeret som udført.
 
 > [!NOTE]
 > Du kan ikke foretage ændringer af udførte dokumenter, før du har deaktiveret statussen **Udført**. [Ændring af status Udført for en aktivitet][7].
@@ -138,6 +141,7 @@ Denne fane viser alle [brugerdefinerede felter][3], der er konfigureret i Indsti
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
+[6]: ../create.md#fields
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
@@ -146,4 +150,3 @@ Denne fane viser alle [brugerdefinerede felter][3], der er konfigureret i Indsti
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../media/icons/followup-completed-small.png
-[img5]: ../../../../media/icons/followup-not-completed-small.png

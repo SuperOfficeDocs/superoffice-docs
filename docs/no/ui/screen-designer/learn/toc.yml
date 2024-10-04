@@ -15,7 +15,7 @@ items:
   href: working-with-archives.md
 - name: Legg til knapp eller kobling
   href: add-button.md
-- name: Tilordne layout til gruppe/type
+- name: Tilordne layout til gruppe/type/mal
   href: assign-layout.md
 - name: Feltreferanse
   href: reference.md

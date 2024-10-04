@@ -5,7 +5,7 @@ description: Kom te weten hoe u uw kaarten configureert in deze gids.
 keywords: Schermontwerper, interface, opmaak, lay-out, aanpassen
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -39,7 +39,7 @@ Met de Schermontwerper kunt u:
 
 * De standaardopmaak van schermen voor alle gebruikers wijzigen of aangepaste opmaken maken voor specifieke gebruikersgroepen.
 
-* Opmaken ontwerpen die zijn geoptimaliseerd voor specifieke projecttypen, verkooptypen en aanmeldingstypen.
+* Opmaken ontwerpen die zijn geoptimaliseerd voor specifieke projecttypen, verkooptypen, aanmeldingstypen, vervolgactiviteittypen en documentsjablonen.
 
 * Velden verbergen die nooit worden gebruikt.
 
@@ -61,6 +61,7 @@ U kunt de volgende schermen en dialoogvensters aanpassen:
 * Project
 * Verzoek
 * Vervolgactiviteitdialoog
+* Documentdialoog (pilot)
 
 ## Hoe werken opmaken?
 
@@ -68,7 +69,7 @@ Opmaken in SuperOffice CRM bepalen hoe informatie aan gebruikers wordt gepresent
 
 * **Aangepaste opmaken**: Maak opmaken die specifiek zijn afgestemd op de behoeften van gebruikersgroepen.
 
-* **Opmaaktoewijzing**: Opmaken voor de Verkoop-, Project- en Verzoekschermen kunnen verder worden verfijnd door ze toe te wijzen aan specifieke verkooptakken, projecttypen en verzoektypen.
+* **Opmaaktoewijzing**: Opmaken voor de Verkoop-, Project- en Verzoekschermen kunnen verder worden verfijnd door ze toe te wijzen aan specifieke verkooptakken, projecttypen en verzoektypen. Evenzo kan de Vervolgactiviteitdialoog worden toegewezen aan vervolgactiviteittypen en de Documentdialoog aan documentsjablonen.
 
 * **Opmakentatus**: Opmaken kunnen zich in de status *concept* of *gepubliceerd* bevinden. Gepubliceerde opmaken zijn toegewezen aan de bijbehorende gebruikersgroepen/typen.
 

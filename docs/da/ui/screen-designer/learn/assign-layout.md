@@ -1,18 +1,18 @@
 ---
 uid: help-da-screen-designer-assign-layout
-title: Tildel layout til gruppe eller type
+title: Tildel layout til gruppe, type eller skabelon
 description: Sådan tildeler du et layout til en gruppe, salgstype, projekttype eller sagstype ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: Skærmdesigner, layout, tildel layout
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Tildel layout til gruppe eller type
+# Tildel layout til gruppe, type eller skabelon
 
 [!include[Krav](../../../../../common/includes/req-dev-tools.md)]
 
@@ -22,17 +22,18 @@ language: da
 
 1. Øverst vælger du en skærm eller dialog, som du vil tilpasse.
 
-1. Vælg tildelingsmetode (hvis ikke indstillet): Klik på teksten ved siden af **Tildel layout til**, og vælg gruppe eller type.
+1. Vælg tildelingsmetode (hvis ikke indstillet): Klik på teksten ved siden af **Tildel layout til**, og vælg gruppe, type eller skabelon.
 
     * Firma og person: kun brugergruppe
     * Salg: brugergruppe eller salgstype
     * Projekt: brugergruppe eller projekttype
     * Sag: brugergruppe eller sagstype
     * Opfølgning: brugergruppe eller opfølgningstype
+    * Dokument: brugergruppe eller dokumentskabelon (pilot)
 
 1. Vælg et layout i listen til venstre.
 
-Klik på feltet **Tildel til**, og vælg en gruppe eller type. Dine valgmuligheder afhænger af den valgte skærm.
+Klik på feltet **Tildel til**, og vælg en gruppe, type eller skabelon. Dine valgmuligheder afhænger af den valgte skærm.
 
 ## Begrænsninger
 

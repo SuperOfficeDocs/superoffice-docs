@@ -2,13 +2,15 @@
 uid: help-en-document-lock
 title: Check in/out documents
 description: Check in/out documents
-keywords: document
+keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 07.19.2024
-topic: howto
-language: en
+date: 10.08.2024
+version: 10.3.10
+topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
+pilot: yes
 ---
 
 # Check in/out documents
@@ -27,6 +29,9 @@ By default, a document is opened in edit mode. If you prefer to select read mode
 
 ## How do I know when a document is checked out?
 
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/lock-old)
+
 In the **Document** dialog, a checked-out document has one of the following icons:
 
 ![icon][img3] The document is currently checked out for editing by you.
@@ -36,6 +41,17 @@ In the **Document** dialog, a checked-out document has one of the following icon
 Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
 If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
+
+### [New (from version 10.3.10 pilot)](#tab/lock-new)
+
+In the **Document** dialog, a checked-out document displays a banner showing who is editing it.
+
+![icon][img5] **You** are editing this document.
+
+![icon][img5] You cannot edit this document because it is locked by **NN**.
+
+***
+<!-- markdownlint-restore -->
 
 ## Check out a document for editing
 
@@ -57,13 +73,13 @@ You need special privileges to access this option. You also need write access to
 If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
-2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.
+2. In the **Document** dialog, click **Task** and select **Revert to saved version**.
 
 <!-- Referenced links -->
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/document-lock-editing.png
 [img4]: ../../../media/icons/document-lock-locked.png
+[img5]: ../../../../common/icons/ops.png

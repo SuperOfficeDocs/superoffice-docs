@@ -4,11 +4,13 @@ title: Dokumente bearbeiten
 description: Dokumente bearbeiten
 keywords: Dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
+pilot: yes
 ---
 
 # Dokumente bearbeiten
@@ -32,6 +34,9 @@ Verwenden Sie das Dialogfeld Dokument, um die Dokumenteigenschaften zu ändern, 
 
 4. Klicken Sie auf die Schaltfläche **Speichern**.
 
+> [!NOTE]
+> Erledigte Dokumente können Sie nur bearbeiten, wenn Sie den Status **Abgeschlossen** aufheben.
+
 ## Inhalte bearbeiten
 
 Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in Ihrer SuperOffice-Installation verwaltet werden.
@@ -41,15 +46,17 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 
 1. Doppelklicken Sie auf das gewünschte Dokument.
 
-2. Klicken Sie auf **Bearbeiten**, wenn ein Dialogfeld geöffnet wird.
+1. Klicken Sie auf **Bearbeiten**, wenn ein Dialogfeld geöffnet wird.
 
-3. Speichern Sie und schließen Sie das Textbearbeitungsprogramm.
+1. Nehmen Sie die erforderlichen Änderungen vor.
 
-4. (falls zutreffend) Klicken Sie in dem angezeigten Dialogfeld auf **Ja**, wenn Sie mit der Bearbeitung des Dokuments fertig sind. Klicken Sie auf **Nein**, wenn das Dokument weiterhin ausgecheckt bleiben soll.
+1. Speichern Sie und schließen Sie das Textbearbeitungsprogramm.
+
+1. (falls zutreffend) Klicken Sie in dem angezeigten Dialogfeld auf **Ja**, wenn Sie mit der Bearbeitung des Dokuments fertig sind. Klicken Sie auf **Nein**, wenn das Dokument weiterhin ausgecheckt bleiben soll.
 
     Dieses Dialogfeld wird nur angezeigt, wenn diese Option in SuperOffice WebTools aktiviert wurde.
 
-5. Das Dokument wird eingecheckt und erhält den Status **Abgeschlossen**.
+1. Das Dokument wird eingecheckt und erhält den Status **Abgeschlossen**.
 
 ### [Mit SharePoint](#tab/sharepoint)
 
@@ -105,9 +112,21 @@ Die Dialogbox sieht in Chrome, Edge, Firefox und Safari etwas anders aus.
 
 ## <a id="delete"></a>Dokumente löschen
 
+### Aus der Bereichsregisterkarte Aktivitäten
+
 1. Wählen Sie das gewünschte Dokument in der Ansicht Firma, Person, Kalender, Verkauf oder Projekt in der Bereichsregisterkarte **Aktivitäten** aus.
-2. Klicken Sie links unter der Liste auf die Schaltfläche **Löschen**.
-3. Bestätigen oder brechen Sie die Löschung im Dialogfeld **Dokument löschen** ab.
+
+2. Klicken Sie mit der rechten Maustaste und wählen Sie **Löschen**.
+
+3. Bestätigen oder abbrechen Sie die Löschung im Bestätigungsdialog.
+
+### Aus dem Dokument-Dialog
+
+Beim Anzeigen eines bestimmten Dokuments:
+
+1. Klicken Sie auf die Schaltfläche **Aufgabe** im **Dokument**-Dialog.
+2. Wählen Sie **Löschen**.
+3. Bestätigen oder abbrechen Sie die Löschung im Bestätigungsdialog.
 
 ## Fehlerbehebung
 
@@ -117,10 +136,15 @@ Wenn Sie auf ein Dokument doppelklicken und nichts geschieht, klicken Sie mit de
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
+## Verwandte Themen
+
+* [Wie man den Status Abgeschlossen für eine Aktivität ändert][4]
+
 <!-- Referenced links -->
 [1]: lock.md
 [2]: create.md
-[3]: screen/index.md
+[3]: create.md#fields
+[4]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png

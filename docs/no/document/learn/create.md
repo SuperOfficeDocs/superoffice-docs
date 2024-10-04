@@ -4,11 +4,13 @@ title: Opprett nytt dokument
 description: Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp eksisterende, for å sikre at du og kollegene dine alltid har tilgang til de nyeste dokumentene og versjonene. Denne veiledningen viser deg hvordan du gjør begge deler.
 keywords: dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
+pilot: yes
 ---
 
 # Opprett nye dokument
@@ -84,7 +86,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 7. Gå til dialogboksen Dokument.
 
     > [!NOTE]
-    > Hvis ![icon][img1] **Fullført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
+    > Hvis **Fullført** er merket av på Dokument-dialogen, er opplastingsalternativene deaktivert. Fjern i så fall avmerkingen for **Utført**.
 
 8. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
 
@@ -99,7 +101,19 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 > [!NOTE]
 > Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
-![Opprett dokument fra mal -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/dialog-old)
+
+![Opprett dokument fra mal (klassisk) -screenshot][img3]
+
+### [Ny (fra version 10.3.10 pilot)](#tab/dialog-new)
+
+![Opprett dokument fra mal (ny) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Trinn:**
 
 1. Velg en [dokumentmal][5]. Velg et språk for malen. Dette feltet er bare tilgjengelig hvis den valgte malen inneholder oversatte versjoner.
 
@@ -133,7 +147,10 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 2. Dra og slipp dokumentet fra Windows Explorer til dialogboksen **Dokument**.
 
-3. (valgfritt) Klikk på ![icon][img4] øverst til høyre for å sette dokumentet til **Fullført** ![icon][img1].
+3. (valgfritt) Marker dokumentet som fullført:
+
+     * Klassisk dialog: Klikk på hakeikonet øverst til høyre i dialogboksen.
+     * Ny (fra versjon 10.3.10 pilot): Velg avmerkingsboksen i footeren.
 
 4. [Fyll ut feltene med nødvendig informasjon](#fields).
 
@@ -159,8 +176,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png

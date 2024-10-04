@@ -5,7 +5,7 @@ description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i 
 keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.2.11
+version: 10.3.10
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,11 +38,17 @@ For eksempel, hvis dit salgsteam fokuserer på kundeinteraktioner, kan du sikre,
 Med Skærmdesigneren kan du:
 
 * Ændre standardlayoutet for skærme for alle brugere eller oprette egne layouts for specifikke brugergrupper.
-* Designe layouts optimeret til specifikke projekttyper, salgstyper og sagstyper.
+
+* Designe layouts optimeret til specifikke projekttyper, salgstyper, sagstyper, opfølgningstyper og dokumentskabeloner.
+
 * Skjule felter, der aldrig bruges.
+
 * Fremhæve nøgledata ved at formatere felter (f.eks. fed eller stor skrift).
+
 * Tilføje knapper og links til at udløse automatiserede processer (CRMScript) eller eksterne opslag.
+
 * Organisere brugerdefinerede felter under fanen **Mere** eller andre brugerdefinerede faner.
+
 * Tilføje, omarrangere eller fjerne faner efter behov.
 
 ## Hvilke skærme kan jeg konfigurere?
@@ -55,6 +61,7 @@ Du kan tilpasse følgende skærme og dialoger:
 * Projekt
 * Sag
 * Opfølgningsdialog
+* Dokumentdialog (pilot)
 
 ## Hvordan fungerer layouts?
 
@@ -62,7 +69,7 @@ Layouts i SuperOffice CRM styrer, hvordan information præsenteres for brugerne.
 
 * **Egne layouts:** Opret layouts, der er specifikt skræddersyet til behovene hos brugergrupper.
 
-* **Layouttildeling:** Layouts for salgs-, projekt- og sagsskærme kan yderligere tilpasses ved at tildele dem specifikke salgstyper, projekttyper og sagstyper.
+* **Layouttildeling:** Layouts for salgs-, projekt- og sagsskærme kan yderligere tilpasses ved at tildele dem specifikke salgstyper, projekttyper og sagstyper. Tilsvarende kan Opfølgningsdialogen tildeles opfølgningstyper, og Dokumentdialogen kan tildeles dokumentskabeloner.
 
 * **Layoutstatus:** Layouts kan være i en *kladde* eller *udgivet* tilstand. Udgivne layouts er markeret med de tildelte brugergrupper/typer.
 

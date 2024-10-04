@@ -4,11 +4,13 @@ title: Neues Dokument erstellen
 description: "Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder laden Sie ein bestehendes hoch, um sicherzustellen, dass Sie und Ihre Kollegen immer Zugriff auf die neuesten Dokumente und Versionen haben. Diese Anleitung zeigt Ihnen, wie Sie beides machen können."
 keywords: Dokument
 author: Bergfrid Dias
-date: 08.02.2024
+date: 10.08.2024
+version: 10.3.10
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
+pilot: yes
 ---
 
 # Neue Dokumente erstellen
@@ -84,7 +86,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 7. Gehen Sie zum Dialogfeld Dokument.
 
     > [!NOTE]
-    > Wenn ![Symbol][img1] **Abgeschlossen** in der Anzeige Dokument aktiviert ist, sind die Optionen Herunterladen deaktiviert. Entfernen Sie in diesem Fall das Häkchen für die Option **Abgeschlossen**.
+    > Wenn **Abgeschlossen** in der Anzeige Dokument aktiviert ist, sind die Optionen Herunterladen deaktiviert. Entfernen Sie in diesem Fall das Häkchen für die Option **Abgeschlossen**.
 
 8. Klicken Sie auf den Link, um das Dokument hochzuladen oder ziehen und legen Sie das Dokument vom Windows Explorer im Dialogfeld **Dokument** ab.
 
@@ -99,7 +101,19 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 > [!NOTE]
 > Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![icon][img5], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
 
-![Dokument aus Vorlage erstellen -screenshot][img3]
+<!-- markdownlint-disable MD051 -->
+### [Klassisch](#tab/dialog-old)
+
+![Dokument aus Vorlage erstellen (klassisch) -screenshot][img3]
+
+### [Neu (ab Version 10.3.10 pilot)](#tab/dialog-new)
+
+![Dokument aus Vorlage erstellen (neu) -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
+
+**Scritte:**
 
 1. Wählen Sie eine [Dokumentvorlage][5]. Wählen Sie eine Sprache für die Vorlage. Diese Option ist nur verfügbar, wenn die ausgewählte Vorlage übersetzte Versionen enthält.
 
@@ -133,7 +147,10 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 2. Ziehen Sie das Dokument aus dem Windows Explorer in das Dialogfeld **Dokument** und legen Sie es dort ab.
 
-3. (Optional) Klicken Sie in der Ecke rechts oben auf ![Symbol][img4], um das Dokument auf **Abgeschlossen** ![Symbol][img1] zu setzen.
+3. (Optional) Markieren Sie das Dokument als abgeschlossen:
+
+    * Klassischer Dialog: Klicken Sie auf das Häkchensymbol oben rechts im Dialog.
+    * Neu (ab Version 10.3.10 pilot): Wählen Sie das Kontrollkästchen in der Fußzeile aus.
 
 4. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein](#fields).
 
@@ -159,8 +176,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/followup-completed-small.png
-[img4]: ../../../media/icons/followup-not-completed-small.png
 [img2]: ../../../media/loc/en/document/upload.png
 [img3]: ../../../media/loc/en/document/create-document.png
+[img4]: ../../../media/loc/en/document/create-document-pilot.png
 [img5]: ../../../../common/icons/dropdown-icon.png
