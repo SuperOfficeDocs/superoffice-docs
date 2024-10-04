@@ -5,7 +5,7 @@ description: Lær hvordan du konfigurerer skjermbilder i denne veiledningen.
 keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilpasning
 author: Bergfrid Dias
 date: 10.07.2024
-version: 10.3.8
+version: 10.3.10
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
